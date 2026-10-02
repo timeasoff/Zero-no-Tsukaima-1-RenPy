@@ -229,7 +229,7 @@ label library_ch1_8:
             voice "ch1.8_t_003-2"
             t "...It's something you don't need to understand."
 
-            voice "ch1.8_s_013-3"
+            voice "ch1.8_s_013-2"
             s "Ah... I see."
             th "On top of not being able to read it in the first place, if it's a thesis on magic, then yeah, it really is meaningless to me."
             

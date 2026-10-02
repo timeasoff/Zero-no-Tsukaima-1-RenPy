@@ -123,6 +123,15 @@ image map: ids=312 named=0 open=312 | placeholders=0 in 0 file(s)
 - [ ] Каждый `【好感度】X N` → `update_sympathy(N, char_key="…")`.
 - [ ] `voice "…"` → существующий `.ogg` в `game/audio/voices/`; использованные строки
       `transcriptions_ja_ru.csv` удалены/помечены; лишних ссылок нет (E3/W2).
+- [ ] Для каждой новой реплики есть пара `voice_name,voice_id` в
+      `references/voice_id_map.csv`; финальный прогон голосов выполнен **до**
+      `check_project.py`: `python tools/media/audio_converter.py convert --apply`,
+      затем `… check` → `RESULT: OK` (отчёты `reports/voice_convert.md`,
+      `reports/voice_check.md`).
+- [ ] Незарегистрированные сущности вынесены в отчёт части отдельным разделом:
+      персонаж без `define` (зарегистрированного на этом же шаге — всё равно
+      указать), фон/CG без строки в `references/image_id_map.csv`, BGM/SE без
+      файла или без имени (`t{K-1}`, `id(K)`).
 - [ ] У каждой новой EN-строки есть `old/new` **и** в `tl/japanese`, **и** в
       `tl/russian` (в правильном бакете), `old` дословно совпадает со строкой сценария.
 - [ ] JA-`new` дословно из источника, переносы строк склеены, мысли в `（ ）`.
@@ -149,7 +158,8 @@ image map: ids=312 named=0 open=312 | placeholders=0 in 0 file(s)
 ## 6. Рекомендуемый ритм
 
 ```text
-запись части  →  python tools/check_project.py  →  разбор ERROR/WARNING
+запись части  →  audio_converter.py check/convert --apply (финальный этап голосов)
+             →  python tools/check_project.py  →  разбор ERROR/WARNING
              →  отчёт reports/ch<N>/<part>.md   →  запись решений в reports/log.md
 перед финалом главы → прогон ещё раз → RESULT: OK + I1-счётчик сходится с talk
 ```

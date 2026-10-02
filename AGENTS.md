@@ -149,8 +149,15 @@ game/tl/russian/<bucket>.rpy             ← translate russian strings:  old "EN
 3. Разрезать на части алгоритмом §3, назначить лейблы, связать `jump`.
 4. Портировать по порядку: `*_fx` → `voice` → реплика (EN) → `menu`/`*_choice` → `jump`,
    параллельно дописывая `old/new` в оба `tl/`.
-5. Портировать голоса по скиллу `voice-workflow` (id → `.STV` → `.ogg` → имя → строка
-   `voice`; использованную строку удалить/пометить в `transcriptions_ja_ru.csv`).
+5. Портировать голоса по скиллу `voice-workflow`: `[voice N]` → id → строка
+   `voice "…"` → строка `voice_name,voice_id` в `references/voice_id_map.csv`.
+   Дорожки уже лежат в `wav_source/`; путь `.STV → wav` — только если id нет в
+   `wav_source`. Использованную строку удалить/пометить в `transcriptions_ja_ru.csv`.
+   **Финальный этап части** (реплики готовы, пары имя↔id проставлены): подключить
+   `.ogg` конвертером — `python tools/media/audio_converter.py convert --apply`
+   (отчёт `reports/voice_convert.md`; сверка без записи — подкоманда `check`,
+   `reports/voice_check.md`). Только после этого шаг 7: `check_project.py` иначе
+   даст E3 «voice без ogg».
 6. Перевод: EN-база — в сценарий, JA/RU — в `tl` (скилл `tl-en-ru`, правила `game/PROMTS.md`).
 7. Прогнать `python tools/check_project.py` и закрыть чек-лист `project-checks`.
 8. Написать отчёт `reports/ch<N>/<part>.md`; решения/сомнения — в `reports/log.md`.
@@ -180,6 +187,13 @@ game/tl/russian/<bucket>.rpy             ← translate russian strings:  old "EN
 * **Все отклонения от источника фиксируются** в `reports/log.md` (удаления, сокращения,
   расхождения JA ↔ EN ↔ RU, сомнения). **Молча ничего не удаляется.**
 * **Места, требующие решения человека,** — пометка `???` в отчёте части + запись в журнал.
+* **Незарегистрированные сущности называются вслух.** Встретился персонаж без `define`
+  в `game/characters.rpy`, фон/CG без строки в `references/image_id_map.csv`, BGM/SE
+  без файла или без правила именования (`t{K-1}`, заглушка `id(K)`) — это значит
+  **«файла нет / не зарегистрировано»**: отдельный раздел в отчёте части (и запись
+  в `reports/log.md`, если решение отложено). Говорящего можно зарегистрировать
+  (`voice-workflow` §4.3), но в отчёте он всё равно обязан быть указан; фон/звук —
+  не подгонять «на глазок», а отметить и зафиксировать PROVISIONAL/???.
 * **Термины — только по `dictionary.md`, обращения — по `addresses.md`.** Словарная запись —
   каноническое лексическое соответствие, а не механическая замена (скилл
   `terminology-dictionary`).
@@ -289,7 +303,7 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 |---|---|
 | `ps2-source` | парсер `ps2_source/{chapters,events_full}/*.txt`, CP932-подвохи, две сигнатуры `talk()`, таблица глав, порядок обхода, резка на части, `extra scenes:` |
 | `renpy-remaster-api` | таблица PS2 → Ren'Py (`references/ps2_to_renpy.csv`), сигнатуры `*_fx` / `show_sprites` / `update_sympathy` / `overlay_screen` / `*_choice`, уникальность `from _call_overlay_screen_K`, что **не** переносится |
-| `voice-workflow` | id голоса → `.STV` → `.ogg` → имя, `transcriptions_ja_ru.csv`, таблица говорящих, правило «идти по id, а не по тексту» |
+| `voice-workflow` | `[voice N]` → id → строка `voice` → манифест `references/voice_id_map.csv` → финальный `audio_converter.py` (`.ogg`), `wav_source/`, `transcriptions_ja_ru.csv`, таблица говорящих, правило «идти по id, а не по тексту» |
 | `tl-en-ru` | EN-база в сценарии + `old/new` в `tl/{japanese,russian}`, бакеты, дословный `old`, правила `game/PROMTS.md` |
 | `assets` | BGM `t{K-1}`, политика SE, `references/image_id_map.csv` (генератор `tools/build_image_id_map.py`, заглушки `id(K)` и `tools/replace_bg_placeholders.py`), где лежат оригиналы PNG/STV |
 | `project-checks` | автопроверки: `tools/check_project.py` + ручные пункты приёмки части |
@@ -316,6 +330,7 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 
 ```text
 python tools/check_project.py             # E1…E10, W1…W6, I1 → reports/check_project.md
+python tools/media/audio_converter.py     # голоса wav_source → game/audio/voices: check / convert / scan
 python tools/build_image_id_map.py        # пересборка справочника id картинок
 python tools/replace_bg_placeholders.py   # замена заглушек id(K) (по умолчанию dry-run)
 python tools/agent_workflow.py            # меню промптов/действий для агент-сессии (--list)
@@ -367,6 +382,8 @@ project-checks        → автопроверки + чек-лист приём�
 reports/log.md                  # общий журнал решений (дополняется, не переписывается)
 reports/ch<N>/<part>.md         # отчёт по части script-ch<N>_<M>.rpy
 reports/check_project.md        # последний прогон tools/check_project.py
+reports/voice_check.md          # последний audio_converter.py check (голоса)
+reports/voice_convert.md        # последняя конвертация голосов (финальный этап части)
 reports/sma/ch<N>/<part>/
     a/  b/  c/                  # evidence независимых аудиторов (<run_id>.md)
     precheck/                   # детерминированная сверка покрытия (evidence, не голос)
@@ -374,8 +391,12 @@ reports/sma/ch<N>/<part>/
 ```
 
 Шаблон отчёта части: источники и границы → соответствие сцен → неперенесённые вызовы
-(MOVIE/COFFEE/…) → голоса → перевод (EN/RU) → аудиты (по каждому кандидату:
-classification + disposition) → PROVISIONAL/??? → чек-лист `project-checks`.
+(MOVIE/COFFEE/…) → голоса (манифест, `audio_converter.py`, **нет аудио / нет пары
+имя↔id**) → **незарегистрированные сущности** (персонаж без `define`, фон/CG без
+строки в `image_id_map.csv`, BGM/SE без файла — отдельным разделом, даже если
+говорящий зарегистрирован на этом же шаге) → перевод (EN/RU) → аудиты (по каждому
+кандидату: classification + disposition) → PROVISIONAL/??? → чек-лист
+`project-checks`.
 Отчёты — UTF-8, входят в git. Итоговая сводка по главе — последним разделом отчёта её
 последней части.
 
@@ -391,7 +412,15 @@ classification + disposition) → PROVISIONAL/??? → чек-лист `project-c
 - [ ] Каждый `[BGM play=+K]` → `t{K-1}`; ни один `t*` не взят «на глазок».
 - [ ] Каждый `→ next scene` / `【…】` → конкретный `jump`/`menu`/`*_choice`; дыр нет.
 - [ ] Каждый `【好感度】X N` → `update_sympathy(N, char_key="…")`.
-- [ ] `voice "…"` → существующий `.ogg`; использованные строки CSV удалены/помечены.
+- [ ] `voice "…"` → существующий `.ogg`; использованные строки CSV удалены/помечены;
+      для каждой новой реплики есть пара `voice_name,voice_id` в
+      `references/voice_id_map.csv` (реплики без пары — в отчёте части).
+- [ ] Финальный этап голосов: `python tools/media/audio_converter.py convert --apply`
+      выполнен, подкоманда `check` → `RESULT: OK`; свежие `reports/voice_convert.md`
+      и `reports/voice_check.md`.
+- [ ] Незарегистрированные сущности (персонаж без `define`, фон/CG без строки в
+      `image_id_map.csv`, BGM/SE без файла) перечислены в отчёте части отдельным
+      разделом — даже если говорящий зарегистрирован на этом же шаге.
 - [ ] У каждой новой EN-строки есть `old/new` **и** в `tl/japanese`, **и** в `tl/russian`
       (в правильном бакете), `old` дословно совпадает со строкой сценария.
 - [ ] JA-`new` дословно из источника, переносы строк склеены, мысли в `（ ）`.

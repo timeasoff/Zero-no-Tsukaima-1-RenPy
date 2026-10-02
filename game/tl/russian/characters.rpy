@@ -50,4 +50,37 @@ translate russian strings:
     old "Villager"
     new "Деревенский житель"
 
+    old "Weatherby"
+    new "Уэзерби"
+
+    old "Akina"
+    new "Акина"
+
+    old "Merchant"
+    new "Торговец"
+
+    old "Informant"
+    new "Информатор"
+
+    old "Cat"
+    new "Кот"
+
+    old "Customer"
+    new "Покупатель"
+
+    old "Man A"
+    new "Мужчина А"
+
+    old "Man B"
+    new "Мужчина Б"
+
+    old "Man C"
+    new "Мужчина В"
+
+    old "Innkeeper"
+    new "Трактирщик"
+
+    old "Shopkeeper"
+    new "Лавочник"
+
 

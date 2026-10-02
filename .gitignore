@@ -25,6 +25,10 @@
 /dialogue.txt
 /strings.json
 
+# Python bytecode (tools/)
+__pycache__/
+*.pyc
+
 
 #ignore big files
 /game/gui/

@@ -50,3 +50,36 @@ translate japanese strings:
     old "Villager"
     new "村人"
 
+    old "Weatherby"
+    new "ウェザリー"
+
+    old "Akina"
+    new "アキナ"
+
+    old "Merchant"
+    new "商人"
+
+    old "Informant"
+    new "情報屋"
+
+    old "Cat"
+    new "猫"
+
+    old "Customer"
+    new "客"
+
+    old "Man A"
+    new "男Ａ"
+
+    old "Man B"
+    new "男Ｂ"
+
+    old "Man C"
+    new "男Ｃ"
+
+    old "Innkeeper"
+    new "宿の主人"
+
+    old "Shopkeeper"
+    new "店主"
+

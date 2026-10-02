@@ -18,6 +18,22 @@ define soldier = Character(_("Soldier"), color="#797979")
 define mage = Character(_("Mage"), color="#d82b2b")
 define unds = Character(_("Underlings"), color="#d82b2b")
 
+# --- Дополнительные NPC: зарегистрированы заранее (таблица §4.2 скилла
+#     voice-workflow). Имена/коды PROVISIONAL — запись в reports/log.md;
+#     при появлении первых реплик сверить с dictionary.md и указать персонажа
+#     в отчёте части отдельным разделом (регистрация не отменяет отчётности).
+define w         = Character(_("Weatherby"), color="#797979")
+define ak        = Character(_("Akina"), color="#797979")
+define merchant  = Character(_("Merchant"), color="#797979")
+define informant = Character(_("Informant"), color="#797979")
+define cat       = Character(_("Cat"), color="#797979")
+define customer  = Character(_("Customer"), color="#797979")
+define man_a     = Character(_("Man A"), color="#797979")
+define man_b     = Character(_("Man B"), color="#797979")
+define man_c     = Character(_("Man C"), color="#797979")
+define innkeeper = Character(_("Innkeeper"), color="#797979")
+define shopkeeper = Character(_("Shopkeeper"), color="#797979")
+
 
 define unk = Character(_("???"), color="#000000") #protagonist
 define unk_ha = Character(_("???"), color="#4b4d51") # haruna

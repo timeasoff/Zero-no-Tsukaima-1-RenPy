@@ -74,6 +74,7 @@ TL_BUCKETS = ("dialogs", "thoughs", "choises", "common",
 CHECK_TOOL = os.path.join("tools", "check_project.py")
 IMAGE_MAP_TOOL = os.path.join("tools", "build_image_id_map.py")
 BG_TOOL = os.path.join("tools", "replace_bg_placeholders.py")
+VOICE_TOOL = os.path.join("tools", "media", "audio_converter.py")
 IMAGE_MAP_CSV = os.path.join("references", "image_id_map.csv")
 PS2_TO_RENPY_CSV = os.path.join("references", "ps2_to_renpy.csv")
 STATS_FILE = os.path.join(ROOT, "ps2_source", "chapter_stats.json")
@@ -1935,6 +1936,60 @@ def action_bg_placeholders(ch: Chapter) -> int:
     return code
 
 
+def action_voice_check(ch: Chapter) -> int:
+    """Сверка голосов: сценарий / манифест / wav_source (без записи)."""
+    say()
+    separator("=")
+    say()
+    say("  Действие: сверка голосов (сценарий / манифест / wav_source)")
+    say(f"  Часть: {ch.part_id}")
+    say()
+    say("  Отчёт: reports/voice_check.md")
+    say("  RESULT: ISSUES, если есть voice-строки без пары в")
+    say("  references/voice_id_map.csv, без дорожки в wav_source/ или")
+    say("  строки манифеста без voice_id.")
+    say("  Предупреждения (говорящий без define, неразобранный файл,")
+    say("  неиспользуемая строка манифеста) прогон не блокируют, но")
+    say("  переносятся в отчёт части (AGENTS.md §5).")
+    say()
+    separator("=")
+    say()
+    if _tool_missing(VOICE_TOOL):
+        return 1
+    return _run_tool(VOICE_TOOL, ["check"])
+
+
+def action_voice_convert(ch: Chapter) -> int:
+    """Конвертация wav_source -> game/audio/voices (финальный этап части)."""
+    say()
+    separator("=")
+    say()
+    say("  Действие: конвертация голосов (финальный этап части)")
+    say(f"  Часть: {ch.part_id}")
+    say()
+    say("  Источник: wav_source/ + references/voice_id_map.csv")
+    say("  Приёмник: game/audio/voices/<voice_name>.ogg")
+    say("  Режим по умолчанию: dry-run (только список, без записи).")
+    say("  Отчёт: reports/voice_convert.md")
+    say()
+    separator("=")
+    say()
+    if _tool_missing(VOICE_TOOL):
+        return 1
+    args = ["convert"] + (["--apply"] if CLI_APPLY else [])
+    code = _run_tool(VOICE_TOOL, args)
+    say()
+    if CLI_APPLY:
+        say("  Режим --apply: .ogg записаны в game/audio/voices/.")
+        say("  Дальше: python tools/media/audio_converter.py check,")
+        say("  затем python tools/check_project.py (E3/W2).")
+    else:
+        say("  Это был dry-run. .ogg НЕ создавались.")
+        say("  Для конвертации: python tools/media/audio_converter.py "
+            "convert --apply")
+    return code
+
+
 ACTIONS: list[ActionInfo] = [
     ActionInfo(
         "check-project",
@@ -1965,6 +2020,18 @@ ACTIONS: list[ActionInfo] = [
         "Замена заглушек id(K)",
         "python tools/replace_bg_placeholders.py - dry-run, --apply для записи",
         action_bg_placeholders,
+    ),
+    ActionInfo(
+        "voice-check",
+        "Сверка голосов",
+        "python tools/media/audio_converter.py check -> reports/voice_check.md",
+        action_voice_check,
+    ),
+    ActionInfo(
+        "voice-convert",
+        "Конвертация голосов (финальный этап)",
+        "python tools/media/audio_converter.py convert - dry-run, --apply для записи",
+        action_voice_convert,
     ),
 ]
 

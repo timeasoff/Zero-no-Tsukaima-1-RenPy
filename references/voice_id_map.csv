@@ -1,0 +1,11 @@
+voice_name,voice_id,wav_file,notes
+# Манифест голосов ZnT1: имя строки voice "..." -> id дорожки в wav_source/
+# voice_name - имя без .ogg, как в сценарии (ch3_g_012 / ch3.2_s_007)
+# voice_id   - десятичный [voice N] из ps2_source/chapters/*.txt
+# wav_file   - необязательно: если дорожка лежит в wav_source под другим именем
+# notes      - необязательно (ссылка на источник, сомнения, PROVISIONAL)
+# Пишут агенты при портировании реплики (скилл voice-workflow, шаг 5),
+# читает tools/media/audio_converter.py (check/convert) на финальном этапе части.
+# Строки, начинающиеся с #, инструментом пропускаются.
+# Уже созданные .ogg (главы 0/1, extra) строк не требуют: check принимает
+# существующий .ogg как достаточное состояние.

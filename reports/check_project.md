@@ -284,13 +284,13 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:157: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the first chapter!{/size}
-- W2 7 ogg not referenced by any script
+- W2 6 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
 
 ## INFO (32)
 
-- speakers defined: 21
+- speakers defined: 32
 - overlay K: max=6 used=6 next_free=7
 - voices: refs=1156 ogg=1162 missing=0
 - I1 ch2: not started (source talk=1382)
@@ -321,5 +321,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=312 named=0 open=312 | placeholders=0 in 0 file(s)
-- labels=33 rpy=47 strings(strict=1281) tl_old=japanese:1754,russian:1781
+- labels=33 rpy=47 strings(strict=1281) tl_old=japanese:1765,russian:1792
 
