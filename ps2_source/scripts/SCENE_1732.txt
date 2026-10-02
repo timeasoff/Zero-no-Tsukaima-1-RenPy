@@ -1,0 +1,43 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+}
+talk("サイト", null, "もぐもぐもぐ……。", (0x04000000 +10399));
+talk("ルイズ", null, "おいしい？", (0x04000000 +5102));
+talk("サイト", null, "うん！\n美味い！！", (0x04000000 +10400));
+talk("ルイズ", null, "ホント！？\nそれじゃあ、もう一回！\nあーん！", (0x04000000 +5103));
+talk("サイト", null, "……へ？", (0x04000000 +10401));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +180)});
+waitLoad(true);
+talk("ルイズ", null, "もう一回！", (0x04000000 +5104));
+talk("サイト", null, "わ、分かったよ……。\n……あーん。", (0x04000000 +10402));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+talk("ルイズ", null, "よく出来ました。\nはい、あーん。", (0x04000000 +5105));
+talk("サイト", null, "え……ま、また？", (0x04000000 +10403));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +181)});
+waitLoad(true);
+talk("ルイズ", null, "あ、あたりまえでしょ！\nわたしの気が済む……こ、こほん、\nわたしがいいって言うまでさせるんだから。", (0x04000000 +5106));
+talk("サイト", null, "マ、マジっすか？", (0x04000000 +10404));
+talk("ルイズ", null, "なによ？\nいやなの？", (0x04000000 +5107));
+talk("サイト", null, "い、いや、そんなことはないけど……。", (0x04000000 +10405));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+talk("ルイズ", null, "ほらっ、あーん。", (0x04000000 +5108));
+talk("サイト", null, "あ、あーん……。", (0x04000000 +10406));
+talk("サイト", null, "（なんだこの、気恥ずかしいやら痒いやら、\n　複雑な気分は……）", null);
+talk("サイト", null, "（なんの罰ゲームっすか……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

@@ -1,0 +1,142 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +324)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +451)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "そう言えば、春奈は？", (0x04000000 +10998));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "まだ寝てらっしゃるようですけど。", (0x04000000 +14561));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +324)});
+talk("ルイズ", null, "ふふん、わたしよりよっぽどお寝坊さんが\nいたみたいね。", (0x04000000 +5731));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "いや、それ全然威張れた話じゃないからな？", (0x04000000 +10999));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "あの、ハルナさん……。\n……あら？", (0x04000000 +14562));
+set("lay2", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "……どうしたの、シエスタ？", (0x04000000 +11000));
+set("bgm", {stop = 1000});
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +154)});
+trans("crossfade", 1000);
+msgon()
+talk("シエスタ", null, "ハルナさん、顔色が悪いです。\nそれに、熱も出てるようですし……。", (0x04000000 +14563));
+talk("ハルナ", null, "……平賀くん……。\nルイズさん、シエスタさん……。\nごめんなさい。", (0x04000000 +2084));
+talk("ルイズ", null, "ちょ、ちょっと何謝ってるのよ！\nしっかりしなさいよ。", (0x04000000 +5732));
+talk("ハルナ", null, "なんだか体がだるくて、\n力が入らなくって……。", (0x04000000 +2085));
+talk("サイト", null, "分かったから、もう話すな。\nごめん、シエスタ。\nモンモランシーを起こしてもらえないか？", (0x04000000 +11001));
+talk("シエスタ", null, "はい、分かりました。", (0x04000000 +14564));
+msgoff()
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +880)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +418)});
+msgon()
+talk("モンモランシー", null, "まったく、朝から人をたたき起こすなんて、\n困った人達ね。\n確かに協力する……とはいいましたけど。", (0x04000000 +4062));
+talk("サイト", null, "ごめんな、モンモランシー。\nで、春奈の具合はどうなんだ！", (0x04000000 +11002));
+set("lay3", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +874)});
+talk("モンモランシー", null, "うーん。\nまだ、環境の変化に馴染めなくて熱が\n出ちゃったみたい。", (0x04000000 +4063));
+talk("モンモランシー", null, "昨日、体調が良くなっていたみたいなんで、\n油断してたわ。\nしばらく安静にしていたほうがいいわね。", (0x04000000 +4064));
+talk("ハルナ", null, "すみません。\nご迷惑をかけて。", (0x04000000 +2086));
+talk("モンモランシー", null, "そう思うのなら、早く元気になることね。", (0x04000000 +4065));
+talk("ハルナ", null, "はい……。", (0x04000000 +2087));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +330)});
+talk("ルイズ", null, "それより、そろそろ授業に行かないと\nいけない時間だわ。", (0x04000000 +5733));
+talk("モンモランシー", null, "あら、やだ。\n早く部屋に戻って準備をしないと。", (0x04000000 +4066));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "今日はルイズが早起きしたから、\nまだ余裕あると思ったのに……。", (0x04000000 +11003));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+talk("ルイズ", null, "いいから！\nさっさと授業に行くわよ。", (0x04000000 +5734));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +416)});
+talk("サイト", null, "ええー？\nあ、いたた、引っ張るなってだから！\nそれにお前、着替えてないだろ！", (0x04000000 +11004));
+set("lay1", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +332)});
+talk("ルイズ", null, "あ……！！\nすぐ着替えするから、部屋から出てって！", (0x04000000 +5735));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +449)});
+talk("サイト", null, "え？\n俺が着替えさせるんじゃないの？", (0x04000000 +11005));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "サイトさん……。", (0x04000000 +14565));
+msgoff()
+set("lay7", {show = 0});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +155)});
+trans("crossfade", 1000);
+msgon()
+talk("ハルナ", null, "平賀くん……。", (0x04000000 +2088));
+msgoff()
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +880)});
+msgon()
+talk("モンモランシー", null, "最低ね……。", (0x04000000 +4067));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "え……？\nえ……？", (0x04000000 +11006));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +489)});
+talk("ルイズ", null, "早く部屋から出てって！\n着替えはシエスタにしてもらうから。", (0x04000000 +5736));
+talk("シエスタ", null, "はい、分かりました。\nサイトさん、すみませんがしばらく部屋の外で\nお待ちいただけませんか？", (0x04000000 +14566));
+talk("ルイズ", null, "ぐずぐずしてないで、さっさと出てって！", (0x04000000 +5737));
+set("lay3", {y = 0,show = 0,x = 64});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {y = 416,x = 304});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {y = 0,show = 0,x = 64});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "へーい。", (0x04000000 +11007));
+msgoff()
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+trans("crossfade", 1000);
+set("se0", {play = (0x03000000 +56)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +451)});
+msgon()
+talk("サイト", null, "（まったく、他人の目を気にするなんて、\n　今日のルイズはどうしちゃったんだ？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +73), true);

@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+}
+back();
+set("stage", {y = 0,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（そんなに恥ずかしいのなら……、\n　最初からやらなきゃいいだろ）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

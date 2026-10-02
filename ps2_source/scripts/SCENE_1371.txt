@@ -1,0 +1,33 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +434)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +962)});
+set("bgm", {play = (0x03000000 +11)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +964)});
+talk("ハルナ", null, "でもでも、これはこれでおいしいかも。", (0x04000000 +1935));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "そう？", (0x04000000 +9849));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "うん。", (0x04000000 +1936));
+set("lay5", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +403)});
+talk("サイト", null, "なら良かった。", (0x04000000 +9850));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +964)});
+talk("ハルナ", null, "ありがとう、平賀くん！", (0x04000000 +1937));
+talk("商人", null, "ところで、ずいぶん仲が良いみたいだけど、\nお二人さんは夫婦なのかい？", (0x04000000 +3951));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +442)});
+talk("サイト", null, "ええっ！？\nい、いや、そんなことはまったく！！", (0x04000000 +9851));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +970)});
+talk("ハルナ", null, "もぉ、オジサンったらっ！！", (0x04000000 +1938));
+talk("商人", null, "はっはっはっ……。\n若いもんはいいねぇ、まったく！", (0x04000000 +3952));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +436)});
+talk("サイト", null, "ははははは……。", (0x04000000 +9852));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

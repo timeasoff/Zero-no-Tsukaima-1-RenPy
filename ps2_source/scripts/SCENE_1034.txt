@@ -1,0 +1,66 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +423)});
+msgon()
+talk("サイト", null, "おーいルイズー。\nって、何、出かける用意してるんだ？", (0x04000000 +8308));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +315)});
+like("ルイズ", 20);
+talk("ルイズ", null, "あ、サイト。\nいいところに来たわね。\nこれから牧場に出かけるわよ！", (0x04000000 +4660));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "へ？\nなんで牧場？", (0x04000000 +8309));
+set("lay1", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +317)});
+talk("ルイズ", null, "ごちゃごちゃ言わない！\nさあっ、行くわよ！", (0x04000000 +4661));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "って待て、なんだこの急展開っ！？", (0x04000000 +8310));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +315)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("ルイズ", null, "見なさい、青い空に白い雲、\n朝の爽やかな空気！\n気持ちも晴れやかになるわね！", (0x04000000 +4662));
+talk("サイト", null, "ああ、そうだな。\n確かに気持ちいいな。", (0x04000000 +8311));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "って、あれ？\nどこに行ったんだ、あいつは？", (0x04000000 +8312));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +208)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "お待たせ！", (0x04000000 +4663));
+talk("サイト", null, "なんだ、どこに行ってたんだ？\nそれに、おまえその手に持ってるのは？", (0x04000000 +8313));
+talk("ルイズ", null, "あら、見たことないの？\n牛乳よ。", (0x04000000 +4664));
+talk("サイト", null, "いや、それはまあ見れば分かるっていうか、\n知ってるけどさ。", (0x04000000 +8314));
+talk("ルイズ", null, "ふっふっふ。\nたった今、牧場の人からもらってきた、\n絞りたてのものよ！", (0x04000000 +4665));
+talk("サイト", null, "そりゃうまそうだな……。\nって、あれ、おまえそんなに牛乳好きだっけ？", (0x04000000 +8315));
+talk("ルイズ", null, "これは挑戦なの。", (0x04000000 +4666));
+talk("サイト", null, "挑戦？\nご主人様、いったい何をする気ナノデスカ？", (0x04000000 +8316));
+talk("ルイズ", null, "別にサイトには何もしないわよ。\nたとえていうと、叡智の実践、知識の証明！\nってところかしらね？", (0x04000000 +4667));
+talk("サイト", null, "ごめん、全然分かんねえ。", (0x04000000 +8317));
+talk("ルイズ", null, "牛乳を飲むと大きくなるって言うじゃない？", (0x04000000 +4668));
+talk("サイト", null, "なにが？", (0x04000000 +8318));
+talk("ルイズ", null, "……いろいろよ！", (0x04000000 +4669));
+talk("ルイズ", null, "確かに、貴族たるわたしが牛の乳を\n直接飲むなんて真似、\nはしたないと言えばはしたないわ。", (0x04000000 +4670));
+talk("ルイズ", null, "でも、ここで牛乳を飲まなきゃ、\nこのまま、大きくなれないの！\nきっとそうよ、そうに決まってるわ。", (0x04000000 +4671));
+talk("ルイズ", null, "ならば！\n言い伝えに賭けるのもまたひとつの道と\nいうものよ。", (0x04000000 +4672));
+talk("ルイズ", null, "ふふふふふふふふ……。\nこれを飲めばキュルケなんて、\nすぐに抜かしてみせるわ……。", (0x04000000 +4673));
+talk("サイト", null, "はあ。\nいいんだけどさ……。", (0x04000000 +8319));
+selectInit();
+selectItem("大きくって、どこが？", (0x01000000 +1035), null, true);
+selectItem("無理しなくたっていいじゃん", (0x01000000 +1036), null, true);
+selectItem("俺にもくれ", (0x01000000 +1037), null, true);
+select();

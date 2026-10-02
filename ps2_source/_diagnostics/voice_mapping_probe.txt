@@ -1,0 +1,12 @@
+csv rows: 15070
+csv header sample: {'\ufefffilename': 'VOICE_ID.BIN_00000001.wav', 'original': '相変わらずバカズラを下げているわね', 'translation': 'Ты все еще ведешь себя глупо, как обычно.', 'status': 'Успешно'}
+tl old='…Hey, Louise-san, can you hear me?' new='……もしもし、ルイズさん。'
+exact csv hit: None
+fuzzy hits: 27 -> [{'\ufefffilename': 'VOICE_ID.BIN_00000230.wav', 'original': 'ルイズ!', 'translation': 'Луиза!', 'status': 'Успешно'}, {'\ufefffilename': 'VOICE_ID.BIN_00000688.wav', 'original': 'ん?', 'translation': '', 'status': 'Не речь / Смех / Звук'}, {'\ufefffilename': 'VOICE_ID.BIN_00002112.wav', 'original': 'ん?', 'translation': '', 'status': 'Не речь / Смех / Звук'}]
+
+voices total=1162  ch1_*=138
+ch1 sample: ['ch1_d_001.ogg', 'ch1_d_002.ogg', 'ch1_d_003.ogg', 'ch1_d_004.ogg', 'ch1_d_005.ogg', 'ch1_d_006.ogg', 'ch1_d_007.ogg', 'ch1_d_008.ogg', 'ch1_d_009.ogg', 'ch1_d_010.ogg', 'ch1_d_011.ogg', 'ch1_d_012.ogg']
+
+voice "..." refs in chapters/*.rpy: 1154
+missing audio for those refs: 0 -> []
+audio files never referenced: 8

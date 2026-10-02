@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +392)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "なんか、感心するな。\nシエスタっていいお嫁さんになれるね。", (0x04000000 +8224));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +530)});
+talk("シエスタ", null, "えっ！？", (0x04000000 +14178));
+like("シエスタ", 10);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ん？\nどうかした？", (0x04000000 +8225));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +497)});
+talk("シエスタ", null, "え、ええっと……。\nサ、サイトさん今なんて……。", (0x04000000 +14179));
+talk("サイト", null, "いいお嫁さんになれるなあって。\n料理もだけど家事とか上手だし、\nしっかりしてるし……。", (0x04000000 +8226));
+talk("サイト", null, "シエスタを奥さんにもらうヤツって\n絶対、幸せ者だと思うなー。", (0x04000000 +8227));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +530)});
+talk("シエスタ", null, "そ、そんな……。\nやだ、サイトさんたら……。", (0x04000000 +14180));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "どうかしたのシエスタ？\nなんだか顔が赤いよ？", (0x04000000 +8228));
+talk("シエスタ", null, "わ、わたし……、その……。\nこっ、今度サイトさんにも\n山菜料理をご馳走しますね！", (0x04000000 +14181));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ？\nうん、楽しみにしてるよ。", (0x04000000 +8229));
+next((0x01000000 +1018), true);

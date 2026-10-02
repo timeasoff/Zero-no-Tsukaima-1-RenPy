@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+}
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +168)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "今日はリンゴを２個。\n……ほら、手を出しなさい。", (0x04000000 +7707));
+talk("サイト", null, "ち、ちょっとこれは訓練としては\n危険じゃねーのか？", (0x04000000 +13894));
+talk("ルイズ", null, "……逃げてもいいけど、\n狙いが外れたらどうなるか責任もてない\nわよっ！", (0x04000000 +7708));
+talk("ルイズ", null, "それとも、逃げる的の方が訓練には\nよいのかしら？", (0x04000000 +7709));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "ちっ、ちくしょうっ！", (0x04000000 +13895));
+selectInit();
+selectItem("逃げ出して……みる？", (0x01000000 +1613), null, true);
+selectItem("せ、せめてなにか一言を……", (0x01000000 +1614), null, true);
+selectItem("ちくしょう！　さあ撃ちやがれ！", (0x01000000 +1615), null, true);
+select();

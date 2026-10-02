@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+}
+talk("サイト", null, "お、俺にもプライドってものが……。", (0x04000000 +13830));
+talk("ルイズ", null, "ふーん。\nバカ犬のクセに生意気ね。", (0x04000000 +7639));
+talk("ルイズ", null, "美しい令嬢にひざまずくこと以上の名誉は\nこの世には存在しないとか思わないの？", (0x04000000 +7640));
+talk("サイト", null, "そ、そんな名誉はいらねーっ！\n第一、ホントの令嬢は『３回まわってワン！』\nなんて要求しないっ！", (0x04000000 +13831));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +167)});
+waitLoad(true);
+talk("ルイズ", null, "うっ、うるさぁーい！", (0x04000000 +7641));
+set("se0", {play = (0x03000000 +71)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk(null, null, "パシィィィンっっ！", null);
+talk("サイト", null, "き、きゃいーん！", (0x04000000 +13832));
+next((0x01000000 +1592), true);

@@ -1,0 +1,53 @@
+=== idx=0 SIZE=598 XSIZE=599 ZIP=1 datalen=590 uplen=599 ===
+  data: b'\xc0/\xff\r\n// \x83\x86\x81[\x83e\x83B\x83\x8a\x83e\x83B\x92\xe8\x8b`\r\n// \r\n\r\n\x08\xc0*!\x10\xff* \x83e\x81[\x83u\x83\x8b\x82\xa9\x82\xe7 name \x82\xc5\x8e\xa6\x82\xb3\x82\xea\x82\xe9\x97v\xff\x91f\x82\xf0\x8e\xe6\x82\xe8\x8fo\x82\xb7\r\n * @param table \x8f\x88\xff\x97\x9d\x91\xce\x8f\xdb\x82\xcc\x83e\x81[\x83'
+  up:   b'//\r\n// \x83\x86\x81[\x83e\x83B\x83\x8a\x83e\x83B\x92\xe8\x8b`\r\n// \r\n\r\n/**\r\n * \x83e\x81[\x83u\x83\x8b\x82\xa9\x82\xe7 name \x82\xc5\x8e\xa6\x82\xb3\x82\xea\x82\xe9\x97v\x91f\x82\xf0\x8e\xe6\x82\xe8\x8fo\x82\xb7\r\n * @param table \x8f\x88\x97\x9d\x91\xce\x8f\xdb\x82\xcc\x83e\x81[\x83u\x83\x8b'
+  data tail: b'AX * a;\r\n\xc2 g\x16\x1ch\xf4.tointeger() ;\r\n}\r\n\r\n\xbf\x00\x00'
+  up tail:   b'* a;\r\n    return  d.tointeger() ;\r\n}\r\n\r\n'
+
+=== idx=1 SIZE=24390 XSIZE=34593 ZIP=1 datalen=24382 uplen=34593 ===
+  data: b'\xff/**\r\n * \x83\x8c\x83C\x83\x84\x83A\x83N\x83V\x83\x87\x83\x93\x83\x82\x83W\x83\x85\x81[\xff\x83\x8b\x8a\xee\x92\xea\x83N\x83\x89\x83X\r\n */\r\nclass LayerMo\xe9dule {\r\n\r\n\xc2 \xedtype = null;\r\n"\xeefirst = null;\r\n"-\xf0artTim'
+  up:   b'/**\r\n * \x83\x8c\x83C\x83\x84\x83A\x83N\x83V\x83\x87\x83\x93\x83\x82\x83W\x83\x85\x81[\x83\x8b\x8a\xee\x92\xea\x83N\x83\x89\x83X\r\n */\r\nclass LayerModule {\r\n\r\n    type = null;\r\n    first = null;\r\n    start'
+  data tail: b';\r\nBb\x00\xfd;\r\n\r\nprint("layer setup\\n");\r\n\xbf\x00\x00'
+  up tail:   b'\r\n    }\r\n};\r\n\r\nprint("layer setup\\n");\r\n'
+
+=== idx=2 SIZE=4209 XSIZE=5337 ZIP=1 datalen=4201 uplen=5337 ===
+  data: b'\xff/**\r\n * \x83A\x83h\x83x\x83\x93\x83`\x83\x83\x81[\x83G\x83\x93\x83W\x83\x93\x97p\x14\xefBGM\r\n * BGM \x82\xcc\x83`\xc1\x83\xff\x93\x83l\x83\x8b\x82\xcd\x82Q\x82\xc2\x81i\x83t\x83F\x81[\x83h\x97p\x82\xc9\x82\xab\x82\xe8\x82\xa9\x82\xff\xa6\x82\xe9\x81j\r\n */\r\nclass AdvSoundTrack \xe4'
+  up:   b'/**\r\n * \x83A\x83h\x83x\x83\x93\x83`\x83\x83\x81[\x83G\x83\x93\x83W\x83\x93\x97p BGM\r\n * BGM \x82\xcc\x83`\x83\x83\x83\x93\x83l\x83\x8b\x82\xcd\x82Q\x82\xc2\x81i\x83t\x83F\x81[\x83h\x97p\x82\xc9\x82\xab\x82\xe8\x82\xa9\x82\xa6\x82\xe9\x81j\r\n */\r\nclass AdvSoundTrack {\r\n\r'
+  data tail: b'ch);\r\nb\x80\x89 )\tp\xf8rint("sound setup\\n");\r\n \x00'
+  up tail:   b';\r\n    }\r\n}\r\n\r\nprint("sound setup\\n");\r\n'
+
+=== idx=664 SIZE=37 XSIZE=26 ZIP=1 datalen=29 uplen=26 ===
+  data: b'\xfaif (isJump()){\nreset();\n}\n \x00'
+  up:   b'if (isJump()){\nre\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  data tail: b'\xfaif (isJump()){\nreset();\n}\n \x00'
+  up tail:   b'if (isJump()){\nre\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+=== idx=1664 SIZE=195 XSIZE=186 ZIP=1 datalen=187 uplen=186 ===
+  data: b'\xffif (isJump()){\nreset();\n}\nmsgoff\x0c\xff)\nset("se1", {stop = 1});\nset("b\xedgm", {stop = 1\xc10\xff});\nset("stage", {opacity = 0,hi\xf5de'
+  up:   b'if (isJump()){\nreset();\n}\nmsgoff()\nset("se1", {stop = 1});\nset("bgm", {stop = 1000});\nset("stage", {opacity = 0,hide = 1'
+  data tail: b'Time(1Ax\x08L\xfbrue);\ncoffee();\ntndlEnd();\n4\x00'
+  up tail:   b'tTime(1000, true);\ncoffee();\ntndl\x00\x00\x00\x00\x00\x00\x00'
+
+=== idx=1920 SIZE=206 XSIZE=200 ZIP=1 datalen=198 uplen=200 ===
+  data: b'\xffselectInit();\nselectItem("\x82P\x82V",\xff null, "movieNo=17", true);\nsele2\x14\x04\xf0m("\x82\xe0\x82\xc7\x82\xe9", (0x01\xc40`\xff+4), null, true);\nselect();\ni'
+  up:   b'selectInit();\nselectItem("\x82P\x82V", null, "movieNo=17", true);\nselectItem("\x82\xe0\x82\xc7\x82\xe9", (0x01000000 +4), null, true);\nselect();'
+  data tail: b'\xf0No);\n  next((0x01\xa44\x80\xf01915), true);\n}\n;\x00'
+  up tail:   b'o);\n  next((0x01000000 +1915), true)\x00\x00\x00\x00'
+
+=== idx=1904 SIZE=45 XSIZE=34 ZIP=2 datalen=37 uplen=34 ===
+  data: b'\xffi iJm()\nee(;}mv(;f(sup){rst)\n\noe\x19\xe0h\x00'
+  up:   b'i iJm()\nee(;}mv(;f(sup){r\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  data tail: b'\xffi iJm()\nee(;}mv(;f(sup){rst)\n\noe\x19\xe0h\x00'
+  up tail:   b'i iJm()\nee(;}mv(;f(sup){r\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+=== idx=1534 SIZE=33 XSIZE=22 ZIP=1 datalen=25 uplen=22 ===
+  data: b'\xf6reset();\ntndlStart();\n \x00'
+  up:   b'reset();\ntndl\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  data tail: b'\xf6reset();\ntndlStart();\n \x00'
+  up tail:   b'reset();\ntndl\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+=== idx=1698 SIZE=33 XSIZE=22 ZIP=1 datalen=25 uplen=22 ===
+  data: b'\xf6reset();\ntndlStart();\n \x00'
+  up:   b'reset();\ntndl\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  data tail: b'\xf6reset();\ntndlStart();\n \x00'
+  up tail:   b'reset();\ntndl\x00\x00\x00\x00\x00\x00\x00\x00\x00'

@@ -1,0 +1,6 @@
+tdtest_done = (0x01000000 +1865);
+selectInit();
+selectItem("ƒŒƒxƒ‹‚O", null, "tndlTest(0)", true);
+selectItem("ƒŒƒxƒ‹‚P", null, "tndlTest(1)", true);
+selectItem("ƒŒƒxƒ‹‚Q", null, "tndlTest(2)", true);
+select();

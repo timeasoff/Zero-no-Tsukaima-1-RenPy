@@ -1,0 +1,37 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +687)});
+talk("キュルケ", null, "……あら、ルイズは残るの？\n意外ね。", (0x04000000 +3270));
+set("lay6", {y = 0,x = -96});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +313)});
+talk("ルイズ", null, "……あなたみたいに途中で音をあげるのは、\n逃げ出すみたいで嫌いだし。", (0x04000000 +6230));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +691)});
+talk("キュルケ", null, "……ふん、だ。\nそれじゃ、せいぜい頑張りなさい。", (0x04000000 +3271));
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)});
+msgon()
+talk("サイト", null, "（はぁ……困ったなぁ。\n　今日の練習はなんとか終わったけど、\n　キュルケが限界とは……）", null);
+talk("サイト", null, "（さて、どうしようかな？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+moveInit((0x01000000 +320),(0x02000000 +53),3,(0x03000000 +4));
+moveItem("舞台", (0x02000000 +500), (0x01000000 +1383));
+moveItem("劇場", (0x02000000 +632), (0x01000000 +1388));
+moveItem("城前", (0x02000000 +962), (0x01000000 +1393));
+moveItem("宿", (0x02000000 +687), (0x01000000 +1398));
+moveItem("表通り", (0x02000000 +863), (0x01000000 +1403));
+move();

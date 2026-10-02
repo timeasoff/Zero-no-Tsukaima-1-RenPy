@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+}
+talk("サイト", null, "き、気持ちよくなんてないぞ！", (0x04000000 +10595));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +188)});
+waitLoad(true);
+talk("ルイズ", null, "……よく言うわね。\n今のサイトの顔を鏡で見せてあげたいわ。", (0x04000000 +5325));
+talk("サイト", null, "ううっ、それは勘弁……。", (0x04000000 +10596));
+talk("ルイズ", null, "ほんとにもう。", (0x04000000 +5326));
+next((0x01000000 +1804), true);

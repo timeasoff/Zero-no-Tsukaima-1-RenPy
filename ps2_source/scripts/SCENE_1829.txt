@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+}
+talk("サイト", null, "……気にしています。\nたぶん……きっと……。", (0x04000000 +10700));
+talk("ルイズ", null, "……最後の方のごにょごにょはなによ！？", (0x04000000 +5435));
+talk("サイト", null, "だ、だって！\nそっちはどうなんだよ！", (0x04000000 +10701));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +191),imageType = 1});
+waitLoad(true);
+talk("ルイズ", null, "な、なによ！\n女の子にそういうこと言わせる気っ！？", (0x04000000 +5436));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+next((0x01000000 +1832), true);

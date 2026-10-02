@@ -1,0 +1,11 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+}
+talk("サイト", null, "（でも、寝顔はホントかわいいよな。\n　さすがは貴族のお嬢さま）", null);
+talk("サイト", null, "（おとぎ話の眠り姫みたいで……）", null);
+talk("サイト", null, "……。", null);
+talk("ルイズ", null, "……んっ……スゥスゥ……。", (0x04000000 +5204));
+talk("サイト", null, "（やばい……ドキドキしてきたぞ……）", null);
+next((0x01000000 +1768), true);

@@ -1,0 +1,117 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +11)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+talk("サイト", null, "春奈？\n俺、才人だけど……。", (0x04000000 +11030));
+talk("ハルナ", null, "あ、平賀くん！？\nちょ、ちょっと待って。\n今、鍵を開けるね。", (0x04000000 +2089));
+msgoff()
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay7", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("se0", {play = (0x03000000 +56)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +981)});
+msgon()
+talk("ハルナ", null, "ど、どうしたの？\n授業中じゃなかったの？", (0x04000000 +2090));
+set("lay7", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ちょっと様子を見に来たんだけど……。\n大丈夫か？\nまだ顔が赤いぞ。", (0x04000000 +11031));
+talk("ハルナ", null, "あ、あー……うん。\nごめんなさい。\nまだ、具合が悪いみたい。", (0x04000000 +2091));
+talk("サイト", null, "そりゃまずいよ、ちゃんと寝てなきゃ。\nって、俺が起こしちまったんだよな。\nごめんな。", (0x04000000 +11032));
+talk("ハルナ", null, "あ、ううん。\nそんなことないよ。", (0x04000000 +2092));
+talk("サイト", null, "いいからベッドに戻って。\nおとなしく寝てなきゃ。", (0x04000000 +11033));
+talk("ハルナ", null, "う、うん。", (0x04000000 +2093));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +154)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +17)});
+msgon()
+talk("サイト", null, "え、と……水は洗面器にあるな。\nタオル、タオル……。", (0x04000000 +11034));
+talk("ハルナ", null, "……。", null);
+talk("サイト", null, "ほら、タオルで額を冷やせば少しは楽か？", (0x04000000 +11035));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)});
+waitLoad(true);
+talk("ハルナ", null, "うん……ありがとう、平賀くん。", (0x04000000 +2094));
+talk("サイト", null, "なあに。\nこれくらいしかできないけどな。", (0x04000000 +11036));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)});
+waitLoad(true);
+talk("ハルナ", null, "ねぇ、平賀くん……。", (0x04000000 +2095));
+talk("サイト", null, "うん？", (0x04000000 +11037));
+talk("ハルナ", null, "平賀くんが、使い魔って本当なの？\nあのドラゴンみたいな魔物と同じ。", (0x04000000 +2096));
+talk("サイト", null, "んー。\nまあ、そのへんについては話せば長くなるけど、\n今はルイズの使い魔なんだ。", (0x04000000 +11038));
+talk("サイト", null, "まぁ、使い魔とは言っても、\n洗濯したり、掃除したり……、\nまぁ、メイドさんみたいなもんかな？", (0x04000000 +11039));
+talk("ハルナ", null, "ルイズさんの……メイド？", (0x04000000 +2097));
+talk("サイト", null, "い、いや……。\nた、たまには剣で戦ったりもしてるぞ。\n本当にたまに……だけど。", (0x04000000 +11040));
+talk("ハルナ", null, "戦い……。", (0x04000000 +2098));
+talk("サイト", null, "危険なことは何度かあったけど……。", (0x04000000 +11041));
+talk("サイト", null, "それでも、この見ず知らずの世界で、\n俺を養ってくれてるんだから、\nま、俺のご主人様には間違いないよな。", (0x04000000 +11042));
+talk("ハルナ", null, "ねぇ……平賀くん。", (0x04000000 +2099));
+talk("サイト", null, "うん？", (0x04000000 +11043));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)});
+waitLoad(true);
+talk("ハルナ", null, "変な話をするけどいいかな？", (0x04000000 +2100));
+talk("サイト", null, "変な話？\nまぁ、いいけど……。", (0x04000000 +11044));
+talk("ハルナ", null, "平賀くんって、こっちの世界では、\n女の子に囲まれてずいぶんと楽しそうだね。\nちょっと……寂しいな。", (0x04000000 +2101));
+talk("サイト", null, "いいっ！？", (0x04000000 +11045));
+talk("サイト", null, "いや、別に、そんなに楽しいことなんて、\n全然ないってば。\nホントデスヨ。", (0x04000000 +11046));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)});
+waitLoad(true);
+talk("ハルナ", null, "そうなの？", (0x04000000 +2102));
+talk("ハルナ", null, "ルイズさんとはまんざらでもなさそうだし、\nあのシエスタさんとも\nずいぶん仲良さそうだったけど。", (0x04000000 +2103));
+talk("ハルナ", null, "なんか、平賀くんってこの世界の人に\nなっちゃうのかなぁって寂しくなっちゃった。", (0x04000000 +2104));
+talk("サイト", null, "そ、そんなことないって。\nたまたま。\nそう、たまたまそう見えるだけ。", (0x04000000 +11047));
+talk("ハルナ", null, "ふうん、そうなの？", (0x04000000 +2105));
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+talk("シエスタ", null, "失礼します。", (0x04000000 +14567));
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +491)});
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +493)});
+talk("シエスタ", null, "ハルナさん、お加減はどうですか？\nって、な……なんでサイトさんが\nここにいらっしゃるんですかあっ？", (0x04000000 +14568));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +526)});
+talk("シエスタ", null, "はっ、まさか、わたしやミス・ヴァリエールの\nいない隙に夜這いを敢行！？", (0x04000000 +14569));
+set("lay2", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "いや、そんなことしてないから！\nそれに、まだ夜じゃないし……。", (0x04000000 +11048));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +528)});
+talk("シエスタ", null, "そう、そうよ……これは悪い夢……もしくは幻。\nただの悪夢、そうよ！\nそうに決まってるわ！", (0x04000000 +14570));
+talk("サイト", null, "いやあ、その……。", (0x04000000 +11049));
+selectInit();
+selectItem("春奈の様子が気になって", (0x01000000 +83), null, true);
+selectItem("忘れ物をしたんで、取りに来た", (0x01000000 +84), null, true);
+select();

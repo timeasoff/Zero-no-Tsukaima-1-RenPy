@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +8)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +40)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "はあ、なんだか俺もお腹がすいてきたな。\n俺もひとつ貰うか。", (0x04000000 +10146));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "うふふ。\nこうやって２人で食べると\nデートみたいね。", (0x04000000 +3069));
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "そ、そういえば……そうだな。", (0x04000000 +10147));
+set("lay6", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "夜の街で、こうして食事して……。", (0x04000000 +3070));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "これが豪華な食事だったら、\nそうなんだけどね。", (0x04000000 +10148));
+set("lay6", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +717)});
+talk("キュルケ", null, "あら、ダーリンと一緒だったら、\nどんなものでも、最高の食事に感じるわ。", (0x04000000 +3071));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +442)});
+talk("サイト", null, "なんか、照れちまうな。", (0x04000000 +10149));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "もう、ダーリンかわいいんだから！", (0x04000000 +3072));
+next((0x01000000 +1484), true);

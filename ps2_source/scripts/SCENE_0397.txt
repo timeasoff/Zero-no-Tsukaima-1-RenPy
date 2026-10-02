@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1017)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+set("bgm", {play = (0x03000000 +27)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +52)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "なんであいつらの味方をするんだ？", (0x04000000 +13535));
+set("lay21", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +1019)});
+talk("ハルナ", null, "そりゃ、あたしの飼い主は\nウェザリー様だからねぇ。\n味方も、何もないんじゃない？", (0x04000000 +2636));
+talk("サイト", null, "春奈じゃない。\nいったい、誰なんだ？", (0x04000000 +13536));
+next((0x01000000 +399), true);

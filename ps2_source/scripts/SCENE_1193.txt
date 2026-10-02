@@ -1,0 +1,65 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +14)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +252)});
+}
+talk("サイト", null, "（体は大人、頭は子供……って\n　なんてやっかいな……！）", null);
+talk("サイト", null, "（でも、どうやってあやしたらいいんだ？）", null);
+talk("サイト", null, "そうだ、キュルケ。", (0x04000000 +9093));
+talk("サイト", null, "眠れないんだったら、なにかお話でもして\nあげようか？", (0x04000000 +9094));
+talk("キュルケ", null, "おはなし？\nうん、してしてー。", (0x04000000 +2872));
+talk("サイト", null, "じゃあ『ウサギとカメ』のお話だな。", (0x04000000 +9095));
+talk("キュルケ", null, "うさぎとかめ？", (0x04000000 +2873));
+talk("サイト", null, "お兄ちゃんの世界の昔話だよ。\n昔々あるところに……。", (0x04000000 +9096));
+msgoff()
+set("lay6", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +418)});
+msgon()
+talk("キュルケ", null, "……スゥ……スゥ。", (0x04000000 +2874));
+talk("サイト", null, "はあ、ようやく眠ってくれたか……。", (0x04000000 +9097));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "いつものキュルケもいいけど、\nこういうキュルケも悪くないよな。", (0x04000000 +9098));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +418)});
+talk("サイト", null, "ん？\nそういえば……。", (0x04000000 +9099));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +416)});
+talk("サイト", null, "どうやってキュルケを部屋まで運べばいいんだ？", (0x04000000 +9100));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +418)});
+talk("サイト", null, "この状態をルイズに見られたら……。", (0x04000000 +9101));
+vibrate(1);
+talk("サイト", null, "（がたがたぶるぶる……）", null);
+talk("キュルケ", null, "……スゥ……スゥ。", (0x04000000 +2875));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "……。", (0x04000000 +9102));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +418)});
+talk("サイト", null, "しょうがない。\n腹をくくりますか。", (0x04000000 +9103));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +416)});
+talk("サイト", null, "ルイズなんて、怖くない。\nルイズなんて、怖くない。", (0x04000000 +9104));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +418)});
+vibrate(1);
+talk("サイト", null, "（がたがたぶるぶる……）", null);
+talk("キュルケ", null, "……んっ、おにいちゃん。", (0x04000000 +2876));
+talk("キュルケ", null, "……だいすき。", (0x04000000 +2877));
+talk("サイト", null, "（もう、俺はどうしたらいいんですか！）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay6", {show = 0});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +619), true);

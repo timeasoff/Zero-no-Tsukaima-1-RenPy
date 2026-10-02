@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {y = 416,x = 144});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +555)});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +852)});
+talk("ギーシュ", null, "みんなの料理の腕前はどんな感じ\nなんだろう……。", (0x04000000 +1527));
+set("lay3", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +891)});
+talk("モンモランシー", null, "まあ、あまり期待しないほうがいいわね、\n特に一部の人達の料理には。", (0x04000000 +4108));
+set("lay4", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +920)});
+talk("オスマン", null, "ほっ、ほっ、ほっ。\n貴族が自ら料理とは……。\nこれもサイトくんの影響かの。", (0x04000000 +4476));
+set("lay10", {y = 0,x = 224});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "ええ、良い影響だと思います。", (0x04000000 +1168));
+talk("サイト", null, "（これで料理がまともだったら、\n　良い話で終わるんだけどなぁ……。\n　一体どうなるんだろう……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay10", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {show = 0});
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +817), true);

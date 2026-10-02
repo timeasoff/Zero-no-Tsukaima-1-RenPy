@@ -1,0 +1,325 @@
+# check_project — отчёт автопроверок
+
+Команда: `python tools/check_project.py` (опция `--chapter N` ограничивает проверку одной главей).
+
+Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
+
+## ERROR (0)
+
+- нет
+
+## WARNING (277)
+
+- W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:348: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:337: Accuracy
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:155: Advance dialogue and activate interface.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:161: Advance dialogue without making choices.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:334: Agility
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2091: Ah well, it's fine.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:433: Air Force
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:427: Air Needle
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2112: Alright, I'm heading out.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:328: Attack Power
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:371: Attacks a single enemy
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:374: Attacks all enemies
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:68: Automatic saves
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:302: Battle Participants
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:290: Battle Preparation
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:20: Bestow blessings upon this one, and make them my familiar
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:467: Bread
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:245: Calibration
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:81: Chapter Eight: 'Haruna's Secret'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:109: Chapter Eight: 'Magic Potion'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:123: Chapter Eight: 'One More Haruna'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:95: Chapter Eight: 'Princess's Decision'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:137: Chapter Eight: 'Silent Support'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:66: Chapter Eight: 'The Little Devil and Spring Breeze Concerto'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:54: Chapter Five: 'True Feelings'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:51: Chapter Four: 'Crisis in Tristania'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:120: Chapter Seven: 'Haruna's Decision'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:134: Chapter Seven: 'Iron Man of Cooking'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:106: Chapter Seven: 'My Older Brother'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:62: Chapter Seven: 'Noble's Pride'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:92: Chapter Seven: 'Princess's Despair'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:77: Chapter Seven: 'Tabitha's Secret'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:103: Chapter Six: 'Flame Premonition'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:89: Chapter Six: 'Princess Who Left a Home'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:131: Chapter Six: 'Saito's Maid'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:74: Chapter Six: 'The Letter's Secret'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:59: Chapter Six: 'The Queen's Decision'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:117: Chapter Six: 'Unexpected Scout'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:48: Chapter Three: 'A Woman's Battle'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:45: Chapter Two: 'The Black-Haired Visitor'
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:296: Characters
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:285: Close
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:368: Consume
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:331: Defense
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:273: Dere
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:269: Dialog box transparency
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:408: Dispel Magic
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:98: Display Mode
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:470: Elixir
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:77: Empty Slot
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:206: Enable supported {a=https://www.renpy.org/l/voicing}text-to-speech{/a}
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:173: Enter game menu.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:170: Esc
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:437: Fire
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:443: Fire Arrow
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:440: Fire Needle
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:446: Fire Shield
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:260: Gallery
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:394: Heal
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:476: Herb
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:402: Heroism
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:200: Hide user interface.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:660: How did you know!?
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:379: Increases accuracy of 1 ally
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:391: Increases attack power of 1 ally
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:388: Increases defense of 1 ally
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:385: Increases speed of 1 ally
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:320: Info
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:293: Items
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:230: Left Trigger\nLeft Bumper
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2094: Let's see, let's see?
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:360: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:357: Louise's classmate.\nSpecializes in wind magic.\mHer nickname is "Tabi
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:399: Magic Arrow
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:405: Meteor
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:263: Music
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:11: My name is Louise Françoise Le Blanc de La Vallière
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:282: No characters unlocked yet
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1308: Oh, well. It’s not like I expect you to go home just because I tell yo
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:209: Open accessibility menu.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:363: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:39: Prologue
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:464: Quantity
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:71: Quick saves
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:382: Recovers HP of 1 ally
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:473: Restore HP
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:482: Restore HP and MP
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:479: Restore MP
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:299: Return to Title
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:233: Right Bumper
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:191: Roll back to earlier story point.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:197: Roll forward to later story point.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:314: Select a character to view information
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:98: Side Story: 'Charmed Princess'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:126: Side Story: 'Genuine Feelings'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:112: Side Story: 'Master of a Slight Fever'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:84: Side Story: 'Night's Secret'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:69: Side Story: 'Punishment of the Little Devil'
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:140: Side Story: 'School Uniform's Appears'
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:179: Skip dialogue while held down.
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:413: Slash
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:311: Squad selection
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:38: Start
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:305: Start Battle
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:317: Start battle?
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:279: Sympathy level
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:203: Take screenshot.
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:2: The Familiar Zero: The Little Devil and Spring Breeze Concerto
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:8: The Familiar of Zero
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:17: The Pentagon that governs the five powers
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:351: The magician who summoned Saito.\nAlthough she can use Void magic,\nit
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:185: Toggle skip mode.
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:34: Tristain Royal Palace
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:276: Tsun
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:325: Turns Wait
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:308: Unknown
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:450: Water
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:459: Water Blade
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:456: Water Hazard
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:453: Water Needle
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:224: Wheel Down
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:221: Wheel Up
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:430: Wind Break
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
+- W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:146: {size=+14}Congratulations!!!{/size}
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the first chapter!{/size}
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:416: 二段斬り
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:419: 風月斬り
+- W5 19 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:337: Accuracy
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:146: Advance dialogue and activate interface.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:152: Advance dialogue without making choices.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:334: Agility
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2087: Ah well, it's fine.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:435: Air Force
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:429: Air Needle
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2150: Alright, I'm heading out.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:328: Attack Power
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:373: Attacks a single enemy
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:376: Attacks all enemies
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:59: Automatic saves
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:302: Battle Participants
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:290: Battle Preparation
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:20: Bestow blessings upon this one, and make them my familiar
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:469: Bread
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:236: Calibration
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:83: Chapter Eight: 'Haruna's Secret'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:111: Chapter Eight: 'Magic Potion'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:125: Chapter Eight: 'One More Haruna'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:97: Chapter Eight: 'Princess's Decision'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:139: Chapter Eight: 'Silent Support'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:66: Chapter Eight: 'The Little Devil and Spring Breeze Concerto'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:54: Chapter Five: 'True Feelings'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:51: Chapter Four: 'Crisis in Tristania'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:122: Chapter Seven: 'Haruna's Decision'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:136: Chapter Seven: 'Iron Man of Cooking'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:108: Chapter Seven: 'My Older Brother'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:62: Chapter Seven: 'Noble Spirit'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:94: Chapter Seven: 'Princess's Despair'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:79: Chapter Seven: 'Tabitha's Secret'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:105: Chapter Six: 'Flame Premonition'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:91: Chapter Six: 'Princess Who Left a Home'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:133: Chapter Six: 'Saito's Maid'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:76: Chapter Six: 'The Letter's Secret'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:59: Chapter Six: 'The Queen's Decision'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:119: Chapter Six: 'Unexpected Scout'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:48: Chapter Three: 'A Woman's Battle'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:45: Chapter Two: 'The Black-Haired Visitor'
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:296: Characters
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:285: Close
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:369: Consume
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:331: Defense
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:273: Dere
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:269: Dialog box transparency
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:407: Dispel Magic
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:89: Display Mode
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:418: Double Slash
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:472: Elixir
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:68: Empty Slot
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:197: Enable supported {a=https://www.renpy.org/l/voicing}text-to-speech{/a}
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:164: Enter game menu.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:161: Esc
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:440: Fire
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:446: Fire Arrow
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:443: Fire Needle
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:449: Fire Shield
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:251: Gallery
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:396: Heal
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:478: Herb
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:401: Heroism
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:191: Hide user interface.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:662: How did you know!?
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:381: Increases accuracy of 1 ally
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:387: Increases attack power of 1 ally
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:393: Increases defense of 1 ally
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:384: Increases speed of 1 ally
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:320: Info
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:293: Items
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:221: Left Trigger\nLeft Bumper
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2090: Let's see, let's see?
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:361: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:358: Louise's classmate.\nSpecializes in wind magic.\mHer nickname is "Tabi
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:410: Magic Arrow
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:404: Meteor
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:254: Music
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:11: My name is Louise Françoise Le Blanc de La Vallière
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:282: No characters unlocked yet
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1313: Oh, well. It’s not like I expect you to go home just because I tell yo
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:200: Open accessibility menu.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:364: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:39: Prologue
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:466: Quantity
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:62: Quick saves
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:390: Recovers HP of 1 ally
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:475: Restore HP
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:484: Restore HP and MP
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:481: Restore MP
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:299: Return to Title
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:224: Right Bumper
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:182: Roll back to earlier story point.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:188: Roll forward to later story point.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:314: Select a character to view information
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:100: Side Story: 'Charmed Princess'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:128: Side Story: 'Genuine Feelings'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:114: Side Story: 'Master of a Slight Fever'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:86: Side Story: 'Night's Secret'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:70: Side Story: 'Punishment of the Little Devil'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:142: Side Story: 'School Uniform's Appears'
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:170: Skip dialogue while held down.
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:415: Slash
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:311: Squad selection
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:29: Start
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:305: Start Battle
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:317: Start battle?
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:279: Sympathy level
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:194: Take screenshot.
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:2: The Familiar Zero: The Little Devil and Spring Breeze Concerto
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:8: The Familiar of Zero
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:17: The Pentagon that governs the five powers
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:352: The magician who summoned Saito.\nAlthough she can use Void magic,\nit
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:176: Toggle skip mode.
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:34: Tristain Royal Palace
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:276: Tsun
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:325: Turns Wait
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:308: Unknown
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:453: Water
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:462: Water Blade
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:459: Water Hazard
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:456: Water Needle
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:215: Wheel Down
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:212: Wheel Up
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:432: Wind Break
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:421: Wind Moon Slash
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:426: Wing
+- W1 stale old in tl/russian at game/tl/russian/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:65: {#file_time}%A, %d %B %Y, %H:%M
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:148: {size=+14}Congratulations!!!{/size}
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:157: {size=+14}You can actively participate in the translation!{/size}
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the first chapter!{/size}
+- W2 7 ogg not referenced by any script
+- I1 ch0: 16 script strings > 15 source talk
+- I1 ch1: 1313 script strings > 1244 source talk
+
+## INFO (32)
+
+- speakers defined: 21
+- overlay K: max=6 used=6 next_free=7
+- voices: refs=1156 ogg=1162 missing=0
+- I1 ch2: not started (source talk=1382)
+- I1 ch3: not started (source talk=1078)
+- I1 ch4: not started (source talk=1072)
+- I1 ch5: not started (source talk=1470)
+- I1 ch6: not started (source talk=431)
+- I1 ch7: not started (source talk=336)
+- I1 ch8: not started (source talk=378)
+- I1 ch9: not started (source talk=120)
+- I1 ch10: not started (source talk=492)
+- I1 ch11: not started (source talk=618)
+- I1 ch12: not started (source talk=450)
+- I1 ch13: not started (source talk=396)
+- I1 ch14: not started (source talk=444)
+- I1 ch15: not started (source talk=407)
+- I1 ch16: not started (source talk=138)
+- I1 ch17: not started (source talk=282)
+- I1 ch18: not started (source talk=589)
+- I1 ch19: not started (source talk=378)
+- I1 ch20: not started (source talk=162)
+- I1 ch21: not started (source talk=541)
+- I1 ch22: not started (source talk=512)
+- I1 ch23: not started (source talk=354)
+- I1 ch24: not started (source talk=133)
+- I1 ch25: not started (source talk=507)
+- I1 ch26: not started (source talk=612)
+- I1 ch27: not started (source talk=346)
+- I1 ch28: not started (source talk=206)
+- image map: ids=312 named=0 open=312 | placeholders=0 in 0 file(s)
+- labels=33 rpy=47 strings(strict=1281) tl_old=japanese:1754,russian:1781
+

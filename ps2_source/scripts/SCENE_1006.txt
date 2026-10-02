@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +22)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +16)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +287)});
+}
+talk("サイト", null, "人体実験の一環なんだ？", (0x04000000 +8069));
+talk("タバサ", null, "ちがう。", (0x04000000 +15205));
+talk("サイト", null, "じゃあ、ドッキリ？", (0x04000000 +8070));
+talk("タバサ", null, "ドッキリって？", (0x04000000 +15206));
+talk("サイト", null, "はは、伝わらないよね？\nえーっと、騙して脅かすことだよ。", (0x04000000 +8071));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +288),imageType = 1});
+waitLoad(true);
+talk("タバサ", null, "じゃあ、そうかも。", (0x04000000 +15207));
+talk("サイト", null, "えっ、ドッキリなの？", (0x04000000 +8072));
+talk("タバサ", null, "うん。\nあなたに驚いてもらいたかったから。", (0x04000000 +15208));
+talk("サイト", null, "……。", (0x04000000 +8073));
+next((0x01000000 +1007), true);

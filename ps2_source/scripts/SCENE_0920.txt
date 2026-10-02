@@ -1,0 +1,33 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +599)});
+set("bgm", {play = (0x03000000 +29)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "知る必要、ありませんっ！", (0x04000000 +12459));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +605)});
+talk("タバサ", null, "知っちゃダメ？", (0x04000000 +15665));
+talk("サイト", null, "ダメ。", (0x04000000 +12460));
+tndl(30);
+talk("タバサ", null, "ダメ？", (0x04000000 +15666));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "あ、タ、タバサ、服着替えてきたんだ？", (0x04000000 +12461));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +603)});
+talk("タバサ", null, "ごまかしてる。", (0x04000000 +15667));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ううっ。", (0x04000000 +12462));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "ち、ちがう！\n俺は、普段お目にかかれない\nタバサの私服姿に感動したんだーっ！", (0x04000000 +12463));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +599)});
+talk("タバサ", null, "感動？", (0x04000000 +15668));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "うん、感動。\nすごく新鮮でいいよ！", (0x04000000 +12464));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +607)});
+talk("タバサ", null, "……。", (0x04000000 +15669));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +599)});
+talk("タバサ", null, "で、放置プレイって？", (0x04000000 +15670));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ま、また今度にしてください。", (0x04000000 +12465));
+next((0x01000000 +922), true);

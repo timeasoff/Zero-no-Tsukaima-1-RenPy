@@ -1,0 +1,42 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+msgoff()
+set("lay19", {show = 0});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "ほ、ほらっ！\n……準備はいいっ？", (0x04000000 +5527));
+talk("サイト", null, "……。", (0x04000000 +10767));
+talk("ルイズ", null, "……。", (0x04000000 +5528));
+talk("サイト", null, "（……うわわっ、間近でルイズと\n　目が合っちゃった）", null);
+talk("ルイズ", null, "……め、目は閉じて！", (0x04000000 +5529));
+talk("サイト", null, "……な、何を緊張してるんだよ！", (0x04000000 +10768));
+talk("ルイズ", null, "うるさい。\nほら、目を閉じなさい？", (0x04000000 +5530));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +195),imageType = 1});
+waitLoad(true);
+talk("サイト", null, "ふぁい。", (0x04000000 +10769));
+talk("ルイズ", null, "目は開けちゃダメなんだからね！", (0x04000000 +5531));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +196)});
+waitLoad(true);
+talk("サイト", null, "ポリ……ポリ……ポリ……。", (0x04000000 +10770));
+talk("ルイズ", null, "……ポリ……ポリ……ポリ。", (0x04000000 +5532));
+talk("サイト", null, "（ぽ、ポッチーを食べる音がこんなに大きく\n　感じるなんて……）", null);
+talk("サイト", null, "（……ルイズの綺麗な髪がすぐそこで揺れてる\n　気配まで）", null);
+talk("サイト", null, "（あ、ルイズが震えてる……！）", null);
+talk("サイト", null, "（……こ、ここは俺がリードして）", null);
+selectInit();
+selectItem("……目を開く？", (0x01000000 +1857), null, true);
+selectItem("残りを一息に？", (0x01000000 +1858), null, true);
+selectItem("我慢して身を引く", (0x01000000 +1859), null, true);
+select();

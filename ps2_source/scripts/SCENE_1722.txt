@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+}
+talk("サイト", null, "これ、毒でも入ってる？", (0x04000000 +10359));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +181)});
+waitLoad(true);
+talk("ルイズ", null, "な、なんてこと言うのよっ！\nわたしがそんなことする\nわけないでしょっ！？", (0x04000000 +5058));
+talk("サイト", null, "あ、い、いや、ごめん。\n冗談。", (0x04000000 +10360));
+talk("ルイズ", null, "まったく、あんたってホント馬鹿。\n女心を分かってないんだから……。", (0x04000000 +5059));
+talk("サイト", null, "え？\n女心って？", (0x04000000 +10361));
+talk("ルイズ", null, "なんでもないわよっ！\nいいから食べなさいっ！！", (0x04000000 +5060));
+talk("サイト", null, "わ、分かったよ。", (0x04000000 +10362));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+next((0x01000000 +1724), true);

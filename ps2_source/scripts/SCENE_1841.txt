@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+}
+talk("サイト", null, "（……先手必勝！\n　一気にルイズの側に攻め込んでやる！）", null);
+talk("ルイズ", null, "ひゃっ、ひゃほふっ！", (0x04000000 +5485));
+vibrate(1);
+talk(null, null, "────ポッキン。", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "も、もうっ！\nいきなり何するのよっ！\nびっくりするじゃないっ！", (0x04000000 +5486));
+talk("サイト", null, "そ、そっちが緊張してたのが悪いんじゃねえか！", (0x04000000 +10735));
+next((0x01000000 +1844), true);

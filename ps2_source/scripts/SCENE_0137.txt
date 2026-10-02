@@ -1,0 +1,127 @@
+reset();
+title("女の戦い");
+tndl(null);
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1130)});
+trans("crossfade", 1000);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 2000);
+endSkip();
+item("パン", 3);
+item("ハーブ", 3);
+item("エリクサー", 3);
+msgoff()
+set("stage", {level = 200,image = (0x02000000 +2)});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+set("se0", {play = (0x03000000 +69)});
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+msgon()
+talk("ハルナ", null, "んっ、んん～。\n……んぁ、眩しい。", (0x04000000 +2141));
+msgoff()
+set("lay7", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +973)});
+msgon()
+talk("ハルナ", null, "はぁ……。\nまた朝が来たのね……。", (0x04000000 +2142));
+set("lay7", {dr = "1C",show = 1,level = 160,lv = 0,image = (0x02000000 +979)});
+talk("ハルナ", null, "朝の光は、日本となんにも\n変わらないのになぁ……。", (0x04000000 +2143));
+talk("ハルナ", null, "私、いつになったら、\nこの世界での生活に馴染めるんだろう……。", (0x04000000 +2144));
+set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +981)});
+talk("ハルナ", null, "でも、いいの。\n今、私のそばには、平賀くんが……！？", (0x04000000 +2145));
+set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +977)});
+talk("ハルナ", null, "え……？", (0x04000000 +2146));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +114)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ハルナ", null, "なんで、ルイズさんと、シエスタさんの\n間に平賀くんが寝てるの！？\n平賀くんって、確か床で寝ていたはずでしょ？", (0x04000000 +2147));
+talk("ハルナ", null, "起きて起きてっ！\n平賀くん、起きてっ！", (0x04000000 +2148));
+set("stage", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("event", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay2", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay5", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay1", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay19", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay7", {show = 0,vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+vibrate(1);
+waitTime(500, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay2", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay19", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+waitTime(0, true);
+msgoff()
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+msgon()
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +416)});
+talk("サイト", null, "わっ、わわっ！？\nなんだなんだっ！？", (0x04000000 +11210));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +330)});
+talk("ルイズ", null, "んもぅ、なによぉ。\nうるさいわねぇ……。", (0x04000000 +5892));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +550)});
+talk("シエスタ", null, "……あ、おはようございます。", (0x04000000 +14638));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +977)});
+talk("ハルナ", null, "あっ、あなた達っ！\nどうして平賀くんの隣で寝てるんですか！？", (0x04000000 +2149));
+set("lay7", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +324)});
+talk("ルイズ", null, "どうしてって……決まってるじゃない。\nサイトはわたしの使い魔なんだから、\n一緒に寝るのは当たり前でしょ。", (0x04000000 +5893));
+talk("サイト", null, "（ルイズのやつ、なに言ってんだよ。\n　昨日、無理やり俺のことベッドに\n　引きずりこんだくせに……）", null);
+talk("サイト", null, "（しかも、ルイズも、シエスタも、\n　腕枕を要求してくるし……）", null);
+talk("サイト", null, "（おかげで腕が痛くてしょうが\n　ないんだけど……）", null);
+talk("ハルナ", null, "じゃ、じゃあ、シエスタさんはどうして！？", (0x04000000 +2150));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +548)});
+talk("シエスタ", null, "わたしは元々ミス・ヴァリエールと\n一緒のベッドと決めていましたので、\n別に問題はないと思います。", (0x04000000 +14639));
+set("lay1", {y = 0,show = 0,x = -96});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {y = 0,x = 64});
+talk("ハルナ", null, "いくら広いベッドだからって、\n３人で一緒に寝ていたら、\n平賀くんだって、邪魔だよね？", (0x04000000 +2151));
+set("lay7", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "えっ、俺は……。", (0x04000000 +11211));
+selectInit();
+selectItem("迷惑だなんて思わなかったよ", (0x01000000 +138), null, true);
+selectItem("言われてみれば狭いかも", (0x01000000 +139), null, true);
+selectItem("４人で寝るってどうだろ？", (0x01000000 +140), null, true);
+select();

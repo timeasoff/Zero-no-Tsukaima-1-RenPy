@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +188)});
+}
+talk("サイト", null, "（だ、ダメだ。\n　恥ずかしがったらおしまいだ）", null);
+talk("サイト", null, "え、え～と。\nじゃあ、お願いします。", (0x04000000 +10633));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +189)});
+waitLoad(true);
+talk("ルイズ", null, "あ、あらそう？\nずいぶん素直ね。\nそ、それでいいのよ。", (0x04000000 +5367));
+talk("サイト", null, "……。", (0x04000000 +10634));
+talk("ルイズ", null, "……。", (0x04000000 +5368));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +188)});
+waitLoad(true);
+talk("ルイズ", null, "……もう！\nは、恥じらいってものはないの？", (0x04000000 +5369));
+talk("サイト", null, "そ、それはそっちだろう！", (0x04000000 +10635));
+next((0x01000000 +1812), true);

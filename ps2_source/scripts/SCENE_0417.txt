@@ -1,0 +1,39 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +787)});
+set("bgm", {play = (0x03000000 +16)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +42)});
+}
+msgoff()
+set("bgm", {stop = 1000});
+set("se0", {play = (0x03000000 +59)});
+msgoff()
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +267)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+msgon()
+talk("アンリエッタ", null, "ちゅっ。", (0x04000000 +892));
+talk("サイト", null, "えっ？", (0x04000000 +13617));
+talk("アンリエッタ", null, "うふふ、隙あり、ですよサイトさん。\nそんな風では騎士失格です。", (0x04000000 +893));
+talk("サイト", null, "（今、詰め寄られたかと思ったら、\n　暖かくて柔らかい感触が……。\n　お姫さまの唇が……っ！？）", null);
+msgoff()
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +42)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +427)});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +794)});
+msgon()
+talk("サイト", null, "え……ええっ、えええー！？", (0x04000000 +13618));
+talk("アンリエッタ", null, "……。", (0x04000000 +894));
+next((0x01000000 +419), true);

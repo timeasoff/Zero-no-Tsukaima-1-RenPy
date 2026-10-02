@@ -1,0 +1,31 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+}
+talk("ルイズ", null, "でも、アンタは幸せ者よ？", (0x04000000 +5136));
+talk("サイト", null, "そ、そうでしょうか……？", (0x04000000 +10437));
+talk("ルイズ", null, "そうよ！\nこんなに可愛くて、優しくて、料理の上手な\nご主人様なんて、そうそういないんだから。", (0x04000000 +5137));
+talk("サイト", null, "は、はぁ……。", (0x04000000 +10438));
+talk("ルイズ", null, "感謝の言葉は？", (0x04000000 +5138));
+talk("サイト", null, "へ？", (0x04000000 +10439));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +180)});
+waitLoad(true);
+talk("ルイズ", null, "か・ん・しゃ・の・こ・と・ば！", (0x04000000 +5139));
+talk("サイト", null, "ええっと……。\nボ、ボクハステキナゴシュジンサマヲモテテ\nシアワセダナァ、ワァイ。", (0x04000000 +10440));
+talk("ルイズ", null, "何か引っかかる言い方ね。\nまあ、いいけど。", (0x04000000 +5140));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+talk("ルイズ", null, "こんなステキなご主人様を放って\n他の女の子にしっぽ振ったりなんかしちゃ\n駄目よ？", (0x04000000 +5141));
+talk("サイト", null, "は、はい……分かりましたぁ……。", (0x04000000 +10441));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

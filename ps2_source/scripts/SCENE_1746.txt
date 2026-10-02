@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+talk("サイト", null, "う、嬉しくなんてないぞっ！", (0x04000000 +10452));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +183)});
+waitLoad(true);
+talk("ルイズ", null, "……むっ、何を怒ってるのよ？", (0x04000000 +5154));
+talk("サイト", null, "る、ルイズの色香になんて惑わされ\nないんだからな！", (0x04000000 +10453));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+talk("ルイズ", null, "なによ……。\n思いっきり動揺してるじゃない。\nもう、素直じゃないんだから……。", (0x04000000 +5155));
+talk("ルイズ", null, "これはおしおきなの。\nちゃんと耐えなさい。", (0x04000000 +5156));
+talk("サイト", null, "は、はい……。", (0x04000000 +10454));
+next((0x01000000 +1748), true);

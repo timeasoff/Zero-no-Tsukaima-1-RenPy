@@ -1,0 +1,9 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+talk("サイト", null, "（……ルイズの囁きが……耳元で……。\n　いい匂い……）", null);
+talk("サイト", null, "（お、俺の中の狼さんが……）", null);
+talk("ルイズ", null, "うふふ、どうしたのサイト？\n顔が真っ赤よ。", (0x04000000 +5147));
+next((0x01000000 +1744), true);

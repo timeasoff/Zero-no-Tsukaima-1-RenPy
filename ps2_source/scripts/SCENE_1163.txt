@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 133,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +828)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay20", {show = 0});
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 2000});
+waitAction(null, true);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +342), true);

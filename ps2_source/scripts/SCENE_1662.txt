@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +174)});
+}
+talk("サイト", null, "か、勘弁してください。", (0x04000000 +14047));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +175)});
+waitLoad(true);
+talk("ルイズ", null, "むっ、男らしくないわよ。\nサイト！", (0x04000000 +7837));
+talk("サイト", null, "こんな格好をさせといて男らしさなんて\n求めるなーーっ！", (0x04000000 +14048));
+talk("ルイズ", null, "ほら、さっさとやりなさい！", (0x04000000 +7838));
+talk("サイト", null, "（ち、ちくしょう。\n　くるって回って……）", null);
+talk("サイト", null, "お、お待たせ！", (0x04000000 +14049));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +174)});
+waitLoad(true);
+talk("ルイズ", null, "はあ～～っ、ダメダメ……。\nはい、もう一度！", (0x04000000 +7839));
+talk("サイト", null, "（ち、ちくしょうぉぉ～～っ！）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +1664), true);

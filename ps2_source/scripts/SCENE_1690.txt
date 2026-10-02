@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +177)});
+}
+talk("サイト", null, "ご、ごめんなちゃい。", (0x04000000 +14117));
+talk("ルイズ", null, "……なんであんなことしたの？", (0x04000000 +7924));
+talk("サイト", null, "い、いや。あれは出来心というか、\n異世界の衣服への興味でして。", (0x04000000 +14118));
+talk("サイト", null, "突然現れた異国の文化に知的好奇心に\nかられまして、ちょっくら調査研究を\nしてみたといいますか……。", (0x04000000 +14119));
+talk("サイト", null, "純粋な青少年として当然の行為と\nいいますか……。", (0x04000000 +14120));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +178)});
+waitLoad(true);
+talk("ルイズ", null, "……いいたいのはそれだけ？", (0x04000000 +7925));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+next((0x01000000 +1692), true);

@@ -1,0 +1,29 @@
+if (isJump()){
+reset();
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +588)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +78)});
+}
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {y = 0,show = 1,level = 160,dr = "1A",x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "なあ、キュルケ。\nなんでここにいるんだ？", (0x04000000 +10913));
+talk("キュルケ", null, "あら、別に大した理由はないわ。", (0x04000000 +3109));
+like("キュルケ", 10);
+tndl(-30);
+talk("キュルケ", null, "あなたとルイズがなにやら面白いことを\nやってるらしいって聞いたから、\n見に来てただけよ。", (0x04000000 +3110));
+talk("サイト", null, "聞いたって……誰から？", (0x04000000 +10914));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "そんなの決まってるじゃない。\nねえ、モンモランシー？", (0x04000000 +5635));
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 151,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +887)});
+set("lay1", {level = 156});
+set("lay6", {level = 153});
+talk("モンモランシー", null, "……おほほほほ。", (0x04000000 +4041));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+talk("キュルケ", null, "まあまあ。\n事情は知らないけど、なにやら楽しい\nことになってるようじゃない？", (0x04000000 +3111));
+talk("ルイズ", null, "別に楽しいことなんてないわよ。", (0x04000000 +5636));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+next((0x01000000 +39), true);

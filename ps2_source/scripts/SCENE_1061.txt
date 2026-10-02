@@ -1,0 +1,31 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +12)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +198)});
+}
+talk("サイト", null, "体を拭いてやろうか？\n汗かいてるんだろ？", (0x04000000 +8473));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +200)});
+waitLoad(true);
+talk("ルイズ", null, "いや。", (0x04000000 +4705));
+like("ルイズ", -10);
+talk("サイト", null, "まぁ、そうだよな。\nごめん。", (0x04000000 +8474));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +198)});
+waitLoad(true);
+talk("ルイズ", null, "でも……。\n明日まだ寝てるんだったら、\n拭かせてあげてもいいわよ。", (0x04000000 +4706));
+talk("サイト", null, "い、いや、その……。\n本当？", (0x04000000 +8475));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +200)});
+waitLoad(true);
+talk("ルイズ", null, "バカ！\n勘違いしないでよね。\n顔を拭いてもらうだけなんだから！", (0x04000000 +4707));
+talk("サイト", null, "さいですか。", (0x04000000 +8476));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

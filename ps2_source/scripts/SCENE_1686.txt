@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +176)});
+}
+talk("サイト", null, "さ、最後のは取り消しては……？", (0x04000000 +14109));
+talk("ルイズ", null, "何言ってるのよ！\nと・に・か・く、\nダメなものはダメなんだから！", (0x04000000 +7913));
+talk("サイト", null, "うっ……。", (0x04000000 +14110));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +177)});
+waitLoad(true);
+talk("ルイズ", null, "ど、どうして、そこで約束を守るって\n断言してくれないのよっ！\nもうっ！", (0x04000000 +7914));
+talk("ルイズ", null, "お、お仕置きよっ！", (0x04000000 +7915));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+next((0x01000000 +1688), true);

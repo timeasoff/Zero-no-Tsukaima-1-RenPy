@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 157,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +12)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "おまえも『あーん』してほしいのか？", (0x04000000 +11160));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 156,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +310)});
+talk("ルイズ", null, "はあ！？\nな、な、なんでそうなるのよ！", (0x04000000 +5846));
+like("ルイズ", 10);
+tndl(30);
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ、違うのか。\nなんか、そこにこだわってるように見えたから。", (0x04000000 +11161));
+set("lay1", {y = 0,show = 1,level = 156,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +343)});
+talk("ルイズ", null, "それとこれとは別でしょ、別っ！\nなんでわたしがあんたにご飯食べさせて\nもらわなくちゃいけないのよ！", (0x04000000 +5847));
+talk("サイト", null, "そうだよなあ。\n俺もそう思う。", (0x04000000 +11162));
+set("lay1", {y = 0,show = 1,level = 156,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "……分かればいいのよ。", (0x04000000 +5848));
+next((0x01000000 +114), true);

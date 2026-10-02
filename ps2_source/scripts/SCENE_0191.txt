@@ -1,0 +1,42 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +117)});
+}
+talk("キュルケ", null, "まあいいわ。\nこうなったら、ダーリンのこと、\nもっともーっと愛しちゃおーっと。", (0x04000000 +3223));
+set("stage", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("event", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay1", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay7", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay2", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay5", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay6", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay0", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+vibrate(1);
+waitTime(500, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+set("lay2", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay6", {show = 0,reset = 1});
+set("lay0", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ふご、ふごご……。\nく、苦しいって……息が……。", (0x04000000 +11366));
+talk("ハルナ", null, "あ、あの……。", (0x04000000 +2198));
+talk("ルイズ", null, "ちょっとキュルケ、\nあなたいい加減にしなさいよ！\n黙っていればいつまでもイチャイチャと！", (0x04000000 +5984));
+talk("キュルケ", null, "あらー？\nもしかして、嫉妬してるの？", (0x04000000 +3224));
+talk("ルイズ", null, "だ、誰が、何に嫉妬してるですってぇ……。", (0x04000000 +5985));
+talk("キュルケ", null, "ダーリンが好きなのは、大きい胸。\n当然、あなたにはついていないものよ。\nそれに嫉妬してるんでしょ？", (0x04000000 +3225));
+talk("ルイズ", null, "なんですってぇ～……。", (0x04000000 +5986));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +192), true);

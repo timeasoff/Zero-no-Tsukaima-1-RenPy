@@ -1,0 +1,94 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +81)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +680)});
+set("bgm", {fadetime = 0,play = (0x03000000 +25)});
+msgon()
+talk("ルイズ", null, "なんとか、やっつけたわね。", (0x04000000 +6523));
+talk("キュルケ", null, "時間が無いみたい。\n早くその例の魔法ってやつを\n披露してくれないかしら？", (0x04000000 +3368));
+talk("ルイズ", null, "分かったわ。", (0x04000000 +6524));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +140)});
+waitTime(200, true);
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("キュルケ", null, "ルイズ、まだ？", (0x04000000 +3369));
+talk("ルイズ", null, "今詠唱が完了したところよ。\n出でよ、ここになきもの……。\nここにあるように。", (0x04000000 +6525));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+talk("ルイズ", null, "イリュージョン！！", (0x04000000 +6526));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {y = 0,level = 80,x = 0,image = (0x02000000 +141)});
+waitTime(500, true);
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+msgon()
+talk("キュルケ", null, "な……。\nこ、こんな！", (0x04000000 +3370));
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)});
+trans("crossfade", 1000);
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +623)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+msgon()
+talk("タバサ", null, "成功みたい。", (0x04000000 +15619));
+talk("サイト", null, "え……！？", (0x04000000 +11974));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +141)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（その時俺は、我が目を疑った。\n　空に、トリステインの紋章をつけた数十隻の\n　空中艦隊が瞬時に出現したのだ）", null);
+talk("サイト", null, "（ルイズの虚無の魔法は、見事に成功したのだ）", null);
+talk("サイト", null, "そうか、ルイズのやつが使うって言ってたのは\nこれだったのか……。", (0x04000000 +11975));
+talk("サイト", null, "さすがはルイズだよ、うん。\nやっぱり俺のご主人様だ！", (0x04000000 +11976));
+talk("タバサ", null, "わたし達も急がないと。", (0x04000000 +15620));
+talk("サイト", null, "うん、学院長室はもう目の前だ。\nここから一気に行くとしますか。", (0x04000000 +11977));
+msgoff()
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +29)});
+trans("crossfade", 1000);
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1065)});
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1021)});
+msgon()
+talk("ウェザリー", null, "な……なんだ、あの大艦隊は！\nいったいどこからあれほどの……。", (0x04000000 +16023));
+talk("アキナ", null, "そんな、情報にありません。", (0x04000000 +91));
+talk("アキナ", null, "ウェザリー様、兵士達が浮き足立ってます！\n持ち場を離れて、逃げ惑うばかり。", (0x04000000 +92));
+talk("ウェザリー", null, "ここで混乱しては敵の思うツボよ。\nすぐに体制を立てなおすように伝えて。", (0x04000000 +16024));
+talk("アキナ", null, "はい！", (0x04000000 +93));
+talk("ウェザリー", null, "一体誰が、こんなことを。\nまさか、トリスタニアが奪還されたというの？", (0x04000000 +16025));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -210,level = 160,opacityFrom = 0,dr = "3A",opacityTime = 100,x = -160,lv = 0,image = (0x02000000 +658)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "3B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +471)});
+talk("ウェザリー", null, "お、おまえ達はっ……！", (0x04000000 +16026));
+talk("アキナ", null, "サ、サイトっ……！？", (0x04000000 +94));
+talk("サイト", null, "ウェザリー、それにアキナ。\n俺達の学院と、春奈を返してもらいに来たぜ。", (0x04000000 +11978));
+next((0x01000000 +764), true);

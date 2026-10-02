@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +695)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "釣りか！", (0x04000000 +8417));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +691)});
+talk("キュルケ", null, "なんでそうなるのよ！", (0x04000000 +2763));
+like("キュルケ", -10);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "え、違うのか。", (0x04000000 +8418));
+talk("キュルケ", null, "こんな天気の良い日に、この日差しを浴びながら\nぼーっと座って魚がかかるのを待つっていうの？\n冗談じゃないわよ。", (0x04000000 +2764));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "あー、そっか。\nそりゃ暑そうだな。", (0x04000000 +8419));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +687)});
+talk("キュルケ", null, "それに第一、ダーリンもあたしも\n釣りの道具なんて持ってないでしょ。", (0x04000000 +2765));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "はっ、言われてみればその通り！", (0x04000000 +8420));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +689)});
+talk("キュルケ", null, "湖に行くんだったら、することはひとつ。\n泳ぐに決まってるじゃない。", (0x04000000 +2766));
+talk("サイト", null, "おお、それは楽しそうだ。", (0x04000000 +8421));
+talk("キュルケ", null, "あ、一応聞くけど、\n泳げないってことはないわよね、ダーリン？", (0x04000000 +2767));
+talk("サイト", null, "まあ人並みには泳げるつもりだよ。", (0x04000000 +8422));
+talk("キュルケ", null, "そう、良かった。\nダーリンが岸で１人ぼっちだなんてことに\nなったら、つまんないしね。", (0x04000000 +2768));
+next((0x01000000 +1053), true);

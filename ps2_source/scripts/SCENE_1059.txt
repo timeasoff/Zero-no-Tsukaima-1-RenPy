@@ -1,0 +1,59 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あっ、ルイズここにいたんだ……。\nどこかに出かけないのか？", (0x04000000 +8458));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "サイト、どこに行ってたのよ。\nわたし、なんだか体が熱っぽくて、\n大変なんだからぁ……。", (0x04000000 +4693));
+like("ルイズ", 20);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "すごい熱じゃねーか。\n風邪でもひいたのか？", (0x04000000 +8459));
+talk("ルイズ", null, "風邪かも……。", (0x04000000 +4694));
+talk("サイト", null, "どうして言わないんだよ。", (0x04000000 +8460));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +341)});
+talk("ルイズ", null, "だって……。\nわたしハルナにひどいことしちゃったでしょ？\n熱がでてるなんて言えるわけないじゃない。", (0x04000000 +4695));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "馬鹿！\n意地張ってんじゃねーよ。\nほら、素直に寝ろって。", (0x04000000 +8461));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "バカサイトのくせに、\nご主人様に命令しないでよ……。", (0x04000000 +4696));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "命令じゃねー。\nお願いだ。\n早く布団に寝ろ！", (0x04000000 +8462));
+talk("ルイズ", null, "うん。", (0x04000000 +4697));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+talk(null, null, "………。\n……。\n…。", null);
+set("bgm", {stop = 1000});
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +199)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +12)});
+msgon()
+talk("サイト", null, "どうだルイズ？", (0x04000000 +8463));
+talk("ルイズ", null, "うん、タオルが冷たくて気持ちがいい。", (0x04000000 +4698));
+talk("サイト", null, "そうか？\nそりゃ、良かった。", (0x04000000 +8464));
+talk("サイト", null, "何か必要なものはないか？", (0x04000000 +8465));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +198)});
+waitLoad(true);
+talk("ルイズ", null, "うーん……。", (0x04000000 +4699));
+talk("サイト", null, "うん？", (0x04000000 +8466));
+talk("ルイズ", null, "サイトに何かしてほしいなぁ。", (0x04000000 +4700));
+talk("サイト", null, "何かねぇ……。", (0x04000000 +8467));
+selectInit();
+selectItem("リンゴをむいてあげる", (0x01000000 +1060), null, true);
+selectItem("体を拭いてあげる", (0x01000000 +1061), null, true);
+selectItem("お話を聞かせてあげる", (0x01000000 +1062), null, true);
+select();

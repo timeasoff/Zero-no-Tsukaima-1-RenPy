@@ -1,0 +1,29 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "やっぱり、バカ犬に首輪をつけるのは\n飼い主としての義務のようね。", (0x04000000 +7619));
+talk("サイト", null, "く、首輪ぁ！？", (0x04000000 +13814));
+talk("ルイズ", null, "……バカ犬はわたしの足下にだけ\nひざまずいてればいいのよっ！", (0x04000000 +7620));
+talk("サイト", null, "ううっ……。", (0x04000000 +13815));
+talk("ルイズ", null, "……うふふっ。", (0x04000000 +7621));
+talk("ルイズ", null, "さあ、首をお出しなさい？\n特別にわたしがつけてあげるんだからね。", (0x04000000 +7622));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "うふふふふふ……。\n新しい首輪、よく似合うわよ。\n……選ぶの苦労したんだからね？", (0x04000000 +7623));
+selectInit();
+selectItem("わ、わん！", (0x01000000 +1585), null, true);
+selectItem("……あ、ありがとうございます", (0x01000000 +1586), null, true);
+selectItem("そんな労力は使わないでください", (0x01000000 +1587), null, true);
+select();

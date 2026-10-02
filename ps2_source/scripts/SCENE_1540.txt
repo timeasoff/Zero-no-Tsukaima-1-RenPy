@@ -1,0 +1,29 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "……くっ、首輪よ！\nやっぱりバカ犬には首輪が必要なようね！", (0x04000000 +7647));
+talk("サイト", null, "く、首輪っ！？", (0x04000000 +13837));
+talk("ルイズ", null, "バカ犬がこのわたしのモノだってことを\n思い知らせてあげるんだからっ！", (0x04000000 +7648));
+talk("サイト", null, "やっ、やめろぉーーーっ！！", (0x04000000 +13838));
+talk("ルイズ", null, "返事は『わん』でしょっ！", (0x04000000 +7649));
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "……うううっ。\nなんでこんなことに。", (0x04000000 +13839));
+talk("ルイズ", null, "あら、なにか文句あるの？", (0x04000000 +7650));
+selectInit();
+selectItem("お、俺は犬じゃないっ！", (0x01000000 +1593), null, true);
+selectItem("文句はないです……ワン！", (0x01000000 +1594), null, true);
+selectItem("い、いつかはルイズに……", (0x01000000 +1595), null, true);
+select();

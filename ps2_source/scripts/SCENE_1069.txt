@@ -1,0 +1,41 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +423)});
+msgon()
+talk("サイト", null, "タバサはいるかな……？", (0x04000000 +8499));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 114,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +236)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "あっ、いたいた。\n使い魔のシルフィードと一緒だ。", (0x04000000 +8500));
+talk("サイト", null, "タバサって、\n使い魔のシルフィードを楽しそうに\n世話するんだな……。", (0x04000000 +8501));
+talk("サイト", null, "使い魔と主人との関係の理想形って、\nこういうことを言うんだろうな。", (0x04000000 +8502));
+talk("サイト", null, "（それに引きかえ、俺のご主人様のルイズと\n　きたら……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +237)});
+waitLoad(true);
+talk("タバサ", null, "……いたの？", (0x04000000 +15294));
+like("タバサ", 30);
+talk("サイト", null, "あっ、タバサ！？\nわるいわるい。\nしばらく眺めさせてもらってた。", (0x04000000 +8503));
+talk("タバサ", null, "悪趣味。", (0x04000000 +15295));
+talk("サイト", null, "タバサ達があんまり楽しそうだったから、\n声をかけるのを躊躇しちゃってたんだよね。", (0x04000000 +8504));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +236)});
+waitLoad(true);
+talk("タバサ", null, "分かるの？", (0x04000000 +15296));
+talk("サイト", null, "分かるのって、タバサ達が楽しそうに\nしてたことか？", (0x04000000 +8505));
+talk("タバサ", null, "うん。", (0x04000000 +15297));
+talk("サイト", null, "そりゃ、まあ……。", (0x04000000 +8506));
+selectInit();
+selectItem("同じ使い魔なんだぜ！", (0x01000000 +1070), null, true);
+selectItem("なんとなくだけど、分かるぜ", (0x01000000 +1071), null, true);
+selectItem("タバサの顔を見れば分かるよ", (0x01000000 +1072), null, true);
+select();

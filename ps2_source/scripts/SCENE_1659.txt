@@ -1,0 +1,11 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +174)});
+}
+talk("サイト", null, "……俺、汚れちゃった。\n汚されちゃったよ。", (0x04000000 +14039));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +175)});
+waitLoad(true);
+talk("ルイズ", null, "な、なによ！\n女装のひとつやふたつで、\nめそめそするんじゃないのっ！", (0x04000000 +7826));
+next((0x01000000 +1660), true);

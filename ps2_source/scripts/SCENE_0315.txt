@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+create("stage", "layer", null);
+set("stage", {show = 0,level = 10,image = (0x02000000 +53)});
+sync("stage");
+create("bgm", "bgm", null);
+set("bgm", {play = (0x03000000 +28)});
+sync("bgm");
+}
+msgoff()
+set("stage", {show = 0,level = 10,image = (0x02000000 +53)});
+sync("stage");
+set("bgm", {stop = 1000});
+sync("bgm");
+set("stage", {opacity = 0,level = 10,hide = 1,opacityTime = 1000,image = (0x02000000 +53)});
+sync("stage");
+waitTime(1000, true);
+next((0x01000000 +1383), true);

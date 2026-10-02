@@ -1,0 +1,75 @@
+reset();
+set("bgm", {fadetime = 0,play = (0x03000000 +27)});
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("ハルナ", null, "はぁはぁはぁ……。", (0x04000000 +2602));
+talk("ハルナ", null, "はぁはぁはぁ……。", (0x04000000 +2603));
+talk("ハルナ", null, "（動いて！\n　……私の体！）", (0x04000000 +2604));
+talk("ハルナ", null, "（動いて！\n　……私の足！）", (0x04000000 +2605));
+talk("ハルナ", null, "（動きなさい！\n　……お願い、動いてよ！）", (0x04000000 +2606));
+msgoff()
+set("lay7", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +957)});
+msgon()
+talk("ハルナ", null, "はぁはぁ……。\nここまでくれば……。", (0x04000000 +2607));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +18)});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay11", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1105)});
+set("lay12", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1105)});
+set("lay12", {level = 155});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+set("lay11", {level = 156});
+talk("ウェザリー", null, "逃げ切れると思ったの？", (0x04000000 +16100));
+talk("魔導士", null, "……。", null);
+talk("魔導士", null, "……。\n…………。", null);
+set("lay11", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay12", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 157,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "ウェザリーさん！", (0x04000000 +2608));
+set("lay7", {y = 0,x = -96});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "手間をかけさせるものではない。", (0x04000000 +16101));
+set("lay7", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "い、いやですっ！\nやめてください！", (0x04000000 +2609));
+talk("ウェザリー", null, "さあ、眠りなさい。\n疲れきった体を休めて。", (0x04000000 +16102));
+talk("ウェザリー", null, "大丈夫、目覚めた時には、\n別のあなたになっているわ。\nハルナであることも忘れられる。", (0x04000000 +16103));
+set("lay7", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "いっ、いやぁあぁぁーーーっ！", (0x04000000 +2610));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+set("lay12", {y = 0,show = 0,x = 224});
+set("lay20", {opacity = 100,y = 0,level = 154,show = 1,dr = "1A",x = 64,lv = 0,image = (0x02000000 +1061)});
+set("lay7", {y = 0,show = 0,x = -96});
+set("lay11", {y = 0,show = 0,x = -96});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("ウェザリー", null, "しかし、よく頑張ったものね。\n追っ手の中をここまで逃げてくるとは。", (0x04000000 +16104));
+set("lay20", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +1067)});
+talk("ウェザリー", null, "（もしかして、彼女にも伝説の力があるの？）", (0x04000000 +16105));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +485), true);

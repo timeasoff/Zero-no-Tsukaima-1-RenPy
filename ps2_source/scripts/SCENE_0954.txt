@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "それを今言っても始まらないって。", (0x04000000 +12596));
+talk("サイト", null, "俺達なんて、その怪しい人物のことすら\n気づかなかったじゃないか。", (0x04000000 +12597));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "そりゃまあそうなんだけどね……。", (0x04000000 +6883));
+set("lay6", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +715)});
+talk("キュルケ", null, "そういう意味では、\nあたし達も何も変わらないわ。", (0x04000000 +3523));
+talk("キュルケ", null, "結局、相手のほうが一歩上手で、\n全部パーになっちゃたんだし。", (0x04000000 +3524));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+next((0x01000000 +955), true);

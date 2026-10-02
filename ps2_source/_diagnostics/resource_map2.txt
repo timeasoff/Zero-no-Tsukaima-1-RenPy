@@ -1,0 +1,15 @@
+
+PS2 image ids used: 634 distinct, 1..1176
+NORMAL record count=0  SCENEDAT record count=0
+used ids inside NORMAL range  : 0
+used ids inside SCENEDAT range: 0
+used ids outside both         : 634
+
+HD sizes: NORMAL.HD=1440 SCENEDAT.HD=4736 VOICE_ID.HD=64768 SCENE_ID.HD=7684
+
+level values: [(0, 75), (8, 14), (10, 265), (80, 1098), (132, 1), (133, 2), (134, 1), (135, 1), (136, 4), (139, 1), (140, 98), (146, 1), (147, 10), (148, 13), (149, 43), (150, 44), (151, 91), (152, 58), (153, 111), (154, 225), (155, 304), (156, 426), (157, 219), (158, 1), (159, 23), (160, 10107), (200, 1993)]
+
+set() layers: {'lay5': 6667, 'lay1': 3580, 'stage': 3505, 'bgm': 2835, 'event': 1792, 'lay6': 1709, 'lay2': 1368, 'lay7': 1281, 'lay0': 994, 'lay8': 763, 'se1': 526, 'se0': 470, 'lay3': 445, 'lay20': 385, 'lay4': 369, 'lay19': 364, 'lay21': 350, 'lay9': 308, 'lay10': 208, 'white': 147, 'lay15': 122, 'lay11': 96, 'lay18': 48, 'lay12': 33, 'lay14': 11, 'lay22': 9, 'lay17': 7, 'lay16': 3, 'lay13': 1}
+dir values: {}
+
+trans(name, ms) top: [(('crossfade', 1000), 1111), (('crossfade', 0), 73), (('crossfade', 500), 59), (('crossfade', 2000), 39), (('crossfade', 750), 10)]

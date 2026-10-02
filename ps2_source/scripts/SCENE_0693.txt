@@ -1,0 +1,15 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +70)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "おまえ……。\nほんとに虚無の魔法を使うのか？", (0x04000000 +11761));
+set("lay1", {y = 0,dr = "2A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +335),imageType = 2});
+talk("ルイズ", null, "なに言ってんのよ。\n当然じゃない。", (0x04000000 +6314));
+talk("ルイズ", null, "虚無の力を使わないと、トリステインへの\n侵略は止められないんだから。", (0x04000000 +6315));
+set("lay5", {y = 0,dr = "2A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +429),imageType = 2});
+talk("サイト", null, "だよ、な。\n敵の艦隊とやりあうのに、\n俺のゼロ戦だけじゃ無理だしな。", (0x04000000 +11762));
+next((0x01000000 +694), true);

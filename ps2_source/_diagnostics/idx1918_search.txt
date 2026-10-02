@@ -1,0 +1,10 @@
+idx=1918 n=293 k=6
+base=48 rem=5
+best equal-base: score=110.0 sjis=1.0000 tok=2 sizes=(48, 50, 48, 48, 51, 48) perm=(5, 2, 0, 3, 1, 4)
+head: b'u se",)rle t\nectrue;Ine)esit;\ntl()se)c;\nle\n(sectf;leIt(icteme It("tnem\x82Pcx("\x82RnS\x82P", e\x82P n=e",uln= nl,l ul ")ul,mo{l "vi  moeNm\nvio=v eN13eoo=",mi11 tv(",rueo te)oiru;\n;Ne)se );\nlen\nsectx leIt(ectem0tIt("0(em\x82\xc20x("\x82\xac01\x82P",00\x82Q ( 0",0x10 n011+ul00)9l,00 5 "00r,mo +etvi19;ueN19\x00)o=),\x00\n12 null,t'
+window identity: score=85.0 sjis=0.8000 tok=1 sizes=(46, 46, 51, 48, 53, 49)
+head: b'so1uNtl11)=uc")\n2)I  e,\niruete(eltue;; n)tssrt\n)lle)e\ncc;\nefIIset(eelete((ctmt\x82\x82(t"c\x82\x82;mPn""i"R    P,=uunPnnllx,ll  Sn,)mmel"{vve,o ee="imoo oNv11ui=e""lN3m   =,vrr\n1teee ,uo;;ot);ssiu\n ll()encco\nexIIiet(eeNet0(()tm0\x82\x82\nt"0\x82\x82 m\xc20""e"\xac0  tP, u0(Q(1l0x,x1 01n1)m00l0 v00,0re 0"0e+o+;9i9\x0059\x00,,tnl,'
+--- other k values (identity perm, floor_dist & all_to_last) ---
+  k=2 mode=floor_dist score=205.0 sjis=1.0000 tok=21 head=b'selectInit();\nselectItem("\x82P\x82P", null, "movieNo=11", true);\nselectItem("\x82P\x82Q", n'
+  k=2 mode=all_to_last score=205.0 sjis=1.0000 tok=21 head=b'selectInit();\nselectItem("\x82P\x82P", null, "movieNo=11", true);\nselectItem("\x82P\x82Q", n'
+  k=2 mode=last_extra score=205.0 sjis=1.0000 tok=21 head=b'selectInit();\nselectItem("\x82P\x82P", null, "movieNo=11", true);\nselectItem("\x82P\x82Q", n'

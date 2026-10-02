@@ -1,0 +1,131 @@
+reset();
+title("プロローグ");
+tndl(null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +1)});
+trans("crossfade", 1000);
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+set("event", {show = 0});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1152)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1143)});
+trans("crossfade", 500);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1152)});
+trans("crossfade", 750);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +60)});
+trans("crossfade", 2000);
+endSkip();
+back();
+set("stage", {y = 0,level = 200,x = 0,image = (0x02000000 +60)});
+trans("crossfade", 1000);
+set("se0", {play = (0x03000000 +63)});
+set("stage", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("event", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay21", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+vibrate(3);
+waitTime(1100, true);
+set("stage", {show = 1,reset = 1});
+set("event", {show = 0,reset = 1});
+set("lay21", {show = 0,reset = 1});
+waitTime(0, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +24)});
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -50,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 0,lv = 0,image = (0x02000000 +1116)});
+msgon()
+talk("兵士Ａ", "兵士", "どこで爆発だ！", (0x04000000 +4283));
+set("lay15", {y = 0,x = -160});
+set("lay17", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 110,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 160,lv = 0,image = (0x02000000 +1116)});
+talk("兵士Ｂ", "兵士", "は、大通りに面した通りで数回、\n爆薬による爆発が確認されています。", (0x04000000 +4291));
+talk("兵士Ａ", "兵士", "はやく消火班をまわせ。\nこれ以上被害を増やすな！", (0x04000000 +4284));
+talk("兵士Ｂ", "兵士", "はっ！", (0x04000000 +4292));
+msgoff()
+set("lay17", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 210,moveTime = 100,xFrom = 160,opacityFrom = 100,hide = 1});
+set("lay15", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -110,moveTime = 100,xFrom = -160,opacityFrom = 100,hide = 1});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +1174)});
+trans("crossfade", 1000);
+voice((0x04000000 +5016),"ルイズ");
+waitVoice();
+waitTime(500, true);
+msgoff()
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+trans("crossfade", 1000);
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -210,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -160,lv = 0,image = (0x02000000 +1114)});
+set("lay17", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 110,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 160,lv = 0,image = (0x02000000 +1114)});
+msgon()
+talk("アキナ", "？？？", "ははははははっ。\nいつもご苦労だな。", (0x04000000 +53));
+set("lay15", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1118)});
+talk("兵士Ａ", "兵士", "どこだ！", (0x04000000 +4285));
+set("lay17", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1116)});
+talk("兵士Ｂ", "兵士", "隊長、あの屋敷の上にいます。", (0x04000000 +4293));
+msgoff()
+set("lay17", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 160,opacityFrom = 100,hide = 1,opacityTime = 100,x = 210});
+set("lay21", {show = 0});
+set("lay15", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -160,opacityFrom = 100,hide = 1,opacityTime = 100,x = -110});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +1175)});
+trans("crossfade", 1000);
+voice((0x04000000 +5017),"ルイズ");
+waitVoice();
+waitTime(500, true);
+msgoff()
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +97)});
+trans("crossfade", 1000);
+msgon()
+talk("アキナ", "？？？", "今日はここまでにしておこう。\nとっとと、消火でもしておくんだな。", (0x04000000 +54));
+talk("兵士Ａ", "兵士", "貴様、何が目的だ！", (0x04000000 +4286));
+talk("アキナ", "？？？", "目的？\nこの国のすべてのことわりを破壊することさ！", (0x04000000 +55));
+talk("兵士Ａ", "兵士", "な……！", (0x04000000 +4287));
+talk("アキナ", "？？？", "せいぜい、その時まで、\n日々の生活を大切にするんだね。\nそれじゃ。", (0x04000000 +56));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(1000, true);
+set("event", {y = 0,level = 80,x = 0,image = (0x02000000 +99)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("兵士Ｂ", "兵士", "き、消えた。", (0x04000000 +4294));
+talk("兵士Ａ", "兵士", "お、追え。\n今すぐに捕まえろ！", (0x04000000 +4288));
+talk("兵士Ｂ", "兵士", "はっ！", (0x04000000 +4295));
+msgoff()
+set("lay21", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +1176)});
+trans("crossfade", 1000);
+voice((0x04000000 +5018),"ルイズ");
+waitVoice();
+waitTime(500, true);
+msgoff()
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {stop = 1000});
+waitTime(1500, true);
+movie(0);
+next((0x01000000 +6), true);

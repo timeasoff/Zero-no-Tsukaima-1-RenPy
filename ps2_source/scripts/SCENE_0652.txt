@@ -1,0 +1,33 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +434)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 153,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "もうっ！\n世話の焼ける！", (0x04000000 +7124));
+set("lay1", {show = 1,level = 153,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "ほらっ！\nキュルケ飲みなさい！", (0x04000000 +7125));
+talk("ルイズ", null, "飲むのよーーッ！", (0x04000000 +7126));
+set("lay1", {y = 0,x = -96});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "やだーーーっ！\n……んぐ。", (0x04000000 +3795));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 149,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +856)});
+talk("モンモランシー", null, "ち、ちょっとルイズっ！\n無茶苦茶よっ！", (0x04000000 +4153));
+set("lay1", {show = 1,level = 153,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "……。", (0x04000000 +7127));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "ル、ルイズおねぇちゃん……ひどい。", (0x04000000 +3796));
+talk("キュルケ", null, "お、おくちが、にがいよぉーーっ！", (0x04000000 +3797));
+set("lay6", {show = 1,level = 151,dr = "1A",lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "……ひくっ！\nあ、あれ？", (0x04000000 +3798));
+set("lay6", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "な、なんだよっ！", (0x04000000 +13114));
+next((0x01000000 +653), true);

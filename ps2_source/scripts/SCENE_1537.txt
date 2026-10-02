@@ -1,0 +1,68 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "ほんっとうにっ！！\n何度言っても分からないバカ犬ねっっ！！", (0x04000000 +7567));
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぐはぁぁぁっ！", (0x04000000 +13758));
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "あ・れ・ほ・ど！\nしっぽ振って回るな、って\n言ってるのに、まだ分からないのかしら！", (0x04000000 +7568));
+talk("サイト", null, "ひ、ひぃっ！\nご、誤解です！\n間違いです！", (0x04000000 +13759));
+talk("ルイズ", null, "却下！\n却下却下却下！！\n言い訳なんか聞きたくないわっ！", (0x04000000 +7569));
+talk("ルイズ", null, "き、今日という今日はっ！", (0x04000000 +7570));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぎゃっ！", (0x04000000 +13760));
+talk("ルイズ", null, "……二度とそのしっぽを振れない\nようにしてあげるわ！", (0x04000000 +7571));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "いだだだだだだだだっ！！", (0x04000000 +13761));
+talk("サイト", null, "（や、ヤバイっ！\n　殺られるっっ！！）", null);
+selectInit();
+selectItem("脱出する！", (0x01000000 +1569), null, true);
+selectItem("タックル！", (0x01000000 +1570), null, true);
+selectItem("……気絶する！", (0x01000000 +1571), null, true);
+select();

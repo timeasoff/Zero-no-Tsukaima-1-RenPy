@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+}
+talk("サイト", null, "キャインキャイン！", (0x04000000 +13737));
+talk("ルイズ", null, "……な、なんのつもり？", (0x04000000 +7540));
+talk("サイト", null, "ほ、ほら。\n犬って降参のときはこうやって……。", (0x04000000 +13738));
+talk("ルイズ", null, "ふ～ん、そうそうアンタは犬だったわね。", (0x04000000 +7541));
+talk("サイト", null, "そ、そうそう。\n俺、犬。\nわんわんっ！", (0x04000000 +13739));
+talk("ルイズ", null, "だったら、ご主人様の言うことは\nちゃあんと聞かないとね。", (0x04000000 +7542));
+talk("サイト", null, "えっ……あ……。\nちょっと……。", (0x04000000 +13740));
+talk("ルイズ", null, "……覚悟はいいわね？", (0x04000000 +7543));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぐはっっ！", (0x04000000 +13741));
+next((0x01000000 +1564), true);

@@ -1,0 +1,54 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +53)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+msgon()
+talk("サイト", null, "（それからも練習の日々は続いた）", null);
+talk("サイト", null, "（毎日通ってくるお姫さまの行動も謎だが、\n　相変わらず、キュルケ、モンモランシー、\n　ギーシュが戻ってこないのも謎だな）", null);
+talk("サイト", null, "（まったく、どうなることやら……）", null);
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +23)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+msgon()
+talk("ウェザリー", null, "諸君、注目っ！", (0x04000000 +15960));
+talk("ウェザリー", null, "台本も上がったし、基礎も大分出来るように\nなってきたので、本格的に立ち稽古に\n入ろうと思います。", (0x04000000 +15961));
+set("lay20", {y = 0,x = -96});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "え、ついに……ですか？", (0x04000000 +2376));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +502)});
+talk("シエスタ", null, "やりましたね、みなさん。", (0x04000000 +14785));
+talk("ウェザリー", null, "……まあ、いない人達はしょうがないので、\nそれでは現時点でイメージしてる\n主な配役を発表します。", (0x04000000 +15962));
+talk("ウェザリー", null, "っと、その前に後半の筋ね……。", (0x04000000 +15963));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay20", {y = 0,x = 64});
+talk("ウェザリー", null, "２人の恋が王子の求婚にまで進展していた頃、\n少女の故郷である敵国で疫病が流行り、王族が\nすべて倒れるという事件が起こるの。", (0x04000000 +15964));
+talk("ウェザリー", null, "慌てた敵国は後継者を探し、とうとうノエルを\n見つけだした。敵国はすぐさま少女を\n帰国させるよう、圧力をかけてくる。", (0x04000000 +15965));
+talk("ウェザリー", null, "また、敵の王族である王子との結婚は許さない\nとも主張してきたの。", (0x04000000 +15966));
+talk("シエスタ", null, "で、どうなるんですか？", (0x04000000 +14786));
+talk("ウェザリー", null, "王国とケイン王子は要求を断り続けるけど、\n怒った敵国は、とうとう軍隊を使ってノエルを\n取り戻そうとする。", (0x04000000 +15967));
+talk("ウェザリー", null, "圧倒的な敵軍。\nついに落とされる王城……。", (0x04000000 +15968));
+talk("ウェザリー", null, "殺到する敵兵を食い止めながら、騎士達は\n王国万歳を叫び次々と死んでいく。", (0x04000000 +15969));
+talk("ウェザリー", null, "戦いで傷ついたケイン王子は、ノエルを連れて\n塔へと登り、最後の告白をするの……。\nそして、同時に城を出るように告げた。", (0x04000000 +15970));
+talk("ウェザリー", null, "けれど、少女は首を振る。\n王位と命を捨てても、少女は王子の告白に\n応えた。", (0x04000000 +15971));
+talk("ウェザリー", null, "そして、敵兵に囲まれた２人は、塔から身を投げ、\n自らの命を絶つのでした。", (0x04000000 +15972));
+talk("ウェザリー", null, "２人が落ちた場所からは、美しい白い花が\n咲くようになった。\n……ってお話。", (0x04000000 +15973));
+set("lay20", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "そ、それでおしまい？\nバッドエンドかよ？", (0x04000000 +11678));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1065)});
+talk("ウェザリー", null, "なにか不満でも？", (0x04000000 +15974));
+selectInit();
+selectItem("ひどい話だ", (0x01000000 +322), null, true);
+selectItem("いい話だ", (0x01000000 +323), null, true);
+selectItem("よく分かんない", (0x01000000 +324), null, true);
+select();

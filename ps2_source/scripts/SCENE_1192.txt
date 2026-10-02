@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +14)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +253)});
+}
+talk("サイト", null, "ダメ！\n絶対ダメ！", (0x04000000 +9089));
+talk("キュルケ", null, "そんな、おにいちゃん！", (0x04000000 +2869));
+talk("サイト", null, "そ、そんなこと言われたって！", (0x04000000 +9090));
+talk("キュルケ", null, "うう～～。", (0x04000000 +2870));
+talk("サイト", null, "わ、分かった！\n分かったから泣かないで！", (0x04000000 +9091));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +252)});
+waitLoad(true);
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay6", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay6", {show = 0,reset = 1});
+waitTime(0, true);
+talk("キュルケ", null, "えへへ、おにいちゃん！\nだいすきー。", (0x04000000 +2871));
+talk("サイト", null, "だ、抱きつくんじゃないって！", (0x04000000 +9092));
+next((0x01000000 +1193), true);

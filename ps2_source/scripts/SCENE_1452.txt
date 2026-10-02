@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +625)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +957)});
+set("bgm", {play = (0x03000000 +9)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +65)});
+}
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ご、ごめん。\nタバサ！", (0x04000000 +10180));
+set("lay0", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "なんであなたまで謝るの？", (0x04000000 +15530));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "え、ええと、\nほら、俺、春奈の保護者みたいな……。\nそんな感じ？", (0x04000000 +10181));
+talk("タバサ", null, "そう。", (0x04000000 +15531));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +592)});
+talk("タバサ", null, "貴重な本もあるの。\n気をつけて。", (0x04000000 +15532));
+next((0x01000000 +1453), true);

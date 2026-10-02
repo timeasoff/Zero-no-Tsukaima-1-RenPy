@@ -1,0 +1,55 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +13)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +224)});
+}
+set("bgm", {stop = 1000});
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +489)});
+msgon()
+talk("シエスタ", null, "それから……。", (0x04000000 +15019));
+set("lay2", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "なんだい、シエスタ？", (0x04000000 +12297));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +524)});
+talk("シエスタ", null, "あとひとつだけ……。\nあの、おまじないを……させてください。\nとっておきの。", (0x04000000 +15020));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "とっておきかぁ。\nああ、お願いするよ。\nどうすればいいの？", (0x04000000 +12298));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +497)});
+talk("シエスタ", null, "じゃ、じゃあ……。\nちょっとの間だけ、目を閉じていただけますか？", (0x04000000 +15021));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "目を？\nどうして？", (0x04000000 +12299));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +530)});
+talk("シエスタ", null, "ど、どうして……って、その、ええと……。\nはず、恥ずかしいからっ……です。", (0x04000000 +15022));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "恥ずかしい？\nよく分かんないけど……。", (0x04000000 +12300));
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("サイト", null, "これでいい？", (0x04000000 +12301));
+talk("シエスタ", null, "は、はい。", (0x04000000 +15023));
+talk("シエスタ", null, "すー……はー……。\nじゅ、準備できました。\nそ、それじゃいきますねっ！", (0x04000000 +15024));
+talk("サイト", null, "……ぁ！？", (0x04000000 +12302));
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +226)});
+trans("crossfade", 1000);
+msgon()
+talk("シエスタ", null, "んっ……。", (0x04000000 +15025));
+talk("サイト", null, "……っ！！！", (0x04000000 +12303));
+talk("シエスタ", null, "……。", (0x04000000 +15026));
+talk("シエスタ", null, "あ、あの、ごめんなさい……。\nいきなり、こんなこと……。", (0x04000000 +15027));
+talk("シエスタ", null, "で、でも、あの、おまじない……、\nです……から……。", (0x04000000 +15028));
+talk("サイト", null, "あっ……ああっ。", (0x04000000 +12304));
+next((0x01000000 +866), true);

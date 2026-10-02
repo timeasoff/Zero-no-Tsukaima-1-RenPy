@@ -1,0 +1,2257 @@
+========================================================================
+CHAPTER 23 : 料理の鉄人
+core scenes : 806 .. 848  (43 scenes)
+extra scenes: 1209, 1210, 1211, 1212, 1213  (5)
+========================================================================
+
+---- SCENE 0806 ----
+  [TITLE title("料理の鉄人")]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1163, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+5]
+シエスタ：サイトさん……。  [voice 14872]
+サイト：んん。  [voice 12125]
+シエスタ：サイトさんっ……サイトさん。  [voice 14873]
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+215, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+  [SE       se0      play=+69]
+シエスタ：おはようございます、サイトさん。  [voice 14874]
+サイト：ふゎあああっ……おはよう、シエスタ。
+そして、おやすみぃ。  [voice 12126]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+シエスタ：ちょっと、サイトさんっ！！
+起きてくださいっ。  [voice 14875]
+  [VIBRATE vibrate(1)]
+シエスタ：ミス・ヴァリエールを起こす時間ですよ。  [voice 14876]
+  [EVENT_CG event    image=+216, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：ああ、そんな時間か……。
+ありがとう、シエスタ。  [voice 12127]
+  [EVENT_CG event    image=+215, level=80]
+シエスタ：いいえ、サイトさん。
+お役に立てたようでうれしいです。  [voice 14877]
+サイト：（でも、こうやって誰かに起こしてもらうのって
+　久しぶりだよなぁ……なんかいいかも）
+シエスタ：それじゃあサイトさん。
+次はミス・ヴァリエールですね。  [voice 14878]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+サイト：オーケー。  [voice 12128]
+  【選択肢】いつものように起こすか → scene 807
+  【選択肢】ここはシエスタに任せた → scene 808
+  【選択肢】新しい方法を試してみよう → scene 809
+
+---- SCENE 0807 ----
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+サイト：（いつものように布団を引っぺがしてやるか。
+　ルイズはこれくらいしないと起きないからな）
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+サイト：とーりゃーっ！  [voice 12129]
+  [SE       se0      play=+67]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+330, level=160, dir=1C]
+ルイズ：ふにゃっ！？  [voice 6603]
+  [SPRITE   lay5     image=+414, level=160, dir=1C]
+サイト：おはようございます、ご主人様ぁ～。
+今日も気持ちのいい朝でございますよぉ？
+目をおさましになってくださいませぇ。  [voice 12130]
+ルイズ：あんたねぇ。
+もうちょっと起こし方ってものを
+考えなさい……。  [voice 6604]
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+サイト：な……ちょっと待ったっ！！
+別にいつもの起こし方と変わったところは……。  [voice 12131]
+  → next scene 810
+
+---- SCENE 0808 ----
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay5     image=+445, level=160, dir=2C]
+サイト：シエスタ。
+ここは君に任せた。  [voice 12132]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：ええ？
+いいんですか？  [voice 14879]
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+サイト：ああ。
+君のテクニック……見せてもらおうっ！
+ルイズを起こすこと……それが試練だっ！  [voice 12133]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：が、頑張りますっ！  [voice 14880]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：おはようございます、ミス・ヴァリエール。
+そろそろ、お目覚めのお時間ですよ？  [voice 14881]
+  [SPRITE   lay2     x=224, y=0]
+  [SPRITE   lay1     image=+330, level=160, dir=1C]
+ルイズ：……ん、ふにゃあっ。
+……し、シエスタぁ。
+おふぁよぉ……。  [voice 6605]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+414, level=160, dir=1C]
+サイト：見事だ、シエスタ！
+よくぞ、低血圧で寝起きが悪いルイズを、
+起こすことができた！  [voice 12134]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：えへへ、ありがとうございます。  [voice 14882]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+328, level=160, dir=1C]
+ルイズ：ちょっと、サイト？
+誉めるのはいいけど、顔を洗う水の用意は？  [voice 6606]
+  [SPRITE   lay5     image=+418, level=160, dir=1C]
+サイト：し、しまったぁ！  [voice 12135]
+  → next scene 810
+
+---- SCENE 0809 ----
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+サイト：今日は新しい方法を試してみよう。  [voice 12136]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：サイトさん、それは……？  [voice 14883]
+  [SPRITE   lay5     image=+445, level=160, dir=2C]
+サイト：ふふふっ、まあ見ててくれ。  [voice 12137]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+サイト：ご主人様……ふぅっ。
+朝でございますよ‥…ふぅっ。
+お目覚めを……ふぅぅぅぅ。  [voice 12138]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+328, level=160, dir=1C]
+ルイズ：うひゃああああっ！
+な、何、耳に息吹き込んでるのよ！  [voice 6607]
+  [SPRITE   lay5     image=+414, level=160, dir=1C]
+サイト：おはよう、ルイズ。  [voice 12139]
+ルイズ：おはようルイズじゃないわよっ！
+どうして、あんたはまともな起こし方が
+できないのよ！  [voice 6608]
+  [SPRITE   lay5     image=+418, level=160, dir=1C]
+サイト：ま、待て、落ち着け。  [voice 12140]
+  → next scene 810
+
+---- SCENE 0810 ----
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+  [SPRITE   lay1     image=+330, level=160, dir=1C]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+329, level=140, dir=1C]
+ルイズ：朝からお仕置きよー！  [voice 6609]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay1     hide, reset]
+サイト：ぎゃああああすっ！  [voice 12141]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  → next scene 811
+
+---- SCENE 0811 ----
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+19]
+サイト：（そして、朝食の時間……）
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：さぁ、これで全部です。  [voice 14884]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：すっげぇ～～。  [voice 12142]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：それじゃあ、いただきましょう。  [voice 6610]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：うふふっ。  [voice 2398]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：ゆっくり召し上がってくださいね。  [voice 14885]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：偉大なる始祖ブリミルと女王陛下よ。  [voice 6611]
+ルイズ：今朝もささやかな糧を我らに
+与えたもうたことを、
+ここに深く感謝いたします。  [voice 6612]
+  [BGM      bgm      stop=1000]
+  [SE       se0      play=+57]
+  [BGM      bgm      play=+30]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     image=+712, level=140, dir=2A]
+キュルケ：さぁ！！
+料理対決よっ。  [voice 3406]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+ルイズ：んぐんぐっ……あら？
+……このサラダ、結構イケるじゃない？  [voice 6613]
+シエスタ：あ、ありがとうございますっ。
+お代わりもたくさんありますから。
+どうぞ遠慮なく召し上がってくださいねっ！  [voice 14886]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：わあっ、このロールパンもフカフカ！  [voice 2399]
+シエスタ：それはですね。コック長のマルトーさんが
+早起きして、生地を丹念にこねあげて焼いた
+特製なんですよっ！  [voice 14887]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay6     image=+680, level=160, dir=1A]
+キュルケ：ちょっとぉ、あたしの話聞いてるっ？  [voice 3407]
+  [SPRITE   lay6     x=224, y=0]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：今、食事中なの！  [voice 6614]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+キュルケ：あら、余裕ね。
+勝負の時もそんな余裕があるといいんだけど。  [voice 3408]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：そんなの決まってるでしょ。  [voice 6615]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：決戦の場は食堂に用意したから、
+朝ご飯を食べ終わったら、いらっしゃい。
+分かったわね。  [voice 3409]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：分かったわ。
+必ず、あなたをギャフンって言わせて
+やるんだからー。  [voice 6616]
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+キュルケ：楽しみにしておくわ。
+じゃあね。  [voice 3410]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 812
+
+---- SCENE 0812 ----
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+19]
+  [SE       se1      play=+39]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：なんだか、おおごとになってしまいましたね。  [voice 14888]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：たかだか数人の料理対決に、ここまで人が
+集まるなんてなぁ……。
+この学院はずいぶん暇な生徒が多いんだな。  [voice 12143]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：やあやあ、諸君、おはよう。
+今日は可愛い教え子がご馳走を用意してくれる
+そうじゃないか。  [voice 4474]
+  [SPRITE   lay10    x=224, y=0]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：オールド・オスマンっ！？
+それにミスタ・コルベールまでっ！？  [voice 6617]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+コルベール：今日は、天気にも恵まれていますな。
+自慢の腕を存分にふるって、
+素晴らしい料理を作り上げてください。  [voice 1167]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：もしかして、わたし達を審査するのは……。  [voice 6618]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：そうよ、ルイズ。  [voice 3411]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：キュルケっ！？  [voice 6619]
+  [SPRITE   lay6     image=+711, level=160, dir=2A]
+キュルケ：うふふっ、待ちくたびれたわ？
+今日こそあなたに、引導を渡してあげるわ！  [voice 3412]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：あぁら、それはおあいにくさまっ。
+わたしにだって、とっておきがあるんだから！  [voice 6620]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：あら、そう。
+まぁ、楽しみだわ。  [voice 3413]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+キュルケ：ねぇ、タバサぁ。
+あなたは何を作る気でいるの？
+勝つ自信とか、ある？  [voice 3414]
+  [SPRITE   lay6     x=224, y=0]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：先手必勝。  [voice 15635]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：なんだそりゃ。  [voice 12144]
+  [SE       se1      stop=1]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：それじゃあ、ルールを説明するわ。  [voice 3415]
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+キュルケ：３人の審査員で判定を取ります。
+一番点数が多い人が勝ち。
+分かりやすいでしょ？  [voice 3416]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+キュルケ：ズルなしの真剣勝負。
+お互い頑張りましょうね……。
+うふふふっ。  [voice 3417]
+  [SPRITE   lay6     x=224, y=0]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：望むところよっ！  [voice 6621]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+ハルナ：私も、今日は頑張るんだからっ！  [voice 2400]
+シエスタ：よろしくお願いします、みなさん。  [voice 14889]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：勝負。  [voice 15636]
+  [LAYER    lay0     hide]
+  [SPRITE   lay10    image=+918, level=160, dir=1A]
+オスマン：えー、それでは……コホン。
+料理を始めるのじゃ。  [voice 4475]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：いよいよスタートだな。
+シエスタは大丈夫なのか？  [voice 12145]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：ええ、もちろんです。  [voice 14890]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：ひいおじいちゃん秘伝の料理を
+振る舞いますから、
+期待しててくださいねっ。  [voice 14891]
+  【選択肢】早く食べてみたいなぁ → scene 813
+  【選択肢】胃薬ってあったっけ → scene 814
+  【選択肢】あんまり無理しないように → scene 815
+
+---- SCENE 0813 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+19]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：秘伝の料理かぁ……早く食べてみたいなぁ。
+なんといっても、シエスタの手料理だもんなぁ！  [voice 12146]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：頑張りますっ！
+なにより、サイトさんに美味しいって、
+言ってもらえるように！  [voice 14892]
+  [SPRITE   lay5     image=+398, level=160, dir=1A]
+サイト：（ああっ、シエスタ、可愛い……）
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     x=64, y=0]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay10    vibrate=14]
+  [SPRITE   lay3     vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay9     vibrate=14]
+  [LAYER    lay0     vibrate=14]
+  [SPRITE   lay4     vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay6     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay10    hide, reset]
+  [SPRITE   lay3     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay9     hide, reset]
+  [LAYER    lay0     hide, reset]
+  [SPRITE   lay4     hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay6     hide, reset]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：痛っぇ～～～～～っ！！
+だ、誰だ、おたまなんて投げつけた奴は！  [voice 12147]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：あんたはわたしの使い魔なんだから、
+わたしの料理に期待しなさい！
+ほんっとにダメ使い魔なんだから！  [voice 6622]
+  → next scene 816
+
+---- SCENE 0814 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+19]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：シエスタはいいとして……。
+他のメンツの料理がなぁ……。
+胃薬ってあったっけ？  [voice 12148]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あ、はい。
+わたしの部屋にお婆ちゃん特製の胃薬が
+ありますから、安心してください。  [voice 14893]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：もしかしたら、お世話になるかも……。
+いや、きっと必要になるね。  [voice 12149]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：でも、とっても苦いお薬ですよ？  [voice 14894]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：それはいやだなぁ。
+甘いのないの？  [voice 12150]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：うーん、そういうのはありません。
+頑張って飲んでくださいね。  [voice 14895]
+  → next scene 816
+
+---- SCENE 0815 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+19]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：頑張るのはいいけど、
+あんまり無理はしないようにな。  [voice 12151]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：大丈夫ですっ。
+サイトさんのためなら、
+どんなことだって……頑張れちゃいます。  [voice 14896]
+  [SPRITE   lay5     image=+398, level=160, dir=1A]
+サイト：いや、そう言われちゃうと
+照れちゃうな。  [voice 12152]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     x=64, y=0]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay3     vibrate=14]
+  [LAYER    lay0     vibrate=14]
+  [SPRITE   lay4     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay6     vibrate=14]
+  [SPRITE   lay10    vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay9     vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay3     hide, reset]
+  [LAYER    lay0     hide, reset]
+  [SPRITE   lay4     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay6     hide, reset]
+  [SPRITE   lay10    hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay9     hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：痛っぇ～～～～～っ！！
+だ、誰だ、おたまなんて投げつけた奴は！  [voice 12153]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：あんたはわたしの使い魔なんだから、
+ほかの女の子といちゃいちゃしないの。
+もう、バカ犬なんだから！  [voice 6623]
+  → next scene 816
+
+---- SCENE 0816 ----
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [BGM      bgm      play=+19]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     x=144, y=416]
+  [SPRITE   lay4     image=+555, level=160, dir=1A]
+  [SPRITE   lay3     image=+852, level=160, dir=1A]
+ギーシュ：みんなの料理の腕前はどんな感じ
+なんだろう……。  [voice 1527]
+  [SPRITE   lay3     image=+891, level=160, dir=2A]
+モンモランシー：まあ、あまり期待しないほうがいいわね、
+特に一部の人達の料理には。  [voice 4108]
+  [SPRITE   lay4     hide]
+  [SPRITE   lay3     hide]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：ほっ、ほっ、ほっ。
+貴族が自ら料理とは……。
+これもサイトくんの影響かの。  [voice 4476]
+  [SPRITE   lay10    x=224, y=0]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：ええ、良い影響だと思います。  [voice 1168]
+サイト：（これで料理がまともだったら、
+　良い話で終わるんだけどなぁ……。
+　一体どうなるんだろう……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  → next scene 817
+
+---- SCENE 0817 ----
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+19]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：調理が始まってしばらく経ったけど、
+みんな真剣だな。
+ちょっと、どんなもんか見にいってみるか。  [voice 12154]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：まずはキュルケか。
+げっ！
+なんだあれ！  [voice 12155]
+サイト：（キュルケは、黒光りした生き物から
+　取り出した身をしぼって、
+　紫色のどろっとした液体を取り出してる）
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（見た目すごいけど……あれ食えるのか？
+　って、俺、食うの？）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：ふんふんふん……。  [voice 3418]
+  [SPRITE   lay6     x=-96, y=0]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：きゅ、キュルケさん？  [voice 12156]
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+キュルケ：あら、ダーリン。
+待ちきれなくなったの？
+うふ、もうちょっと待ってて。  [voice 3419]
+  [SPRITE   lay6     image=+711, level=160, dir=2A]
+キュルケ：今、一生忘れられないような
+美味しいもの食べさせてあげるわ。  [voice 3420]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：い、いや、それは楽しみにしてるんだけどさ、
+その……紫色の液体……何？  [voice 12157]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：それは秘密よ。
+秘密は多いほうが楽しいでしょ？
+料理も……男と女も、ね？  [voice 3421]
+サイト：（おいおい、がぜん不安になってきたぞ……）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（次は、ルイズだ）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：おりゃー！
+とりゃー！
+とおおおお！  [voice 6624]
+  [SE       se0      play=+85]
+  [SE       se0      play=+88]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay10    vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay9     vibrate=14]
+  [LAYER    lay0     vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay6     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay10    hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay9     hide, reset]
+  [LAYER    lay0     hide, reset]
+  [SPRITE   lay1     reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay6     hide, reset]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：おわあああっ！  [voice 12158]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：あら？
+包丁どっか飛ばしちゃった。  [voice 6625]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：そ、その包丁なら、ボクの首筋をかすめて、
+向こうの柱につきささってますが……っ！  [voice 12159]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：あら、サイト。
+どうしたの？  [voice 6626]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：どーしたのじゃねーよ！
+包丁振り回すなんてあぶねーじゃねーか！
+危うく刺されるとこだったぜ！  [voice 12160]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：う、うるさいわね。
+ちゃんと材料が切れてればいいでしょ？
+ほら！  [voice 6627]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：あ、ほんとだ。
+千切りとかうまいじゃん。  [voice 12161]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：うふふー。
+でしょう？  [voice 6628]
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+ルイズ：さ、分かったら、あっち行って！
+料理の邪魔！
+み、見られてると緊張するから！  [voice 6629]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：へいへい。  [voice 12162]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+223, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：（次は、シエスタだ）
+  [SE       se0      play=+81]
+シエスタ：………。
+サイト：（シエスタ……。
+　真剣な表情だな……）
+サイト：あ、これうまそ。
+ちょっともーらい。  [voice 12163]
+  [SE       se0      play=+71]
+  [BG       stage    vibrate=7]
+  [EVENT_CG event    vibrate=7]
+  [SPRITE   lay10    vibrate=7]
+  [SPRITE   lay2     hide, vibrate=7]
+  [SPRITE   lay5     hide, vibrate=7]
+  [SPRITE   lay9     vibrate=7]
+  [LAYER    lay0     vibrate=7]
+  [SPRITE   lay1     vibrate=7]
+  [SPRITE   lay7     vibrate=7]
+  [SPRITE   lay6     vibrate=7]
+  [VIBRATE vibrate(1)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay10    hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay9     hide, reset]
+  [LAYER    lay0     hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay6     hide, reset]
+シエスタ：だめです！  [voice 14898]
+サイト：いてっ。  [voice 12164]
+シエスタ：つまみぐいなんてお行儀悪いですよ。  [voice 14899]
+サイト：たはは……。
+うまそうだったもんだから、つい、ね。  [voice 12165]
+シエスタ：もうすぐ出来上がりますから、
+向こうで待っててくださいね。
+……って。  [voice 14900]
+サイト：ん？
+どしたの？
+真っ赤な顔して。  [voice 12166]
+シエスタ：い、いえ、あ、あのこんなこと言ってると、
+まるで、あの、その……。  [voice 14901]
+サイト：まるで？  [voice 12167]
+シエスタ：し、新婚さんみたいだなって！
+わたしが奥さんで、
+サイトさんが……だ、旦那様……なんてっ！  [voice 14902]
+サイト：な、なんですとっ！？  [voice 12168]
+シエスタ：い、言っちゃった……。
+す、すみませんっ。
+変なこと言ってしまって……。  [voice 14903]
+サイト：いいいい、いいいや、
+いいいいんだよ、べべべべ別に。  [voice 12169]
+シエスタ：……。  [voice 14904]
+サイト：……。  [voice 12170]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+  [SE       se0      play=+88]
+  [BG       stage    vibrate=7]
+  [EVENT_CG event    vibrate=7]
+  [SPRITE   lay10    vibrate=7]
+  [SPRITE   lay2     vibrate=7]
+  [SPRITE   lay5     vibrate=7]
+  [SPRITE   lay9     vibrate=7]
+  [LAYER    lay0     vibrate=7]
+  [SPRITE   lay1     vibrate=7]
+  [SPRITE   lay7     vibrate=7]
+  [SPRITE   lay6     vibrate=7]
+  [VIBRATE vibrate(1)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay10    hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay9     hide, reset]
+  [LAYER    lay0     hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay6     hide, reset]
+サイト：はうっ！？  [voice 12171]
+サイト：……。  [voice 12172]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+526, level=160, dir=2A]
+シエスタ：きゃあっ！
+どうして、包丁が飛んでくるの！？
+サイトさん、大丈夫ですかっ！？  [voice 14905]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：なんとか……。
+首筋かすめただけですんだみたいだ……。
+この包丁は……。  [voice 12173]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：あーら、また包丁飛ばしちゃったわ。  [voice 6630]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：やっぱりお前か！
+わ、わざとだろ！  [voice 12174]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：そんなわけないでしょう？
+手が滑っただけよ。  [voice 6631]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：そ、そうか。  [voice 12175]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：……惜しかったわ。  [voice 6632]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：な、なんか言ったか！？  [voice 12176]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：別にー。
+ああ、忙しい忙しい。  [voice 6633]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：じゃ、じゃあ、俺行くね。
+命の危険を感じるし。  [voice 12177]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：は、はい、そうですね。
+サイトさん、楽しみにしててくださいね。  [voice 14906]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ああ、もちろんさ！  [voice 12178]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（……あれ？
+　春奈はさっきから何をやってるんだ？
+　キュウリの化け物を切ってるみたいだけど？）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：なんで切っても切っても、
+綺麗に元通りになるのかしら？
+これ、どうやって刻めばいいの？  [voice 2401]
+サイト：（……それ、本当に野菜なのか？
+　この世に存在してはいけない何か、だったり）
+  [SE       se0      play=+64]
+  [SPRITE   lay7     image=+955, level=160, dir=1A]
+ハルナ：ひゃあっ！！
+もお……破裂するトマトなんて、
+どうやって切ればいいのよぅ……うーん。  [voice 2402]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：こんにゃくみたいなゴボウ……、
+プラスチックみたいなキャベツ……。
+こっちの世界ではどう食べてるのかしら……？  [voice 2403]
+サイト：（やっぱり、見慣れない食材に苦戦してるな）
+  [SPRITE   lay7     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（そして、タバサは……っと）
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SE       se0      play=+72]
+タバサ：……。
+サイト：……。  [voice 12179]
+  [SE       se0      play=+72]
+タバサ：……。
+サイト：（ずっと本を読んでるみたいだけど……、
+　平気なんだろうか？）
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+コルベール：みなさん、なかなか見事な手際ですねぇ？  [voice 1169]
+オスマン：ふむふむ、花嫁修業も上々といった
+ところじゃな？  [voice 4477]
+サイト：（後は、料理の完成をゆっくりと
+　待つとするか……。
+　がくがくぶるぶる……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  → next scene 818
+
+---- SCENE 0818 ----
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+5]
+コルベール：それでは、まもなく終了時間となります。  [voice 1170]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+32, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay9     x=304, y=416]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SE       se0      play=+72]
+タバサ：ん。  [voice 15637]
+  [LAYER    lay0     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：あら、ルイズ。
+思ったよりもまともな料理じゃないの。  [voice 3422]
+  [SPRITE   lay6     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：ふん、これぐらいのことなんて。
+朝起きて顔を洗うよりも簡単だわ？  [voice 6634]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+キュルケ：見た目は良くても、味のほうはどうかしらね？  [voice 3423]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay7     image=+984, level=160, dir=2A]
+ハルナ：はあっ……。
+どうにか様になったみたい。  [voice 2404]
+  [SPRITE   lay7     x=224, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：みなさん、どうにか時間内に作り上げる事が
+できたみたいですね？  [voice 14907]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ああっ、やっぱりシエスタからは、
+給仕としての余裕を感じる……。
+まぁ、当然か。  [voice 12180]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay10    image=+918, level=160, dir=1A]
+オスマン：ふむっ。
+それでは早速、いただくとしようかの？  [voice 4478]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：採点するうえでの公平を期するために、
+試食の順番を決めるくじを、
+料理人達に引いてもらいましょう。  [voice 1171]
+コルベール：それではどうぞ。  [voice 1172]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：ふふっ、あたしが１番よ。  [voice 3424]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：わ、私が２番。  [voice 2405]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：３番よ。  [voice 6635]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：わたし、４番です。  [voice 14908]
+  [SPRITE   lay2     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：５。  [voice 15638]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（綺麗に片付いた調理台の上を見ると……）
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（あれ、キュルケの台には
+　空のグラスが置いてあるだけだぞ？
+　料理、失敗だったのか？）
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（春奈の台には、大きなボウルが置いてある。
+　ふたが閉まってるから中身まで分からない）
+サイト：（ルイズとシエスタは……煮込みモノか。
+　お玉の刺さった大きな寸胴鍋が置かれてる）
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（タバサは……。
+　何やら大きなプレートに布がかけられてる。
+　何が置いてあるのかは、さっぱり不明だ）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：それでは、ミス・ツェルプストーの料理から
+試食といきましょう。  [voice 1173]
+  [SPRITE   lay9     x=224, y=0]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：分かりましたわ、ミスタ・コルベール。  [voice 3425]
+サイト：（さて、いよいよか……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  → next scene 819
+
+---- SCENE 0819 ----
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+8]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：ではみなさん、グラスをご用意ください。
+この日のために取り寄せて作った、とっておきの
+ドリンクをごちそういたしますわっ！  [voice 3426]
+  [SPRITE   lay6     x=224, y=0]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：ほほう、ドリンクとは。  [voice 4479]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+コルベール：これは、食前酒がわりにちょうど良いですねぇ。  [voice 1174]
+サイト：（うわぁ、見るからにヤバそうな粘り気）
+  [SPRITE   lay10    hide]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay6     image=+717, level=160, dir=2A]
+キュルケ：このドリンクは、ダーリンのために
+作ったんだからぁん……。
+いっぱい飲んで……？  [voice 3427]
+  [SPRITE   lay6     x=224, y=0]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：ちょっとキュルケ？
+いったいこれはなんなの？
+そのおぞましい色をした液体は……。  [voice 6636]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：さぁ、遠慮しないで。
+召しあがれ。  [voice 3428]
+  【選択肢】シエスタも飲んでみなよ → scene 820
+  【選択肢】自分で味見ってどうかな？ → scene 821
+  【選択肢】俺が飲んでやる！ → scene 822
+
+---- SCENE 0820 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+8]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：シエスタも飲んでみなよ？
+はい、グラス。  [voice 12181]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：ええっ、あの……えーと……。
+じゃ、す、少しだけっ！
+……コクリ。  [voice 14909]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+シエスタ：うううっ。
+もう、いいです。  [voice 14910]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：え、まじ？  [voice 12182]
+  → next scene 823
+
+---- SCENE 0821 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+8]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：ま、まずは自分で味見ってどうかな？  [voice 12183]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：え？  [voice 3429]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：味見した？  [voice 12184]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+680, level=160, dir=1A]
+キュルケ：わ、分かったわよっ！！
+……ごくり。  [voice 3430]
+  [BGM      bgm      stop=1000]
+  [BG       stage    image=+1, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：……うっ。  [voice 3431]
+  [SPRITE   lay6     hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+8]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：お、おいおい、
+うずくまってるけど、
+大丈夫なのか、キュルケ。  [voice 12185]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：自滅。  [voice 15639]
+  → next scene 823
+
+---- SCENE 0822 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+8]
+  [BG       stage    image=+20, level=200]
+サイト：（くそっ……俺も男だっ！！）
+  → next scene 823
+
+---- SCENE 0823 ----
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+8]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay6     x=464, y=416]
+  [SPRITE   lay1     x=144, y=416]
+  [LAYER    lay0     x=304, y=416]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：いただきまっす！！
+お父さんお母さんごめんなさいっ！
+ぐびぐびぐび！  [voice 12186]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay10    vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay9     vibrate=14]
+  [LAYER    lay0     vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay6     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay10    hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay9     hide, reset]
+  [LAYER    lay0     hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay6     hide, reset]
+  [BGM      bgm      stop=1000]
+  [BG       stage    image=+1, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：……。  [voice 12187]
+サイト：（……死ねる）
+  [SPRITE   lay5     hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+8]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：どおかしら、ダーリン。
+元気、出てきた？  [voice 3432]
+  [SPRITE   lay6     x=-96, y=0]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：無理。  [voice 12188]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：って、こんなの飲めるはずねーだろ！  [voice 12189]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+935, level=160, dir=1A]
+  [SPRITE   lay10    image=+924, level=160, dir=1A]
+コルベール：うむ……。
+この味は……。  [voice 1175]
+オスマン：……。
+  [SPRITE   lay9     hide]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay6     image=+713, level=160, dir=2A]
+キュルケ：なぁによぉ、その反応はっ！
+もお、がっかりぃ……。  [voice 3433]
+  [SPRITE   lay6     x=-96, y=0]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ところでこれ、いったい何が原料なんだ？  [voice 12190]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：ああ、これ？
+希少な動物の「海トカゲ」の生き血。  [voice 3434]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+キュルケ：１匹からほんのわずかしか取れない、
+とても貴重なものなんだけど……。  [voice 3435]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：ま、まじですか？  [voice 12191]
+  [SPRITE   lay6     image=+717, level=160, dir=2A]
+キュルケ：もお、サイトったら、だらしがないのねぇ。
+これさえ飲めば、元気いっぱいになるのに……。
+特に殿方にね……。  [voice 3436]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：りょ、料理じゃねーじゃないか。  [voice 12192]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  → next scene 824
+
+---- SCENE 0824 ----
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [BGM      bgm      play=+11]
+コルベール：では、みなさんが回復したところで。
+次の品評へと参りましょう。  [voice 1176]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：はい、私です。  [voice 2406]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：新鮮な野菜を使ったサラダを作ってみました。  [voice 2407]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay10    image=+922, level=160, dir=1A]
+オスマン：ほほぅ、今度は前菜じゃな？
+早速いただくとしま……うむむっ？  [voice 4480]
+  [SPRITE   lay10    x=224, y=0]
+  [SPRITE   lay9     image=+935, level=160, dir=1A]
+コルベール：おや、どうかされましたか？
+オールド・オスマン。  [voice 1177]
+  [SPRITE   lay10    image=+918, level=160, dir=1A]
+オスマン：はて、わしの目の錯覚かのぅ？
+皿に盛られた野菜が、動いて見えるわい。  [voice 4481]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：なんか、野菜からガサゴソ音がするわ。  [voice 6637]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：うおおっ、ゴボウの千切りが、
+時々動いてるじゃないかぁ！？  [voice 12193]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あら、それ流体ゴボウですね。
+流体ゴボウは観菜植物ですから、
+あまり料理に使うことはないのですけど……。  [voice 14911]
+  [SPRITE   lay2     x=224, y=0]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：こうして料理されてるのを見ると、
+ちょっと……、ううん、かなり不気味ね。  [voice 3437]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：か、かんさい……植物なんですか？
+なんなんですか、それ……。  [voice 2408]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：まさにファンタジー世界だな。  [voice 12194]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：流体ゴボウを食材に選ぶとは、
+なかなか斬新なアイデアですよ、ハルナくん。  [voice 1178]
+  [SPRITE   lay9     x=224, y=0]
+  [SPRITE   lay7     image=+990, level=160, dir=2A]
+ハルナ：いえ、その……。
+私、あまりこの世界の野菜について、
+詳しくないものですから……。  [voice 2409]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：確かに、平民にしか思いつかないわね、これは。  [voice 3438]
+  【選択肢】うごめく野菜を食べてみる → scene 825
+  【選択肢】ハルナに試食をすすめる → scene 826
+  【選択肢】こわごわつまんでみる → scene 827
+
+---- SCENE 0825 ----
+  [SPRITE   lay7     image=+990, level=160, dir=2A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+11]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：よ、よし。
+それじゃあ、食ってみるか。  [voice 12195]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：あっ、ちゃんと特製のドレッシングをかけてね？  [voice 2410]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：あ、ドレッシングは普通なのね。  [voice 12196]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：しっかし、青いタマネギとか、白いピーマンとか
+うごめくゴボウに、針のように硬いキャベツの
+千切りだとかって…………ごくっ。  [voice 12197]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：食うぞっ！？  [voice 12198]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：んぐっ……はんはほへわぉ！？  [voice 12199]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：うぐ、なんだこれわ？  [voice 12200]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：うわあぁ……。
+すごい音がしてますねえ……。  [voice 14912]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+  → next scene 828
+
+---- SCENE 0826 ----
+  [SPRITE   lay7     image=+990, level=160, dir=2A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+11]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：よし、どうせなら春奈も一緒に食おうぜ？  [voice 12201]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：うん、もちろんいいよ。  [voice 2411]
+  [SPRITE   lay7     image=+955, level=160, dir=1A]
+ハルナ：ふぅ。
+せーの！
+はぐっ……！  [voice 2412]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：す、凄い音がしてるわよ？  [voice 3439]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：それは、鉱山キャベツです。  [voice 14913]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：んぐんぐ……んぐぅ～～！！  [voice 2413]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：ハルナさん、大丈夫ですかっ！？  [voice 14914]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+  → next scene 828
+
+---- SCENE 0827 ----
+  [SPRITE   lay7     image=+990, level=160, dir=2A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+11]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：こ、これ、食えるのか？  [voice 12202]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：あ、落としちゃった！  [voice 12203]
+  [SPRITE   lay7     image=+988, level=160, dir=2A]
+ハルナ：もったいないわね！
+……ええっ！？  [voice 2414]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：まじか……。
+今、キュウリが地面を掘ってったな。  [voice 12204]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：うん。
+穴、残ってるね。  [voice 2415]
+サイト：見なかった。
+俺達は何も見なかった。  [voice 12205]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：そ、そうね！
+さ、食べてみて！
+地面にもぐるキュウリのサラダ！  [voice 2416]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：くそっ、ファンタジー世界め！  [voice 12206]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+  → next scene 828
+
+---- SCENE 0828 ----
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+  [BGM      bgm      play=+11]
+  [BG       stage    image=+20, level=200]
+コルベール：栄養価も高く、とてもヘルシーな逸品ですね。
+それに見た目も珍しい。  [voice 1179]
+サイト：（コルベール先生と、オスマン学院長は
+　ちゃんと食べてる。
+　おそるべし、ファンタジー世界）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  → next scene 829
+
+---- SCENE 0829 ----
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay10    image=+918, level=160, dir=1A]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [BGM      bgm      play=+6]
+オスマン：では、そろそろ次の品評といきますかな？  [voice 4482]
+コルベール：次は、ミス・ヴァリエールの料理ですね。  [voice 1180]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：ほう、シチューかね。  [voice 4483]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：各地から極上の素材を集めましたわ。
+鳥肉、ジャガイモ、たまねぎ……。
+全てにこだわりを持って吟味いたしました。  [voice 6638]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：見た目は結構まともじゃないか？  [voice 12207]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：見た目だけじゃないわよっ！！
+さぁ、早く食べてごらんなさい？  [voice 6639]
+  【選択肢】ルイズのシチューを食べる → scene 830
+  【選択肢】キュルケに試食をすすめる → scene 831
+  【選択肢】味見したか？ → scene 832
+
+---- SCENE 0830 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+6]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：どれどれ……はぐっ……んぐんぐっ……。  [voice 12208]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：おおっ、こ、これは！？  [voice 12209]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：……どう？
+サイトぉ？  [voice 6640]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：んん～っ！！
+これはビックリだっ！！  [voice 12210]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：でしょでしょ？
+おいしいでしょう？
+わたしが作れば、ざっとこんなもんよっ！  [voice 6641]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：具が均等に刻んであって、
+ちゃんと火が通ってる。
+感動したよ、ルイズ！  [voice 12211]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：そんなの当たり前でしょうが、バカっ！！  [voice 6642]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：でも、何でこんなに甘いんだ？  [voice 12212]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：えっ……甘い？  [voice 6643]
+  → next scene 833
+
+---- SCENE 0831 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+6]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：キュルケにとっては、宿敵の料理じゃないか。
+自分の舌で確かめてみたらどうなのさ？  [voice 12213]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：それもそうね……。
+それじゃあ、いただくわ。
+はぐっ……んうんうっ……。  [voice 3440]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：キュルケ、大丈夫か？
+いきなり叫んだりしないよな。  [voice 12214]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：どーいう意味よ、それ！？  [voice 6644]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+キュルケ：んふっ……実にヴァリエールらしい味だわ。
+あなた今年で年はいくつ？
+こんなシチューを作ってるなんて、くすくすっ！  [voice 3441]
+ルイズ：なによそれっ？  [voice 6645]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：ここまで甘ったるいシチューは、
+初めて食べたわ。  [voice 3442]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：えっ……甘い？  [voice 6646]
+  → next scene 833
+
+---- SCENE 0832 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+6]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：食う前にひとつ、聞いておきたいことがある。  [voice 12215]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：何よ。  [voice 6647]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：お前、ちゃんと味見したか？  [voice 12216]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：はあっ！？
+なんでわたしが料理の味見なんて
+しなきゃいけないのよっ！？  [voice 6648]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：わたしが作る料理の味見は、
+使い魔であるあんたの役目でしょ？  [voice 6649]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：サイトが審査員なんてやってるから、
+味の加減が分からなかったのよっ！  [voice 6650]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：やっぱり。  [voice 12217]
+  → next scene 833
+
+---- SCENE 0833 ----
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+  [BGM      bgm      play=+6]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     x=304, y=416]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：じゃ、わたしもいただきますね。
+どれどれ……。
+あれ？  [voice 14915]
+  [SPRITE   lay2     x=224, y=0]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：ど、どうしたの、シエスタ？  [voice 6651]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：ミス・ヴァリエール……、
+その、これ、ハチミツ入ってませんか？
+隠し味によく入れますけど……。  [voice 14916]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+ルイズ：ええ……。
+本にも書いてあったわ。
+だからぁ……。  [voice 6652]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：……どれくらい入れたんだ？  [voice 12218]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+ルイズ：……ひとビン。  [voice 6653]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     image=+990, level=160, dir=2A]
+ハルナ：んぐっ……けほっ、けほっ……。  [voice 2417]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：この大きさの鍋で、ビン１本は多すぎますっ！  [voice 14917]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：まったく……まずは味見しろ。  [voice 12219]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：うるっさいわねぇ、ホントに。
+男がゴチャゴチャ言わないのっ！
+ご主人様が出した物は、黙って食べなさいっ！？  [voice 6654]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+オスマン：ほほっ、この味付けじゃと、
+我々よりもむしろ幼子が喜びそうじゃのう？  [voice 4484]
+コルベール：確かに少々甘口ですが、
+どこか温かみを感じるシチューでした。  [voice 1181]
+サイト：（まぁ、ルイズのイメージからすれば、
+　思った以上の出来だったな。
+　それでもルイズは不満そうだけど……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  → next scene 834
+
+---- SCENE 0834 ----
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+コルベール：それでは、シエスタの料理ですね。  [voice 1182]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay2     image=+494, level=140, dir=1A]
+  [SE       se0      play=+53]
+シエスタ：これまで発表された料理を食べた限りでは、
+みなさんは、何も分かっていませんっ！！  [voice 14918]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：おおっ！？  [voice 12220]
+シエスタ：お料理を作るときは、食べてくれる人の事を
+考えて作らなくてはダメなんです！  [voice 14919]
+シエスタ：料理人は調理場に立った時から、
+食べてくれる人への愛情を、
+忘れてはいけませんっ！  [voice 14920]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：さすがシエスタ。
+いいこと言う。  [voice 12221]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：って、マルトーさんがおっしゃってました。  [voice 14921]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：受け売りかいっ。  [voice 12222]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：さあ、みなさん召し上がってください。
+わたしのひいおじいちゃん直伝の、
+特製シチューですっ！  [voice 14922]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay3     image=+891, level=160, dir=2A]
+  [SPRITE   lay4     image=+555, level=160, dir=1A]
+モンモランシー：ルイズがシチューを作ったっていうのに、
+そろって同じものを出すなんて……。
+よほど自信があるのかしらね、あの娘？  [voice 4109]
+ギーシュ：まぁ。
+とくと堪能させてもらおうよ、モンモランシー。  [voice 1528]
+  [SPRITE   lay3     hide]
+  [SPRITE   lay4     hide]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：はい、どうぞ、サイトさん。
+召し上がれ。  [voice 14923]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ありがとうシエスタ……って。  [voice 12223]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：ああーーーっ！！
+この料理はっ……うそぉ！？  [voice 12224]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay7     image=+955, level=160, dir=1A]
+ハルナ：これって！
+まさか……。  [voice 2418]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：サイトさんもハルナさんもこの料理を
+ご存じですよね。  [voice 14924]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：これは、カレーだよっ！！
+俺達の住んでた世界にある料理だっ！！  [voice 12225]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：くすっ……。
+いっぱい食べてくださいねっ！  [voice 14925]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：ああっ、いただきます！
+はぐっ、むぐむぐっ……。  [voice 12226]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：まさか、カレーが出てくるなんてなぁ……。  [voice 12227]
+  【選択肢】カレーが食べられるなんて！ → scene 835
+  【選択肢】こんなにうれしい料理が！ → scene 836
+  【選択肢】ルイズにも教えてやってくれよ → scene 837
+
+---- SCENE 0835 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：こんな所で俺達の世界特有の料理が
+出てくるなんて、何だかすげえよなぁ。  [voice 12228]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：ホントに、そうですね。
+ひいおじいちゃんにちょっぴり感謝です。  [voice 14926]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：おかげで、サイトさんが、
+とっても喜んでくれましたから……。  [voice 14927]
+  → next scene 838
+
+---- SCENE 0836 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：こんなにうれしい料理が待っていたのなら、
+ルイズがどんなうまいものを作ったところで、
+勝ち目はなかったさっ！！  [voice 12229]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：あら、随分と言ってくれるじゃないの？
+どうせわたしの作ったシチューは、
+甘々のお子様シチューよっ！  [voice 6655]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：もう、サイトになんか絶対に
+料理を作ってあげないんだからっ！  [voice 6656]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+  → next scene 838
+
+---- SCENE 0837 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：なあ、シエスタ。
+後でルイズにカレーを教えてやってくれよ。  [voice 12230]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：わ、わたしにっ！？  [voice 6657]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：え……。
+ど、どうしてですかっ！？  [voice 14928]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ほら、カレーとシチューって途中まで
+調理方法が一緒だろ？
+だったら、ルイズにも作れるかなぁって思って。  [voice 12231]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：それに、俺の国の料理、みんなに
+知ってもらいたいしさ。  [voice 12232]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：はい！
+そうですね。  [voice 14929]
+  → next scene 838
+
+---- SCENE 0838 ----
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+  [BGM      bgm      play=+7]
+  [BG       stage    image=+20, level=200]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：ありがとう、シエスタ。
+また食べたくなったらさ、
+俺達にご馳走してくれるかい？  [voice 12233]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：ええっ、もちろん！
+いつでも言ってくださいね。  [voice 14930]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：分かった。  [voice 12234]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：むうううううっ……。
+なんかスッキリいかないわぁ。  [voice 6658]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+コルベール：うーむ、食べる人の立場に立った、
+実に、素晴らしい料理ですね。  [voice 1183]
+サイト：（このカレーの感動は、きっと死ぬまで
+　忘れる事はないだろうなぁ……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  → next scene 839
+
+---- SCENE 0839 ----
+  [BG       stage    image=+21, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+9]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：それでは最後に、ミス・タバサの料理です。  [voice 1184]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+キュルケ：ねぇねぇタバサ。
+結局、あなた何を作ったの？  [voice 3443]
+タバサ：２次発酵。  [voice 15640]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：ニジハッコウ？
+何それ？
+どんな料理？  [voice 6659]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay7     image=+955, level=160, dir=1A]
+ハルナ：ひょっとして……！  [voice 2419]
+  [SE       se0      play=+67]
+  [SPRITE   lay7     hide]
+  [LAYER    lay0     x=64, y=0]
+タバサ：これ。  [voice 15641]
+  [LAYER    lay0     hide]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：ほほう、パンじゃの！  [voice 4485]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay6     image=+711, level=160, dir=2A]
+キュルケ：んー、焼きたてのいい香り！
+さっそくひとつ、いただこうかしら？  [voice 3444]
+  [SPRITE   lay6     x=-96, y=0]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：これはっ……。
+このパンはっ！  [voice 12235]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：やっぱり！
+これ、コッペパンじゃないのっ！！  [voice 2420]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay4     image=+561, level=160, dir=1A]
+ギーシュ：コッペパン？  [voice 1529]
+  [SPRITE   lay4     image=+555, level=160, dir=1A]
+ギーシュ：この奇妙なパンのことを彼女が
+知っているということは、あれかい？
+これは異世界に存在するパンだってことかい？  [voice 1530]
+  [SPRITE   lay4     x=-96, y=0]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：ああっ、そうだよっ！！
+名前も気にしないで、いつも食ってたけど。
+そういえばコッペパンって名前だ、こいつはっ。  [voice 12236]
+  [SPRITE   lay4     hide]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：私達の世界では、ごく当たり前に手に入る
+パンなんです。  [voice 2421]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+キュルケ：すごいじゃない、タバサっ！
+このパンの事、どうやって調べたの？  [voice 3445]
+  [SPRITE   lay6     x=224, y=0]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SE       se0      play=+72]
+タバサ：秘密。  [voice 15642]
+  [SPRITE   lay6     hide]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：細かいことは取りあえず置いておいてさ、
+早くみんなで食べようぜっ！  [voice 12237]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：ほら、シエスタも食べてごらんよっ！！  [voice 12238]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あっ……はいっ！
+それじゃあひとつ、いただきますっ。  [voice 14931]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：ほうほう、全体的に焼けているにもかかわらず、
+まったくパリパリになっていませんねぇ。  [voice 1185]
+  [SPRITE   lay9     x=224, y=0]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：なんだかそれにミルクの香りがするわ……。
+柔らかいし。  [voice 6660]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay4     image=+568, level=160, dir=2A]
+ギーシュ：見た目とは裏腹になんともみずみずしくて
+ほのかな甘みが口の中に広がる……。
+ああ、なんて罪なパンなんだろう！  [voice 1531]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：これが、サイトさんの世界で食べてるパン……。  [voice 14932]
+  [SPRITE   lay4     hide]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：はぐはぐっ。
+……ああ、そうさ。
+懐かしくて涙が出てくらぁ。  [voice 12239]
+  【選択肢】うまいだろ？ → scene 840
+  【選択肢】ガキの頃食ってたよ → scene 841
+  【選択肢】昔は残したりしてたのにな → scene 842
+
+---- SCENE 0840 ----
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：どうだシエスタ、うまいだろ？  [voice 12240]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：あむあむっ。
+本当に、おいしいですねっ。  [voice 14933]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：こうして噛んでるだけでとても甘くて、
+何だか自然とほほえんできちゃいますっ。  [voice 14934]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：ははっ、そりゃあいいや。  [voice 12241]
+  → next scene 843
+
+---- SCENE 0841 ----
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ガキの頃からよく食べていたよ。  [voice 12242]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：こうして、そのまま食べてもおいしいし。
+パンに切れ目を入れて、
+そこにジャムとかを挟むと、またうまいんだ。  [voice 12243]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：それはおいしそうですねっ！  [voice 14935]
+  → next scene 843
+
+---- SCENE 0842 ----
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：昔は、給食にでてきてさ、
+よく残したりしたっけな。
+今思うと、もったいないことしてたな。  [voice 12244]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：キュウショク？  [voice 14936]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：えーと、学校で出る食事みたいなものなんだよ。  [voice 12245]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：こんなに美味しく感じるなんてなぁ……。
+やっぱり、思い出の味だからかな……。  [voice 12246]
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+シエスタ：サイトさん……。  [voice 14937]
+  → next scene 843
+
+---- SCENE 0843 ----
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：ふむ、これは実に後を引くパンじゃのう？
+もうひとうもらえるかね、ミス・タバサ。  [voice 4486]
+  [SPRITE   lay10    x=224, y=0]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：どうぞ。  [voice 15643]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [LAYER    lay0     hide]
+  [SPRITE   lay10    hide]
+  [BG       stage    hide]
+  → next scene 844
+
+---- SCENE 0844 ----
+  [BG       stage    image=+21, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+19]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [SPRITE   lay10    image=+918, level=160, dir=1A]
+コルベール：優勝者は……。
+どういたしましょうか、オールド・オスマン？  [voice 1186]
+オスマン：そうじゃな……。  [voice 4487]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay10    x=64, y=0]
+オスマン：今日は手料理を通じて、
+“まごころ”の大切さを学ぶよい機会であった。  [voice 4488]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：目的はどうあれ、今回の主賓であるサイトくん
+を思い、一生懸命料理を仕上げたことは、
+素晴らしいことじゃ。  [voice 4489]
+  [SPRITE   lay10    image=+918, level=160, dir=1A]
+オスマン：このたび腕を競い合った５人の若人は、
+等しく勝利者である……、
+と言っても過言ではないじゃろう。  [voice 4490]
+  [SPRITE   lay10    x=224, y=0]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：失礼ながら、オールド・オスマン。
+そのような曖昧な結果では納得いきませんわ。
+はっきり白黒つけることが大切だと思いますの。  [voice 3446]
+オスマン：ふうむ。  [voice 4491]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：では、審査員で、美味しかった料理に
+投票していただきましょう。
+その結果で優勝を決めるというのはいかがです？  [voice 1187]
+  [SPRITE   lay10    image=+920, level=160, dir=1A]
+オスマン：そうじゃな。
+優勝くらいは決めてもよかろう。  [voice 4492]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay10    hide]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+89, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+28]
+コルベール：集計が終わりました。
+結果を発表いたします。  [voice 1188]
+  [SPRITE   lay9     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+21, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：優勝者は……。  [voice 1189]
+コルベール：……。
+サイト：（だ、誰に決まったんだ……？）
+  [SPRITE   lay9     image=+933, level=160, dir=1A]
+コルベール：優勝者はっ！  [voice 1190]
+  [SPRITE   lay9     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：ミスタ・コルベール！
+失礼ながら、間が長すぎます！  [voice 6661]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay9     image=+931, level=160, dir=1A]
+コルベール：おや、これは失礼。
+では発表します。  [voice 1191]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：優勝は、カレーシチューを作った、
+シエスタですっ！  [voice 1192]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  [BGM      bgm      play=+25]
+シエスタ：……。  [voice 14938]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：やったね、シエスタ。
+おめでとうっ！！  [voice 12247]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あ、はい……！  [voice 14939]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：サイトさん……。  [voice 14940]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：どうしたの、シエスタ。
+せっかく優勝したんだから、もっと喜びなよ。  [voice 12248]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：あのっ！  [voice 14941]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：ん？
+なんだい？  [voice 12249]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+13]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：サイトさんは……。
+どの料理が一番美味しいと思いましたか……？  [voice 14942]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：え？  [voice 12250]
+  【選択肢】もちろんカレー → scene 845
+  【選択肢】コッペパン → scene 846
+  【選択肢】みんな美味かった → scene 847
+
+---- SCENE 0845 ----
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：もちろん、カレーが一番美味かったよ。
+シエスタのカレーがね。  [voice 12251]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：そうですか？  [voice 14943]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：……？
+どうかした？  [voice 12252]
+  → next scene 848
+
+---- SCENE 0846 ----
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：ううーん、
+カレーとどっちを取るか悩むけど……、
+ここはコッペパンかな。  [voice 12253]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：……やっぱり、そうですか。  [voice 14944]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：シエスタ？
+どうかした？  [voice 12254]
+  → next scene 848
+
+---- SCENE 0847 ----
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：いやいや、はじめはびくびくしていたけど、
+みんな料理が上手だね。  [voice 12255]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（キュルケのは料理なのか微妙だけど……。
+　まあ、そこは言っちゃいけないよな）
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：……。  [voice 14945]
+  → next scene 848
+
+---- SCENE 0848 ----
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+21, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：シエスタ、どうしたの？
+そんな顔して。  [voice 12256]
+シエスタ：サイトさん。  [voice 14946]
+サイト：はいっ！？  [voice 12257]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：ゴメンなさいっ！！
+わたしサイトさんの給仕にはなれません！！  [voice 14947]
+サイト：え？  [voice 12258]
+サイト：（そういや、思い出した。
+　料理対決に優勝したら、
+　俺のメイドになるって言ってたっけ）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：シエスタさん、どうしてなの？
+あんなに頑張って勝負したのに。  [voice 2422]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+シエスタ：ホントにごめんなさい。
+でも、わたし……。  [voice 14948]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：ミス・タバサが作った、コッペパンを
+食べてるサイトさんを見て気付いたんです。  [voice 14949]
+  [SPRITE   lay2     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：気付いたって、何に？  [voice 6662]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：わたし、サイトさんのために、
+一生懸命頑張ったつもりなんです。  [voice 14950]
+シエスタ：でも、サイトさんの事をもっと深く理解して
+いたら、きっとコッペパンにも勝るような
+馴染み深い料理を用意できたはずですものっ！  [voice 14951]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：確かに、料理大会では優勝しました。
+でも、それだけではダメだったんです……。  [voice 14952]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：そんなことないよ、シエスタっ！！
+シエスタのカレーだって、
+同じくらい美味しかったさ！  [voice 12259]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：同じくらいじゃ、だめなんですっ！  [voice 14953]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：おお！？  [voice 12260]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：なんだかシエスタさんの気持ち……。
+ちょっと分かるかも。  [voice 2423]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     x=64, y=0]
+シエスタ：この世界……いえ、サイトさんの世界にいても、
+わたしがいちばんサイトさんのことを知ってる！  [voice 14954]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：そう思えるようになるまで、
+修行しなくちゃいけないなって思ったんです。  [voice 14955]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+シエスタ：ですから、わたし。
+学院のメイドに戻ろうと思うんですっ！
+人の気持ちをもっとよく知るために……。  [voice 14956]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：シエスタ……。  [voice 12261]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：それに、これ以上、ミス・ヴァリエールに
+ご迷惑をかけ続けるわけにも参りません。  [voice 14957]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：分かったわ。
+あなたの好きなようになさい。  [voice 6663]
+ルイズ：理由はどうあれ、シエスタがそうしたいと
+いうなら、止めることはできないわ。  [voice 6664]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：……はい。
+短い間でしたが、お世話になりました。  [voice 14958]
+サイト：（こ、これで一件落着なのかなぁ）
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：一件落着。  [voice 15644]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  【デート】シエスタ → scene 1209
+  【デート進行】 → scene 849
+
+---- SCENE 1209 ----
+  [BG       stage    image=+28, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+13]
+  [SPRITE   lay19    image=+940, level=160, dir=1A]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+デルフリンガー：相棒、ずいぶん寂しい表情してるじゃねーか。  [voice 1218]
+サイト：あ、分かる？  [voice 8965]
+デルフリンガー：相棒って、すぐ顔に出るからなぁ。  [voice 1219]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ちょっと寂しいよなぁって思って。
+明日から部屋に帰っても、シエスタの笑顔は
+もうないワケだし……。  [voice 8966]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：誰の笑顔ですか？  [voice 14330]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：どわあああ！  [voice 8967]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：こんばんは、サイトさん。
+どうしたんですか？
+こんな夜遅くに……。  [voice 14331]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：い、いやちょっと風に当たってみよう
+かなぁって。
+シエスタは？  [voice 8968]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：今、マルトーさんの所にごあいさつに行って
+きたところなんです。
+明日から、食堂でお仕事ができるんですよ！  [voice 14332]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：これも、全部サイトさんのおかげです。  [voice 14333]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：いや、俺のおかげって言われると、
+こそばゆいけど……。
+うまく行って良かったね。  [voice 8969]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：はいっ。
+明日からはいつも食堂にいますから、
+会いに来てくださいね。  [voice 14334]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：うん、分かった。
+お昼になったら、絶対に会いに行くからね。  [voice 8970]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：はい、お待ちしていますね。  [voice 14335]
+サイト：ところで、シエスタはもう帰るのかい？  [voice 8971]
+シエスタ：いえ、明日の準備もありますし、
+厨房の掃除をしようと思っているんです。  [voice 14336]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：うん？  [voice 8972]
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+シエスタ：あの、よろしければ厨房でお茶でもどうですか？  [voice 14337]
+サイト：（ど、どうしよう？）
+  【選択肢】うん、行くよ → scene 1210
+  【選択肢】いや、行かない → scene 1211
+  【選択肢】うーん、どうかなぁ → scene 1212
+
+---- SCENE 1210 ----
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+28, level=200]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：うん、行くよ。  [voice 8973]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：そうですか！
+ありがとうございます。  [voice 14338]
+  → next scene 1213
+
+---- SCENE 1211 ----
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+28, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：いや、行かない。  [voice 8974]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：サイトさん、お忙しいんですか？  [voice 14339]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：いや、そんなことはないけど……。  [voice 8975]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：でしたら！  [voice 14340]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：わ、分かったよ。
+そんな悲しい顔しないでよ。
+行くって。  [voice 8976]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：そうですか！
+ありがとうございます。  [voice 14341]
+  → next scene 1213
+
+---- SCENE 1212 ----
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+28, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：うーん、どうしようかなぁ？  [voice 8977]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：サイトさん、お忙しいんですか？  [voice 14342]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：いや、そんなことはないけど……。  [voice 8978]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：でしたら！  [voice 14343]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：わ、分かったよ。
+そんな悲しい顔しないでよ。
+行くって。  [voice 8979]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：そうですか！
+ありがとうございます。  [voice 14344]
+  → next scene 1213
+
+---- SCENE 1213 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+13]
+  [BG       stage    image=+28, level=200]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+null：………。
+……。
+…。
+  [BG       stage    image=+34, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：はい、どうぞ。
+熱いですから、気をつけて飲んでくださいね？  [voice 14345]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ありがとう。
+あれ、シエスタは飲まないのかい？  [voice 8980]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：わたしは、掃除が残っていますから……。  [voice 14346]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：それなら俺も手伝うよ。
+その方が早く終わるじゃないか？  [voice 8981]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：いえ、サイトさんはゆっくりしててください。
+あとは、奥にある棚を水拭きするだけですから。  [voice 14347]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：でも、そうなると俺もゆっくりできないし、
+お願いだから、シエスタもお茶に
+してくれないかな？  [voice 8982]
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+シエスタ：……うーん。
+サイトさんがそういうのでしたら。
+甘えてお茶にしちゃいます。  [voice 14348]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あ、もちろん。
+終わったら、ちゃんと掃除しますよ。  [voice 14349]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+221, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：シエスタって、なんかすごく家庭的だよね？  [voice 8983]
+シエスタ：そうでしょうか？  [voice 14350]
+サイト：だって、炊事、洗濯、掃除だろ？
+しかも、貴族の面倒まで見ているし……。  [voice 8984]
+シエスタ：それぐらいのことでしたら、わたしと同い年の
+人は誰でもできると思いますよ？  [voice 14351]
+シエスタ：小さい頃から、近所同士で年下の子供達の
+面倒をみるように育ってきましたし。  [voice 14352]
+シエスタ：父親が出稼ぎで家にいないと、
+母親が祖父祖母と家の畑を守ったり。  [voice 14353]
+シエスタ：糸をつむいで服の生地を織ったり
+していましたから。  [voice 14354]
+シエスタ：それに、わたしってお節介を焼くのが
+好きなのかもしれませんねっ。  [voice 14355]
+サイト：ふーん。  [voice 8985]
+サイト：俺の世界だと、そこまで働いている人なんて
+いなかったからなぁ。
+やっぱり感心しちゃうなぁ。  [voice 8986]
+シエスタ：サイトさん、ありがとうございます。
+でも、わたし……。  [voice 14356]
+サイト：ん？  [voice 8987]
+  [EVENT_CG event    image=+222, level=80]
+シエスタ：わたし、いつかサイトさんのことだけを
+お節介したいんです。  [voice 14357]
+サイト：ええ？
+そ、それって……。  [voice 8988]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+34, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：えへへっ！
+それじゃ、台所の掃除を始めてしまいますね。
+サイトさんはゆっくりしていってください。  [voice 14358]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：あ、ああ……。  [voice 8989]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay19    image=+946, level=160, dir=1A]
+デルフリンガー：まったく、相棒は大変だね。  [voice 1220]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：いや、まったく……。  [voice 8990]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [COFFEE]
+  → next scene 849

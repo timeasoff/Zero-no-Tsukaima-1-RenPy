@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +678)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +27)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +436)});
+talk("サイト", null, "別にキュルケの心配はしてない。", (0x04000000 +9517));
+set("lay6", {y = 0,dr = "2A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +713),imageType = 2});
+talk("キュルケ", null, "なによ、それ。", (0x04000000 +2931));
+like("キュルケ", -10);
+tndl(30);
+talk("サイト", null, "だって、キュルケは俺が会った魔法使いの中\nでも、結構強いほうだろ。\n心配をするほうが失礼じゃないのか？", (0x04000000 +9518));
+talk("キュルケ", null, "その評価はまあ妥当だけど、\nだからってそういう言い方は失礼よ。", (0x04000000 +2932));
+set("lay5", {dr = "2B",show = 1,level = 160,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "うっ。\nそ、そっか。\nごめん。", (0x04000000 +9519));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "いいけどね。\n今後は気をつけてほしいわ。", (0x04000000 +2933));
+talk("サイト", null, "はい。", (0x04000000 +9520));
+next((0x01000000 +1270), true);

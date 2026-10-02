@@ -1,0 +1,48 @@
+main voice ids: 13808   block voice ids: 1920
+overlap: 0  (0.0% of block)
+block-only voices: 1920
+
+main event images: 599  block event images: 73  overlap: 38
+block-only images: 35
+
+roots in block (no incoming): 40 -> [1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1697, 1698, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710, 1711, 1712, 1713, 1714, 1715, 1716]
+
+root -> first voice id -> matching main scene (if any):
+   root 1533 no voice
+   root 1534 no voice
+   root 1535 firstvoice=7504 main_scenes=[] blk_scenes=[1535]
+   root 1536 firstvoice=7532 main_scenes=[] blk_scenes=[1536]
+   root 1537 firstvoice=7567 main_scenes=[] blk_scenes=[1537]
+   root 1538 firstvoice=7597 main_scenes=[] blk_scenes=[1538]
+   root 1539 firstvoice=7619 main_scenes=[] blk_scenes=[1539]
+   root 1540 firstvoice=7647 main_scenes=[] blk_scenes=[1540]
+   root 1541 firstvoice=7676 main_scenes=[] blk_scenes=[1541]
+   root 1542 firstvoice=7700 main_scenes=[] blk_scenes=[1542]
+   root 1543 firstvoice=7717 main_scenes=[] blk_scenes=[1543]
+   root 1544 firstvoice=7745 main_scenes=[] blk_scenes=[1544]
+   root 1545 firstvoice=7765 main_scenes=[] blk_scenes=[1545]
+   root 1546 firstvoice=7782 main_scenes=[] blk_scenes=[1546]
+   root 1547 firstvoice=7794 main_scenes=[] blk_scenes=[1547]
+   root 1548 firstvoice=7820 main_scenes=[] blk_scenes=[1548]
+   root 1549 firstvoice=7843 main_scenes=[] blk_scenes=[1549]
+   root 1550 firstvoice=7871 main_scenes=[] blk_scenes=[1550]
+   root 1551 firstvoice=7892 main_scenes=[] blk_scenes=[1551]
+   root 1552 firstvoice=7918 main_scenes=[] blk_scenes=[1552]
+   root 1697 no voice
+   root 1698 no voice
+   root 1699 firstvoice=5035 main_scenes=[] blk_scenes=[1699]
+   root 1700 firstvoice=5071 main_scenes=[] blk_scenes=[1700]
+   root 1701 firstvoice=5109 main_scenes=[] blk_scenes=[1701]
+   root 1702 firstvoice=5142 main_scenes=[] blk_scenes=[1702]
+   root 1703 firstvoice=5160 main_scenes=[] blk_scenes=[1703]
+   root 1704 firstvoice=5182 main_scenes=[] blk_scenes=[1704]
+   root 1705 firstvoice=5198 main_scenes=[] blk_scenes=[1705]
+   root 1706 firstvoice=5222 main_scenes=[] blk_scenes=[1706]
+
+best main-scene match for sample block scenes:
+   block 1540 (voices=7) best main matches: []
+   block 1600 (voices=19) best main matches: []
+   block 1700 (voices=4) best main matches: []
+   block 1750 (voices=3) best main matches: []
+   block 1800 (voices=10) best main matches: []
+   block 1855 (voices=4) best main matches: []

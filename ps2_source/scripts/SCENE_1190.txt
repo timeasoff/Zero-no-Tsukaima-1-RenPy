@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +14)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +253)});
+}
+talk("サイト", null, "だ、大歓迎……かな？", (0x04000000 +9083));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +252)});
+waitLoad(true);
+talk("キュルケ", null, "ホント！\nおにいちゃん！", (0x04000000 +2865));
+talk("キュルケ", null, "おにいちゃんといっしょ。\nおにいちゃんといっしょ。", (0x04000000 +2866));
+talk("サイト", null, "ううっ……。\nホントに良かったのなあ？", (0x04000000 +9084));
+next((0x01000000 +1193), true);

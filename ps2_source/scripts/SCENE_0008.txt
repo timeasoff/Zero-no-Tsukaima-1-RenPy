@@ -1,0 +1,12 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +19)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +150)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +151)});
+waitLoad(true);
+talk("サイト", null, "悪いに決まってるだろ？\n俺にこんだけ苦労かけてまでオシャレ\nしたいのか、おまえ。", (0x04000000 +10791));
+like("ルイズ", -10);
+tndl(-30);
+next((0x01000000 +10), true);

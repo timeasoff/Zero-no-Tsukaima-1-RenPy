@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +599)});
+set("bgm", {play = (0x03000000 +9)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "お酒よりも普通のものが飲みたいなぁ。", (0x04000000 +10087));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +605)});
+talk("タバサ", null, "普通？", (0x04000000 +15511));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "えーっと、アルコール……じゃなくて、\nできればお酒が入ってない飲み物を。", (0x04000000 +10088));
+talk("タバサ", null, "どうして？", (0x04000000 +15512));
+talk("サイト", null, "そりゃあ、やっぱり……。\n昼間からお酒はちょっと……。\nいや、もちろん夜でもダメなんだけどさ。", (0x04000000 +10089));
+talk("タバサ", null, "……？", (0x04000000 +15513));
+talk("サイト", null, "あと、酔っ払ってタバサに迷惑かけたら\n悪いしね。", (0x04000000 +10090));
+next((0x01000000 +1527), true);

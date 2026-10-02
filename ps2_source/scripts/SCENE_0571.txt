@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +20)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "キュルケはどうなんだよ。\n不安にならないのか？", (0x04000000 +12885));
+tndl(30);
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "不安になんてならないわ。\nだって、ダーリンがついてるじゃない。", (0x04000000 +3662));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "いや、まったく関係ないだろ。", (0x04000000 +12886));
+talk("キュルケ", null, "そうでもないわよ。\n想い続けていると、それが現実になるわ。\n想っていなければ、何も実現しない。", (0x04000000 +3663));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "？？？", (0x04000000 +12887));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "それは恋も課題も一緒よ。\nだから、ダーリンと一緒になったのよ。", (0x04000000 +3664));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "良く分からないけど、俺が諦めなければ\nなんとかなるってこと？", (0x04000000 +12888));
+set("lay6", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "まぁ、そういうことよ。", (0x04000000 +3665));
+next((0x01000000 +572), true);

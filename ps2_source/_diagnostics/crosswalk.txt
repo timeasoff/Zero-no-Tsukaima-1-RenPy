@@ -1,0 +1,148 @@
+spoken lines=1339  scene resolved=1218  ps2 voice id resolved=1082
+
+### per rpy file -> PS2 scene runs / label / voice prefix
+   game\chapters\0\script-ch0.rpy             scenes 5                          labels=['ch0'] voices=['ch0']
+   game\chapters\1\script-ch1_1.rpy           scenes 6-19                       labels=['ch1'] voices=['?', 'ch1']
+   game\chapters\1\script-ch1_10.rpy          scenes 20, 28-29, 44, 60-62, 1009-1033 labels=['ch1_10', 'date_haruna_1', 'date_kirche_1', 'date_louise_1', 'date_siesta_1', 'date_tabitha_1'] voices=['?', 'ch1.10']
+   game\chapters\1\script-ch1_2.rpy           scenes 20-24                      labels=['ch1_2'] voices=['?', 'ch1.2']
+   game\chapters\1\script-ch1_3.rpy           scenes 11-13, 24, 29, 39, 1029, 1224-1238, 1251 labels=['ch1_3', 'hallway_ch1_3', 'l_room_ch1_3', 'si_room_ch1_3'] voices=['?', 'ch1.3']
+   game\chapters\1\script-ch1_4.rpy           scenes 28                         labels=['ch1_4'] voices=['ch1.4']
+   game\chapters\1\script-ch1_5.rpy           scenes 29-33                      labels=['ch1_5'] voices=['ch1.5']
+   game\chapters\1\script-ch1_6.rpy           scenes 16-18, 29, 34-43           labels=['ch1_6'] voices=['ch1.6']
+   game\chapters\1\script-ch1_7.rpy           scenes 20, 39, 44-48              labels=['ch1_7'] voices=['ch1.7']
+   game\chapters\1\script-ch1_8.rpy           scenes 10, 18-20, 29, 44, 49, 1019, 1024, 1224, 1229, 1240-1255 labels=['ch1_8', 'hallway_ch1_8', 'k_room_ch1_8', 'l_room_ch1_8', 'library_ch1_8'] voices=['ch1.8']
+   game\chapters\1\script-ch1_9.rpy           scenes 6, 13, 54-61               labels=['ch1_9'] voices=['ch1.9']
+   game\chapters\attention.rpy                 scenes: -  labels=['attention'] voices=['?']
+   game\chapters\extra\sp_l1.rpy              scenes 6, 117, 428, 769, 1234, 1699, 1717-1724 labels=['sp_l1'] voices=['sp_l1']
+
+### PS2 structure (title / choice / date / jump) inside resolved scenes
+   game\chapters\0\script-ch0.rpy
+      S5 [TITLE title("プロローグ")]
+      S5 [VIBRATE vibrate(3)]
+   game\chapters\1\script-ch1_1.rpy
+      S6 [TITLE title("ゼロのルイズ")]
+      S11 [VIBRATE vibrate(2)]
+      S16 [VIBRATE vibrate(2)]
+      S18 [VIBRATE vibrate(2)]
+   game\chapters\1\script-ch1_10.rpy
+      S1013 [COFFEE]
+      S1018 [COFFEE]
+      S1023 [COFFEE]
+      S1028 [COFFEE]
+      S1033 [COFFEE]
+   game\chapters\1\script-ch1_2.rpy
+      S24 [VIBRATE vibrate(1)]
+   game\chapters\1\script-ch1_3.rpy
+      S11 [VIBRATE vibrate(2)]
+      S24 [VIBRATE vibrate(1)]
+      S39 [VIBRATE vibrate(1)]
+   game\chapters\1\script-ch1_5.rpy
+      S31 [VIBRATE vibrate(2)]
+   game\chapters\1\script-ch1_6.rpy
+      S16 [VIBRATE vibrate(2)]
+      S18 [VIBRATE vibrate(2)]
+      S39 [VIBRATE vibrate(1)]
+      S40 [VIBRATE vibrate(1)]
+      S40 [VIBRATE vibrate(1)]
+      S41 [VIBRATE vibrate(1)]
+      S41 [VIBRATE vibrate(1)]
+      S41 [VIBRATE vibrate(2)]
+      S43 [VIBRATE vibrate(3)]
+   game\chapters\1\script-ch1_7.rpy
+      S39 [VIBRATE vibrate(1)]
+   game\chapters\1\script-ch1_8.rpy
+      S18 [VIBRATE vibrate(2)]
+      S1252 [VIBRATE vibrate(2)]
+   game\chapters\1\script-ch1_9.rpy
+      S6 [TITLE title("ゼロのルイズ")]
+   game\chapters\extra\sp_l1.rpy
+      S6 [TITLE title("ゼロのルイズ")]
+      S769 [TITLE title("小悪魔のおしおき")]
+      S769 [VIBRATE vibrate(2)]
+      S1724 [COFFEE]
+
+### structural ops per rpy file
+   game\chapters\0\script-ch0.rpy            
+      jump : ['ch1']
+      call : ['overlay_screen', 'overlay_screen', 'overlay_screen', 'overlay_screen', 'intro']
+      $fx  : {'blow_fx': 1, 'scene_fx': 1, 'show_sprites': 4, 'fade_fx': 2, 'flash_fx': 1}
+   game\chapters\1\script-ch1_1.rpy          
+      jump : ['ch1_2']
+      call : ['screen', 'screen', 'overlay_screen', 'overlay_screen', 'overlay_screen']
+      $fx  : {'init_battle': 1, 'dissolve_fx': 15, 'fade_fx': 13, 'show_sprites': 61, 'update_sympathy': 6, 'show_sympathy_hud': 1, 'hit_fx': 3, 'flash_fx': 1, 'fade_clear': 1}
+   game\chapters\1\script-ch1_10.rpy         
+      jump : ['attention']
+      call : ['sp_l1', 'open_door', 'sp_l1', 'sp_l1', 'sp_l1', 'sp_l1']
+      $fx  : {'fade_fx': 19, 'portrait_choice': 1, 'show_sprites': 84, 'update_sympathy': 15, 'dissolve_fx': 5}
+   game\chapters\1\script-ch1_2.rpy          
+      jump : ['ch1_3']
+      call : ['overlay_screen']
+      $fx  : {'fade_fx': 2, 'show_sprites': 41, 'update_sympathy': 3, 'hit_fx': 1}
+   game\chapters\1\script-ch1_3.rpy          
+      jump : ['ch1_4']
+      call : ['open_door', 'open_door']
+      $fx  : {'fade_fx': 5, 'show_sprites': 70, 'sprite_choice': 1, 'update_sympathy': 8}
+   game\chapters\1\script-ch1_4.rpy          
+      jump : ['ch1_5']
+      call : []
+      $fx  : {'fade_fx': 1, 'show_sprites': 5, 'dissolve_fx': 1}
+   game\chapters\1\script-ch1_5.rpy          
+      jump : ['ch1_6']
+      call : []
+      $fx  : {'fade_fx': 4, 'dissolve_fx': 1, 'update_sympathy': 4, 'show_sprites': 9, 'scene_fx': 1}
+   game\chapters\1\script-ch1_6.rpy          
+      jump : ['ch1_7']
+      call : []
+      $fx  : {'fade_fx': 6, 'show_sprites': 55, 'update_sympathy': 15, 'shake_fx': 6, 'dissolve_fx': 3, 'flash_fx': 2}
+   game\chapters\1\script-ch1_7.rpy          
+      jump : ['ch1_8']
+      call : []
+      $fx  : {'fade_fx': 2, 'show_sprites': 55, 'update_sympathy': 3}
+   game\chapters\1\script-ch1_8.rpy          
+      jump : ['ch1_9']
+      call : ['open_door', 'open_door']
+      $fx  : {'fade_fx': 10, 'show_sprites': 79, 'sprite_choice': 1, 'update_sympathy': 15, 'dissolve_fx': 8, 'scene_fx': 1}
+   game\chapters\1\script-ch1_9.rpy          
+      jump : ['ch1_10']
+      call : []
+      $fx  : {'fade_fx': 2, 'show_sprites': 72, 'update_sympathy': 2}
+   game\chapters\attention.rpy               
+      jump : []
+      call : ['remark']
+      $fx  : {'fade_fx': 1}
+   game\chapters\extra\sp_l1.rpy             
+      jump : []
+      call : ['overlay_screen']
+      $fx  : {'fade_fx': 4, 'show_sprites': 9, 'dissolve_fx': 5}
+
+### sample: voice ref  ->  scene / ps2 voice id / JA
+   ch0_soldier_001 -> scene=5      psv=4283   どこで爆発だ！
+   ch0_soldier_002 -> scene=5      psv=4291   は、大通りに面した通りで数回、爆薬による爆発が確認されています。
+   ch0_soldier_003 -> scene=5      psv=4284   はやく消火班をまわせ。これ以上被害を増やすな！
+   ch0_soldier_004 -> scene=5      psv=4292   はっ！
+   ch0_un_001   -> scene=5      psv=53     ははははははっ。いつもご苦労だな。
+   ch0_soldier_005 -> scene=5      psv=4285   どこだ！
+   ch0_soldier_006 -> scene=5      psv=4293   隊長、あの屋敷の上にいます。
+   ch0_un_002   -> scene=5      psv=54     今日はここまでにしておこう。とっとと、消火でもしておくんだな。
+   ch0_soldier_007 -> scene=5      psv=4286   貴様、何が目的だ！
+   ch0_un_003   -> scene=5      psv=55     目的？この国のすべてのことわりを破壊することさ！
+   ch0_soldier_008 -> scene=None   psv=None   な……！
+   ch0_un_004   -> scene=5      psv=56     せいぜい、その時まで、日々の生活を大切にするんだね。それじゃ。
+   ch0_soldier_009 -> scene=5      psv=4294   き、消えた。
+   ch0_soldier_010 -> scene=5      psv=4288   お、追え。今すぐに捕まえろ！
+   ch0_soldier_011 -> scene=5      psv=4292   はっ！
+
+### voice prefix used per rpy file
+   game\chapters\0\script-ch0.rpy             {'ch0': 15}
+   game\chapters\1\script-ch1_1.rpy           {'ch1': 169}
+   game\chapters\1\script-ch1_10.rpy          {'ch1.10': 246}
+   game\chapters\1\script-ch1_2.rpy           {'ch1.2': 55}
+   game\chapters\1\script-ch1_3.rpy           {'ch1.3': 111}
+   game\chapters\1\script-ch1_4.rpy           {'ch1.4': 30}
+   game\chapters\1\script-ch1_5.rpy           {'ch1.5': 81}
+   game\chapters\1\script-ch1_6.rpy           {'ch1.6': 135}
+   game\chapters\1\script-ch1_7.rpy           {'ch1.7': 92}
+   game\chapters\1\script-ch1_8.rpy           {'ch1.8': 207}
+   game\chapters\1\script-ch1_9.rpy           {'ch1.9': 101}
+   game\chapters\attention.rpy                {}
+   game\chapters\extra\sp_l1.rpy              {'sp_l1': 84}

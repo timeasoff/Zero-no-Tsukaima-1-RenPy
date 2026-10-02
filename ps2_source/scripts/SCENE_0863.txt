@@ -1,0 +1,8 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +13)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +224)});
+}
+checkKiss();
+next((0x01000000 +864), zero_kiss);
+next((0x01000000 +865), !zero_kiss);

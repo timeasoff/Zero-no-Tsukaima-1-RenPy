@@ -1,0 +1,61 @@
+if (isJump()){
+reset();
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +929)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("bgm", {play = (0x03000000 +32)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+}
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay9", {y = 0,x = 64});
+talk("コルベール", null, "さて、話の続きに戻るとしよう。", (0x04000000 +1001));
+talk("コルベール", null, "『火』の系統は、４つの系統の中でも特に攻撃的\nと思われてるが、決して戦闘に特化してる\nわけでも、また特に強いというわけでもない。", (0x04000000 +1002));
+talk("コルベール", null, "４つの系統の中では攻撃に転化しやすいのは確か\nだが、習熟した使い手同士ならば、『火』『水』\n『風』『土』の各系統に優劣はないのだ。", (0x04000000 +1003));
+set("lay9", {y = 0,x = -96});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "お言葉ですが、ミスタ・コルベール。\n『火』の系統が、他の３つに比べて\n明らかに優れてるのは確かですわ。", (0x04000000 +3146));
+talk("コルベール", null, "ふむ、ミス・ツェルプストー。\nきみが自分の系統に誇りを持ってるのは\n承知してるが……、", (0x04000000 +1004));
+talk("コルベール", null, "その意見はいささか極端ではないかね。", (0x04000000 +1005));
+talk("キュルケ", null, "あら、事実ですわ。\n個人差がありますから、絶対とまでは\n申しませんけど……。", (0x04000000 +3147));
+talk("キュルケ", null, "最も美しく、最も強い魔法を駆使できるのは\n『火』系統ですわ。", (0x04000000 +3148));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "もちろん、他の系統が美しくないわけでも\n弱いわけでもありません。\nただ、『火』系統が一番だというだけです。", (0x04000000 +3149));
+talk("キュルケ", null, "でも、中には系統以前の者もいますわ。\nねえ『ゼロのルイズ』？", (0x04000000 +3150));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +110)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "……久しぶりに頭の悪いことを言ってる人が\nいるわね。\nいったいどこのお馬鹿さんかしら？", (0x04000000 +5775));
+talk("キュルケ", null, "あら、魔法も発育も女の魅力も、\nみんなまとめてゼロの誰かさんのこと\nじゃなくて？", (0x04000000 +3151));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +111),imageType = 1});
+waitLoad(true);
+talk("ルイズ", null, "誰が『ゼロ』よ！\nそんな不名誉なあだ名、とっくに返上して……！", (0x04000000 +5776));
+talk("サイト", null, "（ルイズのやつ、「虚無」のことは他人に\n　喋っちゃいけないって女王様に\n　言われてるの忘れてる！）", null);
+talk("サイト", null, "ルイズ、しーっ、しーっ！", (0x04000000 +11080));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +110)});
+waitLoad(true);
+talk("ルイズ", null, "え、なによ……あ！", (0x04000000 +5777));
+talk("キュルケ", null, "どうしたの？\n変な顔して。\nもしかして、逃げる用意でもしてるのかしら？", (0x04000000 +3152));
+talk("ルイズ", null, "ふ……ふ、ふ、ふ……。\nちょうどいいわ。\n昨日からずっとイライラしてたのよ。", (0x04000000 +5778));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +111)});
+waitLoad(true);
+talk("ルイズ", null, "ミス・ツェルプストー。\n今日こそ決着をつけさせてもらうわよ。", (0x04000000 +5779));
+talk("キュルケ", null, "あなたにできるかしらねえ。\n『ゼロ』のあなたに？", (0x04000000 +3153));
+talk("ルイズ", null, "２度も言ったわね。\nもう、許さないんだから……。", (0x04000000 +5780));
+talk("サイト", null, "お、おい、ちょっと……。", (0x04000000 +11081));
+selectInit();
+selectItem("やめろよ、ルイズ", (0x01000000 +91), null, true);
+selectItem("やめろよ、キュルケ", (0x01000000 +92), null, true);
+selectItem("やめさせてください、先生", (0x01000000 +93), null, true);
+select();

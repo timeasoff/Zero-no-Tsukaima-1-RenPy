@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 155,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("bgm", {play = (0x03000000 +25)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+}
+set("lay5", {y = 0,show = 1,level = 155,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（……でも、ルイズだしなあ？）", null);
+set("lay1", {y = 0,show = 1,level = 154,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "なによ、その不安そうな顔は！\nそれでもこのわたしの使い魔なの！\n今すぐ、お仕置きが必要かしら……。", (0x04000000 +7279));
+set("lay5", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "り、了解であります。\nご主人様！", (0x04000000 +13352));
+set("lay1", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +304)});
+talk("ルイズ", null, "よろしい！", (0x04000000 +7280));
+next((0x01000000 +531), true);

@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "なんとなく。", (0x04000000 +13491));
+set("lay1", {y = 0,dr = "1A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +302),imageType = 2});
+talk("ルイズ", null, "ちょっと。\nなんとなくってなによ、なんとなくって。", (0x04000000 +7353));
+set("lay5", {y = 0,dr = "2A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +423),imageType = 2});
+talk("サイト", null, "便利な言葉だよな、なんとなく。\nなんでも解決したっぽくない？", (0x04000000 +13492));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "そんなわけないでしょ！", (0x04000000 +7354));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+next((0x01000000 +379), true);

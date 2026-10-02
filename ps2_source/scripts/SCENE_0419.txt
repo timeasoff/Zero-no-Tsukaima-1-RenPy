@@ -1,0 +1,58 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +794)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +427)});
+set("bgm", {play = (0x03000000 +22)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +42)});
+}
+talk("ルイズ", null, "サ～イ～ト～！！", (0x04000000 +7421));
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "なんだよ、今それどころじゃないよ。", (0x04000000 +13619));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "……え？\n今の声は、あれ？", (0x04000000 +13620));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+set("lay5", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 64,level = 160,lv = 0,image = (0x02000000 +396),imageType = 2});
+talk("サイト", null, "はッ！？\n背後にものすごい殺気が！", (0x04000000 +13621));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+talk("ルイズ", null, "あんたってバカは、いくら言ってきかせても\n見境なしにふらふらと……！", (0x04000000 +7422));
+talk("サイト", null, "る、ルイズっ！？\nま、待て！\nちちがうんだ、これは！", (0x04000000 +13622));
+talk("ルイズ", null, "この……バカ使い魔ぁーっ！！", (0x04000000 +7423));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay8", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay8", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {show = 0});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+next((0x01000000 +420), true);

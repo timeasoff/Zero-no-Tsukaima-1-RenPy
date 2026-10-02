@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +957)});
+set("bgm", {play = (0x03000000 +26)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "今度お菓子でもおごってみたら？", (0x04000000 +11414));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "でも……。\n私、この世界のお金を持って\nいないし……。", (0x04000000 +2222));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あ、そっか……。", (0x04000000 +11415));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +951)});
+talk("ハルナ", null, "第一、それで誠意が通じるとは\n思えない。\n素直に謝ってみる。", (0x04000000 +2223));
+next((0x01000000 +206), true);

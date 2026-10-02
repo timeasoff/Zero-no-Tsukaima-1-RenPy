@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +324)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +704)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +12)});
+}
+talk("サイト", null, "（か、神さま……。\n　俺が何か悪いことでもしましたか？）", null);
+set("lay1", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +328)});
+talk("ルイズ", null, "サイト、なに現実逃避してるの！", (0x04000000 +4592));
+talk("ルイズ", null, "何か言ってやりなさい！\nあんたはわたしのものだって！", (0x04000000 +4593));
+set("lay6", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +702)});
+talk("キュルケ", null, "なによ！\nダーリンはあたしのものよね？", (0x04000000 +2686));
+talk("サイト", null, "（……た、助けて。\n　神さま！）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+syssave();
+next((0x01000000 +664), true);

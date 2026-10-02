@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +22)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +257)});
+}
+talk("サイト", null, "ただの芝居ではありません。", (0x04000000 +8734));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +258)});
+waitLoad(true);
+talk("アンリエッタ", null, "……。", (0x04000000 +356));
+talk("サイト", null, "俺はあのとき、役のノエルと役者のお姫さまとが\nかぶって見えてました。", (0x04000000 +8735));
+talk("サイト", null, "だから俺のいった告白は、芝居の台詞でもあり、\n同時に俺の言葉です。", (0x04000000 +8736));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +257),imageType = 1});
+waitLoad(true);
+talk("アンリエッタ", null, "……そうですか。", (0x04000000 +357));
+next((0x01000000 +1133), true);

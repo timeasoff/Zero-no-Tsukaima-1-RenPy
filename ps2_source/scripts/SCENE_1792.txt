@@ -1,0 +1,60 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+talk("ルイズ", null, "な、なによ。\n顔を赤くしちゃって。\n何を想像してるのよっ！", (0x04000000 +5288));
+talk("サイト", null, "だ、だって……。", (0x04000000 +10569));
+talk("ルイズ", null, "飼い主がバカ犬を洗ってあげるのに、\nなんの不思議があるっていうのよっ！\n変なこと考えちゃダメなんだからね！", (0x04000000 +5289));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……ま、まったく、無駄に広い背中ね。", (0x04000000 +5290));
+talk("ルイズ", null, "……ちょ、ちょっと意外だわ。", (0x04000000 +5291));
+talk("サイト", null, "……。", (0x04000000 +10570));
+talk("サイト", null, "（……な、なんで俺はこんなことに\n　なってるんだよ？）", null);
+talk("ルイズ", null, "……。", (0x04000000 +5292));
+talk("ルイズ", null, "……き、聞いてるの？\n洗いにくいわよ。\n反省しなさい！", (0x04000000 +5293));
+talk("サイト", null, "（お、俺にどうしろっていうんだよっ！）", null);
+talk("ルイズ", null, "……ど、どう？\nこんな感じ？", (0x04000000 +5294));
+talk("サイト", null, "あ～～、もう少し強くてもいいかな？", (0x04000000 +10571));
+talk("ルイズ", null, "……え、ええと、こうかしら？", (0x04000000 +5295));
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "（ぐわっ！\n　そ、それは……）", null);
+talk("ルイズ", null, "こうね！\nうふふ……。", (0x04000000 +5296));
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "（……ぐはっ、そいつは力を入れすぎ！）", null);
+selectInit();
+selectItem("ち、ちょっと痛いかも？", (0x01000000 +1793), null, true);
+selectItem("我慢！　我慢！", (0x01000000 +1794), null, true);
+selectItem("攻守交代を！", (0x01000000 +1795), null, true);
+select();

@@ -1,0 +1,233 @@
+{
+ "game\\chapters\\0\\script-ch0.rpy": {
+  "runs": [
+   [
+    5,
+    5
+   ]
+  ],
+  "labels": [
+   "ch0"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_1.rpy": {
+  "runs": [
+   [
+    6,
+    6
+   ],
+   [
+    10,
+    19
+   ]
+  ],
+  "labels": [
+   "ch1"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_10.rpy": {
+  "runs": [
+   [
+    62,
+    62
+   ]
+  ],
+  "labels": [
+   "ch1_10"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_2.rpy": {
+  "runs": [
+   [
+    20,
+    20
+   ],
+   [
+    24,
+    24
+   ]
+  ],
+  "labels": [
+   "ch1_2"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_3.rpy": {
+  "runs": [
+   [
+    11,
+    11
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    49,
+    49
+   ],
+   [
+    1224,
+    1224
+   ],
+   [
+    1228,
+    1229
+   ],
+   [
+    1234,
+    1234
+   ],
+   [
+    1238,
+    1238
+   ]
+  ],
+  "labels": [
+   "ch1_3",
+   "hallway_ch1_3",
+   "l_room_ch1_3",
+   "si_room_ch1_3"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_4.rpy": {
+  "runs": [
+   [
+    28,
+    28
+   ]
+  ],
+  "labels": [
+   "ch1_4"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_5.rpy": {
+  "runs": [
+   [
+    29,
+    29
+   ]
+  ],
+  "labels": [
+   "ch1_5"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_6.rpy": {
+  "runs": [
+   [
+    18,
+    18
+   ],
+   [
+    34,
+    34
+   ],
+   [
+    39,
+    43
+   ]
+  ],
+  "labels": [
+   "ch1_6"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_7.rpy": {
+  "runs": [
+   [
+    44,
+    44
+   ],
+   [
+    48,
+    48
+   ]
+  ],
+  "labels": [
+   "ch1_7"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_8.rpy": {
+  "runs": [
+   [
+    20,
+    20
+   ],
+   [
+    31,
+    32
+   ],
+   [
+    44,
+    44
+   ],
+   [
+    49,
+    49
+   ],
+   [
+    1019,
+    1019
+   ],
+   [
+    1240,
+    1240
+   ],
+   [
+    1244,
+    1245
+   ],
+   [
+    1249,
+    1250
+   ],
+   [
+    1254,
+    1255
+   ]
+  ],
+  "labels": [
+   "ch1_8",
+   "hallway_ch1_8",
+   "k_room_ch1_8",
+   "l_room_ch1_8",
+   "library_ch1_8"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_9.rpy": {
+  "runs": [
+   [
+    54,
+    61
+   ]
+  ],
+  "labels": [
+   "ch1_9"
+  ]
+ },
+ "game\\chapters\\extra\\sp_l1.rpy": {
+  "runs": [
+   [
+    88,
+    88
+   ],
+   [
+    1473,
+    1473
+   ],
+   [
+    1699,
+    1699
+   ],
+   [
+    1720,
+    1720
+   ],
+   [
+    1724,
+    1724
+   ]
+  ],
+  "labels": [
+   "sp_l1"
+  ]
+ }
+}

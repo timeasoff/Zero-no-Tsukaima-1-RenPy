@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +955)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +678)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+}
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "うふふ、それはね。\n恋よ。", (0x04000000 +3103));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "こ、恋ですか。", (0x04000000 +1995));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "それもうーんと情熱的なのをね。\n恋のドキドキが女の子をキレイに\nするってこと。", (0x04000000 +3104));
+talk("ハルナ", null, "こ、恋ならしてると思うんだけどな……。", (0x04000000 +1996));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "たぶん、情熱が足りないのよ。\nもっと恋焦がれなくっちゃ。", (0x04000000 +3105));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "はい、先生！", (0x04000000 +1997));
+talk("サイト", null, "（はぁ～～。\n　でも、女の子も大変なんだな……。\n　あれ、でも仕事はどうしたんだろ？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {show = 0});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

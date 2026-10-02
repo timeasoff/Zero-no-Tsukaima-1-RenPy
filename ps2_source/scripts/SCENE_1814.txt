@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+}
+talk("サイト", null, "ルイズもかわいい。", (0x04000000 +10643));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "え、ホントに？", (0x04000000 +5381));
+talk("サイト", null, "俺はルイズも間違いなくかわいいと思ってるよ\n……くやしいけど。", (0x04000000 +10644));
+talk("ルイズ", null, "うふふ。\nありがとう、サイト。", (0x04000000 +5382));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "……でも。\nルイズ『も』ってなに？", (0x04000000 +5383));
+talk("ルイズ", null, "わ、わたしの使い魔だったら、わたしだけを\n見つめてなさいっ！", (0x04000000 +5384));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+next((0x01000000 +1816), true);

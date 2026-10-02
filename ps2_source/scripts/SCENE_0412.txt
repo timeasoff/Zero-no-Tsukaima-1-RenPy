@@ -1,0 +1,46 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +265)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +16)});
+talk("アンリエッタ", null, "う、ん……。", (0x04000000 +874));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +266),imageType = 1});
+waitLoad(true);
+talk("アンリエッタ", null, "あ……ここ、は……。\nそう、宿屋でしたわね……。", (0x04000000 +875));
+talk("サイト", null, "あ、起きたんすね。\nお姫さま、おはようございます。\nってもう夕方ですけど。", (0x04000000 +13598));
+msgoff()
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +42)});
+trans("crossfade", 1000);
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +794)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("アンリエッタ", null, "あ、あの、あのっ……！？", (0x04000000 +876));
+talk("サイト", null, "（お姫さま、どうしたんだ？\n　あんなに顔を真っ赤にして……）", null);
+talk("アンリエッタ", null, "あのっ、使い魔さんずっといたんですか！？", (0x04000000 +877));
+talk("サイト", null, "ええ、護衛ですから。\nずっといましたよ。", (0x04000000 +13599));
+talk("アンリエッタ", null, "ずっと、って、その、あの……っ！", (0x04000000 +878));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あ、いや、寝てる間に何かしたとか\n絶対ないですよ。\nそんなの護衛じゃないし。", (0x04000000 +13600));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +431)});
+talk("サイト", null, "もちろん、寝顔が可愛いなぁ。\nとか思ったりはしましたけど、\nまぁ、そういう感じで。", (0x04000000 +13601));
+set("lay8", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +788)});
+talk("アンリエッタ", null, "ふふっ。", (0x04000000 +879));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ど、どうしました？\n何かおかしかったですか？", (0x04000000 +13602));
+set("lay8", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +786)});
+talk("アンリエッタ", null, "いいえ。\nひとつ、お聞きしてよろしいですか？", (0x04000000 +880));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "なんでしょう。", (0x04000000 +13603));
+talk("アンリエッタ", null, "サイトさんは、女王であるわたくしに\nあまり遠慮はしないのですね。\nなぜですか？", (0x04000000 +881));
+selectInit();
+selectItem("だってかわいいし", (0x01000000 +413), null, true);
+selectItem("お姫さまも同じ人間だし", (0x01000000 +414), null, true);
+selectItem("なんとなく普通にしてるだけ", (0x01000000 +415), null, true);
+select();

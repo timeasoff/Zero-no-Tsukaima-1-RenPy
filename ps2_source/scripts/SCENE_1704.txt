@@ -1,0 +1,20 @@
+reset();
+set("bgm", {stop = 1000});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……サ、サイトの馬鹿っ！\nどうしていつもそうなの？", (0x04000000 +5182));
+talk("サイト", null, "い、いや、あのルイズ……？", (0x04000000 +10475));
+talk("ルイズ", null, "わ、わたしのこと……嫌い？", (0x04000000 +5183));
+talk("サイト", null, "い、いやそんな。\n嫌いってわけじゃ。", (0x04000000 +10476));
+talk("ルイズ", null, "だったら何故いつも意地悪するの？", (0x04000000 +5184));
+talk("サイト", null, "い、いや別に意地悪なんて……。", (0x04000000 +10477));
+talk("サイト", null, "（ルイズの体温と重みが背中に……）", null);
+selectInit();
+selectItem("た、助けて！", (0x01000000 +1757), null, true);
+selectItem("俺の心の狼さんが……", (0x01000000 +1758), null, true);
+selectItem("や、やわらかい……", (0x01000000 +1759), null, true);
+select();

@@ -1,0 +1,30 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +990)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +11)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "よ、よし。\nそれじゃあ、食ってみるか。", (0x04000000 +12195));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +951)});
+talk("ハルナ", null, "あっ、ちゃんと特製のドレッシングをかけてね？", (0x04000000 +2410));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ、ドレッシングは普通なのね。", (0x04000000 +12196));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "しっかし、青いタマネギとか、白いピーマンとか\nうごめくゴボウに、針のように硬いキャベツの\n千切りだとかって…………ごくっ。", (0x04000000 +12197));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "食うぞっ！？", (0x04000000 +12198));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "んぐっ……はんはほへわぉ！？", (0x04000000 +12199));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "うぐ、なんだこれわ？", (0x04000000 +12200));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "うわあぁ……。\nすごい音がしてますねえ……。", (0x04000000 +14912));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +931)});
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +920)});
+next((0x01000000 +828), true);

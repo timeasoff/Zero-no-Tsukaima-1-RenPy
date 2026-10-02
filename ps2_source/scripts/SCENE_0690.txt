@@ -1,0 +1,43 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+msgon()
+talk("サイト", null, "（お姫さまの依頼を聞き届けることになった\n　俺とルイズは、魔法学院に急いで戻ることに\n　なった）", null);
+talk("サイト", null, "（空中艦隊を相手にするには、\n　ゼロ戦に乗る必要があるけど、\n　今、あれは学院に置いてあるのだ）", null);
+talk("サイト", null, "（ただし、学院に戻るためには、\n　敵に包囲されてる砲台の網を\n　すりぬけなくちゃいけない）", null);
+talk("サイト", null, "（さすがにずっと砲撃していられるほど、\n　弾薬が豊富ではないはずだ）", null);
+talk("サイト", null, "（その隙ができるであろう\n　早朝に脱出することになった）", null);
+talk("サイト", null, "（まずは明日の脱出行にそなえて、\n　体を休めるとしますか……）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +70)});
+trans("crossfade", 1000);
+msgon()
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+talk("ルイズ", null, "サイト……。\nいる？", (0x04000000 +6307));
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ルイズか？", (0x04000000 +11751));
+talk("ルイズ", null, "入るわね。", (0x04000000 +6308));
+set("se0", {play = (0x03000000 +57)});
+waitSEStop(null, true);
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("サイト", null, "どうしたんだルイズ。\nずいぶん改まって。", (0x04000000 +11752));
+talk("ルイズ", null, "サイト、明日、夜明けと同時に出発よね。", (0x04000000 +6309));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ああ、さっき兵士に聞いたよ。\nで、敵の包囲網を突破して学院に移動。\nそれからゼロ戦を飛ばすことになるんだよな。", (0x04000000 +11753));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "なぁ……ルイズ。", (0x04000000 +11754));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "なによ？", (0x04000000 +6310));
+selectInit();
+selectItem("学院はどうなってるんだろう？", (0x01000000 +691), null, true);
+selectItem("敵に捕まったりするんじゃないぞ", (0x01000000 +692), null, true);
+selectItem("ほんとに虚無の魔法を使うのか？", (0x01000000 +693), null, true);
+select();

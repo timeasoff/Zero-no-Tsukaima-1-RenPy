@@ -1,0 +1,39 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +955)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+}
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "（と、とにかく、\n　どこかに隠れないと！）", (0x04000000 +2027));
+talk("ハルナ", null, "（路地のかげにでも……）", (0x04000000 +2028));
+talk("どぶねずみ", null, "チュウ。", (0x04000000 +4280));
+talk("ハルナ", null, "……！", (0x04000000 +2029));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +988)});
+talk("ハルナ", null, "きっ、きゃぁぁぁぁーーーーっっ！", (0x04000000 +2030));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay11", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1105)});
+talk("魔導士", null, "なんだ、いまの声は！", (0x04000000 +3928));
+set("lay11", {y = 0,x = 224});
+set("lay12", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1105)});
+talk("魔導士", null, "あ、いたぞ、あっちだ！\n追え！", (0x04000000 +3929));
+msgoff()
+set("lay21", {show = 0});
+set("lay12", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay11", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +957)});
+msgon()
+talk("ハルナ", null, "（な、なによ、あの大きさ！\n　ネズミでしょ！\n　３０センチぐらいあったわよ！）", (0x04000000 +2031));
+talk("ハルナ", null, "（もう、イヤーーっ！\n　こんなところ！）", (0x04000000 +2032));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +1904), true);

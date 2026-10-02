@@ -1,0 +1,11 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +119)});
+}
+talk("キュルケ", null, "ねえ、ここじゃなんだし……。\nあたしの部屋においでなさいよ？\nダーリンのこと暖めてあげるわよ？", (0x04000000 +3890));
+selectInit();
+selectItem("……お邪魔しちゃおうかな？", (0x01000000 +1637), null, true);
+selectItem("……え、遠慮します", (0x01000000 +1638), null, true);
+selectItem("どうしよう？", (0x01000000 +1639), null, true);
+select();

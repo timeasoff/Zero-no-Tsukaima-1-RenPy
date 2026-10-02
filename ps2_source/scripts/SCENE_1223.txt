@@ -1,0 +1,78 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +629)});
+set("bgm", {play = (0x03000000 +15)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay0", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "今思えば……。\n魔法で対処できたはず。", (0x04000000 +15394));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "た、たしかにそうだったかも……。", (0x04000000 +9031));
+talk("タバサ", null, "失敗。", (0x04000000 +15395));
+talk("サイト", null, "んー、要は冷静になる前に\n体が動いちゃったってことかー。", (0x04000000 +9032));
+talk("タバサ", null, "そうみたい。\nなぜ、そんなことになったんだろう。", (0x04000000 +15396));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "ハハハ……。\nじゃあさ、今度あんなことがあっても、\n俺のこと見殺しにしてくれてもいいぜ？", (0x04000000 +9033));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +592)});
+talk("タバサ", null, "駄目。\nきっと見過ごせない……。", (0x04000000 +15397));
+talk("サイト", null, "大丈夫だって。\n俺って、怪我するのは慣れてるから。", (0x04000000 +9034));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "あ、信用してないだろ？\nタバサが思ってるよりも頑丈なんだからな？", (0x04000000 +9035));
+talk("サイト", null, "（いつもルイズにおしおきされてるしな……）", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "だからさ、あんなことになったら、\n俺のことは気にせず戦ってくれたらいい。", (0x04000000 +9036));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "そんな顔しないでくれよー。\n俺だって、自分が無事だったことより、\nタバサが火傷したことの方が辛かったんだぞ。", (0x04000000 +9037));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +596)});
+talk("タバサ", null, "……うん。", (0x04000000 +15398));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "だからもうさ……。\n無茶なことは二度としないでくれよな？", (0x04000000 +9038));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "……。", null);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "あっ、さては守る自信がないな？", (0x04000000 +9039));
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "じゃあ、指きりで約束しようか？", (0x04000000 +9040));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "ゆびきり？", (0x04000000 +15399));
+talk("サイト", null, "俺のところじゃ、２人だけの約束をするときは\nこうやって……。", (0x04000000 +9041));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +238)});
+trans("crossfade", 1000);
+msgon()
+talk("タバサ", null, "あっ……。", (0x04000000 +15400));
+talk("サイト", null, "お互いの小指と小指を絡めて……。", (0x04000000 +9042));
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "唄の節に合わせて約束を交わすんだ。", (0x04000000 +9043));
+talk("タバサ", null, "つまり……契約？", (0x04000000 +15401));
+talk("サイト", null, "うーん、そんな感じかな？\nそれじゃ、いくぞ……。", (0x04000000 +9044));
+talk("サイト", null, "ゆーびりきげんまん。\n嘘ついたらダーメよっ。\nゆび切ったっ、と！", (0x04000000 +9045));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +239)});
+waitLoad(true);
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "じゃ、これで約束したってことで頼むぜ？", (0x04000000 +9046));
+talk("タバサ", null, "……うん。\nなるべく無茶はしない。", (0x04000000 +15402));
+talk("サイト", null, "ハハハ……。\nなるべくじゃ困るんだけどなぁ。", (0x04000000 +9047));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +972), true);

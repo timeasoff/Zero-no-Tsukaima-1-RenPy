@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +163)});
+}
+talk("サイト", null, "……お、俺のご主人様は、", (0x04000000 +13784));
+talk("サイト", null, "麗しの女王様です！", (0x04000000 +13785));
+talk("ルイズ", null, "なんですって！\nまさかあんた、女王様にまで色目を！", (0x04000000 +7593));
+talk("サイト", null, "え？\nいや、そういう意味じゃなくて……。", (0x04000000 +13786));
+talk("ルイズ", null, "……よ、よくもまぁ……。\n学院の女の子だけでは飽き足らず、\nアンリエッタ様まで毒牙にかける気なのね！", (0x04000000 +7594));
+talk("サイト", null, "い、いや。あの、その……。", (0x04000000 +13787));
+talk("ルイズ", null, "この身の程知らずのバカ犬には、\n念入りにお仕置きしないとね！", (0x04000000 +7595));
+talk("サイト", null, "ル、ルイズっ！\nち、違う！\n御慈悲をっっ！！", (0x04000000 +13788));
+talk("ルイズ", null, "……ご、ご主人様って呼びなさい！", (0x04000000 +7596));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("event", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay1", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay5", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+vibrate(3);
+waitTime(1100, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぎぃぃぃぃやぁぁぁぁぁぁっっっ！！", (0x04000000 +13789));
+next((0x01000000 +1576), true);

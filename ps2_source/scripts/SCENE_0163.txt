@@ -1,0 +1,98 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+set("se0", {play = (0x03000000 +82)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +973)});
+talk("シエスタ", null, "ハルナさーん、失礼しますねー。", (0x04000000 +14659));
+msgoff()
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay2", {show = 0});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +115)});
+trans("crossfade", 1000);
+msgon()
+talk("ハルナ", null, "シエスタさん……。\nその荷物って一体……。", (0x04000000 +2164));
+talk("シエスタ", null, "体のお加減はいかがですか？", (0x04000000 +14660));
+talk("ハルナ", null, "ええ、なんとか……。", (0x04000000 +2165));
+talk("シエスタ", null, "……でも、まだ顔色がよくないみたいですね。\nひょっとして、風邪なんでしょうか？", (0x04000000 +14661));
+talk("ハルナ", null, "たぶん、そんな感じ……かな？", (0x04000000 +2166));
+talk("シエスタ", null, "……。", (0x04000000 +14662));
+talk("ハルナ", null, "……。", (0x04000000 +2167));
+talk("シエスタ", null, "わたしハルナさんのために色々と\nご用意してきたんですよ。", (0x04000000 +14663));
+talk("ハルナ", null, "えっ……？", (0x04000000 +2168));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +116)});
+waitLoad(true);
+talk("シエスタ", null, "まずは、この厚手の布団をハルナさんに\nかけますね。", (0x04000000 +14664));
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay2", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay7", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay2", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+waitTime(0, true);
+talk("ハルナ", null, "あっ、そんなことされたら……。", (0x04000000 +2169));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +115)});
+waitLoad(true);
+talk("シエスタ", null, "風邪は汗をかくのがいいって言いますよ。\nこれは親切です。", (0x04000000 +14665));
+talk("ハルナ", null, "あ、そうですね。\nちょ、ちょーどいい加減かなー、なぁんて。", (0x04000000 +2170));
+talk("シエスタ", null, "良かったです。\n体を温めていただこうかと思って、\nすごく熱い料理も用意しましたよ！", (0x04000000 +14666));
+talk("ハルナ", null, "あの、今はちょっと食欲がなくて……。", (0x04000000 +2171));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +116)});
+waitLoad(true);
+talk("シエスタ", null, "ダメですよ、ハルナさん。\n風邪のときだからこそ食べないとー。", (0x04000000 +14667));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +115)});
+waitLoad(true);
+talk("シエスタ", null, "ちゃんと栄養を取らないといつまでたっても\n風邪は治りませんからねー。", (0x04000000 +14668));
+talk("ハルナ", null, "ひょっとして……。\n意地でも食べさせる気だったりします？", (0x04000000 +2172));
+talk("シエスタ", null, "意地でもだなんて、そんな……。\nハルナさんに食べていただきたくて、\n心を込めてご用意した料理ですし。", (0x04000000 +14669));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +116)});
+waitLoad(true);
+talk("シエスタ", null, "もし、病気が治ってるのでしたら、\n食べる必要はないかもしれないなーとか、\n思いますけど……。", (0x04000000 +14670));
+talk("ハルナ", null, "……。", (0x04000000 +2173));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +115)});
+waitLoad(true);
+talk("ハルナ", null, "（この人、私が病気じゃないこと\n　白状させようとしてるのね……）", (0x04000000 +2174));
+talk("ハルナ", null, "（私が平賀くんに看病されてるのが\n　気に入らないんでしょーけど、\n　こっちだってそうはいかないんだから……）", (0x04000000 +2175));
+talk("ハルナ", null, "……負けないんだから。", (0x04000000 +2176));
+talk("シエスタ", null, "はい？\n今なにかおっしゃいましたかー？", (0x04000000 +14671));
+talk("ハルナ", null, "いーえ、なんにもー。", (0x04000000 +2177));
+talk("シエスタ", null, "さー、用意ができました。", (0x04000000 +14672));
+talk("ハルナ", null, "まあ、とっても熱そうな……。\nまるでグラグラと煮えてるみたい。", (0x04000000 +2178));
+talk("ハルナ", null, "いくらなんでも、\nこれじゃあ熱すぎて食べるのは無理かも……。", (0x04000000 +2179));
+talk("シエスタ", null, "いえいえ、病気の方はこれくらいは\n食べないと……。", (0x04000000 +14673));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +116)});
+waitLoad(true);
+talk("シエスタ", null, "そうそう、薪も用意しましたから、\n後で暖炉も焚きますね。", (0x04000000 +14674));
+talk("ハルナ", null, "え……！！", (0x04000000 +2180));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +115)});
+waitLoad(true);
+talk("シエスタ", null, "ウフ、ウフフフフ……。", (0x04000000 +14675));
+talk("ハルナ", null, "フフ、フフフフフ……。", (0x04000000 +2181));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay2", {show = 0});
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +164), true);

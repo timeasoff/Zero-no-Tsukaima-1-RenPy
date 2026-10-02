@@ -1,0 +1,94 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "まだまだだわ。\nバカ犬にはもう少し女の子の\n気持ちを教えるべきね。", (0x04000000 +7843));
+talk("サイト", null, "（ひっ、ひぃぃっ！）", null);
+talk("サイト", null, "す、すいません！\nお、俺が悪かったですっ！", (0x04000000 +14052));
+talk("ルイズ", null, "あら、そんなに謝らなくてもいいわよ。", (0x04000000 +7844));
+talk("ルイズ", null, "女の子の気持ちが理解できるようになるまで、\nちゃんと教育してあげるんだから！", (0x04000000 +7845));
+talk("サイト", null, "ご、ご主人様にそんなお手をわずらわせて\nいただかなくても……。", (0x04000000 +14053));
+talk("ルイズ", null, "遠慮なんてしなくていいわよ……ほらっ！", (0x04000000 +7846));
+talk("サイト", null, "いっ、いやぁぁっ！\nやめてぇぇっ！", (0x04000000 +14054));
+talk("ルイズ", null, "うふふ、いい声で鳴きなさいっ！", (0x04000000 +7847));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +174)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "……ひ、ひどいです、ご主人様。\nイ、イヤだっていったのに。", (0x04000000 +14055));
+talk("ルイズ", null, "うふふ、今日はそのままおでかけよ。", (0x04000000 +7848));
+talk("ルイズ", null, "……みんなにも紹介してあげるんだから！", (0x04000000 +7849));
+talk("サイト", null, "か、勘弁してください。\nご主人様……。", (0x04000000 +14056));
+talk("ルイズ", null, "ホントに往生際が悪いんだから。\n……いっそ、首輪もつけちゃおうかしら？", (0x04000000 +7850));
+talk("サイト", null, "それはいろんな意味でまずいと思います。", (0x04000000 +14057));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +304)});
+msgon()
+talk("ルイズ", null, "うふふ、みんな驚くわよっ！\nあら、ギーシュにモンモランシー……。", (0x04000000 +7851));
+talk("ルイズ", null, "ごきげんよう、モンモランシー、\nギーシュ。", (0x04000000 +7852));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +555)});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +852)});
+talk("ギーシュ", null, "……やぁ、ルイズ。", (0x04000000 +1569));
+talk("モンモランシー", null, "あら、ルイズ。", (0x04000000 +4179));
+set("lay3", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +885)});
+talk("モンモランシー", null, "……今日はあの使い魔の彼は一緒じゃないの？", (0x04000000 +4180));
+set("lay4", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "え、ええ。\nちょっと。", (0x04000000 +7853));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +563)});
+talk("ギーシュ", null, "そ、そういえばこちらの美しい女性について\n是非……！", (0x04000000 +1570));
+set("lay3", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +856)});
+talk("モンモランシー", null, "ギ、ギーシュ！", (0x04000000 +4181));
+talk("サイト", null, "（ひっ、手をとるな！\n　ギーシュ！）", null);
+set("lay4", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "え、ええとね。\nこちらは……。", (0x04000000 +7854));
+set("lay3", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +885)});
+talk("モンモランシー", null, "あら？\nこの香水はルイズと同じ……？", (0x04000000 +4182));
+set("lay3", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +891)});
+talk("モンモランシー", null, "……んんっ？\nんんんん？\nま、まさか！", (0x04000000 +4183));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +555)});
+talk("ギーシュ", null, "ど、どうした？\nモンモランシー？", (0x04000000 +1571));
+talk("モンモランシー", null, "……まさか、これって使い魔の彼？", (0x04000000 +4184));
+talk("サイト", null, "（……ば、バレた。\n　おしまいだ。\n　グッバイ、俺の青春っ！）", null);
+set("lay4", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +559)});
+talk("ギーシュ", null, "……へっ？\nな、ななな、なんだってぇぇぇっ！", (0x04000000 +1572));
+set("lay4", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "……さ、さすがチェック厳しいわね。", (0x04000000 +7855));
+set("lay3", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +852)});
+talk("モンモランシー", null, "香水のモンモランシーをなめないことね。\n……けど、まあよく作ったものね。\n男の子だなんて分からないわよ。", (0x04000000 +4185));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +572)});
+talk("ギーシュ", null, "ど、どういうことだ！\nまさかこの女性が……サイトだなんて……。", (0x04000000 +1573));
+set("lay3", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +891)});
+talk("モンモランシー", null, "まったく、今日ばかりはあきれたわ。\n男を口説くなんて……。", (0x04000000 +4186));
+set("lay4", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +561)});
+talk("ギーシュ", null, "こ、こんなに清楚で可憐なのに……。", (0x04000000 +1574));
+selectInit();
+selectItem("とりあえず、手を離せギーシュ", (0x01000000 +1665), null, true);
+selectItem("いかがです。ギーシュさま？", (0x01000000 +1666), null, true);
+selectItem("……な、なんだよ。この空気は！", (0x01000000 +1667), null, true);
+select();

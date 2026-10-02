@@ -1,0 +1,17 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +50)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +632)});
+msgon()
+talk("サイト", null, "（あれ、タバサがいる）", null);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+like("タバサ", 30);
+talk("サイト", null, "（こんなときにも本を読んでるのか……）", null);
+selectInit();
+selectItem("どんな本を読んでるんだろう？", (0x01000000 +1389), null, true);
+selectItem("邪魔をしたら悪いな", (0x01000000 +1390), null, true);
+selectItem("いたずらしてみよう", (0x01000000 +1391), null, true);
+select();

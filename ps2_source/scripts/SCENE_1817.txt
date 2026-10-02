@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +191)});
+}
+talk("サイト", null, "ああ、気高き俺のご主人様！", (0x04000000 +10650));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("サイト", null, "俺はご主人様の可憐な姿を見ると、\nいつも胸が高鳴り、心が引き裂かれそうです。", (0x04000000 +10651));
+talk("サイト", null, "そのかわいさはほとんど犯罪です！", (0x04000000 +10652));
+talk("サイト", null, "最高です！\n俺の女神さまです！", (0x04000000 +10653));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "え、ええっ？\nも、もう。\nそこまで言わなくても……。", (0x04000000 +5390));
+talk("ルイズ", null, "でも、ええと……あ、ありがと。", (0x04000000 +5391));
+next((0x01000000 +1820), true);

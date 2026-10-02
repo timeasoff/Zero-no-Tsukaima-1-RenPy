@@ -1,0 +1,45 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "（タバサってどんな料理を\n　作るつもりなんだろう……）", null);
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+talk("タバサ", null, "誰？", (0x04000000 +15471));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "俺だよ、タバサ。\nちょっといいかな？", (0x04000000 +9982));
+talk("タバサ", null, "入って。", (0x04000000 +15472));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "お邪魔しますっ。", (0x04000000 +9983));
+msgoff()
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay0", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +94)});
+trans("crossfade", 1000);
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +588)});
+set("se0", {play = (0x03000000 +56)});
+msgon()
+talk("タバサ", null, "偵察に来たのなら、無駄。", (0x04000000 +15473));
+set("lay0", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "あ、ばれた？", (0x04000000 +9984));
+set("se0", {play = (0x03000000 +72)});
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "今読んでるその本って、\nもしかして料理に関する本だったりして？", (0x04000000 +9985));
+talk("タバサ", null, "秘密。", (0x04000000 +15474));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "どうしても？", (0x04000000 +9986));
+talk("タバサ", null, "だめ。", (0x04000000 +15475));
+talk("サイト", null, "（さすが、タバサだ。\n　鉄壁の守りすぎる。\n　さて、どうしよう？）", null);
+selectInit();
+selectItem("じらす", (0x01000000 +1494), null, true);
+selectItem("覗き見る", (0x01000000 +1495), null, true);
+selectItem("すねる", (0x01000000 +1496), null, true);
+select();

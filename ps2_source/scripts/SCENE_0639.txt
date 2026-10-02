@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +764)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("bgm", {play = (0x03000000 +26)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+}
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "市街で戦いになってるということは、\n市民にも被害がでてるはずですよね？", (0x04000000 +13070));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "なんてことなの……。", (0x04000000 +7092));
+set("lay5", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "俺達で避難の誘導を手伝おう。\n今、できることってそれくらいだと思う。", (0x04000000 +13071));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "そうね……。\n急ぎましょう！", (0x04000000 +7093));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "なりません。\nいま待ちなさい。", (0x04000000 +708));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +768)});
+talk("アンリエッタ", null, "あなた達はわが国にとって、切り札なのです。\n軽々しく動くことはなりません。", (0x04000000 +709));
+next((0x01000000 +640), true);

@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +317)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +6)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +431)});
+talk("サイト", null, "すっごくきれいだ。", (0x04000000 +8206));
+set("lay1", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +321)});
+talk("ルイズ", null, "え？\nな、なによ急に……。", (0x04000000 +4647));
+like("ルイズ", 10);
+talk("サイト", null, "急に意見言えっていうから、\n思ったとおり、正直に言っただけだぞ。", (0x04000000 +8207));
+talk("ルイズ", null, "しょ、正直に……？\nそ、そうなの。\nあ……ありがとう。", (0x04000000 +4648));
+talk("サイト", null, "いや、お礼を言われることじゃないと思うけど。", (0x04000000 +8208));
+set("lay1", {dr = "1B",show = 1,level = 160,lv = 0,image = (0x02000000 +317)});
+talk("ルイズ", null, "う……、いいのっ！\nあんたは黙ってなさい！", (0x04000000 +4649));
+next((0x01000000 +1013), true);

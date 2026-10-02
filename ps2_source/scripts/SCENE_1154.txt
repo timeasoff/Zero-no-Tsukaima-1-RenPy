@@ -1,0 +1,128 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+msgon()
+talk("ウェザリー", null, "ハルナ！", (0x04000000 +15858));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "えっ！\nえええええっ！\nわ、私がですか！", (0x04000000 +1683));
+set("lay7", {y = 0,x = -96});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +317)});
+talk("ルイズ", null, "ち、ちょっと！\nなんでそうなるのよ！", (0x04000000 +4765));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "あら、わたしはひいきなんてしないわ。\n順当に選んだだけよ。", (0x04000000 +15859));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "私がヒロイン……。\n私がヒロイン……。", (0x04000000 +1684));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +693)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +638)});
+talk("キュルケ", null, "……本当に大丈夫なの？", (0x04000000 +2834));
+talk("タバサ", null, "ちょっと不安。", (0x04000000 +15360));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "それじゃ、その他の配役も発表していくわよ。\n育ての親の老貴族は……。", (0x04000000 +15860));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 2000});
+waitAction(null, true);
+waitTime(500, true);
+back();
+set("lay20", {show = 0});
+set("lay0", {show = 0});
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("lay6", {show = 0});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+talk("サイト", null, "（そして、舞台の幕が開いた。\n　滞りなく舞台が進み、\n　そしてクライマックスへとなだれこんだ）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +147)});
+trans("crossfade", 1000);
+set("bgm", {play = (0x03000000 +23),fadetime = 0});
+msgon()
+talk("サイト", null, "ここならば暫しの時間はかせげよう。", (0x04000000 +8835));
+talk("ハルナ", null, "わたしが敵の陣を説きましょう。\nわたしが帝国に戻れば、\n全ては収まることなのです。", (0x04000000 +1685));
+talk("サイト", null, "しかし、それでは僕は君を失うことになる。", (0x04000000 +8836));
+talk("ハルナ", null, "ですが、このままでは王子は王国とお命を\n失うことになります！", (0x04000000 +1686));
+talk("サイト", null, "王国がなんだというのだ！\n死がなにほどのことがあろう！", (0x04000000 +8837));
+talk("サイト", null, "笑ってくれ。\n僕は死や亡国よりも君を失ったまま生きる\nことのほうが恐ろしいのだ。", (0x04000000 +8838));
+talk("ハルナ", null, "王子！", (0x04000000 +1687));
+talk("サイト", null, "ああ、愛しい人よ。\n僕がどれほど君を愛したことか。", (0x04000000 +8839));
+talk("サイト", null, "愛は誰もを盲目にし狂わせる。\n君に愛を囁いた貴公子達は、君の謎かけに\n答えようとしてみな破滅していった。", (0x04000000 +8840));
+talk("サイト", null, "だが、僕はもうその愚を笑うことはすまい。\n僕自身も君のためにこの王国を賭け、\nそして滅ぼしたからだ！", (0x04000000 +8841));
+talk("サイト", null, "さあ、城が落ちる。\n去りたまえ。", (0x04000000 +8842));
+talk("サイト", null, "あの寄せ手の兵どもは、君を新しい女王として\n歓喜の声で迎えるだろう！", (0x04000000 +8843));
+talk("サイト", null, "君は生きて女王となるのだ。", (0x04000000 +8844));
+talk("ハルナ", null, "ああ、王子！", (0x04000000 +1688));
+talk("サイト", null, "愛しい人。\nだが、後悔はすまい。", (0x04000000 +8845));
+talk("サイト", null, "君への愛にはそれだけの価値があった。\nただ、願わくば……ただ一度……。", (0x04000000 +8846));
+talk("サイト", null, "君の本当の気持ちを知りたかった。", (0x04000000 +8847));
+set("se0", {play = (0x03000000 +64)});
+talk("サイト", null, "ああ、敵兵が塔にまで……。\nもはや猶予の刻はない。", (0x04000000 +8848));
+talk("ハルナ", null, "王子、いつぞやの求婚をいただいた\n夜を覚えておいででしょうか？", (0x04000000 +1689));
+talk("ハルナ", null, "今宵のように双月の美しい夜でございました。\nあのご返事を今いたしましょう。", (0x04000000 +1690));
+talk("サイト", null, "姫？", (0x04000000 +8849));
+talk("ハルナ", null, "ノエルは王子の妻として……。\nここで死を……。", (0x04000000 +1691));
+talk("ギーシュ", "兵士", "姫がおられたぞ！", (0x04000000 +1416));
+talk("ハルナ", null, "……。", (0x04000000 +1692));
+talk("サイト", null, "では、行こうノエル。\n僕はどこまでも君についていくよ。", (0x04000000 +8850));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(1000, true);
+set("lay5", {show = 0});
+set("lay4", {show = 0});
+set("lay7", {show = 0});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +53)});
+set("event", {show = 0});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("タバサ", null, "こうして２人は塔から身を投げました。", (0x04000000 +15361));
+talk("タバサ", null, "２人の落ちた地にはやがて寄り添うような\n白い花が咲いたといいます。", (0x04000000 +15362));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("lay4", {show = 0});
+set("lay7", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 2000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1006)});
+msgon()
+talk("ハルナ", null, "な、なんだか凄かったね。\n平賀くん！\n情熱的な演技だったよ。", (0x04000000 +1693));
+talk("サイト", null, "ま、まあちょっとだけな。", (0x04000000 +8851));
+talk("ウェザリー", null, "それでは皆さま。\n最後にもう一度、盛大な拍手をお願いします！", (0x04000000 +15861));
+set("lay7", {show = 1,level = 160,dr = "2C",lv = 0,image = (0x02000000 +1014)});
+talk("ハルナ", null, "ねぇ、平賀くん。\nあの告白って本当かと思っちゃった。", (0x04000000 +1694));
+talk("サイト", null, "（思っちゃったって言われても……）", null);
+selectInit();
+selectItem("十分、本気です", (0x01000000 +1155), null, true);
+selectItem("もちろんお芝居だよ", (0x01000000 +1156), null, true);
+selectItem("笑って誤魔化す", (0x01000000 +1157), null, true);
+select();

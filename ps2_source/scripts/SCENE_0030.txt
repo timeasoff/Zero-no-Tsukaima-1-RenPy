@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +216)});
+}
+talk("サイト", null, "ルイズのやつが寝ぼけて、\n俺のことを掴んでるだけで……。", (0x04000000 +10885));
+talk("サイト", null, "このままだと一生ベッドから\n出られないかもなー、てへ……。\nとか……どうっすか？", (0x04000000 +10886));
+talk("シエスタ", null, "それは大変ですね。", (0x04000000 +14516));
+talk("シエスタ", null, "一体どうやって、あのミス・ヴァリエールの\n気を引かせたのかなぁ……。\n気になるなぁ。", (0x04000000 +14517));
+talk("サイト", null, "シ、シエスタ。", (0x04000000 +10887));
+talk("ルイズ", null, "ううーん……。", (0x04000000 +5622));
+talk("サイト", null, "あ、ルイズも起きたか？", (0x04000000 +10888));
+talk("ルイズ", null, "ん……ふわああ……。\nあれ、サイト……？", (0x04000000 +5623));
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +489)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+msgon()
+talk("ルイズ", null, "……って、ええっ！？\nなんでシエスタがわたしの部屋にいるのよっ！", (0x04000000 +5624));
+talk("サイト", null, "（そう言えば、なんでシエスタがこんな時間に\n　来たんだろう？）", null);
+next((0x01000000 +33), true);

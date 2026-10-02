@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +814)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +10)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "俺達の努力は偶然じゃありませんよ。", (0x04000000 +10313));
+set("lay8", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "あ、すみません。\nそういう意味で言ったのではないのです。", (0x04000000 +509));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "ただ、あの危機に陥った時に、\nルイズと使い魔さんがこの国にいてくれた……。\nそのこと自体が偶然のように思えて……。", (0x04000000 +510));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "確かに……。\nそれは偶然かもしれないですね\n俺もルイズに偶然召喚されたんだし。", (0x04000000 +10314));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "でも、ルイズや軍人さんや……。\n何よりお姫さまが頑張ったから、\nその偶然も活かせたんですよ。", (0x04000000 +10315));
+tndl(40);
+talk("アンリエッタ", null, "そうでしょうか……。\n他の者はともかく、わたくしは……。", (0x04000000 +511));
+talk("サイト", null, "そんな風に言わないでくださいよ。\nお姫さまは頑張った。\nそれはみんなが分かってますよ。", (0x04000000 +10316));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "だと……いいのですが。", (0x04000000 +512));
+next((0x01000000 +1448), true);

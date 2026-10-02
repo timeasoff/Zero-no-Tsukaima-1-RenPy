@@ -1,0 +1,15 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "今日はいいお天気だし、すこし外に出ない？", (0x04000000 +7700));
+talk("サイト", null, "へっ？\nもしかして魔法の特訓ですか？", (0x04000000 +13886));
+talk("ルイズ", null, "……あれ、なんで分かったの？\nこれから魔法の訓練をしようと思ってたの。\n当然、手伝ってくれるわよね？", (0x04000000 +7701));
+selectInit();
+selectItem("て、手伝わせていただきますっ！", (0x01000000 +1609), null, true);
+selectItem("で、デートで忙しいので……", (0x01000000 +1610), null, true);
+selectItem("訓練なんて無駄な努力を……", (0x01000000 +1611), null, true);
+select();

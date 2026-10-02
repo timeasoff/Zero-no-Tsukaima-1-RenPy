@@ -1,0 +1,653 @@
+=== SCENE 0 (len=599, talk=0) ===
+//
+// ユーティリティ定義
+// 
+
+/**
+ * テーブルから name で示される要素を取り出す
+ * @param table 処理対象のテーブル
+ * @param name  項目の名前
+ */
+function getval(table, name, defaultValue) 
+{
+    if (name in table) {
+        return table[name];
+    }
+    return defaultValue;
+}
+
+/**
+ * 時間の変換用
+ * @param time 時間(ms)
+ * @param フレーム数
+ */
+function timeCalc(time)
+{
+	if (time == null) {
+		time = 0;
+	}
+	return time.tointeger() / 16;
+}
+
+/**
+ * 乱数生成
+ */
+function random(a)
+{
+	local d = rand().tofloat() / RAND_MAX * a;
+    return  d.tointeger() ;
+}
+
+
+
+=== SCENE 1 (len=34593, talk=0) ===
+--- HEAD 1300 ---
+/**
+ * レイヤアクションモジュール基底クラス
+ */
+class LayerModule {
+
+    type = null;
+    first = null;
+    startTime = null;
+    time = null;
+    delay = null;
+    options = null;
+
+    /**
+     * コンストラクタ
+     * @param layer レイヤ
+     * @param params パラメータ
+     */
+    constructor(layer, options) {
+        this.options = options;
+        delay = ("delay" in options) ? options.delay : null;
+        time  = ("time" in options) ? options.time : null;
+        first = true;
+        startTime = 0;
+    }
+	
+	function getOption(name) {
+		if (options != null && name in options) {
+			return options[name];
+		} else {
+			return 0;
+		}
+	}
+
+    /**
+     * 処理実行
+     * @param now 現在時刻(tick)
+     * @param skip スキップ指定
+     */
+    function run(layer, now, skip, stop) {
+        if (first) {
+            startTime = now;
+            first = false;
+        }
+        now -= startTime;
+        if (delay) {
+            now -= delay;
+            if (now < 0) {
+                return;
+            }
+        }
+        local done = false;
+        if (time) {
+            if (now >= time || skip || stop) {
+                done = true;
+                now = time;
+            }
+        }
+        if (stop) {
+            done = true;
+        }
+        return action(layer, now, 
+--- TAIL 1300 ---
+fore) {
+        // レイヤの復帰処理
+        if (hide) {
+            _layer = null;
+            currentActions = [];
+            show = false;
+            hide = false;
+        }
+        _sync(fore, true);
+    }
+    
+    // -----------------------------------------------
+    
+    /**
+     * レイヤの退避処理
+     */
+    function back(fore) {
+        // 現在のレイヤを退避して指定画面に再構築
+        if (_layer != null) {
+            _layerBack = _layer;
+            _layer = ActionLayer(fore);
+            _layer.assign(_layerBack);
+        } else {
+            _layerBack = null;
+        }
+    }
+
+    /**
+     * 待避処理の完了
+     */
+    function backDone() {
+        // 裏画面レイヤを消去する
+        _layerBack = null;
+        // 念のため表に移動
+        if (_layer != null) {
+            _layer.fore();
+        }
+    }
+
+	/**
+     * アクション実行中かどうか
+     */
+    function isAction() {
+        return _layer != null && _layer.actionTime != null || 
+            _layerBack != null && _layerBack.actionTime != null;
+    }
+
+    /**
+     * アクションの強制中止
+     */
+    function stopAction() {
+        if (_layer != null) {
+            _layer.stopAction();
+        }
+        if (_layerBack != null) {
+            _layerBack.stopAction();
+        }
+        currentActions = [];
+    }
+};
+
+print("layer setup\n");
+
+
+=== SCENE 2 (len=5337, talk=0) ===
+--- HEAD 1300 ---
+/**
+ * アドベンチャーエンジン用 BGM
+ * BGM のチャンネルは２つ（フェード用にきりかえる）
+ */
+class AdvSoundTrack {
+
+    function _play(name, volume, time) {
+        // nothing todo
+    }
+
+    function _fade(volume, time) {
+        // nothing todo
+    }
+    
+    function _stop(time) {
+        // nothing todo
+    }
+
+    function _playing() {
+        return false;
+    }
+    
+    // 再生
+    doPlay   = false;
+    playFile = "";
+    loop = false;
+    loopDefault = true;
+    volume = 100;
+    fadeTime = 0;
+
+    // 停止
+    doStop   = false;
+
+    // 音量制御
+    doFade = false;
+    
+    properties = null;
+
+    /**
+     * 再生
+     * @param param パラメータ
+     * @param elm 補助パラメータ
+     */
+    function play(param, elm) {
+        loop = getval(elm, "loop", loopDefault);
+        if (!isJump() || loop) {
+            playFile = param;
+            fadeTime = getval(elm, "fadeTime", 0);
+            volume   = getval(elm, "volume", 100);
+            doFade   = false;
+            doStop   = false;
+            doPlay   = true;
+        }
+    }
+
+    /**
+     * 停止
+     * @param param パラメータ
+     * @param elm 補助パラメータ
+     */
+    function stop(param, elm) {
+        doPlay = false;
+        doFade = false;
+        playFile = null;
+        if (_playing()) {
+            fadeTime = param != 
+--- TAIL 1300 ---
+ _playing() {
+        return MusicPlayingNow(0);
+    }
+    
+    constructor(info) {
+        //print("Create BGM\n");
+        ::AdvSoundTrack.constructor(info);
+        loopDefault = true;
+    }
+};
+
+/**
+ * SE制御用
+ */
+class AdvSE extends AdvSoundTrack {
+
+    id = 1;
+
+    function _play(name, volume, time) {
+        if (!isSkip()) {
+			// いったん停止処理
+	        MusicStop(id, 0);
+            MusicPlay(id, name, volumeCalc(volume), timeCalc(time));
+        }
+    }
+
+    function _fade(volume, time) {
+        MusicFade(id, volumeCalc(volume), timeCalc(time))
+    }
+    
+    function _stop(time) {
+        MusicStop(id, timeCalc(time));
+    }
+
+    function _playing() {
+        return MusicPlayingNow(id);
+    }
+    
+    constructor(info) {
+        ::AdvSoundTrack.constructor(info);
+        loopDefault = false;
+        id = getval(info, "id", 1);
+        if (id < 1 || id > 2) {
+            id = 1;
+        }
+    }
+}
+
+/**
+ * フェード終了時処理
+ */
+function onMusicFadeCompleted(ch)
+{
+    if (ch == 0) {
+        onBgmFadeCompleted();
+    } else {
+        onSEFadeComplsted(ch);
+    }
+
+}
+
+/**
+ * 再生終了時処理
+ */
+function onMusicStop(ch)
+{
+    if (ch == 0) {
+        onBgmStop();
+    } else {
+        onSEStop(ch);
+    }
+}
+
+print("sound setup\n");
+
+
+=== SCENE 3 (len=64184, talk=1) ===
+--- HEAD 1300 ---
+//
+// Squirrel によるアドベンチャーエンジン
+//
+
+// ----------------------------------------
+// ゼロゲーム変数
+// ----------------------------------------
+
+// キャラ別新密度
+zero_likes <- [0,0,0,0,0,0];
+// ツンデレ度
+zero_tundele <- 127;
+// ツンデレ回数
+zero_tundele_count <- 0;
+// ルートパラメータ
+zero_route <- 0;
+// キスパラメータ
+zero_kiss <- 0;
+// アイテム個数
+zero_items <- [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+// タイトル
+zero_title <- "";
+// 直近のテキスト
+zero_text  <- "";
+
+// ツンデレ状態マップ
+zero_tun_event <- [0,0,0,0,0,0];
+zero_dele_event <- [0,0,0,0,0,0];
+// ツンデレ処理用
+zero_tndl_scene <- 0;
+zero_tndl_done <- 0;
+
+zero_tndl_flag <- 0;
+zero_tndl_no   <- 0;
+
+/**
+ * ゲーム変数初期化処理
+ */
+function initVariable()
+{
+    zero_likes  = [0,0,0,0,0,0];
+    zero_tundele = 127;
+    zero_tundele_count = 0;
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// ----------------------------------------
+// システム要素
+// ----------------------------------------
+
+// ツンデレメータ用
+tndlBaseImageId <- 0;
+tndlArrowImageId <- 0;
+
+// 好感度上下
+paraUpImageId   <- 0;
+paraDownImageId <- 0;
+--- TAIL 1300 ---
+             zero_route = 6;
+            } else if (isMax(3)) { // シエスタ
+                zero_route = 4; 
+            } else if (isMax(4)) { // アンリエッタ
+                zero_route = 5;
+            } else if (isMax(2)) { // タバサ
+                zero_route = 3;
+            } else if (isMax(1)) { // キュルケ
+                zero_route = 2;
+            } else {
+                zero_route = 1; // ルイズ
+            }
+        }
+    }
+}
+
+/**
+ * キス状態決定
+ */
+function checkKiss()
+{
+    addLine();
+    if (!isJump2()) {
+        zero_kiss = zero_tundele_count >= 4 ? 0 : 1;
+    }
+}
+
+/**
+ * クリアフラグの設定
+ */
+function setClear()
+{
+    addLine();
+    if (!isJump2()) {
+        if (zero_route >= 0 && zero_route <= 6) {
+            SetClearFlag(zero_route);
+        };
+    }
+}
+
+// ------------------------------------
+// ツンデレテスト用
+// ------------------------------------
+
+function tndlInit()
+{
+	zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+tdtest_td <- 0;
+tdtest_type <- 0;
+tdtest_done <- 0;
+
+function tndlTest(level)
+{
+    zero_tndl_done  = tdtest_done;
+    zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;
+    next(tdtest_td == 0 ? tnEventId : dlEventId, true);
+}
+
+print("scene player setup\n");
+
+
+=== SCENE 4 (len=260, talk=0) ===
+initVariable();
+selectInit();
+selectItem("共通部", (0x01000000 +1861), null, true);
+selectItem("個別部", (0x01000000 +1862), null, true);
+selectItem("ツンデレ", (0x01000000 +1865), null, true);
+selectItem("ムービー", (0x01000000 +1915), null, true);
+select();
+
+
+=== SCENE 1861 (len=232, talk=0) ===
+selectInit();
+selectItem("プロローグ", (0x01000000 +5), null, true);
+selectItem("１日目", (0x01000000 +6), null, true);
+selectItem("２日目", (0x01000000 +68), null, true);
+selectItem("次", (0x01000000 +1864), null, true);
+select();
+
+
+=== SCENE 1862 (len=283, talk=0) ===
+selectInit();
+selectItem("ルイズルート", (0x01000000 +670), "zero_route=1", true);
+selectItem("ハルナルート", (0x01000000 +431), "zero_route=6", true);
+selectItem("シエスタルート", (0x01000000 +771), "zero_route=4", true);
+selectItem("次", (0x01000000 +1863), null, true);
+select();
+
+
+=== SCENE 1863 (len=239, talk=0) ===
+selectInit();
+selectItem("アンリエッタルート", (0x01000000 +344), "zero_route=5", true);
+selectItem("タバサルート", (0x01000000 +903), "zero_route=3", true);
+selectItem("キュルケルート", (0x01000000 +549), "zero_route=2", true);
+select();
+
+
+=== SCENE 1864 (len=234, talk=0) ===
+selectInit();
+selectItem("３日目", (0x01000000 +137), null, true);
+selectItem("４日目", (0x01000000 +219), null, true);
+selectItem("５日目", (0x01000000 +269), null, true);
+selectItem("もどる", (0x01000000 +4), null, true);
+select();
+
+
+=== SCENE 1865 (len=613, talk=0) ===
+restrict <- false;
+selectInit();
+selectItem("しょきか", (0x01000000 +1865), "tndlInit()", true);
+selectItem("制限つき", null, "restrict=true", true);
+selectItem("制限なし", null, "restrict=false", true);
+selectItem("こべつ", (0x01000000 +1866), null, true);
+select();
+if (nextScene == null) {
+        selectInit();
+        selectItem("ツン", null, "zero_tundele=0", true);
+        selectItem("デレ", null, "zero_tundele=255", true);
+        select();
+        selectInit();
+        dateItem("ルイズ", (0x01000000 +1865));
+        dateItem("シエスタ", (0x01000000 +1865));
+        date((0x01000000 +1865), true);
+}
+
+
+=== SCENE 1866 (len=146, talk=0) ===
+selectInit();
+selectItem("ツン", (0x01000000 +1867), "tdtest_td=0", true);
+selectItem("デレ", (0x01000000 +1867), "tdtest_td=1", true);
+select();
+
+
+=== SCENE 1867 (len=259, talk=0) ===
+selectInit();
+selectItem("２", (0x01000000 +1869), "tdtest_type=0", true);
+selectItem("３", (0x01000000 +1869), "tdtest_type=1", true);
+selectItem("４", (0x01000000 +1869), "tdtest_type=2", true);
+selectItem("つぎ", (0x01000000 +1868), null, true);
+select();
+
+
+=== SCENE 1868 (len=259, talk=0) ===
+selectInit();
+selectItem("５", (0x01000000 +1869), "tdtest_type=3", true);
+selectItem("６", (0x01000000 +1869), "tdtest_type=4", true);
+selectItem("７", (0x01000000 +1869), "tdtest_type=5", true);
+selectItem("まえ", (0x01000000 +1867), null, true);
+select();
+
+
+=== SCENE 1869 (len=211, talk=0) ===
+tdtest_done = (0x01000000 +1865);
+selectInit();
+selectItem("レベル０", null, "tndlTest(0)", true);
+selectItem("レベル１", null, "tndlTest(1)", true);
+selectItem("レベル２", null, "tndlTest(2)", true);
+select();
+
+
+=== SCENE 1915 (len=298, talk=0) ===
+movieNo <- 0;
+selectInit();
+selectItem("２", null, "movieNo=2", true);
+selectItem("３", null, "movieNo=3", true);
+selectItem("４", null, "movieNo=4", true);
+selectItem("つぎ", (0x01000000 +1916), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true);
+}
+
+
+=== SCENE 1916 (len=284, talk=0) ===
+selectInit();
+selectItem("５", null, "movieNo=5", true);
+selectItem("６", null, "movieNo=6", true);
+selectItem("７", null, "movieNo=7", true);
+selectItem("つぎ", (0x01000000 +1917), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true);
+}
+
+
+=== SCENE 1917 (len=287, talk=0) ===
+selectInit();
+selectItem("８", null, "movieNo=8", true);
+selectItem("９", null, "movieNo=9", true);
+selectItem("１０", null, "movieNo=10", true);
+selectItem("つぎ", (0x01000000 +1918), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true);
+}
+
+
+=== SCENE 1918 (len=293, talk=0) ===
+selectInit();
+selectItem("１１", null, "movieNo=11", true);
+selectItem("１２", null, "movieNo=12", true);
+selectItem("１３", null, "movieNo=13", true);
+selectItem("つぎ", (0x01000000 +1919), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true);
+  
+
+=== SCENE 1919 (len=293, talk=0) ===
+selectInit();
+selectItem("１４", null, "movieNo=14", true);
+selectItem("１５", null, "movieNo=15", true);
+selectItem("１６", null, "movieNo=16", true);
+selectItem("つぎ", (0x01000000 +1920), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true);
+} 
+
+=== SCENE 1920 (len=200, talk=0) ===
+selectInit();
+selectItem("１７", null, "movieNo=17", true);
+selectItem("もどる", (0x01000000 +4), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true)    
+
+### outgoing of menu-ish scenes
+     0 -> []
+     1 -> []
+     2 -> []
+     3 -> []
+     4 -> [1861, 1862, 1865, 1915]
+     5 -> [6]
+     6 -> [7, 8, 9]
+  1861 -> [5, 6, 68, 1864]
+  1862 -> [431, 670, 771, 1863]
+  1863 -> [344, 549, 903]
+  1864 -> [4, 137, 219, 269]
+  1865 -> [1865, 1866]
+  1866 -> [1867]
+  1867 -> [1868, 1869]
+  1868 -> [1867, 1869]
+  1869 -> [1865]
+  1915 -> [1915, 1916]
+  1916 -> [1915, 1917]
+  1917 -> [1915, 1918]
+  1918 -> [1915, 1919]
+  1919 -> [1915, 1920]
+  1920 -> [4, 1915]
+
+### plain-number refs to 1861-1869 / 1915-1920 outside those scenes
+  1278 references 1861 : talk("ハルナ", null, "うん……、気をつける。", (0x04000000 +1861));\nmsgoff()\nset("event", {y =
+  1279 references 1862 : とおりに、\nこの部屋からは出ないつもりだし。", (0x04000000 +1862));\ntalk("サイト", null, "そっ
+  1280 references 1866 : 66));\ntalk("ハルナ", null, "うん、分かった。", (0x04000000 +1866));\ntalk("サイト", null, "んじ
+  1281 references 1868 : 1)});\nmsgon()\ntalk("ハルナ", null, "あ……。", (0x04000000 +1868));\nlike("ハルナ", 20);\nmsgoff
+  1366 references 1915 : });\ntalk("ハルナ", null, "平賀くんのエッチ。", (0x04000000 +1915));\nset("lay7", {show = 1,leve
+  1367 references 1917 : talk("ハルナ", null, "いろいろあるなぁ……。", (0x04000000 +1917));\nlike("ハルナ", 20);\ntalk("

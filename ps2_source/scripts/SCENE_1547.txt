@@ -1,0 +1,35 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "うふふ……。\n……いいことを思いついたわ。", (0x04000000 +7794));
+talk("サイト", null, "まてっ、なんだよっ！\nその笑いはっ！", (0x04000000 +14005));
+talk("ルイズ", null, "バ、バカ犬に女の子がどんな気持ちで\n生活してるか教えてあげるっ！", (0x04000000 +7795));
+talk("サイト", null, "へっ？", (0x04000000 +14006));
+talk("ルイズ", null, "……フフンフンフン。", (0x04000000 +7796));
+talk("サイト", null, "いや、あのご主人様？\nな、何を？", (0x04000000 +14007));
+talk("ルイズ", null, "下着は……。\nうふふ、これなんてどうかしら？", (0x04000000 +7797));
+talk("サイト", null, "な、なに考えてやがるっ！\nルイズっ！", (0x04000000 +14008));
+talk("ルイズ", null, "……そんなに女の子が好きなんだったら、\n女の子になればいいのよっ！", (0x04000000 +7798));
+talk("サイト", null, "や、やめろっ！\n早まるなっ！\n故郷でおかあさんが泣いちゃうぞ！", (0x04000000 +14009));
+talk("ルイズ", null, "うるさいっ！\nバカ犬っ！", (0x04000000 +7799));
+talk("ルイズ", null, "一度、女の子の姿になって、\n乙女の気持ちを分かりなさいっ！", (0x04000000 +7800));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +173)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "いっ、いやぁぁぁぁっ！！", (0x04000000 +14010));
+selectInit();
+selectItem("脱走っ！", (0x01000000 +1649), null, true);
+selectItem("我慢っ！", (0x01000000 +1650), null, true);
+selectItem("こ、これが、ボク？", (0x01000000 +1651), null, true);
+select();

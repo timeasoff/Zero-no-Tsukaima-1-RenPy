@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +191)});
+}
+talk("サイト", null, "……ギ、ギーシュみたいな感じでやればいい\nのかな？", (0x04000000 +10672));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("ルイズ", null, "……え？\nギーシュ？", (0x04000000 +5411));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "……だ、ダメよ！\nギーシュよりもっと真剣な感じで！", (0x04000000 +5412));
+talk("サイト", null, "な、なんだか難しいぞ。", (0x04000000 +10673));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+next((0x01000000 +1824), true);

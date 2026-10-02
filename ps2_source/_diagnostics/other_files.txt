@@ -1,0 +1,641 @@
+count=1650 size min=22 max=34593 median=1599
+
+    0-   99 : 8
+  100-  199 : 9
+  200-  299 : 17
+  300-  399 : 34
+  400-  499 : 33
+  500-  599 : 107
+  600-  699 : 56
+  700-  799 : 52
+  800-  899 : 62
+  900-  999 : 65
+ 1000- 1099 : 59
+ 1100- 1199 : 64
+ 1200- 1299 : 65
+ 1300- 1399 : 75
+ 1400- 1499 : 63
+ 1500- 1599 : 57
+ 1600- 1699 : 64
+ 1700- 1799 : 49
+ 1800- 1899 : 43
+ 1900- 1999 : 37
+ 2000- 2099 : 29
+ 2100- 2199 : 29
+ 2200- 2299 : 41
+ 2300- 2399 : 33
+ 2400- 2499 : 32
+ 2500- 2599 : 17
+ 2600- 2699 : 21
+ 2700- 2799 : 20
+ 2800- 2899 : 16
+ 2900- 2999 : 17
+ 3000- 3099 : 376
+
+--- sample contents ---
+
+===== SCENE_ID.BIN_00000000.BIN (599 bytes) =====
+//
+// ユーティリティ定義
+// 
+
+/**
+ * テーブルから name で示される要素を取り出す
+ * @param table 処理対象のテーブル
+ * @param name  項目の名前
+ */
+function getval(table, name, defaultValue) 
+{
+    if (name in table) {
+        return table[name];
+    }
+    return defaultValue;
+}
+
+/**
+ * 時間の変換用
+ * @param time 時間(ms)
+ * @param フレーム数
+ */
+function timeCalc(time)
+{
+	if (time == null) {
+		time = 0;
+	}
+	return time.tointeger() / 16;
+}
+
+/**
+ * 乱数生成
+ */
+function random(a)
+{
+	local d = rand().tofloat() / RAND_MAX * a;
+    return  d.tointeger() ;
+}
+
+
+
+===== SCENE_ID.BIN_00000001.BIN (34593 bytes) =====
+/**
+ * レイヤアクションモジュール基底クラス
+ */
+class LayerModule {
+
+    type = null;
+    first = null;
+    startTime = null;
+    time = null;
+    delay = null;
+    options = null;
+
+    /**
+     * コンストラクタ
+     * @param layer レイヤ
+     * @param params パラメータ
+     */
+    constructor(layer, options) {
+        this.options = options;
+        delay = ("delay" in options) ? options.delay : null;
+        time  = ("time" in options) ? options.time : null;
+        first = true;
+        startTime = 0;
+    }
+	
+	function getOption(name) {
+		if (options != null && name in options) {
+			return options[name];
+		} else {
+			return 0;
+		}
+	}
+
+    /**
+     * 処理実行
+     * @param now 現在時刻(tick)
+     * @param skip スキップ指定
+     */
+    function run(layer, now, skip, stop) {
+        if (first) {
+            startTime = now;
+            first = false;
+        }
+        now -= startTime;
+        if (delay) {
+            now -= delay;
+            if (now < 0) {
+                return;
+            }
+        }
+        local done = false;
+        if (time) {
+            if (now >= time || skip || stop) {
+                done = true;
+                now = time;
+            }
+        }
+        if (stop) {
+            done = true;
+        }
+        return action(layer, now, done) == true || done;
+    }
+
+    /**
+     * 処理実行（個別実装)
+     * @param layer 対象レイヤ
+     * @param now 現在時刻(tick)
+     * @param done 終了指定
+     * @return 終了する場合は true を返す
+     */
+    function action(layer, now, done) {
+        return true;
+    }
+
+    // XXX なんかバグっぽい？
+    
+    // for move module
+    startX = null;
+    startY = null;
+    diffX = null;
+    diffY = null;
+
+    // for mode module
+    opacity = null;
+    inTime = null;
+    outTime = null;
+
+    toOpacity = null;
+};
+
+
+/**
+ * 移動モジュール
+ * パラメータ: x 移動先位置
+ * パラメータ: y 移動先位置
+ */
+class LayerMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerModule.constructor(layer, options);
+        type = 0;
+        startX = layer.getX();
+        startY = layer.getY();
+        diffX  = options.x - startX;
+        diffY  = options.y - startY;
+    }
+};
+
+/**
+ * 通常移動モジュール
+ */
+class LayerNormalMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerMoveModule.constructor(layer, options);
+    }
+
+    function action(layer, now, done) {
+        if (!done && time) {
+            layer.setPos(startX + diffX * now / time,
+                         startY + diffY * now / time);
+        } else {
+            layer.setPos(startX + diffX, startY + diffY);
+            return true;
+        }
+    }
+};
+
+/**
+ * 加速移動モジュール
+ */
+class LayerAccelMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerMoveModule.constructor(layer, options);
+    }
+
+    function action(layer, now, done) {
+        if (!done && time) {
+            local t = now.tofloat() / time;
+            local n = t*t;
+            layer.se
+
+===== SCENE_ID.BIN_00000002.BIN (5337 bytes) =====
+/**
+ * アドベンチャーエンジン用 BGM
+ * BGM のチャンネルは２つ（フェード用にきりかえる）
+ */
+class AdvSoundTrack {
+
+    function _play(name, volume, time) {
+        // nothing todo
+    }
+
+    function _fade(volume, time) {
+        // nothing todo
+    }
+    
+    function _stop(time) {
+        // nothing todo
+    }
+
+    function _playing() {
+        return false;
+    }
+    
+    // 再生
+    doPlay   = false;
+    playFile = "";
+    loop = false;
+    loopDefault = true;
+    volume = 100;
+    fadeTime = 0;
+
+    // 停止
+    doStop   = false;
+
+    // 音量制御
+    doFade = false;
+    
+    properties = null;
+
+    /**
+     * 再生
+     * @param param パラメータ
+     * @param elm 補助パラメータ
+     */
+    function play(param, elm) {
+        loop = getval(elm, "loop", loopDefault);
+        if (!isJump() || loop) {
+            playFile = param;
+            fadeTime = getval(elm, "fadeTime", 0);
+            volume   = getval(elm, "volume", 100);
+            doFade   = false;
+            doStop   = false;
+            doPlay   = true;
+        }
+    }
+
+    /**
+     * 停止
+     * @param param パラメータ
+     * @param elm 補助パラメータ
+     */
+    function stop(param, elm) {
+        doPlay = false;
+        doFade = false;
+        playFile = null;
+        if (_playing()) {
+            fadeTime = param != null ? param : 0;
+            doStop = true;
+            //print("music stop:" + fadeTime + "\n");
+        }
+    }
+
+    function fade(param, elm) {
+        doStop = false;
+        if (_playing()) {
+            doFade = true;
+            volume   = getval(elm, "volume", 100);
+            fadeTime = getval(elm, "fadeTime", 0);
+        } else {
+            volume   = getval(elm, "volume", 100);
+        }
+    }
+
+    
+    /**
+     * コンストラクタ
+     */
+    constructor(info) {
+        //print("Create SoundTrack\n");
+        // ファンクションの登録
+        properties = {
+            play = play,
+            stop = stop,
+            fade = fade
+        };
+    }
+    
+    /**
+     * プロパティ設定
+     * @param param プロパティ設定用
+     */
+    function set(param) {
+        //print("set value\n");
+        foreach (key, value in param) {
+            if (key in properties) {
+                local func = properties[key];
+                func(value, param);
+            }
+        }
+    }
+    
+    /**
+     * 同期実行
+     */
+    function sync(page) {
+        //print("sync value\n");
+        if (doPlay && playFile != null) {
+            _play(playFile, volume, fadeTime);
+            doPlay = false;
+        } else if (doStop) {
+            _stop(fadeTime);
+            doStop = false;
+        } else if (doFade) {
+            _fade(volume, fadeTime);
+            doFade = false;
+        }
+    }
+
+	/**
+	 * 状態更新
+     * @param diff 経過時間
+     */
+	function update(diff) {
+        // nothing to do
+    }
+
+	/**
+     * 停止
+     */
+    function pause() {
+        // nothing to do
+    }
+
+    /**
+     * 再開
+     */
+    function restart(page) {
+        // nothin
+
+===== SCENE_ID.BIN_00000006.BIN (7238 bytes) =====
+rst)
+il(ャｃャ";td(ul;bgnkp)
+sof)bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+ak)
+e(sae,{pct  0,  ,ee  0,hw=1x=0iae=(x2000+15};tas"rsfd" 00;bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 12))
+rn(cosae,10)
+atie10,tu)
+ak)
+e(sae,{pct  0,  ,ee  0,hw=1x=0iae=(x2000+15};tas"rsfd" 00;bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+tm"p�,3;ie(メ�" )
+tm"G劾T[,3;st"g" fdtm  ,ly=(x3000+9};bgnkp)
+sof)bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 8))
+rn(cosae,50;bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14))
+rn(cosae,50;bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13))
+rn(cosae,50;wiTm(20 re;bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14))
+rn(cosae,70;bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 8))
+rn(cosae,20)
+nSi(;mgf(
+ak)
+e(eet,{pct  0,  ,hw=1lvl=8,  ,mg  00000 18};tas"rsfd" 00;mgn)tl(ャ�" ul ＝�" 00000 54);tl(ャ�" ul ＝ｂｂ＜ャｂ�" 00000 171)
+ak"気Y,nl,"ﾈﾉ襭,(x4000+53)
+ak"TCg,nl,"ｿ蠱ﾆｨｷｫｵｽ｢�ﾅｷｯﾇH,(x4000+08);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 10};wiLa(re;tl(ャ�" ul ＝撃ｂｂｂａ" 00000 54);tl(ャ�" ul ｂｍ窒―°唐鰍盾狽浮ｂｂ―°ｂａ＝" 00000 173)
+ak"TCg,nl,"ccﾆｩｾﾁﾄﾜｹ�ﾅｵｽﾁｯBn欺Ayｵｻ､ｾﾁｽoｦｪ�鴦ﾅｷｪB,(x4000+08);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 18};wiLa(re;tl(ャ�" ul ｂｂｂｂｂｂａ" 00000 54);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 19};wiLa(re;tl(ャ�" ul ｂｂｂ°ｂｂｂａ\ｂｂ鰍ｂｂｂｂａ\ｂｂｍｂｂｕ旧ｂａ" 00000 175)
+ak"気Y,nl,"ｻ鞦�A��ｽﾍyｵｩﾁｽﾅｵ螟ﾋBnｻｱ邯网ﾌ領qﾉf掲系ｵｿ眞ﾄccB,(x4000+56)
+ak"気Y,nl,"爨Aﾝﾁﾆ猜｢ﾁｽ遐鞦ｵﾈ｢B,(x4000+57)
+sof)st"vn" y=0lvl=8,mgTp  ,mgTm  00x=0iae=(x2000+4))
+atodtu)
+ak"TCg,nl,"f掲己�ﾄｵﾄﾋ[襭nﾁﾄA犒ｩｵﾄЛＡｩH,(x4000+08);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 10};wiLa(re;tl(ャ�" ul ＝＝―ａａａｂｂｂｂｂｂ�" 00000 54);tl(ャ�" ul ャ獅魔ｂｂｂｖ�ｂｂａ\ｎ雛ｖ�ｂｂａ\浮ャャｂｂｂｂｂｂ�" 00000 54);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 11};wiLa(re;tl(ャ�" ul ｂｂ�" 00000 177)
+ak"気Y,nl,"ｻ､覈,(x4000+50)
+sof)st"a1,{hw=0)
+e(ly" so  };st"tg" lvl=20iae=(x2000+5};st"tg" so  };st"vn" oaiy=0hd  ,pctTm  00)
+atcinnl,tu)
+ak)
+e(sae,{pct  0,  ,hw=1lvl=20x=0iae=(x2000+5};tas"rsfd" 00;st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  1,ee  4,pctFo  ,r="A,pctTm  0,  4l  ,mg  00000 31};mgn)tl(ャ�" ul ♂ｖ曹＆堰告＝\＆魔麹吹≠ｂｂｂａ" ul;st"a5,{pct  ,  ,Fo  ,oeie=10xrm=6,pctFo  0,ie=1oaiyie=10x=19)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=-1lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=1iae=(x2000+0))
+ak"TCg,nl,"i｡ﾍAｱﾌ習}}ﾈｲ虱l|n@気YEt遠\充YE畿u遠En@hE右如絵[議cj,nl)
+ak"TCg,nl,"iｪｷﾆw気Yxﾌ｢ｫ�@ﾌｹ｢ﾅAn@g｢とｵﾄ｢ｫｳ�ﾄｵﾜﾁｽｴﾍAn@｡A気Yﾌ醗ﾅ鱸ｵﾄ駛,nl)
+sof)st"a1,{pct  ,  ,Fo  ,oeie=10xrm=6,pctFo  0,ie=1oaiyie=10x=19)
+e(ly" so  };st"tg" oaiy=0hd  ,pctTm  00)
+atcinnl,tu)
+ak)
+e(sae,{pct  0,  ,hw=1lvl=20x=0iae=(x2000+8};tas"rsfd" 00;mgn)tl(ャ�" ul ＊魔獅ャモ拒ｂｍｎ狽�\∴衰＝ャャャ＝＝\≠ｂ当ｂｂｂ�ｐ鰍ｂ�" ul;tl(ャ�" ul ≠ｂ♂窒盾ｂ構＝ャャャ≠％早\＝ャメャメｂｐ翌獅ａ" ul;tl(ャ�" ul ＜ャモ結ｌｂｃヰａ\＜ャａ許≠翌ｂａ薗�\＜ャ＜ャｑ椛ｂｂｌ早" ul;tl(ャ�" ul ¢相ｎｂャメャモ�\℃ｐ翌ｂ�" ul;tl(ャ�" ul ≠ａｂａｂｊｕ�ｂ�\＜モｂｂａ" ul;tl(ャ�" ul ≠ｂ≠ｂｂｂ―♂ｓ魔汲ｂｂｂｂｂ＝�" ul;tl(ャ�" ul ≠ａｂｂｂｂ＝―″ｂｂｂｂｂｂ＝�" ul;st"a5,{hw=0)
+ak"TCg,nl,"iｻ�ﾉｵﾄ漓亂ﾉ｢ﾈ歡cBn@nﾉ跌ﾌﾍ｢ｾﾉｵ�ﾈ｢訥cj,nl)
+sof)st"a5,{hw=0)
+e(sae,{pct  ,ie=1oaiyie=10};wiAto(ul re;mgf(
+ak)
+e(eet,{pct  0,  ,hw=1lvl=8,  ,mg  00000 18};tas"rsfd" 00;mgn)tl(ャ�" ul ｂａ拷ｖｕｔｍｂａ
+
+===== SCENE_ID.BIN_00000011.BIN (6384 bytes) =====
+rst)
+sof)bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5))
+rn(cosae,10)
+e(bm,{aeie=0pa  00000 2))
+ak"TCg,nl,"i�ccHn@NｩA|�ﾄ駛,nl)
+ak"気Y,nl,"ｿ蠱ﾆATCgHnﾇ､ｵｽﾌH,(x4000+59)
+ak"TCg,nl,"�ｻｱccBn�ﾌﾘﾌﾓ猗ﾉNｩ|�ﾄﾈ｢ｩH,(x4000+09);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 19};wiLa(re;tl(ャ�" ul ａ\ｂ�" 00000 56);tl(ャ�" ul ｂ≠ｂ＝ｂ″ｂｂ浮曹ａ\ｂａャメ\垂高ａ" 00000 180)
+sof)st"vn" y=0lvl=8,mgTp  ,mgTm  00x=0iae=(x2000+5))
+atodtu)
+ak"気Y,nl,"�Aｿ蠱ﾆATCgIn爨ﾁAｽﾈﾌ觴B,(x4000+51)
+sof)st"a1,{hw=0)
+e(ly" so  };st"vn" oaiy=0hd  ,pctTm  00)
+atcinnl,tu)
+sof)bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0))
+rn(cosae,10)
+so(
+ak"TCg,nl,"簔ﾏ霎ccBnlｪ|�ﾄ馗cBn裝vｩﾈccﾁﾄAｦAｨ｢IH,(x4000+00);tl(ャ�" ul ｂ＜ャ―ｎ雛ｒｂ奄ｂｂ―ｂ＊唐垂唐ｂ＝�" 00000 56);tl(ャ�" ul ｂ磨穴ｂｊ高ｂｂａ\�早ｂｍｐｂａ" 00000 56);tl(ャ�" ul ≠ｖｒｂャメ―≠ｌｂ奄窒ｂ轄ｐ浮ｂ�" ul;tl(ャ�" ul ≠ｂｂ魔ｂ浮窒ｂａ\≠ｂｂ♂ｓｓ魔ａ＝�" ul;tl(ャ�" ul ≠ｂａｂ磨＝\≠ｂｉｂｂｂｂｂ＝�" ul;tl(ャ�" ul ≠ａ\％魔轄ａ�" ul;tl(ャ�" ul ℃ｏｂ―♀�ｂａ\＜ャｈ�窒ｂ″刀藷≠ａ�" ul;tl(ャ�" ul ≠ｂａ＝\＠ｒａ堰\≠ｂ酷ｂｂｐ鰍翌ｂｂａ" ul;tl(ャ�" ul ｂｂャメ\ｂ≠ｖｂ≠ｌｂｂｂ�" 00000 56);tl(ャ�" ul ａｂ∴ｈａ\ｂｂｉ浮ｂｂ＝�" 00000 182)
+ak"TCg,nl,"ﾜｸﾍｬﾆSｹ�fﾄccAn�ﾄ髷�蓚ﾟﾄCｹ�mﾛccB,(x4000+00);st"e" pa  00000 6))
+e(sae,{irto  4ato  LyrirtAtoMdl"wiTm  0)
+e(eet,{irto  4ato  LyrirtAtoMdl"wiTm  0)
+e(ly9,{irto  4ato  LyrirtAtoMdl"wiTm  0)
+e(ly" so  ,irto  4ato  LyrirtAtoMdl"wiTm  0)
+e(ly1,{irto  4ato  LyrirtAtoMdl"wiTm  0)
+e(ly" so  ,irto  4ato  LyrirtAtoMdl"wiTm  0)
+irt()
+atie80 re;st"tg" so  ,ee  };st"vn" so  ,ee  };st"a1" so  ,ee  };st"a1,{hw=0rst=1)
+e(ly1,{hw=0rst=1)
+e(ly" so  ,ee  };wiTm(,tu)
+ak"気Y,nl,"TCgAﾈﾉ簔ﾄ�ﾌ覈n領qﾌ橇Eｪｻ､ﾆｷ鯤�ﾄI,(x4000+55)
+ak"TCg,nl,"ﾖIHnｲA��ｾInｴﾍｱﾌｺ���ｵ讀ﾆｵｽｾｯﾅI,(x4000+00);tl(ャ�" ul 荘ｂｂ撃ｂｂ―ｂｂ垂ｂｂｂｂｂ高ａ" 00000 56);tl(ャ�" ul ＝ｂｂ�" 00000 185)
+ak"気Y,nl,"ﾓｯ�ｸﾁﾄ鮴ｯﾌ讀ﾋBnｪﾉｹ斛ｳ｢ﾝｽ｢ccBnTCgA}｢ﾅw@ﾉ�ｩﾁﾄI,(x4000+57)
+ak"TCg,nl,"ﾖH,(x4000+00);tl(ャ�" ul ≠ａｂｂｂ―ｂｒｔｂｂａ唐ｂ垂\�ｂｂｂｂｂｂ�" 00000 56);tl(ャ�" ul 演ｌｂｂ�魔―ｂａ轟ｂ�ｂｂ\浮ｂｂｂｂｂｂａ" 00000 56);tl(ャ�" ul ａｂ＝―ｂｂ�" 00000 187)
+ak"TCg,nl,"i｢�｢�ｷｫｽ｢ｱﾆﾍ�魃ﾇAn@ﾜｸﾍeﾔｾ貶j,nl)
+sof)st"g" so  00)
+sof)st"a1,{hw=0)
+e(ly" so  };st"vn" oaiy=0hd  ,pctTm  00)
+atcinnl,tu)
+ak)
+e(sae,{pct  0,  ,hw=1lvl=20x=0iae=(x2000+5};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};st"a1" oaiy=10y=0yrm=0so  ,oeie=10xrm=1,ee  6,pctFo  ,r="A,pctTm  0,  4l  ,mg  00000 10))
+so(
+ak"こm,nl,"ｱｱﾉ｢ｽｩB,(x4000+90)
+e(ly1,{  ,  9};st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+9))
+ak"TCg,nl,"ﾁIH,(x4000+00);st"a5,{pct  ,  ,Fo  ,oeie=10xrm=24oaiyrm=10hd  ,pctTm  0,  7};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+0))
+ak"気Y,nl,"ﾈﾁIHnﾈﾉA��ｽBI,(x4000+50)
+ak"こm,nl,"ｻﾌｺ�nｵﾄ珸ｨ､B,(x4000+91)
+e(ly" oaiy=0y=0yrm=0mvTm  0,Fo  2,pctFo  0,ie=1oaiyie=10x=24)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=14lvl=10oaiyrm=0d  1"oaiyie=10x=24l  ,mg  00000 34};tl(ャ�" ul 猿ａｂｂ―ｂ魔窒高ａ" 00000 189)
+ak"こm,nl,"Ml遯m飫vﾍﾈ｢Bnﾙﾁﾄｱｱｩ遘ｿ殊ﾎAnｽﾜﾅﾍD��ﾅｨ｢ﾄ粳B,(x4000+92)
+ak"TCg,nl,"ﾈ�ｾﾆH,(x4000+01);slcIi(;slcIe(ｂｂｂｂ�" 00000 1) ul re;slcIe(浮ｂ％ｂ" 00000 1) ul re;slcIe(ｂｂ高ｂｂ�" 00000 1) ul re;slc(;ee(;mgf(
+ak)
+e(eet,{pct  0,  ,hw=1lvl=8,  ,mg  00000 11};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};tl(ャ�" ul ≠＝―£ａ唐ｂ�" ul;tl(ャ�
+
+===== SCENE_ID.BIN_00000032.BIN (3386 bytes) =====
+i iJm()
+ee(;st"g" pa  00000 3))
+e(eet,{pct  0,  ,hw=1lvl=8,  ,mg  00000 26};}tl(ャ�" ul ｂａ綜獅曙ｂｂ奄鮪�\叙ｂｂ高ｎ曹ｂｂ�" 00000 186)
+ak"VGX^,nl,"覦ﾒccﾁﾄA｡ｱﾌ醗ﾉﾍnTCgｳ�ﾆ�ｽｵBn~XE如絵[況ｩ｢ﾜｹ�襭,(x4000+42);tl(ャ�" ul 奄走ｂｂｂ―ａｃャ�" 00000 187)
+ak"f逆鞄K[,nl,"ﾈ�ｾ襤垣Bnｱ�ﾈｩﾁﾏ遨蹉ｴﾁｿﾉﾈ�ﾌpｾ｢B,(x4000+27)
+ak"f逆鞄K[,nl,"ﾁﾄAﾈ�ﾅｦBnMｰﾌｺﾁｱﾌ醗ﾅAｺｺﾆｧ｢�ｫｩ｢Hn垣煌ﾏ�邵ｽm邵ｾﾋｦB,(x4000+28)
+ak"VGX^,nl,"ｦAｦｦﾁIHnｻ�ﾈA�ｽｵﾜｾSﾌ��ｪI,(x4000+42);lk(ャャ" 0;td(3)
+ak"TCg,nl,"皃Inlｷｫﾌｫ｢ｱﾆｾ､ﾈI,(x4000+09);tl(ャャャ�" ul ｂ≠ｂｂｂ―ｂａ\詩≠ｂ翌ｂ�" 00000 16);tl(ャ�" ul ｂ負ｗ獅ｂｌｂｂ�" 00000 189)
+ak"f逆鞄K[,nl,"ｻ鞦Aﾜ�ﾈB,(x4000+20)
+ak"TCg,nl,"ｷﾜﾈ｢ｯﾇBnｴﾌｳﾀ�VGX^ﾉﾘｾｵﾄｭ�ﾈ｢ｩB,(x4000+00);tl(ャャャ�" ul ａ" 00000 17);tl(ャ�" ul 翌―奄沫ｂｂｂｂ�" 00000 191)
+ak"f逆鞄K[,nl,"ﾈ�ﾆﾜ�Bn観�邵･Vﾈ垣ｾﾋｦBnﾜA｢｢ｩB,(x4000+22)
+ak"f逆鞄K[,nl,"MｰﾌｺﾁｱｪA垣ﾉxbhﾌgp�n鳴ｵｽ�ｾ襭,(x4000+23)
+ak"f逆鞄K[,nl,"�ﾁｱﾅ｢｢ﾈ鉤硝xbh�g�ｹﾄn�ｰ鮹ﾄﾈBnｱ｢ﾂ欒ｶ睛ｦB,(x4000+24)
+ak"VGX^,nl,"cc{綿�ﾅｷﾋH,(x4000+42);tl(ャ�" ul ｂ≠ａ\俣ｂｂ＄ｂｂｂ�" 00000 192)
+ak"f逆鞄K[,nl,"ﾜA狒��Bn垣ｪﾇ�ﾈｺSﾅxbhﾉ�ﾁｽﾌｩﾜﾅﾍAnｴﾌﾖmｷ鯣ｱ�ｶ睛ｦｯﾇB,(x4000+25)
+ak"TCg,nl,"ｾｩ鄰Inｻｱﾅ]vﾈｱﾆ�ｾ�ﾈ｢I,(x4000+00);tl(ャ�" ul ｂ＝�" 00000 53);tl(ャ�" ul ａ\ャメ汲ｂａ" 00000 194)
+ak"気Y,nl,"ﾓ���ccBn爨Aｩｩ遉魑｢�覽CgBnｨｩｰﾅﾚｪoﾟｿ眞ｽｶ當cB,(x4000+61)
+sof)st"a2,{hw=0)
+e(ly" so  };st"a1,{hw=0)
+e(ly9,{hw=0)
+e(eet,{pct  ,ie=1oaiyie=10};wiAto(ul re;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1))
+rn(cosae,10)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=14lvl=10oaiyrm=0d  1"oaiyie=10x=24l  ,mg  00000 49};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 38};mgn)tl(ャ�" ul ＝ｂ≠ｂ＝\ｂｃャモｂｂ負ｂｂｂ�" 00000 53);tl(ャ�" ul ≠ｌｂ≠ｂャャｂｂ至�\＠ｂｂａ�" ul;nx(00000 3) re;f(sup){rst)
+e(bm,{ly=(x3000+0};st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1))
+
+ak"TCg,nl,"ｱｱﾍA覦ﾒﾌﾘｾ�狠ﾄｴﾌｳﾀ�nﾘｾｵ讀ﾆlｦ髻貲�鞋ｷI,(x4000+09);tl(ャャ" ul 綜氏≠ａ高ｕ奄�\ャモｂｂａ\ャ＜ャメモｂｂｂ�" 00000 152)
+ak"TCg,nl,"ｴﾌ垣ｪ｢鴦ｾ襭nｨ[｢f逆I,(x4000+09);tl(ャャャ�" ul ｂｂ¢磨\ｂｒｂｂａ奄ｂｂｗｂ�" 00000 16);tl(ャャャ�" ul ｂ≠ｂａ\拒ｖｂｕ奄¢魔�ｈｂａ\走ｑ浮ｂ亦ｂｂａ" 00000 16);tl(ャャ" ul ａｂａ―ｂａｂｂｐｏ狽�" 00000 153)
+ie"VGX^,1)
+nl-0;tl(ャ�" ul �ａ\枢ｂ�ｂｌｂ�" 00000 188)
+ak"f逆鞄K[,nl,"ｿ･Aﾂﾜ醉･ﾈ檻nｻ�ﾅHnﾀﾛAﾈ�ﾌpﾈ�ｾH,(x4000+29)
+ak"TCg,nl,"ｱﾌ醗ﾌlq�ｸﾁﾆｩﾄｽ貶H,(x4000+09);tl(ャャャ�" ul ｂａｂａ" 00000 17);tl(ャ�" ul ｂｂｂ―奄鮪ｃャモ叙ｂｂｂａ" 00000 190)
+ak"f逆鞄K[,nl,"ｦH,(x4000+21)
+ak"TCg,nl,"巌Bnｴﾌｼ_ｪｩｩﾁﾄ鴦ｾB,(x4000+00);tl(ャャャ�" ul ｂｂａ\装ｂｗ汲走ｂａ\ａｂａ" 00000 17);tl(ャャャ�" ul 拒ｖｂａ走ｃャｎ翌\級ｂｂａ" 00000 17);tl(ャャャ�" ul 汲ｂｂｂ�盾ャモ獅ｂ\ｂｂｂ―ｂｂ奄ｂａ" 00000 17);tl(ャャ" ul ＝俣ｂｂａ" 00000 154)
+ak"TCg,nl,"､�A､�In{綿�ｾ襤Mｶﾄｭ�讀I,(x4000+00);tl(ャャャ�" ul ａｂｂ―走ｂｂ艶ｃャｓｂｂｂａ\奄樺ｂｂｂｂｂａ" 00000 17);tl(ャ�" ul ｂｂ―ｂｗ撃ｂｌｂａ" 00000 193)
+ak"気Y,nl,"��ccB,(x4000+60)
+ak"TCg,nl,"�Hn気YANｫｽﾌｩH,(x4000+00);tl(ャ�" ul ｂｂ＝―ｂ£ｂｂｂｂャメ\ｂｂ魔鰍ｂｂｂ＝�" 00000 53);mgf(
+e(ly" so  };st"a5,{hw=0)
+e(ly" so  };st"a1" so  };st"vn" oaiy=0hd  ,pctTm  00)
+atcinnl,tu)
+ak)
+e(sae,{pct  0,  ,hw=1lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"a2,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+8))
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=-4,ee  6,pctFo  ,r="C,pctTm  0,  9,v=0iae=(x2000+2))
+so(
+ak"気Y,nl,"ccﾁﾄAｦｦﾁIHnﾈ�ﾅVGX^ｪ�ｽｵﾌ醗ﾉ｢鯲戝I,(x4000+62)
+ak"TCg,nl,"iｻ､ｾｦﾎAﾈ�ﾅVGX^ｪｱ�ﾈ榜ﾉn@或�ｾ�､Hj,nl)
+et(x1000+3,tu)
+
+
+===== SCENE_ID.BIN_00000070.BIN (3630 bytes) =====
+i iJm()
+ee(;st"a2,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 49};st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="C,pctTm  0,  2,v=0iae=(x2000+1))
+e(bm,{ly=(x3000+))
+e(sae,{pct  0,  ,hw=1lvl=20x=0iae=(x2000+0};}tl(ャ�" ul 署汲汲ｂｖｂｂａ" 00000 192)
+e(ly" so  ,ee  6,r="A,v=0iae=(x2000+9))
+ak"VGX^,nl,"�ﾌA�ｽｭｵｪｨﾗでｵｽﾅｵ螟ｩB,(x4000+45);st"a5,{pct  ,  ,Fo  ,oeie=10xrm=24oaiyrm=10hd  ,pctTm  0,  7};st"a2,{pct  ,  ,Fo  ,oeie=10xrm=-6oaiyrm=10hd  ,pctTm  0,  4};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+3))
+ak"気Y,nl,"､ccｿA皃�襭n醗ﾌl�ｧxｪいｩ蹉nｿ蠱ﾆQ�ｵｩﾁｽｾｯ襭,(x4000+74)
+ie"気Y,1)
+nl3)
+e(ly" y=0x=-6)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=14lvl=10oaiyrm=0d  1"oaiyie=10x=24l  ,mg  00000 45};tl(ャャ" ul ｂｂ＠ｂｂａ＝" 00000 158)
+ak"VGX^,nl,"犒A�ｽｭｵｪ｢ｽｹ｢ﾅ�ｭNｫｽnﾈ�ﾄｱﾆﾅｵｽ蹉n�ｽｭｵAﾈ�ﾆｨlﾑ�ｷ�ﾎ譴ｩﾆccB,(x4000+45);st"a1,{pct  ,  ,Fo  ,oeie=10xrm=-6oaiyrm=10hd  ,pctTm  0,  4};st"a2,{pct  ,  ,Fo  ,oeie=10xrm=24oaiyrm=10hd  ,pctTm  0,  7};st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+1))
+ak"TCg,nl,"�[AVGX^裝vBn気Yﾍｻ�ﾈﾉ@ﾗｶ睚｢ｩ蹌,(x4000+09);st"a5,{  ,  2};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 38};tl(ャ�" ul ｂｂｂｂ�魔�" 00000 52);st"a5,{  ,hw=1lvl=10iaeye=2d  2"iaeie=30x=24l  ,mg  00000 45};tl(ャ�" ul ａｂ♂獅ｓｂｂｂｂａ\ａャャ�" 00000 194)
+e(ly" oaiy=0y=0yrm=0mvTm  0,Fo  9,pctFo  0,ie=1oaiyie=10x=-6)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=-4,ee  6,pctFo  ,r="A,pctTm  0,  9,v=0iae=(x2000+2))
+ak"VGX^,nl,"ﾍAﾍ｢BnTCgｳ�ﾌｾ､ﾆｨ霰ｷB,(x4000+46);st"a2,{pct  ,  ,Fo  ,oeie=10xrm=-6oaiyrm=10hd  ,pctTm  0,  4};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 34};tl(ャ�" ul 俣ｂ―ｂ≠ｂｂｂｂｂ�" 00000 52);nx(00000 7) re;f(sup){rst)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=-4,ee  6,pctFo  ,r="A,pctTm  0,  9,v=0iae=(x2000+8))
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=14lvl=10oaiyrm=0d  1"oaiyie=10x=24l  ,mg  00000 48};st"g" pa  00000 5};st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1))
+
+ak"TCg,nl,"劉qｪCﾉﾈﾁﾄｰ�ﾈｩﾁｽH,(x4000+09);st"a2,{hw=1lvl=10d  1"l  ,mg  00000 45};tl(ャャ" ul ｂ≠ｂｂｎ魔ｂｂｂａ" 00000 157)
+e(ly" oaiy=0y=0yrm=0mvTm  0,Fo  2,pctFo  0,ie=1oaiyie=10x=24)
+e(ly" oaiy=0y=0yrm=0mvTm  0,Fo  9,pctFo  0,ie=1oaiyie=10x=-6)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=1,ee  6,pctFo  ,r="C,pctTm  0,  4l  ,mg  00000 32};tl(ャ�" ul ａ≠∴ｂａ\負ｐ喧唐高ｂ―ｂｂ遂ｂｂｂａ" 00000 52);lk(ャ�" 0;td(0;st"a1,{  ,  9};st"a2,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+9))
+ak"VGX^,nl,"ﾅｵｽ蹉ﾇ｢ﾌﾅｷｪccB,(x4000+45);tl(ャャ" ul ｂ≠ｂｂｂｂｑｋｂ\ｂｂｂｂａ\ｂｂ≠ｂｘｂｂｂｂａ＝" 00000 159)
+e(ly" oaiy=0y=0yrm=0mvTm  0,Fo  9,pctFo  0,ie=1oaiyie=10x=-6)
+e(ly" oaiy=0y=0yrm=0mvTm  0,Fo  2,pctFo  0,ie=1oaiyie=10x=24)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=1,ee  6,pctFo  ,r="C,pctTm  0,  4l  ,mg  00000 42};tl(ャ�" ul ａ＜ャヱ助―ャモｂｂ総ｂｂｂ�" 00000 193)
+e(ly" y=0x=24)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=-4,ee  6,pctFo  ,r="C,pctTm  0,  9,v=0iae=(x2000+2))
+ak"気Y,nl,"ｻ�ﾁﾄﾇ､｢､ﾓ｡覈,(x4000+75)
+e(ly" y=0so  ,ee  6,mgTp  ,r="C,mgTm  
+
+===== SCENE_ID.BIN_00000134.BIN (528 bytes) =====
+if (isJump()){
+reset();
+create("stage", "layer", null);
+set("stage", {opacity = 100,y = 0,show = 1,level = 10,x = 0,image = (0x02000000 +88)});
+sync("stage");
+create("bgm", "bgm", null);
+set("bgm", {play = (0x03000000 +5)});
+sync("bgm");
+}
+msgoff()
+set("stage", {show = 1,level = 10,image = (0x02000000 +88)});
+sync("stage");
+set("bgm", {stop = 1000});
+sync("bgm");
+set("stage", {opacity = 0,level = 10,hide = 1,opacityTime = 1000,image = (0x02000000 +88)});
+sync("stage");
+waitTime(1000, true);
+next((0x01000000 +1044), true);
+
+
+===== SCENE_ID.BIN_00000343.BIN (266 bytes) =====
+i iJm()
+ee(;}nx(00000 60,zr_ot=1;nx(00000 59,zr_ot=2;nx(00000 93,zr_ot=3;nx(00000 71,zr_ot=4;nx(00000 34,zr_ot=5;nx(00000 41,zr_ot=6;f(sup){rst)
+
+et(x1000+7) eorue=)
+et(x1000+4) eorue=)
+et(x1000+0) eorue=)
+et(x1000+7) eorue=)
+et(x1000+4) eorue=)
+et(x1000+3) eorue=)
+
+
+===== SCENE_ID.BIN_00000726.BIN (1166 bytes) =====
+i iJm()
+ee(;st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="B,pctTm  0,  2,v=0iae=(x2000+4))
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=-4,ee  6,pctFo  ,r="A,pctTm  0,  9,v=0iae=(x2000+4))
+e(bm,{ly=(x3000+5};st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7))
+
+e(ly" y=0so  ,ee  6,mgTp  ,r="B,mgTm  0,  2,v=0iae=(x2000+3))
+ak"TCg,nl,"ｭｻｧccBnﾇ､ｷ飃,(x4000+16);st"a1,{  ,hw=1lvl=10iaeye=2d  1"iaeie=30x=-6l  ,mg  00000 32};tl(ャ�" ul ｂ盾ｂｂｂｂｂｂｂａ\ｂａｂ�曹緒ｂｂｂａ" 00000 69);td(0;st"a5,{hw=1lvl=10d  2"l  ,mg  00000 40};tl(ャ�" ul ｂ暑ｂ≠ｂ椛ｂｂ＝ａ" 00000 185)
+et(x1000+2) re;f(sup){rst)
+e(ly" oaiy=10y=0yrm=0so  ,oeie=10xrm=14lvl=10oaiyrm=0d  2"oaiyie=10x=24l  ,mg  00000 40};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  2"oaiyie=10x=-6l  ,mg  00000 31};st"g" pa  00000 2))
+e(sae,{pct  0,  ,hw=1lvl=20x=0iae=(x2000+5};}st"a5,{  ,hw=1lvl=10iaeye=2d  2"iaeie=30x=24l  ,mg  00000 48};tl(ャ�" ul ｂａ＝\ｂｂ�" 00000 184)
+e(ly" y=0so  ,ee  6,mgTp  ,r="A,mgTm  0,  9,v=0iae=(x2000+0))
+ak"気Y,nl,"ｱﾌ�ﾉﾆﾇﾜﾁﾄ鳫ｯﾉ爐ｩﾈ｢ｵAnﾇｱｩAﾜｾﾀSﾈ鼕ﾍﾈ｢ﾌｩｵ蹌,(x4000+36)
+nl3)
+e(ly" so  ,ee  6,r="B,v=0iae=(x2000+4))
+ak"TCg,nl,"ｱﾌ�ｵｶ瓣ｻ�瓏ﾒﾅｫﾈ｢ccｩB,(x4000+16);nx(00000 77,tu)
+
+
+===== SCENE_ID.BIN_00001190.BIN (628 bytes) =====
+i iJm()
+ee(;st"g" pa  00000 1))
+e(eet,{pct  0,  ,hw=1lvl=8,  ,mg  00000 23};}tl(ャ�" ul ａ相戟≠ａ" 00000 98);mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 22};wiLa(re;tl(ャャ" ul ャメ\ｂｂｂ�" 00000 26);tl(ャャ" ul ｂｂｂｂｂａ\ｂｂｂｂｂａ" 00000 26);tl(ャ�" ul ｂａ＝\ャモ翌ｂｂａ" 00000 98);nx(00000 19) re;f(sup){rst)
+e(bm,{ly=(x3000+4};st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5))
+
+ak"TCg,nl,"ｾA蠖}ccｩﾈH,(x4000+03)
+sof)st"vn" y=0lvl=8,mgTp  ,mgTm  00x=0iae=(x2000+5))
+atodtu)
+ak"L�輝,nl,"z堵Inｨﾉ｢ｿ碵I,(x4000+85)
+ak"L�輝,nl,"ｨﾉ｢ｿ碵ﾆ｢ﾁｵ蕋nｨﾉ｢ｿ碵ﾆ｢ﾁｵ蕋,(x4000+86)
+ak"TCg,nl,"､､ﾁccBnz堵ﾉﾇｩﾁｽﾌﾈ�H,(x4000+04)
+et(x1000+13,tu)
+
+
+===== SCENE_ID.BIN_00001651.BIN (539 bytes) =====
+i iJm()
+ee(;st"g" pa  00000 3))
+e(eet,{pct  0,  ,hw=1lvl=8,  ,mg  00000 13};}tl(ャ�" ul ＝ａｂａャ�" 00000 106)
+ak"気Y,nl,"ﾈAﾈﾉ､ﾁﾆ霎ﾈ�ﾄｩﾄ鯲戝I,(x4000+85)
+ak"TCg,nl,"ﾈﾉｩVｵ｢ｩｪﾉccB,(x4000+41);tl(ャ�" ul 槙ｂｂｂｂｂ�" 00000 70);tl(ャ�" ul ｂｂ�" 00000 108)
+et(x1000+62,tu)f(sup){rst)
+e(bm,{ly=(x3000+0};st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7))
+
+ak"TCg,nl,"ccｱAｱ�ｪA{NH,(x4000+41);tl(ャ�" ul ａｂｂｂ汲ｂ撃ｂｂ�" 00000 70);tl(ャ�" ul ｂｐｂ歯ａ＝" 00000 107)
+ak"気Y,nl,"ﾚoﾟ鴦ｶ睚｢�戝I,(x4000+86)
+ak"TCg,nl,"ｫ發�I,(x4000+41);nx(00000 15) re;
+

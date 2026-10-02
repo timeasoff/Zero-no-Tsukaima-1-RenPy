@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +957)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +423)});
+set("bgm", {play = (0x03000000 +11)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "ずばり、誰かからの手紙とか？", (0x04000000 +8445));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +992)});
+talk("ハルナ", null, "え、ええっ！？\nち、違うよっ、そんなんじゃなくって！", (0x04000000 +1615));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "え、違うの？\nてっきり誰かからもらったラブレターとか？", (0x04000000 +8446));
+set("lay7", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +988)});
+talk("ハルナ", null, "違うってば！\nこれ、これよ。\nほら、見覚えあるでしょ。", (0x04000000 +1616));
+like("ハルナ", -10);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "生徒手帳？\nそんなの読んでたのか。\nこっちに来ても真面目だなあ。", (0x04000000 +8447));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +951)});
+talk("ハルナ", null, "そういうのじゃ、ないんだけどね。", (0x04000000 +1617));
+talk("ハルナ", null, "本当はバッグも持ってたんだけど、\n逃げ出すときに、なくしちゃったの。", (0x04000000 +1618));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "これが唯一の私の持ち物…かな？", (0x04000000 +1619));
+talk("サイト", null, "春奈……。", (0x04000000 +8448));
+next((0x01000000 +1058), true);

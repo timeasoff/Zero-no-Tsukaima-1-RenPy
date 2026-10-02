@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +436)});
+set("bgm", {play = (0x03000000 +7)});
+set("se1", {play = (0x03000000 +44),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +33)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "俺にも分からないんだ。", (0x04000000 +9496));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "そうなんですか？", (0x04000000 +14410));
+like("シエスタ", -10);
+tndl(30);
+talk("サイト", null, "外ですごい爆発が起きたのは知ってるけど、\n実際になにが起きてたのかまでは、\nあいにく見てなかったから……。", (0x04000000 +9497));
+talk("シエスタ", null, "そうなんですか。\nいったい、なにがあったんでしょう。", (0x04000000 +14411));
+talk("サイト", null, "それは分からないけど、もし事故とかじゃなくて\n誰か怪しい奴が忍び込んだりしたせいだったら\n大変だからさ。", (0x04000000 +9498));
+talk("サイト", null, "こうして見回ってるんだ。", (0x04000000 +9499));
+talk("シエスタ", null, "そうなんですか。\n大変ですね、サイトさんも。", (0x04000000 +14412));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "いや、俺ってばこれくらいしかできないから。", (0x04000000 +9500));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "いいんですよ。\n人は、自分にできることをするためにいるんです。\nわたしは、そう思ってます。", (0x04000000 +14413));
+set("lay5", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "うん、そうだな。\nさすがシエスタだ。\nいいこと言うなあ。", (0x04000000 +9501));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +530)});
+talk("シエスタ", null, "やだ、そんなたいしたことじゃないですよ。", (0x04000000 +14414));
+next((0x01000000 +1265), true);

@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 156,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +10)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+}
+set("lay19", {y = 416,x = 304});
+set("lay5", {y = 0,show = 1,level = 156,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "女の子の価値はダンスとかじゃないって！", (0x04000000 +9893));
+set("lay5", {y = 0,x = 224});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "え、そうなの？", (0x04000000 +1942));
+talk("サイト", null, "ちょっとダンスが出来たからって\nなんだっていうんだ！\n春奈にはルイズにないものがあるさ！", (0x04000000 +9894));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +313)});
+talk("ルイズ", null, "サイト、参考までに聞くけど。\nわたしになくてハルナが持ってる\nものってなぁに？", (0x04000000 +4991));
+like("ルイズ", -10);
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 156,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "そ、そりゃ、その……。\nなんだろうねぇ。", (0x04000000 +9895));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "平賀くん……。", (0x04000000 +1943));
+next((0x01000000 +1397), true);

@@ -471,6 +471,9 @@ translate japanese strings:
     old "..."
     new "......。"
 
+    old "!!!!!"
+    new "!!!!!"
+
     old "It's the honest-to-god truth."
     new "正真正銘、本当のことだ。"
 
@@ -3338,3 +3341,20 @@ translate japanese strings:
 
     old "That's right. I was looking at the moon in the night sky."
     new "そう。夜空の月を見てたんだ。"
+
+translate japanese strings:
+
+    old "....."
+    new "……。"
+
+    old "?"
+    new "？"
+
+    old "Game Over..."
+    new "ゲームオーバー…"
+
+    old "test"
+    new "テスト"
+
+    old "ERR"
+    new "ERR"

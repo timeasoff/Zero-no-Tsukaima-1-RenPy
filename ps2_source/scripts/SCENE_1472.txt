@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+}
+set("lay6", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "（これがファンタジーの世界か！\n　俺も話しかけられるのかな？）", null);
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "ダーリンどうしたの？\nぼーっとしちゃって。", (0x04000000 +3039));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "俺も話しかけられるのかなぁって。", (0x04000000 +10116));
+set("lay6", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "えっ？", (0x04000000 +3040));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,dr = "1B",show = 1,x = 64,level = 160,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "おまえは何かアヤしい奴を見なかったか？", (0x04000000 +10117));
+talk("猫", null, "ふにゃあ？", (0x04000000 +957));
+talk("サイト", null, "そうか……。\nまた何かあったら教えてくれよ。", (0x04000000 +10118));
+set("lay5", {y = 0,x = 224});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "ダーリン、猫の言葉が分かるの？", (0x04000000 +3041));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "いや、全然。", (0x04000000 +10119));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "あ、あら、そう。", (0x04000000 +3042));
+next((0x01000000 +1474), true);

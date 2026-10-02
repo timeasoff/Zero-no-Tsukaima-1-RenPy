@@ -1,0 +1,60 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 153,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +335)});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 147,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +942)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+trans("crossfade", 1000);
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 147,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +940)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+msgon()
+talk("デルフリンガー", null, "しかし、相棒。\n信じるとは決めても。", (0x04000000 +1365));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "ルイズの虚無の魔法の詠唱が終わるまで\n時間を稼ぐのはやっばりきついよな。", (0x04000000 +13094));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "ルイズが抜けるってことは、\n主力が俺とタバサだけになる。", (0x04000000 +13095));
+set("lay5", {show = 1,level = 154,dr = "1B",lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "せめて、キュルケが間に合ってくれてれば……。", (0x04000000 +13096));
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "どうかしたの、おにいちゃん？\nキュルケ、もしかしてあしでまとい？", (0x04000000 +3782));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "な、なんでもないぞ、怖がらなくていいから。", (0x04000000 +13097));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 149,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +852)});
+talk("モンモランシー", null, "あら、どうしたのよ。\nみんな暗い顔をして？", (0x04000000 +4148));
+set("lay3", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "あ、モンモン！\nキュルケ用の薬は、あとどれくらい\nかかりそうなんだ？", (0x04000000 +13098));
+set("lay3", {y = 0,show = 1,level = 149,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +885)});
+talk("モンモランシー", null, "完成したわよ……一応ね。", (0x04000000 +4149));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "へっ？\nマジ？", (0x04000000 +13099));
+set("lay3", {y = 0,show = 1,level = 149,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +856)});
+talk("モンモランシー", null, "なによ、疑うの？\nあんなに急がせたクセに。", (0x04000000 +4150));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +403)});
+talk("サイト", null, "疑わない、疑わないって！\nよっしゃーーっ！", (0x04000000 +13100));
+set("lay3", {show = 1,level = 149,dr = "1A",lv = 0,image = (0x02000000 +852)});
+talk("モンモランシー", null, "それとウェザリーの暗示に対抗するための\n薬と魔法も用意しておいたから。\nあとで使うわよ。", (0x04000000 +4151));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "よしっ、キュルケ……。\nすぐにこのお薬を……。", (0x04000000 +13101));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +715)});
+talk("キュルケ", null, "え、ええと。\nどうしても、のまなきゃだめ？", (0x04000000 +3783));
+set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "あ、あのね、おにいちゃん……。\nキュルケ、おくすりきらい……。", (0x04000000 +3784));
+checkKiss();
+next((0x01000000 +647), zero_kiss);
+next((0x01000000 +652), !zero_kiss);

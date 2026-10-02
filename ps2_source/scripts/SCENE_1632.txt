@@ -1,0 +1,46 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+}
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +170)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "ううっ、ちくしょう……。", (0x04000000 +13946));
+talk("サイト", null, "ほ、本当に部屋を追い出しやがって。\nルイズめ……。", (0x04000000 +13947));
+talk("デルフリンガー", null, "……ったく。\nなにやってるんだか。相棒。", (0x04000000 +1377));
+talk("サイト", null, "う、うるせー！", (0x04000000 +13948));
+talk("デルフリンガー", null, "床は硬くて冷たいのう。", (0x04000000 +1378));
+talk("サイト", null, "ああ、まったくだ……。\nデルフ。", (0x04000000 +13949));
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +171)});
+waitLoad(true);
+talk("ルイズ", null, "……サイト、起きてる？", (0x04000000 +7761));
+talk("サイト", null, "おかげさまで眠れてないですよ……。\n廊下は硬くて冷たいし。", (0x04000000 +13950));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +172)});
+waitLoad(true);
+set("lay1", {show = 0});
+talk("ルイズ", null, "もうっ、仕方ないわね。\n部屋に入っていいわよ。", (0x04000000 +7763));
+talk("サイト", null, "い、いいんですか？\nそ、それじゃあお言葉に甘えて……。", (0x04000000 +13951));
+talk("ルイズ", null, "ホントに……もうっ！", (0x04000000 +7764));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay19", {show = 0});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

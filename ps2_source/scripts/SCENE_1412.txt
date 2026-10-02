@@ -1,0 +1,34 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +695)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "でも、こんな日まで練習しなくても\nいいのに……。", (0x04000000 +9941));
+set("lay7", {y = 416,x = 464});
+set("lay6", {y = 0,show = 1,level = 160,dr = "1B",x = -96,lv = 0,image = (0x02000000 +687)});
+talk("キュルケ", null, "遅れを取り戻すための練習だもの。\nどれだけやっても、足りないことはないわ。", (0x04000000 +3006));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "それに……。\n私も一番足を引っ張ってるし……。", (0x04000000 +1953));
+talk("キュルケ", null, "あら、自覚あるんだ？", (0x04000000 +3007));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +966)});
+talk("ハルナ", null, "ヒドイです！\nキュルケさん！", (0x04000000 +1954));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "大丈夫だよ。\nそれだけやる気があればなんとかなるって。", (0x04000000 +9942));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,dr = "1B",opacityTime = 100,show = 1,x = -96,moveTime = 100,xFrom = -146,level = 160,lv = 0,opacityFrom = 0,image = (0x02000000 +689)});
+talk("キュルケ", null, "そうそう。\nダーリンの言う通りよ。", (0x04000000 +3008));
+set("lay7", {dr = "1B",show = 1,level = 160,lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "はい……。", (0x04000000 +1955));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

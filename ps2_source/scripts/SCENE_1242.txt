@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+}
+talk("サイト", null, "（なにが書いてあるのか、\n　ちょっと借りてみるか）", null);
+talk("サイト", null, "どれどれ？", (0x04000000 +9390));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +231)});
+waitLoad(true);
+talk("タバサ", null, "……。", null);
+like("タバサ", -15);
+tndl(30);
+talk("サイト", null, "……？", (0x04000000 +9391));
+talk("サイト", null, "なんだ、これ？\nなにが書いてあるのか、さっぱり分からねえ。", (0x04000000 +9392));
+talk("サイト", null, "（そういや、こっちの言葉は分かるけど、\n　文字は全然読めないんだった）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +230)});
+waitLoad(true);
+talk("タバサ", null, "……『風』系統に『火』系統を重ねる際生じる、\n特殊効果についての最新学説と各国討論の\n概説。", (0x04000000 +15411));
+talk("サイト", null, "え？", (0x04000000 +9393));
+talk("タバサ", null, "……あなたには、分からなくてもいいこと。", (0x04000000 +15412));
+talk("サイト", null, "ああ……、そうなのか。", (0x04000000 +9394));
+talk("サイト", null, "（はなから読めないうえに、\n　内容が魔法に関する論文じゃ、\n　確かに俺には意味ないなあ）", null);
+talk("サイト", null, "悪い、邪魔したな。\nはい、本。", (0x04000000 +9395));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +228)});
+waitLoad(true);
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "（無表情だから分かんないけど、\n　ひょっとして怒ってるのかな）", null);
+talk("サイト", null, "（考えたら、いきなり読んでる本を\n　取り上げたら普通は気分悪くするよなあ。\n　まずいことしちまったか）", null);
+next((0x01000000 +1244), true);

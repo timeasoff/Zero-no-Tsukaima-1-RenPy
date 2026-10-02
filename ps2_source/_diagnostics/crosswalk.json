@@ -1,0 +1,319 @@
+{
+ "game\\chapters\\0\\script-ch0.rpy": {
+  "runs": [
+   [
+    5,
+    5
+   ]
+  ],
+  "labels": [
+   "ch0"
+  ],
+  "voice_prefix": [
+   "ch0"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_1.rpy": {
+  "runs": [
+   [
+    6,
+    19
+   ]
+  ],
+  "labels": [
+   "ch1"
+  ],
+  "voice_prefix": [
+   "?",
+   "ch1"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_10.rpy": {
+  "runs": [
+   [
+    20,
+    20
+   ],
+   [
+    28,
+    29
+   ],
+   [
+    44,
+    44
+   ],
+   [
+    60,
+    62
+   ],
+   [
+    1009,
+    1033
+   ]
+  ],
+  "labels": [
+   "ch1_10",
+   "date_haruna_1",
+   "date_kirche_1",
+   "date_louise_1",
+   "date_siesta_1",
+   "date_tabitha_1"
+  ],
+  "voice_prefix": [
+   "?",
+   "ch1.10"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_2.rpy": {
+  "runs": [
+   [
+    20,
+    24
+   ]
+  ],
+  "labels": [
+   "ch1_2"
+  ],
+  "voice_prefix": [
+   "?",
+   "ch1.2"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_3.rpy": {
+  "runs": [
+   [
+    11,
+    13
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    29,
+    29
+   ],
+   [
+    39,
+    39
+   ],
+   [
+    1029,
+    1029
+   ],
+   [
+    1224,
+    1238
+   ],
+   [
+    1251,
+    1251
+   ]
+  ],
+  "labels": [
+   "ch1_3",
+   "hallway_ch1_3",
+   "l_room_ch1_3",
+   "si_room_ch1_3"
+  ],
+  "voice_prefix": [
+   "?",
+   "ch1.3"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_4.rpy": {
+  "runs": [
+   [
+    28,
+    28
+   ]
+  ],
+  "labels": [
+   "ch1_4"
+  ],
+  "voice_prefix": [
+   "ch1.4"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_5.rpy": {
+  "runs": [
+   [
+    29,
+    33
+   ]
+  ],
+  "labels": [
+   "ch1_5"
+  ],
+  "voice_prefix": [
+   "ch1.5"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_6.rpy": {
+  "runs": [
+   [
+    16,
+    18
+   ],
+   [
+    29,
+    29
+   ],
+   [
+    34,
+    43
+   ]
+  ],
+  "labels": [
+   "ch1_6"
+  ],
+  "voice_prefix": [
+   "ch1.6"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_7.rpy": {
+  "runs": [
+   [
+    20,
+    20
+   ],
+   [
+    39,
+    39
+   ],
+   [
+    44,
+    48
+   ]
+  ],
+  "labels": [
+   "ch1_7"
+  ],
+  "voice_prefix": [
+   "ch1.7"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_8.rpy": {
+  "runs": [
+   [
+    10,
+    10
+   ],
+   [
+    18,
+    20
+   ],
+   [
+    29,
+    29
+   ],
+   [
+    44,
+    44
+   ],
+   [
+    49,
+    49
+   ],
+   [
+    1019,
+    1019
+   ],
+   [
+    1024,
+    1024
+   ],
+   [
+    1224,
+    1224
+   ],
+   [
+    1229,
+    1229
+   ],
+   [
+    1240,
+    1255
+   ]
+  ],
+  "labels": [
+   "ch1_8",
+   "hallway_ch1_8",
+   "k_room_ch1_8",
+   "l_room_ch1_8",
+   "library_ch1_8"
+  ],
+  "voice_prefix": [
+   "ch1.8"
+  ]
+ },
+ "game\\chapters\\1\\script-ch1_9.rpy": {
+  "runs": [
+   [
+    6,
+    6
+   ],
+   [
+    13,
+    13
+   ],
+   [
+    54,
+    61
+   ]
+  ],
+  "labels": [
+   "ch1_9"
+  ],
+  "voice_prefix": [
+   "ch1.9"
+  ]
+ },
+ "game\\chapters\\attention.rpy": {
+  "runs": [],
+  "labels": [
+   "attention"
+  ],
+  "voice_prefix": [
+   "?"
+  ]
+ },
+ "game\\chapters\\extra\\sp_l1.rpy": {
+  "runs": [
+   [
+    6,
+    6
+   ],
+   [
+    117,
+    117
+   ],
+   [
+    428,
+    428
+   ],
+   [
+    769,
+    769
+   ],
+   [
+    1234,
+    1234
+   ],
+   [
+    1699,
+    1699
+   ],
+   [
+    1717,
+    1724
+   ]
+  ],
+  "labels": [
+   "sp_l1"
+  ],
+  "voice_prefix": [
+   "sp_l1"
+  ]
+ }
+}

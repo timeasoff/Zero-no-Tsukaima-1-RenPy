@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +438)});
+set("bgm", {play = (0x03000000 +12)});
+set("se1", {play = (0x03000000 +42),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +87)});
+}
+set("lay5", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "逃げ出すつもりだったとか？", (0x04000000 +8920));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "そうね。\nそうできたらどんなにいいだろうって、\n思いながら月を見上げてたわ。", (0x04000000 +4799));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "不安、か？", (0x04000000 +8921));
+talk("ルイズ", null, "こんな状況で不安にならない人間なんて……。\nわたしはそんな人間にはなりたくないわよ。", (0x04000000 +4800));
+next((0x01000000 +1203), true);

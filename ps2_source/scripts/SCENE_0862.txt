@@ -1,0 +1,11 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +13)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +224)});
+}
+talk("サイト", null, "お守りをつけてると、\nなんか強くなった気がする。\n俺、頑張るよ。", (0x04000000 +12296));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +225)});
+waitLoad(true);
+talk("シエスタ", null, "サイトさん……。", (0x04000000 +15018));
+next((0x01000000 +863), true);

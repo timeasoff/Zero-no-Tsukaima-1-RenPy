@@ -1,0 +1,31 @@
+=== idx=424 n=9626 ZIP=3 ===
+  best: k=6 perm=(3, 2, 4, 0, 5, 1) score=83.9 sjis=0.8241 set=1 talk=0
+  head: b'odiiumleM((),wuJ{\nit"pesima)t( =Tr;\n50eeet); )"lvi}sy8ra\n(, e(baop);t"ciwa2{y tT\na 1meit0,80i= =, (00,ru0yFr);t m seey 0("\noshtat=w e"s, 1 {gomoho,=eT =s,me1,wv= es i00t r xF 1e1om);=,= se}r74("\n levet1elt"e,=  {nv60ho, op =s1ci0,w,yFes aomt rt=  1er,d);=  =se'
+
+=== idx=780 n=7997 ZIP=3 ===
+  best: k=3 perm=(1, 0, 2) score=78.2 sjis=0.7821 set=0 talk=0
+  head: b'iimu()(J\n{pse)(tr\n;ete)l"s1y( ,apo"ic{ ya1 t,0== 0,0yrF  my0 ohs= w,1 oom=Te,emv =i00 Fx1mo, =r41 l,-ev6= e61lo, ca0ytpori= F,0m r " d"A=po2ic,Tyaemt =i00  x1- ,,6= v90 lmi=eg, =ax0 02(000 00430})+\n;3te)l"s6y( ,apo"ic{ ya1 t,0== 0,0yrF  my0 ohs= w,1 oom=Te,emv'
+
+=== idx=813 n=3477 ZIP=3 ===
+  best: k=3 perm=(0, 1, 2) score=166.0 sjis=1.0000 set=38 talk=5
+  head: b'if (isJump()){\nreset();\nset("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,move'
+
+=== idx=1915 n=298 ZIP=4 ===
+  best: k=5 perm=(1, 4, 0, 2, 3) score=90.9 sjis=0.9091 set=0 talk=0
+  head: b'0m s)1elc )<mevu;e\x82m l4 eeItl;s()mncsee(;ct30 emt0x\x82\xc2) e ,e1=lxt um0me e0So 29nNit,,-o)lo\nNetNe\nt)"nemer)(Rt;e1n\nlt0,(Im+ot(Q5Nn\x82nt"= ,)rl0ov;{0Nolm " Ie1rs(v ;c"olliu rI; x;(lv0l"Io0(u(,0i "u1nvu\n)So ere,vt; uo"il\n,\xac \neu(0ot\n1e("e0ti,t+t)l"6\n ",netil,tx="u"0 '
+
+=== idx=1916 n=284 ZIP=3 ===
+  best: k=6 perm=(2, 3, 0, 4, 1, 5) score=92.4 sjis=0.9091 set=1 talk=0
+  head: b'nisetI()ecem\nsIt"\x82let(\x82\xactI;\xc2, eme"0x"\x82c(10",t000nu(00 l,T019"m +7)vil1 nNo ,ll5"ou t te,ueue=r;\n;\n,)elelrsctct)e);tes(if("e\n(nU"I xt nmecell\x82Se  ",n= ovu=uleN,n) =6ml\n , i{moruo ie);"vmoset(ieecevo)It\nN\n m(l;ne\x82Vt t(, ex0xul"(10, "000mon00 iel019o="+5)",v1 ttr'
+
+=== idx=1917 n=287 ZIP=3 ===
+  best: k=6 perm=(1, 0, 3, 5, 2, 4) score=92.3 sjis=0.9231 set=0 talk=0
+  head: b';sicIlee)nmtcIs(\x82ette\n\xac"(;Il \x82\xc2emtx,"c\x82e00(t,"010(u" 00W,n900 ml)1+li"n81 ovl ,o"Ntluet8e ,=e \nur,\nul;)rl;tes)te;cesecf)(e"tni\nI"(t( mnXexe\x82l  cS,"l enuv l==,No unm9e )li =o\n{ou,em ";roivte)em(ecs)iv\nte oNl(Ie\n;tPm(n e"\x82xtx"nO00(\x82l 010,"l 00uv 900,No)1+m1et51i'
+
+=== idx=1919 n=293 ZIP=12 ===
+  best: k=3 perm=(1, 2, 0) score=88.9 sjis=0.8889 set=0 talk=0
+  head: b'es\x82e;mu( olc;1"(svl\x82r1 Is" \x82le0\x82e)mee 0;c1e"  0couxesu0 it=\nt 1tN5n(tN+e)eSm\nol"t=,t\n4,"ei,Pu6"te,n\xc2eN0U),om)tx\nt9n,t{0tvltxel0(er= (m0eo)u0Io1c;l"(svl\x82r1 Is" \x82le \x82e"mel u\x82co0"; v(;r0iI2e r\n (ilStll0n(u  )o0m),lxn=9t\ne,"ei,Pu5"te,nPeN"T),ometl\xact=0,\nni"\nu1ft0 ('
+
+=== idx=1918 n=293 ZIP=2 ===
+  best: k=5 perm=(0, 2, 4, 3, 1) score=88.9 sjis=0.8889 set=0 talk=0
+  head: b's0\x82e l0\x82t\nc+"t I9 moi9u"i(,lP(;n Qoslm,il,vnNctel)Iuo,\ne)1" (\n"oe\x82e it\x82erN("te=x );21u\ns,0lflt0 (cu0meI)+vte\n9ec(e5on\x82e,1 \x82tt"="tu n m)rl0"\ne)0Pe;{0Res 0,tlm0nncv ltIe1,)em1"\n(v)oe\x82e ie\x82ouNt";l=t   3munr,"lxetP (;uPm0s),v0l\nne0celo0(e,10;t"" ito 1 mir1n"Ne)x\xc2='

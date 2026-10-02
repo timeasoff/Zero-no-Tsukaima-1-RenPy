@@ -1,0 +1,61 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +57)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +29)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1063)});
+msgon()
+talk("ウェザリー", null, "成功して良かった。\n本当に良かった。", (0x04000000 +15995));
+set("lay20", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "無茶苦茶だって！\nメインの役者のほとんどが素人なんて！", (0x04000000 +11702));
+talk("ウェザリー", null, "まぁ、そう言わない。\nお客もいつも同じ演技じゃ、飽きちゃうしね。", (0x04000000 +15996));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +775)});
+talk("アンリエッタ", null, "終わってしまったのですね……。\n思い出してみれば楽しい日々でした。", (0x04000000 +579));
+talk("ウェザリー", null, "はい、これ約束のバッグ。", (0x04000000 +15997));
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +964)});
+talk("ハルナ", null, "あ、ありがとうございます！", (0x04000000 +2378));
+talk("ハルナ", null, "平賀くん見て！\nこの隠しポケットに私のお財布が入ってた！", (0x04000000 +2379));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "なるほど、確かにハルナのものだね。\nいろいろ言って悪かったよ。", (0x04000000 +15998));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +970)});
+talk("ハルナ", null, "いえ、いいんです……。\nこうして戻ってきたんですから。", (0x04000000 +2380));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "良かったな、春奈！", (0x04000000 +11703));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +313)});
+talk("ルイズ", null, "まぁ、良かったんじゃない？", (0x04000000 +6258));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +964)});
+talk("ハルナ", null, "う、うん！\nありがとう、みなさん。", (0x04000000 +2381));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +20)});
+msgon()
+talk("サイト", null, "……はあ。\nなんだかまだ興奮がさめない気がするな。", (0x04000000 +11704));
+talk("サイト", null, "（今夜……誰に会おう……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +1870), zero_route==1);
+next((0x01000000 +1871), zero_route==2);
+next((0x01000000 +1872), zero_route==3);
+next((0x01000000 +1873), zero_route==4);
+next((0x01000000 +1874), zero_route==5);
+next((0x01000000 +1875), zero_route==6);

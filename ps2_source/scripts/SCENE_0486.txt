@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "とりあえず、中を確認してみよう。", (0x04000000 +13262));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "あ、はい。", (0x04000000 +15139));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "……でも、いいんですか？\n女の子の私物ですよ。", (0x04000000 +15140));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "き、貴重品かどうか確かめるんだよ！", (0x04000000 +13263));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "このノート、何が書いてあるんでしょう？\nさっぱり読めないです。", (0x04000000 +15141));
+talk("サイト", null, "俺達の国の文字だからな。\nシエスタのひいおじいちゃんの国でもあるけど。\nほら、あのお墓の文字に似てるだろ？", (0x04000000 +13264));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "あ、そういわれてみれば……。", (0x04000000 +15142));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（春奈らしい几帳面な字だなあ）", null);
+talk("サイト", null, "あれ？\nなんだこれ？", (0x04000000 +13265));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "え？\nええっ？", (0x04000000 +13266));
+next((0x01000000 +489), true);

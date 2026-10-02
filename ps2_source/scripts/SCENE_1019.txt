@@ -1,0 +1,43 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +94)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "よっ、タバサ。", (0x04000000 +8237));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +229)});
+trans("crossfade", 1000);
+msgon()
+talk("タバサ", null, "……何か用？", (0x04000000 +15254));
+like("タバサ", 30);
+talk("サイト", null, "んー、まあ特にはないんだけど、\nせっかくだし、どこかに出かけないか？", (0x04000000 +8238));
+talk("タバサ", null, "……本を読むのがいい。", (0x04000000 +15255));
+talk("サイト", null, "ああ……そう。", (0x04000000 +8239));
+talk("サイト", null, "（本はなあ……。\n　俺、未だにこっちの文字読めないんだよな）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +228)});
+waitLoad(true);
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "（って、もう話が終了して、本を読んでるし！）", null);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……なあ。\n何か手伝うことはないか？", (0x04000000 +8240));
+talk("タバサ", null, "……必要なことは、全部魔法でできる。\nだから、特にない。", (0x04000000 +15256));
+talk("サイト", null, "そうなの？", (0x04000000 +8241));
+set("se0", {play = (0x03000000 +72)});
+waitSEStop(null, true);
+talk("タバサ", null, "……そう。", (0x04000000 +15257));
+talk("サイト", null, "（と言ってもなあ。\n　このまま帰ったら、なんだか馬鹿みたいだし）", null);
+talk("サイト", null, "あ、そうだ。", (0x04000000 +8242));
+selectInit();
+selectItem("本をめくってあげよう", (0x01000000 +1020), null, true);
+selectItem("抱っこしてあげよう", (0x01000000 +1021), null, true);
+selectItem("肩を揉んであげよう", (0x01000000 +1022), null, true);
+select();

@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "シエスタはいいとして……。\n他のメンツの料理がなぁ……。\n胃薬ってあったっけ？", (0x04000000 +12148));
+set("lay2", {y = 0,dr = "1A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +489),imageType = 2});
+talk("シエスタ", null, "あ、はい。\nわたしの部屋にお婆ちゃん特製の胃薬が\nありますから、安心してください。", (0x04000000 +14893));
+set("lay5", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +396),imageType = 2});
+talk("サイト", null, "もしかしたら、お世話になるかも……。\nいや、きっと必要になるね。", (0x04000000 +12149));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "でも、とっても苦いお薬ですよ？", (0x04000000 +14894));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "それはいやだなぁ。\n甘いのないの？", (0x04000000 +12150));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "うーん、そういうのはありません。\n頑張って飲んでくださいね。", (0x04000000 +14895));
+next((0x01000000 +816), true);

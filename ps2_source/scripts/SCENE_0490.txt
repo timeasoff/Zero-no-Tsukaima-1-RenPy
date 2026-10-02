@@ -1,0 +1,21 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +427)});
+msgon()
+talk("サイト", null, "（あ～～驚いた）", null);
+talk("サイト", null, "（……春奈、手帳に俺の写真を入れてたなんて）", null);
+set("lay5", {dr = "2A",show = 1,level = 160,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "……。", (0x04000000 +13277));
+talk("サイト", null, "俺のどこがそんなにいいんだよ。", (0x04000000 +13278));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（そうだよ……。\n　春奈が写真を持ってるということは\n　日本で撮ったはずだけど）", null);
+talk("サイト", null, "（俺、春奈に何かしたのか？\n　こんなふうに写真を持ってもらえるような\n　何かを？）", null);
+talk("サイト", null, "なんでなんだよ。\n春奈……。", (0x04000000 +13279));
+selectInit();
+selectItem("春奈に手帳を届けないと", (0x01000000 +491), null, true);
+selectItem("春奈に逢いたい", (0x01000000 +492), null, true);
+selectItem("春奈に確かめたい", (0x01000000 +493), null, true);
+select();

@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 157,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +594)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +61)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "春奈には罪はないけど、アキナにはな……。", (0x04000000 +12838));
+talk("サイト", null, "うーん……。\n爆弾使いとしての罪があるんだろうなぁ。", (0x04000000 +12839));
+set("lay0", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "そう、アキナには……。\nあっ。", (0x04000000 +15769));
+next((0x01000000 +998), true);

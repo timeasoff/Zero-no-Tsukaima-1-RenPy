@@ -1,0 +1,624 @@
+========================================================================
+CHAPTER 25 : 制服の魅力
+core scenes : 894 .. 902  (9 scenes)
+========================================================================
+
+---- SCENE 0894 ----
+  [TITLE title("制服の魅力")]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1165, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+7]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：シエスタ！  [voice 7990]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あれ、サイトさんっ。
+どうしたんですか、いったい。
+今日は何だか、とっても嬉しそうですよ？  [voice 14150]
+サイト：ふふ～ん、そりゃあもちろん。  [voice 7991]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：今日はシエスタにプレゼントを
+持ってきたのでーす！  [voice 7992]
+  [SPRITE   lay2     image=+530, level=160, dir=2A]
+シエスタ：えっ、わたしにですか？  [voice 14151]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：そうだよぉ～？
+ぱんぱかぱ～～～～んっ！！
+見てください、この包み紙っ！！  [voice 7993]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：わあ、可愛い……。
+何が入ってるんですか？  [voice 14152]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：それは、受け取ってからのお楽しみってやつ。
+ほら、開けて開けて。  [voice 7994]
+  [SPRITE   lay2     image=+530, level=160, dir=2A]
+シエスタ：あ、ありがとうございます……。
+とってもうれしいです……。  [voice 14153]
+  [SE       se0      play=+59]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：これは……水兵さんの……服？  [voice 14154]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：正解！  [voice 7995]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：これはセーラー服といって、日本ではシエスタ
+みたいな可愛い女の子がそれを着てお勉強を
+するんだよっ！  [voice 7996]
+シエスタ：お勉強……つまり、学生さんが
+身につける制服ということですね？  [voice 14155]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：そうさっ！
+だから、シエスタにも着てもらいたいんだっ！  [voice 7997]
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+シエスタ：いいんですか？  [voice 14156]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：いいのいいの。
+それより、今すぐ着てくれないかな？  [voice 7998]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：ええっ！？
+今すぐ着るんですかぁ？  [voice 14157]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：うん、期待してますシエスタさん。
+着て。
+着て着て着て。  [voice 7999]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：き、期待されちゃいましたね。
+ちょっと待っててくださいね？
+すぐに着替えてきますから……。  [voice 14158]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     x=64, y=0]
+サイト：（……やったぞっ！
+　ついにシエスタのセーラー服が
+　見られるっ！！）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+283, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+13]
+シエスタ：サイトさんっ……お待たせしましたっ！！  [voice 14159]
+シエスタ：えへっ……。
+どうですか、似合ってますか？  [voice 14160]
+サイト：おおおおおおおーーーーっ！  [voice 8000]
+シエスタ：さ、サイトさんったら、声が大きいですよぉ。  [voice 14161]
+サイト：ううっ……ぐすっ……。
+生きてて良かったっ！  [voice 8001]
+  [EVENT_CG event    image=+284, level=80]
+シエスタ：……はい？
+あの、サイトさん、どうして泣いてるんですか？  [voice 14162]
+サイト：いやあ、シエスタの姿があまりにも眩しくてっ！
+つい、日本の思い出がよみがえってきてさ。  [voice 8002]
+サイト：ああっ、ハルケギニアを照らす日の光が
+これほど眩しく感じたことはなかったさ！！  [voice 8003]
+  [EVENT_CG event    image=+283, level=80]
+シエスタ：大丈夫ですか、サイトさん？
+あの、ハンカチありますから……。
+えっと、これを。  [voice 14163]
+サイト：ありがとう、シエスタぁ。
+その服、とっても似合ってるよぅ！  [voice 8004]
+シエスタ：ほ、ほんとですか？
+こんなお腹でちゃうような服、
+初めてでちょっと恥ずかしい……。  [voice 14164]
+サイト：い、いやいや、それがまたいいんだよぉ……。  [voice 8005]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+213, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+30]
+ルイズ：どこ見てるのよっ！！
+バカァ！！  [voice 4557]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=21]
+  [EVENT_CG event    vibrate=21]
+  [SPRITE   lay2     vibrate=21]
+  [SPRITE   lay5     vibrate=21]
+  [SPRITE   lay1     hide, vibrate=21]
+  [VIBRATE vibrate(3)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay1     hide, reset]
+サイト：ぎひゃぁあぁあぁ！！
+る、ルイズ……。
+なんでここにっ！  [voice 8006]
+ルイズ：シエスタになんて格好させてるのよっ！！
+ホントに、人としての恥を知りなさいっ！！  [voice 4558]
+サイト：ぐふっ……。
+ばた。  [voice 8007]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+284, level=80]
+  [TRANS trans("crossfade", 1000)]
+シエスタ：サ、サイトさんっ！！
+しっかりしてくださいっ！！  [voice 14165]
+ルイズ：ほっときなさいよっ、こんなバカっ！！
+シエスタも、そんな服早く脱いでっ！！  [voice 4559]
+シエスタ：ええっ、でもこれはサイトさんがせっかく
+プレゼントしてくれた学生さんの制服
+なんですよっ……。  [voice 14166]
+ルイズ：当然、この服も没収！  [voice 4560]
+  【選択肢】ルイズが着てくれ → scene 895
+  【選択肢】男としての危機を感じて黙り込む → scene 896
+  【選択肢】俺が着る！ → scene 897
+
+---- SCENE 0895 ----
+  [BGM      bgm      play=+30]
+  [EVENT_CG event    image=+284, level=80]
+サイト：ううっ……シエスタがダメなら……。
+ルイズが着てくれないかな……。  [voice 8008]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+213, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：なにか、言ったかしら？  [voice 4561]
+サイト：ひぃぃっ！！  [voice 8009]
+ルイズ：やっぱり、今すぐ罪を償わせてあげる！！
+覚悟しなさいっ！！  [voice 4562]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SE       se0      play=+61]
+  [BG       stage    vibrate=21]
+  [EVENT_CG event    vibrate=21]
+  [SPRITE   lay1     vibrate=21]
+  [SPRITE   lay2     vibrate=21]
+  [SPRITE   lay5     vibrate=21]
+  [VIBRATE vibrate(3)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：ぎゃあああああああっ……。  [voice 8010]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  → next scene 898
+
+---- SCENE 0896 ----
+  [BGM      bgm      play=+30]
+  [EVENT_CG event    image=+284, level=80]
+サイト：なんでもないでしゅ……。  [voice 8011]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+213, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：ふんっ……。
+ほら、早く来なさい。
+さもないと、首輪とベルトで縛り上げるからね。  [voice 4563]
+サイト：ふぁい……。
+立ち直り次第、直ぐに向かいます。  [voice 8012]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  → next scene 898
+
+---- SCENE 0897 ----
+  [BGM      bgm      play=+30]
+  [EVENT_CG event    image=+284, level=80]
+サイト：俺が着る！  [voice 8013]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+213, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：は？
+あんた何言ってんの？
+それともついに目覚めたの？  [voice 4564]
+サイト：何にだ！  [voice 8014]
+ルイズ：まあ、いいわ。
+とにかくこれは没収するから。
+じゃあね。  [voice 4565]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  → next scene 898
+
+---- SCENE 0898 ----
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [BGM      bgm      play=+7]
+  [BG       stage    image=+26, level=200]
+シエスタ：サイトさん……。
+しっかりしてください。  [voice 14167]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：あは……ははっ。
+平気だよ、こ、これぐらい。  [voice 8015]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+シエスタ：せっかくのプレゼントでしたのに、残念です。  [voice 14168]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：でも、今度はわたしがセーラー服作りに
+挑戦してみますから、期待しててくださいねっ！  [voice 14169]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：そ、それは本当ですかっ！！  [voice 8016]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：はいっ、サイトさんのために頑張っちゃいます！
+お揃いのペアルックで、デートしましょうねっ！  [voice 14170]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：……え？  [voice 8017]
+サイト：（シエスタ自作のセーラー服に期待を膨らませ
+　ながらも、どこかちょっぴり不安になる
+　俺だった）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+
+---- SCENE 0899 ----
+  [MOVIE movie(1)]
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：えっ、自立するってどういうことだよ？  [voice 9216]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+62, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：うん、いつまでもこの学院で……。
+ルイズさん達の世話になってるのも
+どうかなって思って。  [voice 1780]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：そんなこといったら、俺なんかルイズに
+召喚されて以来、なんだかんだでずっと
+この学院のお世話になってるんだけど。  [voice 9217]
+ハルナ：平賀くんはルイズさんの使い魔じゃない。
+お世話になって当然よ。
+でも、私はそうじゃないから……。  [voice 1781]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：そりゃそうなんだけどさ……。
+俺達、この世界でたぶん２人だけの
+日本人じゃないか。  [voice 9218]
+サイト：それに、お互いのことを知らない
+間柄でもないんだしさ……。
+だから、学院で働くとかすれば……。  [voice 9219]
+  [SPRITE   lay7     image=+959, level=160, dir=1A]
+ハルナ：あのね、平賀くん……。
+私、スカウトされちゃったんだ。  [voice 1782]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：ス、スカウトって、なんの？  [voice 9220]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：劇団よ、劇団。  [voice 1783]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：劇団って、あのウェザリーの劇団は
+もうなくなったんだろ？  [voice 9221]
+ハルナ：違うの。
+あの劇を見てくれた別の劇団の人が、
+私のことを気に入ってスカウトしてくれたのよ。  [voice 1784]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：この際、いい機会だから、その劇団のお世話に
+なろうと思ってね。  [voice 1785]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：でもさ、劇団の世話になるってことは、
+他の街への公演に出ることだってあるんだよな？  [voice 9222]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：うん、そうだね。
+平賀くんとは会うことが少なく
+なっちゃいそうだけどね。  [voice 1786]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：でもね、私は楽しみにしてるんだ。
+この世界のいろんな街を見て回ることが
+できるから。  [voice 1787]
+ハルナ：ひょっとすると、日本へ戻るためのきっかけ
+だって見つかるかもしれない。  [voice 1788]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：そっか、そうだよな。  [voice 9223]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：だから平賀くん……。
+良かったら、私のこと応援していてね。  [voice 1789]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：ああ、もちろんだとも！
+それから、日本へ帰る方法、
+お互いに頑張って見つけだそうぜ。  [voice 9224]
+ハルナ：うん！  [voice 1790]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（ウェザリーは逃げ惑う兵隊達の中に
+　紛れていたところを捕らえられたそうだ）
+サイト：（ウェザリーの背後には
+　レコン・キスタがいたらしい。
+　早速、軍の会議が開かれたようだ）
+サイト：（春奈を操っていた催眠魔法は、
+　ウェザリーに解いてもらった）
+サイト：（これで、一連の爆弾使いにまつわる
+　騒ぎについては終息を迎えた）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+58, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+  [BGM      bgm      play=+22]
+ルイズ：さぁ、わたし達も帰りましょう。  [voice 4841]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：でも、ウェザリーのこととか、
+ハルナのことで、ずいぶん長く
+いることになってしまったわね。  [voice 4842]
+サイト：そうだな。
+でも、みんなが、俺達の帰りを待ってて
+くれてるよ。  [voice 9225]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：そうだったわね。
+みんな、今ごろどうしてるかしら？  [voice 4843]
+シエスタ：サイトさ～～～～～～んっ！！  [voice 14359]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+サイト：ええっ！？
+こ、この声はっ……。  [voice 9226]
+ルイズ：ウソぉ、何であの子がこんな所にっ！？  [voice 4844]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [EVENT_CG event    image=+282, level=80]
+  [TRANS trans("crossfade", 1000)]
+シエスタ：サイトさんっ！！
+み……見つけましたぁ！！  [voice 14360]
+サイト：うわ、ど、どうしたのシエスタ。  [voice 9227]
+シエスタ：わたし、なかなかサイトさん達が
+帰ってこないから、心配で様子を
+見に来たんですよっ！！  [voice 14361]
+サイト：俺なら、ほらこのとおり。
+全然大丈夫さ。  [voice 9228]
+シエスタ：良かったぁ！  [voice 14362]
+サイト：ああ、そうだシエスタっ。
+借りていたお守り、約束通りにちゃんと返すよ。  [voice 9229]
+サイト：爆弾使いと戦ったときも、
+おかげで怪我しないですんだしな。  [voice 9230]
+シエスタ：ホントですかぁ？
+良かったぁ。ひいおじいちゃんが
+サイトさんを守ってくれたんですね。  [voice 14363]
+サイト：ああ、きっとそうに違いないさ。  [voice 9231]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+58, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：お守りかぁ～。
+いーーわよね～～～お守りって。  [voice 4845]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：なんだよぉ、別にいいだろう？
+それに、ルイズのお守りはこの俺なんだろ？  [voice 9232]
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+ルイズ：そ、そうよっ！！
+わたしのお守りは、サイトだけなんだからっ！！  [voice 4846]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：それだったら、サイトさんのお守りには、
+わたしがなりますからっ！  [voice 14364]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+30]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：ええ！？  [voice 9233]
+  → next scene 900
+  → next scene 901
+
+---- SCENE 0900 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+58, level=200]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：サイトさんの無事を願うためなら……。
+わたし、この前みたいにまたキスして
+あげますからっ！！  [voice 14365]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+307, level=140, dir=1A]
+ルイズ：キ……キスぅ！？  [voice 4847]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：うわあ、シエスタったらっ！！  [voice 9234]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+497, level=160, dir=1A]
+シエスタ：わあっ、わたしったら一体なんてコトをっ！
+キスしたなんて……。
+わたし恥ずかしいですっ。  [voice 14366]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+373, level=140, dir=3A]
+ルイズ：こ、この子ったら……わたしが目を離した隙に
+一体なんてコトをしてくれたのかしらっ！？  [voice 4848]
+  [SPRITE   lay1     image=+372, level=160, dir=3A]
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+サイト：ひええっ……。
+あれはそのっ、うわああぅ！！  [voice 9235]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+373, level=140, dir=3A]
+ルイズ：問答無用よぉ！！
+その節操のない腐りきった根性を、
+わたしが今すぐたたき直してあげるからっ！！  [voice 4849]
+  [SPRITE   lay1     hide]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：こ、殺されるぅ！！  [voice 9236]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay5     x=224, y=0]
+ルイズ：こらあっ、お待ちなさいっ！！
+逃げるんじゃないわよっ！
+観念なさいっ！！  [voice 4850]
+サイト：俺は、なにも悪いコトなんて
+してないだろーがっ！  [voice 9237]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：ゴチャゴチャうるさいわよぉ！！
+口答えした罰として、３日間食事抜きっ！！  [voice 4851]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：そ、そんなぁ！！
+それはあんまりじゃないかぁ！！  [voice 9238]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+307, level=140, dir=1A]
+ルイズ：ダメっ！！
+絶対っ！！
+例外なしっ！！！  [voice 4852]
+  [SPRITE   lay1     hide]
+  [SE       se0      play=+61]
+  [BG       stage    vibrate=21]
+  [EVENT_CG event    vibrate=21]
+  [SPRITE   lay1     vibrate=21]
+  [SPRITE   lay7     vibrate=21]
+  [SPRITE   lay2     vibrate=21]
+  [SPRITE   lay5     vibrate=21]
+  [VIBRATE vibrate(3)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+サイト：ぎゃああああっ！！  [voice 9239]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  → next scene 902
+
+---- SCENE 0901 ----
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+58, level=200]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：もぉ、あんた達ちょっと離れなさいってばっ！  [voice 4853]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：いいえ、わたしもう決めましたっ。
+これからはサイトさんのお守りになりますっ！  [voice 14368]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：だからサイトさん、ずっと一緒に
+いてくださいねっ！  [voice 14369]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：もういい、決めたわっ！！
+サイトはシエスタとベタベタするの禁止っ！！  [voice 4854]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：はあっ？
+なんだよそれ、横暴だぞっ！！  [voice 9240]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：うるさいわねぇ！！
+口答えした罰として、１週間食事抜きよっ！！  [voice 4855]
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+サイト：そんなぁっ！！  [voice 9241]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+497, level=160, dir=1A]
+シエスタ：それならサイトさん、わたしの部屋で
+一緒に生活しませんか？  [voice 14370]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：なんですってぇ！？
+サイト、わたしが目を離した隙に
+一体この娘と何をしたのかしら？  [voice 4856]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：ひええっ……。
+あれはそのっ、うわああぅ！！  [voice 9242]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+373, level=140, dir=3A]
+ルイズ：問答無用よぉ！！
+その節操のない腐りきった根性を、
+わたしが今すぐたたき直してあげるからっ！！  [voice 4857]
+  [SPRITE   lay1     hide]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：こ、殺されるぅ！！  [voice 9243]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  → next scene 902
+
+---- SCENE 0902 ----
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+58, level=200]
+シエスタ：ああ、始祖ブリミルよ。
+可哀想なサイトさんに一時の平穏を
+お与えください。  [voice 14371]
+サイト：（ブルドンネ街の昼下がりに、
+　俺の絶叫と、ルイズの怒号と、
+　シエスタの祈りが、天高くこだました）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]

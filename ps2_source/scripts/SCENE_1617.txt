@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +168)});
+}
+talk("サイト", null, "（ホ、ホントに成功……するかも？）", null);
+talk("サイト", null, "（い、いや。\n　ルイズを信じないと……）", null);
+talk("ルイズ", null, "うふっ……うふふふふ……。", (0x04000000 +7726));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "って、なんですか！\nそのアブナイ笑い方っ！", (0x04000000 +13911));
+talk("サイト", null, "（……ヤ、ヤバイっ！\n　なんか、今日のルイズのノリはぜったい\n　まずい気がするぞぉぉっ！）", null);
+next((0x01000000 +1620), true);

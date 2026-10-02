@@ -1,0 +1,34 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+set("bgm", {play = (0x03000000 +30)});
+set("se1", {play = (0x03000000 +36),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +123)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "素直に話せばいいんじゃないか。\nお姫さまなら、きっと分かってくれるさ。", (0x04000000 +11500));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "……それしかないのは、\n分かってるけど……。\nウソついたって仕方がないわけだし。", (0x04000000 +6089));
+like("ルイズ", -10);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "そうかっ……良かったなシエスタ。", (0x04000000 +11501));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "でもダメ。", (0x04000000 +6090));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +493)});
+talk("シエスタ", null, "ええっ！？", (0x04000000 +14748));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +335)});
+talk("ルイズ", null, "一応わたしのメイドってことにしておいて。\nじゃないといろいろ問題が起きそうだし……。", (0x04000000 +6091));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "はい、分かりました！", (0x04000000 +14749));
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+next((0x01000000 +240), true);

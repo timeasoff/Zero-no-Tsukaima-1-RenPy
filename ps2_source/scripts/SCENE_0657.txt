@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +940)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +71)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "それは無責任なんじゃないか？", (0x04000000 +13128));
+set("lay19", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1065)});
+talk("ウェザリー", null, "何？", (0x04000000 +16070));
+talk("サイト", null, "春奈をこのまま放っておくつもりか？\nアキナなんて人格を作ったのは、あんただろう？", (0x04000000 +13129));
+next((0x01000000 +659), true);

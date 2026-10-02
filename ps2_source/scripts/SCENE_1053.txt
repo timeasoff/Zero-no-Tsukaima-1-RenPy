@@ -1,0 +1,69 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +689)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "とりあえず湖に行って泳ぐことは\n分かったけど、準備とかは……。", (0x04000000 +8427));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +689)});
+talk("キュルケ", null, "いらないわよ、そんなの。\n身ひとつで十分！\nさあ、行くわよ！", (0x04000000 +2772));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "ええー！？", (0x04000000 +8428));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +687)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+msgon()
+talk("キュルケ", null, "ほら、後もう少しよ。", (0x04000000 +2773));
+talk("サイト", null, "ごめん、ちょっと休憩。\n歩きつかれちまったよ。", (0x04000000 +8429));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +693)});
+talk("キュルケ", null, "もう、ダーリンったらだらしがない。\n先に行ってるからね。", (0x04000000 +2774));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,x = 64});
+talk("サイト", null, "あ、本当においてかれたよ。\nよっぽど泳ぎたかったんだな。", (0x04000000 +8430));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("bgm", {stop = 1000});
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +247)});
+set("bgm", {fadetime = 0,play = (0x03000000 +14)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("se1", {play = (0x03000000 +45),loop = 1});
+msgon()
+talk("キュルケ", null, "そおーれっ！！", (0x04000000 +2775));
+set("se0", {play = (0x03000000 +74)});
+talk("キュルケ", null, "ほら、ダーリン！\nはやくいらっしゃいよ！", (0x04000000 +2776));
+talk("サイト", null, "い、い、いらっしゃいって言われても！\nキュルケ、何もつけてないじゃないデスカ！？", (0x04000000 +8431));
+talk("キュルケ", null, "そうよ。\n服を着たまま泳ぐわけにいかないじゃない。", (0x04000000 +2777));
+talk("サイト", null, "いや、それは仰るとおりですけれども。", (0x04000000 +8432));
+talk("キュルケ", null, "ねえ、ダーリンってば。", (0x04000000 +2778));
+talk("サイト", null, "うわあっ！\n待ってその格好で迫ってくるのはやめて！", (0x04000000 +8433));
+talk("キュルケ", null, "え、どうしたの？\n急にしゃがみこんだりして。", (0x04000000 +2779));
+talk("サイト", null, "いやあの、男性特有の現象が起きまして。", (0x04000000 +8434));
+talk("キュルケ", null, "ああ、そういうこと？\nうふふ、ダーリンってば、ウブなんだから。\nかわいい！", (0x04000000 +2780));
+talk("サイト", null, "か、かわいい……ですか。", (0x04000000 +8435));
+talk("キュルケ", null, "真っ赤になっちゃって。\nもう食べちゃいたい！", (0x04000000 +2781));
+talk("サイト", null, "食べないでください……。", (0x04000000 +8436));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +137), true);

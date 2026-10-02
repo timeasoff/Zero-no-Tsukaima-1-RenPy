@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +434)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "こうなったら！", (0x04000000 +13109));
+talk("サイト", null, "責任は俺が取る。", (0x04000000 +13110));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 153,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "責任って……どうするつもり？", (0x04000000 +7120));
+next((0x01000000 +651), true);

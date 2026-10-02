@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +8)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +40)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "本当かぁ？\nいやまあ、市場の人が情報通だからとして。", (0x04000000 +10143));
+talk("サイト", null, "果物ひとつでそんな重要な情報を\n教えてくれるのか？", (0x04000000 +10144));
+tndl(30);
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "うーん。\nまぁ、値段相応の情報ね。", (0x04000000 +3067));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "でも、いいじゃない。\nこの果物おいしいし。\nダーリンも食べてみる？", (0x04000000 +3068));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "い、今はそれどころじゃないだろ！", (0x04000000 +10145));
+next((0x01000000 +1484), true);

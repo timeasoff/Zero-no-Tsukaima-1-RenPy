@@ -1,0 +1,38 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +698)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+talk("サイト", null, "（こっ、こういうときは紳士的に目を閉じる\n　のが礼儀というものだよな。\n　ジェントルマンとして！）", null);
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+talk("キュルケ", null, "あら、どうしちゃったのよダーリン。\nいきなり目をつぶっちゃって。", (0x04000000 +2905));
+talk("サイト", null, "それより、早いとこ服を着ろよ。\n俺、目をつぶってるから。\nなんだったら外に出てもいい。", (0x04000000 +9411));
+talk("キュルケ", null, "あら、そんなこと気にしなくていいのに。\nどうせ、部屋にいるときはこのままだし。", (0x04000000 +2906));
+talk("サイト", null, "そりゃ、部屋にいるときはどんな格好しても\n自由だと俺も思いますけど、\nでも、俺、一応オトコノコなんですよ。", (0x04000000 +9412));
+talk("キュルケ", null, "あ、もしかして興奮した？", (0x04000000 +2907));
+talk("サイト", null, "正直に言うと後が怖いのであえて黙秘する！", (0x04000000 +9413));
+talk("キュルケ", null, "後って……ああ、ルイズにばれると怖いのね。", (0x04000000 +2908));
+talk("サイト", null, "……俺はなにも言ってないぞ？", (0x04000000 +9414));
+talk("キュルケ", null, "ま、いいわ。\nそれより、いつまで目をつぶってるの？", (0x04000000 +2909));
+talk("サイト", null, "いつまでって、そりゃおまえが服を\n着るまで……。", (0x04000000 +9415));
+talk("キュルケ", null, "えい。", (0x04000000 +2910));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+talk("サイト", null, "（なー！？\n　この胸に当たる柔らかく暖かい\n　幸せなふたつの感触はー！？）", null);
+talk("キュルケ", null, "うふふ、これでも目を開けないつもりかしら？", (0x04000000 +2911));
+talk("サイト", null, "う゛ぉー！？\n駄目だ、我慢の限界だー！", (0x04000000 +9416));
+back();
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +698)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+next((0x01000000 +1249), true);

@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +49)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "な、なにかの間違いだ！\nキュルケが俺の妹だなんて。", (0x04000000 +12988));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "そんなことは分かってるわよ！", (0x04000000 +7027));
+tndl(30);
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +493)});
+talk("シエスタ", null, "それでは、女の子にお兄ちゃんと\n呼ばせる遊びですか？", (0x04000000 +15072));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +497)});
+talk("シエスタ", null, "だったら、わたしに言ってくれれば\nいつだって、お兄ちゃんって呼んで\nあげるのに……。", (0x04000000 +15073));
+set("lay5", {y = 0,dr = "2B",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +440),imageType = 2});
+talk("サイト", null, "ま、待て！\n俺には妹属性はないぞっ！", (0x04000000 +12989));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "今キュルケに、グッと来てるのは\n気のせいなんだ！", (0x04000000 +12990));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+next((0x01000000 +608), true);

@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +979)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ごめん、ちょっとショック……。", (0x04000000 +11395));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +979)});
+talk("ハルナ", null, "平賀くん、ごめんなさい……。", (0x04000000 +2209));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "いや、気づかなかった俺も悪いし。", (0x04000000 +11396));
+talk("ハルナ", null, "本当にごめんなさい。", (0x04000000 +2210));
+like("ハルナ", -10);
+tndl(30);
+next((0x01000000 +201), true);

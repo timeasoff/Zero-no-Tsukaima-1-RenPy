@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +184)});
+waitLoad(true);
+vibrate(1);
+talk("ルイズ", null, "……カプっ。", (0x04000000 +5189));
+talk("サイト", null, "はうぁっ！\nど、どこ噛んでやがりますか！", (0x04000000 +10482));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+talk("ルイズ", null, "……キュルケに教えてもらったの。\nこうやって優しく耳を噛んであげると\n男の子は喜ぶって。", (0x04000000 +5190));
+talk("ルイズ", null, "……ねぇ、喜んでくれないの？", (0x04000000 +5191));
+talk("サイト", null, "そ、そりゃその……あの……。", (0x04000000 +10483));
+selectInit();
+selectItem("や、やめてっ！", (0x01000000 +1761), null, true);
+selectItem("やめないで！", (0x01000000 +1762), null, true);
+selectItem("も、もっとぉ！？", (0x01000000 +1763), null, true);
+select();

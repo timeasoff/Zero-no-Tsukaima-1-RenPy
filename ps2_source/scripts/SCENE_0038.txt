@@ -1,0 +1,37 @@
+if (isJump()){
+reset();
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +588)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +78)});
+}
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "なあ、ルイズ。\nなんでこんなに人がいるんだ？", (0x04000000 +10921));
+talk("ルイズ", null, "あんたと一緒に来たわたしに、\nそんなこと分かるわけないでしょ！", (0x04000000 +5639));
+talk("サイト", null, "うん、そりゃごもっともな言い分だけど、\nこのやり場のない思いを共有できそうなのは\nルイズだけかなって思って。", (0x04000000 +10922));
+talk("ルイズ", null, "ああ、それはそうね。\nでも、原因は分かってるわ。", (0x04000000 +5640));
+like("ルイズ", 10);
+tndl(30);
+talk("サイト", null, "え？", (0x04000000 +10923));
+set("lay1", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +341)});
+talk("ルイズ", null, "ねえ、シエスタ。\nあなたがわたし達を呼びに来る前は、\nこんなに賑やかじゃなかったんでしょ？", (0x04000000 +5641));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "はい。ミス・モンモランシーには\nお知らせしましたけど、\n他の方々には全然……。", (0x04000000 +14530));
+set("lay1", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "ってことは、答えはひとつよね。\nねえ、モンモランシー？", (0x04000000 +5642));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +887)});
+talk("モンモランシー", null, "……ほほほ。", (0x04000000 +4043));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +588)});
+talk("キュルケ", null, "まあ、いいじゃない。\n話によっては、あたし達も手を貸すわよ。", (0x04000000 +3113));
+talk("タバサ", null, "……。", null);
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+next((0x01000000 +39), true);

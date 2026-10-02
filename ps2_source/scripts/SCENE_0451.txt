@@ -1,0 +1,15 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +12)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +302)});
+talk("シエスタ", null, "ミス・ヴァリエール。\n短い間でしたがお世話になりました。", (0x04000000 +15109));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "わたしの部屋の修理が終わったようですので、\n今日からはそちらで。", (0x04000000 +15110));
+selectInit();
+selectItem("……忘れてた", (0x01000000 +452), null, true);
+selectItem("引越しの手伝いをするよ", (0x01000000 +453), null, true);
+selectItem("部屋が新しくなって良かったかも？", (0x01000000 +454), null, true);
+select();

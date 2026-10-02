@@ -1,0 +1,3341 @@
+========================================================================
+CHAPTER 91 : 特別イベントB（トゥンデレ／デレ）
+extra scenes: 1697..1860  (164)
+========================================================================
+
+---- SCENE 1697 ----
+
+---- SCENE 1698 ----
+
+---- SCENE 1699 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：ね、ねえ、サイト。
+おなか、空いてない？  [voice 5035]
+サイト：えっ？
+な、なんだよ、いきなり。  [voice 10333]
+ルイズ：す・い・て・る・わ・よ・ね？  [voice 5036]
+サイト：あ……ええっと……。  [voice 10334]
+  【選択肢】うん！　空いてる空いてる！！ → scene 1717
+  【選択肢】なんか、空いてる気がしてきた → scene 1718
+  【選択肢】断固空いてない → scene 1719
+
+---- SCENE 1700 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：ね、ねえ、サイト。
+ちょっとこっちに来て。  [voice 5071]
+サイト：は？
+なんだよ、一体。  [voice 10374]
+ルイズ：いいから来なさいっ！
+ご主人様の命令なんだから！  [voice 5072]
+サイト：お、おい。
+引っ張るなよ。  [voice 10375]
+  【選択肢】分かったよ、仕方ないな → scene 1725
+  【選択肢】お供します、ご主人様 → scene 1726
+  【選択肢】断固断る → scene 1727
+
+---- SCENE 1701 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：ね、ねえ、サイト。
+アンタ、おなか空いてない？  [voice 5109]
+サイト：え？
+うーん、そうだなあ。  [voice 10407]
+  【選択肢】まあ、空いてるかな → scene 1733
+  【選択肢】実はぺこぺこ！！ → scene 1734
+  【選択肢】じゃ、そういうことで → scene 1735
+
+---- SCENE 1702 ----
+  [EVENT_CG event    image=+182, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：ねえ、サイト。
+……本当に分からないの？  [voice 5142]
+サイト：ひゃ、ひゃぁっ！？  [voice 10442]
+サイト：（み、耳元にルイズの息がぁっ！）
+サイト：（耳に息を吹きかけるなんて……、
+　ど、どこでそんなテクニックを？）
+ルイズ：それとも、分からないふりをしてるの？  [voice 5143]
+サイト：え、あ、あのルイズ……さん？  [voice 10443]
+ルイズ：女の子の気持ちを……よ？  [voice 5144]
+  【選択肢】ど、どういう意味？ → scene 1741
+  【選択肢】……わ、分からないです → scene 1742
+  【選択肢】お、俺の中の狼さんが……！ → scene 1743
+
+---- SCENE 1703 ----
+  [BGM      bgm      stop=1000]
+  [EVENT_CG event    image=+182, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……ねえ、サイト？
+わたしと一緒にいるのはそんなにいや？  [voice 5160]
+ルイズ：……っ。  [voice 5161]
+  [VIBRATE vibrate(1)]
+サイト：ひ、ひぅっ！  [voice 10457]
+サイト：い、いきなり耳元に息をふきかけるんじゃ
+ねえっ！  [voice 10458]
+ルイズ：……き、気持ち良かった？  [voice 5162]
+  【選択肢】気持ちは……良かったかも → scene 1749
+  【選択肢】どこで覚えてきたんだよっ！ → scene 1750
+  【選択肢】へ、平常心！　平常心！ → scene 1751
+
+---- SCENE 1704 ----
+  [BGM      bgm      stop=1000]
+  [EVENT_CG event    image=+182, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……サ、サイトの馬鹿っ！
+どうしていつもそうなの？  [voice 5182]
+サイト：い、いや、あのルイズ……？  [voice 10475]
+ルイズ：わ、わたしのこと……嫌い？  [voice 5183]
+サイト：い、いやそんな。
+嫌いってわけじゃ。  [voice 10476]
+ルイズ：だったら何故いつも意地悪するの？  [voice 5184]
+サイト：い、いや別に意地悪なんて……。  [voice 10477]
+サイト：（ルイズの体温と重みが背中に……）
+  【選択肢】た、助けて！ → scene 1757
+  【選択肢】俺の心の狼さんが…… → scene 1758
+  【選択肢】や、やわらかい…… → scene 1759
+
+---- SCENE 1705 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：ほんとに、もうっ！  [voice 5198]
+ルイズ：今日はどこにも行かないで、
+わたしと一緒にいなさいっ！  [voice 5199]
+サイト：……は、はぁい。  [voice 10493]
+ルイズ：な、なによ。
+その態度！  [voice 5200]
+ルイズ：わ、わたしと一緒じゃ不満なの？  [voice 5201]
+サイト：……い、いえとんでもない！
+ご一緒できて光栄でありますっ！  [voice 10494]
+ルイズ：もうっ！
+だったら最初からそう言いなさい！  [voice 5202]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+null：………。
+……。
+…。
+サイト：はぁ～～～～っ！  [voice 10495]
+ルイズ：……スゥスゥ。  [voice 5203]
+サイト：（本人はとっとと寝ちゃうし……。
+　俺は緊張しちゃってるっていうのに……）
+  【選択肢】寝顔はホントかわいいよな → scene 1765
+  【選択肢】よこしまな考えが…… → scene 1766
+  【選択肢】……お、俺も寝るか → scene 1767
+
+---- SCENE 1706 ----
+  [BGM      bgm      stop=1000]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……外出禁止よ！  [voice 5222]
+ルイズ：今日はどこにも行かず、
+わたしと一緒にいなさいっ！  [voice 5223]
+サイト：そ、そんな横暴な……。  [voice 10501]
+ルイズ：なにか不満でも？  [voice 5224]
+サイト：……い、いいえ。
+お付き合いしますです。  [voice 10502]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+185, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：（……はぁ。
+　結局、ルイズは一日べったりだったし）
+ルイズ：……ねぇ、サイト……起きてる？  [voice 5225]
+サイト：お、起きてるけど？  [voice 10503]
+ルイズ：……あの、腕枕……してくれる？  [voice 5226]
+サイト：え？
+ええと。  [voice 10504]
+  【選択肢】べ、別にいいけど？ → scene 1773
+  【選択肢】ち、ちょっと！ → scene 1774
+  【選択肢】断る！ → scene 1775
+
+---- SCENE 1707 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……サイトはわたしの使い魔よね？  [voice 5246]
+ルイズ：だったら、これは命令よ！
+今日は一日わたしと一緒にいなさい！
+……め、命令なんだからね！  [voice 5247]
+サイト：そ、そりゃいいけど。  [voice 10523]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+185, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：な、なあ。
+ルイズ。  [voice 10524]
+ルイズ：……な、なによ。  [voice 5248]
+サイト：ちょっと、くっつきすぎじゃありませんか？  [voice 10525]
+ルイズ：い、いいじゃない。  [voice 5249]
+サイト：（今日は一日中べたべたしてた気がするのに
+　まだ足りないっていうのかよ……）
+サイト：（で、でもそれにしても……）
+サイト：（……女の子の体って、
+　暖かくてやわらかいなぁ。
+　……それにいい匂いが……）
+サイト：……って、何考えてんだよ俺！  [voice 10526]
+ルイズ：もうっ、どうしたのよ？  [voice 5250]
+サイト：ええと、いやその……。  [voice 10527]
+  【選択肢】正直に…… → scene 1781
+  【選択肢】からかってみる？ → scene 1782
+  【選択肢】笑ってごまかす → scene 1783
+
+---- SCENE 1708 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……ねえ、サイト。
+あなた、お風呂が好きだったわよね。  [voice 5274]
+サイト：へっ？
+ええ、まあ……。  [voice 10556]
+サイト：といっても、俺の故郷じゃ普通っていうか、
+人並み程度ですけど……。  [voice 10557]
+ルイズ：……そう。
+いいわ。  [voice 5275]
+ルイズ：じゃあ、わたしが背中を洗ってあげる。  [voice 5276]
+サイト：……へ？  [voice 10558]
+ルイズ：な、なによ！
+わたしが洗ってあげるっていうんじゃ
+不満なの！？  [voice 5277]
+  【選択肢】そ、それはさすがに…… → scene 1789
+  【選択肢】それは、うれしいですけど…… → scene 1790
+  【選択肢】それじゃお願いします → scene 1791
+
+---- SCENE 1709 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：今日も、サイトのことお風呂で洗ってあげる。
+早く付いて来なさい。  [voice 5309]
+サイト：……へっ？
+……え、ええっ！？  [voice 10582]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+187, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：さぁ、洗ってあげるわよ。
+早く背中向けなさい！  [voice 5311]
+サイト：（ルイズと一緒にお風呂なんて……）
+  【選択肢】落ち着かない → scene 1797
+  【選択肢】不気味で怖い！ → scene 1798
+  【選択肢】楽しみで踊っちゃうよ！ → scene 1799
+
+---- SCENE 1710 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……サ、サイトの馬鹿っ！
+イジワル！
+他の女の子がそんなにいいの！！  [voice 5335]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    hide]
+  [TRANS trans("crossfade", 1000)]
+サイト：ぐはぁぁぁっ！  [voice 10605]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：い、いや、勘違いだと思うし、
+俺、そんなにフラフラしてないし。
+ご主人様一直線ですよ？  [voice 10606]
+ルイズ：なら、他の女の子を見たりしない？  [voice 5336]
+サイト：え、ええと。  [voice 10607]
+  【選択肢】も、もちろん！ → scene 1805
+  【選択肢】前向きに善処します → scene 1806
+  【選択肢】む、無理じゃないかと？ → scene 1807
+
+---- SCENE 1711 ----
+  [EVENT_CG event    image=+190, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：サイト！  [voice 5372]
+  [VIBRATE vibrate(1)]
+サイト：な、どうしたんだよ。
+いきなり俺のこと押し倒して！  [voice 10638]
+ルイズ：ねえ、サイト。
+わたしのことをどう思ってる？  [voice 5373]
+ルイズ：わたしって他の女の子にくらべて
+そんなに魅力がない？  [voice 5374]
+サイト：ど、どうしたんだよ、急に。
+普段はあんなに自信家のくせに。  [voice 10639]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：さ、サイトが悪いんじゃない！
+あっちの女の子にふらふら、
+こっちの女の子にふらふら……。  [voice 5375]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：ねぇ？
+サイトから見て、わたしってかわいい？  [voice 5376]
+  【選択肢】ルイズはかわいい → scene 1813
+  【選択肢】ルイズもかわいい → scene 1814
+  【選択肢】でも、貧乳が…… → scene 1815
+
+---- SCENE 1712 ----
+  [EVENT_CG event    image=+190, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……ねえ、サイト。  [voice 5399]
+ルイズ：なんというか……その……、
+あ、あなたには愛情がたりないわ！  [voice 5400]
+サイト：……あ、愛情？  [voice 10662]
+サイト：え、ええと？
+それは……。
+つまり、俺にいったいどうしろと？  [voice 10663]
+ルイズ：な、なによ！
+そんなことも分からないの！  [voice 5401]
+ルイズ：乙女には花束と愛と情熱に満ちた言葉が
+必要なのよ！  [voice 5402]
+サイト：（……ホントかよ）
+ルイズ：あんたも『ルイズ様の愛のしもべ』ぐらいは
+言ったらどうなの？  [voice 5403]
+サイト：あ、いや、恥ずかしいし……。  [voice 10664]
+ルイズ：……特訓、ね。  [voice 5404]
+サイト：へっ？  [voice 10665]
+ルイズ：そんなことだから乙女心が分からないのよ！
+バカ犬！  [voice 5405]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：このわたしが徹底的に愛と情熱というものを
+叩き込んであげる！  [voice 5406]
+  【選択肢】……え、遠慮します → scene 1821
+  【選択肢】あ、愛と情熱って…… → scene 1822
+  【選択肢】ギーシュみたいにやればいいの？ → scene 1823
+
+---- SCENE 1713 ----
+  [EVENT_CG event    image=+190, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……ねぇ、サイト。
+あなた、わたしのことをどう思ってるの？  [voice 5433]
+サイト：……へっ？  [voice 10698]
+ルイズ：ちゃんとわたしのこと気にかけてる？  [voice 5434]
+サイト：……え、ええと？  [voice 10699]
+  【選択肢】気にかけています → scene 1829
+  【選択肢】気にしてる…かも？ → scene 1830
+  【選択肢】そもそも何の質問？ → scene 1831
+
+---- SCENE 1714 ----
+  [BGM      bgm      stop=1000]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……いいわよ！
+罰ゲームよ！  [voice 5470]
+サイト：ええっ！
+ま、また何かむごいことを？  [voice 10725]
+ルイズ：もうっ、違うわよ！  [voice 5471]
+ルイズ：さ、サイトは見たことないでしょうけど、
+この世界にはティモシュっていう
+こういうお菓子があるの。  [voice 5472]
+サイト：は、はあ……。  [voice 10726]
+サイト：（これ、ポッチーだろ。
+　いや、チョコがないからプリッチか？）
+サイト：（この世界でもあるんだ。
+　こういうお菓子）
+ルイズ：これは、その。
+ちょっと変わった食べ方をするお菓子なの。  [voice 5473]
+ルイズ：て、手を使わずに食べるのよ！  [voice 5474]
+サイト：……って、えっ？  [voice 10727]
+サイト：あの、ルイズ。
+手を使わずに食べるって、
+まさか……。  [voice 10728]
+  【選択肢】……カップルがやるあれ？ → scene 1837
+  【選択肢】どうやって？ → scene 1838
+  【選択肢】……足で？ → scene 1839
+
+---- SCENE 1715 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……ねぇ、サイト？
+ちょっとゲームをしない？  [voice 5494]
+サイト：へっ、またですか？  [voice 10740]
+ルイズ：え、ええ。
+そうよ。  [voice 5495]
+ルイズ：わたしがこっちの端を咥えて、
+サイトがそっちから……食べるんだからね。  [voice 5496]
+ルイズ：さ、さあ、サイト。
+どうするの？  [voice 5497]
+  【選択肢】最後まで食べたらどうなるの？ → scene 1845
+  【選択肢】よ、よろこんで → scene 1846
+  【選択肢】か、勘弁してください → scene 1847
+
+---- SCENE 1716 ----
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+4]
+ルイズ：……もういいわ！
+今日はわたしに付き合いなさい！  [voice 5516]
+サイト：な、なんだよっ！
+急に！  [voice 10754]
+ルイズ：ティータイムにしましょう！  [voice 5517]
+サイト：なあ、ルイズ。
+また、アレやるのか？  [voice 10755]
+ルイズ：うふふ、そうよ！
+今回こそ、折らないように食べるんだからね！  [voice 5518]
+サイト：なんというか、その。
+……本気？  [voice 10756]
+ルイズ：な、なによ！
+それ！
+あたりまえじゃない！  [voice 5519]
+サイト：え、えーと、あの……。  [voice 10757]
+  【選択肢】ちょっと恥ずかしいかも？ → scene 1853
+  【選択肢】うまくいったときは？ → scene 1854
+  【選択肢】……す、素晴らしい → scene 1855
+
+---- SCENE 1717 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+  [SPRITE   lay5     hide]
+サイト：うん！
+空いてる空いてる！！  [voice 10335]
+サイト：（なんかよく分かんないけど……
+　ここはご機嫌とっとくべきだよな）
+サイト：もう俺、腹ぺこぺこ！！  [voice 10336]
+ルイズ：そう。
+良かった。  [voice 5037]
+サイト：良かった？  [voice 10337]
+ルイズ：あ、ううん。
+なんでもないの。  [voice 5038]
+  → next scene 1720
+
+---- SCENE 1718 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+  [SPRITE   lay5     hide]
+サイト：なんか、空いてる気がしてきた。  [voice 10338]
+サイト：（ここは逆らわない方が良さそうだ。
+　怒らせるとやっかいだし）
+ルイズ：うん、そうよね。
+使い魔だからって、
+遠慮することはないのよ。  [voice 5039]
+  → next scene 1720
+
+---- SCENE 1719 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：断固空いてない。  [voice 10339]
+サイト：（ここで負けてなるものかっ！）
+サイト：全然！
+全く！
+完璧に！！  [voice 10340]
+サイト：（俺は断固として自分の意志を……）
+ルイズ：……。  [voice 5040]
+サイト：（って、なんか怒ってるし！！）
+サイト：あ、いや……。
+やっぱり……空いてるかも……。  [voice 10341]
+ルイズ：ホント？  [voice 5041]
+サイト：う、うん。
+ホントホント。
+あー、腹減ったなぁ！！  [voice 10342]
+ルイズ：良かった。  [voice 5042]
+サイト：へっ？
+良かったって？
+何が？  [voice 10343]
+  → next scene 1720
+
+---- SCENE 1720 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+ルイズ：じゃあ、今から食堂に行きましょう！  [voice 5043]
+サイト：へっ？  [voice 10344]
+ルイズ：ほらっ、早く！
+行くわよっ！  [voice 5044]
+サイト：お、おいおい。
+なんだよ、急に……。  [voice 10345]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+ルイズ：ほら……食べなさいよ。  [voice 5045]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：へっ？
+なにこれ？  [voice 10346]
+ルイズ：何って、シチューよ。
+これが本に見える？  [voice 5046]
+サイト：いや、見えないけど。  [voice 10347]
+サイト：でも、どうして？  [voice 10348]
+サイト：（シチューだよな……。
+　どうして俺に？）
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：あ……え、えっと、
+か、勘違いしないでよね！  [voice 5047]
+ルイズ：別にあんたに食べさせようってだけで
+用意したわけじゃないんだから！！  [voice 5048]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：た、ただ、その……。  [voice 5049]
+サイト：？  [voice 10349]
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+ルイズ：そ、そう！
+余っちゃったからっ！  [voice 5050]
+サイト：あ……うん。
+分かった分かった。
+別にそんな、怒んなくても。  [voice 10350]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+ルイズ：べ、別に怒ってはないけど。
+それで……どう？
+食べる？  [voice 5051]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：あ、うん。
+もらう。
+美味そうだし。  [voice 10351]
+  [SPRITE   lay1     image=+337, level=160, dir=2A]
+ルイズ：そ、それじゃあ。  [voice 5052]
+サイト：うん。スプーンを。  [voice 10352]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+179, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：はい、あーん。  [voice 5053]
+サイト：……は？  [voice 10353]
+ルイズ：だから、あーん。  [voice 5054]
+サイト：……。  [voice 10354]
+  【選択肢】何の罰ゲーム？ → scene 1721
+  【選択肢】これ、毒でも入ってる？ → scene 1722
+  【選択肢】あーん → scene 1723
+
+---- SCENE 1721 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：何の罰ゲーム？  [voice 10355]
+  [EVENT_CG event    image=+181, level=80]
+ルイズ：な、なによそれっ！  [voice 5055]
+サイト：いや、だから、
+キュルケと賭けでもして負けたとか。  [voice 10356]
+ルイズ：そんなことしないわよっ！
+馬鹿っ！
+いいから食べなさいっっ！！  [voice 5056]
+サイト：お、怒んなくてもいいだろ。  [voice 10357]
+ルイズ：ほらっ！
+あーんっ！  [voice 5057]
+サイト：あ、あーん……。  [voice 10358]
+  [EVENT_CG event    image=+179, level=80]
+  → next scene 1724
+
+---- SCENE 1722 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：これ、毒でも入ってる？  [voice 10359]
+  [EVENT_CG event    image=+181, level=80]
+ルイズ：な、なんてこと言うのよっ！
+わたしがそんなことする
+わけないでしょっ！？  [voice 5058]
+サイト：あ、い、いや、ごめん。
+冗談。  [voice 10360]
+ルイズ：まったく、あんたってホント馬鹿。
+女心を分かってないんだから……。  [voice 5059]
+サイト：え？
+女心って？  [voice 10361]
+ルイズ：なんでもないわよっ！
+いいから食べなさいっ！！  [voice 5060]
+サイト：わ、分かったよ。  [voice 10362]
+  [EVENT_CG event    image=+179, level=80]
+  → next scene 1724
+
+---- SCENE 1723 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：あーん。  [voice 10363]
+サイト：（何たくらんでるのか知らないけど……、
+　逆らわない方が身のためだよな）
+ルイズ：あ、あら、今日は素直じゃない。
+いつもこうだったらいいのに。  [voice 5061]
+  → next scene 1724
+
+---- SCENE 1724 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：もぐもぐもぐ……。  [voice 10364]
+ルイズ：おいしい？  [voice 5062]
+サイト：うん！
+美味い！！  [voice 10365]
+ルイズ：ホント！？  [voice 5063]
+サイト：いやー、やっぱ美味いよなあ、
+この食堂の料理！  [voice 10366]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：……。  [voice 5064]
+サイト：いやー、もう、
+俺のたったひとつの楽しみなんだよなあ、
+メシ喰うのはっ！！  [voice 10367]
+ルイズ：……。  [voice 5065]
+サイト：って……あれ？
+どうした？
+ルイズ？  [voice 10368]
+ルイズ：……。  [voice 5066]
+サイト：もしもーし。
+ルイズさーん。  [voice 10369]
+  [EVENT_CG event    image=+181, level=80]
+ルイズ：……なによ。  [voice 5067]
+サイト：へ？  [voice 10370]
+ルイズ：なによなによっ！  [voice 5068]
+サイト：いや……何が？  [voice 10371]
+ルイズ：どうせ……、
+どうせ、わたしなんてっっ！！  [voice 5069]
+サイト：い、いや、だから、何が？  [voice 10372]
+ルイズ：サイトのばかぁぁぁっ！！  [voice 5070]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：あ……。
+行っちゃった。  [voice 10373]
+サイト：（何怒ってるんだよ、変な奴……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [COFFEE]
+
+---- SCENE 1725 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：分かったよ、仕方ないな。  [voice 10376]
+  [SPRITE   lay1     hide]
+ルイズ：な、なによ。
+べ、別にイヤだったら
+ついて来なくたっていいわよ。  [voice 5073]
+ルイズ：無理について来る必要なんてないんだから。  [voice 5074]
+サイト：（おいおい。
+　そんな顔してよく言うよ）
+サイト：（ついて行かない、
+　なんて言ったら何されるか……）
+ルイズ：何か言った？  [voice 5075]
+サイト：い、いえっ！！
+なんにもっっっ！！  [voice 10377]
+  → next scene 1728
+
+---- SCENE 1726 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：お供します、ご主人様。  [voice 10378]
+ルイズ：えっ！？
+あ……う、うん。  [voice 5076]
+サイト：どうかしましたか、ご主人様？  [voice 10379]
+ルイズ：べ、別に。
+あ、ただ……。  [voice 5077]
+サイト：ただ、なに？  [voice 10380]
+ルイズ：い、いつもこれくらい素直なら
+楽なのにって思っただけよ！  [voice 5078]
+ルイズ：ほ、ほらっ！
+行くわよっ！！  [voice 5079]
+  → next scene 1728
+
+---- SCENE 1727 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：断固断る。  [voice 10381]
+サイト：（今日は負けてないぞっ！）
+サイト：イヤだ！
+イヤったらイヤだっ！
+絶対に、世界が逆立ちしてもっっ！！  [voice 10382]
+サイト：（俺は断固として自分の意志を……）
+ルイズ：……。  [voice 5080]
+サイト：（って、なんか怒ってるし！！）
+サイト：あ、いや……。
+やっぱ……行きたくなってきた……かも。  [voice 10383]
+ルイズ：ホント？  [voice 5081]
+サイト：う、うん。
+ホントホント。  [voice 10384]
+ルイズ：そ、それじゃあ、行くわよ。  [voice 5082]
+  → next scene 1728
+
+---- SCENE 1728 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+ルイズ：ほら……これ。  [voice 5083]
+サイト：へっ？  [voice 10385]
+ルイズ：わたしが特別に作らせたんだから、
+ありがたく食べなさい。  [voice 5084]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：え？
+作らせた？  [voice 10386]
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+ルイズ：……えっ？
+あっっ！？  [voice 5085]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：ち、違うわよっ！
+何言ってるのっ！！  [voice 5086]
+ルイズ：お、思い上がらないでよねっ！
+の、残っちゃったから、
+取っておいてもらったのよっっ！！  [voice 5087]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：わ、わた、わたしが、
+何でわざわざあんたのために
+作ってもらわないといけないのよっ！  [voice 5088]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：あ……うん。
+分かった分かった。
+それで……これ、もらっていいのか？  [voice 10387]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：だ、だからそう言ってるでしょ！
+目の前に置いてお預け、なんて言わないわよ。  [voice 5089]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：うん。
+それじゃ、いただきまーす。  [voice 10388]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+179, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：はい、あーん。  [voice 5090]
+サイト：ま、またっ！！  [voice 10389]
+ルイズ：なによ。
+イヤなの？  [voice 5091]
+サイト：いや、その……イヤって言うか……。  [voice 10390]
+  【選択肢】だって恥ずかしいじゃん → scene 1729
+  【選択肢】イヤだっ！ → scene 1730
+  【選択肢】あ、あーん → scene 1731
+
+---- SCENE 1729 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：だって恥ずかしいじゃん。  [voice 10391]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：なっ！
+ななななな……。  [voice 5092]
+ルイズ：べ、べ、べ、別にっ！
+は、恥ずかしくなんかないわよっ！  [voice 5093]
+ルイズ：な、何言ってるのよっ！
+ば、馬鹿じゃないかしらっ！
+べ、別にわたしは恥ずかしくなんか……。  [voice 5094]
+サイト：いや……ルイズじゃなくて、俺が……。  [voice 10392]
+ルイズ：と、とにかくっ！
+いいから食べなさいっ！！  [voice 5095]
+ルイズ：ほらっ！
+あーんっ！  [voice 5096]
+サイト：あ、あーん……。  [voice 10393]
+  [EVENT_CG event    image=+179, level=80]
+  → next scene 1732
+
+---- SCENE 1730 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：イヤだっ！！  [voice 10394]
+  [EVENT_CG event    image=+181, level=80]
+ルイズ：なんですって！
+人の厚意を受け取れないって言うのっ！  [voice 5097]
+サイト：あのなぁ、
+厚意っていうのは押しつけるもんじゃあ……。  [voice 10395]
+ルイズ：許さないわ、そんなワガママっ！
+食べないっていうんなら、
+力づくでも……。  [voice 5098]
+サイト：（さ、殺気！？）
+サイト：わ、分かった！
+喰う、食べるっ！
+いただきます！！  [voice 10396]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：まったく……。
+最初からそういえばいいのよ。  [voice 5099]
+ルイズ：ほらっ！
+あーんっ！  [voice 5100]
+サイト：……あーん。  [voice 10397]
+  [EVENT_CG event    image=+179, level=80]
+  → next scene 1732
+
+---- SCENE 1731 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：あ、あーん。  [voice 10398]
+サイト：（ま、まあ、
+　変なもの入ってないだろうし、
+　美味いことは美味いし……）
+ルイズ：あ、あら、素直ね。
+少しは分かって来たのかしら。  [voice 5101]
+  → next scene 1732
+
+---- SCENE 1732 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：もぐもぐもぐ……。  [voice 10399]
+ルイズ：おいしい？  [voice 5102]
+サイト：うん！
+美味い！！  [voice 10400]
+ルイズ：ホント！？
+それじゃあ、もう一回！
+あーん！  [voice 5103]
+サイト：……へ？  [voice 10401]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：もう一回！  [voice 5104]
+サイト：わ、分かったよ……。
+……あーん。  [voice 10402]
+  [EVENT_CG event    image=+179, level=80]
+ルイズ：よく出来ました。
+はい、あーん。  [voice 5105]
+サイト：え……ま、また？  [voice 10403]
+  [EVENT_CG event    image=+181, level=80]
+ルイズ：あ、あたりまえでしょ！
+わたしの気が済む……こ、こほん、
+わたしがいいって言うまでさせるんだから。  [voice 5106]
+サイト：マ、マジっすか？  [voice 10404]
+ルイズ：なによ？
+いやなの？  [voice 5107]
+サイト：い、いや、そんなことはないけど……。  [voice 10405]
+  [EVENT_CG event    image=+179, level=80]
+ルイズ：ほらっ、あーん。  [voice 5108]
+サイト：あ、あーん……。  [voice 10406]
+サイト：（なんだこの、気恥ずかしいやら痒いやら、
+　複雑な気分は……）
+サイト：（なんの罰ゲームっすか……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1733 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：まあ、空いてるかな。  [voice 10408]
+ルイズ：な、なによ、別に無理しなくたって、
+い、いいんだから。  [voice 5110]
+サイト：いや、別に無理はしてないし。  [voice 10409]
+ルイズ：……そう？  [voice 5111]
+  → next scene 1736
+
+---- SCENE 1734 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：さすがご主人様！
+実はぺこぺこ！！  [voice 10410]
+ルイズ：あ、あら、そうだったの。
+それならそう言えば良かったのに……。  [voice 5112]
+サイト：いやあ、さすが思慮深いご主人様です。
+この使い魔めのことを、
+よく分かっておられる！  [voice 10411]
+ルイズ：な、なによ。
+お、おだてたって、何も出ないんだから。  [voice 5113]
+サイト：いやいや、本心からでございます！  [voice 10412]
+ルイズ：ま、まあ、いいわ。
+そ、そういうことにしておいてあげる。  [voice 5114]
+  → next scene 1736
+
+---- SCENE 1735 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：じゃあ、そういうことで。  [voice 10413]
+ルイズ：ちょ、ちょ、待ちなさいよっ！！  [voice 5115]
+サイト：いや、だって、
+空いてないんだったらいいんだろ？  [voice 10414]
+ルイズ：そ、それは……そうだけど……。
+それは言葉のアヤよ！  [voice 5116]
+サイト：えー。  [voice 10415]
+ルイズ：もう一度聞くわ。
+おなか、空いてるわよね？  [voice 5117]
+サイト：ハイ……ぼくおなかぺこぺこでしゅ……。  [voice 10416]
+  → next scene 1736
+
+---- SCENE 1736 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+ルイズ：それじゃあ、食堂に行きましょうか。  [voice 5118]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+ルイズ：ほら……これ。
+食べなさいよ。  [voice 5119]
+サイト：あ、うん。  [voice 10417]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+179, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：は、はい。あーん。  [voice 5120]
+サイト：う……。  [voice 10418]
+ルイズ：なによ。
+イヤなの？  [voice 5121]
+サイト：い、いや、そんなことは……。  [voice 10419]
+サイト：（ま、まあ、見た目美味そうだし、
+　ここは我慢して……）
+サイト：あ、あーん。  [voice 10420]
+サイト：ぱくっ。  [voice 10421]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     hide, vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：……！！！！  [voice 10422]
+サイト：（こ、これはっっっっ！！）
+ルイズ：どう？
+おいしい？  [voice 5122]
+サイト：（い、いや、これはおいしいとかまずいとか、
+　それ以前の問題で……）
+ルイズ：一口じゃ分からなかったかしら？
+じゃあ、もう一口。
+あーん。  [voice 5123]
+サイト：あ、あ、あ、あーん……。  [voice 10423]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：むぐっ！！！！  [voice 10424]
+サイト：（や、やっぱり……美味いっていうか、
+　そうでないっていうか……、
+　ぶっちゃけ不味い……すっごく……）
+ルイズ：どう？
+おいしい？  [voice 5124]
+サイト：あ、あの、ルイズ様。
+つかぬ事を伺いますが、
+コレを作ったのは……。  [voice 10425]
+ルイズ：あ、やっぱり分かった？
+これはね、わたしが作ってみたの。
+見よう見まねで。  [voice 5125]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：あ、で、でもっ！
+勘違いしないでよね！  [voice 5126]
+ルイズ：別にアンタのために作ったって訳じゃなくて、
+作ってみたかったから作っただけで……。  [voice 5127]
+サイト：あ……そ、そでしゅか……。  [voice 10426]
+  [EVENT_CG event    image=+179, level=80]
+ルイズ：どうしたの？
+汗、いっぱいかいてるけど。  [voice 5128]
+サイト：い、いえ……なんでもないでしゅ……。  [voice 10427]
+ルイズ：それで！
+どう、味の方は？
+割と、自信作なんだけど。  [voice 5129]
+サイト：じ、自信作っ！！  [voice 10428]
+サイト：（こ、これが……？）
+  【選択肢】大変個性的なお味です → scene 1737
+  【選択肢】なんか、涙が出てきた → scene 1738
+  【選択肢】マズイッ！！ → scene 1739
+
+---- SCENE 1737 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：大変個性的なお味です……。  [voice 10429]
+ルイズ：そう？
+料理はあんまり得意じゃないんだけど……。
+もう少し自信もってもいいかな？  [voice 5130]
+サイト：あ、あははは。
+そ、ソウカモネ……。  [voice 10430]
+サイト：（料理ってか……、
+　これはもはや兵器のような……）
+  → next scene 1740
+
+---- SCENE 1738 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：なんか、涙が出てきた……。  [voice 10431]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：な、なによ、大げさね。
+そんなに褒めたって、何も出ないんだから。  [voice 5131]
+サイト：あ、あはははは。
+ご、ご主人様は天才でしゅ……。  [voice 10432]
+  [EVENT_CG event    image=+179, level=80]
+ルイズ：もう……馬鹿なこと言ってないで、食べなさい。  [voice 5132]
+サイト：は、はいでしゅ……。  [voice 10433]
+  → next scene 1740
+
+---- SCENE 1739 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+サイト：（マズイ！！）
+サイト：（なんて、言えるわけないよなあ……）
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：ねえ、何か言いなさいよ。
+気になるわねぇ……。  [voice 5133]
+サイト：は、はあ……大変、美味でしゅ……。  [voice 10434]
+ルイズ：ふぅ……。
+もう少し気の利いたことを
+言えるようになって欲しいわ。  [voice 5134]
+サイト：これ以上気の利いた事なんて言えるか……。  [voice 10435]
+ルイズ：え？
+何か言った？  [voice 5135]
+サイト：い、いえっ！！
+なんでもっっっ！！  [voice 10436]
+  [EVENT_CG event    image=+179, level=80]
+  → next scene 1740
+
+---- SCENE 1740 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+179, level=80]
+ルイズ：でも、アンタは幸せ者よ？  [voice 5136]
+サイト：そ、そうでしょうか……？  [voice 10437]
+ルイズ：そうよ！
+こんなに可愛くて、優しくて、料理の上手な
+ご主人様なんて、そうそういないんだから。  [voice 5137]
+サイト：は、はぁ……。  [voice 10438]
+ルイズ：感謝の言葉は？  [voice 5138]
+サイト：へ？  [voice 10439]
+  [EVENT_CG event    image=+180, level=80]
+ルイズ：か・ん・しゃ・の・こ・と・ば！  [voice 5139]
+サイト：ええっと……。
+ボ、ボクハステキナゴシュジンサマヲモテテ
+シアワセダナァ、ワァイ。  [voice 10440]
+ルイズ：何か引っかかる言い方ね。
+まあ、いいけど。  [voice 5140]
+  [EVENT_CG event    image=+179, level=80]
+ルイズ：こんなステキなご主人様を放って
+他の女の子にしっぽ振ったりなんかしちゃ
+駄目よ？  [voice 5141]
+サイト：は、はい……分かりましたぁ……。  [voice 10441]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1741 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：そ、それって……どういう意味？  [voice 10444]
+ルイズ：……わたしは答えをあげないもん。  [voice 5145]
+  → next scene 1744
+
+---- SCENE 1742 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：……わ、分からないです。
+女の子が何を考えてるかなんて。  [voice 10445]
+ルイズ：サイトは知ろうとしていないだけ。
+どうして分からないの？  [voice 5146]
+  → next scene 1744
+
+---- SCENE 1743 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：（……ルイズの囁きが……耳元で……。
+　いい匂い……）
+サイト：（お、俺の中の狼さんが……）
+ルイズ：うふふ、どうしたのサイト？
+顔が真っ赤よ。  [voice 5147]
+  → next scene 1744
+
+---- SCENE 1744 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：（そ、そんな……耳元にルイズの唇が……？）
+ルイズ：ねえ、サイト。
+聞いてるの？  [voice 5148]
+サイト：は、はひ……聞いておりますぅ……。  [voice 10446]
+ルイズ：じゃあ、ちゃんと返事をしなさい。  [voice 5149]
+サイト：あ、あの……ちょっと……。
+近づきすぎてませんか、ご主人様？  [voice 10447]
+ルイズ：……もしかして、イヤ？  [voice 5150]
+サイト：ちょ、ちょっと落ち着かないかな～～、
+なんて。  [voice 10448]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：こ、こうすると男の子が喜ぶって
+キュルケが言ってたもん。  [voice 5151]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：……サ、サイトは嬉しくないの？  [voice 5152]
+サイト：ああっ、耳にルイズの桜色の唇がぁ……。  [voice 10449]
+  【選択肢】嬉しいけどぉ……！ → scene 1745
+  【選択肢】う、嬉しくなんてないぞっ！ → scene 1746
+  【選択肢】が、我慢できない！ → scene 1747
+
+---- SCENE 1745 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：……う、嬉しいけどぉ！
+り、理性の限界がぁっ！  [voice 10450]
+ルイズ：これはおしおきなの。
+ちゃんと耐えなさい。  [voice 5153]
+サイト：は、はい……。  [voice 10451]
+  → next scene 1748
+
+---- SCENE 1746 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：う、嬉しくなんてないぞっ！  [voice 10452]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：……むっ、何を怒ってるのよ？  [voice 5154]
+サイト：る、ルイズの色香になんて惑わされ
+ないんだからな！  [voice 10453]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：なによ……。
+思いっきり動揺してるじゃない。
+もう、素直じゃないんだから……。  [voice 5155]
+ルイズ：これはおしおきなの。
+ちゃんと耐えなさい。  [voice 5156]
+サイト：は、はい……。  [voice 10454]
+  → next scene 1748
+
+---- SCENE 1747 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：（が、我慢できないっ！
+　理性の限界っ！）
+サイト：（ルっ、ルイズぅぅっ！）
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：何、振り向こうとしてるのよ、
+このバカ犬っ！  [voice 5157]
+サイト：き、きゃいーん！  [voice 10455]
+ルイズ：ホントにもうっ！
+……バカ犬なんだから。  [voice 5158]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：これはおしおきなの。
+ちゃんと耐えなさい。  [voice 5159]
+サイト：は、はい……。  [voice 10456]
+  → next scene 1748
+
+---- SCENE 1748 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1749 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：気持ちは……良かったかも。  [voice 10459]
+ルイズ：そう？  [voice 5163]
+サイト：……え、え～と。  [voice 10460]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：な、なによ。
+もう一度して欲しいのっ？  [voice 5164]
+サイト：いや、そういう問題じゃなくて！  [voice 10461]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：……うふふ、動揺してるんだ？  [voice 5165]
+  → next scene 1752
+
+---- SCENE 1750 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：ど、どこでこんなこと覚えてくるんだよっ！  [voice 10462]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：な、なによ。
+気持ちよくなかった！？  [voice 5166]
+サイト：い、いや！
+その、なんというか……。  [voice 10463]
+  [EVENT_CG event    image=+182, level=80]
+  → next scene 1752
+
+---- SCENE 1751 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：（へ、平常心！
+　平常心！）
+ルイズ：……ねぇ、どうしたの、サイト？
+黙ってばかりで。
+そんなに嫌だった？  [voice 5167]
+サイト：（う、うわ～～っ。
+　ルイズの体が寄ってくるなんて……）
+サイト：な、なんでこんなことを……。  [voice 10464]
+  → next scene 1752
+
+---- SCENE 1752 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：……だって。  [voice 5168]
+ルイズ：……こ、こうすると男の子が喜ぶって
+キュルケが言ってたもん。  [voice 5169]
+サイト：（……うっ、かわいいっ）
+ルイズ：ねえ？
+サイトは……うれしくないの？  [voice 5170]
+サイト：え、ええと……。  [voice 10465]
+  【選択肢】うれしいです。続けてください → scene 1753
+  【選択肢】べ、ベタベタするな！ → scene 1754
+  【選択肢】り、理性の限界がぁっ！ → scene 1755
+
+---- SCENE 1753 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：う、うれしいです。
+……続けてください。  [voice 10466]
+ルイズ：あっ……うん。  [voice 5171]
+ルイズ：もうっ、仕方ないんだからっ。  [voice 5172]
+ルイズ：ねえ……こう？  [voice 5173]
+サイト：あ、ふぅっ。  [voice 10467]
+ルイズ：首筋に……こういうのはどうかしら？  [voice 5174]
+サイト：い、いいです。
+ご主人様っ。
+それ、もっとっ！  [voice 10468]
+ルイズ：うふふふっ。
+癖になりそう……。  [voice 5175]
+  → next scene 1756
+
+---- SCENE 1754 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：べ、ベタベタするんじゃない！  [voice 10469]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：……な、なによ。
+いきなり怒り出して。  [voice 5176]
+サイト：そ、そんなふうにされると……、
+いろいろ困るんだよ。
+男の子はっ！  [voice 10470]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：もうっ、いいじゃない。
+少しぐらい。
+うふふっ。  [voice 5177]
+  → next scene 1756
+
+---- SCENE 1755 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：り、理性の限界がぁっ！  [voice 10471]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：……な、なに考えてるのよっ！  [voice 5178]
+サイト：ル、ルイズ！  [voice 10472]
+ルイズ：もうっ、我慢なさいっ！  [voice 5179]
+サイト：そ、そんなぁ……。
+そ、その気にさせといて
+それは……。  [voice 10473]
+ルイズ：……そ、その気って……もうっ！
+何を考えてるの？  [voice 5180]
+サイト：ううっ、すいません。  [voice 10474]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：うふふ……。
+ホントに仕方ないんだから……。  [voice 5181]
+  → next scene 1756
+
+---- SCENE 1756 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1757 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：（これはマズイ！
+　マズイって！）
+サイト：そ、そういうのはちょっと……。  [voice 10478]
+サイト：た、助けてぇぇっ！  [voice 10479]
+ルイズ：逃げないで。
+サイト。  [voice 5185]
+  → next scene 1760
+
+---- SCENE 1758 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：ちょ、ちょっと。
+ま、待ってぇ！  [voice 10480]
+サイト：（お、俺の心の狼さんが……暴走を……）
+ルイズ：ねぇ、なんでわたしのこと拒絶するの？
+サイト。  [voice 5186]
+  → next scene 1760
+
+---- SCENE 1759 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：（あうっ……や、やわらかい……）
+ルイズ：ほら、じっとしてなさい……。  [voice 5187]
+ルイズ：ねぇ、サイト……。
+わたしのこと……嫌いじゃないわよね？  [voice 5188]
+サイト：……う、うん。
+そ、そうなんだけど……。  [voice 10481]
+  → next scene 1760
+
+---- SCENE 1760 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+  [EVENT_CG event    image=+184, level=80]
+  [VIBRATE vibrate(1)]
+ルイズ：……カプっ。  [voice 5189]
+サイト：はうぁっ！
+ど、どこ噛んでやがりますか！  [voice 10482]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：……キュルケに教えてもらったの。
+こうやって優しく耳を噛んであげると
+男の子は喜ぶって。  [voice 5190]
+ルイズ：……ねぇ、喜んでくれないの？  [voice 5191]
+サイト：そ、そりゃその……あの……。  [voice 10483]
+  【選択肢】や、やめてっ！ → scene 1761
+  【選択肢】やめないで！ → scene 1762
+  【選択肢】も、もっとぉ！？ → scene 1763
+
+---- SCENE 1761 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：や、やめてぇっ！  [voice 10484]
+  [EVENT_CG event    image=+183, level=80]
+ルイズ：な、なにっ！
+こーゆーのイヤなの？  [voice 5192]
+サイト：そういうわけじゃないけど……。  [voice 10485]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：うふふ……。  [voice 5193]
+サイト：い、いや、だからっ！  [voice 10486]
+  → next scene 1764
+
+---- SCENE 1762 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：や、やめないで！  [voice 10487]
+ルイズ：ふぅん？
+こーゆーのがいいのね？
+はむはむ。  [voice 5194]
+  [EVENT_CG event    image=+184, level=80]
+  [VIBRATE vibrate(1)]
+サイト：……ルイズっ……そ、そんな！  [voice 10488]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：ご主人様のことを見てくれない
+悪い子にはおしおきなんだから……。  [voice 5195]
+  [EVENT_CG event    image=+184, level=80]
+サイト：はうう……。
+ご、ご主人様～～っ！  [voice 10489]
+  [EVENT_CG event    image=+182, level=80]
+  → next scene 1764
+
+---- SCENE 1763 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+サイト：も、もっとぉ！？  [voice 10490]
+ルイズ：そんなに効くなんて思ってもみなかったわ。
+はむはむ。  [voice 5196]
+  [EVENT_CG event    image=+184, level=80]
+  [VIBRATE vibrate(1)]
+サイト：……ルイズっ……そ、そんな！  [voice 10491]
+  [EVENT_CG event    image=+182, level=80]
+  → next scene 1764
+
+---- SCENE 1764 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+182, level=80]
+ルイズ：うふふ、かわいい。
+もっと噛んじゃお。  [voice 5197]
+  [EVENT_CG event    image=+184, level=80]
+  [VIBRATE vibrate(1)]
+サイト：ひ、ひぅっ。  [voice 10492]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1765 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（でも、寝顔はホントかわいいよな。
+　さすがは貴族のお嬢さま）
+サイト：（おとぎ話の眠り姫みたいで……）
+サイト：……。
+ルイズ：……んっ……スゥスゥ……。  [voice 5204]
+サイト：（やばい……ドキドキしてきたぞ……）
+  → next scene 1768
+
+---- SCENE 1766 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（ま、まずい、よこしまな考えが……）
+ルイズ：……んっ……スゥスゥ……。  [voice 5205]
+サイト：（や、やめるんだ！
+　俺！）
+null：……ふにっ、ふにふにっ。
+サイト：（ああっ！
+　や、やわらかいっ！
+　やわらかいっすよ！）
+サイト：（ルイズのほっぺた！）
+ルイズ：……んっ……んんっ……。  [voice 5206]
+サイト：（やばい……ドキドキしてきたぞ……）
+  → next scene 1768
+
+---- SCENE 1767 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（……お、俺も寝よう）
+サイト：……。
+ルイズ：……んっ……スゥスゥ……。  [voice 5207]
+サイト：（……ルイズの寝息……体温……）
+サイト：（……だ、ダメだ。
+　眠れないって！）
+  → next scene 1768
+
+---- SCENE 1768 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（はあ～～、信頼してくれてるのは
+　嬉しいけど……）
+サイト：（……お、俺だって実は
+　狼さんだっつ～～の！）
+サイト：……。
+サイト：……ル、ルイズ？  [voice 10496]
+  【選択肢】ゆ、誘惑に負けてはいけない！ → scene 1769
+  【選択肢】……だ、駄目だって！ → scene 1770
+  【選択肢】暴走してしまうのも？ → scene 1771
+
+---- SCENE 1769 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（……ゆ、誘惑に負けてはいけないよな）
+サイト：（や、やせ我慢は男の美学なんだっ！）
+ルイズ：……んっ……サイトぉ……。  [voice 5208]
+サイト：（……くっ、そ、そんな寝言で、
+　お、俺を誘惑するんじゃない！）
+サイト：（お、俺は誘惑には
+　屈しないのであります！）
+ルイズ：……バカ犬……スゥスゥ……。  [voice 5209]
+サイト：（と、いうことでおやすみなさい！）
+サイト：（……へ、平常心！
+　平常心！）
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+185, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：……むにゃむにゃ……。  [voice 10497]
+ルイズ：……。  [voice 5210]
+ルイズ：……意気地なし……。  [voice 5211]
+  → next scene 1772
+
+---- SCENE 1770 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（……だ、駄目だって！
+　俺！）
+サイト：（も、もし、そんなことをしたのが
+　ルイズにバレたら……）
+サイト：（や、やめろぉぉぉっ！）
+サイト：（ルイズの鼻をつまむなんて！）
+ルイズ：……ひゅくっ……。  [voice 5212]
+サイト：（か、かわいい反応を……。
+　い、いつもの仕返しだからな）
+ルイズ：……んっ、んんんっ？  [voice 5213]
+サイト：（ま、まずい！）
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+185, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：んっ……サイト……？  [voice 5214]
+サイト：……ぐうぐうぐう。  [voice 10498]
+ルイズ：……夢？
+かしら？  [voice 5215]
+サイト：……むにゃむにゃむにゃ。  [voice 10499]
+ルイズ：……。  [voice 5216]
+ルイズ：ホントにもう……バカなんだから。  [voice 5217]
+  → next scene 1772
+
+---- SCENE 1771 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（や、ヤメロ！
+　ヤメロって！）
+サイト：（な、なんというか体がいうことを聞かない
+　ような……）
+サイト：（お、俺の中の獣がぁぁぁっ！）
+  [SE       se0      play=+61]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+ルイズ：……サイト、うるさい！
+むにゃむにゃ……。  [voice 5218]
+サイト：（……ぐ、ぐぉぉぉっ！！
+　俺の偉大なところにクリティカルヒット！
+　というか痛恨の一撃！）
+サイト：（な、何しやがる！
+　ルイズ！）
+ルイズ：……バカ犬！
+むにゃむにゃ……。  [voice 5219]
+サイト：（はあ、もう……。
+　……い、いや、助かったというべきかな？）
+サイト：おやすみ。
+ルイズ。  [voice 10500]
+ルイズ：……。  [voice 5220]
+ルイズ：……ん、おやすみ。
+サイト。  [voice 5221]
+  → next scene 1772
+
+---- SCENE 1772 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1773 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：……べ、別にいいけど？  [voice 10505]
+ルイズ：……そう？
+じゃあ……。  [voice 5227]
+  → next scene 1776
+
+---- SCENE 1774 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：ちょ、ちょっと！
+腕枕って……。  [voice 10506]
+サイト：……いいの？  [voice 10507]
+ルイズ：もう、わたしがしてって言ってるのよ。  [voice 5228]
+サイト：え、ええと……了解です。  [voice 10508]
+  → next scene 1776
+
+---- SCENE 1775 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：ダ、ダメだって！  [voice 10509]
+ルイズ：……もうっ、なんで？  [voice 5229]
+サイト：……我慢できなくなるかもしれないし。  [voice 10510]
+ルイズ：我慢って？
+何を？  [voice 5230]
+サイト：え、ええと……。
+なんでもない。  [voice 10511]
+ルイズ：い、いいわよ。
+別に気にしないから。  [voice 5231]
+サイト：……え？
+い、いいの？  [voice 10512]
+ルイズ：へ、変な意味じゃないわよ？
+信じてるからって意味よ！  [voice 5232]
+  → next scene 1776
+
+---- SCENE 1776 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+  [SE       se0      play=+59]
+  [EVENT_CG event    image=+186, level=80]
+サイト：こ、これでいい？  [voice 10513]
+ルイズ：……サイトの体、暖かいね。  [voice 5233]
+サイト：そ、そう？  [voice 10514]
+ルイズ：うん……。  [voice 5234]
+ルイズ：こうやってサイトの腕に耳を当ててると、
+なんだかすごく落ち着くの……フワ……。  [voice 5235]
+サイト：ええと、その……光栄です。  [voice 10515]
+ルイズ：なんだか眠くなっちゃった……。  [voice 5236]
+サイト：俺はルイズの体の方が暖かく
+感じるけど……。  [voice 10516]
+ルイズ：もう……ルイズじゃなくて……。
+……ご主人様……でしょ……。
+スゥスゥ……。  [voice 5237]
+サイト：……あ、あの？
+ルイズ？  [voice 10517]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（……はぁ、まったく勝手だよな）
+サイト：（でも、自分の腕の中に女の子の重さが
+　あるのって……悪くないよな）
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+null：………。
+……。
+…。
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：……スゥスゥ。  [voice 5238]
+サイト：（……ぐぉぉぉ、し、痺れた！
+　……う、腕の感覚がない）
+  【選択肢】そっと、外して…… → scene 1777
+  【選択肢】我慢我慢！ → scene 1778
+  【選択肢】ルイズを起こして…… → scene 1779
+
+---- SCENE 1777 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：（……そ、そおっとルイズの頭の下から腕を
+　抜いて）
+ルイズ：……んっ……ダメっ、サイト……。  [voice 5239]
+サイト：（うっ、しがみついてこられた！）
+ルイズ：……い、行っちゃヤダ……。  [voice 5240]
+サイト：（寝言？）
+サイト：はいはい、大丈夫……。
+どこにも行かないよ。  [voice 10518]
+ルイズ：……んっ、約束よ……スゥスゥ。  [voice 5241]
+サイト：（はぁ、痺れても仕方ないか）
+サイト：……かわいい寝顔だな。  [voice 10519]
+サイト：（いつもこんな感じだったら、かわいくて
+　いいのになぁ）
+  → next scene 1780
+
+---- SCENE 1778 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：……かわいい寝顔だな。  [voice 10520]
+サイト：（こ、このしびれは男の名誉の負傷なのだ！）
+ルイズ：……んっ、サイト……スゥスゥ。  [voice 5242]
+サイト：（寝言？）
+サイト：……ううっ、我慢するよ！
+すればいいんだろ！  [voice 10521]
+サイト：（はぁ、痺れても仕方ないか……）
+  → next scene 1780
+
+---- SCENE 1779 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+サイト：ちょ、ちょっと、起きろ！
+ルイズ！  [voice 10522]
+ルイズ：……うるさい、バカ犬……スゥスゥ。  [voice 5243]
+サイト：（……起きてくれないよ）
+ルイズ：……んっ、サイト……スゥスゥ。  [voice 5244]
+サイト：（寝言？
+　夢に俺が出てるのか……）
+ルイズ：……んっ、ふふ……。  [voice 5245]
+サイト：（こんな寝顔をしてる女の子を起こそうなんて
+　奴は、男じゃないよな……）
+サイト：（はぁ、我慢するか。
+　おやすみ、ルイズ……）
+  → next scene 1780
+
+---- SCENE 1780 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+90, level=200]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [COFFEE]
+
+---- SCENE 1781 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：な、なんというか……。  [voice 10528]
+サイト：女の子って暖かくてやわらかいなあ……。
+って思って。  [voice 10529]
+ルイズ：ば、馬鹿っ！
+なに考えてるのよ！  [voice 5251]
+サイト：し、仕方ないだろ！
+ホントにそう思っちゃったんだから！  [voice 10530]
+サイト：……女の子って不思議だよな。  [voice 10531]
+ルイズ：……そう？
+女の子にしてみたら、男の子のほうが
+よっぽど不思議な生きものよ。  [voice 5252]
+  → next scene 1784
+
+---- SCENE 1782 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：……やっぱり、ちいさいよなぁ。  [voice 10532]
+ルイズ：……な、なんの話かしら？  [voice 5253]
+サイト：い、いや、なんでもないです。  [voice 10533]
+ルイズ：バ、バカ犬……。
+わたしのどこについて、誰と比べたの？
+言ってみなさい。  [voice 5254]
+サイト：……す、すいましぇん。  [voice 10534]
+サイト：……背とか体つきの話です。  [voice 10535]
+ルイズ：……へ？
+あ、ああ、そうだったの。
+て、てっきり……。  [voice 5255]
+サイト：（……やっぱりムネのこと、気にしてるんだ）
+サイト：（が、頑張るんだぞ。
+　ルイズ）
+  → next scene 1784
+
+---- SCENE 1783 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：あはは、は……なんでもないです。  [voice 10536]
+ルイズ：……き、きっと、わたしのことを
+なにか馬鹿にしてたんでしょ？  [voice 5256]
+サイト：（ひ、被害妄想だって！
+　……ルイズの奴、
+　コンプレックスが強すぎだ）
+サイト：ほ、ホントホント！
+ルイズかわいいなあ、とかそんなことだよ。  [voice 10537]
+ルイズ：……ホント？  [voice 5257]
+ルイズ：ホントに、サイトはわたしのことをかわいいって
+思ってくれてるの？  [voice 5258]
+サイト：も、もちろんだって！
+俺のご主人様は、メチャかわいい女の子だって！  [voice 10538]
+ルイズ：うふふ、ありがと。  [voice 5259]
+  → next scene 1784
+
+---- SCENE 1784 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：……それで、その。  [voice 10539]
+サイト：もう少し離れてほしいなあ……って。  [voice 10540]
+ルイズ：……イヤ！  [voice 5260]
+  [VIBRATE vibrate(1)]
+サイト：は、はうっっ！
+そんなぁ……。  [voice 10541]
+ルイズ：こ、これは罰なんだもん！  [voice 5261]
+  【選択肢】生殺しなんて酷すぎるって～～！ → scene 1785
+  【選択肢】お、襲われたらどうするんだよ → scene 1786
+  【選択肢】罰は甘んじて受けます → scene 1787
+
+---- SCENE 1785 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：……生殺しなんて酷すぎるって～～！  [voice 10542]
+ルイズ：酷いから罰になるんだもん！  [voice 5262]
+ルイズ：……サイトがちゃんと反省するまで
+こうするんだから！  [voice 5263]
+  [VIBRATE vibrate(1)]
+サイト：は、はうっ～～っ！  [voice 10543]
+サイト：か、勘弁してください～～。  [voice 10544]
+サイト：……俺、どうにかなっちゃいますって！  [voice 10545]
+ルイズ：うふふ……おやすみ、サイト。  [voice 5264]
+ルイズ：……もし、変なことなんてしたら、
+許さ……ないんだから……ね……。  [voice 5265]
+  → next scene 1788
+
+---- SCENE 1786 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：お、襲われたらどうするんだよ。  [voice 10546]
+ルイズ：……わたしを、襲っちゃうの？  [voice 5266]
+サイト：襲わない！
+誓って絶対に襲わないけど……。  [voice 10547]
+サイト：その、ボク……バカ犬だし……。
+やっぱり、自信が。  [voice 10548]
+ルイズ：……サイトはわたしのこと大事に
+思ってくれてるのね。  [voice 5267]
+ルイズ：……なら、わたしはサイトを信じるわ。  [voice 5268]
+サイト：ま、まって！
+だから簡単に信じないでって！  [voice 10549]
+サイト：耐えるハメになるのは俺なんだって！  [voice 10550]
+ルイズ：……すぅ。  [voice 5269]
+サイト：……ね、寝るな！
+寝ないで！
+ちょっと！  [voice 10551]
+ルイズ：……うるさい。
+バカ犬。  [voice 5270]
+  → next scene 1788
+
+---- SCENE 1787 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+サイト：……ば、罰なんですか、これ？  [voice 10552]
+ルイズ：そ、そうよ！
+罰なんだからね！  [voice 5271]
+サイト：わ、分かりましたぁ。
+罰なんでしたら甘んじて受けますぅ。  [voice 10553]
+ルイズ：そ、それでいいのよ！  [voice 5272]
+サイト：……。  [voice 10554]
+ルイズ：じゃ、じゃあね……。
+……おやすみ。
+サイト。  [voice 5273]
+サイト：は、はい……ですぅ。  [voice 10555]
+  → next scene 1788
+
+---- SCENE 1788 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+185, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1789 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：そ、それはさすがに……ちょっと……。  [voice 10559]
+ルイズ：なによっ。
+遠慮するものじゃないわ！  [voice 5278]
+サイト：いや、そういう意味じゃないんですけどっ！
+恥ずかしいじゃないですか！  [voice 10560]
+ルイズ：な、なにが恥ずかしいのよっ！
+た、単に背中を流してあげるだけよ！
+勘違いしないでよねっ。  [voice 5279]
+ルイズ：恥ずかしがってないで全部任せちゃえば
+いいのよっ！  [voice 5280]
+サイト：そ、そんな～～っ！  [voice 10561]
+ルイズ：男の子なんでしょ！
+堂々としてなさいっ！  [voice 5281]
+  → next scene 1792
+
+---- SCENE 1790 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：それは、うれしいですけど……。  [voice 10562]
+ルイズ：じゃあ、いいわね？  [voice 5282]
+サイト：い、いや、ちょっと待って！  [voice 10563]
+サイト：み、見せるのは恥ずかしいというか……、
+心の準備というものが……ほら？  [voice 10564]
+ルイズ：な、何を考えてるのよ！  [voice 5283]
+ルイズ：男の子でしょ！
+堂々としなさいっ！  [voice 5284]
+サイト：はい……。  [voice 10565]
+  → next scene 1792
+
+---- SCENE 1791 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：……そ、それじゃお願いします。  [voice 10566]
+ルイズ：……え、ええ、いいわよ！  [voice 5285]
+サイト：……。  [voice 10567]
+ルイズ：……。  [voice 5286]
+サイト：え、ええと。  [voice 10568]
+ルイズ：な、なにかしら？  [voice 5287]
+  → next scene 1792
+
+---- SCENE 1792 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+ルイズ：な、なによ。
+顔を赤くしちゃって。
+何を想像してるのよっ！  [voice 5288]
+サイト：だ、だって……。  [voice 10569]
+ルイズ：飼い主がバカ犬を洗ってあげるのに、
+なんの不思議があるっていうのよっ！
+変なこと考えちゃダメなんだからね！  [voice 5289]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+187, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：……ま、まったく、無駄に広い背中ね。  [voice 5290]
+ルイズ：……ちょ、ちょっと意外だわ。  [voice 5291]
+サイト：……。  [voice 10570]
+サイト：（……な、なんで俺はこんなことに
+　なってるんだよ？）
+ルイズ：……。  [voice 5292]
+ルイズ：……き、聞いてるの？
+洗いにくいわよ。
+反省しなさい！  [voice 5293]
+サイト：（お、俺にどうしろっていうんだよっ！）
+ルイズ：……ど、どう？
+こんな感じ？  [voice 5294]
+サイト：あ～～、もう少し強くてもいいかな？  [voice 10571]
+ルイズ：……え、ええと、こうかしら？  [voice 5295]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     hide, vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：（ぐわっ！
+　そ、それは……）
+ルイズ：こうね！
+うふふ……。  [voice 5296]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：（……ぐはっ、そいつは力を入れすぎ！）
+  【選択肢】ち、ちょっと痛いかも？ → scene 1793
+  【選択肢】我慢！　我慢！ → scene 1794
+  【選択肢】攻守交代を！ → scene 1795
+
+---- SCENE 1793 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：……あの。
+ちょ、ちょっと痛いかも？  [voice 10572]
+ルイズ：き、きゃあっ！  [voice 5297]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……ふ、振り向くんじゃないわよ！
+だ、黙って洗われてなさい！
+きれいにしてあげてるんだから！  [voice 5298]
+サイト：ちょ……、ちょっと待って！  [voice 10573]
+ルイズ：ダメよ！
+我慢しなさいっ！  [voice 5299]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：ぐ、ぐあぁぁぁーーーーーっ！  [voice 10574]
+  [EVENT_CG event    image=+187, level=80]
+  → next scene 1796
+
+---- SCENE 1794 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：（こんな一生懸命に洗ってくれてるんだし、
+　が、我慢！
+　我慢！）
+ルイズ：……あら、まだ弱かった？  [voice 5300]
+サイト：あ、いや、そんなわけでは……。  [voice 10575]
+ルイズ：もう、遠慮なんてしなくていいから！  [voice 5301]
+サイト：ちょ、ちょっとまったーーっ！  [voice 10576]
+ルイズ：ほらほら……。  [voice 5302]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：ギ、ギニャャーーーっ！  [voice 10577]
+  → next scene 1796
+
+---- SCENE 1795 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：ええと、じゃあ攻守交代を……。  [voice 10578]
+ルイズ：へ？
+交代って？  [voice 5303]
+サイト：……いや、ほら、俺ばかりでも悪いし。
+ルイズの背中も……。  [voice 10579]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：な、なんでそうなるのよ！  [voice 5304]
+ルイズ：だ、だまって洗われなさい！  [voice 5305]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：ギ、ギニャャーーーっ！  [voice 10580]
+  [EVENT_CG event    image=+187, level=80]
+  → next scene 1796
+
+---- SCENE 1796 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+ルイズ：……ふうっ！
+おしまい！  [voice 5306]
+ルイズ：これできれいになったでしょ！  [voice 5307]
+サイト：……きゅう。  [voice 10581]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……もうっ、だらしないわね！  [voice 5308]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1797 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：（落ち着けるはずないだろ！）
+サイト：（……やっぱり、お風呂ってのはさ、
+　のんびり入るもんなんだと思うんですよ）
+サイト：（……一日の垢をザァーっと落としてね。
+　くてくてになるまでお湯に浸かって、
+　体と心をほぐす）
+サイト：（そして、風呂上りに飲む一杯の冷たい牛乳。
+　ああ、日本に生まれて良かった。
+　明日も頑張ろう！　と）
+サイト：……それが！  [voice 10583]
+サイト：なんでこんな男の価値が試されるイベントに
+なってるんだよ！  [voice 10584]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……何か文句あるの？  [voice 5310]
+  → next scene 1800
+
+---- SCENE 1798 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：（正直、怖いよ……）
+サイト：（あのルイズがこんなサービスをしてくれる
+　なんて……ありえない！）
+サイト：（……ワケ分かんないですよ。ホント）
+サイト：（……もし他の女の子とかにバレたりしたら
+　大変だよな）
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……なにか失礼なコト考えてるわね。  [voice 5312]
+  → next scene 1800
+
+---- SCENE 1799 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：（……踊るアホウに、なんとやら）
+サイト：（楽しみで楽しみで……。
+　こう、踊っちゃうよ。
+　俺は！）
+サイト：ふふ、ふふふふふ……。  [voice 10585]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：……突然、ニヤけた顔をして踊り出すなんて
+大丈夫？  [voice 5313]
+  → next scene 1800
+
+---- SCENE 1800 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+188, level=80]
+  [EVENT_CG event    image=+187, level=80]
+ルイズ：さっきから見ていれば……。
+何をぶつぶつ言ってるの？  [voice 5314]
+サイト：な、なんでもないでしゅ……って。  [voice 10586]
+サイト：そういえば、そ、その水着は？  [voice 10587]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：え、これ？
+ハルナからサイトの世界の水着だって
+聞いたんだけど……違ってた？  [voice 5315]
+サイト：い、いやそれは間違ってないけど……。  [voice 10588]
+サイト：（す、スクール水着？）
+  [EVENT_CG event    image=+187, level=80]
+ルイズ：力加減とかの希望があれば聞いてあげるから、
+ちゃんと言うのよ？  [voice 5318]
+サイト：……り、了解です。  [voice 10589]
+サイト：（……ガキの頃とかは、よく親に洗って
+　もらったりしたけどさ）
+サイト：（なんか懐かしい感じだよな）
+ルイズ：どう、サイト？
+こんな感じ？  [voice 5319]
+サイト：……え？
+あ、うん。  [voice 10590]
+ルイズ：どうしたのよ、ボ～～ッとして。
+……気持ちよすぎたのかしら？  [voice 5320]
+  【選択肢】ごめん。気持ちよくてつい → scene 1801
+  【選択肢】き、気持ちよくなんてないぞ！ → scene 1802
+  【選択肢】少し子供の頃のことを…… → scene 1803
+
+---- SCENE 1801 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：ご、ごめん。
+気持ちよくてつい。  [voice 10591]
+ルイズ：うふふ、仕方ないわね。  [voice 5320]
+ルイズ：……ほらほら、謝らなくていいから。
+続きよ続き！  [voice 5321]
+サイト：う、うん。  [voice 10592]
+サイト：……でも、ちょっと意外だったな。
+ルイズにこんな風に背中流してもらって、
+リラックスできるなんて……。  [voice 10593]
+サイト：もっと緊張するって思ってた。  [voice 10594]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：……不思議ね。
+わたしもよ。  [voice 5322]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……コホン。
+訂正。
+少しは緊張しなさい。  [voice 5323]
+ルイズ：このわたしが自ら洗ってあげてるんだからね。  [voice 5324]
+  → next scene 1804
+
+---- SCENE 1802 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：き、気持ちよくなんてないぞ！  [voice 10595]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……よく言うわね。
+今のサイトの顔を鏡で見せてあげたいわ。  [voice 5325]
+サイト：ううっ、それは勘弁……。  [voice 10596]
+ルイズ：ほんとにもう。  [voice 5326]
+  → next scene 1804
+
+---- SCENE 1803 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+187, level=80]
+サイト：子供の頃のこと、ちょっと思い出したよ。  [voice 10597]
+サイト：よくこうして親に洗ってもらったなあ、って。  [voice 10598]
+ルイズ：……そう、サイトの家ではそうだったんだ。  [voice 5327]
+サイト：どこの家だってそんなもんだろう？  [voice 10599]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……き、貴族の家じゃそんなことしないわよ。  [voice 5328]
+サイト：そ、そうなの？  [voice 10600]
+ルイズ：……ホントにもう！
+ご主人様がこんなことをしてあげるという
+ありがたみを感じなさい！  [voice 5329]
+サイト：……は、は～～い！  [voice 10601]
+  → next scene 1804
+
+---- SCENE 1804 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+188, level=80]
+  [EVENT_CG event    image=+187, level=80]
+サイト：（……ああ、でも本当に気持ちいいな）
+サイト：（……はぁ……）
+サイト：……ｚｚｚ。  [voice 10602]
+ルイズ：サイト、どんな感じ？
+……サイト？  [voice 5330]
+サイト：……ｚｚｚ。  [voice 10603]
+ルイズ：……寝ちゃってる？  [voice 5331]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……な、なによ！
+ご主人様が一生懸命洗ってあげてるのに
+本人は気持ちよさそうにうたたね！？  [voice 5332]
+サイト：うわっうわわわっ！
+ご、ゴメン！
+気持ちよくて、つい！  [voice 10604]
+ルイズ：ホントにもう！
+まあ、でも……思わず寝てしまうほど
+気持ち良かったんでしょ？  [voice 5333]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：うふふ、仕方ないわね。  [voice 5334]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1805 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    image=+214, level=80]
+サイト：も、もちろん！  [voice 10608]
+ルイズ：はぁ、返事はいいけど……。
+……絶対に無理よね。
+だって、バカ犬だもの。  [voice 5337]
+サイト：（し、信用されてない？
+　俺？）
+ルイズ：……でも、いいわ。
+嘘でもそう言ってくれて。  [voice 5338]
+サイト：い、いや。
+結構本気だったんですけど……。  [voice 10609]
+ルイズ：いいの、無理しなくても。
+サイトが我慢できるわけないものね。
+動けないくらいお仕置きしておこうかしら？  [voice 5339]
+サイト：が、頑張りますので……。
+それはやめてください～～っ！  [voice 10610]
+ルイズ：うふふ。
+はい、よろしい。  [voice 5340]
+  → next scene 1808
+
+---- SCENE 1806 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    image=+214, level=80]
+サイト：……ま、前向きに善処します。  [voice 10611]
+ルイズ：前向きに善処って何？
+もっともらしい言葉でごまかさないでよ。  [voice 5341]
+サイト：ううっ、ごめんなさい。  [voice 10612]
+ルイズ：ちゃんと反省するんだからね！  [voice 5342]
+サイト：……わ、分かりました。
+反省して努力しますぅ！  [voice 10613]
+ルイズ：うふふ。
+はい、よろしい。  [voice 5343]
+  → next scene 1808
+
+---- SCENE 1807 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    image=+214, level=80]
+サイト：は、反省はしますけど……。
+他の女の子を見ないなんて……、
+無理じゃないかと？  [voice 10614]
+ルイズ：……ホント、バカ犬なんだから。
+こんなときは、嘘でもいいから女の子を
+安心させるものでしょ！  [voice 5344]
+サイト：……ええと、そうなの？  [voice 10615]
+ルイズ：……で、でも。
+わたしにウソは許さないからね！  [voice 5345]
+サイト：ちょっ、それは横暴！  [voice 10616]
+ルイズ：いいのっ、これは命令なんだから！  [voice 5346]
+サイト：ううっ……はい……。  [voice 10617]
+ルイズ：うふふ。
+はい、よろしい。  [voice 5347]
+  → next scene 1808
+
+---- SCENE 1808 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    image=+214, level=80]
+ルイズ：もうっ、ずいぶん汚れちゃったわね。  [voice 5348]
+サイト：（汚した原因はルイズだろ？）
+ルイズ：……これは、お風呂が必要ね。  [voice 5349]
+サイト：え？
+ま、ましゃか……。  [voice 10618]
+ルイズ：……飼い主の責任として、バカ犬をキレイに
+してあげないとね。  [voice 5350]
+サイト：ちょ、ちょっと待って～～っ！  [voice 10619]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+187, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：（はあ、なんでこんなことに？）
+ルイズ：……ねえ、サイト？
+どこかかゆいところはある？  [voice 5351]
+サイト：ええと……しょの……。  [voice 10620]
+サイト：（だから、そのスクール水着はなんだよ！）
+ルイズ：どう？
+背中流すのもなかなか上手でしょ？  [voice 5352]
+サイト：は、はぁい。
+お上手であります！  [voice 10621]
+ルイズ：うふふ、ありがと！  [voice 5353]
+ルイズ：……さてと。  [voice 5354]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：……じゃあ……次は前ね。  [voice 5355]
+サイト：……。  [voice 10622]
+サイト：……へっ？  [voice 10623]
+  [EVENT_CG event    image=+187, level=80]
+ルイズ：あらどうしたの？
+狐につままれたような顔をして……ふふっ。  [voice 5356]
+サイト：いや、怖い聞き違いをしたな～～と。  [voice 10624]
+ルイズ：あら、そうだったの？  [voice 5357]
+ルイズ：……ご主人様の言葉を聞き違えたりなんか
+しちゃダメよ。  [voice 5358]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：もう一度言うわね……『次は前よ』。  [voice 5359]
+  【選択肢】ち、ちょっと待ったぁ！ → scene 1809
+  【選択肢】逃げ出すしかない → scene 1810
+  【選択肢】堂々とお願いする → scene 1811
+
+---- SCENE 1809 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+188, level=80]
+サイト：ちょ、ちょっと待ったぁ！  [voice 10625]
+ルイズ：き、きゃあっ！  [voice 5360]
+サイト：……ま、前ってなんだよ！  [voice 10626]
+ルイズ：背中だけじゃつまらないの！  [voice 5361]
+サイト：そこは俺が洗うので大丈夫です！  [voice 10627]
+ルイズ：……え、遠慮しなくてもいいじゃない！
+バカ犬のクセに！  [voice 5362]
+サイト：……バ、バカ！
+も、もう少し恥じらいというものを……！  [voice 10628]
+ルイズ：なによっ！
+どこが恥ずかしいのよ！
+言ってみなさいよ。  [voice 5363]
+サイト：言えるわけねーだろ！！  [voice 10629]
+  → next scene 1812
+
+---- SCENE 1810 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+188, level=80]
+サイト：（ま、前ってなんだよ！
+　……ダメだ。
+　に、逃げ出すしかない！）
+サイト：（で、でも、俺って今、全裸じゃん！
+　……こ、このまま、逃げ出したら一生裸？）
+ルイズ：……もう、何逃げようとしてるのよ！  [voice 5364]
+サイト：バ、バカ！
+恥じらいってものはないのか！  [voice 10630]
+ルイズ：むぅ、このまま逃げ出したりなんかしたら、
+大声をあげちゃうわよ？  [voice 5365]
+サイト：い、陰謀だ！  [voice 10631]
+ルイズ：ほらほら、遠慮せず……。  [voice 5366]
+サイト：や、やめろ～～っ！
+ルイズ～～っ！  [voice 10632]
+  → next scene 1812
+
+---- SCENE 1811 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+188, level=80]
+サイト：（だ、ダメだ。
+　恥ずかしがったらおしまいだ）
+サイト：え、え～と。
+じゃあ、お願いします。  [voice 10633]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：あ、あらそう？
+ずいぶん素直ね。
+そ、それでいいのよ。  [voice 5367]
+サイト：……。  [voice 10634]
+ルイズ：……。  [voice 5368]
+  [EVENT_CG event    image=+188, level=80]
+ルイズ：……もう！
+は、恥じらいってものはないの？  [voice 5369]
+サイト：そ、それはそっちだろう！  [voice 10635]
+  → next scene 1812
+
+---- SCENE 1812 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+188, level=80]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    hide]
+  [TRANS trans("crossfade", 1000)]
+null：………。
+……。
+…。
+  [EVENT_CG event    image=+187, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：……はいっ、おしまいっ！  [voice 5370]
+サイト：……うっ、ううう。  [voice 10636]
+サイト：も、もうオムコにいけない……。  [voice 10637]
+  [EVENT_CG event    image=+189, level=80]
+ルイズ：……な、なによ。
+結局、ぎゃあぎゃあ大騒ぎして！
+わ、わたしだって恥ずかしかったんだからね！  [voice 5371]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1813 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：ルイズはかわいい。  [voice 10640]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：え、ホントに？  [voice 5377]
+サイト：ルイズは本当にかわいい！  [voice 10641]
+ルイズ：……じゃあ、一番かわいい？  [voice 5378]
+サイト：そ、その問いにはまだノーコメントという
+ことで。  [voice 10642]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：むーー。  [voice 5379]
+サイト：（ワガママだったり乱暴だったりするけど……
+　ルイズがかわいいのは本当だな。
+　うん）
+ルイズ：むー。
+今、なんかぶつぶつ考えてる！  [voice 5380]
+  → next scene 1816
+
+---- SCENE 1814 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：ルイズもかわいい。  [voice 10643]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：え、ホントに？  [voice 5381]
+サイト：俺はルイズも間違いなくかわいいと思ってるよ
+……くやしいけど。  [voice 10644]
+ルイズ：うふふ。
+ありがとう、サイト。  [voice 5382]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：……でも。
+ルイズ『も』ってなに？  [voice 5383]
+ルイズ：わ、わたしの使い魔だったら、わたしだけを
+見つめてなさいっ！  [voice 5384]
+  [EVENT_CG event    image=+190, level=80]
+  → next scene 1816
+
+---- SCENE 1815 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：ルイズはかわいいっ！  [voice 10645]
+サイト：かわいいよっ！  [voice 10646]
+サイト：（でも、貧乳が……）
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：サイト……。
+……いま、何かとんでもないことを
+考えなかった？  [voice 5385]
+  [SPRITE   lay5     hide]
+サイト：いえ、なにも。  [voice 10647]
+  [EVENT_CG event    image=+190, level=80]
+  → next scene 1816
+
+---- SCENE 1816 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：もうっ、サイトったら。
+ちゃんとわたしをほめなさい！  [voice 5386]
+サイト：（そんな、無茶な……）
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：な、なによ。
+不満？  [voice 5387]
+サイト：い、いや。
+そんなことはないぞ。  [voice 10648]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……ま、いいわ。
+じゃ、やってみなさい。
+さあ。  [voice 5388]
+サイト：ルイズさま、最高～～っ！
+ブラボ～～！  [voice 10649]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：……本当にやる気あるの？
+サイト？  [voice 5389]
+  【選択肢】気高き俺のご主人様！ → scene 1817
+  【選択肢】そのかわいさは罪です！ → scene 1818
+  【選択肢】ご主人様、萌え萌えですっ！ → scene 1819
+
+---- SCENE 1817 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+191, level=80]
+サイト：ああ、気高き俺のご主人様！  [voice 10650]
+  [EVENT_CG event    image=+190, level=80]
+サイト：俺はご主人様の可憐な姿を見ると、
+いつも胸が高鳴り、心が引き裂かれそうです。  [voice 10651]
+サイト：そのかわいさはほとんど犯罪です！  [voice 10652]
+サイト：最高です！
+俺の女神さまです！  [voice 10653]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：え、ええっ？
+も、もう。
+そこまで言わなくても……。  [voice 5390]
+ルイズ：でも、ええと……あ、ありがと。  [voice 5391]
+  → next scene 1820
+
+---- SCENE 1818 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+191, level=80]
+サイト：ご主人様のそのかわいさは罪です！
+ほほえみさえ、罪っ！  [voice 10654]
+  [EVENT_CG event    image=+190, level=80]
+サイト：ご主人様のたまに見せるツンツンは……。
+俺にとっては薔薇を守る棘。  [voice 10655]
+サイト：俺の体とハートをどんなに傷つける
+としても……。  [voice 10656]
+サイト：その美しい薔薇の棘であれば、
+俺は甘んじて受けましょう！  [voice 10657]
+サイト：（……なんだかギーシュになった気分だなあ）
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：ちょっと引っかかるところがなくもないけど。
+でも、ええと……あ、ありがと。  [voice 5392]
+  → next scene 1820
+
+---- SCENE 1819 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+191, level=80]
+サイト：ご主人様、萌え萌えですっ！  [voice 10658]
+  [EVENT_CG event    image=+190, level=80]
+サイト：ご主人様のツンデレぶりに、このバカ犬は
+もうメロメロにメルトダウン！  [voice 10659]
+ルイズ：モエ？
+ツンデレ……
+メルトダウン？  [voice 5393]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：……ど、どういう意味よ？  [voice 5394]
+サイト：（本当のことを言ったら、
+　殺されそうだな……）
+サイト：あ、いえ、自分の国の言葉で、
+可愛いってことです。  [voice 10660]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：うふふ。
+そ、そんなぁ……。  [voice 5395]
+  → next scene 1820
+
+---- SCENE 1820 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：うふふ。
+サイトにしてはまんざらでもないわね。
+いいわ、今日のところは許してあげる。  [voice 5396]
+サイト：あ、ありがとうございます。  [voice 10661]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……あのね、サイト。  [voice 5397]
+ルイズ：素敵な男の子っていうのは、
+女の子をほめてあげるものなのよ。
+覚えておきなさい！  [voice 5398]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1821 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+191, level=80]
+サイト：……え、遠慮します。  [voice 10666]
+サイト：男が愛とか恋とか口に出していうのは、
+格好悪いっつーか、恥ずかしいっていうか……。  [voice 10667]
+ルイズ：あら、サイトは一生恋人がいなくても
+いいのかしら？  [voice 5407]
+サイト：そ、そんな……。  [voice 10668]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……格好をつけてる暇があったら、
+甘い言葉のひとつでも考えなさい！  [voice 5408]
+サイト：……ううっ。
+わ、分かりました。  [voice 10669]
+  → next scene 1824
+
+---- SCENE 1822 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+191, level=80]
+サイト：あ、愛と情熱って……。  [voice 10670]
+ルイズ：女の子はいつだって、気持ちを言葉という形に
+してほしいものなの！  [voice 5409]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……本当に分かってる、サイト？  [voice 5410]
+サイト：ええと、分かるような分かんないような……。  [voice 10671]
+  → next scene 1824
+
+---- SCENE 1823 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+191, level=80]
+サイト：……ギ、ギーシュみたいな感じでやればいい
+のかな？  [voice 10672]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……え？
+ギーシュ？  [voice 5411]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：……だ、ダメよ！
+ギーシュよりもっと真剣な感じで！  [voice 5412]
+サイト：な、なんだか難しいぞ。  [voice 10673]
+  [EVENT_CG event    image=+190, level=80]
+  → next scene 1824
+
+---- SCENE 1824 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：と・に・か・く！
+まず、自分の気持ちを言葉にするの！  [voice 5413]
+ルイズ：でも、女の子を傷つけるようなことは絶対に
+言っちゃダメ！
+たとえ嘘でもほめたたえるのっ！  [voice 5414]
+サイト：……な、なんか、矛盾してないか？  [voice 10674]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：うるさいわね！
+……とりあえず、お手本をあげるから朗読して
+みなさい！  [voice 5415]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：まず、わたしがやってみるわよ。  [voice 5416]
+サイト：……は、はいです。  [voice 10675]
+ルイズ：たとえ嵐が吹いても、大波が荒れても、
+あなたがいれば関係ない。
+この恋の中で生きられるなら何もいらない。  [voice 5417]
+ルイズ：あなたが望むなら、国も捨てよう。
+杖も捨てよう。  [voice 5418]
+ルイズ：あなたと愛し合い、夢を見られるのなら、
+それでいい。  [voice 5419]
+ルイズ：荒海へとこぎだせる。
+大渦でも飛び込める。  [voice 5420]
+ルイズ：あなたの瞳とぬくもりを信じられれば……、
+何だってできるのです。  [voice 5421]
+サイト：……。  [voice 10676]
+ルイズ：……どう？  [voice 5422]
+サイト：うっ……や、やっぱり俺もやるの？  [voice 10677]
+  【選択肢】たどたどしく真摯に…… → scene 1825
+  【選択肢】男らしく思い切って → scene 1826
+  【選択肢】格好をつけて → scene 1827
+
+---- SCENE 1825 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：たとえ嵐が吹いても、大波が荒れても、
+あなたがいれば関係ない。
+この恋の中で生きられるなら何もいらない。  [voice 10678]
+サイト：あなたが望むなら、
+国も捨てよう。
+杖も捨てよう。  [voice 10679]
+サイト：あなたと愛し合い、夢を見られるのなら、
+それでいい。  [voice 10680]
+サイト：荒海へとこぎだせる。
+大渦でも飛び込める。  [voice 10681]
+サイト：あなたの瞳とぬくもりを信じられれば、
+何だってできるのです。  [voice 10682]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：……うふふ。  [voice 5423]
+サイト：ううっ、こっぱずかしいって。
+これ！  [voice 10683]
+ルイズ：……悪くなかったわよ。  [voice 5424]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：でも、もう少し照れないようにしてよ。
+聞いてるこっちが恥ずかしかったわよ！  [voice 5425]
+サイト：が、頑張ります。  [voice 10684]
+  → next scene 1828
+
+---- SCENE 1826 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：たとえ嵐が吹いても、大波が荒れても、
+あなたがいれば関係ない。
+この恋の中で生きられるなら何もいらない。  [voice 10685]
+サイト：あなたが望むなら、
+国も捨てよう。
+杖も捨てよう。  [voice 10686]
+サイト：あなたと愛し合い、夢を見られるのなら、
+それでいい。  [voice 10687]
+サイト：荒海へとこぎだせる。
+大渦でも飛び込める。  [voice 10688]
+サイト：あなたの瞳とぬくもりを信じられれば、
+何だってできるのです。  [voice 10689]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：……ふ～ん。  [voice 5426]
+サイト：こっぱずかしいって。
+これ！  [voice 10690]
+ルイズ：少し意外だったけど……悪くなかったわ。  [voice 5427]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：でも……。
+最後に投げやりになってたでしょ？
+あれで台無しよ。  [voice 5428]
+ルイズ：……次は、最後まで照れないようにしてよね。  [voice 5429]
+サイト：ううっ、頑張ります。  [voice 10691]
+  → next scene 1828
+
+---- SCENE 1827 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：たとえ嵐が吹いても、大波が荒れても、
+あなたがいれば関係ない。
+この恋の中で生きられるなら何もいらない。  [voice 10692]
+サイト：あなたが望むなら、
+国も捨てよう。
+杖も捨てよう。  [voice 10693]
+サイト：あなたと愛し合い、夢を見られるのなら、
+それでいい。  [voice 10694]
+サイト：荒海へとこぎだせる。
+大渦でも飛び込める。  [voice 10695]
+サイト：あなたの瞳とぬくもりを信じられれば、
+俺は……何だってできる。  [voice 10696]
+ルイズ：……う～ん。
+なにかしら、このムカムカ感は？  [voice 5430]
+サイト：どうしたんだい？
+俺のかわいいルイズ？  [voice 10697]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：や、やめなさい。
+そういうのは！  [voice 5431]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：ほんとにもうっ！  [voice 5432]
+  → next scene 1828
+
+---- SCENE 1828 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1829 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：……気にしています。
+たぶん……きっと……。  [voice 10700]
+ルイズ：……最後の方のごにょごにょはなによ！？  [voice 5435]
+サイト：だ、だって！
+そっちはどうなんだよ！  [voice 10701]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：な、なによ！
+女の子にそういうこと言わせる気っ！？  [voice 5436]
+  [EVENT_CG event    image=+190, level=80]
+  → next scene 1832
+
+---- SCENE 1830 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：気にしてる…かも？  [voice 10702]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：な、なによそれ！
+無責任よ！
+サイトの気持ちでしょ！  [voice 5437]
+サイト：じ、自分の気持ちだからこそ分からないこと
+だってあるんだよ！
+そっちこそどうなんだよ！  [voice 10703]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：それは、その……。
+な、なによ！  [voice 5438]
+  → next scene 1832
+
+---- SCENE 1831 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：そもそも、質問の内容が正直、
+よく分からねーよ。  [voice 10704]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：そ、それは、その……。
+一緒にいるとドキドキしたり……。  [voice 5439]
+ルイズ：ずっと一緒にいたいって感じたり、
+その人のためだったら何だってできちゃうと
+思えたりすることよ。  [voice 5440]
+ルイズ：……逆に、その人が他の女の子と
+仲良くしてると、腹が立ったり
+悲しくなったりするの。  [voice 5441]
+サイト：じ、じゃあ……その……、
+ルイズは誰かに気があるのか？  [voice 10705]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：な、なによ！
+何がいいたいの！  [voice 5442]
+  → next scene 1832
+
+---- SCENE 1832 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……サイト、あなたには愛とか情熱とか大切な
+ものが足りないわ。  [voice 5443]
+サイト：（……そ、そうなのかな？）
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：……ねえ、サイト。
+こういうお話を知ってる？  [voice 5444]
+ルイズ：ある騎士が美しい貴族のお姫さまに
+身分違いの恋をしたの。  [voice 5445]
+ルイズ：貴族のお姫さまはその騎士に戯れに言ったわ。
+『千日間、部屋の窓の下で愛を語り続ければ
+その思いに応えてあげる』って。  [voice 5446]
+ルイズ：その言葉を信じた騎士は毎晩愛を語りながら
+立ち続けたわ。  [voice 5447]
+ルイズ：雨の日も風の日も……そして
+とうとう死んでしまった。  [voice 5448]
+ルイズ：でも、騎士はそのあとも毎晩お姫さまのところに
+現れて愛を語り続けたの。
+幽霊になって。  [voice 5449]
+ルイズ：……このお話をどう思う？  [voice 5450]
+サイト：そのお話って、むしろ怪談なのでは……。  [voice 10706]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：そ、そうじゃないでしょ！  [voice 5451]
+ルイズ：こういうお話に心動かされたりしない？
+そんな情熱はあなたにはないの？  [voice 5452]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：とにかく、熱く、情熱的に！
+愛の言葉をささげるのよっ！  [voice 5453]
+サイト：そんな、どうやって！  [voice 10707]
+ルイズ：じ、自分で考えなさい！  [voice 5454]
+サイト：（そんな、むちゃくちゃな！）
+ルイズ：……いい？
+わたしの心を甘くとろけさせるのよ！  [voice 5455]
+  【選択肢】頑張って情熱的に？ → scene 1833
+  【選択肢】適当に？ → scene 1834
+  【選択肢】やけくそで…… → scene 1835
+
+---- SCENE 1833 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：（頑張って情熱的に……って！
+　そもそもどうすればいいんだよ！）
+デルフリンガー：（思い出話を、適当にありがちなフレーズで
+　つなげてけばいいんだよ、相棒）  [voice 1248]
+サイト：（そんなことをいわれても……）
+デルフリンガー：（ちぇっ、耳を貸しな……ごにょごにょ）  [voice 1249]
+サイト：え、ええと……。  [voice 10708]
+サイト：ボクはあの日の契約を覚えている。
+目を閉じれば浮かぶその瞳の色……。  [voice 10709]
+サイト：夏の日のような少女。
+まぶしい太陽。
+とどろく雷鳴。  [voice 10710]
+サイト：夕立と虹。
+激しいきみは迷うボクの心を震わせた。  [voice 10711]
+サイト：大丈夫、ボク達は進んでいける。
+ボクはあの日の契約を覚えているから。  [voice 10712]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：……。  [voice 5456]
+サイト：……こ、こんな感じでよろしかったでしょうか？  [voice 10713]
+ルイズ：……そうね。
+サイトにしては上出来かしら？  [voice 5457]
+ルイズ：なかなか悪くないわよ。  [voice 5458]
+サイト：（……そ、そうなんでしゅか？）
+ルイズ：これからも精進しなさい。  [voice 5459]
+サイト：（なんか、複雑……）
+  → next scene 1836
+
+---- SCENE 1834 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：（とりあえず適当に……って、
+　どんな感じにすればいいんだよ！）
+デルフリンガー：（……相棒の国には吟遊詩人とかいなかったの
+　かよ？）  [voice 1250]
+サイト：（そりゃ、いたけど……ゲームの中だけど……）
+ルイズ：……サイト、まだなの？  [voice 5460]
+サイト：ちょ、ちょっと待った！  [voice 10714]
+サイト：（とりあえず、それっぽい歌詞とかで作って
+　みようか？）
+サイト：突然のあの日の出会い。
+あの日からすべては動き始めた。  [voice 10715]
+サイト：新しい世界に、傷つき壊れかけたボク。
+古い世界に、疲れ破れかけてたきみ。
+あの日の出会いだったね。  [voice 10716]
+サイト：ボクにはきみが、きみにはボクがいる。
+だからボク達は生きていられるんだ。  [voice 10717]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：……う～ん、悪くないんだけど。
+なにか暗いわよ。  [voice 5461]
+サイト：……あ、あれ？  [voice 10718]
+サイト：……む、難しいなぁ。  [voice 10719]
+  → next scene 1836
+
+---- SCENE 1835 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+190, level=80]
+サイト：（こ、こうなりゃヤケクソだ！）
+サイト：……ルイズ、愛してる。
+好きだ。  [voice 10720]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：ちょっ、ちょっと！
+何を言いだすのよ！  [voice 5462]
+サイト：……なんだよ。
+愛と情熱の言葉を語りかけろって言ったのは、
+そっちだろ！  [voice 10721]
+ルイズ：そ、そうだけど……。  [voice 5463]
+  [EVENT_CG event    image=+190, level=80]
+ルイズ：……き、貴婦人に愛を語るには修辞ってものが
+大切だって言ってるの！  [voice 5464]
+サイト：でも、俺は貴族じゃなくて平民だし。  [voice 10722]
+ルイズ：そ、そんな言い方しなくても……。  [voice 5465]
+サイト：それとも、ご主人様はこういう愛の言葉は
+お嫌いで？  [voice 10723]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：そんなこと言ってないでしょ！
+……も、もう！  [voice 5466]
+デルフリンガー：あっはっは、見事に一本とられたようだな。
+貴族の娘っ子！  [voice 1251]
+  [EVENT_CG event    image=+191, level=80]
+ルイズ：う、うるさい！
+なによ、２人とも馬鹿にして！  [voice 5467]
+  [EVENT_CG event    image=+192, level=80]
+ルイズ：……もう、いいもん。
+じゃあ、サイト。もう一度言って……。
+今度は心から真剣にね。  [voice 5468]
+サイト：……え？  [voice 10724]
+ルイズ：……ちゃんと言ってくれるわよね。
+サイト？  [voice 5469]
+  → next scene 1836
+
+---- SCENE 1836 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+192, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1837 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：……カ、カップルがやるというあれ？
+端と端を咥えて。  [voice 10729]
+ルイズ：し、知ってるの、サイト！？
+……い、いやらしい！  [voice 5475]
+サイト：そ、そっちはどうなんだよっ！  [voice 10730]
+ルイズ：わっ、わたしはキュルケに聞くまで
+知らなかったもの。  [voice 5476]
+ルイズ：さあっ、わたしがこっちの端を咥えるから……、
+サイトがそっちから……食べるのよ？  [voice 5477]
+  → next scene 1840
+
+---- SCENE 1838 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：ど、どうやって？  [voice 10731]
+ルイズ：な、なによ！  [voice 5478]
+ルイズ：だから、わたしがこっちの端を咥えて、
+サイトが……そっちからその……。  [voice 5479]
+サイト：（や、やっぱりーーっ！）
+  → next scene 1840
+
+---- SCENE 1839 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：まさか……足で？  [voice 10732]
+サイト：（……ヨガの奥義とか？）
+ルイズ：……ホントに試してみる？  [voice 5480]
+サイト：ごめんなさい。  [voice 10733]
+ルイズ：あのね、これは２人で端と端を咥える
+ものなの。  [voice 5481]
+  → next scene 1840
+
+---- SCENE 1840 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+193, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：（ええと。
+　な、なんというか……）
+サイト：（ポッチー１本分の長さの先に、
+　ルイズの顔があるわけで……）
+サイト：（お、お互いの呼吸を感じちゃう距離と
+　いうか……）
+サイト：（ルイズの髪が鼻に当たってこそばゆい）
+サイト：ひ、緊張するな。  [voice 10734]
+ルイズ：ふぁ、何よ！  [voice 5482]
+サイト：（ルイズ、頬が少し上気してる……やっぱり
+　かわいいよなあ）
+ルイズ：ふぁ、じゃあ。
+いっ、いくわよ！  [voice 5483]
+サイト：（そういえば、なんでこんなことに？）
+ルイズ：う、んんっっ！  [voice 5484]
+サイト：（うわっ、ルイズと目が合っちゃった！）
+  【選択肢】奇襲作戦！ → scene 1841
+  【選択肢】持久作戦！ → scene 1842
+  【選択肢】特攻作戦！ → scene 1843
+
+---- SCENE 1841 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+193, level=80]
+サイト：（……先手必勝！
+　一気にルイズの側に攻め込んでやる！）
+ルイズ：ひゃっ、ひゃほふっ！  [voice 5485]
+  [VIBRATE vibrate(1)]
+null：────ポッキン。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：も、もうっ！
+いきなり何するのよっ！
+びっくりするじゃないっ！  [voice 5486]
+サイト：そ、そっちが緊張してたのが悪いんじゃねえか！  [voice 10735]
+  → next scene 1844
+
+---- SCENE 1842 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+193, level=80]
+サイト：（焦るな。
+　焦るなよ……俺っ……！
+　待っていればチャンスは……）
+ルイズ：あっ！  [voice 5487]
+サイト：へっ？  [voice 10736]
+  [VIBRATE vibrate(1)]
+null：────ポッキン。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：（そんなっ！
+　もうおしまいっ！？
+　お、俺のドキドキを返せぇっ！）
+ルイズ：ご、ごめん。  [voice 5488]
+サイト：ううっ、緊張のしすぎだよな。
+お互い……。  [voice 10737]
+  → next scene 1844
+
+---- SCENE 1843 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+193, level=80]
+サイト：（ポッチーなぞはただの小道具！
+　本丸はルイズの……）
+サイト：（俺はやる。
+　やってやるぜっ！）
+ルイズ：ひゃっ！  [voice 5489]
+  [VIBRATE vibrate(1)]
+null：────ポッキン。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：いたたた……。  [voice 10738]
+ルイズ：さ、サイト大丈夫？  [voice 5490]
+ルイズ：もう、いきなり突っ込んでくるから……。
+口の中に当たっちゃったのよ。  [voice 5491]
+サイト：（ポッチー恐るべし……）
+ルイズ：何がしたかったの？  [voice 5492]
+サイト：い、いやなにも……。
+というか、ルイズが緊張するから……。  [voice 10739]
+  → next scene 1844
+
+---- SCENE 1844 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+ルイズ：べ、別に緊張なんてしてないんだから！  [voice 5493]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [COFFEE]
+
+---- SCENE 1845 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：２人が最後まで折らずに食べたら、
+どうなるんでしょう？  [voice 10741]
+ルイズ：……。  [voice 5498]
+ルイズ：な、なな、何を考えてるのよ！  [voice 5499]
+ルイズ：そんなことを考えるのは禁止よ！  [voice 5500]
+サイト：そ、そんな無茶苦茶な！  [voice 10742]
+  → next scene 1848
+
+---- SCENE 1846 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：よ、よろこんで。  [voice 10743]
+ルイズ：げ、ゲームなんだからね。  [voice 5501]
+ルイズ：でも、ゲームなんだから……。
+事故があっても怒らないようにするわ。  [voice 5502]
+サイト：え、それって？  [voice 10744]
+ルイズ：さ、さあ……いくんだからね……。  [voice 5503]
+  → next scene 1848
+
+---- SCENE 1847 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：か、勘弁してください。  [voice 10745]
+ルイズ：な、なんですって！  [voice 5504]
+サイト：い、いや、なんというか……。
+理性に自信がないかな～～！
+なんて。  [voice 10746]
+ルイズ：……。  [voice 5505]
+ルイズ：……最初からあなたの理性なんて
+これっぽっちも信用してないわよ。バカ犬。  [voice 5506]
+ルイズ：普段は本能ばっかりで生きてるくせに……
+もうっ！  [voice 5507]
+  → next scene 1848
+
+---- SCENE 1848 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+193, level=80]
+  [TRANS trans("crossfade", 1000)]
+サイト：……。  [voice 10747]
+ルイズ：……。  [voice 5508]
+サイト：（ポッチー１本分の先にルイズがいる……）
+サイト：（息苦しいっていうか……）
+サイト：（ルイズが上気して……）
+  【選択肢】ルイズの名前を囁いてみる → scene 1849
+  【選択肢】……集中！ → scene 1850
+  【選択肢】思い切って一気に勝負に…… → scene 1851
+
+---- SCENE 1849 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+193, level=80]
+サイト：……ルイズぅ……。  [voice 10748]
+ルイズ：……サイトぉ？  [voice 5509]
+  [VIBRATE vibrate(1)]
+null：────ポッキン。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：……って。
+き、きゃあっ！
+え、ええと。ご、ごめんなさいっ！  [voice 5510]
+  [SPRITE   lay1     hide]
+  [EVENT_CG event    hide]
+  [SE       se0      play=+58]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：……ルイズ？
+あ、あれ？
+一体どうしたんだろう……。  [voice 10749]
+  → next scene 1852
+
+---- SCENE 1850 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+193, level=80]
+サイト：（こ、このポッチーを食べきったら……、
+　その先にはルイズの……。
+　ど、どうしよう！）
+  [VIBRATE vibrate(1)]
+null：────ポッキン。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：きっ、きゃあああぁぁっっ！！  [voice 5511]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：ぐ、ぐはっ！  [voice 10750]
+ルイズ：え、ええと。
+あのっ。
+ご、ごめんなさいっ！  [voice 5512]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [SE       se0      play=+58]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：なんで、怒られるの？  [voice 10751]
+  → next scene 1852
+
+---- SCENE 1851 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+193, level=80]
+サイト：（ポッチーはあと半分……その先には……
+　る、ルイズの……が……）
+サイト：（こ、ここは思い切って一気に勝負に……）
+ルイズ：……サ、サイトっ！  [voice 5513]
+  [VIBRATE vibrate(1)]
+null：────ポッキン。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：きっ、きゃあああぁぁっっ！！  [voice 5514]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+ルイズ：あ、あのっ。
+ええっと……ご、ごめんなさいっ！  [voice 5515]
+  [SPRITE   lay1     hide]
+  [EVENT_CG event    hide]
+  [SE       se0      play=+58]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：そ、そりゃないよ～～！  [voice 10752]
+  → next scene 1852
+
+---- SCENE 1852 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+88, level=200]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [COFFEE]
+
+---- SCENE 1853 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：ちょっと恥ずかしい気が……。  [voice 10758]
+ルイズ：は、恥ずかしいってなによ！  [voice 5520]
+サイト：な、なんでもないです。  [voice 10759]
+サイト：（お、男がそういう甘ったるいことをする
+　のにはちょっぴり勇気がいるんだよ！）
+サイト：（ま、まあ、いいよな。
+　ここなら誰も見てないし……）
+デルフリンガー：……。  [voice 1252]
+サイト：デルフ、ちょっと廊下に出すぞ。  [voice 10760]
+デルフリンガー：……気付いたか。
+いいじゃねえかよぉ。
+相棒。  [voice 1253]
+  → next scene 1856
+
+---- SCENE 1854 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：う、うまくいったときは？  [voice 10761]
+ルイズ：……な、なによ。
+なにかご褒美でも欲しいの？  [voice 5521]
+サイト：……え、ええと。  [voice 10762]
+ルイズ：ゲームだからご褒美はなしよ。  [voice 5522]
+ルイズ：……そ、そのかわり。
+……じ、事故が起きても、
+怒らないでいてあげるわ。  [voice 5523]
+サイト：へ？
+じ、事故って？  [voice 10763]
+ルイズ：そ、そのかわりっ！
+ちゃ、ちゃんと真剣にやるんだからねっ。  [voice 5524]
+サイト：なに１人でヒートアップしてるんですか！  [voice 10764]
+  → next scene 1856
+
+---- SCENE 1855 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+サイト：い、いや、でも。
+そんな……まさか……。  [voice 10765]
+ルイズ：な、なな、何を身悶えてるのよ！
+気持ち悪いでしょ？  [voice 5525]
+サイト：す、すいませんでした。
+犬の分際で大それた夢を
+見てしまったようです。  [voice 10766]
+ルイズ：……え、ちょ、ちょっと！
+待ちなさい！
+どういうことを想像したのよ！  [voice 5526]
+  → next scene 1856
+
+---- SCENE 1856 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+214, level=80]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+193, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：ほ、ほらっ！
+……準備はいいっ？  [voice 5527]
+サイト：……。  [voice 10767]
+ルイズ：……。  [voice 5528]
+サイト：（……うわわっ、間近でルイズと
+　目が合っちゃった）
+ルイズ：……め、目は閉じて！  [voice 5529]
+サイト：……な、何を緊張してるんだよ！  [voice 10768]
+ルイズ：うるさい。
+ほら、目を閉じなさい？  [voice 5530]
+  [EVENT_CG event    image=+195, level=80]
+サイト：ふぁい。  [voice 10769]
+ルイズ：目は開けちゃダメなんだからね！  [voice 5531]
+  [EVENT_CG event    image=+196, level=80]
+サイト：ポリ……ポリ……ポリ……。  [voice 10770]
+ルイズ：……ポリ……ポリ……ポリ。  [voice 5532]
+サイト：（ぽ、ポッチーを食べる音がこんなに大きく
+　感じるなんて……）
+サイト：（……ルイズの綺麗な髪がすぐそこで揺れてる
+　気配まで）
+サイト：（あ、ルイズが震えてる……！）
+サイト：（……こ、ここは俺がリードして）
+  【選択肢】……目を開く？ → scene 1857
+  【選択肢】残りを一息に？ → scene 1858
+  【選択肢】我慢して身を引く → scene 1859
+
+---- SCENE 1857 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+196, level=80]
+サイト：（……どんな表情をしているんだろう？）
+サイト：（そ、そっと目を開いて……）
+  [EVENT_CG event    image=+194, level=80]
+サイト：うわっ！  [voice 10771]
+  [EVENT_CG event    image=+193, level=80]
+ルイズ：きゃっ！  [voice 5533]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：……。  [voice 5534]
+サイト：……ええと、あの？  [voice 10772]
+  [SPRITE   lay1     hide]
+ルイズ：……も、もうっ！
+なんで目を開けるのよ！
+恥ずかしいじゃない！  [voice 5535]
+サイト：い、いや、あのその……。  [voice 10773]
+  [SPRITE   lay1     hide]
+ルイズ：サ、サイトのバカァっ！  [voice 5536]
+  [SPRITE   lay5     hide]
+サイト：ご、ごめんなしゃぁぁい！  [voice 10774]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay19    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    hide]
+  [TRANS trans("crossfade", 1000)]
+  → next scene 1860
+
+---- SCENE 1858 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+196, level=80]
+サイト：……。  [voice 10776]
+ルイズ：……。  [voice 5537]
+サイト：（……くっ、とまっちまった！）
+サイト：（ここは残りを一息にっ！）
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：……ダ、ダメっ！
+もう限界っ！
+耐えられないっ！  [voice 5538]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay19    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [BG       stage    image=+2, level=200]
+  [EVENT_CG event    hide]
+  [TRANS trans("crossfade", 1000)]
+サイト：って……いきなり、魔法を撃つかよ！
+普通っ！  [voice 10777]
+  → next scene 1860
+
+---- SCENE 1859 ----
+  [BGM      bgm      play=+4]
+  [EVENT_CG event    image=+196, level=80]
+サイト：（……駄目だ、ここはルイズの純潔を
+　守るために俺が身を引こう……）
+ルイズ：な、何ひっぱってるのよ！  [voice 5539]
+サイト：ご、ごめん。
+これならどうだ？  [voice 10780]
+サイト：（さすがに、引いたらそりゃ失礼か……。
+　少し前に出てみよう……）
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：きっ、きゃあああぁぁっっ！！
+近すぎー！  [voice 5540]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay19    vibrate=14]
+  [SPRITE   lay1     hide, vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    hide, reset]
+  [EVENT_CG event    reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+214, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+ルイズ：……サ、サイトが急に動くからよ！
+は、恥ずかしかったんだからぁ！  [voice 5541]
+  [SPRITE   lay1     hide]
+  [EVENT_CG event    hide]
+  → next scene 1860
+
+---- SCENE 1860 ----
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+2, level=200]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（そんなに恥ずかしいのなら……、
+　最初からやらなきゃいいだろ）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [COFFEE]

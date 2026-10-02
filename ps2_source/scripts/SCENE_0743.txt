@@ -1,0 +1,41 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +933)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +82)});
+}
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +935)});
+talk("コルベール", null, "ああ……。\nどうしようもなく穴の多い作戦だが、\nそれでも我々はやるしかない。", (0x04000000 +1153));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "大丈夫です。\nわたし達には始祖ブリミルの\nご加護があります。", (0x04000000 +6456));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "そうだね。\nこんな作戦にきみ達を送り出すことに、\nわたしも不安の念を禁じ得ないのだが。", (0x04000000 +1154));
+talk("コルベール", null, "もはや君達を信じて託すしかない。", (0x04000000 +1155));
+talk("コルベール", null, "さて、それでは方針も確認できたところで、\nまずは、この地図をきみ達に。", (0x04000000 +1156));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +335)});
+talk("ルイズ", null, "これって……２枚あるわね。\n一枚は学内の見取り図だけど、こっちのは……。", (0x04000000 +6457));
+talk("コルベール", null, "きみ達が中庭から通ってきた、地下道の地図だ。", (0x04000000 +1157));
+talk("コルベール", null, "屋上への最短ルートに通じる出口は、\nここにある。", (0x04000000 +1158));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "そこで俺とルイズは、二手に分かれるって\nことか。\nあ、でもこの距離ならほんの目と鼻の先だな。", (0x04000000 +11925));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +931)});
+talk("コルベール", null, "風は我々に吹いてる証だよ。\nそうそう、もうひとつきみ達に渡しておくべき\nものがあるんだが。", (0x04000000 +1159));
+talk("サイト", null, "あ、これは……。", (0x04000000 +11926));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "そう、昨日見せた耳栓だ。\nあの時にも大雑把に説明はしたと思うが。", (0x04000000 +1160));
+talk("コルベール", null, "敵の中で最も厄介なのは、ウェザリーの\n催眠魔法だ。", (0x04000000 +1161));
+talk("コルベール", null, "でも、これを付けていれば大丈夫だ。", (0x04000000 +1162));
+talk("コルベール", null, "催眠魔法を受けた者と戦うことになっても、\nこれを付けさせれば一時的に正気に\n戻せるはずだ。", (0x04000000 +1163));
+talk("サイト", null, "分かりました。", (0x04000000 +11927));
+talk("コルベール", null, "それでは行きたまえ。\nわたしも君達が外に出るのを確認次第、\n外でちょっとした騒ぎを起こしてみるよ。", (0x04000000 +1164));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +744), true);

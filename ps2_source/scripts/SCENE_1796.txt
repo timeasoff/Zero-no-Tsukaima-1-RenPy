@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+}
+talk("ルイズ", null, "……ふうっ！\nおしまい！", (0x04000000 +5306));
+talk("ルイズ", null, "これできれいになったでしょ！", (0x04000000 +5307));
+talk("サイト", null, "……きゅう。", (0x04000000 +10581));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +188)});
+waitLoad(true);
+talk("ルイズ", null, "……もうっ、だらしないわね！", (0x04000000 +5308));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

@@ -1,0 +1,458 @@
+### getTunScene @51392
+  break;
+        }
+    }
+
+    // レベル2 があれば優先再生
+    if (level2.len() > 0 || level1.len() > 0) {
+        zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done 
+
+### getDeleScene @51527
+l2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+            //resetSelect(tnEventId, tnEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    } else if (ze
+
+### tnEventId @1058
+[0,0,0,0,0,0];
+    zero_tundele = 127;
+    zero_tundele_count = 0;
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// ----------------------------------------
+// システム要素
+// ----------------------------------------
+
+// ツンデレメータ用
+tndlBaseImageId <- 0;
+tndlArrowImageId <- 0;
+
+// 好感度上下
+paraUpImageId   <- 0;
+paraDownImageId <- 0;
+paraTunImageId  <- 0;
+paraDereImageId <- 0;
+paraLikeImageId <- 0;
+paraFaceImageId <- 0;
+
+// 上下時SE
+paraUpSEId <- 0;
+paraDownSEId <- 0;
+
+/**
+ * ツンデレメータ
+ */
+class Tundele {
+
+    before = null;
+    after = null;
+    state = null;
+    now   = null;
+    time = null;
+
+    // ベースレイヤ
+    baseLa
+
+### dlEventId @1025
+Variable()
+{
+    zero_likes  = [0,0,0,0,0,0];
+    zero_tundele = 127;
+    zero_tundele_count = 0;
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// ----------------------------------------
+// システム要素
+// ----------------------------------------
+
+// ツンデレメータ用
+tndlBaseImageId <- 0;
+tndlArrowImageId <- 0;
+
+// 好感度上下
+paraUpImageId   <- 0;
+paraDownImageId <- 0;
+paraTunImageId  <- 0;
+paraDereImageId <- 0;
+paraLikeImageId <- 0;
+paraFaceImageId <- 0;
+
+// 上下時SE
+paraUpSEId <- 0;
+paraDownSEId <- 0;
+
+/**
+ * ツンデレメータ
+ */
+class Tundele {
+
+    before = null;
+    after = null;
+    state = null;
+    now   = null;
+    time = n
+
+### zero_tndl_scene @544
+zero_tundele <- 127;
+// ツンデレ回数
+zero_tundele_count <- 0;
+// ルートパラメータ
+zero_route <- 0;
+// キスパラメータ
+zero_kiss <- 0;
+// アイテム個数
+zero_items <- [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+// タイトル
+zero_title <- "";
+// 直近のテキスト
+zero_text  <- "";
+
+// ツンデレ状態マップ
+zero_tun_event <- [0,0,0,0,0,0];
+zero_dele_event <- [0,0,0,0,0,0];
+// ツンデレ処理用
+zero_tndl_scene <- 0;
+zero_tndl_done <- 0;
+
+zero_tndl_flag <- 0;
+zero_tndl_no   <- 0;
+
+/**
+ * ゲーム変数初期化処理
+ */
+function initVariable()
+{
+    zero_likes  = [0,0,0,0,0,0];
+    zero_tundele = 127;
+    zero_tundele_count = 0;
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// -----------
+
+### tndl( @54953
+      pos in battlePosMap) {
+        BattleEnemy(battlePosMap[pos], battleNameMap[name], pose);
+    }
+}
+
+/**
+ * 戦闘開始
+ */
+function battle()
+{
+    suspend(BATTLE);
+}
+
+// ------------------------------------------------
+// 特殊アクション実行中
+// ------------------------------------------------
+
+/**
+ * ツンデレ処理
+ * @param add 移動量
+ */
+function tndl(add)
+{
+    addLine();
+    if (!isJump2()) {
+        if (add == null) {
+            zero_tundele = 127;
+        } else {
+            local before = zero_tundele;
+            zero_tundele += add;
+            // 値の範囲制限
+            if (zero_tundele > 255) {
+                zero_tundele = 255;
+            } else if (zero_tundele < 0) {
+                zero_tundele = 0;
+            }
+            if (before != zero_tundele) {
+                funcs.append(Tundele(before, zero_tundele));
+                waitFunc(null, true);
+     
+
+=== around getTunScene ===
+() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+            //resetSelect(tnEventId, tnEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+            //resetSelect(dlEventId, dlEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    }
+    // 選択肢登録
+    ::DateClear(zero_tndl_flag != 0);
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        ::DateAdd(info.chr);
+    }
+    stable = true;
+    if (bgm >= 0) {
+        MusicPlay(0, bgm, volumeCalc(100), timeCalc(500));
+    }
+    suspend(DATE);
+}
+
+function dateDone(param)
+{
+    print("dateDone:" + param + "\n");
+    // BGM 停止
+    if (zero_tndl_flag != 0) {
+        if (zero_tndl_flag == 1) {
+            zero_tun_event[zero_tndl_no]++;
+        } else {
+            zero_dele_event[zero_tndl_no]++;
+        }
+        zero_tundele_count++;
+        zero_tndl_flag = 0;
+    }
+    MusicPlay(0, 0, 0, timeCalc(500));
+    if (selectInfos.len() > 0) {
+        if (param < selectInfos.len()) {
+            local info = selectInfos[param];
+            if ("eval" in info && info.eval != null) {
+                eval(info.eval, null);
+            }
+            if ("next" in info && info.next != null) {
+            
+=== around getDeleScene ===
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+            //resetSelect(tnEventId, tnEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+            //resetSelect(dlEventId, dlEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    }
+    // 選択肢登録
+    ::DateClear(zero_tndl_flag != 0);
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        ::DateAdd(info.chr);
+    }
+    stable = true;
+    if (bgm >= 0) {
+        MusicPlay(0, bgm, volumeCalc(100), timeCalc(500));
+    }
+    suspend(DATE);
+}
+
+function dateDone(param)
+{
+    print("dateDone:" + param + "\n");
+    // BGM 停止
+    if (zero_tndl_flag != 0) {
+        if (zero_tndl_flag == 1) {
+            zero_tun_event[zero_tndl_no]++;
+        } else {
+            zero_dele_event[zero_tndl_no]++;
+        }
+        zero_tundele_count++;
+        zero_tndl_flag = 0;
+    }
+    MusicPlay(0, 0, 0, timeCalc(500));
+    if (selectInfos.len() > 0) {
+        if (param < selectInfos.len()) {
+            local info = selectInfos[param];
+            if ("eval" in info && info.eval != null) {
+                eval(info.eval, null);
+            }
+            if ("next" in info && info.next != null) {
+                next(info.next, null);
+            }
+        }
+        selectInfos = [];
+    }
+}
+
+// ---------------------------------------

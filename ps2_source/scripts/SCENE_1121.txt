@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +621)});
+set("bgm", {play = (0x03000000 +22)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "全部、本気かも知れない。", (0x04000000 +8684));
+set("lay0", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +625)});
+talk("タバサ", null, "いい病院を紹介する。", (0x04000000 +15327));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "ちょ、ちょっと！", (0x04000000 +8685));
+talk("タバサ", null, "仮面を外せなくなったらそれは病気。\nとても怖いこと。", (0x04000000 +15328));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "確かに役の上での気持ちもあったかも\n知れないけど……。", (0x04000000 +8686));
+talk("サイト", null, "あれはあのときの俺の気持ちでもあるのは\n間違いない……と思う。", (0x04000000 +8687));
+set("lay0", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +621)});
+talk("タバサ", null, "本当？", (0x04000000 +15329));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "た、多分。\nあのときの気持ち、だけどな。", (0x04000000 +8688));
+next((0x01000000 +1123), true);

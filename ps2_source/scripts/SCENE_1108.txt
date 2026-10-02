@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +22)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +204)});
+}
+talk("ルイズ", null, "ふーん。\nだったら、なんで、わたしのほうを\n見てくれないの？", (0x04000000 +4744));
+talk("サイト", null, "恥ずかしいからに決まってるだろ？", (0x04000000 +8645));
+talk("ルイズ", null, "あれ、恥ずかしいんだ？\nおかしいなぁ……。\nあのサイトが恥ずかしいって。", (0x04000000 +4745));
+talk("サイト", null, "バ、バカ。\n早く食べようぜ。\n料理が冷めちまうよ。", (0x04000000 +8646));
+talk("ルイズ", null, "ふふっ。\nそうね。", (0x04000000 +4746));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +343), true);

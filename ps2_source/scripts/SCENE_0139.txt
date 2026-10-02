@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +412)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +977)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "言われてみれば狭かったかもなぁ。", (0x04000000 +11214));
+set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +977)});
+talk("ハルナ", null, "やっぱり、迷惑だよね！", (0x04000000 +2153));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "でも、俺のベッドじゃないから、\n狭い広いは、俺が意見するところじゃないし。", (0x04000000 +11215));
+set("lay5", {show = 1,level = 160,dr = "2C",lv = 0,image = (0x02000000 +447)});
+talk("サイト", null, "まぁ、ワラで寝ていたから、\nどこでも寝れるようになったかなぁ。\nあはははは……。", (0x04000000 +11216));
+set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +979)});
+talk("ハルナ", null, "そ、そうなんだ……。", (0x04000000 +2154));
+next((0x01000000 +141), true);

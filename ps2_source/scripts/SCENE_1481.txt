@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +8)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +40)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "なるほど……。", (0x04000000 +10140));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "なにか情報が手に入ったのか？", (0x04000000 +10141));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "え、ええ、もちろん。", (0x04000000 +3064));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "美味しい果物の見分け方とか……、\n男の子の気の引き方とか……。", (0x04000000 +3065));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "知ってる？\n野菜は水でぬらした紙で包むと\n長持ちするのよ。", (0x04000000 +3066));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "そんな情報は要らないって。", (0x04000000 +10142));
+next((0x01000000 +1484), true);

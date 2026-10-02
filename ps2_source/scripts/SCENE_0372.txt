@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "お姫さまとのデートに悔いなし！\nお姫さまに頼まれて、街の名所をあちこちと！\nこれはデートに間違いない！", (0x04000000 +13475));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "……。", (0x04000000 +7336));
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "やー、お姫さまも楽しんでくれたし、\n思い残すこともないな。\nはっはっは。", (0x04000000 +13476));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "……そう。\nだったらわたしも手加減しなくてすむわ。", (0x04000000 +7337));
+next((0x01000000 +374), true);

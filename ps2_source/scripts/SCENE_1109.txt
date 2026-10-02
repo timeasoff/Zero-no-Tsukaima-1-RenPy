@@ -1,0 +1,63 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +46)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "あ、サイトさん。\nちょうど良かった……。", (0x04000000 +14263));
+set("lay2", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あれ？\nシエスタ、どうかしたの？", (0x04000000 +8647));
+talk("シエスタ", null, "今日はお芝居のお給金をいただきましたので、\nハルナさんに伺ってサイトさんの国の\n料理を作ってみたんです。", (0x04000000 +14264));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "えっ？\nマジ……。", (0x04000000 +8648));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +528)});
+talk("シエスタ", null, "よく分からなかったり、手に入らない材料も\n多かったのですけど……。\n食べていただけますか？", (0x04000000 +14265));
+talk("サイト", null, "そりゃ、もう！", (0x04000000 +8649));
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +221)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "おおっ、これは！", (0x04000000 +8650));
+talk("サイト", null, "焼き魚に……浅漬け……。", (0x04000000 +8651));
+talk("シエスタ", null, "オミソというのが手に入らなかったので、\nオスマシというのにしたんですけど……。", (0x04000000 +14266));
+talk("シエスタ", null, "あ、そのかわりにオウドンというのを\n作ったので食べてください。", (0x04000000 +14267));
+talk("サイト", null, "おおっ！", (0x04000000 +8652));
+talk("シエスタ", null, "ハルナさんは、焼魚以外はオダシとショーユが\nあればと随分嘆いていましたけど。", (0x04000000 +14268));
+talk("サイト", null, "充分だって！\nああ、うどんなんて懐かしいなぁ。", (0x04000000 +8653));
+talk("シエスタ", null, "それから、サイトさんの国では、\nみんなこの２本の棒を\n使って食べるんですよね？", (0x04000000 +14269));
+talk("シエスタ", null, "ひいおじいちゃんもそうだったって\n聞いてますけど。", (0x04000000 +14270));
+talk("サイト", null, "おおー！　お箸まで！\nさすがシエスタ、気がきいてる！\nそれじゃ、いただきま～～す！", (0x04000000 +8654));
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +221)});
+trans("crossfade", 1000);
+msgon()
+talk("シエスタ", null, "……でも、サイトさんの国の料理って\n不思議ですよね。", (0x04000000 +14271));
+talk("サイト", null, "ん？\nそうかな？", (0x04000000 +8655));
+talk("シエスタ", null, "単純なのか凝ってるのか……。\nハルナさんは、素材本来の味にこだわる\nって言ってました。", (0x04000000 +14272));
+talk("サイト", null, "……へぇ。", (0x04000000 +8656));
+talk("シエスタ", null, "そういえば、ひいおじいちゃんが生の卵を\n食べたという笑い話が村にあったんですが……。", (0x04000000 +14273));
+talk("シエスタ", null, "ハルナさんに聞いたら、サイトさんの国では\n普通だって言われてびっくりしましたよ。", (0x04000000 +14274));
+talk("サイト", null, "シエスタのひいおじいちゃんも\n苦労したんだろうな。", (0x04000000 +8657));
+selectInit();
+selectItem("故郷に帰りたいなぁ", (0x01000000 +1110), null, true);
+selectItem("ハンバーグ食べたいなぁ", (0x01000000 +1111), null, true);
+selectItem("他に何か食べ物の話は？", (0x01000000 +1112), null, true);
+select();

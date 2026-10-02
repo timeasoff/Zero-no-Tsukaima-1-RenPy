@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1065)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +506)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "そんなことはないです！", (0x04000000 +9873));
+talk("サイト", null, "あいつらは最高の仲間達です。\nそりゃ、ワガママだったり、\n鼻持ちならなかったりするけど……。", (0x04000000 +9874));
+talk("サイト", null, "でも、いいかげんなことをする奴らじゃ\nないです。", (0x04000000 +9875));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +506)});
+talk("シエスタ", null, "サイトさん……。", (0x04000000 +14459));
+tndl(30);
+set("lay20", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +1067)});
+talk("ウェザリー", null, "きみの友人を侮辱してしまったようだな。\nすまなかった。", (0x04000000 +15868));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 274,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,dr = "1A",opacityTime = 100,show = 1,x = 224,moveTime = 100,xFrom = 174,level = 160,lv = 0,opacityFrom = 0,image = (0x02000000 +396)});
+talk("サイト", null, "い、いや今回はあいつらのワガママも\n悪いとは思うんですよ。", (0x04000000 +9876));
+talk("サイト", null, "まあ、実家の体面とかいろいろ難しいことを\n考えすぎてるんだと思うんです。", (0x04000000 +9877));
+talk("ウェザリー", null, "まぁ、貴族とはそういう生き物だからね。", (0x04000000 +15869));
+next((0x01000000 +1387), true);

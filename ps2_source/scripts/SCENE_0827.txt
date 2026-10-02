@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +990)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +11)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "こ、これ、食えるのか？", (0x04000000 +12202));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "あ、落としちゃった！", (0x04000000 +12203));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +988)});
+talk("ハルナ", null, "もったいないわね！\n……ええっ！？", (0x04000000 +2414));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "まじか……。\n今、キュウリが地面を掘ってったな。", (0x04000000 +12204));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "うん。\n穴、残ってるね。", (0x04000000 +2415));
+talk("サイト", null, "見なかった。\n俺達は何も見なかった。", (0x04000000 +12205));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +953)});
+talk("ハルナ", null, "そ、そうね！\nさ、食べてみて！\n地面にもぐるキュウリのサラダ！", (0x04000000 +2416));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "くそっ、ファンタジー世界め！", (0x04000000 +12206));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +931)});
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +920)});
+next((0x01000000 +828), true);

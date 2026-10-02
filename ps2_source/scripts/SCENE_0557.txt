@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +31)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "作戦会議でもしようぜ。\nむやみに動きまわるのも効率が悪いしな。", (0x04000000 +12861));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +249)});
+trans("crossfade", 1000);
+msgon()
+talk("キュルケ", null, "あら、ダーリン。\n作戦はあるわよ。", (0x04000000 +3636));
+talk("サイト", null, "え？\nそうなの？", (0x04000000 +12862));
+talk("キュルケ", null, "まあ、詳しくはあとで説明するわ。\nとりあえず、少しお昼寝するわ。", (0x04000000 +3637));
+talk("サイト", null, "お、おい。\nお昼寝ってなんだよ！", (0x04000000 +12863));
+next((0x01000000 +558), true);

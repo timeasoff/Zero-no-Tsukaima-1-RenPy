@@ -1,0 +1,43 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +26)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "（とりあえず探すなら劇場からか……）", null);
+talk("サイト", null, "（無事でいてくれよ！）", null);
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +405)});
+msgon()
+talk("サイト", null, "はぁ、はぁはぁ……。", (0x04000000 +13319));
+talk("サイト", null, "（ちくしょう、あと少しで劇場なのに……）", null);
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay14", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -210,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -160,lv = 0,image = (0x02000000 +1111)});
+set("lay22", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 110,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 160,lv = 0,image = (0x02000000 +1111)});
+talk("敵兵士ＥＳ", "兵士", "……！", (0x04000000 +1407));
+set("lay14", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -160,opacityFrom = 100,hide = 1,opacityTime = 100,x = -110});
+set("lay22", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 160,opacityFrom = 100,hide = 1,opacityTime = 100,x = 210});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "くそっ、宿の親父が言ってた\nレコン・キスタの敵兵ってのはこいつらか！", (0x04000000 +13320));
+set("se0", {play = (0x03000000 +65)});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -75,level = 140,opacityFrom = 0,dr = "3B",opacityTime = 100,x = 0,lv = 1,image = (0x02000000 +472)});
+talk("サイト", null, "てめえらそこをどけぇぇぇっ！", (0x04000000 +13321));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 0,opacityFrom = 100,hide = 1,opacityTime = 100,x = 75});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+battleInit((0x02000000 +58));
+battleAdd("サイト");
+battleEnemy("左", "兵士", (0x02000000 +1111));
+battleEnemy("右", "兵士", (0x02000000 +1111));
+battle();
+next((0x01000000 +516), true);

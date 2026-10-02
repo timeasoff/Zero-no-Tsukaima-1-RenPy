@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +434)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "にがいおくすり……いや。", (0x04000000 +3785));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "なあ、キュルケ。\nワガママを言わないで……。", (0x04000000 +13102));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +403)});
+talk("サイト", null, "苦くない苦くないって！", (0x04000000 +13103));
+set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "ホント、おにいちゃん？", (0x04000000 +3786));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 149,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +858)});
+talk("モンモランシー", null, "アカグサの実が入ってるから、\nかなり苦いと思うわよ。\nあれ、生で食べられないくらい苦いから。", (0x04000000 +4152));
+set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "じゃ、ぜーったいいや！", (0x04000000 +3787));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "モンモン！\n邪魔するなよ！", (0x04000000 +13104));
+next((0x01000000 +651), true);

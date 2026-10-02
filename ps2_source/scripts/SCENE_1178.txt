@@ -1,0 +1,38 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +17)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +274)});
+}
+talk("ハルナ", null, "やっぱり、平賀くんは強いよ。", (0x04000000 +1728));
+talk("サイト", null, "そ、そっかな……。", (0x04000000 +9120));
+talk("ハルナ", null, "でも、少しは勉強を進めておいた方が\nいいと思うわ。", (0x04000000 +1729));
+talk("サイト", null, "うっ……。", (0x04000000 +9121));
+talk("ハルナ", null, "そうだ！\nこのまま一緒に勉強会をしましょうよ！", (0x04000000 +1730));
+talk("サイト", null, "え、ええっ！", (0x04000000 +9122));
+talk("ハルナ", null, "ほらほら、じゃあ英語のテキストからよ！\nここの英文を訳して？", (0x04000000 +1731));
+talk("サイト", null, "ええと、\n『いつも物事の明るい側面を見ていよう』？", (0x04000000 +9123));
+talk("ハルナ", null, "『いつも良い方に考えよう』の方が訳としては\nいいんじゃないかな？", (0x04000000 +1732));
+talk("サイト", null, "じゃあ、次は？", (0x04000000 +9124));
+talk("ハルナ", null, "『でも、その後、思いもよらないことが\n　起きたのだ』……ね。", (0x04000000 +1733));
+msgoff()
+set("lay5", {show = 0});
+set("lay7", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（そのまま、しばらく勉強会は続いた。\n　こうしてると、異世界にいるなんて、\n　とても信じられなくて）", null);
+talk("サイト", null, "（でも、朝日が昇れば、\n　またいつもの世界に戻る）", null);
+talk("サイト", null, "（春奈のために、\n　俺ができることって何だろう？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +467), true);

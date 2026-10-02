@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +555)});
+set("bgm", {play = (0x03000000 +19)});
+set("se1", {play = (0x03000000 +44),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +32)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ところで、ギーシュ。\nこんなところでなにやってたんだ？", (0x04000000 +9763));
+set("lay4", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +566)});
+talk("ギーシュ", null, "ぼくかい？\nぼくは、普段まず見ることのない厨房に\n足を運ぶことで、社会を学んでいたのだよ。", (0x04000000 +1427));
+talk("サイト", null, "……なるほどねぇ。\nあっ、口の周りにソースが付いてるぞ。", (0x04000000 +9764));
+set("lay4", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +559)});
+talk("ギーシュ", null, "なっ、何を馬鹿なっ！？\n……って、なにも付いてないじゃないか！？", (0x04000000 +1428));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "冗談だよ、じょーだん。\n厨房で社会見学もいいけどさ、\nつまみ食いはほどほどにしとけよー。", (0x04000000 +9765));
+talk("ギーシュ", null, "何を言ってるんだね、きみはっ！\nつ、つまみ食いなんて、\nぼくはしてないんだからなっ！", (0x04000000 +1429));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "はいはい。\n分かった分かった。", (0x04000000 +9766));
+set("lay4", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +555)});
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "それじゃあな。", (0x04000000 +9767));
+set("se1", {stop = 1});
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay4", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

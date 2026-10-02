@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +236)});
+}
+talk("サイト", null, "同じ使い魔なんだぜ、そりゃ分かるさ。", (0x04000000 +8507));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +237)});
+waitLoad(true);
+talk("タバサ", null, "適当。", (0x04000000 +15298));
+talk("サイト", null, "あ、バレたか……。", (0x04000000 +8508));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +236)});
+waitLoad(true);
+talk("サイト", null, "でも、タバサとシルフィードが\n仲がいいっていうのは、\n誰が見ても分かると思うぜ。", (0x04000000 +8509));
+next((0x01000000 +1073), true);

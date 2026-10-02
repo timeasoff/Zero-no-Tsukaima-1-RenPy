@@ -1,0 +1,60 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+}
+talk("サイト", null, "肩を揉んであげよう。", (0x04000000 +8255));
+talk("タバサ", null, "……いい。", (0x04000000 +15266));
+talk("サイト", null, "遠慮するなって。\n読書の邪魔はしないからさ。", (0x04000000 +8256));
+talk("タバサ", null, "……。", null);
+msgoff()
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +232)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "よっと。\nとりあえず、このへんかなーっと。", (0x04000000 +8257));
+talk(null, null, "（もみもみもみ……）", null);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "うわ、お客さん結構凝ってますね！\n普段の姿勢、あまり良くないとか？", (0x04000000 +8258));
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk(null, null, "（もみもみもみもみ……）", null);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "ふむ、このへんかな……。", (0x04000000 +8259));
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk(null, null, "（もみもみもみもみもみ……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +233)});
+waitLoad(true);
+talk("タバサ", null, "……もう少し上。", (0x04000000 +15267));
+like("タバサ", 15);
+talk("サイト", null, "え？", (0x04000000 +8260));
+talk("サイト", null, "ああ、もう少し上ね。\n了解。", (0x04000000 +8261));
+talk(null, null, "（もみもみもみもみもみもみ……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +234)});
+waitLoad(true);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "こんな感じ？", (0x04000000 +8262));
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+msgoff()
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+trans("crossfade", 1000);
+msgon()
+next((0x01000000 +1023), true);

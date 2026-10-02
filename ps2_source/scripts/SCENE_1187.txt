@@ -1,0 +1,42 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +250)});
+}
+talk("サイト", null, "……ん？\nなんだこのプレッシャーは！？", (0x04000000 +9072));
+msgoff()
+set("lay7", {show = 0});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +989)});
+msgon()
+talk("ハルナ", null, "……。", (0x04000000 +1707));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +394)});
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay7", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay6", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 1,reset = 1});
+set("event", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+set("lay5", {show = 1,reset = 1});
+set("lay6", {show = 0,reset = 1});
+waitTime(0, true);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ぐはっ！", (0x04000000 +9073));
+set("lay5", {y = 0,x = 224});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +988)});
+talk("ハルナ", null, "もう、知らない。", (0x04000000 +1708));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "痛たた、いやその……。", (0x04000000 +9074));
+next((0x01000000 +1188), true);

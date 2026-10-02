@@ -1,0 +1,52 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+}
+talk("ルイズ", null, "分かった！！！\nだったら、力ずくで離してあげるわっ！！", (0x04000000 +5666));
+talk("サイト", null, "って、ちょっと待て！\nこんなところで魔法なんか使ったら……！", (0x04000000 +10938));
+talk("ルイズ", null, "問答無用ー！！", (0x04000000 +5667));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("event", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay3", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay2", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay5", {show = 0,vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay0", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay1", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay7", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay6", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+vibrate(3);
+waitTime(1100, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay3", {show = 0,reset = 1});
+set("lay2", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay0", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+set("lay6", {show = 0,reset = 1});
+waitTime(0, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+set("event", {show = 0});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "どわああっ！！", (0x04000000 +10939));
+msgoff()
+back();
+set("stage", {y = 0,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("タバサ", null, "被害甚大……。", (0x04000000 +15549));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("lay1", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +44), true);

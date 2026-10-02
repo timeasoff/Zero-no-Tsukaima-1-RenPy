@@ -1,0 +1,54 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +196)});
+}
+talk("サイト", null, "（……どんな表情をしているんだろう？）", null);
+talk("サイト", null, "（そ、そっと目を開いて……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +194)});
+waitLoad(true);
+talk("サイト", null, "うわっ！", (0x04000000 +10771));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +193)});
+waitLoad(true);
+talk("ルイズ", null, "きゃっ！", (0x04000000 +5533));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……。", (0x04000000 +5534));
+talk("サイト", null, "……ええと、あの？", (0x04000000 +10772));
+set("lay1", {show = 0});
+talk("ルイズ", null, "……も、もうっ！\nなんで目を開けるのよ！\n恥ずかしいじゃない！", (0x04000000 +5535));
+talk("サイト", null, "い、いや、あのその……。", (0x04000000 +10773));
+set("lay1", {y = 416,show = 0,x = 304});
+talk("ルイズ", null, "サ、サイトのバカァっ！", (0x04000000 +5536));
+set("lay5", {show = 0});
+talk("サイト", null, "ご、ごめんなしゃぁぁい！", (0x04000000 +10774));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay19", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay19", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+set("event", {show = 0});
+trans("crossfade", 1000);
+next((0x01000000 +1860), true);

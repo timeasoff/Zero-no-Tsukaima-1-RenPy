@@ -1,0 +1,24 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+msgon()
+talk("ルイズ", null, "あ、あの……。\n待って、サイト。", (0x04000000 +6483));
+talk("サイト", null, "なんだよ。\nまだ打ち合わせてないこととか、\n分からないこととかあるのか？", (0x04000000 +11957));
+talk("ルイズ", null, "そ、その……。\nあんたは大丈夫？", (0x04000000 +6484));
+set("lay5", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "へ？", (0x04000000 +11958));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +343)});
+talk("ルイズ", null, "わ、わたしとキュルケは屋上まで\n行けばいいだけだし……。", (0x04000000 +6485));
+talk("ルイズ", null, "魔法さえ成功してしまえば\n後はどこかに隠れてればいいけど。", (0x04000000 +6486));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +310)});
+talk("ルイズ", null, "あんたとタバサは、レコン・キスタの兵士や\nウェザリー達と戦わなくちゃいけないのよ？", (0x04000000 +6487));
+talk("ルイズ", null, "別に、タバサがいるし、デルフリンガーも\nあるけど……。\nでも……。", (0x04000000 +6488));
+selectInit();
+selectItem("俺に任せておけよ", (0x01000000 +752), null, true);
+selectItem("俺ってそんなに信用されてない？", (0x01000000 +753), null, true);
+selectItem("ルイズ、お前の方が心配だ", (0x01000000 +754), null, true);
+select();

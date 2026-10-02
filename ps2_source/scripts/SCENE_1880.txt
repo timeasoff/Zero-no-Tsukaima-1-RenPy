@@ -1,0 +1,35 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +929)});
+set("bgm", {play = (0x03000000 +32)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)});
+}
+set("lay9", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +929)});
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("コルベール", null, "だったら、サイトくんの、\nその心のままを告げることだね。", (0x04000000 +974));
+talk("コルベール", null, "気持ちの押し付けかもしれないが、\n本当の言葉はそれ自体が力を持つものだ。", (0x04000000 +975));
+talk("コルベール", null, "まあ、心のままを告げるということ自体、\n大変難しいことだがね。", (0x04000000 +976));
+talk("サイト", null, "先生……。", (0x04000000 +10217));
+talk("コルベール", null, "つまり、他人に誤解されないよう、\n気持ちを伝えるということは至難の業であり、\nある種、その効果は魔法的といってもいい。", (0x04000000 +977));
+talk("コルベール", null, "そもそも魔法というものも、\n詠唱という言葉を必要とするわけで、\nそういった意味において……。", (0x04000000 +978));
+set("lay9", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +933)});
+talk("コルベール", null, "我々は、比喩としての『言葉の力』ではなく、\nそのままの意味において、\n『言葉が持つ力』を研究する必要が……。", (0x04000000 +979));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "（う、うわ、\n　講義が始まっちゃったよ、おい。\n　ここはさっさと切り上げないと）", null);
+talk("コルベール", null, "さらに誤解を恐れずに言うとだね……。", (0x04000000 +980));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "せ、先生、すいません。\n俺、急いで春奈を探さないと……！", (0x04000000 +10218));
+set("lay9", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "お、そ、そうだった。\nこれは失礼。", (0x04000000 +981));
+talk("コルベール", null, "わたしの悪い癖だな。\nハルナくんのことは、わたしも探してみるよ。", (0x04000000 +982));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ありがとうございます、先生！\n俺、他のところを見てきます！", (0x04000000 +10219));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

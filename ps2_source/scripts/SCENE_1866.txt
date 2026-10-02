@@ -1,0 +1,4 @@
+selectInit();
+selectItem("ƒcƒ“", (0x01000000 +1867), "tdtest_td=0", true);
+selectItem("ƒfƒŒ", (0x01000000 +1867), "tdtest_td=1", true);
+select();

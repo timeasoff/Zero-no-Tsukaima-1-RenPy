@@ -1,0 +1,18 @@
+first talk at 193
+hex: 74 61 6C 6B 28 22 83 54 83 43 83 67 22 2C 20 6E 75 6C 6C 2C 20 22 81 69 82 F1 81 63 81 63 81 48 5C 6E 81 40 92 4E 82 A9 81 41 93 7C 82 EA 82 C4 82 E9 81 6A 22 2C 20 6E 75 6C 6C 29 3B 0A 74 61 6C 6B 28 22 83 8B 83 43 83 59 22 2C 20 6E 75 6C 6C 2C 20 22 82 BF 82 E5 82 C1 82 C6 81 41 83 54 83 43 83 67 81 48 5C 6E 82 C7 82 A4 82 B5 82 BD 82 CC 81 48 22 2C 20 28
+cp932: talk("サイト", null, "（ん……？\n　誰か、倒れてる）", null);
+talk("ルイズ", null, "ちょっと、サイト？\nどうしたの？", (
+
+talk matches: 35
+with non-ascii: 35 / 35
+  speaker=b'\x83T\x83C\x83g' text=b'\x81i\x82\xf1\x81c\x81c\x81H\\n\x81@\x92N\x82\xa9\x81A\x93|\x82\xea\x82\xc4\x82\xe9\x81j'
+  speaker=b'\x83\x8b\x83C\x83Y' text=b'\x82\xbf\x82\xe5\x82\xc1\x82\xc6\x81A\x83T\x83C\x83g\x81H\\n\x82\xc7\x82\xa4\x82\xb5\x82\xbd\x82\xcc\x81H'
+  speaker=b'\x83T\x83C\x83g' text=b'\x82\xa0\x82\xbb\x82\xb1\x81c\x81c\x81B\\n\x82\xa0\x82\xcc\x96\xd8\x82\xcc\x82\xd3\x82\xe0\x82\xc6\x82\xc9\x92N\x82\xa9\x93|\x82\xea\x82\xc4\x82\xc8\x82\xa2\x82\xa9\x81H'
+  speaker=b'\x83\x8b\x83C\x83Y' text=b'\x82\xa6\x81H\\n\x82\xc7\x82\xb1\x81H'
+  speaker=b'\x83T\x83C\x83g' text=b'\x82\xd9\x82\xe7\x81A\x82\xa0\x82\xbb\x82\xb1\x81c\x81c\x82\xc1\x82\xc4\x81A\x8ds\x82\xc1\x82\xc4\x82\xdd\x82\xbd\x95\xfb\x82\xaa\x91\x81\x82\xa2\x82\xc8\x81B\\n\x82\xb2\x82\xdf\x82\xf1\x81A\x83\x8b\x83C\x83Y\x81B\\n\x90\xe6\x82\xc9\x8ds\x82\xad\x82\xbc\x81I'
+  speaker=b'\x83\x8b\x83C\x83Y' text=b'\x82\xa0\x81A\x82\xbf\x82\xe5\x82\xc1\x82\xc6\x81A\x83T\x83C\x83g\x81I\\n\x82\xe0\x82\xa4\x82\xc1\x81A\x89\xbd\x82\xc8\x82\xcc\x82\xe6\x81[\x81B'
+
+SCENE_0007 first talk hex: 74 61 6C 6B 28 22 83 54 83 43 83 67 22 2C 20 6E 75 6C 6C 2C 20 22 82 A2 82 A2 82 C6 8E 76 82 A4 82 BA 81 42 5C 6E 82 A8 82 DC 82 A6 81 41 8C B3 82 AA 82 A2 82 A2 82 E0 82 F1 81 42 5C 6E 82 E0 82 C1 82 C6 8A 4F 8C A9 82 C9 8B 43 82 F0 94 7A 82 E9 82 C1 82 C4 82 CC 82 CD 83 41 83 8A 82 BE 82 EB 81 42
+cp932: talk("サイト", null, "いいと思うぜ。\nおまえ、元がいいもん。\nもっと外見に気を配るってのはアリだろ。
+
+total talk( = 17283, first-500bytes decode with Japanese = 15891

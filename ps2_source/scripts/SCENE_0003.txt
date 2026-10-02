@@ -1,0 +1,2997 @@
+//
+// Squirrel によるアドベンチャーエンジン
+//
+
+// ----------------------------------------
+// ゼロゲーム変数
+// ----------------------------------------
+
+// キャラ別新密度
+zero_likes <- [0,0,0,0,0,0];
+// ツンデレ度
+zero_tundele <- 127;
+// ツンデレ回数
+zero_tundele_count <- 0;
+// ルートパラメータ
+zero_route <- 0;
+// キスパラメータ
+zero_kiss <- 0;
+// アイテム個数
+zero_items <- [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+// タイトル
+zero_title <- "";
+// 直近のテキスト
+zero_text  <- "";
+
+// ツンデレ状態マップ
+zero_tun_event <- [0,0,0,0,0,0];
+zero_dele_event <- [0,0,0,0,0,0];
+// ツンデレ処理用
+zero_tndl_scene <- 0;
+zero_tndl_done <- 0;
+
+zero_tndl_flag <- 0;
+zero_tndl_no   <- 0;
+
+/**
+ * ゲーム変数初期化処理
+ */
+function initVariable()
+{
+    zero_likes  = [0,0,0,0,0,0];
+    zero_tundele = 127;
+    zero_tundele_count = 0;
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// ----------------------------------------
+// システム要素
+// ----------------------------------------
+
+// ツンデレメータ用
+tndlBaseImageId <- 0;
+tndlArrowImageId <- 0;
+
+// 好感度上下
+paraUpImageId   <- 0;
+paraDownImageId <- 0;
+paraTunImageId  <- 0;
+paraDereImageId <- 0;
+paraLikeImageId <- 0;
+paraFaceImageId <- 0;
+
+// 上下時SE
+paraUpSEId <- 0;
+paraDownSEId <- 0;
+
+/**
+ * ツンデレメータ
+ */
+class Tundele {
+
+    before = null;
+    after = null;
+    state = null;
+    now   = null;
+    time = null;
+
+    // ベースレイヤ
+    baseLayer = null;
+    // 針のレイヤ
+    arrowLayer = null;
+
+    // アップダウン表示用
+    paraUpDownLayer = null;
+    // ツンデレ表示用
+    paraTunDereLayer = null;
+    
+    // 設定
+    dispTime  = 500.0; // 表示にかかる時間
+    waitTime1 = 500.0; // 移動前の待ち時間
+    moveTime  = 800.0; // 針の移動時間
+    waitTime2 = 1500.0; // 移動後の待ち時間
+
+    // ツンデレメータ表示用
+    xpos = 400;
+    ypos = 20;
+    arrowydiff = 16;
+    arrowxdiff = 40-6;
+    arrowwidth = 156;
+
+    // アップ・ダウン表示用
+    paraXpos = 320;
+    paraYpos = 100;
+    paraXpos2 = 40;
+    paraYpos2 = 90;
+    paraYdiff = 20;
+
+    seId = null;
+    skipFlag = false;
+    
+    constructor(before, after) {
+        this.before = before;
+        this.after  = after;
+
+        baseLayer = Layer(true);
+        baseLayer.loadImage(tndlBaseImageId);
+        baseLayer.setLevel(3);
+        baseLayer.setPos(xpos, ypos);
+
+        arrowLayer = Layer(true);
+        arrowLayer.loadImage(tndlArrowImageId);
+        arrowLayer.setLevel(2);
+
+        paraTunDereLayer = Layer(true);
+        paraTunDereLayer.loadImage(before < after ? paraDereImageId : paraTunImageId);
+        paraTunDereLayer.setLevel(2);
+        paraTunDereLayer.setPos(paraXpos, paraYpos);
+        paraTunDereLayer.show(false);
+
+        paraUpDownLayer = Layer(true);
+        paraUpDownLayer.loadImage(paraUpImageId);
+        paraUpDownLayer.setLevel(2);
+        paraUpDownLayer.setPos(paraXpos + paraXpos2, paraYpos + paraYpos2);
+        paraUpDownLayer.show(false);
+
+        // メータ制御
+        setPos(before);
+        setOpacity(0);
+        setShow(true);
+
+        state = 0;
+        now = 0;
+        time = dispTime;
+
+        seId = before < after ? paraUpSEId : paraDownSEId;
+    }
+
+    /**
+     * ツンデレメータ透明度
+     * @param opacity 透明度
+     */
+    function setOpacity(opacity) {
+        local op = (128 * opacity / 100).tointeger();
+        baseLayer.setColor(100,100,100,op);
+        arrowLayer.setColor(100,100,100,op);
+    }
+
+
+    /**
+     * ツンデレメータ透明度
+     * @param opacity 透明度
+     */
+    function setUpOpacity(opacity) {
+        local op = (128 * opacity / 100).tointeger();
+        paraUpDownLayer.setColor(100,100,100, op);
+        paraUpDownLayer.setPos(paraXpos + paraXpos2, (paraYpos + paraYpos2 - paraYdiff * opacity / 100).tointeger());
+    }
+
+    /**
+     * ツンデレメータ矢印位置
+     * @param pos 位置指定
+     */
+    function setPos(pos) {
+        local x = (xpos + pos * arrowwidth / 256 + arrowxdiff).tointeger();
+        arrowLayer.setPos(x, ypos + arrowydiff);
+    }
+
+    /**
+     * ツンデレメータ表示状態
+     * @param show 表示状態
+     */
+    function setShow(show) {
+        baseLayer.show(show);
+        arrowLayer.show(show);
+    }
+
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (skipFlag || isSkip()) {
+            now = time;
+        } else {
+            now += diff;
+        }
+        switch (state) {
+        case 0:
+            // 表示処理
+            if (now < time) {
+                setOpacity(100 * (1.0 -  (time - now) / dispTime));
+            } else {
+                setOpacity(100);
+                time += waitTime1;
+                state++;
+                // 効果音再生
+                if (!(skipFlag ||isSkip())) {
+                    if (seId != null) {
+                        MusicStop(1, 0);
+                        MusicPlay(1, seId, volumeCalc(100), timeCalc(0));
+                    }
+                }
+            }
+            break;
+        case 1:
+            // 待ち
+            if (now < time) {
+            } else {
+                time += moveTime;
+                state++;
+                // 表示
+                setUpOpacity(0);
+                paraUpDownLayer.show(true);
+                paraTunDereLayer.show(true);
+            }
+            break;
+        case 2:
+            // 針の移動
+            if (now < time) {
+                setPos(before + (after - before) * (1.0 -  (time - now) / moveTime));
+                setUpOpacity(20 + 80 * (1.0 -  (time - now) / moveTime));
+            } else {
+                setPos(after);
+                setUpOpacity(100);
+                time += waitTime2;
+                state++;
+            }
+            break;
+        case 3:
+            // 待ち
+            if (now < time) {
+            } else {
+                time += dispTime;
+                state++;
+                // 消去
+                paraUpDownLayer.show(false);
+                paraTunDereLayer.show(false);
+            }
+            break;
+        case 4:
+            // 消去処理
+            // 表示処理
+            if (now < time) {
+                setOpacity(100 * (time - now) / dispTime);
+            } else {
+                setOpacity(0);
+                state++;
+            }
+            break;
+        case 5:
+            // 終了
+            paraUpDownLayer.show(false);
+            paraTunDereLayer.show(false);
+            setShow(false);
+            return false;
+            break;
+        }
+        return true;
+    }
+
+    /**
+     * 強制終了
+     */
+    function done() {
+        skipFlag = true;
+    }
+};
+
+/**
+ * 好感度上下
+ */
+class Like {
+
+    state = null;
+    now   = null;
+    time  = null;
+
+    // アップダウン表示用
+    paraUpDownLayer = null;
+    // 好感度表示用
+    paraLikeLayer = null;
+    // 表情表示用
+    paraFaceLayer = null;
+    
+    // 設定
+    moveTime  = 500.0;  // 表示にかかる時間
+    waitTime  = 1000.0; // 表示待ち時間
+
+    // アップ・ダウン表示用
+    paraXpos = 320;
+    paraYpos = 100;
+    paraXpos2 = 60;
+    paraYpos2 = 70;
+    paraYdiff = 20;
+    ydiff = 0;
+    ypos = 0;
+
+    skipFlag = false;
+    
+    constructor(face, up) {
+
+        ypos  = up ?  paraYpos2 + paraYdiff : paraYpos2;
+        ydiff = up ? -paraYdiff : paraYdiff;
+        
+        paraLikeLayer = Layer(true);
+        paraLikeLayer.loadImage(paraLikeImageId);
+        paraLikeLayer.setLevel(2);
+        paraLikeLayer.setPos(paraXpos, paraYpos);
+
+        paraUpDownLayer = Layer(true);
+        paraUpDownLayer.loadImage(up ? paraUpImageId : paraDownImageId);
+        paraUpDownLayer.setLevel(2);
+        paraUpDownLayer.setPos(paraXpos + paraXpos2, paraYpos + ypos);
+
+        paraFaceLayer = Layer(true);
+        paraFaceLayer.loadImage(paraFaceImageId + face);
+        paraFaceLayer.setLevel(2);
+        paraFaceLayer.setPos(paraXpos, paraYpos + ypos);
+        
+        
+        setOpacity(0);
+        setShow(true);
+
+        state = 0;
+        now = 0;
+        time = moveTime;
+
+        // 効果音再生
+        if (!isSkip()) {
+            local seId = up ? paraUpSEId : paraDownSEId;
+            if (seId != null) {
+                MusicStop(1, 0);
+                MusicPlay(1, seId, volumeCalc(100), timeCalc(0));
+            }
+        }
+    }
+
+    /**
+     * 透明度
+     * @param opacity 透明度
+     */
+    function setOpacity(opacity) {
+        local op = (128 * opacity / 100).tointeger();
+        paraUpDownLayer.setColor(100,100,100,op);
+        paraUpDownLayer.setPos(paraXpos + paraXpos2, (paraYpos + ypos + ydiff * opacity / 100).tointeger());
+    }
+
+    /**
+     * 表示状態
+     * @param show 表示状態
+     */
+    function setShow(show) {
+        paraLikeLayer.show(show);
+        paraUpDownLayer.show(show);
+        paraFaceLayer.show(show);
+    }
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (skipFlag || isSkip()) {
+            now = time;
+        } else {
+            now += diff;
+        }
+        switch (state) {
+        case 0:
+            // 表示処理
+            if (now < time) {
+                setOpacity(20 + 80 * (1.0 -  (time - now) / moveTime));
+            } else {
+                setOpacity(100);
+                time += waitTime;
+                state++;
+            }
+            break;
+        case 1:
+            // 待ち
+            if (now < time) {
+            } else {
+                state++;
+            }
+            break;
+        case 2:
+            // 終了
+            setShow(false);
+            return false;
+            break;
+        }
+        return true;
+    }
+
+    /**
+     * 強制終了
+     */
+    function done() {
+        skipFlag = true;
+    }
+};
+
+/**
+ * アイテム表示
+ */
+class Item {
+
+    state = null;
+    now   = null;
+    time  = null;
+
+    itemmsg = null;
+
+    waitTime  = 1000.0; // 表示待ち時間
+
+    // 表示位置
+    xpos = 100;
+    ypos = 200;
+
+    // 個数表示用
+    nums = [ "０", "１", "２", "３", "４", "５", "６", "７", "８", "９" ];
+
+    skipFlag = false;
+    
+    constructor(name,num) {
+        itemmsg = MessageWindow(xpos, ypos, 8);
+        if (num == 1) {
+            itemmsg.write(name + "を入手しました");
+        } else {
+            if (num >= 10) {
+                itemmsg.write(name + "を" + nums[num/10] + nums[num % 10] +"つ入手しました");
+            } else {
+                itemmsg.write(name + "を" + nums[num] + "つ入手しました");
+            } 
+        }
+        itemmsg.show(true);
+        state = 0;
+        now = 0;
+        time = waitTime;
+    }
+
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (skipFlag || isSkip()) {
+            now = time;
+        } else {
+            now += diff;
+        }
+        switch (state) {
+        case 0:
+            // 待ち
+            if (now < time) {
+            } else {
+                state++;
+            }
+            break;
+        case 1:
+            itemmsg.show(false);
+            return false;
+            break;
+        }
+        return true;
+    }
+
+    /**
+     * 強制終了
+     */
+    function done() {
+        skipFlag = true;
+    }
+};
+
+// ----------------------------------------
+// シーン再生用モジュール
+// ----------------------------------------
+
+// オブジェクト
+objects <- {};
+
+// 機能ファンクション
+funcs <- [];
+
+// 待ち情報
+waitUntil <- {};
+timeout <- 0;
+
+// 現在のシーン
+scene   <- null;
+// 処理ターゲットライン
+targetLine  <- 0;
+// 実行中ライン
+currentLine <- 0;
+// 次のシーン指定
+nextScene   <- null;
+
+// 処理用スレッド
+sceneThread <- null;
+
+// 会話名前
+talkName <- null;
+// 会話中ボイス
+talkVoice <- null;
+// 会話中ボイス長さ
+talkVoiceLength <- null;
+// 会話中
+talking <- false;
+// 会話中テキスト
+talkText  <- null;
+// 会話中テキスト文字数
+talkCount  <- 0;
+// 次のテキスト表示までの時間
+talkNextTime <- 0;
+// 会話待ち中
+talkWait <- false;
+
+// 中断中
+paused <- false;
+
+// 表画面に描画する
+syncFore <- true;
+
+// 自動再生
+autoMode   <- false;
+
+// スキップモード
+// 0: 通常
+// 1: スキップ中
+// 2: 強制スキップ
+// 3: とばし処理中
+skipMode <- 0;
+prevSkipMode <- null;
+
+// 安定状態か
+stable <- false;
+
+// ----------------------------------------------------
+// メッセージ窓
+// ----------------------------------------------------
+
+msg <- null;
+msgWinShow <- true;
+msgWinState <- false;
+msgText <- null;
+msgName <- null;
+msgCursor <- false;
+
+/**
+ * メッセージ窓生成
+ */
+function msgshow()
+{
+    if (msg == null) {
+        msg = MessageWindow(48, 336, 1);
+    }
+    if (msgWinState) {
+        if (msgText != null) {
+            msg.write(msgText);
+        } else {
+            msg.clear();
+        }
+        if (msgName != null) {
+            msg.ShowNamePlate(msgName);
+        } else {
+            msg.ShowNamePlate(0);
+        }
+        msg.showCursor(msgCursor);
+        msg.show(true);
+    } else {
+        msg.show(false);
+    }
+}
+
+/**
+ * メッセージ窓消滅
+ */
+function msghide()
+{
+    msg = null;
+}
+
+/**
+ * メッセージ窓表示
+ */
+function msgon()
+{
+    msgWinState = true;
+    msgshow();
+}
+
+/**
+ * メッセージ窓消去
+ */
+function msgoff()
+{
+    msgWinState = false;
+    msgText = null;
+    msgName = null;
+    msgCursor = false;
+    if (msg != null) {
+        msg.clear();
+        msg.showCursor(false);
+        msg.ShowNamePlate(0);
+        msg.show(msgWinState);
+    }
+}
+
+/**
+ * メッセージ表示
+ */
+function msgwrite(text)
+{
+    msgon();
+    msgText = text;
+    if (text != null) {
+        msg.write(text);
+    } else {
+        msg.clear();
+    }
+}
+
+/**
+ * メッセージ窓名前指定
+ */
+function msgname(name)
+{
+    msgon();
+    msgName = name;
+    if (msgName != null) {
+        msg.ShowNamePlate(msgName);
+    } else {
+        msg.ShowNamePlate(0);
+    }
+}
+
+/**
+ * メッセージ消去
+ */
+function msgclear()
+{
+    msgText = null;
+    msgCursor = false;
+    if (msg != null) {
+        msg.clear();
+        msg.showCursor(false);
+    }
+    talkWait = false;
+}
+
+/**
+ * メッセージ窓待ちカーソル表示
+ */
+function msgwait()
+{
+    msgCursor = true;
+    if (msg != null) {
+        msg.showCursor(true);
+    }
+    talkWait = true;
+}
+
+
+
+// ----------------------------------------------------
+// 画面フェード処理用
+// ----------------------------------------------------
+
+/**
+ * 画面フェード処理用のレイヤ
+ */
+class ScreenLayer extends BasicLayer
+{
+    // 選択したモード
+    mode = 0;
+    // 時間指定
+    time = 0;
+    // swap フラグ
+    swap = false;
+
+    // 実行時間
+    actionTime = null;
+    
+    constructor() {
+        ::BasicLayer.constructor(true);
+    }
+
+    /**
+     * レイヤの差し替え処理
+     */
+    function swapLayers() {
+        if (swap) {
+            foreach (idx,val in objects) {
+                val.backDone();
+            }
+            swap = false;
+            syncFore = true;
+        }
+    }
+    
+    /**
+     * フェード処理を開始する
+     */
+    function start(mode, time, swap) {
+        this.mode = mode;
+        this.time = time;
+        this.swap = swap;
+        actionTime = 0;
+        if (mode == 2) {
+            // フェードインの場合はまずスワップ
+            swapLayers();
+        }
+    }
+
+    /**
+     * 処理ハンドラ
+     */
+    function handler(now, stopFlag) {
+        //print("screen:" + now + "\n");
+        local done = false;
+        if (isSkip() || stopFlag) {
+            now = time;
+        }
+        if (now >= time) {
+            done = true;
+        }
+        switch (mode) {
+        case 1:
+            // fadeout
+            setOpacity(100 * now / time);
+            break;
+        case 2:
+            // fadein
+            setOpacity(100 - 100 * now / time);
+            break;
+        case 3:
+            // fadeout/in
+            {
+                local time2 = time / 2;
+                if (now < time2) {
+                    // fadeout
+                    setOpacity(100 * now / time2);
+                } else {
+                    // fadein
+                    swapLayers();
+                    local n = now - time2;
+                    setOpacity(100 - 100 * n / time2);
+                }
+            }
+            break;
+        }
+        if (done) {
+            swapLayers();
+            actionTime = null;
+            if (mode ==2 || mode == 3) {
+                screenLayer.setShow(false);
+            }
+            trigger("screen");
+        }
+    }
+
+    function update(diff) {
+        if (actionTime != null) {
+            actionTime += diff;
+            handler(actionTime, false);
+        }
+    }
+
+    function stop() {
+        handler(actionTime, true);
+        actionTime = null;
+    }
+}
+
+// 黒画像と白画像
+screenLayer <- null;
+blackImageId <- 0;
+whiteImageId <- 0;
+lastImageId <- null;
+
+/**
+ * スクリーン画像を表示
+ */
+function screenShow(image, opacity)
+{
+    if (screenLayer == null) {
+        screenLayer = ScreenLayer();
+        screenLayer.setPos(0,0);
+        screenLayer.setLevel(1);
+        if (image != null) {
+            lastImageId = image;
+        }
+        if (lastImageId == null) {
+            lastImageId == blackImageId;
+        }
+        screenLayer.loadImage(lastImageId);
+    } else {
+        if (image != null && lastImageId != image) {
+            lastImageId = image;
+            screenLayer.loadImage(lastImageId);
+        }
+    }
+    screenLayer.fore();
+    screenLayer.setOpacity(opacity);
+    screenLayer.setShow(true);
+}
+
+/**
+ * スクリーン処理の停止
+ */
+function screenStop()
+{
+    if (screenLayer != null) {
+        screenLayer.stop();
+    }
+}
+
+/**
+ * スクリーン処理終了待ち
+ */
+function waitScreen(canskip)
+{
+    if (screenLayer == null || screenLayer.actionTime == null) {
+        return;
+    }
+    if (canskip) {
+        if (isSkip()) {
+            screenStop();
+            return;
+        } 
+        addWait({
+            click = function() { screenStop(); },
+            screen = function() {}
+        }, null);
+    } else {
+        addWait({
+            screen = function() {}
+        }, null);
+    }
+}
+    
+/**
+ * スクリーン画像フェードアウト
+ */
+function fadeOut(image, time)
+{
+    screenShow(image, 0);
+    screenLayer.start(1, time, false);
+    waitScreen(true);
+    suspend(WAIT);
+}
+
+function blackOut(time)
+{
+    fadeOut(blackImageId, time);
+}
+
+function whiteOut(time)
+{
+    fadeOut(whiteImageId, time);
+}
+
+/**
+ * スクリーン画像フェードアウト
+ */
+function fadeIn(time)
+{
+    screenShow(null, 100);
+    screenLayer.start(2, time, false);
+    waitScreen(true);
+    suspend(WAIT);
+}
+
+// ----------------------------------------------------
+// システム本体
+// ----------------------------------------------------
+
+/**
+ * システム初期化処理
+ */
+function init()
+{
+    // とりあえずすることなし
+}
+
+/**
+ * 状態のリセットを行う
+ */
+function _reset()
+{
+    // オブジェクトを開放
+    objects = {};
+
+    // システム状態を初期化
+    msgoff();
+    _vibrate(0);
+
+    // 各種状態変数を初期化
+    clearSelect();
+    clearWait();
+
+    talkName  = null;
+    talkVoice = null;
+    talkVoiceLength = 0;
+    talking = false;
+    talkText  = null;
+    talkCount = 0;
+    talkNextTime = 0;
+
+//    zero_title = "ゼロの使い魔";
+	zero_text = "";
+
+    syncFore = true;
+}
+
+/**
+ * 再生開始。指定されたシーンから再生開始します。
+ * @param scene 再生するシーン
+ * @param lineNo 指定した行から再生開始
+ */
+function start(name, lineNo)
+{
+	// サウンド系を停止
+	MusicStop(0, 0);
+	MusicStop(1, 0);
+
+    // ファンクションの強制破棄
+    killFunc();
+
+    //print("scene start:" + name + " : " + sceneThread  + "\n");
+    _reset();
+    autoMode = false;
+    skipMode = 0;
+    prevSkipMode = null;
+    paused = false;
+    
+    scene       = name;
+    targetLine  = lineNo;
+    currentLine = 0;
+    nextScene   = null;
+    sceneThread = getThread(scene);
+    printInfo();
+}
+
+/**
+ * ジャンプ実行中かどうか
+ */
+function isJump()
+{
+    return targetLine != null && currentLine < targetLine;
+}
+
+/**
+ * ジャンプ実行中かどうか
+ */
+function isJump2()
+{
+    return targetLine != null && currentLine <= targetLine;
+}
+
+/**
+ * スキップ中かどうか
+ */
+function isSkip()
+{
+    return skipMode != 0;
+}
+
+/**
+ * 再生停止
+ */
+function stop() {
+    scene = null;
+    targetLine = null;
+    currentLine = 0;
+    nextScene = null;
+    sceneThread = null;
+    _reset();
+    msghide();
+}
+
+function startVoice(voice)
+{
+    Talk(0, voice);
+    talkVoiceLength = TalkLength(0);
+    talking = true;
+}
+
+function stopVoice()
+{
+    if (talking) {
+        TalkStop(0);
+        talkVoiceLength = 0;
+        talking = false;
+    }
+}
+
+/**
+ * 一時停止。一時的にシーンプレイヤーの動作を停止状態にします
+ */
+function pause()
+{
+    if (!paused) {
+        _vibrate(0);
+        stopVoice();
+        msghide();
+        {
+            // 黒レイヤ生成
+            local black = Layer(true);
+            black.loadImage(blackImageId);
+            black.setPos(0,0);
+            black.setLevel(-1);
+            black.setColor(100,100,100,0); // 透明
+            black.show(true);
+            
+            // フェードイン
+            black.fadeIn(30);
+            
+            // 全オブジェクトを停止
+            foreach (idx,val in objects) {
+                val.pause();
+            }
+
+            // ファンクションの強制破棄
+            killFunc();
+        }
+        paused = true;
+    }
+}
+
+/**
+ * 一時停止の解除
+ */
+function restart()
+{
+    if (paused) {
+        {
+            // 黒レイヤ生成
+            local black = Layer(true);
+            black.loadImage(blackImageId);
+            black.setPos(0,0);
+            black.setLevel(-1);
+            black.show(true);
+            
+            // 全オブジェクトを復帰
+            foreach (idx,val in objects) {
+                val.restart(true);
+            }
+
+            // フェードアウト
+            black.fadeOut(30);
+        }
+        msgWinShow = true;
+        msgshow();
+        paused = false;
+    }
+}
+
+/**
+ * 待ち情報の追加
+ * @param until 待ち情報テーブル (待ち解除時関数およびパラメータ)
+ * @param timeout タイムアウト指定
+ */
+function addWait(until, timeout)
+{
+    // 待ち情報のコピー
+    foreach (idx,val in until) {
+        //print("addWait " + idx + ":" + val + "\n");
+        waitUntil[idx] <- val;
+    }
+    // タイムアウト登録
+    if (timeout != null) {
+        if (timeout <= 0) {
+            timeout = 1;
+        }
+        ::timeout = timeout;
+    }
+}
+
+function clearWait()
+{
+    // 待ち情報の廃棄
+    foreach (idx,val in waitUntil) {
+        delete waitUntil[idx];
+    }
+}
+
+/**
+ * 外部トリガ通知
+ * 外部からシーンプレイヤーに対して状態の変更を通知します。
+ * 例：クリックされた、アニメーションが終了したなど
+ * 「処理待ち」の状態の解除のための機構です
+ * @param trigger トリガの名前
+ */
+function trigger(trigger)
+{
+    //print("trigger:" + trigger + "\n");
+    if (trigger in waitUntil) {
+        local func = waitUntil[trigger];
+        //print("trigger wait clear:" + (typeof func) + "\n");
+        if (func != null && typeof func == "function") {
+            local argname = trigger + "_arg";
+            local arg = null;
+            if (argname in waitUntil) {
+                arg = waitUntil[argname];
+            }
+            if (arg != null) {
+                func(arg);
+            } else {
+                func();
+            }
+        }
+        clearWait();
+    }
+}
+
+/**
+ * 各種時間待ち更新
+ */
+function updateTime(diff)
+{
+    // タイムアウト処理
+    if (timeout != null && timeout > 0) {
+        timeout -= diff;
+        if (timeout <= 0) {
+            timeout = null;
+            trigger("timeout");
+        }
+    }
+    
+    // 会話用更新
+    if (talkNextTime > 0) {
+        talkNextTime -= diff;
+	}
+
+    // ボイス用更新
+    if (talkVoiceLength > 0) {
+        talkVoiceLength -= diff;
+    }
+}
+
+// 今アクションが実行中かどうか
+currentAction <- false;
+
+/**
+ * 各種時間待ち更新
+ */
+function updateObject(diff)
+{
+    // オブジェクトの状態更新
+    local prevCurrentAction = currentAction;
+    currentAction = false;
+    foreach (idx,val in objects) {
+        val.update(diff);
+        if (val.isAction()) {
+            currentAction = true;
+        }
+    }
+    // 全アクション終了
+    if (prevCurrentAction == true && currentAction == false) {
+        trigger("action");
+    }
+    
+    // 特殊ファンクション実行
+    if (funcs.len() > 0) {
+        for (local i=funcs.len() - 1; i>=0; i--) {
+            local func = funcs[i];
+            if (!func.update(diff)) {
+                funcs.remove(i);
+            }
+        }
+        if (funcs.len() == 0) {
+            trigger("func");
+        }
+	}
+
+    // 画面合成用レイヤ
+    if (screenLayer != null) {
+        screenLayer.update(diff);
+    }
+}
+
+// 定数定義
+WAIT   <- 1;  // プレイヤーがなんらかの待ち状態になっていることの通知。
+CHANGE <- 2;  // 状態変更。シーンが切り替わった
+DONE   <- 3;  // 完了 シーンの末尾に到達して実行終了したことを通知します。
+SELECT <- 4;  // 選択肢処理実行
+MOVE   <- 5;
+DATE   <- 6;
+COFFEE <- 7;
+BATTLE <- 8;
+SYSSAVE <- 9;
+MOVIE <- 10;
+
+function isFunc()
+{
+    return funcs.len() > 0;
+}
+
+// ファンクション系の強制終了
+function stopFunc()
+{
+    for (local i=funcs.len() - 1; i>=0; i--) {
+        funcs[i].done();
+    }
+}
+
+// ファンクション系の強制破棄
+function killFunc()
+{
+    if (funcs.len() > 0) {
+        for (local i=funcs.len() - 1; i>=0; i--) {
+            local func = funcs[i];
+            funcs.remove(i);
+        }
+        trigger("func");
+    }
+}
+
+/**
+ * 機能終了待ち
+ */
+function waitFunc(waittime, canskip)
+{
+    if (!isJump() && isFunc()) {
+        if (canskip) {
+            if (isSkip()) {
+                stopFunc();
+                return;
+            }
+            addWait({
+                click = function() { stopFunc(); },
+                func = function() {},
+                timeout = function() { stopFunc(); },
+            }, waittime);
+        } else {
+            addWait({
+                func = function() {},
+                timeout = function() { stopFunc();},
+            }, waittime);
+        }
+        suspend(WAIT);
+    }
+}
+
+/**
+ * トランジション終了待ち
+ */
+function waitTrans(canskip)
+{
+    // トランジション待ち
+    if (canskip) {
+        if (isSkip()) {
+            swapStop();
+            return;
+        } 
+        addWait({
+            click = function() { swapStop(); },
+            trans = function() {}
+            }, null);
+    } else {
+        addWait({
+            trans = function() {}
+            }, null);
+    }
+}
+
+/**
+ * セーブ可能かどうか
+ */
+function canSceneSave()
+{
+    return currentLine > 0;
+}
+
+/**
+ * メイン呼び出し
+ * @param diff 前回呼び出しからの経過時間 (ms)
+ * @return 呼び出し完了後のシーンプレイヤーの状態
+ */
+function sceneMain(diff)
+{
+    // 時間更新処理
+    updateTime(diff);
+
+    // ポーズ中
+    if (paused) {
+        return WAIT;
+	}
+
+    // 保有しているオブジェクトがスレッドでない場合は終了
+    if (sceneThread == null || typeof sceneThread != "thread") {
+        return DONE;
+    }
+
+    // オブジェクト状態更新
+    updateObject(diff);
+    
+    // 処理待ちがある場合
+    if (!msgWinShow ||
+        waitUntil.len() > 0 ||
+        talkNextTime > 0) {
+        return WAIT;
+    }
+
+    // 安定状態から抜ける
+    stable = false;
+    
+    // 会話処理中
+    if (talkText != null) {
+        msgshow();
+        if (talkName != null) {
+            msgname(talkName);
+            talkName = null;
+        }
+        if (talkVoice != null) {
+            if (!isSkip() && talkVoice >= 0) {
+                startVoice(talkVoice);
+            } else {
+                stopVoice();
+            }
+            talkVoice = null;
+        }
+        local speed = getCharSpeed();
+        if (!isSkip() && speed > 0 && talkCount < talkText.len()) {
+            talkCount += 2;
+            if (talkCount < talkText.len()) {
+                local text = talkText.slice(0,talkCount);
+                msgwrite(text);
+            } else {
+                msgwrite(talkText);
+            }
+            talkNextTime = speed;
+        } else {
+            // メッセージ全表示完了
+            msgwrite(talkText);
+            if (!isSkip()) {
+                if (autoMode) {
+                    startAuto();
+                } else {
+                    addWait({
+                        click = function() { stopVoice(); talkWait= false;}
+                    }, null);
+                }
+                msgwait();
+                stable = true;
+            } else {
+                stopVoice();
+            }
+            talkText = null;
+            talkNextTime = 0;
+		}
+        // 会話表示処理中
+        return WAIT;
+	}
+
+    //print("thread status:" + sceneThread.getstatus() + "\n");
+
+    local ret;
+    try {
+        if (sceneThread.getstatus() == "suspended") {
+            ret = sceneThread.wakeup();
+        } else {
+            ret = sceneThread.call();
+        }
+    } catch (e) {
+        print("error " + scene + ":" + currentLine + ":" + e + "\n");
+    }
+
+    if (sceneThread.getstatus() == "idle") {
+        // 終了した場合
+        //print("done sceneThread next:" + nextScene + "\n");
+        if (nextScene != null) {
+            // 新たなシーン
+            scene = nextScene;
+            targetLine  = null;
+            currentLine = 0;
+            sceneThread = getThread(nextScene);
+            printInfo();
+            nextScene = null;
+            _vibrate(0);
+            prevSkipMode = null;
+            return CHANGE;
+        }
+    } else if (sceneThread.getstatus() == "suspended") {
+        // 中断した場合
+        //print("sceneThread suspended\n");
+        if (ret != null) {
+            return ret;
+        }
+    }
+
+    // 全終了
+    sceneThread = null;
+    _vibrate(0);
+    return DONE;
+}
+
+// ----------------------------------------------
+// システム用ファンクション群
+// ----------------------------------------------
+
+function cancelAuto()
+{
+    if (autoMode) {
+        autoMode = false;
+        if (talkWait) {
+            if ("timeout" in waitUntil) {
+                delete waitUntil.timeout;
+            }
+        }
+    }
+}
+
+function cancelMsg()
+{
+    if (!msgWinShow) {
+        msgshow();
+        msgWinShow = true;
+        return true;
+    }
+    return false;
+}
+
+function cancelSkip()
+{
+    if (skipMode == 1 || skipMode == 2) {
+        //print("クリックでスキップ中断\n");
+        skipMode = 0;
+    } else if (prevSkipMode != null) {
+        skipMode = 3;
+    }
+}
+
+function cancelTalk()
+{
+    if (talkText != null) {
+        talkCount = talkText.len();
+        return true;
+    }
+    return false;
+}
+
+/**
+ * クリックされた
+ */
+function onClick()
+{
+    // 状態に応じた処理を行う 
+    if (!paused) {
+        if (cancelMsg()) { return; }
+        cancelAuto();
+        cancelSkip();
+        if (cancelTalk()) { return; }
+        trigger("click");
+    }
+}
+
+/**
+ * キャンセルクリックされた
+ */
+function onCancel(param)
+{
+    // 状態に応じた処理を行う 
+    if (!paused) {
+        if (cancelMsg()) { return; }
+        cancelAuto();
+        cancelSkip();
+        trigger("cancel");
+    }
+}
+    
+/**
+ * トランジションが終了した
+ */
+function onTransitionCompleted()
+{
+    trigger("trans");
+    transDone();
+}
+
+/**
+ * 全レイヤのアクションが終了した
+ */
+function onActionStop()
+{
+    trigger("action");
+}
+
+/**
+ * BGMのフェードが終了した
+ */
+function onBgmFadeCompleted()
+{
+    trigger("bgmfade");
+}
+
+function onBgmStop()
+{
+    trigger("bgmstop");
+}
+
+function onSEFadeCompleted(id)
+{
+    trigger("sefade" + id);
+}
+
+function onSEStop(id)
+{
+    trigger("sestop" + id);
+}
+
+function onMovieStop()
+{
+    trigger("moviestop");
+}
+
+function onSelect(param)
+{
+    selectDone(param);
+}
+
+function onMove(param)
+{
+    moveDone(param);
+}
+
+function onDate(param)
+{
+    dateDone(param);
+}
+
+function onSkip(param)
+{
+    if (!paused && msgWinShow) {
+        if (skipMode == 1) {
+            //print("スキップ解除\n");
+            skipMode = 0;
+        } else if (skipMode == 0) {
+            if (prevSkipMode != null) {
+                if (prevSkipMode == 0) {
+                    if (isAllSkip() || getReaded(scene) >= currentLine) {
+                        prevSkipMode = 1;
+                        stopVoice();
+                    }
+                }
+                skipMode = 3;
+            } else {
+                onClick();
+                if (isAllSkip() || getReaded(scene) >= currentLine) {
+                    //print("スキップ開始\n");
+                    skipMode = 1;
+                    stopVoice();
+                } else {
+                    //print("未読でスキップ開始できず\n");
+                }
+            }
+        }
+    }
+}
+
+function onSkipOn(param)
+{
+    if (!paused && msgWinShow) {
+        if (skipMode < 2) {
+            print("強制スキップON\n");
+            cancelAuto();
+            onClick();
+            skipMode = 2;
+            stopVoice();
+        }
+    }
+}
+
+function onSkipOff(param)
+{
+    if (skipMode == 2) {
+        print("強制スキップOFF\n");
+        skipMode = 0;
+    }
+}
+
+function onAuto(param)
+{
+    if (!paused && msgWinShow) {
+        if (autoMode) {
+            cancelAuto();
+        } else {
+            autoMode = true;
+            // もし会話待ちならそのまま自動待ちに変更
+            if (talkWait) {
+                startAuto();
+            }
+        }
+    }
+}
+
+// 自動待ち処理
+function startAuto()
+{
+    local lastLength;
+    if (Talkingnow(0) && talkVoiceLength > 0) {
+        lastLength  = talkVoiceLength;
+    } else {
+        lastLength  = 0;
+    }
+    lastLength += getAutoWait();
+    addWait({
+        click = function() { stopVoice(); talkWait = false; },
+        timeout = function() { stopVoice(); talkWait = false; },
+    }, lastLength);
+}
+
+function onMeswin(param)
+{
+    if (!paused) {
+        cancelAuto();
+        cancelSkip();
+        // 表示してる場合のみ有効
+        if (msgWinState) {
+            if (msgWinShow) {
+                // 窓を消去して ON 指令がくるまで停止する
+                msghide();
+                msgWinShow = false;
+            } else {
+                // 窓を表示して待ちの解除
+                msgshow();
+                msgWinShow = true;
+            }
+        }
+    }
+}
+
+// ----------------------------------------------
+// スクリプト用ファンクション群
+// スクリプトから直接呼び出されるファンクション群
+// ----------------------------------------------
+
+/**
+ * 状態のリセットを行う
+ */
+function reset()
+{
+    _reset();
+}
+
+function syncAll(fore)
+{
+    // 全同期
+    foreach (idx,val in objects) {
+        val.sync(fore);
+    }
+}
+
+/**
+ * 行番号を指定する
+ * @param no 行番号
+ */
+function line(no)
+{
+    currentLine = no;
+
+    print("line:" + currentLine + "\n");
+    if (targetLine != null && currentLine == targetLine) {
+
+        // 目的行に到達したので全同期
+
+        // 黒レイヤで隠す
+        local black = Layer(true);
+        black.loadImage(blackImageId);
+        black.setPos(0,0);
+        black.setLevel(-1);
+        black.show(true);
+
+        syncAll(true);
+
+        // 黒レイヤを消す
+        black.fadeOut(20);
+    }
+    
+    // スキップ停止
+    if (scene != null) {
+        if (skipMode == 1) {
+            if (!isAllSkip() && getReaded(scene) < currentLine) {
+                //print("未読でスキップ停止:" + getReaded(scene) + "\n");
+                skipMode = 0;
+            }
+        }
+        setReaded(scene, currentLine);
+    }
+}
+
+/**
+ * 行番号の加算
+ */
+function addLine()
+{
+    line(currentLine+1);
+}
+
+
+/**
+ * オブジェクトの生成
+ * @param name オブジェクト名
+ * @param type 型名
+ * @param param パラメータ
+ */
+function create(name, type, info)
+{
+}
+
+/**
+ * オブジェクトの削除
+ * @param name オブジェクト名
+ */
+function destroy(name)
+{
+    if (name in objects) {
+        delete objects[name];
+    }
+}
+
+/**
+ * オブジェクトのプロパティの設定
+ * @param name オブジェクト名
+ * @param value プロパティ情報のマップ
+ */
+function set(name, value)
+{
+    local obj;
+    if (name in objects) {
+        obj = objects[name];
+    } else {
+        if (name == "bgm") {
+            obj = AdvBGM(null);
+        } else if (name == "se0" || name == "se1") {
+            obj = AdvSE(null);
+        } else {
+            obj = AdvLayer(null);
+        }
+        objects[name] <- obj;
+    }
+    obj.set(value);
+    if (!isJump() && skipMode != 3) {
+        obj.sync(syncFore);
+    }
+}
+
+/**
+ * オブジェクトの状態同期
+ * @param name オブジェクト名
+ */
+function sync(name)
+{
+}
+
+/**
+ * オブジェクトのメソッド呼び出し
+ * @param name オブジェクト名
+ * @param method メソッド名
+ * @param param パラメータのマップ
+ */
+function exec(name, method, param)
+{
+    if (name in objects) {
+        local obj = objects[name];
+        if (method in obj) {
+            local method = obj[method];
+	        method(param);
+		}
+    }
+}
+
+/**
+ * 時間待ち
+ * @param timeout タイムアウト時間
+ * @param canskip スキップ可能か
+ */
+function waitTime(waittime, canskip)
+{
+    if (!isJump()) {
+        if (waittime > 0) {
+            if (canskip) {
+                if (isSkip()) {
+                    return;
+                }
+                addWait({
+                    click = function() {},
+                    timeout = function() {},
+                }, waittime);
+            } else {
+                addWait({
+                    timeout = function() {},
+                }, waittime);
+            }
+        }
+        // 待ちがあるかどうかにかかわらずいったん再描画
+        suspend(WAIT);
+    }
+}
+
+function isAction()
+{
+    foreach (idx,val in objects) {
+        if (val.isAction()) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function stopAction()
+{
+    //print("アクション強制停止\n");
+    foreach (idx,val in objects) {
+        val.stopAction();
+    }
+}
+
+/**
+ * 全アクション停止待ち
+ * @param timeout タイムアウト時間
+ * @param canskip スキップ可能か
+ */
+function waitAction(waittime, canskip)
+{
+    if (!isJump() && isAction()) {
+        if (canskip) {
+            if (isSkip()) {
+                stopAction();
+                return;
+            }
+            addWait({
+                click = function() { stopAction(); },
+                action = function() {},
+                timeout = function() { stopAction(); },
+            }, waittime);
+        } else {
+            addWait({
+                action = function() {},
+                timeout = function() { stopAction();},
+            }, waittime);
+        }
+        suspend(WAIT);
+    }
+}
+
+/**
+ * BGM 強制停止
+ */
+function stopBGM()
+{
+    MusicStop(0, 0);
+}
+
+/**
+ * 全アクション停止待ち
+ * @param timeout タイムアウト時間
+ * @param canskip スキップ可能か
+ */
+function waitBGMStop(waittime, canskip)
+{
+    if (!isJump() && MusicPlayingNow(0)) {
+        if (canskip) {
+            if (isSkip()) {
+                stopBGM();
+                return;
+            }
+            addWait({
+                click = function() { stopBGM(); },
+                bgmstop = function() {},
+                timeout = function() { stopBGM(); },
+            }, waittime);
+        } else {
+            addWait({
+                bgmstop = function() {},
+                timeout = function() { stopBGM();},
+            }, waittime);
+        }
+        suspend(WAIT);
+    }
+}
+
+/**
+ * SE 強制停止
+ */
+function stopSE()
+{
+    MusicStop(1, 0);
+}
+
+/**
+ * SE停止待ち
+ * @param timeout タイムアウト時間
+ * @param canskip スキップ可能か
+ */
+function waitSEStop(waittime, canskip)
+{
+    if (!isJump() && MusicPlayingNow(1)) {
+        if (canskip) {
+            if (isSkip()) {
+                stopSE();
+                return;
+            }
+            addWait({
+                click = function() { stopSE(); },
+                sestop1 = function() {},
+                timeout = function() { stopSE(); },
+            }, waittime);
+        } else {
+            addWait({
+                sestop1 = function() {},
+                timeout = function() { stopSE();},
+            }, waittime);
+        }
+        suspend(WAIT);
+    }
+}
+
+/**
+ * 次シーン指定
+ * @param next 次シーン名
+ * @param cond 条件式
+ */
+function next(next, cond)
+{
+    if (cond == null || cond) {
+        if (nextScene == null) {
+            nextScene = next;
+            print("nextScene:" + nextScene + "\n");
+        }
+    }
+}
+
+/**
+ * 条件判定
+ * @param eval 実行式(文字列)
+ * @param cond 条件式
+ */
+function eval(eval, cond)
+{
+    if (cond == null || cond) {
+        compilestring(eval)();
+    }
+}
+
+function vibrate(n)
+{
+    if (!isJump() && !isSkip()) {
+        _vibrate(n);
+    }
+}
+
+
+// ------------------------------------------------
+// 会話処理専用
+// ------------------------------------------------
+
+// 名前変換マップ
+nameMap <- {
+["ルイズ"] = 1,
+["サイト"] = 2,
+["シエスタ"] = 3,
+["ギーシュ"] = 4,
+["タバサ"] = 5,
+["キュルケ"] = 6,
+["アンリエッタ"] = 7,
+["モンモランシー"] = 8,
+["オスマン"] = 9,
+["コルベール"] = 10,
+["デルフリンガー"] = 11,
+["ハルナ"] = 12,
+["アキナ"] = 13,
+["ウェザリー"] = 14,
+["魔道士"] =15,
+["魔導士"] =15,
+["兵士"] = 16,
+["将校"] = 17,
+["村人"] = 18,
+["生徒"] = 19,
+["商人"] = 20,
+["？？？"] = 21,
+["猫"] = 22,
+["宿の住人"] = 23,
+["情報屋"] = 24,
+["シルフィード"] = 25,
+["部下"] = 26,
+["どぶねずみ"] = 27,
+};
+
+nameVoiceMap <- {
+["ルイズ"] = 0,
+["サイト"] = 1,
+["シエスタ"] = 2,
+["モンモランシー"] = 3,
+["タバサ"] = 4,
+["キュルケ"] = 5,
+["アンリエッタ"] = 6,
+["ハルナ"] = 7,
+["アキナ"] = 7,
+["コルベール"] = 8,
+["デルフリンガー"] = 9,
+};
+nameVoiceEtc <- 10;
+
+
+/**
+ * 会話処理
+ * @param text 表示するテキスト設定
+ * @param voice 再生ボイス
+ */
+function talk(name, disp, text, voice)
+{
+    addLine();
+    if (!isJump()) {
+        msgclear();
+        if (disp == null) { disp = name; }
+        if (disp in nameMap) {
+            talkName = nameMap[disp];
+        } else {
+            talkName = 0;
+        }
+        local nameVoice;
+        if (name in nameVoiceMap) {
+            nameVoice = nameVoiceMap[name];
+        } else {
+            nameVoice = nameVoiceEtc;
+        }
+        talkVoice = isVoiceOn(nameVoice) ? voice : -1;
+        talkText  = text;
+        talkCount = 0;
+        talkNextTime = 0;
+        zero_text = text;
+        ::AddHistory(talkName, nameVoice, voice != null ? voice : -1, text);
+        suspend(WAIT);
+    }
+}
+
+/**
+ * ボイス再生処理
+ * @param voice 再生ボイス
+ */
+function voice(voice, name)
+{
+    if (!isJump()) {
+        local nameVoice;
+        if (name in nameVoiceMap) {
+            nameVoice = nameVoiceMap[name];
+        } else {
+            nameVoice = nameVoiceEtc;
+        }
+        if (!isSkip() && isVoiceOn(nameVoice) && voice != null) {
+            startVoice(voice);
+        }
+    }
+}
+
+/**
+ * ボイス再生待ち
+ */
+function waitVoice()
+{
+    if (!isJump()) {
+        if (isSkip()) {
+            stopVoice();
+        } else {
+            if (Talkingnow(0) && talkVoiceLength > 0) {
+                addWait({
+                    click = function() { stopVoice(); },
+                    timeout = function() { stopVoice(); },
+                }, talkVoiceLength);
+                suspend(WAIT);
+            }
+        }
+    }
+}
+
+// ------------------------------------------------
+// 画面切り替え処理
+// ------------------------------------------------
+
+/**
+ * 画面切り替え前準備
+ */
+function back()
+{
+    if (!isJump()) {
+        foreach (idx,val in objects) {
+            val.back(false);
+        }
+        syncFore = false;
+    }
+}
+
+function transDone()
+{
+    foreach (idx,val in objects) {
+        val.backDone();
+    }
+    syncFore = true;
+}
+
+/**
+ * 画面切り替え処理
+ * @param name トランジション種類
+ * @param time 時間
+ */
+function trans(name, time)
+{
+    if (!isJump()) {
+        if (name == null) {
+            name = "";
+        }
+        if (time == null) {
+            time = 0;
+        }
+        if (name == "whiteout") {
+            screenShow(whiteImageId, 0);
+            screenLayer.start(1, time, true);
+            waitScreen(true);
+        } else if (name == "blackout") {
+            screenShow(blackImageId, 0);
+            screenLayer.start(1, time, true);
+            waitScreen(true);
+        } else if (name == "fadein") {
+            screenShow(null, 100);
+            screenLayer.start(2, time, true);
+            waitScreen(true);
+        } else if (name == "whitein") {
+            screenShow(whiteImageId, 100);
+            screenLayer.start(2, time, true);
+            waitScreen(true);
+        } else if (name == "blackin") {
+            screenShow(blackImageId, 100);
+            screenLayer.start(2, time, true);
+            waitScreen(true);
+        } else if (name == "whiteoutin") {
+            screenShow(whiteImageId, 0);
+            screenLayer.start(3, time, true);
+            waitScreen(true);
+        } else if (name == "blackoutin") {
+            screenShow(blackImageId, 0);
+            screenLayer.start(3, time, true);
+            waitScreen(true);
+        } else {
+            swapStart(name, time.tointeger());
+            waitTrans(true);
+        }
+        suspend(WAIT);
+    }
+}
+
+/**
+ * 画像のフェードロードの終了待ち
+ */
+function waitLoad(canskip)
+{
+    if (!isJump()) {
+        // トランジション待ち
+        if (!isDriveImage()) {
+            return;
+        }
+        if (canskip) {
+        if (isSkip()) {
+            loadStop();
+            return;
+        } 
+            addWait({
+                click = function() { loadStop(); },
+                trans = function() {}
+            }, null);
+        } else {
+            addWait({
+                trans = function() {}
+            }, null);
+        }
+        suspend(WAIT);
+    }
+}
+
+// ------------------------------------------------
+// 特殊スキップ処理
+// ------------------------------------------------
+
+function beginSkip()
+{
+    if (!isJump()) {
+        if (prevSkipMode != null) {
+            print("beginSkip は入れ子できません");
+        } else {
+            prevSkipMode = skipMode;
+            if (skipMode) {
+                skipMode = 3;
+            }
+        }
+    }
+}
+
+function endSkip()
+{
+    if (!isJump()) {
+        if (skipMode == 3) {
+            syncAll(true);
+        }
+        skipMode = prevSkipMode;
+        prevSkipMode = null;
+    }
+}
+
+// ------------------------------------------------
+// 選択肢処理
+// ------------------------------------------------
+
+// 選択肢処理
+selectInfos <- [];
+
+function clearSelect()
+{
+    selectInfos = [];
+}
+
+
+/**
+ * 選択肢処理初期化
+ */
+function selectInit()
+{
+    //print("選択肢初期化\n");
+    addLine();
+    clearSelect();
+}
+
+/**
+ * 選択肢登録
+ * @param text 表示テキスト
+ * @param next 次シーン指定
+ * @param eval 実行式
+ * @param cond 条件式
+ */
+function selectItem(text, next, eval, cond)
+{
+    // 選択肢を登録する
+    if (cond) {
+        local info = { text = text, next = next, eval = eval };
+        selectInfos.append(info);
+    }
+}
+
+/**
+ * 選択肢処理実行
+ */
+function select()
+{
+    killFunc();
+    SelectClear();
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        ::SelectAdd(info.text);
+    }
+    stable = true;
+    suspend(SELECT);
+}
+
+/**
+ * 選択肢処理終了
+ * @param 選択した選択肢
+ */
+function selectDone(param)
+{
+    //print("selectDone:" + param + "\n");
+    if (selectInfos.len() > 0) {
+        if (param < selectInfos.len()) {
+            local info = selectInfos[param];
+            if ("eval" in info && info.eval != null) {
+                eval(info.eval, null);
+            }
+            if ("next" in info && info.next != null) {
+                next(info.next, null);
+            }
+        }
+        selectInfos = [];
+    }
+}
+
+// -------------------------------------
+
+roomNameMap <- {
+["舞台"] = 0,
+["厨房"] = 1,
+["謁見の間"] = 2,
+["学院長室"] = 3,
+["楽屋"] = 4,
+["劇場"] = 5,
+["中庭"] = 6,
+["書庫"] = 7,
+["街道"] = 8,
+["キュルケの部屋"] = 9,
+["教室"] = 10,
+["ルイズの部屋"] = 11,
+["森"] = 12,
+["表通り"] = 13,
+["廊下"] = 14,
+["城前"] = 15,
+["シエスタの部屋"] = 16,
+["食堂"] = 17,
+["図書館"] = 18,
+["タバサの部屋"] = 19,
+["裏通り"] = 20,
+["宿"] = 21,
+};
+
+zero_move_back <- 0;
+zero_move_storage <- 0;
+zero_move_select_count <- 0;
+zero_move_bgm <- null;
+zero_move_infos <- [];
+
+/**
+ * 移動初期化
+ */
+function moveInit(storage, back, count, bgm)
+{
+    //print("移動初期化\n");
+    addLine();
+    zero_move_infos = [];
+    zero_move_storage <- storage;
+    zero_move_back <- back;
+    zero_move_select_count <- count;
+    zero_move_bgm <- bgm == null ? -1 : bgm;
+}
+
+/**
+ * 移動登録
+ * @param room 移動先ID
+ * @param pose 表示立ち絵指定
+ * @param next 次シーン指定
+ */
+function moveItem(room, pose, next)
+{
+    //print("移動登録\n");
+    if (room in roomNameMap) {
+        local info = { room = roomNameMap[room], pose = pose, next = next };
+        zero_move_infos.append(info);
+    }
+}
+
+/**
+ * 移動登録
+ * @param room 移動先ID
+ * @param pose 表示立ち絵指定
+ * @param next 次シーン指定
+ */
+function moveItemForLoad(room, pose, next)
+{
+    //print("移動登録（ロード用）\n");
+    local info = { room = room, pose = pose, next = next };
+    zero_move_infos.append(info);
+}
+
+/**
+ * 移動処理実行
+ * back 背景画像番号
+ */
+function move()
+{
+    //print("移動実行\n");
+    if (zero_move_infos.len() <= 0 || (zero_move_select_count != null && zero_move_select_count <= 0)) {
+        next(zero_move_storage, null);
+    } else {
+        ::MoveClear(zero_move_back);
+        for (local i=0; i<zero_move_infos.len(); i++) {
+            local info = zero_move_infos[i];
+            ::MoveAdd(info.room, info.pose);
+        }
+        stable = true;
+        // BGM 開始
+        if (zero_move_bgm >= 0) {
+            MusicPlay(0, zero_move_bgm, volumeCalc(100), timeCalc(500));
+        }
+        suspend(MOVE);
+    }
+}
+
+/**
+ * 選択肢処理終了
+ * @param 選択した選択肢
+ */
+function moveDone(param)
+{
+    //print("移動終了:" + param + "\n");
+    // BGM 停止
+    MusicPlay(0, 0, 0, timeCalc(500));
+    if (zero_move_select_count != null) {
+        zero_move_select_count--;
+    }
+    if (zero_move_infos.len() > 0 && param < zero_move_infos.len()) {
+        local info = zero_move_infos[param];
+        if ("next" in info && info.next != null) {
+            next(info.next, null);
+        }
+        zero_move_infos.remove(param);
+    }
+}
+
+// -------------------------------------
+
+// データ用の名前とキャラクタIDのマッピング
+dateNameMap <- {
+    ["ルイズ"] = 1,
+    ["シエスタ"] = 3,
+    ["タバサ"] = 5,
+    ["キュルケ"] = 6,
+    ["アンリエッタ"] = 7,
+    ["ハルナ"] = 12
+};
+
+/**
+ * 移動登録
+ * @param name デートキャラクタ名
+ * @param next 次シーン名
+ */
+function dateItem(name, next)
+{
+    //print("デート情報登録\n");
+    if (name in dateNameMap) {
+        // 選択肢を登録する
+        local info = { chr = dateNameMap[name], next = next };
+        selectInfos.append(info);
+    }
+}
+
+/**
+ * 選択肢の内容を組みなおす!!
+ */
+function resetSelect(luiz_scene, noluiz_scene) {
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        if (info.chr == 1) { // ルイズ
+            info.next = luiz_scene;
+        } else {
+            info.next = noluiz_scene;
+        }
+    }
+}
+
+/**
+ * 選択肢の内容を組みなおす!!
+ */
+function resetSelect2(scene) {
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        info.next = scene;
+    }
+}
+
+
+// 配列から適当に選ぶ
+function choice(array) {
+    return array[random(array.len())];
+}
+
+// シーン選択
+function getTunDeleScene(tun, event, restrict)
+{
+    // レベル2 を探す
+    local level1 = [];
+    local level2 = [];
+    for (local i=0;i<6;i++) {
+        // 制限処理
+        if (restrict) {
+            if (tun) {
+                if (i == 2 || i == 3) {
+                    continue;
+                }
+            } else {
+                if (i == 0 || i == 3) {
+                    continue;
+                }
+            }
+        }
+        switch (event[i]) {
+        case 0:
+            level1.append(i);
+            break;
+        case 1:
+            // 確率４倍
+            level1.append(i);
+            level1.append(i);
+            level1.append(i);
+            level1.append(i);
+            break;
+        case 2:
+            if (!(restrict && tun && (i==1 || i==4))) {
+                level2.append(i);
+            }
+            break;
+        }
+    }
+
+    // レベル2 があれば優先再生
+    if (level2.len() > 0 || level1.len() > 0) {
+        zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+            //resetSelect(tnEventId, tnEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+            //resetSelect(dlEventId, dlEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    }
+    // 選択肢登録
+    ::DateClear(zero_tndl_flag != 0);
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        ::DateAdd(info.chr);
+    }
+    stable = true;
+    if (bgm >= 0) {
+        MusicPlay(0, bgm, volumeCalc(100), timeCalc(500));
+    }
+    suspend(DATE);
+}
+
+function dateDone(param)
+{
+    print("dateDone:" + param + "\n");
+    // BGM 停止
+    if (zero_tndl_flag != 0) {
+        if (zero_tndl_flag == 1) {
+            zero_tun_event[zero_tndl_no]++;
+        } else {
+            zero_dele_event[zero_tndl_no]++;
+        }
+        zero_tundele_count++;
+        zero_tndl_flag = 0;
+    }
+    MusicPlay(0, 0, 0, timeCalc(500));
+    if (selectInfos.len() > 0) {
+        if (param < selectInfos.len()) {
+            local info = selectInfos[param];
+            if ("eval" in info && info.eval != null) {
+                eval(info.eval, null);
+            }
+            if ("next" in info && info.next != null) {
+                next(info.next, null);
+            }
+        }
+        selectInfos = [];
+    }
+}
+
+// ------------------------------------------------
+// 特殊コマンド実行中
+// ------------------------------------------------
+
+/**
+ * コーヒーブレイク処理
+ */
+function coffee()
+{
+    addLine();
+    suspend(COFFEE);
+}
+
+// ----------------------------------------
+
+/**
+ * 戦闘処理初期化
+ */
+function battleInit(back)
+{
+    addLine();
+    BattleClear(back);
+}
+
+// 戦闘用の名前とキャラクタIDのマッピング
+battleNameMap <- {
+    ["ルイズ"] = 1,
+    ["サイト"] = 2,
+    ["シエスタ"] = 3,
+    ["タバサ"] = 5,
+    ["キュルケ"] = 6,
+    ["アンリエッタ"] = 7,
+    ["ウェザリー"] = 14,
+    ["アキナ"] = 13,
+    ["魔導士"] = 15,
+    ["魔道士"] = 15,
+    ["兵士"] = 16,
+	["マントアキナ"] = 29,
+	["マントウェザリー"] = 30,
+	["敵タバサ"] = 31,
+	["敵キュルケ"] = 32,
+	["アキナ名無し"] = 33
+};
+
+// 戦闘用の配置
+battlePosMap <- {
+    ["左"] = 0,
+    ["中"] = 1,
+    ["右"] = 2
+};
+
+/**
+ * 戦闘処理味方登録
+ * @param name 戦闘参加キャラクタ名
+ */
+function battleAdd(name)
+{
+    if (name in battleNameMap) {
+        BattleAdd(battleNameMap[name]);
+    }
+}
+
+/**
+ * 戦闘処理敵登録
+ * @param pos 配置位置
+ * @param name 戦闘参加キャラクタ名
+ * @param pose 立ち絵指定
+ */
+function battleEnemy(pos, name, pose)
+{
+    if (name in battleNameMap &&
+        pos in battlePosMap) {
+        BattleEnemy(battlePosMap[pos], battleNameMap[name], pose);
+    }
+}
+
+/**
+ * 戦闘開始
+ */
+function battle()
+{
+    suspend(BATTLE);
+}
+
+// ------------------------------------------------
+// 特殊アクション実行中
+// ------------------------------------------------
+
+/**
+ * ツンデレ処理
+ * @param add 移動量
+ */
+function tndl(add)
+{
+    addLine();
+    if (!isJump2()) {
+        if (add == null) {
+            zero_tundele = 127;
+        } else {
+            local before = zero_tundele;
+            zero_tundele += add;
+            // 値の範囲制限
+            if (zero_tundele > 255) {
+                zero_tundele = 255;
+            } else if (zero_tundele < 0) {
+                zero_tundele = 0;
+            }
+            if (before != zero_tundele) {
+                funcs.append(Tundele(before, zero_tundele));
+                waitFunc(null, true);
+            }
+        }
+    }
+}
+
+/*
+ * ツンデレ処理(ダミー用)
+ * @param before 開始位置
+ * @param after 終了位置
+ */
+function tndlDummy(before, after)
+{
+    if (!isJump2()) {
+		if (before != after) {
+	        funcs.append(Tundele(before, after));
+    	    waitFunc(null, true);
+        }
+    }
+}
+
+// データ用の名前とキャラクタIDのマッピング
+likeNameMap <- {
+    ["ルイズ"]       = 0,
+    ["キュルケ"]     = 1,
+    ["タバサ"]       = 2,
+    ["シエスタ"]     = 3,
+    ["アンリエッタ"] = 4,
+    ["ハルナ"]       = 5
+};
+
+function printInfo()
+{
+    print("ツンデレ値:" + zero_tundele + "\n");
+    print("ツンデレ回数:" + zero_tundele_count + "\n");
+    print("ルート:" + zero_route + "\n");
+    print("キス:" + zero_kiss + "\n");
+    foreach (idx,val in likeNameMap) {
+        print("好感度:" + idx + ":" + zero_likes[val] + "\n");
+    }
+
+    print("ツンイベント状態");
+    foreach (idx,val in zero_tun_event) {
+        print(" " + idx + ":" + val);
+    }
+    print("\n");
+
+    print("デレイベント状態");
+    foreach (idx,val in zero_dele_event) {
+        print(" " + idx + ":" + val);
+    }
+    print("\n");
+}
+
+/**
+ * 好感度変動
+ * @param name キャラクタ名 (null にするとダミー動作)
+ * @param add 変動値
+ */
+function like(name, add)
+{
+    addLine();
+    if (!isJump2()) {
+        local n = 0;
+        if (name in likeNameMap) {
+            n = likeNameMap[name];
+            if (add == null) {
+                zero_likes[n] = 0;
+            } else {
+                zero_likes[n] += add;
+            }
+        }
+        if (add != null) {
+            funcs.append(Like(n, add > 0));
+            waitFunc(null, true);
+        }
+    }
+}
+
+itemNameMap <- {
+["ドッグフード"] = 0,
+["ルイズ特製スープ"] = 1,
+["ルイズ特製ケーキ"] = 2,
+["バナナ"] = 3,
+["パン"] = 4,
+["スープ"] = 5,
+["シエスタ特製スープ"] = 6,
+["薬草"] = 7,
+["青いポーション"] = 8,
+["いちご"] = 9,
+["レモン"] = 10,
+["チョコレート"] = 11,
+["ハート型チョコ"] = 12,
+["シエスタ特製ケーキ"] = 13,
+["ハチミツ"] = 14,
+["グレープジュース"] = 15,
+["ワイン"] = 16,
+["ハーブ"] = 17,
+["ハーブポーション"] = 18,
+["野菜ジュース"] = 19,
+["青汁"] = 20,
+["緑のポーション"] = 21,
+["エリクサー"] = 22
+};
+
+/**
+ * アイテム処理
+ * @param name アイテム名
+ * @param num 個数
+ */
+function item(name, num)
+{
+    addLine();
+    if (!isJump2()) {
+        if (name in itemNameMap) {
+            local n = itemNameMap[name];
+            local count = zero_items[n];
+            // 最大値は9
+            if (count + num > 9) {
+                num = 9 - count;
+            }
+            zero_items[n] += num;
+// アイテム表示はなし
+//            if (num > 0) {
+//                funcs.append(Item(name, num));
+//                waitFunc(null, true);
+//            }
+        }
+    }
+}
+
+/**
+ * タイトルの設定
+ * @param name タイトル名
+ */
+function title(name)
+{
+	zero_title = name;
+}
+
+/**
+ * システムデータ保存処理
+ */
+function syssave()
+{
+    addLine();
+    if (!isJump2()) {
+        suspend(SYSSAVE);
+    }
+}
+
+/**
+ * ムービーの起動
+ * @param num ムービー番号
+ */
+function movie(num)
+{
+    addLine();
+    if (!isJump()) {
+        SetMovieNo(num.tointeger());
+        addWait({
+            moviestop = function() {}
+        }, null);
+        suspend(MOVIE);
+    }
+}
+
+// --------------------------------------------------
+
+/**
+ * ツンデレイベント開始処理
+ */
+function tndlStart()
+{
+    next(zero_tndl_scene, true);
+}
+
+/**
+ * ツンデレイベント終了処理
+ */
+function tndlEnd() {
+    next(zero_tndl_done, true);
+}
+
+
+/**
+ * 指定されたキャラの新密度が一番高いかどうかの判定
+ */
+function isMax(n)
+{
+    local v = zero_likes[n];
+    for (local i=0;i<6;i++) {
+        if (i != n && zero_likes[i] > v) {
+            return false;
+        }
+    }
+    return true;
+}
+
+/**
+ * ルート決定
+ */
+function checkRoute()
+{
+    addLine();
+    if (!isJump2()) {
+        if (zero_tundele_count >= 4) {
+            zero_route = 1;
+        } else {
+            if (zero_tundele_count >= 4) {
+                zero_route = 1; // ルイズ
+            } else if (isMax(5)) { // ハルナ
+                zero_route = 6;
+            } else if (isMax(3)) { // シエスタ
+                zero_route = 4; 
+            } else if (isMax(4)) { // アンリエッタ
+                zero_route = 5;
+            } else if (isMax(2)) { // タバサ
+                zero_route = 3;
+            } else if (isMax(1)) { // キュルケ
+                zero_route = 2;
+            } else {
+                zero_route = 1; // ルイズ
+            }
+        }
+    }
+}
+
+/**
+ * キス状態決定
+ */
+function checkKiss()
+{
+    addLine();
+    if (!isJump2()) {
+        zero_kiss = zero_tundele_count >= 4 ? 0 : 1;
+    }
+}
+
+/**
+ * クリアフラグの設定
+ */
+function setClear()
+{
+    addLine();
+    if (!isJump2()) {
+        if (zero_route >= 0 && zero_route <= 6) {
+            SetClearFlag(zero_route);
+        };
+    }
+}
+
+// ------------------------------------
+// ツンデレテスト用
+// ------------------------------------
+
+function tndlInit()
+{
+	zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+tdtest_td <- 0;
+tdtest_type <- 0;
+tdtest_done <- 0;
+
+function tndlTest(level)
+{
+    zero_tndl_done  = tdtest_done;
+    zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;
+    next(tdtest_td == 0 ? tnEventId : dlEventId, true);
+}
+
+print("scene player setup\n");

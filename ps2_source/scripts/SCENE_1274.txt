@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +588)});
+set("bgm", {play = (0x03000000 +9)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +24)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "特に意味はない。", (0x04000000 +9538));
+talk("タバサ", null, "……そう。", (0x04000000 +15425));
+like("タバサ", -15);
+tndl(30);
+talk("サイト", null, "う、うん。", (0x04000000 +9539));
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……。", (0x04000000 +9540));
+talk("タバサ", null, "……なに？", (0x04000000 +15426));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "いや、特には……なにも。", (0x04000000 +9541));
+talk("サイト", null, "（なんだか知らないけど、機嫌悪いのかな。\n　それとも、読書の邪魔ってことか）", null);
+talk("サイト", null, "えーと、邪魔したかな。\n悪かった。", (0x04000000 +9542));
+next((0x01000000 +1275), true);

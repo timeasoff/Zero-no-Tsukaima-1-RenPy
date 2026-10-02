@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+}
+talk("ルイズ", null, "もうっ、サイトったら。\nちゃんとわたしをほめなさい！", (0x04000000 +5386));
+talk("サイト", null, "（そんな、無茶な……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "な、なによ。\n不満？", (0x04000000 +5387));
+talk("サイト", null, "い、いや。\nそんなことはないぞ。", (0x04000000 +10648));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("ルイズ", null, "……ま、いいわ。\nじゃ、やってみなさい。\nさあ。", (0x04000000 +5388));
+talk("サイト", null, "ルイズさま、最高～～っ！\nブラボ～～！", (0x04000000 +10649));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "……本当にやる気あるの？\nサイト？", (0x04000000 +5389));
+selectInit();
+selectItem("気高き俺のご主人様！", (0x01000000 +1817), null, true);
+selectItem("そのかわいさは罪です！", (0x01000000 +1818), null, true);
+selectItem("ご主人様、萌え萌えですっ！", (0x01000000 +1819), null, true);
+select();

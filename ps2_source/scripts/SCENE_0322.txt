@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1065)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +427)});
+set("bgm", {play = (0x03000000 +23)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "ひどい話だな。", (0x04000000 +11679));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +319)});
+talk("ルイズ", null, "なによ、いいお話じゃない！", (0x04000000 +6248));
+like("ルイズ", -10);
+tndl(-30);
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +506)});
+talk("シエスタ", null, "そうですよ、サイトさん！", (0x04000000 +14787));
+like("シエスタ", -10);
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "だって悲劇だろ！\n物語はハッピーエンドに限るって！", (0x04000000 +11680));
+set("lay1", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +317)});
+talk("ルイズ", null, "理由の無いハッピーエンドなんて\n喜劇じゃないの！", (0x04000000 +6249));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "サイトは、喜劇じみたハッピーエンドが\n好みなのは解ったけど。", (0x04000000 +15975));
+talk("ウェザリー", null, "でも、それはまた別の公演にして欲しいな。\n今回の芝居は『悲劇』なんだよ。", (0x04000000 +15976));
+next((0x01000000 +325), true);

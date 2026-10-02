@@ -1,0 +1,48 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +814)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +10)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +40)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "親父、この指輪ちょうだい。\nこれで足りる？", (0x04000000 +9163));
+set("lay8", {y = 0,dr = "2B",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +814),imageType = 2});
+talk("アンリエッタ", null, "使い魔さん！？", (0x04000000 +407));
+talk("商人ＭＲ", "商人", "へい、毎度！", (0x04000000 +4201));
+set("lay5", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +392),imageType = 2});
+talk("サイト", null, "はい、お姫さま。", (0x04000000 +9164));
+set("bgm", {stop = 1000});
+msgoff()
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +16)});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +263)});
+trans("crossfade", 1000);
+talk("アンリエッタ", null, "あ……ありがとうございます……。", (0x04000000 +408));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +262)});
+waitLoad(true);
+talk("アンリエッタ", null, "ふふっ、どうですか。", (0x04000000 +409));
+talk("サイト", null, "うん、露店のものにしては、キレイですね。", (0x04000000 +9165));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +263)});
+waitLoad(true);
+talk("アンリエッタ", null, "うふふっ。\nこうやって見ると、なんだか婚約指輪\nみたいですね。", (0x04000000 +410));
+talk("サイト", null, "はい？", (0x04000000 +9166));
+talk("アンリエッタ", null, "なんでもありませんよ。\nうふふっ。", (0x04000000 +411));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +375), true);

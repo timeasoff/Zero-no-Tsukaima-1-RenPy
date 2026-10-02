@@ -1,0 +1,50 @@
+### hypothesis check (tN vs PS2 bgm id) counts: {'tN+1': 32, 'tN': 14, 'tN-1': 11}
+
+game\chapters\0\script-ch0.rpy
+   ps2 bgm ids (ordered, scene-run) : [24]
+   tN used (ordered)                : [23]
+   tN+1                             : [24]
+game\chapters\1\script-ch1_1.rpy
+   ps2 bgm ids (ordered, scene-run) : [19, 28, 18, 25]
+   tN used (ordered)                : [18, 27, 17, 24]
+   tN+1                             : [19, 28, 18, 25]
+game\chapters\1\script-ch1_10.rpy
+   ps2 bgm ids (ordered, scene-run) : [29, 20, 5, 30, 32, 19, 18, 6, 7, 9, 8, 17]
+   tN used (ordered)                : [4, 3, 5, 6, 8, 7, 18, 16]
+   tN+1                             : [5, 4, 6, 7, 9, 8, 19, 17]
+game\chapters\1\script-ch1_2.rpy
+   ps2 bgm ids (ordered, scene-run) : [29, 20]
+   tN used (ordered)                : [28]
+   tN+1                             : [29]
+game\chapters\1\script-ch1_3.rpy
+   ps2 bgm ids (ordered, scene-run) : [28, 18, 29, 20, 5, 30, 19, 17, 7, 6]
+   tN used (ordered)                : [19, 6, 5, 28]
+   tN+1                             : [20, 7, 6, 29]
+game\chapters\1\script-ch1_4.rpy
+   ps2 bgm ids (ordered, scene-run) : [20]
+   tN used (ordered)                : [19]
+   tN+1                             : [20]
+game\chapters\1\script-ch1_5.rpy
+   ps2 bgm ids (ordered, scene-run) : [5, 30]
+   tN used (ordered)                : [4, 29]
+   tN+1                             : [5, 30]
+game\chapters\1\script-ch1_6.rpy
+   ps2 bgm ids (ordered, scene-run) : [25, 5, 30, 19, 28]
+   tN used (ordered)                : [18, 29, 27]
+   tN+1                             : [19, 30, 28]
+game\chapters\1\script-ch1_7.rpy
+   ps2 bgm ids (ordered, scene-run) : [29, 19, 30, 32]
+   tN used (ordered)                : [31]
+   tN+1                             : [32]
+game\chapters\1\script-ch1_8.rpy
+   ps2 bgm ids (ordered, scene-run) : [19, 25, 29, 5, 30, 32, 9, 8, 7, 6, 11]
+   tN used (ordered)                : [18, 3, 8, 7, 29, 10]
+   tN+1                             : [19, 4, 9, 8, 30, 11]
+game\chapters\1\script-ch1_9.rpy
+   ps2 bgm ids (ordered, scene-run) : [19, 18]
+   tN used (ordered)                : [18, 17]
+   tN+1                             : [19, 18]
+game\chapters\extra\sp_l1.rpy
+   ps2 bgm ids (ordered, scene-run) : [19, 20, 22, 25, 5, 7, 30, 29, 4]
+   tN used (ordered)                : [3]
+   tN+1                             : [4]

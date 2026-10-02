@@ -1,0 +1,85 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +497)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +425)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +32)});
+trans("crossfade", 1000);
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("シエスタ", null, "それじゃ、このバターを柔らかくペースト状\nになるまで練ってください。\nわたしは、その間に粉の準備をしますから。", (0x04000000 +14205));
+talk("サイト", null, "ん、分かった。", (0x04000000 +8353));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,x = 64});
+talk("サイト", null, "……むう。\n結構大変だな、これ。", (0x04000000 +8354));
+set("lay5", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "できましたか？", (0x04000000 +14206));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "あー、うん。\n一応。", (0x04000000 +8355));
+talk("シエスタ", null, "それじゃ、砂糖と卵の黄身を入れるんで、\nまたよくかき混ぜてください。", (0x04000000 +14207));
+talk("シエスタ", null, "最初に砂糖を入れて、\nよく混ざったら黄身を入れてくださいね。", (0x04000000 +14208));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "了解！", (0x04000000 +8356));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "（まだ焼いてないのに、\n　それなりにいい匂いがするな）", null);
+set("lay5", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "どうですかあ？", (0x04000000 +14209));
+talk("サイト", null, "かき混ぜたかな。", (0x04000000 +8357));
+talk("シエスタ", null, "どれどれ？", (0x04000000 +14210));
+talk("シエスタ", null, "……うん、これで大丈夫でしょう。", (0x04000000 +14211));
+talk("シエスタ", null, "それじゃ、粉を入れて混ぜるのは\nわたしがやりますね。", (0x04000000 +14212));
+talk("サイト", null, "うん、よろしく。", (0x04000000 +8358));
+talk("シエスタ", null, "はい。", (0x04000000 +14213));
+talk("サイト", null, "（うーむむむ。\n　実に手際が良くて軽やかだ）", null);
+talk("シエスタ", null, "あとは、生地を並べて……。\nオーブンに入れて……、と。", (0x04000000 +14214));
+talk("シエスタ", null, "あとは、うまく焼けるのを待つだけです。", (0x04000000 +14215));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "できあがるのが楽しみだね。", (0x04000000 +8359));
+talk("シエスタ", null, "ええ。", (0x04000000 +14216));
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +32)});
+trans("crossfade", 1000);
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +489)});
+msgon()
+talk("シエスタ", null, "そろそろいいかしら。", (0x04000000 +14217));
+talk("シエスタ", null, "どれどれ？\n……うん！\nいい感じです。", (0x04000000 +14218));
+set("lay2", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "どれどれ？\nへえ……いい匂いだなあ。", (0x04000000 +8360));
+talk("シエスタ", null, "サイトさん、どうぞ味見してくださいな。", (0x04000000 +14219));
+talk("サイト", null, "それじゃ、遠慮なく。", (0x04000000 +8361));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "ん！\nこれは美味い！\nさすがシエスタ、やっぱり美味しいよ。", (0x04000000 +8362));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +530)});
+talk("シエスタ", null, "ありがとうございます……。\nサイトさんがいてくれたからです、きっと。", (0x04000000 +14220));
+set("lay5", {dr = "2A",show = 1,level = 160,lv = 0,image = (0x02000000 +431)});
+talk("サイト", null, "いやあ、俺って結局何も役に立ってないし。\nでも、本当に美味しいよ、このクッキー。", (0x04000000 +8363));
+talk("シエスタ", null, "うふふ、どんどん食べてくださいな。", (0x04000000 +14221));
+talk("サイト", null, "俺ばっか食べてたらもったいないよ。\nシエスタも一緒に食べよう。", (0x04000000 +8364));
+talk("シエスタ", null, "あ、はい！", (0x04000000 +14222));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +137), true);

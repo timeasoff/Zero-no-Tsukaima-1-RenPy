@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +968)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+}
+talk("サイト", null, "（キュルケを説得するか）", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "キュルケはどうなんだ？\n面白そうに感じないか？", (0x04000000 +11657));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "うーん、まぁダーリンと一緒の舞台だったら\n考えてもいいけど……。", (0x04000000 +3262));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "また、難しいことを言うなよ。\nそんなこと絶対無理だって。", (0x04000000 +11658));
+talk("キュルケ", null, "だったら、つまらないかなぁ……。", (0x04000000 +3263));
+like("キュルケ", -10);
+tndl(30);
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+next((0x01000000 +304), true);

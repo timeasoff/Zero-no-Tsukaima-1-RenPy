@@ -1,0 +1,75 @@
+scene -> chapter mapping
+
+ch   title                          core          scenes  talk   set    trans  choice
+000  システム（エンジン・メニュー）                0000-0004     20      0      4      1     
+001  プロローグ                          0005-0005     1       15     46     13    
+002  ゼロのルイズ                         0006-0067     118     1244   1886   86    
+003  黒髪の来訪者                         0068-0136     135     1382   2037   104   
+004  女の戦い                           0137-0218     151     1078   1864   62    
+005  トリスタニアの危機                      0219-0268     112     1072   1945   79    
+006  本当の想い                          0269-0343     187     1470   2420   103   
+007  家出のお姫さま                        0344-0374     56      431    808    25    
+008  失望のお姫さま                        0375-0404     35      336    722    21    
+009  決意のお姫さま                        0405-0428     24      378    763    38    
+010  魅惑のお姫さま                        0429-0430     2       120    197    16    
+011  突然のスカウト                        0431-0466     61      492    793    36    
+012  ハルナの決意                         0467-0509     87      618    1086   54    
+013  もう一人のハルナ                       0510-0548     39      450    827    47    
+014  炎の予感                           0549-0577     50      396    734    30    
+015  私のお兄ちゃん                        0578-0618     54      444    856    54    
+016  魔法の薬                           0619-0659     41      407    856    37    
+017  微熱の使い手                         0660-0669     10      138    247    18    
+018  女王の決断                          0670-0695     31      282    467    32    
+019  貴族の意地                          0696-0738     48      589    1060   46    
+020  小悪魔と春風の協奏曲                     0739-0768     30      378    684    25    
+021  小悪魔のおしおき                       0769-0770     2       162    158    16    
+022  サイトのメイド                        0771-0805     60      541    1148   30    
+023  料理の鉄人                          0806-0848     48      512    1124   39    
+024  沈黙の応援                          0849-0893     45      354    609    33    
+025  制服の魅力                          0894-0902     9       133    298    22    
+026  手紙の秘密                          0903-0933     56      507    761    26    
+027  タバサの秘密                         0934-0971     43      612    1023   47    
+028  ハルナの秘密                         0972-0998     27      346    548    21    
+029  夜の秘密                           0999-1008     10      206    240    21    
+090  特別イベントA（トゥンデレ／デレ）              -             164     1040   1340   53    
+091  特別イベントB（トゥンデレ／デレ）              -             164     1149   849    58    
+
+total dialogues : 17282
+total scenes    : 1920
+index 1239      : absent from archive
+back-traced     : 568 scenes
+unassigned      : []
+
+output files:
+  chapters/chapter_00_システム（エンジン・メニュー）.txt      events_full/chapter_00_システム（エンジン・メニュー）.txt
+  chapters/chapter_01_プロローグ.txt      events_full/chapter_01_プロローグ.txt
+  chapters/chapter_02_ゼロのルイズ.txt      events_full/chapter_02_ゼロのルイズ.txt
+  chapters/chapter_03_黒髪の来訪者.txt      events_full/chapter_03_黒髪の来訪者.txt
+  chapters/chapter_04_女の戦い.txt      events_full/chapter_04_女の戦い.txt
+  chapters/chapter_05_トリスタニアの危機.txt      events_full/chapter_05_トリスタニアの危機.txt
+  chapters/chapter_06_本当の想い.txt      events_full/chapter_06_本当の想い.txt
+  chapters/chapter_07_家出のお姫さま.txt      events_full/chapter_07_家出のお姫さま.txt
+  chapters/chapter_08_失望のお姫さま.txt      events_full/chapter_08_失望のお姫さま.txt
+  chapters/chapter_09_決意のお姫さま.txt      events_full/chapter_09_決意のお姫さま.txt
+  chapters/chapter_10_魅惑のお姫さま.txt      events_full/chapter_10_魅惑のお姫さま.txt
+  chapters/chapter_11_突然のスカウト.txt      events_full/chapter_11_突然のスカウト.txt
+  chapters/chapter_12_ハルナの決意.txt      events_full/chapter_12_ハルナの決意.txt
+  chapters/chapter_13_もう一人のハルナ.txt      events_full/chapter_13_もう一人のハルナ.txt
+  chapters/chapter_14_炎の予感.txt      events_full/chapter_14_炎の予感.txt
+  chapters/chapter_15_私のお兄ちゃん.txt      events_full/chapter_15_私のお兄ちゃん.txt
+  chapters/chapter_16_魔法の薬.txt      events_full/chapter_16_魔法の薬.txt
+  chapters/chapter_17_微熱の使い手.txt      events_full/chapter_17_微熱の使い手.txt
+  chapters/chapter_18_女王の決断.txt      events_full/chapter_18_女王の決断.txt
+  chapters/chapter_19_貴族の意地.txt      events_full/chapter_19_貴族の意地.txt
+  chapters/chapter_20_小悪魔と春風の協奏曲.txt      events_full/chapter_20_小悪魔と春風の協奏曲.txt
+  chapters/chapter_21_小悪魔のおしおき.txt      events_full/chapter_21_小悪魔のおしおき.txt
+  chapters/chapter_22_サイトのメイド.txt      events_full/chapter_22_サイトのメイド.txt
+  chapters/chapter_23_料理の鉄人.txt      events_full/chapter_23_料理の鉄人.txt
+  chapters/chapter_24_沈黙の応援.txt      events_full/chapter_24_沈黙の応援.txt
+  chapters/chapter_25_制服の魅力.txt      events_full/chapter_25_制服の魅力.txt
+  chapters/chapter_26_手紙の秘密.txt      events_full/chapter_26_手紙の秘密.txt
+  chapters/chapter_27_タバサの秘密.txt      events_full/chapter_27_タバサの秘密.txt
+  chapters/chapter_28_ハルナの秘密.txt      events_full/chapter_28_ハルナの秘密.txt
+  chapters/chapter_29_夜の秘密.txt      events_full/chapter_29_夜の秘密.txt
+  chapters/chapter_90_特別イベントA（トゥンデレ／デレ）.txt      events_full/chapter_90_特別イベントA（トゥンデレ／デレ）.txt
+  chapters/chapter_91_特別イベントB（トゥンデレ／デレ）.txt      events_full/chapter_91_特別イベントB（トゥンデレ／デレ）.txt

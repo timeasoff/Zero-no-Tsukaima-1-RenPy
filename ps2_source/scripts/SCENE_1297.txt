@@ -1,0 +1,37 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "それにしても、ルイズのヤツ、\n黙って出て行かなくたって……ん？", (0x04000000 +9631));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 114,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +302)});
+talk("サイト", null, "あ、いたいた。\nルイズだ。", (0x04000000 +9632));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "……あっ！？", (0x04000000 +4947));
+like("ルイズ", 20);
+talk("サイト", null, "おーい、ルイズーッ！", (0x04000000 +9633));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+talk("サイト", null, "なんで逃げるんだよっ！\nったく、追いかけさせんなよ、もう……。", (0x04000000 +9634));
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +306)});
+msgon()
+talk("ルイズ", null, "あー、もうっ！\nわざわざ追いかけて来ないでよっ！", (0x04000000 +4948));
+set("lay1", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "人の顔見て逃げられたら、\n気になって追いかけるに決まってるだろ！", (0x04000000 +9635));
+talk("ルイズ", null, "ついて来て欲しくないから、逃げたのっ！\nサイトはわたしの使い魔なんだから、\nそれくらい察しなさいよっ！！", (0x04000000 +4949));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "だから、なんでって……。\nあっ、ひょっとして……。", (0x04000000 +9636));
+selectInit();
+selectItem("俺、なんかやらかした？", (0x01000000 +1298), null, true);
+selectItem("俺がいると邪魔？", (0x01000000 +1299), null, true);
+selectItem("風呂に行くつもりとか？", (0x01000000 +1300), null, true);
+select();

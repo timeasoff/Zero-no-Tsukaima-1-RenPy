@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("bgm", {play = (0x03000000 +32)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "そうだな、確かに気になるな。", (0x04000000 +11276));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "む～……。", (0x04000000 +5935));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "春奈にとっては、俺がこの世界での\n唯一の知り合いなわけだし、\n面倒は見てあげないと。", (0x04000000 +11277));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "でも、なんだかんだでルイズやシエスタに\n迷惑かけちゃってるし、\nそれはすまないと思ってる。", (0x04000000 +11278));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +310)});
+talk("ルイズ", null, "う、うん……。\n別にそれはかまわないんだけどね……。", (0x04000000 +5936));
+next((0x01000000 +157), true);

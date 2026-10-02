@@ -1,0 +1,6 @@
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("ƒ‹ƒCƒY", (0x01000000 +1104));
+date((0x01000000 +343),false,(0x03000000 +4));

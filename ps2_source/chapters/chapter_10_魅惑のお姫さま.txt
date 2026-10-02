@@ -1,0 +1,464 @@
+========================================================================
+CHAPTER 10 : 魅惑のお姫さま
+core scenes : 429 .. 430  (2 scenes)
+========================================================================
+
+---- SCENE 0429 ----
+  [TITLE title("魅惑のお姫さま")]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1169, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+12, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+19]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：いい？
+わたしがお風呂から帰って来るまでに、
+ベッドメイクを済ませておくのよ。  [voice 4601]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：わたしが目を離した隙に、
+女の子なんか引っ張り込んだら……、
+お仕置きフルコースだからねっ！  [voice 4602]
+  [SPRITE   lay1     hide]
+  [SE       se0      play=+57]
+  [SE       se0      play=+56]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：ふう……。
+あれからしばらく経つのに、
+まだ根に持ってるな、ルイズのやつ。  [voice 8128]
+サイト：お姫さまのキスは不可抗力だって言ってんのに。  [voice 8129]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：そういや、お姫さまは今頃どうしてるかな。
+頑張って仕事をしてるのかな？  [voice 8130]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：今回の事件解決で、周りの支持を
+増やしたらしいけど……。
+苦労が絶えないよなあ、本当。  [voice 8131]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：俺、気軽に見守りますなんて言っちゃったけど、
+簡単に会えるような相手じゃないし……。  [voice 8132]
+  [SE       se0      play=+57]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：あれ、ルイズ。
+なんか忘れ物か？  [voice 8133]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+10]
+  [SE       se0      play=+56]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：今晩は、使い魔さん。
+ルイズなら、お風呂に行ったようですけど。  [voice 261]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：……。  [voice 8134]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：（はっ！
+　これはルイズの罠か！）
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（例の魔法で、お姫さまの幻を俺に見せて、
+　ここで俺が飛びついたところで
+　お仕置きって罠！？）
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：どうしたのですか使い魔さん。
+熱でもあるのですか……。  [voice 262]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：おわあっ！？
+ひんやりとして柔らかい肌の感触が！？  [voice 8135]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：ええと、お姫さま、本物ですか？  [voice 8136]
+  [SPRITE   lay8     image=+799, level=160, dir=2A]
+アンリエッタ：いやですわ。
+本物ですよ？
+ちょっとだけ……抜け出してきましたの。  [voice 263]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ちょっとだけって……。
+そんなことしたら、王宮が大騒ぎに
+なってるんじゃないんですか！？  [voice 8137]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：少しの間なら大丈夫です。
+代わりの者も用意しましたから。  [voice 264]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：いや、大丈夫じゃないですよ。
+それにしても、またどうしてこんなところへ？
+ひょっとして、ルイズになにか用事ですか？  [voice 8138]
+アンリエッタ：実は、しばらくの間頑張って公務に励んで
+おりましたが、ちょっと寂しくなったので、
+使い魔さんのいる学院まで来たというわけです。  [voice 265]
+サイト：つながりがよく見えないんですが。  [voice 8139]
+アンリエッタ：そうですか？  [voice 266]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ちなみにですね、こうして俺がお姫さまと
+会ってるところを見られたら、
+どうなるんでしょう。  [voice 8140]
+  [SPRITE   lay8     image=+799, level=160, dir=2A]
+アンリエッタ：そうですねえ、
+銃士隊あたりに知られたら大変怒ると思います。  [voice 267]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：俺、極悪人決定！？  [voice 8141]
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：やはり、見られるといけないんでしょうか。  [voice 268]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：すみません、俺を助けると思って、
+もう少し人目を忍んでください。  [voice 8142]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：分かりました。
+では、こっそり来ればよろしいのですね。  [voice 269]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：いや、まあ、そうですけど。
+って、次もあるような言い方！？  [voice 8143]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：と、とにかく、ここにいたらいつルイズが
+帰ってくるか分かりません。  [voice 8144]
+サイト：違うところに行きましょう！  [voice 8145]
+アンリエッタ：は、はい。  [voice 270]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+28, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+20]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：こ、ここなら大丈夫かな……。  [voice 8146]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay4     image=+557, level=160, dir=1A]
+ギーシュ：おお！
+モンモランシー、そこにいるのかい？
+きみに渡すプレゼントが、やっと完成したんだ。  [voice 1410]
+サイト：（うわー！？
+　なんでよりによってギーシュが
+　こんなところにー！）
+  [SPRITE   lay4     hide]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：逃げなきゃ……って、ああっ！  [voice 8147]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+768, level=160, dir=1A]
+アンリエッタ：きゃっ！？  [voice 271]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay4     image=+561, level=160, dir=1A]
+ギーシュ：あれ？
+誰かいたと思ったのに、気のせいかな。  [voice 1411]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay4     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+296, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+22]
+サイト：あいたたた……。
+だ、大丈夫ですか、お姫さま。  [voice 8148]
+  [EVENT_CG event    image=+295, level=80]
+アンリエッタ：あ、わたくしは大丈夫ですけど……。
+使い魔さんは大丈夫でしょうか。
+わたくし、下敷きにしてしまいました。  [voice 272]
+サイト：あ、平気ですよ、これくらい。
+むしろ考えようによっては役得で。  [voice 8149]
+  [EVENT_CG event    image=+296, level=80]
+アンリエッタ：はい？  [voice 273]
+サイト：いえ、こっちの話です。  [voice 8150]
+アンリエッタ：それにしても、ここはいったいどこです？  [voice 274]
+サイト：たぶん、今は使っていない古井戸ですね。
+上を塞いでなかったのかな。  [voice 8151]
+サイト：よっと……うわわっ。  [voice 8152]
+サイト：この壁じゃ、脆すぎて登れませんね。
+俺だけなら無理すれば登れるかと
+思ったんですが……。  [voice 8153]
+アンリエッタ：困りましたわ。
+どうしましょう。  [voice 275]
+サイト：気のせいか、あんまり困ってるようには
+聞こえませんけど……。  [voice 8154]
+サイト：お姫さま、魔法で宙に浮いたりとか、
+空を飛んで上まであがったりできます？  [voice 8155]
+アンリエッタ：ええ、そういう魔法はありますし、
+わたくし覚えておりますけど。  [voice 276]
+サイト：うわー、助かった。
+一時はどうなることかと思った。  [voice 8156]
+  [EVENT_CG event    image=+294, level=80]
+アンリエッタ：でもわたくし、杖を持って来ておりませんので、
+魔法は使えませんわ。  [voice 277]
+サイト：はい？  [voice 8157]
+サイト：ええと、それじゃあれですか。
+ここから登って脱出する手段はない
+ということですか？  [voice 8158]
+  [EVENT_CG event    image=+296, level=80]
+アンリエッタ：ええと、そうなりますわね。  [voice 278]
+アンリエッタ：でも、誰か人を呼べば、ロープを下ろして
+もらって出られるのではありませんか？  [voice 279]
+サイト：それはそのとおりですが、
+その場合、俺の命がピンチになります。  [voice 8159]
+アンリエッタ：あら。
+それでは、なにか自力で助かる方法を
+考えなければいけませんね。  [voice 280]
+サイト：なにかありますか！？  [voice 8160]
+  [EVENT_CG event    image=+295, level=80]
+アンリエッタ：さあ……ちょっと思いつきません。  [voice 281]
+  [EVENT_CG event    image=+294, level=80]
+アンリエッタ：それに……これはこれでけっこう
+楽しいですから、いいのかなって。
+使い魔さんと一緒ですし。  [voice 282]
+サイト：なんだか嬉しい台詞のような気もするけど、
+それどころじゃないですよ。
+どうしたらいいんだーっ！？  [voice 8161]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [SPRITE   lay4     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（結局、その後、朝に俺達は見つかり、
+　地獄のようなお仕置きをルイズに
+　うけるのであった）
+サイト：（それでもお姫さまは、楽しかったらしく、
+　俺にまた会いに来ると言って、帰っていった）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+
+---- SCENE 0430 ----
+  [MOVIE movie(1)]
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：えっ、自立するってどういうことだよ？  [voice 9304]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+58, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+ハルナ：うん、いつまでもこの学院で……。
+ルイズさん達の世話になってるのも
+どうかなって思って。  [voice 1826]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：そんなこといったら、俺なんかルイズに
+召喚されて以来、なんだかんだでずっと
+この学院のお世話になってるんだけど。  [voice 9305]
+ハルナ：平賀くんはルイズさんの使い魔じゃない。
+お世話になって当然よ。
+でも、私はそうじゃないから……。  [voice 1827]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：そりゃそうなんだけどさ……。
+俺達、この世界でたぶん２人だけの
+日本人じゃないか。  [voice 9306]
+サイト：それに、お互いのことを知らない
+間柄でもないんだしさ……。
+だから、学院で働くとかすれば……。  [voice 9307]
+  [SPRITE   lay7     image=+959, level=160, dir=1A]
+ハルナ：あのね、平賀くん……。
+私、スカウトされちゃったんだ。  [voice 1828]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：ス、スカウトって、なんの？  [voice 9308]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：劇団よ、劇団。  [voice 1829]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：劇団って、あのウェザリーの劇団は
+もうなくなったんだろ？  [voice 9309]
+ハルナ：違うの。
+あの劇を見てくれた別の劇団の人が、
+私のことを気に入ってスカウトしてくれたのよ。  [voice 1830]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：この際、いい機会だから、その劇団のお世話に
+なろうと思ってね。  [voice 1831]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：でもさ、劇団の世話になるってことは、
+他の街への公演に出ることだってあるんだよな？  [voice 9310]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：うん、そうだね。
+平賀くんとは会うことが少なく
+なっちゃいそうだけどね。  [voice 1832]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：でもね、私は楽しみにしてるんだ。
+この世界のいろんな街を見て回ることが
+できるから。  [voice 1833]
+ハルナ：ひょっとすると、日本へ戻るためのきっかけ
+だって見つかるかもしれない。  [voice 1834]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：そっか、そうだよな。  [voice 9311]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：だから平賀くん……。
+良かったら、私のこと応援していてね。  [voice 1835]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：ああ、もちろんだとも！
+それから、日本へ帰る方法、
+お互いに頑張って見つけだそうぜ。  [voice 9312]
+ハルナ：うん！  [voice 1836]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（春奈……正確にはアキナに支配された
+　状態の春奈は、あの後ウェザリーに
+　魔法を解いてもらった）
+サイト：（それから、アキナが再び現れることも
+　なくなり……）
+サイト：（春奈は何もしらないまま事件は終わること
+　になった）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+35, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+22]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：そうですか、彼女も自分が
+生きていくための道を、見つけたのですね。  [voice 449]
+  [SPRITE   lay8     x=-96, y=0]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：はい。
+おかげさまで。  [voice 9313]
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：せめて最後に会いたかったのに、
+残念ですわ。  [voice 450]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：彼女にもお礼と謝罪を述べたかったのですが、
+旅立ってしまったのでは仕方ありませんね。  [voice 451]
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：それに、今回の件では、
+皆の功に報いることができないのが、
+なにより心苦しいですわ。  [voice 452]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：それこそ仕方ありませんわ。
+表だってしまっては問題があることを
+全員承知してますから。  [voice 4885]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：それでなくても、ウェザリーや、ハルナの件。
+それに虚無の件と極秘事項が目白押しです。  [voice 4886]
+ルイズ：貴族は民を守るために存在するもの。
+それはみんなが理解していることです。  [voice 4887]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：俺も構いませんよ。
+事情は分かってますから。  [voice 9314]
+アンリエッタ：それではわたくしが心苦しいというもの。  [voice 453]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：せめて、使い魔さんには、
+個人としてのわたくしにできることを
+褒美としたいと思います。  [voice 454]
+  [SPRITE   lay8     image=+799, level=160, dir=2A]
+アンリエッタ：受け取っていただけますか？  [voice 455]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：え？
+いや、そんなに気使わないで……。  [voice 9315]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+268, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+17]
+サイト：え？  [voice 9316]
+サイト：（このやわらかいものは一体……）
+  [SPRITE   lay5     hide]
+サイト：（ええい、こうなったら……）
+  [EVENT_CG event    image=+293, level=80]
+ルイズ：え……ええーっ！？
+ひ、姫さま、ききききききキスなんてそんなっ！  [voice 4888]
+ルイズ：しかも……。
+唇に……。  [voice 4889]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+35, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay8     image=+805, level=160, dir=2A]
+アンリエッタ：これでは足りませんか？  [voice 456]
+  [SPRITE   lay8     x=-96, y=0]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：たっ、たっ、足りるもなにも、ええー！  [voice 9317]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+30]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：サイトっ！！
+このバカ犬。
+一体、姫さまに何をしたのよ！  [voice 4890]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：なにもしてねーって！？
+いやその前に、その手に持った杖はなに！？  [voice 9318]
+  [SPRITE   lay1     image=+372, level=160, dir=3A]
+ルイズ：ふふふ……。
+これは正義の罰を与える正義の杖！
+その罪深い魂を、これで浄化してあげるわ！  [voice 4891]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：うわ待てちょっとルイズやめれ！  [voice 9319]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+373, level=140, dir=3A]
+ルイズ：問答無用！  [voice 4892]
+  [SPRITE   lay1     hide]
+  [SE       se0      play=+95]
+  [BG       stage    vibrate=21]
+  [EVENT_CG event    vibrate=21]
+  [SPRITE   lay8     vibrate=21]
+  [SPRITE   lay5     vibrate=21]
+  [SPRITE   lay19    vibrate=21]
+  [SPRITE   lay1     vibrate=21]
+  [SPRITE   lay7     vibrate=21]
+  [VIBRATE vibrate(3)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay8     hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay7     hide, reset]
+サイト：おあーっ！  [voice 9320]
+  [LAYER    white    image=+2, level=0]
+  [SPRITE   lay8     image=+766, level=160, dir=1A]
+  [SPRITE   lay5     hide]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+アンリエッタ：あらまあ、ルイズったら。  [voice 457]
+  [SPRITE   lay8     x=224, y=0]
+  [SPRITE   lay19    image=+944, level=160, dir=1A]
+デルフリンガー：おい、姫さん。
+うちの相棒をからかうのも、
+大概にしてほしいんだがね。  [voice 1221]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：あら。
+からかってなどいませんよ？  [voice 458]
+  [SPRITE   lay19    image=+946, level=160, dir=1A]
+デルフリンガー：やれやれ。
+相棒も難儀だねえ。  [voice 1222]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+ルイズ：このバカっ！
+このバカっ！
+この大バカっ！！  [voice 4893]
+  [SE       se0      play=+62]
+  [SE       se0      play=+61]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay8     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay19    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay8     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay1     reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：のおおぉーっ！！！  [voice 9321]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]

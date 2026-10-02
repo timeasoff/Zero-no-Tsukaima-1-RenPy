@@ -1,0 +1,43 @@
+file6 len=7238
+T[0::2]=b'st"tg" oaiy=10'
+T[1::2]=b'e(sae,{pct  0,'
+T[0::2] in file6: True
+T[1::2] in file6: True
+  at 37
+  at 98
+
+=== file 4 (len 260) ===
+  split0.50 even-first     score=106
+  split0.50 odd-first      score=99
+  self                     score=95
+  TOP head: b'initVariable();\nselectInit();\nselectItem("\x8b\xa4\x92\xca\x95\x94", (0x01000000 +1861), null, true);\nselectItem("\x8c\xc2\x95\xca\x95\x94", (0x01000000 +1862), null, true);\nselectItem("\x83c\x83\x93\x83f\x83\x8c", (0x01000000 +1865), null, true);\nselectItem("\x83\x80\x81[\x83r\x81[", (0x'
+
+=== file 5 (len 6025) ===
+  split0.50 even-first     score=949
+  pairswap                 score=724
+  split0.50 odd-first      score=723
+  TOP head: b'reset();\ntitle("\x83v\x83\x8d\x83\x8d\x81[\x83O");\ntndl(null);\nmsgoff()\nback();\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +1)});\ntrans("crossfade", 1000);\nbeginSkip();\nmsgoff()\nback();\nset("stage", {opac'
+
+=== file 6 (len 7238) ===
+  split0.50 even-first     score=929
+  split0.50 odd-first      score=720
+  self                     score=720
+  TOP head: b'reset();\ntitle("\x83[\x83\x8d\x82\xcc\x83\x8b\x83C\x83Y");\ntndl(null);\nbeginSkip();\nmsgoff()\nback();\nset("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});\ntrans("crossfade", 500);\nback();\nset("stage", {opacity = 1'
+
+=== file 7 (len 782) ===
+  split0.50 even-first     score=187
+  split0.50 odd-first      score=158
+  self                     score=158
+  TOP head: b'if (isJump()){\nreset();\nset("bgm", {play = (0x03000000 +19)});\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +150)});\n}\ntalk("\x83T\x83C\x83g", null, "\x82\xa2\x82\xa2\x82\xc6\x8ev\x82\xa4\x82\xba\x81B\\n\x82\xa8\x82\xdc\x82\xa6\x81A\x8c\xb3\x82\xaa\x82\xa2\x82\xa2\x82\xe0\x82\xf1\x81B\\n\x82\xe0\x82\xc1'
+
+=== file 10 (len 5203) ===
+  split0.50 even-first     score=574
+  split0.50 odd-first      score=413
+  self                     score=413
+  TOP head: b'if (isJump()){\nreset();\nset("bgm", {play = (0x03000000 +19)});\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +150)});\n}\ntalk("\x83\x8b\x83C\x83Y", null, "\x82\xa4\x81[\x81A\x82\xc8\x82\xc9\x82\xe6\x82\xc8\x82\xc9\x82\xe6\x81A\x82\xb3\x82\xc1\x82\xab\x82\xa9\x82\xe7\x95\xb6\x8b\xe5\x82\xce\x82\xc1\x82\xa9\x82\xe8\x81I'
+
+=== file 32 (len 3386) ===
+  split0.50 even-first     score=419
+  split0.50 odd-first      score=306
+  self                     score=306
+  TOP head: b'if (isJump()){\nreset();\nset("bgm", {play = (0x03000000 +30)});\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +216)});\n}\ntalk("\x83T\x83C\x83g", null, "\x82\xb1\x82\xb1\x82\xcd\x81A\x91\xe6\x8eO\x8e\xd2\x82\xcc\x8f\xd8\x8c\xbe\x82\xf0\x82\xe0\x82\xc1\x82\xc4\x89\xb4\x82\xcc\x96\xb3\x8e\xc0\x82\xf0\\n\x8f\xd8\x96\xbe'

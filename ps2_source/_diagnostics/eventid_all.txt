@@ -1,0 +1,24 @@
+scene 3  dlEventId
+    ;     zero_text = "";     zero_tun_event = [0,0,0,0,0,0]; 	zero_dele_event = [0,0,0,0,0,0]; }  // デレイベントID dlEventId <- null; // ツンイベントID tnEventId <- null;  // -----------------------------------
+scene 3  tnEventId
+    ent = [0,0,0,0,0,0]; 	zero_dele_event = [0,0,0,0,0,0]; }  // デレイベントID dlEventId <- null; // ツンイベントID tnEventId <- null;  // ---------------------------------------- // システム要素 // ------------
+scene 3  tnEventId
+    ) > 0 || level1.len() > 0) {         zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);         return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];     } else {         return
+scene 3  dlEventId
+    vel1.len() > 0) {         zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);         return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];     } else {         return 0;     }
+scene 3  tnEventId
+    zero_tndl_scene != 0) {             zero_tndl_flag = 1;             zero_tndl_done = done;             //resetSelect(tnEventId, tnEventId + 1);             resetSelect2(zero_tndl_scene);         }     } else if (z
+scene 3  tnEventId
+    cene != 0) {             zero_tndl_flag = 1;             zero_tndl_done = done;             //resetSelect(tnEventId, tnEventId + 1);             resetSelect2(zero_tndl_scene);         }     } else if (zero_tundele
+scene 3  dlEventId
+    zero_tndl_scene != 0) {             zero_tndl_flag = 2;             zero_tndl_done = done;             //resetSelect(dlEventId, dlEventId + 1);             resetSelect2(zero_tndl_scene);         }     }     // 選
+scene 3  dlEventId
+    cene != 0) {             zero_tndl_flag = 2;             zero_tndl_done = done;             //resetSelect(dlEventId, dlEventId + 1);             resetSelect2(zero_tndl_scene);         }     }     // 選択肢登録  
+scene 3  tnEventId
+    _done <- 0;  function tndlTest(level) {     zero_tndl_done  = tdtest_done;     zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;     next(tdtest_td == 0 ? tnEventId : dlEv
+scene 3  dlEventId
+      function tndlTest(level) {     zero_tndl_done  = tdtest_done;     zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;     next(tdtest_td == 0 ? tnEventId : dlEventId, true)
+scene 3  tnEventId
+     zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;     next(tdtest_td == 0 ? tnEventId : dlEventId, true); }  print("scene player setup\n"); 
+scene 3  dlEventId
+    cene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;     next(tdtest_td == 0 ? tnEventId : dlEventId, true); }  print("scene player setup\n"); 

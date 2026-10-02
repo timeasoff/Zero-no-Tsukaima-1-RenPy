@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 157,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +594)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +61)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "ガリア王国には引き渡さないでくれないか。", (0x04000000 +12831));
+set("lay0", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "でも、引き渡さないと、タバサもいろいろと、\n都合が悪くなっちゃうんだろ？", (0x04000000 +12832));
+talk("タバサ", null, "うん。", (0x04000000 +15764));
+talk("サイト", null, "どうしたもんかなぁ？", (0x04000000 +12833));
+talk("サイト", null, "きっと、春奈じゃなくてアキナがやらかした\nことで問題になってるんだろうし……。", (0x04000000 +12834));
+set("lay0", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "あっ。", (0x04000000 +15765));
+next((0x01000000 +998), true);

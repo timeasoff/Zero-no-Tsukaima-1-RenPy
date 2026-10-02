@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +6)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +202)});
+}
+talk("サイト", null, "ルイズって、凄く真面目だよな。", (0x04000000 +8553));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +203)});
+waitLoad(true);
+talk("ルイズ", null, "あら、いけないのかしら？", (0x04000000 +4719));
+talk("サイト", null, "いや、俺なんかじゃ到底マネ\nできないっていうか。\nええっと、そうじゃなくって……。", (0x04000000 +8554));
+talk("サイト", null, "何かに取り組んでる時のルイズって、\n俺と居る時なんかとイメージが\n違ってるなぁって。", (0x04000000 +8555));
+talk("ルイズ", null, "そう？", (0x04000000 +4720));
+like("ルイズ", 10);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +202)});
+waitLoad(true);
+next((0x01000000 +1088), true);

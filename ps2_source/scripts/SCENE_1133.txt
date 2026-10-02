@@ -1,0 +1,31 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +22)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +257)});
+}
+talk("アンリエッタ", null, "満足できる答えをいただきました。\nこれならば、心おきなく城へ帰れるでしょう。", (0x04000000 +360));
+talk("サイト", null, "また、会えますか？", (0x04000000 +8741));
+talk("アンリエッタ", null, "ええ、今度は女王として…ですが。", (0x04000000 +361));
+talk("サイト", null, "分かりました。", (0x04000000 +8742));
+msgoff()
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk("アンリエッタ", null, "（わたくしは城へ帰るのです。\n　政治と外交、そして戦争の舞台へと……）", (0x04000000 +362));
+talk("アンリエッタ", null, "（そこで流される血は舞台の上と違いすべてが\n　本物なのです……）", (0x04000000 +363));
+talk("アンリエッタ", null, "（始祖よ、願わくば幸運を……）", (0x04000000 +364));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay8", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +343), true);

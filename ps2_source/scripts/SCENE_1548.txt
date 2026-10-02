@@ -1,0 +1,27 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "……まだ教育が足りなかったようね。\n少しは女の子の気持ちが分かるように、\n教育してあげるっ！", (0x04000000 +7820));
+talk("サイト", null, "ま、まてっ！\nお、俺が悪かったですっ！", (0x04000000 +14032));
+talk("サイト", null, "ま、まさか……。", (0x04000000 +14033));
+talk("ルイズ", null, "うふふ、今日は特別にお化粧も教えて\nあげるんだからっ！", (0x04000000 +7821));
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +174)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "いっ、いやぁぁっ！\nやめてぇぇっ！", (0x04000000 +14034));
+selectInit();
+selectItem("こ、これが……俺？", (0x01000000 +1657), null, true);
+selectItem("こ、これが……ボク？", (0x01000000 +1658), null, true);
+selectItem("汚れちゃった。汚されちゃったよ", (0x01000000 +1659), null, true);
+select();

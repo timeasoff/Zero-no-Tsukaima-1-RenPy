@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+talk("サイト", null, "（そ、そんな……耳元にルイズの唇が……？）", null);
+talk("ルイズ", null, "ねえ、サイト。\n聞いてるの？", (0x04000000 +5148));
+talk("サイト", null, "は、はひ……聞いておりますぅ……。", (0x04000000 +10446));
+talk("ルイズ", null, "じゃあ、ちゃんと返事をしなさい。", (0x04000000 +5149));
+talk("サイト", null, "あ、あの……ちょっと……。\n近づきすぎてませんか、ご主人様？", (0x04000000 +10447));
+talk("ルイズ", null, "……もしかして、イヤ？", (0x04000000 +5150));
+talk("サイト", null, "ちょ、ちょっと落ち着かないかな～～、\nなんて。", (0x04000000 +10448));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +183)});
+waitLoad(true);
+talk("ルイズ", null, "こ、こうすると男の子が喜ぶって\nキュルケが言ってたもん。", (0x04000000 +5151));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+talk("ルイズ", null, "……サ、サイトは嬉しくないの？", (0x04000000 +5152));
+talk("サイト", null, "ああっ、耳にルイズの桜色の唇がぁ……。", (0x04000000 +10449));
+selectInit();
+selectItem("嬉しいけどぉ……！", (0x01000000 +1745), null, true);
+selectItem("う、嬉しくなんてないぞっ！", (0x01000000 +1746), null, true);
+selectItem("が、我慢できない！", (0x01000000 +1747), null, true);
+select();

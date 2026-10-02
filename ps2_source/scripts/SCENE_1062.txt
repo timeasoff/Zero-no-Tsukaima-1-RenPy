@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +12)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +198)});
+}
+talk("サイト", null, "どれ、お話でも聞かせてあげますか？\nって、どれも文字が読めないんだよなぁ……。", (0x04000000 +8477));
+talk("ルイズ", null, "だったら、サイトの知ってる話でいい。", (0x04000000 +4708));
+talk("サイト", null, "そうか？\nだったら……。", (0x04000000 +8478));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +199)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "うん……。\n眠い……。", (0x04000000 +4709));
+talk("サイト", null, "そ、そうか？\nだったら、寝たほうがいいな。", (0x04000000 +8479));
+talk("ルイズ", null, "すぅ……。\nすぅ……。", (0x04000000 +4710));
+talk("サイト", null, "なんとか寝たみたいだな。\nこれで元気になってくれれば\nいいんだけど……。", (0x04000000 +8480));
+talk("サイト", null, "さて、今日はしばらく、\nお姫さまを見守るってことにしますか。", (0x04000000 +8481));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

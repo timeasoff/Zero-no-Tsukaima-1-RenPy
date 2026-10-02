@@ -1,0 +1,79 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 110,level = 159,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 160,lv = 0,image = (0x02000000 +1114)});
+set("lay1", {level = 154});
+msgon()
+talk("味方Ａ", "兵士", "お待たせしました。\n今すぐ部屋に案内するようにとの事です。", (0x04000000 +4255));
+talk("ルイズ", null, "どうもありがとう。", (0x04000000 +6854));
+talk("味方Ａ", "兵士", "では、こちらに……。", (0x04000000 +4256));
+msgoff()
+set("lay15", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 210,moveTime = 100,xFrom = 160,opacityFrom = 100,hide = 1});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +62)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+trans("crossfade", 1000);
+msgon()
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "失礼いたします……。", (0x04000000 +6855));
+set("lay1", {y = 0,x = -96});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 153,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +766)});
+talk("アンリエッタ", null, "まあ、ルイズ・フランソワーズ！\nよくぞご無事で。", (0x04000000 +646));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay8", {level = 152});
+set("lay18", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 159,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1121)});
+talk("将校", null, "陛下、その者達は？", (0x04000000 +4314));
+set("lay8", {show = 1,level = 152,dr = "1A",lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "わたくしの幼馴染と、そのよき友人達ですわ。", (0x04000000 +647));
+talk("将校", null, "……。", (0x04000000 +4315));
+set("lay18", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 153,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（分かってはいたけど、反応が微妙だな）", null);
+talk("ルイズ", null, "（仕方ないわ。\n　ここは大人しくしてましょう）", (0x04000000 +6856));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +135)});
+trans("crossfade", 1000);
+talk("アンリエッタ", null, "中座して失礼しました。\nでは、報告を続けてください。", (0x04000000 +648));
+talk("将校", null, "はっ！", (0x04000000 +4316));
+talk("将校", null, "それでは、現在まで集まっている状況について、\nご説明いたします。", (0x04000000 +4317));
+talk("将校", null, "本日起きた爆破事件及び、\n各所で起こっている戦闘は……、", (0x04000000 +4318));
+talk("将校", null, "例の爆弾使いとその仲間が引き起こしたものと\n考えられます。", (0x04000000 +4319));
+talk("将校", null, "ここに至って気づくのも遅いのですが、\n爆弾使いは、闇雲に爆破を行っているの\nではなかったようです。", (0x04000000 +4320));
+talk("アンリエッタ", null, "と、言いますと？", (0x04000000 +649));
+talk("将校", null, "捕らえた敵兵の証言によりますと、\nこれまで、各爆破現場では修繕のためにとして\n職人を各国から招き入れていたわけですが……、", (0x04000000 +4321));
+talk("将校", null, "どうやら、工作兵を職人に混ぜて送り込んでいた\nらしく、修復場所に、極秘に砲台を設置させて\nいた様なのです。", (0x04000000 +4322));
+talk("将校", null, "今、城の周囲は敵の砲台によって囲まれた、\n危機的な状況にあると言えるでしょう。", (0x04000000 +4323));
+talk("アンリエッタ", null, "どうやら爆弾使いの背後には巨大な組織が\n潜んでいるようですね。", (0x04000000 +650));
+talk("アンリエッタ", null, "捕まえた兵はどこに所属しているのか、\n聞くことはできましたか？", (0x04000000 +651));
+talk("将校", null, "いえ、まだそこまで証言を引き出しては\nいません。", (0x04000000 +4324));
+talk("アンリエッタ", null, "そうですか……。", (0x04000000 +652));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay8", {show = 0});
+set("lay18", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +946), true);

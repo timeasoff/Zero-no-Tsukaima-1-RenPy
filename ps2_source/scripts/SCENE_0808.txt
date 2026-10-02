@@ -1,0 +1,35 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +412)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +445)});
+talk("サイト", null, "シエスタ。\nここは君に任せた。", (0x04000000 +12132));
+set("lay5", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "ええ？\nいいんですか？", (0x04000000 +14879));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "ああ。\n君のテクニック……見せてもらおうっ！\nルイズを起こすこと……それが試練だっ！", (0x04000000 +12133));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +493)});
+talk("シエスタ", null, "が、頑張りますっ！", (0x04000000 +14880));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "おはようございます、ミス・ヴァリエール。\nそろそろ、お目覚めのお時間ですよ？", (0x04000000 +14881));
+set("lay2", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +330)});
+talk("ルイズ", null, "……ん、ふにゃあっ。\n……し、シエスタぁ。\nおふぁよぉ……。", (0x04000000 +6605));
+tndl(30);
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +414)});
+talk("サイト", null, "見事だ、シエスタ！\nよくぞ、低血圧で寝起きが悪いルイズを、\n起こすことができた！", (0x04000000 +12134));
+set("lay5", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +524)});
+talk("シエスタ", null, "えへへ、ありがとうございます。", (0x04000000 +14882));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+talk("ルイズ", null, "ちょっと、サイト？\n誉めるのはいいけど、顔を洗う水の用意は？", (0x04000000 +6606));
+set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +418)});
+talk("サイト", null, "し、しまったぁ！", (0x04000000 +12135));
+next((0x01000000 +810), true);

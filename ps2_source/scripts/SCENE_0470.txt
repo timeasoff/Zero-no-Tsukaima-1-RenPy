@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +328)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "と、とりあえず、少し待ってみたら……。", (0x04000000 +13225));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +493)});
+talk("シエスタ", null, "で、ですけど！", (0x04000000 +15129));
+talk("シエスタ", null, "その待ってる間になにかあったら……。", (0x04000000 +15130));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +330)});
+talk("ルイズ", null, "……。", (0x04000000 +7166));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "わ、わたし、もう一度探しに行きます！", (0x04000000 +15131));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +328)});
+talk("ルイズ", null, "わたしも探しに行くわ！", (0x04000000 +7167));
+tndl(30);
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +449)});
+talk("サイト", null, "わ、分かったって！\n俺も探しにいくから。", (0x04000000 +13226));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,x = 64});
+next((0x01000000 +471), true);

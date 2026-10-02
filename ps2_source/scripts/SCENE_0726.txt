@@ -1,0 +1,15 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +341)});
+set("bgm", {play = (0x03000000 +25)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +75)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +438)});
+talk("サイト", null, "くそぉ……。\nどうする？", (0x04000000 +11864));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "この場にとどまってるわけにもいかないし、\nどこか、まだ安全な場所はないのかしら。", (0x04000000 +6396));
+tndl(30);
+set("lay5", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "この状況じゃ、それも期待できない……か。", (0x04000000 +11865));
+next((0x01000000 +727), true);

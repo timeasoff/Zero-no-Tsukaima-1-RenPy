@@ -1,0 +1,29 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+}
+talk("サイト", null, "（……ゆ、誘惑に負けてはいけないよな）", null);
+talk("サイト", null, "（や、やせ我慢は男の美学なんだっ！）", null);
+talk("ルイズ", null, "……んっ……サイトぉ……。", (0x04000000 +5208));
+talk("サイト", null, "（……くっ、そ、そんな寝言で、\n　お、俺を誘惑するんじゃない！）", null);
+talk("サイト", null, "（お、俺は誘惑には\n　屈しないのであります！）", null);
+talk("ルイズ", null, "……バカ犬……スゥスゥ……。", (0x04000000 +5209));
+talk("サイト", null, "（と、いうことでおやすみなさい！）", null);
+talk("サイト", null, "（……へ、平常心！\n　平常心！）", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +185)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "……むにゃむにゃ……。", (0x04000000 +10497));
+talk("ルイズ", null, "……。", (0x04000000 +5210));
+talk("ルイズ", null, "……意気地なし……。", (0x04000000 +5211));
+next((0x01000000 +1772), true);

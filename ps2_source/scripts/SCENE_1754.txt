@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+talk("サイト", null, "べ、ベタベタするんじゃない！", (0x04000000 +10469));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +183)});
+waitLoad(true);
+talk("ルイズ", null, "……な、なによ。\nいきなり怒り出して。", (0x04000000 +5176));
+talk("サイト", null, "そ、そんなふうにされると……、\nいろいろ困るんだよ。\n男の子はっ！", (0x04000000 +10470));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+talk("ルイズ", null, "もうっ、いいじゃない。\n少しぐらい。\nうふふっ。", (0x04000000 +5177));
+next((0x01000000 +1756), true);

@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +808)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +10)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "いつか、自由に行けますよ。", (0x04000000 +10298));
+tndl(-30);
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "そうでしょうか……。", (0x04000000 +494));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "俺のいた世界は誰だって自由に旅ができます。\nこの世界だっていつかは……。", (0x04000000 +10299));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "そうですね。\n使い魔さん……ありがとう。", (0x04000000 +495));
+next((0x01000000 +1443), true);

@@ -1,0 +1,102 @@
+scenes: 1920
+scenes with title(): 29
+  scene 5: プロローグ
+  scene 6: ゼロのルイズ
+  scene 68: 黒髪の来訪者
+  scene 137: 女の戦い
+  scene 219: トリスタニアの危機
+  scene 269: 本当の想い
+  scene 344: 家出のお姫さま
+  scene 375: 失望のお姫さま
+  scene 405: 決意のお姫さま
+  scene 429: 魅惑のお姫さま
+  scene 431: 突然のスカウト
+  scene 467: ハルナの決意
+  scene 510: もう一人のハルナ
+  scene 549: 炎の予感
+  scene 578: 私のお兄ちゃん
+  scene 619: 魔法の薬
+  scene 660: 微熱の使い手
+  scene 670: 女王の決断
+  scene 696: 貴族の意地
+  scene 739: 小悪魔と春風の協奏曲
+  scene 769: 小悪魔のおしおき
+  scene 771: サイトのメイド
+  scene 806: 料理の鉄人
+  scene 849: 沈黙の応援
+  scene 894: 制服の魅力
+  scene 903: 手紙の秘密
+  scene 934: タバサの秘密
+  scene 972: ハルナの秘密
+  scene 999: 夜の秘密
+
+unreferenced scenes (no incoming edge): [0, 1, 2, 3, 25, 26, 27, 28, 50, 51, 52, 53, 54, 63, 64, 65, 66, 67, 101, 102, 103, 104, 105, 106, 121, 122, 123, 124, 125, 132, 133, 134, 135, 136, 158, 159, 160, 161, 162, 163, 179, 180, 181, 182, 183, 214, 215, 216, 217, 218, 226, 227, 228, 229, 230, 231, 252, 253, 254, 255, 256, 265, 266, 267, 268, 309, 315, 316, 317, 318, 319, 320, 336, 337, 338, 339, 340, 341, 356, 357]
+total incoming edges: 2471
+
+first 40 scenes by index with talk counts:
+     0 talks=0    out=[]                             title=
+     1 talks=0    out=[]                             title=
+     2 talks=0    out=[]                             title=
+     3 talks=1    out=[]                             title=
+     4 talks=0    out=[1861, 1862, 1865, 1915]       title=
+     5 talks=15   out=[6]                            title=プロローグ
+     6 talks=30   out=[7, 8, 9]                      title=ゼロのルイズ
+     7 talks=3    out=[10]                           title=
+     8 talks=1    out=[10]                           title=
+     9 talks=2    out=[10]                           title=
+    10 talks=25   out=[11]                           title=
+    11 talks=35   out=[12, 13, 14]                   title=
+    12 talks=2    out=[15]                           title=
+    13 talks=4    out=[15]                           title=
+    14 talks=3    out=[15]                           title=
+    15 talks=8    out=[16]                           title=
+    16 talks=26   out=[17, 18]                       title=
+    17 talks=13   out=[19]                           title=
+    18 talks=14   out=[19]                           title=
+    19 talks=4    out=[20]                           title=
+    20 talks=22   out=[21, 22, 23]                   title=
+    21 talks=5    out=[24]                           title=
+    22 talks=5    out=[24]                           title=
+    23 talks=4    out=[24]                           title=
+    24 talks=23   out=[]                             title=
+    25 talks=0    out=[1224]                         title=
+    26 talks=0    out=[1229]                         title=
+    27 talks=0    out=[1234]                         title=
+    28 talks=30   out=[29]                           title=
+    29 talks=25   out=[30, 31, 32]                   title=
+    30 talks=10   out=[33]                           title=
+    31 talks=18   out=[33]                           title=
+    32 talks=25   out=[33]                           title=
+    33 talks=6    out=[34]                           title=
+    34 talks=21   out=[35, 36, 37, 38]               title=
+    35 talks=8    out=[39]                           title=
+    36 talks=5    out=[39]                           title=
+    37 talks=10   out=[39]                           title=
+    38 talks=11   out=[39]                           title=
+    39 talks=33   out=[40]                           title=
+    40 talks=28   out=[41, 42]                       title=
+    41 talks=6    out=[43]                           title=
+    42 talks=8    out=[43]                           title=
+    43 talks=5    out=[44]                           title=
+    44 talks=37   out=[45, 46, 47]                   title=
+    45 talks=14   out=[48]                           title=
+    46 talks=26   out=[48]                           title=
+    47 talks=11   out=[48]                           title=
+    48 talks=4    out=[49]                           title=
+    49 talks=32   out=[]                             title=
+    50 talks=0    out=[1240]                         title=
+    51 talks=0    out=[1245]                         title=
+    52 talks=0    out=[1250]                         title=
+    53 talks=0    out=[1255]                         title=
+    54 talks=21   out=[55, 56]                       title=
+    55 talks=3    out=[57]                           title=
+    56 talks=4    out=[57]                           title=
+    57 talks=40   out=[58, 59]                       title=
+    58 talks=4    out=[60]                           title=
+    59 talks=13   out=[60]                           title=
+
+=== chain walk from 0 ===
+chain: [0]
+
+scenes with >=1 talk: 1771
+total talks: 17283

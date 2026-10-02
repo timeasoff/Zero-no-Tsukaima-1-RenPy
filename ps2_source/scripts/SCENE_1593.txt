@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+}
+talk("サイト", null, "お、俺は犬じゃないっ！", (0x04000000 +13840));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +166)});
+waitLoad(true);
+talk("ルイズ", null, "……だ、だから困ってるのよっ！", (0x04000000 +7651));
+talk("ルイズ", null, "まったく、ご主人様をほったらかして、\nよその子のところに行ってばかり。", (0x04000000 +7652));
+talk("サイト", null, "（ぎ、ぎくっ！）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +165)});
+waitLoad(true);
+talk("ルイズ", null, "ほ、ホントにだらしないんだからっ！", (0x04000000 +7653));
+talk("サイト", null, "……わ、わん！\nどうぞ犬と呼んでくださいワン！", (0x04000000 +13841));
+next((0x01000000 +1596), true);

@@ -1,0 +1,74 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +594)});
+set("bgm", {play = (0x03000000 +15)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +62)});
+}
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +596)});
+talk("タバサ", null, "……あの。", (0x04000000 +15745));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ん？\nどうしたんだ？", (0x04000000 +12799));
+talk("タバサ", null, "おまじない。", (0x04000000 +15746));
+talk("サイト", null, "おまじない？", (0x04000000 +12800));
+talk("タバサ", null, "うん。\nおまじないが欲しい。", (0x04000000 +15747));
+set("lay5", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +396),imageType = 2});
+talk("サイト", null, "えっと、俺にできることならするけど……？", (0x04000000 +12801));
+talk("タバサ", null, "あなたじゃなきゃダメ。", (0x04000000 +15748));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "そっか。\nじゃあ、どうすればいい？", (0x04000000 +12802));
+talk("タバサ", null, "目を閉じていて。", (0x04000000 +15749));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "えっ、そんなことでいいの？\nじゃあ、閉じるぞ……。", (0x04000000 +12803));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "本当にいいのか？", (0x04000000 +12804));
+talk("タバサ", null, "うん。", (0x04000000 +15750));
+talk("サイト", null, "（何をするつもりなんだろ？）", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +245)});
+trans("crossfade", 1000);
+msgon()
+talk("タバサ", null, "（……チュッ）", (0x04000000 +15751));
+talk("サイト", null, "えっ、ええーっ？\nい、今……なにしたの？", (0x04000000 +12805));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 2000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("lay5", {opacity = 100,y = 0,show = 1,level = 160,dr = "2A",x = 224,lv = 0,image = (0x02000000 +427)});
+set("lay0", {opacity = 100,y = 0,show = 1,level = 160,dr = "1A",x = -96,lv = 0,image = (0x02000000 +596)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +62)});
+set("event", {show = 0});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あ、あの……。\nあの、ものすごく柔らかな\n感触があったんだけど……。", (0x04000000 +12806));
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +431)});
+talk("サイト", null, "こっ、これはひょっとして……。\nキ、キキキ……。", (0x04000000 +12807));
+talk("タバサ", null, "……い、言わないで。\n恥ずかしいから。", (0x04000000 +15752));
+talk("サイト", null, "恥ずかしいって……。", (0x04000000 +12808));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +398)});
+talk("サイト", null, "もし良かったら、今のおまじない。\nもう一度……。", (0x04000000 +12809));
+talk("タバサ", null, "ダ、ダメ。", (0x04000000 +15753));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "そ、そっか……。\nハハハ……。", (0x04000000 +12810));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +993), true);

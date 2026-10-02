@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 157,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +557)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "やっぱりルイズかなぁ。\nって言っても、ルイズがご主人様だからだぞ。\n別に変な感情は持ってねぇ。", (0x04000000 +11232));
+set("lay4", {y = 0,show = 1,level = 155,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +555)});
+talk("ギーシュ", null, "なるほど。\n使い魔としてご主人様を立てたということか。", (0x04000000 +1494));
+tndl(30);
+set("lay4", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +557)});
+talk("ギーシュ", null, "まぁ、もっとも。\n平民のきみが貴族のルイズを\nどうこうできるとは思えないがね。", (0x04000000 +1495));
+set("lay5", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "へいへい。\n申し訳ございませんね。", (0x04000000 +11233));
+next((0x01000000 +146), true);

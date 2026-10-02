@@ -1,0 +1,15 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 157,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 156,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "お姫さまは遊びだろ？\nたまにはルイズと一緒にいたいんだよ。", (0x04000000 +12931));
+set("lay6", {y = 0,show = 1,level = 156,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "その冗談は笑えないわね。", (0x04000000 +3707));
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "さ、さいですか……。", (0x04000000 +12932));
+next((0x01000000 +587), true);

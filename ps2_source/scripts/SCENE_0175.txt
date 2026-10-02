@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +21)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "俺はおまえのことが心配で……。", (0x04000000 +11331));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +343)});
+talk("ルイズ", null, "わっ、わたしのことが心配ですって？\nそれは本当なの？", (0x04000000 +5959));
+like("ルイズ", 10);
+tndl(30);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "いや……、だって。", (0x04000000 +11332));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "いいっ！！\nそんな上辺だけの言葉なら、\n聞かないほうがまだマシなんだからっ！", (0x04000000 +5960));
+talk("サイト", null, "いや、だから、俺は本気で……。", (0x04000000 +11333));
+next((0x01000000 +177), true);

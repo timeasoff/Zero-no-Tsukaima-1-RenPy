@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +695)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +431)});
+talk("サイト", null, "木陰でアバンチュール！", (0x04000000 +8425));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +695)});
+talk("キュルケ", null, "あら、それはそれでいいかもね。", (0x04000000 +2770));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +398)});
+talk("サイト", null, "え、マジで？", (0x04000000 +8426));
+talk("サイト", null, "（どこまで本気の発言なんだろう……。\n　いや、単に俺、遊ばれてる？）", null);
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +689)});
+talk("キュルケ", null, "でも、せっかく湖に行くんだから、\nまずは泳がなくっちゃ！", (0x04000000 +2771));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（……まあ、そうだよな）", null);
+next((0x01000000 +1053), true);

@@ -1,0 +1,28 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "今日も、サイトのことお風呂で洗ってあげる。\n早く付いて来なさい。", (0x04000000 +5309));
+talk("サイト", null, "……へっ？\n……え、ええっ！？", (0x04000000 +10582));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "さぁ、洗ってあげるわよ。\n早く背中向けなさい！", (0x04000000 +5311));
+talk("サイト", null, "（ルイズと一緒にお風呂なんて……）", null);
+selectInit();
+selectItem("落ち着かない", (0x01000000 +1797), null, true);
+selectItem("不気味で怖い！", (0x01000000 +1798), null, true);
+selectItem("楽しみで踊っちゃうよ！", (0x01000000 +1799), null, true);
+select();

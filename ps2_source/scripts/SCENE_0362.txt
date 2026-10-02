@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +814)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +31)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "これからどうするかですよ。", (0x04000000 +13430));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "これから……ですか？", (0x04000000 +775));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "今の評判は分かったわけだし、\nそれを元に、これからどうしていくか、\n考えるヒントをもらったってことで。", (0x04000000 +13431));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "ああ……。\nそういう考え方でいいんですね。", (0x04000000 +776));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "ですよ。\n皆、結構、無責任なこと言うもんだから。\nネットとかもそうだし。", (0x04000000 +13432));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "ねっと？", (0x04000000 +777));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ、ひとりごとです、ひとりごと。", (0x04000000 +13433));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "そう、そうですか。\nでも、ありがとう。\n少し、気が楽になりました。", (0x04000000 +778));
+tndl(-30);
+next((0x01000000 +364), true);

@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +764)});
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1019)});
+set("bgm", {play = (0x03000000 +4)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+}
+talk("サイト", null, "（ま、いいか……。\n　深く考えたら負けだよな）", null);
+talk("サイト", null, "（そういえば、いくら催眠術だからって、\n　なんで春奈はいきなり一流のテロリストに\n　なれたんだろう？）", null);
+talk("サイト", null, "（もしかしてああ見えて、\n　春奈は銃とか兵器のマニアだったとか？）", null);
+set("lay21", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +1021)});
+talk("アキナ", null, "サイト、その顔は失礼なことを考えてる顔だね。", (0x04000000 +51));
+talk("サイト", null, "（……うっ、なんで分かったんだろう。\n　鋭すぎるぞ、アキナ）", null);
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +440)});
+next((0x01000000 +548), true);

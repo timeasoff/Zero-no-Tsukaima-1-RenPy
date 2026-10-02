@@ -1,0 +1,62 @@
+=== idx=5 n=6025 (n//2=3012, ceil=3013) ===
+  s=3010 sjis=0.773 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=3011 sjis=0.884 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=3012 sjis=1.000 set=47 talk=15  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=3013 sjis=0.882 set=0 talk=0  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=3014 sjis=0.771 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=7 n=782 (n//2=391, ceil=391) ===
+  s=389 sjis=0.899 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=390 sjis=0.944 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=391 sjis=1.000 set=5 talk=3  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=392 sjis=0.944 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=393 sjis=0.918 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=10 n=5203 (n//2=2601, ceil=2602) ===
+  s=2599 sjis=0.935 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=2600 sjis=0.965 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=2601 sjis=1.000 set=26 talk=25  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=2602 sjis=0.964 set=0 talk=0  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=2603 sjis=0.931 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=6 n=7238 (n//2=3619, ceil=3619) ===
+  s=3617 sjis=0.926 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=3618 sjis=0.959 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=3619 sjis=1.000 set=37 talk=30  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=3620 sjis=0.959 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=3621 sjis=0.928 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=32 n=3386 (n//2=1693, ceil=1693) ===
+  s=1691 sjis=0.912 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=1692 sjis=0.947 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=1693 sjis=1.000 set=11 talk=25  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=1694 sjis=0.952 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=1695 sjis=0.912 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=471 n=1093 (n//2=546, ceil=547) ===
+  s=544 sjis=0.835 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=545 sjis=0.903 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=546 sjis=1.000 set=8 talk=3  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=547 sjis=0.885 set=0 talk=0  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=548 sjis=0.796 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=1867 n=259 (n//2=129, ceil=130) ===
+  s=127 sjis=0.444 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=128 sjis=0.286 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=129 sjis=1.000 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=130 sjis=0.286 set=0 talk=0  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=131 sjis=0.444 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=1918 n=293 (n//2=146, ceil=147) ===
+  s=144 sjis=0.571 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=145 sjis=0.615 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=146 sjis=1.000 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=147 sjis=0.615 set=0 talk=0  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=148 sjis=0.462 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+
+=== idx=100 n=3540 (n//2=1770, ceil=1770) ===
+  s=1768 sjis=0.901 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=1769 sjis=0.949 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=1770 sjis=1.000 set=20 talk=12  O==T[0::2]+T[1::2]:True  O==T[1::2]+T[0::2]:False
+  s=1771 sjis=0.949 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False
+  s=1772 sjis=0.909 set=0 talk=0  O==T[0::2]+T[1::2]:False  O==T[1::2]+T[0::2]:False

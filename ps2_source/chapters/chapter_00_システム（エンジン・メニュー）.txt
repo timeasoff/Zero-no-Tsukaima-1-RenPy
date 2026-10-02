@@ -1,0 +1,107 @@
+========================================================================
+CHAPTER 00 : システム（エンジン・メニュー）
+core scenes : 0 .. 4  (5 scenes)
+extra scenes: 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1868, 1869, 1915, 1916, 1917, 1918, 1919, 1920  (15)
+========================================================================
+
+---- SCENE 0000 ----
+
+---- SCENE 0001 ----
+  [LAYER    param    ]
+
+---- SCENE 0002 ----
+  [LAYER    param    ]
+
+---- SCENE 0003 ----
+  [LAYER    name     ]
+  [LAYER    value    ]
+  [VIBRATE vibrate(n)]
+  [TRANS trans(name, time)]
+  [COFFEE]
+  【好感度】name  add
+  [TITLE title(name)]
+  [MOVIE movie(num)]
+
+---- SCENE 0004 ----
+  【選択肢】共通部 → scene 1861
+  【選択肢】個別部 → scene 1862
+  【選択肢】ツンデレ → scene 1865
+  【選択肢】ムービー → scene 1915
+
+---- SCENE 1861 ----
+  【選択肢】プロローグ → scene 5
+  【選択肢】１日目 → scene 6
+  【選択肢】２日目 → scene 68
+  【選択肢】次 → scene 1864
+
+---- SCENE 1862 ----
+  【選択肢】ルイズルート → scene 670  (zero_route=1)
+  【選択肢】ハルナルート → scene 431  (zero_route=6)
+  【選択肢】シエスタルート → scene 771  (zero_route=4)
+  【選択肢】次 → scene 1863
+
+---- SCENE 1863 ----
+  【選択肢】アンリエッタルート → scene 344  (zero_route=5)
+  【選択肢】タバサルート → scene 903  (zero_route=3)
+  【選択肢】キュルケルート → scene 549  (zero_route=2)
+
+---- SCENE 1864 ----
+  【選択肢】３日目 → scene 137
+  【選択肢】４日目 → scene 219
+  【選択肢】５日目 → scene 269
+  【選択肢】もどる → scene 4
+
+---- SCENE 1865 ----
+  【選択肢】しょきか → scene 1865  (tndlInit())
+  【選択肢】こべつ → scene 1866
+  【デート】ルイズ → scene 1865
+  【デート】シエスタ → scene 1865
+  【デート進行】 → scene 1865
+
+---- SCENE 1866 ----
+  【選択肢】ツン → scene 1867  (tdtest_td=0)
+  【選択肢】デレ → scene 1867  (tdtest_td=1)
+
+---- SCENE 1867 ----
+  【選択肢】２ → scene 1869  (tdtest_type=0)
+  【選択肢】３ → scene 1869  (tdtest_type=1)
+  【選択肢】４ → scene 1869  (tdtest_type=2)
+  【選択肢】つぎ → scene 1868
+
+---- SCENE 1868 ----
+  【選択肢】５ → scene 1869  (tdtest_type=3)
+  【選択肢】６ → scene 1869  (tdtest_type=4)
+  【選択肢】７ → scene 1869  (tdtest_type=5)
+  【選択肢】まえ → scene 1867
+
+---- SCENE 1869 ----
+
+---- SCENE 1915 ----
+  【選択肢】つぎ → scene 1916
+  [MOVIE movie(movieNo)]
+  → next scene 1915
+
+---- SCENE 1916 ----
+  【選択肢】つぎ → scene 1917
+  [MOVIE movie(movieNo)]
+  → next scene 1915
+
+---- SCENE 1917 ----
+  【選択肢】つぎ → scene 1918
+  [MOVIE movie(movieNo)]
+  → next scene 1915
+
+---- SCENE 1918 ----
+  【選択肢】つぎ → scene 1919
+  [MOVIE movie(movieNo)]
+  → next scene 1915
+
+---- SCENE 1919 ----
+  【選択肢】つぎ → scene 1920
+  [MOVIE movie(movieNo)]
+  → next scene 1915
+
+---- SCENE 1920 ----
+  【選択肢】もどる → scene 4
+  [MOVIE movie(movieNo)]
+  → next scene 1915

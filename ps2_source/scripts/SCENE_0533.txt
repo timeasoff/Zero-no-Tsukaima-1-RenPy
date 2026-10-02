@@ -1,0 +1,75 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +62)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("ルイズ", null, "今回の魔法のためには、\nとにかく城で一番見晴らしの良い場所が\n必要なの！", (0x04000000 +7284));
+talk("ルイズ", null, "それに、こないだもそうだったけど、\n虚無の魔法は詠唱に時間がかかるわ。", (0x04000000 +7285));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "両方とも、しっかり確保するのよ！\nいいわね。", (0x04000000 +7286));
+talk("サイト", null, "分かってる！\n任せとけ！", (0x04000000 +13355));
+talk("サイト", null, "（……しかし、城内まで戦場になってるとはな。\n　こいつはきついな）", null);
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +71)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "ここが屋上か。", (0x04000000 +13356));
+set("lay5", {y = 0,x = 224});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +944)});
+talk("デルフリンガー", null, "気をつけろ、相棒！", (0x04000000 +1371));
+set("se0", {play = (0x03000000 +63)});
+set("stage", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("event", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay21", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay5", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay20", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay19", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay1", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay7", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+vibrate(3);
+waitTime(1100, true);
+set("stage", {show = 1,reset = 1});
+set("event", {show = 0,reset = 1});
+set("lay21", {show = 0,reset = 1});
+set("lay5", {show = 1,reset = 1});
+set("lay20", {show = 0,reset = 1});
+set("lay19", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+waitTime(0, true);
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "……大丈夫！？\nサイト！", (0x04000000 +7287));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +438)});
+talk("サイト", null, "な、なんとか大丈夫！", (0x04000000 +13357));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "（……容赦なしかよ！）", null);
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("bgm", {stop = 1000});
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +139)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +18)});
+talk("アキナ", null, "……。", null);
+talk("ウェザリー", null, "あら。\n奇遇……ね。\nそれとも役者が揃ったというべきかしら？", (0x04000000 +16120));
+talk("ウェザリー", null, "ここで何をする気かしらないけど……。\nわたしに会ったのが不幸だったわね。", (0x04000000 +16121));
+selectInit();
+selectItem("春奈！", (0x01000000 +534), null, true);
+selectItem("アキナ！", (0x01000000 +535), null, true);
+selectItem("ウェザリー！", (0x01000000 +536), null, true);
+select();

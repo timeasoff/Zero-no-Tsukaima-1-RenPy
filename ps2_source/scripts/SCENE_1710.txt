@@ -1,0 +1,40 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……サ、サイトの馬鹿っ！\nイジワル！\n他の女の子がそんなにいいの！！", (0x04000000 +5335));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+set("event", {show = 0});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "ぐはぁぁぁっ！", (0x04000000 +10605));
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "い、いや、勘違いだと思うし、\n俺、そんなにフラフラしてないし。\nご主人様一直線ですよ？", (0x04000000 +10606));
+talk("ルイズ", null, "なら、他の女の子を見たりしない？", (0x04000000 +5336));
+talk("サイト", null, "え、ええと。", (0x04000000 +10607));
+selectInit();
+selectItem("も、もちろん！", (0x01000000 +1805), null, true);
+selectItem("前向きに善処します", (0x01000000 +1806), null, true);
+selectItem("む、無理じゃないかと？", (0x01000000 +1807), null, true);
+select();

@@ -1,0 +1,51 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +22)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +16)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +288)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +287)});
+waitLoad(true);
+talk("サイト", null, "これ、作りかけ？", (0x04000000 +8074));
+talk("タバサ", null, "失敗作。\nまだ、完璧じゃない。", (0x04000000 +15209));
+talk("サイト", null, "食べてもいいかな？", (0x04000000 +8075));
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "じゃ、食べるな。\nあーん。", (0x04000000 +8076));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +288)});
+waitLoad(true);
+talk("タバサ", null, "美味しい？", (0x04000000 +15210));
+talk("サイト", null, "うん、すごく美味しいよっ！\n本当にケーキ作り、習いたてなの？", (0x04000000 +8077));
+talk("タバサ", null, "うん。", (0x04000000 +15211));
+talk("サイト", null, "信じられないなぁ。", (0x04000000 +8078));
+talk("タバサ", null, "それはきっと……。\n先生が良かったから。", (0x04000000 +15212));
+talk("サイト", null, "先生？", (0x04000000 +8079));
+talk("タバサ", null, "シエスタ。", (0x04000000 +15213));
+talk("サイト", null, "そうだったんだ……。\nそれにしても、なんで俺が聞いたときは\n教えてくれなかったの？", (0x04000000 +8080));
+talk("タバサ", null, "だって……。", (0x04000000 +15214));
+talk("サイト", null, "だって？", (0x04000000 +8081));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +289)});
+waitLoad(true);
+talk("タバサ", null, "だって、あなたの喜ぶ顔が見たかったから。", (0x04000000 +15215));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay0", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（タバサが作ったこのケーキ……。\n　美味しいとの評判が、学院の厨房から\n　口コミで街に広がることとなり……）", null);
+talk("サイト", null, "（国中に一大ケーキブームを\n　引き起こすきっかけとなるのだが……。\n　それはまた別のお話）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+syssave();

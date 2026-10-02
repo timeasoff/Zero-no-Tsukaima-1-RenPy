@@ -1,0 +1,61 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +303)});
+set("bgm", {fadetime = 0,play = (0x03000000 +23)});
+msgon()
+talk("ルイズ", null, "舞台は明かりがついたままよ。\nそれに声が聞こえるわ。", (0x04000000 +6202));
+talk("ウェザリー", null, "……ああ、愛しい人よ。\n僕がどれほどきみを愛したことか。", (0x04000000 +15896));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "（芝居の練習をしてるのか？）", null);
+msgoff()
+set("lay20", {show = 0});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +131)});
+trans("crossfade", 1000);
+msgon()
+talk("ウェザリー", null, "……愛は誰もを盲目にし狂わせる。\nきみに愛を囁いた貴公子達は、きみの謎かけに\n答えようとしてみな破滅していった。", (0x04000000 +15897));
+talk("ウェザリー", null, "だが、僕はもうその愚を笑うことはすまい。\n……僕自身もきみのためにこの王国を賭け、\nそして滅ぼしたからだ！", (0x04000000 +15898));
+talk("ウェザリー", null, "……さあ、城が落ちる。\n去りたまえ。", (0x04000000 +15899));
+talk("ウェザリー", null, "あの寄せ手の兵どもは、きみを新しい女王\nとして歓喜の声で迎えるだろう！", (0x04000000 +15900));
+talk("ウェザリー", null, "……ああ愛しい人。\nだが、後悔はすまい。", (0x04000000 +15901));
+talk("ウェザリー", null, "きみへの愛にはそれだけの価値があった。\nただ、願わくば……ただ一度……。", (0x04000000 +15902));
+talk("ウェザリー", null, "あなたの口唇に愛の言葉を……。", (0x04000000 +15903));
+set("se0", {play = (0x03000000 +55)});
+waitSEStop(null, true);
+talk("サイト", null, "……うわっ、しまった。", (0x04000000 +11636));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +132)});
+waitLoad(true);
+talk("ウェザリー", null, "誰だ！\nって、きみ達は昼間の……。", (0x04000000 +15904));
+talk("ハルナ", null, "ご、ごめんなさい。\n覗くつもりは……。", (0x04000000 +2353));
+msgoff()
+set("lay20", {show = 0});
+set("lay5", {show = 0});
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1065)});
+msgon()
+talk("ウェザリー", null, "覗くつもりはないようだが、\n忍び込んできたことについては\nどう謝罪するつもりなんだ？", (0x04000000 +15905));
+set("lay20", {y = 0,x = -96});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +966)});
+talk("ハルナ", null, "あの、ルイズさん達が悪いのではありません。\n私が無理やりお願いしたんです。\nウェザリーさんに用があったので……。", (0x04000000 +2354));
+talk("ウェザリー", null, "なるほど、盗賊の真似事をするほどの\n緊急の用事があるとは思えませんが、\nこんな夜更けに何の御用で？", (0x04000000 +15906));
+selectInit();
+selectItem("もう一度相談に来た", (0x01000000 +296), null, true);
+selectItem("わ、忘れ物を捜しに来た", (0x01000000 +297), null, true);
+selectItem("も、黙秘する", (0x01000000 +298), null, true);
+select();

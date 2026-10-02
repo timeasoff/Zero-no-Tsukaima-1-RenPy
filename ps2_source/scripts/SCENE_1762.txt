@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+talk("サイト", null, "や、やめないで！", (0x04000000 +10487));
+talk("ルイズ", null, "ふぅん？\nこーゆーのがいいのね？\nはむはむ。", (0x04000000 +5194));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +184)});
+waitLoad(true);
+vibrate(1);
+talk("サイト", null, "……ルイズっ……そ、そんな！", (0x04000000 +10488));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+talk("ルイズ", null, "ご主人様のことを見てくれない\n悪い子にはおしおきなんだから……。", (0x04000000 +5195));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +184)});
+waitLoad(true);
+talk("サイト", null, "はうう……。\nご、ご主人様～～っ！", (0x04000000 +10489));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+next((0x01000000 +1764), true);

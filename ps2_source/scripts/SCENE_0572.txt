@@ -1,0 +1,41 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +20)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "……。", (0x04000000 +12889));
+talk("サイト", null, "でも、キュルケ。\nどうしてそんなに今回の事件に真剣なんだ？", (0x04000000 +12890));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "真剣？", (0x04000000 +3666));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "なんつーか、その……。\nいつものキュルケらしくないというか。", (0x04000000 +12891));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "あたしね、あの爆弾使いが嫌いなの……。", (0x04000000 +3667));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "へっ？", (0x04000000 +12892));
+set("lay6", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +680)});
+talk("キュルケ", null, "火というものを、単純な破壊の道具としか\n認識していない。\nそんな爆弾使い達のやり方が嫌いなの。", (0x04000000 +3668));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "『火』の属性の魔法使いとして……。\n微熱のキュルケの名に賭けて……。", (0x04000000 +3669));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "『本当の火の使い方』というものを\n教えてあげないとね。", (0x04000000 +3670));
+talk("サイト", null, "（……『本当の火の使い方』？）", null);
+set("lay5", {dr = "1B",show = 1,level = 160,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "なあ、キュルケ。\n『本当の火の使い方』ってどんなものなんだ？", (0x04000000 +12893));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "うーん。\n簡単には言い表せないわね。\nこの事件が終わったら、たっぷり教えてあげる。", (0x04000000 +3671));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "さぁ、ダーリン行くわよ。", (0x04000000 +3672));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "へいへい。", (0x04000000 +12894));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +573), true);

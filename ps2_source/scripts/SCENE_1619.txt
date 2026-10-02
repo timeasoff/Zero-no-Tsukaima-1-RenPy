@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +168)});
+}
+talk("サイト", null, "い、嫌な予感がする……。", (0x04000000 +13915));
+talk("ルイズ", null, "うふっ……うふふふふ……。", (0x04000000 +7730));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "いっ、いやだぁぁぁぁっ！\n助けてくれぇぇぇっっ！", (0x04000000 +13916));
+talk("ルイズ", null, "な、なによその態度！", (0x04000000 +7731));
+talk("サイト", null, "い、命だけはご勘弁を！", (0x04000000 +13917));
+next((0x01000000 +1620), true);

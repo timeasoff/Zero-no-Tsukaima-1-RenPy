@@ -1,0 +1,31 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +111)});
+}
+talk("サイト", null, "やめろよ、キュルケ。", (0x04000000 +11086));
+talk("キュルケ", null, "あら、あたしが決闘を申し込んだわけじゃ\nないわよ、ダーリン？", (0x04000000 +3155));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +112)});
+waitLoad(true);
+talk("キュルケ", null, "決闘を申し込んできてるのは、\nあなたのご主人様のほうなんだから。", (0x04000000 +3156));
+talk("サイト", null, "頼むから、ルイズを煽るような真似は\nやめてくれないかな。", (0x04000000 +11087));
+talk("サイト", null, "それに、今日は機嫌悪いみたいなんだ。", (0x04000000 +11088));
+talk("キュルケ", null, "機嫌？", (0x04000000 +3157));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +110)});
+waitLoad(true);
+talk("キュルケ", null, "別にルイズの機嫌なんてどうでもいいけど。\nダーリンに迷惑をかけるのは本意じゃないわね。", (0x04000000 +3158));
+like("キュルケ", 10);
+tndl(-30);
+talk("サイト", null, "そりゃどうも。", (0x04000000 +11089));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +111)});
+waitLoad(true);
+talk("ルイズ", null, "人の使い魔に余計なこと吹き込まないでよ。\nそれに、なに？\nさんざん偉そうなこと言って、逃げるつもり？", (0x04000000 +5786));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +113)});
+waitLoad(true);
+talk("キュルケ", null, "誰が逃げるって言うのよ。", (0x04000000 +3159));
+talk("サイト", null, "（ああっ、ますますヒートアップしてるー！）", null);
+next((0x01000000 +94), true);

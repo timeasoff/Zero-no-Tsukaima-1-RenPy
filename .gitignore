@@ -46,3 +46,5 @@
 /game/**/*.clip
 
 /game/combined_rpy.md
+/agent_prompt.md
+/wav_source

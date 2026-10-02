@@ -1,0 +1,97 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +8)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "おーいキュルケ、いるかー？", (0x04000000 +8263));
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {y = 0,x = 224});
+talk("キュルケ", null, "あら、ダーリンじゃない。\nなあに？\nデートのお誘い？", (0x04000000 +2730));
+like("キュルケ", 20);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "あー、違うけど、そんな感じ。\n街にでも一緒にどうかなぁって。", (0x04000000 +8264));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +717)});
+talk("キュルケ", null, "もう、煮え切らないダーリンも素敵。\n分かったわ！\n今すぐでかけましょう！", (0x04000000 +2731));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あ、ちょっと！\nそんなに引っぱらないで……。", (0x04000000 +8265));
+msgoff()
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+msgon()
+talk("キュルケ", null, "それじゃあどこに行こうかしら？", (0x04000000 +2732));
+talk("サイト", null, "どこって言われても……。\n考えたら俺、まだ街の店とか\nよく分かんないんだよな。", (0x04000000 +8266));
+talk("キュルケ", null, "あら、そうなの？", (0x04000000 +2733));
+talk("サイト", null, "うん。\n街に出るのって、休日にルイズの買い出しに\n付き合わされるときくらいかな？", (0x04000000 +8267));
+talk("キュルケ", null, "あらら、それは可哀相な話ねえ。\nじゃ、今日はあたしが案内してあげよっかな。", (0x04000000 +2734));
+talk("男Ａ", "村人", "おっ、そこのお姉さん、きれいだね。\nどう、俺とそこの茶房で……。", (0x04000000 +4281));
+talk("キュルケ", null, "残念。\n今日は連れがいるのよ。\nまた今度ね。", (0x04000000 +2735));
+talk("男Ａ", "村人", "え……あ、ちょっと……。", (0x04000000 +4282));
+talk("キュルケ", null, "行きましょ。", (0x04000000 +2736));
+talk("サイト", null, "あ、ああ。", (0x04000000 +8268));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 274,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("キュルケ", null, "ほら、この辺の露店は、\n結構いいアクセサリーを扱ってるのよ。", (0x04000000 +2737));
+talk("サイト", null, "へえ。", (0x04000000 +8269));
+talk("サイト", null, "（さすがにその分、高そうだな……。\n　俺の手持ちじゃ手が出ないよ）", null);
+talk("男Ｂ", "村人", "おお、そこのお嬢さん。\n私の指輪が、あなたと共にいたいと\n囁いておりますよ。", (0x04000000 +4289));
+talk("キュルケ", null, "あら、それは光栄ね。\n次に巡り会えたとき、ご一緒できたらいいわね。", (0x04000000 +2738));
+talk("男Ｂ", "村人", "おお、なんとつれない……。", (0x04000000 +4290));
+talk("キュルケ", null, "行きましょ。", (0x04000000 +2739));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あ、ああ。", (0x04000000 +8270));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("キュルケ", null, "あっちは酒場、この辺の店は昼の間は\n普通の飲み物を出すの。\n結構いい感じのところもあるわ。", (0x04000000 +2740));
+talk("サイト", null, "へえ。\n喫茶店みたいなもんか。", (0x04000000 +8271));
+talk("男Ｃ", "村人", "よ、べっぴんさんだねい。\nどうだい、俺とあそこで一杯やるってなあ。\nお姉ちゃん、おごるぜ。", (0x04000000 +4296));
+talk("キュルケ", null, "あら、ありがとう。\nでも、日の高いうちはお酒は控えてるの。\nじゃあね。", (0x04000000 +2741));
+talk("男Ｃ", "村人", "お、おい……。", (0x04000000 +4297));
+talk("キュルケ", null, "行きましょ。", (0x04000000 +2742));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あ、ああ。", (0x04000000 +8272));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +58)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "改めて言うのもなんだけど、\nキュルケってもてるよな。", (0x04000000 +8273));
+talk("キュルケ", null, "ふふ、褒め言葉ととっておくわね。", (0x04000000 +2743));
+talk("サイト", null, "ちょっと聞きたいんだけど……。", (0x04000000 +8274));
+selectInit();
+selectItem("どんな男性が好みなんだ？", (0x01000000 +1025), null, true);
+selectItem("本気で人を好きになったことは？", (0x01000000 +1026), null, true);
+selectItem("俺のこと、どう思ってる？", (0x01000000 +1027), null, true);
+select();

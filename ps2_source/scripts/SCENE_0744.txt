@@ -1,0 +1,21 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +74)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+msgon()
+talk("ルイズ", null, "あーもう、なんでこの道は暗くて狭いのよ！\nおまけにカビくさいし！！", (0x04000000 +6458));
+talk("サイト", null, "しょうがないだろ、下水道なんだからさ。\nぎゃーぎゃー言うヒマがあったら、\n先に進もうぜ。", (0x04000000 +11928));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "もう、この恨みは、何倍にもして\nウェザリーとアキナにぶつけてあげるんだから！", (0x04000000 +6459));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "それなんだけどさ。\n俺達、あの２人を倒しちゃって本当に\nいいのかな？", (0x04000000 +11929));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "はぁ？\nなに寝言言ってるのよ。\nあいつらは侵略者なのよ！？", (0x04000000 +6460));
+selectInit();
+selectItem("ウェザリーはそうかもしれないけど", (0x01000000 +745), null, true);
+selectItem("彼女達にだって事情があるかも？", (0x01000000 +746), null, true);
+selectItem("春奈は元に戻らないのかな？", (0x01000000 +747), null, true);
+select();

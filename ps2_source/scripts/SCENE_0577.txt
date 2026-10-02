@@ -1,0 +1,34 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +49)});
+}
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "身元の不確かな旅回りの一座……。\nしかも、重要な劇で主役すら事欠いている。", (0x04000000 +3686));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "主役がいないのは、それに合う人が\nいなかったってウェザリーさんが言ってたろ？", (0x04000000 +12907));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "そうね。\nそれで、あたし達が舞台に立った。\nでも、それがカモフラージュとしたら？", (0x04000000 +3687));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "ま、まさか？\nだって、俺達が来るのを予見するのなんて、\n不可能だろ？", (0x04000000 +12908));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "確かにそう。\n憶測の域を出ていないわ。", (0x04000000 +3688));
+talk("キュルケ", null, "でも、他にも調べてみたら胡散臭い話が\nぼろぼろと出てきたの。", (0x04000000 +3689));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "どれほどのネズミかは分からないけど、\n少なくとも、ウェザリーが怪しい\n動きをしているのは確かよ……。", (0x04000000 +3690));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "しかし、良く気がついたな。\n俺達はぜんぜん分からなかったぞ。", (0x04000000 +12909));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "この街にはね……。\n火の気配がするの。", (0x04000000 +3691));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("キュルケ", (0x01000000 +1184));
+date((0x01000000 +578),false,(0x03000000 +4));

@@ -1,9 +1,10 @@
 # Как из PS2-бинарников были извлечены диалоги — методология
 
 **Исходный образ:** `D:\gameMake\ZnT-1\ZNT_TEST\PS2_GAME\`
-**Рабочая папка:** `D:\gameMake\ZnT-1\ZNT_TEST\`
-**Результат:** `D:\gameMake\ZnT-1\ZNT_TEST\output\` → 17 282 реплики, 32 главы, 1920 сцен
-**Куда это уходит:** инструкции `TRANSLATION_AGENT.md` и `STRUCTURE_AGENT.md` (лежат рядом)
+**Рабочая папка (исследование/скрипты):** `D:\gameMake\ZnT-1\ZNT_TEST\`
+**Результат:** `D:\gameMake\ZnT-1\ZnT1\ps2_source\` → 17 282 реплики, 32 главы, 1920 сцен
+(перенесён из `ZNT_TEST\output` в корень проекта; `_diagnostics` — там же)
+**Куда это уходит:** `AGENTS.md` и скиллы `.agents/skills/` этого проекта
 
 > Игра — *ゼロのルイズ / Zero no Tsukaima: KOAKUMA to HARUKAZE no Concerto*,
 > PS2, **SLPS_257.09**. Текст — **Shift-JIS (CP932)**, скрипты — **Squirrel**
@@ -254,6 +255,10 @@ python verify_final.py         # ожидается: verify ok=True
 
 Все скрипты — обычный Python 3 без внешних зависимостей (`os`, `re`, `struct`, `json`).
 
+> **Важно:** скрипты пишут в `ZNT_TEST\output`, а рабочая копия результата сейчас лежит в
+> `ZnT1\ps2_source\`. После повторной регенерации новый `ZNT_TEST\output` нужно перенести
+> в `ZnT1\ps2_source` (заменой), чтобы не было двух разных версий источника.
+
 ---
 
 ## 8. Что лежит в `ZNT_TEST` — инвентаризация
@@ -311,8 +316,11 @@ python verify_final.py         # ожидается: verify ok=True
 `stage` → 117 id в 1..1173, `event` → 197 id в 1..1176, `layN` → 322 id в **302..1125**,
 пересечений «спрайты ↔ фоны/CG» = **0**. Но id **не совпадает** с номером записи в распакованных
 PNG (в `SCENEDAT.BIN` нет записей 5..15, хотя фоновые id их содержат; в `NORMAL.BIN` нет 1..6,
-хотя фоновые id их содержат) — значит где-то есть транслирующая таблица. Это **открытая задача №1**,
-она описана в `STRUCTURE_AGENT.md` §4.1.
+хотя фоновые id их содержат) — значит где-то есть транслирующая таблица. Решено:
+`references/image_id_map.csv` генерируется из источника
+(`python tools/build_image_id_map.py`), имя заполняет человек, а заглушки `id(K)`
+в скриптах меняет `python tools/replace_bg_placeholders.py --apply`
+(см. AGENTS.md §6).
 
 ---
 
@@ -351,8 +359,10 @@ PNG (в `SCENEDAT.BIN` нет записей 5..15, хотя фоновые id �
 
 | файл | что описывает |
 |---|---|
-| `TRANSLATION_AGENT.md` | грамматика `output/*`, таблица глав, соответствие PS2 → Ren'Py, workflow голосов и переводов |
-| `STRUCTURE_AGENT.md` | состояние проекта `ZnT1`, целевая раскладка, открытые проблемы, требования к скиллам |
+| `AGENTS.md` | общие указания для агента: языки, правила, скиллы, структура |
+| `.agents/skills/ps2-source` | грамматика `ps2_source/*`, таблица глав, порядок обхода |
+| `.agents/skills/renpy-remaster-api` | соответствие PS2 → Ren'Py |
+| `.agents/skills/voice-workflow`, `tl-en-ru` | workflow голосов и переводов |
 | `EXTRACTION_METHOD.md` | **этот файл** — как данные были получены |
-| `output/README.txt` | форматы выходных файлов (по-японски / по-английски) |
-| `ZNT_TEST/output/_diagnostics/*` | все отчёты, упомянутые выше |
+| `ps2_source/README.txt` | форматы выходных файлов (по-японски / по-английски) |
+| `ps2_source/_diagnostics/*` | все отчёты, упомянутые выше |

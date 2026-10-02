@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +588)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +78)});
+}
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +588)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "なあ、タバサ。\nなんでここにいるんだ？", (0x04000000 +10915));
+talk("タバサ", null, "……モンモランシーに聞いて、\nキュルケに連れて来られた。", (0x04000000 +15545));
+like("タバサ", 15);
+tndl(-30);
+talk("サイト", null, "明快な返答をありがとう。", (0x04000000 +10916));
+talk("タバサ", null, "……でも、興味はある。", (0x04000000 +15546));
+talk("サイト", null, "え、そうなの？", (0x04000000 +10917));
+set("lay0", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 274,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = -46,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1});
+next((0x01000000 +39), true);

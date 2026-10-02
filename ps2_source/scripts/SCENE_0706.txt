@@ -1,0 +1,172 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+msgon()
+talk("サイト", null, "（アキナは結局、学院長室に\n　立てこもってしまった）", null);
+talk("サイト", null, "（状況を察した学院長は、\n　アキナと交渉を行うことを提案した）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)});
+trans("crossfade", 1000);
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +918)});
+msgon()
+talk("オスマン", null, "やはり賊は、学院長室に立てこもったか。\n迂闊に突入もできんしのう。\nまずはわしが説得に当たってみよう。", (0x04000000 +4437));
+set("lay10", {y = 0,x = -96});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +933)});
+talk("コルベール", null, "そんな、危険です！\nオールド・オスマンの身にもしものこと\nがあったら……。", (0x04000000 +1069));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +920)});
+talk("オスマン", null, "その言葉は嬉しいんじゃがの。\n学院長はこのわしじゃ。\n説得はわしにまかせてもらうぞ。", (0x04000000 +4438));
+talk("コルベール", null, "でも、オールド・オスマンが人質に\n取られでもしたら！", (0x04000000 +1070));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +918)});
+talk("オスマン", null, "その場合は、教師全員で攻撃でも、\nなんでもすればよい、じゃろ？", (0x04000000 +4439));
+talk("オスマン", null, "多勢に無勢じゃ。\nいくら爆弾をかかえていようが、\nかなうはずはあるまいて。", (0x04000000 +4440));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +935)});
+talk("コルベール", null, "……。", (0x04000000 +1071));
+talk("オスマン", null, "代替意見がない以上、決まりじゃな。", (0x04000000 +4441));
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay10", {y = 0,x = 64});
+talk("オスマン", null, "おほん。\nアキナとやら、少々話がしたいのじゃが\n中に入ってもかまわぬかな？", (0x04000000 +4442));
+talk("アキナ", null, "いいだろう。\nでも、妙なマネをしたら、すぐにドカン！だよ。", (0x04000000 +84));
+talk("オスマン", null, "こちらはそもそも何もできぬわい。\n開錠は、こちらで勝手にさせてもらうぞ？", (0x04000000 +4443));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +920)});
+talk("オスマン", null, "では行ってくる。\n後のことは頼んだぞ。", (0x04000000 +4444));
+set("lay10", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +933)});
+talk("コルベール", null, "オールド・オスマンっ……！", (0x04000000 +1072));
+msgoff()
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay21", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（一方俺達は、学院長の計らいで、\n　教室に集まっていた）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+trans("crossfade", 1000);
+msgon()
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "いったい何を話してるのかしら。\n気になるわね。", (0x04000000 +3303));
+set("lay6", {y = 0,x = -96});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "まかせて。", (0x04000000 +15590));
+talk("タバサ", null, "魔法を使った。\nこれで中の会話が聞こえる。", (0x04000000 +15591));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "あぁタバサ、やっぱりあなたは頼りになるわ！\nどれどれ……？", (0x04000000 +3304));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+talk("オスマン", null, "今の状況は分かっているはずじゃ、アキナくん。", (0x04000000 +4445));
+msgoff()
+set("lay10", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +29)});
+trans("crossfade", 1000);
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1017)});
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +918)});
+msgon()
+talk("オスマン", null, "そちらがプロならよく理解できるじゃろ。\nこちらには教師もおるし、シュヴァリエの称号を\n持つ生徒もおるのじゃ。", (0x04000000 +4446));
+talk("オスマン", null, "それらが総がかりできみの敵に回ることを\n考えてみたまえ。いかにきみでも無事で\nすむことは……ありえんよ？", (0x04000000 +4447));
+talk("アキナ", null, "さあ、それはどうだろうねぇ。", (0x04000000 +85));
+talk("オスマン", null, "ここは投降して、その能力をトリステインの\nために使うという選択肢もあるはずじゃ。", (0x04000000 +4448));
+talk("オスマン", null, "もし投降するというなら、わしからも\n女王陛下に口添えをしよう。\n悪いようにはせん。", (0x04000000 +4449));
+talk("アキナ", null, "そうだね、それもひとつの道かもしれない。\n少なくともハルナなら素直にそっちの\n言うことを聞くだろうさ。", (0x04000000 +86));
+set("lay21", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +1019)});
+talk("アキナ", null, "でも、ね。あたしはもう役目を果たしたんだ。\nうすうす感じてるんだろ？\nあたし１人でここに来たわけじゃないって。", (0x04000000 +87));
+set("lay10", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +924)});
+talk("オスマン", null, "……。", null);
+msgoff()
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay10", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+msgon()
+talk("ルイズ", null, "な、なにっ！？", (0x04000000 +6355));
+talk("サイト", null, "この音……これは。", (0x04000000 +11812));
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 147,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +944)});
+set("lay5", {level = 156});
+set("lay1", {level = 155});
+talk("デルフリンガー", null, "相棒。\nすべてが遅すぎたのかもしれねぇ。", (0x04000000 +1314));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +856)});
+talk("モンモランシー", null, "大変よ、みんな！\n窓の外を見て！！", (0x04000000 +4097));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +136)});
+waitTime(500, true);
+set("lay3", {y = 0,show = 0,x = 64});
+set("lay20", {y = 416,x = 304});
+set("lay0", {y = 0,show = 0,x = 224});
+set("lay21", {y = 0,show = 0,x = -96});
+set("lay19", {y = 0,show = 0,x = 64});
+set("lay6", {y = 0,show = 0,x = -96});
+set("lay10", {y = 0,show = 0,x = 224});
+set("lay5", {y = 0,show = 0,x = 224});
+set("lay9", {y = 0,show = 0,x = 64});
+set("lay1", {y = 0,show = 0,x = -96});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("タバサ", null, "……。", null);
+talk("キュルケ", null, "あの船腹の紋章は……レコン・キスタ？\nどうしてレコン・キスタの軍艦が……。", (0x04000000 +3305));
+talk("アキナ", null, "どうやら来たみたいだね、本隊が。\nこれで形成逆転ってわけだ。", (0x04000000 +88));
+talk("オスマン", null, "うぬぬ……。", (0x04000000 +4450));
+msgoff()
+set("lay0", {show = 0});
+set("lay21", {show = 0});
+set("lay6", {show = 0});
+set("lay10", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +29)});
+trans("crossfade", 1000);
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 152,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+msgon()
+talk("ウェザリー", "？？？", "アキナ、お役目ご苦労様。\nずいぶん陽動も上手になったみたいね。", (0x04000000 +15999));
+msgoff()
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 156,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+msgon()
+talk("サイト", null, "この声は……。\nウェザリーさん？", (0x04000000 +11813));
+talk("ルイズ", null, "まさか……。", (0x04000000 +6356));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 153,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "……。", (0x04000000 +3306));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +707), true);

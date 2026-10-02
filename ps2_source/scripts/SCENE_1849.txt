@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+}
+talk("サイト", null, "……ルイズぅ……。", (0x04000000 +10748));
+talk("ルイズ", null, "……サイトぉ？", (0x04000000 +5509));
+vibrate(1);
+talk(null, null, "────ポッキン。", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……って。\nき、きゃあっ！\nえ、ええと。ご、ごめんなさいっ！", (0x04000000 +5510));
+msgoff()
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("se0", {play = (0x03000000 +58)});
+waitSEStop(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "……ルイズ？\nあ、あれ？\n一体どうしたんだろう……。", (0x04000000 +10749));
+next((0x01000000 +1852), true);

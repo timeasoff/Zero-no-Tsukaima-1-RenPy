@@ -1,0 +1,16 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "ね、ねえ、サイト。\nちょっとこっちに来て。", (0x04000000 +5071));
+talk("サイト", null, "は？\nなんだよ、一体。", (0x04000000 +10374));
+talk("ルイズ", null, "いいから来なさいっ！\nご主人様の命令なんだから！", (0x04000000 +5072));
+talk("サイト", null, "お、おい。\n引っ張るなよ。", (0x04000000 +10375));
+selectInit();
+selectItem("分かったよ、仕方ないな", (0x01000000 +1725), null, true);
+selectItem("お供します、ご主人様", (0x01000000 +1726), null, true);
+selectItem("断固断る", (0x01000000 +1727), null, true);
+select();

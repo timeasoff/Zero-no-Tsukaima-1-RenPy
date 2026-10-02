@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+}
+talk("サイト", null, "気にしてる…かも？", (0x04000000 +10702));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "な、なによそれ！\n無責任よ！\nサイトの気持ちでしょ！", (0x04000000 +5437));
+talk("サイト", null, "じ、自分の気持ちだからこそ分からないこと\nだってあるんだよ！\nそっちこそどうなんだよ！", (0x04000000 +10703));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("ルイズ", null, "それは、その……。\nな、なによ！", (0x04000000 +5438));
+next((0x01000000 +1832), true);

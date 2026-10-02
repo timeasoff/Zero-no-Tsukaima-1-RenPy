@@ -1,0 +1,505 @@
+========================================================================
+CHAPTER 21 : 小悪魔のおしおき
+core scenes : 769 .. 770  (2 scenes)
+========================================================================
+
+---- SCENE 0769 ----
+  [TITLE title("小悪魔のおしおき")]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1136, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+80, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+7]
+  [SPRITE   lay2     image=+535, level=160, dir=2B]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：いやぁ、完璧！
+グッドでグゥレイトでパーフェクツだよ
+シエスタ！！  [voice 7953]
+シエスタ：そ、そうですか……。
+でもこれ、なんだか変わった衣装ですね……。  [voice 14145]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：何を言うかっ！
+これこそ俺がいた世界では
+最もポピュラーだった制服だぞ！  [voice 7954]
+  [SPRITE   lay5     image=+398, level=160, dir=1A]
+サイト：その名も『ブレザー』！！  [voice 7955]
+  [SPRITE   lay2     image=+539, level=160, dir=2B]
+シエスタ：ぶ、ぶれぃざぁ、ですか……。
+あ、あはは……。  [voice 14146]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：いやぁ、この短いチェックのスカートに
+きっちりした紺色の上着、極めつけが、
+この紺色のソックスっ！！  [voice 7956]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：はぁぁ、その姿を見てると元の世界に
+いた頃のことを思い出すよ……。  [voice 7957]
+シエスタ：はぁ……。  [voice 14147]
+サイト：でもシエスタ、その格好よく似合ってるよ。  [voice 7958]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：いつものメイド服と似ていながらも、
+スカートの短さがより可愛らしさを
+強調してるというか。  [voice 7959]
+  [SPRITE   lay2     image=+541, level=160, dir=2B]
+シエスタ：ほ、ほんとですかっ？
+サイトさん……嬉しいです。
+ぽっ。  [voice 14148]
+  [SPRITE   lay5     image=+398, level=160, dir=1A]
+サイト：（うわ、ブレザー姿で頬を赤らめてるって……。
+　それって、萌えすぎます）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+307, level=140, dir=1A]
+ルイズ：サ～イ～ト～！  [voice 4516]
+  [BGM      bgm      play=+30]
+サイト：はぅあー、ご主人様！  [voice 7960]
+ルイズ：わたしがちょおっと目を離したスキに、
+メイドに妙な格好させてニヤついてるとは、
+いい度胸ねぇサイト……。  [voice 4517]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay2     image=+533, level=160, dir=2B]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+シエスタ：サ、サイトさん！
+わたしちょっとお仕事があるんで
+失礼しますねっ！  [voice 14149]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：あぁっ、シエスタ！
+ブレザー姿のまま、どこに！！  [voice 7961]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+213, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：逃がさないわよサイト！  [voice 4518]
+サイト：ゆ、許してください……。  [voice 7962]
+ルイズ：許さないっ！  [voice 4519]
+サイト：そ、そんな……。  [voice 7963]
+ルイズ：まったくあんたって使い魔は、
+どうしてメイドやらツェルプストーの娘やらに
+やたらと色目を使うかしらねぇ……。  [voice 4520]
+ルイズ：犬だって３日飼えばご主人様への忠誠を身に
+つけるというのに、あんたって全くもって
+犬以下ね。  [voice 4521]
+ルイズ：どうやら、今回は徹底的にしつけを
+しなくちゃいけないようね。  [voice 4522]
+サイト：ひ、ひぃっ！？
+ご主人様怖いですよ。
+せっかくの美貌が台無しですよ。  [voice 7964]
+ルイズ：おだまり！
+もとはといえば、全部サイトが悪いのよ。  [voice 4523]
+ルイズ：こうなったら徹底的にお仕置きしてやるわ！
+自分の立場をきっちり思い出させてあげる。  [voice 4524]
+サイト：ひ、ひぃえぇぇぇぇ。  [voice 7965]
+ルイズ：そ、そうね。
+お、お風呂でご主人様の背中を
+流すってどうかしら？  [voice 4525]
+サイト：へっ？  [voice 7966]
+ルイズ：ど、どう？
+屈辱でしょ？
+お仕置きでしょ？  [voice 4526]
+サイト：い、いや、少しうれしいかも。  [voice 7967]
+ルイズ：な、な、なんですって！
+お、お仕置きっていいなさい。
+怖がりなさい！  [voice 4527]
+サイト：は、はい、お仕置きです。
+ぶるぶるぶる。  [voice 7968]
+ルイズ：わ、分かったのなら、一緒にお風呂に行くわよ。
+わたしは準備するから、そこで待ってなさい。  [voice 4528]
+サイト：は、はい。  [voice 7969]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+12, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（しかし……。
+　ルイズと一緒にお風呂で……。
+　その上、ルイズ背中を流すって……）
+  [SPRITE   lay5     image=+398, level=160, dir=1A]
+サイト：（………）
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（いやいや、これはお仕置き、
+　お仕置きなんだ……）
+サイト：（お仕置き、お仕置き、お仕置き）
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+ルイズ：ほら、何ブツブツ言っているの？
+早くお仕置きするわよ。  [voice 4529]
+サイト：はーい。  [voice 7970]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BGM      bgm      stop=1000]
+  [EVENT_CG event    image=+281, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+22]
+サイト：えーと、ご主人様。
+その水着はなんでしょうか？  [voice 7971]
+サイト：しかも、どう見てもスクール水着にしか
+見えないんですけど……。  [voice 7972]
+ルイズ：この水着は、ハルナからセンベツで
+もらったものよ。  [voice 4530]
+サイト：センベツ！？  [voice 7973]
+ルイズ：サイトが言うことを聞かなかったら、
+これを使ってくださいって、言ってた。  [voice 4531]
+サイト：春奈……。
+俺のこと、どう思ってたんだよ。
+いや、すごくうれしいんだけど……。  [voice 7974]
+サイト：でも、お風呂に水着で入るのは
+間違いだと思います。  [voice 7975]
+  [EVENT_CG event    image=+280, level=80]
+ルイズ：な、何言ってるの？
+水着を着ないでサイトと一緒に
+お風呂に入れるはずないでしょ？  [voice 4532]
+サイト：まぁ、そうですよね。  [voice 7976]
+  [EVENT_CG event    image=+281, level=80]
+ルイズ：ほら。  [voice 4533]
+サイト：え？
+ほらって、このタオルで、いったい何を……。  [voice 7977]
+  [EVENT_CG event    image=+280, level=80]
+ルイズ：あぁもうじれったいわね！  [voice 4534]
+ルイズ：それでわたしの背中を流しなさいって
+言ってるの。
+あ、でもその前に……。  [voice 4535]
+ルイズ：もう一枚タオルがあるでしょ？
+それでぎっちり目隠しをするのを
+忘れないでね。  [voice 4536]
+ルイズ：背中を洗うとき、少し背中を見せるけど、
+もし、ゆる～く目隠しなんかしたら……。
+コ・ロ・スからね。  [voice 4537]
+サイト：わ、分かったよ……。  [voice 7978]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+サイト：ほらよ、これでいいだろ？  [voice 7979]
+ルイズ：ん、どれどれ……。
+ふぅん、ちゃんと言いつけは守ったようね。  [voice 4538]
+ルイズ：よっと。
+ほら、準備はできたわ。
+さっさとわたしの背中を洗いなさい！  [voice 4539]
+サイト：ふぇーい……。  [voice 7980]
+サイト：（あぁ、前にもさわったことがあるけど、
+　ルイズの背中ってすべすべしてるなぁ）
+サイト：（これで目隠しさえされてなけりゃ……。
+　いかん何を考えてるんだ、俺）
+サイト：どうっすかご主人様、お背中の方は気持ち
+いいっすか？  [voice 7981]
+ルイズ：そうねぇ、もうちょっと強くしてもいいわよ。  [voice 4540]
+サイト：ういー……。  [voice 7982]
+ルイズ：あー、そこそこ……。
+うん、そこがいいわ。
+もっと、重点的にね。  [voice 4541]
+サイト：うーい。  [voice 7983]
+ルイズ：ふんふんふーん。
+ねぇ、サイト。
+今は、どんな心境かしら？  [voice 4542]
+サイト：へ？
+いや、特にはなーんにも……。
+ただ、ちょっと立ちくらみが……。  [voice 7984]
+サイト：（やばい、蒸気がこもりすぎて、
+　温度があがってるぞ。
+　まるで、サウナみたいだ）
+ルイズ：ふふん、負け惜しみは言わなくていいわよ。
+お風呂場の中でわたしと２人っきり、
+しかも背中を流してるのに……、  [voice 4543]
+ルイズ：なんにも見えないってのはつらいでしょ？
+もどかしいでしょ？
+正直、拷問よねぇ。  [voice 4544]
+ルイズ：まぁ、それこそが今回のお仕置きの
+真の目的なんだけどね。  [voice 4545]
+ルイズ：これに懲りたらもう、わたしをないがしろに
+なんかしないことね。  [voice 4546]
+サイト：（目の前がくらくらしてくる。
+　なんで、ルイズのやつは平気なんだよ）
+ルイズ：ちょっとサイト、わたしの話聞いてるの？
+手もさっきから止まってるわよ！  [voice 4547]
+サイト：あ……ご、ごめん。  [voice 7985]
+ルイズ：まったく、ちょっとほめたらすぐいい気に
+なって……。
+これだからサイトは。  [voice 4548]
+null：………。
+……。
+…。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：あー、気持ちいい。
+サイト、あなた体洗うの上手だわ。  [voice 4549]
+ルイズ：んー、それにしても……。
+はぁ……。
+おっきくならないのよねぇ。  [voice 4550]
+サイト：な、何がですか！  [voice 7986]
+ルイズ：な、なんだっていいでしょ。
+手が止まってる！  [voice 4551]
+サイト：は、はい！  [voice 7987]
+ルイズ：ちょっとサイト、あんたさっきから様子が
+ヘンよ？
+まさか湯あたりでもしたの？  [voice 4552]
+サイト：い、いや……そんなことはないです……。  [voice 7988]
+ルイズ：もうちょっといろんなところが大きくなれば
+いいのに……。
+サイト、さっきからまた手が止まってる？  [voice 4553]
+サイト：（もう限界です。
+　おかあさん。
+　ボクは頑張りました）
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay2     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay2     hide, reset]
+  [SPRITE   lay5     hide, reset]
+サイト：ばた……。  [voice 7989]
+ルイズ：きゃ、きゃあぁっ！
+サイト？
+どうしたのよあんた、倒れちゃって。  [voice 4554]
+ルイズ：ちょ……サイト！
+大丈夫？  [voice 4555]
+ルイズ：目を開けなさいって！
+サイト、サイト、サイトぉぉぉぉぉ！！！！！  [voice 4556]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+
+---- SCENE 0770 ----
+  [MOVIE movie(1)]
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：えっ、自立するってどういうことだよ？  [voice 9189]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+ハルナ：うん、いつまでもこの学院で……。
+ルイズさん達の世話になってるのも
+どうかなって思って。  [voice 1769]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：そんなこといったら、俺なんかルイズに
+召喚されて以来、なんだかんだでずっと
+この学院のお世話になってるんだけど。  [voice 9190]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：平賀くんはルイズさんの使い魔じゃない。
+お世話になって当然よ。
+でも、私はそうじゃないから……。  [voice 1770]
+サイト：そりゃそうなんだけどさ……。
+俺達、この世界でたぶん２人だけの
+日本人じゃないか。  [voice 9191]
+サイト：それに、お互いのことを知らない
+間柄でもないんだしさ……。
+だから、学院で働くとかすれば……。  [voice 9192]
+  [SPRITE   lay7     image=+959, level=160, dir=1A]
+ハルナ：あのね、平賀くん……。
+私、スカウトされちゃったんだ。  [voice 1771]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：ス、スカウトって、なんの？  [voice 9193]
+ハルナ：劇団よ、劇団。  [voice 1772]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：劇団って、あのウェザリーの劇団のこと？  [voice 9194]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：違うの。
+あの劇を見てくれた別の劇団の人が、
+私のことを気に入ってスカウトしてくれたのよ。  [voice 1773]
+ハルナ：この際、いい機会だから、その劇団のお世話に
+なろうと思ってね。  [voice 1774]
+サイト：でもさ、劇団の世話になるってことは、
+他の街への公演に出ることだってあるんだよな？  [voice 9195]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：うん、そうだね。
+平賀くんとは会うことが少なく
+なっちゃいそうだけどね。  [voice 1775]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+ハルナ：でもね、私は楽しみにしてるんだ。
+この世界のいろんな街を見て回ることが
+できるから。  [voice 1776]
+ハルナ：ひょっとすると、日本へ戻るためのきっかけ
+だって見つかるかもしれない。  [voice 1777]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：そっか、そうだよな。  [voice 9196]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：だから平賀くん……。
+良かったら、私のこと応援していてね。  [voice 1778]
+サイト：ああ、もちろんだとも！
+それから、日本へ帰る方法、
+お互いに頑張って見つけだそうぜ。  [voice 9197]
+ハルナ：うん！  [voice 1779]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（ウェザリーの協力もあり、
+　春奈はすっかり元の春奈に戻った）
+サイト：（アキナのことはほとんど覚えていないようだ。
+　それもまた、ウェザリーの魔法だろうか……）
+サイト：（ウェザリーは、レコン・キスタに与したことを
+　罪に問われたものの……）
+サイト：（レコン・キスタの情報提供を行うことと、
+　お姫さまの配慮から数ヶ月の謹慎でなんとか、
+　罰は免れるらしい）
+サイト：（そんなわけで、学院から春奈が去ったあとは、
+　ほぼ今までどおりの学院生活が再開されたの
+　だけど……）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+30]
+サイト：ところでさ、ルイズ。  [voice 9198]
+ルイズ：なにかしら、サイト？  [voice 4819]
+サイト：なんで、ご主人様は、鎖とか、縄とか
+を取り出しているんですか？  [voice 9199]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：いい？
+あんたはわたしの使い魔なの。  [voice 4820]
+サイト：はぁ……。  [voice 9200]
+ルイズ：使い魔であるからには、
+召喚したご主人様の命令は絶対なの。
+ここまではいいわね。  [voice 4821]
+サイト：まぁ……。  [voice 9201]
+ルイズ：にもかかわらず、あんたときたら授業中に
+わたしのそばを離れてフラフラしてるわ、
+女の子とみたら鼻の下を伸ばすわ。  [voice 4822]
+ルイズ：挙げ句の果てにはシエスタやキュルケと、
+わたしの目を盗んでいちゃついて……。
+使い魔としての自覚が足りなすぎるわ！  [voice 4823]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：と、いうわけで。
+わたしはあんたを徹底的に再教育することに
+したの。  [voice 4824]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：げっ。  [voice 9202]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：まずは、鎖ね。
+それに拘束具。
+他に何が必要かしら……。  [voice 4825]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：あと、言っておくけど、返事は『はい』か
+『分かりました』か『了解』しか認めないわよ。  [voice 4826]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：あ、いや……。  [voice 9203]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：ぐは、いたー！  [voice 9204]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：返事は『はい』と『分かりました』と
+『了解』しか認めないって言ったでしょう？
+もう、再教育は始まってるのよ！  [voice 4827]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：とほほ……。  [voice 9205]
+サイト：なぁ、ルイズ。  [voice 9206]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：なによ。  [voice 4828]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+22]
+サイト：確かに、俺は使い魔としては、
+最低かもしれない。
+それは自覚してる。  [voice 9207]
+ルイズ：あら、分かってるじゃない。  [voice 4829]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：けれども、男として、ルイズを絶対守って
+やるって思ってるんだぜ。  [voice 9208]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+ルイズ：……！  [voice 4830]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：服も洗ってやる、部屋の掃除もしてやる。
+食事だって、ほどほどでもいい。
+でも、縄と鎖は勘弁してくれないかな？  [voice 9209]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：……。  [voice 4831]
+ルイズ：サイト……。  [voice 4832]
+  [SPRITE   lay5     image=+398, level=160, dir=1A]
+サイト：うん？  [voice 9210]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：このバカ犬ー！  [voice 4833]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay7     vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     reset]
+  [SPRITE   lay7     hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：ぐふっ。  [voice 9211]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+278, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：ほら、何ぐずぐずしてるの！
+服、着替えるんだから、早く手伝いなさい！  [voice 4834]
+サイト：なんだよ、この前まで着替えなんか
+させなくていいって言ってたくせに……。  [voice 9212]
+ルイズ：うっさいわねぇ！  [voice 4835]
+  [EVENT_CG event    image=+279, level=80]
+ルイズ：あんたはわたしの使い魔なんだから、
+わたしの言うことには従うの。
+そう決めたんだから、そうするの！！  [voice 4836]
+ルイズ：そうよ、あんたはずーっと、
+わたしの使い魔なんだから。  [voice 4837]
+ルイズ：他の誰がなんて言おうが、わたしだけの……。  [voice 4838]
+サイト：ん、なんか言ったルイズ？  [voice 9213]
+  [EVENT_CG event    image=+278, level=80]
+ルイズ：なにも言ってない！
+ほら、着替えたのなら、すぐに教室に行くわよ。
+ついて来なさいっ！  [voice 4839]
+サイト：へいへい、お嬢様。  [voice 9214]
+ルイズ：ご主人様には『はい』でしょうがっ！  [voice 4840]
+サイト：はーい。  [voice 9215]
+  [LAYER    white    image=+2, level=0]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    image=+88, level=200]
+  [EVENT_CG event    hide]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+サイト：（……こんな感じで、
+　俺とルイズの日常は続いている）
+サイト：（小さな事件も起きるけど、俺がルイズの
+　使い魔であるという厳然たる事実はまるで
+　変わっていなかったりするわけで）
+サイト：（結局、今日も俺はルイズの使い魔なのです）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]

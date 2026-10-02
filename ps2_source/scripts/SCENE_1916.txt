@@ -1,0 +1,10 @@
+selectInit();
+selectItem("‚T", null, "movieNo=5", true);
+selectItem("‚U", null, "movieNo=6", true);
+selectItem("‚V", null, "movieNo=7", true);
+selectItem("‚Â‚¬", (0x01000000 +1917), null, true);
+select();
+if (nextScene == null) {
+  movie(movieNo);
+  next((0x01000000 +1915), true);
+}

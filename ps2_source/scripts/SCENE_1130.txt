@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +22)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +257)});
+}
+talk("サイト", null, "本気です。", (0x04000000 +8731));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +258)});
+waitLoad(true);
+talk("アンリエッタ", null, "……。", (0x04000000 +354));
+talk("サイト", null, "……でも、それがどこまでかと聞かれると、\n答えられません。\nどこからが嘘かという問いですから。", (0x04000000 +8732));
+talk("サイト", null, "……俺は嘘は言ってないつもりです。\n多分。", (0x04000000 +8733));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +257)});
+waitLoad(true);
+talk("アンリエッタ", null, "……そうですか。", (0x04000000 +355));
+next((0x01000000 +1133), true);

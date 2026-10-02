@@ -1,0 +1,30 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "……なにか言い訳は？\nわたしは寛大だから、言い訳くらい\n聞いてあげるわ！", (0x04000000 +7871));
+talk("サイト", null, "な、なにいってるんだ？\nルイズ！", (0x04000000 +14070));
+talk("ルイズ", null, "ルイズぅ？\nご主人様でしょっ！", (0x04000000 +7872));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +176)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "きゃいんっ！", (0x04000000 +14071));
+talk("ルイズ", null, "返事は『わん』よっ！", (0x04000000 +7873));
+talk("サイト", null, "……くっ……わんっ！", (0x04000000 +14072));
+talk("ルイズ", null, "……いいかしら？", (0x04000000 +7874));
+talk("ルイズ", null, "バカ犬のその口を開くときは\n『わん』と『ご主人様』ってつけなさい！", (0x04000000 +7875));
+selectInit();
+selectItem("お、横暴だ！", (0x01000000 +1673), null, true);
+selectItem("わん！　ご主人様っ！", (0x01000000 +1674), null, true);
+selectItem("俺は何も悪いことはしてないっ！", (0x01000000 +1675), null, true);
+select();

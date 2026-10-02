@@ -1,0 +1,94 @@
+ZIP value counts: {1: 377, 2: 1533, 3: 6, 6: 2, 4: 1, 12: 1}
+cross-tab (ZIP, plain) -> count: {(1, False): 5, (1, True): 372, (2, False): 1533, (3, False): 6, (6, False): 2, (4, False): 1, (12, False): 1}
+
+first 40 rows: idx ZIP XSIZE len plain ascii_ratio
+  0 1 599 599 False 0.838
+  1 1 34593 34593 True 0.956
+  2 1 5337 5337 True 0.957
+  3 1 64184 64184 True 0.914
+  4 2 260 260 False 0.912
+  5 2 6025 6025 False 0.914
+  6 2 7238 7238 False 0.771
+  7 2 782 782 False 0.784
+  8 2 465 465 False 0.834
+  9 2 368 368 False 0.772
+  10 2 5203 5203 False 0.702
+  11 2 6384 6384 False 0.746
+  12 2 1081 1081 False 0.907
+  13 2 1498 1498 False 0.888
+  14 1 1342 1342 True 0.926
+  15 2 3462 3462 False 0.870
+  16 2 8708 8708 False 0.842
+  17 2 2619 2619 False 0.773
+  18 2 4181 4181 False 0.856
+  19 2 1339 1339 False 0.842
+  20 2 7809 7809 False 0.819
+  21 2 1684 1684 False 0.813
+  22 2 1940 1940 False 0.875
+  23 2 1674 1674 False 0.863
+  24 2 8412 8412 False 0.852
+  25 1 503 503 True 1.000
+  26 1 503 503 True 1.000
+  27 1 503 503 True 1.000
+  28 2 4203 4203 False 0.722
+  29 2 3471 3471 False 0.712
+  30 2 1749 1749 False 0.775
+  31 2 4255 4255 False 0.812
+  32 2 3386 3386 False 0.645
+  33 1 2351 2351 True 0.892
+  34 2 6398 6398 False 0.846
+  35 2 2618 2618 False 0.862
+  36 2 1639 1639 False 0.911
+  37 2 3829 3829 False 0.898
+  38 2 3875 3875 False 0.862
+  39 2 9344 9344 False 0.815
+
+ZIP==2 sample rows (20):
+  4 ZIP=2 XSIZE=260 len=260 plain=False ascii=0.912
+  5 ZIP=2 XSIZE=6025 len=6025 plain=False ascii=0.914
+  6 ZIP=2 XSIZE=7238 len=7238 plain=False ascii=0.771
+  7 ZIP=2 XSIZE=782 len=782 plain=False ascii=0.784
+  8 ZIP=2 XSIZE=465 len=465 plain=False ascii=0.834
+  9 ZIP=2 XSIZE=368 len=368 plain=False ascii=0.772
+  10 ZIP=2 XSIZE=5203 len=5203 plain=False ascii=0.702
+  11 ZIP=2 XSIZE=6384 len=6384 plain=False ascii=0.746
+  12 ZIP=2 XSIZE=1081 len=1081 plain=False ascii=0.907
+  13 ZIP=2 XSIZE=1498 len=1498 plain=False ascii=0.888
+  15 ZIP=2 XSIZE=3462 len=3462 plain=False ascii=0.870
+  16 ZIP=2 XSIZE=8708 len=8708 plain=False ascii=0.842
+  17 ZIP=2 XSIZE=2619 len=2619 plain=False ascii=0.773
+  18 ZIP=2 XSIZE=4181 len=4181 plain=False ascii=0.856
+  19 ZIP=2 XSIZE=1339 len=1339 plain=False ascii=0.842
+  20 ZIP=2 XSIZE=7809 len=7809 plain=False ascii=0.819
+  21 ZIP=2 XSIZE=1684 len=1684 plain=False ascii=0.813
+  22 ZIP=2 XSIZE=1940 len=1940 plain=False ascii=0.875
+  23 ZIP=2 XSIZE=1674 len=1674 plain=False ascii=0.863
+  24 ZIP=2 XSIZE=8412 len=8412 plain=False ascii=0.852
+
+ZIP==1 sample rows (20):
+  0 ZIP=1 XSIZE=599 len=599 plain=False ascii=0.838
+  1 ZIP=1 XSIZE=34593 len=34593 plain=True ascii=0.956
+  2 ZIP=1 XSIZE=5337 len=5337 plain=True ascii=0.957
+  3 ZIP=1 XSIZE=64184 len=64184 plain=True ascii=0.914
+  14 ZIP=1 XSIZE=1342 len=1342 plain=True ascii=0.926
+  25 ZIP=1 XSIZE=503 len=503 plain=True ascii=1.000
+  26 ZIP=1 XSIZE=503 len=503 plain=True ascii=1.000
+  27 ZIP=1 XSIZE=503 len=503 plain=True ascii=1.000
+  33 ZIP=1 XSIZE=2351 len=2351 plain=True ascii=0.892
+  43 ZIP=1 XSIZE=2218 len=2218 plain=True ascii=0.935
+  50 ZIP=1 XSIZE=503 len=503 plain=True ascii=1.000
+  51 ZIP=1 XSIZE=503 len=503 plain=True ascii=1.000
+  52 ZIP=1 XSIZE=424 len=424 plain=True ascii=1.000
+  53 ZIP=1 XSIZE=503 len=503 plain=True ascii=1.000
+  56 ZIP=1 XSIZE=1107 len=1107 plain=True ascii=0.867
+  63 ZIP=1 XSIZE=1116 len=1116 plain=True ascii=0.935
+  64 ZIP=1 XSIZE=1100 len=1100 plain=True ascii=0.954
+  65 ZIP=1 XSIZE=1116 len=1116 plain=True ascii=0.941
+  66 ZIP=1 XSIZE=1098 len=1098 plain=True ascii=0.951
+  67 ZIP=1 XSIZE=1102 len=1102 plain=True ascii=0.949
+ZIP=1 ascii ratio min=0.591 med=0.935 max=1.000 n=377
+ZIP=2 ascii ratio min=0.559 med=0.847 max=1.000 n=1533
+ZIP=3 ascii ratio min=0.908 med=0.972 max=1.000 n=6
+ZIP=4 ascii ratio min=0.977 med=0.977 max=0.977 n=1
+ZIP=6 ascii ratio min=0.824 med=0.824 max=0.824 n=2
+ZIP=12 ascii ratio min=0.962 med=0.962 max=0.962 n=1

@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +169)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +168)});
+waitLoad(true);
+talk("サイト", null, "せ、せめて最後になにか一言を……。", (0x04000000 +13898));
+talk("ルイズ", null, "一言？\n謝っても、もう許してあげないわよ。", (0x04000000 +7712));
+talk("サイト", null, "ル、ルイズ横暴～～っ！", (0x04000000 +13899));
+talk("ルイズ", null, "……それが、最後の一言？\nまったく、\n懺悔のひとつもするかと思えば……。", (0x04000000 +7713));
+talk("サイト", null, "い、いや。\nちょっと待って！", (0x04000000 +13900));
+talk("ルイズ", null, "大丈夫。\nお墓はちゃんと作ってあげるわ。", (0x04000000 +7714));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "やっ、やめろぉぉぉっ！", (0x04000000 +13901));
+next((0x01000000 +1616), true);

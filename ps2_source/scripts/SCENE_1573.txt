@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +163)});
+}
+talk("サイト", null, "……お、俺のご主人様は、", (0x04000000 +13778));
+talk("サイト", null, "う、麗しのルイズ様です！", (0x04000000 +13779));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +162)});
+waitLoad(true);
+talk("ルイズ", null, "……そ、そうよ。\n分かればいいのよ、分かれば。", (0x04000000 +7586));
+talk("ルイズ", null, "バ、バカ犬のご主人様は、世界でたった一人。\nこのわたししかいないんだからね！", (0x04000000 +7587));
+next((0x01000000 +1576), true);

@@ -1,0 +1,63 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "そうだな、春奈を誘おうっか……。", (0x04000000 +8287));
+talk("サイト", null, "っていっても、昼の間は人目があるから、\n外を出歩けないか。", (0x04000000 +8288));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "ちょっとサイト！\n何をぼんやりしてるの？\n部屋の掃除がまだ終わってないでしょ？", (0x04000000 +4658));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ええっ！\n俺、これから用事が……。", (0x04000000 +8289));
+talk("ルイズ", null, "つべこべ言わずに、さっさと来る！", (0x04000000 +4659));
+talk("サイト", null, "えええっ！\nちょっと待って、うわっ！", (0x04000000 +8290));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +19)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +17)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +396)});
+msgon()
+talk("サイト", null, "ぜい、ぜい、ぜい……。\nやれやれ、ひどい目にあった。", (0x04000000 +8291));
+talk("サイト", null, "ルイズのやつ、休みの日まで\n俺をこき使うことはないだろ。", (0x04000000 +8292));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あっ、春奈。", (0x04000000 +8293));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +28)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +957)});
+msgon()
+talk("ハルナ", null, "ふう……。", (0x04000000 +1591));
+set("lay7", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "（ここにいたのか）", null);
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +951)});
+talk("ハルナ", null, "あ……平賀くん。", (0x04000000 +1592));
+like("ハルナ", 20);
+talk("サイト", null, "ここにいると、なにも知らない学院の生徒達に\nばれちまうだろ？\n早く、部屋に戻ろうぜ。", (0x04000000 +8294));
+talk("サイト", null, "それにまだ体調が戻ってないんだろ？\n風邪をひいちまうぞ？", (0x04000000 +8295));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "ねえ、平賀くん。", (0x04000000 +1593));
+talk("サイト", null, "ん？", (0x04000000 +8296));
+talk("ハルナ", null, "私が何をしてたか、分かる？", (0x04000000 +1594));
+talk("サイト", null, "それは……。", (0x04000000 +8297));
+selectInit();
+selectItem("外を歩いてた", (0x01000000 +1030), null, true);
+selectItem("夜空を見てた", (0x01000000 +1031), null, true);
+selectItem("分からない", (0x01000000 +1032), null, true);
+select();

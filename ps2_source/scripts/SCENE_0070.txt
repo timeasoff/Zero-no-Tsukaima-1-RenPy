@@ -1,0 +1,36 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +418)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "女性客が気になって眠れなかった？", (0x04000000 +10992));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "あの、わたくしがお邪魔でしたでしょうか。", (0x04000000 +14557));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +332)});
+talk("ルイズ", null, "う……ち、違うわよ。\n部屋の人口密度が高いから、\nちょっと寝苦しかっただけよ。", (0x04000000 +5724));
+like("ルイズ", 10);
+tndl(30);
+set("lay1", {y = 0,x = -96});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "でしたら、良いのですが……。", (0x04000000 +14558));
+talk("シエスタ", null, "もし、わたくしがいたせいで早く起きた\nなんてことでしたら、\nわたくし、なんとお詫びをすればよいかと……。", (0x04000000 +14559));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "あー、シエスタ大丈夫。\nルイズはそんなに繊細じゃないから。", (0x04000000 +10993));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+talk("ルイズ", null, "それってどういう意味よ！", (0x04000000 +5725));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +445)});
+talk("サイト", null, "あ、いや、何事にも動じないってことだよ。\nな、シエスタ！", (0x04000000 +10994));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +522)});
+talk("シエスタ", null, "は、はい。\nサイトさんの言うとおりです。", (0x04000000 +14560));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +324)});
+talk("ルイズ", null, "本当なの？\nまぁ、それならいいんだけどね。", (0x04000000 +5726));
+next((0x01000000 +72), true);

@@ -1,0 +1,16 @@
+files=1920  with_NUL=12
+embedded-NUL files: 5
+   SCENE_1533.txt len=51 nul=9 first=17 EMBEDDED
+   SCENE_1697.txt len=51 nul=9 first=17 EMBEDDED
+   SCENE_1904.txt len=34 nul=9 first=17 EMBEDDED
+   SCENE_1909.txt len=34 nul=9 first=17 EMBEDDED
+   SCENE_1914.txt len=34 nul=9 first=17 EMBEDDED
+
+trailing-NUL-only files: 7
+   SCENE_0664.txt len=26 nul=9
+   SCENE_1534.txt len=22 nul=9
+   SCENE_1664.txt len=186 nul=7
+   SCENE_1698.txt len=22 nul=9
+   SCENE_1918.txt len=293 nul=2
+   SCENE_1919.txt len=293 nul=1
+   SCENE_1920.txt len=200 nul=4

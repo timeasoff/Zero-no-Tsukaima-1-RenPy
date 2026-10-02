@@ -1,0 +1,655 @@
+========================================================================
+CHAPTER 29 : 夜の秘密
+core scenes : 999 .. 1008  (10 scenes)
+========================================================================
+
+---- SCENE 0999 ----
+  [TITLE title("夜の秘密")]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1157, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+12, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+30]
+  [SPRITE   lay6     image=+680, level=160, dir=1A]
+キュルケ：ちょっと、ダーリン！
+どういうことよ？  [voice 2651]
+  [SPRITE   lay6     x=-96, y=0]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：どういうことって？  [voice 8018]
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+キュルケ：このあたしを差し置いて、タバサと夜な夜な
+濃密なデートを繰り返してるだなんて……。  [voice 2652]
+サイト：えーっと……。
+話が見えないんですが？  [voice 8019]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：なんですってぇーっ！
+あんた、わたしの目を盗んで、
+タバサとなんてことを……。  [voice 4566]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+ルイズ：毎晩、同じベッドで寝かせてあげてるのに、
+なんで抜け出してまでそういうことを
+するのかしら……。  [voice 4567]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：いや、同じベッドで寝てたら、
+抜け出してるかどうか普通気づくだろ。  [voice 8020]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：わたしは熟睡するタイプだから、
+分からなくたって仕方がないのっ！  [voice 4568]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：そこまでして俺を悪人にしたいのか。  [voice 8021]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：悪人ですって？
+ハッ、犬のクセに……。  [voice 4569]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：くっ……。
+真実を語ってるというのに、
+ルイズは俺を犬扱いする……。  [voice 8022]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：ねえ、ダーリン。
+本当にタバサと夜中にデートしてないの？  [voice 2653]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：してないって！
+断じてしてないっ！！  [voice 8023]
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+キュルケ：んー……。
+やっぱり、違ったのね。
+あたしの勘。  [voice 2654]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：おいおい、キュルケ。
+今、なんて言った？  [voice 8024]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+キュルケ：やっぱり、違ったのね、って。  [voice 2655]
+サイト：そこじゃない。
+そのあと。  [voice 8025]
+キュルケ：ああ、あたしの勘ってところ？  [voice 2656]
+サイト：そうそれ。
+勘だけで俺のことを責めてくれたのか？  [voice 8026]
+キュルケ：結果的には。  [voice 2657]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：で、どうしてサイトとタバサが夜な夜な
+デートしてるってことになったわけ？  [voice 4570]
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+キュルケ：実はね……。
+このところ、タバサが夜中に何かしてる
+らしいって、噂が立ってるのよ。  [voice 2658]
+キュルケ：で、タバサに関する噂なら、たぶんダーリンが
+絡んでるじゃないかなーって。  [voice 2659]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：あのさ……。  [voice 8027]
+サイト：そんなにタバサが何やってんのか
+知りたいのなら、直接聞けばいいん
+じゃないのか？  [voice 8028]
+キュルケ：それがそうもいかないのよ。
+それとなく聞いてみたんだけど、
+話してくれなくて……。  [voice 2660]
+サイト：分かった分かった。
+じゃあ、俺が今から聞きに行ってくるから。  [voice 8029]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+16, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+サイト：まったくもう……。
+みんな、何をそんなに心配してんだか。  [voice 8030]
+  [SE       se0      play=+82]
+サイト：えーっと、サイトだけど……。  [voice 8031]
+タバサ：どうぞ。  [voice 15186]
+  [SE       se0      play=+57]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+96, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [SE       se0      play=+56]
+タバサ：……なに？  [voice 15187]
+サイト：いや、実はさ……。
+最近、みんなに隠し事とかしてない？  [voice 8032]
+  [LAYER    lay0     image=+592, level=160, dir=1A]
+タバサ：……。
+サイト：（あっ、黙ってるけど、
+　何か隠してるって感じだな……）
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：じゃあさ、俺にだけ話してくれない？
+タバサが夜中に何やってるのかを。  [voice 8033]
+  [LAYER    lay0     image=+594, level=160, dir=1A]
+タバサ：……。
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ダメかな？  [voice 8034]
+タバサ：ダメ。  [voice 15188]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：えーっ、なんでー？  [voice 8035]
+タバサ：ダメったら、ダメ。  [voice 15189]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：わ、分かったよ……。
+じゃあ、せめてヒントだけでも……。  [voice 8036]
+  [LAYER    lay0     image=+592, level=160, dir=1A]
+タバサ：教えない。  [voice 15190]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：……。
+あのさ、タバサ……。  [voice 8037]
+  【選択肢】そんなに俺には教えたくないの？ → scene 1000
+  【選択肢】人に言えないことやってるの？ → scene 1001
+  【選択肢】ひょっとして、俺のこと嫌い？ → scene 1002
+
+---- SCENE 1000 ----
+  [LAYER    lay0     image=+592, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+96, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：そんなに俺には教えたくないの？  [voice 8038]
+  [LAYER    lay0     image=+594, level=160, dir=1A]
+タバサ：うん、あなただけには絶対。  [voice 15191]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：あなただけにはって……。
+それも、絶対って……。  [voice 8039]
+  → next scene 1003
+
+---- SCENE 1001 ----
+  [LAYER    lay0     image=+592, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+96, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：人に言えないことやってるの？  [voice 8040]
+  [LAYER    lay0     image=+594, level=160, dir=1A]
+タバサ：そんなことはない。  [voice 15192]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：じゃあ……。  [voice 8041]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：でも、今は言えない。  [voice 15193]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：えっ、どういうこと？  [voice 8042]
+  → next scene 1003
+
+---- SCENE 1002 ----
+  [LAYER    lay0     image=+592, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+96, level=200]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ひょっとして、俺のこと嫌い？  [voice 8043]
+  [LAYER    lay0     image=+594, level=160, dir=1A]
+タバサ：……。
+サイト：（答えてくれない……。
+　しかも、すごく困った顔してるし）
+サイト：えーっと、変なこと聞いてごめん。  [voice 8044]
+タバサ：……。
+サイト：（まだ困ってるし……）
+  → next scene 1003
+
+---- SCENE 1003 ----
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+  [LAYER    lay0     image=+594, level=160, dir=1A]
+  [BGM      bgm      play=+9]
+  [BG       stage    image=+96, level=200]
+サイト：……。  [voice 8045]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：……。
+サイト：あの……。
+俺、帰るね……。  [voice 8046]
+  [LAYER    lay0     image=+592, level=160, dir=1A]
+タバサ：あっ……。  [voice 15194]
+サイト：なに？  [voice 8047]
+  [LAYER    lay0     image=+594, level=160, dir=1A]
+タバサ：……。
+サイト：……じゃあ。  [voice 8048]
+  [SE       se0      play=+57]
+  [BGM      bgm      stop=1000]
+  [SE       se0      play=+56]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+12, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+  [BGM      bgm      play=+20]
+  [SE       se0      play=+57]
+  [SE       se0      play=+56]
+キュルケ：どうだった、ダーリン？  [voice 2661]
+  [SPRITE   lay6     x=-96, y=0]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：……。  [voice 8049]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：ちょっと、サイト！
+なんとか言いなさいよっ！  [voice 4571]
+サイト：……ごめん。
+俺には無理だった。  [voice 8050]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+キュルケ：ってことは……。
+ダーリンにも言わなかったのね？  [voice 2662]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：それどころか……。
+ううっ……。
+もう、寝ていいかな？  [voice 8051]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：なんか気の毒になってきたから、
+先に寝てもいいわよ。  [voice 4572]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：それじゃ、お先に……。  [voice 8052]
+  [SPRITE   lay5     hide]
+  [SE       se0      play=+59]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：こら、サイト！
+なんで床にワラしいて寝ようとしてるのよ！
+ちゃんとベッドで……。  [voice 4573]
+サイト：いいんですよ、ボクなんて……。
+床で寝るくらいが丁度いい、
+ダメな犬なんですよ……。  [voice 8053]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+キュルケ：あらあら、ダーリンったら、
+すっかり卑屈になっちゃってるし。  [voice 2663]
+サイト：ぐすっ、ぐすん……。
+ぐしゅっ、ぐしゅしゅ……。
+スー、スー……。  [voice 8054]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：……もう、寝ちゃった。  [voice 4574]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：タバサってば……。
+ダーリンをここまで追い込むだなんて……。  [voice 2664]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+16, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：うう、早く寝ちゃったら、
+まだ朝でも無いのに起きちゃったよ。  [voice 8055]
+サイト：あれ？
+厨房の明かりがまだついてるよ。
+まだ、仕込みの時間じゃないだろうに……。  [voice 8056]
+  [SE       se0      play=+82]
+タバサ：あっ。  [voice 15195]
+サイト：この声は……タバサ？  [voice 8057]
+  [SE       se0      play=+55]
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+287, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+  [BGM      bgm      play=+22]
+タバサ：……。
+サイト：どうしたの？  [voice 8058]
+タバサ：ケーキ作ってた。
+あなたに。  [voice 15196]
+サイト：えっ、ケーキ？  [voice 8059]
+タバサ：うん。  [voice 15197]
+サイト：……タバサが作ってるの？  [voice 8060]
+タバサ：手作り。  [voice 15198]
+サイト：タバサって……。
+ケーキ作りの趣味があったんだ？  [voice 8061]
+タバサ：ううん、なかった。
+でも……。  [voice 15199]
+サイト：なかったってことは、ひょっとして……。  [voice 8062]
+  【選択肢】ケーキ作りを趣味にしたんだ？ → scene 1004
+  【選択肢】俺のために作ってくれたんだ？ → scene 1005
+  【選択肢】人体実験の一環なんだ？ → scene 1006
+
+---- SCENE 1004 ----
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+16, level=200]
+  [EVENT_CG event    image=+287, level=80]
+サイト：ケーキ作りを趣味にしたんだ？  [voice 8063]
+タバサ：……うん。  [voice 15200]
+サイト：でも、なんでまた急に？  [voice 8064]
+タバサ：……。
+サイト：やっぱり、俺には教えてくれないの？  [voice 8065]
+  [EVENT_CG event    image=+288, level=80]
+タバサ：……。
+あなたに食べてもらいたくて。  [voice 15201]
+サイト：えっ、本当に？  [voice 8066]
+タバサ：うん、本当。
+でも、失敗だらけ。  [voice 15202]
+  → next scene 1007
+
+---- SCENE 1005 ----
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+16, level=200]
+  [EVENT_CG event    image=+287, level=80]
+サイト：俺のために作ってくれてたんだ？  [voice 8067]
+  [EVENT_CG event    image=+288, level=80]
+タバサ：……うん。  [voice 15203]
+サイト：……えっ、本当に？  [voice 8068]
+タバサ：本当。
+でも、失敗だらけ。  [voice 15204]
+  → next scene 1007
+
+---- SCENE 1006 ----
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+16, level=200]
+  [EVENT_CG event    image=+287, level=80]
+サイト：人体実験の一環なんだ？  [voice 8069]
+タバサ：ちがう。  [voice 15205]
+サイト：じゃあ、ドッキリ？  [voice 8070]
+タバサ：ドッキリって？  [voice 15206]
+サイト：はは、伝わらないよね？
+えーっと、騙して脅かすことだよ。  [voice 8071]
+  [EVENT_CG event    image=+288, level=80]
+タバサ：じゃあ、そうかも。  [voice 15207]
+サイト：えっ、ドッキリなの？  [voice 8072]
+タバサ：うん。
+あなたに驚いてもらいたかったから。  [voice 15208]
+サイト：……。  [voice 8073]
+  → next scene 1007
+
+---- SCENE 1007 ----
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+16, level=200]
+  [EVENT_CG event    image=+288, level=80]
+  [EVENT_CG event    image=+287, level=80]
+サイト：これ、作りかけ？  [voice 8074]
+タバサ：失敗作。
+まだ、完璧じゃない。  [voice 15209]
+サイト：食べてもいいかな？  [voice 8075]
+タバサ：……。
+サイト：じゃ、食べるな。
+あーん。  [voice 8076]
+  [EVENT_CG event    image=+288, level=80]
+タバサ：美味しい？  [voice 15210]
+サイト：うん、すごく美味しいよっ！
+本当にケーキ作り、習いたてなの？  [voice 8077]
+タバサ：うん。  [voice 15211]
+サイト：信じられないなぁ。  [voice 8078]
+タバサ：それはきっと……。
+先生が良かったから。  [voice 15212]
+サイト：先生？  [voice 8079]
+タバサ：シエスタ。  [voice 15213]
+サイト：そうだったんだ……。
+それにしても、なんで俺が聞いたときは
+教えてくれなかったの？  [voice 8080]
+タバサ：だって……。  [voice 15214]
+サイト：だって？  [voice 8081]
+  [EVENT_CG event    image=+289, level=80]
+タバサ：だって、あなたの喜ぶ顔が見たかったから。  [voice 15215]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（タバサが作ったこのケーキ……。
+　美味しいとの評判が、学院の厨房から
+　口コミで街に広がることとなり……）
+サイト：（国中に一大ケーキブームを
+　引き起こすきっかけとなるのだが……。
+　それはまた別のお話）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+
+---- SCENE 1008 ----
+  [MOVIE movie(1)]
+  [BGM      bgm      play=+4]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：えっ、自立するってどういうことだよ？  [voice 9244]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay7     image=+951, level=160, dir=1A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+ハルナ：うん、いつまでもこの学院で……。
+ルイズさん達の世話になってるのも
+どうかなって思って。  [voice 1791]
+サイト：そんなこといったら、俺なんかルイズに
+召喚されて以来、なんだかんだでずっと
+この学院のお世話になってるんだけど。  [voice 9245]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：平賀くんはルイズさんの使い魔じゃない。
+お世話になって当然よ。
+でも、私はそうじゃないから……。  [voice 1792]
+サイト：そりゃそうなんだけどさ……。
+俺達、この世界でたぶん２人だけの
+日本人じゃないか。  [voice 9246]
+サイト：それに、お互いのことを知らない
+間柄でもないんだしさ……。
+だから、学院で働くとかすれば……。  [voice 9247]
+  [SPRITE   lay7     image=+959, level=160, dir=1A]
+ハルナ：あのね、平賀くん……。
+私、スカウトされちゃったんだ。  [voice 1793]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：ス、スカウトって、なんの？  [voice 9248]
+ハルナ：劇団よ、劇団。  [voice 1794]
+サイト：劇団って、あのウェザリーの劇団のこと？  [voice 9249]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：違うの。
+あの劇を見てくれた別の劇団の人が、
+私のことを気に入ってスカウトしてくれたのよ。  [voice 1795]
+ハルナ：この際、いい機会だから、その劇団のお世話に
+なろうと思ってね。  [voice 1796]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：でもさ、劇団の世話になるってことは、
+他の街への公演に出ることだってあるんだよな？  [voice 9250]
+  [SPRITE   lay7     image=+957, level=160, dir=1A]
+ハルナ：うん、そうだね。
+平賀くんとは会うことが少なく
+なっちゃいそうだけどね。  [voice 1797]
+  [SPRITE   lay7     image=+953, level=160, dir=1A]
+ハルナ：でもね、私は楽しみにしてるんだ。
+この世界のいろんな街を見て回ることが
+できるから。  [voice 1798]
+ハルナ：ひょっとすると、日本へ戻るためのきっかけ
+だって見つかるかもしれない。  [voice 1799]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：そっか、そうだよな。  [voice 9251]
+ハルナ：だから平賀くん……。
+良かったら、私のこと応援していてね。  [voice 1800]
+サイト：ああ、もちろんだとも！
+それから、日本へ帰る方法、
+お互いに頑張って見つけだそうぜ。  [voice 9252]
+ハルナ：うん！  [voice 1801]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+19]
+サイト：なあ、ルイズ……。
+タバサって、なんで春奈をガリア王国へは
+引き渡さなかったんだ？  [voice 9253]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+ルイズ：……えっ？
+あんた、そのことを知らずに
+ハルナを送り出したの？  [voice 4858]
+サイト：だってさ、春奈には、
+なんだか直接聞き辛かったし……。  [voice 9254]
+サイト：タバサには、シュヴァリエとしての面子を
+潰させたかもしれないと思うと、なんだか
+とっても聞き辛かったし……。  [voice 9255]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：どっちにだって、普通に聞けば教えてくれた
+でしょうに……。  [voice 4859]
+サイト：じゃあ、ルイズは事の顛末を知ってるのか？  [voice 9256]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：まあね。  [voice 4860]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：だったら、俺にも教えてくれよ！  [voice 9257]
+ルイズ：タバサに直接聞けばいいじゃない？  [voice 4861]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：分かったよ……。
+ルイズの言うとおり、タバサのところに
+聞きにいくか……。  [voice 9258]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：……ま、待ちなさいよ。
+そんなことでタバサをわずらわせるのも
+悪いから、わたしが教えてあげる……。  [voice 4862]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：は、はい……。  [voice 9259]
+サイト：（まったくもう……。
+　素直に教えてくれればいいのに……）
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：で、どうしてタバサはガリア王国に
+春奈を引き渡さなかったんだ？  [voice 9260]
+サイト：なのにタバサは、任務は達成したって
+言ってるし……。  [voice 9261]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：ああ、それね。
+タバサは、ガリア王国にこう報告したのよ。  [voice 4863]
+ルイズ：突然のトリスタニアでの戦闘で、
+ハルナは行方不明になりました。  [voice 4864]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：えっ、そんな報告で向こうは納得したのか？
+ずいぶんとあっさりしたもんなんだなぁ。  [voice 9262]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+ルイズ：これはわたしの想像なんだけど……。
+ガリア王国は、爆弾使いとしてのアキナを
+探していたんじゃないのかな？  [voice 4865]
+  [SPRITE   lay5     image=+427, level=160, dir=2A]
+サイト：え？  [voice 9263]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：聞けば、ガリア王国でも相当の被害が
+あったみたいよ。  [voice 4866]
+ルイズ：たぶん、人相とか、容姿とかを聞いて、
+たまたま、ハルナを言い当てちゃっただけ
+みたいね。  [voice 4867]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：なんだ、そうだったんだ。
+てっきり、すべてのからくりを知っていたのかと
+思った……。  [voice 9264]
+ルイズ：あとはいつもの通り、タバサに面倒ごとを
+押し付けるのが主目的だったから、結果は大して
+重視していなかったのかもしれないわね。  [voice 4868]
+サイト：そっか……。
+ま、タバサと春奈にとって、
+悪い結果にならなくて良かった……。  [voice 9265]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    image=+90, level=200]
+  [TRANS trans("crossfade", 1000)]
+サイト：（結局のところ、春奈の別人格であるアキナは
+　まだ少し残っているらしい）
+サイト：（春奈には内緒だが、魔法の薬を飲むよう、
+　女王から義務付けられたと聞いた）
+サイト：（ウェザリーはその後、行方不明のままだ。
+　たぶん、レコン・キスタへと戻ったのだろう）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+22]
+サイト：（そんなわけで、学院から春奈が去ったあとは、
+　ほぼ今までどおりの学院生活が再開されたの
+　だけど……）
+サイト：（ひとつだけ、変わったことがあるんだ……）
+  [LAYER    white    image=+2, level=0]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+340, level=140, dir=2A]
+  [BG       stage    image=+23, level=200]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+ルイズ：もうっ！
+タバサったら、どうして毎日毎日
+サイトの隣に座るのよーっ！？  [voice 4869]
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+285, level=80]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     x=304, y=416]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay7     x=-96, y=0]
+  [SPRITE   lay6     x=304, y=416]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+タバサ：座りたいから。  [voice 15403]
+ルイズ：どうせ本読んでるだけなんだから、
+別にサイトの隣じゃなくたっていいじゃなーい！  [voice 4870]
+タバサ：隣であってもいいはず。  [voice 15404]
+ルイズ：う～っ、サイト！！
+あんたからも何かタバサに言って
+やりなさいよっ！  [voice 4871]
+サイト：言ってやれって……。
+別に隣で座ってるだけだからいいだろ？  [voice 9266]
+ルイズ：よくないのっ！
+なんだかイライラするから、よくないのっ！  [voice 4872]
+キュルケ：ルイズったら、馬鹿ねぇ。
+それって嫉妬って言うのよ？  [voice 2878]
+ルイズ：嫉妬じゃないもん……。
+イライラするだけだもん……。  [voice 4873]
+サイト：まったくもう……あのー、タバサさん？
+俺のご主人様がひどくご立腹なんで、
+出来ればですね……。  [voice 9267]
+タバサ：嫌。  [voice 15405]
+サイト：ははは、タバサさん？
+これって、ひょっとして……。  [voice 9268]
+サイト：俺のそばにいたいとか？  [voice 9269]
+  [EVENT_CG event    image=+286, level=80]
+タバサ：うん。  [voice 15406]
+サイト：と言っておりますが。  [voice 9270]
+  [EVENT_CG event    image=+285, level=80]
+ルイズ：言っておりますが、じゃないわよ！
+サイトの馬鹿ぁーっ！  [voice 4874]
+サイト：なんで俺に向かって怒るんだよっ！？  [voice 9271]
+キュルケ：別にさぁ……。
+タバサが隣に座るくらいいいじゃないのよ。
+どーせ、本読んでるだけなんだし。  [voice 2879]
+ルイズ：で、でも……。  [voice 4875]
+キュルケ：じゃあ、タバサの代わりに……。
+あたしがダーリンの隣に座って、
+密着しまくっちゃおうかなぁー？  [voice 2880]
+ルイズ：だったら、タバサでいいわよ。  [voice 4876]
+  [EVENT_CG event    image=+286, level=80]
+タバサ：……。
+サイト：（あ、結構喜んでる……）
+  [LAYER    white    image=+2, level=0]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    image=+88, level=200]
+  [EVENT_CG event    hide]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+サイト：（……というわけで、ルイズの悩みの種を
+　増やしたタバサだけれど、相変わらず
+　本を読んでばかりいる……）
+サイト：（だけど、俺のすぐそばで本を読んでる
+　タバサの姿を眺めていると、
+　なんだか安心する俺の姿もあった）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]

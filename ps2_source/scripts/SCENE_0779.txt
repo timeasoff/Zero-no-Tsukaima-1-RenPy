@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("bgm", {play = (0x03000000 +32)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +94)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "シエスタが元の仕事に戻ったら、\nまた俺が洗濯してやるぜ。\n安心しろ。", (0x04000000 +12040));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +310)});
+talk("ルイズ", null, "い、いいの、それは！", (0x04000000 +6570));
+tndl(30);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "前は普通に洗わせてたくせに。", (0x04000000 +12041));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +343)});
+talk("ルイズ", null, "あ、あんたがわたしの洗濯物見て、\nニヤニヤしてるかもしれないでしょ！", (0x04000000 +6571));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "ええっ！\n見てたの！？", (0x04000000 +12042));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "学院中の噂になってたのよ。\n使い魔がニヤニヤしながら、洗濯してるって。\nもう、最低！", (0x04000000 +6572));
+next((0x01000000 +780), true);

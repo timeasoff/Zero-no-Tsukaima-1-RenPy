@@ -1,0 +1,64 @@
+=== SCENE 11 (len=5404) ===
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +151)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+talk("サイト", null, "（ん……？\n　誰か、倒れてる）", null);
+talk("ルイズ", null, "ちょっと、サイト？\nどうしたの？", (0x04000000 +5559));
+talk("サイト", null, "あそこ……。\nあの木のふもとに誰か倒れてないか？", (0x04000000 +10799));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +149)});
+waitLoad(true);
+talk("ルイズ", null, "え？\nどこ？", (0x04000000 +5560));
+talk("サイト", null, "ほら、あそこ……って、行ってみた方が早いな。\nごめん、ルイズ。\n先に行くぞ！", (0x04000000 +10800));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +152)});
+waitLoad(true);
+talk("ルイズ", null, "あ、ちょっと、サイト！\nもうっ、何なのよー。", (0x04000000 +5561));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +103)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "やっぱりだ……。\n人が倒れてる……。\n大丈夫かな……って、え、おい！？", (0x04000000 +10801));
+talk("ルイズ", null, "もう、サイト！\nご主人様を置いて何してるのよ！\nって、本当に人が倒れてる……。", (0x04000000 +5562));
+talk("ルイズ", null, "この娘、見慣れない格好をしてるけど、\n一体、どこの国の人かしら。", (0x04000000 +5563));
+talk("サイト", null, "（この娘が着てるブレザー、\n　よく見たら俺の通ってた学校の制服じゃん）", null);
+talk("サイト", null, "（なんでこの娘がこの服を着てるんだ？\n　もしかして、俺と同じ日本から……？）", null);
+talk("サイト", null, "（いやいや、この娘……。\n　どっかで会ったことがあるような……）", null);
+talk("サイト", null, "（どこ？\n　日本の学校で？）", null);
+talk("サイト", null, "（思い出した。\n　間違いない。\n　クラスの委員長だった「高凪　春奈」さん？）", null);
+talk("サイト", null, "（いやいや……。\n　落ち着け、俺。\n　なんで高凪さんがこの世界に来ているんだよ）", null);
+talk("ルイズ", null, "ちょっとサイト。\nなに、この娘をじーっと見つめてるのよ。", (0x04000000 +5564));
+talk("サイト", null, "あ、ああ、悪い悪い。\nとりあえず介抱しないとな……。", (0x04000000 +10802));
+talk("サイト", null, "まずは脈と心音を診て……、\n着てる服をゆるめて気道を確保……。", (0x04000000 +10803));
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay19", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay11", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay19", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay11", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("ルイズ", null, "サイト、なにやってんのよ！\n女の子の服を脱がそうとするなんて！", (0x04000000 +5565));
+talk("サイト", null, "へ！？\nご、誤解だ！\n俺はこの娘を介抱しようとしただけで！", (0x04000000 +10804));
+talk("ルイズ", null, "全然そうには見えないわよ！\nわたしが診るからあんたはあっちに行って。", (0x04000000 +5566));
+talk("サイト", null, "……はいはい。", (0x04000000 +10805));
+talk("ルイズ", null, "意識を失ってるだけのようね。\n頭に損傷は無いみたい……。\nサイト、急いで学院に向かって！", (0x04000000 +5567));
+talk("サイト", null, "へ？", (0x04000000 +10806));
+talk("ルイズ", null, "「へっ」じゃないわよ。\nわたし達は馬なんだから

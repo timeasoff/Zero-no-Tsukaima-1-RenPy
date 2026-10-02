@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +434)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "にがいおくすり……いや。", (0x04000000 +3788));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "ど、どうしたら\n飲んでくれるかな？", (0x04000000 +13105));
+set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +403)});
+talk("サイト", null, "そうだ。\nほら、キュルケー。", (0x04000000 +13106));
+talk("サイト", null, "このお薬飲んだら、後で抱っこしてあげるぞー。", (0x04000000 +13107));
+set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "ほんと？", (0x04000000 +3789));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 153,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "だめっ！\nぜーったいだめっ！", (0x04000000 +7118));
+set("lay5", {show = 1,level = 154,dr = "1B",lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "おいおい、ルイズ！", (0x04000000 +13108));
+set("lay1", {y = 0,show = 1,level = 153,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +343)});
+talk("ルイズ", null, "あ……つい……。", (0x04000000 +7119));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "だっこしてくれないの？\nじゃあ、ぜーったい、いやだもん！", (0x04000000 +3790));
+next((0x01000000 +651), true);

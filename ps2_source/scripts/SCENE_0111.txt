@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 157,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +12)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "おまえもご飯食べたいのか？", (0x04000000 +11154));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 156,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "はあ！？\nなんでそうなるのよ！", (0x04000000 +5841));
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "だって、なんかずっとイライラしてるし。\n夕食は済ませたと思ってたけど、おなか空いてて\n怒りっぽくなってるんじゃないのか。", (0x04000000 +11155));
+talk("ルイズ", null, "夕食はとっくに済ませたわよ！", (0x04000000 +5842));
+talk("サイト", null, "そうなのか？\nなのにそんなにいらついてるってことは……\nダイエットでもしてるのか？", (0x04000000 +11156));
+set("lay1", {y = 0,show = 1,level = 156,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "は？\nダイエット？", (0x04000000 +5843));
+talk("サイト", null, "やめた方がいいぞ。", (0x04000000 +11157));
+talk("サイト", null, "無理に食事を抜いても、体を壊したり\n精神の安定に悪影響が出たりと\nロクなことがないからな。", (0x04000000 +11158));
+set("lay1", {show = 1,level = 156,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "違ーう！\nそんなのやってない！", (0x04000000 +5844));
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "ならいいんだけど。\nだいたい、今のままで十分イケてるんだから、\n余計なことしてリバウンドとかきたら悲惨だぞ。", (0x04000000 +11159));
+set("lay1", {show = 1,level = 156,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "ええっと……。\nだーかーらー、なんの話をしてるのよ、もう。", (0x04000000 +5845));
+next((0x01000000 +114), true);

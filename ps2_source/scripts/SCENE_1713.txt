@@ -1,0 +1,16 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……ねぇ、サイト。\nあなた、わたしのことをどう思ってるの？", (0x04000000 +5433));
+talk("サイト", null, "……へっ？", (0x04000000 +10698));
+talk("ルイズ", null, "ちゃんとわたしのこと気にかけてる？", (0x04000000 +5434));
+talk("サイト", null, "……え、ええと？", (0x04000000 +10699));
+selectInit();
+selectItem("気にかけています", (0x01000000 +1829), null, true);
+selectItem("気にしてる…かも？", (0x01000000 +1830), null, true);
+selectItem("そもそも何の質問？", (0x01000000 +1831), null, true);
+select();

@@ -1,0 +1,62 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +22)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +60)});
+}
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "もう、ダーリンったら、\nあたしがそばにいるのに、\nなにを考え込んでるの！", (0x04000000 +2897));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +119)});
+trans("crossfade", 1000);
+msgon()
+set("stage", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("event", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay5", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay7", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay6", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+vibrate(1);
+waitTime(500, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+set("lay6", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "うわっ！\nそんな抱きつかれると、\nそのいろいろと大変なことが！", (0x04000000 +9291));
+talk("キュルケ", null, "うふふ、もしかして、\nいけないこと考えてたのかしら？", (0x04000000 +2898));
+talk("サイト", null, "え？", (0x04000000 +9292));
+talk("キュルケ", null, "もう、だめよ？\nおにいちゃん？", (0x04000000 +2899));
+talk("サイト", null, "……え？", (0x04000000 +9293));
+set("stage", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("event", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay5", {show = 0,vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay7", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay6", {show = 0,vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+vibrate(1);
+waitTime(500, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+set("lay6", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ええ！？", (0x04000000 +9294));
+talk("キュルケ", null, "うふふ！", (0x04000000 +2900));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+setClear();
+syssave();

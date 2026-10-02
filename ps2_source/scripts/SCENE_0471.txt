@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +416)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "（やっぱり春奈は悩んでたんだ）", null);
+talk("サイト", null, "（春奈を見つけて、\n　俺は何て言えばいいんだろう？）", null);
+talk("サイト", null, "……。", (0x04000000 +13227));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+moveInit((0x01000000 +472),(0x02000000 +10),4,(0x03000000 +27));
+moveItem("廊下", (0x02000000 +929), (0x01000000 +1876));
+moveItem("教室", (0x02000000 +588), (0x01000000 +1881));
+moveItem("中庭", (0x02000000 +852), (0x01000000 +1886));
+moveItem("食堂", (0x02000000 +489), (0x01000000 +1890));
+move();

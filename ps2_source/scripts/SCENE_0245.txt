@@ -1,0 +1,105 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +137)});
+}
+msgoff()
+set("lay7", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +89)});
+trans("crossfade", 1000);
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +137)});
+trans("crossfade", 1000);
+talk("サイト", null, "ほら、これでいいんだろ？", (0x04000000 +11515));
+talk("ハルナ", null, "どれどれ？\nうーん、まぁいいんじゃないかな？\n日誌は全部嘘っぽいけど。", (0x04000000 +2283));
+talk("サイト", null, "そりゃ、一日中寝てましたし。", (0x04000000 +11516));
+talk("ハルナ", null, "明日は気をつけてね。\n最近、先生に注意されてるんだから。", (0x04000000 +2284));
+talk("サイト", null, "はぁい。", (0x04000000 +11517));
+talk("ハルナ", null, "そんな平賀くんには、\nお仕置きしちゃうんだからっ！", (0x04000000 +2285));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +27)});
+talk("サイト", null, "お、お仕置きっ！？\n……って、何？", (0x04000000 +11518));
+talk("ハルナ", null, "だって好きなんでしょ？\nお仕置き。", (0x04000000 +2286));
+talk("ハルナ", null, "平賀くんはいつもお仕置きされて\n喜んでるってルイズさんに。", (0x04000000 +2287));
+talk("サイト", null, "ルイズさんって誰？", (0x04000000 +11519));
+talk("ハルナ", null, "え、誰だっけ？", (0x04000000 +2288));
+talk("サイト", null, "い、いや、その光の球ってなんですか？", (0x04000000 +11520));
+talk("ハルナ", null, "えーと、魔法？", (0x04000000 +2289));
+talk("サイト", null, "ま、魔法？\n待ってくれ、春奈！！\nやめるんだぁ！！！", (0x04000000 +11521));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +138)});
+waitLoad(true);
+talk("ハルナ", null, "問答無用！", (0x04000000 +2290));
+talk("サイト", null, "うわああああああっ。", (0x04000000 +11522));
+set("lay5", {show = 0});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay7", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay2", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay7", {show = 0,reset = 1});
+set("lay2", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(500, true);
+set("lay1", {opacity = 100,y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +302)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +123)});
+set("event", {show = 0});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "サイトっ？\nどうしたの？\n寝てたと思ったら、いきなり声を上げて。", (0x04000000 +6092));
+set("lay1", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "ここはどこ？", (0x04000000 +11523));
+talk("ルイズ", null, "まだ、街道よ。\nそれがどうしたの？", (0x04000000 +6093));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "サイトさん、汗すごいですよ？\nどんな悪夢だったんですか？", (0x04000000 +14750));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "い、いやなんでもない……。", (0x04000000 +11524));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "（どうして、あんな夢見たんだろう。\n　それに春奈が魔法？\n　そんな馬鹿な……）", null);
+talk("サイト", null, "（たぶん、いつものルイズのお仕置きと\n　ごっちゃになっちまったんだろうな）", null);
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "……？", (0x04000000 +2291));
+talk("サイト", null, "（もう一度寝よう……）", null);
+msgoff()
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+set("se1", {stop = 1});
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +246), true);

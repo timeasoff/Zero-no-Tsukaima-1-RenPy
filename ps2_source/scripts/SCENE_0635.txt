@@ -1,0 +1,72 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +135)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+talk("アンリエッタ", null, "それで、状況は……。", (0x04000000 +684));
+talk("将校", null, "はっ、中央市場の炎上を皮切りに、\n市街各所で建築物や橋が爆破……。", (0x04000000 +4325));
+talk("将校", null, "その後も市内各地に隠匿されていた\n砲台からの王宮への継続的な砲撃が\n確認されています。", (0x04000000 +4326));
+set("se0", {play = (0x03000000 +64)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay15", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay8", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay18", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay15", {show = 0,reset = 1});
+set("lay8", {show = 0,reset = 1});
+set("lay18", {show = 0,reset = 1});
+waitTime(0, true);
+set("lay8", {show = 0});
+talk("アンリエッタ", null, "市内に砲台とはどういうことです？\nそんなものをどうやって！", (0x04000000 +685));
+talk("将校", null, "制圧に成功した兵士からの報告ですが……。", (0x04000000 +4327));
+talk("将校", null, "先日来の爆破事件を利用して、\nレコン・キスタは修復作業者に変装させた\n兵士を国内に送り込んできており。", (0x04000000 +4328));
+talk("将校", null, "破壊された現場の修復に紛れ込んでは、\n小型の砲台多数を設置していた模様だと。", (0x04000000 +4329));
+talk("アンリエッタ", null, "なんですって！", (0x04000000 +686));
+talk("将校", null, "こちらの地図をご覧ください。\n爆破事件のあった場所と砲台の位置は、\n完全に一致しております。", (0x04000000 +4330));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +259)});
+waitLoad(true);
+msgon()
+talk("アンリエッタ", null, "こ、これは……。", (0x04000000 +687));
+talk("将校", null, "はい。\n王宮を砲撃するのに最適な位置を選んで、\n爆破事件が発生しています。", (0x04000000 +4331));
+talk("アンリエッタ", null, "なんてことでしょう。\nやはり、今回も後手になってしまった\nということですか……。", (0x04000000 +688));
+msgoff()
+set("lay8", {show = 0});
+set("lay18", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+trans("crossfade", 1000);
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -50,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 0,lv = 0,image = (0x02000000 +1116)});
+msgon()
+talk("味方Ａ", "兵士", "報告します。", (0x04000000 +4262));
+set("lay15", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1114)});
+talk("味方Ａ", "兵士", "ラ・ヴェリエール家三女、\nルイズ・フランソワーズ様。", (0x04000000 +4263));
+talk("味方Ａ", "兵士", "火急の件につき女王陛下への謁見を\n求められております。", (0x04000000 +4264));
+set("lay15", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 0,opacityFrom = 100,hide = 1,opacityTime = 100,x = 50});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +766)});
+talk("アンリエッタ", null, "ルイズが？\nすぐに通しなさい。", (0x04000000 +689));
+set("lay8", {y = 0,x = 224});
+set("lay8", {level = 155});
+set("lay18", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 159,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1125)});
+talk("将校", null, "陛下？\nそのルイズ……とは？", (0x04000000 +4332));
+set("lay8", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "爆弾使いについて調べさせていた者達です。\n何か重要な報告を持ってきたのかもしれません。", (0x04000000 +690));
+set("lay18", {show = 1,level = 159,dr = "1A",lv = 0,image = (0x02000000 +1121)});
+talk("将校", null, "今は軍議の場ですぞ。", (0x04000000 +4333));
+talk("アンリエッタ", null, "分かりました。\n一旦、軍議を小休止とします。\n下がりなさい。", (0x04000000 +691));
+talk("将校", null, "……はっ。", (0x04000000 +4334));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay18", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +636), true);

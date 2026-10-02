@@ -1,0 +1,65 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +19)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +150)});
+}
+talk("ルイズ", null, "うー、なによなによ、さっきから文句ばっかり！\nあんた、わたしの使い魔でしょ？\n文句言わないで働きなさいよ！", (0x04000000 +5553));
+talk("ルイズ", null, "第一、せっかくわたしが店で服を試着しても、\nまともに見ないし感想も言ってくれないし。", (0x04000000 +5554));
+talk("サイト", null, "ん？\nなんだって？", (0x04000000 +10794));
+talk("ルイズ", null, "なんでもないわよ！\n最近は、ちゃんとご飯食べさせてるんだし、\nご主人様の言うことくらい素直に聞きなさい！", (0x04000000 +5555));
+talk("サイト", null, "へいへい。", (0x04000000 +10795));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +148)});
+waitLoad(true);
+talk("サイト", null, "（ったく、せっかく外見は可愛いんだから、\n　性格がもうちょっとだけでも\n　可愛げがあれば文句ないんだけどなあ）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +150)});
+waitLoad(true);
+talk("ルイズ", null, "なにか言った！？", (0x04000000 +5556));
+talk("サイト", null, "い、いいえ、なにも。", (0x04000000 +10796));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 157,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +942)});
+msgon()
+talk("デルフリンガー", null, "はっはっはー！\n相変わらず尻に敷かれてやがんな、相棒？", (0x04000000 +1254));
+set("lay19", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +940)});
+talk("ルイズ", null, "敷いてない！", (0x04000000 +5557));
+talk("サイト", null, "敷かれてないっつーの！", (0x04000000 +10797));
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 139,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +941)});
+talk("サイト", null, "（こいつは『デルフリンガー』。\n　見た通り、しゃべる剣。\n　まぁ、俺の相棒だな）", null);
+talk("サイト", null, "（俺が伝説の使い魔－『ガンダールヴ』\n　だと教えてくれたのはいいけど、\n　どうにも詳しいことを教えてくれない）", null);
+talk("サイト", null, "（本人（本剣？）は忘れてるだけだと\n　言ってるけど、いつ思い出して\n　くれるんだろう……）", null);
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 157,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +942)});
+talk("デルフリンガー", null, "おーおー、仲良しじゃねーか。\nいつ、俺っちの出番があるかと思って、\nひやひやしたぜ。", (0x04000000 +1255));
+set("lay19", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +940)});
+talk("デルフリンガー", null, "魔法使いと使い魔ってのはなぁ、\n唯一無二のパートナーなんだからよ。\n仲良いのはいいことなんだぜ。", (0x04000000 +1256));
+talk("デルフリンガー", null, "それに、せっかく貴族の娘っ子が、\n相棒のためにオシャレしてくれるって\n言ってるんだ。", (0x04000000 +1257));
+set("lay19", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +948)});
+talk("デルフリンガー", null, "相棒も、せめて優しい言葉のひとつでも\nかけてやるっていうのが男ってもんだろ？", (0x04000000 +1258));
+set("lay19", {level = 160});
+talk("ルイズ", null, "それ以上減らず口叩いたら、\n溶かして屑鉄にして学院の裏庭に埋めるからね！", (0x04000000 +5558));
+set("lay19", {dr = "1A",show = 1,level = 157,lv = 0,image = (0x02000000 +946)});
+talk("デルフリンガー", null, "おおっ、怖っ！\n相棒、俺っちまた一休みしておくから、\n出番が来たら呼んでくれよな！", (0x04000000 +1259));
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+talk("サイト", null, "やれやれ……。", (0x04000000 +10798));
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 136,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +336)});
+talk("サイト", null, "（俺のご主人様－ルイズは、\n　意地っ張りでプライドが高くて\n　怒りっぽくて……）", null);
+talk("サイト", null, "（まぁ、胸がないところについては……、\n　本人が本気で気にしてるので\n　おいておいて……）", null);
+talk("サイト", null, "（だけど、ときどき妙に優しくって、\n　可愛く見えるときがあるんだよな）", null);
+talk("サイト", null, "（まぁ、なんだかんだ言っても、\n　ルイズのことはほっとけないし、\n　これは惚れた男のサガなんだろうなぁ）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +11), true);

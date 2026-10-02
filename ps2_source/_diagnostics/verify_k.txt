@@ -1,0 +1,47 @@
+=== idx=813 n=3477 ===
+  raw[:60] : b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r -6el 0piFm d=1,ati 1,=9l=,a'
+  raw sjis : 0.9493
+  k=2 sjis=0.5675 set=0 talk=0 head=b'ib(tJnp ),rten) sa(rab"t{caoto=l0,yi iy o5=),so(=a,"v{ib t1n'
+  k=3 sjis=1.0000 set=38 talk=5 head=b'if (isJump()){\nreset();\nset("lay2", {opacity = 100,y = 0,yFr'
+  k=4 sjis=0.5966 set=0 talk=0 head=b'ieb (=txJ}n0p\n 0)t, rlt2e9n})  \nshal( r"a0b\x83"etX{tc"a ont)ol'
+  k=6 sjis=0.5675 set=0 talk=0 head=b'iiitsr(aunmiJo( ) p={,\n1)4etsarctn(ieo; \n )=eat"sL"rly(eyb2V'
+
+=== idx=424 n=9626 ===
+  raw[:60] : b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r 1,v 1,atr 0r Bocym=0x 4v ig'
+  raw sjis : 0.9389
+  k=2 sjis=0.6448 set=0 talk=0 head=b'io(oJlp,)irie )5s)(var"e{)awtt=m08y, ry)os=(,toe= ,hv i1 e1t'
+  k=3 sjis=0.7609 set=0 talk=0 head=b'iim(u)J(\np{s)e(rt\ne;t)els"8(y a,p"oi{c ay1t ,=0=0 ,y0r F ym0'
+  k=4 sjis=0.5422 set=0 talk=0 head=b'i,oi(il Ji,1p ip)5iir) Tes5e)() sav0("r a{e2"b)}{tw\nanttt ms'
+  k=6 sjis=0.6420 set=0 talk=0 head=b'iiuomd(M(l)eJu{,\nwp"eist)ati(mrT; \n=eee5t0) ")l;s}yv8i(\n,r a'
+
+=== idx=780 n=7997 ===
+  raw[:60] : b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r -6el 0piFm d=2,ati 1,=9l=,a'
+  raw sjis : 0.9448
+  k=2 sjis=0.5393 set=0 talk=0 head=b'i\x82(\xf1J\x82p\x97)\x8er\xc9e\x82)\xc4s\x82(\xb9a\x82"\xc8{\x91axt\x82=\xe80\x82y\xc4 \x82y\xe7o\x82=\xf1,\x82o\xc8=\x81,,v0i4 010'
+  k=3 sjis=0.7647 set=0 talk=0 head=b'iim(u)J(\np{s)e(rt\ne;t)els"1(y a,p"oi{c ay1t ,=0=0 ,y0r F ym0'
+  k=4 sjis=0.5501 set=0 talk=0 head=b'is\x824(w\xf1)J \x82spr\x97()e\x8egr=\xc9,e}\x82s)\n\xc4pst\x82 (l\xb90a7\x82)" \xc8w{h\x91ta xmt0\x821'
+  k=6 sjis=0.5792 set=0 talk=0 head=b'ili\x82m\x82("u\xf1)\xaaJ\x82(\x82\n\x82p\xbd{\x97sq)\x8fe\x8e(\x91r\xcct\xc9\n\xb5e\x82;\x82t\x8e)\xcee\xc4l\xeds\x82"\x821\x82(vy\xb9 \xe8'
+
+=== idx=1148 n=802 ===
+  raw[:60] : b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r -,v 1,atr 0r Cocym=0x , 1me'
+  raw sjis : 1.0000
+  k=2 sjis=1.0000 set=0 talk=0 head=b'is((Jap"){roe=)}s\n(tal"6{ apti= 00y  0yFom= ,moe=m,=v0ix o1='
+  k=3 sjis=1.0000 set=0 talk=0 head=b'iis(umJ()p{\n)esrt(e;\n)ets"l(y6a, "op{ciay t 1=0,0 =y0, Frym '
+  k=4 sjis=1.0000 set=0 talk=0 head=b'i0("(;amJa" pA{l)io r(=(el}0) \n0sut0(;l+as6)"f ;{)peaei"t" a'
+  k=6 sjis=1.0000 set=0 talk=0 head=b'i\ni(m"(tua)yJl("\n,p5{{ss) eo(wrht=\n e ;}t))0e\nlss;"t6((eyl a'
+
+=== idx=5 n=6025 ===
+  raw[:60] : b'rst)\nil(\x83\x83\x83\x81\x83";td(ul;mgf(\nak)\ne(eet,{pct  0,  ,hw=1lvl=8,  ,'
+  raw sjis : 0.6879
+  k=2 sjis=0.8823 set=0 talk=0 head=b'res(t;)t\ntiel"(v\x83\x8d\x83\x8d\x83[\x81O\x83)"\n;ntldn(lu)l\n;smogff)(b\nca(k;)s\nt'
+  k=3 sjis=0.4837 set=0 talk=0 head=b'r"\xc4s \xa2to\xdc)a\xb7\niBiy,l=((0x\x83h4\x83d0\x83 0\x81 0\x83,+"p2;c1tt)dT\n(mau kl "'
+  k=4 sjis=0.4585 set=0 talk=0 head=b'rheosw( t=; )1t,\nmtoiveelT"i(mve\x83 \x8d=\x83 \x8d1\x830[0\x81,Ox\x83F)r"o\nm; n='
+  k=6 sjis=0.4383 set=0 talk=0 head=b'r\x82"e\xc4,s\x82 (\xa2{t\x82o;\xdcp)\x82at\xb7c\n\x81itBti"ye, l ="( (00vx,\x830h\x8d4i\x830d\x8d0e'
+
+=== idx=6 n=7238 ===
+  raw[:60] : b'rst)\nil(\x83\x83\x82\x83\x83\x83";td(ul;bgnkp)\nsof)bc(;st"tg" oaiy=10y=0so  ,e'
+  raw sjis : 0.7610
+  k=2 sjis=1.0000 set=37 talk=30 head=b'reset();\ntitle("\x83[\x83\x8d\x82\xcc\x83\x8b\x83C\x83Y");\ntndl(null);\nbeginSkip();\nmsg'
+  k=3 sjis=0.5778 set=0 talk=0 head=b'rl2s|0tn0)@0\n\x8b+iC4lY)(E)\x83t\n\x83\x89a\x82\x93t\x83\\o\x83\x8fd\x83[t"Yu;E)t\x8b\ndEa(uku\x89"'
+  k=4 sjis=0.5728 set=0 talk=0 head=b'r(e)s\n(ste;t)(t"\netvieenlt""(,[ \x83{\x8dy\x83 \xcc=\x82 \x8b0\x83,Cl\x83eYv\x83e)l" \n='
+  k=6 sjis=0.5603 set=0 talk=0 head=b'r0|e2\x81s0n(0\\t0@;0\x81)0\x8bt0\x83\n Ct+\x83i1Ye4\x83l8E")\x81(}t[)\x83\x83;\x89\x8d\n\x83\x83w\x93\xcca\x83'

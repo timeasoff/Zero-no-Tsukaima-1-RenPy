@@ -1,0 +1,17 @@
+restrict <- false;
+selectInit();
+selectItem("しょきか", (0x01000000 +1865), "tndlInit()", true);
+selectItem("制限つき", null, "restrict=true", true);
+selectItem("制限なし", null, "restrict=false", true);
+selectItem("こべつ", (0x01000000 +1866), null, true);
+select();
+if (nextScene == null) {
+        selectInit();
+        selectItem("ツン", null, "zero_tundele=0", true);
+        selectItem("デレ", null, "zero_tundele=255", true);
+        select();
+        selectInit();
+        dateItem("ルイズ", (0x01000000 +1865));
+        dateItem("シエスタ", (0x01000000 +1865));
+        date((0x01000000 +1865), true);
+}

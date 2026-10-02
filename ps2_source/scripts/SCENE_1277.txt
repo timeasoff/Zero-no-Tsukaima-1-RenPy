@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +11)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +155)});
+}
+talk("サイト", null, "とりあえず春奈が無事で良かった。", (0x04000000 +9556));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)});
+waitLoad(true);
+talk("ハルナ", null, "え？", (0x04000000 +1857));
+like("ハルナ", 10);
+tndl(-30);
+talk("サイト", null, "あいつら春奈を狙ってたろ？\n見つかってたら大変だと思ってさあ。", (0x04000000 +9557));
+talk("ハルナ", null, "平賀くん……心配してくれたんだ。", (0x04000000 +1858));
+talk("サイト", null, "そりゃするさ。\n当然だろ？", (0x04000000 +9558));
+talk("ハルナ", null, "……ありがとう。", (0x04000000 +1859));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)});
+waitLoad(true);
+next((0x01000000 +1280), true);

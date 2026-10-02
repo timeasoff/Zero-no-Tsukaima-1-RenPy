@@ -1,0 +1,66 @@
+### anchor lookup (extraction -> scene)
+  もしもし、ルイズさん         -> [('chapter_02_ゼロのルイズ.txt', 6, 'サイト:……もしもし、ルイズさん。')]
+  どこで爆発だ             -> [('chapter_01_プロローグ.txt', 5, '兵士Ａ:どこで爆発だ！')]
+  誰か、倒れてる            -> [('chapter_02_ゼロのルイズ.txt', 11, '\u3000誰か、倒れてる）')]
+
+### voice file prefixes (1162 files, 13 prefixes)
+   ch0          18
+   ch1          138
+   ch1.10       207
+   ch1.2        47
+   ch1.3        110
+   ch1.4        23
+   ch1.5        78
+   ch1.6        123
+   ch1.6_l      1
+   ch1.7        79
+   ch1.8        162
+   ch1.9        99
+   sp_l1        77
+
+### voice refs in scripts (1154)
+   ch0          15
+   ch1          138
+   ch1.10       207
+   ch1.2        47
+   ch1.3        110
+   ch1.4        23
+   ch1.5        77
+   ch1.6        123
+   ch1.7        78
+   ch1.8        161
+   ch1.9        98
+   sp_l1        77
+
+### tl files (line counts)
+   japanese  characters.rpy           52 lines
+   japanese  choises.rpy             217 lines
+   japanese  common.rpy             1022 lines
+   japanese  dialogs.rpy            3340 lines
+   japanese  options.rpy              26 lines
+   japanese  overlays.rpy            159 lines
+   japanese  screens.rpy             486 lines
+   japanese  thoughs.rpy             280 lines
+   russian   characters.rpy           53 lines
+   russian   choises.rpy             215 lines
+   russian   common.rpy             1156 lines
+   russian   dialogs.rpy            3370 lines
+   russian   options.rpy              26 lines
+   russian   overlays.rpy            162 lines
+   russian   screens.rpy             488 lines
+   russian   thoughs.rpy             275 lines
+
+### labels per chapter file
+   0\script-ch0.rpy                   labels=['ch0'] voices=15  
+   1\script-ch1_1.rpy                 labels=['forest_battle', 'ch1'] voices=138 
+   1\script-ch1_10.rpy                labels=['ch1_10', 'date_louise_1', 'date_siesta_1', 'date_tabitha_1', 'date_kirche_1', 'date_haruna_1'] voices=207 
+   1\script-ch1_2.rpy                 labels=['ch1_2'] voices=47  
+   1\script-ch1_3.rpy                 labels=['ch1_3', 'si_room_ch1_3', 'l_room_ch1_3', 'hallway_ch1_3'] voices=110 
+   1\script-ch1_4.rpy                 labels=['ch1_4'] voices=23  
+   1\script-ch1_5.rpy                 labels=['ch1_5'] voices=77  
+   1\script-ch1_6.rpy                 labels=['ch1_6'] voices=123 
+   1\script-ch1_7.rpy                 labels=['ch1_7'] voices=79  
+   1\script-ch1_8.rpy                 labels=['ch1_8', 'library_ch1_8', 'k_room_ch1_8', 'l_room_ch1_8', 'hallway_ch1_8'] voices=162 
+   1\script-ch1_9.rpy                 labels=['ch1_9'] voices=98  
+   attention.rpy                      labels=['attention'] voices=0   
+   extra\sp_l1.rpy                    labels=['sp_l1'] voices=77  

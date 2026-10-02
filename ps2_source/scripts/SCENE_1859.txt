@@ -1,0 +1,51 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +196)});
+}
+talk("サイト", null, "（……駄目だ、ここはルイズの純潔を\n　守るために俺が身を引こう……）", null);
+talk("ルイズ", null, "な、何ひっぱってるのよ！", (0x04000000 +5539));
+talk("サイト", null, "ご、ごめん。\nこれならどうだ？", (0x04000000 +10780));
+talk("サイト", null, "（さすがに、引いたらそりゃ失礼か……。\n　少し前に出てみよう……）", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "きっ、きゃあああぁぁっっ！！\n近すぎー！", (0x04000000 +5540));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay19", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay19", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(500, true);
+set("event", {y = 0,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("ルイズ", null, "……サ、サイトが急に動くからよ！\nは、恥ずかしかったんだからぁ！", (0x04000000 +5541));
+msgoff()
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+next((0x01000000 +1860), true);

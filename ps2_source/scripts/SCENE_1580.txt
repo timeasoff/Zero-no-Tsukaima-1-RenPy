@@ -1,0 +1,62 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+}
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "ジャラ……ジャラララ……。", null);
+talk("ルイズ", null, "うふふ、なかなか似合うじゃない。", (0x04000000 +7605));
+talk("サイト", null, "く、首輪なんて、今すぐはずせ！", (0x04000000 +13799));
+talk("ルイズ", null, "うるさいっ！\nバカ犬っ！", (0x04000000 +7606));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "くきゃっ！！！", (0x04000000 +13800));
+talk("サイト", null, "ご、ご主人様。\nく、鎖をゆるめてっ！\n首……吊ってる……。", (0x04000000 +13801));
+talk("ルイズ", null, "男の子でしょっ！\n我慢しなさいっ！", (0x04000000 +7607));
+talk("サイト", null, "む、無茶言うなっ！", (0x04000000 +13802));
+talk("ルイズ", null, "うふふ、なにか楽しいわね。\nコレ？", (0x04000000 +7608));
+talk("サイト", null, "ルイズっ、いやご主人様っ！\nその目やばい！\n目がイってるって！", (0x04000000 +13803));
+talk("ルイズ", null, "犬はワンでしょっ！\nバカ犬っ！\nやっぱりおしおきしかないのかしら？", (0x04000000 +7609));
+set("se0", {play = (0x03000000 +71)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ちょっ、ちょっと待てっ！\nルイズぅぅっ！", (0x04000000 +13804));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +167)});
+waitLoad(true);
+talk("ルイズ", null, "さあ、バカ犬？\nお前は「ワン」しかいえないはずよね？", (0x04000000 +7610));
+talk("サイト", null, "（……ほ、本気の目だよ）", null);
+talk("ルイズ", null, "さあ、バカ犬？\nお返事は？", (0x04000000 +7611));
+selectInit();
+selectItem("ふざけるな、ルイズ！", (0x01000000 +1581), null, true);
+selectItem("わんわんわん！", (0x01000000 +1582), null, true);
+selectItem("ご主人様っ、トイレっ！", (0x01000000 +1583), null, true);
+select();

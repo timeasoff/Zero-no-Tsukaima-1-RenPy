@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +177)});
+}
+talk("サイト", null, "ナ、ナンのコトでしょう。\nるいずサマ？", (0x04000000 +14121));
+talk("ルイズ", null, "な、なによ。\nしらを切るつもり？", (0x04000000 +7926));
+talk("サイト", null, "ア、アレはボクの故郷で男性が女性の下着を\n洗うトキの一般的な作法でアリマシテ……。", (0x04000000 +14122));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +178),imageType = 1});
+waitLoad(true);
+talk("ルイズ", null, "ど、どこの世界にあんな作法があるのよっ！", (0x04000000 +7927));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+next((0x01000000 +1692), true);

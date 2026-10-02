@@ -1,0 +1,41 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+}
+talk("サイト", null, "（し、仕方ない。やってやる！\n　やってやるよぉっ！）", null);
+talk("ルイズ", null, "ほらほら、早くしなさいっ！", (0x04000000 +7635));
+talk("サイト", null, "……い、１回……２回……３回っ！", (0x04000000 +13826));
+talk("サイト", null, "わ、わん！", (0x04000000 +13827));
+set("stage", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("event", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay1", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+set("lay5", {vibration = 7,action = "LayerVibrateActionModule",waitTime = 30});
+vibrate(1);
+waitTime(500, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("ルイズ", null, "き、きゃあっ！", (0x04000000 +7636));
+talk("ルイズ", null, "な、何で飛びついてきてるのよ！", (0x04000000 +7637));
+talk("サイト", null, "ワンワンワン！", (0x04000000 +13828));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +166)});
+waitLoad(true);
+talk("ルイズ", null, "ち、ちょっと！\nどこ触ってるのっ！\nち、ちちち、調子にのるんじゃなぁ～いっ！", (0x04000000 +7638));
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "きゃっ、キャイ～ン！", (0x04000000 +13829));
+next((0x01000000 +1592), true);

@@ -1,0 +1,38 @@
+total=1920
+by (ZIP, kind): {(1, 'raw'): 377, (2, 'recon'): 1529, (3, 'raw'): 4, (6, 'raw'): 2, (2, 'raw'): 4, (4, 'recon'): 1, (3, 'recon'): 2, (12, 'recon'): 1}
+score min=45 med=229 max=2570
+low-score (<100) count=33
+  idx=0 ZIP=1 split=599 kind=raw score=72
+  idx=4 ZIP=2 split=130 kind=recon score=53
+  idx=664 ZIP=1 split=26 kind=raw score=46
+  idx=865 ZIP=1 split=185 kind=raw score=99
+  idx=1533 ZIP=6 split=51 kind=raw score=50
+  idx=1534 ZIP=1 split=22 kind=raw score=56
+  idx=1636 ZIP=2 split=260 kind=recon score=95
+  idx=1697 ZIP=6 split=51 kind=raw score=50
+  idx=1698 ZIP=1 split=22 kind=raw score=56
+  idx=1861 ZIP=1 split=232 kind=raw score=53
+  idx=1862 ZIP=1 split=283 kind=raw score=53
+  idx=1863 ZIP=2 split=119 kind=recon score=53
+  idx=1864 ZIP=2 split=117 kind=recon score=53
+  idx=1865 ZIP=2 split=306 kind=recon score=57
+  idx=1866 ZIP=2 split=73 kind=recon score=54
+  idx=1867 ZIP=2 split=129 kind=recon score=54
+  idx=1868 ZIP=2 split=129 kind=recon score=54
+  idx=1869 ZIP=2 split=211 kind=raw score=53
+  idx=1870 ZIP=1 split=127 kind=raw score=66
+  idx=1871 ZIP=2 split=64 kind=recon score=66
+  idx=1872 ZIP=1 split=127 kind=raw score=66
+  idx=1873 ZIP=2 split=64 kind=recon score=66
+  idx=1874 ZIP=2 split=66 kind=recon score=66
+  idx=1875 ZIP=1 split=127 kind=raw score=66
+  idx=1904 ZIP=2 split=34 kind=raw score=51
+  idx=1909 ZIP=2 split=34 kind=raw score=51
+  idx=1914 ZIP=2 split=34 kind=raw score=51
+  idx=1915 ZIP=4 split=151 kind=recon score=47
+  idx=1916 ZIP=3 split=145 kind=recon score=50
+  idx=1917 ZIP=3 split=142 kind=recon score=45
+  idx=1918 ZIP=2 split=146 kind=recon score=59
+  idx=1919 ZIP=12 split=145 kind=recon score=53
+  idx=1920 ZIP=1 split=200 kind=raw score=59
+split points (top): [(251, 19), (659, 6), (771, 5), (431, 5), (677, 5), (617, 5), (644, 5), (837, 4), (469, 4), (684, 4), (801, 4), (681, 4), (637, 4), (209, 4), (522, 4)]

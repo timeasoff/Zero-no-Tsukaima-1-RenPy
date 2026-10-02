@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +236)});
+}
+talk("サイト", null, "なんとなくだけど、分かるぜ。", (0x04000000 +8510));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +237)});
+waitLoad(true);
+talk("タバサ", null, "根拠、薄い。", (0x04000000 +15299));
+like("タバサ", -15);
+talk("サイト", null, "そう指摘されると、困るんだけどさ。", (0x04000000 +8511));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +236)});
+waitLoad(true);
+talk("サイト", null, "でも、タバサとシルフィードの様子を\n眺めてたら、楽しそうだなってのは\n伝わってきてたよ。", (0x04000000 +8512));
+next((0x01000000 +1073), true);

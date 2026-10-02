@@ -1,0 +1,46 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +7)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "あっ、シエスタ。\nこんなところにいたのか。", (0x04000000 +8482));
+set("lay5", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "サイトさん！\nちょうどいいところに！", (0x04000000 +14223));
+like("シエスタ", 20);
+talk("サイト", null, "俺になにか用事があったの？", (0x04000000 +8483));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +524)});
+talk("シエスタ", null, "はい！\nサイトさんにぜひ、見てほしい物が\nあるんですよ。", (0x04000000 +14224));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "へー、なんだろ？\n楽しみだなぁ。", (0x04000000 +8484));
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +219)});
+trans("crossfade", 1000);
+msgon()
+talk("シエスタ", null, "このマフラー、貰ってください！", (0x04000000 +14225));
+talk("サイト", null, "俺に？\n手編みのマフラーなんて、本当にいいのか？\nなんだか、うれしくなっちまうなぁ。", (0x04000000 +8485));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +220)});
+waitLoad(true);
+talk("シエスタ", null, "そう言ってもらえて嬉しいです……。", (0x04000000 +14226));
+talk("サイト", null, "あれ？\n今貰ったマフラーがあるのに、\nどうして編んでるの？", (0x04000000 +8486));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +219)});
+waitLoad(true);
+talk("シエスタ", null, "今編んでるマフラー、２本目なんです。", (0x04000000 +14227));
+talk("サイト", null, "えっ、２本目！？\nひょっとしてどちらも同じ柄のマフラー？", (0x04000000 +8487));
+talk("シエスタ", null, "はい……。", (0x04000000 +14228));
+talk("サイト", null, "（ええっと……）", null);
+selectInit();
+selectItem("それってペアルック？", (0x01000000 +1065), null, true);
+selectItem("すごい技術だね", (0x01000000 +1066), null, true);
+selectItem("別の柄にした方がよくない？", (0x01000000 +1067), null, true);
+select();

@@ -1,0 +1,48 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +67)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)});
+msgon()
+talk("サイト", null, "ここにルイズがいるってシエスタに\n聞いてきたけど、ずいぶん本が\nたくさんあるなぁ。", (0x04000000 +8547));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ルイズー、いるかー。", (0x04000000 +8548));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +201)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "もうっ。\nサイト、図書室は静かにしなさいよね。\nマナーでしょ？", (0x04000000 +4711));
+like("ルイズ", 20);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +202)});
+waitLoad(true);
+talk("サイト", null, "あ、ごめん。\nって、すごい山だな。\nこれ全部読んでるのか？", (0x04000000 +8549));
+set("se0", {play = (0x03000000 +72)});
+waitSEStop(null, true);
+talk("ルイズ", null, "魔法に関する本よ。\n古くは、始祖ブリミル・ヴァルトリの伝承から\n書きつづられた貴重な書物もあるわ。", (0x04000000 +4712));
+talk("ルイズ", null, "これらの本は、本来王宮からの許可が\n出ないと読めない本なんだけど、\n姫さまに許可をいただいたの。", (0x04000000 +4713));
+talk("サイト", null, "はぁ、俺にはサッパリ分からないや。\n何を調べてるんだ？", (0x04000000 +8550));
+talk("ルイズ", null, "……虚無の魔法。", (0x04000000 +4714));
+talk("サイト", null, "……。", (0x04000000 +8551));
+talk("ルイズ", null, "人の手には余る、その力。", (0x04000000 +4715));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +203),imageType = 1});
+waitLoad(true);
+talk("ルイズ", null, "ちょっと、気になるっていうか。\n１人で居たりすると……\nどうしても、不安になるのよね。", (0x04000000 +4716));
+talk("ルイズ", null, "だって……気味悪いじゃない。\nわたしの場合はまだ、得体の知れない\n不完全な魔法だから。", (0x04000000 +4717));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +202)});
+waitLoad(true);
+talk("ルイズ", null, "なにか、新しいことが少しでも分かるなら、\nと思って読んでたんだけど……。\nでも、ぜ～んぜん、分かんない。", (0x04000000 +4718));
+talk("サイト", null, "……。", (0x04000000 +8552));
+selectInit();
+selectItem("ルイズは努力家なんだな", (0x01000000 +1085), null, true);
+selectItem("本に頼らないってどうだ？", (0x01000000 +1086), null, true);
+selectItem("タバサに聞いてみるのは？", (0x01000000 +1087), null, true);
+select();

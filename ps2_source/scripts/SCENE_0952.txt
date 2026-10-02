@@ -1,0 +1,15 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "そうだよな。\nキュルケの言うとおりだよ。", (0x04000000 +12592));
+tndl(-30);
+talk("サイト", null, "俺達が知らなかったからこそ、\n得られる情報があるかもしれないって\nキュルケが判断したんだろ？", (0x04000000 +12593));
+talk("サイト", null, "それに、もしウェザリーが関係していたと\nしたら、知ってる俺達をタダでは、\n返してくれなかっただろうしな。", (0x04000000 +12594));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "でっしょー？\nダーリンってば、よく分かってるぅ！", (0x04000000 +3519));
+next((0x01000000 +955), true);

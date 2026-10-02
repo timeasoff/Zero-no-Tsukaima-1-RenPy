@@ -1,0 +1,89 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +71)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +25)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1065)});
+talk("ウェザリー", null, "ぐぅっ！\nこれまでみたいね。\nちくしょう、あと少しだったのに……。", (0x04000000 +16132));
+set("lay20", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "おとなしく縛につきなさい！", (0x04000000 +7290));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay20", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "……。", (0x04000000 +16133));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1063)});
+talk("ウェザリー", null, "ふっ。\nどうも、芝居とは逆の形になったわね。", (0x04000000 +16134));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "今度はサイト達が追う側で、\nわたしが追いつめられる側……。", (0x04000000 +16135));
+talk("ウェザリー", null, "なれば、わたしは台本どおりに\nことを進めるとしよう。", (0x04000000 +16136));
+set("lay20", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "まて、ウェザリー！", (0x04000000 +13370));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1065)});
+talk("ウェザリー", null, "さらばだ。", (0x04000000 +16137));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "ウェザリー！", (0x04000000 +7291));
+talk("サイト", null, "（ま、待てよ。\n　この高さだぞ。\n　助からないだろ）", null);
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1023)});
+talk("アキナ", null, "ウェザリー様……。", (0x04000000 +249));
+set("lay21", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "……。", (0x04000000 +13371));
+msgoff()
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +140)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "サイト、これも戦いなの。\nわたし、虚無の力を使うからね。\nアキナのことちゃんと見てなさい。", (0x04000000 +7292));
+talk("サイト", null, "ああ……。", (0x04000000 +13372));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+talk("ルイズ", null, "イリュージョン！！", (0x04000000 +7293));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {y = 0,level = 80,x = 0,image = (0x02000000 +141)});
+waitTime(500, true);
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+msgon()
+talk("サイト", null, "な、なんだ！\n雲の中からあんな大量の空中艦隊が……。", (0x04000000 +13373));
+talk("サイト", null, "まさか、あれが幻だっていうのか？", (0x04000000 +13374));
+talk("ルイズ", null, "そうよ……。\n全て偽りの艦隊……。", (0x04000000 +7294));
+talk("サイト", null, "敵の兵士が砲台から次々と逃げ出しているぞ。", (0x04000000 +13375));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +71)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +308)});
+msgon()
+talk("ルイズ", null, "良かった……。\nこの戦いも終わり……ね。", (0x04000000 +7295));
+set("lay1", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "ああ……。\nルイズ、少し……休め。\n虚無はたくさん精神力を使うんだろう？", (0x04000000 +13376));
+talk("ルイズ", null, "うん、そうする。\nはぁ……ちょっぴり……疲れちゃった。", (0x04000000 +7296));
+talk("サイト", null, "お疲れ……ルイズ。", (0x04000000 +13377));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 4000});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 4000});
+waitTime(5000, true);
+next((0x01000000 +544), true);

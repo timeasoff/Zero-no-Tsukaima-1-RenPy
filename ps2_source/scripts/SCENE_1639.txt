@@ -1,0 +1,41 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +119)});
+}
+talk("サイト", null, "……ど、どうしようかな？", (0x04000000 +13967));
+talk("キュルケ", null, "もう、ダーリン。\n何を迷ってるのよ……。", (0x04000000 +3899));
+talk("サイト", null, "はうっ！", (0x04000000 +13968));
+talk("サイト", null, "（そんな、胸を押し付けられると……）", null);
+talk("キュルケ", null, "ほらほら、ね。\nいいじゃない？\nいっしょに暖かいことしよう。", (0x04000000 +3900));
+talk("サイト", null, "（う、ううっ、このまま流されたい……）", null);
+msgoff()
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +171)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "ちゃんと断りなさい！！\nバカ犬っ！", (0x04000000 +7778));
+talk("サイト", null, "はっ、はいっ！\nご主人様っ！", (0x04000000 +13969));
+talk("ルイズ", null, "ひ、人の使い魔にあまりちょっかいを\n出さないでよね！\nキュルケ！", (0x04000000 +7779));
+talk("キュルケ", null, "そう思ってるんだったら、\nもう少し大事にしたら？", (0x04000000 +3901));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +172)});
+waitLoad(true);
+talk("ルイズ", null, "な、なんですって！", (0x04000000 +7780));
+talk("ルイズ", null, "サイト、早く部屋に戻りなさいっ！\n今日のところは許してあげる。", (0x04000000 +7781));
+talk("サイト", null, "……は、は～い！", (0x04000000 +13970));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+talk("キュルケ", null, "続きは今度ね。\n……バイバイ、ダーリン。", (0x04000000 +3902));
+next((0x01000000 +1640), true);

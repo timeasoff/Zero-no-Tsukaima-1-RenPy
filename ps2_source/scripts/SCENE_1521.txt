@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +425)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +601)});
+set("bgm", {play = (0x03000000 +9)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "一度、食べてみたいな。\nタバサがそう言うのなら、\nきっと美味しいんだろうし。", (0x04000000 +10069));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +599)});
+talk("タバサ", null, "……。", null);
+tndl(-30);
+talk("サイト", null, "あ、でも高級食材だったりするとか？\nだったら、そう簡単には口に入らないよな。", (0x04000000 +10070));
+talk("タバサ", null, "大丈夫。\n家庭料理だから。", (0x04000000 +15500));
+talk("サイト", null, "そっかー。\nじゃあ、いつかは食べれるかもな。", (0x04000000 +10071));
+next((0x01000000 +1522), true);

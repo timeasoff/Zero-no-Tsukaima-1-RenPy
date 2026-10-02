@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +236)});
+}
+talk("サイト", null, "タバサの顔を見れば分かるよ。", (0x04000000 +8513));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +237),imageType = 1});
+waitLoad(true);
+talk("タバサ", null, "……うそ。", (0x04000000 +15300));
+like("タバサ", 15);
+talk("サイト", null, "ウソなもんか。", (0x04000000 +8514));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +236)});
+waitLoad(true);
+talk("サイト", null, "タバサにとって、シルフィードは\n気を許せる相手なんだなって思った。", (0x04000000 +8515));
+next((0x01000000 +1073), true);

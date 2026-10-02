@@ -1,0 +1,267 @@
+/**
+ * アドベンチャーエンジン用 BGM
+ * BGM のチャンネルは２つ（フェード用にきりかえる）
+ */
+class AdvSoundTrack {
+
+    function _play(name, volume, time) {
+        // nothing todo
+    }
+
+    function _fade(volume, time) {
+        // nothing todo
+    }
+    
+    function _stop(time) {
+        // nothing todo
+    }
+
+    function _playing() {
+        return false;
+    }
+    
+    // 再生
+    doPlay   = false;
+    playFile = "";
+    loop = false;
+    loopDefault = true;
+    volume = 100;
+    fadeTime = 0;
+
+    // 停止
+    doStop   = false;
+
+    // 音量制御
+    doFade = false;
+    
+    properties = null;
+
+    /**
+     * 再生
+     * @param param パラメータ
+     * @param elm 補助パラメータ
+     */
+    function play(param, elm) {
+        loop = getval(elm, "loop", loopDefault);
+        if (!isJump() || loop) {
+            playFile = param;
+            fadeTime = getval(elm, "fadeTime", 0);
+            volume   = getval(elm, "volume", 100);
+            doFade   = false;
+            doStop   = false;
+            doPlay   = true;
+        }
+    }
+
+    /**
+     * 停止
+     * @param param パラメータ
+     * @param elm 補助パラメータ
+     */
+    function stop(param, elm) {
+        doPlay = false;
+        doFade = false;
+        playFile = null;
+        if (_playing()) {
+            fadeTime = param != null ? param : 0;
+            doStop = true;
+            //print("music stop:" + fadeTime + "\n");
+        }
+    }
+
+    function fade(param, elm) {
+        doStop = false;
+        if (_playing()) {
+            doFade = true;
+            volume   = getval(elm, "volume", 100);
+            fadeTime = getval(elm, "fadeTime", 0);
+        } else {
+            volume   = getval(elm, "volume", 100);
+        }
+    }
+
+    
+    /**
+     * コンストラクタ
+     */
+    constructor(info) {
+        //print("Create SoundTrack\n");
+        // ファンクションの登録
+        properties = {
+            play = play,
+            stop = stop,
+            fade = fade
+        };
+    }
+    
+    /**
+     * プロパティ設定
+     * @param param プロパティ設定用
+     */
+    function set(param) {
+        //print("set value\n");
+        foreach (key, value in param) {
+            if (key in properties) {
+                local func = properties[key];
+                func(value, param);
+            }
+        }
+    }
+    
+    /**
+     * 同期実行
+     */
+    function sync(page) {
+        //print("sync value\n");
+        if (doPlay && playFile != null) {
+            _play(playFile, volume, fadeTime);
+            doPlay = false;
+        } else if (doStop) {
+            _stop(fadeTime);
+            doStop = false;
+        } else if (doFade) {
+            _fade(volume, fadeTime);
+            doFade = false;
+        }
+    }
+
+	/**
+	 * 状態更新
+     * @param diff 経過時間
+     */
+	function update(diff) {
+        // nothing to do
+    }
+
+	/**
+     * 停止
+     */
+    function pause() {
+        // nothing to do
+    }
+
+    /**
+     * 再開
+     */
+    function restart(page) {
+        // nothing to do
+    }
+
+	function back(fore) {
+        // nothing to do
+    }
+
+    function backDone() {
+        // nothing to do
+    }
+
+    function isAction() {
+		return false;
+    }
+
+    function stopAction() {
+    }
+}
+
+function volumeCalc(volume) {
+	if (volume == null) {
+		volume = 100;
+	}
+	return 0x3fff * volume.tointeger() / 100;
+}
+
+/**
+ * BGM制御用
+ */
+class AdvBGM extends AdvSoundTrack {
+
+    function _play(name, volume, time) {
+        //print("bgm play:" + name + ":" + time + "\n");
+		if (!MusicPlayingNow(0) || MusicCurrent(0) != name) {
+	        MusicPlay(0, name, volumeCalc(volume), timeCalc(time));
+		}
+        //print("bgm play done\n");
+    }
+
+    function _fade(volume, time) {
+        MusicFade(0, volumeCalc(volume), timeCalc(time));
+    }
+    
+    function _stop(time) {
+        MusicStop(0, timeCalc(time));
+    }
+
+    function _playing() {
+        return MusicPlayingNow(0);
+    }
+    
+    constructor(info) {
+        //print("Create BGM\n");
+        ::AdvSoundTrack.constructor(info);
+        loopDefault = true;
+    }
+};
+
+/**
+ * SE制御用
+ */
+class AdvSE extends AdvSoundTrack {
+
+    id = 1;
+
+    function _play(name, volume, time) {
+        if (!isSkip()) {
+			// いったん停止処理
+	        MusicStop(id, 0);
+            MusicPlay(id, name, volumeCalc(volume), timeCalc(time));
+        }
+    }
+
+    function _fade(volume, time) {
+        MusicFade(id, volumeCalc(volume), timeCalc(time))
+    }
+    
+    function _stop(time) {
+        MusicStop(id, timeCalc(time));
+    }
+
+    function _playing() {
+        return MusicPlayingNow(id);
+    }
+    
+    constructor(info) {
+        ::AdvSoundTrack.constructor(info);
+        loopDefault = false;
+        id = getval(info, "id", 1);
+        if (id < 1 || id > 2) {
+            id = 1;
+        }
+    }
+}
+
+/**
+ * フェード終了時処理
+ */
+function onMusicFadeCompleted(ch)
+{
+    if (ch == 0) {
+        onBgmFadeCompleted();
+    } else {
+        onSEFadeComplsted(ch);
+    }
+
+}
+
+/**
+ * 再生終了時処理
+ */
+function onMusicStop(ch)
+{
+    if (ch == 0) {
+        onBgmStop();
+    } else {
+        onSEStop(ch);
+    }
+}
+
+print("sound setup\n");

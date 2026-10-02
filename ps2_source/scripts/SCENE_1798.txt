@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+}
+talk("サイト", null, "（正直、怖いよ……）", null);
+talk("サイト", null, "（あのルイズがこんなサービスをしてくれる\n　なんて……ありえない！）", null);
+talk("サイト", null, "（……ワケ分かんないですよ。ホント）", null);
+talk("サイト", null, "（……もし他の女の子とかにバレたりしたら\n　大変だよな）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +188)});
+waitLoad(true);
+talk("ルイズ", null, "……なにか失礼なコト考えてるわね。", (0x04000000 +5312));
+next((0x01000000 +1800), true);

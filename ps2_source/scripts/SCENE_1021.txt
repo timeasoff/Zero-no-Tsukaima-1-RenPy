@@ -1,0 +1,49 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+}
+talk("サイト", null, "抱っこしてあげようか？", (0x04000000 +8249));
+talk("タバサ", null, "……いい。", (0x04000000 +15262));
+like("タバサ", -15);
+talk("サイト", null, "遠慮するなよ。", (0x04000000 +8250));
+talk("タバサ", null, "……遠慮してない。", (0x04000000 +15263));
+talk("サイト", null, "どれ！\nよいしょ。", (0x04000000 +8251));
+msgoff()
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +94)});
+trans("crossfade", 1000);
+msgon()
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "どうだ？", (0x04000000 +8252));
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……。", null);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……。", null);
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……。", null);
+talk("タバサ", null, "……読みづらい。", (0x04000000 +15264));
+talk("サイト", null, "さいですか。", (0x04000000 +8253));
+talk("タバサ", null, "……おろして。", (0x04000000 +15265));
+talk("サイト", null, "はい。", (0x04000000 +8254));
+msgoff()
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+trans("crossfade", 1000);
+msgon()
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……。", null);
+next((0x01000000 +1023), true);

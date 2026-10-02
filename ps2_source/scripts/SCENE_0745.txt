@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +74)});
+}
+talk("サイト", null, "ウェザリーは、確かにそうかも\nしれないけど……。", (0x04000000 +11930));
+set("lay1", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +341)});
+talk("ルイズ", null, "な、なによ。\nずいぶんと歯切れの悪い言い方じゃない。", (0x04000000 +6461));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "少なくとも、アキナはあくまでも春奈の頭の\n中に刷り込まれた人格で、体は春奈そのもの\nなんだろ？", (0x04000000 +11931));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "アキナを傷つけるということは、\nつまり春奈を傷つけるということで……。", (0x04000000 +11932));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "そ、それは……そうだけど。", (0x04000000 +6462));
+next((0x01000000 +748), true);

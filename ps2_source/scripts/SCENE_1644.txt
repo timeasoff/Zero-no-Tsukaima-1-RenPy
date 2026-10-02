@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +170)});
+}
+msgoff()
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +170)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "ちくしょう、カップ麺食いたいなぁ。", (0x04000000 +13987));
+talk("サイト", null, "白いご飯とみそ汁なんかもいいよなぁ。", (0x04000000 +13988));
+talk("サイト", null, "……はぁ。", (0x04000000 +13989));
+talk("デルフリンガー", null, "……ため息ばかりついてると幸せが逃げるぜ。\n相棒。", (0x04000000 +1380));
+talk("サイト", null, "うるせー。\n俺だってホームシックになるときぐらい\nあるんだよ。", (0x04000000 +13990));
+selectInit();
+selectItem("……なんでこんな目に", (0x01000000 +1645), null, true);
+selectItem("日本は良かったな……", (0x01000000 +1646), null, true);
+selectItem("ここもいいところだけど", (0x01000000 +1647), null, true);
+select();

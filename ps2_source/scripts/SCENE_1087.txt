@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +6)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +202)});
+}
+talk("サイト", null, "本のことだったらさ、タバサにでも相談した方が\nいいんじゃないのか？", (0x04000000 +8558));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +203)});
+waitLoad(true);
+talk("ルイズ", null, "なるほど、タバサね。\n始祖ブリミルについての本を探してるって\n言えば何か知ってるかもしれないわね。", (0x04000000 +4725));
+like("ルイズ", -10);
+talk("サイト", null, "まぁ、でもタバサに虚無の力について\n調べています、って話すわけにもいかないよな。", (0x04000000 +8559));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +202)});
+waitLoad(true);
+talk("ルイズ", null, "それはそうでしょうけど、まぁいいわ。\n魔法学院に帰ったら、一度相談にのってもらう\nことにする。", (0x04000000 +4726));
+next((0x01000000 +1088), true);

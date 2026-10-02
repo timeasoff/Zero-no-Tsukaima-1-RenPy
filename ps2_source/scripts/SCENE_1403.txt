@@ -1,0 +1,25 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +863)});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +555)});
+msgon()
+talk("サイト", null, "（ギーシュとモンモンがいる）", null);
+set("lay4", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "よう、モンモン。", (0x04000000 +9916));
+set("lay3", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +865)});
+talk("モンモランシー", null, "あら、サイト。\nこんなところで奇遇ね。", (0x04000000 +3984));
+set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay4", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +570)});
+talk("ギーシュ", null, "おい、ぼくのことは無視かい！", (0x04000000 +1430));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ああ、ギーシュもいたのか……。", (0x04000000 +9917));
+talk("ギーシュ", null, "なんなんだい、そのあからさまな扱いの悪さは！", (0x04000000 +1431));
+selectInit();
+selectItem("気のせいだって", (0x01000000 +1404), null, true);
+selectItem("気にするな", (0x01000000 +1405), null, true);
+selectItem("いつものことだろ？", (0x01000000 +1406), null, true);
+select();

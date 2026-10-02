@@ -1,0 +1,23 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +20)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +155)});
+}
+talk("ハルナ", null, "平賀くん、行かないよね？\nもう、どこにも消えたりしないよね？", (0x04000000 +2126));
+talk("サイト", null, "消えたりしねーって。\n心配しないで、落ち着いて。", (0x04000000 +11177));
+set("bgm", {stop = 500});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)});
+waitLoad(true);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+talk("ハルナ", null, "良かった……。", (0x04000000 +2127));
+like("ハルナ", 10);
+tndl(-30);
+talk("サイト", null, "（この世界に来てから、知り合いも助けてくれる\n　人もいなかったんだもんな）", null);
+talk("サイト", null, "（顔見知りの俺がいることが、\n　よっぽど大事ってことか）", null);
+set("bgm", {stop = 500});
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +155),imageType = 1});
+waitLoad(true);
+set("bgm", {fadetime = 0,play = (0x03000000 +20)});
+next((0x01000000 +118), true);

@@ -1,0 +1,41 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +6)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +202)});
+}
+talk("サイト", null, "どうせ明日から、爆弾使いの調査を\n始めるんだろ？", (0x04000000 +8560));
+talk("サイト", null, "魔法の研究も程々にしておかないと、\nそのうち身が持たなくなるぞ？", (0x04000000 +8561));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +203)});
+waitLoad(true);
+talk("ルイズ", null, "分かってるわよ。", (0x04000000 +4727));
+talk("サイト", null, "でも俺もさ、ルイズの真面目でひたむきな所を\n見習わなくちゃいけないのかもな。\nただ、剣を振り回してちゃいけないもんな。", (0x04000000 +8562));
+talk("ルイズ", null, "別にマネしなくたっていいわよ。\nそれこそ、サイトらしくないわ。", (0x04000000 +4728));
+talk("サイト", null, "ああ、それじゃあ俺も部屋に帰るよ。", (0x04000000 +8563));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +67)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("ルイズ", null, "……。", (0x04000000 +4729));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "サイトっ。", (0x04000000 +4730));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "なんだよぉ、一体？", (0x04000000 +8564));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +304)});
+talk("ルイズ", null, "ありがとうっ。", (0x04000000 +4731));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +269), true);

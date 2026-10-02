@@ -1,0 +1,46 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+}
+talk("サイト", null, "（こ、このポッチーを食べきったら……、\n　その先にはルイズの……。\n　ど、どうしよう！）", null);
+vibrate(1);
+talk(null, null, "────ポッキン。", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "きっ、きゃあああぁぁっっ！！", (0x04000000 +5511));
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぐ、ぐはっ！", (0x04000000 +10750));
+talk("ルイズ", null, "え、ええと。\nあのっ。\nご、ごめんなさいっ！", (0x04000000 +5512));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("se0", {play = (0x03000000 +58)});
+waitSEStop(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "なんで、怒られるの？", (0x04000000 +10751));
+next((0x01000000 +1852), true);

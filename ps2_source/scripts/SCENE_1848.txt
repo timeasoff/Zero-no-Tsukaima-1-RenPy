@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "……。", (0x04000000 +10747));
+talk("ルイズ", null, "……。", (0x04000000 +5508));
+talk("サイト", null, "（ポッチー１本分の先にルイズがいる……）", null);
+talk("サイト", null, "（息苦しいっていうか……）", null);
+talk("サイト", null, "（ルイズが上気して……）", null);
+selectInit();
+selectItem("ルイズの名前を囁いてみる", (0x01000000 +1849), null, true);
+selectItem("……集中！", (0x01000000 +1850), null, true);
+selectItem("思い切って一気に勝負に……", (0x01000000 +1851), null, true);
+select();

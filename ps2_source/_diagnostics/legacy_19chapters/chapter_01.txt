@@ -1,0 +1,107 @@
+
+=== SCENE_ID.BIN_00000001.BIN ===
+[print]: フェードモジュールアクション\n
+[print]: BasicLayer コンストラクタ\n
+[print]: レイヤ表示状態指定:
+[print]: レイヤレベル指定:
+[print]: レイヤ透明度指定:
+[print]: 状態の複製:
+[print]: ActionLayer コンストラクタ\n
+[print]: 状態の複製
+[print]: 時間つき場所移動:
+[print]: 時間つき透明度:
+[print]: 透明度指定:
+[print]: X指定\n
+[print]: Y指定\n
+[print]: setImage:
+[print]: setRotate\n
+[print]: setZoom\n
+[print]: アクション指定:
+[print]: draw:
+[print]: position\n
+[print]: opacity\n
+[print]: affine\n
+[print]: affine origin:
+[print]: sync start\n
+[print]: sync done\n
+[print]: layer setup\n
+
+=== SCENE_ID.BIN_00000002.BIN ===
+[print]: music stop:
+[print]: Create SoundTrack\n
+[print]: set value\n
+[print]: sync value\n
+[print]: bgm play:
+[print]: bgm play done\n
+[print]: Create BGM\n
+[print]: sound setup\n
+
+=== SCENE_ID.BIN_00000003.BIN ===
+[print]: screen:
+[print]: scene start:
+[print]: addWait 
+[print]: trigger:
+[print]: trigger wait clear:
+[print]: thread status:
+[print]: error 
+[print]: done sceneThread next:
+[print]: sceneThread suspended\n
+[print]: クリックでスキップ中断\n
+[print]: スキップ解除\n
+[print]: スキップ開始\n
+[print]: 未読でスキップ開始できず\n
+[print]: 強制スキップON\n
+[print]: 強制スキップOFF\n
+[print]: line:
+[print]: 未読でスキップ停止:
+[print]: アクション強制停止\n
+[print]: nextScene:
+[print]: beginSkip は入れ子できません
+[print]: 選択肢初期化\n
+[print]: selectDone:
+[print]: 移動初期化\n
+[print]: 移動登録\n
+[print]: 移動登録（ロード用）\n
+[print]: 移動実行\n
+[print]: 移動終了:
+[print]: デート情報登録\n
+[print]: デート実行\n
+[print]: dateDone:
+[print]: ツンデレ値:
+[print]: ツンデレ回数:
+[print]: ルート:
+[print]: キス:
+[print]: 好感度:
+[print]: ツンイベント状態
+[print]:  
+[print]: \n
+[print]: デレイベント状態
+[print]:  
+[print]: \n
+[print]: scene player setup\n
+
+=== SCENE_ID.BIN_00000014.BIN ===
+[サイト]: ちょ、ちょっと考えさせてくれ。
+[ルイズ]: 何、考えこんでるのよ！\nこの場合は断固拒否、でしょ！
+[サイト]: あ、ああ……そうだな。
+
+=== SCENE_ID.BIN_00000033.BIN ===
+[シエスタ]: そうです。\nあの娘のことで来たんです。
+[サイト]: え？
+[シエスタ]: あの娘がさっき目を覚ましたんです。\nそれでわたし、サイトさんとミス・\nヴァリエールにお知らせしようと思って……。
+[サイト]: 本当！？\n分かった、すぐに行くよ！
+[ルイズ]: え、あ、ちょっとサイト！？\nわたしが着替えるまで待ちなさいよ！！
+[シエスタ]: あ、サイトさん。\n待ってください！
+
+=== SCENE_ID.BIN_00000043.BIN ===
+[ルイズ]: 分かった！！！\nだったら、力ずくで離してあげるわっ！！
+[サイト]: って、ちょっと待て！\nこんなところで魔法なんか使ったら……！
+[ルイズ]: 問答無用ー！！
+[サイト]: どわああっ！！
+[タバサ]: 被害甚大……。
+
+=== SCENE_ID.BIN_00000056.BIN ===
+[サイト]: そこをなんとかならないか？
+[ルイズ]: なんとかって、なによ。
+[ルイズ]: 平民１人をわたし達だけでかくまえって\n言うの？\nそんなの無理だわ。
+[サイト]: だ、だけど、可哀相じゃないか。

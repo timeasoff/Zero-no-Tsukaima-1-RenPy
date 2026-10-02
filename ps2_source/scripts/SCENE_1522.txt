@@ -1,0 +1,26 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +605)});
+set("bgm", {play = (0x03000000 +9)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "で、具体的にはどんな感じの料理なの？", (0x04000000 +10072));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +599)});
+talk("タバサ", null, "長くなるけど？", (0x04000000 +15501));
+talk("サイト", null, "できれば簡潔にお願いします。", (0x04000000 +10073));
+talk("タバサ", null, "ひと口大に切ったお肉を串に刺して\nタレを塗りながらお肉を焼くの。", (0x04000000 +15502));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "や、焼き鳥じゃないですか……。", (0x04000000 +10074));
+set("lay0", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +605)});
+talk("タバサ", null, "？？？", (0x04000000 +15503));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

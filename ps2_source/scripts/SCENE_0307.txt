@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +256)});
+}
+talk("サイト", null, "……そりゃだって。\nまさかこんな場所におられるなんて\n誰も思いませんよ。", (0x04000000 +11666));
+talk("サイト", null, "それに、ここまで近くで見たことが\nある人なんて、本当に地位のある人\nだけなんでしょ？", (0x04000000 +11667));
+talk("アンリエッタ", null, "うふふ……。", (0x04000000 +575));
+like("アンリエッタ", 30);
+tndl(-30);
+talk("サイト", null, "（やっぱり、この人はルイズの友達なだけは\n　あるよ……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay20", {show = 0});
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +310), true);

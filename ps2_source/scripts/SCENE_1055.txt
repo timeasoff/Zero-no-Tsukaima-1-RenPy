@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +957)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +423)});
+set("bgm", {play = (0x03000000 +11)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "ずばり、日記とか。", (0x04000000 +8440));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +959)});
+talk("ハルナ", null, "やだ、そんなんじゃないよ。", (0x04000000 +1609));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "本当はバッグも持ってたんだけど、\n逃げ出すときに、なくしちゃったの。", (0x04000000 +1610));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "そ、そうなんだ……。", (0x04000000 +8441));
+talk("ハルナ", null, "身の回りのものはいくつか手元に\n残ってるけど、今の私にとっての\n宝物はこれなの。", (0x04000000 +1611));
+talk("サイト", null, "これって、生徒手帳？", (0x04000000 +8442));
+talk("ハルナ", null, "うん……。", (0x04000000 +1612));
+next((0x01000000 +1058), true);

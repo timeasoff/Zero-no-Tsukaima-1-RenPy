@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +546)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +418)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +70)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +412)});
+talk("サイト", null, "ルイズの力があったからだと思う。\n正直、ここまで生きてこれたのも、\nルイズの力があるからだし。", (0x04000000 +8577));
+set("lay2", {dr = "2C",show = 1,level = 160,lv = 0,image = (0x02000000 +550)});
+talk("シエスタ", null, "ミス・ヴァリエールの力……ですか。", (0x04000000 +14258));
+like("シエスタ", -10);
+next((0x01000000 +1093), true);

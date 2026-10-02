@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +340)});
+set("bgm", {play = (0x03000000 +32)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+}
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "トイレに行ってた。", (0x04000000 +11077));
+set("lay1", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +335)});
+talk("ルイズ", null, "は？\nトイレ……って、もおっ！\nそれならそうと言いなさいよ、この馬鹿っ。", (0x04000000 +5770));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "えー。\nそういうのって、いちいち言うものなのかあ？", (0x04000000 +11078));
+talk("ルイズ", null, "黙っていなくなる方が問題だって言ってるの！", (0x04000000 +5771));
+talk("ルイズ", null, "とっ、とにかく、用事はもう済んだわけよね？", (0x04000000 +5772));
+talk("サイト", null, "うん。", (0x04000000 +11079));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +341)});
+talk("ルイズ", null, "だったら、残りの授業はおとなしくしてなさい。\nいいわね？", (0x04000000 +5773));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "あー、ミス・ヴァリエール。\n使い魔の教育も結構だが、今は授業中です。\n静かにしなさい。", (0x04000000 +1000));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "はい、すみません……。", (0x04000000 +5774));
+next((0x01000000 +90), true);

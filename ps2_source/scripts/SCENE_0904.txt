@@ -1,0 +1,23 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +594)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "タバサって、魔法使いかと思ったら\n騎士だったんだな。\nシュヴァリエって騎士の称号なんだろ？", (0x04000000 +12401));
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +682)});
+talk("ルイズ", null, "サイト……。", (0x04000000 +6776));
+talk("キュルケ", null, "ダーリン……。", (0x04000000 +3452));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 274,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,dr = "2A",opacityTime = 100,show = 1,x = 224,moveTime = 100,xFrom = 174,level = 160,lv = 0,opacityFrom = 0,image = (0x02000000 +429)});
+talk("サイト", null, "えっ、ええっ！？\nなんで２人とも呆れてるんだよ？", (0x04000000 +12402));
+talk("ルイズ", null, "シュヴァリエというのはね、\n功績をあげた者に与えられる称号のことよ。", (0x04000000 +6777));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "なるほどね。", (0x04000000 +12403));
+set("lay1", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +302)});
+next((0x01000000 +907), true);

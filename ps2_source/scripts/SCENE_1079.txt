@@ -1,0 +1,40 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +11)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "なあ、春奈。\nちょっと一緒に中庭に出てみないか？", (0x04000000 +8532));
+set("lay5", {y = 0,x = 224});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +951)});
+talk("ハルナ", null, "うん、いいけど。", (0x04000000 +1628));
+talk("サイト", null, "春奈に見せたかった物があるんだ。", (0x04000000 +8533));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +953)});
+talk("ハルナ", null, "へぇー、なんだろ？\n楽しみだなぁ。", (0x04000000 +1629));
+like("ハルナ", 20);
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +270)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +17)});
+msgon()
+talk("サイト", null, "春奈に見せたい物って、これなんだ。", (0x04000000 +8534));
+talk("ハルナ", null, "これって、飛行機？\nゼロ戦に見えるんだけど……？\nまさか、本物ってことはないよね？", (0x04000000 +1630));
+talk("サイト", null, "本物だよ。\nこのゼロ戦、日本からこの世界に来たもの\nなんだ。", (0x04000000 +8535));
+talk("ハルナ", null, "えっ、本物なのっ！？\n日本から、ここに？", (0x04000000 +1631));
+talk("サイト", null, "うん。\nシエスタのひいおじいちゃんのものなんだけど、\nこのゼロ戦に乗ってこの世界に来たらしい。", (0x04000000 +8536));
+talk("ハルナ", null, "私達以外にも、この世界に来てる人が\nいるんだ……。", (0x04000000 +1632));
+talk("ハルナ", null, "でも、戻ったという話は、\n今まで聞いたことないんだよね……？", (0x04000000 +1633));
+talk("サイト", null, "それは……。", (0x04000000 +8537));
+selectInit();
+selectItem("仕方のないことだよ", (0x01000000 +1080), null, true);
+selectItem("俺達が知らないだけかも", (0x01000000 +1081), null, true);
+selectItem("俺達が最初の帰還者になる", (0x01000000 +1082), null, true);
+select();

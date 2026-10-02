@@ -1,0 +1,71 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +32)});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "それではミス・ヴァリエール。\n道中、気をつけるのですよ？", (0x04000000 +1057));
+set("lay9", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +304)});
+talk("ルイズ", null, "はい。\nありがとうございます、ミスタ・コルベール。", (0x04000000 +6062));
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +918)});
+talk("オスマン", null, "道中、気をつけるように。\n何かあったら、すぐに伝書を飛ばすがよいぞ。", (0x04000000 +4432));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "分かりました。\nわたし達に、このような立派な馬車を\nご用意いただき感謝します。", (0x04000000 +6063));
+talk("オスマン", null, "ふむ、礼には及ばぬ。", (0x04000000 +4433));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +920)});
+talk("オスマン", null, "ささっ、女王陛下が首を長くしてお待ちに\nなっておる事じゃろう。\n気をつけて行ってきなされ。", (0x04000000 +4434));
+talk("ルイズ", null, "はい、では、行って参ります。", (0x04000000 +6064));
+set("lay10", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "サイトくん、お二人のことを頼みましたよ？", (0x04000000 +1058));
+set("lay9", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "はい、頑張ります。", (0x04000000 +11468));
+talk("コルベール", null, "ハルナくん、向こうへ行ったら\nミス・ヴァリエールや、\nサイトくんの指示に従うように。", (0x04000000 +1059));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "はい、分かりました。", (0x04000000 +2264));
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +335)});
+talk("ルイズ", null, "それじゃあ、馬車へ乗り込みましょう。", (0x04000000 +6065));
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +123)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（さて、その馬車ってのは２人掛けの席が\n　向かい合った形だったりする\n　ワケなんだけど……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +120)});
+waitLoad(true);
+talk("サイト", null, "（ルイズと春奈が向かい合って座ってるよ。\n　さて、どっちの隣に座ればいいのか……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +121)});
+waitLoad(true);
+talk("ルイズ", null, "なにボサッとしてるのよ？\n早くわたしの隣に座りなさいっ！", (0x04000000 +6066));
+talk("ハルナ", null, "平賀くん、私の隣でもいいよ？\nルイズさんが狭くなるの、なんだか悪いわ。", (0x04000000 +2265));
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +440)});
+msgon()
+talk("サイト", null, "ああ、どうしようかなぁ……。", (0x04000000 +11469));
+selectInit();
+selectItem("ルイズの隣に座る", (0x01000000 +232), null, true);
+selectItem("春奈の隣に座る", (0x01000000 +233), null, true);
+selectItem("どっちの席も捨てがたいと悩む", (0x01000000 +234), null, true);
+select();

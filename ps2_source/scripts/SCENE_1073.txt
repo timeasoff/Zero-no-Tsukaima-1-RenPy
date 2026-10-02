@@ -1,0 +1,29 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +236)});
+}
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +237),imageType = 1});
+waitLoad(true);
+talk("タバサ", null, "でも……のぞき見はよくない。", (0x04000000 +15301));
+talk("サイト", null, "ごめんごめん。\n邪魔しないから、しばらくタバサ達の\n様子を眺めてていいかな？", (0x04000000 +8516));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +236)});
+waitLoad(true);
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "やっぱ、ダメか？\n楽しそうにしてるタバサを見てると、\n俺までいい気分になれるんだけどな。", (0x04000000 +8517));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +237)});
+waitLoad(true);
+talk("タバサ", null, "……いいよ。", (0x04000000 +15302));
+talk("サイト", null, "そっか。\nありがとう。", (0x04000000 +8518));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

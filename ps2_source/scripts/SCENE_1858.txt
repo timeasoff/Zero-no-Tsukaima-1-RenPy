@@ -1,0 +1,43 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +196)});
+}
+talk("サイト", null, "……。", (0x04000000 +10776));
+talk("ルイズ", null, "……。", (0x04000000 +5537));
+talk("サイト", null, "（……くっ、とまっちまった！）", null);
+talk("サイト", null, "（ここは残りを一息にっ！）", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……ダ、ダメっ！\nもう限界っ！\n耐えられないっ！", (0x04000000 +5538));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay19", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay19", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+set("event", {show = 0});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "って……いきなり、魔法を撃つかよ！\n普通っ！", (0x04000000 +10777));
+msgoff()
+next((0x01000000 +1860), true);

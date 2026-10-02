@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +6)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +202)});
+}
+set("lay5", {y = 416,show = 0,x = 304});
+talk("サイト", null, "本に頼らないってどうだ？", (0x04000000 +8556));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +203)});
+waitLoad(true);
+talk("ルイズ", null, "それで安心できるならいいんだけど……。\nやっぱり駄目。", (0x04000000 +4721));
+talk("ルイズ", null, "結局この力がどこから来て、\nどこに向かうのか……。\nわたしだけでは全然分からないもの。", (0x04000000 +4722));
+talk("ルイズ", null, "そう考えると、わたし……。\n虚無の使い手でもなんでもなく、", (0x04000000 +4723));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +202)});
+waitLoad(true);
+talk("ルイズ", null, "ただ、虚無にほんろうされてる\nだけかもしれないわ。", (0x04000000 +4724));
+talk("サイト", null, "……。", (0x04000000 +8557));
+next((0x01000000 +1088), true);

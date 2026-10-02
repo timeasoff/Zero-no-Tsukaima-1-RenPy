@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 156,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +401)});
+set("bgm", {play = (0x03000000 +25)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 135,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +303)});
+talk("ルイズ", null, "わたしはラ・ヴァリエール公爵家の三女、\nルイズ・フランソワーズです。", (0x04000000 +6850));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 110,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 160,lv = 0,image = (0x02000000 +1114)});
+set("lay1", {level = 151});
+talk("味方Ａ", "兵士", "な、公爵家？", (0x04000000 +4253));
+talk("ルイズ", null, "姫さま……。\nいえ、女王陛下に拝謁賜りたく、\n取り次ぎしていただきたいのです。", (0x04000000 +6851));
+talk("味方Ａ", "兵士", "女王陛下に……？\nわ、分かった、今すぐ確認するから、\nここで待っていてくれないか。", (0x04000000 +4254));
+talk("ルイズ", null, "ありがとうございます。", (0x04000000 +6852));
+set("lay15", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 160,opacityFrom = 100,hide = 1,opacityTime = 100,x = 210});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 156,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +434)});
+talk("サイト", null, "はー、公爵家ってすごいんだな。\nあんなに厳しかった兵士がいちころじゃねーか。", (0x04000000 +12571));
+talk("ルイズ", null, "今頃分かったの？\nこれからはあんたも、もう少し\n立場というものを考えて行動することね。", (0x04000000 +6853));
+talk("サイト", null, "へーい。", (0x04000000 +12572));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +945), true);

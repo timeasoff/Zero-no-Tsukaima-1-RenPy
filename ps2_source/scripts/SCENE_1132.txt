@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +22)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +257)});
+}
+talk("サイト", null, "分かりません。", (0x04000000 +8737));
+talk("サイト", null, "あの時の俺とお姫さまは、芝居のうずに\n飲み込まれていましたから。", (0x04000000 +8738));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +258)});
+waitLoad(true);
+talk("アンリエッタ", null, "……。", (0x04000000 +358));
+talk("サイト", null, "でも、冷静になった今でもあの誓いは言えます。", (0x04000000 +8739));
+talk("サイト", null, "あ～～。\nもちろん、お姫さまの許可があればですが。", (0x04000000 +8740));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +257)});
+waitLoad(true);
+talk("アンリエッタ", null, "許可は考えておきましょう。", (0x04000000 +359));
+next((0x01000000 +1133), true);

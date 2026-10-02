@@ -1,0 +1,4 @@
+chapters/chapter_00_オープニング（本編前）.txt
+chapters/chapter_99_未分類.txt
+events_full/chapter_00_オープニング（本編前）.txt
+events_full/chapter_99_未分類.txt

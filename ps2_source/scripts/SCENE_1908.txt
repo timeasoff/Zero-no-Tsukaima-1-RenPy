@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +957)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+}
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "（せめて馬車でも通りかかってくれれば……）", (0x04000000 +2043));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "（あ、馬に乗ってる人が……）", (0x04000000 +2044));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1061)});
+set("lay11", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1105)});
+talk("ハルナ", null, "（って、あれはウェザリーさんじゃない！）", (0x04000000 +2045));
+talk("ウェザリー", null, "……。", null);
+talk("魔導士", null, "……。", null);
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay11", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +990)});
+talk("ハルナ", null, "（絶対に魔法学院方面に逃がさないように、\n　非常線を張ってるのね……）", (0x04000000 +2046));
+talk("ハルナ", null, "（無理だわ。\n　戻らないと……）", (0x04000000 +2047));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +1909), true);

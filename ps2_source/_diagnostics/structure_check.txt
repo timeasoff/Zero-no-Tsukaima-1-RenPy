@@ -1,0 +1,77 @@
+files: 1920
+empty: 0 []
+totals: {'talk': 17283, 'set': 28400, 'trans': 1293, 'next': 1416, 'selectItem': 1092}
+unbalanced braces/parens: 558
+   SCENE_0001.txt  {}=+1  ()=-1
+   SCENE_0003.txt  {}=-3  ()=+0
+   SCENE_0006.txt  {}=-1  ()=+0
+   SCENE_0010.txt  {}=+5  ()=+0
+   SCENE_0011.txt  {}=+2  ()=+0
+   SCENE_0013.txt  {}=-1  ()=+0
+   SCENE_0015.txt  {}=+1  ()=+0
+   SCENE_0016.txt  {}=+2  ()=+0
+   SCENE_0017.txt  {}=+4  ()=+0
+   SCENE_0018.txt  {}=+1  ()=+0
+   SCENE_0020.txt  {}=+1  ()=+0
+   SCENE_0024.txt  {}=+2  ()=+0
+   SCENE_0028.txt  {}=-1  ()=+0
+   SCENE_0029.txt  {}=+1  ()=+0
+   SCENE_0031.txt  {}=+2  ()=+0
+   SCENE_0032.txt  {}=+2  ()=+0
+   SCENE_0033.txt  {}=+1  ()=+0
+   SCENE_0034.txt  {}=+1  ()=+0
+   SCENE_0039.txt  {}=+1  ()=+0
+   SCENE_0041.txt  {}=-2  ()=+0
+   SCENE_0044.txt  {}=-10  ()=+0
+   SCENE_0045.txt  {}=-3  ()=+0
+   SCENE_0046.txt  {}=-3  ()=+0
+   SCENE_0047.txt  {}=-6  ()=+0
+   SCENE_0060.txt  {}=+1  ()=+0
+   SCENE_0068.txt  {}=+2  ()=+0
+   SCENE_0070.txt  {}=+1  ()=+0
+   SCENE_0081.txt  {}=+1  ()=+0
+   SCENE_0082.txt  {}=+3  ()=+0
+   SCENE_0083.txt  {}=+1  ()=+0
+   SCENE_0085.txt  {}=+1  ()=+0
+   SCENE_0087.txt  {}=-1  ()=+0
+   SCENE_0092.txt  {}=+1  ()=+0
+   SCENE_0095.txt  {}=+1  ()=+0
+   SCENE_0106.txt  {}=-1  ()=+0
+   SCENE_0107.txt  {}=+2  ()=+0
+   SCENE_0111.txt  {}=+1  ()=+0
+   SCENE_0114.txt  {}=+1  ()=+0
+   SCENE_0119.txt  {}=+4  ()=+0
+   SCENE_0120.txt  {}=-2  ()=+0
+odd double-quote count: 2 ['SCENE_1533.txt', 'SCENE_1697.txt']
+
+=== sample SCENE_0006.txt (first 900 bytes) ===
+reset();
+title("ゼロのルイズ");
+tndl(null);
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1128)});
+trans("crossfade", 1000);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 2000);
+endSkip();
+item("パン", 3);
+item("ハーブ", 3);
+item("エリクサー", 3);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,level = 

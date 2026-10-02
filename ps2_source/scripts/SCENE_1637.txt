@@ -1,0 +1,30 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +119)});
+}
+talk("サイト", null, "……お、お邪魔しちゃおうかな？", (0x04000000 +13961));
+talk("キュルケ", null, "うふふ、さあいらっしゃいな。", (0x04000000 +3891));
+msgoff()
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +171)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "な、なに考えてるのよ！\nバカ犬！", (0x04000000 +7770));
+talk("サイト", null, "……ひいっ！\nい、いえ、あのその。", (0x04000000 +13962));
+talk("キュルケ", null, "部屋を追い出されたかわいそうなダーリンを、\n暖めてあげようとしただけよ？\nダーリンだってあたしがいいわよね？", (0x04000000 +3892));
+talk("サイト", null, "お、おおうっ……そんな……\n胸を押し付けられると……。", (0x04000000 +13963));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +172)});
+waitLoad(true);
+talk("ルイズ", null, "……バババ、バカ犬っ！\n今日のところは許してあげるわ！\n早く部屋に戻りなさいっ！", (0x04000000 +7771));
+talk("キュルケ", null, "うふふ、ムキにならなくてもいいのに……。", (0x04000000 +3893));
+talk("ルイズ", null, "お、大きなお世話よ！", (0x04000000 +7772));
+next((0x01000000 +1640), true);

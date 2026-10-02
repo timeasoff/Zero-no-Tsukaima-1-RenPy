@@ -1,0 +1,194 @@
+=== SCENE_ID.BIN_00000000.BIN (599 bytes) ===
+-- first 768 bytes hex+ascii --
+000000: 2F 2F 0D 0A 2F 2F 20 83 86 81 5B 83 65 83 42 83  //..// ...[.e.B.
+000010: 8A 83 65 83 42 92 E8 8B 60 0D 0A 2F 2F 20 0D 0A  ..e.B...`..// ..
+000020: 0D 0A 2F 2A 2A 0D 0A 20 2A 20 83 65 81 5B 83 75  ../**.. * .e.[.u
+000030: 83 8B 82 A9 82 E7 20 6E 61 6D 65 20 82 C5 8E A6  ...... name ....
+000040: 82 B3 82 EA 82 E9 97 76 91 66 82 F0 8E E6 82 E8  .......v.f......
+000050: 8F 6F 82 B7 0D 0A 20 2A 20 40 70 61 72 61 6D 20  .o.... * @param 
+000060: 74 61 62 6C 65 20 8F 88 97 9D 91 CE 8F DB 82 CC  table ..........
+000070: 83 65 81 5B 83 75 83 8B 0D 0A 20 2A 20 40 70 61  .e.[.u.... * @pa
+000080: 72 61 6D 20 6E 61 6D 65 20 20 8D 80 96 DA 82 CC  ram name  ......
+000090: 96 BC 91 4F 0D 0A 20 2A 2F 0D 0A 66 75 6E 63 74  ...O.. */..funct
+0000A0: 69 6F 6E 20 67 65 74 76 61 6C 28 74 61 62 6C 65  ion getval(table
+0000B0: 2C 20 6E 61 6D 65 2C 20 64 65 66 61 75 6C 74 56  , name, defaultV
+0000C0: 61 6C 75 65 29 20 0D 0A 7B 0D 0A 20 20 20 20 69  alue) ..{..    i
+0000D0: 66 20 28 6E 61 6D 65 20 69 6E 20 74 61 62 6C 65  f (name in table
+0000E0: 29 20 7B 0D 0A 20 20 20 20 20 20 20 20 72 65 74  ) {..        ret
+0000F0: 75 72 6E 20 74 61 62 6C 65 5B 6E 61 6D 65 5D 3B  urn table[name];
+000100: 0D 0A 20 20 20 20 7D 0D 0A 20 20 20 20 72 65 74  ..    }..    ret
+000110: 75 72 6E 20 64 65 66 61 75 6C 74 56 61 6C 75 65  urn defaultValue
+000120: 3B 0D 0A 7D 0D 0A 0D 0A 2F 2A 2A 0D 0A 20 2A 20  ;..}..../**.. * 
+000130: 8E 9E 8A D4 82 CC 95 CF 8A B7 97 70 0D 0A 20 2A  ...........p.. *
+000140: 20 40 70 61 72 61 6D 20 74 69 6D 65 20 8E 9E 8A   @param time ...
+000150: D4 28 6D 73 29 0D 0A 20 2A 20 40 70 61 72 61 6D  .(ms).. * @param
+000160: 20 83 74 83 8C 81 5B 83 80 90 94 0D 0A 20 2A 2F   .t...[...... */
+000170: 0D 0A 66 75 6E 63 74 69 6F 6E 20 74 69 6D 65 43  ..function timeC
+000180: 61 6C 63 28 74 69 6D 65 29 0D 0A 7B 0D 0A 09 69  alc(time)..{...i
+000190: 66 20 28 74 69 6D 65 20 3D 3D 20 6E 75 6C 6C 29  f (time == null)
+0001A0: 20 7B 0D 0A 09 09 74 69 6D 65 20 3D 20 30 3B 0D   {....time = 0;.
+0001B0: 0A 09 7D 0D 0A 09 72 65 74 75 72 6E 20 74 69 6D  ..}...return tim
+0001C0: 65 2E 74 6F 69 6E 74 65 67 65 72 28 29 20 2F 20  e.tointeger() / 
+0001D0: 31 36 3B 0D 0A 7D 0D 0A 0D 0A 2F 2A 2A 0D 0A 20  16;..}..../**.. 
+0001E0: 2A 20 97 90 90 94 90 B6 90 AC 0D 0A 20 2A 2F 0D  * .......... */.
+0001F0: 0A 66 75 6E 63 74 69 6F 6E 20 72 61 6E 64 6F 6D  .function random
+000200: 28 61 29 0D 0A 7B 0D 0A 09 6C 6F 63 61 6C 20 64  (a)..{...local d
+000210: 20 3D 20 72 61 6E 64 28 29 2E 74 6F 66 6C 6F 61   = rand().tofloa
+000220: 74 28 29 20 2F 20 52 41 4E 44 5F 4D 41 58 20 2A  t() / RAND_MAX *
+000230: 20 61 3B 0D 0A 20 20 20 20 72 65 74 75 72 6E 20   a;..    return 
+000240: 20 64 2E 74 6F 69 6E 74 65 67 65 72 28 29 20 3B   d.tointeger() ;
+000250: 0D 0A 7D 0D 0A 0D 0A                             ..}....
+-- ASCII runs >= 6 --
+  @000036:  name 
+  @000056:  * @param table 
+  @00007A:  * @param name  
+  @00009B: function getval(table, name, defaultValue) 
+  @0000CB:     if (name in table) {
+  @0000E5:         return table[name];
+  @000109:     return defaultValue;
+  @00013E:  * @param time 
+  @000157:  * @param 
+  @000172: function timeCalc(time)
+  @00018F: if (time == null) {
+  @0001A6: time = 0;
+  @0001B6: return time.tointeger() / 16;
+  @0001F1: function random(a)
+  @000209: local d = rand().tofloat() / RAND_MAX * a;
+  @000235:     return  d.tointeger() ;
+-- SJIS-decodable runs >= 8 bytes --
+  @000003: \n// ユーティリティ定義
+  @000026: \n * テーブルから name で示される要素を取り出す
+  @000055: \n * @param table 処理対象のテーブル
+  @000079: \n * @param name  項目の名前
+  @00009A: \nfunction getval(table, name, defaultValue) 
+  @0000CA: \n    if (name in table) {
+  @0000E4: \n        return table[name];
+  @000108: \n    return defaultValue;
+  @00012C: \n * 時間の変換用
+  @00013D: \n * @param time 時間(ms)
+  @000156: \n * @param フレーム数
+  @000171: \nfunction timeCalc(time)
+  @00018D: \n\tif (time == null) {
+  @0001A3: \n\t\ttime = 0;
+  @0001B4: \n\treturn time.tointeger() / 16;
+  @0001DE: \n * 乱数生成
+  @0001F0: \nfunction random(a)
+  @000207: \n\tlocal d = rand().tofloat() / RAND_MAX * a;
+  @000234: \n    return  d.tointeger() ;
+
+=== SCENE_ID.BIN_00000004.BIN (260 bytes) ===
+-- first 768 bytes hex+ascii --
+000000: 69 69 56 72 61 6C 28 3B 73 6C 63 49 69 28 3B 73  iiVral(;slcIi(;s
+000010: 6C 63 49 65 28 8B 92 95 22 20 30 30 30 30 30 20  lcIe(..." 00000 
+000020: 31 36 29 20 75 6C 20 72 65 3B 73 6C 63 49 65 28  16) ul re;slcIe(
+000030: 8C 95 95 22 20 30 30 30 30 30 20 31 36 29 20 75  ..." 00000 16) u
+000040: 6C 20 72 65 3B 73 6C 63 49 65 28 83 83 83 83 22  l re;slcIe(...."
+000050: 20 30 30 30 30 30 20 31 36 29 20 75 6C 20 72 65   00000 16) ul re
+000060: 3B 73 6C 63 49 65 28 83 81 83 81 22 20 30 30 30  ;slcIe(...." 000
+000070: 30 30 20 31 31 29 20 75 6C 20 72 65 3B 73 6C 63  00 11) ul re;slc
+000080: 28 3B 6E 74 61 69 62 65 29 0A 65 65 74 6E 74 29  (;ntaibe).eetnt)
+000090: 0A 65 65 74 74 6D 22 A4 CA 94 2C 28 78 31 30 30  .eettm"...,(x100
+0000A0: 30 2B 38 31 2C 6E 6C 2C 74 75 29 0A 65 65 74 74  0+81,nl,tu).eett
+0000B0: 6D 22 C2 CA 94 2C 28 78 31 30 30 30 2B 38 32 2C  m"...,(x1000+82,
+0000C0: 6E 6C 2C 74 75 29 0A 65 65 74 74 6D 22 63 93 66  nl,tu).eettm"c.f
+0000D0: 8C 2C 28 78 31 30 30 30 2B 38 35 2C 6E 6C 2C 74  .,(x1000+85,nl,t
+0000E0: 75 29 0A 65 65 74 74 6D 22 80 5B 72 5B 2C 28 78  u).eettm".[r[,(x
+0000F0: 31 30 30 30 2B 39 35 2C 6E 6C 2C 74 75 29 0A 65  1000+95,nl,tu).e
+000100: 65 74 29 0A                                      et).
+-- ASCII runs >= 6 --
+  @000000: iiVral(;slcIi(;slcIe(
+  @000018: " 00000 16) ul re;slcIe(
+  @000033: " 00000 16) ul re;slcIe(
+  @00004F: " 00000 16) ul re;slcIe(
+  @00006B: " 00000 11) ul re;slc(;ntaibe)
+  @00008A: eetnt)
+  @000091: eettm"
+  @00009A: ,(x1000+81,nl,tu)
+  @0000AC: eettm"
+  @0000B5: ,(x1000+82,nl,tu)
+  @0000C7: eettm"c
+  @0000D1: ,(x1000+85,nl,tu)
+  @0000E3: eettm"
+  @0000EA: [r[,(x1000+95,nl,tu)
+-- SJIS-decodable runs >= 8 bytes --
+  @000000: iiVral(;slcIi(;slcIe(拠
+  @000018: " 00000 16) ul re;slcIe(剣
+  @000033: " 00000 16) ul re;slcIe(ャャ" 00000 16) ul re;slcIe(メメ" 00000 11) ul re;slc(;ntaibe)\neetnt)\neettm"
+  @00009A: ,(x1000+81,nl,tu)\neettm"
+  @0000B5: ,(x1000+82,nl,tu)\neettm"c吐
+  @0000D1: ,(x1000+85,nl,tu)\neettm"
+  @0000EA: [r[,(x1000+95,nl,tu)\neet)\n
+
+=== SCENE_ID.BIN_00000014.BIN (1342 bytes) ===
+-- first 768 bytes hex+ascii --
+000000: 69 66 20 28 69 73 4A 75 6D 70 28 29 29 7B 0A 72  if (isJump()){.r
+000010: 65 73 65 74 28 29 3B 0A 73 65 74 28 22 6C 61 79  eset();.set("lay
+000020: 35 22 2C 20 7B 6F 70 61 63 69 74 79 20 3D 20 31  5", {opacity = 1
+000030: 30 30 2C 79 20 3D 20 30 2C 79 46 72 6F 6D 20 3D  00,y = 0,yFrom =
+000040: 20 30 2C 73 68 6F 77 20 3D 20 31 2C 6D 6F 76 65   0,show = 1,move
+000050: 54 69 6D 65 20 3D 20 31 30 30 2C 78 46 72 6F 6D  Time = 100,xFrom
+000060: 20 3D 20 31 37 34 2C 6C 65 76 65 6C 20 3D 20 31   = 174,level = 1
+000070: 36 30 2C 6F 70 61 63 69 74 79 46 72 6F 6D 20 3D  60,opacityFrom =
+000080: 20 30 2C 64 72 20 3D 20 22 31 41 22 2C 6F 70 61   0,dr = "1A",opa
+000090: 63 69 74 79 54 69 6D 65 20 3D 20 31 30 30 2C 78  cityTime = 100,x
+0000A0: 20 3D 20 32 32 34 2C 6C 76 20 3D 20 30 2C 69 6D   = 224,lv = 0,im
+0000B0: 61 67 65 20 3D 20 28 30 78 30 32 30 30 30 30 30  age = (0x0200000
+0000C0: 30 20 2B 33 39 34 29 7D 29 3B 0A 73 65 74 28 22  0 +394)});.set("
+0000D0: 6C 61 79 31 31 22 2C 20 7B 6F 70 61 63 69 74 79  lay11", {opacity
+0000E0: 20 3D 20 31 30 30 2C 79 20 3D 20 30 2C 79 46 72   = 100,y = 0,yFr
+0000F0: 6F 6D 20 3D 20 30 2C 73 68 6F 77 20 3D 20 31 2C  om = 0,show = 1,
+000100: 6D 6F 76 65 54 69 6D 65 20 3D 20 31 30 30 2C 78  moveTime = 100,x
+000110: 46 72 6F 6D 20 3D 20 2D 31 34 36 2C 6C 65 76 65  From = -146,leve
+000120: 6C 20 3D 20 31 36 30 2C 6F 70 61 63 69 74 79 46  l = 160,opacityF
+000130: 72 6F 6D 20 3D 20 30 2C 64 72 20 3D 20 22 31 41  rom = 0,dr = "1A
+000140: 22 2C 6F 70 61 63 69 74 79 54 69 6D 65 20 3D 20  ",opacityTime = 
+000150: 31 30 30 2C 78 20 3D 20 2D 39 36 2C 6C 76 20 3D  100,x = -96,lv =
+000160: 20 30 2C 69 6D 61 67 65 20 3D 20 28 30 78 30 32   0,image = (0x02
+000170: 30 30 30 30 30 30 20 2B 31 31 30 35 29 7D 29 3B  000000 +1105)});
+000180: 0A 73 65 74 28 22 62 67 6D 22 2C 20 7B 70 6C 61  .set("bgm", {pla
+000190: 79 20 3D 20 28 30 78 30 33 30 30 30 30 30 30 20  y = (0x03000000 
+0001A0: 2B 31 38 29 7D 29 3B 0A 73 65 74 28 22 73 74 61  +18)});.set("sta
+0001B0: 67 65 22 2C 20 7B 6F 70 61 63 69 74 79 20 3D 20  ge", {opacity = 
+0001C0: 31 30 30 2C 79 20 3D 20 30 2C 73 68 6F 77 20 3D  100,y = 0,show =
+0001D0: 20 31 2C 6C 65 76 65 6C 20 3D 20 32 30 30 2C 78   1,level = 200,x
+0001E0: 20 3D 20 30 2C 69 6D 61 67 65 20 3D 20 28 30 78   = 0,image = (0x
+0001F0: 30 32 30 30 30 30 30 30 20 2B 38 35 29 7D 29 3B  02000000 +85)});
+000200: 0A 7D 0A 73 65 74 28 22 6C 61 79 35 22 2C 20 7B  .}.set("lay5", {
+000210: 79 20 3D 20 30 2C 73 68 6F 77 20 3D 20 31 2C 6C  y = 0,show = 1,l
+000220: 65 76 65 6C 20 3D 20 31 36 30 2C 69 6D 61 67 65  evel = 160,image
+000230: 54 79 70 65 20 3D 20 32 2C 64 72 20 3D 20 22 31  Type = 2,dr = "1
+000240: 41 22 2C 69 6D 61 67 65 54 69 6D 65 20 3D 20 33  A",imageTime = 3
+000250: 30 30 2C 78 20 3D 20 32 32 34 2C 6C 76 20 3D 20  00,x = 224,lv = 
+000260: 30 2C 69 6D 61 67 65 20 3D 20 28 30 78 30 32 30  0,image = (0x020
+000270: 30 30 30 30 30 20 2B 33 39 36 29 7D 29 3B 0A 74  00000 +396)});.t
+000280: 61 6C 6B 28 22 83 54 83 43 83 67 22 2C 20 6E 75  alk(".T.C.g", nu
+000290: 6C 6C 2C 20 22 82 BF 82 E5 81 41 82 BF 82 E5 82  ll, ".....A.....
+0002A0: C1 82 C6 8D 6C 82 A6 82 B3 82 B9 82 C4 82 AD 82  ....l...........
+0002B0: EA 81 42 22 2C 20 28 30 78 30 34 30 30 30 30 30  ..B", (0x0400000
+0002C0: 30 20 2B 31 30 38 31 34 29 29 3B 0A 73 65 74 28  0 +10814));.set(
+0002D0: 22 6C 61 79 31 31 22 2C 20 7B 6F 70 61 63 69 74  "lay11", {opacit
+0002E0: 79 20 3D 20 30 2C 79 20 3D 20 30 2C 79 46 72 6F  y = 0,y = 0,yFro
+0002F0: 6D 20 3D 20 30 2C 6D 6F 76 65 54 69 6D 65 20 3D  m = 0,moveTime =
+-- ASCII runs >= 6 --
+  @000000: if (isJump()){
+  @00000F: reset();
+  @000018: set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+  @0000CB: set("lay11", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1105)});
+  @000181: set("bgm", {play = (0x03000000 +18)});
+  @0001A8: set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+  @000203: set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+  @00027F: talk("
+  @00028A: g", null, "
+  @0002B2: B", (0x04000000 +10814));
+  @0002CC: set("lay11", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+  @000349: set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+  @0003FD: talk("
+  @000408: Y", null, "
+  @000446: I", (0x04000000 +5574));
+  @00045F: set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+  @0004DB: talk("
+  @0004E6: g", null, "
+  @000506: B", (0x04000000 +10815));
+  @000520: next((0x01000000 +15), true);
+-- SJIS-decodable runs >= 8 bytes --
+  @000000: if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});\nset("lay11", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1105)});\nset("bgm", {play = (0x03000000 +18)});\nset("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});\n}\nset("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});\ntalk("サイト", null, "ちょ、ちょっと考えさせてくれ。", (0x04000000 +10814));\nset("lay11", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});\nset("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});\ntalk("ルイズ", null, "何、考えこんでるのよ！\nこの場合は断固拒否、でしょ！", (0x04000000 +5574));\nset("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});\ntalk("サイト", null, "あ、ああ……そうだな。", (0x04000000 +10815));\nnext((0x01000000 +15), true);\n

@@ -1,0 +1,36 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+}
+talk("サイト", null, "（こ、こうなりゃヤケクソだ！）", null);
+talk("サイト", null, "……ルイズ、愛してる。\n好きだ。", (0x04000000 +10720));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "ちょっ、ちょっと！\n何を言いだすのよ！", (0x04000000 +5462));
+talk("サイト", null, "……なんだよ。\n愛と情熱の言葉を語りかけろって言ったのは、\nそっちだろ！", (0x04000000 +10721));
+talk("ルイズ", null, "そ、そうだけど……。", (0x04000000 +5463));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("ルイズ", null, "……き、貴婦人に愛を語るには修辞ってものが\n大切だって言ってるの！", (0x04000000 +5464));
+talk("サイト", null, "でも、俺は貴族じゃなくて平民だし。", (0x04000000 +10722));
+talk("ルイズ", null, "そ、そんな言い方しなくても……。", (0x04000000 +5465));
+talk("サイト", null, "それとも、ご主人様はこういう愛の言葉は\nお嫌いで？", (0x04000000 +10723));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "そんなこと言ってないでしょ！\n……も、もう！", (0x04000000 +5466));
+talk("デルフリンガー", null, "あっはっは、見事に一本とられたようだな。\n貴族の娘っ子！", (0x04000000 +1251));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "う、うるさい！\nなによ、２人とも馬鹿にして！", (0x04000000 +5467));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "……もう、いいもん。\nじゃあ、サイト。もう一度言って……。\n今度は心から真剣にね。", (0x04000000 +5468));
+talk("サイト", null, "……え？", (0x04000000 +10724));
+talk("ルイズ", null, "……ちゃんと言ってくれるわよね。\nサイト？", (0x04000000 +5469));
+next((0x01000000 +1836), true);

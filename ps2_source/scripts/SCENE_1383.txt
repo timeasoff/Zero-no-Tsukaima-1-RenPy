@@ -1,0 +1,27 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +7)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1065)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +506)});
+msgon()
+talk("サイト", null, "（あれ、シエスタとウェザリーがいる）", null);
+talk("ウェザリー", null, "どうして最近の若い子はみんなこうなの！\nせっかくいい才能を持ってるのに、\nもったいないわ。", (0x04000000 +15866));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +507)});
+talk("シエスタ", null, "サイトさん……。\nわたし、あの調子でずっとみんなの愚痴を\n聞いてるんです……。", (0x04000000 +14458));
+like("シエスタ", 20);
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +506)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "（……マ、マジ？）", null);
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1065)});
+talk("ウェザリー", null, "ちょっと、聞いてるの！\nホントに今の若い子達は！", (0x04000000 +15867));
+selectInit();
+selectItem("そんなことはないです！", (0x01000000 +1384), null, true);
+selectItem("まあ、そうですね", (0x01000000 +1385), null, true);
+selectItem("俺に言われても困る！", (0x01000000 +1386), null, true);
+select();

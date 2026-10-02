@@ -1,0 +1,66 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +44)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +21)});
+set("se1", {play = (0x03000000 +43),loop = 1});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "元気が出るところって……ここですか？\n食堂……ですよね、ここ。", (0x04000000 +784));
+set("lay8", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "ですよ。\n落ち込んだ時は食べるのが一番！", (0x04000000 +13440));
+talk("店主", "商人", "はいよ、おまたせ！", (0x04000000 +3955));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +260)});
+trans("crossfade", 1000);
+talk("サイト", null, "お、きたきた！\nさあ、食べてみてくださいよ。\nここの食堂の肉料理がうまいんですよ！", (0x04000000 +13441));
+talk("アンリエッタ", null, "あ、はい。\nこれは……焼き魚ですね。\nこちらは、野菜のスープ。", (0x04000000 +785));
+set("lay5", {y = 0,show = 0,x = 224});
+talk("サイト", null, "美味そうでしょ？\nさあ、食べて食べて！", (0x04000000 +13442));
+talk("アンリエッタ", null, "あ、はい。\n偉大なる始祖ブリミルよ、\n今朝もささやかなる糧を……。", (0x04000000 +786));
+set("lay5", {y = 0,show = 0,x = 224});
+talk("サイト", null, "こ、ここでもやりますか。", (0x04000000 +13443));
+talk("アンリエッタ", null, "では、いただきます……。\nあむ。", (0x04000000 +787));
+set("lay5", {show = 0});
+talk("サイト", null, "どう？\nどう？", (0x04000000 +13444));
+set("lay8", {show = 0});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +261)});
+waitLoad(true);
+talk("アンリエッタ", null, "美味しいですっ。", (0x04000000 +788));
+set("lay5", {show = 0});
+talk("サイト", null, "でっしょー！", (0x04000000 +13445));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +260)});
+waitLoad(true);
+talk("アンリエッタ", null, "みなさんは、いつもこんな美味しいものを\n食べてるんですか？", (0x04000000 +789));
+set("lay5", {show = 0});
+talk("サイト", null, "城の料理の方が豪華だろうけどね。\nここのもなかなかでしょ？", (0x04000000 +13446));
+talk("サイト", null, "（元気にはなってくれたみたいだ。\n　食事のせいかどうかは分かんないけどさ）", null);
+set("lay8", {show = 0});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +261)});
+waitLoad(true);
+talk("アンリエッタ", null, "使い魔さんは、いろいろご存じなのですね。", (0x04000000 +790));
+set("lay5", {y = 0,show = 0,x = 224});
+talk("サイト", null, "そんなことないですよ。\n俺、この世界……じゃなくて、\nこの国のことは、もーさっぱりですし。", (0x04000000 +13447));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +260),imageType = 1});
+waitLoad(true);
+talk("アンリエッタ", null, "ああ、そう言えばそうでしたね。", (0x04000000 +791));
+set("lay5", {y = 0,show = 0,x = 224});
+talk("サイト", null, "はい？", (0x04000000 +13448));
+talk("アンリエッタ", null, "ルイズに聞いたのですが、\n使い魔さんは異世界の住人だとか。", (0x04000000 +792));
+set("lay5", {y = 0,show = 0,x = 224});
+talk("サイト", null, "まあそうですけど。", (0x04000000 +13449));
+talk("アンリエッタ", null, "一度お聞きしたかったのです。\n使い魔さんの世界は、いったいどのような\nところなのでしょう？", (0x04000000 +793));
+set("lay5", {y = 0,show = 0,x = 224});
+talk("サイト", null, "どのようなと言われても……そうですねえ……。", (0x04000000 +13450));
+selectInit();
+selectItem("王様のいない世界", (0x01000000 +366), null, true);
+selectItem("魔法のない世界", (0x01000000 +367), null, true);
+selectItem("夜のない世界", (0x01000000 +368), null, true);
+select();

@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +153)});
+}
+talk("サイト", null, "いいえ、それは無理ですご主人様。", (0x04000000 +10935));
+talk("ルイズ", null, "なんですってえ！？", (0x04000000 +5664));
+tndl(-30);
+talk("サイト", null, "いや、よく見ろって。\n離れようにも、俺身動きとれねえって。", (0x04000000 +10936));
+talk("ハルナ", null, "平賀くん……っ。", (0x04000000 +2080));
+like("ハルナ", 10);
+talk("シエスタ", null, "サイトさんっ。", (0x04000000 +14536));
+like("シエスタ", 10);
+talk("キュルケ", null, "ヴァリエール。\nあなたの負けね。\n今からじゃ抱きつく隙間もないわよ。", (0x04000000 +3119));
+like("キュルケ", 10);
+msgoff()
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("lay0", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "ふ、ふふふ、ふふふ……。\nそう、サイトはあくまで離れないつもり\nなのね？", (0x04000000 +5665));
+talk("サイト", null, "いやだから離れないんじゃなくて\n離してくれないんだってば！？", (0x04000000 +10937));
+next((0x01000000 +43), true);

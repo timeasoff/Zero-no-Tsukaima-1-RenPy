@@ -1,0 +1,30 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +720)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+set("lay6", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +720)});
+talk("キュルケ", null, "だから、ときどきこうして別の服を\n着てみたりしてるんだけど……。\nルイズはこんなことしないのかしら？", (0x04000000 +2792));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "えっ、ルイズ？\n部屋に服はいろいろあるけど。", (0x04000000 +8528));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "学院じゃ、もっぱら制服姿か寝間着姿\nしか見てないかな。", (0x04000000 +8529));
+set("lay6", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +726)});
+talk("キュルケ", null, "はぁ……。\nそうなんだ。\nサイトも大変ね。", (0x04000000 +2793));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "そ、そうなのか？", (0x04000000 +8530));
+set("lay6", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +722)});
+talk("キュルケ", null, "ルイズに飽きたら、早くあたしのところに\n来てね。\nいつでも待ってるから！", (0x04000000 +2794));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "ははははは……。", (0x04000000 +8531));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

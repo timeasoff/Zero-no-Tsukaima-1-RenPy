@@ -1,0 +1,31 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("bgm", {play = (0x03000000 +18)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "みんなのことが心配なんだ。", (0x04000000 +12739));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "ルイズのことならいざ知らず、\nダーリンに心配されるほど、\nあたしは未熟じゃないわよ。", (0x04000000 +3586));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "……。", (0x04000000 +6920));
+talk("キュルケ", null, "あら、怒らないのね？", (0x04000000 +3587));
+talk("ルイズ", null, "事実と違うことで中傷されても、\n腹を立てないのが真のレディというものよ。", (0x04000000 +6921));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "ルイズ……。\nあなた、どうしてそんなに自信で\n満ち満ちてるのよ？", (0x04000000 +3588));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "とにかく、わたしもキュルケも\nタバサの足手まといにはならないわ！", (0x04000000 +6922));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "アキナは春奈と違うんだ。\nだからこそ、タバサは俺をかばって\n大火傷したわけなんだし……。", (0x04000000 +12740));
+talk("ルイズ", null, "じゃあ、あんたに何かあったときは、\nわたしは見殺しにすることにするわね。", (0x04000000 +6923));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "あたしは先手必勝よ。\n卑怯なことをさせる暇も与えないんだから。", (0x04000000 +3589));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "ハハハ……。\nじゃあ、大丈夫だ。", (0x04000000 +12741));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+next((0x01000000 +980), true);

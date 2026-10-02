@@ -1,0 +1,21 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +19)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +32)});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +940)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+msgon()
+talk("サイト", null, "しっかし、誰もいないな。", (0x04000000 +9629));
+talk("デルフリンガー", null, "昼間にあんなことがあったんだ。\n部屋を出てぶらぶら歩きまわるやつぁ、\nそうはいないだろうよ。", (0x04000000 +1232));
+talk("デルフリンガー", null, "相棒、一度部屋に戻った方がいいんじゃねえか。\nひょっとしたら行き違いになって、\nもう２人とも部屋に戻ってるかもしんねえぜ。", (0x04000000 +1233));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "そうだな、いったん戻ろう。\nルイズもシエスタも、\nいつまでもウロウロしてない……と思うし。", (0x04000000 +9630));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

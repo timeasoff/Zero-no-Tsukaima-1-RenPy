@@ -1,0 +1,36 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +168)});
+}
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(1000, true);
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("サイト", null, "……。", (0x04000000 +13882));
+talk("サイト", null, "……いっ、生きてるっ？", (0x04000000 +13883));
+talk("サイト", null, "生きてるっ！\n生きてるぞっ！\nひ、ひゃっほぉーーーーっ！！", (0x04000000 +13884));
+talk("ルイズ", null, "……えっ！？\nう、うそっ！\nホントに成功したの？", (0x04000000 +7696));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "お、おいっ！\nそりゃどういう意味だよっ！", (0x04000000 +13885));
+talk("ルイズ", null, "せ、成功したからいいじゃないっ！", (0x04000000 +7697));
+talk("ルイズ", null, "ほらっ、リンゴだけきれいに砕けてるわ！", (0x04000000 +7698));
+talk("サイト", null, "（し、失敗してたら、\n　俺の頭がああなってたのかよ？）", null);
+talk("ルイズ", null, "これで、サイトもわたしの魔法がちゃんと\n成功することもあるってことが、\nよく分かったでしょ！", (0x04000000 +7699));
+talk("サイト", null, "（そ、そこまで自信のない魔法の練習台に\n　されたのか……俺は……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

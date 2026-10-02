@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +29)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +12)});
+}
+talk("サイト", null, "ルイズに、なにかあった？", (0x04000000 +11200));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "なにかって、なんですか？", (0x04000000 +14630));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "いや……気のせいならいいんだけど、\nいきなり優しいこと言い出すなんて、\nなんとなく違和感があってさ。", (0x04000000 +11201));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "そうですか？\n特にはなにも。", (0x04000000 +14631));
+like("シエスタ", 10);
+tndl(-30);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "そっか。\nシエスタがなにも感じないってことは、\n俺の気のせいかな。", (0x04000000 +11202));
+next((0x01000000 +129), true);

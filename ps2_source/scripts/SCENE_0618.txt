@@ -1,0 +1,75 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +29)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+}
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "平賀くん、キュルケさんにつきっきりですね。", (0x04000000 +2451));
+set("lay7", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "サイトさん、本当は小さい娘が\nお好きなんでしょうか？", (0x04000000 +15075));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "平賀くん、日本ではそんなこと\nなかったのに……。\nでも、隠していただけで実は……。", (0x04000000 +2452));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "ま、まあまあ……。", (0x04000000 +15076));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +962)});
+talk("ハルナ", null, "平賀くん、たとえ異世界でも犯罪は\nダメだからね。", (0x04000000 +2453));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "ちょっと待て、おまえら。\n俺のことを何だと思ってるんだ。", (0x04000000 +13016));
+set("lay5", {y = 0,x = 224});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "……。", (0x04000000 +2454));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +715)});
+talk("キュルケ", null, "おにいちゃ～～ん！\n眠くなった……。", (0x04000000 +3760));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "お、おいっ！\nキュルケ。\n俺に抱きつくなって。", (0x04000000 +13017));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +254)});
+trans("crossfade", 1000);
+msgon()
+talk("キュルケ", null, "おにいちゃんのおひざ、あったかーい。\nおやすみなさーい。", (0x04000000 +3761));
+talk("ハルナ", null, "ああっ、ひざまくらですか！\nなんて、攻撃を！！", (0x04000000 +2455));
+talk("シエスタ", null, "い、いいんですか！\nミス・ヴァリエール！？", (0x04000000 +15077));
+talk("ルイズ", null, "し、知らないもん！", (0x04000000 +7048));
+talk("キュルケ", null, "……おにいちゃん、だいすき。", (0x04000000 +3762));
+talk("タバサ", null, "……。", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("lay2", {show = 0});
+set("lay6", {show = 0});
+set("lay0", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（はぁ……。\n　俺はどうしたらいいんだ？\n　このままじゃ、身が持たないよ）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("キュルケ", (0x01000000 +1189));
+date((0x01000000 +619),false,(0x03000000 +4));

@@ -1,0 +1,158 @@
+### indented / structural line shapes (13450 distinct)
+    8610   [SPRITE layN image=+N, level=N, dir=NA]                               |   [SPRITE   lay15    image=+1116, level=160, dir=1A]
+    4710   [SPRITE layN hide]                                                    |   [SPRITE   lay17    hide]
+    2092   [BGM bgm play=+N]                                                     |   [BGM      bgm      play=+24]
+    2039   [BG stage image=+N, level=N]                                          |   [BG       stage    image=+60, level=200]
+    1669   [SPRITE layN image=+N, level=N, dir=NB]                               |   [SPRITE   lay1     image=+313, level=160, dir=1B]
+    1408   → next scene N                                                        |   → next scene 1915
+    1292   [TRANS trans("crossfade", N)]                                         |   [TRANS trans("crossfade", 1000)]
+    1098   [EVENT_CG event image=+N, level=N]                                    |   [EVENT_CG event    image=+1, level=80]
+     855   [BG stage hide]                                                       |   [BG       stage    hide]
+     743   [BGM bgm stop=N]                                                      |   [BGM      bgm      stop=1000]
+     691   [SPRITE layN vibrate=N]                                               |   [SPRITE   lay21    vibrate=21]
+     651   [SPRITE layN hide, reset]                                             |   [SPRITE   lay21    hide, reset]
+     648   [SPRITE layN image=+N, level=N, dir=NC]                               |   [SPRITE   lay5     image=+412, level=160, dir=1C]
+     554   [SE seN play=+N]                                                      |   [SE       se0      play=+63]
+     442   [SE seN stop=N]                                                       |   [SE       se1      stop=1]
+     419   [LAYER layN image=+N, level=N, dir=NA]                                |   [LAYER    lay0     image=+588, level=160, dir=1A]
+     413   [SPRITE layN x=N, y=N]                                                |   [SPRITE   lay5     x=224, y=0]
+     299   [LAYER layN hide]                                                     |   [LAYER    lay0     hide]
+     292   [EVENT_CG event hide]                                                 |   [EVENT_CG event    hide]
+     282   [SPRITE layN x=-N, y=N]                                               |   [SPRITE   lay15    x=-160, y=0]
+     281   [SPRITE layN level=N]                                                 |   [SPRITE   lay19    level=160]
+     220   [VIBRATE vibrate(N)]                                                  |   [VIBRATE vibrate(3)]
+     219   [BG stage image=+N, hide, level=N]                                    |   [BG       stage    image=+16, hide, level=10]
+     196   [BG stage vibrate=N]                                                  |   [BG       stage    vibrate=21]
+     196   [EVENT_CG event vibrate=N]                                            |   [EVENT_CG event    vibrate=21]
+     105   [LAYER layN image=+N, level=N, dir=NB]                                |   [LAYER    lay0     image=+638, level=160, dir=2B]
+     102   [EVENT_CG event reset]                                                |   [EVENT_CG event    reset]
+      99   [BG stage hide, reset]                                                |   [BG       stage    hide, reset]
+      99   [SPRITE layN reset]                                                   |   [SPRITE   lay5     reset]
+      97   [BG stage reset]                                                      |   [BG       stage    reset]
+      94   [EVENT_CG event hide, reset]                                          |   [EVENT_CG event    hide, reset]
+      78  CONT ……。                                                               | ……。
+      77   [COFFEE]                                                              |   [COFFEE]
+      76  CONT …。                                                                | …。
+      75   [LAYER white image=+N, level=N]                                       |   [LAYER    white    image=+2, level=0]
+      72   [LAYER white hide]                                                    |   [LAYER    white    hide]
+      59   [SPRITE layN hide, vibrate=N]                                         |   [SPRITE   lay1     hide, vibrate=14]
+      46   【好感度】ルイズ -N                                                           |   【好感度】ルイズ  -10
+      45   [LAYER layN vibrate=N]                                                |   [LAYER    lay0     vibrate=7]
+      43   [LAYER layN hide, reset]                                              |   [LAYER    lay0     hide, reset]
+      36   【好感度】ルイズ N                                                            |   【好感度】ルイズ  10
+      30   【好感度】ハルナ N                                                            |   【好感度】ハルナ  10
+      29   【好感度】シエスタ N                                                           |   【好感度】シエスタ  10
+      28   【好感度】キュルケ N                                                           |   【好感度】キュルケ  10
+      28   [LAYER layN image=+N, level=N, dir=NC]                                |   [LAYER    lay0     image=+610, level=160, dir=1C]
+      26   【デート進行】 → scene N                                                     |   【デート進行】 → scene 1865
+      24   【好感度】ハルナ -N                                                           |   【好感度】ハルナ  -10
+      24   [LAYER layN level=N]                                                  |   [LAYER    lay0     level=156]
+      23   【好感度】シエスタ -N                                                          |   【好感度】シエスタ  -10
+      22   【好感度】タバサ N                                                            |   【好感度】タバサ  15
+      16   [LAYER layN x=-N, y=N]                                                |   [LAYER    lay0     x=-96, y=0]
+      14   【好感度】キュルケ -N                                                          |   【好感度】キュルケ  -10
+      14   [SPRITE layN image=+N, level=N]                                       |   [SPRITE   lay4     image=+390, level=8]
+      13   [LAYER layN x=N, y=N]                                                 |   [LAYER    lay0     x=224, y=0]
+      11   【好感度】タバサ -N                                                           |   【好感度】タバサ  -15
+      11   【移動】表通り → scene N ((NxN +N))                                          |   【移動】表通り → scene 962  ((0x01000000 +1367))
+      10   【デート】ハルナ → scene N                                                    |   【デート】ハルナ → scene 1029
+      10   [EVENT_CG event x=N, y=N, opacity=N]                                  |   [EVENT_CG event    x=0, y=0, opacity=0]
+       9   【移動】ルイズの部屋 → scene N ((NxN +N))                                       |   【移動】ルイズの部屋 → scene 302  ((0x01000000 +1229))
+       9   【移動】廊下 → scene N ((NxN +N))                                           |   【移動】廊下 → scene 852  ((0x01000000 +1234))
+       8   【デート】ルイズ → scene N                                                    |   【デート】ルイズ → scene 1865
+       8   【デート】シエスタ → scene N                                                   |   【デート】シエスタ → scene 1865
+       8  CONT extra scenes: N..N (N)                                            | extra scenes: 1009..1255  (56)
+       8  CONT そして滅ぼしたからだ！ [voice N]                                             | そして滅ぼしたからだ！  [voice 15898]
+       8  CONT だが、後悔はすまい。 [voice N]                                              | だが、後悔はすまい。  [voice 15901]
+       8  CONT ただ、願わくば……ただ一度……。 [voice N]                                        | ただ、願わくば……ただ一度……。  [voice 15902]
+       7   [MOVIE movie(N)]                                                      |   [MOVIE movie(0)]
+       7  CONT ありがとうございます。 [voice N]                                             | ありがとうございます。  [voice 2140]
+       7   【好感度】アンリエッタ N                                                         |   【好感度】アンリエッタ  30
+       7  CONT 去りたまえ。 [voice N]                                                  | 去りたまえ。  [voice 15899]
+       7  CONT 僕がどれほど君を愛したことか。 [voice N]                                         | 僕がどれほど君を愛したことか。  [voice 2795]
+       7  CONT 君に愛を囁いた貴公子達は、君の謎かけに                                               | 君に愛を囁いた貴公子達は、君の謎かけに
+       7  CONT ご主人様！ [voice N]                                                   | ご主人様！  [voice 9952]
+       7  CONT バカ犬！ [voice N]                                                    | バカ犬！  [voice 7190]
+       7  CONT でも……。 [voice N]                                                   | でも……。  [voice 10214]
+       7  CONT ご主人様っ！ [voice N]                                                  | ご主人様っ！  [voice 13969]
+       6   【選択肢】N → scene N (tdtest_type=N)                                      |   【選択肢】２ → scene 1869  (tdtest_type=0)
+       6   【選択肢】つぎ → scene N                                                     |   【選択肢】つぎ → scene 1868
+       6   [MOVIE movie(movieNo)]                                                |   [MOVIE movie(movieNo)]
+       6  CONT そうだな。 [voice N]                                                   | そうだな。  [voice 10807]
+       6   【デート】タバサ → scene N                                                    |   【デート】タバサ → scene 1019
+       6   【デート】キュルケ → scene N                                                   |   【デート】キュルケ → scene 1024
+       6   【移動】中庭 → scene N ((NxN +N))                                           |   【移動】中庭 → scene 676  ((0x01000000 +1266))
+       6  CONT なんでそうなるのよ！ [voice N]                                              | なんでそうなるのよ！  [voice 5841]
+       6  CONT サイト。 [voice N]                                                    | サイト。  [voice 1499]
+       6  CONT 僕自身も君のためにこの王国を賭け、                                                 | 僕自身も君のためにこの王国を賭け、
+       6  CONT  滞りなく舞台が進み、                                                       | 　滞りなく舞台が進み、
+       6  CONT  そしてクライマックスへとなだれこんだ）                                              | 　そしてクライマックスへとなだれこんだ）
+       6  CONT わたしが帝国に戻れば、                                                       | わたしが帝国に戻れば、
+       6  CONT 全ては収まることなのです。 [voice N]                                           | 全ては収まることなのです。  [voice 4748]
+       6  CONT 失うことになります！ [voice N]                                              | 失うことになります！  [voice 4749]
+       6  CONT 死がなにほどのことがあろう！ [voice N]                                          | 死がなにほどのことがあろう！  [voice 8745]
+       6  CONT ことのほうが恐ろしいのだ。 [voice N]                                           | ことのほうが恐ろしいのだ。  [voice 8746]
+       6  CONT 歓喜の声で迎えるだろう！ [voice N]                                            | 歓喜の声で迎えるだろう！  [voice 8751]
+       6  CONT もはや猶予の刻はない。 [voice N]                                             | もはや猶予の刻はない。  [voice 8756]
+       6  CONT 夜を覚えておいででしょうか？ [voice N]                                          | 夜を覚えておいででしょうか？  [voice 4752]
+       6  CONT 僕はどこまでも君についていくよ。 [voice N]                                        | 僕はどこまでも君についていくよ。  [voice 8758]
+       6  CONT 最後にもう一度、盛大な拍手をお願いします！ [voice N]                                   | 最後にもう一度、盛大な拍手をお願いします！  [voice 15844]
+       6  CONT バカ犬っ！ [voice N]                                                   | バカ犬っ！  [voice 7799]
+       5   【選択肢】N日目 → scene N                                                    |   【選択肢】１日目 → scene 6
+       5  CONT ミス・ヴァリエール。 [voice N]                                              | ミス・ヴァリエール。  [voice 14509]
+       5  CONT ごめん。 [voice N]                                                    | ごめん。  [voice 8280]
+       5  CONT その……。 [voice N]                                                   | その……。  [voice 11684]
+       5  CONT ダーリン。 [voice N]                                                   | ダーリン。  [voice 3274]
+       5  CONT 答えようとして、みな破滅していった。 [voice N]                                      | 答えようとして、みな破滅していった。  [voice 2796]
+       5  CONT 与えられた場所で最善を尽くしましょう。 [voice N]                                     | 与えられた場所で最善を尽くしましょう。  [voice 365]
+       5  CONT ここで死を……。 [voice N]                                                | ここで死を……。  [voice 4754]
+       5  CONT 白い花が咲いたといいます。 [voice N]                                           | 白い花が咲いたといいます。  [voice 15340]
+       5  CONT キュルケ！ [voice N]                                                   | キュルケ！  [voice 9913]
+       5   【移動】裏通り → scene N ((NxN +N))                                          |   【移動】裏通り → scene 808  ((0x01000000 +1434))
+       5  CONT extra scenes: N, N, N, N, N (N)                                   | extra scenes: 1169, 1170, 1171, 1172, 1173  (5)
+       5  CONT ルイズさん達の世話になってるのも                                                  | ルイズさん達の世話になってるのも
+       5  CONT どうかなって思って。 [voice N]                                              | どうかなって思って。  [voice 1826]
+       5  CONT 召喚されて以来、なんだかんだでずっと                                                | 召喚されて以来、なんだかんだでずっと
+       5  CONT この学院のお世話になってるんだけど。 [voice N]                                      | この学院のお世話になってるんだけど。  [voice 9305]
+       5  CONT お世話になって当然よ。                                                       | お世話になって当然よ。
+       5  CONT でも、私はそうじゃないから……。 [voice N]                                        | でも、私はそうじゃないから……。  [voice 1827]
+       5  CONT 俺達、この世界でたぶんN人だけの                                                  | 俺達、この世界でたぶん２人だけの
+       5  CONT 日本人じゃないか。 [voice N]                                               | 日本人じゃないか。  [voice 9306]
+       5  CONT 間柄でもないんだしさ……。                                                     | 間柄でもないんだしさ……。
+
+### speaker names (distinct, top 60)
+    7269  サイト
+    3353  ルイズ
+    1221  キュルケ
+    1081  ハルナ
+     997  シエスタ
+     792  タバサ
+     650  アンリエッタ
+     358  ウェザリー
+     249  アキナ
+     244  モンモランシー
+     244  コルベール
+     177  デルフリンガー
+     171  ギーシュ
+     151  オスマン
+     104  null
+      62  味方Ａ
+      61  将校
+      28  魔導士
+      13  商人ＭＲ
+      11  商人
+       6  兵士Ａ
+       6  兵士ＭＳ
+       5  兵士Ｂ
+       5  情報屋
+       4  部下
+       4  猫
+       3  客
+       2  男Ａ
+       2  男Ｂ
+       2  男Ｃ
+       2  敵兵士ＥＳ
+       2  宿の主人
+       1  店主
+       1  敵ＥＡ
+       1  どぶねずみ

@@ -1,0 +1,6 @@
+selectInit();
+selectItem("‚T", (0x01000000 +1869), "tdtest_type=3", true);
+selectItem("‚U", (0x01000000 +1869), "tdtest_type=4", true);
+selectItem("‚V", (0x01000000 +1869), "tdtest_type=5", true);
+selectItem("‚Ü‚¦", (0x01000000 +1867), null, true);
+select();

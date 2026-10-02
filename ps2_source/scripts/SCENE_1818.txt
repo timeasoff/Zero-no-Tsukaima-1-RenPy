@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +191)});
+}
+talk("サイト", null, "ご主人様のそのかわいさは罪です！\nほほえみさえ、罪っ！", (0x04000000 +10654));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("サイト", null, "ご主人様のたまに見せるツンツンは……。\n俺にとっては薔薇を守る棘。", (0x04000000 +10655));
+talk("サイト", null, "俺の体とハートをどんなに傷つける\nとしても……。", (0x04000000 +10656));
+talk("サイト", null, "その美しい薔薇の棘であれば、\n俺は甘んじて受けましょう！", (0x04000000 +10657));
+talk("サイト", null, "（……なんだかギーシュになった気分だなあ）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "ちょっと引っかかるところがなくもないけど。\nでも、ええと……あ、ありがと。", (0x04000000 +5392));
+next((0x01000000 +1820), true);

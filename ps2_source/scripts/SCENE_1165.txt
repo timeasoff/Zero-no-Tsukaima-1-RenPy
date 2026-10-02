@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +808)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +10)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +40)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "俺が買ってあげますよ。", (0x04000000 +9157));
+set("lay8", {y = 0,dr = "2B",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +810),imageType = 2});
+talk("アンリエッタ", null, "よろしいんですの？", (0x04000000 +401));
+set("lay5", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +390),imageType = 2});
+talk("サイト", null, "ま、これくらいだったら俺の手持ちのお金でも\n買えますから。", (0x04000000 +9158));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "いえ、そうではなくて……。", (0x04000000 +402));
+next((0x01000000 +1168), true);

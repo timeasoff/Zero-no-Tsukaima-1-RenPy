@@ -1,0 +1,145 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+msgon()
+talk("ウェザリー", null, "ミス・リエッタにお願いするわ。", (0x04000000 +15862));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +775)});
+talk("アンリエッタ", null, "……えっ？\nわたくしが？", (0x04000000 +369));
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +317)});
+talk("ルイズ", null, "えっ、ええええっ！？", (0x04000000 +4766));
+talk("サイト", null, "（おい、現役の女王様が、王女を演ずるって、\n　どう考えても駄目だろ）", null);
+set("lay1", {y = 0,x = -96});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1067)});
+talk("ウェザリー", null, "……そんなに意外だった？\n実力だと順当なはずだけど。", (0x04000000 +15863));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +689)});
+talk("キュルケ", null, "あ、いえ。\nこのルイズったら、自分に決まると思ってた\nオバカさんだからよ。", (0x04000000 +2836));
+set("lay1", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +319)});
+talk("ルイズ", null, "そ、そうです。\n早とちりしちゃって……。", (0x04000000 +4767));
+set("lay1", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +317)});
+talk("ルイズ", null, "後で見てなさい。", (0x04000000 +4768));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +691)});
+talk("キュルケ", null, "それはこっちの台詞。", (0x04000000 +2837));
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 150,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +632)});
+set("lay1", {level = 155});
+set("lay6", {level = 154});
+talk("タバサ", null, "ケンカは駄目。", (0x04000000 +15363));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 153,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +775)});
+talk("アンリエッタ", null, "まぁ、決まったものは仕方がありません。\n与えられた場所で最善を尽くしましょう。", (0x04000000 +370));
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 152,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "それじゃ、その他の配役も発表していくわよ。\n育ての親の老貴族は……、", (0x04000000 +15864));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 2000});
+waitAction(null, true);
+waitTime(500, true);
+back();
+set("lay20", {show = 0});
+set("lay8", {show = 0});
+set("lay0", {show = 0});
+set("lay1", {show = 0});
+set("lay6", {show = 0});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+talk("サイト", null, "（そして、舞台の幕が開いた。\n　滞りなく舞台が進み、\n　そしてクライマックスへとなだれこんだ）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +146)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +23)});
+msgon()
+talk("サイト", null, "ここならば暫しの時間はかせげよう。", (0x04000000 +8857));
+talk("アンリエッタ", null, "……わたしが敵の陣を説きましょう。\nわたしが帝国に戻れば、\n全ては収まることなのです。", (0x04000000 +371));
+talk("サイト", null, "しかし、それでは僕は君を失うことになる。", (0x04000000 +8858));
+talk("アンリエッタ", null, "……ですが、このままでは王子は王国とお命を\n失うことになります！", (0x04000000 +372));
+talk("サイト", null, "王国がなんだというのだ！\n死がなにほどのことがあろう！", (0x04000000 +8859));
+talk("サイト", null, "……笑ってくれ。\n僕は死や亡国よりも、君を失ったまま生きる\nことのほうが恐ろしいのだ。", (0x04000000 +8860));
+talk("アンリエッタ", null, "……王子！", (0x04000000 +373));
+set("lay5", {show = 0});
+talk("サイト", null, "（……この劇は、もしかしたらお姫さまには\n　酷すぎるんじゃないのか？）", null);
+talk("サイト", null, "……ああ、愛しい人よ。\n僕がどれほど君を愛したことか。", (0x04000000 +8861));
+talk("サイト", null, "……愛は誰もを盲目にし狂わせる。\n君に愛を囁いた貴公子達は、君の謎かけに\n答えようとして、みな破滅していった。", (0x04000000 +8862));
+talk("サイト", null, "だが、僕はもうその愚を笑うことはすまい。\n……僕自身も君のためにこの王国を賭け、\nそして滅ぼしたからだ！", (0x04000000 +8863));
+talk("サイト", null, "……さあ、城が落ちる。\n去りたまえ。", (0x04000000 +8864));
+talk("サイト", null, "あの寄せ手の兵どもは、君を新しい女王として\n歓喜の声で迎えるだろう！", (0x04000000 +8865));
+talk("サイト", null, "君は生きて女王となるのだ。", (0x04000000 +8866));
+talk("アンリエッタ", null, "……王子！", (0x04000000 +374));
+talk("サイト", null, "……愛しい人。\nだが、後悔はすまい。", (0x04000000 +8867));
+talk("サイト", null, "君への愛にはそれだけの価値があった。\nただ、願わくば……ただ一度……。", (0x04000000 +8868));
+talk("サイト", null, "君の本当の気持ちを知りたかった。", (0x04000000 +8869));
+set("se0", {play = (0x03000000 +64)});
+talk("サイト", null, "ああ、敵兵が塔にまで……。\nもはや猶予の刻はない。", (0x04000000 +8870));
+talk("アンリエッタ", null, "……王子、いつぞやの求婚をいただいた\n夜を覚えておいででしょうか？", (0x04000000 +375));
+talk("アンリエッタ", null, "今宵のように双月の美しい夜でございました。\n……あのご返事を今いたしましょう。", (0x04000000 +376));
+talk("サイト", null, "……姫？", (0x04000000 +8871));
+talk("アンリエッタ", null, "ノエルは王子の妻として……、\nここで死を……。", (0x04000000 +377));
+talk("ギーシュ", "兵士", "……姫がおられたぞ！", (0x04000000 +1417));
+talk("アンリエッタ", null, "……。", (0x04000000 +378));
+talk("サイト", null, "では、行こうノエル。\n僕はどこまでも君についていくよ。", (0x04000000 +8872));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(1000, true);
+set("lay8", {show = 0});
+set("lay4", {show = 0});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +53)});
+set("event", {show = 0});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("タバサ", null, "こうして２人は塔から身を投げました。", (0x04000000 +15364));
+talk("タバサ", null, "２人の落ちた地にはやがて寄り添うような\n白い花が咲いたといいます。", (0x04000000 +15365));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("lay4", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 2000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 153,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +819)});
+msgon()
+talk("アンリエッタ", null, "……。", (0x04000000 +379));
+talk("サイト", null, "……お姫さま。", (0x04000000 +8873));
+talk("アンリエッタ", null, "なんだか不思議な気持ちです。\nただのお芝居なのに……。", (0x04000000 +380));
+talk("サイト", null, "……。", (0x04000000 +8874));
+talk("ウェザリー", null, "それでは皆さま。\n最後にもう一度、盛大な拍手をお願いします！", (0x04000000 +15865));
+set("lay8", {show = 1,level = 153,dr = "2C",lv = 0,image = (0x02000000 +821)});
+talk("アンリエッタ", null, "ねぇ、使い魔さん。\nなにか別のことを考えていたでしょう？", (0x04000000 +381));
+talk("サイト", null, "え、えっ？", (0x04000000 +8875));
+set("lay8", {show = 1,level = 153,dr = "2C",lv = 0,image = (0x02000000 +827)});
+talk("アンリエッタ", null, "ずいぶん、情熱的な告白でしたよ。", (0x04000000 +382));
+talk("サイト", null, "（でしたよって言われても……）", null);
+selectInit();
+selectItem("本気でしたから", (0x01000000 +1160), null, true);
+selectItem("すいませんでした", (0x01000000 +1161), null, true);
+selectItem("誤魔化す", (0x01000000 +1162), null, true);
+select();

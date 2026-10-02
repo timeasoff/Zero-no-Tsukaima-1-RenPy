@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+}
+talk("サイト", null, "（……そ、そうだ。\n　こんなときは相手をひるませて、\n　脱出路を作るのだ！）", null);
+talk("サイト", null, "タックルー！", (0x04000000 +13764));
+talk("ルイズ", null, "……いっ、いやぁぁっ！！\nむかってこないで！", (0x04000000 +7573));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "きゃ、ぎゃーんっ！", (0x04000000 +13765));
+talk("ルイズ", null, "……な、なななな何するのよ！\nこのっ、バカ犬っ！", (0x04000000 +7574));
+talk("サイト", null, "くそっ、俺の大事なところに\nクリーンヒットが！！\n何かうらみでもあるのか！", (0x04000000 +13766));
+next((0x01000000 +1572), true);

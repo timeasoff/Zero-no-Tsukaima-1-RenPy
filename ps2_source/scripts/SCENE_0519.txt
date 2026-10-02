@@ -1,0 +1,48 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +951)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+set("bgm", {play = (0x03000000 +27)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +50)});
+}
+set("bgm", {stop = 1000});
+msgoff()
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +276)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +17)});
+msgon()
+talk("ハルナ", null, "うふふっ……。", (0x04000000 +2613));
+talk("サイト", null, "な、ななななな……。", (0x04000000 +13324));
+talk("サイト", null, "（い、いま俺の唇に触れているのは、\n　もしかして……）", null);
+talk("ハルナ", null, "ねぇ、サイト……。", (0x04000000 +2614));
+talk("サイト", null, "（……！）", null);
+talk("サイト", null, "（……違う！\n　こいつは春奈じゃないっ！）", null);
+msgoff()
+set("lay5", {show = 0});
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +50)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +953)});
+msgon()
+talk("ハルナ", null, "うふふ。\nあら、サイトどうしたの？", (0x04000000 +2615));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "恥ずかしがらなくてもいいじゃない？", (0x04000000 +2616));
+set("lay7", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "お前、誰だ？", (0x04000000 +13325));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +953)});
+talk("ハルナ", null, "あら、よく分かったわね？", (0x04000000 +2617));
+next((0x01000000 +521), true);

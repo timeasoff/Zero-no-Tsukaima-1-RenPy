@@ -1,0 +1,39 @@
+//
+// ユーティリティ定義
+// 
+
+/**
+ * テーブルから name で示される要素を取り出す
+ * @param table 処理対象のテーブル
+ * @param name  項目の名前
+ */
+function getval(table, name, defaultValue) 
+{
+    if (name in table) {
+        return table[name];
+    }
+    return defaultValue;
+}
+
+/**
+ * 時間の変換用
+ * @param time 時間(ms)
+ * @param フレーム数
+ */
+function timeCalc(time)
+{
+	if (time == null) {
+		time = 0;
+	}
+	return time.tointeger() / 16;
+}
+
+/**
+ * 乱数生成
+ */
+function random(a)
+{
+	local d = rand().tofloat() / RAND_MAX * a;
+    return  d.tointeger() ;
+}
+

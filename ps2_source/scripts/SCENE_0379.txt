@@ -1,0 +1,46 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+talk("キュルケ", null, "ルイズにはルイズの、あたしにはあたしの\n役割があったってことよ。\nそのことについて女王陛下を責めないであげて。", (0x04000000 +3842));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "……。", (0x04000000 +7355));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +781)});
+talk("アンリエッタ", null, "ルイズ……。\nごめんなさい。", (0x04000000 +813));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "いえ、いいんです。\nそれが姫さまが決めたことなら、\nわたしは何も言いません。", (0x04000000 +7356));
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "調査の結果判明したことだけど……。", (0x04000000 +3843));
+set("lay6", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "なにか怪しい点があったんだな。", (0x04000000 +13493));
+talk("キュルケ", null, "ええ。\nまず、あの劇場は、実際の公演に必要な\n人手以上に、人間の出入りがあるわ。", (0x04000000 +3844));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "それにね、庶民相手の芝居小屋にしては、\nどうも身分が高そうな人達も出入りしてるの。", (0x04000000 +3845));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "え？\nそれって……。", (0x04000000 +7357));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "お忍びだろうけど、おそらくトリステイン国内の\n貴族達でしょうね。", (0x04000000 +3846));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +781)});
+talk("アンリエッタ", null, "やはり……そうですか。", (0x04000000 +814));
+set("lay8", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "お姫さま？\nなんか知ってるんですか？", (0x04000000 +13494));
+talk("アンリエッタ", null, "……。", (0x04000000 +815));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +380), true);

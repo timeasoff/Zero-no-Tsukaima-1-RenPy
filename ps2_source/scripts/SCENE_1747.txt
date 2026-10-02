@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+}
+talk("サイト", null, "（が、我慢できないっ！\n　理性の限界っ！）", null);
+talk("サイト", null, "（ルっ、ルイズぅぅっ！）", null);
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +183),imageType = 1});
+waitLoad(true);
+talk("ルイズ", null, "何、振り向こうとしてるのよ、\nこのバカ犬っ！", (0x04000000 +5157));
+talk("サイト", null, "き、きゃいーん！", (0x04000000 +10455));
+talk("ルイズ", null, "ホントにもうっ！\n……バカ犬なんだから。", (0x04000000 +5158));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +182)});
+waitLoad(true);
+talk("ルイズ", null, "これはおしおきなの。\nちゃんと耐えなさい。", (0x04000000 +5159));
+talk("サイト", null, "は、はい……。", (0x04000000 +10456));
+next((0x01000000 +1748), true);

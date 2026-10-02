@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +808)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +10)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +40)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "ほかの店も見ませんか。", (0x04000000 +9161));
+set("lay8", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +810)});
+talk("アンリエッタ", null, "え？\nあ、はい、そうですね。", (0x04000000 +406));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（とか言いながら、目が並べられた指輪から\n　離れないな。こういうところ、\n　お姫さまも女の子なんだなあ）", null);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "よしっ。", (0x04000000 +9162));
+next((0x01000000 +1168), true);

@@ -1,0 +1,78 @@
+csv: 15070 rows, 15037 id-rows, 33 non-id rows
+non-id row samples: ['## ch_0', '##ch_1 derflinger', '#ch1 guiche гиш', '# ch_1 haruna', 'ch_1 haruna', 'ch_1 haruna', '# ch_1 kirche', 'ch_1 kirche', 'ch_1 kirche', '##ch_1 npc', '# ch_1 monmorancy', '##ch_1 monmorancy', '## ch_0', 'ch_1 npc ', 'ch_1 osmond', '# ch_1 louise', 'ch_1 louise', 'ch--', '##ch_1 louise', '## VOICE_ID.BIN_00001614.wav', '# ch1 saito', '#ch_1 saito', '## kormeshka ch--', '##ch_1 saito', 'ch_1 Underlings']
+id range: 1..16191  count=15037
+gaps (consumed/removed): 1154
+first 40 gaps: [53, 54, 55, 56, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474]
+
+### per rpy: psv present in csv / absent(gap) / total
+   game\chapters\0\script-ch0.rpy             ok=   3 gap=  11 tot=  14
+        ch0_soldier_004  psv=4292
+            csv JA : 
+            rpy JA : はっ！
+        ch0_soldier_005  psv=4285
+            csv JA : 
+            rpy JA : どこだ！
+        ch0_soldier_011  psv=4292
+            csv JA : 
+            rpy JA : はっ！
+   game\chapters\1\script-ch1_1.rpy           ok=   0 gap= 134 tot= 134
+   game\chapters\1\script-ch1_10.rpy          ok=   2 gap= 197 tot= 199
+        ch1.10_ha_002  psv=1592
+            csv JA : 
+            rpy JA : あ......平賀くん。
+        ch1.10_ha_010  psv=1605
+            csv JA : そうだね
+            rpy JA : うん。そうだね。
+   game\chapters\1\script-ch1_2.rpy           ok=   0 gap=  45 tot=  45
+   game\chapters\1\script-ch1_3.rpy           ok=   1 gap= 107 tot= 108
+        ch1.3_si_020  psv=14385
+            csv JA : そうですね
+            rpy JA : あ、そうですね。
+   game\chapters\1\script-ch1_4.rpy           ok=   0 gap=  21 tot=  21
+   game\chapters\1\script-ch1_5.rpy           ok=   0 gap=  69 tot=  69
+   game\chapters\1\script-ch1_6.rpy           ok=   0 gap= 117 tot= 117
+   game\chapters\1\script-ch1_7.rpy           ok=   0 gap=  73 tot=  73
+   game\chapters\1\script-ch1_8.rpy           ok=   0 gap= 148 tot= 148
+   game\chapters\1\script-ch1_9.rpy           ok=   0 gap=  86 tot=  86
+   game\chapters\extra\sp_l1.rpy              ok=   5 gap=  63 tot=  68
+        sp_l1_l_003  psv=7478
+            csv JA : よかった…
+            rpy JA : そう。良かった。
+        sp_l1_s_005  psv=2127
+            csv JA : 
+            rpy JA : 良かった?
+        sp_l1_l_011  psv=2127
+            csv JA : 
+            rpy JA : 良かった。
+        sp_l1_s_024  psv=7978
+            csv JA : あ、わかったよ
+            rpy JA : わ、分かったよ。
+
+### csv-JA vs rpy-JA for present ids: match=2 mismatch=9
+   ch0_soldier_004 psv=4292
+       csv: 
+       rpy: はっ！
+   ch0_soldier_005 psv=4285
+       csv: 
+       rpy: どこだ！
+   ch0_soldier_011 psv=4292
+       csv: 
+       rpy: はっ！
+   ch1.10_ha_002 psv=1592
+       csv: 
+       rpy: あ......平賀くん。
+   sp_l1_l_003 psv=7478
+       csv: よかった…
+       rpy: そう。良かった。
+   sp_l1_s_005 psv=2127
+       csv: 
+       rpy: 良かった?
+   sp_l1_l_011 psv=2127
+       csv: 
+       rpy: 良かった。
+   sp_l1_s_024 psv=7978
+       csv: あ、わかったよ
+       rpy: わ、分かったよ。
+   sp_l1_s_039 psv=10373
+       csv: あっ 行っちゃった
+       rpy: あ......。行っちゃった。

@@ -1,0 +1,126 @@
+reset();
+title("貴族の意地");
+tndl(null);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +3)});
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -50,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 0,lv = 0,image = (0x02000000 +1114)});
+msgon()
+talk("味方Ａ", "兵士", "どうやら包囲網を抜けることができたようです。\nでは、ヴァリエール様、サイト様。\n護衛はここまでとさせてください。", (0x04000000 +4233));
+talk("味方Ａ", "兵士", "できれば学院までお送りしたいところですが、\n今は王都と女王陛下をお守りすることが\n何よりも優先されていますので。", (0x04000000 +4234));
+set("lay15", {y = 0,level = 160,x = 160});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "ええ、ご苦労さま。\n女王陛下に感謝の言葉を伝えておいてください。", (0x04000000 +6322));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 156,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ここまでありがとうございます。\n気をつけてお帰りください。", (0x04000000 +11770));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay15", {y = 0,x = 0});
+talk("味方Ａ", "兵士", "はっ、それでは……。", (0x04000000 +4235));
+msgoff()
+set("bgm", {stop = 1000});
+beginSkip();
+msgoff()
+back();
+set("lay15", {show = 0});
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1134)});
+trans("crossfade", 1000);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 2000);
+endSkip();
+item("バナナ", 3);
+item("ハート型チョコ", 3);
+item("青汁", 3);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +148)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+talk("サイト", null, "あの兵士さん、帰り大丈夫かなぁ。", (0x04000000 +11771));
+talk("ルイズ", null, "大丈夫よ。\nきっと。", (0x04000000 +6323));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +149)});
+waitLoad(true);
+talk("サイト", null, "きっとってなぁ……。\n時間が過ぎれば、砲台の動きも活発に\nなるんだろ？", (0x04000000 +11772));
+talk("ルイズ", null, "わたし達はわたし達の仕事をこなすことが\n優先よ。\n違う？", (0x04000000 +6324));
+talk("サイト", null, "うっ。", (0x04000000 +11773));
+talk("ルイズ", null, "それより今は一刻も早く学院に戻って、\nゼロ戦でトリスタニアへ戻りましょう。", (0x04000000 +6325));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +148)});
+waitLoad(true);
+talk("サイト", null, "……。", (0x04000000 +11774));
+talk("ルイズ", null, "サイト？", (0x04000000 +6326));
+talk("サイト", null, "なぁルイズ、昨日の夜も言ったけど、\nほんとにそれでいいのか？", (0x04000000 +11775));
+talk("ルイズ", null, "な、なにがよ？", (0x04000000 +6327));
+talk("サイト", null, "俺はできれば、戦場に行きたくない。\nもちろん、ルイズにも行ってもらいたくない。", (0x04000000 +11776));
+talk("ルイズ", null, "……。", (0x04000000 +6328));
+talk("サイト", null, "そりゃあ俺はおまえの使い魔だから、\n命令されたら一緒に戦場には行くけど……。", (0x04000000 +11777));
+talk("サイト", null, "（できれば、ルイズにはこれ以上危険な\n　目に合ってほしくない）", null);
+talk("サイト", null, "（前はたまたま成功しただけなんだ。\n　今回も成功するとは限らないんだぞ）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +150)});
+waitLoad(true);
+talk("ルイズ", null, "もういい！", (0x04000000 +6329));
+talk("サイト", null, "ルイズ……。", (0x04000000 +11778));
+talk("ルイズ", null, "あんたがグダグダ言うなら、\nわたし１人でもやってやるわよ。", (0x04000000 +6330));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +151)});
+waitLoad(true);
+talk("サイト", null, "いや、俺が戦いに行きたくねーって\n話じゃねーよ。\n分かってるのか？", (0x04000000 +11779));
+talk("ルイズ", null, "道中うだうだ言っててもはじまらないわ。\n今この時にも、トリスタニアと女王陛下には\n危機が迫ってるんだから。", (0x04000000 +6331));
+talk("ルイズ", null, "あんたもわたしの使い魔なら、少しは……、\nあ、あらっ！？", (0x04000000 +6332));
+set("se0", {play = (0x03000000 +67)});
+waitSEStop(null, true);
+set("se0", {play = (0x03000000 +66)});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +148)});
+waitLoad(true);
+talk("サイト", null, "この音は？\nう、上っ？", (0x04000000 +11780));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +130)});
+waitLoad(true);
+talk("ルイズ", null, "シルフィードだわ！\nタバサの使い魔じゃない。", (0x04000000 +6333));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("stage", {level = 200,image = (0x02000000 +2)});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +588)});
+msgon()
+talk("タバサ", null, "見つけた。", (0x04000000 +15585));
+set("lay0", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 156,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "やっぱりタバサか。\n俺達を迎えに来てくれたのか？", (0x04000000 +11781));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "ちょうどいいわ、すぐにわたし達を学院まで\n連れていって。\n今、王都が……。", (0x04000000 +6334));
+talk("タバサ", null, "はやく乗って。\n急いで。", (0x04000000 +15586));
+set("lay1", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "急いでって、どうして？\n魔法学院で何かあったの？", (0x04000000 +6335));
+set("lay0", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "ハルナが暴れてる。", (0x04000000 +15587));
+selectInit();
+selectItem("春奈が？　まさか！", (0x01000000 +697), null, true);
+selectItem("それは本当に春奈なのか？", (0x01000000 +698), null, true);
+selectItem("急にどうしちゃったんだ、春奈……", (0x01000000 +699), null, true);
+select();

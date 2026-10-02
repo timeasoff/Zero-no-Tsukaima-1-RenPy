@@ -1,0 +1,31 @@
+=== idx=664 SIZE=37 XSIZE=26 ZIP=1 rawlen=26 ===
+  raw repr: b'if (isJump()){\nre\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xfaif (isJump()){\nreset();\n}\n \x00'
+
+=== idx=1533 SIZE=62 XSIZE=51 ZIP=6 rawlen=51 ===
+  raw repr: b'r)l(lll,e;S)k,, s\nt;(  neta\nnn"utnrtuu l(d\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xe3r)l(\xc1l\xff,e;S)k,, s\nt;(  neta\nnn"utnrtuu I\xeadtall"l);\ny\x00'
+
+=== idx=1697 SIZE=63 XSIZE=51 ZIP=6 rawlen=51 ===
+  raw repr: b'r)l(lll,e;S)k,, s\nt;(  neta\nnn"utnrtuu l(d\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xe3r)l(\xc1l\xff,e;S)k,, s\nt;(  neta\nnn"utnrtuu I\xe9dtall"l);\n\xbf0\x00'
+
+=== idx=1904 SIZE=45 XSIZE=34 ZIP=2 rawlen=34 ===
+  raw repr: b'i iJm()\nee(;}mv(;f(sup){r\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xffi iJm()\nee(;}mv(;f(sup){rst)\n\noe\x19\xe0h\x00'
+
+=== idx=1909 SIZE=45 XSIZE=34 ZIP=2 rawlen=34 ===
+  raw repr: b'i iJm()\nee(;}mv(;f(sup){r\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xffi iJm()\nee(;}mv(;f(sup){rst)\n\noe\x19\xe0h\x00'
+
+=== idx=1914 SIZE=45 XSIZE=34 ZIP=2 rawlen=34 ===
+  raw repr: b'i iJm()\nee(;}mv(;f(sup){r\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xffi iJm()\nee(;}mv(;f(sup){rst)\n\noe\x19\xe0h\x00'
+
+=== idx=1918 SIZE=297 XSIZE=293 ZIP=2 rawlen=293 ===
+  raw repr: b'slcIi(;slcIe(\x82\x82" ul mveo1" re;slcIe(\x82\x82" ul mveo1" re;slcIe(\x82\x82" ul mveo1" re;slcIe(\x82\x82" 00000 11) ul re;slc(;i nxSee= ul \n oi(oiN)\n et(x1000+95,tu)\neetnt)\neettm"PP,nl,"oiN=1,tu)\neettm"PQ,nl,"oiN=2,tu)\neettm"PR,nl,"oiN=3,tu)\neettm"\xc2\xac,(x1000+99,nl,tu)\neet)\nf(etcn =nl){ mvemveo; nx(00000 11) re;\x00\x00'
+  rec data (SIZE-8): b'\xffslcIi(;slcIe(\x82\x82" ul mveo1" re;sl\t\xffe(\x82\x82" ul mveo1" re;slcIe(\x82\x82" ul \xf3mveo1" re;slcIe(\x82\x82" \xc308\xc01\xff) ul re;slc(;i nxSee= ul \n oi(oi\xe8N)\n et(x1\x81\xff+95,tu)\neetnt)\neettm"PP,nl,"oiN=\xb0/\x1c\xc0e\xc0t`\x14\xffPQ,nl,"oiN=2,tu)\neettm"PR,nl,"oi\xf3N=3,tu)\neettm"\xc2\xac,(x1\xc10\xff+99,nl,tu)\neet)\nf(etcn =nl){ mve\x83\xe4; nx(c$\xc01\xb8D\x9c\x08 \xe2}\n,\x00'
+
+=== idx=1920 SIZE=206 XSIZE=200 ZIP=1 rawlen=200 ===
+  raw repr: b'selectInit();\nselectItem("\x82P\x82V", null, "movieNo=17", true);\nselectItem("\x82\xe0\x82\xc7\x82\xe9", (0x01000000 +4), null, true);\nselect();\nif (nextScene == null) {\n  movie(movieNo);\n  next((0x01000000 +1915), true)\x00\x00\x00\x00'
+  rec data (SIZE-8): b'\xffselectInit();\nselectItem("\x82P\x82V",\xff null, "movieNo=17", true);\nsele2\x14\x04\xf0m("\x82\xe0\x82\xc7\x82\xe9", (0x01\xc40`\xff+4), null, true);\nselect();\nif (\x14\x84\xffxtScene == null) {\n  movie(movie\xf0No);\n  next((0x01\xa44\x80\xf01915), true);\n}\n;\x00'

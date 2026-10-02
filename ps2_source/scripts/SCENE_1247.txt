@@ -1,0 +1,30 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +698)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+talk("サイト", null, "（こ、これはチャンスですよ？\n　この際じっくりと目の保養を……。\n　いや観察を！）", null);
+talk("サイト", null, "（……じいーっ）", null);
+set("lay6", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +700)});
+talk("キュルケ", null, "……ふふん？", (0x04000000 +2912));
+like("キュルケ", 10);
+tndl(-30);
+talk("サイト", null, "（改めて目の当たりにするとなんつーか、\n　すごいな……『ぼんっ、きゅっ、ぼんっ！』\n　って感じで）", null);
+talk("キュルケ", null, "ふふっ、どうかしら？\n興奮する？", (0x04000000 +2913));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +398)});
+talk("サイト", null, "すっごく……。", (0x04000000 +9417));
+talk("キュルケ", null, "あらん、正直ねえ。", (0x04000000 +2914));
+set("lay6", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +706)});
+talk("キュルケ", null, "それじゃ、もっと近くで観察してみる？", (0x04000000 +2915));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "ももも、もっと近くって……ええ？", (0x04000000 +9418));
+set("lay6", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +700)});
+talk("キュルケ", null, "いやねぇ、冗談よダーリン。\n今日はお互いの気持ちを高めるだけに\nしましょ？", (0x04000000 +2916));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ、ああ……。", (0x04000000 +9419));
+next((0x01000000 +1249), true);

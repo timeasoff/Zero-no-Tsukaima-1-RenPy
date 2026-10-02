@@ -1,0 +1,19 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "ねえ、サイト。\n……本当に分からないの？", (0x04000000 +5142));
+talk("サイト", null, "ひゃ、ひゃぁっ！？", (0x04000000 +10442));
+talk("サイト", null, "（み、耳元にルイズの息がぁっ！）", null);
+talk("サイト", null, "（耳に息を吹きかけるなんて……、\n　ど、どこでそんなテクニックを？）", null);
+talk("ルイズ", null, "それとも、分からないふりをしてるの？", (0x04000000 +5143));
+talk("サイト", null, "え、あ、あのルイズ……さん？", (0x04000000 +10443));
+talk("ルイズ", null, "女の子の気持ちを……よ？", (0x04000000 +5144));
+selectInit();
+selectItem("ど、どういう意味？", (0x01000000 +1741), null, true);
+selectItem("……わ、分からないです", (0x01000000 +1742), null, true);
+selectItem("お、俺の中の狼さんが……！", (0x01000000 +1743), null, true);
+select();

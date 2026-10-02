@@ -1,0 +1,48 @@
+=== idx=424 len=9626 ===
+full/ascii repr (first 800):
+b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r 1,v 1,atr 0r Bocym=0x 4v ig=02007);e"y,ocy 0 0Fm sw mem=0xo=1,v 1,atr 0r Aocym=0x 6v ig=02003);e"m l (000+);e"a"{at=0y sw le=0x ig=02004}\ns(g,sp 0)wtm10te\ntl8 pi 0 0Fm mem=0xo=2ocyo=0he ocym=0x 4;e"y,ocy y yo=,vi 1,r -,atr 1,d=,ati 1,=4)s(a"{at=0y yo=,o=,vi 1,r -,v 1,atr 0r Aocym=0x , 1me x00 2}\nl"\x83g l \xe6\x82A\x82\xaa\x8f\xc8\x82\xc8\\\xb4\x82\xa2\x82\xa2"(000+6)\ntl5 pi 0 0Fm mem=0xo=4piFm 0i 1piTe 0 1}\ntl1 pi 1,=,r 0h 1oTe 0Fm 4le=6ocyo=, ""piTe 0 -, 0me x00 0}\ntl2 pi 1,=,r 0h 1oTe 0Fm 4el 0piFm d=2,ati 1,=2l=,a (000+8)s(g,fem=,a=03002}\nl"\x83X"nl"\x83g\x82\xaa\x83C\x82\xf1\x81c"(000+1)\nl"\x83Y l \xe5\x95A\x82\xb5\x92\xb5\x82\xb0\x82B\x83C\x81\xbf\x82\xc6\x82\xb3\x81,040077;e"y,ocy y yo=,vi 1,r 2,atr 1,d=,ati 1,=7)s(a"{at=0y yo=,o=,vi 1,r 1,v 1,atr 0r Aocym=0x 4v ig=02004);a(T\x83,u,\x82A\x81\xa8\x82\xa2\x81B\x8fk\x82\xc4\x81c"(000+6)\ngf\ntl1 pi 0 0Fm mem=0xo=9ocyo=0he ocym=0x 6;e"y,ocy y yo=,vi 1,r 2,a'
+tail repr (last 300):
+b',r 0h 1oTe 0Fm 4el 0piFm d=1,ati 1,=2l=,a (000+9)tk\x83\x93\x83b"nl"\x82I x00 1)s(a"{o=,v 1, ""v ig=02003);a(\x8b\x83,u,\x82\xbd\x82\xbd\x82\xb7\\\xc5\x81P\x82\xaa\x82\x88\x82\xcc\x82A\x8f\xa2\x82\xe5\x81,040070;e"y,sw le=6d=1, 0me x00 7}\nl"\x83\x8a\x83^ l \x8b\x83A\x82\xaa\x82\xb2\x82\xdc\x81,04009)\ntl1 pi 0 0Fm mem=0xo=9ocyo=0he ocym=0x 6;e"y,ocy 0 0Fm sw mem=0xo=1,v 1,atr 0r Aocym=0x 6v ig=02003);e(x00 2,r);\n'
+bad high bytes: 25  first: [(347, '0xb4'), (592, '0x81'), (705, '0x83'), (2776, '0xc8'), (2805, '0x81'), (2850, '0x81'), (2965, '0x83'), (3015, '0xcd'), (3559, '0x81'), (3750, '0x83'), (3764, '0x81'), (3917, '0xa6'), (3927, '0xc1'), (3930, '0x81'), (4108, '0x81'), (5990, '0x81'), (6002, '0x83'), (6177, '0xcd'), (6178, '0x81'), (6283, '0x83')]
+
+=== idx=780 len=7997 ===
+full/ascii repr (first 800):
+b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r -6el 0piFm d=2,ati 1,=9l=,a (000+3)s(a"{at=0y yo=,o=,vi 1,r 1,v 1,atr 0r Aocym=0x 4v ig=02006);e"m l (000+);e"a"{at=0y sw le=0x ig=02009}\ns(a"{=1x 4;e"y,ocy y yo=,vi 1,r 2,atr 1,d=,ati 1,=7)s(a"{=,o=,v 1, "" 6l=,a (000+9)tk\x83C"nl"\x81\xc6\x82\xad\\\xed\x82\xcc\x91\xcd\x82\xc5\x82\xa2\x81n\x83X\x82\xc7\x82\xc4\x82\xb5\x82\xc1\x82\xc5\x82["(000+7)s(a"{=,=9)s(a"{at=0y yo=,o=,vi 1,r 1,v 1,atr 0r Aocym=0x 4v ig=02003);a(T\x83,u,\x82\xf1\x82\xa4\x8b\xaa\x82\xc6\x81b\x82\xc4\x82n\x82\xcb"(000+0)\ntl5  0h 1el 0mep=, ""mem=0x 4v ig=02004);a(T\x83,u,\x82\xe5\x82\xb5\x81\xb4\x82\xe0\x92\xc5\x82\xa2\x82\xc8\x94\xdd\x82\xf8\x82\xe9\x82\xc8\x81,040014)s(a"{at=,=,r 0oTe 0Fm 6piFm 0i 1piTe 0 -}\ntl6 pi 1,=,r 0h 1oTe 0Fm 4le=6ocyo=, ""piTe 0 -, 0me x00 7}\nl"\x83\x8b"nl"\x82\xb5\x82\xab\x82A\x82A\x82\xa9\x82\xed\x81,040034;e"y,y sw le=6igy 2r Aigi 3,=2l=,a (000+0)tk\x83C"nl"\x83H x00 25;e"m t 10;aTe0,r)s(a"{=,o=,v 1,aTe d=2,aTe 0 -, 0me x00 1}\nl"\x83\x8b"nl"\x82B x00 3)\ntb"{di 0l (000+);e"y,sw le=6d=1, 0me x00 9}\nl"\x83g l \xf6\x82'
+tail repr (last 300):
+b'e"y,sw re=}\ntl5 h 0et )s(a"{o=,s 1;e"y,sw re=}\ntl1 h 0et )s(a"{o=,s 1;e"y,sw re=}\nii( u;a(T\x83,u,\x82\xe1\x82\xa0\x82\xa0\x82\xa0\x82I\x81,040014)s(a"{at=0y yo=,o=,vi 1,r 1le=5ocyo=, ""piTe 0 6l=,a (000+8)tk\x83o"nl"\x8e\x86\x81,040012)mo(s(e,sp )s(g,sp 0)s(a"{o=}\ntl0 pi 0 0Fm mem=0xo=4piFm 0i 1piTe 0 1}\ntsg,ocy he ocym=0}\nii(0 u;e(x00 8,r);\n'
+bad high bytes: 47  first: [(269, '0xcc'), (373, '0x83'), (446, '0x83'), (472, '0x81'), (603, '0x81'), (1123, '0xbf'), (1129, '0xc8'), (1270, '0xb4'), (1277, '0x81'), (1416, '0xbb'), (1428, '0xbc'), (1441, '0x81'), (1486, '0xaf'), (1499, '0x81'), (2463, '0xac'), (2544, '0x83'), (2956, '0x81'), (3042, '0xc8'), (3057, '0x81'), (3115, '0xd0')]
+
+=== idx=813 len=3477 ===
+full/ascii repr (first 800):
+b'i(Jp)re)s(a"{at=0y yo=,o=,vi 1,r -6el 0piFm d=1,ati 1,=9l=,a (000+1)s(a"{at=0y yo=,o=,vi 1,r 1,v 1,atr 0r Aocym=0x 4v ig=02003);e"m l (000+);e"a"{at=0y sw le=0x ig=02002}\ns(a"{=,o=,v 1,aTe d=2,aTe 0 2, 0me x00 2}\nl"\x83g l \xe9\x82\xbf\x82\x9f\x81\x81\x90\xd7\x82\xbd\x82\x9f\\\xc8\x82\xa2\x82\xe0\x83G\x83\xcc\x97\x9d\x82\xf1\x82I x00 26;e"y,y sw le=6igy 2r Aigi 3,=9l=,a (000+4)tk\x83G\x83,u,\x8a\xa3\x82\xb7\x81n\x82\xe6\x81T\x83\xb3\x82\xfc\x82\xa2\x82A\x8c\xc1\x82\xe7\x82\xe6\x82I x00 42;e"y,y sw le=6igy 2r Aigi 3,=2l=,a (000+8)tk\x83C"nl"\x82\xa0\x81V\x83^\x89\xa4\x81c"nl\ntl2 pi 0 0Fm mem=0xo=9ocyo=0he ocym=0x 6;e"y,y x }\nts"{a=03006}\ntsg,vri 1ai "yVretndewtm=0;e"e"{btn ,tn arbtcool,ii 5)s(a0 iao=4co=LeiaAiMu"aTe }\ntl3 iao=4co=LeiaAiMu"aTe }\ntl2 iao=4co=LeiaAiMu"aTe }\ntl5 iao=4co=LeiaAiMu"aTe }\ntl9 iao=4co=LeiaAiMu"aTe }\ntl0 iao=4co=LeiaAiMu"aTe }\ntl4 iao=4co=LeiaAiMu"aTe }\ntl1 iao=4co=LeiaAiMu"aTe }\ntl7 iao=4co=LeiaAiMu"aTe }\ntl6 iao=4co=LeiaAiMu"aTe }\nbt2\nii(0'
+tail repr (last 300):
+b' )s(a"{o=,s 1;e"y,sw re=}\ntl0 h 0et )s(a"{o=,s 1;e"y,sw re=}\ntl7 h 0et )s(a"{o=,s 1;aTe,r)s(a"{=,o=,v 1,aTe d=2,aTe 0 6l=,a (000+9)tk\x83C"nl"\x82\xa5\x81`\x81\xc1\x81n\x81N\x81\xa8\x82\xc8\x82\x8a\x82\xaf\x93\xcd"(000+1)\ntl5  0 2}\ntl1 pi 1,=,r 0h 1oTe 0Fm 4le=6ocyo=, ""piTe 0 -, 0me x00 0}\nl"\x83Y l \xa0\x82\xcd\x82\xb5\x8e\xa2\x82\xf1\x82\xe7\\\xed\x82\xcc\x97\xc9\x91\xb5\x82\xa2\\\xd9\x82\xc6\x83\x81\x82\x82\x82\xbe\x82I x00 6)\nd-)nt01008)te\n'
+bad high bytes: 19  first: [(222, '0xbf'), (234, '0xc8'), (302, '0x83'), (994, '0x83'), (1018, '0x81'), (1467, '0xdc'), (1483, '0xbe'), (1543, '0x83'), (1557, '0x81'), (2157, '0xc9'), (2165, '0xbe'), (2295, '0x81'), (2533, '0x83'), (2565, '0x81'), (2629, '0xc8'), (2648, '0x81'), (3422, '0xa0'), (3436, '0xcc'), (3444, '0xd9')]
+
+=== idx=1915 len=298 ===
+full/ascii repr (first 800):
+b'msec<i;;llII((s"cue \x82v ol,mue\n2ett)"e,tlm"Rin=, oeNs"cre;\x82l Il(m"eu4 tv)oe,tum\n\xc2e,tx"0\xac0(91,0l+t6)ne,tu\n\n(et)nf=elc{ mne)v ov mxe0;0n0(10)0r ;1i  e0oeNt-t\n\neent)"e,tlm"Qin=, oeNs"cre;\x82l Il(m"eu3 tv)oe,tum\nSent,"o,Nl""ri;=l Ie(s\x82c e0\x820" 010 0l1r);ul (eisncS;e  xle\n=ou( i )i otNx\n0e0(91,0u+\n5}t\n)vo '
+tail repr (last 300):
+b'msec<i;;llII((s"cue \x82v ol,mue\n2ett)"e,tlm"Rin=, oeNs"cre;\x82l Il(m"eu4 tv)oe,tum\n\xc2e,tx"0\xac0(91,0l+t6)ne,tu\n\n(et)nf=elc{ mne)v ov mxe0;0n0(10)0r ;1i  e0oeNt-t\n\neent)"e,tlm"Qin=, oeNs"cre;\x82l Il(m"eu3 tv)oe,tum\nSent,"o,Nl""ri;=l Ie(s\x82c e0\x820" 010 0l1r);ul (eisncS;e  xle\n=ou( i )i otNx\n0e0(91,0u+\n5}t\n)vo '
+bad high bytes: 3  first: [(79, '0xc2'), (86, '0xac'), (232, '0x82')]
+
+=== idx=1916 len=284 ===
+full/ascii repr (first 800):
+b's"e\x82I,t0;1e0c0t1(7T  ll  uo;ee=c,)ri)(sxecIem=\x82u,)u\n,mmiimoi"ot\nen\ntl0t1e0"0"1n5l "uv;Nl7t iu);seecItm(\x82\xc2,"u(,0m0i0o+"1t,eu\n,lrt)es"e"(n\nl "evSNn6= nul;{e cvt((vVN ;l  xo(e0=0,0r+)1s,erI)me\x82c\xacn (x\n0l0t e9")"nnllt"ev\nNl5t ;uf;netcet ( Ul  l  ooeeo=e,)r )es(exI0m0\x82 ,9u),tmei\no}"\nte\nlte'
+tail repr (last 300):
+b's"e\x82I,t0;1e0c0t1(7T  ll  uo;ee=c,)ri)(sxecIem=\x82u,)u\n,mmiimoi"ot\nen\ntl0t1e0"0"1n5l "uv;Nl7t iu);seecItm(\x82\xc2,"u(,0m0i0o+"1t,eu\n,lrt)es"e"(n\nl "evSNn6= nul;{e cvt((vVN ;l  xo(e0=0,0r+)1s,erI)me\x82c\xacn (x\n0l0t e9")"nnllt"ev\nNl5t ;uf;netcet ( Ul  l  ooeeo=e,)r )es(exI0m0\x82 ,9u),tmei\no}"\nte\nlte'
+bad high bytes: 2  first: [(191, '0xac'), (262, '0x82')]
+
+=== idx=1917 len=287 ===
+full/ascii repr (first 800):
+b'see\nIltt;ee"c\x82t,(0W1 0l0 1o8e =l, ru);seecI)mi\x82(,xuc,em=iuo)"\ntmei\nmlitoe\n"n\x82t,0u1,0m0i1o50  uu;;letcit)(s\xc2e"I(m0\x820,0u+,1m,iuo,"rt)es\nel(t\ne "e"Snnl="nvlN{9  vu(;veNc;t (xP("0n0l0"+v1N,1r,)re)csne(I\nml\x82t\xace "x"0n0l "9v)Nn8l tue;\nelctt;(fXn tle  o el= , ro)esoeeI)m \x82eO( xl0 0o e9=)"tte\n}\n'
+tail repr (last 300):
+b'see\nIltt;ee"c\x82t,(0W1 0l0 1o8e =l, ru);seecI)mi\x82(,xuc,em=iuo)"\ntmei\nmlitoe\n"n\x82t,0u1,0m0i1o50  uu;;letcit)(s\xc2e"I(m0\x820,0u+,1m,iuo,"rt)es\nel(t\ne "e"Snnl="nvlN{9  vu(;veNc;t (xP("0n0l0"+v1N,1r,)re)csne(I\nml\x82t\xace "x"0n0l "9v)Nn8l tue;\nelctt;(fXn tle  o el= , ro)esoeeI)m \x82eO( xl0 0o e9=)"tte\n}\n'
+bad high bytes: 4  first: [(46, '0x82'), (106, '0xc2'), (113, '0x82'), (203, '0xac')]
+
+=== idx=1919 len=293 ===
+full/ascii repr (first 800):
+b'sc;"(vlr1Is \x82e e"elu\x82om; (c0"20ru(sS l=(  N0(,+net\n,"i,u4tenPN"),melU=o\nt"t1,00ul)ec()=mmno00 1ilIs \x82e e"elu\x82om; (cl"1vsr\x82I0 ) el;len  ooe)0xt9tetenPN"),melT=o\nt"t,,6ieu\xc2t0(,+),\nene{nvvx;00r1(celu\x82om; (cl"1vsr\x82I  "ele\x82e00 1; icex\nuiit\n01u5)tmelS=o\nt"t,,5ieuPt"n,Ne)\xacm0xn9\ntft t lee(  0e))I;\n}\x00'
+tail repr (last 300):
+b'sc;"(vlr1Is \x82e e"elu\x82om; (c0"20ru(sS l=(  N0(,+net\n,"i,u4tenPN"),melU=o\nt"t1,00ul)ec()=mmno00 1ilIs \x82e e"elu\x82om; (cl"1vsr\x82I0 ) el;len  ooe)0xt9tetenPN"),melT=o\nt"t,,6ieu\xc2t0(,+),\nene{nvvx;00r1(celu\x82om; (cl"1vsr\x82I  "ele\x82e00 1; icex\nuiit\n01u5)tmelS=o\nt"t,,5ieuPt"n,Ne)\xacm0xn9\ntft t lee(  0e))I;\n}\x00'
+bad high bytes: 2  first: [(169, '0xc2'), (265, '0xac')]

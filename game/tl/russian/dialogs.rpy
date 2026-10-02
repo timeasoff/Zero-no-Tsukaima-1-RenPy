@@ -473,6 +473,9 @@ translate russian strings:
     old "..."
     new "…"
 
+    old "!!!!!"
+    new "!!!!!"
+
     old "It's the honest-to-god truth."
     new "Честно-пречестно, ни капли не вру!"
 
@@ -3344,6 +3347,23 @@ translate russian strings:
 
     old "That's right. I was looking at the moon in the night sky."
     new "Да. Я смотрела на луну в ночном небе."
+
+translate russian strings:
+
+    old "....."
+    new "…"
+
+    old "?"
+    new "?"
+
+    old "Game Over..."
+    new "Игра окончена..."
+
+    old "test"
+    new "тест"
+
+    old "ERR"
+    new "ERR"
 
 
 

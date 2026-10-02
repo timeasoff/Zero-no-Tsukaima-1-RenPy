@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +80)});
+}
+talk("サイト", null, "たぶん、そうかもしれない。\n詳しいことは、\n本人に聞いてみないと分かんないけど。", (0x04000000 +9330));
+talk("シエスタ", null, "そうですか……。\nサイトさんと、同じ国の人……。\nそれじゃ、サイトさんも気になりますよね。", (0x04000000 +14382));
+like("シエスタ", 10);
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "え？\nま、まぁな。", (0x04000000 +9331));
+talk("サイト", null, "でも、現時点では何がなんだか\nさっぱり分からないよ。", (0x04000000 +9332));
+talk("シエスタ", null, "そうですね。", (0x04000000 +14383));
+next((0x01000000 +1228), true);

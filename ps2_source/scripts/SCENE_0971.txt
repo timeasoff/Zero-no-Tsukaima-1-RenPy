@@ -1,0 +1,42 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +240)});
+}
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "あ、あれ？", (0x04000000 +12708));
+talk("キュルケ", null, "どうやらまた眠っちゃったみたいね。", (0x04000000 +3561));
+talk("サイト", null, "だ、大丈夫なのか？", (0x04000000 +12709));
+talk("キュルケ", null, "大丈夫でしょ。\n一度、目を覚ましてるわけだし。", (0x04000000 +3562));
+talk("キュルケ", null, "そんなに心配だって言うのなら、\nしばらく手を握っててあげなさい。", (0x04000000 +3563));
+talk("キュルケ", null, "きっとタバサが、安心して眠っていられる\nはずだから。", (0x04000000 +3564));
+talk("サイト", null, "そ、そうだな……。", (0x04000000 +12710));
+talk("キュルケ", null, "それより、問題山積みって感じよね。", (0x04000000 +3565));
+talk("サイト", null, "ああ、どうしたもんかなぁ。\n春奈の件とか……。\nガリア王国の件とか。", (0x04000000 +12711));
+msgoff()
+set("lay0", {show = 0});
+set("lay6", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +682)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+msgon()
+talk("キュルケ", null, "……。", (0x04000000 +3566));
+talk("サイト", null, "なんだよ、その顔は？", (0x04000000 +12712));
+talk("キュルケ", null, "ダーリンを想うのって大変ね。\nやっぱりタバサに譲らないで、\nあたしが奪っちゃおうかな？", (0x04000000 +3567));
+talk("サイト", null, "……？", (0x04000000 +12713));
+talk("キュルケ", null, "もう……。", (0x04000000 +3568));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("タバサ", (0x01000000 +1219));
+date((0x01000000 +972),false,(0x03000000 +4));

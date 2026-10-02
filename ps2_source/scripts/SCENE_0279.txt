@@ -1,0 +1,96 @@
+if (isJump()){
+reset();
+set("lay12", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1105)});
+set("lay11", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1105)});
+set("bgm", {play = (0x03000000 +18)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+}
+set("lay11", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay12", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 149,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +940)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay19", {level = 149});
+set("lay1", {level = 159});
+set("lay19", {level = 149});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("デルフリンガー", null, "相棒、相手が多すぎる。\n一度引き上げたほうが良くねーか？", (0x04000000 +1304));
+talk("デルフリンガー", null, "それに市街地だ。\n派手に魔法は使えないぞ。", (0x04000000 +1305));
+set("lay1", {level = 160});
+set("lay19", {level = 150});
+set("lay5", {level = 149});
+talk("サイト", null, "そんなことできるはずねーだろ？\n春奈が襲われてるかもしれないのに。", (0x04000000 +11605));
+talk("サイト", null, "（どうする……）", null);
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +130)});
+trans("crossfade", 1000);
+set("se0", {play = (0x03000000 +67)});
+waitSEStop(null, true);
+talk("サイト", null, "（い、いまの影は？）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {stop = 1000});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +129)});
+trans("crossfade", 1000);
+set("se0", {play = (0x03000000 +67)});
+waitSEStop(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+msgon()
+talk("キュルケ", "？？？", "あーら。\nやっぱり、面白そうなことになってるじゃない！", (0x04000000 +3239));
+talk("ルイズ", null, "キュルケ！\nタバサ！\nモンモランシー！", (0x04000000 +6182));
+talk("ギーシュ", null, "ぼ、ぼくもいるぞ！", (0x04000000 +1506));
+talk("ルイズ", null, "……ああ、ギーシュもいたの？", (0x04000000 +6183));
+talk("ギーシュ", null, "そ、その扱いは……。", (0x04000000 +1507));
+msgoff()
+set("lay4", {show = 0});
+set("lay1", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "あなた達がなかなか学院に戻ってこないから、\n何か面白そうなことに、巻き込まれてるのに\n違いないって思ったんだけど。", (0x04000000 +3240));
+talk("キュルケ", null, "ドンピシャだったみたいね。", (0x04000000 +3241));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 156,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "大当たり。", (0x04000000 +15573));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "お、面白そうなことってなによ！\n他人事だと思って！", (0x04000000 +6184));
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "はいはい、ぼやかないぼやかない。\nこの微熱のキュルケがお手伝いして\nあげようっていうんじゃない。", (0x04000000 +3242));
+set("lay6", {y = 0,show = 1,level = 155,imageType = 2,dr = "3A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +742)});
+talk("キュルケ", null, "……タバサ！", (0x04000000 +3243));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -210,level = 156,opacityFrom = 0,dr = "3A",opacityTime = 100,x = -160,lv = 0,image = (0x02000000 +654)});
+talk("タバサ", null, "いくよ。\nシルフィード。", (0x04000000 +15574));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -160,opacityFrom = 100,hide = 1,opacityTime = 100,x = -110});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+battleInit((0x02000000 +47));
+battleAdd("サイト");
+battleAdd("ルイズ");
+battleAdd("キュルケ");
+battleAdd("タバサ");
+battleEnemy("左", "魔道士", (0x02000000 +1108));
+battleEnemy("右", "魔道士", (0x02000000 +1108));
+battle();
+next((0x01000000 +280), true);

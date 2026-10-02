@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +610)});
+set("bgm", {play = (0x03000000 +9)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +96)});
+}
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "何をしてたんだ？", (0x04000000 +9612));
+talk("タバサ", null, "……星を見てた。", (0x04000000 +15432));
+talk("サイト", null, "星？", (0x04000000 +9613));
+talk("タバサ", null, "……そう。", (0x04000000 +15433));
+talk("タバサ", null, "……あの星が、北の狩人。\n覚えておくと、道に迷わない。", (0x04000000 +15434));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ええと、どのあたりの星？", (0x04000000 +9614));
+talk("タバサ", null, "……あれ。", (0x04000000 +15435));
+talk("サイト", null, "（日本で見る星空と全然違うな。\n　当たり前だけど）", null);
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "……はっ。", (0x04000000 +9615));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "星はきれいだけど、\n俺、ルイズを探しに行かなくちゃ。", (0x04000000 +9616));
+talk("サイト", null, "星を教えてくれてありがとうな。", (0x04000000 +9617));
+set("lay0", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +612)});
+talk("タバサ", null, "……。", null);
+like("タバサ", 15);
+tndl(-30);
+next((0x01000000 +1295), true);

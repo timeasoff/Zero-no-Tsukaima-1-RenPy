@@ -1,0 +1,76 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +89)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+msgon()
+talk("ルイズ", null, "はぁ、今日も練習。\n明日も練習……。\nそれにしても、なにか釈然としないわね。", (0x04000000 +6231));
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +271)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "……あ、あれ？\nハルナ、いたんだ？", (0x04000000 +6232));
+talk("ハルナ", null, "き、きゃあっ！", (0x04000000 +2363));
+talk("ルイズ", null, "な、なによ！\nわたしよ！\nわたし！", (0x04000000 +6233));
+talk("ルイズ", null, "……って！\nえ？\nなんで、ムネがないの？", (0x04000000 +6234));
+talk("ハルナ", null, "い、いやっ！\nみ、見ないでください！", (0x04000000 +2364));
+talk("ルイズ", null, "……な、なによそれ！\nハルナのムネは上げ底だったの？", (0x04000000 +6235));
+talk("ハルナ", null, "ご、ごめんなさぁい！", (0x04000000 +2365));
+talk("ルイズ", null, "ごめんなさいじゃないわよ！", (0x04000000 +6236));
+talk("ルイズ", null, "そ、その詰め物のせいで、\nどれだけわたしが小さな胸を痛めて……、\nもとい肩身の狭い思いをしたと思ってるのよ！", (0x04000000 +6237));
+talk("ハルナ", null, "お願い！\nみんなには黙っていて！", (0x04000000 +2366));
+talk("ルイズ", null, "……。", (0x04000000 +6238));
+talk("ハルナ", null, "……。", (0x04000000 +2367));
+talk("ルイズ", null, "……まったく、仕方ないわね。\n分かったわよ。\n黙っててあげる。", (0x04000000 +6239));
+talk("ハルナ", null, "……あ、ありがとう……。", (0x04000000 +2368));
+talk("ハルナ", null, "……昔、見栄をはって……パッドを一枚、\nまた一枚と入れていくうちに後戻り\nできなくなって……とうとう……。", (0x04000000 +2369));
+talk("ルイズ", null, "……ふ、ふぅん。\nパッドってこれのこと？", (0x04000000 +6240));
+talk("ハルナ", null, "……う、うん。\nこうやってつける……、上げ底というか……。", (0x04000000 +2370));
+talk("ハルナ", null, "……私達の世界にある、女の子の秘密道具なの。", (0x04000000 +2371));
+talk("ルイズ", null, "……ふ、ふ～ん。\n変な形ね。", (0x04000000 +6241));
+talk("ルイズ", null, "……。", (0x04000000 +6242));
+talk("ルイズ", null, "……で、でも。\nすばらしいわ。", (0x04000000 +6243));
+talk("ルイズ", null, "いま初めて、サイトがいた世界に興味と\n尊敬を感じたわ。", (0x04000000 +6244));
+talk("ハルナ", null, "最近はつける必要ないと思ってたんだけど、\n平賀くん、胸の大きい女の子が\n好きみたいだし……。", (0x04000000 +2372));
+talk("ルイズ", null, "そうよね。\n本人は興味なさそうなふりをしてる\nみたいだけど、バレバレよ。", (0x04000000 +6245));
+talk("ハルナ", null, "ルイズさん、ごめんなさい。", (0x04000000 +2373));
+talk("ルイズ", null, "いえ、いいのよハルナ。\nすべてはあのバカ犬が悪いのよ。\n女の子の気持ち、分かってくれないんだから。", (0x04000000 +6246));
+talk("ハルナ", null, "そうですね。", (0x04000000 +2374));
+talk("ルイズ", null, "……プッ、くすくすくす。", (0x04000000 +6247));
+talk("ハルナ", null, "あは、あはははは……。", (0x04000000 +2375));
+msgoff()
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +940)});
+msgon()
+talk("サイト", null, "なんか、楽しそうに笑ってるぞ？\n……あの２人……何を話してたんだ？", (0x04000000 +11676));
+set("lay19", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +946)});
+talk("デルフリンガー", null, "相棒。\nまぁ、聞かぬが華ってヤツだよ。", (0x04000000 +1307));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "なんだそりゃ。", (0x04000000 +11677));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +321), true);

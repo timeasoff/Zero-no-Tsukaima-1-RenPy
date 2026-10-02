@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay15", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 110,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 160,lv = 0,image = (0x02000000 +1114)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("bgm", {play = (0x03000000 +25)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay15", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 160,opacityFrom = 100,hide = 1,opacityTime = 100,x = 210});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 156,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "ルイズ、こいつら、やっちゃっていい？", (0x04000000 +12562));
+talk("ルイズ", null, "いいわけないでしょ！\nなに言ってるの！\nほんっとにバカなんだから！", (0x04000000 +6844));
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 156,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "で、ですよね。", (0x04000000 +12563));
+set("lay1", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "サイトは黙ってて。\nここはわたしに任せなさい。", (0x04000000 +6845));
+set("lay5", {y = 0,show = 1,level = 156,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "はーい。", (0x04000000 +12564));
+next((0x01000000 +944), true);

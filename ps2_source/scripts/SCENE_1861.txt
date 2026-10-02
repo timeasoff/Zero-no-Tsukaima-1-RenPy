@@ -1,0 +1,6 @@
+selectInit();
+selectItem("ƒvƒƒ[ƒO", (0x01000000 +5), null, true);
+selectItem("‚P“ú–Ú", (0x01000000 +6), null, true);
+selectItem("‚Q“ú–Ú", (0x01000000 +68), null, true);
+selectItem("Ÿ", (0x01000000 +1864), null, true);
+select();

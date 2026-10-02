@@ -1,0 +1,133 @@
+plain  : set("stage", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,
+odd    : e(sae,{pct  0,  ,Fo  ,hw=1mvTm  0,
+even   : st"tg" oaiy=10y=0yrm=0so  ,oeie=10
+compact: e(sae,{pct  0,  ,ee  0,hw=1x=0
+
+odd startswith compact? False
+even startswith compact? False
+
+=== SCENE_ID.BIN_00000006.BIN (7238 bytes) ===
+-- odd bytes (3619) --
+s)i(ャ�;du;gk)sfb(s"g ay1y0o e 0 ,g 00 }tsrf"0
+k
+(a,pt , e 0h=x0a=x001}tsrf"0;c;tt"oi=0=ll2s , m 0001)
+ncse1)ai1,u
+k
+(a,pt , e 0h=x0a=x001}tsrf"0;c;tt"oi=0=ll2s , m 0002;a"sd 0ek)t"�3i(�")t"概,;tg dm l=x009;gk)sfb(s"g ay1y0v=0o  ,g 00 )
+ncse5;c;tt"oi=0=ll2s , m 0001)
+ncse5;c;tt"oi=0=ll2s , m 0001)
+ncse5;im2 eb(s"g ay1y0v=0o  ,g 00 4)r(oa,0b(s"g ay1y0v=0o  ,g 00 )
+ncse2)ni;g(a)eet{c 0 ,w1v=, m 0001}tsrf"0;g)lャ l＝ 00 4;lャ l≠ａモ� 00 7)a"C,l"ﾉB(40+3
+kTgn,ｿﾁｨｫｽ�ｷﾇ,x000)mf
+(e, ,e iee1ai=0 ,g 00 0;iar;lャ l′ｂｂ"0005)t(�"u ｍ�\汲ｂｂｂ\汲＝ 00 7)a"C,l"cｩﾁﾜ�ｵﾁB帰ｵ､ﾁoｪ鯒ｪ,x000)mf
+(e, ,e iee1ai=0 ,g 00 8;iar;lャ lｂｂｂ�"0005)mf
+(e, ,e iee1ai=0 ,g 00 9;iar;lャ lｂａｂｂ\ｂｂｂａｂｂｂ汲�"00015
+k戯n,ｻ瓣�ﾍｵﾁﾅ衢nｱｶ､窯ffnｿﾁcB(40+6
+k戯n,漓ﾁ爐ｽ�睚B(40+7
+o)tv"y0v=,gp mT 0x0a=x004)aot)a"C,l"血�ｵﾋ誅ﾄ爻ﾄL`H(40+8;g(eet{ e 0ay=iee1, m 0001}wL(et(�"u ＝\＝≠ｂｂ�"0005)t(�"u モｂｂ魔ｂ\似魔ｂ\ｃモｂｂ�"0005)mf
+(e, ,e iee1ai=0 ,g 00 1;iar;lャ lｂ� 00 7)a"C,l"､I(40+0
+o)ta,h=)el"s }s"g v=0a=x005;tt"s }s"n ay0d ptm 0
+tin,u
+k
+(a,pt , h=ll2x0a=x005;a"sd 0s"5{c 0 ,o h=mT 0F 1e 4pto r",cT 0 4 ,g 00 1;g)lャ l≠早燕―浮香ｂｂ� ls"5{c , F ,ee1xm6pto ,e1aye1x1)el"oi=0=ym0o oi=0r=1v=0aym0 1oii=0=,=ie(20+)
+kTgn,iﾍｱ殉ﾈ虱n戯t棟Y丘渡h鉛骸cjn)a"C,l"ｪﾆ戯ﾌｫ@ｹﾅngし｢ｳﾄﾜｽﾍn｡戯版酘jn)sfs"1{c , F ,ee1xm6pto ,e1aye1x1)el"s }s"g ay0d ptm 0
+tin,u
+k
+(a,pt , h=ll2x0a=x008;a"sd 0mnt(�"u 魔ｃｑｍ獅\�梶ャメ＝ｓｂｈ垂�"u;lャ l≠£盾香ャメ¢\＜＜≠垂ａ lt(�"u ャｋ撃ヰ＝モ求翌ｉａメモ鰍ｂ�"u;lャ l¢ｂャャａｗａ lt(�"u ａａｊ浮ａモｂ"u;lャ l≠≠ｂ＝ｖ汲ｂｂ＝ lt(�"u ａｂｂ―高ｂｂａ"u;ta,h=)a"C,l"ｻﾉﾄAｪ｢歡nn賣｢ﾉ瑤cjn)sfs"5{w0
+(a,pt i=oii=0;it(lr;g(a)eet{c 0 ,w1v=, m 0001}tsrf"0;g)lャ lｂ高ｂｂ�\ａｂ鰍
+
+-- even bytes (3619) --
+rt
+lモ�"t(lbnp
+o)c;tt"oi=0=s ,e , m 0002;a"sd )a)ese{c 0 ,e ,w1=ie(20+5;a"sd 0b(s"g ay1y0v=0o  ,g 00 2)r(oa,0
+te0t)a)ese{c 0 ,e ,w1=ie(20+5;a"sd 0b(s"g ay1y0v=0o  ,g 00 }tsrf"0;dp
+mp,;eャ 
+mGN[3s""ft ,y(30+}bnp
+o)c;tt"oi=0=ll2s , m 0008)r(oa,0b(s"g ay1y0v=0o  ,g 00 4)r(oa,0b(s"g ay1y0v=0o  ,g 00 3)r(oa,0wT(0r;c;tt"oi=0=ll2s , m 0001)
+ncse7;c;tt"oi=0=ll2s , m 0008)r(oa,0
+S(mf
+k
+(e,pt , h=ll8 ,g 00 8;a"sd 0mnt(�"u �"0005)t(�"u ≠ｃモ"00011
+k戯n,ﾈ�,x005)a"C,l"衄ｷｵ｢ﾅｯH(40+8;g(eet{ e 0ay=iee1, m 0001}wL(et(�"u ≠ｂａ 00 4;lャ lｂ秩％鰹舶ｂ＝ｂ�"00013
+kTgn,cﾆｾﾄｹﾅｽｯn\yｻｾｽｦ��ｷB(40+8;g(eet{ e 0ay=iee1, m 0001}wL(et(�"u ｂｂｂ� 00 4;g(eet{ e 0ay=iee1, m 0001}wL(et(�"u ｂｋｂａｂ鰍ｂｂ\ｂ高ｕ撃� 00 7)a"C,l"陟�ｽyｩｽｵ､Bｻ鈬ﾌﾌﾉ血ｵ眛c,x005)a"C,l"､ﾝﾆﾈﾁ鉅ｵ｢,x005)sfs"n =ll8mT ,gm 0=ie(20+)
+tdu
+kTgn,ffﾈﾄﾄ[BﾁAｵｵрｩ,x000)mf
+(e, ,e iee1ai=0 ,g 00 0;iar;lャ l＝≠ｂｂｂｂ� 00 4;lャ lヮ魔ｂｘｂ≠垂�ｂ＆ャｂｂｂ� 00 4;g(eet{ e 0ay=iee1, m 0001}wL(et(�"u ｂ"00017
+k戯n,ｻ�,x005)sfs"1{w0
+(y o ;tt"ll2ie(20+}s"g o ;tv"oi=h ,cT 0)acnlt)a)ese{c 0 ,w1v=0=ie(20+}tsrf"0;ta,pt , F ,w1vm ,o ,e ,cF ,=Aptm , l m 0003}mnt(�"u 塩ｕ＄＝枕吹ｂｂ"u;ta,pt  ,o oi=0r=,cF 0i=oii=0=9
+(y ay1y0r=s ,ee1xm-ll1oir=d "aye1x6v1a=x000)a"C,l"｡AﾌK}ｲl|@CE噂[EE右@EE@G議,l
+kTgn,iｷwCx｢の｢A@｢ﾆﾄｫ�ｵﾁｴA@ACﾌｮ魴�,l
+o)ta,pt  ,o oi=0r=,cF 0i=oii=0=9
+(y o ;tt"oi=h ,cT 0)acnlt)a)ese{c 0 ,w1v=0=ie(20+}tsrf"0;g)lャ l＊祉ルｂｔａ吹ャメ―ｂ魔ｂｊａ lt(�"u ｂ奄ｂ\＜ャｓ＝ャャｂ落�"u;lャ l＜レｂｃ�\ャ＊ｂａ箪ャャ荘ｂ戟 lt(�"u 相獅メモ\諮ｂ"u;lャ l≠ｂｂｘ�\モｂ� lt(�"u ｂｂｂ\遠ｂｂｂａ"u;lャ l≠ｂｂ＝≠ｂｂａ� ls"5{w0
+kTgn,i�ｵ燔ﾉﾈcB@ﾉ鯱ｾｵﾈ訥,l
+o)ta,h=)ese{c ,e1aye1}wAou emf
+k
+(e,pt , h=ll8 ,g 00 8;a"sd 0
+
+=== SCENE_ID.BIN_00000004.BIN (260 bytes) ===
+-- odd bytes (130) --
+irl;lI(sce虚 00 6 lr;lI(�"0001)u esceャ"0001)u esceャ"0001)u esc;tie
+en)etm､�(10+1n,u
+et"ﾊ,x008,lt)etmcf,x008,lt)etm�r,x009,lt)et
+
+
+-- even bytes (130) --
+iVa(sci;lI(�"0001)u esce剣 00 6 lr;lI(ャ 00 6 lr;lI(＝ 00 1 lr;l(nab)ett
+et"ﾊ,x008,lt)etmﾂ�(10+2n,u
+et"東(10+5n,u
+et"[[(10+5n,u
+e)
+
+=== SCENE_ID.BIN_00000032.BIN (3386 bytes) ===
+-- odd bytes (1693) --
+ J(
+e;tg a 00 )
+(e,pt , h=ll8 ,g 00 6;t(�"u ａ獅撃ｂ蚕魔ｂ獅ｂ"00016
+kVX,l"OcﾁAｱ繁nCｳﾆｽB~E@G叫ﾜ�B(40+2;lャ l苑ｂａｂメ 00 8)a"糾K,l"�謚Bｱﾈﾁ鉗ｴｿﾈﾌｾB(40+7
+kft甜n,ﾁA�ｦnｰｺｱ版ｺﾆ｢ｫ｢n_器ｸmｸﾋB(40+8
+kVX,l"AｦIn�AｽﾜS�ｪ,x004)l(ャ ;d3
+kTgn,瓷lｫｫｱｾﾈ,x000)t(ャ�"u ｂｂ�\ａ氏ｗａ 00 6;lャ lｕｎｂｂ� 00 8)a"糾K,l"錢�B(40+0
+kTgn,ｷﾈｯBｴｳ�G^ﾘｵｭﾈｩ,x000)t(ャ�"u � 00 7;lャ l浴塩ｂｂ� 00 9)a"糾K,l"�ﾜB器ｸV汗ｦnA｢B(40+2
+kft甜n,Mﾌﾁｪ緩bﾌpnﾂｽｾB(40+3
+kft甜n,�ｱ｢ﾈ�ﾉb��ﾄ�鯑BｱﾂR皋,x002)a"G^n,c{ﾈﾅﾋ,x004)t(�"u ｂ＊ｂ≠ｂ� 00 9)a"糾K,l"Aｿ�n_ﾇﾈSxh�ｽｩﾅAｴﾖｷﾆ�皋ﾇ,x002)a"C,l"ｩﾁnｱ]ﾈﾆｾﾈI(40+0;lャ lａ� 00 3;lャ l�\メｂ� 00 9)a"C,l"��cn､ｩ鉉｢襪BｨｰﾚoｿﾁｶcB(40+1
+o)ta,h=)el"s }s"1{w0
+(y,h=)eet{c ,e1aye1}wAou eb(s"g ay1y0o e 0 ,g 00 )
+ncse1)el"oi=0=ym0o oi=0r=4v=0aym0 1oii=0=4 ,g 00 9;ta,pt , F ,w1vm ,o 6v=0aym0 1oii=0=6 ,g 00 8;g)lャ l≠≠―ｃモｂ奄ｂ"0005)t(�"u ｌｂｃモｊ\翌ａ"u;x0003 efsp{s)eb,l=x000;tv"oi=0=s ,e x0a=x001)
+kTgn,ｱﾍ贅ﾘ�ﾁｴｳ�ﾘｵ､l鱶�ﾜI(40+9;lャ"u 氏ａｕ�\モｂ＜＜ャｂａ 00 5)a"C,l"ﾌ_｢�誅[ft,x000)t(ャ�"u ｂ早ｂｂｉｂｂ� 00 6;lャメ lａｂ\走ｕｑｂｂ\桝ｂ窒ａ 00 6;lャ"u ≠―ａｂ随�"00013
+eVX,)n-;lャ l�＄ｈｌ�"00018
+kft甜n,ｿAﾜﾋﾈBｻﾅnﾛﾈﾌﾈｾ,x002)a"C,l"ﾌｮl�ﾁｩｽﾈ,x000)t(ャ�"u ａａ 00 7;lャ lｂａ塩ｃワｂｂ"00010
+kft甜n,ｦ,x002)a"C,l"ﾞnﾌ_ｩﾁ鮴,x000)t(ャ�"u ｂ¢ｂ拒ｂ\≠� 00 7;lャメ l汲ｂ曹モ予奄ａ 00 7;lャメ l汲ｂ�ｃｂｂｂ≠ｉｂ"0001)t(ャ l＊ｂ�"00014
+kTgn,､A�n約覡ﾄ熙,x000)t(ャ�"u ≠�\魔ｐャ唐ｂ♂鰍ｂｂ�"0001)t(�"u ｂ\ｗｂ撃� 00 9)a"C,l"�c,x006)a"C,l"H戯Nｽｩ,x000)t(�"u ｂ―ｒｂｂメｂ槙ｂａ� 00 3;g(el"s }s"5{w0
+(y o ;ta"s }s"n ay0d ptm 0
+tin,u
+k
+(a,pt , h=ll2x0a=x000;a"sd 0s"2{c 0 ,o h=mT 0F 7e 6pto r",cT 0 2v0a=x008)el"oi=0=ym0o oi=0r=4e 6pto r",cT 0 9v0a=x002)s(a"C,l"cﾄｦﾁHﾈﾅG^�ｵ繁鱶I(40+2
+kTgn,i､ｦA�VXｪ�榾@ｽｾ､jn)e(10+,u
+
+
+-- even bytes (1693) --
+iim)e(s""p 0003)eet{c 0 ,w1v=, m 0002}}lャ lｂ綜盾ｉ魔盾ｍｑｂ� 00 8)a"G^n,贅cﾄ｡ﾌｮﾍTg��ｵnX矧[ｵ｢ｹ�,x004)t(�"u ｖｂ�\＜�"00017
+kft甜n,ﾈｾA_n�ｩﾏｩAﾁﾉ�p｢,x002)a"糾K,l"ﾄﾈﾅBMﾌﾁﾌｮAｺｧ�ｩH癌ﾏ鄂鄒ｦ,x002)a"G^n,ｦｦﾁHｻﾈ�ｵｾﾌ�I(40+2;kャ"0t()a"C,l"､nｷﾌ｢ﾆ､I(40+9;lャメ lａｂａｂ\高ｂ�"0001)t(�"u ｉ翌ｌｂ"00019
+kft甜n,ｻ矇ﾈ,x002)a"C,l"ﾜ｢ﾇnﾌﾀVXﾉｾﾄ瑤B(40+0;lャメ l�"0001)t(�"u �\ｗｂｂ"00011
+kft甜n,ﾈﾆ�nﾏ逾ﾈ_ﾋBﾜ｢ｩ,x002)a"糾K,l"ｰｺｱA_xhg�矛��,x002)a"糾K,l"ﾁﾅ｢迴xhgｹnｰﾁﾈn｢涕ﾋB(40+4
+kVX,l"c約ｷH(40+2;lャ lａ�\唐ｐｂ�"00012
+kft甜n,ﾜ琿B巻�ｺﾅbﾉﾁﾌﾜﾍnﾌm魍ｶﾋｯB(40+5
+kTgn,ｾ蹣ｻﾅvｱ��｢,x000)t(�"u ａ"0005)t(�"u ＜ルｂ"00014
+k戯n,ﾓ�cB漓ｩ､ｳ�Tgnｩﾅｪﾟ眇當,x006)sfs"2{w0
+(y o ;ta,h=)el9{w0
+(e,pt i=oii=0;it(lr;c;tt"oi=0=s ,e , m 0001)r(oa,0
+(y ay1y0r=s ,ee1xm1ll1oir=d "aye1x2l m 0004}s"1{c 0 ,o h=mT 0F 1ll1oir=d "aye1x-l m 0003}mnt(�"u ≠ｂ≠ｃモｕｂａ 00 3;lャ l≠ａｃモｎａｂａ ln(00 )r;(u)rt
+(m{y(30+}s"n ay1y0o e 0=ie(20+)
+a"C,l"ｱAOﾌｾ狷ﾌﾀnｾ貳ｦ淒霍,x000)t(ャ l綜≠高奄ャｂ�\ャメｂｂ"00012
+kTgn,ｴ巻鮴Bｨ｢紀(40+9;lャメ lｂ＊\ｒｂ≠ｂ翌"0001)t(ャ�"u ｂａ汲ｂ堰毎�ａ曹浮魔ｂ"0001)t(ャ lｂａｂｂｂ煤 00 5)i"G^1
+l0t(�"u �\浮ｂａ 00 8)a"糾K,l"･ﾂ逾殤鶇ﾀA�p�H(40+9
+kTgn,ｱ販qｸﾆﾄ覃(40+9;lャメ lｂｂ"0001)t(�"u ｂ�\ｎャｖｂａ 00 9)a"糾K,l"H(40+1
+kTgn,械ｴｼｪｩﾄ�B(40+0;lャメ lｂ�\浮翌魔≠ｂ"0001)t(ャ�"u 走ａ麻ヮｋｂ�"0001)t(ャ�"u ｂｂ純ヮ�\ｂ�\ｂｂ� 00 7;lャ"u ％ｂ� 00 5)a"C,l"�､I{ﾈｾAｶｭ覈(40+0;lャメ lｂａ曹ｉｃｂｂ�\ｒｂｂａ 00 7;lャ lｂ≠ｌｂｂ"00013
+k戯n,�cB(40+0
+kTgn,�nCAｫﾌH(40+0;lャ lｂ＝ａｂｂャ\ｂｂｂａ"0005)mf
+(y o ;ta,h=)el"s }s"1 o ;tv"oi=h ,cT 0)acnlt)a)ese{c 0 ,w1v=0=ie(20+}tsrf"0;ta,pt , F ,w1vm ,o ,e ,cF ,=Aptm , ,=ie(20+)
+(y ay1y0r=s ,ee1xm-,e ,cF ,=Cptm , ,=ie(20+)
+o
+k戯n,cﾁAｦIn�VXｪｽﾌｮ｢ﾌﾁ,x006)a"C,l"ｻｾﾎﾈﾅG^ｱﾈﾔn鰯�H,l
+tx003t)
+

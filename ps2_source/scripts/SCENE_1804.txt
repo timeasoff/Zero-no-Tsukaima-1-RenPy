@@ -1,0 +1,33 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +188)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +187)});
+waitLoad(true);
+talk("サイト", null, "（……ああ、でも本当に気持ちいいな）", null);
+talk("サイト", null, "（……はぁ……）", null);
+talk("サイト", null, "……ｚｚｚ。", (0x04000000 +10602));
+talk("ルイズ", null, "サイト、どんな感じ？\n……サイト？", (0x04000000 +5330));
+talk("サイト", null, "……ｚｚｚ。", (0x04000000 +10603));
+talk("ルイズ", null, "……寝ちゃってる？", (0x04000000 +5331));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +188)});
+waitLoad(true);
+talk("ルイズ", null, "……な、なによ！\nご主人様が一生懸命洗ってあげてるのに\n本人は気持ちよさそうにうたたね！？", (0x04000000 +5332));
+talk("サイト", null, "うわっうわわわっ！\nご、ゴメン！\n気持ちよくて、つい！", (0x04000000 +10604));
+talk("ルイズ", null, "ホントにもう！\nまあ、でも……思わず寝てしまうほど\n気持ち良かったんでしょ？", (0x04000000 +5333));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +189)});
+waitLoad(true);
+talk("ルイズ", null, "うふふ、仕方ないわね。", (0x04000000 +5334));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

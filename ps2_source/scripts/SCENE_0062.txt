@@ -1,0 +1,23 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("se0", {play = (0x03000000 +69)});
+talk("サイト", null, "（ふわああ……。\n　んー、いい朝だなあ）", null);
+talk("サイト", null, "（ルイズも朝の支度を終えて\n　どっか出て行ったし、\n　うーむ、気持ちの良い朝だ）", null);
+set("lay5", {y = 416,show = 0,x = 304});
+talk("サイト", null, "（さて……これからどうしよう？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1009));
+dateItem("シエスタ", (0x01000000 +1014));
+dateItem("タバサ", (0x01000000 +1019));
+dateItem("キュルケ", (0x01000000 +1024));
+dateItem("ハルナ", (0x01000000 +1029));
+date((0x01000000 +68),false,(0x03000000 +4));

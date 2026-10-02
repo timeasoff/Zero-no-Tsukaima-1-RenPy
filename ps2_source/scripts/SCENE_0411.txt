@@ -1,0 +1,36 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +22)});
+set("se0", {play = (0x03000000 +55)});
+waitSEStop(null, true);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "お姫さま……？", (0x04000000 +13593));
+msgoff()
+set("se0", {play = (0x03000000 +56)});
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +265)});
+trans("crossfade", 1000);
+msgon()
+talk("アンリエッタ", null, "う、ん……。", (0x04000000 +872));
+talk("サイト", null, "おっと、起こさないように静かにしないとな。", (0x04000000 +13594));
+talk("サイト", null, "こうしてると、本当にただの女の子だよな。\nでも、彼女が国を背負ってる。\nそりゃ大変だよな。", (0x04000000 +13595));
+set("lay8", {show = 0});
+talk("アンリエッタ", null, "ん……。", (0x04000000 +873));
+talk("サイト", null, "今の俺にできるのは、\nこうして見守ることだけだけど……。", (0x04000000 +13596));
+talk("サイト", null, "せめて、少しでもお姫さまのお役に立つことが\nあればいいのにな……。", (0x04000000 +13597));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +412), true);

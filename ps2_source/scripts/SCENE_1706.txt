@@ -1,0 +1,35 @@
+reset();
+set("bgm", {stop = 1000});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……外出禁止よ！", (0x04000000 +5222));
+talk("ルイズ", null, "今日はどこにも行かず、\nわたしと一緒にいなさいっ！", (0x04000000 +5223));
+talk("サイト", null, "そ、そんな横暴な……。", (0x04000000 +10501));
+talk("ルイズ", null, "なにか不満でも？", (0x04000000 +5224));
+talk("サイト", null, "……い、いいえ。\nお付き合いしますです。", (0x04000000 +10502));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +185)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（……はぁ。\n　結局、ルイズは一日べったりだったし）", null);
+talk("ルイズ", null, "……ねぇ、サイト……起きてる？", (0x04000000 +5225));
+talk("サイト", null, "お、起きてるけど？", (0x04000000 +10503));
+talk("ルイズ", null, "……あの、腕枕……してくれる？", (0x04000000 +5226));
+talk("サイト", null, "え？\nええと。", (0x04000000 +10504));
+selectInit();
+selectItem("べ、別にいいけど？", (0x01000000 +1773), null, true);
+selectItem("ち、ちょっと！", (0x01000000 +1774), null, true);
+selectItem("断る！", (0x01000000 +1775), null, true);
+select();

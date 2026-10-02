@@ -1,0 +1,47 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "この、バカ犬っ！", (0x04000000 +7504));
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぐはっ！", (0x04000000 +13697));
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "あっちにほいほい、こっちにほいほい、\nだらしなくしっぽを\n振って回ってるんじゃないわよっ！", (0x04000000 +7505));
+talk("サイト", null, "べ、別にしっぽなんか振ってねぇっ！\n第一俺は、犬なんかじゃなくて……。", (0x04000000 +13698));
+talk("ルイズ", null, "……じゃあ、なあに？", (0x04000000 +7506));
+talk("サイト", null, "あ、い、いえ、その……。", (0x04000000 +13699));
+talk("ルイズ", null, "なんなのよ。\n言ってみなさいよ。", (0x04000000 +7507));
+talk("サイト", null, "イエ、イヌデゴザイマス。", (0x04000000 +13700));
+talk("サイト", null, "っていうかご主人様。\nそんな怖い顔してたら美人が台無し……。", (0x04000000 +13701));
+talk("ルイズ", null, "し、しつけのなってない犬は、\n体に教え込むしかないわよね。", (0x04000000 +7508));
+talk("サイト", null, "か、からだっ！？", (0x04000000 +13702));
+talk("ルイズ", null, "覚悟はいいわね？", (0x04000000 +7509));
+talk("サイト", null, "ちょっ！\nまっ！！\nか、覚悟って！！", (0x04000000 +13703));
+selectInit();
+selectItem("話せば分かる！", (0x01000000 +1553), null, true);
+selectItem("横暴だぞっ！", (0x01000000 +1554), null, true);
+selectItem("ここは無抵抗主義で……", (0x01000000 +1555), null, true);
+select();

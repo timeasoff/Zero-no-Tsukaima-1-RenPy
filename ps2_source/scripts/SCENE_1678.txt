@@ -1,0 +1,29 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +178)});
+}
+talk("サイト", null, "……つ、使い魔らしい顔って？", (0x04000000 +14086));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +176)});
+waitLoad(true);
+talk("ルイズ", null, "キュルケのフレイムとか、\nタバサのシルフィードとか……、\nギーシュのヴェルダンデとか？", (0x04000000 +7888));
+talk("サイト", null, "わ、分かるかよっ！", (0x04000000 +14087));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +178)});
+waitLoad(true);
+talk("ルイズ", null, "うるさいっ！\n少しは自分で考えなさいっ！\nこのバカ犬っ！", (0x04000000 +7889));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "きゃ、きゃいーーーんっ！", (0x04000000 +14088));
+next((0x01000000 +1680), true);

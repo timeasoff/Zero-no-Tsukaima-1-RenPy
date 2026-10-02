@@ -1,0 +1,56 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +26)});
+set("se0", {play = (0x03000000 +57)});
+waitSEStop(null, true);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +304)});
+talk("ルイズ", null, "姫さま！", (0x04000000 +7082));
+set("lay1", {y = 0,x = -96});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +766)});
+talk("アンリエッタ", null, "ルイズ。\nよく来てくれました。\nそれに使い魔さん達も。", (0x04000000 +692));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "申し訳ありません、姫さま……。\n爆弾使い達を止めることは出来ませんでした。", (0x04000000 +7083));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "過去を悔やんでいてもはじまりません。\nそれより報告を……。", (0x04000000 +693));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "はい。", (0x04000000 +7084));
+msgoff()
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+trans("crossfade", 1000);
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +770)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+msgon()
+talk("アンリエッタ", null, "そうですか、やはりあのウェザリーの\n一座が……。", (0x04000000 +694));
+talk("ルイズ", null, "ご存知だったのですか？\nじゃあ、公演に参加されたのも？", (0x04000000 +7085));
+talk("アンリエッタ", null, "内偵を進めていたのは事実です。\nルイズに黙っていたのは心苦しかったのですが。", (0x04000000 +695));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "ひ、ひとこと言っていただければ……。", (0x04000000 +7086));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "人には向き不向きがありますもの。\nルイズは隠し事は苦手ですし。", (0x04000000 +696));
+talk("ルイズ", null, "……。", (0x04000000 +7087));
+talk("アンリエッタ", null, "ともあれ、ミス・ウェザリーの能力には\n気をつけないとならないということですか……。", (0x04000000 +697));
+talk("アンリエッタ", null, "気の毒なキュルケやハルナだけではなく、\n軍や貴族にも催眠を受けたものがいるやも\nしれません。", (0x04000000 +698));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +770)});
+talk("アンリエッタ", null, "不覚でした。\nここまで事態が進んでいたとは。\nもう少し早く気づいていれば……。", (0x04000000 +699));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "どういうことですか？", (0x04000000 +7088));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "どうやら、爆弾使いの事件は敵の単なる第一手に\nすぎなかったようです。", (0x04000000 +700));
+talk("アンリエッタ", null, "トリスタニア市街では、爆弾使いの事件を\n利用して潜入していた敵兵が動き出し、\n市街戦になりつつあるそうです。", (0x04000000 +701));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "そ、そんな！", (0x04000000 +7089));
+selectInit();
+selectItem("砲台をつぶしにいきます！", (0x01000000 +637), null, true);
+selectItem("市街戦に参加します！", (0x01000000 +638), null, true);
+selectItem("市民の避難を手伝います！", (0x01000000 +639), null, true);
+select();

@@ -1,0 +1,44 @@
+if (isJump()){
+reset();
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +588)});
+set("bgm", {play = (0x03000000 +31)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay0", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("タバサ", null, "何？", (0x04000000 +15656));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "えーっと、タバサさん。", (0x04000000 +12437));
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "あの、手紙のことでちょっとお話を聞ければ\nなぁーとか。", (0x04000000 +12438));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +592)});
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "あははははは……。", (0x04000000 +12439));
+talk("タバサ", null, "……。", null);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "あのぉ、せめて一言だけで結構ですから、\n反応してほしいんですが……。", (0x04000000 +12440));
+talk("タバサ", null, "……。", null);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ダ、ダメ？", (0x04000000 +12441));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "分かった。\n話す。", (0x04000000 +15657));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "良かった……。\nじゃあ早速……。", (0x04000000 +12442));
+talk("タバサ", null, "時間がほしい。", (0x04000000 +15658));
+talk("サイト", null, "いいけど、なんで？", (0x04000000 +12443));
+set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +592)});
+talk("タバサ", null, "時間。", (0x04000000 +15659));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "う、うん……。", (0x04000000 +12444));
+talk("タバサ", null, "じゃあ。", (0x04000000 +15660));
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "って、どこかに行っちゃったんですけど！！", (0x04000000 +12445));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +918), true);

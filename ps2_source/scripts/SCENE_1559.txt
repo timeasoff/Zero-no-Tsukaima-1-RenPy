@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +163)});
+}
+talk("サイト", null, "凶暴で貧乳のルイズ様です。", (0x04000000 +13723));
+talk("ルイズ", null, "そうそう、分かれば……って！\n誰が凶暴で貧乳よっっ！", (0x04000000 +7527));
+talk("サイト", null, "ええっと……。\nご主人様……顔が、怖いです……よ？", (0x04000000 +13724));
+talk("ルイズ", null, "……そう。\n分かったわ。\nあくまでそういう態度なのね。", (0x04000000 +7528));
+talk("サイト", null, "あ、い、いや、やっぱ今のナシ！", (0x04000000 +13725));
+talk("ルイズ", null, "だったら、こっちにも考えがあるわ。", (0x04000000 +7529));
+talk("サイト", null, "冗談！\nギャグ！\nイッツアジョーク！！", (0x04000000 +13726));
+talk("ルイズ", null, "もう遅いわよっ！！", (0x04000000 +7530));
+talk("ルイズ", null, "覚えの悪いバカ犬は、\n徹底的にしつけてあげるわっっ！！", (0x04000000 +7531));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("event", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay5", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay1", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+vibrate(3);
+waitTime(1100, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぎぃぃぃぃやぁぁぁぁぁぁぁっっっ！！", (0x04000000 +13789));
+next((0x01000000 +1560), true);

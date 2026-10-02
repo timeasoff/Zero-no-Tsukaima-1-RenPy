@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+}
+talk("サイト", null, "（ポッチーなぞはただの小道具！\n　本丸はルイズの……）", null);
+talk("サイト", null, "（俺はやる。\n　やってやるぜっ！）", null);
+talk("ルイズ", null, "ひゃっ！", (0x04000000 +5489));
+vibrate(1);
+talk(null, null, "────ポッキン。", null);
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "いたたた……。", (0x04000000 +10738));
+talk("ルイズ", null, "さ、サイト大丈夫？", (0x04000000 +5490));
+talk("ルイズ", null, "もう、いきなり突っ込んでくるから……。\n口の中に当たっちゃったのよ。", (0x04000000 +5491));
+talk("サイト", null, "（ポッチー恐るべし……）", null);
+talk("ルイズ", null, "何がしたかったの？", (0x04000000 +5492));
+talk("サイト", null, "い、いやなにも……。\nというか、ルイズが緊張するから……。", (0x04000000 +10739));
+next((0x01000000 +1844), true);

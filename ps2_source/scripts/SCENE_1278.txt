@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +11)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +155)});
+}
+talk("サイト", null, "ほかの人に見つからないようにな。", (0x04000000 +9559));
+talk("ハルナ", null, "うん、それは気をつける。\n学院の人に見つかったらいけないって、\nシエスタさんにも注意されてるもの。", (0x04000000 +1860));
+talk("サイト", null, "それならいいけど……。\nここの人達は魔法を使うから見た目で\n判断しちゃだめだぞ。", (0x04000000 +9560));
+set("lay7", {show = 0});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)});
+waitLoad(true);
+talk("ハルナ", null, "うん……、気をつける。", (0x04000000 +1861));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)});
+waitLoad(true);
+next((0x01000000 +1280), true);

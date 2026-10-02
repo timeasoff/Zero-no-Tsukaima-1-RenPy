@@ -1,0 +1,81 @@
+reset();
+title("本当の想い");
+tndl(null);
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1132)});
+trans("crossfade", 1000);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 2000);
+endSkip();
+item("パン", 3);
+item("ハーブ", 3);
+item("エリクサー", 3);
+back();
+set("stage", {y = 0,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+set("se0", {play = (0x03000000 +69)});
+msgon()
+talk("サイト", null, "（あれから、街の宿に拠点を移した俺たちは、\n　爆弾使いの調査の準備に数日追われることに\n　なった……）", null);
+set("lay5", {show = 0});
+talk("サイト", null, "（ルイズは張り切っているみたいだけど、\n　大丈夫かなぁ……）", null);
+talk("ハルナ", null, "ん、ん～～っ！\nいいお天気！", (0x04000000 +2315));
+talk("ハルナ", null, "今日も一日良い日でありますように。\nって思ったのに……。\n……ううっ、結局３人で寝てる……。", (0x04000000 +2316));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+waitTime(500, true);
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +114)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ハルナ", null, "ルイズさんや、シエスタさんも、\n朝から平賀くんにベタベタしちゃって！", (0x04000000 +2317));
+talk("ハルナ", null, "……。", (0x04000000 +2318));
+talk("ハルナ", null, "うらやましいなぁ…。\n私も入ってみようかな。", (0x04000000 +2319));
+talk("ハルナ", null, "まずはシエスタさんを横にずらしてっと。", (0x04000000 +2320));
+talk("シエスタ", null, "……ぎろ。", (0x04000000 +14766));
+talk("ハルナ", null, "あ、あら、シエスタさん。\n起きていたんですか？", (0x04000000 +2321));
+talk("シエスタ", null, "すーすーすー。", (0x04000000 +14767));
+talk("ハルナ", null, "くっ。\nなら、ルイズさんを……。", (0x04000000 +2322));
+talk("ルイズ", null, "……ぎろ。", (0x04000000 +6164));
+talk("ハルナ", null, "え、ルイズさんも起きてたんですか？", (0x04000000 +2323));
+talk("ルイズ", null, "すーすーすー。", (0x04000000 +6165));
+msgoff()
+set("lay7", {show = 0});
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +979)});
+msgon()
+talk("ハルナ", null, "ま、負けないもん。\n明日こそは平賀くんの隣に寝てみるんだから！\n……勇気が出たらね。", (0x04000000 +2324));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +270), true);

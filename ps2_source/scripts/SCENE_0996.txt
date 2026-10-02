@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 157,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +407)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +594)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +61)});
+}
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "……タバサの判断に任せるよ。", (0x04000000 +12836));
+set("lay0", {dr = "1A",show = 1,level = 155,lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "いいの？", (0x04000000 +15766));
+talk("サイト", null, "タバサにはタバサの事情があるんだろ？", (0x04000000 +12835));
+set("lay0", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "うん……。", (0x04000000 +15767));
+set("lay5", {y = 0,dr = "2B",imageTime = 300,show = 1,x = 224,level = 157,lv = 0,image = (0x02000000 +440),imageType = 2});
+talk("サイト", null, "それにしても、春奈も気の毒だよな。\nアキナって別人格のせいで、\nこんなことになっちゃってさ……。", (0x04000000 +12837));
+set("lay0", {show = 1,level = 155,dr = "1A",lv = 0,image = (0x02000000 +588)});
+talk("タバサ", null, "別人格……。\n別……。", (0x04000000 +15768));
+next((0x01000000 +998), true);

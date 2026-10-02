@@ -1,0 +1,57 @@
+scene 3: zero_tun_event = [0,0,0,0,0,0]
+scene 3: zero_dele_event = [0,0,0,0,0,0]
+scene 3: zero_tndl_scene = 0
+scene 3: zero_tun_event = [0,0,0,0,0,0]
+scene 3: zero_dele_event = [0,0,0,0,0,0]
+scene 3: dlEventId = null
+scene 3: tnEventId = null
+scene 3: zero_tndl_scene = getTunScene(restrict)
+scene 3: zero_tndl_scene = getDeleScene(restrict)
+scene 3: zero_tun_event = [0,0,0,0,0,0]
+scene 3: zero_dele_event = [0,0,0,0,0,0]
+scene 3: zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level
+
+### 'tndl' occurrences by scene
+  scene 3 : 10
+  scene 5 : 1
+  scene 6 : 1
+  scene 7 : 1
+  scene 8 : 1
+  scene 12 : 1
+  scene 13 : 1
+  scene 17 : 1
+  scene 18 : 1
+  scene 21 : 1
+  scene 23 : 1
+  scene 31 : 1
+  scene 32 : 1
+  scene 35 : 1
+  scene 36 : 1
+  scene 37 : 1
+  scene 38 : 1
+  scene 41 : 1
+  scene 42 : 1
+  scene 45 : 1
+  scene 55 : 1
+  scene 56 : 1
+  scene 68 : 1
+  scene 70 : 1
+  scene 71 : 1
+  scene 74 : 1
+  scene 75 : 1
+  scene 78 : 1
+  scene 79 : 1
+  scene 83 : 1
+  scene 87 : 1
+  scene 88 : 1
+  scene 91 : 1
+  scene 92 : 1
+  scene 96 : 1
+  scene 97 : 1
+  scene 107 : 1
+  scene 109 : 1
+  scene 112 : 1
+  scene 113 : 1
+  scene 116 : 1
+
+### scenes containing arrays/tables with 1533..1860 literals

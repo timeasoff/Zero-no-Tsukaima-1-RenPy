@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +684)});
+set("bgm", {play = (0x03000000 +26)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "ルイズ、落ち着けよ。\nタバサが黙ってるのには理由があるんだろ？", (0x04000000 +12531));
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "理由ってなによ？\nサイトにそんなこと分かるの？", (0x04000000 +6829));
+tndl(-30);
+talk("サイト", null, "そりゃ、だいたいの想像はつくさ。\nたぶん、誰にも言えない極秘任務なんだろ。", (0x04000000 +12532));
+talk("ルイズ", null, "それでサイトは納得できるわけ？", (0x04000000 +6830));
+talk("サイト", null, "もちろん、できるはずない。\nそれにタバサだって任務のことで、\n悩んでいないはずがない。", (0x04000000 +12533));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "そうだろ、タバサ？", (0x04000000 +12534));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +594)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "ルイズの気持ちもちゃんと\n分かってやってくれよ。", (0x04000000 +12535));
+talk("サイト", null, "ルイズが口にしてる気持ちは、\n俺達みんなの気持ちなんだからさ……。", (0x04000000 +12536));
+talk("タバサ", null, "……。", null);
+next((0x01000000 +938), true);

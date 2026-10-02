@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +168)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "……ち、ちくしょう！\nか、覚悟決めてやるよぉっ！", (0x04000000 +13929));
+talk("ルイズ", null, "それでいいのよっ！", (0x04000000 +7738));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +168),imageType = 1});
+waitLoad(true);
+talk("サイト", null, "……って、やっぱ無理だって！\nし、死ぬのはいやぁぁぁっ！", (0x04000000 +13930));
+talk("サイト", null, "こ、この世界の神様はよく知らないけど！\n……か、神さまぁぁっ！", (0x04000000 +13931));
+next((0x01000000 +1624), true);

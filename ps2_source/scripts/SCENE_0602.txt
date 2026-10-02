@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+create("stage", "layer", null);
+set("stage", {show = 0,level = 10,image = (0x02000000 +43)});
+sync("stage");
+create("bgm", "bgm", null);
+set("bgm", {play = (0x03000000 +28)});
+sync("bgm");
+}
+set("bgm", {stop = 1000});
+sync("bgm");
+waitTime(1000, true);
+next((0x01000000 +1491), true);

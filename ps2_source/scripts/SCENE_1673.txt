@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +176)});
+}
+talk("サイト", null, "お、横暴だっ！", (0x04000000 +14073));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +178)});
+waitLoad(true);
+talk("ルイズ", null, "口答えするんじゃないっ！", (0x04000000 +7876));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "きゃいんっ！", (0x04000000 +14074));
+talk("サイト", null, "わ、わん！\n分かりました～～っ！\nご主人様～～っ！", (0x04000000 +14075));
+next((0x01000000 +1676), true);

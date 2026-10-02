@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +946)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+set("bgm", {play = (0x03000000 +7)});
+set("se1", {play = (0x03000000 +44),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +32)});
+}
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +495)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "シエスタ。\nちゃんとおみやげを買ってくるから、\n今回はあきらめてくれよ。", (0x04000000 +9790));
+talk("シエスタ", null, "おみやげ……。\nいらないです。", (0x04000000 +14434));
+set("lay5", {y = 0,dr = "2A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +429),imageType = 2});
+talk("サイト", null, "うーん。\nおみやげでも駄目か……。", (0x04000000 +9791));
+set("lay2", {y = 0,dr = "2A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +530),imageType = 2});
+talk("シエスタ", null, "じゃ、じゃあ……。\nサイトさん、帰ってきたらデートして\nくれますか？", (0x04000000 +14435));
+like("シエスタ", 10);
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "で、デート？\nな、なんで？", (0x04000000 +9792));
+next((0x01000000 +1351), true);

@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +621)});
+set("bgm", {play = (0x03000000 +22)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "タ、タバサはどうなんだよ！", (0x04000000 +8689));
+set("lay0", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +627)});
+talk("タバサ", null, "わたし？", (0x04000000 +15330));
+talk("サイト", null, "あのときの告白を受けてどう思ったんだよ！", (0x04000000 +8690));
+set("lay0", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +625)});
+talk("タバサ", null, "質問に質問で返すのはずるい。\nわたしは答えられない。", (0x04000000 +15331));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +394)});
+talk("サイト", null, "だったら聞くな。", (0x04000000 +8691));
+talk("タバサ", null, "む。", (0x04000000 +15332));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "全部お芝居というわけでない、\nぐらいしかいいようがないって。", (0x04000000 +8692));
+set("lay0", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +621)});
+talk("タバサ", null, "そう。\n多分、わたしも同じ。", (0x04000000 +15333));
+next((0x01000000 +1123), true);

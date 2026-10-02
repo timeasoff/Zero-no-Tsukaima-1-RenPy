@@ -1,0 +1,7 @@
+initVariable();
+selectInit();
+selectItem("共通部", (0x01000000 +1861), null, true);
+selectItem("個別部", (0x01000000 +1862), null, true);
+selectItem("ツンデレ", (0x01000000 +1865), null, true);
+selectItem("ムービー", (0x01000000 +1915), null, true);
+select();

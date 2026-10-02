@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +11)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +155)});
+}
+talk("デルフリンガー", null, "で、どうする相棒？\n他のところに探しに出てみっか？", (0x04000000 +1230));
+talk("サイト", null, "……いや。\nこうなったら、ここでルイズ達が\n帰ってくるのを待とう。", (0x04000000 +9583));
+talk("デルフリンガー", null, "分かった。", (0x04000000 +1231));
+talk("ハルナ", null, "……。", (0x04000000 +1881));
+talk("サイト", null, "（ルイズが戻ってくるまでに、\n　春奈の機嫌が直ってくれると\n　いいんだけどなぁ……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay19", {show = 0});
+set("lay7", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

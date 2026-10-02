@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +808)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +10)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "逃げちゃ駄目ですよ。", (0x04000000 +10300));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "ええ、それは分かっています。\nわたくしが女王である以上、\n忘れてはならない責務があることは。", (0x04000000 +496));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "ですから、申し上げたでしょう？\n戯言なのですよ、ただの。", (0x04000000 +497));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "すみません。", (0x04000000 +10301));
+next((0x01000000 +1443), true);

@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +43)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "街の様子を見てきたんだ。\n人の集まるところを回りながら、\n街の人がしてる噂やら聞いたり。", (0x04000000 +13477));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "そう……。\n姫さま……やっぱり、女王としての自信が、\nまだ揺らいでるのかしら。", (0x04000000 +7338));
+tndl(40);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "ああ。\nだから、俺もなんとか気がまぎれるように、\n食堂に連れてったりしたわけだよ。", (0x04000000 +13478));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "って、結局あんたの寄り道のせいで\n遅くなったのね！？", (0x04000000 +7339));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "そ、それはそうかも……。\nしれませんですね、はい。", (0x04000000 +13479));
+next((0x01000000 +374), true);

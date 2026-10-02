@@ -1,0 +1,42 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +528)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +13)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +28)});
+}
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "もし、サイトさんが王子様だったら。", (0x04000000 +14325));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +497)});
+talk("シエスタ", null, "今の優しいサイトさんのまま、\nもっともっと強くなってくださいね。\nわたしも、影ながら応援してますから。", (0x04000000 +14326));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "うん。\n頑張ってみるよ。", (0x04000000 +8960));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "いざとなったら、コイツでみんなを守ってやるさ。\nなぁ、デルフっ……頼りにしてるぜ、相棒っ！", (0x04000000 +8961));
+set("se0", {play = (0x03000000 +65)});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 155,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +944)});
+set("lay2", {level = 156});
+set("lay5", {level = 157});
+talk("デルフリンガー", null, "へっ……。\nたかが村娘の１人ぐらい、\nおめぇの腕一本で何とかしやがれってんだ。", (0x04000000 +1217));
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "そ、そんなこと言わないでさああぁ～。\nお願いだよ、デルフリンガーさぁんっ！", (0x04000000 +8962));
+set("lay2", {y = 0,show = 1,level = 156,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +524)});
+talk("シエスタ", null, "サイトさんたら、もぉ！\nくすくすくすくすっ……。", (0x04000000 +14327));
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ははっ、カッコつかないなぁ……。", (0x04000000 +8963));
+set("lay2", {y = 0,show = 1,level = 156,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "それじゃあ、サイトさん。\nそろそろ帰りませんか？", (0x04000000 +14328));
+set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ああ、随分と遅くまで話し込んじゃったな。\nそれじゃあ、帰ろう。", (0x04000000 +8964));
+set("lay2", {show = 1,level = 156,dr = "1A",lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "はい、王子様。", (0x04000000 +14329));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +806), true);

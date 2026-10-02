@@ -1,0 +1,47 @@
+HD entries=1921
+parsed=1920 raw_ok=0 raw_bad=0 zip=1920
+mismatches: []
+
+ZIP records (first 40):
+  idx=0 off=0 SIZE=598 XSIZE=599 ZIP=1 uplen=599 up==raw=False
+  idx=1 off=2048 SIZE=24390 XSIZE=34593 ZIP=1 uplen=34593 up==raw=False
+  idx=2 off=26624 SIZE=4209 XSIZE=5337 ZIP=1 uplen=5337 up==raw=False
+  idx=3 off=32768 SIZE=49516 XSIZE=64184 ZIP=1 uplen=64184 up==raw=False
+  idx=4 off=83968 SIZE=231 XSIZE=260 ZIP=2 uplen=260 up==raw=False
+  idx=5 off=86016 SIZE=5801 XSIZE=6025 ZIP=2 uplen=6025 up==raw=False
+  idx=6 off=92160 SIZE=6608 XSIZE=7238 ZIP=2 uplen=7238 up==raw=False
+  idx=7 off=100352 SIZE=732 XSIZE=782 ZIP=2 uplen=782 up==raw=False
+  idx=8 off=102400 SIZE=436 XSIZE=465 ZIP=2 uplen=465 up==raw=False
+  idx=9 off=104448 SIZE=346 XSIZE=368 ZIP=2 uplen=368 up==raw=False
+  idx=10 off=106496 SIZE=4743 XSIZE=5203 ZIP=2 uplen=5203 up==raw=False
+  idx=11 off=112640 SIZE=5901 XSIZE=6384 ZIP=2 uplen=6384 up==raw=False
+  idx=12 off=118784 SIZE=1042 XSIZE=1081 ZIP=2 uplen=1081 up==raw=False
+  idx=13 off=120832 SIZE=1442 XSIZE=1498 ZIP=2 uplen=1498 up==raw=False
+  idx=14 off=122880 SIZE=1282 XSIZE=1342 ZIP=1 uplen=1342 up==raw=False
+  idx=15 off=124928 SIZE=3321 XSIZE=3462 ZIP=2 uplen=3462 up==raw=False
+  idx=16 off=129024 SIZE=8221 XSIZE=8708 ZIP=2 uplen=8708 up==raw=False
+  idx=17 off=139264 SIZE=2437 XSIZE=2619 ZIP=2 uplen=2619 up==raw=False
+  idx=18 off=143360 SIZE=3899 XSIZE=4181 ZIP=2 uplen=4181 up==raw=False
+  idx=19 off=147456 SIZE=1255 XSIZE=1339 ZIP=2 uplen=1339 up==raw=False
+  idx=20 off=149504 SIZE=7306 XSIZE=7809 ZIP=2 uplen=7809 up==raw=False
+  idx=21 off=157696 SIZE=1582 XSIZE=1684 ZIP=2 uplen=1684 up==raw=False
+  idx=22 off=159744 SIZE=1866 XSIZE=1940 ZIP=2 uplen=1940 up==raw=False
+  idx=23 off=161792 SIZE=1604 XSIZE=1674 ZIP=2 uplen=1674 up==raw=False
+  idx=24 off=163840 SIZE=7991 XSIZE=8412 ZIP=2 uplen=8412 up==raw=False
+  idx=25 off=172032 SIZE=471 XSIZE=503 ZIP=1 uplen=503 up==raw=False
+  idx=26 off=174080 SIZE=471 XSIZE=503 ZIP=1 uplen=503 up==raw=False
+  idx=27 off=176128 SIZE=471 XSIZE=503 ZIP=1 uplen=503 up==raw=False
+  idx=28 off=178176 SIZE=3810 XSIZE=4203 ZIP=2 uplen=4203 up==raw=False
+  idx=29 off=182272 SIZE=3131 XSIZE=3471 ZIP=2 uplen=3471 up==raw=False
+  idx=30 off=186368 SIZE=1627 XSIZE=1749 ZIP=2 uplen=1749 up==raw=False
+  idx=31 off=188416 SIZE=4014 XSIZE=4255 ZIP=2 uplen=4255 up==raw=False
+  idx=32 off=192512 SIZE=3031 XSIZE=3386 ZIP=2 uplen=3386 up==raw=False
+  idx=33 off=196608 SIZE=2250 XSIZE=2351 ZIP=1 uplen=2351 up==raw=False
+  idx=34 off=200704 SIZE=6023 XSIZE=6398 ZIP=2 uplen=6398 up==raw=False
+  idx=35 off=206848 SIZE=2491 XSIZE=2618 ZIP=2 uplen=2618 up==raw=False
+  idx=36 off=210944 SIZE=1589 XSIZE=1639 ZIP=2 uplen=1639 up==raw=False
+  idx=37 off=212992 SIZE=3674 XSIZE=3829 ZIP=2 uplen=3829 up==raw=False
+  idx=38 off=217088 SIZE=3670 XSIZE=3875 ZIP=2 uplen=3875 up==raw=False
+  idx=39 off=221184 SIZE=8737 XSIZE=9344 ZIP=2 uplen=9344 up==raw=False
+
+raw mismatches detail:

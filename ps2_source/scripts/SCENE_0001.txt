@@ -1,0 +1,1374 @@
+/**
+ * レイヤアクションモジュール基底クラス
+ */
+class LayerModule {
+
+    type = null;
+    first = null;
+    startTime = null;
+    time = null;
+    delay = null;
+    options = null;
+
+    /**
+     * コンストラクタ
+     * @param layer レイヤ
+     * @param params パラメータ
+     */
+    constructor(layer, options) {
+        this.options = options;
+        delay = ("delay" in options) ? options.delay : null;
+        time  = ("time" in options) ? options.time : null;
+        first = true;
+        startTime = 0;
+    }
+	
+	function getOption(name) {
+		if (options != null && name in options) {
+			return options[name];
+		} else {
+			return 0;
+		}
+	}
+
+    /**
+     * 処理実行
+     * @param now 現在時刻(tick)
+     * @param skip スキップ指定
+     */
+    function run(layer, now, skip, stop) {
+        if (first) {
+            startTime = now;
+            first = false;
+        }
+        now -= startTime;
+        if (delay) {
+            now -= delay;
+            if (now < 0) {
+                return;
+            }
+        }
+        local done = false;
+        if (time) {
+            if (now >= time || skip || stop) {
+                done = true;
+                now = time;
+            }
+        }
+        if (stop) {
+            done = true;
+        }
+        return action(layer, now, done) == true || done;
+    }
+
+    /**
+     * 処理実行（個別実装)
+     * @param layer 対象レイヤ
+     * @param now 現在時刻(tick)
+     * @param done 終了指定
+     * @return 終了する場合は true を返す
+     */
+    function action(layer, now, done) {
+        return true;
+    }
+
+    // XXX なんかバグっぽい？
+    
+    // for move module
+    startX = null;
+    startY = null;
+    diffX = null;
+    diffY = null;
+
+    // for mode module
+    opacity = null;
+    inTime = null;
+    outTime = null;
+
+    toOpacity = null;
+};
+
+
+/**
+ * 移動モジュール
+ * パラメータ: x 移動先位置
+ * パラメータ: y 移動先位置
+ */
+class LayerMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerModule.constructor(layer, options);
+        type = 0;
+        startX = layer.getX();
+        startY = layer.getY();
+        diffX  = options.x - startX;
+        diffY  = options.y - startY;
+    }
+};
+
+/**
+ * 通常移動モジュール
+ */
+class LayerNormalMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerMoveModule.constructor(layer, options);
+    }
+
+    function action(layer, now, done) {
+        if (!done && time) {
+            layer.setPos(startX + diffX * now / time,
+                         startY + diffY * now / time);
+        } else {
+            layer.setPos(startX + diffX, startY + diffY);
+            return true;
+        }
+    }
+};
+
+/**
+ * 加速移動モジュール
+ */
+class LayerAccelMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerMoveModule.constructor(layer, options);
+    }
+
+    function action(layer, now, done) {
+        if (!done && time) {
+            local t = now.tofloat() / time;
+            local n = t*t;
+            layer.setPos(startX + diffX * n, startY + diffY * n);
+        } else {
+            layer.setPos(startX + diffX, startY + diffY);
+            return true;
+        }
+    }
+};
+
+/**
+ * 減速移動モジュール
+ */
+class LayerDecelMoveModule extends LayerModule {
+
+    constructor(layer, options) {
+        ::LayerMoveModule.constructor(layer, options);
+    }
+
+    function action(layer, now, done) {
+        if (!done && time) {
+            local t = now.tofloat() / time;
+            local n = (1-(1-t)*(1-t));
+            layer.setPos(startX + diffX * n, startY + diffY * n);
+        } else {
+            layer.setPos(startX + diffX, startY + diffY);
+            return true;
+        }
+    }
+};
+
+
+// ------------------------------------------------------------------
+
+/**
+ * アクションモジュール
+ */
+class LayerActionModule extends LayerModule {
+    constructor(layer, options) {
+        ::LayerModule.constructor(layer, options);
+        type = 1;
+    }
+};
+
+/**
+ * 振動アクションモジュール
+ */
+class LayerVibrateActionModule extends LayerActionModule {
+
+    vibration = null;
+    waitTime = null;
+    constructor(layer, options) {
+        ::LayerActionModule.constructor(layer, options);
+        vibration  = getOption("vibration");
+        waitTime   = getOption("waittime");
+        layer.params.LayerVibrateActionNextTime <- 0;
+    }
+    
+    function action(layer, now, done) {
+        if (done) {
+            layer.setActionOffset(0, 0);
+        } else if (now >= layer.params.LayerVibrateActionNextTime) {
+            // Y 方向は下側にのみ振動（立ち絵見切り防止のため）
+            layer.setActionOffset(random(vibration) - vibration/2, random(vibration));
+            layer.params.LayerVibrateActionNextTime += waitTime;
+        }
+    }
+};
+
+/**
+ * 縦ゆれアクション
+ * vibration 上下振動量(pixel)
+ * cycle 周期(ms)
+ */
+class LayerJumpActionModule extends LayerActionModule {
+
+    vibration = null;
+    cycle = null;
+
+    constructor(layer, options) {
+        ::LayerActionModule.constructor(layer, options);
+        vibration = getOption("vibration");
+        cycle     = getOption("cycle");
+    }
+
+    function action(layer, now, done) {
+        if (done) {
+            layer.setActionOffset(0, 0);
+        } else {
+            // 下側にのみ XXX
+            layer.setActionOffset(0, vibration * sin(PI * 2.0 * now / cycle) + vibration);
+        }
+    }
+};
+
+/**
+ * 縦ゆれアクション(単発)
+ * vibration 上下振動量(pixel)
+ * cycle 周期(ms)
+ */
+class LayerJumpOnceActionModule extends LayerActionModule {
+
+    vibration = null;
+    cycle = null;
+
+    constructor(layer, options) {
+        ::LayerActionModule.constructor(layer, options);
+        vibration = getOption("vibration");
+        cycle     = getOption("cycle");
+    }
+
+    function action(layer, now, done) {
+        if (now >= cycle/2) {
+            done = true;
+        }
+        if (done) {
+            layer.setActionOffset(0, 0);
+        } else {
+            // 下側にのみ XXX
+            layer.setActionOffset(0, vibration * sin(PI + PI * 2.0 * now / cycle) + vibration);
+        }
+    }
+};
+
+/**
+ * 横ゆれアクション
+ * vibration 左右振動量(pixel)
+ * cycle 周期(ms)
+ */
+class LayerWaveActionModule extends LayerActionModule {
+
+    vibration = null;
+    cycle = null;
+
+    constructor(layer, options) {
+        ::LayerActionModule.constructor(layer, options);
+        vibration = getOption("vibration");
+        cycle     = getOption("cycle");
+    }
+
+    function action(layer, now, done) {
+        if (done) {
+            layer.setActionOffset(0, 0);
+        } else {
+            layer.setActionOffset(vibration * sin(PI * 2 * now / cycle), 0);
+        }
+    }
+};
+
+/**
+ * 横ゆれアクション(単発)
+ * vibration 上下振動量(pixel)
+ * cycle 周期(ms)
+ */
+class LayerWaveOnceActionModule extends LayerActionModule {
+
+    vibration = null;
+    cycle = null;
+
+    constructor(layer, options) {
+        ::LayerActionModule.constructor(layer, options);
+        vibration = getOption("vibration");
+        cycle     = getOption("cycle");
+    }
+
+    function action(layer, now, done) {
+        if (now >= cycle/2) {
+            done = true;
+        }
+        if (done) {
+            layer.setActionOffset(0, 0);
+        } else {
+            layer.setActionOffset(vibration * sin(PI + PI * 2.0 * now / cycle), 0);
+        }
+    }
+};
+
+/**
+ * 落下アクション
+ * distance 落下距離
+ * fallTime 落下時間
+ */
+class LayerFallActionModule extends LayerActionModule {
+    distance = null;
+    fallTime = null;
+
+    constructor(layer, options) {
+        ::LayerActionModule.constructor(layer, options);
+        distance = getOption("distance");
+        if ("falltime" in options) {
+            fallTime = getOption("falltime");
+        } else {
+            fallTime = time;
+        }
+    }
+
+    function action(layer, now, done) {
+        if (now >= fallTime) {
+            done = true;
+        }
+        if (done) {
+            layer.setActionOffset(0, 0);
+        } else {
+            layer.setActionOffset(0, - distance + distance * now / fallTime);
+        }
+        return done;
+    }
+};
+
+// ------------------------------------------------------------------
+
+/**
+ * 回転モジュール
+ */
+class LayerRotateModule extends LayerModule {
+
+    startRotateAngle = null;
+    
+    constructor(layer, options) {
+        ::LayerModule.constructor(layer, options);
+        type = 2;
+        startRotateAngle = layer.rotate;
+    }
+};
+
+/**
+ * 単純回転
+ * angvel: 角速度（度/sec）
+ */
+class LayerNormalRotateModule extends LayerRotateModule {
+
+    angvel = null;
+
+    constructor(layer, options) {
+        ::LayerRotateModule.constructor(layer, options);
+        angvel = getOption("angvel");
+    }
+
+    function action(layer, now, done) {
+        layer._layer.setRotate((startRotateAngle + angvel * now / 1000) % 360);;
+    }
+};
+
+// ------------------------------------------------------------------
+
+/**
+ * 拡大縮小モジュール
+ */
+class LayerZoomModule extends LayerModule {
+
+    startZoom = null;
+
+    constructor(layer, options) {
+        ::LayerModule.constructor(layer, options);
+        type = 3;
+        startZoom = layer.zoom;
+    }
+};
+
+/**
+ * 単純拡大
+ * zoom: 最終サイズ（縦長・横長になっている状態からの変更は考慮しない）
+ */
+class LayerNormalZoomModule extends LayerZoomModule {
+
+    zoom = null;
+    diff = null;
+    
+    constructor(layer, options) {
+        ::LayerZoomModule.constructor(layer, options);
+        if ("zoom" in options) {
+            zoom = options.zoom;
+        }
+        diff = zoom -  startZoom;
+    }
+
+    function action(layer, now, done) {
+        if (!done && time) {
+            local t = now / time;
+            local n = (diff<0)?( 1-(1-t)*(1-t) ):( t*t );
+            layer._layer.setZoom(startZoom+ diff*n);
+        } else {
+            layer._layer.setZoom(zoom);
+            return true;
+        }
+        return false;
+    }
+};
+
+// ------------------------------------------------------------------
+
+
+/**
+ * 拡大縮小モジュール
+ */
+class LayerModeModule extends LayerModule {
+    constructor(layer, options) {
+        ::LayerModule.constructor(layer, options);
+        type = 4;
+    }
+};
+
+/**
+ * フェード処理用
+ * intime  フェードイン時間   (0の場合フェードインしない)
+ * outtime フェードアウト時間 (0の場合フェードアウトしない)
+ */
+class LayerFadeModeModule extends LayerModeModule {
+
+    function constructor(layer, options) {
+        ::LayerModeModule.constructor(layer, options);
+        opacity = layer.getOpacity();
+        inTime  = getOption("intime");
+        outTime = getOption("outtime");
+        if (outTime == null) {
+            outTime = 0;
+        }
+        if (inTime == 0 && outTime == 0) {
+            inTime = 1000; // XXX
+        }
+    }
+    
+    function action(layer, now, done) {
+        if (done) {
+            layer.setOpacity(opacity);
+            return true;
+        } else {
+            now = now % (inTime + outTime);
+            if (now <= inTime) {
+                layer.setOpacity(now * opacity / inTime);
+            } else {
+                if (outTime > 0) {
+                    layer.setOpacity((outTime - (now - inTime)) * opacity / outTime);
+                } else {
+                    layer.setOpacity(opacity);
+                }
+            }
+        }
+    }
+};
+
+/**
+ * 指定された不透明度に変更
+ * opacity 不透明度
+ */
+class LayerFadeToModeModule extends LayerModeModule {
+    constructor(layer, options) {
+        ::LayerModeModule.constructor(layer, options);
+        opacity = layer.getOpacity();
+        toOpacity = getOption("opacity");
+    }
+    function action(layer, now, done) {
+        //print("フェードモジュールアクション\n");
+        if (!done && time) {
+            layer.setOpacity(opacity + (toOpacity - opacity) * now / time);
+        } else {
+            layer.setOpacity(toOpacity);
+            return true;
+        }
+    }
+};
+
+// ------------------------------------------------------------------
+
+modules <- {
+    LayerNormalMoveModule     = LayerNormalMoveModule,
+    LayerAccelMoveModule      = LayerAccelMoveModule,
+    LayerDecelMoveModule      = LayerDecelMoveModule,
+    LayerVibrateActionModule  = LayerVibrateActionModule,
+    LayerJumpActionModule     = LayerJumpActionModule,
+    LayerJumpOnceActionModule = LayerJumpOnceActionModule,
+    LayerWaveActionModule     = LayerWaveActionModule,
+    LayerWaveOnceActionModule = LayerWaveOnceActionModule,
+    LayerNormalRotateModule   = LayerNormalRotateModule,
+    LayerNormalZoomModule     = LayerNormalZoomModule,
+    LayerFadeModeModule       = LayerFadeModeModule,
+    LayerFadeToModeModule     = LayerFadeToModeModule
+};
+
+// ------------------------------------------------------------------
+
+/**
+ * 基本レイヤ
+ */
+class BasicLayer {
+
+    // 処理対象レイヤ
+    _layer = null;
+
+    /**
+     * コンストラクタ
+     * @param fore 表画面なら true
+     */
+    constructor(fore) {
+        //print("BasicLayer コンストラクタ\n");
+        _layer = Layer(fore);
+    }
+
+    function getWidth() {
+        return _layer.getWidth();
+    }
+
+    function getHeight() {
+        return _layer.getHeight();
+    }
+
+    _image = null;
+    function loadImage(image) {
+        _image = image;
+        _layer.loadImage(image);
+    }
+
+    function loadChangeImage(image, imageType, frameTime) {
+        _image = image;
+        _layer.loadChangeImage(image, imageType, frameTime);
+    }
+
+    function fore() {
+        _layer.fore();
+    }
+
+    function back() {
+        _layer.back();
+    }
+    
+    // -----------------------------------------
+    // 表示関連
+    // -----------------------------------------
+    
+    _show = false;
+    function setShow(show) {
+        //print("レイヤ表示状態指定:" + show + "\n");
+        _show = show;
+        _layer.show(show);
+    }
+    function getShow() {
+        return _show;
+    }
+
+    _level = 0;
+    function setLevel(level) {
+        //print("レイヤレベル指定:" + level + "\n");
+        _level = level;
+        _layer.setLevel(level);
+    }
+    function getLevel(level) {
+        return _level;
+    }
+
+    _opacity = 100;
+    function setOpacity(opacity) {
+        //print("レイヤ透明度指定:" + opacity + "\n");
+        _opacity = opacity;
+        _layer.setColor(100,100,100,(128 * _opacity / 100).tointeger());
+    }
+    function getOpacity() {
+        return _opacity;
+    }
+    
+    // -----------------------------------------
+    // アフィン変形関連
+    // -----------------------------------------
+    
+    _ax = 0;
+    _ay = 0;
+    function setAffineOrigin(ax, ay) {
+        _ax = ax;
+        _ay = ay;
+        _layer.setAffineOrigin(ax, ay);
+    }
+
+    _rotate = 0;
+    function setRotate(rotate) {
+        _rotate = rotate;
+        _layer.setRotate(rotate);
+    }
+    function getRotate() {
+        return _rotate;
+    }
+
+    _zoom = 100;
+    function setZoom(zoom) {
+        _zoom = zoom;
+        _layer.setZoom(zoom);
+    }
+    function getZoom() {
+        return _Zoom;
+    }
+
+    // -----------------------------------------
+    // 位置指定関係
+    // -----------------------------------------
+
+    _actionX = 0;
+    _actionY = 0;
+    _x = 0;
+    _y = 0;
+
+    function _setPos(x, y) {
+        _layer.setPos(x.tointeger(), y.tointeger());
+    }
+    
+    /**
+     * アクション用オフセット指定
+     */
+    function setActionOffset(actionX, actionY) {
+        _actionX = actionX;
+        _actionY = actionY;
+        _setPos(_x + _actionX, _y + _actionY);
+    }
+    
+    /**
+     * 位置指定
+     */
+    function setPos(x, y) {
+        _x = x;
+        _y = y;
+        _setPos(_x + _actionX, _y + _actionY);
+    }
+
+    function getX() {
+        return _x;
+    }
+
+    function getY() {
+        return _y;
+    }
+    
+    /**
+     * 状態の複製
+     */
+    function assign(orig) {
+        //print("状態の複製:" + orig + "\n");
+        _layer.copyImage(orig._layer);
+//        _layer.show(orig._show);
+//        _layer.setLevel(_level);
+        //setAffineOrigin(orig._ax, orig._ay); XXX
+        //setRotate(orig.getRotate());
+        //setZoom(orig.getZoom());
+        _actionX = orig._actionX;
+        _actionY = orig._actionY;
+        _x = orig._x;
+        _y = orig._y;
+        _setPos(_x + _actionX, _y + _actionY);
+    }
+
+    /**
+     * 状態のリセット
+     */
+    function reset() {
+        setOpacity(100);
+        //setAffineOrigin(0, 0);
+        //setRotate(0);
+        //setZoom(100);
+        setActionOffset(0,0);
+    }
+    
+};
+
+/**
+ * アクション処理を内包したレイヤ
+ */
+class ActionLayer extends BasicLayer {
+
+    modules = null;
+    params  = null;
+    
+    constructor(fore) {
+        //print("ActionLayer コンストラクタ\n");
+        ::BasicLayer.constructor(fore);
+        modules = {};
+        params = {};
+    }
+
+    
+    // アクション開始してからの時間情報
+    actionTime = null;
+    
+    /**
+     * アクション開始
+     */
+    function _beginAction(module) {
+        if (module != null) {
+            modules[module.type] <- module;
+            if (actionTime == null) {
+                actionTime = 0;
+            }
+        }
+    }
+
+    /**
+     * アクション開始
+     */
+    function beginAction(moduleName, info) {
+        if (moduleName in ::modules) {
+            _beginAction(::modules[moduleName](this, info));
+        }
+    }
+    
+    /**
+     * アクション停止
+     */
+    function stopAction() {
+        actionHandler(actionTime, true);
+        actionTime = null;
+    }
+    
+    /**
+     * アクション処理
+     */
+    function actionHandler(now, stopFlag) {
+        local done = true;
+        for (local i=0;i<6;i++) {
+            if (i in modules) {
+                if (modules[i].run(this, now, isSkip(), stopFlag)) {
+                    delete modules[i];
+                } else {
+                    done = false;
+                }
+            }
+        }
+        if (done) {
+            modules = {};
+            actionTime = null;
+            onActionCompleted();
+        }
+    }
+
+    function onActionCompleted() {
+        // nothing todo
+    }
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        // アクションが存在する場合
+        if (actionTime != null) {
+            actionTime += diff;
+            if (_layer != null) {
+                actionHandler(actionTime, false);
+            }
+        }
+    }
+
+    function assign(orig) {
+        //print("状態の複製");
+        ::BasicLayer.assign(orig);
+        // アクション状態のコピー
+        modules = clone orig.modules;
+        params  = clone orig.params;
+        actionTime = orig.actionTime;
+    }
+
+    // --------------------------------------------------
+    // 機能メソッド群
+    // --------------------------------------------------
+
+    function setPosTime(x, y, time, accel) {
+        //print("時間つき場所移動:" + x + "," + y + ":" + time + "\n");
+        if (time > 0) {
+            if (accel > 0) {
+                _beginAction(LayerAccelMoveModule(this, {x=x, y=y, time=time}));
+            } else if (accel == 0) {
+                _beginAction(LayerNormalMoveModule(this, {x=x, y=y, time=time}));
+            } else {
+                _beginAction(LayerDecelMoveModule(this, {x=x, y=y, time=time}));
+            }
+        } else {
+            setPos(x, y);
+        }
+    }
+
+    function setRotateTime(rotate, time) {
+        setRotate(rotate);
+    }
+
+    function setZoomTime(zoom, time) {
+        setZoom(zoom);
+    }
+
+    function setOpacityTime(opacity, time) {
+        //print("時間つき透明度:" + opacity + ":" + time + "\n");
+        if (time > 0) {
+            _beginAction(LayerFadeToModeModule(this, {opacity=opacity, time=time}));
+        } else {
+            setOpacity(opacity);
+        }
+    }
+
+    function reset() {
+        ::BasicLayer.reset();
+        stopAction();
+    }
+
+};
+
+
+/**
+ * アドベンチャーエンジン用レイヤ
+ * レイヤ処理の内部処理をつかさどるクラス
+ * sync するまで処理が保留される
+ */
+class AdvLayer {
+
+    name = null;
+    
+    // レイヤ
+    _layer = null;
+    _layerBack = null;
+    
+    show = false;
+    hide = false;
+
+    opacity = 100;
+    opacityFrom = null;
+    opacityTime = 0;
+    doOpacity = false;
+    
+    x = 0;
+    y = 0;
+    xFrom = null;
+    yFrom = null;
+    moveTime = 0;
+    doPosition = false;
+
+    level = 0;
+    doLevel = false;
+    
+    image = 0;
+    dr = null;
+    lv = null;
+    prevDr = null;
+    prevLv = null;
+    imageType = null;
+	imageTime = null;
+    doImage = false;
+
+    rotate   = 0;
+    rotateFrom = null;
+    rotateTime = 0;
+
+    zoom     = 100;
+    zoomFrom = null;
+    zoomTime = 0;
+    afx      = null;
+    afy      = null;
+    doAffine = false;
+
+    actions = [];
+    currentActions = [];
+    doAction = false;
+    doStopAction = false;
+
+    doReset = false;
+    
+    properties = null;
+
+    constructor(info) {
+        properties = {
+            x = setX,
+            y = setY,
+            level = setLevel,
+            image = setImage,
+            rotate = setRotate,
+            zoom = setZoom,
+            afx = setAfx,
+            afy = setAfy,
+            opacity = setOpacity,
+            action = setAction,
+            reset = setReset
+        };
+    };
+
+    
+    // ---------------------------------------------------
+
+    function setOpacity(opacity, elm) {
+        //print("透明度指定:" + opacity + "\n");
+        this.opacity = opacity;
+        if (!isJump()) {
+            if ("opacityTime" in elm) {
+                opacityTime = elm.opacityTime;
+            }
+            if ("opacityFrom" in elm) {
+                opacityFrom = elm.opacityFrom;
+            } else {
+                opacityFrom == null;
+            }
+        }
+        doOpacity = true;
+    }
+    
+    function setX(x,elm) {
+        //print("X指定\n");
+        this.x = x;
+        if (!isJump()) {
+            if ("moveTime" in elm) {
+                moveTime = elm.moveTime;
+            }
+            if ("xFrom" in elm) {
+                xFrom = elm.xFrom;
+            } else {
+                xFrom == null;
+            }
+        }
+        doPosition = true;
+    }
+
+    function setY(y,elm) {
+        //print("Y指定\n");
+        this.y = y;
+        if (!isJump()) {
+            if ("moveTime" in elm) {
+                moveTime = elm.moveTime;
+            }
+            if ("yFrom" in elm) {
+                yFrom = elm.yFrom;
+            } else {
+                yFrom == null;
+            }
+        }
+        doPosition = true;
+    }
+
+    function setLevel(level,elm) {
+        this.level = level;
+        doLevel = true;
+    }
+
+    function setImage(image,elm) {
+        this.image = image;
+        prevDr = dr;
+        prevLv = lv;
+        dr = "dr" in elm ? elm.dr : null;
+        lv = "lv" in elm ? elm.lv : null;
+        imageTime = "imageTime" in elm ? elm.imageTime : null;
+        imageType = "imageType" in elm ? elm.imageType : null;
+        if (isJump() || isSkip()) {
+            imageTime = null;
+            imageType = null;
+        }
+        if (!("opacity" in elm)) {
+            opacity = 100;
+            doOpacity = true;
+        }
+        hide = false;
+        doImage = true;
+        doStopAction = true;
+        doAction = false;
+        actions = [];
+        //print("setImage:" + name + ":" + image + ":" + imageType + ":" + imageTime + "\n");
+    }
+
+    function setRotate(rotate, elm) {
+        //print("setRotate\n");
+        this.rotate = rotate;
+        if (!isJump()) {
+            if ("rotateTime" in elm) {
+                rotateTime = elm.rotateTime;
+            }
+            if ("rotateFrom" in elm) {
+                rotateFrom = elm.rotateFrom;
+            } else {
+                rotateFrom == null;
+            }
+        }
+        doAffine = true;
+    }
+
+    function setZoom(zoom, elm) {
+        //print("setZoom\n");
+        this.zoom = zoom;
+        if (!isJump()) {
+            if ("zoomTime" in elm) {
+                zoomTime = elm.zoomTime;
+            }
+            if ("zoomFrom" in elm) {
+                zoomFrom = elm.zoomFrom;
+            } else {
+                zoomFrom == null;
+            }
+        }
+        doAffine = true;
+    }
+
+    function setAfx(afx, elm) {
+        this.afx = afx;
+        doAffine = true;
+    }
+
+    function setAfy(afy, elm) {
+        this.afy = afy;
+        doAffine = true;
+    }
+
+    function setAction(name, elm) {
+        //print("アクション指定:" + name + "\n");
+        if (name == null || name == "") {
+            doStopAction = true;
+            actions = [];
+        } else {
+            if (!isJump() || !("time" in elm)) {
+                local info = {};
+                info.name <- name;
+                info.elm  <- clone elm;
+                actions.append(info);
+                doAction = true;
+            }
+        }
+    }
+
+    function setReset(name, elm) {
+        doReset = true;
+        doStopAction = true;
+        doAction = false;
+        actions = [];
+    }
+    
+    function reset() {
+        opacity = 100;
+        opacityFrom = null;
+        rotate = 0;
+        rotateFrom = null;
+        zoom = 100;
+        zoomFrom = null;
+        afx = 0;
+        afy = 0;
+        currentActions = [];
+    }
+    
+    /**
+     * プロパティ設定
+     * @param param プロパティ設定用
+     */
+    function set(param) {
+        if (isJump()) {
+            if ("hide" in param) {
+                show = false;
+            } else {
+                if ("show" in param) {
+                    show = param["show"];
+                }
+            }
+        } else {
+            if ("show" in param) {
+                show = param["show"];
+            }
+            if ("hide" in param) {
+                hide = true;
+            }
+        }
+        if (show) {
+            foreach (key, value in param) {
+                if (key in properties) {
+                    local func = properties[key];
+                    func(value, param);
+                }
+            }
+        }
+    }
+    
+    /**
+     * 同期実行
+     */
+    function _sync(fore, doAll) {
+
+        if (show) {
+
+            // レイヤ状態復帰処理
+            if (_layer == null) {
+                _layer = ActionLayer(fore);
+                _layer.setShow(true);
+            }
+
+            if (doAll) {
+                if (image != 0) {
+                    _layer.loadImage(image);
+                }
+                _layer.setPos(x, y);
+                _layer.setLevel(level);
+                _layer.setOpacity(opacity);
+                for (local i=0;i<currentActions.len(); i++) {
+                    local info = currentActions[i];
+                    _layer.beginAction(info.name, info.elm);
+                }
+            }
+            
+            if (doReset) {
+                reset();
+                _layer.reset();
+                doReset = false;
+            }
+
+            // アクション消去
+            if (doStopAction) {
+                _layer.stopAction();
+                currentActions = [];
+                doStopAction = false;
+            }
+            
+            // 画像のロード
+            if (doImage) {
+                //print("draw:" + name + ":" + image + ":" + imageType + ":" + imageTime + "\n");
+                // 同一イメージがロードされていない場合のみ処理する
+                if (_layer._image != image) {
+                    if (_layer._image == null || imageTime == null || imageType == null || (dr != null && prevDr == dr && prevLv == lv)) {
+                        _layer.loadImage(image);
+                    } else {
+                        _layer.loadChangeImage(image, imageType, timeCalc(imageTime));
+                    }
+                }
+                doImage = false;
+            }
+
+            // 位置指定
+            if (doPosition) {
+                //print("position\n");
+                if (moveTime) {
+                    if (xFrom != null || yFrom != null) {
+                        if (xFrom == null) {
+                            xFrom = x;
+                        }
+                        if (yFrom == null) {
+                            yFrom = y;
+                        }
+                        _layer.setPos(xFrom, yFrom);
+                        xFrom = null;
+                        yFrom = null;
+                    }
+                    _layer.setPosTime(x, y, moveTime, 0);
+                    moveTime = 0;
+                } else {
+                    _layer.setPos(x, y);
+                }
+                doPosition = false;
+            }
+
+            if (doLevel) {
+                _layer.setLevel(level);
+                doLevel = false;
+            }
+
+            // 不透明度
+            if (doOpacity) {
+                //print("opacity\n");
+                if (opacityTime) {
+                    if (opacityFrom != null) {
+                        _layer.setOpacity(opacityFrom);
+                        opacityFrom = null;
+                    }
+                    _layer.setOpacityTime(opacity, opacityTime);
+                    opacityTime = 0;
+                } else {
+                    _layer.setOpacity(opacity);
+                }
+                doOpacity = false;
+            }
+            
+            // アフィン制御 XXXX doAll をとりあえずはずす
+            if (doAffine) {
+                //print("affine\n");
+                local ax;
+                if (afx == null) {
+                    ax = _layer.getWidth() / 2;
+                } else {
+                    ax = afx;
+                }
+                local ay;
+                if (afy == null) {
+                    ay = _layer.getHeight() / 2;
+                } else {
+                    ay = afy;
+                }
+                //print("affine origin:" + ax + "," + ay + " zoom:" + zoom + " rotate:" + rotate + "\n");
+                _layer.setAffineOrigin(ax, ay);
+                if (rotateTime) {
+                    if (rotateFrom != null) {
+                        _layer.setRotate(rotateFrom);
+                        rotateFrom = null;
+                    }
+                    _layer.setRotateTime(rotate);
+                    rotateTime = 0;
+                } else {
+                    _layer.setRotate(rotate);
+                }
+                if (zoomTime) {
+                    if (zoomFrom != null) {
+                        _layer.setZoom(zoomFrom);
+                        zoomFrom = null;
+                    }
+                    _layer.setZoomTime(zoom, zoomTime);
+                    zoomTime = 0;
+                } else {
+                    _layer.setZoom(zoom);
+                }
+                doAffine = false;
+            }
+
+            // その他アクション
+            if (doAction) {
+                for (local i=0;i<actions.len(); i++) {
+                    local info = actions[i];
+                    _layer.beginAction(info.name, info.elm);
+                    if (!("time" in info.elm)) {
+                        currentActions.append(info);
+                    }
+                }
+                doAction = false;
+                actions = [];
+            }
+            
+        } else {
+            doReset = false;
+            doImage = false;
+            doStopAction = false;
+            doPosition = false;
+            doLevel = false;
+            doOpacity = false;
+            doAffine = false;
+            doAction = false;
+            actions = [];
+            _layer = null;
+            currentActions = [];
+        }
+    }
+
+    /**
+     * 同期実行
+     */
+    function sync(fore) {
+        //print("sync start\n");
+        _sync(fore, false);
+        //print("sync done\n");
+    }
+
+    // ----------------------------------------
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (_layer != null) {
+            _layer.update(diff);
+        }
+        if (_layerBack != null) {
+            _layerBack.update(diff);
+        }
+        if (hide) {
+            if (_layer == null || _layer.actionTime == null) {
+                _layer = null;
+                currentActions = [];
+                show = false;
+                hide = false;
+            }
+        }
+    }
+
+    // ----------------------------------------
+
+    /**
+     * 一時停止処理
+     */
+    function pause() {
+        // レイヤの一時破棄
+        _layer = null;
+    }
+
+    /**
+     * 再開
+     */
+    function restart(fore) {
+        // レイヤの復帰処理
+        if (hide) {
+            _layer = null;
+            currentActions = [];
+            show = false;
+            hide = false;
+        }
+        _sync(fore, true);
+    }
+    
+    // -----------------------------------------------
+    
+    /**
+     * レイヤの退避処理
+     */
+    function back(fore) {
+        // 現在のレイヤを退避して指定画面に再構築
+        if (_layer != null) {
+            _layerBack = _layer;
+            _layer = ActionLayer(fore);
+            _layer.assign(_layerBack);
+        } else {
+            _layerBack = null;
+        }
+    }
+
+    /**
+     * 待避処理の完了
+     */
+    function backDone() {
+        // 裏画面レイヤを消去する
+        _layerBack = null;
+        // 念のため表に移動
+        if (_layer != null) {
+            _layer.fore();
+        }
+    }
+
+	/**
+     * アクション実行中かどうか
+     */
+    function isAction() {
+        return _layer != null && _layer.actionTime != null || 
+            _layerBack != null && _layerBack.actionTime != null;
+    }
+
+    /**
+     * アクションの強制中止
+     */
+    function stopAction() {
+        if (_layer != null) {
+            _layer.stopAction();
+        }
+        if (_layerBack != null) {
+            _layerBack.stopAction();
+        }
+        currentActions = [];
+    }
+};
+
+print("layer setup\n");

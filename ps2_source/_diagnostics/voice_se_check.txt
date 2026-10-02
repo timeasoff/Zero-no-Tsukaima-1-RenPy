@@ -1,0 +1,21 @@
+voice   4283 -> VOICE_ID.BIN_000010BB.wav  present=False  JA=
+voice   4291 -> VOICE_ID.BIN_000010C3.wav  present=False  JA=
+voice     53 -> VOICE_ID.BIN_00000035.wav  present=False  JA=
+voice   1169 -> VOICE_ID.BIN_00000491.wav  present=True  JA=みなさん、なかなか見事な手際ですね。
+voice   5559 -> VOICE_ID.BIN_000015B7.wav  present=False  JA=
+
+### play sound name -> rpy files
+   blow_2       ['game\\chapters\\1\\script-ch1_6.rpy']
+   knock_door   ['game\\chapters\\1\\script-ch1_3.rpy', 'game\\chapters\\1\\script-ch1_5.rpy', 'game\\chapters\\1\\script-ch1_8.rpy']
+   read         ['game\\chapters\\1\\script-ch1_10.rpy', 'game\\chapters\\1\\script-ch1_8.rpy']
+   take_sword   ['game\\chapters\\1\\script-ch1_1.rpy']
+
+### for each rpy with play sound: rpy sfx names vs PS2 se ids in its scenes
+   game\chapters\1\script-ch1_1.rpy           sfx=['take_sword']  se_ids=[62, 65]
+   game\chapters\1\script-ch1_10.rpy          sfx=['read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read', 'read ', 'read ', 'read ', 'read', 'read']  se_ids=[56, 57, 59, 69, 72, 82]
+   game\chapters\1\script-ch1_3.rpy           sfx=['knock_door']  se_ids=[56, 57, 62, 69, 82]
+   game\chapters\1\script-ch1_5.rpy           sfx=['knock_door']  se_ids=[69, 82, 87]
+   game\chapters\1\script-ch1_6.rpy           sfx=['blow_2']  se_ids=[62, 69, 82, 95]
+   game\chapters\1\script-ch1_8.rpy           sfx=['read', 'read', 'knock_door']  se_ids=[56, 57, 58, 62, 69, 72, 82, 95]
+
+### PS2 se id frequencies: [(36, 5), (37, 47), (39, 1), (42, 5), (43, 5), (44, 20), (45, 1), (53, 1), (55, 8), (56, 50), (57, 87), (58, 7), (59, 10), (61, 45), (62, 40), (63, 22), (64, 25), (65, 17), (66, 5), (67, 10), (68, 1), (69, 13), (71, 12), (72, 34), (74, 1), (75, 3), (77, 2), (80, 8), (81, 1), (82, 35), (85, 1), (87, 1), (88, 2), (94, 4), (95, 25)]

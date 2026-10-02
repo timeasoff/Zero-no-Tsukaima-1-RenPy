@@ -1,0 +1,17 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……ねぇ、サイト？\nちょっとゲームをしない？", (0x04000000 +5494));
+talk("サイト", null, "へっ、またですか？", (0x04000000 +10740));
+talk("ルイズ", null, "え、ええ。\nそうよ。", (0x04000000 +5495));
+talk("ルイズ", null, "わたしがこっちの端を咥えて、\nサイトがそっちから……食べるんだからね。", (0x04000000 +5496));
+talk("ルイズ", null, "さ、さあ、サイト。\nどうするの？", (0x04000000 +5497));
+selectInit();
+selectItem("最後まで食べたらどうなるの？", (0x01000000 +1845), null, true);
+selectItem("よ、よろこんで", (0x01000000 +1846), null, true);
+selectItem("か、勘弁してください", (0x01000000 +1847), null, true);
+select();

@@ -1,0 +1,30 @@
+reset();
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +155)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +11)});
+msgon()
+talk("ハルナ", null, "あ……。", (0x04000000 +1868));
+like("ハルナ", 20);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)});
+waitLoad(true);
+talk("ハルナ", null, "戻ってきたの？", (0x04000000 +1869));
+talk("サイト", null, "あ、いや。\nルイズは戻ってきてないか？", (0x04000000 +9569));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)});
+waitLoad(true);
+talk("ハルナ", null, "……まだ、戻っていない。", (0x04000000 +1870));
+talk("サイト", null, "そうか……。", (0x04000000 +9570));
+talk("サイト", null, "（どこまで行ったんだ、あいつは）", null);
+talk("ハルナ", null, "……。", (0x04000000 +1871));
+talk("サイト", null, "あのさ、春奈……。", (0x04000000 +9571));
+talk("ハルナ", null, "……。", (0x04000000 +1872));
+talk("サイト", null, "（なんだ？\n　ずいぶんとご機嫌斜めだな）", null);
+selectInit();
+selectItem("なんかまずいこと言ったかな？", (0x01000000 +1282), null, true);
+selectItem("１人になるのが怖いのか？", (0x01000000 +1283), null, true);
+selectItem("体がどこか痛むのか？", (0x01000000 +1284), null, true);
+select();

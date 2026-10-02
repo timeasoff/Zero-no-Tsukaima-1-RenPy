@@ -1,0 +1,55 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+talk("ルイズ", null, "もうっ、ずいぶん汚れちゃったわね。", (0x04000000 +5348));
+talk("サイト", null, "（汚した原因はルイズだろ？）", null);
+talk("ルイズ", null, "……これは、お風呂が必要ね。", (0x04000000 +5349));
+talk("サイト", null, "え？\nま、ましゃか……。", (0x04000000 +10618));
+talk("ルイズ", null, "……飼い主の責任として、バカ犬をキレイに\nしてあげないとね。", (0x04000000 +5350));
+talk("サイト", null, "ちょ、ちょっと待って～～っ！", (0x04000000 +10619));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（はあ、なんでこんなことに？）", null);
+talk("ルイズ", null, "……ねえ、サイト？\nどこかかゆいところはある？", (0x04000000 +5351));
+talk("サイト", null, "ええと……しょの……。", (0x04000000 +10620));
+talk("サイト", null, "（だから、そのスクール水着はなんだよ！）", null);
+talk("ルイズ", null, "どう？\n背中流すのもなかなか上手でしょ？", (0x04000000 +5352));
+talk("サイト", null, "は、はぁい。\nお上手であります！", (0x04000000 +10621));
+talk("ルイズ", null, "うふふ、ありがと！", (0x04000000 +5353));
+talk("ルイズ", null, "……さてと。", (0x04000000 +5354));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +189)});
+waitLoad(true);
+talk("ルイズ", null, "……じゃあ……次は前ね。", (0x04000000 +5355));
+talk("サイト", null, "……。", (0x04000000 +10622));
+talk("サイト", null, "……へっ？", (0x04000000 +10623));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +187)});
+waitLoad(true);
+talk("ルイズ", null, "あらどうしたの？\n狐につままれたような顔をして……ふふっ。", (0x04000000 +5356));
+talk("サイト", null, "いや、怖い聞き違いをしたな～～と。", (0x04000000 +10624));
+talk("ルイズ", null, "あら、そうだったの？", (0x04000000 +5357));
+talk("ルイズ", null, "……ご主人様の言葉を聞き違えたりなんか\nしちゃダメよ。", (0x04000000 +5358));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +188)});
+waitLoad(true);
+talk("ルイズ", null, "もう一度言うわね……『次は前よ』。", (0x04000000 +5359));
+selectInit();
+selectItem("ち、ちょっと待ったぁ！", (0x01000000 +1809), null, true);
+selectItem("逃げ出すしかない", (0x01000000 +1810), null, true);
+selectItem("堂々とお願いする", (0x01000000 +1811), null, true);
+select();

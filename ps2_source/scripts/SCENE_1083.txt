@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +17)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +270)});
+}
+talk("ハルナ", null, "そうだよね。\n帰還する可能性はゼロじゃないんだものね。\n諦める必要はないか……。", (0x04000000 +1638));
+talk("サイト", null, "……ああ。\nそうだな。", (0x04000000 +8546));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

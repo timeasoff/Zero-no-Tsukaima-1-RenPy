@@ -1,0 +1,70 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +71)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +25)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "これまでだ、ウェザリー！\nアキナ！", (0x04000000 +13124));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1021)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +1065)});
+talk("アキナ", null, "ちくしょう！", (0x04000000 +190));
+talk("ウェザリー", null, "くっ！", (0x04000000 +16065));
+msgoff()
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +140)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "さあ、虚無の魔法を、\nしっかりとその目で見るがいいわ！", (0x04000000 +7136));
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+talk("ルイズ", null, "イリュージョン！！", (0x04000000 +7137));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {y = 0,level = 80,x = 0,image = (0x02000000 +141)});
+waitTime(500, true);
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+msgon()
+talk("サイト", null, "な、なんだ！\n雲の中から……。", (0x04000000 +13125));
+talk("キュルケ", null, "そんな……空中艦隊なんて？", (0x04000000 +3810));
+talk("ウェザリー", null, "どういうことだ！\nトリステインに……いや、ハルケギニアに\nあれほどの空中艦隊を持つ国など……！？", (0x04000000 +16066));
+talk("サイト", null, "（そうか、これがルイズのやりたかった魔法か。\n　あの艦隊はきっと幻……。\n　ルイズが作り出した虚無の……）", null);
+talk("アキナ", null, "ウェザリーさま、\n我々の艦隊が後退していきます！", (0x04000000 +191));
+talk("アキナ", null, "……城の周りの兵達も！", (0x04000000 +192));
+talk("ウェザリー", null, "負け……か。\n艦隊が下がった今、\n我らの兵の数などたかが知れてる。", (0x04000000 +16067));
+msgoff()
+set("lay20", {show = 0});
+set("lay5", {show = 0});
+set("lay21", {show = 0});
+set("lay1", {show = 0});
+set("lay6", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +71)});
+trans("crossfade", 1000);
+msgon()
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1067)});
+talk("ウェザリー", null, "見事だった。\nさあ、この茶番の幕を下ろすがいい！", (0x04000000 +16068));
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "（どういうことだ？）", null);
+set("lay5", {y = 0,x = 224});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +940)});
+talk("デルフリンガー", null, "（……自分を斬れっていってるんだよ）", (0x04000000 +1367));
+selectInit();
+selectItem("き、斬れって？", (0x01000000 +656), null, true);
+selectItem("それは無責任じゃないか？", (0x01000000 +657), null, true);
+selectItem("まだウェザリーには用がある", (0x01000000 +658), null, true);
+select();

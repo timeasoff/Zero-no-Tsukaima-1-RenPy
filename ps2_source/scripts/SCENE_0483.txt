@@ -1,0 +1,77 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +54)});
+trans("crossfade", 1000);
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1061)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +951)});
+set("bgm", {fadetime = 0,play = (0x03000000 +23)});
+msgon()
+talk("ハルナ", null, "劇場を出てからまだほとんどたってないのに。\nなんだか懐かしいのは気のせいかしら。", (0x04000000 +2590));
+talk("ウェザリー", null, "……。", null);
+talk("ウェザリー", null, "任務、ご苦労だったわね。", (0x04000000 +16087));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "え？\n任務？\nなんのことですか？", (0x04000000 +2591));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1063)});
+talk("ウェザリー", null, "なるほど。\nまだアキナは覚醒していないようね。", (0x04000000 +16088));
+talk("ハルナ", null, "アキナ？\n私は春奈ですけど。", (0x04000000 +2592));
+talk("ハルナ", null, "ウェザリー、さん？", (0x04000000 +2593));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "秘術が成功したのは嬉しいけれど、\nあまりうまくいっても\n逆に不便なものね。", (0x04000000 +16089));
+talk("ハルナ", null, "秘術？\nそれってどういう……。", (0x04000000 +2594));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1063)});
+talk("ウェザリー", null, "いいわ、教えてあげる。\n最近の爆弾使いの騒ぎ……ね。\nあれは全てあなたの仕業だったのよ。", (0x04000000 +16090));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +988)});
+talk("ハルナ", null, "な、なんですか！\nそれは！\n冗談でも唐突すぎますよ。", (0x04000000 +2595));
+talk("ウェザリー", null, "ふふふ。\nまあ、信じようと信じまいとどうでもいいこと。", (0x04000000 +16091));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "大事なのは、我らの計画が、\nお前の働きで第三段階まで進んだことよ。", (0x04000000 +16092));
+talk("ウェザリー", null, "最後にハルナ、あなたの意識を永遠に\n眠らせれば、第二段階は完全に収束するわ。", (0x04000000 +16093));
+talk("ウェザリー", null, "不確定要因は、早く見切りをつけるに\n越したことはないからね。", (0x04000000 +16094));
+talk("ウェザリー", null, "いままで、ご苦労様。\nゆっくり休んでちょうだい。", (0x04000000 +16095));
+talk("ウェザリー", null, "……。", null);
+set("se0", {play = (0x03000000 +94)});
+set("lay7", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +990)});
+talk("ハルナ", null, "（……な、なに……？\n　意識が……遠く……）", (0x04000000 +2596));
+set("lay7", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +988)});
+talk("ハルナ", null, "いや、や、やめて！", (0x04000000 +2597));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1065)});
+talk("ウェザリー", null, "な、何っ！？\nただの平民が、わたしの呪文を\nレジストするだと！？", (0x04000000 +16096));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +957)});
+talk("ハルナ", null, "ご、ごめんなさい！", (0x04000000 +2598));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay20", {y = 0,x = 64});
+talk("ウェザリー", null, "待て！\nハルナ！", (0x04000000 +16097));
+talk("ウェザリー", null, "しまった、あのスピード！\nさっきのレジストといい、\nアキナの力が目覚めかけているのか！", (0x04000000 +16098));
+talk("ウェザリー", null, "くっ、逃がさないわよ！", (0x04000000 +16099));
+msgoff()
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +47)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +957)});
+msgon()
+talk("ハルナ", null, "はぁ、はぁ、はぁ！", (0x04000000 +2599));
+talk("ハルナ", null, "（キュルケさんが言ってたのって\n　このことだったの？）", (0x04000000 +2600));
+talk("ハルナ", null, "（助けて！\n　平賀くん！）", (0x04000000 +2601));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+moveInit((0x01000000 +484),(0x02000000 +47),4,(0x03000000 +27));
+moveItem("表通り", 0, (0x01000000 +1895));
+moveItem("裏通り", 0, (0x01000000 +1900));
+moveItem("街道", 0, (0x01000000 +1905));
+moveItem("劇場", 0, (0x01000000 +1910));
+move();

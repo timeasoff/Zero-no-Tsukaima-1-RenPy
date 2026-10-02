@@ -1,0 +1,23 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +711)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "そ、それはちょっと……。", (0x04000000 +10009));
+set("lay6", {y = 0,dr = "1A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +682),imageType = 2});
+talk("キュルケ", null, "だめなの？", (0x04000000 +3018));
+tndl(30);
+set("lay5", {dr = "2A",show = 1,level = 160,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "ほ、ほら、ルイズがどこで見てるか、\n分かんないし！", (0x04000000 +10010));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +709)});
+talk("キュルケ", null, "大丈夫よ、あたしが一番になったら、\nルイズだって何も言えないはずよ。\nだから、デート。", (0x04000000 +3019));
+set("lay6", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "ね、ね、ね！", (0x04000000 +3020));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "わ、分かりました。", (0x04000000 +10011));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "うふっ！\nうれしい！", (0x04000000 +3021));
+next((0x01000000 +1502), true);

@@ -1,0 +1,46 @@
+[OK ] chapters/ has 32 files (got 32)
+[OK ] chapters/ and events_full/ file names match
+[OK ] events_full DIALOGUE lines = 17282 (got 17282)
+[OK ] all_dialogues.txt lines = 17282 (got 17282)
+[OK ] dialogue counts agree (17282 vs 17282)
+[OK ] all 1920 reconstructed scenes covered (got 1920)
+[OK ] scene sets identical
+[OK ] no empty chapter files []
+[OK ] no replacement chars in chapter files []
+[OK ] chapter_01 contains Japanese characters (233)
+
+event kind counts (events_full):
+   SET        28400
+   DIALOGUE   17282
+   WAIT       2258
+   MSGOFF     2078
+   RESET      1903
+   GOTO       1416
+   BACK       1299
+   TRANS      1293
+   CHOICE     1092
+   MSGON      879
+   SYNC       484
+   MENUINIT   390
+   MENU       364
+   TNDL       332
+   LIKE       273
+   VIBRATE    221
+   CREATE     202
+   MOVE       97
+   MAPDEST    81
+   COFFEE     77
+   DATE       70
+   ITEM       70
+   SKIP       40
+   TITLE      30
+   MOVEINIT   20
+   MOVIE      14
+   RESETSEL   3
+   DECL       1
+[OK ] DIALOGUE kind = 17282
+[OK ] SET kind = 28400 (got 28400)
+[OK ] TRANS kind = 1293 (got 1293)
+[OK ] chapter_stats.json talk sum = 17282 (got 17282)
+
+RESULT: ALL CHECKS PASSED

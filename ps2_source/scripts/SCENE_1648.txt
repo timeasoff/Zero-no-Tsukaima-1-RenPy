@@ -1,0 +1,35 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +170)});
+}
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +171)});
+waitLoad(true);
+msgon()
+talk("ルイズ", null, "……サイト、ちゃんといたのね。", (0x04000000 +7788));
+talk("サイト", null, "は、はいっ！\nなんでしょうかご主人様！", (0x04000000 +14001));
+talk("ルイズ", null, "……外に使い魔を放っておいては、\n変な噂が立つでしょ！\nもういいから、入りなさい！", (0x04000000 +7789));
+talk("サイト", null, "え、いいの？\nホントに？", (0x04000000 +14002));
+talk("ルイズ", null, "バカ犬はお外がいいのかしら？", (0x04000000 +7790));
+talk("サイト", null, "キャインキャイン！\nワンワン！", (0x04000000 +14003));
+talk("デルフリンガー", null, "……おやおや、全く現金なもんだ。", (0x04000000 +1385));
+talk("ルイズ", null, "ところで、サイト？", (0x04000000 +7791));
+talk("ルイズ", null, "さっき、何の話をしていたの？", (0x04000000 +7792));
+talk("サイト", null, "べ、別になにも？", (0x04000000 +14004));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +172)});
+waitLoad(true);
+set("lay1", {show = 0});
+talk("ルイズ", null, "フ、フンだ！\nならいいんだけど！\nあんたのご主人様はわたしだけなんだからね！", (0x04000000 +7793));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay19", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

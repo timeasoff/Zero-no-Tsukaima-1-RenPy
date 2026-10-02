@@ -1,0 +1,38 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+}
+talk("サイト", null, "ち、ちくしょう！\nい、いつかはルイズに……逆に……。", (0x04000000 +13843));
+talk("サイト", null, "（逆に……）", null);
+talk("サイト", null, "ふふっ……ふふふふふ……。", (0x04000000 +13844));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +166)});
+waitLoad(true);
+talk("ルイズ", null, "ななな、何を笑いだすのよっ！\n気持ち悪いっ！", (0x04000000 +7655));
+talk("サイト", null, "な、なんでもありませんですっ！", (0x04000000 +13845));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +167)});
+waitLoad(true);
+talk("ルイズ", null, "う、嘘おっしゃいっ！\n何を考えてたのよっ！", (0x04000000 +7656));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay3", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay4", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay3", {show = 0,reset = 1});
+set("lay4", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "きゃいんきゃいん！", (0x04000000 +13846));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +165)});
+waitLoad(true);
+next((0x01000000 +1596), true);

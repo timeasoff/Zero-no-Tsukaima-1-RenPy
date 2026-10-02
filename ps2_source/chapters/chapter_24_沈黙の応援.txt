@@ -1,0 +1,1451 @@
+========================================================================
+CHAPTER 24 : 沈黙の応援
+core scenes : 849 .. 893  (45 scenes)
+========================================================================
+
+---- SCENE 0849 ----
+  [TITLE title("沈黙の応援")]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1164, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+1145, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BG       stage    image=+2, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+88, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+5]
+  [SE       se0      play=+69]
+サイト：……。  [voice 12262]
+ルイズ：サイトっ！  [voice 6665]
+  [LAYER    white    image=+2, level=0]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+307, level=140, dir=1A]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+ルイズ：サイトったら……。
+早く、起きなさいよっ！  [voice 6666]
+サイト：……っ！？  [voice 12263]
+サイト：（し、しまったっ！！
+　シエスタはもうここには居ないんだった！！
+　思わず寝すぎてしまった）
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：グズグズしてる暇なんてないんだからっ！！  [voice 6667]
+サイト：（つまり今、こうしてルイズが俺のことを
+　起こしてるというコトはっ……！？）
+サイト：（盛大なるお仕置きの予感！？
+　やばいっ！）
+  【選択肢】ごめんルイズ → scene 850
+  【選択肢】なんだかちょっと体がだるくって → scene 851
+  【選択肢】平賀　才人は留守でーす → scene 852
+
+---- SCENE 0850 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+418, level=160, dir=1C]
+サイト：ご、ごめんルイズ！！
+寝坊したことはこの通り謝るからっ！
+今日だけは、どうか見逃してくださいっ！！  [voice 12264]
+サイト：わたくしめにお仕置きしてる暇があったら、
+それこそ今すぐ授業に……。  [voice 12265]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：お仕置きなんて後っ！
+それどころじゃないんだからっ！！  [voice 6668]
+  [SPRITE   lay5     image=+451, level=160, dir=2C]
+サイト：……えっ？  [voice 12266]
+  → next scene 853
+
+---- SCENE 0851 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+418, level=160, dir=1C]
+サイト：うううっ、おはようルイズっ。
+なんだかちょっと体がだるくってさ。
+あはははっ……けほっ、けほっ……うぅうっ。  [voice 12267]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：えっ！？
+ちょっと、待って。
+熱はあるの？  [voice 6669]
+ルイズ：ん……熱はないみたいだけど。
+こんな時にタイミング悪いわね……！
+どうしようかしら……。  [voice 6670]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：しっかりしてよ、もぉ……。  [voice 6671]
+  → next scene 853
+
+---- SCENE 0852 ----
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+447, level=160, dir=2C]
+サイト：ひ、平賀　才人は留守でーす。  [voice 12268]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：何バカなことやってるのよっ！
+大変なの！  [voice 6672]
+  → next scene 853
+
+---- SCENE 0853 ----
+  [SPRITE   lay5     image=+451, level=160, dir=2C]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：姫さまのお城が爆弾使いに襲われてるのよ！  [voice 6673]
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+サイト：マジでっ！？  [voice 12269]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：今すぐ出発よっ。  [voice 6674]
+  [SPRITE   lay5     image=+412, level=160, dir=1C]
+サイト：オーケー、１分１秒を争う事態なら、
+ゼロ戦に乗ってすっ飛んでいこうぜ？  [voice 12270]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：それが、ダメなのっ！  [voice 6675]
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+サイト：なんでさっ！？  [voice 12271]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+ルイズ：爆弾使いの攻撃で、ゼロ戦も餌食に……。
+朝のうちに壊されちゃったみたいなの。  [voice 6676]
+  [SPRITE   lay5     image=+416, level=160, dir=1C]
+サイト：……くそぉ！！  [voice 12272]
+  [SE       se0      play=+57]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：ちょっとぉ！！
+どこ行くのよっ！！
+待ちなさいったらぁ～！！  [voice 6677]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 854
+
+---- SCENE 0854 ----
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+  [BGM      bgm      play=+28]
+サイト：マジかよ……。
+右の翼が吹き飛ばされてるじゃん……。
+これじゃ、飛ぶなんてとても……。  [voice 12273]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+227, level=80]
+  [TRANS trans("crossfade", 1000)]
+シエスタ：サイトさんっ！  [voice 14993]
+シエスタ：ひいおじいちゃんの形見がっ……。
+こんなに丈夫な金属の羽を、たったひとつの
+爆弾で引き裂いてしまうなんて……。  [voice 14994]
+サイト：ああ、確かに。
+こいつは、思った以上に強力な破壊力だな。  [voice 12274]
+サイト：急がないと。
+トリスタニアの城とお姫さまが危ないな。  [voice 12275]
+シエスタ：えっ……、サイトさんっ！？
+まさか、お城へ行くんですかっ！？  [voice 14995]
+サイト：ああ、ルイズも呼ばれてるし、
+俺もついていかないと……。  [voice 12276]
+シエスタ：ダメですサイトさんっ！！
+トリスタニアのお城へ行ってはいけませんっ！！  [voice 14996]
+サイト：そうはいかないよ、シエスタ。
+俺はルイズの使い魔なんだ。  [voice 12277]
+サイト：ルイズはお姫さまを助けに行きたがってる。
+だから俺は、一緒にお城へ行って、
+ご主人様を守らなきゃ。  [voice 12278]
+シエスタ：でも、そんなの……。
+相手が強すぎます。
+無茶ですよっ！！  [voice 14997]
+シエスタ：いくらサイトさんが、ミス・ヴァリエールの
+使い魔だからって……。  [voice 14998]
+シエスタ：こんなに恐ろしい爆弾を使う人達を
+相手に戦うなんて、無謀すぎますっ！！  [voice 14999]
+シエスタ：もし、この爆弾に巻き込まれてしまったら、
+サイトさんだって……。  [voice 15000]
+シエスタ：そんなのイヤですっ！！
+サイトさんがいなくなってしまうなんて……。
+考えるだけで……。  [voice 15001]
+シエスタ：だから……。
+だから行かないでください！  [voice 15002]
+サイト：シエスタ……。  [voice 12279]
+  [SPRITE   lay2     hide]
+シエスタ：お城にはちゃんとした兵士の方がいますし、
+立派な貴族の方々だって、
+いっぱいいらっしゃいます……。  [voice 15003]
+シエスタ：なのに、どうして、貴族でもなんでもない
+サイトさんが、戦わなくちゃいけないんですか！
+世の中おかしいことだらけです。  [voice 15004]
+シエスタ：サイトさん、お願い……。
+いかないでください……。  [voice 15005]
+サイト：ありがとう、シエスタ。
+こんなに心配してくれるなんてさ……。
+俺、ホントに嬉しいよ。  [voice 12280]
+シエスタ：じゃあ……。  [voice 15006]
+  【選択肢】必ずここへ戻ってくる → scene 855
+  【選択肢】大切なものを守るために戦う → scene 856
+  【選択肢】逃げられないよ → scene 857
+
+---- SCENE 0855 ----
+  [BGM      bgm      play=+28]
+  [EVENT_CG event    image=+227, level=80]
+サイト：大丈夫、無茶はしないよ。  [voice 12281]
+シエスタ：え……？  [voice 15007]
+サイト：俺は、ルイズを守る使い魔だ。
+地位や名誉を守るために戦って、
+命を粗末にするようなことは絶対にしないさ。  [voice 12282]
+サイト：俺はルイズを連れて、必ずここへ帰ってくる。
+だから、シエスタは俺達の無事を祈って、
+待っていてくれ。  [voice 12283]
+  → next scene 858
+
+---- SCENE 0856 ----
+  [BGM      bgm      play=+28]
+  [EVENT_CG event    image=+227, level=80]
+サイト：ごめん、シエスタ。
+俺は……爆弾使いと戦いに行くよ。
+大切な人達を守るために。  [voice 12284]
+シエスタ：そんな……。  [voice 15008]
+サイト：俺はそれを義務でやろうってワケじゃない。
+ちゃんと、自分の意思で守ると決めたんだ。
+だから……。  [voice 12285]
+  → next scene 858
+
+---- SCENE 0857 ----
+  [BGM      bgm      play=+28]
+  [EVENT_CG event    image=+227, level=80]
+サイト：俺だって戦いは怖いよ。  [voice 12286]
+シエスタ：それじゃあ！  [voice 15009]
+サイト：でも、さ。
+ここで逃げるわけにはいかないんだ。
+ここで逃げたら……。  [voice 12287]
+サイト：俺、ずっと逃げを選ぶ人生になっちゃう。
+そんなの……いやだからさ。
+だから……いくよ。  [voice 12288]
+  → next scene 858
+
+---- SCENE 0858 ----
+  [BGM      bgm      play=+28]
+  [EVENT_CG event    image=+227, level=80]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  → next scene 859
+
+---- SCENE 0859 ----
+  [EVENT_CG event    image=+224, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+13]
+シエスタ：分かりました……。
+じゃあ、せめてお守りだけでも、
+受け取ってください……。  [voice 15012]
+サイト：お守り？  [voice 12290]
+シエスタ：はいっ……これですっ。  [voice 15013]
+サイト：このお守りは……？
+もしかして。  [voice 12291]
+シエスタ：はい、ひいおじいちゃんの形見です
+これをつけていれば、
+危険の方が避けていくんだそうです。  [voice 15014]
+シエスタ：だから、わたしの祈りをこめたこの
+お守りだけでも、身に着けていって
+ください……。  [voice 15015]
+  【選択肢】真っ先にこれを返しに行くよ → scene 860
+  【選択肢】これさえあれば大丈夫！ → scene 861
+  【選択肢】なんか強くなった気がするよ → scene 862
+
+---- SCENE 0860 ----
+  [BGM      bgm      play=+13]
+  [EVENT_CG event    image=+224, level=80]
+サイト：うん、ありがとう。
+戦いが終わったら、真っ先にこれを
+返しに来るよ。  [voice 12292]
+シエスタ：はいっ！
+約束、しましたからね？  [voice 15016]
+  → next scene 863
+
+---- SCENE 0861 ----
+  [BGM      bgm      play=+13]
+  [EVENT_CG event    image=+224, level=80]
+サイト：ありがとう、シエスタ。
+これさえあれば、爆弾だって当りっこないさ。  [voice 12293]
+サイト：たとえ、当たっても、
+当たってないことにしてやる。  [voice 12294]
+  [EVENT_CG event    image=+225, level=80]
+シエスタ：もぅ、サイトさんったら……。
+無茶だけはしないでくださいね……？  [voice 15017]
+サイト：ああ、分かってるさ。  [voice 12295]
+  → next scene 863
+
+---- SCENE 0862 ----
+  [BGM      bgm      play=+13]
+  [EVENT_CG event    image=+224, level=80]
+サイト：お守りをつけてると、
+なんか強くなった気がする。
+俺、頑張るよ。  [voice 12296]
+  [EVENT_CG event    image=+225, level=80]
+シエスタ：サイトさん……。  [voice 15018]
+  → next scene 863
+
+---- SCENE 0863 ----
+  [BGM      bgm      play=+13]
+  [EVENT_CG event    image=+224, level=80]
+  → next scene 864
+  → next scene 865
+
+---- SCENE 0864 ----
+  [BGM      bgm      play=+13]
+  [EVENT_CG event    image=+224, level=80]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+22]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：それから……。  [voice 15019]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：なんだい、シエスタ？  [voice 12297]
+  [SPRITE   lay2     image=+524, level=160, dir=2A]
+シエスタ：あとひとつだけ……。
+あの、おまじないを……させてください。
+とっておきの。  [voice 15020]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：とっておきかぁ。
+ああ、お願いするよ。
+どうすればいいの？  [voice 12298]
+  [SPRITE   lay2     image=+497, level=160, dir=1A]
+シエスタ：じゃ、じゃあ……。
+ちょっとの間だけ、目を閉じていただけますか？  [voice 15021]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：目を？
+どうして？  [voice 12299]
+  [SPRITE   lay2     image=+530, level=160, dir=2A]
+シエスタ：ど、どうして……って、その、ええと……。
+はず、恥ずかしいからっ……です。  [voice 15022]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：恥ずかしい？
+よく分かんないけど……。  [voice 12300]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+サイト：これでいい？  [voice 12301]
+シエスタ：は、はい。  [voice 15023]
+シエスタ：すー……はー……。
+じゅ、準備できました。
+そ、それじゃいきますねっ！  [voice 15024]
+サイト：……ぁ！？  [voice 12302]
+  [EVENT_CG event    image=+226, level=80]
+  [TRANS trans("crossfade", 1000)]
+シエスタ：んっ……。  [voice 15025]
+サイト：……っ！！！  [voice 12303]
+シエスタ：……。  [voice 15026]
+シエスタ：あ、あの、ごめんなさい……。
+いきなり、こんなこと……。  [voice 15027]
+シエスタ：で、でも、あの、おまじない……、
+です……から……。  [voice 15028]
+サイト：あっ……ああっ。  [voice 12304]
+  → next scene 866
+
+---- SCENE 0865 ----
+  [BGM      bgm      play=+13]
+  [EVENT_CG event    image=+224, level=80]
+  → next scene 866
+
+---- SCENE 0866 ----
+  [BGM      bgm      play=+22]
+  [EVENT_CG event    image=+226, level=80]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SE       se0      play=+67]
+  [SE       se0      play=+66]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：この声は、シルフィード！？  [voice 12305]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+489, level=160, dir=1A]
+シエスタ：あれはミス・タバサの……。  [voice 15029]
+  [SE       se0      play=+66]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：ここにいたのねっ！
+タバサのシルフィードに乗って、
+城に向かうわよ。  [voice 6678]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 867
+
+---- SCENE 0867 ----
+  [BG       stage    image=+26, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+28]
+  [SE       se0      play=+67]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：乗って。  [voice 15646]
+  [LAYER    lay0     hide]
+  [SPRITE   lay3     image=+856, level=160, dir=1A]
+モンモランシー：はあ、はあ、お待ちなさいったらっ！！  [voice 4110]
+  [SPRITE   lay3     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：ルイズ、キュルケと、モンモンも
+一緒に行くのか？  [voice 12306]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：いえ、違うわ。  [voice 6679]
+ルイズ：今朝はお城の騒ぎに気を取られて、
+気付かなかったけど、
+ハルナ、部屋にいなかったでしょ？  [voice 6680]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：え、まじかよ。  [voice 12307]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay3     image=+891, level=160, dir=2A]
+モンモランシー：その、まじ、ですわ。
+ハルナが朝から消えてしまったの。  [voice 4111]
+  [SPRITE   lay3     image=+858, level=160, dir=1A]
+モンモランシー：今も探していたんですけど、
+どこにも気配がないわ。  [voice 4112]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：学院にも爆弾使いが来たわけだし、
+なにかあっちゃいけないと思って……、  [voice 6681]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：キュルケとモンモランシーに
+探してもらったのよ。  [voice 6682]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+キュルケ：ほんと、どこ行っちゃったのかしらね。
+魔法を使っても見つからないなんて……。  [voice 3447]
+  [SPRITE   lay3     hide]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：とにかく、今は緊急事態だ。
+俺達はトリスタニアに急ごう。  [voice 12308]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：キュルケ、モンモン。
+春奈のこと、頼めるか？  [voice 12309]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [SPRITE   lay3     image=+852, level=160, dir=1A]
+キュルケ：あたしがダーリンの頼みを断れると思う？
+ここまで来たら乗りかかった船だしね。
+ね、モンモランシー？  [voice 3448]
+  [SPRITE   lay3     image=+885, level=160, dir=2A]
+モンモランシー：仕方ありませんわね。
+もう少し魔法の範囲を広げてみますわ。  [voice 4113]
+  [SPRITE   lay3     hide]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：ありがとう、助かる！  [voice 12310]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：サイトさん。  [voice 15030]
+  [SPRITE   lay5     image=+392, level=160, dir=1A]
+サイト：シエスタ……。
+大丈夫。俺達は必ず帰ってくる。
+必ずね！  [voice 12311]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+シエスタ：はい！  [voice 15031]
+  [SPRITE   lay5     image=+394, level=160, dir=1A]
+サイト：よし、行こう！
+ルイズ！
+タバサ！  [voice 12312]
+  [SPRITE   lay2     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：シルフィード。  [voice 15647]
+タバサ：トリスタニア。
+急いで。  [voice 15648]
+  [SE       se0      play=+66]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+130, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [SE       se0      play=+67]
+サイト：（俺達を乗せたシルフィードが、
+　より大きくはばたいた）
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：サイトさんっ！！  [voice 15032]
+シエスタ：わたし、待ってますからっ！！
+必ず、待ってますからー！  [voice 15033]
+  [SPRITE   lay2     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BGM      bgm      stop=1000]
+  [BG       stage    image=+61, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1150, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1141, level=200]
+  [TRANS trans("crossfade", 500)]
+  [BG       stage    image=+1150, level=200]
+  [TRANS trans("crossfade", 750)]
+  [BG       stage    image=+61, level=200]
+  [TRANS trans("crossfade", 2000)]
+  [BG       stage    image=+61, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+27]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+タバサ：着いた。  [voice 15649]
+ルイズ：見て！
+煙があがってるわ！
+都の中もあわただしい……。  [voice 6683]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+サイト：爆弾使いのやつ、相当暴れたみたいだな。
+街全体が大混乱してる。  [voice 12313]
+  [SPRITE   lay1     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：街の人が逃げ出してる。  [voice 15650]
+サイト：ほんとだ。
+爆弾使いを怖がってるっていうより、
+何かから避難するみたいな……。  [voice 12314]
+  [LAYER    lay0     hide]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：何かって何よ！  [voice 6684]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：地震とか……戦争とかか？  [voice 12315]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：お城に行きましょう！
+姫さまが心配だわ！  [voice 6685]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 868
+
+---- SCENE 0868 ----
+  [BG       stage    image=+62, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+28]
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+サイト：おいおい、いきなり城に来ちゃって
+大丈夫なのか？  [voice 12316]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：一刻を争うの。
+細かいことは気にしていられないわ。  [voice 6686]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：タバサ、ここまでつれてきてくれて
+ありがとう。  [voice 6687]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：なんだか、学院もハルナも心配だわ。
+学院に戻ってキュルケ達を
+手伝ってほしいの。  [voice 6688]
+  [LAYER    lay0     image=+621, level=160, dir=2A]
+タバサ：了解。  [voice 15651]
+ルイズ：急ぐわよ、サイト！！  [voice 6689]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+タバサ：（くいくい）  [voice 15652]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：うん？  [voice 12317]
+タバサ：頑張る。  [voice 15653]
+  [SPRITE   lay5     image=+434, level=160, dir=2B]
+サイト：ああ、頑張るさ。  [voice 12318]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay15    image=+1116, level=160, dir=1A]
+味方Ａ：待てっ、おまえ達、王宮に乗り込むとは……！  [voice 4237]
+味方Ａ：見たところ、魔法学院の生徒のようだが、
+怪しいやつめ！  [voice 4238]
+  [SPRITE   lay15    level=160]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：な、ななななんですってぇ！？
+あ、怪しい！？
+失礼にもほどがあるわっ！！  [voice 6690]
+  [SPRITE   lay15    hide]
+  [SPRITE   lay5     image=+407, level=156, dir=1B]
+サイト：お、落ち着け、ルイズ！  [voice 12319]
+  [SPRITE   lay1     image=+339, level=155, dir=2A]
+ルイズ：いいえ、黙っていられないわ！
+ヴァリエール家の名誉に関わる問題よ！  [voice 6691]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：わたしは、ラ・ヴァリエール公爵家の三女、
+ルイズ・フランソワーズ・ル・ブラン・ド・
+ラ・ヴァリエール。  [voice 6692]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：俺は、平賀　才人。  [voice 12320]
+ルイズ：こんなのでも、わたしの使い魔よ。  [voice 6693]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay15    image=+1118, level=160, dir=1A]
+味方Ａ：う……失礼いたしましたっ！
+無礼をお許しください！  [voice 4239]
+  [SPRITE   lay15    image=+1114, level=160, dir=1A]
+味方Ａ：しかし、公爵家の御方が、
+この非常時に、なぜ城に参られたのですか？  [voice 4240]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：もう、なんで細かく聞いてくるのよ。
+こっちは、急いでるっていうのに！  [voice 6694]
+  [SPRITE   lay15    hide]
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+サイト：ルイズ、落ち着けって。  [voice 12321]
+  【選択肢】俺が話をつける → scene 869
+  【選択肢】ルイズ、任せた → scene 870
+  【選択肢】お姫さまー！ → scene 871
+
+---- SCENE 0869 ----
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+62, level=200]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：俺が話をつける。  [voice 12322]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：あ、ちょっと、サイト！？  [voice 6695]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+サイト：あんた、隊長さん？
+あのさ、俺達、お姫さまに会いたいんだよね。
+取り次いでくれないかなぁ？  [voice 12323]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay15    image=+1116, level=160, dir=1A]
+味方Ａ：女王陛下に？
+だめだだめだ！
+今、陛下はお忙しいんだ！  [voice 4241]
+  [SPRITE   lay15    hide]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：ああ、もういいわよ！
+サイトは黙ってなさい！  [voice 6696]
+  → next scene 872
+
+---- SCENE 0870 ----
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+62, level=200]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：ルイズ、任せた。  [voice 12324]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：分かったわ。  [voice 6697]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     x=64, y=0]
+ルイズ：姫さま……。
+いえ、女王陛下に拝謁願いたいの。
+取り次いでもらいたいの。  [voice 6698]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay15    image=+1114, level=160, dir=1A]
+味方Ａ：今、女王陛下は、
+この緊急事態の協議でお忙しいのです。
+申し訳ございませんが、取り次ぎはできません。  [voice 4242]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：その緊急事態について、お会いしたいのよ！
+いいから、黙って取り次ぎなさい！  [voice 6699]
+  → next scene 872
+
+---- SCENE 0871 ----
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+62, level=200]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：お姫さまー！
+お姫さまー！
+出てきてくださいよー！  [voice 12325]
+  [SPRITE   lay1     image=+339, level=155, dir=2A]
+ルイズ：ちょっと、サイト！？  [voice 6700]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay15    image=+1116, level=160, dir=1A]
+味方Ａ：ぬぬぬ！
+怪しいやつめ！  [voice 4243]
+  [SPRITE   lay15    hide]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：もう、いいから、あんたは黙ってなさい！  [voice 6701]
+  → next scene 872
+
+---- SCENE 0872 ----
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+62, level=200]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay15    x=144, y=416]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：もう……。
+わたしは陛下から、直々の免状を
+いただいてるの！  [voice 6702]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay15    image=+1114, level=160, dir=1A]
+味方Ａ：これは……確かに王家の紋章……。  [voice 4244]
+  [SPRITE   lay1     image=+335, level=155, dir=2A]
+ルイズ：分かったら、早く取り次いでちょうだい。
+時間がないんだから！  [voice 6703]
+味方Ａ：分かりました。
+こちらでお待ちください。  [voice 4245]
+  [SPRITE   lay15    hide]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：なぁ、ルイズ。
+最初っから、それを出せば良かったん
+じゃないのか？  [voice 12326]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：そう、ひょいひょい出すものじゃないわよ。
+本当は極秘任務だったんだから。  [voice 6704]
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+サイト：まぁ、そうだな。  [voice 12327]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 873
+
+---- SCENE 0873 ----
+  [SE       se0      play=+57]
+  [BG       stage    image=+35, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+21]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+ルイズ：姫さまっご無事で！！  [voice 6705]
+アンリエッタ：ルイズ、ルイズ・フランソワーズですね！
+お待ちしていましたわ。  [voice 615]
+サイト：（でかいテーブルを囲んでるのは、
+　軍とか役人のお偉いさんってとこか。
+　俺とルイズを見る目がきびしー）
+ルイズ：姫さま……。
+ご無事で何よりです。  [voice 6706]
+アンリエッタ：こんな危険な時にやってくきてくれるなんて。
+どうしていつもルイズはそうなのかしら？  [voice 616]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：それは姫さまのことが心配だからに
+決まっています！  [voice 6707]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：ありがとう、ルイズ。
+あなたの友情に感謝します。  [voice 617]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：アンリエッタ様……。  [voice 6708]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：それにしてもさ。
+何でこんなに城内が騒がしいのさ？
+さっきの兵士もやけに殺気立ってたし。  [voice 12328]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：ええ。
+例の爆弾使いに対しての備えにしては、
+厳戒すぎるように思えるのですが……？  [voice 6709]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：そのとおりです、ルイズ。
+今回のこの騒ぎは、爆弾使いに対しての
+ものではありません。  [voice 618]
+ルイズ：ものではない、とは？  [voice 6710]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：どういうことなんですか？  [voice 12329]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：……。  [voice 619]
+  [SPRITE   lay8     image=+797, level=160, dir=2A]
+アンリエッタ：わたくし達がこれまで敵視していた
+爆弾使いという存在は、
+どうやら単なる先兵にしか過ぎなかったのです。  [voice 620]
+  [SPRITE   lay8     x=-96, y=0]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：爆弾使いが先兵？
+黒幕がいるってことですか？  [voice 12330]
+アンリエッタ：はい。
+それを見抜けなかったために、
+この国は現在の苦境に立たされています。  [voice 621]
+アンリエッタ：まず、これまでに起きた爆破事件ですが、
+爆弾使いは、無計画に爆破してる……。
+私達はそう思っていました。  [voice 622]
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：ですが、そうではなかったのです。
+この地図を見てください。  [voice 623]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+259, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：これはトリスタニアとその周辺の地図ですね。
+この印が爆破事件の起こった場所ですか？  [voice 6711]
+アンリエッタ：そうです。
+これを見て、何か気づきませんか？  [voice 624]
+サイト：なんだか、城の周りを丸く囲んでるように
+見えるな。  [voice 12331]
+アンリエッタ：いいえ。
+見えるのではなく、囲んでいるのです。  [voice 625]
+アンリエッタ：今、城はぐるりと敵の大砲に囲まれています。  [voice 626]
+ルイズ：大砲？
+姫さま、いったいどういうことなんですか？  [voice 6712]
+アンリエッタ：爆破が断続的に繰り返されたため、
+修理に当たる職人が不足し、
+国外からも職人が集められました。  [voice 627]
+アンリエッタ：敵はその職人の中に工作員を潜入させ、
+修復場所を拠点に砲台を取り付けたのです。  [voice 628]
+サイト：何だって！？
+じゃ、今、この城は……。  [voice 12332]
+アンリエッタ：はい。
+周囲を敵の拠点によって囲まれています。  [voice 629]
+アンリエッタ：今はまだそれほど活発に動いていませんが、
+一気に動かれた場合、落城の危機すらあります。  [voice 630]
+ルイズ：なんてことなの……。
+こうなる前に爆弾使いを
+捕まえられていれば……。  [voice 6713]
+アンリエッタ：いいえ、ルイズ。  [voice 631]
+アンリエッタ：あの時、あなた方が深追いをして、
+大事に至らなかっただけでも
+幸いだと思ってます。  [voice 632]
+ルイズ：姫さま……。  [voice 6714]
+アンリエッタ：とにかく、今は各砲台を個別に
+攻撃していますが、あまり、状況はかんばしく
+ありません。  [voice 633]
+アンリエッタ：市民の避難にも、兵を割かなければ
+なりませんし……。
+とにかく、後手に回ってしまっています。  [voice 634]
+アンリエッタ：以上が、今の状況です。  [voice 635]
+アンリエッタ：ルイズ、それに使い魔さん。
+少し待っててくださいね。
+今、協議を終わらせますわ。  [voice 636]
+ルイズ：かしこまりました。  [voice 6715]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  → next scene 874
+
+---- SCENE 0874 ----
+  [EVENT_CG event    image=+135, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+28]
+サイト：（それから、協議は長く続いた。
+　どう考えてもあまり良い状況ではない。
+　確かに時間は長くかかるだろうな）
+アンリエッタ：分かりました。
+では、皆さん、協議の決定どおりに、
+事を進めてください。  [voice 637]
+アンリエッタ：犠牲は最小限に。
+では解散しましょう。  [voice 638]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+35, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：やっと協議が終わったみたいだな。  [voice 12333]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：お待たせしてしまいましたね。  [voice 639]
+  [SPRITE   lay8     x=224, y=0]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：いえ。
+それよりも、姫さまはお疲れのようですね……。  [voice 6716]
+  [SPRITE   lay8     image=+770, level=160, dir=1A]
+アンリエッタ：爆弾使いの策略にかかって、
+敵を都に引き入れてしまった。
+わたくしの力不足です……。  [voice 640]
+ルイズ：姫さま……。
+私達にも責任はあります。  [voice 6717]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：いえ、あなたがたはよくやってくれました。
+感謝しています。  [voice 641]
+サイト：……。  [voice 12334]
+  【選択肢】お姫さまは悪くないさ → scene 875
+  【選択肢】ルイズ、いい考えないか？ → scene 876
+  【選択肢】軍は何やってんの？ → scene 877
+
+---- SCENE 0875 ----
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：お姫さまは悪くなんかないさ。
+悪いのは爆弾使いと、
+そいつを操ってるやつだ。  [voice 12335]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：そうね。
+必ず私達の手で倒してみせるわ。  [voice 6718]
+  → next scene 878
+
+---- SCENE 0876 ----
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：ルイズ、何かいい考えないか？
+このままじゃやばいだろ？  [voice 12336]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：そうね……。  [voice 6719]
+  → next scene 878
+
+---- SCENE 0877 ----
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：軍人さん達は何やってんのさ。
+こんなとこでえらそうに座ってても、
+仕方ないでしょ。  [voice 12337]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：サイト！  [voice 6720]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay8     image=+803, level=160, dir=2A]
+アンリエッタ：将校達は、いえ、末端の兵士に至るまで、
+軍はよくやってくれています。
+ですが、なにぶん、急な事態でしたから……。  [voice 642]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：そ、そうなんだ。  [voice 12338]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：何も知らないあんたが偉そうに、
+口を出すんじゃないの！  [voice 6721]
+  → next scene 878
+
+---- SCENE 0878 ----
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [BGM      bgm      play=+28]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：何か、いい考えでもあんの？  [voice 12339]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：無いことは無いけど……。
+でも、そうね。
+この手しか無いかもしれない。  [voice 6722]
+  [SPRITE   lay5     image=+403, level=160, dir=1B]
+サイト：おおっ。
+作戦が浮かんだのか？  [voice 12340]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：姫さま。
+お許しいただきたいことがございます。  [voice 6723]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：わたくしにですか？
+どのようなことでしょう？  [voice 643]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 879
+
+---- SCENE 0879 ----
+  [BG       stage    image=+35, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+32]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：姫さま。
+わたしに、虚無の魔法を使う許可を
+いただけませんか？  [voice 6724]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：え、まじかよ！  [voice 12341]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：この都で虚無の魔法を、ですか？  [voice 644]
+ルイズ：はい。
+それしか方法はないと思うんです。  [voice 6725]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：おい、待てよルイズっ！？
+虚無の魔法なんて使ったら、
+街が吹っ飛ぶじゃないかっ！？  [voice 12342]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：それぐらいのこと、わたしだって分かるわよっ！
+ちゃ～んと、別の手を考えてあるんだから
+あんたは少し黙っててっ！！  [voice 6726]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：姫さまお願いです。
+どうかわたしに魔法の許可をっ！  [voice 6727]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+アンリエッタ：分かりました、ルイズ。
+あなたに一任します。  [voice 645]
+ルイズ：ありがとうございます、姫さま。  [voice 6728]
+  【選択肢】ルイズの力を信じる → scene 880
+  【選択肢】勝算はあるのか？ → scene 881
+  【選択肢】死なばもろともって奴だな → scene 882
+
+---- SCENE 0880 ----
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：頑張れよ、ルイズ。
+俺は、ルイズの魔法を信じるよ。
+敵が襲ってきたときは、俺が必ず守ってやる。  [voice 12343]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+ルイズ：うん……。
+頑張るわ、わたし。  [voice 6729]
+  → next scene 883
+
+---- SCENE 0881 ----
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：それで、勝算はあるのか？  [voice 12344]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：うーんと、そうねぇ。
+五分五分ってところかしら。  [voice 6730]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：なんだよそれ、大丈夫なのか？  [voice 12345]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：大丈夫よ。
+ゼロじゃないだけましでしょ？  [voice 6731]
+  → next scene 883
+
+---- SCENE 0882 ----
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay8     image=+764, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay8     hide]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：なるほど、死なばもろともって奴だな。  [voice 12346]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：何よ、それ。  [voice 6732]
+  [SPRITE   lay5     image=+440, level=160, dir=2B]
+サイト：全部吹き飛ばしちゃうんだろ？
+虚無の魔法で。  [voice 12347]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：そんなことしないって言ってるでしょ！
+ほんっと物分り悪いわね！
+少しはご主人様を信じなさい！  [voice 6733]
+  → next scene 883
+
+---- SCENE 0883 ----
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+  [SPRITE   lay1     image=+304, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+35, level=200]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：行くわよ、サイト！  [voice 6734]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+サイト：おう！  [voice 12348]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 884
+
+---- SCENE 0884 ----
+  [BG       stage    image=+62, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+5]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+ルイズ：あと少しで、屋上へ抜けるわっ！！  [voice 6735]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+サイト：なんで、屋上なんだよ！  [voice 12349]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：今回の魔法のためには、とにかく一番見晴らしの
+良い場所が必要なの！  [voice 6736]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+71, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+ルイズ：しっかり詠唱場所を確保するのよ！
+いいわね！  [voice 6737]
+サイト：分かった。  [voice 12350]
+  [SPRITE   lay19    image=+944, level=153, dir=1A]
+  [SPRITE   lay5     level=156]
+  [SPRITE   lay1     level=155]
+デルフリンガー：気をつけろ、相棒！  [voice 1351]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay21    image=+1028, level=154, dir=1B]
+アキナ：くらえっ！！  [voice 108]
+  [SPRITE   lay21    hide]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：ルイズ、あぶない！！  [voice 12351]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：きゃあああっ！  [voice 6738]
+  [SPRITE   lay1     hide]
+  [SE       se0      play=+63]
+  [BG       stage    vibrate=21]
+  [EVENT_CG event    vibrate=21]
+  [SPRITE   lay21    vibrate=21]
+  [SPRITE   lay19    vibrate=21]
+  [SPRITE   lay5     vibrate=21]
+  [SPRITE   lay1     vibrate=21]
+  [VIBRATE vibrate(3)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay21    hide, reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay5     hide, reset]
+  [SPRITE   lay1     hide, reset]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：ぐゎあああっ！！  [voice 12352]
+  [SPRITE   lay5     image=+407, level=156, dir=1B]
+サイト：くっ……あぶねー。  [voice 12353]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：今の、爆発……？
+爆弾使いがいるのね！  [voice 6739]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+18]
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+アキナ：やはり、ウェザリー様の言う通り、
+邪魔が入ったわね。  [voice 109]
+  [SPRITE   lay21    hide]
+  [SPRITE   lay1     image=+308, level=155, dir=1A]
+ルイズ：あ、あなた……。  [voice 6740]
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+407, level=156, dir=1B]
+サイト：ま、まじかよ。  [voice 12354]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay21    image=+1019, level=154, dir=1A]
+アキナ：んふっ……こんにちは、サイトくん。
+ヒラガくんって呼んだ方がいいのかしら？  [voice 110]
+  [SPRITE   lay21    x=-96, y=0]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：春奈！？
+なんでこんなところに！？  [voice 12355]
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+アキナ：そっちこそ。
+わたしをおいて、どうしてこんな所にいるの？  [voice 111]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+306, level=155, dir=1A]
+ルイズ：んうっ……。
+爆弾使いは、ハルナだったってコト！？  [voice 6741]
+アキナ：そうよ、ルイズ。
+それから、あたしの名前はハルナじゃないわ。  [voice 112]
+  [SPRITE   lay21    image=+1019, level=154, dir=1A]
+アキナ：ウェザリー様につけていただいた、
+アキナって言う名前があるのよ。  [voice 113]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：アキナだと？
+それにウェザリーって……。
+あのウェザリーか？  [voice 12356]
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+アキナ：そう……。  [voice 114]
+アキナ：あたしはウェザリー様によって、
+ハルナの意識とは別に作られた、
+爆弾使いとしての人格よ。  [voice 115]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：ウェザリーって、あの劇団の！？  [voice 6742]
+  [SPRITE   lay21    image=+1021, level=154, dir=1A]
+アキナ：気安く呼ぶことは万死に値するわね。
+ウェザリー様があたしのボスなのよ。  [voice 116]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：なるほど……春奈がこの世界にやって来たときに
+介抱してくれた女ってのは、ウェザリー
+の事だったんだなっ！？  [voice 12357]
+アキナ：サイト、何度も同じことを言わせないで。
+痛い目にあうよ。  [voice 117]
+サイト：つまり、俺達はウェザリーに用意された
+舞台の上で見事に踊らされてたってわけか。  [voice 12358]
+  [SPRITE   lay21    image=+1019, level=154, dir=1A]
+アキナ：ふふっ！！
+そうよ、みんな、みんな、茶番だったのよ。  [voice 118]
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+アキナ：舞台を用意したウェザリー様の手から
+誰も逃れることができなかったってわけよ。  [voice 119]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+335, level=155, dir=2A]
+ルイズ：まるで、始めからこうなるのを知ってた
+風な口ぶりね？  [voice 6743]
+アキナ：ハルナはたぶん自分の意思で行動していたと
+勘違いしてるけど、全部わたしの意志よ。
+知らないって哀れよね。  [voice 120]
+アキナ：みんな、かわいそうなハルナに同情して、
+ほいほい行動していったでしょ？
+それがこのざまよ。  [voice 121]
+  [SPRITE   lay21    image=+1019, level=154, dir=1A]
+アキナ：あまりにうまく行き過ぎて、
+笑いをこらえるので必死だったわ。  [voice 122]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：春奈の心を操りやがって。  [voice 12359]
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+アキナ：でも、もうそれもお終い。
+ウェザリー様から、カーテンコールの催促が
+来てるの。  [voice 123]
+サイト：くっ……。  [voice 12360]
+アキナ：あら、やる気？
+ハルナの体に傷をつけられるの？
+まあ、あたしは容赦しないけどね。  [voice 124]
+  【選択肢】ああ、やれるね → scene 885
+  【選択肢】卑怯だぞ！ → scene 886
+  【選択肢】やれるわけない！ → scene 887
+
+---- SCENE 0885 ----
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+  [BGM      bgm      play=+18]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：ああ、やれるね。
+何のためらいもないさ。  [voice 12361]
+  [SPRITE   lay21    image=+1021, level=154, dir=1A]
+アキナ：何？  [voice 125]
+サイト：俺は、ルイズの使い魔だからな！
+ご主人様には指一本触れさせねー！  [voice 12362]
+  [SPRITE   lay21    hide]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+  → next scene 888
+
+---- SCENE 0886 ----
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+  [BGM      bgm      play=+18]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：卑怯だぞ！  [voice 12363]
+  [SPRITE   lay21    image=+1019, level=154, dir=1A]
+アキナ：あーっはっはっは！
+なんとでも言いなぁ！  [voice 126]
+  [SPRITE   lay21    hide]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：やるしかないわ、サイト！  [voice 6744]
+  [SPRITE   lay5     image=+438, level=156, dir=2B]
+サイト：みたいだな……くそっ！  [voice 12364]
+  → next scene 888
+
+---- SCENE 0887 ----
+  [SPRITE   lay21    image=+1017, level=154, dir=1A]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+  [BGM      bgm      play=+18]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：やれるわけねーじゃねぇか！
+くそっ！  [voice 12365]
+  [SPRITE   lay21    image=+1019, level=154, dir=1A]
+アキナ：あーっはっはっは！
+想われた女に殺されるなら、
+お前も本望だろ！？  [voice 127]
+  [SPRITE   lay21    hide]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：サイト！
+今の彼女はハルナじゃないわ！
+わたし達が助け出さなきゃ！  [voice 6745]
+  [SPRITE   lay5     image=+438, level=156, dir=2B]
+サイト：そうだな。
+くそっ！  [voice 12366]
+  → next scene 888
+
+---- SCENE 0888 ----
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+  [BGM      bgm      play=+18]
+  [BG       stage    image=+71, level=200]
+  [SE       se0      play=+65]
+  [SPRITE   lay5     image=+471, level=156, dir=3B]
+サイト：行くぜ、ルイズ！  [voice 12367]
+  [SPRITE   lay1     image=+368, level=155, dir=3A]
+ルイズ：ええ、分かったわ。  [voice 6746]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 889
+
+---- SCENE 0889 ----
+  [BG       stage    image=+71, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+25]
+  [SPRITE   lay21    image=+1021, level=160, dir=1A]
+アキナ：んぐはぁっ……！！  [voice 128]
+  [SPRITE   lay21    hide]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+ルイズ：はぁ……やったゎ……。  [voice 6747]
+サイト：ぐはぁ……。
+平気か、ルイズ？  [voice 12368]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：うん……。
+なんとか。  [voice 6748]
+サイト：（俺もルイズも、その場にへたり込んでいた）
+  [SPRITE   lay5     level=156]
+  [SPRITE   lay1     level=155]
+  [SPRITE   lay19    image=+940, level=152, dir=1A]
+デルフリンガー：てぇしたもんだな、相棒はよぉ。  [voice 1352]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+サイト：へへっ。
+ここでほめても何もでないって。
+それより、春奈は大丈夫か……！？  [voice 12369]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+407, level=156, dir=1B]
+サイト：（特にひどい外傷は無さそうだが……）
+  [SPRITE   lay5     image=+405, level=156, dir=1B]
+サイト：大丈夫かぁ、春奈っ？  [voice 12370]
+ハルナ：……。
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：大丈夫みたい。
+命に別状はないわ。  [voice 6749]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：ああ、大丈夫みたいだ。  [voice 12371]
+  [SPRITE   lay1     image=+335, level=155, dir=2A]
+ルイズ：でも、縄で縛っておいて。
+もし、アキナのままだったら、危ないもの。  [voice 6750]
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+サイト：でも……。  [voice 12372]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：お願い。  [voice 6751]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：分かった。  [voice 12373]
+  [SPRITE   lay5     image=+403, level=156, dir=1B]
+サイト：それより、ルイズ。
+虚無の魔法を頼むぜ！  [voice 12374]
+ルイズ：うん。  [voice 6752]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+140, level=80]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：必ず成功させるから。
+よーく、見ておきなさいっ！  [voice 6753]
+サイト：ああ……見せてくれ。  [voice 12375]
+  [BGM      bgm      stop=1000]
+ルイズ：イリュージョン！！  [voice 6754]
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+141, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+  [BGM      bgm      play=+5]
+ルイズ：サイト！
+見てごらんなさいよ、
+わたしが唱えた伝説の魔法。  [voice 6755]
+サイト：……こいつは、すげぇや。  [voice 12376]
+サイト：（空一面を埋め尽くすかのような大艦隊が、
+　トリスタニアの上空を黒く覆っていた）
+サイト：ルイズが使おうとしていた魔法ってのは、
+とんでもない魔法だったんだな。  [voice 12377]
+ルイズ：だけど、これは虚無の産物だから。
+虚無が故のイリュージョン……夢の魔法。  [voice 6756]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+71, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay5     image=+403, level=156, dir=1B]
+サイト：あっ……すげぇ！！
+砲台から敵が走って逃げていくぞ。  [voice 12378]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+ルイズ：うふふっ……。
+わたしの魔法も、なかなかのものねっ。  [voice 6757]
+  【選択肢】お疲れさま、ルイズ → scene 890
+  【選択肢】シエスタにお守りを返せる → scene 891
+  【選択肢】まだ戦いは続くんだろうな → scene 892
+
+---- SCENE 0890 ----
+  [SPRITE   lay5     image=+403, level=156, dir=1B]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+サイト：ひとまずお疲れさま、ルイズ。  [voice 12379]
+  [SPRITE   lay1     image=+304, level=155, dir=1A]
+ルイズ：うん……。
+まだ戦闘は終わってないけど。
+わたし達がやれることはもうないものね。  [voice 6758]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+ルイズ：サイトも、お疲れさま。
+今日の所は、あなたに感謝するわ。  [voice 6759]
+  → next scene 893
+
+---- SCENE 0891 ----
+  [SPRITE   lay5     image=+403, level=156, dir=1B]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+サイト：これでどうにか、約束は果たせそうだ。  [voice 12380]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：約束っ？  [voice 6760]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：シエスタから、お守りを預かってきたから。
+それを返すことができるってコトだよ。  [voice 12381]
+ルイズ：ふぅ～～～ん、お守りかぁ。  [voice 6761]
+サイト：こいつを身につけていれば、
+どんな災いも避けて通るんだってさ。  [voice 12382]
+ルイズ：そっか……意外と効いてたのかもね？  [voice 6762]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+サイト：ん、そうだな。
+大変だったけど、勝てたし。  [voice 12383]
+  [SPRITE   lay1     image=+335, level=155, dir=2A]
+ルイズ：……なんか頭にきちゃう。  [voice 6763]
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+サイト：な、なんでだよ！  [voice 12384]
+  → next scene 893
+
+---- SCENE 0892 ----
+  [SPRITE   lay5     image=+403, level=156, dir=1B]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay5     image=+440, level=156, dir=2B]
+サイト：今日はこれでしのげたけど、
+また、戦争ってあるのかな？  [voice 12385]
+  [SPRITE   lay1     image=+302, level=155, dir=1A]
+ルイズ：たぶんね。  [voice 6764]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+ルイズ：とりあえず今日は都を守ることができた。
+それだけでいいじゃない。
+後のことは、またその時に考えましょう。  [voice 6765]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：ん……。
+そうだな。  [voice 12386]
+  → next scene 893
+
+---- SCENE 0893 ----
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+  [BGM      bgm      play=+5]
+  [BG       stage    image=+71, level=200]
+  [SPRITE   lay1     image=+337, level=155, dir=2A]
+ルイズ：それじゃ行きましょ。
+姫さまがお待ちだわ。  [voice 6766]
+  [SPRITE   lay5     image=+434, level=156, dir=2B]
+サイト：そうだな。  [voice 12387]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     image=+401, level=156, dir=1B]
+サイト：（シエスタ、約束は守ったよ）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=4000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  → next scene 899

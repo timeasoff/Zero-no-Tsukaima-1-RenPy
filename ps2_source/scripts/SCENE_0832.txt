@@ -1,0 +1,23 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +6)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "食う前にひとつ、聞いておきたいことがある。", (0x04000000 +12215));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "何よ。", (0x04000000 +6647));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "お前、ちゃんと味見したか？", (0x04000000 +12216));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "はあっ！？\nなんでわたしが料理の味見なんて\nしなきゃいけないのよっ！？", (0x04000000 +6648));
+tndl(-30);
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "わたしが作る料理の味見は、\n使い魔であるあんたの役目でしょ？", (0x04000000 +6649));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "サイトが審査員なんてやってるから、\n味の加減が分からなかったのよっ！", (0x04000000 +6650));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "やっぱり。", (0x04000000 +12217));
+next((0x01000000 +833), true);

@@ -1,0 +1,66 @@
+Найдено вызовов bc(): 658
+Найдено вызовов mgf(): 759
+
+=== Первые вызовы bc() ===
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"e" pa  00000 6)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+14};tas"rsfd" 00;vie(x4000+06,ャ�";wiVie)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7};tas"rsfd" 00;mgn)
+  SCENE_ID.BIN_00000005.BIN: bc(;wiTm(00 re;st"vn" y=0lvl=8,  ,mg  00000 9)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+15};tas"rsfd" 00;vie(x4000+07,ャ�";wiVie)
+  SCENE_ID.BIN_00000005.BIN: bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+16};tas"rsfd" 00;vie(x4000+08,ャ�";wiVie)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 12)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 8)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+  SCENE_ID.BIN_00000006.BIN: bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+
+=== Первые вызовы mgf() ===
+  SCENE_ID.BIN_00000005.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(ly7,{pct  ,  ,Fo  ,pctTm  0,  1,oeie=10xrm=10oaiyrm=10hd  };st"a1" oaiy=0y=0yrm=0oaiyie=10x=-1,oeie=10xrm=-6,pctFo  0,ie=1)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(sae,{hw=0)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(wie,{pct  0,  ,hw=1lvl=0oaiyrm=0oaiyie=10,  ,mg  00000 2};wiAto(ul re;bc(;wiTm(00 re;st"vn" y=0lvl=8,  ,mg  00000 9)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(ly7,{pct  ,  ,Fo  ,oeie=10xrm=10oaiyrm=10hd  ,pctTm  0,  1};st"a2" so  };st"a1" oaiy=0y=0yrm=0mvTm  0,Fo  10oaiyrm=10hd  ,pctTm  0,  10)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(sae,{hw=0)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(ly1,{hw=0)
+  SCENE_ID.BIN_00000005.BIN: mgf(
+e(eet,{pct  ,ie=1oaiyie=10};wiAto(ul re;st"g" so  00)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 10};wiLa(re;tl(ャ�" ul ＝撃ｂｂｂａ" 00000 54)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 18};wiLa(re;tl(ャ�" ul ｂｂｂｂｂｂａ" 00000 54)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 19};wiLa(re;tl(ャ�" ul ｂｂｂ°ｂｂｂａ\ｂｂ鰍ｂｂｂｂａ\ｂｂｍｂｂｕ旧ｂａ" 00000 175)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 10};wiLa(re;tl(ャ�" ul ＝＝―ａａａｂｂｂｂｂｂ�" 00000 54)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 11};wiLa(re;tl(ャ�" ul ｂｂ�" 00000 177)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+ak)
+  SCENE_ID.BIN_00000006.BIN: mgf(
+e(eet,{  ,ee  0iaeye=1iaeie=10,  ,mg  00000 18};wiLa(re;tl(ャ�" ul ャャｂｂｂ≠―ｂ≠ｂｂャャａ" 00000 176)

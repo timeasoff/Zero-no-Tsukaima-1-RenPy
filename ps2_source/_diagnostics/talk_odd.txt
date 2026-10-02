@@ -1,0 +1,8 @@
+scene 3  text-not-string: name, disp, text, voice
+scene 63  text-not-string: "サイト", "（そうだな、放っとくとなにかとうるさいし、\n　ここはご主人様に声かけてみるか）", null
+scene 64  text-not-string: "サイト", "（そうだな、仕事が休みのようなら、\n　シエスタを誘ってみるか）", null
+scene 65  text-not-string: "サイト", "（そうだな、こんないい天気だし、\n　たまにはタバサも誘って外に出てみようかな）", null
+scene 66  text-not-string: "サイト", "（そうだな、せっかくだからここは\n　キュルケを誘ってみるか）", null
+scene 67  text-not-string: "サイト", "（そうだな、１人じゃ退屈してるだろうし、\n　春奈を誘ってみるか）", null
+
+total talk=17283  suspicious=6

@@ -1,0 +1,37 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +135)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +28)});
+talk("サイト", null, "（それから、協議は長く続いた。\n　どう考えてもあまり良い状況ではない。\n　確かに時間は長くかかるだろうな）", null);
+talk("アンリエッタ", null, "分かりました。\nでは、皆さん、協議の決定どおりに、\n事を進めてください。", (0x04000000 +637));
+talk("アンリエッタ", null, "犠牲は最小限に。\nでは解散しましょう。", (0x04000000 +638));
+msgoff()
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +401)});
+msgon()
+talk("サイト", null, "やっと協議が終わったみたいだな。", (0x04000000 +12333));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "お待たせしてしまいましたね。", (0x04000000 +639));
+set("lay8", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "いえ。\nそれよりも、姫さまはお疲れのようですね……。", (0x04000000 +6716));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +770)});
+talk("アンリエッタ", null, "爆弾使いの策略にかかって、\n敵を都に引き入れてしまった。\nわたくしの力不足です……。", (0x04000000 +640));
+talk("ルイズ", null, "姫さま……。\n私達にも責任はあります。", (0x04000000 +6717));
+set("lay8", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +764)});
+talk("アンリエッタ", null, "いえ、あなたがたはよくやってくれました。\n感謝しています。", (0x04000000 +641));
+talk("サイト", null, "……。", (0x04000000 +12334));
+selectInit();
+selectItem("お姫さまは悪くないさ", (0x01000000 +875), null, true);
+selectItem("ルイズ、いい考えないか？", (0x01000000 +876), null, true);
+selectItem("軍は何やってんの？", (0x01000000 +877), null, true);
+select();

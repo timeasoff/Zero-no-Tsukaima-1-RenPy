@@ -1,0 +1,95 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +13)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +28)});
+}
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {y = 0,level = 200,x = 0,image = (0x02000000 +34)});
+trans("crossfade", 1000);
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +491)});
+msgon()
+talk("シエスタ", null, "はい、どうぞ。\n熱いですから、気をつけて飲んでくださいね？", (0x04000000 +14345));
+set("lay2", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "ありがとう。\nあれ、シエスタは飲まないのかい？", (0x04000000 +8980));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "わたしは、掃除が残っていますから……。", (0x04000000 +14346));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "それなら俺も手伝うよ。\nその方が早く終わるじゃないか？", (0x04000000 +8981));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "いえ、サイトさんはゆっくりしててください。\nあとは、奥にある棚を水拭きするだけですから。", (0x04000000 +14347));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "でも、そうなると俺もゆっくりできないし、\nお願いだから、シエスタもお茶に\nしてくれないかな？", (0x04000000 +8982));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +522)});
+talk("シエスタ", null, "……うーん。\nサイトさんがそういうのでしたら。\n甘えてお茶にしちゃいます。", (0x04000000 +14348));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "あ、もちろん。\n終わったら、ちゃんと掃除しますよ。", (0x04000000 +14349));
+msgoff()
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +221)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "シエスタって、なんかすごく家庭的だよね？", (0x04000000 +8983));
+talk("シエスタ", null, "そうでしょうか？", (0x04000000 +14350));
+talk("サイト", null, "だって、炊事、洗濯、掃除だろ？\nしかも、貴族の面倒まで見ているし……。", (0x04000000 +8984));
+talk("シエスタ", null, "それぐらいのことでしたら、わたしと同い年の\n人は誰でもできると思いますよ？", (0x04000000 +14351));
+talk("シエスタ", null, "小さい頃から、近所同士で年下の子供達の\n面倒をみるように育ってきましたし。", (0x04000000 +14352));
+talk("シエスタ", null, "父親が出稼ぎで家にいないと、\n母親が祖父祖母と家の畑を守ったり。", (0x04000000 +14353));
+talk("シエスタ", null, "糸をつむいで服の生地を織ったり\nしていましたから。", (0x04000000 +14354));
+talk("シエスタ", null, "それに、わたしってお節介を焼くのが\n好きなのかもしれませんねっ。", (0x04000000 +14355));
+talk("サイト", null, "ふーん。", (0x04000000 +8985));
+talk("サイト", null, "俺の世界だと、そこまで働いている人なんて\nいなかったからなぁ。\nやっぱり感心しちゃうなぁ。", (0x04000000 +8986));
+talk("シエスタ", null, "サイトさん、ありがとうございます。\nでも、わたし……。", (0x04000000 +14356));
+talk("サイト", null, "ん？", (0x04000000 +8987));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +222),imageType = 1});
+waitLoad(true);
+talk("シエスタ", null, "わたし、いつかサイトさんのことだけを\nお節介したいんです。", (0x04000000 +14357));
+talk("サイト", null, "ええ？\nそ、それって……。", (0x04000000 +8988));
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +34)});
+trans("crossfade", 1000);
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +524)});
+msgon()
+talk("シエスタ", null, "えへへっ！\nそれじゃ、台所の掃除を始めてしまいますね。\nサイトさんはゆっくりしていってください。", (0x04000000 +14358));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ、ああ……。", (0x04000000 +8989));
+set("lay5", {y = 0,x = 224});
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +946)});
+talk("デルフリンガー", null, "まったく、相棒は大変だね。", (0x04000000 +1220));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "いや、まったく……。", (0x04000000 +8990));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +849), true);

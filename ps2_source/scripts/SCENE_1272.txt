@@ -1,0 +1,28 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +588)});
+set("bgm", {play = (0x03000000 +9)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +24)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "タバサのことが心配だったから。", (0x04000000 +9530));
+talk("タバサ", null, "……そう。", (0x04000000 +15421));
+like("タバサ", 15);
+tndl(-30);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "……うん。", (0x04000000 +9531));
+talk("サイト", null, "（ここまで見事にスルーされると、\n　いっそ清々しい気分になるなー……）", null);
+talk("タバサ", null, "……なぜ？", (0x04000000 +15422));
+talk("サイト", null, "は？", (0x04000000 +9532));
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "（ええと、気のせいじゃないよな）", null);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "なぜって言われても……気になったからかな。", (0x04000000 +9533));
+talk("タバサ", null, "……そう。", (0x04000000 +15423));
+talk("サイト", null, "うん。", (0x04000000 +9534));
+talk("タバサ", null, "……。", null);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "（ええと、ええと……。\n　どうリアクションしていいか分かんねえよ！）", null);
+talk("サイト", null, "（嫌われてるわけじゃなさそうだけど……）", null);
+next((0x01000000 +1275), true);

@@ -1,0 +1,52 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +17)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +273)});
+}
+talk("ハルナ", null, "はあ、やっぱりお嬢様育ちだったのかな？\n私。", (0x04000000 +2534));
+talk("サイト", null, "……。", (0x04000000 +13198));
+talk("ハルナ", null, "私の家ってね、ちょっとだけお金持ちだったの。", (0x04000000 +2535));
+talk("ハルナ", null, "ちょこっとだけセレブ……みたいな感じ。", (0x04000000 +2536));
+talk("サイト", null, "へえ、そうなんだ。", (0x04000000 +13199));
+talk("ハルナ", null, "でも、パパもママも忙しくて、\n家事は通いのハウスキーパーまかせでね……。", (0x04000000 +2537));
+talk("ハルナ", null, "おかげで家事をおぼえる機会もなくて、\nホントに何もできなくなっちゃって。", (0x04000000 +2538));
+talk("サイト", null, "ああ、それで……。", (0x04000000 +13200));
+talk("ハルナ", null, "一応、料理くらい勉強しようと思ってたんだよ？\nまさかこんな形で勉強することになるなんて、\n全然思ってなかったけど。", (0x04000000 +2539));
+talk("サイト", null, "ま、それは確かに。", (0x04000000 +13201));
+talk("ハルナ", null, "そんなわけでね。\n私、家ではずっとひとりぼっちだったの。", (0x04000000 +2540));
+talk("ハルナ", null, "だから、今みたいにみんなでわいわいするのって\nすごく新鮮だったんだよ。", (0x04000000 +2541));
+talk("ハルナ", null, "疲れるときもあるけどね。", (0x04000000 +2542));
+talk("サイト", null, "俺も時々……。\nいや、しょっちゅうかな？", (0x04000000 +13202));
+talk("ハルナ", null, "ふふっ。\nそういえば、お芝居楽しかったね。", (0x04000000 +2543));
+talk("ハルナ", null, "平賀くんがいて……みんながいて……。\nウェザリーさんもいて。", (0x04000000 +2544));
+talk("サイト", null, "そっか……。", (0x04000000 +13203));
+talk("ハルナ", null, "うん。", (0x04000000 +2545));
+talk("ハルナ", null, "あ、ごめんね、私ひとりでしゃべっちゃって。\n明日も早いから、私もう行くね！", (0x04000000 +2546));
+talk("サイト", null, "あ、ああ。", (0x04000000 +13204));
+msgoff()
+set("lay5", {show = 0});
+set("lay7", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +28)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +953)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("ハルナ", null, "今度は平賀くんの話も聞かせてね！", (0x04000000 +2547));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "え？\nあ……うん。", (0x04000000 +13205));
+talk("ハルナ", null, "約束だからね～～。", (0x04000000 +2548));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {y = 0,show = 1,level = 160,dr = "1A",x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "……。", (0x04000000 +13206));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（どうして女の子の話って\n　あんなにとりとめがないのかな？\n　女の子っていうのはよく分からん）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +461), true);

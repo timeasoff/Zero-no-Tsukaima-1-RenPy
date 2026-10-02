@@ -1,0 +1,88 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+talk("ルイズ", null, "それじゃあ、食堂に行きましょうか。", (0x04000000 +5118));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +310)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("ルイズ", null, "ほら……これ。\n食べなさいよ。", (0x04000000 +5119));
+talk("サイト", null, "あ、うん。", (0x04000000 +10417));
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "は、はい。あーん。", (0x04000000 +5120));
+talk("サイト", null, "う……。", (0x04000000 +10418));
+talk("ルイズ", null, "なによ。\nイヤなの？", (0x04000000 +5121));
+talk("サイト", null, "い、いや、そんなことは……。", (0x04000000 +10419));
+talk("サイト", null, "（ま、まあ、見た目美味そうだし、\n　ここは我慢して……）", null);
+talk("サイト", null, "あ、あーん。", (0x04000000 +10420));
+talk("サイト", null, "ぱくっ。", (0x04000000 +10421));
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "……！！！！", (0x04000000 +10422));
+talk("サイト", null, "（こ、これはっっっっ！！）", null);
+talk("ルイズ", null, "どう？\nおいしい？", (0x04000000 +5122));
+talk("サイト", null, "（い、いや、これはおいしいとかまずいとか、\n　それ以前の問題で……）", null);
+talk("ルイズ", null, "一口じゃ分からなかったかしら？\nじゃあ、もう一口。\nあーん。", (0x04000000 +5123));
+talk("サイト", null, "あ、あ、あ、あーん……。", (0x04000000 +10423));
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "むぐっ！！！！", (0x04000000 +10424));
+talk("サイト", null, "（や、やっぱり……美味いっていうか、\n　そうでないっていうか……、\n　ぶっちゃけ不味い……すっごく……）", null);
+talk("ルイズ", null, "どう？\nおいしい？", (0x04000000 +5124));
+talk("サイト", null, "あ、あの、ルイズ様。\nつかぬ事を伺いますが、\nコレを作ったのは……。", (0x04000000 +10425));
+talk("ルイズ", null, "あ、やっぱり分かった？\nこれはね、わたしが作ってみたの。\n見よう見まねで。", (0x04000000 +5125));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +180)});
+waitLoad(true);
+talk("ルイズ", null, "あ、で、でもっ！\n勘違いしないでよね！", (0x04000000 +5126));
+talk("ルイズ", null, "別にアンタのために作ったって訳じゃなくて、\n作ってみたかったから作っただけで……。", (0x04000000 +5127));
+talk("サイト", null, "あ……そ、そでしゅか……。", (0x04000000 +10426));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+talk("ルイズ", null, "どうしたの？\n汗、いっぱいかいてるけど。", (0x04000000 +5128));
+talk("サイト", null, "い、いえ……なんでもないでしゅ……。", (0x04000000 +10427));
+talk("ルイズ", null, "それで！\nどう、味の方は？\n割と、自信作なんだけど。", (0x04000000 +5129));
+talk("サイト", null, "じ、自信作っ！！", (0x04000000 +10428));
+talk("サイト", null, "（こ、これが……？）", null);
+selectInit();
+selectItem("大変個性的なお味です", (0x01000000 +1737), null, true);
+selectItem("なんか、涙が出てきた", (0x01000000 +1738), null, true);
+selectItem("マズイッ！！", (0x01000000 +1739), null, true);
+select();

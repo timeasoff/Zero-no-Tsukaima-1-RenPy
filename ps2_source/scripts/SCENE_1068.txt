@@ -1,0 +1,21 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +7)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +220)});
+}
+talk("サイト", null, "とりあえず、マフラーありがとな。\n冬が楽しみになるな。", (0x04000000 +8497));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +219)});
+waitLoad(true);
+talk("シエスタ", null, "そうですか？\nなら、もっといろいろ編んじゃいますね！\nぜひ、貰ってください。", (0x04000000 +14238));
+talk("サイト", null, "うん、分かった。\n期待してるね。", (0x04000000 +8498));
+talk("シエスタ", null, "それじゃあ、頑張って編みますね！", (0x04000000 +14239));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

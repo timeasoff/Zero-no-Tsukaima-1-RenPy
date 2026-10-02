@@ -1,0 +1,33 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+}
+talk("サイト", null, "俺の理不尽なご主人様です。", (0x04000000 +13753));
+talk("ルイズ", null, "……リフジン？\n聞き間違いかしら。\nな、なにか変な声が聞こえた気がしたけど。", (0x04000000 +7560));
+talk("ルイズ", null, "念のために聞いてあげるから、\nもう一度、言ってみなさい！", (0x04000000 +7561));
+talk("サイト", null, "ル、ルイズ様は……、\n俺の理不尽なご主人様です！", (0x04000000 +13754));
+talk("ルイズ", null, "……いい度胸ね。", (0x04000000 +7562));
+talk("ルイズ", null, "随分、お仕置きしてあげたと\n思ってたんだけど……。", (0x04000000 +7563));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +163)});
+waitLoad(true);
+talk("ルイズ", null, "全然っ、足りてなかったってワケね？", (0x04000000 +7564));
+talk("サイト", null, "お顔が、なんだか……、\nスゴイコトニナッテマスヨ……？", (0x04000000 +13755));
+talk("サイト", null, "……ご、ごっ、ごめん。\nや、やっぱ今の間違いっ！", (0x04000000 +13756));
+talk("ルイズ", null, "問答無用っ！！", (0x04000000 +7565));
+talk("ルイズ", null, "今日という今日は！\n徹底的にしつけてあげるっっ！！", (0x04000000 +7566));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("event", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay1", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+set("lay5", {vibration = 21,action = "LayerVibrateActionModule",waitTime = 70});
+vibrate(3);
+waitTime(1100, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぐぎぃぃぃぃやぁぁぁぁぁぁっっっ！！", (0x04000000 +13757));
+next((0x01000000 +1568), true);

@@ -1,0 +1,17 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "魔法の特訓をするわ！", (0x04000000 +7676));
+talk("サイト", null, "え、ルイズ。\n一体どうしたの？", (0x04000000 +13858));
+talk("ルイズ", null, "「虚無」の魔法を使えるようになったのに、\n命中率は低いまま。", (0x04000000 +7677));
+talk("ルイズ", null, "分かったの。\nわたし、実戦経験が足りなかったのよ。\nサイト、協力してもらうわよ！", (0x04000000 +7678));
+talk("サイト", null, "（うっ。\n　ま、まずいっ！\n　なんか昔の傷にでも触れちまったのか？）", null);
+selectInit();
+selectItem("ま、まあ少しは進歩したんでは……", (0x01000000 +1601), null, true);
+selectItem("いや、立派立派！", (0x01000000 +1602), null, true);
+selectItem("本当に無駄な努力を……", (0x01000000 +1603), null, true);
+select();

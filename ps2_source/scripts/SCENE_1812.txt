@@ -1,0 +1,34 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +188)});
+}
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+set("event", {show = 0});
+trans("crossfade", 1000);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……はいっ、おしまいっ！", (0x04000000 +5370));
+talk("サイト", null, "……うっ、ううう。", (0x04000000 +10636));
+talk("サイト", null, "も、もうオムコにいけない……。", (0x04000000 +10637));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +189)});
+waitLoad(true);
+talk("ルイズ", null, "……な、なによ。\n結局、ぎゃあぎゃあ大騒ぎして！\nわ、わたしだって恥ずかしかったんだからね！", (0x04000000 +5371));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+tndlEnd();

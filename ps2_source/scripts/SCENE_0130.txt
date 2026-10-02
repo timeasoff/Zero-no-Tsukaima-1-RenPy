@@ -1,0 +1,56 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +28)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +32)});
+msgon()
+talk("オスマン", null, "それで、どうだったのかね。\n爆破跡に、なにか手がかりはあったかな。", (0x04000000 +4393));
+msgoff()
+set("lay10", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +31)});
+trans("crossfade", 1000);
+set("lay10", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +918)});
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +929)});
+msgon()
+talk("コルベール", null, "はい。\n爆破跡を調査、探索したところ、\n爆弾の残留物と思わしきものを採取できました。", (0x04000000 +1017));
+talk("オスマン", null, "ふむ。", (0x04000000 +4394));
+talk("コルベール", null, "詳細な分析はまだ時間がかかると思われますが、\nひととおり調べた段階で、\nおおよそ判明したことがあります。", (0x04000000 +1018));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +924)});
+talk("オスマン", null, "というと？", (0x04000000 +4395));
+talk("コルベール", null, "あの爆弾の調合方法は、\n普通に流通されているものとは違う……。\nということです。", (0x04000000 +1019));
+talk("コルベール", null, "破壊力、範囲などを見ても、まるで違います。\nまさに軍用と見て間違いはないかと。", (0x04000000 +1020));
+talk("オスマン", null, "……ふむ。\nそれは、確かなのかね。", (0x04000000 +4396));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +933)});
+talk("コルベール", null, "ええ、間違いありません。", (0x04000000 +1021));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +922)});
+talk("オスマン", null, "つまり、君は……。\nこの事件の裏には国ないしは軍隊が\n絡んでいると……、そう言いたいのかね？", (0x04000000 +4397));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +935)});
+talk("コルベール", null, "いえ、まだ確定はできませんが……。", (0x04000000 +1022));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +929)});
+talk("コルベール", null, "ただ、爆弾の構造を類推し、\n我が国を含めた各国の爆弾技術と\n照らし合わせれば……。", (0x04000000 +1023));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +918)});
+talk("オスマン", null, "犯人がどこの国の人間か、\nあるいはどこの団体に所属しているのかが\n絞られるわけじゃな。", (0x04000000 +4398));
+talk("コルベール", null, "はい。\n多少、時間はかかりますが……。", (0x04000000 +1024));
+talk("オスマン", null, "分かった。\nよろしく頼む。", (0x04000000 +4399));
+talk("オスマン", null, "時間があれば腰を据えて調査してもらうべき\nなんじゃろうが、そういうわけにもいくまい。", (0x04000000 +4400));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +935)});
+talk("コルベール", null, "しかし……。\n一体、何が起きてるのでしょう？", (0x04000000 +1025));
+talk("コルベール", null, "先日のレコン・キスタ軍との戦争といい、\nまったく物騒になったものです。", (0x04000000 +1026));
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +922)});
+talk("オスマン", null, "それは我々の推測すべき範囲を超えておる。\nまずは生徒の安全を確保することに\n全力を注がねばならん。", (0x04000000 +4401));
+set("lay9", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +933)});
+talk("コルベール", null, "は、そ、そうですね。\n急いで調べておきます。", (0x04000000 +1027));
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay10", {y = 0,x = 64});
+set("lay10", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +918)});
+talk("オスマン", null, "このまま、騒ぎが大きくならなければ\nいいが……。\n今は、祈るのみじゃな。", (0x04000000 +4402));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay10", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +131), true);

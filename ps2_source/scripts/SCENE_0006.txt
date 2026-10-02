@@ -1,0 +1,139 @@
+reset();
+title("ゼロのルイズ");
+tndl(null);
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1128)});
+trans("crossfade", 1000);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 2000);
+endSkip();
+item("パン", 3);
+item("ハーブ", 3);
+item("エリクサー", 3);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1148)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1139)});
+trans("crossfade", 500);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1148)});
+trans("crossfade", 750);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 2000);
+endSkip();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +148)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……。", (0x04000000 +5542));
+talk("サイト", null, "……もしもし、ルイズさん。", (0x04000000 +10781));
+talk("ルイズ", null, "なによ。", (0x04000000 +5543));
+talk("サイト", null, "ちょっとお聞きしたいんですけど？", (0x04000000 +10782));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +150)});
+waitLoad(true);
+talk("ルイズ", null, "……言ってごらんなさい。", (0x04000000 +5544));
+talk("サイト", null, "たしか今朝は、\n『休日に街に出て買い物するのって、\n　久しぶりー！』", (0x04000000 +10783));
+talk("サイト", null, "……とか言ってませんでしたっけ。\n結構、楽しそうだった覚えがあるんですが。", (0x04000000 +10784));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +148)});
+waitLoad(true);
+talk("ルイズ", null, "そんなこともあったかしらね。", (0x04000000 +5545));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +149)});
+waitLoad(true);
+talk("サイト", null, "いやいやいや、気になるだろうが。\nあんだけ楽しそうだったおまえが、\nなんだって今はそんなに不機嫌なんだ？", (0x04000000 +10785));
+talk("ルイズ", null, "そりゃあ、あんたは楽しかったでしょうね。\nそこらじゅうの女の子にデレデレ\nしちゃって……。", (0x04000000 +5546));
+talk("ルイズ", null, "もう、みっともないったらありゃしない。", (0x04000000 +5547));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +148)});
+waitLoad(true);
+talk("サイト", null, "デレデレなんてしてねーよ。\nって、もしかしてヤキモチか？", (0x04000000 +10786));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +150)});
+waitLoad(true);
+talk("ルイズ", null, "！！！！！\nそ、そ、そ、そんなわけないでしょうが。", (0x04000000 +5548));
+talk("ルイズ", null, "バカ使い魔がそこらじゅうに迷惑をかけたら、\nご主人様が迷惑するからよ！\n別にヤキモチやいてるわけじゃないわよ！", (0x04000000 +5549));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +151)});
+waitLoad(true);
+talk("サイト", null, "そうかよ！", (0x04000000 +10787));
+talk("ルイズ", null, "そうよ！", (0x04000000 +5550));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("stage", {level = 200,image = (0x02000000 +85)});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +391)});
+msgon()
+talk("サイト", null, "（俺の名前は『平賀　才人』。\n　平凡な高校生……だったはずなのに）", null);
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +303)});
+talk("サイト", null, "（今は、このワガママなご主人様－\n　ルイズ・フランソワーズ・ル・ブラン・\n　ド・ラ・ヴァリエール……）", null);
+talk("サイト", null, "（略すと『ルイズ』の召喚魔法のせいで、\n　使い魔として召喚されてしまった俺は、\n　今、ルイズの部屋で暮らしてる）", null);
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（魔法を使うメイジが貴族として国を支配する\n　異世界、『ハルケギニア』……。\n　そこは日本とはまったく違う世界だった）", null);
+talk("サイト", null, "（しかも、俺達が住んでる国\n　『トリステイン』は、突然、\n　『レコン・キスタ』からの侵略を受けた）", null);
+talk("サイト", null, "（シエスタの故郷で見つけたゼロ戦と、\n　ルイズの『虚無』の力をもって、俺達は\n　レコン・キスタの大艦隊をなんとか撃退）", null);
+talk("サイト", null, "（大損害を受けたレコン・キスタから\n　次の侵略はない）", null);
+talk("サイト", null, "（まぁ、これが、つかの間の平和という\n　ヤツなんだろうな）", null);
+talk("サイト", null, "（しかし、いつになったら、\n　俺は日本に帰ることができるんだろう……）", null);
+talk("サイト", null, "（まぁ、なるようになるか……。\n　今までもずっとそうだったし……）", null);
+set("lay5", {show = 0});
+talk("サイト", null, "（それにしても、腰が痛いなぁ……。\n　馬に乗るのは未だに慣れないよ……）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +148)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "しかし、今回は妙に服を買い込んだな。\nしかも、選ぶのに時間がかかるし……。\nホント、暇だったなぁ……。", (0x04000000 +10788));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +150)});
+waitLoad(true);
+talk("ルイズ", null, "い、いいじゃない！\nわたしがオシャレしたら、なにか悪い！？", (0x04000000 +5551));
+talk("サイト", null, "（ルイズがオシャレねえ……）", null);
+selectInit();
+selectItem("いいと思うぜ", (0x01000000 +7), null, true);
+selectItem("悪い！", (0x01000000 +8), null, true);
+selectItem("どっちでもいい", (0x01000000 +9), null, true);
+select();

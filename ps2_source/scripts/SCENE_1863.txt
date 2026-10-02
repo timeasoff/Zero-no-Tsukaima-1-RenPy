@@ -1,0 +1,5 @@
+selectInit();
+selectItem("アンリエッタルート", (0x01000000 +344), "zero_route=5", true);
+selectItem("タバサルート", (0x01000000 +903), "zero_route=3", true);
+selectItem("キュルケルート", (0x01000000 +549), "zero_route=2", true);
+select();

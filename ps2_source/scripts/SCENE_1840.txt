@@ -1,0 +1,31 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +193)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（ええと。\n　な、なんというか……）", null);
+talk("サイト", null, "（ポッチー１本分の長さの先に、\n　ルイズの顔があるわけで……）", null);
+talk("サイト", null, "（お、お互いの呼吸を感じちゃう距離と\n　いうか……）", null);
+talk("サイト", null, "（ルイズの髪が鼻に当たってこそばゆい）", null);
+talk("サイト", null, "ひ、緊張するな。", (0x04000000 +10734));
+talk("ルイズ", null, "ふぁ、何よ！", (0x04000000 +5482));
+talk("サイト", null, "（ルイズ、頬が少し上気してる……やっぱり\n　かわいいよなあ）", null);
+talk("ルイズ", null, "ふぁ、じゃあ。\nいっ、いくわよ！", (0x04000000 +5483));
+talk("サイト", null, "（そういえば、なんでこんなことに？）", null);
+talk("ルイズ", null, "う、んんっっ！", (0x04000000 +5484));
+talk("サイト", null, "（うわっ、ルイズと目が合っちゃった！）", null);
+selectInit();
+selectItem("奇襲作戦！", (0x01000000 +1841), null, true);
+selectItem("持久作戦！", (0x01000000 +1842), null, true);
+selectItem("特攻作戦！", (0x01000000 +1843), null, true);
+select();

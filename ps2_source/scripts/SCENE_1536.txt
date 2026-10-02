@@ -1,0 +1,46 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "この、バカ犬っ！", (0x04000000 +7532));
+set("se0", {play = (0x03000000 +62)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {show = 0,vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "ぐはっ！", (0x04000000 +13727));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "なにニヤニヤニヤニヤしてるのよ！\nだらしない顔してるんじゃないわよっ！！", (0x04000000 +7533));
+talk("サイト", null, "べ、別にだらしない顔なんてしてねぇっ！", (0x04000000 +13728));
+talk("ルイズ", null, "鼻の下伸ばしていやらしい！！", (0x04000000 +7534));
+talk("サイト", null, "や……やらしいって……。\nこの顔は生まれつきだ！！", (0x04000000 +13729));
+talk("ルイズ", null, "そう……生まれつき。\n分かったわ。", (0x04000000 +7535));
+talk("サイト", null, "ふぅ……。", (0x04000000 +13730));
+talk("ルイズ", null, "それじゃあ、\nわたし好みに作り直してあげる。", (0x04000000 +7536));
+talk("サイト", null, "へっ！？\nちょ、ちょまっっ！！", (0x04000000 +13731));
+talk("ルイズ", null, "じ、じっとしてなさい。\nちょっと痛いかも知れないけど、\n我慢できるわよね。", (0x04000000 +7537));
+talk("サイト", null, "ひ、ひぃっっ！！", (0x04000000 +13732));
+selectInit();
+selectItem("逃げる！", (0x01000000 +1561), null, true);
+selectItem("抵抗する！", (0x01000000 +1562), null, true);
+selectItem("降伏する！", (0x01000000 +1563), null, true);
+select();

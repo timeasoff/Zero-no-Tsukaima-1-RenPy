@@ -1,0 +1,19 @@
+reset();
+set("bgm", {stop = 1000});
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +182)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……ねえ、サイト？\nわたしと一緒にいるのはそんなにいや？", (0x04000000 +5160));
+talk("ルイズ", null, "……っ。", (0x04000000 +5161));
+vibrate(1);
+talk("サイト", null, "ひ、ひぅっ！", (0x04000000 +10457));
+talk("サイト", null, "い、いきなり耳元に息をふきかけるんじゃ\nねえっ！", (0x04000000 +10458));
+talk("ルイズ", null, "……き、気持ち良かった？", (0x04000000 +5162));
+selectInit();
+selectItem("気持ちは……良かったかも", (0x01000000 +1749), null, true);
+selectItem("どこで覚えてきたんだよっ！", (0x01000000 +1750), null, true);
+selectItem("へ、平常心！　平常心！", (0x01000000 +1751), null, true);
+select();

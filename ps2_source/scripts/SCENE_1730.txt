@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+}
+talk("サイト", null, "イヤだっ！！", (0x04000000 +10394));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +181)});
+waitLoad(true);
+talk("ルイズ", null, "なんですって！\n人の厚意を受け取れないって言うのっ！", (0x04000000 +5097));
+talk("サイト", null, "あのなぁ、\n厚意っていうのは押しつけるもんじゃあ……。", (0x04000000 +10395));
+talk("ルイズ", null, "許さないわ、そんなワガママっ！\n食べないっていうんなら、\n力づくでも……。", (0x04000000 +5098));
+talk("サイト", null, "（さ、殺気！？）", null);
+talk("サイト", null, "わ、分かった！\n喰う、食べるっ！\nいただきます！！", (0x04000000 +10396));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +180)});
+waitLoad(true);
+talk("ルイズ", null, "まったく……。\n最初からそういえばいいのよ。", (0x04000000 +5099));
+talk("ルイズ", null, "ほらっ！\nあーんっ！", (0x04000000 +5100));
+talk("サイト", null, "……あーん。", (0x04000000 +10397));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+next((0x01000000 +1732), true);

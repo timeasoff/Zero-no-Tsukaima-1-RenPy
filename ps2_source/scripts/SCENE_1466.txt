@@ -1,0 +1,23 @@
+if (isJump()){
+reset();
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +957)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +709)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+}
+talk("サイト", null, "（べ、別に興味なんてないさ。\n　ほ、ほんとのほんとに。\n　だからこれは聞いてるわけじゃなくて）", null);
+talk("サイト", null, "（耳に入ってきてるだけなのです。\n　神に誓って、そうなのです）", null);
+tndl(30);
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "う～ん？", (0x04000000 +3097));
+set("lay6", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "ライオンがどうして強いのか分かる？\nそれは、もともと強いからよ。", (0x04000000 +3098));
+set("lay7", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +957),imageType = 2});
+talk("ハルナ", null, "へっ？", (0x04000000 +1992));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "それと同じ。\nわたしには理由は分からないし、\n説明もできないの。", (0x04000000 +3099));
+set("lay7", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "ええ～～っ！\nそんなぁ！", (0x04000000 +1993));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "まあ、そうねぇ。\nひとつアドバイスをするなら……。", (0x04000000 +3100));
+next((0x01000000 +1468), true);

@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +169)});
+}
+talk("サイト", null, "（に、逃げ出さないと……って……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +168)});
+waitLoad(true);
+talk("サイト", null, "（……ダメだ。\n　縄がほどけない！）", null);
+talk("ルイズ", null, "あら？\n逃げださないの？", (0x04000000 +7710));
+talk("サイト", null, "いや、ちょっと！\nこの縄っ！", (0x04000000 +13896));
+talk("ルイズ", null, "うふふ。\nサイトの犠牲は忘れないわ。", (0x04000000 +7711));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +169)});
+waitLoad(true);
+talk("サイト", null, "ま、まてぇぇぇっ！", (0x04000000 +13897));
+next((0x01000000 +1616), true);

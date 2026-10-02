@@ -1,0 +1,43 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +962)});
+set("bgm", {play = (0x03000000 +31)});
+set("se1", {play = (0x03000000 +37),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+}
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {y = 416,x = 144});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "まぁ、とにかく。\n元の世界に帰れるまでは、\nこの世界で暮らすしかないんだし。", (0x04000000 +11532));
+talk("サイト", null, "あまり悲観せず、まずはこの世界へ慣れる事\nだと思うよ。", (0x04000000 +11533));
+set("lay7", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +968)});
+talk("ハルナ", null, "うん……。", (0x04000000 +2302));
+talk("サイト", null, "元気出せよ、春奈。", (0x04000000 +11534));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+talk("シエスタ", null, "ハルナさんを独りぼっちになんてしませんから。\n安心してくださいねっ！", (0x04000000 +14756));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +335)});
+talk("ルイズ", null, "もぉ、せっかく街に出てきたんだから、\nいろんな所を見て行きなさいよ……。\nもったいないでしょう？", (0x04000000 +6102));
+set("lay7", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +964)});
+talk("ハルナ", null, "はいっ……。\nみなさん、ありがとうございます。", (0x04000000 +2303));
+set("se1", {stop = 1});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+talk("サイト", null, "（お姫さまとの謁見までにはまだ、\n　時間があることもあって……）", null);
+talk("サイト", null, "（俺達はトリスタニアの街を\n　散策する事になった）", null);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "（さて、どうするかなぁ？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+moveInit((0x01000000 +256),(0x02000000 +58),3,(0x03000000 +4));
+moveItem("表通り", (0x02000000 +962), (0x01000000 +1367));
+moveItem("表通り", (0x02000000 +302), (0x01000000 +1372));
+moveItem("表通り", (0x02000000 +489), (0x01000000 +1377));
+moveItem("表通り", 0, (0x01000000 +1382));
+move();

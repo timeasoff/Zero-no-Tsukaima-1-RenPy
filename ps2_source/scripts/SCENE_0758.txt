@@ -1,0 +1,10 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +22)});
+}
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +759), true);

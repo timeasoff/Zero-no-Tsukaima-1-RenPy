@@ -1,0 +1,49 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +178)});
+}
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay1", {show = 0,reset = 1});
+waitTime(0, true);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +176)});
+waitLoad(true);
+talk("ルイズ", null, "声が小さい！\nもっと大声で！", (0x04000000 +7882));
+talk("サイト", null, "わん！\n分かりました！\nご主人様っ！", (0x04000000 +14082));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {action = "LayerVibrateActionModule",vibration = 14,waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {action = "LayerVibrateActionModule",vibration = 14,waitTime = 50});
+set("lay5", {action = "LayerVibrateActionModule",vibration = 14,waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("ルイズ", null, "気持ちがこもってないわっ！", (0x04000000 +7883));
+talk("サイト", null, "わんっ！\nわ、分かりましたぁっ！\nご主人様っ！", (0x04000000 +14083));
+talk("サイト", null, "（ち、ちくしょう……）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +178)});
+waitLoad(true);
+talk("ルイズ", null, "……あら？\nなに、その顔は？", (0x04000000 +7884));
+set("lay5", {show = 0});
+talk("サイト", null, "（う、うっ……）", null);
+talk("ルイズ", null, "もっと、使い魔っぽい顔をしなさいっ！", (0x04000000 +7885));
+selectInit();
+selectItem("ど、どんな顔しろっていうんだよっ！", (0x01000000 +1677), null, true);
+selectItem("……つ、使い魔らしい顔って？", (0x01000000 +1678), null, true);
+selectItem("わん！　ご主人様！", (0x01000000 +1679), null, true);
+select();

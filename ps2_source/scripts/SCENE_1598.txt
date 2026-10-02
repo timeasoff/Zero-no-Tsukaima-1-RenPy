@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+}
+talk("サイト", null, "あ、あれ？", (0x04000000 +13850));
+talk("サイト", null, "きゅ、急におなかが痛く……なったワン。", (0x04000000 +13851));
+talk("ルイズ", null, "……仮病ね。", (0x04000000 +7664));
+talk("サイト", null, "そ、そんなことねえっ！", (0x04000000 +13852));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +167)});
+waitLoad(true);
+talk("ルイズ", null, "だったらトイレに連れて行ってあげるわよ？\n……もちろん、犬用のだけど。", (0x04000000 +7665));
+talk("サイト", null, "（……げっ。\n　目が本気だ）", null);
+talk("サイト", null, "あ、あれ？\n急に治った気が……ワン。", (0x04000000 +13853));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +165)});
+waitLoad(true);
+talk("ルイズ", null, "そう？\n……それでいいのよ。", (0x04000000 +7666));
+next((0x01000000 +1600), true);

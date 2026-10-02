@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +165)});
+}
+talk("サイト", null, "……わ、わん！", (0x04000000 +13816));
+talk("ルイズ", null, "あらあら、物分かりがいいわね……。", (0x04000000 +7624));
+talk("サイト", null, "わんっ！", (0x04000000 +13817));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +166)});
+waitLoad(true);
+talk("ルイズ", null, "ホントに。\nいつもそう従順だったら、\nもっとかわいがってあげられるのに……。", (0x04000000 +7625));
+talk("サイト", null, "……えっ？", (0x04000000 +13818));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +165)});
+waitLoad(true);
+talk("ルイズ", null, "返事は『わん』でしょ！", (0x04000000 +7626));
+talk("サイト", null, "きゃっ、キャイン！", (0x04000000 +13819));
+next((0x01000000 +1588), true);

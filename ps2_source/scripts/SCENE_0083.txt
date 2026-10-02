@@ -1,0 +1,33 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +528)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("bgm", {play = (0x03000000 +30)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "春奈の様子が気になってさ……。\nそれで、ついふらふらーっと。", (0x04000000 +11050));
+set("lay2", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +522)});
+talk("シエスタ", null, "ふうん……そうなんですか。", (0x04000000 +14571));
+like("シエスタ", -10);
+tndl(-30);
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +981)});
+talk("ハルナ", null, "……。", (0x04000000 +2106));
+like("ハルナ", 10);
+set("lay7", {y = 0,x = 224});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "授業を抜け出して、２人きり……。", (0x04000000 +14572));
+talk("サイト", null, "いや、あの、シエスタ？", (0x04000000 +11051));
+set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +973)});
+talk("ハルナ", null, "あの、平賀くんは、私のことを心配して\n来てくれたんです。\nなにもいけないことは……。", (0x04000000 +2107));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +528)});
+talk("シエスタ", null, "２人きり……。\n誰も見てない部屋で、２人きり……。", (0x04000000 +14573));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "シエスタ？\nあの俺、本当にやましいことはしてないって？\n証人もいるし。", (0x04000000 +11052));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +495)});
+talk("シエスタ", null, "証人？\n誰ですか？\nハルナさん……とか言いませんよね？", (0x04000000 +14574));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "いや、こいつ。", (0x04000000 +11053));
+next((0x01000000 +85), true);

@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +27)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +401)});
+talk("サイト", null, "結局、キュルケはなんでここにいるんだ？", (0x04000000 +9521));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +676)});
+talk("キュルケ", null, "さっきの連中の手がかりが、\n少しでも残していないかなぁっと思って。\nちょっと調べてたのよ。", (0x04000000 +2934));
+talk("サイト", null, "それで、何か分かったのか？\nキュルケ。", (0x04000000 +9522));
+talk("キュルケ", null, "さっきの爆発だけど、爆弾が使われ、\n魔法を使われた痕跡はないってこと\nくらいかしら。", (0x04000000 +2935));
+talk("キュルケ", null, "もっとも、ミスタ・コルベールが、\n辺りの土を自分の研究室に持って行ってたから、\nそちらでも何か調べるつもりなんでしょうね。", (0x04000000 +2936));
+talk("サイト", null, "そうか。\nなにか分かったら、俺にも教えてくれよな。", (0x04000000 +9523));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +678)});
+talk("キュルケ", null, "分かったわ。\nダーリンも、見回り頑張ってね。", (0x04000000 +2937));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

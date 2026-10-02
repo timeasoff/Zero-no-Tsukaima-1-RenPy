@@ -1,0 +1,49 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "部屋から、出て行きなさいっ！", (0x04000000 +7765));
+talk("サイト", null, "ちょ、ちょっと待って！\nルイズ！", (0x04000000 +13952));
+talk("ルイズ", null, "ルイズぅ？\nご主人様でしょ！", (0x04000000 +7766));
+talk("ルイズ", null, "まったく少し甘い顔をしたら……。\nすぐにこれなんだから！", (0x04000000 +7767));
+talk("ルイズ", null, "ほらっ、グズグズしてるんじゃないっ！\n毛布ぐらいは貸してあげるっ。", (0x04000000 +7768));
+talk("ルイズ", null, "しばらく廊下で寝て、反省しなさいっ！", (0x04000000 +7769));
+talk("サイト", null, "ル、ルイズ横暴ぅぅっ！", (0x04000000 +13953));
+msgoff()
+set("se0", {play = (0x03000000 +56)});
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +170)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "ちくしょう、なんで俺がこんな目に……。", (0x04000000 +13954));
+msgoff()
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+trans("crossfade", 1000);
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+msgon()
+talk("キュルケ", null, "……あら、どうしたのダーリン？\nひょっとして、部屋を追い出されたとか？", (0x04000000 +3881));
+set("lay6", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "ああ、よしよし。\nかわいそうに。", (0x04000000 +3883));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +711)});
+talk("キュルケ", null, "もうっ、暗い顔しないの！\n泣くならあたしの胸で泣きなさい。", (0x04000000 +3884));
+selectInit();
+selectItem("すがりついて泣く", (0x01000000 +1633), null, true);
+selectItem("胸に顔を埋めて泣く", (0x01000000 +1634), null, true);
+selectItem("あわててキュルケから離れる", (0x01000000 +1635), null, true);
+select();

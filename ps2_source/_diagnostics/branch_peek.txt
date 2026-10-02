@@ -1,0 +1,309 @@
+=== SCENE 62 (len=940 talk=3) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("se0", {play = (0x03000000 +69)});
+talk("サイト", null, "（ふわああ……。\n　んー、いい朝だなあ）", null);
+talk("サイト", null, "（ルイズも朝の支度を終えて\n　どっか出て行ったし、\n　うーむ、気持ちの良い朝だ）", null);
+set("lay5", {y = 416,show = 0,x = 304});
+talk("サイト", null, "（さて……これからどうしよう？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1009));
+dateItem("シエスタ", (0x01000000 +1014));
+dateItem("タバサ", (0x01000000 +1019));
+dateItem("キュルケ", (0x01000000 +1024));
+dateItem("ハルナ", (0x01000000 +1029));
+date((0x01000000 +68),false,(0x03000000 +4));
+
+   ...
+
+=== SCENE 1009 (len=2418 talk=14) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "おーいルイズ、いるかー？", (0x04000000 +8200));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +313)});
+talk("ルイズ", null, "なに？\nなにか用？", (0x04000000 +4641));
+like("ルイズ", 20);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +398)});
+talk("サイト", null, "え、あ……。", (0x04000000 +8201));
+talk("ルイズ", null, "なに？\nどうしたのよ。\nそんなところで固まって。", (0x04000000 +4642));
+   ...
+
+=== SCENE 1014 (len=2893 talk=13) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +7)});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("シエスタ", null, "すみません、サイトさん。\nこんなところまでついて来てもらって。", (0x04000000 +14171));
+like("シエスタ", 20);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "ああ、構わないよ。\nシエスタが仕事で忙しいのに、\n俺が勝手についてくって言ったんだからさ。", (0x04000000 +8218));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk(
+   ...
+
+=== SCENE 1019 (len=2247 talk=15) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +94)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "よっ、タバサ。", (0x04000000 +8237));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +229)});
+trans("crossfade", 1000);
+msgon()
+talk("タバサ", null, "……何か用？", (0x04000000 +15254));
+like("タバサ", 30);
+talk("サイト", null, "んー、まあ特にはないんだけど、\nせっかくだし、どこかに出かけないか？", (0x04
+   ...
+
+=== SCENE 1024 (len=7704 talk=33) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +8)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "おーいキュルケ、いるかー？", (0x04000000 +8263));
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +676)});
+set("lay5", {y = 0,x = 224});
+talk("キュルケ", null, "あら、ダーリンじゃない。\nなあに？\nデートのお誘い？", (0x04000000 +2730));
+like("キュルケ", 20);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "あー、違うけど、そんな感じ。\n街にでも一緒にどうかなぁって。",
+   ...
+
+=== SCENE 1029 (len=4081 talk=18) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +19)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "そうだな、春奈を誘おうっか……。", (0x04000000 +8287));
+talk("サイト", null, "っていっても、昼の間は人目があるから、\n外を出歩けないか。", (0x04000000 +8288));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "ちょっとサイト！\n何をぼんやりしてるの？\n部屋の掃除がまだ終わってないでしょ？", (0x04000000 +4658));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ええっ！\n
+   ...
+
+=== SCENE 1034 (len=4926 talk=26) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +423)});
+msgon()
+talk("サイト", null, "おーいルイズー。\nって、何、出かける用意してるんだ？", (0x04000000 +8308));
+set("lay5", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +315)});
+like("ルイズ", 20);
+talk("ルイズ", null, "あ、サイト。\nいいところに来たわね。\nこれから牧場に出かけるわよ！", (0x04000000 +4660));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "へ？\nなんで牧場？", (0x04000000 +8309));
+set("lay1", {show = 1,le
+   ...
+
+=== SCENE 1040 (len=1890 talk=6) ===
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +491)});
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "いや、遠慮しておくよ。", (0x04000000 +8343));
+set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +495)});
+talk("
+   ...
+
+=== SCENE 1050 (len=2371 talk=12) ===
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +695)});
+set("bgm", {play = (0x03000000 +8)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +91)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "釣りか！", (0x04000000 +8417));
+set("lay6", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +691)});
+talk("キュルケ", null, "なんでそうなるのよ！", (0x04000000 +2763));
+like("キュルケ", -10);
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02
+   ...
+
+=== SCENE 1060 (len=1420 talk=9) ===
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +12)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +198)});
+}
+talk("サイト", null, "リンゴをむいてやるな。", (0x04000000 +8468));
+talk("ルイズ", null, "リンゴ？", (0x04000000 +4701));
+talk("サイト", null, "うん、リンゴ。\n結構風邪には良く効くんだぜ。", (0x04000000 +8469));
+talk("サイト", null, "俺が皮をむいてやるから待ってな。", (0x04000000 +8470));
+talk("ルイズ", null, "うん……。", (0x04000000 +4702));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +200)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "不器用。", (0x04000000 +4703));
+talk("サイト", null, "そういうなって。\n調理場のナイフ大きかったんだから。", (0x04000000 +8471));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 
+   ...
+
+=== SCENE 1063 (len=384 talk=0) ===
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +12)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +199)});
+}
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);
+
+   ...
+
+=== SCENE 1224 (len=3925 talk=18) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +16)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +7)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+talk("シエスタ", null, "はい？", (0x04000000 +14372));
+talk("サイト", null, "あ、シエスタ？\n俺だけど……いいかな。", (0x04000000 +9322));
+talk("シエスタ", null, "あ、サイトさん？\nどうぞ。", (0x04000000 +14373));
+set("se0", {play = (0x03000000 +57)});
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {
+   ...
+
+=== SCENE 1229 (len=3131 talk=16) ===
+reset();
+set("bgm", {stop = 1000});
+waitTime(1000, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +12)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +6)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "ふう、やれやれ。", (0x04000000 +9341));
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+set("lay5", {y = 0,x = 224});
+like("ルイズ", 20);
+talk("ルイズ", null, "やれやれじゃないわよ。\nあんたが休むのは、仕事を終わらせてからよ！", (0x04000000 +4894));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +427)});
+talk
+   ...
+
+=== SCENE 1234 (len=2644 talk=13) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +19)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +29)});
+set("lay3", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +852)});
+talk("モンモランシー", null, "あら？\nこんなところで何をやってるの？", (0x04000000 +3956));
+set("lay3", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あれ、モンモ……ランシー。", (0x04000000 +9360));
+set("lay3", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +856)});
+talk("モンモランシー", null, "今の微妙な間が気になるけど、まあいいわ。\nこんな時間にどうしたの？\nまた、ルイズが騒ぎ出すわよ。", (0x04000000 +3957));
+talk("サイト", null, "ん、まあ、ちょっとその
+   ...
+
+=== SCENE 1240 (len=2188 talk=14) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +65)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "音が何もしない……。\nどの世界の図書室も静かなもんなんだな。", (0x04000000 +9378));
+talk("サイト", null, "おや、あれは。", (0x04000000 +9379));
+msgoff()
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "よっ、タバサ。", (0x04000000 +9380));
+talk("タバサ", n
+   ...
+
+=== SCENE 1250 (len=4747 talk=28) ===
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +11)});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +981)});
+talk("ハルナ", null, "あ……。", (0x04000000 +1837));
+like("ハルナ", 20);
+set("lay7", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "や、やあ。", (0x04000000 +9426));
+talk("サイト", null, "起きてて大丈夫か？\n疲れてるようだったら、\nゆっくり横になっていた方がいいと思うぞ。", (0x04000000 +9427));
+set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +973)});
+talk("ハルナ", null, "ううん、大丈夫。\nこれくらいなら、特に問題はないみたい。", 
+   ...

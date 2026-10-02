@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +451)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +698)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +418)});
+talk("サイト", null, "なんだか、変な夢を見た気がする……。", (0x04000000 +13024));
+set("lay6", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +700)});
+talk("キュルケ", null, "ゆめ？\nどんな？\nキュルケはいた？", (0x04000000 +3770));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "う～～ん、細かいところは全然覚えて\nないけど……。", (0x04000000 +13025));
+set("lay6", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +704)});
+talk("キュルケ", null, "ぶぅ～～っ！\nつまんな～い。\nきょうはキュルケのゆめ、みてね！", (0x04000000 +3771));
+set("lay5", {show = 1,level = 160,dr = "2C",lv = 0,image = (0x02000000 +445)});
+talk("サイト", null, "ははは。\nごめんごめん。", (0x04000000 +13026));
+next((0x01000000 +623), true);

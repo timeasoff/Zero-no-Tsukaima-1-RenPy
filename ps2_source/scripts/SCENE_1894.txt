@@ -1,0 +1,27 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +7)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "じゃあ、もうちょっと探してみるよ。", (0x04000000 +10261));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "はい、わたしも他のところを見てみます。", (0x04000000 +14498));
+talk("サイト", null, "よろしくな、シエスタ。", (0x04000000 +10262));
+talk("シエスタ", null, "いいえ、わたしもハルナさんのことが\n心配ですから。", (0x04000000 +14499));
+talk("サイト", null, "うん。\n春奈もそれ聞いたら、喜ぶと思う。\nありがとな。", (0x04000000 +10263));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +524)});
+talk("シエスタ", null, "そ、そんな……。", (0x04000000 +14500));
+talk("サイト", null, "それじゃ、また後で。", (0x04000000 +10264));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +489)});
+talk("シエスタ", null, "はい。", (0x04000000 +14501));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

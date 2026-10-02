@@ -1,0 +1,78 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +241)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("タバサ", null, "……ん。", (0x04000000 +15724));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +243)});
+waitLoad(true);
+talk("キュルケ", null, "おはよう、タバサ。", (0x04000000 +3545));
+talk("タバサ", null, "おはよう。", (0x04000000 +15725));
+talk("キュルケ", null, "体の具合はどう？", (0x04000000 +3546));
+talk("タバサ", null, "大丈夫、みたい。", (0x04000000 +15726));
+talk("キュルケ", null, "どうして眠ってたのかは思い出せる？", (0x04000000 +3547));
+talk("タバサ", null, "うん。", (0x04000000 +15727));
+talk("キュルケ", null, "あなたは、アキナとの戦いでダーリンを\nかばって、大火傷をしちゃってたのよ。", (0x04000000 +3548));
+talk("タバサ", null, "うん。", (0x04000000 +15728));
+talk("タバサ", null, "……。", null);
+talk("キュルケ", null, "どうしたの？", (0x04000000 +3549));
+talk("タバサ", null, "分からない。\nどうしてかばったのかが。", (0x04000000 +15729));
+talk("キュルケ", null, "……そう。", (0x04000000 +3550));
+talk("タバサ", null, "キュルケは分かるの？", (0x04000000 +15730));
+talk("キュルケ", null, "そりゃ、分かるけど……。\nでも、それは自分で考えた方がいいわね。", (0x04000000 +3551));
+talk("タバサ", null, "……。", null);
+talk("キュルケ", null, "それにしても、あたしったら間の悪いこと\nしちゃったわ。\nごめんね、タバサ。", (0x04000000 +3552));
+talk("タバサ", null, "どういうこと？", (0x04000000 +15731));
+talk("キュルケ", null, "大事なお目覚めの瞬間に、あたしなんかが\n看病してて。", (0x04000000 +3553));
+talk("キュルケ", null, "せっかく、今までダーリンがずっと\n看病してたのに……。", (0x04000000 +3554));
+talk("タバサ", null, "……。", null);
+talk("キュルケ", null, "あはは、そんなに怒らないでよ。", (0x04000000 +3555));
+set("se0", {play = (0x03000000 +82)});
+waitSEStop(null, true);
+talk("キュルケ", null, "あら、誰か来たみたい。\nはーい、どーぞー。", (0x04000000 +3556));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay0", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("se0", {play = (0x03000000 +57)});
+waitSEStop(null, true);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "あっ、タバサ！？\n目が覚めたんだな？", (0x04000000 +12695));
+set("lay5", {y = 0,x = 224});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +618)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "良かったぁ……。\nちゃんと目を覚ましてくれて。\n体の痛むところとかないか？", (0x04000000 +12696));
+talk("タバサ", null, "……ない。", (0x04000000 +15732));
+talk("サイト", null, "そっか……。\n良かった。", (0x04000000 +12697));
+set("lay0", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +616)});
+talk("タバサ", null, "トリステインは？", (0x04000000 +15733));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +427)});
+talk("サイト", null, "ああ、都ではまだ市街戦が続いてる。\n今、ちょっと様子を見てきたんだけど、\nもう完全な膠着状態みたいでさ。", (0x04000000 +12698));
+talk("サイト", null, "本格的な戦闘が治まるまで、\n都からは離れた方がいいとは思うんだけど……。\nまだ、春奈を見つけられないんだ。", (0x04000000 +12699));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "都を離れるわけにはいかないんだ。\nタバサ、もう少し俺達と一緒にいてくれないか？", (0x04000000 +12700));
+talk("タバサ", null, "……うん。", (0x04000000 +15734));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "でも、タバサ。\n春奈を捕まえたとして……。\nその……ガリア王国とやらに送りつけるのか？", (0x04000000 +12701));
+set("lay0", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +614)});
+talk("タバサ", null, "……。", null);
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +398)});
+talk("サイト", null, "あっ……。\nおい、どうしたんだよ？\n急に俺の手を握ったりして……。", (0x04000000 +12702));
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "（えーっと、どうしよう……？）", null);
+selectInit();
+selectItem("黙ってこのままでいよう", (0x01000000 +968), null, true);
+selectItem("ひょっとして、これは……", (0x01000000 +969), null, true);
+selectItem("ちゃんと話の続きをしなくちゃ……", (0x01000000 +970), null, true);
+select();

@@ -1,0 +1,14 @@
+scene  664  len=   26  talk=0  trailing-only
+scene 1533  len=   51  talk=0  EMBEDDED-NUL
+scene 1534  len=   22  talk=0  trailing-only
+scene 1664  len=  186  talk=0  trailing-only
+scene 1697  len=   51  talk=0  EMBEDDED-NUL
+scene 1698  len=   22  talk=0  trailing-only
+scene 1904  len=   34  talk=0  EMBEDDED-NUL
+scene 1909  len=   34  talk=0  EMBEDDED-NUL
+scene 1914  len=   34  talk=0  EMBEDDED-NUL
+scene 1918  len=  293  talk=0  trailing-only
+scene 1919  len=  293  talk=0  trailing-only
+scene 1920  len=  200  talk=0  trailing-only
+
+total talk() across the 12 files: 0

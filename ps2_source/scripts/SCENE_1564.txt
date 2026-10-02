@@ -1,0 +1,46 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+}
+talk("ルイズ", null, "反省して、わたしに謝りなさい！", (0x04000000 +7544));
+talk("サイト", null, "します！\n反省しました！\n謝ります！", (0x04000000 +13742));
+talk("ルイズ", null, "誠意が感じられないのよっ！！", (0x04000000 +7545));
+talk("サイト", null, "りっ、理不尽なぁっ！", (0x04000000 +13743));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +163)});
+waitLoad(true);
+talk("ルイズ", null, "こ、これでも喰らいなさいっ！", (0x04000000 +7546));
+talk("ルイズ", null, "……っ！", (0x04000000 +7547));
+talk("サイト", null, "だあっ、魔法は反則っっ！", (0x04000000 +13744));
+msgoff()
+set("se0", {play = (0x03000000 +95)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {y = 0,level = 80,x = 0,image = (0x02000000 +161)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("ルイズ", null, "……はぁ……はぁ……はぁ……。", (0x04000000 +7548));
+talk("サイト", null, "こ、殺す気かよ！", (0x04000000 +13745));
+talk("ルイズ", null, "さあ、サイト！\nあなたのご主人様はどんなご主人様？", (0x04000000 +7549));
+talk("サイト", null, "ルイズ様は……、", (0x04000000 +13746));
+selectInit();
+selectItem("俺のかわいいご主人様です！", (0x01000000 +1565), null, true);
+selectItem("俺の優しいご主人様です！", (0x01000000 +1566), null, true);
+selectItem("俺の理不尽なご主人様です！", (0x01000000 +1567), null, true);
+select();

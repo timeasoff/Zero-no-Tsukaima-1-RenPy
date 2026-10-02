@@ -1,0 +1,18 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +425)});
+set("bgm", {play = (0x03000000 +9)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +21)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "昔は、給食にでてきてさ、\nよく残したりしたっけな。\n今思うと、もったいないことしてたな。", (0x04000000 +12244));
+set("lay2", {y = 0,dr = "1A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +495),imageType = 2});
+talk("シエスタ", null, "キュウショク？", (0x04000000 +14936));
+set("lay5", {y = 0,dr = "2A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +423),imageType = 2});
+talk("サイト", null, "えーと、学校で出る食事みたいなものなんだよ。", (0x04000000 +12245));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "こんなに美味しく感じるなんてなぁ……。\nやっぱり、思い出の味だからかな……。", (0x04000000 +12246));
+set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +522)});
+talk("シエスタ", null, "サイトさん……。", (0x04000000 +14937));
+next((0x01000000 +843), true);

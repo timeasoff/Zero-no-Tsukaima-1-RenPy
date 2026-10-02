@@ -1,0 +1,16 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "ね、ねえ、サイト。\nおなか、空いてない？", (0x04000000 +5035));
+talk("サイト", null, "えっ？\nな、なんだよ、いきなり。", (0x04000000 +10333));
+talk("ルイズ", null, "す・い・て・る・わ・よ・ね？", (0x04000000 +5036));
+talk("サイト", null, "あ……ええっと……。", (0x04000000 +10334));
+selectInit();
+selectItem("うん！　空いてる空いてる！！", (0x01000000 +1717), null, true);
+selectItem("なんか、空いてる気がしてきた", (0x01000000 +1718), null, true);
+selectItem("断固空いてない", (0x01000000 +1719), null, true);
+select();

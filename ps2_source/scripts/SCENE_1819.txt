@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +191)});
+}
+talk("サイト", null, "ご主人様、萌え萌えですっ！", (0x04000000 +10658));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +190),imageType = 1});
+waitLoad(true);
+talk("サイト", null, "ご主人様のツンデレぶりに、このバカ犬は\nもうメロメロにメルトダウン！", (0x04000000 +10659));
+talk("ルイズ", null, "モエ？\nツンデレ……\nメルトダウン？", (0x04000000 +5393));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "……ど、どういう意味よ？", (0x04000000 +5394));
+talk("サイト", null, "（本当のことを言ったら、\n　殺されそうだな……）", null);
+talk("サイト", null, "あ、いえ、自分の国の言葉で、\n可愛いってことです。", (0x04000000 +10660));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +192)});
+waitLoad(true);
+talk("ルイズ", null, "うふふ。\nそ、そんなぁ……。", (0x04000000 +5395));
+next((0x01000000 +1820), true);

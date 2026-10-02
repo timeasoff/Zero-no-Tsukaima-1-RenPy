@@ -1,0 +1,13 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +187)});
+}
+talk("サイト", null, "（……踊るアホウに、なんとやら）", null);
+talk("サイト", null, "（楽しみで楽しみで……。\n　こう、踊っちゃうよ。\n　俺は！）", null);
+talk("サイト", null, "ふふ、ふふふふふ……。", (0x04000000 +10585));
+msgoff()
+set("event", {y = 0,imageTime = 1000,x = 0,level = 80,image = (0x02000000 +189),imageType = 1});
+waitLoad(true);
+talk("ルイズ", null, "……突然、ニヤけた顔をして踊り出すなんて\n大丈夫？", (0x04000000 +5313));
+next((0x01000000 +1800), true);

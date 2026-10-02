@@ -1,0 +1,40 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +111)});
+}
+msgoff()
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("lay6", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)});
+trans("crossfade", 1000);
+set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +935)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +394)});
+msgon()
+talk("サイト", null, "やめさせてください、先生。", (0x04000000 +11090));
+set("lay9", {dr = "1A",show = 1,level = 160,lv = 0,image = (0x02000000 +933)});
+talk("コルベール", null, "ええっ、わたしがかね。", (0x04000000 +1006));
+talk("サイト", null, "ほかに誰がいるんですか。\nお願いですから、あの２人を止めてくださいよ。", (0x04000000 +11091));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,opacityTime = 100,x = 274,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1});
+set("lay9", {y = 0,x = 64});
+talk("コルベール", null, "学院内での私闘は厳禁です。\nミス・ヴァリエール、ミス・ツェルプストー！\n決闘はやめたまえ！", (0x04000000 +1007));
+talk("コルベール", null, "わたしの見ている前で、決闘など許可しません。\n第一、授業の妨げになる。", (0x04000000 +1008));
+msgoff()
+set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +113)});
+trans("crossfade", 1000);
+msgon()
+talk("キュルケ", null, "……授業を妨害するつもりはありませんわ。", (0x04000000 +3160));
+talk("ルイズ", null, "表に出ましょう。\nそれなら迷惑はかからないわ。", (0x04000000 +5787));
+talk("キュルケ", null, "いいわ。\n２人だけで決着をつけようじゃないの。", (0x04000000 +3161));
+talk("コルベール", null, "こ、こら待ちなさい！\nミス・ヴァリエール、ミス・ツェルプストー！", (0x04000000 +1009));
+talk("サイト", null, "駄目だー！？", (0x04000000 +11092));
+next((0x01000000 +94), true);

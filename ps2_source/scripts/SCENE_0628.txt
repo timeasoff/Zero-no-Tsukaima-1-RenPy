@@ -1,0 +1,41 @@
+if (isJump()){
+reset();
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1019)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+set("bgm", {play = (0x03000000 +27)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +61)});
+}
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "ど、どういうことよ！", (0x04000000 +7059));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay21", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1017)});
+talk("アキナ", null, "ふーん、ルイズにはちょっと難しいお話だった\nかしら？", (0x04000000 +178));
+set("lay21", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)});
+talk("サイト", null, "キュルケにかけられた催眠術には、\nこういう使い方もあったってことだな。", (0x04000000 +13052));
+set("lay21", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1019)});
+talk("アキナ", null, "あら、ご名答。\n意外と頭は悪くないのね、サイト。", (0x04000000 +179));
+talk("サイト", null, "ふざけるな！\n俺達は最初から踊らされてたんだな。", (0x04000000 +13053));
+set("lay21", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1017)});
+talk("アキナ", null, "ウェザリー様があたしとつながっていたと\n考えたキュルケの推理は悪くなかったけど、\nあと少しだったわね。", (0x04000000 +180));
+talk("アキナ", null, "ホントはあたしがおまえ達の情報を\nウェザリー様にお伝えして……、", (0x04000000 +181));
+set("lay21", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1019)});
+talk("アキナ", null, "ドカン、ってやってたの。\nあははは……。", (0x04000000 +182));
+set("lay5", {show = 1,level = 160,dr = "1B",lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "な、なんで今頃になって……。", (0x04000000 +13054));
+set("lay21", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1017)});
+talk("アキナ", null, "お芝居はもうおしまい。", (0x04000000 +183));
+talk("アキナ", null, "最後の幕が開いちゃうのよね。\nだからそのごあいさつ。", (0x04000000 +184));
+talk("アキナ", null, "ほら、礼儀は大切でしょ？", (0x04000000 +185));
+set("lay21", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1019)});
+talk("アキナ", null, "あははは、じゃあね～～！", (0x04000000 +186));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay21", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +629), true);

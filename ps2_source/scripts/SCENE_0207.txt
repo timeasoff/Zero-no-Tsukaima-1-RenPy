@@ -1,0 +1,68 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +25)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +682)});
+talk("キュルケ", null, "ハァハァハァ……。\nな、なかなかやるようになったじゃないの。", (0x04000000 +3230));
+talk("ルイズ", null, "キュルケ、あなたこそ……。\nハァハァハァ……。", (0x04000000 +6005));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "まあ、なんだ……。\nお互い、大けがせずに決闘が\n終わって良かったな。", (0x04000000 +11421));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +955)});
+talk("ハルナ", null, "ルイズさん！", (0x04000000 +2227));
+set("lay7", {y = 0,x = 224});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "ハルナ！\nなんで、ここに？", (0x04000000 +6006));
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "さっきからここにいたって。", (0x04000000 +11422));
+msgoff()
+set("bgm", {stop = 1000});
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +272)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +17)});
+msgon()
+talk("ハルナ", null, "私が仮病を使ったばっかりに、\nこんな大事になってしまって！\nみなさんごめんなさいっ！", (0x04000000 +2228));
+talk("ハルナ", null, "平賀くんに構ってもらいたいばっかりに、\n仮病を使って……。", (0x04000000 +2229));
+talk("ハルナ", null, "私って、本当に……。\n本当にどうしようもなく、\nずるいことばっかりして……。", (0x04000000 +2230));
+talk("ハルナ", null, "グスッ……スンッ、グスッ……。", (0x04000000 +2231));
+talk("ルイズ", null, "なっ、なによっ！\nそんな泣き真似したって、\nわたしは騙されたりしないんだからぁ！", (0x04000000 +6007));
+talk("サイト", null, "おいおい、泣き真似って……。\nそりゃないだろ、ルイズ。", (0x04000000 +11423));
+talk("ルイズ", null, "だいたいね、サイト。\nあなたは簡単に騙されすぎるのよっ！", (0x04000000 +6008));
+talk("キュルケ", null, "そうかもね。\n仮病に気づいてなかったの、\nダーリンだけみたいだし。", (0x04000000 +3231));
+set("lay6", {y = 0,show = 0,x = 224});
+talk("キュルケ", null, "そんなダーリンがたまらなく好きだけど……。\n女の子に優しすぎるのは、\nある意味罪になっちゃうわよ？", (0x04000000 +3232));
+talk("シエスタ", null, "そうですね。\nサイトさんは優しすぎです……。", (0x04000000 +14720));
+talk("ハルナ", null, "グスッ、スンッ……。\nグスッ……。", (0x04000000 +2232));
+msgoff()
+set("lay1", {show = 0});
+set("lay7", {show = 0});
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("lay6", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +26)});
+trans("crossfade", 1000);
+set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +990)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+msgon()
+talk("サイト", null, "やっぱり、俺ってさ。\n女の子が泣いてるのを見ると……。", (0x04000000 +11424));
+selectInit();
+selectItem("かばいたくなるんだよね", (0x01000000 +208), null, true);
+selectItem("無条件に信じてあげたくなっちゃう", (0x01000000 +209), null, true);
+selectItem("なんかこう、ゾクゾクくるんだよね", (0x01000000 +210), null, true);
+select();

@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +438)});
+set("bgm", {play = (0x03000000 +12)});
+set("se1", {play = (0x03000000 +42),loop = 1});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +87)});
+}
+set("lay5", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +440)});
+talk("サイト", null, "頭でも冷やしに来たのか？", (0x04000000 +8917));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +335)});
+talk("ルイズ", null, "な、なんかさりげなくひどいこと言うわね。\nわたしはいたって冷静よ。\nただ……。", (0x04000000 +4795));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)});
+talk("サイト", null, "ただ？", (0x04000000 +8918));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)});
+talk("ルイズ", null, "いろいろ考えてたらモヤモヤしてきて、\nちょっと夜風に当たりに来ただけ。", (0x04000000 +4796));
+next((0x01000000 +1203), true);

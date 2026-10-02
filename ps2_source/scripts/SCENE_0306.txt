@@ -1,0 +1,19 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +256)});
+}
+talk("サイト", null, "……そ、そうですね。", (0x04000000 +11664));
+talk("アンリエッタ", null, "それとも服のせいかしら？", (0x04000000 +574));
+talk("サイト", null, "は、はあ……。", (0x04000000 +11665));
+talk("サイト", null, "（ほ、本当に大丈夫なのか？）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay20", {show = 0});
+set("lay8", {show = 0});
+set("lay5", {show = 0});
+set("lay1", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+next((0x01000000 +310), true);

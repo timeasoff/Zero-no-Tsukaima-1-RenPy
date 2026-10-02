@@ -1,0 +1,25 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});
+}
+talk("サイト", null, "（ここは無抵抗主義で……）", null);
+talk("ルイズ", null, "あら。\nいいわけも抵抗もなし？", (0x04000000 +7512));
+talk("サイト", null, "……。", (0x04000000 +13708));
+talk("ルイズ", null, "そう……。\nいい心がけだわ。", (0x04000000 +7513));
+talk("ルイズ", null, "まあ、だからといって\n手加減なんてしないけど。", (0x04000000 +7514));
+talk("サイト", null, "えっ？\nい、いや、そこはほら、\n多少は、その……。", (0x04000000 +13709));
+set("se0", {play = (0x03000000 +61)});
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay1", {show = 0,reset = 1});
+set("lay5", {show = 0,reset = 1});
+waitTime(0, true);
+talk("サイト", null, "げふぅっっ！", (0x04000000 +13710));
+next((0x01000000 +1556), true);

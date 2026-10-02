@@ -1,0 +1,37 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +12)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +198)});
+}
+talk("サイト", null, "リンゴをむいてやるな。", (0x04000000 +8468));
+talk("ルイズ", null, "リンゴ？", (0x04000000 +4701));
+talk("サイト", null, "うん、リンゴ。\n結構風邪には良く効くんだぜ。", (0x04000000 +8469));
+talk("サイト", null, "俺が皮をむいてやるから待ってな。", (0x04000000 +8470));
+talk("ルイズ", null, "うん……。", (0x04000000 +4702));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +200)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "不器用。", (0x04000000 +4703));
+talk("サイト", null, "そういうなって。\n調理場のナイフ大きかったんだから。", (0x04000000 +8471));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +199)});
+waitLoad(true);
+talk("ルイズ", null, "でも、おいしい。", (0x04000000 +4704));
+like("ルイズ", 10);
+talk("サイト", null, "そうか？", (0x04000000 +8472));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +219), true);

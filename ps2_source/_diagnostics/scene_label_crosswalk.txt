@@ -1,0 +1,58 @@
+EN->JA entries: 1274
+JA extraction lines indexed: 24887
+spoken lines: 675 | EN->JA found: 673 | scene resolved: 171 | failed: 504
+
+### per rpy file -> PS2 scene coverage
+   game\chapters\0\script-ch0.rpy           scenes 5   labels=['ch0']
+   game\chapters\1\script-ch1_1.rpy         scenes 6, 10-19   labels=['ch1']
+   game\chapters\1\script-ch1_10.rpy        scenes 62   labels=['ch1_10']
+   game\chapters\1\script-ch1_2.rpy         scenes 20, 24   labels=['ch1_2']
+   game\chapters\1\script-ch1_3.rpy         scenes 11, 24, 49, 1224, 1228-1229, 1234, 1238   labels=['ch1_3', 'hallway_ch1_3', 'l_room_ch1_3', 'si_room_ch1_3']
+   game\chapters\1\script-ch1_4.rpy         scenes 28   labels=['ch1_4']
+   game\chapters\1\script-ch1_5.rpy         scenes 29   labels=['ch1_5']
+   game\chapters\1\script-ch1_6.rpy         scenes 18, 34, 39-43   labels=['ch1_6']
+   game\chapters\1\script-ch1_7.rpy         scenes 44, 48   labels=['ch1_7']
+   game\chapters\1\script-ch1_8.rpy         scenes 20, 31-32, 44, 49, 1019, 1240, 1244-1245, 1249-1250, 1254-1255   labels=['ch1_8', 'hallway_ch1_8', 'k_room_ch1_8', 'l_room_ch1_8', 'library_ch1_8']
+   game\chapters\1\script-ch1_9.rpy         scenes 54-61   labels=['ch1_9']
+   game\chapters\attention.rpy               (no scene resolved)
+   game\chapters\extra\sp_l1.rpy            scenes 88, 1473, 1699, 1720, 1724   labels=['sp_l1']
+
+### voice prefix -> scene range
+   ch0        scenes 5..5   (1 distinct)
+   ch1        scenes 6..19   (7 distinct)
+   ch1.2      scenes 20..24   (2 distinct)
+   ch1.3      scenes 11..1238   (7 distinct)
+   ch1.4      scenes 28..28   (1 distinct)
+   ch1.5      scenes 29..29   (1 distinct)
+   ch1.6      scenes 18..43   (5 distinct)
+   ch1.7      scenes 44..48   (2 distinct)
+   ch1.8      scenes 20..1255   (13 distinct)
+   ch1.9      scenes 54..61   (4 distinct)
+   sp_l1      scenes 88..1724   (5 distinct)
+
+### first 25 lines where scene could not be resolved
+   script-ch0.rpy           ch0            soldier Sir—on the street facing the main avenue, multiple explosions involvin
+   script-ch0.rpy           ch0            commander Hurry up and dispatch the fire response team. Do not let the damage es
+   script-ch0.rpy           ch0            soldier Yes, Sir!
+   script-ch0.rpy           ch0            unk    Hahahaha. You're always working hard.
+   script-ch0.rpy           ch0            commander Where is he?
+   script-ch0.rpy           ch0            unk    Let's call it a day. Hurry up and put out the fire.
+   script-ch0.rpy           ch0            unk    Objective? To dismantle every rule this country stands on.
+   script-ch0.rpy           ch0            soldier Huh?
+   script-ch0.rpy           ch0            unk    Until then, you'll just have to cherish your mundane lives, won't you?
+   script-ch0.rpy           ch0            commander Hey! Apprehend him immediately!
+   script-ch0.rpy           ch0            soldier Yes, Sir!
+   script-ch1_1.rpy         ch1            l      .....
+   script-ch1_1.rpy         ch1            l      What?
+   script-ch1_1.rpy         ch1            s      If I recall correctly, this morning you said, {i}'It's been forever si
+   script-ch1_1.rpy         ch1            s      …or something along those lines, didn't you say? I seem to recall it s
+   script-ch1_1.rpy         ch1            s      No, no, no, of course I'm curious! You seemed to be having so much fun
+   script-ch1_1.rpy         ch1            l      Well, of course YOU had a great time. You were going all lovey-dovey w
+   script-ch1_1.rpy         ch1            s      I wasn't being all lovey-dovey or anything! Wait… could it be you're j
+   script-ch1_1.rpy         ch1            l      If my stupid familiar goes around causing trouble everywhere, it'll re
+   script-ch1_1.rpy         ch1            l      That's exactly right!
+   script-ch1_1.rpy         ch1            th     My name is Hiraga Saito. I was supposed to be just an ordinary high sc
+   script-ch1_1.rpy         ch1            th     But now, I'm with this willful master — Louise Françoise Le Blanc de L
+   script-ch1_1.rpy         ch1            th     Long story short: thanks to Louise's summoning spell, I — who got call
+   script-ch1_1.rpy         ch1            th     In another world, \"Halkeginia\", where mages rule the land as nobilit
+   script-ch1_1.rpy         ch1            th     What's more, the country we live in—Tristain—suddenly came under invas

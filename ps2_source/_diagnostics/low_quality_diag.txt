@@ -1,0 +1,113 @@
+=== idx=5 n=6025 SIZE=5801 XSIZE=6025 ZIP=2 ===
+  raw:            sjis=0.688 set=0 talk=0 br=0 nl=131
+  best recon: s=3012 sjis=1.0 set=47 talk=15 br=0 nl=131
+  head: b'reset();\ntitle("\x83v\x83\x8d\x83\x8d\x81[\x83O");\ntndl(null);\nmsgoff()\nback();\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +1)});\ntrans("crossfade", 1000);\nbeginSkip();\nmsgoff()\nback()'
+  reversed:       sjis=0.771 set=0 talk=0 br=0 nl=131 head=b'er(s;tt)t\nei"lv(\x8d\x83\x8d\x83[\x83O\x81)\x83\n"n;ltndl()u\nls;omfg)fb(c\n(a;ks)t\n"ev(ne"e to,a{ipyc=t1 0 y0=,0 s o, h w,=e1el v l0=x8=,0 i a,'
+
+=== idx=471 n=1093 SIZE=1003 XSIZE=1093 ZIP=2 ===
+  raw:            sjis=0.735 set=0 talk=0 br=0 nl=21
+  best recon: s=546 sjis=1.0 set=8 talk=3 br=0 nl=21
+  head: b'if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +416)});'
+  reversed:       sjis=0.796 set=0 talk=0 br=0 nl=21 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 5o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 , e4el v l6=,1p0cotaFi'
+
+=== idx=1021 n=1857 SIZE=1708 XSIZE=1857 ZIP=2 ===
+  raw:            sjis=0.683 set=0 talk=0 br=0 nl=49
+  best recon: s=928 sjis=1.0 set=15 talk=19 br=0 nl=49
+  head: b'if (isJump()){\nreset();\nset("bgm", {play = (0x03000000 +9)});\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});\n}\ntalk("\x83T\x83C\x83g", null, "\x95\xf8\x82\xc1\x82\xb1\x82\xb5\x82\xc4\x82\xa0\x82\xb0\x82\xe6\x82\xa4\x82\xa9\x81H", '
+  reversed:       sjis=0.752 set=0 talk=0 br=0 nl=49 head=b'(is uipJ)m{(r)s\nte)e\n(e;(sbtm",g{"l yp=a( x 30000000+0) )9\n}e;(sete"tv,n{"p cota i y0=,1 0 y,=h0ws=o1 l v,le=e8 ,  0 x,='
+
+=== idx=1152 n=807 SIZE=760 XSIZE=807 ZIP=2 ===
+  raw:            sjis=0.687 set=0 talk=0 br=0 nl=14
+  best recon: s=403 sjis=1.0 set=6 talk=5 br=0 nl=14
+  head: b'if (isJump()){\nreset();\nset("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +651)});'
+  reversed:       sjis=0.795 set=0 talk=0 br=0 nl=14 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 0o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 , e4el v l6=,1p0cotaFi'
+
+=== idx=1157 n=1263 SIZE=1226 XSIZE=1263 ZIP=2 ===
+  raw:            sjis=0.673 set=0 talk=0 br=1 nl=15
+  best recon: s=631 sjis=1.0 set=8 talk=4 br=1 nl=15
+  head: b'if (isJump()){\nreset();\nset("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1014)})'
+  reversed:       sjis=0.844 set=0 talk=0 br=1 nl=15 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 7o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 , e4el v l6=,1p0cotaFi'
+
+=== idx=1273 n=1139 SIZE=1084 XSIZE=1139 ZIP=2 ===
+  raw:            sjis=0.68 set=0 talk=0 br=0 nl=16
+  best recon: s=569 sjis=1.0 set=7 talk=6 br=0 nl=16
+  head: b'if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +440)}'
+  reversed:       sjis=0.817 set=0 talk=0 br=0 nl=16 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 5o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 4 l7v,le=e1 0 o6a,ipyc'
+
+=== idx=1313 n=929 SIZE=898 XSIZE=929 ZIP=2 ===
+  raw:            sjis=0.645 set=0 talk=0 br=1 nl=14
+  best recon: s=464 sjis=1.0 set=7 talk=2 br=1 nl=14
+  head: b'if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)}'
+  reversed:       sjis=0.821 set=0 talk=0 br=1 nl=14 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 5o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 4 l7v,le=e1 0 o6a,ipyc'
+
+=== idx=1494 n=1881 SIZE=1780 XSIZE=1881 ZIP=2 ===
+  raw:            sjis=0.679 set=0 talk=0 br=0 nl=25
+  best recon: s=940 sjis=1.0 set=14 talk=8 br=0 nl=25
+  head: b'if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)}'
+  reversed:       sjis=0.837 set=0 talk=0 br=0 nl=25 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 5o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 4 l7v,le=e1 0 o6a,ipyc'
+
+=== idx=1496 n=1709 SIZE=1615 XSIZE=1709 ZIP=2 ===
+  raw:            sjis=0.589 set=0 talk=0 br=0 nl=23
+  best recon: s=854 sjis=1.0 set=12 talk=8 br=0 nl=23
+  head: b'if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)}'
+  reversed:       sjis=0.81 set=0 talk=0 br=0 nl=23 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 5o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 4 l7v,le=e1 0 o6a,ipyc'
+
+=== idx=1525 n=1087 SIZE=1048 XSIZE=1087 ZIP=2 ===
+  raw:            sjis=0.744 set=0 talk=0 br=0 nl=16
+  best recon: s=543 sjis=1.0 set=8 talk=4 br=0 nl=16
+  head: b'if (isJump()){\nreset();\nset("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)}'
+  reversed:       sjis=0.838 set=0 talk=0 br=0 nl=16 head=b'(is uipJ)m{(r)s\nte)e\n(e;(slty""a 5o,a{ipyc=t1 0 y0=,0 y r,mF=o0 s o, h w,=o1emiveT=m1 0 x0r,mF=o1 4 l7v,le=e1 0 o6a,ipyc'
+
+=== idx=1553 n=917 SIZE=905 XSIZE=917 ZIP=2 ===
+  raw:            sjis=0.667 set=0 talk=0 br=0 nl=21
+  best recon: s=458 sjis=1.0 set=12 talk=3 br=0 nl=21
+  head: b'if (isJump()){\nreset();\nset("bgm", {play = (0x03000000 +30)});\nset("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +161)});\n}\ntalk("\x83T\x83C\x83g", null, "\x98b\x82\xb9\x82\xce\x95\xaa\x82\xa9\x82\xe9\x81I", (0x0400'
+  reversed:       sjis=0.727 set=0 talk=0 br=0 nl=21 head=b'(is uipJ)m{(r)s\nte)e\n(e;(sbtm",g{"l yp=a( x 30000000+00 }3;)s)t\n"ev(ne"e to,a{ipyc=t1 0 y0=,0 s o, h w,=e1el v l0=x8=,0 '
+
+=== idx=1865 n=613 SIZE=511 XSIZE=613 ZIP=2 ===
+  raw:            sjis=0.622 set=0 talk=0 br=0 nl=17
+  best recon: s=306 sjis=1.0 set=0 talk=0 br=0 nl=17
+  head: b'restrict <- false;\nselectInit();\nselectItem("\x82\xb5\x82\xe5\x82\xab\x82\xa9", (0x01000000 +1865), "tndlInit()", true);\nselectItem("\x90\xa7\x8c\xc0\x82\xc2\x82\xab", null, "restrict=true", true);\nselectItem("\x90\xa7\x8c\xc0\x82\xc8\x82\xb5", null, "restrict=false", tru'
+  reversed:       sjis=0.691 set=0 talk=0 br=0 nl=17 head=b'tristr<c  a-sf;lsel\nceIeit(n;ts)l\nceIeet(t\x82m\x82"\x82\xb5\x82\xe5"\xab \xa90,0(0x0100 0106+)8 5t,d"Inil(n"t )r,et;us)l\nceIeet(t\x90m\x8c"\x82\xa7\x82\xc0"\xc2 \xabu,'
+
+=== idx=1867 n=259 SIZE=221 XSIZE=259 ZIP=2 ===
+  raw:            sjis=0.286 set=0 talk=0 br=0 nl=6
+  best recon: s=129 sjis=1.0 set=0 talk=0 br=0 nl=6
+  head: b'selectInit();\nselectItem("\x82Q", (0x01000000 +1869), "tdtest_type=0", true);\nselectItem("\x82R", (0x01000000 +1869), "tdtest_type=1", true);\nselectItem("\x82S", (0x01000000 +1869), "tdtest_type=2", true);\nsel'
+  reversed:       sjis=0.444 set=0 talk=0 br=0 nl=6 head=b'estlnctI)i\n(e;estltcmI"eQ(,\x82("x 10000000+08 91,6")d ettttsp_=y"e 0r,et;us)l\nceIeet(t\x82m"" R0,0(0x0100 0106+)8 9t,t"sd_eyt'
+
+=== idx=1868 n=259 SIZE=220 XSIZE=259 ZIP=2 ===
+  raw:            sjis=0.286 set=0 talk=0 br=0 nl=6
+  best recon: s=129 sjis=1.0 set=0 talk=0 br=0 nl=6
+  head: b'selectInit();\nselectItem("\x82T", (0x01000000 +1869), "tdtest_type=3", true);\nselectItem("\x82U", (0x01000000 +1869), "tdtest_type=4", true);\nselectItem("\x82V", (0x01000000 +1869), "tdtest_type=5", true);\nsel'
+  reversed:       sjis=0.444 set=0 talk=0 br=0 nl=6 head=b'estlnctI)i\n(e;estltcmI"eT(,\x82("x 10000000+08 91,6")d ettttsp_=y"e 3r,et;us)l\nceIeet(t\x82m"" U0,0(0x0100 0106+)8 9t,t"sd_eyt'
+
+=== idx=1915 n=298 SIZE=298 XSIZE=298 ZIP=4 ===
+  raw:            sjis=0.0 set=0 talk=0 br=0 nl=11
+  best recon: s=156 sjis=0.833 set=0 talk=0 br=0 nl=11
+  head: b'mIe(<";ul Iv(os,cue\n\x82e tl"m,el2"ti)=e temsRcne,\x82o Nl"mre;4ltI)(e"tum \xc2v,ox,0u0\n9e,tl"t\xac)(e1t0\n+(6tnn,=ul\n{em)efveoc  xn0)0 0v1m)er;;ni( 000e t1t \neeotN"-,\nle"ni)=e temsQcne,\x82o Nl"mre;3ltI)(e"tum Svno,'
+  reversed:       sjis=0.6 set=0 talk=0 br=0 nl=11 head=b'om es<c;il;Il(Is(c"eu\x82  vlom,eu2\nte)te"t,mlR"ni,=o Ne"src;el\x82I (l"mue 4vto),eut\nme\xc2t,"x\xac0(0190,+l6tn),eut\n\ne()tfne=cl {n'
+
+=== idx=1916 n=284 SIZE=283 XSIZE=284 ZIP=3 ===
+  raw:            sjis=0.286 set=0 talk=0 br=0 nl=10
+  best recon: s=105 sjis=0.909 set=0 talk=0 br=0 nl=10
+  head: b'sle"IvtN;5e cut;(eTc tl( Uo el= ,ore)=s,erI)ms\x82e,Ium,\x82m,iuo,"mtieo\n"lttee\n"l"tnel""\x82v,N071 0u0;1e7c tl( \xc2u";(e0c0)0i+(1x,cue,=ru))s\nem(i\nm ieoS\nnn=tn0l1{0 0v1(5v Nu;; lxt(i0)0s0e+I1m,\x82r,)ue,cmni(o\n"lt'
+  reversed:       sjis=0.25 set=0 talk=0 br=0 nl=10 head=b'lsteeI"t\x82;,e0c1t0(0T1 7l  lo eu=;,erc))sie(Ixmc\x82e,=uu,)m\nimoi"mtieo\n\nlntte0"1"0n0l1"5v Nu7; lut;ie)cste(I\xc2m"\x82(,0u0,0m+i1'
+
+=== idx=1917 n=287 SIZE=288 XSIZE=287 ZIP=3 ===
+  raw:            sjis=0.444 set=0 talk=0 br=0 nl=10
+  best recon: s=106 sjis=0.923 set=0 talk=0 br=0 nl=10
+  head: b'sle"IvtN;8e cut;(eWc tl( Xo el= ,ore)=s,erI)ms\x82e,Ium,\x82mOi ol" toee\n=l"ttee"\n\x82l,tue,"m\x82i,o001 0u0;1e8c tl( \xc2u";(e0c0)0i+(1x,cue,=ru))s\nem(i\nm ieoS\nnn=tn0l1{0 0v1(5v Nu;; lxt(i0)0s0e+I1m,\x82r,)ue,cmni(o\n"'
+  reversed:       sjis=0.222 set=0 talk=0 br=0 nl=10 head=b'lsteeI"t\x82;,e0c1t0(0W1 8l  lo eu=;,erc))sie(Ixmc\x82e,=uu,)m\nimoi"mtieo\n\nlntte0"1\x820,0u1,5m iuo;0l tui;)escetI(m\xc2\x82",(u0,0m0i+'
+
+=== idx=1918 n=293 SIZE=297 XSIZE=293 ZIP=2 ===
+  raw:            sjis=0.8 set=0 talk=0 br=1 nl=9
+  best recon: s=146 sjis=1.0 set=0 talk=0 br=1 nl=9
+  head: b'selectInit();\nselectItem("\x82P\x82P", null, "movieNo=11", true);\nselectItem("\x82P\x82Q", null, "movieNo=12", true);\nselectItem("\x82P\x82R", null, "movieNo=13", true);\nselectItem("\x82\xc2\x82\xac", (0x01000000 +1919), null, tru'
+  reversed:       sjis=0.462 set=0 talk=0 br=1 nl=9 head=b'estlnctI)i\n(e;estltcmI"eP(P\x82,\x82n"l ,u"lo imNv=e1o,1t"u )r\nee;estltcmI"eP(Q\x82,\x82n"l ,u"lo imNv=e2o,1t"u )r\nee;estltcmI"eP(R\x82'
+
+=== idx=1919 n=293 SIZE=296 XSIZE=293 ZIP=12 ===
+  raw:            sjis=0.462 set=0 talk=0 br=0 nl=9
+  best recon: s=145 sjis=0.889 set=0 talk=0 br=0 nl=9
+  head: b'sc;"(vlr1Is \x82e e"elu\x82om; (c0"20ru(sS l=(  N0(,+net\n,"i,u4tenPN"),melU=o\nt"t1,00ul)ec()=mmno00 1ilIs \x82e e"elu\x82om; (cl"1vsr\x82I0 ) el;len  ooe)0xt9tetenPN"),melT=o\nt"t,,6ieu\xc2t0(,+),\nene{nvvx;00r1(celu\x82om;'
+  reversed:       sjis=0.571 set=0 talk=0 br=0 nl=9 head=b'vsr;I( le1ese\x82u o";l(\x820m2 rc("S0lu(s  0=, nNt(,+ieu\nt"n,N4)emPl"=,\ne"U1o0tut),c0)lmen(0= mioI0 1elese\x82u o";l(\x82lm1 sc\x82"0v'

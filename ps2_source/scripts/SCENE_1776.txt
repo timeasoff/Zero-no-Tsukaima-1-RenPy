@@ -1,0 +1,48 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +185)});
+}
+set("se0", {play = (0x03000000 +59)});
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +186)});
+waitLoad(true);
+talk("サイト", null, "こ、これでいい？", (0x04000000 +10513));
+talk("ルイズ", null, "……サイトの体、暖かいね。", (0x04000000 +5233));
+talk("サイト", null, "そ、そう？", (0x04000000 +10514));
+talk("ルイズ", null, "うん……。", (0x04000000 +5234));
+talk("ルイズ", null, "こうやってサイトの腕に耳を当ててると、\nなんだかすごく落ち着くの……フワ……。", (0x04000000 +5235));
+talk("サイト", null, "ええと、その……光栄です。", (0x04000000 +10515));
+talk("ルイズ", null, "なんだか眠くなっちゃった……。", (0x04000000 +5236));
+talk("サイト", null, "俺はルイズの体の方が暖かく\n感じるけど……。", (0x04000000 +10516));
+talk("ルイズ", null, "もう……ルイズじゃなくて……。\n……ご主人様……でしょ……。\nスゥスゥ……。", (0x04000000 +5237));
+talk("サイト", null, "……あ、あの？\nルイズ？", (0x04000000 +10517));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "（……はぁ、まったく勝手だよな）", null);
+talk("サイト", null, "（でも、自分の腕の中に女の子の重さが\n　あるのって……悪くないよな）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "……スゥスゥ。", (0x04000000 +5238));
+talk("サイト", null, "（……ぐぉぉぉ、し、痺れた！\n　……う、腕の感覚がない）", null);
+selectInit();
+selectItem("そっと、外して……", (0x01000000 +1777), null, true);
+selectItem("我慢我慢！", (0x01000000 +1778), null, true);
+selectItem("ルイズを起こして……", (0x01000000 +1779), null, true);
+select();

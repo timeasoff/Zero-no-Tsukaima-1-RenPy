@@ -1,0 +1,26 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +190)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "サイト！", (0x04000000 +5372));
+vibrate(1);
+talk("サイト", null, "な、どうしたんだよ。\nいきなり俺のこと押し倒して！", (0x04000000 +10638));
+talk("ルイズ", null, "ねえ、サイト。\nわたしのことをどう思ってる？", (0x04000000 +5373));
+talk("ルイズ", null, "わたしって他の女の子にくらべて\nそんなに魅力がない？", (0x04000000 +5374));
+talk("サイト", null, "ど、どうしたんだよ、急に。\n普段はあんなに自信家のくせに。", (0x04000000 +10639));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +191)});
+waitLoad(true);
+talk("ルイズ", null, "さ、サイトが悪いんじゃない！\nあっちの女の子にふらふら、\nこっちの女の子にふらふら……。", (0x04000000 +5375));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +190)});
+waitLoad(true);
+talk("ルイズ", null, "ねぇ？\nサイトから見て、わたしってかわいい？", (0x04000000 +5376));
+selectInit();
+selectItem("ルイズはかわいい", (0x01000000 +1813), null, true);
+selectItem("ルイズもかわいい", (0x01000000 +1814), null, true);
+selectItem("でも、貧乳が……", (0x01000000 +1815), null, true);
+select();

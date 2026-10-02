@@ -1,0 +1,23 @@
+if (isJump()){
+reset();
+set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +940)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +19)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "意外と大穴でルイズかもしれない。", (0x04000000 +12091));
+set("lay19", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +946)});
+talk("デルフリンガー", null, "おいおい相棒、本気で言ってんのかい？", (0x04000000 +1342));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "あいつ、いざって時にすごいこと\nしでかしたりするからさ。\n分かんないぜ？", (0x04000000 +12092));
+tndl(30);
+set("lay19", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +940)});
+talk("デルフリンガー", null, "なるほどな。\nま、相棒のためにはそれが一番いい結果\nだろうな。", (0x04000000 +1343));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "どして？", (0x04000000 +12093));
+set("lay19", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +946)});
+talk("デルフリンガー", null, "貴族の娘っ子が優勝するような料理を\n作れればいいが、そうじゃなかったら……。\nどんな料理を作ってくると思ってんだい？", (0x04000000 +1344));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "そ、そうだった……。\nルイズ……頼むぜぇ。", (0x04000000 +12094));
+next((0x01000000 +795), true);

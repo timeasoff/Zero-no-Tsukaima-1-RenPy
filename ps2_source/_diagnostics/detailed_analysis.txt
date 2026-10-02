@@ -1,0 +1,92 @@
+Размер файла: 2351 байт
+Первые 512 байт (hex):
+  0000: 69 66 20 28 69 73 4A 75 6D 70 28 29 29 7B 0A 72  if (isJump()){.r
+  0010: 65 73 65 74 28 29 3B 0A 73 65 74 28 22 6C 61 79  eset();.set("lay
+  0020: 32 22 2C 20 7B 6F 70 61 63 69 74 79 20 3D 20 31  2", {opacity = 1
+  0030: 30 30 2C 79 20 3D 20 30 2C 79 46 72 6F 6D 20 3D  00,y = 0,yFrom =
+  0040: 20 30 2C 73 68 6F 77 20 3D 20 31 2C 6D 6F 76 65   0,show = 1,move
+  0050: 54 69 6D 65 20 3D 20 31 30 30 2C 78 46 72 6F 6D  Time = 100,xFrom
+  0060: 20 3D 20 31 37 34 2C 6C 65 76 65 6C 20 3D 20 31   = 174,level = 1
+  0070: 36 30 2C 6F 70 61 63 69 74 79 46 72 6F 6D 20 3D  60,opacityFrom =
+  0080: 20 30 2C 64 72 20 3D 20 22 31 41 22 2C 6F 70 61   0,dr = "1A",opa
+  0090: 63 69 74 79 54 69 6D 65 20 3D 20 31 30 30 2C 78  cityTime = 100,x
+  00A0: 20 3D 20 32 32 34 2C 6C 76 20 3D 20 30 2C 69 6D   = 224,lv = 0,im
+  00B0: 61 67 65 20 3D 20 28 30 78 30 32 30 30 30 30 30  age = (0x0200000
+  00C0: 30 20 2B 34 38 39 29 7D 29 3B 0A 73 65 74 28 22  0 +489)});.set("
+  00D0: 6C 61 79 31 22 2C 20 7B 6F 70 61 63 69 74 79 20  lay1", {opacity 
+  00E0: 3D 20 31 30 30 2C 79 20 3D 20 30 2C 79 46 72 6F  = 100,y = 0,yFro
+  00F0: 6D 20 3D 20 30 2C 73 68 6F 77 20 3D 20 31 2C 6D  m = 0,show = 1,m
+  0100: 6F 76 65 54 69 6D 65 20 3D 20 31 30 30 2C 78 46  oveTime = 100,xF
+  0110: 72 6F 6D 20 3D 20 2D 31 34 36 2C 6C 65 76 65 6C  rom = -146,level
+  0120: 20 3D 20 31 36 30 2C 6F 70 61 63 69 74 79 46 72   = 160,opacityFr
+  0130: 6F 6D 20 3D 20 30 2C 64 72 20 3D 20 22 31 43 22  om = 0,dr = "1C"
+  0140: 2C 6F 70 61 63 69 74 79 54 69 6D 65 20 3D 20 31  ,opacityTime = 1
+  0150: 30 30 2C 78 20 3D 20 2D 39 36 2C 6C 76 20 3D 20  00,x = -96,lv = 
+  0160: 30 2C 69 6D 61 67 65 20 3D 20 28 30 78 30 32 30  0,image = (0x020
+  0170: 30 30 30 30 30 20 2B 33 32 38 29 7D 29 3B 0A 73  00000 +328)});.s
+  0180: 65 74 28 22 62 67 6D 22 2C 20 7B 70 6C 61 79 20  et("bgm", {play 
+  0190: 3D 20 28 30 78 30 33 30 30 30 30 30 30 20 2B 33  = (0x03000000 +3
+  01A0: 30 29 7D 29 3B 0A 73 65 74 28 22 73 74 61 67 65  0)});.set("stage
+  01B0: 22 2C 20 7B 6F 70 61 63 69 74 79 20 3D 20 31 30  ", {opacity = 10
+  01C0: 30 2C 79 20 3D 20 30 2C 73 68 6F 77 20 3D 20 31  0,y = 0,show = 1
+  01D0: 2C 6C 65 76 65 6C 20 3D 20 32 30 30 2C 78 20 3D  ,level = 200,x =
+  01E0: 20 30 2C 69 6D 61 67 65 20 3D 20 28 30 78 30 32   0,image = (0x02
+  01F0: 30 30 30 30 30 30 20 2B 31 30 29 7D 29 3B 0A 7D  000000 +10)});.}
+
+=== Вызовы функций в SCENE_ID.BIN_00000033.BIN ===
+  if(isJump()
+  reset()
+  set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +489)
+  set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)
+  set("bgm", {play = (0x03000000 +30)
+  set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)
+  set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)
+  talk("シエスタ", null, "そうです。\nあの娘のことで来たんです。", (0x04000000 +14525)
+  set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+  set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +416)
+  talk("サイト", null, "え？", (0x04000000 +10905)
+  talk("シエスタ", null, "あの娘がさっき目を覚ましたんです。\nそれでわたし、サイトさんとミス・\nヴァリエールにお知らせしようと思って……。", (0x04000000 +14526)
+  set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +414)
+  talk("サイト", null, "本当！？\n分かった、すぐに行くよ！", (0x04000000 +10906)
+  set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+  set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)
+  talk("ルイズ", null, "え、あ、ちょっとサイト！？\nわたしが着替えるまで待ちなさいよ！！", (0x04000000 +5633)
+  set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +493)
+  talk("シエスタ", null, "あ、サイトさん。\n待ってください！", (0x04000000 +14527)
+  msgoff()
+  set("se1", {stop = 1})
+  set("bgm", {stop = 1000})
+  set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+  set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+  set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+  waitTime(1000, true)
+  next((0x01000000 +34)
+
+=== Строки в SCENE_ID.BIN_00000033.BIN (Shift-JIS) ===
+  if (isJump()){
+  reset();
+  set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +489)});
+  set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+  set("bgm", {play = (0x03000000 +30)});
+  set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+  set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +489)});
+  talk("シエスタ", null, "そうです。\nあの娘のことで来たんです。", (0x04000000 +14525));
+  set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+  set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +416)});
+  talk("サイト", null, "え？", (0x04000000 +10905));
+  talk("シエスタ", null, "あの娘がさっき目を覚ましたんです。\nそれでわたし、サイトさんとミス・\nヴァリエールにお知らせしようと思って……。", (0x04000000 +14526));
+  set("lay5", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +414)});
+  talk("サイト", null, "本当！？\n分かった、すぐに行くよ！", (0x04000000 +10906));
+  set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+  set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+  talk("ルイズ", null, "え、あ、ちょっとサイト！？\nわたしが着替えるまで待ちなさいよ！！", (0x04000000 +5633));
+  set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +493)});
+  talk("シエスタ", null, "あ、サイトさん。\n待ってください！", (0x04000000 +14527));
+  msgoff()
+  set("se1", {stop = 1});
+  set("bgm", {stop = 1000});
+  set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+  set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+  set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+  waitTime(1000, true);
+  next((0x01000000 +34), true);

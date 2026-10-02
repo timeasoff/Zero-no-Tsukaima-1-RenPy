@@ -1,0 +1,24 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +808)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +396)});
+set("bgm", {play = (0x03000000 +10)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +85)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "道に迷うと大変ですよ。", (0x04000000 +10302));
+set("lay8", {y = 0,dr = "2B",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +814),imageType = 2});
+talk("アンリエッタ", null, "……そうですね。\nわたくしの道……。\n一体どこにあるのかしら……。", (0x04000000 +498));
+set("lay5", {y = 0,dr = "2A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +429),imageType = 2});
+talk("サイト", null, "いや、一本道だと思って油断してると、\nけっこう道が複雑に絡み合ってるらしくて。", (0x04000000 +10303));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "まあ、それは大変ですね。", (0x04000000 +499));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "自分は大丈夫なつもりでも、はたから見れば\nただの無茶ってこともよくある話ですよ。", (0x04000000 +10304));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +814)});
+talk("アンリエッタ", null, "それは、本当に道に迷う話ですね。", (0x04000000 +500));
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "え？\n他になにか？", (0x04000000 +10305));
+set("lay8", {show = 1,level = 160,dr = "2B",lv = 0,image = (0x02000000 +808)});
+talk("アンリエッタ", null, "何でもありませんわ。", (0x04000000 +501));
+next((0x01000000 +1443), true);

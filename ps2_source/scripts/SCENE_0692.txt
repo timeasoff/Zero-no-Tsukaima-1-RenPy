@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("bgm", {play = (0x03000000 +28)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +70)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "敵に捕まったりするんじゃないぞ。", (0x04000000 +11758));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "な……！\nこ、この使い魔は、ご主人様をつかまえて\n何てことを言うのかしら？", (0x04000000 +6313));
+tndl(-40);
+set("lay5", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "だっておまえ、魔法が使えるったって、\n相手は人数が多いんだ。", (0x04000000 +11759));
+talk("サイト", null, "虚無の魔法もいいけど、使う場面が来る前に\n一巻の終わりじゃあ、しょうがないからな。", (0x04000000 +11760));
+next((0x01000000 +694), true);

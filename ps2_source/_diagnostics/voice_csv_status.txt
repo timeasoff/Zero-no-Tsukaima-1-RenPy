@@ -1,0 +1,24 @@
+csv rows with filename: 15064
+sample: ['# ch1 saito', '# ch1 siesta', '# ch_1 haruna']
+max id seen: ['ch_1 siesta', 'ch_1 tabitha', 'yo-saito.wav']
+resolved psv: 1082
+present uppercase-hex=9  lowercase=0  absent=999
+uppercase letter examples: ['VOICE_ID.BIN_0000084F.wav', 'VOICE_ID.BIN_000010BD.wav', 'VOICE_ID.BIN_000010C4.wav', 'VOICE_ID.BIN_00001D36.wav', 'VOICE_ID.BIN_00001F2A.wav']
+
+### per rpy: psv resolved / present-in-csv
+   game\chapters\0\script-ch0.rpy                  3 /   14
+   game\chapters\1\script-ch1_1.rpy                0 /  134
+   game\chapters\1\script-ch1_10.rpy               2 /  199
+   game\chapters\1\script-ch1_2.rpy                0 /   45
+   game\chapters\1\script-ch1_3.rpy                1 /  108
+   game\chapters\1\script-ch1_4.rpy                0 /   21
+   game\chapters\1\script-ch1_5.rpy                0 /   69
+   game\chapters\1\script-ch1_6.rpy                0 /  117
+   game\chapters\1\script-ch1_7.rpy                0 /   73
+   game\chapters\1\script-ch1_8.rpy                0 /  148
+   game\chapters\1\script-ch1_9.rpy                0 /   86
+   game\chapters\extra\sp_l1.rpy                   5 /   68
+
+### game/tl layout
+   japanese             ['characters.rpy', 'characters.rpyc', 'choises.rpy', 'choises.rpyc', 'common.rpy', 'common.rpyc', 'dialogs.rpy', 'dialogs.rpyc', 'options.rpy', 'options.rpyc', 'overlays.rpy', 'overlays.rpyc', 'remark.rpyc.bak', 'screens.rpy', 'screens.rpyc', 'script-ch0.rpyc.bak', 'script-ch1.rpyc.bak', 'thoughs.rpy', 'thoughs.rpyc']
+   russian              ['characters.rpy', 'characters.rpyc', 'choises.rpy', 'choises.rpyc', 'common.rpy', 'common.rpyc', 'dialogs.rpy', 'dialogs.rpyc', 'dialogs_fixed.rpyc.bak', 'dot_checker.py', 'options.rpy', 'options.rpyc', 'overlays.rpy', 'overlays.rpyc', 'remark.rpyc.bak', 'remark_ru.rpyc.bak', 'screens.rpy', 'screens.rpyc', 'script-ch0.rpyc.bak', 'script-ch1.rpyc.bak', 'thoughs.rpy', 'thoughs.rpyc']

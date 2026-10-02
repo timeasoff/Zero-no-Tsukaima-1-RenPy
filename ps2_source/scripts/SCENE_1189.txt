@@ -1,0 +1,46 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +14)});
+msgon()
+talk("サイト", null, "（なんだか今日はいろいろなことがあって、\n　どっと疲れた）", null);
+msgoff()
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +252)});
+trans("crossfade", 1000);
+msgon()
+set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+set("lay6", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50});
+vibrate(2);
+waitTime(800, true);
+set("stage", {show = 0,reset = 1});
+set("event", {show = 1,reset = 1});
+set("lay5", {show = 0,reset = 1});
+set("lay6", {show = 0,reset = 1});
+waitTime(0, true);
+talk("キュルケ", null, "おにいちゃん。", (0x04000000 +2859));
+talk("サイト", null, "おわっ、キュルケ！", (0x04000000 +9078));
+talk("サイト", null, "ど、どうしたんだ？\nこんな夜更けに。", (0x04000000 +9079));
+talk("キュルケ", null, "あ、あのね。\nその……。", (0x04000000 +2860));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +253)});
+waitLoad(true);
+talk("キュルケ", null, "おへやがこわいの……。", (0x04000000 +2861));
+talk("サイト", null, "怖いって……。\n何かあったっけ？", (0x04000000 +9080));
+talk("キュルケ", null, "くらくて……しずかで……。", (0x04000000 +2862));
+talk("キュルケ", null, "ね、おにいちゃん。\nいっしょにねて……いい？", (0x04000000 +2863));
+talk("サイト", null, "うっ。", (0x04000000 +9081));
+talk("キュルケ", null, "ダメなの？", (0x04000000 +2864));
+talk("サイト", null, "ちょ、ちょっと待って！\nそんな上目遣いで言われても……。", (0x04000000 +9082));
+selectInit();
+selectItem("大歓迎", (0x01000000 +1190), null, true);
+selectItem("……はぁ、仕方ないか", (0x01000000 +1191), null, true);
+selectItem("ぜ、絶対ダメ！", (0x01000000 +1192), null, true);
+select();

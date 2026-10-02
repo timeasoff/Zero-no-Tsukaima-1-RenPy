@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +489)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +418)});
+set("bgm", {play = (0x03000000 +5)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+}
+talk("サイト", null, "徹夜とかしてないよな？", (0x04000000 +10989));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +328)});
+talk("ルイズ", null, "そっ、そんなわけないでしょ。\nちゃんと寝たわよ。", (0x04000000 +5721));
+talk("サイト", null, "授業中に寝ることになると使い魔としては\n恥ずかしいから、ちゃんと睡眠時間を取れよ。", (0x04000000 +10990));
+talk("ルイズ", null, "だから、ちゃんと寝てるって\n言ってるじゃない！\nそれにいつも寝てるのはあんたでしょ？", (0x04000000 +5722));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +528)});
+talk("シエスタ", null, "え、サイトさん、授業中に寝てるんですか？", (0x04000000 +14556));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2C",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +451)});
+talk("サイト", null, "い、いや、その……。\nほら、俺この世界の文字が読めないから、\n授業に参加できなくてさ……。", (0x04000000 +10991));
+set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +324)});
+talk("ルイズ", null, "ふん、やる気が足りないのよ。", (0x04000000 +5723));
+next((0x01000000 +72), true);

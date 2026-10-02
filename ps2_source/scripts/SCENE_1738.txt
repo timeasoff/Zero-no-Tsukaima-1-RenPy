@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+}
+talk("サイト", null, "なんか、涙が出てきた……。", (0x04000000 +10431));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +180)});
+waitLoad(true);
+talk("ルイズ", null, "な、なによ、大げさね。\nそんなに褒めたって、何も出ないんだから。", (0x04000000 +5131));
+talk("サイト", null, "あ、あはははは。\nご、ご主人様は天才でしゅ……。", (0x04000000 +10432));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +179)});
+waitLoad(true);
+talk("ルイズ", null, "もう……馬鹿なこと言ってないで、食べなさい。", (0x04000000 +5132));
+talk("サイト", null, "は、はいでしゅ……。", (0x04000000 +10433));
+next((0x01000000 +1740), true);

@@ -1,0 +1,37 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +4)});
+msgon()
+talk("ルイズ", null, "……サイトはわたしの使い魔よね？", (0x04000000 +5246));
+talk("ルイズ", null, "だったら、これは命令よ！\n今日は一日わたしと一緒にいなさい！\n……め、命令なんだからね！", (0x04000000 +5247));
+talk("サイト", null, "そ、そりゃいいけど。", (0x04000000 +10523));
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +185)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "な、なあ。\nルイズ。", (0x04000000 +10524));
+talk("ルイズ", null, "……な、なによ。", (0x04000000 +5248));
+talk("サイト", null, "ちょっと、くっつきすぎじゃありませんか？", (0x04000000 +10525));
+talk("ルイズ", null, "い、いいじゃない。", (0x04000000 +5249));
+talk("サイト", null, "（今日は一日中べたべたしてた気がするのに\n　まだ足りないっていうのかよ……）", null);
+talk("サイト", null, "（で、でもそれにしても……）", null);
+talk("サイト", null, "（……女の子の体って、\n　暖かくてやわらかいなぁ。\n　……それにいい匂いが……）", null);
+talk("サイト", null, "……って、何考えてんだよ俺！", (0x04000000 +10526));
+talk("ルイズ", null, "もうっ、どうしたのよ？", (0x04000000 +5250));
+talk("サイト", null, "ええと、いやその……。", (0x04000000 +10527));
+selectInit();
+selectItem("正直に……", (0x01000000 +1781), null, true);
+selectItem("からかってみる？", (0x01000000 +1782), null, true);
+selectItem("笑ってごまかす", (0x01000000 +1783), null, true);
+select();

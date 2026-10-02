@@ -1,0 +1,9 @@
+if (isJump()){
+reset();
+}
+next((0x01000000 +670), zero_route==1);
+next((0x01000000 +549), zero_route==2);
+next((0x01000000 +903), zero_route==3);
+next((0x01000000 +771), zero_route==4);
+next((0x01000000 +344), zero_route==5);
+next((0x01000000 +431), zero_route==6);

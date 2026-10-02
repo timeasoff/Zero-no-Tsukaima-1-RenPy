@@ -1,0 +1,53 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +214)});
+}
+msgoff()
+set("lay1", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +20)});
+trans("crossfade", 1000);
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +310)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("ルイズ", null, "ほら……これ。", (0x04000000 +5083));
+talk("サイト", null, "へっ？", (0x04000000 +10385));
+talk("ルイズ", null, "わたしが特別に作らせたんだから、\nありがたく食べなさい。", (0x04000000 +5084));
+set("lay5", {y = 0,dr = "2A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +429),imageType = 2});
+talk("サイト", null, "え？\n作らせた？", (0x04000000 +10386));
+set("lay1", {y = 0,dr = "2A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +343),imageType = 2});
+talk("ルイズ", null, "……えっ？\nあっっ！？", (0x04000000 +5085));
+set("lay1", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "ち、違うわよっ！\n何言ってるのっ！！", (0x04000000 +5086));
+talk("ルイズ", null, "お、思い上がらないでよねっ！\nの、残っちゃったから、\n取っておいてもらったのよっっ！！", (0x04000000 +5087));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "わ、わた、わたしが、\n何でわざわざあんたのために\n作ってもらわないといけないのよっ！", (0x04000000 +5088));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "あ……うん。\n分かった分かった。\nそれで……これ、もらっていいのか？", (0x04000000 +10387));
+set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)});
+talk("ルイズ", null, "だ、だからそう言ってるでしょ！\n目の前に置いてお預け、なんて言わないわよ。", (0x04000000 +5089));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +392)});
+talk("サイト", null, "うん。\nそれじゃ、いただきまーす。", (0x04000000 +10388));
+msgoff()
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +179)});
+trans("crossfade", 1000);
+msgon()
+talk("ルイズ", null, "はい、あーん。", (0x04000000 +5090));
+talk("サイト", null, "ま、またっ！！", (0x04000000 +10389));
+talk("ルイズ", null, "なによ。\nイヤなの？", (0x04000000 +5091));
+talk("サイト", null, "いや、その……イヤって言うか……。", (0x04000000 +10390));
+selectInit();
+selectItem("だって恥ずかしいじゃん", (0x01000000 +1729), null, true);
+selectItem("イヤだっ！", (0x01000000 +1730), null, true);
+selectItem("あ、あーん", (0x01000000 +1731), null, true);
+select();

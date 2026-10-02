@@ -1,0 +1,1585 @@
+
+=== SCENE_ID.BIN_00000001.BIN ===
+back()
+back()
+back(fore)
+
+=== SCENE_ID.BIN_00000002.BIN ===
+back(fore)
+
+=== SCENE_ID.BIN_00000003.BIN ===
+back()
+back(false)
+trans(name, time)
+tndl(add)
+
+=== SCENE_ID.BIN_00000005.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"e" pa  00000 6)
+irt()
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+14};tas"rsfd" 00;vie(x4000+06,ャ�";wiVie)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7};tas"rsfd" 00;mgn)
+bc(;wiTm(00 re;st"vn" y=0lvl=8,  ,mg  00000 9)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+15};tas"rsfd" 00;vie(x4000+07,ャ�";wiVie)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+16};tas"rsfd" 00;vie(x4000+08,ャ�";wiVie)
+
+=== SCENE_ID.BIN_00000006.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 12)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+
+=== SCENE_ID.BIN_00000010.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000011.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000015.BIN ===
+ated(ャ�";btlEey"ｶ,"せm,(x2000+18)
+ated(ャ�";btlAd"気Y)
+
+=== SCENE_ID.BIN_00000016.BIN ===
+bc(;st"a5,{  ,hw=1lvl=10d  1"x=24l  ,mg  00000 34};st"a1,{pct  0,  ,hw=1lvl=10d  2"x=-6l  ,mg  00000 39};st"a1" y=0so  ,  9};tas"rsfd" )
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000018.BIN ===
+irt()
+
+=== SCENE_ID.BIN_00000020.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000024.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+irt()
+
+=== SCENE_ID.BIN_00000028.BIN ===
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000029.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000030.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000031.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+irt()
+bc(;wiTm(00 re;st"a2,{pct  0,  ,hw=1lvl=10d  1"x=24l  ,mg  00000 45};st"a5,{pct  0,  ,ee  6,hw=1d  1"x=-6l  ,mg  00000 48};st"a1,{  ,hw=0x=-6)
+
+=== SCENE_ID.BIN_00000032.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000034.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000039.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+irt()
+
+=== SCENE_ID.BIN_00000040.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+irt()
+irt()
+
+=== SCENE_ID.BIN_00000041.BIN ===
+irt()
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+irt()
+irt()
+
+=== SCENE_ID.BIN_00000042.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000043.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000044.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000049.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000054.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000056.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000061.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000062.BIN ===
+fle(x3000+)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+ae(x1000+8,as,00000 4)
+
+=== SCENE_ID.BIN_00000068.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 12)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000072.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000073.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000074.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000081.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000082.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000085.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000086.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000087.BIN ===
+irt()
+
+=== SCENE_ID.BIN_00000090.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000093.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000094.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+ated(ャ�";btlAd"気Y)
+ated(ャャ";btlEey"ｶ,"せm,(x2000+18)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+irt()
+ated(ャ�";btlAd"L�輝)
+
+=== SCENE_ID.BIN_00000095.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 0)
+back()
+trans("crossfade", 0)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 0)
+back()
+trans("crossfade", 0)
+
+=== SCENE_ID.BIN_00000096.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000099.BIN ===
+bc(;wiTm(0,tu)
+irt()
+bc(;st"vn" y=0lvl=8,  ,mg  00000 11};tas"rsfd" )
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000100.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000106.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+8};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+0};mgn)
+
+=== SCENE_ID.BIN_00000109.BIN ===
+back()
+trans("crossfade", 1000)
+tndl(-30)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000110.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000113.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000114.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000115.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000119.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000120.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000125.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000130.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000131.BIN ===
+ae(x1000+3)
+fle(x3000+)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000137.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000142.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000147.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000149.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000150.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000152.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000153.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000157.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000163.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+irt()
+
+=== SCENE_ID.BIN_00000164.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000168.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+irt()
+
+=== SCENE_ID.BIN_00000169.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000173.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000174.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000175.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000178.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000183.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000187.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+irt()
+irt()
+
+=== SCENE_ID.BIN_00000191.BIN ===
+irt()
+
+=== SCENE_ID.BIN_00000192.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000197.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000202.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000206.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+ated(ャ�";btlEey"�,"GL�輝,(x2000+4)
+ated(ャ�";btlAd"気Y)
+
+=== SCENE_ID.BIN_00000207.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000212.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000213.BIN ===
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+ae(x1000+1)
+fle(x3000+)
+
+=== SCENE_ID.BIN_00000219.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+8};tas"rsfd" 00;tl(ャ�" ul ＜ャｃャモ曹ｂｂ―￥唐ｂｊ奄ｂｂｂ�\♂窒＝�" ul;tl(ャ�" ul ♀薗ｎ曹趨ｂｂｂ\≠ｂｂｂｂｂ�" ul;tl(ャ�" ul ≠ｂ￥唐渇ｂ窒盾ｂｂｂ\°ｂｂａ" ul;mgf(
+e(bm,{tp=10};mgf(
+e(ly" so  };st"tg" oaiy=0hd  ,pctTm  00)
+
+=== SCENE_ID.BIN_00000222.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000224.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000225.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000231.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000236.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+2)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+2)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 13};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+0};mgn)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+2)
+
+=== SCENE_ID.BIN_00000237.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000238.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000239.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000241.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+
+=== SCENE_ID.BIN_00000245.BIN ===
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+bc(;wiTm(0,tu)
+
+=== SCENE_ID.BIN_00000246.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 13};tas"rsfd" 00;st"a2,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+9)
+
+=== SCENE_ID.BIN_00000247.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000248.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000256.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+3};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+1};mgn)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000257.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000258.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000260.BIN ===
+irt()
+
+=== SCENE_ID.BIN_00000261.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+ated(ャ�";btlAd"気Y)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+ated(ャ�";btlEey"ｶ,"}堵ALi,(x2000+04)
+
+=== SCENE_ID.BIN_00000262.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+irt()
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000263.BIN ===
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000264.BIN ===
+ae(x1000+6)
+fle(x3000+)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+
+=== SCENE_ID.BIN_00000269.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+8};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;wiTm(0,tu)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000270.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000275.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000279.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+ated(ャ�";btlAd"L�輝)
+ated(ャ�";btlEey"ｶ,"せm,(x2000+18)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+ated(ャ�";btlAd"気Y)
+ated(ャャ";btlAd"^oT)
+
+=== SCENE_ID.BIN_00000280.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000281.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000285.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000290.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000295.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000300.BIN ===
+bc(;st"a1,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000305.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000310.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000314.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000320.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000321.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000329.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000330.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000335.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000341.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000342.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000344.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 16)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+9};st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+0)
+
+=== SCENE_ID.BIN_00000346.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000347.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000348.BIN ===
+irt()
+
+=== SCENE_ID.BIN_00000349.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000354.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000355.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000360.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000365.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+6)
+
+=== SCENE_ID.BIN_00000370.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000375.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 16)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+
+=== SCENE_ID.BIN_00000380.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000382.BIN ===
+tndl(-40)
+
+=== SCENE_ID.BIN_00000385.BIN ===
+bc(;st"a1,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000389.BIN ===
+ated(ャ�";btlAd"気Y)
+ated(ャ�";btlEey"ｶ,"せm,(x2000+18)
+
+=== SCENE_ID.BIN_00000390.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000394.BIN ===
+irt()
+
+=== SCENE_ID.BIN_00000395.BIN ===
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7};tas"rsfd" 00;mgn)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000399.BIN ===
+ated(ャ�";btlEey"ｶ,"ｺm,(x2000+11)
+ated(ャ�";btlAd"気Y)
+
+=== SCENE_ID.BIN_00000400.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;wiTm(0,tu)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+3};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+6};st"e" pa  00000 5)
+
+=== SCENE_ID.BIN_00000403.BIN ===
+tndl(-40)
+
+=== SCENE_ID.BIN_00000404.BIN ===
+ae(x1000+0)
+fle(x3000+)
+
+=== SCENE_ID.BIN_00000405.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 16)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+
+=== SCENE_ID.BIN_00000410.BIN ===
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000411.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+6)
+
+=== SCENE_ID.BIN_00000412.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000417.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000419.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 0)
+
+=== SCENE_ID.BIN_00000420.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000421.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000424.BIN ===
+ii( u;aSt(l u;e"0 l (000+)
+ii(0te
+tsg,sw re=}
+ten,sw re=}
+tl3 h 0et )
+ii( u;aSt(l u;sf)
+ii( u;aSt(l u;e"0 l (000+)
+ii(0te
+tsg,sw re=}
+ten,sw re=}
+tl3 h 0et )
+ii(0 u;e"y,ocy y yo=,vi 1,r 2,atr 1,d=,ati 1,=7)
+ii(0te
+tsg,sw re=}
+ten,sw re=}
+tl3 h 0et )
+ii( u;aSt(l u;e"0 l (000+)
+ii(0te
+tsg,sw re=}
+ten,sw re=}
+tl3 h 0et )
+
+=== SCENE_ID.BIN_00000425.BIN ===
+ated(ャ�";btlAd"気Y)
+ated(ャ�";btlAd"L�輝)
+ated(ャ�";btlAd"^oT)
+ated(ャャ";btlEey"ｶ,"せm,(x2000+18)
+
+=== SCENE_ID.BIN_00000426.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  2"oaiyie=10x=6,v=0iae=(x2000+3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"a6,{hw=0)
+
+=== SCENE_ID.BIN_00000427.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+bc(;st"a2" so  };st"a2" so  };st"a1" so  };st"a8,{hw=0)
+ated(ャ�";btlAd"A投Gb^)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+ated(ャ�";btlAd"気Y)
+ated(ャャャ";btlEey"ｶ,"EFU骸,(x2000+07)
+
+=== SCENE_ID.BIN_00000428.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+bc(;st"vn" y=0lvl=8,  ,mg  00000 11};wiTm(0,tu)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000429.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 16)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+2};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+9};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+0)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+9)
+bc(;st"a4,{hw=0)
+
+=== SCENE_ID.BIN_00000430.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+irt()
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+irt()
+bc(;wiTm(00 re;st"a8,{pct  0,  ,hw=1lvl=10d  1"x=6,v=0iae=(x2000+6)
+
+=== SCENE_ID.BIN_00000431.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 17)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+9};st"a7,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000435.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000436.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000441.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000446.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000451.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000456.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7)
+
+=== SCENE_ID.BIN_00000460.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000461.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000462.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000463.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000467.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 17)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+8};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+0};mgn)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+
+=== SCENE_ID.BIN_00000469.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000470.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000472.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000473.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000478.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000479.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000481.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000483.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000484.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;mgn)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000485.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000489.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7)
+
+=== SCENE_ID.BIN_00000490.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000495.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000496.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000498.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000500.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000504.BIN ===
+bc(;wiTm(0,tu)
+
+=== SCENE_ID.BIN_00000505.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000507.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000508.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000510.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 17)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};st"e" pa  00000 6)
+irt()
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+
+=== SCENE_ID.BIN_00000515.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000516.BIN ===
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+irt()
+irt()
+
+=== SCENE_ID.BIN_00000517.BIN ===
+irt()
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000518.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000519.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000521.BIN ===
+back()
+trans("crossfade", 0)
+
+=== SCENE_ID.BIN_00000526.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000527.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+irt()
+
+=== SCENE_ID.BIN_00000532.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000533.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000537.BIN ===
+ated(ャ�";btlAd"気Y)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+ated(ャ�";btlEey"ｶ,"ALi,(x2000+03)
+
+=== SCENE_ID.BIN_00000538.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"vn" y=0lvl=8,  ,mg  00000 11};wiTm(0,tu)
+
+=== SCENE_ID.BIN_00000539.BIN ===
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+8};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+1};st"e" pa  00000 3)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 17)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+
+=== SCENE_ID.BIN_00000540.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000541.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000542.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+
+=== SCENE_ID.BIN_00000544.BIN ===
+bc(;st"a2" oaiy=10y=0so  ,ee  6,r="A,  9,v=0iae=(x2000+09};st"a7,{  ,hw=0x=-6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000548.BIN ===
+bc(;st"a2" y=0so  ,  4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+2};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+7};st"a2" oaiy=10y=0yrm=0so  ,oeie=10xrm=1,ee  6,pctFo  ,r="A,pctTm  0,  4l  ,mg  00000 11)
+
+=== SCENE_ID.BIN_00000549.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+9};st"e" pa  00000 5)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000550.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000552.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000554.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000555.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+
+=== SCENE_ID.BIN_00000556.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+
+=== SCENE_ID.BIN_00000557.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+
+=== SCENE_ID.BIN_00000559.BIN ===
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000568.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+
+=== SCENE_ID.BIN_00000570.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000573.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000574.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000575.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000577.BIN ===
+ae(x1000+7)
+fle(x3000+)
+
+=== SCENE_ID.BIN_00000578.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000583.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+
+=== SCENE_ID.BIN_00000586.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000588.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000593.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000594.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+
+=== SCENE_ID.BIN_00000598.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000599.BIN ===
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000604.BIN ===
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+9};tas"rsfd" 00;wiTm(0,tu)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000607.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000608.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000609.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"a5,{hw=0)
+
+=== SCENE_ID.BIN_00000614.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000615.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000616.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000617.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000618.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+ae(x1000+1)
+fle(x3000+)
+
+=== SCENE_ID.BIN_00000619.BIN ===
+tndl(null)
+back()
+trans("crossfade", 500)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 2000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000623.BIN ===
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+irt()
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"a6,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+0)
+irt()
+
+=== SCENE_ID.BIN_00000624.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 15)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 6)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+7};st"a2" oaiy=10y=0yrm=0so  ,oeie=10xrm=1,ee  6,pctFo  ,r="B,pctTm  0,  4l  ,mg  00000 12)
+
+=== SCENE_ID.BIN_00000629.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000634.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000635.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000636.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000641.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+bc(;st"a8,{hw=0)
+
+=== SCENE_ID.BIN_00000642.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000646.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+
+=== SCENE_ID.BIN_00000651.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+bc(;wiTm(0,tu)
+
+=== SCENE_ID.BIN_00000653.BIN ===
+bc(;mgn)
+
+=== SCENE_ID.BIN_00000654.BIN ===
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 1000)
+back()
+trans("crossfade", 0)
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000655.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+bc(;st"vn" y=0lvl=8,  ,mg  00000 11};wiTm(0,tu)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000660.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 16)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"a1,{hw=0)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+6};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000665.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+
+=== SCENE_ID.BIN_00000669.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000670.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+3};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+0};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+0)
+
+=== SCENE_ID.BIN_00000674.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000675.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000676.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000677.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000678.BIN ===
+back()
+trans("crossfade", 1000)
+tndl(-40)
+
+=== SCENE_ID.BIN_00000680.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+
+=== SCENE_ID.BIN_00000681.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000682.BIN ===
+back()
+trans("crossfade", 1000)
+tndl(40)
+
+=== SCENE_ID.BIN_00000683.BIN ===
+back()
+trans("crossfade", 1000)
+
+=== SCENE_ID.BIN_00000685.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0)
+
+=== SCENE_ID.BIN_00000686.BIN ===
+bc(;st"a8,{hw=0)
+
+=== SCENE_ID.BIN_00000687.BIN ===
+back()
+trans("crossfade", 1000)
+tndl(-40)
+
+=== SCENE_ID.BIN_00000688.BIN ===
+bc(;st"a8,{hw=0)
+
+=== SCENE_ID.BIN_00000689.BIN ===
+irt()
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000690.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000695.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+ae(x1000+9)
+fle(x3000+)
+
+=== SCENE_ID.BIN_00000696.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a1" so  };st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000700.BIN ===
+back()
+trans("crossfade", 0)
+
+=== SCENE_ID.BIN_00000701.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 7)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+5};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  2"oaiyie=10x=-6l  ,mg  00000 39};st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+9)
+
+=== SCENE_ID.BIN_00000705.BIN ===
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000706.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000707.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000708.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000709.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000711.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000712.BIN ===
+ated(ャ�";btlAd"^oT)
+ated(ャャ";btlEey"ｶ,"ｺm,(x2000+11)
+irt()
+ated(ャ�";btlAd"気Y)
+ated(ャ�";btlAd"L�輝)
+
+=== SCENE_ID.BIN_00000713.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000714.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000716.BIN ===
+tndl(-30)
+
+=== SCENE_ID.BIN_00000718.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+5)
+
+=== SCENE_ID.BIN_00000722.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+ated(ャ�";btlAd"気Y)
+irt()
+ated(ャ�";btlEey"ｶ,"ｺm,(x2000+11)
+
+=== SCENE_ID.BIN_00000723.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000727.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+
+=== SCENE_ID.BIN_00000728.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+irt()
+
+=== SCENE_ID.BIN_00000731.BIN ===
+tndl(30)
+
+=== SCENE_ID.BIN_00000732.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000733.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+3)
+irt()
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000738.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+ae(x1000+3)
+fle(x3000+)
+
+=== SCENE_ID.BIN_00000739.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+2};tas"rsfd" 00;st"a9,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+2)
+
+=== SCENE_ID.BIN_00000744.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000748.BIN ===
+ated(ャ�";btlEey"E,"GL�輝,(x2000+4)
+ated(ャ�";btlAd"気Y)
+
+=== SCENE_ID.BIN_00000749.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000750.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000751.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000756.BIN ===
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000759.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000762.BIN ===
+ated(ャ�";btlAd"L�輝)
+ated(ャャ";btlEey"ｶ,"せm,(x2000+18)
+
+=== SCENE_ID.BIN_00000763.BIN ===
+bc(;st"vn" y=0lvl=8,  ,mg  00000 11};wiTm(0,tu)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4)
+
+=== SCENE_ID.BIN_00000764.BIN ===
+bc(;wiTm(0,tu)
+ated(ャ�";btlEey"ｶ,"ALi,(x2000+03)
+ated(ャ�";btlAd"^oT)
+
+=== SCENE_ID.BIN_00000765.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000768.BIN ===
+back()
+trans("crossfade", 0)
+
+=== SCENE_ID.BIN_00000769.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2};tas"rsfd" 0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 13)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+1)
+irt()
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+8)
+bc(;st"a1,{hw=0)
+
+=== SCENE_ID.BIN_00000770.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+irt()
+irt()
+bc(;st"a1,{  ,hw=0x=-6)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"vn" oaiy=10y=0so  ,ee  0x=0iae=(x2000+7)
+
+=== SCENE_ID.BIN_00000771.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"a5,{hw=0)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 14)
+irt()
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 16)
+bc(;st"tg" oaiy=10y=0lvl=20so  ,  ,mg  00000 2};tas"rsfd" 00;edkp)
+bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+0};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+0)
+bc(;mgn)
+irt()
+irt()
+
+=== SCENE_ID.BIN_00000776.BIN ===
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)

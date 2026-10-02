@@ -1,0 +1,13 @@
+reset();
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +213)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +30)});
+msgon()
+talk("ルイズ", null, "さて、今日はどんなお仕置きを\nしてあげようかしら？", (0x04000000 +7745));
+selectInit();
+selectItem("冤罪であります！", (0x01000000 +1625), null, true);
+selectItem("ダッシュ逃亡！", (0x01000000 +1626), null, true);
+selectItem("可愛いご主人様と褒める！", (0x01000000 +1627), null, true);
+select();

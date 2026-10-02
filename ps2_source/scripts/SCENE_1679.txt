@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +30)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +178)});
+}
+talk("サイト", null, "わんっ！\nこ、こうですかっ？\nご主人様っ！", (0x04000000 +14089));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +176)});
+waitLoad(true);
+talk("ルイズ", null, "ダメダメねっ！\n練習しときなさいっ！", (0x04000000 +7890));
+talk("サイト", null, "わん！\n分かりました！\nご主人様！", (0x04000000 +14090));
+talk("サイト", null, "（ひゃ、百面相の練習でもしろってか！）", null);
+talk("ルイズ", null, "（ほ、本気で練習するつもりかしら？）", (0x04000000 +7891));
+next((0x01000000 +1680), true);

@@ -1,0 +1,56 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +38)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +31)});
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +1061)});
+msgon()
+talk("サイト", null, "……あれ？\nウェザリーさん？", (0x04000000 +9975));
+set("lay20", {y = 0,x = -96});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("ウェザリー", null, "ああ、サイトか……。", (0x04000000 +15874));
+msgoff()
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk(null, null, "………。\n……。\n…。", null);
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +55)});
+trans("crossfade", 1000);
+set("lay20", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +1061)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+msgon()
+talk("サイト", null, "そういえばウェザリーさんって前は、\n貴族だったって言ってましたけど、\nどうして今は旅役者なんですか？", (0x04000000 +9976));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1063)});
+talk("ウェザリー", null, "旅役者の過去を詮索しようなんて\n野暮もいいところだよ。", (0x04000000 +15875));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ご、ごめんなさい。", (0x04000000 +9977));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1067)});
+talk("ウェザリー", null, "まあいいけどね。\nもう、祖国はほとんど残っていないしね。", (0x04000000 +15876));
+talk("サイト", null, "残っていないって……？\nそんな簡単に国が滅ぶんですか？", (0x04000000 +9978));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "きみは世間を知らないね。\n滅ぶ時は簡単なものさ。\n吹き飛ぶようにね。", (0x04000000 +15877));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1067)});
+talk("ウェザリー", null, "……祖国というのは失ってはじめて\nその価値を知るんだな。", (0x04000000 +15878));
+talk("ウェザリー", null, "取り戻すための代価の大きさを考えて、\nはじめて人は絶望するのさ。", (0x04000000 +15879));
+set("lay5", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "俺が生まれたところじゃ、\n国とかよりもっと大切なものがあるって\n教えられましたけど。", (0x04000000 +9979));
+set("lay20", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +1061)});
+talk("ウェザリー", null, "たとえば？", (0x04000000 +15880));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ええと、平等とか、家族とか恋人とか……。", (0x04000000 +9980));
+talk("ウェザリー", null, "間違いとは言わない。\nだが、それは富にあふれた人の言う台詞だな。", (0x04000000 +15881));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "ウェザリーさん？", (0x04000000 +9981));
+talk("ウェザリー", null, "少し話しすぎたみたいだな。\nわたしは奥で休んでることにしよう……。", (0x04000000 +15882));
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay20", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+move();

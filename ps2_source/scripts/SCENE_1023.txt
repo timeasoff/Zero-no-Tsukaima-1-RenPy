@@ -1,0 +1,17 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +9)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +228)});
+}
+set("se0", {play = (0x03000000 +72)});
+talk("タバサ", null, "……。", null);
+talk("サイト", null, "（結局タバサの本を読んでる姿を\n　見るだけで終わっちまったな。\n　まぁ、こんな日もあるか）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("lay0", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+coffee();
+next((0x01000000 +68), true);

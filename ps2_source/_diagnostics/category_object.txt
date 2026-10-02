@@ -1,0 +1,4346 @@
+
+=== SCENE_ID.BIN_00000000.BIN ===
+getval(table, name, defaultValue)
+timeCalc(time)
+tointeger()
+tointeger()
+
+=== SCENE_ID.BIN_00000001.BIN ===
+constructor(layer, options)
+getOption(name)
+action(layer, now, done)
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+getOption("vibration")
+getOption("waittime")
+action(layer, now, done)
+setActionOffset(0, 0)
+setActionOffset(random(vibration)
+constructor(layer, options)
+constructor(layer, options)
+getOption("vibration")
+getOption("cycle")
+action(layer, now, done)
+setActionOffset(0, 0)
+setActionOffset(0, vibration * sin(PI * 2.0 * now / cycle)
+constructor(layer, options)
+constructor(layer, options)
+getOption("vibration")
+getOption("cycle")
+action(layer, now, done)
+setActionOffset(0, 0)
+setActionOffset(0, vibration * sin(PI + PI * 2.0 * now / cycle)
+constructor(layer, options)
+constructor(layer, options)
+getOption("vibration")
+getOption("cycle")
+action(layer, now, done)
+setActionOffset(0, 0)
+setActionOffset(vibration * sin(PI * 2 * now / cycle)
+constructor(layer, options)
+constructor(layer, options)
+getOption("vibration")
+getOption("cycle")
+action(layer, now, done)
+setActionOffset(0, 0)
+setActionOffset(vibration * sin(PI + PI * 2.0 * now / cycle)
+constructor(layer, options)
+constructor(layer, options)
+getOption("distance")
+getOption("falltime")
+action(layer, now, done)
+setActionOffset(0, 0)
+setActionOffset(0, - distance + distance * now / fallTime)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+getOption("angvel")
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+constructor(layer, options)
+getOption("intime")
+getOption("outtime")
+action(layer, now, done)
+constructor(layer, options)
+constructor(layer, options)
+getOption("opacity")
+action(layer, now, done)
+constructor(fore)
+Layer(fore)
+loadImage(image)
+loadImage(image)
+tointeger()
+tointeger()
+tointeger()
+setActionOffset(actionX, actionY)
+setActionOffset(0,0)
+constructor(fore)
+constructor(fore)
+stopAction()
+for(local i=0;i<6;i++)
+isSkip()
+update(diff)
+stopAction()
+constructor(info)
+isJump()
+isJump()
+isJump()
+isJump()
+isSkip()
+isJump()
+isJump()
+isJump()
+append(info)
+isJump()
+foreach(key, value in param)
+sync(fore, doAll)
+Layer(fore)
+loadImage(image)
+for(local i=0;i<currentActions.len()
+stopAction()
+loadImage(image)
+timeCalc(imageTime)
+for(local i=0;i<actions.len()
+append(info)
+sync(fore)
+sync(fore, false)
+update(diff)
+update(diff)
+update(diff)
+start(fore)
+sync(fore, true)
+Layer(fore)
+stopAction()
+stopAction()
+stopAction()
+
+=== SCENE_ID.BIN_00000002.BIN ===
+getval(elm, "loop", loopDefault)
+isJump()
+getval(elm, "fadeTime", 0)
+getval(elm, "volume", 100)
+getval(elm, "volume", 100)
+getval(elm, "fadeTime", 0)
+getval(elm, "volume", 100)
+constructor(info)
+foreach(key, value in param)
+sync(page)
+update(diff)
+start(page)
+stopAction()
+tointeger()
+timeCalc(time)
+timeCalc(time)
+timeCalc(time)
+constructor(info)
+constructor(info)
+isSkip()
+timeCalc(time)
+timeCalc(time)
+timeCalc(time)
+constructor(info)
+constructor(info)
+getval(info, "id", 1)
+
+=== SCENE_ID.BIN_00000003.BIN ===
+constructor(before, after)
+Layer(true)
+loadImage(tndlBaseImageId)
+Layer(true)
+loadImage(tndlArrowImageId)
+Layer(true)
+loadImage(before < after ? paraDereImageId : paraTunImageId)
+Layer(true)
+loadImage(paraUpImageId)
+tointeger()
+tointeger()
+tointeger()
+tointeger()
+update(diff)
+isSkip()
+isSkip()
+timeCalc(0)
+constructor(face, up)
+Layer(true)
+loadImage(paraLikeImageId)
+Layer(true)
+loadImage(up ? paraUpImageId : paraDownImageId)
+Layer(true)
+loadImage(paraFaceImageId + face)
+isSkip()
+timeCalc(0)
+tointeger()
+tointeger()
+update(diff)
+isSkip()
+constructor(name,num)
+update(diff)
+isSkip()
+constructor()
+constructor(true)
+foreach(idx,val in objects)
+start(mode, time, swap)
+isSkip()
+trigger("screen")
+update(diff)
+screenShow(image, opacity)
+Layer()
+loadImage(lastImageId)
+loadImage(lastImageId)
+isSkip()
+function()
+function()
+function()
+screenShow(image, 0)
+start(1, time, false)
+suspend(WAIT)
+screenShow(null, 100)
+start(2, time, false)
+suspend(WAIT)
+start(name, lineNo)
+isJump()
+isJump2()
+isSkip()
+lk(0, voice)
+Layer(true)
+loadImage(blackImageId)
+foreach(idx,val in objects)
+start()
+Layer(true)
+loadImage(blackImageId)
+foreach(idx,val in objects)
+start(true)
+foreach(idx,val in until)
+foreach(idx,val in waitUntil)
+trigger(trigger)
+trigger("timeout")
+foreach(idx,val in objects)
+update(diff)
+trigger("action")
+len()
+for(local i=funcs.len()
+update(diff)
+len()
+trigger("func")
+update(diff)
+len()
+for(local i=funcs.len()
+len()
+for(local i=funcs.len()
+trigger("func")
+isJump()
+isSkip()
+function()
+function()
+function()
+function()
+function()
+suspend(WAIT)
+isSkip()
+function()
+function()
+function()
+len()
+isSkip()
+isSkip()
+len()
+len()
+isSkip()
+function()
+lk()
+len()
+lk()
+trigger("click")
+trigger("cancel")
+trigger("trans")
+trigger("action")
+trigger("bgmfade")
+trigger("bgmstop")
+trigger("sefade" + id)
+trigger("sestop" + id)
+trigger("moviestop")
+function()
+function()
+foreach(idx,val in objects)
+sync(fore)
+Layer(true)
+loadImage(blackImageId)
+addLine()
+create(name, type, info)
+Layer(null)
+isJump()
+sync(syncFore)
+sync(name)
+isJump()
+isSkip()
+function()
+function()
+function()
+suspend(WAIT)
+foreach(idx,val in objects)
+stopAction()
+foreach(idx,val in objects)
+stopAction()
+isJump()
+isSkip()
+stopAction()
+function()
+stopAction()
+function()
+function()
+stopAction()
+function()
+function()
+stopAction()
+suspend(WAIT)
+isJump()
+isSkip()
+function()
+function()
+function()
+function()
+function()
+suspend(WAIT)
+isJump()
+isSkip()
+function()
+function()
+function()
+function()
+function()
+suspend(WAIT)
+isJump()
+isSkip()
+lk(name, disp, text, voice)
+addLine()
+isJump()
+suspend(WAIT)
+isJump()
+isSkip()
+isJump()
+isSkip()
+function()
+function()
+suspend(WAIT)
+isJump()
+foreach(idx,val in objects)
+foreach(idx,val in objects)
+isJump()
+screenShow(whiteImageId, 0)
+start(1, time, true)
+screenShow(blackImageId, 0)
+start(1, time, true)
+screenShow(null, 100)
+start(2, time, true)
+screenShow(whiteImageId, 100)
+start(2, time, true)
+screenShow(blackImageId, 100)
+start(2, time, true)
+screenShow(whiteImageId, 0)
+start(3, time, true)
+screenShow(blackImageId, 0)
+start(3, time, true)
+tointeger()
+suspend(WAIT)
+isJump()
+isSkip()
+function()
+function()
+function()
+suspend(WAIT)
+isJump()
+isJump()
+selectInit()
+addLine()
+append(info)
+for(local i=0; i<selectInfos.len()
+suspend(SELECT)
+len()
+len()
+addLine()
+append(info)
+append(info)
+len()
+for(local i=0; i<zero_move_infos.len()
+timeCalc(500)
+suspend(MOVE)
+timeCalc(500)
+len()
+len()
+append(info)
+for(local i=0; i<selectInfos.len()
+for(local i=0; i<selectInfos.len()
+len()
+for(local i=0;i<6;i++)
+append(i)
+append(i)
+append(i)
+append(i)
+append(i)
+append(i)
+len()
+len()
+len()
+for(local i=0; i<selectInfos.len()
+timeCalc(500)
+suspend(DATE)
+timeCalc(500)
+len()
+len()
+addLine()
+suspend(COFFEE)
+addLine()
+suspend(BATTLE)
+addLine()
+isJump2()
+append(Tundele(before, zero_tundele)
+isJump2()
+append(Tundele(before, after)
+foreach(idx,val in likeNameMap)
+foreach(idx,val in zero_tun_event)
+foreach(idx,val in zero_dele_event)
+like(name, add)
+addLine()
+isJump2()
+append(Like(n, add > 0)
+addLine()
+isJump2()
+append(Item(name, num)
+addLine()
+isJump2()
+suspend(SYSSAVE)
+addLine()
+isJump()
+tointeger()
+function()
+suspend(MOVIE)
+for(local i=0;i<6;i++)
+addLine()
+isJump2()
+addLine()
+isJump2()
+addLine()
+isJump2()
+
+=== SCENE_ID.BIN_00000004.BIN ===
+slcIi(;slcIe(拠�" 00000 16)
+slc(;ntaibe)
+
+=== SCENE_ID.BIN_00000005.BIN ===
+il(ャメ�";td(ul;mgf(
+ak)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"e" pa  00000 6)
+eiSi(;mgf(
+ak)
+
+=== SCENE_ID.BIN_00000006.BIN ===
+il(ャｃャ";td(ul;bgnkp)
+nSi(;mgf(
+ak)
+slc(;ee(;tte"[採気Y)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ" )
+eiSi(;mgf(
+ak)
+slcIi(;slcIe(ｂｎｂ" 00000 7,nl,tu)
+
+=== SCENE_ID.BIN_00000007.BIN ===
+iJm()
+lk(ャ�" 0;td(0;tl(ャ�" ul ｂ≠ｂ盾獅浮曹ｂ�\ｂｂ至ｂｂｂ―ｂｂ浮ｂａ＝" 00000 170)
+
+=== SCENE_ID.BIN_00000008.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000009.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000010.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000011.BIN ===
+slcIi(;slcIe(ｂｂｂｂ�" 00000 1)
+slc(;ee(;mgf(
+ak)
+
+=== SCENE_ID.BIN_00000012.BIN ===
+iJm()
+lk(ャ�" 0;td(0;nx(00000 1)
+
+=== SCENE_ID.BIN_00000013.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000014.BIN ===
+isJump()
+lk("サイト", null, "ちょ、ちょっと考えさせてくれ。", (0x04000000 +10814)
+lk("ルイズ", null, "何、考えこんでるのよ！\nこの場合は断固拒否、でしょ！", (0x04000000 +5574)
+lk("サイト", null, "あ、ああ……そうだな。", (0x04000000 +10815)
+
+=== SCENE_ID.BIN_00000015.BIN ===
+iJm()
+btlIi(00000 8)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 1)
+atent(x2000+5)
+atenm(�" 俣�" 00000 10)
+
+=== SCENE_ID.BIN_00000016.BIN ===
+slcIi(;slcIe(ｂｂｂｂ�" 00000 1)
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+
+=== SCENE_ID.BIN_00000017.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a5,{hw=1lvl=16d  1"l  ,mg  00000 34};tl(ャ�" ul 撃衰ｖｎｂｂ♂ｗｂ―ａｂｂ唐ｂ垂盾ｂｂｂ\ｂ俣ｂｂ�" 00000 182)
+
+=== SCENE_ID.BIN_00000018.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000019.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000020.BIN ===
+eiSi(;mgf(
+ak)
+nSi(;mgf(
+e(sae,{ee  0,mg  00000 2)
+slcIi(;slcIe(ャモ垂" 00000 2)
+
+=== SCENE_ID.BIN_00000021.BIN ===
+iJm()
+lk(ャ�" 0;td(0;tl(ャ�" ul 湯ｍ浮唐ｂｂａ\高ｂｂｂｂ撃ｂ―ｂｂｊ俣ｌｂｂｂ獅ａ" 00000 50)
+
+=== SCENE_ID.BIN_00000022.BIN ===
+iJm()
+lk(ャャ" 0;st"a2,{hw=1lvl=10d  1"l  ,mg  00000 49};tl(ャャ" ul 縁ｂｂｂ♂唐狽ｂｎｂ�" 00000 155)
+
+=== SCENE_ID.BIN_00000023.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000024.BIN ===
+iJm()
+mvIi(00000 2)
+mvIe(ャモ負" 00000 32,(x1000+29)
+mv(;f(sup)
+oent(x1000+8,00000 1)
+mvIe(ャャｕ�" 00000 49,(x1000+24)
+mvIe(��" 00000 82,(x1000+24)
+
+=== SCENE_ID.BIN_00000025.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000026.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000027.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000029.BIN ===
+slcIi(;slcIe(ャモ垂ｂｂ�" 00000 3)
+
+=== SCENE_ID.BIN_00000030.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000031.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000032.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000033.BIN ===
+isJump()
+lk("シエスタ", null, "そうです。\nあの娘のことで来たんです。", (0x04000000 +14525)
+lk("サイト", null, "え？", (0x04000000 +10905)
+lk("シエスタ", null, "あの娘がさっき目を覚ましたんです。\nそれでわたし、サイトさんとミス・\nヴァリエールにお知らせしようと思って……。", (0x04000000 +14526)
+lk("サイト", null, "本当！？\n分かった、すぐに行くよ！", (0x04000000 +10906)
+lk("ルイズ", null, "え、あ、ちょっとサイト！？\nわたしが着替えるまで待ちなさいよ！！", (0x04000000 +5633)
+lk("シエスタ", null, "あ、サイトさん。\n待ってください！", (0x04000000 +14527)
+
+=== SCENE_ID.BIN_00000034.BIN ===
+slcIi(;slcIe(ャャｐｂ" 00000 3)
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+
+=== SCENE_ID.BIN_00000035.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000036.BIN ===
+iJm()
+lk(ャ�" 5;td(3)
+
+=== SCENE_ID.BIN_00000037.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000038.BIN ===
+iJm()
+lk(ャ�" 0;td(0;tl(ャ�" ul ａ" 00000 193)
+
+=== SCENE_ID.BIN_00000039.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000040.BIN ===
+iJm()
+slcIi(;slcIe(ｂ" 00000 4)
+
+=== SCENE_ID.BIN_00000041.BIN ===
+iJm()
+lk(ャャ" 1)
+lk(ャ�" 1)
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000042.BIN ===
+iJm()
+lk(ャャ" 0;tl(ャャ" ul ャャ＜―ｂｂ浮ａ\高ｂｕｂｌ鰍ｂｂ�" 00000 31)
+lk(ャャ" 0;mgf(
+e(ly" so  };st"a7,{hw=0)
+lk(ャ�" 0;tl(ャャ" ul ャモｂ�" 00000 156)
+
+=== SCENE_ID.BIN_00000043.BIN ===
+isJump()
+lk("ルイズ", null, "分かった！！！\nだったら、力ずくで離してあげるわっ！！", (0x04000000 +5666)
+lk("サイト", null, "って、ちょっと待て！\nこんなところで魔法なんか使ったら……！", (0x04000000 +10938)
+lk("ルイズ", null, "問答無用ー！！", (0x04000000 +5667)
+lk("サイト", null, "どわああっ！！", (0x04000000 +10939)
+lk("タバサ", null, "被害甚大……。", (0x04000000 +15549)
+
+=== SCENE_ID.BIN_00000044.BIN ===
+slcIi(;slcIe(奄負ｗｂｂ�" 00000 4)
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+
+=== SCENE_ID.BIN_00000045.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000046.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000047.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000048.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000049.BIN ===
+mvIi(00000 5)
+mvIe(ャャｕ�" 00000 68,(x1000+25)
+mvIe(��" ,(x1000+25)
+oent(x1000+4,00000 1)
+mvIe(随�" 00000 58,(x1000+20)
+mvIe(ャモ負" 00000 93,(x1000+20)
+
+=== SCENE_ID.BIN_00000050.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000051.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000052.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000053.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000054.BIN ===
+slcIi(;slcIe(ｂｂｂｂ撃ｂ�" 00000 5)
+
+=== SCENE_ID.BIN_00000055.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000056.BIN ===
+isJump()
+lk("サイト", null, "そこをなんとかならないか？", (0x04000000 +10960)
+lk("ルイズ", null, "なんとかって、なによ。", (0x04000000 +5701)
+lk("ルイズ", null, "平民１人をわたし達だけでかくまえって\n言うの？\nそんなの無理だわ。", (0x04000000 +5702)
+lk("サイト", null, "だ、だけど、可哀相じゃないか。", (0x04000000 +10961)
+like("ルイズ", 10)
+
+=== SCENE_ID.BIN_00000057.BIN ===
+iJm()
+slcIi(;slcIe(拍ｂｐ鰍翌ｂ拒�" 00000 5)
+
+=== SCENE_ID.BIN_00000058.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000059.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000060.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000062.BIN ===
+slcIi(;dtIe(ャ�" 00000 10)
+dtIe(ャャ" 00000 11)
+dtIe(ャ�" 00000 11)
+dtIe(ャャ" 00000 12)
+dtIe(ャ�" 00000 12)
+
+=== SCENE_ID.BIN_00000063.BIN ===
+isJump()
+create("lay4", "layer", null)
+create("stage", "layer", null)
+sync("lay4")
+create("event", "layer", null)
+sync("stage")
+lk("サイト", "（そうだな、放っとくとなにかとうるさいし、\n　ここはご主人様に声かけてみるか）", null)
+sync("lay4")
+sync("event")
+sync("stage")
+sync("stage")
+sync("event")
+create("bgm", "bgm", null)
+sync("bgm")
+
+=== SCENE_ID.BIN_00000064.BIN ===
+isJump()
+create("lay4", "layer", null)
+create("stage", "layer", null)
+sync("lay4")
+create("event", "layer", null)
+sync("stage")
+lk("サイト", "（そうだな、仕事が休みのようなら、\n　シエスタを誘ってみるか）", null)
+sync("lay4")
+sync("event")
+sync("stage")
+sync("stage")
+sync("event")
+create("bgm", "bgm", null)
+sync("bgm")
+
+=== SCENE_ID.BIN_00000065.BIN ===
+isJump()
+create("lay4", "layer", null)
+create("stage", "layer", null)
+sync("lay4")
+create("event", "layer", null)
+sync("stage")
+lk("サイト", "（そうだな、こんないい天気だし、\n　たまにはタバサも誘って外に出てみようかな）", null)
+sync("lay4")
+sync("event")
+sync("stage")
+sync("stage")
+sync("event")
+create("bgm", "bgm", null)
+sync("bgm")
+
+=== SCENE_ID.BIN_00000066.BIN ===
+isJump()
+create("lay4", "layer", null)
+create("stage", "layer", null)
+sync("lay4")
+create("event", "layer", null)
+sync("stage")
+lk("サイト", "（そうだな、せっかくだからここは\n　キュルケを誘ってみるか）", null)
+sync("lay4")
+sync("event")
+sync("stage")
+sync("stage")
+sync("event")
+create("bgm", "bgm", null)
+sync("bgm")
+
+=== SCENE_ID.BIN_00000067.BIN ===
+isJump()
+create("lay4", "layer", null)
+create("stage", "layer", null)
+sync("lay4")
+create("event", "layer", null)
+sync("stage")
+lk("サイト", "（そうだな、１人じゃ退屈してるだろうし、\n　春奈を誘ってみるか）", null)
+sync("lay4")
+sync("event")
+sync("stage")
+sync("stage")
+sync("event")
+create("bgm", "bgm", null)
+sync("bgm")
+
+=== SCENE_ID.BIN_00000068.BIN ===
+il(鵠ｗ鮪";td(ul;bgnkp)
+slcIi(;slcIe(当ｂｂ魔ｂｂ" 00000 6)
+slc(;ee(;tte"扮ﾌ�Kﾒ)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ" )
+
+=== SCENE_ID.BIN_00000069.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000070.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a1,{  ,  9};st"a2,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+9)
+
+=== SCENE_ID.BIN_00000071.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000072.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000073.BIN ===
+slcIi(;slcIe(薗ｕｂｍｂ�" 00000 7)
+
+=== SCENE_ID.BIN_00000074.BIN ===
+isJump()
+lk("サイト", null, "俺達も捕まえに行くか？", (0x04000000 +11012)
+lk("ルイズ", null, "あんたねえ、人の話聞いてなさいよ。\nミスタ・コルベールが、そういう無茶を\nしないようにって言ったばかりじゃないの。", (0x04000000 +5742)
+like("ルイズ", -10)
+lk("サイト", null, "そりゃそうだけど。", (0x04000000 +11013)
+lk("ルイズ", null, "だったら、余計なこと言い出さないの。\n分かった？", (0x04000000 +5743)
+lk("サイト", null, "はぁい。", (0x04000000 +11014)
+
+=== SCENE_ID.BIN_00000075.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000076.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000077.BIN ===
+iJm()
+slcIi(;slcIe(負ｖ�" 00000 7)
+
+=== SCENE_ID.BIN_00000078.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000079.BIN ===
+iJm()
+lk(ャ�" 0;td(0;tl(ャ�" ul ＝�" 00000 104)
+
+=== SCENE_ID.BIN_00000080.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000081.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000082.BIN ===
+slcIi(;slcIe(藷ｗ獅汲ｂ�" 00000 8)
+
+=== SCENE_ID.BIN_00000083.BIN ===
+iJm()
+lk(ャ�" 0;st"a7,{  ,  2};st"a2,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 45};tl(ャャ" ul 視ｔｏｂ≠垂ａ＝" 00000 152)
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000084.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000085.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000086.BIN ===
+slcIi(;slcIe(藷ｗ獅撃高ｂ" 00000 8)
+
+=== SCENE_ID.BIN_00000087.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000088.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a5,{  ,hw=1lvl=17iaeye=2d  2"iaeie=30x=24l  ,mg  00000 45};tl(ャ�" ul ｂｂｂ∴垂ｎ汲数ｂｂ�" 00000 106)
+
+=== SCENE_ID.BIN_00000089.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000090.BIN ===
+iJm()
+slcIi(;slcIe(ｂｂ＜ャ" 00000 9)
+
+=== SCENE_ID.BIN_00000091.BIN ===
+iJm()
+lk(ャ�" 0;td(0;tl(ャ�" ul ｂｂ≠ｂ塩ｂｂｂｂｂａ" 00000 105)
+
+=== SCENE_ID.BIN_00000092.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000093.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000094.BIN ===
+iJm()
+atent(x2000+6)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 9)
+btlIi(00000 2)
+atenm(�" 俣�" 00000 10)
+
+=== SCENE_ID.BIN_00000095.BIN ===
+lk("ルイズ", null, "どうしたの、もう降参かしらっ！", (0x04000000 +5796)
+lk("キュルケ", null, "ふふん、案外楽しめたけど……ここまでね。", (0x04000000 +3169)
+lk("サイト", null, "へっ、何度やろうが負けるもんかよ。", (0x04000000 +11100)
+lk("魔導士", null, "くっ。\nたかが子供に……。", (0x04000000 +3939)
+lk("ルイズ", null, "ふん、子供ですって？\n魔法学院の生徒を侮るにもほどがあるわ。", (0x04000000 +5797)
+lk("キュルケ", null, "そうよ。\n見た目が子供の生徒もいるけど、\n基本的には大人なんだから。", (0x04000000 +3170)
+lk("ルイズ", null, "だ、誰が子供に見えるのよ！", (0x04000000 +5798)
+lk("キュルケ", null, "あら？\nルイズのことじゃないわよ。", (0x04000000 +3171)
+lk("ルイズ", null, "くっ……。\nそのことについては後にしておくわ。", (0x04000000 +5799)
+lk("ルイズ", null, "さて、なにから話してもらおうかしらね？\n少なくとも、あなたの正体と、あの娘を狙う\n理由はすぐに聞かせてもらうわよ。", (0x04000000 +5800)
+lk("サイト", null, "そうそう。\nなんで春奈を狙うのか、\n教えてもらおうじゃないか。", (0x04000000 +11101)
+lk("魔導士", null, "くっ……。", (0x04000000 +3940)
+lk("ルイズ", null, "なっ、なに！？\nなにが起きたの！？", (0x04000000 +5801)
+lk("デルフリンガー", null, "おい、相棒。\n……どうやら、新しいお客さんらしいぞ。", (0x04000000 +1282)
+lk("ルイズ", null, "え？", (0x04000000 +5802)
+lk("キュルケ", null, "なに？", (0x04000000 +3172)
+lk("アキナ", "？？？", "……。", null)
+lk("サイト", null, "さっきの爆発は、こいつのしわざのようだな。", (0x04000000 +11102)
+lk("キュルケ", null, "ルイズの同類がいるとも思えないし、\nどうやら『火』の使い手ってところかしら。", (0x04000000 +3173)
+lk("キュルケ", null, "仲間を助けに来たのなら、\nちょっと遅かったわね。", (0x04000000 +3174)
+lk("コルベール", null, "危ない！\n離れたまえミス・ツェルプストー！", (0x04000000 +1012)
+lk("キュルケ", null, "え？", (0x04000000 +3175)
+lk("サイト", null, "先生？", (0x04000000 +11103)
+lk("キュルケ", null, "きゃあっ！", (0x04000000 +3176)
+lk("サイト", null, "うわっ！", (0x04000000 +11104)
+lk("ルイズ", null, "な、なに！？\n地面に穴が……。", (0x04000000 +5803)
+lk("コルベール", null, "これは爆弾の威力……。\n噂の爆弾使いに違いありません。", (0x04000000 +1013)
+lk("サイト", null, "朝、先生が言ってたやつか！", (0x04000000 +11105)
+lk("ルイズ", null, "きゃあああっ！", (0x04000000 +5804)
+lk("サイト", null, "くっ！\nみんな大丈夫か！", (0x04000000 +11106)
+selectInit()
+
+=== SCENE_ID.BIN_00000096.BIN ===
+isJump()
+lk("サイト", null, "ルイズ、大丈夫か！", (0x04000000 +11107)
+lk("ルイズ", null, "べ、別にサイトに心配されることも\nないわよ。\n大丈夫、怪我はしていないわ。", (0x04000000 +5805)
+like("ルイズ", 10)
+lk("サイト", null, "そ、そうか、なら良かった。", (0x04000000 +11108)
+lk("ルイズ", null, "心配してくれるのね。", (0x04000000 +5806)
+lk("サイト", null, "そりゃ、俺のご主人様だからな。", (0x04000000 +11109)
+lk("ルイズ", null, "……。", (0x04000000 +5807)
+
+=== SCENE_ID.BIN_00000097.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000098.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000099.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000100.BIN ===
+oent(x1000+0)
+mvIe(趨" 00000 49,(x1000+21)
+mvIe(去" 00000 58,(x1000+21)
+mv(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+mvIi(00000 16,00000 1)
+mvIe(��" 00000 32,(x1000+26)
+mvIe(鋳" 00000 66,(x1000+26)
+mvIe(ャモ負" 00000 93,(x1000+26)
+
+=== SCENE_ID.BIN_00000101.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000102.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000103.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000104.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000105.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000106.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+slcIi(;slcIe(ャメｂｂｂａ" 00000 17,nl,tu)
+
+=== SCENE_ID.BIN_00000107.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a5,{  ,hw=1lvl=17iaeye=2d  1"iaeie=30x=24l  ,mg  00000 30};tl(ャ�" ul ａａ\ｂｂｂ撃ｂｂｂｂ―ｂａ沫ｂｂ�" 00000 113)
+
+=== SCENE_ID.BIN_00000108.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000109.BIN ===
+isJump()
+lk("サイト", null, "春奈、具合はどう？", (0x04000000 +11136)
+lk("ハルナ", null, "あ、うん。\n朝に比べたら、だいぶ良くなったと思う。", (0x04000000 +2110)
+like("ハルナ", 10)
+lk("サイト", null, "そりゃ一安心だな。", (0x04000000 +11137)
+lk("ルイズ", null, "……ふん。", (0x04000000 +5829)
+like("ルイズ", -10)
+lk("ハルナ", null, "まだちょっと、体がだるい感じはするけど……。\nでも、もう大丈夫、かな。", (0x04000000 +2111)
+lk("サイト", null, "あんまり無理しない方がいいぞ。\n体調が完全に戻るまでは、ちゃんと休んでろよ。", (0x04000000 +11138)
+lk("ハルナ", null, "ありがとう、平賀くん。", (0x04000000 +2112)
+
+=== SCENE_ID.BIN_00000110.BIN ===
+iJm()
+slcIi(;slcIe(ｂｂｔ垂ｂｂ" 00000 11,nl,tu)
+
+=== SCENE_ID.BIN_00000111.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000112.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a5,{  ,hw=1lvl=17iaeye=2d  1"iaeie=30x=24l  ,mg  00000 30};tl(ャ�" ul ａ�ｂａ\ｂａｂｂｂｂｂｂ撃ｂａ" 00000 111)
+
+=== SCENE_ID.BIN_00000113.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000114.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000115.BIN ===
+slcIi(;slcIe(ャャｈ盾窒ｂ�" 00000 16,nl,tu)
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+
+=== SCENE_ID.BIN_00000116.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000117.BIN ===
+iJm()
+lk(ャ�" 0;td(3)
+
+=== SCENE_ID.BIN_00000118.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000120.BIN ===
+oent(x1000+2)
+mvIe(ャャｕ�" 00000 68,(x1000+26)
+mvIe(��" 00000 90,(x1000+26)
+mvIi(00000 15,00000 1)
+mvIe(ャモ負" 00000 93,(x1000+21)
+mvIe(ャモ負" 00000 60,(x1000+21)
+
+=== SCENE_ID.BIN_00000121.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000122.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000123.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000124.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000125.BIN ===
+slc(;ee(;st"g" fdtm  ,ly=(x3000+0};mgf(
+ak)
+slcIi(;slcIe(ャモ≠ｂｂａ" 00000 16,nl,tu)
+
+=== SCENE_ID.BIN_00000126.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000127.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000128.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000129.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000131.BIN ===
+slcIi(;dtIe(ャ�" 00000 13)
+dtIe(ャャ" 00000 13)
+dtIe(ャ�" 00000 14)
+dtIe(ャャ" 00000 14)
+dtIe(ャ�" 00000 15)
+
+=== SCENE_ID.BIN_00000132.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000133.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000134.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000135.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000136.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000137.BIN ===
+il(盾垂";td(ul;bgnkp)
+slcIi(;slcIe(迄ｂｂ獅ｂｂ�" 00000 18,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ" )
+
+=== SCENE_ID.BIN_00000138.BIN ===
+isJump()
+lk("サイト", null, "迷惑だなんて思わなかったよ。", (0x04000000 +11212)
+lk("サイト", null, "３人で寝てると言っても、\nベッドの上で寝れるだけで、俺、幸せだし。", (0x04000000 +11213)
+lk("シエスタ", null, "サイトさん……。", (0x04000000 +14640)
+lk("ルイズ", null, "サイト……。", (0x04000000 +5894)
+lk("ハルナ", null, "平賀くん……。", (0x04000000 +2152)
+lk("サイト", null, "（あれ？\n　みんな哀れみの目で俺を見てるんだけど……）", null)
+
+=== SCENE_ID.BIN_00000139.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000140.BIN ===
+iJm()
+lk(ャ�" 1)
+lk(ャャ" 1)
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000141.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000142.BIN ===
+slcIi(;slcIe(ャモｂ" 00000 13,nl,tu)
+
+=== SCENE_ID.BIN_00000143.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000144.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000145.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000146.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000147.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(ｂｂａ葬ｈｂａ" 00000 18,nl,tu)
+
+=== SCENE_ID.BIN_00000148.BIN ===
+iJm()
+lk(ャ�" 0;td(0;nx(00000 11,tu)
+
+=== SCENE_ID.BIN_00000149.BIN ===
+isJump()
+lk("サイト", null, "もしかして、眠いのか？", (0x04000000 +11255)
+lk("ルイズ", null, "なんでそうなるのよ？", (0x04000000 +5910)
+lk("サイト", null, "いやー。\nなんとなく。", (0x04000000 +11256)
+lk("ルイズ", null, "なんとなくで、人の体調を勝手に\n決めないでよね。", (0x04000000 +5911)
+like("ルイズ", -10)
+lk("サイト", null, "へいへい。", (0x04000000 +11257)
+
+=== SCENE_ID.BIN_00000150.BIN ===
+isJump()
+lk("サイト", null, "もしかして、お腹が減ったのか？\n昼ご飯までまだ時間があるぞ。", (0x04000000 +11258)
+lk("ルイズ", null, "あんたみたいにガツガツしてないわよ。\n一緒にしないで！", (0x04000000 +5912)
+like("ルイズ", -20)
+lk("サイト", null, "さいですか。", (0x04000000 +11259)
+
+=== SCENE_ID.BIN_00000151.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000153.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+slcIi(;slcIe(ｂ¢助ｂ�" 00000 14,nl,tu)
+
+=== SCENE_ID.BIN_00000154.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a5,{  ,hw=1lvl=10iaeye=2d  1"iaeie=30x=24l  ,mg  00000 30};tl(ャ�" ul 幕ｉａｂｂ負ｐｂｂａ\ｂｖ曹ｂａ" 00000 129)
+
+=== SCENE_ID.BIN_00000155.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000156.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000157.BIN ===
+isJump()
+lk("サイト", null, "ん、どうした？\n俺、なんか気にさわるようなこと\n言っちゃったか？", (0x04000000 +11279)
+lk("ルイズ", null, "ううん、何も言ってない。", (0x04000000 +5937)
+lk("サイト", null, "おっ、授業が終わったぞ。\nさぁて、ルイズ……んんっ？", (0x04000000 +11280)
+lk("サイト", null, "あれ、ルイズのヤツ。\nどこに行っちまったんだ？\n俺をおいて、いなくなっちまうなんて……。", (0x04000000 +11281)
+lk("サイト", null, "（さてと、どうしよう……）", null)
+
+=== SCENE_ID.BIN_00000158.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000159.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000160.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+3};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 1)
+
+=== SCENE_ID.BIN_00000161.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000162.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+3};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 1)
+
+=== SCENE_ID.BIN_00000164.BIN ===
+slcIi(;slcIe(聡浮￥刀" 00000 15,nl,tu)
+
+=== SCENE_ID.BIN_00000165.BIN ===
+iJm()
+lk(ャ�" 0;td(3)
+
+=== SCENE_ID.BIN_00000166.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000167.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000168.BIN ===
+iJm()
+slcIi(;slcIe(ャモ撃盾ｂｂａ" 00000 19,nl,tu)
+
+=== SCENE_ID.BIN_00000169.BIN ===
+isJump()
+lk("サイト", null, "ルイズが言い出したことなんだろ？", (0x04000000 +11311)
+lk("ルイズ", null, "……。", (0x04000000 +5947)
+lk("サイト", null, "なんで黙ってるんだよ？\nやっぱりそうなのか？", (0x04000000 +11312)
+lk("ルイズ", null, "……。", (0x04000000 +5948)
+like("ルイズ", -10)
+lk("シエスタ", null, "ちっ、違いますサイトさん！\nこれはわたしが言いだしたことで……。", (0x04000000 +14689)
+lk("サイト", null, "悪いけど、シエスタは黙っててくれないか！", (0x04000000 +11313)
+like("シエスタ", -10)
+
+=== SCENE_ID.BIN_00000170.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000171.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000172.BIN ===
+isJump()
+lk("サイト", null, "俺、結構本気で怒ってるんだからな！", (0x04000000 +11319)
+lk("シエスタ", null, "……ごめんなさい。", (0x04000000 +14693)
+lk("ルイズ", null, "……。", (0x04000000 +5951)
+
+=== SCENE_ID.BIN_00000173.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(藷ｖ東ｂｈｂａ" 00000 14,nl,tu)
+
+=== SCENE_ID.BIN_00000174.BIN ===
+isJump()
+lk("サイト", null, "そんなに春奈の面倒見てちゃ悪いのか？", (0x04000000 +11329)
+lk("ルイズ", null, "誰もそんなこと言ってないでしょ！", (0x04000000 +5957)
+like("ルイズ", -10)
+lk("サイト", null, "じゃあ、なんであんなことしたんだよ。", (0x04000000 +11330)
+lk("ルイズ", null, "……。", (0x04000000 +5958)
+
+=== SCENE_ID.BIN_00000175.BIN ===
+isJump()
+lk("サイト", null, "俺はおまえのことが心配で……。", (0x04000000 +11331)
+lk("ルイズ", null, "わっ、わたしのことが心配ですって？\nそれは本当なの？", (0x04000000 +5959)
+like("ルイズ", 10)
+lk("サイト", null, "いや……、だって。", (0x04000000 +11332)
+lk("ルイズ", null, "いいっ！！\nそんな上辺だけの言葉なら、\n聞かないほうがまだマシなんだからっ！", (0x04000000 +5960)
+lk("サイト", null, "いや、だから、俺は本気で……。", (0x04000000 +11333)
+
+=== SCENE_ID.BIN_00000176.BIN ===
+isJump()
+lk("サイト", null, "俺は客観的に物を言ってるだけだぞ。", (0x04000000 +11334)
+lk("ルイズ", null, "ふーん……。\nサイトはそれで客観的に見てるつもりなんだ？", (0x04000000 +5961)
+lk("サイト", null, "ああ、そのつもりだけど。", (0x04000000 +11335)
+lk("ハルナ", null, "……。", null)
+
+=== SCENE_ID.BIN_00000177.BIN ===
+isJump()
+lk("ルイズ", null, "と・に・か・く！\nわたしだけ出かけるから、\nサイトはここにいなさい。", (0x04000000 +5962)
+lk("サイト", null, "分かったよ。\n好きにすればいいだろ？", (0x04000000 +11336)
+lk("ルイズ", null, "ええ、好きにさせてもらうわよ。", (0x04000000 +5963)
+lk("サイト", null, "ったく、ルイズのヤツ……。\nなんであんなに怒ってるんだよ……。\n俺、もうわけ分かんねぇ。", (0x04000000 +11337)
+
+=== SCENE_ID.BIN_00000178.BIN ===
+oent(x1000+8)
+mvIe(ャャｕ�" 00000 99,(x1000+37)
+mvIe(趨" 00000 55,(x1000+37)
+mvIi(00000 13,00000 1)
+mvIe(ャモ負" 00000 93,(x1000+32)
+mvIe(ャモ負" 00000 82,(x1000+32)
+
+=== SCENE_ID.BIN_00000179.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000180.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000181.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000182.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000183.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(ャモ奄翌ｂｂ�" 00000 14,nl,tu)
+
+=== SCENE_ID.BIN_00000184.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000185.BIN ===
+isJump()
+lk("サイト", null, "春奈を見に来たとか？", (0x04000000 +11347)
+lk("キュルケ", null, "半分は当たりかな。\nでも、違うの。\nあたしの本当の目的はね……。", (0x04000000 +3204)
+
+=== SCENE_ID.BIN_00000186.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000187.BIN ===
+iJm()
+slc(;f(sup)
+slcIi(;slcIe(ｂｂｂｂｂ�" 00000 18,nl,tu)
+
+=== SCENE_ID.BIN_00000188.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000189.BIN ===
+iJm()
+lk(ャ�" 1)
+lk(ャ�" 1)
+lk(ャャ" 0;tl(ャ�" ul ａｂｂａ＝" 00000 132)
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000190.BIN ===
+iJm()
+lk(ャャ" 0;tl(ャャ" ul ｂｂ撃鰍ｂｒｂｂ―ｂ汲ｂｂ鰍ｂｂ�" 00000 32)
+
+=== SCENE_ID.BIN_00000191.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000192.BIN ===
+slcIi(;slcIe(奄撃ｂｂｕｂｂ" 00000 13,nl,tu)
+
+=== SCENE_ID.BIN_00000193.BIN ===
+iJm()
+lk(ャ�" 1)
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000194.BIN ===
+iJm()
+lk(ャャ" 0;st"a5,{hw=1lvl=10d  1"l  ,mg  00000 34};tl(ャ�" ul ャメ兼ｂｂｂ―奄唐ｂｂｂａ" 00000 138)
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000195.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000196.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000197.BIN ===
+slcIi(;slcIe(ｂａｂｂャャ＝" 00000 18,nl,tu)
+
+=== SCENE_ID.BIN_00000198.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000199.BIN ===
+iJm()
+lk(ャ�" 0;td(3)
+
+=== SCENE_ID.BIN_00000200.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000201.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000202.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(葬ｎｂｂａ" 00000 23,nl,tu)
+
+=== SCENE_ID.BIN_00000203.BIN ===
+isJump()
+lk("サイト", null, "素直に謝ってみたら？\n春奈だって、そこまで悪気があったわけ\nじゃないんだし、きっと分かってもらえるよ。", (0x04000000 +11411)
+lk("ハルナ", null, "そ、そうかな……。", (0x04000000 +2219)
+like("ハルナ", 10)
+
+=== SCENE_ID.BIN_00000204.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000205.BIN ===
+isJump()
+lk("サイト", null, "今度お菓子でもおごってみたら？", (0x04000000 +11414)
+lk("ハルナ", null, "でも……。\n私、この世界のお金を持って\nいないし……。", (0x04000000 +2222)
+lk("サイト", null, "あ、そっか……。", (0x04000000 +11415)
+lk("ハルナ", null, "第一、それで誠意が通じるとは\n思えない。\n素直に謝ってみる。", (0x04000000 +2223)
+
+=== SCENE_ID.BIN_00000206.BIN ===
+iJm()
+btlIi(00000 2)
+btl(;nx(00000 27,tu)
+atent(x2000+6)
+atenm(�" 塔ャ�" 00000 76)
+
+=== SCENE_ID.BIN_00000207.BIN ===
+slcIi(;slcIe(ｂｂｂｂｂ�" 00000 28,nl,tu)
+
+=== SCENE_ID.BIN_00000208.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000209.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000210.BIN ===
+iJm()
+lk(ャ�" 1)
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000211.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000213.BIN ===
+slcIi(;dtIe(ャ�" 00000 15)
+dtIe(ャャ" 00000 16)
+dtIe(ャ�" 00000 16)
+dtIe(ャャ" 00000 17)
+dtIe(ャ�" 00000 17)
+
+=== SCENE_ID.BIN_00000214.BIN ===
+iJm()
+cet(sae,"ae" ul;cet(ly" lyr,nl)
+cet(bm,"g" ul;st"g" pa  00000 1)
+sn(ly";st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(ly";st"tg" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4};sn(sae)
+sn(bm)
+
+=== SCENE_ID.BIN_00000215.BIN ===
+iJm()
+cet(sae,"ae" ul;cet(ly" lyr,nl)
+cet(bm,"g" ul;st"g" pa  00000 1)
+sn(ly";st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(ly";st"tg" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4};sn(sae)
+sn(bm)
+
+=== SCENE_ID.BIN_00000216.BIN ===
+iJm()
+cet(sae,"ae" ul;cet(ly" lyr,nl)
+cet(bm,"g" ul;st"g" pa  00000 1)
+sn(ly";st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(ly";st"tg" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4};sn(sae)
+sn(bm)
+
+=== SCENE_ID.BIN_00000217.BIN ===
+iJm()
+cet(sae,"ae" ul;cet(ly" lyr,nl)
+cet(bm,"g" ul;st"g" pa  00000 1)
+sn(ly";st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(ly";st"tg" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4};sn(sae)
+sn(bm)
+
+=== SCENE_ID.BIN_00000218.BIN ===
+iJm()
+cet(sae,"ae" ul;cet(ly" lyr,nl)
+cet(bm,"g" ul;st"g" pa  00000 1)
+sn(ly";st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(ly";st"tg" oaiy=10y=0so  ,ee  0x=0iae=(x2000+4};sn(sae)
+sn(bm)
+
+=== SCENE_ID.BIN_00000219.BIN ===
+il(ャャャｊ�";td(ul;bgnkp)
+slcIi(;slcIe(詞ｂｂｂ" 00000 20,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ" )
+
+=== SCENE_ID.BIN_00000220.BIN ===
+iJm()
+lk(ャ�" 0;td(0;nx(00000 23,tu)
+
+=== SCENE_ID.BIN_00000221.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000222.BIN ===
+isJump()
+lk("サイト", null, "じ、実は俺から……。", (0x04000000 +11454)
+lk("ハルナ", null, "えー！", (0x04000000 +2250)
+like("ハルナ", -10)
+lk("ルイズ", null, "ば、ばか、何を言い出すのよ。\nアレは儀式だからに決まってるでしょ？\n別に何もないんだから。", (0x04000000 +6031)
+like("ルイズ", -10)
+
+=== SCENE_ID.BIN_00000223.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000225.BIN ===
+mvIi(00000 21,00000 1)
+mvIe(ャモ負" 00000 32,(x1000+32)
+mvIe(鋳" 00000 66,(x1000+32)
+mvIe(ャモ負" 00000 92,(x1000+32)
+oent(x1000+3)
+mvIe(趨" 00000 49,(x1000+37)
+mvIe(��" 00000 58,(x1000+37)
+
+=== SCENE_ID.BIN_00000226.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000227.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000228.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000229.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000230.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000231.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+slcIi(;slcIe(ャモ翌高" 00000 22,nl,tu)
+
+=== SCENE_ID.BIN_00000232.BIN ===
+iJm()
+lk(ャ�" 0;td(0;st"a1,{pct  ,  ,Fo  ,oeie=10xrm=-6oaiyrm=10hd  ,pctTm  0,  4};st"a7,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 98};tl(ャ�" ul ｂ＝�" 00000 26)
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000233.BIN ===
+iJm()
+lk(ャ�" 0;st"a5,{  ,  2};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 36};tl(ャ�" ul ｂ＝ｂｂ―ｂｂ＝ｂｂａ\ャモ高ｂｂ≠ｂｂｂｂａ" 00000 66)
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000234.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000235.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000236.BIN ===
+slcIi(;slcIe(奄魔ｂ�" 00000 27,nl,tu)
+
+=== SCENE_ID.BIN_00000237.BIN ===
+iJm()
+lk(ャ�" 1)
+lk(ャャ" 0;st"a2,{pct  ,  ,Fo  ,oeie=10xrm=-6oaiyrm=10hd  ,pctTm  0,  4};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 36};tl(ャ�" ul ｂｂｔｂｂｂ―ｂｕｈｂｂ�" 00000 68)
+
+=== SCENE_ID.BIN_00000238.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000239.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000240.BIN ===
+isJump()
+lk("サイト", null, "（まぁ、そんなわけで……。\n　結局、ルイズ、春奈、シエスタの３人と\n　王宮に向かうことになった）", null)
+
+=== SCENE_ID.BIN_00000241.BIN ===
+slcIi(;slcIe(葛梼ｏｂｂ" 00000 22,nl,tu)
+
+=== SCENE_ID.BIN_00000242.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000243.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000244.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000245.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000247.BIN ===
+eiSi(;mgf(
+ak)
+slc(;ee(;st"g" fdtm  ,ly=(x3000+1};bgnkp)
+nSi(;mgf(
+e(sae,{ee  0,mg  00000 5)
+slcIi(;slcIe(薗ｂｂｂ" 00000 28,nl,tu)
+
+=== SCENE_ID.BIN_00000248.BIN ===
+isJump()
+lk("サイト", null, "大丈夫だよ、春奈。\n俺達がついてるだろう？", (0x04000000 +11527)
+lk("ルイズ", null, "もぉ、元気出しなさいよ。\nみっともないでしょう？", (0x04000000 +6097)
+lk("シエスタ", null, "元気出してください、ハルナさんっ！", (0x04000000 +14755)
+lk("ハルナ", null, "うん……、ありがとう。", (0x04000000 +2297)
+like("ハルナ", 10)
+
+=== SCENE_ID.BIN_00000249.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000250.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000251.BIN ===
+iJm()
+mvIi(00000 26,00000 5)
+mvIe(葡�" 00000 92,(x1000+37)
+mvIe(葡�" 00000 49,(x1000+37)
+mv(;f(sup)
+oent(x1000+5)
+mvIe(葡�" 00000 32,(x1000+32)
+mvIe(葡�" ,(x1000+32)
+
+=== SCENE_ID.BIN_00000252.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000253.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000254.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000255.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000256.BIN ===
+eiSi(;mgf(
+ak)
+slc(;ee(;bgnkp)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+3};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+1};mgn)
+slcIi(;slcIe(白獅ｃャｂｂ" 00000 27,nl,tu)
+
+=== SCENE_ID.BIN_00000257.BIN ===
+isJump()
+lk("サイト", null, "ルイズは犯人じゃありません。", (0x04000000 +11545)
+lk("サイト", null, "爆弾使いが学院に現れた時、\nルイズと一緒にいました。\nルイズにはアリバイがあります。", (0x04000000 +11546)
+like("ルイズ", 10)
+lk("アンリエッタ", null, "なるほど。\nそれは重要な証言ですね。", (0x04000000 +552)
+like("アンリエッタ", 30)
+
+=== SCENE_ID.BIN_00000258.BIN ===
+isJump()
+lk("サイト", null, "爆弾使いはルイズですね。\nまちがいありません。", (0x04000000 +11547)
+lk("アンリエッタ", null, "なんですって？\n使い魔さん、冗談はここだけにしてください。", (0x04000000 +553)
+like("アンリエッタ", -30)
+lk("サイト", null, "爆発に胸。\nこの条件がそろってるのは、\nトリスタニアを探してもルイズしかいません。", (0x04000000 +11548)
+lk("サイト", null, "う、うぉ……。\nまじに入れてきたな。", (0x04000000 +11549)
+lk("ルイズ", null, "ば、ば、バカなことを言うのも\n大概にしなさい。\n女王陛下の御前よ。", (0x04000000 +6125)
+like("ルイズ", -10)
+lk("アンリエッタ", null, "ルイズ、落ち着いて。\nわたくしは信じているわ。", (0x04000000 +554)
+
+=== SCENE_ID.BIN_00000259.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000260.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000261.BIN ===
+atent(x2000+9)
+atenm(�" ャャャ" 00000 15)
+btlIi(00000 5)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 22,tu)
+
+=== SCENE_ID.BIN_00000264.BIN ===
+slcIi(;dtIe(ャ�" 00000 18)
+dtIe(ャャ" 00000 18)
+dtIe(ャ�" 00000 19)
+dtIe(ャャャ" 00000 19)
+
+=== SCENE_ID.BIN_00000265.BIN ===
+iJm()
+cet(sae,"ae" ul;cet(ly" lyr,nl)
+cet(bm,"g" ul;st"g" pa  00000 2)
+sn(ly";st"tg" so  ,ee  0iae=(x2000+0};sn(sae)
+sn(bm)
+sn(sae)
+sn(ly";st"tg" oaiy=10y=0so  ,ee  0x=0iae=(x2000+0};sn(sae)
+sn(bm)
+
+=== SCENE_ID.BIN_00000266.BIN ===
+isJump()
+create("stage", "layer", null)
+create("lay5", "layer", null)
+sync("lay5")
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+lk("サイト", null, "（シエスタはどうしてるかな……。\n　ちょっと様子を見に行くか）", null)
+sync("lay5")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000267.BIN ===
+isJump()
+create("stage", "layer", null)
+create("lay5", "layer", null)
+sync("lay5")
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+lk("サイト", null, "（春奈は大丈夫かな？\n　ちょっと様子を見てみるか……）", null)
+sync("lay5")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000268.BIN ===
+isJump()
+create("stage", "layer", null)
+create("lay5", "layer", null)
+sync("lay5")
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+lk("サイト", null, "（せっかくだから、お城の中でも\n　歩いてみるか……）", null)
+sync("lay5")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000269.BIN ===
+il(俣ｑ�";td(ul;bgnkp)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ" )
+
+=== SCENE_ID.BIN_00000270.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(ｂ≠ｂｂｂ�" 00000 21,nl,tu)
+
+=== SCENE_ID.BIN_00000271.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000272.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000273.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000274.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000275.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+slcIi(;slcIe(藷ｑ助ａ" 00000 26,nl,tu)
+
+=== SCENE_ID.BIN_00000276.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000277.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000278.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000279.BIN ===
+iJm()
+btlIi(00000 4)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 20,tu)
+atent(x2000+7)
+atenm(�" 俣�" 00000 10)
+
+=== SCENE_ID.BIN_00000280.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(月�" 00000 21,nl,tu)
+
+=== SCENE_ID.BIN_00000281.BIN ===
+isJump()
+lk("サイト", null, "（頑張れ、春奈！）", null)
+lk("ルイズ", null, "……ちょっと、サイト。\nなにボーっと見てるのよ！\n助けてあげたらどうなの？", (0x04000000 +6191)
+lk("サイト", null, "いや、どう助けたらいいのかなぁって、\n考えてたんだけど……。", (0x04000000 +11610)
+
+=== SCENE_ID.BIN_00000282.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000283.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000284.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000285.BIN ===
+slcIi(;slcIe(奄高�" 00000 26,nl,tu)
+
+=== SCENE_ID.BIN_00000286.BIN ===
+iJm()
+lk(ャ�" 0;td(3)
+
+=== SCENE_ID.BIN_00000287.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000288.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000289.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000290.BIN ===
+slcIi(;slcIe(ャャｑ窒�" 00000 21,nl,tu)
+
+=== SCENE_ID.BIN_00000291.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000292.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000293.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000294.BIN ===
+isJump()
+lk("タバサ", null, "……静かに。", (0x04000000 +15575)
+lk("キュルケ", null, "はいはい。\n開錠っと。", (0x04000000 +3258)
+lk("サイト", null, "サンキュ！\nキュルケ……。", (0x04000000 +11635)
+lk("ルイズ", null, "むぅ、わたしだってそれぐらい……。", (0x04000000 +6201)
+
+=== SCENE_ID.BIN_00000295.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+slcIi(;slcIe(ｂ�淘窒翌" 00000 26,nl,tu)
+
+=== SCENE_ID.BIN_00000296.BIN ===
+isJump()
+lk("サイト", null, "バッグの件でもう一度相談に来たんだ。", (0x04000000 +11637)
+lk("ウェザリー", null, "きみ達も懲りないな。", (0x04000000 +15907)
+
+=== SCENE_ID.BIN_00000297.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000298.BIN ===
+isJump()
+lk("サイト", null, "……も、黙秘する！", (0x04000000 +11639)
+lk("ウェザリー", null, "そうか、じゃあ監禁だな。", (0x04000000 +15910)
+lk("サイト", null, "か、監禁？\nそんなのが劇場にあるのかよ。", (0x04000000 +11640)
+lk("ウェザリー", null, "……冗談よ。", (0x04000000 +15911)
+
+=== SCENE_ID.BIN_00000299.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000300.BIN ===
+slcIi(;slcIe(ャャｐ唐�" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000301.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000302.BIN ===
+iJm()
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000303.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000304.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000305.BIN ===
+slcIi(;slcIe(ａｂｂ�" 00000 36,nl,tu)
+
+=== SCENE_ID.BIN_00000306.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000307.BIN ===
+iJm()
+lk(ャャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000308.BIN ===
+iJm()
+lk(ャャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000309.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000310.BIN ===
+slcIi(;slcIe(ャャｎｂ" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000311.BIN ===
+isJump()
+lk("サイト", null, "キュルケ！\nちょ、ちょっと……。", (0x04000000 +11670)
+lk("タバサ", null, "……。", null)
+lk("サイト", null, "タ、タバサ！\nキュルケを止めないと……。", (0x04000000 +11671)
+lk("タバサ", null, "大丈夫。", (0x04000000 +15579)
+like("タバサ", 15)
+lk("サイト", null, "で、でも！", (0x04000000 +11672)
+
+=== SCENE_ID.BIN_00000312.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000313.BIN ===
+isJump()
+lk("サイト", null, "（さ、去るものは追わずというけど……）", null)
+lk("サイト", null, "（ヤバイよなあ……）", null)
+
+=== SCENE_ID.BIN_00000314.BIN ===
+iJm()
+mvIi(00000 30,00000 5)
+mvIe(舞" 00000 50,(x1000+33)
+mvIe(書" 00000 92,(x1000+33)
+mvIe(葡�" 00000 83,(x1000+43)
+oent(x1000+2)
+mvIe(件" 00000 62,(x1000+38)
+mvIe(�" 00000 67,(x1000+38)
+
+=== SCENE_ID.BIN_00000315.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000316.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000317.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000318.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000319.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+3};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 2)
+
+=== SCENE_ID.BIN_00000321.BIN ===
+slcIi(;slcIe(ｂｘ�" 00000 32,nl,tu)
+
+=== SCENE_ID.BIN_00000322.BIN ===
+iJm()
+lk(ャ�" 1)
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000323.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000324.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000325.BIN ===
+iJm()
+slc(;f(sup)
+slcIi(;slcIe(翌ｂａ" 00000 36,nl,tu)
+
+=== SCENE_ID.BIN_00000326.BIN ===
+iJm()
+lk(ャャ" 0;st"a5,{pct  ,  ,Fo  ,oeie=10xrm=-6oaiyrm=10hd  ,pctTm  0,  4};st"a3,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  1"oaiyie=10x=-6l  ,mg  00000 89};tl(ャャャ�" ul ｂ£ｂ獅魔ｂ装ｂｂａ" 00000 48)
+lk(ャ�" 1)
+
+=== SCENE_ID.BIN_00000327.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000328.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000329.BIN ===
+isJump()
+lk("ウェザリー", null, "……その他のキャストを含めた最終的な役は、\n後日発表します。", (0x04000000 +15989)
+lk("ウェザリー", null, "では稽古に精を出すように。\n解散！", (0x04000000 +15990)
+lk("サイト", null, "（そして、公演の準備と稽古にあけくれる\n　日々は瞬く間に過ぎていった）", null)
+
+=== SCENE_ID.BIN_00000330.BIN ===
+slcIi(;slcIe(白獅窒�" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000331.BIN ===
+iJm()
+lk(ャャ" 0;td(3)
+
+=== SCENE_ID.BIN_00000332.BIN ===
+iJm()
+lk(ャャ" 1)
+
+=== SCENE_ID.BIN_00000333.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000334.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000335.BIN ===
+oent(x1000+4)
+mvIe(件" 00000 33,(x1000+43)
+mvIe(�" 00000 75,(x1000+43)
+mvIi(00000 31,00000 5)
+mvIe(舞" 00000 67,(x1000+48)
+mvIe(葡�" 00000 50,(x1000+48)
+mvIe(葡�" 00000 16)
+
+=== SCENE_ID.BIN_00000336.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000337.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000338.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000339.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000340.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+8};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 3)
+
+=== SCENE_ID.BIN_00000341.BIN ===
+lk("サイト", null, "（そして、ついに役柄の発表の日が来た）", null)
+lk("ウェザリー", null, "みんな、お疲れさま。\nそれでは最終的な配役の発表をします。\nまず、王子ケイン役には……サイトを！", (0x04000000 +15991)
+lk("ギーシュ", null, "ど、どうせぼくなんて……。", (0x04000000 +1517)
+lk("モンモランシー", null, "ま、まあまあ。", (0x04000000 +4086)
+lk("サイト", null, "ほ、ホントにいいんですか？", (0x04000000 +11701)
+lk("ウェザリー", null, "……なかなか筋が良かったわよ。\n自信を持ちなさい。", (0x04000000 +15992)
+lk("ウェザリー", null, "……わたしは敵国の貴族役にまわるわ。\n悪役がいないとしまらないものね。", (0x04000000 +15993)
+lk("ウェザリー", null, "さて、それで。\nヒロインのノエル王女役なんだけど……。", (0x04000000 +15994)
+lk("ルイズ", null, "……。", (0x04000000 +6257)
+lk("ハルナ", null, "……。", (0x04000000 +2377)
+lk("シエスタ", null, "……。", (0x04000000 +14788)
+lk("キュルケ", null, "……。", null)
+lk("タバサ", null, "……。", null)
+lk("モンモランシー", null, "……。", (0x04000000 +4087)
+lk("アンリエッタ", null, "……。", (0x04000000 +578)
+
+=== SCENE_ID.BIN_00000343.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000344.BIN ===
+il(縁ｂ浮�";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+nSi(;ie(ャン帥＜" )
+slcIi(;slcIe(ｕｂ＝" 00000 35,nl,tu)
+eiSi(;mgf(
+ak)
+
+=== SCENE_ID.BIN_00000345.BIN ===
+isJump()
+lk("サイト", null, "お姫さま！？", (0x04000000 +13385)
+lk("シエスタ", null, "ええっ！？", (0x04000000 +15154)
+lk("キュルケ", null, "どうしてこんなところに、\n女王陛下がいらっしゃるの！？", (0x04000000 +3827)
+lk("ルイズ", null, "と、とにかくお迎えしないと！", (0x04000000 +7306)
+
+=== SCENE_ID.BIN_00000346.BIN ===
+isJump()
+lk("サイト", null, "宿屋の親父、いつそんな可愛い声に！？", (0x04000000 +13386)
+lk("ルイズ", null, "ばかっ！\nそんなわけないでしょ！\nどう聞いても姫さまじゃないの！", (0x04000000 +7307)
+lk("サイト", null, "じょ、冗談だよ。", (0x04000000 +13387)
+lk("ルイズ", null, "と、とにかく、お迎えしないと！", (0x04000000 +7308)
+
+=== SCENE_ID.BIN_00000347.BIN ===
+isJump()
+lk("サイト", null, "ドアの向こうにいる、ワタクシさんって誰！？", (0x04000000 +13388)
+lk("ルイズ", null, "どこの誰よ、それ！\nどう聞いても姫さまのお声じゃないの！\nほんっとにバカ使い魔ね！", (0x04000000 +7309)
+lk("サイト", null, "うう、お茶目な冗談だったのにぃ……。", (0x04000000 +13389)
+
+=== SCENE_ID.BIN_00000348.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000349.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(試ｍｂｂ詞ｋｂａ" 00000 30,nl,tu)
+
+=== SCENE_ID.BIN_00000350.BIN ===
+isJump()
+lk("サイト", null, "犯人は職人で、仕事にありつくために、\n爆破してまわったってことか？", (0x04000000 +13394)
+lk("ルイズ", null, "そうじゃないでしょ？", (0x04000000 +7316)
+lk("ルイズ", null, "職人を装って、工作員を我が国に\n潜入させる作戦ね。\nそういうことでしょうか、姫さま。", (0x04000000 +7317)
+
+=== SCENE_ID.BIN_00000351.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000352.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000353.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000355.BIN ===
+oent(x1000+6)
+mvIe(嵐�" 00000 88,(x1000+44)
+mvIe(葡�" 00000 88,(x1000+44)
+mvIi(00000 30,00000 5)
+mvIe(書" 00000 88,(x1000+49)
+mvIe(鞄" 00000 88,(x1000+49)
+
+=== SCENE_ID.BIN_00000356.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000357.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000358.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000359.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000360.BIN ===
+slcIi(;slcIe(汲ｂｂｂｂ" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000361.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000362.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000363.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000364.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000365.BIN ===
+slcIi(;slcIe(於ｂｂ衰" 00000 36,nl,tu)
+
+=== SCENE_ID.BIN_00000366.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000367.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000368.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000369.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000370.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+slcIi(;slcIe(奄�ｂｂａ" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000371.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000372.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000373.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000374.BIN ===
+isJump()
+lk("ルイズ", null, "姫さまに何かあったらどうするつもりなのよ！\nこのバカ犬ー！", (0x04000000 +7340)
+lk("サイト", null, "ぎゃああああああすっ！", (0x04000000 +13480)
+selectInit()
+
+=== SCENE_ID.BIN_00000375.BIN ===
+il(事ｂ浮�";td(ul;bgnkp)
+slcIi(;slcIe(ャャｓ魔ｂｂ" 00000 36,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ�" )
+
+=== SCENE_ID.BIN_00000376.BIN ===
+isJump()
+lk("サイト", null, "キュルケが適役だったからだろ。", (0x04000000 +13486)
+lk("ルイズ", null, "キュルケのどこが？", (0x04000000 +7349)
+lk("サイト", null, "ま、なんと言っても人あしらいのうまさだな。\n特に色仕掛けとか。", (0x04000000 +13487)
+lk("キュルケ", null, "ルイズには無理よね。", (0x04000000 +3841)
+lk("ルイズ", null, "なんですってえ！？", (0x04000000 +7350)
+
+=== SCENE_ID.BIN_00000377.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000378.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000379.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000380.BIN ===
+slcIi(;slcIe(沫ｂｂｖ曹ｂｂ�" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000381.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000382.BIN ===
+isJump()
+lk("サイト", null, "仕方ないです。\nお姫さまは俺が守ります。", (0x04000000 +13501)
+lk("アンリエッタ", null, "え……。\nそれでは、よろしいのですね？", (0x04000000 +825)
+lk("ルイズ", null, "ちょっとサイト！\nなに勝手に決めてるのよ！", (0x04000000 +7367)
+lk("サイト", null, "お姫さまにここまで言われちゃ、\n止められないじゃないか。", (0x04000000 +13502)
+lk("ルイズ", null, "うう、それはそうだけど……。", (0x04000000 +7368)
+
+=== SCENE_ID.BIN_00000383.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000384.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000385.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+slcIi(;slcIe(浮ｋｂ�" 00000 36,nl,tu)
+
+=== SCENE_ID.BIN_00000386.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000387.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000388.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000389.BIN ===
+iJm()
+atent(x2000+4)
+atenm(�" 俣�" 00000 10)
+btlIi(00000 5)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 30,tu)
+
+=== SCENE_ID.BIN_00000390.BIN ===
+slcIi(;slcIe(ャャ≠ｂｂ�" 00000 31,nl,tu)
+
+=== SCENE_ID.BIN_00000391.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000392.BIN ===
+isJump()
+lk("サイト", null, "何か罠でもあったのか？", (0x04000000 +13521)
+lk("ギーシュ", null, "惜しい！\n非常に惜しいね！\nでも、ちょっと違うんだなぁ。", (0x04000000 +1556)
+lk("サイト", null, "お前、ほんとむかつくな。", (0x04000000 +13522)
+lk("アンリエッタ", null, "いったい、何があったのです？", (0x04000000 +837)
+
+=== SCENE_ID.BIN_00000393.BIN ===
+isJump()
+lk("サイト", null, "またモンモンとケンカでもしたのか？", (0x04000000 +13523)
+lk("ギーシュ", null, "そんなわけあるか！", (0x04000000 +1557)
+lk("アンリエッタ", null, "いったい何があったというのですか。", (0x04000000 +838)
+
+=== SCENE_ID.BIN_00000394.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000395.BIN ===
+slcIi(;slcIe(ｑ＊唐藷ｂａ" 00000 36,nl,tu)
+
+=== SCENE_ID.BIN_00000396.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000397.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000398.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000399.BIN ===
+iJm()
+btlIi(00000 5)
+atenm(�" 侮" 00000 11)
+btl(;nx(00000 40,tu)
+atent(x2000+2)
+atenm(�" 侮" 00000 11)
+
+=== SCENE_ID.BIN_00000400.BIN ===
+slcIi(;slcIe(薗ｋｂｂｂｂ聡浮" 00000 41,nl,tu)
+
+=== SCENE_ID.BIN_00000401.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000402.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000403.BIN ===
+isJump()
+lk("サイト", null, "今は俺の胸でお泣き。", (0x04000000 +13556)
+lk("シエスタ", null, "サイトさあん……っ！", (0x04000000 +15166)
+lk("ルイズ", null, "調子に乗るなっ！", (0x04000000 +7401)
+lk("サイト", null, "ぐおおっ！\nいきなりぐーで殴るかお前っ！？", (0x04000000 +13557)
+lk("ルイズ", null, "シエスタをなぐさめるのは分かるけど、\nそこでデレデレするあんたは不許可よっ！", (0x04000000 +7402)
+
+=== SCENE_ID.BIN_00000404.BIN ===
+iJm()
+slcIi(;dtIe(ャャャ" 00000 16)
+
+=== SCENE_ID.BIN_00000405.BIN ===
+il(決ｂ浮�";td(ul;bgnkp)
+slcIi(;slcIe(ｂｂｂｂ" 00000 46,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;ie(メ�" )
+
+=== SCENE_ID.BIN_00000406.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000407.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000408.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000409.BIN ===
+isJump()
+lk("アンリエッタ", null, "う……ふ、ううっ……うっ、うっ……！", (0x04000000 +870)
+lk("サイト", null, "あ、ええと？\nお、お姫さま……っ！", (0x04000000 +13579)
+lk("サイト", null, "（ど、どうしよう。\n　女の子が泣いちゃったら、\n　一体どうすればいいんだ？）", null)
+lk("ルイズ", null, "おはようございます、姫さま。\nお加減は……。\nって、姫さまっ！？", (0x04000000 +7407)
+lk("サイト", null, "あ、こ、これは違うんだ、ルイズっ！", (0x04000000 +13580)
+lk("ルイズ", null, "サイトぉぉぉっ！\n姫さまに何したのー！？\n正直に言ってごらんなさい。", (0x04000000 +7408)
+lk("サイト", null, "だから違うんだってー！\n何もやってないって。", (0x04000000 +13581)
+lk("サイト", null, "うぎゃー。", (0x04000000 +13582)
+
+=== SCENE_ID.BIN_00000412.BIN ===
+slc(;ee(;mgf(
+ak)
+slcIi(;slcIe(ｂｂｂｂ" 00000 43,nl,tu)
+
+=== SCENE_ID.BIN_00000413.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000414.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000415.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000416.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000417.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000418.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000419.BIN ===
+isJump()
+lk("ルイズ", null, "サ〜イ〜ト〜！！", (0x04000000 +7421)
+lk("サイト", null, "なんだよ、今それどころじゃないよ。", (0x04000000 +13619)
+lk("サイト", null, "……え？\n今の声は、あれ？", (0x04000000 +13620)
+lk("サイト", null, "はッ！？\n背後にものすごい殺気が！", (0x04000000 +13621)
+lk("ルイズ", null, "あんたってバカは、いくら言ってきかせても\n見境なしにふらふらと……！", (0x04000000 +7422)
+lk("サイト", null, "る、ルイズっ！？\nま、待て！\nちちがうんだ、これは！", (0x04000000 +13622)
+lk("ルイズ", null, "この……バカ使い魔ぁーっ！！", (0x04000000 +7423)
+
+=== SCENE_ID.BIN_00000421.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(送ｎｂ" 00000 42,nl,tu)
+
+=== SCENE_ID.BIN_00000422.BIN ===
+isJump()
+lk("サイト", null, "駄目ですよ、お姫さま。\n俺は許可できません。", (0x04000000 +13638)
+lk("アンリエッタ", null, "わたくしは女王なのです。\n先頭に立って戦わなければ、\n誰がついてくるのですか？", (0x04000000 +908)
+lk("サイト", null, "……。", (0x04000000 +13639)
+
+=== SCENE_ID.BIN_00000423.BIN ===
+isJump()
+lk("サイト", null, "分かりました。\n俺も手伝います。", (0x04000000 +13640)
+lk("ルイズ", null, "サイト！\nあんた何言ってるのか、分かってるの？", (0x04000000 +7455)
+lk("アンリエッタ", null, "ルイズ、わたしくは女王なのです。\n先頭に立って戦わなければ、\n誰がついてくるのですか？", (0x04000000 +909)
+lk("ルイズ", null, "……。", (0x04000000 +7456)
+
+=== SCENE_ID.BIN_00000425.BIN ===
+iJm()
+atent(x2000+3)
+atenm(�" 俣�" 00000 10)
+btlIi(00000 4)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 46,tu)
+
+=== SCENE_ID.BIN_00000426.BIN ===
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  2"oaiyie=10x=6,v=0iae=(x2000+3)
+eiSi(;mgf(
+ak)
+
+=== SCENE_ID.BIN_00000427.BIN ===
+btlIi(00000 7)
+atenm(�" ャャ�" 00000 18)
+atent(x2000+1)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 48,tu)
+
+=== SCENE_ID.BIN_00000429.BIN ===
+il(迄ｂ浮�";td(ul;bgnkp)
+eiSi(;mgf(
+ak)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+2};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+9};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  4lvl=10oaiyrm=0d  1"oaiyie=10x=6,v=0iae=(x2000+0)
+
+=== SCENE_ID.BIN_00000431.BIN ===
+il(淘ｃャ�";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+nSi(;ie(ャン帥＜" )
+slcIi(;slcIe(ａメャ�" 00000 42,nl,tu)
+eiSi(;mgf(
+ak)
+
+=== SCENE_ID.BIN_00000432.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000433.BIN ===
+isJump()
+lk("サイト", null, "あ、その手帳は？", (0x04000000 +13141)
+lk("ハルナ", null, "う、うん。\nこれは、私の大切な手帳。", (0x04000000 +2471)
+lk("サイト", null, "ふーん、そうなんだ。", (0x04000000 +13142)
+
+=== SCENE_ID.BIN_00000434.BIN ===
+isJump()
+lk("サイト", null, "うっ、教科書か……。", (0x04000000 +13143)
+lk("ハルナ", null, "ええ、そうよ。\nこれでこっちの世界でも、勉強ができるわね。", (0x04000000 +2472)
+lk("サイト", null, "ほんっと、優等生だよなあ。", (0x04000000 +13144)
+
+=== SCENE_ID.BIN_00000435.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000436.BIN ===
+slcIi(;slcIe(奄ｂｂ�" 00000 47,nl,tu)
+
+=== SCENE_ID.BIN_00000437.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000438.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000439.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000440.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000441.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+slcIi(;slcIe(雌ｂ" 00000 42,nl,tu)
+
+=== SCENE_ID.BIN_00000442.BIN ===
+isJump()
+lk("サイト", null, "どれ、洗濯だったら得意中の得意だから、\n俺にまかせなよ。", (0x04000000 +13158)
+lk("ハルナ", null, "平賀くん……。\nお願い……。", (0x04000000 +2507)
+lk("サイト", null, "とりあえず、この洗濯を終わらせよう！", (0x04000000 +13159)
+lk("ハルナ", null, "うん。", (0x04000000 +2508)
+
+=== SCENE_ID.BIN_00000443.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000444.BIN ===
+isJump()
+lk("サイト", null, "おいおい、大丈夫か？", (0x04000000 +13161)
+lk("ハルナ", null, "ひ、平賀くん！\n見てたの？", (0x04000000 +2512)
+lk("サイト", null, "え、ええと。\nと、とりあえず洗濯を手伝うよ。", (0x04000000 +13162)
+
+=== SCENE_ID.BIN_00000445.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000446.BIN ===
+oent(x1000+5)
+mvIe(渇虫" 00000 98,(x1000+44)
+mvIe(��" 00000 66,(x1000+44)
+mvIi(00000 41,00000 1)
+mvIe(随�" 00000 58,(x1000+49)
+mvIe(趨" 00000 49,(x1000+49)
+
+=== SCENE_ID.BIN_00000447.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 1)
+
+=== SCENE_ID.BIN_00000448.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000449.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+4};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 1)
+
+=== SCENE_ID.BIN_00000450.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000451.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(＝魔ｂ" 00000 42,nl,tu)
+
+=== SCENE_ID.BIN_00000452.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000453.BIN ===
+isJump()
+lk("サイト", null, "そっか……。\nじゃあ、引越しの手伝いをするよ。", (0x04000000 +13172)
+lk("シエスタ", null, "えっ、いいんですか？", (0x04000000 +15113)
+lk("サイト", null, "うん、何でも言ってよ。", (0x04000000 +13173)
+lk("ハルナ", null, "わ、私も手伝います。", (0x04000000 +2520)
+
+=== SCENE_ID.BIN_00000454.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000455.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000456.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+slcIi(;slcIe(刻ｒｂｂｂｂ" 00000 47,nl,tu)
+
+=== SCENE_ID.BIN_00000457.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000458.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000459.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000460.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000462.BIN ===
+slcIi(;slcIe(ｂ�ｂ獅" 00000 43,nl,tu)
+
+=== SCENE_ID.BIN_00000463.BIN ===
+isJump()
+lk("サイト", null, "俺もいい話だと思うけど。", (0x04000000 +13211)
+lk("ハルナ", null, "……。", null)
+lk("サイト", null, "（な、なんだっていうんだ、春奈。\n　必死そうな目で俺を見て……）", null)
+
+=== SCENE_ID.BIN_00000464.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000465.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000466.BIN ===
+isJump()
+lk("キュルケ", null, "ウェザリーがハルナをスカウトに……ねぇ？\nどういうことかしら、タバサ。", (0x04000000 +3813)
+lk("タバサ", null, "……。", null)
+lk("ハルナ", null, "もう少しだけ考えます。\n皆さん、ありがとうございました。", (0x04000000 +2557)
+lk("サイト", null, "そうだな……。\n急な話だし、もうちょっと\n考えてみたほうがいいよ。", (0x04000000 +13215)
+lk("ハルナ", null, "うん。\nそうするね。", (0x04000000 +2558)
+selectInit()
+
+=== SCENE_ID.BIN_00000467.BIN ===
+il(ャモ決";td(ul;bgnkp)
+slc(;ee(;tte"n喫ﾌ意)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ�" )
+slcIi(;slcIe(ｂｂ高ｂｂ" 00000 48,nl,tu)
+
+=== SCENE_ID.BIN_00000468.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000469.BIN ===
+isJump()
+lk("サイト", null, "な、なんだって！\nわ、分かった！\nすぐ探しにいこう！", (0x04000000 +13224)
+lk("ルイズ", null, "な、なによ。\nそんなに慌てなくても。", (0x04000000 +7163)
+lk("シエスタ", null, "ミス・ヴァリエール……。", (0x04000000 +15128)
+lk("ルイズ", null, "わ、分かったわよ！", (0x04000000 +7164)
+lk("ルイズ", null, "わたしも探しに行くから、\n少し待って！", (0x04000000 +7165)
+
+=== SCENE_ID.BIN_00000470.BIN ===
+isJump()
+lk("サイト", null, "と、とりあえず、少し待ってみたら……。", (0x04000000 +13225)
+lk("シエスタ", null, "で、ですけど！", (0x04000000 +15129)
+lk("シエスタ", null, "その待ってる間になにかあったら……。", (0x04000000 +15130)
+lk("ルイズ", null, "……。", (0x04000000 +7166)
+lk("シエスタ", null, "わ、わたし、もう一度探しに行きます！", (0x04000000 +15131)
+lk("ルイズ", null, "わたしも探しに行くわ！", (0x04000000 +7167)
+lk("サイト", null, "わ、分かったって！\n俺も探しにいくから。", (0x04000000 +13226)
+
+=== SCENE_ID.BIN_00000471.BIN ===
+iJm()
+mvIi(00000 42,00000 1)
+mvIe(去" 00000 58,(x1000+81)
+mvIe(嵩" 00000 49,(x1000+80)
+oent(x1000+7)
+mvIe(��" 00000 99,(x1000+86)
+mvIe(鋳" 00000 82,(x1000+86)
+
+=== SCENE_ID.BIN_00000473.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+slcIi(;slcIe(ｂａ樺ｂ�" 00000 44,nl,tu)
+
+=== SCENE_ID.BIN_00000474.BIN ===
+isJump()
+lk("サイト", null, "じゃあ、頑張ってな。", (0x04000000 +13244)
+lk("ハルナ", null, "うん……。\n約束する。\nじゃあね、バイバイ。", (0x04000000 +2586)
+
+=== SCENE_ID.BIN_00000475.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000476.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000477.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000478.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(ｂｕ�" 00000 49,nl,tu)
+
+=== SCENE_ID.BIN_00000479.BIN ===
+isJump()
+lk("サイト", null, "（なにか変だな？）", null)
+lk("サイト", null, "（２人とも、いい加減なことをする奴じゃ\n　ないし……）", null)
+lk("サイト", null, "なあ、キュルケ……。", (0x04000000 +13254)
+lk("キュルケ", null, "分かっているわよ。\nダーリン。", (0x04000000 +3822)
+lk("タバサ", null, "大丈夫。\nまかせて。", (0x04000000 +15800)
+lk("サイト", null, "……へ？\nどういうこと？", (0x04000000 +13255)
+lk("ルイズ", null, "ご、ご主人様を無視して話を\nしてるんじゃないわよ！\nこのバカ犬っ！", (0x04000000 +7178)
+
+=== SCENE_ID.BIN_00000480.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000481.BIN ===
+isJump()
+lk("サイト", null, "そ、そんな無責任な！", (0x04000000 +13258)
+lk("ルイズ", null, "そうよそうよ！", (0x04000000 +7181)
+lk("タバサ", null, "後で分かる。", (0x04000000 +15801)
+lk("ルイズ", null, "分かるって、ど、どういう意味よ！", (0x04000000 +7182)
+lk("キュルケ", null, "まあまあ、単純まっすぐなのが\nルイズなんだし……。", (0x04000000 +3823)
+
+=== SCENE_ID.BIN_00000482.BIN ===
+isJump()
+lk("キュルケ", null, "そういうわけだから。\nじゃあね、ダーリン。", (0x04000000 +3824)
+lk("サイト", null, "なにがどうなってるんだよ。\nワケ分かんねーって！", (0x04000000 +13259)
+lk("ルイズ", null, "い、いいわよ！\nもう知らないんだから〜〜！", (0x04000000 +7183)
+
+=== SCENE_ID.BIN_00000483.BIN ===
+mvIi(00000 44,00000 4)
+mvIe(嵐�" ,(x1000+90)
+mvIe(件" ,(x1000+90)
+oent(x1000+8)
+mvIe(葡�" ,(x1000+85)
+mvIe(鞄" ,(x1000+95)
+
+=== SCENE_ID.BIN_00000485.BIN ===
+slcIi(;slcIe(窒株ｂｂ�" 00000 46,nl,tu)
+
+=== SCENE_ID.BIN_00000486.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000487.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000488.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000489.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000490.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 2)
+slcIi(;slcIe(藷ｎ窒唐ｂ�" 00000 41,nl,tu)
+
+=== SCENE_ID.BIN_00000491.BIN ===
+isJump()
+lk("サイト", null, "（……この手帳を届けないと）", null)
+
+=== SCENE_ID.BIN_00000492.BIN ===
+isJump()
+lk("サイト", null, "（春奈に逢いたい。\n　どうしても）", null)
+
+=== SCENE_ID.BIN_00000493.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000494.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000495.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(柱£�" 00000 46,nl,tu)
+
+=== SCENE_ID.BIN_00000496.BIN ===
+isJump()
+lk("サイト", null, "断固、断る！\n俺は１人で行くんだ！", (0x04000000 +13284)
+lk("ルイズ", null, "あなたに拒否権なんて\nあるわけないでしょ！", (0x04000000 +7189)
+lk("ルイズ", null, "黙って言うことを聞きなさい。\nバカ犬！", (0x04000000 +7190)
+lk("サイト", null, "き、きゃいん！", (0x04000000 +13285)
+
+=== SCENE_ID.BIN_00000497.BIN ===
+isJump()
+lk("サイト", null, "そ、そんな……。", (0x04000000 +13286)
+lk("サイト", null, "ご主人様にわざわざ出向いていただかなくとも！", (0x04000000 +13287)
+lk("ルイズ", null, "あら、遠慮なんて不要よ。\nわたしとハルナの仲じゃない。", (0x04000000 +7191)
+lk("ルイズ", null, "黙って言うことを聞きなさい。\nバカ犬！", (0x04000000 +7192)
+
+=== SCENE_ID.BIN_00000498.BIN ===
+isJump()
+lk("サイト", null, "わ、分かりました。", (0x04000000 +13288)
+lk("ルイズ", null, "分かればよろしいっ！", (0x04000000 +7193)
+
+=== SCENE_ID.BIN_00000499.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000500.BIN ===
+slcIi(;slcIe(ｂａ奄＝" 00000 51,nl,tu)
+
+=== SCENE_ID.BIN_00000501.BIN ===
+isJump()
+lk("サイト", null, "ええと。\nあれは、俺が……。", (0x04000000 +13297)
+lk("ルイズ", null, "サイト、黙りなさい！\n喋っちゃダメよ！", (0x04000000 +7200)
+
+=== SCENE_ID.BIN_00000502.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000503.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000504.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000505.BIN ===
+slcIi(;slcIe(ｂｂｂ�" 00000 56,nl,tu)
+
+=== SCENE_ID.BIN_00000506.BIN ===
+isJump()
+lk("サイト", null, "なにかが起きる……。\nってどういう？", (0x04000000 +13306)
+lk("ルイズ", null, "そんなの分かんないわよ！", (0x04000000 +7215)
+lk("ルイズ", null, "とりあえず、もう一度明日から調べましょう。", (0x04000000 +7216)
+selectInit()
+
+=== SCENE_ID.BIN_00000507.BIN ===
+isJump()
+lk("サイト", null, "考えすぎなんじゃない？", (0x04000000 +13307)
+lk("ルイズ", null, "言われてみればそうなんだけど。", (0x04000000 +7217)
+lk("ルイズ", null, "やっぱり、疲れてるのかしら。\nわたし……。", (0x04000000 +7218)
+selectInit()
+
+=== SCENE_ID.BIN_00000508.BIN ===
+isJump()
+lk("サイト", null, "それで、どうしろっていうんだよ！", (0x04000000 +13308)
+lk("ルイズ", null, "そんなの分かんないわよ！", (0x04000000 +7219)
+lk("ルイズ", null, "とりあえず、明日からもう一度地道に\n調べてみましょう。", (0x04000000 +7220)
+selectInit()
+
+=== SCENE_ID.BIN_00000509.BIN ===
+isJump()
+selectInit()
+
+=== SCENE_ID.BIN_00000510.BIN ===
+il(ｂ�垂ャ�";td(ul;bgnkp)
+slc(;ee(;tte"爨麝ﾌn喫)
+eiSi(;mgf(
+ak)
+nSi(;ie(メ�" )
+slcIi(;slcIe(＝浮ｂ♂ｒ�" 00000 51,nl,tu)
+
+=== SCENE_ID.BIN_00000511.BIN ===
+isJump()
+lk("サイト", null, "分かった。\n恩に着るよ。", (0x04000000 +13313)
+lk("ルイズ", null, "バカ犬のクセに格好をつけるんじゃないわよ！", (0x04000000 +7228)
+lk("サイト", null, "そんな身勝手な……。", (0x04000000 +13314)
+lk("ルイズ", null, "ほら、なにグズグズしてるの！\n早く行ってきなさい。", (0x04000000 +7229)
+
+=== SCENE_ID.BIN_00000512.BIN ===
+isJump()
+lk("サイト", null, "でも、ルイズは……。", (0x04000000 +13315)
+lk("ルイズ", null, "むっ、バカにしないでよね！\nラ・ヴァリエール家の三女たる\nこのわたしが……、", (0x04000000 +7230)
+lk("ルイズ", null, "そうやすやすと戦場で遅れをとるハズ\nないでしょう！", (0x04000000 +7231)
+lk("サイト", null, "分かった。\n気をつけてな！", (0x04000000 +13316)
+lk("ルイズ", null, "大きなお世話よ！\nそっちこそ気をつけなさい！", (0x04000000 +7232)
+
+=== SCENE_ID.BIN_00000513.BIN ===
+isJump()
+lk("サイト", null, "そ、そんなこといわれても！", (0x04000000 +13317)
+lk("ルイズ", null, "じゃあ、命令。\nご主人様の命令は絶対よ！", (0x04000000 +7233)
+lk("サイト", null, "サー・イエッサー！\nご主人様のバカ犬めは、ただいまより\n春奈の救出に向かうであります。", (0x04000000 +13318)
+lk("ルイズ", null, "よろしい、とっとと行きなさい！", (0x04000000 +7234)
+
+=== SCENE_ID.BIN_00000514.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000515.BIN ===
+lk("サイト", null, "（とりあえず探すなら劇場からか……）", null)
+lk("サイト", null, "（無事でいてくれよ！）", null)
+lk("サイト", null, "はぁ、はぁはぁ……。", (0x04000000 +13319)
+lk("サイト", null, "（ちくしょう、あと少しで劇場なのに……）", null)
+lk("敵兵士ＥＳ", "兵士", "……！", (0x04000000 +1407)
+lk("サイト", null, "くそっ、宿の親父が言ってた\nレコン・キスタの敵兵ってのはこいつらか！", (0x04000000 +13320)
+lk("サイト", null, "てめえらそこをどけぇぇぇっ！", (0x04000000 +13321)
+
+=== SCENE_ID.BIN_00000517.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000518.BIN ===
+lk("サイト", null, "はぁはぁはぁ。\n……時間をとられちまったけど。", (0x04000000 +13322)
+lk("サイト", null, "（……いた！\n　春奈だ！）", null)
+lk("ハルナ", null, "会いたかった……。", (0x04000000 +2612)
+lk("サイト", null, "……えっ！", (0x04000000 +13323)
+
+=== SCENE_ID.BIN_00000519.BIN ===
+isJump()
+lk("ハルナ", null, "うふふっ……。", (0x04000000 +2613)
+lk("サイト", null, "な、ななななな……。", (0x04000000 +13324)
+lk("サイト", null, "（い、いま俺の唇に触れているのは、\n　もしかして……）", null)
+lk("ハルナ", null, "ねぇ、サイト……。", (0x04000000 +2614)
+lk("サイト", null, "（……！）", null)
+lk("サイト", null, "（……違う！\n　こいつは春奈じゃないっ！）", null)
+lk("ハルナ", null, "うふふ。\nあら、サイトどうしたの？", (0x04000000 +2615)
+lk("ハルナ", null, "恥ずかしがらなくてもいいじゃない？", (0x04000000 +2616)
+lk("サイト", null, "お前、誰だ？", (0x04000000 +13325)
+lk("ハルナ", null, "あら、よく分かったわね？", (0x04000000 +2617)
+
+=== SCENE_ID.BIN_00000520.BIN ===
+isJump()
+lk("ハルナ", null, "うふふ。\nよく分かったわね？", (0x04000000 +2618)
+lk("ハルナ", null, "やっぱり\nハルナとはちがうかしら？", (0x04000000 +2619)
+lk("サイト", null, "……へ？", (0x04000000 +13326)
+
+=== SCENE_ID.BIN_00000521.BIN ===
+isJump()
+lk("アキナ", null, "あたしはアキナ……。", (0x04000000 +198)
+lk("アキナ", null, "ウェザリー様に作っていただいた、\n新しい人格なの。\nふふ、ふふふふっ……。", (0x04000000 +199)
+lk("アキナ", null, "そして、おまえ達が『爆弾使い』って呼んで\nさんざん探し回ってた相手だよ！", (0x04000000 +200)
+lk("アキナ", null, "あはははははははははは！", (0x04000000 +201)
+selectInit()
+
+=== SCENE_ID.BIN_00000522.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000523.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000524.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000525.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000526.BIN ===
+lk("アキナ", null, "きゃあぁぁぁっ！", (0x04000000 +214)
+lk("サイト", null, "な、なんだぁぁぁっ！", (0x04000000 +13336)
+lk("ルイズ", "？？？", "自分の危険もかえりみず、\nサイトを迎えに来てみれば……。", (0x04000000 +7253)
+lk("ルイズ", null, "な、なな、なにをじゃれあってるのかしら？\n２人とも？", (0x04000000 +7254)
+lk("サイト", null, "ル、ルイズ！", (0x04000000 +13337)
+lk("サイト", null, "ちょっと待て、ルイズ！\nなにか誤解してるぞ！", (0x04000000 +13338)
+lk("アキナ", null, "いたたたた……。\nなにしやがるルイズ！\n殺すつもりか！", (0x04000000 +215)
+lk("ルイズ", null, "……？\nなによ、ハルナ？\nその言葉遣いは？", (0x04000000 +7255)
+lk("ルイズ", null, "いままでの優等生ぶりは嘘で、\nそれが地だったの？", (0x04000000 +7256)
+lk("アキナ", null, "うるさいうるさい！", (0x04000000 +216)
+lk("アキナ", null, "あたしをハルナと呼ぶな！\nあたしはアキナだ！", (0x04000000 +217)
+lk("ルイズ", null, "どういうことよ？", (0x04000000 +7257)
+lk("サイト", null, "ウェザリーに操られてるらしいんだ。\n爆弾使いは自分だと言ってる。", (0x04000000 +13339)
+lk("ルイズ", null, "なんですって！\nじゃあ黒幕はウェザリー！？", (0x04000000 +7258)
+lk("ルイズ", null, "だ、だったら、あの舞台は何だったのよ。\nば、馬鹿にして。", (0x04000000 +7259)
+lk("アキナ", null, "ウェザリー様を呼び捨てにするな。\nそれに、あたしを無視するな！", (0x04000000 +218)
+lk("サイト", null, "うわっ！", (0x04000000 +13340)
+lk("ルイズ", null, "アキナって言ったわね？\nあなたの目的は何！", (0x04000000 +7260)
+lk("アキナ", null, "言っただろ、トリスタニアでの破壊活動よ。\n爆弾使いとしてのね。", (0x04000000 +219)
+lk("アキナ", null, "魔法学院に入り込んだのは、\n学院の持つ秘密に関しての情報収集の\nはずだったんだけどな。", (0x04000000 +220)
+lk("ルイズ", null, "学院の持つ秘密？", (0x04000000 +7261)
+lk("アキナ", null, "おまえのことだよ、ルイズ。\nおまえの持つ虚無の力のことだ。", (0x04000000 +221)
+lk("ルイズ", null, "な、なんですって！", (0x04000000 +7262)
+lk("アキナ", null, "サイトに出会っちまったせいで\nハルナの意識が強くなって、\nいろいろ予定が狂っちまったがね。", (0x04000000 +222)
+lk("ルイズ", null, "この力は姫さまの……。\n女王陛下のものよ。", (0x04000000 +7263)
+lk("ルイズ", null, "あなた達のような下郎が\nそんな軽々しく触れようなどと、言語道断ね。", (0x04000000 +7264)
+lk("アキナ", null, "ふん、面白い。\nお上品ぶっても結局は力で決まるんだよ。", (0x04000000 +223)
+lk("アキナ", null, "さあ、出ておいで！", (0x04000000 +224)
+lk("魔導士", null, "……！", null)
+lk("サイト", null, "く、くそぉっ！", (0x04000000 +13341)
+
+=== SCENE_ID.BIN_00000527.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+slcIi(;slcIe(ャモ垂�" 00000 58,nl,tu)
+
+=== SCENE_ID.BIN_00000528.BIN ===
+isJump()
+lk("サイト", null, "よし、ルイズに……、ご主人様に任せたぜ！", (0x04000000 +13351)
+lk("ルイズ", null, "よろしい。\nそれでこそわたしの使い魔よ。", (0x04000000 +7278)
+
+=== SCENE_ID.BIN_00000529.BIN ===
+isJump()
+lk("サイト", null, "（……でも、ルイズだしなあ？）", null)
+lk("ルイズ", null, "なによ、その不安そうな顔は！\nそれでもこのわたしの使い魔なの！\n今すぐ、お仕置きが必要かしら……。", (0x04000000 +7279)
+lk("サイト", null, "り、了解であります。\nご主人様！", (0x04000000 +13352)
+lk("ルイズ", null, "よろしい！", (0x04000000 +7280)
+
+=== SCENE_ID.BIN_00000530.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000531.BIN ===
+isJump()
+lk("サイト", null, "それで、魔法はどこで仕掛けるんだ？\nゼロ戦は持ってきてないぞ。", (0x04000000 +13354)
+lk("ルイズ", null, "それは決めてるわ。", (0x04000000 +7282)
+lk("ルイズ", null, "王宮のいちばん上よ！", (0x04000000 +7283)
+
+=== SCENE_ID.BIN_00000533.BIN ===
+lk("ルイズ", null, "今回の魔法のためには、\nとにかく城で一番見晴らしの良い場所が\n必要なの！", (0x04000000 +7284)
+lk("ルイズ", null, "それに、こないだもそうだったけど、\n虚無の魔法は詠唱に時間がかかるわ。", (0x04000000 +7285)
+lk("ルイズ", null, "両方とも、しっかり確保するのよ！\nいいわね。", (0x04000000 +7286)
+lk("サイト", null, "分かってる！\n任せとけ！", (0x04000000 +13355)
+lk("サイト", null, "（……しかし、城内まで戦場になってるとはな。\n　こいつはきついな）", null)
+lk("サイト", null, "ここが屋上か。", (0x04000000 +13356)
+lk("デルフリンガー", null, "気をつけろ、相棒！", (0x04000000 +1371)
+lk("ルイズ", null, "……大丈夫！？\nサイト！", (0x04000000 +7287)
+lk("サイト", null, "な、なんとか大丈夫！", (0x04000000 +13357)
+lk("サイト", null, "（……容赦なしかよ！）", null)
+lk("アキナ", null, "……。", null)
+lk("ウェザリー", null, "あら。\n奇遇……ね。\nそれとも役者が揃ったというべきかしら？", (0x04000000 +16120)
+lk("ウェザリー", null, "ここで何をする気かしらないけど……。\nわたしに会ったのが不幸だったわね。", (0x04000000 +16121)
+selectInit()
+
+=== SCENE_ID.BIN_00000534.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000535.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000536.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000537.BIN ===
+iJm()
+atent(x2000+1)
+atenm(�" ャ�" 00000 14)
+btlIi(00000 7)
+atenm(�" ャャ�" 00000 18)
+btl(;nx(00000 58,tu)
+
+=== SCENE_ID.BIN_00000539.BIN ===
+eiSi(;mgf(
+ak)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+8};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+1};st"e" pa  00000 3)
+slc(;ee(;bgnkp)
+slcIi(;slcIe(ャモャモ魔�" 00000 50,nl,tu)
+
+=== SCENE_ID.BIN_00000540.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000541.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000542.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000543.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000544.BIN ===
+slcIi(;slcIe(�堰雌ｂｂ�" 00000 55,nl,tu)
+
+=== SCENE_ID.BIN_00000545.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000546.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000547.BIN ===
+isJump()
+lk("サイト", null, "（し、知らないぞ……。\n　実は春奈はぜんぜん家事が苦手だって）", null)
+
+=== SCENE_ID.BIN_00000548.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000549.BIN ===
+il(奄頼";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+nSi(;ie(ャン帥＜" )
+slcIi(;slcIe(曝ｂ" 00000 50,nl,tu)
+eiSi(;mgf(
+ak)
+
+=== SCENE_ID.BIN_00000550.BIN ===
+isJump()
+lk("サイト", null, "おいおい、俺の意見は聞かないのかよ。", (0x04000000 +12847)
+lk("ルイズ", null, "サイト……。\nあんたは今、黙ってなさい。", (0x04000000 +6984)
+lk("サイト", null, "ふぁい。", (0x04000000 +12848)
+
+=== SCENE_ID.BIN_00000551.BIN ===
+isJump()
+lk("サイト", null, "なるほど、確かにキュルケの作戦は\nいいかもしれないな。", (0x04000000 +12849)
+lk("ハルナ", null, "平賀くん……。\n本当にそう思ってるの？", (0x04000000 +2446)
+lk("サイト", null, "いや、まぁ……。\nはははははっ。", (0x04000000 +12850)
+
+=== SCENE_ID.BIN_00000552.BIN ===
+isJump()
+lk("サイト", null, "ふん……。\n結局使い魔とは言っても、\n誰も構ってくれないんだ……。", (0x04000000 +12851)
+lk("サイト", null, "（いじいじいじいじ）", null)
+lk("タバサ", null, "（なでなで）", (0x04000000 +15774)
+lk("サイト", null, "（じーん）", null)
+
+=== SCENE_ID.BIN_00000553.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000554.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(ｂｂ盾ｂｂ�" 00000 55,nl,tu)
+
+=== SCENE_ID.BIN_00000555.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000556.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000557.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000558.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000559.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+slcIi(;slcIe(ｂｂｂｂ" 00000 50,nl,tu)
+
+=== SCENE_ID.BIN_00000560.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000561.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000562.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000563.BIN ===
+iJm()
+mvIi(00000 58,00000 4)
+mvIe(書" 00000 66,(x1000+49)
+mvIe(嵐�" 00000 66,(x1000+45)
+mv(;f(sup)
+oent(x1000+6)
+mvIe(鞄" 00000 66,(x1000+40)
+mvIe(葡�" 00000 66,(x1000+40)
+
+=== SCENE_ID.BIN_00000564.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000565.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000566.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000567.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("stage")
+sync("bgm")
+sync("stage")
+
+=== SCENE_ID.BIN_00000568.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 6)
+slcIi(;slcIe(ｂｂｂｂｂ＝" 00000 59,nl,tu)
+
+=== SCENE_ID.BIN_00000569.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000570.BIN ===
+isJump()
+lk("サイト", null, "よしっ、頑張ってみるか！", (0x04000000 +12883)
+lk("キュルケ", null, "それでこそ、あたしのダーリン！\nもう、惚れ直しちゃいそう。", (0x04000000 +3661)
+lk("サイト", null, "勘弁してください。", (0x04000000 +12884)
+
+=== SCENE_ID.BIN_00000571.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000572.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000573.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 5)
+slcIi(;slcIe(ｂｂｂｂ�" 00000 54,nl,tu)
+
+=== SCENE_ID.BIN_00000574.BIN ===
+isJump()
+lk("サイト", null, "そんなはずはないって！\nウェザリーさんがスパイだなんて……。", (0x04000000 +12903)
+lk("キュルケ", null, "信じられない？\nそれとも信じたくない？", (0x04000000 +3681)
+
+=== SCENE_ID.BIN_00000575.BIN ===
+isJump()
+lk("サイト", null, "言われてみれば。", (0x04000000 +12904)
+lk("キュルケ", null, "ええ、どうして最初から気づかなかった\nのかしらね。", (0x04000000 +3682)
+lk("キュルケ", null, "あまりにも近くにいたから、\n疑うなんて思いもしなかったのね。", (0x04000000 +3683)
+
+=== SCENE_ID.BIN_00000576.BIN ===
+isJump()
+lk("サイト", null, "スパイって何の？", (0x04000000 +12905)
+lk("キュルケ", null, "確信はないけど、爆弾使いの件に\n深くからんでるかもしれないの。", (0x04000000 +3684)
+lk("サイト", null, "爆弾使いのスパイ？", (0x04000000 +12906)
+lk("キュルケ", null, "さぁ、それはどうかしら？", (0x04000000 +3685)
+
+=== SCENE_ID.BIN_00000577.BIN ===
+iJm()
+slcIi(;dtIe(ャャ" 00000 18)
+
+=== SCENE_ID.BIN_00000578.BIN ===
+il(獅ｌｂ�";td(ul;bgnkp)
+slcIi(;slcIe(ｂｃャｂｂｂ≠ａ" 00000 59,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ�" )
+
+=== SCENE_ID.BIN_00000579.BIN ===
+isJump()
+lk("サイト", null, "ただのネズミじゃないかも、って？", (0x04000000 +12917)
+lk("キュルケ", null, "もしかしたら、爆弾使いよりも、\nもっと大物のネズミかもね。", (0x04000000 +3697)
+
+=== SCENE_ID.BIN_00000580.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000581.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000582.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000583.BIN ===
+slcIi(;slcIe(ャャ≠ｂ麹�ｂｂ�" 00000 54,nl,tu)
+
+=== SCENE_ID.BIN_00000584.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000585.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000586.BIN ===
+isJump()
+lk("サイト", null, "お姫さまは遊びだろ？\nたまにはルイズと一緒にいたいんだよ。", (0x04000000 +12931)
+lk("キュルケ", null, "その冗談は笑えないわね。", (0x04000000 +3707)
+lk("サイト", null, "さ、さいですか……。", (0x04000000 +12932)
+
+=== SCENE_ID.BIN_00000587.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000588.BIN ===
+mvIi(00000 53,00000 6)
+mvIe(書" 00000 66,(x1000+45)
+mvIe(嵐�" 00000 66,(x1000+47)
+mv(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+oent(x1000+9)
+mvIe(葡�" 00000 66,(x1000+46)
+mvIe(鞄" 00000 66,(x1000+48)
+
+=== SCENE_ID.BIN_00000589.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+0};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 2)
+
+=== SCENE_ID.BIN_00000590.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+0};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 2)
+
+=== SCENE_ID.BIN_00000591.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+0};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 2)
+
+=== SCENE_ID.BIN_00000592.BIN ===
+iJm()
+cet(sae,"ae" ul;st"tg" so  ,ee  0iae=(x2000+0};sn(sae)
+sn(bm)
+sn(sae)
+sn(bm)
+sn(sae)
+cet(bm,"g" ul;st"g" pa  00000 2)
+
+=== SCENE_ID.BIN_00000593.BIN ===
+lk("ウェザリー", null, "……。", null)
+lk("サイト", null, "いたっ！\nウェザリーさんだ！", (0x04000000 +12945)
+lk("キュルケ", null, "ダーリン、静かにして。\n少し様子をみましょう。", (0x04000000 +3721)
+lk("ウェザリー", null, "……。", null)
+lk("サイト", null, "何をしてるんだろう？\nあ、動き出した。", (0x04000000 +12946)
+lk("キュルケ", null, "追いましょう！", (0x04000000 +3722)
+lk(null, null, "………。\n……。\n…。", null)
+lk("サイト", null, "キュルケ。\n今日はずいぶんゆっくり歩いてないか？", (0x04000000 +12947)
+lk("デルフリンガー", null, "ああ、相棒。\nまるでワザと追わせてるような……。", (0x04000000 +1361)
+lk("キュルケ", null, "え？", (0x04000000 +3723)
+lk("サイト", null, "なんだっ！？", (0x04000000 +12948)
+lk("魔導士", null, "……。", null)
+lk("サイト", null, "くそぉ、囲まれたか。", (0x04000000 +12949)
+lk("キュルケ", null, "はじめから気づかれていたのね。", (0x04000000 +3724)
+lk("キュルケ", null, "出てきなさい、ウェザリー！\nいるんでしょう！", (0x04000000 +3725)
+lk("ウェザリー", "？？？", "……。", null)
+lk("ウェザリー", null, "おやおや。\n主役のお二人がこの座長めに何かご用事で？", (0x04000000 +16050)
+lk("サイト", null, "ウェザリーさん！", (0x04000000 +12950)
+lk("キュルケ", null, "ウェザリーこそ、こんな怪しい魔導士を\nつれて何をたくらんでるのかしら？", (0x04000000 +3726)
+lk("ウェザリー", null, "さぁ、何もたくらんでいないわよ。", (0x04000000 +16051)
+lk("ウェザリー", null, "もっとも。\nもし、わたしが何かたくらんでいたと\nしても……、", (0x04000000 +16052)
+lk("ウェザリー", null, "その内容について、あなた達は知ることは\nできないわ。", (0x04000000 +16053)
+lk("ウェザリー", null, "だって、あなた達。\nここで始末されるんだもの。", (0x04000000 +16054)
+
+=== SCENE_ID.BIN_00000594.BIN ===
+slcIi(;slcIe(浮ｂ" 00000 55,nl,tu)
+
+=== SCENE_ID.BIN_00000595.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000596.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000597.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000598.BIN ===
+isJump()
+lk("キュルケ", null, "大丈夫よ、ダーリン。\nうまくいくわ。", (0x04000000 +3739)
+lk("キュルケ", null, "本当の『火』の魔法がどんなものか、\n微熱のキュルケが見せてあげるわっ！", (0x04000000 +3740)
+lk("魔導士", null, "くっ！\nなんなんだ！\nこの蒸気は！", (0x04000000 +3941)
+lk("ウェザリー", null, "馬鹿者！\n落ち着け！", (0x04000000 +16056)
+lk("キュルケ", null, "ダーリン、今よ！！", (0x04000000 +3741)
+lk("サイト", null, "分かった！", (0x04000000 +12962)
+
+=== SCENE_ID.BIN_00000599.BIN ===
+mvIi(00000 64,00000 4)
+mvIe(葡�" 00000 58,(x1000+40)
+mvIe(書" ,(x1000+42)
+oent(x1000+0)
+mvIe(��" 00000 49,(x1000+49)
+mvIe(嵐�" 00000 55,(x1000+41)
+
+=== SCENE_ID.BIN_00000600.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("bgm")
+
+=== SCENE_ID.BIN_00000601.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("bgm")
+
+=== SCENE_ID.BIN_00000602.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("bgm")
+
+=== SCENE_ID.BIN_00000603.BIN ===
+isJump()
+create("stage", "layer", null)
+sync("stage")
+create("bgm", "bgm", null)
+sync("bgm")
+sync("bgm")
+
+=== SCENE_ID.BIN_00000604.BIN ===
+slcIi(;slcIe(ャャｉｖｂｂｂ" 00000 65,nl,tu)
+
+=== SCENE_ID.BIN_00000605.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000606.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000607.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000608.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000609.BIN ===
+slcIi(;slcIe(汲ｂ�" 00000 60,nl,tu)
+
+=== SCENE_ID.BIN_00000610.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000611.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000612.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000613.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000614.BIN ===
+slcIi(;slcIe(窒ｌ獅" 00000 65,nl,tu)
+
+=== SCENE_ID.BIN_00000615.BIN ===
+isJump()
+lk("サイト", null, "タバサって実は面倒見がいいんだな。", (0x04000000 +13011)
+lk("タバサ", null, "そう？", (0x04000000 +15790)
+lk("キュルケ", null, "……？", (0x04000000 +3758)
+
+=== SCENE_ID.BIN_00000616.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000617.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000618.BIN ===
+iJm()
+slcIi(;dtIe(ャャ" 00000 18)
+
+=== SCENE_ID.BIN_00000619.BIN ===
+lk("サイト", null, "ふが……。", (0x04000000 +13018)
+lk("キュルケ", null, "おにぃ〜〜ちゃん！", (0x04000000 +3763)
+lk("キュルケ", null, "おはよっ！", (0x04000000 +3764)
+lk("サイト", null, "おわっ、キュルケ！\nお、おはよう。", (0x04000000 +13019)
+lk("キュルケ", null, "おにいちゃん、よくねむれた？", (0x04000000 +3765)
+lk("サイト", null, "う〜〜ん？", (0x04000000 +13020)
+selectInit()
+
+=== SCENE_ID.BIN_00000620.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000621.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000622.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000623.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000624.BIN ===
+eiSi(;mgf(
+ak)
+slc(;ee(;bgnkp)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+1};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+7};st"a2" oaiy=10y=0yrm=0so  ,oeie=10xrm=1,ee  6,pctFo  ,r="B,pctTm  0,  4l  ,mg  00000 12)
+slcIi(;slcIe(薗るｂｂｂ�" 00000 65,nl,tu)
+
+=== SCENE_ID.BIN_00000625.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000626.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000627.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000628.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000629.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(藷ｉｎｂｂ�" 00000 60,nl,tu)
+
+=== SCENE_ID.BIN_00000630.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000631.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000632.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000633.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000634.BIN ===
+lk("ルイズ", null, "通しなさい！\n急用なの！", (0x04000000 +7076)
+lk("兵士ＭＳ", "兵士", "止まれ。\n王宮である！\n然るべき手続きをとられて参られよ。", (0x04000000 +4257)
+lk("兵士ＭＳ", "兵士", "魔法学院の生徒風情が何の用か！", (0x04000000 +4258)
+lk("ルイズ", null, "な、なんですって！", (0x04000000 +7077)
+lk("サイト", null, "ルイズ、落ち着けって！", (0x04000000 +13066)
+lk("兵士ＭＳ", "兵士", "うわぁっ！", (0x04000000 +4259)
+lk("ルイズ", null, "きゃあ！", (0x04000000 +7078)
+lk("サイト", null, "ルイズ！\n無事か！", (0x04000000 +13067)
+lk("サイト", null, "（……砲撃だって？）", null)
+lk("サイト", null, "（……くそ、冗談じゃないぜ。\n　なんで王宮近くまでこんな砲撃が来てる\n　んだよ！）", null)
+lk("ルイズ", null, "事の重要さが分かったでしょう？\nわたしは、ラ・ヴァリエール公爵が三女、\nルイズ・フランソワーズ。", (0x04000000 +7079)
+lk("ルイズ", null, "女王陛下ご下命の調査につき、\n火急の報告がありお取り次ぎをお願いするわ。", (0x04000000 +7080)
+lk("兵士ＭＳ", "兵士", "し、しかし……。", (0x04000000 +4260)
+lk("ルイズ", null, "早く取り次ぎなさい！\nあなたにも街の炎が見えてるんでしょう！\nこんなことをしてる時間はないの！", (0x04000000 +7081)
+lk("兵士ＭＳ", "兵士", "し、しばらくお待ちください！", (0x04000000 +4261)
+
+=== SCENE_ID.BIN_00000636.BIN ===
+slcIi(;slcIe(桝ｂｂｂｂａ" 00000 67,nl,tu)
+
+=== SCENE_ID.BIN_00000637.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000638.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000639.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000640.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000642.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 4)
+slcIi(;slcIe(ｂｂｂｂｂ�" 00000 63,nl,tu)
+
+=== SCENE_ID.BIN_00000643.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000644.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000645.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000646.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000647.BIN ===
+isJump()
+selectInit()
+
+=== SCENE_ID.BIN_00000648.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000649.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000650.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000651.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000652.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000653.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000654.BIN ===
+lk("ルイズ", null, "さあ、行きましょう！\n目指すは城の高台よ！", (0x04000000 +7132)
+lk("サイト", null, "行くぜデルフリンガー！", (0x04000000 +13119)
+lk("デルフリンガー", null, "おうよ、相棒。", (0x04000000 +1366)
+lk("キュルケ", null, "そっちは任せたわよ、ダーリン！", (0x04000000 +3805)
+lk("タバサ", null, "頑張る。", (0x04000000 +15797)
+lk("タバサ", null, "あ、そこ敵が。", (0x04000000 +15798)
+lk("ルイズ", null, "（まさか王宮が戦場になるなんて……）", (0x04000000 +7133)
+lk("ルイズ", null, "（……頼んだわよ、みんな）", (0x04000000 +7134)
+lk("ギーシュ", null, "ひ、ひいぃーーっ！", (0x04000000 +1537)
+lk("サイト", null, "腰を抜かして立ち止まるんじゃない！\n死にたくなかったら走れ！\nギーシュ！", (0x04000000 +13120)
+lk("ルイズ", null, "頂上はもうすぐのはずだけど……。", (0x04000000 +7135)
+lk("キュルケ", null, "ダーリン、危ないっ！", (0x04000000 +3806)
+lk("サイト", null, "おわっ！", (0x04000000 +13121)
+lk("アキナ", null, "……。", null)
+lk("アキナ", null, "あら、サイト。\n元気そうね……。", (0x04000000 +187)
+lk("サイト", null, "は、春奈！\nなんでこんなことを……。", (0x04000000 +13122)
+lk("アキナ", null, "あたしをハルナって呼ぶな！\nあたしの名はアキナだ！", (0x04000000 +188)
+lk("ウェザリー", null, "あら、誰かと思えば……。\nどうやら、また最高の舞台の主役を\n引き当てたようね。", (0x04000000 +16057)
+lk("キュルケ", null, "ウェザリー！\nよくもあたしに……。", (0x04000000 +3807)
+lk("ウェザリー", null, "あら、キュルケ。\n暗示が解けたの？", (0x04000000 +16058)
+lk("モンモランシー", null, "わたしが解いたのよ。", (0x04000000 +4156)
+lk("ウェザリー", null, "そう、モンモランシーがね。\nそれなりに深くかけたつもりだったけど、\n運が良かったのかしら？", (0x04000000 +16059)
+lk("ウェザリー", null, "どうだった？\n純真な子供の心に戻れて？", (0x04000000 +16060)
+lk("キュルケ", null, "大きなお世話よ。", (0x04000000 +3808)
+lk("キュルケ", null, "どこかの年増達がつまらない炎ばかり\n見せてくれたおかげでね。\nおちおち夢もみられなかったわよ。", (0x04000000 +3809)
+lk("ウェザリー", null, "あら、年増って誰のことかしら？", (0x04000000 +16061)
+lk("アキナ", null, "ウェザリー様のことでしょう？", (0x04000000 +189)
+lk("ウェザリー", null, "うるさいわね。\n役者に年なんて関係ない。", (0x04000000 +16062)
+lk("ウェザリー", null, "最後の一幕。\nどうやら出演者達は血塗られたものに\nしたいようね。", (0x04000000 +16063)
+lk("ウェザリー", null, "いいわ、せいぜい、盛大に血を流させてあげる！", (0x04000000 +16064)
+lk("サイト", null, "いくぜ！\nルイズの邪魔はさせねえ！", (0x04000000 +13123)
+
+=== SCENE_ID.BIN_00000655.BIN ===
+slcIi(;slcIe(ａ獅ｂ�" 00000 66,nl,tu)
+
+=== SCENE_ID.BIN_00000656.BIN ===
+isJump()
+lk("サイト", null, "……き、斬れって？", (0x04000000 +13126)
+lk("ウェザリー", null, "何を迷ってる？\nそれとも、あの芝居のように塔から身を投げろ\nというのかい？", (0x04000000 +16069)
+lk("サイト", null, "くっ……。\nダメだ。\n死なせるわけにはいかない。", (0x04000000 +13127)
+lk("サイト", null, "（お、女の子を斬れるわけねえだろう！）", null)
+
+=== SCENE_ID.BIN_00000657.BIN ===
+isJump()
+lk("サイト", null, "それは無責任なんじゃないか？", (0x04000000 +13128)
+lk("ウェザリー", null, "何？", (0x04000000 +16070)
+lk("サイト", null, "春奈をこのまま放っておくつもりか？\nアキナなんて人格を作ったのは、あんただろう？", (0x04000000 +13129)
+
+=== SCENE_ID.BIN_00000658.BIN ===
+isJump()
+lk("サイト", null, "ダメだ。\n死なせられない。", (0x04000000 +13130)
+lk("キュルケ", null, "そうね。\nまだ、ウェザリーには用があるわ。", (0x04000000 +3811)
+
+=== SCENE_ID.BIN_00000659.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000660.BIN ===
+il(粕ｎｎ";td(ul;bgnkp)
+slcIi(;slcIe(唐汲" 00000 61,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+6};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+
+=== SCENE_ID.BIN_00000661.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000662.BIN ===
+isJump()
+lk("サイト", null, "疲れた。\nもう寝る。", (0x04000000 +8089)
+lk("ルイズ", null, "ちょっと、なによ！\nなに無責任に寝てるのよ！", (0x04000000 +4594)
+lk("キュルケ", null, "だ、ダーリン！", (0x04000000 +2687)
+lk("ルイズ", null, "ま、まあいいわ！\nキュルケ、今日という今日は決着をつけるわよ！", (0x04000000 +4595)
+lk("キュルケ", null, "望むところよ！\n表に出なさい！", (0x04000000 +2688)
+
+=== SCENE_ID.BIN_00000663.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000664.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000665.BIN ===
+slcIi(;slcIe(ａｂｂ翌ｂｂｂａ" 00000 66,nl,tu)
+
+=== SCENE_ID.BIN_00000666.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000667.BIN ===
+isJump()
+lk("サイト", null, "（うれしいような寂しいような……。\n　複雑な心境だ……。\n　あ、あのアンバランスさは絶妙だったし……）", null)
+lk("キュルケ", null, "……ダーリン？", (0x04000000 +2894)
+
+=== SCENE_ID.BIN_00000668.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000669.BIN ===
+isJump()
+lk("キュルケ", null, "もう、ダーリンったら、\nあたしがそばにいるのに、\nなにを考え込んでるの！", (0x04000000 +2897)
+lk("サイト", null, "うわっ！\nそんな抱きつかれると、\nそのいろいろと大変なことが！", (0x04000000 +9291)
+lk("キュルケ", null, "うふふ、もしかして、\nいけないこと考えてたのかしら？", (0x04000000 +2898)
+lk("サイト", null, "え？", (0x04000000 +9292)
+lk("キュルケ", null, "もう、だめよ？\nおにいちゃん？", (0x04000000 +2899)
+lk("サイト", null, "……え？", (0x04000000 +9293)
+lk("サイト", null, "ええ！？", (0x04000000 +9294)
+lk("キュルケ", null, "うふふ！", (0x04000000 +2900)
+
+=== SCENE_ID.BIN_00000670.BIN ===
+il(初ｌ�";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+nSi(;ie(ャン帥＜" )
+slc(;ee(;tte"陸ﾌ�f)
+eiSi(;mgf(
+ak)
+slcIi(;slcIe(ャメｂ煙ｂｂ" 00000 61,nl,tu)
+
+=== SCENE_ID.BIN_00000671.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000672.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000673.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000674.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000675.BIN ===
+slcIi(;slcIe(白高ｐ垂ｂ＝ ,(x1000+7)
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 3)
+
+=== SCENE_ID.BIN_00000676.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000677.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000678.BIN ===
+isJump()
+lk("サイト", null, "この都を観光したかった職人が、\n爆破事件の犯人！？\nなんて遠回りな……！", (0x04000000 +11735)
+lk("ルイズ", null, "ばかっ！\nなんでそうなるのよ！", (0x04000000 +6282)
+lk("サイト", null, "え、ちがうの？", (0x04000000 +11736)
+lk("ルイズ", null, "全っ然ちがうっ！", (0x04000000 +6283)
+
+=== SCENE_ID.BIN_00000679.BIN ===
+isJump()
+lk("アンリエッタ", null, "おそらくですが、これを機会に、\n工作員が職人を装って、都に侵入している\nのではないかと……。", (0x04000000 +594)
+lk("将校", null, "ばかな！\nありえませんぞ！", (0x04000000 +4307)
+lk("アンリエッタ", null, "なぜ、そう言い切れるのです？\nあらゆる証拠と犯人の動きを分析すれば、\n他に理由は考えられません。", (0x04000000 +595)
+lk("ルイズ", null, "それでは、急いで対処しなければ！", (0x04000000 +6284)
+lk("アンリエッタ", null, "はい。\n急ぎ、職人達の調査をお願いします。\nもう手遅れ……かもしれませんが……。", (0x04000000 +596)
+lk("ルイズ", null, "きゃあっ！", (0x04000000 +6285)
+lk("将校", null, "な、なんだっ！？", (0x04000000 +4308)
+
+=== SCENE_ID.BIN_00000680.BIN ===
+slcIi(;slcIe(ｕｂ♂窒ｂｂｂ＝" 00000 61,nl,tu)
+
+=== SCENE_ID.BIN_00000681.BIN ===
+isJump()
+lk("サイト", null, "お姫さま、俺達にできることは……。", (0x04000000 +11737)
+lk("ルイズ", null, "そうです、わたし達にも何かご命令を！", (0x04000000 +6287)
+
+=== SCENE_ID.BIN_00000682.BIN ===
+isJump()
+lk("サイト", null, "ルイズ、どうする？\n俺はルイズに従うよ。", (0x04000000 +11738)
+lk("ルイズ", null, "そうね……。\nどうしたらいいのかしら……。", (0x04000000 +6288)
+
+=== SCENE_ID.BIN_00000683.BIN ===
+isJump()
+lk("サイト", null, "学院が危ない！\n急いで戻らなきゃ！", (0x04000000 +11739)
+lk("ルイズ", null, "そ、そうね。\nここは軍の方達に任せて、\nわたし達は学院に……。", (0x04000000 +6289)
+
+=== SCENE_ID.BIN_00000684.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000685.BIN ===
+slcIi(;slcIe(ャメｂｂｂａ" 00000 66,nl,tu)
+
+=== SCENE_ID.BIN_00000686.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000687.BIN ===
+isJump()
+lk("サイト", null, "大丈夫ですよ、お姫さま。", (0x04000000 +11742)
+lk("ルイズ", null, "サイト！？", (0x04000000 +6298)
+lk("サイト", null, "こんなご主人様だけど……。\nどうやら守ってやんなきゃいけないのが、\n俺の役目みたいですから。", (0x04000000 +11743)
+lk("ルイズ", null, "だ、誰が『こんな』なのよっ！", (0x04000000 +6299)
+
+=== SCENE_ID.BIN_00000688.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000689.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000690.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 9)
+slcIi(;slcIe(渇ｂｂｂｂｂａ" 00000 61,nl,tu)
+
+=== SCENE_ID.BIN_00000691.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000692.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000693.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000694.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000695.BIN ===
+slcIi(;dtIe(ャ�" 00000 19)
+
+=== SCENE_ID.BIN_00000696.BIN ===
+il(拒ｈ�";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+slcIi(;slcIe(藷ａ≠ｂ�" 00000 67,nl,tu)
+eiSi(;mgf(
+ak)
+nSi(;ie(ャ�" )
+
+=== SCENE_ID.BIN_00000697.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000698.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000699.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000700.BIN ===
+isJump()
+lk("サイト", null, "とにかく事情を説明してくれ。\nだいたい春奈が暴れる理由なんてないだろう。", (0x04000000 +11787)
+lk("タバサ", null, "わたしも分からない。\nたぶん……キュルケも。", (0x04000000 +15588)
+lk("ルイズ", null, "分かったわ。\nとにかく急ぎましょう。", (0x04000000 +6339)
+lk("サイト", null, "お、おう。", (0x04000000 +11788)
+lk("サイト", null, "（俺達はタバサのシルフィードに乗って、\n　魔法学院に急ぐことになった。\n　いったい何が起きてるんだろう……）", null)
+
+=== SCENE_ID.BIN_00000701.BIN ===
+eiSi(;mgf(
+ak)
+slcIi(;slcIe(ｂｂｂｂｂ�" 00000 72,nl,tu)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+5};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+8};st"a1,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  16lvl=10oaiyrm=0d  2"oaiyie=10x=-6l  ,mg  00000 39};st"a5,{pct  0,  ,Fo  ,hw=1mvTm  0,Fo  7,ee  6,pctFo  ,r="A,pctTm  0,  2,v=0iae=(x2000+9)
+
+=== SCENE_ID.BIN_00000702.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000703.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000704.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000705.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000708.BIN ===
+slcIi(;slcIe(ｂ＜ャモ轟ｂｂａ�" 00000 79,nl,tu)
+
+=== SCENE_ID.BIN_00000709.BIN ===
+isJump()
+lk("サイト", null, "で、でもシエスタを攻撃するなんて……。", (0x04000000 +11827)
+lk("デルフリンガー", null, "そんな呑気なこと言ってる場合じゃねーだろ！", (0x04000000 +1319)
+lk("デルフリンガー", null, "何もその娘を殺せって言ってるわけ\nじゃねーんだ！", (0x04000000 +1320)
+lk("サイト", null, "そ、そんなこと言ったって……うわわっ！", (0x04000000 +11828)
+
+=== SCENE_ID.BIN_00000710.BIN ===
+isJump()
+lk("サイト", null, "デルフ、なんとかならないのか！", (0x04000000 +11829)
+lk("デルフリンガー", null, "なんとかって……。\n無防備にドアを開けちまったおめーが\n悪いんだぞ！", (0x04000000 +1321)
+lk("サイト", null, "そ、そんなこと言ったって……うわわっ！", (0x04000000 +11830)
+
+=== SCENE_ID.BIN_00000711.BIN ===
+isJump()
+lk("サイト", null, "だ、誰か助けて！", (0x04000000 +11831)
+lk("ルイズ", null, "なに情けない声出してるのよ！\nだ、誰かって……えぇと。", (0x04000000 +6369)
+lk("サイト", null, "うわっ！？\nシ、シエスタやめ……っ！", (0x04000000 +11832)
+
+=== SCENE_ID.BIN_00000712.BIN ===
+iJm()
+btlIi(00000 1)
+atenm(�" 侮" 00000 11)
+btl(;nx(00000 73,tu)
+atent(x2000+4)
+atenm(�" 侮" 00000 11)
+
+=== SCENE_ID.BIN_00000713.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(ｂｏｂ魔ｂａ" 00000 74,nl,tu)
+
+=== SCENE_ID.BIN_00000714.BIN ===
+isJump()
+lk("サイト", null, "わ、分かった。\nすぐに助けに戻るからな！", (0x04000000 +11841)
+lk("ルイズ", null, "さあ、そうと決まったら急ぐわよ、サイト！", (0x04000000 +6374)
+
+=== SCENE_ID.BIN_00000715.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000716.BIN ===
+isJump()
+lk("サイト", null, "お、俺もここに残って戦う！", (0x04000000 +11844)
+lk("ルイズ", null, "な、なに言ってんのよサイト！\nキュルケの言葉の意味、分かってる？\n行くわよ！", (0x04000000 +6376)
+lk("サイト", null, "ちょっと待てよ。\nルイズっ……！", (0x04000000 +11845)
+
+=== SCENE_ID.BIN_00000717.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000718.BIN ===
+slcIi(;slcIe(ｂ≠ｂｕ浮ｂ�" 00000 79,nl,tu)
+
+=== SCENE_ID.BIN_00000719.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000720.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000721.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000722.BIN ===
+iJm()
+atent(x2000+5)
+atenm(�" 侮" 00000 11)
+btlIi(00000 7)
+atenm(�" 侮" 00000 11)
+btl(;nx(00000 73,tu)
+
+=== SCENE_ID.BIN_00000723.BIN ===
+slcIi(;slcIe(結獅ｍｂｂ�" 00000 74,nl,tu)
+
+=== SCENE_ID.BIN_00000724.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000725.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000726.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000727.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000728.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+slcIi(;slcIe(渇ｂｂ緒ｂｂｂａ" 00000 79,nl,tu)
+
+=== SCENE_ID.BIN_00000729.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000730.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000731.BIN ===
+isJump()
+lk("サイト", null, "まさか、先生の研究室ですか？", (0x04000000 +11891)
+lk("ルイズ", null, "研究室？", (0x04000000 +6426)
+lk("コルベール", null, "そのとおり。\nご名答だサイトくん。", (0x04000000 +1085)
+
+=== SCENE_ID.BIN_00000732.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000733.BIN ===
+slcIi(;slcIe(ｂ＜モｂｂｂｂ＝" 00000 74,nl,tu)
+
+=== SCENE_ID.BIN_00000734.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000735.BIN ===
+isJump()
+lk("サイト", null, "ルイズ、おまえ……。\n何を使う気なんだ？\nま、まさかこのあいだのアレを……？", (0x04000000 +11903)
+
+=== SCENE_ID.BIN_00000736.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000737.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000738.BIN ===
+slcIi(;dtIe(ャ�" 00000 19)
+
+=== SCENE_ID.BIN_00000739.BIN ===
+il(処魔助ｋ窓";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+nSi(;ie(メ�" )
+slc(;ee(;tte"ｬｫとt領ｦtﾈ)
+eiSi(;mgf(
+ak)
+slcIi(;slcIe(奄ャモ＆酷ｂａ" 00000 70,nl,tu)
+
+=== SCENE_ID.BIN_00000740.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000741.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000742.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000743.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000744.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 7)
+slcIi(;slcIe(ャャ≠ｂｂｂｂｂ" 00000 75,nl,tu)
+
+=== SCENE_ID.BIN_00000745.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000746.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000747.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000748.BIN ===
+iJm()
+btlIi(00000 7)
+btl(;nx(00000 79,tu)
+atent(x2000+4)
+atenm(�" 塔ャ�" 00000 76)
+atenm(�" 塔ャ" 00000 68)
+
+=== SCENE_ID.BIN_00000751.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 1)
+slcIi(;slcIe(奄狽ｂｂ" 00000 72,nl,tu)
+
+=== SCENE_ID.BIN_00000752.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000753.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000754.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000755.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000756.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000757.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000758.BIN ===
+isJump()
+
+=== SCENE_ID.BIN_00000760.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000761.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000762.BIN ===
+iJm()
+atent(x2000+7)
+atenm(�" 俣�" 00000 10)
+btlIi(00000 1)
+atenm(�" 俣�" 00000 10)
+btl(;nx(00000 73,tu)
+
+=== SCENE_ID.BIN_00000764.BIN ===
+iJm()
+btlIi(00000 2)
+atenm(�" ャャ�" 00000 18)
+btl(;nx(00000 75,tu)
+atent(x2000+9)
+atenm(�" ャ�" 00000 14)
+
+=== SCENE_ID.BIN_00000766.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000767.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000768.BIN ===
+isJump()
+lk("キュルケ", null, "あら、タバサ。\n退散しましょ。", (0x04000000 +3377)
+lk("タバサ", null, "うん。", (0x04000000 +15625)
+lk("オスマン", null, "ミスタ・コルベール。\n捕虜を連れて、我々も外に\n出るとしよう。", (0x04000000 +4473)
+lk("コルベール", null, "はい。", (0x04000000 +1166)
+lk("サイト", null, "ちょ、ちょっと。", (0x04000000 +11996)
+lk("ルイズ", null, "もう、許さない。\n全部全部、このバカ犬が悪いんだから！", (0x04000000 +6537)
+lk("サイト", null, "ちょ、ちょっと待てよ。\nシエスタ、早く逃げろ。\nこれ以上、ここにいると命の危険が！", (0x04000000 +11997)
+lk("シエスタ", null, "いいんです。\nサイトさんと一緒なら、\n何が起こるか分かりませんけど、本望です！", (0x04000000 +14811)
+lk("ルイズ", null, "分かったわ。\nいい度胸ね。", (0x04000000 +6538)
+lk("ルイズ", null, "サイトのバカー！", (0x04000000 +6539)
+lk("サイト", null, "ぎゃー！！！", (0x04000000 +11998)
+
+=== SCENE_ID.BIN_00000769.BIN ===
+il(処魔ｂｂ";td(ul;bgnkp)
+eiSi(;mgf(
+ak)
+nSi(;bc(;st"tg" y=0lvl=20x=0iae=(x2000+0};tas"rsfd" 00;st"g" fdtm  ,ly=(x3000+)
+
+=== SCENE_ID.BIN_00000771.BIN ===
+il(ャモャ�";td(ul;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+nSi(;ie(ャン帥＜" )
+slc(;ee(;tte"TCgﾌ，h)
+eiSi(;mgf(
+ak)
+slcIi(;slcIe(ャャｃャｂｂ�" 00000 72,nl,tu)
+
+=== SCENE_ID.BIN_00000772.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000773.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000774.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000775.BIN ===
+isJump()
+lk("シエスタ", null, "はぁ、やはりわたし、実家に帰らなければ\nならないのでしょうか……。", (0x04000000 +14840)
+lk("サイト", null, "ルイズ……。", (0x04000000 +12027)
+lk("ルイズ", null, "あーもう！\n分かったわよっ。\nわたしの部屋にいていいわよ！", (0x04000000 +6554)
+lk("シエスタ", null, "わあっ、ありがとうございますっ！\nわたし、一生懸命頑張りますからっ！！", (0x04000000 +14841)
+lk("ルイズ", null, "その代わり、サイトの世話じゃなくて、\nわたしの給仕をしてもらうっていうことで。\nそれでいいでしょ？", (0x04000000 +6555)
+lk("シエスタ", null, "はいっ、ミス・ヴァリエール。\nこれから、よろしくお願いします。", (0x04000000 +14842)
+lk("サイト", null, "これでひとまずは、一件落着かな？", (0x04000000 +12028)
+lk("シエスタ", null, "サイトさん、どうもありがとうございます。\nこれから頑張って真のメイドを目指します。", (0x04000000 +14843)
+lk("サイト", null, "（こうしてシエスタは、ルイズの給仕を\n　はじめることになった）", null)
+
+=== SCENE_ID.BIN_00000776.BIN ===
+slc(;ee(;bc(;st"tg" oaiy=10y=0so  ,ee  0,  ,mg  00000 8)
+slcIi(;slcIe(奄翌曹歯ｐｂｂａ" 00000 77,nl,tu)
+
+=== SCENE_ID.BIN_00000777.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000778.BIN ===
+iJm()
+
+=== SCENE_ID.BIN_00000779.BIN ===
+iJm()

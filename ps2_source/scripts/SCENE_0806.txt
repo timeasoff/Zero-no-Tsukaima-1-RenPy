@@ -1,0 +1,83 @@
+reset();
+title("料理の鉄人");
+tndl(null);
+beginSkip();
+msgoff()
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 500);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1163)});
+trans("crossfade", 1000);
+waitTime(1200, true);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)});
+trans("crossfade", 1000);
+back();
+set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +2)});
+trans("crossfade", 2000);
+endSkip();
+item("バナナ", 3);
+item("ハート型チョコ", 3);
+item("青汁", 3);
+back();
+set("stage", {y = 0,level = 200,x = 0,image = (0x02000000 +88)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +5)});
+msgon()
+talk("シエスタ", null, "サイトさん……。", (0x04000000 +14872));
+talk("サイト", null, "んん。", (0x04000000 +12125));
+talk("シエスタ", null, "サイトさんっ……サイトさん。", (0x04000000 +14873));
+msgoff()
+set("white", {opacity = 100,y = 0,show = 1,level = 0,opacityFrom = 0,opacityTime = 1000,x = 0,image = (0x02000000 +2)});
+waitAction(null, true);
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +215)});
+trans("crossfade", 0);
+set("white", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+set("se0", {play = (0x03000000 +69)});
+msgon()
+talk("シエスタ", null, "おはようございます、サイトさん。", (0x04000000 +14874));
+talk("サイト", null, "ふゎあああっ……おはよう、シエスタ。\nそして、おやすみぃ。", (0x04000000 +12126));
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("stage", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+msgon()
+talk("シエスタ", null, "ちょっと、サイトさんっ！！\n起きてくださいっ。", (0x04000000 +14875));
+vibrate(1);
+talk("シエスタ", null, "ミス・ヴァリエールを起こす時間ですよ。", (0x04000000 +14876));
+msgoff()
+back();
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +216)});
+trans("crossfade", 1000);
+msgon()
+talk("サイト", null, "ああ、そんな時間か……。\nありがとう、シエスタ。", (0x04000000 +12127));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +215)});
+waitLoad(true);
+talk("シエスタ", null, "いいえ、サイトさん。\nお役に立てたようでうれしいです。", (0x04000000 +14877));
+talk("サイト", null, "（でも、こうやって誰かに起こしてもらうのって\n　久しぶりだよなぁ……なんかいいかも）", null);
+talk("シエスタ", null, "それじゃあサイトさん。\n次はミス・ヴァリエールですね。", (0x04000000 +14878));
+msgoff()
+set("lay2", {show = 0});
+set("lay5", {show = 0});
+set("event", {opacity = 0,hide = 1,opacityTime = 1000});
+waitAction(null, true);
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)});
+trans("crossfade", 1000);
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +412)});
+msgon()
+talk("サイト", null, "オーケー。", (0x04000000 +12128));
+selectInit();
+selectItem("いつものように起こすか", (0x01000000 +807), null, true);
+selectItem("ここはシエスタに任せた", (0x01000000 +808), null, true);
+selectItem("新しい方法を試してみよう", (0x01000000 +809), null, true);
+select();

@@ -1,0 +1,21 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +90)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +20)});
+msgon()
+talk("サイト", null, "（結局、俺達の学園奪還計画は、\n　夜明け直後に決行ということになった）", null);
+talk("サイト", null, "（敵兵士達の動きも鈍いと思われることと、\n　可能であれば、すぐに王都に駆けつけたい\n　というルイズの希望があったからだ）", null);
+talk("サイト", null, "（というわけで、俺達は明日に備えて\n　早めの睡眠をとることにしたのだが……）", null);
+talk("サイト", null, "（だめだ、最初の２、３時間軽く寝ただけで\n　それ以上眠れない）", null);
+talk("サイト", null, "（なんだかちょっと前にも\n　こんなことがあったような気がするけど……）", null);
+talk("サイト", null, "（俺ってつくづくワンパターンな行動しか\n　取れないんだなぁ）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1199));
+date((0x01000000 +739),false,(0x03000000 +4));

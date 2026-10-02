@@ -1,0 +1,43 @@
+HD: first u32=0x00000256, entries=1920
+sizes[0..19]: 24390, 4209, 49516, 231, 5801, 6608, 732, 436, 346, 4743, 5901, 1042, 1442, 1282, 3321, 8221, 2437, 3899, 1255, 7306
+sum(sizes)=4484670  BIN=6492160  ratio=0.691
+
+SCENE_ID.BIN_00000000.BIN: len=599 HDsize=24390 found_at=-1
+
+SCENE_ID.BIN_00000001.BIN: len=34593 HDsize=4209 found_at=2057
+  BIN[2057-16 .. +len+8]:
+   FF FF FF FF FF FF FF 21 87 00 00 01 00 00 00 FF 2F 2A 2A 0D 0A 20 2A 20 83 8C 83 43 83 84 83 41 83 4E 83 56 83 87 83 93 83 82 83 57 83 85 81 5B
+  exact slice match: False
+  8 bytes before: 87 00 00 01 00 00 00 FF
+  u32 immediately before = 4278190080 (data len 34593)
+  two u32 before = 16777351, 4278190080
+
+SCENE_ID.BIN_00000002.BIN: len=5337 HDsize=49516 found_at=26633
+  BIN[26633-16 .. +len+8]:
+   FF FF FF FF FF FF FF D9 14 00 00 01 00 00 00 FF 2F 2A 2A 0D 0A 20 2A 20 83 41 83 68 83 78 83 93 83 60 83 83 81 5B 83 47 83 93 83 57 83 93 97 70
+  exact slice match: False
+  8 bytes before: 14 00 00 01 00 00 00 FF
+  u32 immediately before = 4278190080 (data len 5337)
+  two u32 before = 16777236, 4278190080
+
+SCENE_ID.BIN_00000003.BIN: len=64184 HDsize=231 found_at=-1
+
+SCENE_ID.BIN_00000004.BIN: len=260 HDsize=5801 found_at=-1
+
+SCENE_ID.BIN_00000006.BIN: len=7238 HDsize=732 found_at=-1
+
+SCENE_ID.BIN_00000033.BIN: len=2351 HDsize=6023 found_at=122889
+  BIN[122889-16 .. +len+8]:
+   FF FF FF FF FF FF FF 3E 05 00 00 01 00 00 00 FF 69 66 20 28 69 73 4A 75 6D 70 28 29 29 7B 0A 72 65 73 65 74 28 29 3B 0A 73 65 74 28 22 6C 61 79
+  exact slice match: False
+  8 bytes before: 05 00 00 01 00 00 00 FF
+  u32 immediately before = 4278190080 (data len 2351)
+  two u32 before = 16777221, 4278190080
+
+SCENE_ID.BIN_00000014.BIN: len=1342 HDsize=3321 found_at=122889
+  BIN[122889-16 .. +len+8]:
+   FF FF FF FF FF FF FF 3E 05 00 00 01 00 00 00 FF 69 66 20 28 69 73 4A 75 6D 70 28 29 29 7B 0A 72 65 73 65 74 28 29 3B 0A 73 65 74 28 22 6C 61 79
+  exact slice match: False
+  8 bytes before: 05 00 00 01 00 00 00 FF
+  u32 immediately before = 4278190080 (data len 1342)
+  two u32 before = 16777221, 4278190080

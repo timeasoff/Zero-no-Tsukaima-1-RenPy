@@ -1,0 +1,21 @@
+reset();
+back();
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +50)});
+trans("crossfade", 1000);
+set("bgm", {fadetime = 0,play = (0x03000000 +9)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)});
+msgoff()
+talk("サイト", null, "うーん、劇場かぁ。", (0x04000000 +10041));
+set("lay5", {y = 0,x = 224});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +599)});
+talk("タバサ", null, "何？", (0x04000000 +15482));
+talk("サイト", null, "演劇を始める前と終わった後じゃ、\nずいぶんと印象が違うなぁ、って話。", (0x04000000 +10042));
+talk("サイト", null, "こうやって劇場の前に来てみるとさ、\nなんというか、こう、\nいろいろと感慨深いものがなぁ、って。", (0x04000000 +10043));
+talk("タバサ", null, "……？", (0x04000000 +15483));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "ええっとだなぁ……。", (0x04000000 +10044));
+selectInit();
+selectItem("いい骨休めになったな", (0x01000000 +1514), null, true);
+selectItem("珍しい経験ができたな", (0x01000000 +1515), null, true);
+selectItem("春奈のバッグも見つかったな", (0x01000000 +1516), null, true);
+select();

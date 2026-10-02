@@ -1,0 +1,14 @@
+if (isJump()){
+reset();
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +786)});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)});
+set("bgm", {play = (0x03000000 +16)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +42)});
+}
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)});
+talk("サイト", null, "なんとなく普通にしてるだけですよ。", (0x04000000 +13609));
+set("lay8", {y = 0,show = 1,level = 160,imageType = 2,dr = "1C",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +792)});
+talk("アンリエッタ", null, "なんとなく……なのですか？\nもっとこう、考えがあるのではなくて？", (0x04000000 +884));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)});
+talk("サイト", null, "なーんにも考えてないです。\nだから、自然と普通の女の子扱い\nしちゃうのかな。", (0x04000000 +13610));
+next((0x01000000 +416), true);

@@ -1,0 +1,20 @@
+if (isJump()){
+reset();
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+set("lay0", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +627)});
+set("bgm", {play = (0x03000000 +15)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +41)});
+}
+talk("サイト", null, "俺をかばっちゃったこと？", (0x04000000 +9025));
+set("lay0", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +629)});
+talk("タバサ", null, "うん。", (0x04000000 +15389));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "えーっと……。\nかばわなけりゃ良かったとか？", (0x04000000 +9026));
+set("lay0", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +621)});
+talk("タバサ", null, "そうじゃない。\nかばうべきだと思ったから。", (0x04000000 +15390));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)});
+talk("サイト", null, "ハハハ、ハハ……。", (0x04000000 +9027));
+set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +396)});
+talk("サイト", null, "（ちょっと複雑な気分……）", null);
+talk("タバサ", null, "でも……。", (0x04000000 +15391));
+next((0x01000000 +1223), true);

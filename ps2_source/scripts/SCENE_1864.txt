@@ -1,0 +1,6 @@
+selectInit();
+selectItem("‚R“ú–Ú", (0x01000000 +137), null, true);
+selectItem("‚S“ú–Ú", (0x01000000 +219), null, true);
+selectItem("‚T“ú–Ú", (0x01000000 +269), null, true);
+selectItem("‚à‚Ç‚é", (0x01000000 +4), null, true);
+select();

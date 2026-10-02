@@ -1,0 +1,32 @@
+if (isJump()){
+reset();
+set("bgm", {play = (0x03000000 +4)});
+set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +188)});
+}
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +187)});
+waitLoad(true);
+talk("ルイズ", null, "さっきから見ていれば……。\n何をぶつぶつ言ってるの？", (0x04000000 +5314));
+talk("サイト", null, "な、なんでもないでしゅ……って。", (0x04000000 +10586));
+talk("サイト", null, "そういえば、そ、その水着は？", (0x04000000 +10587));
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +189)});
+waitLoad(true);
+talk("ルイズ", null, "え、これ？\nハルナからサイトの世界の水着だって\n聞いたんだけど……違ってた？", (0x04000000 +5315));
+talk("サイト", null, "い、いやそれは間違ってないけど……。", (0x04000000 +10588));
+talk("サイト", null, "（す、スクール水着？）", null);
+msgoff()
+set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +187)});
+waitLoad(true);
+talk("ルイズ", null, "力加減とかの希望があれば聞いてあげるから、\nちゃんと言うのよ？", (0x04000000 +5318));
+talk("サイト", null, "……り、了解です。", (0x04000000 +10589));
+talk("サイト", null, "（……ガキの頃とかは、よく親に洗って\n　もらったりしたけどさ）", null);
+talk("サイト", null, "（なんか懐かしい感じだよな）", null);
+talk("ルイズ", null, "どう、サイト？\nこんな感じ？", (0x04000000 +5319));
+talk("サイト", null, "……え？\nあ、うん。", (0x04000000 +10590));
+talk("ルイズ", null, "どうしたのよ、ボ～～ッとして。\n……気持ちよすぎたのかしら？", (0x04000000 +5320));
+selectInit();
+selectItem("ごめん。気持ちよくてつい", (0x01000000 +1801), null, true);
+selectItem("き、気持ちよくなんてないぞ！", (0x01000000 +1802), null, true);
+selectItem("少し子供の頃のことを……", (0x01000000 +1803), null, true);
+select();

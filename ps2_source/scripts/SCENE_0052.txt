@@ -1,0 +1,16 @@
+if (isJump()){
+reset();
+create("stage", "layer", null);
+set("stage", {level = 10,image = (0x02000000 +17)});
+sync("stage");
+}
+msgoff()
+set("stage", {level = 10,image = (0x02000000 +17)});
+sync("stage");
+create("bgm", "bgm", null);
+set("bgm", {stop = 1000});
+sync("bgm");
+set("stage", {opacity = 0,level = 10,opacityTime = 1000,image = (0x02000000 +17)});
+sync("stage");
+waitTime(1000, true);
+next((0x01000000 +1250), true);

@@ -26,7 +26,7 @@ label ch1_7:
     t "..."
 
     $ show_sprites(("t 1", "m 1 sad"))
-    voice ""
+    voice "ch1.7_m_001"
     m "..."
 
     $ show_sprites(("o 1 angry"), anim_in="slide_right", anim_out="slide_right")

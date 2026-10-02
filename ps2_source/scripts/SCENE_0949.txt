@@ -1,0 +1,22 @@
+if (isJump()){
+reset();
+set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +770)});
+set("bgm", {play = (0x03000000 +21)});
+set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +35)});
+}
+set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)});
+talk("サイト", null, "お姫さまは、これからどうなるのか\n分かりますか？", (0x04000000 +12580));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)});
+talk("ルイズ", null, "姫さまに向かって、\nなに偉そうな態度取ってんのよっ、\n分かるはずないでしょ！", (0x04000000 +6867));
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +770)});
+talk("アンリエッタ", null, "分かるはずがない……。\nそうですね。", (0x04000000 +664));
+talk("アンリエッタ", null, "確かに、まだ相手の目的も把握できて\nいませんね。", (0x04000000 +665));
+talk("アンリエッタ", null, "今起こるよりも、次に目を向ける。\n確かにその通りですね。", (0x04000000 +666));
+talk("アンリエッタ", null, "ありがとう、使い魔さん。\nまた、過ちを繰り返すところでした。", (0x04000000 +667));
+set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)});
+talk("ルイズ", null, "ひ、姫さまがそれで良いというなら\n良いのですが……。", (0x04000000 +6868));
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+next((0x01000000 +950), true);
