@@ -1,5 +1,9 @@
 # references/sprite_id_map.csv - словарь id спрайтов PS2 -> имя в ремастере
 # Источник: ps2_source/chapters/chapter_03_黒髪の来訪者.txt, сцены 68-75
+# Проверка 2026-10-03: пиксельная сверка SCENEDAT.BIN[id] (запись N == id) с game/images/chara/**,
+#   метрика MAE по RGB после обрезки по границе спрайта (bbox) и ресайза 128x160 —
+#   32/32 совпадение семейства, 31/32 точное совпадение позы;
+#   id 429: s 4 shy 6.265 против s 4 sad 6.279 — различие внутри семейства (звена верны).
 # Колонки: sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 #   sprite_id  - K из [SPRITE layN image=+K]
 #   sprite_name- имя в ремастере: show_sprites("l 4 angry") / fade_fx(..., sprites=...)

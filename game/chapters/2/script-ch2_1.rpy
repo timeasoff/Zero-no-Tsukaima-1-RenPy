@@ -5,12 +5,12 @@ label ch2:
     pause(2)
 
     # ==== SCENE 68 ====
-    $ fade_fx("id(88)", new_music="t4")
+    $ fade_fx("sky", new_music="t4")
 
     voice "ch2_s_001"
     s "Mmm... Ahh— what a stretch."
 
-    $ fade_fx("id(10)")
+    $ fade_fx("louise_room")
 
     $ show_sprites("s 6 sad")
     voice "ch2_s_002"
@@ -215,7 +215,7 @@ label ch2:
     s "...What's wrong, Siesta?"
 
     $ show_sprites(None)
-    $ dissolve_fx("id(154)", stop_music=True, new_music="t27", type="cg")
+    $ dissolve_fx("ha_sick_5", stop_music=True, new_music="t27", type="cg")
 
     voice "ch2_si_013"
     si "Haruna-san, your face is pale. Besides, it looks like you have a fever too..."
@@ -235,7 +235,7 @@ label ch2:
     voice "ch2_si_014"
     si "Yes, understood."
 
-    $ fade_fx("id(10)", sprites=("m 3 sad", "s 5 sad"))
+    $ fade_fx("louise_room", sprites=("m 3 sad", "s 5 sad"))
     voice "ch2_m_001"
     m "Honestly, waking people up first thing in the morning— you really are a troublesome bunch. I did say I'd cooperate... though."
 
@@ -291,12 +291,12 @@ label ch2:
     si "Saito-san..."
 
     $ show_sprites(None)
-    $ dissolve_fx("id(155)", type="cg")
+    $ dissolve_fx("ha_sick_3", type="cg")
 
     voice "ch2_ha_005"
     ha "Hiraga-kun...{#hiraga}"
 
-    $ fade_fx("id(10)", sprites="m 3 sad")
+    $ fade_fx("louise_room", sprites="m 3 sad")
     $ show_sprites("m 3 sad")
     voice "ch2_m_006"
     m "You're the lowest..."
@@ -322,13 +322,13 @@ label ch2:
     voice "ch2_s_026"
     s "Y-yes.{#h}"
 
-    call open_door("right", "id(14)") from _call_open_door_5
+    call open_door("right", "hallway") from _call_open_door_5
 
     $ show_sprites("s 6 sad", anim="slide_right")
     th "Honestly, minding other people's eyes... What's wrong with Louise today?"
 
     # ==== SCENE 73 ====
-    $ fade_fx("id(23)", new_music="t31", sprites=("l 1 angry", "s 4 angry"))
+    $ fade_fx("classroom", new_music="t31", sprites=("l 1 angry", "s 4 angry"))
     voice "ch2_s_027"
     s "In the end, we were late after all."
 

@@ -28,7 +28,7 @@
 # Python bytecode (tools/)
 __pycache__/
 *.pyc
-
+ps2_source/images
 
 #ignore big files
 /game/gui/

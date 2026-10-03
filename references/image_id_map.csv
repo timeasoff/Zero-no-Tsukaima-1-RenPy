@@ -15,11 +15,11 @@
 image_id,kind,filename,source,notes,uses,chapters
 1,bg|cg,,01 [EVENT_CG event image=+1],,13,01;02;23
 2,bg,,02 [BG stage image=+2],,75,02;03;04;05;06;07;08;09;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;90;91
-10,bg,,02 [BG stage image=+10],,160,02;03;04;05;11;12;19;21;22;23;24;29
+10,bg,louise_room,02 [BG stage image=+10],пиксельная сверка 2026-10-03: MAE 0.876 — ближайший следующий 1.800 (bg/room); в ch1 тот же кадр = fade_fx("louise_room"),160,02;03;04;05;11;12;19;21;22;23;24;29
 11,bg,,11 [BG stage image=+11],,5,11
 12,bg,,02 [BG stage image=+12],,48,02;03;10;11;17;21;22;29
 13,bg,,04 [BG stage image=+13],,5,04
-14,bg,,02 [BG stage image=+14],,139,02;03;04;05;11;12;22;90
+14,bg,hallway,02 [BG stage image=+14],пиксельная сверка 2026-10-03: MAE 0.954 — ближайший следующий 15.947 (bg/hallway_evening),139,02;03;04;05;11;12;22;90
 15,bg,,03 [BG stage image=+15],,6,03
 16,bg,,02 [BG stage image=+16],,36,02;03;17;22;29
 17,bg,,02 [BG stage image=+17],,51,02;03;04;12;18;19;20;22
@@ -27,7 +27,7 @@ image_id,kind,filename,source,notes,uses,chapters
 19,bg,,02 [BG stage image=+19],,9,02;03;11;22
 20,bg,,03 [BG stage image=+20],,51,03;11;12;20;22;23;91
 21,bg,,23 [BG stage image=+21],,11,23
-23,bg,,03 [BG stage image=+23],,62,03;04;11;12;18;19;29
+23,bg,classroom,03 [BG stage image=+23],пиксельная сверка 2026-10-03: MAE 0.871 — ближайший следующий 11.269 (bg/classroom_evening),62,03;04;11;12;18;19;29
 24,bg,,03 [BG stage image=+24],,5,03
 26,bg,,02 [BG stage image=+26],,80,02;03;04;05;11;12;17;18;21;22;24;25
 27,bg,,03 [BG stage image=+27],,6,03
@@ -78,7 +78,7 @@ image_id,kind,filename,source,notes,uses,chapters
 83,bg,,19 [BG stage image=+83],,6,19
 85,bg,,02 [BG stage image=+85],,47,02;03;07;12;19;26
 87,bg,,19 [BG stage image=+87],,7,19;26
-88,bg,,02 [BG stage image=+88],,88,02;03;04;05;06;07;09;10;11;12;13;14;15;16;18;19;20;21;22;23;24;25;26;27;29;90;91
+88,bg,sky,02 [BG stage image=+88],пиксельная сверка 2026-10-03: MAE 1.762 (следующий 56.819); bg/choice_portrait — байт-в-байт дубликат (PORTRAIT_CHOICE_BG) — взято sky как в ch1 (там fade_fx("sky" c t4)),88,02;03;04;05;06;07;09;10;11;12;13;14;15;16;18;19;20;21;22;23;24;25;26;27;29;90;91
 89,bg,,05 [BG stage image=+89],,8,05;06;17;23;26
 90,bg,,02 [BG stage image=+90],,68,02;03;05;06;07;08;09;11;12;14;15;17;18;19;21;22;23;27;29;91
 91,bg,,02 [BG stage image=+91],,18,02;03;04
@@ -184,8 +184,8 @@ image_id,kind,filename,source,notes,uses,chapters
 151,cg,,02 [EVENT_CG event image=+151],,4,02;19
 152,cg,,02 [EVENT_CG event image=+152],,1,02
 153,cg,,02 [EVENT_CG event image=+153],,3,02
-154,cg,,03 [EVENT_CG event image=+154],,2,03
-155,cg,,03 [EVENT_CG event image=+155],,30,03
+154,cg,ha_sick_5,03 [EVENT_CG event image=+154],пиксельная сверка 2026-10-03: MAE 0.966 (следующий 1.583 ha_sick_4); биекция записей 154-158 = ha_sick_5/3/4/2/base,2,03
+155,cg,ha_sick_3,03 [EVENT_CG event image=+155],пиксельная сверка 2026-10-03: MAE 0.994 (следующий 1.477 ha_sick_2); биекция записей 154-158 = ha_sick_5/3/4/2/base,30,03
 157,cg,,03 [EVENT_CG event image=+157],,9,03
 158,cg,,02 [EVENT_CG event image=+158],,1,02
 159,cg,,19 [EVENT_CG event image=+159],,5,19
