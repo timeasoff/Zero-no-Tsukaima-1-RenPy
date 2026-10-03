@@ -2,55 +2,56 @@
 # Колонки: image_id,kind,filename,source,notes,uses,chapters
 #   image_id - K из image=+K в ps2_source/chapters/*.txt
 #   kind     - bg | cg | chara (составные виды через |)
-#   filename - ИМЯ В ПРОЕКТЕ: заполняет ЧЕЛОВЕК (fade_fx("forest"),
-#              dissolve_fx("l_s_forest", type="cg"); пусто = не сопоставлено,
+#   filename - ИМЯ В ПРОЕКТЕ: голое базовое имя без пути и расширения;
+#              заполняется по доказательной сверке с PS2/эталоном (fade_fx("forest"),
+#              dissolve_fx("l_s_forest", type="cg")); пусто = ассета в проекте нет,
 #              в скриптах используется заглушка id(IMAGE_ID))
 #   source   - первая находка в источнике (генерируется)
-#   notes    - сомнения / PROVISIONAL (заполняет человек)
+#   notes    - доказательство сопоставления / PROVISIONAL (при сверке)
 #   uses     - сколько раз встречается в источнике (генерируется)
 #   chapters - главы источника через ; (генерируется)
 # Пересоздаётся: python tools/build_image_id_map.py [--include-chara]
 # Ручные колонки filename/notes и нетронутые строки сохраняются.
 # Заглушки в скриптах заменяются: python tools/replace_bg_placeholders.py --apply
 image_id,kind,filename,source,notes,uses,chapters
-1,bg|cg,,01 [EVENT_CG event image=+1],,13,01;02;23
-2,bg,,02 [BG stage image=+2],,75,02;03;04;05;06;07;08;09;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;90;91
-10,bg,louise_room,02 [BG stage image=+10],пиксельная сверка 2026-10-03: MAE 0.876 — ближайший следующий 1.800 (bg/room); в ch1 тот же кадр = fade_fx("louise_room"),160,02;03;04;05;11;12;19;21;22;23;24;29
-11,bg,,11 [BG stage image=+11],,5,11
-12,bg,,02 [BG stage image=+12],,48,02;03;10;11;17;21;22;29
-13,bg,,04 [BG stage image=+13],,5,04
+1,bg|cg,black,01 [EVENT_CG event image=+1],"сверка 2026-10-03: чистый чёрный кадр (mean 0.0, std 0.0) — спец-имя black (image black=""#000"", sf_effect.rpy:2); файла bg/black нет, кадр = цветовая заливка",13,01;02;23
+2,bg,white,02 [BG stage image=+2],"сверка 2026-10-03: чистый белый (255,255,255) — спец-имя white (image white=""#fff""); в титульных последовательностях идёт парой с 1145/1128 (→ overlay), в [LAYER white image=+2] → flash_fx(""white"")",75,02;03;04;05;06;07;08;09;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;90;91
+10,bg,louise_room,02 [BG stage image=+10],"пиксельная сверка 2026-10-03: MAE 0.876 — ближайший следующий 1.800 (bg/room); в ch1 тот же кадр = fade_fx(""louise_room"")",160,02;03;04;05;11;12;19;21;22;23;24;29
+11,bg,louise_room_evening,11 [BG stage image=+11],пиксельная сверка 2026-10-03: MAE 0.807 (следующий 1.652 bg/room_evening),5,11
+12,bg,louise_room_night,02 [BG stage image=+12],пиксельная сверка 2026-10-03: MAE 0.824 (следующий 1.758 bg/room_night),48,02;03;10;11;17;21;22;29
+13,bg,louise_room_night,04 [BG stage image=+13],"сверка 2026-10-03: MAE 7.000 (следующий 7.582 bg/room_night) — виден ковёр (есть в louise_room_night, отсутствует в room_night), то же освещение; PROVISIONAL: по краям отличие по всему кадру, глава 4 ещё не портирована",5,04
 14,bg,hallway,02 [BG stage image=+14],пиксельная сверка 2026-10-03: MAE 0.954 — ближайший следующий 15.947 (bg/hallway_evening),139,02;03;04;05;11;12;22;90
-15,bg,,03 [BG stage image=+15],,6,03
-16,bg,,02 [BG stage image=+16],,36,02;03;17;22;29
-17,bg,,02 [BG stage image=+17],,51,02;03;04;12;18;19;20;22
-18,bg,,03 [BG stage image=+18],,16,03
-19,bg,,02 [BG stage image=+19],,9,02;03;11;22
-20,bg,,03 [BG stage image=+20],,51,03;11;12;20;22;23;91
-21,bg,,23 [BG stage image=+21],,11,23
+15,bg,hallway_evening,03 [BG stage image=+15],пиксельная сверка 2026-10-03: MAE 0.812 (следующий 15.125 bg/hallway),6,03
+16,bg,hallway_night,02 [BG stage image=+16],пиксельная сверка 2026-10-03: MAE 0.753 (следующий 21.582 bg/hallway),36,02;03;17;22;29
+17,bg,hallway_down,02 [BG stage image=+17],пиксельная сверка 2026-10-03: MAE 0.714 (следующий 8.234 bg/hallway_down_evening),51,02;03;04;12;18;19;20;22
+18,bg,hallway_down_evening,03 [BG stage image=+18],пиксельная сверка 2026-10-03: MAE 0.685 (следующий 3.797 bg/hallway_down_night),16,03
+19,bg,hallway_down_night,02 [BG stage image=+19],пиксельная сверка 2026-10-03: MAE 0.709 (следующий 4.019 bg/hallway_down_evening),9,02;03;11;22
+20,bg,dining_hall,03 [BG stage image=+20],пиксельная сверка 2026-10-03: MAE 1.412 (следующий 12.919 bg/dining_hall_evening),51,03;11;12;20;22;23;91
+21,bg,dining_hall_evening,23 [BG stage image=+21],пиксельная сверка 2026-10-03: MAE 1.381 (следующий 12.237 bg/dining_hall),11,23
 23,bg,classroom,03 [BG stage image=+23],пиксельная сверка 2026-10-03: MAE 0.871 — ближайший следующий 11.269 (bg/classroom_evening),62,03;04;11;12;18;19;29
-24,bg,,03 [BG stage image=+24],,5,03
-26,bg,,02 [BG stage image=+26],,80,02;03;04;05;11;12;17;18;21;22;24;25
-27,bg,,03 [BG stage image=+27],,6,03
-28,bg,,02 [BG stage image=+28],,24,02;03;10;11;22;23
-29,bg,,02 [BG stage image=+29],,36,02;05;11;18;19;20
-31,bg,,03 [BG stage image=+31],,1,03
-32,bg,,03 [BG stage image=+32],,28,03;04;05;11;12;23
-33,bg,,03 [BG stage image=+33],,5,03
-34,bg,,23 [BG stage image=+34],,2,23
+24,bg,classroom_evening,03 [BG stage image=+24],пиксельная сверка 2026-10-03: MAE 0.879 (следующий 10.721 bg/classroom),5,03
+26,bg,yard,02 [BG stage image=+26],пиксельная сверка 2026-10-03: MAE 1.315 (следующий 25.552 bg/yard_ruined),80,02;03;04;05;11;12;17;18;21;22;24;25
+27,bg,yard_evening,03 [BG stage image=+27],пиксельная сверка 2026-10-03: MAE 0.981 (следующий 28.625 bg/yard_ruined_evening),6,03
+28,bg,yard_night,02 [BG stage image=+28],пиксельная сверка 2026-10-03: MAE 1.118 (следующий 5.129 bg/yard_night_blurred),24,02;03;10;11;22;23
+29,bg,osman_cabinet,02 [BG stage image=+29],пиксельная сверка 2026-10-03: MAE 0.714 (следующий 11.129 bg/osman_cabinet_evening),36,02;05;11;18;19;20
+31,bg,osman_cabinet_night,03 [BG stage image=+31],пиксельная сверка 2026-10-03: MAE 0.606 (следующий 15.389 bg/osman_cabinet_evening),1,03
+32,bg,kitchen,03 [BG stage image=+32],пиксельная сверка 2026-10-03: MAE 1.082 (следующий 9.724 bg/kitchen_evening),28,03;04;05;11;12;23
+33,bg,kitchen_evening,03 [BG stage image=+33],пиксельная сверка 2026-10-03: MAE 1.052 (следующий 9.579 bg/kitchen),5,03
+34,bg,kitchen_night,23 [BG stage image=+34],пиксельная сверка 2026-10-03: MAE 0.952 (следующий 13.869 bg/kitchen),2,23
 35,bg,,10 [BG stage image=+35],,52,10;13;16;18;24;27;28
 36,bg,,05 [BG stage image=+36],,9,05
 37,bg,,05 [BG stage image=+37],,1,05
-38,bg,,02 [BG stage image=+38],,72,02;03;05;06;07;12;13;26;27
-39,bg,,03 [BG stage image=+39],,1,03
-40,bg,,07 [BG stage image=+40],,33,07;08;12;14;15;27
+38,bg,town,02 [BG stage image=+38],пиксельная сверка 2026-10-03: MAE 1.343 (следующий 43.919 bg/town_evening),72,02;03;05;06;07;12;13;26;27
+39,bg,town_evening,03 [BG stage image=+39],пиксельная сверка 2026-10-03: MAE 0.997 (следующий 43.919 bg/town),1,03
+40,bg,town_night,07 [BG stage image=+40],пиксельная сверка 2026-10-03: MAE 0.844 (следующий 28.270 bg/forest_night),33,07;08;12;14;15;27
 41,bg,,06 [BG stage image=+41],,128,06;07;08;09;13;14;15;16;26;27;28
 42,bg,,07 [BG stage image=+42],,16,07;09;27
 43,bg,,06 [BG stage image=+43],,88,06;07;08;09;12;14;15;27
-44,bg,,06 [BG stage image=+44],,10,06;07
-45,bg,,26 [BG stage image=+45],,2,26
-46,bg,,06 [BG stage image=+46],,2,06
-47,bg,,02 [BG stage image=+47],,37,02;03;06;07;12;13;26
-49,bg,,14 [BG stage image=+49],,27,14;15;27
+44,bg,cafe,06 [BG stage image=+44],пиксельная сверка 2026-10-03: MAE 0.750 (следующий 11.298 bg/cafe_evening),10,06;07
+45,bg,cafe_evening,26 [BG stage image=+45],пиксельная сверка 2026-10-03: MAE 0.681 (следующий 10.791 bg/cafe),2,26
+46,bg,cafe_night,06 [BG stage image=+46],пиксельная сверка 2026-10-03: MAE 0.610 (следующий 25.241 bg/cafe),2,06
+47,bg,cafe_entrance,02 [BG stage image=+47],пиксельная сверка 2026-10-03: MAE 0.993 (следующий 19.433 bg/cafe_entrance_evening),37,02;03;06;07;12;13;26
+49,bg,cafe_entrance_night,14 [BG stage image=+49],пиксельная сверка 2026-10-03: MAE 0.699 (следующий 30.509 bg/forest_night),27,14;15;27
 50,bg,,06 [BG stage image=+50],,36,06;12;13;26
 51,bg,,27 [BG stage image=+51],,1,27
 52,bg,,06 [BG stage image=+52],,13,06;08;14
@@ -58,88 +59,88 @@ image_id,kind,filename,source,notes,uses,chapters
 54,bg,,06 [BG stage image=+54],,101,06;08;12;27
 55,bg,,06 [BG stage image=+55],,1,06
 57,bg,,06 [BG stage image=+57],,2,06
-58,bg,,02 [BG stage image=+58],,89,02;05;06;07;10;13;14;25;26;27
-59,bg,,05 [BG stage image=+59],,10,05;12;17
-60,bg,,01 [BG stage image=+60],,42,01;07;08;14;15;17
-61,bg,,09 [BG stage image=+61],,24,09;16;24;27;28
+58,bg,town_square,02 [BG stage image=+58],пиксельная сверка 2026-10-03: MAE 1.341 (следующий 9.559 bg/town_square_ruined),89,02;05;06;07;10;13;14;25;26;27
+59,bg,town_square_evening,05 [BG stage image=+59],пиксельная сверка 2026-10-03: MAE 1.003 (следующий 51.611 bg/yard_evening),10,05;12;17
+60,bg,town_square_night,01 [BG stage image=+60],пиксельная сверка 2026-10-03: MAE 0.978 (следующий 4.464 bg/town_square_night_blurred),42,01;07;08;14;15;17
+61,bg,town_square_ruined,09 [BG stage image=+61],пиксельная сверка 2026-10-03: MAE 1.398 (следующий 9.871 bg/town_square),24,09;16;24;27;28
 62,bg,,05 [BG stage image=+62],,27,05;09;13;16;24;25;27;28
 63,bg,,05 [BG stage image=+63],,1,05
 64,bg,,05 [BG stage image=+64],,12,05;14;15
-65,bg,,02 [BG stage image=+65],,6,02;11
-67,bg,,05 [BG stage image=+67],,2,05
+65,bg,library,02 [BG stage image=+65],пиксельная сверка 2026-10-03: MAE 0.686 (следующий 7.422 bg/library_evening),6,02;11
+67,bg,library_night,05 [BG stage image=+67],пиксельная сверка 2026-10-03: MAE 0.595 (следующий 13.252 bg/library),2,05
 70,bg,,05 [BG stage image=+70],,31,05;18
 71,bg,,09 [BG stage image=+71],,26,09;13;16;24
-74,bg,,19 [BG stage image=+74],,8,19;20
-75,bg,,19 [BG stage image=+75],,20,19
-78,bg,,02 [BG stage image=+78],,7,02
-80,bg,,02 [BG stage image=+80],,13,02;03;21
-81,bg,,20 [BG stage image=+81],,1,20
-82,bg,,18 [BG stage image=+82],,6,18;20
-83,bg,,19 [BG stage image=+83],,6,19
-85,bg,,02 [BG stage image=+85],,47,02;03;07;12;19;26
-87,bg,,19 [BG stage image=+87],,7,19;26
-88,bg,sky,02 [BG stage image=+88],пиксельная сверка 2026-10-03: MAE 1.762 (следующий 56.819); bg/choice_portrait — байт-в-байт дубликат (PORTRAIT_CHOICE_BG) — взято sky как в ch1 (там fade_fx("sky" c t4)),88,02;03;04;05;06;07;09;10;11;12;13;14;15;16;18;19;20;21;22;23;24;25;26;27;29;90;91
-89,bg,,05 [BG stage image=+89],,8,05;06;17;23;26
-90,bg,,02 [BG stage image=+90],,68,02;03;05;06;07;08;09;11;12;14;15;17;18;19;21;22;23;27;29;91
-91,bg,,02 [BG stage image=+91],,18,02;03;04
-93,bg,,03 [BG stage image=+93],,5,03
-94,bg,,02 [BG stage image=+94],,17,02;22
-96,bg,,03 [BG stage image=+96],,10,03;29
+74,bg,dungeon,19 [BG stage image=+74],пиксельная сверка 2026-10-03: MAE 0.531 (следующий 21.058 bg/library_night),8,19;20
+75,bg,yard_ruined,19 [BG stage image=+75],пиксельная сверка 2026-10-03: MAE 1.352 (следующий 25.337 bg/yard),20,19
+78,bg,si_room,02 [BG stage image=+78],пиксельная сверка 2026-10-03: MAE 0.921 (следующий 14.645 bg/si_room_evening),7,02
+80,bg,si_room_night,02 [BG stage image=+80],пиксельная сверка 2026-10-03: MAE 0.666 (следующий 31.201 bg/si_room_evening),13,02;03;21
+81,bg,town2,20 [BG stage image=+81],пиксельная сверка 2026-10-03: MAE 1.362 (следующий 54.106 bg/town),1,20
+82,bg,library_table,18 [BG stage image=+82],пиксельная сверка 2026-10-03: MAE 0.566 (следующий 7.270 bg/library_table_evening),6,18;20
+83,bg,library_table_evening,19 [BG stage image=+83],пиксельная сверка 2026-10-03: MAE 0.569 (следующий 6.813 bg/library_table),6,19
+85,bg,forest,02 [BG stage image=+85],пиксельная сверка 2026-10-03: MAE 2.067 (следующий 11.717 bg/forest_blurred),47,02;03;07;12;19;26
+87,bg,forest_night,19 [BG stage image=+87],пиксельная сверка 2026-10-03: MAE 0.927 (следующий 28.282 bg/town_night),7,19;26
+88,bg,sky,02 [BG stage image=+88],"пиксельная сверка 2026-10-03: MAE 1.762 (следующий 56.819); bg/choice_portrait — байт-в-байт дубликат (PORTRAIT_CHOICE_BG) — взято sky как в ch1 (там fade_fx(""sky"" c t4))",88,02;03;04;05;06;07;09;10;11;12;13;14;15;16;18;19;20;21;22;23;24;25;26;27;29;90;91
+89,bg,sky_evening,05 [BG stage image=+89],пиксельная сверка 2026-10-03: MAE 0.968 (следующий 56.890 bg/town_square_evening),8,05;06;17;23;26
+90,bg,sky_night,02 [BG stage image=+90],пиксельная сверка 2026-10-03: MAE 1.275 (следующий 57.276 bg/town_night),68,02;03;05;06;07;08;09;11;12;14;15;17;18;19;21;22;23;27;29;91
+91,bg,room,02 [BG stage image=+91],пиксельная сверка 2026-10-03: MAE 0.858 (следующий 1.796 bg/louise_room),18,02;03;04
+93,bg,room_night,03 [BG stage image=+93],пиксельная сверка 2026-10-03: MAE 0.822 (следующий 1.724 bg/louise_room_night),5,03
+94,bg,room,02 [BG stage image=+94],"сверка 2026-10-03: MAE 4.550 (следующий 5.320 bg/louise_room) — в PS2 это та же комната без стола и без ковра; сцены 1019/1021 с image=+94 в ch1 портированы как fade_fx(""bg tabitha_room"") = bg/room.webp (script-ch1_10.rpy:330,521) — имя room подтверждено авторским портом",17,02;22
+96,bg,room_night,03 [BG stage image=+96],"сверка 2026-10-03: MAE 4.230 — комната без ковра (room_night занят id93), следующий 4.950 bg/louise_room_night; PROVISIONAL: глава 3 ещё не портирована",10,03;29
 123,bg|cg,,05 [EVENT_CG event image=+123],,8,05
-1128,bg,,02 [BG stage image=+1128],,1,02
-1129,bg,,03 [BG stage image=+1129],,1,03
-1130,bg,,04 [BG stage image=+1130],,1,04
-1131,bg,,05 [BG stage image=+1131],,1,05
-1132,bg,,06 [BG stage image=+1132],,1,06
-1133,bg,,18 [BG stage image=+1133],,1,18
-1134,bg,,19 [BG stage image=+1134],,1,19
-1135,bg,,20 [BG stage image=+1135],,1,20
-1136,bg,,21 [BG stage image=+1136],,1,21
-1138,bg,,19 [BG stage image=+1138],,1,19
-1139,bg,,02 [BG stage image=+1139],,1,02
-1140,bg,,05 [BG stage image=+1140],,1,05
-1141,bg,,09 [BG stage image=+1141],,4,09;16;24;27
+1128,bg,overlay,02 [BG stage image=+1128],пиксельная сверка 2026-10-03: MAE 3.749 (следующий 38.704 cg/l_sick_3),1,02
+1129,bg,overlay,03 [BG stage image=+1129],пиксельная сверка 2026-10-03: MAE 4.513 (следующий 39.141 cg/l_sick_3),1,03
+1130,bg,overlay,04 [BG stage image=+1130],пиксельная сверка 2026-10-03: MAE 3.712 (следующий 38.672 cg/l_sick_3),1,04
+1131,bg,overlay,05 [BG stage image=+1131],пиксельная сверка 2026-10-03: MAE 4.777 (следующий 39.218 cg/l_sick_3),1,05
+1132,bg,overlay,06 [BG stage image=+1132],пиксельная сверка 2026-10-03: MAE 4.079 (следующий 38.897 cg/l_sick_3),1,06
+1133,bg,overlay,18 [BG stage image=+1133],пиксельная сверка 2026-10-03: MAE 4.136 (следующий 39.032 cg/l_sick_3),1,18
+1134,bg,overlay,19 [BG stage image=+1134],пиксельная сверка 2026-10-03: MAE 4.360 (следующий 39.169 cg/l_sick_3),1,19
+1135,bg,overlay,20 [BG stage image=+1135],пиксельная сверка 2026-10-03: MAE 5.978 (следующий 39.832 cg/l_sick_3),1,20
+1136,bg,overlay,21 [BG stage image=+1136],пиксельная сверка 2026-10-03: MAE 4.980 (следующий 39.349 cg/l_sick_3),1,21
+1138,bg,yard_ruined,19 [BG stage image=+1138],"сверка 2026-10-03: титульный кадр: вшитый белый текст поверх размытого yard_ruined (паттерн 1147→1138→1147, ch19); имя = подложка для overlay_screen, blur-вариант bg/yard_ruined_blurred.webp в проекте отсутствует (есть только forest/town_square_night/yard_night); PROVISIONAL — глава 19 не портирована",1,19
+1139,bg,forest,02 [BG stage image=+1139],"сверка 2026-10-03: титульный кадр: вшитый текст поверх размытого forest (паттерн 1148→1139→1148, ch02); в ch1 портировано как overlay_screen(""forest"", ""The Road (Highway)"") — script-ch1_1.rpy:29, bg forest_blurred.webp существует",1,02
+1140,bg,town_square,05 [BG stage image=+1140],"сверка 2026-10-03: титульный кадр: вшитый белый текст поверх размытого town_square (паттерн 58→1149→1140→1149→58, ch05); имя = подложка для overlay_screen, bg/town_square_blurred.webp в проекте отсутствует; PROVISIONAL — глава 5 не портирована",1,05
+1141,bg,town_square_ruined,09 [BG stage image=+1141],"сверка 2026-10-03: титульный кадр: вшитый белый текст поверх размытого town_square_ruined (паттерн 1150→1141→1150, ch09/16/24/27); имя = подложка для overlay_screen, bg/town_square_ruined_blurred.webp в проекте отсутствует; PROVISIONAL — главы не портированы",4,09;16;24;27
 1142,bg,,05 [BG stage image=+1142],,1,05
-1143,bg,,01 [BG stage image=+1143],,1,01
-1144,bg,,02 [BG stage image=+1144],,1,02
-1145,bg,,02 [BG stage image=+1145],,58,02;03;04;05;06;07;08;09;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29
-1147,bg,,19 [BG stage image=+1147],,2,19
-1148,bg,,02 [BG stage image=+1148],,2,02
-1149,bg,,05 [BG stage image=+1149],,2,05
-1150,bg,,09 [BG stage image=+1150],,8,09;16;24;27
+1143,bg,town_square_night,01 [BG stage image=+1143],"сверка 2026-10-03: титульный кадр: вшитый текст поверх размытого town_square_night (паттерн 1152→1143→1152, пролог); в ch0 портировано как overlay_screen(""town_square_night"", ""Tristania"") — script-ch0.rpy:3, bg town_square_night_blurred.webp существует",1,01
+1144,bg,yard_night,02 [BG stage image=+1144],"сверка 2026-10-03: титульный кадр с надписью про академию поверх размытого yard_night (паттерн 1153→1144→1153, ch02); в ch1 портировано как overlay_screen(""yard_night"", ""Tristain Academy of Magic"") — script-ch1_2.rpy:3, bg yard_night_blurred.webp существует",1,02
+1145,bg,overlay,02 [BG stage image=+1145],пиксельная сверка 2026-10-03: MAE 0.602 (следующий 37.525 cg/l_sick_3),58,02;03;04;05;06;07;08;09;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29
+1147,bg,yard_ruined,19 [BG stage image=+1147],"сверка 2026-10-03: переходный размытый кадр yard_ruined без текста (паттерн 1147→1138→1147, ch19); blur-сверка MAE 3.740; в overlay_screen это bg yard_ruined_blurred — файла нет; PROVISIONAL",2,19
+1148,bg,forest_blurred,02 [BG stage image=+1148],пиксельная сверка 2026-10-03: MAE 1.412 (следующий 13.037 bg/forest),2,02
+1149,bg,town_square,05 [BG stage image=+1149],"сверка 2026-10-03: переходный размытый кадр town_square без текста (паттерн 58→1149→1140→1149→58, ch05); blur-сверка MAE 3.910; bg/town_square_blurred.webp в проекте отсутствует; PROVISIONAL",2,05
+1150,bg,town_square_ruined,09 [BG stage image=+1150],"сверка 2026-10-03: переходный размытый кадр town_square_ruined без текста (паттерн 1150→1141→1150, ch09/16/24/27); blur-сверка MAE 3.860; bg/town_square_ruined_blurred.webp в проекте отсутствует; PROVISIONAL",8,09;16;24;27
 1151,bg,,05 [BG stage image=+1151],,2,05
-1152,bg,,01 [BG stage image=+1152],,2,01
-1153,bg,,02 [BG stage image=+1153],,2,02
-1154,bg,,26 [BG stage image=+1154],,1,26
-1155,bg,,27 [BG stage image=+1155],,1,27
-1156,bg,,28 [BG stage image=+1156],,1,28
-1157,bg,,29 [BG stage image=+1157],,1,29
-1158,bg,,14 [BG stage image=+1158],,1,14
-1159,bg,,15 [BG stage image=+1159],,1,15
-1160,bg,,16 [BG stage image=+1160],,1,16
-1161,bg,,17 [BG stage image=+1161],,1,17
-1162,bg,,22 [BG stage image=+1162],,1,22
-1163,bg,,23 [BG stage image=+1163],,1,23
-1164,bg,,24 [BG stage image=+1164],,1,24
-1165,bg,,25 [BG stage image=+1165],,1,25
-1166,bg,,07 [BG stage image=+1166],,1,07
-1167,bg,,08 [BG stage image=+1167],,1,08
-1168,bg,,09 [BG stage image=+1168],,1,09
-1169,bg,,10 [BG stage image=+1169],,1,10
-1170,bg,,11 [BG stage image=+1170],,1,11
-1171,bg,,12 [BG stage image=+1171],,1,12
-1172,bg,,13 [BG stage image=+1172],,1,13
-1173,bg,,13 [BG stage image=+1173],,1,13
-97,cg,,01 [EVENT_CG event image=+97],,2,01;08
-98,cg,,08 [EVENT_CG event image=+98],,3,08;27;28
-99,cg,,01 [EVENT_CG event image=+99],,1,01
+1152,bg,town_square_night_blurred,01 [BG stage image=+1152],пиксельная сверка 2026-10-03: MAE 0.928 (следующий 4.792 bg/town_square_night),2,01
+1153,bg,yard_night_blurred,02 [BG stage image=+1153],пиксельная сверка 2026-10-03: MAE 1.142 (следующий 5.534 bg/yard_night),2,02
+1154,bg,overlay,26 [BG stage image=+1154],пиксельная сверка 2026-10-03: MAE 4.299 (следующий 39.108 cg/l_sick_3),1,26
+1155,bg,overlay,27 [BG stage image=+1155],пиксельная сверка 2026-10-03: MAE 4.250 (следующий 39.018 cg/l_sick_3),1,27
+1156,bg,overlay,28 [BG stage image=+1156],пиксельная сверка 2026-10-03: MAE 4.156 (следующий 38.972 cg/l_sick_3),1,28
+1157,bg,overlay,29 [BG stage image=+1157],пиксельная сверка 2026-10-03: MAE 4.121 (следующий 38.919 cg/l_sick_3),1,29
+1158,bg,overlay,14 [BG stage image=+1158],пиксельная сверка 2026-10-03: MAE 3.852 (следующий 38.831 cg/l_sick_3),1,14
+1159,bg,overlay,15 [BG stage image=+1159],пиксельная сверка 2026-10-03: MAE 4.339 (следующий 39.057 cg/l_sick_3),1,15
+1160,bg,overlay,16 [BG stage image=+1160],пиксельная сверка 2026-10-03: MAE 4.027 (следующий 38.977 cg/l_sick_3),1,16
+1161,bg,overlay,17 [BG stage image=+1161],пиксельная сверка 2026-10-03: MAE 4.615 (следующий 39.181 cg/l_sick_3),1,17
+1162,bg,overlay,22 [BG stage image=+1162],пиксельная сверка 2026-10-03: MAE 3.895 (следующий 38.791 cg/l_sick_3),1,22
+1163,bg,overlay,23 [BG stage image=+1163],пиксельная сверка 2026-10-03: MAE 4.203 (следующий 38.987 cg/l_sick_3),1,23
+1164,bg,overlay,24 [BG stage image=+1164],пиксельная сверка 2026-10-03: MAE 4.330 (следующий 39.145 cg/l_sick_3),1,24
+1165,bg,overlay,25 [BG stage image=+1165],пиксельная сверка 2026-10-03: MAE 4.525 (следующий 39.208 cg/l_sick_3),1,25
+1166,bg,overlay,07 [BG stage image=+1166],пиксельная сверка 2026-10-03: MAE 4.662 (следующий 39.280 cg/l_sick_3),1,07
+1167,bg,overlay,08 [BG stage image=+1167],пиксельная сверка 2026-10-03: MAE 4.621 (следующий 39.236 cg/l_sick_3),1,08
+1168,bg,overlay,09 [BG stage image=+1168],пиксельная сверка 2026-10-03: MAE 4.653 (следующий 39.276 cg/l_sick_3),1,09
+1169,bg,overlay,10 [BG stage image=+1169],пиксельная сверка 2026-10-03: MAE 4.926 (следующий 39.431 cg/l_sick_3),1,10
+1170,bg,overlay,11 [BG stage image=+1170],пиксельная сверка 2026-10-03: MAE 4.298 (следующий 39.043 cg/l_sick_3),1,11
+1171,bg,overlay,12 [BG stage image=+1171],пиксельная сверка 2026-10-03: MAE 4.098 (следующий 38.941 cg/l_sick_3),1,12
+1172,bg,overlay,13 [BG stage image=+1172],пиксельная сверка 2026-10-03: MAE 4.012 (следующий 38.790 cg/l_sick_3),1,13
+1173,bg,overlay,13 [BG stage image=+1173],пиксельная сверка 2026-10-03: MAE 4.040 (следующий 38.857 cg/l_sick_3),1,13
+97,cg,terrorist,01 [EVENT_CG event image=+97],пиксельная сверка 2026-10-03: MAE 0.963 (следующий 6.754 cg/terrorist3),2,01;08
+98,cg,terrorist3,08 [EVENT_CG event image=+98],пиксельная сверка 2026-10-03: MAE 0.965 (следующий 6.767 cg/terrorist),3,08;27;28
+99,cg,terrorist2,01 [EVENT_CG event image=+99],пиксельная сверка 2026-10-03: MAE 0.840 (следующий 10.863 cg/terrorist3),1,01
 100,cg,,03 [EVENT_CG event image=+100],,2,03
 101,cg,,03 [EVENT_CG event image=+101],,1,03
 102,cg,,05 [EVENT_CG event image=+102],,1,05
-103,cg,,02 [EVENT_CG event image=+103],,2,02
-106,cg,,02 [EVENT_CG event image=+106],,1,02
-107,cg,,02 [EVENT_CG event image=+107],,2,02
-108,cg,,02 [EVENT_CG event image=+108],,1,02
+103,cg,ha_forest,02 [EVENT_CG event image=+103],пиксельная сверка 2026-10-03: MAE 0.830 (следующий 1.393 cg/ha_forest_open),2,02
+106,cg,ha_hug,02 [EVENT_CG event image=+106],пиксельная сверка 2026-10-03: MAE 0.751 (следующий 6.608 cg/ha_hug_3),1,02
+107,cg,ha_hug_2,02 [EVENT_CG event image=+107],пиксельная сверка 2026-10-03: MAE 0.883 (следующий 6.955 cg/ha_hug),2,02
+108,cg,ha_hug_3,02 [EVENT_CG event image=+108],пиксельная сверка 2026-10-03: MAE 0.864 (следующий 6.513 cg/ha_hug),1,02
 109,cg,,03 [EVENT_CG event image=+109],,2,03
 110,cg,,03 [EVENT_CG event image=+110],,4,03
 111,cg,,03 [EVENT_CG event image=+111],,8,03
@@ -148,9 +149,9 @@ image_id,kind,filename,source,notes,uses,chapters
 114,cg,,04 [EVENT_CG event image=+114],,2,04;06
 115,cg,,04 [EVENT_CG event image=+115],,5,04
 116,cg,,04 [EVENT_CG event image=+116],,4,04
-117,cg,,04 [EVENT_CG event image=+117],,5,04
-118,cg,,02 [EVENT_CG event image=+118],,2,02;04
-119,cg,,05 [EVENT_CG event image=+119],,12,05;15;17;22;27;90
+117,cg,k_hug_2,04 [EVENT_CG event image=+117],пиксельная сверка 2026-10-03: MAE 0.982 (следующий 6.032 cg/k_hug),5,04
+118,cg,k_hug,02 [EVENT_CG event image=+118],пиксельная сверка 2026-10-03: MAE 0.863 (следующий 6.085 cg/k_hug_2),2,02;04
+119,cg,k_hug_3,05 [EVENT_CG event image=+119],пиксельная сверка 2026-10-03: MAE 0.941 (следующий 31.274 cg/k_hug),12,05;15;17;22;27;90
 120,cg,,05 [EVENT_CG event image=+120],,1,05
 121,cg,,05 [EVENT_CG event image=+121],,1,05
 122,cg,,05 [EVENT_CG event image=+122],,2,05
@@ -178,16 +179,16 @@ image_id,kind,filename,source,notes,uses,chapters
 145,cg,,06 [EVENT_CG event image=+145],,1,06
 146,cg,,06 [EVENT_CG event image=+146],,1,06
 147,cg,,06 [EVENT_CG event image=+147],,1,06
-148,cg,,02 [EVENT_CG event image=+148],,9,02;19
-149,cg,,02 [EVENT_CG event image=+149],,3,02;19
-150,cg,,02 [EVENT_CG event image=+150],,10,02;19
-151,cg,,02 [EVENT_CG event image=+151],,4,02;19
-152,cg,,02 [EVENT_CG event image=+152],,1,02
-153,cg,,02 [EVENT_CG event image=+153],,3,02
-154,cg,ha_sick_5,03 [EVENT_CG event image=+154],пиксельная сверка 2026-10-03: MAE 0.966 (следующий 1.583 ha_sick_4); биекция записей 154-158 = ha_sick_5/3/4/2/base,2,03
-155,cg,ha_sick_3,03 [EVENT_CG event image=+155],пиксельная сверка 2026-10-03: MAE 0.994 (следующий 1.477 ha_sick_2); биекция записей 154-158 = ha_sick_5/3/4/2/base,30,03
-157,cg,,03 [EVENT_CG event image=+157],,9,03
-158,cg,,02 [EVENT_CG event image=+158],,1,02
+148,cg,l_s_forest,02 [EVENT_CG event image=+148],пиксельная сверка 2026-10-03: MAE 1.229 (следующий 4.229 cg/l_s_forest_s_speak),9,02;19
+149,cg,l_s_forest_s_speak,02 [EVENT_CG event image=+149],пиксельная сверка 2026-10-03: MAE 1.224 (следующий 4.274 cg/l_s_forest),3,02;19
+150,cg,l_s_forest_l_speak,02 [EVENT_CG event image=+150],пиксельная сверка 2026-10-03: MAE 1.234 (следующий 4.238 cg/l_s_forest_l_s_speak),10,02;19
+151,cg,l_s_forest_l_s_speak,02 [EVENT_CG event image=+151],пиксельная сверка 2026-10-03: MAE 1.220 (следующий 4.285 cg/l_s_forest_l_speak),4,02;19
+152,cg,l_forest,02 [EVENT_CG event image=+152],пиксельная сверка 2026-10-03: MAE 1.236 (следующий 18.254 cg/l_s_forest),1,02
+153,cg,butterbrot,02 [EVENT_CG event image=+153],пиксельная сверка 2026-10-03: MAE 0.838 (следующий 64.434 cg/ha_sick_2),3,02
+154,cg,ha_sick_5,03 [EVENT_CG event image=+154],пиксельная сверка 2026-10-03: MAE 0.966 (следующий 1.583 ha_sick_4); прямое соответствие 154/155/157/158 = ha_sick_5/3/2/base; id156 = ha_sick_4 — ассет существует; EVENT +156 в источнике не вызывается,2,03
+155,cg,ha_sick_3,03 [EVENT_CG event image=+155],пиксельная сверка 2026-10-03: MAE 0.994 (следующий 1.477 ha_sick_2); прямое соответствие 154/155/157/158 = ha_sick_5/3/2/base; id156 = ha_sick_4 — ассет существует; EVENT +156 в источнике не вызывается,30,03
+157,cg,ha_sick_2,03 [EVENT_CG event image=+157],пиксельная сверка 2026-10-03: MAE 0.984 (следующий 1.462 cg/ha_sick_3),9,03
+158,cg,ha_sick,02 [EVENT_CG event image=+158],пиксельная сверка 2026-10-03: MAE 0.972 (следующий 3.656 cg/ha_sick_3),1,02
 159,cg,,19 [EVENT_CG event image=+159],,5,19
 161,cg,,90 [EVENT_CG event image=+161],,21,90
 162,cg,,90 [EVENT_CG event image=+162],,6,90
@@ -206,9 +207,9 @@ image_id,kind,filename,source,notes,uses,chapters
 176,cg,,90 [EVENT_CG event image=+176],,21,90
 177,cg,,90 [EVENT_CG event image=+177],,13,90
 178,cg,,90 [EVENT_CG event image=+178],,21,90
-179,cg,,91 [EVENT_CG event image=+179],,25,91
-180,cg,,91 [EVENT_CG event image=+180],,8,91
-181,cg,,91 [EVENT_CG event image=+181],,5,91
+179,cg,l_feed,91 [EVENT_CG event image=+179],пиксельная сверка 2026-10-03: MAE 0.839 (следующий 1.585 cg/l_feed_2),25,91
+180,cg,l_feed_2,91 [EVENT_CG event image=+180],пиксельная сверка 2026-10-03: MAE 0.830 (следующий 1.582 cg/l_feed),8,91
+181,cg,l_feed_3,91 [EVENT_CG event image=+181],пиксельная сверка 2026-10-03: MAE 0.843 (следующий 1.854 cg/l_feed_2),5,91
 182,cg,,91 [EVENT_CG event image=+182],,39,91
 183,cg,,91 [EVENT_CG event image=+183],,8,91
 184,cg,,91 [EVENT_CG event image=+184],,5,91
@@ -224,9 +225,9 @@ image_id,kind,filename,source,notes,uses,chapters
 194,cg,,91 [EVENT_CG event image=+194],,1,91
 195,cg,,91 [EVENT_CG event image=+195],,1,91
 196,cg,,91 [EVENT_CG event image=+196],,4,91
-198,cg,,04 [EVENT_CG event image=+198],,5,04
-199,cg,,04 [EVENT_CG event image=+199],,4,04;05
-200,cg,,04 [EVENT_CG event image=+200],,3,04
+198,cg,l_sick_2,04 [EVENT_CG event image=+198],пиксельная сверка 2026-10-03: MAE 0.934 (следующий 1.450 cg/l_sick_4),5,04
+199,cg,l_sick_3,04 [EVENT_CG event image=+199],пиксельная сверка 2026-10-03: MAE 0.923 (следующий 3.223 cg/l_sick_2),4,04;05
+200,cg,l_sick_4,04 [EVENT_CG event image=+200],пиксельная сверка 2026-10-03: MAE 0.935 (следующий 1.446 cg/l_sick_2),3,04
 201,cg,,05 [EVENT_CG event image=+201],,1,05
 202,cg,,05 [EVENT_CG event image=+202],,9,05
 203,cg,,05 [EVENT_CG event image=+203],,5,05
@@ -237,10 +238,10 @@ image_id,kind,filename,source,notes,uses,chapters
 208,cg,,03 [EVENT_CG event image=+208],,5,03
 211,cg,,19 [EVENT_CG event image=+211],,1,19
 212,cg,,20 [EVENT_CG event image=+212],,1,20
-213,cg,,02 [EVENT_CG event image=+213],,47,02;09;18;21;22;25;90
-214,cg,,18 [EVENT_CG event image=+214],,57,18;91
-215,cg,,02 [EVENT_CG event image=+215],,3,02;23
-216,cg,,02 [EVENT_CG event image=+216],,5,02;23
+213,cg,ready_to_blow,02 [EVENT_CG event image=+213],пиксельная сверка 2026-10-03: MAE 1.054 (следующий 19.280 cg/ready_to_blow_2),47,02;09;18;21;22;25;90
+214,cg,ready_to_blow_2,18 [EVENT_CG event image=+214],пиксельная сверка 2026-10-03: MAE 0.843 (следующий 19.003 cg/ready_to_blow),57,18;91
+215,cg,si_wakeup,02 [EVENT_CG event image=+215],пиксельная сверка 2026-10-03: MAE 0.804 (следующий 2.747 cg/si_wakeup_2),3,02;23
+216,cg,si_wakeup_2,02 [EVENT_CG event image=+216],пиксельная сверка 2026-10-03: MAE 0.789 (следующий 2.735 cg/si_wakeup),5,02;23
 217,cg,,04 [EVENT_CG event image=+217],,5,04
 218,cg,,04 [EVENT_CG event image=+218],,5,04
 219,cg,,04 [EVENT_CG event image=+219],,6,04
@@ -252,13 +253,13 @@ image_id,kind,filename,source,notes,uses,chapters
 225,cg,,24 [EVENT_CG event image=+225],,2,24
 226,cg,,24 [EVENT_CG event image=+226],,2,24
 227,cg,,24 [EVENT_CG event image=+227],,5,24
-228,cg,,02 [EVENT_CG event image=+228],,15,02
-229,cg,,02 [EVENT_CG event image=+229],,6,02
-230,cg,,02 [EVENT_CG event image=+230],,1,02
-231,cg,,02 [EVENT_CG event image=+231],,1,02
-232,cg,,02 [EVENT_CG event image=+232],,1,02
-233,cg,,02 [EVENT_CG event image=+233],,1,02
-234,cg,,02 [EVENT_CG event image=+234],,1,02
+228,cg,t_library_read,02 [EVENT_CG event image=+228],пиксельная сверка 2026-10-03: MAE 1.038 (следующий 6.906 cg/t_library_read_2),15,02
+229,cg,t_library_read_2,02 [EVENT_CG event image=+229],пиксельная сверка 2026-10-03: MAE 1.037 (следующий 6.884 cg/t_library_read),6,02
+230,cg,t_library_read_4,02 [EVENT_CG event image=+230],пиксельная сверка 2026-10-03: MAE 1.080 (следующий 6.918 cg/t_library_read_3),1,02
+231,cg,t_library_read_3,02 [EVENT_CG event image=+231],пиксельная сверка 2026-10-03: MAE 1.069 (следующий 6.965 cg/t_library_read_4),1,02
+232,cg,t_massage,02 [EVENT_CG event image=+232],пиксельная сверка 2026-10-03: MAE 1.041 (следующий 1.319 cg/t_massage_3),1,02
+233,cg,t_massage_2,02 [EVENT_CG event image=+233],пиксельная сверка 2026-10-03: MAE 1.033 (следующий 1.872 cg/t_massage),1,02
+234,cg,t_massage_3,02 [EVENT_CG event image=+234],пиксельная сверка 2026-10-03: MAE 1.036 (следующий 1.307 cg/t_massage),1,02
 236,cg,,04 [EVENT_CG event image=+236],,10,04
 237,cg,,04 [EVENT_CG event image=+237],,6,04
 238,cg,,27 [EVENT_CG event image=+238],,1,27
@@ -295,7 +296,7 @@ image_id,kind,filename,source,notes,uses,chapters
 270,cg,,04 [EVENT_CG event image=+270],,5,04
 271,cg,,06 [EVENT_CG event image=+271],,1,06
 272,cg,,04 [EVENT_CG event image=+272],,1,04
-273,cg,,02 [EVENT_CG event image=+273],,6,02;11
+273,cg,ha_moon,02 [EVENT_CG event image=+273],пиксельная сверка 2026-10-03: MAE 1.241 (следующий 52.031 bg/town_night),6,02;11
 274,cg,,11 [EVENT_CG event image=+274],,5,11
 275,cg,,11 [EVENT_CG event image=+275],,5,11
 276,cg,,13 [EVENT_CG event image=+276],,1,13
@@ -322,6 +323,6 @@ image_id,kind,filename,source,notes,uses,chapters
 297,cg,,12 [EVENT_CG event image=+297],,2,12
 298,cg,,12 [EVENT_CG event image=+298],,1,12
 299,cg,,12 [EVENT_CG event image=+299],,2,12
-1174,cg,,01 [EVENT_CG event image=+1174],,1,01
-1175,cg,,01 [EVENT_CG event image=+1175],,1,01
-1176,cg,,01 [EVENT_CG event image=+1176],,1,01
+1174,cg,black,01 [EVENT_CG event image=+1174],"сверка 2026-10-03: титульная карточка: белый вшитый текст на чистом чёрном (mean 8.9, std 31.1); chapter_01:44 → overlay_screen(None, ""My name is Louise ... La Vallière"") — script-ch0.rpy:23; scene_name=None даёт scene black",1,01
+1175,cg,black,01 [EVENT_CG event image=+1175],"сверка 2026-10-03: титульная карточка: белый вшитый текст на чистом чёрном (mean 4.4, std 22.0); chapter_01:62 → overlay_screen(None, ""The Pentagon that governs the five powers"") — script-ch0.rpy:38; scene_name=None даёт scene black",1,01
+1176,cg,black,01 [EVENT_CG event image=+1176],"сверка 2026-10-03: титульная карточка: белый вшитый текст на чистом чёрном (mean 8.5, std 33.3); chapter_01:87 → overlay_screen(None, ""Bestow blessings ... my familiar"") — script-ch0.rpy:67; scene_name=None даёт scene black",1,01
