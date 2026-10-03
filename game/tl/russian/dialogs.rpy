@@ -507,7 +507,7 @@ translate russian strings:
     new "Кстати, Сиеста, прости, что мы так внезапно притащили больного прямо в комнату."
 
     old "Oh, it's quite alright. Please don't worry about it, Miss Vallière. After all, it's for the sake of helping someone in need."
-    new "Ах, что вы, всё в порядке. Не беспокойтесь об этом, мисс Вальер. Ведь это же ради того, чтобы помочь человеку в беде."
+    new "Ах, что вы, всё в порядке. Не беспокойтесь об этом, мадемуазель Вальер. Ведь это же ради того, чтобы помочь человеку в беде."
 
     old "Besides... it's what Saito asked for."
     new "К тому же… это же просьба Сайто."
@@ -567,7 +567,7 @@ translate russian strings:
     new "…Ну ладно, так и быть. Даю тебе слово. Ну, я пошла к себе."
 
     old "That's a relief. Saito-san, Miss Variere."
-    new "Слава богу. Сайто-сан, мисс Варьер."
+    new "Слава богу. Сайто-сан, мадемуазель Вальер."
 
     old "Well, at least her life isn't in danger, right? That's a relief."
     new "Ну, по крайней мере, её жизни ничего не угрожает, да? Фух, я немного выдохнул."
@@ -1020,7 +1020,7 @@ translate russian strings:
     new "А?"
 
     old "Good morning, Saito-san. Good morning, Miss Vallière."
-    new "Доброе утро, Сайто-сан. Доброе утро, мисс Вальер."
+    new "Доброе утро, Сайто-сан. Доброе утро, мадемуазель Вальер."
 
     old "Eh, Siesta?"
     new "А, Сиеста?"
@@ -1077,7 +1077,7 @@ translate russian strings:
     new "Звучит как весьма незавидное положение."
 
     old "How on earth did he manage to catch the attention of Miss Vallière... I'm quite curious."
-    new "Как же он умудрился привлечь внимание мисс Вальер… Мне очень интересно."
+    new "Как же он умудрился привлечь внимание мадемуазель Вальер… Мне очень интересно."
 
     old "S-Siesta..."
     new "С-Сиеста…"
@@ -1104,13 +1104,13 @@ translate russian strings:
     new "Э?"
 
     old "That girl woke up just now. So, I thought I should come and inform Saito-san and Miss Vallière..."
-    new "Та девушка только что проснулась. Поэтому я решила прийти и сообщить об этом Сайто-сану и мисс Вальер…"
+    new "Та девушка только что проснулась. Поэтому я решила прийти и сообщить об этом Сайто-сану и мадемуазель Вальер…"
 
     old "At this juncture, it is my intention to prove my innocence through the testimony of a third party!"
     new "В данной ситуации я намерен доказать свою невиновность посредством показаний третьего лица!"
 
     old "A third party...? But currently, there is no one else in this room besides Saito-san, myself, and Miss Vallière."
-    new "Третье лицо…? Но в данный момент в этой комнате нет никого, кроме Сайто-сана, меня и мисс Вальер."
+    new "Третье лицо…? Но в данный момент в этой комнате нет никого, кроме Сайто-сана, меня и мадемуазель Вальер."
 
     old "I have my partner with me! Hey, Derf!"
     new "Мой напарник прямо здесь! Эй, Дерф!"
@@ -1191,7 +1191,7 @@ translate russian strings:
     new "!!!!! Постой, Сиеста, клянусь, это недоразумение!"
 
     old  "To think that you and Miss Vallière had become that close... I had no idea at all."
-    new  "Подумать только, что вы и мисс Вальер стали так близки… Я совершенно об этом не знала."
+    new  "Подумать только, что вы и мадемуазель Вальер стали так близки… Я совершенно об этом не знала."
 
     old "Mmm... {i}Yawns{/i}... Huh, Saito...?"
     new "Мм… {i}Зевает{/i}… А, Сайто…?"
@@ -1575,7 +1575,7 @@ translate russian strings:
     new "Если вы будете молчать, я так ничего и не узнаю."
 
     old "Judging by the state of the room... Yes, indeed... What exactly happened, Miss Vallière?"
-    new "Судя по разгрому в комнате… Да, так оно и есть… Что же всё-таки случилось, мисс Вальер?"
+    new "Судя по разгрому в комнате… Да, так оно и есть… Что же всё-таки случилось, мадемуазель Вальер?"
 
     old "Yes! Um, well..."
     new "Да! Эм, ну…"
@@ -1644,7 +1644,7 @@ translate russian strings:
     new "Ах, да. Прошу вас."
 
     old "Miss Vallière. You're to look after her in your room until the repairs are done."
-    new "Мисс Вальер. До окончания ремонтных работ извольте заботиться о ней в своей комнате."
+    new "Мадемуазель Вальер. До окончания ремонтных работ извольте заботиться о ней в своей комнате."
 
     old "Huh?{#he?}"
     new "Э?"
@@ -1662,7 +1662,7 @@ translate russian strings:
     new "…Поняла."
 
     old "Ah, um! Forgive my impertinence, but I’m counting on you both. Mr. Saito! Miss Vallière!"
-    new "Э-эм, простите! Знаю, что веду себя непрошено, но прошу вашей поддержки. Сайто-сан! Мисс Вальер!"
+    new "Э-эм, простите! Знаю, что веду себя непрошено, но прошу вашей поддержки. Сайто-сан! Мадемуазель Вальер!"
 
     old "Ah, aah... likewise..."
     new "О, а… взаимно…"
@@ -1719,7 +1719,7 @@ translate russian strings:
     new "Аргумент весомый, но именно поэтому я отказываюсь наотрез!"
 
     old "That's enough, Miss Vallière."
-    new "Достаточно, мисс Вальер."
+    new "Достаточно, мадемуазель Вальер."
 
     old "She has nowhere to go and is in quite a predicament. You are to look after her until the repairs are completed."
     new "Ей просто некуда идти, и она в весьма затруднительном положении. Пока не завершится ремонт, тебе надлежит о ней позаботиться."
@@ -2625,7 +2625,7 @@ translate russian strings:
     new "Что ты сказала…?!"
 
     old "U-Um, Saito-san, Miss Valliere, please calm down."
-    new "П-пожалуйста, Сайто-сан, мисс Вальер, успокойтесь."
+    new "П-пожалуйста, Сайто-сан, мадемуазель Вальер, успокойтесь."
 
     old "Hmph..."
     new "Хм…"

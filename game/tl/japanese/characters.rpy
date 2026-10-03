@@ -12,7 +12,7 @@ translate japanese strings:
     new "タバサ"
 
     old "Colbert"
-    new "Кольбер"
+    new "コルベール"
 
     old "Henrietta"
     new "アンリエッタ"
@@ -27,13 +27,13 @@ translate japanese strings:
     new "デルフリンガー"
 
     old "Haruna"
-    new "Харуна"
+    new "ハルナ"
 
     old "Osmond"
     new "オスマン"
 
     old "Soldier"
-    new "Солдат"
+    new "兵士"
 
     old "Сommander"
     new "指揮官"

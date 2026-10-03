@@ -413,11 +413,11 @@ translate japanese strings:
     old "Slash"
     new "斬り"
 
-    old "二段斬り"
-    new "Двойное рассечение"
+    old "Double Slash"
+    new "二段斬り"
 
-    old "風月斬り"
-    new "Рассечение ветра и луны"
+    old "Wind Moon Slash"
+    new "風月斬り"
 
     #wind
 

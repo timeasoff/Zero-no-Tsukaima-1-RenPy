@@ -655,7 +655,7 @@ translate japanese strings:
     new "サイト。あなた......もしかして、あの娘に惚れた?"
 
     old "Eh!?"
-    new "Э-э!?"
+    new "えっ!?"
 
     old "How did you know!?"
     new "どうして分かったんだ!?"

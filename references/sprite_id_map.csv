@@ -1,0 +1,42 @@
+# references/sprite_id_map.csv - словарь id спрайтов PS2 -> имя в ремастере
+# Источник: ps2_source/chapters/chapter_03_黒髪の来訪者.txt, сцены 68-75
+# Колонки: sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
+#   sprite_id  - K из [SPRITE layN image=+K]
+#   sprite_name- имя в ремастере: show_sprites("l 4 angry") / fade_fx(..., sprites=...)
+#   uses       - сколько раз встретился в сценах 68-75
+#   layers     - через ; (lay1=louise, lay2=siesta, lay3=mont, lay5=saito, lay6=kirche, lay9=colbert)
+# id уникальны во всём PS2: одна и та же строка подходит для любой главы.
+# Порядок слотов по слоям: lay1, lay2, lay3, lay5, lay6, lay9 -> левый ... правый.
+sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
+302,l 1,4,73,348,lay1,
+306,l 1 angry,4,73,338,lay1,
+324,l 4,6,69,114,lay1,l 4 — эталон ch1
+328,l 4 angry,6,68,65,lay1,l 4 angry — эталон ch1
+330,l 4 sad,1,72,259,lay1,
+332,l 4 shy,2,70,128,lay1,l 4 shy — эталон ch1
+339,l 3 angry,1,75,428,lay1,
+341,l 3 sad,1,74,399,lay1,
+390,s 1,1,74,397,lay5,
+396,s 1 sad,4,73,383,lay5,
+412,s 5,4,68,58,lay5,s 5 — подтверждено эталоном ch1 (script-ch1_4.rpy)
+416,s 5 angry,2,68,68,lay5,
+418,s 5 sad,5,68,83,lay5,
+423,s 4,1,74,409,lay5,
+425,s 4 happy,0,,,,нет в сценах 68-75
+427,s 4 angry,1,73,339,lay5,
+429,s 4 sad,3,74,404,lay5,
+445,s 6,1,70,147,lay5,
+447,s 6 happy,1,68,48,lay5,
+449,s 6 angry,1,72,279,lay5,
+451,s 6 sad,10,68,30,lay5,s 6 sad — подтверждено эталоном ch1 (script-ch1_4.rpy)
+489,si 1,8,68,61,lay2,
+491,si 1 happy,1,68,45,lay2,
+495,si 1 sad,3,70,124,lay2,
+497,si 1 shy,1,68,55,lay2,
+522,si 4,1,70,151,lay2,
+528,si 4 sad,1,69,107,lay2,
+676,k 1,1,73,364,lay6,
+874,m 3,1,72,247,lay3,
+880,m 3 sad,2,72,240,lay3,
+929,c 1,4,73,345,lay9,
+935,c 1 sad,1,73,378,lay9,

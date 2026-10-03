@@ -6,8 +6,8 @@
 
 ## ERROR (2)
 
-- E7 jump 'ch2_2' at game/chapters/2/script-ch2_1.rpy:408 has no label
-- E7 jump 'ch2_2' at game/chapters/2/script-ch2_1.rpy:438 has no label
+- E7 jump 'ch2_2' at game/chapters/2/script-ch2_1.rpy:418 has no label
+- E7 jump 'ch2_2' at game/chapters/2/script-ch2_1.rpy:452 has no label
 
 ## WARNING (275)
 
@@ -61,6 +61,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:269: Dialog box transparency
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:408: Dispel Magic
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:98: Display Mode
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:416: Double Slash
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:470: Elixir
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:77: Empty Slot
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:206: Enable supported {a=https://www.renpy.org/l/voicing}text-to-speech{/a}
@@ -137,6 +138,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:224: Wheel Down
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:221: Wheel Up
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:430: Wind Break
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:419: Wind Moon Slash
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
 - W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
@@ -145,8 +147,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the first chapter!{/size}
-- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:416: 二段斬り
-- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:419: 風月斬り
 - W5 19 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
