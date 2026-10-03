@@ -14,6 +14,10 @@ Checks
   E6  empty `new ""` in tl
   E7  `jump` / `call` to a label that does not exist
   E8  tl file declares a different language than its folder
+  E11 duplicate `old` inside one tl language (Ren'Py 8.5 StringTranslator.add
+      raises "A translation for ... already exists at file:line" on startup;
+      identical base strings are disambiguated in the script with an inline
+      {#tag} comment instead of being translated twice)
   W1  `old` keys in tl with no matching script string (stale / mismatched `old`)
   W2  .ogg files referenced by nobody
   W3  unbalanced quote on a script line (possible multi-line dialogue)
@@ -340,6 +344,12 @@ def main():
             if is_tl_readonly(f):
                 continue
             errors.append("E6 empty new at %s:%d" % (f, i))
+        for k in sorted(keys):
+            hits = keys[k]
+            if len(hits) > 1:
+                errors.append("E11 duplicate old in tl/%s: %s (%d times) at %s"
+                              % (lang, k[:70], len(hits),
+                                 ", ".join("%s:%d" % (h[1], h[2]) for h in hits)))
         missing_strict = cand_strict - set(keys)
         missing_soft = cand_all - cand_strict - set(keys)
         for k in sorted(missing_strict):

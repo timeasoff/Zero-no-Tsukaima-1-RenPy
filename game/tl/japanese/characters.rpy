@@ -11,7 +11,7 @@ translate japanese strings:
     old "Tabitha"
     new "タバサ"
 
-    old "Kolbert"
+    old "Colbert"
     new "Кольбер"
 
     old "Henrietta"

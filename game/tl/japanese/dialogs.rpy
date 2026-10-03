@@ -3358,3 +3358,308 @@ translate japanese strings:
 
     old "ERR"
     new "ERR"
+
+translate japanese strings:
+
+    old "Mmm... Ahh— what a stretch."
+    new "んんー……ふああーあ。"
+
+    old "Morning, huh... It's been a while since I slept on straw. My whole body aches..."
+    new "朝か……。久しぶりのワラの布団はどうも体が痛いなぁ……。"
+
+    old "Ah— good morning, Saito-san."
+    new "あ、おはようございます、サイトさん。"
+
+    old "Good morning, Siesta. You're up early, as always."
+    new "おはよう、シエスタ。いつもながら早起きだね。"
+
+    old "I always have work in the mornings, so I'm up at this hour."
+    new "いつも、朝からお仕事がありますので、この時間に起きてるんですよ。"
+
+    old "As usual, Siesta. I really admire you."
+    new "さすが、シエスタ。尊敬するなぁ。"
+
+    old "Ah, um, that's too kind... I'm still far from that..."
+    new "あ、あの、そんな……。わたしなんてまだ全然……。"
+
+    old "Ah, right— is Louise still asleep? I'd better help with her morning routine while I can..."
+    new "ああ、そう言えば、ルイズってまだ寝てる？今のうちに朝の支度をしないと……。"
+
+    old "Ah, Miss Valiere is..."
+    new "あ、ミス・ヴァリエールは……。"
+
+    old "I'm already up."
+    new "もう起きてるわよ。"
+
+    old "Wh— what!?"
+    new "ええっ！？"
+
+    old "Honestly, leaving your master behind and just snoring away— what do you think you're doing?"
+    new "まったく、ご主人様を放ったらかしにしてぐーぐー寝てるなんて、いったい何様のつもりかしら？"
+
+    old "Geez, why are you up early today of all days... It's usually your sleeping time!"
+    new "げっ、何で今日に限って早起きなんだよ……。普段は寝てる時間だろ！"
+
+    old "U-uh, be quiet. I actually get up this early."
+    new "う、うるさいわね。本当はこのくらいに起きてるのよ。"
+
+    old "Miss Valiere was up even before I got up."
+    new "ミス・ヴァリエールは、わたしが起きる前にはもう起きていたんですよ。"
+
+    old "You didn't stay up all night, did you?"
+    new "徹夜とかしてないよな？"
+
+    old "N-no, that's not it at all. I slept just fine."
+    new "そっ、そんなわけないでしょ。ちゃんと寝たわよ。"
+
+    old "If you fall asleep in class, it'd be shameful as a familiar, so get proper rest."
+    new "授業中に寝ることになると使い魔としては恥ずかしいから、ちゃんと睡眠時間を取れよ。"
+
+    old "I told you I slept just fine! Besides, you're the one who's always asleep!"
+    new "だから、ちゃんと寝てるって言ってるじゃない！それにいつも寝てるのはあんたでしょ？"
+
+    old "Eh? Saito-san, you sleep in class?"
+    new "え、サイトさん、授業中に寝てるんですか？"
+
+    old "I-I mean, um... You see, I can't read the writing of this world, so I can't take part in class..."
+    new "い、いや、その……。ほら、俺この世界の文字が読めないから、授業に参加できなくてさ……。"
+
+    old "Hmph, you just lack the will."
+    new "ふん、やる気が足りないのよ。"
+
+    old "Couldn't sleep because that female guest was on your mind?"
+    new "女性客が気になって眠れなかった？"
+
+    old "Ah, was I in the way?"
+    new "あの、わたくしがお邪魔でしたでしょうか。"
+
+    old "U... no, that's not it. It's just that the room's population density was high, so I had a little trouble sleeping."
+    new "う……ち、違うわよ。部屋の人口密度が高いから、ちょっと寝苦しかっただけよ。"
+
+    old "If that's the case, that's fine, though..."
+    new "でしたら、良いのですが……。"
+
+    old "If I was the reason you woke up early or something, I don't know how I should apologize..."
+    new "もし、わたくしがいたせいで早く起きたなんてことでしたら、わたくし、なんとお詫びをすればよいかと……。"
+
+    old "Ah, it's fine, Siesta. Louise isn't that sensitive."
+    new "あー、シエスタ大丈夫。ルイズはそんなに繊細じゃないから。"
+
+    old "What do you mean by that!"
+    new "それってどういう意味よ！"
+
+    old "Ah, no, I mean it's that nothing ruffles her. Hey, Siesta!"
+    new "あ、いや、何事にも動じないってことだよ。な、シエスタ！"
+
+    old "Y-yes. Just as Saito-san says."
+    new "は、はい。サイトさんの言うとおりです。"
+
+    old "Is that really true? Well, if that's the case, then it's fine."
+    new "本当なの？まぁ、それならいいんだけどね。"
+
+    old "You were keeping watch on me, or something?"
+    new "俺を見張ってたとか？"
+
+    old "Huh? Why?"
+    new "へ？なんで？"
+
+    old "I figured you were keeping watch out of worry for Siesta and Haruna."
+    new "俺は、おまえがシエスタや春奈のことを心配して、見張ってたのかと。"
+
+    old "Why would I have to monitor every move of my familiar! And besides— Saito, were you planning to do something?"
+    new "なんで、わたしが使い魔の行動を逐次監視しなくちゃ駄目なのよ！第一、サイトは何かをするつもりだったの？"
+
+    old "No, it's nothing like that... I couldn't possibly do something so out of line. Yes, I swear on my fate."
+    new "いえ、そんなことは……。そんな粗相をするはずがありません。ええ、天命に誓って。"
+
+    old "Really? Well, if that's the case, then it's fine."
+    new "そう？ならいいけど。"
+
+    old "If you were going to stir up trouble, you'll have to accept the punishment that comes with it."
+    new "もし、ちょっかいを出していたのなら、それ相応の罰を受けてもらうけどね。"
+
+    old "Ah, right— what about Haruna?"
+    new "そう言えば、春奈は？"
+
+    old "She seems to still be sleeping."
+    new "まだ寝てらっしゃるようですけど。"
+
+    old "Hmph, looks like there's a bigger sleephead than me."
+    new "ふふん、わたしよりよっぽどお寝坊さんがいたみたいね。"
+
+    old "No, that's not something to boast about at all, is it?"
+    new "いや、それ全然威張れた話じゃないからな？"
+
+    old "Ah, Haruna-san... ...Oh?"
+    new "あの、ハルナさん……。……あら？"
+
+    old "...What's wrong, Siesta?"
+    new "……どうしたの、シエスタ？"
+
+    old "Haruna-san, your face is pale. Besides, it looks like you have a fever too..."
+    new "ハルナさん、顔色が悪いです。それに、熱も出てるようですし……。"
+
+    old "...Hiraga-kun... Louise-san, Siesta-san... I'm sorry."
+    new "……平賀くん……。ルイズさん、シエスタさん……。ごめんなさい。"
+
+    old "W-why are you apologizing! Pull yourself together!"
+    new "ちょ、ちょっと何謝ってるのよ！しっかりしなさいよ。"
+
+    old "My body feels heavy, and I can't muster any strength..."
+    new "なんだか体がだるくて、力が入らなくって……。"
+
+    old "I get it, so stop talking. Sorry, Siesta— could you wake Montmorency up?"
+    new "分かったから、もう話すな。ごめん、シエスタ。モンモランシーを起こしてもらえないか？"
+
+    old "Yes, understood."
+    new "はい、分かりました。"
+
+    old "Honestly, waking people up first thing in the morning— you really are a troublesome bunch. I did say I'd cooperate... though."
+    new "まったく、朝から人をたたき起こすなんて、困った人達ね。確かに協力する……とはいいましたけど。"
+
+    old "Sorry, Montmorency. So— how is Haruna doing!"
+    new "ごめんな、モンモランシー。で、春奈の具合はどうなんだ！"
+
+    old "Hmm. She still hasn't adjusted to the change of environment, it seems, and that's why she has a fever."
+    new "うーん。まだ、環境の変化に馴染めなくて熱が出ちゃったみたい。"
+
+    old "She seemed to feel better yesterday, so I let my guard down. She'd better rest for a while."
+    new "昨日、体調が良くなっていたみたいなんで、油断してたわ。しばらく安静にしていたほうがいいわね。"
+
+    old "I'm sorry for causing you trouble."
+    new "すみません。ご迷惑をかけて。"
+
+    old "If you feel that way, then get better quickly."
+    new "そう思うのなら、早く元気になることね。"
+
+    old "Yes..."
+    new "はい……。"
+
+    old "Besides, it's about time to head to class."
+    new "それより、そろそろ授業に行かないといけない時間だわ。"
+
+    old "Oh my. I need to hurry back to my room and get ready."
+    new "あら、やだ。早く部屋に戻って準備をしないと。"
+
+    old "Since Louise got up early today, I thought we had plenty of time..."
+    new "今日はルイズが早起きしたから、まだ余裕あると思ったのに……。"
+
+    old "Stop that! Let's get to class already."
+    new "いいから！さっさと授業に行くわよ。"
+
+    old "Huh—? A, ow! I'm telling you, stop pulling! And you haven't changed yet, have you!"
+    new "ええー？あ、いたた、引っ張るなってだから！それにお前、着替えてないだろ！"
+
+    old "A...!! I'll change right now, so get out of the room!"
+    new "あ……！！すぐ着替えするから、部屋から出てって！"
+
+    old "Huh? I'm the one who's supposed to dress her?"
+    new "え？俺が着替えさせるんじゃないの？"
+
+    old "Saito-san..."
+    new "サイトさん……。"
+
+    old "Hiraga-kun...{#hiraga}"
+    new "平賀くん……。"
+
+    old "You're the lowest..."
+    new "最低ね……。"
+
+    old "Wha...? Wha...?"
+    new "え……？え……？"
+
+    old "Get out of the room quickly! Siesta will change for me."
+    new "早く部屋から出てって！着替えはシエスタにしてもらうから。"
+
+    old "Yes, understood. Saito-san, I'm sorry, but could you wait outside the room for a while?"
+    new "はい、分かりました。サイトさん、すみませんがしばらく部屋の外でお待ちいただけませんか？"
+
+    old "Stop dawdling and get out!"
+    new "ぐずぐずしてないで、さっさと出てって！"
+
+    old "Y-yes.{#h}"
+    new "へーい。"
+
+    old "In the end, we were late after all."
+    new "結局遅刻だったじゃねーかよ。"
+
+    old "Hmph, we were late because Saito wouldn't get out of the room quickly, right?"
+    new "もう、サイトが早く部屋から出てくれなかったから遅れたんでしょ？"
+
+    old "It's my fault, huh!"
+    new "俺のせいかよ！"
+
+    old "Miss Valiere. What seems to be the problem this morning?"
+    new "ミス・ヴァリエール。朝から何事かね？"
+
+    old "E...eh!? Ah, no, um, nothing. Professor Colbert."
+    new "え……えぇ！？あ、いえ、その、なんでもありません。ミスタ・コルベール。"
+
+    old "I see. Well, that's fine, but class is about to begin, so please refrain from private conversation."
+    new "ふむ。ならばよいのですが、もう授業が始まりますから私語は慎むように。"
+
+    old "Ahem. Before we get into class, there's something I want to warn everyone about."
+    new "コホン。えー、授業に入る前に、皆に注意しておくことがあります。"
+
+    old "Recently, some of you must have heard about the bomber..."
+    new "最近、爆弾使いについて、耳にした者もいると思うのですが……。"
+
+    old "Professor Colbert? Ah, you mean the one who's been carrying out bombing attacks around Tristania?"
+    new "ミスタ・コルベール。あの、トリスタニアで爆弾を使って、破壊活動をしてるってやつでしょ？"
+
+    old "That's right... It's about that bomber."
+    new "いかにも……。その爆弾使いの話です。"
+
+    old "Over the past few months, several buildings in Tristania have been blown up with bombs. Their true identity remains unknown."
+    new "ここ数ヶ月にわたり、トリスタニアでいくつもの建物を爆弾で破壊。いまだに正体がつかめません。"
+
+    old "I don't think the damage will reach the academy, but I've been ordered to be extremely careful when heading into Tristania."
+    new "学院に被害が及ぶことはないと思いますが、トリスタニアに向かう時は十分注意をするようにとのお達しが来ています。"
+
+    old "Do not, under any circumstances, try to capture him yourselves or do anything reckless. Understood?"
+    new "間違っても、自分達で捕まえようなどと、無茶をしたりしないように。いいですかな？"
+
+    old "Wow, there are some dangerous people out there."
+    new "うわあ、物騒なやつもいたもんだな。"
+
+    old "Well, it's none of our business anyway."
+    new "ま、わたし達には関係ないけどね。"
+
+    old "Yeah, I guess so..."
+    new "そうだな……。"
+
+    old "Hear people out, will you. Professor Colbert just said we shouldn't do anything reckless like that."
+    new "あんたねえ、人の話聞いてなさいよ。ミスタ・コルベールが、そういう無茶をしないようにって言ったばかりじゃないの。"
+
+    old "I know that."
+    new "そりゃそうだけど。"
+
+    old "Then don't say anything extra. Understood?"
+    new "だったら、余計なこと言い出さないの。分かった？"
+
+    old "Y-yes.{#h2}"
+    new "はぁい。"
+
+    old "Besides, I'd like to eat breakfast."
+    new "それより、朝食食べたいんだけど。"
+
+    old "Huh?{#ssa}"
+    new "はあ？"
+
+    old "You see, between this and that, I never had time to eat breakfast after I woke up. I'm hungry, you know."
+    new "だって、結局なんだかんだで、起きてから朝食をとる暇なかったじゃん。俺、腹減っちゃってさあ。"
+
+    old "Hold out until lunch."
+    new "昼食まで、我慢しなさいよ。"
+
+    old "Geez, I didn't do anything wrong— am I going without food?"
+    new "くうう、俺、なにも悪いことしてないのに飯抜きですか？"
+
+    old "If it's going to be like this, I should have asked Siesta to bring me something."
+    new "こんなことなら、シエスタに頼んでなにか持ってきてもらえば良かったかなあ。"
+
+    old "Aaah, fine. Behave yourself, or I'll skip your lunch too!"
+    new "ああ、もう。おとなしくしてないと、昼食も抜きだからね！"
+
+    old "Y-yes.{#h3}"
+    new "へーい。"

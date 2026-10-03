@@ -278,3 +278,26 @@ translate japanese strings:
 
     old "Huh, why are you two agreeing all of a sudden?!"
     new "(ええっ、なんでそこで意気投合しちゃうの?)"
+translate japanese strings:
+
+    old "Can't be helped, I guess... Putting Siesta's bed into Louise's room made it two beds, and that's fine, but..."
+    new "しょうがないよな……。　ルイズの部屋にシエスタのベッドを入れて　２つのベッドになったのはいいけど……"
+
+    old "Counting Haruna, who isn't feeling well, to having a bed to herself..."
+    new "具合が悪い春奈がベッドを１人で使う　として……"
+
+    old "The other bed must be for Louise and Siesta, right? Surely not all three of us getting into one bed..."
+    new "もうひとつのベッドはルイズとシエスタだろ？　まさか、３人でベッドに入るわけにも　いかないし……"
+
+    old "Well, I did move back to the straw on my own, but... it feels kind of lonely..."
+    new "まぁ、自主的にワラに戻ったんだけど、　なんだか寂しいよなぁ……"
+
+    old "Is that really true..."
+    new "本当かよ……"
+
+    old "Wh— what!? That's really early! What's going on?"
+    new "ええっ！？　それ、めちゃくちゃ早いじゃないか！　いったいどうしたんだ？"
+
+    old "Honestly, minding other people's eyes... What's wrong with Louise today?"
+    new "まったく、他人の目を気にするなんて、　今日のルイズはどうしちゃったんだ？"
+

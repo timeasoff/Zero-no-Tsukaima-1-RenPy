@@ -11,7 +11,7 @@ translate russian strings:
     old "Tabitha"
     new "Табита"
 
-    old "Kolbert"
+    old "Colbert"
     new "Кольбер"
 
     old "Henrietta"

@@ -273,3 +273,26 @@ translate russian strings:
 
     old "Huh, why are you two agreeing all of a sudden?!"
     new "Э-э, и чего вы вдруг сговорились?!"
+
+translate russian strings:
+
+    old "Can't be helped, I guess... Putting Siesta's bed into Louise's room made it two beds, and that's fine, but..."
+    new "Ничего не поделать… Перенесли кровать Сиесты в комнату Луизы — получилось две, и это хорошо, но…"
+
+    old "Counting Haruna, who isn't feeling well, to having a bed to herself..."
+    new "С Харуной всё понятно: ей нездоровится, так что кровать для неё нужна своя…"
+
+    old "The other bed must be for Louise and Siesta, right? Surely not all three of us getting into one bed..."
+    new "Значит, вторая — на двоих: Луиза и Сиеста… Втроём на одной кровати — уж точно нет…"
+
+    old "Well, I did move back to the straw on my own, but... it feels kind of lonely..."
+    new "Ладно, я ведь сам вернулся на солому… но как-то одиноко…"
+
+    old "Is that really true..."
+    new "Точно ли…"
+
+    old "Wh— what!? That's really early! What's going on?"
+    new "Ч-что?! Это совсем рано! Что происходит?!"
+
+    old "Honestly, minding other people's eyes... What's wrong with Louise today?"
+    new "Совсем она волнуется из-за чужого взгляда… Что сегодня с Луизой не так?"

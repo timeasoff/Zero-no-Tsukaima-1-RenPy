@@ -4,11 +4,12 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (0)
+## ERROR (2)
 
-- нет
+- E7 jump 'ch2_2' at game/chapters/2/script-ch2_1.rpy:408 has no label
+- E7 jump 'ch2_2' at game/chapters/2/script-ch2_1.rpy:438 has no label
 
-## WARNING (277)
+## WARNING (275)
 
 - W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -52,7 +53,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:59: Chapter Six: 'The Queen's Decision'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:117: Chapter Six: 'Unexpected Scout'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:48: Chapter Three: 'A Woman's Battle'
-- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:45: Chapter Two: 'The Black-Haired Visitor'
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:296: Characters
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:285: Close
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:368: Consume
@@ -189,7 +189,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:59: Chapter Six: 'The Queen's Decision'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:119: Chapter Six: 'Unexpected Scout'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:48: Chapter Three: 'A Woman's Battle'
-- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:45: Chapter Two: 'The Black-Haired Visitor'
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:296: Characters
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:285: Close
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:369: Consume
@@ -291,9 +290,9 @@
 ## INFO (32)
 
 - speakers defined: 32
-- overlay K: max=6 used=6 next_free=7
-- voices: refs=1156 ogg=1162 missing=0
-- I1 ch2: not started (source talk=1382)
+- overlay K: max=7 used=7 next_free=8
+- voices: refs=1259 ogg=1265 missing=0
+- I1 ch2: strings=116 source_talk=1382 (gap expected)
 - I1 ch3: not started (source talk=1078)
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
@@ -320,6 +319,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=0 open=312 | placeholders=0 in 0 file(s)
-- labels=33 rpy=47 strings(strict=1281) tl_old=japanese:1765,russian:1792
+- image map: ids=312 named=0 open=312 | placeholders=8 in 1 file(s)
+- labels=34 rpy=48 strings(strict=1395) tl_old=japanese:1878,russian:1905
 

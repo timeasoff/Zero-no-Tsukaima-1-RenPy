@@ -3365,26 +3365,307 @@ translate russian strings:
     old "ERR"
     new "ERR"
 
+translate russian strings:
 
+    old "Mmm... Ahh— what a stretch."
+    new "М-м… А-а, вот это растянулся…"
 
+    old "Morning, huh... It's been a while since I slept on straw. My whole body aches..."
+    new "Утро, значит… Давно не спал на соломе — всё тело ноет…"
 
+    old "Ah— good morning, Saito-san."
+    new "А, доброе утро, Сайто-сан."
 
+    old "Good morning, Siesta. You're up early, as always."
+    new "Доброе утро, Сиеста. Как всегда, встаёшь пораньше."
 
+    old "I always have work in the mornings, so I'm up at this hour."
+    new "По утрам у меня всегда есть работа, потому и встаю в это время."
 
+    old "As usual, Siesta. I really admire you."
+    new "Как всегда, Сиеста. Правда восхищаюсь тобой."
 
+    old "Ah, um, that's too kind... I'm still far from that..."
+    new "А, ну, это слишком лестно… Мне ещё далеко…"
 
+    old "Ah, right— is Louise still asleep? I'd better help with her morning routine while I can..."
+    new "А, кстати — Луиза ещё спит? Пока есть время, надо помочь ей с утренними сборами…"
 
+    old "Ah, Miss Valiere is..."
+    new "А, мадемуазель Вальер…"
 
+    old "I'm already up."
+    new "Я уже встала."
 
+    old "Wh— what!?"
+    new "Ч-что?!"
 
+    old "Honestly, leaving your master behind and just snoring away— what do you think you're doing?"
+    new "Вот это да: оставил госпожу одну и храпишь себе… Ты вообще за кого себя держишь?"
 
+    old "Geez, why are you up early today of all days... It's usually your sleeping time!"
+    new "Блин, почему сегодня изо всех дней ты встала пораньше… Обычно в это время ты спишь!"
 
+    old "U-uh, be quiet. I actually get up this early."
+    new "Н-ну тебя! Я и правда встаю в это время."
 
+    old "Miss Valiere was up even before I got up."
+    new "Мадемуазель Вальер проснулась даже раньше меня."
 
+    old "You didn't stay up all night, did you?"
+    new "Ты ведь не провела всю ночь без сна?"
 
+    old "N-no, that's not it at all. I slept just fine."
+    new "Н-нет, вовсе нет. Я нормально выспалась."
 
+    old "If you fall asleep in class, it'd be shameful as a familiar, so get proper rest."
+    new "Спать на уроке — позор для фамильяра, так что нормально высыпайся."
 
+    old "I told you I slept just fine! Besides, you're the one who's always asleep!"
+    new "Я же говорю, что выспалась! А ты и так всё время спишь!"
 
+    old "Eh? Saito-san, you sleep in class?"
+    new "Э? Сайто-сан, вы спите на уроках?"
 
-    
+    old "I-I mean, um... You see, I can't read the writing of this world, so I can't take part in class..."
+    new "Н-ну, то есть… Я ведь не умею читать письмена этого мира, поэтому участвовать в уроках не могу…"
 
+    old "Hmph, you just lack the will."
+    new "Фу, тебе просто не хватает воли."
+
+    old "Couldn't sleep because that female guest was on your mind?"
+    new "Ты не уснула из-за того, что думала о той гостье?"
+
+    old "Ah, was I in the way?"
+    new "А, я помешала?"
+
+    old "U... no, that's not it. It's just that the room's population density was high, so I had a little trouble sleeping."
+    new "У… нет, вовсе не это. Просто в комнате народу было многовато, и спалось не очень."
+
+    old "If that's the case, that's fine, though..."
+    new "Раз так — то и хорошо…"
+
+    old "If I was the reason you woke up early or something, I don't know how I should apologize..."
+    new "Если из-за меня вы встали так рано… я и не знаю, как за это извиниться…"
+
+    old "Ah, it's fine, Siesta. Louise isn't that sensitive."
+    new "А, да ладно, Сиеста. Луиза не такая уж чувствительная."
+
+    old "What do you mean by that!"
+    new "А это что значит?!"
+
+    old "Ah, no, I mean it's that nothing ruffles her. Hey, Siesta!"
+    new "А, нет, я хотел сказать, что её ничто не выбивает из колеи. Эй, Сиеста!"
+
+    old "Y-yes. Just as Saito-san says."
+    new "Д-да. Как и говорит Сайто-сан."
+
+    old "Is that really true? Well, if that's the case, then it's fine."
+    new "Точно? Ну, раз так — хорошо."
+
+    old "You were keeping watch on me, or something?"
+    new "Ты за мной следила, что ли?"
+
+    old "Huh? Why?"
+    new "А? Почему?"
+
+    old "I figured you were keeping watch out of worry for Siesta and Haruna."
+    new "Я подумал, ты следишь за ними из беспокойства за Сиесту и Харуну."
+
+    old "Why would I have to monitor every move of my familiar! And besides— Saito, were you planning to do something?"
+    new "Почему мне вообще нужно следить за каждым шагом фамильяра! И вообще — Сайто, ты что-то замышлял?"
+
+    old "No, it's nothing like that... I couldn't possibly do something so out of line. Yes, I swear on my fate."
+    new "Нет, вовсе не так… Я бы не стал делать ничего подобного. Да, клянусь своей судьбой."
+
+    old "Really? Well, if that's the case, then it's fine."
+    new "Правда? Ну, раз так — ладно."
+
+    old "If you were going to stir up trouble, you'll have to accept the punishment that comes with it."
+    new "Если ты что-то выкидывал — получишь наказание по заслугам."
+
+    old "Ah, right— what about Haruna?"
+    new "А, кстати — как там Харуна?"
+
+    old "She seems to still be sleeping."
+    new "Похоже, она ещё не проснулась."
+
+    old "Hmph, looks like there's a bigger sleephead than me."
+    new "Ишь ты, оказывается, есть соня и похуже меня."
+
+    old "No, that's not something to boast about at all, is it?"
+    new "Это ж совсем не повод для гордости, да?"
+
+    old "Ah, Haruna-san... ...Oh?"
+    new "А, Харуна-сан… …О?"
+
+    old "...What's wrong, Siesta?"
+    new "…Что случилось, Сиеста?"
+
+    old "Haruna-san, your face is pale. Besides, it looks like you have a fever too..."
+    new "Харуна-сан, у вас бледное лицо. И температура, кажется, есть…"
+
+    old "...Hiraga-kun... Louise-san, Siesta-san... I'm sorry."
+    new "…Хирага-кун… Луиза-сан, Сиеста-сан… Простите."
+
+    old "W-why are you apologizing! Pull yourself together!"
+    new "П-почему ты извиняешься! Соберись!"
+
+    old "My body feels heavy, and I can't muster any strength..."
+    new "Тело тяжёлое, и силы совсем нет…"
+
+    old "I get it, so stop talking. Sorry, Siesta— could you wake Montmorency up?"
+    new "Понял, больше не говори. Прости, Сиеста — разбудишь Монморанси?"
+
+    old "Yes, understood."
+    new "Да, поняла."
+
+    old "Honestly, waking people up first thing in the morning— you really are a troublesome bunch. I did say I'd cooperate... though."
+    new "Совсем вы спать людям не даёте — с самого утра будите. Вы невозможные. Хотя я ведь и сказала, что помогу…"
+
+    old "Sorry, Montmorency. So— how is Haruna doing!"
+    new "Прости, Монморанси. Ну как там Харуна?!"
+
+    old "Hmm. She still hasn't adjusted to the change of environment, it seems, and that's why she has a fever."
+    new "Хм. Похоже, она ещё не привыкла к смене обстановки — отсюда и температура."
+
+    old "She seemed to feel better yesterday, so I let my guard down. She'd better rest for a while."
+    new "Вчера ей стало лучше, так что я расслабилась. Ей лучше ещё немного полежать."
+
+    old "I'm sorry for causing you trouble."
+    new "Простите, что доставляю хлопоты."
+
+    old "If you feel that way, then get better quickly."
+    new "Раз так считаешь — скорее выздоравливай."
+
+    old "Yes..."
+    new "Да…"
+
+    old "Besides, it's about time to head to class."
+    new "К тому же пора идти на урок."
+
+    old "Oh my. I need to hurry back to my room and get ready."
+    new "Ой, надо поспешить в комнату и собраться."
+
+    old "Since Louise got up early today, I thought we had plenty of time..."
+    new "Раз сегодня Луиза встала пораньше, я думал, у нас ещё будет время…"
+
+    old "Stop that! Let's get to class already."
+    new "Да хватит! Пойдём уже на урок."
+
+    old "Huh—? A, ow! I'm telling you, stop pulling! And you haven't changed yet, have you!"
+    new "Э-э? Ай, ай! Я же сказал — хватит тянуть! А ты ещё и не переоделась!"
+
+    old "A...!! I'll change right now, so get out of the room!"
+    new "А…!! Сейчас переоденусь, так что выйди из комнаты!"
+
+    old "Huh? I'm the one who's supposed to dress her?"
+    new "Что? Я должен её переодевать?"
+
+    old "Saito-san..."
+    new "Сайто-сан…"
+
+    old "Hiraga-kun...{#hiraga}"
+    new "Хирага-кун…"
+
+    old "You're the lowest..."
+    new "Ты просто ниже некуда…"
+
+    old "Wha...? Wha...?"
+    new "Что…? Что…?"
+
+    old "Get out of the room quickly! Siesta will change for me."
+    new "Поскорее выходи из комнаты! Сиеста меня переоденет."
+
+    old "Yes, understood. Saito-san, I'm sorry, but could you wait outside the room for a while?"
+    new "Да, поняла. Сайто-сан, простите, но побудьте немного в коридоре?"
+
+    old "Stop dawdling and get out!"
+    new "Не тяни — выходи!"
+
+    old "Y-yes.{#h}"
+    new "Есть!"
+
+    old "In the end, we were late after all."
+    new "В итоге всё равно опоздали!"
+
+    old "Hmph, we were late because Saito wouldn't get out of the room quickly, right?"
+    new "Ну, опоздали же из-за того, что Сайто не выходил из комнаты, верно?"
+
+    old "It's my fault, huh!"
+    new "И это моя вина, что ли?!"
+
+    old "Miss Valiere. What seems to be the problem this morning?"
+    new "Мадемуазель Вальер. Что случилось этим утром?"
+
+    old "E...eh!? Ah, no, um, nothing. Professor Colbert."
+    new "Э… ээ!? А, нет, ну, ничего. Профессор Кольбер."
+
+    old "I see. Well, that's fine, but class is about to begin, so please refrain from private conversation."
+    new "Понятно. Так-то хорошо, но урок скоро начнётся — воздержитесь от посторонних разговоров."
+
+    old "Ahem. Before we get into class, there's something I want to warn everyone about."
+    new "Кхм. Прежде чем начать урок, есть кое-что, о чём я хочу предупредить всех."
+
+    old "Recently, some of you must have heard about the bomber..."
+    new "В последнее время некоторые из вас, должно быть, слышали о бомбисте…"
+
+    old "Professor Colbert? Ah, you mean the one who's been carrying out bombing attacks around Tristania?"
+    new "Профессор Кольбер? А, вы про того, кто устраивает взрывы в Тристании?"
+
+    old "That's right... It's about that bomber."
+    new "Именно… Речь о том бомбисте."
+
+    old "Over the past few months, several buildings in Tristania have been blown up with bombs. Their true identity remains unknown."
+    new "За последние несколько месяцев в Тристании взорвано несколько зданий. Личность преступника до сих пор не установлена."
+
+    old "I don't think the damage will reach the academy, but I've been ordered to be extremely careful when heading into Tristania."
+    new "Не думаю, что ущерб дойдёт до академии, но мне велено соблюдать предельную осторожность при выезде в Тристанию."
+
+    old "Do not, under any circumstances, try to capture him yourselves or do anything reckless. Understood?"
+    new "Ни в коем случае не пытайтесь поймать его сами и не делайте ничего опрометчивого. Понятно?"
+
+    old "Wow, there are some dangerous people out there."
+    new "Ух ты, и такие люди на свете есть."
+
+    old "Well, it's none of our business anyway."
+    new "Ну, это нас в общем-то не касается."
+
+    old "Yeah, I guess so..."
+    new "Ну да…"
+
+    old "Hear people out, will you. Professor Colbert just said we shouldn't do anything reckless like that."
+    new "Слушай, что тебе говорят. Профессор Кольбер только что запретил делать что-либо подобное."
+
+    old "I know that."
+    new "Я и так знаю."
+
+    old "Then don't say anything extra. Understood?"
+    new "Тогда не говори лишнего. Понятно?"
+
+    old "Y-yes.{#h2}"
+    new "Да-а!"
+
+    old "Besides, I'd like to eat breakfast."
+    new "Впрочем, я бы поел завтрака."
+
+    old "Huh?{#ssa}"
+    new "Хаа?"
+
+    old "You see, between this and that, I never had time to eat breakfast after I woke up. I'm hungry, you know."
+    new "Да просто всё время что-то было, и после подъёма я так и не успел позавтракать. Я голодный."
+
+    old "Hold out until lunch."
+    new "Терпи до обеда."
+
+    old "Geez, I didn't do anything wrong— am I going without food?"
+    new "У-у, я ничего плохого не сделал — мне без еды что ли?"
+
+    old "If it's going to be like this, I should have asked Siesta to bring me something."
+    new "Раз так, надо было сразу попросить Сиесту принести мне что-нибудь."
+
+    old "Aaah, fine. Behave yourself, or I'll skip your lunch too!"
+    new "Ладно уж. Только веди себя хорошо, а то и обед пропущу!"
+
+    old "Y-yes.{#h3}"
+    new "Есть!"

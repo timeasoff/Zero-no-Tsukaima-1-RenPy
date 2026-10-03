@@ -211,5 +211,19 @@ translate russian strings:
     old "You were looking at the night sky."
     new "Ты смотрела на ночное небо."
 
+translate russian strings:
 
+    old "Couldn't sleep because of an all-nighter or something"
+    new "Не уснула из-за бессонной ночи или чего-то такого"
 
+    old "Couldn't sleep because that female guest was on her mind"
+    new "Не уснула из-за мыслей о той гостье"
+
+    old "Couldn't sleep because she was keeping watch on me"
+    new "Не уснула из-за того, что следила за мной"
+
+    old "Shall we go catch him too?"
+    new "Мы тоже пойдём его ловить?"
+
+    old "I'd like to eat breakfast"
+    new "Я бы поел завтрака"

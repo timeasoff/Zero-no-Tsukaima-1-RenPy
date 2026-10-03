@@ -215,3 +215,21 @@ translate japanese strings:
 
 
     
+
+translate japanese strings:
+
+    old "Couldn't sleep because of an all-nighter or something"
+    new "徹夜とかして眠れなかった"
+
+    old "Couldn't sleep because that female guest was on her mind"
+    new "女性客が気になって眠れなかった"
+
+    old "Couldn't sleep because she was keeping watch on me"
+    new "俺を見張って眠れなかった"
+
+    old "Shall we go catch him too?"
+    new "俺達も捕まえに行くか？"
+
+    old "I'd like to eat breakfast"
+    new "朝食食べたいんだけど"
+
