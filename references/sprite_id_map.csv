@@ -1,46 +1,130 @@
 # references/sprite_id_map.csv - словарь id спрайтов PS2 -> имя в ремастере
-# Источник: ps2_source/chapters/chapter_03_黒髪の来訪者.txt, сцены 68-75
-# Проверка 2026-10-03: пиксельная сверка SCENEDAT.BIN[id] (запись N == id) с game/images/chara/**,
-#   метрика MAE по RGB после обрезки по границе спрайта (bbox) и ресайза 128x160 —
-#   32/32 совпадение семейства, 31/32 точное совпадение позы;
-#   id 429: s 4 shy 6.265 против s 4 sad 6.279 — различие внутри семейства (звена верны).
+# Источники: chapter_03 (сцены 68-75, первичная карта) + chapter_02 (глава 1) - расширение 2026-10-03.
+# id уникальны во всём PS2: одна и та же строка подходит для любой главы.
+#
+# Метод имени (2026-10-03): записи спрайтов SCENEDAT лежат блоками по 11 (база B = id - ((id-5) mod 11));
+#   поза A: B,B+2,B+4,B+6,B+8; поза B: B+1,B+3,... ; выражение по позиции:
+#   0/1 = база, 2/3 = happy, 4/5 = angry, 6/7 = sad, 8/9 = shy.
+#   Имя позы - пиксельная сверка SCENEDAT[id] с game/images/chara/** (bbox, RGB MAE);
+#   поза B носит то же имя, что поза A того же блока (проверено по эталону главы 1).
+#   Правило воспроизводит все 32 строки первичной карты (chapter_03).
+#   Подтверждено скриптом главы 1: 303->l 1, 336->l 3, 391->s 1, 490->si 1, 494->si 1 angry,
+#   556->g 1, 677->k 1, 853->m 1, 307->l 1 angry; 1105->mage (блок смешан со спрайтом npc 3).
 # Колонки: sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 #   sprite_id  - K из [SPRITE layN image=+K]
 #   sprite_name- имя в ремастере: show_sprites("l 4 angry") / fade_fx(..., sprites=...)
-#   uses       - сколько раз встретился в сценах 68-75
-#   layers     - через ; (lay1=louise, lay2=siesta, lay3=mont, lay5=saito, lay6=kirche, lay9=colbert)
-# id уникальны во всём PS2: одна и та же строка подходит для любой главы.
-# Порядок слотов по слоям: lay1, lay2, lay3, lay5, lay6, lay9 -> левый ... правый.
+#   uses/first_scene/first_line - по источнику строки: сцены 68-75 = chapter_03; 'ch1' в notes = chapter_02
+#   layers     - через ; (номер слоя-позиции; в главе 1: lay1=louise, lay2=siesta, lay3=montmorency,
+#                lay4/lay5=saito/guiche, lay6=kirche, lay7=haruna, lay10=osman, lay11=mage, lay19=derflinger)
 sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 302,l 1,4,73,348,lay1,
+303,l 1,1,6,76,lay1,ch1; block 302; подтверждено script главы 1
+304,l 1 happy,2,44,2104,lay1,ch1; block 302 pos 2; поза по пиксель-сверке id 302 (MAE 8.86)
 306,l 1 angry,4,73,338,lay1,
+307,l 1 angry,1,60,2782,lay1,ch1; block 302; подтверждено script главы 1
+308,l 1 sad,26,12,369,lay1,ch1; block 302 pos 6; поза по пиксель-сверке id 302 (MAE 8.86)
+313,l 6,1,1009,2923,lay1,ch1; block 313 pos 0; поза по пиксель-сверке id 317 (MAE 1.48)
+317,l 6 angry,8,1009,2939,lay1,ch1; block 313 pos 4; поза по пиксель-сверке id 317 (MAE 1.48)
+319,l 6 sad,1,1012,3014,lay1,ch1; block 313 pos 6; поза по пиксель-сверке id 317 (MAE 1.48)
+321,l 6 shy,2,1010,2965,lay1,ch1; block 313 pos 8; поза по пиксель-сверке id 317 (MAE 1.48)
 324,l 4,6,69,114,lay1,l 4 — эталон ch1
 328,l 4 angry,6,68,65,lay1,l 4 angry — эталон ch1
 330,l 4 sad,1,72,259,lay1,
 332,l 4 shy,2,70,128,lay1,l 4 shy — эталон ch1
+335,l 3,5,21,825,lay1,ch1; block 335 pos 0; поза по пиксель-сверке id 335 (MAE 5.87)
+336,l 3,1,10,224,lay1,ch1; block 335; подтверждено script главы 1
+337,l 3 happy,2,49,2356,lay1,ch1; block 335 pos 2; поза по пиксель-сверке id 335 (MAE 5.87)
 339,l 3 angry,1,75,428,lay1,
 341,l 3 sad,1,74,399,lay1,
+372,l 2 angry,3,15,440,lay1,ch1; block 368 pos 4; поза по пиксель-сверке id 368 (MAE 1.54)
 390,s 1,1,74,397,lay5,
+391,s 1,1,6,72,lay5,ch1; block 390; подтверждено script главы 1
+392,s 1 happy,11,39,1622,lay5,ch1; block 390 pos 2; поза по пиксель-сверке id 390 (MAE 6.80)
+394,s 1 angry,32,11,341,lay5,ch1; block 390 pos 4; поза по пиксель-сверке id 390 (MAE 6.80)
 396,s 1 sad,4,73,383,lay5,
+398,s 1 shy,3,1009,2927,lay5,ch1; block 390 pos 8; поза по пиксель-сверке id 390 (MAE 6.80)
 412,s 5,4,68,58,lay5,s 5 — подтверждено эталоном ch1 (script-ch1_4.rpy)
+414,s 5 happy,1,33,1346,lay5,ch1; block 412 pos 2; поза по пиксель-сверке id 412 (MAE 7.99)
 416,s 5 angry,2,68,68,lay5,
 418,s 5 sad,5,68,83,lay5,
 423,s 4,1,74,409,lay5,
 425,s 4 happy,0,,,,нет в сценах 68-75
 427,s 4 angry,1,73,339,lay5,
 429,s 4 sad,3,74,404,lay5,
+431,s 4 shy,15,24,953,lay5,ch1; block 423 pos 8; поза по пиксель-сверке id 431 (MAE 6.05)
 445,s 6,1,70,147,lay5,
 447,s 6 happy,1,68,48,lay5,
 449,s 6 angry,1,72,279,lay5,
 451,s 6 sad,10,68,30,lay5,s 6 sad — подтверждено эталоном ch1 (script-ch1_4.rpy)
+460,s 7 angry,1,15,436,lay5,ch1; block 456 pos 4; поза по пиксель-сверке id 456 (MAE 1.59)
 489,si 1,8,68,61,lay2,
+490,si 1,1,20,784,lay2,ch1; block 489; подтверждено script главы 1
 491,si 1 happy,1,68,45,lay2,
+493,si 1 angry,2,22,849,lay2,ch1; block 489 pos 4; поза по пиксель-сверке id 491 (MAE 1.03)
+494,si 1 angry,1,60,2785,lay2,ch1; block 489; подтверждено script главы 1
 495,si 1 sad,3,70,124,lay2,
 497,si 1 shy,1,68,55,lay2,
 522,si 4,1,70,151,lay2,
+524,si 4 happy,1,1017,3180,lay2,ch1; block 522 pos 2; поза по пиксель-сверке id 524 (MAE 1.07)
 528,si 4 sad,1,69,107,lay2,
+530,si 4 shy,11,20,794,lay2,ch1; block 522 pos 8; поза по пиксель-сверке id 524 (MAE 1.07)
+555,g 1,3,49,2320,lay4,ch1; block 555 pos 0; поза по пиксель-сверке id 563 (MAE 1.36)
+556,g 1,1,49,2325,lay4,ch1; block 555; подтверждено script главы 1
+557,g 1 happy,2,49,2342,lay4,ch1; block 555 pos 2; поза по пиксель-сверке id 563 (MAE 1.36)
+559,g 1 angry,2,49,2393,lay4,ch1; block 555 pos 4; поза по пиксель-сверке id 563 (MAE 1.36)
+561,g 1 sad,2,49,2382,lay4,ch1; block 555 pos 6; поза по пиксель-сверке id 563 (MAE 1.36)
+563,g 1 shy,1,59,2727,lay4,ch1; block 555 pos 8; поза по пиксель-сверке id 563 (MAE 1.36)
+566,g 2,2,54,2521,lay4,ch1; block 566 pos 0; поза по пиксель-сверке id 566 (MAE 1.32)
+568,g 2 happy,2,49,2407,lay4,ch1; block 566 pos 2; поза по пиксель-сверке id 566 (MAE 1.32)
+570,g 2 angry,1,57,2662,lay4,ch1; block 566 pos 4; поза по пиксель-сверке id 566 (MAE 1.32)
+574,g 2 shy,2,54,2476,lay4,ch1; block 566 pos 8; поза по пиксель-сверке id 566 (MAE 1.32)
 676,k 1,1,73,364,lay6,
+677,k 1,1,34,1416,lay6,ch1; block 676; подтверждено script главы 1
+678,k 1 happy,5,34,1382,lay6,ch1; block 676 pos 2; поза по пиксель-сверке id 676 (MAE 1.38)
+680,k 1 angry,3,46,2181,lay6,ch1; block 676 pos 4; поза по пиксель-сверке id 676 (MAE 1.38)
+682,k 1 sad,4,39,1659,lay6,ch1; block 676 pos 6; поза по пиксель-сверке id 676 (MAE 1.38)
+684,k 1 shy,2,1025,3519,lay6,ch1; block 676 pos 8; поза по пиксель-сверке id 676 (MAE 1.38)
+698,k 3,6,1245,4335,lay6,ch1; block 698 pos 0; поза по пиксель-сверке id 704 (MAE 0.99)
+700,k 3 happy,3,1245,4322,lay6,ch1; block 698 pos 2; поза по пиксель-сверке id 704 (MAE 0.99)
+702,k 3 angry,2,1245,4331,lay6,ch1; block 698 pos 4; поза по пиксель-сверке id 704 (MAE 0.99)
+706,k 3 shy,2,1247,4410,lay6,ch1; block 698 pos 8; поза по пиксель-сверке id 704 (MAE 0.99)
+709,k 4,2,46,2221,lay6,ch1; block 709 pos 0; поза по пиксель-сверке id 715 (MAE 1.03)
+711,k 4 happy,7,46,2228,lay6,ch1; block 709 pos 2; поза по пиксель-сверке id 715 (MAE 1.03)
+715,k 4 sad,1,46,2183,lay6,ch1; block 709 pos 6; поза по пиксель-сверке id 715 (MAE 1.03)
+717,k 4 shy,3,1024,3407,lay6,ch1; block 709 pos 8; поза по пиксель-сверке id 715 (MAE 1.03)
+852,m 1,16,20,740,lay3,ch1; block 852 pos 0; поза по пиксель-сверке id 856 (MAE 1.42)
+853,m 1,1,20,756,lay3,ch1; block 852; подтверждено script главы 1
+854,m 1 happy,5,49,2367,lay3,ch1; block 852 pos 2; поза по пиксель-сверке id 856 (MAE 1.42)
+856,m 1 angry,7,20,751,lay3,ch1; block 852 pos 4; поза по пиксель-сверке id 856 (MAE 1.42)
+858,m 1 sad,9,20,799,lay3,ch1; block 852 pos 6; поза по пиксель-сверке id 856 (MAE 1.42)
+860,m 1 shy,1,1237,4113,lay3,ch1; block 852 pos 8; поза по пиксель-сверке id 856 (MAE 1.42)
 874,m 3,1,72,247,lay3,
 880,m 3 sad,2,72,240,lay3,
+885,m 4,3,1235,4078,lay3,ch1; block 885 pos 0; поза по пиксель-сверке id 889 (MAE 1.45)
+887,m 4 happy,4,35,1461,lay3,ch1; block 885 pos 2; поза по пиксель-сверке id 889 (MAE 1.45)
+889,m 4 angry,4,22,857,lay3,ch1; block 885 pos 4; поза по пиксель-сверке id 889 (MAE 1.45)
+891,m 4 sad,4,21,834,lay3,ch1; block 885 pos 6; поза по пиксель-сверке id 889 (MAE 1.45)
+918,o 1,6,44,2068,lay10,ch1; block 918 pos 0; поза по пиксель-сверке id 920 (MAE 1.06)
+922,o 1 angry,2,44,2013,lay10,ch1; block 918 pos 4; поза по пиксель-сверке id 920 (MAE 1.06)
+924,o 1 sad,4,44,2114,lay10,ch1; block 918 pos 6; поза по пиксель-сверке id 920 (MAE 1.06)
 929,c 1,4,73,345,lay9,
 935,c 1 sad,1,73,378,lay9,
+940,d 1,6,10,186,lay19,ch1; block 940 pos 0; поза по пиксель-сверке id 940 (MAE 2.28)
+941,d 1,1,10,190,lay19,ch1; block 940 pos 1; поза по пиксель-сверке id 940 (MAE 2.28)
+942,d 1 happy,4,10,183,lay19,ch1; block 940 pos 2; поза по пиксель-сверке id 940 (MAE 2.28)
+944,d 1 angry,1,16,473,lay19,ch1; block 940 pos 4; поза по пиксель-сверке id 940 (MAE 2.28)
+946,d 1 sad,1,10,218,lay19,ch1; block 940 pos 6; поза по пиксель-сверке id 940 (MAE 2.28)
+948,d 1 shy,1,10,212,lay19,ch1; block 940 pos 8; поза по пиксель-сверке id 940 (MAE 2.28)
+951,ha 1,6,39,1618,lay7,ch1; block 951 pos 0; поза по пиксель-сверке id 953 (MAE 2.04)
+953,ha 1 happy,6,39,1602,lay7,ch1; block 951 pos 2; поза по пиксель-сверке id 953 (MAE 2.04)
+955,ha 1 angry,1,40,1750,lay7,ch1; block 951 pos 4; поза по пиксель-сверке id 953 (MAE 2.04)
+957,ha 1 sad,8,34,1366,lay7,ch1; block 951 pos 6; поза по пиксель-сверке id 953 (MAE 2.04)
+959,ha 1 shy,1,60,2774,lay7,ch1; block 951 pos 8; поза по пиксель-сверке id 953 (MAE 2.04)
+973,ha 3,1,1250,4489,lay7,ch1; block 973 pos 0; поза по пиксель-сверке id 977 (MAE 1.66)
+977,ha 3 angry,1,1253,4640,lay7,ch1; block 973 pos 4; поза по пиксель-сверке id 977 (MAE 1.66)
+979,ha 3 sad,4,1250,4507,lay7,ch1; block 973 pos 6; поза по пиксель-сверке id 977 (MAE 1.66)
+981,ha 3 shy,4,1250,4480,lay7,ch1; block 973 pos 8; поза по пиксель-сверке id 977 (MAE 1.66)
+984,ha 4,3,40,1748,lay7,ch1; block 984 pos 0; поза по пиксель-сверке id 988 (MAE 1.64)
+988,ha 4 angry,1,40,1731,lay7,ch1; block 984 pos 4; поза по пиксель-сверке id 988 (MAE 1.64)
+990,ha 4 sad,2,54,2480,lay7,ch1; block 984 pos 6; поза по пиксель-сверке id 988 (MAE 1.64)
+1105,mage,6,11,338,lay11,ch1; block 1105; подтверждено script главы 1
