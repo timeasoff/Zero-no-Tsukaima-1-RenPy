@@ -28,7 +28,6 @@
 # Python bytecode (tools/)
 __pycache__/
 *.pyc
-ps2_source/images
 
 #ignore big files
 /game/gui/
@@ -52,3 +51,12 @@ ps2_source/images
 /game/combined_rpy.md
 /agent_prompt.md
 /wav_source
+/unused_resourses
+
+# ps2_source/images: в git только каркас папок (.gitkeep), исходные картинки — нет
+/ps2_source/images/bg/*
+/ps2_source/images/cg/*
+/ps2_source/images/chara/*
+!/ps2_source/images/bg/.gitkeep
+!/ps2_source/images/cg/.gitkeep
+!/ps2_source/images/chara/.gitkeep
