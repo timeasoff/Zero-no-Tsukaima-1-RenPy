@@ -219,6 +219,9 @@ init -1 python:
     #  flash/fade, который вызывается уже в scene_fx после _commit().
     # -------------------------------------------------------------------------
     def _stage_sprites_instant(chars, mode="normal", side=None, center_front=None):
+        # [ЗАДАЧА 4] fade/dissolve сами управляют сценой — снимаем "ожидание
+        # полной замены", выставленное предыдущим show_sprites(None).
+        store._sprite_full_replace_pending = False
         if chars is None:
             return
 
@@ -315,6 +318,8 @@ init -1 python:
             if _state["done"]:
                 return
             _state["done"] = True
+            # [ЗАДАЧА 4] смена сцены эффектом прерывает "ожидание замены"
+            store._sprite_full_replace_pending = False
             if hide:
                 for tag in _all_hide_tags():
                     renpy.hide(tag)

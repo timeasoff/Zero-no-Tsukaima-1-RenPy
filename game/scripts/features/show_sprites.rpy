@@ -203,6 +203,11 @@ init -1 python:
 default _sprite_slots = {}
 default _sprite_z = 0
 
+# [ЗАДАЧА 4] Выставляется, когда show_sprites(None) снял всех без явной
+# анимации. Следующий show_sprites(...) трактует это как полную замену:
+# все новые въезжают слева, как будто старые только что уехали вправо.
+default _sprite_full_replace_pending = False
+
 define CHARA_TAGS = [
     "l", "s", "k", "t", "c", "h", "si", "ha", "g", "d", "o", "m",
     "npc_left", "npc_right", "mage",
@@ -240,10 +245,17 @@ define SLIDE_SHORT_DUR  = 0.22
 # персонажами (именно персонажи, а не смена эмоции у тех же). Тогда больше не
 # нужно каждый раз писать anim_in="slide_right", anim_out="slide_right".
 # Срабатывает ТОЛЬКО если вызывающий не указал анимацию явно.
-#   "slide_right" -> все уезжают вправо, новые въезжают справа-налево
+#   "slide_right" -> все уезжают вправо, новые въезжают слева-направо
 #   "slide_left"  -> то же, но влево
 #   "slide"       -> прежняя логика "в ближайшую сторону"
 #   None          -> ничего не навязывать (полностью старое поведение)
+#
+# [ЗАДАЧА 4] Сюда же относится и полное снятие всех: show_sprites(None) без
+# явной анимации по умолчанию уводит ВСЕХ вправо (а не в ближайшую сторону),
+# и следующий show_sprites(...) въезжает слева. Так пара
+#   $ show_sprites(None)
+#   $ show_sprites("l 4 angry")
+# читается как полная замена, без ручного anim_in/anim_out в каждом вызове.
 define FULL_REPLACE_ANIM = "slide_right"
 
 # =============================================================================
@@ -415,7 +427,17 @@ init -1 python:
             emote = EMOTION_ANIM
 
         if chars is None:
+            # [ЗАДАЧА 4] Полное снятие всех спрайтов — это тоже "полная замена".
+            # Если анимация не задана явно, уводим ВСЕХ вправо (а не каждого в
+            # ближайшую сторону) и помечаем, что следующий показ — замена.
+            # in_explicit/out_explicit сняты ДО подстановки значений по
+            # умолчанию, поэтому отражают именно явные аргументы вызывающего.
+            fully_default = (not in_explicit) and (not out_explicit)
+            if fully_default and FULL_REPLACE_ANIM is not None:
+                anim_out = FULL_REPLACE_ANIM
             _hide_all(anim_out)
+            store._sprite_full_replace_pending = fully_default \
+                and (FULL_REPLACE_ANIM is not None)
             return
 
         if isinstance(chars, str):
@@ -445,7 +467,12 @@ init -1 python:
         _full_replace = bool(_old_char_tags) and bool(_new_char_tags) \
                         and _old_char_tags.isdisjoint(_new_char_tags)
 
-        if _full_replace and FULL_REPLACE_ANIM is not None:
+        # [ЗАДАЧА 4] Замена через show_sprites(None): состояние уже очищено,
+        # поэтому _full_replace её не видит — берём флаг с прошлого вызова.
+        _pending = getattr(store, "_sprite_full_replace_pending", False)
+        store._sprite_full_replace_pending = False
+
+        if (_full_replace or _pending) and FULL_REPLACE_ANIM is not None:
             if not in_explicit:
                 anim_in = FULL_REPLACE_ANIM
             if not out_explicit:
