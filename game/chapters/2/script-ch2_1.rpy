@@ -338,7 +338,7 @@ label ch2:
     voice "ch2_l_021"
     l "Hmph, we were late because Saito wouldn't get out of the room quickly, right?"
 
-    $ show_sprites(("l 1 angry", "s 4 angry"))
+    $ show_sprites(("l 1 angry", "s 3 angry"))
     voice "ch2_s_028"
     s "It's my fault, huh!"
 
@@ -406,15 +406,15 @@ label ch2:
 
             $ update_sympathy(-10, char_key="louise")
 
-            $ show_sprites(("l 3 sad", "s 4 sad"))
+            $ show_sprites(("l 3 sad", "s 3 sad"))
             voice "ch2_s_032"
             s "I know that."
 
-            $ show_sprites(("l 1 angry", "s 4 sad"))
+            $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch2_l_026"
             l "Then don't say anything extra. Understood?"
 
-            $ show_sprites(("l 1 angry", "s 4"))
+            $ show_sprites(("l 1 angry", "s 3"))
             voice "ch2_s_033"
             s "Y-yes.{#h2}"
 
@@ -422,18 +422,18 @@ label ch2:
 
         "I'd like to eat breakfast":
             # ==== SCENE 75 ====
-            $ show_sprites(("l 1", "s 4 sad"))
+            $ show_sprites(("l 1", "s 3 sad"))
             voice "ch2_s_034"
             s "Besides, I'd like to eat breakfast."
 
-            $ show_sprites(("l 1 angry", "s 4 sad"))
+            $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch2_l_027"
             l "Huh?{#ssa}"
 
             voice "ch2_s_035"
             s "You see, between this and that, I never had time to eat breakfast after I woke up. I'm hungry, you know."
 
-            $ show_sprites(("l 3 angry", "s 4 sad"))
+            $ show_sprites(("l 3 angry", "s 3 sad"))
             voice "ch2_l_028"
             l "Hold out until lunch."
 
@@ -448,7 +448,7 @@ label ch2:
             voice "ch2_l_029"
             l "Aaah, fine. Behave yourself, or I'll skip your lunch too!"
 
-            $ show_sprites(("l 1 angry", "s 4 sad"))
+            $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch2_s_038"
             s "Y-yes.{#h3}"
 

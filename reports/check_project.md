@@ -6,9 +6,9 @@
 
 ## ERROR (3)
 
-- E7 jump 'ch2_3' at game/chapters/2/script-ch2_2.rpy:462 has no label
-- E7 jump 'ch2_3' at game/chapters/2/script-ch2_2.rpy:516 has no label
-- E7 jump 'ch2_3' at game/chapters/2/script-ch2_2.rpy:550 has no label
+- E7 jump 'ch2_3' at game/chapters/2/script-ch2_2.rpy:482 has no label
+- E7 jump 'ch2_3' at game/chapters/2/script-ch2_2.rpy:536 has no label
+- E7 jump 'ch2_3' at game/chapters/2/script-ch2_2.rpy:570 has no label
 
 ## WARNING (275)
 

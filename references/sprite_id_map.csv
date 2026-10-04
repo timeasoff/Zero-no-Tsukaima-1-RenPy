@@ -10,6 +10,9 @@
 #   Правило воспроизводит все 32 строки первичной карты (chapter_03).
 #   Подтверждено скриптом главы 1: 303->l 1, 336->l 3, 391->s 1, 490->si 1, 494->si 1 angry,
 #   556->g 1, 677->k 1, 853->m 1, 307->l 1 angry; 1105->mage (блок смешан со спрайтом npc 3).
+#   2026-10-04: блок 423 (Saito) переименован s 4 -> s 3. Пиксель-сверка SCENEDAT[id] с
+#   game/images/chara/**: лучший match — s 3 (MAE 0.0107-0.0119), поза «с мечом» (s 4) не
+#   подтверждается. Соответственно в главе 2 все "s 4" заменены на "s 3".
 # Колонки: sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 #   sprite_id  - K из [SPRITE layN image=+K]
 #   sprite_name- имя в ремастере: show_sprites("l 4 angry") / fade_fx(..., sprites=...)
@@ -47,11 +50,11 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 414,s 5 happy,1,33,1346,lay5,ch1; block 412 pos 2; поза по пиксель-сверке id 412 (MAE 7.99)
 416,s 5 angry,2,68,68,lay5,
 418,s 5 sad,5,68,83,lay5,
-423,s 4,1,74,409,lay5,
-425,s 4 happy,0,,,,нет в сценах 68-75
-427,s 4 angry,1,73,339,lay5,
-429,s 4 sad,3,74,404,lay5,
-431,s 4 shy,15,24,953,lay5,ch1; block 423 pos 8; поза по пиксель-сверке id 431 (MAE 6.05)
+423,s 3,1,74,409,lay5,block 423; pixel pose s 3 (MAE 0.0108 via id 423)
+425,s 3 happy,0,,,,block 423 pos 2; нет в сценах 68-75
+427,s 3 angry,1,73,339,lay5,block 423 pos 4; pixel pose s 3 (MAE 0.0107 via id 427)
+429,s 3 sad,3,74,404,lay5,block 423 pos 6; pixel pose s 3 (MAE 0.0107 via id 429)
+431,s 3 shy,15,24,953,lay5,ch1; block 423 pos 8; pixel pose s 3 (MAE 0.0119 via id 431)
 445,s 6,1,70,147,lay5,
 447,s 6 happy,1,68,48,lay5,
 449,s 6 angry,1,72,279,lay5,

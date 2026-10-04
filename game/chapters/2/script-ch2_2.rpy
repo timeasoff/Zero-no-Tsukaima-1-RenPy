@@ -36,11 +36,11 @@ label ch2_2:
             voice "ch2.2_l_001"
             l "Hm? What's the matter?"
 
-            $ show_sprites(("l 1", "s 4 happy"))
+            $ show_sprites(("l 1", "s 3 happy"))
             voice "ch2.2_s_002"
             s "Uh, listen, sorry, but I'm gonna skip out on class for a bit."
 
-            $ show_sprites(("l 1 angry", "s 4 happy"))
+            $ show_sprites(("l 1 angry", "s 3 happy"))
             voice "ch2.2_l_002"
             l "Wait, what are you saying? A familiar skipping his master's class—do you think that's allowed?"
 
@@ -49,7 +49,7 @@ label ch2_2:
             voice "ch2.2_s_003"
             s "Why not? If you look around, there are familiars who don't attend anyway."
 
-            $ show_sprites(("l 3 angry", "s 4 happy"))
+            $ show_sprites(("l 3 angry", "s 3 happy"))
             voice "ch2.2_l_003"
             l "That's for familiars who can't even enter the classroom. You're human, so stay put and keep quiet."
 
@@ -57,7 +57,7 @@ label ch2_2:
             voice "ch2.2_s_004"
             s "Okaaay."
 
-            $ show_sprites("s 4 sad")
+            $ show_sprites("s 3 sad")
             th "Still, I am worried. Maybe I'll go check on Haruna..."
 
             jump hallway_ch2_2
@@ -78,7 +78,7 @@ label ch2_2:
             $ show_sprites("s 1 sad")
             th "Nope, I still don't understand a thing. If I can't use magic, I just can't get interested."
 
-            $ show_sprites("s 4 sad")
+            $ show_sprites("s 3 sad")
             th "I'm still worried. Maybe I'll go check on Haruna..."
 
             jump hallway_ch2_2
@@ -87,25 +87,25 @@ label ch2_2:
             # ==== SCENE 80 ====
             th "I'm worried about Haruna, but I decided to leave it to Siesta, and skipping class would be wrong..."
 
-            $ show_sprites("s 4 sad")
+            $ show_sprites("s 3 sad")
             voice "ch2.2_s_006"
             s "Hmm, hmm..."
 
-            $ show_sprites(("l 1 sad", "s 4 sad"))
+            $ show_sprites(("l 1 sad", "s 3 sad"))
             voice "ch2.2_l_004"
             l "Hey, what's wrong? You've been groaning this whole time..."
 
             voice "ch2.2_s_007"
             s "Uh, listen, sorry, but I'm gonna skip out on class for a bit."
 
-            $ show_sprites(("l 1 angry", "s 4 sad"))
+            $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch2.2_l_005"
             l "Wait, what are you saying? A familiar skipping his master's class—do you think that's allowed?"
 
             voice "ch2.2_s_008"
             s "Why not? If you look around, there are familiars who don't attend anyway."
 
-            $ show_sprites(("l 3 angry", "s 4 sad"))
+            $ show_sprites(("l 3 angry", "s 3 sad"))
             voice "ch2.2_l_006"
             l "That's for familiars who can't even enter the classroom. You're human, so stay put and keep quiet."
 
@@ -113,7 +113,7 @@ label ch2_2:
             voice "ch2.2_s_009"
             s "Okaaay."
 
-            $ show_sprites("s 4 sad")
+            $ show_sprites("s 3 sad")
             th "Still, I am worried. Maybe I'll go check on Haruna..."
 
             jump hallway_ch2_2
@@ -121,7 +121,7 @@ label ch2_2:
 
 label hallway_ch2_2:
     # ==== SCENE 81 ====
-    $ show_sprites("s 4 happy", side="right")
+    $ show_sprites("s 3 happy", side="right")
     voice "ch2.2_s_010"
     s "Well then, that's how it is—I'll leave the rest to you."
 
@@ -155,13 +155,14 @@ label l_room_ch2_2:
     voice "ch2.2_ha_001"
     ha "Ah, Hiraga-kun!? W-wait a moment. I'll unlock the door now."
 
+    # дверь: Харуна открывает — open_door (slide + звук + смена фона), затем показ Харуны
     call open_door("right", "bg louise_room") from _call_open_door_6
-    $show_sprites("ha 3 shy")
+    $ show_sprites("ha 3 shy")
 
     voice "ch2.2_ha_002"
     ha "W-what is it? Weren't you in class?"
 
-    $ show_sprites(("ha 3 shy", "s 4 sad"))
+    $ show_sprites(("ha 3 shy", "s 3 sad"))
     voice "ch2.2_s_012"
     s "I came to see how you were... Are you okay? You're still flushed."
     voice "ch2.2_ha_003"
@@ -240,6 +241,7 @@ label l_room_ch2_2:
     voice "ch2.2_ha_017"
     ha "Hmm, is that so?"
 
+    # дверь: Сиеста стучит, затем открывает (звук) — до показа её спрайта
     play sound knock_door
     pause(1.0)
     voice "ch2.2_si_001"
@@ -255,11 +257,11 @@ label l_room_ch2_2:
     voice "ch2.2_si_003"
     si "Ah, don't tell me you were sneaking in for a night visit while I and Miss Valiere were away!?"
 
-    $ show_sprites(("si 4 angry", "s 4 sad"))
+    $ show_sprites(("si 4 angry", "s 3 sad"))
     voice "ch2.2_s_029"
     s "No, I'm not doing anything like that! Besides, it's not even night yet..."
 
-    $ show_sprites(("si 4 sad", "s 4 sad"))
+    $ show_sprites(("si 4 sad", "s 3 sad"))
     voice "ch2.2_si_004"
     si "Right, that's right... This is a bad dream... or an illusion. Just a nightmare, that's it! It has to be!"
     voice "ch2.2_s_030"
@@ -272,7 +274,7 @@ label l_room_ch2_2:
             voice "ch2.2_s_031"
             s "I was worried about Haruna, so... I just kind of drifted over here."
 
-            $ show_sprites(("si 4", "s 4 sad"))
+            $ show_sprites(("si 4", "s 3 sad"))
             voice "ch2.2_si_005"
             si "Hmm... is that so."
 
@@ -300,11 +302,11 @@ label l_room_ch2_2:
             voice "ch2.2_si_007"
             si "Just the two of you... In a room where no one's watching, just the two of you..."
 
-            $ show_sprites(("si 4 sad", "s 4 sad"))
+            $ show_sprites(("si 4 sad", "s 3 sad"))
             voice "ch2.2_s_033"
             s "Siesta? Listen, I really haven't done anything shameful, okay? I even have a witness."
 
-            $ show_sprites(("si 1 sad", "s 4 sad"))
+            $ show_sprites(("si 1 sad", "s 3 sad"))
             voice "ch2.2_si_008"
             si "A witness? Who? Don't tell me it's Haruna-san..."
 
@@ -316,11 +318,11 @@ label l_room_ch2_2:
 
         "I came to pick up something I forgot":
             # ==== SCENE 84 ====
-            $ show_sprites(("si 4 sad", "s 4 happy"))
+            $ show_sprites(("si 4 sad", "s 3 happy"))
             voice "ch2.2_s_035"
             s "I came to pick up something I forgot."
 
-            $ show_sprites(("si 1 sad", "s 4 happy"))
+            $ show_sprites(("si 1 sad", "s 3 happy"))
             voice "ch2.2_si_009"
             si "Something you forgot? Did Miss Valiere forget something?"
             voice "ch2.2_s_036"
@@ -358,11 +360,11 @@ label derf_ch2_2:
     voice "ch2.2_d_004"
     d "You'd think he'd at least get in the mood... Honestly, you've got no guts, partner."
 
-    $ show_sprites(("si 1", "s 4 angry"))
+    $ show_sprites(("si 1", "s 3 angry"))
     voice "ch2.2_s_039"
     s "'No guts' was uncalled for. ...Anyway, that's how it is. You get it?"
 
-    $ show_sprites(("si 1 happy", "s 4 angry"))
+    $ show_sprites(("si 1 happy", "s 3 angry"))
     voice "ch2.2_si_012"
     si "Yes. I'm sorry for doubting you."
 
@@ -394,9 +396,10 @@ label derf_ch2_2:
     voice "ch2.2_si_015"
     si "Yes, Saito-san."
 
+    # дверь: Сайто уходит от Харуны — open_door
     call open_door("left") from _call_open_door_7
 
-    $ fade_fx("hallway", sprites="s 4 sad")
+    $ fade_fx("hallway", sprites="s 3 sad")
     th "I ended up taking quite a while. This might be more than just skipping a meal."
 
     jump back_class_ch2_2
@@ -428,11 +431,11 @@ label back_class_ch2_2:
     menu:
         "I went to check on Haruna":
             # ==== SCENE 87 ====
-            $ show_sprites(("l 3 angry", "s 4 happy"))
+            $ show_sprites(("l 3 angry", "s 3 happy"))
             voice "ch2.2_s_046"
             s "I went to see how Haruna was doing."
 
-            $ show_sprites(("l 1 angry", "s 4 happy"))
+            $ show_sprites(("l 1 angry", "s 3 happy"))
             voice "ch2.2_l_012"
             l "...Excuse me?"
 
@@ -446,21 +449,21 @@ label back_class_ch2_2:
             voice "ch2.2_l_013"
             l "Hmm... You were that worried about her."
 
-            $ show_sprites(("l 1 angry", "s 4"))
+            $ show_sprites(("l 1 angry", "s 3"))
             voice "ch2.2_s_049"
             s "Anyway, just as we were talking, Siesta came to check on her too, so I figured it was fine and came back."
 
-            $ show_sprites(("l 1 sad", "s 4"))
+            $ show_sprites(("l 1 sad", "s 3"))
             voice "ch2.2_l_014"
             l "...#dots"
             voice "ch2.2_s_050"
             s "Huh, what's wrong, Louise? You suddenly went quiet."
 
-            $ show_sprites(("l 3 angry", "s 4"))
+            $ show_sprites(("l 3 angry", "s 3"))
             voice "ch2.2_l_015"
             l "You... you flirt!"
 
-            $ hit_fx(sprites=("l 3 angry", "s 4 sad"))
+            $ hit_fx(sprites=("l 3 angry", "s 3 sad"))
             voice "ch2.2_s_051"
             s "Gwoooh! My head is splitting!"
             voice "ch2.2_l_016"
@@ -512,11 +515,11 @@ label back_class_ch2_2:
 
             $ update_sympathy(10, char_key="louise")
 
-            $ show_sprites(("l 3 shy", "s 4 happy"))
+            $ show_sprites(("l 3 shy", "s 3 happy"))
             voice "ch2.2_s_057"
             s "So with that, relax and focus on class."
 
-            $ show_sprites(("l 3", "s 4 happy"))
+            $ show_sprites(("l 3", "s 3 happy"))
             voice "ch2.2_l_022"
             l "Yeah, yeah. I'll focus properly even without being told!"
 
@@ -542,7 +545,7 @@ label back_class_ch2_2:
             voice "ch2.2_l_024"
             l "Huh? The toilet...? Oh, honestly! Then just say so, you idiot!"
 
-            $ show_sprites(("l 3", "s 4 sad"))
+            $ show_sprites(("l 3", "s 3 sad"))
             voice "ch2.2_s_059"
             s "Ehh. Is that the kind of thing you have to announce every single time?"
             voice "ch2.2_l_025"
@@ -552,7 +555,7 @@ label back_class_ch2_2:
             voice "ch2.2_s_060"
             s "Yeah.{#un2}"
 
-            $ show_sprites(("l 3 sad", "s 4 sad"))
+            $ show_sprites(("l 3 sad", "s 3 sad"))
             voice "ch2.2_l_027"
             l "Then behave yourself for the rest of class. Understood?"
 
