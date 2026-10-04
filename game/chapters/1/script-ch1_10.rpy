@@ -16,8 +16,9 @@ label ch1_10:
         {"char": "haruna",   "text": "Go on a date with Haruna",     "target": "date_haruna_1"},
     ])
 
-    jump attention
-
+    $ fade_fx("black")
+    stop music fadeout 1.0
+    jump ch2 
     return
 
 label date_louise_1:
@@ -162,7 +163,8 @@ label date_louise_1:
         voice "ch1.10_s_011"
         s "Ah... yeah."
 
-        call open_door("right") from _call_open_door
+        call open_door("right", "hallway") from _call_open_door
+        $ show_sprites(("s 1 sad"))
 
         th "Did I say something wrong...?"  
 

@@ -4,6 +4,9 @@ label ch2:
     call overlay_screen("overlay",  "Chapter Two: 'The Black-Haired Visitor'", isUseBlur=False, text_mode="black") from _call_overlay_screen_7
     pause(2)
 
+
+     # звук птиц
+
     # ==== SCENE 68 ====
     $ fade_fx("sky", new_music="t4")
 
@@ -328,7 +331,7 @@ label ch2:
     th "Honestly, minding other people's eyes... What's wrong with Louise today?"
 
     # ==== SCENE 73 ====
-    $ fade_fx("classroom", new_music="t31", sprites=("l 1 angry", "s 4 angry"))
+    $ fade_fx("classroom", new_music="t31", sprites=("l 1 angry", "s 3 angry"))
     voice "ch2_s_027"
     s "In the end, we were late after all."
 

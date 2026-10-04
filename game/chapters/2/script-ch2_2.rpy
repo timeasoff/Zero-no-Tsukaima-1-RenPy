@@ -126,7 +126,9 @@ label hallway_ch2_2:
     s "Well then, that's how it is—I'll leave the rest to you."
 
     $ show_sprites(None)
-    $ fade_fx("hallway_down")
+
+    ## как будто тут логичнее оставить сцену, а не делать hallway_down. РЕШЕНИЕ ПОЛЬЗОВАТЕЛЯ
+    ##$ fade_fx("hallway_down")
 
     voice "ch2.2_l_007"
     l "'Leave it to you' nothing! Ah, hey!"
@@ -134,6 +136,10 @@ label hallway_ch2_2:
     c "Hm? Is something the matter, Miss Valiere?"
     voice "ch2.2_l_008"
     l "Ah, no, it's nothing. M-my stupid familiar just said something about the toilet, ohohoho."
+
+    ## а тут черный экран
+    stop music fadeout 1.0
+    $ fade_fx("black")
 
     th "I've got a feeling I'm in for quite a scolding when I get back..."
 
@@ -149,7 +155,9 @@ label l_room_ch2_2:
     voice "ch2.2_ha_001"
     ha "Ah, Hiraga-kun!? W-wait a moment. I'll unlock the door now."
 
-    $ fade_fx("louise_room", sprites="ha 3 shy")
+    call open_door("right", "bg louise_room") from _call_open_door_6
+    $show_sprites("ha 3 shy")
+
     voice "ch2.2_ha_002"
     ha "W-what is it? Weren't you in class?"
 
@@ -231,8 +239,13 @@ label l_room_ch2_2:
     s "N-no, that's not true. It just happened. Yeah, it just happened to look that way."
     voice "ch2.2_ha_017"
     ha "Hmm, is that so?"
+
+    play sound knock_door
+    pause(1.0)
     voice "ch2.2_si_001"
     si "Excuse me."
+
+    play sound open_door
 
     $ fade_fx("louise_room", new_music="t29", sprites="si 1 angry")
     voice "ch2.2_si_002"
@@ -264,6 +277,8 @@ label l_room_ch2_2:
             si "Hmm... is that so."
 
             $ update_sympathy(-10, char_key="siesta")
+            $ update_sympathy(-10, char_key="louise")
+
 
             $ show_sprites("ha 3 shy")
             voice "ch2.2_ha_018"
@@ -379,7 +394,8 @@ label derf_ch2_2:
     voice "ch2.2_si_015"
     si "Yes, Saito-san."
 
-    $ show_sprites(None)
+    call open_door("left") from _call_open_door_7
+
     $ fade_fx("hallway", sprites="s 4 sad")
     th "I ended up taking quite a while. This might be more than just skipping a meal."
 
@@ -388,7 +404,8 @@ label derf_ch2_2:
 
 label back_class_ch2_2:
     # ==== SCENE 86 ====
-    $ fade_fx("classroom", new_music="t31", sprites="s 1")
+    $ fade_fx("classroom", new_music="t31")
+    $ show_sprites("s 1")
 
     th "Looks like Professor Colbert's class is still going. Maybe I'll slip in quietly..."
     th "Quietly... quietly..."

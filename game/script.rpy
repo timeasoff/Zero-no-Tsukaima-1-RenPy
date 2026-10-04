@@ -15,3 +15,5 @@ label splashscreen:
 
 label start:
     jump ch0
+    jump attention
+    return
