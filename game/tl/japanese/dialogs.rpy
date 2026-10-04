@@ -3663,3 +3663,389 @@ translate japanese strings:
 
     old "Y-yes.{#h3}"
     new "へーい。"
+
+translate japanese strings:
+
+    old "Now then, let's begin today's lesson. Hmm, now where was it we left off last time?"
+    new "さて、それでは授業を始めよう。ええと、前回はどこまで話したのかな。"
+
+    old "Ah yes, it was the review of the general theory of the four attributes..."
+    new "ああそうだ、４つの属性についての概論の復習について……だったね。"
+
+    old "Today, then, let me explain each attribute in a little more detail."
+    new "では今日は、それぞれの属性について、もう少し詳しく説明しよう。"
+
+    old "You all surely know your own attribute from experience, but it is important to grasp each attribute properly."
+    new "きみ達も、自分の属性については経験からそれなりに知っていることだろうが、それぞれの属性をきちんと把握することは重要です。"
+
+    old "As expected, everyone's taking the lesson seriously. I don't see anyone fooling around."
+    new "さすがに、みんな熱心に授業を受けてるなあ。遊んでる奴は見かけないぞ。"
+
+    old "Hm? What's the matter?"
+    new "ん？なに、どうしたの。"
+
+    old "Uh, listen, sorry, but I'm gonna skip out on class for a bit."
+    new "いやその、悪いんだけどさ、俺、ちょっと授業を抜けるわ。"
+
+    old "Wait, what are you saying? A familiar skipping his master's class—do you think that's allowed?"
+    new "ちょっと、なに言ってるのよ。使い魔がご主人様の授業を抜け出すなんて、許されると思ってるわけ？"
+
+    old "Why not? If you look around, there are familiars who don't attend anyway."
+    new "いいじゃん。良く見れば出席してない使い魔だっているんだし。"
+
+    old "That's for familiars who can't even enter the classroom. You're human, so stay put and keep quiet."
+    new "それは教室に入れない使い魔の場合でしょ。あんたは人間なんだから、黙ってそこにいなさい。"
+
+    old "Okaaay."
+    new "はーい。"
+
+    old "Yes—what people often do is let themselves be trapped by the image a word carries, and narrow the diversity of an attribute themselves..."
+    new "そう、往々にしてやってしまうのが、言葉が持つイメージにとらわれ、属性の持つ多様性を自ら狭める行為であり……。"
+
+    old "Hmm, hmm..."
+    new "うーん、うーん……。"
+
+    old "Hey, what's wrong? You've been groaning this whole time..."
+    new "ちょっと、どうしたの？さっきからうなってばっかりで……。"
+
+    old "Well then, that's how it is—I'll leave the rest to you."
+    new "じゃ、そういうことで、後よろしく。"
+
+    old "'Leave it to you' nothing! Ah, hey!"
+    new "よろしくじゃないわよ。あ、こら！"
+
+    old "Hm? Is something the matter, Miss Valiere?"
+    new "ん？どうかしたかね、ミス・ヴァリエール？"
+
+    old "Ah, no, it's nothing. M-my stupid familiar just said something about the toilet, ohohoho."
+    new "あ、いえ、なんでもありません。ちょ、ちょっとバカの使い魔がトイレとか申しまして、おほほほほ。"
+
+    old "Haruna? It's me, Saito..."
+    new "春奈？俺、才人だけど……。"
+
+    old "Ah, Hiraga-kun!? W-wait a moment. I'll unlock the door now."
+    new "あ、平賀くん！？ちょ、ちょっと待って。今、鍵を開けるね。"
+
+    old "W-what is it? Weren't you in class?"
+    new "ど、どうしたの？授業中じゃなかったの？"
+
+    old "I came to see how you were... Are you okay? You're still flushed."
+    new "ちょっと様子を見に来たんだけど……。大丈夫か？まだ顔が赤いぞ。"
+
+    old "Ah, ah... yeah. I'm sorry. I still seem to be unwell."
+    new "あ、あー……うん。ごめんなさい。まだ、具合が悪いみたい。"
+
+    old "That's not good, you need to rest properly. Though I'm the one who woke you. Sorry."
+    new "そりゃまずいよ、ちゃんと寝てなきゃ。って、俺が起こしちまったんだよな。ごめんな。"
+
+    old "Ah, no. It's not like that."
+    new "あ、ううん。そんなことないよ。"
+
+    old "Never mind, get back in bed. You need to rest quietly."
+    new "いいからベッドに戻って。おとなしく寝てなきゃ。"
+
+    old "O-okay."
+    new "う、うん。"
+
+    old "Uh, let's see... the water's in the basin. A towel, a towel..."
+    new "え、と……水は洗面器にあるな。タオル、タオル……。"
+
+    old "Here, does cooling your forehead with the towel make it a bit better?"
+    new "ほら、タオルで額を冷やせば少しは楽か？"
+
+    old "Yeah... thank you, Hiraga-kun."
+    new "うん……ありがとう、平賀くん。"
+
+    old "It's nothing. It's about all I can do, though."
+    new "なあに。これくらいしかできないけどな。"
+
+    old "Hey, Hiraga-kun..."
+    new "ねぇ、平賀くん……。"
+
+    old "Huh?{#un}"
+    new "うん？"
+
+    old "Is it true that you're a familiar, Hiraga-kun? The same as that dragon-like monster."
+    new "平賀くんが、使い魔って本当なの？あのドラゴンみたいな魔物と同じ。"
+
+    old "Hmm. Well, that's a long story, but for now I'm Louise's familiar."
+    new "んー。まあ、そのへんについては話せば長くなるけど、今はルイズの使い魔なんだ。"
+
+    old "Well, even if I'm a familiar, I do laundry, cleaning... I guess I'm kind of like a maid?"
+    new "まぁ、使い魔とは言っても、洗濯したり、掃除したり……、まぁ、メイドさんみたいなもんかな？"
+
+    old "Louise-san's... maid?"
+    new "ルイズさんの……メイド？"
+
+    old "N-no... S-sometimes I fight with a sword too. Really only occasionally... though."
+    new "い、いや……。た、たまには剣で戦ったりもしてるぞ。本当にたまに……だけど。"
+
+    old "Fighting..."
+    new "戦い……。"
+
+    old "There have been some dangerous moments, though..."
+    new "危険なことは何度かあったけど……。"
+
+    old "Even so, in this world I know nothing about, she's been keeping me alive, so... I guess she really is my master."
+    new "それでも、この見ず知らずの世界で、俺を養ってくれてるんだから、ま、俺のご主人様には間違いないよな。"
+
+    old "Hey... Hiraga-kun."
+    new "ねぇ……平賀くん。"
+
+    old "Can I tell you something weird?"
+    new "変な話をするけどいいかな？"
+
+    old "Something weird? Well, sure..."
+    new "変な話？まぁ、いいけど……。"
+
+    old "You know, in this world you seem to be having a lot of fun surrounded by girls. It's a little... lonely."
+    new "平賀くんって、こっちの世界では、女の子に囲まれてずいぶんと楽しそうだね。ちょっと……寂しいな。"
+
+    old "What!?"
+    new "いいっ！？"
+
+    old "No, really, it's not that much fun at all. I mean it."
+    new "いや、別に、そんなに楽しいことなんて、全然ないってば。ホントデスヨ。"
+
+    old "Is that so?{#haru}"
+    new "そうなの？"
+
+    old "You don't seem to mind Louise-san at all, and you looked pretty close with that Siesta-san too."
+    new "ルイズさんとはまんざらでもなさそうだし、あのシエスタさんともずいぶん仲良さそうだったけど。"
+
+    old "Somehow, I started feeling lonely, wondering if you'd end up becoming a person of this world."
+    new "なんか、平賀くんってこの世界の人になっちゃうのかなぁって寂しくなっちゃった。"
+
+    old "N-no, that's not true. It just happened. Yeah, it just happened to look that way."
+    new "そ、そんなことないって。たまたま。そう、たまたまそう見えるだけ。"
+
+    old "Hmm, is that so?"
+    new "ふうん、そうなの？"
+
+    old "Excuse me."
+    new "失礼します。"
+
+    old "Haruna-san, how are you feeling? W-wait, why on earth is Saito-san here!?"
+    new "ハルナさん、お加減はどうですか？って、な……なんでサイトさんがここにいらっしゃるんですかあっ？"
+
+    old "Ah, don't tell me you were sneaking in for a night visit while I and Miss Valiere were away!?"
+    new "はっ、まさか、わたしやミス・ヴァリエールのいない隙に夜這いを敢行！？"
+
+    old "No, I'm not doing anything like that! Besides, it's not even night yet..."
+    new "いや、そんなことしてないから！それに、まだ夜じゃないし……。"
+
+    old "Right, that's right... This is a bad dream... or an illusion. Just a nightmare, that's it! It has to be!"
+    new "そう、そうよ……これは悪い夢……もしくは幻。ただの悪夢、そうよ！そうに決まってるわ！"
+
+    old "Well, you see..."
+    new "いやあ、その……。"
+
+    old "I was worried about Haruna, so... I just kind of drifted over here."
+    new "春奈の様子が気になってさ……。それで、ついふらふらーっと。"
+
+    old "Hmm... is that so."
+    new "ふうん……そうなんですか。"
+
+    old "Skipping class, just the two of you..."
+    new "授業を抜け出して、２人きり……。"
+
+    old "Uh, um, Siesta?"
+    new "いや、あの、シエスタ？"
+
+    old "Um, Hiraga-kun came because he was worried about me. There's nothing wrong with..."
+    new "あの、平賀くんは、私のことを心配して来てくれたんです。なにもいけないことは……。"
+
+    old "Just the two of you... In a room where no one's watching, just the two of you..."
+    new "２人きり……。誰も見てない部屋で、２人きり……。"
+
+    old "Siesta? Listen, I really haven't done anything shameful, okay? I even have a witness."
+    new "シエスタ？あの俺、本当にやましいことはしてないって？証人もいるし。"
+
+    old "A witness? Who? Don't tell me it's Haruna-san..."
+    new "証人？誰ですか？ハルナさん……とか言いませんよね？"
+
+    old "No, this one."
+    new "いや、こいつ。"
+
+    old "I came to pick up something I forgot."
+    new "忘れ物をしたんで、取りに来た。"
+
+    old "Something you forgot? Did Miss Valiere forget something?"
+    new "忘れ物？ミス・ヴァリエールがなにか忘れたんですか？"
+
+    old "Ah, no, I forgot it."
+    new "あ、いや、俺が忘れたんだよ。"
+
+    old "You did, Saito-san? What exactly?"
+    new "サイトさんが、ですか？一体、何を？"
+
+    old "Uh... this one."
+    new "えーと……こいつ。"
+
+    old "Whoa whoa whoa, you're throwing this at me right away!?"
+    new "おいおいおい、いきなり俺に振るのかよ！"
+
+    old "Hey, Derflinger. I just came back to the room and was talking with Haruna, right?"
+    new "なあ、デルフリンガー。俺、ただ部屋に戻って来て、春奈と話してただけだよな？"
+
+    old "Relax, partner here really was just talking. He didn't do anything shady."
+    new "安心しな、相棒はホントに話してただけさ。別にやましいことなんてしちゃいねぇ。"
+
+    old "Is that so? I'm relieved..."
+    new "そうなんですか。安心しました……。"
+
+    old "Really, really. You finally had the room to yourselves, and one of you was even in bed."
+    new "ホント、ホント。せっかく部屋に２人きり、しかも片方はベッドで寝てるんだ。"
+
+    old "You'd think he'd at least get in the mood... Honestly, you've got no guts, partner."
+    new "ちっとはその気になりそうなもんだけど……。まったく、甲斐性がねえなぁ、相棒。"
+
+    old "'No guts' was uncalled for. ...Anyway, that's how it is. You get it?"
+    new "甲斐性がないは余計だ。……とにかく、そういうことなんだ。分かってくれた？"
+
+    old "Yes. I'm sorry for doubting you."
+    new "はい。疑ったりして、すみませんでした。"
+
+    old "Ah, no no, as long as you understand."
+    new "あっいやいや、分かってくれれば。"
+
+    old "But if you don't get back to class soon, Miss Valiere will be furious, you know?"
+    new "でも、早く授業に戻らないと、ミス・ヴァリエールがお怒りになりますよ？"
+
+    old "Ugh. Y-you're right."
+    new "う。た、確かに。"
+
+    old "I'll keep an eye on Haruna-san, so please go back to class, Saito-san."
+    new "ハルナさんはわたしが見ておきますので、サイトさんは、授業にお戻りください。"
+
+    old "R-right. Well, I'd better get going."
+    new "そ、そうだな。じゃ、そろそろ行くな。"
+
+    old "Hiraga-kun, thank you."
+    new "平賀くん、ありがとう。"
+
+    old "It's nothing. Well then, take care of things, Siesta!"
+    new "どうってことないって。それじゃ、シエスタよろしくな！"
+
+    old "Yes, Saito-san."
+    new "はい、サイトさん。"
+
+    old "Well, look who's back so soon!"
+    new "あら、ずいぶんお早いお戻りね！"
+
+    old "...Ah, yeah."
+    new "……あ、うん。"
+
+    old "And just what errand did you go out for?"
+    new "いったい何の用事で出かけたのかしら？"
+
+    old "Leaving your master behind and skipping class on your own—it must have been a terribly important errand, hmm?"
+    new "ご主人様を置いて、勝手に授業を抜け出したからには、さぞかし重要な用件なんでしょうね？"
+
+    old "Ahaha, well, that's..."
+    new "あはは、それは……、"
+
+    old "I went to see how Haruna was doing."
+    new "春奈の様子を見に行ってたんだ。"
+
+    old "...Excuse me?"
+    new "……はい？"
+
+    old "It's rough being sick and stuck in bed all alone, isn't it?"
+    new "体調を崩して１人で寝てるのって、辛いもんだろ？"
+
+    old "Well, I can't really nurse anyone, but I thought at least being there might put her at ease."
+    new "まあ、俺じゃ看病なんてろくにできないけど、そばにいて安心させることくらいはできるかなーって思って。"
+
+    old "Hmm... You were that worried about her."
+    new "ふうん……。そんなに心配だったの。"
+
+    old "Anyway, just as we were talking, Siesta came to check on her too, so I figured it was fine and came back."
+    new "ま、ちょっと話をしたあたりで、シエスタも様子を見に来てくれたんで、俺はいいかなーって戻ってきたんだ。"
+
+    old "Huh, what's wrong, Louise? You suddenly went quiet."
+    new "ん、どうしたんだルイズ？急に黙り込んだりして。"
+
+    old "You... you flirt!"
+    new "この……お調子者っ！"
+
+    old "Gwoooh! My head is splitting!"
+    new "ぐおおっ！頭が割れるように痛い！"
+
+    old "You start flirting with any girl you see—have some decency! Decency!"
+    new "どんな女の子でもすぐにいちゃいちゃするんだから、節操を持ちなさい！節操を！"
+
+    old "Ugh... My master, have mercy..."
+    new "うぐぁ……。ご主人様、お慈悲をーー。"
+
+    old "Ah, Miss Valiere. Disciplining your familiar is all well and good, but class is in session. Quiet down."
+    new "あー、ミス・ヴァリエール。使い魔の教育も結構だが、今は授業中です。静かにしなさい。"
+
+    old "Yes, I'm sorry..."
+    new "はい、すみません……。"
+
+    old "I went to get Derflinger."
+    new "デルフリンガーを取りに行ってたんだ。"
+
+    old "Huh? Derflinger?"
+    new "は？デルフリンガー？"
+
+    old "Yeah, that's right. Here."
+    new "うん、そう。ほら。"
+
+    old "Partner here just left me lying around, y'know. I was so lonely I was about to start singing to myself."
+    new "相棒ってば俺のこと放ったらかしでよー。なんか俺、寂しさのあまり１人で歌でも歌おうかと思ってたくらいだわ。"
+
+    old "No, please don't. I don't want rumors that suspicious singing is coming from my room."
+    new "いや、それはやめて。わたしの部屋から怪しい歌が聞こえてくるなんて噂が立つのはごめんだわ。"
+
+    old "But why? Derflinger has nothing to do with class."
+    new "でも、どうして？デルフリンガーは授業に関係ないでしょ。"
+
+    old "You never know whether it's related or not, right?"
+    new "関係ないかどうかは分からないだろ？"
+
+    old "An enemy could show up out of nowhere. If that happens and I'm unarmed, I'd be useless, wouldn't I?"
+    new "いきなり敵が現れる場合もあるわけだし、万一そんな事態になってみろ。丸腰だと、俺ってば役立たずだろ？"
+
+    old "H-heh. For you, that's a rather admirable attitude. I suppose I'll give you some credit."
+    new "ふ、ふーん。あんたにしては、殊勝な心がけじゃないの。一応、褒めてあげるわ。"
+
+    old "So with that, relax and focus on class."
+    new "というわけで、安心して授業に専念してくれ。"
+
+    old "Yeah, yeah. I'll focus properly even without being told!"
+    new "はいはい。言われなくてもちゃんと専念するわ！"
+
+    old "Miss Valiere? Are you listening to me?"
+    new "ミス・ヴァリエール？話を聞いてるかね？"
+
+    old "Ah, yes. I'm listening."
+    new "あ、はい。聞いてます。"
+
+    old "Hmm. Then it's fine."
+    new "ふむ。ならば良いのだが。"
+
+    old "I was in the toilet."
+    new "トイレに行ってた。"
+
+    old "Huh? The toilet...? Oh, honestly! Then just say so, you idiot!"
+    new "は？トイレ……って、もおっ！それならそうと言いなさいよ、この馬鹿っ。"
+
+    old "Ehh. Is that the kind of thing you have to announce every single time?"
+    new "えー。そういうのって、いちいち言うものなのかあ？"
+
+    old "I'm saying that disappearing without a word is the problem!"
+    new "黙っていなくなる方が問題だって言ってるの！"
+
+    old "A-anyway, you've taken care of your business now, right?"
+    new "とっ、とにかく、用事はもう済んだわけよね？"
+
+    old "Yeah.{#un2}"
+    new "うん。"
+
+    old "Then behave yourself for the rest of class. Understood?"
+    new "だったら、残りの授業はおとなしくしてなさい。いいわね？"
+
+    old "...#dots"
+    new "……。"

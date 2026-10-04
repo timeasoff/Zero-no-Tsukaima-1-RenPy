@@ -233,3 +233,29 @@ translate japanese strings:
     old "I'd like to eat breakfast"
     new "朝食食べたいんだけど"
 
+
+translate japanese strings:
+
+    old "Going back to my room"
+    new "部屋に戻る"
+
+    old "Not going back to my room"
+    new "部屋に戻らない"
+
+    old "What should I do..."
+    new "どうしよう……"
+
+    old "I was worried about Haruna"
+    new "春奈の様子が気になって"
+
+    old "I came to pick up something I forgot"
+    new "忘れ物をしたんで、取りに来た"
+
+    old "I went to check on Haruna"
+    new "春奈の様子を見に行ってた"
+
+    old "I went to get Derflinger"
+    new "デルフリンガーを取りに行ってた"
+
+    old "I went to the toilet"
+    new "トイレに行ってた"

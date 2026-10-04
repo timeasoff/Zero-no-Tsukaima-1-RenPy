@@ -3669,3 +3669,389 @@ translate russian strings:
 
     old "Y-yes.{#h3}"
     new "Есть!"
+
+translate russian strings:
+
+    old "Now then, let's begin today's lesson. Hmm, now where was it we left off last time?"
+    new "Что ж, тогда начнём сегодняшний урок. Хм, на чём же мы остановились в прошлый раз?"
+
+    old "Ah yes, it was the review of the general theory of the four attributes..."
+    new "Ах да, это был повтор общей теории четырёх стихий…"
+
+    old "Today, then, let me explain each attribute in a little more detail."
+    new "Тогда сегодня я расскажу о каждой стихии чуть подробнее."
+
+    old "You all surely know your own attribute from experience, but it is important to grasp each attribute properly."
+    new "Вы, конечно, и сами знаете свою стихию по опыту, но важно правильно понимать каждую из них."
+
+    old "As expected, everyone's taking the lesson seriously. I don't see anyone fooling around."
+    new "Всё-таки все усердно слушают урок. Не видно, чтобы кто-то бездельничал."
+
+    old "Hm? What's the matter?"
+    new "М? Что такое?"
+
+    old "Uh, listen, sorry, but I'm gonna skip out on class for a bit."
+    new "Слушай, извини, но я ненадолго сбегу с урока."
+
+    old "Wait, what are you saying? A familiar skipping his master's class—do you think that's allowed?"
+    new "Погоди, что ты говоришь? Думаешь, фамильяру позволено пропускать урок своей госпожи?"
+
+    old "Why not? If you look around, there are familiars who don't attend anyway."
+    new "Ну и что? Если присмотреться, есть же фамильяры, которые вообще не ходят."
+
+    old "That's for familiars who can't even enter the classroom. You're human, so stay put and keep quiet."
+    new "Это про фамильяров, которые вообще не могут войти в класс. Ты человек, так что сиди тихо."
+
+    old "Okaaay."
+    new "Ладно-о."
+
+    old "Yes—what people often do is let themselves be trapped by the image a word carries, and narrow the diversity of an attribute themselves..."
+    new "Да, чаще всего люди сами попадают в ловушку образа, который несёт слово, и сами сужают многообразие стихии…"
+
+    old "Hmm, hmm..."
+    new "Хм, хм…"
+
+    old "Hey, what's wrong? You've been groaning this whole time..."
+    new "Эй, что с тобой? Ты всё это время только мычишь…"
+
+    old "Well then, that's how it is—I'll leave the rest to you."
+    new "Ну, раз так, дальше я на тебя полагаюсь."
+
+    old "'Leave it to you' nothing! Ah, hey!"
+    new "Никакое не «полагаюсь»! Ах, постой!"
+
+    old "Hm? Is something the matter, Miss Valiere?"
+    new "М? Что-то случилось, мадемуазель Вальер?"
+
+    old "Ah, no, it's nothing. M-my stupid familiar just said something about the toilet, ohohoho."
+    new "А, нет, ничего. П-просто мой глупый фамильяр сказал, что ему в туалет, охохохо."
+
+    old "Haruna? It's me, Saito..."
+    new "Харуна? Это я, Сайто…"
+
+    old "Ah, Hiraga-kun!? W-wait a moment. I'll unlock the door now."
+    new "А, Хирага-кун!? П-погоди минутку. Сейчас открою дверь."
+
+    old "W-what is it? Weren't you in class?"
+    new "Ч-что такое? Разве у тебя не урок?"
+
+    old "I came to see how you were... Are you okay? You're still flushed."
+    new "Я пришёл проведать тебя… Ты в порядке? У тебя всё ещё лицо красное."
+
+    old "Ah, ah... yeah. I'm sorry. I still seem to be unwell."
+    new "А, а-а… угу. Прости. Мне всё ещё как-то нехорошо."
+
+    old "That's not good, you need to rest properly. Though I'm the one who woke you. Sorry."
+    new "Плохо дело, надо тебе как следует лежать. Хотя это я тебя разбудил. Прости."
+
+    old "Ah, no. It's not like that."
+    new "А, нет. Всё не так."
+
+    old "Never mind, get back in bed. You need to rest quietly."
+    new "Ладно, возвращайся в постель. Тебе надо спокойно поспать."
+
+    old "O-okay."
+    new "У-угу."
+
+    old "Uh, let's see... the water's in the basin. A towel, a towel..."
+    new "Э-э… вода в тазике. Полотенце, полотенце…"
+
+    old "Here, does cooling your forehead with the towel make it a bit better?"
+    new "Вот, если приложить полотенце ко лбу, станет чуть легче?"
+
+    old "Yeah... thank you, Hiraga-kun."
+    new "Угу… спасибо, Хирага-кун."
+
+    old "It's nothing. It's about all I can do, though."
+    new "Да ничего. Хотя больше я и не умею."
+
+    old "Hey, Hiraga-kun..."
+    new "Слушай, Хирага-кун…"
+
+    old "Huh?{#un}"
+    new "А?"
+
+    old "Is it true that you're a familiar, Hiraga-kun? The same as that dragon-like monster."
+    new "Хирага-кун, ты правда фамильяр? Такой же, как тот драконоподобный монстр."
+
+    old "Hmm. Well, that's a long story, but for now I'm Louise's familiar."
+    new "Хм. Ну, если об этом, то рассказывать долго, но сейчас я фамильяр Луизы."
+
+    old "Well, even if I'm a familiar, I do laundry, cleaning... I guess I'm kind of like a maid?"
+    new "Ну, хоть я и фамильяр, но стираю, убираю… в общем, что-то вроде горничной?"
+
+    old "Louise-san's... maid?"
+    new "Горничная… Луизы-сан?"
+
+    old "N-no... S-sometimes I fight with a sword too. Really only occasionally... though."
+    new "Н-нет… Я и с мечом иногда сражаюсь. Правда, совсем иногда…"
+
+    old "Fighting..."
+    new "Сражаешься…"
+
+    old "There have been some dangerous moments, though..."
+    new "Опасные моменты, правда, бывали…"
+
+    old "Even so, in this world I know nothing about, she's been keeping me alive, so... I guess she really is my master."
+    new "Но всё же в этом незнакомом мире она меня содержит, так что… пожалуй, она и вправду моя госпожа."
+
+    old "Hey... Hiraga-kun."
+    new "Слушай… Хирага-кун."
+
+    old "Can I tell you something weird?"
+    new "Можно я скажу тебе одну странную вещь?"
+
+    old "Something weird? Well, sure..."
+    new "Странную вещь? Ну, давай…"
+
+    old "You know, in this world you seem to be having a lot of fun surrounded by girls. It's a little... lonely."
+    new "Знаешь, в этом мире ты, похоже, весело проводишь время в окружении девушек. Мне даже немного… одиноко."
+
+    old "What!?"
+    new "Что!?"
+
+    old "No, really, it's not that much fun at all. I mean it."
+    new "Да нет же, вовсе не так весело. Правда."
+
+    old "Is that so?{#haru}"
+    new "Правда?"
+
+    old "You don't seem to mind Louise-san at all, and you looked pretty close with that Siesta-san too."
+    new "С Луизой-сан ты, похоже, совсем не против, да и с той Сиестой-сан вы выглядели довольно близко."
+
+    old "Somehow, I started feeling lonely, wondering if you'd end up becoming a person of this world."
+    new "Мне почему-то стало одиноко — вдруг ты совсем станешь человеком этого мира."
+
+    old "N-no, that's not true. It just happened. Yeah, it just happened to look that way."
+    new "Н-нет, всё не так. Просто так вышло. Да, просто так показалось."
+
+    old "Hmm, is that so?"
+    new "Хм, правда?"
+
+    old "Excuse me."
+    new "Прошу прощения."
+
+    old "Haruna-san, how are you feeling? W-wait, why on earth is Saito-san here!?"
+    new "Харуна-сан, как вы себя чувствуете? Ой, п-почему Сайто-сан здесь!?"
+
+    old "Ah, don't tell me you were sneaking in for a night visit while I and Miss Valiere were away!?"
+    new "А, неужели ты пробрался на ночное свидание, пока меня и мадемуазель Вальер не было!?"
+
+    old "No, I'm not doing anything like that! Besides, it's not even night yet..."
+    new "Да я ничего такого не делал! К тому же ещё даже не ночь…"
+
+    old "Right, that's right... This is a bad dream... or an illusion. Just a nightmare, that's it! It has to be!"
+    new "Да, верно… Это дурной сон… или наваждение. Просто кошмар, вот! Так и должно быть!"
+
+    old "Well, you see..."
+    new "Да я, э-это…"
+
+    old "I was worried about Haruna, so... I just kind of drifted over here."
+    new "Я беспокоился о Харуне… и просто забрёл сюда."
+
+    old "Hmm... is that so."
+    new "Хм… вот как."
+
+    old "Skipping class, just the two of you..."
+    new "Прогуляли урок, и вдвоём…"
+
+    old "Uh, um, Siesta?"
+    new "Н-ну, э-э, Сиеста?"
+
+    old "Um, Hiraga-kun came because he was worried about me. There's nothing wrong with..."
+    new "Хирага-кун пришёл, потому что беспокоился обо мне. Ничего плохого ведь…"
+
+    old "Just the two of you... In a room where no one's watching, just the two of you..."
+    new "Вдвоём… В комнате, где никто не видит, вдвоём…"
+
+    old "Siesta? Listen, I really haven't done anything shameful, okay? I even have a witness."
+    new "Сиеста? Слушай, я правда ничего постыдного не делал, ладно? И свидетель есть."
+
+    old "A witness? Who? Don't tell me it's Haruna-san..."
+    new "Свидетель? Кто же? Не говори, что Харуна-сан…"
+
+    old "No, this one."
+    new "Нет, вот этот."
+
+    old "I came to pick up something I forgot."
+    new "Я забыл кое-что и пришёл за этим."
+
+    old "Something you forgot? Did Miss Valiere forget something?"
+    new "Забыли? Разве мадемуазель Вальер что-то забыла?"
+
+    old "Ah, no, I forgot it."
+    new "А, нет, это я забыл."
+
+    old "You did, Saito-san? What exactly?"
+    new "Вы, Сайто-сан? И что же именно?"
+
+    old "Uh... this one."
+    new "Э-э… вот это."
+
+    old "Whoa whoa whoa, you're throwing this at me right away!?"
+    new "Эй, эй, эй, ты что, сразу сваливаешь это на меня!?"
+
+    old "Hey, Derflinger. I just came back to the room and was talking with Haruna, right?"
+    new "Слушай, Дерфлингер. Я ведь просто вернулся в комнату и разговаривал с Харуной, так?"
+
+    old "Relax, partner here really was just talking. He didn't do anything shady."
+    new "Успокойся, напарник и правда просто разговаривал. Ничего постыдного он не делал."
+
+    old "Is that so? I'm relieved..."
+    new "Правда? Я успокоилась…"
+
+    old "Really, really. You finally had the room to yourselves, and one of you was even in bed."
+    new "Серьёзно, серьёзно. Вам ведь впервые досталась комната наедине, да ещё одна из вас в постели."
+
+    old "You'd think he'd at least get in the mood... Honestly, you've got no guts, partner."
+    new "Казалось бы, мог хоть немного войти в настроение… Честное слово, нет в тебе хватки, напарник."
+
+    old "'No guts' was uncalled for. ...Anyway, that's how it is. You get it?"
+    new "«Нет хватки» — это лишнее. …В общем, вот так всё и было. Понятно?"
+
+    old "Yes. I'm sorry for doubting you."
+    new "Да. Простите, что сомневалась."
+
+    old "Ah, no no, as long as you understand."
+    new "А, нет-нет, раз уж поняла."
+
+    old "But if you don't get back to class soon, Miss Valiere will be furious, you know?"
+    new "Но если ты поскорее не вернёшься на урок, мадемуазель Вальер разгневается, знаешь?"
+
+    old "Ugh. Y-you're right."
+    new "Угх. Т-ты права."
+
+    old "I'll keep an eye on Haruna-san, so please go back to class, Saito-san."
+    new "За Харуной-сан я присмотрю, так что, Сайто-сан, возвращайтесь на урок."
+
+    old "R-right. Well, I'd better get going."
+    new "Л-ладно. Что ж, мне пора."
+
+    old "Hiraga-kun, thank you."
+    new "Хирага-кун, спасибо."
+
+    old "It's nothing. Well then, take care of things, Siesta!"
+    new "Да ничего. Ну, Сиеста, я на тебя полагаюсь!"
+
+    old "Yes, Saito-san."
+    new "Да, Сайто-сан."
+
+    old "Well, look who's back so soon!"
+    new "Ара, как рано ты вернулся!"
+
+    old "...Ah, yeah."
+    new "…А, угу."
+
+    old "And just what errand did you go out for?"
+    new "И по какому же делу ты ходил?"
+
+    old "Leaving your master behind and skipping class on your own—it must have been a terribly important errand, hmm?"
+    new "Раз уж ты оставил свою госпожу и самовольно прогулял урок, дело было ужасно важное, не так ли?"
+
+    old "Ahaha, well, that's..."
+    new "Ахаха, ну, это…"
+
+    old "I went to see how Haruna was doing."
+    new "Я ходил проведать Харуну."
+
+    old "...Excuse me?"
+    new "…Что?"
+
+    old "It's rough being sick and stuck in bed all alone, isn't it?"
+    new "Заболеть и лежать одному в постели — тяжело ведь?"
+
+    old "Well, I can't really nurse anyone, but I thought at least being there might put her at ease."
+    new "Ну, ухаживать-то я толком не умею, но думал, что хотя бы своим присутствием смогу её приободрить."
+
+    old "Hmm... You were that worried about her."
+    new "Хм… Вот как ты о ней беспокоился."
+
+    old "Anyway, just as we were talking, Siesta came to check on her too, so I figured it was fine and came back."
+    new "И потом, пока мы немного поболтали, за ней и Сиеста пришла, так что я решил, что всё нормально, и вернулся."
+
+    old "Huh, what's wrong, Louise? You suddenly went quiet."
+    new "М, что с тобой, Луиза? Вдруг замолчала."
+
+    old "You... you flirt!"
+    new "Ты… ты ловелас!"
+
+    old "Gwoooh! My head is splitting!"
+    new "Гуооо! Голова раскалывается!"
+
+    old "You start flirting with any girl you see—have some decency! Decency!"
+    new "Ты с любой девушкой сразу заигрываешь — имей же совесть! Совесть!"
+
+    old "Ugh... My master, have mercy..."
+    new "Угх… Госпожа, помилосердствуй…"
+
+    old "Ah, Miss Valiere. Disciplining your familiar is all well and good, but class is in session. Quiet down."
+    new "Ах, мадемуазель Вальер. Воспитывать фамильяра — дело хорошее, но сейчас идёт урок. Потише."
+
+    old "Yes, I'm sorry..."
+    new "Да, извините…"
+
+    old "I went to get Derflinger."
+    new "Я ходил за Дерфлингером."
+
+    old "Huh? Derflinger?"
+    new "А? За Дерфлингером?"
+
+    old "Yeah, that's right. Here."
+    new "Угу, именно. Вот."
+
+    old "Partner here just left me lying around, y'know. I was so lonely I was about to start singing to myself."
+    new "Напарник-то меня всё бросил валяться, ага. Мне было так одиноко, что я чуть не начал сам себе песни петь."
+
+    old "No, please don't. I don't want rumors that suspicious singing is coming from my room."
+    new "Нет, не надо. Не хочу слухов, что из моей комнаты доносится подозрительное пение."
+
+    old "But why? Derflinger has nothing to do with class."
+    new "Но почему? Дерфлингер ведь к уроку отношения не имеет."
+
+    old "You never know whether it's related or not, right?"
+    new "Кто знает, имеет он отношение или нет, верно?"
+
+    old "An enemy could show up out of nowhere. If that happens and I'm unarmed, I'd be useless, wouldn't I?"
+    new "Враг может появиться в любой момент. А если такое случится, и я буду без оружия, я же буду бесполезен?"
+
+    old "H-heh. For you, that's a rather admirable attitude. I suppose I'll give you some credit."
+    new "Х-хех. Для тебя это, пожалуй, похвальное намерение. Так уж и быть, зачту тебе это."
+
+    old "So with that, relax and focus on class."
+    new "Вот поэтому расслабься и спокойно занимайся на уроке."
+
+    old "Yeah, yeah. I'll focus properly even without being told!"
+    new "Да-да. Я и без напоминаний буду прилежно слушать!"
+
+    old "Miss Valiere? Are you listening to me?"
+    new "Мадемуазель Вальер? Ты слушаешь меня?"
+
+    old "Ah, yes. I'm listening."
+    new "А, да. Слушаю."
+
+    old "Hmm. Then it's fine."
+    new "Хм. Тогда хорошо."
+
+    old "I was in the toilet."
+    new "Я был в туалете."
+
+    old "Huh? The toilet...? Oh, honestly! Then just say so, you idiot!"
+    new "А? В туалете… ну и ну! Так бы и сказал, дурак!"
+
+    old "Ehh. Is that the kind of thing you have to announce every single time?"
+    new "Э-э. Разве о таком надо каждый раз докладывать?"
+
+    old "I'm saying that disappearing without a word is the problem!"
+    new "Я говорю, что проблема — исчезать молча!"
+
+    old "A-anyway, you've taken care of your business now, right?"
+    new "Т-так или иначе, ты уже сделал свои дела, верно?"
+
+    old "Yeah.{#un2}"
+    new "Угу."
+
+    old "Then behave yourself for the rest of class. Understood?"
+    new "Тогда веди себя прилежно до конца урока. Понял?"
+
+    old "...#dots"
+    new "…"

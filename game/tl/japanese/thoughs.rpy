@@ -301,3 +301,47 @@ translate japanese strings:
     old "Honestly, minding other people's eyes... What's wrong with Louise today?"
     new "まったく、他人の目を気にするなんて、　今日のルイズはどうしちゃったんだ？"
 
+
+translate japanese strings:
+
+    old "But for me, this class is boring. Hearing it won't make me able to use magic anyway."
+    new "（でも、俺にとっては退屈な授業なんだよなあ。　聞いたからって、魔法が使えるようになる　わけじゃないし）"
+
+    old "Come to think of it, how is Haruna doing?"
+    new "（そういえば、春奈の容態って　どうなんだろう？）"
+
+    old "I left her care to Siesta, but even Siesta can't check on her while she's at work..."
+    new "（彼女の面倒はシエスタに任せてきちゃったけど、　シエスタだって仕事に行ってる間は　様子を見れてないわけだし……）"
+
+    old "Hmm..."
+    new "（うーん……）"
+
+    old "All right, now that that's decided, right away..."
+    new "（よし、そうと決めたら、さっそく……）"
+
+    old "Still, I am worried. Maybe I'll go check on Haruna..."
+    new "（とは言ったものの、やっぱり心配だし。　春奈のところに行ってみるか……）"
+
+    old "I've decided to leave it to Siesta, so I'll just quietly listen to class."
+    new "（シエスタに任せるって決めてるわけだし、　ここはおとなしく授業を聞いていよう）"
+
+    old "Nope, I still don't understand a thing. If I can't use magic, I just can't get interested."
+    new "（駄目だ、やっぱり全然分からん。　魔法が使えないと、どうにも興味が出ないな）"
+
+    old "I'm still worried. Maybe I'll go check on Haruna..."
+    new "（やっぱり心配だし。　春奈のところに行ってみるか……）"
+
+    old "I'm worried about Haruna, but I decided to leave it to Siesta, and skipping class would be wrong..."
+    new "（春奈の体調が心配だけど、　シエスタに任せるって決めたし、　授業を抜け出すのは駄目だよな……）"
+
+    old "I've got a feeling I'm in for quite a scolding when I get back..."
+    new "（こりゃ、帰った後、　相当怒られそうだな……）"
+
+    old "I ended up taking quite a while. This might be more than just skipping a meal."
+    new "（相当時間かけちまったな。　こりゃ、飯抜きだけじゃすまないかもな）"
+
+    old "Looks like Professor Colbert's class is still going. Maybe I'll slip in quietly..."
+    new "（どうやら、コルベール先生の授業は　まだ続いてるみたいだな。　こっそり入るか……）"
+
+    old "Quietly... quietly..."
+    new "（こっそり……。　こっそり……と）"

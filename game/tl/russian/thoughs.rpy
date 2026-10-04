@@ -296,3 +296,47 @@ translate russian strings:
 
     old "Honestly, minding other people's eyes... What's wrong with Louise today?"
     new "Совсем она волнуется из-за чужого взгляда… Что сегодня с Луизой не так?"
+
+translate russian strings:
+
+    old "But for me, this class is boring. Hearing it won't make me able to use magic anyway."
+    new "Но для меня этот урок скучный. Даже если послушаю, магию всё равно не освою."
+
+    old "Come to think of it, how is Haruna doing?"
+    new "Кстати, как там Харуна?"
+
+    old "I left her care to Siesta, but even Siesta can't check on her while she's at work..."
+    new "Я оставил заботу о ней Сиесте, но и Сиеста, пока на работе, не может за ней присмотреть…"
+
+    old "Hmm..."
+    new "Хм…"
+
+    old "All right, now that that's decided, right away..."
+    new "Так, раз решено, то сразу же…"
+
+    old "Still, I am worried. Maybe I'll go check on Haruna..."
+    new "Хотя сказал, но всё же волнуюсь. Может, сходить проведать Харуну…"
+
+    old "I've decided to leave it to Siesta, so I'll just quietly listen to class."
+    new "Раз уж решил оставить всё Сиесте, буду спокойно слушать урок."
+
+    old "Nope, I still don't understand a thing. If I can't use magic, I just can't get interested."
+    new "Нет, всё равно ничего не понимаю. Если не могу колдовать, интерес не появляется."
+
+    old "I'm still worried. Maybe I'll go check on Haruna..."
+    new "Всё-таки волнуюсь. Может, сходить проведать Харуну…"
+
+    old "I'm worried about Haruna, but I decided to leave it to Siesta, and skipping class would be wrong..."
+    new "Я волнуюсь за Харуну, но решил оставить всё Сиесте, и прогуливать урок нельзя…"
+
+    old "I've got a feeling I'm in for quite a scolding when I get back..."
+    new "Ох, по возвращении мне, похоже, здорово влетит…"
+
+    old "I ended up taking quite a while. This might be more than just skipping a meal."
+    new "Я потратил довольно много времени. Похоже, одним пропущенным обедом не отделаюсь."
+
+    old "Looks like Professor Colbert's class is still going. Maybe I'll slip in quietly..."
+    new "Кажется, урок профессора Кольбера ещё идёт. Проберусь потихоньку…"
+
+    old "Quietly... quietly..."
+    new "Потихоньку… потихоньку…"

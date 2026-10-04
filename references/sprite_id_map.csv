@@ -128,3 +128,6 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 988,ha 4 angry,1,40,1731,lay7,ch1; block 984 pos 4; поза по пиксель-сверке id 988 (MAE 1.64)
 990,ha 4 sad,2,54,2480,lay7,ch1; block 984 pos 6; поза по пиксель-сверке id 988 (MAE 1.64)
 1105,mage,6,11,338,lay11,ch1; block 1105; подтверждено script главы 1
+340,l 3 angry,4,86,882,lay1,ch2.2; block 335 pos 5 (поза B); сцены 86-89
+343,l 3 shy,1,88,986,lay1,ch2.2; block 335 pos 8; сцена 88
+526,si 4 angry,1,82,714,lay2,ch2.2; block 522 pos 4; сцена 82

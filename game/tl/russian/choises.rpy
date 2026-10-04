@@ -227,3 +227,29 @@ translate russian strings:
 
     old "I'd like to eat breakfast"
     new "Я бы поел завтрака"
+
+translate russian strings:
+
+    old "Going back to my room"
+    new "Вернуться в комнату"
+
+    old "Not going back to my room"
+    new "Не возвращаться в комнату"
+
+    old "What should I do..."
+    new "Как же поступить…"
+
+    old "I was worried about Haruna"
+    new "Я беспокоился о Харуне"
+
+    old "I came to pick up something I forgot"
+    new "Я пришёл за забытой вещью"
+
+    old "I went to check on Haruna"
+    new "Я ходил проведать Харуну"
+
+    old "I went to get Derflinger"
+    new "Я ходил за Дерфлингером"
+
+    old "I went to the toilet"
+    new "Я ходил в туалет"
