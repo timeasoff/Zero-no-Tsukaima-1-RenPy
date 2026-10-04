@@ -1,6 +1,6 @@
 ---
 name: assets
-description: Ассеты ремастера: BGM по правилу t{K-1} из [BGM play=+K] (никогда «на глазок»), политика точечного переноса SE, справочник references/image_id_map.csv (формат и как расширять), где лежат оригиналы PS2 PNG/STV/wav и как конвертировать STV (autoDecodeSTV.py), что коммитится в git, а что нет (game/INSTRUCTION.md). Применять при подборе фонов/CG/спрайтов/музыки/звуков для части и при добавлении новых медиа.
+description: Ассеты ремастера: BGM по правилу t{K-1} из [BGM play=+K] (никогда «на глазок»), политика точечного переноса SE, справочник references/image_id_map.csv (формат и как расширять), где лежат оригиналы PS2 PNG/STV/wav и как конвертировать STV (autoDecodeSTV.py), папка unused_resourses/ с сырыми медиа вне игры (PNG→webp, WAV→ogg, смысловое переименование по конвенции проекта), что коммитится в git, а что нет (game/INSTRUCTION.md). Применять при подборе фонов/CG/спрайтов/музыки/звуков для части и при добавлении новых медиа.
 ---
 
 # assets — BGM, SE, картинки, оригиналы, git vs медиа
@@ -153,6 +153,59 @@ D:\gameMake\ZnT-1\ZNT_TEST\PS2_GAME\OriginalFiles\
   (`game/images/bg/*.webp`, `cg/*.webp`); если ассета нет — сначала искать в
   `game/images/orig` (1038 PNG) и `game/images/renamed`.
 * Медиа-оригиналы **не в git** (внешний архив `ZNT_TEST`, вне репозитория).
+
+### 4.1 Папка `unused_resourses/` — сырые медиа «вне игры» (PNG/WAV)
+
+В корне репозитория: **`D:\gameMake\ZnT-1\ZnT1\unused_resourses\`** — сырые ассеты,
+которых **ещё нет в игре**. В git **не коммитится** (`.gitignore`, как `wav_source`).
+Раскладка (на 2026-10-05: 27 bg PNG, 160 cg PNG, 24 wav):
+
+```text
+unused_resourses/
+  bg(should rename)/   PNG-фоны, черновые имена (room_3 (2).png, royal_hallway (1).png, tower (3).png, …)
+  cg(should rename)/   PNG-CG, черновые имена (znt1 (101).png … znt1 (300).png)
+  sfx/                 WAV-звуки (battle, blow3, magic, spell, sympathy_up, tavern, water, wind, wound, …)
+```
+
+Подключать медиа **только когда для него нашлась сцена** и формат приведён к проектному.
+
+**Порядок (на каждый файл):**
+
+1. **Опознать, что это** — не по имени файла: картинку открыть и сверить с оригиналом
+   PS2 (`…\SCENEDAT.BIN\*.PNG`, §4) и с уже используемыми `game/images/{bg,cg}/**`;
+   звук сверить с PS2-SE (`SOUND_ID.BIN`, id 36..95, §2). Сначала убедиться, что ассета
+   **уже нет** в проекте (иначе — дубль, §3.3).
+2. **Переименовать по конвенции проекта** (черновые имена не оставлять):
+   * **bg** — `snake_case`; суффиксы времени/состояния как в `definitions.rpy`:
+     `louise_room`, `louise_room_evening`, `louise_room_night`, `hallway_down`,
+     `classroom_evening`, `forest_blurred`, `town_square_ruined`;
+   * **cg** — `snake_case`; префикс сцены/персонажей как в проекте:
+     `l_s_forest`, `ha_sick_3`, `si_wakeup_2`, `t_library_read`, `ready_to_blow_2`;
+   * **sfx** — короткое `snake_case` по смыслу, как в `game/audio/sfx/`:
+     `blow`, `blow_2`, `open_door`, `take_sword`, `sympathy_up`.
+3. **Конвертировать в формат проекта** — картинки `.webp`, звук `.ogg`:
+   * PNG → WebP (lossless): `cwebp in.png -lossless -o out.webp`
+     (готовый скрипт `tools/media/png_to_webp.py` работает в текущей папке);
+   * WAV → OGG: `ffmpeg -i in.wav -c:a libvorbis -q:a 5 out.ogg`
+     (для голосов — `tools/media/audio_converter.py`, для SE — ffmpeg).
+   * Куда класть: `game/images/bg/`, `game/images/cg/`, `game/audio/sfx/`.
+4. **Зарегистрировать в `game/definitions.rpy`:**
+
+   ```renpy
+   image bg royal_hallway = "bg/royal_hallway.webp"
+   image cg znt1_new = "cg/znt1_new.webp"
+   define audio.spell = "audio/sfx/spell.ogg"
+   ```
+5. **Внести в справочники:** фон/CG — `filename` в `references/image_id_map.csv` (§3)
+   и замена заглушки `id(K)` (`tools/replace_bg_placeholders.py --apply`);
+   имя SE — в список §2 этого скилла; факт — в `reports/log.md` (откуда взят,
+   что переименовано/конвертировано).
+6. **Контроль:** `python tools/check_project.py` (E9/E10/W6), Ren'Py lint —
+   новый ассет должен разрешаться (`image`/`define audio` без ошибок).
+
+> **Не выдумывать.** Имя и соответствие берутся по доказательству (сверка с
+> оригиналом/эталоном), а не «по настроению». Не доказано — `PROVISIONAL`/`???`,
+> файл не подключать (AGENTS.md §5, §9).
 
 ## 5. Git vs медиа (`game/INSTRUCTION.md`)
 

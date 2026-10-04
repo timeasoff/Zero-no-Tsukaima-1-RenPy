@@ -73,6 +73,9 @@ D:\gameMake\ZnT-1\ZNT_TEST\PS2_GAME\OriginalFiles\
   decoding\unpacked\VOICE_ID.BIN\*.STV   16192 голоса (id 0..16191)
   decoding\unpacked\SOUND_ID.BIN\        BGM/SE + autoDecodeSTV.py (STV → wav)
 
+ZnT1/unused_resourses/               сырые медиа «вне игры» (не в git): bg(should rename)/, cg(should rename)/,
+                                     sfx/ — PNG/WAV; PNG→webp, WAV→ogg + смысловое переименование — скилл `assets` §4.1
+
 ZnT1/transcriptions_ja_ru.csv        ASR-расшифровки голосов (JA оригинал / RU перевод / status)
 ```
 
@@ -314,7 +317,7 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 | `renpy-remaster-api` | таблица PS2 → Ren'Py (`references/ps2_to_renpy.csv`), сигнатуры `*_fx` / `show_sprites` / `update_sympathy` / `overlay_screen` / `*_choice`, уникальность `from _call_overlay_screen_K`, что **не** переносится |
 | `voice-workflow` | `[voice N]` → id → строка `voice` → манифест `references/voice_id_map.csv` → финальный `audio_converter.py` (`.ogg`), `wav_source/`, `transcriptions_ja_ru.csv`, таблица говорящих, правило «идти по id, а не по тексту» |
 | `tl-en-ru` | EN-база в сценарии + `old/new` в `tl/{japanese,russian}`, бакеты, дословный `old`, правила `game/PROMTS.md` |
-| `assets` | BGM `t{K-1}`, политика SE, `references/image_id_map.csv` (генератор `tools/build_image_id_map.py`, заглушки `id(K)` и `tools/replace_bg_placeholders.py`), где лежат оригиналы PNG/STV |
+| `assets` | BGM `t{K-1}`, политика SE, `references/image_id_map.csv` (генератор `tools/build_image_id_map.py`, заглушки `id(K)` и `tools/replace_bg_placeholders.py`), где лежат оригиналы PNG/STV, `unused_resourses/` (PNG→webp, WAV→ogg, переименование) |
 | `project-checks` | автопроверки: `tools/check_project.py` + ручные пункты приёмки части |
 | `project-constraints` | ограничения: JA — канон, главы 0/1 — эталон, git vs медиа, кодировка, «не переписывать без нужды» |
 | `pragmatic-audit` | независимый прагматический аудитор C: речевой акт, подтекст, сила реплики, японские частицы |

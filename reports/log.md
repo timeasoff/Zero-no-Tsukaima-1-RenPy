@@ -740,3 +740,22 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
 - контроль: `check_project.py` → `errors=3` (только `E7 jump 'ch2_3'`), `warnings=275`,
   `info=32`; lint — те же 3 `ch2_3` + прежние предупреждения.
 - git: **не коммитится** — ожидается явное подтверждение пользователя.
+
+---
+
+## 2026-10-05 — Помечено: склад сырых медиа `unused_resourses/` (PNG/WAV) и порядок подключения
+
+- Создана/зафиксирована папка сырых ассетов «вне игры»:
+  `D:\gameMake\ZnT-1\ZnT1\unused_resourses\` — `bg(should rename)/` (27 PNG),
+  `cg(should rename)/` (160 PNG), `sfx/` (24 WAV). В игре этих файлов нет.
+- Порядок подключения закреплён в скилле **`assets` §4.1**: опознать по сверке с
+  оригиналом PS2 (не по имени файла) → переименовать по конвенции проекта
+  (bg/cg/sfx) → конвертировать PNG→webp (`cwebp -lossless` / `tools/media/png_to_webp.py`)
+  и WAV→ogg (`ffmpeg -c:a libvorbis`) → положить в `game/images/{bg,cg}` /
+  `game/audio/sfx` → `image`/`define audio` в `game/definitions.rpy` → `filename` в
+  `references/image_id_map.csv` (+ `replace_bg_placeholders.py`) → контроль
+  `check_project.py` (E9/E10/W6) и Ren'Py lint.
+- Указатели: `AGENTS.md` (§2 «Источники», §7 таблица скиллов) + скилл `assets`.
+- Папка исключена из git (`.gitignore`: `/unused_resourses/` — по аналогии с `wav_source`);
+  сырые медиа в git не идут (`game/INSTRUCTION.md`).
+- Статус: только документация; сами медиа не конвертировались и не переименовывались.
