@@ -4055,3 +4055,387 @@ translate russian strings:
 
     old "...#dots"
     new "…"
+
+translate russian strings:
+
+    old "Now then, let's get back to our discussion."
+    new "Итак, вернёмся к нашему разговору."
+
+    old "The Fire element is thought to be the most aggressive of the four, but it isn't specialized for combat, nor is it especially strong."
+    new "Стихия Огня считается самой агрессивной среди четырёх, но она вовсе не предназначена только для боя и не является особенно сильной."
+
+    old "It's true that among the four, Fire is the easiest to turn to attack — but between skilled wielders, there's no superiority among Fire, Water, Wind, and Earth."
+    new "Среди четырёх стихий Огонь и вправду легче всего обратить в атаку, но у опытных магов нет превосходства между Огнём, Водой, Ветром и Землёй."
+
+    old "With all due respect, Mister Colbert. It's a fact that the Fire element is clearly superior to the other three."
+    new "С вашего позволения, месье Кольбер. Но ведь стихия Огня явно превосходит остальные три — это факт."
+
+    old "Hmm, Miss Zerbst. I'm aware you take pride in your own element, but..."
+    new "Хм, мадемуазель Цербст. Я знаю, что вы гордитесь своей стихией, но…"
+
+    old "Isn't that opinion a little extreme?"
+    new "Не кажется ли вам это мнение чересчур крайним?"
+
+    old "My, but it's a fact. There are individual differences, so I won't say it's absolute..."
+    new "Ах, но это факт. Индивидуальные различия существуют, так что не стану утверждать, что это абсолютно…"
+
+    old "The element that can wield the most beautiful and most powerful magic is Fire."
+    new "Именно стихия Огня позволяет творить самую красивую и самую сильную магию."
+
+    old "Of course, that doesn't mean the other elements are ugly or weak. It's simply that Fire is the best."
+    new "Разумеется, это не значит, что другие стихии некрасивы или слабы. Просто стихия Огня — лучшая."
+
+    old "But some people can't even get as far as having an element. Isn't that right, 'Louise the Zero'?"
+    new "Но есть и такие, кто не дотягивает даже до стихии. Ведь так, Луиза-Нулиза?"
+
+    old "...It's been a while since I heard someone say something so stupid. I wonder who the fool could be?"
+    new "…Давно я не слышала столь глупых речей. Интересно, кто же этот глупец?"
+
+    old "Oh? Magic, growth, and feminine charm — all of them zero. I wonder who that could be?"
+    new "Ах, и магия, и рост, и женское обаяние — всё вместе на нуле у одной особы, не так ли?"
+
+    old "Who's 'Zero'!? I gave back that disgraceful nickname long ago...!"
+    new "Кто здесь нулиза?! Я давно уже отказалась от этого позорного прозвища…!"
+
+    old "Louise, shh, shh!"
+    new "Луиза, тс-с, тс-с!"
+
+    old "Huh, what? ...Ah!"
+    new "А, что? …Ах!"
+
+    old "What's wrong? You're making a strange face. Could you be preparing to run away?"
+    new "Что такое? Состроила такое странное лицо. Уж не готовишься ли ты сбежать?"
+
+    old "Fu... fu, fu, fu... This is just perfect. I've been irritated since yesterday."
+    new "Фу… фу-фу-фу… Как раз кстати. Я со вчерашнего дня только и делала, что злилась."
+
+    old "Miss Zerbst. Today I'm going to settle this once and for all."
+    new "Мадемуазель Цербст. Сегодня мы наконец покончим с этим."
+
+    old "I wonder if you can. You, of all people, 'Zero'?"
+    new "Сможешь ли? Тебе ли, нулиза?"
+
+    old "You've said it twice now. I won't forgive you anymore..."
+    new "Ты сказала это уже дважды. Больше я тебе этого не прощу…"
+
+    old "H-hey, wait a second..."
+    new "Э-эй, погоди…"
+
+    old "Stop it, Louise."
+    new "Перестань, Луиза."
+
+    old "Why are you stopping me!?"
+    new "Почему ты меня останавливаешь?!"
+
+    old "Because you're about to use magic, aren't you?"
+    new "Потому что ты собираешься колдовать, разве нет?"
+
+    old "Of course I am. It's a noble's duel — a duel."
+    new "Ещё бы. Это дуэль аристократов, дуэль."
+
+    old "That's exactly what's wrong. Your magic isn't something you can just use in front of people."
+    new "Вот именно поэтому и нельзя. Твою магию нельзя вот так запросто применять на людях."
+
+    old "Ugh. That's true, but..."
+    new "Угх. Это-то так, но…"
+
+    old "Then isn't this the place to hold back?"
+    new "Тогда разве не здесь стоит потерпеть?"
+
+    old "Ugh, ugh..."
+    new "Угх, угх…"
+
+    old "What's this? After all that big talk, you're running away after all?"
+    new "Что такое? Наговорила громких слов, а в итоге сбегаешь?"
+
+    old "What did you say!? I'm not running away!"
+    new "Что ты сказала?! Я не сбегаю!"
+
+    old "Stop it, Kirche."
+    new "Перестань, Кирхе."
+
+    old "Oh? I'm not the one who challenged anyone to a duel, darling."
+    new "Ах, это ведь не я вызвала на дуэль, дорогой."
+
+    old "The one who challenged is your master."
+    new "Вызвала-то тебя твоя госпожа."
+
+    old "Please, could you stop provoking Louise?"
+    new "Прошу, перестань дразнить Луизу."
+
+    old "Besides, she seems to be in a bad mood today."
+    new "И к тому же она сегодня, похоже, не в духе."
+
+    old "Mood?"
+    new "Настроение?"
+
+    old "I don't really care about Louise's mood either way. But I don't mean to cause you trouble, darling."
+    new "Мне вообще-то всё равно, в каком настроении Луиза. Но я не хочу доставлять тебе хлопоты, дорогой."
+
+    old "Well, thanks for that."
+    new "Ну, спасибо и на том."
+
+    old "Don't go whispering unnecessary things into someone else's familiar. And what's this? After all that lofty talk, you're going to run?"
+    new "Нечего нашёптывать лишнее чужому фамильяру. И что это? Наговорила свысока всякого, а теперь собираешься сбежать?"
+
+    old "Who said anything about running?"
+    new "Кто это говорит о бегстве?"
+
+    old "Please stop them, Professor."
+    new "Профессор, остановите их, пожалуйста."
+
+    old "Eh? Me?"
+    new "Э? Я?"
+
+    old "Who else is there? Please, stop those two."
+    new "А кто ещё? Прошу, остановите этих двоих."
+
+    old "Private duels within the academy are strictly forbidden. Miss Valiere, Miss Zerbst! Stop this duel at once!"
+    new "Частные дуэли в академии строго запрещены. Мадемуазель Вальер, мадемуазель Цербст! Немедленно прекратите!"
+
+    old "I will not permit a duel in front of my eyes. For one, it disrupts the lesson."
+    new "Я не позволю устраивать дуэль прямо у меня на глазах. Во-первых, это мешает уроку."
+
+    old "...I have no intention of disrupting the lesson."
+    new "…Я не собираюсь мешать уроку."
+
+    old "Let's take this outside. Then we won't be a bother."
+    new "Выйдем на улицу. Тогда мы никому не помешаем."
+
+    old "Fine. Let's settle this between just the two of us."
+    new "Хорошо. Давай выясним всё один на один."
+
+    old "H-hey, wait! Miss Valiere, Miss Zerbst!"
+    new "Э-эй, подождите! Мадемуазель Вальер, мадемуазель Цербст!"
+
+    old "It's no use...!?"
+    new "Не вышло…?!"
+
+    old "No, no, you two! Private duels are forbidden by the school rules."
+    new "Нет, нет, вы двое! Частные дуэли запрещены школьными правилами."
+
+    old "In that case, let's say Mister Colbert knew nothing about it."
+    new "В таком случае будем считать, что месье Кольбер ничего не знал."
+
+    old "That's right. Two students were simply absent from class, so don't worry about it."
+    new "Верно. Просто двоих учеников не было на уроке, так что не беспокойтесь."
+
+    old "Let's go.{#ch2.3_L214}"
+    new "Идём."
+
+    old "No need to tell me."
+    new "Можешь не говорить."
+
+    old "Oh, man, can't be helped. Sorry, Professor. I'll go and try to stop them."
+    new "Ах, ладно, ничего не поделаешь. Простите, профессор. Я пойду и попробую их остановить."
+
+    old "A-ah. Do your best."
+    new "А-ага. Постарайся."
+
+    old "Hmph, you're awfully eager for a fight this morning, aren't you?"
+    new "Хм, с утра у тебя что-то уж очень боевой настрой, а?"
+
+    old "Sorry, but I don't think I can go easy on you today. Or rather, I don't intend to. Prepare yourself."
+    new "Прости, но сегодня я вряд ли смогу тебя щадить. Точнее, я и не собираюсь. Готовься."
+
+    old "Fufufu. Your big mouth is almost refreshing when it goes that far."
+    new "Фу-фу-фу. Твоя похвальба, когда заходит так далеко, даже освежает."
+
+    old "Hey, Louise, Kirche! That's enough, both of you!"
+    new "Эй, Луиза, Кирхе! Хватит вам обеим!"
+
+    old "You be quiet. As if that weren't enough, I've been in a bad mood since this morning."
+    new "Помолчи. И без того у меня с самого утра настроение неважное."
+
+    old "Oh my. Is it about Haruna? Why so jealous, I wonder?"
+    new "О-о. Дело в Харуне? И чего это ты так ревнуешь?"
+
+    old "What did you say!?"
+    new "Что ты сказала?!"
+
+    old "W-what was that!?"
+    new "Ч-что это было!?"
+
+    old "Hmph, I'd heard this was a magic academy, but the protection is nothing impressive."
+    new "Хм, слышал, что это Магическая академия, но защита-то у неё никудышная."
+
+    old "Wha— the mage from back then... Did they follow us all the way here?"
+    new "Что… тот самый маг… Неужели он последовал за нами аж сюда?"
+
+    old "What? They infiltrated the academy?"
+    new "Что? Он пробрался в академию?"
+
+    old "Hand over that girl quietly. Otherwise, you'll get hurt."
+    new "Тихо отдайте мне ту девчонку. Иначе вам не поздоровится."
+
+    old "Heh, wasn't it you who ran away with a lesson last time?"
+    new "Хех, разве не ты в прошлый раз сбежал, получив по заслугам?"
+
+    old "Very well. If you won't hand her over, I'll just use force to get an answer."
+    new "Ну и ладно. Раз не отдаёте, я выбью ответ силой."
+
+    old "Kirche. Wait here for a moment. It seems I have to deal with these guys."
+    new "Кирхе. Подожди здесь немного. Похоже, мне придётся разобраться с этими типами."
+
+    old "Oh, then I'll help. I absolutely hate this sort of boorish crowd."
+    new "Ах, тогда я помогу. Уж очень я не люблю подобных неотёсанных типов."
+
+    old "Hmph. Suit yourself."
+    new "Хм. Как хочешь."
+
+    old "Heh heh, now this is turning into something fun, eh? Well, we oughta thank the guy just for stopping the girls' squabble!"
+    new "Хе-хе, вот это уже становится забавно, а? Ну, уже за то, что он прекратил девичью свару, его стоит поблагодарить!"
+
+    old "Couldn't agree more. I'm so happy I could cry."
+    new "Вот именно. Я так рад, что готов расплакаться."
+
+    old "This time it won't go like last time. Minions, attack!"
+    new "На этот раз всё будет не как в прошлый раз. Слуги мои, в атаку!"
+
+    old "What's the matter, giving up already!?"
+    new "Что такое, уже сдаёшься?!"
+
+    old "Fufun, it was more fun than I expected, but... this is the end."
+    new "Фу-фун, было даже веселее, чем я ожидала, но… на этом всё."
+
+    old "Heh, no matter how many times we do this, I'm not gonna lose."
+    new "Хех, сколько бы раз мы ни дрались, я не проиграю."
+
+    old "Ugh. To mere children..."
+    new "Угх. Каким-то детям…"
+
+    old "Hmph, 'children'? There's a limit to how much you can underestimate a magic academy student."
+    new "Хм, «дети»? Есть же предел тому, насколько можно недооценивать ученика Магической академии."
+
+    old "That's right. Some students may look like children, but basically we're adults."
+    new "Верно. Некоторые ученики и выглядят детьми, но в основном мы взрослые."
+
+    old "Wh-who looks like a child!?"
+    new "К-кто это выглядит ребёнком?!"
+
+    old "Oh? I didn't mean you, Louise."
+    new "Ах? Я вовсе не о тебе, Луиза."
+
+    old "Ugh... I'll deal with that matter later."
+    new "Угх… С этим разберусь позже."
+
+    old "Now then, where shall we start? At the very least, you'll tell me your identity and why you're after that girl, right now."
+    new "Итак, с чего начнём? По крайней мере, кто ты такой и зачем тебе та девушка — отвечай прямо сейчас."
+
+    old "Yeah, yeah. Why don't you tell us why you're after Haruna?"
+    new "Ага, ага. Может, расскажешь, зачем тебе Харуна?"
+
+    old "Ugh...{#ch2.3_L365}"
+    new "Угх…"
+
+    old "Wha— what!? What just happened!?"
+    new "Ч-что?! Что вообще произошло?!"
+
+    old "Hey, partner. ...Looks like we've got a new guest."
+    new "Эй, напарник. …Похоже, у нас новый гость."
+
+    old "Huh?{#ch2.3_L380}"
+    new "А?"
+
+    old "What?{#ch2.3_L383}"
+    new "Что?"
+
+    old "……。{#ch2.3_L386}"
+    new "…"
+
+    old "Looks like that explosion just now was this one's doing."
+    new "Похоже, взрыв, который только что прогремел, — её рук дело."
+
+    old "I doubt she's one of Louise's kind, so I'd say she's a Fire user."
+    new "Не похоже, что она такая же, как Луиза, — скорее всего, она владеет Огнём."
+
+    old "If she came to save her comrade, she's a little late."
+    new "Если она пришла спасать товарища, то немного опоздала."
+
+    old "Look out! Get away, Miss Zerbst!"
+    new "Берегись! Отойдите, мадемуазель Цербст!"
+
+    old "Huh?{#ch2.3_L403}"
+    new "А?"
+
+    old "Professor?"
+    new "Профессор?"
+
+    old "Kyaa!"
+    new "Кья-а!"
+
+    old "Whoa!"
+    new "Уо-о!"
+
+    old "Wh-what!? There's a hole in the ground..."
+    new "Ч-что?! В земле дыра…"
+
+    old "This is the power of a bomb... It must be the rumored bomb user."
+    new "Такова сила бомбы… Должно быть, это тот самый бомбист, о котором говорили."
+
+    old "So it's the one the Professor mentioned this morning!"
+    new "Значит, это тот, о ком профессор говорил утром!"
+
+    old "Kyaaaaa!"
+    new "Кья-а-а-а!"
+
+    old "Ugh! Is everyone all right!?"
+    new "Угх! Все целы?!"
+
+    old "Louise, are you all right!?{#ch2.3_L446}"
+    new "Луиза, ты в порядке?!"
+
+    old "Th-there's no need for you to worry about me. I'm fine, I'm not hurt."
+    new "Н-не надо тебе обо мне беспокоиться. Всё хорошо, я не ранена."
+
+    old "I-I see, then that's good."
+    new "В-вот как, тогда хорошо."
+
+    old "So you were worried about me."
+    new "Значит, ты обо мне беспокоился."
+
+    old "Well, of course. You're my master."
+    new "Ну а как же. Ты моя госпожа."
+
+    old "……。{#ch2.3_L465}"
+    new "…"
+
+    old "Kirche, are you all right!?{#ch2.3_L474}"
+    new "Кирхе, ты в порядке?!"
+
+    old "Aahn, darling was worried about me — I'm so moved!"
+    new "А-а-ан, дорогой обо мне побеспокоился — я так растрогана!"
+
+    old "H-hey, don't cling to me."
+    new "Э-эй, не прижимайся ко мне."
+
+    old "What are you doing, clinging to him in all this confusion!? There are still enemies!"
+    new "Что это ты делаешь, прижимаешься к нему в такой сумятице?! Враги ещё здесь!"
+
+    old "Yes, yes."
+    new "Да-да."
+
+    old "Professor, are you all right!?{#ch2.3_L501}"
+    new "Профессор, вы в порядке?!"
+
+    old "Yes, I'm fine, but..."
+    new "Да, я в порядке, но…"
+
+    old "Saito?"
+    new "Сайто?"
+
+    old "Huh?{#ch2.3_L511}"
+    new "А?"
+
+    old "So I don't matter to you?"
+    new "Значит, я для тебя ничего не значу?"
+
+    old "Nah, it's not like that, but you should respect your elders, right?"
+    new "Да нет, не в этом дело, но старших ведь надо уважать, верно?"
+
+    old "...It seems you'll need a proper scolding later."
+    new "…Похоже, тебя придётся как следует проучить."
+
+    old "Huh, why?"
+    new "А? Почему?"
+

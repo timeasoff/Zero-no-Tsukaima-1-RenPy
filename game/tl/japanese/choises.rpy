@@ -259,3 +259,24 @@ translate japanese strings:
 
     old "I went to the toilet"
     new "トイレに行ってた"
+
+translate japanese strings:
+
+    old "Stop it, Louise"
+    new "やめろよ、ルイズ"
+
+    old "Stop it, Kirche"
+    new "やめろよ、キュルケ"
+
+    old "Please stop them, Professor"
+    new "やめさせてください、先生"
+
+    old "Louise, are you all right!?{#ch2.3_L442}"
+    new "ルイズ大丈夫か！"
+
+    old "Kirche, are you all right!?{#ch2.3_L470}"
+    new "キュルケ大丈夫か！"
+
+    old "Professor, are you all right!?{#ch2.3_L497}"
+    new "先生、大丈夫ですか！"
+

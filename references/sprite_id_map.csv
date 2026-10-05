@@ -134,3 +134,15 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 340,l 3 angry,4,86,882,lay1,ch2.2; block 335 pos 5 (поза B); сцены 86-89
 343,l 3 shy,1,88,986,lay1,ch2.2; block 335 pos 8; сцена 88
 526,si 4 angry,1,82,714,lay2,ch2.2; block 522 pos 4; сцена 82
+310,l 1 shy,3,96,1522,lay1,ch2 part3; block 302 pos 8; пиксель-сверка SCENEDAT[310] -> l 1 shy
+405,s 2 angry,5,95,1368,lay5,ch2 part3; block 401 pos 4; пиксель-сверка SCENEDAT[405] -> s 2 angry
+407,s 2 sad,10,95,1504,lay5,ch2 part3; block 401 pos 6; пиксель-сверка SCENEDAT[407] -> s 2 sad
+434,s 4,12,96,1527,lay5,ch2 part3; block 434 pos 0; пиксель-сверка SCENEDAT[434] -> s 4
+440,s 4 sad,25,98,1582,lay5,ch2 part3; block 434 pos 6; пиксель-сверка SCENEDAT[440] -> s 4 sad
+442,s 4 shy,1,97,1547,lay5,ch2 part3; block 434 pos 8; пиксель-сверка SCENEDAT[442] -> s 4 shy
+456,s 7,1,94,1315,lay5,ch2 part3; block 456 pos 0; пиксель-сверка SCENEDAT[456] -> s 7
+458,s 7 happy,1,95,1343,lay5,ch2 part3; block 456 pos 2; пиксель-сверка SCENEDAT[458] -> s 7 happy
+713,k 4 angry,4,94,1288,lay6,ch2 part3; block 709 pos 4; пиксель-сверка SCENEDAT[713] -> k 4 angry
+744,k 7 happy,2,94,1234,lay6,ch2 part3; block 742 pos 2; пиксель-сверка SCENEDAT[744] -> k 7 happy
+746,k 7 angry,1,94,1304,lay6,ch2 part3; block 742 pos 4; пиксель-сверка SCENEDAT[746] -> k 7 angry
+933,c 1 angry,4,93,1175,lay9,ch2 part3; block 929 pos 4; пиксель-сверка SCENEDAT[933] -> c 1 angry

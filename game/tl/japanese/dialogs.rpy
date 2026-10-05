@@ -4049,3 +4049,387 @@ translate japanese strings:
 
     old "...#dots"
     new "……。"
+
+translate japanese strings:
+
+    old "Now then, let's get back to our discussion."
+    new "さて、話の続きに戻るとしよう。"
+
+    old "The Fire element is thought to be the most aggressive of the four, but it isn't specialized for combat, nor is it especially strong."
+    new "『火』の系統は、４つの系統の中でも特に攻撃的と思われてるが、決して戦闘に特化してるわけでも、また特に強いというわけでもない。"
+
+    old "It's true that among the four, Fire is the easiest to turn to attack — but between skilled wielders, there's no superiority among Fire, Water, Wind, and Earth."
+    new "４つの系統の中では攻撃に転化しやすいのは確かだが、習熟した使い手同士ならば、『火』『水』『風』『土』の各系統に優劣はないのだ。"
+
+    old "With all due respect, Mister Colbert. It's a fact that the Fire element is clearly superior to the other three."
+    new "お言葉ですが、ミスタ・コルベール。『火』の系統が、他の３つに比べて明らかに優れてるのは確かですわ。"
+
+    old "Hmm, Miss Zerbst. I'm aware you take pride in your own element, but..."
+    new "ふむ、ミス・ツェルプストー。きみが自分の系統に誇りを持ってるのは承知してるが……、"
+
+    old "Isn't that opinion a little extreme?"
+    new "その意見はいささか極端ではないかね。"
+
+    old "My, but it's a fact. There are individual differences, so I won't say it's absolute..."
+    new "あら、事実ですわ。個人差がありますから、絶対とまでは申しませんけど……。"
+
+    old "The element that can wield the most beautiful and most powerful magic is Fire."
+    new "最も美しく、最も強い魔法を駆使できるのは『火』系統ですわ。"
+
+    old "Of course, that doesn't mean the other elements are ugly or weak. It's simply that Fire is the best."
+    new "もちろん、他の系統が美しくないわけでも弱いわけでもありません。ただ、『火』系統が一番だというだけです。"
+
+    old "But some people can't even get as far as having an element. Isn't that right, 'Louise the Zero'?"
+    new "でも、中には系統以前の者もいますわ。ねえ『ゼロのルイズ』？"
+
+    old "...It's been a while since I heard someone say something so stupid. I wonder who the fool could be?"
+    new "……久しぶりに頭の悪いことを言ってる人がいるわね。いったいどこのお馬鹿さんかしら？"
+
+    old "Oh? Magic, growth, and feminine charm — all of them zero. I wonder who that could be?"
+    new "あら、魔法も発育も女の魅力も、みんなまとめてゼロの誰かさんのことじゃなくて？"
+
+    old "Who's 'Zero'!? I gave back that disgraceful nickname long ago...!"
+    new "誰が『ゼロ』よ！そんな不名誉なあだ名、とっくに返上して……！"
+
+    old "Louise, shh, shh!"
+    new "ルイズ、しーっ、しーっ！"
+
+    old "Huh, what? ...Ah!"
+    new "え、なによ……あ！"
+
+    old "What's wrong? You're making a strange face. Could you be preparing to run away?"
+    new "どうしたの？変な顔して。もしかして、逃げる用意でもしてるのかしら？"
+
+    old "Fu... fu, fu, fu... This is just perfect. I've been irritated since yesterday."
+    new "ふ……ふ、ふ、ふ……。ちょうどいいわ。昨日からずっとイライラしてたのよ。"
+
+    old "Miss Zerbst. Today I'm going to settle this once and for all."
+    new "ミス・ツェルプストー。今日こそ決着をつけさせてもらうわよ。"
+
+    old "I wonder if you can. You, of all people, 'Zero'?"
+    new "あなたにできるかしらねえ。『ゼロ』のあなたに？"
+
+    old "You've said it twice now. I won't forgive you anymore..."
+    new "２度も言ったわね。もう、許さないんだから……。"
+
+    old "H-hey, wait a second..."
+    new "お、おい、ちょっと……。"
+
+    old "Stop it, Louise."
+    new "やめろよ、ルイズ。"
+
+    old "Why are you stopping me!?"
+    new "なんで止めるのよ！"
+
+    old "Because you're about to use magic, aren't you?"
+    new "だっておまえ、魔法を使おうとしてるだろ。"
+
+    old "Of course I am. It's a noble's duel — a duel."
+    new "当然じゃない。貴族の決闘よ、決闘。"
+
+    old "That's exactly what's wrong. Your magic isn't something you can just use in front of people."
+    new "それが駄目なんだって。おまえの魔法はむやみに人前で使っていいものじゃないだろ。"
+
+    old "Ugh. That's true, but..."
+    new "う。それはそうだけど……。"
+
+    old "Then isn't this the place to hold back?"
+    new "だったら、ここは我慢するところじゃないのか。"
+
+    old "Ugh, ugh..."
+    new "う、うう……。"
+
+    old "What's this? After all that big talk, you're running away after all?"
+    new "なあに？威勢のいいこと言っておいて、結局逃げるわけ？"
+
+    old "What did you say!? I'm not running away!"
+    new "なんですってぇ！わたしは逃げたりしないわ！"
+
+    old "Stop it, Kirche."
+    new "やめろよ、キュルケ。"
+
+    old "Oh? I'm not the one who challenged anyone to a duel, darling."
+    new "あら、あたしが決闘を申し込んだわけじゃないわよ、ダーリン？"
+
+    old "The one who challenged is your master."
+    new "決闘を申し込んできてるのは、あなたのご主人様のほうなんだから。"
+
+    old "Please, could you stop provoking Louise?"
+    new "頼むから、ルイズを煽るような真似はやめてくれないかな。"
+
+    old "Besides, she seems to be in a bad mood today."
+    new "それに、今日は機嫌悪いみたいなんだ。"
+
+    old "Mood?"
+    new "機嫌？"
+
+    old "I don't really care about Louise's mood either way. But I don't mean to cause you trouble, darling."
+    new "別にルイズの機嫌なんてどうでもいいけど。ダーリンに迷惑をかけるのは本意じゃないわね。"
+
+    old "Well, thanks for that."
+    new "そりゃどうも。"
+
+    old "Don't go whispering unnecessary things into someone else's familiar. And what's this? After all that lofty talk, you're going to run?"
+    new "人の使い魔に余計なこと吹き込まないでよ。それに、なに？さんざん偉そうなこと言って、逃げるつもり？"
+
+    old "Who said anything about running?"
+    new "誰が逃げるって言うのよ。"
+
+    old "Please stop them, Professor."
+    new "やめさせてください、先生。"
+
+    old "Eh? Me?"
+    new "ええっ、わたしがかね。"
+
+    old "Who else is there? Please, stop those two."
+    new "ほかに誰がいるんですか。お願いですから、あの２人を止めてくださいよ。"
+
+    old "Private duels within the academy are strictly forbidden. Miss Valiere, Miss Zerbst! Stop this duel at once!"
+    new "学院内での私闘は厳禁です。ミス・ヴァリエール、ミス・ツェルプストー！決闘はやめたまえ！"
+
+    old "I will not permit a duel in front of my eyes. For one, it disrupts the lesson."
+    new "わたしの見ている前で、決闘など許可しません。第一、授業の妨げになる。"
+
+    old "...I have no intention of disrupting the lesson."
+    new "……授業を妨害するつもりはありませんわ。"
+
+    old "Let's take this outside. Then we won't be a bother."
+    new "表に出ましょう。それなら迷惑はかからないわ。"
+
+    old "Fine. Let's settle this between just the two of us."
+    new "いいわ。２人だけで決着をつけようじゃないの。"
+
+    old "H-hey, wait! Miss Valiere, Miss Zerbst!"
+    new "こ、こら待ちなさい！ミス・ヴァリエール、ミス・ツェルプストー！"
+
+    old "It's no use...!?"
+    new "駄目だー！？"
+
+    old "No, no, you two! Private duels are forbidden by the school rules."
+    new "いかん、いかんぞ２人とも！私闘は校則で禁じられてるのだ。"
+
+    old "In that case, let's say Mister Colbert knew nothing about it."
+    new "それでしたら、ミスタ・コルベールは何も知らなかったということで。"
+
+    old "That's right. Two students were simply absent from class, so don't worry about it."
+    new "そうですわ。授業中に２人ほど欠席があっただけですから、お気になさらず。"
+
+    old "Let's go.{#ch2.3_L214}"
+    new "行くわよ。"
+
+    old "No need to tell me."
+    new "言われなくても。"
+
+    old "Oh, man, can't be helped. Sorry, Professor. I'll go and try to stop them."
+    new "ああもう、仕方ねえな。すみません先生。俺行ってなんとか止めてみます。"
+
+    old "A-ah. Do your best."
+    new "あ、ああ。ひとつ頑張ってみてくれ。"
+
+    old "Hmph, you're awfully eager for a fight this morning, aren't you?"
+    new "ふん、今朝はずいぶんと戦意旺盛じゃない？"
+
+    old "Sorry, but I don't think I can go easy on you today. Or rather, I don't intend to. Prepare yourself."
+    new "悪いけど、今日は手加減できそうにないから。っていうか、手加減する気もないから。覚悟することね。"
+
+    old "Fufufu. Your big mouth is almost refreshing when it goes that far."
+    new "うふふっ。あなたのその大口も、そこまでいくと清々しいわね。"
+
+    old "Hey, Louise, Kirche! That's enough, both of you!"
+    new "おーい、ルイズ、キュルケ！いいかげんにしろよ、２人とも！"
+
+    old "You be quiet. As if that weren't enough, I've been in a bad mood since this morning."
+    new "あんたは黙ってなさい。それでなくても今朝からちょっと機嫌が悪いの。"
+
+    old "Oh my. Is it about Haruna? Why so jealous, I wonder?"
+    new "あらー。ハルナのことかしら？どうして、そんなにヤキモチさんなのかしらね。"
+
+    old "What did you say!?"
+    new "なんですってー！"
+
+    old "W-what was that!?"
+    new "な、なんだ！？"
+
+    old "Hmph, I'd heard this was a magic academy, but the protection is nothing impressive."
+    new "ふん、魔法学院とは聞いていたが、大したプロテクトではないな。"
+
+    old "Wha— the mage from back then... Did they follow us all the way here?"
+    new "なっ、あの時の魔導士……。ここまで追いかけてきたのかしら？"
+
+    old "What? They infiltrated the academy?"
+    new "なに？この学院に侵入してくるなんて？"
+
+    old "Hand over that girl quietly. Otherwise, you'll get hurt."
+    new "あの娘をおとなしく渡せ。でなければ、痛い目をみることになるぞ。"
+
+    old "Heh, wasn't it you who ran away with a lesson last time?"
+    new "へっ、前回痛い目をみて逃げてったのは、そっちじゃねえか。"
+
+    old "Very well. If you won't hand her over, I'll just use force to get an answer."
+    new "まぁ、いい。出せないというなら、力づくで聞き出すだけだ。"
+
+    old "Kirche. Wait here for a moment. It seems I have to deal with these guys."
+    new "キュルケ。ちょっと待っててもらうわね。こいつらを片づけなきゃいけないようだから。"
+
+    old "Oh, then I'll help. I absolutely hate this sort of boorish crowd."
+    new "あら、それだったら手伝うわ。こういう無粋な手合いは、あたし大嫌いなの。"
+
+    old "Hmph. Suit yourself."
+    new "ふん。好きにすれば。"
+
+    old "Heh heh, now this is turning into something fun, eh? Well, we oughta thank the guy just for stopping the girls' squabble!"
+    new "へへっ、なにやら愉快な展開だなあ？まぁ、娘っこ達のケンカが止んだだけでも、相手に感謝しないといけねぇぜ！"
+
+    old "Couldn't agree more. I'm so happy I could cry."
+    new "まったくだ。うれしすぎて涙も出らぁ。"
+
+    old "This time it won't go like last time. Minions, attack!"
+    new "今度は、前回のようにはいかんぞ。者ども、かかれ！"
+
+    old "What's the matter, giving up already!?"
+    new "どうしたの、もう降参かしらっ！"
+
+    old "Fufun, it was more fun than I expected, but... this is the end."
+    new "ふふん、案外楽しめたけど……ここまでね。"
+
+    old "Heh, no matter how many times we do this, I'm not gonna lose."
+    new "へっ、何度やろうが負けるもんかよ。"
+
+    old "Ugh. To mere children..."
+    new "くっ。たかが子供に……。"
+
+    old "Hmph, 'children'? There's a limit to how much you can underestimate a magic academy student."
+    new "ふん、子供ですって？魔法学院の生徒を侮るにもほどがあるわ。"
+
+    old "That's right. Some students may look like children, but basically we're adults."
+    new "そうよ。見た目が子供の生徒もいるけど、基本的には大人なんだから。"
+
+    old "Wh-who looks like a child!?"
+    new "だ、誰が子供に見えるのよ！"
+
+    old "Oh? I didn't mean you, Louise."
+    new "あら？ルイズのことじゃないわよ。"
+
+    old "Ugh... I'll deal with that matter later."
+    new "くっ……。そのことについては後にしておくわ。"
+
+    old "Now then, where shall we start? At the very least, you'll tell me your identity and why you're after that girl, right now."
+    new "さて、なにから話してもらおうかしらね？少なくとも、あなたの正体と、あの娘を狙う理由はすぐに聞かせてもらうわよ。"
+
+    old "Yeah, yeah. Why don't you tell us why you're after Haruna?"
+    new "そうそう。なんで春奈を狙うのか、教えてもらおうじゃないか。"
+
+    old "Ugh...{#ch2.3_L365}"
+    new "くっ……。"
+
+    old "Wha— what!? What just happened!?"
+    new "なっ、なに！？なにが起きたの！？"
+
+    old "Hey, partner. ...Looks like we've got a new guest."
+    new "おい、相棒。……どうやら、新しいお客さんらしいぞ。"
+
+    old "Huh?{#ch2.3_L380}"
+    new "え？"
+
+    old "What?{#ch2.3_L383}"
+    new "なに？"
+
+    old "……。{#ch2.3_L386}"
+    new "……。"
+
+    old "Looks like that explosion just now was this one's doing."
+    new "さっきの爆発は、こいつのしわざのようだな。"
+
+    old "I doubt she's one of Louise's kind, so I'd say she's a Fire user."
+    new "ルイズの同類がいるとも思えないし、どうやら『火』の使い手ってところかしら。"
+
+    old "If she came to save her comrade, she's a little late."
+    new "仲間を助けに来たのなら、ちょっと遅かったわね。"
+
+    old "Look out! Get away, Miss Zerbst!"
+    new "危ない！離れたまえミス・ツェルプストー！"
+
+    old "Huh?{#ch2.3_L403}"
+    new "え？"
+
+    old "Professor?"
+    new "先生？"
+
+    old "Kyaa!"
+    new "きゃあっ！"
+
+    old "Whoa!"
+    new "うわっ！"
+
+    old "Wh-what!? There's a hole in the ground..."
+    new "な、なに！？地面に穴が……。"
+
+    old "This is the power of a bomb... It must be the rumored bomb user."
+    new "これは爆弾の威力……。噂の爆弾使いに違いありません。"
+
+    old "So it's the one the Professor mentioned this morning!"
+    new "朝、先生が言ってたやつか！"
+
+    old "Kyaaaaa!"
+    new "きゃあああっ！"
+
+    old "Ugh! Is everyone all right!?"
+    new "くっ！みんな大丈夫か！"
+
+    old "Louise, are you all right!?{#ch2.3_L446}"
+    new "ルイズ、大丈夫か！"
+
+    old "Th-there's no need for you to worry about me. I'm fine, I'm not hurt."
+    new "べ、別にサイトに心配されることもないわよ。大丈夫、怪我はしていないわ。"
+
+    old "I-I see, then that's good."
+    new "そ、そうか、なら良かった。"
+
+    old "So you were worried about me."
+    new "心配してくれるのね。"
+
+    old "Well, of course. You're my master."
+    new "そりゃ、俺のご主人様だからな。"
+
+    old "……。{#ch2.3_L465}"
+    new "……。"
+
+    old "Kirche, are you all right!?{#ch2.3_L474}"
+    new "キュルケ、大丈夫か！"
+
+    old "Aahn, darling was worried about me — I'm so moved!"
+    new "あーん、ダーリンが心配してくれるなんて、感激しちゃうわ！"
+
+    old "H-hey, don't cling to me."
+    new "こ、こら抱きつくなって。"
+
+    old "What are you doing, clinging to him in all this confusion!? There are still enemies!"
+    new "何どさくさにまぎれて抱きついてるのよ！まだ、敵がいるのよ！"
+
+    old "Yes, yes."
+    new "はいはい。"
+
+    old "Professor, are you all right!?{#ch2.3_L501}"
+    new "先生、大丈夫ですか！"
+
+    old "Yes, I'm fine, but..."
+    new "ええ、わたしは大丈夫ですが……。"
+
+    old "Saito?"
+    new "サイト？"
+
+    old "Huh?{#ch2.3_L511}"
+    new "うん？"
+
+    old "So I don't matter to you?"
+    new "わたしはどうでもいいの？"
+
+    old "Nah, it's not like that, but you should respect your elders, right?"
+    new "いんや、そんなことはないけど年上を敬うもんだろ？"
+
+    old "...It seems you'll need a proper scolding later."
+    new "……後でしっかりしつけをする必要があるようね。"
+
+    old "Huh, why?"
+    new "え、なんで？"
+

@@ -340,3 +340,21 @@ translate russian strings:
 
     old "Quietly... quietly..."
     new "Потихоньку… потихоньку…"
+
+translate russian strings:
+
+    old "(That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!)"
+    new "(Эта Луиза забыла, что королева запретила ей кому-либо рассказывать о «Пустоте»!)"
+
+    old "(Aah, Kirche had to go and say something unnecessary...!)"
+    new "(А-ах, Кирхе вечно ляпнет что-нибудь лишнее…!)"
+
+    old "(Aah, they're getting more and more heated...!)"
+    new "(А-ах, они всё сильнее распаляются…!)"
+
+    old "(Good grief, is this part of a familiar's job too? ...No, definitely not.)"
+    new "(Вот напасть, неужели и это входит в обязанности фамильяра? …Нет, точно нет.)"
+
+    old "(Aaah, what am I supposed to do...!)"
+    new "(А-а-а, что же мне делать…!)"
+

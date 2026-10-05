@@ -253,3 +253,24 @@ translate russian strings:
 
     old "I went to the toilet"
     new "Я ходил в туалет"
+
+translate russian strings:
+
+    old "Stop it, Louise"
+    new "Перестань, Луиза"
+
+    old "Stop it, Kirche"
+    new "Перестань, Кирхе"
+
+    old "Please stop them, Professor"
+    new "Профессор, остановите их"
+
+    old "Louise, are you all right!?{#ch2.3_L442}"
+    new "Луиза, ты в порядке?!"
+
+    old "Kirche, are you all right!?{#ch2.3_L470}"
+    new "Кирхе, ты в порядке?!"
+
+    old "Professor, are you all right!?{#ch2.3_L497}"
+    new "Профессор, вы в порядке?!"
+

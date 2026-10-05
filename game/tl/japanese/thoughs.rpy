@@ -345,3 +345,21 @@ translate japanese strings:
 
     old "Quietly... quietly..."
     new "（こっそり……。　こっそり……と）"
+
+translate japanese strings:
+
+    old "(That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!)"
+    new "（ルイズのやつ、「虚無」のことは他人に　喋っちゃいけないって女王様に　言われてるの忘れてる！）"
+
+    old "(Aah, Kirche had to go and say something unnecessary...!)"
+    new "（ああっ、キュルケが余計なことをー！）"
+
+    old "(Aah, they're getting more and more heated...!)"
+    new "（ああっ、ますますヒートアップしてるー！）"
+
+    old "(Good grief, is this part of a familiar's job too? ...No, definitely not.)"
+    new "（やれやれ、こんなことも使い魔の仕事なのか？　……違うな、絶対）"
+
+    old "(Aaah, what am I supposed to do...!)"
+    new "（あああ、どうしたらいいんだー！）"
+
