@@ -177,6 +177,13 @@ image cg t_massage_2 = "cg/t_massage_2.webp"
 image cg t_massage_3 = "cg/t_massage_3.webp"
 image cg ha_moon = "cg/ha_moon.webp"
 
+# chapter 3 (project ch2): Louise/Kirche clash; Akina's first appearance
+image cg l_k_fight = "cg/l_k_fight.webp"
+image cg l_k_fight_2 = "cg/l_k_fight_2.webp"
+image cg l_k_fight_3 = "cg/l_k_fight_3.webp"
+image cg l_k_fight_4 = "cg/l_k_fight_4.webp"
+image cg ak_appear = "cg/ak_appear.webp"
+
 
 # ==== MUSIC ====
 define audio.t1 = "audio/bgm/t1.ogg"

@@ -134,7 +134,7 @@ image_id,kind,filename,source,notes,uses,chapters
 97,cg,terrorist,01 [EVENT_CG event image=+97],пиксельная сверка 2026-10-03: MAE 0.963 (следующий 6.754 cg/terrorist3),2,01;08
 98,cg,terrorist3,08 [EVENT_CG event image=+98],пиксельная сверка 2026-10-03: MAE 0.965 (следующий 6.767 cg/terrorist),3,08;27;28
 99,cg,terrorist2,01 [EVENT_CG event image=+99],пиксельная сверка 2026-10-03: MAE 0.840 (следующий 10.863 cg/terrorist3),1,01
-100,cg,,03 [EVENT_CG event image=+100],,2,03
+100,cg,ak_appear,03 [EVENT_CG event image=+100],znt1 (101).png → cg/ak_appear.webp (webp lossless 2026-10-05),2,03
 101,cg,,03 [EVENT_CG event image=+101],,1,03
 102,cg,,05 [EVENT_CG event image=+102],,1,05
 103,cg,ha_forest,02 [EVENT_CG event image=+103],пиксельная сверка 2026-10-03: MAE 0.830 (следующий 1.393 cg/ha_forest_open),2,02
@@ -142,10 +142,10 @@ image_id,kind,filename,source,notes,uses,chapters
 107,cg,ha_hug_2,02 [EVENT_CG event image=+107],пиксельная сверка 2026-10-03: MAE 0.883 (следующий 6.955 cg/ha_hug),2,02
 108,cg,ha_hug_3,02 [EVENT_CG event image=+108],пиксельная сверка 2026-10-03: MAE 0.864 (следующий 6.513 cg/ha_hug),1,02
 109,cg,,03 [EVENT_CG event image=+109],,2,03
-110,cg,,03 [EVENT_CG event image=+110],,4,03
-111,cg,,03 [EVENT_CG event image=+111],,8,03
-112,cg,,03 [EVENT_CG event image=+112],,2,03;14
-113,cg,,03 [EVENT_CG event image=+113],,3,03;14
+110,cg,l_k_fight,03 [EVENT_CG event image=+110],znt1 (111).png → cg/l_k_fight.webp (webp lossless 2026-10-05),4,03
+111,cg,l_k_fight_2,03 [EVENT_CG event image=+111],znt1 (112).png → cg/l_k_fight_2.webp (webp lossless 2026-10-05),8,03
+112,cg,l_k_fight_3,03 [EVENT_CG event image=+112],znt1 (113).png → cg/l_k_fight_3.webp (webp lossless 2026-10-05),2,03;14
+113,cg,l_k_fight_4,03 [EVENT_CG event image=+113],znt1 (114).png → cg/l_k_fight_4.webp (webp lossless 2026-10-05),3,03;14
 114,cg,,04 [EVENT_CG event image=+114],,2,04;06
 115,cg,,04 [EVENT_CG event image=+115],,5,04
 116,cg,,04 [EVENT_CG event image=+116],,4,04

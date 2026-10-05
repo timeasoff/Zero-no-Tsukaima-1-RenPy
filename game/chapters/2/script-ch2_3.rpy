@@ -39,14 +39,15 @@ label ch2_3:
     voice "ch2.3_k_005"
     k "But some people can't even get as far as having an element. Isn't that right, 'Louise the Zero'?"
 
-    $ dissolve_fx("id(110)", stop_music=True, new_music="t29", type="cg")
+    # Первый CG сцены — fade_fx (не dissolve): покрывающий переход сам убирает спрайты. В оригинале здесь fade
+    $ fade_fx("l_k_fight", stop_music=True, new_music="t29", type="cg")
     voice "ch2.3_l_001"
     l "...It's been a while since I heard someone say something so stupid. I wonder who the fool could be?"
 
     voice "ch2.3_k_006"
     k "Oh? Magic, growth, and feminine charm — all of them zero. I wonder who that could be?"
 
-    $ dissolve_fx("id(111)", type="cg")
+    $ dissolve_fx("l_k_fight_2", type="cg")
     voice "ch2.3_l_002"
     l "Who's 'Zero'!? I gave back that disgraceful nickname long ago...!"
 
@@ -55,7 +56,7 @@ label ch2_3:
     voice "ch2.3_s_001"
     s "Louise, shh, shh!"
 
-    $ dissolve_fx("id(110)", type="cg")
+    $ dissolve_fx("l_k_fight", type="cg")
     voice "ch2.3_l_003"
     l "Huh, what? ...Ah!"
 
@@ -65,7 +66,7 @@ label ch2_3:
     voice "ch2.3_l_004"
     l "Fu... fu, fu, fu... This is just perfect. I've been irritated since yesterday."
 
-    $ dissolve_fx("id(111)", type="cg")
+    $ dissolve_fx("l_k_fight_2", type="cg")
     voice "ch2.3_l_005"
     l "Miss Zerbst. Today I'm going to settle this once and for all."
 
@@ -81,7 +82,7 @@ label ch2_3:
     menu:
         "Stop it, Louise":
             # ==== SCENE 91 ====
-            $ dissolve_fx("id(111)", type="cg")
+            $ dissolve_fx("l_k_fight_2", type="cg")
             voice "ch2.3_s_003"
             s "Stop it, Louise."
 
@@ -97,7 +98,7 @@ label ch2_3:
             voice "ch2.3_s_005"
             s "That's exactly what's wrong. Your magic isn't something you can just use in front of people."
 
-            $ dissolve_fx("id(110)", type="cg")
+            $ dissolve_fx("l_k_fight", type="cg")
             voice "ch2.3_l_009"
             l "Ugh. That's true, but..."
 
@@ -112,7 +113,7 @@ label ch2_3:
             voice "ch2.3_k_009"
             k "What's this? After all that big talk, you're running away after all?"
 
-            $ dissolve_fx("id(111)", type="cg")
+            $ dissolve_fx("l_k_fight_2", type="cg")
             voice "ch2.3_l_011"
             l "What did you say!? I'm not running away!"
 
@@ -121,14 +122,14 @@ label ch2_3:
 
         "Stop it, Kirche":
             # ==== SCENE 92 ====
-            $ dissolve_fx("id(111)", type="cg")
+            $ dissolve_fx("l_k_fight_2", type="cg")
             voice "ch2.3_s_007"
             s "Stop it, Kirche."
 
             voice "ch2.3_k_010"
             k "Oh? I'm not the one who challenged anyone to a duel, darling."
 
-            $ dissolve_fx("id(112)", type="cg")
+            $ dissolve_fx("l_k_fight_3", type="cg")
             voice "ch2.3_k_011"
             k "The one who challenged is your master."
 
@@ -141,7 +142,7 @@ label ch2_3:
             voice "ch2.3_k_012"
             k "Mood?"
 
-            $ dissolve_fx("id(110)", type="cg")
+            $ dissolve_fx("l_k_fight", type="cg")
             voice "ch2.3_k_013"
             k "I don't really care about Louise's mood either way. But I don't mean to cause you trouble, darling."
 
@@ -150,11 +151,11 @@ label ch2_3:
             voice "ch2.3_s_010"
             s "Well, thanks for that."
 
-            $ dissolve_fx("id(111)", type="cg")
+            $ dissolve_fx("l_k_fight_2", type="cg")
             voice "ch2.3_l_012"
             l "Don't go whispering unnecessary things into someone else's familiar. And what's this? After all that lofty talk, you're going to run?"
 
-            $ dissolve_fx("id(113)", type="cg")
+            $ dissolve_fx("l_k_fight_4", type="cg")
             voice "ch2.3_k_014"
             k "Who said anything about running?"
 
@@ -181,7 +182,8 @@ label ch2_3:
             voice "ch2.3_c_008"
             c "I will not permit a duel in front of my eyes. For one, it disrupts the lesson."
 
-            $ dissolve_fx("id(113)", type="cg")
+            # Первый CG сцены — fade_fx (не dissolve): покрывающий переход сам убирает спрайты. В оригинале здесь fade
+            $ fade_fx("l_k_fight_4", type="cg")
             voice "ch2.3_k_015"
             k "...I have no intention of disrupting the lesson."
 
@@ -200,7 +202,7 @@ label ch2_3:
 
 label ch2_3_battle:
     # ==== SCENE 94 ====
-    $ dissolve_fx("id(111)", type="cg")
+    $ dissolve_fx("l_k_fight_2", type="cg")
 
     voice "ch2.3_c_010"
     c "No, no, you two! Private duels are forbidden by the school rules."
@@ -383,7 +385,7 @@ label ch2_3_after:
     voice "ch2.3_k_027"
     k "What?{#ch2.3_L383}"
 
-    $ flash_fx("id(100)", type="cg", stop_music=True, new_music="t17")
+    $ flash_fx("ak_appear", type="cg", stop_music=True, new_music="t17")
     unk "……。{#ch2.3_L386}"
 
     voice "ch2.3_s_021"

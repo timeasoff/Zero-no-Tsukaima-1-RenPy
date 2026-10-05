@@ -102,6 +102,15 @@ call overlay_screen("overlay", "Chapter One: \"Louise of Zero\"", isUseBlur=Fals
                     text_mode="black") from _call_overlay_screen_4     # ch1_1
 ```
 
+### CG и спрайты — первый CG через `fade_fx`
+
+Если перед появлением CG на экране есть спрайты, **первый CG показывается через
+`fade_fx`**, а не `dissolve_fx`: `fade` — покрывающий переход (`hide`/`hud` по умолчанию
+`True`), поэтому спрайты исчезают сами. У `dissolve` `hide=False` — спрайты останутся
+поверх картинки. Дальнейшие CG этой же серии можно показывать `dissolve_fx` (спрайтов на
+экране уже нет). В источнике такие первые CG — fade, не crossfade.
+Пример: `game/chapters/2/script-ch2_3.rpy` стр. 43 и 186.
+
 ### `from _call_overlay_screen_K` — уникальность
 
 * Каждый `call overlay_screen(...)` в `.rpy` получает **собственный** суффикс `K`;
