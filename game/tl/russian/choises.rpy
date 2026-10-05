@@ -292,6 +292,27 @@ translate russian strings:
     old "Do you want to be laid up in bed too?{#ch2.4_m110c}"
     new "Ты тоже хочешь быть прикованной к кровати?{#ch2.4_m110c}"
 
+    old "I know.{#ch2.5_m1256a}"
+    new "Я знаю.{#ch2.5_m1256a}"
+
+    old "Don't worry about that.{#ch2.5_m1256b}"
+    new "Не беспокойся об этом.{#ch2.5_m1256b}"
+
+    old "Someday you'll be able to tell.{#ch2.5_m1256c}"
+    new "Когда-нибудь ты сможешь рассказать.{#ch2.5_m1256c}"
+
+    old "A suspicious person infiltrated.{#ch2.5_m1261a}"
+    new "Подозрительный человек проник внутрь.{#ch2.5_m1261a}"
+
+    old "That Louise did it again.{#ch2.5_m1261b}"
+    new "Эта Луиза снова натворила.{#ch2.5_m1261b}"
+
+    old "I don't know either.{#ch2.5_m1261c}"
+    new "Я тоже не знаю.{#ch2.5_m1261c}"
+
+    old "Leave"
+    new "Завершить патруль"
+
     old "Hallway{#ch2.4_hallway}"
     new "Коридор"
 
@@ -306,4 +327,81 @@ translate russian strings:
 
     old "Louise's Room{#ch2.4_lroom}"
     new "Комната Луизы"
+
+    # ---- ch2.5 location menus (сцены 1266–1280) ----
+
+    old "I'd worry about anyone.{#ch2.5_m1266a}"
+    new "Побеспокоился бы о любом."
+
+    old "I'm worried because it's you, Kirche.{#ch2.5_m1266b}"
+    new "Я волнуюсь, потому что это ты, Кирхе."
+
+    old "It's not like I'm worried about you.{#ch2.5_m1266c}"
+    new "Это не то чтобы я волновался за тебя."
+
+    old "I was worried about Tabitha.{#ch2.5_m1271a}"
+    new "Я волновался за Табиту."
+
+    old "I was worried about everyone in the classroom.{#ch2.5_m1271b}"
+    new "Я волновался за всех, кто был в классе."
+
+    old "No particular reason.{#ch2.5_m1271c}"
+    new "Особой причины нет."
+
+    old "At least I'm glad you're safe, Haruna.{#ch2.5_m1276a}"
+    new "Главное — рад, что ты в порядке, Харуна."
+
+    old "Make sure nobody else finds you.{#ch2.5_m1276b}"
+    new "Только не попадайся другим на глаза."
+
+    old "Just stay put, okay?{#ch2.5_m1276c}"
+    new "Просто сиди тихо, ладно?"
+
+    old "Chase after Siesta{#ch2.5_m115a}"
+    new "Пойти за Сиестой"
+
+    old "Stay by Haruna's side{#ch2.5_m115b}"
+    new "Остаться рядом с Харуной"
+
+    old "Louise's Room{#ch2.5_lroom}"
+    new "Комната Луизы"
+
+    old "Kirche's Room{#ch2.5_kroom}"
+    new "Комната Кирхе"
+
+    old "Tabitha's Room"
+    new "Комната Табиты"
+
+    old "Hallway{#ch2.5_hallway}"
+    new "Коридор"
+
+    old "Did I say something wrong?{#ch2.5_m1281a}"
+    new "Я что-то не так сказал?"
+
+    old "Are you scared of being alone?{#ch2.5_m1281b}"
+    new "Тебе страшно оставаться одной?"
+
+    old "Does something hurt?{#ch2.5_m1281c}"
+    new "Где-нибудь болит?"
+
+    old "I think I made her mad about Haruna.{#ch2.5_m1286a}"
+    new "Похоже, я её из-за Харуны рассердил."
+
+    old "It's Louise's usual tantrum.{#ch2.5_m1286b}"
+    new "Обычный каприз Луизы."
+
+    old "I don't really know either.{#ch2.5_m1286c}"
+    new "Я и сам не очень понимаю."
+
+    old "What were you doing?{#ch2.5_m1291a}"
+    new "Что ты делала?"
+
+    old "Why did you unlock the door?{#ch2.5_m1291b}"
+    new "Почему ты открыла мне дверь?"
+
+    old "Do you really not know where Louise is?{#ch2.5_m1291c}"
+    new "Ты правда не знаешь, где Луиза?"
+
+    old "Leave{#ch2.5_leave}"
+    new "Завершить патруль"
 

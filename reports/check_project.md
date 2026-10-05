@@ -6,7 +6,7 @@
 
 ## ERROR (1)
 
-- E7 jump 'ch2_5' at game/chapters/2/script-ch2_4.rpy:594 has no label
+- E7 jump 'ch2_6' at game/chapters/2/script-ch2_5.rpy:448 has no label
 
 ## WARNING (275)
 
@@ -178,7 +178,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:122: Chapter Seven: 'Haruna's Decision'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:136: Chapter Seven: 'Iron Man of Cooking'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:108: Chapter Seven: 'My Older Brother'
-- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:62: Chapter Seven: 'Noble Spirit'
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:62: Chapter Seven: 'Noble's Pride'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:94: Chapter Seven: 'Princess's Despair'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:79: Chapter Seven: 'Tabitha's Secret'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:105: Chapter Six: 'Flame Premonition'
@@ -290,8 +290,8 @@
 
 - speakers defined: 32
 - overlay K: max=7 used=7 next_free=8
-- voices: refs=1658 ogg=1664 missing=0
-- I1 ch2: strings=571 source_talk=1382 (gap expected)
+- voices: refs=2081 ogg=2087 missing=0
+- I1 ch2: strings=1062 source_talk=1382 (gap expected)
 - I1 ch3: not started (source talk=1078)
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
@@ -318,6 +318,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=143 open=169 | placeholders=0 in 0 file(s)
-- labels=51 rpy=51 strings(strict=1838) tl_old=japanese:2321,russian:2348
+- image map: ids=312 named=143 open=169 | placeholders=2 in 1 file(s)
+- labels=65 rpy=55 strings(strict=2329) tl_old=japanese:2812,russian:2839
 

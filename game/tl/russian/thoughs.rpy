@@ -385,3 +385,83 @@ translate russian strings:
     old "...It should be a warm atmosphere, but somehow the air feels strangely heavy."
     new "…Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым."
 
+    old "If I get praised so openly, I'll get embarrassed."
+    new "Если меня так открыто хвалять, я смущусь."
+
+    # ---- ch2.5 location block (сцены 1266–1280) ----
+
+    old "She's reading a book completely normally. Like that commotion earlier never even happened."
+    new "Она просто читает книгу, как ни в чём не бывало. Будто той суматохи вообще не было."
+
+    old "Being ignored this skillfully is honestly kind of refreshing..."
+    new "Когда тебя так мастерски игнорируют, это даже освежающе..."
+
+    old "Um... I'm not imagining things, right?"
+    new "Эм... это, кажется, не моя фантазия, да?"
+
+    old "Um, um... I have no idea how I'm supposed to react!"
+    new "Эм, эм... я понятия не имею, как на это реагировать!"
+
+    old "Doesn't seem like she hates me, but..."
+    new "Кажется, она меня не ненавидит, но..."
+
+    old "Ugh, I can't keep the silence going."
+    new "Уф, такую паузу я не выдерживаю."
+
+    old "Don't know why, but maybe she's in a bad mood. Or maybe I'm interrupting her reading."
+    new "Не знаю почему, но, может, она не в духе. Или я мешаю её чтению."
+
+    old "I'm worried about Louise. That idiot definitely misunderstood something, got in a huff, and blew up."
+    new "Переживаю за Луизу. Она точно что-то не так поняла, надулась и взорвалась."
+
+    old "But... I can't leave Haruna all alone right now... can I?"
+    new "Но ведь нельзя оставить Харуну сейчас совсем одну…"
+
+    old "Ever since I came to this world, I haven't had a single acquaintance, or anyone willing to help me."
+    new "С тех пор как я попал в этот мир, у меня не было ни знакомых, ни того, кто мог бы помочь."
+
+    old "So having me around — someone she already knows — must really matter that much."
+    new "Значит, очень важно, чтобы рядом был я — уже знакомый человек."
+
+    old "I'll leave Louise to Siesta for now. She'll probably be fine."
+    new "Луизу пока оставлю Сиесте — наверное, она справится."
+
+    old "Still, those two are taking their sweet time coming back..."
+    new "И всё же они вдвоём почему-то не возвращаются…"
+
+    old "I wonder if Siesta can't find Louise?"
+    new "Может, Сиеста так и не нашла Луизу?"
+
+    old "Or maybe it's Louise — she's stubborn in the oddest ways... She might not be able to make herself come back."
+    new "Или Луиза упрямая на редкость… Может, она уже не может заставить себя вернуться."
+
+    old "How far did that girl go anyway?"
+    new "А куда это ушла?"
+
+    old "What's wrong? She's in a really foul mood."
+    new "Что ж такое? Прямо не в духе."
+
+    old "Then why on earth is she in a bad mood?"
+    new "Тогда почему она вообще такая кислая?"
+
+    old "Did I really say something wrong?"
+    new "Я правда сказал что-нибудь не так?"
+
+    old "Hmm... Did I say something weird?"
+    new "Мм… Я что-то странное сказал?"
+
+    old "So she's not sick after all. Then why did her mood go sour all of a sudden?"
+    new "То есть дело не в болезни. Тогда почему она вдруг стала кислой?"
+
+    old "I sure hope Haruna's mood perks up before Louise gets back..."
+    new "Хорошо бы, чтобы Харуна поправила настроение раньше, чем вернётся Луиза…"
+
+    old "Ugh, with that same expressionless face, I can't tell if she's lying or telling the truth..."
+    new "Уф, с этим её бесстрастным лицом не разобрать, правда это или ложь…"
+
+    old "The night sky here looks nothing like the one in Japan. Well, obviously."
+    new "Звёздное небо тут совсем не как в Японии. Ну, это и так понятно."
+
+    old "Well then. I said all that, but where did Louise run off to?"
+    new "Ну что ж. Хоть я и наговорил, а куда это Луиза подевалась?"
+

@@ -59,7 +59,7 @@ translate russian strings:
     old "Chapter Six: 'The Queen's Decision'"
     new "Глава шестая: «Решение королевы»"
 
-    old "Chapter Seven: 'Noble Spirit'"
+    old "Chapter Seven: 'Noble's Pride'"
     new "Глава седьмая: «Гордость аристократа»"
 
     # Koakuma to Harukaze no Concerto - game name

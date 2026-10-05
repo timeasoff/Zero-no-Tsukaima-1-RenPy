@@ -150,3 +150,9 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 438,s 4 angry,1,99,1563,lay5,ch2 part4; block 434 pos 4; пиксель-сверка SCENEDAT[438] -> s 4 angry
 492,si 1 happy,1,106,1803,lay2,ch2 part4; block 489 pos 2; пиксель-сверка SCENEDAT[492] -> si 1 happy
 974,ha 3,1,106,1807,lay7,ch2 part4; block 973 pos 1 (поза B); пиксель-сверка SCENEDAT[974] -> ha 3
+436,s 4 happy,1,1261,4152,lay5,ch2 part4b; block 434 pos 2; пиксель-сверка SCENEDAT[436] -> s 4 happy
+588,t 1,1,1271,4416,lay0,ch1+ch2 part4c; block 588 pos 0; пиксель-сверка SCENEDAT[588] -> t 1 (MAE 0.574, следующий 0.767)
+704,k 3 sad,6,1286,4844,lay6,ch2 part5b; block 698 pos 6; пиксель-сверка SCENEDAT[704] -> k 3 sad (2026-10-05, grid 96x192: MAE 5.54, следующая семья 12.88); поза совпадает с формулой pos 6
+610,t 3,5,1291,4990,lay0,ch2 part5b; block 610 pos 0; пиксель-сверка SCENEDAT[610] -> t 3 (2026-10-05, grid 96x192: MAE 10.63, следующий 39.77 t 2)
+612,t 3 happy,2,1292,5033,lay0,ch2 part5b; block 610 pos 2; семья t 3 пиксель-сверкой (MAE 10.55), поза по формуле pos 2 = happy
+616,t 3 sad,1,1293,5055,lay0,ch2 part5b; block 610 pos 6; семья t 3 пиксель-сверкой (MAE 10.34), поза по формуле pos 6 = sad

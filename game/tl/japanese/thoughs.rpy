@@ -390,3 +390,83 @@ translate japanese strings:
     old "...It should be a warm atmosphere, but somehow the air feels strangely heavy."
     new "（……なんか、なごやかなはずなのに妙に空気が重いな）"
 
+    old "If I get praised so openly, I'll get embarrassed."
+    new "（あんまりべた褒めされると、照れるなあ）"
+
+    # ---- ch2.5 location block (сцены 1266–1280) ----
+
+    old "She's reading a book completely normally. Like that commotion earlier never even happened."
+    new "（なんか、ごく普通に本を読んでるな。　さっきの騒ぎなんて、　まるでなかったみたいだ）"
+
+    old "Being ignored this skillfully is honestly kind of refreshing..."
+    new "（ここまで見事にスルーされると、　いっそ清々しい気分になるなー……）"
+
+    old "Um... I'm not imagining things, right?"
+    new "（ええと、気のせいじゃないよな）"
+
+    old "Um, um... I have no idea how I'm supposed to react!"
+    new "（ええと、ええと……。　どうリアクションしていいか分かんねえよ！）"
+
+    old "Doesn't seem like she hates me, but..."
+    new "（嫌われてるわけじゃなさそうだけど……）"
+
+    old "Ugh, I can't keep the silence going."
+    new "（ううっ、間がもたない）"
+
+    old "Don't know why, but maybe she's in a bad mood. Or maybe I'm interrupting her reading."
+    new "（なんだか知らないけど、機嫌悪いのかな。　それとも、読書の邪魔ってことか）"
+
+    old "I'm worried about Louise. That idiot definitely misunderstood something, got in a huff, and blew up."
+    new "（ルイズが心配だ。　絶対あいつ、なんか誤解して、むくれて、　爆発しちまったわけだし）"
+
+    old "But... I can't leave Haruna all alone right now... can I?"
+    new "（でも、今春奈を１人ぼっちにする　わけには……いかないか）"
+
+    old "Ever since I came to this world, I haven't had a single acquaintance, or anyone willing to help me."
+    new "（この世界に来てから、知り合いも助けてくれる　人もいなかったんだもんな）"
+
+    old "So having me around — someone she already knows — must really matter that much."
+    new "（顔見知りの俺がいることが、　よっぽど大事ってことか）"
+
+    old "I'll leave Louise to Siesta for now. She'll probably be fine."
+    new "（ルイズのことは、とりあえずシエスタに　任せよう。　たぶん、大丈夫だろ）"
+
+    old "Still, those two are taking their sweet time coming back..."
+    new "（それにしても、　２人ともなかなか帰って来ないな……）"
+
+    old "I wonder if Siesta can't find Louise?"
+    new "（シエスタ、ルイズを見つけられないで　いるのかな？）"
+
+    old "Or maybe it's Louise — she's stubborn in the oddest ways... She might not be able to make herself come back."
+    new "（それとも、ルイズのやつ　変なところで強情だからなぁ……。　帰るに帰れなくなってるかもしれない）"
+
+    old "How far did that girl go anyway?"
+    new "（どこまで行ったんだ、あいつは）"
+
+    old "What's wrong? She's in a really foul mood."
+    new "（なんだ？　ずいぶんとご機嫌斜めだな）"
+
+    old "Then why on earth is she in a bad mood?"
+    new "（すると、いったいなんで機嫌が　悪いんだろう？）"
+
+    old "Did I really say something wrong?"
+    new "（本当に俺、何かまずいこと言ったのかな？）"
+
+    old "Hmm... Did I say something weird?"
+    new "（うーん。　俺、なんか変なこと言っちゃったかな）"
+
+    old "So she's not sick after all. Then why did her mood go sour all of a sudden?"
+    new "（体調が悪いわけじゃないのか。　だとすると、なんで急に機嫌が　悪くなってるんだ？）"
+
+    old "I sure hope Haruna's mood perks up before Louise gets back..."
+    new "（ルイズが戻ってくるまでに、　春奈の機嫌が直ってくれると　いいんだけどなぁ……）"
+
+    old "Ugh, with that same expressionless face, I can't tell if she's lying or telling the truth..."
+    new "（ううっ、相変わらずの無表情だから、　本当か嘘かさっぱり分からない……）"
+
+    old "The night sky here looks nothing like the one in Japan. Well, obviously."
+    new "（日本で見る星空と全然違うな。　当たり前だけど）"
+
+    old "Well then. I said all that, but where did Louise run off to?"
+    new "（さあて、と。　ああは言ったものの、　ルイズのやつ、どこに行ったもんだか）"
+

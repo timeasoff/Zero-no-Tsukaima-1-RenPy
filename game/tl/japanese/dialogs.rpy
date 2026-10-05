@@ -4838,3 +4838,1304 @@ translate japanese strings:
     old "Honestly, I don't care anymore!"
     new "もう、知らないんだから！"
 
+    old "Because of the commotion earlier, the whole academy feels restless."
+    new "さっきの騒ぎがあったから、なんとなく学院全体がざわついてる感じだな。"
+
+    old "Well, can't be helped. With a ruckus that flashy, you'd hear it even if you didn't see it."
+    new "そりゃまあ、仕方ねえだろ。あんな派手な騒ぎじゃ、直接見てなくたって音は聞こえるだろうしよぉ。"
+
+    old "Yeah?"
+    new "うん？"
+
+    old "Saito!"
+    new "サイト！"
+
+    old "Because I don't know when that bomb user might come back."
+    new "だって、あの爆弾使いが、いつまたやって来るか分かんないんだぜ。"
+
+    old "That's why I thought someone ought to keep a lookout."
+    new "そのためにも、誰かが見回った方が良いと思ったんだよ。"
+
+    old "I wondered where you were wandering off to, and here you are."
+    new "どこをほっつき歩いてるのかと思ったら、こんなところにいたのね。"
+
+    old "Good grief, wandering off on your own away from your master — what are you thinking?"
+    new "まったく、ご主人様を離れてプラプラ行動するなんて、一体なにを考えてるのよ。"
+
+    old "Uh, that was thoughtless of me. Sorry."
+    new "ええと、それは悪かった。ごめん。"
+
+    old "If it were really the case, I'd blast those suspicious types away with my magic and catch them."
+    new "本当だったらあんな怪しい連中、わたしの魔法で吹き飛ばして捕まえちゃうのに。"
+
+    old "I understand that, but... then at least consult me first. I'd worry about where you went, you know?"
+    new "それは分かってるけど……、だったらわたしに一言相談くらいしなさいよ。どこに行ったのか心配しちゃうでしょ？"
+
+    old "No, no, if you blast them away with magic, their lives would be in danger."
+    new "いやいや、おめえが魔法で吹っ飛ばしたら、相手の命が危ねえって。"
+
+    old "First of all, your magic isn't something others can know about, right? You're not supposed to use it so casually."
+    new "第一、おまえの魔法は他には知られちゃいけないんだろ？そんなポンポン使っちゃ駄目だって。"
+
+    old "I know that without you telling me, Saito. That the 'Void' is something I must never tell anyone."
+    new "サイトに言われなくても、分かってるわよ。『虚無』のことは、誰にも言っちゃいけないってことは。"
+
+    old "But everyone thinks I can't use magic well. To everyone, I'm 'Louise the Zero.'"
+    new "でも、わたしが魔法をうまく使えないってみんな思ってる。みんなにとってわたしは『ゼロのルイズ』なの。"
+
+    old "Louise..."
+    new "ルイズ……。"
+
+    old "I know."
+    new "俺が知ってるから。"
+
+    old "Wh-what, all of a sudden?"
+    new "な、なによ急に。"
+
+    old "Even if no one else in this world knows, I know. So don't make that face."
+    new "この世界の誰が知らなくたって、俺が知ってるだろ？だから、そんな顔すんなよ。"
+
+    old "Sa... Saito?"
+    new "さ……サイト？"
+
+    old "I said, don't make that teary-eyed face. It's not like you, Louise."
+    new "だから、そんな泣きそうな顔をするなって。ルイズらしくもない。"
+
+    old "Wh-who's making a teary-eyed face! I'm not!"
+    new "だっ、誰が泣きそうな顔だって言うのよ！そんなことないんだから！"
+
+    old "Don't worry about that."
+    new "そんなこと気にすんな。"
+
+    old "...You say that awfully casually."
+    new "……ずいぶんと気楽に言ってくれるじゃない。"
+
+    old "It's not casual. Well, I can't understand a noble's pride and all that."
+    new "気楽じゃねーって。そりゃま、俺には貴族様のメンツなんてもんは理解できないけどさ。"
+
+    old "You yourself know that you're not 'Louise the Zero.' No matter what the others say, that's certain."
+    new "おまえが『ゼロのルイズ』なんかじゃないってことを、おまえ自身が知ってるんじゃないか。ほかの連中が何を言おうと、それは確かだろ。"
+
+    old "Yeah... that's right. That's true."
+    new "うん……そうね。それは、そう。"
+
+    old "Someday, the day will come when you can tell."
+    new "いつか、言える日が来るさ。"
+
+    old "Eh...?"
+    new "え……？"
+
+    old "Right now, you're the only 'Void' user in this country, so..."
+    new "今のところ、この国での『虚無』の使い手はおまえだけで……、"
+
+    old "If that were known, you might be taken advantage of for ill, so you have to keep it secret, right?"
+    new "それを知られたらおまえが悪いことに利用されちゃうかもしれないから、内緒にしなきゃならないってことだろ？"
+
+    old "Y-yes. Her Highness said that, but..."
+    new "え、ええ。姫さまはそう言ってたけど……。"
+
+    old "So in other words, once the people who'd think to take advantage of you are gone, you can openly declare it, right?"
+    new "それってつまり、おまえを利用しようなんて考えるやつらがいなくなれば、堂々と名乗れるってことだよな？"
+
+    old "Y-yes. In theory that's how it works."
+    new "え、ええ。理屈ではそうなるけど。"
+
+    old "Then what you should do is hone your magic and grow strong. If you can serve Her Highness, everything's OK."
+    new "んじゃ、おまえがするべきなのは、魔法の腕を磨いて強くなることじゃないか？それで、お姫さまの役に立てば万事ＯＫだろ。"
+
+    old "...Hearing you talk, the world seems awfully simple."
+    new "……あんたの話を聞いてると、世界がすごく単純に思えてくるわ。"
+
+    old "What, that's a bad thing?"
+    new "なんだ、そりゃ。"
+
+    old "If things went that easily, no one would have to struggle."
+    new "そんなに簡単にいけば、苦労はしないってこと。"
+
+    old "I feel like I've been smoothly talked around, but from now on, talk to me properly."
+    new "なんか、うまくごまかされたような気がするけど、今度からちゃんとわたしに話しなさいよ。"
+
+    old "Yeah, got it."
+    new "ああ、分かった。"
+
+    old "Well then, I'll head back to my room. You do your best on your patrol."
+    new "それじゃ、わたしは部屋に戻るから。あんたは頑張って見回りなさい。"
+
+    old "Understood. I'll patrol thoroughly."
+    new "了解。しっかり見回るさ。"
+
+    old "Looks like there's nothing particularly wrong here..."
+    new "ここは特に異常は無いみたいだな……。"
+
+    old "Ah, Saito-san!"
+    new "あ、サイトさん！"
+
+    old "Ah, hey, Siesta."
+    new "あ、やあシエスタ。"
+
+    old "Thank goodness, Saito-san, you're safe."
+    new "良かったあ、サイトさん無事だったんですね。"
+
+    old "Huh? Safe?"
+    new "へ？無事って？"
+
+    old "Earlier, there was a loud explosion outside, wasn't there?"
+    new "さっき、外でなんだか大きな爆発音がしたじゃないですか。"
+
+    old "Then the academy teachers said, 'Commoners are not to go outside'..."
+    new "そしたら、学院の先生方が『平民は外に出ないように』って言われて……。"
+
+    old "So I had no idea what happened outside."
+    new "ですから、外でいったい何が起きたのか分からなくって。"
+
+    old "I was so worried, thinking what if something happened to you, Saito-san..."
+    new "もしサイトさんの身になにかあったら、どうしようって、心配で心配で……。"
+
+    old "I'm fine, as you can see. Right now I'm patrolling to check if there's any danger."
+    new "俺は、見てのとおり大丈夫。今は、危険がないかどうか見回りしてるところなんだ。"
+
+    old "Is that so. Saito-san, you really are dependable."
+    new "そうなんですか。サイトさん、やっぱり頼りになります。"
+
+    old "I-is that so? Ahaha..."
+    new "そ、そうかな？あはは……。"
+
+    old "But what on earth happened?"
+    new "でも、いったい、なにが起きたんでしょう。"
+
+    old "Ah, that's..."
+    new "ああ、それは……。"
+
+    old "A suspicious person infiltrated."
+    new "怪しい奴が侵入したんだ。"
+
+    old "A suspicious person?"
+    new "怪しい奴？"
+
+    old "Yeah. The guy who tried to take Haruna yesterday, and his accomplice who uses bombs."
+    new "うん。昨日、春奈を連れて行こうとした奴と、その仲間で爆弾を使う奴。"
+
+    old "Those people infiltrated the academy grounds!?"
+    new "そんな人達が学院の敷地に侵入してきたんですか！"
+
+    old "Ah, yeah. Me and Louise and the others beat them, but they got away."
+    new "ああ、うん。俺やルイズ達でやっつけたんだけど、逃げられちまってさ。"
+
+    old "So I'm patrolling to see if they've come back again."
+    new "だから、こうしてまた来たりしてないかどうか、見回ってるんだよ。"
+
+    old "Is that so. As expected of you, Saito-san."
+    new "そうだったんですか。さすがですね、サイトさん。"
+
+    old "No, it's nothing that big. I can only do this much."
+    new "いや、そんなたいしたことじゃないから。俺、これくらいしかできないからさ。"
+
+    old "No, that IS a big deal. And yet you don't boast about it... You're so humble, Saito-san."
+    new "いいえ、それってたいしたことですよ。なのに、それを誇ったりせずに……、奥ゆかしいんですね、サイトさんって。"
+
+    old "Ah, no, hahaha..."
+    new "あ、いや、ははは……。"
+
+    old "That Louise did it again."
+    new "ルイズの奴がまたやらかしたんだ。"
+
+    old "Oh my, Miss Vallière?"
+    new "まあ、ミス・ヴァリエールが？"
+
+    old "That's right, she once again let her magic run wild. She blew a huge hole in the courtyard."
+    new "そうそう、あいつってばまた派手に魔法を暴走させてさあ。中庭に大穴を空けちまったんだ。"
+
+    old "Oh my."
+    new "あらあら。"
+
+    old "So right now, they're in the middle of restoring the courtyard outside."
+    new "なもんで、今、外じゃ中庭を元通りに戻してる最中だからさ。"
+
+    old "I think they're telling people not to go outside because it's dangerous underfoot there."
+    new "あそこ通ると足下危ないから、外に出ないようにって言ってるんじゃないかな。"
+
+    old "That's a lie, isn't it?"
+    new "今の、嘘なんでしょ？"
+
+    old "Wh-what? Why would you think that?"
+    new "な、なんで？どうしてそう思うのかな？"
+
+    old "Because if that earlier explosion was Miss Vallière's doing, there'd be no need for you to patrol, Saito-san."
+    new "だって、もしさっきの爆発がミス・ヴァリエールのしわざなら、サイトさんが見回る必要なんてないじゃないですか。"
+
+    old "You told that lie on purpose to keep me from worrying, didn't you, Saito-san?"
+    new "サイトさん、わたしを心配させないために、わざとそんな嘘を言ったんでしょ？"
+
+    old "Hmm, you've seen right through me. Sorry, Siesta. You're right, that was all a lie."
+    new "うーん、完全にお見通しか。ごめん、シエスタ。君の言うとおり、今のは全部嘘。"
+
+    old "Ufufu... Saito-san, you're so kind."
+    new "うふふ……。サイトさん、優しいんですね。"
+
+    old "Ah, no. It's nothing big."
+    new "あ、いや。たいしたことじゃ、ないから。"
+
+    old "I don't know either."
+    new "俺にも分からないんだ。"
+
+    old "Is that so?{#ch2.5_si019}"
+    new "そうなんですか？"
+
+    old "I know a huge explosion happened outside, but unfortunately I didn't see what actually happened..."
+    new "外ですごい爆発が起きたのは知ってるけど、実際になにが起きてたのかまでは、あいにく見てなかったから……。"
+
+    old "Is that so. I wonder what on earth happened."
+    new "そうなんですか。いったい、なにがあったんでしょう。"
+
+    old "I don't know, but if it wasn't an accident and someone suspicious snuck in, it'd be a problem."
+    new "それは分からないけど、もし事故とかじゃなくて誰か怪しい奴が忍び込んだりしたせいだったら大変だからさ。"
+
+    old "So I'm patrolling like this."
+    new "こうして見回ってるんだ。"
+
+    old "Is that so. It must be hard for you too, Saito-san."
+    new "そうなんですか。大変ですね、サイトさんも。"
+
+    old "No, I can only do this much."
+    new "いや、俺ってばこれくらいしかできないから。"
+
+    old "It's fine. People are here to do what they can. That's what I think."
+    new "いいんですよ。人は、自分にできることをするためにいるんです。わたしは、そう思ってます。"
+
+    old "Yeah, you're right. As expected of Siesta. You say good things."
+    new "うん、そうだな。さすがシエスタだ。いいこと言うなあ。"
+
+    old "Oh, stop it. It's nothing that big."
+    new "やだ、そんなたいしたことじゃないですよ。"
+
+    old "Well then, if you see anyone unfamiliar or acting suspiciously, could you let me or the academy teachers know?"
+    new "それじゃ、もし見かけない人や、挙動が不審な人を見たら、俺や学院の先生に知らせてくれないか？"
+
+    old "Yes, understood. You take care too, Saito-san."
+    new "はい、分かりました。サイトさんも、お気をつけて。"
+
+    old "Thank you."
+    new "ありがとう。"
+
+    # ---- ch2.5 location block (сцены 1266–1280): 中庭 / 教室 / ルイズの部屋 ----
+
+    old "Because of the commotion earlier, there's hardly anyone around."
+    new "さっきの騒ぎのせいで、人はほとんどいないな。"
+
+    old "To any regular person, nobody's gonna stick their neck into something that troublesome on purpose."
+    new "ごく普通の連中にすりゃ、わざわざやっかいごとに首突っ込もうなんて思うわけねえさ。"
+
+    old "Yeah, true."
+    new "ま、それもそうだな。"
+
+    old "Except that rare exception happens to be you, partner."
+    new "その貴重な例外が、相棒だったりするけどな。"
+
+    old "Shut up."
+    new "うるさい。"
+
+    old "Oh my, if it isn't Darling. What are you doing in a place like this?"
+    new "あら、ダーリンじゃない。どうしたの、こんなところで。"
+
+    old "Kirche? What are you doing here?"
+    new "キュルケ？なんでこんなところにいるんだ。"
+
+    old "What are YOU doing here, Darling?"
+    new "ダーリンこそ、こんなところで何してるの？"
+
+    old "I was worried those guys might come back, so I was doing a bit of patrolling."
+    new "さっきの連中がまたやって来ないか心配なんで、ちょっと見回りしてたんだ。"
+
+    old "My, as expected of Darling. The brave side of you gives me a thrill too!"
+    new "へえ、さすがダーリン。勇ましいところもシビレルわ！"
+
+    old "But what about you, Kirche — why did you come back? They might still be here."
+    new "そういうキュルケこそ、どうして戻って来たんだ？あいつらがまだいるかもしれないだろ？"
+
+    old "My, are you worried about me? I'm happy, Darling."
+    new "あら、心配してくれるの？嬉しいわ、ダーリン。"
+
+    old "Look..."
+    new "あのな……。"
+
+    old "I'd worry about anyone."
+    new "誰がいたって心配するさ。"
+
+    old "Oh my, what a shame. I'd just hoped you'd worry about me alone..."
+    new "あら、残念。できればわたしだけ心配してほしいんだけどなぁ。"
+
+    old "Like I could. At the very least, if it's people I know, anyone would worry."
+    new "そんなことできるわけないだろ。少なくとも知ってる連中がいたら、誰だって心配するよ。"
+
+    old "Huh. Darling really is broad-minded."
+    new "ふーん、ダーリンったら、本当に懐が広いのね。"
+
+    old "Is that so?{#ch2.5_s9513}"
+    new "そうなのか？"
+
+    old "That's right."
+    new "そうよ。"
+
+    old "Because it's you, Kirche, I'm worried."
+    new "キュルケだから心配なんだ。"
+
+    old "My, how honest of you."
+    new "あら、素直じゃない。"
+
+    old "At least take me seriously. I know you're strong, Kirche, but your opponents are unknowns."
+    new "少しは真剣に聞けよ。キュルケが強いのは知ってるけど、相手は正体不明の相手だぞ。"
+
+    old "I never let my guard down. A fight can happen anytime. ...But I'm happy about your honest feelings, Darling."
+    new "油断はしていないわ。いつだって、戦いはあるものだもの。でも、ダーリンの素直な気持ちが嬉しいわ。"
+
+    old "Hah."
+    new "はあ。"
+
+    old "There's no girl who wouldn't be happy to have a knight who cherishes her."
+    new "自分を大切に思ってくれるナイトに、嬉しく思わない女の子はいないわよ。"
+
+    old "It's not like I'm worried about you."
+    new "別にキュルケの心配はしてない。"
+
+    old "What's that supposed to mean?"
+    new "なによ、それ。"
+
+    old "Well, you're pretty strong among the mages I've met, Kirche. Wouldn't worrying about you be rude?"
+    new "だって、キュルケは俺が会った魔法使いの中でも、結構強いほうだろ。心配をするほうが失礼じゃないのか？"
+
+    old "That assessment is fair enough, but putting it that way is rude."
+    new "その評価はまあ妥当だけど、だからってそういう言い方は失礼よ。"
+
+    old "Gah. R-right. Sorry."
+    new "うっ。そ、そっか。ごめん。"
+
+    old "It's fine. Just be careful from now on."
+    new "いいけどね。今後は気をつけてほしいわ。"
+
+    old "Yes.{#ch2.5_s9520}"
+    new "はい。"
+
+    old "In the end, why are you here, Kirche?"
+    new "結局、キュルケはなんでここにいるんだ？"
+
+    old "I was wondering whether any clues from those guys were left behind, even a little. I was looking around."
+    new "さっきの連中の手がかりが、少しでも残していないかなぁっと思って。ちょっと調べてたのよ。"
+
+    old "So, did you find anything, Kirche?"
+    new "それで、何か分かったのか？キュルケ。"
+
+    old "About that explosion — I can say there are no traces of a bomb or magic having been used. That much, anyway."
+    new "さっきの爆発だけど、爆弾が使われ、魔法を使われた痕跡はないってことくらいかしら。"
+
+    old "Though Professor Colbert took the surrounding soil to his research room, so he's probably planning to examine that as well."
+    new "もっとも、ミスタ・コルベールが、辺りの土を自分の研究室に持って行ってたから、そちらでも何か調べるつもりなんでしょうね。"
+
+    old "I see. If you find anything, let me know too."
+    new "そうか。なにか分かったら、俺にも教えてくれよな。"
+
+    old "Understood. Do your best on your patrol too, Darling."
+    new "分かったわ。ダーリンも、見回り頑張ってね。"
+
+    old "Looks like there's no particular damage here. ...Hey, Tabitha's here."
+    new "ここは、特に被害はなかったみたいだな。って、タバサがいる。"
+
+    old "……。{#ch2.5_t1271}"
+    new "……。"
+
+    old "Hey, Tabitha. Was the classroom all right?"
+    new "なあ、タバサ。教室の方は大丈夫だったのか？"
+
+    old "...All right?"
+    new "……大丈夫って？"
+
+    old "The explosion just now. There was a huge noise outside, right?"
+    new "さっきの爆発だよ。ほら、外ですごい音がしただろ。"
+
+    old "...Mm-hm."
+    new "……（コクリ）"
+
+    old "Tabitha, were you okay?"
+    new "タバサはなんともなかった？"
+
+    old "...Yes. Why?"
+    new "……ええ。どうして？"
+
+    old "Why do you ask...?"
+    new "どうして、って……？"
+
+    old "...Why do you ask that?"
+    new "……どうしてそんなことを聞くの？"
+
+    old "Because..."
+    new "だって……。"
+
+    old "Because I was worried about Tabitha."
+    new "タバサのことが心配だったから。"
+
+    old "...I see.{#ch2.5_t15421}"
+    new "……そう。"
+
+    old "...Yeah.{#ch2.5_s9531}"
+    new "……うん。"
+
+    old "...Why?"
+    new "……なぜ？"
+
+    old "Huh?{#ch2.5_s9532}"
+    new "は？"
+
+    old "……。{#ch2.5_t1272a}"
+    new "……。"
+
+    old "You ask why... I guess because I was curious."
+    new "なぜって言われても……気になったからかな。"
+
+    old "...I see.{#ch2.5_t15423}"
+    new "……そう。"
+
+    old "Yeah.{#ch2.5_s9534}"
+    new "うん。"
+
+    old "……。{#ch2.5_t1272b}"
+    new "……。"
+
+    old "Because I was worried about everyone in the classroom."
+    new "教室にいたみんなが心配だったから。"
+
+    old "...Everyone's fine."
+    new "……みんな無事。"
+
+    old "Ah... right.{#ch2.5_s9536}"
+    new "あ……そう。"
+
+    old "……。{#ch2.5_s1273}"
+    new "……。"
+
+    old "……。{#ch2.5_t1273}"
+    new "……。"
+
+    old "No particular reason."
+    new "特に意味はない。"
+
+    old "...I see.{#ch2.5_t15425}"
+    new "……そう。"
+
+    old "U-um."
+    new "う、うん。"
+
+    old "……。{#ch2.5_t1274}"
+    new "……。"
+
+    old "……。{#ch2.5_s1274}"
+    new "……。"
+
+    old "...What?{#ch2.5_t15426}"
+    new "……なに？"
+
+    old "N-no, nothing in particular... nothing."
+    new "いや、特には……なにも。"
+
+    old "Um, did I interrupt? Sorry about that."
+    new "えーと、邪魔したかな。悪かった。"
+
+    old "...So, what are you doing?"
+    new "……それで、何をしてるの？"
+
+    old "Huh? Ah, um, I'm patrolling the academy."
+    new "へ？あ、ええと、学院内を見回ってるんだけど。"
+
+    old "...I see. Do your best."
+    new "……そう。頑張って。"
+
+    old "R-right.{#ch2.5_s9544}"
+    new "う、うん。"
+
+    old "Hmm. I don't quite get it, but I'm pretty sure this place is abnormal."
+    new "ううーむ。なんだかよく分からないけど、ここが異常なしってのはよく分かった。"
+
+    old "Wouldn't it be more likely that that girl just hasn't noticed?"
+    new "あの娘っこが気づいてない可能性の方が高ぇんじゃねえのか？"
+
+    old "...I believe in Tabitha."
+    new "……俺はタバサを信じるよ。"
+
+    old "Your eyes are totally swimming, partner."
+    new "なんか目が泳いでるぜ、相棒。"
+
+    old "……。{#ch2.5_s1275}"
+    new "……。"
+
+    old "……。{#ch2.5_d1275}"
+    new "……。"
+
+    old "Well then. Time to get moving."
+    new "さて、と。それじゃ、そろそろ移動するか。"
+
+    old "Kyaa!?"
+    new "きゃっ！？"
+
+    old "Whoa!?{#ch2.5_s9549}"
+    new "うわっ！？"
+
+    old "Ah, Hiraga-kun."
+    new "あ、平賀くん。"
+
+    old "Sorry. I startled you."
+    new "ごめん。驚かせちゃったな。"
+
+    old "Ah, no. The door suddenly opened, so I was just a little startled. But what's wrong?"
+    new "あ、ううん。急にドアが開いたからちょっと驚いただけ。でも、どうしたの？"
+
+    old "Yeah, there was a big noise just now, right?"
+    new "ああ、さっき、大きな音がしただろ。"
+
+    old "Yes. There was a big noise, like fireworks."
+    new "ええ。花火みたいな大きな音がしたけど。"
+
+    old "Actually, there was an explosion out in the courtyard."
+    new "実は、中庭の方で爆発があってさ。"
+
+    old "An explosion!?"
+    new "爆発！？"
+
+    old "Yeah. ...Those guys who came after you yesterday — they snuck into the academy."
+    new "うん。……その、昨日きみを狙ってきた連中が、学院に入り込んできたんだ。"
+
+    old "I-see... so that's what it was."
+    new "そう……、なんだ。"
+
+    old "We managed to drive them off, but... they might come back, so I was patrolling the academy."
+    new "一応、追い払ったけど……。ひょっとしたらまた来るかもしれないから、学院内を見回ってたんだ。"
+
+    old "Ah... yes, I understand. Hiraga-kun, is there anything I should be careful about...?"
+    new "あ……うん、分かった。平賀くん、私注意することあるかな……。"
+
+    old "Let's see..."
+    new "そうだなあ……。"
+
+    old "At any rate, I'm just glad you're safe, Haruna."
+    new "とりあえず春奈が無事で良かった。"
+
+    old "Eh?{#ch2.5_h1857}"
+    new "え？"
+
+    old "Those guys were after you, weren't they? I thought it'd be terrible if you were found."
+    new "あいつら春奈を狙ってたろ？見つかってたら大変だと思ってさあ。"
+
+    old "Hiraga-kun... you were worried about me."
+    new "平賀くん……心配してくれたんだ。"
+
+    old "Of course I was. That goes without saying, right?"
+    new "そりゃするさ。当然だろ？"
+
+    old "...Thank you."
+    new "……ありがとう。"
+
+    old "Make sure nobody else finds you."
+    new "ほかの人に見つからないようにな。"
+
+    old "Yes, I'll be careful. Siesta-san warned me too that I mustn't be seen by the academy's people."
+    new "うん、それは気をつける。学院の人に見つかったらいけないって、シエスタさんにも注意されてるもの。"
+
+    old "That's good, but... everyone here uses magic, so you can't judge by appearances."
+    new "それならいいけど……。ここの人達は魔法を使うから見た目で判断しちゃだめだぞ。"
+
+    old "Yes... I'll be careful."
+    new "うん……、気をつける。"
+
+    old "Just stay put, okay?"
+    new "おとなしくしててくれよ。"
+
+    old "Eh, yes. I intend to stay in this room just as I was told."
+    new "え、うん。私、言われたとおりに、この部屋からは出ないつもりだし。"
+
+    old "Good, then you'll be fine."
+    new "そっか、なら大丈夫だな。"
+
+    old "It's just... the girls around me tend to be the charge-ahead type, so... I've started to worry."
+    new "いや、どうも俺のまわりにいる女の子って、すぐに突っ走るタイプが多いからさ。なんだか心配になっちゃって。"
+
+    old "Hiraga-kun... do you date that many girls?"
+    new "平賀くん……。そんなにいっぱい、女の子と付き合ってるの？"
+
+    old "N-no... I'm not dating anyone. Louise mostly just treats me as her familiar anyway."
+    new "い、いや……。別に付き合ってなんかいないよ。ルイズとか、基本的に俺を使い魔扱いだし。"
+
+    old "But... you seem to be on good terms with all sorts of girls..."
+    new "でも……。なんだかいろんな女の子達と親しそうだし……。"
+
+    old "I-is that so...? Hahahaha."
+    new "そ、そうかな……。はははははっ。"
+
+    old "Hm..."
+    new "ふうん……。"
+
+    old "Anyway, don't leave this room. If a stranger calls out, don't answer."
+    new "とにかく、この部屋から出ないで。知らない奴が呼んだら返事しちゃ駄目だからな。"
+
+    old "Yes, understood.{#ch2.5_h1866}"
+    new "うん、分かった。"
+
+    old "Well, I'm off to patrol the rest."
+    new "んじゃ、俺はほかのところも見回りに行くから。"
+
+    old "You be careful too, Hiraga-kun."
+    new "平賀くんも気をつけてね。"
+
+    old "Yeah.{#ch2.5_s9568}"
+    new "ああ。"
+
+    old "Louise... What happened, anyway?"
+    new "ルイズ……。どうしたんだ、いったい？"
+
+    old "……。{#ch2.5_si14594}"
+    new "……。"
+
+    old "……。{#ch2.5_ha115}"
+    new "……。"
+
+    old "U-um... Did I do something wrong?"
+    new "え、ええと……。俺、まずいことしたのかな。"
+
+    old "I'll be going now."
+    new "わたし、行ってきます。"
+
+    old "Go...?"
+    new "行くって……？"
+
+    old "To look for Miss Vallière... I think it would be better if I spoke with her rather than Saito-san."
+    new "ミス・ヴァリエールを探しに……です。たぶん、サイトさんよりは、わたしがお話したほうが良いと思いますし。"
+
+    old "I'll find her and bring her back. You wait here, Saito-san."
+    new "探して、呼んできますから。サイトさんは、ここで待っててください。"
+
+    old "Ah, Siesta..."
+    new "あ、シエスタ……。"
+
+    old "Well then, maybe I should go look for Louise too... Siesta told me to stay, but somehow I feel like this is my fault too..."
+    new "それじゃあ、俺もルイズを探しに行くか……。シエスタにはああ言われたけど、なんか、俺が原因のような気がするし……。"
+
+    old "Wait!"
+    new "待って！"
+
+    old "Haruna?"
+    new "春奈？"
+
+    old "Don't go, Hiraga-kun. Don't leave me all alone..."
+    new "行かないで、平賀くん。私を１人にしないで……。"
+
+    old "Haruna...{#ch2.5_s11175}"
+    new "春奈……。"
+
+    old "You're going to leave me behind...? All alone again..."
+    new "私を置いていくの……？また、私１人……。"
+
+    old "Haruna...{#ch2.5_s11176}"
+    new "春奈……。"
+
+    old "Hiraga-kun, you're not going, right? You won't disappear on me again?"
+    new "平賀くん、行かないよね？もう、どこにも消えたりしないよね？"
+
+    old "I told you, I won't disappear. Don't worry, just calm down."
+    new "消えたりしねーって。心配しないで、落ち着いて。"
+
+    old "Thank goodness..."
+    new "良かった……。"
+
+    old "Got it. I'm not going anywhere. Anyway, let's hurry up and finish dinner."
+    new "分かった。俺どこにも行かねーからさ。それより、早く夕食を食べてしまおうぜ。"
+
+    old "O-oh. Right..."
+    new "あ、うん。そうだね……。"
+
+    old "Hiraga-kun, what's wrong?"
+    new "平賀くん、どうしたの？"
+
+    old "Hm? No, it's nothing."
+    new "ん？いや、なんでもない。"
+
+    old "...What am I even thinking? I don't even know myself."
+    new "……なに考えてるのよ、わたし。自分でもわけ分かんない。"
+
+    old "Saito didn't do anything wrong in the first place... and I still went and said that. I'm really the worst..."
+    new "そもそもサイトは何もしていないのに……、なのに、あんなこと言っちゃって。わたし、本当に最低……。"
+
+    old "Even so, the way that girl Haruna talked rubbed me the wrong way."
+    new "それにしても、あのハルナって娘の言い方はシャクにさわるわ。"
+
+    old "Being from the same world as Saito means she's a commoner."
+    new "サイトと同じ世界の人間ってことは、つまり平民なわけで。"
+
+    old "I couldn't forgive a commoner speaking to me like that... but still..."
+    new "わたしに対して、平民があんな言い方をするのを許しておけなかったけど……。"
+
+    old "That's no reason to go and make such a fool of myself, though... How am I even supposed to face them when I get back..."
+    new "だからって、あんなみっともない真似することないわよね……。わたし、どんな顔して戻ればいいのよ……。"
+
+    old "……？{#ch2.5_l5865}"
+    new "……？"
+
+    old "Miss Vallière. So you were here. I've been looking everywhere for you."
+    new "ミス・ヴァリエール。ここにいたんですね？探しましたよ。"
+
+    old "Siesta... W-what do you want, commoner?"
+    new "シエスタ……。へ、平民が、な、何の用よ？"
+
+    old "I had Saito-san wait in his room. It's only me and Miss Vallière here — no one else will hear us."
+    new "サイトさんは、部屋に残ってもらいました。ここにはわたくしとミス・ヴァリエールだけです。他の誰にも話は聞かれません。"
+
+    old "Huh...?{#ch2.5_l5867}"
+    new "へ……？"
+
+    old "Miss Vallière. I understand how you feel."
+    new "ミス・ヴァリエール。お気持ちは良く分かります。"
+
+    old "W-what are you talking about?"
+    new "な、なんのことよ。"
+
+    old "Right now, since Haruna showed up, Saito-san thinks about nothing but her..."
+    new "今のサイトさんは、ハルナさんが現れてから、彼女のことしか考えていない……。"
+
+    old "No, even that's putting it too strongly — but right now he's putting Haruna first of all."
+    new "いえ、それは言い過ぎとしても、今はハルナさんのことを一番に考えてます。"
+
+    old "Of course, I know that's just Saito-san's kindness at heart."
+    new "もちろん、それはサイトさん本来の優しさであることは、わたくしも分かってるつもりです。"
+
+    old "……。{#ch2.5_l5869}"
+    new "……。"
+
+    old "However you look at it, I'm certain Haruna has feelings for Saito-san."
+    new "ハルナさんはどうみても、サイトさんに気があると思って間違いないでしょう。"
+
+    old "If this goes on, Haruna will take Saito-san away from us. No — if it were only that, it would still be fine, but..."
+    new "このままでは、サイトさんはハルナさんに取られてしまいます。いえ、それだけならまだいいのですが……。"
+
+    old "At worst, he might leave the academy with Haruna to look for a way back to the original world."
+    new "最悪、元の世界に戻る方法を探すため、ハルナさんと学院を出て行ってしまうかもしれません。"
+
+    old "Miss Vallière, let me be blunt. Shall we join forces — just for now?"
+    new "ミス・ヴァリエール、率直に言います。今の間だけ、手を組みませんか？"
+
+    old "I understand what you're saying. But I think it's absurd for a commoner to be giving me orders."
+    new "あんたの言い分は分かったわ。でも、平民がわたしに指図をするなんて、どうかと思うわ。"
+
+    old "Miss Vallière. I don't intend to meddle with your creed, but things aren't that forgiving right now."
+    new "ミス・ヴァリエール。あなたの信条に口出しする気はありませんが、今はそんなに甘い状況ではありません。"
+
+    old "……。{#ch2.5_l5871}"
+    new "……。"
+
+    old "Haruna is from the same world as Saito-san."
+    new "ハルナさんはサイトさんと同じ世界の人です。"
+
+    old "Th-that's true, but..."
+    new "そ、そうだけど……。"
+
+    old "Saito-san won't say it, but I'm sure he's homesick even now."
+    new "サイトさんは口にはしませんが、きっと、今も故郷が恋しいはずです。"
+
+    old "And for Saito-san like that, Haruna is his hometown."
+    new "そんなサイトさんにとって、ハルナさんは故郷なんです。"
+
+    old "I'm sure he must have special feelings for Haruna."
+    new "きっと、サイトさんはハルナさんに、特別な感情を持ってるはずです。"
+
+    old "And what's worse, Haruna senses her hometown in Saito-san too. And she's trying to use it."
+    new "しかも悪いことにハルナさんもサイトさんに故郷を感じています。そして、それを利用しようとしています。"
+
+    old "U-use!?"
+    new "り、利用！？"
+
+    old "For example, Haruna's illness. It had probably already healed by nighttime."
+    new "たとえば、ハルナさんの病気。実は、夜には治っていたはずです。"
+
+    old "Really?{#ch2.5_l5874}"
+    new "え、本当？"
+
+    old "Yes, really. I'll grant she really was in bad shape that morning."
+    new "ええ、本当です。確かに朝、体調が厳しかったのはその通りだと思います。"
+
+    old "But I've been watching her, and an illness so severe she can't leave bed — no matter how you look at it, that's a lie."
+    new "でも、様子を見ていましたが、ベッドから離れられないほどの重症というのは、どう考えても彼女の嘘です。"
+
+    old "...So then what? You're saying that girl is using a fake illness to exploit Saito's kindness?"
+    new "……それじゃ、なに？あの娘は、仮病を使ってサイトの親切心につけ込んでるってわけ？"
+
+    old "Exactly. Honest, kind, and easy to fool — Saito-san hasn't noticed it."
+    new "そうです。正直もので、優しくて、だまされやすいサイトさんは、それに気づいていません。"
+
+    old "That's a rather barbed way to put it..."
+    new "微妙に、トゲがある言い方ね……。"
+
+    old "Haruna has been using the fake illness to monopolize Saito-san even more."
+    new "ハルナさんは、サイトさんをより占有する方法として、仮病を使ってきました。"
+
+    old "I believe she saw the relationship between us and Saito-san, and decided to make her move."
+    new "きっと、わたし達とサイトさんの関係を見て勝負をしかけてきたと思われます。"
+
+    old "If we leave this alone, it's exactly what Haruna wants."
+    new "このまま放置していたら、ハルナさんの思うつぼです。"
+
+    old "F-fufu... To think she expected such behavior to be allowed in my room..."
+    new "ふ、ふふ……。わたしの部屋で、そんな真似が許されると思われてたとはね……。"
+
+    old "She's really got some nerve, hasn't she."
+    new "ずいぶんと舐めたことをしてくれるじゃないの。"
+
+    old "Fine. Let's call a truce — only until I've put that wicked girl in her place."
+    new "いいわ。あの性悪女をやり込めるまでの間だけ、休戦といきましょう。"
+
+    old "Then the alliance is formed."
+    new "では、同盟成立ですね。"
+
+    old "You're always doing something amusing, aren't you?"
+    new "相変わらず面白いことしてるじゃないの。"
+
+    old "Kirche! Why are you here!?"
+    new "キュルケ！なんであんたがここにいるのよ！"
+
+    old "Oh, I'm not the only one."
+    new "あら、あたしだけじゃないわよ。"
+
+    old "...I just happened to drop by."
+    new "……偶然来ただけ。"
+
+    old "T-Tabitha!"
+    new "タ、タバサ！"
+
+    old "Honestly, I just happened to pass by. And with Darling involved, I ended up listening to the whole thing."
+    new "本当、偶然通りかかっただけなんだけどね。ダーリンのこともあるし、最後まで聞いちゃった。"
+
+    old "O-oh no, you don't mean..."
+    new "あ、あんたまさか……。"
+
+    old "Don't misunderstand me. I'm saying I'll help."
+    new "勘違いしないで。協力するって言ってるのよ。"
+
+    old "Miss Zerbst?"
+    new "ミス・ツェルプストー？"
+
+    old "I won't get in your way. And of course, I'll keep it quiet from Darling and Haruna."
+    new "２人の邪魔はしないわ。もちろん、ダーリンやハルナには黙ってる。"
+
+    old "In return, though, I get to observe. How about it?"
+    new "ただ、その対価として見学はさせてもらうわ。それでどう？"
+
+    old "I have my serious doubts about how much protection I'd get. Understood."
+    new "どこまで守ってもらえるのか、大いに疑問だけど。了解したわ。"
+
+    old "Then do your best for me too. Good night."
+    new "それじゃ、あたしのためにも頑張ってね。お休みなさい。"
+
+    old "...Good night."
+    new "……おやすみ。"
+
+    old "For now, let's put off the strategy meeting. I won't let Haruna keep putting on airs."
+    new "とりあえず、作戦会議は後ほどしましょう。いつまでもハルナに大きな顔はさせないわ。"
+
+    old "Yes, Miss Vallière! For Saito-san's sake too!"
+    new "ええ、ミス・ヴァリエール！サイトさんのためにも！"
+
+    old "S-Saito has nothing to do with it! He never gives a thought to his master! About that stupid familiar..."
+    new "サ、サイトはどうでもいいのよ。ご主人様のこと、ぜんぜん考えてくれないし。あのバカ使い魔のことなんか……。"
+
+    old "R-right..."
+    new "そ、そうですね……。"
+
+    old "Thank you for the meal."
+    new "ごちそうさまでした。"
+
+    old "I'll take the dishes. Haruna, you rest now."
+    new "食器は、俺が持っていくよ。春奈はもうお休み。"
+
+    old "O-okay. Thank you, Hiraga-kun."
+    new "あ、はい。ありがとう、平賀くん。"
+
+    old "Nah, it's nothing."
+    new "いや、どうってことないって。"
+
+    old "Hiraga-kun, what's wrong? You're spacing out."
+    new "平賀くん、どうしたの？ぼーっとして。"
+
+    old "...Guess there's no helping it."
+    new "……仕方ないかあ。"
+
+    old "Hiraga-kun?"
+    new "平賀くん？"
+
+    old "Sorry. I'm just stepping out for a bit."
+    new "ごめん。ちょっとだけ、出かけてくる。"
+
+    old "Where are you going?"
+    new "どこに、行くの？"
+
+    old "To look for Louise."
+    new "ルイズを探してくる。"
+
+    old "Even if you don't go yourself, Hiraga-kun — Louise-san will be right back, won't she? It looked like Siesta went to meet her."
+    new "平賀くんがわざわざ行かなくたって、ルイズさん、すぐに帰って来るんでしょ？シエスタさんも迎えに行ったみたいだし。"
+
+    old "No, she won't. My master is one stubborn customer."
+    new "そんなことはないよ。俺のご主人様は、意地っぱりだからさ。"
+
+    old "If I don't go meet her myself, she can't bring herself to come back straight. What a troublesome girl."
+    new "こっちから迎えに行かないと、自分からは素直に戻ってこられない、面倒なやつなんだ。"
+
+    old "I'll be right back, so don't worry. Now get some rest."
+    new "すぐに戻ってくるから、大丈夫だって。それじゃ、休んでるんだぞ。"
+
+    old "Ah...{#ch2.5_ha1868}"
+    new "あ……。"
+
+    old "You're back?"
+    new "戻ってきたの？"
+
+    old "Ah, no. Has Louise come back?"
+    new "あ、いや。ルイズは戻ってきてないか？"
+
+    old "...Not yet."
+    new "……まだ、戻っていない。"
+
+    old "I see...{#ch2.5_s9570}"
+    new "そうか……。"
+
+    old "……。{#ch2.5_ha1871}"
+    new "……。"
+
+    old "Hey, Haruna..."
+    new "あのさ、春奈……。"
+
+    old "……。{#ch2.5_ha1872}"
+    new "……。"
+
+    old "Did I say something wrong?"
+    new "俺、なんかまずいこと言ったかな？"
+
+    old "...No, you didn't say anything."
+    new "……別に、なにも言ってない。"
+
+    old "R-right? Good, then."
+    new "そ、そうか？だったらいいんだけど。"
+
+    old "……。{#ch2.5_ha1874}"
+    new "……。"
+
+    old "Are you scared of being alone?"
+    new "１人になるのが怖いのか？"
+
+    old "S-scared, you say... a little, I guess."
+    new "こっ、怖いって言いたら……、ちょっと怖いけど。"
+
+    old "I see... That's only natural."
+    new "そうか……。そりゃそうだよな。"
+
+    old "Those guys who are after Haruna could still be lurking nearby."
+    new "春奈のこと狙ってる連中が、まだ近くをうろついてる可能性、あるんだもんな。"
+
+    old "I got caught up with Louise and forgot. Sorry."
+    new "ルイズのことに気をとられて、それを忘れてた。ごめん。"
+
+    old "...I-it's fine. If it's Hiraga-kun worrying about Louise-san, I suppose it can't be helped."
+    new "……べ、別にいいわ。ルイズさんのこと気にするの、平賀くんだったら仕方のないことだと思うし。"
+
+    old "I hope you understand..."
+    new "分かってくれたらいいんだけど……。"
+
+    old "……。{#ch2.5_ha1877}"
+    new "……。"
+
+    old "Does something hurt?"
+    new "体がどこか痛むのか？"
+
+    old "That's not really it... no."
+    new "そういうわけじゃ……、ないわ。"
+
+    old "Is that so? But don't push yourself — tell me when it hurts, okay?"
+    new "そうか？でも、あまり無理とかしないで、辛いときは辛いって言ってくれよ。"
+
+    old "I'm not the type to notice that kind of thing."
+    new "俺、そういうとこ気のつく方じゃないからさ。"
+
+    old "...That's true."
+    new "……本当だね。"
+
+    old "Huh? What?{#ch2.5_s9582}"
+    new "え？なに？"
+
+    old "N-nothing. But thanks for worrying about me. I'm fine for now."
+    new "な、なんでもないっ。でも、心配してくれて、ありがとう。今は大丈夫だから。"
+
+    old "So what now, partner? Wanna go look somewhere else?"
+    new "で、どうする相棒？他のところに探しに出てみっか？"
+
+    old "...Nah. At this point, let's wait here for Louise and the others to come back."
+    new "……いや。こうなったら、ここでルイズ達が帰ってくるのを待とう。"
+
+    old "Got it."
+    new "分かった。"
+
+    old "……。{#ch2.5_ha1881}"
+    new "……。"
+
+    old "Hey, Kirche, you there?"
+    new "おーいキュルケ、いるか？"
+
+    old "Oh, Darling? One moment."
+    new "あら、ダーリン？ちょっと待ってね。"
+
+    old "Come on in. I've unlocked the door."
+    new "どうぞ。鍵は開けたわ。"
+
+    old "Pardon the intrusion~!"
+    new "お邪魔しまーす。"
+
+    old "What's wrong, Darling?"
+    new "どうしたのダーリン。"
+
+    old "Say, Kirche. Has Louise come by here?"
+    new "なあ、キュルケ。ルイズがこっちに来ていなかったか？"
+
+    old "Louise? No, she hasn't come to this room."
+    new "ルイズ？いいえ、この部屋には来てないわよ。"
+
+    old "I see... Where on earth did she go?"
+    new "そうか……。いったい、どこに行ったんだか。"
+
+    old "...Hey, Darling."
+    new "……ねえ、ダーリン。"
+
+    old "Hm?{#ch2.5_s9588}"
+    new "ん？"
+
+    old "What on earth did you do to Louise this time?"
+    new "あなた、今度はいったいルイズに何をやらかしたの？"
+
+    old "Huh? Umm..."
+    new "へ？ええと……。"
+
+    old "I think I made her mad about Haruna."
+    new "春奈のことで怒らせたみたいで。"
+
+    old "But why does it bug her that I'm looking after Haruna...? Maybe it's because I'm a familiar."
+    new "でも、どうして俺が春奈の看病をするのに気にさわるんだろう……。やっぱり、俺が使い魔だからかなぁ。"
+
+    old "Sigh... You really don't get it, do you."
+    new "はあ……。本当、分かってないわね。"
+
+    old "I don't get it?"
+    new "俺が、分かってない？"
+
+    old "It'd be tactless for me to say it myself. Why don't you ask the person herself what the reason is?"
+    new "あたしの口から言うのも野暮だしね。ちゃんと本人の口から何が原因か聞いてみたら、どうかしら？"
+
+    old "Th-there's no way I can do that. If I did, I'd get punished."
+    new "そ、そんなことできるわけねーだろ。そんなことしたらお仕置きされる。"
+
+    old "Sigh, oh dear. Well, this is Louise's own fault too, I suppose."
+    new "はあ、やれやれ。ま、これもルイズの自業自得かしらね。"
+
+    old "It's Louise's usual tantrum."
+    new "ルイズのいつものかんしゃくだ。"
+
+    old "I see... So that's what you think, Darling."
+    new "ふうん……。ダーリンはそう思ってるわけだ。"
+
+    old "But Louise blows up out of nowhere all the time, right?"
+    new "だって、ルイズがいきなり怒り出すのは、いつものことだろ？"
+
+    old "That may be how it looks from your side... Sigh, I guess you're both alike."
+    new "ダーリンから見たらそうだろうけど……。やれやれ、どっちもどっちみたいね。"
+
+    old "I'm keeping quiet because anything I say here won't help. But try to think about Louise a little too."
+    new "ここで、あたしからなにか言っても意味ないから黙ってるけど。少しはルイズのことも考えてあげなさい。"
+
+    old "I don't really know either."
+    new "俺にもよく分からない。"
+
+    old "Really?{#ch2.5_k2950}"
+    new "本当？"
+
+    old "No, I really don't! Louise suddenly blew up and stormed off... I didn't even have time to hear her side."
+    new "いや、本当に分かんないんだってば。ルイズのやつ急に怒り出して出て行っちゃったから……、話を聞く暇もなかったし。"
+
+    old "She's also seemed oddly sullen since this morning. Maybe she wasn't feeling well?"
+    new "今朝から妙に機嫌が悪かったような気もするし、ひょっとして体調が悪かったのかな。"
+
+    old "Hmm... Well, in your own way you're thinking about Louise. Even if you're a little off."
+    new "ふうん……ま、ダーリンなりにルイズのことを思ってるわけね。ちょっとずれてるみたいだけど。"
+
+    old "Huh? I'm off?"
+    new "え、ずれてんの？"
+
+    old "Hmm... Personally, I'd rather you stayed off the mark. It's a little complicated..."
+    new "うーん、あたしとしては、ずれたままのほうがいいんだけどね。ちょっと複雑だなぁ……。"
+
+    old "Say... Kirche, you know why Louise got angry, don't you?"
+    new "あのさ。キュルケは、ルイズがなんで怒ったのか分かってるんだろ？"
+
+    old "Mm, more or less."
+    new "んー、まあね。"
+
+    old "C-could you tell me?"
+    new "ちょ、ちょっと教えてくれない？"
+
+    old "No way. Think about it yourself."
+    new "だーめ。自分で考えなさい。"
+
+    old "Yeah...{#ch2.5_s9602}"
+    new "うん……。"
+
+    old "Well, that girl will come back to her room eventually, won't she? Go back first and wait?"
+    new "ま、あの娘ならそのうち部屋に戻ってくるでしょ。先に帰って待ってれば？"
+
+    old "Also, don't you think you two should talk a bit more?"
+    new "それと、お互いにもう少し話をしてみたほうがいいんじゃない？"
+
+    old "Yeah... I'll try that. Thanks, Kirche."
+    new "うん……そうしてみるよ。ありがとうな、キュルケ。"
+
+    old "You're welcome.{#ch2.5_k2957}"
+    new "どういたしまして。"
+
+    old "Alright, maybe I'll head back to my room for a bit."
+    new "そうだなあ、いったん部屋に戻るか。"
+
+    old "Hey, Tabitha, you there?"
+    new "おーいタバサ、いるか？"
+
+    old "……。{#ch2.5_s9606}"
+    new "……。"
+
+    old "Maybe she's out."
+    new "留守なのかな。"
+
+    old "...Unlocked."
+    new "……鍵開けた。"
+
+    old "Sorry, coming in."
+    new "ごめん、入るな。"
+
+    old "……。{#ch2.5_t1291}"
+    new "……。"
+
+    old "Good, you're here. Say, has Louise come this way?"
+    new "良かった、いたんだ。あのさ、ルイズがこっちに来てないかな？"
+
+    old "...No.{#ch2.5_t15430}"
+    new "……いない。"
+
+    old "I... see.{#ch2.5_s9610}"
+    new "そ、そうか。"
+
+    old "...What?{#ch2.5_t15431}"
+    new "……なに？"
+
+    old "Ah, no...{#ch2.5_s9611}"
+    new "あ、いや……。"
+
+    old "What were you doing?"
+    new "何をしてたんだ？"
+
+    old "...Watching the stars."
+    new "……星を見てた。"
+
+    old "Stars?"
+    new "星？"
+
+    old "...Yep.{#ch2.5_t15433}"
+    new "……そう。"
+
+    old "...That star is the Hunter of the North. Remember it, and you won't lose your way."
+    new "……あの星が、北の狩人。覚えておくと、道に迷わない。"
+
+    old "Umm, where is it roughly?"
+    new "ええと、どのあたりの星？"
+
+    old "...That one.{#ch2.5_t15435}"
+    new "……あれ。"
+
+    old "……。{#ch2.5_t1292a}"
+    new "……。"
+
+    old "...Whoa."
+    new "……はっ。"
+
+    old "The stars are pretty, but I've got to go look for Louise."
+    new "星はきれいだけど、俺、ルイズを探しに行かなくちゃ。"
+
+    old "Thanks for showing me the stars."
+    new "星を教えてくれてありがとうな。"
+
+    old "……。{#ch2.5_t1292b}"
+    new "……。"
+
+    old "Why did you unlock the door?"
+    new "どうして鍵を開けてくれたんだ？"
+
+    old "...Because you were looking for Louise."
+    new "……ルイズのこと、探してたから。"
+
+    old "Huh? Ah, no, I was looking for her, sure. But that's it?"
+    new "え？あ、いや、そりゃ探してたけどさ。でも、それだけ？"
+
+    old "...Right. But that's what matters."
+    new "……そう。でも、それが大事。"
+
+    old "Huh? Sorry, I seriously don't get it."
+    new "え？ごめん、本気でよく分かんないや。"
+
+    old "...If you don't get it, fine."
+    new "……分からないなら、いい。"
+
+    old "Umm, yeah, got it. I don't really get it, but got it."
+    new "ええと、うん、分かった。よく分かんないけど、分かった。"
+
+    old "Well, I should get going."
+    new "それじゃ、俺そろそろ行くわ。"
+
+    old "Do you really not know where Louise is?"
+    new "本当にルイズを知らないか？"
+
+    old "...I don't.{#ch2.5_t15439}"
+    new "……知らない。"
+
+    old "I see. Sorry for barging in on you."
+    new "そうか。いや、押しかけて悪かったな。"
+
+    old "……。{#ch2.5_t1294}"
+    new "……。"
+
+    old "Um, looks like I'm in the way, so I'll get going."
+    new "ええと、俺、お邪魔みたいだし、そろそろ行くわ。"
+
+    old "...Remain alert."
+    new "……ちゃんと気を配って。"
+
+    old "Huh? Not 'be careful'?"
+    new "え？『気をつけて』じゃなくて？"
+
+    old "...Well then.{#ch2.5_t15441}"
+    new "……それじゃ。"
+
+    old "Hmm? What was that about?"
+    new "うーん？いったいなんのことだろう。"
+
+    old "No time to worry about that. I'll head back to Louise's room for now."
+    new "そんなことを気にしてる場合じゃないよな。いったんルイズの部屋に戻るか。"
+
+    old "Still, there's nobody around, huh."
+    new "しっかし、誰もいないな。"
+
+    old "After what happened today, nobody's gonna be wandering around outside their room."
+    new "昼間にあんなことがあったんだ。部屋を出てぶらぶら歩きまわるやつぁ、そうはいないだろうよ。"
+
+    old "Partner, maybe we should head back to the room first. We might have crossed paths — those two could already be back."
+    new "相棒、一度部屋に戻った方がいいんじゃねえか。ひょっとしたら行き違いになって、もう２人とも部屋に戻ってるかもしんねえぜ。"
+
+    old "Alright, let's head back. Louise and Siesta can't be wandering around forever... I think."
+    new "そうだな、いったん戻ろう。ルイズもシエスタも、いつまでもウロウロしてない……と思うし。"
+
+    old "...Sigh. Why is Hiraga-kun so kind to everyone, anyway?"
+    new "……はあ。なんで、平賀くんって、あんなにみんなに優しいんだろ。"
+

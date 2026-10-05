@@ -4844,3 +4844,1304 @@ translate russian strings:
     old "Honestly, I don't care anymore!"
     new "Честно говоря, мне больше не всё равно!"
 
+    old "Because of the commotion earlier, the whole academy feels restless."
+    new "Из-за переполоха раньше вся академия будто волнуется."
+
+    old "Well, can't be helped. With a ruckus that flashy, you'd hear it even if you didn't see it."
+    new "Что поделать. При таком шумном переполохе его услышишь, даже если не видел."
+
+    old "Yeah?"
+    new "А?"
+
+    old "Saito!"
+    new "Сайто!"
+
+    old "Because I don't know when that bomb user might come back."
+    new "Потому что я не знаю, когда этот бомбист может вернуться."
+
+    old "That's why I thought someone ought to keep a lookout."
+    new "Поэтому я подумал, что кто-то должен патрулировать."
+
+    old "I wondered where you were wandering off to, and here you are."
+    new "Я думала, куда ты бродишь, а вот ты где."
+
+    old "Good grief, wandering off on your own away from your master — what are you thinking?"
+    new "Господи, бродишь сам по себе вдали от своей хозяйки — о чём ты думаешь?"
+
+    old "Uh, that was thoughtless of me. Sorry."
+    new "Это было бездумно с моей стороны. Прости."
+
+    old "If it were really the case, I'd blast those suspicious types away with my magic and catch them."
+    new "На самом деле я бы тех подозрительных типов снесла своей магией и поймала."
+
+    old "I understand that, but... then at least consult me first. I'd worry about where you went, you know?"
+    new "Я понимаю это, но… тогда хотя бы посоветуйся со мной заранее. Я бы волновалась, куда ты пошёл, понимаешь?"
+
+    old "No, no, if you blast them away with magic, their lives would be in danger."
+    new "Нет-нет, если ты снесёшь их магией, их жизни окажутся в опасности."
+
+    old "First of all, your magic isn't something others can know about, right? You're not supposed to use it so casually."
+    new "Во-первых, твоя магия — это то, что другие не должны знать, верно? Тебе нельзя использовать её так легкомысленно."
+
+    old "I know that without you telling me, Saito. That the 'Void' is something I must never tell anyone."
+    new "Я знаю это и без твоих слов, Сайто. Что «Пустоту» я никому не должна рассказывать."
+
+    old "But everyone thinks I can't use magic well. To everyone, I'm 'Louise the Zero.'"
+    new "Но все думают, что я не умею хорошо использовать магию. Для всех я «Луиза-Нулиза»."
+
+    old "Louise..."
+    new "Луиза…"
+
+    old "I know."
+    new "Я знаю."
+
+    old "Wh-what, all of a sudden?"
+    new "Ч-что, вдруг?"
+
+    old "Even if no one else in this world knows, I know. So don't make that face."
+    new "Даже если больше никто в этом мире не знает, я знаю. Так что не делай такое лицо."
+
+    old "Sa... Saito?"
+    new "Са… Сайто?"
+
+    old "I said, don't make that teary-eyed face. It's not like you, Louise."
+    new "Я сказал, не делай такое плачущее лицо. Это не похоже на тебя, Луиза."
+
+    old "Wh-who's making a teary-eyed face! I'm not!"
+    new "К-кто делает плачущее лицо! Я не такая!"
+
+    old "Don't worry about that."
+    new "Не беспокойся об этом."
+
+    old "...You say that awfully casually."
+    new "…Ты говоришь это уже слишком легкомысленно."
+
+    old "It's not casual. Well, I can't understand a noble's pride and all that."
+    new "Это не легкомысленно. Ну, я не понимаю дворянскую гордость и всё такое."
+
+    old "You yourself know that you're not 'Louise the Zero.' No matter what the others say, that's certain."
+    new "Ты сама знаешь, что ты не «Луиза-Нулиза». Что бы ни говорили другие, это точно."
+
+    old "Yeah... that's right. That's true."
+    new "Да… это так. Это правда."
+
+    old "Someday, the day will come when you can tell."
+    new "Когда-нибудь настанет день, когда ты сможешь рассказать."
+
+    old "Eh...?"
+    new "Э…?"
+
+    old "Right now, you're the only 'Void' user in this country, so..."
+    new "Сейчас ты единственный носитель «Пустоты» в этой стране, так что…"
+
+    old "If that were known, you might be taken advantage of for ill, so you have to keep it secret, right?"
+    new "Если бы это стало известно, тобой могли бы воспользоваться во зло, поэтому ты должна держать это в секрете, верно?"
+
+    old "Y-yes. Her Highness said that, but..."
+    new "Д-да. Её Высочество говорила это, но…"
+
+    old "So in other words, once the people who'd think to take advantage of you are gone, you can openly declare it, right?"
+    new "То есть, другими словами, когда люди, которые подумают воспользоваться тобой, исчезнут, ты сможешь открыто заявить об этом, верно?"
+
+    old "Y-yes. In theory that's how it works."
+    new "Д-да. Теоретически так и есть."
+
+    old "Then what you should do is hone your magic and grow strong. If you can serve Her Highness, everything's OK."
+    new "Тогда то, что тебе следует делать — оттачивать магию и становиться сильнее. Если ты сможешь служить Её Высочеству, всё будет в порядке."
+
+    old "...Hearing you talk, the world seems awfully simple."
+    new "…Слушая тебя, мир кажется ужасно простым."
+
+    old "What, that's a bad thing?"
+    new "Что, это плохо?"
+
+    old "If things went that easily, no one would have to struggle."
+    new "Если бы всё шло так легко, никому не пришлось бы бороться."
+
+    old "I feel like I've been smoothly talked around, but from now on, talk to me properly."
+    new "Мне кажется, меня гладко обвели вокруг пальца, но с этого раза разговаривай со мной как следует."
+
+    old "Yeah, got it."
+    new "Да, понял."
+
+    old "Well then, I'll head back to my room. You do your best on your patrol."
+    new "Тогда я вернусь в комнату. Ты постарайся на патруле."
+
+    old "Understood. I'll patrol thoroughly."
+    new "Понял. Я тщательно патрулирую."
+
+    old "Looks like there's nothing particularly wrong here..."
+    new "Похоже, здесь ничего особенно плохого нет…"
+
+    old "Ah, Saito-san!"
+    new "А, Сайто-сан!"
+
+    old "Ah, hey, Siesta."
+    new "А, привет, Сиеста."
+
+    old "Thank goodness, Saito-san, you're safe."
+    new "Слава богу, Сайто-сан, ты в безопасности."
+
+    old "Huh? Safe?"
+    new "А? В безопасности?"
+
+    old "Earlier, there was a loud explosion outside, wasn't there?"
+    new "Раньше снаружи был громкий взрыв, не так ли?"
+
+    old "Then the academy teachers said, 'Commoners are not to go outside'..."
+    new "Потом учителя академии сказали: «Простолюдинам не выходить наружу»…"
+
+    old "So I had no idea what happened outside."
+    new "Поэтому я понятия не имела, что произошло снаружи."
+
+    old "I was so worried, thinking what if something happened to you, Saito-san..."
+    new "Я так волновалась, думая, а вдруг с тобой что-то случилось, Сайто-сан…"
+
+    old "I'm fine, as you can see. Right now I'm patrolling to check if there's any danger."
+    new "Я в порядке, как видишь. Сейчас я патрулирую, чтобы проверить, нет ли опасности."
+
+    old "Is that so. Saito-san, you really are dependable."
+    new "Неужели. Сайто-сан, ты правда надёжный."
+
+    old "I-is that so? Ahaha..."
+    new "П-правда? Аха-ха…"
+
+    old "But what on earth happened?"
+    new "Но что, чёрт возьми, произошло?"
+
+    old "Ah, that's..."
+    new "А, это…"
+
+    old "A suspicious person infiltrated."
+    new "Подозрительный человек проник внутрь."
+
+    old "A suspicious person?"
+    new "Подозрительный человек?"
+
+    old "Yeah. The guy who tried to take Haruna yesterday, and his accomplice who uses bombs."
+    new "Да. Парень, который вчера пытался забрать Харуну, и его сообщник, который использует бомбы."
+
+    old "Those people infiltrated the academy grounds!?"
+    new "Эти люди проникли на территорию академии!?"
+
+    old "Ah, yeah. Me and Louise and the others beat them, but they got away."
+    new "А, да. Я, Луиза и остальные побили их, но они сбежали."
+
+    old "So I'm patrolling to see if they've come back again."
+    new "Поэтому я патрулирую, чтобы проверить, не вернулись ли они снова."
+
+    old "Is that so. As expected of you, Saito-san."
+    new "Неужели. Как и подобает тебе, Сайто-сан."
+
+    old "No, it's nothing that big. I can only do this much."
+    new "Нет, это не так уж важно. Я могу только столько."
+
+    old "No, that IS a big deal. And yet you don't boast about it... You're so humble, Saito-san."
+    new "Нет, это УЖЕ важно. И всё же ты не хвастаешься этим… Ты так скромен, Сайто-сан."
+
+    old "Ah, no, hahaha..."
+    new "А, нет, ха-ха-ха…"
+
+    old "That Louise did it again."
+    new "Эта Луиза снова натворила."
+
+    old "Oh my, Miss Vallière?"
+    new "О боже, мадемуазель Вальер?"
+
+    old "That's right, she once again let her magic run wild. She blew a huge hole in the courtyard."
+    new "Именно, она снова позволила магии выйти из-под контроля. Она проделала огромную дыру во дворе."
+
+    old "Oh my."
+    new "О боже."
+
+    old "So right now, they're in the middle of restoring the courtyard outside."
+    new "Поэтому сейчас они как раз восстанавливают двор снаружи."
+
+    old "I think they're telling people not to go outside because it's dangerous underfoot there."
+    new "Думаю, они говорят людям не выходить наружу, потому что там опасно под ногами."
+
+    old "That's a lie, isn't it?"
+    new "Это ложь, не так ли?"
+
+    old "Wh-what? Why would you think that?"
+    new "Ч-что? Почему ты так думаешь?"
+
+    old "Because if that earlier explosion was Miss Vallière's doing, there'd be no need for you to patrol, Saito-san."
+    new "Потому что если тот ранний взрыв был делом мадемуазель Вальер, тебе незачем было бы патрулировать, Сайто-сан."
+
+    old "You told that lie on purpose to keep me from worrying, didn't you, Saito-san?"
+    new "Ты сказал эту ложь специально, чтобы я не волновалась, не так ли, Сайто-сан?"
+
+    old "Hmm, you've seen right through me. Sorry, Siesta. You're right, that was all a lie."
+    new "Хм, ты меня раскусила. Прости, Сиеста. Ты права, это была сплошная ложь."
+
+    old "Ufufu... Saito-san, you're so kind."
+    new "У-фу-фу… Сайто-сан, ты так добр."
+
+    old "Ah, no. It's nothing big."
+    new "А, нет. Это не так уж важно."
+
+    old "I don't know either."
+    new "Я тоже не знаю."
+
+    old "Is that so?{#ch2.5_si019}"
+    new "Неужели?"
+
+    old "I know a huge explosion happened outside, but unfortunately I didn't see what actually happened..."
+    new "Я знаю, что снаружи произошёл огромный взрыв, но, к сожалению, я не видел, что именно случилось…"
+
+    old "Is that so. I wonder what on earth happened."
+    new "Неужели. Интересно, что, чёрт возьми, произошло."
+
+    old "I don't know, but if it wasn't an accident and someone suspicious snuck in, it'd be a problem."
+    new "Я не знаю, но если это был не несчастный случай и кто-то подозрительный проник внутрь, это было бы проблемой."
+
+    old "So I'm patrolling like this."
+    new "Поэтому я вот так патрулирую."
+
+    old "Is that so. It must be hard for you too, Saito-san."
+    new "Неужели. Тебе тоже должно быть нелегко, Сайто-сан."
+
+    old "No, I can only do this much."
+    new "Нет, я могу только столько."
+
+    old "It's fine. People are here to do what they can. That's what I think."
+    new "Всё в порядке. Люди здесь, чтобы делать то, что могут. Вот что я думаю."
+
+    old "Yeah, you're right. As expected of Siesta. You say good things."
+    new "Да, ты права. Как и подобает Сиесте. Ты говоришь хорошие вещи."
+
+    old "Oh, stop it. It's nothing that big."
+    new "О, перестань. Это не так уж важно."
+
+    old "Well then, if you see anyone unfamiliar or acting suspiciously, could you let me or the academy teachers know?"
+    new "Тогда, если увидишь кого-то незнакомого или подозрительного, не мог бы ты сообщить мне или учителям академии?"
+
+    old "Yes, understood. You take care too, Saito-san."
+    new "Да, поняла. Ты тоже береги себя, Сайто-сан."
+
+    old "Thank you."
+    new "Спасибо."
+
+    # ---- ch2.5 location block (сцены 1266–1280): 中庭 / 教室 / ルイズの部屋 ----
+
+    old "Because of the commotion earlier, there's hardly anyone around."
+    new "Из-за той суматохи тут почти никого и нет."
+
+    old "To any regular person, nobody's gonna stick their neck into something that troublesome on purpose."
+    new "Любой обычный человек и думать не станет совать нос во что-то столь хлопотное."
+
+    old "Yeah, true."
+    new "Ну, это тоже верно."
+
+    old "Except that rare exception happens to be you, partner."
+    new "Только вот редкое исключение — это ты, напарник."
+
+    old "Shut up."
+    new "Заткнись."
+
+    old "Oh my, if it isn't Darling. What are you doing in a place like this?"
+    new "Ох, это же Дорогой. Что ты делаешь в таком месте?"
+
+    old "Kirche? What are you doing here?"
+    new "Кирхе? Что ты тут делаешь?"
+
+    old "What are YOU doing here, Darling?"
+    new "А ты что здесь делаешь, Дорогой?"
+
+    old "I was worried those guys might come back, so I was doing a bit of patrolling."
+    new "Я переживал, что те снова вернутся, так что немного патрулировал."
+
+    old "My, as expected of Darling. The brave side of you gives me a thrill too!"
+    new "Ну и, само собой, Дорогой! И смелая твоя сторона меня тоже заводит!"
+
+    old "But what about you, Kirche — why did you come back? They might still be here."
+    new "А что насчёт тебя, Кирхе — почему ты вернулась? Те ещё могут быть здесь."
+
+    old "My, are you worried about me? I'm happy, Darling."
+    new "Ох, ты обо мне переживаешь? Как приятно, Дорогой."
+
+    old "Look..."
+    new "Слушай-ка……."
+
+    old "I'd worry about anyone."
+    new "Побеспокоился бы о любом."
+
+    old "Oh my, what a shame. I'd just hoped you'd worry about me alone..."
+    new "Ох, как жаль. Я-то надеялась, что ты будешь переживать только обо мне..."
+
+    old "Like I could. At the very least, if it's people I know, anyone would worry."
+    new "Как я мог бы? По крайней мере, если это кто-то из знакомых, переживать будет любой."
+
+    old "Huh. Darling really is broad-minded."
+    new "Хм. Дорогой, у тебя действительно широкие взгляды."
+
+    old "Is that so?{#ch2.5_s9513}"
+    new "Правда?"
+
+    old "That's right."
+    new "Именно так."
+
+    old "Because it's you, Kirche, I'm worried."
+    new "Потому что это ты, Кирхе, я и волнуюсь."
+
+    old "My, how honest of you."
+    new "Ох, как откровенно."
+
+    old "At least take me seriously. I know you're strong, Kirche, but your opponents are unknowns."
+    new "Хоть бы серьёзно отнёсся. Я знаю, что ты сильна, Кирхе, но противники — неизвестные."
+
+    old "I never let my guard down. A fight can happen anytime. ...But I'm happy about your honest feelings, Darling."
+    new "Я не расслабляюсь. Бой может случиться в любую минуту. ...Но твои откровенные слова меня радуют, Дорогой."
+
+    old "Hah."
+    new "Фух."
+
+    old "There's no girl who wouldn't be happy to have a knight who cherishes her."
+    new "Нет девчонки, которая не обрадовалась бы рыцарю, дорожащему ею."
+
+    old "It's not like I'm worried about you."
+    new "Это не то чтобы я волновался за тебя."
+
+    old "What's that supposed to mean?"
+    new "Что это значит?"
+
+    old "Well, you're pretty strong among the mages I've met, Kirche. Wouldn't worrying about you be rude?"
+    new "Ну, из встреченных мной магов ты довольно сильная, Кирхе. Разве не будет неучтиво волноваться о тебе?"
+
+    old "That assessment is fair enough, but putting it that way is rude."
+    new "Оценка в целом верна, но выражаться так неучтиво."
+
+    old "Gah. R-right. Sorry."
+    new "Ух. П-правда. Прости."
+
+    old "It's fine. Just be careful from now on."
+    new "Ничего. Только впредь будь осторожнее."
+
+    old "Yes.{#ch2.5_s9520}"
+    new "Да."
+
+    old "In the end, why are you here, Kirche?"
+    new "В конце концов, что ты тут делаешь, Кирхе?"
+
+    old "I was wondering whether any clues from those guys were left behind, even a little. I was looking around."
+    new "Я подумала, не осталось ли следов тех людей, хоть немного. Просто осматривалась."
+
+    old "So, did you find anything, Kirche?"
+    new "И что-нибудь поняла, Кирхе?"
+
+    old "About that explosion — I can say there are no traces of a bomb or magic having been used. That much, anyway."
+    new "Насчёт взрыва — следов применения бомбы или магии нет. Ну, по крайней мере это."
+
+    old "Though Professor Colbert took the surrounding soil to his research room, so he's probably planning to examine that as well."
+    new "Хотя профессор Кольбер забрал землю вокруг в свою исследовательскую комнату, так что, вероятно, он тоже намерен кое-что проверить."
+
+    old "I see. If you find anything, let me know too."
+    new "Понятно. Если узнаешь что-нибудь — скажи и мне."
+
+    old "Understood. Do your best on your patrol too, Darling."
+    new "Поняла. И ты удачи в патруле, Дорогой."
+
+    old "Looks like there's no particular damage here. ...Hey, Tabitha's here."
+    new "Похоже, здесь особого ущерба нет. ...Эй, тут Табита."
+
+    old "……。{#ch2.5_t1271}"
+    new "…"
+
+    old "Hey, Tabitha. Was the classroom all right?"
+    new "Эй, Табита. В классе всё в порядке?"
+
+    old "...All right?"
+    new "…В порядке?"
+
+    old "The explosion just now. There was a huge noise outside, right?"
+    new "Тот взрыв сейчас. Слышен был сильный шум снаружи, помнишь?"
+
+    old "...Mm-hm."
+    new "…Угу."
+
+    old "Tabitha, were you okay?"
+    new "Табита, с тобой всё в порядке?"
+
+    old "...Yes. Why?"
+    new "…Да. Почему?"
+
+    old "Why do you ask...?"
+    new "Почему, спрашиваешь...?"
+
+    old "...Why do you ask that?"
+    new "…Почему ты это спрашиваешь?"
+
+    old "Because..."
+    new "Потому что..."
+
+    old "Because I was worried about Tabitha."
+    new "Потому что я переживал за Табиту."
+
+    old "...I see.{#ch2.5_t15421}"
+    new "…Понятно."
+
+    old "...Yeah.{#ch2.5_s9531}"
+    new "…Да."
+
+    old "...Why?"
+    new "…Почему?"
+
+    old "Huh?{#ch2.5_s9532}"
+    new "А?"
+
+    old "……。{#ch2.5_t1272a}"
+    new "…"
+
+    old "You ask why... I guess because I was curious."
+    new "Спросишь «почему»... наверное, просто стало любопытно."
+
+    old "...I see.{#ch2.5_t15423}"
+    new "…Понятно."
+
+    old "Yeah.{#ch2.5_s9534}"
+    new "Да."
+
+    old "……。{#ch2.5_t1272b}"
+    new "…"
+
+    old "Because I was worried about everyone in the classroom."
+    new "Потому что я переживал за всех, кто был в классе."
+
+    old "...Everyone's fine."
+    new "…Все целы."
+
+    old "Ah... right.{#ch2.5_s9536}"
+    new "А…… Так."
+
+    old "……。{#ch2.5_s1273}"
+    new "…"
+
+    old "……。{#ch2.5_t1273}"
+    new "…"
+
+    old "No particular reason."
+    new "Без особой причины."
+
+    old "...I see.{#ch2.5_t15425}"
+    new "…Понятно."
+
+    old "U-um."
+    new "Н-да..."
+
+    old "……。{#ch2.5_t1274}"
+    new "…"
+
+    old "……。{#ch2.5_s1274}"
+    new "…"
+
+    old "...What?{#ch2.5_t15426}"
+    new "…Что?"
+
+    old "N-no, nothing in particular... nothing."
+    new "Н-нет, ничего такого... просто ничего."
+
+    old "Um, did I interrupt? Sorry about that."
+    new "Э-это, я не помешал? Извини."
+
+    old "...So, what are you doing?"
+    new "…И что ты тут делаешь?"
+
+    old "Huh? Ah, um, I'm patrolling the academy."
+    new "А? А, э-э, я патрулирую академию."
+
+    old "...I see. Do your best."
+    new "…Так. Удачи."
+
+    old "R-right.{#ch2.5_s9544}"
+    new "А-ага."
+
+    old "Hmm. I don't quite get it, but I'm pretty sure this place is abnormal."
+    new "Хмм. Ничего не понятно, но то, что тут не всё в порядке, я уяснил."
+
+    old "Wouldn't it be more likely that that girl just hasn't noticed?"
+    new "Скорее всего, та просто не заметила, а?"
+
+    old "...I believe in Tabitha."
+    new "...Я верю в Табиту."
+
+    old "Your eyes are totally swimming, partner."
+    new "Глаза у тебя метутся, напарник."
+
+    old "……。{#ch2.5_s1275}"
+    new "…"
+
+    old "……。{#ch2.5_d1275}"
+    new "…"
+
+    old "Well then. Time to get moving."
+    new "Так, идём дальше."
+
+    old "Kyaa!?"
+    new "А-а!?"
+
+    old "Whoa!?{#ch2.5_s9549}"
+    new "Ой!?"
+
+    old "Ah, Hiraga-kun."
+    new "А, Хирага-кун."
+
+    old "Sorry. I startled you."
+    new "Прости. Напугал тебя."
+
+    old "Ah, no. The door suddenly opened, so I was just a little startled. But what's wrong?"
+    new "А, нет. Дверь вдруг открылась, я просто немного испугалась. Но что случилось?"
+
+    old "Yeah, there was a big noise just now, right?"
+    new "Да, сейчас был сильный шум, верно?"
+
+    old "Yes. There was a big noise, like fireworks."
+    new "Да. Сильный шум, как от фейерверка."
+
+    old "Actually, there was an explosion out in the courtyard."
+    new "На самом деле, во дворе произошёл взрыв."
+
+    old "An explosion!?"
+    new "Взрыв!?"
+
+    old "Yeah. ...Those guys who came after you yesterday — they snuck into the academy."
+    new "Да. ...Те, кто преследовал тебя вчера, проникли в академию."
+
+    old "I-see... so that's what it was."
+    new "Понятно... вот что это было."
+
+    old "We managed to drive them off, but... they might come back, so I was patrolling the academy."
+    new "Мы их отогнали, но... они могут вернуться, так что я патрулировал академию."
+
+    old "Ah... yes, I understand. Hiraga-kun, is there anything I should be careful about...?"
+    new "А…… Да, поняла. Хирага-кун, есть ли что-то, о чём мне стоит помнить...?"
+
+    old "Let's see..."
+    new "Ну-у..."
+
+    old "At any rate, I'm just glad you're safe, Haruna."
+    new "Как бы то ни было, я рад, что ты в порядке, Харуна."
+
+    old "Eh?{#ch2.5_h1857}"
+    new "Э?"
+
+    old "Those guys were after you, weren't they? I thought it'd be terrible if you were found."
+    new "Те охотились на тебя, правда? Мне показалось, будет беда, если тебя найдут."
+
+    old "Hiraga-kun... you were worried about me."
+    new "Хирага-кун... ты обо мне переживал."
+
+    old "Of course I was. That goes without saying, right?"
+    new "Конечно. Это же очевидно, верно?"
+
+    old "...Thank you."
+    new "…Спасибо."
+
+    old "Make sure nobody else finds you."
+    new "Только не попадайся другим на глаза."
+
+    old "Yes, I'll be careful. Siesta-san warned me too that I mustn't be seen by the academy's people."
+    new "Да, я буду осторожна. Сиеста-сан тоже предупредила меня, что меня не должны увидеть люди из академии."
+
+    old "That's good, but... everyone here uses magic, so you can't judge by appearances."
+    new "Это хорошо, но... все здесь используют магию, так что нельзя судить по внешности."
+
+    old "Yes... I'll be careful."
+    new "Да... я буду осторожна."
+
+    old "Just stay put, okay?"
+    new "Просто сиди тихо, ладно?"
+
+    old "Eh, yes. I intend to stay in this room just as I was told."
+    new "Да. Я, как сказали, не собираюсь выходить из этой комнаты."
+
+    old "Good, then you'll be fine."
+    new "Хорошо, тогда всё будет хорошо."
+
+    old "It's just... the girls around me tend to be the charge-ahead type, so... I've started to worry."
+    new "Просто... девушки вокруг меня в основном рвутся вперёд, так что... я начал беспокоиться."
+
+    old "Hiraga-kun... do you date that many girls?"
+    new "Хирага-кун... ты действительно встречаешься со множеством девушек?"
+
+    old "N-no... I'm not dating anyone. Louise mostly just treats me as her familiar anyway."
+    new "Н-нет... я ни с кем не встречаюсь. Впрочем, Луиза в основном обращается со мной как с фамильяром."
+
+    old "But... you seem to be on good terms with all sorts of girls..."
+    new "Но... вроде ты ладишь со всеми девушками..."
+
+    old "I-is that so...? Hahahaha."
+    new "П-правда...? Ха-ха-ха-ха."
+
+    old "Hm..."
+    new "Хм..."
+
+    old "Anyway, don't leave this room. If a stranger calls out, don't answer."
+    new "В общем, не выходи из этой комнаты. Если кто-то незнакомый окликнет — не отвечай."
+
+    old "Yes, understood.{#ch2.5_h1866}"
+    new "Да, поняла."
+
+    old "Well, I'm off to patrol the rest."
+    new "Ладно, я пойду патрулирую остальное."
+
+    old "You be careful too, Hiraga-kun."
+    new "Ты тоже берегись, Хирага-кун."
+
+    old "Yeah.{#ch2.5_s9568}"
+    new "Ага."
+
+    old "Louise... What happened, anyway?"
+    new "Луиза… Что вообще случилось?"
+
+    old "……。{#ch2.5_si14594}"
+    new "…"
+
+    old "……。{#ch2.5_ha115}"
+    new "…"
+
+    old "U-um... Did I do something wrong?"
+    new "Э-ээ… Кажется, я что-то напорол?"
+
+    old "I'll be going now."
+    new "Я пойду."
+
+    old "Go...?"
+    new "Пойти…?"
+
+    old "To look for Miss Vallière... I think it would be better if I spoke with her rather than Saito-san."
+    new "Чтобы разыскать мадемуазель Вальер… Наверное, поговорить с ней лучше мне, а не вам."
+
+    old "I'll find her and bring her back. You wait here, Saito-san."
+    new "Я её найду и приведу. Подождите здесь, Сайто-сан."
+
+    old "Ah, Siesta..."
+    new "А, Сиеста…"
+
+    old "Well then, maybe I should go look for Louise too... Siesta told me to stay, but somehow I feel like this is my fault too..."
+    new "Что ж, тогда и мне, наверное, стоит отправиться на поиски Луизы… Хоть Сиеста и сказала подождать, но мне почему-то кажется, что виноват тут я…"
+
+    old "Wait!"
+    new "Подожди!"
+
+    old "Haruna?"
+    new "Харуна?"
+
+    old "Don't go, Hiraga-kun. Don't leave me all alone..."
+    new "Не уходи, Хирага-кун. Не оставляй меня одну…"
+
+    old "Haruna...{#ch2.5_s11175}"
+    new "Харуна…"
+
+    old "You're going to leave me behind...? All alone again..."
+    new "Ты собираешься меня оставить…? Опять одна…"
+
+    old "Haruna...{#ch2.5_s11176}"
+    new "Харуна…"
+
+    old "Hiraga-kun, you're not going, right? You won't disappear on me again?"
+    new "Хирага-кун, ты же не пойдёшь? Ты больше никуда не пропадёшь?"
+
+    old "I told you, I won't disappear. Don't worry, just calm down."
+    new "Я же говорю — не пропаду. Не волнуйся, успокойся."
+
+    old "Thank goodness..."
+    new "Как хорошо…"
+
+    old "Got it. I'm not going anywhere. Anyway, let's hurry up and finish dinner."
+    new "Ладно. Я никуда не денусь. Лучше быстрее доедим ужин."
+
+    old "O-oh. Right..."
+    new "А, да. Верно…"
+
+    old "Hiraga-kun, what's wrong?"
+    new "Хирага-кун, что такое?"
+
+    old "Hm? No, it's nothing."
+    new "А? Да ничего."
+
+    old "...What am I even thinking? I don't even know myself."
+    new "…О чём я только думаю? Сама не понимаю."
+
+    old "Saito didn't do anything wrong in the first place... and I still went and said that. I'm really the worst..."
+    new "Сайто ведь ничего и не сделал… а я всё равно такое наговорила. Я и впрямь низкая…"
+
+    old "Even so, the way that girl Haruna talked rubbed me the wrong way."
+    new "И всё же тон этой Харуны меня раздражал."
+
+    old "Being from the same world as Saito means she's a commoner."
+    new "Раз она из того же мира, что и Сайто, значит — простолюдинка."
+
+    old "I couldn't forgive a commoner speaking to me like that... but still..."
+    new "Я не могла простить, что простолюдинка так со мной разговаривает… но всё равно…"
+
+    old "That's no reason to go and make such a fool of myself, though... How am I even supposed to face them when I get back..."
+    new "Но ведь из-за этого не стоит так позориться… Каким лицом я вернусь…"
+
+    old "……？{#ch2.5_l5865}"
+    new "…?"
+
+    old "Miss Vallière. So you were here. I've been looking everywhere for you."
+    new "Мадемуазель Вальер. Вот вы где. Я вас искала."
+
+    old "Siesta... W-what do you want, commoner?"
+    new "Сиеста… Ч-чего тебе нужно, простолюдинка?"
+
+    old "I had Saito-san wait in his room. It's only me and Miss Vallière here — no one else will hear us."
+    new "Я оставила Сайто в комнате. Здесь только я и мадемуазель Вальер — нас никто не услышит."
+
+    old "Huh...?{#ch2.5_l5867}"
+    new "А…?"
+
+    old "Miss Vallière. I understand how you feel."
+    new "Мадемуазель Вальер. Я хорошо понимаю ваши чувства."
+
+    old "W-what are you talking about?"
+    new "О-о чём ты?"
+
+    old "Right now, since Haruna showed up, Saito-san thinks about nothing but her..."
+    new "Сейчас Сайто, с тех пор как появилась Харуна, думает только о ней…"
+
+    old "No, even that's putting it too strongly — but right now he's putting Haruna first of all."
+    new "Нет, это, быть может, преувеличение, но сейчас он ставит Харуну на первое место."
+
+    old "Of course, I know that's just Saito-san's kindness at heart."
+    new "Разумеется, я понимаю, что это просто доброта Сайто."
+
+    old "……。{#ch2.5_l5869}"
+    new "…"
+
+    old "However you look at it, I'm certain Haruna has feelings for Saito-san."
+    new "Как ни посмотри, у Харуны определённо есть чувства к Сайто."
+
+    old "If this goes on, Haruna will take Saito-san away from us. No — if it were only that, it would still be fine, but..."
+    new "Если так пойдёт, Харуна заберёт у нас Сайто. Нет, если бы только это — ещё куда ни шло, но…"
+
+    old "At worst, he might leave the academy with Haruna to look for a way back to the original world."
+    new "В худшем случае он может уйти из академии вместе с Харуной в поисках способа вернуться в прежний мир."
+
+    old "Miss Vallière, let me be blunt. Shall we join forces — just for now?"
+    new "Мадемуазель Вальер, говорю прямо: не объединить ли нам усилия — хоть на время?"
+
+    old "I understand what you're saying. But I think it's absurd for a commoner to be giving me orders."
+    new "Твои доводы я поняла. Но чтобы простолюдинка мне давала указания — это же нелепо."
+
+    old "Miss Vallière. I don't intend to meddle with your creed, but things aren't that forgiving right now."
+    new "Мадемуазель Вальер. Я не собираюсь вмешиваться в ваше кредо, но сейчас не всё так благополучно."
+
+    old "……。{#ch2.5_l5871}"
+    new "…"
+
+    old "Haruna is from the same world as Saito-san."
+    new "Харуна из того же мира, что и Сайто."
+
+    old "Th-that's true, but..."
+    new "Э-это так, но…"
+
+    old "Saito-san won't say it, but I'm sure he's homesick even now."
+    new "Сайто и словом не обмолвится, но, должно быть, и сейчас тоскует по родине."
+
+    old "And for Saito-san like that, Haruna is his hometown."
+    new "А для такого Сайто Харуна и есть родина."
+
+    old "I'm sure he must have special feelings for Haruna."
+    new "Наверняка Сайто испытывает к Харуне особые чувства."
+
+    old "And what's worse, Haruna senses her hometown in Saito-san too. And she's trying to use it."
+    new "Мало того — Харуна тоже чувствует в Сайто родину. И пытается этим воспользоваться."
+
+    old "U-use!?"
+    new "В-воспользоваться?!"
+
+    old "For example, Haruna's illness. It had probably already healed by nighttime."
+    new "К примеру, болезнь Харуны. К ночи она уже, должно быть, прошла."
+
+    old "Really?{#ch2.5_l5874}"
+    new "Правда?"
+
+    old "Yes, really. I'll grant she really was in bad shape that morning."
+    new "Да, правда. Утром ей и впрямь было плохо — это верно."
+
+    old "But I've been watching her, and an illness so severe she can't leave bed — no matter how you look at it, that's a lie."
+    new "Но я наблюдала за ней. Настолько тяжело, что не встать с постели, — это её ложь, как ни крути."
+
+    old "...So then what? You're saying that girl is using a fake illness to exploit Saito's kindness?"
+    new "…Тогда что получается? Что она притворяется больной и пользуется добротой Сайто?"
+
+    old "Exactly. Honest, kind, and easy to fool — Saito-san hasn't noticed it."
+    new "Именно. Сайто — честный, добрый и легковерный — этого не замечает."
+
+    old "That's a rather barbed way to put it..."
+    new "Какая-то колкая вышла формулировка…"
+
+    old "Haruna has been using the fake illness to monopolize Saito-san even more."
+    new "Харуна пользовалась притворной болезнью, чтобы ещё сильнее прибрать Сайто к рукам."
+
+    old "I believe she saw the relationship between us and Saito-san, and decided to make her move."
+    new "Должно быть, она увидела наши отношения с Сайто и решила бросить вызов."
+
+    old "If we leave this alone, it's exactly what Haruna wants."
+    new "Если оставить как есть — Харуна добьётся своего."
+
+    old "F-fufu... To think she expected such behavior to be allowed in my room..."
+    new "Ф-фуфу… Как она могла думать, что такое в моей комнате ей простят…"
+
+    old "She's really got some nerve, hasn't she."
+    new "Слишком уж она меня недооценивает."
+
+    old "Fine. Let's call a truce — only until I've put that wicked girl in her place."
+    new "Хорошо. Договоримся о перемирии — только пока я не прижму эту злодейку."
+
+    old "Then the alliance is formed."
+    new "Значит, союз состоялся."
+
+    old "You're always doing something amusing, aren't you?"
+    new "Как всегда — занимаетесь чем-то забавным."
+
+    old "Kirche! Why are you here!?"
+    new "Кирхе! Почему ты здесь!?"
+
+    old "Oh, I'm not the only one."
+    new "Ой, я тут не одна."
+
+    old "...I just happened to drop by."
+    new "…Просто случайно заглянула."
+
+    old "T-Tabitha!"
+    new "Т-Табита!"
+
+    old "Honestly, I just happened to pass by. And with Darling involved, I ended up listening to the whole thing."
+    new "Правда, я просто мимо проходила. Но раз тут замешан Дарлинг, я дослушала до конца."
+
+    old "O-oh no, you don't mean..."
+    new "О-ох, ты не хочешь сказать…"
+
+    old "Don't misunderstand me. I'm saying I'll help."
+    new "Не путай. Я же говорю — буду помогать."
+
+    old "Miss Zerbst?"
+    new "Мадемуазель Цербст?"
+
+    old "I won't get in your way. And of course, I'll keep it quiet from Darling and Haruna."
+    new "Я не буду вам мешать. И, разумеется, промолчу перед Дарлингом и Харуной."
+
+    old "In return, though, I get to observe. How about it?"
+    new "Но за это я буду наблюдать. Как вам такое?"
+
+    old "I have my serious doubts about how much protection I'd get. Understood."
+    new "Сильно сомневаюсь, насколько ты меня защитишь. Принято."
+
+    old "Then do your best for me too. Good night."
+    new "Ну что ж, постарайся и за меня. Спокойной ночи."
+
+    old "...Good night."
+    new "…Спокойной ночи."
+
+    old "For now, let's put off the strategy meeting. I won't let Haruna keep putting on airs."
+    new "Стратегический совет — попозже. Не дам я этой Харуне вечно важничать."
+
+    old "Yes, Miss Vallière! For Saito-san's sake too!"
+    new "Да, мадемуазель Вальер! И ради Сайто тоже!"
+
+    old "S-Saito has nothing to do with it! He never gives a thought to his master! About that stupid familiar..."
+    new "С-Сайто вообще неважен! Он совсем не думает о своей хозяйке! Этот глупый фамильяр…"
+
+    old "R-right..."
+    new "Д-да…"
+
+    old "Thank you for the meal."
+    new "Спасибо за ужин."
+
+    old "I'll take the dishes. Haruna, you rest now."
+    new "Я унесу посуду. Харуна, отдыхай."
+
+    old "O-okay. Thank you, Hiraga-kun."
+    new "А, да. Спасибо, Хирага-кун."
+
+    old "Nah, it's nothing."
+    new "Да ерунда."
+
+    old "Hiraga-kun, what's wrong? You're spacing out."
+    new "Хирага-кун, что такое? Ты отвлёкся."
+
+    old "...Guess there's no helping it."
+    new "…Ничего не поделаешь."
+
+    old "Hiraga-kun?"
+    new "Хирага-кун?"
+
+    old "Sorry. I'm just stepping out for a bit."
+    new "Прости. Я ненадолго выйду."
+
+    old "Where are you going?"
+    new "Куда ты пойдёшь?"
+
+    old "To look for Louise."
+    new "Разыскать Луизу."
+
+    old "Even if you don't go yourself, Hiraga-kun — Louise-san will be right back, won't she? It looked like Siesta went to meet her."
+    new "Даже если ты и не пойдёшь, Хирага-кун — Луиза-сан ведь скоро вернётся? Похоже, Сиеста пошла её встречать."
+
+    old "No, she won't. My master is one stubborn customer."
+    new "Нет, не вернётся. Моя хозяйка — упрямица."
+
+    old "If I don't go meet her myself, she can't bring herself to come back straight. What a troublesome girl."
+    new "Если я сам не пойду ей навстречу, она не сможет вернуться по-хорошему. Какая же она хлопотная."
+
+    old "I'll be right back, so don't worry. Now get some rest."
+    new "Я скоро вернусь, всё будет хорошо. Ну, отдыхай."
+
+    old "Ah...{#ch2.5_ha1868}"
+    new "А…"
+
+    old "You're back?"
+    new "Ты вернулся?"
+
+    old "Ah, no. Has Louise come back?"
+    new "А, нет. Луиза ещё не возвращалась?"
+
+    old "...Not yet."
+    new "…Ещё нет."
+
+    old "I see...{#ch2.5_s9570}"
+    new "Понятно…"
+
+    old "……。{#ch2.5_ha1871}"
+    new "…"
+
+    old "Hey, Haruna..."
+    new "Слушай, Харуна…"
+
+    old "……。{#ch2.5_ha1872}"
+    new "…"
+
+    old "Did I say something wrong?"
+    new "Я что-то не так сказал?"
+
+    old "...No, you didn't say anything."
+    new "…Да нет, ничего такого не сказал."
+
+    old "R-right? Good, then."
+    new "А-а… тогда и ладно."
+
+    old "……。{#ch2.5_ha1874}"
+    new "…"
+
+    old "Are you scared of being alone?"
+    new "Тебе страшно оставаться одной?"
+
+    old "S-scared, you say... a little, I guess."
+    new "С-страшно, говоришь… Ну, немного, наверное."
+
+    old "I see... That's only natural."
+    new "Понятно… Естественно."
+
+    old "Those guys who are after Haruna could still be lurking nearby."
+    new "Вдруг те, кто охотится за Харуной, всё ещё шлятся неподалёку."
+
+    old "I got caught up with Louise and forgot. Sorry."
+    new "Я отвлёкся на Луизу и забыл. Прости."
+
+    old "...I-it's fine. If it's Hiraga-kun worrying about Louise-san, I suppose it can't be helped."
+    new "…Л-ладно уж. Если это Хирага-кун волнуется за Луизу-сан, наверное, ничего не поделаешь."
+
+    old "I hope you understand..."
+    new "Надеюсь, ты понимаешь…"
+
+    old "……。{#ch2.5_ha1877}"
+    new "…"
+
+    old "Does something hurt?"
+    new "Где-нибудь болит?"
+
+    old "That's not really it... no."
+    new "Не то чтобы… нет."
+
+    old "Is that so? But don't push yourself — tell me when it hurts, okay?"
+    new "Да? Только не перетруждайся. Если тяжело — скажи, ладно?"
+
+    old "I'm not the type to notice that kind of thing."
+    new "Я не из тех, кто замечает такое."
+
+    old "...That's true."
+    new "…Это верно."
+
+    old "Huh? What?{#ch2.5_s9582}"
+    new "А? Что?"
+
+    old "N-nothing. But thanks for worrying about me. I'm fine for now."
+    new "Н-ничего. Но спасибо, что беспокоишься. Сейчас всё хорошо."
+
+    old "So what now, partner? Wanna go look somewhere else?"
+    new "Ну что, напарник? Пойдём поищем в другом месте?"
+
+    old "...Nah. At this point, let's wait here for Louise and the others to come back."
+    new "…Да нет. Раз уж так — подождём здесь, пока Луиза и остальные не вернутся."
+
+    old "Got it."
+    new "Понял."
+
+    old "……。{#ch2.5_ha1881}"
+    new "…"
+
+    old "Hey, Kirche, you there?"
+    new "Эй, Кирхе, ты дома?"
+
+    old "Oh, Darling? One moment."
+    new "А, Дорогой? Секундочку."
+
+    old "Come on in. I've unlocked the door."
+    new "Проходи. Замок открыла."
+
+    old "Pardon the intrusion~!"
+    new "Помешаю-ка!"
+
+    old "What's wrong, Darling?"
+    new "Что такое, Дорогой?"
+
+    old "Say, Kirche. Has Louise come by here?"
+    new "Скажи, Кирхе. Луиза сюда не заходила?"
+
+    old "Louise? No, she hasn't come to this room."
+    new "Луиза? Нет, в эту комнату она не заходила."
+
+    old "I see... Where on earth did she go?"
+    new "Понятно… Куда она ушла-то?"
+
+    old "...Hey, Darling."
+    new "…Слушай, Дорогой."
+
+    old "Hm?{#ch2.5_s9588}"
+    new "М?"
+
+    old "What on earth did you do to Louise this time?"
+    new "Что ты на этот раз сделал с Луизой?"
+
+    old "Huh? Umm..."
+    new "А? Э-э…"
+
+    old "I think I made her mad about Haruna."
+    new "Похоже, я её из-за Харуны рассердил."
+
+    old "But why does it bug her that I'm looking after Haruna...? Maybe it's because I'm a familiar."
+    new "Но почему её так бесит, что я ухаживаю за Харуной…? Наверное, всё-таки потому, что я фамильяр."
+
+    old "Sigh... You really don't get it, do you."
+    new "Ох… Ты правда ничего не понимаешь."
+
+    old "I don't get it?"
+    new "Я не понимаю?"
+
+    old "It'd be tactless for me to say it myself. Why don't you ask the person herself what the reason is?"
+    new "Мне самой это неловко произносить. Почему бы не спросить прямо у неё, в чём дело?"
+
+    old "Th-there's no way I can do that. If I did, I'd get punished."
+    new "К-как я такое сделаю! Меня за такое накажут."
+
+    old "Sigh, oh dear. Well, this is Louise's own fault too, I suppose."
+    new "Ну и ну… Впрочем, Луиза, наверное, сама на это нарывалась."
+
+    old "It's Louise's usual tantrum."
+    new "Обычный каприз Луизы."
+
+    old "I see... So that's what you think, Darling."
+    new "Хм… Значит, Дорогой, ты так думаешь."
+
+    old "But Louise blows up out of nowhere all the time, right?"
+    new "Но ведь Луиза же всегда ни с того ни с сего взрывается, да?"
+
+    old "That may be how it looks from your side... Sigh, I guess you're both alike."
+    new "С твоей точки зрения, может, и так… Ох, похоже, вы оба одинаковые."
+
+    old "I'm keeping quiet because anything I say here won't help. But try to think about Louise a little too."
+    new "Я молчу, потому что от моих слов тут толку нет. Но хоть немного-то подумай о Луизе."
+
+    old "I don't really know either."
+    new "Я и сам не очень понимаю."
+
+    old "Really?{#ch2.5_k2950}"
+    new "Правда?"
+
+    old "No, I really don't! Louise suddenly blew up and stormed off... I didn't even have time to hear her side."
+    new "Нет, правда не понимаю! Луиза вдруг взорвалась и ушла… Мне даже не удалось её выслушать."
+
+    old "She's also seemed oddly sullen since this morning. Maybe she wasn't feeling well?"
+    new "Кажется, она и с утра была не в духе. Может, она себя плохо чувствовала?"
+
+    old "Hmm... Well, in your own way you're thinking about Louise. Even if you're a little off."
+    new "Хм… Ну, ты ведь по-своему думаешь о Луизе. Правда, немного мимо."
+
+    old "Huh? I'm off?"
+    new "А? Я мимо?"
+
+    old "Hmm... Personally, I'd rather you stayed off the mark. It's a little complicated..."
+    new "Мм… Мне лучше, чтобы ты и дальше ошибался. Сложновато тут…"
+
+    old "Say... Kirche, you know why Louise got angry, don't you?"
+    new "Слушай… Кирхе, ты же знаешь, почему Луиза рассердилась?"
+
+    old "Mm, more or less."
+    new "Ну-у, в общем да."
+
+    old "C-could you tell me?"
+    new "Т-ты не подскажешь?"
+
+    old "No way. Think about it yourself."
+    new "Неа. Думай сам."
+
+    old "Yeah...{#ch2.5_s9602}"
+    new "Да…"
+
+    old "Well, that girl will come back to her room eventually, won't she? Go back first and wait?"
+    new "Ну, та ведь рано или поздно вернётся в комнату, да? Сначала вернись и подожди."
+
+    old "Also, don't you think you two should talk a bit more?"
+    new "И ещё — может, вам двоим стоит поговорить?"
+
+    old "Yeah... I'll try that. Thanks, Kirche."
+    new "Да… Попробую. Спасибо, Кирхе."
+
+    old "You're welcome.{#ch2.5_k2957}"
+    new "Не за что."
+
+    old "Alright, maybe I'll head back to my room for a bit."
+    new "Ладно, пожалуй, вернусь пока в комнату."
+
+    old "Hey, Tabitha, you there?"
+    new "Эй, Табита, ты дома?"
+
+    old "……。{#ch2.5_s9606}"
+    new "…"
+
+    old "Maybe she's out."
+    new "Может, её нет?"
+
+    old "...Unlocked."
+    new "…Отперла."
+
+    old "Sorry, coming in."
+    new "Прости, захожу."
+
+    old "……。{#ch2.5_t1291}"
+    new "…"
+
+    old "Good, you're here. Say, has Louise come this way?"
+    new "Отлично, ты здесь. Скажи, Луиза сюда не заходила?"
+
+    old "...No.{#ch2.5_t15430}"
+    new "…Нет."
+
+    old "I... see.{#ch2.5_s9610}"
+    new "А-а… понятно."
+
+    old "...What?{#ch2.5_t15431}"
+    new "…Что?"
+
+    old "Ah, no...{#ch2.5_s9611}"
+    new "А, да нет…"
+
+    old "What were you doing?"
+    new "Что ты делала?"
+
+    old "...Watching the stars."
+    new "…Смотрела на звёзды."
+
+    old "Stars?"
+    new "Звёзды?"
+
+    old "...Yep.{#ch2.5_t15433}"
+    new "…Да."
+
+    old "...That star is the Hunter of the North. Remember it, and you won't lose your way."
+    new "…Это Северный охотник. Запомни — и не заблудишься."
+
+    old "Umm, where is it roughly?"
+    new "Ну, а где она, примерно?"
+
+    old "...That one.{#ch2.5_t15435}"
+    new "…Вон та."
+
+    old "……。{#ch2.5_t1292a}"
+    new "…"
+
+    old "...Whoa."
+    new "…Ого."
+
+    old "The stars are pretty, but I've got to go look for Louise."
+    new "Звёзды красивые, но мне пора идти искать Луизу."
+
+    old "Thanks for showing me the stars."
+    new "Спасибо, что показала звёзды."
+
+    old "……。{#ch2.5_t1292b}"
+    new "…"
+
+    old "Why did you unlock the door?"
+    new "Почему ты отперла мне дверь?"
+
+    old "...Because you were looking for Louise."
+    new "…Потому что ты искал Луизу."
+
+    old "Huh? Ah, no, I was looking for her, sure. But that's it?"
+    new "А? А, ну да, искал-то я. Но только это?"
+
+    old "...Right. But that's what matters."
+    new "…Да. Но это главное."
+
+    old "Huh? Sorry, I seriously don't get it."
+    new "А? Прости, я правда не понимаю."
+
+    old "...If you don't get it, fine."
+    new "…Раз не понимаешь — и ладно."
+
+    old "Umm, yeah, got it. I don't really get it, but got it."
+    new "Э-эм, да, понял. Не очень понял, но понял."
+
+    old "Well, I should get going."
+    new "Тогда мне уже пора."
+
+    old "Do you really not know where Louise is?"
+    new "Ты правда не знаешь, где Луиза?"
+
+    old "...I don't.{#ch2.5_t15439}"
+    new "…Не знаю."
+
+    old "I see. Sorry for barging in on you."
+    new "Понятно. Ладно, извини, что вломился."
+
+    old "……。{#ch2.5_t1294}"
+    new "…"
+
+    old "Um, looks like I'm in the way, so I'll get going."
+    new "Э-эм, похоже, я тут мешаюсь, так что пойду."
+
+    old "...Remain alert."
+    new "…Прояви бдительность."
+
+    old "Huh? Not 'be careful'?"
+    new "А? Не «берегись»?"
+
+    old "...Well then.{#ch2.5_t15441}"
+    new "…Ну что ж."
+
+    old "Hmm? What was that about?"
+    new "М-м? Что это было?"
+
+    old "No time to worry about that. I'll head back to Louise's room for now."
+    new "Некогда об этом думать. Вернусь пока в комнату Луизы."
+
+    old "Still, there's nobody around, huh."
+    new "А всё-таки никого нет."
+
+    old "After what happened today, nobody's gonna be wandering around outside their room."
+    new "После того, что случилось днём, вряд ли кто-то будет шляться вне своей комнаты."
+
+    old "Partner, maybe we should head back to the room first. We might have crossed paths — those two could already be back."
+    new "Напарник, может, вернёмся в комнату? Вдруг мы разминулись — те двое уже могли вернуться."
+
+    old "Alright, let's head back. Louise and Siesta can't be wandering around forever... I think."
+    new "Ладно, возвращаемся. Луиза и Сиеста ведь не будут вечно слоняться… ну, думаю."
+
+    old "...Sigh. Why is Hiraga-kun so kind to everyone, anyway?"
+    new "…Ох. Почему Хирага-кун так добр ко всем?"
+

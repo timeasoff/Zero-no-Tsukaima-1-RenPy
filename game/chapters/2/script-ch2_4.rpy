@@ -3,6 +3,9 @@
 # Источник: ps2_source/chapters/chapter_03_黒髪の来訪者.txt (scene 0099…0114)
 # Точные аргументы: ps2_source/events_full/chapter_03_黒髪の来訪者.txt (SCENE 0099…0114)
 
+# Посещённые локации (【移動】, сцена 100): убираются из карты после визита.
+default ch2_4_visited = set()
+
 label ch2_4:
     # ==== SCENE 99 ====
     # Взрыв: бомбист скрывается; белая вспышка, CG 100 (появление) → CG 101 (небо)
@@ -106,18 +109,32 @@ label ch2_4:
     $ fade_fx("hallway_down_evening", sprites="s 1")
     th "Now then. Even if I patrol, where should I start?"
 
-    # Выбор локации (【移動】): сцены 1256/1261/1266/1271/1276 — контент отложен
-    # на следующие части (PROVISIONAL): цели — заглушки с return.
-    $ sprite_choice([
-        {"char": "louise", "text": "Hallway{#ch2.4_hallway}", "target": "hallway_ch2_4"},
-        {"char": "siesta", "text": "Kitchen",       "target": "kitchen_ch2_4"},
-        {"char": "kirche", "text": "Courtyard",     "target": "yard_ch2_4"},
-        {"text":          "Classroom", "target": "classroom_ch2_4"},
-        {"char": "haruna", "text": "Louise's Room{#ch2.4_lroom}", "target": "l_room_ch2_4"},
-    ])
-
-    jump ch2_4_room
+    # Выбор локации (【移動】, сцена 100): карта-цикл. Контент локаций —
+    # в script-ch2_4b.rpy (廊下/厨房) и script-ch2_4c.rpy (中庭/教室/ルイズの部屋),
+    # сцены 1256–1280. После визита локация убирается из карты;
+    # «Leave» → сцена 106 (ch2_4_room).
+    jump ch2_4_map
     return
+
+label ch2_4_map:
+    $ choices = []
+    if "hallway" not in ch2_4_visited:
+        $ choices.append({"char": "louise", "text": "Hallway{#ch2.4_hallway}", "target": "hallway_ch2_4"})
+    if "kitchen" not in ch2_4_visited:
+        $ choices.append({"char": "siesta", "text": "Kitchen", "target": "kitchen_ch2_4"})
+    if "yard" not in ch2_4_visited:
+        $ choices.append({"char": "kirche", "text": "Courtyard", "target": "yard_ch2_4"})
+    if "classroom" not in ch2_4_visited:
+        $ choices.append({"text": "Classroom", "target": "classroom_ch2_4"})
+    if "l_room" not in ch2_4_visited:
+        $ choices.append({"char": "haruna", "text": "Louise's Room{#ch2.4_lroom}", "target": "l_room_ch2_4"})
+    $ choices.append({"text": "Leave", "target": "ch2_4_leave"})
+    $ sprite_choice(choices)
+    jump ch2_4_map
+    return
+
+label ch2_4_leave:
+    jump ch2_4_room
 
 label ch2_4_room:
     # ==== SCENE 106 ====
@@ -592,23 +609,3 @@ label ch2_4_after:
 
     $ fade_fx("black", stop_music=True)
     jump ch2_5
-
-# ----------------------------------------------------------------------------
-# Заглушки выбора локации (【移動】, сцена 100): контент сцен 1256/1261/1266/
-# 1271/1276 отложен на следующие части (PROVISIONAL). Каждая цель — return,
-# после него управление возвращается к "jump ch2_4_room" выше.
-# ----------------------------------------------------------------------------
-label hallway_ch2_4:
-    return
-
-label kitchen_ch2_4:
-    return
-
-label yard_ch2_4:
-    return
-
-label classroom_ch2_4:
-    return
-
-label l_room_ch2_4:
-    return

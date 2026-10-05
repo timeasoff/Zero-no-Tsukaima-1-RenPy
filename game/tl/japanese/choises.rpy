@@ -298,6 +298,27 @@ translate japanese strings:
     old "Do you want to be laid up in bed too?{#ch2.4_m110c}"
     new "おまえも寝込んでいたいのか"
 
+    old "I know.{#ch2.5_m1256a}"
+    new "俺が知ってるから"
+
+    old "Don't worry about that.{#ch2.5_m1256b}"
+    new "そんなこと気にすんな"
+
+    old "Someday you'll be able to tell.{#ch2.5_m1256c}"
+    new "いつか、言える日が来るさ"
+
+    old "A suspicious person infiltrated.{#ch2.5_m1261a}"
+    new "怪しい奴が侵入したんだ"
+
+    old "That Louise did it again.{#ch2.5_m1261b}"
+    new "ルイズの奴がまたやらかしたんだ"
+
+    old "I don't know either.{#ch2.5_m1261c}"
+    new "俺にも分からない"
+
+    old "Leave"
+    new "見回りをやめる"
+
     old "Hallway{#ch2.4_hallway}"
     new "廊下"
 
@@ -312,4 +333,81 @@ translate japanese strings:
 
     old "Louise's Room{#ch2.4_lroom}"
     new "ルイズの部屋"
+
+    # ---- ch2.5 location menus (сцены 1266–1280) ----
+
+    old "I'd worry about anyone.{#ch2.5_m1266a}"
+    new "誰がいたって心配するさ"
+
+    old "I'm worried because it's you, Kirche.{#ch2.5_m1266b}"
+    new "キュルケだから心配なんだ"
+
+    old "It's not like I'm worried about you.{#ch2.5_m1266c}"
+    new "別にキュルケの心配はしてない"
+
+    old "I was worried about Tabitha.{#ch2.5_m1271a}"
+    new "タバサのことが心配"
+
+    old "I was worried about everyone in the classroom.{#ch2.5_m1271b}"
+    new "教室にいたみんなが心配"
+
+    old "No particular reason.{#ch2.5_m1271c}"
+    new "特に意味はない"
+
+    old "At least I'm glad you're safe, Haruna.{#ch2.5_m1276a}"
+    new "とりあえず春奈が無事で良かった"
+
+    old "Make sure nobody else finds you.{#ch2.5_m1276b}"
+    new "ほかの人に見つからないようにな"
+
+    old "Just stay put, okay?{#ch2.5_m1276c}"
+    new "おとなしくしててくれよ"
+
+    old "Chase after Siesta{#ch2.5_m115a}"
+    new "シエスタと一緒に追いかける"
+
+    old "Stay by Haruna's side{#ch2.5_m115b}"
+    new "ハルナのそばにいる"
+
+    old "Louise's Room{#ch2.5_lroom}"
+    new "ルイズの部屋"
+
+    old "Kirche's Room{#ch2.5_kroom}"
+    new "キュルケの部屋"
+
+    old "Tabitha's Room"
+    new "タバサの部屋"
+
+    old "Hallway{#ch2.5_hallway}"
+    new "廊下"
+
+    old "Did I say something wrong?{#ch2.5_m1281a}"
+    new "なんかまずいこと言ったかな？"
+
+    old "Are you scared of being alone?{#ch2.5_m1281b}"
+    new "１人になるのが怖いのか？"
+
+    old "Does something hurt?{#ch2.5_m1281c}"
+    new "体がどこか痛むのか？"
+
+    old "I think I made her mad about Haruna.{#ch2.5_m1286a}"
+    new "春奈のことで怒らせたみたいで"
+
+    old "It's Louise's usual tantrum.{#ch2.5_m1286b}"
+    new "ルイズのいつものかんしゃくだ"
+
+    old "I don't really know either.{#ch2.5_m1286c}"
+    new "俺にもよく分からない"
+
+    old "What were you doing?{#ch2.5_m1291a}"
+    new "何をしてたんだ？"
+
+    old "Why did you unlock the door?{#ch2.5_m1291b}"
+    new "どうして鍵を開けてくれたんだ？"
+
+    old "Do you really not know where Louise is?{#ch2.5_m1291c}"
+    new "本当にルイズを知らないか？"
+
+    old "Leave{#ch2.5_leave}"
+    new "見回りをやめる"
 

@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-10-05 05:05`
+Запуск: `2026-10-05 10:43`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 1658 |
-| уже есть .ogg | 1523 |
-| к конвертации | 135 |
-| сконвертировано сейчас | 135 |
+| voice-строк в сценарии | 2081 |
+| уже есть .ogg | 1968 |
+| к конвертации | 113 |
+| сконвертировано сейчас | 113 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,141 +19,119 @@
 
 ## Сконвертировано
 
-- `ch2.4_c_001.ogg`
-- `ch2.4_c_002.ogg`
-- `ch2.4_d_001.ogg`
-- `ch2.4_d_002.ogg`
-- `ch2.4_d_003.ogg`
-- `ch2.4_ha_001.ogg`
-- `ch2.4_ha_002.ogg`
-- `ch2.4_ha_003.ogg`
-- `ch2.4_ha_004.ogg`
-- `ch2.4_ha_005.ogg`
-- `ch2.4_ha_006.ogg`
-- `ch2.4_ha_007.ogg`
-- `ch2.4_ha_008.ogg`
-- `ch2.4_ha_009.ogg`
-- `ch2.4_ha_010.ogg`
-- `ch2.4_ha_011.ogg`
-- `ch2.4_ha_012.ogg`
-- `ch2.4_ha_013.ogg`
-- `ch2.4_ha_014.ogg`
-- `ch2.4_k_001.ogg`
-- `ch2.4_k_002.ogg`
-- `ch2.4_k_003.ogg`
-- `ch2.4_k_004.ogg`
-- `ch2.4_l_001.ogg`
-- `ch2.4_l_002.ogg`
-- `ch2.4_l_003.ogg`
-- `ch2.4_l_004.ogg`
-- `ch2.4_l_005.ogg`
-- `ch2.4_l_006.ogg`
-- `ch2.4_l_007.ogg`
-- `ch2.4_l_008.ogg`
-- `ch2.4_l_009.ogg`
-- `ch2.4_l_010.ogg`
-- `ch2.4_l_011.ogg`
-- `ch2.4_l_012.ogg`
-- `ch2.4_l_013.ogg`
-- `ch2.4_l_014.ogg`
-- `ch2.4_l_015.ogg`
-- `ch2.4_l_016.ogg`
-- `ch2.4_l_017.ogg`
-- `ch2.4_l_018.ogg`
-- `ch2.4_l_019.ogg`
-- `ch2.4_l_020.ogg`
-- `ch2.4_l_021.ogg`
-- `ch2.4_l_022.ogg`
-- `ch2.4_l_023.ogg`
-- `ch2.4_l_024.ogg`
-- `ch2.4_l_025.ogg`
-- `ch2.4_l_026.ogg`
-- `ch2.4_l_027.ogg`
-- `ch2.4_l_028.ogg`
-- `ch2.4_l_029.ogg`
-- `ch2.4_l_030.ogg`
-- `ch2.4_l_031.ogg`
-- `ch2.4_l_032.ogg`
-- `ch2.4_l_033.ogg`
-- `ch2.4_l_034.ogg`
-- `ch2.4_l_035.ogg`
-- `ch2.4_l_036.ogg`
-- `ch2.4_l_037.ogg`
-- `ch2.4_l_038.ogg`
-- `ch2.4_l_039.ogg`
-- `ch2.4_l_040.ogg`
-- `ch2.4_l_041.ogg`
-- `ch2.4_l_042.ogg`
-- `ch2.4_l_043.ogg`
-- `ch2.4_l_044.ogg`
-- `ch2.4_l_045.ogg`
-- `ch2.4_l_046.ogg`
-- `ch2.4_l_047.ogg`
-- `ch2.4_s_001.ogg`
-- `ch2.4_s_002.ogg`
-- `ch2.4_s_003.ogg`
-- `ch2.4_s_004.ogg`
-- `ch2.4_s_005.ogg`
-- `ch2.4_s_006.ogg`
-- `ch2.4_s_007.ogg`
-- `ch2.4_s_008.ogg`
-- `ch2.4_s_009.ogg`
-- `ch2.4_s_010.ogg`
-- `ch2.4_s_011.ogg`
-- `ch2.4_s_012.ogg`
-- `ch2.4_s_013.ogg`
-- `ch2.4_s_014.ogg`
-- `ch2.4_s_015.ogg`
-- `ch2.4_s_016.ogg`
-- `ch2.4_s_017.ogg`
-- `ch2.4_s_018.ogg`
-- `ch2.4_s_019.ogg`
-- `ch2.4_s_020.ogg`
-- `ch2.4_s_021.ogg`
-- `ch2.4_s_022.ogg`
-- `ch2.4_s_023.ogg`
-- `ch2.4_s_024.ogg`
-- `ch2.4_s_025.ogg`
-- `ch2.4_s_026.ogg`
-- `ch2.4_s_027.ogg`
-- `ch2.4_s_028.ogg`
-- `ch2.4_s_029.ogg`
-- `ch2.4_s_030.ogg`
-- `ch2.4_s_031.ogg`
-- `ch2.4_s_032.ogg`
-- `ch2.4_s_033.ogg`
-- `ch2.4_s_034.ogg`
-- `ch2.4_s_035.ogg`
-- `ch2.4_s_036.ogg`
-- `ch2.4_s_037.ogg`
-- `ch2.4_s_038.ogg`
-- `ch2.4_s_039.ogg`
-- `ch2.4_s_040.ogg`
-- `ch2.4_s_041.ogg`
-- `ch2.4_s_042.ogg`
-- `ch2.4_s_043.ogg`
-- `ch2.4_s_044.ogg`
-- `ch2.4_s_045.ogg`
-- `ch2.4_s_046.ogg`
-- `ch2.4_s_047.ogg`
-- `ch2.4_s_048.ogg`
-- `ch2.4_s_049.ogg`
-- `ch2.4_s_050.ogg`
-- `ch2.4_s_051.ogg`
-- `ch2.4_s_052.ogg`
-- `ch2.4_s_053.ogg`
-- `ch2.4_si_001.ogg`
-- `ch2.4_si_002.ogg`
-- `ch2.4_si_003.ogg`
-- `ch2.4_si_004.ogg`
-- `ch2.4_si_005.ogg`
-- `ch2.4_si_006.ogg`
-- `ch2.4_si_007.ogg`
-- `ch2.4_si_008.ogg`
-- `ch2.4_si_009.ogg`
-- `ch2.4_si_010.ogg`
-- `ch2.4_si_011.ogg`
-- `ch2.4_si_012.ogg`
+- `ch2.5_d_008.ogg`
+- `ch2.5_d_009.ogg`
+- `ch2.5_d_010.ogg`
+- `ch2.5_d_011.ogg`
+- `ch2.5_ha_019.ogg`
+- `ch2.5_ha_020.ogg`
+- `ch2.5_ha_021.ogg`
+- `ch2.5_ha_022.ogg`
+- `ch2.5_ha_023.ogg`
+- `ch2.5_ha_024.ogg`
+- `ch2.5_ha_025.ogg`
+- `ch2.5_ha_026.ogg`
+- `ch2.5_ha_027.ogg`
+- `ch2.5_ha_028.ogg`
+- `ch2.5_ha_029.ogg`
+- `ch2.5_ha_030.ogg`
+- `ch2.5_ha_031.ogg`
+- `ch2.5_ha_032.ogg`
+- `ch2.5_k_018.ogg`
+- `ch2.5_k_019.ogg`
+- `ch2.5_k_020.ogg`
+- `ch2.5_k_021.ogg`
+- `ch2.5_k_022.ogg`
+- `ch2.5_k_023.ogg`
+- `ch2.5_k_024.ogg`
+- `ch2.5_k_025.ogg`
+- `ch2.5_k_026.ogg`
+- `ch2.5_k_027.ogg`
+- `ch2.5_k_028.ogg`
+- `ch2.5_k_029.ogg`
+- `ch2.5_k_030.ogg`
+- `ch2.5_k_031.ogg`
+- `ch2.5_k_032.ogg`
+- `ch2.5_k_033.ogg`
+- `ch2.5_k_034.ogg`
+- `ch2.5_k_035.ogg`
+- `ch2.5_k_036.ogg`
+- `ch2.5_k_037.ogg`
+- `ch2.5_s_114.ogg`
+- `ch2.5_s_115.ogg`
+- `ch2.5_s_116.ogg`
+- `ch2.5_s_117.ogg`
+- `ch2.5_s_118.ogg`
+- `ch2.5_s_119.ogg`
+- `ch2.5_s_120.ogg`
+- `ch2.5_s_121.ogg`
+- `ch2.5_s_122.ogg`
+- `ch2.5_s_123.ogg`
+- `ch2.5_s_124.ogg`
+- `ch2.5_s_125.ogg`
+- `ch2.5_s_126.ogg`
+- `ch2.5_s_127.ogg`
+- `ch2.5_s_128.ogg`
+- `ch2.5_s_129.ogg`
+- `ch2.5_s_130.ogg`
+- `ch2.5_s_131.ogg`
+- `ch2.5_s_132.ogg`
+- `ch2.5_s_133.ogg`
+- `ch2.5_s_134.ogg`
+- `ch2.5_s_135.ogg`
+- `ch2.5_s_136.ogg`
+- `ch2.5_s_137.ogg`
+- `ch2.5_s_138.ogg`
+- `ch2.5_s_139.ogg`
+- `ch2.5_s_140.ogg`
+- `ch2.5_s_141.ogg`
+- `ch2.5_s_142.ogg`
+- `ch2.5_s_143.ogg`
+- `ch2.5_s_144.ogg`
+- `ch2.5_s_145.ogg`
+- `ch2.5_s_146.ogg`
+- `ch2.5_s_147.ogg`
+- `ch2.5_s_148.ogg`
+- `ch2.5_s_149.ogg`
+- `ch2.5_s_150.ogg`
+- `ch2.5_s_151.ogg`
+- `ch2.5_s_152.ogg`
+- `ch2.5_s_153.ogg`
+- `ch2.5_s_154.ogg`
+- `ch2.5_s_155.ogg`
+- `ch2.5_s_156.ogg`
+- `ch2.5_s_157.ogg`
+- `ch2.5_s_158.ogg`
+- `ch2.5_s_159.ogg`
+- `ch2.5_s_160.ogg`
+- `ch2.5_s_161.ogg`
+- `ch2.5_s_162.ogg`
+- `ch2.5_s_163.ogg`
+- `ch2.5_s_164.ogg`
+- `ch2.5_s_165.ogg`
+- `ch2.5_s_166.ogg`
+- `ch2.5_s_167.ogg`
+- `ch2.5_s_168.ogg`
+- `ch2.5_s_169.ogg`
+- `ch2.5_s_170.ogg`
+- `ch2.5_s_171.ogg`
+- `ch2.5_s_172.ogg`
+- `ch2.5_s_173.ogg`
+- `ch2.5_s_174.ogg`
+- `ch2.5_s_175.ogg`
+- `ch2.5_t_013.ogg`
+- `ch2.5_t_014.ogg`
+- `ch2.5_t_015.ogg`
+- `ch2.5_t_016.ogg`
+- `ch2.5_t_017.ogg`
+- `ch2.5_t_018.ogg`
+- `ch2.5_t_019.ogg`
+- `ch2.5_t_020.ogg`
+- `ch2.5_t_021.ogg`
+- `ch2.5_t_022.ogg`
+- `ch2.5_t_023.ogg`
+- `ch2.5_t_024.ogg`
+- `ch2.5_t_025.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 
