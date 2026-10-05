@@ -411,3 +411,65 @@ translate japanese strings:
     old "Leave{#ch2.5_leave}"
     new "見回りをやめる"
 
+
+translate japanese strings:
+
+    old "Did something happen to Louise?{#ch2.6_m125a}"
+    new "ルイズに、なにかあった？"
+
+    old "What were you talking about earlier?{#ch2.6_m125b}"
+    new "さっきは何の話をしたの？"
+
+    old "Could you take the dishes back?"
+    new "食器、戻しておいてくれない？"
+
+    old "Bigger where, exactly?{#ch2.6_m1034a}"
+    new "大きくって、どこが？"
+
+    old "You don't have to push yourself.{#ch2.6_m1034b}"
+    new "無理しなくたっていいじゃん"
+
+    old "Give me some too.{#ch2.6_m1034c}"
+    new "俺にもくれ"
+
+translate japanese strings:
+
+    old "Nah, I'll pass.{#ch2.7_m1039a}"
+    new "いや、遠慮しておくよ"
+
+    old "Sounds like fun - let's do it.{#ch2.7_m1039b}"
+    new "面白そうだな、やろうか"
+
+    old "I'll be in charge of tasting.{#ch2.7_m1039c}"
+    new "俺は味見専門ということで"
+
+    old "Such days happen.{#ch2.7_m1044a}"
+    new "こんな日もあるって"
+
+    old "I'll buy you something.{#ch2.7_m1044b}"
+    new "なんかおごってやるよ"
+
+    old "Let's see more than just the bookstore.{#ch2.7_m1044c}"
+    new "本屋以外も見て回ろう"
+
+
+translate japanese strings:
+
+    old "Fishing!{#ch2.8_m1049a}"
+    new "釣りか！"
+
+    old "Let's swim!{#ch2.8_m1049b}"
+    new "泳ぐか！"
+
+    old "An adventure in the shade!{#ch2.8_m1049c}"
+    new "木陰でアバンチュール！"
+
+    old "A diary, of course.{#ch2.8_m1054a}"
+    new "ずばり、日記"
+
+    old "A student handbook.{#ch2.8_m1054b}"
+    new "ずばり、生徒手帳"
+
+    old "A letter from someone.{#ch2.8_m1054c}"
+    new "ずばり、誰かからの手紙"
+

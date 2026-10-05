@@ -6139,3 +6139,1076 @@ translate japanese strings:
     old "...Sigh. Why is Hiraga-kun so kind to everyone, anyway?"
     new "……はあ。なんで、平賀くんって、あんなにみんなに優しいんだろ。"
 
+
+translate japanese strings:
+
+    old "Phew..."
+    new "ふう……。"
+
+    old "Hiraga-kun... Louise isn't back yet, is she?"
+    new "平賀くん……。ルイズさん、戻ってこないね。"
+
+    old "...No."
+    new "……うん。"
+
+    old "Worried?"
+    new "心配？"
+
+    old "...A little, yeah."
+    new "……まあな。"
+
+    old "We just got back."
+    new "今、帰ったわよ。"
+
+    old "Sorry to keep you waiting, Saito-san. I'm back now."
+    new "すみません、サイトさん。今、戻りました。"
+
+    old "Louise! Siesta!"
+    new "ルイズ！シエスタ！"
+
+    old "Goodness, look at that shocked face..."
+    new "なによ、そんなびっくりした顔しちゃって……。"
+
+    old "You... You were so late, you had me worried sick, you know?"
+    new "おまえってヤツは……。あまり遅いから、心配しちまったじゃねーか。"
+
+    old "Worried...? Okay, so I was a little late getting back, but it's not even midnight yet."
+    new "心配って……。そりゃ、ちょっと戻るの遅くなったけど、まだ深夜ってほどでもないじゃない。"
+
+    old "You've forgotten what happened this afternoon, haven't you? There's no guarantee those bastards won't come again!"
+    new "おまえ、昼間のことを忘れてるだろ。あいつらが、また来ないって保証はどこにもないんだぞ！"
+
+    old "Please don't be so angry, Saito-san. I'm partly to blame for the delay."
+    new "あまり怒らないでください、サイトさん。遅れたのは、わたしにも原因があるんです。"
+
+    old "Siesta?"
+    new "シエスタ？"
+
+    old "Miss Vallière and I were talking for a while."
+    new "ミス・ヴァリエールとわたしで、しばらくお話をしていたんです。"
+
+    old "Talking? About what, exactly..."
+    new "話？いったい、なんの……。"
+
+    old "It's a ladies' conversation, so naturally it's a secret from you, Saito-san."
+    new "女同士の話ですので、もちろん、サイトさんには内緒です。"
+
+    old "O-oh, is that so."
+    new "あ、そ、そうなの。"
+
+    old "I owe Haruna an apology."
+    new "ハルナには謝らなくてはならないわ。"
+
+    old "Louise?"
+    new "ルイズ？"
+
+    old "Suddenly there were more people in the room, and I got all irritable because I couldn't settle down. I'm sorry."
+    new "わたし、急に部屋の人数が増えたんで、なんだか落ち着かなくてイライラしてたみたい。ごめんなさい。"
+
+    old "Y-yes... n-no..."
+    new "は……い、いえ……。"
+
+    old "Don't worry about what I said earlier. Make yourself at home tomorrow too."
+    new "さっき言ったことは気にしないで。明日もゆっくりしていてね。"
+
+    old "Yes... Thank you very much."
+    new "はい……。ありがとうございます。"
+
+    old "Hey, Siesta."
+    new "ちょっと、シエスタ。"
+
+    old "Yes?{#ch2.6_si_005}"
+    new "はい？"
+
+    old "So..."
+    new "あのさ……。"
+
+    old "Did something happen to Louise?"
+    new "ルイズに、なにかあった？"
+
+    old "Something like what?"
+    new "なにかって、なんですか？"
+
+    old "Well... I hope I'm wrong, but her suddenly being so nice just feels off somehow."
+    new "いや……気のせいならいいんだけど、いきなり優しいこと言い出すなんて、なんとなく違和感があってさ。"
+
+    old "Is that so? Nothing in particular."
+    new "そうですか？特にはなにも。"
+
+    old "I see. If you didn't notice anything, then maybe I imagined it."
+    new "そっか。シエスタがなにも感じないってことは、俺の気のせいかな。"
+
+    old "What were you talking about earlier?"
+    new "さっきは何の話をしたの？"
+
+    old "I told you. It's a secret, so I can't say."
+    new "ですから。それは、秘密の話なので、教えられません。"
+
+    old "Come on, do me a favor here."
+    new "そこをなんとか、頼むよ。"
+
+    old "Trying to force a girl to give up her secret is awfully rude, you know."
+    new "女の子の秘密を強引に聞き出そうとするなんて、失礼ですよ。"
+
+    old "Ugh. When you put it that way, I'm sunk."
+    new "うっ。そういう言い方をされると弱いなあ。"
+
+    old "So, I can't tell you any more than that."
+    new "というわけで、これ以上はお話しできません。"
+
+    old "Hmm... I guess there's nothing I can do."
+    new "うーむ、仕方ないか。"
+
+    old "Could you take the dishes back to the dining hall?"
+    new "食器、食堂に戻しておいてくれない？"
+
+    old "Ah, sure. Understood. I'll take them all to the kitchen later."
+    new "ああ、はい。分かりました。後でまとめて厨房に持って行きますね。"
+
+    old "Sorry for making extra work for you."
+    new "手間かけさせちゃって、ごめん。"
+
+    old "It's no trouble at all. By the way, was dinner good?"
+    new "いいんですよ、これくらい。そういえば、お食事はおいしかったですか？"
+
+    old "Yeah, it was great. Thanks, Siesta."
+    new "うん、とっても。ありがとう、シエスタ。"
+
+    old "Hehe, you're welcome."
+    new "ふふっ、どういたしまして。"
+
+    old "So, how did it go? Was there anything at the blast site?"
+    new "それで、どうだったのかね。爆破跡に、なにか手がかりはあったかな。"
+
+    old "Yes. Examining the blast site, we recovered what appears to be residue from the bomb."
+    new "はい。爆破跡を調査、探索したところ、爆弾の残留物と思わしきものを採取できました。"
+
+    old "Hmm."
+    new "ふむ。"
+
+    old "A full analysis will take time, but a preliminary examination has already turned up a few things."
+    new "詳細な分析はまだ時間がかかると思われますが、ひととおり調べた段階で、おおよそ判明したことがあります。"
+
+    old "Such as?"
+    new "というと？"
+
+    old "That the bomb was made differently from anything in ordinary circulation."
+    new "あの爆弾の調合方法は、普通に流通されているものとは違う……。ということです。"
+
+    old "The destructive power, the blast radius — everything is different. I'd say it's unmistakably military."
+    new "破壊力、範囲などを見ても、まるで違います。まさに軍用と見て間違いはないかと。"
+
+    old "...Hmm. Are you certain?"
+    new "……ふむ。それは、確かなのかね。"
+
+    old "Yes, I'm certain."
+    new "ええ、間違いありません。"
+
+    old "You mean to say... that a country — or an army — is behind this incident?"
+    new "つまり、君は……。この事件の裏には国ないしは軍隊が絡んでいると……、そう言いたいのかね？"
+
+    old "No, I can't say that for certain yet..."
+    new "いえ、まだ確定はできませんが……。"
+
+    old "But if we deduce the bomb's structure and compare it with the bomb technology of every country, including our own..."
+    new "ただ、爆弾の構造を類推し、我が国を含めた各国の爆弾技術と照らし合わせれば……。"
+
+    old "Then we can narrow down which country the culprit is from — or which organization they belong to."
+    new "犯人がどこの国の人間か、あるいはどこの団体に所属しているのかが絞られるわけじゃな。"
+
+    old "Yes. It will take some time, but..."
+    new "はい。多少、時間はかかりますが……。"
+
+    old "Understood. I'm counting on you."
+    new "分かった。よろしく頼む。"
+
+    old "If we had the time, I'd have you dig into this at leisure — but that isn't possible."
+    new "時間があれば腰を据えて調査してもらうべきなんじゃろうが、そういうわけにもいくまい。"
+
+    old "But... what in the world is going on?"
+    new "しかし……。一体、何が起きてるのでしょう？"
+
+    old "Between that war with the Reconquista army the other day, everything has become so unsettled."
+    new "先日のレコン・キスタ軍との戦争といい、まったく物騒になったものです。"
+
+    old "That lies beyond what we should be speculating about. First we must devote all our effort to the students' safety."
+    new "それは我々の推測すべき範囲を超えておる。まずは生徒の安全を確保することに全力を注がねばならん。"
+
+    old "R-right. I'll get on with the investigation at once."
+    new "は、そ、そうですね。急いで調べておきます。"
+
+    old "I only hope this doesn't blow up any further... For now, all we can do is pray."
+    new "このまま、騒ぎが大きくならなければいいが……。今は、祈るのみじゃな。"
+
+    old "Hey, Louisee— wait, why are you getting ready to go out?"
+    new "おーいルイズー。って、何、出かける用意してるんだ？"
+
+    old "Oh, Saito. Perfect timing. I'm heading to the ranch!"
+    new "あ、サイト。いいところに来たわね。これから牧場に出かけるわよ！"
+
+    old "Huh? Why the ranch?"
+    new "へ？なんで牧場？"
+
+    old "Stop yapping and let's go!"
+    new "ごちゃごちゃ言わない！さあっ、行くわよ！"
+
+    old "Wait, where did this sudden turn come from!?"
+    new "って待て、なんだこの急展開っ！？"
+
+    old "Look — the blue sky, the white clouds, this fresh morning air! It lifts your spirits!"
+    new "見なさい、青い空に白い雲、朝の爽やかな空気！気持ちも晴れやかになるわね！"
+
+    old "Yeah, you're right. It does feel great."
+    new "ああ、そうだな。確かに気持ちいいな。"
+
+    old "Hang on... huh? Where did she go?"
+    new "って、あれ？どこに行ったんだ、あいつは？"
+
+    old "Sorry to keep you waiting!"
+    new "お待たせ！"
+
+    old "Where were you? And what's that in your hand?"
+    new "なんだ、どこに行ってたんだ？それに、おまえその手に持ってるのは？"
+
+    old "Goodness, haven't you seen it before? It's milk."
+    new "あら、見たことないの？牛乳よ。"
+
+    old "No, I mean, sure, I can tell by looking — I know what it is."
+    new "いや、それはまあ見れば分かるっていうか、知ってるけどさ。"
+
+    old "Fufufu. I've just gotten it straight from the ranch — fresh from the cow!"
+    new "ふっふっふ。たった今、牧場の人からもらってきた、絞りたてのものよ！"
+
+    old "Sounds delicious... Wait, do you even like milk that much?"
+    new "そりゃうまそうだな……。って、あれ、おまえそんなに牛乳好きだっけ？"
+
+    old "This is a challenge."
+    new "これは挑戦なの。"
+
+    old "A challenge? Milady, what exactly do you intend to do?"
+    new "挑戦？ご主人様、いったい何をする気ナノデスカ？"
+
+    old "Nothing to you, Saito. If anything, it's putting wisdom into practice — proof of knowledge!"
+    new "別にサイトには何もしないわよ。たとえていうと、叡智の実践、知識の証明！ってところかしらね？"
+
+    old "Sorry, I have no idea what you're talking about."
+    new "ごめん、全然分かんねえ。"
+
+    old "They say drinking milk makes you grow, don't they?"
+    new "牛乳を飲むと大きくなるって言うじゃない？"
+
+    old "Makes you what?"
+    new "なにが？"
+
+    old "...All sorts of things!"
+    new "……いろいろよ！"
+
+    old "True, for a noble like me to drink a cow's milk straight — it's rather unbecoming, I'll admit."
+    new "確かに、貴族たるわたしが牛の乳を直接飲むなんて真似、はしたないと言えばはしたないわ。"
+
+    old "But if I don't drink milk now, I'll never grow! That's how it works, I'm sure of it!"
+    new "でも、ここで牛乳を飲まなきゃ、このまま、大きくなれないの！きっとそうよ、そうに決まってるわ。"
+
+    old "In that case! Betting on an old saying is also a path worth taking."
+    new "ならば！言い伝えに賭けるのもまたひとつの道というものよ。"
+
+    old "Fufufufufufufu... Once I drink this, I'll leave Kirche in the dust..."
+    new "ふふふふふふふふ……。これを飲めばキュルケなんて、すぐに抜かしてみせるわ……。"
+
+    old "Sigh. Fine, whatever..."
+    new "はあ。いいんだけどさ……。"
+
+    old "Bigger where, exactly?"
+    new "大きくって、どこが？"
+
+    old "W-where...?"
+    new "ど、どこって……。"
+
+    old "Th-that doesn't matter!"
+    new "そ、そんなの、どうでもいいでしょ！"
+
+    old "Hmm? Aha, I get it."
+    new "んー？ははあ、分かった。"
+
+    old "You want your chest to get bigger, don't you? Well, one glass of milk won't make it happen overnight, you know~"
+    new "胸を大きくしたいんだろ。いやあ、牛乳を１杯飲んだくらいで、いきなり大きくなったりはしないぞー？"
+
+    old "Shut up! It's none of your business!!"
+    new "うるさいっ！余計なお世話よっ！！"
+
+    old "Guh! Ouch! I'm done for—!!"
+    new "ぐはっ！いたっ！おわたあっ！！"
+
+    old "Hah, hah, hah..."
+    new "はーっ、はーっ、はーっ……。"
+
+    old "You don't have to push yourself, you know."
+    new "無理しなくたっていいじゃん。"
+
+    old "Hah? What do you mean, push myself!"
+    new "はあ？なによ、無理って！"
+
+    old "Calm down. Listen carefully to what I'm saying."
+    new "落ち着け。人の話はよーく聞け。"
+
+    old "Even if you don't force yourself to grow, you can just wait and let it happen naturally."
+    new "無理に大きくなろうとしなくたって、今のまま、自然に大きくなるのを待てばいいじゃないか。"
+
+    old "I'm not saying trying is bad — but you're fine just the way you are without overreaching."
+    new "努力するのが悪いとは言わないけど、無理に背伸びしなくったって、今のままでも十分なんだからさ。"
+
+    old "Eh... um, um, Saito?"
+    new "え……あの、ええと、サイト？"
+
+    old "If you strain yourself and hurt your body, that defeats the whole point, doesn't it? Just take it easy."
+    new "変に無理をして、体をこわしたりしたらそれこそ本末転倒だろ？あまり気張らずに、楽な気持ちでいけよ。"
+
+    old "Ah... yeah. I wasn't planning to force myself..."
+    new "あ……うん。その、無理するつもりは……。"
+
+    old "I mean, um, well... I just wanted to try it, that's all."
+    new "って、あの、ええと……。ちょ、ちょっと試そうと思っただけだし。"
+
+    old "And besides, you... I mean, men — they say they like them bigger, don't they?"
+    new "それにあんた……じゃない、男の人って、大きい方が好きって言うじゃない？"
+
+    old "Do they? I think that varies from person to person."
+    new "そうか？そこらへんは、好みによって違うと思うけどな。"
+
+    old "Eh? But I'm pretty sure you said you like them bigger..."
+    new "え、でも確か、サイトって大きい方が好きだって……。"
+
+    old "Huh? I said that?"
+    new "え？俺が大きい方が好きって？"
+
+    old "N-nothing! Don't ask weird questions!"
+    new "な、なんでもないわよ。変なこと聞かないでよ！"
+
+    old "Give me some too."
+    new "俺にもくれ。"
+
+    old "Huh?{#ch2.6_l_032}"
+    new "は？"
+
+    old "No, I'm saying — pour me some of the milk too."
+    new "いや、だから。俺にも牛乳をわけてくれって言ってるんだけど。"
+
+    old "Wh-why?"
+    new "ええっ、なんで？"
+
+    old "Well, it just looks fresh and tasty... Is there some other reason?"
+    new "いや、単に新鮮でおいしそうだなーって……。ほかになんかあるのか？"
+
+    old "No."
+    new "駄目。"
+
+    old "Why not!?"
+    new "なんでっ！？"
+
+    old "There's none to spare for you. I had to ask the ranchers for this specially, you know."
+    new "あんたにわけてあげる分はないわ。これでも、牧場の人にお願いしてわざわざ貰ってきてるんだから。"
+
+    old "Tch... I guess that's how it is."
+    new "ちぇー、まあ仕方ないか。"
+
+translate japanese strings:
+
+    old "Anyway! I'm going to drink. Just watch me!"
+    new "と・に・か・く。わたしは飲むの。飲んでみせるの！"
+
+    old "You'll see! I'll grow so big that Kirche and Siesta won't even reach my feet!"
+    new "今に見てなさい！キュルケやシエスタなんて足元にも及ばないほどおっきくなってやるんだからーっ！"
+
+    old "Sure, but don't drink too much and upset your stomach, okay?"
+    new "いいけど、あまり飲みすぎておなかこわすなよ？"
+
+    old "No! Once I've made up my mind, the only way is forward!"
+    new "いいえっ！一度決めた以上は前進あるのみよ！"
+
+    old "Even if I collapse, it'll be face-first! That's how the House of Vallière lives!"
+    new "たとえ倒れるときでも前のめり！それがヴァリエール家の生き様よ！"
+
+    old "Ah, good morning, Saito-san."
+    new "あ、おはようございます、サイトさん。"
+
+    old "Hey, Siesta. So you're here."
+    new "やあ、シエスタ。ここにいたんだ。"
+
+    old "Busy with work today?"
+    new "今日は仕事忙しい？"
+
+    old "No. I have the day off, so I thought I'd try my hand at baking sweets."
+    new "いいえ。今日はお休みをもらったんで、お菓子作りをしてみようと思いまして。"
+
+    old "Heh, that sounds like you. So, what are you making?"
+    new "へえ、シエスタらしいな。それで、何を作るのかな。"
+
+    old "I was thinking of making cookies today."
+    new "今日は、クッキーにしようかと思ってるんですよ。"
+
+    old "Cookies, huh. Yeah, yeah - fresh out of the oven they smell great and taste even better."
+    new "クッキーかあ。うんうん、焼きたてのクッキーって、香ばしくておいしいよなあ。"
+
+    old "Oh, that's right. Saito-san, why don't you make cookies with me?"
+    new "あ、そうだ。サイトさんも、一緒にクッキーを作りませんか？"
+
+    old "Huh? Me too?"
+    new "え？俺も？"
+
+    old "Yes. It's sure to be fun."
+    new "そうです。絶対、楽しいですよ。"
+
+    old "Well, I guess..."
+    new "そうだなあ……。"
+
+    old "Nah, I'll pass."
+    new "いや、遠慮しておくよ。"
+
+    old "Is that... no good?"
+    new "駄目ですか……？"
+
+    old "I appreciate the offer, but I'd only get in your way, Siesta."
+    new "せっかくだけど、俺じゃシエスタの足手まといになるだけだしなあ。"
+
+    old "Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know."
+    new "え、あ、あの、わたしなんてそんなに大したもの作れるわけじゃありませんし、それにサイトさんだって、何かできますよ。"
+
+    old "Hmm... you've got a point. Alright, let's give it a try."
+    new "うーん、そうだなぁ……。じゃあ、やってみますか。"
+
+    old "That's right. Let's do it together."
+    new "そうですよ。一緒にやりましょう。"
+
+    old "Sounds like fun - let's do it."
+    new "面白そうだな、やろうか。"
+
+    old "Really?!"
+    new "本当ですか！"
+
+    old "Well, I don't know a thing about cooking, so I might just be dead weight."
+    new "ま、俺って料理のことなんにも知らないから、足ひっぱるだけかもしれないけど。"
+
+    old "Not at all. Let's do our best together, okay?"
+    new "いえいえ、そんなことないですよ。一緒に頑張りましょうねっ。"
+
+    old "Yeah.{#ch2.7_s_013}"
+    new "うん。"
+
+    old "Er... I'll be in charge of tasting, then."
+    new "えーと……。俺は味見専門ということで。"
+
+    old "Is that so...? What a shame."
+    new "そう……ですか？残念です。"
+
+    old "And here I thought Saito-san and I could make cookies together..."
+    new "せっかくサイトさんとクッキーが作れると思ったのに……。"
+
+    old "N-no, I mean, I'm terrible at cooking and all..."
+    new "い、いや、ほら、俺って料理苦手だし……。"
+
+    old "Tug, tug..."
+    new "（いじいじ）"
+
+    old "...{#ch2.7_s_016}"
+    new "……。"
+
+    old "Tug, tug...{#ch2.7_si_014}"
+    new "（いじいじ）"
+
+    old "Alright. I'll help out too."
+    new "分かったよ。俺も手伝ってみるよ。"
+
+    old "Really? Then let's do it together!"
+    new "え、本当ですか？それじゃあ、一緒にやりましょう！"
+
+    old "Then please knead this butter until it's soft and paste-like. I'll get the flour ready in the meantime."
+    new "それじゃ、このバターを柔らかくペースト状になるまで練ってください。わたしは、その間に粉の準備をしますから。"
+
+    old "Mm, got it."
+    new "ん、分かった。"
+
+    old "...Mmf. This is harder than it looks."
+    new "……むう。結構大変だな、これ。"
+
+    old "Is it done?"
+    new "できましたか？"
+
+    old "Ah, yeah. Sort of."
+    new "あー、うん。一応。"
+
+    old "Next, add the sugar and egg yolk, and stir well again."
+    new "それじゃ、砂糖と卵の黄身を入れるんで、またよくかき混ぜてください。"
+
+    old "Sugar in first - and once it's mixed well, then the yolk."
+    new "最初に砂糖を入れて、よく混ざったら黄身を入れてくださいね。"
+
+    old "Roger!"
+    new "了解！"
+
+    old "How is it?"
+    new "どうですかあ？"
+
+    old "I think I stirred it."
+    new "かき混ぜたかな。"
+
+    old "Let's see, let's see."
+    new "どれどれ？"
+
+    old "...Yep, this should be fine."
+    new "……うん、これで大丈夫でしょう。"
+
+    old "Then I'll fold in the flour and mix."
+    new "それじゃ、粉を入れて混ぜるのはわたしがやりますね。"
+
+    old "Sure, thanks."
+    new "うん、よろしく。"
+
+    old "Alright."
+    new "はい。"
+
+    old "Now I'll lay out the dough... and put it in the oven..."
+    new "あとは、生地を並べて……。オーブンに入れて……、と。"
+
+    old "Now we just wait for it to bake right."
+    new "あとは、うまく焼けるのを待つだけです。"
+
+    old "I can't wait for them to be done."
+    new "できあがるのが楽しみだね。"
+
+    old "Yes.{#ch2.7_si_027}"
+    new "ええ。"
+
+    old "I wonder if they're about ready."
+    new "そろそろいいかしら。"
+
+    old "Let's see... Yep! Looking good."
+    new "どれどれ？……うん！いい感じです。"
+
+    old "Let me see... Huh... smells great."
+    new "どれどれ？へえ……いい匂いだなあ。"
+
+    old "Saito-san, go ahead and have a taste."
+    new "サイトさん、どうぞ味見してくださいな。"
+
+    old "Then I won't hold back."
+    new "それじゃ、遠慮なく。"
+
+    old "Mm! This is delicious! As expected of Siesta - they're great."
+    new "ん！これは美味い！さすがシエスタ、やっぱり美味しいよ。"
+
+    old "Thank you... I'm sure it's because you were here, Saito-san."
+    new "ありがとうございます……。サイトさんがいてくれたからです、きっと。"
+
+    old "Nah, in the end I didn't actually do anything useful. But these cookies really are good."
+    new "いやあ、俺って結局何も役に立ってないし。でも、本当に美味しいよ、このクッキー。"
+
+    old "Fufu, eat as much as you like."
+    new "うふふ、どんどん食べてくださいな。"
+
+    old "It'd be a waste for me to eat them all. Let's share, Siesta."
+    new "俺ばっか食べてたらもったいないよ。シエスタも一緒に食べよう。"
+
+    old "Ah, yes!"
+    new "あ、はい！"
+
+    old "Hey, Tabitha - it's nice out today. Want to go somewhere for once?"
+    new "なあ、タバサ、今日はいい天気だし、たまには外に出かけないか？"
+
+    old "...Already on my schedule."
+    new "……その予定。"
+
+    old "...Whaat?! Tabitha is going outside!?"
+    new "……ええっ！タバサが外出するのか！？"
+
+    old "Ah, no - I'm not saying it's weird to go out. It's just, I came to invite you and you beat me to it..."
+    new "あ、いや、別に出かけるのが変だと言ってるわけじゃなくてだな。誘いに来たのに先を越されたというか……。"
+
+    old "Ah, whatever. So, where are you headed? I can come along, if you want."
+    new "まあいいや。で、どこへ行くんだ？なんだったら俺、付き合うけど。"
+
+    old "...To town, to buy books."
+    new "……街まで、本を買いに。"
+
+    old "Oh... sorry, that makes perfect sense."
+    new "ああ……ごめん、すごく納得した。"
+
+    old "...So I can't come along today."
+    new "……だから、今日は付き合えない。"
+
+    old "Hahaha. Come on, in that case I'll at least carry your bags."
+    new "はははっ。なーに、そういうことなら荷物持ちくらいしてやるよ。"
+
+    old "...You don't mind?"
+    new "……いいの？"
+
+    old "Of course, it's nothing."
+    new "いいって、それくらい。"
+
+    old "...They'll get pretty heavy, though."
+    new "……かなり重くなるけど。"
+
+    old "Er... how heavy?"
+    new "ええと……どれくらい？"
+
+    old "...Usually I only buy what fits in my bag."
+    new "……普段は、鞄に入るだけにしてる。"
+
+    old "Oh, I can handle that much. Don't worry, leeeave it to me."
+    new "ああ、それくらいなら俺でも持てるさ。大丈夫、まーかせて。"
+
+    old "...Alright. Please."
+    new "……分かった。お願い。"
+
+    old "Roger, roger."
+    new "了解、了解。"
+
+    old "Phew, as lively as ever. So, which way is the bookstore?"
+    new "ふうっ、相変わらず賑やかだなあ。で、本屋はどっちなんだ？"
+
+    old "...This way."
+    new "……こっち。"
+
+    old "Okay. Let's go."
+    new "オッケー。じゃ、行こうぜ。"
+
+    old "...Just around this corner."
+    new "……この角を曲がったところ。"
+
+    old "Let's see."
+    new "どれどれ。"
+
+    old "This one here - the shop with the sign out front?"
+    new "ここの、立て札が出てるこの店か？"
+
+    old "...Sign?"
+    new "……立て札？"
+
+    old "Something's written on it. I can't read it, though."
+    new "なんか書いてあるな。俺には読めないけど。"
+
+    old "What does it say?"
+    new "何て書いてあるんだ？"
+
+    old "...'Closed today.'"
+    new "……『本日休業』。"
+
+    old "...Huh?{#ch2.7_s_046}"
+    new "……は？"
+
+    old "...The shop is closed."
+    new "……お店が閉まってる。"
+
+    old "Great. Talk about bad luck."
+    new "はあ。そりゃまた運が悪いな。"
+
+    old "Days like this happen."
+    new "こんな日もあるって。"
+
+    old "Come on, it's not like today's the only day you can buy books. You can just come again next time."
+    new "ほら、別に、本を買いに来るのは今日だけじゃないだろ？また今度にすればいいじゃないか。"
+
+    old "...There's no guarantee the book I want will still be in stock by next time."
+    new "……今度来るときまでに、目当ての本が売れ残ってる保証はない。"
+
+    old "Oof. Fair point, but..."
+    new "う。確かにそうだけど……。"
+
+    old "...{#ch2.7_s_051}"
+    new "……。"
+
+    old "Ah, tell you what - next time I'll sneak out on your errand. Tell me the title and I'll buy it for you."
+    new "あー、なんなら俺が今度こっそりお遣いに来るからさ。本の名前、教えてくれれば買って来るよ。"
+
+    old "...Are you sure?"
+    new "……本当に、いいの？"
+
+    old "Ah, yeah. I'll manage somehow."
+    new "あー、うん。なんとかするさ。"
+
+    old "...Thanks."
+    new "……ありがとう。"
+
+    old "I'll buy you something."
+    new "なんかおごってやるよ。"
+
+    old "...Huh?{#ch2.7_t_016}"
+    new "……え？"
+
+    old "Er, well, it's such nice weather and your throat must be dry, right?"
+    new "ええと、まああれだ、こんだけの上天気だし喉も渇いたろ？"
+
+    old "That stall over there sells juice, so I'll go grab some."
+    new "そこの露店でジュース売ってたから、買ってくるよ。"
+
+    old "Ah...{#ch2.7_t_017}"
+    new "あ……。"
+
+    old "Here, sorry to keep you waiting. This one's yours, Tabitha."
+    new "はい、お待たせ。こっちがタバサの分な。"
+
+    old "Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine."
+    new "って、そういやこれ、なんのジュースだ？お品書きが読めないから適当に買って来ちゃったけど、大丈夫かな。"
+
+    old "...That's wild grape juice."
+    new "……それは、山ブドウのジュース。"
+
+    old "Wild grapes, huh. Oh, and what's yours?"
+    new "山ブドウか。あ、そっちのはなに？"
+
+    old "...This one is mountain cranberry juice."
+    new "……こっちは、コケモモのジュース。"
+
+    old "Huh... I have no idea what mountain cranberries are, but... oh well, dig in!"
+    new "へえ……。コケモモってなんだか分からないけど……。まあ、いいや、いっただっきまーす。"
+
+    old "Pfft - sour, but good."
+    new "ぷはっ、酸っぱいけど美味いや。"
+
+    old "Hmm? What's wrong?"
+    new "んぁ、どうかした？"
+
+    old "...Nothing."
+    new "……なんでもない。"
+
+
+translate japanese strings:
+
+    old "Come on, let's look around some other places too."
+    new "本屋以外も見て回ろう。"
+
+    old "...I'm not interested in anything but the bookstore."
+    new "……本屋以外は、興味ない。"
+
+    old "I figured. But on a day like this, window shopping'll do - let's just stroll around."
+    new "そうだろうけどさ。こんなときは、ウィンドウショッピングでいいから見て回ろうじゃないか。"
+
+    old "...Win-dow... what?"
+    new "うぃんどう……なに？"
+
+    old "Huh? Er..."
+    new "え？ええっと……。"
+
+    old "It's a word from my country - it means wandering past the shops and looking in the windows, even if you're not buying."
+    new "俺の国の言葉で、冷やかしでいいから、店を見て回ろうって意味。"
+
+    old "...I don't mind."
+    new "……別に、かまわない。"
+
+    old "Alright, let's go look around."
+    new "よし、じゃあ見て回ろう。"
+
+    old "So? Feeling better?"
+    new "どうだ？元気出たか？"
+
+    old "I see. That's good."
+    new "そっか。そりゃ良かった。"
+
+    old "So, what now? Want to look around a bit more?"
+    new "で、どうする？もう少し見て回るか？"
+
+    old "...I'm going home now."
+    new "……今日は、もう帰る。"
+
+    old "I see... Well, um."
+    new "そっか……。まああれだ。"
+
+    old "It's a shame about the book, but don't mope too much about it."
+    new "本は残念だったけど、あんまりクヨクヨしない方がいいぞ。"
+
+    old "...I know. And... today was fun."
+    new "……分かってる。それに、今日は楽しかった。"
+
+    old "Hm? I'm glad to hear that. Shall we head back to the academy?"
+    new "うん？そうか、それは良かった。んじゃ、学院に戻ろうぜ。"
+
+    old "...Yeah."
+    new "……うん。"
+
+    old "Kirche, you in?"
+    new "キュルケ、いるかー？"
+
+    old "I am, yees. What do you want?"
+    new "いるわよー。いったいなんの用ー？"
+
+    old "...You seem sort of in a bad mood. What's wrong?"
+    new "……なんか、微妙に機嫌が悪いように見えるんだけど、どうしたの？"
+
+    old "It's hoooot! Seriously, what is this heat? And there's not even a breeze..."
+    new "暑いのよ！もう、なにこの暑さ。風もぜんぜん吹かないし……。"
+
+    old "Kirche, you can't stand the heat? A lukewarm Kirche... what would that even be?"
+    new "キュルケって暑いのが駄目なのか？微熱のキュルケ……なんだろ？"
+
+    old "Not at all. Ugh, isn't there somewhere cool?"
+    new "それがぜんぜん駄目なの。あー、どっか涼しいところないかしら？"
+
+    old "Hmm. Was there somewhere...?"
+    new "うーん。どこかあったっけ……？"
+
+    old "...That's it, I've decided!!"
+    new "……そうだ、決めたわ！！"
+
+    old "Huh? So there is somewhere?"
+    new "え？どこかあったの？"
+
+    old "When it comes to cooling off, it's the lake. Darling, let's go to the lake!"
+    new "涼しくなれる場所と言ったら湖ね。ダーリン、湖に行きましょう！"
+
+    old "Huh, a lake? Is it that close?"
+    new "え、湖？そんな近くにあるの？"
+
+    old "Exactly. Then it's decided - let's hurry up and go. Come on, come on, come on."
+    new "そうね、そうしましょう。そうと決まれば、急いで行きましょ。ほら、ほら、ほら。"
+
+    old "Wait. What are we even going to do at the lake?"
+    new "いや、待てよ。湖に行って何をするんだ？"
+
+    old "What do you mean? If you go to the lake, there's only one thing to do."
+    new "なにって、湖に行くならすることはひとつよ。"
+
+    old "Such as...?"
+    new "というと……。"
+
+    old "Fishing!"
+    new "釣りか！"
+
+    old "How do you get that?!"
+    new "なんでそうなるのよ！"
+
+    old "Huh, I was wrong?"
+    new "え、違うのか。"
+
+    old "Sit there zoning out in the sun on a gorgeous day, waiting for a fish to bite? In your dreams."
+    new "こんな天気の良い日に、この日差しを浴びながらぼーっと座って魚がかかるのを待つっていうの？冗談じゃないわよ。"
+
+    old "Oh, right. That would be hot."
+    new "あー、そっか。そりゃ暑そうだな。"
+
+    old "Besides, neither of us has any fishing gear anyway."
+    new "それに第一、ダーリンもあたしも釣りの道具なんて持ってないでしょ。"
+
+    old "Ha, now that you mention it, you're right!"
+    new "はっ、言われてみればその通り！"
+
+    old "If we're going to the lake, there's only one thing to do. Obviously we're swimming."
+    new "湖に行くんだったら、することはひとつ。泳ぐに決まってるじゃない。"
+
+    old "Oh, now that sounds fun."
+    new "おお、それは楽しそうだ。"
+
+    old "Oh, just to check - you can swim, can't you, Darling?"
+    new "あ、一応聞くけど、泳げないってことはないわよね、ダーリン？"
+
+    old "I can swim about as well as the next person."
+    new "まあ人並みには泳げるつもりだよ。"
+
+    old "Good. It'd be no fun if you were stuck all alone on the shore."
+    new "そう、良かった。ダーリンが岸で１人ぼっちだなんてことになったら、つまんないしね。"
+
+    old "Let's swim!"
+    new "泳ぐか！"
+
+    old "Straight to the point, as ever."
+    new "さすが、話が早いじゃない。"
+
+    old "Yep. When it's hot, nothing beats a swim in the sea or the pool."
+    new "まあな。暑いときには、海やプールで泳ぐのが一番だな。"
+
+    old "An adventure in the shade!"
+    new "木陰でアバンチュール！"
+
+    old "Oh? That has its own appeal, actually."
+    new "あら、それはそれでいいかもね。"
+
+    old "Wait, really?"
+    new "え、マジで？"
+
+    old "But since we're going all the way to the lake, we have to swim first!"
+    new "でも、せっかく湖に行くんだから、まずは泳がなくっちゃ！"
+
+    old "Okay, so we're going to the lake to swim. But what about supplies and all..."
+    new "とりあえず湖に行って泳ぐことは分かったけど、準備とかは……。"
+
+    old "We don't need any of that. We're going as we are! Come on, let's go!"
+    new "いらないわよ、そんなの。身ひとつで十分！さあ、行くわよ！"
+
+    old "Whaaat!?"
+    new "ええー！？"
+
+    old "Come on, just a little further."
+    new "ほら、後もう少しよ。"
+
+    old "Sorry, I need a break. I'm worn out from walking."
+    new "ごめん、ちょっと休憩。歩きつかれちまったよ。"
+
+    old "Honestly, Darling, you're such a laggard. I'm going on ahead."
+    new "もう、ダーリンったらだらしがない。先に行ってるからね。"
+
+    old "Wow, she really left me. She must have wanted to swim that badly."
+    new "あ、本当においてかれたよ。よっぽど泳ぎたかったんだな。"
+
+    old "Here I go-o!!"
+    new "そおーれっ！！"
+
+    old "Come on, Darling! Hurry up and get here!"
+    new "ほら、ダーリン！はやくいらっしゃいよ！"
+
+    old "I-I can't just come when you tell me to! Kirche, you're not wearing anything, are you!?"
+    new "い、い、いらっしゃいって言われても！キュルケ、何もつけてないじゃないデスカ！？"
+
+    old "Of course not. You don't swim in your clothes."
+    new "そうよ。服を着たまま泳ぐわけにいかないじゃない。"
+
+    old "Y-yes, ma'am, that's true, but..."
+    new "いや、それは仰るとおりですけれども。"
+
+    old "Darling..."
+    new "ねえ、ダーリンってば。"
+
+    old "Waaah! Stop coming at me like that!"
+    new "うわあっ！待ってその格好で迫ってくるのはやめて！"
+
+    old "Huh? What's wrong? You just dropped to your knees all of a sudden."
+    new "え、どうしたの？急にしゃがみこんだりして。"
+
+    old "Well, you see, a phenomenon particular to men has occurred."
+    new "いやあの、男性特有の現象が起きまして。"
+
+    old "Oh, that? Fufu, Darling, you're so innocent. Adorable!"
+    new "ああ、そういうこと？うふふ、ダーリンってば、ウブなんだから。かわいい！"
+
+    old "A-a-adorable... I see."
+    new "か、かわいい……ですか。"
+
+    old "You're all red. I could just eat you up!"
+    new "真っ赤になっちゃって。もう食べちゃいたい！"
+
+    old "Please don't eat me..."
+    new "食べないでください……。"
+
+    old "Ah... Hiraga-kun."
+    new "あ……平賀くん。"
+
+    old "Hey, Haruna... You were reading something, weren't you? What was it?"
+    new "やぁ、春奈……。何か読んでたみたいだけど、何を読んでたの？"
+
+    old "Um..."
+    new "えっと……。"
+
+    old "Ah, wait - let me guess?"
+    new "あ、待って、俺が当ててみようか？"
+
+    old "H-huh...?"
+    new "え、え……？"
+
+    old "So, my guess is..."
+    new "えーと、俺の予想だと……。"
+
+    old "A diary, of course."
+    new "ずばり、日記とか。"
+
+    old "Nope, not that."
+    new "やだ、そんなんじゃないよ。"
+
+    old "I did have a bag with me, but I lost it when we escaped."
+    new "本当はバッグも持ってたんだけど、逃げ出すときに、なくしちゃったの。"
+
+    old "I-I see..."
+    new "そ、そうなんだ……。"
+
+    old "I still have a few things with me, but this is my treasure now."
+    new "身の回りのものはいくつか手元に残ってるけど、今の私にとっての宝物はこれなの。"
+
+    old "Is that a student handbook?"
+    new "これって、生徒手帳？"
+
+    old "Mm-hm."
+    new "うん……。"
+
+    old "A student handbook, of course."
+    new "ずばり、生徒手帳とか。"
+
+    old "Bingo. I'd tucked it into my uniform pocket, so it barely made it."
+    new "うん、当たり。制服のポケットに入れてたから。かろうじて残ってるの。"
+
+    old "I did have a bag with me, but I lost it when we escaped.{#ch2.8_ha_009}"
+    new "本当はバッグも持ってたんだけど、逃げ出すときに、なくしちゃったの。"
+
+    old "I-I see...{#ch2.8_s_047}"
+    new "そ、そうなんだ……。"
+
+    old "A letter from someone, of course?"
+    new "ずばり、誰かからの手紙とか？"
+
+    old "W-wha!? N-no, it's nothing like that!"
+    new "え、ええっ！？ち、違うよっ、そんなんじゃなくって！"
+
+    old "Oh, I was sure it was a love letter from somebody."
+    new "え、違うの？てっきり誰かからもらったラブレターとか？"
+
+    old "I told you, no! This - this right here. See, you recognize it?"
+    new "違うってば！これ、これよ。ほら、見覚えあるでしょ。"
+
+    old "The student handbook? You were reading that? Even after coming here, you're still the model student."
+    new "生徒手帳？そんなの読んでたのか。こっちに来ても真面目だなあ。"
+
+    old "It's not really like that, though."
+    new "そういうのじゃ、ないんだけどね。"
+
+    old "I did have a bag with me, but I lost it when we escaped.{#ch2.8_ha_013}"
+    new "本当はバッグも持ってたんだけど、逃げ出すときに、なくしちゃったの。"
+
+    old "This is the only thing I have left... I think."
+    new "これが唯一の私の持ち物…かな？"
+
+    old "Words work just fine in this world, but I can't read a single character."
+    new "こっちの世界に来て、言葉は普通に通じるけど、文字は一切読めないの。"
+
+    old "Same as me..."
+    new "俺と同じか……。"
+
+    old "I never used to read the handbook. But if I don't read it now, I'm afraid I'll forget Japanese before long... it scares me."
+    new "生徒手帳なんて、普段読んでいなかったのに。今読んでいないと、そのうち日本語を忘れそうで……不安になるの。"
+
+    old "I see... Come to think of it, I never really read the handbook properly either."
+    new "そっか……。そういや、俺あんまり生徒手帳って真面目に読んでなかったなあ。"
+
+    old "Let's see, there was something funny in here... Um... 'Do not dress too showily'?"
+    new "どれどれ、なんか面白いこと書いてあったっけ。うーんと……、『過度に派手な格好をしないこと』？"
+
+    old "Hee hee. 'Do not take detours on the way to or from school'!"
+    new "ふふっ。『登下校時は、寄り道をしないように』！"
+
+    old "'Diligent study and a regular lifestyle' - there's a line like that in here."
+    new "『勉学に励み、規則正しい生活を心がけよう』って、こんなの書いてあったんだ。"
+
+    old "The school song and the cheering song are in here too."
+    new "校歌とか、応援歌も載ってるね。"
+
+    old "Ugh, I can't sing either of them at all."
+    new "うわ、俺全然歌えねえ。"
+
+    old "Fufu."
+    new "うふふっ。"
+
+    old "Come to think of it, wasn't the button on the far right of the school vending machine always sold out?"
+    new "そういえば、学校にあった自販機っていつも右端が売り切れになってなかった？"
+
+    old "It was! It was!"
+    new "なってた、なってた！"
+
+    old "Wonder why the vendor never fixed it."
+    new "あれ、業者の人、修理しないのかな。"
+
+    old "Actually, that button? If you press it, you can buy juice just fine. Did you know?"
+    new "実は、あのボタン。押すとちゃんとジュースを買えるんだよ。知ってた？"
+
+    old "Gah! Who knew there was a hidden trick like that!"
+    new "げっ。そんな裏技があったとは！"
+
+    old "Really! Hee hee, ahaha!"
+    new "本当ね！ふふっ、あははっ！"
+
+    old "Haha, ahaha!"
+    new "ははっ、あははっ！"
+

@@ -465,3 +465,92 @@ translate russian strings:
     old "Well then. I said all that, but where did Louise run off to?"
     new "Ну что ж. Хоть я и наговорил, а куда это Луиза подевалась?"
 
+
+translate russian strings:
+
+    old "Where did those two go? Louise I'd expect, but for Siesta to be gone too..."
+    new "Куда это подевались обе? С Луизой ещё ладно, но чтобы и Сиеста не вернулась…"
+
+    old "Should I go look for them again? Maybe I'll swing by outside this time..."
+    new "Сходить поискать ещё раз? На этот раз, загляну и на улицу…"
+
+    old "An important talk between women...? That has a rather thrilling ring to it."
+    new "Важный разговор между женщинами…? Звучит даже как-то волнующе."
+
+    old "Louise suddenly started being nice out of nowhere... Which somehow creeps me out — no, downright scares me."
+    new "Луиза вдруг ни с того ни с сего стала доброй… Это даже пугает — вернее, прямо таки жутко."
+
+    old "Still, rather than being in a good mood, she just seems... gracious."
+    new "Впрочем, это не столько хорошее расположение духа, сколько просто приветливость."
+
+    old "If she's going to get along with Haruna, I couldn't ask for more, but..."
+    new "Раз уж она наладит отношения с Харуной, лучше и не пожалеешь, но…"
+
+    old "I just hope nothing else strange happens."
+    new "Лишь бы больше ничего странного не случилось."
+
+    old "Ugh, good grief... It's morning already?"
+    new "Ух, не отстань… Уже утро?"
+
+    old "I feel like all I've done lately is get tired..."
+    new "Кажется, в последнее время я только и делаю, что устаю…"
+
+    old "Well then... what should I do now? Maybe I'll invite someone and go somewhere."
+    new "Что ж… что теперь? Может, кого-нибудь позвать и куда-нибудь сходить."
+
+translate russian strings:
+
+    old "Whew... Louise has it rough too, in her own way. I really do admire that grit of hers."
+    new "Фух… И у Луизы трудности. За такое упрямство — уважение, честно."
+
+    old "She's turned it into a whole life creed... come on."
+    new "Уже образ жизни в кредо превратила, слушай."
+
+    old "Dammit - did Siesta just set me up?"
+    new "Блин — меня только что подставили?"
+
+    old "Even unbaked, it already smells pretty good."
+    new "Ещё не печёшь, а уже неплохо пахнет."
+
+    old "Mm-mm-mm. How quick and deft she is."
+    new "Мм-мм-мм. Как она проворно и ловко всё делает."
+
+    old "...{#ch2.7_th1044a}"
+    new "…"
+
+    old "...{#ch2.7_th1044b}"
+    new "…"
+
+    old "...{#ch2.7_th1044c}"
+    new "…"
+
+    old "Wow, Tabitha is so disappointed it's obvious just to look at. She must have been looking forward to it a lot."
+    new "Ваа, Табита расстроена так, что видно невооружённым глазом. Значит, очень ждала."
+
+    old "...{#ch2.7_th1045a}"
+    new "…"
+
+    old "...{#ch2.7_th1045}"
+    new "…{#ch2.7_th1045}"
+
+    old "...{#ch2.7_th1046a}"
+    new "…"
+
+    old "...{#ch2.7_th1046b}"
+    new "…"
+
+
+translate russian strings:
+
+    old "...{#ch2.8_th1048}"
+    new "…{#ch2.8_th1048}"
+
+    old "How much of that was serious...? Or am I just being toyed with?"
+    new "Серьёзно ли она это…? Или меня просто развлекают?"
+
+    old "...Yeah, fair enough."
+    new "…Ну да, верно."
+
+    old "She laughed... I guess talking about memories of Japan is what makes Haruna happiest."
+    new "Она рассмеялась… Видно, рассказы о Японии — самое приятное для Харуны."
+

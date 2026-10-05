@@ -6145,3 +6145,1076 @@ translate russian strings:
     old "...Sigh. Why is Hiraga-kun so kind to everyone, anyway?"
     new "…Ох. Почему Хирага-кун так добр ко всем?"
 
+
+translate russian strings:
+
+    old "Phew..."
+    new "Фух…"
+
+    old "Hiraga-kun... Louise isn't back yet, is she?"
+    new "Хирага-кун… Луиза ещё не вернулась, да?"
+
+    old "...No."
+    new "……Да."
+
+    old "Worried?"
+    new "Волнуешься?"
+
+    old "...A little, yeah."
+    new "……Немного, да."
+
+    old "We just got back."
+    new "Только что вернулись."
+
+    old "Sorry to keep you waiting, Saito-san. I'm back now."
+    new "Простите, Сайто-сан. Я вернулась."
+
+    old "Louise! Siesta!"
+    new "Луиза! Сиеста!"
+
+    old "Goodness, look at that shocked face..."
+    new "Ну и выражение лица, ничего себе удивились…"
+
+    old "You... You were so late, you had me worried sick, you know?"
+    new "Да ты ж… Так долго тебя не было, я ж перепугался, чё уж."
+
+    old "Worried...? Okay, so I was a little late getting back, but it's not even midnight yet."
+    new "Волновался…? Ладно, я немного задержалась, но ведь ещё не полночь."
+
+    old "You've forgotten what happened this afternoon, haven't you? There's no guarantee those bastards won't come again!"
+    new "Ты днём-то забыла, что было? Никто не поручился, что эти ублюдки не придут снова!"
+
+    old "Please don't be so angry, Saito-san. I'm partly to blame for the delay."
+    new "Не злитесь так, Сайто-сан. В том, что мы задержались, виновата и я."
+
+    old "Siesta?"
+    new "Сиеста?"
+
+    old "Miss Vallière and I were talking for a while."
+    new "Мадемуазель Вальер и я какое-то время поболтали."
+
+    old "Talking? About what, exactly..."
+    new "Болтали? О чём, собственно…"
+
+    old "It's a ladies' conversation, so naturally it's a secret from you, Saito-san."
+    new "Это дамский разговор, так что, разумеется, от вас, Сайто-сан, это секрет."
+
+    old "O-oh, is that so."
+    new "А-а, понятно."
+
+    old "I owe Haruna an apology."
+    new "Я должна извиниться перед Харуной."
+
+    old "Louise?"
+    new "Луиза?"
+
+    old "Suddenly there were more people in the room, and I got all irritable because I couldn't settle down. I'm sorry."
+    new "В комнате внезапно стало больше народу, и я почему-то нервничала, не могла успокоиться. Простите."
+
+    old "Y-yes... n-no..."
+    new "Д-да… н-нет…"
+
+    old "Don't worry about what I said earlier. Make yourself at home tomorrow too."
+    new "Не думайте о том, что я говорила раньше. Оставайтесь и завтра, никуда не торопитесь."
+
+    old "Yes... Thank you very much."
+    new "Да… Большое спасибо."
+
+    old "Hey, Siesta."
+    new "Эй, Сиеста."
+
+    old "Yes?{#ch2.6_si_005}"
+    new "Да?"
+
+    old "So..."
+    new "Слушай…"
+
+    old "Did something happen to Louise?"
+    new "Что-нибудь случилось с Луизой?"
+
+    old "Something like what?"
+    new "Что именно?"
+
+    old "Well... I hope I'm wrong, but her suddenly being so nice just feels off somehow."
+    new "Да нет… Может, мне показалось, но она вдруг стала такой доброй — как-то это не вяжется."
+
+    old "Is that so? Nothing in particular."
+    new "Правда? Ничего такого."
+
+    old "I see. If you didn't notice anything, then maybe I imagined it."
+    new "Понятно. Раз ты ничего не заметила, значит, мне показалось."
+
+    old "What were you talking about earlier?"
+    new "О чём вы разговаривали?"
+
+    old "I told you. It's a secret, so I can't say."
+    new "Так я же говорю. Это секрет, так что сказать не могу."
+
+    old "Come on, do me a favor here."
+    new "Ну вот, упроси тебя."
+
+    old "Trying to force a girl to give up her secret is awfully rude, you know."
+    new "Пытаться выведать девушке секрет силой — это некрасиво."
+
+    old "Ugh. When you put it that way, I'm sunk."
+    new "Угх. Когда так говоришь — мне нечем возразить."
+
+    old "So, I can't tell you any more than that."
+    new "Так что дальше я рассказывать не буду."
+
+    old "Hmm... I guess there's nothing I can do."
+    new "Хм… что ж, не поспоришь."
+
+    old "Could you take the dishes back to the dining hall?"
+    new "Сможешь отнести посуду в столовую?"
+
+    old "Ah, sure. Understood. I'll take them all to the kitchen later."
+    new "А, да. Поняла. Потом отнесу всё на кухню разом."
+
+    old "Sorry for making extra work for you."
+    new "Прости, что добавляю хлопот."
+
+    old "It's no trouble at all. By the way, was dinner good?"
+    new "Да это ничего. Кстати, ужин вкусный получился?"
+
+    old "Yeah, it was great. Thanks, Siesta."
+    new "Да, превосходный. Спасибо, Сиеста."
+
+    old "Hehe, you're welcome."
+    new "Хе-хе, не за что."
+
+    old "So, how did it go? Was there anything at the blast site?"
+    new "Ну как, что вышло? На месте взрыва нашли хоть что-нибудь?"
+
+    old "Yes. Examining the blast site, we recovered what appears to be residue from the bomb."
+    new "Да. Осмотрев место взрыва, мы нашли то, что похоже на остатки бомбы."
+
+    old "Hmm."
+    new "Хм."
+
+    old "A full analysis will take time, but a preliminary examination has already turned up a few things."
+    new "Полный анализ займёт время, но предварительный осмотр уже кое-что выявил."
+
+    old "Such as?"
+    new "Например?"
+
+    old "That the bomb was made differently from anything in ordinary circulation."
+    new "Что способ изготовления той бомбы отличается от всего, что обычно встречается."
+
+    old "The destructive power, the blast radius — everything is different. I'd say it's unmistakably military."
+    new "И разрушительная сила, и радиус — всё другое. Я бы сказал, это однозначно военная разработка."
+
+    old "...Hmm. Are you certain?"
+    new "……Хм. Вы уверены?"
+
+    old "Yes, I'm certain."
+    new "Да, ни малейших сомнений."
+
+    old "You mean to say... that a country — or an army — is behind this incident?"
+    new "То есть вы хотите сказать… что за этим инцидентом стоит государство или армия?"
+
+    old "No, I can't say that for certain yet..."
+    new "Нет, пока утверждать рано…"
+
+    old "But if we deduce the bomb's structure and compare it with the bomb technology of every country, including our own..."
+    new "Но если вывести конструкцию бомбы и сопоставить её с технологиями всех стран, включая нашу…"
+
+    old "Then we can narrow down which country the culprit is from — or which organization they belong to."
+    new "Тогда можно сузить круг: из какой страны преступник или в какую организацию он входит."
+
+    old "Yes. It will take some time, but..."
+    new "Да. Это займёт некоторое время, но…"
+
+    old "Understood. I'm counting on you."
+    new "Понятно. На вас надеюсь."
+
+    old "If we had the time, I'd have you dig into this at leisure — but that isn't possible."
+    new "Если б было время, я бы велел вам расследовать это не спеша — но, увы, нельзя."
+
+    old "But... what in the world is going on?"
+    new "Но… что вообще происходит?"
+
+    old "Between that war with the Reconquista army the other day, everything has become so unsettled."
+    new "И война с армией Реконкисты на днях — вообще всё стало неспокойным."
+
+    old "That lies beyond what we should be speculating about. First we must devote all our effort to the students' safety."
+    new "Это выходит за рамки наших домыслов. Прежде всего нужно приложить все силы к безопасности учеников."
+
+    old "R-right. I'll get on with the investigation at once."
+    new "П-да, точно. Я немедленно займусь расследованием."
+
+    old "I only hope this doesn't blow up any further... For now, all we can do is pray."
+    new "Лишь бы всё не разрослось… Сейчас остаётся только молиться."
+
+    old "Hey, Louisee— wait, why are you getting ready to go out?"
+    new "Эй, Луиза— да ты чего, собираешься выходить?"
+
+    old "Oh, Saito. Perfect timing. I'm heading to the ranch!"
+    new "А, Сайто. Как раз кстати. Я иду на ферму!"
+
+    old "Huh? Why the ranch?"
+    new "А? Почему на ферму?"
+
+    old "Stop yapping and let's go!"
+    new "Не придирайся! Пойдём!"
+
+    old "Wait, where did this sudden turn come from!?"
+    new "Погоди, откуда такой внезапный поворот!?"
+
+    old "Look — the blue sky, the white clouds, this fresh morning air! It lifts your spirits!"
+    new "Смотри — голубое небо, белые облака, свежий утренний воздух! Душа радуется!"
+
+    old "Yeah, you're right. It does feel great."
+    new "Ага, верно. Действительно приятно."
+
+    old "Hang on... huh? Where did she go?"
+    new "Так… эй? А куда это она делась?"
+
+    old "Sorry to keep you waiting!"
+    new "Не заставила ждать!"
+
+    old "Where were you? And what's that in your hand?"
+    new "Где ты была? И что это у тебя в руке?"
+
+    old "Goodness, haven't you seen it before? It's milk."
+    new "Ой, разве не видел? Это молоко."
+
+    old "No, I mean, sure, I can tell by looking — I know what it is."
+    new "Нет, ну вроде бы понятно, я же знаю, что это."
+
+    old "Fufufu. I've just gotten it straight from the ranch — fresh from the cow!"
+    new "Фуфуфу. Только что взяла у хозяев фермы — свежайшее!"
+
+    old "Sounds delicious... Wait, do you even like milk that much?"
+    new "Звучит вкусно… Ты что, так любишь молоко?"
+
+    old "This is a challenge."
+    new "Это вызов."
+
+    old "A challenge? Milady, what exactly do you intend to do?"
+    new "Вызов? Госпожа, что вы, собственно, собираетесь делать?"
+
+    old "Nothing to you, Saito. If anything, it's putting wisdom into practice — proof of knowledge!"
+    new "Тебе-то ничего. Скорее, практика мудрости — доказательство знания!"
+
+    old "Sorry, I have no idea what you're talking about."
+    new "Прости, ничего не понимаю."
+
+    old "They say drinking milk makes you grow, don't they?"
+    new "Все ж говорят: пей молоко — будешь выше."
+
+    old "Makes you what?"
+    new "Будешь что?"
+
+    old "...All sorts of things!"
+    new "……Всему подряд!"
+
+    old "True, for a noble like me to drink a cow's milk straight — it's rather unbecoming, I'll admit."
+    new "Конечно, благородной особе пить коровье молоко прямо так — неприлично, скажу честно."
+
+    old "But if I don't drink milk now, I'll never grow! That's how it works, I'm sure of it!"
+    new "Но если не пить молоко сейчас, я так и останусь прежней! Точно, я уверена!"
+
+    old "In that case! Betting on an old saying is also a path worth taking."
+    new "Значит! Ставка на старую примету — тоже выход."
+
+    old "Fufufufufufufu... Once I drink this, I'll leave Kirche in the dust..."
+    new "Фуфуфуфуфуфу… Выпью это — и Кирке останется позади…"
+
+    old "Sigh. Fine, whatever..."
+    new "Фух. Ну, как хочешь…"
+
+    old "Bigger where, exactly?"
+    new "Выше — в каком месте?"
+
+    old "W-where...?"
+    new "К-куда именно…?"
+
+    old "Th-that doesn't matter!"
+    new "Да это неважно!"
+
+    old "Hmm? Aha, I get it."
+    new "Хм? Ага, понял."
+
+    old "You want your chest to get bigger, don't you? Well, one glass of milk won't make it happen overnight, you know~"
+    new "Хочешь, чтобы грудь подросла, так? Увы, от одного стакана молока за ночь ничего не вырастет~"
+
+    old "Shut up! It's none of your business!!"
+    new "Заткнись! Твоё дело-то какое!!"
+
+    old "Guh! Ouch! I'm done for—!!"
+    new "Гух! Больно! Всё, конец мне—!!"
+
+    old "Hah, hah, hah..."
+    new "Ха, ха, ха…"
+
+    old "You don't have to push yourself, you know."
+    new "Не нужно так себя напрягать."
+
+    old "Hah? What do you mean, push myself!"
+    new "Что? Да с чего это я напрягаюсь!"
+
+    old "Calm down. Listen carefully to what I'm saying."
+    new "Успокойся. Внимательно выслушай меня."
+
+    old "Even if you don't force yourself to grow, you can just wait and let it happen naturally."
+    new "Даже если не форсировать, можно просто подождать и вырасти естественным путём."
+
+    old "I'm not saying trying is bad — but you're fine just the way you are without overreaching."
+    new "Я не говорю, что стремиться плохо — но и без лишних попыток ты уже хороша."
+
+    old "Eh... um, um, Saito?"
+    new "Э… э-эм, Сайто?"
+
+    old "If you strain yourself and hurt your body, that defeats the whole point, doesn't it? Just take it easy."
+    new "Если из-за лишнего напряжения повредишь себе — вообще выйдет боком, верно? Расслабься немного."
+
+    old "Ah... yeah. I wasn't planning to force myself..."
+    new "А… да. Я и не собиралась напрягаться…"
+
+    old "I mean, um, well... I just wanted to try it, that's all."
+    new "То есть, э-э… я всего лишь хотела попробовать."
+
+    old "And besides, you... I mean, men — they say they like them bigger, don't they?"
+    new "И ещё… ты… то есть, мужчины же говорят, что любят побольше?"
+
+    old "Do they? I think that varies from person to person."
+    new "Правда? Кажется, тут у всех вкусы разные."
+
+    old "Eh? But I'm pretty sure you said you like them bigger..."
+    new "А? Но ты ведь говорил, что тебе нравится побольше…"
+
+    old "Huh? I said that?"
+    new "А? Я так говорил?"
+
+    old "N-nothing! Don't ask weird questions!"
+    new "Н-ничего! Не задавай странных вопросов!"
+
+    old "Give me some too."
+    new "Дай и мне."
+
+    old "Huh?{#ch2.6_l_032}"
+    new "Что?"
+
+    old "No, I'm saying — pour me some of the milk too."
+    new "Нет, ну я же говорю: налей мне тоже молока."
+
+    old "Wh-why?"
+    new "П-почему?"
+
+    old "Well, it just looks fresh and tasty... Is there some other reason?"
+    new "Да просто кажется свежим и вкусным… А какой ещё должна быть причина?"
+
+    old "No."
+    new "Нет."
+
+    old "Why not!?"
+    new "Почему нельзя!?"
+
+    old "There's none to spare for you. I had to ask the ranchers for this specially, you know."
+    new "Тебе-то не отлей. Я же у пастухов специально выпрашивала."
+
+    old "Tch... I guess that's how it is."
+    new "Чё… ну ладно, понятно."
+
+translate russian strings:
+
+    old "Anyway! I'm going to drink. Just watch me!"
+    new "В любом случае! Я пью. Только смотрите!"
+
+    old "You'll see! I'll grow so big that Kirche and Siesta won't even reach my feet!"
+    new "Увидите! Я вырасту так, что Кирке и Сиеста не дотянутся и до моих пят!"
+
+    old "Sure, but don't drink too much and upset your stomach, okay?"
+    new "Ладно, только не пей слишком много, а то расстроишь живот, хорошо?"
+
+    old "No! Once I've made up my mind, the only way is forward!"
+    new "Нет! Раз решила — только вперёд!"
+
+    old "Even if I collapse, it'll be face-first! That's how the House of Vallière lives!"
+    new "Даже если упаду — то лицом вперёд! Таков обычай дома Вальер!"
+
+    old "Ah, good morning, Saito-san."
+    new "А, доброе утро, Сайто-сан."
+
+    old "Hey, Siesta. So you're here."
+    new "Привет, Сиеста. Вот где ты."
+
+    old "Busy with work today?"
+    new "Сегодня на работе много дела?"
+
+    old "No. I have the day off, so I thought I'd try my hand at baking sweets."
+    new "Нет. Сегодня у меня выходной, я подумала попробовать испечь что-нибудь сладкое."
+
+    old "Heh, that sounds like you. So, what are you making?"
+    new "Ишь ты, в духе Сиесты. Ну и что печёшь?"
+
+    old "I was thinking of making cookies today."
+    new "Сегодня, пожалуй, испеку печенье."
+
+    old "Cookies, huh. Yeah, yeah - fresh out of the oven they smell great and taste even better."
+    new "Печенье, ага. Угу-угу — из печи свежее ароматное да ещё и вкусное."
+
+    old "Oh, that's right. Saito-san, why don't you make cookies with me?"
+    new "А, точно. Сайто-сан, не хотите ли вместе испечь печенье?"
+
+    old "Huh? Me too?"
+    new "А? Мне тоже?"
+
+    old "Yes. It's sure to be fun."
+    new "Да. Забавно будет точно."
+
+    old "Well, I guess..."
+    new "Ну, пожалуй…"
+
+    old "Nah, I'll pass."
+    new "Не, я лучше воздержусь."
+
+    old "Is that... no good?"
+    new "Неужели нельзя…?"
+
+    old "I appreciate the offer, but I'd only get in your way, Siesta."
+    new "Цени предложение, но я тебе только помехой буду."
+
+    old "Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know."
+    new "Э-эм, я ведь не так уж и чего-то особенного умею, а вы, Сайто-сан, тоже можете кое-что."
+
+    old "Hmm... you've got a point. Alright, let's give it a try."
+    new "Хм… верно-то. Ладно, попробуем."
+
+    old "That's right. Let's do it together."
+    new "Вот именно. Давайте вместе."
+
+    old "Sounds like fun - let's do it."
+    new "Звучит занятно — давай."
+
+    old "Really?!"
+    new "Правда?!"
+
+    old "Well, I don't know a thing about cooking, so I might just be dead weight."
+    new "Ну, я на кухне ни бельмеса, так что, возможно, буду только тормозить."
+
+    old "Not at all. Let's do our best together, okay?"
+    new "Ни в коем случае. Давайте стараться вместе, хорошо?"
+
+    old "Yeah.{#ch2.7_s_013}"
+    new "Ага."
+
+    old "Er... I'll be in charge of tasting, then."
+    new "Э-э… Значит, я отвечаю за дегустацию."
+
+    old "Is that so...? What a shame."
+    new "Так…? Какая жаль."
+
+    old "And here I thought Saito-san and I could make cookies together..."
+    new "А я думала, мы с Сайто-саном будем печь печенье вместе…"
+
+    old "N-no, I mean, I'm terrible at cooking and all..."
+    new "Н-нет, ну, я же варю в кухне и всё такое…"
+
+    old "Tug, tug..."
+    new "Тянет-потянет…"
+
+    old "...{#ch2.7_s_016}"
+    new "…{#ch2.7_s_016}"
+
+    old "Tug, tug...{#ch2.7_si_014}"
+    new "Тянет-потянет…{#ch2.7_si_014}"
+
+    old "Alright. I'll help out too."
+    new "Ладно. Я тоже помогу."
+
+    old "Really? Then let's do it together!"
+    new "Правда? Тогда давайте вместе!"
+
+    old "Then please knead this butter until it's soft and paste-like. I'll get the flour ready in the meantime."
+    new "Тогда, пожалуйста, разотрите это масло до мягкого пастообразного состояния. А пока я подготовлю муку."
+
+    old "Mm, got it."
+    new "Мм, понял."
+
+    old "...Mmf. This is harder than it looks."
+    new "…Мм. Дело непростое."
+
+    old "Is it done?"
+    new "Готово?"
+
+    old "Ah, yeah. Sort of."
+    new "А, да. В общем, да."
+
+    old "Next, add the sugar and egg yolk, and stir well again."
+    new "Дальше добавьте сахар и желток и снова хорошо размешайте."
+
+    old "Sugar in first - and once it's mixed well, then the yolk."
+    new "Сначала сахар, а когда хорошо перемешается — только потом желток."
+
+    old "Roger!"
+    new "Принято!"
+
+    old "How is it?"
+    new "Как?"
+
+    old "I think I stirred it."
+    new "Кажется, размешал."
+
+    old "Let's see, let's see."
+    new "Ну-ка, ну-ка."
+
+    old "...Yep, this should be fine."
+    new "…Да, так сойдёт."
+
+    old "Then I'll fold in the flour and mix."
+    new "Тогда я сама всыплю муку и перемешаю."
+
+    old "Sure, thanks."
+    new "Ага, на тебя."
+
+    old "Alright."
+    new "Хорошо."
+
+    old "Now I'll lay out the dough... and put it in the oven..."
+    new "Теперь раскладываю тесто… и в духовку…"
+
+    old "Now we just wait for it to bake right."
+    new "Осталось дождаться, чтобы хорошо испеклось."
+
+    old "I can't wait for them to be done."
+    new "Не терпится дождаться готового."
+
+    old "Yes.{#ch2.7_si_027}"
+    new "Да."
+
+    old "I wonder if they're about ready."
+    new "Кажется, пора."
+
+    old "Let's see... Yep! Looking good."
+    new "Ну-ка… Отлично!"
+
+    old "Let me see... Huh... smells great."
+    new "Дай гляну… Ишь ты… хорошо пахнет."
+
+    old "Saito-san, go ahead and have a taste."
+    new "Сайто-сан, пробуйте."
+
+    old "Then I won't hold back."
+    new "Что ж, без церемоний."
+
+    old "Mm! This is delicious! As expected of Siesta - they're great."
+    new "Мм! Вкусно! Как и ожидалось от Сиесты — правда вкусно."
+
+    old "Thank you... I'm sure it's because you were here, Saito-san."
+    new "Спасибо… Наверное, вышло потому, что вы были рядом, Сайто-сан."
+
+    old "Nah, in the end I didn't actually do anything useful. But these cookies really are good."
+    new "Да нет, по сути я тут ничего полезного не сделал. Но печенье правда вкусное."
+
+    old "Fufu, eat as much as you like."
+    new "Уфуфу, ешьте сколько угодно."
+
+    old "It'd be a waste for me to eat them all. Let's share, Siesta."
+    new "Жалко, если съем один. Давай вместе, Сиеста."
+
+    old "Ah, yes!"
+    new "А, да!"
+
+    old "Hey, Tabitha - it's nice out today. Want to go somewhere for once?"
+    new "Эй, Табита — сегодня хорошая погода. Не пойти ли нам куда-нибудь?"
+
+    old "...Already on my schedule."
+    new "…У меня уже в планах."
+
+    old "...Whaat?! Tabitha is going outside!?"
+    new "…Что?! Табита выходит на улицу!?"
+
+    old "Ah, no - I'm not saying it's weird to go out. It's just, I came to invite you and you beat me to it..."
+    new "А, нет, я не говорю, что странно выходить. Просто я хотел позвать, а меня опередили…"
+
+    old "Ah, whatever. So, where are you headed? I can come along, if you want."
+    new "Да ладно. И куда идёшь? Могу составить компанию."
+
+    old "...To town, to buy books."
+    new "…В город, купить книги."
+
+    old "Oh... sorry, that makes perfect sense."
+    new "А… прости, всё как раз объяснилось."
+
+    old "...So I can't come along today."
+    new "…Поэтому сегодня я не могу пойти."
+
+    old "Hahaha. Come on, in that case I'll at least carry your bags."
+    new "Ха-ха-ха. Ну, раз так — я хоть сумки подержу."
+
+    old "...You don't mind?"
+    new "…Ты не против?"
+
+    old "Of course, it's nothing."
+    new "Конечно, это ерунда."
+
+    old "...They'll get pretty heavy, though."
+    new "…Только их станет довольно тяжело носить."
+
+    old "Er... how heavy?"
+    new "Э-э… насколько?"
+
+    old "...Usually I only buy what fits in my bag."
+    new "…Обычно я беру столько, сколько влезет в сумку."
+
+    old "Oh, I can handle that much. Don't worry, leeeave it to me."
+    new "А, такое я уж точно потащу. Не переживай, полааагайся на меня."
+
+    old "...Alright. Please."
+    new "…Ладно. Прошу."
+
+    old "Roger, roger."
+    new "Принято-принято."
+
+    old "Phew, as lively as ever. So, which way is the bookstore?"
+    new "Фух, как всегда шумно. Итак, в какую сторону книжный?"
+
+    old "...This way."
+    new "…Сюда."
+
+    old "Okay. Let's go."
+    new "Ок. Поехали."
+
+    old "...Just around this corner."
+    new "…За этим углом."
+
+    old "Let's see."
+    new "Ну-ка."
+
+    old "This one here - the shop with the sign out front?"
+    new "Вот это, где вывеска висит?"
+
+    old "...Sign?"
+    new "…Вывеска?"
+
+    old "Something's written on it. I can't read it, though."
+    new "Там что-то написано. Только прочитать не могу."
+
+    old "What does it say?"
+    new "Что там написано?"
+
+    old "...'Closed today.'"
+    new "…«Сегодня закрыто»."
+
+    old "...Huh?{#ch2.7_s_046}"
+    new "…Что?"
+
+    old "...The shop is closed."
+    new "…Магазин закрыт."
+
+    old "Great. Talk about bad luck."
+    new "Здорово. Везёт же."
+
+    old "Days like this happen."
+    new "Бывает и так."
+
+    old "Come on, it's not like today's the only day you can buy books. You can just come again next time."
+    new "Ну, не будешь же ты покупать книги только сегодня. Можно прийти в другой раз."
+
+    old "...There's no guarantee the book I want will still be in stock by next time."
+    new "…Нет гарантии, что нужная книга дождётся до следующего раза."
+
+    old "Oof. Fair point, but..."
+    new "Угх. Верно, но…"
+
+    old "...{#ch2.7_s_051}"
+    new "…{#ch2.7_s_051}"
+
+    old "Ah, tell you what - next time I'll sneak out on your errand. Tell me the title and I'll buy it for you."
+    new "А, вот что: в следующий раз я тихонько сбегаю вместо тебя. Назови название — куплю."
+
+    old "...Are you sure?"
+    new "…Ты правда не против?"
+
+    old "Ah, yeah. I'll manage somehow."
+    new "А, да. Как-нибудь устрою."
+
+    old "...Thanks."
+    new "…Спасибо."
+
+    old "I'll buy you something."
+    new "Я тебе угощу."
+
+    old "...Huh?{#ch2.7_t_016}"
+    new "…А?"
+
+    old "Er, well, it's such nice weather and your throat must be dry, right?"
+    new "Э-э, ну, погода-то отличная, и наверняка пересохло в горле, верно?"
+
+    old "That stall over there sells juice, so I'll go grab some."
+    new "Там у лотка продают сок, сбегаю принесу."
+
+    old "Ah...{#ch2.7_t_017}"
+    new "А…"
+
+    old "Here, sorry to keep you waiting. This one's yours, Tabitha."
+    new "На, не заставила ждать. Это твоё, Табита."
+
+    old "Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine."
+    new "А, кстати, это какой сок? Меню прочитать не смог, так что взял наугад — не страшно?"
+
+    old "...That's wild grape juice."
+    new "…Это сок дикого винограда."
+
+    old "Wild grapes, huh. Oh, and what's yours?"
+    new "Дикий виноград, ага. А что у тебя?"
+
+    old "...This one is mountain cranberry juice."
+    new "…А это сок брусники."
+
+    old "Huh... I have no idea what mountain cranberries are, but... oh well, dig in!"
+    new "Ишь ты… Не знаю я, что за брусника такая… Да ладно, приступаю!"
+
+    old "Pfft - sour, but good."
+    new "Пф — кислый, но вкусный."
+
+    old "Hmm? What's wrong?"
+    new "Мм? Что такое?"
+
+    old "...Nothing."
+    new "…Ничего."
+
+
+translate russian strings:
+
+    old "Come on, let's look around some other places too."
+    new "Давай обойдём и другие места."
+
+    old "...I'm not interested in anything but the bookstore."
+    new "…Меня интересует только книжный."
+
+    old "I figured. But on a day like this, window shopping'll do - let's just stroll around."
+    new "Да ладно. В такой день можно и по витринам походить — давай погуляем."
+
+    old "...Win-dow... what?"
+    new "…Вин-дау… что?"
+
+    old "Huh? Er..."
+    new "А? Э-э…"
+
+    old "It's a word from my country - it means wandering past the shops and looking in the windows, even if you're not buying."
+    new "Это слово из моей страны — значит, пройтись по магазинам и заглянуть в витрины, даже если не покупаешь."
+
+    old "...I don't mind."
+    new "…Мне всё равно."
+
+    old "Alright, let's go look around."
+    new "Хорошо, тогда погуляем."
+
+    old "So? Feeling better?"
+    new "Ну как? Настроение поднялось?"
+
+    old "I see. That's good."
+    new "Понятно. Рад."
+
+    old "So, what now? Want to look around a bit more?"
+    new "И что дальше? Ещё погуляем?"
+
+    old "...I'm going home now."
+    new "…Я сегодня домой."
+
+    old "I see... Well, um."
+    new "Понятно… Ну, дело в том."
+
+    old "It's a shame about the book, but don't mope too much about it."
+    new "Жаль, что с книгой не вышло, но не стоит слишком уж горевать."
+
+    old "...I know. And... today was fun."
+    new "…Понимаю. И вообще, сегодня было весело."
+
+    old "Hm? I'm glad to hear that. Shall we head back to the academy?"
+    new "А? Рад. Ну что ж, вернёмся в академию."
+
+    old "...Yeah."
+    new "…Да."
+
+    old "Kirche, you in?"
+    new "Кирке, ты тут?"
+
+    old "I am, yees. What do you want?"
+    new "Тууут. И что такое?"
+
+    old "...You seem sort of in a bad mood. What's wrong?"
+    new "…Кажется, ты как-то не в духе. Что случилось?"
+
+    old "It's hoooot! Seriously, what is this heat? And there's not even a breeze..."
+    new "Жааарко! Ну и жара. И ветра совсем нет…"
+
+    old "Kirche, you can't stand the heat? A lukewarm Kirche... what would that even be?"
+    new "Кирке, тебе жара не по нраву? Кирке с лёгкой температурой… что это вообще?"
+
+    old "Not at all. Ugh, isn't there somewhere cool?"
+    new "Совсем не могу. Ах, разве нет какого-нибудь прохладного места?"
+
+    old "Hmm. Was there somewhere...?"
+    new "Хм. Было ли где-нибудь…?"
+
+    old "...That's it, I've decided!!"
+    new "…Точно, решила!!"
+
+    old "Huh? So there is somewhere?"
+    new "А? Значит, есть?"
+
+    old "When it comes to cooling off, it's the lake. Darling, let's go to the lake!"
+    new "Если хочешь прохлады — озеро. Дорогой, поедем на озеро!"
+
+    old "Huh, a lake? Is it that close?"
+    new "Озеро? Рядом что ли?"
+
+    old "Exactly. Then it's decided - let's hurry up and go. Come on, come on, come on."
+    new "Вот и договорились. Раз решили — поторопимся. Ну же, ну же, ну же."
+
+    old "Wait. What are we even going to do at the lake?"
+    new "Погоди. И что мы будем на озере делать?"
+
+    old "What do you mean? If you go to the lake, there's only one thing to do."
+    new "Ну а что? Раз едем на озеро — дел только одно."
+
+    old "Such as...?"
+    new "А именно…?"
+
+    old "Fishing!"
+    new "Рыбалка!"
+
+    old "How do you get that?!"
+    new "Почему сразу рыбалка?!"
+
+    old "Huh, I was wrong?"
+    new "А, не так?"
+
+    old "Sit there zoning out in the sun on a gorgeous day, waiting for a fish to bite? In your dreams."
+    new "В такой прекрасный день просидеть на солнце, тупо ожидая, пока клюнет? И речи быть не может."
+
+    old "Oh, right. That would be hot."
+    new "А, точно. Действительно жарко."
+
+    old "Besides, neither of us has any fishing gear anyway."
+    new "И во-первых, ни у тебя, ни у меня нет снастей."
+
+    old "Ha, now that you mention it, you're right!"
+    new "Ха, точно подмечено!"
+
+    old "If we're going to the lake, there's only one thing to do. Obviously we're swimming."
+    new "Раз едем на озеро — только и дело, что купаться."
+
+    old "Oh, now that sounds fun."
+    new "О, это уже интересно."
+
+    old "Oh, just to check - you can swim, can't you, Darling?"
+    new "А, для порядка: ты ведь умеешь плавать, Дорогой?"
+
+    old "I can swim about as well as the next person."
+    new "Думаю, плаваю как все."
+
+    old "Good. It'd be no fun if you were stuck all alone on the shore."
+    new "Хорошо. Скучно бы было, если бы ты остался один на берегу."
+
+    old "Let's swim!"
+    new "Пошли купаться!"
+
+    old "Straight to the point, as ever."
+    new "Сразу к делу, как всегда."
+
+    old "Yep. When it's hot, nothing beats a swim in the sea or the pool."
+    new "В том-то и дело. В жару лучше всего искупаться в море или бассейне."
+
+    old "An adventure in the shade!"
+    new "Приключение в тени!"
+
+    old "Oh? That has its own appeal, actually."
+    new "Ишь ты, это тоже может быть неплохо."
+
+    old "Wait, really?"
+    new "А, правда?"
+
+    old "But since we're going all the way to the lake, we have to swim first!"
+    new "Но раз уж едем на озеро — сначала надо искупаться!"
+
+    old "Okay, so we're going to the lake to swim. But what about supplies and all..."
+    new "Ладно, идём на озеро купаться. А вот с приготовлениями…"
+
+    old "We don't need any of that. We're going as we are! Come on, let's go!"
+    new "Ни к чему. Идём как есть! Ну же, пошли!"
+
+    old "Whaaat!?"
+    new "Чтооо!?"
+
+    old "Come on, just a little further."
+    new "Ну же, ещё немного."
+
+    old "Sorry, I need a break. I'm worn out from walking."
+    new "Прости, передохну. Ноги уже не несут."
+
+    old "Honestly, Darling, you're such a laggard. I'm going on ahead."
+    new "Ну ты и растяпа, Дорогой. Я вперёд."
+
+    old "Wow, she really left me. She must have wanted to swim that badly."
+    new "И правда ушла. Уж очень хотела поплавать."
+
+    old "Here I go-o!!"
+    new "Вооот я!!"
+
+    old "Come on, Darling! Hurry up and get here!"
+    new "Ну же, Дорогой! Быстрее сюда!"
+
+    old "I-I can't just come when you tell me to! Kirche, you're not wearing anything, are you!?"
+    new "Я-я не могу вот так «сейчас приду»! Кирке, на тебе же ничего нет, да!?"
+
+    old "Of course not. You don't swim in your clothes."
+    new "Конечно нет — в одежде не купаются."
+
+    old "Y-yes, ma'am, that's true, but..."
+    new "Д-да, вы правы, но…"
+
+    old "Darling..."
+    new "Ну-у, Дорогой…"
+
+    old "Waaah! Stop coming at me like that!"
+    new "Ааа! Перестань так на меня наваливаться!"
+
+    old "Huh? What's wrong? You just dropped to your knees all of a sudden."
+    new "А? Что такое? Вдруг присел на корточки."
+
+    old "Well, you see, a phenomenon particular to men has occurred."
+    new "Ну это, случилось то, что бывает только с мужчинами."
+
+    old "Oh, that? Fufu, Darling, you're so innocent. Adorable!"
+    new "А, это? Уфуфу, Дорогой, какой ты наивный. Милый!"
+
+    old "A-a-adorable... I see."
+    new "М-м-милый… Понятно."
+
+    old "You're all red. I could just eat you up!"
+    new "Совсем покраснел. Прямо съем!"
+
+    old "Please don't eat me..."
+    new "Только не ешьте…"
+
+    old "Ah... Hiraga-kun."
+    new "А… Хирага-кун."
+
+    old "Hey, Haruna... You were reading something, weren't you? What was it?"
+    new "Привет, Харуна… Похоже, ты что-то читала. Что?"
+
+    old "Um..."
+    new "Эм…"
+
+    old "Ah, wait - let me guess?"
+    new "А, стой, дай я угадаю?"
+
+    old "H-huh...?"
+    new "А-а…?"
+
+    old "So, my guess is..."
+    new "Итак, по-моему…"
+
+    old "A diary, of course."
+    new "Дневник, разумеется."
+
+    old "Nope, not that."
+    new "Нет, не то."
+
+    old "I did have a bag with me, but I lost it when we escaped."
+    new "Сумка у меня была, но я её потеряла, когда бежала."
+
+    old "I-I see..."
+    new "А-а так…"
+
+    old "I still have a few things with me, but this is my treasure now."
+    new "Кое-что осталось со мной, но теперь моё сокровище — вот это."
+
+    old "Is that a student handbook?"
+    new "Это ученический справочник?"
+
+    old "Mm-hm."
+    new "Мгм."
+
+    old "A student handbook, of course."
+    new "Ученический справочник, разумеется."
+
+    old "Bingo. I'd tucked it into my uniform pocket, so it barely made it."
+    new "Точно. Она была в кармане формы, поэтому едва уцелела."
+
+    old "I did have a bag with me, but I lost it when we escaped.{#ch2.8_ha_009}"
+    new "Сумка у меня была, но я её потеряла, когда бежала."
+
+    old "I-I see...{#ch2.8_s_047}"
+    new "А-а так…"
+
+    old "A letter from someone, of course?"
+    new "Письмо от кого-нибудь, разумеется?"
+
+    old "W-wha!? N-no, it's nothing like that!"
+    new "А-аа!? Н-нет, совсем не то!"
+
+    old "Oh, I was sure it was a love letter from somebody."
+    new "А, не так? Я-то думал, любовное письмо от кого-то."
+
+    old "I told you, no! This - this right here. See, you recognize it?"
+    new "Да нет же! Вот, вот оно. Узнаёшь?"
+
+    old "The student handbook? You were reading that? Even after coming here, you're still the model student."
+    new "Ученический справочник? Ты его читала? И тут остаёшься прилежной."
+
+    old "It's not really like that, though."
+    new "Только дело не в этом."
+
+    old "I did have a bag with me, but I lost it when we escaped.{#ch2.8_ha_013}"
+    new "Сумка у меня была, но я её потеряла, когда бежала."
+
+    old "This is the only thing I have left... I think."
+    new "Это моё единственное имущество… наверное?"
+
+    old "Words work just fine in this world, but I can't read a single character."
+    new "Слова здесь понятны, но буквы я совсем не читаю."
+
+    old "Same as me..."
+    new "Как и я…"
+
+    old "I never used to read the handbook. But if I don't read it now, I'm afraid I'll forget Japanese before long... it scares me."
+    new "Раньше я её не читала. А теперь — если не читать, боюсь, скоро забуду японский…"
+
+    old "I see... Come to think of it, I never really read the handbook properly either."
+    new "Понятно… Кстати, я и сам толком её не читал."
+
+    old "Let's see, there was something funny in here... Um... 'Do not dress too showily'?"
+    new "Ну-ка, тут было что-то смешное… Э-э… «Не носить излишне яркую одежду»?"
+
+    old "Hee hee. 'Do not take detours on the way to or from school'!"
+    new "Хи-хи. «По дороге в школу и из школы не отвлекаться на лишние дела»!"
+
+    old "'Diligent study and a regular lifestyle' - there's a line like that in here."
+    new "Тут и такое есть: «Учиться усердно и вести правильный образ жизни»."
+
+    old "The school song and the cheering song are in here too."
+    new "Тут и гимн школы, и болельская песня."
+
+    old "Ugh, I can't sing either of them at all."
+    new "Ой, я совсем не умею их петь."
+
+    old "Fufu."
+    new "Уфуфу."
+
+    old "Come to think of it, wasn't the button on the far right of the school vending machine always sold out?"
+    new "Кстати, в школьном автомате кнопка справа всегда была пустой?"
+
+    old "It was! It was!"
+    new "Да-да! Всегда!"
+
+    old "Wonder why the vendor never fixed it."
+    new "И почему поставщик её не чинит?"
+
+    old "Actually, that button? If you press it, you can buy juice just fine. Did you know?"
+    new "На самом деле этой кнопкой можно купить сок. Знаешь?"
+
+    old "Gah! Who knew there was a hidden trick like that!"
+    new "Гах! Не знал, что есть такая потайная кнопка!"
+
+    old "Really! Hee hee, ahaha!"
+    new "Правда! Хи-хи, ахаха!"
+
+    old "Haha, ahaha!"
+    new "Ха-ха, ахаха!"
+

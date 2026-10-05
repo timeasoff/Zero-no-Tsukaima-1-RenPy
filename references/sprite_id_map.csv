@@ -156,3 +156,15 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 610,t 3,5,1291,4990,lay0,ch2 part5b; block 610 pos 0; пиксель-сверка SCENEDAT[610] -> t 3 (2026-10-05, grid 96x192: MAE 10.63, следующий 39.77 t 2)
 612,t 3 happy,2,1292,5033,lay0,ch2 part5b; block 610 pos 2; семья t 3 пиксель-сверкой (MAE 10.55), поза по формуле pos 2 = happy
 616,t 3 sad,1,1293,5055,lay0,ch2 part5b; block 610 pos 6; семья t 3 пиксель-сверкой (MAE 10.34), поза по формуле pos 6 = sad
+315,l 6 happy,7,1034,2979,lay1,ch2 part6; block 313 pos 2; PROVISIONAL (формула блока + подтверждённый блок 313 = l 6, соседи 317/319/321)
+590,t 1 happy,17,1045,3531,lay0,ch2 part7+part8; block 588 pos 2; PROVISIONAL (блок 588 = t 1, соседи 592/594/596)
+592,t 1 angry,26,1044,3427,lay0,ch2 part7; block 588 pos 4; PROVISIONAL (блок 588 = t 1)
+594,t 1 sad,70,1044,3489,lay0,ch2 part7+part8; block 588 pos 6; PROVISIONAL (блок 588 = t 1)
+596,t 1 shy,11,1046,3582,lay0,ch2 part7; block 588 pos 8; PROVISIONAL (блок 588 = t 1)
+687,k 2,33,1050,3732,lay6,ch2 part8; block 687 pos 0; PROVISIONAL (+11 от 676=k 1, 698=k 3, 709=k 4, 742=k 7)
+689,k 2 happy,25,1049,3691,lay6,ch2 part8; block 687 pos 2; PROVISIONAL (+11 от 676=k 1 ...)
+691,k 2 angry,7,1049,3673,lay6,ch2 part8; block 687 pos 4; PROVISIONAL (+11 от 676=k 1 ...)
+693,k 2 sad,26,1049,3685,lay6,ch2 part8; block 687 pos 6; PROVISIONAL (+11 от 676=k 1 ...)
+695,k 2 shy,9,1049,3707,lay6,ch2 part8; block 687 pos 8; PROVISIONAL (+11 от 676=k 1 ...)
+986,ha 4 happy,8,1056,3903,lay7,ch2 part8; block 984 pos 2; PROVISIONAL (блок 984 = ha 4, соседи 988/990)
+992,ha 4 shy,2,1057,3921,lay7,ch2 part8; block 984 pos 8; PROVISIONAL (блок 984 = ha 4)

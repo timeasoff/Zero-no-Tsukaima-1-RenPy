@@ -405,3 +405,65 @@ translate russian strings:
     old "Leave{#ch2.5_leave}"
     new "Завершить патруль"
 
+
+translate russian strings:
+
+    old "Did something happen to Louise?{#ch2.6_m125a}"
+    new "Что-нибудь случилось с Луизой?"
+
+    old "What were you talking about earlier?{#ch2.6_m125b}"
+    new "О чём вы разговаривали?"
+
+    old "Could you take the dishes back?"
+    new "Отнесёшь посуду обратно?"
+
+    old "Bigger where, exactly?{#ch2.6_m1034a}"
+    new "Выше — в каком месте?"
+
+    old "You don't have to push yourself.{#ch2.6_m1034b}"
+    new "Не нужно так себя напрягать."
+
+    old "Give me some too.{#ch2.6_m1034c}"
+    new "Дай и мне."
+
+translate russian strings:
+
+    old "Nah, I'll pass.{#ch2.7_m1039a}"
+    new "Не, я лучше воздержусь.{#ch2.7_m1039a}"
+
+    old "Sounds like fun - let's do it.{#ch2.7_m1039b}"
+    new "Звучит занятно — давай.{#ch2.7_m1039b}"
+
+    old "I'll be in charge of tasting.{#ch2.7_m1039c}"
+    new "Я отвечаю за дегустацию.{#ch2.7_m1039c}"
+
+    old "Such days happen.{#ch2.7_m1044a}"
+    new "Бывает и так.{#ch2.7_m1044a}"
+
+    old "I'll buy you something.{#ch2.7_m1044b}"
+    new "Я тебе угощу.{#ch2.7_m1044b}"
+
+    old "Let's see more than just the bookstore.{#ch2.7_m1044c}"
+    new "Давай осмотрим и другие места, а не только книжный.{#ch2.7_m1044c}"
+
+
+translate russian strings:
+
+    old "Fishing!{#ch2.8_m1049a}"
+    new "Рыбалка!{#ch2.8_m1049a}"
+
+    old "Let's swim!{#ch2.8_m1049b}"
+    new "Пошли купаться!{#ch2.8_m1049b}"
+
+    old "An adventure in the shade!{#ch2.8_m1049c}"
+    new "Приключение в тени!{#ch2.8_m1049c}"
+
+    old "A diary, of course.{#ch2.8_m1054a}"
+    new "Дневник, разумеется.{#ch2.8_m1054a}"
+
+    old "A student handbook.{#ch2.8_m1054b}"
+    new "Ученический справочник.{#ch2.8_m1054b}"
+
+    old "A letter from someone.{#ch2.8_m1054c}"
+    new "Письмо от кого-нибудь.{#ch2.8_m1054c}"
+

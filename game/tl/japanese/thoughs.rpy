@@ -470,3 +470,92 @@ translate japanese strings:
     old "Well then. I said all that, but where did Louise run off to?"
     new "（さあて、と。　ああは言ったものの、　ルイズのやつ、どこに行ったもんだか）"
 
+
+translate japanese strings:
+
+    old "Where did those two go? Louise I'd expect, but for Siesta to be gone too..."
+    new "（いったい、２人ともどこに行ったんだ？　ルイズならまだしも、シエスタも　戻ってこないなんて……）"
+
+    old "Should I go look for them again? Maybe I'll swing by outside this time..."
+    new "（もう一度、探しに行くか？　今度は外の方まで回ってみて……）"
+
+    old "An important talk between women...? That has a rather thrilling ring to it."
+    new "（女同士の大事な話か……。　ちょっとドキドキする響きかもしれない）"
+
+    old "Louise suddenly started being nice out of nowhere... Which somehow creeps me out — no, downright scares me."
+    new "（ルイズのヤツ、急に優しそうなことを　言い出したな。　かえって不気味、っつーか怖いな）"
+
+    old "Still, rather than being in a good mood, she just seems... gracious."
+    new "（それにしても……上機嫌って言うより、　愛想が良いって感じだな）"
+
+    old "If she's going to get along with Haruna, I couldn't ask for more, but..."
+    new "（春奈と仲良くしてくれるなら、　それにこしたことはないんだけど……）"
+
+    old "I just hope nothing else strange happens."
+    new "（これ以上、変なことが起きなきゃいいなあ）"
+
+    old "Ugh, good grief... It's morning already?"
+    new "（うー、やれやれ。　もう朝なのか）"
+
+    old "I feel like all I've done lately is get tired..."
+    new "（なんか、最近疲れてばっかりだなぁ……）"
+
+    old "Well then... what should I do now? Maybe I'll invite someone and go somewhere."
+    new "（さて……これからどうしよう。　誰かを誘って、どっかに行こうか）"
+
+translate japanese strings:
+
+    old "Whew... Louise has it rough too, in her own way. I really do admire that grit of hers."
+    new "（はあ……ルイズも、いろいろ苦労して　るんだなぁ。　その根性には感心するわ、本当）"
+
+    old "She's turned it into a whole life creed... come on."
+    new "（生き様にまで発展してるよ、おい）"
+
+    old "Dammit - did Siesta just set me up?"
+    new "（しまった、シエスタにはめられた？）"
+
+    old "Even unbaked, it already smells pretty good."
+    new "（まだ焼いてないのに、　それなりにいい匂いがするな）"
+
+    old "Mm-mm-mm. How quick and deft she is."
+    new "（うーむむむ。　実に手際が良くて軽やかだ）"
+
+    old "...{#ch2.7_th1044a}"
+    new "……。"
+
+    old "...{#ch2.7_th1044b}"
+    new "……。"
+
+    old "...{#ch2.7_th1044c}"
+    new "……。"
+
+    old "Wow, Tabitha is so disappointed it's obvious just to look at. She must have been looking forward to it a lot."
+    new "（うわー、タバサが見てて分かるくらい　ガッカリしてるよ。　よっぽど楽しみにしてたんだな）"
+
+    old "...{#ch2.7_th1045a}"
+    new "……。"
+
+    old "...{#ch2.7_th1045}"
+    new "……。"
+
+    old "...{#ch2.7_th1046a}"
+    new "……。"
+
+    old "...{#ch2.7_th1046b}"
+    new "……。"
+
+
+translate japanese strings:
+
+    old "...{#ch2.8_th1048}"
+    new "……。"
+
+    old "How much of that was serious...? Or am I just being toyed with?"
+    new "（どこまで本気の発言なんだろう……。　いや、単に俺、遊ばれてる？）"
+
+    old "...Yeah, fair enough."
+    new "（……まあ、そうだよな）"
+
+    old "She laughed... I guess talking about memories of Japan is what makes Haruna happiest."
+    new "（あ、笑った。　やっぱり、日本の思い出を話してる時が、　春奈には一番楽しいのかな）"
+
