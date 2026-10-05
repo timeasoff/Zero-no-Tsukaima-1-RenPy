@@ -348,18 +348,45 @@ translate japanese strings:
 
 translate japanese strings:
 
-    old "(That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!)"
+    old "That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!"
     new "（ルイズのやつ、「虚無」のことは他人に　喋っちゃいけないって女王様に　言われてるの忘れてる！）"
 
-    old "(Aah, Kirche had to go and say something unnecessary...!)"
+    old "Aah, Kirche had to go and say something unnecessary...!"
     new "（ああっ、キュルケが余計なことをー！）"
 
-    old "(Aah, they're getting more and more heated...!)"
+    old "Aah, they're getting more and more heated...!"
     new "（ああっ、ますますヒートアップしてるー！）"
 
-    old "(Good grief, is this part of a familiar's job too? ...No, definitely not.)"
+    old "Good grief, is this part of a familiar's job too? ...No, definitely not."
     new "（やれやれ、こんなことも使い魔の仕事なのか？　……違うな、絶対）"
 
-    old "(Aaah, what am I supposed to do...!)"
+    old "Aaah, what am I supposed to do...!"
     new "（あああ、どうしたらいいんだー！）"
+
+    old "In the end, we didn't find a single clue about the intruders."
+    new "（結局、侵入者の手がかりは一切発見できなかった）"
+
+    old "The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting."
+    new "（学院に簡単に侵入されたことが問題になったらしく、先生達は会議を始めてる）"
+
+    old "So we're left not knowing the details after all. I just can't feel at ease."
+    new "（結局、詳しいことは分からずじまいか。どうにもすっきりしないな）"
+
+    old "More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today."
+    new "（それ以上に、あいつらがしつこく春奈を狙っていたのが気になる……。今日だって、あれで諦めたとは思えない）"
+
+    old "And if that bomb user comes back again, it won't be a joke."
+    new "（しかも、あの爆弾使いが、またやって来たとしたらシャレになんねえ）"
+
+    old "Now then. Even if I patrol, where should I start?"
+    new "（さて、と。見回ると言っても、どこから行くべきかな）"
+
+    old "Ah... having girls welcome me home can make me feel this happy."
+    new "（ああ……女の子達が出迎えてくれるのって、こんなに幸せな気分になれるんだなあ）"
+
+    old "I-is that so?"
+    new "（そ、そうなのか？）"
+
+    old "...It should be a warm atmosphere, but somehow the air feels strangely heavy."
+    new "（……なんか、なごやかなはずなのに妙に空気が重いな）"
 

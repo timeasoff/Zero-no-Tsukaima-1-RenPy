@@ -4061,7 +4061,7 @@ translate japanese strings:
     old "It's true that among the four, Fire is the easiest to turn to attack — but between skilled wielders, there's no superiority among Fire, Water, Wind, and Earth."
     new "４つの系統の中では攻撃に転化しやすいのは確かだが、習熟した使い手同士ならば、『火』『水』『風』『土』の各系統に優劣はないのだ。"
 
-    old "With all due respect, Mister Colbert. It's a fact that the Fire element is clearly superior to the other three."
+    old "With all due respect, Professor Colbert. It's a fact that the Fire element is clearly superior to the other three."
     new "お言葉ですが、ミスタ・コルベール。『火』の系統が、他の３つに比べて明らかに優れてるのは確かですわ。"
 
     old "Hmm, Miss Zerbst. I'm aware you take pride in your own element, but..."
@@ -4208,7 +4208,7 @@ translate japanese strings:
     old "No, no, you two! Private duels are forbidden by the school rules."
     new "いかん、いかんぞ２人とも！私闘は校則で禁じられてるのだ。"
 
-    old "In that case, let's say Mister Colbert knew nothing about it."
+    old "In that case, let's say Professor Colbert knew nothing about it."
     new "それでしたら、ミスタ・コルベールは何も知らなかったということで。"
 
     old "That's right. Two students were simply absent from class, so don't worry about it."
@@ -4432,4 +4432,409 @@ translate japanese strings:
 
     old "Huh, why?"
     new "え、なんで？"
+
+    old "Damn it! The bomb user got away...!? Nowhere in sight."
+    new "くそっ！爆弾使いが逃げた……！？どこにもいない。"
+
+    old "Partner, it's not just the bomb user. Take a look around."
+    new "相棒、爆弾使いだけじゃないようだぜ。周りを見てみな。"
+
+    old "Huh... Aah! Those guys have vanished too!?"
+    new "え……ああっ！あいつらまで姿を消してる！？"
+
+    old "Whaaat? When did they...!"
+    new "えー、いつのまに！"
+
+    old "They slipped away in that explosion? Then that bomb user really was their accomplice?"
+    new "今の爆発にまぎれて？じゃあ、やっぱりあの爆弾使い、やつらの仲間だったってわけ？"
+
+    old "That's very likely. Someone curious enough to sneak into the academy — a chance encounter would be too convenient."
+    new "その可能性は高いわね。わざわざ学院に侵入する物好きが、偶然鉢合わせするなんてできすぎだわ。"
+
+    old "But that explosion — what in the world...?"
+    new "しかし、あの爆発は一体……。"
+
+    old "Professor? What is it?"
+    new "先生？どうしたんですか？"
+
+    old "Ah, no, there's just something bothering me... More importantly, I'll report this to the academy. You all go back to the classroom."
+    new "あ、いや、ちょっと気になることがあって……。それより、学院への報告はわたしがしておこう。キミ達は教室へ戻りたまえ。"
+
+    old "Understood, Professor Colbert."
+    new "分かりました、ミスタ・コルベール。"
+
+    old "I'm not satisfied at all. It's like I didn't get to burn enough..."
+    new "なんだかすっきりしないわあ。燃やし足りないっていうか……。"
+
+    old "Incomplete combustion, you mean?"
+    new "不完全燃焼ってやつか？"
+
+    old "Ah, yeah, that's it. As expected of you, darling — so perceptive."
+    new "あー、うん、そうそう。さすがダーリン、よく気がつくわねー。"
+
+    old "...Why is that the only thing you ever notice?"
+    new "……なんでそういうとこだけ気がつくのよ。"
+
+    old "Hm? Did you say something?"
+    new "ん？なんか言ったか？"
+
+    old "Nothing at all! Come on, let's head back already!"
+    new "なんでもないわっ！ほら、さっさと戻るわよ！"
+
+    old "Saito? What's wrong, going all quiet like that?"
+    new "サイト？どうしたのよ、黙り込んじゃって。"
+
+    old "Saito, I said answer me. Is something on your mind?"
+    new "サイトったら、返事しなさいよ。なにか気になることでもあるの？"
+
+    old "Wh-what?"
+    new "な、なに？"
+
+    old "Louise."
+    new "ルイズ。"
+
+    old "What!? Wait, a patrol, what?"
+    new "ええ！？ちょっと、見回りって、ええ？"
+
+    old "I'm going to take a quick look around the academy."
+    new "俺、ちょっと学内を見回って来る。"
+
+    old "Man, it's already this late. It's already deep into the night."
+    new "やべ、もうこんな時間か。もう、夜も遅い時間だな。"
+
+    old "Partner, let's call it a day. Doesn't look like anyone's hiding in the academy."
+    new "相棒、今日のところはもう引きあげようぜ。学院内に潜んでる可能性はなさそうだしよ。"
+
+    old "Yeah. Well then, let's head back to the room."
+    new "そうだな。それじゃ、部屋に戻るか。"
+
+    old "I'm home."
+    new "ただいまー。"
+
+    old "So you're back."
+    new "戻ったのね。"
+
+    old "Good work, Saito-san. Weren't you in any danger?"
+    new "お疲れ様でした、サイトさん。危なくなかったですか？"
+
+    old "Welcome back. How was the patrol?"
+    new "おかえりなさい。見回りはどうだった？"
+
+    old "Yeah. I looked around the academy all afternoon, but there was nothing unusual anywhere."
+    new "ああ。一応午後いっぱい学内を見て回ったけど、どこも特に異常はなかったよ。"
+
+    old "Hmm...{#ch2.4_l_010}"
+    new "ふうん……。"
+
+    old "And that's a reply completely devoid of interest."
+    new "って、思いっきり無関心な返事だな。"
+
+    old "Isn't it fine, everyone was safe. It's no more and no less than that."
+    new "いいじゃない、みんな無事だったんでしょ。それ以上でも、それ以下でもないわ。"
+
+    old "Well, if you put it that way, you're right."
+    new "そう言っちゃったらそうなんだけどさ。"
+
+    old "Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say."
+    new "おどれーた！　優しいねぎらいの言葉のひとつくらいあっても、バチは当たらないと思うんだがね、俺は。"
+
+    old "Yes, yes. Good work."
+    new "はいはい、お疲れ様。"
+
+    old "......{#ch2.4_s_014}"
+    new "……。"
+
+    old "......{#ch2.4_l_013}"
+    new "……。"
+
+    old "U-um, Miss Vallière seems tired, so..."
+    new "あ、あの、ミス・ヴァリエールはお疲れの様子ですし……。"
+
+    old "Did something happen, Louise?{#ch2.4_s_015}"
+    new "ルイズ、なんかあったか？"
+
+    old "Huh? What's this all of a sudden?"
+    new "え？なによ、いきなり。"
+
+    old "Well, you seemed kind of absent-minded. I wondered if something was bothering you."
+    new "いや、なんかボンヤリしてるみたいだからさ。なにか気になることでもあったのかなーって。"
+
+    old "N-nothing in particular."
+    new "べっ、別になにもないわよ。"
+
+    old "Is that so? Hmm... then I guess it's fine."
+    new "そうなのか？うーん……なら、別にいいんだけどさ。"
+
+    old "...Really, it's nothing. There's no need to worry."
+    new "……本当に、なんでもないから。心配しなくて大丈夫よ。"
+
+    old "Hmm. If you say so, I suppose it's fine, but don't push yourself too hard."
+    new "うーん。おまえがそう言うならいいんだけど、あんま、無理すんなよ。"
+
+    old "I'm not. ...Honestly."
+    new "してないわよ。……まったく。"
+
+    old "Did something happen, Siesta?{#ch2.4_s_019}"
+    new "シエスタ、なんかあったか？"
+
+    old "Huh, me...?"
+    new "え、わたし……ですか？"
+
+    old "Well, you looked kind of scared to ask Louise anything, so..."
+    new "いや、なんだかルイズに質問するのが怖そうなんで……。"
+
+    old "......{#ch2.4_si_004}"
+    new "……。"
+
+    old "How are you feeling, Haruna?{#ch2.4_s_021}"
+    new "春奈、具合はどう？"
+
+    old "Ah, yeah. Compared to this morning, I think I'm much better."
+    new "あ、うん。朝に比べたら、だいぶ良くなったと思う。"
+
+    old "That's a relief."
+    new "そりゃ一安心だな。"
+
+    old "...Hmph.{#ch2.4_l_018}"
+    new "……ふん。"
+
+    old "I still feel a little sluggish, though... But I think I'm mostly okay now."
+    new "まだちょっと、体がだるい感じはするけど……。でも、もう大丈夫、かな。"
+
+    old "You'd better not overdo it. Rest properly until you're fully recovered."
+    new "あんまり無理しない方がいいぞ。体調が完全に戻るまでは、ちゃんと休んでろよ。"
+
+    old "Thank you, Hiraga-kun.{#ch2.4_ha_004}"
+    new "ありがとう、平賀くん。"
+
+    old "Oh, right. Siesta, is there anything to eat?"
+    new "そうそう。シエスタ、なにか食べるものない？"
+
+    old "Huh? Don't tell me you haven't had dinner yet?"
+    new "え？ひょっとして、夕食まだなんですか？"
+
+    old "Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything."
+    new "うん。見回りしてたら、食いそびれちゃってさ。なんかあればありがたいんだけど。"
+
+    old "If you'd told me, I would have prepared something. Let me bring it now."
+    new "言ってくだされば、用意しましたのに。今持ってきますね。"
+
+    old "I feel kind of bad about this."
+    new "なんか、悪いな。"
+
+    old "This much is nothing. Well then, I'll go to the kitchen and get your meal."
+    new "これくらい、どうってことないですよ。それじゃ、厨房に行ってお食事もらって来ますね。"
+
+    old "By the way, Haruna, have you had dinner?"
+    new "そういえば、春奈は夕食は食べた？"
+
+    old "Yeah... I didn't have an appetite, so not yet. But if you're with me, Hiraga-kun, I might be able to eat."
+    new "うん……食欲なかったから、まだだけど。平賀くんも一緒なら、食べられるかも。"
+
+    old "Kuh!? What is that?"
+    new "くはっ！？なによ、それ。"
+
+    old "You're spoiling her quite a lot. She can eat a meal by herself, can't she?"
+    new "ずいぶんと甘やかすじゃない。食事くらい、１人でとれるでしょ。"
+
+    old "Louise, calm down. Eating alone when you're laid up in bed makes you feel incredibly lonely, doesn't it?"
+    new "ルイズ、落ち着けって。寝込んでるときに１人で食うご飯って、すっごくわびしい気分になるだろ？"
+
+    old "Not just the body, the heart needs to get better too. Besides, I'm hungry as well, so we might as well — eating together isn't strange at all, is it?"
+    new "体もだけど、心も元気にならなきゃな。それに俺も腹減ってるし、どうせなら一緒に食うってのは別に変じゃないだろ。"
+
+    old "It is strange."
+    new "変よ。"
+
+    old "How is it!?"
+    new "どこが！？"
+
+    old "You've never shown such attentive behavior up until now, have you?"
+    new "あんた、そんなまめな態度を今まで見せたこと、ないでしょうが。"
+
+    old "And yet you're being kind to that girl. You'd think that's odd, wouldn't you?"
+    new "なのに、その娘には親切になっちゃって。おかしいって思うでしょ？"
+
+    old "Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?"
+    new "いや、そんなこと言っても……。春奈は俺と同じ世界の人間で、病人なんだぞ。親切にしてなにが悪いんだよ。"
+
+    old "That's..."
+    new "それは……。"
+
+    old "I brought your dinner. The soup is a little lukewarm, though..."
+    new "お夕食、持ってきましたー。スープ、ちょっとぬるいですけど……。"
+
+    old "Ah, Siesta, thank you."
+    new "あ、シエスタ、ありがとう。"
+
+    old "...Hmph.{#ch2.4_l_025}"
+    new "……ふん。"
+
+    old "Sorry, Siesta-san."
+    new "すみません、シエスタさん。"
+
+    old "No, no. I'm used to preparing meals for you, Saito-san."
+    new "いえいえ。わたし、サイトさんにご飯を用意するのは慣れてますから。"
+
+    old "Oh my, is that so?"
+    new "へええ、そうなんですか。"
+
+    old "Yes, that's right."
+    new "ええ、そうなんですよ。"
+
+    old "Well then, thank you for the meal."
+    new "それじゃ、いただきます。"
+
+    old "Yeah, don't push yourself."
+    new "ああ、無理に動くなよ。"
+
+    old "No, this much is fine."
+    new "ううん、これくらいなら平気です。"
+
+    old "Still, though... Then, shall I feed you? Here, say ahh."
+    new "つってもな……。じゃ、俺が食べさせてあげるか。ほら、あーん。"
+
+    old "Eh..."
+    new "え……。"
+
+    old "...!?"
+    new "……っ！？"
+
+    old "W-wait a minute!? Saito! What do you think you're doing!?"
+    new "ちょ、ちょっとぉ！？サイト！あんたなにやってるのっ！？"
+
+    old "What do you mean — dinner."
+    new "なにって、夕食。"
+
+    old "That's not what I mean! What's with that 'ahh'!?"
+    new "そうじゃなくて！なによ、その『あーん』って！"
+
+    old "Huh? Is something weird?"
+    new "え？なんか変か？"
+
+    old "I'm telling you, it's weird!"
+    new "変だってば！"
+
+    old "Hiraga-kun, you're so kind..."
+    new "平賀くん、優しい……。"
+
+    old "What's with that clingy, spoiling attitude!? You've never once shown me anything like that!"
+    new "なによ、そのべったり甘やかしな態度！わたしには、一度だってそんな素振り見せたことなんてないのに！"
+
+    old "But you're always perfectly fine, aren't you?"
+    new "だっておまえ、いつだってピンピンしてるじゃん。"
+
+    old "Um, I don't think that's really the issue..."
+    new "あの、そういう問題ではないと思いますけど……。"
+
+    old "Um, Louise?"
+    new "ええと、ルイズ？"
+
+    old "Do you want dinner too?{#ch2.4_s_039}"
+    new "おまえもご飯食べたいのか？"
+
+    old "Hah!? Why would it come to that!?"
+    new "はあ！？なんでそうなるのよ！"
+
+    old "Well, you've been irritated this whole time. I thought you'd already had dinner, but maybe you're hungry and that's making you quick to anger."
+    new "だって、なんかずっとイライラしてるし。夕食は済ませたと思ってたけど、おなか空いてて怒りっぽくなってるんじゃないのか。"
+
+    old "I finished dinner long ago!"
+    new "夕食はとっくに済ませたわよ！"
+
+    old "Is that so? But if you're this irritated, then... are you on a diet or something?"
+    new "そうなのか？なのにそんなにいらついてるってことは……ダイエットでもしてるのか？"
+
+    old "Hah? A diet?"
+    new "は？ダイエット？"
+
+    old "You should stop."
+    new "やめた方がいいぞ。"
+
+    old "Skipping meals by force will only ruin your health and have a bad effect on your mental stability — nothing good comes of it."
+    new "無理に食事を抜いても、体を壊したり精神の安定に悪影響が出たりとロクなことがないからな。"
+
+    old "Wrooong! I'm not doing that!"
+    new "違ーう！そんなのやってない！"
+
+    old "Then that's fine. Besides, you're plenty attractive as you are, so if you did something unnecessary and rebounded, that'd be a disaster."
+    new "ならいいんだけど。だいたい、今のままで十分イケてるんだから、余計なことしてリバウンドとかきたら悲惨だぞ。"
+
+    old "Um... I'm telling you, what are we even talking about?"
+    new "ええっと……。だーかーらー、なんの話をしてるのよ、もう。"
+
+    old "Do you want me to say 'ahh' for you too?{#ch2.4_s_045}"
+    new "おまえも『あーん』してほしいのか？"
+
+    old "Hah!? Wh-wh-why would it come to that!?"
+    new "はあ！？な、な、なんでそうなるのよ！"
+
+    old "Ah, so that's not it. You just seemed fixated on that."
+    new "あ、違うのか。なんか、そこにこだわってるように見えたから。"
+
+    old "That and this are different things! Why would I have to have you feed me?!"
+    new "それとこれとは別でしょ、別っ！なんでわたしがあんたにご飯食べさせてもらわなくちゃいけないのよ！"
+
+    old "Yeah, you're right. I think so too."
+    new "そうだよなあ。俺もそう思う。"
+
+    old "...As long as you understand."
+    new "……分かればいいのよ。"
+
+    old "Do you want to be laid up in bed too?{#ch2.4_s_048}"
+    new "おまえも寝込んでいたいのか？"
+
+    old "Hah!? Why would it come to that!?{#ch2.4_l_038}"
+    new "はあ！？なんでそうなるのよ！"
+
+    old "Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all."
+    new "だって、なんかずっとイライラしてるし。ひょっとして、おまえもベッドで寝てたいのかなーと思ったんだが。"
+
+    old "...It's true that talking with you gives me a headache. But I'm not going to fake being sick just to stay in bed."
+    new "……確かに、あんたと話をしてると頭痛くなってくるけどね。仮病使ってまで寝ていたくないわよ、わたし。"
+
+    old "...Oh, is that so?"
+    new "……あら、そうなんですか。"
+
+    old "That's right. Me, of all people."
+    new "そうよ。わたしはね。"
+
+    old "There's no weird meaning behind it, okay? Haruna is sick, so looking after her is only normal, right?"
+    new "別に、変な意味はないよ？春奈は病人なんだし、面倒を見るくらい普通にするだろ？"
+
+    old "So if she's sick, you'll do anything for her?"
+    new "病人だったら、なんでもしてあげるって言うの？"
+
+    old "I'm not going that far. Why are you getting angry about me looking after a sick person?"
+    new "そこまでは言わねーけど。なんで、病人の面倒見て、おまえが怒るんだよ。"
+
+    old "...B-because!"
+    new "……っ、だって！"
+
+    old "Please, that's enough."
+    new "いいかげんにしてください。"
+
+    old "!!{#ch2.4_l_043}"
+    new "っ！！"
+
+    old "Haruna..."
+    new "春奈……。"
+
+    old "Hiraga-kun is not Miss Louise's tool. You of all people should know that, shouldn't you?"
+    new "平賀くんは、別にルイズさんの道具ではありません。それは一番ルイズさんが知っているはずでしょ？"
+
+    old "I... I have no reason to be told that by you!"
+    new "あ……あんたに、そんなこと好き勝手に言われる筋合いはないわよっ！"
+
+    old "And what's more! Sick, sick, sick — is being sick really so great? I don't care about Saito anymore!"
+    new "それに、何よ！病気病気って、そんなに病気が偉いわけ？サイトなんて知らないんだから！"
+
+    old "Ah, hey, Louise!"
+    new "あ、おい、ルイズ！"
+
+    old "Stupid dog! Stupid familiar! Stupid Saito!"
+    new "バカ犬！バカ使い魔！バカサイト！"
+
+    old "Honestly, I don't care anymore!"
+    new "もう、知らないんだから！"
 

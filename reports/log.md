@@ -879,3 +879,76 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
 - контроль: `check_project.py` → `errors=3` (только `E7 jump 'ch2_4'`), `warnings=275`,
   `info=32`, E9/E10/W6 = 0; Ren'Py lint → `EXIT=0`.
 - git: **не коммитится** — ожидается явное подтверждение пользователя.
+
+---
+
+## 2026-10-05 — Глава 2, часть 4 (`script-ch2_4.rpy`, сцены 99–114) завершена
+
+- статус: часть готова; `check_project` → `errors=1` (только ожидаемое `E7 jump 'ch2_5'` —
+  часть 5 не создана), `warnings=275` (без новых), `info=32`; E4/E5/E11/E9/E10/W6 = 0.
+- место: `game/chapters/2/script-ch2_4.rpy` (новый), `game/tl/japanese/{dialogs,thoughs,choises}.rpy`,
+  `game/tl/russian/{dialogs,thoughs,choises}.rpy`, `references/voice_id_map.csv` (+135),
+  `references/sprite_id_map.csv` (+4), `references/image_id_map.csv` (id 101 заполнен),
+  `game/definitions.rpy` (+`image cg ak_sky`), `transcriptions_ja_ru.csv` (135 строк помечены),
+  отчёт `reports/ch2/4.md`.
+
+- **Граница части:** сцены 99–114, **135 голосовых** (окно 90…140). Конец — сцена 114
+  `→ next 115`. Следующая часть — со сцены 115.
+
+- **CG 101 подключён (USER DECISION).** Пользователь: «znt1 (102) — отдельный CG, оставь,
+  переименуй под ak (это cg с Акиной)». Изначально создавал `sky_day`; переименовано в
+  **`ak_sky`** (префикс `ak_`, как у `ak_appear`). Смещение `файл = id + 1` подтверждено
+  5 точками (id 100/110/111/112/113). `image cg ak_sky = "cg/ak_sky.webp"`; PNG→WebP
+  (`cwebp -lossless`); `image_id_map.csv` id 101 → `filename=ak_sky`. В скрипте:
+  `fade_fx("ak_sky", type="cg")` (сц. 99, вторая CG после `ak_appear`).
+
+- **Выбор локации (【移動】, сц. 100) — PROVISIONAL.** Пять целей (`sprite_choice`) — сцены
+  1256/1261/1266/1271/1276; их контент отложен на следующие части. В скрипте — заглушки
+  `hallway_ch2_4`/`kitchen_ch2_4`/`yard_ch2_4`/`classroom_ch2_4`/`l_room_ch2_4` с `return`;
+  после `sprite_choice` управление возвращается к `jump ch2_4_room` (сц. 106). Пометка
+  PROVISIONAL в отчёте. `sprite_choice` по умолчанию играет `t3` (как `moveInit` в источнике).
+
+- **Спрайты — 4 новые строки** `sprite_id_map.csv`: `401,s 2` / `438,s 4 angry` /
+  `492,si 1 happy` / `974,ha 3` (block 973 pos 1, поза B). Построчная сверка привязок —
+  в отчёте §2.1.
+
+- **Голоса:** 135 строк `voice "ch2.4_…"` → 135 пар `voice_name,voice_id` (s 53 / l 47 /
+  k 4 / c 2 / d 3 / si 12 / ha 14). `audio_converter.py convert --apply` → 135, ошибок 0;
+  `check` → `RESULT: OK`. Транскрипции: 135 строк помечены `## … ch2.4_<имя>.wav`.
+
+- **Не перенесено / адаптации:** `TNDL` ×4 (сц. 109/112/113) — PROVISIONAL; `vibrate` +
+  `LayerVibrateActionModule` (сц. 99/114) — опосредованно через `scene_fx`/`shake_fx`
+  (ACCEPTABLE ADAPTATION); `se1 stop` и общие `wait*/msg*/skip/back/reset` — по AGENTS.md §6;
+  `LAYER white` ×2 (сц. 99) → `scene_fx(("blow","flash"))` + `fade_fx` CG. Взрыв `se0 +63`
+  (сц. 99) → звук `blow`; двери `se0 +57/+56` (сц. 106) → `call open_door(...)`; `se0 +57`
+  (сц. 110, Сиеста входит) → `play sound open_door`; `se0 +57/+58` (сц. 114, Луиза убегает)
+  → `play sound open_door`/`close_door` + `shake_fx`. BGM: `t17` (сц. 99 CG), `t26` (сц. 99 двор),
+  `t18` (сц. 100), `t19` (сц. 106 двор), `t3` (сц. 106 комната), `t29` (сц. 110 CG→комната).
+
+- **Перевод:** EN-база 155 строк (135 реплик + 9 мыслей + 11 выборов); JA 155 пар, RU 155 пар.
+  Повторяющиеся EN-строки разведены тегами `{#ch2.4_<voice>/m<сцена>_<n>}`: `......` ×3,
+  `...Hmph.` ×2, 6 пар «меню/реплика», `Hah!? Why would it come to that!?` ×2, `Hallway` и
+  `Louise's Room` (дубли с гл. 1), `Hmm...` (дубль с мыслью), `Thank you, Hiraga-kun.`
+  (дубль с гл. 1). E11 = 0.
+
+- контроль: `check_project.py` → `errors=1` (ожидаемое `E7 jump 'ch2_5'`), `warnings=275`
+  (без новых), `info=32`; E4/E5/E9/E10/E11/W6 = 0.
+- git: **не коммитится** — ожидается явное подтверждение пользователя.
+
+---
+
+## 2026-10-05 — Follow-up ч.4: три правки по указанию пользователя
+
+- **Мысли без скобок в EN/RU (FIXED).** В JA мысли — в `（ ）`, в EN/RU — без скобок.
+  Убраны скобки у 14 мыслей: `script-ch2_3.rpy` (5), `script-ch2_4.rpy` (9),
+  `tl/japanese/thoughs.rpy` `old` (14), `tl/russian/thoughs.rpy` `new` (14). JA `new` сохранены.
+  Правило зафиксировано в отчёте ч.4 §11.
+- **Обращение к Кольберу (FIXED + USER DECISION).** Луиза (и др.) — «Professor Colbert» /
+  «профессор Кольбер», не «Mister Colbert» / «месье Кольбер». Исправлено: EN-скрипты
+  (ч.2 стр. 21, 211; ч.4 стр. 48), `old` в `tl/japanese/dialogs.rpy` (3), `old`/`new` в
+  `tl/russian/dialogs.rpy` (3+3). В `addresses.md`: новая строка «Кольбер» + обновлён п. 4.
+- **«бомбист» vs «террорист» (проверено).** JA-источник — `爆弾使い` (bomb user), НЕ
+  `テロлист`. «бомбист» — верный перевод; «террорист» не используется. Подтверждено по
+  `ps2_source/chapters/chapter_03` (17 вхождений `爆弾`, 0 — `テロ`).
+- контроль: `check_project.py` → `errors=1` (ожидаемое `E7 jump 'ch2_5'`), `warnings=275`,
+  `info=32`; E4/E5/E9/E10/E11/W6 = 0.

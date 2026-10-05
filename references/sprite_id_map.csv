@@ -146,3 +146,7 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 744,k 7 happy,2,94,1234,lay6,ch2 part3; block 742 pos 2; пиксель-сверка SCENEDAT[744] -> k 7 happy
 746,k 7 angry,1,94,1304,lay6,ch2 part3; block 742 pos 4; пиксель-сверка SCENEDAT[746] -> k 7 angry
 933,c 1 angry,4,93,1175,lay9,ch2 part3; block 929 pos 4; пиксель-сверка SCENEDAT[933] -> c 1 angry
+401,s 2,1,99,1671,lay5,ch2 part4; block 401 pos 0; пиксель-сверка SCENEDAT[401] -> s 2
+438,s 4 angry,1,99,1563,lay5,ch2 part4; block 434 pos 4; пиксель-сверка SCENEDAT[438] -> s 4 angry
+492,si 1 happy,1,106,1803,lay2,ch2 part4; block 489 pos 2; пиксель-сверка SCENEDAT[492] -> si 1 happy
+974,ha 3,1,106,1807,lay7,ch2 part4; block 973 pos 1 (поза B); пиксель-сверка SCENEDAT[974] -> ha 3

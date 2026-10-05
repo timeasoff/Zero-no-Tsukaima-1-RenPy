@@ -274,3 +274,36 @@ translate russian strings:
     old "Professor, are you all right!?{#ch2.3_L497}"
     new "Профессор, вы в порядке?!"
 
+    old "Did something happen, Louise?{#ch2.4_m106a}"
+    new "Что-то случилось, Луиза?{#ch2.4_m106a}"
+
+    old "Did something happen, Siesta?{#ch2.4_m106b}"
+    new "Что-то случилось, Сиеста?{#ch2.4_m106b}"
+
+    old "How are you feeling, Haruna?{#ch2.4_m106c}"
+    new "Как ты себя чувствуешь, Харуна?{#ch2.4_m106c}"
+
+    old "Do you want dinner too?{#ch2.4_m110a}"
+    new "Ты тоже хочешь ужинать?{#ch2.4_m110a}"
+
+    old "Do you want me to say 'ahh' for you too?{#ch2.4_m110b}"
+    new "Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_m110b}"
+
+    old "Do you want to be laid up in bed too?{#ch2.4_m110c}"
+    new "Ты тоже хочешь быть прикованной к кровати?{#ch2.4_m110c}"
+
+    old "Hallway{#ch2.4_hallway}"
+    new "Коридор"
+
+    old "Kitchen"
+    new "Кухня"
+
+    old "Courtyard"
+    new "Двор"
+
+    old "Classroom"
+    new "Класс"
+
+    old "Louise's Room{#ch2.4_lroom}"
+    new "Комната Луизы"
+

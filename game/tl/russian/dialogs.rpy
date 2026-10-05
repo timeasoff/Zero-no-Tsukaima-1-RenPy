@@ -3608,7 +3608,7 @@ translate russian strings:
     new "Кхм. Прежде чем начать урок, есть кое-что, о чём я хочу предупредить всех."
 
     old "Recently, some of you must have heard about the bomber..."
-    new "В последнее время некоторые из вас, должно быть, слышали о бомбисте…"
+    new "В последнее время некоторые из вас, должно быть, слышали о {i}«бомбисте»{/i}…"
 
     old "Professor Colbert? Ah, you mean the one who's been carrying out bombing attacks around Tristania?"
     new "Профессор Кольбер? А, вы про того, кто устраивает взрывы в Тристании?"
@@ -4067,8 +4067,8 @@ translate russian strings:
     old "It's true that among the four, Fire is the easiest to turn to attack — but between skilled wielders, there's no superiority among Fire, Water, Wind, and Earth."
     new "Среди четырёх стихий Огонь и вправду легче всего обратить в атаку, но у опытных магов нет превосходства между Огнём, Водой, Ветром и Землёй."
 
-    old "With all due respect, Mister Colbert. It's a fact that the Fire element is clearly superior to the other three."
-    new "С вашего позволения, месье Кольбер. Но ведь стихия Огня явно превосходит остальные три — это факт."
+    old "With all due respect, Professor Colbert. It's a fact that the Fire element is clearly superior to the other three."
+    new "С вашего позволения, профессор Кольбер. Но ведь стихия Огня явно превосходит остальные три — это факт."
 
     old "Hmm, Miss Zerbst. I'm aware you take pride in your own element, but..."
     new "Хм, мадемуазель Цербст. Я знаю, что вы гордитесь своей стихией, но…"
@@ -4214,8 +4214,8 @@ translate russian strings:
     old "No, no, you two! Private duels are forbidden by the school rules."
     new "Нет, нет, вы двое! Частные дуэли запрещены школьными правилами."
 
-    old "In that case, let's say Mister Colbert knew nothing about it."
-    new "В таком случае будем считать, что месье Кольбер ничего не знал."
+    old "In that case, let's say Professor Colbert knew nothing about it."
+    new "В таком случае будем считать, что профессор Кольбер ничего не знал."
 
     old "That's right. Two students were simply absent from class, so don't worry about it."
     new "Верно. Просто двоих учеников не было на уроке, так что не беспокойтесь."
@@ -4371,7 +4371,7 @@ translate russian strings:
     new "Ч-что?! В земле дыра…"
 
     old "This is the power of a bomb... It must be the rumored bomb user."
-    new "Такова сила бомбы… Должно быть, это тот самый бомбист, о котором говорили."
+    new "Такова сила бомбы… Должно быть, это тот самый {i}«бомбист»{/i}, о котором говорили."
 
     old "So it's the one the Professor mentioned this morning!"
     new "Значит, это тот, о ком профессор говорил утром!"
@@ -4438,4 +4438,409 @@ translate russian strings:
 
     old "Huh, why?"
     new "А? Почему?"
+
+    old "Damn it! The bomb user got away...!? Nowhere in sight."
+    new "Чёрт! Бомбист скрылся…!? Нигде не видно."
+
+    old "Partner, it's not just the bomb user. Take a look around."
+    new "Партнёр, дело не только в бомбисте. Оглянись."
+
+    old "Huh... Aah! Those guys have vanished too!?"
+    new "А… Аа! Эти тоже исчезли!?"
+
+    old "Whaaat? When did they...!"
+    new "Что? Когда они…!"
+
+    old "They slipped away in that explosion? Then that bomb user really was their accomplice?"
+    new "Они скрылись в этом взрыве? Значит, бомбист действительно был их сообщником?"
+
+    old "That's very likely. Someone curious enough to sneak into the academy — a chance encounter would be too convenient."
+    new "Очень вероятно. Тот, кому любопытно проникнуть в академию, — случайная встреча была бы слишком удобной."
+
+    old "But that explosion — what in the world...?"
+    new "Но этот взрыв — что, вообще…?"
+
+    old "Professor? What is it?"
+    new "Профессор? Что-то случилось?"
+
+    old "Ah, no, there's just something bothering me... More importantly, I'll report this to the academy. You all go back to the classroom."
+    new "А, нет, просто кое-что беспокоит… Важнее другое: я доложу в академию. Вы все возвращайтесь в класс."
+
+    old "Understood, Professor Colbert."
+    new "Поняла, профессор Кольбер."
+
+    old "I'm not satisfied at all. It's like I didn't get to burn enough..."
+    new "Я совсем не удовлетворена. Как будто не нажглась…"
+
+    old "Incomplete combustion, you mean?"
+    new "Неполное сгорание, что ли?"
+
+    old "Ah, yeah, that's it. As expected of you, darling — so perceptive."
+    new "А, да, именно. Как и подобает тебе, дорогая — так проницательно."
+
+    old "...Why is that the only thing you ever notice?"
+    new "…Почему ты замечаешь только это?"
+
+    old "Hm? Did you say something?"
+    new "А? Ты что-то сказала?"
+
+    old "Nothing at all! Come on, let's head back already!"
+    new "Ничего! Давай, пора возвращаться!"
+
+    old "Saito? What's wrong, going all quiet like that?"
+    new "Сайто? Что случилось, почему молчишь?"
+
+    old "Saito, I said answer me. Is something on your mind?"
+    new "Сайто, я сказала, ответь. Тебя что-то беспокоит?"
+
+    old "Wh-what?"
+    new "Ч-что?"
+
+    old "Louise."
+    new "Луиза."
+
+    old "What!? Wait, a patrol, what?"
+    new "Что!? Подожди, патрулирование, что?"
+
+    old "I'm going to take a quick look around the academy."
+    new "Я пойду немного осмотрюсь в академии."
+
+    old "Man, it's already this late. It's already deep into the night."
+    new "Вот блин, уже так поздно. Уже глубокая ночь."
+
+    old "Partner, let's call it a day. Doesn't look like anyone's hiding in the academy."
+    new "Партнёр, давай на сегодня закончим. Похоже, в академии никто не прячется."
+
+    old "Yeah. Well then, let's head back to the room."
+    new "Да. Тогда вернёмся в комнату."
+
+    old "I'm home."
+    new "Я дома."
+
+    old "So you're back."
+    new "Значит, вернулся."
+
+    old "Good work, Saito-san. Weren't you in any danger?"
+    new "Молодец, Сайто-сан. Тебе не было опасно?"
+
+    old "Welcome back. How was the patrol?"
+    new "С возвращением. Как патрулирование?"
+
+    old "Yeah. I looked around the academy all afternoon, but there was nothing unusual anywhere."
+    new "Да. Я осматривал академию весь день, но нигде ничего необычного не было."
+
+    old "Hmm...{#ch2.4_l_010}"
+    new "Хм…"
+
+    old "And that's a reply completely devoid of interest."
+    new "И это ответ, полностью лишённый интереса."
+
+    old "Isn't it fine, everyone was safe. It's no more and no less than that."
+    new "Разве это плохо, все были в безопасности. Это не больше и не меньше, чем это."
+
+    old "Well, if you put it that way, you're right."
+    new "Ну, если так выразиться, ты права."
+
+    old "Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say."
+    new "Эй, сейчас! Я не думаю, что помешает сказать доброе слово благодарности или хотя бы одно, я говорю."
+
+    old "Yes, yes. Good work."
+    new "Да-да. Молодец."
+
+    old "......{#ch2.4_s_014}"
+    new "……{#ch2.4_s_014}"
+
+    old "......{#ch2.4_l_013}"
+    new "……{#ch2.4_l_013}"
+
+    old "U-um, Miss Vallière seems tired, so..."
+    new "Э-э, мадемуазель Вальер выглядит уставшей, так что…"
+
+    old "Did something happen, Louise?{#ch2.4_s_015}"
+    new "Что-то случилось, Луиза?{#ch2.4_s_015}"
+
+    old "Huh? What's this all of a sudden?"
+    new "А? Что это вдруг?"
+
+    old "Well, you seemed kind of absent-minded. I wondered if something was bothering you."
+    new "Ну, ты казалась рассеянной. Я подумал, может, тебя что-то беспокоит."
+
+    old "N-nothing in particular."
+    new "Н-ничего особенного."
+
+    old "Is that so? Hmm... then I guess it's fine."
+    new "Неужели? Хм… тогда, наверное, всё в порядке."
+
+    old "...Really, it's nothing. There's no need to worry."
+    new "…Правда, ничего. Не нужно беспокоиться."
+
+    old "Hmm. If you say so, I suppose it's fine, but don't push yourself too hard."
+    new "Хм. Если так, то, полагаю, всё в порядке, но не переусердствуй."
+
+    old "I'm not. ...Honestly."
+    new "Я не переусердствую. …Честное слово."
+
+    old "Did something happen, Siesta?{#ch2.4_s_019}"
+    new "Что-то случилось, Сиеста?{#ch2.4_s_019}"
+
+    old "Huh, me...?"
+    new "А, я…?"
+
+    old "Well, you looked kind of scared to ask Louise anything, so..."
+    new "Ну, ты казалась напуганной спросить Луизу что-нибудь, так что…"
+
+    old "......{#ch2.4_si_004}"
+    new "……{#ch2.4_si_004}"
+
+    old "How are you feeling, Haruna?{#ch2.4_s_021}"
+    new "Как ты себя чувствуешь, Харуна?{#ch2.4_s_021}"
+
+    old "Ah, yeah. Compared to this morning, I think I'm much better."
+    new "А, да. По сравнению с утром, я думаю, мне намного лучше."
+
+    old "That's a relief."
+    new "Вот это облегчение."
+
+    old "...Hmph.{#ch2.4_l_018}"
+    new "…Хм.{#ch2.4_l_018}"
+
+    old "I still feel a little sluggish, though... But I think I'm mostly okay now."
+    new "Я всё ещё чувствую некоторую вялость, но… Но, думаю, я в основном в порядке."
+
+    old "You'd better not overdo it. Rest properly until you're fully recovered."
+    new "Тебе лучше не переусердствовать. Отдыхай должным образом, пока полностью не выздоровеешь."
+
+    old "Thank you, Hiraga-kun.{#ch2.4_ha_004}"
+    new "Спасибо, Хирага-кун."
+
+    old "Oh, right. Siesta, is there anything to eat?"
+    new "А, точно. Сиеста, есть что-нибудь поесть?"
+
+    old "Huh? Don't tell me you haven't had dinner yet?"
+    new "А? Не скажи, что ты ещё не ужинал?"
+
+    old "Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything."
+    new "Да. Я патрулировал и пропустил возможность поесть. Буду признателен, если есть что-нибудь."
+
+    old "If you'd told me, I would have prepared something. Let me bring it now."
+    new "Если бы ты сказал, я бы приготовила. Сейчас принесу."
+
+    old "I feel kind of bad about this."
+    new "Мне как-то неловко."
+
+    old "This much is nothing. Well then, I'll go to the kitchen and get your meal."
+    new "Это пустяк. Тогда я пойду на кухню и принесу тебе еду."
+
+    old "By the way, Haruna, have you had dinner?"
+    new "Кстати, Харуна, ты ужинала?"
+
+    old "Yeah... I didn't have an appetite, so not yet. But if you're with me, Hiraga-kun, I might be able to eat."
+    new "Да… У меня не было аппетита, так что ещё нет. Но если ты будешь со мной, Хирага-кун, я, возможно, смогу поесть."
+
+    old "Kuh!? What is that?"
+    new "Кха!? Что это?"
+
+    old "You're spoiling her quite a lot. She can eat a meal by herself, can't she?"
+    new "Ты её слишком балуешь. Она может поесть сама, не так ли?"
+
+    old "Louise, calm down. Eating alone when you're laid up in bed makes you feel incredibly lonely, doesn't it?"
+    new "Луиза, успокойся. Есть в одиночестве, когда ты прикована к кровати, — это невероятно одиноко, не так ли?"
+
+    old "Not just the body, the heart needs to get better too. Besides, I'm hungry as well, so we might as well — eating together isn't strange at all, is it?"
+    new "Не только тело, но и дух должны поправиться. К тому же я тоже голоден, так что почему бы и нет — вместе поесть совсем не странно, не так ли?"
+
+    old "It is strange."
+    new "Это странно."
+
+    old "How is it!?"
+    new "Как это!?"
+
+    old "You've never shown such attentive behavior up until now, have you?"
+    new "Ты никогда не проявляла такого внимательного отношения до сих пор, не так ли?"
+
+    old "And yet you're being kind to that girl. You'd think that's odd, wouldn't you?"
+    new "И всё же ты добра к этой девушке. Ты бы подумала, что это странно, не так ли?"
+
+    old "Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?"
+    new "Ну, даже если ты так говоришь… Харуна из того же мира, что и я, и она больна. Что плохого в том, чтобы быть добрым к ней?"
+
+    old "That's..."
+    new "Это…"
+
+    old "I brought your dinner. The soup is a little lukewarm, though..."
+    new "Я принесла тебе ужин. Суп немного остыл, но…"
+
+    old "Ah, Siesta, thank you."
+    new "А, Сиеста, спасибо."
+
+    old "...Hmph.{#ch2.4_l_025}"
+    new "…Хм.{#ch2.4_l_025}"
+
+    old "Sorry, Siesta-san."
+    new "Извини, Сиеста-сан."
+
+    old "No, no. I'm used to preparing meals for you, Saito-san."
+    new "Нет-нет. Я привыкла готовить для тебя, Сайто-сан."
+
+    old "Oh my, is that so?"
+    new "О, неужели?"
+
+    old "Yes, that's right."
+    new "Да, это так."
+
+    old "Well then, thank you for the meal."
+    new "Тогда, спасибо за еду."
+
+    old "Yeah, don't push yourself."
+    new "Да, не переусердствуй."
+
+    old "No, this much is fine."
+    new "Нет, это нормально."
+
+    old "Still, though... Then, shall I feed you? Here, say ahh."
+    new "И всё же… Тогда, может, я тебя накормлю? Давай, открой ротик."
+
+    old "Eh..."
+    new "Э…"
+
+    old "...!?"
+    new "…!?"
+
+    old "W-wait a minute!? Saito! What do you think you're doing!?"
+    new "П-подожди минутку!? Сайто! Что ты делаешь!?"
+
+    old "What do you mean — dinner."
+    new "Что ты имеешь в виду — ужин."
+
+    old "That's not what I mean! What's with that 'ahh'!?"
+    new "Я не об этом! Что за «открой ротик»!?"
+
+    old "Huh? Is something weird?"
+    new "А? Что-то странное?"
+
+    old "I'm telling you, it's weird!"
+    new "Я говорю тебе, это странно!"
+
+    old "Hiraga-kun, you're so kind..."
+    new "Хирага-кун, ты так добр…"
+
+    old "What's with that clingy, spoiling attitude!? You've never once shown me anything like that!"
+    new "Что за липкое, балующее отношение!? Ты никогда не показывала мне ничего подобного!"
+
+    old "But you're always perfectly fine, aren't you?"
+    new "Но ты всегда в полном порядке, не так ли?"
+
+    old "Um, I don't think that's really the issue..."
+    new "Эм, я не думаю, что это действительно проблема…"
+
+    old "Um, Louise?"
+    new "Эм, Луиза?"
+
+    old "Do you want dinner too?{#ch2.4_s_039}"
+    new "Ты тоже хочешь ужинать?{#ch2.4_s_039}"
+
+    old "Hah!? Why would it come to that!?"
+    new "Ха!? К чему это!?"
+
+    old "Well, you've been irritated this whole time. I thought you'd already had dinner, but maybe you're hungry and that's making you quick to anger."
+    new "Ну, ты была раздражена всё это время. Я думал, ты уже поужинала, но, может, ты голодна и это делает тебя вспыльчивой."
+
+    old "I finished dinner long ago!"
+    new "Я поужинала давно!"
+
+    old "Is that so? But if you're this irritated, then... are you on a diet or something?"
+    new "Неужели? Но если ты так раздражена, то… ты на диете или что-то в этом роде?"
+
+    old "Hah? A diet?"
+    new "А? Диета?"
+
+    old "You should stop."
+    new "Тебе лучше прекратить."
+
+    old "Skipping meals by force will only ruin your health and have a bad effect on your mental stability — nothing good comes of it."
+    new "Пропускать приёмы пищи силой только разрушит твоё здоровье и плохо повлияет на психическую стабильность — ничего хорошего из этого не выйдет."
+
+    old "Wrooong! I'm not doing that!"
+    new "Неправда! Я этого не делаю!"
+
+    old "Then that's fine. Besides, you're plenty attractive as you are, so if you did something unnecessary and rebounded, that'd be a disaster."
+    new "Тогда всё в порядке. К тому же ты достаточно привлекательна, как есть, так что если бы ты сделала что-то ненужное и получила откат, это было бы катастрофой."
+
+    old "Um... I'm telling you, what are we even talking about?"
+    new "Эм… Я говорю тебе, о чём мы вообще говорим?"
+
+    old "Do you want me to say 'ahh' for you too?{#ch2.4_s_045}"
+    new "Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_s_045}"
+
+    old "Hah!? Wh-wh-why would it come to that!?"
+    new "Ха!? К-к-к чему это!?"
+
+    old "Ah, so that's not it. You just seemed fixated on that."
+    new "А, значит, это не так. Ты просто казалась зацикленной на этом."
+
+    old "That and this are different things! Why would I have to have you feed me?!"
+    new "Это и то — разные вещи! Почему я должна позволять тебе кормить меня?!"
+
+    old "Yeah, you're right. I think so too."
+    new "Да, ты права. Я тоже так думаю."
+
+    old "...As long as you understand."
+    new "…Пока ты понимаешь."
+
+    old "Do you want to be laid up in bed too?{#ch2.4_s_048}"
+    new "Ты тоже хочешь быть прикованной к кровати?{#ch2.4_s_048}"
+
+    old "Hah!? Why would it come to that!?{#ch2.4_l_038}"
+    new "Ха!? К чему это!?{#ch2.4_l_038}"
+
+    old "Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all."
+    new "Ну, ты была раздражена всё это время. Я подумал, может, ты тоже хочешь лежать в кровати, вот и всё."
+
+    old "...It's true that talking with you gives me a headache. But I'm not going to fake being sick just to stay in bed."
+    new "…Правда, разговор с тобой вызывает у меня головную боль. Но я не собираюсь притворяться больной, чтобы лежать в кровати."
+
+    old "...Oh, is that so?"
+    new "…О, неужели?"
+
+    old "That's right. Me, of all people."
+    new "Это так. Я, из всех людей."
+
+    old "There's no weird meaning behind it, okay? Haruna is sick, so looking after her is only normal, right?"
+    new "Никакого странного смысла в этом нет, ладно? Харуна больна, так что ухаживать за ней — это нормально, верно?"
+
+    old "So if she's sick, you'll do anything for her?"
+    new "Значит, если она больна, ты сделаешь для неё всё?"
+
+    old "I'm not going that far. Why are you getting angry about me looking after a sick person?"
+    new "Я не зашёл так далеко. Почему ты злишься на то, что я ухаживаю за больным человеком?"
+
+    old "...B-because!"
+    new "…П-потому что!"
+
+    old "Please, that's enough."
+    new "Пожалуйста, достаточно."
+
+    old "!!{#ch2.4_l_043}"
+    new "!!{#ch2.4_l_043}"
+
+    old "Haruna..."
+    new "Харуна…"
+
+    old "Hiraga-kun is not Miss Louise's tool. You of all people should know that, shouldn't you?"
+    new "Хирага-кун — не инструмент мадемуазель Луизы. Ты из всех людей должна это знать, не так ли?"
+
+    old "I... I have no reason to be told that by you!"
+    new "Я… У меня нет причин слушать это от тебя!"
+
+    old "And what's more! Sick, sick, sick — is being sick really so great? I don't care about Saito anymore!"
+    new "И что ещё! Больная, больная, больная — неужели быть больным так уж здорово? Мне больше не нужен Сайто!"
+
+    old "Ah, hey, Louise!"
+    new "А, эй, Луиза!"
+
+    old "Stupid dog! Stupid familiar! Stupid Saito!"
+    new "Глупая собака! Глупый фамильяр! Глупый Сайто!"
+
+    old "Honestly, I don't care anymore!"
+    new "Честно говоря, мне больше не всё равно!"
 

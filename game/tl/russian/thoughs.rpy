@@ -343,18 +343,45 @@ translate russian strings:
 
 translate russian strings:
 
-    old "(That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!)"
-    new "(Эта Луиза забыла, что королева запретила ей кому-либо рассказывать о «Пустоте»!)"
+    old "That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!"
+    new "Эта Луиза забыла, что королева запретила ей кому-либо рассказывать о «Пустоте»!"
 
-    old "(Aah, Kirche had to go and say something unnecessary...!)"
-    new "(А-ах, Кирхе вечно ляпнет что-нибудь лишнее…!)"
+    old "Aah, Kirche had to go and say something unnecessary...!"
+    new "А-ах, Кирхе вечно ляпнет что-нибудь лишнее…!"
 
-    old "(Aah, they're getting more and more heated...!)"
-    new "(А-ах, они всё сильнее распаляются…!)"
+    old "Aah, they're getting more and more heated...!"
+    new "А-ах, они всё сильнее распаляются…!"
 
-    old "(Good grief, is this part of a familiar's job too? ...No, definitely not.)"
-    new "(Вот напасть, неужели и это входит в обязанности фамильяра? …Нет, точно нет.)"
+    old "Good grief, is this part of a familiar's job too? ...No, definitely not."
+    new "Вот напасть, неужели и это входит в обязанности фамильяра? …Нет, точно нет."
 
-    old "(Aaah, what am I supposed to do...!)"
-    new "(А-а-а, что же мне делать…!)"
+    old "Aaah, what am I supposed to do...!"
+    new "А-а-а, что же мне делать…!"
+
+    old "In the end, we didn't find a single clue about the intruders."
+    new "В итоге мы не нашли ни одной улики о вторгшихся."
+
+    old "The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting."
+    new "Лёгкость, с которой академия была проникнута, кажется, стала проблемой — учителя начали совещание."
+
+    old "So we're left not knowing the details after all. I just can't feel at ease."
+    new "Так что мы остались не зная деталей. Я просто не могу чувствовать себя спокойно."
+
+    old "More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today."
+    new "Больше всего меня беспокоит, как настойчиво эти ребята охотились за Харуной… Я сомневаюсь, что они сдались после сегодняшнего дня."
+
+    old "And if that bomb user comes back again, it won't be a joke."
+    new "И если этот бомбист вернётся снова, это уже не шутка."
+
+    old "Now then. Even if I patrol, where should I start?"
+    new "Теперь. Даже если я патрулирую, с чего начать?"
+
+    old "Ah... having girls welcome me home can make me feel this happy."
+    new "Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливо."
+
+    old "I-is that so?"
+    new "П-правда?"
+
+    old "...It should be a warm atmosphere, but somehow the air feels strangely heavy."
+    new "…Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым."
 

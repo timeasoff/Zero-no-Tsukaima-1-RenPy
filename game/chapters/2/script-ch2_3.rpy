@@ -18,7 +18,7 @@ label ch2_3:
 
     $ show_sprites(("c 1", "k 1"))
     voice "ch2.3_k_001"
-    k "With all due respect, Mister Colbert. It's a fact that the Fire element is clearly superior to the other three."
+    k "With all due respect, Professor Colbert. It's a fact that the Fire element is clearly superior to the other three."
 
     voice "ch2.3_c_004"
     c "Hmm, Miss Zerbst. I'm aware you take pride in your own element, but..."
@@ -51,7 +51,7 @@ label ch2_3:
     voice "ch2.3_l_002"
     l "Who's 'Zero'!? I gave back that disgraceful nickname long ago...!"
 
-    th "(That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!)"
+    th "That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!"
 
     voice "ch2.3_s_001"
     s "Louise, shh, shh!"
@@ -117,7 +117,7 @@ label ch2_3:
             voice "ch2.3_l_011"
             l "What did you say!? I'm not running away!"
 
-            th "(Aah, Kirche had to go and say something unnecessary...!)"
+            th "Aah, Kirche had to go and say something unnecessary...!"
             jump ch2_3_battle
 
         "Stop it, Kirche":
@@ -159,7 +159,7 @@ label ch2_3:
             voice "ch2.3_k_014"
             k "Who said anything about running?"
 
-            th "(Aah, they're getting more and more heated...!)"
+            th "Aah, they're getting more and more heated...!"
             jump ch2_3_battle
 
         "Please stop them, Professor":
@@ -208,7 +208,7 @@ label ch2_3_battle:
     c "No, no, you two! Private duels are forbidden by the school rules."
 
     voice "ch2.3_l_014"
-    l "In that case, let's say Mister Colbert knew nothing about it."
+    l "In that case, let's say Professor Colbert knew nothing about it."
 
     voice "ch2.3_k_017"
     k "That's right. Two students were simply absent from class, so don't worry about it."
@@ -226,7 +226,7 @@ label ch2_3_battle:
     voice "ch2.3_c_011"
     c "A-ah. Do your best."
 
-    th "(Good grief, is this part of a familiar's job too? ...No, definitely not.)"
+    th "Good grief, is this part of a familiar's job too? ...No, definitely not."
 
     $ fade_fx("yard", sprites=("l 2 angry", "k 7 happy"))
     voice "ch2.3_k_019"
@@ -254,7 +254,7 @@ label ch2_3_battle:
     voice "ch2.3_l_018"
     l "What did you say!?"
 
-    th "(Aaah, what am I supposed to do...!)"
+    th "Aaah, what am I supposed to do...!"
 
     # Взрыв (SE +63)
     $ scene_fx(("blow", "flash"), None, duration=(0.7, 0.5), stop_music=True, new_music="t27")

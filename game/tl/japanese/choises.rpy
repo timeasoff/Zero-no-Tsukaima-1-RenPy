@@ -280,3 +280,36 @@ translate japanese strings:
     old "Professor, are you all right!?{#ch2.3_L497}"
     new "先生、大丈夫ですか！"
 
+    old "Did something happen, Louise?{#ch2.4_m106a}"
+    new "ルイズ、なんかあったか？"
+
+    old "Did something happen, Siesta?{#ch2.4_m106b}"
+    new "シエスタ、なんかあったか？"
+
+    old "How are you feeling, Haruna?{#ch2.4_m106c}"
+    new "春奈、具合はどう？"
+
+    old "Do you want dinner too?{#ch2.4_m110a}"
+    new "おまえもご飯食べたいのか"
+
+    old "Do you want me to say 'ahh' for you too?{#ch2.4_m110b}"
+    new "おまえも『あーん』してほしいのか"
+
+    old "Do you want to be laid up in bed too?{#ch2.4_m110c}"
+    new "おまえも寝込んでいたいのか"
+
+    old "Hallway{#ch2.4_hallway}"
+    new "廊下"
+
+    old "Kitchen"
+    new "厨房"
+
+    old "Courtyard"
+    new "中庭"
+
+    old "Classroom"
+    new "教室"
+
+    old "Louise's Room{#ch2.4_lroom}"
+    new "ルイズの部屋"
+
