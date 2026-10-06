@@ -1,5 +1,5 @@
 # Глава 2, часть 8 (сцены 1047–1058): завершение ветки Табиты
-# (1047–1048) и ветки свиданий с Кирке (1049–1053) и Харуной
+# (1047–1048) и ветки свиданий с Кирхе (1049–1053) и Харуной
 # (1054–1058). Общего входного лейбла ch2_8 нет:
 #   ch2_8_tabitha_1047/1048 — jump из script-ch2_7.rpy,
 #   date_kirche_ch2_8 / date_haruna_ch2_8 — из portrait_choice
@@ -208,7 +208,7 @@ label ch2_8_kirche_1053:
     $ show_sprites(("s 3 sad",), side="left")
     voice "ch2.8_s_033"
     s "Wow, she really left me. She must have wanted to swim that badly."
-    $ fade_fx("id(247)", type="cg", new_music="t13")
+    $ flash_fx("id(247)", type="cg", new_music="t13")
     voice "ch2.8_k_020"
     k "Here I go-o!!"
     voice "ch2.8_k_021"
@@ -318,6 +318,7 @@ label ch2_8_haruna_1057:
     $ show_sprites(("s 3", "ha 4 angry"))
     voice "ch2.8_ha_011"
     ha "I told you, no! This - this right here. See, you recognize it?"
+    $ update_sympathy(-10, char_key="haruna")
     $ show_sprites(("s 3 sad", "ha 4 angry"))
     voice "ch2.8_s_050"
     s "The student handbook? You were reading that? Even after coming here, you're still the model student."

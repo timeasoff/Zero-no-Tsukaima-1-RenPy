@@ -161,7 +161,7 @@ translate russian strings:
     new "Пойти на свидание с Табитой"
 
     old "Go on a date with Kirche"
-    new "Пойти на свидание с Кирке"
+    new "Пойти на свидание с Кирхе"
 
     old "Go on a date with Haruna"
     new "Пойти на свидание с Харуной"
@@ -441,7 +441,7 @@ translate russian strings:
     new "Бывает и так.{#ch2.7_m1044a}"
 
     old "I'll buy you something.{#ch2.7_m1044b}"
-    new "Я тебе угощу.{#ch2.7_m1044b}"
+    new "Я тебя угощу.{#ch2.7_m1044b}"
 
     old "Let's see more than just the bookstore.{#ch2.7_m1044c}"
     new "Давай осмотрим и другие места, а не только книжный.{#ch2.7_m1044c}"

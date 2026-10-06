@@ -6251,10 +6251,10 @@ translate russian strings:
     new "Так я же говорю. Это секрет, так что сказать не могу."
 
     old "Come on, do me a favor here."
-    new "Ну вот, упроси тебя."
+    new "Ну пожалуйста, умоляю."
 
     old "Trying to force a girl to give up her secret is awfully rude, you know."
-    new "Пытаться выведать девушке секрет силой — это некрасиво."
+    new "Пытаться силой выведать у девушки секрет — это некрасиво."
 
     old "Ugh. When you put it that way, I'm sunk."
     new "Угх. Когда так говоришь — мне нечем возразить."
@@ -6341,7 +6341,7 @@ translate russian strings:
     new "Это выходит за рамки наших домыслов. Прежде всего нужно приложить все силы к безопасности учеников."
 
     old "R-right. I'll get on with the investigation at once."
-    new "П-да, точно. Я немедленно займусь расследованием."
+    new "Д-да, точно. Я немедленно займусь расследованием."
 
     old "I only hope this doesn't blow up any further... For now, all we can do is pray."
     new "Лишь бы всё не разрослось… Сейчас остаётся только молиться."
@@ -6419,7 +6419,7 @@ translate russian strings:
     new "Значит! Ставка на старую примету — тоже выход."
 
     old "Fufufufufufufu... Once I drink this, I'll leave Kirche in the dust..."
-    new "Фуфуфуфуфуфу… Выпью это — и Кирке останется позади…"
+    new "Фуфуфуфуфуфу… Выпью это — и Кирхе останется позади…"
 
     old "Sigh. Fine, whatever..."
     new "Фух. Ну, как хочешь…"
@@ -6512,7 +6512,7 @@ translate russian strings:
     new "Почему нельзя!?"
 
     old "There's none to spare for you. I had to ask the ranchers for this specially, you know."
-    new "Тебе-то не отлей. Я же у пастухов специально выпрашивала."
+    new "Тебе-то не отлей. Я же у хозяев фермы специально выпрашивала."
 
     old "Tch... I guess that's how it is."
     new "Чё… ну ладно, понятно."
@@ -6523,7 +6523,7 @@ translate russian strings:
     new "В любом случае! Я пью. Только смотрите!"
 
     old "You'll see! I'll grow so big that Kirche and Siesta won't even reach my feet!"
-    new "Увидите! Я вырасту так, что Кирке и Сиеста не дотянутся и до моих пят!"
+    new "Увидите! Я вырасту так, что Кирхе и Сиеста не дотянутся и до моих пят!"
 
     old "Sure, but don't drink too much and upset your stomach, okay?"
     new "Ладно, только не пей слишком много, а то расстроишь живот, хорошо?"
@@ -6574,10 +6574,10 @@ translate russian strings:
     new "Неужели нельзя…?"
 
     old "I appreciate the offer, but I'd only get in your way, Siesta."
-    new "Цени предложение, но я тебе только помехой буду."
+    new "Ценю предложение, но я тебе только помехой буду."
 
     old "Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know."
-    new "Э-эм, я ведь не так уж и чего-то особенного умею, а вы, Сайто-сан, тоже можете кое-что."
+    new "Э-эм, я ведь ничего особенного не умею, а вы, Сайто-сан, тоже можете кое-что."
 
     old "Hmm... you've got a point. Alright, let's give it a try."
     new "Хм… верно-то. Ладно, попробуем."
@@ -6610,7 +6610,7 @@ translate russian strings:
     new "А я думала, мы с Сайто-саном будем печь печенье вместе…"
 
     old "N-no, I mean, I'm terrible at cooking and all..."
-    new "Н-нет, ну, я же варю в кухне и всё такое…"
+    new "Н-нет, ну, я же готовить не умею и всё такое…"
 
     old "Tug, tug..."
     new "Тянет-потянет…"
@@ -6835,7 +6835,7 @@ translate russian strings:
     new "…Спасибо."
 
     old "I'll buy you something."
-    new "Я тебе угощу."
+    new "Я тебя угощу."
 
     old "...Huh?{#ch2.7_t_016}"
     new "…А?"
@@ -6850,7 +6850,7 @@ translate russian strings:
     new "А…"
 
     old "Here, sorry to keep you waiting. This one's yours, Tabitha."
-    new "На, не заставила ждать. Это твоё, Табита."
+    new "На, не заставил ждать. Это твоё, Табита."
 
     old "Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine."
     new "А, кстати, это какой сок? Меню прочитать не смог, так что взял наугад — не страшно?"
@@ -6931,7 +6931,7 @@ translate russian strings:
     new "…Да."
 
     old "Kirche, you in?"
-    new "Кирке, ты тут?"
+    new "Кирхе, ты тут?"
 
     old "I am, yees. What do you want?"
     new "Тууут. И что такое?"
@@ -6943,7 +6943,7 @@ translate russian strings:
     new "Жааарко! Ну и жара. И ветра совсем нет…"
 
     old "Kirche, you can't stand the heat? A lukewarm Kirche... what would that even be?"
-    new "Кирке, тебе жара не по нраву? Кирке с лёгкой температурой… что это вообще?"
+    new "Кирхе, тебе жара не по нраву? Кирхе с лёгкой температурой… что это вообще?"
 
     old "Not at all. Ugh, isn't there somewhere cool?"
     new "Совсем не могу. Ах, разве нет какого-нибудь прохладного места?"
@@ -6997,7 +6997,7 @@ translate russian strings:
     new "Ха, точно подмечено!"
 
     old "If we're going to the lake, there's only one thing to do. Obviously we're swimming."
-    new "Раз едем на озеро — только и дело, что купаться."
+    new "Раз едем на озеро — только и дела, что купаться."
 
     old "Oh, now that sounds fun."
     new "О, это уже интересно."
@@ -7060,7 +7060,7 @@ translate russian strings:
     new "Ну же, Дорогой! Быстрее сюда!"
 
     old "I-I can't just come when you tell me to! Kirche, you're not wearing anything, are you!?"
-    new "Я-я не могу вот так «сейчас приду»! Кирке, на тебе же ничего нет, да!?"
+    new "Я-я не могу вот так «сейчас приду»! Кирхе, на тебе же ничего нет, да!?"
 
     old "Of course not. You don't swim in your clothes."
     new "Конечно нет — в одежде не купаются."
@@ -7135,7 +7135,7 @@ translate russian strings:
     new "Ученический справочник, разумеется."
 
     old "Bingo. I'd tucked it into my uniform pocket, so it barely made it."
-    new "Точно. Она была в кармане формы, поэтому едва уцелела."
+    new "Точно. Он был в кармане формы, поэтому едва уцелел."
 
     old "I did have a bag with me, but I lost it when we escaped.{#ch2.8_ha_009}"
     new "Сумка у меня была, но я её потеряла, когда бежала."
@@ -7153,7 +7153,7 @@ translate russian strings:
     new "А, не так? Я-то думал, любовное письмо от кого-то."
 
     old "I told you, no! This - this right here. See, you recognize it?"
-    new "Да нет же! Вот, вот оно. Узнаёшь?"
+    new "Да нет же! Вот, вот он. Узнаёшь?"
 
     old "The student handbook? You were reading that? Even after coming here, you're still the model student."
     new "Ученический справочник? Ты его читала? И тут остаёшься прилежной."
@@ -7174,10 +7174,10 @@ translate russian strings:
     new "Как и я…"
 
     old "I never used to read the handbook. But if I don't read it now, I'm afraid I'll forget Japanese before long... it scares me."
-    new "Раньше я её не читала. А теперь — если не читать, боюсь, скоро забуду японский…"
+    new "Раньше я его не читала. А теперь — если не читать, боюсь, скоро забуду японский…"
 
     old "I see... Come to think of it, I never really read the handbook properly either."
-    new "Понятно… Кстати, я и сам толком её не читал."
+    new "Понятно… Кстати, я и сам толком его не читал."
 
     old "Let's see, there was something funny in here... Um... 'Do not dress too showily'?"
     new "Ну-ка, тут было что-то смешное… Э-э… «Не носить излишне яркую одежду»?"
@@ -7189,7 +7189,7 @@ translate russian strings:
     new "Тут и такое есть: «Учиться усердно и вести правильный образ жизни»."
 
     old "The school song and the cheering song are in here too."
-    new "Тут и гимн школы, и болельская песня."
+    new "Тут и гимн школы, и болельщицкая песня."
 
     old "Ugh, I can't sing either of them at all."
     new "Ой, я совсем не умею их петь."

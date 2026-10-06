@@ -28,9 +28,9 @@ label date_siesta_ch2_7:
     # ==== SCENE 1039 ====
     $ fade_fx("dining_hall", new_music="t6", sprites=("si 1",))
     $ update_sympathy(20, char_key="siesta")
-    $ show_sprites(("si 1", "s 1"))
     voice "ch2.7_si_001"
     si "Ah, good morning, Saito-san."
+    $ show_sprites(("si 1", "s 1"))
     voice "ch2.7_s_002"
     s "Hey, Siesta. So you're here."
     voice "ch2.7_s_003"
@@ -68,16 +68,17 @@ label ch2_7_siesta_refuse:
     $ fade_fx("dining_hall", sprites=("si 1 happy", "s 3"))
     voice "ch2.7_s_008"
     s "Nah, I'll pass."
+    $ show_sprites(("si 1 sad", "s 3"))
     voice "ch2.7_si_006"
     si "Is that... no good?"
     $ update_sympathy(-10, char_key="siesta")
-    $ show_sprites(("si 1 sad", "s 3"))
+    $ show_sprites(("si 1 sad", "s 3 sad"))
     voice "ch2.7_s_009"
     s "I appreciate the offer, but I'd only get in your way, Siesta."
-    $ show_sprites(("si 1 sad", "s 3 sad"))
+    $ show_sprites(("si 4 shy", "s 3 sad"))
     voice "ch2.7_si_007"
     si "Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know."
-    $ show_sprites(("si 4 shy", "s 3 sad"))
+    $ show_sprites(("si 4 shy", "s 3 happy"))
     voice "ch2.7_s_010"
     s "Hmm... you've got a point. Alright, let's give it a try."
     $ show_sprites(("si 1 shy", "s 3 happy"))
@@ -340,6 +341,7 @@ label ch2_7_tabitha_1046:
     $ fade_fx("cafe_entrance", sprites=("t 1 sad", "s 3 happy"))
     voice "ch2.7_s_054"
     s "I'll buy you something."
+    $ show_sprites(("t 1", "s 3 happy"))
     voice "ch2.7_t_016"
     t "...Huh?{#ch2.7_t_016}"
     voice "ch2.7_s_055"
@@ -373,11 +375,15 @@ label ch2_7_tabitha_1046:
     $ show_sprites(("t 1 happy", "s 3 happy"))
     th "...{#ch2.7_th1046b}"
     $ update_sympathy(15, char_key="tabitha")
-    $ show_sprites(("t 1 happy", "s 3"))
+    $ show_sprites(("t 1 happy", "s 1"))
     voice "ch2.7_s_062"
     s "Hmm? What's wrong?"
-    $ show_sprites(("t 1 shy", "s 3"))
+    $ show_sprites(("t 1 shy", "s 1"))
     voice "ch2.7_t_020"
     t "...Nothing."
+    # Сц. 1048 в источнике начинается с play=+9 (t8); после смены на t14
+    # в ветке 1046 возвращаем t8 (на ветках 1045/1047 t8 уже звучит).
+    stop music fadeout 1.0
+    play music t8 fadein 1.0
     jump ch2_8_tabitha_1048
 

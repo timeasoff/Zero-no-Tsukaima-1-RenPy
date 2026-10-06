@@ -99,6 +99,7 @@ label ch2_6:
             $ show_sprites(("si 1", "s 3 happy"))
             voice "ch2.6_si_007"
             si "Is that so? Nothing in particular."
+            $ update_sympathy(10, char_key="siesta")
             $ show_sprites(("si 1", "s 3"))
             voice "ch2.6_s_015"
             s "I see. If you didn't notice anything, then maybe I imagined it."
@@ -112,6 +113,7 @@ label ch2_6:
             $ show_sprites(("si 1", "s 3"))
             voice "ch2.6_s_017"
             s "Come on, do me a favor here."
+            $ update_sympathy(-10, char_key="siesta")
             $ show_sprites(("si 1 angry", "s 3"))
             voice "ch2.6_si_009"
             si "Trying to force a girl to give up her secret is awfully rude, you know."
@@ -152,9 +154,10 @@ label ch2_6_night:
     jump ch2_6_cabinet
 label ch2_6_cabinet:
     # ==== SCENE 130 ====
-    $ fade_fx("osman_cabinet_night", new_music="t31", sprites=("c 1", "o 1"))
+    $ fade_fx("osman_cabinet_night", new_music="t31")
     voice "ch2.6_o_001"
     o "So, how did it go? Was there anything at the blast site?"
+    $ show_sprites(("c 1", "o 1"))
     voice "ch2.6_c_001"
     c "Yes. Examining the blast site, we recovered what appears to be residue from the bomb."
     voice "ch2.6_o_002"
@@ -233,6 +236,7 @@ label date_louise_ch2_6:
     voice "ch2.6_s_023"
     s "Hey, Louisee— wait, why are you getting ready to go out?"
     $ show_sprites(("l 6 happy", "s 3"))
+    $ update_sympathy(20, char_key="louise")
     voice "ch2.6_l_007"
     l "Oh, Saito. Perfect timing. I'm heading to the ranch!"
     $ show_sprites(("l 6 happy", "s 3 sad"))
@@ -311,7 +315,9 @@ label date_louise_ch2_6:
             $ show_sprites(("l 6 angry", "s 1 happy"))
             voice "ch2.6_l_023"
             l "Shut up! It's none of your business!!"
-            $ show_sprites(("l 6 angry", "s 3 sad"))
+            $ update_sympathy(-10, char_key="louise")
+            # Удар (SE +62, vibrate(2), +61) + белая вспышка — спрайты меняются под ней
+            $ scene_fx("hit flash", sound="punch", duration=(0.3, 2), sprites=("l 6 angry", "s 3 sad"))
             voice "ch2.6_s_038"
             s "Guh! Ouch! I'm done for—!!"
             voice "ch2.6_l_024"
@@ -337,6 +343,7 @@ label date_louise_ch2_6:
             $ show_sprites(("l 6 shy", "s 1"))
             voice "ch2.6_l_026"
             l "Eh... um, um, Saito?"
+            $ update_sympathy(10, char_key="louise")
             $ show_sprites(("l 6 shy", "s 3"))
             voice "ch2.6_s_043"
             s "If you strain yourself and hurt your body, that defeats the whole point, doesn't it? Just take it easy."

@@ -472,13 +472,13 @@ translate russian strings:
     new "Куда это подевались обе? С Луизой ещё ладно, но чтобы и Сиеста не вернулась…"
 
     old "Should I go look for them again? Maybe I'll swing by outside this time..."
-    new "Сходить поискать ещё раз? На этот раз, загляну и на улицу…"
+    new "Сходить поискать ещё раз? На этот раз загляну и на улицу…"
 
     old "An important talk between women...? That has a rather thrilling ring to it."
     new "Важный разговор между женщинами…? Звучит даже как-то волнующе."
 
     old "Louise suddenly started being nice out of nowhere... Which somehow creeps me out — no, downright scares me."
-    new "Луиза вдруг ни с того ни с сего стала доброй… Это даже пугает — вернее, прямо таки жутко."
+    new "Луиза ни с того ни с сего стала доброй… Это даже пугает — вернее, прям-таки жутко."
 
     old "Still, rather than being in a good mood, she just seems... gracious."
     new "Впрочем, это не столько хорошее расположение духа, сколько просто приветливость."
@@ -490,7 +490,7 @@ translate russian strings:
     new "Лишь бы больше ничего странного не случилось."
 
     old "Ugh, good grief... It's morning already?"
-    new "Ух, не отстань… Уже утро?"
+    new "Ух, ну и ну… Уже утро?"
 
     old "I feel like all I've done lately is get tired..."
     new "Кажется, в последнее время я только и делаю, что устаю…"
@@ -507,7 +507,7 @@ translate russian strings:
     new "Уже образ жизни в кредо превратила, слушай."
 
     old "Dammit - did Siesta just set me up?"
-    new "Блин — меня только что подставили?"
+    new "Блин — Сиеста меня только что подставила?"
 
     old "Even unbaked, it already smells pretty good."
     new "Ещё не печёшь, а уже неплохо пахнет."
@@ -546,7 +546,7 @@ translate russian strings:
     new "…{#ch2.8_th1048}"
 
     old "How much of that was serious...? Or am I just being toyed with?"
-    new "Серьёзно ли она это…? Или меня просто развлекают?"
+    new "Серьёзно ли она это…? Или со мной просто развлекаются?"
 
     old "...Yeah, fair enough."
     new "…Ну да, верно."

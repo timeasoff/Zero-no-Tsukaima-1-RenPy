@@ -4,11 +4,11 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (1)
+## ERROR (0)
 
-- E7 jump 'ch2_6' at game/chapters/2/script-ch2_5.rpy:448 has no label
+- нет
 
-## WARNING (275)
+## WARNING (276)
 
 - W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -285,13 +285,13 @@
 - W2 6 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
+- I1 ch2: 1468 script strings > 1382 source talk
 
-## INFO (32)
+## INFO (31)
 
 - speakers defined: 32
 - overlay K: max=7 used=7 next_free=8
-- voices: refs=2081 ogg=2087 missing=0
-- I1 ch2: strings=1062 source_talk=1382 (gap expected)
+- voices: refs=2437 ogg=2443 missing=0
 - I1 ch3: not started (source talk=1078)
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
@@ -318,6 +318,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=143 open=169 | placeholders=2 in 1 file(s)
-- labels=65 rpy=55 strings(strict=2329) tl_old=japanese:2812,russian:2839
+- image map: ids=312 named=143 open=169 | placeholders=6 in 4 file(s)
+- labels=91 rpy=58 strings(strict=2729) tl_old=japanese:3212,russian:3239
 
