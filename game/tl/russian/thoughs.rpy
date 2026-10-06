@@ -554,3 +554,33 @@ translate russian strings:
     old "She laughed... I guess talking about memories of Japan is what makes Haruna happiest."
     new "Она рассмеялась… Видно, рассказы о Японии — самое приятное для Харуны."
 
+    old "What is Louise even saying... She's the one who dragged me into bed by force yesterday..."
+    new "О чём это Луиза говорит... Вчера-то она сама силой втянула меня в кровать..."
+
+    old "What's more, both Louise and Siesta insisted on using my arm as a pillow..."
+    new "Хуже того — и Луиза, и Сиеста требуют, чтобы я подкладывал им руку под голову..."
+
+    old "As a result, my arm aches like crazy, but..."
+    new "Спасибо им, рука болит невыносимо, но..."
+
+    old "Huh? Everyone's looking at me with pity, aren't they..."
+    new "А? Все смотрят на меня с жалостью..."
+
+    old "...Why is it that, even though they're both smiling, I feel something scary?"
+    new "…Почему это? Обе улыбаются, а мне становится страшно."
+
+    old "Ever since Siesta and Haruna started coming to Louise's room, waiting outside while they change has become part of my routine."
+    new "С тех пор как Сиеста и Харуна стали приходить в комнату Луизы, стало привычкой ждать снаружи, пока они переодеваются."
+
+    old "What exactly was my position, when I used to help Louise dress..."
+    new "А в чём же была моя роль всё это время, пока я помогал Луизе переодеваться…"
+
+    old "Whatever— he was probably summoned because Monmon found out he was fooling around, or something."
+    new "Ну, наверное, Монмон уличила его в измене или в чём-то подобном — вот его и вызвали…"
+
+    old "You've always got a few girls hanging around, haven't you?"
+    new "Ты же всегда держишь рядом несколько девушек, разве нет?"
+
+    old "Monmon said the very same thing, and then blabbed everything..."
+    new "Монмон тоже говорила то же самое, а потом болтала без умолку…"
+

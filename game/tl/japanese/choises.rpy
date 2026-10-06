@@ -473,3 +473,21 @@ translate japanese strings:
     old "A letter from someone.{#ch2.8_m1054c}"
     new "ずばり、誰かからの手紙"
 
+    old "I didn't think it was a bother.{#ch3_m137a}"
+    new "迷惑だなんて思わなかったよ"
+
+    old "Now that you mention it, it might be cramped.{#ch3_m137b}"
+    new "言われてみれば狭いかも"
+
+    old "How about the four of us sleep together?{#ch3_m137c}"
+    new "４人で寝るってどうだろ？"
+
+    old "Probably Louise.{#ch3_m142a}"
+    new "ルイズかなぁ"
+
+    old "Maybe Siesta?{#ch3_m142b}"
+    new "シエスタかな？"
+
+    old "Maybe Haruna?{#ch3_m142c}"
+    new "春奈かな？"
+

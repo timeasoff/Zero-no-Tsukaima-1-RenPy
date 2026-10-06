@@ -7212,3 +7212,291 @@ translate japanese strings:
     old "Haha, ahaha!"
     new "ははっ、あははっ！"
 
+    old "Nn— mmm... Ahh, it's so bright."
+    new "んっ、んん～。……んぁ、眩しい。"
+
+    old "Hah... Morning's come around again..."
+    new "はぁ……。また朝が来たのね……。"
+
+    old "The morning light's no different from Japan's, is it..."
+    new "朝の光は、日本となんにも変わらないのになぁ……。"
+
+    old "I wonder when I'll ever get used to living in this world..."
+    new "私、いつになったら、この世界での生活に馴染めるんだろう……。"
+
+    old "But that's fine. Right now, Hiraga-kun is right beside me...!?"
+    new "でも、いいの。今、私のそばには、平賀くんが……！？"
+
+    old "Eh...?{#ch3_ha_006}"
+    new "え……？"
+
+    old "Why is Hiraga-kun sleeping between Louise-san and Siesta-san!? He was supposed to be on the floor, wasn't he!?"
+    new "なんで、ルイズさんと、シエスタさんの間に平賀くんが寝てるの！？平賀くんって、確か床で寝ていたはずでしょ？"
+
+    old "Wake up, wake up! Hiraga-kun, wake up!"
+    new "起きて起きてっ！平賀くん、起きてっ！"
+
+    old "Wha— whoa—!? What's going on!?"
+    new "わっ、わわっ！？なんだなんだっ！？"
+
+    old "Jeez, what is it? You're so noisy..."
+    new "んもぅ、なによぉ。うるさいわねぇ……。"
+
+    old "...Ah, good morning."
+    new "……あ、おはようございます。"
+
+    old "Ah— you two! Why are you sleeping next to Hiraga-kun!?"
+    new "あっ、あなた達っ！どうして平賀くんの隣で寝てるんですか！？"
+
+    old "Why? It's obvious, isn't it? Saito is my familiar, so of course we'd sleep together."
+    new "どうしてって……決まってるじゃない。サイトはわたしの使い魔なんだから、一緒に寝るのは当たり前でしょ。"
+
+    old "Th-then why is Siesta-san here!?"
+    new "じゃ、じゃあ、シエスタさんはどうして！？"
+
+    old "I had already decided to share a bed with Miss Valiere from the start, so I don't think there's any problem."
+    new "わたしは元々ミス・ヴァリエールと一緒のベッドと決めていましたので、別に問題はないと思います。"
+
+    old "Even if the bed is big, with three people in it, Hiraga-kun's in the way too, right?"
+    new "いくら広いベッドだからって、３人で一緒に寝ていたら、平賀くんだって、邪魔だよね？"
+
+    old "Huh? I'm..."
+    new "えっ、俺は……。"
+
+    old "I didn't think it was a bother."
+    new "迷惑だなんて思わなかったよ。"
+
+    old "Even if it's the three of us, just being able to sleep on the bed makes me happy."
+    new "３人で寝てると言っても、ベッドの上で寝れるだけで、俺、幸せだし。"
+
+    old "Saito-san...{#ch3_si_003}"
+    new "サイトさん……。"
+
+    old "Saito...{#ch3_l_003}"
+    new "サイト……。"
+
+    old "Hiraga-kun...{#ch3_ha_012}"
+    new "平賀くん……。"
+
+    old "Now that you mention it, it might have been cramped."
+    new "言われてみれば狭かったかもなぁ。"
+
+    old "It was a bother after all, wasn't it!"
+    new "やっぱり、迷惑だよね！"
+
+    old "But it's not my bed, so it's not for me to say whether it was cramped."
+    new "でも、俺のベッドじゃないから、狭い広いは、俺が意見するところじゃないし。"
+
+    old "Well, I used to sleep on straw, so I can sleep anywhere now, I guess. Ahahaha..."
+    new "まぁ、ワラで寝ていたから、どこでも寝れるようになったかなぁ。あはははは……。"
+
+    old "I-Is that so..."
+    new "そ、そうなんだ……。"
+
+    old "How about we try sleeping with four of us?"
+    new "４人で寝てみるっていうのはどうだろう？"
+
+    old "Huh?{#ch3_l_004}"
+    new "は？"
+
+    old "Miss Valiere! Saito-san, Saito-san!!"
+    new "ミス・ヴァリエール。サイトさんが、サイトさんが！！"
+
+    old "Hey, wait a second. There was still room on the bed with three of us, right?"
+    new "いや、ちょっと待ってくれよ。３人で寝てもベッドに余裕があっただろ？"
+
+    old "I was thinking maybe we could take a crack at four..."
+    new "もしかしたら４人にチャレンジできるかもしれないなぁって思ったんだけど……。"
+
+    old "Hiraga-kun, you're the worst!"
+    new "平賀くん、最低！"
+
+    old "Wh-what!? ...Eh?"
+    new "えっ！えっ？"
+
+    old "See? That's what I said, didn't I? When I say it's fine, it's fine."
+    new "ね？だから言ったでしょ？わたしがいいと言ったら、いいのよ。"
+
+    old "That's right, Haruna-san. We're freeloading in Miss Valiere's room."
+    new "そうです、ハルナさん。わたし達はミス・ヴァリエールの部屋に居候している身。"
+
+    old "We shouldn't make too many demands, you know?"
+    new "あまり贅沢を言ってはいけませんよ？"
+
+    old "Is that really being so demanding?"
+    new "それって贅沢なのか？"
+
+    old "It certainly is a demand!"
+    new "立派な贅沢です！"
+
+    old "Never mind that— Haruna!"
+    new "そんなことより、ハルナ！"
+
+    old "Y-yes.{#ch3_ha_016}"
+    new "は、はい。"
+
+    old "You're sick, aren't you?"
+    new "あなた、病気なんでしょ？"
+
+    old "Yes, I am, but..."
+    new "ええ、そうですけど……。"
+
+    old "Then you have to get proper rest, don't you?"
+    new "だったら、ちゃんと寝てなきゃダメじゃない。"
+
+    old "That's right, Haruna-san. If you don't rest properly, even an illness that would heal on its own won't get better."
+    new "そうですよ、ハルナさん。ちゃんと寝ていないと、治る病気もよくはなりませんよ。"
+
+    old "Nn... R-right... I'll be good and stay put."
+    new "うっ。そ、そうですね……。おとなしくしています。"
+
+    old "Now then, don't hold back— sleep, sleeeep."
+    new "さぁ、遠慮しないで寝て寝てー。"
+
+    old "That's right. If you don't lie down, it'll be bad for your health—"
+    new "そうですよ。横になってないと、お体にさわりますよー。"
+
+    old "Good grief, women are terrifying, aren't they..."
+    new "まったく、女ってヤツは怖いねぇ……。"
+
+    old "What was that?"
+    new "何か言った？"
+
+    old "N-no, no... It's nothing at all..."
+    new "いえいえ……。なんでもねぇっすよ……。"
+
+    old "Hi. What are you doing in a place like this?"
+    new "やぁ、そんなところでどうしたのかな？"
+
+    old "Hm? ...Oh, it's you, Guiche."
+    new "ん？……なんだ、ギーシュか。"
+
+    old "'What do you mean, what' — that's rather rude of you."
+    new "なんだとはいきなり失礼だな、きみは。"
+
+    old "...Never mind. A noble does not lose his temper so easily. Be grateful for my magnanimity."
+    new "……まあいい。貴族たる者、簡単に腹を立てないものだ。ぼくの寛大さに感謝するといい。"
+
+    old "Yeah, yeah, thanks, thanks... More to the point, what are you doing here, Guiche? This is the girls' dorm, isn't it?"
+    new "はいはい、感謝感謝……。それより、なんでギーシュがここにいるんだよ。ここは女子寮だろ？"
+
+    old "Montmorency asked me to come. Ah, it's tough being a popular guy."
+    new "モンモランシーに呼ばれてね。いやー、モテる男は困るよ。"
+
+    old "Did you say something?"
+    new "何か言ったかい？"
+
+    old "Nah, nah, nothing at all."
+    new "いやいや、なんでもねーっす。"
+
+    old "By the way, why were you kicked out of the room? Did you make Louise angry again, perhaps?"
+    new "それより、サイトはなんで部屋を追い出されてるんだい？もしかして、また、ルイズを怒らせたとか？"
+
+    old "I didn't make her mad or anything. They're changing inside, so they just made me wait outside."
+    new "別に怒らせてねーよ。ルイズ達が中で着替えるからって、俺が外に出されてるだけだよ。"
+
+    old "I see, that's a tough break..."
+    new "ふーん、それは難儀だねぇ……。"
+
+    old "Yeah, well."
+    new "まぁな。"
+
+    old "You say all that, but deep down don't you want to go inside, partner?"
+    new "とか言いながら、本当は中に入りたいんじゃねーのか？相棒。"
+
+    old "D-don't be ridiculous. There's no way I'd do something that scary."
+    new "ば、馬鹿言うなよ。そんな恐ろしいことできるはずがねーだろ？"
+
+    old "Why would it be scary? I hear you used to help Louise dress, didn't you?"
+    new "なんで、恐ろしいことになるんだい？聞けば、ルイズの着替えを手伝っていたというじゃないか？"
+
+    old "That and this are two different stories."
+    new "それとこれとは話は別だ。"
+
+    old "Still, I truly admire your patience, partner."
+    new "まぁ、相棒の辛抱強さには心底惚れるねぇ。"
+
+    old "By the way, Saito, who's your type?"
+    new "ところで、サイトは誰が好みなんだい？"
+
+    old "Where did that come from?"
+    new "いきなり何を言い出すんだよ。"
+
+    old "Just personal curiosity. I wanted to know how it feels, living with three girls."
+    new "個人的な興味だよ。３人もの女の子と暮らしているきみの心境を聞いてみたくてね。"
+
+    old "Hm? Did you say something?{#ch3_g_011}"
+    new "ん？何か言ったかい？"
+
+    old "N-Nah. Besides, there's no way I'd say something that embarrassing."
+    new "いーや。それより、そんな恥ずかしいこと言えるわけねーだろ？"
+
+    old "We're such good friends, aren't we? Won't you tell me in secret?"
+    new "きみとぼくの仲じゃないか？こっそり教えてくれないかい？"
+
+    old "W-well..."
+    new "そ、そうだなぁ……。"
+
+    old "It's Louise after all. Then again, that's only because Louise is my master. I don't have any weird feelings for her."
+    new "やっぱりルイズかなぁ。って言っても、ルイズがご主人様だからだぞ。別に変な感情は持ってねぇ。"
+
+    old "I see. So you're putting your master first, as a familiar."
+    new "なるほど。使い魔としてご主人様を立てたということか。"
+
+    old "Well, quite. I can't imagine a commoner like you could ever do anything with a noble like Louise."
+    new "まぁ、もっとも。平民のきみが貴族のルイズをどうこうできるとは思えないがね。"
+
+    old "Uh-huh. I'm ever so sorry."
+    new "へいへい。申し訳ございませんね。"
+
+    old "I guess Siesta's on my mind... Then again, that's all it is— we're nothing like that."
+    new "シエスタが気になるなぁ、って言っても、気になるだけで、そんな仲じゃねーからな。"
+
+    old "I see, the maid girl. She seems honest and dependable— she'd suit you well, don't you think?"
+    new "なるほど、メイドのお嬢さんか。実直そうな性格だし、きみにはいいんじゃないか？"
+
+    old "Come to think of it, don't you have any maids or something in your room? You're a noble, aren't you?"
+    new "そういえば、お前の部屋にはメイドとかいないのか？一応、貴族なんだろ？"
+
+    old "I'm not exactly rich enough to bring a retainer along, you see. I didn't bring one to the academy."
+    new "さすがに従者を連れてくるほどの金持ちではないのでね。学院には連れてきてはいない。"
+
+    old "I see...{#ch3_s_027}"
+    new "なるほどな……。"
+
+    old "Haruna, maybe? We were classmates, so it'd be a lie to say she's not on my mind."
+    new "春奈かな？同じクラスメイトだったし、気にならないと言ったら、嘘になる。"
+
+    old "Then again, that's all it is— we're nothing like that."
+    new "って言っても、気になるだけで、そんな仲じゃねーからな。"
+
+    old "Haruna? Ah, that girl. She's got a mysterious air about her."
+    new "ハルナ？あー、例の女の子だね。どこかミステリアスな雰囲気の娘だねぇ。"
+
+    old "R-really?{#ch3_s_030}"
+    new "そ、そうか？"
+
+    old "Yeah. Girls like her tend to hide a lot about themselves, so you need to be careful, Saito."
+    new "うん、ああいう子は、自分のことを隠してることが多いから注意が必要だよ、サイト。"
+
+    old "Alright, I'll keep that in mind."
+    new "まぁ、覚えておくよ。"
+
+    old "Saito~ I'm done changing, so come on in."
+    new "サイト～。着替えが終わったから、入ってきなさい。"
+
+    old "Oh, your master is calling you, Saito."
+    new "おっと、ご主人様からのお呼び出しだよ、サイト。"
+
+    old "Yeah, yeah. Then I'd better head back to the room."
+    new "へいへい。んじゃ、部屋に戻るとしますか。"
+
+    old "By the way— don't go telling anyone about what just happened."
+    new "ところで、さっきのこと、みんなに話すんじゃねーぞ。"
+
+    old "I know, I know. I'm a tight-lipped fellow, after all."
+    new "分かってるって。ぼくはこれでも口が堅いほうだからね。"
+
+    old "Alright, I'm counting on you. See ya."
+    new "まぁ、頼んだぞ。じゃあな。"
+

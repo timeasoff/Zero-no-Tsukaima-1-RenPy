@@ -228,7 +228,7 @@ label ch2_6_morning:
 
     $ fade_fx("black")
     stop music fadeout 1.0
-    jump attention
+    jump ch3
 
 label date_louise_ch2_6:
     # ==== SCENE 1034 ====

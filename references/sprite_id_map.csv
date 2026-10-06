@@ -31,6 +31,7 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 319,l 6 sad,1,1012,3014,lay1,ch1; block 313 pos 6; поза по пиксель-сверке id 317 (MAE 1.48)
 321,l 6 shy,2,1010,2965,lay1,ch1; block 313 pos 8; поза по пиксель-сверке id 317 (MAE 1.48)
 324,l 4,6,69,114,lay1,l 4 — эталон ch1
+326,l 4 happy,1,141,243,lay1,ch3 part1; block 324 pos 2; семья по соседям 324/328/330/332 (эталон ch1); поза по формуле блока
 328,l 4 angry,6,68,65,lay1,l 4 angry — эталон ch1
 330,l 4 sad,1,72,259,lay1,
 332,l 4 shy,2,70,128,lay1,l 4 shy — эталон ch1
@@ -71,6 +72,10 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 524,si 4 happy,1,1017,3180,lay2,ch1; block 522 pos 2; поза по пиксель-сверке id 524 (MAE 1.07)
 528,si 4 sad,1,69,107,lay2,
 530,si 4 shy,11,20,794,lay2,ch1; block 522 pos 8; поза по пиксель-сверке id 524 (MAE 1.07)
+544,si 6,2,141,210,lay2,ch3 part1; block 544 pos 0; пиксель-сверка SCENEDAT_png[1348] -> si 6 (MAE 9.07; чужое семейство 42.74); якоря 522->1314 (si 4), 555->1365 (g 1); шаг блока 17
+546,si 6 happy,1,141,245,lay2,ch3 part1; block 544 pos 2; семья по пиксель-сверке блока 544
+548,si 6 angry,2,137,104,lay2,ch3 part1; block 544 pos 4; семья по пиксель-сверке блока 544
+550,si 6 sad,3,137,83,lay2,ch3 part1; block 544 pos 6; семья по пиксель-сверке блока 544
 555,g 1,3,49,2320,lay4,ch1; block 555 pos 0; поза по пиксель-сверке id 563 (MAE 1.36)
 556,g 1,1,49,2325,lay4,ch1; block 555; подтверждено script главы 1
 557,g 1 happy,2,49,2342,lay4,ch1; block 555 pos 2; поза по пиксель-сверке id 563 (MAE 1.36)

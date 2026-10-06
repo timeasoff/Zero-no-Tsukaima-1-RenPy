@@ -467,3 +467,21 @@ translate russian strings:
     old "A letter from someone.{#ch2.8_m1054c}"
     new "Письмо от кого-нибудь.{#ch2.8_m1054c}"
 
+    old "I didn't think it was a bother.{#ch3_m137a}"
+    new "Я и не думал, что это проблема.{#ch3_m137a}"
+
+    old "Now that you mention it, it might be cramped.{#ch3_m137b}"
+    new "Теперь, когда так сказали, может, и тесно.{#ch3_m137b}"
+
+    old "How about the four of us sleep together?{#ch3_m137c}"
+    new "А если вчетвером поспать?{#ch3_m137c}"
+
+    old "Probably Louise.{#ch3_m142a}"
+    new "Наверное, Луиза.{#ch3_m142a}"
+
+    old "Maybe Siesta?{#ch3_m142b}"
+    new "Может, Сиеста?{#ch3_m142b}"
+
+    old "Maybe Haruna?{#ch3_m142c}"
+    new "Может, Харуна?{#ch3_m142c}"
+

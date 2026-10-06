@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (276)
+## WARNING (274)
 
 - W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -51,7 +51,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:74: Chapter Six: 'The Letter's Secret'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:59: Chapter Six: 'The Queen's Decision'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:117: Chapter Six: 'Unexpected Scout'
-- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:48: Chapter Three: 'A Woman's Battle'
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:296: Characters
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:285: Close
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:368: Consume
@@ -145,7 +144,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
-- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the first chapter!{/size}
+- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
 - W5 19 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
@@ -187,7 +186,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:76: Chapter Six: 'The Letter's Secret'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:59: Chapter Six: 'The Queen's Decision'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:119: Chapter Six: 'Unexpected Scout'
-- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:48: Chapter Three: 'A Woman's Battle'
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:296: Characters
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:285: Close
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:369: Consume
@@ -281,7 +279,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:157: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
-- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the first chapter!{/size}
+- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W2 6 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
@@ -290,9 +288,9 @@
 ## INFO (31)
 
 - speakers defined: 32
-- overlay K: max=7 used=7 next_free=8
-- voices: refs=2437 ogg=2443 missing=0
-- I1 ch3: not started (source talk=1078)
+- overlay K: max=8 used=8 next_free=9
+- voices: refs=2533 ogg=2539 missing=0
+- I1 ch3: strings=113 source_talk=1078 (gap expected)
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
@@ -318,6 +316,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=143 open=169 | placeholders=6 in 4 file(s)
-- labels=91 rpy=58 strings(strict=2729) tl_old=japanese:3212,russian:3239
+- image map: ids=312 named=143 open=169 | placeholders=7 in 5 file(s)
+- labels=94 rpy=59 strings(strict=2842) tl_old=japanese:3324,russian:3351
 

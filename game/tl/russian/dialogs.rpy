@@ -7218,3 +7218,291 @@ translate russian strings:
     old "Haha, ahaha!"
     new "Ха-ха, ахаха!"
 
+    old "Nn— mmm... Ahh, it's so bright."
+    new "Нн… нмм… Ах, светло."
+
+    old "Hah... Morning's come around again..."
+    new "Ха… Утро снова наступило…"
+
+    old "The morning light's no different from Japan's, is it..."
+    new "Утренний свет ничем не отличается от японского…"
+
+    old "I wonder when I'll ever get used to living in this world..."
+    new "Когда же я привыкну к жизни в этом мире…"
+
+    old "But that's fine. Right now, Hiraga-kun is right beside me...!?"
+    new "Но всё в порядке. Сейчас рядом со мной Хирага-кун…!?"
+
+    old "Eh...?{#ch3_ha_006}"
+    new "Э…?"
+
+    old "Why is Hiraga-kun sleeping between Louise-san and Siesta-san!? He was supposed to be on the floor, wasn't he!?"
+    new "Почему Хирага-кун спит между Луиза-сан и Сиеста-сан!? Он же вроде бы спал на полу?!"
+
+    old "Wake up, wake up! Hiraga-kun, wake up!"
+    new "Просыпайся, просыпайся! Хирага-кун, просыпайся!"
+
+    old "Wha— whoa—!? What's going on!?"
+    new "А-а! А-а-а!? Что происходит!?"
+
+    old "Jeez, what is it? You're so noisy..."
+    new "Ну и что такое? Какая же ты шумная…"
+
+    old "...Ah, good morning."
+    new "…А, доброе утро."
+
+    old "Ah— you two! Why are you sleeping next to Hiraga-kun!?"
+    new "Ах вы! Почему вы спите рядом с Хирага-кун!?"
+
+    old "Why? It's obvious, isn't it? Saito is my familiar, so of course we'd sleep together."
+    new "Почему? Да это же очевидно. Сайто — мой фамилиар, так что спать вместе — само собой разумеется."
+
+    old "Th-then why is Siesta-san here!?"
+    new "Т-тогда почему Сиеста-сан здесь!?"
+
+    old "I had already decided to share a bed with Miss Valiere from the start, so I don't think there's any problem."
+    new "Я изначально решила спать на одной кровати с мадемуазель Вальер, так что, по-моему, проблемы нет."
+
+    old "Even if the bed is big, with three people in it, Hiraga-kun's in the way too, right?"
+    new "Даже если кровать большая, если спать втроём, Хирага-кун всё равно мешает, да?"
+
+    old "Huh? I'm..."
+    new "А? Я…"
+
+    old "I didn't think it was a bother."
+    new "Я и не думал, что это проблема."
+
+    old "Even if it's the three of us, just being able to sleep on the bed makes me happy."
+    new "Даже если втроём — сам факт, что можно спать на кровати, для меня уже счастье."
+
+    old "Saito-san...{#ch3_si_003}"
+    new "Сайто-сан…"
+
+    old "Saito...{#ch3_l_003}"
+    new "Сайто…"
+
+    old "Hiraga-kun...{#ch3_ha_012}"
+    new "Хирага-кун…"
+
+    old "Now that you mention it, it might have been cramped."
+    new "Теперь, когда так сказали — пожалуй, тесно было."
+
+    old "It was a bother after all, wasn't it!"
+    new "Как я и думала — это проблема, верно!"
+
+    old "But it's not my bed, so it's not for me to say whether it was cramped."
+    new "Но это не моя кровать, так что тесно или просторно — решать не мне."
+
+    old "Well, I used to sleep on straw, so I can sleep anywhere now, I guess. Ahahaha..."
+    new "Ну, я спал на соломе, так что, наверное, могу спать где угодно. Аха-ха-ха…"
+
+    old "I-Is that so..."
+    new "Т-так это…"
+
+    old "How about we try sleeping with four of us?"
+    new "Как насчёт попробовать поспать вчетвером?"
+
+    old "Huh?{#ch3_l_004}"
+    new "Что?"
+
+    old "Miss Valiere! Saito-san, Saito-san!!"
+    new "Мадемуазель Вальер. Сайто-сан, Сайто-сан!!"
+
+    old "Hey, wait a second. There was still room on the bed with three of us, right?"
+    new "Погоди-ка. Мы же ещё втроём помещались на кровати, да?"
+
+    old "I was thinking maybe we could take a crack at four..."
+    new "Я подумал, может, и вчетвером попробовать…"
+
+    old "Hiraga-kun, you're the worst!"
+    new "Хирага-кун, ты хуже всех!"
+
+    old "Wh-what!? ...Eh?"
+    new "Ч-что!? …А?"
+
+    old "See? That's what I said, didn't I? When I say it's fine, it's fine."
+    new "Вот видишь? Я же говорила. Скажу, что можно — значит, можно."
+
+    old "That's right, Haruna-san. We're freeloading in Miss Valiere's room."
+    new "Именно, Харуна-сан. Мы ведь живём в комнате мадемуазель Вальер как прихлебатели."
+
+    old "We shouldn't make too many demands, you know?"
+    new "Не стоит слишком много себе позволять, верно?"
+
+    old "Is that really being so demanding?"
+    new "Разве это роскошь?"
+
+    old "It certainly is a demand!"
+    new "Ещё какая роскошь!"
+
+    old "Never mind that— Haruna!"
+    new "Гораздо важнее — Харуна!"
+
+    old "Y-yes.{#ch3_ha_016}"
+    new "Д-да."
+
+    old "You're sick, aren't you?"
+    new "Ты же больна, да?"
+
+    old "Yes, I am, but..."
+    new "Да, но…"
+
+    old "Then you have to get proper rest, don't you?"
+    new "Тогда тебе надо как следует выспаться!"
+
+    old "That's right, Haruna-san. If you don't rest properly, even an illness that would heal on its own won't get better."
+    new "Именно, Харуна-сан. Без полноценного сна даже болезнь, что проходит сама, не пойдёт на поправку."
+
+    old "Nn... R-right... I'll be good and stay put."
+    new "Уф. Д-да… Буду сидеть смирно."
+
+    old "Now then, don't hold back— sleep, sleeeep."
+    new "Ну же, не церемонься — спи, спи!"
+
+    old "That's right. If you don't lie down, it'll be bad for your health—"
+    new "Именно. Не ляжешь — вредно для здоровья—"
+
+    old "Good grief, women are terrifying, aren't they..."
+    new "Ничего себе, женщины — страшное дело…"
+
+    old "What was that?"
+    new "Ты что-то сказал?"
+
+    old "N-no, no... It's nothing at all..."
+    new "Д-да нет… Ничего особенного…"
+
+    old "Hi. What are you doing in a place like this?"
+    new "Привет. Что ты делаешь в таком месте?"
+
+    old "Hm? ...Oh, it's you, Guiche."
+    new "М?… А, это ты, Гиш."
+
+    old "'What do you mean, what' — that's rather rude of you."
+    new "«Что значит „что“» — ты вдруг груб."
+
+    old "...Never mind. A noble does not lose his temper so easily. Be grateful for my magnanimity."
+    new "…Ладно. Аристократ не вспыхивает по пустякам. Благодарите за мою снисходительность."
+
+    old "Yeah, yeah, thanks, thanks... More to the point, what are you doing here, Guiche? This is the girls' dorm, isn't it?"
+    new "Да-да, спасибо-спасибо… Кстати, а что Гиш тут делает? Это же женское общежитие, верно?"
+
+    old "Montmorency asked me to come. Ah, it's tough being a popular guy."
+    new "Меня позвала Монморанси. Ах, быть таким популярным — головная боль!"
+
+    old "Did you say something?"
+    new "Что-то говорил?"
+
+    old "Nah, nah, nothing at all."
+    new "Не-не, да нет ничего."
+
+    old "By the way, why were you kicked out of the room? Did you make Louise angry again, perhaps?"
+    new "Кстати, а почему тебя выгнали из комнаты? Опять разозлил Луизу, что ли?"
+
+    old "I didn't make her mad or anything. They're changing inside, so they just made me wait outside."
+    new "Я её совсем не злил. Просто они переодеваются внутри, а меня выставили наружу."
+
+    old "I see, that's a tough break..."
+    new "Хм, неприятная история…"
+
+    old "Yeah, well."
+    new "Ну да."
+
+    old "You say all that, but deep down don't you want to go inside, partner?"
+    new "Говоришь так, а сам-то внутрь попасть хочешь, напарник?"
+
+    old "D-don't be ridiculous. There's no way I'd do something that scary."
+    new "Н-не неси чушь. Я бы на такое страшное дело не решился."
+
+    old "Why would it be scary? I hear you used to help Louise dress, didn't you?"
+    new "Почему это страшно? Говорят же, ты помогал Луизе переодеваться?"
+
+    old "That and this are two different stories."
+    new "Это совсем другое дело."
+
+    old "Still, I truly admire your patience, partner."
+    new "Ну, от души восхищаюсь твоей выдержкой, напарник."
+
+    old "By the way, Saito, who's your type?"
+    new "Кстати, а кто тебе нравится, Сайто?"
+
+    old "Where did that come from?"
+    new "С чего ты вдруг об этом?"
+
+    old "Just personal curiosity. I wanted to know how it feels, living with three girls."
+    new "Просто из любопытства. Хотелось узнать, каково это — жить с тремя девушками."
+
+    old "Hm? Did you say something?{#ch3_g_011}"
+    new "М? Ты что-то говорил?"
+
+    old "N-Nah. Besides, there's no way I'd say something that embarrassing."
+    new "Да нет. А вообще — с чего бы мне такое неловкое говорить?"
+
+    old "We're such good friends, aren't we? Won't you tell me in secret?"
+    new "Разве мы не свои? Расскажешь потихоньку?"
+
+    old "W-well..."
+    new "Н-ну да…"
+
+    old "It's Louise after all. Then again, that's only because Louise is my master. I don't have any weird feelings for her."
+    new "Наверное, всё-таки Луиза. Хотя просто потому, что Луиза — моя хозяйка. Никаких странных чувств у меня нет."
+
+    old "I see. So you're putting your master first, as a familiar."
+    new "Понятно. Значит, как фамилиар, ты поставил хозяйку выше всего?"
+
+    old "Well, quite. I can't imagine a commoner like you could ever do anything with a noble like Louise."
+    new "Ну да, верно. Не думаю, чтобы простолюдин вроде тебя мог что-то сделать с аристократкой Луизой."
+
+    old "Uh-huh. I'm ever so sorry."
+    new "Да-да, простите-простите."
+
+    old "I guess Siesta's on my mind... Then again, that's all it is— we're nothing like that."
+    new "Даже если Сиеста занимает мои мысли… это просто мысли — между нами ничего нет."
+
+    old "I see, the maid girl. She seems honest and dependable— she'd suit you well, don't you think?"
+    new "Понятно, значит, горничная. Кажется, она честная и надёжная — тебе бы подошла?"
+
+    old "Come to think of it, don't you have any maids or something in your room? You're a noble, aren't you?"
+    new "Кстати, а у тебя в комнате нет горничной или кого-то вроде того? Всё-таки ты дворянин, да?"
+
+    old "I'm not exactly rich enough to bring a retainer along, you see. I didn't bring one to the academy."
+    new "Я не настолько богат, чтобы тащить с собой слугу. В академию я его не привёз."
+
+    old "I see...{#ch3_s_027}"
+    new "Понятно…"
+
+    old "Haruna, maybe? We were classmates, so it'd be a lie to say she's not on my mind."
+    new "Может, Харуна? Мы ведь учились в одном классе — сказать, что мне всё равно, было бы враньём."
+
+    old "Then again, that's all it is— we're nothing like that."
+    new "Хотя всё лишь в мыслях — между нами ничего нет."
+
+    old "Haruna? Ah, that girl. She's got a mysterious air about her."
+    new "Харуна? А, та самая девушка. В ней есть что-то загадочное."
+
+    old "R-really?{#ch3_s_030}"
+    new "П-правда?"
+
+    old "Yeah. Girls like her tend to hide a lot about themselves, so you need to be careful, Saito."
+    new "Да. Девушки вроде её обычно многое скрывают о себе — так что будь осторожен, Сайто."
+
+    old "Alright, I'll keep that in mind."
+    new "Ладно, учту."
+
+    old "Saito~ I'm done changing, so come on in."
+    new "Сайтооо~ Я закончила переодеваться, заходи."
+
+    old "Oh, your master is calling you, Saito."
+    new "Ох, хозяйка зовёт тебя, Сайто."
+
+    old "Yeah, yeah. Then I'd better head back to the room."
+    new "Да-да. Что ж, вернусь-ка в комнату."
+
+    old "By the way— don't go telling anyone about what just happened."
+    new "Кстати, о том, что было только что — никому не рассказывай."
+
+    old "I know, I know. I'm a tight-lipped fellow, after all."
+    new "Понял, понял. Я ведь тоже из тех, кто держит язык за зубами."
+
+    old "Alright, I'm counting on you. See ya."
+    new "Ну, рассчитываю на тебя. Пока."
+

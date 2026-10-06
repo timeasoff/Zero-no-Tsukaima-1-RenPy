@@ -148,8 +148,8 @@ translate russian strings:
     old "{size=+14}Congratulations!!!{/size}"
     new "{size=+14}Поздравляем!!!{/size}"
 
-    old "{size=+14}You've reached the end of the first chapter!{/size}"
-    new "{size=+14}Вы дошли до конца первой главы!{/size}"
+    old "{size=+14}You've reached the end of the available content!{/size}"
+    new "{size=+14}Вы дошли до конца доступного контента!{/size}"
 
     old "{size=+14}The translation is not yet complete.{/size}"
     new "{size=+14}Перевод еще не завершен.{/size}"

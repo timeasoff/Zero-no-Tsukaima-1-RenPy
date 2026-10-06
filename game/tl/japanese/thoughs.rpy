@@ -559,3 +559,33 @@ translate japanese strings:
     old "She laughed... I guess talking about memories of Japan is what makes Haruna happiest."
     new "（あ、笑った。　やっぱり、日本の思い出を話してる時が、　春奈には一番楽しいのかな）"
 
+    old "What is Louise even saying... She's the one who dragged me into bed by force yesterday..."
+    new "（ルイズのやつ、なに言ってんだよ。　昨日、無理やり俺のことベッドに　引きずりこんだくせに……）"
+
+    old "What's more, both Louise and Siesta insisted on using my arm as a pillow..."
+    new "（しかも、ルイズも、シエスタも、　腕枕を要求してくるし……）"
+
+    old "As a result, my arm aches like crazy, but..."
+    new "（おかげで腕が痛くてしょうが　ないんだけど……）"
+
+    old "Huh? Everyone's looking at me with pity, aren't they..."
+    new "（あれ？　みんな哀れみの目で俺を見てるんだけど……）"
+
+    old "...Why is it that, even though they're both smiling, I feel something scary?"
+    new "（……なんでだろ？　２人とも笑顔なのに、　怖いものを感じるんだけど）"
+
+    old "Ever since Siesta and Haruna started coming to Louise's room, waiting outside while they change has become part of my routine."
+    new "（シエスタと春奈がルイズの部屋に来る　ようになってから、着替えの時間は　俺が外で待つことが日課になってしまった）"
+
+    old "What exactly was my position, when I used to help Louise dress..."
+    new "（今までルイズの着替えを手伝っていた　俺の立場は一体なんだったんだろう……）"
+
+    old "Whatever— he was probably summoned because Monmon found out he was fooling around, or something."
+    new "（どうせ、モンモンに浮気がばれたとか　なんとかで呼び出されたんだろ……）"
+
+    old "You've always got a few girls hanging around, haven't you?"
+    new "（お前は、いつも何人か女の子を　はべらしてるじゃねーか）"
+
+    old "Monmon said the very same thing, and then blabbed everything..."
+    new "（モンモンも同じことを言って、　べらべらしゃべってたんだが……）"
+

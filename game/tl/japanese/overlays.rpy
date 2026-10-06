@@ -144,10 +144,10 @@ translate japanese strings:
     new "ツンデレイベント発生"
 
     old "{size=+14}Congratulations!!!{/size}"
-    new "{size=+14}第1章の最後まで到達しました！{/size}"
+    new "{size=+14}おめでとうございます！！！{/size}"
 
-    old "{size=+14}You've reached the end of the first chapter!{/size}"
-    new "{size=+14}第1章の最後まで到達しました！{/size}"
+    old "{size=+14}You've reached the end of the available content!{/size}"
+    new "{size=+14}公開中のコンテンツの最後まで到達しました！{/size}"
 
     old "{size=+14}The translation is not yet complete.{/size}"
     new "{size=+14}翻訳はまだ完了していません。{/size}"
