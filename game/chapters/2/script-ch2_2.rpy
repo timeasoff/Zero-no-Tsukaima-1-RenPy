@@ -150,6 +150,8 @@ label l_room_ch2_2:
     # ==== SCENE 82 ====
     $ fade_fx("hallway", new_music="t10", sprites="s 1")
 
+    play sound knock_door
+    pause(1)
     voice "ch2.2_s_011"
     s "Haruna? It's me, Saito..."
     voice "ch2.2_ha_001"
