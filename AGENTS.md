@@ -346,6 +346,18 @@ python tools/media/audio_converter.py     # голоса wav_source → game/aud
 python tools/build_image_id_map.py        # пересборка справочника id картинок
 python tools/replace_bg_placeholders.py   # замена заглушек id(K) (по умолчанию dry-run)
 python tools/agent_workflow.py            # меню промптов/действий для агент-сессии (--list)
+
+# Pipeline проверки порта части/главы (оркестратор + механические проверки,
+# регламент и цифры — reports/pipeline_implementation.md):
+python tools/chapter_pipeline.py --chapter 2        # фазы с галочками, кэш, MD5-детект изменений
+                                                    # (--status / --reset / --phase; фазы перевода — ручные)
+python tools/check_renpy_syntax.py --chapter 2      # синтаксис Ren'Py (без --chapter — весь проект)
+python tools/check_typography.py --chapter 2 --lang ru  # типографика: «…» не «...», «ёлочки» в RU,
+                                                    # скобки-мысли; langs ru|en|ja; скоуп RU по главе
+python tools/check_placeholders.py --chapter 2      # id(K)-заглушки, TODO, пустые new "", filename
+python tools/check_assets.py --chapter 2            # .ogg/.png/звуки на месте + статистика по главе
+python tools/check_voice_transcriptions.py --chapter 2  # голоса vs очередь transcriptions_ja_ru.csv
+python tools/output_util.py                         # общий безопасный вывод (cp1251), лимит печати
 ```
 
 **Что какой пункт закрывает** (полнота инструкции по шагам порта):

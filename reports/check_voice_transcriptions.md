@@ -1,0 +1,1283 @@
+# Проверка озвучки по transcriptions_ja_ru.csv
+
+Дата: 2026-10-07 20:14
+
+## WARNING (1260)
+
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_un_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_un_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_un_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_un_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\0\script-ch0.rpy: VOICE_NOT_IN_MAP — Голос ch0_soldier_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_mage_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_mage_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_mage_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_mage_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_mage_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_039 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_063 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_040 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_041 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_042 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_043 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_039 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_044 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_040 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_045 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_041 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_046 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_042 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_047 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_043 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_048 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_044 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_049 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_045 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_050 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_046 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_d_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_051 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_047 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_052 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_048 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_053 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_056 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_053 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_057 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_058 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_059 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_054 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_060 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_055 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_061 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_056 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_062 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_049 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_064 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_054 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_050 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_051 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_s_055 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_1.rpy: VOICE_NOT_IN_MAP — Голос ch1_l_052 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_si_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_039 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_040 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_041 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_042 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_043 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_044 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_045 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_046 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_047 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_048 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_049 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_050 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_051 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_052 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_053 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_054 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_055 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_056 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_057 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_058 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_059 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_060 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_061 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_062 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_063 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_t_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_064 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_065 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_066 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_067 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_068 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_069 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_villager_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_villager_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_070 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_071 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_villager_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_villager_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_072 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_073 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_villager_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_villager_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_074 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_075 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_076 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_077 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_078 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_079 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_080 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_082 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_083 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_084 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_085 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_086 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_087 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_088 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_k_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_081 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_089 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_090 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_091 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_092 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_093 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_094 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_095 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_096 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_097 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_098 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_099 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_100 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_101-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_106 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_006-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_101 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_107 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_108 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_102 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_103 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_104 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_s_105 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_10.rpy: VOICE_NOT_IN_MAP — Голос ch1.10_ha_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_01 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_02 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_03 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_04 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_m_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_05 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_06 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_si_07 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_2.rpy: VOICE_NOT_IN_MAP — Голос ch1.2_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_si_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_039 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_040 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_041 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_042 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_043 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_044 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_045 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_046 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_049 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_050 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_051 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_052 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_053 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_054 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_055 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_047 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_048 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_m_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_3.rpy: VOICE_NOT_IN_MAP — Голос ch1.3_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_4.rpy: VOICE_NOT_IN_MAP — Голос ch1.4_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_d_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_001-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_002-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_003-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_s_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_5.rpy: VOICE_NOT_IN_MAP — Голос ch1.5_si_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_m_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_007-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_t_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_t_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_007-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_m_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_007-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_t_002-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_011-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_007-4 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_002-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_006-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_m_002-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_006-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_m_002-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_004-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_m_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_t_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_ha_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_si_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_k_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_027-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_l_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_6.rpy: VOICE_NOT_IN_MAP — Голос ch1.6_t_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_m_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_m_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_t_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_005-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_005-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_t_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_005-4 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_016-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_k_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_017-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_018-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_014-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_o_016-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_si_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_7.rpy: VOICE_NOT_IN_MAP — Голос ch1.7_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_m_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_g_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_009-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_010-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_002-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_012-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_003-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_013-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_002-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_012-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_003-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_013-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_014-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_t_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_039 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_040 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_041 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_042 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_043 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_044 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_k_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_045 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_046 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_047 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_048 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_049 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_050 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_051 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_052 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_053 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_054 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_055 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_056 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_057 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_058 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_059 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_060 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_061 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_062 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_063 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_066 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_067 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_068 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_069 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_070 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_ha_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_071 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_072 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_064 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_065 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_073 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_8.rpy: VOICE_NOT_IN_MAP — Голос ch1.8_s_074 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_ha_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_005-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_005-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_006-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_si_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_ha_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_m_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_ha_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_l_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_si_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_g_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_k_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unk_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unds_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unk_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unds_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unds_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unk_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\1\script-ch1_9.rpy: VOICE_NOT_IN_MAP — Голос ch1.9_unds_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_001 (id=10982) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_002 (id=10983) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_001 (id=14551) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_003 (id=10984) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_002 (id=14552) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_004 (id=10985) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_003 (id=14553) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_005 (id=10986) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_004 (id=14554) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_001 (id=5718) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_006 (id=10987) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_002 (id=5719) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_007 (id=10988) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_003 (id=5720) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_005 (id=14555) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_008 (id=10989) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_004 (id=5721) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_009 (id=10990) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_005 (id=5722) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_006 (id=14556) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_010 (id=10991) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_006 (id=5723) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_011 (id=10992) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_007 (id=14557) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_007 (id=5724) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_008 (id=14558) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_009 (id=14559) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_012 (id=10993) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_008 (id=5725) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_013 (id=10994) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_010 (id=14560) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_009 (id=5726) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_014 (id=10995) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_010 (id=5727) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_015 (id=10996) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_011 (id=5728) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_016 (id=10997) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_012 (id=5729) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_013 (id=5730) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_017 (id=10998) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_011 (id=14561) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_014 (id=5731) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_018 (id=10999) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_012 (id=14562) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_019 (id=11000) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_013 (id=14563) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_ha_001 (id=2084) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_015 (id=5732) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_ha_002 (id=2085) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_020 (id=11001) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_014 (id=14564) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_m_001 (id=4062) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_021 (id=11002) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_m_002 (id=4063) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_m_003 (id=4064) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_ha_003 (id=2086) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_m_004 (id=4065) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_ha_004 (id=2087) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_016 (id=5733) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_m_005 (id=4066) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_022 (id=11003) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_017 (id=5734) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_023 (id=11004) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_018 (id=5735) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_024 (id=11005) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_015 (id=14565) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_ha_005 (id=2088) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_m_006 (id=4067) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_025 (id=11006) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_019 (id=5736) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_si_016 (id=14566) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_020 (id=5737) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_026 (id=11007) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_027 (id=11008) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_021 (id=5738) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_028 (id=11009) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_001 (id=983) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_022 (id=5739) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_002 (id=984) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_023 (id=5740) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_003 (id=985) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_004 (id=986) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_k_001 (id=3145) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_005 (id=987) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_006 (id=988) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_007 (id=989) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_c_008 (id=990) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_029 (id=11010) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_024 (id=5741) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_030 (id=11011) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_031 (id=11012) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_025 (id=5742) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_032 (id=11013) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_026 (id=5743) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_033 (id=11014) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_034 (id=11015) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_027 (id=5744) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_035 (id=11016) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_028 (id=5745) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_036 (id=11017) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_037 (id=11018) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_l_029 (id=5746) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\2\script-ch2_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch2_s_038 (id=11019) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_001 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_002 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_003-2 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_003 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_004 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_003-3 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_008 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_009 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_010 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_011 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_005 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_006 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_007 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_012 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_013 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_014 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_015 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_016 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_017 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_018 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_019 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_020 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_032 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_033 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_031 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_021 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_022 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_023 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_024 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_025 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_026 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_027 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_028 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_030 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_029 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_034 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_037 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_035 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_038 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_l_036 не найден в voice_id_map.csv
+- [WARNING] game\chapters\extra\sp_l1.rpy: VOICE_NOT_IN_MAP — Голос sp_l1_s_039 не найден в voice_id_map.csv
+- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 103 использованных голосов всё ещё в очереди (первые 10: 10982, 10983, 10984, 10985, 10986, 10987, 10988, 10989, 10990, 10991)
+
+## INFO (1)
+
+- 103 id из манифеста есть в очереди CSV (строка не удалена/не помечена)
+
+## Статистика
+
+- manifest_ids_row_consumed: 1274
+- manifest_ids_row_in_queue: 103
+- manifest_pairs: 1377
+- transcriptions_consumed_rows: 1274
+- transcriptions_queue_rows: 13764
+- transcriptions_skipped_rows: 32
+- voices_used_in_scripts: 1377
+- voices_used_row_consumed: 1274
+- voices_used_row_still_in_queue: 103
+
