@@ -9,7 +9,10 @@
 - Отсутствующие транскрипции для используемых голосов
 
 Запуск:
-    python tools/check_voice_transcriptions.py [--chapter N] [--verbose]
+    python tools/check_voice_transcriptions.py [--chapter ЦЕЛЬ] [--verbose]
+
+ЦЕЛЬ (см. tools/targets.py):
+    2 | extra | 0 | 2_4b | 2_5* | script-ch2_5b.rpy | sp_l1 | game/chapters/2/script-ch2_4b.rpy
 """
 from __future__ import annotations
 
@@ -23,6 +26,7 @@ from typing import List, Optional, Dict, Set, Tuple
 
 sys.path.insert(0, str(Path(__file__).parent))
 from output_util import ensure_safe_output, print_items, normalize_severity  # noqa: E402
+from targets import resolve_target, TargetError  # noqa: E402
 
 
 @dataclass
@@ -128,8 +132,11 @@ class VoiceTranscriptionChecker:
         """Проверить голоса в главе."""
         if not chapter_dir.exists():
             return
+        self.check_files(chapter_dir.glob("*.rpy"))
 
-        for rpy_file in sorted(chapter_dir.glob("*.rpy")):
+    def check_files(self, files) -> None:
+        """Проверить голоса в конкретных файлах (глава/часть/имя файла)."""
+        for rpy_file in sorted(files):
             rel_path = rpy_file.relative_to(self.root)
             try:
                 content = rpy_file.read_text(encoding="utf-8")
@@ -210,11 +217,21 @@ class VoiceTranscriptionChecker:
                 "(строка не удалена/не помечена)"
             )
 
-    def run(self, chapter: Optional[int] = None) -> VoiceResult:
-        """Запустить проверки."""
+    def run(self, chapter: Optional[str] = None) -> VoiceResult:
+        """Запустить проверки.
+
+        chapter — цель: номер главы ('2'), часть ('2_4b'), имя файла
+        ('script-ch2_5b.rpy', 'sp_l1'), папка ('extra'); None = весь проект.
+        """
         if chapter is not None:
-            chapter_dir = self.root / "game" / "chapters" / str(chapter)
-            self.check_chapter(chapter_dir)
+            try:
+                target = resolve_target(self.root, chapter)
+            except TargetError as e:
+                self.result.errors.append(VoiceError(
+                    "target", "BAD_TARGET", str(e)
+                ))
+                return self.result
+            self.check_files(target.files)
         else:
             self.check_all_chapters()
 
@@ -225,7 +242,8 @@ class VoiceTranscriptionChecker:
 def main() -> int:
     ensure_safe_output()
     parser = argparse.ArgumentParser(description="Проверка озвучки по транскрипциям")
-    parser.add_argument("--chapter", type=int, help="Проверить только главу N")
+    parser.add_argument("--chapter", type=str,
+                        help="Цель: 2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1 (пусто = весь проект)")
     parser.add_argument("--verbose", "-v", action="store_true", help="Подробный вывод")
     parser.add_argument("--no-report", action="store_true", help="Не писать отчёт")
     args = parser.parse_args()

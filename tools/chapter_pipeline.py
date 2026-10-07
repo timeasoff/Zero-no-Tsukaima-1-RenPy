@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Пошаговый pipeline проверки главы для проекта ZnT1.
+Пошаговый pipeline проверки главы/части/файла для проекта ZnT1.
 
 Отображает фазы проверки с галочками (как в agent_workflow.py):
 - Механические проверки (синтаксис, типографика, заглушки, ассеты)
@@ -8,13 +8,30 @@
 - Проверка русского перевода (RU)
 - Финальная сводка
 
+Цель (--chapter) — гибкая, см. tools/targets.py:
+    2                          — вся глава (папка game/chapters/2/)
+    extra                      — вся папка extra (sp_l1.rpy)
+    0                          — пролог (script-ch0.rpy)
+    2_4b                       — часть 4b главы 2 (script-ch2_4b.rpy)
+    2_4                        — часть 4 главы 2 (script-ch2_4.rpy)
+    2_5*                       — все части с префиксом 5
+    script-ch2_5b.rpy          — полное имя файла (по всем папкам глав)
+    sp_l1 / sp_l1.rpy          — файл в extra
+    game/chapters/2/script-ch2_4b.rpy — путь от корня проекта
+
 Учитывает:
 - Неполные главы (можно проверять на любом этапе)
 - Повторные проверки (инкрементальность — показывает что изменилось)
 - Кэширование результатов (не проверяет то, что уже проверено)
+- Состояние ключится по разрешённой цели (key), файлы — по MD5 цели
 
 Запуск:
-    python tools/chapter_pipeline.py [--chapter N] [--phase P] [--reset]
+    python tools/chapter_pipeline.py --chapter 2
+    python tools/chapter_pipeline.py --chapter 2_4b
+    python tools/chapter_pipeline.py --chapter script-ch2_5b.rpy
+    python tools/chapter_pipeline.py --chapter sp_l1
+    python tools/chapter_pipeline.py --chapter extra
+    python tools/chapter_pipeline.py --chapter 2 [--phase P] [--reset] [--status]
 """
 from __future__ import annotations
 
@@ -27,10 +44,11 @@ import sys
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import List, Optional, Dict, Tuple
+from typing import Dict, List, Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
-from output_util import ensure_safe_output  # noqa: E402
+from output_util import ensure_safe_output, safe_print  # noqa: E402
+from targets import resolve_target, TargetError, ResolvedTarget  # noqa: E402
 
 
 # ============================================================================
@@ -52,6 +70,8 @@ PHASES = [
     ("ru_translation", "Перевод RU", "prompts/check_ru_translation.md"),
     ("summary", "Финальная сводка", None),
 ]
+
+PHASE_TITLES = {p[0]: p[1] for p in PHASES}
 
 
 @dataclass
@@ -82,14 +102,14 @@ class PhaseResult:
 
 @dataclass
 class PipelineState:
-    chapter: int
+    target: str = ""
     phase_results: Dict[str, PhaseResult] = field(default_factory=dict)
     last_run: Optional[str] = None
     file_hashes: Dict[str, str] = field(default_factory=dict)
 
     def to_dict(self) -> dict:
         return {
-            "chapter": self.chapter,
+            "target": self.target,
             "phase_results": {k: v.to_dict() for k, v in self.phase_results.items()},
             "last_run": self.last_run,
             "file_hashes": self.file_hashes,
@@ -97,7 +117,11 @@ class PipelineState:
 
     @classmethod
     def from_dict(cls, data: dict) -> "PipelineState":
-        state = cls(chapter=data["chapter"])
+        # Поле называлось chapter до перехода на строковые цели — принимаем оба.
+        tgt = data.get("target")
+        if tgt is None:
+            tgt = str(data.get("chapter") or "")
+        state = cls(target=tgt)
         state.phase_results = {
             k: PhaseResult.from_dict(v) for k, v in data.get("phase_results", {}).items()
         }
@@ -120,7 +144,7 @@ def clear_screen() -> None:
     if sys.platform == "win32":
         os.system("cls")
     else:
-        print("\033[2J\033[H", end="")
+        print("\033[2J\033[1;1H", end="")
 
 
 def compute_file_hash(filepath: Path) -> str:
@@ -132,48 +156,44 @@ def compute_file_hash(filepath: Path) -> str:
         return ""
 
 
-def get_chapter_files(chapter: int) -> List[Path]:
-    """Получить список файлов главы."""
-    chapter_dir = ROOT / "game" / "chapters" / str(chapter)
-    if not chapter_dir.exists():
-        return []
-    return sorted(chapter_dir.glob("*.rpy"))
-
-
-def get_tl_files(lang: str) -> List[Path]:
-    """Получить список файлов переводов."""
-    tl_dir = ROOT / "game" / "tl" / lang
-    if not tl_dir.exists():
-        return []
-    return sorted(tl_dir.rglob("*.rpy"))
-
-
-def load_state() -> Dict[int, PipelineState]:
-    """Загрузить состояние pipeline."""
+def load_state() -> Dict[str, PipelineState]:
+    """Загрузить состояние pipeline (ключи — строковые цели)."""
     if not PIPELINE_STATE_FILE.exists():
         return {}
     try:
         with open(PIPELINE_STATE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return {int(k): PipelineState.from_dict(v) for k, v in data.items()}
-    except (json.JSONDecodeError, KeyError):
+        return {str(k): PipelineState.from_dict(v) for k, v in data.items()}
+    except (json.JSONDecodeError, KeyError, TypeError):
         return {}
 
 
-def save_state(states: Dict[int, PipelineState]) -> None:
+def save_state(states: Dict[str, PipelineState]) -> None:
     """Сохранить состояние pipeline."""
     PIPELINE_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(PIPELINE_STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump({str(k): v.to_dict() for k, v in states.items()}, f, ensure_ascii=False, indent=2)
+        json.dump({str(k): v.to_dict() for k, v in states.items()},
+                  f, ensure_ascii=False, indent=2)
+
+
+def file_list_line(target: ResolvedTarget) -> str:
+    """Строка со списком файлов цели (ASCII)."""
+    files = [f.relative_to(ROOT).as_posix() for f in target.files]
+    if not files:
+        return "(no .rpy files)"
+    shown = ", ".join(files[:8])
+    if len(files) > 8:
+        shown += f", ... ({len(files)} total)"
+    return shown
 
 
 # ============================================================================
 # ВЫПОЛНЕНИЕ ФАЗ
 # ============================================================================
 
-def run_mechanical_phase(phase_name: str, script: str, chapter: int) -> PhaseResult:
-    """Запустить механическую фазу."""
-    result = PhaseResult(name=phase_name, title=dict((p[0], p[1]) for p in PHASES)[phase_name])
+def run_mechanical_phase(phase_name: str, script: str, target_raw: str) -> PhaseResult:
+    """Запустить механическую фазу по цели (--chapter передаётся как строка)."""
+    result = PhaseResult(name=phase_name, title=PHASE_TITLES[phase_name])
     result.status = "running"
     result.timestamp = datetime.now().isoformat()
 
@@ -181,7 +201,7 @@ def run_mechanical_phase(phase_name: str, script: str, chapter: int) -> PhaseRes
     cmd = [sys.executable, str(ROOT / "tools" / script.split()[0])]
     if "--lang" in script:
         cmd.extend(["--lang", script.split("--lang")[1].strip()])
-    cmd.extend(["--chapter", str(chapter)])
+    cmd.extend(["--chapter", target_raw])
 
     try:
         process = subprocess.run(
@@ -214,15 +234,15 @@ def run_mechanical_phase(phase_name: str, script: str, chapter: int) -> PhaseRes
     return result
 
 
-def run_translation_phase(phase_name: str, prompt_file: str, chapter: int) -> PhaseResult:
+def run_translation_phase(phase_name: str, prompt_file: str) -> PhaseResult:
     """Фазу перевода выполняет агент (LLM) — здесь только отображение."""
-    result = PhaseResult(name=phase_name, title=dict((p[0], p[1]) for p in PHASES)[phase_name])
+    result = PhaseResult(name=phase_name, title=PHASE_TITLES[phase_name])
     result.status = "pending"
     result.message = f"Требуется ручная проверка: {prompt_file}"
     return result
 
 
-def run_summary_phase(chapter: int, state: PipelineState) -> PhaseResult:
+def run_summary_phase(state: PipelineState) -> PhaseResult:
     """Финальная сводка."""
     result = PhaseResult(name="summary", title="Финальная сводка")
     result.status = "done"
@@ -243,10 +263,11 @@ def run_summary_phase(chapter: int, state: PipelineState) -> PhaseResult:
 # ОТОБРАЖЕНИЕ
 # ============================================================================
 
-def print_pipeline_header(chapter: int) -> None:
+def print_pipeline_header(target: ResolvedTarget) -> None:
     print()
     separator("=")
-    print(f"  Pipeline проверки главы {chapter}")
+    print(f"  Pipeline проверки: {target.label}")
+    print(f"  Файлы ({len(target.files)}): {file_list_line(target)}")
     separator("=")
     print()
 
@@ -302,22 +323,29 @@ def print_phase_details(result: PhaseResult) -> None:
 # ОСНОВНОЙ ЦИКЛ
 # ============================================================================
 
-def run_pipeline(chapter: int, start_phase: Optional[str] = None, reset: bool = False) -> None:
-    """Запустить pipeline."""
+def run_pipeline(target_raw: str, start_phase: Optional[str] = None,
+                 reset: bool = False) -> int:
+    """Запустить pipeline по цели. Возвращает код выхода."""
+    try:
+        target = resolve_target(ROOT, target_raw)
+    except TargetError as e:
+        safe_print(f"ERROR: {e}")
+        return 1
+
+    key = target.key
     states = load_state()
-    state = states.get(chapter, PipelineState(chapter=chapter))
+    state = states.get(key, PipelineState(target=key))
 
     if reset:
-        state = PipelineState(chapter=chapter)
+        state = PipelineState(target=key)
 
-    # Проверяем изменение файлов
-    chapter_files = get_chapter_files(chapter)
-    current_hashes = {str(f): compute_file_hash(f) for f in chapter_files}
+    # Проверяем изменение файлов ЦЕЛИ (часть/файл/глава)
+    current_hashes = {str(f): compute_file_hash(f) for f in target.files}
     files_changed = current_hashes != state.file_hashes
 
     if files_changed and not reset:
         print()
-        print("  [!] Файлы главы изменились с момента последней проверки.")
+        print("  [!] Файлы цели изменились с момента последней проверки.")
         print("      Рекомендуется повторить механические проверки.")
         print()
 
@@ -330,7 +358,7 @@ def run_pipeline(chapter: int, start_phase: Optional[str] = None, reset: bool = 
         start_idx = phase_names.index(start_phase)
 
     # Выводим статус
-    print_pipeline_header(chapter)
+    print_pipeline_header(target)
     print_phase_status(state)
 
     # Выполняем фазы
@@ -352,10 +380,10 @@ def run_pipeline(chapter: int, start_phase: Optional[str] = None, reset: bool = 
 
         if script is None:
             # Финальная сводка
-            result = run_summary_phase(chapter, state)
+            result = run_summary_phase(state)
         elif name in ("en_translation", "ru_translation"):
             # Фазы перевода — выполняет агент (LLM)/редактор по промпту
-            result = run_translation_phase(name, script, chapter)
+            result = run_translation_phase(name, script)
             print(f"  Требуется ручная проверка по промпту:")
             print(f"  {script}")
             print()
@@ -375,25 +403,25 @@ def run_pipeline(chapter: int, start_phase: Optional[str] = None, reset: bool = 
                 result.message = f"Ожидает ручной проверки: {script}"
                 print("  Неинтерактивный запуск — фаза осталась pending.")
                 print("  Повторный запуск с терминала отметит её выполненной.")
-                states[chapter] = state
+                states[key] = state
                 state.phase_results[name] = result
                 save_state(states)
                 continue
         else:
-            # Механические фазы
-            result = run_mechanical_phase(name, script, chapter)
+            # Механические фазы: --chapter передаётся ИСХОДНОЙ целью пользователя
+            result = run_mechanical_phase(name, script, target_raw)
             print_phase_details(result)
 
         state.phase_results[name] = result
         state.last_run = datetime.now().isoformat()
 
         # Сохраняем состояние
-        states[chapter] = state
+        states[key] = state
         save_state(states)
 
         # Обновляем отображение
         clear_screen()
-        print_pipeline_header(chapter)
+        print_pipeline_header(target)
         print_phase_status(state, name)
 
     # Финальная сводка
@@ -404,12 +432,15 @@ def run_pipeline(chapter: int, start_phase: Optional[str] = None, reset: bool = 
     print()
     print_phase_status(state)
     print()
+    return 0
 
 
 def main() -> int:
     ensure_safe_output()
-    parser = argparse.ArgumentParser(description="Pipeline проверки главы")
-    parser.add_argument("--chapter", "-c", type=int, required=True, help="Номер главы")
+    parser = argparse.ArgumentParser(description="Pipeline проверки главы/части/файла")
+    parser.add_argument("--chapter", "-c", required=True,
+                        help="Цель: 2 | extra | 0 | 2_4b | 2_5* | "
+                             "script-ch2_5b.rpy | sp_l1 | путь от корня")
     parser.add_argument("--phase", "-p", choices=[p[0] for p in PHASES],
                         help="Начать с фазы")
     parser.add_argument("--reset", action="store_true", help="Сбросить состояние")
@@ -417,14 +448,18 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.status:
+        try:
+            target = resolve_target(ROOT, args.chapter)
+        except TargetError as e:
+            safe_print(f"ERROR: {e}")
+            return 1
         states = load_state()
-        state = states.get(args.chapter, PipelineState(chapter=args.chapter))
-        print_pipeline_header(args.chapter)
+        state = states.get(target.key, PipelineState(target=target.key))
+        print_pipeline_header(target)
         print_phase_status(state)
         return 0
 
-    run_pipeline(args.chapter, args.phase, args.reset)
-    return 0
+    return run_pipeline(args.chapter, args.phase, args.reset)
 
 
 if __name__ == "__main__":

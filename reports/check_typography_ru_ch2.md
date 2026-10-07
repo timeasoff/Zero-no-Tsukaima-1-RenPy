@@ -1,8 +1,8 @@
 # Проверка типографики (ru)
 
-Дата: 2026-10-07 20:11
+Дата: 2026-10-07 20:49
 
-Область: глава 2
+Область: 2 (11 файлов)
 
 ## ERROR (27)
 
@@ -36,9 +36,9 @@
 
 ## WARNING (3)
 
-- [ERROR] game\tl\russian\dialogs.rpy:5195: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Я не расслабляюсь. Бой может случиться в любую мин
-- [ERROR] game\tl\russian\dialogs.rpy:5246: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Похоже, здесь особого ущерба нет. ...Эй, тут Табит
-- [ERROR] game\tl\russian\dialogs.rpy:5408: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Да. ...Те, кто преследовал тебя вчера, проникли в 
+- [WARNING] game\tl\russian\dialogs.rpy:5195: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Я не расслабляюсь. Бой может случиться в любую мин
+- [WARNING] game\tl\russian\dialogs.rpy:5246: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Похоже, здесь особого ущерба нет. ...Эй, тут Табит
+- [WARNING] game\tl\russian\dialogs.rpy:5408: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Да. ...Те, кто преследовал тебя вчера, проникли в 
 
 ## INFO
 

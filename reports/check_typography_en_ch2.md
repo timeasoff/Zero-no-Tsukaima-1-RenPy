@@ -1,8 +1,8 @@
 # Проверка типографики (en)
 
-Дата: 2026-10-07 20:11
+Дата: 2026-10-07 20:49
 
-Область: глава 2
+Область: 2 (11 файлов)
 
 ## ERROR (426)
 
@@ -435,15 +435,15 @@
 
 ## WARNING (9)
 
-- [ERROR] game\chapters\2\script-ch2_1.rpy:214: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Ah, Haruna-san... ...Oh?
-- [ERROR] game\chapters\2\script-ch2_2.rpy:367: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: 'No guts' was uncalled for. ...Anyway, that's how 
-- [ERROR] game\chapters\2\script-ch2_3.rpy:61: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Huh, what? ...Ah!
-- [ERROR] game\chapters\2\script-ch2_3.rpy:229: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Good grief, is this part of a familiar's job too? 
-- [ERROR] game\chapters\2\script-ch2_3.rpy:379: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Hey, partner. ...Looks like we've got a new guest.
-- [ERROR] game\chapters\2\script-ch2_4.rpy:245: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: I'm not. ...Honestly.
-- [ERROR] game\chapters\2\script-ch2_4c.rpy:98: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: I never let my guard down. A fight can happen anyt
-- [ERROR] game\chapters\2\script-ch2_4c.rpy:171: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Looks like there's no particular damage here. ...H
-- [ERROR] game\chapters\2\script-ch2_4c.rpy:382: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Yeah. ...Those guys who came after you yesterday —
+- [WARNING] game\chapters\2\script-ch2_1.rpy:214: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Ah, Haruna-san... ...Oh?
+- [WARNING] game\chapters\2\script-ch2_2.rpy:367: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: 'No guts' was uncalled for. ...Anyway, that's how 
+- [WARNING] game\chapters\2\script-ch2_3.rpy:61: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Huh, what? ...Ah!
+- [WARNING] game\chapters\2\script-ch2_3.rpy:229: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Good grief, is this part of a familiar's job too? 
+- [WARNING] game\chapters\2\script-ch2_3.rpy:379: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Hey, partner. ...Looks like we've got a new guest.
+- [WARNING] game\chapters\2\script-ch2_4.rpy:245: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: I'm not. ...Honestly.
+- [WARNING] game\chapters\2\script-ch2_4c.rpy:98: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: I never let my guard down. A fight can happen anyt
+- [WARNING] game\chapters\2\script-ch2_4c.rpy:171: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Looks like there's no particular damage here. ...H
+- [WARNING] game\chapters\2\script-ch2_4c.rpy:382: SPACE_BEFORE_PUNCT — Пробел перед знаком препинания: Yeah. ...Those guys who came after you yesterday —
 
 ## STATS
 

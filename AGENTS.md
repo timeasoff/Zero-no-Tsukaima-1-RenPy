@@ -348,9 +348,10 @@ python tools/replace_bg_placeholders.py   # замена заглушек id(K) 
 python tools/agent_workflow.py            # меню промптов/действий для агент-сессии (--list)
 
 # Pipeline проверки порта части/главы (оркестратор + механические проверки,
-# регламент и цифры — reports/pipeline_implementation.md):
+# регламент и цифры — reports/pipeline_implementation.md; цели — tools/targets.py):
 python tools/chapter_pipeline.py --chapter 2        # фазы с галочками, кэш, MD5-детект изменений
                                                     # (--status / --reset / --phase; фазы перевода — ручные)
+                                                    # Цель: 2 | extra | 2_4b | 2_5* | script-ch2_5b.rpy | sp_l1
 python tools/check_renpy_syntax.py --chapter 2      # синтаксис Ren'Py (без --chapter — весь проект)
 python tools/check_typography.py --chapter 2 --lang ru  # типографика: «…» не «...», «ёлочки» в RU,
                                                     # скобки-мысли; langs ru|en|ja; скоуп RU по главе

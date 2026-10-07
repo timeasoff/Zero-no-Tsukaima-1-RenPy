@@ -16,7 +16,10 @@
 - DOUBLE_SPACE / SPACE_BEFORE_PUNCT: предупреждения
 
 Запуск:
-    python tools/check_typography.py [--chapter N] [--lang ru|en|ja] [--verbose]
+    python tools/check_typography.py [--chapter ЦЕЛЬ] [--lang ru|en|ja] [--verbose]
+
+ЦЕЛЬ (см. tools/targets.py):
+    2 | extra | 0 | 2_4b | 2_5* | script-ch2_5b.rpy | sp_l1 | game/chapters/2/script-ch2_4b.rpy
 """
 from __future__ import annotations
 
@@ -29,6 +32,7 @@ from typing import Dict, List, Optional, Set
 
 sys.path.insert(0, str(Path(__file__).parent))
 from output_util import ensure_safe_output, safe_print, print_items, normalize_severity  # noqa: E402
+from targets import resolve_target, TargetError  # noqa: E402
 
 # Read-only файлы tl (AGENTS.md, раздел «Инфраструктура») — из проверок исключены.
 READONLY_TL_FILES = {"common.rpy"}
@@ -168,15 +172,12 @@ class TypographyChecker:
                 ))
 
     # ------------------------------------------------------------------
-    # Сбор EN-текстов главы (для скоупинга RU по главе)
+    # Сбор EN-текстов цели (для скоупинга RU по главе/части)
     # ------------------------------------------------------------------
 
-    def _chapter_en_texts(self, chapter: int) -> Set[str]:
+    def _files_en_texts(self, files: List[Path]) -> Set[str]:
         texts: Set[str] = set()
-        chapter_dir = self.root / "game" / "chapters" / str(chapter)
-        if not chapter_dir.exists():
-            return texts
-        for rpy in sorted(chapter_dir.glob("*.rpy")):
+        for rpy in files:
             try:
                 content = rpy.read_text(encoding="utf-8")
             except UnicodeDecodeError:
@@ -198,14 +199,15 @@ class TypographyChecker:
         return [f for f in sorted(tl_dir.rglob("*.rpy"))
                 if f.name not in READONLY_TL_FILES]
 
-    def _chapter_files(self, chapter: Optional[int]) -> List[Path]:
+    def _chapter_files(self, chapter: Optional[str]) -> List[Path]:
+        """Файлы цели (целая глава/часть/имя файла); None = все главы."""
         chapters_dir = self.root / "game" / "chapters"
         if not chapters_dir.exists():
             return []
         if chapter is not None:
-            dirs = [chapters_dir / str(chapter)]
-        else:
-            dirs = [d for d in sorted(chapters_dir.iterdir()) if d.is_dir()]
+            target = resolve_target(self.root, chapter)
+            return target.files
+        dirs = [d for d in sorted(chapters_dir.iterdir()) if d.is_dir()]
         files: List[Path] = []
         for d in dirs:
             if d.exists():
@@ -216,9 +218,10 @@ class TypographyChecker:
     # Режимы
     # ------------------------------------------------------------------
 
-    def check_russian(self, chapter: Optional[int]) -> None:
-        """RU: строки new в game/tl/russian (скоуп по главе через old)."""
-        en_texts = self._chapter_en_texts(chapter) if chapter is not None else None
+    def check_russian(self, chapter: Optional[str]) -> None:
+        """RU: строки new в game/tl/russian (скоуп по цели через old)."""
+        en_texts = (self._files_en_texts(self._target_files)
+                    if self._target_files is not None else None)
         checked = 0
         scoped_out = 0
         pending_old: Optional[str] = None
@@ -255,10 +258,11 @@ class TypographyChecker:
                 f"RU: проверено {checked} строк new, вне главы {chapter}: {scoped_out}"
             )
 
-    def check_english(self, chapter: Optional[int]) -> None:
-        """EN: текстовые строки в game/chapters/**."""
+    def check_english(self, chapter: Optional[str]) -> None:
+        """EN: текстовые строки в game/chapters/** (по цели)."""
         checked = 0
-        for f in self._chapter_files(chapter):
+        files = self._target_files if self._target_files is not None else self._chapter_files(None)
+        for f in files:
             rel = str(f.relative_to(self.root))
             try:
                 content = f.read_text(encoding="utf-8")
@@ -276,8 +280,9 @@ class TypographyChecker:
 
         self.result.stats["en_strings_checked"] = checked
 
-    def check_japanese(self, chapter: Optional[int]) -> None:
+    def check_japanese(self, chapter: Optional[str]) -> None:
         """JA: строки new в game/tl/japanese — дословный источник, только INFO."""
+        _ = chapter  # JA не скоупится по главе
         dots = 0
         checked = 0
         for f in self._tl_files("ja"):
@@ -304,7 +309,14 @@ class TypographyChecker:
 
     # ------------------------------------------------------------------
 
-    def run(self, chapter: Optional[int] = None, lang: str = "ru") -> TypoResult:
+    def run(self, chapter: Optional[str] = None, lang: str = "ru") -> TypoResult:
+        self._target_files: Optional[List[Path]] = None
+        if chapter is not None:
+            try:
+                self._target_files = resolve_target(self.root, chapter).files
+            except TargetError as e:
+                self.result.errors.append(TypoError("target", 0, "BAD_TARGET", str(e)))
+                return self.result
         if lang == "ru":
             self.check_russian(chapter)
         elif lang == "en":
@@ -317,7 +329,8 @@ class TypographyChecker:
 def main() -> int:
     ensure_safe_output()
     parser = argparse.ArgumentParser(description="Проверка типографики")
-    parser.add_argument("--chapter", type=int, help="Проверить только главу N")
+    parser.add_argument("--chapter", type=str,
+                        help="Цель: 2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1 (пусто = весь проект)")
     parser.add_argument("--lang", choices=["ru", "en", "ja"], default="ru",
                         help="Язык проверки (по умолчанию ru)")
     parser.add_argument("--verbose", "-v", action="store_true", help="Подробный вывод")
@@ -330,7 +343,7 @@ def main() -> int:
     normalize_severity(result)
 
     safe_print("=" * 60)
-    scope = f", chapter={args.chapter}" if args.chapter else ""
+    scope = f", target={args.chapter}" if args.chapter else ""
     safe_print(f"Проверка типографики (lang={args.lang}{scope})")
     safe_print("=" * 60)
 
@@ -360,14 +373,23 @@ def main() -> int:
         safe_print(f"\nERRORS: {len(result.errors)} error(s), {len(result.warnings)} warning(s)")
 
     if not args.no_report:
-        suffix = f"_ch{args.chapter}" if args.chapter else ""
+        suffix = ""
+        scope_line = ""
+        if args.chapter:
+            try:
+                t = resolve_target(root, args.chapter)
+                key = re.sub(r"[^A-Za-z0-9._-]", "_", t.key)
+                suffix = f"_ch{key}"
+                scope_line = f"Область: {args.chapter} ({len(t.files)} файлов)\n\n"
+            except TargetError:
+                suffix = "_ch_badtarget"
         report_path = root / "reports" / f"check_typography_{args.lang}{suffix}.md"
         report_path.parent.mkdir(parents=True, exist_ok=True)
         with open(report_path, "w", encoding="utf-8") as f:
             f.write(f"# Проверка типографики ({args.lang})\n\n")
             f.write(f"Дата: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
-            if args.chapter:
-                f.write(f"Область: глава {args.chapter}\n\n")
+            if scope_line:
+                f.write(scope_line)
             if result.errors:
                 f.write(f"## ERROR ({len(result.errors)})\n\n")
                 for e in result.errors:

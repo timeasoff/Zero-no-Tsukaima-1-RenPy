@@ -24,9 +24,10 @@ Ren'Py-ремастер: механические линт-скрипты, пр�
 | `check_voice_transcriptions.py` | Озвучка | пары `voice_name ↔ voice_id` из манифеста, строки очереди CSV (помечено/не помечено), id-статистика |
 | `output_util.py` | Общий вывод | `ensure_safe_output` (cp1251 — печать не падает), `print_items` (лимит 20 на коллекцию), `normalize_severity` |
 
-Общий интерфейс: `--chapter N` (нет аргумента = весь проект), `--no-report`,
+Общий интерфейс: `--chapter ЦЕЛЬ` (2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1;
+нет аргумента = весь проект; разрешение целей — `tools/targets.py`), `--no-report`,
 `--verbose`; полные результаты — UTF-8 отчёты `reports/check_*.md`
-(типографика по главам — `check_typography_{ru,en}_ch<N>.md`).
+(типографика по целям — `check_typography_{ru,en}_ch<key>.md`).
 
 ### 2. Промпты ревью переводов (`prompts/`)
 
@@ -41,29 +42,52 @@ Ren'Py-ремастер: механические линт-скрипты, пр�
   ревью EN (ручная) → ревью RU (ручная) → итоговая сводка.
 - Галочки `[x]`/`[!]`/`[>]`/`[ ]` + сообщение фазы; `--status`, `--reset`, `--phase`,
   `--chapter`.
-- Кэш: `reports/pipeline_state.json` (состояние фаз + MD5 всех `.rpy` главы).
-  Файлы изменились → `[!] Файлы главы изменились…` и перепрогон механических фаз;
+- **Гибкая цель `--chapter`** (общий резолвер `tools/targets.py`):
+  - `2` — вся глава (папка `game/chapters/2/`);
+  - `extra` — вся нецифровая папка (`game/chapters/extra/`);
+  - `2_4b` / `2_4` — часть главы: точный файл `script-ch2_4b.rpy` / `script-ch2_4.rpy`
+    (буквенный суффикс части указывается явно);
+  - `2_5*` — все части с префиксом `5` (`script-ch2_5.rpy` + `script-ch2_5b.rpy` + …);
+  - `script-ch2_5b.rpy` / `script-ch2_5b` — полное имя файла (поиск по всем папкам глав);
+  - `sp_l1` / `sp_l1.rpy` — файл в `extra`;
+  - `game/chapters/2/script-ch2_4b.rpy` — путь от корня проекта.
+  Неточная цель не молчит: `2_9` → ошибка со списком доступных частей главы.
+- Состояние ключится по каноническому `key` цели (`2`, `2_4b`, `extra`, …), файлы —
+  по MD5 **файлов цели** (часть можно проверять, не задевая кэш других частей;
+  `script-ch2_4b.rpy` и `2_4b` — один и тот же кэш). Старый кэш главы 2 сохранён.
+- Кэш: `reports/pipeline_state.json` (состояние фаз + MD5 `.rpy` цели).
+  Файлы изменились → `[!] Файлы цели изменились…` и перепрогон механических фаз;
   не менялись → «Пропуск: … (уже выполнено)».
 - Фазы перевода — ручные: в интерактивном терминале ждут Enter (→ `done`), в
   неинтерактивном остаются `pending` и не блокируют остальное.
-- Дочерние скрипты запускаются с `PYTHONIOENCODING=utf-8`; stdout фазы (обрезанный до
-  8000 символов) сохраняется в state для просмотра деталей.
+- Дочерние скрипты запускаются с исходной целью пользователя (`--chapter <raw>`),
+  с `PYTHONIOENCODING=utf-8`; stdout фазы (обрезанный до 8000 символов) сохраняется
+  в state для просмотра деталей.
 
 ## Запуск
 
 ```powershell
-# Полный pipeline по главе 2 (статусы + сводки)
-python tools/chapter_pipeline.py --chapter 2
+# Полный pipeline: глава целиком / часть / файл / extra
+python tools/chapter_pipeline.py --chapter 2            # вся глава 2 (папка)
+python tools/chapter_pipeline.py --chapter 2_4b         # часть 4b главы 2
+python tools/chapter_pipeline.py --chapter 2_5*         # части с префиксом 5 (5+5b+…)
+python tools/chapter_pipeline.py --chapter script-ch2_5b.rpy  # полное имя файла
+python tools/chapter_pipeline.py --chapter sp_l1        # файл в extra
+python tools/chapter_pipeline.py --chapter extra        # вся папка extra
 python tools/chapter_pipeline.py --chapter 2 --status   # только статус фаз
-python tools/chapter_pipeline.py --chapter 2 --reset    # сбросить кэш главы
+python tools/chapter_pipeline.py --chapter 2 --reset    # сбросить кэш цели
 
-# Отдельные проверки
-python tools/check_renpy_syntax.py --chapter 2
-python tools/check_typography.py --chapter 2 --lang ru   # ru|en|ja
-python tools/check_placeholders.py --chapter 2
-python tools/check_assets.py --chapter 2
-python tools/check_voice_transcriptions.py --chapter 2
+# Все формы целей работают и в отдельных проверках (tools/targets.py)
+python tools/check_renpy_syntax.py --chapter 2_4b
+python tools/check_typography.py --chapter 2_4b --lang ru   # ru|en|ja
+python tools/check_placeholders.py --chapter sp_l1
+python tools/check_assets.py --chapter extra
+python tools/check_voice_transcriptions.py --chapter 2_4b
 ```
+
+Отчёты типографики именуются по разрешённой цели:
+`check_typography_{ru,en}_ch<N>.md` для главы, `…_ch2_4b.md` для части,
+`…_chextra.md` для extra (части не перезаписывают отчёт главы).
 
 ## Результаты тестов
 

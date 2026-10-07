@@ -10,7 +10,10 @@
 - Статистику по использованию ассетов
 
 Запуск:
-    python tools/check_assets.py [--chapter N] [--verbose]
+    python tools/check_assets.py [--chapter ЦЕЛЬ] [--verbose]
+
+ЦЕЛЬ (см. tools/targets.py):
+    2 | extra | 0 | 2_4b | 2_5* | script-ch2_5b.rpy | sp_l1 | game/chapters/2/script-ch2_4b.rpy
 """
 from __future__ import annotations
 
@@ -24,6 +27,7 @@ from typing import List, Optional, Dict, Set, Tuple
 
 sys.path.insert(0, str(Path(__file__).parent))
 from output_util import ensure_safe_output, print_items, normalize_severity  # noqa: E402
+from targets import resolve_target, TargetError  # noqa: E402
 
 
 @dataclass
@@ -133,11 +137,14 @@ class AssetChecker:
         """Проверить ассеты в главе."""
         if not chapter_dir.exists():
             return
+        self.check_files(chapter_dir.glob("*.rpy"), chapter_dir.name)
 
+    def check_files(self, files, dirname: Optional[str] = None) -> None:
+        """Проверить ассеты в конкретных файлах (глава/часть/имя файла)."""
         chapter_voices: Set[str] = set()
         chapter_images: Set[str] = set()
 
-        for rpy_file in sorted(chapter_dir.glob("*.rpy")):
+        for rpy_file in sorted(files):
             rel_path = rpy_file.relative_to(self.root)
             try:
                 content = rpy_file.read_text(encoding="utf-8")
@@ -157,8 +164,9 @@ class AssetChecker:
                     chapter_images.add(image_name)
 
         # Обновляем статистику
-        self.result.stats[f"chapter_{chapter_dir.name}_voices"] = len(chapter_voices)
-        self.result.stats[f"chapter_{chapter_dir.name}_images"] = len(chapter_images)
+        if dirname:
+            self.result.stats[f"chapter_{dirname}_voices"] = len(chapter_voices)
+            self.result.stats[f"chapter_{dirname}_images"] = len(chapter_images)
 
     def _check_voice_file(self, rel_path: Path, voice_file: str) -> None:
         """Проверить существование голосового файла (.ogg в game/audio/voices/)."""
@@ -240,11 +248,22 @@ class AssetChecker:
             if chapter_dir.is_dir():
                 self.check_chapter(chapter_dir)
 
-    def run(self, chapter: Optional[int] = None) -> AssetResult:
-        """Запустить проверки."""
+    def run(self, chapter: Optional[str] = None) -> AssetResult:
+        """Запустить проверки.
+
+        chapter — цель: номер главы ('2'), часть ('2_4b'), имя файла
+        ('script-ch2_5b.rpy', 'sp_l1'), папка ('extra'); None = весь проект.
+        """
         if chapter is not None:
-            chapter_dir = self.root / "game" / "chapters" / str(chapter)
-            self.check_chapter(chapter_dir)
+            try:
+                target = resolve_target(self.root, chapter)
+            except TargetError as e:
+                self.result.errors.append(AssetError(
+                    "target", "BAD_TARGET", str(e)
+                ))
+                return self.result
+            dirname = target.chapter_dir.name if target.chapter_dir else None
+            self.check_files(target.files, dirname)
         else:
             self.check_all_chapters()
 
@@ -256,7 +275,8 @@ class AssetChecker:
 def main() -> int:
     ensure_safe_output()
     parser = argparse.ArgumentParser(description="Проверка ассетов")
-    parser.add_argument("--chapter", type=int, help="Проверить только главу N")
+    parser.add_argument("--chapter", type=str,
+                        help="Цель: 2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1 (пусто = весь проект)")
     parser.add_argument("--verbose", "-v", action="store_true", help="Подробный вывод")
     parser.add_argument("--no-report", action="store_true", help="Не писать отчёт")
     args = parser.parse_args()

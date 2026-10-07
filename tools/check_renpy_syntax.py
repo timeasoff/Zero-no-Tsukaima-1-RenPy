@@ -12,7 +12,10 @@
 - Синтаксис define Character
 
 Запуск:
-    python tools/check_renpy_syntax.py [--chapter N] [--verbose]
+    python tools/check_renpy_syntax.py [--chapter ЦЕЛЬ] [--verbose]
+
+ЦЕЛЬ (см. tools/targets.py):
+    2 | extra | 0 | 2_4b | 2_5* | script-ch2_5b.rpy | sp_l1 | game/chapters/2/script-ch2_4b.rpy
 """
 from __future__ import annotations
 
@@ -26,6 +29,7 @@ from typing import List, Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
 from output_util import ensure_safe_output, print_items, normalize_severity  # noqa: E402
+from targets import resolve_target, TargetError  # noqa: E402
 
 
 @dataclass
@@ -225,11 +229,23 @@ class RenPySyntaxChecker:
             for rpy_file in lang_dir.rglob("*.rpy"):
                 self.check_file(rpy_file)
 
-    def run(self, chapter: Optional[int] = None) -> CheckResult:
-        """Запустить проверки."""
+    def run(self, chapter: Optional[str] = None) -> CheckResult:
+        """Запустить проверки.
+
+        chapter — цель: номер главы ('2'), часть ('2_4b'), имя файла
+        ('script-ch2_5b.rpy', 'sp_l1'), папка ('extra'); None = весь проект.
+        """
         if chapter is not None:
-            chapter_dir = self.root / "game" / "chapters" / str(chapter)
-            self.check_chapter(chapter_dir)
+            try:
+                target = resolve_target(self.root, chapter)
+            except TargetError as e:
+                self.result.errors.append(SyntaxError("target", 0, "BAD_TARGET", str(e)))
+                return self.result
+            if target.is_folder:
+                self.check_chapter(target.chapter_dir)
+            else:
+                for f in target.files:
+                    self.check_file(f)
         else:
             self.check_all_chapters()
 
@@ -240,7 +256,8 @@ class RenPySyntaxChecker:
 def main() -> int:
     ensure_safe_output()
     parser = argparse.ArgumentParser(description="Проверка синтаксиса Ren'Py")
-    parser.add_argument("--chapter", type=int, help="Проверить только главу N")
+    parser.add_argument("--chapter", type=str,
+                        help="Цель: 2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1 (пусто = весь проект)")
     parser.add_argument("--verbose", "-v", action="store_true", help="Подробный вывод")
     parser.add_argument("--no-report", action="store_true", help="Не писать отчёт")
     args = parser.parse_args()
