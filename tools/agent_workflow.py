@@ -11,12 +11,15 @@ ACTIONS - детерминированные действия оркестрат
   реальные инструменты проекта и НЕ создают LLM-промптов.
 
 Единица работы - часть главы: game/chapters/<N>/script-ch<N>_<M>.rpy
-(главы 0...28; глава extra со sp_*.rpy структуры "часть" не имеет и
-оркестратором не ведётся).
+(главы 0...28; глава extra со sp_*.rpy - файлы-части вида sp_l1).
+Часть выбирается свободной целью, как в tools/chapter_pipeline.py:
+номер главы, часть N_M (в т.ч. буквенный суффикс: 2_4b), имя файла
+(script-ch2_5b.rpy), глава extra.
 
 Основные возможности:
 - выбор режима через числовой ввод в консоли;
-- выбор главы и части; навигация: следующая/предыдущая часть, следующая глава;
+- выбор части свободной целью; навигация: следующая/предыдущая часть (по
+  фактическим файлам главы), следующая глава;
 - централизованный контекст проекта (пути, иерархия JA > EN / JA > RU,
   обязательные документы, git, кодировка);
 - режимы: первый запуск главы, продолжение, порт части, перевод/редактура,
@@ -25,8 +28,11 @@ ACTIONS - детерминированные действия оркестрат
 - SMA (независимый аудит): reports/sma/ch<N>/<part>/{a,b,c,precheck,analysis}/,
   результат - .md-файл с JSON-блоком, уникальный run_id на каждый запуск;
 - копирование промпта в буфер (base64 -> PowerShell) и сохранение в файл;
-- неинтерактивный режим: --list, --prompt <id> --chapter N --part M,
-  --action <id> --chapter N --part M, --self-test-sma (dry-run).
+- чек-лист фаз части: 13 фаз с отметками [x]/[ ] и evidence из файлов проекта,
+  текущая (первая незакрытая) фаза помечена "->"; метки фаз видны и слева от
+  названий режимов в меню РЕЖИМЫ;
+- неинтерактивный режим: --list, --prompt <id> --chapter ЦЕЛЬ [--part M],
+  --action <id> --chapter ЦЕЛЬ [--part M], --self-test-sma (dry-run).
 
 КОНСОЛЬ: PowerShell здесь cp1251. Японский текст в print()/input() не попадает
 (см. say()); тексты промптов выводятся только в файл и в буфер обмена.
@@ -48,7 +54,10 @@ import textwrap
 import uuid
 from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
 from typing import Callable
+
+import targets  # tools/targets.py: разрешение цели (2 | 2_4b | файл | extra)
 
 # ============================================================================
 # КОНСТАНТЫ
@@ -138,48 +147,70 @@ def print_wrapped(
 # ============================================================================
 @dataclass
 class Chapter:
-    """Глава проекта (0...28) и её часть - единица работы оркестратора.
+    """Глава проекта и её часть - единица работы оркестратора.
+
+    chapter - имя папки главы: '0'...'28' или 'extra' (контент тундэре/дэре).
+    part    - часть главы: '1', '4b', '5b'; пролог - '0'; extra - имя файла
+              без расширения ('sp_l1').
 
     Идентификаторы:
-      chapter_id = ch<N>            (ch3)
-      part_id    = ch<N> для части 1, ch<N>_<M> для части M > 1 (ch3, ch3_2)
+      chapter_id = ch<N> для числовых глав, chextra для extra
+      part_id    = ch<N> для части 1 и пролога (ch0), ch<N>_<M> для части M>1
+                   (ch2_4b), sp_l1 для extra-файла.
     part_id совпадает с именем лейбла Ren'Py этой части и с именем каталога
     в reports/ и reports/sma/.
     """
-    chapter: int
-    part: int = 1
+    chapter: str
+    part: str = "1"
 
     # --- идентификаторы ---
     @property
     def chapter_id(self) -> str:
-        return f"ch{self.chapter}"
+        return "chextra" if self.chapter == "extra" else f"ch{self.chapter}"
 
     @property
     def part_id(self) -> str:
-        return self.chapter_id if self.part == 1 else f"{self.chapter_id}_{self.part}"
+        if self.chapter == "extra":
+            return self.part                     # sp_l1, sp_l2, ...
+        if self.part in ("0", "1"):              # пролог / первая часть главы
+            return self.chapter_id
+        return f"{self.chapter_id}_{self.part}"
 
     @property
     def label(self) -> str:
-        """Лейбл Ren'Py этой части (ch<N>, ch<N>_2, ...)."""
+        """Лейбл Ren'Py этой части (ch<N>, ch<N>_2, ...; extra - имя файла)."""
         return self.part_id
 
     @property
-    def source_chapter_number(self) -> int:
-        """Номер главы в ps2_source: проектная N -> источник N+1."""
-        return self.chapter + 1
+    def source_chapter_number(self) -> int | None:
+        """Номер главы в ps2_source: проектная N -> источник N+1 (extra - None)."""
+        if not self.chapter.isdigit():
+            return None
+        return int(self.chapter) + 1
+
+    @property
+    def source_name(self) -> str:
+        """Обозначение источника JA для промптов (без японских имён)."""
+        if self.source_chapter_number is None:
+            return "chapter_90/chapter_91 (extra: тундэре/дэре)"
+        return f"chapter_{self.source_chapter_number:02d}"
 
     @property
     def stats_key(self) -> str:
         """Ключ проектной главы в ps2_source/chapter_stats.json."""
+        if self.source_chapter_number is None:
+            return "90|91"
         return str(self.source_chapter_number)
 
     # --- файлы части ---
     @property
     def script_file_name(self) -> str:
         # Пролог (глава 0) - одна часть, файл без номера части.
-        if self.chapter == 0:
+        if self.chapter == "0":
             return "script-ch0.rpy"
-        return f"script-ch{self.chapter}_{self.part}.rpy"
+        if self.chapter.isdigit():
+            return f"script-ch{self.chapter}_{self.part}.rpy"
+        return f"{self.part}.rpy"          # extra: sp_l1.rpy ...
 
     @property
     def script_rel(self) -> str:
@@ -187,7 +218,7 @@ class Chapter:
 
     @property
     def script_path(self) -> str:
-        return os.path.join(ROOT, "game", "chapters", str(self.chapter),
+        return os.path.join(ROOT, "game", "chapters", self.chapter,
                             self.script_file_name)
 
     @property
@@ -198,13 +229,26 @@ class Chapter:
     def exists_text(self) -> str:
         return "да" if self.script_exists else "нет"
 
+    # --- отчёты и SMA (единица - базовый номер части) ---
+    @property
+    def report_unit(self) -> str:
+        """Единица отчёта и каталога SMA: базовый числовой номер части.
+
+        Проектная конвенция (reports/log.md): отчёт reports/ch<N>/<число>.md
+        покрывает и буквенные суффиксы (ч.4b/4c - в отчёте 4, ч.5b - в отчёте 5);
+        для extra - имя файла (sp_l1), для пролога - 0.
+        """
+        m = re.match(r"(\d+)", self.part)
+        return m.group(1) if m else self.part
+
     @property
     def report_rel(self) -> str:
-        return f"reports/{self.chapter_id}/{self.part_id}.md"
+        return f"reports/{self.chapter_id}/{self.report_unit}.md"
 
     @property
     def report_path(self) -> str:
-        return os.path.join(ROOT, "reports", self.chapter_id, f"{self.part_id}.md")
+        return os.path.join(ROOT, "reports", self.chapter_id,
+                            f"{self.report_unit}.md")
 
     @property
     def report_exists(self) -> bool:
@@ -222,11 +266,15 @@ class Chapter:
     #     и в консоль не передаются) ---
     @property
     def source_chapter_glob(self) -> str:
+        if self.source_chapter_number is None:
+            return "ps2_source/chapters/chapter_9[01]_*.txt"   # extra
         return (f"ps2_source/chapters/"
                 f"chapter_{self.source_chapter_number:02d}_*.txt")
 
     @property
     def source_events_glob(self) -> str:
+        if self.source_chapter_number is None:
+            return "ps2_source/events_full/chapter_9[01]_*.txt"
         return (f"ps2_source/events_full/"
                 f"chapter_{self.source_chapter_number:02d}_*.txt")
 
@@ -240,20 +288,21 @@ class Chapter:
             for lang in TL_LANGS
         }
 
-    # --- каталоги SMA (независимый аудит) ---
+    # --- каталоги SMA (независимый аудит; единица - см. report_unit) ---
     @property
     def sma_rel(self) -> str:
-        return f"reports/sma/{self.chapter_id}/{self.part_id}"
+        return f"reports/sma/{self.chapter_id}/{self.report_unit}"
 
     def sma_dir(self, kind: str) -> str:
         return os.path.join(ROOT, "reports", "sma", self.chapter_id,
-                            self.part_id, kind)
+                            self.report_unit, kind)
 
     # --- служебное ---
     def describe(self) -> str:
         """Краткая строка состояния части для консоли (ASCII + кириллица)."""
         return (f"{self.part_id}  (глава {self.chapter}, часть {self.part}; "
-                f"скрипт: {self.exists_text})")
+                f"скрипт: {self.exists_text}; "
+                f"отчёт: {'есть' if self.report_exists else 'нет'})")
 
 
 def tl_display() -> str:
@@ -265,11 +314,21 @@ def tl_display() -> str:
 # ============================================================================
 # ВВОД И НАВИГАЦИЯ
 # ============================================================================
+def _input(prompt: str) -> str:
+    """input() с дружелюбным выходом при EOF (пайп/исчерпанный ввод)."""
+    try:
+        return input(prompt)
+    except EOFError:
+        say()
+        say("  Ввод закончился - выход.")
+        raise SystemExit(0) from None
+
+
 def ask_int(prompt: str, minimum: int = 0, maximum: int | None = None) -> int:
     """Запросить целое число в допустимом диапазоне."""
     while True:
         try:
-            value = int(input(prompt).strip())
+            value = int(_input(prompt).strip())
         except ValueError:
             say("  Введите целое число.")
             continue
@@ -281,39 +340,318 @@ def ask_int(prompt: str, minimum: int = 0, maximum: int | None = None) -> int:
 
 
 def ask_chapter() -> Chapter:
-    """Выбрать главу и часть."""
+    """Выбрать часть свободной целью (как в tools/chapter_pipeline.py).
+
+    Формы: 2 | extra | 2_4b | script-ch2_5b.rpy | script-ch2_5b | sp_l1,
+    путь от корня game/chapters/2/script-ch2_4b.rpy. Выбор - в ОДИН ввод:
+    цель с частью (2_4b) разрешается сразу; для цели-папки печатается список
+    частей с прогрессом, где Enter/номер/новая цель тоже выбирают часть.
+    Пустой ввод - полный прогресс проекта по всем главам.
+    """
     say()
     say("Выбор части")
     separator()
     say()
-    chapter = ask_int(f"  Номер главы ({PROJECT_CHAPTER_MIN}.."
-                      f"{PROJECT_CHAPTER_MAX}): ",
-                      PROJECT_CHAPTER_MIN, PROJECT_CHAPTER_MAX)
-    part = ask_int("  Номер части (с 1): ", 1)
-    ch = Chapter(chapter, part)
+    _print_target_help()
     say()
-    say(f"  Текущая часть: {ch.describe()}")
-    say(f"  Отчёт: {ch.report_rel} ({'есть' if ch.report_exists else 'нет'})")
-    return ch
+    while True:
+        raw = (_input("  Цель: ") or "").strip()
+        if not raw:
+            print_full_inventory()
+            say()
+            _print_target_help(include_progress=False)
+            say()
+            continue
+        try:
+            target = targets.resolve_target(Path(ROOT), raw)
+        except targets.TargetError as exc:
+            say(f"  {exc}")
+            say()
+            continue
+        chs = _chapters_of_dir(target)
+        if not chs:
+            say(f"  В цели нет файлов .rpy: {raw}")
+            say()
+            continue
+        ch = chs[0] if len(chs) == 1 else _pick_part(chs)
+        say()
+        say(f"  Выбрано: {ch.part_id}")
+        return ch
+
+
+def _chapters_of_dir(t: targets.ResolvedTarget) -> list[Chapter]:
+    """Все части цели-папки как Chapter (отсортировано по имени файла)."""
+    return [chapter_from_file(t.chapter_dir, f) for f in t.files]
+
+
+def chapter_from_file(d: Path, f: Path) -> Chapter:
+    """Chapter из фактического файла части (папка d, файл f)."""
+    name = f.name
+    if d.name == "0" and name == "script-ch0.rpy":
+        return Chapter(chapter="0", part="0")
+    m = re.fullmatch(r"script-ch\d+_(.+)\.rpy", name)
+    if m:
+        return Chapter(chapter=d.name, part=m.group(1))
+    return Chapter(chapter=d.name, part=f.stem)   # sp_l1 и т.п.
+
+
+def resolve_chapter(raw: str) -> Chapter:
+    """Разрешить цель в ОДНУ часть.
+
+    Для цели-папки - первая по порядку часть; пустая папка главы - первая
+    часть к созданию (режим first-launch новой главы). Несуществующая часть
+    вида N_M отклоняется резолвером с перечнем доступных файлов.
+    """
+    t = targets.resolve_target(Path(ROOT), raw)
+    if not t.files:
+        # Глава без файлов: первая часть к созданию.
+        return _next_part_synthetic(
+            Chapter(chapter=t.chapter_dir.name, part="1"))
+    return chapter_from_file(t.chapter_dir, t.files[0])
+
+
+# --- ПРОГРЕСС (файлы частей / отчёты по единице report_unit) ---
+def _plural_word(n: int, one: str, few: str, many: str) -> str:
+    """Форма существительного при числе (1 файл, 2 файла, 5 файлов)."""
+    if n % 10 == 1 and n % 100 != 11:
+        return one
+    if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14:
+        return few
+    return many
+
+
+def _plural(n: int, one: str, few: str, many: str) -> str:
+    """Число с существительным (1 файл, 2 файла, 5 файлов)."""
+    return f"{n} {_plural_word(n, one, few, many)}"
+
+
+def _chapter_dirs_sorted() -> list[Path]:
+    """Папки глав в порядке: 0..28 числом, затем non-цифровые (extra)."""
+    chapters_dir = Path(ROOT) / "game" / "chapters"
+    if not chapters_dir.is_dir():
+        return []
+    dirs = [d for d in chapters_dir.iterdir() if d.is_dir()]
+
+    def key(d: Path):
+        return (0, int(d.name)) if d.name.isdigit() else (1, d.name)
+
+    return sorted(dirs, key=key)
+
+
+def _compact_ranges(names: list[str]) -> str:
+    """['4','5','7','8'] -> '4..5, 7..8' (для пустых глав)."""
+    nums = sorted(int(x) for x in names if x.isdigit())
+    parts: list[str] = []
+    i = 0
+    while i < len(nums):
+        j = i
+        while j + 1 < len(nums) and nums[j + 1] == nums[j] + 1:
+            j += 1
+        parts.append(str(nums[i]) if i == j else f"{nums[i]}..{nums[j]}")
+        i = j + 1
+    rest = [x for x in names if not x.isdigit()]
+    return ", ".join(parts + rest)
+
+
+def chapter_progress(chapter_name: str) -> dict:
+    """Прогресс главы: parts - файлы частей, units - единицы отчётов,
+    reports - сколько единиц уже имеют отчёт reports/ch*/<номер>.md."""
+    base_part = "0" if chapter_name == "0" else "1"
+    ch = Chapter(chapter=chapter_name, part=base_part)
+    parts = _chapter_files(ch)
+    units = {p.report_unit for p in parts}
+    reports = sum(1 for u in units if os.path.isfile(
+        os.path.join(ROOT, "reports", ch.chapter_id, f"{u}.md")))
+    return {"parts": len(parts), "units": len(units), "reports": reports}
+
+
+def progress_table() -> list[str]:
+    """Строки таблицы прогресса: глава | файлы частей | написанные отчёты."""
+    rows: list[str] = []
+    empty: list[str] = []
+    for d in _chapter_dirs_sorted():
+        if not list(d.glob("*.rpy")):
+            empty.append(d.name)
+            continue
+        prog = chapter_progress(d.name)
+        name = f"глава {d.name}" if d.name.isdigit() else d.name
+        n = prog["parts"]
+        word = _plural_word(n, "файл", "файла", "файлов")
+        rows.append(
+            f"    {name:<12}{n:>3} {word:<9}"
+            f"отчётов {prog['reports']} из {prog['units']}")
+    if empty:
+        rows.append(f"    без файлов: {_compact_ranges(empty)}")
+    return rows
+
+
+_TARGET_EXAMPLES = (
+    ("2", "вся глава - дальше список её частей"),
+    ("2_4b", "сразу часть 4b главы 2"),
+    ("script-ch2_5b.rpy", "имя файла (ищется по всем главам)"),
+    ("extra  или  sp_l1", "глава extra (тундэре/дэре)"),
+    ("(пусто)", "полный инвентарь проекта"),
+)
+
+
+def _print_target_help(include_progress: bool = True) -> None:
+    """Подсказка формата цели; по умолчанию - сразу с таблицей прогресса."""
+    say("  Цель одним вводом:")
+    for sample, desc in _TARGET_EXAMPLES:
+        say(f"    {sample:<21}{desc}")
+    if include_progress:
+        say()
+        say("  Прогресс по главам (файлы частей / написанные отчёты):")
+        for row in progress_table():
+            say(row)
+
+
+def _parts_table(chs: list[Chapter]) -> None:
+    """Таблица частей: №, часть, файл, строки, голоса, отчёт."""
+    say(f"    {'№':>3}  {'часть':<9} {'файл':<19} {'строк':>5} "
+        f"{'голосов':>7}  отчёт")
+    for i, c in enumerate(chs, 1):
+        inv = part_inventory(c)
+        mark = "есть" if c.report_exists else "нет"
+        say(f"    {i:>3}  {c.part_id:<9} {c.script_file_name:<19} "
+            f"{inv['lines']:>5} {inv['voice']:>7}  {c.report_unit}.md: {mark}")
+
+
+def print_full_inventory() -> None:
+    """Полный инвентарь: все главы, все части, строки/голоса/отчёты."""
+    say()
+    say("  ИНВЕНТАРЬ ПРОЕКТА: все части, строки, голоса, отчёты")
+    shown = False
+    for d in _chapter_dirs_sorted():
+        if not list(d.glob("*.rpy")):
+            continue
+        shown = True
+        prog = chapter_progress(d.name)
+        say()
+        say(f"  Глава {d.name}: "
+            f"{_plural(prog['parts'], 'файл части', 'файла частей', 'файлов частей')}; "
+            f"отчётов {prog['reports']} из {prog['units']}")
+        base_part = "0" if d.name == "0" else "1"
+        _parts_table(_chapter_files(Chapter(chapter=d.name, part=base_part)))
+    if not shown:
+        say("  Файлов частей пока нет.")
+
+
+def _show_parts_list(chs: list[Chapter]) -> None:
+    """Список частей главы (таблица с прогрессом каждой части)."""
+    say()
+    say(f"  Части главы {chs[0].chapter}:")
+    _parts_table(chs)
+
+
+def _pick_part(chs: list[Chapter]) -> Chapter:
+    """Выбор части из списка в ОДИН ввод.
+
+    Enter - первая часть; номер 1..N (0) - часть по номеру; любая другая
+    строка - новая цель (2_5b, sp_l1, путь): если она разрешается в одну
+    часть - сразу возвращается, в список - показывается новый список.
+    """
+    while True:
+        _show_parts_list(chs)
+        raw = _input(f"  Выбор (Enter - первая, 1..{len(chs)}, или цель): ").strip()
+        if raw == "":
+            return chs[0]
+        if raw.isdigit():
+            n = int(raw)
+            if 1 <= n <= len(chs):
+                return chs[n - 1]
+            if n == 0:
+                return chs[0]
+            say(f"  Номер вне диапазона 0..{len(chs)}.")
+            continue
+        try:
+            target = targets.resolve_target(Path(ROOT), raw)
+        except targets.TargetError as exc:
+            say(f"  {exc}")
+            continue
+        new_chs = _chapters_of_dir(target)
+        if not new_chs:
+            say(f"  В цели нет файлов .rpy: {raw}")
+            continue
+        if len(new_chs) == 1:
+            return new_chs[0]
+        chs = new_chs      # новая цель-папка: показать её список частей
+
+
+def _natural_key(name: str):
+    """Натуральная сортировка имён: ch1_2 перед ch1_10, ch2_4 перед ch2_4b."""
+    return [(1, int(t)) if t.isdigit() else (0, t)
+            for t in re.split(r"(\d+)", name)]
+
+
+def _chapter_files(ch: Chapter) -> list[Chapter]:
+    """Все части главы ch по фактическим файлам папки (натуральный порядок)."""
+    folder = os.path.join(ROOT, "game", "chapters", ch.chapter)
+    result: list[Chapter] = []
+    if os.path.isdir(folder):
+        base = Path(folder)
+        for name in sorted(os.listdir(folder), key=_natural_key):
+            if name.endswith(".rpy"):
+                result.append(chapter_from_file(base, base / name))
+    return result
+
+
+def _next_part_synthetic(ch: Chapter) -> Chapter:
+    """Первая часть к созданию для главы без файлов."""
+    if ch.chapter == "extra":
+        return Chapter(chapter="extra", part="sp_l1")
+    if ch.chapter == "0":
+        return Chapter(chapter="0", part="0")
+    return Chapter(chapter=ch.chapter, part="1")
+
+
+def _part_after(ch: Chapter) -> Chapter:
+    """Часть к созданию после последней существующей (цифровой номер + 1).
+
+    Для главы extra нумерации частей нет: следующая часть не выводится
+    (возвращается та же - навигация "вперёд" у extra не имеет смысла).
+    """
+    if ch.chapter == "extra":
+        return ch
+    m = re.match(r"(\d+)", ch.part)
+    nxt = str(int(m.group(1)) + 1) if m else "1"
+    return Chapter(chapter=ch.chapter, part=nxt)
 
 
 def navigate_next_part(ch: Chapter) -> Chapter:
-    """Следующая часть той же главы."""
-    return Chapter(ch.chapter, ch.part + 1)
+    """Следующая часть той же главы (по фактическим файлам; после последней
+    существующей - часть к созданию)."""
+    chs = _chapter_files(ch)
+    if not chs:
+        return _next_part_synthetic(ch)
+    names = [c.script_file_name for c in chs]
+    if ch.script_file_name in names:
+        i = names.index(ch.script_file_name)
+        if i + 1 < len(chs):
+            return chs[i + 1]
+        return _part_after(ch)
+    return chs[0]
 
 
 def navigate_prev_part(ch: Chapter) -> Chapter | None:
     """Предыдущая часть той же главы (None - уже первая)."""
-    if ch.part <= 1:
+    chs = _chapter_files(ch)
+    if not chs:
         return None
-    return Chapter(ch.chapter, ch.part - 1)
+    names = [c.script_file_name for c in chs]
+    if ch.script_file_name not in names:
+        return None
+    i = names.index(ch.script_file_name)
+    return chs[i - 1] if i > 0 else None
 
 
 def navigate_next_chapter(ch: Chapter) -> Chapter | None:
-    """Первая часть следующей главы (None - последняя глава проекта)."""
-    if ch.chapter >= PROJECT_CHAPTER_MAX:
+    """Первая часть следующей главы (None - последняя; extra вне цепочки)."""
+    if not ch.chapter.isdigit() or int(ch.chapter) >= PROJECT_CHAPTER_MAX:
         return None
-    return Chapter(ch.chapter + 1, 1)
+    nxt = Chapter(chapter=str(int(ch.chapter) + 1), part="1")
+    chs = _chapter_files(nxt)
+    return chs[0] if chs else nxt
 
 
 # ============================================================================
@@ -393,7 +731,7 @@ def project_context(ch: Chapter) -> str:
 Журнал решений: {ch.log_rel}
 Бакеты tl (плоские): {', '.join(TL_BUCKETS)}
 
-ИСТОЧНИК JA (КАНОН), проектная глава {ch.chapter} = источник {ch.source_chapter_number}:
+ИСТОЧНИК JA (КАНОН), проектная глава {ch.chapter} = источник {ch.source_name}:
   {ch.source_chapter_glob}            (реплики и события в порядке источника)
   {ch.source_events_glob}             (точные аргументы set/next/selectItem/dateItem)
   ps2_source/chapter_stats.json       (ключ "{ch.stats_key}")
@@ -511,8 +849,11 @@ SMA_SOURCE_HIERARCHY_NOTE = (
 
 
 def sma_chapter_rel(ch: Chapter) -> str:
-    """Каталог части SMA относительно корня проекта (прямые слэши)."""
-    return f"{SMA_REL_ROOT}/{ch.chapter_id}/{ch.part_id}"
+    """Каталог части SMA относительно корня проекта (прямые слэши).
+
+    Единица каталога та же, что у отчёта (базовый номер части): ch.report_unit.
+    """
+    return ch.sma_rel
 
 
 def sma_chapter_dir(ch: Chapter, kind: str) -> str:
@@ -658,6 +999,7 @@ class ActionInfo:
 # ПРОМПТЫ: РАБОЧИЕ РЕЖИМЫ ПОРТА
 # ============================================================================
 def prompt_first_launch(ch: Chapter) -> str:
+    first = (_chapter_files(ch) or [_next_part_synthetic(ch)])[0]
     return f"""
 {project_context(ch)}
 РЕЖИМ: ПЕРВЫЙ ЗАПУСК ГЛАВЫ {ch.chapter_id}
@@ -684,7 +1026,7 @@ def prompt_first_launch(ch: Chapter) -> str:
 И СРАЗУ ПЕРЕХОДИ К ИСПОЛНЕНИЮ: портируй первую часть по режиму
 «Порт части» (события -> voice -> реплика EN -> menu/choice -> jump,
 параллельно old/new в оба tl), затем python tools/check_project.py
-и отчёт {f'reports/{ch.chapter_id}/{ch.chapter_id}.md'}.
+и отчёт {first.report_rel}.
 После успешной подготовки НЕ останавливайся и НЕ проси разрешения начать:
 ANALYSIS -> CLASSIFICATION -> PROVISIONAL RESOLUTION -> EXECUTION.
 Неопределённости: UNCERTAINTY != STOP; локальные и средние решай сам:
@@ -1787,22 +2129,9 @@ def numeric_stats_text(entry: dict) -> str:
     return ", ".join(parts) if parts else "(числовых полей нет)"
 
 
-def _iter_chapter_parts(chapter: int) -> list[tuple[int, str]]:
-    """[(номер части, имя файла)] по фактическим файлам главы."""
-    folder = os.path.join(ROOT, "game", "chapters", str(chapter))
-    if not os.path.isdir(folder):
-        return []
-    found: list[tuple[int, str]] = []
-    for name in sorted(os.listdir(folder)):
-        if not name.endswith(".rpy"):
-            continue
-        if chapter == 0 and name == "script-ch0.rpy":
-            found.append((1, name))
-            continue
-        match = re.match(rf"^script-ch{chapter}_(\d+)\.rpy$", name)
-        if match:
-            found.append((int(match.group(1)), name))
-    return sorted(found)
+def _iter_chapter_parts(chapter: str) -> list[Chapter]:
+    """Все части главы по фактическим файлам (list[Chapter], отсортировано)."""
+    return _chapter_files(Chapter(chapter=chapter, part="1"))
 
 
 def action_chapter_state(ch: Chapter) -> int:
@@ -1810,37 +2139,47 @@ def action_chapter_state(ch: Chapter) -> int:
     say()
     separator("=")
     say()
-    say(f"  Действие: состояние главы {ch.chapter_id} (проектная глава {ch.chapter})")
+    say(f"  Действие: состояние главы {ch.chapter_id} "
+        f"(проектная глава {ch.chapter})")
     say(f"  Каталог: game/chapters/{ch.chapter}/")
     say()
     parts = _iter_chapter_parts(ch.chapter)
     stats = load_chapter_stats()
-    entry = stats.get(str(ch.chapter + 1))
+    entry = stats.get(ch.stats_key)
     if isinstance(entry, dict) and "talk" in entry:
-        say(f"  Источник (chapter_stats.json, ключ \"{ch.chapter + 1}\"): "
+        say(f"  Источник (chapter_stats.json, ключ \"{ch.stats_key}\"): "
             f"{numeric_stats_text(entry)}")
     else:
-        say("  Источник: chapter_stats.json - запись для этой главы не найдена")
+        say(f"  Источник: chapter_stats.json - запись для ключа "
+            f"\"{ch.stats_key}\" не найдена")
     say(f"  Глоб реплик: {ch.source_chapter_glob}")
     say()
     if not parts:
         say("  Файлы частей не найдены (глава ещё не начата).")
-        say(f"  Первая часть будет: {Chapter(chapter=ch.chapter, part=1).script_rel}")
-    for part_no, file_name in parts:
-        part_ch = Chapter(chapter=ch.chapter, part=part_no)
+        say(f"  Первая часть будет: {_next_part_synthetic(ch).script_rel}")
+    for part_ch in parts:
         inv = part_inventory(part_ch)
-        say(f"  часть {part_no} ({part_ch.part_id})  файл: {file_name}")
+        say(f"  часть {part_ch.part} ({part_ch.part_id})  "
+            f"файл: {part_ch.script_file_name}")
         say(f"      {inventory_text(inv)}")
         say(f"      отчёт: {part_ch.report_rel} "
             f"({'есть' if part_ch.report_exists else 'нет'})")
     if parts:
-        next_part = parts[-1][0] + 1
-        nxt = Chapter(chapter=ch.chapter, part=next_part)
-        say()
-        say(f"  Следующая к созданию: часть {next_part} ({nxt.script_rel})")
+        if ch.chapter == "extra":
+            say()
+            say("  Глава extra: следующая к созданию - новый файл sp_*.rpy")
+        else:
+            nxt = _part_after(parts[-1])
+            say()
+            say(f"  Следующая к созданию: часть {nxt.part} ({nxt.script_rel})")
     else:
         say()
         say("  Следующая к созданию: часть 1")
+    prog = chapter_progress(ch.chapter)
+    say()
+    say(f"  Итого: {_plural(prog['parts'], 'файл', 'файла', 'файлов')}; "
+        f"отчётов {prog['reports']} из {prog['units']} "
+        f"(единица отчёта - базовый номер части)")
     say()
     say(f"  Общий ход: прогони python {CHECK_TOOL} - там I1 по этой главе.")
     say()
@@ -1851,14 +2190,12 @@ def action_chapter_state(ch: Chapter) -> int:
 
 def action_source_stats(ch: Chapter) -> int:
     """Показать сводку по источнику главы (глобы + chapter_stats.json)."""
-    chapter_glob = os.path.join(ROOT, "ps2_source", "chapters",
-                                f"chapter_{ch.chapter + 1:02d}_*.txt")
-    events_glob = os.path.join(ROOT, "ps2_source", "events_full",
-                               f"chapter_{ch.chapter + 1:02d}_*.txt")
+    chapter_glob = os.path.join(ROOT, ch.source_chapter_glob)
+    events_glob = os.path.join(ROOT, ch.source_events_glob)
     chapter_hits = sorted(globlib.glob(chapter_glob))
     events_hits = sorted(globlib.glob(events_glob))
     stats = load_chapter_stats()
-    entry = stats.get(str(ch.chapter + 1))
+    entry = stats.get(ch.stats_key)
     say()
     separator("=")
     say()
@@ -1871,14 +2208,15 @@ def action_source_stats(ch: Chapter) -> int:
     say(f"    совпадений: {len(events_hits)}")
     say()
     if isinstance(entry, dict):
-        say(f"  chapter_stats.json, ключ \"{ch.chapter + 1}\":")
+        say(f"  chapter_stats.json, ключ \"{ch.stats_key}\":")
         say(f"    {numeric_stats_text(entry)}")
         talk = entry.get("talk")
         if isinstance(talk, int):
             say(f"    ориентир для I1: talk={talk} "
                 "(полный охват части достигается суммой строк её файлов)")
     else:
-        say("  chapter_stats.json: записи для этой главы нет")
+        say(f"  chapter_stats.json: запись для ключа \"{ch.stats_key}\" "
+            "не найдена")
     say()
     say("  Замечание: поле name главы в JSON - японское, поэтому не печатается.")
     say()
@@ -1990,7 +2328,445 @@ def action_voice_convert(ch: Chapter) -> int:
     return code
 
 
+# ============================================================================
+# ЧЕК-ЛИСТ ФАЗ ЧАСТИ (регулярная проверка незавершённых глав)
+# ============================================================================
+# Единица работы - часть главы; фазы идут в порядке AGENTS.md §4:
+# порт -> голоса -> перевод -> отчёт -> предфильтры -> pre-check -> аудит C ->
+# анализатор (Ф1/Ф2) -> грамматика -> стиль -> humanizer -> гейт.
+# Аудиты A/B (semantic-audit-a/b) в чек-лист НЕ входят: скиллы отключены
+# системой (AGENTS.md §7), их результаты приходят извне и на фазы не влияют.
+
+@dataclass
+class PhaseItem:
+    """Одна фаза чек-листа: номер, название, состояние и evidence-строка."""
+    n: int
+    title: str
+    done: bool
+    detail: str
+
+
+# Шапка отчётов части и сканеров: 'Дата: YYYY-MM-DD' (у сканеров ещё и время).
+REPORT_DATE_RE = re.compile(r"^Дата:\s*(\d{4}-\d{2}-\d{2})", re.M)
+# Раздел чек-листа в отчёте части: '## 9. Чек-лист ...' либо '## Чек-лист ...'
+GATE_SECTION_RE = re.compile(r"^##\s*(?:9\.\s*)?Чек-лист", re.M)
+
+
+def _read_head(path: str, lines: int = 30) -> str:
+    """Первые lines строк файла (шапка отчёта); '' если не читается."""
+    try:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            return "".join(next(fh, "") for _ in range(lines))
+    except OSError:
+        return ""
+
+
+def _report_text(path: str) -> str:
+    """Весь текст файла ('' если не читается)."""
+    try:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            return fh.read()
+    except OSError:
+        return ""
+
+
+def _report_date_str(path: str) -> str:
+    """Дата отчёта как dd.mm.yyyy: строка 'Дата: ...', иначе mtime, иначе '?'."""
+    m = REPORT_DATE_RE.search(_read_head(path))
+    if m:
+        try:
+            return datetime.strptime(m.group(1), "%Y-%m-%d").strftime("%d.%m.%Y")
+        except ValueError:
+            pass
+    try:
+        return datetime.fromtimestamp(os.path.getmtime(path)).strftime("%d.%m.%Y")
+    except OSError:
+        return "?"
+
+
+def _report_is_fresh(path: str, script_mtime: float) -> bool:
+    """Отчёт не старше скрипта части.
+
+    Дата из шапки сравнивается по ДНЯМ (шапка части пишется без времени);
+    при её отсутствии (например reports/check_project.md) берётся mtime файла.
+    """
+    m = REPORT_DATE_RE.search(_read_head(path))
+    if m:
+        try:
+            report_day = datetime.strptime(m.group(1), "%Y-%m-%d").date()
+            return report_day >= datetime.fromtimestamp(script_mtime).date()
+        except ValueError:
+            pass
+    try:
+        return os.path.getmtime(path) >= script_mtime
+    except OSError:
+        return False
+
+
+def _fresh_count(paths: list[str | None], script_mtime: float | None) -> int:
+    """Сколько существующих файлов из списка не старше скрипта части."""
+    if script_mtime is None:
+        return 0
+    n = 0
+    for p in paths:
+        if not p or not os.path.isfile(p):
+            continue
+        try:
+            if os.path.getmtime(p) >= script_mtime:
+                n += 1
+        except OSError:
+            pass
+    return n
+
+
+def _typography_report(chapter: str, part: str, lang: str) -> str | None:
+    """Отчёт check_typography с fallback: область части -> главы -> глобальный.
+
+    Имя файла: check_typography_<lang>_ch<ключ цели>.md (tools/check_typography.py);
+    ключ цели части - '<глава>_<часть>', главы - '<глава>'. Если запуск был
+    на всю главу, его отчёт покрывает и эту часть.
+    """
+    candidates = [
+        os.path.join(ROOT, "reports", f"check_typography_{lang}_ch{chapter}_{part}.md"),
+        os.path.join(ROOT, "reports", f"check_typography_{lang}_ch{chapter}.md"),
+        os.path.join(ROOT, "reports", f"check_typography_{lang}.md"),
+    ]
+    return next((p for p in candidates if os.path.isfile(p)), None)
+
+
+def _voice_names(ch: Chapter) -> list[str]:
+    """Имена голосовых дорожек из скрипта части (voice "имя"; без .ogg)."""
+    if not ch.script_exists:
+        return []
+    try:
+        with open(ch.script_path, encoding="utf-8", errors="replace") as fh:
+            lines = fh.read().splitlines()
+    except OSError:
+        return []
+    pat = re.compile(r'^\s*voice\s+"([^"]+)"')
+    names: list[str] = []
+    for raw in lines:
+        m = pat.match(raw)
+        if m:
+            name = m.group(1)
+            if name.endswith(".ogg"):
+                name = name[:-4]
+            names.append(name)
+    return names
+
+
+def _voice_manifest_names() -> set[str]:
+    """Имена из references/voice_id_map.csv (первый столбец; '#' пропускается)."""
+    path = os.path.join(ROOT, "references", "voice_id_map.csv")
+    names: set[str] = set()
+    try:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            for line in fh:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                first = line.split(",")[0].strip()
+                if first and first != "voice_name":
+                    names.add(first)
+    except OSError:
+        pass
+    return names
+
+
+def _tl_coverage(ch: Chapter) -> tuple[int, int, int] | None:
+    """(уникальных строк, есть в tl/japanese, есть в tl/russian) скрипта части.
+
+    Та же механика, что в tools/check_project.py (E4/E5): говорящие собираются
+    по ``define <имя> = Character(``, строки - collect_strings, ключи - parse_tl.
+    None - если check_project недоступен (не должен случаться: он в tools/).
+    """
+    try:
+        import check_project as cp
+    except Exception:
+        return None
+    speakers: set[str] = set()
+    for path in cp.walk_rpy(cp.GAME):
+        if cp.excluded(path):
+            continue
+        for line in cp.read_lines(path):
+            m = cp.SPEAKER_DEF_RE.match(line)
+            if m:
+                speakers.add(m.group(1))
+    found, _unknown, _bad = cp.collect_strings(ch.script_path, speakers)
+    texts = sorted({t for t, _kind, _line in found})
+    ja_keys = cp.parse_tl(os.path.join(cp.TL_DIR, "japanese"))[0]
+    ru_keys = cp.parse_tl(os.path.join(cp.TL_DIR, "russian"))[0]
+    ja = sum(1 for t in texts if t in ja_keys)
+    ru = sum(1 for t in texts if t in ru_keys)
+    return (len(texts), ja, ru)
+
+
+def _run_date_str(run_id: str) -> str:
+    """Дата из run_id вида YYYYMMDD-HHMMSS-xxxx -> dd.mm.yyyy (иначе '?')."""
+    m = re.match(r"^(\d{4})(\d{2})(\d{2})-", run_id)
+    if not m:
+        return "?"
+    return f"{m.group(3)}.{m.group(2)}.{m.group(1)}"
+
+
+def phase_checklist(ch: Chapter) -> list[PhaseItem]:
+    """13 фаз работы над частью с evidence из файлов проекта.
+
+    Ничего не пишет и не изменяет: читает скрипт части, оба tl, отчёты
+    сканеров (reports/check_*.md), отчёт части и evidence SMA. Честно
+    показывает незакрытую фазу там, где записи в отчёте нет: чек-лист
+    отражает задокументированное состояние, а не предположения.
+    """
+    items: list[PhaseItem] = []
+    script_mtime: float | None = None
+    if ch.script_exists:
+        try:
+            script_mtime = os.path.getmtime(ch.script_path)
+        except OSError:
+            script_mtime = None
+
+    # --- 1. Порт части
+    inv = part_inventory(ch)
+    if not inv["exists"]:
+        items.append(PhaseItem(1, "Порт части", False,
+                               f"файл не создан: {ch.script_rel}"))
+    else:
+        items.append(PhaseItem(
+            1, "Порт части", inv["lines"] > 0,
+            f"строк: {inv['lines']} (непустых {inv['nonempty']}), "
+            f"голосов: {inv['voice']}, menu: {inv['menu']}, "
+            f"jump: {inv['jump']}"))
+
+    # --- 2. Голоса: строки voice -> .ogg в game/audio/voices -> манифест
+    names = _voice_names(ch)
+    n = len(names)
+    if not ch.script_exists:
+        items.append(PhaseItem(2, "Голоса", False, "скрипт не создан"))
+    elif n == 0:
+        items.append(PhaseItem(2, "Голоса", False, "строк voice в скрипте нет"))
+    else:
+        voices_dir = os.path.join(ROOT, "game", "audio", "voices")
+        have_ogg = sum(1 for v in names
+                       if os.path.isfile(os.path.join(voices_dir, v + ".ogg")))
+        manifest = _voice_manifest_names()
+        have_map = sum(1 for v in names if v in manifest)
+        # Главы 0/1/extra озвучены раньше манифеста: там .ogg достаточен
+        # (references/voice_id_map.csv, шапка файла).
+        if ch.chapter in ("0", "1", "extra"):
+            detail = (f"строк: {n}, ogg: {have_ogg}/{n}, "
+                      f"манифест: не требуется (гл. 0/1/extra)")
+            ok = have_ogg == n
+        else:
+            detail = (f"строк: {n}, ogg: {have_ogg}/{n}, "
+                      f"манифест: {have_map}/{n}")
+            ok = have_ogg == n and have_map == n
+        items.append(PhaseItem(2, "Голоса", ok, detail))
+
+    # --- 3. Перевод JA/RU: покрытие строк скрипта обеими tl-папками
+    if not ch.script_exists:
+        items.append(PhaseItem(3, "Перевод JA/RU", False, "скрипт не создан"))
+    else:
+        cov = _tl_coverage(ch)
+        if cov is None:
+            items.append(PhaseItem(3, "Перевод JA/RU", False,
+                                   "покрытие не посчитано: check_project недоступен"))
+        else:
+            total, ja, ru = cov
+            ok = total > 0 and ja == total and ru == total
+            detail = (f"строк: {total}, JA: {ja}/{total}, RU: {ru}/{total}"
+                      if total else "переводимых строк в скрипте нет")
+            items.append(PhaseItem(3, "Перевод JA/RU", ok, detail))
+
+    # --- 4. Отчёт части
+    if not ch.report_exists:
+        items.append(PhaseItem(4, "Отчёт части", False,
+                               f"не написан: {ch.report_rel}"))
+    else:
+        fresh = (_report_is_fresh(ch.report_path, script_mtime)
+                 if script_mtime is not None else False)
+        note = "" if ch.report_unit == ch.part else \
+            f" (общий для {ch.report_unit}*)"
+        detail = f"{ch.report_rel} от {_report_date_str(ch.report_path)}{note}"
+        if not fresh:
+            detail += "; не свежий относительно скрипта"
+        items.append(PhaseItem(4, "Отчёт части", fresh, detail))
+
+    # --- 5. Предфильтры: 6 отчётов сканеров
+    prefilters: list[tuple[str, str | None]] = [
+        ("check_renpy_syntax.md",
+         os.path.join(ROOT, "reports", "check_renpy_syntax.md")),
+        ("typography ru", _typography_report(ch.chapter, ch.part, "ru")),
+        ("typography en", _typography_report(ch.chapter, ch.part, "en")),
+        ("check_placeholders.md",
+         os.path.join(ROOT, "reports", "check_placeholders.md")),
+        ("check_assets.md",
+         os.path.join(ROOT, "reports", "check_assets.md")),
+        ("check_voice_transcriptions.md",
+         os.path.join(ROOT, "reports", "check_voice_transcriptions.md")),
+    ]
+    paths = [p for _label, p in prefilters]
+    present = [p for p in paths if p and os.path.isfile(p)]
+    fresh_n = _fresh_count(paths, script_mtime)
+    missing = [label for label, p in prefilters if not (p and os.path.isfile(p))]
+    detail = f"отчётов: {len(present)}/6, свежих: {fresh_n}"
+    if missing:
+        detail += f" (нет: {', '.join(missing)})"
+    items.append(PhaseItem(5, "Предфильтры (сканеры)",
+                           len(present) == 6 and fresh_n == 6, detail))
+
+    # --- 6. Pre-check SMA (детерминированное evidence)
+    pre = sma_existing_precheck(ch)
+    if pre:
+        pre_paths = [os.path.join(ch.sma_dir(SMA_PRECHECK_KIND),
+                                  f"{r}.{SMA_EXT}") for r in pre]
+        items.append(PhaseItem(
+            6, "Pre-check SMA", True,
+            f"файлов: {len(pre)}, свежих: {_fresh_count(pre_paths, script_mtime)}"))
+    else:
+        items.append(PhaseItem(6, "Pre-check SMA", False, "нет запусков"))
+
+    # --- 7. Аудит C (прагматика)
+    c_runs = sma_existing_runs(ch, "c")
+    if c_runs:
+        items.append(PhaseItem(7, "Аудит C (прагматика)", True,
+                               f"запусков: {len(c_runs)}, "
+                               f"последний {_run_date_str(max(c_runs))}"))
+    else:
+        items.append(PhaseItem(7, "Аудит C (прагматика)", False, "нет запусков"))
+
+    # --- 8. Analyzer: Фаза 1 (blind)
+    p1 = sma_existing_phase1_runs(ch)
+    items.append(PhaseItem(8, "Analyzer: Фаза 1 (blind)", bool(p1),
+                           f"файлов: {len(p1)}" if p1 else "нет запусков"))
+
+    # --- 9. Analyzer: Фаза 2 (evidence)
+    a2 = sma_existing_runs(ch, "analysis")
+    items.append(PhaseItem(9, "Analyzer: Фаза 2 (evidence)", bool(a2),
+                           f"файлов: {len(a2)}" if a2 else "нет запусков"))
+
+    # --- 10...12. Ручные аудиты: следы скиллов в отчёте части
+    report_text = _report_text(ch.report_path) if ch.report_exists else ""
+    for n_item, title, pattern in (
+            (10, "Грамматический контроль",
+             r"russian-grammar-control|Грамматическ"),
+            (11, "Стилевой аудит", r"russian-style-audit|стилев"),
+            (12, "Humanizer", r"russian-humanizer")):
+        if not ch.report_exists:
+            items.append(PhaseItem(n_item, title, False, "отчёт не написан"))
+        elif re.search(pattern, report_text, re.I):
+            items.append(PhaseItem(
+                n_item, title, True,
+                f"секция в отчёте есть (отчёт {_report_date_str(ch.report_path)})"))
+        else:
+            items.append(PhaseItem(n_item, title, False, "секции в отчёте нет"))
+
+    # --- 13. Гейт: раздел чек-листа в отчёте части + автопроверка без ERROR
+    if not ch.report_exists:
+        items.append(PhaseItem(13, "Гейт (чек-лист + автопроверка)", False,
+                               "отчёт не написан"))
+    else:
+        has_gate = bool(GATE_SECTION_RE.search(report_text))
+        cp_path = os.path.join(ROOT, "reports", "check_project.md")
+        err_m = re.search(r"## ERROR \((\d+)\)", _report_text(cp_path))
+        errors_n = int(err_m.group(1)) if err_m else -1
+        cp_fresh = (os.path.isfile(cp_path) and script_mtime is not None
+                    and os.path.getmtime(cp_path) >= script_mtime)
+        err_text = str(errors_n) if errors_n >= 0 else "отчёт не найден"
+        items.append(PhaseItem(
+            13, "Гейт (чек-лист + автопроверка)",
+            has_gate and errors_n == 0 and cp_fresh,
+            f"чек-лист в отчёте: {'есть' if has_gate else 'нет'}; "
+            f"ошибок автопроверки: {err_text}; "
+            f"{'свежая' if cp_fresh else 'автопроверка устарела/нет'}"))
+
+    return items
+
+
+# Промпт -> номер фазы чек-листа, которую он обслуживает (для меню РЕЖИМЫ).
+# Промпты без фазы (continue, resolve-decisions, encoding-check) метки не имеют.
+PROMPT_PHASE_MAP: dict[str, int] = {
+    "first-launch": 1,
+    "port-part": 1,
+    "voice-work": 2,
+    "translate-edit": 3,
+    "pragmatic-c": 7,
+    "analyzer-phase1": 8,
+    "analyzer-phase2": 9,
+    "grammar-audit": 10,
+    "style-audit": 11,
+    "humanizer": 12,
+    "full-audit": 13,
+}
+
+
+def phase_marks_for_prompts(ch: Chapter) -> dict[str, str]:
+    """Компактные метки для меню РЕЖИМЫ: id промпта -> '[x]' / '[ ]'.
+
+    Вычисляется один раз при входе в меню (не на каждую перерисовку):
+    чек-лист читает tl и отчёты (~0.2 с), а перерисовка меню бывает часто.
+    """
+    try:
+        done_by_n = {it.n: it.done for it in phase_checklist(ch)}
+    except Exception:
+        return {}
+    marks: dict[str, str] = {}
+    for prompt_id, phase_n in PROMPT_PHASE_MAP.items():
+        if phase_n in done_by_n:
+            marks[prompt_id] = "x" if done_by_n[phase_n] else " "
+    return marks
+
+
+def print_phase_checklist(ch: Chapter) -> None:
+    """Экран чек-листа: 13 фаз с [x]/[ ], current phase помечена '->'."""
+    items = phase_checklist(ch)
+    next_item = next((it for it in items if not it.done), None)
+    say()
+    separator("=")
+    say("  ЧЕК-ЛИСТ ФАЗ ЧАСТИ")
+    separator("=")
+    say()
+    say(f"  Текущая часть: {ch.describe()}")
+    say(f"    скрипт: {ch.script_rel}")
+    say(f"    отчёт:  {ch.report_rel}")
+    say()
+    if next_item is None:
+        say("  Текущая фаза: все 13 фаз закрыты")
+    else:
+        say(f"  Текущая фаза: {next_item.n}. {next_item.title}")
+    say()
+    say("  ФАЗЫ")
+    for it in items:
+        marker = "->" if (next_item is not None and it.n == next_item.n) else "  "
+        say(f"  {marker} {it.n:>2}. {it.title}")
+        print_wrapped(f"[{'x' if it.done else ' '}] {it.detail}",
+                      indent=" " * 11)
+    say()
+    closed = sum(1 for it in items if it.done)
+    say(f"  Готово: {closed} из {len(items)}.")
+    if next_item is not None:
+        say(f"  Следующая: {next_item.n}. {next_item.title}")
+    say()
+    say("  Примечание: аудиты A/B не входят в чек-лист (скиллы отключены")
+    say("  системой); их результаты приходят извне и на фазы не влияют.")
+    say()
+    separator("=")
+    say()
+
+
+def action_phase_checklist(ch: Chapter) -> int:
+    """Действие: показать чек-лист фаз текущей части."""
+    print_phase_checklist(ch)
+    return 0
+
+
 ACTIONS: list[ActionInfo] = [
+    ActionInfo(
+        "phase-checklist",
+        "Чек-лист фаз части",
+        "13 фаз работы над частью с отметками [x]/[ ] и evidence из файлов "
+        "проекта; первая незакрытая фаза помечена '->'",
+        action_phase_checklist,
+    ),
     ActionInfo(
         "check-project",
         "Автопроверка проекта",
@@ -2108,7 +2884,7 @@ def print_banner() -> None:
     say()
     say("=" * TERMINAL_WIDTH)
     say("  ZnT1 - оркестратор рабочего процесса (промпты и действия)")
-    say("  Единица работы: часть главы game/chapters/<N>/script-<...>.rpy")
+    say("  Единица работы: часть главы game/chapters/<N>/script-ch<N>_<M>.rpy")
     say("=" * TERMINAL_WIDTH)
 
 
@@ -2124,20 +2900,30 @@ def show_prompt_info(info: PromptInfo, ch: Chapter) -> None:
     print_wrapped(textwrap.dedent(info.guide), indent="    ")
     say()
     say(f"  Целевая часть: {ch.describe()}")
-    say(f"  Отчёт части: {ch.report_rel} ({'есть' if ch.report_exists else 'нет'})")
+    say(f"    отчёт: {ch.report_rel}")
     say()
     say("=" * TERMINAL_WIDTH)
 
 
 def prompts_menu(ch: Chapter) -> None:
-    """Подменю режимов (промптов) с генерацией по подтверждению."""
+    """Подменю режимов (промптов) с генерацией по подтверждению.
+
+    Слева от названия - метка фазы чек-листа, которую промпт обслуживает
+    ([x] - фаза закрыта, [ ] - нет; пусто - у промпта своей фазы нет).
+    Метки считаются один раз при входе в меню, а не на каждую перерисовку.
+    """
+    marks = phase_marks_for_prompts(ch)
     while True:
         say()
         say("  РЕЖИМЫ (PROMPTS)")
         separator()
         for index, info in enumerate(PROMPTS, 1):
-            say(f"    {index:>2}. {info.title}   [{info.id}]")
+            mark = marks.get(info.id)
+            cell = f"[{mark}]" if mark is not None else "   "
+            say(f"    {index:>2}. {cell} {info.title}   [{info.id}]")
         say("     0. Назад в главное меню")
+        say()
+        say("  Метка [x]/[ ] - состояние фазы чек-листа (п.5 главного меню).")
         say()
         choice = ask_int("  Ваш выбор: ", 0, len(PROMPTS))
         if choice == 0:
@@ -2243,18 +3029,24 @@ def main_menu(ch: Chapter) -> str:
     """Главное меню; возвращает команду: prompts/actions/change/nav/quit."""
     say()
     say(f"  Текущая часть: {ch.describe()}")
-    say(f"  Скрипт: {ch.script_rel} ({ch.exists_text})")
-    say(f"  Отчёт: {ch.report_rel} ({'есть' if ch.report_exists else 'нет'})")
+    say(f"    файл:  {ch.script_rel}")
+    say(f"    отчёт: {ch.report_rel}")
+    prog = chapter_progress(ch.chapter)
+    say(f"    глава {ch.chapter}: "
+        f"{_plural(prog['parts'], 'файл', 'файла', 'файлов')}; "
+        f"отчётов {prog['reports']} из {prog['units']}")
     say()
     say("  ГЛАВНОЕ МЕНЮ")
     say("    1. Режимы работы (промпты)")
     say("    2. Действия (без генерации промпта)")
     say("    3. Сменить часть вручную")
     say("    4. Навигация")
+    say("    5. Чек-лист фаз (где остановился)")
     say("    0. Выход")
     say()
-    choice = ask_int("  Ваш выбор: ", 0, 4)
-    return {1: "prompts", 2: "actions", 3: "change", 4: "nav", 0: "quit"}[choice]
+    choice = ask_int("  Ваш выбор: ", 0, 5)
+    return {1: "prompts", 2: "actions", 3: "change", 4: "nav",
+            5: "checklist", 0: "quit"}[choice]
 
 
 def interactive_loop() -> int:
@@ -2271,6 +3063,8 @@ def interactive_loop() -> int:
             prompts_menu(ch)
         elif command == "actions":
             actions_menu(ch)
+        elif command == "checklist":
+            print_phase_checklist(ch)
         elif command == "change":
             ch = ask_chapter()
         elif command == "nav":
@@ -2278,13 +3072,14 @@ def interactive_loop() -> int:
 
 
 # ============================================================================
-# SELF-TEST (dry-run: файлы проекта не читаются и не изменяются)
+# SELF-TEST (dry-run: файлы проекта только читаются, ничего не изменяется)
 # ============================================================================
 def self_test_sma() -> int:
     """Самопроверка оркестратора: структура режимов, изоляция фаз, run_id.
 
-    Ничего не пишет: только генерирует промпты в памяти и сверяет их
-    properties. Возвращает 0 - все проверки пройдены, 1 - есть провалы.
+    Ничего не пишет: только генерирует промпты в памяти, читает проект
+    (read-only, в т.ч. для evidence чек-листа) и сверяет properties.
+    Возвращает 0 - все проверки пройдены, 1 - есть провалы.
     """
     checks: list[tuple[str, bool, str]] = []
 
@@ -2298,8 +3093,8 @@ def self_test_sma() -> int:
         "analyzer-phase2", "encoding-check",
     ]
     expected_action_ids = [
-        "check-project", "chapter-state", "source-stats", "image-id-map",
-        "bg-placeholders",
+        "phase-checklist", "check-project", "chapter-state", "source-stats",
+        "image-id-map", "bg-placeholders", "voice-check", "voice-convert",
     ]
 
     prompt_ids = [p.id for p in PROMPTS]
@@ -2322,16 +3117,100 @@ def self_test_sma() -> int:
     check("Границы глав осмыслены",
           PROJECT_CHAPTER_MIN == 0 and PROJECT_CHAPTER_MAX >= 28)
 
-    ch = Chapter(chapter=3, part=2)
+    # Чек-лист фаз
+    phase_ids = [p.id for p in PROMPTS if p.id in PROMPT_PHASE_MAP]
+    check("Чек-лист: PROMPT_PHASE_MAP ссылается только на существующие промпты",
+          set(PROMPT_PHASE_MAP) <= set(prompt_ids),
+          f"лишние: {', '.join(sorted(set(PROMPT_PHASE_MAP) - set(prompt_ids)))}")
+    check("Чек-лист: фазы в карте - числа 1..13",
+          all(isinstance(v, int) and 1 <= v <= 13
+              for v in PROMPT_PHASE_MAP.values()))
+    check("Чек-лист: без фазы остались только continue/resolve-decisions/"
+          "encoding-check",
+          set(prompt_ids) - set(PROMPT_PHASE_MAP)
+          == {"continue", "resolve-decisions", "encoding-check"},
+          ", ".join(sorted(set(prompt_ids) - set(PROMPT_PHASE_MAP))))
+    check("Чек-лист: карта покрывает большинство промптов",
+          len(phase_ids) >= 10, f"{len(phase_ids)} из {len(prompt_ids)}")
+
+    empty_ch = Chapter(chapter="28", part="1")
+    ph_items = phase_checklist(empty_ch)
+    check("Чек-лист: 13 фаз с номерами 1..13",
+          [it.n for it in ph_items] == list(range(1, 14)),
+          f"получено: {[it.n for it in ph_items]}")
+    check("Чек-лист: у каждой фазы есть название и evidence-строка",
+          all(it.title and it.detail for it in ph_items))
+    check("Чек-лист: незакрытая часть даёт незакрытые фазы",
+          any(not it.done for it in ph_items))
+    check("Чек-лист: marks_for_prompts даёт метку только для фазовых промптов",
+          set(phase_marks_for_prompts(empty_ch)) == set(PROMPT_PHASE_MAP))
+    check("Чек-лист: действие phase-checklist есть в ACTIONS",
+          any(a.id == "phase-checklist" and callable(a.execute)
+              for a in ACTIONS))
+
+    ch = Chapter(chapter="3", part="2")
     check("Часть: скрипт по шаблону game/chapters/<N>/script-ch<N>_<M>.rpy",
           ch.script_rel == "game/chapters/3/script-ch3_2.rpy",
           ch.script_rel)
     check("Часть: источник = глава проекта + 1",
           ch.source_chapter_glob.startswith("ps2_source/chapters/chapter_04_"),
           ch.source_chapter_glob)
-    check("Пути SMA начинаются с reports/sma/ и используют прямые слэши",
-          ch.sma_rel == "reports/sma/ch3/ch3_2" and "\\" not in ch.sma_rel,
+    check("Пути SMA: reports/sma/ch<N>/<номер части>/ (прямые слэши)",
+          ch.sma_rel == "reports/sma/ch3/2" and "\\" not in ch.sma_rel,
           ch.sma_rel)
+    check("Отчёт: единица - базовый номер части (5b -> 5.md, общий)",
+          Chapter(chapter="2", part="5b").report_rel == "reports/ch2/5.md",
+          Chapter(chapter="2", part="5b").report_rel)
+    check("Отчёт части 1 существует (reports/ch2/1.md)",
+          Chapter(chapter="2", part="1").report_rel == "reports/ch2/1.md"
+          and Chapter(chapter="2", part="1").report_exists,
+          Chapter(chapter="2", part="1").report_rel)
+    check("Отчёт 4b покрыт отчётом 4 (reports/ch2/4.md существует)",
+          Chapter(chapter="2", part="4b").report_rel == "reports/ch2/4.md"
+          and Chapter(chapter="2", part="4b").report_exists,
+          Chapter(chapter="2", part="4b").report_rel)
+    check("Отчёт главы 3 хранится под id главы (reports/ch3/1.md)",
+          Chapter(chapter="3", part="1").report_rel == "reports/ch3/1.md"
+          and Chapter(chapter="3", part="1").report_exists,
+          Chapter(chapter="3", part="1").report_rel)
+    check("SMA-каталог части хранится по номеру (reports/sma/ch3/1)",
+          Chapter(chapter="3", part="1").sma_rel == "reports/sma/ch3/1",
+          Chapter(chapter="3", part="1").sma_rel)
+
+    chp = Chapter(chapter="2", part="4b")
+    check("Часть с буквенным суффиксом: скрипт и part_id",
+          chp.script_rel == "game/chapters/2/script-ch2_4b.rpy"
+          and chp.part_id == "ch2_4b",
+          f"{chp.script_rel} {chp.part_id}")
+    ch0 = Chapter(chapter="0", part="0")
+    check("Пролог: файл без номера части, part_id ch0",
+          ch0.script_rel == "game/chapters/0/script-ch0.rpy"
+          and ch0.part_id == "ch0",
+          f"{ch0.script_rel} {ch0.part_id}")
+    che = Chapter(chapter="extra", part="sp_l1")
+    check("Глава extra: файл sp_l1.rpy, chapter_id chextra",
+          che.script_rel == "game/chapters/extra/sp_l1.rpy"
+          and che.chapter_id == "chextra" and che.part_id == "sp_l1",
+          f"{che.script_rel} {che.chapter_id} {che.part_id}")
+    try:
+        rt = resolve_chapter("2_4b")
+        ok_rt = rt.script_rel == "game/chapters/2/script-ch2_4b.rpy"
+    except targets.TargetError:
+        ok_rt = False
+    check("Резолвер: 2_4b -> script-ch2_4b.rpy", ok_rt)
+    try:
+        rt = resolve_chapter("script-ch2_4b")
+        ok_rt = rt.part_id == "ch2_4b"
+    except targets.TargetError:
+        ok_rt = False
+    check("Резолвер: имя файла без расширения -> та же часть", ok_rt)
+    try:
+        rt = resolve_chapter("sp_l1")
+        ok_rt = (rt.script_rel == "game/chapters/extra/sp_l1.rpy"
+                 and rt.part_id == "sp_l1")
+    except targets.TargetError:
+        ok_rt = False
+    check("Резолвер: sp_l1 -> глава extra", ok_rt)
 
     run_a = new_audit_run_id(ch)
     run_b = new_audit_run_id(ch)
@@ -2412,16 +3291,17 @@ USAGE = """\
 Использование (запускать из корня проекта):
 
   python tools/agent_workflow.py
-      Интерактивный режим: выбор части, режимы (промпты), действия, навигация.
+      Интерактивный режим: выбор части (свободная цель), режимы (промпты),
+      действия, навигация.
 
   python tools/agent_workflow.py --list
       Печатает id и названия всех PROMPTS и ACTIONS.
 
-  python tools/agent_workflow.py --prompt <id> [--chapter N] [--part M]
+  python tools/agent_workflow.py --prompt <id> [--chapter ЦЕЛЬ] [--part M]
       Генерирует промпт и сохраняет его в agent_prompt.md (корень проекта).
       В консоль выводится ТОЛЬКО путь к файлу, текст промпта не печатается.
 
-  python tools/agent_workflow.py --action <id> [--chapter N] [--part M] [--apply]
+  python tools/agent_workflow.py --action <id> [--chapter ЦЕЛЬ] [--part M] [--apply]
       Выполняет действие (промпт не создаётся). --apply относится к замене
       заглушек (по умолчанию dry-run).
 
@@ -2431,9 +3311,27 @@ USAGE = """\
   python tools/agent_workflow.py --help
       Эта справка.
 
+ЦЕЛЬ --chapter (как в tools/chapter_pipeline.py):
+  2                                    вся глава (папка game/chapters/2/)
+  extra                                глава тундэре/дэре (game/chapters/extra/)
+  2_4b                                 часть 4b главы 2 (script-ch2_4b.rpy)
+  2_4                                  часть 4 главы 2 (script-ch2_4.rpy)
+  script-ch2_5b.rpy / script-ch2_5b    имя файла (ищется по всем главам)
+  sp_l1                                файл главы extra
+  game/chapters/2/script-ch2_4b.rpy    путь от корня проекта
+--part M добавляется к --chapter: --chapter 2 --part 4b == --chapter 2_4b.
+Цель должна называть СУЩЕСТВУЮЩУЮ часть (исключение - пустая папка главы:
+берется первая часть к созданию, режим first-launch). Для цели-папки с
+несколькими частями берётся первая по списку; в интерактиве показывается
+список и выбирается номер.
+
 Примеры:
-  python tools/agent_workflow.py --prompt port-part --chapter 3 --part 2
+  python tools/agent_workflow.py --prompt port-part --chapter 2 --part 4b
+  python tools/agent_workflow.py --prompt port-part --chapter 2_4b
+  python tools/agent_workflow.py --prompt first-launch --chapter 9
   python tools/agent_workflow.py --action chapter-state --chapter 5
+  python tools/agent_workflow.py --action phase-checklist --chapter 3
+  python tools/agent_workflow.py --prompt port-part --chapter script-ch2_5b.rpy
 """
 
 
@@ -2465,11 +3363,13 @@ def parse_cli(argv: list[str]) -> dict | int:
                 return 2
             value = argv[index]
             index += 1
-            if arg == "--chapter" or arg == "--part":
-                try:
-                    value = int(value)
-                except ValueError:
-                    say(f"  {arg} ожидает целое число, получено: {value}")
+            if arg == "--part":
+                # часть свободно: цифры, буквенный суффикс (4b) или имя
+                # файла extra (sp_l1)
+                if not re.fullmatch(r"[A-Za-z0-9_]+", value):
+                    say(f"  --part ожидает номер части (можно с буквенным "
+                        f"суффиксом: 4b) или имя файла extra (sp_l1), "
+                        f"получено: {value}")
                     return 2
             options[arg[2:]] = value
             continue
@@ -2496,14 +3396,35 @@ def cli_list() -> int:
     return 0
 
 
-def cli_resolve_chapter(options: dict) -> Chapter:
-    """Собрать Chapter из --chapter/--part (по умолчанию - глава 0, часть 1)."""
+def cli_resolve_chapter(options: dict) -> Chapter | int:
+    """Собрать Chapter из --chapter/--part (свободная цель).
+
+    Цель --chapter: 2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1 | путь.
+    --part (если задан) добавляется к --chapter:
+      --chapter 2 --part 4b  ==  --chapter 2_4b;
+      --chapter extra --part sp_l1  ==  --chapter sp_l1.
+    По умолчанию (без --chapter и --part) - пролог.
+    Возвращает Chapter либо код ошибки (2).
+    """
     chapter = options.get("chapter")
     part = options.get("part")
-    return Chapter(
-        chapter=PROJECT_CHAPTER_MIN if chapter is None else int(chapter),
-        part=1 if part is None else int(part),
-    )
+    if chapter is None and part is None:
+        raw = str(PROJECT_CHAPTER_MIN)          # по умолчанию - пролог
+    elif part is not None:
+        if chapter is None:
+            say("  --part задан без --chapter: укажите --chapter <глава>.")
+            return 2
+        if str(chapter) == "extra":
+            raw = str(part)                     # файл внутри extra: sp_l1
+        else:
+            raw = f"{chapter}_{part}"
+    else:
+        raw = str(chapter)
+    try:
+        return resolve_chapter(raw)
+    except targets.TargetError as exc:
+        say(f"  {exc}")
+        return 2
 
 
 def cli_prompt(prompt_id: str, ch: Chapter) -> int:
@@ -2546,10 +3467,15 @@ def main(argv: list[str] | None = None) -> int:
     if options["list"]:
         return cli_list()
     if options["prompt"]:
-        return cli_prompt(str(options["prompt"]), cli_resolve_chapter(options))
+        ch = cli_resolve_chapter(options)
+        if isinstance(ch, int):
+            return ch
+        return cli_prompt(str(options["prompt"]), ch)
     if options["action"]:
-        return cli_action(str(options["action"]),
-                          cli_resolve_chapter(options),
+        ch = cli_resolve_chapter(options)
+        if isinstance(ch, int):
+            return ch
+        return cli_action(str(options["action"]), ch,
                           bool(options["apply"]))
     print_wrapped(USAGE)
     return 2

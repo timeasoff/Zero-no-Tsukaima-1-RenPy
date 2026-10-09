@@ -61,8 +61,14 @@ def _chapter_dirs(chapters_dir: Path) -> List[Path]:
     return sorted(d for d in chapters_dir.iterdir() if d.is_dir())
 
 
+def _natural_key(name: str):
+    """Натуральная сортировка имён: ch1_2 перед ch1_10, ch2_4 перед ch2_4b."""
+    return [(1, int(t)) if t.isdigit() else (0, t)
+            for t in re.split(r"(\d+)", name)]
+
+
 def _all_rpy(in_dir: Path) -> List[Path]:
-    return sorted(in_dir.glob("*.rpy"))
+    return sorted(in_dir.glob("*.rpy"), key=lambda p: _natural_key(p.name))
 
 
 def _parts_list(chapter_dir: Path) -> str:
