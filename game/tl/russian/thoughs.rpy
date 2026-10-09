@@ -362,10 +362,10 @@ translate russian strings:
     new "В итоге мы не нашли ни одной улики о вторгшихся."
 
     old "The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting."
-    new "Лёгкость, с которой академия была проникнута, кажется, стала проблемой — учителя начали совещание."
+    new "Лёгкость, с которой в академию проникли, кажется, стала проблемой — учителя начали совещание."
 
     old "So we're left not knowing the details after all. I just can't feel at ease."
-    new "Так что мы остались не зная деталей. Я просто не могу чувствовать себя спокойно."
+    new "Так что мы остались, не зная деталей. Я просто не могу чувствовать себя спокойно."
 
     old "More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today."
     new "Больше всего меня беспокоит, как настойчиво эти ребята охотились за Харуной… Я сомневаюсь, что они сдались после сегодняшнего дня."
@@ -484,7 +484,7 @@ translate russian strings:
     new "Впрочем, это не столько хорошее расположение духа, сколько просто приветливость."
 
     old "If she's going to get along with Haruna, I couldn't ask for more, but..."
-    new "Раз уж она наладит отношения с Харуной, лучше и не пожалеешь, но…"
+    new "Раз уж она наладит отношения с Харуной, лучшего и не пожелаешь, но…"
 
     old "I just hope nothing else strange happens."
     new "Лишь бы больше ничего странного не случилось."

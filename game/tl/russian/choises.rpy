@@ -226,7 +226,7 @@ translate russian strings:
     new "Мы тоже пойдём его ловить?"
 
     old "I'd like to eat breakfast"
-    new "Я бы поел завтрака"
+    new "Я бы позавтракал"
 
 translate russian strings:
 

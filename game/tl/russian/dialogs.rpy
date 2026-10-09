@@ -3647,7 +3647,7 @@ translate russian strings:
     new "Да-а!"
 
     old "Besides, I'd like to eat breakfast."
-    new "Впрочем, я бы поел завтрака."
+    new "Впрочем, я бы позавтракал."
 
     old "Huh?{#ssa}"
     new "Хаа?"
@@ -3706,7 +3706,7 @@ translate russian strings:
     new "Ладно-о."
 
     old "Yes—what people often do is let themselves be trapped by the image a word carries, and narrow the diversity of an attribute themselves..."
-    new "Да, чаще всего люди сами попадают в ловушку образа, который несёт слово, и сами сужают многообразие стихии…"
+    new "Да, чаще всего люди сами попадают в ловушку образа, который слово несёт, и сами сужают многообразие стихии…"
 
     old "Hmm, hmm..."
     new "Хм, хм…"
@@ -3718,7 +3718,7 @@ translate russian strings:
     new "Ну, раз так, дальше я на тебя полагаюсь."
 
     old "'Leave it to you' nothing! Ah, hey!"
-    new "Никакое не «полагаюсь»! Ах, постой!"
+    new "Никаких «полагаюсь»! Ах, постой!"
 
     old "Hm? Is something the matter, Miss Valiere?"
     new "М? Что-то случилось, мадемуазель Вальер?"
@@ -4587,7 +4587,7 @@ translate russian strings:
     new "А, я…?"
 
     old "Well, you looked kind of scared to ask Louise anything, so..."
-    new "Ну, ты казалась напуганной спросить Луизу что-нибудь, так что…"
+    new "Ну, ты казалась слишком напуганной, чтобы спросить Луизу что-нибудь, так что…"
 
     old "......{#ch2.4_si_004}"
     new "……{#ch2.4_si_004}"
@@ -4842,7 +4842,7 @@ translate russian strings:
     new "Глупая собака! Глупый фамильяр! Глупый Сайто!"
 
     old "Honestly, I don't care anymore!"
-    new "Честно говоря, мне больше не всё равно!"
+    new "Честно говоря, мне уже всё равно!"
 
     old "Because of the commotion earlier, the whole academy feels restless."
     new "Из-за переполоха раньше вся академия будто волнуется."
@@ -4947,10 +4947,10 @@ translate russian strings:
     new "Д-да. Теоретически так и есть."
 
     old "Then what you should do is hone your magic and grow strong. If you can serve Her Highness, everything's OK."
-    new "Тогда то, что тебе следует делать — оттачивать магию и становиться сильнее. Если ты сможешь служить Её Высочеству, всё будет в порядке."
+    new "Тогда то, что тебе следует делать, — оттачивать магию и становиться сильнее. Если ты сможешь служить Её Высочеству, всё будет в порядке."
 
     old "...Hearing you talk, the world seems awfully simple."
-    new "…Слушая тебя, мир кажется ужасно простым."
+    new "…Когда я тебя слушаю, мир кажется ужасно простым."
 
     old "What, that's a bad thing?"
     new "Что, это плохо?"
@@ -5240,7 +5240,7 @@ translate russian strings:
     new "Понятно. Если узнаешь что-нибудь — скажи и мне."
 
     old "Understood. Do your best on your patrol too, Darling."
-    new "Поняла. И ты удачи в патруле, Дорогой."
+    new "Поняла. И тебе удачи в патруле, Дорогой."
 
     old "Looks like there's no particular damage here. ...Hey, Tabitha's here."
     new "Похоже, здесь особого ущерба нет. ...Эй, тут Табита."
@@ -5501,7 +5501,7 @@ translate russian strings:
     new "…"
 
     old "U-um... Did I do something wrong?"
-    new "Э-ээ… Кажется, я что-то напорол?"
+    new "Э-ээ… Кажется, я что-то натворил?"
 
     old "I'll be going now."
     new "Я пойду."
@@ -6676,7 +6676,7 @@ translate russian strings:
     new "Теперь раскладываю тесто… и в духовку…"
 
     old "Now we just wait for it to bake right."
-    new "Осталось дождаться, чтобы хорошо испеклось."
+    new "Осталось дождаться, пока хорошо испечётся."
 
     old "I can't wait for them to be done."
     new "Не терпится дождаться готового."
