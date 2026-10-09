@@ -3706,7 +3706,7 @@ translate russian strings:
     new "Ладно-о."
 
     old "Yes—what people often do is let themselves be trapped by the image a word carries, and narrow the diversity of an attribute themselves..."
-    new "Да, чаще всего люди сами попадают в ловушку образа, который слово несёт, и сами сужают многообразие стихии…"
+    new "Да, чаще всего люди попадают в ловушку образа, который слово несёт, и сами сужают многообразие стихии…"
 
     old "Hmm, hmm..."
     new "Хм, хм…"
@@ -3742,7 +3742,7 @@ translate russian strings:
     new "А, а-а… угу. Прости. Мне всё ещё как-то нехорошо."
 
     old "That's not good, you need to rest properly. Though I'm the one who woke you. Sorry."
-    new "Плохо дело, надо тебе как следует лежать. Хотя это я тебя разбудил. Прости."
+    new "Плохо дело, надо тебе как следует выспаться. Хотя это я тебя разбудил. Прости."
 
     old "Ah, no. It's not like that."
     new "А, нет. Всё не так."
@@ -3841,7 +3841,7 @@ translate russian strings:
     new "Да я ничего такого не делал! К тому же ещё даже не ночь…"
 
     old "Right, that's right... This is a bad dream... or an illusion. Just a nightmare, that's it! It has to be!"
-    new "Да, верно… Это дурной сон… или наваждение. Просто кошмар, вот! Так и должно быть!"
+    new "Да, верно… Это дурной сон… или наваждение. Просто кошмар, вот! Так и есть!"
 
     old "Well, you see..."
     new "Да я, э-это…"
@@ -3967,7 +3967,7 @@ translate russian strings:
     new "Хм… Вот как ты о ней беспокоился."
 
     old "Anyway, just as we were talking, Siesta came to check on her too, so I figured it was fine and came back."
-    new "И потом, пока мы немного поболтали, за ней и Сиеста пришла, так что я решил, что всё нормально, и вернулся."
+    new "И потом, пока мы немного поболтали, Сиеста тоже заглянула к ней, так что я решил, что всё нормально, и вернулся."
 
     old "Huh, what's wrong, Louise? You suddenly went quiet."
     new "М, что с тобой, Луиза? Вдруг замолчала."
@@ -4134,7 +4134,7 @@ translate russian strings:
     new "Ещё бы. Это дуэль аристократов, дуэль."
 
     old "That's exactly what's wrong. Your magic isn't something you can just use in front of people."
-    new "Вот именно поэтому и нельзя. Твою магию нельзя вот так запросто применять на людях."
+    new "Вот в том-то и беда. Твою магию нельзя вот так запросто применять на людях."
 
     old "Ugh. That's true, but..."
     new "Угх. Это-то так, но…"
@@ -4191,7 +4191,7 @@ translate russian strings:
     new "А кто ещё? Прошу, остановите этих двоих."
 
     old "Private duels within the academy are strictly forbidden. Miss Valiere, Miss Zerbst! Stop this duel at once!"
-    new "Частные дуэли в академии строго запрещены. Мадемуазель Вальер, мадемуазель Цербст! Немедленно прекратите!"
+    new "Частные дуэли в академии строго запрещены. Мадемуазель Вальер, мадемуазель Цербст! Немедленно прекратите дуэль!"
 
     old "I will not permit a duel in front of my eyes. For one, it disrupts the lesson."
     new "Я не позволю устраивать дуэль прямо у меня на глазах. Во-первых, это мешает уроку."
@@ -4503,7 +4503,7 @@ translate russian strings:
     new "Что!? Подожди, патрулирование, что?"
 
     old "I'm going to take a quick look around the academy."
-    new "Я пойду немного осмотрюсь в академии."
+    new "Я пойду, немного осмотрюсь в академии."
 
     old "Man, it's already this late. It's already deep into the night."
     new "Вот блин, уже так поздно. Уже глубокая ночь."
@@ -4536,13 +4536,13 @@ translate russian strings:
     new "И это ответ, полностью лишённый интереса."
 
     old "Isn't it fine, everyone was safe. It's no more and no less than that."
-    new "Разве это плохо, все были в безопасности. Это не больше и не меньше, чем это."
+    new "Разве это плохо, все были в безопасности. Ни больше, ни меньше."
 
     old "Well, if you put it that way, you're right."
     new "Ну, если так выразиться, ты права."
 
     old "Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say."
-    new "Эй, сейчас! Я не думаю, что помешает сказать доброе слово благодарности или хотя бы одно, я говорю."
+    new "Эй, сейчас! Я не думаю, что помешает сказать хоть одно доброе слово, я говорю."
 
     old "Yes, yes. Good work."
     new "Да-да. Молодец."
@@ -4608,7 +4608,7 @@ translate russian strings:
     new "Я всё ещё чувствую некоторую вялость, но… Но, думаю, я в основном в порядке."
 
     old "You'd better not overdo it. Rest properly until you're fully recovered."
-    new "Тебе лучше не переусердствовать. Отдыхай должным образом, пока полностью не выздоровеешь."
+    new "Тебе лучше не переусердствовать. Отдыхай как следует, пока полностью не выздоровеешь."
 
     old "Thank you, Hiraga-kun.{#ch2.4_ha_004}"
     new "Спасибо, Хирага-кун."
@@ -4620,7 +4620,7 @@ translate russian strings:
     new "А? Не скажи, что ты ещё не ужинал?"
 
     old "Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything."
-    new "Да. Я патрулировал и пропустил возможность поесть. Буду признателен, если есть что-нибудь."
+    new "Да. Я патрулировал и упустил возможность поесть. Буду признателен, если есть что-нибудь."
 
     old "If you'd told me, I would have prepared something. Let me bring it now."
     new "Если бы ты сказал, я бы приготовила. Сейчас принесу."
@@ -4656,10 +4656,10 @@ translate russian strings:
     new "Как это!?"
 
     old "You've never shown such attentive behavior up until now, have you?"
-    new "Ты никогда не проявляла такого внимательного отношения до сих пор, не так ли?"
+    new "Ты никогда не проявлял такого внимательного отношения до сих пор, не так ли?"
 
     old "And yet you're being kind to that girl. You'd think that's odd, wouldn't you?"
-    new "И всё же ты добра к этой девушке. Ты бы подумала, что это странно, не так ли?"
+    new "И всё же ты добр к этой девушке. Ты бы подумал, что это странно, не так ли?"
 
     old "Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?"
     new "Ну, даже если ты так говоришь… Харуна из того же мира, что и я, и она больна. Что плохого в том, чтобы быть добрым к ней?"
@@ -4866,7 +4866,7 @@ translate russian strings:
     new "Я думала, куда ты бродишь, а вот ты где."
 
     old "Good grief, wandering off on your own away from your master — what are you thinking?"
-    new "Господи, бродишь сам по себе вдали от своей хозяйки — о чём ты думаешь?"
+    new "Господи, бродишь сам по себе вдали от своей госпожи — о чём ты думаешь?"
 
     old "Uh, that was thoughtless of me. Sorry."
     new "Это было бездумно с моей стороны. Прости."
@@ -5037,7 +5037,7 @@ translate russian strings:
     new "Нет, это не так уж важно. Я могу только столько."
 
     old "No, that IS a big deal. And yet you don't boast about it... You're so humble, Saito-san."
-    new "Нет, это УЖЕ важно. И всё же ты не хвастаешься этим… Ты так скромен, Сайто-сан."
+    new "Нет, это ВАЖНО. И всё же ты не хвастаешься этим… Ты так скромен, Сайто-сан."
 
     old "Ah, no, hahaha..."
     new "А, нет, ха-ха-ха…"
@@ -5067,10 +5067,10 @@ translate russian strings:
     new "Ч-что? Почему ты так думаешь?"
 
     old "Because if that earlier explosion was Miss Vallière's doing, there'd be no need for you to patrol, Saito-san."
-    new "Потому что если тот ранний взрыв был делом мадемуазель Вальер, тебе незачем было бы патрулировать, Сайто-сан."
+    new "Потому что если тот недавний взрыв был делом мадемуазель Вальер, тебе незачем было бы патрулировать, Сайто-сан."
 
     old "You told that lie on purpose to keep me from worrying, didn't you, Saito-san?"
-    new "Ты сказал эту ложь специально, чтобы я не волновалась, не так ли, Сайто-сан?"
+    new "Ты соврал специально, чтобы я не волновалась, не так ли, Сайто-сан?"
 
     old "Hmm, you've seen right through me. Sorry, Siesta. You're right, that was all a lie."
     new "Хм, ты меня раскусила. Прости, Сиеста. Ты права, это была сплошная ложь."
@@ -5234,7 +5234,7 @@ translate russian strings:
     new "Насчёт взрыва — следов применения бомбы или магии нет. Ну, по крайней мере это."
 
     old "Though Professor Colbert took the surrounding soil to his research room, so he's probably planning to examine that as well."
-    new "Хотя профессор Кольбер забрал землю вокруг в свою исследовательскую комнату, так что, вероятно, он тоже намерен кое-что проверить."
+    new "Правда, профессор Кольбер забрал землю вокруг в свою исследовательскую комнату, так что, вероятно, он тоже намерен кое-что проверить."
 
     old "I see. If you find anything, let me know too."
     new "Понятно. Если узнаешь что-нибудь — скажи и мне."
@@ -5255,7 +5255,7 @@ translate russian strings:
     new "…В порядке?"
 
     old "The explosion just now. There was a huge noise outside, right?"
-    new "Тот взрыв сейчас. Слышен был сильный шум снаружи, помнишь?"
+    new "Тот взрыв только что. Слышен был сильный шум снаружи, помнишь?"
 
     old "...Mm-hm."
     new "…Угу."
@@ -5453,7 +5453,7 @@ translate russian strings:
     new "Просто сиди тихо, ладно?"
 
     old "Eh, yes. I intend to stay in this room just as I was told."
-    new "Да. Я, как сказали, не собираюсь выходить из этой комнаты."
+    new "Да. Я, как мне сказали, не собираюсь выходить из этой комнаты."
 
     old "Good, then you'll be fine."
     new "Хорошо, тогда всё будет хорошо."
@@ -5483,7 +5483,7 @@ translate russian strings:
     new "Да, поняла."
 
     old "Well, I'm off to patrol the rest."
-    new "Ладно, я пойду патрулирую остальное."
+    new "Ладно, я пойду, патрулирую остальное."
 
     old "You be careful too, Hiraga-kun."
     new "Ты тоже берегись, Хирага-кун."
@@ -5588,7 +5588,7 @@ translate russian strings:
     new "Сиеста… Ч-чего тебе нужно, простолюдинка?"
 
     old "I had Saito-san wait in his room. It's only me and Miss Vallière here — no one else will hear us."
-    new "Я оставила Сайто в комнате. Здесь только я и мадемуазель Вальер — нас никто не услышит."
+    new "Я оставила Сайто-сан в комнате. Здесь только я и мадемуазель Вальер — нас никто не услышит."
 
     old "Huh...?{#ch2.5_l5867}"
     new "А…?"
@@ -5600,22 +5600,22 @@ translate russian strings:
     new "О-о чём ты?"
 
     old "Right now, since Haruna showed up, Saito-san thinks about nothing but her..."
-    new "Сейчас Сайто, с тех пор как появилась Харуна, думает только о ней…"
+    new "Сейчас Сайто-сан, с тех пор как появилась Харуна, думает только о ней…"
 
     old "No, even that's putting it too strongly — but right now he's putting Haruna first of all."
     new "Нет, это, быть может, преувеличение, но сейчас он ставит Харуну на первое место."
 
     old "Of course, I know that's just Saito-san's kindness at heart."
-    new "Разумеется, я понимаю, что это просто доброта Сайто."
+    new "Разумеется, я понимаю, что это просто доброта Сайто-сан."
 
     old "……。{#ch2.5_l5869}"
     new "…"
 
     old "However you look at it, I'm certain Haruna has feelings for Saito-san."
-    new "Как ни посмотри, у Харуны определённо есть чувства к Сайто."
+    new "Как ни посмотри, у Харуны определённо есть чувства к Сайто-сан."
 
     old "If this goes on, Haruna will take Saito-san away from us. No — if it were only that, it would still be fine, but..."
-    new "Если так пойдёт, Харуна заберёт у нас Сайто. Нет, если бы только это — ещё куда ни шло, но…"
+    new "Если так пойдёт, Харуна заберёт у нас Сайто-сан. Нет, если бы только это — ещё куда ни шло, но…"
 
     old "At worst, he might leave the academy with Haruna to look for a way back to the original world."
     new "В худшем случае он может уйти из академии вместе с Харуной в поисках способа вернуться в прежний мир."
@@ -5633,22 +5633,22 @@ translate russian strings:
     new "…"
 
     old "Haruna is from the same world as Saito-san."
-    new "Харуна из того же мира, что и Сайто."
+    new "Харуна из того же мира, что и Сайто-сан."
 
     old "Th-that's true, but..."
     new "Э-это так, но…"
 
     old "Saito-san won't say it, but I'm sure he's homesick even now."
-    new "Сайто и словом не обмолвится, но, должно быть, и сейчас тоскует по родине."
+    new "Сайто-сан и словом не обмолвится, но, должно быть, и сейчас тоскует по родине."
 
     old "And for Saito-san like that, Haruna is his hometown."
-    new "А для такого Сайто Харуна и есть родина."
+    new "А для такого Сайто-сан Харуна и есть родина."
 
     old "I'm sure he must have special feelings for Haruna."
-    new "Наверняка Сайто испытывает к Харуне особые чувства."
+    new "Наверняка Сайто-сан испытывает к Харуне особые чувства."
 
     old "And what's worse, Haruna senses her hometown in Saito-san too. And she's trying to use it."
-    new "Мало того — Харуна тоже чувствует в Сайто родину. И пытается этим воспользоваться."
+    new "Мало того — Харуна тоже чувствует в Сайто-сан родину. И пытается этим воспользоваться."
 
     old "U-use!?"
     new "В-воспользоваться?!"
@@ -5669,16 +5669,16 @@ translate russian strings:
     new "…Тогда что получается? Что она притворяется больной и пользуется добротой Сайто?"
 
     old "Exactly. Honest, kind, and easy to fool — Saito-san hasn't noticed it."
-    new "Именно. Сайто — честный, добрый и легковерный — этого не замечает."
+    new "Именно. Сайто-сан — честный, добрый и легковерный — этого не замечает."
 
     old "That's a rather barbed way to put it..."
     new "Какая-то колкая вышла формулировка…"
 
     old "Haruna has been using the fake illness to monopolize Saito-san even more."
-    new "Харуна пользовалась притворной болезнью, чтобы ещё сильнее прибрать Сайто к рукам."
+    new "Харуна пользовалась притворной болезнью, чтобы ещё сильнее прибрать Сайто-сан к рукам."
 
     old "I believe she saw the relationship between us and Saito-san, and decided to make her move."
-    new "Должно быть, она увидела наши отношения с Сайто и решила бросить вызов."
+    new "Должно быть, она увидела наши отношения с Сайто-сан и решила бросить вызов."
 
     old "If we leave this alone, it's exactly what Haruna wants."
     new "Если оставить как есть — Харуна добьётся своего."
@@ -5738,13 +5738,13 @@ translate russian strings:
     new "…Спокойной ночи."
 
     old "For now, let's put off the strategy meeting. I won't let Haruna keep putting on airs."
-    new "Стратегический совет — попозже. Не дам я этой Харуне вечно важничать."
+    new "Стратегическое совещание — попозже. Не дам я этой Харуне вечно важничать."
 
     old "Yes, Miss Vallière! For Saito-san's sake too!"
-    new "Да, мадемуазель Вальер! И ради Сайто тоже!"
+    new "Да, мадемуазель Вальер! И ради Сайто-сан тоже!"
 
     old "S-Saito has nothing to do with it! He never gives a thought to his master! About that stupid familiar..."
-    new "С-Сайто вообще неважен! Он совсем не думает о своей хозяйке! Этот глупый фамильяр…"
+    new "С-Сайто вообще неважен! Он совсем не думает о своей госпоже! Этот глупый фамильяр…"
 
     old "R-right..."
     new "Д-да…"
@@ -5783,7 +5783,7 @@ translate russian strings:
     new "Даже если ты и не пойдёшь, Хирага-кун — Луиза-сан ведь скоро вернётся? Похоже, Сиеста пошла её встречать."
 
     old "No, she won't. My master is one stubborn customer."
-    new "Нет, не вернётся. Моя хозяйка — упрямица."
+    new "Нет, не вернётся. Моя госпожа — упрямица."
 
     old "If I don't go meet her myself, she can't bring herself to come back straight. What a troublesome girl."
     new "Если я сам не пойду ей навстречу, она не сможет вернуться по-хорошему. Какая же она хлопотная."
@@ -6173,7 +6173,7 @@ translate russian strings:
     new "Луиза! Сиеста!"
 
     old "Goodness, look at that shocked face..."
-    new "Ну и выражение лица, ничего себе удивились…"
+    new "Ну и выражение лица! Ничего себе, удивился…"
 
     old "You... You were so late, you had me worried sick, you know?"
     new "Да ты ж… Так долго тебя не было, я ж перепугался, чё уж."
@@ -6371,7 +6371,7 @@ translate russian strings:
     new "Так… эй? А куда это она делась?"
 
     old "Sorry to keep you waiting!"
-    new "Не заставила ждать!"
+    new "Прости, что заставила ждать!"
 
     old "Where were you? And what's that in your hand?"
     new "Где ты была? И что это у тебя в руке?"
@@ -6416,7 +6416,7 @@ translate russian strings:
     new "Но если не пить молоко сейчас, я так и останусь прежней! Точно, я уверена!"
 
     old "In that case! Betting on an old saying is also a path worth taking."
-    new "Значит! Ставка на старую примету — тоже выход."
+    new "Значит! Ставка на старое поверье — тоже выход."
 
     old "Fufufufufufufu... Once I drink this, I'll leave Kirche in the dust..."
     new "Фуфуфуфуфуфу… Выпью это — и Кирхе останется позади…"
@@ -6850,7 +6850,7 @@ translate russian strings:
     new "А…"
 
     old "Here, sorry to keep you waiting. This one's yours, Tabitha."
-    new "На, не заставил ждать. Это твоё, Табита."
+    new "На, извини, что заставил ждать. Это твоё, Табита."
 
     old "Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine."
     new "А, кстати, это какой сок? Меню прочитать не смог, так что взял наугад — не страшно?"

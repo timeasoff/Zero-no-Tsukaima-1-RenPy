@@ -377,7 +377,7 @@ translate russian strings:
     new "Теперь. Даже если я патрулирую, с чего начать?"
 
     old "Ah... having girls welcome me home can make me feel this happy."
-    new "Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливо."
+    new "Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливым."
 
     old "I-is that so?"
     new "П-правда?"
@@ -394,10 +394,10 @@ translate russian strings:
     new "Она просто читает книгу, как ни в чём не бывало. Будто той суматохи вообще не было."
 
     old "Being ignored this skillfully is honestly kind of refreshing..."
-    new "Когда тебя так мастерски игнорируют, это даже освежающе..."
+    new "Когда тебя так мастерски игнорируют, это даже освежает..."
 
     old "Um... I'm not imagining things, right?"
-    new "Эм... это, кажется, не моя фантазия, да?"
+    new "Эм... это, кажется, не моё воображение, да?"
 
     old "Um, um... I have no idea how I'm supposed to react!"
     new "Эм, эм... я понятия не имею, как на это реагировать!"
@@ -427,13 +427,13 @@ translate russian strings:
     new "Луизу пока оставлю Сиесте — наверное, она справится."
 
     old "Still, those two are taking their sweet time coming back..."
-    new "И всё же они вдвоём почему-то не возвращаются…"
+    new "И всё же они вдвоём не возвращаются…"
 
     old "I wonder if Siesta can't find Louise?"
     new "Может, Сиеста так и не нашла Луизу?"
 
     old "Or maybe it's Louise — she's stubborn in the oddest ways... She might not be able to make herself come back."
-    new "Или Луиза упрямая на редкость… Может, она уже не может заставить себя вернуться."
+    new "Или Луиза на редкость упрямая… Может, она уже не может заставить себя вернуться."
 
     old "How far did that girl go anyway?"
     new "А куда это ушла?"
@@ -501,7 +501,7 @@ translate russian strings:
 translate russian strings:
 
     old "Whew... Louise has it rough too, in her own way. I really do admire that grit of hers."
-    new "Фух… И у Луизы трудности. За такое упрямство — уважение, честно."
+    new "Фух… И у Луизы трудности. За такое упрямство — уважаю, честно."
 
     old "She's turned it into a whole life creed... come on."
     new "Уже образ жизни в кредо превратила, слушай."
