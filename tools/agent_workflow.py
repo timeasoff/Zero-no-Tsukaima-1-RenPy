@@ -31,8 +31,17 @@ ACTIONS - детерминированные действия оркестрат
 - чек-лист фаз части: 13 фаз с отметками [x]/[ ] и evidence из файлов проекта,
   текущая (первая незакрытая) фаза помечена "->"; метки фаз видны и слева от
   названий режимов в меню РЕЖИМЫ;
-- неинтерактивный режим: --list, --prompt <id> --chapter ЦЕЛЬ [--part M],
-  --action <id> --chapter ЦЕЛЬ [--part M], --self-test-sma (dry-run).
+- охват (scope): "часть" (по умолчанию) либо "вся глава". В охвате "вся глава"
+  ПРОВЕРОЧНЫЕ режимы (translate-edit, full-audit, grammar-audit, style-audit,
+  humanizer, encoding-check, pragmatic-c, analyzer-phase1, analyzer-phase2)
+  гоняются по всем script-файлам главы разом: итоговые разделы пишутся в
+  отчёт КАЖДОЙ затронутой части, SMA evidence - в reports/sma/ch<N>/chapter/,
+  чек-лист агрегируется по всем частям. Режимы порта/голосов/решений на главу
+  не накладываются (помечаются (*) и к генерации не допускаются). Переключение
+  - п.6 главного меню, выбор "в" в списке частей или --scope chapter;
+- неинтерактивный режим: --list, --prompt <id> --chapter ЦЕЛЬ [--part M]
+  [--scope part|chapter], --action <id> --chapter ЦЕЛЬ [--part M]
+  [--scope part|chapter], --self-test-sma (dry-run).
 
 КОНСОЛЬ: PowerShell здесь cp1251. Японский текст в print()/input() не попадает
 (см. say()); тексты промптов выводятся только в файл и в буфер обмена.
@@ -145,6 +154,15 @@ def print_wrapped(
 # ============================================================================
 # МОДЕЛЬ: ГЛАВА + ЧАСТЬ
 # ============================================================================
+# Единица каталога SMA для охвата «вся глава» (reports/sma/ch<N>/<unit>/).
+# Не пересекается с единицами частей: они - числа (0, 1, ...) либо sp_*.
+CH_SCOPE_SMA_UNIT = "chapter"
+
+# Охваты: одна часть (по умолчанию) либо вся глава целиком.
+SCOPE_PART = "part"
+SCOPE_CHAPTER = "chapter"
+
+
 @dataclass
 class Chapter:
     """Глава проекта и её часть - единица работы оркестратора.
@@ -152,6 +170,10 @@ class Chapter:
     chapter - имя папки главы: '0'...'28' или 'extra' (контент тундэре/дэре).
     part    - часть главы: '1', '4b', '5b'; пролог - '0'; extra - имя файла
               без расширения ('sp_l1').
+    scope   - охват: SCOPE_PART (одна часть, по умолчанию) либо SCOPE_CHAPTER
+              (вся глава сразу). В охвате «вся глава» поле part - только
+              представитель (первая существующая часть): скрипты, отчёты и
+              единицы берутся по всем частям главы (см. scope_parts).
 
     Идентификаторы:
       chapter_id = ch<N> для числовых глав, chextra для extra
@@ -159,9 +181,12 @@ class Chapter:
                    (ch2_4b), sp_l1 для extra-файла.
     part_id совпадает с именем лейбла Ren'Py этой части и с именем каталога
     в reports/ и reports/sma/.
+    Для охвата «вся глава» в заголовках используй scope_object / scope_label,
+    в JSON SMA - part_key.
     """
     chapter: str
     part: str = "1"
+    scope: str = SCOPE_PART
 
     # --- идентификаторы ---
     @property
@@ -179,6 +204,32 @@ class Chapter:
     @property
     def label(self) -> str:
         """Лейбл Ren'Py этой части (ch<N>, ch<N>_2, ...; extra - имя файла)."""
+        return self.part_id
+
+    @property
+    def is_chapter_scope(self) -> bool:
+        """True - охват «вся глава» (все части сразу, а не одна)."""
+        return self.scope == SCOPE_CHAPTER
+
+    @property
+    def scope_label(self) -> str:
+        """Человекочитаемый идентификатор охвата (заголовки, карточки)."""
+        if self.is_chapter_scope:
+            return f"{self.chapter_id} (вся глава)"
+        return self.part_id
+
+    @property
+    def scope_object(self) -> str:
+        """Объект работы в родительном падеже: «ЧАСТИ ch2_4b» / «ВСЕЙ ГЛАВЫ ch3»."""
+        if self.is_chapter_scope:
+            return f"ВСЕЙ ГЛАВЫ {self.chapter_id}"
+        return f"ЧАСТИ {self.part_id}"
+
+    @property
+    def part_key(self) -> str:
+        """Значение поля "part" в JSON SMA: часть либо ch<N>/* для главы."""
+        if self.is_chapter_scope:
+            return f"{self.chapter_id}/*"
         return self.part_id
 
     @property
@@ -254,6 +305,33 @@ class Chapter:
     def report_exists(self) -> bool:
         return os.path.isfile(self.report_path)
 
+    # --- охват: части и отчёты текущего охвата ---
+    @property
+    def scope_parts(self) -> list["Chapter"]:
+        """Части, входящие в охват: все части главы либо только эта часть.
+
+        Для охвата «вся глава» у неначатой главы (нет .rpy) возвращается
+        сама эта часть - работаем по шаблону первой части.
+        """
+        if not self.is_chapter_scope:
+            return [self]
+        return _chapter_files(self) or [self]
+
+    @property
+    def scope_units(self) -> list[str]:
+        """Единицы отчётов/SMA в охватах (уникальные, в порядке частей)."""
+        units: list[str] = []
+        for p in self.scope_parts:
+            if p.report_unit not in units:
+                units.append(p.report_unit)
+        return units
+
+    @property
+    def scope_report_paths(self) -> list[str]:
+        """Абсолютные пути отчётов всех единиц охвата (без дублей)."""
+        return [os.path.join(ROOT, "reports", self.chapter_id, f"{u}.md")
+                for u in self.scope_units]
+
     @property
     def log_rel(self) -> str:
         return "reports/log.md"
@@ -288,18 +366,30 @@ class Chapter:
             for lang in TL_LANGS
         }
 
-    # --- каталоги SMA (независимый аудит; единица - см. report_unit) ---
+    # --- каталоги SMA (независимый аудит; единица - report_unit, для охвата
+    #     «вся глава» - отдельная единица CH_SCOPE_SMA_UNIT) ---
+    @property
+    def sma_unit(self) -> str:
+        return CH_SCOPE_SMA_UNIT if self.is_chapter_scope else self.report_unit
+
     @property
     def sma_rel(self) -> str:
-        return f"reports/sma/{self.chapter_id}/{self.report_unit}"
+        return f"reports/sma/{self.chapter_id}/{self.sma_unit}"
 
     def sma_dir(self, kind: str) -> str:
         return os.path.join(ROOT, "reports", "sma", self.chapter_id,
-                            self.report_unit, kind)
+                            self.sma_unit, kind)
 
     # --- служебное ---
     def describe(self) -> str:
         """Краткая строка состояния части для консоли (ASCII + кириллица)."""
+        if self.is_chapter_scope:
+            units = self.scope_units
+            reports = sum(1 for u in units if os.path.isfile(
+                os.path.join(ROOT, "reports", self.chapter_id, f"{u}.md")))
+            return (f"{self.scope_label}  (глава {self.chapter}; "
+                    f"частей: {len(self.scope_parts)}; "
+                    f"отчётов {reports} из {len(units)})")
         return (f"{self.part_id}  (глава {self.chapter}, часть {self.part}; "
                 f"скрипт: {self.exists_text}; "
                 f"отчёт: {'есть' if self.report_exists else 'нет'})")
@@ -345,11 +435,13 @@ def ask_chapter() -> Chapter:
     Формы: 2 | extra | 2_4b | script-ch2_5b.rpy | script-ch2_5b | sp_l1,
     путь от корня game/chapters/2/script-ch2_4b.rpy. Выбор - в ОДИН ввод:
     цель с частью (2_4b) разрешается сразу; для цели-папки печатается список
-    частей с прогрессом, где Enter/номер/новая цель тоже выбирают часть.
-    Пустой ввод - полный прогресс проекта по всем главам.
+    частей с прогрессом, где Enter/номер/«в» (вся глава)/новая цель тоже
+    выбирают объект работы. Охват «вся глава» доступен и переключением
+    пункта меню «Охват».
+    Пустой ввод - полный инвентарь проекта по всем главам.
     """
     say()
-    say("Выбор части")
+    say("Выбор части или охвата")
     separator()
     say()
     _print_target_help()
@@ -375,7 +467,7 @@ def ask_chapter() -> Chapter:
             continue
         ch = chs[0] if len(chs) == 1 else _pick_part(chs)
         say()
-        say(f"  Выбрано: {ch.part_id}")
+        say(f"  Выбрано: {ch.scope_label}")
         return ch
 
 
@@ -393,6 +485,20 @@ def chapter_from_file(d: Path, f: Path) -> Chapter:
     if m:
         return Chapter(chapter=d.name, part=m.group(1))
     return Chapter(chapter=d.name, part=f.stem)   # sp_l1 и т.п.
+
+
+def with_scope(ch: Chapter, scope: str) -> Chapter:
+    """Та же глава с другим охватом.
+
+    В охвате «вся глава» поле part нормализуется в первую существующую
+    часть (представитель): заголовки и навигация не показывают случайно
+    выбранную часть как объект работы.
+    """
+    if scope == SCOPE_CHAPTER:
+        parts = _chapter_files(ch)
+        part = parts[0].part if parts else ch.part
+        return Chapter(chapter=ch.chapter, part=part, scope=SCOPE_CHAPTER)
+    return Chapter(chapter=ch.chapter, part=ch.part, scope=SCOPE_PART)
 
 
 def resolve_chapter(raw: str) -> Chapter:
@@ -545,17 +651,22 @@ def _show_parts_list(chs: list[Chapter]) -> None:
 
 
 def _pick_part(chs: list[Chapter]) -> Chapter:
-    """Выбор части из списка в ОДИН ввод.
+    """Выбор части (или всей главы) из списка в ОДИН ввод.
 
-    Enter - первая часть; номер 1..N (0) - часть по номеру; любая другая
-    строка - новая цель (2_5b, sp_l1, путь): если она разрешается в одну
-    часть - сразу возвращается, в список - показывается новый список.
+    Enter - первая часть; номер 1..N (0) - часть по номеру; «в»/«вся глава»/
+    «*» - охват всей главы; любая другая строка - новая цель (2_5b, sp_l1,
+    путь): если она разрешается в одну часть - сразу возвращается, в список -
+    показывается новый список.
     """
     while True:
         _show_parts_list(chs)
-        raw = _input(f"  Выбор (Enter - первая, 1..{len(chs)}, или цель): ").strip()
+        say("    «в» или «*» - вся глава сразу (для проверочных промптов)")
+        raw = _input(f"  Выбор (Enter - первая, 1..{len(chs)}, в - вся глава, "
+                     f"или цель): ").strip()
         if raw == "":
             return chs[0]
+        if raw.lower() in ("в", "вся", "вся глава", "chapter", "all", "*"):
+            return with_scope(chs[0], SCOPE_CHAPTER)
         if raw.isdigit():
             n = int(raw)
             if 1 <= n <= len(chs):
@@ -711,24 +822,167 @@ def inventory_text(inv: dict) -> str:
 
 
 # ============================================================================
+# ОХВАТ «ВСЯ ГЛАВА»: ПЕРЕЧНИ ФАЙЛОВ/ОТЧЁТОВ, СУММАРНЫЙ ИНВЕНТАРЬ
+# ============================================================================
+def scope_scripts_text(ch: Chapter) -> str:
+    """Проверяемые скрипты охвата построчно с отступом (для блока)."""
+    return "\n".join(f"  {p.script_rel}" for p in ch.scope_parts)
+
+
+def scope_area(ch: Chapter) -> str:
+    """«этой части» либо «всех частей главы» (для вставки в фразу)."""
+    if ch.is_chapter_scope:
+        return "всех частей главы"
+    return "этой части"
+
+
+def scope_walk(ch: Chapter) -> str:
+    """Как обозначить проход по репликам в приказе промпта."""
+    if ch.is_chapter_scope:
+        return "по репликам каждой части в порядке её сценария"
+    return "по репликам части в порядке сценария"
+
+
+def scope_noun(ch: Chapter) -> str:
+    """«охват» / «часть» в родительном падеже («картина охвата», ...)."""
+    if ch.is_chapter_scope:
+        return "охвата"
+    return "части"
+
+
+def scope_file_field(ch: Chapter) -> str:
+    """Правило поля «file» в JSON SMA (нужно только для главового охвата).
+
+    В охвате «вся глава» номера строк повторяются в разных частях, поэтому
+    находка обязана назвать script-файл своей части. Возвращает строку с
+    ведущим переводом строки (для вставки в конец списка) либо "".
+    """
+    if not ch.is_chapter_scope:
+        return ""
+    return ('\n- в каждой находке обязательно поле "file" - имя script-файла\n'
+            "  той части, где находится строка: номера строк разных частей\n"
+            "  совпадают, без file находки неразличимы.")
+
+
+def scope_file_json(ch: Chapter) -> str:
+    """Вставка поля «file» в примеры JSON SMA (пусто для охвата «часть»)."""
+    if not ch.is_chapter_scope:
+        return ""
+    return '\n      "file": "<имя script-файла части>",'
+
+
+def scope_candidate_id(ch: Chapter) -> str:
+    """Паттерн candidate_id: с file в главовом охвата (номера строк коллидируют)."""
+    if ch.is_chapter_scope:
+        return "C-<file>-<line>-<NN>"
+    return "C-<line>-<NN>"
+
+
+def report_in(ch: Chapter) -> str:
+    """«в отчёте части X» либо «в отчётах всех частей» (для вставки в фразу)."""
+    if ch.is_chapter_scope:
+        return "в отчётах всех частей (перечень - в блоке ЕДИНИЦА РАБОТЫ)"
+    return f"в отчёте части {ch.report_rel}"
+
+
+def report_of(ch: Chapter) -> str:
+    """Путь одного отчёта либо перечень отчётов охвата (после двоеточия)."""
+    if ch.is_chapter_scope:
+        return "отчёты всех частей (перечень - в блоке ЕДИНИЦА РАБОТЫ)"
+    return ch.report_rel
+
+
+def scope_reports_text(ch: Chapter) -> str:
+    """Отчёты всех единиц охвата построчно с отступом (без дублей)."""
+    return "\n".join(f"  reports/{ch.chapter_id}/{u}.md"
+                     for u in ch.scope_units)
+
+
+def scope_inventory(ch: Chapter) -> dict:
+    """Суммарный инвентарь охвата (по всем частям главы)."""
+    total = {"exists": False, "parts": 0, "lines": 0, "nonempty": 0,
+             "voice": 0, "menu": 0, "jump": 0, "labels": 0, "strings": 0}
+    for p in ch.scope_parts:
+        inv = part_inventory(p)
+        total["parts"] += 1
+        if inv["exists"]:
+            total["exists"] = True
+        for key in ("lines", "nonempty", "voice", "menu", "jump",
+                    "labels", "strings"):
+            total[key] += inv[key]
+    return total
+
+
+def scope_inventory_text(ch: Chapter) -> str:
+    """Человекочитаемая численная картина охвата (без японского)."""
+    if not ch.is_chapter_scope:
+        return inventory_text(part_inventory(ch))
+    inv = scope_inventory(ch)
+    if not inv["exists"]:
+        return "файлы частей главы ещё не созданы"
+    return (f"частей: {inv['parts']}, строк: {inv['lines']} "
+            f"(непустых: {inv['nonempty']}), "
+            f"строк со звуком: {inv['voice']}, "
+            f"строк с текстом: {inv['strings']}, menu: {inv['menu']}, "
+            f"jump: {inv['jump']}, label: {inv['labels']}")
+
+
+def chapter_scope_context(ch: Chapter) -> str:
+    """Блок контекста для охвата «вся глава» (добавляется к project_context).
+
+    Перечни файлов и отчётов уже даны в блоке «ЕДИНИЦА РАБОТЫ» (см.
+    _unit_block) - здесь только правила охвата, чтобы не дублировать списки.
+    """
+    sma_dirs = "\n".join(f"  {d}/" for d in sma_input_dirs(ch))
+    return f"""
+ОХВАТ ЭТОГО ЗАДАНИЯ - ВСЯ ГЛАВА {ch.chapter_id}, а не одна часть
+(файлы главы и отчёты частей перечислены в блоке ЕДИНИЦА РАБОТЫ выше).
+Единица проверки - строка/реплика КАЖДОЙ из перечисленных частей в порядке
+её сценария. Итоговые разделы аудита пишутся в отчёт КАЖДОЙ затронутой
+части (список отчётов - в блоке ЕДИНИЦА РАБОТЫ), а не в один общий файл;
+спорное - в {ch.log_rel}.
+Каталоги SMA этого охвата (аудит C и pre-check пишут в главовый,
+Analyzer Фазы 2 читает все перечисленные):
+{sma_dirs}
+Части, не входящие в список файлов выше, в работу не берутся.
+""".strip()
+
+
+# ============================================================================
 # КОНТЕКСТ ПРОЕКТА
 # ============================================================================
+def _unit_block(ch: Chapter) -> str:
+    """Блок «единица работы» для project_context (часть либо вся глава)."""
+    if ch.is_chapter_scope:
+        return (
+            f"части главы (охват «вся глава»; три файла каждой части пишутся\n"
+            f"синхронно):\n{scope_scripts_text(ch)}\n"
+            f"  game/tl/japanese/<bucket>.rpy\n"
+            f"  game/tl/russian/<bucket>.rpy\n"
+            f"Отчёты частей:\n{scope_reports_text(ch)}\n"
+            f"Журнал решений: {ch.log_rel}"
+        )
+    return (
+        f"часть главы (итерация; три файла пишутся синхронно):\n"
+        f"  {ch.script_rel}\n"
+        f"  game/tl/japanese/<bucket>.rpy\n"
+        f"  game/tl/russian/<bucket>.rpy\n"
+        f"Лейблы части: {ch.label}\n"
+        f"Файл существует: {ch.exists_text}\n"
+        f"Отчёт части: {ch.report_rel}\n"
+        f"Журнал решений: {ch.log_rel}"
+    )
+
+
 def project_context(ch: Chapter) -> str:
     """Общий контекст, добавляемый в каждый промпт."""
-    return f"""
+    text = f"""
 КОНТЕКСТ ПРОЕКТА ZnT1
 Проект: The Familiar Zero - Unofficial Remaster (PS2 -> Ren'Py + перевод EN/RU)
 Корень проекта:
 {ROOT}
 
-ЕДИНИЦА РАБОТЫ - часть главы (итерация; три файла пишутся синхронно):
-  {ch.script_rel}
-  game/tl/japanese/<bucket>.rpy
-  game/tl/russian/<bucket>.rpy
-Лейблы части: {ch.label}
-Файл существует: {ch.exists_text}
-Отчёт части: {ch.report_rel}
-Журнал решений: {ch.log_rel}
+ЕДИНИЦА РАБОТЫ - {_unit_block(ch)}
 Бакеты tl (плоские): {', '.join(TL_BUCKETS)}
 
 ИСТОЧНИК JA (КАНОН), проектная глава {ch.chapter} = источник {ch.source_name}:
@@ -786,6 +1040,9 @@ UNCERTAINTY != STOP: локальные и средние неопределён
 (PROVISIONAL + запись в {ch.log_rel} + продолжение); блокирующая - останови
 минимальный участок и задай ровно один вопрос.
 """.strip()
+    if ch.is_chapter_scope:
+        text += "\n\n" + chapter_scope_context(ch) + "\n"
+    return text
 
 
 # ============================================================================
@@ -813,19 +1070,27 @@ SMA_AUTONOMY_NOTE = (
     "явно указан в задании (это инструкции самого аудитора, а не чужие "
     "результаты)."
 )
-SMA_OWN_FILE_NOTE = (
-    "Единственный файл, который ты создаёшь, - результат этого запуска "
-    "(см. OUTPUT FILE). Любые другие файлы в каталоге части в задание не "
-    "входят: не читай их, не сравнивай с ними свой результат и не делай "
-    "выводов из их наличия или отсутствия."
-)
-SMA_FORBIDDEN_INPUTS_NOTE = (
-    "ЗАПРЕЩЁННЫЕ ВХОДЫ (не читай и не используй, даже если попадутся): "
-    "чужие evidence-каталоги этой части (a/, b/, c/, precheck/, analysis/), "
-    "отчёты частей, reports/log.md, результаты и findings других запусков. "
-    "Если такой материал оказался в задании - не используй его и сообщи "
-    "об ошибке генерации."
-)
+def sma_own_file_note(ch: Chapter) -> str:
+    """Изоляция: что аудитор создаёт сам и что в задание не входит."""
+    where = "каталоге охвата" if ch.is_chapter_scope else "каталоге части"
+    return (
+        "Единственный файл, который ты создаёшь, - результат этого запуска "
+        f"(см. OUTPUT FILE). Любые другие файлы в {where} в задание не "
+        "входят: не читай их, не сравнивай с ними свой результат и не делай "
+        "выводов из их наличия или отсутствия."
+    )
+
+
+def sma_forbidden_inputs_note(ch: Chapter) -> str:
+    """Изоляция: какие чужие материалы запрещены."""
+    where = "этого охвата" if ch.is_chapter_scope else "этой части"
+    return (
+        "ЗАПРЕЩЁННЫЕ ВХОДЫ (не читай и не используй, даже если попадутся): "
+        f"чужие evidence-каталоги {where} (a/, b/, c/, precheck/, analysis/), "
+        "отчёты частей, reports/log.md, результаты и findings других запусков. "
+        "Если такой материал оказался в задании - не используй его и сообщи "
+        "об ошибке генерации."
+    )
 
 # Иерархия источников для промптов C и Analyzer ОБЕИХ фаз.
 SMA_SOURCE_HIERARCHY_NOTE = (
@@ -849,9 +1114,10 @@ SMA_SOURCE_HIERARCHY_NOTE = (
 
 
 def sma_chapter_rel(ch: Chapter) -> str:
-    """Каталог части SMA относительно корня проекта (прямые слэши).
+    """Каталог охвата SMA относительно корня проекта (прямые слэши).
 
-    Единица каталога та же, что у отчёта (базовый номер части): ch.report_unit.
+    Единица: у охвата «часть» - базовый номер части (ch.report_unit),
+    у охвата «вся глава» - CH_SCOPE_SMA_UNIT.
     """
     return ch.sma_rel
 
@@ -869,6 +1135,70 @@ def sma_result_rel_path(ch: Chapter, kind: str, run_id: str) -> str:
 def sma_result_abs_path(ch: Chapter, kind: str, run_id: str) -> str:
     """Абсолютный путь файла результата (kind: a / b / c / analysis)."""
     return os.path.join(sma_chapter_dir(ch, kind), f"{run_id}.{SMA_EXT}")
+
+
+def sma_input_dirs(ch: Chapter) -> list[str]:
+    """Каталоги SMA, которые читает Analyzer в текущем охвате (прямые слэши).
+
+    Охват «часть» - каталог самой части. Охват «вся глава» - главовый
+    каталог (CH_SCOPE_SMA_UNIT) плюс каталоги всех частей: история
+    по частям не теряется, evidence складывается в один прогон Фазы 2.
+    """
+    if not ch.is_chapter_scope:
+        return [ch.sma_rel]
+    return [f"reports/sma/{ch.chapter_id}/{unit}"
+            for unit in [CH_SCOPE_SMA_UNIT] + ch.scope_units]
+
+
+def _sma_unit_chapters(ch: Chapter) -> list["Chapter"]:
+    """Представители каталогов SMA охвата (для reader-функций ниже)."""
+    if not ch.is_chapter_scope:
+        return [ch]
+    units = [ch]                       # главовый каталог (sma_unit = chapter)
+    units += [p for p in ch.scope_parts if p is not ch]
+    return units
+
+
+def sma_runs_in_scope(ch: Chapter, kind: str) -> list[str]:
+    """Все run_id одного типа во всех каталогах охвата (уникальные)."""
+    ids: set[str] = set()
+    for unit in _sma_unit_chapters(ch):
+        ids.update(sma_existing_runs(unit, kind))
+    return sorted(ids)
+
+
+def sma_phase1_in_scope(ch: Chapter) -> list[str]:
+    """Слепые выводы Фазы 1 во всех каталогах охвата (уникальные)."""
+    ids: set[str] = set()
+    for unit in _sma_unit_chapters(ch):
+        ids.update(sma_existing_phase1_runs(unit))
+    return sorted(ids)
+
+
+def sma_precheck_in_scope(ch: Chapter) -> list[str]:
+    """Запуски pre-check во всех каталогах охвата (уникальные)."""
+    ids: set[str] = set()
+    for unit in _sma_unit_chapters(ch):
+        ids.update(sma_existing_precheck(unit))
+    return sorted(ids)
+
+
+def sma_precheck_first_rel(ch: Chapter) -> str | None:
+    """Rel-путь первого файла pre-check охвата (для поля inputs.precheck)."""
+    for unit_dir in sma_input_dirs(ch):
+        folder = os.path.join(ROOT, unit_dir, SMA_PRECHECK_KIND)
+        if not os.path.isdir(folder):
+            continue
+        names = sorted(n for n in os.listdir(folder)
+                       if n.lower().endswith(f".{SMA_EXT}"))
+        if names:
+            return f"{unit_dir}/{SMA_PRECHECK_KIND}/{names[0]}"
+    return None
+
+
+def sma_dirs_block(ch: Chapter, kind: str) -> str:
+    """Перечень каталогов одного типа evidence в охвата (с отступом)."""
+    return "\n".join(f"  {d}/{kind}/" for d in sma_input_dirs(ch))
 
 
 def _sma_run_id_taken(ch: Chapter, run_id: str) -> bool:
@@ -948,8 +1278,25 @@ def semantic_audit_context(ch: Chapter) -> str:
 
     В отличие от project_context не раскрываются журнал, чек-листы и
     прочие пути: аудитору нужны только источник JA, EN-строки сценария,
-    RU-бакеты, соседний контекст и численная картина части.
+    RU-бакеты, соседний контекст и численная картина.
     """
+    if ch.is_chapter_scope:
+        return f"""КОНТЕКСТ АУДИТА (охват: вся глава {ch.chapter_id})
+Проект: ZnT1. Охват: {ch.scope_label}; глава {ch.chapter}, все части.
+Сценарий (EN-база, соседние реплики, номера строк) - файлы:
+{scope_scripts_text(ch)}
+Японский источник (JA - канон): {ch.source_chapter_glob}
+Точные аргументы событий: {ch.source_events_glob}
+Русский перевод (RU - предмет проверки): {tl_display()}
+Японские пары к EN-строкам: game/tl/japanese/<bucket>.rpy
+Соседние реплики {("всех частей главы" if ch.is_chapter_scope else "той же части")} - ТОЛЬКО как контекст.
+Численная картина охвата: {scope_inventory_text(ch)}.
+Единица проверки - реплика/строка КАЖДОЙ перечисленной части в порядке её
+сценария. Находка относится только к той реплике, в которой найдена;
+принадлежность части указывай по имени файла. Соседние реплики нужны
+исключительно для понимания контекста.
+Материал задания ограничен перечисленным выше; никакие другие материалы,
+каталоги и прошлые результаты в задание не входят."""
     inv = part_inventory(ch)
     return f"""КОНТЕКСТ АУДИТА ЧАСТИ
 Проект: ZnT1. Часть: {ch.part_id} (глава {ch.chapter}, часть {ch.part}).
@@ -1114,9 +1461,9 @@ def prompt_port_part(ch: Chapter) -> str:
 def prompt_translate_edit(ch: Chapter) -> str:
     return f"""
 {project_context(ch)}
-РЕЖИМ: ПЕРЕВОД / РЕДАКТУРА EN <-> RU ЧАСТИ {ch.part_id}
-Вход: {ch.script_rel} (EN-база, написанная нами из JA) + оба tl; готового
-эталонного EN в проекте нет.
+РЕЖИМ: ПЕРЕВОД / РЕДАКТУРА EN <-> RU {ch.scope_object}
+Вход (EN-база, написанная нами из JA): {ch.script_rel if not ch.is_chapter_scope else "файлы из блока ЕДИНИЦА РАБОТЫ выше"};
+плюс оба tl; готового эталонного EN в проекте нет.
 1. Определи объём: строки сценария без пары old/new в каждом языке
    (python tools/check_project.py; E4 - нет в japanese, E5 - нет в russian;
    отчёт - reports/check_project.md).
@@ -1136,8 +1483,8 @@ def prompt_translate_edit(ch: Chapter) -> str:
 5. Оформление русского - russian-prose-rules; после каждой правки строки
    в game/tl/russian - russian-grammar-control; перед каждой записью -
    self-review.
-6. Запись - порция части (save-progress); после неё - python
-   tools/check_project.py; итог и изменения - в отчёте части и {ch.log_rel}.
+6. Запись - порция работы (save-progress); после неё - python
+   tools/check_project.py; итог и изменения - {report_in(ch)} и в {ch.log_rel}.
 Существующее не переписывай без нужды; ноль правок - допустимый итог.
 Предпочтение редактора не доказательство ошибки.
 """.strip()
@@ -1171,12 +1518,12 @@ assets); голоса кладутся сразу в game/audio/voices/, вре�
 def prompt_full_audit(ch: Chapter) -> str:
     return f"""
 {project_context(ch)}
-РЕЖИМ: ПОЛНЫЙ АУДИТ ЧАСТИ {ch.part_id}
-Проведи полный аудит части по слоям (порядок обязателен):
+РЕЖИМ: ПОЛНЫЙ АУДИТ {ch.scope_object}
+Проведи полный аудит по слоям (порядок обязателен):
 0. Перечитай AGENTS.md, раздел 5 (жизненный цикл сигнала, неопределённость),
    раздел 8 (отчёт) и раздел 9 (чек-лист); dictionary.md, addresses.md,
    game/PROMTS.md; скилл project-checks.
-1. СМЫСЛОВАЯ СВЕРКА JA -> EN и JA -> RU: построчно по {ch.script_rel}
+1. СМЫСЛОВАЯ СВЕРКА JA -> EN и JA -> RU: построчно по файлам {scope_area(ch)}
    и русским бакетам против {ch.source_chapter_glob} (аргументы событий -
    {ch.source_events_glob}). Ищи пропуски, добавления, смысловые сдвиги,
    смену субъекта/роли, модальность, время/аспект, отрицания, обращения,
@@ -1192,10 +1539,10 @@ def prompt_full_audit(ch: Chapter) -> str:
    game/tl/russian.
 5. russian-style-audit: тавтология, повторы, семантическая избыточность,
    неудачные словосочетания, кальки, номинализации, монотонность эпитетов.
-6. Перед каждой записью - self-review; запись - порция части (save-progress).
+6. Перед каждой записью - self-review; запись - порция работы (save-progress).
 7. python tools/check_project.py -> RESULT: OK (E1-E8, W1-W5, I1), отчёт
    reports/check_project.md; ручные пункты приёмки - скилл project-checks.
-8. Итоговый отчёт: {ch.report_rel} по шаблону AGENTS.md, раздел 8; по
+8. Итоговый отчёт: {report_of(ch)} - по шаблону AGENTS.md, раздел 8; по
    каждому кандидату - classification + disposition; PROVISIONAL/??? - в
    {ch.log_rel}.
 Правило правок: обнаружение сигнала не разрешает правку; исправляй только
@@ -1208,10 +1555,11 @@ git commit запрещён (см. контекст).
 def prompt_grammar_audit(ch: Chapter) -> str:
     return f"""
 {project_context(ch)}
-РЕЖИМ: ГРАММАТИЧЕСКИЙ АУДИТ ЧАСТИ {ch.part_id}
+РЕЖИМ: ГРАММАТИЧЕСКИЙ АУДИТ {ch.scope_object}
 Используй скилл russian-grammar-control (.agents/skills/russian-grammar-control/SKILL.md).
-Область: строки game/tl/russian/<bucket>.rpy этой части и соответствующие
-EN-строки {ch.script_rel} (для сверки структуры с JA).
+Область: строки game/tl/russian/<bucket>.rpy {scope_area(ch)} и
+соответствующие им EN-строки (для сверки структуры с JA); файлы сценария -
+в блоке ЕДИНИЦА РАБОТЫ выше.
 Порядок:
 1. python tools/check_project.py - механическая рамка (E6 пустой new,
    W1 устаревший old, E4/E5 пропущенные пары).
@@ -1229,14 +1577,14 @@ EN-строки {ch.script_rel} (для сверки структуры с JA).
 python tools/check_project.py; перед записью - self-review.
 Не переписывай художественный текст без необходимости; авторский стиль и
 смысл сохраняй; ноль исправлений - допустимый итог.
-Итог - раздел в отчёте части {ch.report_rel}; спорное - в {ch.log_rel}.
+Итог - раздел {report_in(ch)}; спорное - в {ch.log_rel}.
 """.strip()
 
 
 def prompt_style_audit(ch: Chapter) -> str:
     return f"""
 {project_context(ch)}
-РЕЖИМ: СТИЛЕВОЙ АУДИТ ЧАСТИ {ch.part_id}
+РЕЖИМ: СТИЛЕВОЙ АУДИТ {ch.scope_object}
 Используй скилл russian-style-audit (.agents/skills/russian-style-audit/SKILL.md).
 Проверь: тавтологию; повторы и повтор однокоренных слов; семантическую
 избыточность; неудачные словосочетания; кальки; избыточные номинализации;
@@ -1255,14 +1603,14 @@ disposition (FIXED / FALSE POSITIVE / PRESERVED - FUNCTIONAL / PRESERVED - JA /
 PRESERVED - CHARACTER VOICE / ACCEPTABLE ADAPTATION / USER DECISION / ???);
 формулировка «все кандидаты разобраны» без судьбы каждого - нарушение.
 Правки - с self-review и python tools/check_project.py после записи;
-ноль правок - допустимый итог. Итог - раздел отчёта {ch.report_rel}.
+ноль правок - допустимый итог. Итог - раздел {report_in(ch)}.
 """.strip()
 
 
 def prompt_humanizer(ch: Chapter) -> str:
     return f"""
 {project_context(ch)}
-РЕЖИМ: HUMANIZER / MACHINE-LIKE ДЛЯ ЧАСТИ {ch.part_id}
+РЕЖИМ: HUMANIZER / MACHINE-LIKE ДЛЯ {ch.scope_object}
 Используй скилл russian-humanizer (.agents/skills/russian-humanizer/SKILL.md,
 каталог references/ внутри скилла: patterns, translationese,
 kantselyarit-dict, false-positives, style-rules, automation-policy).
@@ -1282,7 +1630,7 @@ kantselyarit-dict, false-positives, style-rules, automation-policy).
 Не делай текст просто «красивее», не меняй смысл, не удаляй намеренную
 стилистику, не чини нормальную разговорную речь. Ноль правок - допустимый
 итог: humanizer не создаёт stylistic churn.
-Итог - раздел отчёта {ch.report_rel}; спорные предложения - в {ch.log_rel}.
+Итог - раздел {report_in(ch)}; спорные предложения - в {ch.log_rel}.
 """.strip()
 
 
@@ -1331,10 +1679,10 @@ def prompt_resolve_decisions(ch: Chapter) -> str:
 def prompt_encoding_check(ch: Chapter) -> str:
     return f"""
 {project_context(ch)}
-РЕЖИМ: ПРОВЕРКА КОДИРОВКИ И ЦЕЛОСТНОСТИ ФАЙЛОВ ЧАСТИ {ch.part_id}
-Проверяемые файлы: {ch.script_rel}, все бакеты game/tl/japanese/*.rpy и
-game/tl/russian/*.rpy (участвующие в этой части), при необходимости
-{ch.report_rel} и {ch.log_rel}.
+РЕЖИМ: ПРОВЕРКА КОДИРОВКИ И ЦЕЛОСТНОСТИ ФАЙЛОВ {ch.scope_object}
+Проверяемые файлы сценария (перечень - в блоке ЕДИНИЦА РАБОТЫ выше), все
+бакеты game/tl/japanese/*.rpy и game/tl/russian/*.rpy (участвующие в
+{scope_area(ch)}), при необходимости {report_of(ch)} и {ch.log_rel}.
 Проверь:
 - кодировку UTF-8 (без BOM-сюрпризов, без смешения кодировок);
 - NUL-байты, управляющие и невидимые символы;
@@ -1381,7 +1729,7 @@ def prompt_pragmatic_c(ch: Chapter) -> str:
 
 OWN SKILL (единственный разрешённый файл за пределами задания):
 .agents/skills/pragmatic-audit/SKILL.md
-{SMA_FORBIDDEN_INPUTS_NOTE}
+{sma_forbidden_inputs_note(ch)}
 
 {semantic_audit_context(ch)}
 
@@ -1422,8 +1770,9 @@ OWN SKILL (единственный разрешённый файл за пре�
 сверь, сохраняет ли перевод тот же речевой акт, ту же степень уверенности,
 ту же силу реплики и тот же подтекст.
 
-ЕДИНИЦА АУДИТА: одна реплика/строка части (TARGET). Соседние реплики
-(PREVIOUS, NEXT) даны ТОЛЬКО как контекст; находки относятся только к TARGET.
+ЕДИНИЦА АУДИТА: одна реплика/строка {scope_area(ch)} (TARGET). Соседние
+реплики (PREVIOUS, NEXT) даны ТОЛЬКО как контекст; находки относятся
+только к TARGET.
 Если проблема в соседней реплике - не фиксируй её.
 
 ЧТО НЕ ВХОДИТ В ЗАДАЧУ (не проверяй и не фиксируй):
@@ -1448,22 +1797,22 @@ CLASSIFY. DISPOSITION (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION
 
 ПРОЦЕДУРА:
 1. Прочитай свой SKILL (.agents/skills/pragmatic-audit/SKILL.md).
-2. Пройди по репликам части в порядке сценария: установи речевой акт JA,
+2. Пройди {scope_walk(ch)}: установи речевой акт JA,
    уверенность, силу и подтекст; свери с переводом.
 3. Для каждого расхождения создай находку: aspect + reason + pragmatic_reason
    + confidence + classification.
 
-ФОРМАТ РЕЗУЛЬТАТА: один .md-файл - шапка (роль, часть {ch.part_id}, run_id,
+ФОРМАТ РЕЗУЛЬТАТА: один .md-файл - шапка (роль, охват {ch.scope_label}, run_id,
 дата, входные строки), краткая сводка и JSON-блок в ```json:
 {{
   "audit_id": "sma-c",
   "audit_type": "pragmatic-audit",
-  "part": "{ch.part_id}",
+  "part": "{ch.part_key}",
   "run_id": "{run_id}",
   "pair": "JA->RU",
   "findings": [
     {{
-      "line": 42,
+      "line": 42,{scope_file_json(ch)}
       "source": "точная JA-цитата",
       "current": "точная цитата перевода",
       "pair": "JA->RU",
@@ -1482,7 +1831,7 @@ CLASSIFY. DISPOSITION (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION
 ПРАВИЛА:
 - classification: только ERROR / WARNING / CANDIDATE (по реплике без проблем -
   PASS в сводке); confidence: HIGH / MEDIUM / LOW (LOW - только при CANDIDATE).
-- line - номер реплики/строки в части (целое, порядок сценария).
+- line - номер реплики/строки в части (целое, порядок сценария).{scope_file_field(ch)}
 - reason объясняет расхождение, pragmatic_reason доказывает, что изменён
   коммуникативный смысл, а не вкусовщина; без pragmatic_reason находка
   недействительна.
@@ -1491,7 +1840,7 @@ CLASSIFY. DISPOSITION (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION
 - Литературное предпочтение - не ошибка.
 - Не выдумывай: нет уверенности - не включай находку.
 
-{SMA_OWN_FILE_NOTE}
+{sma_own_file_note(ch)}
 
 OUTPUT FILE (единственный файл этого запуска):
 {out_rel}
@@ -1511,9 +1860,11 @@ def prompt_analyzer_phase1(ch: Chapter) -> str:
     phase1_id = new_audit_run_id(ch)
     out_rel = sma_phase1_rel_path(ch, phase1_id)
     out_abs = sma_phase1_abs_path(ch, phase1_id)
-    inv = part_inventory(ch)
+    en_ref = (scope_scripts_text(ch) if ch.is_chapter_scope
+              else f"  {ch.script_rel}")
+    where = "Охват" if ch.is_chapter_scope else "Часть"
     return f"""ЗАДАЧА: смысловой анализатор (Analyzer), ФАЗА 1 - СЛЕПАЯ ПРОВЕРКА.
-Часть: {ch.part_id}. Запуск фазы: {phase1_id}.
+{where}: {ch.scope_label}. Запуск фазы: {phase1_id}.
 
 РОЛЬ
 Ты - СМЫСЛОВОЙ АНАЛИЗАТОР, но в Фазе 1 работаешь как чистая независимая
@@ -1523,10 +1874,11 @@ def prompt_analyzer_phase1(ch: Chapter) -> str:
 
 ВХОДНЫЕ ДАННЫЕ ЭТОЙ ФАЗЫ (и БОЛЬШЕ НИЧЕГО)
 JA - authoritative source of truth: {ch.source_chapter_glob}
-EN - reference only (база сценария): {ch.script_rel}
+EN - reference only (база сценария) - файлы:
+{en_ref}
 RU - text under review: {tl_display()}
-Контекст соседних реплик: те же файлы части
-Численная картина части: {inventory_text(inv)}.
+Контекст соседних реплик: те же файлы {scope_area(ch)}
+Численная картина {scope_noun(ch)}: {scope_inventory_text(ch)}.
 Куда записать свой вывод Фазы 1: {out_rel}
 
 {SMA_SOURCE_HIERARCHY_NOTE}
@@ -1543,7 +1895,7 @@ RU - text under review: {tl_display()}
 независимых проверок для сопоставления с твоим первоначальным выводом. Сейчас
 об этом не думай: сделай самостоятельную оценку.
 
-ПОРЯДОК РАБОТЫ ФАЗЫ 1 (слепо, по каждой реплике/строке части)
+ПОРЯДОК РАБОТЫ ФАЗЫ 1 (слепо, по каждой реплике/строке {scope_area(ch)})
   1) прочитай JA-фрагмент из источника;
   2) прочитай текущую EN-строку сценария и её RU-пару;
   3) прочитай соседние реплики только для контекста;
@@ -1573,16 +1925,16 @@ RU - text under review: {tl_display()}
 - останавливаться и спрашивать разрешения: нулевое число находок -
   допустимый итог Фазы 1.
 
-ФОРМАТ ВЫВОДА ФАЗЫ 1: один .md-файл - шапка (часть, run_id, дата) + сводка +
+ФОРМАТ ВЫВОДА ФАЗЫ 1: один .md-файл - шапка ({ch.scope_label}, run_id, дата) + сводка +
 JSON-блок в ```json:
 {{
   "analysis_id": "{phase1_id}.phase1",
-  "part": "{ch.part_id}",
+  "part": "{ch.part_key}",
   "phase": 1,
   "scope": "blind",
   "results": [
     {{
-      "line": 15,
+      "line": 15,{scope_file_json(ch)}
       "finding": "MISSING_TRANSLATION",
       "note": "Кратко: что именно отсутствует и почему это не компрессия",
       "confidence": "HIGH"
@@ -1595,7 +1947,7 @@ PRAGMATIC_SHIFT / ADDED_CONTENT / AMBIGUITY / MISSING_TRANSLATION / OTHER / NONE
 - NONE - реплика проверена, существенных ошибок нет.
 - confidence: HIGH / MEDIUM / LOW.
 - Это ПРЕДВАРИТЕЛЬНОЕ заключение слепой проверки, а не финальный вердикт.
-- Пустой results = «существенных ошибок не найдено»; это допустимый итог.
+- Пустой results = «существенных ошибок не найдено»; это допустимый итог.{scope_file_field(ch)}
 Ничего, кроме этого файла, не создавай и не изменяй.
 
 OUTPUT FILE (единственный файл этого запуска):
@@ -1623,9 +1975,9 @@ def prompt_analyzer_phase2(ch: Chapter,
     """
     analysis_id = new_audit_run_id(ch)
     run_map = (runs if runs is not None
-               else {k: sma_existing_runs(ch, k) for k in ("a", "b", "c")})
-    phase1_list = sma_existing_phase1_runs(ch)
-    precheck_list = sma_existing_precheck(ch)
+               else {k: sma_runs_in_scope(ch, k) for k in ("a", "b", "c")})
+    phase1_list = sma_phase1_in_scope(ch)
+    precheck_list = sma_precheck_in_scope(ch)
     a_runs = run_map.get("a", [])
     b_runs = run_map.get("b", [])
     c_runs = run_map.get("c", [])
@@ -1637,46 +1989,57 @@ def prompt_analyzer_phase2(ch: Chapter,
                if phase1_list else "(нет слепых выводов Фазы 1)")
     pc_list = (", ".join(precheck_list) if precheck_list
                else "(pre-check не запускался - это норма)")
-    pc_input = (f'"{sma_chapter_rel(ch)}/{SMA_PRECHECK_KIND}/{precheck_list[0]}.{SMA_EXT}"'
-                if precheck_list else "null")
+    pc_rel = sma_precheck_first_rel(ch)
+    pc_input = f'"{pc_rel}"' if pc_rel else "null"
+    read_where = ("ТОЛЬКО этот каталог" if not ch.is_chapter_scope
+                  else "ТОЛЬКО перечисленные каталоги этой главы")
+    scope_where = "ЧАСТИ" if not ch.is_chapter_scope else "ОХВАТА"
+    p1_paths = "\n".join(f"  {d}/analysis/*.phase1.md"
+                         for d in sma_input_dirs(ch))
+    cid_example = ("C-<file>-11-01" if ch.is_chapter_scope else "C-11-01")
+    en_ref = (scope_scripts_text(ch) if ch.is_chapter_scope
+              else f"  {ch.script_rel}")
     if not (a_runs or b_runs or c_runs or precheck_list):
         evidence_note = (
-            "EVIDENCE ОТСУТСТВУЕТ: ни одного запуска аудиторов и ни одного "
-            "файла pre-check для этой части нет. Ограничься отчётом по своему "
-            "слепому выводу Фазы 1, правки НЕ вноси и явно сообщи, что "
+            f"EVIDENCE ОТСУТСТВУЕТ: ни одного запуска аудиторов и ни одного "
+            f"файла pre-check для {scope_noun(ch)} нет. Ограничься отчётом по "
+            "своему слепому выводу Фазы 1, правки НЕ вноси и явно сообщи, что "
             "evidence для Фазы 2 отсутствует.")
     else:
-        evidence_note = "НАБОР EVIDENCE (inputs этой части)"
+        evidence_note = ("EVIDENCE присутствует: работай со ВСЕМ перечисленным "
+                         "выше объёмом, ничего не отбрасывай по объёму.")
     return f"""ЗАДАЧА: смысловой анализатор (Analyzer) независимых аудиторских сессий и прагматического аудита C.
-Часть: {ch.part_id}. Запуск анализа: {analysis_id}.
+{("Охват" if ch.is_chapter_scope else "Часть")}: {ch.scope_label}. Запуск анализа: {analysis_id}.
 
 РОЛЬ
 Ты НЕ независимый аудитор: ты получаешь результаты уже выполненных
 независимых аудиторских сессий и выносишь итоговое решение по каждому
 кандидату. Доступ к evidence - сознательное исключение именно для Analyzer.
 
-ВХОДНЫЕ ДАННЫЕ ЭТОЙ ЧАСТИ
+ВХОДНЫЕ ДАННЫЕ {scope_where}
 JA - authoritative source of truth: {ch.source_chapter_glob}
-EN - reference only (база сценария): {ch.script_rel}
+EN - reference only (база сценария) - файлы:
+{en_ref}
 RU - text under review: {tl_display()}
-Контекст соседних реплик: те же файлы части
-Численная картина части: {inventory_text(part_inventory(ch))}.
+Контекст соседних реплик: те же файлы {scope_area(ch)}
+Численная картина {scope_noun(ch)}: {scope_inventory_text(ch)}.
 Слепой вывод Фазы 1 (твоё собственное ПЕРВОНАЧАЛЬНОЕ заключение, сделано
-БЕЗ evidence): {sma_chapter_rel(ch)}/analysis/*.phase1.md
-Результаты независимых аудиторов A (читай ТОЛЬКО этот каталог):
-  {sma_chapter_rel(ch)}/a/
-Результаты независимых аудиторов B (читай ТОЛЬКО этот каталог):
-  {sma_chapter_rel(ch)}/b/
-Результаты Pragmatic Auditor C (читай ТОЛЬКО этот каталог):
-  {sma_chapter_rel(ch)}/c/
+БЕЗ evidence):
+{p1_paths}
+Результаты независимых аудиторов A (читай {read_where}):
+{sma_dirs_block(ch, "a")}
+Результаты независимых аудиторов B (читай {read_where}):
+{sma_dirs_block(ch, "b")}
+Результаты Pragmatic Auditor C (читай {read_where}):
+{sma_dirs_block(ch, "c")}
 Evidence детерминированного pre-check (не аудитор, не голос):
-  {sma_chapter_rel(ch)}/{SMA_PRECHECK_KIND}/
-Каталог результатов Analyzer (куда писать):
+{sma_dirs_block(ch, SMA_PRECHECK_KIND)}
+Каталог результатов Analyzer (куда писать - только этот):
   {sma_chapter_rel(ch)}/analysis/
 
 {SMA_SOURCE_HIERARCHY_NOTE}
 
-НАБОР EVIDENCE (inputs этой части)
+НАБОР EVIDENCE (inputs {scope_noun(ch)})
 a_runs: {a_list}
 b_runs: {b_list}
 c_runs: {c_list}
@@ -1693,9 +2056,9 @@ precheck: {pc_list}
 нет - работай без него и не останавливайся.
 
 ПРАВИЛА EVIDENCE:
-- Учитывай ВСЕ существующие запуски этой части, а не только последний;
+- Учитывай ВСЕ существующие запуски {scope_area(ch)}, а не только последний;
   ручного выбора отдельных run_id нет.
-- Результаты ДРУГИХ частей и глав не используй.
+- Результаты за пределами перечисленных каталогов не используй.
 - findings аудиторов - исторические: не редактируй, не удаляй и не
   переписывай файлы в a/, b/ и c/.
 
@@ -1710,8 +2073,8 @@ precheck: {pc_list}
   голосует и не является основанием для правки.
 
 ШАГ 1 - СБОР EVIDENCE (Фаза 2 начинается здесь)
-Собери ВСЕ findings из всех существующих запусков A, B и C этой части плюс
-evidence pre-check. Логически совпадающие candidates сгруппируй и сохрани
+Собери ВСЕ findings из всех существующих запусков A, B и C {scope_area(ch)}
+плюс evidence pre-check. Логически совпадающие candidates сгруппируй и сохрани
 происхождение (sources.a / sources.b / sources.c / sources.precheck).
 
 ФАЗА 2 - EVIDENCE REVIEW (ТОЛЬКО после завершённой Фазы 1)
@@ -1760,11 +2123,12 @@ WARNING / CANDIDATE сами по себе правку не разрешают.
 (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION / ???) фиксируется
 по жизненному циклу сигнала (AGENTS.md, раздел 5): обнаружение != решение.
 
-ПРАВКА (только строки этой части, только для CONFIRMED_ERROR)
+ПРАВКА (только строки {scope_area(ch)}, только для CONFIRMED_ERROR)
 - Перед правкой зафиксируй исходное состояние: сохрани «before» и подготовь
   «after».
 - Правь САМИМИ ФАЙЛАМИ ПРОЕКТА: game/tl/russian/<bucket>.rpy (и
-  {ch.script_rel}, если по JA неверна EN-база). Промежуточных копий не создаёт.
+  {ch.script_rel if not ch.is_chapter_scope else "файлы всех частей главы"},
+  если по JA неверна EN-база). Промежуточных копий не создаёт.
 - Перед записью - self-review (скилл self-review); после записи - сверка с JA,
   russian-grammar-control по изменённым русским строкам и python
   tools/check_project.py.
@@ -1780,7 +2144,7 @@ WARNING / CANDIDATE сами по себе правку не разрешают.
 candidate + отдельные сводки по DISPUTED и OPTIONAL) с JSON-блоком в ```json:
 {{
   "analysis_id": "{analysis_id}",
-  "part": "{ch.part_id}",
+  "part": "{ch.part_key}",
   "inputs": {{
     "a_runs": [{json_list(a_runs)}],
     "b_runs": [{json_list(b_runs)}],
@@ -1789,8 +2153,8 @@ candidate + отдельные сводки по DISPUTED и OPTIONAL) с JSON-�
   }},
   "results": [
     {{
-      "line": 11,
-      "candidate_id": "C-11-01",
+      "line": 11,{scope_file_json(ch)}
+      "candidate_id": "{cid_example}",
       "sources": {{ "a": ["<run_id>"], "b": ["<run_id>"], "c": ["<run_id>"], "precheck": false }},
       "source": "JA fragment",
       "current": "RU fragment",
@@ -1809,8 +2173,8 @@ candidate + отдельные сводки по DISPUTED и OPTIONAL) с JSON-�
 - FIXED - только для CONFIRMED_ERROR (правка внесена в файлы проекта).
 - REPORT_ONLY - DISPUTED / OPTIONAL (в отчёт, перевод не менять).
 - PRESERVED - FALSE_POSITIVE (оставлено как есть).
-- line - номер реплики/строки в части; candidate_id стабилен: C-<line>-<NN>.
-- inputs.a_runs / b_runs / c_runs - все существующие запуски этой части на
+- line - номер реплики/строки в части; candidate_id стабилен: {scope_candidate_id(ch)}.{scope_file_field(ch)}
+- inputs.a_runs / b_runs / c_runs - все существующие запуски {scope_area(ch)} на
   момент анализа; в режиме A+B поле c_runs пустое.
 - inputs.precheck - путь к evidence pre-check либо null, если его нет.
 - Для omission-кандидата (issue_type MISSING_TRANSLATION) обязательны поля:
@@ -1820,13 +2184,13 @@ candidate + отдельные сводки по DISPUTED и OPTIONAL) с JSON-�
   Reason), а не общая фраза. «Пропуск != компрессия»: сжатие, слияние реплик и
   убранный повтор при сохранённом содержании пропуском не являются.
 
-OUTPUT FILES (этой части, запуск {analysis_id})
+OUTPUT FILES (запуск {analysis_id})
 MD: {sma_result_rel_path(ch, "analysis", analysis_id)}
 (абсолютный путь: {sma_result_abs_path(ch, "analysis", analysis_id)})
-Пиши ТОЛЬКО в каталог analysis/ этой части; другие файлы не создавай и не
-изменяй. Итоги рассмотренных кандидатов (classification + disposition)
-отражаются также в отчёте части {ch.report_rel}; журнальные записи - дозаписью
-в {ch.log_rel}."""
+Пиши ТОЛЬКО в каталог analysis/ {("этого охвата" if ch.is_chapter_scope else "этой части")}; другие файлы
+не создавай и не изменяй.
+Итоги рассмотренных кандидатов (classification + disposition) отражаются
+также {report_in(ch)}; журнальные записи - дозаписью в {ch.log_rel}."""
 
 
 def json_list(items: list[str]) -> str:
@@ -2040,6 +2404,22 @@ PROMPTS: list[PromptInfo] = [
         prompt_encoding_check,
     ),
 ]
+
+
+# Промпты, умеющие работать в охвате «вся глава»: одна проверка на всю главу
+# вместо прогона по каждой части. Остальные привязаны к одной части -
+# first-launch / continue / port-part (единица порта часть, AGENTS.md §3),
+# voice-work (именование голосов по части) и resolve-decisions (не проверка).
+CHAPTER_SCOPE_PROMPTS: frozenset[str] = frozenset({
+    "translate-edit", "full-audit", "grammar-audit", "style-audit",
+    "humanizer", "encoding-check", "pragmatic-c",
+    "analyzer-phase1", "analyzer-phase2",
+})
+
+
+def prompt_supports_chapter_scope(info: PromptInfo) -> bool:
+    """True, если режим умеет проверить всю главу одним прогоном."""
+    return info.id in CHAPTER_SCOPE_PROMPTS
 
 
 # ============================================================================
@@ -2419,18 +2799,28 @@ def _fresh_count(paths: list[str | None], script_mtime: float | None) -> int:
     return n
 
 
-def _typography_report(chapter: str, part: str, lang: str) -> str | None:
+def _typography_report(chapter: str, part: str, lang: str,
+                       whole_chapter: bool = False) -> str | None:
     """Отчёт check_typography с fallback: область части -> главы -> глобальный.
 
     Имя файла: check_typography_<lang>_ch<ключ цели>.md (tools/check_typography.py);
     ключ цели части - '<глава>_<часть>', главы - '<глава>'. Если запуск был
     на всю главу, его отчёт покрывает и эту часть.
+    whole_chapter - отчёт должен покрывывать ВСЮ главу: промежуточный
+    fallback на отчёт одной части не подходит (он покрывает только её).
     """
-    candidates = [
-        os.path.join(ROOT, "reports", f"check_typography_{lang}_ch{chapter}_{part}.md"),
-        os.path.join(ROOT, "reports", f"check_typography_{lang}_ch{chapter}.md"),
-        os.path.join(ROOT, "reports", f"check_typography_{lang}.md"),
-    ]
+    if whole_chapter:
+        candidates = [
+            os.path.join(ROOT, "reports", f"check_typography_{lang}_ch{chapter}.md"),
+            os.path.join(ROOT, "reports", f"check_typography_{lang}.md"),
+        ]
+    else:
+        candidates = [
+            os.path.join(ROOT, "reports",
+                         f"check_typography_{lang}_ch{chapter}_{part}.md"),
+            os.path.join(ROOT, "reports", f"check_typography_{lang}_ch{chapter}.md"),
+            os.path.join(ROOT, "reports", f"check_typography_{lang}.md"),
+        ]
     return next((p for p in candidates if os.path.isfile(p)), None)
 
 
@@ -2473,11 +2863,13 @@ def _voice_manifest_names() -> set[str]:
     return names
 
 
-def _tl_coverage(ch: Chapter) -> tuple[int, int, int] | None:
-    """(уникальных строк, есть в tl/japanese, есть в tl/russian) скрипта части.
+def _tl_coverage_paths(paths: list[str]) -> tuple[int, int, int] | None:
+    """(уникальных строк, есть в tl/japanese, есть в tl/russian) для файлов.
 
     Та же механика, что в tools/check_project.py (E4/E5): говорящие собираются
     по ``define <имя> = Character(``, строки - collect_strings, ключи - parse_tl.
+    Строки складываются в множество: один и тот же текст в разных частях
+    учитывается один раз. Скриптов нет - (0, 0, 0).
     None - если check_project недоступен (не должен случаться: он в tools/).
     """
     try:
@@ -2492,13 +2884,22 @@ def _tl_coverage(ch: Chapter) -> tuple[int, int, int] | None:
             m = cp.SPEAKER_DEF_RE.match(line)
             if m:
                 speakers.add(m.group(1))
-    found, _unknown, _bad = cp.collect_strings(ch.script_path, speakers)
-    texts = sorted({t for t, _kind, _line in found})
+    texts: set[str] = set()
+    for path in paths:
+        if not os.path.isfile(path):
+            continue
+        found, _unknown, _bad = cp.collect_strings(path, speakers)
+        texts.update(t for t, _kind, _line in found)
     ja_keys = cp.parse_tl(os.path.join(cp.TL_DIR, "japanese"))[0]
     ru_keys = cp.parse_tl(os.path.join(cp.TL_DIR, "russian"))[0]
     ja = sum(1 for t in texts if t in ja_keys)
     ru = sum(1 for t in texts if t in ru_keys)
     return (len(texts), ja, ru)
+
+
+def _tl_coverage(ch: Chapter) -> tuple[int, int, int] | None:
+    """Покрытие tl одной части (см. _tl_coverage_paths)."""
+    return _tl_coverage_paths([ch.script_path])
 
 
 def _run_date_str(run_id: str) -> str:
@@ -2510,13 +2911,52 @@ def _run_date_str(run_id: str) -> str:
 
 
 def phase_checklist(ch: Chapter) -> list[PhaseItem]:
-    """13 фаз работы над частью с evidence из файлов проекта.
+    """13 фаз работы с evidence из файлов проекта.
 
-    Ничего не пишет и не изменяет: читает скрипт части, оба tl, отчёты
-    сканеров (reports/check_*.md), отчёт части и evidence SMA. Честно
+    Единица зависит от охвата ch.scope: у «часть» - состояние одной части,
+    у «вся глава» - агрегат по всем частям главы (см.
+    _phase_checklist_part и _phase_checklist_chapter).
+
+    Ничего не пишет и не изменяет: читает скрипты, оба tl, отчёты
+    сканеров (reports/check_*.md), отчёты частей и evidence SMA. Честно
     показывает незакрытую фазу там, где записи в отчёте нет: чек-лист
     отражает задокументированное состояние, а не предположения.
     """
+    if ch.is_chapter_scope:
+        return _phase_checklist_chapter(ch)
+    return _phase_checklist_part(ch)
+
+
+def _prefilter_item(ch: Chapter, script_mtime: float | None) -> PhaseItem:
+    """Фаза 5: 6 отчётов сканеров (для главового охвата typography - главный)."""
+    whole = ch.is_chapter_scope
+    prefilters: list[tuple[str, str | None]] = [
+        ("check_renpy_syntax.md",
+         os.path.join(ROOT, "reports", "check_renpy_syntax.md")),
+        ("typography ru",
+         _typography_report(ch.chapter, ch.part, "ru", whole)),
+        ("typography en",
+         _typography_report(ch.chapter, ch.part, "en", whole)),
+        ("check_placeholders.md",
+         os.path.join(ROOT, "reports", "check_placeholders.md")),
+        ("check_assets.md",
+         os.path.join(ROOT, "reports", "check_assets.md")),
+        ("check_voice_transcriptions.md",
+         os.path.join(ROOT, "reports", "check_voice_transcriptions.md")),
+    ]
+    paths = [p for _label, p in prefilters]
+    present = [p for p in paths if p and os.path.isfile(p)]
+    fresh_n = _fresh_count(paths, script_mtime)
+    missing = [label for label, p in prefilters if not (p and os.path.isfile(p))]
+    detail = f"отчётов: {len(present)}/6, свежих: {fresh_n}"
+    if missing:
+        detail += f" (нет: {', '.join(missing)})"
+    return PhaseItem(5, "Предфильтры (сканеры)",
+                     len(present) == 6 and fresh_n == 6, detail)
+
+
+def _phase_checklist_part(ch: Chapter) -> list[PhaseItem]:
+    """13 фаз одной части (исходная единица работы проекта)."""
     items: list[PhaseItem] = []
     script_mtime: float | None = None
     if ch.script_exists:
@@ -2592,27 +3032,7 @@ def phase_checklist(ch: Chapter) -> list[PhaseItem]:
         items.append(PhaseItem(4, "Отчёт части", fresh, detail))
 
     # --- 5. Предфильтры: 6 отчётов сканеров
-    prefilters: list[tuple[str, str | None]] = [
-        ("check_renpy_syntax.md",
-         os.path.join(ROOT, "reports", "check_renpy_syntax.md")),
-        ("typography ru", _typography_report(ch.chapter, ch.part, "ru")),
-        ("typography en", _typography_report(ch.chapter, ch.part, "en")),
-        ("check_placeholders.md",
-         os.path.join(ROOT, "reports", "check_placeholders.md")),
-        ("check_assets.md",
-         os.path.join(ROOT, "reports", "check_assets.md")),
-        ("check_voice_transcriptions.md",
-         os.path.join(ROOT, "reports", "check_voice_transcriptions.md")),
-    ]
-    paths = [p for _label, p in prefilters]
-    present = [p for p in paths if p and os.path.isfile(p)]
-    fresh_n = _fresh_count(paths, script_mtime)
-    missing = [label for label, p in prefilters if not (p and os.path.isfile(p))]
-    detail = f"отчётов: {len(present)}/6, свежих: {fresh_n}"
-    if missing:
-        detail += f" (нет: {', '.join(missing)})"
-    items.append(PhaseItem(5, "Предфильтры (сканеры)",
-                           len(present) == 6 and fresh_n == 6, detail))
+    items.append(_prefilter_item(ch, script_mtime))
 
     # --- 6. Pre-check SMA (детерминированное evidence)
     pre = sma_existing_precheck(ch)
@@ -2682,6 +3102,163 @@ def phase_checklist(ch: Chapter) -> list[PhaseItem]:
     return items
 
 
+def _phase_checklist_chapter(ch: Chapter) -> list[PhaseItem]:
+    """13 фаз в охвате «вся глава»: агрегат по всем частям главы.
+
+    Правила агрегации:
+    * 1-4, 10-13 - фаза закрыта, когда закрыта у КАЖДОЙ части (и у каждой
+      её единицы отчёта);
+    * 5 - те же глобальные/главовые отчёты сканеров, но typography берётся
+      только главового ключа: отчёт одной части главу не покрывает;
+    * 6-9 - закрыто, если есть главовый запуск ИЛИ запуск у каждой части:
+      главовый каталог reports/sma/ch<N>/chapter/ и каталоги частей
+      равноправны.
+    """
+    items: list[PhaseItem] = []
+    parts = ch.scope_parts
+    n = len(parts)
+
+    script_mtime: float | None = None
+    unit_mtime: dict[str, float] = {}
+    for p in parts:
+        if not p.script_exists:
+            continue
+        try:
+            m = os.path.getmtime(p.script_path)
+        except OSError:
+            continue
+        script_mtime = m if script_mtime is None else max(script_mtime, m)
+        cur = unit_mtime.get(p.report_unit)
+        unit_mtime[p.report_unit] = m if cur is None else max(cur, m)
+
+    # --- 1. Порт главы
+    invs = [part_inventory(p) for p in parts]
+    missing = [p.script_file_name
+               for p, iv in zip(parts, invs) if not iv["exists"]]
+    if len(missing) == n:
+        items.append(PhaseItem(1, "Порт главы", False,
+                               "файлов частей ещё нет"))
+    elif missing:
+        items.append(PhaseItem(1, "Порт главы", False,
+                               f"частей: {n}, без файла: {len(missing)}, "
+                               f"первый: {missing[0]}"))
+    else:
+        items.append(PhaseItem(
+            1, "Порт главы", any(iv["lines"] for iv in invs),
+            f"частей: {n}, строк: {sum(iv['lines'] for iv in invs)}, "
+            f"голосов: {sum(iv['voice'] for iv in invs)}, "
+            f"menu: {sum(iv['menu'] for iv in invs)}, "
+            f"jump: {sum(iv['jump'] for iv in invs)}"))
+
+    # --- 2. Голоса всех частей
+    names: list[str] = []
+    for p in parts:
+        names.extend(_voice_names(p))
+    n_v = len(names)
+    if n_v == 0:
+        items.append(PhaseItem(2, "Голоса", False, "строк voice в скриптах нет"))
+    else:
+        voices_dir = os.path.join(ROOT, "game", "audio", "voices")
+        have_ogg = sum(1 for v in names
+                       if os.path.isfile(os.path.join(voices_dir, v + ".ogg")))
+        manifest = _voice_manifest_names()
+        have_map = sum(1 for v in names if v in manifest)
+        if ch.chapter in ("0", "1", "extra"):
+            detail = (f"строк: {n_v}, ogg: {have_ogg}/{n_v}, "
+                      f"манифест: не требуется (гл. 0/1/extra)")
+            ok = have_ogg == n_v
+        else:
+            detail = (f"строк: {n_v}, ogg: {have_ogg}/{n_v}, "
+                      f"манифест: {have_map}/{n_v}")
+            ok = have_ogg == n_v and have_map == n_v
+        items.append(PhaseItem(2, "Голоса", ok, detail))
+
+    # --- 3. Перевод JA/RU: покрытие строк всех скриптов обеими tl-папками
+    cov = _tl_coverage_paths([p.script_path for p in parts])
+    if cov is None:
+        items.append(PhaseItem(3, "Перевод JA/RU", False,
+                               "покрытие не посчитано: check_project недоступен"))
+    else:
+        total, ja, ru = cov
+        ok = total > 0 and ja == total and ru == total
+        detail = (f"строк: {total}, JA: {ja}/{total}, RU: {ru}/{total}"
+                  if total else "переводимых строк в скриптах нет")
+        items.append(PhaseItem(3, "Перевод JA/RU", ok, detail))
+
+    # --- 4. Отчёты всех единиц охвата
+    units = ch.scope_units
+    report_paths = ch.scope_report_paths
+    reports = list(zip(units, report_paths))
+    present_n = sum(1 for _u, rp in reports if os.path.isfile(rp))
+    fresh_units = [u for u, rp in reports
+                   if os.path.isfile(rp) and u in unit_mtime
+                   and _report_is_fresh(rp, unit_mtime[u])]
+    absent = [u for u, rp in reports if not os.path.isfile(rp)]
+    detail = f"отчётов: {present_n}/{len(units)}, свежих: {len(fresh_units)}"
+    if absent:
+        detail += f" (нет: {', '.join(absent)})"
+    items.append(PhaseItem(4, "Отчёты частей",
+                           bool(units) and not absent
+                           and len(fresh_units) == len(units), detail))
+
+    # --- 5. Предфильтры: 6 отчётов сканеров
+    items.append(_prefilter_item(ch, script_mtime))
+
+    # --- 6...9. Evidence SMA: главовый каталог ИЛИ каждая часть
+    def _sma_item(n_item: int, title: str, reader, with_date: bool) -> PhaseItem:
+        chapter_runs = reader(ch)
+        covered = sum(1 for p in parts if reader(p))
+        done = bool(chapter_runs) or (bool(parts) and covered == len(parts))
+        detail = (f"главовых: {len(chapter_runs)}, "
+                  f"частей с запуском: {covered}/{n}")
+        if with_date and chapter_runs:
+            detail += f", последний {_run_date_str(max(chapter_runs))}"
+        return PhaseItem(n_item, title, done, detail)
+
+    items.append(_sma_item(6, "Pre-check SMA",
+                           sma_existing_precheck, False))
+    items.append(_sma_item(7, "Аудит C (прагматика)",
+                           lambda u: sma_existing_runs(u, "c"), True))
+    items.append(_sma_item(8, "Analyzer: Фаза 1 (blind)",
+                           sma_existing_phase1_runs, False))
+    items.append(_sma_item(9, "Analyzer: Фаза 2 (evidence)",
+                           lambda u: sma_existing_runs(u, "analysis"), False))
+
+    # --- 10...12. Ручные аудиты: следы скиллов в отчётах всех частей
+    report_text = {rp: _report_text(rp) for _u, rp in reports
+                   if os.path.isfile(rp)}
+    for n_item, title, pattern in (
+            (10, "Грамматический контроль",
+             r"russian-grammar-control|Грамматическ"),
+            (11, "Стилевой аудит", r"russian-style-audit|стилев"),
+            (12, "Humanizer", r"russian-humanizer")):
+        hits = sum(1 for _u, rp in reports
+                   if rp in report_text
+                   and re.search(pattern, report_text[rp], re.I))
+        items.append(PhaseItem(
+            n_item, title, bool(units) and hits == len(units),
+            f"секций в отчётах: {hits}/{len(units)}"))
+
+    # --- 13. Гейт: раздел чек-листа в каждом отчёте + автопроверка без ERROR
+    gate_hits = sum(1 for _u, rp in reports
+                    if rp in report_text and GATE_SECTION_RE.search(report_text[rp]))
+    cp_path = os.path.join(ROOT, "reports", "check_project.md")
+    err_m = re.search(r"## ERROR \((\d+)\)", _report_text(cp_path))
+    errors_n = int(err_m.group(1)) if err_m else -1
+    cp_fresh = (os.path.isfile(cp_path) and script_mtime is not None
+                and os.path.getmtime(cp_path) >= script_mtime)
+    err_text = str(errors_n) if errors_n >= 0 else "отчёт не найден"
+    items.append(PhaseItem(
+        13, "Гейт (чек-лист + автопроверка)",
+        bool(units) and gate_hits == len(units)
+        and errors_n == 0 and cp_fresh,
+        f"чек-лист: {gate_hits}/{len(units)} отчётов; "
+        f"ошибок автопроверки: {err_text}; "
+        f"{'свежая' if cp_fresh else 'автопроверка устарела/нет'}"))
+
+    return items
+
+
 # Промпт -> номер фазы чек-листа, которую он обслуживает (для меню РЕЖИМЫ).
 # Промпты без фазы (continue, resolve-decisions, encoding-check) метки не имеют.
 PROMPT_PHASE_MAP: dict[str, int] = {
@@ -2720,14 +3297,20 @@ def print_phase_checklist(ch: Chapter) -> None:
     """Экран чек-листа: 13 фаз с [x]/[ ], current phase помечена '->'."""
     items = phase_checklist(ch)
     next_item = next((it for it in items if not it.done), None)
+    scope_word = "ВСЯ ГЛАВА" if ch.is_chapter_scope else "ЧАСТЬ"
     say()
     separator("=")
-    say("  ЧЕК-ЛИСТ ФАЗ ЧАСТИ")
+    say(f"  ЧЕК-ЛИСТ ФАЗ - {scope_word}")
     separator("=")
     say()
-    say(f"  Текущая часть: {ch.describe()}")
-    say(f"    скрипт: {ch.script_rel}")
-    say(f"    отчёт:  {ch.report_rel}")
+    say(f"  Текущий охват: {ch.describe()}")
+    if ch.is_chapter_scope:
+        say(f"    скриптов: {len(ch.scope_parts)}, "
+            f"единиц отчётов: {len(ch.scope_units)}")
+        say(f"    каталог SMA: {ch.sma_rel}/")
+    else:
+        say(f"    скрипт: {ch.script_rel}")
+        say(f"    отчёт:  {ch.report_rel}")
     say()
     if next_item is None:
         say("  Текущая фаза: все 13 фаз закрыты")
@@ -2746,6 +3329,11 @@ def print_phase_checklist(ch: Chapter) -> None:
     if next_item is not None:
         say(f"  Следующая: {next_item.n}. {next_item.title}")
     say()
+    if ch.is_chapter_scope:
+        say("  Охват «вся глава»: фазы 1-4 и 10-13 закрыты, когда закрыты у")
+        say("  каждой части; фазы 6-9 - при главовом запуске либо при запуске")
+        say("  у каждой части.")
+        say()
     say("  Примечание: аудиты A/B не входят в чек-лист (скиллы отключены")
     say("  системой); их результаты приходят извне и на фазы не влияют.")
     say()
@@ -2762,9 +3350,10 @@ def action_phase_checklist(ch: Chapter) -> int:
 ACTIONS: list[ActionInfo] = [
     ActionInfo(
         "phase-checklist",
-        "Чек-лист фаз части",
-        "13 фаз работы над частью с отметками [x]/[ ] и evidence из файлов "
-        "проекта; первая незакрытая фаза помечена '->'",
+        "Чек-лист фаз части/главы",
+        "13 фаз работы с отметками [x]/[ ] и evidence из файлов проекта; "
+        "первую незакрытую фазу помечает '->'; в охвате «вся глава» "
+        "фазы агрегированы по всем частям",
         action_phase_checklist,
     ),
     ActionInfo(
@@ -2885,6 +3474,7 @@ def print_banner() -> None:
     say("=" * TERMINAL_WIDTH)
     say("  ZnT1 - оркестратор рабочего процесса (промпты и действия)")
     say("  Единица работы: часть главы game/chapters/<N>/script-ch<N>_<M>.rpy")
+    say("  Охват проверочных режимов: часть (по умолчанию) либо вся глава")
     say("=" * TERMINAL_WIDTH)
 
 
@@ -2899,8 +3489,17 @@ def show_prompt_info(info: PromptInfo, ch: Chapter) -> None:
     say("  Что делает:")
     print_wrapped(textwrap.dedent(info.guide), indent="    ")
     say()
-    say(f"  Целевая часть: {ch.describe()}")
-    say(f"    отчёт: {ch.report_rel}")
+    say(f"  Охват: {ch.describe()}")
+    if ch.is_chapter_scope:
+        say(f"    скриптов: {len(ch.scope_parts)}, "
+            f"единиц отчётов: {len(ch.scope_units)}")
+        say(f"    каталог SMA: {ch.sma_rel}/")
+        if prompt_supports_chapter_scope(info):
+            say("    режим выполняется на всей главе одним прогоном")
+        else:
+            say("    режим работает с ОДНОЙ частью - сначала переключите охват")
+    else:
+        say(f"    отчёт: {ch.report_rel}")
     say()
     say("=" * TERMINAL_WIDTH)
 
@@ -2910,28 +3509,47 @@ def prompts_menu(ch: Chapter) -> None:
 
     Слева от названия - метка фазы чек-листа, которую промпт обслуживает
     ([x] - фаза закрыта, [ ] - нет; пусто - у промпта своей фазы нет).
+    В охвате «вся глава» режимы, не умеющие проверять главу целиком,
+    помечены (*) и к генерации не допускаются.
     Метки считаются один раз при входе в меню, а не на каждую перерисовку.
     """
     marks = phase_marks_for_prompts(ch)
+    scope_head = (f"  РЕЖИМЫ (PROMPTS)   охват: {ch.scope_label}"
+                  if ch.is_chapter_scope else "  РЕЖИМЫ (PROMPTS)")
     while True:
         say()
-        say("  РЕЖИМЫ (PROMPTS)")
+        say(scope_head)
         separator()
         for index, info in enumerate(PROMPTS, 1):
-            mark = marks.get(info.id)
-            cell = f"[{mark}]" if mark is not None else "   "
+            if ch.is_chapter_scope and not prompt_supports_chapter_scope(info):
+                cell = "(*)"
+            else:
+                mark = marks.get(info.id)
+                cell = f"[{mark}]" if mark is not None else "   "
             say(f"    {index:>2}. {cell} {info.title}   [{info.id}]")
         say("     0. Назад в главное меню")
         say()
         say("  Метка [x]/[ ] - состояние фазы чек-листа (п.5 главного меню).")
+        if ch.is_chapter_scope:
+            say("  (*) - режим работает с одной частью; охват «вся глава»")
+            say("        поддерживают только проверочные режимы.")
         say()
         choice = ask_int("  Ваш выбор: ", 0, len(PROMPTS))
         if choice == 0:
             return
         info = PROMPTS[choice - 1]
         show_prompt_info(info, ch)
+        if ch.is_chapter_scope and not prompt_supports_chapter_scope(info):
+            say(f"  Режим [{info.id}] нельзя прогнать на всю главу: его "
+                f"единица - одна часть.")
+            say("  Переключите охват (п.6 главного меню) либо выберите")
+            say("  проверочный режим.")
+            if not ask_confirmation("  Вернуться в меню режимов? (1 - да): "):
+                return
+            continue
         if not ask_confirmation(
-                f"  Сгенерировать промпт для {ch.part_id}? (1 - да, 0 - отмена): "):
+                f"  Сгенерировать промпт для {ch.scope_label}? (1 - да, "
+                f"0 - отмена): "):
             say("  Отменено.")
             continue
         text = generate_prompt(info, ch)
@@ -2974,7 +3592,7 @@ def actions_menu(ch: Chapter) -> None:
         say("=" * TERMINAL_WIDTH)
         print_wrapped(info.description, indent="  ")
         say()
-        say(f"  Целевая часть: {ch.describe()}")
+        say(f"  Охват: {ch.describe()}")
         say()
         if not ask_confirmation("  Выполнить? (1 - да, 0 - отмена): "):
             say("  Отменено.")
@@ -2986,13 +3604,18 @@ def actions_menu(ch: Chapter) -> None:
 
 
 def navigation_menu(ch: Chapter) -> Chapter:
-    """Навигация по частям; возвращает (возможно, новую) текущую часть."""
+    """Навигация по частям; возвращает (возможно, новую) текущую часть.
+
+    В охвате «вся глава» переход на соседнюю часть переключает охват на
+    «часть» (иначе выбор был бы неотличим от пребывания в главе), а переход
+    на соседнюю главу сохраняет текущий охват.
+    """
     while True:
         prev_part = navigate_prev_part(ch)
         next_part = navigate_next_part(ch)
         next_chapter = navigate_next_chapter(ch)
         say()
-        say(f"  Текущая часть: {ch.describe()}")
+        say(f"  Текущий охват: {ch.describe()}")
         say()
         say("  НАВИГАЦИЯ")
         say(f"    1. Следующая часть: {next_part.part_id}")
@@ -3006,31 +3629,40 @@ def navigation_menu(ch: Chapter) -> Chapter:
             say(f"    3. Следующая глава: {next_chapter.part_id} "
                 f"(глоб {next_chapter.source_chapter_glob})")
         say("     0. Назад в главное меню")
+        if ch.is_chapter_scope:
+            say()
+            say("  Пункты 1/2 переключат охват на «часть»; пункт 3 сохранит")
+            say("  охват «вся глава» уже для соседней главы.")
         say()
         choice = ask_int("  Ваш выбор: ", 0, 3)
         if choice == 1:
-            ch = next_part
+            ch = with_scope(next_part, SCOPE_PART)
         elif choice == 2:
             if prev_part is None:
                 say("  Это первая часть главы.")
             else:
-                ch = prev_part
+                ch = with_scope(prev_part, SCOPE_PART)
         elif choice == 3:
             if next_chapter is None:
                 say("  Это последняя глава проекта.")
             else:
-                ch = next_chapter
+                ch = with_scope(next_chapter, ch.scope)
         else:
             return ch
-        say(f"  Текущая часть: {ch.describe()}")
+        say(f"  Текущий охват: {ch.describe()}")
 
 
 def main_menu(ch: Chapter) -> str:
-    """Главное меню; возвращает команду: prompts/actions/change/nav/quit."""
+    """Главное меню; возвращает команду: prompts/actions/change/nav/quit/scope."""
     say()
-    say(f"  Текущая часть: {ch.describe()}")
-    say(f"    файл:  {ch.script_rel}")
-    say(f"    отчёт: {ch.report_rel}")
+    say(f"  Текущий охват: {ch.describe()}")
+    if ch.is_chapter_scope:
+        say(f"    скриптов: {len(ch.scope_parts)}, "
+            f"единиц отчётов: {len(ch.scope_units)}")
+        say(f"    каталог SMA: {ch.sma_rel}/")
+    else:
+        say(f"    файл:  {ch.script_rel}")
+        say(f"    отчёт: {ch.report_rel}")
     prog = chapter_progress(ch.chapter)
     say(f"    глава {ch.chapter}: "
         f"{_plural(prog['parts'], 'файл', 'файла', 'файлов')}; "
@@ -3042,11 +3674,15 @@ def main_menu(ch: Chapter) -> str:
     say("    3. Сменить часть вручную")
     say("    4. Навигация")
     say("    5. Чек-лист фаз (где остановился)")
+    scope_label_item = ("6. Охват: переключить на «часть»"
+                        if ch.is_chapter_scope
+                        else "6. Охват: переключить на «вся глава»")
+    say(f"    {scope_label_item}")
     say("    0. Выход")
     say()
-    choice = ask_int("  Ваш выбор: ", 0, 5)
+    choice = ask_int("  Ваш выбор: ", 0, 6)
     return {1: "prompts", 2: "actions", 3: "change", 4: "nav",
-            5: "checklist", 0: "quit"}[choice]
+            5: "checklist", 6: "scope", 0: "quit"}[choice]
 
 
 def interactive_loop() -> int:
@@ -3069,6 +3705,16 @@ def interactive_loop() -> int:
             ch = ask_chapter()
         elif command == "nav":
             ch = navigation_menu(ch)
+        elif command == "scope":
+            new_scope = SCOPE_PART if ch.is_chapter_scope else SCOPE_CHAPTER
+            ch = with_scope(ch, new_scope)
+            say()
+            if ch.is_chapter_scope:
+                say(f"  Охват: ВСЯ ГЛАВА {ch.chapter} "
+                    f"({_plural(len(ch.scope_parts), 'часть', 'части', 'частей')}).")
+                say("  Проверочные режимы теперь гоняются по всей главе разом.")
+            else:
+                say(f"  Охват: ЧАСТЬ {ch.part_id}.")
 
 
 # ============================================================================
@@ -3147,6 +3793,104 @@ def self_test_sma() -> int:
     check("Чек-лист: действие phase-checklist есть в ACTIONS",
           any(a.id == "phase-checklist" and callable(a.execute)
               for a in ACTIONS))
+
+    # --- Охват «вся глава» (проверочные промпты и агрегированный чек-лист)
+    ch3c = with_scope(Chapter(chapter="3", part="2"), SCOPE_CHAPTER)
+    check("Охват: with_scope нормализует part в первую существующую часть",
+          ch3c.is_chapter_scope and ch3c.part == "1",
+          f"part={ch3c.part}")
+    check("Охват: SMA главового каталога - reports/sma/ch<N>/chapter",
+          ch3c.sma_rel == f"reports/sma/ch3/{CH_SCOPE_SMA_UNIT}"
+          and "\\" not in ch3c.sma_rel, ch3c.sma_rel)
+    check("Охват: единицы отчётов главы - только единицы частей",
+          bool(ch3c.scope_units)
+          and CH_SCOPE_SMA_UNIT not in ch3c.scope_units,
+          ", ".join(ch3c.scope_units))
+    check("Охват: Analyzer читает главовый каталог плюс каталоги частей",
+          sma_input_dirs(ch3c)
+          == [f"reports/sma/ch3/{CH_SCOPE_SMA_UNIT}"]
+          + [f"reports/sma/ch3/{u}" for u in ch3c.scope_units],
+          ", ".join(sma_input_dirs(ch3c)))
+    ch3p = Chapter(chapter="3", part="2")
+    check("Охват «часть»: список каталогов SMA не меняется",
+          sma_input_dirs(ch3p) == [ch3p.sma_rel],
+          ", ".join(sma_input_dirs(ch3p)))
+    ch_items = phase_checklist(ch3c)
+    check("Охват главы: чек-лист даёт 13 фаз с доказательствами",
+          [it.n for it in ch_items] == list(range(1, 14))
+          and all(it.title and it.detail for it in ch_items),
+          f"получено: {[it.n for it in ch_items]}")
+    check("Охват главы: честно остаются незакрытые фазы",
+          any(not it.done for it in ch_items))
+    expected_chapter_prompts = {
+        "translate-edit", "full-audit", "grammar-audit", "style-audit",
+        "humanizer", "encoding-check", "pragmatic-c",
+        "analyzer-phase1", "analyzer-phase2",
+    }
+    check("Охват главы: CHAPTER_SCOPE_PROMPTS = 9 проверочных режимов",
+          set(CHAPTER_SCOPE_PROMPTS) == expected_chapter_prompts
+          and set(CHAPTER_SCOPE_PROMPTS) <= set(prompt_ids),
+          ", ".join(sorted(CHAPTER_SCOPE_PROMPTS)))
+    check("Охват главы: непроверочные режимы помечены несовместимыми",
+          not any(prompt_supports_chapter_scope(p) for p in PROMPTS
+                  if p.id in {"first-launch", "continue", "port-part",
+                              "voice-work", "resolve-decisions"}))
+    check("Цель: 2_4b - файл цели, папки глав - нет",
+          _target_is_file("2_4b") and _target_is_file("script-ch2_4b.rpy")
+          and _target_is_file("sp_l1")
+          and not _target_is_file("2") and not _target_is_file("extra"))
+
+    ch_scope_texts = {p.id: generate_prompt(p, ch3c) for p in PROMPTS
+                      if p.id in CHAPTER_SCOPE_PROMPTS}
+    check("Охват главы: все 9 проверочных промптов генерируются",
+          len(ch_scope_texts) == 9
+          and all(t for t in ch_scope_texts.values()),
+          ", ".join(k for k, v in ch_scope_texts.items() if not v))
+    check("Охват главы: каждый промпт называет охват «вся глава»",
+          all("вся глава" in t.lower() for t in ch_scope_texts.values()),
+          ", ".join(k for k, t in ch_scope_texts.items()
+                    if "вся глава" not in t.lower()))
+    plain_ids = expected_chapter_prompts - {"pragmatic-c", "analyzer-phase1",
+                                            "analyzer-phase2"}
+    check("Охват главы: обычные промпты несут блок ОХВАТ",
+          all("ОХВАТ ЭТОГО ЗАДАНИЯ" in ch_scope_texts[k] for k in plain_ids),
+          ", ".join(k for k in plain_ids
+                    if "ОХВАТ ЭТОГО ЗАДАНИЯ" not in ch_scope_texts[k]))
+    sma_ids = {"pragmatic-c", "analyzer-phase1", "analyzer-phase2"}
+    check("Охват главы: SMA-промпты ссылаются на все каталоги главы",
+          all(f"reports/sma/ch3/{CH_SCOPE_SMA_UNIT}" in ch_scope_texts[k]
+              for k in sma_ids),
+          ", ".join(k for k in sma_ids
+                    if f"reports/sma/ch3/{CH_SCOPE_SMA_UNIT}"
+                    not in ch_scope_texts[k]))
+    check("Охват главы: Analyzer Фазы 2 читает и каталоги частей",
+          all(d in ch_scope_texts["analyzer-phase2"]
+              for d in sma_input_dirs(ch3c)))
+    check("Охват главы: итоги аудита идут в отчёты всех частей",
+          all(phrase in ch_scope_texts[k]
+              for k in ("grammar-audit", "style-audit", "humanizer")
+              for phrase in ("в отчётах всех частей",)))
+    check("Охват главы: JSON SMA использует part_key ch3/*",
+          all('"part": "ch3/*"' in ch_scope_texts[k]
+              for k in ("pragmatic-c", "analyzer-phase1",
+                        "analyzer-phase2")))
+    check("Охват главы: находки обязаны назвать script-файл (поле file)",
+          all('"file"' in ch_scope_texts[k]
+              for k in ("pragmatic-c", "analyzer-phase1",
+                        "analyzer-phase2")))
+    part_texts = {p.id: generate_prompt(p, ch3p) for p in PROMPTS
+                  if p.id in CHAPTER_SCOPE_PROMPTS}
+    check("Охват «часть»: JSON SMA даёт part_id части, а не ch<N>/*",
+          all('"part": "ch3_2"' in part_texts[k]
+              for k in ("pragmatic-c", "analyzer-phase1",
+                        "analyzer-phase2")),
+          ", ".join(k for k in ("pragmatic-c", "analyzer-phase1",
+                                "analyzer-phase2")
+                    if '"part": "ch3_2"' not in part_texts[k]))
+    check("Охват «часть»: поле file в JSON не навязывается",
+          all('"file"' not in part_texts[k]
+              for k in ("pragmatic-c", "analyzer-phase1",
+                        "analyzer-phase2")))
 
     ch = Chapter(chapter="3", part="2")
     check("Часть: скрипт по шаблону game/chapters/<N>/script-ch<N>_<M>.rpy",
@@ -3292,16 +4036,18 @@ USAGE = """\
 
   python tools/agent_workflow.py
       Интерактивный режим: выбор части (свободная цель), режимы (промпты),
-      действия, навигация.
+      действия, навигация, охват (часть / вся глава).
 
   python tools/agent_workflow.py --list
       Печатает id и названия всех PROMPTS и ACTIONS.
 
   python tools/agent_workflow.py --prompt <id> [--chapter ЦЕЛЬ] [--part M]
+                                 [--scope part|chapter]
       Генерирует промпт и сохраняет его в agent_prompt.md (корень проекта).
       В консоль выводится ТОЛЬКО путь к файлу, текст промпта не печатается.
 
-  python tools/agent_workflow.py --action <id> [--chapter ЦЕЛЬ] [--part M] [--apply]
+  python tools/agent_workflow.py --action <id> [--chapter ЦЕЛЬ] [--part M]
+                                 [--scope part|chapter] [--apply]
       Выполняет действие (промпт не создаётся). --apply относится к замене
       заглушек (по умолчанию dry-run).
 
@@ -3325,6 +4071,16 @@ USAGE = """\
 несколькими частями берётся первая по списку; в интерактиве показывается
 список и выбирается номер.
 
+--scope part|chapter (по умолчанию part):
+  part      работа с одной частью (единица работы проекта, AGENTS.md §3)
+  chapter   проверка ВСЕЙ главы одним прогоном: промпт перечисляет все
+            script-файлы главы, итоговые разделы пишутся в отчёт каждой
+            затронутой части, SMA evidence - в reports/sma/ch<N>/chapter/
+  С --scope chapter сочетаются ТОЛЬКО проверочные промпты (translate-edit,
+  full-audit, grammar-audit, style-audit, humanizer, encoding-check,
+  pragmatic-c, analyzer-phase1, analyzer-phase2); цель обязана быть папкой
+  главы (--part и цели вида 2_4b запрещены).
+
 Примеры:
   python tools/agent_workflow.py --prompt port-part --chapter 2 --part 4b
   python tools/agent_workflow.py --prompt port-part --chapter 2_4b
@@ -3332,6 +4088,8 @@ USAGE = """\
   python tools/agent_workflow.py --action chapter-state --chapter 5
   python tools/agent_workflow.py --action phase-checklist --chapter 3
   python tools/agent_workflow.py --prompt port-part --chapter script-ch2_5b.rpy
+  python tools/agent_workflow.py --prompt grammar-audit --chapter 3 --scope chapter
+  python tools/agent_workflow.py --action phase-checklist --chapter 3 --scope chapter
 """
 
 
@@ -3339,6 +4097,7 @@ def parse_cli(argv: list[str]) -> dict | int:
     """Разобрать аргументы CLI. Возвращает словарь опций либо 2 - ошибка."""
     options: dict = {
         "prompt": None, "action": None, "chapter": None, "part": None,
+        "scope": SCOPE_PART,
         "apply": False, "list": False, "self_test": False,
     }
     index = 0
@@ -3356,6 +4115,21 @@ def parse_cli(argv: list[str]) -> dict | int:
             continue
         if arg == "--apply":
             options["apply"] = True
+            continue
+        if arg == "--scope":
+            if index >= len(argv):
+                say("  После --scope ожидается значение.")
+                return 2
+            value = argv[index].strip().lower()
+            index += 1
+            if value in ("part", "p", "часть"):
+                options["scope"] = SCOPE_PART
+            elif value in ("chapter", "ch", "глава", "вся", "вся глава", "all"):
+                options["scope"] = SCOPE_CHAPTER
+            else:
+                say("  --scope ожидает part либо chapter, получено: "
+                    f"{value}")
+                return 2
             continue
         if arg in ("--prompt", "--action", "--chapter", "--part"):
             if index >= len(argv):
@@ -3396,18 +4170,38 @@ def cli_list() -> int:
     return 0
 
 
+def _target_is_file(raw: str) -> bool:
+    """True, если цель называет конкретную часть/файл, а не папку главы."""
+    if raw.endswith(".rpy") or "/" in raw or "\\" in raw:
+        return True
+    if re.fullmatch(r"\d+_[A-Za-z0-9]+", raw):            # 2_4, 2_4b
+        return True
+    if re.fullmatch(r"script-ch\d+(_\w+)?(\.rpy)?", raw):  # script-ch2_5b
+        return True
+    if re.fullmatch(r"sp_\w+", raw):                       # sp_l1
+        return True
+    return False
+
+
 def cli_resolve_chapter(options: dict) -> Chapter | int:
-    """Собрать Chapter из --chapter/--part (свободная цель).
+    """Собрать Chapter из --chapter/--part/--scope (свободная цель).
 
     Цель --chapter: 2 | extra | 2_4b | script-ch2_5b.rpy | sp_l1 | путь.
     --part (если задан) добавляется к --chapter:
       --chapter 2 --part 4b  ==  --chapter 2_4b;
       --chapter extra --part sp_l1  ==  --chapter sp_l1.
+    --scope chapter накладывает на разрешённый результат охват «вся глава»:
+    цель обязана быть папкой главы (--part и цели вида 2_4b запрещены).
     По умолчанию (без --chapter и --part) - пролог.
     Возвращает Chapter либо код ошибки (2).
     """
     chapter = options.get("chapter")
     part = options.get("part")
+    scope = options.get("scope") or SCOPE_PART
+    if scope == SCOPE_CHAPTER and part is not None:
+        say("  --scope chapter не сочетается с --part: цель должна быть "
+            "папкой главы (--chapter <глава>).")
+        return 2
     if chapter is None and part is None:
         raw = str(PROJECT_CHAPTER_MIN)          # по умолчанию - пролог
     elif part is not None:
@@ -3420,11 +4214,18 @@ def cli_resolve_chapter(options: dict) -> Chapter | int:
             raw = f"{chapter}_{part}"
     else:
         raw = str(chapter)
+    if scope == SCOPE_CHAPTER and _target_is_file(raw):
+        say(f"  --scope chapter требует цель-папку главы, получено: {raw}")
+        say("  Уберите часть из цели (2_4b -> 2).")
+        return 2
     try:
-        return resolve_chapter(raw)
+        ch = resolve_chapter(raw)
     except targets.TargetError as exc:
         say(f"  {exc}")
         return 2
+    if scope == SCOPE_CHAPTER:
+        ch = with_scope(ch, SCOPE_CHAPTER)
+    return ch
 
 
 def cli_prompt(prompt_id: str, ch: Chapter) -> int:
@@ -3433,6 +4234,13 @@ def cli_prompt(prompt_id: str, ch: Chapter) -> int:
     if info is None:
         say(f"  Неизвестный id промпта: {prompt_id}")
         say(f"  Доступные: {', '.join(p.id for p in PROMPTS)}")
+        return 2
+    if ch.is_chapter_scope and not prompt_supports_chapter_scope(info):
+        say(f"  Режим {info.id} не поддерживает охват «вся глава»: его "
+            f"единица - одна часть.")
+        say("  Проверочные режимы: "
+            f"{', '.join(sorted(CHAPTER_SCOPE_PROMPTS))}")
+        say("  Уберите --scope chapter либо выберите проверочный режим.")
         return 2
     text = generate_prompt(info, ch)
     if not text:
