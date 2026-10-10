@@ -394,16 +394,16 @@ translate russian strings:
     new "Она просто читает книгу, как ни в чём не бывало. Будто той суматохи вообще не было."
 
     old "Being ignored this skillfully is honestly kind of refreshing..."
-    new "Когда тебя так мастерски игнорируют, это даже освежает..."
+    new "Когда тебя так мастерски игнорируют, это даже освежает…"
 
     old "Um... I'm not imagining things, right?"
-    new "Эм... это, кажется, не моё воображение, да?"
+    new "Эм… это, кажется, не моё воображение, да?"
 
     old "Um, um... I have no idea how I'm supposed to react!"
-    new "Эм, эм... я понятия не имею, как на это реагировать!"
+    new "Эм, эм… я понятия не имею, как на это реагировать!"
 
     old "Doesn't seem like she hates me, but..."
-    new "Кажется, она меня не ненавидит, но..."
+    new "Кажется, она меня не ненавидит, но…"
 
     old "Ugh, I can't keep the silence going."
     new "Уф, такую паузу я не выдерживаю."

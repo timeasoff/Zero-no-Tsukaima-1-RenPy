@@ -5162,13 +5162,13 @@ translate russian strings:
     new "Ох, ты обо мне переживаешь? Как приятно, Дорогой."
 
     old "Look..."
-    new "Слушай-ка……."
+    new "Слушай-ка…"
 
     old "I'd worry about anyone."
     new "Побеспокоился бы о любом."
 
     old "Oh my, what a shame. I'd just hoped you'd worry about me alone..."
-    new "Ох, как жаль. Я-то надеялась, что ты будешь переживать только обо мне..."
+    new "Ох, как жаль. Я-то надеялась, что ты будешь переживать только обо мне…"
 
     old "Like I could. At the very least, if it's people I know, anyone would worry."
     new "Как я мог бы? По крайней мере, если это кто-то из знакомых, переживать будет любой."
@@ -5192,7 +5192,7 @@ translate russian strings:
     new "Хоть бы серьёзно отнёсся. Я знаю, что ты сильна, Кирхе, но противники — неизвестные."
 
     old "I never let my guard down. A fight can happen anytime. ...But I'm happy about your honest feelings, Darling."
-    new "Я не расслабляюсь. Бой может случиться в любую минуту. ...Но твои откровенные слова меня радуют, Дорогой."
+    new "Я не расслабляюсь. Бой может случиться в любую минуту. …Но твои откровенные слова меня радуют, Дорогой."
 
     old "Hah."
     new "Фух."
@@ -5243,7 +5243,7 @@ translate russian strings:
     new "Поняла. И тебе удачи в патруле, Дорогой."
 
     old "Looks like there's no particular damage here. ...Hey, Tabitha's here."
-    new "Похоже, здесь особого ущерба нет. ...Эй, тут Табита."
+    new "Похоже, здесь особого ущерба нет. …Эй, тут Табита."
 
     old "……。{#ch2.5_t1271}"
     new "…"
@@ -5267,13 +5267,13 @@ translate russian strings:
     new "…Да. Почему?"
 
     old "Why do you ask...?"
-    new "Почему, спрашиваешь...?"
+    new "Почему, спрашиваешь…?"
 
     old "...Why do you ask that?"
     new "…Почему ты это спрашиваешь?"
 
     old "Because..."
-    new "Потому что..."
+    new "Потому что…"
 
     old "Because I was worried about Tabitha."
     new "Потому что я переживал за Табиту."
@@ -5294,7 +5294,7 @@ translate russian strings:
     new "…"
 
     old "You ask why... I guess because I was curious."
-    new "Спросишь «почему»... наверное, просто стало любопытно."
+    new "Спросишь «почему»… наверное, просто стало любопытно."
 
     old "...I see.{#ch2.5_t15423}"
     new "…Понятно."
@@ -5327,7 +5327,7 @@ translate russian strings:
     new "…Понятно."
 
     old "U-um."
-    new "Н-да..."
+    new "Н-да…"
 
     old "……。{#ch2.5_t1274}"
     new "…"
@@ -5339,7 +5339,7 @@ translate russian strings:
     new "…Что?"
 
     old "N-no, nothing in particular... nothing."
-    new "Н-нет, ничего такого... просто ничего."
+    new "Н-нет, ничего такого… просто ничего."
 
     old "Um, did I interrupt? Sorry about that."
     new "Э-это, я не помешал? Извини."
@@ -5363,7 +5363,7 @@ translate russian strings:
     new "Скорее всего, та просто не заметила, а?"
 
     old "...I believe in Tabitha."
-    new "...Я верю в Табиту."
+    new "…Я верю в Табиту."
 
     old "Your eyes are totally swimming, partner."
     new "Глаза у тебя метутся, напарник."
@@ -5405,19 +5405,19 @@ translate russian strings:
     new "Взрыв!?"
 
     old "Yeah. ...Those guys who came after you yesterday — they snuck into the academy."
-    new "Да. ...Те, кто преследовал тебя вчера, проникли в академию."
+    new "Да. …Те, кто преследовал тебя вчера, проникли в академию."
 
     old "I-see... so that's what it was."
-    new "Понятно... вот что это было."
+    new "Понятно… вот что это было."
 
     old "We managed to drive them off, but... they might come back, so I was patrolling the academy."
-    new "Мы их отогнали, но... они могут вернуться, так что я патрулировал академию."
+    new "Мы их отогнали, но… они могут вернуться, так что я патрулировал академию."
 
     old "Ah... yes, I understand. Hiraga-kun, is there anything I should be careful about...?"
-    new "А…… Да, поняла. Хирага-кун, есть ли что-то, о чём мне стоит помнить...?"
+    new "А…… Да, поняла. Хирага-кун, есть ли что-то, о чём мне стоит помнить…?"
 
     old "Let's see..."
-    new "Ну-у..."
+    new "Ну-у…"
 
     old "At any rate, I'm just glad you're safe, Haruna."
     new "Как бы то ни было, я рад, что ты в порядке, Харуна."
@@ -5429,7 +5429,7 @@ translate russian strings:
     new "Те охотились на тебя, правда? Мне показалось, будет беда, если тебя найдут."
 
     old "Hiraga-kun... you were worried about me."
-    new "Хирага-кун... ты обо мне переживал."
+    new "Хирага-кун… ты обо мне переживал."
 
     old "Of course I was. That goes without saying, right?"
     new "Конечно. Это же очевидно, верно?"
@@ -5444,10 +5444,10 @@ translate russian strings:
     new "Да, я буду осторожна. Сиеста-сан тоже предупредила меня, что меня не должны увидеть люди из академии."
 
     old "That's good, but... everyone here uses magic, so you can't judge by appearances."
-    new "Это хорошо, но... все здесь используют магию, так что нельзя судить по внешности."
+    new "Это хорошо, но… все здесь используют магию, так что нельзя судить по внешности."
 
     old "Yes... I'll be careful."
-    new "Да... я буду осторожна."
+    new "Да… я буду осторожна."
 
     old "Just stay put, okay?"
     new "Просто сиди тихо, ладно?"
@@ -5459,22 +5459,22 @@ translate russian strings:
     new "Хорошо, тогда всё будет хорошо."
 
     old "It's just... the girls around me tend to be the charge-ahead type, so... I've started to worry."
-    new "Просто... девушки вокруг меня в основном рвутся вперёд, так что... я начал беспокоиться."
+    new "Просто… девушки вокруг меня в основном рвутся вперёд, так что… я начал беспокоиться."
 
     old "Hiraga-kun... do you date that many girls?"
-    new "Хирага-кун... ты действительно встречаешься со множеством девушек?"
+    new "Хирага-кун… ты действительно встречаешься со множеством девушек?"
 
     old "N-no... I'm not dating anyone. Louise mostly just treats me as her familiar anyway."
-    new "Н-нет... я ни с кем не встречаюсь. Впрочем, Луиза в основном обращается со мной как с фамильяром."
+    new "Н-нет… я ни с кем не встречаюсь. Впрочем, Луиза в основном обращается со мной как с фамильяром."
 
     old "But... you seem to be on good terms with all sorts of girls..."
-    new "Но... вроде ты ладишь со всеми девушками..."
+    new "Но… вроде ты ладишь со всеми девушками…"
 
     old "I-is that so...? Hahahaha."
-    new "П-правда...? Ха-ха-ха-ха."
+    new "П-правда…? Ха-ха-ха-ха."
 
     old "Hm..."
-    new "Хм..."
+    new "Хм…"
 
     old "Anyway, don't leave this room. If a stranger calls out, don't answer."
     new "В общем, не выходи из этой комнаты. Если кто-то незнакомый окликнет — не отвечай."
