@@ -89,12 +89,26 @@ init -1 python:
         ("big",    "left"):   (0.70, -0.30, 1.00),
         ("big",    "center"): (0.70,  0.50, 0.15),
         ("big",    "right"):  (0.70,  1.40, 0.95),
+
+        # soldier и др. высокие спрайты (~2336px против ~1720px):
+        # тот же zoom (та же высота на экране), но слоты разнесены шире,
+        # чтобы высокие спрайты не слипались друг с другом
+        ("tall",   "left"):   (0.55, -3.65, 1.00),
+        ("tall",   "center"): (0.55,  0.50, 1.00),
+        ("tall",   "right"):  (0.55,  8.65, 1.00),
     }
 
     def _geom(mode, side):
         return CHARA_GEOM.get((mode, side), CHARA_GEOM[("normal", "center")])
 
-    def _off(side, direction):
+    def _off(side, direction, mode="normal"):
+        # для tall (высокие спрайты) слоты разнесены шире, чтобы не слипались
+        if mode == "tall":
+            if side == "left":
+                return -0.95
+            if side == "right":
+                return 1.95
+            return 1.95 if direction == "out" else -0.95
         if side == "left":
             return -0.60
         if side == "right":
@@ -103,19 +117,19 @@ init -1 python:
 
     _ANIM_UNSET = object()
 
-    def _entry_x(slot, slide_dir):
+    def _entry_x(slot, slide_dir, mode="normal"):
         if slide_dir == "right":
-            return -0.60
+            return -0.95 if mode == "tall" else -0.60
         if slide_dir == "left":
-            return 1.70
-        return _off(slot, "in")
+            return 1.95 if mode == "tall" else 1.70
+        return _off(slot, "in", mode)
 
-    def _exit_x(slot, slide_dir):
+    def _exit_x(slot, slide_dir, mode="normal"):
         if slide_dir == "left":
-            return -0.60
+            return -0.95 if mode == "tall" else -0.60
         if slide_dir == "right":
-            return 1.70
-        return _off(slot, "out")
+            return 1.95 if mode == "tall" else 1.70
+        return _off(slot, "out", mode)
 
     def _slide_dur(x0, x1):
         # [FIX] math уже импортирован на уровне init-блока
@@ -162,18 +176,18 @@ init -1 python:
             return target_xa - SLIDE_SHORT_DIST
         return target_xa + SLIDE_SHORT_DIST
 
-    def _slide_in_geom(slot, slide_dir, target_xa):
+    def _slide_in_geom(slot, slide_dir, target_xa, mode="normal"):
         """(start_x, duration) для въезжающего спрайта."""
         if SLIDE_SHORT:
             return _entry_x_short(slot, slide_dir, target_xa), SLIDE_SHORT_DUR
-        sx = _entry_x(slot, slide_dir)
+        sx = _entry_x(slot, slide_dir, mode)
         return sx, _slide_dur(sx, target_xa)
 
-    def _slide_out_geom(slot, slide_dir, target_xa):
+    def _slide_out_geom(slot, slide_dir, target_xa, mode="normal"):
         """(exit_x, duration) для уезжающего спрайта."""
         if SLIDE_SHORT:
             return _exit_x_short(slot, slide_dir, target_xa), SLIDE_SHORT_DUR
-        ex = _exit_x(slot, slide_dir)
+        ex = _exit_x(slot, slide_dir, mode)
         return ex, _slide_dur(target_xa, ex)
 
     def _zorder(side, center_front):
@@ -348,7 +362,7 @@ init -1 python:
         _max_dur = 0.0
         for s, (tag, img, m, z) in slots.items():
             zoom_, xa, ya = _geom(m, s)
-            ex, d = _slide_out_geom(s, dir_of(s), xa)   # [ЗАДАЧА 1]
+            ex, d = _slide_out_geom(s, dir_of(s), xa, m)   # [ЗАДАЧА 1]
             _max_dur = max(_max_dur, d)
             renpy.show(img, at_list=[chara_slide_out(zoom_, xa, ya, ex, d)],
                        tag=tag, zorder=z)
@@ -639,7 +653,7 @@ init -1 python:
                 _max_dur = 0.0
                 for s, tag, oimg, om in leavers:
                     z, xa, ya = _geom(om, s)
-                    ex, d = _slide_out_geom(s, dir_out.get(s), xa)   # [ЗАДАЧА 1]
+                    ex, d = _slide_out_geom(s, dir_out.get(s), xa, om)   # [ЗАДАЧА 1]
                     _max_dur = max(_max_dur, d)
                     renpy.show(oimg, at_list=[chara_slide_out(z, xa, ya, ex, d)],
                                tag=tag, zorder=old_z_by_slot.get(s, 20))
@@ -715,7 +729,7 @@ init -1 python:
                 _max_dur = 0.0
                 for s, tag, nimg in entrants:
                     z, xa, ya = _geom(mode, s)
-                    sx, d = _slide_in_geom(s, dir_in.get(s), xa)   # [ЗАДАЧА 1]
+                    sx, d = _slide_in_geom(s, dir_in.get(s), xa, mode)   # [ЗАДАЧА 1]
                     _max_dur = max(_max_dur, d)
                     renpy.show(nimg, at_list=[chara_slide_in(z, xa, ya, sx, d)],
                                tag=tag, zorder=slot_z[s])

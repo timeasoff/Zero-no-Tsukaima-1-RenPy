@@ -5,11 +5,11 @@ label ch0:
     #$ scene_fx(effect="blow", duration=1, sound="blow", new_music="t23", music_fadein=2)
     pause(0.5)
 
-    $ show_sprites(("soldier 1 angry"), anim="dissolve")
+    $ show_sprites(("soldier 1 angry"), mode="tall", anim="dissolve")
     voice "ch0_soldier_001"
     commander "Where did the explosion happen?"
 
-    $ show_sprites(("soldier 1 angry", "soldier 1 angry"))
+    $ show_sprites(("soldier 1 angry", "soldier 1 angry"), mode="tall")
 
     voice "ch0_soldier_002"
     soldier "Sir—on the street facing the main avenue, multiple explosions involving explosive materials have been confirmed."
@@ -21,17 +21,17 @@ label ch0:
     soldier "Yes, Sir!"
 
     call overlay_screen(None,  "My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallière", text_mode="white", delay=5.5, sound_path="ch0_l_001") from _call_overlay_screen_1
-    $ fade_fx("town_square_night", sprites=("soldier 1", "soldier 1"))
+    $ fade_fx("town_square_night", sprites=("soldier 1", "soldier 1"), mode="tall")
 
     voice "ch0_un_001"
     unk "Hahahaha. You're always working hard."
 
-    $ show_sprites(("soldier 1 sad", "soldier 1"), raise_z=False)
+    $ show_sprites(("soldier 1 sad", "soldier 1"), mode="tall", raise_z=False)
 
     voice "ch0_soldier_005"
     commander "Where is he?"
 
-    $ show_sprites(("soldier 1 sad", "soldier 1 angry "))
+    $ show_sprites(("soldier 1 sad", "soldier 1 angry "), mode="tall")
     voice "ch0_soldier_006"
     soldier "Sir, he's on top of that mansion."
 
