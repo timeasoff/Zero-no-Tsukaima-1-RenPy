@@ -188,6 +188,10 @@ image cg l_si_agreement = "cg/l_si_agreement.webp"
 
 
 image cg ak_appear_evening = "cg/ak_appear_evening.webp"
+image cg l_milk = "cg/l_milk.webp"
+image cg k_swim = "cg/k_swim.webp"
+image cg s_ha_book = "cg/s_ha_book.webp"
+image cg l_si_sleep = "cg/l_si_sleep.webp"
 
 
 

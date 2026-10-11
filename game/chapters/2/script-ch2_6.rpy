@@ -256,7 +256,7 @@ label date_louise_ch2_6:
     $ show_sprites(("s 1 sad",))
     voice "ch2.6_s_027"
     s "Hang on... huh? Where did she go?"
-    $ fade_fx("id(208)", type="cg")
+    $ fade_fx("l_milk", type="cg")
     voice "ch2.6_l_010"
     l "Sorry to keep you waiting!"
     voice "ch2.6_s_028"

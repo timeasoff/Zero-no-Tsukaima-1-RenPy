@@ -61,7 +61,7 @@ label ch2_8_tabitha_1048:
     voice "ch2.8_t_006"
     t "...Yeah."
     stop music fadeout 1.0
-    $ pause(1.0)
+    pause(1.0)
     return
 
 label date_kirche_ch2_8:
@@ -208,7 +208,7 @@ label ch2_8_kirche_1053:
     $ show_sprites(("s 3 sad",), side="left")
     voice "ch2.8_s_033"
     s "Wow, she really left me. She must have wanted to swim that badly."
-    $ flash_fx("id(247)", type="cg", new_music="t13")
+    $ flash_fx("k_swim", type="cg", new_music="t13")
     voice "ch2.8_k_020"
     k "Here I go-o!!"
     voice "ch2.8_k_021"
@@ -236,7 +236,7 @@ label ch2_8_kirche_1053:
     voice "ch2.8_s_039"
     s "Please don't eat me..."
     stop music fadeout 1.0
-    $ pause(1.0)
+    pause(1.0)
     return
 
 label date_haruna_ch2_8:
@@ -345,7 +345,7 @@ label ch2_8_haruna_1058:
     ha "I never used to read the handbook. But if I don't read it now, I'm afraid I'll forget Japanese before long... it scares me."
     voice "ch2.8_s_053"
     s "I see... Come to think of it, I never really read the handbook properly either."
-    $ fade_fx("id(269)", type="cg", new_music="t16")
+    $ fade_fx("s_ha_book", type="cg", new_music="t16")
     voice "ch2.8_s_054"
     s "Let's see, there was something funny in here... Um... 'Do not dress too showily'?"
     voice "ch2.8_ha_017"
@@ -374,6 +374,6 @@ label ch2_8_haruna_1058:
     s "Haha, ahaha!"
     th "She laughed... I guess talking about memories of Japan is what makes Haruna happiest."
     stop music fadeout 1.0
-    $ pause(1.0)
+    pause(1.0)
     return
 

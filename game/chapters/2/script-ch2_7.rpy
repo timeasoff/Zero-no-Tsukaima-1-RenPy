@@ -7,7 +7,7 @@
 
 label date_louise_ch2_7:
     # ==== SCENE 1038 ====
-    $ fade_fx("id(208)", type="cg")
+    $ fade_fx("l_milk", type="cg")
     voice "ch2.7_l_001"
     l "Anyway! I'm going to drink. Just watch me!"
     voice "ch2.7_l_002"
@@ -21,7 +21,7 @@ label date_louise_ch2_7:
     l "Even if I collapse, it'll be face-first! That's how the House of Vallière lives!"
     th "She's turned it into a whole life creed... come on."
     stop music fadeout 1.0
-    $ pause(1.0)
+    pause(1.0)
     return
 
 label date_siesta_ch2_7:
@@ -213,7 +213,7 @@ label ch2_7_siesta_kitchen:
     voice "ch2.7_si_033"
     si "Ah, yes!"
     stop music fadeout 1.0
-    $ pause(1.0)
+    pause(1.0)
     return
 
 label date_tabitha_ch2_7:

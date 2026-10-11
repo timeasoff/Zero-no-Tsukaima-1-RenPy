@@ -37,7 +37,7 @@ label ch3:
 
     # BGM stop + CG «все в кровати» + новый трек
     $ show_sprites(None)
-    $ dissolve_fx("id(114)", stop_music=True, new_music="t29", type="cg")
+    $ dissolve_fx("l_si_sleep", stop_music=True, new_music="t29", type="cg")
 
     voice "ch3_ha_007"
     ha "Why is Hiraga-kun sleeping between Louise-san and Siesta-san!? He was supposed to be on the floor, wasn't he!?"

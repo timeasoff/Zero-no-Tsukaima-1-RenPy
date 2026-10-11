@@ -146,7 +146,7 @@ image_id,kind,filename,source,notes,uses,chapters
 111,cg,l_k_fight_2,03 [EVENT_CG event image=+111],znt1 (112).png → cg/l_k_fight_2.webp (webp lossless 2026-10-05),8,03
 112,cg,l_k_fight_3,03 [EVENT_CG event image=+112],znt1 (113).png → cg/l_k_fight_3.webp (webp lossless 2026-10-05),2,03;14
 113,cg,l_k_fight_4,03 [EVENT_CG event image=+113],znt1 (114).png → cg/l_k_fight_4.webp (webp lossless 2026-10-05),3,03;14
-114,cg,,04 [EVENT_CG event image=+114],,2,04;06
+114,cg,l_si_sleep,04 [EVENT_CG event image=+114],,2,04;06
 115,cg,,04 [EVENT_CG event image=+115],,5,04
 116,cg,,04 [EVENT_CG event image=+116],,4,04
 117,cg,k_hug_2,04 [EVENT_CG event image=+117],пиксельная сверка 2026-10-03: MAE 0.982 (следующий 6.032 cg/k_hug),5,04
@@ -235,7 +235,7 @@ image_id,kind,filename,source,notes,uses,chapters
 205,cg,,06 [EVENT_CG event image=+205],,1,06
 206,cg,,05 [EVENT_CG event image=+206],,3,05;16;28
 207,cg,,05 [EVENT_CG event image=+207],,7,05;16;18;28
-208,cg,,03 [EVENT_CG event image=+208],,5,03
+208,cg,l_milk,03 [EVENT_CG event image=+208],,5,03
 211,cg,,19 [EVENT_CG event image=+211],,1,19
 212,cg,,20 [EVENT_CG event image=+212],,1,20
 213,cg,ready_to_blow,02 [EVENT_CG event image=+213],пиксельная сверка 2026-10-03: MAE 1.054 (следующий 19.280 cg/ready_to_blow_2),47,02;09;18;21;22;25;90
@@ -270,7 +270,7 @@ image_id,kind,filename,source,notes,uses,chapters
 244,cg,,26 [EVENT_CG event image=+244],,5,26
 245,cg,,28 [EVENT_CG event image=+245],,1,28
 246,cg,,26 [EVENT_CG event image=+246],,1,26
-247,cg,,03 [EVENT_CG event image=+247],,1,03
+247,cg,k_swim,03 [EVENT_CG event image=+247],,1,03
 248,cg,,15 [EVENT_CG event image=+248],,5,15
 249,cg,,14 [EVENT_CG event image=+249],,4,14
 250,cg,,14 [EVENT_CG event image=+250],,4,14
@@ -292,7 +292,7 @@ image_id,kind,filename,source,notes,uses,chapters
 266,cg,,09 [EVENT_CG event image=+266],,1,09
 267,cg,,09 [EVENT_CG event image=+267],,1,09
 268,cg,,10 [EVENT_CG event image=+268],,1,10
-269,cg,,03 [EVENT_CG event image=+269],,1,03
+269,cg,s_ha_book,03 [EVENT_CG event image=+269],,1,03
 270,cg,,04 [EVENT_CG event image=+270],,5,04
 271,cg,,06 [EVENT_CG event image=+271],,1,06
 272,cg,,04 [EVENT_CG event image=+272],,1,04
