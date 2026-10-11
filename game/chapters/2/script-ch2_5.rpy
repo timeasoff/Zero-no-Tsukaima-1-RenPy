@@ -287,7 +287,7 @@ label ch2_5_council:
     voice "ch2.5_l_039"
     l "She's really got some nerve, hasn't she."
 
-    $ fade_fx("id(109)", type="cg", new_music="t24")
+    $ fade_fx("l_si_agreement", type="cg", new_music="t24")
 
     voice "ch2.5_l_040"
     l "Fine. Let's call a truce — only until I've put that wicked girl in her place."
@@ -346,7 +346,7 @@ label ch2_5_council:
     voice "ch2.5_t_027"
     t "...Good night."
 
-    $ fade_fx("id(109)", type="cg")
+    $ fade_fx("l_si_agreement", type="cg")
 
     voice "ch2.5_l_045"
     l "For now, let's put off the strategy meeting. I won't let Haruna keep putting on airs."

@@ -141,7 +141,7 @@ image_id,kind,filename,source,notes,uses,chapters
 106,cg,ha_hug,02 [EVENT_CG event image=+106],пиксельная сверка 2026-10-03: MAE 0.751 (следующий 6.608 cg/ha_hug_3),1,02
 107,cg,ha_hug_2,02 [EVENT_CG event image=+107],пиксельная сверка 2026-10-03: MAE 0.883 (следующий 6.955 cg/ha_hug),2,02
 108,cg,ha_hug_3,02 [EVENT_CG event image=+108],пиксельная сверка 2026-10-03: MAE 0.864 (следующий 6.513 cg/ha_hug),1,02
-109,cg,,03 [EVENT_CG event image=+109],,2,03
+109,cg,l_si_agreement,03 [EVENT_CG event image=+109],,2,03
 110,cg,l_k_fight,03 [EVENT_CG event image=+110],znt1 (111).png → cg/l_k_fight.webp (webp lossless 2026-10-05),4,03
 111,cg,l_k_fight_2,03 [EVENT_CG event image=+111],znt1 (112).png → cg/l_k_fight_2.webp (webp lossless 2026-10-05),8,03
 112,cg,l_k_fight_3,03 [EVENT_CG event image=+112],znt1 (113).png → cg/l_k_fight_3.webp (webp lossless 2026-10-05),2,03;14

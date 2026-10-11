@@ -184,6 +184,12 @@ image cg l_k_fight_3 = "cg/l_k_fight_3.webp"
 image cg l_k_fight_4 = "cg/l_k_fight_4.webp"
 image cg ak_appear = "cg/ak_appear.webp"
 image cg ak_sky = "cg/ak_sky.webp"
+image cg l_si_agreement = "cg/l_si_agreement.webp"
+
+
+image cg ak_appear_evening = "cg/ak_appear_evening.webp"
+
+
 
 
 # ==== MUSIC ====
