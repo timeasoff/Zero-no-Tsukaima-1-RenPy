@@ -1052,10 +1052,7 @@ UNCERTAINTY != STOP: локальные и средние неопределён
 #   reports/sma/ch<N>/<part>/{a,b,c,precheck}/,
 # а двухфазный Analyzer читает всё evidence и пишет свой результат в
 #   reports/sma/ch<N>/<part>/analysis/.
-# Скиллы независимых аудиторов A и B, а также скилл сквозной переводческой
-# сверки отключены системой: задания для них здесь НЕ генерируются (их evidence
-# появляется от внешних изолированных сессий). Оркестратор ведёт только
-# прагматический аудит C и Analyzer.
+# Оркестратор ведёт три независимых аудитора (A, B, C) и Analyzer (две фазы).
 SMA_REL_ROOT = "reports/sma"
 SMA_KINDS = ("a", "b", "c", "analysis")   # каталоги результатов внутри части
 SMA_PRECHECK_KIND = "precheck"            # детерминированное evidence (не аудитор)
@@ -1702,12 +1699,12 @@ tools/check_project.py -> запись в журнал.
 
 
 # ============================================================================
-# ПРОМПТЫ: НЕЗАВИСИМЫЙ АУДИТ (C) И ANALYZER (ДВЕ ФАЗЫ)
+# ПРОМПТЫ: НЕЗАВИСИМЫЕ АУДИТОРЫ (A, B, C) И ANALYZER (ДВЕ ФАЗЫ)
 # ============================================================================
-# Задания для независимых аудиторов A и B здесь НЕ генерируются: их скиллы
-# отключены системой (их evidence появляется от внешних изолированных сессий).
-# Оркестратор ведёт прагматический аудит C и Analyzer, который читает всё
-# evidence из reports/sma/ch<N>/<part>/{a,b,c,precheck}/.
+# Оркестратор генерирует задания для трёх независимых аудиторов A, B, C
+# и двухфазного Analyzer. Evidence кладётся в reports/sma/ch<N>/<part>/{a,b,c}/,
+# pre-check (детерминированный) — в precheck/. Analyzer читает всё evidence
+# и пишет решения в analysis/.
 def prompt_pragmatic_c(ch: Chapter) -> str:
     """Prompt ТОЛЬКО для Pragmatic Auditor C (прагматика, речевые акты).
 
@@ -1839,6 +1836,188 @@ CLASSIFY. DISPOSITION (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION
 - source и current - точные цитаты, без пересказа.
 - Литературное предпочтение - не ошибка.
 - Не выдумывай: нет уверенности - не включай находку.
+
+{sma_own_file_note(ch)}
+
+OUTPUT FILE (единственный файл этого запуска):
+{out_rel}
+(абсолютный путь: {out_abs})
+Запиши результат строго в описанном формате .md с JSON-блоком. Ничего больше
+не создавай и не изменяй."""
+
+
+def prompt_semantic_audit_a(ch: Chapter) -> str:
+    """Prompt ТОЛЬКО для Semantic Auditor A (лексика, оттенки, эмоции).
+
+    A — микро-семантика: точность выбора слова, оттенки значения, эмоции,
+    мимика, жесты, интонация, модальность. Не дублирует B и C.
+    Изолирован: выход — единственный файл в reports/sma/ch<N>/<part>/a/.
+    """
+    run_id = new_audit_run_id(ch)
+    out_rel = sma_result_rel_path(ch, "a", run_id)
+    out_abs = sma_result_abs_path(ch, "a", run_id)
+    return f"""ЗАДАЧА: независимый смысловой аудит перевода JA -> RU. Ты - Semantic Auditor A.
+
+{SMA_AUTONOMY_NOTE}
+
+OWN SKILL (единственный разрешённый файл за пределами задания):
+.agents/skills/semantic-audit-a/SKILL.md
+{sma_forbidden_inputs_note(ch)}
+
+{semantic_audit_context(ch)}
+
+{SMA_SOURCE_HIERARCHY_NOTE}
+
+ФОКУС AUDITOR A — микро-семантика: точность выбора русского слова для
+японского, оттенки значения, эмоциональная окраска, настроение, мимика
+(выражения лица, улыбки, взгляды), жесты (физические действия, язык тела),
+интонация (ритм, мелодика речи), степень выраженности, модальность
+(отношение к высказыванию: вопрос/сомнение/предположение/необходимость/категоричность).
+
+ЧТО НЕ ВХОДИТ В ЗАДАЧУ:
+- субъект/объект, причинно-следственные и временные связи, идиомы, метафоры,
+  намерение — макро-семантика (semantic-audit-b);
+- коммуникативный смысл, речевой акт, намёк, сила реплики — прагматика (C);
+- грамматика — russian-grammar-control; стиль — russian-style-audit;
+  оформление — russian-prose-rules;
+- систематический поиск пропусков — детерминированный слой pre-check
+  (evidence в precheck/).
+
+ПРОЦЕДУРА (TARGET — реплика/строка {scope_area(ch)}):
+1. Прочитай свой SKILL (.agents/skills/semantic-audit-a/SKILL.md).
+2. Прочитай TARGET (JA и RU); PREVIOUS и NEXT — ТОЛЬКО как контекст.
+3. Установи смысл JA: ключевые слова с оттенками, эмоцию, мимику, жест,
+   модальность, степень выраженности.
+4. Свяжи с RU: точен ли выбор слова, сохранены ли оттенки, эмоции, жесты,
+   модальность, сила действия.
+5. Для каждого расхождения создай находку: source + current + problem +
+   reason + suggestion + issue_type + severity.
+
+ЕДИНИЦА АУДИТА: одна реплика/строка {scope_area(ch)} (TARGET); соседние —
+контекст. Не фиксируй проблемы в соседних репликах.
+
+ПРАВИЛА:
+- Не считай литературное предпочтение ошибкой.
+- Не дублируй другие слои. Будь точен в цитатах. Не выдумывай.
+- Не исправляй перевод: только evidence.
+
+ФОРМАТ РЕЗУЛЬТАТА: один .md-файл — шапка + JSON-блок в ```json:
+{{
+  "audit_id": "sma-a",
+  "audit_type": "semantic-audit-a",
+  "part": "{ch.part_key}",
+  "run_id": "{run_id}",
+  "pair": "JA->RU",
+  "findings": [
+    {{
+      "line": 42,{scope_file_json(ch)}
+      "source": "точная JA-цитата",
+      "current": "точная цитата перевода",
+      "pair": "JA->RU",
+      "problem": "Кратко: тип проблемы",
+      "reason": "Объяснение расхождения JA -> RU",
+      "suggestion": "Предложенный вариант (опционально)",
+      "issue_type": "LEXICAL_MISMATCH",
+      "severity": "WARNING",
+      "confidence": "HIGH"
+    }}
+  ]
+}}
+- Если проблем нет — "findings": [] и сводка «findings: 0».
+
+{sma_own_file_note(ch)}
+
+OUTPUT FILE (единственный файл этого запуска):
+{out_rel}
+(абсолютный путь: {out_abs})
+Запиши результат строго в описанном формате .md с JSON-блоком. Ничего больше
+не создавай и не изменяй"""
+
+
+def prompt_semantic_audit_b(ch: Chapter) -> str:
+    """Prompt ТОЛЬКО для Semantic Auditor B (субъект/объект, связи, контекст).
+
+    B — макро-семантика и логика: субъект/объект, причинно-следственные связи,
+    временные отношения, идиомы, метафоры, контекст, намерения. Не дублирует A и C.
+    Изолирован: выход — единственный файл в reports/sma/ch<N>/<part>/b/.
+    """
+    run_id = new_audit_run_id(ch)
+    out_rel = sma_result_rel_path(ch, "b", run_id)
+    out_abs = sma_result_abs_path(ch, "b", run_id)
+    return f"""ЗАДАЧА: независимый смысловой аудит перевода JA -> RU. Ты - Semantic Auditor B.
+
+{SMA_AUTONOMY_NOTE}
+
+OWN SKILL (единственный разрешённый файл за пределами задания):
+.agents/skills/semantic-audit-b/SKILL.md
+{sma_forbidden_inputs_note(ch)}
+
+{semantic_audit_context(ch)}
+
+{SMA_SOURCE_HIERARCHY_NOTE}
+
+ФОКУС AUDITOR B — макро-семантика и логика:
+- субъект/объект: кто выполняет действие, на кого направлено;
+- тип, характер, направленность действия;
+- состояния, их изменения, переходы;
+- причинно-следственные связи;
+- временные отношения (последовательность, одновременность, длительность);
+- последовательность событий;
+- модальность (возможность, необходимость, вероятность) как часть содержания;
+- идиомы, метафоры;
+- контекст из соседних блоков;
+- неоднозначные конструкции;
+- намерение/цель персонажа.
+
+ЧТО НЕ ВХОДИТ В ЗАДАЧУ:
+- точность слова, оттенки, эмоции, мимика — микро-семантика (A);
+- коммуникативный смысл, речевой акт — прагматика (C);
+- грамматика — russian-grammar-control; стиль — russian-style-audit;
+  оформление — russian-prose-rules;
+- систематический поиск пропусков — детерминированный слой pre-check.
+
+ПРОЦЕДУРА (TARGET — реплика/строка {scope_area(ch)}):
+1. Прочитай свой SKILL (.agents/skills/semantic-audit-b/SKILL.md).
+2. Прочитай TARGET (JA и RU); PREVIOUS и NEXT — ТОЛЬКО как контекст.
+3. Установи смысл JA: субъект, объект, действие, состояние, причины,
+   временные отношения, связь с соседними блоками.
+4. Свяжи с RU: сохранены ли субъект/объект, причинно-следственные связи,
+   последовательность, идиомы, метафоры, намерения.
+5. Для каждого расхождения создай находку: source + current + problem +
+   reason + suggestion + issue_type + severity.
+
+ЕДИНИЦА АУДИТА: одна реплика/строка {scope_area(ch)} (TARGET); соседние —
+контекст. Не фиксируй проблемы в соседних репликах. Учитывай контекст:
+соседние блоки могут прояснять смысл.
+
+ПРАВИЛА:
+- Не считай литературное предпочтение ошибкой.
+- Не дублируй другие слои. Будь точен в цитатах. Не выдумывай.
+- Не исправляй перевод: только evidence.
+
+ФОРМАТ РЕЗУЛЬТАТА: один .md-файл — шапка + JSON-блок в ```json:
+{{
+  "audit_id": "sma-b",
+  "audit_type": "semantic-audit-b",
+  "part": "{ch.part_key}",
+  "run_id": "{run_id}",
+  "pair": "JA->RU",
+  "findings": [
+    {{
+      "line": 42,{scope_file_json(ch)}
+      "source": "точная JA-цитата",
+      "current": "точная цитата перевода",
+      "pair": "JA->RU",
+      "problem": "Кратко: тип проблемы",
+      "reason": "Объяснение расхождения JA -> RU",
+      "suggestion": "Предложенный вариант (опционально)",
+      "issue_type": "MISTRANSLATION",
+      "severity": "WARNING",
+      "confidence": "HIGH"
+    }}
+  ]
+}}
+- Если проблем нет — "findings": [] и сводка «findings: 0».
 
 {sma_own_file_note(ch)}
 
@@ -2201,10 +2380,8 @@ def json_list(items: list[str]) -> str:
 # ============================================================================
 # СПИСОК ПРОМПТОВ
 # ============================================================================
-# Скиллы независимых аудиторов A и B, а также скилл сквозной переводческой
-# сверки отключены системой: задания для них здесь НЕ генерируются. Их evidence
-# появляется от внешних изолированных сессий в reports/sma/ch<N>/<part>/{a,b}/
-# и читается режимами «Прагматический аудит C» и «Смысловой анализатор».
+# Аудиторы A, B и C активны: их evidence кладётся в reports/sma/ch<N>/<part>/{a,b,c}/
+# и обрабатывается двухфазным Analyzer.
 PROMPTS: list[PromptInfo] = [
     PromptInfo(
         "first-launch",
@@ -2347,6 +2524,34 @@ PROMPTS: list[PromptInfo] = [
         prompt_resolve_decisions,
     ),
     PromptInfo(
+        "semantic-audit-a",
+        "Семантический аудит A",
+        "Изолированный аудит: лексика, оттенки, эмоции, мимика, модальность",
+        """
+        Генерирует изолированное задание для независимого аудитора A: точность
+        выбора русского слова, оттенки значения, эмоции, мимика, жесты, интонация,
+        модальность, потеря/добавление смысла. Не дублирует B (макро-семантика)
+        и C (прагматика). Уникальный run_id на каждый запуск, единственный
+        выходной файл — .md с JSON-блоком в reports/sma/ch<N>/<part>/a/.
+        Ничего не правит: только evidence.
+        """.strip(),
+        prompt_semantic_audit_a,
+    ),
+    PromptInfo(
+        "semantic-audit-b",
+        "Семантический аудит B",
+        "Изолированный аудит: субъект/объект, связи, идиомы, метафоры, контекст",
+        """
+        Генерирует изолированное задание для независимого аудитора B: субъект/объект,
+        причинно-следственные связи, временные отношения, идиомы, метафоры,
+        контекст из соседних блоков, намерения. Не дублирует A (микро-семантика)
+        и C (прагматика). Уникальный run_id на каждый запуск, единственный
+        выходной файл — .md с JSON-блоком в reports/sma/ch<N>/<part>/b/.
+        Ничего не правит: только evidence.
+        """.strip(),
+        prompt_semantic_audit_b,
+    ),
+    PromptInfo(
         "pragmatic-c",
         "Прагматический аудит C",
         "Изолированный аудит: речевой акт, подтекст, сила реплики",
@@ -2412,7 +2617,8 @@ PROMPTS: list[PromptInfo] = [
 # voice-work (именование голосов по части) и resolve-decisions (не проверка).
 CHAPTER_SCOPE_PROMPTS: frozenset[str] = frozenset({
     "translate-edit", "full-audit", "grammar-audit", "style-audit",
-    "humanizer", "encoding-check", "pragmatic-c",
+    "humanizer", "encoding-check",
+    "semantic-audit-a", "semantic-audit-b", "pragmatic-c",
     "analyzer-phase1", "analyzer-phase2",
 })
 
@@ -2712,10 +2918,8 @@ def action_voice_convert(ch: Chapter) -> int:
 # ЧЕК-ЛИСТ ФАЗ ЧАСТИ (регулярная проверка незавершённых глав)
 # ============================================================================
 # Единица работы - часть главы; фазы идут в порядке AGENTS.md §4:
-# порт -> голоса -> перевод -> отчёт -> предфильтры -> pre-check -> аудит C ->
-# анализатор (Ф1/Ф2) -> грамматика -> стиль -> humanizer -> гейт.
-# Аудиты A/B (semantic-audit-a/b) в чек-лист НЕ входят: скиллы отключены
-# системой (AGENTS.md §7), их результаты приходят извне и на фазы не влияют.
+# порт -> голоса -> перевод -> отчёт -> предфильтры -> pre-check -> аудиторы A/B/C
+# -> анализатор (Ф1/Ф2) -> грамматика -> стиль -> humanizer -> гейт.
 
 @dataclass
 class PhaseItem:
@@ -3045,14 +3249,22 @@ def _phase_checklist_part(ch: Chapter) -> list[PhaseItem]:
     else:
         items.append(PhaseItem(6, "Pre-check SMA", False, "нет запусков"))
 
-    # --- 7. Аудит C (прагматика)
+    # --- 7. Независимые аудиторы A, B и C (SMA evidence)
+    a_runs = sma_existing_runs(ch, "a")
+    b_runs = sma_existing_runs(ch, "b")
     c_runs = sma_existing_runs(ch, "c")
-    if c_runs:
-        items.append(PhaseItem(7, "Аудит C (прагматика)", True,
-                               f"запусков: {len(c_runs)}, "
-                               f"последний {_run_date_str(max(c_runs))}"))
+    audit_runs = {kind: runs for kind, runs in
+                  [("a", a_runs), ("b", b_runs), ("c", c_runs)] if runs}
+    if audit_runs:
+        summary = "; ".join(
+            f"A: {len(r)} ({_run_date_str(max(r))})" if kind == "a"
+            else f"B: {len(r)} ({_run_date_str(max(r))})" if kind == "b"
+            else f"C: {len(r)} ({_run_date_str(max(r))})"
+            for kind, r in audit_runs.items())
+        items.append(PhaseItem(7, "Независимые аудиторы A+B+C", True, summary))
     else:
-        items.append(PhaseItem(7, "Аудит C (прагматика)", False, "нет запусков"))
+        items.append(PhaseItem(7, "Независимые аудиторы A+B+C", False,
+                               "нет запусков ни A, ни B, ни C"))
 
     # --- 8. Analyzer: Фаза 1 (blind)
     p1 = sma_existing_phase1_runs(ch)
@@ -3266,6 +3478,8 @@ PROMPT_PHASE_MAP: dict[str, int] = {
     "port-part": 1,
     "voice-work": 2,
     "translate-edit": 3,
+    "semantic-audit-a": 7,
+    "semantic-audit-b": 7,
     "pragmatic-c": 7,
     "analyzer-phase1": 8,
     "analyzer-phase2": 9,
@@ -3334,8 +3548,9 @@ def print_phase_checklist(ch: Chapter) -> None:
         say("  каждой части; фазы 6-9 - при главовом запуске либо при запуске")
         say("  у каждой части.")
         say()
-    say("  Примечание: аудиты A/B не входят в чек-лист (скиллы отключены")
-    say("  системой); их результаты приходят извне и на фазы не влияют.")
+    say("  Примечание: аудиты A/B/C входят в чек-лист (фаза 7);")
+    say("  запускаются через python tools/agent_workflow.py --prompt semantic-audit-a/b /")
+    say("  pragmatic-c. evidence ложится в reports/sma/ch<N>/<part>/{a,b,c}/.")
     say()
     separator("=")
     say()
@@ -3735,8 +3950,8 @@ def self_test_sma() -> int:
     expected_prompt_ids = [
         "first-launch", "continue", "port-part", "translate-edit", "voice-work",
         "full-audit", "grammar-audit", "style-audit", "humanizer",
-        "resolve-decisions", "pragmatic-c", "analyzer-phase1",
-        "analyzer-phase2", "encoding-check",
+        "resolve-decisions", "semantic-audit-a", "semantic-audit-b",
+        "pragmatic-c", "analyzer-phase1", "analyzer-phase2", "encoding-check",
     ]
     expected_action_ids = [
         "phase-checklist", "check-project", "chapter-state", "source-stats",
@@ -3824,10 +4039,11 @@ def self_test_sma() -> int:
           any(not it.done for it in ch_items))
     expected_chapter_prompts = {
         "translate-edit", "full-audit", "grammar-audit", "style-audit",
-        "humanizer", "encoding-check", "pragmatic-c",
+        "humanizer", "encoding-check", "semantic-audit-a",
+        "semantic-audit-b", "pragmatic-c",
         "analyzer-phase1", "analyzer-phase2",
     }
-    check("Охват главы: CHAPTER_SCOPE_PROMPTS = 9 проверочных режимов",
+    check("Охват главы: CHAPTER_SCOPE_PROMPTS = 11 проверочных режимов",
           set(CHAPTER_SCOPE_PROMPTS) == expected_chapter_prompts
           and set(CHAPTER_SCOPE_PROMPTS) <= set(prompt_ids),
           ", ".join(sorted(CHAPTER_SCOPE_PROMPTS)))
@@ -3842,16 +4058,18 @@ def self_test_sma() -> int:
 
     ch_scope_texts = {p.id: generate_prompt(p, ch3c) for p in PROMPTS
                       if p.id in CHAPTER_SCOPE_PROMPTS}
-    check("Охват главы: все 9 проверочных промптов генерируются",
-          len(ch_scope_texts) == 9
+    check("Охват главы: все 11 проверочных промптов генерируются",
+          len(ch_scope_texts) == 11
           and all(t for t in ch_scope_texts.values()),
           ", ".join(k for k, v in ch_scope_texts.items() if not v))
     check("Охват главы: каждый промпт называет охват «вся глава»",
           all("вся глава" in t.lower() for t in ch_scope_texts.values()),
           ", ".join(k for k, t in ch_scope_texts.items()
                     if "вся глава" not in t.lower()))
-    plain_ids = expected_chapter_prompts - {"pragmatic-c", "analyzer-phase1",
-                                            "analyzer-phase2"}
+    plain_ids = expected_chapter_prompts - {"semantic-audit-a",
+                                             "semantic-audit-b",
+                                             "pragmatic-c", "analyzer-phase1",
+                                             "analyzer-phase2"}
     check("Охват главы: обычные промпты несут блок ОХВАТ",
           all("ОХВАТ ЭТОГО ЗАДАНИЯ" in ch_scope_texts[k] for k in plain_ids),
           ", ".join(k for k in plain_ids
@@ -3872,24 +4090,29 @@ def self_test_sma() -> int:
               for phrase in ("в отчётах всех частей",)))
     check("Охват главы: JSON SMA использует part_key ch3/*",
           all('"part": "ch3/*"' in ch_scope_texts[k]
-              for k in ("pragmatic-c", "analyzer-phase1",
+              for k in ("semantic-audit-a", "semantic-audit-b",
+                        "pragmatic-c", "analyzer-phase1",
                         "analyzer-phase2")))
     check("Охват главы: находки обязаны назвать script-файл (поле file)",
           all('"file"' in ch_scope_texts[k]
-              for k in ("pragmatic-c", "analyzer-phase1",
+              for k in ("semantic-audit-a", "semantic-audit-b",
+                        "pragmatic-c", "analyzer-phase1",
                         "analyzer-phase2")))
     part_texts = {p.id: generate_prompt(p, ch3p) for p in PROMPTS
                   if p.id in CHAPTER_SCOPE_PROMPTS}
     check("Охват «часть»: JSON SMA даёт part_id части, а не ch<N>/*",
           all('"part": "ch3_2"' in part_texts[k]
-              for k in ("pragmatic-c", "analyzer-phase1",
+              for k in ("semantic-audit-a", "semantic-audit-b",
+                        "pragmatic-c", "analyzer-phase1",
                         "analyzer-phase2")),
-          ", ".join(k for k in ("pragmatic-c", "analyzer-phase1",
+          ", ".join(k for k in ("semantic-audit-a", "semantic-audit-b",
+                                "pragmatic-c", "analyzer-phase1",
                                 "analyzer-phase2")
                     if '"part": "ch3_2"' not in part_texts[k]))
     check("Охват «часть»: поле file в JSON не навязывается",
           all('"file"' not in part_texts[k]
-              for k in ("pragmatic-c", "analyzer-phase1",
+              for k in ("semantic-audit-a", "semantic-audit-b",
+                        "pragmatic-c", "analyzer-phase1",
                         "analyzer-phase2")))
 
     ch = Chapter(chapter="3", part="2")
@@ -4010,6 +4233,22 @@ def self_test_sma() -> int:
           f"{ch.sma_rel}/a/" not in c_text
           and f"{ch.sma_rel}/b/" not in c_text
           and f"{ch.sma_rel}/analysis/" not in c_text)
+
+    a_text = texts["semantic-audit-a"]
+    check("Аудит A: своя роль и свой каталог результата",
+          "Semantic Auditor A" in a_text and f"{ch.sma_rel}/a/" in a_text)
+    check("Аудит A: не ссылается на результаты других аудиторов/Analyzer",
+          f"{ch.sma_rel}/b/" not in a_text
+          and f"{ch.sma_rel}/c/" not in a_text
+          and f"{ch.sma_rel}/analysis/" not in a_text)
+
+    b_text = texts["semantic-audit-b"]
+    check("Аудит B: своя роль и свой каталог результата",
+          "Semantic Auditor B" in b_text and f"{ch.sma_rel}/b/" in b_text)
+    check("Аудит B: не ссылается на результаты других аудиторов/Analyzer",
+          f"{ch.sma_rel}/a/" not in b_text
+          and f"{ch.sma_rel}/c/" not in b_text
+          and f"{ch.sma_rel}/analysis/" not in b_text)
 
     say()
     say("  SELF-TEST (dry-run, файлы не изменялись)")

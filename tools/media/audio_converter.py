@@ -371,8 +371,9 @@ def cmd_convert(args):
 
     pending = [n for n, i in state.items() if i["kind"] == "pending"]
     if args.chapter is not None:
-        pending = [n for n in pending if n.startswith("ch%d" % args.chapter)
-                   or n.startswith("ch%d." % args.chapter)]
+        pre = "ch%d" % args.chapter
+        pending = [n for n in pending if n.startswith(pre + "_")
+                   or n.startswith(pre + ".")]
     pending = sorted(pending)[:args.limit] if args.limit else sorted(pending)
 
     print("к конвертации: %d (сухой прогон, запись: --apply)" % len(pending))

@@ -18,11 +18,13 @@ description: Смысловой анализатор (Analyzer) результа
 
 и, отдельно, evidence общего pre-check пропусков:
 
-- **Omission Pre-check** — `reports/sma/ch<N>/<part>/precheck/<run_id>.md`
+- **Omission Pre-check** — `reports/sma/ch<N>/<unit>/precheck/<run_id>.md`
   (детерминированный технический слой, запускается до аудиторских сессий).
 
-`<N>` — глава, `<part>` — имя части (по файлу `script-ch<N>_<M>.rpy`:
-например, глава 3, часть 2 → `ch3_2`).
+`<N>` — глава; `<unit>` — единица части: ведущие цифры имени части
+(`script-ch2_4b.rpy` → `4`), либо `chapter` для охвата всей главы
+(конвенция `sma_dir` в `tools/agent_workflow.py`). Генератор evidence —
+`python tools/omission_precheck.py --chapter <цель>`.
 
 ## Целевая архитектура omission
 

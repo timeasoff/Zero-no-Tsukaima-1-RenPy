@@ -776,11 +776,11 @@ CANDIDATE
 
 ---
 
-# 25. Если существует scripts/style_scan.py
+# 25. Если существует tools/style_scan.py
 
 Перед ручным/LLM-аудитом запусти:
 
-python scripts/style_scan.py ...
+python tools/style_scan.py ...
 
 согласно инструкции самого скрипта.
 
@@ -794,7 +794,7 @@ LLM должна дополнительно провести собственн�
 
 ---
 
-# 26. Если scripts/style_scan.py отсутствует
+# 26. Если tools/style_scan.py отсутствует
 
 Не пропускай аудит.
 
@@ -820,7 +820,7 @@ LLM должна дополнительно провести собственн�
    ошибочно срабатывать;
 6. при необходимости добавлены `NEGATIVE_CASES` для известных
    пограничных ситуаций;
-7. `python scripts/style_scan.py --selftest` снова проходит полностью.
+7. `python tools/style_scan.py --selftest` снова проходит полностью.
 
 Мотивация:
 
@@ -862,9 +862,9 @@ LLM должна дополнительно провести собственн�
 `style_scan.py` не поймал:
 
 1. добавь конкретное правило (пару/шаблон) в словари
-   `scripts/style_scan.py` (TAUTOLOGY_PAIRS, NOMINALIZATION_PATTERNS и т.д.);
+   `tools/style_scan.py` (TAUTOLOGY_PAIRS, NOMINALIZATION_PATTERNS и т.д.);
 2. добавь пример в POSITIVE_CASES (`--selftest`);
-3. прогони `python scripts/style_scan.py --selftest` — все кейсы обязаны
+3. прогони `python tools/style_scan.py --selftest` — все кейсы обязаны
    остаться зелёными;
 4. запиши пару «было → стало → категория» в отчёт части
    (`reports/ch<N>/<part>.md`, раздел «Стилевой контроль»).

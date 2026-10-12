@@ -83,6 +83,7 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
   - Отключённые системой скиллы `translation-audit`, `semantic-audit-a`,
     `semantic-audit-b` убраны из таблицы `AGENTS.md` §7: задания по ним не
     генерировать; файлы на диске не трогались.
+    (См. UPD 2026-10-11 ниже: статус уточнён.)
 - ???: в `addresses.md` осталась пометка «Пример (т.14, ch04)» — `ch04` могло
   означать главу ранобэ либо старую нумерацию работы; требует уточнения.
 
@@ -1404,6 +1405,8 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
     `reports/check_project.md` + свежесть автопроверки.
   Аудиты A/B (скиллы отключены системой, AGENTS §7) в фазы **не включены** —
   только сноска в подвале экрана.
+  (См. UPD 2026-10-11: A/B теперь активны и включены в фазу 7 «Независимые
+  аудиторы A+B+C» в agent_workflow.py.)
 - Интеграция: главное меню → п.5 «Чек-лист фаз»; действие `phase-checklist` в
   ACTIONS (self-test проверяет состав id); в меню РЕЖИМЫ слева от каждого
   промпта метка его фазы (`PROMPT_PHASE_MAP`, 11 промптов из 14; `continue`,
@@ -1475,6 +1478,29 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
   (6 успешных и 6 отказных со `exit 2`); `python tools/check_project.py` —
   RESULT: OK.
 - git: **ничего не коммитится** без явного подтверждения пользователя.
+
+## 2026-10-11 — Глава 3, часть 2 (сцены 147–157)
+
+- Создан `game/chapters/3/script-ch3_2.rpy`; конец P1 подключён переходом
+  `jump ch3_2`. Портировано 90 голосовых реплик, 4 мысли, 2 трёхвариантных меню,
+  переходы к сценам 151/152/153/157 и карта после сцены 157.
+- RU/JA пары добавлены в `dialogs`, `thoughs`, `choises`; `voice_id_map.csv`
+  дополнен 90 парами. Голоса конвертированы: 90 успешно; check 90/90, pending=0.
+- **WARNING → PROVISIONAL:** readable chapter помечает реплику Харуны ID `2163`,
+  тогда как `events_full` и аудиоочередь указывают `2164`. В портировании выбран
+  `2164` по точному event-источнику; JA-текст сверён с readable chapter. Требуется
+  подтвердить при следующем аудио/источниковом аудите.
+- **WARNING → PRESERVED — FUNCTIONAL:** цели карты P3 (`hallway_ch3_3`,
+  `siesta_hallway_ch3_3`, `classroom_ch3_3`, `courtyard_ch3_3`, `l_room_ch3_3`)
+  пока forward references; определить в `script-ch3_3.rpy` и связать с
+  `ch3_2_visited`/`return`.
+- **WARNING → PRESERVED — FUNCTIONAL:** `ch3_2_leave` временно ведёт в `attention`;
+  при портировании P4 заменить цель на `jump ch3_4`. TNDL и служебные вызовы не
+  перенесены: соответствующая механика не реализована.
+- Проверки: `check_project.py` → OK (errors=0); `check_renpy_syntax.py --chapter 3`
+  → OK; `check_placeholders.py --chapter 3` → OK; RU typography → OK;
+  `audio_converter.py check --only ch3.2` → OK.
+- Коммит не выполнялся; требуется явное подтверждение пользователя.
 
 ## 2026-10-09 — ch2: грамматический контроль всех русских строк главы (russian-grammar-control)
 
@@ -1628,3 +1654,105 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
   `new`; самопроверка (self-review) выполнена по каждой правке; `old` (EN) и
   `tl/japanese` не менялись.
 - git: **ничего не коммитится** без явного подтверждения пользователя.
+
+
+## 2026-10-11 — UPD: статус скиллов translation-audit, semantic-audit-a/b уточнён
+
+- статус: INFO
+- место: AGENTS.md §7, .agents/skills/translation-audit/, .agents/skills/semantic-audit-a/b/
+- Уточнение статуса:
+  - 	ranslation-audit: **LEGACY / НЕ ИСПОЛЬЗУЕТСЯ**. Помечен в SKILL.md и AGANTS.md.
+    Описывает несуществующую инфраструктуру (translates/output/merged/scripts/).
+    Функции смысловой сверки распределены между self-review, pragmatic-audit (C),
+    semantic-analyzer (Фаза 1) и скиллами russian-*/terminology-dictionary.
+    Задания не генерируются. Файл оставлен как исторический материал.
+  - semantic-audit-a и semantic-audit-b: **АКТИВНЫЕ аудиторы A и B**. Вместе с
+    pragmatic-audit (C) образуют трёхнезависимых аудиторов. Их evidence
+    (JSON-массивы находок) кладётся в reports/sma/ch<N>/<part>/{a,b,c}/<run_id>.md
+    и обрабатывается semantic-analyzer Фазой 2. Запуск — через
+    python tools/agent_workflow.py (prompts: semantic-audit-a, semantic-audit-b,
+    pragmatic-c).
+    (Старая запись 2026-10-02 о «отключённых системой» скорректирована.)
+- **BUG (архитектурный):** 	ools/agent_workflow.py строки 36, 41, 1055–1058
+  упоминают только pragmatic-c и analyzer-phase1/phase2, но **не генерируют**
+  задачи для semantic-audit-a и semantic-audit-b. Архитектура (semantic-analyzer
+  §109 «Два режима», pragmatic-audit, agent_workflow.py комментарии A/B) требует
+  их evidence. Нужно добавить PromptInfo для semantic-audit-a и semantic-audit-b
+  в PROMPTERS список (аналогично pragmatic-c). Пока A/B evidence можно создавать
+  только вручную/внешне — система их корректно читает, но не создаёт задачи.
+
+
+## 2026-10-12 — Аудит pipeline: Omission Pre-check v2, удаление LEGACY, фазы chapter_pipeline
+
+- статус: DONE (изменения НЕ закоммичены)
+- место: tools/omission_precheck.py, tools/chapter_pipeline.py, tools/agent_workflow.py,
+  tools/check_project.py, tools/media/audio_converter.py, AGENTS.md §7,
+  .agents/skills/{semantic-audit-a,semantic-audit-b,semantic-analyzer,russian-style-audit},
+  game/PROMTS.md
+
+- **Omission Pre-check переписан (tools/omission_precheck.py).** Прежний вариант
+  сопоставлял i-ю JA-реплику с i-й EN-репликой и «фильтровал компрессию» по длине —
+  это давало ложные срабатывания (~550 мнимых «сжатий»). Новый алгоритм:
+  - охват части определяется по маркерам `# ==== SCENE N ====` / `# ==== CHOISE (scene N) ====`;
+  - JA-источник разбирается по сценам с накоплением многострочных реплик
+    (`[voice N]` стоит в конце последней физической строки реплики; прежний
+    однострочный regex ловил лишь 551 из 1281 реплики);
+  - сопоставление строго по voice-id: имя EN `voice "..."` -> id из
+    references/voice_id_map.csv -> десятичный id JA `[voice N]`;
+  - кандидат FULL — JA-реплика охвата, для id которой нет EN-реплики;
+  - кандидат PARTIAL — EN-реплика без непустого RU-перевода (tl/russian);
+  - CLI совместим с pipeline: `--chapter <цель>` (строка, через tools/targets.py);
+  - evidence: reports/sma/<chapter_id>/<unit>/precheck/<run_id>.md
+    (<unit> = report_unit части, 4b -> 4; либо chapter).
+  Проверка на главе 2 (портирована полностью): 1281 JA = 1281 EN, covered=1281,
+  FULL=0, RU missing=0, кандидатов 0. Негативный тест (синтетическая часть со
+  сценой 68): найдены 13 FULL + 2 PARTIAL из 15. Голоса ch0/extra без строк
+  манифеста распознаются по существующим .ogg (группа «без пары имя↔id»).
+
+- **Удалены LEGACY-скиллы** .agents/skills/translation-audit/ и .agents/skills/verifier/
+  (каталоги удалены ранее; из AGENTS.md §7 убраны строки и абзац о LEGACY, из
+  tools/agent_workflow.py убраны LEGACY-комментарии). Фиктивных скиллов в дереве нет.
+
+- **chapter_pipeline.py приведён в согласованное состояние.** Были ошибки: все фазы
+  без скрипта запускали финальную сводку; слои перевода ссылались на несуществующие
+  tools/prompts/*.md; check_project получал нечисловую цель; фаза audio передавала
+  `--chapter` команде `check`, которая флаг не принимает. Теперь у каждой фазы
+  (имя, заголовок, источник, стиль охвата): механическая (`<tool>.py`), слоя агента
+  (`agent:<prompt_id>`, задание ведёт tools/agent_workflow.py) или финальная сводка.
+  Слои агента: translation (translate-edit), semantic_audit_a/b, pragmatic_c,
+  analyzer_phase1/2, humanizer, grammar, style. Прогон `--chapter 2_4b
+  --phase precheck`: precheck=[x], слои агента=[ ] pending, сводка=[x].
+
+- **Схемы evidence аудиторов унифицированы.** В skill A и B поле `block` (и упоминание
+  `<!-- block: N -->`) заменено на `line` — как в генераторах заданий
+  tools/agent_workflow.py и в pragmatic-audit (C); добавлено поле `confidence`.
+  Ссылки на несуществующие `scripts/semantic_findings.py` и
+  `scripts/omission_precheck.py` заменены (валидатор — `agent_workflow.py
+  --self-test-sma`; инструмент — `tools/omission_precheck.py`). В
+  russian-style-audit путь `scripts/style_scan.py` -> `tools/style_scan.py`.
+
+- **Мелкие исправления:**
+  - tools/check_project.py: убран мёртвый код `len(have & used) - len(have & used)` (info-строка);
+  - tools/media/audio_converter.py: фильтр `--chapter N` теперь требует разделителя
+    (`chN_` / `chN.`), иначе `ch2` захватывал `ch20…`;
+  - game/PROMTS.md: п.5 — многоточие оформляется символом «…»; шапка формата old/new
+    приведена к семантике Ren'Py (old = строка сценария EN, new = перевод).
+
+- **Проверено:** `agent_workflow.py --self-test-sma` -> 74/74 OK;
+  `check_project.py` -> errors=132 (все E3 «voice without ogg» в
+  game/chapters/3/script-ch3_3.rpy — незавершённая часть 3 главы 3, к правкам
+  не относятся), warnings=274, info=31; отчёт reports/check_project.md.
+  `chapter_pipeline.py --chapter 2_4b --status` и `--phase precheck` — OK.
+
+- **PRESERVED — FUNCTIONAL:** `game/chapters/0/script-ch0.rpy:3`
+  `call overlay_screen(...) from _call_overlay_screen` (без числового суффикса).
+  Имя уникально (в проекте есть и `_call_overlay_screen_battle_0` — нечисловой
+  суффикс допустим), коллизии нет; глава 0 — эталон, архитектурно не переписывается.
+  Classification: WARNING. Disposition: FALSE POSITIVE / PRESERVED — FUNCTIONAL.
+
+- **Не тронуто (вне задачи):** рабочие scratch-файлы в корне проекта
+  (`_tmp_*.py`, `scratch_*.py`, `tmp_debug.py`, `tmp_test_parse.py`, `ch4files.txt`)
+  и незавершённая работа по главе 3 (script-ch3_*, tl, reports/ch3). Удаление не
+  производилось, чтобы не потерять контекст.
+
+- git: **коммит не делался** — нет явного подтверждения пользователя.

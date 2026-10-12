@@ -136,10 +136,13 @@ translate russian strings:
 2. Параллельно дописывать `old/new` в `tl/japanese` и `tl/russian` в правильном бакете.
 3. Прогнать `python tools/check_project.py`: E4/E5 (нет `old` в одном из языков),
    E6 (пустой `new`), E8 (не тот язык), W1 (протухший `old`).
-4. Смысловые аудиты: `translation-audit` (JA→EN и JA→RU по смысловым фрагментам),
-   затем независимые `semantic-audit-a` / `semantic-audit-b` и сводка
-   `semantic-analyzer` — evidence ложится в
-   `reports/sma/ch<N>/<part>/{a,b,c,precheck,analysis}/`.
+4. Смысловые аудиты: `pragmatic-audit` (C — речевой акт, подтекст, сила реплики;
+   evidence → `reports/sma/ch<N>/<part>/c/<run_id>.md`), затем `semantic-analyzer`
+   (Фаза 1 blind → Фаза 2 evidence review; решения →
+   `reports/sma/ch<N>/<part>/analysis/`; обрабатывает также возможный evidence
+   от внешних аудиторов A/B и determ. pre-check из `precheck/`). Схема JA → EN и
+   JA → RU сверяется по правилам §5 (жизненный цикл сигнала: self-review, модальность,
+   не выдумывать доказательство). Слои независимы.
 5. Русская сторона: `russian-humanizer` → `russian-prose-rules` →
    `russian-grammar-control` → `russian-style-audit` (каждый ищет свой класс дефектов,
    слои не подменяют друг друга).

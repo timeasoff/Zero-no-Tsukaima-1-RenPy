@@ -321,6 +321,8 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 | `project-checks` | автопроверки: `tools/check_project.py` + ручные пункты приёмки части |
 | `project-constraints` | ограничения: JA — канон, главы 0/1 — эталон, git vs медиа, кодировка, «не переписывать без нужды» |
 | `pragmatic-audit` | независимый прагматический аудитор C: речевой акт, подтекст, сила реплики, японские частицы |
+| `semantic-audit-a` | независимый смысловой аудитор A: лексическая точность, оттенки, эмоции, мимика, модальность |
+| `semantic-audit-b` | независимый смысловой аудитор B: субъект/объект, связи, идиомы, метафоры, контекст |
 | `semantic-analyzer` | Analyzer: Фаза 1 (blind) → Фаза 2 (evidence review), classification/disposition |
 | `self-review` | самопроверка на галлюцинации и пропуски перед записью |
 | `save-progress` | как сохранять работу: запись файлов, самопроверка, журнал, git |
@@ -331,12 +333,15 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 | `russian-style-audit` | тавтология, повторы, семантическая избыточность, кальки, номинализации |
 | `terminology-dictionary` | работа с `dictionary.md` |
 | `forms-of-address` | работа с `addresses.md` |
-| `verifier` | LEGACY / не реализован — в pipeline не используется |
 
-**Отключены системой и не используются:** `translation-audit`, `semantic-audit-a`,
-`semantic-audit-b` — их файлы лежат на диске, но скиллы недоступны: задания по ним
-**не генерировать** и не вызывать. Смысловая сверка JA → EN / JA → RU выполняется
-прямо по правилам §5 (жизненный цикл сигнала) плюс `self-review`; прагматика — `pragmatic-audit`.
+**Активные аудиторы (A + B + C):** `semantic-audit-a`, `semantic-audit-b`,
+`pragmatic-audit` (C) — три независимых аудитора, каждый ищет свой класс смысловых
+ошибок. Их evidence (JSON-массивы находок) кладётся в
+`reports/sma/ch<N>/<part>/{a,b,c}/<run_id>.md` и обрабатывается
+`semantic-analyzer` (Фаза 2: сверка с JA независимо для каждого candidate, без
+majority vote). Запуск — через `python tools/agent_workflow.py` (prompts:
+`semantic-audit-a`, `semantic-audit-b`, `pragmatic-c`, затем `analyzer-phase1`,
+`analyzer-phase2`).
 
 **Точки входа (инструменты, `tools/`):**
 
@@ -350,7 +355,7 @@ python tools/agent_workflow.py            # меню промптов/дейст
 # Pipeline проверки порта части/главы (оркестратор + механические проверки,
 # регламент и цифры — reports/pipeline_implementation.md; цели — tools/targets.py):
 python tools/chapter_pipeline.py --chapter 2        # фазы с галочками, кэш, MD5-детект изменений
-                                                    # (--status / --reset / --phase; фазы перевода — ручные)
+                                                    # (--status / --reset / --phase; слои агента — ручные)
                                                     # Цель: 2 | extra | 2_4b | 2_5* | script-ch2_5b.rpy | sp_l1
 python tools/check_renpy_syntax.py --chapter 2      # синтаксис Ren'Py (без --chapter — весь проект)
 python tools/check_typography.py --chapter 2 --lang ru  # типографика: «…» не «...», «ёлочки» в RU,
@@ -358,6 +363,8 @@ python tools/check_typography.py --chapter 2 --lang ru  # типографика
 python tools/check_placeholders.py --chapter 2      # id(K)-заглушки, TODO, пустые new "", filename
 python tools/check_assets.py --chapter 2            # .ogg/.png/звуки на месте + статистика по главе
 python tools/check_voice_transcriptions.py --chapter 2  # голоса vs очередь transcriptions_ja_ru.csv
+python tools/omission_precheck.py --chapter 2_4b    # детерминированный pre-check пропусков JA→EN→RU
+                                                    # → reports/sma/ch<N>/<unit>/precheck/<run_id>.md
 python tools/output_util.py                         # общий безопасный вывод (cp1251), лимит печати
 ```
 
@@ -384,10 +391,11 @@ tl-en-ru              → EN в сценарий + old/new в оба tl (пар�
 assets                → BGM/SE/картинки по справочникам
 self-review           → самопроверка ПЕРЕД каждой записью
 save-progress         → запись + журнал
-translation-audit     → смысл JA → EN и JA → RU
-semantic-audit-a/b    → независимые смысловые аудиторы (изолированные сессии)
-pragmatic-audit       → прагматика реплики (C)
-semantic-analyzer     → сводка evidence, classification/disposition
+semantic-audit-a      → аудит A (лексика, оттенки, эмоции), evidence → reports/sma/ch<N>/<part>/a/
+semantic-audit-b      → аудит B (субъект/объект, связи, идиомы), evidence → reports/sma/ch<N>/<part>/b/
+pragmatic-audit       → прагматика реплики (C), evidence → reports/sma/ch<N>/<part>/c/
+semantic-analyzer     → Фаза 1 (blind) → Фаза 2 (evidence review),
+                         решения → reports/sma/ch<N>/<part>/analysis/
 russian-humanizer     → машинность / translationese / AI-штампы (RU)
 russian-prose-rules   → оформление русской прозы
 russian-grammar-control → грамматика/падежи/актанты/залог

@@ -381,8 +381,8 @@ def main():
         used = {n for n, _f, _i in voice_refs}
         warnings.append("W2 %d ogg not referenced by any script" % len(have - used))
         info.append("voices: refs=%d ogg=%d missing=%d"
-                    % (len(voice_refs), len(have), len(have & used) - len(have & used)
-                       + len([1 for n, _f, _i in voice_refs if n not in have])))
+                    % (len(voice_refs), len(have),
+                       len([1 for n, _f, _i in voice_refs if n not in have])))
     else:
         info.append("voices: refs=%d ogg check SKIPPED (audio not installed)"
                     % len(voice_refs))

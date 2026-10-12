@@ -3,9 +3,10 @@
 Пошаговый pipeline проверки главы/части/файла для проекта ZnT1.
 
 Отображает фазы проверки с галочками (как в agent_workflow.py):
-- Механические проверки (синтаксис, типографика, заглушки, ассеты)
-- Проверка английского перевода (EN)
-- Проверка русского перевода (RU)
+- Механические проверки (синтаксис, типографика, заглушки, ассеты, голоса)
+- Детерминированный Omission Pre-check (evidence для аудиторов)
+- Слои агента (задания tools/agent_workflow.py): перевод/редактура,
+  независимый аудит A/B/C, Analyzer (2 фазы), humanizer, грамматика, стиль
 - Финальная сводка
 
 Цель (--chapter) — гибкая, см. tools/targets.py:
@@ -58,17 +59,38 @@ from targets import resolve_target, TargetError, ResolvedTarget  # noqa: E402
 ROOT = Path(__file__).parent.parent
 PIPELINE_STATE_FILE = ROOT / "reports" / "pipeline_state.json"
 
-# Фазы pipeline
+# Фазы pipeline: (имя, заголовок, источник, стиль охвата)
+#   источник: "<tool>.py [args]"  — механический инструмент проекта;
+#             "agent:<prompt_id>" — задание слоя агента (tools/agent_workflow.py);
+#             None                — только финальная сводка.
+#   стиль:    "target"  — инструменту передаётся --chapter <исходная цель>
+#                         (инструменты на tools/targets.py);
+#             "chapter" — инструменту передаётся --chapter <номер главы>;
+#             "project" — без --chapter (инструмент работает по всему проекту).
 PHASES = [
-    ("syntax", "Синтаксис Ren'Py", "check_renpy_syntax.py"),
-    ("typography_ru", "Типографика RU", "check_typography.py --lang ru"),
-    ("typography_en", "Типографика EN", "check_typography.py --lang en"),
-    ("placeholders", "Заглушки", "check_placeholders.py"),
-    ("assets", "Ассеты", "check_assets.py"),
-    ("voice", "Озвучка", "check_voice_transcriptions.py"),
-    ("en_translation", "Перевод EN", "prompts/check_en_translation.md"),
-    ("ru_translation", "Перевод RU", "prompts/check_ru_translation.md"),
-    ("summary", "Финальная сводка", None),
+    # 1. Механические проверки
+    ("syntax", "Синтаксис Ren'Py", "check_renpy_syntax.py", "target"),
+    ("typography_ru", "Типографика RU", "check_typography.py --lang ru", "target"),
+    ("typography_en", "Типографика EN", "check_typography.py --lang en", "target"),
+    ("placeholders", "Заглушки", "check_placeholders.py", "target"),
+    ("assets", "Ассеты", "check_assets.py", "target"),
+    ("voice", "Озвучка", "check_voice_transcriptions.py", "target"),
+    ("check_project", "Проверка проекта", "check_project.py", "chapter"),
+    ("audio", "Озвучка: сверка", "media/audio_converter.py check", "project"),
+    # 2. Детерминированное evidence (технический слой, НЕ аудитор)
+    ("precheck", "Omission Pre-check", "omission_precheck.py", "target"),
+    # 3. Слои агента (задания tools/agent_workflow.py; pipeline только ведёт)
+    ("translation", "Перевод / редактура", "agent:translate-edit", None),
+    ("semantic_audit_a", "Семантический аудит A", "agent:semantic-audit-a", None),
+    ("semantic_audit_b", "Семантический аудит B", "agent:semantic-audit-b", None),
+    ("pragmatic_c", "Прагматический аудит C", "agent:pragmatic-c", None),
+    ("analyzer_phase1", "Analyzer: Фаза 1 (blind)", "agent:analyzer-phase1", None),
+    ("analyzer_phase2", "Analyzer: Фаза 2 (evidence)", "agent:analyzer-phase2", None),
+    ("humanizer", "Humanizer", "agent:humanizer", None),
+    ("grammar", "Грамматический контроль", "agent:grammar-audit", None),
+    ("style", "Стилевой аудит", "agent:style-audit", None),
+    # 4. Итог
+    ("summary", "Финальная сводка", None, None),
 ]
 
 PHASE_TITLES = {p[0]: p[1] for p in PHASES}
@@ -191,17 +213,35 @@ def file_list_line(target: ResolvedTarget) -> str:
 # ВЫПОЛНЕНИЕ ФАЗ
 # ============================================================================
 
-def run_mechanical_phase(phase_name: str, script: str, target_raw: str) -> PhaseResult:
-    """Запустить механическую фазу по цели (--chapter передаётся как строка)."""
+def run_mechanical_phase(phase_name: str, source: str, style: str,
+                         target_raw: str, target: ResolvedTarget) -> PhaseResult:
+    """Запустить механическую фазу.
+
+    source — "<tool>.py [args]"; --chapter передаётся по style:
+      "target"  — исходная цель пользователя (инструменты на tools/targets.py);
+      "chapter" — номер главы (check_project: принимает только int);
+      "project" — без --chapter.
+    """
     result = PhaseResult(name=phase_name, title=PHASE_TITLES[phase_name])
     result.status = "running"
     result.timestamp = datetime.now().isoformat()
 
-    # Формируем команду (скрипты пишут UTF-8 отчёты в reports/)
-    cmd = [sys.executable, str(ROOT / "tools" / script.split()[0])]
-    if "--lang" in script:
-        cmd.extend(["--lang", script.split("--lang")[1].strip()])
-    cmd.extend(["--chapter", target_raw])
+    parts = source.split()
+    cmd = [sys.executable, str(ROOT / "tools" / parts[0])] + parts[1:]
+
+    if style == "target":
+        cmd += ["--chapter", target_raw]
+    elif style == "chapter":
+        name = target.chapter_dir.name
+        if name.isdigit():
+            cmd += ["--chapter", name]
+        else:
+            result.status = "skipped"
+            result.message = (
+                "check_project принимает только номер главы — "
+                "для extra/prologue фаза пропущена")
+            return result
+    # style == "project": без --chapter
 
     try:
         process = subprocess.run(
@@ -223,6 +263,7 @@ def run_mechanical_phase(phase_name: str, script: str, target_raw: str) -> Phase
             result.message = process.stdout[:500] if process.stdout else "Ошибка"
 
         # Сохраняем детали (обрезаем, чтобы state не разрастался)
+        result.details["cmd"] = " ".join(cmd)
         result.details["stdout"] = (process.stdout or "")[:8000]
         result.details["stderr"] = (process.stderr or "")[:2000]
         result.details["returncode"] = process.returncode
@@ -234,11 +275,13 @@ def run_mechanical_phase(phase_name: str, script: str, target_raw: str) -> Phase
     return result
 
 
-def run_translation_phase(phase_name: str, prompt_file: str) -> PhaseResult:
-    """Фазу перевода выполняет агент (LLM) — здесь только отображение."""
+def run_agent_phase(phase_name: str, prompt_id: str) -> PhaseResult:
+    """Фаза слоя агента: pipeline только ведёт её (задание — agent_workflow.py)."""
     result = PhaseResult(name=phase_name, title=PHASE_TITLES[phase_name])
     result.status = "pending"
-    result.message = f"Требуется ручная проверка: {prompt_file}"
+    result.details["workflow_prompt"] = prompt_id
+    result.message = (
+        "Задание агента: python tools/agent_workflow.py (промпт: %s)" % prompt_id)
     return result
 
 
@@ -275,7 +318,7 @@ def print_pipeline_header(target: ResolvedTarget) -> None:
 def print_phase_status(state: PipelineState, current_phase: Optional[str] = None) -> None:
     """Вывести статус всех фаз."""
     print()
-    for i, (name, title, _) in enumerate(PHASES, 1):
+    for i, (name, title, _src, _style) in enumerate(PHASES, 1):
         result = state.phase_results.get(name)
         if result:
             if result.status == "done":
@@ -363,7 +406,7 @@ def run_pipeline(target_raw: str, start_phase: Optional[str] = None,
 
     # Выполняем фазы
     for i in range(start_idx, len(PHASES)):
-        name, title, script = PHASES[i]
+        name, title, source, style = PHASES[i]
 
         # Пропускаем уже выполненные фазы (если файлы не менялись)
         if not files_changed and not reset:
@@ -378,19 +421,20 @@ def run_pipeline(target_raw: str, start_phase: Optional[str] = None,
         separator()
         print()
 
-        if script is None:
+        if name == "summary":
             # Финальная сводка
             result = run_summary_phase(state)
-        elif name in ("en_translation", "ru_translation"):
-            # Фазы перевода — выполняет агент (LLM)/редактор по промпту
-            result = run_translation_phase(name, script)
-            print(f"  Требуется ручная проверка по промпту:")
-            print(f"  {script}")
+        elif source and source.startswith("agent:"):
+            # Слой агента: pipeline только ведёт фазу, задание — agent_workflow.py
+            prompt_id = source[len("agent:"):]
+            result = run_agent_phase(name, prompt_id)
+            run_hint = f"python tools/agent_workflow.py (промпт: {prompt_id})"
+            print(f"  Задание агента: {run_hint}")
             print()
             interactive = False
             if sys.stdin.isatty():
                 try:
-                    input("  Нажмите Enter после выполнения проверки...")
+                    input("  Нажмите Enter после выполнения...")
                     interactive = True
                 except (EOFError, KeyboardInterrupt):
                     interactive = False
@@ -400,7 +444,7 @@ def run_pipeline(target_raw: str, start_phase: Optional[str] = None,
             else:
                 # Неинтерактивный запуск: фаза остаётся pending, не блокирует остальные
                 result.status = "pending"
-                result.message = f"Ожидает ручной проверки: {script}"
+                result.message = f"Ожидает ручного выполнения: {run_hint}"
                 print("  Неинтерактивный запуск — фаза осталась pending.")
                 print("  Повторный запуск с терминала отметит её выполненной.")
                 states[key] = state
@@ -408,8 +452,8 @@ def run_pipeline(target_raw: str, start_phase: Optional[str] = None,
                 save_state(states)
                 continue
         else:
-            # Механические фазы: --chapter передаётся ИСХОДНОЙ целью пользователя
-            result = run_mechanical_phase(name, script, target_raw)
+            # Механическая фаза: --chapter передаётся по style (target/chapter/project)
+            result = run_mechanical_phase(name, source, style, target_raw, target)
             print_phase_details(result)
 
         state.phase_results[name] = result

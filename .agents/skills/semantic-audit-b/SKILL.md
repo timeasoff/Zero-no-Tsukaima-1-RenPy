@@ -42,29 +42,36 @@ description: Независимый смысловой аудит перевод
 
 ## Единица аудита
 
-Проверяешь ОДИН блок (TARGET BLOCK). Соседние блоки (PREVIOUS, NEXT) даны только для понимания контекста: в текущем workflow задание даёт JA/RU/EN всей главы, и TARGET/PREVIOUS/NEXT ты выбираешь сам, идя по блокам `<!-- block: N -->`.
+Аудируешь одну реплику/строку охвата (TARGET). Соседние реплики (PREVIOUS, NEXT)
+даны только для понимания контекста: задание даёт JA/RU/EN всей части, а TARGET ты
+выбираешь сам, идя по репликам.
 
-**Важно:** находки относятся только к TARGET BLOCK. Если проблема в соседнем блоке — не фиксируй её.
+**Важно:** одна находка относится ровно к одной реплике. Проблему в соседней реплике
+не фиксируй — её разберёт своя проверка.
 
 ## Формат результата
 
-Для каждого блока выводи JSON-массив находок. Если проблем нет — пустой массив.
+Один `.md`-файл: шапка + JSON-блок. Если проблем нет — пустой `findings`.
 
 ```json
 {
   "audit_id": "sma-b",
   "audit_type": "semantic-audit-b",
-  "chapter": "vXX-chYY",
-  "block": 75,
+  "part": "4b",
+  "run_id": "<run_id>",
+  "pair": "JA->RU",
   "findings": [
     {
-      "block": 75,
+      "line": 75,
       "source": "ひきつった笑顔を浮かべるとルイズは一礼した。",
       "current": "Луиза надела кривую улыбку и поклонилась。",
+      "pair": "JA->RU",
       "problem": "Неоднозначность",
       "reason": "Конструкция 〜と может указывать на одновременность или последовательность действий. В данном случае улыбка и поклон — последовательные действия.",
       "suggestion": null,
-      "severity": "CANDIDATE"
+      "issue_type": "AMBIGUITY",
+      "severity": "CANDIDATE",
+      "confidence": "MEDIUM"
     }
   ]
 }
@@ -74,19 +81,21 @@ description: Независимый смысловой аудит перевод
 
 | Поле | Описание |
 |------|----------|
-| `block` | Номер блока (целое число) |
-| `source` | Релевантный фрагмент японского текста (не обязательно весь блок) |
-| `current` | Релевантный фрагмент русского текста |
+| `line` | Номер реплики/строки в охвате (целое число) |
+| `source` | Точная JA-цитата (не обязательно вся реплика) |
+| `current` | Точная цитата RU-перевода |
+| `pair` | `JA->RU` |
 | `problem` | Тип проблемы (коротко) |
 | `reason` | Обоснование: почему JA и RU расходятся |
 | `suggestion` | Предложенный вариант (опционально) |
 | `issue_type` | Класс finding (опционально): `MISTRANSLATION` / `NUANCE_SHIFT` / `LEXICAL_MISMATCH` / `PRAGMATIC_SHIFT` / `STYLE_ISSUE` / `MISSING_TRANSLATION` / `ADDED_CONTENT` / `AMBIGUITY` / `OTHER` |
 | `severity` | `ERROR` / `WARNING` / `CANDIDATE` |
+| `confidence` | `HIGH` / `MEDIUM` / `LOW` |
 
 Для `issue_type: MISSING_TRANSLATION` дополнительно обязательны
 `omission_scope`, `omission_kind`, `ja_span`, `ru_before`, `missing_content`,
-`not_compression_reason` (`ru_after` — если после пропуска есть текст). Валидатор
-схемы — `scripts/semantic_findings.py`.
+`not_compression_reason` (`ru_after` — если после пропуска есть текст). Схему
+проверяет `python tools/agent_workflow.py --self-test-sma`.
 
 ### Уровни severity
 
@@ -97,7 +106,7 @@ description: Независимый смысловой аудит перевод
 ## Пропуски (MISSING_TRANSLATION): не отдельная обязанность B
 
 Систематический поиск пропусков — **НЕ твоя задача**. Его выполняет общий
-детерминированный слой **Omission Pre-check** (`scripts/omission_precheck.py`)
+детерминированный слой **Omission Pre-check** (`tools/omission_precheck.py`)
 до запуска аудиторских сессий. Отдельный универсальный omission scan не
 выполняй и не ходи по тексту в поисках всех пропусков.
 
