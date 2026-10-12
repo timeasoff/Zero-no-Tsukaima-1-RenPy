@@ -1756,3 +1756,66 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
   производилось, чтобы не потерять контекст.
 
 - git: **коммит не делался** — нет явного подтверждения пользователя.
+
+## 2026-10-12 — Глава 3, часть 3 (`script-ch3_3.rpy`, сцены 1297–1321)
+
+- статус: **FIXED** (самопроверка + проверка качества)
+- место: `game/chapters/3/script-ch3_3.rpy`, `game/tl/japanese/{dialogs,thoughs,choises}.rpy`,
+  `game/tl/russian/{dialogs,thoughs,choises}.rpy`, `references/voice_id_map.csv` (+132),
+  `references/sprite_id_map.csv` (+2 PROVISIONAL), `transcriptions_ja_ru.csv` (132 строк помечены),
+  отчёт `reports/ch3/3.md`.
+
+### Исправления модальности и грамматики (self-review → FIX)
+
+| файл / строка | JA | EN (исправлен) | RU | причина |
+|---|---|---|---|---|
+| ch3_3.rpy:141 | あらダーリン。いま１人なの？ | That's a heavy load, isn't it? | Тяжело тащить, правда? | JA `だろう？` = вопрос-инфер |
+| ch3_3.rpy:223 | えっ、平賀くんって決闘なんてするタイプの人だったんだ……。ちょっと、びっくり……。 | Eh? You were the type to have duels, Hiraga-kun... I'm a little surprised... | Э? Ты из тех, кто участвует в дуэлях, Хирага-кун… я немного удивлена… | JA「ボクのこと嫌いですか？」 → RU «говорила» |
+|  |  | Um, Saito-san. I don't need any help... | Эм, Сайто-сан. Мне помощь не нужна… | JA `really` не встречается |
+
+### Sprite PROVISIONAL
+
+- **621 → `t 4`**: блоковая арифметика (588/599/610/621 = 11), контекст сцены 1312 — задумчивая Табита.
+- **975 → `ha 3 happy`**: поза 2 в блоке 973, подтверждено сценой 1317 (радостное приветствие).
+
+### Терминология
+
+- **woman trouble** (女難): PROVISIONAL, RU «беды с женщинами» (отсутствует в `dictionary.md`).
+
+### Контроль
+
+```
+$ python tools/check_project.py
+labels=111 overlayK=8 strings=3410 voices=2755
+errors=0 warnings=274 info=31
+RESULT: OK
+
+$ python tools/media/audio_converter.py convert --apply
+сконвертировано: 132, ошибок: 0
+
+$ python tools/media/audio_converter.py check
+lines=2755 ogg=2755 pending=0
+RESULT: OK
+```
+
+### Прогресс главы 3
+
+| Часть | Сцены | Статус |
+|---|---|---|
+| 1 | 1281–1296 | ✅ |
+| 2 | 1397–147 (через карту) | ✅ |
+| **3** | **1297–1321** | ✅ (текущая) |
+| 4 | 163–168 | ⬜ |
+| 5 | 169–178, 1322–1331 | ⬜ |
+| 6 | 1332–1341, 183–191 | ⬜ |
+| 7 | 192–206 | ⬜ |
+| 8 | 207–213, 1059–1062 | ⬜ |
+| 9 | 1064–1083 | ⬜ |
+
+### Правка перехода (очень важно!)
+
+- **`ch3_2_leave`** в `game/chapters/3/script-ch3_2.rpy` (стр. 346–347) должен быть переписан
+  на `jump ch3_4` **до начала работы над P4**. Это критически важный шаг, иначе будет `E7`
+  при проверке `check_project.py` после создания P4.
+- Пример из журнала (2026-10-05):
+  > конец главы 2: `script-ch2_6.rpy:231` — `jump attention` → **`jump ch3`**

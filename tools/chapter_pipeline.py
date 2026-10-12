@@ -82,7 +82,6 @@ PHASES = [
     # 3. Слои агента (задания tools/agent_workflow.py; pipeline только ведёт)
     ("translation", "Перевод / редактура", "agent:translate-edit", None),
     ("semantic_audit_a", "Семантический аудит A", "agent:semantic-audit-a", None),
-    ("semantic_audit_b", "Семантический аудит B", "agent:semantic-audit-b", None),
     ("pragmatic_c", "Прагматический аудит C", "agent:pragmatic-c", None),
     ("analyzer_phase1", "Analyzer: Фаза 1 (blind)", "agent:analyzer-phase1", None),
     ("analyzer_phase2", "Analyzer: Фаза 2 (evidence)", "agent:analyzer-phase2", None),

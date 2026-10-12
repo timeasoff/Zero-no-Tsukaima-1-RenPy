@@ -392,7 +392,6 @@ assets                → BGM/SE/картинки по справочникам
 self-review           → самопроверка ПЕРЕД каждой записью
 save-progress         → запись + журнал
 semantic-audit-a      → аудит A (лексика, оттенки, эмоции), evidence → reports/sma/ch<N>/<part>/a/
-semantic-audit-b      → аудит B (субъект/объект, связи, идиомы), evidence → reports/sma/ch<N>/<part>/b/
 pragmatic-audit       → прагматика реплики (C), evidence → reports/sma/ch<N>/<part>/c/
 semantic-analyzer     → Фаза 1 (blind) → Фаза 2 (evidence review),
                          решения → reports/sma/ch<N>/<part>/analysis/
