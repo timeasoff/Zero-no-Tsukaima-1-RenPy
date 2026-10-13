@@ -1,0 +1,137 @@
+{
+  "2_4b": {
+    "target": "2_4b",
+    "phase_results": {
+      "precheck": {
+        "name": "precheck",
+        "title": "Omission Pre-check",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-10-12T21:36:12.417272",
+        "duration": null,
+        "details": {
+          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\omission_precheck.py --chapter 2_4b",
+          "stdout": "Evidence: reports/sma/ch2/4/precheck/20261012-213615-p0a1.md\nOK - кандидатов не найдено.\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "translation": {
+        "name": "translation",
+        "title": "Перевод / редактура",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: translate-edit)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "translate-edit"
+        }
+      },
+      "semantic_audit_a": {
+        "name": "semantic_audit_a",
+        "title": "Семантический аудит A",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: semantic-audit-a)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "semantic-audit-a"
+        }
+      },
+      "semantic_audit_b": {
+        "name": "semantic_audit_b",
+        "title": "Семантический аудит B",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: semantic-audit-b)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "semantic-audit-b"
+        }
+      },
+      "pragmatic_c": {
+        "name": "pragmatic_c",
+        "title": "Прагматический аудит C",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: pragmatic-c)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "pragmatic-c"
+        }
+      },
+      "analyzer_phase1": {
+        "name": "analyzer_phase1",
+        "title": "Analyzer: Фаза 1 (blind)",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: analyzer-phase1)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "analyzer-phase1"
+        }
+      },
+      "analyzer_phase2": {
+        "name": "analyzer_phase2",
+        "title": "Analyzer: Фаза 2 (evidence)",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: analyzer-phase2)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "analyzer-phase2"
+        }
+      },
+      "humanizer": {
+        "name": "humanizer",
+        "title": "Humanizer",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: humanizer)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "humanizer"
+        }
+      },
+      "grammar": {
+        "name": "grammar",
+        "title": "Грамматический контроль",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: grammar-audit)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "grammar-audit"
+        }
+      },
+      "style": {
+        "name": "style",
+        "title": "Стилевой аудит",
+        "status": "pending",
+        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: style-audit)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "style-audit"
+        }
+      },
+      "summary": {
+        "name": "summary",
+        "title": "Финальная сводка",
+        "status": "done",
+        "message": "Выполнено 1/18 фаз, ошибок: 0",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "total": 18,
+          "done": 1,
+          "errors": 0
+        }
+      }
+    },
+    "last_run": "2026-10-12T21:36:15.099221",
+    "file_hashes": {
+      "D:\\gameMake\\ZnT-1\\ZnT1\\game\\chapters\\2\\script-ch2_4b.rpy": "d87635fa960fe3f3ef52603f53c6e9bc"
+    }
+  }
+}

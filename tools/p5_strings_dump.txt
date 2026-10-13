@@ -1,0 +1,212 @@
+   20 [s] Louise started this, didn't she?
+   25 [l] ...{#ch3.5_l_001}
+   28 [s] Why the silence? So I'm right?
+   33 [l] ...{#ch3.5_l_002}
+   40 [si] N-no, that's wrong, Saito-san! This was my idea, and—
+   43 [s] Sorry, Siesta, but could you keep quiet?
+   56 [s] This isn't like the usual Siesta.
+   61 [si] I'm sorry…
+   66 [s] To think Siesta would do something like this… I'm disappointed.
+   71 [si] Gahn!?
+   78 [l] Saito! That was way too much!
+   83 [s] I don't think so.
+   94 [s] Do you two dislike Haruna?
+  100 [si] Not at all, we don't dislike her… It's just that…
+  103 [l] Because Saito keeps fussing over Haruna…
+  108 [s] So you resort to pranks like this? That's going too far, you know.
+  118 [s] I'm being serious here, you know! I'm really angry!
+  123 [si] …I'm sorry.
+  126 [l] ...{#ch3.5_l_005}
+  139 [th] I had Siesta put the bedding away and opened the windows to air the room out. Finally, the temperature settled down.
+  144 [s] Haruna, are you okay? You're not feeling sick?
+  149 [ha] Yeah, I'm fine now…
+  154 [s] That's good…
+  159 [l] As if we're the ones in the wrong…
+  162 [si] That's right. It seems Saito-san dislikes us…
+  167 [s] No, I'm not saying you're bad or that I hate you. I'm saying you went too far.
+  172 [l] But… Hey, Siesta?
+  175 [si] Yes… Saito-san wouldn't understand.
+  180 [s] …Good grief.
+  187 [si] Well then, Saito-san… I have work to do, so…
+  192 [s] I see. Hang in there, Siesta…
+  195 [si] Yes…
+  200 [s] Did I make Siesta feel down…?
+  205 [l] …No wonder she's down. Even I…
+  210 [s] That doesn't make it okay, does it?
+  215 [l] Hah… Never mind. I'm going out for a bit.
+  220 [s] Should I come with you?
+  225 [l] You don't have to come, Saito. Just go look after cute little Haruna all you like.
+  230 [s] What's with that tone…
+  234 [menu] Is it wrong of me to look after Haruna?{#ch3_m173a}
+  237 [menu] You didn't need to worry about her.{#ch3_m173b}
+  240 [menu] I'm just saying something objective.{#ch3_m173c}
+  248 [s] Is it really so bad, looking after Haruna?
+  253 [l] Nobody said that!
+  260 [s] Then why did you do something like that?
+  263 [l] ...{#ch3.5_l_012}
+  272 [s] I was worried about you…
+  277 [l] W-worried about me?! Is that true?
+  284 [s] Well… it's…
+  289 [l] Enough!! I'd rather not hear empty words like that!
+  292 [s] No, listen, I mean it—
+  301 [s] I'm just stating objective facts.
+  306 [l] Is that so…? And you think you're being objective, Saito?
+  311 [s] Yeah, that's what I think.
+  314 [ha] ...{#ch3.5_ha_176}
+  324 [l] An-y-way! I'm going out by myself, so you stay here, Saito.
+  329 [s] Fine. Suit yourself.
+  334 [l] Oh, I intend to.
+  342 [s] Jeez, that Louise… Why's she so mad…? I don't get it anymore.
+  356 [l] Honestly… That Saito gets me so mad!
+  359 [l] …Kirche! It's me, Louise!!
+  363 [k] Hold on, Louise. Is there really no better way to knock?
+  366 [k] I get that you're upset, but taking it out on things isn't the answer.
+  369 [l] Shut up! I'm coming in!!
+  376 [si] Miss Vallière. How did things go with Saito-san and the others?
+  379 [l] Ah, hopeless, hopeless. That idiot doesn't suspect for a second that Haruna is faking.
+  384 [si] I see… So everything we did was pointless, then…
+  389 [l] Not just pointless—it backfired spectacularly.
+  394 [k] See, Tabitha? Just like I said—it failed.
+  396 [t] ...{#ch3.5_t_178}
+  401 [k] Besides, you two are way too soft. That Haruna girl has her eyes on darling too, right?
+  406 [l] Probably.
+  409 [k] Even in her shoes, I wouldn't have thrown in the towel.
+  414 [k] Because even if pushing through the heat made her sick, knowing darling would nurse her back to health is reason enough to keep going…
+  419 [si] In the fairy tale my great-grandfather told me, it did work, though…
+  424 [k] What kind of story was it?
+  427 [si] Yes, Miss Zerbst. It's the tale of the North Wind and the Sun, competing to strip a traveler of his coat.
+  430 [si] In the story, the North Wind tries to blow the coat away, but fails…
+  435 [si] while the Sun, by bathing him in warm sunlight, makes him take it off himself.
+  440 [k] I see. So it's better to talk someone into taking their clothes off than to tear them off by force.
+  445 [si] But I didn't think Haruna-san would be this patient…
+  450 [t] The schemer drowns in their own scheme.
+  455 [l] I'm telling you, Siesta. I thought that same plan would expose Haruna's fake illness too.
+  460 [k] Then I have no choice. This time, I'll go save darling myself!
+  465 [l] …Wait, what are you planning to do?
+  470 [k] Leave it to me. I'll make Haruna herself admit she was faking!
+  475 [si] Um, Miss Vallière… Are you sure it's all right to leave everything to Miss Zerbst?
+  480 [l] To be honest, I'm worried too…
+  486 [th] I don't think Louise would give up this easily. I should probably go tail her for a bit.
+  487 [th] I wonder where Louise went…?
+  495 [menu] Louise's room{#ch3_m178a}
+  498 [menu] Kirche's room{#ch3_m178b}
+  501 [menu] Tabitha's room{#ch3_m178c}
+  504 [menu] The kitchen{#ch3_m178d}
+  515 [ha] Ah, Hiraga-kun…
+  522 [s] I came looking for Louise and the others… Looks like they're not here.
+  527 [ha] Yeah. They haven't been here since before.
+  532 [s] I see… Sorry about earlier. Pulling something so awful on a sick person…
+  535 [ha] Yeah, that's already forgotten. It wasn't your fault, Hiraga-kun.
+  540 [s] Still… why would Louise and Siesta do something like that?
+  545 [ha] Hiraga-kun, do you really not know?
+  550 [s] Huh? Know what?
+  555 [ha] The reason Louise and the others did something like that together…
+  558 [s] The reason…?
+  562 [menu] Was it because Haruna took over your room?{#ch3_m1322a}
+  565 [menu] Actually, maybe it was Louise and Siesta's way of nursing her?{#ch3_m1322b}
+  568 [menu] Hmm, I have no idea.{#ch3_m1322c}
+  576 [s] Was it because Haruna took over your room?
+  581 [s] But if that's the case, I don't get why Siesta would tag along.
+  584 [s] If anything, Louise would want to kick Siesta out along with Haruna.
+  589 [ha] Hey, Hiraga-kun. Are you serious right now?
+  596 [s] Pretty much, yeah.
+  605 [s] Actually, maybe it was Louise and Siesta's way of nursing her?
+  610 [s] Like some kind of treatment—fighting fire with fire, heat with heat?
+  615 [s] If that's the case, I did something awful to Louise and the others…
+  620 [ha] You're really kind, Hiraga-kun.
+  625 [s] Huh? Why?
+  634 [s] Hmm, I have no idea.
+  639 [s] No matter how hard I try, I just can't imagine why Louise and the others would do that to Haruna.
+  644 [ha] Dense…
+  649 [s] Eh?
+  654 [ha] Never mind.
+  659 [s] Tch.
+  668 [s] Haruna, can you guess why?
+  671 [ha] Ah, um… I'm sorry. I still don't know…
+  676 [s] You don't? Yeah, I figured…
+  681 [s] Well, I should be heading out. Take it easy, okay?
+  686 [ha] …Hiraga-kun, you idiot.
+  700 [th] Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1327}
+  709 [c] My, Saito. Standing about in the hallway—is something the matter?
+  714 [s] I was looking for Louise, but she's nowhere to be found…
+  719 [c] I see. That's a shame.
+  724 [c] Ah, that's right, Saito. Do drop by my research lab next time, won't you?
+  728 [menu] Yes, I'd love to.{#ch3_m1327a}
+  731 [menu] Once things calm down, sure.{#ch3_m1327b}
+  734 [menu] I'll make time to visit.{#ch3_m1327c}
+  742 [s] Yes, I'd love to.
+  747 [c] Very well. Come by whenever it suits you, Saito.
+  756 [s] Once things calm down, sure.
+  761 [c] Once things calm down, you say… Are you busy with something lately?
+  766 [s] Yes, a few things here and there… But I'll be sure to come.
+  769 [c] I see. Then do come once things have settled down.
+  778 [s] I'll make time to visit.
+  783 [c] Make time, you say… Is there something keeping you busy?
+  788 [s] Ah, well, a little…
+  791 [c] Hesitating isn't like you, Saito. What exactly is going on?
+  796 [s] Actually, Professor…I'm having a falling-out with some people.
+  799 [c] I see. You've had it rough too, then.
+  808 [c] Well then, I'll be looking forward to it, Saito.
+  813 [s] Yes, Professor.
+  826 [th] Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1332}
+  831 [m] You… What are you doing there? Don't tell me you're planning to rob the place?
+  836 [s] Me, a burglar? No, no! I'm just looking for Louise.
+  841 [m] Oh, is that so? I haven't seen Louise. I wonder if she's really in?
+  844 [s] I see. Thanks.
+  849 [m] By the way, you… What do you want with Louise?
+  854 [s] What do I want…
+  858 [menu] It's not like I need her for anything.{#ch3_m1332a}
+  861 [menu] I wanted to ask her about Haruna.{#ch3_m1332b}
+  864 [menu] Sorry. I can't tell you, Monmon.{#ch3_m1332c}
+  872 [s] It's not like I need Louise for anything.
+  875 [s] I was just wondering where she might be, so I'm looking around.
+  880 [m] Oh, is that so.
+  889 [s] I wanted to consult her about something regarding Haruna.
+  894 [m] Oh, is that so. Not to pry, but…
+  899 [m] You have it rough too, don't you? You're living with a maid, Louise, and Haruna now, right?
+  904 [s] Haha, hah…
+  908 [th] If she knew about what just happened, she'd be shocked.
+  917 [s] Sorry. I can't tell you, Monmon.
+  922 [m] Who are you calling Monmon?! I'm Montmorency!
+  927 [s] Come on, what does a little thing like that matter?
+  930 [m] It matters plenty! And state your purpose properly.
+  935 [s] You're a handful, Monmon.
+  940 [m] I said stop calling me Monmon! What if the whole academy hears—how will you take responsibility?
+  943 [s] Responsibility… Ah, never mind.
+  948 [s] I was just wondering where Louise might be, so I'm looking around.
+  953 [m] Oh, is that so? Then say so in the first place.
+  962 [s] Well, I've got to go look for Louise, so I'll be off…
+  967 [m] Sorry I couldn't be of help.
+  981 [th] Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1337}
+  986 [g] Hello, Saito. What's with that grave expression?
+  991 [s] Do I really look that grim?
+  996 [g] Mm… What's wrong? If it helps, I can lend an ear.
+ 1001 [s] No, I was just wondering if you'd seen Louise anywhere.
+ 1006 [g] Louise? Not while I've been here, no…
+ 1009 [g] By the way, is something the matter with Louise?
+ 1012 [s] Actually…
+ 1016 [menu] I wanted to consult you about Haruna.{#ch3_m1337a}
+ 1019 [menu] No, never mind.{#ch3_m1337b}
+ 1022 [menu] Yeah, I just need her for something.{#ch3_m1337c}
+ 1030 [s] It's about Haruna—I wanted some advice…
+ 1035 [g] Advice? What on earth happened?
+ 1040 [s] N-no, nothing happened. It's not a big deal.
+ 1045 [g] Is that so? All right, then.
+ 1049 [th] Something tells me asking Guiche for advice would only make things more complicated—and that feeling's probably right.{#ch3.5_th_1338}
+ 1058 [s] No, never mind.
+ 1063 [g] You're a cold one, you know that? Don't be like that—tell me too, won't you?
+ 1068 [s] My bad, my bad. It's nothing all that serious. I'll tell you about it some other time.
+ 1073 [g] Is that so? All right, then.{#ch3.5_g_008}
+ 1077 [th] Something tells me asking Guiche for advice would only make things more complicated—and that feeling's probably right.{#ch3.5_th_1339}
+ 1086 [s] Yeah, I just need her for something.
+ 1091 [g] I see. Doesn't sound like a crisis that needs my intervention.
+ 1096 [s] Something like that.
+ 1100 [th] It'd be a hassle, so I won't bother explaining the situation to Guiche.
+ 1110 [s] By the way, Guiche—what are you even doing here?
+ 1115 [g] Me? By visiting the kitchen—a place one rarely gets to see—I've been studying society.
+ 1118 [s] I… see. Oh, you've got sauce around your mouth.
+ 1123 [g] W-wha—nonsense!? …Wait, there's nothing there!?
+ 1128 [s] Just kidding. Field trips to the kitchen are fine, but go easy on the nibbling.
+ 1131 [g] What are you talking about! I-I never nibble on anything!
+ 1136 [s] Sure, sure. If you say so.
+ 1141 [s] Well, see you.

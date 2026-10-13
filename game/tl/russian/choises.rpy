@@ -485,3 +485,78 @@ translate russian strings:
     old "Maybe Haruna?{#ch3_m142c}"
     new "Может, Харуна?{#ch3_m142c}"
 
+
+    old "Are you okay, Haruna?{#ch3_m164a}"
+    new "Ты в порядке, Харуна?"
+
+    old "Siesta, you okay?{#ch3_m164b}"
+    new "Сиеста, ты в порядке?"
+
+    old "...Louise!?{#ch3_m164c}"
+    new "…А Луиза?!"
+
+    old "It was Louise who started it, right?{#ch3_m168a}"
+    new "Это же Луиза затеяла?"
+
+    old "This isn't like the usual Siesta.{#ch3_m168b}"
+    new "Это не похоже на обычную Сиесту."
+
+    old "Do you dislike Haruna?{#ch3_m168c}"
+    new "Тебе что, Харуна не нравится?"
+
+    old "Is it wrong of me to look after Haruna?{#ch3_m173a}"
+    new "Разве плохо ухаживать за Харуной?"
+
+    old "You didn't need to worry about her.{#ch3_m173b}"
+    new "Я просто волновался за тебя…"
+
+    old "I'm just saying something objective.{#ch3_m173c}"
+    new "Я просто говорю объективно."
+
+    old "Louise's room{#ch3_m178a}"
+    new "Комната Луизы"
+
+    old "Kirche's room{#ch3_m178b}"
+    new "Комната Кирхе"
+
+    old "Tabitha's room{#ch3_m178c}"
+    new "Комната Табиты"
+
+    old "The kitchen{#ch3_m178d}"
+    new "Кухня"
+
+    old "Was it because Haruna took over your room?{#ch3_m1322a}"
+    new "Может, потому что Харуна заняла твою комнату?"
+
+    old "Actually, maybe it was Louise and Siesta's way of nursing her?{#ch3_m1322b}"
+    new "А если это способ лечения по-ихнему?"
+
+    old "Hmm, I have no idea.{#ch3_m1322c}"
+    new "Хм, не знаю."
+
+    old "Yes, I'd love to.{#ch3_m1327a}"
+    new "Да, с удовольствием."
+
+    old "Once things calm down, sure.{#ch3_m1327b}"
+    new "Как всё утихнет — обязательно."
+
+    old "I'll make time to visit.{#ch3_m1327c}"
+    new "Я найду время и зайду."
+
+    old "It's not like I need her for anything.{#ch3_m1332a}"
+    new "Да в общем-то и не нужно."
+
+    old "I wanted to ask her about Haruna.{#ch3_m1332b}"
+    new "Я хотел спросить её о Харуне."
+
+    old "Sorry. I can't tell you, Monmon.{#ch3_m1332c}"
+    new "Прости. Не могу тебе сказать, Монмон."
+
+    old "I wanted to consult you about Haruna.{#ch3_m1337a}"
+    new "Я хотел посоветоваться с тобой о Харуне."
+
+    old "No, never mind.{#ch3_m1337b}"
+    new "Да нет, неважно."
+
+    old "Yeah, I just need her for something.{#ch3_m1337c}"
+    new "Да, мне просто кое-что от неё нужно."

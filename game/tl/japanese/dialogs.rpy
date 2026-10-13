@@ -7500,3 +7500,828 @@ translate japanese strings:
     old "Alright, I'm counting on you. See ya."
     new "まぁ、頼んだぞ。じゃあな。"
 
+
+    old "Haruna-san, pardon me~!"
+    new "ハルナさーん、失礼しますねー。"
+
+    old "Siesta-san… What's with all this luggage…?"
+    new "シエスタさん……。その荷物って一体……。"
+
+    old "How are you feeling?"
+    new "体のお加減はいかがですか？"
+
+    old "Somehow, I'm managing…"
+    new "ええ、なんとか……。"
+
+    old "…But your complexion still doesn't look good. Could it be a cold?"
+    new "……でも、まだ顔色がよくないみたいですね。ひょっとして、風邪なんでしょうか？"
+
+    old "Maybe… something like that?"
+    new "たぶん、そんな感じ……かな？"
+
+    old "...{#ch3.2_si_004}"
+    new "……。"
+
+    old "...{#ch3.2_ha_004}"
+    new "……。"
+
+    old "I've prepared all sorts of things for you, Haruna."
+    new "わたしハルナさんのために色々とご用意してきたんですよ。"
+
+    old "Eh…?"
+    new "えっ……？"
+
+    old "First, let me tuck you into this thick quilt."
+    new "まずは、この厚手の布団をハルナさんにかけますね。"
+
+    old "Ah, if you do that…"
+    new "あっ、そんなことされたら……。"
+
+    old "They say it's good to sweat out a cold. This is kindness."
+    new "風邪は汗をかくのがいいって言いますよ。これは親切です。"
+
+    old "R-right. Ju-just the right temperature, or so I thought."
+    new "あ、そうですね。ちょ、ちょーどいい加減かなー、なぁんて。"
+
+    old "I'm glad! I wanted to warm you up, so I made something really hot!"
+    new "良かったです。体を温めていただこうかと思って、すごく熱い料理も用意しましたよ！"
+
+    old "Um, I don't really have an appetite right now…"
+    new "あの、今はちょっと食欲がなくて……。"
+
+    old "No good, Haruna. You have to eat precisely because you have a cold."
+    new "ダメですよ、ハルナさん。風邪のときだからこそ食べないとー。"
+
+    old "If you don't get proper nutrition, your cold will never get better, you know."
+    new "ちゃんと栄養を取らないといつまでたっても風邪は治りませんからねー。"
+
+    old "Could it be… you're dead set on making me eat?"
+    new "ひょっとして……。意地でも食べさせる気だったりします？"
+
+    old "Dead set, you say… How harsh. I put my heart into preparing this dish because I wanted you to eat it."
+    new "意地でもだなんて、そんな……。ハルナさんに食べていただきたくて、心を込めてご用意した料理ですし。"
+
+    old "If you were already well, you might not need to eat it… or so I was thinking…"
+    new "もし、病気が治ってるのでしたら、食べる必要はないかもしれないなーとか、思いますけど……。"
+
+    old "...{#ch3.2_ha_010}"
+    new "……。"
+
+    old "…I won't lose."
+    new "……負けないんだから。"
+
+    old "Pardon? Did you say something?"
+    new "はい？今なにかおっしゃいましたかー？"
+
+    old "N-nope, nothing~."
+    new "いーえ、なんにもー。"
+
+    old "Now, it's all ready."
+    new "さー、用意ができました。"
+
+    old "My, it looks really hot… Like it's bubbling away."
+    new "まあ、とっても熱そうな……。まるでグラグラと煮えてるみたい。"
+
+    old "Even so, this might be too hot to eat…"
+    new "いくらなんでも、これじゃあ熱すぎて食べるのは無理かも……。"
+
+    old "No, no. A sick person has to eat at least this much…"
+    new "いえいえ、病気の方はこれくらいは食べないと……。"
+
+    old "Oh, right—I also prepared firewood, so I'll light the fireplace later."
+    new "そうそう、薪も用意しましたから、後で暖炉も焚きますね。"
+
+    old "Eh…!!"
+    new "え……！！"
+
+    old "Ufu, ufufufu…"
+    new "ウフ、ウフフフフ……。"
+
+    old "Fufu, fufufufu…"
+    new "フフ、フフフフフ……。"
+
+    old "Louise, where the heck did she go off to…"
+    new "ルイズのヤツ、いったい、どこに行っちまったんだろう……。"
+
+    old "Wh-wha—!? W-what the—!?"
+    new "う、うわっぷ！？な、なんだ、いったい！？"
+
+    old "This room's heat is unnatural—!?"
+    new "尋常じゃないぞ、この部屋の暑さはっ！？"
+
+    old "Ufufu, ufufufu…"
+    new "ウフフ、ウフフフフ……。"
+
+    old "Fufufu, fufufufu…"
+    new "フフフ、フフフフフ……。"
+
+    old "W-what are you doing? Grinning at each other in this heat!"
+    new "な、なにやってんだ？こんな暑さの中、２人で微笑みあってるし。"
+
+    old "U-um…"
+    new "え～っと……。"
+
+    old "Are you okay, Haruna?"
+    new "大丈夫か、春奈？"
+
+    old "Ah, Hiraga-kun… I'm fine…"
+    new "あっ、平賀くん……。私なら、大丈夫だよ……。"
+
+    old "No, no, no—what are you saying? This doesn't look fine at all!"
+    new "いやいやいや、なに言ってんの？ちっとも大丈夫な状況には見えないって！"
+
+    old "You're drenched in sweat—how many quilts do you have on you?"
+    new "こんなに汗かいちゃってるのに、何枚布団かけてんだよ？"
+
+    old "Th-that's…"
+    new "そ、それは……。"
+
+    old "That's?"
+    new "それは？"
+
+    old "It's nothing…"
+    new "なんでもない……。"
+
+    old "That's the thing—'it's nothing' can't cover a situation like this, right?"
+    new "だからさ、こんな状況で、なんでもないってことはないだろ？"
+
+    old "Siesta, you okay?"
+    new "シエスタ、大丈夫？"
+
+    old "Ah, Saito-san… Ufufufu…"
+    new "あ、サイトさんだぁ……。ウフフフフ……。"
+
+    old "No, I don't mean 'Saito-san'—"
+    new "いや、サイトさんじゃなくてさ。"
+
+    old "Yees. I'm fiiine."
+    new "はいー。大丈夫ですよー。"
+
+    old "You don't look fine at all… More importantly, what are you two doing?"
+    new "とても大丈夫そうには見えない……。それより、２人してなにやってんの？"
+
+    old "W-well, you see… I was just warming up the room a little…"
+    new "あ、あのですね……。ちょっと部屋を暖めてたら……。"
+
+    old "Warming it? Why?"
+    new "暖めるって、なんで？"
+
+    old "Well, how should I put it…"
+    new "それはなんというか……。"
+
+    old "How should you put it?"
+    new "なんというか？"
+
+    old "Ufufufu…"
+    new "ウフフフフ……。"
+
+    old "No, I don't mean 'ufufu'—"
+    new "いや、ウフフじゃなくてー。"
+
+    old "...Louise!?"
+    new "……ルイズは！？"
+
+    old "If you mean Miss Vallière, she isn't here."
+    new "ミス・ヴァリエールでしたら、ここにはいません。"
+
+    old "Yes, it's just the two of us…"
+    new "うん、私達２人だけ……。"
+
+    old "I see… So what are you two up to? Making the room this hot and all."
+    new "そっか……。で、２人でなにしてんの？こんなに部屋を暑くしちゃってさ。"
+
+    old "...{#ch3.2_si_025}"
+    new "……。"
+
+    old "...{#ch3.2_ha_024}"
+    new "……。"
+
+    old "Ufufu, ufufufu…{#ch3.2_si_026}"
+    new "ウフフ、ウフフフフ……。"
+
+    old "Fufufu, fufufufu…{#ch3.2_ha_025}"
+    new "フフフ、フフフフフ……。"
+
+    old "I have no idea what's going on…"
+    new "って、何がなんだか分からないし……。"
+
+    old "What on earth is going on?"
+    new "一体何がどうなってるんだ？"
+
+    old "Wow, it really did get hot~. Ah, Saito…"
+    new "うわぁ、さすがに暑くなってるわねぇ～。あっ、サイト……。"
+
+    old "Hey, Louise. I just made a 'this is bad' face at you, didn't I?"
+    new "おい、ルイズ。いま俺の顔見て、まずいって顔したろ？"
+
+    old "Eh? What do you mean?"
+    new "え？なんのこと？"
+
+    old "You don't seem that surprised by how hot this room is."
+    new "この部屋の暑さをそんなに驚いちゃいないみたいだしな。"
+
+    old "Th-that's just your imagination!"
+    new "そ、そんなの気のせいじゃない？"
+
+    old "Besides, it's your own room in this state—you should be at least a little surprised…"
+    new "というか、自分の部屋がこんな有様になってんだから、少しは驚けよ……。"
+
+    old "…Waaah, Siesta, are you okay-? How did this happen-!"
+    new "……。わー、シエスタだいじょうぶー？どーしてこんなことにー！"
+
+    old "M-Miss Vallière… I'm done for."
+    new "ミ、ミス・ヴァリエール……。わたくし、もうダメです。"
+
+    old "W-wait, Siesta!?"
+    new "ちょ、ちょっとシエスタっ！？"
+
+    old "I'll entrust the rest to your ha…n… ……hau!?"
+    new "あとはお任せいたし……ま……。……はうっ！？"
+
+    old "Waaah—Siesta!?"
+    new "わぁーっ、シエスターっ！？"
+
+    old "Hey, pull yourself together, Siesta! Siestaa!?"
+    new "ちょっとしっかりして、シエスタっ！シエスタったらぁ！？"
+
+    old "………………"
+    new "………。……。……。"
+
+    old "S-sorry. I actually passed out…"
+    new "……す、すみません。わたくし、本気で意識が飛んでしまって……。"
+
+    old "Ah, you're okay. Thank goodness…"
+    new "あっ、大丈夫なのね。良かったぁ……。"
+
+    old "Louise…"
+    new "なあ、ルイズ……。"
+
+    old "Wh-what…"
+    new "な、なによっ……。"
+
+    old "And you, Siesta…"
+    new "それから、シエスタ……。"
+
+    old "Y-yes!"
+    new "は、はいっ！"
+
+    old "What exactly did you two do?"
+    new "２人とも、いったい何をしたんだ？"
+
+    old "I didn't do anything…"
+    new "わたしは別に……。"
+
+    old "You did plenty! Heating up the room like idiots with Siesta—what were you thinking!"
+    new "別にってことないだろ？シエスタと２人して、馬鹿みたいに部屋を暑くして、なに考えてんだ！"
+
+    old "Haruna's sick! Even if she weren't, doing this to someone would break their body, you know?!"
+    new "春奈は病気なんだぞ？病気じゃなくたって、こんなことされれば、体がぶっ壊れちまうだろ？"
+
+    old "Louise started this, didn't she?"
+    new "ルイズが言い出したことなんだろ？"
+
+    old "...{#ch3.5_l_001}"
+    new "……。"
+
+    old "Why the silence? So I'm right?"
+    new "なんで黙ってるんだよ？やっぱりそうなのか？"
+
+    old "...{#ch3.5_l_002}"
+    new "……。"
+
+    old "N-no, that's wrong, Saito-san! This was my idea, and—"
+    new "ちっ、違いますサイトさん！これはわたしが言いだしたことで……。"
+
+    old "Sorry, Siesta, but could you keep quiet?"
+    new "悪いけど、シエスタは黙っててくれないか！"
+
+    old "This isn't like the usual Siesta."
+    new "いつものシエスタらしくないぞ。"
+
+    old "I'm sorry…"
+    new "ごめんなさい……。"
+
+    old "To think Siesta would do something like this… I'm disappointed."
+    new "シエスタがこんなことするなんて……。俺、がっかりだな。"
+
+    old "Gahn!?"
+    new "ガーン！？"
+
+    old "Saito! That was way too much!"
+    new "サイト！それは言いすぎだって！"
+
+    old "I don't think so."
+    new "俺はそうは思わないね。"
+
+    old "Do you two dislike Haruna?"
+    new "２人は春奈のこと、気に入らないのか？"
+
+    old "Not at all, we don't dislike her… It's just that…"
+    new "そんな、気に入らないだなんて……。ただですね……。"
+
+    old "Because Saito keeps fussing over Haruna…"
+    new "サイトがハルナのことばっかり構うから……。"
+
+    old "So you resort to pranks like this? That's going too far, you know."
+    new "それでこんな嫌がらせか？それは、さすがにやりすぎだろ？"
+
+    old "I'm being serious here, you know! I'm really angry!"
+    new "俺、結構本気で怒ってるんだからな！"
+
+    old "…I'm sorry."
+    new "……ごめんなさい。"
+
+    old "...{#ch3.5_l_005}"
+    new "……。"
+
+    old "Haruna, are you okay? You're not feeling sick?"
+    new "春奈大丈夫か？体は辛くないか？"
+
+    old "Yeah, I'm fine now…"
+    new "うん、もう大丈夫……。"
+
+    old "That's good…"
+    new "良かった……。"
+
+    old "As if we're the ones in the wrong…"
+    new "どーせ、わたし達が悪いんでしょ……。"
+
+    old "That's right. It seems Saito-san dislikes us…"
+    new "そーですね。サイトさんは、わたし達のことが嫌いみたいですし……。"
+
+    old "No, I'm not saying you're bad or that I hate you. I'm saying you went too far."
+    new "いや、別に悪いとか、嫌いとかじゃなくてさ。やりすぎだろって言ってるんだよ。"
+
+    old "But… Hey, Siesta?"
+    new "だって……。ねぇ、シエスタ？"
+
+    old "Yes… Saito-san wouldn't understand."
+    new "はい……。サイトさんには分からないんです。"
+
+    old "…Good grief."
+    new "……やれやれ。"
+
+    old "Well then, Saito-san… I have work to do, so…"
+    new "それじゃあ、サイトさん……。わたし、お仕事がありますから……。"
+
+    old "I see. Hang in there, Siesta…"
+    new "そっか。じゃ、シエスタ、頑張って……。"
+
+    old "Yes…"
+    new "はい……。"
+
+    old "Did I make Siesta feel down…?"
+    new "シエスタ、落ち込んじゃったかなぁ……。"
+
+    old "…No wonder she's down. Even I…"
+    new "……落ち込むのは当たり前よ。わたしだって……。"
+
+    old "That doesn't make it okay, does it?"
+    new "だからってしていいことと、悪いことがあるだろ？"
+
+    old "Hah… Never mind. I'm going out for a bit."
+    new "はぁ……。もういいわ。わたし、ちょっと出かけるから。"
+
+    old "Should I come with you?"
+    new "俺もついて行こうか？"
+
+    old "You don't have to come, Saito. Just go look after cute little Haruna all you like."
+    new "サイトは来なくたっていいわよ。かわいいハルナの面倒でも好きなだけ見てればいいでしょ？"
+
+    old "What's with that tone…"
+    new "なんだよ、その言い方……。"
+
+    old "Is it really so bad, looking after Haruna?"
+    new "そんなに春奈の面倒見てちゃ悪いのか？"
+
+    old "Nobody said that!"
+    new "誰もそんなこと言ってないでしょ！"
+
+    old "Then why did you do something like that?"
+    new "じゃあ、なんであんなことしたんだよ。"
+
+    old "...{#ch3.5_l_012}"
+    new "……。"
+
+    old "I was worried about you…"
+    new "俺はおまえのことが心配で……。"
+
+    old "W-worried about me?! Is that true?"
+    new "わっ、わたしのことが心配ですって？それは本当なの？"
+
+    old "Well… it's…"
+    new "いや……、だって。"
+
+    old "Enough!! I'd rather not hear empty words like that!"
+    new "いいっ！！そんな上辺だけの言葉なら、聞かないほうがまだマシなんだからっ！"
+
+    old "No, listen, I mean it—"
+    new "いや、だから、俺は本気で……。"
+
+    old "I'm just stating objective facts."
+    new "俺は客観的に物を言ってるだけだぞ。"
+
+    old "Is that so…? And you think you're being objective, Saito?"
+    new "ふーん……。サイトはそれで客観的に見てるつもりなんだ？"
+
+    old "Yeah, that's what I think."
+    new "ああ、そのつもりだけど。"
+
+    old "...{#ch3.5_ha_176}"
+    new "……。"
+
+    old "An-y-way! I'm going out by myself, so you stay here, Saito."
+    new "と・に・か・く！わたしだけ出かけるから、サイトはここにいなさい。"
+
+    old "Fine. Suit yourself."
+    new "分かったよ。好きにすればいいだろ？"
+
+    old "Oh, I intend to."
+    new "ええ、好きにさせてもらうわよ。"
+
+    old "Jeez, that Louise… Why's she so mad…? I don't get it anymore."
+    new "ったく、ルイズのヤツ……。なんであんなに怒ってるんだよ……。俺、もうわけ分かんねぇ。"
+
+    old "Honestly… That Saito gets me so mad!"
+    new "まったくもう……。サイトったら、頭に来ちゃうっ！"
+
+    old "…Kirche! It's me, Louise!!"
+    new "……キュルケッ！わたし、ルイズよ！！"
+
+    old "Hold on, Louise. Is there really no better way to knock?"
+    new "ちょっと、ルイズ。そんなノックの仕方ってある？"
+
+    old "I get that you're upset, but taking it out on things isn't the answer."
+    new "荒れてるのは分かるけど、物に当たるのはどうかと思うわよ？"
+
+    old "Shut up! I'm coming in!!"
+    new "うっさいわねぇ！入るわよっ！！"
+
+    old "Miss Vallière. How did things go with Saito-san and the others?"
+    new "ミス・ヴァリエール。サイトさん達の様子はいかがでしたか？"
+
+    old "Ah, hopeless, hopeless. That idiot doesn't suspect for a second that Haruna is faking."
+    new "あ～、ダメダメ。あの馬鹿、ハルナが仮病だなんて、微塵も疑ってないわ。"
+
+    old "I see… So everything we did was pointless, then…"
+    new "そうでしたか……。わたくし達のしたことって、効果ありませんでしたね……。"
+
+    old "Not just pointless—it backfired spectacularly."
+    new "効果ないどころか、思いっきり逆効果だったわ。"
+
+    old "See, Tabitha? Just like I said—it failed."
+    new "ねっ、タバサ。あたしが言ったとおり、失敗したでしょ？"
+
+    old "...{#ch3.5_t_178}"
+    new "……。"
+
+    old "Besides, you two are way too soft. That Haruna girl has her eyes on darling too, right?"
+    new "そもそもさ、あんた達ってば甘いのよ。あのハルナって娘もダーリンを狙ってるんでしょ？"
+
+    old "Probably."
+    new "たぶん。"
+
+    old "Even in her shoes, I wouldn't have thrown in the towel."
+    new "あたしがあの娘の立場だったとしても、音を上げなかったと思うわ。"
+
+    old "Because even if pushing through the heat made her sick, knowing darling would nurse her back to health is reason enough to keep going…"
+    new "だって、たとえ暑さを我慢しすぎて体を壊したとしても、ダーリンに介抱してもらえると思えば頑張れるもの……。"
+
+    old "In the fairy tale my great-grandfather told me, it did work, though…"
+    new "ひいおじいちゃんが話してくれた童話では、成功したんですけどね……。"
+
+    old "What kind of story was it?"
+    new "その童話って、どんなお話だったの？"
+
+    old "Yes, Miss Zerbst. It's the tale of the North Wind and the Sun, competing to strip a traveler of his coat."
+    new "はい、ミス・ツェルプストー。北風と太陽が、旅人の服を脱がす勝負をするお話なんですよ。"
+
+    old "In the story, the North Wind tries to blow the coat away, but fails…"
+    new "お話では、北風が旅人の服を吹き飛ばそうとして失敗してしまうんですが……。"
+
+    old "while the Sun, by bathing him in warm sunlight, makes him take it off himself."
+    new "太陽は旅人に暖かな日差しを浴びせることで、服を脱がしてしまうんです。"
+
+    old "I see. So it's better to talk someone into taking their clothes off than to tear them off by force."
+    new "なるほど。無理に服を引きはがそうとするより、自分から脱ぐように仕向けた方がいいという話ね。"
+
+    old "But I didn't think Haruna-san would be this patient…"
+    new "でも、あそこまでハルナさんが辛抱強い方だとは思いませんでした……。"
+
+    old "The schemer drowns in their own scheme."
+    new "……策士策に溺れる。"
+
+    old "I'm telling you, Siesta. I thought that same plan would expose Haruna's fake illness too."
+    new "いいってば、シエスタ。わたしもその作戦で、ハルナの仮病を暴けると思ってたんだし。"
+
+    old "Then I have no choice. This time, I'll go save darling myself!"
+    new "仕方ないわね。今度はあたしがダーリンを救ってみせるわっ！"
+
+    old "…Wait, what are you planning to do?"
+    new "……って、どうするつもりなのよ？"
+
+    old "Leave it to me. I'll make Haruna herself admit she was faking!"
+    new "任せといて。きっちりハルナが自分から仮病でしたって、認めるように仕向けてみせちゃうんだから！"
+
+    old "Um, Miss Vallière… Are you sure it's all right to leave everything to Miss Zerbst?"
+    new "あのぉ、ミス・ヴァリエール。本当にミス・ツェルプストーにお任せして大丈夫なんでしょうか？"
+
+    old "To be honest, I'm worried too…"
+    new "実を言うと、わたしも不安なのよね……。"
+
+    old "Ah, Hiraga-kun…"
+    new "あっ、平賀くん……。"
+
+    old "I came looking for Louise and the others… Looks like they're not here."
+    new "ルイズ達を探しに来たんだけど……。ここにはいないみたいだよな。"
+
+    old "Yeah. They haven't been here since before."
+    new "うん。あれから来てないよ。"
+
+    old "I see… Sorry about earlier. Pulling something so awful on a sick person…"
+    new "そっかー……。さっきは迷惑かけてごめんな。病人にあんな嫌がらせをするなんて……。"
+
+    old "Yeah, that's already forgotten. It wasn't your fault, Hiraga-kun."
+    new "うん、そのことはもういいよ。平賀くんが悪いわけじゃないんだし。"
+
+    old "Still… why would Louise and Siesta do something like that?"
+    new "しっかし……、ルイズやシエスタは、なんであんなことをしたんだろ？"
+
+    old "Hiraga-kun, do you really not know?"
+    new "平賀くん、本当に分からないの？"
+
+    old "Huh? Know what?"
+    new "えっ、なにが？"
+
+    old "The reason Louise and the others did something like that together…"
+    new "ルイズさん達が一緒になって、あんなことをした理由……。"
+
+    old "The reason…?"
+    new "理由か……？"
+
+    old "Was it because Haruna took over your room?"
+    new "春奈に部屋を占領されてるからとか？"
+
+    old "But if that's the case, I don't get why Siesta would tag along."
+    new "でも、そうだとしたら、シエスタまで一緒になる理由が分かんないんだよなぁ。"
+
+    old "If anything, Louise would want to kick Siesta out along with Haruna."
+    new "むしろ、ルイズとしては春奈と一緒にシエスタも追い出したいだろうし。"
+
+    old "Hey, Hiraga-kun. Are you serious right now?"
+    new "ねえ、平賀くん。それ、本気で言ってたりする？"
+
+    old "Pretty much, yeah."
+    new "わりと本気で言ってるけど。"
+
+    old "Actually, maybe it was Louise and Siesta's way of nursing her?"
+    new "実は、ルイズ達なりの治療法とか？"
+
+    old "Like some kind of treatment—fighting fire with fire, heat with heat?"
+    new "暑さをもって熱を制する、そんな治療法があったりするのかも？"
+
+    old "If that's the case, I did something awful to Louise and the others…"
+    new "そうだったとしたら、ルイズ達には悪いことしちゃったなぁ。"
+
+    old "You're really kind, Hiraga-kun."
+    new "平賀くんってさ、優しいよね。"
+
+    old "Huh? Why?{#ch3.5_s_040}"
+    new "えっ、なんで？"
+
+    old "Hmm, I have no idea."
+    new "んー、俺には分からないよ。"
+
+    old "No matter how hard I try, I just can't imagine why Louise and the others would do that to Haruna."
+    new "なんで、ルイズ達が春奈にあんなことをするかなんて、俺にはどうやっても考えられないんだよね。"
+
+    old "Dense…"
+    new "鈍感……。"
+
+    old "Eh?{#ch3.5_s_043}"
+    new "え？"
+
+    old "Never mind."
+    new "なんでもない。"
+
+    old "Tch."
+    new "ちぇーっ。"
+
+    old "Haruna, can you guess why?"
+    new "春奈なら理由が分かるの？"
+
+    old "Ah, um… I'm sorry. I still don't know…"
+    new "あ、うん……。ごめんなさい。やっぱり分からない……。"
+
+    old "You don't? Yeah, I figured…"
+    new "やっぱり？そうだよなぁ……。"
+
+    old "Well, I should be heading out. Take it easy, okay?"
+    new "それじゃ、そろそろ出て行くよ。ゆっくりしてるんだぞ。"
+
+    old "…Hiraga-kun, you idiot."
+    new "……平賀くんの馬鹿。"
+
+    old "My, Saito. Standing about in the hallway—is something the matter?"
+    new "おや、サイトくん。廊下に立ちつくして、どうかしたのかね？"
+
+    old "I was looking for Louise, but she's nowhere to be found…"
+    new "ちょっとルイズを探していたんですが、どこにもいなくて……。"
+
+    old "I see. That's a shame."
+    new "そうか、それは残念だったね。"
+
+    old "Ah, that's right, Saito. Do drop by my research lab next time, won't you?"
+    new "ああ、そうだサイトくん。今度、わたしの研究室にぜひ寄ってくれたまえよ。"
+
+    old "Yes, I'd love to."
+    new "はい、ぜひ寄らせていただきます。"
+
+    old "Very well. Come by whenever it suits you, Saito."
+    new "そうか。では、いつでも構わないので、サイトくんの都合がいいときにでも来なさい。"
+
+    old "Once things calm down, sure."
+    new "落ち着いたら、ぜひ。"
+
+    old "Once things calm down, you say… Are you busy with something lately?"
+    new "落ち着いたらというと……。最近、何か忙しいのかね？"
+
+    old "Yes, a few things here and there… But I'll be sure to come."
+    new "ええ、ちょっといろいろと……。でも、必ずうかがいますので。"
+
+    old "I see. Then do come once things have settled down."
+    new "そうか。じゃあ、落ち着いたら来てくれたまえ。"
+
+    old "I'll make time to visit."
+    new "なるべく時間を作っておうかがいします。"
+
+    old "Make time, you say… Is there something keeping you busy?"
+    new "時間を作ってというと……。何か忙しいことでもあるのかね？"
+
+    old "Ah, well, a little…"
+    new "あ、いや、ちょっと……。"
+
+    old "Hesitating isn't like you, Saito. What exactly is going on?"
+    new "口ごもるなんて、サイトくんらしくないな。一体どうしたんだね？"
+
+    old "Actually, Professor…I'm having a falling-out with some people."
+    new "実はですね、先生。人間関係でもめていまして……。"
+
+    old "I see. You've had it rough too, then."
+    new "そうか。いろいろと大変なんだな、君も。"
+
+    old "Well then, I'll be looking forward to it, Saito."
+    new "それじゃあ、楽しみにしてるからね。サイトくん。"
+
+    old "Yes, Professor."
+    new "はい、先生。"
+
+    old "You… What are you doing there? Don't tell me you're planning to rob the place?"
+    new "あなた……。そんなところで、何をしてるの？ひょっとして、空き巣でもするつもり？"
+
+    old "Me, a burglar? No, no! I'm just looking for Louise."
+    new "えっ、俺が空き巣？違う、違う！ルイズを探してるだけだって。"
+
+    old "Oh, is that so? I haven't seen Louise. I wonder if she's really in?"
+    new "あら、そうなの。わたし、ルイズは見てないわ。確かにどこにいるのかしらね？"
+
+    old "I see. Thanks."
+    new "そっか。どうもありがとな。"
+
+    old "By the way, you… What do you want with Louise?"
+    new "ところで、あなた……。ルイズにどんな用があるの？"
+
+    old "What do I want…"
+    new "どんな用って……。"
+
+    old "It's not like I need Louise for anything."
+    new "ルイズに用があるってわけでもないんだ。"
+
+    old "I was just wondering where she might be, so I'm looking around."
+    new "どこにいるのかなって思って、探してただけなんだよ。"
+
+    old "Oh, is that so."
+    new "あら、そうだったの。"
+
+    old "I wanted to consult her about something regarding Haruna."
+    new "ちょっと、春奈のことで相談したくて。"
+
+    old "Oh, is that so. Not to pry, but…"
+    new "あら、そうだったの。こんなこと言っちゃなんだけど……。"
+
+    old "You have it rough too, don't you? You're living with a maid, Louise, and Haruna now, right?"
+    new "あなたも大変よね。今、メイドとルイズとハルナの４人で暮らしてるんでしょ？"
+
+    old "Haha, hah…"
+    new "ははは、はは……。"
+
+    old "Sorry. I can't tell you, Monmon."
+    new "ごめん。モンモンには言えないんだ。"
+
+    old "Who are you calling Monmon?! I'm Montmorency!"
+    new "誰がモンモンよ！わたしはモンモランシーよっ！"
+
+    old "Come on, what does a little thing like that matter?"
+    new "まあ、そんな細かいこと、どうだっていいじゃないか。"
+
+    old "It matters plenty! And state your purpose properly."
+    new "ちっとも細かくないわよ！それと、ちゃんと目的も言いなさいな。"
+
+    old "You're a handful, Monmon."
+    new "しょうがないなぁ、モンモンは。"
+
+    old "I said stop calling me Monmon! What if the whole academy hears—how will you take responsibility?"
+    new "だから、モンモンって言わないでよっ！学院中ではやったらどう責任取ってくれるの？"
+
+    old "Responsibility… Ah, never mind."
+    new "責任って……。まぁ、いいや。"
+
+    old "I was just wondering where Louise might be, so I'm looking around."
+    new "ルイズがどこにいるのかなって思って、探してただけなんだよね。"
+
+    old "Oh, is that so? Then say so in the first place."
+    new "あら、そうだったの。だったら、そう言いなさいよ。"
+
+    old "Well, I've got to go look for Louise, so I'll be off…"
+    new "それじゃあ俺、ルイズを探しに行かなきゃなんないから、これで……。"
+
+    old "Sorry I couldn't be of help."
+    new "お役に立てなくてごめんなさいね。"
+
+    old "Hello, Saito. What's with that grave expression?"
+    new "やあ、サイト。そんな、深刻そうな顔でどうしたのかね？"
+
+    old "Do I really look that grim?"
+    new "やっぱり深刻そうな顔してる？"
+
+    old "Mm… What's wrong? If it helps, I can lend an ear."
+    new "ああ……。どうしたんだい？ぼくで良ければ相談にのるよ。"
+
+    old "No, I was just wondering if you'd seen Louise anywhere."
+    new "いや、ルイズをどこかで見てないかなって思って。"
+
+    old "Louise? Not while I've been here, no…"
+    new "ルイズかい？少なくとも、ぼくがここに来てる間は、見ていないな……。"
+
+    old "By the way, is something the matter with Louise?"
+    new "ところでルイズがどうかしたのかい？"
+
+    old "Actually…"
+    new "実はな……。"
+
+    old "It's about Haruna—I wanted some advice…"
+    new "春奈のことでちょっと相談をね……。"
+
+    old "Advice? What on earth happened?"
+    new "相談？一体何が起きたんだい？"
+
+    old "N-no, nothing happened. It's not a big deal."
+    new "い、いや、何も起きてないんだ。そんなに大したことじゃないよ。"
+
+    old "Is that so? All right, then."
+    new "そうかい？ならいいんだが。"
+
+    old "No, never mind."
+    new "いや、やっぱり気にしなくていいよ。"
+
+    old "You're a cold one, you know that? Don't be like that—tell me too, won't you?"
+    new "つれないヤツだな、きみは。そんなこと言わずに、ぼくにも教えてくれたまえよ？"
+
+    old "My bad, my bad. It's nothing all that serious. I'll tell you about it some other time."
+    new "わるいわるい。それほど大それたことじゃないんだ。今度また話すよ。"
+
+    old "Is that so? All right, then.{#ch3.5_g_008}"
+    new "そうかい？ならいいんだが。"
+
+    old "Yeah, I just need her for something."
+    new "うん、ちょっと用があるだけ。"
+
+    old "I see. Doesn't sound like a crisis that needs my intervention."
+    new "ふむ、なるほどね。ぼくが間に入るほどの大事件ではなさそうだな。"
+
+    old "Something like that."
+    new "まあ、そんなところだよ。"
+
+    old "By the way, Guiche—what are you even doing here?"
+    new "ところで、ギーシュ。こんなところでなにやってたんだ？"
+
+    old "Me? By visiting the kitchen—a place one rarely gets to see—I've been studying society."
+    new "ぼくかい？ぼくは、普段まず見ることのない厨房に足を運ぶことで、社会を学んでいたのだよ。"
+
+    old "I… see. Oh, you've got sauce around your mouth."
+    new "……なるほどねぇ。あっ、口の周りにソースが付いてるぞ。"
+
+    old "W-wha—nonsense!? …Wait, there's nothing there!?"
+    new "なっ、何を馬鹿なっ！？……って、なにも付いてないじゃないか！？"
+
+    old "Just kidding. Field trips to the kitchen are fine, but go easy on the nibbling."
+    new "冗談だよ、じょーだん。厨房で社会見学もいいけどさ、つまみ食いはほどほどにしとけよー。"
+
+    old "What are you talking about! I-I never nibble on anything!"
+    new "何を言ってるんだね、きみはっ！つ、つまみ食いなんて、ぼくはしてないんだからなっ！"
+
+    old "Sure, sure. If you say so."
+    new "はいはい。分かった分かった。"
+
+    old "Well, see you."
+    new "それじゃあな。"

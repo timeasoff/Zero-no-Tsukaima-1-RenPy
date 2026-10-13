@@ -47,7 +47,11 @@ except Exception:
 
 # ---------------------------------------------------------------- пути
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-WAV_DIR = os.path.join(ROOT, "wav_source")
+# Источник wav: восстановленная папка wav_files/ (декодированные STV),
+# fallback — старое имя wav_source/
+WAV_DIR = os.path.join(ROOT, "wav_files")
+if not os.path.isdir(WAV_DIR):
+    WAV_DIR = os.path.join(ROOT, "wav_source")
 OUT_DIR = os.path.join(ROOT, "game", "audio", "voices")
 MANIFEST = os.path.join(ROOT, "references", "voice_id_map.csv")
 CHAPTERS_DIR = os.path.join(ROOT, "game", "chapters")

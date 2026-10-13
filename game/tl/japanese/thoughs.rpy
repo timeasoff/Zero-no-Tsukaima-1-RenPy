@@ -589,3 +589,69 @@ translate japanese strings:
     old "Monmon said the very same thing, and then blabbed everything..."
     new "（モンモンも同じことを言って、　べらべらしゃべってたんだが……）"
 
+
+    old "As always, I can never quite follow what the lesson is about."
+    new "（相変わらず、授業の内容はなんだか分からない）"
+
+    old "Nobles who take classes like this every day have it rough. Though I mostly sleep through them..."
+    new "（こんな授業を毎日受けてる貴族ってほんと大変なんだな。まぁ、ほとんど俺は寝てるわけだけど……）"
+
+    old "But Louise seems to be enjoying class today. Did something fun happen?"
+    new "（けど、今日のルイズはずいぶん楽しそうに授業を受けてるな。なんか、楽しいことでもあったのか？）"
+
+    old "Now then, what should I do...?"
+    new "（さてと、どうしよう……）"
+
+    old "But how am I supposed to be careful, I wonder?"
+    new "（でも、どう気をつければいいんだろ）"
+
+    old "Zero reaction, huh... Now's not the time to back down."
+    new "（反応ゼロか……。　って、ひるんでる場合じゃないよな）"
+
+    old "Tabitha seems to be in a bad mood — did I do something to upset her?"
+    new "（なんか、タバサの機嫌が悪いけど、　俺、なにかタバサの気に障ることを　したっけ？）"
+
+    old "She looks like she has something to say, but what should I do...?"
+    new "（何か言いたげな様子なんだけど、　どうしたもんかなぁ？）"
+
+    old "She's trying to get me to admit I'm not really sick…"
+    new "（この人、私が病気じゃないこと白状させようとしてるのね……）"
+
+    old "She doesn't like that Hiraga-kun is nursing me, I'm sure… but I'm not about to back down either…"
+    new "（私が平賀くんに看病されてるのが気に入らないんでしょーけど、こっちだってそうはいかないんだから……）"
+
+    old "She's laying it on thick…"
+    new "（わざとらしいなぁ……）"
+
+    old "But who started this mess?"
+    new "（しかし、誰が騒ぎの原因なんだ？）"
+
+    old "I had Siesta put the bedding away and opened the windows to air the room out. Finally, the temperature settled down."
+    new "（シエスタに布団を片付けさせ、　窓を開けて風通しを良くし、　やっと部屋の温度が落ち着いた）"
+
+    old "I don't think Louise would give up this easily. I should probably go tail her for a bit."
+    new "（ルイズがこれであきらめるとは思えないし、　ちょっとルイズを偵察に出たほうがいいよな）"
+
+    old "I wonder where Louise went…?"
+    new "（ルイズはどこにいるんだろ……）"
+
+    old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1327}"
+    new "（ルイズはいないか……。　部屋に戻っていればいいんだけど。　いったい、どこにいるんだろうなぁ？）"
+
+    old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1332}"
+    new "（ルイズはいないか……。　部屋に戻っていればいいんだけど。　いったい、どこにいるんだろうなぁ？）"
+
+    old "If she knew about what just happened, she'd be shocked."
+    new "（さっきの事件とか知ったら、　びっくりするんだろうなぁ）"
+
+    old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1337}"
+    new "（ルイズはいないか……。　部屋に戻っていればいいんだけど。　いったい、どこにいるんだろうなぁ？）"
+
+    old "Something tells me asking Guiche for advice would only make things more complicated—and that feeling's probably right.{#ch3.5_th_1338}"
+    new "（ギーシュに相談することで、　ややこしいことになりそうな予感が　したのは気のせいじゃないはずだ）"
+
+    old "Something tells me asking Guiche for advice would only make things more complicated—and that feeling's probably right.{#ch3.5_th_1339}"
+    new "（ギーシュに相談することで、　ややこしいことになりそうな予感が　したのは気のせいじゃないはずだ）"
+
+    old "It'd be a hassle, so I won't bother explaining the situation to Guiche."
+    new "（面倒だから、　ギーシュには事情を説明しないでおこう）"

@@ -491,3 +491,78 @@ translate japanese strings:
     old "Maybe Haruna?{#ch3_m142c}"
     new "春奈かな？"
 
+
+    old "Are you okay, Haruna?{#ch3_m164a}"
+    new "大丈夫か、春奈？"
+
+    old "Siesta, you okay?{#ch3_m164b}"
+    new "シエスタ、大丈夫？"
+
+    old "...Louise!?{#ch3_m164c}"
+    new "……ルイズは！？"
+
+    old "It was Louise who started it, right?{#ch3_m168a}"
+    new "ルイズが言い出したことだろ？"
+
+    old "This isn't like the usual Siesta.{#ch3_m168b}"
+    new "いつものシエスタらしくないぞ"
+
+    old "Do you dislike Haruna?{#ch3_m168c}"
+    new "春奈のこと、気に入らないのか？"
+
+    old "Is it wrong of me to look after Haruna?{#ch3_m173a}"
+    new "春奈の面倒見てちゃ悪いのか？"
+
+    old "You didn't need to worry about her.{#ch3_m173b}"
+    new "おまえのことが心配で……"
+
+    old "I'm just saying something objective.{#ch3_m173c}"
+    new "客観的に物を言ってるだけだぞ"
+
+    old "Louise's room{#ch3_m178a}"
+    new "ルイズの部屋"
+
+    old "Kirche's room{#ch3_m178b}"
+    new "キュルケの部屋"
+
+    old "Tabitha's room{#ch3_m178c}"
+    new "タバサの部屋"
+
+    old "The kitchen{#ch3_m178d}"
+    new "厨房"
+
+    old "Was it because Haruna took over your room?{#ch3_m1322a}"
+    new "春奈に部屋を占領されてるからとか？"
+
+    old "Actually, maybe it was Louise and Siesta's way of nursing her?{#ch3_m1322b}"
+    new "実は、ルイズ達なりの治療法とか？"
+
+    old "Hmm, I have no idea.{#ch3_m1322c}"
+    new "んー、俺には分からないよ"
+
+    old "Yes, I'd love to.{#ch3_m1327a}"
+    new "はい、ぜひ寄らせていただきます"
+
+    old "Once things calm down, sure.{#ch3_m1327b}"
+    new "落ち着いたら、ぜひ"
+
+    old "I'll make time to visit.{#ch3_m1327c}"
+    new "時間を作っておうかがいします"
+
+    old "It's not like I need her for anything.{#ch3_m1332a}"
+    new "用があるってわけでもないんだ"
+
+    old "I wanted to ask her about Haruna.{#ch3_m1332b}"
+    new "春奈のことで相談したくて"
+
+    old "Sorry. I can't tell you, Monmon.{#ch3_m1332c}"
+    new "ごめん。モンモンには言えないんだ"
+
+    old "I wanted to consult you about Haruna.{#ch3_m1337a}"
+    new "春奈のことでちょっと相談"
+
+    old "No, never mind.{#ch3_m1337b}"
+    new "いや、やっぱり気にしなくていい"
+
+    old "Yeah, I just need her for something.{#ch3_m1337c}"
+    new "うん、ちょっと用があるだけ"

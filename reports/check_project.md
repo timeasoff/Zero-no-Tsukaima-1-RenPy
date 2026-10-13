@@ -4,11 +4,15 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (0)
+## ERROR (5)
 
-- нет
+- E7 jump 'ch3_2' at game/chapters/3/script-ch3_1.rpy:473 has no label
+- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:692 has no label
+- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:818 has no label
+- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:972 has no label
+- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:1146 has no label
 
-## WARNING (274)
+## WARNING (290)
 
 - W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -22,6 +26,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:433: Air Force
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:427: Air Needle
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2112: Alright, I'm heading out.
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:593: As always, I can never quite follow what the lesson is about.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:328: Attack Power
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:371: Attacks a single enemy
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:374: Attacks all enemies
@@ -30,6 +35,8 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:290: Battle Preparation
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:20: Bestow blessings upon this one, and make them my familiar
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:467: Bread
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:599: But Louise seems to be enjoying class today. Did something fun happen?
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:605: But how am I supposed to be careful, I wonder?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:245: Calibration
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:81: Chapter Eight: 'Haruna's Secret'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:109: Chapter Eight: 'Magic Potion'
@@ -91,6 +98,8 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:11: My name is Louise Françoise Le Blanc de La Vallière
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:282: No characters unlocked yet
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:596: Nobles who take classes like this every day have it rough. Though I mo
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:602: Now then, what should I do...?
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1308: Oh, well. It’s not like I expect you to go home just because I tell yo
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:209: Open accessibility menu.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:363: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
@@ -106,6 +115,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:191: Roll back to earlier story point.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:197: Roll forward to later story point.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:314: Select a character to view information
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:614: She looks like she has something to say, but what should I do...?
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:98: Side Story: 'Charmed Princess'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:126: Side Story: 'Genuine Feelings'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:112: Side Story: 'Master of a Slight Fever'
@@ -119,6 +129,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:305: Start Battle
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:317: Start battle?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:279: Sympathy level
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:611: Tabitha seems to be in a bad mood — did I do something to upset her?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:203: Take screenshot.
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:2: The Familiar Zero: The Little Devil and Spring Breeze Concerto
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:8: The Familiar of Zero
@@ -139,6 +150,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:419: Wind Moon Slash
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
 - W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:608: Zero reaction, huh... Now's not the time to back down.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:146: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
@@ -157,6 +169,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:435: Air Force
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:429: Air Needle
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2150: Alright, I'm heading out.
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:588: As always, I can never quite follow what the lesson is about.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:328: Attack Power
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:373: Attacks a single enemy
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:376: Attacks all enemies
@@ -165,6 +178,8 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:290: Battle Preparation
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:20: Bestow blessings upon this one, and make them my familiar
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:469: Bread
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:594: But Louise seems to be enjoying class today. Did something fun happen?
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:600: But how am I supposed to be careful, I wonder?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:236: Calibration
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:83: Chapter Eight: 'Haruna's Secret'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:111: Chapter Eight: 'Magic Potion'
@@ -226,6 +241,8 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:11: My name is Louise Françoise Le Blanc de La Vallière
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:282: No characters unlocked yet
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:591: Nobles who take classes like this every day have it rough. Though I mo
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:597: Now then, what should I do...?
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1313: Oh, well. It’s not like I expect you to go home just because I tell yo
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:200: Open accessibility menu.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:364: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
@@ -241,6 +258,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:182: Roll back to earlier story point.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:188: Roll forward to later story point.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:314: Select a character to view information
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:609: She looks like she has something to say, but what should I do...?
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:100: Side Story: 'Charmed Princess'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:128: Side Story: 'Genuine Feelings'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:114: Side Story: 'Master of a Slight Fever'
@@ -254,6 +272,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:305: Start Battle
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:317: Start battle?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:279: Sympathy level
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:606: Tabitha seems to be in a bad mood — did I do something to upset her?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:194: Take screenshot.
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:2: The Familiar Zero: The Little Devil and Spring Breeze Concerto
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:8: The Familiar of Zero
@@ -274,6 +293,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:421: Wind Moon Slash
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:426: Wing
 - W1 stale old in tl/russian at game/tl/russian/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:603: Zero reaction, huh... Now's not the time to back down.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:65: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:148: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}
@@ -289,8 +309,8 @@
 
 - speakers defined: 32
 - overlay K: max=8 used=8 next_free=9
-- voices: refs=2533 ogg=2539 missing=0
-- I1 ch3: strings=113 source_talk=1078 (gap expected)
+- voices: refs=2807 ogg=2813 missing=0
+- I1 ch3: strings=427 source_talk=1078 (gap expected)
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
@@ -316,6 +336,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=143 open=169 | placeholders=7 in 5 file(s)
-- labels=94 rpy=59 strings(strict=2842) tl_old=japanese:3324,russian:3351
+- image map: ids=312 named=148 open=164 | placeholders=9 in 1 file(s)
+- labels=126 rpy=61 strings(strict=3156) tl_old=japanese:3646,russian:3673
 

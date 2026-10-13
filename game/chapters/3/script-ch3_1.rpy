@@ -470,4 +470,4 @@ label ch3_146:
 
     $ show_sprites(None)
 
-    jump attention
+    jump ch3_2

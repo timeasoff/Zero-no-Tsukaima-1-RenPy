@@ -1,0 +1,44 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Защита от потери данных (инцидент git clean -fdx от 2026-10-13).
+  // Правила ниже применяются к КАЖДОМУ агенту в этом проекте.
+  // ВАЖНО: эффект "ask" здесь НЕ работает (клиент без интерактива одобряет
+  // сам), поэтому все разрушающие команды — строгий "deny".
+  // Отменить deny нельзя ни скиллом, ни инструкцией, ни одобрением:
+  // сохранённые одобрения не переопределяют настроенный deny.
+  // Временно разрешить ручную чистку можно только осознанной правкой
+  // этого файла самим пользователем.
+  "permissions": [
+    // git clean уничтожает незакоммиченные/проигнорированные файлы — никогда.
+    { "action": "shell", "resource": "*git clean*", "effect": "deny" },
+
+    // Разрушающие git-операции — никогда (нужно — правит пользователь сам).
+    { "action": "shell", "resource": "*git reset --hard*", "effect": "deny" },
+    { "action": "shell", "resource": "*git checkout -- *", "effect": "deny" },
+    { "action": "shell", "resource": "*git stash *", "effect": "deny" },
+    { "action": "shell", "resource": "*git branch -D *", "effect": "deny" },
+
+    // Рекурсивные/принудительные удаления — никогда.
+    { "action": "shell", "resource": "*Remove-Item*", "effect": "deny" },
+    { "action": "shell", "resource": "*rm -rf*", "effect": "deny" },
+    { "action": "shell", "resource": "*rm -fr*", "effect": "deny" },
+    { "action": "shell", "resource": "*rm -r *", "effect": "deny" },
+    { "action": "shell", "resource": "rm -rf*", "effect": "deny" },
+    { "action": "shell", "resource": "rm -r *", "effect": "deny" },
+    { "action": "shell", "resource": "*rmdir*", "effect": "deny" },
+    { "action": "shell", "resource": "rd /s*", "effect": "deny" },
+    { "action": "shell", "resource": "* rd /s*", "effect": "deny" },
+    { "action": "shell", "resource": "del *", "effect": "deny" },
+    { "action": "shell", "resource": "*del /s *", "effect": "deny" },
+    { "action": "shell", "resource": "*del /f *", "effect": "deny" },
+    { "action": "shell", "resource": "erase *", "effect": "deny" }
+  ],
+
+  // Жёсткий запрет (hard-deny): превращает любой allow/ask в deny.
+  // Даже если клиент когда-либо сохранил широкое одобрение — это нельзя отменить.
+  "experimental": {
+    "policies": [
+      { "action": "permission", "resource": "shell:*git clean*", "effect": "deny" }
+    ]
+  }
+}

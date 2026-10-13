@@ -555,16 +555,16 @@ translate russian strings:
     new "Она рассмеялась… Видно, рассказы о Японии — самое приятное для Харуны."
 
     old "What is Louise even saying... She's the one who dragged me into bed by force yesterday..."
-    new "О чём это Луиза говорит... Вчера-то она сама силой втянула меня в кровать..."
+    new "О чём это Луиза говорит… Вчера-то она сама силой втянула меня в кровать…"
 
     old "What's more, both Louise and Siesta insisted on using my arm as a pillow..."
-    new "Хуже того — и Луиза, и Сиеста требуют, чтобы я подкладывал им руку под голову..."
+    new "Хуже того — и Луиза, и Сиеста требуют, чтобы я подкладывал им руку под голову…"
 
     old "As a result, my arm aches like crazy, but..."
-    new "Спасибо им, рука болит невыносимо, но..."
+    new "Спасибо им, рука болит невыносимо, но…"
 
     old "Huh? Everyone's looking at me with pity, aren't they..."
-    new "А? Все смотрят на меня с жалостью..."
+    new "А? Все смотрят на меня с жалостью…"
 
     old "...Why is it that, even though they're both smiling, I feel something scary?"
     new "…Почему это? Обе улыбаются, а мне становится страшно."
@@ -584,3 +584,69 @@ translate russian strings:
     old "Monmon said the very same thing, and then blabbed everything..."
     new "Монмон тоже говорила то же самое, а потом болтала без умолку…"
 
+
+    old "As always, I can never quite follow what the lesson is about."
+    new "Похоже, я всё никак не могу понять, о чём этот урок."
+
+    old "Nobles who take classes like this every day have it rough. Though I mostly sleep through them..."
+    new "Дворянам, которые каждый день ходят на такие уроки, приходится тяжело. Хотя я почти всё время сплю…"
+
+    old "But Louise seems to be enjoying class today. Did something fun happen?"
+    new "Но сегодня Луиза явно радуется уроку. Неужели случилось что-то приятное?"
+
+    old "Now then, what should I do...?"
+    new "Ну и что же мне теперь делать…?"
+
+    old "But how am I supposed to be careful, I wonder?"
+    new "Но как бы мне поостерегаться-то…?"
+
+    old "Zero reaction, huh... Now's not the time to back down."
+    new "Реакции ноль… Так, сейчас не время отступать."
+
+    old "Tabitha seems to be in a bad mood — did I do something to upset her?"
+    new "Кажется, Табита не в духе — а я что-нибудь такое наделал, чем её задел?"
+
+    old "She looks like she has something to say, but what should I do...?"
+    new "Похоже, ей есть что сказать… а что мне с этим делать…?"
+
+    old "She's trying to get me to admit I'm not really sick…"
+    new "Она пытается вырвать у меня признание, что я не больна…"
+
+    old "She doesn't like that Hiraga-kun is nursing me, I'm sure… but I'm not about to back down either…"
+    new "Ей не нравится, что за мной ухаживает Хирага-кун, я уверена… но и мне сдаваться не входит в планы…"
+
+    old "She's laying it on thick…"
+    new "Прям таки нарочно…"
+
+    old "But who started this mess?"
+    new "Но кто тут устроил весь этот сыр-бор?"
+
+    old "I had Siesta put the bedding away and opened the windows to air the room out. Finally, the temperature settled down."
+    new "Я попросил Сиесту убрать постель, открыл окна, чтобы проветрить комнату. Наконец температура улеглась."
+
+    old "I don't think Louise would give up this easily. I should probably go tail her for a bit."
+    new "Не верю, что Луиза так легко сдастся. Наверное, надо немного последить за ней."
+
+    old "I wonder where Louise went…?"
+    new "Куда же подевалась Луиза…?"
+
+    old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1327}"
+    new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
+
+    old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1332}"
+    new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
+
+    old "If she knew about what just happened, she'd be shocked."
+    new "Е бы она знала, что только что случилась, она бы удивилась."
+
+    old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1337}"
+    new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
+
+    old "Something tells me asking Guiche for advice would only make things more complicated—and that feeling's probably right.{#ch3.5_th_1338}"
+    new "Что-то подсказывает: совета просить у Гиша — только всё запутать ещё больше. И это, наверное, верно."
+
+    old "Something tells me asking Guiche for advice would only make things more complicated—and that feeling's probably right.{#ch3.5_th_1339}"
+    new "Что-то подсказывает: совета просить у Гиша — только всё запутать ещё больше. И это, наверное, верно."
+
+    old "It'd be a hassle, so I won't bother explaining the situation to Guiche."
+    new "Слишком уж хлопотно, так что не буду объяснять Гишу ситуацию."

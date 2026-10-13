@@ -51,6 +51,7 @@ __pycache__/
 /game/combined_rpy.md
 /agent_prompt.md
 /wav_source
+/wav_files
 /unused_resourses
 
 # ps2_source/images: в git только каркас папок (.gitkeep), исходные картинки — нет
