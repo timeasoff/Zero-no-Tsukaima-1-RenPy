@@ -7525,10 +7525,10 @@ translate russian strings:
     old "Maybe… something like that?"
     new "Наверное… примерно так?"
 
-    old "...{#ch3.2_si_004}"
+    old "...{#ch3.4_si_004}"
     new "…"
 
-    old "...{#ch3.2_ha_004}"
+    old "...{#ch3.4_ha_004}"
     new "…"
 
     old "I've prepared all sorts of things for you, Haruna."
@@ -7570,7 +7570,7 @@ translate russian strings:
     old "If you were already well, you might not need to eat it… or so I was thinking…"
     new "Если бы болезнь уже прошла, может, есть и не нужно… ну, так я подумала…"
 
-    old "...{#ch3.2_ha_010}"
+    old "...{#ch3.4_ha_010}"
     new "…"
 
     old "…I won't lose."
@@ -7696,16 +7696,16 @@ translate russian strings:
     old "I see… So what are you two up to? Making the room this hot and all."
     new "Понятно… И что вы делаете вдвоём? Комната раскалена."
 
-    old "...{#ch3.2_si_025}"
+    old "...{#ch3.4_si_025}"
     new "…"
 
-    old "...{#ch3.2_ha_024}"
+    old "...{#ch3.4_ha_024}"
     new "…"
 
-    old "Ufufu, ufufufu…{#ch3.2_si_026}"
+    old "Ufufu, ufufufu…{#ch3.4_si_026}"
     new "Уфуфу, уфуфуфу…"
 
-    old "Fufufu, fufufufu…{#ch3.2_ha_025}"
+    old "Fufufu, fufufufu…{#ch3.4_ha_025}"
     new "Фуфуфу, фуфуфу…"
 
     old "I have no idea what's going on…"
@@ -8331,3 +8331,270 @@ translate russian strings:
 
     old "Well, see you."
     new "Ну, пока."
+
+    old "Well then, Miss Valiere. Haruna-san, I have work to do, so I'll be going on ahead."
+    new "Ну что ж, мадемуазель Вальер. Харуна-сан, у меня дела, так что пойду вперёд."
+
+    old "All right. Give it your all at work."
+    new "Хорошо. Работай усердно."
+
+    old "Then, if you'll excuse me."
+    new "Тогда разрешите откланяться."
+
+    old "Ah, Siesta — you're off to work?"
+    new "А, Сиеста — ты на работу?"
+
+    old "Ah, Saito-san. Pardon me."
+    new "А, Сайто-сан. Прошу прощения."
+
+    old "Good luck at work!"
+    new "Удачи на работе!"
+
+    old "Yes, I will. Well then."
+    new "Да, постараюсь. Тогда пойду."
+
+    old "Saito, I'm sorry for making you go outside."
+    new "Сайто, виновата, что заставила тебя выйти."
+
+    old "Louise, don't worry about it."
+    new "Луиза, не переживай."
+
+    old "I'm actually kind of happy — I was thinking you might be starting to see me as a man."
+    new "Я даже немного рад — думал, ты понемногу начинаешь смотреть на меня как на мужчину."
+
+    old "I wasn't thinking anything of the sort. Propriety, that's all — propriety!"
+    new "Я ничего такого не думала. Дело в приличиях — в приличиях!"
+
+    old "Sure, sure. Is that so…"
+    new "Угу-угу. Неужели…"
+
+    old "Come to think of it, Haruna — how are you feeling?"
+    new "Кстати, Харуна — как ты себя чувствуешь?"
+
+    old "Yeah, I'm fine. Sorry for making you worry, Hiraga-kun."
+    new "Да, в порядке. Хирага-кун, прости, что из-за меня волновался."
+
+    old "Glad to hear it… Don't push yourself. There are no classes anyway, so take it easy."
+    new "Раз так хорошо… Не перенапрягайся. Занятий-то всё равно нет — отдыхай спокойно."
+
+    old "Yeah… Thanks."
+    new "Да… Спасибо."
+
+    old "Uuuugh."
+    new "Уууу."
+
+    old "What's wrong, Louise?"
+    new "Что такое, Луиза?"
+
+    old "Are you feeling under the weather?"
+    new "Может, тебе нездоровится?"
+
+    old "O-of course not! I was just humming a little."
+    new "К-конечно, нет! Я просто пробурчала."
+
+    old "You wouldn't just hum for no reason, right?"
+    new "Без причины же не пробурчешь, да?"
+
+    old "I'm fine, don't worry about it."
+    new "Всё в порядке, не переживай."
+
+    old "Well, all right… If you're feeling sick, say so right away, okay?"
+    new "Ну, ладно… Если нездорова — сразу говори, ладно?"
+
+    old "I get it!"
+    new "Понятно!"
+
+    old "Are you sleepy?"
+    new "Может, клонит в сон?"
+
+    old "How do you figure?"
+    new "Откуда ты это взял?"
+
+    old "Nah. Just a feeling."
+    new "Да нет. Просто так."
+
+    old "Don't go deciding how someone feels just on a whim."
+    new "Не решай за других, как они себя чувствуют, просто по наитию!"
+
+    old "Yeah, yeah.{#ch3.2_s_014}"
+    new "Да-да."
+
+    old "Are you hungry? It's still a while until lunch."
+    new "Может, проголодалась? До обеда ещё далеко."
+
+    old "It's not like I'm starving like you. Don't lump me in with you!"
+    new "Я не такая прожорливая, как ты! Не сравнивай меня с собой!"
+
+    old "I see, I see."
+    new "Понятненько."
+
+    old "Well then, I've got things to do, so I'm heading out first. Saito, come to the classroom after."
+    new "Ну а у меня дела, так что пойду вперёд. Сайто, приходи в класс потом."
+
+    old "Huh? Why?{#ch3.2_s_017}"
+    new "А? Почему?"
+
+    old "…A-anyway, you don't have to come, Saito!"
+    new "…В-в общем, тебе идти необязательно, Сайто!"
+
+    old "That's not even a reason."
+    new "Это даже не причина."
+
+    old "And you, Haruna! You're a patient, so you'd better stay put and rest, okay!?"
+    new "И ты, Харуна! Ты больная — так что лежи смирно и отдыхай, ясно!?"
+
+    old "Y-yes…"
+    new "Д-да…"
+
+    old "Louise — she's worried about Haruna, in her own way, isn't she."
+    new "Видно, Луиза по-своему волнуется за Харуну."
+
+    old "Do you think so…"
+    new "Ты так думаешь…"
+
+    old "Hm? Did you say something just now?"
+    new "А? Ты что-то сказала?"
+
+    old "Nope, nothing."
+    new "Нет, ничего."
+
+    old "Still — what do you suppose Louise is up to?"
+    new "Впрочем, что это за дела у Луизы, интересно?"
+
+    old "Grr, this is no fun! For all that he's my familiar, all he does is fuss over Haruna!!"
+    new "Фу, неинтересно! Мой фамильяр, а заботится лишь о Харуне!!"
+
+    old "Siesta, you think so too, right?"
+    new "Сиеста, ты ведь тоже так думаешь?"
+
+    old "Y-yes… It's not fair of Haruna-san to fake an illness and have Saito-san fuss over her."
+    new "Д-да… Это нечестно со стороны Харуна-сан — симулировать и устраивать, чтобы Сайто-сан о ней заботился."
+
+    old "But maybe I'm a little happy about it. Thanks to that I got to sleep next to Saito-san… …Hehe."
+    new "Но мне, может, даже немного радостно — благодаря этому я могла спать рядом с Сайто-сан… …Уфуфу."
+
+    old "Eh? Did you say something?"
+    new "А? Что-то сказала?"
+
+    old "No, nothing…"
+    new "Нет, ничего…"
+
+    old "Unforgivable~! Saito didn't have to get taken in by Haruna's little feigned illness like that!!"
+    new "Непростимо-о! Сайто ведь мог и не вестись на такую симуляцию Харуны!!"
+
+    old "Miss Valiere. I believe we should make Haruna-san confess that she's faking."
+    new "Мадемуазель Вальер. Я бы хотела, чтобы Харуна-сан созналась, что симулирует."
+
+    old "But wouldn't it be faster if we just told Saito ourselves?"
+    new "Но разве быстрее не сказать это Сайто самим?"
+
+    old "Do you think so? In the end, it's someone else's illness. There's no way others could tell."
+    new "Вы уверены? Это всё-таки болезнь другого человека. Посторонние вряд ли её распознают."
+
+    old "Then we'll just use magic. There's bound to be a perfect spell."
+    new "Тогда просто используем магию. Наверняка найдётся подходящее заклинание."
+
+    old "Um, Miss Valiere — if it's all right, I have a good idea…"
+    new "Мадемуазель Вальер, если позволите — у меня есть хорошая идея…"
+
+    old "Eh? What is it, what is it!?"
+    new "А? Какая, какая!?"
+
+    old "What if we…….……how does that sound?"
+    new "А если…….…… Как вам такое?"
+
+    old "…I like that! All right, let's do it!"
+    new "…Мне нравится! Хорошо, приступим!"
+
+    old "Then I'll get things ready later…"
+    new "Тогда позже всё подготовлю…"
+
+    old "Nfufufufu… Just you watch, Haruna! I'll expose your fake illness completely, I swear it~!!"
+    new "Нфуфуфуфу… Погляди-ка, Харуна! Я непременно разоблачу твою симуляцию~!!"
+
+    old "…Hm? What's with the gawking? Is there something on my face?"
+    new "…А? Чего мне в лицо уставился? У меня что-то прилипло?"
+
+    old "No, it's just — you seem to be enjoying the lesson more than usual today. Did something fun happen?"
+    new "Нет, просто ты сегодня на уроке веселишься больше обычного. Что-то забавное случилось?"
+
+    old "Ghk. N-nothing at all!"
+    new "Гх. Н-ничего такого!"
+
+    old "Really? You're really not hiding anything from me?"
+    new "Правда? Ты правда ничего от меня не скрываешь?"
+
+    old "I-I'm not hiding anything."
+    new "Я-я ничего не скрываю."
+
+    old "Besides, Saito — you're the one who's dying to know how Haruna is, aren't you!?"
+    new "И вообще, Сайто — сам ты не можешь не думать о Харуне, не так ли!?"
+
+    old "What's with you, Louise? Bringing up Haruna out of nowhere…"
+    new "Что с тобой, Луиза? Вдруг ни с чего про Харуну…"
+
+    old "I mean… she's probably fine."
+    new "Ну… она вроде бы в порядке."
+
+    old "Eh, Saito — do you really mean that?"
+    new "А? Сайто — ты это всерьёз говоришь?"
+
+    old "What's there to be serious about? She's sleeping in your room, so there's no problem, right?"
+    new "Не о чём тут волноваться — она же в твоей комнате спит, всё в порядке, да?"
+
+    old "Besides, Siesta said she'd look after her whenever she has free time…"
+    new "К тому же Сиеста говорила, что будет навещать её, когда освободится…"
+
+    old "W-well, when you put it that way… Maybe she'll be fine."
+    new "Н-ну, если так сказать… Может, и в порядке."
+
+    old "Well, yeah, I'm a little worried. She's laid up sick, after all."
+    new "Ну да, немного волнуюсь. Она же болеет и лежит."
+
+    old "Muuu…"
+    new "Мууу…"
+
+    old "But it doesn't seem like a life-threatening illness, and I figure she'll get better with rest — so I'm not that worried."
+    new "Но это, похоже, не болезнь, угрожающая жизни, и я думаю, от отдыха пройдёт, так что особо не волнуюсь."
+
+    old "Yeah — no matter how much I worry, it's not going to make her recover any faster."
+    new "Ага, я ведь волнованием не ускорю её выздоровление."
+
+    old "Still, I'd like her to get better soon, if she can."
+    new "Но всё равно хочется, чтобы она скорее поправилась."
+
+    old "…{#ch3.2_l_031}"
+    new "…"
+
+    old "Hm? What's wrong, glaring at me like that?"
+    new "А? Что такое, чего на меня уставилась?"
+
+    old "I'm not glaring or anything…"
+    new "Вовсе не смотрю с ненавистью…"
+
+    old "Yeah… you're right, it does bug me."
+    new "Да… ты прав, мне тоже любопытно."
+
+    old "Mmm…"
+    new "Ммм…"
+
+    old "To Haruna, I'm the only person she knows in this world — I've got to look after her."
+    new "Для Харуны я единственный знакомый в этом мире — о ней ведь надо заботиться."
+
+    old "But I know I'm being a nuisance to you and Siesta, and I'm sorry about that."
+    new "Но я доставляю немало хлопот тебе и Сиесте — и мне это неприятно."
+
+    old "U-um… That part's fine, I don't really mind…"
+    new "Н-ну… Это, впрочем, меня не смущает…"
+
+    old "Hm? What's wrong? Did I say something that bothered you?"
+    new "Что такое? Я что-то не то сказал?"
+
+    old "Nope, you didn't say anything."
+    new "Нет, ты ничего не сказал."
+
+    old "Oh, class is over. Now then, Louise— hm?"
+    new "О, урок окончен. Ну что ж, Луиза… мм?"
+
+    old "Huh? Where did Louise go? She up and ditched me without saying a word…"
+    new "Э? Куда это Луиза делась? И вот так ушла, оставив меня одного…"

@@ -566,3 +566,30 @@ translate japanese strings:
 
     old "Yeah, I just need her for something.{#ch3_m1337c}"
     new "うん、ちょっと用があるだけ"
+
+    old "Are you feeling under the weather?{#ch3_m147a}"
+    new "もしかして、体調が悪いのか？"
+
+    old "Are you sleepy?{#ch3_m147b}"
+    new "もしかして、眠いのか？"
+
+    old "Are you hungry?{#ch3_m147c}"
+    new "もしかして、お腹が減ったのか？"
+
+    old "Well, she's probably fine, right?{#ch3_m153a}"
+    new "まあ、大丈夫だろ？"
+
+    old "I'm a little worried, I guess.{#ch3_m153b}"
+    new "ちょっとは心配かな"
+
+    old "Yeah, it does bug me.{#ch3_m153c}"
+    new "確か気になるな"
+
+    old "Hallway{#ch3.2.hallway}"
+    new "廊下"
+
+    old "Hallway{#ch3.2.siesta}"
+    new "廊下"
+
+    old "Louise's Room{#ch3.2.lroom}"
+    new "ルイズの部屋"

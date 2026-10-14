@@ -650,3 +650,15 @@ translate russian strings:
 
     old "It'd be a hassle, so I won't bother explaining the situation to Guiche."
     new "Слишком уж хлопотно, так что не буду объяснять Гишу ситуацию."
+
+    old "As always, I have no idea what the lesson's about."
+    new "Как обычно, я понятия не имею, о чём этот урок."
+
+    old "Nobles who sit through lessons like this every day really have it tough. Well, I mostly sleep through it myself, but…"
+    new "Аристократам, что каждый день ходят на такие уроки, правда непросто. Ну, я в основном сплю, но…"
+
+    old "But Louise seems to be enjoying today's lesson an awful lot. Did something fun happen or what?"
+    new "Но Луиза сегодня на уроке какая-то слишком весёлая. Не случилось ли чего забавного?"
+
+    old "Now then, what should I do…"
+    new "И что теперь делать…"

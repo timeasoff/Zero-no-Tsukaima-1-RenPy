@@ -23,5 +23,5 @@ print('duplicated keys:', dupes if dupes else 'none')
 missing = sorted(k for k in used_set if k not in manifest)
 print('used but not in manifest:', missing if missing else 'none')
 
-unused = sorted(k for k in manifest if k.startswith('ch3.2_') and k not in used_set)
-print('manifest ch3.2_* unused:', unused if unused else 'none')
+unused = sorted(k for k in manifest if k.startswith('ch3.4_') and k not in used_set)
+print('manifest ch3.4_* unused:', unused if unused else 'none')

@@ -655,3 +655,15 @@ translate japanese strings:
 
     old "It'd be a hassle, so I won't bother explaining the situation to Guiche."
     new "（面倒だから、　ギーシュには事情を説明しないでおこう）"
+
+    old "As always, I have no idea what the lesson's about."
+    new "（相変わらず、授業の内容は　なんだか分からない）"
+
+    old "Nobles who sit through lessons like this every day really have it tough. Well, I mostly sleep through it myself, but…"
+    new "（こんな授業を毎日受けてる貴族って　ほんと大変なんだな。　まぁ、ほとんど俺は寝てるわけだけど……）"
+
+    old "But Louise seems to be enjoying today's lesson an awful lot. Did something fun happen or what?"
+    new "（けど、今日のルイズはずいぶん楽しそうに　授業を受けてるな。　なんか、楽しいことでもあったのか？）"
+
+    old "Now then, what should I do…"
+    new "（さてと、どうしよう……）"

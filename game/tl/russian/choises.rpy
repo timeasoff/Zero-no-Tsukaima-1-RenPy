@@ -560,3 +560,30 @@ translate russian strings:
 
     old "Yeah, I just need her for something.{#ch3_m1337c}"
     new "Да, мне просто кое-что от неё нужно."
+
+    old "Are you feeling under the weather?{#ch3_m147a}"
+    new "Может, тебе нездоровится?"
+
+    old "Are you sleepy?{#ch3_m147b}"
+    new "Может, клонит в сон?"
+
+    old "Are you hungry?{#ch3_m147c}"
+    new "Может, проголодалась?"
+
+    old "Well, she's probably fine, right?{#ch3_m153a}"
+    new "Ну, она вроде бы в порядке, да?"
+
+    old "I'm a little worried, I guess.{#ch3_m153b}"
+    new "Немного волнуюсь, наверное."
+
+    old "Yeah, it does bug me.{#ch3_m153c}"
+    new "Да, правда любопытно."
+
+    old "Hallway{#ch3.2.hallway}"
+    new "Коридор"
+
+    old "Hallway{#ch3.2.siesta}"
+    new "Коридор"
+
+    old "Louise's Room{#ch3.2.lroom}"
+    new "Комната Луизы"
