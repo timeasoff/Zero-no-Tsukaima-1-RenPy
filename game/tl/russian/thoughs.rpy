@@ -662,3 +662,15 @@ translate russian strings:
 
     old "Now then, what should I do…"
     new "И что теперь делать…"
+
+    old "But how am I supposed to be careful…"
+    new "Только вот беречь-то как…"
+
+    old "No reaction, huh… — right, no time to chicken out."
+    new "Реакции ноль… Верно, не время отступать."
+
+    old "Tabitha seems kind of upset — did I say something to tick her off?"
+    new "Табита вроде недовольна… А я что-то такое сказал, чем её задел?"
+
+    old "She looks like she wants to say something — what should I do…"
+    new "Кажется, ей есть что сказать… Что теперь делать…"

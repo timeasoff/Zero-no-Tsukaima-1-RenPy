@@ -667,3 +667,15 @@ translate japanese strings:
 
     old "Now then, what should I do…"
     new "（さてと、どうしよう……）"
+
+    old "But how am I supposed to be careful…"
+    new "（でも、どう気をつければいいんだろ）"
+
+    old "No reaction, huh… — right, no time to chicken out."
+    new "（反応ゼロか……。　って、ひるんでる場合じゃないよな）"
+
+    old "Tabitha seems kind of upset — did I say something to tick her off?"
+    new "（なんか、タバサの機嫌が悪いけど、　俺、なにかタバサの気に障ることを　したっけ？）"
+
+    old "She looks like she wants to say something — what should I do…"
+    new "（何か言いたげな様子なんだけど、　どうしたもんかなぁ？）"

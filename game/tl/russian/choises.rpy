@@ -587,3 +587,48 @@ translate russian strings:
 
     old "Louise's Room{#ch3.2.lroom}"
     new "Комната Луизы"
+
+    old "Did I do something?{#ch3_m1297a}"
+    new "Я что-то натворил?"
+
+    old "Am I in the way?{#ch3_m1297b}"
+    new "Я мешаюсь?"
+
+    old "Are you going to take a bath?{#ch3_m1297c}"
+    new "Ты собралась в ванну?"
+
+    old "Luggage I'm not allowed to touch?{#ch3_m1302a}"
+    new "Багаж, которого мне трогать нельзя?"
+
+    old "Did I do something to offend you?{#ch3_m1302b}"
+    new "Я что-то сделал, чем тебя обидел?"
+
+    old "Are you working out or something?{#ch3_m1302c}"
+    new "Ты что, тренируешься?"
+
+    old "Louise, one way or another?{#ch3_m1307a}"
+    new "Так или иначе — Луиза?"
+
+    old "Siesta directly?{#ch3_m1307b}"
+    new "А непосредственно Сиеста?"
+
+    old "Kirche, by any chance?{#ch3_m1307c}"
+    new "Может, Кирхе?"
+
+    old "Do you hate me?{#ch3_m1312a}"
+    new "Ты меня не выносишь?"
+
+    old "Have you really not seen Louise?{#ch3_m1312b}"
+    new "Ты правда не видела Луизу?"
+
+    old "Are you busy reading?{#ch3_m1312c}"
+    new "Тебе некогда читать?"
+
+    old "Don't hold back with me.{#ch3_m1317a}"
+    new "Не стесняйся меня."
+
+    old "You need to rest up now, okay?{#ch3_m1317b}"
+    new "Сейчас надо спокойно отдыхать."
+
+    old "If you've got something to say, say it.{#ch3_m1317c}"
+    new "Если есть что сказать — говори."

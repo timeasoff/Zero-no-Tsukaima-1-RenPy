@@ -79,7 +79,10 @@ class PlaceholderChecker:
             return
 
         with open(map_file, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
+            # шапка файла — строки-комментарии "# ..."; реальный header после них
+            reader = csv.DictReader(
+                line for line in f
+                if line.strip() and not line.lstrip().startswith("#"))
             for row in reader:
                 image_id = row.get("image_id", "").strip()
                 filename = row.get("filename", "").strip()

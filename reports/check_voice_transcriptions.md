@@ -1,21 +1,298 @@
 # Проверка озвучки по transcriptions_ja_ru.csv
 
-Дата: 2026-10-07 20:49
+Дата: 2026-10-14 23:39
+
+## WARNING (275)
+
+- [WARNING] game\chapters\3\script-ch3_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.2_ha_005 (id=2163) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_001 (id=14659) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_002 (id=14660) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_002 (id=2165) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_003 (id=14661) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_003 (id=2166) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_004 (id=14662) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_004 (id=2167) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_005 (id=14663) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_005 (id=2168) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_006 (id=14664) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_006 (id=2169) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_007 (id=14665) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_007 (id=2170) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_008 (id=14666) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_008 (id=2171) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_009 (id=14667) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_010 (id=14668) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_009 (id=2172) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_011 (id=14669) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_012 (id=14670) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_010 (id=2173) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_011 (id=2174) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_012 (id=2175) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_013 (id=2176) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_013 (id=14671) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_014 (id=2177) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_014 (id=14672) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_015 (id=2178) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_016 (id=2179) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_015 (id=14673) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_016 (id=14674) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_017 (id=2180) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_017 (id=14675) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_018 (id=2181) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_001 (id=11282) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_002 (id=11283) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_003 (id=11284) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_018 (id=14676) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_019 (id=2182) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_004 (id=11285) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_005 (id=11286) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_006 (id=11287) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_020 (id=2183) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_007 (id=11288) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_008 (id=11289) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_021 (id=2184) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_009 (id=11290) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_022 (id=2185) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_010 (id=11291) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_011 (id=11292) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_019 (id=14677) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_012 (id=11293) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_020 (id=14678) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_013 (id=11294) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_021 (id=14679) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_014 (id=11295) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_022 (id=14680) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_015 (id=11296) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_023 (id=14681) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_016 (id=11297) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_017 (id=11298) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_024 (id=14682) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_023 (id=2186) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_018 (id=11299) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_025 (id=14683) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_024 (id=2187) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_026 (id=14684) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_ha_025 (id=2188) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_019 (id=11300) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_020 (id=11301) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_001 (id=5938) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_021 (id=11302) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_002 (id=5939) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_022 (id=11303) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_003 (id=5940) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_023 (id=11304) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_004 (id=5941) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_027 (id=14685) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_005 (id=5942) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_028 (id=14686) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_024 (id=11305) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_006 (id=5943) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_029 (id=14687) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_007 (id=5944) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_025 (id=11306) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_008 (id=5945) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_026 (id=11307) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_si_030 (id=14688) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_027 (id=11308) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_l_009 (id=5946) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_028 (id=11309) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_4.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.4_s_029 (id=11310) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_001 (id=11311) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_001 (id=5947) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_002 (id=11312) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_002 (id=5948) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_001 (id=14689) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_003 (id=11313) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_004 (id=11314) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_002 (id=14690) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_005 (id=11315) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_003 (id=14691) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_003 (id=5949) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_006 (id=11316) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_007 (id=11317) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_004 (id=14692) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_004 (id=5950) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_008 (id=11318) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_009 (id=11319) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_005 (id=14693) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_005 (id=5951) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_010 (id=11320) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_001 (id=2189) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_011 (id=11321) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_006 (id=5952) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_006 (id=14694) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_012 (id=11322) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_007 (id=5953) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_007 (id=14695) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_013 (id=11323) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_008 (id=14696) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_014 (id=11324) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_009 (id=14697) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_015 (id=11325) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_008 (id=5954) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_016 (id=11326) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_009 (id=5955) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_017 (id=11327) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_010 (id=5956) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_018 (id=11328) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_019 (id=11329) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_011 (id=5957) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_020 (id=11330) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_012 (id=5958) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_021 (id=11331) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_013 (id=5959) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_022 (id=11332) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_014 (id=5960) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_023 (id=11333) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_024 (id=11334) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_015 (id=5961) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_025 (id=11335) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_016 (id=5962) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_026 (id=11336) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_017 (id=5963) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_027 (id=11337) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_018 (id=5964) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_019 (id=5965) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_001 (id=3190) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_002 (id=3191) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_020 (id=5966) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_010 (id=14698) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_021 (id=5967) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_011 (id=14699) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_022 (id=5968) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_003 (id=3192) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_004 (id=3193) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_023 (id=5969) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_005 (id=3194) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_006 (id=3195) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_012 (id=14700) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_007 (id=3196) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_013 (id=14701) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_014 (id=14702) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_015 (id=14703) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_008 (id=3197) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_016 (id=14704) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_t_001 (id=15554) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_024 (id=5970) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_009 (id=3198) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_025 (id=5971) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_k_010 (id=3199) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_si_017 (id=14705) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_l_026 (id=5972) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_002 (id=1890) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_028 (id=9713) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_003 (id=1891) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_029 (id=9714) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_004 (id=1892) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_030 (id=9715) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_005 (id=1893) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_031 (id=9716) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_006 (id=1894) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_032 (id=9717) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_033 (id=9718) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_034 (id=9719) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_035 (id=9720) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_007 (id=1895) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_036 (id=9721) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_037 (id=9722) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_038 (id=9723) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_039 (id=9724) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_008 (id=1896) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_040 (id=9725) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_041 (id=9726) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_042 (id=9727) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_009 (id=1897) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_043 (id=9728) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_010 (id=1898) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_044 (id=9729) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_045 (id=9730) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_011 (id=1899) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_046 (id=9731) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_047 (id=9732) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_ha_012 (id=1900) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_001 (id=959) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_048 (id=9733) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_002 (id=960) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_003 (id=961) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_049 (id=9734) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_004 (id=962) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_050 (id=9735) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_005 (id=963) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_051 (id=9736) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_006 (id=964) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_052 (id=9737) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_007 (id=965) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_053 (id=9738) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_008 (id=966) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_054 (id=9739) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_009 (id=967) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_c_010 (id=968) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_055 (id=9740) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_001 (id=3973) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_056 (id=9741) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_002 (id=3974) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_057 (id=9742) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_003 (id=3975) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_058 (id=9743) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_059 (id=9744) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_060 (id=9745) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_004 (id=3976) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_061 (id=9746) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_005 (id=3977) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_006 (id=3978) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_062 (id=9747) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_063 (id=9748) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_007 (id=3979) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_064 (id=9749) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_008 (id=3980) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_065 (id=9750) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_009 (id=3981) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_066 (id=9751) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_067 (id=9752) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_010 (id=3982) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_068 (id=9753) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_m_011 (id=3983) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_001 (id=1418) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_069 (id=9754) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_002 (id=1419) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_070 (id=9755) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_003 (id=1420) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_004 (id=1421) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_071 (id=9756) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_072 (id=9757) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_005 (id=1422) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_073 (id=9758) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_006 (id=1423) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_074 (id=9759) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_007 (id=1424) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_075 (id=9760) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_008 (id=1425) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_076 (id=9761) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_009 (id=1426) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_077 (id=9762) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_078 (id=9763) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_010 (id=1427) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_079 (id=9764) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_011 (id=1428) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_080 (id=9765) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_g_012 (id=1429) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_081 (id=9766) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game\chapters\3\script-ch3_5.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch3.5_s_082 (id=9767) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 274 использованных голосов всё ещё в очереди (первые 10: 11282, 11283, 11284, 11285, 11286, 11287, 11288, 11289, 11290, 11291)
 
 ## INFO (1)
 
-- 103 id из манифеста есть в очереди CSV (строка не удалена/не помечена)
+- 377 id из манифеста есть в очереди CSV (строка не удалена/не помечена)
 
 ## Статистика
 
-- manifest_ids_row_consumed: 1274
-- manifest_ids_row_in_queue: 103
-- manifest_pairs: 1377
-- transcriptions_consumed_rows: 1274
-- transcriptions_queue_rows: 13764
+- manifest_ids_row_consumed: 1496
+- manifest_ids_row_in_queue: 377
+- manifest_pairs: 1873
+- transcriptions_consumed_rows: 1496
+- transcriptions_queue_rows: 13542
 - transcriptions_skipped_rows: 32
-- voices_used_in_scripts: 93
-- voices_used_row_consumed: 93
-- voices_used_row_still_in_queue: 0
+- voices_used_in_scripts: 592
+- voices_used_row_consumed: 318
+- voices_used_row_still_in_queue: 274
 
-OK — проблем не найдено.

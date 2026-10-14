@@ -7787,13 +7787,13 @@ translate russian strings:
     new "Это же Луиза затеяла, да?"
 
     old "...{#ch3.5_l_001}"
-    new "..."
+    new "…"
 
     old "Why the silence? So I'm right?"
     new "Почему молчишь? Значит, я прав?"
 
     old "...{#ch3.5_l_002}"
-    new "..."
+    new "…"
 
     old "N-no, that's wrong, Saito-san! This was my idea, and—"
     new "Н-нет, это не так, Сайто-сан! Это я всё затеяла, и—"
@@ -7838,7 +7838,7 @@ translate russian strings:
     new "…Простите."
 
     old "...{#ch3.5_l_005}"
-    new "..."
+    new "…"
 
     old "Haruna, are you okay? You're not feeling sick?"
     new "Харуна, ты в порядке? Тебе не дурит?"
@@ -7907,7 +7907,7 @@ translate russian strings:
     new "Тогда зачем вы это сделали?"
 
     old "...{#ch3.5_l_012}"
-    new "..."
+    new "…"
 
     old "I was worried about you…"
     new "Я волновался за тебя…"
@@ -7934,7 +7934,7 @@ translate russian strings:
     new "Да, я так и считаю."
 
     old "...{#ch3.5_ha_176}"
-    new "..."
+    new "…"
 
     old "An-y-way! I'm going out by myself, so you stay here, Saito."
     new "В-во-об-ще-то! Я одна выхожу, а ты оставайся здесь, Сайто."
@@ -7979,7 +7979,7 @@ translate russian strings:
     new "Видишь, Табита? Я же говорила — провалилось."
 
     old "...{#ch3.5_t_178}"
-    new "..."
+    new "…"
 
     old "Besides, you two are way too soft. That Haruna girl has her eyes on darling too, right?"
     new "Вообще-то вы слишком мягкие. Эта Харуна тоже на Дорогого глаз положила, верно?"
@@ -8598,3 +8598,435 @@ translate russian strings:
 
     old "Huh? Where did Louise go? She up and ditched me without saying a word…"
     new "Э? Куда это Луиза делась? И вот так ушла, оставив меня одного…"
+
+    old "Even so, that Louise— she could've at least said something before leaving… Hm?"
+    new "Всё же, Луиза — могла бы хоть не уходить молча… А?"
+
+    old "Ah, there she is. Louise."
+    new "А, вот она. Луиза."
+
+    old "…Ah!?"
+    new "…А!?"
+
+    old "Hey, Louiise!"
+    new "Эй, Луиза-а!"
+
+    old "Why're you running!? Geez — don't make me chase you…"
+    new "Почему убегаешь!? Тьфу — не заставляй меня гнаться за тобой…"
+
+    old "Aaugh, honestly! Don't follow me on purpose!"
+    new "Ааа, блин! Не гоняйся за мной нарочно!"
+
+    old "If you run off the second you see me, naturally I'm going to get curious and chase you!"
+    new "Когда от меня убегают, как только увидят — я, само собой, полюбопытствую и побегу следом!"
+
+    old "I ran because I didn't want you to follow! You're my familiar, Saito — take a hint!!"
+    new "Я убежала, потому что не хотела, чтобы ты шёл за мной! Ты мой фамильяр, Сайто — сообрази уже!!"
+
+    old "So that's why I— …Oh. Could it be…"
+    new "Так почему же… А, может быть…"
+
+    old "Did I do something? I don't think I've done anything to make Louise mad…"
+    new "Я что-то натворил? Кажется, я не делал ничего, что могло бы расстроить Луизу…"
+
+    old "I don't care about that — I'm telling you not to follow me right now! Got it?"
+    new "Мне всё равно что — я говорю, чтобы ты сейчас не шёл за мной! Понял?"
+
+    old "I get it, I get it. Just don't be so mad…"
+    new "Ладно, ладно. Я ж понял — не злись так…"
+
+    old "If you follow me… I'll really get mad at you, okay!!"
+    new "Если пойдёшь за мной… я правда рассержусь, ладно!!"
+
+    old "Am I in the way?"
+    new "Я мешаюсь?"
+
+    old "I-I'm not saying you're in the way or anything…"
+    new "Я-я не то чтобы думаю, что ты мешаешь…"
+
+    old "Okay, okay. So where are you headed?"
+    new "Хорошо, хорошо. И куда ты собираешься?"
+
+    old "You're not getting it at all! I told you not to come, so don't follow me!"
+    new "Ты ничего не понимаешь! Я сказала не идти — так что не ходи за мной!"
+
+    old "Are you going to take a bath?"
+    new "Собралась в ванну?"
+
+    old "Y-yes, I am… It's hot today, after all. …Wh-what's with that look?"
+    new "Н-ну да… Сегодня ведь жарко. …Ч-что за взгляд?"
+
+    old "Really?{#ch3.3_s_012}"
+    new "Правда?"
+
+    old "That doesn't matter! Just don't follow me for now! See you!"
+    new "Мне это не важно! В любом случае не ходи за мной! Пока!"
+
+    old "Well, shoot… Did I do something to Louise…"
+    new "Эх… Не сделал ли я чего не то с Луизой…"
+
+    old "Where on earth did Louise run off to…"
+    new "Куда это Луиза удрала…"
+
+    old "…Hm? Isn't that Siesta? Looks like she's hauling a huge load…"
+    new "…А? Это же Сиеста? Похоже, тащит огромную ношу…"
+
+    old "Hey, Siestaaa!"
+    new "Эй, Сиеста-а!"
+
+    old "…!? S-Saito-san!!"
+    new "…!? С-Сайто-сан!!"
+
+    old "That load looks brutal to carry. Want a hand?"
+    new "Такую ношу тащить тяжело, да? Помочь?"
+
+    old "Um, well, you see…"
+    new "Ну, это, собственно…"
+
+    old "What's wrong? You don't have to hold back."
+    new "Что такое? Не нужно стесняться."
+
+    old "No, I'm fine…"
+    new "Нет, лучше не надо…"
+
+    old "Huh? Why? Oh — could it be…"
+    new "А? Почему? А, может быть…"
+
+    old "Luggage I'm not allowed to touch?"
+    new "Багаж, которого мне трогать нельзя?"
+
+    old "N-no, that's not it at all~"
+    new "Н-нет, ничего подобного~"
+
+    old "Then I'll…"
+    new "Тогда я…"
+
+    old "N-no! I said no — stooop!?"
+    new "Н-нет! Нет же — не надоо!?"
+
+    old "W-wait, Siesta… W-what's wrong?"
+    new "П-подожди, Сиеста… Ч-что такое?"
+
+    old "Please be quiet and trust me for now — I'd never do anything to hurt you, Saito-san."
+    new "Просто помолчи и поверь мне. Я ведь никогда не сделаю тебе ничего дурного, Сайто-сан."
+
+    old "Did I do something to offend you?"
+    new "Я что-то сделал, чем тебя обидел?"
+
+    old "N-no, I haven't! Not at all!"
+    new "Н-нет, не делала! Вообще нет!"
+
+    old "Then I'll carry the luggage…"
+    new "Тогда я понесу багаж…"
+
+    old "T-that's exactly why you can't! It's work I was asked to do…"
+    new "В-вот поэтому нельзя! Это же порученная мне работа…"
+
+    old "If they found out I let Saito-san help, I'd get scolded."
+    new "Если узнают, что я попросила Сайто-сана помочь, меня отругают."
+
+    old "I-see…"
+    new "Т-так вот как…"
+
+    old "Are you working out or something?"
+    new "Ты что, тренируешься?"
+
+    old "Well, in a way… A maid's job comes down to stamina, so this is how I keep in shape, day after day…"
+    new "Ну, можно сказать… Работа горничной — дело силовое, вот и тренируюсь так каждый день…"
+
+    old "You're kidding."
+    new "Не может быть."
+
+    old "Yes.{#ch3.3_si_011}"
+    new "Да."
+
+    old "I don't know what you're so shy about, but I'm going to help you."
+    new "Не знаю, отчего ты так стесняешься, но я помогу."
+
+    old "Um, Saito-san — I really don't need any help…"
+    new "Э-это, Сайто-сан. Помощь вовсе не обязательна…"
+
+    old "A-anyway! A load this size is nothing for me alone!"
+    new "В-в любом случае! С такой ношей я и одна справлюсь!"
+
+    old "If Siesta insists that much, I won't do anything…"
+    new "Раз Сиеста так настаивает, я вмешиваться не буду…"
+
+    old "Well then, I'll be going, Saito-san."
+    new "Ну что ж, я пойду. Сайто-сан."
+
+    old "Ah, right…"
+    new "А, да…"
+
+    old "Whatever she says, she's still wobbling… I hope she's really okay…"
+    new "Как ни говори, а шаги у неё шатаются… Она ведь правда в порядке…"
+
+    old "Now then, what should I do…{#ch3.3_s_032}"
+    new "Ну что ж, что теперь делать…"
+
+    old "My, Darling. All alone right now?"
+    new "Ох, Дорогой. Ты сейчас один?"
+
+    old "Ah, Kirche… Louise up and vanished the moment class ended…"
+    new "А, Кирхе… Луиза исчезла, как только кончился урок…"
+
+    old "I see, I see. …So that means my Darling's free right now, doesn't it?"
+    new "Понятно-понятно. …Значит, мой Дорогой сейчас свободен, да?"
+
+    old "Well, I guess so."
+    new "Ну, наверное, да."
+
+    old "Then here's a perfect chance — come with me… Mm?"
+    new "Раз уж такая возможность — пойдём со мной… Мм?"
+
+    old "What's wrong, Kirche? Staring at my face out of nowhere…"
+    new "Что такое, Кирхе? Вдруг уставилась мне в лицо…"
+
+    old "Wait. Would you let me read your fortune, Darling?"
+    new "Подожди. Разреши немного погадать, Дорогой?"
+
+    old "Ah, sure… I don't mind…"
+    new "А, ага… Не против…"
+
+    old "…{#ch3.3_k_v01}"
+    new "…"
+
+    old "…I see it. …Listen, Saito — you've got the sign of woman-trouble."
+    new "…Вижу. …Слушай, Сайто. У тебя явный знак женской беды."
+
+    old "A sign of woman-trouble? That can't happen to me… …Or can it…"
+    new "Признаки женской беды? Этого не может быть со мной… …А вдруг может…"
+
+    old "Hmm… maybe it's even worse than usual?"
+    new "Хм… Наверное, тяжелее, чем обычно?"
+
+    old "Huh, seriously? Worse than usual — what's that mean?"
+    new "А, серьёзно? Тяжелее обычного — это как?"
+
+    old "I don't know the details either. But shouldn't you be careful around the girls here?"
+    new "Я же не знаю подробностей. Но разве не стоит беречься девушек вокруг?"
+
+    old "There must be one girl who's the cause. Any idea who, Darling?"
+    new "Наверняка есть девчонка, которая всему причина. Дорогой, нет ли у тебя подозрений?"
+
+    old "Someone I suspect, huh… Let me think…"
+    new "Кого я подозреваю… Дай подумать…"
+
+    old "Louise, one way or another?"
+    new "Так или иначе — Луиза?"
+
+    old "My, so Darling thought so too."
+    new "Ох, мой Дорогой тоже так думал."
+
+    old "Well, I'm always getting punished as the 'stupid dog' and all…"
+    new "Ну, меня же всегда наказывают как «глупую собаку»…"
+
+    old "I wonder what punishment would be worse than that…"
+    new "И какое наказание будет хуже…"
+
+    old "Brrr… I'm starting to get scared."
+    new "Бр-р-р… Что-то я начинаю бояться."
+
+    old "Siesta directly?"
+    new "А непосредственно Сиеста?"
+
+    old "My, how unexpected… What about the maid?"
+    new "Ой, неожиданно… А что с горничной?"
+
+    old "No, it's not like I think Siesta's done anything wrong or anything."
+    new "Нет, я не то чтобы считаю, что Сиеста виновата или ещё что."
+
+    old "It's just — when Louise and Siesta are in the same room, I don't know, I get all uneasy."
+    new "Просто когда Луиза и Сиеста в одной комнате, мне почему-то не по себе."
+
+    old "Of course you'd be uneasy. In all sorts of ways…"
+    new "Ну, не по себе же тебе. В самых разных смыслах…"
+
+    old "Hm? Did you say something?{#ch3.3_s_047}"
+    new "А? Что-то сказала?"
+
+    old "Mm-mm, nothing at all."
+    new "Мм-мм, ничего."
+
+    old "Kirche, by any chance?"
+    new "Может, Кирхе?"
+
+    old "Why would I be the cause? Darling or not, I'll get mad, you know?"
+    new "Почему я должна быть причиной? Дорогой ты мой, но я всё равно рассержусь, ладно?"
+
+    old "Just kidding, just kidding."
+    new "Я шучу, шучу."
+
+    old "Say things like that and you'll bring on woman-trouble that's no joke."
+    new "Такими словами ты накликаешь такую женскую беду, что не до шуток будет."
+
+    old "No, that would be bad… Maybe."
+    new "Нет, это было бы плохо… Или может быть."
+
+    old "An-y-way! Whoever the cause is, you'd better watch out for woman-trouble, okay?"
+    new "В-лю-бом-слу-чае! Кто бы ни был причиной, берегись женской беды, ладно?"
+
+    old "Is that really so?"
+    new "И правда так?"
+
+    old "I can tell even without a proper reading — this could be pretty bad."
+    new "Раз даже без настоящего гадания это видно — так что, может, совсем уже плохо."
+
+    old "Yeah, I'll be careful…"
+    new "Ага, поберегусь…"
+
+    old "I stepped out into the courtyard, but… No sign of Louise."
+    new "Вышел во двор… А Луизы нигде нет."
+
+    old "…Hm? Is that Tabitha over there?"
+    new "…А? Это же Табита вон там?"
+
+    old "…{#ch3.3_t_v01}"
+    new "…"
+
+    old "H-hi…"
+    new "П-привет…"
+
+    old "…{#ch3.3_t_v02}"
+    new "…"
+
+    old "If you know, I'd like to hear it… Have you seen Louise around here?"
+    new "Если знаешь — скажи… Не видела ли ты тут Луизу?"
+
+    old "…{#ch3.3_t_v03}"
+    new "…"
+
+    old "Um, Tabitha-san? Could it be…"
+    new "Э-это, Табита-сан? Может быть…"
+
+    old "Do you hate me?"
+    new "Ты меня не выносишь?"
+
+    old "…{#ch3.3_t_v04}"
+    new "…"
+
+    old "Have you really not seen Louise?"
+    new "Ты правда не видела Луизу?"
+
+    old "…Nope."
+    new "…Не видела."
+
+    old "I-I see…"
+    new "А-а, понятно…"
+
+    old "Are you busy reading?"
+    new "Тебе некогда читать?"
+
+    old "…Very."
+    new "…Очень."
+
+    old "I see. My apologies, then."
+    new "Понятно. Простите, что помешал."
+
+    old "Well then, I'd better not interrupt your reading — I'll be going."
+    new "Ладно, не буду мешать тебе читать — я пойду."
+
+    old "…Louise isn't here."
+    new "…Луизы здесь нет."
+
+    old "R-right? Thanks for telling me."
+    new "О-о, так? Спасибо, что подсказала."
+
+    old "Back here again… She's not back, after all."
+    new "Вернулся сюда… И опять её нет."
+
+    old "Ah, Hiraga-kun!"
+    new "А, Хирага-кун!"
+
+    old "Sorry, Haruna. Seems I woke you while you were sleeping."
+    new "Прости, Харуна. Видно, разбудил тебя во сне."
+
+    old "No, it's fine. I was thinking I might be okay without sleeping soon anyway."
+    new "Нет, ничего такого. Я как раз думала, что скоро можно будет и не спать."
+
+    old "No way. You have to sleep properly until you're better."
+    new "Нельзя. Нужно нормально спать, пока не поправишься."
+
+    old "But…{#ch3.3_ha_003}"
+    new "Но…"
+
+    old "In this world, you can't just go to the hospital, take some medicine, and call it done."
+    new "В этом мире нельзя просто пойти в больницу, выпить лекарства — и всё."
+
+    old "R-right…{#ch3.3_ha_004}"
+    new "Н-ну…"
+
+    old "I once got seriously hurt in a duel."
+    new "Когда-то я сильно поранился на дуэли."
+
+    old "Eh — Hiraga-kun is the type to fight duels… I'm a little… surprised…"
+    new "Ой, Хирага-кун из тех, кто дрётся на дуэлях… Немного удивлена…"
+
+    old "Well, I'll keep my opponent's name a secret for their honor — but I won the duel, though I took a real beating."
+    new "Ну, имя соперника я ради чести сохраню в тайне — дуэль выиграл, но досталось мне здорово."
+
+    old "Back then I had Louise buy me a secret potion for a healing spell — I caused her a ton of trouble."
+    new "Тогда я попросил Луизу купить тайное снадобье для исцеляющего заклинания — и доставил ей кучу хлопот."
+
+    old "And that secret potion turned out to be incredibly expensive…"
+    new "И это снадобье, как выяснилось, оказалось невероятно дорогим…"
+
+    old "…{#ch3.3_ha_v01}"
+    new "…"
+
+    old "Hm? What's wrong, Haruna?"
+    new "А? Что такое, Харуна?"
+
+    old "…No, it's nothing. It's nothing, but…"
+    new "…Нет, ничего. Просто ничего, но…"
+
+    old "Could it be… Is there something you want to say to me?"
+    new "Может быть… Ты хочешь мне что-то сказать?"
+
+    old "…No.{#ch3.3_ha_007}"
+    new "…Нет."
+
+    old "Hey, Haruna…"
+    new "Слушай, Харуна…"
+
+    old "Don't hold back with me."
+    new "Не стесняйся меня."
+
+    old "…{#ch3.3_ha_v02}"
+    new "…"
+
+    old "You and I are from the same world, you know."
+    new "Мы с тобой — люди одного мира."
+
+    old "…{#ch3.3_ha_v03}"
+    new "…"
+
+    old "You need to rest up now, okay?"
+    new "Сейчас надо спокойно отдыхать."
+
+    old "…{#ch3.3_ha_v04}"
+    new "…"
+
+    old "This is a world where even curing one illness is a struggle. Your body's your greatest asset here."
+    new "Мир, где даже одну болезнь вылечить — целая мука. Здесь тело — твоё главное богатство."
+
+    old "…{#ch3.3_ha_v05}"
+    new "…"
+
+    old "If you've got something to say, say it."
+    new "Если есть что сказать — говори."
+
+    old "…{#ch3.3_ha_v06}"
+    new "…"
+
+    old "Keeping things you want to say all to yourself is stressful — bad for your health, you know?"
+    new "Всё держать в себе — это уже стресс, вредный для здоровья, понимаешь?"
+
+    old "…{#ch3.3_ha_v07}"
+    new "…"
+
+    old "I'm going to sleep…"
+    new "Мне спать…"
+
+    old "…Ah, right? See you later, then."
+    new "…А, точно? Ну, тогда до встречи."

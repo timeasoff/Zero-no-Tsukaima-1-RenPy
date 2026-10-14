@@ -8592,3 +8592,435 @@ translate japanese strings:
 
     old "Huh? Where did Louise go? She up and ditched me without saying a word…"
     new "あれ、ルイズのヤツ。どこに行っちまったんだ？俺をおいて、いなくなっちまうなんて……。"
+
+    old "Even so, that Louise— she could've at least said something before leaving… Hm?"
+    new "それにしても、ルイズのヤツ、黙って出て行かなくたって……ん？"
+
+    old "Ah, there she is. Louise."
+    new "あ、いたいた。ルイズだ。"
+
+    old "…Ah!?"
+    new "……あっ！？"
+
+    old "Hey, Louiise!"
+    new "おーい、ルイズーッ！"
+
+    old "Why're you running!? Geez — don't make me chase you…"
+    new "なんで逃げるんだよっ！ったく、追いかけさせんなよ、もう……。"
+
+    old "Aaugh, honestly! Don't follow me on purpose!"
+    new "あー、もうっ！わざわざ追いかけて来ないでよっ！"
+
+    old "If you run off the second you see me, naturally I'm going to get curious and chase you!"
+    new "人の顔見て逃げられたら、気になって追いかけるに決まってるだろ！"
+
+    old "I ran because I didn't want you to follow! You're my familiar, Saito — take a hint!!"
+    new "ついて来て欲しくないから、逃げたのっ！サイトはわたしの使い魔なんだから、それくらい察しなさいよっ！！"
+
+    old "So that's why I— …Oh. Could it be…"
+    new "だから、なんでって……。あっ、ひょっとして……。"
+
+    old "Did I do something? I don't think I've done anything to make Louise mad…"
+    new "俺、なんかやらかした？ルイズの機嫌を損ねるようなこと、した覚えは……ないような気がする。"
+
+    old "I don't care about that — I'm telling you not to follow me right now! Got it?"
+    new "なんでもいいから、今はわたしの後をついて来なくていいって言ってるのっ！分かった？"
+
+    old "I get it, I get it. Just don't be so mad…"
+    new "分かった、分かった。分かったから、そんなに怒るなよ……。"
+
+    old "If you follow me… I'll really get mad at you, okay!!"
+    new "もし、ついて来たら……。サイトのこと、本気で怒っちゃうんだからねっ！！"
+
+    old "Am I in the way?"
+    new "俺がいると邪魔？"
+
+    old "I-I'm not saying you're in the way or anything…"
+    new "べ、別にサイトが邪魔だなんて思っちゃないわよ……。"
+
+    old "Okay, okay. So where are you headed?"
+    new "分かった分かった。で、どこ行くつもりなんだよ？"
+
+    old "You're not getting it at all! I told you not to come, so don't follow me!"
+    new "ちっとも分かってないっ！わたしが来るなって言ってるんだから、ついて来るなっ！"
+
+    old "Are you going to take a bath?"
+    new "お風呂に行くつもりとか？"
+
+    old "Y-yes, I am… It's hot today, after all. …Wh-what's with that look?"
+    new "そ、そうよ……。今日は暑いしね。……って、な、なによ、その目は。"
+
+    old "Really?{#ch3.3_s_012}"
+    new "本当？"
+
+    old "That doesn't matter! Just don't follow me for now! See you!"
+    new "そんなのどうだっていいじゃないっ！とにかく今はついて来ないで！じゃあね！"
+
+    old "Well, shoot… Did I do something to Louise…"
+    new "なんだかなぁ……。俺、ルイズに何かしたかなぁ……。"
+
+    old "Where on earth did Louise run off to…"
+    new "いったい、どこ行っちまったのかなぁ、ルイズのヤツ……。"
+
+    old "…Hm? Isn't that Siesta? Looks like she's hauling a huge load…"
+    new "……ん？あれはシエスタじゃないか？なんだか大荷物を運んでるようだけど……。"
+
+    old "Hey, Siestaaa!"
+    new "おーい、シエスター！"
+
+    old "…!? S-Saito-san!!"
+    new "……！？サ、サイトさんっ！！"
+
+    old "That load looks brutal to carry. Want a hand?"
+    new "その荷物、運ぶの大変だろ？手伝ってやろうか？"
+
+    old "Um, well, you see…"
+    new "えっと、そのですね……。"
+
+    old "What's wrong? You don't have to hold back."
+    new "どうしたの？遠慮なんてしなくっていいって。"
+
+    old "No, I'm fine…"
+    new "いいです……。"
+
+    old "Huh? Why? Oh — could it be…"
+    new "えっ、なんで？あ、ひょっとして……。"
+
+    old "Luggage I'm not allowed to touch?"
+    new "俺が触ったら困る荷物だとか？"
+
+    old "N-no, that's not it at all~"
+    new "そ、そんなことはないですよー。"
+
+    old "Then I'll…"
+    new "それじゃあ、俺が……。"
+
+    old "N-no! I said no — stooop!?"
+    new "ダ、ダメですっ！ダメですってば、いやぁーっ！？"
+
+    old "W-wait, Siesta… W-what's wrong?"
+    new "ちょっ、ちょっとシエスタ……。ど、どうしたの？"
+
+    old "Please be quiet and trust me for now — I'd never do anything to hurt you, Saito-san."
+    new "今は黙って、わたしを信じていてください。サイトさんにとって、けっして悪いようにはしませんから。"
+
+    old "Did I do something to offend you?"
+    new "何か嫌われるようなことした？"
+
+    old "N-no, I haven't! Not at all!"
+    new "し、してませんっ！全然してませんからっ！"
+
+    old "Then I'll carry the luggage…"
+    new "じゃあ、荷物は俺が運んで……。"
+
+    old "T-that's exactly why you can't! It's work I was asked to do…"
+    new "だ、だからダメです！わたしが頼まれた仕事ですから……。"
+
+    old "If they found out I let Saito-san help, I'd get scolded."
+    new "サイトさんに手伝わせた、なんて知られたら、わたし、叱られてしまいます。"
+
+    old "I-see…"
+    new "そ、そうなんだ……。"
+
+    old "Are you working out or something?"
+    new "体を鍛えてるとか？"
+
+    old "Well, in a way… A maid's job comes down to stamina, so this is how I keep in shape, day after day…"
+    new "ええ、まあ……。メイドのお仕事は体力勝負ですから、こうやって日々ですね……。"
+
+    old "You're kidding."
+    new "嘘でしょ。"
+
+    old "Yes.{#ch3.3_si_011}"
+    new "はい。"
+
+    old "I don't know what you're so shy about, but I'm going to help you."
+    new "何を遠慮してるか分からないけど、手伝ってあげるよ。"
+
+    old "Um, Saito-san — I really don't need any help…"
+    new "あのぉ、サイトさん。お手伝いは結構ですので……。"
+
+    old "A-anyway! A load this size is nothing for me alone!"
+    new "と、とにかくっ！これくらいの荷物、わたし１人で大丈夫ですからっ！"
+
+    old "If Siesta insists that much, I won't do anything…"
+    new "シエスタがそこまで言うのなら、俺は何もしないけど……。"
+
+    old "Well then, I'll be going, Saito-san."
+    new "それでは失礼しますね、サイトさん。"
+
+    old "Ah, right…"
+    new "あ、うん……。"
+
+    old "Whatever she says, she's still wobbling… I hope she's really okay…"
+    new "なんだかんだ言っても、足取りがふらついてるみたいだなぁ。……本当に、大丈夫なのかな？"
+
+    old "Now then, what should I do…{#ch3.3_s_032}"
+    new "さてと、どうしたもんかなぁ？"
+
+    old "My, Darling. All alone right now?"
+    new "あらダーリン。いま１人なの？"
+
+    old "Ah, Kirche… Louise up and vanished the moment class ended…"
+    new "あ、キュルケ……。ルイズのヤツ、授業が終わったら、いなくなっちまってさ……。"
+
+    old "I see, I see. …So that means my Darling's free right now, doesn't it?"
+    new "へー、そうなんだぁ。……ってことは、いまのダーリンはフリーってことよね？"
+
+    old "Well, I guess so."
+    new "まあ、そういうことになるのかなぁ。"
+
+    old "Then here's a perfect chance — come with me… Mm?"
+    new "じゃあさ、いい機会だから、あたしと一緒に……んんっ？"
+
+    old "What's wrong, Kirche? Staring at my face out of nowhere…"
+    new "どうしたんだ、キュルケ？急に俺の顔を見つめたりして……。"
+
+    old "Wait. Would you let me read your fortune, Darling?"
+    new "ちょっと、待って。ダーリンのこと、少し占わせてもらっていい？"
+
+    old "Ah, sure… I don't mind…"
+    new "あ、ああ……。それは構わないけど……。"
+
+    old "…{#ch3.3_k_v01}"
+    new "………。"
+
+    old "…I see it. …Listen, Saito — you've got the sign of woman-trouble."
+    new "……見えた。……ねえ、サイト。あなた女難の相が出てるわよ。"
+
+    old "A sign of woman-trouble? That can't happen to me… …Or can it…"
+    new "女難の相だって？そんなこと俺にあるはず……。あるな……。"
+
+    old "Hmm… maybe it's even worse than usual?"
+    new "うーん、いつもよりも、もっと重症かな？"
+
+    old "Huh, seriously? Worse than usual — what's that mean?"
+    new "え、マジで？いつもよりも重症ってどういうこと？"
+
+    old "I don't know the details either. But shouldn't you be careful around the girls here?"
+    new "あたしだって詳しいことは分からないわよ。でも、周りの女の子のこと気をつけなくっちゃ駄目なんじゃないかしら？"
+
+    old "There must be one girl who's the cause. Any idea who, Darling?"
+    new "きっと原因になってる子がいるはずよ？ダーリンに思い当たる節はない？"
+
+    old "Someone I suspect, huh… Let me think…"
+    new "思い当たる節かぁ……。そうだなぁ……。"
+
+    old "Louise, one way or another?"
+    new "なんだかんだでルイズ？"
+
+    old "My, so Darling thought so too."
+    new "あら、ダーリンもそう思ってたのね。"
+
+    old "Well, I'm always getting punished as the 'stupid dog' and all…"
+    new "だってさぁ、いつもバカ犬って、お仕置きされてるしさ……。"
+
+    old "I wonder what punishment would be worse than that…"
+    new "それよりもひどいって、どんなお仕置きだろ……。"
+
+    old "Brrr… I'm starting to get scared."
+    new "ぶるぶるぶる。なんか、怖くなってきたぞ。"
+
+    old "Siesta directly?"
+    new "直接的にはシエスタ？"
+
+    old "My, how unexpected… What about the maid?"
+    new "あら、意外ね……。メイドがどうしたの？"
+
+    old "No, it's not like I think Siesta's done anything wrong or anything."
+    new "いや、別にシエスタが悪いとかどうとかじゃないんだけどね。"
+
+    old "It's just — when Louise and Siesta are in the same room, I don't know, I get all uneasy."
+    new "たださ、ルイズとシエスタが同じ部屋にいると、なんだか俺が落ち着かないんだよ。"
+
+    old "Of course you'd be uneasy. In all sorts of ways…"
+    new "そりゃあ、落ち着かないでしょうねぇ。いろんな意味で……。"
+
+    old "Hm? Did you say something?{#ch3.3_s_047}"
+    new "ん？いまなんか言った？"
+
+    old "Mm-mm, nothing at all."
+    new "んーん、別になんにも。"
+
+    old "Kirche, by any chance?"
+    new "もしかしてキュルケ？"
+
+    old "Why would I be the cause? Darling or not, I'll get mad, you know?"
+    new "なんであたしが原因になるのよ？いくらダーリンでも、怒るわよ？"
+
+    old "Just kidding, just kidding."
+    new "冗談だよ、冗談。"
+
+    old "Say things like that and you'll bring on woman-trouble that's no joke."
+    new "そういうこと言ってると、冗談にならないような女難を起こしちゃうんだから。"
+
+    old "No, that would be bad… Maybe."
+    new "いや、それは困る……かも。"
+
+    old "An-y-way! Whoever the cause is, you'd better watch out for woman-trouble, okay?"
+    new "と・に・か・くっ！原因が誰であれ、女難には気をつけた方がいいわよ？"
+
+    old "Is that really so?"
+    new "そうなのかなぁ、やっぱり？"
+
+    old "I can tell even without a proper reading — this could be pretty bad."
+    new "あたしが本格的に占わなくても分かるくらいなんだから、もう相当やばいかもね。"
+
+    old "Yeah, I'll be careful…"
+    new "ああ、気をつけるよ……。"
+
+    old "I stepped out into the courtyard, but… No sign of Louise."
+    new "中庭に出てみたものの……。ルイズの姿は見えないな。"
+
+    old "…Hm? Is that Tabitha over there?"
+    new "……ん？あそこにいるのはタバサか。"
+
+    old "…{#ch3.3_t_v01}"
+    new "……。"
+
+    old "H-hi…"
+    new "や、やあ……。"
+
+    old "…{#ch3.3_t_v02}"
+    new "……。"
+
+    old "If you know, I'd like to hear it… Have you seen Louise around here?"
+    new "もし知ってたら教えてほしいんだけど……。この辺でルイズを見かけなかった？"
+
+    old "…{#ch3.3_t_v03}"
+    new "……。"
+
+    old "Um, Tabitha-san? Could it be…"
+    new "あのぉ、タバサさん？ひょっとして……。"
+
+    old "Do you hate me?"
+    new "ボクのこと嫌いですか？"
+
+    old "…{#ch3.3_t_v04}"
+    new "……。"
+
+    old "Have you really not seen Louise?"
+    new "本当にルイズ見かけてないの？"
+
+    old "…Nope."
+    new "……うん。"
+
+    old "I-I see…"
+    new "そ、そうなんだぁ。"
+
+    old "Are you busy reading?"
+    new "本読むのに忙しいですか？"
+
+    old "…Very."
+    new "……とっても。"
+
+    old "I see. My apologies, then."
+    new "なるほど、それは失礼いたしました。"
+
+    old "Well then, I'd better not interrupt your reading — I'll be going."
+    new "それじゃあ、本読んでるとこを邪魔しちゃ悪いから、俺行くわ。"
+
+    old "…Louise isn't here."
+    new "……ここにはルイズは来てない。"
+
+    old "R-right? Thanks for telling me."
+    new "そ、そうか？教えてくれてサンキューな。"
+
+    old "Back here again… She's not back, after all."
+    new "ここに戻って……。きてないか、やっぱり。"
+
+    old "Ah, Hiraga-kun!"
+    new "あっ、平賀くん！"
+
+    old "Sorry, Haruna. Seems I woke you while you were sleeping."
+    new "ごめんな春奈。寝てたところ、起こしちまったみたいで。"
+
+    old "No, it's fine. I was thinking I might be okay without sleeping soon anyway."
+    new "ううん、そんなことないよ。そろそろ寝なくても大丈夫かなって思うし。"
+
+    old "No way. You have to sleep properly until you're better."
+    new "ダメだぞ。治るまでちゃんと寝てなきゃ。"
+
+    old "But…{#ch3.3_ha_003}"
+    new "でも……。"
+
+    old "In this world, you can't just go to the hospital, take some medicine, and call it done."
+    new "こっちの世界じゃ、病院行って、薬飲んでおしまいってわけにはいかないんだから。"
+
+    old "R-right…{#ch3.3_ha_004}"
+    new "う、うん……。"
+
+    old "I once got seriously hurt in a duel."
+    new "前に決闘で、大怪我したことがあるんだよ。"
+
+    old "Eh — Hiraga-kun is the type to fight duels… I'm a little… surprised…"
+    new "えっ、平賀くんって決闘なんてするタイプの人だったんだ……。ちょっと、びっくり……。"
+
+    old "Well, I'll keep my opponent's name a secret for their honor — but I won the duel, though I took a real beating."
+    new "まぁ、相手は名誉のために伏せておくけど、決闘に勝つには勝ったんだけどさぁ、おもいっきりダメージもらっちゃってね。"
+
+    old "Back then I had Louise buy me a secret potion for a healing spell — I caused her a ton of trouble."
+    new "そのときルイズに、治癒の魔法をかけるための秘薬を買ってもらって、すっげぇ迷惑かけちまってるんだよ。"
+
+    old "And that secret potion turned out to be incredibly expensive…"
+    new "その秘薬ってのが、また、すっごく高い代物だったらしくて……。"
+
+    old "…{#ch3.3_ha_v01}"
+    new "……。"
+
+    old "Hm? What's wrong, Haruna?"
+    new "ん？どうしたんだ、春奈？"
+
+    old "…No, it's nothing. It's nothing, but…"
+    new "……ううん、なんでもないの。なんでもないんだけど……。"
+
+    old "Could it be… Is there something you want to say to me?"
+    new "ひょっとして……。俺になんか言いたいこととかあったりする？"
+
+    old "…No.{#ch3.3_ha_007}"
+    new "……ないよ。"
+
+    old "Hey, Haruna…"
+    new "なぁ、春奈……。"
+
+    old "Don't hold back with me."
+    new "俺に遠慮とかすんなよな。"
+
+    old "…{#ch3.3_ha_v02}"
+    new "……。"
+
+    old "You and I are from the same world, you know."
+    new "おまえと俺は、同じ世界の人間なんだし。"
+
+    old "…{#ch3.3_ha_v03}"
+    new "……。"
+
+    old "You need to rest up now, okay?"
+    new "今はゆっくり休まなきゃダメだぞ。"
+
+    old "…{#ch3.3_ha_v04}"
+    new "……。"
+
+    old "This is a world where even curing one illness is a struggle. Your body's your greatest asset here."
+    new "こんな病気ひとつ治すのもひと苦労な世界だ。ここじゃ、体が大事な財産なんだから。"
+
+    old "…{#ch3.3_ha_v05}"
+    new "……。"
+
+    old "If you've got something to say, say it."
+    new "言いたいことがあるなら言えって。"
+
+    old "…{#ch3.3_ha_v06}"
+    new "……。"
+
+    old "Keeping things you want to say all to yourself is stressful — bad for your health, you know?"
+    new "言いたいことを自分だけでかかえてるなんて、それだけでもストレスになって体によくないんだぜ？"
+
+    old "…{#ch3.3_ha_v07}"
+    new "……。"
+
+    old "I'm going to sleep…"
+    new "私、寝る……。"
+
+    old "…Ah, right? See you later, then."
+    new "……あ、そっか？それじゃ、またあとでな。"

@@ -593,3 +593,48 @@ translate japanese strings:
 
     old "Louise's Room{#ch3.2.lroom}"
     new "ルイズの部屋"
+
+    old "Did I do something?{#ch3_m1297a}"
+    new "俺、なんかやらかした？"
+
+    old "Am I in the way?{#ch3_m1297b}"
+    new "俺がいると邪魔？"
+
+    old "Are you going to take a bath?{#ch3_m1297c}"
+    new "風呂に行くつもりとか？"
+
+    old "Luggage I'm not allowed to touch?{#ch3_m1302a}"
+    new "俺が触ったら困る荷物だとか？"
+
+    old "Did I do something to offend you?{#ch3_m1302b}"
+    new "何か嫌われるようなことした？"
+
+    old "Are you working out or something?{#ch3_m1302c}"
+    new "体を鍛えてるとか？"
+
+    old "Louise, one way or another?{#ch3_m1307a}"
+    new "なんだかんだでルイズ？"
+
+    old "Siesta directly?{#ch3_m1307b}"
+    new "直接的にはシエスタ？"
+
+    old "Kirche, by any chance?{#ch3_m1307c}"
+    new "もしかしてキュルケ？"
+
+    old "Do you hate me?{#ch3_m1312a}"
+    new "ボクのこと嫌いですか？"
+
+    old "Have you really not seen Louise?{#ch3_m1312b}"
+    new "本当にルイズ見かけてないの？"
+
+    old "Are you busy reading?{#ch3_m1312c}"
+    new "本読むのに忙しいですか？"
+
+    old "Don't hold back with me.{#ch3_m1317a}"
+    new "俺に遠慮とかすんなよな"
+
+    old "You need to rest up now, okay?{#ch3_m1317b}"
+    new "今はゆっくり休まなきゃダメだぞ"
+
+    old "If you've got something to say, say it.{#ch3_m1317c}"
+    new "言いたいことがあるなら言えって"
