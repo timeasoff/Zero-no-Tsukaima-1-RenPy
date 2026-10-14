@@ -8791,14 +8791,14 @@ translate russian strings:
     old "…{#ch3.3_k_v01}"
     new "…"
 
-    old "…I see it. …Listen, Saito — you've got the sign of woman-trouble."
-    new "…Вижу. …Слушай, Сайто. У тебя явный знак женской беды."
+    old "...I see it. ...Listen, Saito. You've got the look of someone who's going to have trouble with women."
+    new "…Вижу. …Слушай, Сайто, у тебя на лице прямо написано: с женщинами одни неприятности."
 
-    old "A sign of woman-trouble? That can't happen to me… …Or can it…"
-    new "Признаки женской беды? Этого не может быть со мной… …А вдруг может…"
+    old "Trouble with women? That can't happen to me... ...Actually, it can."
+    new "Что, мне светят неприятности из-за женщин? Да не может такого со мной быть… Хотя… ещё как."
 
-    old "Hmm… maybe it's even worse than usual?"
-    new "Хм… Наверное, тяжелее, чем обычно?"
+    old "Hmm... Maybe your case is even worse than usual?"
+    new "Хм… А у тебя, похоже, случай ещё тяжелее обычного."
 
     old "Huh, seriously? Worse than usual — what's that mean?"
     new "А, серьёзно? Тяжелее обычного — это как?"
@@ -8857,14 +8857,14 @@ translate russian strings:
     old "Just kidding, just kidding."
     new "Я шучу, шучу."
 
-    old "Say things like that and you'll bring on woman-trouble that's no joke."
-    new "Такими словами ты накликаешь такую женскую беду, что не до шуток будет."
+    old "Say things like that and you'll bring on trouble with women that's no joke."
+    new "Такими словами ты накликаешь неприятности с женщинами — и совсем нешуточные."
 
     old "No, that would be bad… Maybe."
     new "Нет, это было бы плохо… Или может быть."
 
-    old "An-y-way! Whoever the cause is, you'd better watch out for woman-trouble, okay?"
-    new "В-лю-бом-слу-чае! Кто бы ни был причиной, берегись женской беды, ладно?"
+    old "An-y-way! Whoever the cause is, you'd better watch out for trouble with women, okay?"
+    new "В-лю-бом-слу-чае! Кто бы ни был причиной, берегись неприятностей с женщинами, ладно?"
 
     old "Is that really so?"
     new "И правда так?"

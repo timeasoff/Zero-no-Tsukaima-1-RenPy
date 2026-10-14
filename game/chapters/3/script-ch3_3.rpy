@@ -393,19 +393,19 @@ label classroom_ch3_3:
     $ show_sprites(("k 1 sad", "s 3 sad"))
 
     voice "ch3.3_k_005"
-    k "…I see it. …Listen, Saito — you've got the sign of woman-trouble."
+    k "...I see it. ...Listen, Saito. You've got the look of someone who's going to have trouble with women."
 
     # [lay5 +396]
     $ show_sprites(("k 1 sad", "s 1 sad"))
 
     voice "ch3.3_s_037"
-    s "A sign of woman-trouble? That can't happen to me… …Or can it…"
+    s "Trouble with women? That can't happen to me... ...Actually, it can."
 
     # [lay6 +715]
     $ show_sprites(("k 4 sad", "s 1 sad"))
 
     voice "ch3.3_k_006"
-    k "Hmm… maybe it's even worse than usual?"
+    k "Hmm... Maybe your case is even worse than usual?"
 
     # [lay5 +394]
     $ show_sprites(("k 4 sad", "s 1 angry"))
@@ -544,7 +544,7 @@ label classroom_ch3_3:
             $ show_sprites(("k 4 shy", "s 3"))
 
             voice "ch3.3_k_014"
-            k "Say things like that and you'll bring on woman-trouble that's no joke."
+            k "Say things like that and you'll bring on trouble with women that's no joke."
 
             # [lay5 +396]
             $ show_sprites(("k 4 shy", "s 1 sad"))
@@ -563,7 +563,7 @@ label ch3_1311:
     $ show_sprites(("k 4", "s 1 sad"))
 
     voice "ch3.3_k_015"
-    k "An-y-way! Whoever the cause is, you'd better watch out for woman-trouble, okay?"
+    k "An-y-way! Whoever the cause is, you'd better watch out for trouble with women, okay?"
 
     voice "ch3.3_s_051"
     s "Is that really so?"

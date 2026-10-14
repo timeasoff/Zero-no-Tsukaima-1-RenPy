@@ -8785,13 +8785,13 @@ translate japanese strings:
     old "…{#ch3.3_k_v01}"
     new "………。"
 
-    old "…I see it. …Listen, Saito — you've got the sign of woman-trouble."
+    old "...I see it. ...Listen, Saito. You've got the look of someone who's going to have trouble with women."
     new "……見えた。……ねえ、サイト。あなた女難の相が出てるわよ。"
 
-    old "A sign of woman-trouble? That can't happen to me… …Or can it…"
+    old "Trouble with women? That can't happen to me... ...Actually, it can."
     new "女難の相だって？そんなこと俺にあるはず……。あるな……。"
 
-    old "Hmm… maybe it's even worse than usual?"
+    old "Hmm... Maybe your case is even worse than usual?"
     new "うーん、いつもよりも、もっと重症かな？"
 
     old "Huh, seriously? Worse than usual — what's that mean?"
@@ -8851,13 +8851,13 @@ translate japanese strings:
     old "Just kidding, just kidding."
     new "冗談だよ、冗談。"
 
-    old "Say things like that and you'll bring on woman-trouble that's no joke."
+    old "Say things like that and you'll bring on trouble with women that's no joke."
     new "そういうこと言ってると、冗談にならないような女難を起こしちゃうんだから。"
 
     old "No, that would be bad… Maybe."
     new "いや、それは困る……かも。"
 
-    old "An-y-way! Whoever the cause is, you'd better watch out for woman-trouble, okay?"
+    old "An-y-way! Whoever the cause is, you'd better watch out for trouble with women, okay?"
     new "と・に・か・くっ！原因が誰であれ、女難には気をつけた方がいいわよ？"
 
     old "Is that really so?"
