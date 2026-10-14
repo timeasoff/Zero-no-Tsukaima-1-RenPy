@@ -674,3 +674,11 @@ translate russian strings:
 
     old "She looks like she wants to say something — what should I do…"
     new "Кажется, ей есть что сказать… Что теперь делать…"
+    old "W-what's with those pitying looks…{#ch3.6_th_190a}"
+    new "Ч-что за жалостливые взгляды…"
+
+    old "It's not like I'm hitting on her…{#ch3.6_th_190b}"
+    new "Я же не пристаю к ней…"
+
+    old "Somehow, before I knew it, this got way out of hand…{#ch3.6_th_192}"
+    new "Незаметно для меня всё вышло из-под контроля…"

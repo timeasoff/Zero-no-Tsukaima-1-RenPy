@@ -4,12 +4,11 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (4)
+## ERROR (3)
 
-- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:692 has no label
-- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:818 has no label
-- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:972 has no label
-- E7 jump 'ch3_6' at game/chapters/3/script-ch3_5.rpy:1146 has no label
+- E7 jump 'ch3_7_193' at game/chapters/3/script-ch3_6.rpy:479 has no label
+- E7 jump 'ch3_7_194' at game/chapters/3/script-ch3_6.rpy:482 has no label
+- E7 jump 'ch3_7_195' at game/chapters/3/script-ch3_6.rpy:485 has no label
 
 ## WARNING (290)
 
@@ -308,8 +307,8 @@
 
 - speakers defined: 32
 - overlay K: max=8 used=8 next_free=9
-- voices: refs=3029 ogg=3035 missing=0
-- I1 ch3: strings=696 source_talk=1078 (gap expected)
+- voices: refs=3122 ogg=3128 missing=0
+- I1 ch3: strings=802 source_talk=1078 (gap expected)
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
@@ -336,5 +335,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=312 named=148 open=164 | placeholders=15 in 2 file(s)
-- labels=143 rpy=63 strings(strict=3421) tl_old=japanese:3911,russian:3938
+- labels=147 rpy=64 strings(strict=3527) tl_old=japanese:4017,russian:4044
 

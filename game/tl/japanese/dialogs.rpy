@@ -9024,3 +9024,284 @@ translate japanese strings:
 
     old "…Ah, right? See you later, then."
     new "……あ、そっか？それじゃ、またあとでな。"
+    old "Huh? Louise, you're back already."
+    new "あれ？ルイズ戻ってきてたんだ。"
+
+    old "I'm back — is that a problem?"
+    new "戻ってるわよ、悪い？"
+
+    old "N-no, that's not what I meant…! Huh? Siesta's here too… What about work?"
+    new "いや、別に悪いとかそういうことは……！？あれ、シエスタもいる……。仕事は？"
+
+    old "I'm on a break from work right now."
+    new "今は仕事の合間なんです。"
+
+    old "Kirche — and Tabitha, no less?"
+    new "それに、キュルケにタバサまで？"
+
+    old "My, hello there, Darling. Sorry to impose."
+    new "あら、ダーリン。おじゃましてるわよ。"
+
+    old "…{#ch3.6_t_v01}"
+    new "……。"
+
+    old "Hey, Haruna — nobody's done anything to you, have they?"
+    new "なあ、春奈。何もされていないか？"
+
+    old "N-no, nothing in particular."
+    new "う、うん、とくには何も。"
+
+    old "Really? You don't have to worry about anyone else here, okay?"
+    new "本当か？周りに気を使ったりしなくていいんだぞ？"
+
+    old "How rude! We haven't done anything!"
+    new "失礼ね！何もしてないわよっ！"
+
+    old "Good, then… By the way — what have you all got planned?"
+    new "それならいいんだけど……。ところで、みんなで集まって、何をしようとしてるんだ？"
+
+    old "My, Darling — so it's ME you're curious about?"
+    new "あら、ダーリン。あたしのことが気になるのね？"
+
+    old "Well, 'curious' isn't quite it…"
+    new "そりゃあ、気になるっていうか……。"
+
+    old "Need Louise for something?"
+    new "ルイズに何か用があるとか？"
+
+    old "Not really. I don't have any business with Louise."
+    new "いやぁねぇ。別にルイズに用事なんてないわ。"
+
+    old "Then why?"
+    new "じゃあどうして？"
+
+    old "Well, you see…"
+    new "それはね……。"
+
+    old "You came to see Haruna, then?"
+    new "春奈を見に来たとか"
+
+    old "Half-right, maybe. But no — my real purpose is…"
+    new "半分は当たりかな。でも、違うの。あたしの本当の目的はね……。"
+
+    old "You came to see me? Pfft, couldn't be."
+    new "まさか、オレに会いに来たとか…まあ、そんなわけないか。"
+
+    old "And what if I did?"
+    new "もし、そうだったらどうする？"
+
+    old "Wh-what would I do, even…"
+    new "あ、いや、どうするって……。"
+
+    old "…{#ch3.6_l_v01}"
+    new "……。"
+
+    old "I see. My real purpose is…"
+    new "分かったわ。あたしの目的はね……。"
+
+    old "I came 'cause I wanted to see you, Darling!!"
+    new "ダーリンに会いたくて来たのーっ！"
+
+    old "Eh!?{#ch3.6_ha_002}"
+    new "えっ！？"
+
+    old "W-wah!? Don't just tackle me out of nowhere!"
+    new "わわっ！？急に抱きつくなよー！"
+
+    old "H-hey! Let go — Saito—!!"
+    new "こっ、こらっ！離れなさい、サイトッ！！"
+
+    old "M-me!? You saw it happen right in front of you!!"
+    new "ええっ、俺のせいっ！？今、目の前で見てたろ！！"
+
+    old "…R-right. Kirche! Just what do you think you're doing!?"
+    new "う……、そうよねっ。キュルケ！一体これはどういうつもりなのよっ！"
+
+    old "No 'what do I think' about it — I planned to do this from the very start."
+    new "どういうつもりも何も、最初からこうするつもりだったんだけど。"
+
+    old "…Wha—!?"
+    new "……なんですってぇ！？"
+
+    old "Say, Haruna — how about you?"
+    new "ねぇ、ハルナ。あなたはどうなのかしら？"
+
+    old "M-me?"
+    new "わ、私ですか？"
+
+    old "Don't you want to try doing something like this to Darling?"
+    new "ダーリンにこーゆーこと、してみたくないの？"
+
+    old "I-I don't particularly…"
+    new "わ、私は……別に……。"
+
+    old "Of course not. You couldn't — you might pass your illness on."
+    new "そりゃそうよねぇ。病気をうつしてしまうかもしれないから、こんなことできないもんねぇ。"
+
+    old "…{#ch3.6_ha_v01}"
+    new "……。"
+
+    old "Feeling the one you love skin to skin — it's wonderful… So, Saito — how about you?"
+    new "愛する人を肌で感じるのって素敵よ……。ねぇ、サイト……あなたはどうなのかしら？"
+
+    old "Mmrph— fghh… C-can't… breathe…"
+    new "もがっ、ふごごっ……。い、息が……。"
+
+    old "Darling… why stay in a place like this? Why not come to my room?"
+    new "ねぇ、ダーリン……。こんなところにいつまでもいないで、あたしのお部屋へいらっしゃらない？"
+
+    old "No, I couldn't…"
+    new "いや、そういうわけには……。"
+
+    old "…{#ch3.6_ha_v02}"
+    new "……。"
+
+    old "It's bad for Haruna. With this many people around, a curable illness stops getting better."
+    new "ハルナのためによくないわ。こんなに人がいちゃ、治る病気も治らなくなっちゃう。"
+
+    old "So while Haruna's sick, the least you could do is spend time with me in my room…"
+    new "だから、ハルナが病気の間は、せめてダーリンだけでも、あたしの部屋で一緒に過ごせばいいのよ……。"
+
+    old "But I'm still Louise's familiar, y'know…"
+    new "でも俺、これでもルイズの使い魔だし……。"
+
+    old "Serve Louise properly during the day — that's all she needs, isn't it?"
+    new "ルイズには、昼間ちゃんと仕えてればそれでいいじゃない。"
+
+    old "…{#ch3.6_l_v02}"
+    new "……。"
+
+    old "She's not answering, so…"
+    new "答えてくれないし……。"
+
+    old "Louise saying nothing means she's fine with it — I'm sure of it."
+    new "ルイズが何も言わないのは、黙認するって意味よ、きっと。"
+
+    old "Ha, ahaha… What am I supposed to do…?"
+    new "はは、あはは……。どうしたもんかなぁ……？"
+
+    old "Darling — could it be you're the type who hates being treated like this? Answer me clearly. Here. Now."
+    new "ひょっとしてダーリンって、こういうことされるのって、嫌いなタイプなのかしら？今ここではっきり答えて。"
+
+    old "Umm…"
+    new "えーっと……。"
+
+    old "Hate it… I'd never think that!"
+    new "嫌いだなんて……そんなことありません！"
+
+    old "Saaaaito…"
+    new "サーイトぉ～……。"
+
+    old "N-no, Louise — I answered objectively on behalf of men everywhere. It's not my personal opinion."
+    new "い、いや、ルイズ。世の男性達を代表して客観的な返答をしただけで特に俺の感想ではないぞ。"
+
+    old "I see. So Saito can stop being a boy, then. Got it."
+    new "ふーん、ってことはサイトは男の子をやめてもいいってわけね。分かったわ。"
+
+    old "N-no, wait. Hol' on."
+    new "い、いや、待て。タンマ。"
+
+    old "It's not about breasts — rather, it's other things, y'know, umm, that is…"
+    new "胸でどうこうじゃなくて、むしろ……。それ以外の、ほら、何っていうか、それが……。"
+
+    old "Honestly, Darling. You can be more honest — I'd teach you plenty."
+    new "もう、ダーリンったら。もっと正直に言っていいのよ。たくさん教えてあげるのにぃ。"
+
+    old "I-I see…{#ch3.6_s_025}"
+    new "そ、そうなんだ……。"
+
+    old "Grrr…"
+    new "……。"
+
+    old "…{#ch3.6_si_v01}"
+    new "……。"
+
+    old "…{#ch3.6_ha_v03}"
+    new "……。"
+
+    old "…Hah!? Everyone's glaring at me…"
+    new "……はっ！？みんなからの視線が厳しい……。"
+
+    old "…Unclean."
+    new "……不潔。"
+
+    old "I don't judge people by their breasts, y'know."
+    new "俺、別に胸で人を見てるわけじゃないし。"
+
+    old "Saito…"
+    new "サイト……。"
+
+    old "Hiraga-kun…"
+    new "平賀くん……。"
+
+    old "…I'm happy. You're the first to ever say that to me, Darling."
+    new "……嬉しい。そんな風に言ってくれたのって、ダーリンが初めて……。"
+
+    old "Every guy who hits on me goes for the breasts first, anyway."
+    new "あたしに言い寄ってくる男どもって、まず胸ありきって感じだったし。"
+
+    old "Well, about that…"
+    new "いや、その……。"
+
+    old "Never mind. In that case, I'll just love you even MORE, Darling."
+    new "まあいいわ。こうなったら、ダーリンのこと、もっともーっと愛しちゃおーっと。"
+
+    old "Fghh, fghh… I-it… hurts… can't breathe…"
+    new "ふご、ふごご……。く、苦しいって……息が……。"
+
+    old "U-um…{#ch3.6_ha_009}"
+    new "あ、あの……。"
+
+    old "Kirche, that's enough! I keep quiet and you two just flirt away!"
+    new "ちょっとキュルケ、あなたいい加減にしなさいよ！黙っていればいつまでもイチャイチャと！"
+
+    old "My~? Could someone be jealous?"
+    new "あらー？もしかして、嫉妬してるの？"
+
+    old "Wh-who's jealous of WHAT…!"
+    new "だ、誰が、何に嫉妬してるですってぇ……。"
+
+    old "Darling likes big breasts. Yours obviously don't qualify. That's what you're jealous about, isn't it?"
+    new "ダーリンが好きなのは、大きい胸。当然、あなたにはついていないものよ。それに嫉妬してるんでしょ？"
+
+    old "Wha—!?"
+    new "なんですってぇ～……。"
+
+    old "Saaaito… Just how long do you plan to keep this up~?"
+    new "サ～イトぉ～～ッ……。あなた、いつまでそうしてるつもりなの～？"
+
+    old "Eeek!? Her anger's pointed at MEE!!"
+    new "ひぃっ！？怒りの矛先が俺にぃぃ～っ！！"
+
+    old "S-sorry, Kirche. Let go already!"
+    new "ご、ごめんキュルケ。もう放してっ！"
+
+    old "Mms… I wanted to feel Darling a little longer…"
+    new "んもぅ……。もっと、ダーリンを感じていたかったのに。"
+
+    old "You said it was part of your plan, so I held back and held back — but that's it!"
+    new "キュルケが作戦だって言うから、我慢に我慢を重ねてきたけど、もう限界っ！"
+
+    old "That duel from before — we let it slide, but looks like it's time to settle it!"
+    new "この前の決闘。うやむやにしてたけど、勝負をつける時が来たみたいねっ！"
+
+    old "My? A duel — anytime you like. Shall we settle it right now?"
+    new "あら？決闘なんて、あたしはいつだって構わないわよ。なんなら、今すぐする？"
+
+    old "Bring it on!"
+    new "望むところよ！"
+
+    old "Both of you, stop! Duels between nobles aren't permitted!"
+    new "お二人ともいけませんっ！貴族同士の決闘は、認められてはいないんですよっ！"
+
+    old "This isn't a fight as nobles — it's a fight as girls, for our pride!"
+    new "これはね、貴族として戦うんじゃないの。女の子としての威信をかけて戦うからいいのよっ！"
+
+    old "That's absurd! Miss Vallière!!"
+    new "そんなのめちゃくちゃです！ミス・ヴァリエール！！"
+
+    old "Saito-san — you too, please tell them both to call off the duel."
+    new "サイトさんからも、お二人に決闘をやめるように言ってあげてください。"
+
+    old "Right…"
+    new "そうだな……。"

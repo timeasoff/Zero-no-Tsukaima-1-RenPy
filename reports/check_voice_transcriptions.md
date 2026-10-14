@@ -1,6 +1,6 @@
 # Проверка озвучки по transcriptions_ja_ru.csv
 
-Дата: 2026-10-14 23:39
+Дата: 2026-10-15 01:56
 
 ## WARNING (275)
 
@@ -286,13 +286,13 @@
 
 ## Статистика
 
-- manifest_ids_row_consumed: 1496
+- manifest_ids_row_consumed: 1589
 - manifest_ids_row_in_queue: 377
-- manifest_pairs: 1873
-- transcriptions_consumed_rows: 1496
-- transcriptions_queue_rows: 13542
+- manifest_pairs: 1966
+- transcriptions_consumed_rows: 1589
+- transcriptions_queue_rows: 13449
 - transcriptions_skipped_rows: 32
-- voices_used_in_scripts: 592
-- voices_used_row_consumed: 318
+- voices_used_in_scripts: 685
+- voices_used_row_consumed: 411
 - voices_used_row_still_in_queue: 274
 

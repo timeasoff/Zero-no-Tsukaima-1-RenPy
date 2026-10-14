@@ -679,3 +679,11 @@ translate japanese strings:
 
     old "She looks like she wants to say something — what should I do…"
     new "（何か言いたげな様子なんだけど、　どうしたもんかなぁ？）"
+    old "W-what's with those pitying looks…{#ch3.6_th_190a}"
+    new "（な、何だその人を哀れ見るような目は…）"
+
+    old "It's not like I'm hitting on her…{#ch3.6_th_190b}"
+    new "（別に俺は言い寄ってるわけじゃないんだけどなぁ……）"
+
+    old "Somehow, before I knew it, this got way out of hand…{#ch3.6_th_192}"
+    new "（なんだか知らないうちに、　えらいことになっちゃったぞ……）"

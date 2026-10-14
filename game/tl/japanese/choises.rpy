@@ -638,3 +638,29 @@ translate japanese strings:
 
     old "If you've got something to say, say it.{#ch3_m1317c}"
     new "言いたいことがあるなら言えって"
+    old "Do you need Louise for something?{#ch3_m183a}"
+    new "ルイズに何か用があるとか？"
+
+    old "Or did you come to see Haruna?{#ch3_m183b}"
+    new "春奈を見に来たとか？"
+
+    old "Don't tell me you came to see me?{#ch3_m183c}"
+    new "まさか、俺に会いに来たとか？"
+
+    old "I'd never think that!{#ch3_m187a}"
+    new "そんなことありません！"
+
+    old "It's not about breasts or not…{#ch3_m187b}"
+    new "胸でどうこうじゃなくて……"
+
+    old "I don't judge people by their breasts.{#ch3_m187c}"
+    new "胸で人を見てるわけじゃないし"
+
+    old "They won't listen to me anyway.{#ch3_m192a}"
+    new "俺の言うことなんて聞かないよ"
+
+    old "Girls shouldn't be dueling.{#ch3_m192b}"
+    new "女の子が決闘しちゃまずいもんな"
+
+    old "Why not let them go until both are satisfied?{#ch3_m192c}"
+    new "お互いが納得ゆくまでやらせれば？"

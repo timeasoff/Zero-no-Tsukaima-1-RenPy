@@ -9030,3 +9030,284 @@ translate russian strings:
 
     old "…Ah, right? See you later, then."
     new "…А, точно? Ну, тогда до встречи."
+    old "Huh? Louise, you're back already."
+    new "Ой? Луиза, ты уже вернулась."
+
+    old "I'm back — is that a problem?"
+    new "Вернулась. И что, плохо?"
+
+    old "N-no, that's not what I meant…! Huh? Siesta's here too… What about work?"
+    new "Н-нет, я не это имел в виду…!? А, и Сиеста тут… А работа?"
+
+    old "I'm on a break from work right now."
+    new "Сейчас у меня перерыв в работе."
+
+    old "Kirche — and Tabitha, no less?"
+    new "И Кирхе, и ещё Табита?!"
+
+    old "My, hello there, Darling. Sorry to impose."
+    new "Ой, Дорогой. Мы тебя беспокоим."
+
+    old "…{#ch3.6_t_v01}"
+    new "…"
+
+    old "Hey, Haruna — nobody's done anything to you, have they?"
+    new "Слушай, Харуна. С тобой ничего не случилось?"
+
+    old "N-no, nothing in particular."
+    new "А-ага, нет, ничего особенного."
+
+    old "Really? You don't have to worry about anyone else here, okay?"
+    new "Правда? Тебе не нужно тут ни с кем считаться, ладно?"
+
+    old "How rude! We haven't done anything!"
+    new "Ну и дерзко! Мы ничего не делали!"
+
+    old "Good, then… By the way — what have you all got planned?"
+    new "Ну, раз так… Кстати, что вы все задумали?"
+
+    old "My, Darling — so it's ME you're curious about?"
+    new "Ой, Дорогой, так тебе интересна именно я?"
+
+    old "Well, 'curious' isn't quite it…"
+    new "Ну, это не то чтобы „интересно“…"
+
+    old "Need Louise for something?"
+    new "Луизе что-то нужно?"
+
+    old "Not really. I don't have any business with Louise."
+    new "Не-а. У меня никаких дел к Луизе."
+
+    old "Then why?"
+    new "Тогда почему?"
+
+    old "Well, you see…"
+    new "Ну, это…"
+
+    old "You came to see Haruna, then?"
+    new "Значит, вы пришли навестить Харуну?"
+
+    old "Half-right, maybe. But no — my real purpose is…"
+    new "Наверное, наполовину. Но нет. Настоящая цель моя —…"
+
+    old "You came to see me? Pfft, couldn't be."
+    new "Вы за мной пришли? А, нет, конечно."
+
+    old "And what if I did?"
+    new "А если да?"
+
+    old "Wh-what would I do, even…"
+    new "А-нет, а что бы я стал делать…"
+
+    old "…{#ch3.6_l_v01}"
+    new "…"
+
+    old "I see. My real purpose is…"
+    new "Понятно. Настоящая цель моя —…"
+
+    old "I came 'cause I wanted to see you, Darling!!"
+    new "Я пришла, потому что хотела увидеть Дорогого!!"
+
+    old "Eh!?{#ch3.6_ha_002}"
+    new "А!?"
+
+    old "W-wah!? Don't just tackle me out of nowhere!"
+    new "В-вау!? Не бросайся на меня вдруг!"
+
+    old "H-hey! Let go — Saito—!!"
+    new "С-стой! Отпусти, Сайто!!"
+
+    old "M-me!? You saw it happen right in front of you!!"
+    new "М-моя вина!? Ты же только что видела всё своими глазами!!"
+
+    old "…R-right. Kirche! Just what do you think you're doing!?"
+    new "…Н-да, точно. Кирхе! Что это вообще означает!?"
+
+    old "No 'what do I think' about it — I planned to do this from the very start."
+    new "А тут нечего понимать — я и собиралась это сделать с самого начала."
+
+    old "…Wha—!?"
+    new "…Чтооо!?"
+
+    old "Say, Haruna — how about you?"
+    new "Скажи, Харуна, а ты как?"
+
+    old "M-me?"
+    new "Я-я?"
+
+    old "Don't you want to try doing something like this to Darling?"
+    new "Не хочешь попробовать сделать такое с Дорогим?"
+
+    old "I-I don't particularly…"
+    new "Я-я… не то чтобы…"
+
+    old "Of course not. You couldn't — you might pass your illness on."
+    new "Ну конечно. Ты не можешь — можешь передать болезнь."
+
+    old "…{#ch3.6_ha_v01}"
+    new "…"
+
+    old "Feeling the one you love skin to skin — it's wonderful… So, Saito — how about you?"
+    new "Чувствовать любимого своей кожей — это здорово… Ну, Сайто — а ты как?"
+
+    old "Mmrph— fghh… C-can't… breathe…"
+    new "Мммф, фгхх… Н-не дышится…"
+
+    old "Darling… why stay in a place like this? Why not come to my room?"
+    new "Дорогой… зачем сидеть здесь? Не хочешь зайти ко мне?"
+
+    old "No, I couldn't…"
+    new "Нет, не могу…"
+
+    old "…{#ch3.6_ha_v02}"
+    new "…"
+
+    old "It's bad for Haruna. With this many people around, a curable illness stops getting better."
+    new "Это вредно для Харуны. Столько народу — и болезнь, которая проходит, не пройдёт."
+
+    old "So while Haruna's sick, the least you could do is spend time with me in my room…"
+    new "Так что пока Харуна болеет, Дорогому стоит хотя бы проводить время со мной у меня в комнате…"
+
+    old "But I'm still Louise's familiar, y'know…"
+    new "Но я ведь фамильяр Луизы…"
+
+    old "Serve Louise properly during the day — that's all she needs, isn't it?"
+    new "Если днём ты исправно служишь Луизе — ей того хватит, нет?"
+
+    old "…{#ch3.6_l_v02}"
+    new "…"
+
+    old "She's not answering, so…"
+    new "Не отвечает…"
+
+    old "Louise saying nothing means she's fine with it — I'm sure of it."
+    new "То, что Луиза молчит, значит, она согласна. Наверняка."
+
+    old "Ha, ahaha… What am I supposed to do…?"
+    new "Ха, ахаха… Что ж, что мне делать…?"
+
+    old "Darling — could it be you're the type who hates being treated like this? Answer me clearly. Here. Now."
+    new "Дорогой, ты, случаем, из тех, кому такое не нравится? Отвечай прямо здесь и сейчас."
+
+    old "Umm…"
+    new "Э-ээ…"
+
+    old "Hate it… I'd never think that!"
+    new "Ненавидеть… конечно, нет!"
+
+    old "Saaaaito…"
+    new "Са-а-айто…"
+
+    old "N-no, Louise — I answered objectively on behalf of men everywhere. It's not my personal opinion."
+    new "Н-нет, Луиза. Я просто объективно ответил от имени всех мужчин. Это не моё личное мнение."
+
+    old "I see. So Saito can stop being a boy, then. Got it."
+    new "Понятно. Значит, Сайто может перестать быть мальчиком. Ясно."
+
+    old "N-no, wait. Hol' on."
+    new "Н-нет, стой. Тормози."
+
+    old "It's not about breasts — rather, it's other things, y'know, umm, that is…"
+    new "Дело не в груди, скорее… в другом, ну, как бы, это…"
+
+    old "Honestly, Darling. You can be more honest — I'd teach you plenty."
+    new "Ну, Дорогой. Будь честнее — я бы многому тебя научила."
+
+    old "I-I see…{#ch3.6_s_025}"
+    new "А-а, вот как…"
+
+    old "Grrr…"
+    new "Грр…"
+
+    old "…{#ch3.6_si_v01}"
+    new "…"
+
+    old "…{#ch3.6_ha_v03}"
+    new "…"
+
+    old "…Hah!? Everyone's glaring at me…"
+    new "…А!? Все на меня так смотрят…"
+
+    old "…Unclean."
+    new "…Грязно."
+
+    old "I don't judge people by their breasts, y'know."
+    new "Я не смотрю на людей по груди, честное слово."
+
+    old "Saito…"
+    new "Сайто…"
+
+    old "Hiraga-kun…"
+    new "Хирага-кун…"
+
+    old "…I'm happy. You're the first to ever say that to me, Darling."
+    new "…Я рада. Ты первый, кто так сказал мне, Дорогой."
+
+    old "Every guy who hits on me goes for the breasts first, anyway."
+    new "Все парни, что пристают ко мне, смотрят в первую очередь на грудь."
+
+    old "Well, about that…"
+    new "Ну, это…"
+
+    old "Never mind. In that case, I'll just love you even MORE, Darling."
+    new "Неважно. Раз уж так — я буду любить тебя ещё больше, Дорогой."
+
+    old "Fghh, fghh… I-it… hurts… can't breathe…"
+    new "Фгхх, фгхх… Б-больно… не дышится…"
+
+    old "U-um…{#ch3.6_ha_009}"
+    new "Э-эм…"
+
+    old "Kirche, that's enough! I keep quiet and you two just flirt away!"
+    new "Кирхе, хватит! Я замолкаю — и вы тут флиртуете!"
+
+    old "My~? Could someone be jealous?"
+    new "Ой-ой? Это кто-то ревнует?"
+
+    old "Wh-who's jealous of WHAT…!"
+    new "К-кто, чему завидует…!"
+
+    old "Darling likes big breasts. Yours obviously don't qualify. That's what you're jealous about, isn't it?"
+    new "Дорогой любит большую грудь. У тебя её, разумеется, нет. Вот ты и ревнуешь, да?"
+
+    old "Wha—!?"
+    new "Чтооо…!"
+
+    old "Saaaito… Just how long do you plan to keep this up~?"
+    new "Са-а-айто… Сколько ещё это будет продолжаться~?"
+
+    old "Eeek!? Her anger's pointed at MEE!!"
+    new "Ии-и!? Её гнев обрушился на мен-я-я!!"
+
+    old "S-sorry, Kirche. Let go already!"
+    new "П-прости, Кирхе. Отпусти уже!"
+
+    old "Mms… I wanted to feel Darling a little longer…"
+    new "Ну-у… Я ещё хотела чувствовать Дорогого…"
+
+    old "You said it was part of your plan, so I held back and held back — but that's it!"
+    new "Кирхе сказала, что это стратегия, я терпела и терпела — но хватит!"
+
+    old "That duel from before — we let it slide, but looks like it's time to settle it!"
+    new "Та дуэль — мы её замяли, но, кажется, пришло время довести дело до конца!"
+
+    old "My? A duel — anytime you like. Shall we settle it right now?"
+    new "Ой? Дуэль — я всегда не против. Что, прямо сейчас?"
+
+    old "Bring it on!"
+    new "Как раз хочу!"
+
+    old "Both of you, stop! Duels between nobles aren't permitted!"
+    new "Вам обоим нельзя! Дуэли между дворянами запрещены!"
+
+    old "This isn't a fight as nobles — it's a fight as girls, for our pride!"
+    new "Это не поединок дворян. Я дерусь за честь девушки!"
+
+    old "That's absurd! Miss Vallière!!"
+    new "Это же безумие! Мадемуазель Вальер!!"
+
+    old "Saito-san — you too, please tell them both to call off the duel."
+    new "Сайто-сан, вы тоже уговорите их отменить дуэль."
+
+    old "Right…"
+    new "М-да…"

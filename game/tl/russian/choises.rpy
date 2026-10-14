@@ -632,3 +632,29 @@ translate russian strings:
 
     old "If you've got something to say, say it.{#ch3_m1317c}"
     new "Если есть что сказать — говори."
+    old "Do you need Louise for something?{#ch3_m183a}"
+    new "Вам нужно что-то от Луизы?"
+
+    old "Or did you come to see Haruna?{#ch3_m183b}"
+    new "Или вы пришли навестить Харуну?"
+
+    old "Don't tell me you came to see me?{#ch3_m183c}"
+    new "Скажите, вы не за мной пришли?"
+
+    old "I'd never think that!{#ch3_m187a}"
+    new "Ничего подобного!"
+
+    old "It's not about breasts or not…{#ch3_m187b}"
+    new "Дело не в груди…"
+
+    old "I don't judge people by their breasts.{#ch3_m187c}"
+    new "Я же не смотрю на людей по груди."
+
+    old "They won't listen to me anyway.{#ch3_m192a}"
+    new "Они всё равно меня не послушают."
+
+    old "Girls shouldn't be dueling.{#ch3_m192b}"
+    new "Девушкам не стоило бы драться."
+
+    old "Why not let them go until both are satisfied?{#ch3_m192c}"
+    new "Может, дать им сразиться, пока обе не будут довольны?"
