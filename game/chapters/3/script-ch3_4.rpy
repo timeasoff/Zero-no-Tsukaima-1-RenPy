@@ -142,7 +142,7 @@ label ch3_4:
     ha "Fufu, fufufufu…"
 
     # [BGM stop=1000], спрайты/CG скрываются → next scene 164
-    $ stop music fadeout 1.0
+    stop music fadeout 1.0
 
     # ==== SCENE 164 ====
     # [BG stage image=+14] hallway, [BGM play=+19] → t18
@@ -402,7 +402,7 @@ label ch3_4_168:
     l "Hey, pull yourself together, Siesta! Siestaa!?"
 
     # [BGM stop=1000], затемнение
-    $ stop music fadeout 1.0
+    stop music fadeout 1.0
     $ show_sprites(None)
     $ fade_fx("black")
 
