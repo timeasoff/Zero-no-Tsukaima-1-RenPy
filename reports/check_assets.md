@@ -1,6 +1,6 @@
 # Проверка ассетов
 
-Дата: 2026-10-15 01:54
+Дата: 2026-10-15 23:50
 
 ## WARNING (1)
 
@@ -8,15 +8,15 @@
 
 ## INFO (1)
 
-- В очереди transcriptions_ja_ru.csv: 13449 строк (помечено использованными: 1589); из проверенной выборки помечено: 411
+- В очереди transcriptions_ja_ru.csv: 13120 строк (помечено использованными: 1918); из проверенной выборки помечено: 740
 
 ## Статистика
 
-- chapter_3_images: 19
-- chapter_3_voices: 685
-- transcriptions_consumed_rows: 1589
-- transcriptions_queue_rows: 13449
-- voices_used_in_scope: 685
-- voices_used_row_consumed: 411
+- chapter_3_images: 21
+- chapter_3_voices: 1014
+- transcriptions_consumed_rows: 1918
+- transcriptions_queue_rows: 13120
+- voices_used_in_scope: 1014
+- voices_used_row_consumed: 740
 - voices_used_row_still_in_queue: 274
 

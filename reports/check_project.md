@@ -8,7 +8,7 @@
 
 - E7 jump 'ch4' at game/chapters/3/script-ch3_8.rpy:420 has no label
 
-## WARNING (290)
+## WARNING (291)
 
 - W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -300,13 +300,13 @@
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
 - I1 ch2: 1468 script strings > 1382 source talk
+- I1 ch3: 1170 script strings > 1078 source talk
 
-## INFO (31)
+## INFO (30)
 
 - speakers defined: 32
 - overlay K: max=8 used=8 next_free=9
-- voices: refs=3337 ogg=3343 missing=0
-- I1 ch3: strings=1041 source_talk=1078 (gap expected)
+- voices: refs=3451 ogg=3457 missing=0
 - I1 ch4: not started (source talk=1072)
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
@@ -332,6 +332,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=18 in 3 file(s)
-- labels=166 rpy=66 strings(strict=3761) tl_old=japanese:4251,russian:4278
+- image map: ids=312 named=148 open=164 | placeholders=46 in 4 file(s)
+- labels=186 rpy=67 strings(strict=3890) tl_old=japanese:4380,russian:4407
 

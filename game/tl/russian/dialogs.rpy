@@ -9962,3 +9962,348 @@ translate russian strings:
 
     old "Well then — today, I'll just have to keep watch over my princess."
     new "Что ж, сегодня я, пожалуй, побуду присмотром за принцессой."
+
+    old "Ah, Siesta — so this is where you were."
+    new "А, Сиеста — вот ты где."
+
+    old "Saito! You showed up at just the right time!"
+    new "Сайто! Как раз кстати!"
+
+    old "Did you need me for something?"
+    new "У тебя ко мне дело?"
+
+    old "Yes! There's something I'd really like you to see, Saito!"
+    new "Да! Есть кое-что, что я очень хочу тебе показать, Сайто!"
+
+    old "Oh? What is it? Now I'm curious."
+    new "А? И что же? Уже любопытно."
+
+    old "Please — take this scarf!"
+    new "Пожалуйста, примите этот шарф!"
+
+    old "For me? A hand-knitted scarf — are you sure? Heh… that really makes me happy."
+    new "Мне? Шарф ручной вязки… ты уверена? Хм… как-то даже очень приятно."
+
+    old "I'm glad you said that…"
+    new "Я рада, что ты так сказал…"
+
+    old "Hm? You just gave me a scarf — so why are you still knitting?"
+    new "А? Ты же только что подарила мне шарф — так почему ты ещё вяжешь?"
+
+    old "The one on my needles now is my second one."
+    new "Тот, что на спицах, — второй."
+
+    old "A second one!? Don't tell me — both of them are the same pattern?"
+    new "Второй!? Только не говори — оба с одинаковым узором?"
+
+    old "Yes…{#ch3.9_si_006}"
+    new "Да…"
+
+    old "Is that a pair look?{#ch3.9_s_007}"
+    new "Это парный лук, да?"
+
+    old "What's a 'pair look'?"
+    new "А что такое «парный лук»?"
+
+    old "When two people wear matching clothes — same design and all — and go around together."
+    new "Когда двое носят одинаковую одежду — с одним узором, — и ходят вместе."
+
+    old "Like how all the students wear the same uniform?"
+    new "Как у всех учеников — форма одинаковая, правда?"
+
+    old "No, no. Everyone wearing the same thing doesn't count as a pair look."
+    new "Нет-нет. Когда все носят одно и то же — это не парный лук."
+
+    old "The point is that it's just the two of you."
+    new "Смысл в том, что вы — только вдвоём."
+
+    old "Just the two of us…"
+    new "Только вдвоём…"
+
+    old "That's some serious skill. Louise knits too, but hers never came out this good."
+    new "Это уже настоящее мастерство. Луиза тоже вяжет, но у неё так не выходило."
+
+    old "She gave me a really tiny sweater once."
+    new "Однажды она подарила мне очень маленький свитер."
+
+    old "I won't lose…"
+    new "Я не проиграю…"
+
+    old "Hm? What's up, Siesta?"
+    new "А? Что такое, Сиеста?"
+
+    old "No, it's nothing. Nothing at all~"
+    new "Да нет, ничего. Совсем ничего~"
+
+    old "H-how about a different pattern? It's just — kind of embarrassing…"
+    new "А-а, может, другой узор? Ну, как-то неловко же…"
+
+    old "Why would it be embarrassing?"
+    new "Почему неловко?"
+
+    old "The same pattern would be — um, well — I know it's embarrassing, but… I like it."
+    new "С одинаковым узором — это, э-э… ну, неловко, но… мне нравится."
+
+    old "If you like it, that's fine by me. I just wonder if I'm the right person for it…"
+    new "Раз тебе нравится — ладно. Только вот… годюсь ли я."
+
+    old "That's not true. …It's what I want."
+    new "Это не так. …Это моё желание."
+
+    old "Anyway — thanks for the scarf. Now I've got something to look forward to this winter."
+    new "В общем, спасибо за шарф. Теперь зима обещает быть приятной."
+
+    old "Really? Then I'll knit all sorts of things! Please accept them too!"
+    new "Правда? Тогда я свяжу ещё кучу всего! Обязательно берите."
+
+    old "Okay — deal. I'll be looking forward to it."
+    new "Ладно, договорились. Буду ждать."
+
+    old "Then I'll knit my heart out!"
+    new "Тогда я постараюсь изо всех сил!"
+
+    old "I wonder if Tabitha's around…"
+    new "Интересно, Табита тут…?"
+
+    old "Ah — there she is. With her familiar Sylphid."
+    new "А, вот она. С фамильяром Сильфидой."
+
+    old "Tabitha really does seem to enjoy taking care of Sylphid…"
+    new "Выходит, Табита с удовольствием заботится о Сильфиде…"
+
+    old "So this is what they mean by the ideal bond between a familiar and its master…"
+    new "Значит, вот что называют идеальной связью между фамильяром и хозяином…"
+
+    old "…You were here?"
+    new "…Ты тут был?"
+
+    old "Ah, Tabitha!? Sorry, sorry — I was just watching for a while."
+    new "А, Табита!? Прости-прости. Просто наблюдал немного."
+
+    old "Bad taste."
+    new "Дурной вкус."
+
+    old "You and Sylphid looked like you were having such a good time, I hesitated to call out."
+    new "Табита да Сильфида так весело проводили время, что я поскупился поздороваться."
+
+    old "You could tell?"
+    new "И ты понял?"
+
+    old "Tell what — that you two were having fun?"
+    new "Понял что — что вам было весело?"
+
+    old "Yeah.{#ch3.9_t_004}"
+    new "Угу."
+
+    old "Well, yeah…"
+    new "Ну, да…"
+
+    old "I'm a familiar too — of course I can tell."
+    new "Я ведь тоже фамильяр — тут и понять не трудно."
+
+    old "Random guess."
+    new "Наобум."
+
+    old "Ah — you saw through me…"
+    new "Ага, раскусила…"
+
+    old "But anyone could see that you and Sylphid get along great."
+    new "Но то, что Табита и Сильфида ладят, — это видно любому."
+
+    old "I can't explain it — I just know.{#ch3.9_s_029}"
+    new "Не смогу объяснить — просто понимаю."
+
+    old "Weak grounds."
+    new "Основания слабые."
+
+    old "Being told that just leaves me stumped."
+    new "Когда так указывают — я в замешательстве."
+
+    old "Still, watching you and Sylphid — I could tell you were having fun."
+    new "Но, глядя на Табиту с Сильфидой, я всё же чувствовал — вам весело."
+
+    old "It's written on your face.{#ch3.9_s_032}"
+    new "Это видно по твоему лицу."
+
+    old "…Liar."
+    new "…Врёшь."
+
+    old "As if I were lying!"
+    new "Как будто я вру!"
+
+    old "I was thinking — Sylphid is someone you can really let your guard down around."
+    new "Я подумал — Сильфида, кажется, тот, рядом с кем Табита может расслабиться."
+
+    old "Still… peeking is wrong."
+    new "Но… подглядывать — дурно."
+
+    old "Sorry, sorry. I won't get in the way — can I just watch you two a bit longer?"
+    new "Прости-прости. Не буду мешать — можно ещё немного понаблюдать?"
+
+    old "…{#ch3.9_t_v01}"
+    new "…"
+
+    old "So — no good? Seeing Tabitha have fun puts me in a good mood too, y'know."
+    new "Всё-таки нельзя? Вижу — Табите весело, и я сам настраиваюсь на хорошую волну."
+
+    old "…Alright."
+    new "…Ладно."
+
+    old "Got it. Thanks."
+    new "Понял. Спасибо."
+
+    old "Kirche — are you in?"
+    new "Кирхе, ты здесь?"
+
+    old "Ah, Darling! You've come along at just the right moment."
+    new "А, Дорогой! Как раз кстати пришёл."
+
+    old "Oh — you're not in uniform. Kirche out of uniform — it's a whole new look."
+    new "А, ты не в форме. Кирхе без формы — совсем другой вид."
+
+    old "My, aren't you sweet. Complimenting a girl's clothes is step one of getting along with girls."
+    new "Ну и ну, какие приятные слова. Хвалить платье — азбука общения с девушками."
+
+    old "So — can you guess why I'm dressed like this?"
+    new "Кстати — угадай, почему я так нарядилась?"
+
+    old "Why? Well, it's obviously…"
+    new "Почему? Ну, это же…"
+
+    old "Because you're an exhibitionist?{#ch3.9_s_041}"
+    new "Эксгибиционистка, что ли?"
+
+    old "Exhibitionist — how rude. But, but — if my Darling wants it, I'll bare it all anytime."
+    new "Эксгибиционистка — как невежливо. Но-но — раз Дорогой желает, я готова обнажаться хоть когда."
+
+    old "N-no, I'm good."
+    new "Н-нет, я в порядке."
+
+    old "Mm-oh, you're no fun~"
+    new "Ну и неинтересный же ты~"
+
+    old "The real answer: stress relief. Uniforms are stuffy, aren't they? The stress just piles up, you knoow…"
+    new "Правильный ответ — снять стресс. Униформа всё-таки стесняет, правда? И стресс копится-копится…"
+
+    old "To let off steam?{#ch3.9_s_043}"
+    new "Чтобы снять стресс?"
+
+    old "That's exactly it, Darling! The academy uniform is so tight — this body of mine just doesn't fit…"
+    new "Именно так, Дорогой! Академическая униформа так стесняет, что моё тело в неё не умещается…"
+
+    old "…Yeah, that does look tight."
+    new "…Да, действительно стесняет."
+
+    old "And I have to wear it all the time — so the stress just builds and builds, you knoow…"
+    new "А носить её нужно постоянно — и стресс копится и копится…"
+
+    old "Some wish to become someone else?{#ch3.9_s_045}"
+    new "Желание быть кем-то другим?"
+
+    old "Hmm~ Not wrong — but not right either?"
+    new "Мм~ Не мимо, но и не в точку?"
+
+    old "Hmm… I give up."
+    new "Ну, я сдаюсь."
+
+    old "The real answer: stress relief. Uniforms are stuffy, aren't they? The stress just piles up, you knoow…{#ch3.9_k_010}"
+    new "Правильный ответ — снять стресс. Униформа всё-таки стесняет, правда? И стресс копится-копится…"
+
+    old "So now and then I dress up in something else like this… Does Louise never do that?"
+    new "Вот изредка я и надеваю что-то другое… А Луиза такого не делает?"
+
+    old "Louise? She's got plenty of clothes in her room."
+    new "Луиза? У неё в комнате одежды хватает."
+
+    old "At the academy, though, I mostly only see her in uniform or her nightgown."
+    new "В академии я вижу её почти всегда либо в форме, либо в пижаме."
+
+    old "Sigh… I see. You have it tough too, Saito."
+    new "Понятно. Тебе тоже нелегко, Сайто."
+
+    old "R-really?{#ch3.9_s_049}"
+    new "П-правда?"
+
+    old "When you get tired of Louise, come to me right away — I'm waiting anytime!"
+    new "Как надоест Луиза — сразу ко мне. Я всегда жду!"
+
+    old "Hah-hah-hah-hah…"
+    new "Ха-ха-ха-ха…"
+
+    old "Hey, Haruna — want to step out into the courtyard for a bit?"
+    new "Слушай, Харуна. Не выйти ли нам во двор?"
+
+    old "Sure, okay."
+    new "Ладно, почему нет."
+
+    old "There's something I've been wanting to show you, Haruna."
+    new "У меня есть кое-что, что я хотел тебе показать."
+
+    old "Ooh, what is it? Now I'm excited~"
+    new "Ого, что же это? Уже не терпится~"
+
+    old "This is what I wanted to show you, Haruna."
+    new "Вот что я хотел тебе показать, Харуна."
+
+    old "Is this… an airplane? It looks like a zero fighter… It's not the real thing, is it?"
+    new "Это самолёт? Похож на нулевой истребитель… Это же не настоящий, да?"
+
+    old "It's real. This zero fighter came to this world from Japan."
+    new "Настоящий. Этот нулевой истребитель прибыл в этот мир из Японии."
+
+    old "It's real!? From Japan — all the way here?"
+    new "Правда?! Из Японии — сюда?"
+
+    old "Yeah. It belongs to Siesta's great-grandfather — apparently he flew this zero fighter into this world."
+    new "Ага. Он принадлежит прадеду Сиесты — говорят, он на нём попал в этот мир."
+
+    old "So we're not the only ones who've come to this world…"
+    new "Значит, мы не единственные, кто оказался в этом мире…"
+
+    old "But I've never heard a story about anyone getting back…?"
+    new "Но чтобы кто-то вернулся — такого я ещё не слышала…?"
+
+    old "That's…"
+    new "Это…"
+
+    old "That can't be helped.{#ch3.9_s_057}"
+    new "Тут ничего не сделаешь."
+
+    old "Huh? Why not?"
+    new "А почему это?"
+
+    old "If you return to your original world, you might lose any way to report success to this one — right? Put that way, it can't be helped."
+    new "Если вернуться в родной мир, то, может, и не останется средств сообщить в этот мир об успехе? С этой точки зрения — ничего не сделаешь."
+
+    old "Isn't that a bit too optimistic?"
+    new "Разве это не слишком оптимистично?"
+
+    old "Still — beats just giving up, doesn't it?"
+    new "Но всё равно гораздо лучше, чем просто сдаться, нет?"
+
+    old "Maybe we just haven't heard about it yet?"
+    new "Может, мы просто этого не знаем?"
+
+    old "But we might not be able to get back."
+    new "Но ведь можно и не вернуться."
+
+    old "That's why — if the chance comes, I want to see everything I can."
+    new "Поэтому, если уж представится случай — я хочу всё увидеть."
+
+    old "We just have to become the first ones to go back."
+    new "Надо только стать первыми вернувшимися."
+
+    old "Yeah. That would be wonderful if we could… but could we?"
+    new "Да. Здорово бы, если получится… только получится ли?"
+
+    old "All sorts of things from our world seem to have drifted into this one."
+    new "Судя по всему, в этот мир попадает кое-что из нашего мира."
+
+    old "Maybe someday we'll find something that helps us get home."
+    new "Быть может, когда-нибудь мы найдём кое-что полезное для возвращения."
+
+    old "You're right. The chance of getting home isn't zero — so there's no need to give up yet…"
+    new "Верно. Шанс вернуться не равен нулю — так что пока не стоит сдаваться…"
+
+    old "…Yeah. That's right.{#ch3.9_s_065}"
+    new "…Ага. Именно."

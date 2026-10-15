@@ -694,3 +694,39 @@ translate russian strings:
 
     old "Tell her a story.{#ch3_m1059c}"
     new "Рассказать ей историю."
+
+    old "Is that a pair look?{#ch3_m1064a}"
+    new "Это парный лук, да?"
+
+    old "Some skill, huh.{#ch3_m1064b}"
+    new "Вот это мастерство."
+
+    old "Wouldn't a different pattern be better?{#ch3_m1064c}"
+    new "Не лучше ли другой узор?"
+
+    old "I'm a familiar too, y'know!{#ch3_m1069a}"
+    new "Я ведь тоже фамильяр!"
+
+    old "I can't explain it — I just know.{#ch3_m1069b}"
+    new "Не смогу объяснить — просто понимаю."
+
+    old "It's written on your face.{#ch3_m1069c}"
+    new "Это видно по твоему лицу."
+
+    old "Because you're an exhibitionist?{#ch3_m1074a}"
+    new "Эксгибиционистка, что ли?"
+
+    old "To let off steam?{#ch3_m1074b}"
+    new "Чтобы снять стресс?"
+
+    old "Some wish to become someone else?{#ch3_m1074c}"
+    new "Желание быть кем-то другим?"
+
+    old "That can't be helped.{#ch3_m1079a}"
+    new "Тут ничего не сделаешь."
+
+    old "Maybe we just don't know.{#ch3_m1079b}"
+    new "Может, мы просто не знаем."
+
+    old "We'll be the first to return.{#ch3_m1079c}"
+    new "Мы будем первыми, кто вернётся."

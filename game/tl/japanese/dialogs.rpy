@@ -9956,3 +9956,348 @@ translate japanese strings:
 
     old "Well then — today, I'll just have to keep watch over my princess."
     new "さて、今日はしばらく、お姫さまを見守るってことにしますか。"
+
+    old "Ah, Siesta — so this is where you were."
+    new "あっ、シエスタ。こんなところにいたのか。"
+
+    old "Saito! You showed up at just the right time!"
+    new "サイトさん！ちょうどいいところに！"
+
+    old "Did you need me for something?"
+    new "俺になにか用事があったの？"
+
+    old "Yes! There's something I'd really like you to see, Saito!"
+    new "はい！サイトさんにぜひ、見てほしい物があるんですよ。"
+
+    old "Oh? What is it? Now I'm curious."
+    new "へー、なんだろ？楽しみだなぁ。"
+
+    old "Please — take this scarf!"
+    new "このマフラー、貰ってください！"
+
+    old "For me? A hand-knitted scarf — are you sure? Heh… that really makes me happy."
+    new "俺に？手編みのマフラーなんて、本当にいいのか？なんだか、うれしくなっちまうなぁ。"
+
+    old "I'm glad you said that…"
+    new "そう言ってもらえて嬉しいです……。"
+
+    old "Hm? You just gave me a scarf — so why are you still knitting?"
+    new "あれ？今貰ったマフラーがあるのに、どうして編んでるの？"
+
+    old "The one on my needles now is my second one."
+    new "今編んでるマフラー、２本目なんです。"
+
+    old "A second one!? Don't tell me — both of them are the same pattern?"
+    new "えっ、２本目！？ひょっとしてどちらも同じ柄のマフラー？"
+
+    old "Yes…{#ch3.9_si_006}"
+    new "はい……。"
+
+    old "Is that a pair look?{#ch3.9_s_007}"
+    new "それってペアルック？"
+
+    old "What's a 'pair look'?"
+    new "ペアルック、ってなんですか？"
+
+    old "When two people wear matching clothes — same design and all — and go around together."
+    new "同じ図柄の服などを、２人で身につけて、一緒に行動することだよ。"
+
+    old "Like how all the students wear the same uniform?"
+    new "生徒のみなさんの制服がそうですよね？"
+
+    old "No, no. Everyone wearing the same thing doesn't count as a pair look."
+    new "違う違う。みんなが同じ格好の制服はペアルックとは言わないんだよ。"
+
+    old "The point is that it's just the two of you."
+    new "２人だけってところがポイントかな？"
+
+    old "Just the two of us…"
+    new "２人だけ……。"
+
+    old "That's some serious skill. Louise knits too, but hers never came out this good."
+    new "それってすごい技術だね。ルイズも編み物をするけど、ここまでうまくはなかったな。"
+
+    old "She gave me a really tiny sweater once."
+    new "いつだったか、すごく小さいセーターを貰ったことがある。"
+
+    old "I won't lose…"
+    new "負けられません……。"
+
+    old "Hm? What's up, Siesta?"
+    new "ん？シエスタどうしたの？"
+
+    old "No, it's nothing. Nothing at all~"
+    new "いえ、なんでもありません。なんでもありませんよー。"
+
+    old "H-how about a different pattern? It's just — kind of embarrassing…"
+    new "べ、別の柄にしてみない？なんだか恥ずかしいし……。"
+
+    old "Why would it be embarrassing?"
+    new "どうして恥ずかしいんですか？"
+
+    old "The same pattern would be — um, well — I know it's embarrassing, but… I like it."
+    new "同じ柄のほうがその、あの、いえ、恥ずかしいんですけど、わたしは好きです。"
+
+    old "If you like it, that's fine by me. I just wonder if I'm the right person for it…"
+    new "シエスタが好きならいいけど。俺でいいのかなぁって……。"
+
+    old "That's not true. …It's what I want."
+    new "そんなことありません。……わたしの希望です。"
+
+    old "Anyway — thanks for the scarf. Now I've got something to look forward to this winter."
+    new "とりあえず、マフラーありがとな。冬が楽しみになるな。"
+
+    old "Really? Then I'll knit all sorts of things! Please accept them too!"
+    new "そうですか？なら、もっといろいろ編んじゃいますね！ぜひ、貰ってください。"
+
+    old "Okay — deal. I'll be looking forward to it."
+    new "うん、分かった。期待してるね。"
+
+    old "Then I'll knit my heart out!"
+    new "それじゃあ、頑張って編みますね！"
+
+    old "I wonder if Tabitha's around…"
+    new "タバサはいるかな……？"
+
+    old "Ah — there she is. With her familiar Sylphid."
+    new "あっ、いたいた。使い魔のシルフィードと一緒だ。"
+
+    old "Tabitha really does seem to enjoy taking care of Sylphid…"
+    new "タバサって、使い魔のシルフィードを楽しそうに世話するんだな……。"
+
+    old "So this is what they mean by the ideal bond between a familiar and its master…"
+    new "使い魔と主人との関係の理想形って、こういうことを言うんだろうな。"
+
+    old "…You were here?"
+    new "……いたの？"
+
+    old "Ah, Tabitha!? Sorry, sorry — I was just watching for a while."
+    new "あっ、タバサ！？わるいわるい。しばらく眺めさせてもらってた。"
+
+    old "Bad taste."
+    new "悪趣味。"
+
+    old "You and Sylphid looked like you were having such a good time, I hesitated to call out."
+    new "タバサ達があんまり楽しそうだったから、声をかけるのを躊躇しちゃってたんだよね。"
+
+    old "You could tell?"
+    new "分かるの？"
+
+    old "Tell what — that you two were having fun?"
+    new "分かるのって、タバサ達が楽しそうにしてたことか？"
+
+    old "Yeah.{#ch3.9_t_004}"
+    new "うん。"
+
+    old "Well, yeah…"
+    new "そりゃ、まあ……。"
+
+    old "I'm a familiar too — of course I can tell."
+    new "同じ使い魔なんだぜ、そりゃ分かるさ。"
+
+    old "Random guess."
+    new "適当。"
+
+    old "Ah — you saw through me…"
+    new "あ、バレたか……。"
+
+    old "But anyone could see that you and Sylphid get along great."
+    new "でも、タバサとシルフィードが仲がいいっていうのは、誰が見ても分かると思うぜ。"
+
+    old "I can't explain it — I just know.{#ch3.9_s_029}"
+    new "なんとなくだけど、分かるぜ。"
+
+    old "Weak grounds."
+    new "根拠、薄い。"
+
+    old "Being told that just leaves me stumped."
+    new "そう指摘されると、困るんだけどさ。"
+
+    old "Still, watching you and Sylphid — I could tell you were having fun."
+    new "でも、タバサとシルフィードの様子を眺めてたら、楽しそうだなってのは伝わってきてたよ。"
+
+    old "It's written on your face.{#ch3.9_s_032}"
+    new "タバサの顔を見れば分かるよ。"
+
+    old "…Liar."
+    new "……うそ。"
+
+    old "As if I were lying!"
+    new "ウソなもんか。"
+
+    old "I was thinking — Sylphid is someone you can really let your guard down around."
+    new "タバサにとって、シルフィードは気を許せる相手なんだなって思った。"
+
+    old "Still… peeking is wrong."
+    new "でも……のぞき見はよくない。"
+
+    old "Sorry, sorry. I won't get in the way — can I just watch you two a bit longer?"
+    new "ごめんごめん。邪魔しないから、しばらくタバサ達の様子を眺めてていいかな？"
+
+    old "…{#ch3.9_t_v01}"
+    new "……。"
+
+    old "So — no good? Seeing Tabitha have fun puts me in a good mood too, y'know."
+    new "やっぱ、ダメか？楽しそうにしてるタバサを見てると、俺までいい気分になれるんだけどな。"
+
+    old "…Alright."
+    new "……いいよ。"
+
+    old "Got it. Thanks."
+    new "そっか。ありがとう。"
+
+    old "Kirche — are you in?"
+    new "キュルケいる？"
+
+    old "Ah, Darling! You've come along at just the right moment."
+    new "あっ、ダーリン！ちょうどいいところに来てくれたじゃないの。"
+
+    old "Oh — you're not in uniform. Kirche out of uniform — it's a whole new look."
+    new "あれ、制服じゃないんだ。制服じゃないキュルケってなんか、新鮮だな。"
+
+    old "My, aren't you sweet. Complimenting a girl's clothes is step one of getting along with girls."
+    new "もう、うれしいこと言ってくれるじゃない？服をほめるのは女の子との付き合いの基本よ。"
+
+    old "So — can you guess why I'm dressed like this?"
+    new "ところで、あたしがなんで、こんな格好をしてるか分かる？"
+
+    old "Why? Well, it's obviously…"
+    new "どうしてって、そりゃ……。"
+
+    old "Because you're an exhibitionist?{#ch3.9_s_041}"
+    new "露出好きだから？"
+
+    old "Exhibitionist — how rude. But, but — if my Darling wants it, I'll bare it all anytime."
+    new "露出好きって失礼よ。でもでも、ダーリンが希望するなら、いつだって露出しちゃうから。"
+
+    old "N-no, I'm good."
+    new "い、いや、いいから。"
+
+    old "Mm-oh, you're no fun~"
+    new "んもぅ、つまんないわね～。"
+
+    old "The real answer: stress relief. Uniforms are stuffy, aren't they? The stress just piles up, you knoow…"
+    new "正解はストレス発散。制服って堅苦しいでしょ？すっごくストレスが溜まっちゃうのよねぇ……。"
+
+    old "To let off steam?{#ch3.9_s_043}"
+    new "ストレス発散のため？"
+
+    old "That's exactly it, Darling! The academy uniform is so tight — this body of mine just doesn't fit…"
+    new "そう、それなのよダーリンッ！学院の制服じゃ窮屈すぎて、このボディが収まりきらないの……。"
+
+    old "…Yeah, that does look tight."
+    new "……うん、たしかに窮屈そうだ。"
+
+    old "And I have to wear it all the time — so the stress just builds and builds, you knoow…"
+    new "それなのに、いつも制服を着てなきゃいけないから、すっごくストレス溜まっちゃうのよねぇ……。"
+
+    old "Some wish to become someone else?{#ch3.9_s_045}"
+    new "変身願望ってやつ？"
+
+    old "Hmm~ Not wrong — but not right either?"
+    new "ん～、外れてはいないけど、当たってないって感じ？"
+
+    old "Hmm… I give up."
+    new "うーん、お手上げ。"
+
+    old "The real answer: stress relief. Uniforms are stuffy, aren't they? The stress just piles up, you knoow…{#ch3.9_k_010}"
+    new "正解はストレス発散。制服って堅苦しいでしょ？すっごくストレスが溜まっちゃうのよねぇ……。"
+
+    old "So now and then I dress up in something else like this… Does Louise never do that?"
+    new "だから、ときどきこうして別の服を着てみたりしてるんだけど……。ルイズはこんなことしないのかしら？"
+
+    old "Louise? She's got plenty of clothes in her room."
+    new "えっ、ルイズ？部屋に服はいろいろあるけど。"
+
+    old "At the academy, though, I mostly only see her in uniform or her nightgown."
+    new "学院じゃ、もっぱら制服姿か寝間着姿しか見てないかな。"
+
+    old "Sigh… I see. You have it tough too, Saito."
+    new "はぁ……。そうなんだ。サイトも大変ね。"
+
+    old "R-really?{#ch3.9_s_049}"
+    new "そ、そうなのか？"
+
+    old "When you get tired of Louise, come to me right away — I'm waiting anytime!"
+    new "ルイズに飽きたら、早くあたしのところに来てね。いつでも待ってるから！"
+
+    old "Hah-hah-hah-hah…"
+    new "ははははは……。"
+
+    old "Hey, Haruna — want to step out into the courtyard for a bit?"
+    new "なあ、春奈。ちょっと一緒に中庭に出てみないか？"
+
+    old "Sure, okay."
+    new "うん、いいけど。"
+
+    old "There's something I've been wanting to show you, Haruna."
+    new "春奈に見せたかった物があるんだ。"
+
+    old "Ooh, what is it? Now I'm excited~"
+    new "へぇー、なんだろ？楽しみだなぁ。"
+
+    old "This is what I wanted to show you, Haruna."
+    new "春奈に見せたい物って、これなんだ。"
+
+    old "Is this… an airplane? It looks like a zero fighter… It's not the real thing, is it?"
+    new "これって、飛行機？ゼロ戦に見えるんだけど……？まさか、本物ってことはないよね？"
+
+    old "It's real. This zero fighter came to this world from Japan."
+    new "本物だよ。このゼロ戦、日本からこの世界に来たものなんだ。"
+
+    old "It's real!? From Japan — all the way here?"
+    new "えっ、本物なのっ！？日本から、ここに？"
+
+    old "Yeah. It belongs to Siesta's great-grandfather — apparently he flew this zero fighter into this world."
+    new "うん。シエスタのひいおじいちゃんのものなんだけど、このゼロ戦に乗ってこの世界に来たらしい。"
+
+    old "So we're not the only ones who've come to this world…"
+    new "私達以外にも、この世界に来てる人がいるんだ……。"
+
+    old "But I've never heard a story about anyone getting back…?"
+    new "でも、戻ったという話は、今まで聞いたことないんだよね……？"
+
+    old "That's…"
+    new "それは……。"
+
+    old "That can't be helped.{#ch3.9_s_057}"
+    new "仕方のないことだよ。"
+
+    old "Huh? Why not?"
+    new "えっ、どうして？"
+
+    old "If you return to your original world, you might lose any way to report success to this one — right? Put that way, it can't be helped."
+    new "元の世界へ戻ると、こっちの世界に成功を報告する手段がなくなるのかもしれないだろ？そう考えたら、仕方のないことだと思うよ。"
+
+    old "Isn't that a bit too optimistic?"
+    new "それって、楽観的すぎない？"
+
+    old "Still — beats just giving up, doesn't it?"
+    new "でも、単に諦めてるよりは全然マシだろ？"
+
+    old "Maybe we just haven't heard about it yet?"
+    new "俺達が知らないだけかもしれないだろ？"
+
+    old "But we might not be able to get back."
+    new "でも、戻れないかもしれない。"
+
+    old "That's why — if the chance comes, I want to see everything I can."
+    new "だから、きっかけがあれば、なんでも見ておきたいと思ってるんだ、俺は。"
+
+    old "We just have to become the first ones to go back."
+    new "俺達が最初の帰還者になればいい。"
+
+    old "Yeah. That would be wonderful if we could… but could we?"
+    new "うん。それができればすばらしいけど……。できるのかな？"
+
+    old "All sorts of things from our world seem to have drifted into this one."
+    new "こっちには俺達の世界にあった物が、いろいろと紛れ込んで来てるみたいだし。"
+
+    old "Maybe someday we'll find something that helps us get home."
+    new "いつか帰還に役立つものが見つかるかもしれないよ。"
+
+    old "You're right. The chance of getting home isn't zero — so there's no need to give up yet…"
+    new "そうだよね。帰還する可能性はゼロじゃないんだものね。諦める必要はないか……。"
+
+    old "…Yeah. That's right.{#ch3.9_s_065}"
+    new "……ああ。そうだな。"

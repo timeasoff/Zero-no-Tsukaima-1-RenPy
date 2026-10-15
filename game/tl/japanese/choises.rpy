@@ -700,3 +700,39 @@ translate japanese strings:
 
     old "Tell her a story.{#ch3_m1059c}"
     new "お話を聞かせてあげる"
+
+    old "Is that a pair look?{#ch3_m1064a}"
+    new "それってペアルック？"
+
+    old "Some skill, huh.{#ch3_m1064b}"
+    new "すごい技術だね"
+
+    old "Wouldn't a different pattern be better?{#ch3_m1064c}"
+    new "別の柄にした方がよくない？"
+
+    old "I'm a familiar too, y'know!{#ch3_m1069a}"
+    new "同じ使い魔なんだぜ！"
+
+    old "I can't explain it — I just know.{#ch3_m1069b}"
+    new "なんとなくだけど、分かるぜ"
+
+    old "It's written on your face.{#ch3_m1069c}"
+    new "タバサの顔を見れば分かるよ"
+
+    old "Because you're an exhibitionist?{#ch3_m1074a}"
+    new "露出好きだから？"
+
+    old "To let off steam?{#ch3_m1074b}"
+    new "ストレス発散のため？"
+
+    old "Some wish to become someone else?{#ch3_m1074c}"
+    new "変身願望ってやつ？"
+
+    old "That can't be helped.{#ch3_m1079a}"
+    new "仕方のないことだよ"
+
+    old "Maybe we just don't know.{#ch3_m1079b}"
+    new "俺達が知らないだけかも"
+
+    old "We'll be the first to return.{#ch3_m1079c}"
+    new "俺達が最初の帰還者になる"

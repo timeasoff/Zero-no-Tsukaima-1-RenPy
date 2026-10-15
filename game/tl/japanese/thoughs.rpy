@@ -702,3 +702,9 @@ translate japanese strings:
 
     old "………………{#ch3.8_null_1059}"
     new "………。……。…。"
+
+    old "Hmm… let's see…{#ch3.9_th_1064}"
+    new "（ええっと……）"
+
+    old "As for my own master, Louise…{#ch3.9_th_1069}"
+    new "（それに引きかえ、俺のご主人様のルイズと　きたら……）"

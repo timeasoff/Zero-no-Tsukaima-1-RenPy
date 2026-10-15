@@ -697,3 +697,9 @@ translate russian strings:
 
     old "………………{#ch3.8_null_1059}"
     new "………………"
+
+    old "Hmm… let's see…{#ch3.9_th_1064}"
+    new "Хм-м… дай подумать…"
+
+    old "As for my own master, Louise…{#ch3.9_th_1069}"
+    new "А уж моя госпожа Луиза…"

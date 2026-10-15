@@ -176,3 +176,6 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 621,t 4,4,1312,3788,lay0,ch3 part3; block 621 pos 0; PROVISIONAL (блоки 588/599/610/621 с шагом 11: 588 t 1, 610 t 3 пиксель-вериф. -> 621 t 4; USES=4 = 1312 set + RESET 1313/1314/1315; ещё 2152/2164/2281/2309 в chapter_04; пиксель-сверка недоступна, SCENEDAT архива нет на машине)
 627,t 4 sad,1,210,2587,lay0,ch3 part8; block 621 pos 6; PROVISIONAL по формуле (блок 621 = t 4; pos 6 = sad по блоку 610: 616 = t 3 sad); файл 't 4 sad.webp' существует
 975,ha 3 happy,1,1317,3866,lay7,ch3 part3; block 973 pos 2; PROVISIONAL (pos 2 = happy по блоку 951 пиксель-вериф.: 951/953/955/957/959; блок 973: 973/977/979/981 = base/angry/sad/shy пиксель-вериф.; USES=1 = 1317; ещё 1002/1102/3987 в chapter_04)
+720,k 5,11,1074,3184,lay6,ch3 part9; block 720 pos 0; пиксель-сверка SCENEDAT[720] -> k 5 (MAE 0.0338; топ-4 = только k 5*)
+722,k 5 happy,3,1074,3192,lay6,ch3 part9; block 720 pos 2; пиксель-сверка SCENEDAT[722] -> k 5 happy (MAE 0.0336)
+726,k 5 sad,3,1075,3218,lay6,ch3 part9; block 720 pos 6; пиксель-сверка SCENEDAT[726] -> k 5 sad (MAE 0.0337; pos 6 = sad по правилу блока)
