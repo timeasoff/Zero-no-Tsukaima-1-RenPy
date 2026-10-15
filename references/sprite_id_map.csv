@@ -174,4 +174,5 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 986,ha 4 happy,8,1056,3903,lay7,ch2 part8; block 984 pos 2; PROVISIONAL (блок 984 = ha 4, соседи 988/990)
 992,ha 4 shy,2,1057,3921,lay7,ch2 part8; block 984 pos 8; PROVISIONAL (блок 984 = ha 4)
 621,t 4,4,1312,3788,lay0,ch3 part3; block 621 pos 0; PROVISIONAL (блоки 588/599/610/621 с шагом 11: 588 t 1, 610 t 3 пиксель-вериф. -> 621 t 4; USES=4 = 1312 set + RESET 1313/1314/1315; ещё 2152/2164/2281/2309 в chapter_04; пиксель-сверка недоступна, SCENEDAT архива нет на машине)
+627,t 4 sad,1,210,2587,lay0,ch3 part8; block 621 pos 6; PROVISIONAL по формуле (блок 621 = t 4; pos 6 = sad по блоку 610: 616 = t 3 sad); файл 't 4 sad.webp' существует
 975,ha 3 happy,1,1317,3866,lay7,ch3 part3; block 973 pos 2; PROVISIONAL (pos 2 = happy по блоку 951 пиксель-вериф.: 951/953/955/957/959; блок 973: 973/977/979/981 = base/angry/sad/shy пиксель-вериф.; USES=1 = 1317; ещё 1002/1102/3987 в chapter_04)

@@ -9647,3 +9647,312 @@ translate japanese strings:
 
     old "Sure~ I'll even give you a handicap. Come at me with everything you've got!"
     new "そーね。ハンデをつけてあげるわ。本気でかかってらっしゃい！"
+
+    old "Hah, hah, hah… My, my — you've gotten pretty good, haven't you?"
+    new "ハァハァハァ……。な、なかなかやるようになったじゃないの。"
+
+    old "Hah, hah, hah… You too, Kirche…"
+    new "キュルケ、あなたこそ……。ハァハァハァ……。"
+
+    old "Well, y'know… I'm just glad the duel ended without anyone getting seriously hurt."
+    new "まあ、なんだ……。お互い、大けがせずに決闘が終わって良かったな。"
+
+    old "Louise!"
+    new "ルイズさん！"
+
+    old "Haruna! What are you doing here?"
+    new "ハルナ！なんで、ここに？"
+
+    old "She's been here the whole time, apparently."
+    new "さっきからここにいたって。"
+
+    old "Because I played sick, it all blew up into this huge mess! I'm so sorry, everyone!"
+    new "私が仮病を使ったばっかりに、こんな大事になってしまって！みなさんごめんなさいっ！"
+
+    old "I faked being sick… just because I wanted Hiraga-kun's attention…"
+    new "平賀くんに構ってもらいたいばっかりに、仮病を使って……。"
+
+    old "I really am… I really am the worst — I just keep doing awful, selfish things…"
+    new "私って、本当に……。本当にどうしようもなく、ずるいことばっかりして……。"
+
+    old "Guh… sniff… guh…"
+    new "グスッ……スンッ、グスッ……。"
+
+    old "W-well! Even if you fake-cry, I'm not falling for it!"
+    new "なっ、なによっ！そんな泣き真似したって、わたしは騙されたりしないんだからぁ！"
+
+    old "Hey now, 'fake crying' is a bit much… That's going too far, Louise."
+    new "おいおい、泣き真似って……。そりゃないだろ、ルイズ。"
+
+    old "Besides, Saito — you fall for anything way too easily!"
+    new "だいたいね、サイト。あなたは簡単に騙されすぎるのよっ！"
+
+    old "Maybe so. Looks like you were the only one, Darling, who didn't notice she was faking."
+    new "そうかもね。仮病に気づいてなかったの、ダーリンだけみたいだし。"
+
+    old "I adore that about you, Darling… but being too sweet to girls is, in its own way, a crime, you know?"
+    new "そんなダーリンがたまらなく好きだけど……。女の子に優しすぎるのは、ある意味罪になっちゃうわよ？"
+
+    old "That's true. Saito-san is too kind…"
+    new "そうですね。サイトさんは優しすぎです……。"
+
+    old "Guh, sniff… guh…"
+    new "グスッ、スンッ……。グスッ……。"
+
+    old "Y'know, that's me all right. When I see a girl crying…"
+    new "やっぱり、俺ってさ。女の子が泣いてるのを見ると……。"
+
+    old "…I just want to protect her."
+    new "かばいたくなるんだよね。"
+
+    old "That's exactly what being fooled looks like! If you rush to defend every girl's tears, you'll wear yourself out!"
+    new "もう、それが騙されてるって言ってるのよ。女の子の涙をいちいちかばってたら、身が持たないわよ。"
+
+    old "Well, yeah, I guess. …Just instinct, y'know."
+    new "そりゃまあ、そうなんだけど。つい、ね。"
+
+    old "…I want to believe her unconditionally."
+    new "無条件に信じてあげたくなっちゃう。"
+
+    old "With that, you'll just get fooled again. Absolutely."
+    new "そんなんじゃあ、また騙されるわね。間違いなく。"
+
+    old "Nah, I think I can at least tell the obvious fake tears."
+    new "いや、さすがに露骨なウソ泣きは分かるんじゃないかなぁ。"
+
+    old "In your dreams."
+    new "無理ね。"
+
+    old "…It kind of sends a chill down my spine."
+    new "なんかこう、ゾクゾクとくるんだよね。"
+
+    old "Um… are you saying that in all seriousness?"
+    new "えーっと、それ本気で言ってるのかしら？"
+
+    old "Kidding! A total joke!! Don't go taking it seriously!"
+    new "ウソウソ！　これはウソだから！！本気にしないでくれよ！"
+
+    old "…Pervert."
+    new "……変態。"
+
+    old "It's because you're like that, Saito — I didn't catch on that Haruna was faking the whole time!"
+    new "サイトがそんな風だから、最後までハルナが仮病だってことが分かんなかったのよ！"
+
+    old "Haruna tried to fool all of us — just so she could keep you all to herself!"
+    new "ハルナはね、サイトを独り占めにしたいって理由で、わたし達全員を騙そうとしてたのよっ！"
+
+    old "Why can't you understand something that obvious?!"
+    new "なんでそんな単純なことが、サイトには理解できないのよ！"
+
+    old "I get that you're mad, Louise. But hear me out, okay?"
+    new "ルイズが腹を立ててるのは分かるけど、俺の話をちゃんと聞いてくれ。"
+
+    old "W-what… Making that serious face all of a sudden!"
+    new "な、なによ……。急に真剣な顔しちゃってさ！"
+
+    old "I came to this strange world from my own, too — so I know exactly how Haruna feels."
+    new "俺も自分達の世界から、見知らぬ世界に来てしまったから春奈の気持ちがよく分かるんだよ。"
+
+    old "When I was summoned to this world, I was plenty scared myself."
+    new "こっちの世界に召喚されたとき、俺だってかなり不安だったんだ。"
+
+    old "Surrounded by scenery I'd never seen, with nobody anywhere who knew me."
+    new "今まで見たことのない景色の中で、自分を知ってるやつが誰もいない。"
+
+    old "You can all imagine just how scary that is, right?"
+    new "それがどれだけ不安なことか、みんなにも想像できるだろ？"
+
+    old "In that situation, if there's someone you know — it's only natural you'd want to lean on them, don't you think?"
+    new "そんな状況で、自分の知り合いがいたら、頼りたくなっちゃうって、仕方のないことだと思わないか？"
+
+    old "Sure, I know what Haruna did wasn't something to praise."
+    new "そりゃ、春奈のやったことが褒められないことだということは分かる。"
+
+    old "That's why she's apologizing. She's asking if you can find it in you to forgive her."
+    new "だから、春奈が謝ってるんだ。許してあげてくれないかって思うんだ。"
+
+    old "But I'm really grateful to you, Louise."
+    new "でも俺、ルイズにはとても感謝してるんだぞ。"
+
+    old "R-really…?"
+    new "そ、そう……？"
+
+    old "I mean, at first you maybe didn't treat me like a human… but still…"
+    new "そりゃ、最初は人間として扱ってくれなかったかもしれないけど……。"
+
+    old "Because you acknowledged that I'm allowed to be here — that's why I have this life now. So… that's why…"
+    new "ルイズが、俺がここにいていいんだってことを認めてくれたから、今があるんだ。だからさ……。"
+
+    old "F-fine! I get it already! I just have to forgive Haruna, right?"
+    new "わ、分かったわよ、もうっ！ハルナのこと、許せばいいんでしょ？"
+
+    old "And I sort of understand why she faked being sick…"
+    new "ハルナが仮病を使ったわけもだいたい理解できたし……。"
+
+    old "I forgive Haruna-san too, you know."
+    new "わたしもハルナさんのこと、許しますね。"
+
+    old "If Darling puts it that way, I've got no reason to be upset."
+    new "ダーリンがそこまで言うのなら、あたしが腹を立てる理由はないわね。"
+
+    old "I was never mad to begin with."
+    new "元々、立ててない。"
+
+    old "Everyone… I'm sorry for everything. And… thank you."
+    new "みなさん、今までごめんなさい。そして、ありがとう……。"
+
+    old "Hiraga-kun. Hiraga-kun!"
+    new "平賀くん、平賀くん。"
+
+    old "What's up?"
+    new "どうしたの？"
+
+    old "Louise asked me to organize this shelf, but I'm stumped — I can't figure it out."
+    new "この棚の整理をルイズさんに頼まれてるんだけど、分からなくて困ってるの。"
+
+    old "Let me see… If it's something I can do, just say the word."
+    new "どれどれ？俺にできることなら、何でも言ってよ。"
+
+    old "Thank you! Well then…"
+    new "ありがとう！それじゃあね……。"
+
+    old "Honestly, that Saito! In the end it's all about Haruna! If he wanted to know how the shelf works, he could've asked me!"
+    new "サイトのヤツったら、なによ！結局、ハルナに構ってばっかりじゃない。棚の使い方ならわたしに聞けばいいじゃない！"
+
+    old "A dog! He's a dog! Wags his tail at anyone and everyone — he's definitely a dog!"
+    new "イヌよ、イヌ！誰にでも尻尾を振る、イヌに違いないわっ！"
+
+    old "That's so true… Maybe I should get sick too…"
+    new "そうですよね……。わたしも病気になっちゃおうかなぁ……。"
+
+    old "Hm? Siesta? Did you just say something?!"
+    new "ん？シエスタ？今、なんか言ったっ！？"
+
+    old "N-no! It was nothing, Miss Vallière!"
+    new "い、いえ！なんでもないです、ミス・ヴァリエール！"
+
+    old "Oh, Louise — you're here. …Weren't you going out somewhere?"
+    new "あっ、ルイズここにいたんだ……。どこかに出かけないのか？"
+
+    old "Saito, where have you been? I've been all feverish and miserable…"
+    new "サイト、どこに行ってたのよ。わたし、なんだか体が熱っぽくて、大変なんだからぁ……。"
+
+    old "Whoa, that's some fever. Did you catch a cold?"
+    new "すごい熱じゃねーか。風邪でもひいたのか？"
+
+    old "Maybe a cold…"
+    new "風邪かも……。"
+
+    old "Why didn't you say something?"
+    new "どうして言わないんだよ。"
+
+    old "Because… I did something awful to Haruna, didn't I? I couldn't exactly go around saying I had a fever."
+    new "だって……。わたしハルナにひどいことしちゃったでしょ？熱がでてるなんて言えるわけないじゃない。"
+
+    old "Idiot! Stop being so stubborn. Now be a good girl and just lie down."
+    new "馬鹿！意地張ってんじゃねーよ。ほら、素直に寝ろって。"
+
+    old "You're such an idiot, Saito… You can't go ordering your master around…"
+    new "バカサイトのくせに、ご主人様に命令しないでよ……。"
+
+    old "This isn't an order — it's a favor. Get into bed, already!"
+    new "命令じゃねー。お願いだ。早く布団に寝ろ！"
+
+    old "…Okay."
+    new "うん。"
+
+    old "How's that, Louise?"
+    new "どうだルイズ？"
+
+    old "Mm. The towel's nice and cold — feels good."
+    new "うん、タオルが冷たくて気持ちがいい。"
+
+    old "Is that so? …Good."
+    new "そうか？そりゃ、良かった。"
+
+    old "Anything else you need?"
+    new "何か必要なものはないか？"
+
+    old "Hmm…{#ch3.8_l_025}"
+    new "うーん……。"
+
+    old "Hm?"
+    new "うん？"
+
+    old "I kind of want you to do something for me, Saito…"
+    new "サイトに何かしてほしいなぁ。"
+
+    old "Something, huh…"
+    new "何かねぇ……。"
+
+    old "I'll peel the apple for you."
+    new "リンゴをむいてやるな。"
+
+    old "An apple?"
+    new "リンゴ？"
+
+    old "Yeah — an apple. They're great for a cold, y'know."
+    new "うん、リンゴ。結構風邪には良く効くんだぜ。"
+
+    old "I'll peel it, so hang on."
+    new "俺が皮をむいてやるから待ってな。"
+
+    old "…Okay.{#ch3.8_l_028}"
+    new "うん……。"
+
+    old "How clumsy."
+    new "不器用。"
+
+    old "Don't say that. That kitchen knife was huge, okay?"
+    new "そういうなって。調理場のナイフ大きかったんだから。"
+
+    old "But… it's tasty."
+    new "でも、おいしい。"
+
+    old "Yeah?{#ch3.8_s_038}"
+    new "そうか？"
+
+    old "Want me to wipe you down? You're all sweaty."
+    new "体を拭いてやろうか？汗かいてるんだろ？"
+
+    old "No.{#ch3.8_l_031}"
+    new "いや。"
+
+    old "Yeah… fair enough. Sorry."
+    new "まぁ、そうだよな。ごめん。"
+
+    old "But… if I'm still asleep tomorrow, I could let you wipe me down."
+    new "でも……。明日まだ寝てるんだったら、拭かせてあげてもいいわよ。"
+
+    old "R-really? You mean it?"
+    new "い、いや、その……。本当？"
+
+    old "Idiot! Don't get the wrong idea! It's just my face — you're only wiping my face!"
+    new "バカ！勘違いしないでよね。顔を拭いてもらうだけなんだから！"
+
+    old "I-see…{#ch3.8_s_042}"
+    new "さいですか。"
+
+    old "Now then — how about I tell you a story? …Except I can't read a single one of these…"
+    new "どれ、お話でも聞かせてあげますか？って、どれも文字が読めないんだよなぁ……。"
+
+    old "Then tell me one you know, Saito."
+    new "だったら、サイトの知ってる話でいい。"
+
+    old "Is that so? Then… how about…"
+    new "そうか？だったら……。"
+
+    old "…Mm… So sleepy…"
+    new "うん……。眠い……。"
+
+    old "O-oh? Then you'd better get some sleep."
+    new "そ、そうか？だったら、寝たほうがいいな。"
+
+    old "Zzz… zzz…"
+    new "すぅ……。すぅ……。"
+
+    old "Looks like she finally fell asleep. I just hope she gets better by tomorrow…"
+    new "なんとか寝たみたいだな。これで元気になってくれればいいんだけど……。"
+
+    old "Well then — today, I'll just have to keep watch over my princess."
+    new "さて、今日はしばらく、お姫さまを見守るってことにしますか。"

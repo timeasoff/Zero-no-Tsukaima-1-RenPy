@@ -676,3 +676,21 @@ translate russian strings:
 
     old "How about treating them to sweets sometime?{#ch3_m202c}"
     new "Может, угостить их чем-нибудь сладким?"
+
+    old "…I just want to protect her.{#ch3_m207a}"
+    new "…Хочется её защитить."
+
+    old "…I want to believe her unconditionally.{#ch3_m207b}"
+    new "…Хочется верить ей безусловно."
+
+    old "…it kind of sends a chill down my spine.{#ch3_m207c}"
+    new "…Что-то такое… пробирает мурашками."
+
+    old "Peel an apple for her.{#ch3_m1059a}"
+    new "Облупить для неё яблоко."
+
+    old "Wipe her down.{#ch3_m1059b}"
+    new "Обтереть её тело."
+
+    old "Tell her a story.{#ch3_m1059c}"
+    new "Рассказать ей историю."

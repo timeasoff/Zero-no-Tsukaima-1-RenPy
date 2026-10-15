@@ -690,3 +690,15 @@ translate japanese strings:
 
     old "Siesta too…{#ch3.7_th_196}"
     new "（シエスタまで！）"
+
+    old "Ahhh… Mm, what a nice morning.{#ch3.8_th01}"
+    new "（ふわああ……。　んー、いい朝だなあ）"
+
+    old "…Looks like everyone's already finished their morning routine and gone off somewhere.{#ch3.8_th02}"
+    new "（……みんなもう、　朝の支度を終えてどっかへ出て行ってる　みたいだな）"
+
+    old "Well then… what should I do now?{#ch3.8_th03}"
+    new "（さてと……。　これからどうしよう？）"
+
+    old "………………{#ch3.8_null_1059}"
+    new "………。……。…。"

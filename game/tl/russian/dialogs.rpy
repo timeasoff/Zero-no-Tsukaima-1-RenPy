@@ -9653,3 +9653,312 @@ translate russian strings:
 
     old "Sure~ I'll even give you a handicap. Come at me with everything you've got!"
     new "Конечно~ Даже фору дам. Атакуй изо всех сил!"
+
+    old "Hah, hah, hah… My, my — you've gotten pretty good, haven't you?"
+    new "Ха-а… ха-а… ха-а… Ну и ну — ты уже неплохо дерёшься, да?"
+
+    old "Hah, hah, hah… You too, Kirche…"
+    new "Ха-а… ха-а… ха-а… Кирхе, ты тоже…"
+
+    old "Well, y'know… I'm just glad the duel ended without anyone getting seriously hurt."
+    new "Ну, как бы это сказать… Главное — дуэль кончилась, и никто не покалечился."
+
+    old "Louise!"
+    new "Луиза!"
+
+    old "Haruna! What are you doing here?"
+    new "Харуна! Что ты тут делаешь?"
+
+    old "She's been here the whole time, apparently."
+    new "Говорит, тут была всё это время."
+
+    old "Because I played sick, it all blew up into this huge mess! I'm so sorry, everyone!"
+    new "Из-за меня всё раздулось — я притворилась, а вышло как вышло! Простите меня, все!"
+
+    old "I faked being sick… just because I wanted Hiraga-kun's attention…"
+    new "Я притворилась больной… только чтобы Хирага-кун мной занялся…"
+
+    old "I really am… I really am the worst — I just keep doing awful, selfish things…"
+    new "Я правда… правда невозможная — делаю только гадости и всё время подличаю…"
+
+    old "Guh… sniff… guh…"
+    new "Хны… всхлип… хны…"
+
+    old "W-well! Even if you fake-cry, I'm not falling for it!"
+    new "Н-ну и что! Даже если притворно плачешь — я всё равно не ведусь!"
+
+    old "Hey now, 'fake crying' is a bit much… That's going too far, Louise."
+    new "Эй, «притворный плач» — это уже перебор… Так нельзя, Луиза."
+
+    old "Besides, Saito — you fall for anything way too easily!"
+    new "И вообще, Сайто — ты слишком легко ведёшься!"
+
+    old "Maybe so. Looks like you were the only one, Darling, who didn't notice she was faking."
+    new "Может и так. Похоже, только ты, Дорогой, не заметил, что она притворялась."
+
+    old "I adore that about you, Darling… but being too sweet to girls is, in its own way, a crime, you know?"
+    new "Я обожаю тебя за это, Дорогой… но слишком добрый к девушкам — это, в своём роде, преступление, знаешь?"
+
+    old "That's true. Saito-san is too kind…"
+    new "Верно. Сайто-сан слишком добр…"
+
+    old "Guh, sniff… guh…"
+    new "Хны, всхлип… хны…"
+
+    old "Y'know, that's me all right. When I see a girl crying…"
+    new "Вот я какой, да. Как вижу плачущую девушку…"
+
+    old "…I just want to protect her."
+    new "…Хочется её защитить."
+
+    old "That's exactly what being fooled looks like! If you rush to defend every girl's tears, you'll wear yourself out!"
+    new "Вот именно это и называется «ведёшься»! Защищай чужие слёзы направо и налево — и совсем из сил выбьешься!"
+
+    old "Well, yeah, I guess. …Just instinct, y'know."
+    new "Ну да, вроде того. …Рефлекс, что ли."
+
+    old "…I want to believe her unconditionally."
+    new "…Хочется верить ей безусловно."
+
+    old "With that, you'll just get fooled again. Absolutely."
+    new "С таким подходом тебя снова обманут. Точно."
+
+    old "Nah, I think I can at least tell the obvious fake tears."
+    new "Не, думаю, очевидную фальшивку я всё-таки отличаю."
+
+    old "In your dreams."
+    new "Ну уж нет."
+
+    old "…It kind of sends a chill down my spine."
+    new "…Что-то такое… пробирает мурашками."
+
+    old "Um… are you saying that in all seriousness?"
+    new "Э-эм… ты это серьёзно?"
+
+    old "Kidding! A total joke!! Don't go taking it seriously!"
+    new "Шучу! Это шутка!! Не принимай всерьёз!"
+
+    old "…Pervert."
+    new "…Маньяк."
+
+    old "It's because you're like that, Saito — I didn't catch on that Haruna was faking the whole time!"
+    new "Это из-за тебя, Сайто — я так и не поняла, что Харуна притворялась!"
+
+    old "Haruna tried to fool all of us — just so she could keep you all to herself!"
+    new "Харуна хотела обмануть всех нас… только чтобы заполучить тебя одну!"
+
+    old "Why can't you understand something that obvious?!"
+    new "Как такое простое дело тебе не понятно?!"
+
+    old "I get that you're mad, Louise. But hear me out, okay?"
+    new "Понимаю, ты злишься, Луиза. Но выслушай меня."
+
+    old "W-what… Making that serious face all of a sudden!"
+    new "Н-ну и что… Вдруг такую серьёзную рожу нажил!"
+
+    old "I came to this strange world from my own, too — so I know exactly how Haruna feels."
+    new "Я тоже пришёл в этот незнакомый мир из своего, так что чувствую Харуну как никто."
+
+    old "When I was summoned to this world, I was plenty scared myself."
+    new "Когда меня призвали в этот мир, я тоже очень нервничал."
+
+    old "Surrounded by scenery I'd never seen, with nobody anywhere who knew me."
+    new "Вокруг — пейзажи, которых я никогда не видел, и ни одна душа меня не знает."
+
+    old "You can all imagine just how scary that is, right?"
+    new "Можете представить, каково это, правда?"
+
+    old "In that situation, if there's someone you know — it's only natural you'd want to lean on them, don't you think?"
+    new "В такой ситуации, если есть хоть кто-то знакомый — хочется на него положиться. Разве это не естественно?"
+
+    old "Sure, I know what Haruna did wasn't something to praise."
+    new "Конечно, я понимаю — делать так нельзя."
+
+    old "That's why she's apologizing. She's asking if you can find it in you to forgive her."
+    new "Поэтому Харуна и извиняется. Она просит тебя её простить."
+
+    old "But I'm really grateful to you, Louise."
+    new "Но я тебе очень благодарен, Луиза."
+
+    old "R-really…?"
+    new "П-правда…?"
+
+    old "I mean, at first you maybe didn't treat me like a human… but still…"
+    new "Ну, вначале ты, может, и не считала меня человеком… но всё-таки…"
+
+    old "Because you acknowledged that I'm allowed to be here — that's why I have this life now. So… that's why…"
+    new "Ты признала, что мне здесь место — вот у меня и есть всё это. Так что… ну…"
+
+    old "F-fine! I get it already! I just have to forgive Haruna, right?"
+    new "Л-ладно, хватит! Просто надо её простить, да?"
+
+    old "And I sort of understand why she faked being sick…"
+    new "Я в целом понимаю, зачем Харуна притворялась…"
+
+    old "I forgive Haruna-san too, you know."
+    new "Я тоже прощаю Харуну."
+
+    old "If Darling puts it that way, I've got no reason to be upset."
+    new "Если Дорогой так говорит — мне незачем злиться."
+
+    old "I was never mad to begin with."
+    new "Я и не злилась."
+
+    old "Everyone… I'm sorry for everything. And… thank you."
+    new "Все… простите меня за всё. И… спасибо."
+
+    old "Hiraga-kun. Hiraga-kun!"
+    new "Хирага-кун, Хирага-кун!"
+
+    old "What's up?"
+    new "Что такое?"
+
+    old "Louise asked me to organize this shelf, but I'm stumped — I can't figure it out."
+    new "Луиза попросила меня навести тут порядок, но я не понимаю, как — и в затруднении."
+
+    old "Let me see… If it's something I can do, just say the word."
+    new "Дай гляну… Если я могу помочь — скажи, что делать."
+
+    old "Thank you! Well then…"
+    new "Спасибо! Ну, тогда…"
+
+    old "Honestly, that Saito! In the end it's all about Haruna! If he wanted to know how the shelf works, he could've asked me!"
+    new "Ну и Сайто-то! Всё время только Харуной и занят! Спроши у меня, как эта полка работает — вот и всё!"
+
+    old "A dog! He's a dog! Wags his tail at anyone and everyone — he's definitely a dog!"
+    new "Собака! Собака! Хвостом виляет всякому — точно собака!"
+
+    old "That's so true… Maybe I should get sick too…"
+    new "Верно-о… Может, и мне заболеть…"
+
+    old "Hm? Siesta? Did you just say something?!"
+    new "А? Сиеста? Ты что-то сказала?!"
+
+    old "N-no! It was nothing, Miss Vallière!"
+    new "Н-нет! Ничего, мадемуазель Вальер!"
+
+    old "Oh, Louise — you're here. …Weren't you going out somewhere?"
+    new "А, Луиза, вот ты где… Разве никуда не собираешься?"
+
+    old "Saito, where have you been? I've been all feverish and miserable…"
+    new "Сайто, где ты пропадал? Мне уже жарко и плохо совсем…"
+
+    old "Whoa, that's some fever. Did you catch a cold?"
+    new "Ого, горишь! Простыла что ли?"
+
+    old "Maybe a cold…"
+    new "Может, простыла…"
+
+    old "Why didn't you say something?"
+    new "Почему не сказала?"
+
+    old "Because… I did something awful to Haruna, didn't I? I couldn't exactly go around saying I had a fever."
+    new "Потому что… я же сделала Харуне гадость, верно? Как я могла сказать, что у меня температура."
+
+    old "Idiot! Stop being so stubborn. Now be a good girl and just lie down."
+    new "Дура! Не будь такой упрямой. Ну-ка ложись и не спорь."
+
+    old "You're such an idiot, Saito… You can't go ordering your master around…"
+    new "Сам ты дурак, Сайто… Приказывать своей госпоже нельзя…"
+
+    old "This isn't an order — it's a favor. Get into bed, already!"
+    new "Это не приказ — это просьба. Бегом в постель!"
+
+    old "…Okay."
+    new "…Хорошо."
+
+    old "How's that, Louise?"
+    new "Ну как, Луиза?"
+
+    old "Mm. The towel's nice and cold — feels good."
+    new "Мм. Полотенце холодное — так приятно."
+
+    old "Is that so? …Good."
+    new "Да? Ну и ладно."
+
+    old "Anything else you need?"
+    new "Тебе что-нибудь нужно?"
+
+    old "Hmm…{#ch3.8_l_025}"
+    new "Ну-у-у…"
+
+    old "Hm?"
+    new "А?"
+
+    old "I kind of want you to do something for me, Saito…"
+    new "Хочется, чтобы ты для меня кое-что сделал…"
+
+    old "Something, huh…"
+    new "Кое-что, говоришь…"
+
+    old "I'll peel the apple for you."
+    new "Я тебе яблоко облуплю."
+
+    old "An apple?"
+    new "Яблоко?"
+
+    old "Yeah — an apple. They're great for a cold, y'know."
+    new "Угу, яблоко. От простуды очень помогает, между прочим."
+
+    old "I'll peel it, so hang on."
+    new "Я сейчас очищу — подожди."
+
+    old "…Okay.{#ch3.8_l_028}"
+    new "…Угу."
+
+    old "How clumsy."
+    new "Какой ты неловкий."
+
+    old "Don't say that. That kitchen knife was huge, okay?"
+    new "Не говори так. Там на кухне нож огромный."
+
+    old "But… it's tasty."
+    new "Но вкусно."
+
+    old "Yeah?{#ch3.8_s_038}"
+    new "Правда?"
+
+    old "Want me to wipe you down? You're all sweaty."
+    new "Протереть тебя? Ты же вся в поту."
+
+    old "No.{#ch3.8_l_031}"
+    new "Нет."
+
+    old "Yeah… fair enough. Sorry."
+    new "Ну да, верно. Прости."
+
+    old "But… if I'm still asleep tomorrow, I could let you wipe me down."
+    new "Но… если завтра я ещё буду лежать… могу разрешить."
+
+    old "R-really? You mean it?"
+    new "Н-ну, э-э… Правда?!"
+
+    old "Idiot! Don't get the wrong idea! It's just my face — you're only wiping my face!"
+    new "Дурак! Не придумывай! Только лицо — ты просто вытреешь мне лицо!"
+
+    old "I-see…{#ch3.8_s_042}"
+    new "Понятно-о…"
+
+    old "Now then — how about I tell you a story? …Except I can't read a single one of these…"
+    new "Что ж, рассказать тебе сказку? …Только вот ни одну я прочитать не могу…"
+
+    old "Then tell me one you know, Saito."
+    new "Тогда расскажи то, что сам знаешь."
+
+    old "Is that so? Then… how about…"
+    new "Да? Тогда…"
+
+    old "…Mm… So sleepy…"
+    new "…Мм… Сонно…"
+
+    old "O-oh? Then you'd better get some sleep."
+    new "А-а? Тогда лучше поспи."
+
+    old "Zzz… zzz…"
+    new "Хр-р-р… хр-р-р…"
+
+    old "Looks like she finally fell asleep. I just hope she gets better by tomorrow…"
+    new "Вот и уснула. Осталось, чтобы она поправилась…"
+
+    old "Well then — today, I'll just have to keep watch over my princess."
+    new "Что ж, сегодня я, пожалуй, побуду присмотром за принцессой."

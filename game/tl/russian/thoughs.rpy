@@ -685,3 +685,15 @@ translate russian strings:
 
     old "Siesta too…{#ch3.7_th_196}"
     new "И Сиеста тоже…"
+
+    old "Ahhh… Mm, what a nice morning.{#ch3.8_th01}"
+    new "А-а-а… Мм, какое хорошее утро."
+
+    old "…Looks like everyone's already finished their morning routine and gone off somewhere.{#ch3.8_th02}"
+    new "…Кажется, все уже закончили с утренними хлопотами и разошлись."
+
+    old "Well then… what should I do now?{#ch3.8_th03}"
+    new "Ну что ж… Чем бы заняться?"
+
+    old "………………{#ch3.8_null_1059}"
+    new "………………"

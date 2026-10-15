@@ -682,3 +682,21 @@ translate japanese strings:
 
     old "How about treating them to sweets sometime?{#ch3_m202c}"
     new "今度お菓子でもおごってみたら？"
+
+    old "…I just want to protect her.{#ch3_m207a}"
+    new "かばいたくなるんだよね"
+
+    old "…I want to believe her unconditionally.{#ch3_m207b}"
+    new "無条件に信じてあげたくなっちゃう"
+
+    old "…it kind of sends a chill down my spine.{#ch3_m207c}"
+    new "なんかこう、ゾクゾクくるんだよね"
+
+    old "Peel an apple for her.{#ch3_m1059a}"
+    new "リンゴをむいてあげる"
+
+    old "Wipe her down.{#ch3_m1059b}"
+    new "体を拭いてあげる"
+
+    old "Tell her a story.{#ch3_m1059c}"
+    new "お話を聞かせてあげる"
