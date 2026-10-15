@@ -658,3 +658,21 @@ translate russian strings:
 
     old "Why not let them go until both are satisfied?{#ch3_m192c}"
     new "Может, дать им сразиться, пока обе не будут довольны?"
+
+    old "Sorry — that's a bit of a shock…{#ch3_m197a}"
+    new "Прости, это немного шокирует…"
+
+    old "I'm just glad you weren't really sick{#ch3_m197b}"
+    new "Главное — ты была здорова"
+
+    old "You don't have to worry about me{#ch3_m197c}"
+    new "Не переживай из-за меня"
+
+    old "Why not just apologize honestly?{#ch3_m202a}"
+    new "Может, просто честно извиниться?"
+
+    old "You don't have to apologize{#ch3_m202b}"
+    new "Не нужно извиняться"
+
+    old "How about treating them to sweets sometime?{#ch3_m202c}"
+    new "Может, угостить их чем-нибудь сладким?"

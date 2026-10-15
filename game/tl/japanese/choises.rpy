@@ -664,3 +664,21 @@ translate japanese strings:
 
     old "Why not let them go until both are satisfied?{#ch3_m192c}"
     new "お互いが納得ゆくまでやらせれば？"
+
+    old "Sorry — that's a bit of a shock…{#ch3_m197a}"
+    new "ごめん、ちょっとショック……"
+
+    old "I'm just glad you weren't really sick{#ch3_m197b}"
+    new "本当に病気じゃなくて良かった"
+
+    old "You don't have to worry about me{#ch3_m197c}"
+    new "俺のことなら、気にしなくていいよ"
+
+    old "Why not just apologize honestly?{#ch3_m202a}"
+    new "素直に謝ってみたら？"
+
+    old "You don't have to apologize{#ch3_m202b}"
+    new "謝らなくてもいいよ"
+
+    old "How about treating them to sweets sometime?{#ch3_m202c}"
+    new "今度お菓子でもおごってみたら？"

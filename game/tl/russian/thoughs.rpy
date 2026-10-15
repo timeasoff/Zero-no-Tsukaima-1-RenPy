@@ -682,3 +682,6 @@ translate russian strings:
 
     old "Somehow, before I knew it, this got way out of hand…{#ch3.6_th_192}"
     new "Незаметно для меня всё вышло из-под контроля…"
+
+    old "Siesta too…{#ch3.7_th_196}"
+    new "И Сиеста тоже…"

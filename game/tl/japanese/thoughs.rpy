@@ -687,3 +687,6 @@ translate japanese strings:
 
     old "Somehow, before I knew it, this got way out of hand…{#ch3.6_th_192}"
     new "（なんだか知らないうちに、　えらいことになっちゃったぞ……）"
+
+    old "Siesta too…{#ch3.7_th_196}"
+    new "（シエスタまで！）"

@@ -9305,3 +9305,345 @@ translate japanese strings:
 
     old "Right…"
     new "そうだな……。"
+
+    old "But they won't listen to a word I say."
+    new "でも、俺の言うことなんて聞かないよ。"
+
+    old "You won't know unless you try, will you?!"
+    new "そんなこと、やってみなければ分からないじゃないですか！"
+
+    old "A-all right…"
+    new "分かったよ……。"
+
+    old "Louise, call off this duel! What if you get hurt?"
+    new "ルイズ、決闘なんてやめろ！第一、怪我したらどうするんだ。"
+
+    old "Hurt? You — my own familiar — think I'd lose?"
+    new "怪我ですって？あなた、わたしの使い魔のクセに、わたしが負けるとでも思ってるの？"
+
+    old "N-no, that's not what I meant…"
+    new "いや、そういう意味じゃなくて……。"
+
+    old "Anyway — do you even know what caused all this?"
+    new "だいたい、サイトは何が原因でこんなことになってるのか分かってるの？"
+
+    old "Umm… the size of your breasts?"
+    new "えーっと……胸の大きさのこと？"
+
+    old "You idiot! Just stay out of it, Saito!"
+    new "ばっかじゃないのっ！もう、サイトは引っ込んでて！"
+
+    old "Y-yes, ma'am…"
+    new "は、はい……。"
+
+    old "Saito, you dummy…"
+    new "サイトさんの馬鹿……。"
+
+    old "Ee-eh!?"
+    new "えーっ？"
+
+    old "Girls shouldn't be dueling."
+    new "女の子が決闘しちゃまずいもんな。"
+
+    old "That's right! Duels are no good."
+    new "はい！決闘なんてよくないです。"
+
+    old "Louise, call off the duel! Nothing good can come of it, right?"
+    new "ルイズ、決闘なんてやめろ！何の得にもならないだろ？"
+
+    old "Honestly, you… If we go back to the root of it all, everything…"
+    new "あんたねぇ……。元を正せば、全部……。"
+
+    old "…No. It's not just that."
+    new "……ううん。それだけでもないわね。"
+
+    old "Even before you came, Saito, I knew Kirche and I had to settle this once and for all. So be quiet."
+    new "サイトが来る前から、キュルケとは一度、勝負しなくちゃならないって思ってたの。だから、サイトは黙ってて。"
+
+    old "…No good. So their feud ran that deep, huh."
+    new "……ダメか。この２人の争いって、そんなに根深いものだったのか。"
+
+    old "Why not let them go until they're both satisfied?"
+    new "お互いが納得行くまでやらせれば？"
+
+    old "Saito-san, how can you…"
+    new "そんな、サイトさん……。"
+
+    old "If they don't go until they're satisfied, the bad blood never goes away, right?"
+    new "お互い、納得の行くまでやらないとさ。わだかまりって消えないものだろ？"
+
+    old "But this is a duel between nobles. Someone could get seriously hurt…"
+    new "ですが、貴族同士の決闘ですよ？怪我だけでは済みません……。"
+
+    old "Hmm…"
+    new "うーん……。"
+
+    old "Hey, you two — maybe you should still call it off…"
+    new "なあ、２人とも。やっぱり決闘はやめた方が……。"
+
+    old "Be quiet, Saito! We've already decided to fight!"
+    new "サイトは黙ってて！もう戦うって決めたんだから！"
+
+    old "Well, that's that. No way I can stop them."
+    new "こりゃ、ダメだ。とても止められそうにないよ。"
+
+    old "Say, Kirche — the peanut gallery's getting loud. Shall we take it outside?"
+    new "ねぇ、キュルケ。外野がうるさいから、外へ出ない？"
+
+    old "Sure. I'd feel bad tearing the room to shreds."
+    new "ええ、いいわよ。部屋までボロボロにしちゃったら、気が引けるものね。"
+
+    old "Hmph! Say all you want while you still can!"
+    new "ふん！今のうちに好きなだけ言ってなさいよ！"
+
+    old "Ah! Please wait, both of you—!"
+    new "あっ！お二人とも待ってくださーい！"
+
+    old "Um, Hiraga-kun… They said they'd duel — is that okay?"
+    new "ねえ、平賀くん……。決闘するって言ってたけど、大丈夫なの？"
+
+    old "No, it's not okay. How am I supposed to stop them…"
+    new "いや、駄目だろ。どうやって止めたらいいんだろう……。"
+
+    old "Still — I can't believe those two are actually going to duel for real…"
+    new "それにしても、あの２人が本気で決闘するだなんてなぁ……。"
+
+    old "They said they never got along before I came here — maybe it's all just piled up over time."
+    new "俺がこっちに来る前から２人とも仲が悪かったって言ってたし、積もり積もった結果なのかもな。"
+
+    old "I-see…{#ch3.7_ha_002}"
+    new "そ、そうなんだ……。"
+
+    old "…No.{#ch3.7_t_001}"
+    new "……ちがう。"
+
+    old "Huh?{#ch3.7_s_019}"
+    new "えっ？"
+
+    old "It's all your fault."
+    new "悪いのは全部あなた。"
+
+    old "Huh? Why me!?"
+    new "えっ、なんで俺が！？"
+
+    old "…{#ch3.7_t_v01}"
+    new "……。"
+
+    old "Say something—!"
+    new "なんか言ってくれよーっ！"
+
+    old "And then…"
+    new "それから……。"
+
+    old "M-me?{#ch3.7_ha_003}"
+    new "わ、私ですか？"
+
+    old "You… too stubborn for your own good."
+    new "あなた……意地、張りすぎ。"
+
+    old "…{#ch3.7_ha_v01}"
+    new "……。"
+
+    old "Hey now, Tabitha — what do you mean Haruna's too stubborn?"
+    new "おいおいタバサ、春奈が意地張りすぎって、どういうことだよ？"
+
+    old "…{#ch3.7_t_v02}"
+    new "……。"
+
+    old "Um, Hiraga-kun… There's something I have to apologize for."
+    new "ねえ、平賀くん……。私、謝らなきゃならないことがあるの。"
+
+    old "What's this all of a sudden…"
+    new "なんだよ、急に……。"
+
+    old "You've been taking care of me all this time… but the truth is, I wasn't really sick."
+    new "今まで看病してもらってたけど……。実は病気っていうのはウソだったの。"
+
+    old "Huh? You mean you faked it? …Really?"
+    new "えっ、仮病ってこと？……本当に？"
+
+    old "Yes, really… Well, I did feel awful the first day…"
+    new "うん、本当……。そりゃ、最初の一日は具合が悪かったけど……。"
+
+    old "But the day after that, I got better so fast it was surprising…"
+    new "その次の日からはびっくりするくらい体調が良くなって……。"
+
+    old "But you were so kind to me, Hiraga-kun… I guess I just let myself enjoy it…"
+    new "でも、平賀くんがやさしくしてくれるから、それに甘えちゃって……。"
+
+    old "I see…{#ch3.7_s_025}"
+    new "そっか……。"
+
+    old "I'm sorry, Hiraga-kun."
+    new "ごめんね、平賀くん。"
+
+    old "Sorry — that's a bit of a shock…"
+    new "ごめん、ちょっとショック……。"
+
+    old "Hiraga-kun, I'm sorry…"
+    new "平賀くん、ごめんなさい……。"
+
+    old "No, I'm at fault too for not noticing."
+    new "いや、気づかなかった俺も悪いし。"
+
+    old "I'm truly sorry."
+    new "本当にごめんなさい。"
+
+    old "Still — I'm really glad you weren't sick."
+    new "でも、本当に病気じゃなくて良かった。"
+
+    old "…You're not angry?"
+    new "……怒ってない？"
+
+    old "Hmm, a little. But I'm happier that you weren't really sick."
+    new "んー、そりゃちょっとはね。でもさ、俺は春奈が病気じゃなかったことの方が嬉しいんだよね。"
+
+    old "In the end, no matter what, healthy beats sick any day."
+    new "やっぱり、なんだかんだ言っても病気よりも健康の方がいいもんな。"
+
+    old "Hiraga-kun…{#ch3.7_ha_014}"
+    new "平賀くん……。"
+
+    old "You don't have to worry about me."
+    new "俺のことなら、気にしなくていいよ。"
+
+    old "It wasn't only because you were sick that I nursed you and looked after you."
+    new "春奈のことを看病したり面倒みてたのは、別に病気ってだけでみてたんじゃないんだからさ。"
+
+    old "You're not a stranger to me. I'd have looked after you even if you weren't sick."
+    new "知らない人じゃないんだ。きっと、病気じゃなくても面倒をみてたと思う。"
+
+    old "Hiraga-kun…{#ch3.7_ha_015}"
+    new "平賀くん……。"
+
+    old "So then — could it be… Siesta made the room hot, and Kirche goaded Haruna, because…?"
+    new "じゃあさ、ひょっとして……。シエスタが部屋を暑くしたり、キュルケが春奈を挑発してたのって……？"
+
+    old "Probably to make me confess that I was faking it. But I was stubborn too…"
+    new "たぶん、私が仮病だって白状させるためだと思う。でも、私も強情だったし……。"
+
+    old "I see… Then, like Tabitha said, it's my fault for not noticing the fake."
+    new "そっか……。そりゃ、タバサが言ったとおり、仮病だって気づかなかった俺が悪いな。"
+
+    old "No, Hiraga-kun, it's not your fault. The one at fault is me — abusing your kindness while I faked being sick…"
+    new "ううん、平賀くんは悪くないよ。悪いのは、仮病を使って平賀くんからの好意に甘えてた私……。"
+
+    old "Hey, Tabitha — am I really the only one who didn't catch on to Haruna's act?"
+    new "なあ、タバサ。もしかして、春奈の仮病に気づいてなかったのって、俺だけ？"
+
+    old "…Just you."
+    new "……あなただけ。"
+
+    old "So that's how it is…"
+    new "そうだったんだ……。"
+
+    old "Hurry."
+    new "急ぐ。"
+
+    old "Hurry, as in… Oh, right! I have to go stop Louise's duel right now!!"
+    new "急ぐって……。あっ、そうか！今すぐルイズ達の決闘を止めに行かなきゃ！！"
+
+    old "Say, it's fine to go stop Louise and the others — but do you know where they're fighting?"
+    new "ねえ、ルイズさん達の決闘を止めに行くのはいいけど、どこでやってるか場所は知ってるの？"
+
+    old "Probably the courtyard."
+    new "たぶん、中庭。"
+
+    old "Probably… Now, how do we stop them?"
+    new "そうだろうなぁ……。さて、どうやって止めよう。"
+
+    old "It's fine. I'll stop the magic. You explain."
+    new "大丈夫、魔法はわたしが止める。あなた達は説明。"
+
+    old "Got it.{#ch3.7_s_040}"
+    new "分かった。"
+
+    old "Um, Hiraga-kun."
+    new "ねぇ、平賀くん。"
+
+    old "What is it, Haruna?"
+    new "春奈、どうしたんだ？"
+
+    old "In the end, I caused trouble for Louise and Siesta… How should I apologize, do you think…"
+    new "結局、私がルイズさんや、シエスタさんに迷惑をかけてしまったんだけど、どう謝ったらいいんだろう……。"
+
+    old "Why not just apologize honestly? You didn't mean any real harm, Haruna — I'm sure they'll understand."
+    new "素直に謝ってみたら？春奈だって、そこまで悪気があったわけじゃないんだし、きっと分かってもらえるよ。"
+
+    old "D-do you think so…"
+    new "そ、そうかな……。"
+
+    old "You don't have to apologize."
+    new "謝らなくてもいいよ。"
+
+    old "Huh?{#ch3.7_ha_022}"
+    new "え？"
+
+    old "It's not like you did anything that bad, right? Maybe you don't need to apologize."
+    new "春奈はそこまで悪いことをしたわけじゃないんだろ？謝らなくてもいいんじゃないかな？"
+
+    old "No… I have to. I'll apologize honestly."
+    new "そんな……。駄目よ。素直に謝ってみる。"
+
+    old "How about treating them to sweets sometime?"
+    new "今度お菓子でもおごってみたら？"
+
+    old "But… I don't have any money in this world…"
+    new "でも……。私、この世界のお金を持っていないし……。"
+
+    old "Oh, right…"
+    new "あ、そっか……。"
+
+    old "Besides, I don't think that would make up for it. I'll apologize honestly."
+    new "第一、それで誠意が通じるとは思えない。素直に謝ってみる。"
+
+    old "Well, you never know until you try."
+    new "まぁ、何事もやってみなければ分からないよな。"
+
+    old "…Yeah."
+    new "そう……だね。"
+
+    old "Saito-san, you're late. Oh? Haruna — is that you? Is it okay for you to be here?"
+    new "サイトさん、遅いですよ。って、ハルナさんじゃないですか？こんなところにいて大丈夫ですか？"
+
+    old "I'm sorry, Siesta. I was faking my illness. That's why I want to apologize to Louise too…"
+    new "ごめんなさい、シエスタさん。私、仮病だったんです。だから、ルイズさんにも謝りたくて……。"
+
+    old "…{#ch3.7_si_v01}"
+    new "……。"
+
+    old "Siesta. I'm sorry too. So — can you forgive her?"
+    new "シエスタ。俺からも謝るよ。だから、許してあげてくれないか？"
+
+    old "No, I should be the one apologizing for being mean."
+    new "いえ、そんな……。わたしこそ意地悪をしてごめんなさい。"
+
+    old "Siesta…{#ch3.7_ha_028}"
+    new "シエスタさん……。"
+
+    old "…Oh, Saito!? You're late! What have you been doing!!"
+    new "……あっ、サイト！？遅かったじゃないの、何してたのよっ！！"
+
+    old "What do you mean, wh—… I came to stop Kirche and your duel… And Haruna wanted to apologize…"
+    new "なにって……。俺は、キュルケとお前の決闘を止めにだなぁ…。それに、春奈が謝りたいって……。"
+
+    old "Haruna can wait. Right now, I have to fight Kirche!"
+    new "ハルナのことは後にして。今は、キュルケと戦わなければならない時なの！"
+
+    old "That's insane."
+    new "そんな、無茶苦茶な。"
+
+    old "Too late."
+    new "手遅れ。"
+
+    old "Besides — if I, your master, am dueling, then my familiar Saito has to join in. That's an order!"
+    new "それに、ご主人様のわたしが決闘してるんだから、使い魔のサイトも参加しなさい。これは命令よ！"
+
+    old "You've gotta be kidding!"
+    new "まじかよ！"
+
+    old "…That's fine by you, Kirche?"
+    new "……いいわよね、キュルケ？"
+
+    old "Sure~ I'll even give you a handicap. Come at me with everything you've got!"
+    new "そーね。ハンデをつけてあげるわ。本気でかかってらっしゃい！"

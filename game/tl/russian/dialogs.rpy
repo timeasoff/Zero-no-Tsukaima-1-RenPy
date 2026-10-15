@@ -9311,3 +9311,345 @@ translate russian strings:
 
     old "Right…"
     new "М-да…"
+
+    old "But they won't listen to a word I say."
+    new "Но они всё равно меня не слушают."
+
+    old "You won't know unless you try, will you?!"
+    new "Нужно попробовать — иначе не узнаешь!"
+
+    old "A-all right…"
+    new "Л-ладно…"
+
+    old "Louise, call off this duel! What if you get hurt?"
+    new "Луиза, прекрати эту дуэль! А если ранешься?"
+
+    old "Hurt? You — my own familiar — think I'd lose?"
+    new "Ранюсь? Ты, мой-то фамильяр, думаешь, что я проиграю?"
+
+    old "N-no, that's not what I meant…"
+    new "Н-нет, я не это имел в виду…"
+
+    old "Anyway — do you even know what caused all this?"
+    new "И вообще — ты хоть понимаешь, из-за чего всё это?"
+
+    old "Umm… the size of your breasts?"
+    new "Э-ээ… размер груди?"
+
+    old "You idiot! Just stay out of it, Saito!"
+    new "Идиот! Сиди тихо, Сайто!"
+
+    old "Y-yes, ma'am…"
+    new "Д-да…"
+
+    old "Saito, you dummy…"
+    new "Сайто, дурак…"
+
+    old "Ee-eh!?"
+    new "А-а!?"
+
+    old "Girls shouldn't be dueling."
+    new "Девушкам не стоит драться."
+
+    old "That's right! Duels are no good."
+    new "Верно! Дуэли — это плохо."
+
+    old "Louise, call off the duel! Nothing good can come of it, right?"
+    new "Луиза, прекрати дуэль! Хорошего от неё не будет, верно?"
+
+    old "Honestly, you… If we go back to the root of it all, everything…"
+    new "Ну тебя… Если копнуть в корень, то всё…"
+
+    old "…No. It's not just that."
+    new "…Нет. Дело не только в этом."
+
+    old "Even before you came, Saito, I knew Kirche and I had to settle this once and for all. So be quiet."
+    new "Ещё до твоего прихода, Сайто, я знала: с Кирхе надо разобраться раз и навсегда. Так что помолчи."
+
+    old "…No good. So their feud ran that deep, huh."
+    new "…Не выходит. Значит, их ссора уходила корнями так глубоко."
+
+    old "Why not let them go until they're both satisfied?"
+    new "А если дать им сразиться, пока обе не будут довольны?"
+
+    old "Saito-san, how can you…"
+    new "Сайто-сан, как вы можете…"
+
+    old "If they don't go until they're satisfied, the bad blood never goes away, right?"
+    new "Пока оба не будут довольны, дурные чувства никуда не денутся, верно?"
+
+    old "But this is a duel between nobles. Someone could get seriously hurt…"
+    new "Но это же дуэль между дворянами. Можно серьёзно пострадать…"
+
+    old "Hmm…"
+    new "Ммм…"
+
+    old "Hey, you two — maybe you should still call it off…"
+    new "Слушайте вас двоих — всё-таки, может, не стоит…"
+
+    old "Be quiet, Saito! We've already decided to fight!"
+    new "Помолчи, Сайто! Мы уже решили драться!"
+
+    old "Well, that's that. No way I can stop them."
+    new "Ну что ж, всё. Унять их я явно не смогу."
+
+    old "Say, Kirche — the peanut gallery's getting loud. Shall we take it outside?"
+    new "Слушай, Кирхе. Зеваки орут — не выйдем наружу?"
+
+    old "Sure. I'd feel bad tearing the room to shreds."
+    new "Конечно. Жалко ведь комнату разнести."
+
+    old "Hmph! Say all you want while you still can!"
+    new "Хмф! Наговорись, пока можешь!"
+
+    old "Ah! Please wait, both of you—!"
+    new "Ах! Подождите обе—!"
+
+    old "Um, Hiraga-kun… They said they'd duel — is that okay?"
+    new "Слушай, Хирага-кун… Они собирались драться — это точно нормально?"
+
+    old "No, it's not okay. How am I supposed to stop them…"
+    new "Нет, не нормально. Только вот как их остановить…"
+
+    old "Still — I can't believe those two are actually going to duel for real…"
+    new "И всё же — не верится, что они всерьёз собираются драться…"
+
+    old "They said they never got along before I came here — maybe it's all just piled up over time."
+    new "Они и до моего прихода не ладили — может, всё просто накопилось."
+
+    old "I-see…{#ch3.7_ha_002}"
+    new "А-а, вот как…"
+
+    old "…No.{#ch3.7_t_001}"
+    new "…Нет."
+
+    old "Huh?{#ch3.7_s_019}"
+    new "А?"
+
+    old "It's all your fault."
+    new "Виноват — только ты."
+
+    old "Huh? Why me!?"
+    new "А? Почему я!?"
+
+    old "…{#ch3.7_t_v01}"
+    new "…"
+
+    old "Say something—!"
+    new "Ну скажи же—!"
+
+    old "And then…"
+    new "И ещё…"
+
+    old "M-me?{#ch3.7_ha_003}"
+    new "Я-я?"
+
+    old "You… too stubborn for your own good."
+    new "Ты… слишком упрямая."
+
+    old "…{#ch3.7_ha_v01}"
+    new "…"
+
+    old "Hey now, Tabitha — what do you mean Haruna's too stubborn?"
+    new "Эй, Табита, а что значит „слишком упрямая“?"
+
+    old "…{#ch3.7_t_v02}"
+    new "…"
+
+    old "Um, Hiraga-kun… There's something I have to apologize for."
+    new "Слушай, Хирага-кун… Мне надо кое за что извиниться."
+
+    old "What's this all of a sudden…"
+    new "Да что такое, вдруг…"
+
+    old "You've been taking care of me all this time… but the truth is, I wasn't really sick."
+    new "Ты всё это время меня выхаживал… но на самом деле я не была больна."
+
+    old "Huh? You mean you faked it? …Really?"
+    new "А? Ты притворялась? …Правда?"
+
+    old "Yes, really… Well, I did feel awful the first day…"
+    new "Да, правда… В первый день мне и впрямь было плохо…"
+
+    old "But the day after that, I got better so fast it was surprising…"
+    new "А уже на следующий день стало удивительно легко…"
+
+    old "But you were so kind to me, Hiraga-kun… I guess I just let myself enjoy it…"
+    new "Но ты был ко мне такой добрый, Хирага-кун… И я подсела на это…"
+
+    old "I see…{#ch3.7_s_025}"
+    new "Вот как…"
+
+    old "I'm sorry, Hiraga-kun."
+    new "Прости, Хирага-кун."
+
+    old "Sorry — that's a bit of a shock…"
+    new "Прости, это немного шокирует…"
+
+    old "Hiraga-kun, I'm sorry…"
+    new "Хирага-кун, прости…"
+
+    old "No, I'm at fault too for not noticing."
+    new "Нет, и я виноват — не заметил."
+
+    old "I'm truly sorry."
+    new "Правда прости."
+
+    old "Still — I'm really glad you weren't sick."
+    new "Всё равно я рад, что ты не была больна."
+
+    old "…You're not angry?"
+    new "…Ты не злишься?"
+
+    old "Hmm, a little. But I'm happier that you weren't really sick."
+    new "Мм, немного. Но мне всё равно приятнее, что ты не была больна."
+
+    old "In the end, no matter what, healthy beats sick any day."
+    new "В конце концов, здоровье лучше болезни — всегда."
+
+    old "Hiraga-kun…{#ch3.7_ha_014}"
+    new "Хирага-кун…"
+
+    old "You don't have to worry about me."
+    new "Не переживай из-за меня."
+
+    old "It wasn't only because you were sick that I nursed you and looked after you."
+    new "Я ведь ухаживал за тобой и приглядывал не только потому, что ты была больна."
+
+    old "You're not a stranger to me. I'd have looked after you even if you weren't sick."
+    new "Ты мне не чужая. Я бы приглядывал за тобой, даже если бы ты была здорова."
+
+    old "Hiraga-kun…{#ch3.7_ha_015}"
+    new "Хирага-кун…"
+
+    old "So then — could it be… Siesta made the room hot, and Kirche goaded Haruna, because…?"
+    new "Так вот… Случайно ли Сиеста нагревала комнату, а Кирхе подначала Харуне…?"
+
+    old "Probably to make me confess that I was faking it. But I was stubborn too…"
+    new "Наверное, чтобы я призналась, что притворялась. Но и я была упрямой…"
+
+    old "I see… Then, like Tabitha said, it's my fault for not noticing the fake."
+    new "Вот как… Тогда, как сказала Табита, виноват я — не заметил притворства."
+
+    old "No, Hiraga-kun, it's not your fault. The one at fault is me — abusing your kindness while I faked being sick…"
+    new "Нет, Хирага-кун, тут не ты виноват. Виновата я — пользовалась твоей добротой, притворяясь больной…"
+
+    old "Hey, Tabitha — am I really the only one who didn't catch on to Haruna's act?"
+    new "Слушай, Табита — я единственный, кто не понял, что Харуна притворяется?"
+
+    old "…Just you."
+    new "…Только ты."
+
+    old "So that's how it is…"
+    new "Вот оно что…"
+
+    old "Hurry."
+    new "Торопись."
+
+    old "Hurry, as in… Oh, right! I have to go stop Louise's duel right now!!"
+    new "Торопись, это… А, точно! Надо немедленно остановить дуэль Луизы!!"
+
+    old "Say, it's fine to go stop Louise and the others — but do you know where they're fighting?"
+    new "Слушай, идти останавливать Луизу и остальных — это ладно, но ты знаешь, где они?"
+
+    old "Probably the courtyard."
+    new "Наверное, во дворе."
+
+    old "Probably… Now, how do we stop them?"
+    new "Наверное… Ладно, как их остановим?"
+
+    old "It's fine. I'll stop the magic. You explain."
+    new "Не волнуйся. Магию остановлю я. Вы — объясняйте."
+
+    old "Got it.{#ch3.7_s_040}"
+    new "Понял."
+
+    old "Um, Hiraga-kun."
+    new "Слушай, Хирага-кун."
+
+    old "What is it, Haruna?"
+    new "Что такое, Харуна?"
+
+    old "In the end, I caused trouble for Louise and Siesta… How should I apologize, do you think…"
+    new "В конце концов, я причинила неприятности Луизе и Сиесте… Как мне их извинить, думаешь…"
+
+    old "Why not just apologize honestly? You didn't mean any real harm, Haruna — I'm sure they'll understand."
+    new "Может, просто честно извиниться? Ты ведь не хотела зла, Харуна — тебя поймут."
+
+    old "D-do you think so…"
+    new "Т-ты так думаешь…"
+
+    old "You don't have to apologize."
+    new "Не нужно извиняться."
+
+    old "Huh?{#ch3.7_ha_022}"
+    new "А?"
+
+    old "It's not like you did anything that bad, right? Maybe you don't need to apologize."
+    new "Ты же не сделала ничего такого ужасного, верно? Может, и не надо?"
+
+    old "No… I have to. I'll apologize honestly."
+    new "Нет… Надо. Я честно извинюсь."
+
+    old "How about treating them to sweets sometime?"
+    new "Может, угостить их чем-нибудь сладким?"
+
+    old "But… I don't have any money in this world…"
+    new "Но… У меня нет денег в этом мире…"
+
+    old "Oh, right…"
+    new "А, точно…"
+
+    old "Besides, I don't think that would make up for it. I'll apologize honestly."
+    new "Во-первых, не думаю, что этим передаётся искренность. Я честно извинюсь."
+
+    old "Well, you never know until you try."
+    new "Ну, пока не попробуешь — не узнаешь."
+
+    old "…Yeah."
+    new "…Да."
+
+    old "Saito-san, you're late. Oh? Haruna — is that you? Is it okay for you to be here?"
+    new "Сайто-сан, вы опоздали. Ой? Это же Харуна? Вам можно здесь находиться?"
+
+    old "I'm sorry, Siesta. I was faking my illness. That's why I want to apologize to Louise too…"
+    new "Прости, Сиеста. Я притворялась. Поэтому я хочу извиниться и перед Луизой…"
+
+    old "…{#ch3.7_si_v01}"
+    new "…"
+
+    old "Siesta. I'm sorry too. So — can you forgive her?"
+    new "Сиеста. И я тоже прошу прощения. Так что — не можешь её простить?"
+
+    old "No, I should be the one apologizing for being mean."
+    new "Нет, извиняться должна я — ведь я была зла."
+
+    old "Siesta…{#ch3.7_ha_028}"
+    new "Сиеста…"
+
+    old "…Oh, Saito!? You're late! What have you been doing!!"
+    new "…А, Сайто!? Ты опоздал! Где ты пропадал!!"
+
+    old "What do you mean, wh—… I came to stop Kirche and your duel… And Haruna wanted to apologize…"
+    new "Ну… Я пришёл остановить дуэль Кирхе с тобой… И Харуна хотела извиниться…"
+
+    old "Haruna can wait. Right now, I have to fight Kirche!"
+    new "Харуну потом. Сейчас надо драться с Кирхе!"
+
+    old "That's insane."
+    new "Да это же безумие."
+
+    old "Too late."
+    new "Уже поздно."
+
+    old "Besides — if I, your master, am dueling, then my familiar Saito has to join in. That's an order!"
+    new "И раз моя хозяйка дуэлью занята, фамильяру Сайто тоже надо присоединиться. Это приказ!"
+
+    old "You've gotta be kidding!"
+    new "Серьёзно?!"
+
+    old "…That's fine by you, Kirche?"
+    new "…Всё хорошо, Кирхе?"
+
+    old "Sure~ I'll even give you a handicap. Come at me with everything you've got!"
+    new "Конечно~ Даже фору дам. Атакуй изо всех сил!"
