@@ -718,3 +718,27 @@ translate russian strings:
 
     old "………………{#ch4_null_224}"
     new "………………"
+
+    old "Now then, what should I do…{#ch4.2_th_225}"
+    new "Ну что ж, чем бы мне заняться…"
+
+    old "Honestly, this is what I get for letting her dump everything on me."
+    new "Вот что получается, когда всё на меня сваливают."
+
+    old "What on earth's gotten into her?"
+    new "Что же с ней такое творится?"
+
+    old "So, about that carriage — it's got two-person seats facing each other…"
+    new "Так, об этой карете — сиденья там двухместные, друг напротив друга…"
+
+    old "Louise and Haruna are sitting across from each other. Now then, whose side should I sit on…"
+    new "Луиза и Харуна сидят друг напротив друга. Так, с чьей стороны мне сесть…"
+
+    old "Ahh… Haruna, why do you look away so wistfully…"
+    new "А-а… Харуна, почему ты так печально отводишь взгляд…"
+
+    old "Whose side should I sit on… Somehow it looks like I'll ruffle feathers whichever I pick."
+    new "С чьей стороны сесть… Похоже, с кем бы я ни сел, кого-то задену."
+
+    old "And so, at last, we set out from the Academy of Magic."
+    new "И вот так мы наконец отправились из Академии магии."

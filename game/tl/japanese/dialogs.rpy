@@ -10329,7 +10329,7 @@ translate japanese strings:
     old "But the academy has rules. Academy life is about observing those rules…"
     new "しかし、学院には規則があります。その規則を守ってこその学院生活……。"
 
-    old "Mister Colbert, that will be quite enough."
+    old "Professor Colbert, that will be quite enough."
     new "ミスタ・コルベール、そこまでにしておきなさい。"
 
     old "Neither Miss Vallière nor the rest of you broke the rules on purpose."
@@ -10506,7 +10506,7 @@ translate japanese strings:
     old "I'm sorry."
     new "すみません。"
 
-    old "Now then, Mister Colbert."
+    old "Now then, Professor Colbert."
     new "して、ミスタ・コルベール。"
 
     old "I think we must check whether or not a crest is engraved upon Haruna?"
@@ -10542,7 +10542,7 @@ translate japanese strings:
     old "I see, Miss Montmorency. There's no mistake in what you say?"
     new "ほぉ、ミス・モンモランシー。その言葉に、間違いはないのだね？"
 
-    old "…No. There is no mistake, Mister Colbert."
+    old "…No. There is no mistake, Professor Colbert."
     new "……ええ。間違いはございませんわ、ミスタ・コルベール。"
 
     old "Hmm, is that so."
@@ -10623,7 +10623,7 @@ translate japanese strings:
     old "See you."
     new "お先。"
 
-    old "Mister Colbert. Would you close the door?"
+    old "Professor Colbert. Would you close the door?"
     new "ミスタ・コルベール。扉を閉めてくれんか？"
 
     old "Y-yes.{#ch4_c_028}"
@@ -10671,8 +10671,383 @@ translate japanese strings:
     old "Then, Miss Vallière. See that you don't disgrace yourself before Her Majesty."
     new "それではミス・ヴァリエール。女王陛下の前では粗相のないように。"
 
-    old "Yes, Mister Colbert. I understand."
+    old "Yes, Professor Colbert. I understand."
     new "はい、ミスタ・コルベール。心得ております。"
 
     old "Then I'll return to my room to pack for the journey. Excuse me."
     new "それでは、部屋に戻って出発の荷物をまとめて参りますので、失礼いたします。"
+
+    old "I feel strangely heavy-hearted. To be summoned so suddenly. Whatever could it be about?"
+    new "なんだか気が重いわ。急にわたしのことを呼び出すなんて。いったいどうしたのかしら？"
+
+    old "If even the Headmaster doesn't know, then maybe it's some private matter she wants to discuss with you?"
+    new "学院長も知らないってことは、何か個人的な相談でもあるんじゃないのか？"
+
+    old "That can't be. Her Highness wouldn't go out of her way to summon me over something personal."
+    new "そんなはずないでしょ？姫さまが、わざわざわたしの事を個人的なことで呼びつけたりなんてしないわ。"
+
+    old "Um… Everyone, what exactly was that discussion about?"
+    new "あの……。みなさん、一体どういうお話だったんですか？"
+
+    old "Ah, Louise — is it all right if I tell Siesta what we talked about earlier?"
+    new "あールイズ、さっきの話シエスタに言っても大丈夫か？"
+
+    old "It's fine, isn't it? She'll find out soon enough anyway."
+    new "別にいいんじゃない？そのうち分かることなんだから。"
+
+    old "You see, Her Highness summoned me and Louise. And it turns out we're going to Tristania."
+    new "あのさ、実はお姫さまにルイズと俺が呼ばれちゃって。トリスタニアに行くことになっちゃったんだよ。"
+
+    old "Wh-what, to Her Majesty the Queen!?"
+    new "え、女王陛下にですか？"
+
+    old "H-hey, you're too loud. Listen, this is a secret just between us."
+    new "ちょ、ちょっと声が大きいってば。いい、ここだけの秘密だからね。"
+
+    old "Yes, understood.{#ch4.2_si_003}"
+    new "はい、分かりました。"
+
+    old "And on top of that, the Headmaster asked me to introduce Haruna to Her Highness, so Haruna's coming along too."
+    new "ついでに春奈のこともお姫さまに紹介してほしいって学院長に頼まれたから春奈も行くことになったんだ。"
+
+    old "Is that so…"
+    new "そうなんですか……。"
+
+    old "Um… Louise-san."
+    new "あのぉ……ルイズさん。"
+
+    old "What is it, Haruna?{#ch4.2_l_005}"
+    new "どうしたの、ハルナ？"
+
+    old "Louise-san, are you acquainted with Her Majesty the Queen?"
+    new "ルイズさんは、女王陛下とお知り合いなんですか？"
+
+    old "Yes. When I was little, I served as Her Highness's playmate."
+    new "ええ。幼い頃にね、姫さまの遊び相手を務めさせていただいた事があるのよ。"
+
+    old "So if you put it another way, you and Her Highness are childhood friends?"
+    new "言ってみれば、ルイズとお姫さまは、幼なじみって事だよな？"
+
+    old "Well, I suppose that's how it amounts to. But don't go speaking of this too carelessly, all right?"
+    new "まぁ、そういう事になるんでしょうけど。この事は、あまり軽々しく口にしてはダメよ？"
+
+    old "Her Highness is now the Queen who supports a whole nation."
+    new "姫さまは、今や一国を支える女王陛下なんだから。"
+
+    old "A mere noble or commoner is not permitted to address her so lightly."
+    new "一介の貴族や平民が、軽々しく接することは許されないの。"
+
+    old "Still, the real problem is why we were summoned."
+    new "でも、問題は呼ばれた理由よね。"
+
+    old "You think it's about Haruna after all?"
+    new "やっぱり春奈のことか？"
+
+    old "Wh-what, about me…?"
+    new "え、私のことで……ですか？"
+
+    old "Hmm, I still don't know. Still, it seems the Headmaster's arrangements will settle things peaceably…"
+    new "うーん、まだ分からないけど。学院長の計らいで穏便に済みそうだけど……。"
+
+    old "…"
+    new "……。"
+
+    old "It'll be fine, Haruna. If it comes to it, I'll protect you."
+    new "大丈夫だって、春奈。いざとなったら、俺が守ってやるって。"
+
+    old "Oho, as expected of my partner. Aren't you the cool one."
+    new "おっ、さすが相棒。カッコイイね。"
+
+    old "W-wait a moment. You mustn't go causing trouble at the royal palace."
+    new "ちょ、ちょっと。王宮で暴れたら、駄目なんだからね。"
+
+    old "It'll be fine, I said. It was just an example."
+    new "大丈夫だって。例えだよ、例え。"
+
+    old "Good grief…"
+    new "まったく……。"
+
+    old "Um… Miss Vallière."
+    new "あの……。ミス・ヴァリエール。"
+
+    old "Siesta, what is it?"
+    new "シエスタ、どうしたの？"
+
+    old "What's to become of me?"
+    new "わたしはどうなるのですか？"
+
+    old "Ah, about that. I'll ask you to stay behind and mind this room, Siesta."
+    new "ああ、そのことなんだけど。シエスタには、この部屋の留守番を頼むわね。"
+
+    old "What!? Am I not allowed to come along too?"
+    new "ええっ！？わたしも一緒に行ってはいけないのですか？"
+
+    old "You may not. The ones summoned by Her Majesty are me and Saito. Haruna is going for the Headmaster's business."
+    new "駄目よ。女王陛下に呼ばれてるのはわたしと、サイト。ハルナは学院長の用で出かけるのよ。"
+
+    old "You have no business there, do you, Siesta? We can't bloat the party for no reason."
+    new "シエスタは用がないでしょ？無駄に人数は増やせないわ。"
+
+    old "That's…{#ch4.2_si_008}"
+    new "そんな……。"
+
+    old "Can't we bring at least Siesta? You know, to look after us…"
+    new "シエスタくらい連れて行けないのか？ほら、身の回りの世話とか……。"
+
+    old "No.{#ch4.2_l_018}"
+    new "だーめ。"
+
+    old "Saito-san, thank you. But it's just as Miss Vallière says. I'll stay behind, then."
+    new "サイトさん、ありがとうございます。でも、ミス・ヴァリエールのおっしゃるとおりです。わたし、お留守番してますね。"
+
+    old "Siesta…"
+    new "シエスタ……。"
+
+    old "Well then, I have my work to attend to as well. If you'll excuse me."
+    new "それでは、わたしも仕事がありますので。これで失礼いたします。"
+
+    old "Then let's break up for now, shall we? Assemble before the carriage."
+    new "それじゃあ、いったん解散ね？馬車の前に集合よ。"
+
+    old "Understood.{#ch4.2_s_011}"
+    new "分かった。"
+
+    old "Yes.{#ch4.2_ha_005}"
+    new "はい。"
+
+    old "Hey, what are you making such a mess for? The floor's covered in clothes."
+    new "おい、何散らかしてるんだよ。床が服だらけだろ？"
+
+    old "Hey, Saito! If you've got time to stand there spacing out, then help me!"
+    new "ちょっと、サイトっ！そんな所でボケッとしてるなら手伝いなさいよっ。"
+
+    old "Louise, what have you been doing all this time? My packing was finished long ago."
+    new "ルイズ、今まで何やってたんだよっ？俺の用意なんて、もう終わったぞ。"
+
+    old "A girl needs all sorts of preparations before going out."
+    new "女の子は出かけるのにいろいろ準備が必要なのよ。"
+
+    old "Besides, I've been leaving everything to you lately, so I don't even know what's where…"
+    new "それに最近サイトにまかせっきりだったから、何がどこにあるのか、分からないし……。"
+
+    old "All right, I'll help you."
+    new "分かった、手伝ってやるよ。"
+
+    old "Really?{#ch4.2_l_023}"
+    new "本当？"
+
+    old "At this rate, it'll never get finished."
+    new "このままじゃいつまで経っても終わらないからな。"
+
+    old "Since I'm in such a good mood, just help me quietly!"
+    new "せっかくいい気分なんだから、黙って手伝う！"
+
+    old "Wha—. So I'm the one helping, huh."
+    new "えー。俺が手伝うのかよ。"
+
+    old "It's your master's order. No complaints."
+    new "ご主人様の命令なのよ。文句言わない。"
+
+    old "I don't mind helping, but… I do have one condition."
+    new "手伝ってあげてもいいけど……。条件があるな。"
+
+    old "A condition? Go on, try saying it, just in case."
+    new "条件？一応、言ってみなさいよ。"
+
+    old "I'd like tonight's dinner to have one extra dish… something like that. Is that a no?"
+    new "今晩の夕食は１品多くしてほしいなぁ……。とか。だめすか？"
+
+    old "Rejected. Keep talking nonsense and I'll cut you off from dinner entirely!"
+    new "却下。くだらないこと言ってると、夕食ヌキにするわよ！"
+
+    old "Yeah, yeah, understood. So, what's left?"
+    new "へいへい、分かりました。で、残ってるのは何？"
+
+    old "A change of clothes…"
+    new "着替え……。"
+
+    old "I see. Since you never tidy up normally, you can't find where anything is."
+    new "なるほどな。普段片付けてないから、場所が分からないわけだ。"
+
+    old "Ugh."
+    new "うー。"
+
+    old "Er, how many days' worth do you need?"
+    new "えーと、何日分必要で？"
+
+    old "…Th-that is. Two or three days' worth at most should be… enough… I think…"
+    new "……そ、それは。せいぜい２～３日分もあれば、いい……かな……。"
+
+    old "Yeah, yeah, about three days. Do you need clothes other than the school uniform too?"
+    new "はいはい、３日くらいね。学生服以外の服も必要で？"
+
+    old "M-maybe I do…"
+    new "ひ、必要かも……。"
+
+    old "Do you have a fever? Your face is bright red, you know?"
+    new "熱あるのか？顔が真っ赤だぞ？"
+
+    old "Oh, be quiet! J-just hurry up and pack it already."
+    new "うるさいわねっ！は、早く詰めちゃいなさいよ。"
+
+    old "I'll pack it properly even without being told."
+    new "言われなくてもちゃんと詰めるって。"
+
+    old "Still, though it's odd for a guy to say it, I've gotten rather good at folding clothes lately."
+    new "しかし、男の俺が言うのもなんだけど、最近服を整理するのが得意になったんだぞ。"
+
+    old "Look, Louise. This folding, and this neatening."
+    new "見ろよ、ルイズ。この畳み方、それにそろえ方。"
+
+    old "Even if I said a girl did this, it'd pass."
+    new "女の子が整理しましたーって言っても通用するだろ。"
+
+    old "And this whiteness of the fabric. You could call it a masterstroke of hand-washing."
+    new "それに、この生地の白さ。手洗いの妙技と言ってもいいね。"
+
+    old "Enough already! A-ah, ahh, I'll do the rest myself! Get out of this room right now, at once!"
+    new "もういいっ！あっ、あああ、後はわたしがやるからっ！とっとと、今すぐこの部屋から出て行きなさい！"
+
+    old "What's the matter, Louise? Did I do something to offend you?"
+    new "どうしたんだよルイズ。何か、気に障ることでもしたのか？"
+
+    old "N-nothing. I'm telling you, I'll do it myself after all."
+    new "な、なんでもないわ。わたし、やっぱり自分でやるって言ってるの。"
+
+    old "Then, Miss Vallière. Do be careful on the road."
+    new "それではミス・ヴァリエール。道中、気をつけるのですよ？"
+
+    old "Yes. Thank you, Professor Colbert."
+    new "はい。ありがとうございます、ミスタ・コルベール。"
+
+    old "Mind yourselves on the road. If anything happens, send word at once."
+    new "道中、気をつけるように。何かあったら、すぐに伝書を飛ばすがよいぞ。"
+
+    old "Understood. I'm grateful you've prepared such a fine carriage for us."
+    new "分かりました。わたし達に、このような立派な馬車をご用意いただき感謝します。"
+
+    old "Hmm, no thanks needed."
+    new "ふむ、礼には及ばぬ。"
+
+    old "Come, Her Majesty must be waiting for you with bated breath. Off you go, and do be careful."
+    new "ささっ、女王陛下が首を長くしてお待ちになっておる事じゃろう。気をつけて行ってきなされ。"
+
+    old "Yes, then we'll be on our way."
+    new "はい、では、行って参ります。"
+
+    old "Saito-kun, I'm counting on you to look after the two of them."
+    new "サイトくん、お二人のことを頼みましたよ？"
+
+    old "Yes, I'll do my best."
+    new "はい、頑張ります。"
+
+    old "Haruna-kun, once you're there, follow the instructions of Miss Vallière and Saito-kun."
+    new "ハルナくん、向こうへ行ったらミス・ヴァリエールや、サイトくんの指示に従うように。"
+
+    old "Yes, I understand."
+    new "はい、分かりました。"
+
+    old "Now then, let's get into the carriage."
+    new "それじゃあ、馬車へ乗り込みましょう。"
+
+    old "What are you standing around for? Hurry up and sit next to me!"
+    new "なにボサッとしてるのよ？早くわたしの隣に座りなさいっ！"
+
+    old "Hiraga-kun, you can sit next to me too, you know? I feel bad, the way Louise-san ends up cramped."
+    new "平賀くん、私の隣でもいいよ？ルイズさんが狭くなるの、なんだか悪いわ。"
+
+    old "Ah, what should I do…"
+    new "ああ、どうしようかなぁ……。"
+
+    old "Well then, I guess I'll go with sitting next to Louise?"
+    new "それじゃあ、ルイズの隣にしようかな？"
+
+    old "Th-that's right!? Th-that's… that's perfectly fine, isn't it."
+    new "そっ、そうよぉ！？そそ……それでいいじゃない。"
+
+    old "Mm…"
+    new "んっ……。"
+
+    old "All right, I'll sit next to Haruna."
+    new "分かった、春奈の隣にするよ。"
+
+    old "Wh-what! It's fine… it's fine! Do whatever you like, Saito, that's all there is to it!"
+    new "なっ……なによっ！いいわっ……いいわよっ！サイトの好きにすれば、それでいいじゃないっ。"
+
+    old "Huh? What are you getting angry for?"
+    new "えっ？なんで怒ってるんだよ。"
+
+    old "It's none of your business, Saito."
+    new "サイトには関係ないでしょ。"
+
+    old "Oh, just make up your mind already! Or would you rather be loaded up with the rest of the luggage?"
+    new "もぉ、ハッキリしなさいよっ！それとも、ほかの荷物と一緒にされて運ばれたいのかしら？"
+
+    old "Please, anything but that."
+    new "それだけはやめてください。"
+
+    old "A bloodbath."
+    new "修羅場。"
+
+    old "Aww. Darling, sneaking off on us like that — how cold of you."
+    new "あーん。ダーリン、こっそり出かけるなんて、水臭いじゃないの。"
+
+    old "Kirche, Tabitha."
+    new "キュルケ、タバサ。"
+
+    old "Hey there, don't go forgetting about us, either."
+    new "おいおい、ぼく達のことも忘れないでくれたまえ。"
+
+    old "Guiche, Montmon."
+    new "ギーシュ、モンモン。"
+
+    old "For the last time, it's not Montmon. You're doing that on purpose, aren't you?"
+    new "だから、モンモンじゃないってば。本当はワザとでしょ？"
+
+    old "N-no, sorry. But why are you all here?"
+    new "い、いや、ごめん。でも、なんでここに？"
+
+    old "We came to see you off. I thought we'd watch over your departure."
+    new "お見送りだよ。君達の出発を見守ろうと思ってね。"
+
+    old "I see. Thanks.{#ch4.2_s_039}"
+    new "そっか、ありがとな。"
+
+    old "Tug, tug."
+    new "（くいくい）"
+
+    old "Hm? What is it, Tabitha?"
+    new "うん？なんだい、タバサ？"
+
+    old "You, over here."
+    new "あなた、こっち。"
+
+    old "？？？？{#ch4.2_s_041}"
+    new "？？？？"
+
+    old "You and you, over here."
+    new "あなたとあなたはこっち。"
+
+    old "？？？？{#ch4.2_s_042}"
+    new "？？？？"
+
+    old "Tabitha's saying that Louise and Haruna should sit together, and you on the opposite side, darling."
+    new "ルイズとハルナが一緒に座って、ダーリンは反対側に座ればいいって言ってるのよ、タバサは。"
+
+    old "That way, the two of them are even."
+    new "それで、２人とも平等。"
+
+    old "Ah, I see. Thanks, Tabitha. What, it was simple after all."
+    new "ああ、なるほど。ありがとう、タバサ。なんだ、簡単な事じゃないか。"
+
+    old "……{#ch4.2_l_044}"
+    new "……。"
+
+    old "……{#ch4.2_ha_009}"
+    new "……。"
+
+    old "Then, everyone, we'll be off."
+    new "それでは、皆様行ってまいります。"
+
+    old "Do your best out there."
+    new "頑張ってくるのじゃぞ。"

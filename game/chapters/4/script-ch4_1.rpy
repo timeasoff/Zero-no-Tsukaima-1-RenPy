@@ -74,7 +74,7 @@ label ch4:
     $ show_sprites(("c 1", "o 1"))
 
     voice "ch4_o_001"
-    o "Mister Colbert, that will be quite enough."
+    o "Professor Colbert, that will be quite enough."
 
     voice "ch4_o_002"
     o "Neither Miss Vallière nor the rest of you broke the rules on purpose."
@@ -421,7 +421,7 @@ label ch4_1_223:
     $ show_sprites(("c 1", "o 1"))
 
     voice "ch4_o_012"
-    o "Now then, Mister Colbert."
+    o "Now then, Professor Colbert."
 
     voice "ch4_o_013"
     o "I think we must check whether or not a crest is engraved upon Haruna?"
@@ -490,7 +490,7 @@ label ch4_1_223:
     $ show_sprites(("c 1", "m 1"))
 
     voice "ch4_m_003"
-    m "…No. There is no mistake, Mister Colbert."
+    m "…No. There is no mistake, Professor Colbert."
 
     # [lay9 hide][lay3 hide][lay10 +918 (o 1)]
     $ show_sprites(("o 1",))
@@ -652,7 +652,7 @@ label ch4_1_224:
     $ show_sprites(("o 1",))
 
     voice "ch4_o_022"
-    o "Mister Colbert. Would you close the door?"
+    o "Professor Colbert. Would you close the door?"
 
     # [lay10 x=224 — сдвиг][lay9 +929 (c 1)]
     $ show_sprites(("c 1", "o 1"))
@@ -730,7 +730,7 @@ label ch4_1_224:
     c "Then, Miss Vallière. See that you don't disgrace yourself before Her Majesty."
 
     voice "ch4_l_019"
-    l "Yes, Mister Colbert. I understand."
+    l "Yes, Professor Colbert. I understand."
 
     voice "ch4_l_020"
     l "Then I'll return to my room to pack for the journey. Excuse me."

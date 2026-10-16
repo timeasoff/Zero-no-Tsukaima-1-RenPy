@@ -723,3 +723,27 @@ translate japanese strings:
 
     old "………………{#ch4_null_224}"
     new "………。……。…。"
+
+    old "Now then, what should I do…{#ch4.2_th_225}"
+    new "（さてと、どうしよう……）"
+
+    old "Honestly, this is what I get for letting her dump everything on me."
+    new "（まったく、俺に何でも押し付けてるから、　こういうことになるんだ）"
+
+    old "What on earth's gotten into her?"
+    new "（まったくどうしたんだ？）"
+
+    old "So, about that carriage — it's got two-person seats facing each other…"
+    new "（さて、その馬車ってのは２人掛けの席が　向かい合った形だったりする　ワケなんだけど……）"
+
+    old "Louise and Haruna are sitting across from each other. Now then, whose side should I sit on…"
+    new "（ルイズと春奈が向かい合って座ってるよ。　さて、どっちの隣に座ればいいのか……）"
+
+    old "Ahh… Haruna, why do you look away so wistfully…"
+    new "（ああっ……春奈、　何でそんな切なげに瞳をそらすのっ？）"
+
+    old "Whose side should I sit on… Somehow it looks like I'll ruffle feathers whichever I pick."
+    new "（どっちに座ろうか……。　なんだか、どっちに座っても　角が立ちそうだな）"
+
+    old "And so, at last, we set out from the Academy of Magic."
+    new "（こうして俺達は、ようやく魔法学院を　出発した）"

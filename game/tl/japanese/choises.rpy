@@ -745,3 +745,39 @@ translate japanese strings:
 
     old "Actually, it was me…{#ch4_m219c}"
     new "実は俺から……"
+
+    old "Louise's Room{#ch4.2_lroom}"
+    new "ルイズの部屋"
+
+    old "Kitchen{#ch4.2_kitchen}"
+    new "厨房"
+
+    old "Courtyard{#ch4.2_yard}"
+    new "中庭"
+
+    old "Hallway{#ch4.2_hallway}"
+    new "廊下"
+
+    old "Louise's Room{#ch4.2_hroom}"
+    new "ルイズの部屋"
+
+    old "Leave{#ch4.2_leave}"
+    new "出発する"
+
+    old "Give her a hand.{#ch4.2_m1342a}"
+    new "手伝ってあげる"
+
+    old "I don't want to help.{#ch4.2_m1342b}"
+    new "手伝いたくない"
+
+    old "Offer to help, on one condition.{#ch4.2_m1342c}"
+    new "手伝う代わりに条件を出す"
+
+    old "Sit next to Louise.{#ch4.2_m231a}"
+    new "ルイズの隣に座る"
+
+    old "Sit next to Haruna.{#ch4.2_m231b}"
+    new "春奈の隣に座る"
+
+    old "Waver over which seat.{#ch4.2_m231c}"
+    new "どっちの席も捨てがたいと悩む"

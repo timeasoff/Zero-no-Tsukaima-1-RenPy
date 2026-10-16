@@ -10335,8 +10335,8 @@ translate russian strings:
     old "But the academy has rules. Academy life is about observing those rules…"
     new "Но в академии есть правила. Академическая жизнь — это следование этим правилам…"
 
-    old "Mister Colbert, that will be quite enough."
-    new "Мистер Кольбер, прошу вас, оставьте это."
+    old "Professor Colbert, that will be quite enough."
+    new "Профессор Кольбер, прошу вас, оставьте это."
 
     old "Neither Miss Vallière nor the rest of you broke the rules on purpose."
     new "И мадемуазель Вальер, и все остальные не нарушили правила нарочно."
@@ -10357,7 +10357,7 @@ translate russian strings:
     new "Таканаги Харуна… Могу я называть вас просто Харуна?"
 
     old "No, um… Haruna is fine for me. 'Miss Haruna' — well… I'm not of that station…"
-    new "Нет, я… Зовите меня просто Харуна. «Мисс Харуна» — это… я не такого положения…"
+    new "Нет, я… Зовите меня просто Харуна. «Мадемуазель Харуна» — это… я не такого положения…"
 
     old "…I see. Then I shall call you as such… Ahem."
     new "…Понятно. Тогда я буду звать вас так… Кхм."
@@ -10512,8 +10512,8 @@ translate russian strings:
     old "I'm sorry."
     new "Простите."
 
-    old "Now then, Mister Colbert."
-    new "Итак, мистер Кольбер."
+    old "Now then, Professor Colbert."
+    new "Итак, профессор Кольбер."
 
     old "I think we must check whether or not a crest is engraved upon Haruna?"
     new "Думаю, необходимо проверить, есть ли на Харуне знак, верно?"
@@ -10546,16 +10546,16 @@ translate russian strings:
     new "Я осматривала её тело, но никакого такого знака не обнаружила."
 
     old "I see, Miss Montmorency. There's no mistake in what you say?"
-    new "Понятно, мисс Монморанси. Вы не ошибаетесь?"
+    new "Понятно, мадемуазель Монморанси. Вы не ошибаетесь?"
 
-    old "…No. There is no mistake, Mister Colbert."
-    new "…Да. Я не ошибаюсь, мистер Кольбер."
+    old "…No. There is no mistake, Professor Colbert."
+    new "…Да. Я не ошибаюсь, профессор Кольбер."
 
     old "Hmm, is that so."
     new "Хм, вот как."
 
     old "…Hmm. Very well. I shall take Miss Montmorency's word."
-    new "…Мм. Ладно. Я поверю мисс Монморанси."
+    new "…Мм. Ладно. Я поверю мадемуазель Монморанси."
 
     old "Then this meeting is adjourned. From now on, each of you will be mindful and act in a way that brings no shame upon the name of nobility."
     new "Тогда объявляю заседание закрытым. Отныне каждый из вас должен помнить и действовать так, чтобы не опозорить имя дворянства."
@@ -10629,8 +10629,8 @@ translate russian strings:
     old "See you."
     new "Уже ухожу."
 
-    old "Mister Colbert. Would you close the door?"
-    new "Мистер Кольбер. Закроешь дверь?"
+    old "Professor Colbert. Would you close the door?"
+    new "Профессор Кольбер. Закроешь дверь?"
 
     old "Y-yes.{#ch4_c_028}"
     new "Д-да."
@@ -10677,8 +10677,383 @@ translate russian strings:
     old "Then, Miss Vallière. See that you don't disgrace yourself before Her Majesty."
     new "Тогда, мадемуазель Вальер. Смотрите, чтобы перед Её Величеством не оплошать."
 
-    old "Yes, Mister Colbert. I understand."
-    new "Да, мистер Кольбер. Мне понятно."
+    old "Yes, Professor Colbert. I understand."
+    new "Да, профессор Кольбер. Мне понятно."
 
     old "Then I'll return to my room to pack for the journey. Excuse me."
     new "Тогда я вернусь в комнату и соберу вещи для поездки. Прошу прощения."
+
+    old "I feel strangely heavy-hearted. To be summoned so suddenly. Whatever could it be about?"
+    new "Как-то тяжело на душе. Вдруг вызвали именно меня. Что бы это могло быть?"
+
+    old "If even the Headmaster doesn't know, then maybe it's some private matter she wants to discuss with you?"
+    new "Если даже ректор не знает, может, она хочет обсудить что-то личное?"
+
+    old "That can't be. Her Highness wouldn't go out of her way to summon me over something personal."
+    new "Не может быть. Её Высочество не стала бы вызывать меня ради чего-то личного."
+
+    old "Um… Everyone, what exactly was that discussion about?"
+    new "Э-э… Господа, о чём вообще был тот разговор?"
+
+    old "Ah, Louise — is it all right if I tell Siesta what we talked about earlier?"
+    new "А, Луиза, можно рассказать Сиесте то, о чём мы говорили?"
+
+    old "It's fine, isn't it? She'll find out soon enough anyway."
+    new "Почему бы и нет? Она всё равно скоро узнает."
+
+    old "You see, Her Highness summoned me and Louise. And it turns out we're going to Tristania."
+    new "Понимаешь, Её Высочество вызвала меня и Луизу. И мы отправляемся в Тристанию."
+
+    old "Wh-what, to Her Majesty the Queen!?"
+    new "Что, к Её Величеству королеве!?"
+
+    old "H-hey, you're too loud. Listen, this is a secret just between us."
+    new "Э-эй, слишком громко. Слушай, это секрет, только между нами."
+
+    old "Yes, understood.{#ch4.2_si_003}"
+    new "Да, поняла."
+
+    old "And on top of that, the Headmaster asked me to introduce Haruna to Her Highness, so Haruna's coming along too."
+    new "И ещё, ректор попросил представить Харуну Её Величеству, так что Харуна едет с нами."
+
+    old "Is that so…"
+    new "Вот как…"
+
+    old "Um… Louise-san."
+    new "Э-э… Луиза-сан."
+
+    old "What is it, Haruna?{#ch4.2_l_005}"
+    new "Что такое, Харуна?"
+
+    old "Louise-san, are you acquainted with Her Majesty the Queen?"
+    new "Луиза-сан, вы знакомы с Её Величеством королевой?"
+
+    old "Yes. When I was little, I served as Her Highness's playmate."
+    new "Да. В детстве я была у Её Высочества партнёром по играм."
+
+    old "So if you put it another way, you and Her Highness are childhood friends?"
+    new "То есть, иначе говоря, вы с Её Высочеством подруги детства?"
+
+    old "Well, I suppose that's how it amounts to. But don't go speaking of this too carelessly, all right?"
+    new "Ну, выходит, что так. Но не болтай об этом попусту."
+
+    old "Her Highness is now the Queen who supports a whole nation."
+    new "Её Высочество теперь королева, которая держит на себе целую страну."
+
+    old "A mere noble or commoner is not permitted to address her so lightly."
+    new "Простому дворянину или простолюдину не позволено обращаться к ней так запросто."
+
+    old "Still, the real problem is why we were summoned."
+    new "Но настоящая проблема — зачем нас вызвали."
+
+    old "You think it's about Haruna after all?"
+    new "Думаешь, всё-таки из-за Харуны?"
+
+    old "Wh-what, about me…?"
+    new "Ч-что, из-за меня…?"
+
+    old "Hmm, I still don't know. Still, it seems the Headmaster's arrangements will settle things peaceably…"
+    new "Хм, пока не знаю. Но, похоже, распоряжения ректора уладят это мирно…"
+
+    old "…"
+    new "…"
+
+    old "It'll be fine, Haruna. If it comes to it, I'll protect you."
+    new "Всё будет хорошо, Харуна. Если что, я тебя защищу."
+
+    old "Oho, as expected of my partner. Aren't you the cool one."
+    new "О-хо, как и ожидалось от моего напарника. Ну и крут же ты."
+
+    old "W-wait a moment. You mustn't go causing trouble at the royal palace."
+    new "П-погоди. Нельзя устраивать беспорядок в королевском дворце."
+
+    old "It'll be fine, I said. It was just an example."
+    new "Да говорю же, всё будет хорошо. Это был просто пример."
+
+    old "Good grief…"
+    new "Ох уж…"
+
+    old "Um… Miss Vallière."
+    new "Э-э… Мадемуазель Вальер."
+
+    old "Siesta, what is it?"
+    new "Сиеста, что такое?"
+
+    old "What's to become of me?"
+    new "А что будет со мной?"
+
+    old "Ah, about that. I'll ask you to stay behind and mind this room, Siesta."
+    new "Ах, об этом. Сиеста, я попрошу тебя остаться и присмотреть за комнатой."
+
+    old "What!? Am I not allowed to come along too?"
+    new "Что!? Значит, мне нельзя поехать?"
+
+    old "You may not. The ones summoned by Her Majesty are me and Saito. Haruna is going for the Headmaster's business."
+    new "Нельзя. Те, кого вызвало Её Величество, — это я и Сайто. Харуна едет по делам ректора."
+
+    old "You have no business there, do you, Siesta? We can't bloat the party for no reason."
+    new "У тебя ведь нет там дел, Сиеста? Мы не можем раздувать свиту без причины."
+
+    old "That's…{#ch4.2_si_008}"
+    new "Это…"
+
+    old "Can't we bring at least Siesta? You know, to look after us…"
+    new "Может, возьмём хотя бы Сиесту? Ну, чтобы за нами присматривала…"
+
+    old "No.{#ch4.2_l_018}"
+    new "Нет."
+
+    old "Saito-san, thank you. But it's just as Miss Vallière says. I'll stay behind, then."
+    new "Сайто-сан, спасибо. Но мадемуазель Вальер права. Тогда я останусь."
+
+    old "Siesta…"
+    new "Сиеста…"
+
+    old "Well then, I have my work to attend to as well. If you'll excuse me."
+    new "Что ж, у меня ведь тоже есть работа. Позвольте откланяться."
+
+    old "Then let's break up for now, shall we? Assemble before the carriage."
+    new "Тогда давайте на этом разойдёмся. Собираемся у кареты."
+
+    old "Understood.{#ch4.2_s_011}"
+    new "Понял."
+
+    old "Yes.{#ch4.2_ha_005}"
+    new "Да."
+
+    old "Hey, what are you making such a mess for? The floor's covered in clothes."
+    new "Эй, чего ты всё разбросала? Пол в одежде."
+
+    old "Hey, Saito! If you've got time to stand there spacing out, then help me!"
+    new "Погоди, Сайто! Если у тебя есть время стоять и глазеть, помоги!"
+
+    old "Louise, what have you been doing all this time? My packing was finished long ago."
+    new "Луиза, чем ты только что занималась? Я свои сборы давно закончил."
+
+    old "A girl needs all sorts of preparations before going out."
+    new "Девушке нужно много всего, чтобы собраться."
+
+    old "Besides, I've been leaving everything to you lately, so I don't even know what's where…"
+    new "К тому же в последнее время я всё оставляла на тебя, так что уже не знаю, где что лежит…"
+
+    old "All right, I'll help you."
+    new "Ладно, помогу."
+
+    old "Really?{#ch4.2_l_023}"
+    new "Правда?"
+
+    old "At this rate, it'll never get finished."
+    new "Так это никогда не закончится."
+
+    old "Since I'm in such a good mood, just help me quietly!"
+    new "Раз уж у меня хорошее настроение, помогай молча!"
+
+    old "Wha—. So I'm the one helping, huh."
+    new "А-а, значит, помогаю я."
+
+    old "It's your master's order. No complaints."
+    new "Это приказ твоей госпожи. Без возражений."
+
+    old "I don't mind helping, but… I do have one condition."
+    new "Я не против помочь, но… у меня есть одно условие."
+
+    old "A condition? Go on, try saying it, just in case."
+    new "Условие? Ну-ка скажи, на всякий случай."
+
+    old "I'd like tonight's dinner to have one extra dish… something like that. Is that a no?"
+    new "Хочу, чтобы к ужину добавили одно блюдо… вот так. Нельзя?"
+
+    old "Rejected. Keep talking nonsense and I'll cut you off from dinner entirely!"
+    new "Отказано. Будешь молоть чепуху — вовсе оставлю без ужина!"
+
+    old "Yeah, yeah, understood. So, what's left?"
+    new "Да-да, понял. Так что осталось?"
+
+    old "A change of clothes…"
+    new "Смена одежды…"
+
+    old "I see. Since you never tidy up normally, you can't find where anything is."
+    new "Понятно. Раз ты никогда не убираешь, не знаешь, где что лежит."
+
+    old "Ugh."
+    new "У-у."
+
+    old "Er, how many days' worth do you need?"
+    new "Э-э, на сколько дней тебе нужно?"
+
+    old "…Th-that is. Two or three days' worth at most should be… enough… I think…"
+    new "…Э-это. Дней на два-три, самое большее… хватит… наверное…"
+
+    old "Yeah, yeah, about three days. Do you need clothes other than the school uniform too?"
+    new "Да-да, дня на три. Кроме школьной формы, другая одежда нужна?"
+
+    old "M-maybe I do…"
+    new "М-может, и нужна…"
+
+    old "Do you have a fever? Your face is bright red, you know?"
+    new "У тебя жар? Лицо ведь красное, знаешь?"
+
+    old "Oh, be quiet! J-just hurry up and pack it already."
+    new "Да помолчи! П-просто поскорее уложи!"
+
+    old "I'll pack it properly even without being told."
+    new "Я и без указаний уложу как следует."
+
+    old "Still, though it's odd for a guy to say it, I've gotten rather good at folding clothes lately."
+    new "Хотя, странно говорить это парню, в последнее время я неплохо наловчился складывать одежду."
+
+    old "Look, Louise. This folding, and this neatening."
+    new "Смотри, Луиза. Вот так складываю, вот так разглаживаю."
+
+    old "Even if I said a girl did this, it'd pass."
+    new "Даже если бы я сказал, что это сделала девушка, сошло бы."
+
+    old "And this whiteness of the fabric. You could call it a masterstroke of hand-washing."
+    new "А эта белизна ткани. Можно сказать — шедевр ручной стирки."
+
+    old "Enough already! A-ah, ahh, I'll do the rest myself! Get out of this room right now, at once!"
+    new "Хватит уже! Я-я, ах, дальше я сама! Выйди из этой комнаты немедленно!"
+
+    old "What's the matter, Louise? Did I do something to offend you?"
+    new "Что с тобой, Луиза? Я чем-то тебя обидел?"
+
+    old "N-nothing. I'm telling you, I'll do it myself after all."
+    new "Н-ничем. Говорю же, я сама в конце концов сделаю."
+
+    old "Then, Miss Vallière. Do be careful on the road."
+    new "Итак, мадемуазель Вальер. Будьте осторожны в пути."
+
+    old "Yes. Thank you, Professor Colbert."
+    new "Да. Благодарю вас, профессор Кольбер."
+
+    old "Mind yourselves on the road. If anything happens, send word at once."
+    new "Будьте внимательны в пути. Если что-то случится — сразу посылайте весть."
+
+    old "Understood. I'm grateful you've prepared such a fine carriage for us."
+    new "Поняла. Благодарю за то, что приготовили для нас такую прекрасную карету."
+
+    old "Hmm, no thanks needed."
+    new "Хм, благодарности не нужны."
+
+    old "Come, Her Majesty must be waiting for you with bated breath. Off you go, and do be careful."
+    new "Ну же, Её Величество наверняка ждёт вас с нетерпением. Поезжайте и будьте осторожны."
+
+    old "Yes, then we'll be on our way."
+    new "Да, тогда мы отправимся."
+
+    old "Saito-kun, I'm counting on you to look after the two of them."
+    new "Сайто-кун, прошу тебя позаботиться об этих двоих."
+
+    old "Yes, I'll do my best."
+    new "Да, постараюсь."
+
+    old "Haruna-kun, once you're there, follow the instructions of Miss Vallière and Saito-kun."
+    new "Харуна-кун, на месте следуйте указаниям мадемуазель Вальер и Сайто-куна."
+
+    old "Yes, I understand."
+    new "Да, поняла."
+
+    old "Now then, let's get into the carriage."
+    new "Ну, давайте садиться в карету."
+
+    old "What are you standing around for? Hurry up and sit next to me!"
+    new "Чего ты встал? Ну же, садись скорее рядом со мной!"
+
+    old "Hiraga-kun, you can sit next to me too, you know? I feel bad, the way Louise-san ends up cramped."
+    new "Хирага-кун, рядом со мной тоже можно? Нехорошо, что Луиза-сан там теснится."
+
+    old "Ah, what should I do…"
+    new "А, что же мне делать…"
+
+    old "Well then, I guess I'll go with sitting next to Louise?"
+    new "Ну что ж, тогда, пожалуй, сяду рядом с Луизой?"
+
+    old "Th-that's right!? Th-that's… that's perfectly fine, isn't it."
+    new "Т-то есть как!? Э-это… это же совершенно нормально, да."
+
+    old "Mm…"
+    new "Мм…"
+
+    old "All right, I'll sit next to Haruna."
+    new "Хорошо, тогда сяду рядом с Харуной."
+
+    old "Wh-what! It's fine… it's fine! Do whatever you like, Saito, that's all there is to it!"
+    new "Что-что! Всё равно… всё равно! Делай как хочешь, Сайто, вот и всё!"
+
+    old "Huh? What are you getting angry for?"
+    new "А? Чего ты злишься?"
+
+    old "It's none of your business, Saito."
+    new "Тебя это не касается, Сайто."
+
+    old "Oh, just make up your mind already! Or would you rather be loaded up with the rest of the luggage?"
+    new "Да определись уже наконец! Или тебя лучше погрузить вместе с остальным багажом?"
+
+    old "Please, anything but that."
+    new "Только не это, прошу."
+
+    old "A bloodbath."
+    new "Кровопролитие."
+
+    old "Aww. Darling, sneaking off on us like that — how cold of you."
+    new "А-а. Дорогой, скрываться вот так — как холодно с твоей стороны."
+
+    old "Kirche, Tabitha."
+    new "Кирхе, Табита."
+
+    old "Hey there, don't go forgetting about us, either."
+    new "Эй, про нас тоже не забывай."
+
+    old "Guiche, Montmon."
+    new "Гиш, Монмон."
+
+    old "For the last time, it's not Montmon. You're doing that on purpose, aren't you?"
+    new "Говорю же, не Монмон. Ты ведь это назло?"
+
+    old "N-no, sorry. But why are you all here?"
+    new "Н-нет, прости. Но почему вы все здесь?"
+
+    old "We came to see you off. I thought we'd watch over your departure."
+    new "Пришли тебя проводить. Думаю, посмотрю на ваше отправление."
+
+    old "I see. Thanks.{#ch4.2_s_039}"
+    new "Вот как. Спасибо."
+
+    old "Tug, tug."
+    new "Дёрг-дёрг."
+
+    old "Hm? What is it, Tabitha?"
+    new "А? Что такое, Табита?"
+
+    old "You, over here."
+    new "Ты, сюда."
+
+    old "？？？？{#ch4.2_s_041}"
+    new "???"
+
+    old "You and you, over here."
+    new "Ты и ты, сюда."
+
+    old "？？？？{#ch4.2_s_042}"
+    new "???"
+
+    old "Tabitha's saying that Louise and Haruna should sit together, and you on the opposite side, darling."
+    new "Табита говорит, что Луизе и Харуне лучше сесть вместе, а ты, дорогой, напротив."
+
+    old "That way, the two of them are even."
+    new "Так они будут на равных."
+
+    old "Ah, I see. Thanks, Tabitha. What, it was simple after all."
+    new "А, вот оно что. Спасибо, Табита. Надо же, всё оказалось просто."
+
+    old "……{#ch4.2_l_044}"
+    new "…"
+
+    old "……{#ch4.2_ha_009}"
+    new "…"
+
+    old "Then, everyone, we'll be off."
+    new "Тогда, все, мы поехали."
+
+    old "Do your best out there."
+    new "Постарайтесь там."

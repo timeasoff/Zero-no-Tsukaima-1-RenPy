@@ -739,3 +739,39 @@ translate russian strings:
 
     old "Actually, it was me…{#ch4_m219c}"
     new "Собственно, это был я…"
+
+    old "Louise's Room{#ch4.2_lroom}"
+    new "Комната Луизы"
+
+    old "Kitchen{#ch4.2_kitchen}"
+    new "Кухня"
+
+    old "Courtyard{#ch4.2_yard}"
+    new "Двор"
+
+    old "Hallway{#ch4.2_hallway}"
+    new "Коридор"
+
+    old "Louise's Room{#ch4.2_hroom}"
+    new "Комната Луизы"
+
+    old "Leave{#ch4.2_leave}"
+    new "Отправиться"
+
+    old "Give her a hand.{#ch4.2_m1342a}"
+    new "Помочь ей."
+
+    old "I don't want to help.{#ch4.2_m1342b}"
+    new "Не хочу помогать."
+
+    old "Offer to help, on one condition.{#ch4.2_m1342c}"
+    new "Помогу, но с одним условием."
+
+    old "Sit next to Louise.{#ch4.2_m231a}"
+    new "Сесть рядом с Луизой."
+
+    old "Sit next to Haruna.{#ch4.2_m231b}"
+    new "Сесть рядом с Харуной."
+
+    old "Waver over which seat.{#ch4.2_m231c}"
+    new "Мяться, не решаясь выбрать место."
