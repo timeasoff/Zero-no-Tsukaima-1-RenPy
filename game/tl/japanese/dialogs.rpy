@@ -1681,7 +1681,7 @@ translate japanese strings:
     new "あ、そうか。ごめんなさい。やっぱりあたしの部屋はまずいわ。"
 
     old "Eh, is that so?"
-    new "え、そうなのか?"
+    new "えっ、そうなの？"
 
     old "I suppose this girl would find Louise's room much more to her liking than mine, right?"
     new "あたしの部屋より、ルイズの部屋の方がこの娘も喜ぶわよねえ?"
@@ -7254,7 +7254,7 @@ translate japanese strings:
     old "Th-then why is Siesta-san here!?"
     new "じゃ、じゃあ、シエスタさんはどうして！？"
 
-    old "I had already decided to share a bed with Miss Valiere from the start, so I don't think there's any problem."
+    old "I had already decided to share a bed with Miss Vallière from the start, so I don't think there's any problem."
     new "わたしは元々ミス・ヴァリエールと一緒のベッドと決めていましたので、別に問題はないと思います。"
 
     old "Even if the bed is big, with three people in it, Hiraga-kun's in the way too, right?"
@@ -7299,7 +7299,7 @@ translate japanese strings:
     old "Huh?{#ch3_l_004}"
     new "は？"
 
-    old "Miss Valiere! Saito-san, Saito-san!!"
+    old "Miss Vallière! Saito-san, Saito-san!!"
     new "ミス・ヴァリエール。サイトさんが、サイトさんが！！"
 
     old "Hey, wait a second. There was still room on the bed with three of us, right?"
@@ -7317,7 +7317,7 @@ translate japanese strings:
     old "See? That's what I said, didn't I? When I say it's fine, it's fine."
     new "ね？だから言ったでしょ？わたしがいいと言ったら、いいのよ。"
 
-    old "That's right, Haruna-san. We're freeloading in Miss Valiere's room."
+    old "That's right, Haruna-san. We're freeloading in Miss Vallière's room."
     new "そうです、ハルナさん。わたし達はミス・ヴァリエールの部屋に居候している身。"
 
     old "We shouldn't make too many demands, you know?"
@@ -7745,7 +7745,7 @@ translate japanese strings:
     new "ちょっとしっかりして、シエスタっ！シエスタったらぁ！？"
 
     old "………………"
-    new "………。……。……。"
+    new "………。……。…。"
 
     old "S-sorry. I actually passed out…"
     new "……す、すみません。わたくし、本気で意識が飛んでしまって……。"
@@ -8326,7 +8326,7 @@ translate japanese strings:
     old "Well, see you."
     new "それじゃあな。"
 
-    old "Well then, Miss Valiere. Haruna-san, I have work to do, so I'll be going on ahead."
+    old "Well then, Miss Vallière. Haruna-san, I have work to do, so I'll be going on ahead."
     new "それでは、ミス・ヴァリエール。ハルナさん。わたくしは仕事がありますのでお先に。"
 
     old "All right. Give it your all at work."
@@ -8476,7 +8476,7 @@ translate japanese strings:
     old "Unforgivable~! Saito didn't have to get taken in by Haruna's little feigned illness like that!!"
     new "許せなぁーい！サイトったら、ハルナのあんな仮病に騙されなくたっていいのにーっ！！"
 
-    old "Miss Valiere. I believe we should make Haruna-san confess that she's faking."
+    old "Miss Vallière. I believe we should make Haruna-san confess that she's faking."
     new "ミス・ヴァリエール。わたくしは、仮病だということをハルナさんに白状してもらいたいと思います。"
 
     old "But wouldn't it be faster if we just told Saito ourselves?"
@@ -8488,7 +8488,7 @@ translate japanese strings:
     old "Then we'll just use magic. There's bound to be a perfect spell."
     new "なら、魔法を使うだけよ。きっとぴったりな魔法があるはずだわ。"
 
-    old "Um, Miss Valiere — if it's all right, I have a good idea…"
+    old "Um, Miss Vallière — if it's all right, I have a good idea…"
     new "あの、ミス・ヴァリエール。よろしければ、わたくしにいい考えがあります……。"
 
     old "Eh? What is it, what is it!?"
@@ -9079,13 +9079,13 @@ translate japanese strings:
     new "それはね……。"
 
     old "You came to see Haruna, then?"
-    new "春奈を見に来たとか"
+    new "春奈を見に来たとか？"
 
     old "Half-right, maybe. But no — my real purpose is…"
     new "半分は当たりかな。でも、違うの。あたしの本当の目的はね……。"
 
     old "You came to see me? Pfft, couldn't be."
-    new "まさか、オレに会いに来たとか…まあ、そんなわけないか。"
+    new "まさか、俺に会いに来たとか？まぁ、そんなわけないか。"
 
     old "And what if I did?"
     new "もし、そうだったらどうする？"

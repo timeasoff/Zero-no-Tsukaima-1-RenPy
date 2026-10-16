@@ -82,7 +82,7 @@ label ch3:
 
     $ show_sprites(("si 6 angry", "ha 3 angry"))
     voice "ch3_si_002"
-    si "I had already decided to share a bed with Miss Valiere from the start, so I don't think there's any problem."
+    si "I had already decided to share a bed with Miss Vallière from the start, so I don't think there's any problem."
 
     $ show_sprites("ha 3 angry", side="right")
     voice "ch3_ha_011"
@@ -158,7 +158,7 @@ label ch3:
 
             $ show_sprites(("l 4", "si 6 sad"))
             voice "ch3_si_004"
-            si "Miss Valiere! Saito-san, Saito-san!!"
+            si "Miss Vallière! Saito-san, Saito-san!!"
             $ update_sympathy(-10, char_key="siesta")
 
             $ show_sprites(None)
@@ -192,7 +192,7 @@ label ch3_141:
 
     $ show_sprites(("l 4", "si 6"))
     voice "ch3_si_005"
-    si "That's right, Haruna-san. We're freeloading in Miss Valiere's room."
+    si "That's right, Haruna-san. We're freeloading in Miss Vallière's room."
 
     voice "ch3_si_006"
     si "We shouldn't make too many demands, you know?"

@@ -583,7 +583,7 @@ translate japanese strings:
     new "ちょっとは心配かな"
 
     old "Yeah, it does bug me.{#ch3_m153c}"
-    new "確か気になるな"
+    new "確かに気になるな"
 
     old "Hallway{#ch3.2.hallway}"
     new "廊下"

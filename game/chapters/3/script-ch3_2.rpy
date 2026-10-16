@@ -18,7 +18,7 @@ label ch3_2:
     $ show_sprites("si 1")
 
     voice "ch3.2_si_001"
-    si "Well then, Miss Valiere. Haruna-san, I have work to do, so I'll be going on ahead."
+    si "Well then, Miss Vallière. Haruna-san, I have work to do, so I'll be going on ahead."
 
     $ show_sprites(("l 1 happy", "si 1"))
 
@@ -286,7 +286,7 @@ label ch3_152:
     l "Unforgivable~! Saito didn't have to get taken in by Haruna's little feigned illness like that!!"
 
     voice "ch3.2_si_008"
-    si "Miss Valiere. I believe we should make Haruna-san confess that she's faking."
+    si "Miss Vallière. I believe we should make Haruna-san confess that she's faking."
 
     $ show_sprites(("l 1", "si 1"))
 
@@ -306,7 +306,7 @@ label ch3_152:
     $ show_sprites(("l 3 happy", "si 4 happy"))
 
     voice "ch3.2_si_010"
-    si "Um, Miss Valiere — if it's all right, I have a good idea…"
+    si "Um, Miss Vallière — if it's all right, I have a good idea…"
 
     $ show_sprites(("l 1 happy", "si 4 happy"))
 

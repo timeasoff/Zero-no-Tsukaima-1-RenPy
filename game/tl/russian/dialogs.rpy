@@ -7260,7 +7260,7 @@ translate russian strings:
     old "Th-then why is Siesta-san here!?"
     new "Т-тогда почему Сиеста-сан здесь!?"
 
-    old "I had already decided to share a bed with Miss Valiere from the start, so I don't think there's any problem."
+    old "I had already decided to share a bed with Miss Vallière from the start, so I don't think there's any problem."
     new "Я изначально решила спать на одной кровати с мадемуазель Вальер, так что, по-моему, проблемы нет."
 
     old "Even if the bed is big, with three people in it, Hiraga-kun's in the way too, right?"
@@ -7305,7 +7305,7 @@ translate russian strings:
     old "Huh?{#ch3_l_004}"
     new "Что?"
 
-    old "Miss Valiere! Saito-san, Saito-san!!"
+    old "Miss Vallière! Saito-san, Saito-san!!"
     new "Мадемуазель Вальер. Сайто-сан, Сайто-сан!!"
 
     old "Hey, wait a second. There was still room on the bed with three of us, right?"
@@ -7323,7 +7323,7 @@ translate russian strings:
     old "See? That's what I said, didn't I? When I say it's fine, it's fine."
     new "Вот видишь? Я же говорила. Скажу, что можно — значит, можно."
 
-    old "That's right, Haruna-san. We're freeloading in Miss Valiere's room."
+    old "That's right, Haruna-san. We're freeloading in Miss Vallière's room."
     new "Именно, Харуна-сан. Мы ведь живём в комнате мадемуазель Вальер как прихлебатели."
 
     old "We shouldn't make too many demands, you know?"
@@ -8332,7 +8332,7 @@ translate russian strings:
     old "Well, see you."
     new "Ну, пока."
 
-    old "Well then, Miss Valiere. Haruna-san, I have work to do, so I'll be going on ahead."
+    old "Well then, Miss Vallière. Haruna-san, I have work to do, so I'll be going on ahead."
     new "Ну что ж, мадемуазель Вальер. Харуна-сан, у меня дела, так что пойду вперёд."
 
     old "All right. Give it your all at work."
@@ -8482,7 +8482,7 @@ translate russian strings:
     old "Unforgivable~! Saito didn't have to get taken in by Haruna's little feigned illness like that!!"
     new "Непростимо-о! Сайто ведь мог и не вестись на такую симуляцию Харуны!!"
 
-    old "Miss Valiere. I believe we should make Haruna-san confess that she's faking."
+    old "Miss Vallière. I believe we should make Haruna-san confess that she's faking."
     new "Мадемуазель Вальер. Я бы хотела, чтобы Харуна-сан созналась, что симулирует."
 
     old "But wouldn't it be faster if we just told Saito ourselves?"
@@ -8494,7 +8494,7 @@ translate russian strings:
     old "Then we'll just use magic. There's bound to be a perfect spell."
     new "Тогда просто используем магию. Наверняка найдётся подходящее заклинание."
 
-    old "Um, Miss Valiere — if it's all right, I have a good idea…"
+    old "Um, Miss Vallière — if it's all right, I have a good idea…"
     new "Мадемуазель Вальер, если позволите — у меня есть хорошая идея…"
 
     old "Eh? What is it, what is it!?"
