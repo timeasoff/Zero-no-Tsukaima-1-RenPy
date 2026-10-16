@@ -781,3 +781,39 @@ translate japanese strings:
 
     old "Waver over which seat.{#ch4.2_m231c}"
     new "どっちの席も捨てがたいと悩む"
+
+    old "Tell her it's a dangerous mission.{#ch4.2b_m1347a}"
+    new "危険な任務なんだと言う"
+
+    old "Tell her I'll bring back a souvenir.{#ch4.2b_m1347b}"
+    new "おみやげを買ってくると言う"
+
+    old "Tell her it's absolutely out of the question.{#ch4.2b_m1347c}"
+    new "絶対駄目だと言う"
+
+    old "There are reasons I can't tell you.{#ch4.2b_m1352a}"
+    new "ちょっと言えない事情で"
+
+    old "I'm taking Haruna sightseeing.{#ch4.2b_m1352b}"
+    new "春奈を観光に連れて行く"
+
+    old "The headmaster asked me to run an errand.{#ch4.2b_m1352c}"
+    new "学院長に頼まれ買い物に"
+
+    old "A book about noble life?{#ch4.2b_m1357a}"
+    new "貴族の生活の本？"
+
+    old "A book about Tabitha's family?{#ch4.2b_m1357b}"
+    new "タバサの家の本？"
+
+    old "A book with some kind of story?{#ch4.2b_m1357c}"
+    new "何かの物語の本？"
+
+    old "It really suits you.{#ch4.2b_m1362a}"
+    new "よく似合ってるじゃないか"
+
+    old "I'd like some new clothes too.{#ch4.2b_m1362b}"
+    new "俺も新しい服が欲しいよ"
+
+    old "Clothes make the man, as they say.{#ch4.2b_m1362c}"
+    new "馬子にも衣装と言ったもので"

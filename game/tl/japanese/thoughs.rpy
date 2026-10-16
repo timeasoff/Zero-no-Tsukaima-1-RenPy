@@ -747,3 +747,30 @@ translate japanese strings:
 
     old "And so, at last, we set out from the Academy of Magic."
     new "（こうして俺達は、ようやく魔法学院を　出発した）"
+
+    old "Siesta seemed awfully down. I wonder if she's all right…"
+    new "（シエスタ、ずいぶん落ち込んでた　みたいだけど、大丈夫かなぁ……）"
+
+    old "I mean, after everything she did for Haruna, being told to stay behind…"
+    new "（確かに、春奈のことについて　ここまで面倒を見てもらったのに、　留守番って言われたらなぁ……）"
+
+    old "And — she really is crouched down there in the kitchen."
+    new "（って、本当に厨房でうずくまってるよ）"
+
+    old "Hmm. What am I supposed to say to cheer her up?"
+    new "（うーん。　なんて、なぐさめればいいんだろう）"
+
+    old "Huh, it's Tabitha."
+    new "（あれ、タバサだ）"
+
+    old "Flipping through the pages, I found pictures of a noble-looking man's life from morning to night."
+    new "（パラパラとページをめくると、　貴族っぽい人の朝から晩までの生活を　収めた絵が載っていた）"
+
+    old "There's writing as well, but… what kind of book is this?"
+    new "（あと文字が書いてあるけど……、　これ、なんの本だろう）"
+
+    old "Hmm, but when did I ever tell Tabitha that I'd be meeting a noble?"
+    new "（あれ、でもいつタバサに貴族に会う　なんて話をしたっけ？）"
+
+    old "Let's see…"
+    new "（そうだなぁ……）"

@@ -775,3 +775,39 @@ translate russian strings:
 
     old "Waver over which seat.{#ch4.2_m231c}"
     new "Мяться, не решаясь выбрать место."
+
+    old "Tell her it's a dangerous mission.{#ch4.2b_m1347a}"
+    new "Сказать, что задание опасное."
+
+    old "Tell her I'll bring back a souvenir.{#ch4.2b_m1347b}"
+    new "Сказать, что привезу сувенир."
+
+    old "Tell her it's absolutely out of the question.{#ch4.2b_m1347c}"
+    new "Сказать, что это исключено."
+
+    old "There are reasons I can't tell you.{#ch4.2b_m1352a}"
+    new "Есть обстоятельства, о которых не скажешь."
+
+    old "I'm taking Haruna sightseeing.{#ch4.2b_m1352b}"
+    new "Везу Харуну на прогулку."
+
+    old "The headmaster asked me to run an errand.{#ch4.2b_m1352c}"
+    new "Ректор попросил кое-что купить."
+
+    old "A book about noble life?{#ch4.2b_m1357a}"
+    new "Книга о жизни знати?"
+
+    old "A book about Tabitha's family?{#ch4.2b_m1357b}"
+    new "Книга о семье Табиты?"
+
+    old "A book with some kind of story?{#ch4.2b_m1357c}"
+    new "Книга с какой-то историей?"
+
+    old "It really suits you.{#ch4.2b_m1362a}"
+    new "Тебе очень идёт."
+
+    old "I'd like some new clothes too.{#ch4.2b_m1362b}"
+    new "Я бы тоже хотел новую одежду."
+
+    old "Clothes make the man, as they say.{#ch4.2b_m1362c}"
+    new "Одежда красит человека, как говорится."

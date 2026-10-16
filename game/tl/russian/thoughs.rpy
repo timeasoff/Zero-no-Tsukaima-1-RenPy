@@ -742,3 +742,30 @@ translate russian strings:
 
     old "And so, at last, we set out from the Academy of Magic."
     new "И вот так мы наконец отправились из Академии магии."
+
+    old "Siesta seemed awfully down. I wonder if she's all right…"
+    new "Сиеста выглядела совсем подавленной. Всё ли с ней в порядке…"
+
+    old "I mean, after everything she did for Haruna, being told to stay behind…"
+    new "И правда — она столько с ней возилась, а тут вдруг велели остаться дома…"
+
+    old "And — she really is crouched down there in the kitchen."
+    new "И ведь действительно сидит сгорбившись в кухне."
+
+    old "Hmm. What am I supposed to say to cheer her up?"
+    new "Хм. И как её только утешить…"
+
+    old "Huh, it's Tabitha."
+    new "Ой, Табита."
+
+    old "Flipping through the pages, I found pictures of a noble-looking man's life from morning to night."
+    new "Пролистав страницы, я увидел картинки из жизни знатного человека — с утра до ночи."
+
+    old "There's writing as well, but… what kind of book is this?"
+    new "Там ещё что-то написано, но… что это за книга?"
+
+    old "Hmm, but when did I ever tell Tabitha that I'd be meeting a noble?"
+    new "Хм, а когда это я успел рассказать Табите, что познакомлюсь со знатью?"
+
+    old "Let's see…"
+    new "Ну-у…"

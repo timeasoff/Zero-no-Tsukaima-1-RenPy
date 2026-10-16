@@ -11057,3 +11057,318 @@ translate russian strings:
 
     old "Do your best out there."
     new "Постарайтесь там."
+
+    old "Just me left behind… Just me left behind… Just me left behind…"
+    new "Только я остаюсь… Только я остаюсь… Только я остаюсь…"
+
+    old "Partner, she looks like a pretty serious case."
+    new "Напарник, у этой девицы совсем тяжёлый случай."
+
+    old "Siesta. This is a dangerous mission. There's no way I could take you along, right?"
+    new "Сиеста. Это опасное задание. Взять тебя с собой никак нельзя, понимаешь?"
+
+    old "…A… dangerous… mission."
+    new "…Опас…ное… задание."
+
+    old "That's why Louise isn't taking you, Siesta. Can't you understand?"
+    new "Потому Луиза и не берёт тебя с собой, Сиеста. Войди и ты в её положение, ладно?"
+
+    old "No!"
+    new "Нет!"
+
+    old "Whoa…"
+    new "Ой-ой…"
+
+    old "If it's a dangerous mission, that's all the more reason. Leaving you to face the danger all alone — I couldn't bear it!"
+    new "Если задание опасное, тем более. Подвергнуть вас одного опасности — я такого… я такого не вынесу."
+
+    old "Siesta…{#ch4.2b_s_047}"
+    new "Сиеста…"
+
+    old "Siesta. I'll bring you back a proper souvenir, so give it up this time."
+    new "Сиеста. Я обязательно привезу тебе сувенир, так что на этот раз смирись."
+
+    old "A souvenir… I don't want one."
+    new "Сувенир… Не нужен он мне."
+
+    old "Hmm. So a souvenir won't do it either…"
+    new "Хм. Даже сувенир не помог…"
+
+    old "Th-then… Saito-san, would you go on a date with me when you get back?"
+    new "То… тогда… Сайто-сан, а когда вернётесь, вы сходите со мной на свидание?"
+
+    old "A d-date? Wh-why?"
+    new "На свидание?! П-почему?"
+
+    old "Siesta."
+    new "Сиеста."
+
+    old "Ah… Saito-san…"
+    new "А… Сайто-сан…"
+
+    old "No means no. You're grown up now, so don't go throwing tantrums."
+    new "Нельзя — значит нельзя. Ты уже взрослая, не стоит капризничать."
+
+    old "Ahh!! You're right!"
+    new "А-а!! И правда!"
+
+    old "Siesta, what's the matter?"
+    new "Сиеста, что с тобой?"
+
+    old "Honestly, what am I doing. I'm sorry, Saito-san. Thank you for worrying about me."
+    new "Ну что это я, право. Простите, Сайто-сан. Спасибо, что вы за меня волновались."
+
+    old "I'm all right now, so please don't worry."
+    new "Со мной уже всё хорошо, так что не волнуйтесь."
+
+    old "Well, if you say so…"
+    new "Ну, если так, то ладно…"
+
+    old "Darling, found you."
+    new "Дорогой, вот ты где."
+
+    old "Ah, Kirche."
+    new "А, Кирхе."
+
+    old "I heard you're going off to Tristania?"
+    new "Я слышала — ты собрался в Тристанию?"
+
+    old "Ugh. That was supposed to be a secret, wasn't it? Where did you hear that?"
+    new "Ох. Вообще-то это должно было быть секретом. Откуда ты узнала?"
+
+    old "Mm, a secret."
+    new "М-м, секрет."
+
+    old "Tch.{#ch4.2b_s_057}"
+    new "Пф."
+
+    old "But I never heard why. Just what are you going there for?"
+    new "Но причину я не слышала. Зачем ты вообще туда едешь?"
+
+    old "Uh, well…"
+    new "Э-э…"
+
+    old "It's, uh, reasons I can't really tell you…"
+    new "Это, э-э, обстоятельства, о которых не скажешь…"
+
+    old "Whaat. How boring."
+    new "А-а. Скукотища."
+
+    old "Even if you call it boring… Well, it's a secret."
+    new "Ну, скучно тебе или нет… Короче, это секрет."
+
+    old "Since Haruna went to all the trouble of coming to this world, I thought I'd show her around…"
+    new "Харуна всё-таки попала в другой мир, вот я и решил устроить ей небольшую экскурсию…"
+
+    old "Really?{#ch4.2b_k_008}"
+    new "Правда?"
+
+    old "N-no, really. For real, seriously."
+    new "Н-нет, правда. Честно-честно."
+
+    old "The headmaster asked me to go shopping for him. Man, what a pain."
+    new "Ректор попросил меня сходить за покупками. Вот незадача."
+
+    old "Really?{#ch4.2b_k_009}"
+    new "Правда?"
+
+    old "I-it's true. See, his eyesight's gotten worse lately, so he's getting new glasses or something."
+    new "П-правда же. Ну, у него зрение испортилось, он новые очки заказал — и всё такое."
+
+    old "Hmm…{#ch4.2b_k_010}"
+    new "Хм…"
+
+    old "Well, you do look like you're in a pinch, so I'll let it go at that."
+    new "Ну, вид у тебя такой, будто ты влип, пусть будет так."
+
+    old "But, but. When I think I won't see you for a while, darling, I get so lonely."
+    new "Но-но. Как подумаю, что мы какое-то время не увидимся, так сразу одиноко."
+
+    old "Oh, I just have to give you a big squeeze."
+    new "Ну всё, сейчас как обниму покрепче."
+
+    old "Hey, Kirche! Cut it out, everyone's watching!"
+    new "Эй, Кирхе! Перестань, на нас же все смотрят!"
+
+    old "Why? It's fine, isn't it? Savings for the time we won't see each other!"
+    new "Почему? Ничего страшного. Коплю на то время, пока мы не увидимся!"
+
+    old "Come on, come on."
+    new "Давай-давай."
+
+    old "H-have mercy on me…"
+    new "П-пощади…"
+
+    old "I was looking for you."
+    new "Искала."
+
+    old "Looking for me? That's rare, coming from you… Did something happen?"
+    new "Меня искала? Для тебя это редкость… Что-то случилось?"
+
+    old "This."
+    new "Это."
+
+    old "This book… for me?"
+    new "Эту книгу… мне?"
+
+    old "I'll lend it to you."
+    new "Дам почитать."
+
+    old "Could this be a book about noble life?"
+    new "Это, может, книга о жизни знати?"
+
+    old "I thought it might be useful…"
+    new "Думала, пригодится…"
+
+    old "Hmm, if only I could read the writing…"
+    new "Хм, вот если бы ещё буквы читать…"
+
+    old "Could this be a book about the customs of Tabitha's family?"
+    new "Это, может, книга об обычаях семьи Табиты?"
+
+    old "Not at all."
+    new "Совсем нет."
+
+    old "Hey, partner. This is a book showing the manners of noble life."
+    new "Эй, напарник. Это книга о том, как полагается вести себя знати."
+
+    old "Huh, noble manners? But I can't read the writing, so I've got no idea what's what.{#ch4.2b_s_072}"
+    new "Э, как вести себя знати? Но я же не читаю буквы, так что ничего не понятно."
+
+    old "Could this be some kind of storybook?"
+    new "Это, может, книга с какой-нибудь историей?"
+
+    old "No.{#ch4.2b_t_011}"
+    new "Нет."
+
+    old "Hey, partner. This is a book showing the manners of noble life.{#ch4.2b_d_004}"
+    new "Эй, напарник. Это книга о том, как полагается вести себя знати."
+
+    old "Huh, noble manners? But I can't read the writing, so I've got no idea what's what.{#ch4.2b_s_074}"
+    new "Э, как вести себя знати? Но я же не читаю буквы, так что ничего не понятно."
+
+    old "How pathetic. Partner, you'd better learn to read one of these days."
+    new "Жалко-то как. Напарник, пора бы тебе уже научиться читать."
+
+    old "Can't help it, right? It's not like I'm staying in this world forever."
+    new "Ничего не поделаешь. Я ведь не навсегда в этом мире."
+
+    old "……。{#ch4.2b_t_001}"
+    new "…"
+
+    old "If it's writing, I can read it. I'll read it to you later."
+    new "Читать — это я умею. Потом почитаю тебе вслух."
+
+    old "S-seriously?"
+    new "С-серьёзно?"
+
+    old "Well, hearing 'manners' makes me nervous, but I suppose it's better to know."
+    new "Ну, когда говорят «манеры», я напрягаюсь, но знать всё-таки лучше."
+
+    old "That's right. She picked out a book with plenty of pictures for you. Be grateful to the girl there."
+    new "Вот именно. Она специально выбрала книгу, где много картинок. Поблагодари вон ту девицу."
+
+    old "Huh, for me…? She went out of her way?"
+    new "Э, для меня… И специально?"
+
+    old "……。{#ch4.2b_t_002}"
+    new "…"
+
+    old "Thanks, Tabitha. I owe you one."
+    new "Спасибо, Табита. Я у тебя в долгу."
+
+    old "Yeah…"
+    new "Угу…"
+
+    old "Ah, Hiraga-kun?"
+    new "А, Хирага-кун?"
+
+    old "Um, who are you?"
+    new "Э-э, вы кто?"
+
+    old "Hiraga-kun, you're such a flatterer. It's me, me. Haruna."
+    new "Хирага-кун, ну ты и льстец. Это же я, я. Харуна."
+
+    old "Oh, it's Haruna? I didn't recognize you for a second. What's with the outfit?"
+    new "А, так это Харуна? Я тебя сразу и не узнал. А что это за одежда?"
+
+    old "Louise-san said it'd be boring to always wear the same clothes, so she lent me this."
+    new "Луиза-сан сказала, что всё время в одном и том же скучно, вот и дала мне это."
+
+    old "Huh, that Louise, of all people…"
+    new "Ого, эта самая Луиза…"
+
+    old "Hiraga-kun, how do I look? It's been so long since I wore anything but my uniform, I'm embarrassed."
+    new "Хирага-кун, как тебе? Я так давно не носила ничего, кроме формы, что даже стесняюсь."
+
+    old "It suits you pretty well, doesn't it?"
+    new "Тебе очень идёт, разве нет?"
+
+    old "Y-you think so?"
+    new "П-правда?"
+
+    old "Like I said before, I've been in my uniform all this time, right?"
+    new "Я, кажется, уже говорила: в последнее время я всё время в форме, да?"
+
+    old "Wearing something different puts me in a happy mood. Clothes really do matter."
+    new "В другой одежде и настроение становится радостнее. Одежда всё-таки важна."
+
+    old "I'd like some new clothes too. I've been wearing pretty much this since I came to this world."
+    new "Я бы тоже хотел новую одежду. С тех пор как я тут, я почти всё время в этом."
+
+    old "If I had money, I'd buy you some…"
+    new "Были бы у меня деньги, я бы тебе купила…"
+
+    old "No, the thought alone makes me happy. Really, I wish Louise had even a bit of that in her…"
+    new "Нет, мне и от одной мысли приятно. Вот бы у Луизы была хоть капелька этого…"
+
+    old "My, Louise-san isn't as awful a person as you think she is."
+    new "Ой, Луиза-сан не такая ужасная, как ты думаешь."
+
+    old "Really?{#ch4.2b_s_086}"
+    new "Правда?"
+
+    old "Clothes make the man — they said it well…"
+    new "Одежда красит человека — верно говорят…"
+
+    old "Hiraga-kun, that's so mean."
+    new "Хирага-кун, ну ты и жестокий."
+
+    old "No, I'm joking, joking. I think it suits you quite well."
+    new "Да нет, шучу, шучу. По-моему, тебе очень идёт."
+
+    old "Y-you think so? Thanks, Hiraga-kun."
+    new "П-правда? Спасибо, Хирага-кун."
+
+    old "N-no, it's nothing."
+    new "Д-да нет, ничего."
+
+    old "By the way, no offense, but wasn't Louise's outfit a bit small?"
+    new "Кстати, не в обиду будет сказано, а одежда Луизы не была маловата?"
+
+    old "Eek."
+    new "Ик."
+
+    old "I mean, Louise is petite, right? I was wondering if it'd fit you."
+    new "Ну, Луиза же миниатюрная, да? Я и подумал, подойдёт ли тебе."
+
+    old "Actually, I was thinking it's a bit tight."
+    new "Вообще-то я и сама думала, что немного жмёт."
+
+    old "Ah, so it is?"
+    new "А, так и есть?"
+
+    old "Hahahaha.{#ch4.2b_ha_023}"
+    new "Ха-ха-ха-ха."
+
+    old "Hahahaha.{#ch4.2b_s_093}"
+    new "Ха-ха-ха-ха."
+
+    old "Hiraga-kun, you pervert."
+    new "Хирага-кун, извращенец."
+
+    old "If you keep asking girls things like that, I'll have to punish you — Louise-san would, anyway."
+    new "Будешь такое спрашивать у девушек — и я тебя накажу, хоть я и не Луиза-сан."
+
+    old "N-no, spare me that…"
+    new "Н-нет, пощади…"

@@ -183,3 +183,6 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 926,o 1 shy,1,219,312,lay10,ch4 part1; block 918 pos 8; визуальная сверка SCENEDAT[926] с game/images/chara/o 1 shy.webp (румянец на щеках)
 962,ha 2,35,231,747,lay7,ch4 part2; block 962 pos 0; пиксель-сверка SCENEDAT[962] -> ha 2 (MAE 4.58; блоки ha: 951=ha 1, 962=ha 2, 973=ha 3, 984=ha 4)
 968,ha 2 sad,17,232,793,lay7,ch4 part2; block 962 pos 6; пиксель-сверка SCENEDAT[968] -> ha 2 sad (MAE 4.57; pos 6 = sad по правилу блока)
+964,ha 2 happy,18,246,1398,lay7,ch4 part2b; block 962 pos 2; пиксель-сверка SCENEDAT[964] -> ha 2 happy (MAE 0.0279 норм., следующий 0.0318; pos 2 = happy)
+966,ha 2 angry,2,1365,3932,lay7,ch4 part2b; block 962 pos 4; пиксель-сверка SCENEDAT[966] -> ha 2 angry (MAE 0.0275 норм., следующий 0.0288; pos 4 = angry)
+970,ha 2 shy,5,1362,3874,lay7,ch4 part2b; block 962 pos 8; пиксель-сверка SCENEDAT[970] -> ha 2 shy (MAE 0.0277 норм., следующий 0.0282; pos 8 = shy)

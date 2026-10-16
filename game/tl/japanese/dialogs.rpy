@@ -11051,3 +11051,318 @@ translate japanese strings:
 
     old "Do your best out there."
     new "頑張ってくるのじゃぞ。"
+
+    old "Just me left behind… Just me left behind… Just me left behind…"
+    new "わたしだけお留守番……。わたしだけお留守番……。わたしだけお留守番……。"
+
+    old "Partner, she looks like a pretty serious case."
+    new "相棒、こいつはかなり重症みたいだな。"
+
+    old "Siesta. This is a dangerous mission. There's no way I could take you along, right?"
+    new "シエスタ。これは危険な任務なんだ。連れて行けるはずがないだろ？"
+
+    old "…A… dangerous… mission."
+    new "……危険……な……任務。"
+
+    old "That's why Louise isn't taking you, Siesta. Can't you understand?"
+    new "だから、ルイズはシエスタを連れて行かないんだ。理解してやってくれないか？"
+
+    old "No!"
+    new "駄目です！"
+
+    old "Whoa…"
+    new "うわぁ……。"
+
+    old "If it's a dangerous mission, that's all the more reason. Leaving you to face the danger all alone — I couldn't bear it!"
+    new "危険な任務ならなおさらです。サイトさんだけ危険にさらすなんて、そんなこと……わたし、耐えられません。"
+
+    old "Siesta…{#ch4.2b_s_047}"
+    new "シエスタ……。"
+
+    old "Siesta. I'll bring you back a proper souvenir, so give it up this time."
+    new "シエスタ。ちゃんとおみやげを買ってくるから、今回はあきらめてくれよ。"
+
+    old "A souvenir… I don't want one."
+    new "おみやげ……。いらないです。"
+
+    old "Hmm. So a souvenir won't do it either…"
+    new "うーん。おみやげでも駄目か……。"
+
+    old "Th-then… Saito-san, would you go on a date with me when you get back?"
+    new "じゃ、じゃあ……。サイトさん、帰ってきたらデートしてくれますか？"
+
+    old "A d-date? Wh-why?"
+    new "で、デート？な、なんで？"
+
+    old "Siesta."
+    new "シエスタ。"
+
+    old "Ah… Saito-san…"
+    new "あ……。サイトさん……。"
+
+    old "No means no. You're grown up now, so don't go throwing tantrums."
+    new "駄目なものは駄目。もう大人なんだから、駄々をこねるもんじゃないよ。"
+
+    old "Ahh!! You're right!"
+    new "ああっ！！そうですよねっ！"
+
+    old "Siesta, what's the matter?"
+    new "シエスタどうしたんだ？"
+
+    old "Honestly, what am I doing. I'm sorry, Saito-san. Thank you for worrying about me."
+    new "もう、わたしったら。ごめんなさい、サイトさん。心配してくれて、ありがとうございます。"
+
+    old "I'm all right now, so please don't worry."
+    new "もう、大丈夫ですから、心配しないでください。"
+
+    old "Well, if you say so…"
+    new "それならいいけど……。"
+
+    old "Darling, found you."
+    new "ダーリン、見つけた。"
+
+    old "Ah, Kirche."
+    new "あ、キュルケ。"
+
+    old "I heard you're going off to Tristania?"
+    new "聞いたわよ、トリスタニアに出かけるんだって？"
+
+    old "Ugh. That was supposed to be a secret, wasn't it? Where did you hear that?"
+    new "げっ。その話は秘密のはずだろ？どこから聞いたんだよ。"
+
+    old "Mm, a secret."
+    new "うーん、秘密。"
+
+    old "Tch.{#ch4.2b_s_057}"
+    new "ちぇー。"
+
+    old "But I never heard why. Just what are you going there for?"
+    new "でも、理由までは聞いてなかったわ。一体どういう用事で出かけるの？"
+
+    old "Uh, well…"
+    new "えーと……。"
+
+    old "It's, uh, reasons I can't really tell you…"
+    new "それはちょっと言えない事情だったり……。"
+
+    old "Whaat. How boring."
+    new "えー。つまらなーい。"
+
+    old "Even if you call it boring… Well, it's a secret."
+    new "つまらなーいって言われても…。まぁ、秘密なの。"
+
+    old "Since Haruna went to all the trouble of coming to this world, I thought I'd show her around…"
+    new "せっかく春奈が異世界に来たんだし、ちょっと観光をと思って……。"
+
+    old "Really?{#ch4.2b_k_008}"
+    new "本当？"
+
+    old "N-no, really. For real, seriously."
+    new "い、いや、本当。マジマジ。"
+
+    old "The headmaster asked me to go shopping for him. Man, what a pain."
+    new "学院長に頼まれて買い物に行くことになっちまって。いやー、困ったなぁ。"
+
+    old "Really?{#ch4.2b_k_009}"
+    new "本当？"
+
+    old "I-it's true. See, his eyesight's gotten worse lately, so he's getting new glasses or something."
+    new "ほ、本当だとも。ほら、最近目が悪くなったとかで、眼鏡を新調したーとか。"
+
+    old "Hmm…{#ch4.2b_k_010}"
+    new "ふーん……。"
+
+    old "Well, you do look like you're in a pinch, so I'll let it go at that."
+    new "まぁ、ダーリンが困ってるみたいだし、そういうことにしてあげるわ。"
+
+    old "But, but. When I think I won't see you for a while, darling, I get so lonely."
+    new "でもでも。ダーリンとしばらく会えないかと思うと、寂しくなるわねぇ。"
+
+    old "Oh, I just have to give you a big squeeze."
+    new "もう、ぎゅーってしちゃうんだから。"
+
+    old "Hey, Kirche! Cut it out, everyone's watching!"
+    new "おい、キュルケ！やめろよ、みんな見てるじゃないかっ！"
+
+    old "Why? It's fine, isn't it? Savings for the time we won't see each other!"
+    new "どうして？別に、いいじゃない。会えない間の分の貯金！"
+
+    old "Come on, come on."
+    new "ほらほらー。"
+
+    old "H-have mercy on me…"
+    new "か、かんべんしてくれー。"
+
+    old "I was looking for you."
+    new "探してた。"
+
+    old "Looking for me? That's rare, coming from you… Did something happen?"
+    new "俺のことを探してた？タバサにしては珍しいなぁ……。何かあったのか？"
+
+    old "This."
+    new "これ。"
+
+    old "This book… for me?"
+    new "この本を……、俺にかい？"
+
+    old "I'll lend it to you."
+    new "貸してあげる。"
+
+    old "Could this be a book about noble life?"
+    new "これって、もしかして貴族の生活を表した本なのか？"
+
+    old "I thought it might be useful…"
+    new "役に立てばと思って……。"
+
+    old "Hmm, if only I could read the writing…"
+    new "うーん、文字が読めればいいんだけどなぁ……。"
+
+    old "Could this be a book about the customs of Tabitha's family?"
+    new "これって、もしかして、タバサの家のならわしを描いた本なのか？"
+
+    old "Not at all."
+    new "ぜんぜん違う。"
+
+    old "Hey, partner. This is a book showing the manners of noble life."
+    new "おい、相棒。これは貴族の生活の作法を示した本だぜ。"
+
+    old "Huh, noble manners? But I can't read the writing, so I've got no idea what's what.{#ch4.2b_s_072}"
+    new "え、貴族の生活の作法？でも、文字が読めないから、何がなんだかさっぱりだ。"
+
+    old "Could this be some kind of storybook?"
+    new "これって、もしかして何かの物語の本なのか？"
+
+    old "No.{#ch4.2b_t_011}"
+    new "違う。"
+
+    old "Hey, partner. This is a book showing the manners of noble life.{#ch4.2b_d_004}"
+    new "おい、相棒。これは貴族の生活の作法を示した本だぜ。"
+
+    old "Huh, noble manners? But I can't read the writing, so I've got no idea what's what.{#ch4.2b_s_074}"
+    new "え、貴族の生活の作法？でも、文字が読めないから、何がなんだかさっぱりだ。"
+
+    old "How pathetic. Partner, you'd better learn to read one of these days."
+    new "情けねーなー。相棒はいいかげん文字も読めるようにならねーとなぁ。"
+
+    old "Can't help it, right? It's not like I'm staying in this world forever."
+    new "しょうがないだろ？この世界にずっといるわけでもないんだし。"
+
+    old "……。{#ch4.2b_t_001}"
+    new "……。"
+
+    old "If it's writing, I can read it. I'll read it to you later."
+    new "文字なら、俺が読めるんだ。後で読み聞かせてやるよ。"
+
+    old "S-seriously?"
+    new "そ、そうか？"
+
+    old "Well, hearing 'manners' makes me nervous, but I suppose it's better to know."
+    new "いやー、作法なんていわれると緊張するけど、分かっておいたほうがいいよな。"
+
+    old "That's right. She picked out a book with plenty of pictures for you. Be grateful to the girl there."
+    new "そういうこった。せっかく絵の多い本を選んでくれたんだ。そこの娘っ子に感謝するんだな。"
+
+    old "Huh, for me…? She went out of her way?"
+    new "え、俺のために……。わざわざ？"
+
+    old "……。{#ch4.2b_t_002}"
+    new "……。"
+
+    old "Thanks, Tabitha. I owe you one."
+    new "ありがとう、タバサ。恩に着るよ。"
+
+    old "Yeah…"
+    new "うん……。"
+
+    old "Ah, Hiraga-kun?"
+    new "あっ、平賀くん？"
+
+    old "Um, who are you?"
+    new "えーと、どなたですか？"
+
+    old "Hiraga-kun, you're such a flatterer. It's me, me. Haruna."
+    new "平賀くん、お世辞うまいんだから。私よ、私。春奈よ。"
+
+    old "Oh, it's Haruna? I didn't recognize you for a second. What's with the outfit?"
+    new "なんだ、春奈だったのか？一瞬誰だか分からなかったよ。どうしたんだよ、その服。"
+
+    old "Louise-san said it'd be boring to always wear the same clothes, so she lent me this."
+    new "ルイズさんがいつも同じ服じゃつまらないでしょって貸してくれたの。"
+
+    old "Huh, that Louise, of all people…"
+    new "へぇ～、あのルイズがね……。"
+
+    old "Hiraga-kun, how do I look? It's been so long since I wore anything but my uniform, I'm embarrassed."
+    new "平賀くん、どうかな？制服以外を着るのって久しぶりだから恥ずかしくって。"
+
+    old "It suits you pretty well, doesn't it?"
+    new "よく似合ってるんじゃないか？"
+
+    old "Y-you think so?"
+    new "そ、そうかな？"
+
+    old "Like I said before, I've been in my uniform all this time, right?"
+    new "さっきも言ったと思うけど、最近ずっと制服だったでしょ？"
+
+    old "Wearing something different puts me in a happy mood. Clothes really do matter."
+    new "違う服を着ると、楽しい気分になっちゃうの。やっぱり服って重要なのね。"
+
+    old "I'd like some new clothes too. I've been wearing pretty much this since I came to this world."
+    new "俺も新しい服が欲しいなぁ。この世界に来てからほとんどこれだからなぁ。"
+
+    old "If I had money, I'd buy you some…"
+    new "私にお金があったら、買ってあげられるんだけどな……。"
+
+    old "No, the thought alone makes me happy. Really, I wish Louise had even a bit of that in her…"
+    new "いや、その気持ちだけでもうれしいって。ホント、春奈のそういうところが、ルイズに少しでもあったらなぁ……。"
+
+    old "My, Louise-san isn't as awful a person as you think she is."
+    new "あら、ルイズさんは平賀くんが思ってるほど、ひどい人じゃないわよ。"
+
+    old "Really?{#ch4.2b_s_086}"
+    new "本当か？"
+
+    old "Clothes make the man — they said it well…"
+    new "馬子にも衣装とはよく言ったもので……。"
+
+    old "Hiraga-kun, that's so mean."
+    new "平賀くん、ひっどーい。"
+
+    old "No, I'm joking, joking. I think it suits you quite well."
+    new "いや、冗談だよ、冗談。なかなか似合ってると思うぜ。"
+
+    old "Y-you think so? Thanks, Hiraga-kun."
+    new "そ、そうかな？ありがとう、平賀くん。"
+
+    old "N-no, it's nothing."
+    new "い、いやなに。"
+
+    old "By the way, no offense, but wasn't Louise's outfit a bit small?"
+    new "ところで、こう言っちゃあなんだけど、ルイズの服ってちょっと小さくなかった？"
+
+    old "Eek."
+    new "ギク。"
+
+    old "I mean, Louise is petite, right? I was wondering if it'd fit you."
+    new "ほら、ルイズって小柄だろ？春奈のサイズに合うかなぁって思って。"
+
+    old "Actually, I was thinking it's a bit tight."
+    new "実は、ちょっときついなぁって思ってたんだ。"
+
+    old "Ah, so it is?"
+    new "あ、やっぱり？"
+
+    old "Hahahaha.{#ch4.2b_ha_023}"
+    new "ははははっ。"
+
+    old "Hahahaha.{#ch4.2b_s_093}"
+    new "ははははっ。"
+
+    old "Hiraga-kun, you pervert."
+    new "平賀くんのエッチ。"
+
+    old "If you keep asking girls things like that, I'll have to punish you — Louise-san would, anyway."
+    new "女の子にそんなこと聞いてると、ルイズさんじゃないけど、お仕置きしちゃうぞ。"
+
+    old "N-no, spare me that…"
+    new "い、いや、それは勘弁してー。"
