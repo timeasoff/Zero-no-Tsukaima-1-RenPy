@@ -1,12 +1,14 @@
 # ch3 align — part 2 (`script-ch3_2.rpy`)
 
-Generated: 2026-10-16T21:04:33. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
+Generated: 2026-10-16T23:00:08. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
 Scenes: 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157.
 Entries: 106 (choice=12, novoice=4, voiced=90).
-Flags: NO_CANON=1.
+Flags: MISMATCH_JA=2, NO_CANON=1.
 
 ## FLAGS (кандидаты; classification — Analyzer)
 
+- [MISMATCH_JA] script line 433: tl!=canon
+- [MISMATCH_JA] script line 462: tl!=canon
 - [NO_CANON] script line 540: scene 157: choice pool empty
 
 ## ENTRIES
@@ -512,7 +514,7 @@ Flags: NO_CANON=1.
 ### #84 line 433 scene 155 kind=voiced voice=ch3.2_l_030 spk=l
 - EN: Eh, is that so?
 - JA: えっ、そうなの？
-- JAtl: OK
+- JAtl: DIFF tl=え、そうなのか?
 - RU: Э, неужели?
 
 ### #85 line 436 scene 155 kind=voiced voice=ch3.2_s_030 spk=s
@@ -548,7 +550,7 @@ Flags: NO_CANON=1.
 ### #90 line 462 scene 153 kind=choice
 - EN: Yeah, it does bug me.{#ch3_m153c}
 - JA: 確かに気になるな
-- JAtl: OK
+- JAtl: DIFF tl=確か気になるな
 - RU: Да, правда любопытно.
 
 ### #91 line 467 scene 156 kind=voiced voice=ch3.2_s_033 spk=s

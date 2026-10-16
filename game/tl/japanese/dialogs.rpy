@@ -1681,7 +1681,7 @@ translate japanese strings:
     new "あ、そうか。ごめんなさい。やっぱりあたしの部屋はまずいわ。"
 
     old "Eh, is that so?"
-    new "えっ、そうなの？"
+    new "え、そうなのか?"
 
     old "I suppose this girl would find Louise's room much more to her liking than mine, right?"
     new "あたしの部屋より、ルイズの部屋の方がこの娘も喜ぶわよねえ?"
@@ -7745,7 +7745,7 @@ translate japanese strings:
     new "ちょっとしっかりして、シエスタっ！シエスタったらぁ！？"
 
     old "………………"
-    new "………。……。…。"
+    new "………。……。……。"
 
     old "S-sorry. I actually passed out…"
     new "……す、すみません。わたくし、本気で意識が飛んでしまって……。"
@@ -9079,13 +9079,13 @@ translate japanese strings:
     new "それはね……。"
 
     old "You came to see Haruna, then?"
-    new "春奈を見に来たとか？"
+    new "春奈を見に来たとか"
 
     old "Half-right, maybe. But no — my real purpose is…"
     new "半分は当たりかな。でも、違うの。あたしの本当の目的はね……。"
 
     old "You came to see me? Pfft, couldn't be."
-    new "まさか、俺に会いに来たとか？まぁ、そんなわけないか。"
+    new "まさか、オレに会いに来たとか…まあ、そんなわけないか。"
 
     old "And what if I did?"
     new "もし、そうだったらどうする？"

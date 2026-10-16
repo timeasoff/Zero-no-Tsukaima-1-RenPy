@@ -615,10 +615,10 @@ translate japanese strings:
     new "（何か言いたげな様子なんだけど、　どうしたもんかなぁ？）"
 
     old "She's trying to get me to admit I'm not really sick…"
-    new "（この人、私が病気じゃないこと　白状させようとしてるのね……）"
+    new "（この人、私が病気じゃないこと白状させようとしてるのね……）"
 
     old "She doesn't like that Hiraga-kun is nursing me, I'm sure… but I'm not about to back down either…"
-    new "（私が平賀くんに看病されてるのが　気に入らないんでしょーけど、　こっちだってそうはいかないんだから……）"
+    new "（私が平賀くんに看病されてるのが気に入らないんでしょーけど、こっちだってそうはいかないんだから……）"
 
     old "She's laying it on thick…"
     new "（わざとらしいなぁ……）"
@@ -683,7 +683,7 @@ translate japanese strings:
     new "（な、何だその人を哀れ見るような目は…）"
 
     old "It's not like I'm hitting on her…{#ch3.6_th_190b}"
-    new "（別に俺は言い寄ってるわけ　じゃないんだけどなぁ……）"
+    new "（別に俺は言い寄ってるわけじゃないんだけどなぁ……）"
 
     old "Somehow, before I knew it, this got way out of hand…{#ch3.6_th_192}"
     new "（なんだか知らないうちに、　えらいことになっちゃったぞ……）"

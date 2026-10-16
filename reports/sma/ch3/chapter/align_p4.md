@@ -1,12 +1,15 @@
 # ch3 align — part 4 (`script-ch3_4.rpy`)
 
-Generated: 2026-10-16T21:04:33. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
+Generated: 2026-10-16T23:00:08. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
 Scenes: 163, 164, 165, 166, 167, 168.
 Entries: 102 (choice=6, novoice=3, voiced=93).
-Flags: RU_EQ_EN=1.
+Flags: MISMATCH_JA=3, RU_EQ_EN=1.
 
 ## FLAGS (кандидаты; classification — Analyzer)
 
+- [MISMATCH_JA] script line 102: tl!=canon
+- [MISMATCH_JA] script line 105: tl!=canon
+- [MISMATCH_JA] script line 409: tl!=canon
 - [RU_EQ_EN] script line 409: ………………
 
 ## ENTRIES
@@ -146,13 +149,13 @@ Flags: RU_EQ_EN=1.
 ### #23 line 102 scene 163 kind=voiced voice=ch3.4_ha_011 spk=th
 - EN: She's trying to get me to admit I'm not really sick…
 - JA: （この人、私が病気じゃないこと　白状させようとしてるのね……）
-- JAtl: OK
+- JAtl: DIFF tl=（この人、私が病気じゃないこと白状させようとしてるのね……）
 - RU: Она пытается вырвать у меня признание, что я не больна…
 
 ### #24 line 105 scene 163 kind=voiced voice=ch3.4_ha_012 spk=th
 - EN: She doesn't like that Hiraga-kun is nursing me, I'm sure… but I'm not about to back down either…
 - JA: （私が平賀くんに看病されてるのが　気に入らないんでしょーけど、　こっちだってそうはいかないんだから……）
-- JAtl: OK
+- JAtl: DIFF tl=（私が平賀くんに看病されてるのが気に入らないんでしょーけど、こっちだってそうはいかないんだから……）
 - RU: Ей не нравится, что за мной ухаживает Хирага-кун, я уверена… но и мне сдаваться не входит в планы…
 
 ### #25 line 108 scene 163 kind=voiced voice=ch3.4_ha_013 spk=ha
@@ -536,7 +539,7 @@ Flags: RU_EQ_EN=1.
 ### #88 line 409 scene 168 kind=novoice spk=th
 - EN: ………………
 - JA: ………。……。…。
-- JAtl: OK
+- JAtl: DIFF tl=………。……。……。
 - RU: ………………
 
 ### #89 line 416 scene 168 kind=voiced voice=ch3.4_si_029 spk=si

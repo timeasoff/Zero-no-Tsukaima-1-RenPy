@@ -1,9 +1,15 @@
 # ch3 align — part 6 (`script-ch3_6.rpy`)
 
-Generated: 2026-10-16T21:04:33. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
+Generated: 2026-10-16T23:00:08. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
 Scenes: 183, 184, 185, 186, 187, 188, 189, 190, 191, 192.
 Entries: 106 (choice=9, novoice=4, voiced=93).
-Flags: none.
+Flags: MISMATCH_JA=3.
+
+## FLAGS (кандидаты; classification — Analyzer)
+
+- [MISMATCH_JA] script line 127: tl!=canon
+- [MISMATCH_JA] script line 143: tl!=canon
+- [MISMATCH_JA] script line 363: tl!=canon
 
 ## ENTRIES
 
@@ -130,7 +136,7 @@ Flags: none.
 ### #21 line 127 scene 185 kind=voiced voice=ch3.6_s_010 spk=s
 - EN: You came to see Haruna, then?
 - JA: 春奈を見に来たとか？
-- JAtl: OK
+- JAtl: DIFF tl=春奈を見に来たとか
 - RU: Значит, вы пришли навестить Харуну?
 
 ### #22 line 133 scene 185 kind=voiced voice=ch3.6_k_005 spk=k
@@ -148,7 +154,7 @@ Flags: none.
 ### #24 line 143 scene 186 kind=voiced voice=ch3.6_s_011 spk=s
 - EN: You came to see me? Pfft, couldn't be.
 - JA: まさか、俺に会いに来たとか？まぁ、そんなわけないか。
-- JAtl: OK
+- JAtl: DIFF tl=まさか、オレに会いに来たとか…まあ、そんなわけないか。
 - RU: Вы за мной пришли? А, нет, конечно.
 
 ### #25 line 149 scene 186 kind=voiced voice=ch3.6_k_006 spk=k
@@ -490,7 +496,7 @@ Flags: none.
 ### #81 line 363 scene 190 kind=novoice spk=th
 - EN: It's not like I'm hitting on her…{#ch3.6_th_190b}
 - JA: （別に俺は言い寄ってるわけ　じゃないんだけどなぁ……）
-- JAtl: OK
+- JAtl: DIFF tl=（別に俺は言い寄ってるわけじゃないんだけどなぁ……）
 - RU: Я же не пристаю к ней…
 
 ### #82 line 370 scene 191 kind=voiced voice=ch3.6_k_023 spk=k
