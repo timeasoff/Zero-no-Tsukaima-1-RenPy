@@ -708,3 +708,18 @@ translate japanese strings:
 
     old "As for my own master, Louise…{#ch3.9_th_1069}"
     new "（それに引きかえ、俺のご主人様のルイズと　きたら……）"
+
+    old "…Because of the Louise-and-Kirche commotion, Haruna's secret got out to the academy…{#ch4_th_219a}"
+    new "（ルイズとキュルケの騒ぎのために、　春奈のことが学院にばれてしまった　俺達は……）"
+
+    old "…And now we have to explain the situation to the Headmaster…{#ch4_th_219b}"
+    new "（学院長に事態の説明をしなければ　ならなくなってしまった）"
+
+    old "…All I can do is pray Haruna doesn't get expelled…{#ch4_th_219c}"
+    new "（せめて、春奈が学院から追い出されないことを　祈るばかりだ）"
+
+    old "Wh-what did you say!! You mean to examine Haruna's body from head to toe!?{#ch4_th_223}"
+    new "（な、なんですとぉ！！　春奈の体を、くまなく検査ですかぁ！？）"
+
+    old "………………{#ch4_null_224}"
+    new "………。……。…。"

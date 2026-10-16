@@ -179,3 +179,5 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 720,k 5,11,1074,3184,lay6,ch3 part9; block 720 pos 0; пиксель-сверка SCENEDAT[720] -> k 5 (MAE 0.0338; топ-4 = только k 5*)
 722,k 5 happy,3,1074,3192,lay6,ch3 part9; block 720 pos 2; пиксель-сверка SCENEDAT[722] -> k 5 happy (MAE 0.0336)
 726,k 5 sad,3,1075,3218,lay6,ch3 part9; block 720 pos 6; пиксель-сверка SCENEDAT[726] -> k 5 sad (MAE 0.0337; pos 6 = sad по правилу блока)
+920,o 1 happy,1,219,73,lay10,ch4 part1; block 918 pos 2; визуальная сверка SCENEDAT[920] с game/images/chara/o 1 happy.webp (улыбка без румянца)
+926,o 1 shy,1,219,312,lay10,ch4 part1; block 918 pos 8; визуальная сверка SCENEDAT[926] с game/images/chara/o 1 shy.webp (румянец на щеках)

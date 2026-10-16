@@ -730,3 +730,12 @@ translate russian strings:
 
     old "We'll be the first to return.{#ch3_m1079c}"
     new "Мы будем первыми, кто вернётся."
+
+    old "It was an accident.{#ch4_m219a}"
+    new "Это был несчастный случай."
+
+    old "Louise was the one who…{#ch4_m219b}"
+    new "Луиза сама проявила инициативу…"
+
+    old "Actually, it was me…{#ch4_m219c}"
+    new "Собственно, это был я…"

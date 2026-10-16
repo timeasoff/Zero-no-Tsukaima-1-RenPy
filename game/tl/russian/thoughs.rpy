@@ -703,3 +703,18 @@ translate russian strings:
 
     old "As for my own master, Louise…{#ch3.9_th_1069}"
     new "А уж моя госпожа Луиза…"
+
+    old "…Because of the Louise-and-Kirche commotion, Haruna's secret got out to the academy…{#ch4_th_219a}"
+    new "…Из-за перепалки Луизы с Кирхе академия узнала про Харуну…"
+
+    old "…And now we have to explain the situation to the Headmaster…{#ch4_th_219b}"
+    new "…И теперь придётся объясняться перед ректором…"
+
+    old "…All I can do is pray Haruna doesn't get expelled…{#ch4_th_219c}"
+    new "…Остаётся лишь молиться, чтобы Харуну не исключили из академии."
+
+    old "Wh-what did you say!! You mean to examine Haruna's body from head to toe!?{#ch4_th_223}"
+    new "Ч-что вы сказали!! Вы хотите осмотреть Харуну с головы до ног!?"
+
+    old "………………{#ch4_null_224}"
+    new "………………"

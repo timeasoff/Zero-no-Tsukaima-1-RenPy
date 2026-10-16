@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-10-15 23:42`
+Запуск: `2026-10-16 10:48`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 3451 |
-| уже есть .ogg | 3337 |
-| к конвертации | 114 |
-| сконвертировано сейчас | 114 |
+| voice-строк в сценарии | 3575 |
+| уже есть .ogg | 3451 |
+| к конвертации | 124 |
+| сконвертировано сейчас | 124 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,120 +19,130 @@
 
 ## Сконвертировано
 
-- `ch3.9_ha_001.ogg`
-- `ch3.9_ha_002.ogg`
-- `ch3.9_ha_003.ogg`
-- `ch3.9_ha_004.ogg`
-- `ch3.9_ha_005.ogg`
-- `ch3.9_ha_006.ogg`
-- `ch3.9_ha_007.ogg`
-- `ch3.9_ha_008.ogg`
-- `ch3.9_ha_009.ogg`
-- `ch3.9_ha_010.ogg`
-- `ch3.9_ha_011.ogg`
-- `ch3.9_k_001.ogg`
-- `ch3.9_k_002.ogg`
-- `ch3.9_k_003.ogg`
-- `ch3.9_k_004.ogg`
-- `ch3.9_k_005.ogg`
-- `ch3.9_k_006.ogg`
-- `ch3.9_k_007.ogg`
-- `ch3.9_k_008.ogg`
-- `ch3.9_k_009.ogg`
-- `ch3.9_k_010.ogg`
-- `ch3.9_k_011.ogg`
-- `ch3.9_k_012.ogg`
-- `ch3.9_k_013.ogg`
-- `ch3.9_s_001.ogg`
-- `ch3.9_s_002.ogg`
-- `ch3.9_s_003.ogg`
-- `ch3.9_s_004.ogg`
-- `ch3.9_s_005.ogg`
-- `ch3.9_s_006.ogg`
-- `ch3.9_s_007.ogg`
-- `ch3.9_s_008.ogg`
-- `ch3.9_s_009.ogg`
-- `ch3.9_s_010.ogg`
-- `ch3.9_s_011.ogg`
-- `ch3.9_s_012.ogg`
-- `ch3.9_s_013.ogg`
-- `ch3.9_s_014.ogg`
-- `ch3.9_s_015.ogg`
-- `ch3.9_s_016.ogg`
-- `ch3.9_s_017.ogg`
-- `ch3.9_s_018.ogg`
-- `ch3.9_s_019.ogg`
-- `ch3.9_s_020.ogg`
-- `ch3.9_s_021.ogg`
-- `ch3.9_s_022.ogg`
-- `ch3.9_s_023.ogg`
-- `ch3.9_s_024.ogg`
-- `ch3.9_s_025.ogg`
-- `ch3.9_s_026.ogg`
-- `ch3.9_s_027.ogg`
-- `ch3.9_s_028.ogg`
-- `ch3.9_s_029.ogg`
-- `ch3.9_s_030.ogg`
-- `ch3.9_s_031.ogg`
-- `ch3.9_s_032.ogg`
-- `ch3.9_s_033.ogg`
-- `ch3.9_s_034.ogg`
-- `ch3.9_s_035.ogg`
-- `ch3.9_s_036.ogg`
-- `ch3.9_s_037.ogg`
-- `ch3.9_s_038.ogg`
-- `ch3.9_s_039.ogg`
-- `ch3.9_s_040.ogg`
-- `ch3.9_s_041.ogg`
-- `ch3.9_s_042.ogg`
-- `ch3.9_s_043.ogg`
-- `ch3.9_s_044.ogg`
-- `ch3.9_s_045.ogg`
-- `ch3.9_s_046.ogg`
-- `ch3.9_s_047.ogg`
-- `ch3.9_s_048.ogg`
-- `ch3.9_s_049.ogg`
-- `ch3.9_s_050.ogg`
-- `ch3.9_s_051.ogg`
-- `ch3.9_s_052.ogg`
-- `ch3.9_s_053.ogg`
-- `ch3.9_s_054.ogg`
-- `ch3.9_s_055.ogg`
-- `ch3.9_s_056.ogg`
-- `ch3.9_s_057.ogg`
-- `ch3.9_s_058.ogg`
-- `ch3.9_s_059.ogg`
-- `ch3.9_s_060.ogg`
-- `ch3.9_s_061.ogg`
-- `ch3.9_s_062.ogg`
-- `ch3.9_s_063.ogg`
-- `ch3.9_s_064.ogg`
-- `ch3.9_s_065.ogg`
-- `ch3.9_si_001.ogg`
-- `ch3.9_si_002.ogg`
-- `ch3.9_si_003.ogg`
-- `ch3.9_si_004.ogg`
-- `ch3.9_si_005.ogg`
-- `ch3.9_si_006.ogg`
-- `ch3.9_si_007.ogg`
-- `ch3.9_si_008.ogg`
-- `ch3.9_si_009.ogg`
-- `ch3.9_si_010.ogg`
-- `ch3.9_si_011.ogg`
-- `ch3.9_si_012.ogg`
-- `ch3.9_si_013.ogg`
-- `ch3.9_si_014.ogg`
-- `ch3.9_si_015.ogg`
-- `ch3.9_si_016.ogg`
-- `ch3.9_t_001.ogg`
-- `ch3.9_t_002.ogg`
-- `ch3.9_t_003.ogg`
-- `ch3.9_t_004.ogg`
-- `ch3.9_t_005.ogg`
-- `ch3.9_t_006.ogg`
-- `ch3.9_t_007.ogg`
-- `ch3.9_t_008.ogg`
-- `ch3.9_t_009.ogg`
+- `ch4_c_001.ogg`
+- `ch4_c_002.ogg`
+- `ch4_c_003.ogg`
+- `ch4_c_004.ogg`
+- `ch4_c_005.ogg`
+- `ch4_c_006.ogg`
+- `ch4_c_007.ogg`
+- `ch4_c_008.ogg`
+- `ch4_c_009.ogg`
+- `ch4_c_010.ogg`
+- `ch4_c_011.ogg`
+- `ch4_c_012.ogg`
+- `ch4_c_013.ogg`
+- `ch4_c_014.ogg`
+- `ch4_c_015.ogg`
+- `ch4_c_016.ogg`
+- `ch4_c_017.ogg`
+- `ch4_c_018.ogg`
+- `ch4_c_019.ogg`
+- `ch4_c_020.ogg`
+- `ch4_c_021.ogg`
+- `ch4_c_022.ogg`
+- `ch4_c_023.ogg`
+- `ch4_c_024.ogg`
+- `ch4_c_025.ogg`
+- `ch4_c_026.ogg`
+- `ch4_c_027.ogg`
+- `ch4_c_028.ogg`
+- `ch4_c_029.ogg`
+- `ch4_g_001.ogg`
+- `ch4_g_002.ogg`
+- `ch4_ha_001.ogg`
+- `ch4_ha_002.ogg`
+- `ch4_ha_003.ogg`
+- `ch4_ha_004.ogg`
+- `ch4_ha_005.ogg`
+- `ch4_ha_006.ogg`
+- `ch4_ha_007.ogg`
+- `ch4_ha_008.ogg`
+- `ch4_ha_009.ogg`
+- `ch4_ha_010.ogg`
+- `ch4_ha_011.ogg`
+- `ch4_ha_012.ogg`
+- `ch4_ha_013.ogg`
+- `ch4_ha_014.ogg`
+- `ch4_ha_015.ogg`
+- `ch4_ha_016.ogg`
+- `ch4_ha_017.ogg`
+- `ch4_ha_018.ogg`
+- `ch4_ha_019.ogg`
+- `ch4_ha_020.ogg`
+- `ch4_ha_021.ogg`
+- `ch4_ha_022.ogg`
+- `ch4_k_001.ogg`
+- `ch4_k_002.ogg`
+- `ch4_k_003.ogg`
+- `ch4_l_001.ogg`
+- `ch4_l_002.ogg`
+- `ch4_l_003.ogg`
+- `ch4_l_004.ogg`
+- `ch4_l_005.ogg`
+- `ch4_l_006.ogg`
+- `ch4_l_007.ogg`
+- `ch4_l_008.ogg`
+- `ch4_l_009.ogg`
+- `ch4_l_010.ogg`
+- `ch4_l_011.ogg`
+- `ch4_l_012.ogg`
+- `ch4_l_013.ogg`
+- `ch4_l_014.ogg`
+- `ch4_l_015.ogg`
+- `ch4_l_016.ogg`
+- `ch4_l_017.ogg`
+- `ch4_l_018.ogg`
+- `ch4_l_019.ogg`
+- `ch4_l_020.ogg`
+- `ch4_m_001.ogg`
+- `ch4_m_002.ogg`
+- `ch4_m_003.ogg`
+- `ch4_o_001.ogg`
+- `ch4_o_002.ogg`
+- `ch4_o_003.ogg`
+- `ch4_o_004.ogg`
+- `ch4_o_005.ogg`
+- `ch4_o_006.ogg`
+- `ch4_o_007.ogg`
+- `ch4_o_008.ogg`
+- `ch4_o_009.ogg`
+- `ch4_o_010.ogg`
+- `ch4_o_011.ogg`
+- `ch4_o_012.ogg`
+- `ch4_o_013.ogg`
+- `ch4_o_014.ogg`
+- `ch4_o_015.ogg`
+- `ch4_o_016.ogg`
+- `ch4_o_017.ogg`
+- `ch4_o_018.ogg`
+- `ch4_o_019.ogg`
+- `ch4_o_020.ogg`
+- `ch4_o_021.ogg`
+- `ch4_o_022.ogg`
+- `ch4_o_023.ogg`
+- `ch4_o_024.ogg`
+- `ch4_o_025.ogg`
+- `ch4_o_026.ogg`
+- `ch4_o_027.ogg`
+- `ch4_o_028.ogg`
+- `ch4_o_029.ogg`
+- `ch4_s_001.ogg`
+- `ch4_s_002.ogg`
+- `ch4_s_003.ogg`
+- `ch4_s_004.ogg`
+- `ch4_s_005.ogg`
+- `ch4_s_006.ogg`
+- `ch4_s_007.ogg`
+- `ch4_s_008.ogg`
+- `ch4_s_009.ogg`
+- `ch4_s_010.ogg`
+- `ch4_s_011.ogg`
+- `ch4_s_012.ogg`
+- `ch4_s_013.ogg`
+- `ch4_si_001.ogg`
+- `ch4_t_001.ogg`
+- `ch4_t_002.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 

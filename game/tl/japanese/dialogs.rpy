@@ -10301,3 +10301,378 @@ translate japanese strings:
 
     old "…Yeah. That's right.{#ch3.9_s_065}"
     new "……ああ。そうだな。"
+
+    old "I didn't gather you all here this early for nothing."
+    new "朝早くから皆さんに集まってもらったのは、ほかでもありません。"
+
+    old "I'd like Miss Vallière to explain about the woman she was letting stay at the academy without permission."
+    new "ミス・ヴァリエールが学院に無断で宿泊させていた女性のことについてご説明をいただきたいと思います。"
+
+    old "Before I explain, allow me to speak. This woman — Haruna — has done the academy no harm."
+    new "説明させていただく前に話をさせてください。この女性－ハルナは特に学院に被害をもたらしたことはありません。"
+
+    old "The one who caused the harm is me. If punishment is to be given, give it to me alone."
+    new "被害をもたらしたのは、このわたし。罰を与えるなら、わたしにのみお与えください。"
+
+    old "Not that I'm offering a trade, but I hope Haruna will be treated leniently."
+    new "その代わりというわけではないのですが、ハルナには穏便な処遇を希望します。"
+
+    old "Louise…{#ch4_s_001}"
+    new "ルイズ……。"
+
+    old "Louise…{#ch4_ha_001}"
+    new "ルイズさん……。"
+
+    old "Miss Vallière. I understand how you feel.{#ch4_c_003}"
+    new "ミス・ヴァリエール。お気持ちは分かりました。"
+
+    old "But the academy has rules. Academy life is about observing those rules…"
+    new "しかし、学院には規則があります。その規則を守ってこその学院生活……。"
+
+    old "Mister Colbert, that will be quite enough."
+    new "ミスタ・コルベール、そこまでにしておきなさい。"
+
+    old "Neither Miss Vallière nor the rest of you broke the rules on purpose."
+    new "ミス・ヴァリエールも、また、みんなも、ワザと規則を破ったわけではない。"
+
+    old "There were reasons. Surely that's so."
+    new "理由があった。そうじゃろうて。"
+
+    old "No, but Headmaster…"
+    new "いや、しかし、学院長……。"
+
+    old "Er, the young lady over there. Might I ask your name once more?"
+    new "えーと、そちらのお嬢さん。改めて名前をよろしいかな？"
+
+    old "Yes… Nice to meet you. I am Takanagi Haruna."
+    new "はい……。はじめまして、高凪　春奈と申します。"
+
+    old "Takanagi Haruna… Shall I call you Miss Haruna?"
+    new "タカナギハルナ……。ミス・ハルナでよろしいかな？"
+
+    old "No, um… Haruna is fine for me. 'Miss Haruna' — well… I'm not of that station…"
+    new "いえ、あの……私のことはハルナで結構です。ミス・ハルナなんて、その……、そんな身分ではありませんから……。"
+
+    old "…I see. Then I shall call you as such… Ahem."
+    new "……ふむ。では、その様に呼ばせていただこう……。ん、コホン。"
+
+    old "As Miss Vallière said, Haruna came from another world… is that the story?"
+    new "ミス・ヴァリエールから言われたとおり、ハルナくんは他の世界から来た……、そういうわけなんじゃな？"
+
+    old "Yes… The world I lived in is a different world from this one."
+    new "はい……。私が住んでいた世界はこの世界とは別の世界です。"
+
+    old "My… How very interesting."
+    new "ほぉ……。実に興味深い。"
+
+    old "Haruna was my classmate. She served as class president at the school I attended."
+    new "春奈は、俺のクラスメイトなんです。俺の通ってた学校の、学級委員長をつとめていて。"
+
+    old "A classmate, you say?"
+    new "クラスメイトとな？"
+
+    old "Yes. So I knew her, or rather, we were acquaintances…"
+    new "ええ。それで知っていたというか、知り合いだったというか……。"
+
+    old "And so I asked Louise, and she let me stay here."
+    new "それで、ルイズにお願いして、ここに住まわせてもらったんです。"
+
+    old "What — from the same world as you, Saito?"
+    new "なんと、サイトくんと同じ世界からですか？"
+
+    old "Then it's possible that Haruna, too, is a familiar summoned to this world."
+    new "そうなると、やはりハルナくんもこの世界に召喚された使い魔という可能性がありますね。"
+
+    old "A familiar!?"
+    new "使い魔！？"
+
+    old "Well, there was no precedent for you either, Saito, so I can't say for certain…"
+    new "いや、サイトくんのことも例がなかったことで、詳しくは分からないのですが……。"
+
+    old "We don't know whether the trigger for people and things from other worlds arriving is a natural phenomenon or something artificial."
+    new "異世界のモノ、人が来るきっかけが自然現象なのか、それとも人為的なものなのか、はっきりしていないのですよ。"
+
+    old "For the record, your arrival was certainly due to Miss Vallière's summoning magic."
+    new "ちなみに、サイトくんの現象は間違いなく、ミス・ヴァリエールの召喚魔法によるものなのです。"
+
+    old "Then, Haruna. Can you explain how you came to this world?"
+    new "では、ハルナくん。貴女がどうやってこの世界へとやって来たのかを説明してもらえるかな？"
+
+    old "No — I was walking home from school when everything went bright, and then I was here. So I don't know the details."
+    new "いえ、学校帰りにまぶしくなったと思ったら、この世界に来ていました。なので、詳しいことは分かりません。"
+
+    old "After that, strangers grabbed me, I ran away…"
+    new "その後、知らない人につかまったり、逃げ出したりで……。"
+
+    old "Just when I had no idea what would happen, Hiraga-kun, Louise, and Siesta saved me."
+    new "もうどうなるんだろうってところで、平賀くんとルイズさん、シエスタさんに助けてもらったんです。"
+
+    old "My… How very mysterious. Just what could have guided you both to this world?"
+    new "ほぉ……、実に不思議じゃ。いったい何が、この世界にそなた達を導いておるのじゃろう？"
+
+    old "The crest — how shall we confirm the Contract Servant? …Osmond."
+    new "紋章は、コントラクト・サーヴァントの確認は、如何致しましょうか？……オールド・オスマン。"
+
+    old "…Hm? Con-tract Ser-vant? What's that, Hiraga-kun?"
+    new "……ん？こんとらくとさーばんとぉ？何なの、平賀くん？"
+
+    old "Er… Well, that's…"
+    new "えーと……。それは……。"
+
+    old "Contract means covenant. Servant means familiar."
+    new "コントラクトは契約。サーヴァントは使い魔。"
+
+    old "Exactly. A Contract Servant is the covenant by which a mage acknowledges a familiar."
+    new "そうです。コントラクト・サーヴァントとは、術者が使い魔を認める契約のことです。"
+
+    old "It's not that I doubt you…"
+    new "疑っているということはないのですが……。"
+
+    old "But if Haruna has formed a contract, a crest should have appeared somewhere on her."
+    new "もし、ハルナくんが契約をされてるのでしたら、どこかに紋章が現れているはずです。"
+
+    old "I would like to verify that. Will you cooperate?"
+    new "それを確認させてもらいたいというわけです。協力していただけますか？"
+
+    old "A crest?"
+    new "紋章？"
+
+    old "Haruna. I think she means the crest on my left hand here."
+    new "春奈。俺のこの左手についてる紋章のことだと思うぜ。"
+
+    old "Oh, it's true… I hadn't noticed."
+    new "あ、本当だ……。気がつかなかった。"
+
+    old "The crest is the proof of the familiar's contract."
+    new "紋章とは、使い魔としての契約の証。"
+
+    old "The one engraved on the back of your left hand, Saito, is proof of the contract exchanged with Miss Vallière."
+    new "サイトくんの左手の甲に刻まれているのが、ミス・ヴァリエールとの間に交わされた契約の証です。"
+
+    old "You swear yourself to the Pentagon that governs the five powers. Bestow blessing upon this one, and make them my familiar. …Or so it goes."
+    new "５つの力を司るペンタゴンに、自らを誓うのさ。かの者に祝福を与え、我が使い魔となせ。……ってね。"
+
+    old "And then you bestow the oath's kiss upon the familiar…"
+    new "そして、誓いの口づけを使い魔に施す……。"
+
+    old "A-a kiss!?"
+    new "き、キスぅ！？"
+
+    old "Gh… Quiet, Guiche!! You had to go and remember that tedious bit!!"
+    new "うっ……うるさいわよ、ギーシュっ！！つまらないコトまで思い出しちゃったじゃない！！"
+
+    old "What do you mean, 'that tedious bit'!!"
+    new "つまらないコトって、どういうコトだよそれっ！！"
+
+    old "It's nothing at all!!"
+    new "どうもこうもないわよっ！！"
+
+    old "Wh-what, I've never kissed anyone!! And besides… then Hiraga-kun is… wh-what!?"
+    new "わっ、私キスなんてしてませんっ！！それに……それじゃあ、平賀くんって……ええっ！？"
+
+    old "Ah, no, that's, well…"
+    new "あ、いや、それは、その……。"
+
+    old "Th-that was an accident. It was necessary for the familiar ritual."
+    new "あ、あれは事故だったんだよ。使い魔の儀式には必要だって。"
+
+    old "Th-that's right. I only kissed you because the ritual required it. There was nothing else to it."
+    new "そ、そうよ。儀式に必要だから口づけしたまでよ。別に何もないんだから。"
+
+    old "Louise was the one who asked for it, you see…"
+    new "あれは、ルイズから求められてなぁ……。"
+
+    old "Y-you idiot. It was obviously for the ritual, wasn't it? There was nothing else to it."
+    new "ば、ばか。アレは儀式だからに決まってるでしょ？別に何もないんだから。"
+
+    old "Where else would you find someone demanding a kiss from a commoner who appeared out of nowhere?"
+    new "いきなり現れた平民にキスを迫る人なんて、どこにいるのよ。"
+
+    old "A-actually, it was me…"
+    new "じ、実は俺から……。"
+
+    old "Eh!"
+    new "えー！"
+
+    old "Y-you idiot, what are you saying. It was obviously for the ritual, wasn't it? There was nothing else to it."
+    new "ば、ばか、何を言い出すのよ。アレは儀式だからに決まってるでしょ？別に何もないんだから。"
+
+    old "I-is that so…"
+    new "そ、そうなんですか……。"
+
+    old "It is. It was an act performed in a sacred ritual. Please calm yourself, Haruna."
+    new "そうです。神聖な儀式の上での行為です。ハルナくんも落ち着きなさい。"
+
+    old "I'm sorry."
+    new "すみません。"
+
+    old "Now then, Mister Colbert."
+    new "して、ミスタ・コルベール。"
+
+    old "I think we must check whether or not a crest is engraved upon Haruna?"
+    new "一度、ハルナくんに紋章が刻まれているかどうか、調べなければならないと思うのじゃが？"
+
+    old "…Indeed, that's true."
+    new "……確かにそうですね。"
+
+    old "Whether she came from another world as a familiar, or simply wandered into this one by chance."
+    new "使い魔として異世界からやって来たのか、それとも偶然にこの世界へと迷い込んできたのか。"
+
+    old "The difference is significant — and it's the most important matter."
+    new "この違いは大きく、そして最も重要な事です。"
+
+    old "Confirming the crest…?"
+    new "紋章の確認……ですか。"
+
+    old "If the crest hasn't been confirmed yet, I could examine her myself…"
+    new "まだ紋章の確認が済んでいないのならば、わしが調べても良いのじゃが……。"
+
+    old "Ahem."
+    new "うぉっほん。"
+
+    old "No, no, that was a joke. We'll leave it to one of the female teachers."
+    new "いやいや、それは冗談じゃよ。誰か女性の教師にまかせるとしよう。"
+
+    old "Um, Osmond. When I was looking after Takanagi Haruna…"
+    new "あの、オールド・オスマン。わたしがタカナギハルナを介抱した時に……、"
+
+    old "I examined her body, but I didn't find any such crest."
+    new "体の検査をしましたが、その様な紋章などは見あたりませんでしたわ。"
+
+    old "I see, Miss Montmorency. There's no mistake in what you say?"
+    new "ほぉ、ミス・モンモランシー。その言葉に、間違いはないのだね？"
+
+    old "…No. There is no mistake, Mister Colbert."
+    new "……ええ。間違いはございませんわ、ミスタ・コルベール。"
+
+    old "Hmm, is that so."
+    new "ふぅむ、そうであるか。"
+
+    old "…Hmm. Very well. I shall take Miss Montmorency's word."
+    new "……ん～。あい分かった。ミス・モンモランシーの言葉を信じるとしよう。"
+
+    old "Then this meeting is adjourned. From now on, each of you will be mindful and act in a way that brings no shame upon the name of nobility."
+    new "それでは、これにて解散とします。今後は各自、貴族の名に恥じない自覚と行動を心がけるように。"
+
+    old "Especially you, Miss Vallière. And you, Miss Zerbst. Both of you be especially careful."
+    new "特にミス・ヴァリエール。ミス・ツェルプストー。両名は特に気をつけるように。"
+
+    old "Yes.{#ch4_l_010}"
+    new "はい。"
+
+    old "Understood.{#ch4_k_001}"
+    new "分かりましたわ。"
+
+    old "Furthermore, we will deliberate on Haruna's custody within the academy. Refrain from any rash actions."
+    new "それから、ハルナくんの身柄については学院内で検討をさせていただきます。あまり勝手な行動は控えるように。"
+
+    old "Yes… I'm sorry."
+    new "はい……。申し訳ございません。"
+
+    old "Ho ho ho, there's no need to be so afraid. I won't treat you badly. You may rest easy."
+    new "ほっほっほっ、そう怖がらんでも。悪いようにはせん。安心するがよい。"
+
+    old "Thank you, Headmaster."
+    new "ありがとうございます、学院長。"
+
+    old "Until we contact you, Haruna will remain in Miss Vallière's care."
+    new "こちらから連絡を入れるまでの間は、引き続き、ミス・ヴァリエールの預かりとします。"
+
+    old "Understood.{#ch4_l_011}"
+    new "分かりました。"
+
+    old "It'll be fine, Haruna. We're with you."
+    new "大丈夫だよ、春奈。俺達がついてるから。"
+
+    old "Mm, thank you. Hiraga-kun."
+    new "うん、ありがとう。平賀くんっ。"
+
+    old "Wh-what about my thanks!?"
+    new "わ、わたしへのお礼はどうなってるのよ！"
+
+    old "Um, Louise — nice to meet you too, formally."
+    new "あの、ルイズさんも、改めてよろしくお願いします。"
+
+    old "N-nice to meet you, Haruna."
+    new "よ、よろしく、ハルナ。"
+
+    old "Well, I suppose that's a relief, isn't it?"
+    new "まぁ、これで一安心ってところかしら？"
+
+    old "…{#ch4_t_v01}"
+    new "……。"
+
+    old "This meeting is adjourned… or I'd like to say as much, but…"
+    new "これにて解散……。といいたいところじゃが……、"
+
+    old "Miss Vallière, Saito, Haruna. Could the three of you stay behind?"
+    new "ミス・ヴァリエール、サイトくん、ハルナくん。３名はここに残ってくれぬかの。"
+
+    old "The three of us…?"
+    new "３人が……ですか？"
+
+    old "If you would."
+    new "さよう。"
+
+    old "Well then, I'll be off."
+    new "それじゃ、先に。"
+
+    old "Excuse me.{#ch4_si_001}"
+    new "失礼します。"
+
+    old "See you."
+    new "お先。"
+
+    old "Mister Colbert. Would you close the door?"
+    new "ミスタ・コルベール。扉を閉めてくれんか？"
+
+    old "Y-yes.{#ch4_c_028}"
+    new "は、はい。"
+
+    old "The truth is, you see."
+    new "実はじゃなぁ。"
+
+    old "Her Majesty the Queen has commanded that Miss Vallière and her familiar be sent to the royal palace."
+    new "女王陛下から、ミス・ヴァリエールとその使い魔を王宮へ遣わせるように仰せつかっておるのじゃよ。"
+
+    old "Her Majesty — me and Saito?"
+    new "女王陛下が、わたしとサイトをですか？"
+
+    old "The princess?"
+    new "お姫さまが？"
+
+    old "The Queen?"
+    new "女王陛下？"
+
+    old "Could it be… has word of Haruna reached the palace?"
+    new "もしかして……。ハルナのことが王宮まで届いてるのですか？"
+
+    old "Who can say — I don't know the details either."
+    new "さてなぁ、詳しいことについてはわしも伺っておらん。"
+
+    old "But I thought it a good opportunity to report that people from another world have arrived, so I reported it to Her Majesty earlier."
+    new "じゃが、異世界人が来たということを報告するのも良い機会じゃろうと思うて、女王陛下には先ほど報告を入れておいたのじゃ。"
+
+    old "While I'm at it — forgive the imposition — might I ask you to present Haruna to Her Majesty as well?"
+    new "ついでになってしまってすまんが、女王陛下まで、ハルナくんのお目通りをお願いしてはくれないかの？"
+
+    old "Understood.{#ch4_l_017}"
+    new "分かりました。"
+
+    old "Good."
+    new "よろしい。"
+
+    old "The sooner you depart, the better. I've already had a carriage waiting before the academy. Set out as soon as your preparations are ready."
+    new "出発は早いほうがいいじゃろう。既に学院前に馬車を待機させておる。旅の支度が整い次第出発するように。"
+
+    old "Yes, understood.{#ch4_l_018}"
+    new "はい、分かりました。"
+
+    old "Then, Miss Vallière. See that you don't disgrace yourself before Her Majesty."
+    new "それではミス・ヴァリエール。女王陛下の前では粗相のないように。"
+
+    old "Yes, Mister Colbert. I understand."
+    new "はい、ミスタ・コルベール。心得ております。"
+
+    old "Then I'll return to my room to pack for the journey. Excuse me."
+    new "それでは、部屋に戻って出発の荷物をまとめて参りますので、失礼いたします。"

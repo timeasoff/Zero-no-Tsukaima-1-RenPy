@@ -736,3 +736,12 @@ translate japanese strings:
 
     old "We'll be the first to return.{#ch3_m1079c}"
     new "俺達が最初の帰還者になる"
+
+    old "It was an accident.{#ch4_m219a}"
+    new "事故だったんだよ"
+
+    old "Louise was the one who…{#ch4_m219b}"
+    new "ルイズから積極的に……"
+
+    old "Actually, it was me…{#ch4_m219c}"
+    new "実は俺から……"

@@ -10307,3 +10307,378 @@ translate russian strings:
 
     old "…Yeah. That's right.{#ch3.9_s_065}"
     new "…Ага. Именно."
+
+    old "I didn't gather you all here this early for nothing."
+    new "Не просто так я собрал вас всех с самого утра."
+
+    old "I'd like Miss Vallière to explain about the woman she was letting stay at the academy without permission."
+    new "Я хотел бы попросить мадемуазель Вальер объяснить, как вышло, что она без разрешения поселила в академии одну девушку."
+
+    old "Before I explain, allow me to speak. This woman — Haruna — has done the academy no harm."
+    new "Прежде чем я стану объясняться, позвольте мне сказать. Эта девушка — Харуна — не причинила академии никакого вреда."
+
+    old "The one who caused the harm is me. If punishment is to be given, give it to me alone."
+    new "Вред причинила я. Если наказывать — накажите только меня."
+
+    old "Not that I'm offering a trade, but I hope Haruna will be treated leniently."
+    new "Не то чтобы я предлагала сделку, но я надеюсь на мягкое обращение с Харуной."
+
+    old "Louise…{#ch4_s_001}"
+    new "Луиза…"
+
+    old "Louise…{#ch4_ha_001}"
+    new "Луиза…"
+
+    old "Miss Vallière. I understand how you feel.{#ch4_c_003}"
+    new "Мадемуазель Вальер. Я понимаю ваши чувства."
+
+    old "But the academy has rules. Academy life is about observing those rules…"
+    new "Но в академии есть правила. Академическая жизнь — это следование этим правилам…"
+
+    old "Mister Colbert, that will be quite enough."
+    new "Мистер Кольбер, прошу вас, оставьте это."
+
+    old "Neither Miss Vallière nor the rest of you broke the rules on purpose."
+    new "И мадемуазель Вальер, и все остальные не нарушили правила нарочно."
+
+    old "There were reasons. Surely that's so."
+    new "У них были причины. Это очевидно."
+
+    old "No, but Headmaster…"
+    new "Нет, но, ректор…"
+
+    old "Er, the young lady over there. Might I ask your name once more?"
+    new "Э-э, а вы, молодая леди. Можно узнать ваше имя ещё раз?"
+
+    old "Yes… Nice to meet you. I am Takanagi Haruna."
+    new "Да… С удовольствием познакомиться. Я — Таканаги Харуна."
+
+    old "Takanagi Haruna… Shall I call you Miss Haruna?"
+    new "Таканаги Харуна… Могу я называть вас просто Харуна?"
+
+    old "No, um… Haruna is fine for me. 'Miss Haruna' — well… I'm not of that station…"
+    new "Нет, я… Зовите меня просто Харуна. «Мисс Харуна» — это… я не такого положения…"
+
+    old "…I see. Then I shall call you as such… Ahem."
+    new "…Понятно. Тогда я буду звать вас так… Кхм."
+
+    old "As Miss Vallière said, Haruna came from another world… is that the story?"
+    new "Как сказала мадемуазель Вальер, Харуна пришла из другого мира… так ли это?"
+
+    old "Yes… The world I lived in is a different world from this one."
+    new "Да… Мир, в котором я жила, — другой мир, не этот."
+
+    old "My… How very interesting."
+    new "О-о… Как любопытно."
+
+    old "Haruna was my classmate. She served as class president at the school I attended."
+    new "Харуна была моей одноклассницей. Она была старостой в той школе, где я учился."
+
+    old "A classmate, you say?"
+    new "Одноклассницей, говоришь?"
+
+    old "Yes. So I knew her, or rather, we were acquaintances…"
+    new "Да. Так что я её знал, или, вернее, мы были знакомы…"
+
+    old "And so I asked Louise, and she let me stay here."
+    new "И я попросил Луизу, и она разрешила мне здесь жить."
+
+    old "What — from the same world as you, Saito?"
+    new "Что? Из того же мира, что и ты, Сайто?"
+
+    old "Then it's possible that Haruna, too, is a familiar summoned to this world."
+    new "Тогда, возможно, Харуна — тоже фамильяр, призванный в этот мир."
+
+    old "A familiar!?"
+    new "Фамильяр!?"
+
+    old "Well, there was no precedent for you either, Saito, so I can't say for certain…"
+    new "Ну, в твоём случае тоже не было прецедента, Сайто, так что я не могу сказать точно…"
+
+    old "We don't know whether the trigger for people and things from other worlds arriving is a natural phenomenon or something artificial."
+    new "Мы не знаем, является ли причиной, по которой люди и вещи из других миров попадают сюда, природным явлением или чем-то искусственным."
+
+    old "For the record, your arrival was certainly due to Miss Vallière's summoning magic."
+    new "К слову, твой случай, Сайто, — это, несомненно, магия призыва мадемуазель Вальер."
+
+    old "Then, Haruna. Can you explain how you came to this world?"
+    new "Тогда, Харуна. Можешь ли ты объяснить, как ты попала в этот мир?"
+
+    old "No — I was walking home from school when everything went bright, and then I was here. So I don't know the details."
+    new "Нет… Я шла домой из школы, и вдруг стало ослепительно ярко, а потом я уже была здесь. Так что подробностей я не знаю."
+
+    old "After that, strangers grabbed me, I ran away…"
+    new "После этого меня хватали незнакомцы, я убегала…"
+
+    old "Just when I had no idea what would happen, Hiraga-kun, Louise, and Siesta saved me."
+    new "И когда я уже не знала, что будет дальше, Хирага-кун, Луиза и Сиеста спасли меня."
+
+    old "My… How very mysterious. Just what could have guided you both to this world?"
+    new "О-о… Как загадочно. Что же привело вас обеих в этот мир?"
+
+    old "The crest — how shall we confirm the Contract Servant? …Osmond."
+    new "Что касается знака — как подтвердить Договор с подручным?.. Старый Осман."
+
+    old "…Hm? Con-tract Ser-vant? What's that, Hiraga-kun?"
+    new "…Мм? Кон-тракт Сер-вант? Что это, Хирага-кун?"
+
+    old "Er… Well, that's…"
+    new "Ну… Это…"
+
+    old "Contract means covenant. Servant means familiar."
+    new "Контракт — это договор. Сервант — это подручный."
+
+    old "Exactly. A Contract Servant is the covenant by which a mage acknowledges a familiar."
+    new "Именно. Контракт Сервант — это договор, которым маг признаёт подручного."
+
+    old "It's not that I doubt you…"
+    new "Не то чтобы я сомневаюсь…"
+
+    old "But if Haruna has formed a contract, a crest should have appeared somewhere on her."
+    new "Но если Харуна заключила договор, где-то на ней должен появиться знак."
+
+    old "I would like to verify that. Will you cooperate?"
+    new "Я хочу это проверить. Вы согласны помочь?"
+
+    old "A crest?"
+    new "Знак?"
+
+    old "Haruna. I think she means the crest on my left hand here."
+    new "Харуна. Думаю, она говорит о знаке на моей левой руке."
+
+    old "Oh, it's true… I hadn't noticed."
+    new "А, правда… Я не заметила."
+
+    old "The crest is the proof of the familiar's contract."
+    new "Знак — это доказательство договора с подручным."
+
+    old "The one engraved on the back of your left hand, Saito, is proof of the contract exchanged with Miss Vallière."
+    new "Знак, выгравированный на тыльной стороне твоей левой руки, Сайто, — доказательство договора, заключённого с мадемуазель Вальер."
+
+    old "You swear yourself to the Pentagon that governs the five powers. Bestow blessing upon this one, and make them my familiar. …Or so it goes."
+    new "Ты клянёшься Пентагону, владыке пяти сил. Даруй благословение сему существу и сделай его моим подручным… Ну, вроде того."
+
+    old "And then you bestow the oath's kiss upon the familiar…"
+    new "И затем ты даруешь подручному поцелуй клятвы…"
+
+    old "A-a kiss!?"
+    new "П-поцелуй!?"
+
+    old "Gh… Quiet, Guiche!! You had to go and remember that tedious bit!!"
+    new "Тьфу… Заткнись, Гиш!! Тебе обязательно вспомнить эту чушь!!"
+
+    old "What do you mean, 'that tedious bit'!!"
+    new "Что значит «эта чушь»!!"
+
+    old "It's nothing at all!!"
+    new "Ничего это не значит!!"
+
+    old "Wh-what, I've never kissed anyone!! And besides… then Hiraga-kun is… wh-what!?"
+    new "Я-я никого не целовала!! И вообще… выходит, Хирага-кун… что-что!?"
+
+    old "Ah, no, that's, well…"
+    new "А, нет, это, ну…"
+
+    old "Th-that was an accident. It was necessary for the familiar ritual."
+    new "Это был несчастный случай. Так было нужно для ритуала подручного."
+
+    old "Th-that's right. I only kissed you because the ritual required it. There was nothing else to it."
+    new "В-верно. Я поцеловала его только потому, что ритуал этого требовал. Ничего больше."
+
+    old "Louise was the one who asked for it, you see…"
+    new "Это Луиза сама пожелала…"
+
+    old "Y-you idiot. It was obviously for the ritual, wasn't it? There was nothing else to it."
+    new "Д-дурак. Это же очевидно было для ритуала, не так ли? Ничего больше."
+
+    old "Where else would you find someone demanding a kiss from a commoner who appeared out of nowhere?"
+    new "И где ещё найдёшь человека, который потребует поцелуя у неожиданно появившегося простолюдина."
+
+    old "A-actually, it was me…"
+    new "С-собственно, это был я…"
+
+    old "Eh!"
+    new "Э-э!"
+
+    old "Y-you idiot, what are you saying. It was obviously for the ritual, wasn't it? There was nothing else to it."
+    new "Д-дурак, что ты такое говоришь. Это же очевидно было для ритуала, не так ли? Ничего больше."
+
+    old "I-is that so…"
+    new "Т-так вот оно что…"
+
+    old "It is. It was an act performed in a sacred ritual. Please calm yourself, Haruna."
+    new "Именно. Это был акт, совершённый в священном ритуале. Успокойся, Харуна."
+
+    old "I'm sorry."
+    new "Простите."
+
+    old "Now then, Mister Colbert."
+    new "Итак, мистер Кольбер."
+
+    old "I think we must check whether or not a crest is engraved upon Haruna?"
+    new "Думаю, необходимо проверить, есть ли на Харуне знак, верно?"
+
+    old "…Indeed, that's true."
+    new "…Действительно, это так."
+
+    old "Whether she came from another world as a familiar, or simply wandered into this one by chance."
+    new "Пришла ли она из другого мира как подручная, или просто случайно забрела в этот мир."
+
+    old "The difference is significant — and it's the most important matter."
+    new "Разница велика, и это важнее всего."
+
+    old "Confirming the crest…?"
+    new "Проверка знака…?"
+
+    old "If the crest hasn't been confirmed yet, I could examine her myself…"
+    new "Если знак ещё не проверен, я мог бы осмотреть её сам…"
+
+    old "Ahem."
+    new "Кхм."
+
+    old "No, no, that was a joke. We'll leave it to one of the female teachers."
+    new "Нет-нет, это была шутка. Мы поручим это одной из женщин-преподавателей."
+
+    old "Um, Osmond. When I was looking after Takanagi Haruna…"
+    new "Слушайте, Старый Осман. Когда я ухаживала за Таканаги Харуной…"
+
+    old "I examined her body, but I didn't find any such crest."
+    new "Я осматривала её тело, но никакого такого знака не обнаружила."
+
+    old "I see, Miss Montmorency. There's no mistake in what you say?"
+    new "Понятно, мисс Монморанси. Вы не ошибаетесь?"
+
+    old "…No. There is no mistake, Mister Colbert."
+    new "…Да. Я не ошибаюсь, мистер Кольбер."
+
+    old "Hmm, is that so."
+    new "Хм, вот как."
+
+    old "…Hmm. Very well. I shall take Miss Montmorency's word."
+    new "…Мм. Ладно. Я поверю мисс Монморанси."
+
+    old "Then this meeting is adjourned. From now on, each of you will be mindful and act in a way that brings no shame upon the name of nobility."
+    new "Тогда объявляю заседание закрытым. Отныне каждый из вас должен помнить и действовать так, чтобы не опозорить имя дворянства."
+
+    old "Especially you, Miss Vallière. And you, Miss Zerbst. Both of you be especially careful."
+    new "Особенно ты, мадемуазель Вальер. И ты, мадемуазель Цербст. Обе будьте особенно осторожны."
+
+    old "Yes.{#ch4_l_010}"
+    new "Хорошо."
+
+    old "Understood.{#ch4_k_001}"
+    new "Поняла."
+
+    old "Furthermore, we will deliberate on Haruna's custody within the academy. Refrain from any rash actions."
+    new "К тому же судьбу Харуны мы обсудим внутри академии. Воздержитесь от опрометчивых действий."
+
+    old "Yes… I'm sorry."
+    new "Хорошо… Простите."
+
+    old "Ho ho ho, there's no need to be so afraid. I won't treat you badly. You may rest easy."
+    new "Хо-хо-хо, не надо так бояться. Я не причиню тебе зла. Можешь не волноваться."
+
+    old "Thank you, Headmaster."
+    new "Спасибо, ректор."
+
+    old "Until we contact you, Haruna will remain in Miss Vallière's care."
+    new "До тех пор, пока мы не свяжемся с вами, Харуна остаётся на попечении мадемуазель Вальер."
+
+    old "Understood.{#ch4_l_011}"
+    new "Поняла."
+
+    old "It'll be fine, Haruna. We're with you."
+    new "Всё будет хорошо, Харуна. Мы с тобой."
+
+    old "Mm, thank you. Hiraga-kun."
+    new "Мм, спасибо. Хирага-кун."
+
+    old "Wh-what about my thanks!?"
+    new "А-а где же благодарность мне!"
+
+    old "Um, Louise — nice to meet you too, formally."
+    new "Ну, Луиза — приятно познакомиться и с тобой, по-настоящему."
+
+    old "N-nice to meet you, Haruna."
+    new "П-приятно познакомиться, Харуна."
+
+    old "Well, I suppose that's a relief, isn't it?"
+    new "Ну, вот и полегчало, не так ли?"
+
+    old "…{#ch4_t_v01}"
+    new "…"
+
+    old "This meeting is adjourned… or I'd like to say as much, but…"
+    new "На этом заседание закрыто… Хотел бы я так сказать, но…"
+
+    old "Miss Vallière, Saito, Haruna. Could the three of you stay behind?"
+    new "Мадемуазель Вальер, Сайто, Харуна. Не могли бы остаться втроём?"
+
+    old "The three of us…?"
+    new "Нас троих…?"
+
+    old "If you would."
+    new "Будьте добры."
+
+    old "Well then, I'll be off."
+    new "Ну, тогда я пойду первой."
+
+    old "Excuse me.{#ch4_si_001}"
+    new "Прошу прощения."
+
+    old "See you."
+    new "Уже ухожу."
+
+    old "Mister Colbert. Would you close the door?"
+    new "Мистер Кольбер. Закроешь дверь?"
+
+    old "Y-yes.{#ch4_c_028}"
+    new "Д-да."
+
+    old "The truth is, you see."
+    new "Вот в чём дело."
+
+    old "Her Majesty the Queen has commanded that Miss Vallière and her familiar be sent to the royal palace."
+    new "Её Величество Королева повелела отправить мадемуазель Вальер и её подручного в королевский дворец."
+
+    old "Her Majesty — me and Saito?"
+    new "Её Величество — меня и Сайто?"
+
+    old "The princess?"
+    new "Принцесса?"
+
+    old "The Queen?"
+    new "Королева?"
+
+    old "Could it be… has word of Haruna reached the palace?"
+    new "Неужели… Слухи о Харуне дошли до дворца?"
+
+    old "Who can say — I don't know the details either."
+    new "Кто знает — подробностей я тоже не знаю."
+
+    old "But I thought it a good opportunity to report that people from another world have arrived, so I reported it to Her Majesty earlier."
+    new "Но я подумал, что это хорошая возможность сообщить, что прибыли люди из другого мира, и уже доложил Её Величеству."
+
+    old "While I'm at it — forgive the imposition — might I ask you to present Haruna to Her Majesty as well?"
+    new "Заодно — простите за назойливость — не могу ли я попросить представить Харуну Её Величеству?"
+
+    old "Understood.{#ch4_l_017}"
+    new "Поняла."
+
+    old "Good."
+    new "Хорошо."
+
+    old "The sooner you depart, the better. I've already had a carriage waiting before the academy. Set out as soon as your preparations are ready."
+    new "Чем раньше вы отправитесь, тем лучше. Я уже выставил экипаж перед академией. Отправляйтесь, как только соберётесь."
+
+    old "Yes, understood.{#ch4_l_018}"
+    new "Да, поняла."
+
+    old "Then, Miss Vallière. See that you don't disgrace yourself before Her Majesty."
+    new "Тогда, мадемуазель Вальер. Смотрите, чтобы перед Её Величеством не оплошать."
+
+    old "Yes, Mister Colbert. I understand."
+    new "Да, мистер Кольбер. Мне понятно."
+
+    old "Then I'll return to my room to pack for the journey. Excuse me."
+    new "Тогда я вернусь в комнату и соберу вещи для поездки. Прошу прощения."

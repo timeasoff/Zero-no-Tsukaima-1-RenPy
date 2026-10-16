@@ -6,9 +6,9 @@
 
 ## ERROR (1)
 
-- E7 jump 'ch4' at game/chapters/3/script-ch3_8.rpy:420 has no label
+- E7 jump 'ch4_2' at game/chapters/4/script-ch4_1.rpy:742 has no label
 
-## WARNING (291)
+## WARNING (289)
 
 - W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -41,7 +41,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:137: Chapter Eight: 'Silent Support'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:66: Chapter Eight: 'The Little Devil and Spring Breeze Concerto'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:54: Chapter Five: 'True Feelings'
-- W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:51: Chapter Four: 'Crisis in Tristania'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:120: Chapter Seven: 'Haruna's Decision'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:134: Chapter Seven: 'Iron Man of Cooking'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:106: Chapter Seven: 'My Older Brother'
@@ -184,7 +183,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:139: Chapter Eight: 'Silent Support'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:66: Chapter Eight: 'The Little Devil and Spring Breeze Concerto'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:54: Chapter Five: 'True Feelings'
-- W1 stale old in tl/russian at game/tl/russian/overlays.rpy:51: Chapter Four: 'Crisis in Tristania'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:122: Chapter Seven: 'Haruna's Decision'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:136: Chapter Seven: 'Iron Man of Cooking'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:108: Chapter Seven: 'My Older Brother'
@@ -305,9 +303,9 @@
 ## INFO (30)
 
 - speakers defined: 32
-- overlay K: max=8 used=8 next_free=9
-- voices: refs=3451 ogg=3457 missing=0
-- I1 ch4: not started (source talk=1072)
+- overlay K: max=9 used=9 next_free=10
+- voices: refs=3575 ogg=3581 missing=0
+- I1 ch4: strings=134 source_talk=1072 (gap expected)
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
@@ -333,5 +331,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=312 named=148 open=164 | placeholders=46 in 4 file(s)
-- labels=186 rpy=67 strings(strict=3890) tl_old=japanese:4380,russian:4407
+- labels=192 rpy=68 strings(strict=4024) tl_old=japanese:4513,russian:4540
 
