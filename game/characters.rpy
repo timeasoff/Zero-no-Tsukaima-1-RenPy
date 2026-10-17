@@ -38,6 +38,9 @@ define shopkeeper = Character(_("Shopkeeper"), color="#797979")
 define unk = Character(_("???"), color="#000000") #protagonist
 define unk_ha = Character(_("???"), color="#4b4d51") # haruna
 define unk_k = Character(_("???"), color="#e36566") #kirche
+# unk_si — «？？？» из мешка (глава 4, часть 3, сцена 236): голос Сиесты,
+# имя говорящего в источнике «？？？»; цвет — Сиесты
+define unk_si = Character(_("???"), color="#535a6a")
 
 
 define th = Character(None, 

@@ -20,6 +20,9 @@ translate russian strings:
     old "Siesta"
     new "Сиеста"
 
+    old "???"
+    new "???"
+
     old "Guiche"
     new "Гиш"
 

@@ -769,3 +769,39 @@ translate russian strings:
 
     old "Let's see…"
     new "Ну-у…"
+
+    old "How long have I been jolted around in this carriage since leaving the academy?"
+    new "Сколько же мы уже трясёмся в карете с тех пор, как выехали из академии?"
+
+    old "The sky's still bright. We should arrive around evening."
+    new "Небо ещё светлое. Пожалуй, прибудем к вечеру?"
+
+    old "And there they are, cuddled up together, sound asleep."
+    new "А они вдвоём прижались друг к другу и сладко спят."
+
+    old "Well, we've been stuck in this carriage since morning, after all. No wonder… Maybe I'll get some shut-eye too?"
+    new "Ну да, с самого утра всё сидим в карете. Ладно, неудивительно… Может, и мне вздремнуть?"
+
+    old "…Hold on, Louise!! You're really pulling the bag's mouth tight!!"
+    new "…Да постой, Луиза!! Ты же всерьёз затягиваешь мешок!!"
+
+    old "Well, and that's how it went… In the end, the three of us — Louise, Haruna, and Siesta — set off for the royal palace."
+    new "Ну, таково дело… В итоге во дворец поехали мы втроём: с Луизой, Харуной и Сиестой."
+
+    old "Looking around, I can pick out quite a few familiar classmates."
+    new "Окидываю взглядом окрестности — и нахожу кое-кого из знакомых одноклассников."
+
+    old "………………{#ch4.3_null_a}"
+    new "………………"
+
+    old "Why did I even dream something like that? And Haruna doing magic? Impossible…"
+    new "И чего ж мне снилось такое? А Харуна — маг? Да такого быть не может…"
+
+    old "Probably that simply got mixed up in my head with Louise's usual punishments."
+    new "Наверное, это всё просто спуталось в башке с привычными наказаниями Луизы."
+
+    old "I'll just sleep it off again…"
+    new "Ладно, посплю ещё разок…"
+
+    old "………………{#ch4.3_null_b}"
+    new "………………"

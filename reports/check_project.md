@@ -4,111 +4,13 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (77)
+## ERROR (1)
 
-- E7 jump 'ch4_3' at game/chapters/4/script-ch4_2.rpy:897 has no label
-- E7 jump 'ch4_3_241' at game/chapters/4/script-ch4_3.rpy:54 has no label
-- E7 jump 'ch4_3_246' at game/chapters/4/script-ch4_3.rpy:105 has no label
-- E4 missing in tl/japanese: dialogue (……んぅ……んっ……。) at game/chapters/4/script-ch4_3.rpy:19
-- E4 missing in tl/japanese: dialogue (……平賀くん。) at game/chapters/4/script-ch4_3.rpy:60
-- E4 missing in tl/japanese: dialogue (……！？) at game/chapters/4/script-ch4_3.rpy:34
-- E4 missing in tl/japanese: dialogue (ああっ……！？) at game/chapters/4/script-ch4_3.rpy:79
-- E4 missing in tl/japanese: dialogue (ああっ、ごめん……。) at game/chapters/4/script-ch4_3.rpy:69
-- E4 missing in tl/japanese: dialogue (あれ……。ここは学校じゃないか。) at game/chapters/4/script-ch4_3.rpy:81
-- E4 missing in tl/japanese: dialogue (いや、お前に言われたくないって……。) at game/chapters/4/script-ch4_3.rpy:31
-- E4 missing in tl/japanese: dialogue (いろんな所を見て行きなさいよ……。) at game/chapters/4/script-ch4_3.rpy:97
-- E4 missing in tl/japanese: dialogue (おい、相棒……。) at game/chapters/4/script-ch4_3.rpy:13
-- E4 missing in tl/japanese: dialogue (ここは学校じゃないか。) at game/chapters/4/script-ch4_3.rpy:76
-- E4 missing in tl/japanese: dialogue (ずいぶんなうめき声を出してたじゃねーか？) at game/chapters/4/script-ch4_3.rpy:16
-- E4 missing in tl/japanese: dialogue (と、とにかく、中身を開けて確かめてみようぜ。) at game/chapters/4/script-ch4_3.rpy:39
-- E4 missing in tl/japanese: dialogue (に、荷物がしゃべった！！) at game/chapters/4/script-ch4_3.rpy:25
-- E4 missing in tl/japanese: dialogue (はいっ……。) at game/chapters/4/script-ch4_3.rpy:101
-- E4 missing in tl/japanese: dialogue (みなさん、ありがとうございます。) at game/chapters/4/script-ch4_3.rpy:102
-- E4 missing in tl/japanese: dialogue (もぉ、せっかく街に出てきたんだから、) at game/chapters/4/script-ch4_3.rpy:96
-- E4 missing in tl/japanese: dialogue (もったいないでしょう？) at game/chapters/4/script-ch4_3.rpy:98
-- E4 missing in tl/japanese: dialogue (んんっ……。) at game/chapters/4/script-ch4_3.rpy:63
-- E4 missing in tl/japanese: dialogue (サイト、一体何言ってるの？) at game/chapters/4/script-ch4_3.rpy:36
-- E4 missing in tl/japanese: dialogue (トリスタニアに着いたんだね？) at game/chapters/4/script-ch4_3.rpy:71
-- E4 missing in tl/japanese: dialogue (ハルナさんを独りぼっちになんてしまませんから。) at game/chapters/4/script-ch4_3.rpy:92
-- E4 missing in tl/japanese: dialogue (何だい、タブサ？) at game/chapters/4/script-ch4_3.rpy:22
-- E4 missing in tl/japanese: dialogue (何を寝ぼけてるの？) at game/chapters/4/script-ch4_3.rpy:74
-- E4 missing in tl/japanese: dialogue (安心してくださいねっ！) at game/chapters/4/script-ch4_3.rpy:93
-- E4 missing in tl/japanese: dialogue (平賀くんってば。) at game/chapters/4/script-ch4_3.rpy:66
-- E4 missing in tl/japanese: dialogue (荷物がしゃべる？寝ぼけてるんじゃねーのか、相棒っ？) at game/chapters/4/script-ch4_3.rpy:28
-- E5 missing in tl/russian: dialogue (……んぅ……んっ……。) at game/chapters/4/script-ch4_3.rpy:19
-- E5 missing in tl/russian: dialogue (……平賀くん。) at game/chapters/4/script-ch4_3.rpy:60
-- E5 missing in tl/russian: dialogue (……！？) at game/chapters/4/script-ch4_3.rpy:34
-- E5 missing in tl/russian: dialogue (ああっ……！？) at game/chapters/4/script-ch4_3.rpy:79
-- E5 missing in tl/russian: dialogue (ああっ、ごめん……。) at game/chapters/4/script-ch4_3.rpy:69
-- E5 missing in tl/russian: dialogue (あれ……。ここは学校じゃないか。) at game/chapters/4/script-ch4_3.rpy:81
-- E5 missing in tl/russian: dialogue (いや、お前に言われたくないって……。) at game/chapters/4/script-ch4_3.rpy:31
-- E5 missing in tl/russian: dialogue (いろんな所を見て行きなさいよ……。) at game/chapters/4/script-ch4_3.rpy:97
-- E5 missing in tl/russian: dialogue (おい、相棒……。) at game/chapters/4/script-ch4_3.rpy:13
-- E5 missing in tl/russian: dialogue (ここは学校じゃないか。) at game/chapters/4/script-ch4_3.rpy:76
-- E5 missing in tl/russian: dialogue (ずいぶんなうめき声を出してたじゃねーか？) at game/chapters/4/script-ch4_3.rpy:16
-- E5 missing in tl/russian: dialogue (と、とにかく、中身を開けて確かめてみようぜ。) at game/chapters/4/script-ch4_3.rpy:39
-- E5 missing in tl/russian: dialogue (に、荷物がしゃべった！！) at game/chapters/4/script-ch4_3.rpy:25
-- E5 missing in tl/russian: dialogue (はいっ……。) at game/chapters/4/script-ch4_3.rpy:101
-- E5 missing in tl/russian: dialogue (みなさん、ありがとうございます。) at game/chapters/4/script-ch4_3.rpy:102
-- E5 missing in tl/russian: dialogue (もぉ、せっかく街に出てきたんだから、) at game/chapters/4/script-ch4_3.rpy:96
-- E5 missing in tl/russian: dialogue (もったいないでしょう？) at game/chapters/4/script-ch4_3.rpy:98
-- E5 missing in tl/russian: dialogue (んんっ……。) at game/chapters/4/script-ch4_3.rpy:63
-- E5 missing in tl/russian: dialogue (サイト、一体何言ってるの？) at game/chapters/4/script-ch4_3.rpy:36
-- E5 missing in tl/russian: dialogue (トリスタニアに着いたんだね？) at game/chapters/4/script-ch4_3.rpy:71
-- E5 missing in tl/russian: dialogue (ハルナさんを独りぼっちになんてしまませんから。) at game/chapters/4/script-ch4_3.rpy:92
-- E5 missing in tl/russian: dialogue (何だい、タブサ？) at game/chapters/4/script-ch4_3.rpy:22
-- E5 missing in tl/russian: dialogue (何を寝ぼけてるの？) at game/chapters/4/script-ch4_3.rpy:74
-- E5 missing in tl/russian: dialogue (安心してくださいねっ！) at game/chapters/4/script-ch4_3.rpy:93
-- E5 missing in tl/russian: dialogue (平賀くんってば。) at game/chapters/4/script-ch4_3.rpy:66
-- E5 missing in tl/russian: dialogue (荷物がしゃべる？寝ぼけてるんじゃねーのか、相棒っ？) at game/chapters/4/script-ch4_3.rpy:28
-- E3 voice without ogg: ch4.3_s_001 at game/chapters/4/script-ch4_3.rpy:12
-- E3 voice without ogg: ch4.3_d_001 at game/chapters/4/script-ch4_3.rpy:15
-- E3 voice without ogg: ch4.3_ha_001 at game/chapters/4/script-ch4_3.rpy:18
-- E3 voice without ogg: ch4.3_d_002 at game/chapters/4/script-ch4_3.rpy:21
-- E3 voice without ogg: ch4.3_s_002 at game/chapters/4/script-ch4_3.rpy:24
-- E3 voice without ogg: ch4.3_d_003 at game/chapters/4/script-ch4_3.rpy:27
-- E3 voice without ogg: ch4.3_s_003 at game/chapters/4/script-ch4_3.rpy:30
-- E3 voice without ogg: ch4.3_si_001 at game/chapters/4/script-ch4_3.rpy:33
-- E3 voice without ogg: ch4.3_l_001 at game/chapters/4/script-ch4_3.rpy:35
-- E3 voice without ogg: ch4.3_s_004 at game/chapters/4/script-ch4_3.rpy:38
-- E3 voice without ogg: ch4.3_ha_002 at game/chapters/4/script-ch4_3.rpy:59
-- E3 voice without ogg: ch4.3_s_005 at game/chapters/4/script-ch4_3.rpy:62
-- E3 voice without ogg: ch4.3_ha_003 at game/chapters/4/script-ch4_3.rpy:65
-- E3 voice without ogg: ch4.3_s_006 at game/chapters/4/script-ch4_3.rpy:68
-- E3 voice without ogg: ch4.3_s_007 at game/chapters/4/script-ch4_3.rpy:70
-- E3 voice without ogg: ch4.3_ha_004 at game/chapters/4/script-ch4_3.rpy:73
-- E3 voice without ogg: ch4.3_ha_005 at game/chapters/4/script-ch4_3.rpy:75
-- E3 voice without ogg: ch4.3_s_008 at game/chapters/4/script-ch4_3.rpy:78
-- E3 voice without ogg: ch4.3_s_009 at game/chapters/4/script-ch4_3.rpy:80
-- E3 voice without ogg: ch4.3_si_002 at game/chapters/4/script-ch4_3.rpy:91
-- E3 voice without ogg: ch4.3_l_002 at game/chapters/4/script-ch4_3.rpy:95
-- E3 voice without ogg: ch4.3_ha_006 at game/chapters/4/script-ch4_3.rpy:100
+- E7 jump 'ch4_4' at game/chapters/4/script-ch4_3.rpy:690 has no label
 
-## WARNING (307)
+## WARNING (289)
 
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:12 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:15 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:18 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:21 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:24 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:27 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:30 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:33 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:35 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:38 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:59 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:62 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:65 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:68 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:70 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:73 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:75 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:78 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:80 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:91 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:95 (no define)
-- W4 unknown speaker 'voice' at game/chapters/4/script-ch4_3.rpy:100 (no define)
-- W5 19 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
+- W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:348: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -250,7 +152,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
-- W5 19 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
+- W5 18 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -393,13 +295,41 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W2 6 ogg not referenced by any script
+- I1 ch0: 16 script strings > 15 source talk
+- I1 ch1: 1313 script strings > 1244 source talk
+- I1 ch2: 1468 script strings > 1382 source talk
+- I1 ch3: 1170 script strings > 1078 source talk
 
-## INFO (6)
+## INFO (30)
 
-- speakers defined: 32
+- speakers defined: 33
 - overlay K: max=9 used=9 next_free=10
-- voices: refs=3825 ogg=3809 missing=22
-- I1 ch4: strings=431 source_talk=1072 (gap expected)
-- image map: ids=312 named=148 open=164 | placeholders=52 in 5 file(s)
-- labels=225 rpy=71 strings(strict=4321) tl_old=japanese:4784,russian:4811
+- voices: refs=3910 ogg=3916 missing=0
+- I1 ch4: strings=531 source_talk=1072 (gap expected)
+- I1 ch5: not started (source talk=1470)
+- I1 ch6: not started (source talk=431)
+- I1 ch7: not started (source talk=336)
+- I1 ch8: not started (source talk=378)
+- I1 ch9: not started (source talk=120)
+- I1 ch10: not started (source talk=492)
+- I1 ch11: not started (source talk=618)
+- I1 ch12: not started (source talk=450)
+- I1 ch13: not started (source talk=396)
+- I1 ch14: not started (source talk=444)
+- I1 ch15: not started (source talk=407)
+- I1 ch16: not started (source talk=138)
+- I1 ch17: not started (source talk=282)
+- I1 ch18: not started (source talk=589)
+- I1 ch19: not started (source talk=378)
+- I1 ch20: not started (source talk=162)
+- I1 ch21: not started (source talk=541)
+- I1 ch22: not started (source talk=512)
+- I1 ch23: not started (source talk=354)
+- I1 ch24: not started (source talk=133)
+- I1 ch25: not started (source talk=507)
+- I1 ch26: not started (source talk=612)
+- I1 ch27: not started (source talk=346)
+- I1 ch28: not started (source talk=206)
+- image map: ids=312 named=148 open=164 | placeholders=76 in 6 file(s)
+- labels=235 rpy=71 strings(strict=4421) tl_old=japanese:4911,russian:4938
 

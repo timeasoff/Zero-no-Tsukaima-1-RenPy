@@ -774,3 +774,39 @@ translate japanese strings:
 
     old "Let's see…"
     new "（そうだなぁ……）"
+
+    old "How long have I been jolted around in this carriage since leaving the academy?"
+    new "（魔法学院を出てから　どれぐらい馬車に揺られたのだろう？）"
+
+    old "The sky's still bright. We should arrive around evening."
+    new "（まだ、空は明るいな。　着くのは夕方くらいかな？）"
+
+    old "And there they are, cuddled up together, sound asleep."
+    new "（２人仲良く寄り添って、眠ってるよ）"
+
+    old "Well, we've been stuck in this carriage since morning, after all. No wonder… Maybe I'll get some shut-eye too?"
+    new "（朝からずっと馬車の中だもんなぁ。　まぁ、無理もないか……。　俺も、ひと眠りするかなぁ？）"
+
+    old "…Hold on, Louise!! You're really pulling the bag's mouth tight!!"
+    new "（……ってか、ルイズっ！！　ホントに袋の口を締め上げてるし！！）"
+
+    old "Well, and that's how it went… In the end, the three of us — Louise, Haruna, and Siesta — set off for the royal palace."
+    new "（まぁ、そんなわけで……。　結局、ルイズ、春奈、シエスタの３人と　王宮に向かうことになった）"
+
+    old "Looking around, I can pick out quite a few familiar classmates."
+    new "（辺りをグルリと見渡してみると、　馴染みのクラスメイトを何人か　見つけることができた）"
+
+    old "………………{#ch4.3_null_a}"
+    new "………。……。…。"
+
+    old "Why did I even dream something like that? And Haruna doing magic? Impossible…"
+    new "（どうして、あんな夢見たんだろう。　それに春奈が魔法？　そんな馬鹿な……）"
+
+    old "Probably that simply got mixed up in my head with Louise's usual punishments."
+    new "（たぶん、いつものルイズのお仕置きと　ごっちゃになっちまったんだろうな）"
+
+    old "I'll just sleep it off again…"
+    new "（もう一度寝よう……）"
+
+    old "………………{#ch4.3_null_b}"
+    new "………。……。…。"

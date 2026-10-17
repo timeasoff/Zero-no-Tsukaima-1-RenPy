@@ -817,3 +817,21 @@ translate japanese strings:
 
     old "Clothes make the man, as they say.{#ch4.2b_m1362c}"
     new "馬子にも衣装と言ったもので"
+
+    old "Say she's my little sister.{#ch4.3_m236a}"
+    new "俺の妹だという"
+
+    old "Say she's Louise's maid.{#ch4.3_m236b}"
+    new "ルイズのメイドだという"
+
+    old "I think we should just tell the truth.{#ch4.3_m236c}"
+    new "正直に話せばいいと思う"
+
+    old "Ask her to handle the class journal too.{#ch4.3_m241a}"
+    new "学級日誌も書いてくれ"
+
+    old "Say you feel unwell and go to the infirmary.{#ch4.3_m241b}"
+    new "体調が悪いので保健室に行く"
+
+    old "What day of the week was it again?{#ch4.3_m241c}"
+    new "今日って何曜日だっけ？"

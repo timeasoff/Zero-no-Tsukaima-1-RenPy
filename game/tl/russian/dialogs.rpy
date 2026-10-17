@@ -11372,3 +11372,327 @@ translate russian strings:
 
     old "N-no, spare me that…"
     new "Н-нет, пощади…"
+
+    old "…Hoo… hoo…"
+    new "…Суу… суу…"
+
+    old "…Mm… mmh…"
+    new "…Мм… мм…"
+
+    old "Ugh… What a wretched road this is!!"
+    new "Угх… что ж это за дорога такая паршивая!!"
+
+    old "And now the luggage that was piled up is toppling over… Wha…?"
+    new "И тут поклажа, что была навалена, валилась на меня… Ох…"
+
+    old "Gwah… Ouch… This thing weighs a ton… What the heck is packed in here anyway?"
+    new "Гахах… тяжело же… Да он неподъёмно тяжёлый… Что вообще тут навалено-то?"
+
+    old "What's the matter, partner? You were groaning up quite a storm there."
+    new "Что с тобой, напарник? И чего ты там так стонал?"
+
+    old "The carriage lurched, and the luggage standing upright came crashing down on me."
+    new "Как карету качнуло, так эта наваленная поклажа свалилась прямо на меня."
+
+    old "…Mmh…"
+    new "…Ммх…"
+
+    old "Whoa-whoa! Th-the luggage talked!!"
+    new "Ува-ва-ва! П-поклажа заговорила!!"
+
+    old "The luggage talks? You starting to doze off for real, partner?"
+    new "Поклажа разговаривает? Ты со сна рехнулся уже, напарник?"
+
+    old "Hey, of all things, I don't need to hear that from you… Or is this a world where absolutely everything talks?"
+    new "Эй, вот уж от кого-кого, а от тебя это слышать… Или это мир, где разговаривает вообще всё?"
+
+    old "…Would you keep it down. I can't sleep a wink."
+    new "…Ну и шумишь. Мне даже поспать нельзя."
+
+    old "The luggage piled over there fell on top of me. Then the luggage talked. And somehow it was soft…"
+    new "Наваленная поклажа посыпалась на меня. Потом она заговорила. И ещё какая-то мягкая…"
+
+    old "Saito, what on earth are you talking about?"
+    new "Сайто, что ты вообще такое говоришь?"
+
+    old "A-anyway, let's open it up and check what's inside."
+    new "К-как бы там ни было, откроем и посмотрим, что внутри."
+
+    old "Ahaha, I came strolling along with you!"
+    new "Аха, а я к вам тоже забралась!"
+
+    old "……。{#ch4.3_sil001}"
+    new "……。"
+
+    old "……。{#ch4.3_sil002}"
+    new "……。"
+
+    old "……。{#ch4.3_sil003}"
+    new "……。"
+
+    old "……。{#ch4.3_sil004}"
+    new "……。"
+
+    old "…Tee-hee."
+    new "…Тэ-хэ."
+
+    old "W-why is Siesta, the one on house-guard duty, here of all places?"
+    new "П-почему тут Сиеста, которая должна была остаться дома?"
+
+    old "Tie the mouth of that luggage bag shut right now!"
+    new "Сейчас же затяни мешок с поклажей!"
+
+    old "Eh!?{#ch4.3_eh14738}"
+    new "Э-э!?"
+
+    old "Why would you!?"
+    new "Ну зачем же так!?"
+
+    old "We throw it out. If we're lucky, a troupe of entertainers will pick her up."
+    new "Выбросим. Если повезёт, её подберут бродячие артисты."
+
+    old "I-I'm sorry, Miss Vallière!! Forgive me, please… Ugyaaaaah!?"
+    new "П-простите, мадемуазель Вальер!! Простите меня, пожалуйста… Уааааа!?"
+
+    old "Hey, you can't be serious!? Calm down, Louise!!"
+    new "Эй, ты всерьёз!? Успокойся, Луиза!!"
+
+    old "P-please, I'll be useful to everyone! I'll work as hard as I can, so p-please l-let me come along!!"
+    new "В-ведь я всем пригожусь! Буду стараться изо всех сил, так что п-пожалуйста, возьмите меня с собой!!"
+
+    old "I told Siesta she was to stay behind! Unless… this was YOUR doing, Saito…!"
+    new "Я же велела Сиесте остаться дома! Неужели это ты всё подстроил, Сайто…!"
+
+    old "Wh-whoa, hold on. You really think I'd do something like that?"
+    new "Н-ну, погоди-ка. Разве я мог такое провернуть?"
+
+    old "I'm sorry, Miss Vallière. Saito-san is not at fault. It was entirely my own decision."
+    new "Простите, мадемуазель Вальер. Сайто-сан совершенно не виноват. Всё это было моим собственным решением."
+
+    old "Siesta…{#ch4.3_t6080}"
+    new "Сиеста…"
+
+    old "I was worried about Haruna-san and Saito-san, and… somehow I ended up sneaking aboard like a stowaway."
+    new "Я волновалась за Харуну-сан и Сайто-сана, и вот, не удержавшись, увязалась тайком, как безбилетница."
+
+    old "It does bother me a little that I wasn't the one brought along… But Saito, what exactly do you intend to do?"
+    new "Что ж, немного обидно, что меня не позвали… Но Сайто, что ты собираешься с этим делать?"
+
+    old "What can I say to that… But we can't very well head back to the academy like this, can we?"
+    new "А что тут скажешь… Но и возвращаться в академию теперь нельзя, разве нет?"
+
+    old "We go straight on to the royal palace! There's no reason THEY should take her along, is there?"
+    new "Как есть, поедем во дворец! Без причины же её с собой не возьмёшь, разве нет?"
+
+    old "……。{#ch4.3_sil005}"
+    new "……。"
+
+    old "Saito. How exactly do you plan to explain Siesta?"
+    new "Сайто. И как ты собираешься объяснить, кто такая Сиеста?"
+
+    old "As for Siesta, well…"
+    new "Насчёт Сиесты-то…"
+
+    old "So, I'm to explain her as my sister?"
+    new "Что, сказать, будто она моя родная сестра?"
+
+    old "…Hah!?"
+    new "…Что-о!?"
+
+    old "Eh!?{#ch4.3_eh14744}"
+    new "Э-э!?"
+
+    old "Look, Siesta has black hair and black eyes, right? I figure calling her my little sister would pass just fine."
+    new "Ну а Сиеста — у неё чёрные волосы и чёрные глаза, так? Думаю, сойдёт, если позвать её моей сестрой."
+
+    old "U-um… Should I call you 'big bro'? Or maybe 'esteemed elder brother'?"
+    new "Э-э… И как мне вас звать? Братиком? Или солиднее — братец?"
+
+    old "Aah, which should I go with!? Now I'm all torn…"
+    new "А-ах, что выбрать! Я никак не решусь…"
+
+    old "You needn't agonize over that! Have you got any other ideas?"
+    new "Что тут размышлять! Есть варианты получше?"
+
+    old "Well then — how about telling her she's Louise's maid?"
+    new "Тогда как насчёт сказать, что она служанка Луизы?"
+
+    old "Well… I suppose that's a reasonable option. It'll do, won't it?"
+    new "Н-ну… Похоже, разумная идея. Пусть будет так."
+
+    old "How about the idea that she's Louise's maid?"
+    new "Ну а вариант со служанкой Луизы как?"
+
+    old "Well, I suppose that's a reasonable option. It'll do, won't it?{#ch4.3_d6087}"
+    new "Н-ну… Похоже, разумная идея. Пусть будет так."
+
+    old "Yes! In Saito-san's place, I'll take care of everything around you."
+    new "Есть! Вместо Сайто-сана возьму на себя все заботы о вашем быте."
+
+    old "Something about that phrasing bothers me… But fine, whatever."
+    new "Что-то в твоих словах настораживает… Но и ладно, пусть так."
+
+    old "Just say it straight. She's the princess — she'll surely understand."
+    new "Так и сказать как есть. Принцесса ведь — она поймёт."
+
+    old "…I know full well that's our only option… And lying gets us nowhere, after all."
+    new "…Я прекрасно знаю, что пути нет… А врать всё равно бессмысленно…"
+
+    old "Right then… Good for you, Siesta."
+    new "Верно… Ну и славно, Сиеста."
+
+    old "But no."
+    new "Но нет."
+
+    old "Eh!?{#ch4.3_eh14748}"
+    new "Э-э!?"
+
+    old "We'll simply have her go down as my maid. Otherwise all sorts of problems will come up…"
+    new "Пусть пока считается, что она моя служанка. А то больших проблем не оберёмся…"
+
+    old "Yes, understood!"
+    new "Есть, всё поняла!"
+
+    old "……。{#ch4.3_sil006}"
+    new "……。"
+
+    old "…Hiraga-kun."
+    new "…Хирага-кун."
+
+    old "Mmmh…?"
+    new "Ммх…?"
+
+    old "Hiraga-kun, I said…"
+    new "Хирага-кун, ты чего."
+
+    old "Oh, sorry… We've arrived in Tristania, haven't we?"
+    new "Ах, извини… Так мы доехали до Тристании?"
+
+    old "Honestly… What are you dozing off for? School let out ages ago."
+    new "Вот безобразие… Чего расселся? Уже пора домой!"
+
+    old "…!?"
+    new "…!?"
+
+    old "Huh…? Wait, isn't this a school?"
+    new "А…? Подожди, это же школа, разве нет?"
+
+    old "School let out, and you're STILL sleeping, Hiraga-kun. You slept through every class today, didn't you?"
+    new "После уроков ты продолжал дремать, Хирага-кун. Неужели спал на всех занятиях подряд?"
+
+    old "Huh, I slept that much? Now I'm in trouble."
+    new "Что, правда все? Вот попал."
+
+    old "And besides — today it's YOUR day on hall duty, Hiraga-kun. You'd better get that class journal written."
+    new "И помни, Хирага-кун: сегодня ты дежурный. Поскорее пиши классный журнал."
+
+    old "Oh? Is that a fact?"
+    new "А, точно?"
+
+    old "'Is that a fact,' really…? Today WE were the duty reps, both of us! I did practically all the work, mind you."
+    new "«Точно», говоришь?! Сегодня же мы оба были дежурными! И почти всю работу делала я, между прочим!"
+
+    old "Oh… that's right, sorry. It's just that something feels a bit off with me."
+    new "Да, верно… извиняюсь. Просто самочувствие плохое."
+
+    old "Good grief… I'll keep an eye on you right here."
+    new "Вот же балбес… Я тут посмотрю за тобой."
+
+    old "But the class journal you WILL write properly, understand?"
+    new "Вот только классный журнал придётся написать как следует, понял?"
+
+    old "Ugh.{#ch4.3_t11510}"
+    new "Угх…"
+
+    old "Come on now, no gawking. Hurry up and write, Hiraga-kun! We do want to head home together, don't we?"
+    new "Ну-у же, не витай в облаках. Пиши скорей, Хирага-кун. Ведь домой нам идти вместе, не так ли?"
+
+    old "Come on, with all that energy — handle the class journal for me too!"
+    new "Слушай, уж с таким рвением и классный журнал за меня напишешь!"
+
+    old "Oh no you don't! That's just plain unfair — I'M the one doing everything!?"
+    new "Ну уж нет! Это нечестно — почему одна я всё тянуть должна!?"
+
+    old "The thing is, I'm not feeling so well… Mind if I go to the infirmary?"
+    new "Я, тут сказать, не в полном порядке… В медпункт отпустите?"
+
+    old "Hmm — but your sleep-talk sounded pretty jolly. You were even dreaming of being surrounded by girls."
+    new "Хм-м, но во сне ты бормотал довольно бодро. К тому же, вроде, тебе снились девчонки вокруг."
+
+    old "Wh—, seriously!?"
+    new "С-серьёзно?!"
+
+    old "Yeah, so… That request is rejected."
+    new "Угу, так что… Просьба отклонена."
+
+    old "What day was today again? Could it be Friday?"
+    new "Кстати, какой нынче день? Вроде бы пятница?"
+
+    old "Monday, obviously. Really, are you all right, Hiraga-kun?"
+    new "Понедельник, конечно же. Неужели всё так плохо, Хирага-кун?"
+
+    old "There, that'll do, right?"
+    new "Ну вот, так ведь можно?"
+
+    old "Let's see… Hmm, I suppose that'll pass? Though your journal is one big block of lies."
+    new "Ну, посмотрим… Хм, так сойдёт? Хотя в журнале у тебя всё враньё."
+
+    old "Well, I slept through the whole day, after all."
+    new "Так то оно так — весь день-то проспал."
+
+    old "Be more careful tomorrow, OK? You've been getting warnings from the teacher lately."
+    new "А завтра будь поосторожнее. Учитель и так постоянно тебя предупреждает."
+
+    old "Yes, ma'am."
+    new "Так точно."
+
+    old "And a Hiraga-kun like that gets PUNISHED!"
+    new "А вот такого Хираги-куна ждёт наказание!"
+
+    old "P-punished!? …Wait, with what?"
+    new "Н-наказание!? …Стоп, а это что?"
+
+    old "Well, you LOVE punishments, right? Punishments."
+    new "Ну разве самому не нравится? Наказание."
+
+    old "Louise-san told me: Hiraga-kun just loves getting punished."
+    new "Так ведь Луиза-сан говорила: от наказаний ты, мол, в восторге."
+
+    old "Louise-san? Who's that?"
+    new "Луиза-сан? Кто это?"
+
+    old "Eh, who was that again?"
+    new "А, кто бы это мог быть?"
+
+    old "W-wait, what's that ball of light!?"
+    new "Т-т-так это что за сфера из света?!"
+
+    old "Hmm… magic?"
+    new "Ну-у… магия?"
+
+    old "M-magic? Wait, Haruna!! Cut it out!!!"
+    new "М-магия?! Погоди, Харуна!! Прекрати!!!"
+
+    old "No protests accepted!"
+    new "Оговорки не принимаются!"
+
+    old "Uwaaaaaah."
+    new "Уааааааа."
+
+    old "Saito? What's wrong? You were asleep one moment, and now you suddenly cry out."
+    new "Сайто? Что случилось? Дремала себе, а тут вдруг как закричишь."
+
+    old "Where am I?"
+    new "Где это я?"
+
+    old "We're still on the highway. What's the matter?"
+    new "Мы ещё на тракте. А что за дело?"
+
+    old "Saito-san, you're sweating buckets! What sort of nightmare was it?"
+    new "Сайто-сан, вы попрели! Какой же вам снился кошмар?"
+
+    old "N-no, it was nothing…"
+    new "Н-ни-ничего не случилось…"
+
+    old "…?"
+    new "…?"

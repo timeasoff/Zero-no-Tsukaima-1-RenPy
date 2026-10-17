@@ -11366,3 +11366,327 @@ translate japanese strings:
 
     old "N-no, spare me that…"
     new "い、いや、それは勘弁してー。"
+
+    old "…Hoo… hoo…"
+    new "……すぅ……すぅ。"
+
+    old "…Mm… mmh…"
+    new "……んぅ……んっ……。"
+
+    old "Ugh… What a wretched road this is!!"
+    new "うわっ……なんてひでぇ道なんだっ！！"
+
+    old "And now the luggage that was piled up is toppling over… Wha…?"
+    new "って、置いてあった荷物が倒れてくる……。うわぁ……。"
+
+    old "Gwah… Ouch… This thing weighs a ton… What the heck is packed in here anyway?"
+    new "ぐはぁ……ってぇ……。メチャクチャ重いでやんの……。一体、何が入ってんだ、これ？"
+
+    old "What's the matter, partner? You were groaning up quite a storm there."
+    new "どうしたんだ、相棒？ずいぶんなうめき声を出してたじゃねーか？"
+
+    old "The carriage lurched, and the luggage standing upright came crashing down on me."
+    new "馬車が揺れたと思ったら、立ててあった荷物が俺に倒れてきたんだよ。"
+
+    old "…Mmh…"
+    new "んぁんっ。"
+
+    old "Whoa-whoa! Th-the luggage talked!!"
+    new "うわわぅわぁ！に、荷物がしゃべった！！"
+
+    old "The luggage talks? You starting to doze off for real, partner?"
+    new "荷物がしゃべる？寝ぼけてるんじゃねーのか、相棒っ？"
+
+    old "Hey, of all things, I don't need to hear that from you… Or is this a world where absolutely everything talks?"
+    new "いや、お前に言われたくないって……。それとも、この世界は何でもかんでもしゃべるって世界なのか？"
+
+    old "…Would you keep it down. I can't sleep a wink."
+    new "……うるさいわねぇ。眠れやしないじゃない。"
+
+    old "The luggage piled over there fell on top of me. Then the luggage talked. And somehow it was soft…"
+    new "立ててあった荷物が倒れてきたんだよ。そうしたら、荷物がしゃべるし。なんだか、やわらかいし……。"
+
+    old "Saito, what on earth are you talking about?"
+    new "サイト、一体何言ってるの？"
+
+    old "A-anyway, let's open it up and check what's inside."
+    new "と、とにかく、中身を開けて確かめてみようぜ。"
+
+    old "Ahaha, I came strolling along with you!"
+    new "あはっ、ついて来ちゃいましたっ。"
+
+    old "……。{#ch4.3_sil001}"
+    new "……。"
+
+    old "……。{#ch4.3_sil002}"
+    new "……。"
+
+    old "……。{#ch4.3_sil003}"
+    new "……。"
+
+    old "……。{#ch4.3_sil004}"
+    new "……。"
+
+    old "…Tee-hee."
+    new "……てへっ。"
+
+    old "W-why is Siesta, the one on house-guard duty, here of all places?"
+    new "な、なんでお留守番のシエスタさんが、ここに？"
+
+    old "Tie the mouth of that luggage bag shut right now!"
+    new "今すぐ、荷物袋の口をしばりなさいっ！"
+
+    old "Eh!?{#ch4.3_eh14738}"
+    new "えぇ！？"
+
+    old "Why would you!?"
+    new "なんでだよっ！？"
+
+    old "We throw it out. If we're lucky, a troupe of entertainers will pick her up."
+    new "捨てるの。運が良ければ、旅芸人の一行が拾ってくれるわ。"
+
+    old "I-I'm sorry, Miss Vallière!! Forgive me, please… Ugyaaaaah!?"
+    new "ご、ごめんなさいミス・ヴァリエール！！許してくださいっ……うああああっ！？"
+
+    old "Hey, you can't be serious!? Calm down, Louise!!"
+    new "おい、本気かよっ！？落ち着けって、ルイズっ！！"
+
+    old "P-please, I'll be useful to everyone! I'll work as hard as I can, so p-please l-let me come along!!"
+    new "わ、わたし、皆さんのお役に立ちますから。一生懸命に頑張りますから、そのっ……ご、ご一緒させてくださいっ！！"
+
+    old "I told Siesta she was to stay behind! Unless… this was YOUR doing, Saito…!"
+    new "シエスタは留守番って言ったじゃないっ！もしかして、サイトの仕業ってことは……！"
+
+    old "Wh-whoa, hold on. You really think I'd do something like that?"
+    new "ちょ、ちょっと待てよ。俺がそんなことするはずないだろ？"
+
+    old "I'm sorry, Miss Vallière. Saito-san is not at fault. It was entirely my own decision."
+    new "ごめんなさい、ミス・ヴァリエール。サイトさんは悪くありません。すべて、わたくしの独断です。"
+
+    old "Siesta…{#ch4.3_t6080}"
+    new "シエスタ……。"
+
+    old "I was worried about Haruna-san and Saito-san, and… somehow I ended up sneaking aboard like a stowaway."
+    new "わたくし、ハルナさんや、サイトさんのことが心配で、それでついつい密航者みたいなまねをしてしまったのです。"
+
+    old "It does bother me a little that I wasn't the one brought along… But Saito, what exactly do you intend to do?"
+    new "わたしが入っていなかったことが気になるけど……。でも、サイト、一体どうする気？"
+
+    old "What can I say to that… But we can't very well head back to the academy like this, can we?"
+    new "どうするって言われてもなぁ……。でも、このまま学校に戻るわけにもいかないだろ？"
+
+    old "We go straight on to the royal palace! There's no reason THEY should take her along, is there?"
+    new "このまま王宮に行くのよ！理由も無いのに連れて行けるわけないでしょ？"
+
+    old "……。{#ch4.3_sil005}"
+    new "……。"
+
+    old "Saito. How exactly do you plan to explain Siesta?"
+    new "サイト。シエスタの事は、なんて説明する気？"
+
+    old "As for Siesta, well…"
+    new "シエスタの事はなぁ……。"
+
+    old "So, I'm to explain her as my sister?"
+    new "俺の妹って説明するのは？"
+
+    old "…Hah!?"
+    new "……はあっ！？"
+
+    old "Eh!?{#ch4.3_eh14744}"
+    new "ええっ！？"
+
+    old "Look, Siesta has black hair and black eyes, right? I figure calling her my little sister would pass just fine."
+    new "ほら、シエスタって、黒い髪で、黒い瞳だろ？俺の妹って言っても通るんじゃないかなぁ？"
+
+    old "U-um… Should I call you 'big bro'? Or maybe 'esteemed elder brother'?"
+    new "え、ええっと……。お兄ちゃんがいいかしら？それともお兄様かしら？"
+
+    old "Aah, which should I go with!? Now I'm all torn…"
+    new "ああっ、どれにしましょう！悩んでしまいます……。"
+
+    old "You needn't agonize over that! Have you got any other ideas?"
+    new "そんなこと悩まなくていい！もっと別な案はないの？"
+
+    old "Well then — how about telling her she's Louise's maid?"
+    new "それじゃ、ルイズのメイドっていうのはどうだ？"
+
+    old "Well… I suppose that's a reasonable option. It'll do, won't it?"
+    new "ま、まぁ、妥当な案ね。それでいいんじゃない？"
+
+    old "How about the idea that she's Louise's maid?"
+    new "ルイズのメイドっていうのはどうだ？"
+
+    old "Well, I suppose that's a reasonable option. It'll do, won't it?{#ch4.3_d6087}"
+    new "ま、まぁ、妥当な案ね。それでいいんじゃない？"
+
+    old "Yes! In Saito-san's place, I'll take care of everything around you."
+    new "はいっ！サイトさんに代わって、色々と身の回りのお世話をいたしますわっ。"
+
+    old "Something about that phrasing bothers me… But fine, whatever."
+    new "何かひっかかる言い方だけど……。まぁいいわ。"
+
+    old "Just say it straight. She's the princess — she'll surely understand."
+    new "素直に話せばいいんじゃないか。お姫さまなら、きっと分かってくれるさ。"
+
+    old "…I know full well that's our only option… And lying gets us nowhere, after all."
+    new "……それしかないのは、分かってるけど……。ウソついたって仕方がないわけだし。"
+
+    old "Right then… Good for you, Siesta."
+    new "そうかっ……良かったなシエスタ。"
+
+    old "But no."
+    new "でもダメ。"
+
+    old "Eh!?{#ch4.3_eh14748}"
+    new "ええっ！？"
+
+    old "We'll simply have her go down as my maid. Otherwise all sorts of problems will come up…"
+    new "一応わたしのメイドってことにしておいて。じゃないといろいろ問題が起きそうだし……。"
+
+    old "Yes, understood!"
+    new "はい、分かりました！"
+
+    old "……。{#ch4.3_sil006}"
+    new "……。"
+
+    old "…Hiraga-kun."
+    new "……平賀くん。"
+
+    old "Mmmh…?"
+    new "んんっ……。"
+
+    old "Hiraga-kun, I said…"
+    new "平賀くんってば。"
+
+    old "Oh, sorry… We've arrived in Tristania, haven't we?"
+    new "ああっ、ごめん……。トリスタニアに着いたんだね？"
+
+    old "Honestly… What are you dozing off for? School let out ages ago."
+    new "まったく……。何を寝ぼけてるの？もう下校時間でしょ。"
+
+    old "…!?"
+    new "……！？"
+
+    old "Huh…? Wait, isn't this a school?"
+    new "あれ……。ここは学校じゃないか。"
+
+    old "School let out, and you're STILL sleeping, Hiraga-kun. You slept through every class today, didn't you?"
+    new "放課後になっても、平賀くんずっと寝てるんだもん。授業全部寝てたんじゃない？"
+
+    old "Huh, I slept that much? Now I'm in trouble."
+    new "え、そんなに寝てた？参ったな。"
+
+    old "And besides — today it's YOUR day on hall duty, Hiraga-kun. You'd better get that class journal written."
+    new "それに平賀くん、今日の日直でしょ？早く学級日誌を書かないと。"
+
+    old "Oh? Is that a fact?"
+    new "あれ、そうだっけ？"
+
+    old "'Is that a fact,' really…? Today WE were the duty reps, both of us! I did practically all the work, mind you."
+    new "そうだっけって……、今日は私と日直だったじゃないっ！仕事、ほとんど私がやったんだからね。"
+
+    old "Oh… that's right, sorry. It's just that something feels a bit off with me."
+    new "そうだったんだ……ごめん。なんだかちょっと、調子が悪いみたいで。"
+
+    old "Good grief… I'll keep an eye on you right here."
+    new "もう……。ここで見ててあげるから。"
+
+    old "But the class journal you WILL write properly, understand?"
+    new "学級日誌だけはちゃんと書いてもらいますからね。"
+
+    old "Ugh.{#ch4.3_t11510}"
+    new "うへぇ。"
+
+    old "Come on now, no gawking. Hurry up and write, Hiraga-kun! We do want to head home together, don't we?"
+    new "ほーら、ボサッとしない。平賀くん、早く書いてよっ。一緒に帰れないでしょ？"
+
+    old "Come on, with all that energy — handle the class journal for me too!"
+    new "なあ、その勢いで学級日誌も頼むっ！"
+
+    old "Oh no you don't! That's just plain unfair — I'M the one doing everything!?"
+    new "ダメよそんなの。私ばっかり、ずるいじゃないっ！！"
+
+    old "The thing is, I'm not feeling so well… Mind if I go to the infirmary?"
+    new "俺、気分が悪くってさぁ。保健室へ行かせてくれない？"
+
+    old "Hmm — but your sleep-talk sounded pretty jolly. You were even dreaming of being surrounded by girls."
+    new "うーん、でも寝言が結構楽しそうだったよ。女の子に囲まれてる夢だったみたいだし。"
+
+    old "Wh—, seriously!?"
+    new "マ……、マジですか！？"
+
+    old "Yeah, so… That request is rejected."
+    new "うん、だから。その申し出は、却下。"
+
+    old "What day was today again? Could it be Friday?"
+    new "今日って何曜日だっけ？もしかして金曜日？"
+
+    old "Monday, obviously. Really, are you all right, Hiraga-kun?"
+    new "月曜日に決まってるでしょ？もう、平賀くん大丈夫？"
+
+    old "There, that'll do, right?"
+    new "ほら、これでいいんだろ？"
+
+    old "Let's see… Hmm, I suppose that'll pass? Though your journal is one big block of lies."
+    new "どれどれ？うーん、まぁいいんじゃないかな？日誌は全部嘘っぽいけど。"
+
+    old "Well, I slept through the whole day, after all."
+    new "そりゃ、一日中寝てましたし。"
+
+    old "Be more careful tomorrow, OK? You've been getting warnings from the teacher lately."
+    new "明日は気をつけてね。最近、先生に注意されてるんだから。"
+
+    old "Yes, ma'am."
+    new "はぁい。"
+
+    old "And a Hiraga-kun like that gets PUNISHED!"
+    new "そんな平賀くんには、お仕置きしちゃうんだからっ！"
+
+    old "P-punished!? …Wait, with what?"
+    new "お、お仕置きっ！？……って、何？"
+
+    old "Well, you LOVE punishments, right? Punishments."
+    new "だって好きなんでしょ？お仕置き。"
+
+    old "Louise-san told me: Hiraga-kun just loves getting punished."
+    new "平賀くんはいつもお仕置きされて喜んでるってルイズさんに。"
+
+    old "Louise-san? Who's that?"
+    new "ルイズさんって誰？"
+
+    old "Eh, who was that again?"
+    new "え、誰だっけ？"
+
+    old "W-wait, what's that ball of light!?"
+    new "い、いや、その光の球ってなんですか？"
+
+    old "Hmm… magic?"
+    new "えーと、魔法？"
+
+    old "M-magic? Wait, Haruna!! Cut it out!!!"
+    new "ま、魔法？待ってくれ、春奈！！やめるんだぁ！！！"
+
+    old "No protests accepted!"
+    new "問答無用！"
+
+    old "Uwaaaaaah."
+    new "うわああああああっ。"
+
+    old "Saito? What's wrong? You were asleep one moment, and now you suddenly cry out."
+    new "サイトっ？どうしたの？寝てたと思ったら、いきなり声を上げて。"
+
+    old "Where am I?"
+    new "ここはどこ？"
+
+    old "We're still on the highway. What's the matter?"
+    new "まだ、街道よ。それがどうしたの？"
+
+    old "Saito-san, you're sweating buckets! What sort of nightmare was it?"
+    new "サイトさん、汗すごいですよ？どんな悪夢だったんですか？"
+
+    old "N-no, it was nothing…"
+    new "い、いやなんでもない……。"
+
+    old "…?"
+    new "……？"

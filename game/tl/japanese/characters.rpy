@@ -20,6 +20,9 @@ translate japanese strings:
     old "Siesta"
     new "シエスタ"
 
+    old "???"
+    new "？？？"
+
     old "Guiche"
     new "ギーシュ"
 
