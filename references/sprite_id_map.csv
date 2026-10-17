@@ -187,3 +187,4 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 966,ha 2 angry,2,1365,3932,lay7,ch4 part2b; block 962 pos 4; пиксель-сверка SCENEDAT[966] -> ha 2 angry (MAE 0.0275 норм., следующий 0.0288; pos 4 = angry)
 970,ha 2 shy,5,1362,3874,lay7,ch4 part2b; block 962 pos 8; пиксель-сверка SCENEDAT[970] -> ha 2 shy (MAE 0.0277 норм., следующий 0.0282; pos 8 = shy)
 403,s 2 happy,1,237,185,lay5,ch4 part3; block 401 pos 2; пиксель-сверка SCENEDAT[403] -> game/images/chara/s 2 happy.webp (MAE 0.0269 норм., следующий s 2 angry 0.0276; pos 2 = happy)
+409,s 2 shy,1,1378,924,lay5,ch4 part4; block 401 pos 8; пиксель-сверка SCENEDAT[409] -> game/images/chara/s 2 shy.webp (MAE 0.0268 норм., следующий s 2 happy 0.0273; pos 8 = shy)

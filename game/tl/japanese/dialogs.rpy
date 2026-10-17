@@ -11690,3 +11690,438 @@ translate japanese strings:
 
     old "…?"
     new "……？"
+
+    old "H-Haruna? Look—look outside!"
+    new "ハ、ハルナさん。外、外を見てください。"
+
+    old "What is it, Miss Siesta?"
+    new "どうしたんですか？シエスタさん。"
+
+    old "Whoa… What an incredible view. So this is the…"
+    new "うわぁ……。すごい景色ですね。ここがその……。"
+
+    old "Right. The royal capital, Tristania."
+    new "そう。王都、トリスタニアよ。"
+
+    old "…We're almost at the palace, aren't we."
+    new "……あと少しで、王宮に着くのね。"
+
+    old "As far as the eye can see, it's nothing but buildings and people."
+    new "見渡す限り建物と人であふれてますね。"
+
+    old "It's like we've strayed into a movie's world. For a city so fantastically built to actually exist… it's all just like a dream."
+    new "映画の世界に迷い込んだみたいです。こんなファンタジックな街並みが実在するなんてまるで夢みたいですね。"
+
+    old "Well, when I first saw it, I figured I'd wandered into some theme park too."
+    new "まぁ、俺も初めて見たとき、どこのテーマパークかと思ったもんだけどな。"
+
+    old "A theme park?"
+    new "テーマパーク？"
+
+    old "Hmm. Like… a park that recreates the look of another world, I guess."
+    new "うーん。異世界の景色をそれっぽく作ってある公園？かな。"
+
+    old "Ohh. Your world sounds like a rather strange place."
+    new "はぁ。サイトさんの世界って、何か変わったところですね。"
+
+    old "…But."
+    new "……でも。"
+
+    old "But what?"
+    new "でも？"
+
+    old "I really did end up in another world, didn't I… Me."
+    new "本当に、異世界に来ちゃったんですね。……私って。"
+
+    old "It's all right, Haruna. We're right here with you, aren't we?"
+    new "大丈夫だよ、春奈。俺達がついてるだろう？"
+
+    old "Honestly, pull yourself together. It's embarrassing, isn't it?"
+    new "もぉ、元気出しなさいよ。みっともないでしょう？"
+
+    old "Cheer up, Miss Haruna!"
+    new "元気出してください、ハルナさんっ！"
+
+    old "Yes… Thank you."
+    new "うん……、ありがとう。"
+
+    old "Don't worry. As for how we get back to my world—Louise will track down a way for us."
+    new "大丈夫。俺達が元の世界に帰る方法は、ルイズが探してくれるさ。"
+
+    old "M-me?{#ch4.4_x6098}"
+    new "わ、わたし？"
+
+    old "You won't look for it?"
+    new "探してくれないんですか？"
+
+    old "Mm…{#ch4.4_x6099}"
+    new "んっ……。"
+
+    old "I-I will look for you. With the power of the House of Vallière, we're bound to find it somehow."
+    new "さ、探してあげるわよ。ヴァリエール家の力をもってすれば、なんとか見つかるはずよ。"
+
+    old "Good for you, Haruna."
+    new "良かったな、春奈。"
+
+    old "Yes.{#ch4.4_x2299}"
+    new "うん。"
+
+    old "Ugh.{#ch4.4_x6101}"
+    new "うー。"
+
+    old "It'll be fine, Haruna. Someday it's bound to work out."
+    new "大丈夫さ、春奈。いつかきっとなんとかなるよ。"
+
+    old "And if it doesn't work out?"
+    new "なんとかならなかったら？"
+
+    old "It will work out. You were lucky enough to meet me, right? You're bound to find a way home too."
+    new "なんとかなるさ。だって、俺と出会えるくらい幸運なんだろ？きっと帰れる方法もみつかるって。"
+
+    old "Yes… I guess so…"
+    new "うん、そうだね……。"
+
+    old "Well, either way. Until we can get back to our own world, we'll have to live in this one."
+    new "まぁ、とにかく。元の世界に帰れるまでは、この世界で暮らすしかないんだし。"
+
+    old "Don't be so pessimistic. First things first—you should get used to this world."
+    new "あまり悲観せず、まずはこの世界へ慣れる事だと思うよ。"
+
+    old "Yes…{#ch4.4_x2302}"
+    new "うん……。"
+
+    old "Cheer up, Haruna."
+    new "元気出せよ、春奈。"
+
+    old "We won't leave Miss Haruna all alone! So please, have no worries!"
+    new "ハルナさんを独りぼっちになんてしませんから。安心してくださいねっ！"
+
+    old "Really now—since you went to all the trouble of coming into town, at least go take a look at all sorts of places… It would be a waste, you know?"
+    new "もぉ、せっかく街に出てきたんだから、いろんな所を見て行きなさいよ……。もったいないでしょう？"
+
+    old "Yes… Thank you, everyone."
+    new "はいっ……。みなさん、ありがとうございます。"
+
+    old "There's so much of everything…"
+    new "いろいろあるなぁ……。"
+
+    old "Welcome, young lady! Looking for anything in particular?"
+    new "らっしゃい、お嬢さん。何か用入りで？"
+
+    old "Ah, u-um… Well… I was wondering what that red fruit there might be."
+    new "あ、え、ええっと……。あの……そこの赤い果物はなにかなぁって思って。"
+
+    old "Missie, that there is no fruit. It's a spice!"
+    new "嬢ちゃん、こいつは果物じゃないよ。香辛料でさぁ！"
+
+    old "Wha—this isn't a fruit?"
+    new "え～、これ果物じゃないんですか？"
+
+    old "Don't be saying foolish things now. Eat even a bite of it, and you'll be blowing smoke from both ears so hot it is!"
+    new "ばか言っちゃいけませんよ。食べちまったら、耳から煙吹き出すくらい辛い香辛料ですよ。"
+
+    old "Oh… so it's not, then…"
+    new "そ、そうなんだ……。"
+
+    old "Haruna. What were you looking at?"
+    new "春奈。何を見てたんだい？"
+
+    old "Ah, Hiraga-kun! Look. There's so much food here I've never seen before."
+    new "ああ、平賀くんっ。これ見て。見たことない食べ物が、いっぱいあるの。"
+
+    old "Hm."
+    new "ふーん。"
+
+    old "Not knowing this spice, eh—then maybe the two of you have come from somewhere far off?"
+    new "この香辛料を知らないってことは、もしかして、お二人さん、どこか遠くからやって来たのかい？"
+
+    old "A-ah, well…"
+    new "あ、あの……。"
+
+    old "Well, we're from a little way east, that's all."
+    new "いやー。ちょっと東のほうからだよ。"
+
+    old "Oh, is that so. Quite a long road you've come, then. Here, ask me anything you like."
+    new "ほう、そうですかい。そりゃ大変なところから来なすったな。どれ、なんでも聞いておくれ？"
+
+    old "Hiraga-kun, there's all sorts of interesting things here."
+    new "平賀くん、なんかいろいろ面白いね。"
+
+    old "You mean the vegetables?"
+    new "野菜を見ることがか？"
+
+    old "Yes. Just imagining what all of these foods could taste like is fun enough."
+    new "うん、どんな食べ物なんだろうって想像するだけでも面白いよ。"
+
+    old "Well then—want to try eating something?"
+    new "それじゃ、何か食べてみる？"
+
+    old "Eh, we can? But… I don't have any money."
+    new "え、いいの？だって、私お金もってないよ。"
+
+    old "I actually have a little on me. Sir, which of these would you recommend as a fruit?"
+    new "俺、実はいくらか持ってるんだ。オジサン、この中でお勧めの果物は？"
+
+    old "Well now… among these three, is it…"
+    new "そうだねぇ。この３つかねぇ……。"
+
+    old "Sir, I'll take this red fruit."
+    new "オジサン、この赤い果物を貰うね。"
+
+    old "There you go."
+    new "はい、これね。"
+
+    old "Thank you, Hiraga-kun. Well then, let's try it."
+    new "平賀くんありがとう。じゃ、食べてみようか。"
+
+    old "Huh, this is sour."
+    new "あれ、これすっぱいよ。"
+
+    old "Whoa, it is. It's nothing at all like I imagined."
+    new "うわ、本当だ。想像してたのとぜんぜん違う。"
+
+    old "Yes, it's strange, isn't it…"
+    new "うん、不思議だねぇ……。"
+
+    old "Sir, I'll take this green fruit."
+    new "オジサン、この緑の果物を貰うね。"
+
+    old "There you go.{#ch4.4_x3949}"
+    new "はい、これね。"
+
+    old "Thank you, Hiraga-kun. Well then, let's try it.{#ch4.4_x1929}"
+    new "平賀くんありがとう。じゃ、食べてみようか。"
+
+    old "Huh, this is sweet."
+    new "あれ、これ甘いよ。"
+
+    old "Whoa, it is. It's nothing at all like I imagined.{#ch4.4_x9846}"
+    new "うわ、本当だ。想像してたのとぜんぜん違う。"
+
+    old "Yes, it's strange, isn't it…{#ch4.4_x1931}"
+    new "うん、不思議だねぇ……。"
+
+    old "Sir, I'll take this yellow fruit."
+    new "オジサン、この黄色の果物を貰うね。"
+
+    old "There you go.{#ch4.4_x3950}"
+    new "はい、これね。"
+
+    old "Thank you, Hiraga-kun. Well then, let's try it.{#ch4.4_x1932}"
+    new "平賀くんありがとう。じゃ、食べてみようか。"
+
+    old "Huh, the inside is all jelly-like."
+    new "あれ、なんか、中身がゼリー状になってる。"
+
+    old "Whoa, it is. It's nothing at all like I imagined.{#ch4.4_x9848}"
+    new "うわ、本当だ。想像してたのとぜんぜん違う。"
+
+    old "Yes, it's strange, isn't it…{#ch4.4_x1934}"
+    new "うん、不思議だねぇ……。"
+
+    old "But, but all the same, this may be tasty in its own way."
+    new "でもでも、これはこれでおいしいかも。"
+
+    old "You think so?"
+    new "そう？"
+
+    old "Yes.{#ch4.4_x1936}"
+    new "うん。"
+
+    old "Good to hear, then."
+    new "なら良かった。"
+
+    old "Thank you, Hiraga-kun!"
+    new "ありがとう、平賀くん！"
+
+    old "But say, the two of you do seem close. Are you husband and wife?"
+    new "ところで、ずいぶん仲が良いみたいだけど、お二人さんは夫婦なのかい？"
+
+    old "Wh-what!? N-no, nothing of the sort, not at all!"
+    new "ええっ！？い、いや、そんなことはまったく！！"
+
+    old "Honestly, you old man, seriously!"
+    new "もぉ、オジサンったらっ！！"
+
+    old "Hah hah hah… the young ones have it good, truly they do!"
+    new "はっはっはっ……。若いもんはいいねぇ、まったく！"
+
+    old "Hah hah hah hah…"
+    new "ははははは……。"
+
+    old "Staaare."
+    new "じー。"
+
+    old "Staaare.{#ch4.4_l4972}"
+    new "じー。"
+
+    old "…Saito."
+    new "……サイト。"
+
+    old "Saito!{#ch4.4_x4974}"
+    new "サイト！"
+
+    old "Y-yeeesss!! Wh-what is it, yelling out of nowhere. You startled me, you know!"
+    new "は、はいいぃぃ！！な、何だよ、いきなり大声上げて。びっくりするじゃねーか。"
+
+    old "The one surprised here is me. Why were you muttering to yourself behind my back?"
+    new "びっくりしたのはこっちよ。なんで、人の後ろでブツブツつぶやいてるわけ？"
+
+    old "Saito, do you have some kind of habit like that, too?"
+    new "サイト、そういう趣味でもあるの？"
+
+    old "N-no, it's just… you were staring so intently at that medicine there, so I was wondering what kind of medicine it was."
+    new "い、いや……。ルイズがそこの薬をじっと見てたから、何の薬だろうなぁって思って。"
+
+    old "A-a medicine? Wh-what does it matter what it is!"
+    new "く、薬？な、なんだっていいじゃない！"
+
+    old "Oh, but I can't help being curious about what you might be wanting."
+    new "いや、気になるじゃねーか。ルイズが何をほしがってるのか。"
+
+    old "I'm not wanting. Not in the least, I don't need it."
+    new "ほしがってないって。全然、いらない。"
+
+    old "…Somehow, that just feels like the end of the world, doesn't it."
+    new "……なんか、世も末って感じだな。"
+
+    old "Huh?{#ch4.4_x4979}"
+    new "へ？"
+
+    old "Well, I could just read the writing on that bottle… Hah… Doing all that would be a complete waste."
+    new "いや、そのビンの文字が見えたんだが……。ふぅ……。そんなことしたって全然無駄。"
+
+    old "What—!"
+    new "なっ！"
+
+    old "Hey, Derflinger. Do you know what kind of medicine it is?"
+    new "おい、デルフ。お前、何の薬か分かるのか？"
+
+    old "Derflinger…"
+    new "デルフリンガー……。"
+
+    old "Huh?{#ch4.4_x1242}"
+    new "へ？"
+
+    old "What sort of punishment would you prefer? To rust into a lump of iron? Or perhaps the bottom of the sea would suit you?"
+    new "どんな罰がお好み？鉄の塊になるのがいい？それとも、海の底がいいかしら？"
+
+    old "A-ah, me, I didn't see anything at all, and I don't know a thing, I swear. My mistake there, partner."
+    new "あ、お、俺っちはなんにも見てないし、なんにも知らないぜ。すまんな、相棒。"
+
+    old "Yes—now that's right."
+    new "そう、それでいいのよ。"
+
+    old "Truly, what a strange lot you all are. Knowing about it, not knowing about it… In the end, what medicine is it even?"
+    new "まったく、変なやつらだなぁ。知ってたり、知らなかったり……。結局何の薬なんだろう。"
+
+    old "It's fine for you not to know, Saito!"
+    new "サイトは知らなくてもいいの！"
+
+    old "No chance I could tell my partner it's a potion for making your chest bigger, you see."
+    new "（まさか、胸を大きくする薬なんて、　相棒には教えられねぇぜ）"
+
+    old "Did you just say something!?"
+    new "何か言った！？"
+
+    old "Oh no, no—it was nothing at all."
+    new "いえいえ、なんでもねーっす。"
+
+    old "Ah… Saito-san!!"
+    new "あっ……サイトさんっ！！"
+
+    old "Oh—Siesta. You found me that easily, huh."
+    new "あれ、シエスタ。よく分かったね。"
+
+    old "It's simple, really. Your clothes, Saito-san, stand out terribly."
+    new "簡単ですよ。サイトさんの服って、すごく目立ちますからね。"
+
+    old "Ah… true enough. There really isn't anyone else who would dress quite like this."
+    new "ああ……なるほど。確かに、こんな格好したヤツなんて、俺だけだもんな。"
+
+    old "That's right! No matter where I am, I'm confident I could find you straight away."
+    new "そうなんです！わたし、どこにいても、サイトさんをすぐに見つけられる自信があります。"
+
+    old "I-is that so?{#ch4.4_x9860}"
+    new "そ、そう？"
+
+    old "Saito-san. Actually, this isn't my first time in Tristania, you know."
+    new "サイトさん。実はわたし、トリスタニアに来たのは初めてじゃないんですよ。"
+
+    old "Eh, really?"
+    new "え、本当？"
+
+    old "Yes—my uncle actually runs a tavern here in Tristania, so I've visited here several times before."
+    new "ええ、実は叔父がトリスタニアで酒場を経営していまして、何度か、そちらにお邪魔したことがあるんで。"
+
+    old "Hm.{#ch4.4_s9862}"
+    new "ふーん。"
+
+    old "If the chance had come, I would have liked to go there, but it seems we won't have the time this visit."
+    new "機会があったら、行ってみたいのですが、ちょっと今回は時間がなさそうですね。"
+
+    old "Sorry about that. Dragging you here while things are quite hectic."
+    new "ごめんな。結構大変なときに来てもらって。"
+
+    old "Not at all. I tagged along of my own accord, after all. That doesn't trouble me one bit."
+    new "いいえ。わたしが勝手についてきたんです。それはかまいません。"
+
+    old "More to the point, Saito-san—what do you make of this city, Tristania?"
+    new "それより、サイトさん、このトリスタニアはいかがですか？"
+
+    old "Honestly, I just think: what a big city."
+    new "大きい街だなーって素直に思う。"
+
+    old "Isn't it just? The first time I came to Tristania, I got completely lost."
+    new "そうですよね。わたし、初めてトリスタニアに来たとき、迷子になってしまいました。"
+
+    old "These days I can walk around without losing my way to some extent, but until then it was quite an ordeal."
+    new "今でこそ、ある程度は迷わずに歩くことができますが、それまでは大変でした。"
+
+    old "Whoa—if even you could get lost in it, Siesta, I'd better not stray too far, huh."
+    new "うわ、シエスタで迷子になるんなら、あまり遠くまで行かないほうがいいな。"
+
+    old "No need to worry. If it's you, Saito-san, I will find you at any time."
+    new "大丈夫です。サイトさんなら、いつでもわたしが見つけて差し上げますから。"
+
+    old "It's smaller than I expected."
+    new "思ったより小さい街だね。"
+
+    old "Is it? I was told it's about the third or fourth largest city in Halkeginia."
+    new "そうですか？ハルケギニアでは三番目か四番目くらいに大きい街だと聞いていますが。"
+
+    old "Ah, no—I meant that in my world's cities, the scale is far more overwhelming."
+    new "あ、いや、俺の世界の街だと、もっとすごいって意味で。"
+
+    old "Is that so… I can't even imagine a city any bigger than Tristania."
+    new "そうなんですか……。わたしなんて、トリスタニアより大きい街すら想像できません。"
+
+    old "Rather—what do you think of it, Siesta?"
+    new "逆にシエスタはどう思う？"
+
+    old "Me… you mean? Well, let me see…"
+    new "わたし……ですか？そうですね……。"
+
+    old "It's lively, it's bustling, and—I love it. Somehow it makes me feel like having fun myself, in a way."
+    new "活気があって、にぎやかで、わたしは好き、ですよ。なんだかこっちが楽しくなってきますよね。"
+
+    old "Yeah, right you are."
+    new "うん、そうだね。"
+
+    old "Oh, that's right—there's a place around here selling delicious fruit, you know."
+    new "そうそう。ここらへんにおいしい果物を売っている場所があるんですよ。"
+
+    old "Would you like to go together, Saito-san?"
+    new "サイトさんも一緒にどうですか？"
+
+    old "Ah, that sounds nice."
+    new "あ、それいいね。"
+
+    old "Then let's head there together."
+    new "それじゃ、一緒に行きましょう。"
+
+    old "Yes.{#ch4.4_x9871}"
+    new "うん。"
+
+    old "……{#ch4.4_x9872}"
+    new "……。"

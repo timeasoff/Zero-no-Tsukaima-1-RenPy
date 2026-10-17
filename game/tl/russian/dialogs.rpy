@@ -11696,3 +11696,438 @@ translate russian strings:
 
     old "…?"
     new "…?"
+
+    old "H-Haruna? Look—look outside!"
+    new "Х-Харуна-сан. Пос-посмотрите на улицу."
+
+    old "What is it, Miss Siesta?"
+    new "Что случилось, Сиеста-сан?"
+
+    old "Whoa… What an incredible view. So this is the…"
+    new "Уаа… Какая красота. Это и есть то самое…"
+
+    old "Right. The royal capital, Tristania."
+    new "Да. Королевская столица, Тристания."
+
+    old "…We're almost at the palace, aren't we."
+    new "…Вот-вот, скоро и дворец."
+
+    old "As far as the eye can see, it's nothing but buildings and people."
+    new "Смотрите — до горизонта всё в сплошных зданиях и людях."
+
+    old "It's like we've strayed into a movie's world. For a city so fantastically built to actually exist… it's all just like a dream."
+    new "Кажется, мы забрели прямо в мир из кино. Что улица такой сказочной красоты существует на самом деле… это как во сне."
+
+    old "Well, when I first saw it, I figured I'd wandered into some theme park too."
+    new "Ну, когда я её впервые увидел, я ведь принял её за какой-то тематический парк."
+
+    old "A theme park?"
+    new "Тематический парк?"
+
+    old "Hmm. Like… a park that recreates the look of another world, I guess."
+    new "Мм. Что-то вроде… парка, где пейзажи другого мира сымитированы, что ли."
+
+    old "Ohh. Your world sounds like a rather strange place."
+    new "Вот как. Ваш мир, Сайто-сан, звучит довольно странным местом."
+
+    old "…But."
+    new "…Но всё же."
+
+    old "But what?"
+    new "Но что?"
+
+    old "I really did end up in another world, didn't I… Me."
+    new "Я ведь и правда попала в другой мир… Вот так вот."
+
+    old "It's all right, Haruna. We're right here with you, aren't we?"
+    new "Всё хорошо, Харуна. Мы же рядом с тобой?"
+
+    old "Honestly, pull yourself together. It's embarrassing, isn't it?"
+    new "Ты уж приди в себя. Какой позор, а?"
+
+    old "Cheer up, Miss Haruna!"
+    new "Не унывайте, Харуна-сан!"
+
+    old "Yes… Thank you."
+    new "Да… Спасибо."
+
+    old "Don't worry. As for how we get back to my world—Louise will track down a way for us."
+    new "Не переживай. Способ вернуться в мой мир Луиза для нас найдёт."
+
+    old "M-me?{#ch4.4_x6098}"
+    new "Я… я?"
+
+    old "You won't look for it?"
+    new "Ты ведь не станешь искать?"
+
+    old "Mm…{#ch4.4_x6099}"
+    new "…Мм…"
+
+    old "I-I will look for you. With the power of the House of Vallière, we're bound to find it somehow."
+    new "Я… я отыщу! С силами дома Вальер его обязательно удастся найти."
+
+    old "Good for you, Haruna."
+    new "Ну вот и славно, Харуна."
+
+    old "Yes.{#ch4.4_x2299}"
+    new "Да."
+
+    old "Ugh.{#ch4.4_x6101}"
+    new "У-у…"
+
+    old "It'll be fine, Haruna. Someday it's bound to work out."
+    new "Ничего, Харуна. Однажды всё обязательно устроится."
+
+    old "And if it doesn't work out?"
+    new "А если не устроится?"
+
+    old "It will work out. You were lucky enough to meet me, right? You're bound to find a way home too."
+    new "Устроится. Ты ведь удачлива настолько, что встретила меня? Значит, и способ вернуться отыщется."
+
+    old "Yes… I guess so…"
+    new "Да… наверное…"
+
+    old "Well, either way. Until we can get back to our own world, we'll have to live in this one."
+    new "Ну да, что и говорить. Пока не вернёмся в свой мир, придётся жить в этом."
+
+    old "Don't be so pessimistic. First things first—you should get used to this world."
+    new "Не падай духом так сильно. Для начала нужно привыкнуть к этому миру."
+
+    old "Yes…{#ch4.4_x2302}"
+    new "Да…"
+
+    old "Cheer up, Haruna."
+    new "Приободрись, Харуна."
+
+    old "We won't leave Miss Haruna all alone! So please, have no worries!"
+    new "Мы ведь не оставим Харуну-сан одну! Так что вам не о чем беспокоиться!"
+
+    old "Really now—since you went to all the trouble of coming into town, at least go take a look at all sorts of places… It would be a waste, you know?"
+    new "Ну вот, раз уж вы выбрались в город, надо осмотреть разные места… Иначе и вправду жалко будет."
+
+    old "Yes… Thank you, everyone."
+    new "Да… Спасибо вам всем."
+
+    old "There's so much of everything…"
+    new "Как много тут всякого…"
+
+    old "Welcome, young lady! Looking for anything in particular?"
+    new "Добро пожаловать, барышня! Что-нибудь возьмёте?"
+
+    old "Ah, u-um… Well… I was wondering what that red fruit there might be."
+    new "А-э… э-э-то… Ну… интересно, что там за красный плод."
+
+    old "Missie, that there is no fruit. It's a spice!"
+    new "Мисси, это никакой не плод. Это пряность!"
+
+    old "Wha—this isn't a fruit?"
+    new "Э-э, разве это не плод?"
+
+    old "Don't be saying foolish things now. Eat even a bite of it, and you'll be blowing smoke from both ears so hot it is!"
+    new "Только не говорите глупостей. Откусите хоть разочек — из ушей дым пойдёт, до того острая пряность!"
+
+    old "Oh… so it's not, then…"
+    new "А… значит, и правда не плод…"
+
+    old "Haruna. What were you looking at?"
+    new "Харуна. На что ты смотрела?"
+
+    old "Ah, Hiraga-kun! Look. There's so much food here I've never seen before."
+    new "А, Хирага-кун! Смотри. Тут столько еды, какой я ни разу не видела."
+
+    old "Hm."
+    new "Угу."
+
+    old "Not knowing this spice, eh—then maybe the two of you have come from somewhere far off?"
+    new "Раз вы этой пряности не знаете… не издалека ли к нам пожаловали, вы двое?"
+
+    old "A-ah, well…"
+    new "А-а, это…"
+
+    old "Well, we're from a little way east, that's all."
+    new "Да нет, мы просто с краёв чуть восточнее."
+
+    old "Oh, is that so. Quite a long road you've come, then. Here, ask me anything you like."
+    new "Ого, вот как. Далековато вам пришлось добираться. Что ж, спрашивайте о чём угодно."
+
+    old "Hiraga-kun, there's all sorts of interesting things here."
+    new "Хирага-кун, тут столько всего интересного."
+
+    old "You mean the vegetables?"
+    new "Ты про разглядывание овощей?"
+
+    old "Yes. Just imagining what all of these foods could taste like is fun enough."
+    new "Да. Даже просто представлять, что это за еда и какой у неё вкус, уже забавно."
+
+    old "Well then—want to try eating something?"
+    new "Ну что, попробуем чего-нибудь съесть?"
+
+    old "Eh, we can? But… I don't have any money."
+    new "Э, можно? Но у меня же нет денег."
+
+    old "I actually have a little on me. Sir, which of these would you recommend as a fruit?"
+    new "А у меня, вообще-то, немного есть. Дядюшка, какой из этих плодов посоветуешь?"
+
+    old "Well now… among these three, is it…"
+    new "Ну что ж… из этих трёх…"
+
+    old "Sir, I'll take this red fruit."
+    new "Дядюшка, я возьму вон тот красный плод."
+
+    old "There you go."
+    new "Вот, держи."
+
+    old "Thank you, Hiraga-kun. Well then, let's try it."
+    new "Спасибо, Хирага-кун. Ну, попробуем."
+
+    old "Huh, this is sour."
+    new "Хм, а он кислый."
+
+    old "Whoa, it is. It's nothing at all like I imagined."
+    new "Уа, и верно. Совсем не то, что я себе представлял."
+
+    old "Yes, it's strange, isn't it…"
+    new "Да, чудеса да и только…"
+
+    old "Sir, I'll take this green fruit."
+    new "Дядюшка, я возьму вон тот зелёный плод."
+
+    old "There you go.{#ch4.4_x3949}"
+    new "Вот, держи."
+
+    old "Thank you, Hiraga-kun. Well then, let's try it.{#ch4.4_x1929}"
+    new "Спасибо, Хирага-кун. Ну, попробуем."
+
+    old "Huh, this is sweet."
+    new "Хм, а он сладкий."
+
+    old "Whoa, it is. It's nothing at all like I imagined.{#ch4.4_x9846}"
+    new "Уа, и верно. Совсем не то, что я себе представлял."
+
+    old "Yes, it's strange, isn't it…{#ch4.4_x1931}"
+    new "Да, чудеса да и только…"
+
+    old "Sir, I'll take this yellow fruit."
+    new "Дядюшка, я возьму вон тот жёлтый плод."
+
+    old "There you go.{#ch4.4_x3950}"
+    new "Вот, держи."
+
+    old "Thank you, Hiraga-kun. Well then, let's try it.{#ch4.4_x1932}"
+    new "Спасибо, Хирага-кун. Ну, попробуем."
+
+    old "Huh, the inside is all jelly-like."
+    new "Хм, что-то серединка сделалась как желе."
+
+    old "Whoa, it is. It's nothing at all like I imagined.{#ch4.4_x9848}"
+    new "Уа, и верно. Совсем не то, что я себе представлял."
+
+    old "Yes, it's strange, isn't it…{#ch4.4_x1934}"
+    new "Да, чудеса да и только…"
+
+    old "But, but all the same, this may be tasty in its own way."
+    new "Но и это, пожалуй, по-своему вкусно."
+
+    old "You think so?"
+    new "Правда?"
+
+    old "Yes.{#ch4.4_x1936}"
+    new "Да."
+
+    old "Good to hear, then."
+    new "Ну и славно."
+
+    old "Thank you, Hiraga-kun!"
+    new "Спасибо, Хирага-кун!"
+
+    old "But say, the two of you do seem close. Are you husband and wife?"
+    new "Кстати, вы двое, похоже, сильно дружите… Вы не муж с женой?"
+
+    old "Wh-what!? N-no, nothing of the sort, not at all!"
+    new "Э-э!? Н-нет, ничего подобного, совсем!!"
+
+    old "Honestly, you old man, seriously!"
+    new "Ну, хватит, дядюшка!!"
+
+    old "Hah hah hah… the young ones have it good, truly they do!"
+    new "Ха-ха-ха… Молодость — хорошая штука, ничего не скажешь!"
+
+    old "Hah hah hah hah…"
+    new "Хе-хе-хе-хе…"
+
+    old "Staaare."
+    new "Пя-ялюсь…"
+
+    old "Staaare.{#ch4.4_l4972}"
+    new "Пя-ялюсь…"
+
+    old "…Saito."
+    new "…Сайто."
+
+    old "Saito!{#ch4.4_x4974}"
+    new "Сайто!"
+
+    old "Y-yeeesss!! Wh-what is it, yelling out of nowhere. You startled me, you know!"
+    new "Д-да-да!! Ч-что вдруг орешь? Меня вон напугал!"
+
+    old "The one surprised here is me. Why were you muttering to yourself behind my back?"
+    new "Это я тут перепугалась. Чего это ты у меня за спиной бормочешь?"
+
+    old "Saito, do you have some kind of habit like that, too?"
+    new "Сайто, неужели у тебя тоже такая привычка?"
+
+    old "N-no, it's just… you were staring so intently at that medicine there, so I was wondering what kind of medicine it was."
+    new "Н-нет, просто… ты так пристально смотрела на то зелье, что я задумался, что это за зелье."
+
+    old "A-a medicine? Wh-what does it matter what it is!"
+    new "Л-лекарство? Д-да что там за лекарство, всё равно!"
+
+    old "Oh, but I can't help being curious about what you might be wanting."
+    new "Да нет, интересно же, чего это тебе хочется."
+
+    old "I'm not wanting. Not in the least, I don't need it."
+    new "Не хочу. Совершенно не нужно."
+
+    old "…Somehow, that just feels like the end of the world, doesn't it."
+    new "…Такое ощущение, что всему конец, да."
+
+    old "Huh?{#ch4.4_x4979}"
+    new "Хэ?"
+
+    old "Well, I could just read the writing on that bottle… Hah… Doing all that would be a complete waste."
+    new "Да вот, просто прочёл надпись на той бутыли… Фу-у… Такие дела — сплошная трата сил."
+
+    old "What—!"
+    new "Ч-что!?"
+
+    old "Hey, Derflinger. Do you know what kind of medicine it is?"
+    new "Эй, Дельф. Ты разве понимаешь, что там за лекарство?"
+
+    old "Derflinger…"
+    new "Дерфлингер…"
+
+    old "Huh?{#ch4.4_x1242}"
+    new "Хэ?"
+
+    old "What sort of punishment would you prefer? To rust into a lump of iron? Or perhaps the bottom of the sea would suit you?"
+    new "Какое наказание тебе больше по нраву? Превратиться в кусок железа? Или, может, дно морское?"
+
+    old "A-ah, me, I didn't see anything at all, and I don't know a thing, I swear. My mistake there, partner."
+    new "А-а, я, я ничего не видел и ничего не знаю. Виноват я, напарник."
+
+    old "Yes—now that's right."
+    new "Да, вот так-то и надо."
+
+    old "Truly, what a strange lot you all are. Knowing about it, not knowing about it… In the end, what medicine is it even?"
+    new "Вот уж чудные вы люди. Кто знает, кто не знает… А в итоге, что это за лекарство?"
+
+    old "It's fine for you not to know, Saito!"
+    new "Сайто! Ты можешь и не знать!"
+
+    old "No chance I could tell my partner it's a potion for making your chest bigger, you see."
+    new "Само собой, не рассказишь напарнику, что это зелье для увеличения груди."
+
+    old "Did you just say something!?"
+    new "Ты что-то сказал!?"
+
+    old "Oh no, no—it was nothing at all."
+    new "Нет-нет, совершенно ничего."
+
+    old "Ah… Saito-san!!"
+    new "А… Сайто-сан!!"
+
+    old "Oh—Siesta. You found me that easily, huh."
+    new "О, Сиеста. И как ты меня так быстро нашла?"
+
+    old "It's simple, really. Your clothes, Saito-san, stand out terribly."
+    new "Просто. Ваша одежда, Сайто-сан, невероятно заметная."
+
+    old "Ah… true enough. There really isn't anyone else who would dress quite like this."
+    new "А… точно. Других-то в таком облачении и вправду не найти."
+
+    old "That's right! No matter where I am, I'm confident I could find you straight away."
+    new "Вот именно! Я где бы ни была, уверенно найду Сайто-сана сразу же."
+
+    old "I-is that so?{#ch4.4_x9860}"
+    new "Т-так?"
+
+    old "Saito-san. Actually, this isn't my first time in Tristania, you know."
+    new "Сайто-сан. Вообще-то это у меня не первый визит в Тристанию."
+
+    old "Eh, really?"
+    new "Э, правда?"
+
+    old "Yes—my uncle actually runs a tavern here in Tristania, so I've visited here several times before."
+    new "Да, у моего дяди здесь, в Тристании, есть таверна, так что я несколько раз бывала у него в гостях."
+
+    old "Hm.{#ch4.4_s9862}"
+    new "Угу."
+
+    old "If the chance had come, I would have liked to go there, but it seems we won't have the time this visit."
+    new "Если представится случай, туда бы хотелось сходить, но в этот раз, похоже, не будет времени."
+
+    old "Sorry about that. Dragging you here while things are quite hectic."
+    new "Прости. Пришлось затащить тебя в такое горячее время."
+
+    old "Not at all. I tagged along of my own accord, after all. That doesn't trouble me one bit."
+    new "Ни в коем случае нет. Это я сама по своей воле сюда увязалась. То меня не смущает."
+
+    old "More to the point, Saito-san—what do you make of this city, Tristania?"
+    new "А теперь лучше — Сайто-сан, как вам эта Тристания?"
+
+    old "Honestly, I just think: what a big city."
+    new "Честно: просто думаю — какой большой город."
+
+    old "Isn't it just? The first time I came to Tristania, I got completely lost."
+    new "Не правда ли? В первый раз, когда я сюда приехала, я совсем потерялась."
+
+    old "These days I can walk around without losing my way to some extent, but until then it was quite an ordeal."
+    new "Теперь я уже могу гулять без ошибок, но до того было трудно."
+
+    old "Whoa—if even you could get lost in it, Siesta, I'd better not stray too far, huh."
+    new "Уа, если даже ты заплутаешь, Сиеста, лучше мне не отлучаться слишком далеко."
+
+    old "No need to worry. If it's you, Saito-san, I will find you at any time."
+    new "Не грустите. Сайто-сана я как-нибудь всегда найду."
+
+    old "It's smaller than I expected."
+    new "Меньше, чем я думал."
+
+    old "Is it? I was told it's about the third or fourth largest city in Halkeginia."
+    new "Правда? Я слышала, что это третий или четвёртый по величине город в Халкегинии."
+
+    old "Ah, no—I meant that in my world's cities, the scale is far more overwhelming."
+    new "А, нет, я о том, что в городах моего мира масштаб куда грандиознее."
+
+    old "Is that so… I can't even imagine a city any bigger than Tristania."
+    new "Так оно и есть… Я даже представить не могу город больше Тристании."
+
+    old "Rather—what do you think of it, Siesta?"
+    new "А наоборот — как тебе, Сиеста?"
+
+    old "Me… you mean? Well, let me see…"
+    new "Я… насчёт меня? Что ж…"
+
+    old "It's lively, it's bustling, and—I love it. Somehow it makes me feel like having fun myself, in a way."
+    new "Он живой, шумный, и я его люблю. Даже как-то самому становится весело."
+
+    old "Yeah, right you are."
+    new "Ага, так и есть."
+
+    old "Oh, that's right—there's a place around here selling delicious fruit, you know."
+    new "Кстати, вот недалеко есть место, где продают замечательные фрукты."
+
+    old "Would you like to go together, Saito-san?"
+    new "Сайто-сан, не хотите пройти вместе?"
+
+    old "Ah, that sounds nice."
+    new "А, это хорошо."
+
+    old "Then let's head there together."
+    new "Тогда пойдём вместе."
+
+    old "Yes.{#ch4.4_x9871}"
+    new "Да."
+
+    old "……{#ch4.4_x9872}"
+    new "……"

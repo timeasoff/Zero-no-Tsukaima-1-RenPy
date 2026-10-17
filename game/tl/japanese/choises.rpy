@@ -835,3 +835,54 @@ translate japanese strings:
 
     old "What day of the week was it again?{#ch4.3_m241c}"
     new "今日って何曜日だっけ？"
+
+    old "We're right here with you.{#ch4.4_c247a}"
+    new "俺達がついてるよ"
+
+    old "Louise will track down the way back.{#ch4.4_c247b}"
+    new "ルイズが帰り方を探してくれるよ"
+
+    old "Someday, somehow, it'll all work out.{#ch4.4_c247c}"
+    new "いつかはなんとかなるよ"
+
+    old "Main Street{#ch4.4_m1367}"
+    new "表通り"
+
+    old "Main Street{#ch4.4_m1372}"
+    new "表通り"
+
+    old "Main Street{#ch4.4_m1377}"
+    new "表通り"
+
+    old "Main Street{#ch4.4_m1382}"
+    new "表通り"
+
+    old "Leave{#ch4.4_leave}"
+    new "出発する"
+
+    old "The red fruit that looks like a tomato.{#ch4.4_c1367a}"
+    new "赤いトマトみたいな果物"
+
+    old "The green fruit that looks like a cucumber.{#ch4.4_c1367b}"
+    new "緑のキュウリみたいな果物"
+
+    old "The yellow fruit that looks like a lemon.{#ch4.4_c1367c}"
+    new "黄色いレモンみたいな果物"
+
+    old "A love potion?{#ch4.4_c1372a}"
+    new "惚れ薬？"
+
+    old "A cold medicine?{#ch4.4_c1372b}"
+    new "風邪薬？"
+
+    old "A cough medicine?{#ch4.4_c1372c}"
+    new "ノドの薬？"
+
+    old "It's a big city.{#ch4.4_c1377a}"
+    new "大きい街だね"
+
+    old "It's smaller than I expected.{#ch4.4_c1377b}"
+    new "思ったより小さい街だね"
+
+    old "What do you think, Siesta?{#ch4.4_c1377c}"
+    new "シエスタはどう思う？"

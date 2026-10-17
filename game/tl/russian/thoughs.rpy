@@ -805,3 +805,78 @@ translate russian strings:
 
     old "………………{#ch4.3_null_b}"
     new "………………"
+
+    old "We had made it to Tristania, safe and sound."
+    new "Итак, мы благополучно прибыли в Тристанию."
+
+    old "With the audience with the princess still a while away…"
+    new "До аудиенции с принцессой ещё есть время…"
+
+    old "We had decided to wander the streets of Tristania a bit."
+    new "И мы решили немного погулять по Тристании."
+
+    old "Now then—what should I do?"
+    new "Ну и что теперь делать, а?"
+
+    old "Whoops, there's Haruna. She's staring at the shop's goods, completely engrossed."
+    new "О-о, вот и Харуна. Она с головой ушла в витрину лавки."
+
+    old "With that, the old man pulled out three of the fruits. Which one to pick?"
+    new "Сказав это, дед вытащил три плода. И который же выбрать?"
+
+    old "What would it taste like, I wonder…"
+    new "Интересно, какой он на вкус…"
+
+    old "What would it taste like, I wonder…{#ch4.4_m2}"
+    new "Интересно, какой он на вкус…"
+
+    old "What would it taste like, I wonder…{#ch4.4_m3}"
+    new "Интересно, какой он на вкус…"
+
+    old "Louise was there—no wait, it looked like she was seriously peering into some shop's window."
+    new "Вон и Луиза… И, кажется, она изо всех сил заглядывает в витрину лавки."
+
+    old "What was she so seriously looking at? I'd sneak a peek and find out, that's what."
+    new "Что она там так сосредоточенно рассматривает? Надо бы незаметно подглядеть."
+
+    old "The shop itself… was an ordinary one. In the window, bottles filled with liquid were on display."
+    new "Сама лавка… обычная лавка. В витрине расставлены бутыли с жидкостью."
+
+    old "Hm. What would that liquid be, I wonder…"
+    new "М-м. Что там за жидкость…"
+
+    old "Judging from the size of those bottles, it wasn't a spice or a seasoning, but without a doubt… a medicine. It had to be."
+    new "По размеру тех бутылей — это не пряность и не приправа, а без сомнения… лекарство. Точно."
+
+    old "A love potion? No, no—hold on. Who on earth would I even use it on?"
+    new "Приворотное зелье? Да нет, постой. На кого его использовать, спрашивается?"
+
+    old "Eh—could it be, me? That couldn't possibly be. Get a grip of yourself, me."
+    new "Э? Может быть, — на меня? Не может быть такого. Возьми себя в руки, я."
+
+    old "A cold medicine? Had Louise been ill right now?"
+    new "Лекарство от простуды? А Луиза что, сейчас болеет?"
+
+    old "Could it be she's sick, but with an important duty weighing on her, she's been keeping silent?"
+    new "Неужели, она больна, но молчит, так как на ней лежит важная миссия?"
+
+    old "Whoa, that's bad news. Hang in there, Louise!"
+    new "Уа, это плохо. Держись, Луиза!"
+
+    old "A cough medicine? Had her throat been hurting that badly?"
+    new "Лекарство для горла? Неужели у неё так болело горло?"
+
+    old "Every day she does nothing but scold me, after all. Maybe her throat does hurt, then."
+    new "Ведь она каждый день только и делает, что ругается на меня. Может, горло и вправду болит…"
+
+    old "When I think of it like that, some guilt starts gnawing at me…"
+    new "Если так подумать, совесть начинает грызть…"
+
+    old "Louise…{#ch4.4_m1376a}"
+    new "Луиза…"
+
+    old "Looks like there's no one around here."
+    new "Похоже, здесь никого нет."
+
+    old "Well, we're not going to be doing anything in particular here either, so for now—let's move along."
+    new "Ну, делать тут всё равно нечего, так что пока — двинемся дальше."

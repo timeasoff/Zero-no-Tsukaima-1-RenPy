@@ -810,3 +810,78 @@ translate japanese strings:
 
     old "………………{#ch4.3_null_b}"
     new "………。……。…。"
+
+    old "We had made it to Tristania, safe and sound."
+    new "（俺達は無事、トリスタニアに　到着した）"
+
+    old "With the audience with the princess still a while away…"
+    new "（お姫さまとの謁見までにはまだ、　時間があることもあって……）"
+
+    old "We had decided to wander the streets of Tristania a bit."
+    new "（俺達はトリスタニアの街を　散策する事になった）"
+
+    old "Now then—what should I do?"
+    new "（さて、どうするかなぁ？）"
+
+    old "Whoops, there's Haruna. She's staring at the shop's goods, completely engrossed."
+    new "（おっと、春奈がいた。　お店の品を夢中になって眺めてる）"
+
+    old "With that, the old man pulled out three of the fruits. Which one to pick?"
+    new "（そういうと、オジサンは３つの果物を　取り出した。　どれにしよう）"
+
+    old "What would it taste like, I wonder…"
+    new "（どんな味なんだろう……）"
+
+    old "What would it taste like, I wonder…{#ch4.4_m2}"
+    new "（どんな味なんだろう……）"
+
+    old "What would it taste like, I wonder…{#ch4.4_m3}"
+    new "（どんな味なんだろう……）"
+
+    old "Louise was there—no wait, it looked like she was seriously peering into some shop's window."
+    new "（ルイズがいた……と思ったら、　なにやら熱心に店のウインドウを　覗いてるみたいだな）"
+
+    old "What was she so seriously looking at? I'd sneak a peek and find out, that's what."
+    new "（何を真剣に見てるんだ？　こっそりと確かめてやろうっと）"
+
+    old "The shop itself… was an ordinary one. In the window, bottles filled with liquid were on display."
+    new "（店……、自体は普通の店だな。　ウインドウには液体の入ったビンが　飾られてる）"
+
+    old "Hm. What would that liquid be, I wonder…"
+    new "（うーん。　何の液体なんだろう……）"
+
+    old "Judging from the size of those bottles, it wasn't a spice or a seasoning, but without a doubt… a medicine. It had to be."
+    new "（あのサイズから考えると、　香辛料とか調味料ではなく、　間違いなく薬……だよな）"
+
+    old "A love potion? No, no—hold on. Who on earth would I even use it on?"
+    new "（惚れ薬？　いやいや、待て。　誰に使うんだっつーの）"
+
+    old "Eh—could it be, me? That couldn't possibly be. Get a grip of yourself, me."
+    new "（え、もしかして、俺？　そんなはずないじゃないですか？　しっかりしろよ、俺）"
+
+    old "A cold medicine? Had Louise been ill right now?"
+    new "（風邪薬？　ルイズって今、病気だったっけ？）"
+
+    old "Could it be she's sick, but with an important duty weighing on her, she's been keeping silent?"
+    new "（もしかして、病気なんだけど　重要な任務を背負ってるんで、　黙ってますって状態？）"
+
+    old "Whoa, that's bad news. Hang in there, Louise!"
+    new "（うわぁ、それってやばいって。　ルイズしっかりしろ！）"
+
+    old "A cough medicine? Had her throat been hurting that badly?"
+    new "（ノドの薬？　そんなにノド痛んでたっけ？）"
+
+    old "Every day she does nothing but scold me, after all. Maybe her throat does hurt, then."
+    new "（毎日、俺に怒ってばっかりだもんなぁ。　もしかしたら、ノドが痛んでるかも）"
+
+    old "When I think of it like that, some guilt starts gnawing at me…"
+    new "（そう考えたら、なんか罪の意識に　苛まれて来た……）"
+
+    old "Louise…{#ch4.4_m1376a}"
+    new "（ルイズ……）"
+
+    old "Looks like there's no one around here."
+    new "（ここには誰もいないみたいだな）"
+
+    old "Well, we're not going to be doing anything in particular here either, so for now—let's move along."
+    new "（まぁ、何をするわけでもないし、　とりあえず、移動しますか）"

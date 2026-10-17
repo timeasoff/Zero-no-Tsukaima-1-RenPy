@@ -829,3 +829,54 @@ translate russian strings:
 
     old "What day of the week was it again?{#ch4.3_m241c}"
     new "А какой сегодня день недели?"
+
+    old "We're right here with you.{#ch4.4_c247a}"
+    new "Мы ведь рядом, с тобой."
+
+    old "Louise will track down the way back.{#ch4.4_c247b}"
+    new "Луиза отыщет нам дорогу назад."
+
+    old "Someday, somehow, it'll all work out.{#ch4.4_c247c}"
+    new "Когда-нибудь всё как-нибудь наладится."
+
+    old "Main Street{#ch4.4_m1367}"
+    new "Главная улица"
+
+    old "Main Street{#ch4.4_m1372}"
+    new "Главная улица"
+
+    old "Main Street{#ch4.4_m1377}"
+    new "Главная улица"
+
+    old "Main Street{#ch4.4_m1382}"
+    new "Главная улица"
+
+    old "Leave{#ch4.4_leave}"
+    new "Отправиться"
+
+    old "The red fruit that looks like a tomato.{#ch4.4_c1367a}"
+    new "Красный плод, похожий на помидор."
+
+    old "The green fruit that looks like a cucumber.{#ch4.4_c1367b}"
+    new "Зелёный плод, похожий на огурец."
+
+    old "The yellow fruit that looks like a lemon.{#ch4.4_c1367c}"
+    new "Жёлтый плод, похожий на лимон."
+
+    old "A love potion?{#ch4.4_c1372a}"
+    new "Приворотное зелье?"
+
+    old "A cold medicine?{#ch4.4_c1372b}"
+    new "Лекарство от простуды?"
+
+    old "A cough medicine?{#ch4.4_c1372c}"
+    new "Лекарство для горла?"
+
+    old "It's a big city.{#ch4.4_c1377a}"
+    new "Большой город."
+
+    old "It's smaller than I expected.{#ch4.4_c1377b}"
+    new "Меньше, чем я ожидал."
+
+    old "What do you think, Siesta?{#ch4.4_c1377c}"
+    new "А что думаешь ты, Сиеста?"
