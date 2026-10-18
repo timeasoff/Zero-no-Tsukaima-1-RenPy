@@ -1,0 +1,221 @@
+=== SOURCE (109 utterances) ===
+  1 scene=256 s   vid=11535  お姫さま、元気にしてるかなぁ～。 ルイズ、こうして会うのも、 なんか久しぶりだよなぁ。
+  2 scene=256 l   vid=6103   ちょっとサイトっ、静かにしなさいよ。 それに姫さまって気安く呼ぶんじゃないの！
+  3 scene=256 s   vid=11536  お姫さまとは、もう知り合いみたいな もんじゃないか。
+  4 scene=256 l   vid=6104   バカっ、あんたすっごく失礼よっ！ 姫さまは今や、一国を支える女王陛下なのよ？
+  5 scene=256 l   vid=6105   わたしの使い魔だからといっても、 ほかの人から見ればサイトは平民なんだから。 もっと態度を慎みなさいっ！
+  6 scene=256 l   vid=6106   でないと、女王を侮辱した罪で 大変なことになるわよ？
+  7 scene=256 s   vid=11537  ああ、分かってるって。
+  8 scene=256 h   vid=517    ああっ、久しぶりねっ！ ルイズ・フランソワーズ。
+  9 scene=256 l   vid=6107   女王陛下にはご機嫌うるわしゅう。
+ 10 scene=256 h   vid=518    ルイズ。 あなたも、相変わらず元気そうですね。 顔をあげてください。
+ 11 scene=256 h   vid=519    それに、ここでは堅苦しいことはやめて。 昔のように気軽に呼びかけてくれないかしら？
+ 12 scene=256 l   vid=6108   はい……。
+ 13 scene=256 h   vid=520    そちらの使い魔さんも、変わらないようですね？
+ 14 scene=256 s   vid=11538  あっ……はい。 またお会いすることができて、光栄です。
+ 15 scene=256 h   vid=521    それと、そちらの女性は？
+ 16 scene=256 si  vid=14757  はい、わたくし。 魔法学院で給仕を務めております、 シエスタと申します。
+ 17 scene=256 l   vid=6109   あ、あの……。 今回はわたしの給仕として この城へと連れてきています。
+ 18 scene=256 h   vid=522    シエスタさんとおっしゃるのね、 どうぞよろしく。
+ 19 scene=256 h   vid=523    それと、もうひとかたの彼女は……。 あまりこの辺では見かけない 顔立ちのようですけど？
+ 20 scene=256 l   vid=6110   あ、あのっ、彼女は……。
+ 21 scene=256 ha  vid=2304   あのっ……。 初めてお目にかかります。 わたくし、高凪　春奈と申します。
+ 22 scene=256 h   vid=524    タカナギハルナさんとおっしゃるのですね。 学院長から報告のあった、 異世界から来られた方なのかしら？
+ 23 scene=256 l   vid=6111   その事については、これよりわたしがすべてを お話しいたします。
+ 24 scene=256 l   vid=6112   姫さま。 どうか落ち着いて耳をお傾けください。
+ 25 scene=256 h   vid=525    分かりました、ルイズ。 あなたの告白を、素直に受けとめましょう。
+ 26 scene=256 h   vid=526    なるほど、大体のことは分かりました。
+ 27 scene=256 h   vid=527    学院長のおっしゃるとおり、 タカナギハルナは使い魔としては 召喚されておらず……、
+ 28 scene=256 h   vid=528    その理由は未だ分かってないというのですね。
+ 29 scene=256 l   vid=6113   はい。
+ 30 scene=256 h   vid=529    分かりました。 タカナギハルナの身柄は、引き続き このルイズ・フランソワーズに一任します。
+ 31 scene=256 h   vid=530    ただし、事情が事情ですので、 異世界から来たことを 公にすることは禁じます。
+ 32 scene=256 h   vid=531    よからぬ陰謀を抱く人達に利用されるかも しれませんから。
+ 33 scene=256 l   vid=6114   姫さまにご理解を頂けましたことを、 深く感謝いたします。
+ 34 scene=256 ha  vid=2305   女王様、ありがとうございます。
+ 35 scene=256 h   vid=532    ハルナさん。
+ 36 scene=256 ha  vid=2306   はい。
+ 37 scene=256 h   vid=533    いきなり異世界での生活。 大変かもしれませんが、頑張ってください。
+ 38 scene=256 h   vid=534    この使い魔さん同様、いつか帰れる日が 来るはずです。
+ 39 scene=256 ha  vid=2307   ありがとうございます。
+ 40 scene=256 si  vid=14758  良かったですね。 これで無事解決でしょうか？
+ 41 scene=256 s   vid=11539  ああ、そうだな。
+ 42 scene=256 h   vid=535    ところで、ルイズのことをこうしてわざわざ 呼び出したのには、別の理由があります。
+ 43 scene=256 l   vid=6115   えっ……。 そうなのですかっ！？
+ 44 scene=256 l   vid=6116   わたしはてっきり、ハルナの事で 呼ばれたのかとばかり……。
+ 45 scene=256 h   vid=536    いいえ。 ハルナさんのことは今日初めて知りました。
+ 46 scene=256 h   vid=537    これからお話しすることは、 ある意味、深刻な問題です。
+ 47 scene=256 s   vid=11540  その深刻な問題って何ですか？
+ 48 scene=256 l   vid=6117   もぉ、サイトったらっ！！ 気安く話しかけちゃ駄目って 言ったばっかりでしょ？
+ 49 scene=256 l   vid=6118   すみません女王陛下。 使い魔の不始末はこのルイズが……。
+ 50 scene=256 h   vid=538    ルイズ、いいのです。 では、お話しましょう。
+ 51 scene=256 h   vid=539    ハルナさん、シエスタさん。 すみませんが、席をはずして くださいませんか？
+ 52 scene=256 ha  vid=2308   はい、分かりました。
+ 53 scene=256 si  vid=14759  それでは、失礼いたします。
+ 54 scene=256 h   vid=540    では、本題に入ります。
+ 55 scene=256 h   vid=541    ここ最近、「爆弾使い」と呼ばれる人物が 暗躍をしているという話。 ルイズや使い魔さんなら、もうご存じかしら？
+ 56 scene=256 l   vid=6119   はい、それなら先日も魔法学院が、 爆弾使いと思わしき人物の被害にあいました。
+ 57 scene=256 h   vid=542    そうですか……。 ルイズは、その人物が誰かを見たのですか？
+ 58 scene=256 l   vid=6120   はい……。 けれども顔を見ることはできませんでした。
+ 59 scene=256 h   vid=543    それは残念です。 我々としても容疑者を割り出すべく、 調査を行いました。
+ 60 scene=256 h   vid=544    その結果、犯人の特徴とその被害の発生 している地域から、可能性のある人物を 割り出す事ができたのです。
+ 61 scene=256 s   vid=11541  なんだ、そいつは話が早いや。 その犯人を俺達で捜し出して、 連れてくればいいってことだな、お姫さまっ？
+ 62 scene=256 l   vid=6121   こら、勝手に話をまとめるんじゃないわよっ！
+ 63 scene=256 h   vid=545    そうですね。 大筋は使い魔さんの言うとおりなのですが。
+ 64 scene=256 h   vid=546    犯人の特徴は、比較的小柄ですばしっこく、 頭からローブをすっぽりかぶっていたと いう事です。
+ 65 scene=256 h   vid=547    そこで諜報部は、犯人は小柄な少年と 見ているようなのです。
+ 66 scene=256 l   vid=6122   少年……ですか？
+ 67 scene=256 h   vid=548    これはわたくしの勝手な考えなのですが。 その犯人の容姿からみて、もしかすると 女性なのではないかとも考えています。
+ 68 scene=256 h   vid=549    そこで、犯人の容姿を女性に照らし合わせて 浮かび上がった人物がいたのです。
+ 69 scene=256 s   vid=11542  ふんふん。
+ 70 scene=256 h   vid=550    犯人を特定するための特徴は２つあります。 ひとつは「爆発」。 そして、女性だとすると「胸のない少女」。
+ 71 scene=256 l   vid=6123   わっ、わたしですって！？
+ 72 scene=256 h   vid=551    い、いえ。 まだ、ルイズとは一言も……。
+ 73 scene=256 s   vid=11543  あっはははははははははっ……！！ そいつは確かに、ルイズの他には 考えられないな。
+ 74 scene=256 l   vid=6124   ごごごご主人様の事を、 犯人呼ばわりするだなんて、 なんて不謹慎な犬なのかしらっ！
+ 75 scene=256 s   vid=11544  い、いや、ルイズ。 ちょっと落ち着け。 もう少し考えてみようぜ。
+ 76 scene=257 s   vid=11545  ルイズは犯人じゃありません。
+ 77 scene=257 s   vid=11546  爆弾使いが学院に現れた時、 ルイズと一緒にいました。 ルイズにはアリバイがあります。
+ 78 scene=257 h   vid=552    なるほど。 それは重要な証言ですね。
+ 79 scene=258 s   vid=11547  爆弾使いはルイズですね。 まちがいありません。
+ 80 scene=258 h   vid=553    なんですって？ 使い魔さん、冗談はここだけにしてください。
+ 81 scene=258 s   vid=11548  爆発に胸。 この条件がそろってるのは、 トリスタニアを探してもルイズしかいません。
+ 82 scene=258 s   vid=11549  う、うぉ……。 まじに入れてきたな。
+ 83 scene=258 l   vid=6125   ば、ば、バカなことを言うのも 大概にしなさい。 女王陛下の御前よ。
+ 84 scene=258 h   vid=554    ルイズ、落ち着いて。 わたくしは信じているわ。
+ 85 scene=259 s   vid=11550  他に情報はないんですか？ これだけでは、ルイズのことなのか、 他の人のことなのか分かりませんよ。
+ 86 scene=259 l   vid=6126   わたしじゃないわよ。
+ 87 scene=259 s   vid=11551  それは分かってるって。
+ 88 scene=259 h   vid=555    まさにそうですね。 使い魔さんのおっしゃるとおりです。
+ 89 scene=260 h   vid=556    ルイズ、そして使い魔さん。 ２人に、爆弾使いの調査、 確保をお願いしたいと思います。
+ 90 scene=260 l   vid=6127   お願いだなんて、とんでもありません。
+ 91 scene=260 l   vid=6128   ラ・ヴァリエール公爵家が三女、 ルイズ・フランソワーズが、貴族の名にかけて 爆弾使いを姫さまの御前に連れてまいります。
+ 92 scene=260 h   vid=557    本当でしたらこんな危険な事を、友人である ルイズなどには頼みたくないのですが。
+ 93 scene=260 l   vid=6129   もったいないお言葉です。 必ず、姫さまのご期待にお応えいたします。
+ 94 scene=260 s   vid=11552  お姫さまは、俺達の吉報を 楽しみに待っていてください。
+ 95 scene=260 h   vid=558    まぁ、頼もしいですわ。 ルイズと使い魔さんの働き、信じていますよ。
+ 96 scene=260 h   vid=559    んぅ……！！
+ 97 scene=260 l   vid=6130   きゃあっ！！
+ 98 scene=260 s   vid=11553  何ぃ！？
+ 99 scene=260 s   vid=11554  噂をすれば影がさす……とは、この事か！
+100 scene=260 l   vid=6131   ふふっ、上等じゃない。 行くわよ、サイトっ！！ 姫さまは、安全なところに逃げてくださいっ！！
+101 scene=260 h   vid=560    ルイズっ！！
+102 scene=260 l   vid=6132   ……っ！？
+103 scene=260 h   vid=561    ルイズ。 無理だけはしないと約束してね。
+104 scene=260 l   vid=6133   もちろんですとも。 さあ、早く奥へっ！！
+105 scene=260 s   vid=11555  デルフ、ここからは俺達の出番だ。
+106 scene=260 d   vid=1294   ノって来たな、相棒っ！ 油断するんじゃねぇぜ？
+107 scene=260 s   vid=11556  ルイズっ、こっちだっ！
+108 scene=260 l   vid=6134   ちょ……。 ちょっと、待ちなさいよ！
+109 scene=260 l   vid=6135   くっ……爆弾使いのヤツ、今に見てなさい。 絶対に捕まえてやるんだからっ！！
+
+=== SCRIPT (109 lines) ===
+  1 line=46   s   s_001        I wonder if the princess is doing well. It's been a while since we last saw each other like this, Louise.
+  2 line=57   l   l_001        Hey, Saito, be quiet. And don't call her 'the princess' so casually!
+  3 line=62   s   s_002        But isn't she already an acquaintance of ours?
+  4 line=67   l   l_002        You fool, that's extremely rude! The princess is now the queen who supports an entire nation!
+  5 line=72   l   l_003        You may be my familiar, but to others you're a commoner. You must be more respectful!
+  6 line=77   l   l_004        Otherwise, you'll be charged with insulting the queen, and it will go badly for you!
+  7 line=82   s   s_003        Yeah, I know.
+  8 line=92   h   h_001        Ah, it's been so long, Miss Louise Françoise.
+  9 line=99   l   l_005        Your Majesty, I am in good health.
+ 10 line=102  h   h_002        Louise. You look as energetic as ever. Please, raise your head.
+ 11 line=105  h   h_003        And here, let's not stand on ceremony. Can't you call me by my name as you did in the old days?
+ 12 line=111  l   l_006        Yes….
+ 13 line=114  h   h_004        And your familiar here? He hasn't changed either, has he?
+ 14 line=122  s   s_004        Ah… yes. It is an honor to meet you again.
+ 15 line=127  h   h_005        And this woman here?
+ 16 line=132  si  si_001       Yes, it is I. I am Siesta, a maid serving at the academy.
+ 17 line=137  l   l_007        Um, well… This time I have brought her as my servant to the castle.
+ 18 line=142  h   h_006        They call you Siesta? It's a pleasure to meet you.
+ 19 line=147  h   h_007        And this other girl here… I don't often see a face like hers around here.
+ 20 line=152  l   l_008        Ah, um, this girl is…
+ 21 line=157  ha  ha_001       Um… It is my first time meeting you. I am Haruna Takanagi.
+ 22 line=162  h   h_008        So you are Miss Takanagi Haruna. Are you perhaps the person from another world that the headmaster reported?
+ 23 line=167  l   l_009        Regarding that, I will tell you everything now.
+ 24 line=170  l   l_010        Princess. Please, calm down and lend me your ear.
+ 25 line=175  h   h_009        Very well, Louise. I will listen to your confession with an open heart.
+ 26 line=183  h   h_010        I see. I understand the general situation.
+ 27 line=186  h   h_011        As the headmaster says, Takanagi Haruna was not summoned as a familiar…
+ 28 line=189  h   h_012        And the reason for that is still unknown, you say.
+ 29 line=192  l   l_011        Yes.
+ 30 line=197  h   h_013        Very well. I will continue to entrust Takanagi Haruna's care to you, Louise Françoise.
+ 31 line=202  h   h_014        However, given the circumstances, I must forbid you to make it public that she came from another world.
+ 32 line=207  h   h_015        There is a risk she may be exploited by those who harbor dark conspiracies.
+ 33 line=212  l   l_012        Your Majesty, please allow me to express my deepest gratitude for your understanding.
+ 34 line=217  ha  ha_002       Thank you, Your Majesty.
+ 35 line=222  h   h_016        Miss Haruna.
+ 36 line=225  ha  ha_003       Yes.
+ 37 line=230  h   h_017        Life in another world right from the start. It may be difficult, but please do your best.
+ 38 line=235  h   h_018        As with this familiar of yours, the day will surely come when you can return.
+ 39 line=240  ha  ha_004       Thank you very much.
+ 40 line=245  si  si_002       I'm so relieved. Is everything settled now?
+ 41 line=250  s   s_005        Yeah, I guess so.
+ 42 line=259  h   h_019        By the way, there is another reason I called you all here like this.
+ 43 line=264  l   l_013        Eh… What do you mean!?
+ 44 line=269  l   l_014        I thought it was because of Haruna!
+ 45 line=274  h   h_020        No. This is the first I have heard of Miss Haruna.
+ 46 line=279  h   h_021        What I am about to tell you is, in a sense, a grave problem.
+ 47 line=284  s   s_006        What is this grave problem?
+ 48 line=289  l   l_015        Saito! How many times must I tell you not to speak so familiarly!
+ 49 line=292  l   l_016        I am terribly sorry, Your Majesty. The fault is entirely mine as his master…
+ 50 line=297  h   h_022        Louise, it is fine. Let us speak.
+ 51 line=300  h   h_023        Miss Haruna, Miss Siesta. I am sorry, but could you please excuse us for a moment?
+ 52 line=305  ha  ha_005       Yes, of course.
+ 53 line=310  si  si_003       Then, we will take our leave.
+ 54 line=323  h   h_024        Now then, to the main topic.
+ 55 line=328  h   h_025        Recently, there have been rumors of a person called the 'Bomb User' operating in the shadows. Louise, and you, familiar—surely you have heard of them?
+ 56 line=334  l   l_017        Yes — the other day the academy was attacked too, by someone who looked like the Bomb User.
+ 57 line=340  h   h_026        Is that so… Louise, did you see who that person was?
+ 58 line=345  l   l_018        Yes… But I could not see their face.
+ 59 line=350  h   h_027        That is unfortunate. We, for our part, are trying to identify the suspect and have conducted an investigation.
+ 60 line=355  h   h_028        As a result, we were able to narrow down the suspects from the characteristics of the perpetrator and the areas where the incidents occurred.
+ 61 line=360  s   s_007        Oh, that's quick. So we just need to find that culprit and bring them to you, right, Princess?
+ 62 line=365  l   l_019        Hey, don't just decide the story yourself!
+ 63 line=370  h   h_029        That's right. The gist of it is as the familiar says.
+ 64 line=375  h   h_030        The characteristics of the culprit are that they are relatively small and agile, and that they wore a robe draped over their entire head.
+ 65 line=380  h   h_031        So the intelligence agency believes the culprit is a small-statured boy.
+ 66 line=385  l   l_020        A boy… you say?
+ 67 line=390  h   h_032        This is just my own conjecture, but judging by the culprit's appearance, I also think they might be a woman.
+ 68 line=395  h   h_033        And so, when we cross-referenced the culprit's appearance with women, one person came to mind.
+ 69 line=400  s   s_008        Hmm-hmm.
+ 70 line=405  h   h_034        There are two characteristics for identifying the culprit. One is 'explosions.' And if it is a woman, then 'the girl with no chest.'
+ 71 line=410  l   l_021        W-what did you say!?
+ 72 line=415  h   h_035        N-no. I haven't said anything about you yet…
+ 73 line=420  s   s_009        Ahahahaha!! That's definitely Louise and no one else!
+ 74 line=425  l   l_022        To dare call your own master the culprit… What an impertinent dog you are!
+ 75 line=430  s   s_010        N-no, Louise. Calm down. Let's think about this a bit more.
+ 76 line=447  s   s_011        Louise is not the culprit.
+ 77 line=452  s   s_012        When the Bomb User appeared at the academy, Louise was with me. Louise has an alibi.
+ 78 line=460  h   h_036        I see. That is important testimony.
+ 79 line=473  s   s_013        The Bomb User is Louise. No mistake.
+ 80 line=478  h   h_037        What did you say!? Familiar, keep your jokes to yourself.
+ 81 line=486  s   s_014        Explosions and a chest. The only one who fits these conditions in all of Tristania is Louise.
+ 82 line=494  s   s_015        W-whoa… You've really done it now.
+ 83 line=499  l   l_023        Id-diot! Watch what you're saying! In front of Her Majesty!
+ 84 line=507  h   h_038        Louise, calm down. I believe in you.
+ 85 line=518  s   s_016        Isn't there any other information? With just this, we can't tell if it's Louise or someone else.
+ 86 line=523  l   l_024        It's not me!
+ 87 line=528  s   s_017        I know that.
+ 88 line=533  h   h_039        That's exactly right. It is as the familiar says.
+ 89 line=544  h   h_040        Louise, and you, familiar. I would like to ask the two of you to investigate and capture the Bomb User.
+ 90 line=549  l   l_025        There is no need to ask such a thing!
+ 91 line=554  l   l_026        As the third daughter of the House of La Vallière, Louise Françoise will bring the Bomb User before Your Majesty, in the name of the nobility.
+ 92 line=559  h   h_041        If this were truly the case, I would not wish to entrust such a dangerous task to my friend Louise…
+ 93 line=564  l   l_027        What a thing to say. We will surely meet Your Majesty's expectations.
+ 94 line=569  s   s_018        Your Majesty, please look forward to good news from us.
+ 95 line=574  h   h_042        My, how reassuring. I believe in the efforts of Louise and her familiar.
+ 96 line=584  h   h_043        Nn…!!
+ 97 line=589  l   l_028        Kyaah!!
+ 98 line=594  s   s_019        What!?
+ 99 line=599  s   s_020        Speaking of the devil… Is that it!
+100 line=604  l   l_029        Heh, this is perfect. Let's go, Saito! Your Majesty, please flee to a safe place!!
+101 line=609  h   h_044        Louise!!
+102 line=614  l   l_030        ……!?
+103 line=619  h   h_045        Louise. Promise me you won't do anything reckless.
+104 line=624  l   l_031        Of course. Now, quickly, to the back!!
+105 line=629  s   s_021        Derflinger, from here on it's our turn.
+106 line=635  d   d_001        You called, partner! Don't let your guard down, yeah?
+107 line=640  s   s_022        Louise, this way!
+108 line=645  l   l_032        H-hey! Wait a minute!
+109 line=650  l   l_033        Gh… Just you wait, Bomb User. I will definitely catch you!!

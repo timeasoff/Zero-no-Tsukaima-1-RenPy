@@ -12131,3 +12131,333 @@ translate russian strings:
 
     old "……{#ch4.4_x9872}"
     new "……"
+
+
+translate russian strings:
+
+    old "I wonder if the princess is doing well. It's been a while since we last saw each other like this, Louise."
+    new "Надеюсь, принцесса в порядке. Луиза, как давно мы так не виделись, а?"
+
+    old "Hey, Saito, be quiet. And don't call her 'the princess' so casually!"
+    new "Сайто, тише будь. И не называй её запросто «принцессой»!"
+
+    old "But isn't she already an acquaintance of ours?"
+    new "Ну, с принцессой мы уже как знакомые, вроде того."
+
+    old "You fool, that's extremely rude! The princess is now the queen who supports an entire nation!"
+    new "Дурак, ты безмерно невежлив! Её Высочество теперь королева, на которой держится целая страна!"
+
+    old "You may be my familiar, but to others you're a commoner. You must be more respectful!"
+    new "Ты мой фамильяр, но для всех остальных ты — простолюдин! Так что веди себя приличнее!"
+
+    old "Otherwise, you'll be charged with insulting the queen, and it will go badly for you!"
+    new "Иначе тебя за оскорбление королевы ждёт большая беда!"
+
+    old "Yeah, I know."
+    new "Ага, знаю я."
+
+    old "Ah, it's been so long! Louise Françoise."
+    new "Ну здравствуй, как же давно мы не виделись! Луиза Франсуаза!"
+
+    old "Your Majesty, I wish you good health."
+    new "Желаю Вашему Величеству здравия!"
+
+    old "Louise. You look as energetic as ever. Please, raise your head."
+    new "Луиза. Ты, как всегда, выглядишь бодро. Подними голову."
+
+    old "And here, let's not stand on ceremony. Can't you call me by my name as you did in the old days?"
+    new "И хватит тут церемониться. Обращайся ко мне, как в старые добрые времена, хорошо?"
+
+    old "Yes…."
+    new "Да…"
+
+    old "And your familiar here? He hasn't changed either, has he?"
+    new "И ваш фамильяр, кажется, тоже не изменился?"
+
+    old "Ah… yes. It is an honor to meet you again."
+    new "А… да. Мне очень приятно снова вас видеть."
+
+    old "And this woman here?"
+    new "И кто эта девушка?"
+
+    old "Yes, it is I. I am Siesta, a maid serving at the academy."
+    new "Да, это я. Меня зовут Сиеста — я служу горничной в Академии."
+
+    old "Um, well… This time I have brought her as my servant to the castle."
+    new "А-а, ну… на этот раз я привела её в замок как свою прислугу."
+
+    old "They call you Siesta? It's a pleasure to meet you."
+    new "Значит, вы Сиеста. Очень приятно."
+
+    old "And this other girl here… I don't often see a face like hers around here."
+    new "И ещё та девушка, что поодаль… Видеть её здесь — редкость, не так ли?"
+
+    old "Ah, um, this girl is…"
+    new "А-а, ну, она…"
+
+    old "Um… It is my first time meeting you. I am Haruna Takanagi."
+    new "Ну… Приятно познакомиться. Меня зовут Харуна Таканаги."
+
+    old "So you are Miss Takanagi Haruna. Are you perhaps the person from another world that the headmaster reported?"
+    new "Так вы Харуна Таканаги? Не вы ли та особа из иного мира, о которой доносил ректор?"
+
+    old "Regarding that, I will tell you everything now."
+    new "Что касается этого — сейчас я расскажу всё."
+
+    old "Princess. Please, calm down and lend me your ear."
+    new "Её Высочество, прошу вас, не волнуйтесь и выслушайте меня."
+
+    old "Very well, Louise. I will listen to your confession with an open heart."
+    new "Хорошо, Луиза. Я приму твою исповедь без предубеждений."
+
+    old "I see. I understand the general situation."
+    new "Понятно. В общих чертах мне всё ясно."
+
+    old "As the headmaster says, Takanagi Haruna was not summoned as a familiar…"
+    new "Как и говорил ректор, Харуна Таканаги не была призвана в качестве фамильяра…"
+
+    old "And the reason for that is still unknown, you say."
+    new "И причина этого до сих пор остаётся неизвестной, верно?"
+
+    old "Yes.{#ch4.5_d029}"
+    new "Да."
+
+    old "Very well. I will continue to entrust Takanagi Haruna's care to you, Louise Françoise."
+    new "Понятно. Заботу о Харуне Таканаги я по-прежнему полностью поручаю тебе, Луиза Франсуаза."
+
+    old "However, given the circumstances, I must forbid you to make it public that she came from another world."
+    new "Однако при таких обстоятельствах я запрещаю разглашать, что она пришла из иного мира."
+
+    old "There is a risk she may be exploited by those who harbor dark conspiracies."
+    new "Её могут использовать те, кто вынашивает недобрые козни."
+
+    old "Your Highness, please allow me to express my deepest gratitude for your understanding."
+    new "Глубоко благодарю Ваше Высочество за понимание."
+
+    old "Thank you, Your Majesty."
+    new "Спасибо вам, Ваше Величество."
+
+    old "Miss Haruna."
+    new "Харуна."
+
+    old "Yes.{#ch4.5_d036}"
+    new "Да?"
+
+    old "Life in another world right from the start. It may be difficult, but please do your best."
+    new "Сразу жизнь в чужом мире — наверное, непросто. Но постарайся."
+
+    old "As with this familiar of yours, the day will surely come when you can return."
+    new "Как и этот фамильяр — однажды настанет день, когда ты сможешь вернуться."
+
+    old "Thank you very much.{#ch4.5_d039}"
+    new "Большое спасибо."
+
+    old "I'm so relieved. Is everything settled now?"
+    new "Как же хорошо. Значит, всё наконец уладилось?"
+
+    old "Yeah, I guess so.{#ch4.5_d041}"
+    new "Ага, выходит так."
+
+    old "By the way, there is another reason I called you all here like this."
+    new "Кстати, я вызвала тебя, Луиза, неспроста — у этого есть и другая причина."
+
+    old "Eh… What do you mean!?"
+    new "Ээ…? Неужели?!"
+
+    old "I thought it was because of Haruna!"
+    new "Я-то думала, что вы вызываете меня из-за Харуны…"
+
+    old "No. This is the first I have heard of Miss Haruna."
+    new "Нет. О Харуне я услышала впервые, только сегодня."
+
+    old "What I am about to tell you is, in a sense, a grave problem."
+    new "То, о чём я собираюсь рассказать, — во многом серьёзная проблема."
+
+    old "What is this grave problem?"
+    new "И что это за серьёзная проблема?"
+
+    old "Saito! How many times must I tell you not to speak so familiarly!"
+    new "Вот опять ты, Сайто!! Я же только что говорила — не обращайся к ней так запросто!"
+
+    old "I am terribly sorry, Your Majesty. The fault is entirely mine as his master…"
+    new "Простите, Ваше Величество. За проделки моего фамильяра отвечаю я…"
+
+    old "Louise, it is fine. Let us speak."
+    new "Луиза, всё в порядке. Итак, давайте поговорим."
+
+    old "Miss Haruna, Miss Siesta. I am sorry, but could you please excuse us for a moment?"
+    new "Харуна, Сиеста. Простите, но не могли бы вы нас оставить ненадолго?"
+
+    old "Yes, of course."
+    new "Да, конечно."
+
+    old "Then, we will take our leave."
+    new "Тогда мы не будем мешать."
+
+    old "Now then, to the main topic."
+    new "Итак, перейдём к главному."
+
+    old "Recently, there have been rumors of a person called the 'Bomb User' operating in the shadows. Louise, and you, familiar—surely you have heard of them?"
+    new "В последнее время ходят слухи о некоем человеке по кличке «бомбист», действующем в тени. Луиза, ты и твой фамильяр — вы, должно быть, уже слышали о нём?"
+
+    old "Yes — the other day the academy was attacked too, by someone who looked like the Bomb User."
+    new "Да. На днях Академия тоже пострадала от какого-то похожего на бомбиста."
+
+    old "Is that so… Louise, did you see who that person was?"
+    new "Вот как… Луиза, ты видела, кто это был?"
+
+    old "Yes… But I could not see their face."
+    new "Да… Но лицо мне разглядеть не удалось."
+
+    old "That is unfortunate. We, for our part, are trying to identify the suspect and have conducted an investigation."
+    new "Жаль. Мы сами провели расследование, чтобы выйти на подозреваемого."
+
+    old "As a result, we were able to narrow down the suspects from the characteristics of the perpetrator and the areas where the incidents occurred."
+    new "В результате, опираясь на описание преступника и районы, где происходили нападения, удалось сузить круг подозреваемых."
+
+    old "Oh, that's quick. So we just need to find that culprit and bring them to you, right, Princess?"
+    new "Ну, тогда всё просто. Значит, надо отыскать этого преступника и привести к вам, верно, принцесса?"
+
+    old "Hey, don't just decide the story yourself!"
+    new "Эй, не подводи итоги самовольно!"
+
+    old "That's right. The gist of it is as the familiar says."
+    new "Да, в общих чертах фамильяр прав, однако…"
+
+    old "The characteristics of the culprit are that they are relatively small and agile, and that they wore a robe draped over their entire head."
+    new "Преступник невысокого роста, ловкий, и был целиком укутан в робу с головы."
+
+    old "So the intelligence agency believes the culprit is a small-statured boy."
+    new "Поэтому разведка полагает, что это маленький мальчик."
+
+    old "A boy… you say?"
+    new "Мальчик… вы говорите?"
+
+    old "This is just my own conjecture, but judging by the culprit's appearance, I also think they might be a woman."
+    new "Это лишь моё личное предположение, но, судя по описанию, это может быть и женщина."
+
+    old "And so, when we cross-referenced the culprit's appearance with women, one person came to mind."
+    new "Тогда, сопоставив описание преступника с женщинами, мы вышли на одного человека."
+
+    old "Hmm-hmm."
+    new "Угу-угу."
+
+    old "There are two characteristics for identifying the culprit. One is 'explosions.' And if it is a woman, then 'the girl with no chest.'"
+    new "Есть две приметы, по которым можно опознать преступника. Первая — «взрывы». Вторая, если это женщина, — «девушка без груди»."
+
+    old "M-me!?{#ch4.5_d071}"
+    new "Ч-что, я?!"
+
+    old "N-no. I haven't said anything about you yet…"
+    new "Н-нет. Я ещё ни слова не сказала про Луизу…"
+
+    old "Ahahahaha!! That's definitely Louise and no one else!"
+    new "Ахахахаха!! Да уж, это точно не может быть никто, кроме Луизы!"
+
+    old "To dare call your own master the culprit… What an impertinent dog you are!"
+    new "Г-г-господина моего назвать преступником… Какой же это неприличный пёс!"
+
+    old "N-no, Louise. Calm down. Let's think about this a bit more."
+    new "Н-нет, Луиза. Успокойся. Давай ещё немного подумаем."
+
+    old "Louise is not the culprit."
+    new "Луиза — не преступница."
+
+    old "When the Bomb User appeared at the academy, Louise was with me. Louise has an alibi."
+    new "Когда бомбист появился в Академии, Луиза была со мной. У неё есть алиби."
+
+    old "I see. That is important testimony."
+    new "Понятно. Это важные показания."
+
+    old "The Bomb User is Louise. No mistake."
+    new "Бомбист — это Луиза. Ошибки быть не может."
+
+    old "What did you say!? Familiar, keep your jokes to yourself."
+    new "Что вы сказали!? Фамильяр, хватит шутить."
+
+    old "Explosions and a chest. The only one who fits these conditions in all of Tristania is Louise."
+    new "Взрывы и грудь. Если искать по всей Тристании, обоими условиями обладает только Луиза."
+
+    old "W-whoa… I've really done it now."
+    new "У-ух… Я тут серьёзно вляпался."
+
+    old "Id-diot! Watch what you're saying! In front of Her Majesty!"
+    new "Х-хватит нести чушь! При Её Величестве!"
+
+    old "Louise, calm down. I believe in you."
+    new "Луиза, успокойся. Я тебе верю."
+
+    old "Isn't there any other information? With just this, we can't tell if it's Louise or someone else."
+    new "Нет ли больше сведений? С этого одного не понять — Луиза это или кто-то другой."
+
+    old "It's not me!"
+    new "Это не я!"
+
+    old "I know that.{#ch4.5_d087}"
+    new "Я это знаю."
+
+    old "That's exactly right. It is as the familiar says."
+    new "Именно так. Фамильяр говорит верно."
+
+    old "Louise, and you, familiar. I would like to ask the two of you to investigate and capture the Bomb User."
+    new "Луиза, и ты, фамильяр. Я прошу вас двоих разыскать и захватить бомбиста."
+
+    old "There is no need to ask such a thing!"
+    new "Какая просьба! Это просто смешно!"
+
+    old "As the third daughter of the House of La Vallière, Louise Françoise will bring the Bomb User before Your Majesty, in the name of the nobility."
+    new "Третья дочь герцогского дома де ла Вальер, Луиза Франсуаза, клянусь честью дворянства привести бомбиста к Вашему Высочеству!"
+
+    old "If this were truly the case, I would not wish to entrust such a dangerous task to my friend Louise…"
+    new "Если бы это было правдой, я бы не стала поручать столь опасное дело подруге Луизе…"
+
+    old "What a thing to say. We will surely meet Your Highness's expectations."
+    new "Вы слишком добры. Я непременно оправдаю ожидания Вашего Высочества."
+
+    old "Princess, just you wait for our good news."
+    new "Принцесса, только жди от нас добрых вестей!"
+
+    old "My, how reassuring. I believe in the efforts of Louise and her familiar."
+    new "Как приятно. Я верю в старания Луизы и её фамильяра."
+
+    old "Nn…!!"
+    new "Нн…!!"
+
+    old "Kyaah!!"
+    new "А-а!!"
+
+    old "What!?{#ch4.5_d098}"
+    new "Что такое!?"
+
+    old "Speaking of the devil… Is that it!"
+    new "Стоит заговорить о чёрте — как он тут как тут!"
+
+    old "Heh, this is perfect. Let's go, Saito! Your Highness, please flee to a safe place!!"
+    new "Хех, превосходно. Пойдём, Сайто!! Её Высочество, бегите в безопасное место!!"
+
+    old "Louise!!{#ch4.5_d101}"
+    new "Луиза!!"
+
+    old "……!?"
+    new "……!?"
+
+    old "Louise. Promise me you won't do anything reckless."
+    new "Луиза. Пообещай мне, что не будешь форсировать."
+
+    old "Of course. Now, quickly, to the back!!"
+    new "Разумеется! Быстрее, внутрь!!"
+
+    old "Derflinger, from here on it's our turn."
+    new "Дельф, дальше наша очередь."
+
+    old "You called, partner! Don't let your guard down, yeah?"
+    new "Ну и полезли, партнёр! Только не расслабляйся, а?"
+
+    old "Louise, this way!"
+    new "Луиза, сюда!"
+
+    old "H-hey! Wait a minute!"
+    new "Э… Эй, постой-ка!"
+
+    old "Gh… Just you wait, Bomb User. I will definitely catch you!!"
+    new "Кхх… Этот бомбист… ещё пожалеет! Я его обязательно поймаю!!"

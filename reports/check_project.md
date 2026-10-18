@@ -6,7 +6,7 @@
 
 ## ERROR (1)
 
-- E7 jump 'ch4_5' at game/chapters/4/script-ch4_4.rpy:358 has no label
+- E7 jump 'ch4_6' at game/chapters/4/script-ch4_5.rpy:661 has no label
 
 ## WARNING (289)
 
@@ -304,8 +304,8 @@
 
 - speakers defined: 33
 - overlay K: max=10 used=10 next_free=11
-- voices: refs=4055 ogg=4061 missing=0
-- I1 ch4: strings=719 source_talk=1072 (gap expected)
+- voices: refs=4164 ogg=4170 missing=0
+- I1 ch4: strings=838 source_talk=1072 (gap expected)
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
@@ -330,6 +330,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=77 in 7 file(s)
-- labels=259 rpy=72 strings(strict=4608) tl_old=japanese:5098,russian:5125
+- image map: ids=312 named=148 open=164 | placeholders=103 in 8 file(s)
+- labels=264 rpy=73 strings(strict=4727) tl_old=japanese:5217,russian:5244
 

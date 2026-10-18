@@ -880,3 +880,15 @@ translate russian strings:
 
     old "What do you think, Siesta?{#ch4.4_c1377c}"
     new "А что думаешь ты, Сиеста?"
+
+
+translate russian strings:
+
+    old "The Bomb User isn't Louise.{#ch4.5_c256a}"
+    new "Бомбист — не Луиза"
+
+    old "The Bomb User is Louise.{#ch4.5_c256b}"
+    new "Бомбист — это Луиза"
+
+    old "Is there other information?{#ch4.5_c256c}"
+    new "Есть ли ещё сведения?"

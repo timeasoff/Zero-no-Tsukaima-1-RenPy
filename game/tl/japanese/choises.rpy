@@ -886,3 +886,15 @@ translate japanese strings:
 
     old "What do you think, Siesta?{#ch4.4_c1377c}"
     new "シエスタはどう思う？"
+
+
+translate japanese strings:
+
+    old "The Bomb User isn't Louise.{#ch4.5_c256a}"
+    new "爆弾使いはルイズじゃない"
+
+    old "The Bomb User is Louise.{#ch4.5_c256b}"
+    new "爆弾使いはルイズだ"
+
+    old "Is there other information?{#ch4.5_c256c}"
+    new "他に情報は？"

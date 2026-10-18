@@ -12125,3 +12125,333 @@ translate japanese strings:
 
     old "……{#ch4.4_x9872}"
     new "……。"
+
+
+translate japanese strings:
+
+    old "I wonder if the princess is doing well. It's been a while since we last saw each other like this, Louise."
+    new "お姫さま、元気にしてるかなぁ～。ルイズ、こうして会うのも、なんか久しぶりだよなぁ。"
+
+    old "Hey, Saito, be quiet. And don't call her 'the princess' so casually!"
+    new "ちょっとサイトっ、静かにしなさいよ。それに姫さまって気安く呼ぶんじゃないの！"
+
+    old "But isn't she already an acquaintance of ours?"
+    new "お姫さまとは、もう知り合いみたいなもんじゃないか。"
+
+    old "You fool, that's extremely rude! The princess is now the queen who supports an entire nation!"
+    new "バカっ、あんたすっごく失礼よっ！姫さまは今や、一国を支える女王陛下なのよ？"
+
+    old "You may be my familiar, but to others you're a commoner. You must be more respectful!"
+    new "わたしの使い魔だからといっても、ほかの人から見ればサイトは平民なんだから。もっと態度を慎みなさいっ！"
+
+    old "Otherwise, you'll be charged with insulting the queen, and it will go badly for you!"
+    new "でないと、女王を侮辱した罪で大変なことになるわよ？"
+
+    old "Yeah, I know."
+    new "ああ、分かってるって。"
+
+    old "Ah, it's been so long! Louise Françoise."
+    new "ああっ、久しぶりねっ！ルイズ・フランソワーズ。"
+
+    old "Your Majesty, I wish you good health."
+    new "女王陛下にはご機嫌うるわしゅう。"
+
+    old "Louise. You look as energetic as ever. Please, raise your head."
+    new "ルイズ。あなたも、相変わらず元気そうですね。顔をあげてください。"
+
+    old "And here, let's not stand on ceremony. Can't you call me by my name as you did in the old days?"
+    new "それに、ここでは堅苦しいことはやめて。昔のように気軽に呼びかけてくれないかしら？"
+
+    old "Yes…."
+    new "はい……。"
+
+    old "And your familiar here? He hasn't changed either, has he?"
+    new "そちらの使い魔さんも、変わらないようですね？"
+
+    old "Ah… yes. It is an honor to meet you again."
+    new "あっ……はい。またお会いすることができて、光栄です。"
+
+    old "And this woman here?"
+    new "それと、そちらの女性は？"
+
+    old "Yes, it is I. I am Siesta, a maid serving at the academy."
+    new "はい、わたくし。魔法学院で給仕を務めております、シエスタと申します。"
+
+    old "Um, well… This time I have brought her as my servant to the castle."
+    new "あ、あの……。今回はわたしの給仕としてこの城へと連れてきています。"
+
+    old "They call you Siesta? It's a pleasure to meet you."
+    new "シエスタさんとおっしゃるのね、どうぞよろしく。"
+
+    old "And this other girl here… I don't often see a face like hers around here."
+    new "それと、もうひとかたの彼女は……。あまりこの辺では見かけない顔立ちのようですけど？"
+
+    old "Ah, um, this girl is…"
+    new "あ、あのっ、彼女は……。"
+
+    old "Um… It is my first time meeting you. I am Haruna Takanagi."
+    new "あのっ……。初めてお目にかかります。わたくし、高凪　春奈と申します。"
+
+    old "So you are Miss Takanagi Haruna. Are you perhaps the person from another world that the headmaster reported?"
+    new "タカナギハルナさんとおっしゃるのですね。学院長から報告のあった、異世界から来られた方なのかしら？"
+
+    old "Regarding that, I will tell you everything now."
+    new "その事については、これよりわたしがすべてをお話しいたします。"
+
+    old "Princess. Please, calm down and lend me your ear."
+    new "姫さま。どうか落ち着いて耳をお傾けください。"
+
+    old "Very well, Louise. I will listen to your confession with an open heart."
+    new "分かりました、ルイズ。あなたの告白を、素直に受けとめましょう。"
+
+    old "I see. I understand the general situation."
+    new "なるほど、大体のことは分かりました。"
+
+    old "As the headmaster says, Takanagi Haruna was not summoned as a familiar…"
+    new "学院長のおっしゃるとおり、タカナギハルナは使い魔としては召喚されておらず……、"
+
+    old "And the reason for that is still unknown, you say."
+    new "その理由は未だ分かってないというのですね。"
+
+    old "Yes.{#ch4.5_d029}"
+    new "はい。"
+
+    old "Very well. I will continue to entrust Takanagi Haruna's care to you, Louise Françoise."
+    new "分かりました。タカナギハルナの身柄は、引き続きこのルイズ・フランソワーズに一任します。"
+
+    old "However, given the circumstances, I must forbid you to make it public that she came from another world."
+    new "ただし、事情が事情ですので、異世界から来たことを公にすることは禁じます。"
+
+    old "There is a risk she may be exploited by those who harbor dark conspiracies."
+    new "よからぬ陰謀を抱く人達に利用されるかもしれませんから。"
+
+    old "Your Highness, please allow me to express my deepest gratitude for your understanding."
+    new "姫さまにご理解を頂けましたことを、深く感謝いたします。"
+
+    old "Thank you, Your Majesty."
+    new "女王様、ありがとうございます。"
+
+    old "Miss Haruna."
+    new "ハルナさん。"
+
+    old "Yes.{#ch4.5_d036}"
+    new "はい。"
+
+    old "Life in another world right from the start. It may be difficult, but please do your best."
+    new "いきなり異世界での生活。大変かもしれませんが、頑張ってください。"
+
+    old "As with this familiar of yours, the day will surely come when you can return."
+    new "この使い魔さん同様、いつか帰れる日が来るはずです。"
+
+    old "Thank you very much.{#ch4.5_d039}"
+    new "ありがとうございます。"
+
+    old "I'm so relieved. Is everything settled now?"
+    new "良かったですね。これで無事解決でしょうか？"
+
+    old "Yeah, I guess so.{#ch4.5_d041}"
+    new "ああ、そうだな。"
+
+    old "By the way, there is another reason I called you all here like this."
+    new "ところで、ルイズのことをこうしてわざわざ呼び出したのには、別の理由があります。"
+
+    old "Eh… What do you mean!?"
+    new "えっ……。そうなのですかっ！？"
+
+    old "I thought it was because of Haruna!"
+    new "わたしはてっきり、ハルナの事で呼ばれたのかとばかり……。"
+
+    old "No. This is the first I have heard of Miss Haruna."
+    new "いいえ。ハルナさんのことは今日初めて知りました。"
+
+    old "What I am about to tell you is, in a sense, a grave problem."
+    new "これからお話しすることは、ある意味、深刻な問題です。"
+
+    old "What is this grave problem?"
+    new "その深刻な問題って何ですか？"
+
+    old "Saito! How many times must I tell you not to speak so familiarly!"
+    new "もぉ、サイトったらっ！！気安く話しかけちゃ駄目って言ったばっかりでしょ？"
+
+    old "I am terribly sorry, Your Majesty. The fault is entirely mine as his master…"
+    new "すみません女王陛下。使い魔の不始末はこのルイズが……。"
+
+    old "Louise, it is fine. Let us speak."
+    new "ルイズ、いいのです。では、お話しましょう。"
+
+    old "Miss Haruna, Miss Siesta. I am sorry, but could you please excuse us for a moment?"
+    new "ハルナさん、シエスタさん。すみませんが、席をはずしてくださいませんか？"
+
+    old "Yes, of course."
+    new "はい、分かりました。"
+
+    old "Then, we will take our leave."
+    new "それでは、失礼いたします。"
+
+    old "Now then, to the main topic."
+    new "では、本題に入ります。"
+
+    old "Recently, there have been rumors of a person called the 'Bomb User' operating in the shadows. Louise, and you, familiar—surely you have heard of them?"
+    new "ここ最近、「爆弾使い」と呼ばれる人物が暗躍をしているという話。ルイズや使い魔さんなら、もうご存じかしら？"
+
+    old "Yes — the other day the academy was attacked too, by someone who looked like the Bomb User."
+    new "はい、それなら先日も魔法学院が、爆弾使いと思わしき人物の被害にあいました。"
+
+    old "Is that so… Louise, did you see who that person was?"
+    new "そうですか……。ルイズは、その人物が誰かを見たのですか？"
+
+    old "Yes… But I could not see their face."
+    new "はい……。けれども顔を見ることはできませんでした。"
+
+    old "That is unfortunate. We, for our part, are trying to identify the suspect and have conducted an investigation."
+    new "それは残念です。我々としても容疑者を割り出すべく、調査を行いました。"
+
+    old "As a result, we were able to narrow down the suspects from the characteristics of the perpetrator and the areas where the incidents occurred."
+    new "その結果、犯人の特徴とその被害の発生している地域から、可能性のある人物を割り出す事ができたのです。"
+
+    old "Oh, that's quick. So we just need to find that culprit and bring them to you, right, Princess?"
+    new "なんだ、そいつは話が早いや。その犯人を俺達で捜し出して、連れてくればいいってことだな、お姫さまっ？"
+
+    old "Hey, don't just decide the story yourself!"
+    new "こら、勝手に話をまとめるんじゃないわよっ！"
+
+    old "That's right. The gist of it is as the familiar says."
+    new "そうですね。大筋は使い魔さんの言うとおりなのですが。"
+
+    old "The characteristics of the culprit are that they are relatively small and agile, and that they wore a robe draped over their entire head."
+    new "犯人の特徴は、比較的小柄ですばしっこく、頭からローブをすっぽりかぶっていたという事です。"
+
+    old "So the intelligence agency believes the culprit is a small-statured boy."
+    new "そこで諜報部は、犯人は小柄な少年と見ているようなのです。"
+
+    old "A boy… you say?"
+    new "少年……ですか？"
+
+    old "This is just my own conjecture, but judging by the culprit's appearance, I also think they might be a woman."
+    new "これはわたくしの勝手な考えなのですが。その犯人の容姿からみて、もしかすると女性なのではないかとも考えています。"
+
+    old "And so, when we cross-referenced the culprit's appearance with women, one person came to mind."
+    new "そこで、犯人の容姿を女性に照らし合わせて浮かび上がった人物がいたのです。"
+
+    old "Hmm-hmm."
+    new "ふんふん。"
+
+    old "There are two characteristics for identifying the culprit. One is 'explosions.' And if it is a woman, then 'the girl with no chest.'"
+    new "犯人を特定するための特徴は２つあります。ひとつは「爆発」。そして、女性だとすると「胸のない少女」。"
+
+    old "M-me!?{#ch4.5_d071}"
+    new "わっ、わたしですって！？"
+
+    old "N-no. I haven't said anything about you yet…"
+    new "い、いえ。まだ、ルイズとは一言も……。"
+
+    old "Ahahahaha!! That's definitely Louise and no one else!"
+    new "あっはははははははははっ……！！そいつは確かに、ルイズの他には考えられないな。"
+
+    old "To dare call your own master the culprit… What an impertinent dog you are!"
+    new "ごごごご主人様の事を、犯人呼ばわりするだなんて、なんて不謹慎な犬なのかしらっ！"
+
+    old "N-no, Louise. Calm down. Let's think about this a bit more."
+    new "い、いや、ルイズ。ちょっと落ち着け。もう少し考えてみようぜ。"
+
+    old "Louise is not the culprit."
+    new "ルイズは犯人じゃありません。"
+
+    old "When the Bomb User appeared at the academy, Louise was with me. Louise has an alibi."
+    new "爆弾使いが学院に現れた時、ルイズと一緒にいました。ルイズにはアリバイがあります。"
+
+    old "I see. That is important testimony."
+    new "なるほど。それは重要な証言ですね。"
+
+    old "The Bomb User is Louise. No mistake."
+    new "爆弾使いはルイズですね。まちがいありません。"
+
+    old "What did you say!? Familiar, keep your jokes to yourself."
+    new "なんですって？使い魔さん、冗談はここだけにしてください。"
+
+    old "Explosions and a chest. The only one who fits these conditions in all of Tristania is Louise."
+    new "爆発に胸。この条件がそろってるのは、トリスタニアを探してもルイズしかいません。"
+
+    old "W-whoa… I've really done it now."
+    new "う、うぉ……。まじに入れてきたな。"
+
+    old "Id-diot! Watch what you're saying! In front of Her Majesty!"
+    new "ば、ば、バカなことを言うのも大概にしなさい。女王陛下の御前よ。"
+
+    old "Louise, calm down. I believe in you."
+    new "ルイズ、落ち着いて。わたくしは信じているわ。"
+
+    old "Isn't there any other information? With just this, we can't tell if it's Louise or someone else."
+    new "他に情報はないんですか？これだけでは、ルイズのことなのか、他の人のことなのか分かりませんよ。"
+
+    old "It's not me!"
+    new "わたしじゃないわよ。"
+
+    old "I know that.{#ch4.5_d087}"
+    new "それは分かってるって。"
+
+    old "That's exactly right. It is as the familiar says."
+    new "まさにそうですね。使い魔さんのおっしゃるとおりです。"
+
+    old "Louise, and you, familiar. I would like to ask the two of you to investigate and capture the Bomb User."
+    new "ルイズ、そして使い魔さん。２人に、爆弾使いの調査、確保をお願いしたいと思います。"
+
+    old "There is no need to ask such a thing!"
+    new "お願いだなんて、とんでもありません。"
+
+    old "As the third daughter of the House of La Vallière, Louise Françoise will bring the Bomb User before Your Majesty, in the name of the nobility."
+    new "ラ・ヴァリエール公爵家が三女、ルイズ・フランソワーズが、貴族の名にかけて爆弾使いを姫さまの御前に連れてまいります。"
+
+    old "If this were truly the case, I would not wish to entrust such a dangerous task to my friend Louise…"
+    new "本当でしたらこんな危険な事を、友人であるルイズなどには頼みたくないのですが。"
+
+    old "What a thing to say. We will surely meet Your Highness's expectations."
+    new "もったいないお言葉です。必ず、姫さまのご期待にお応えいたします。"
+
+    old "Princess, just you wait for our good news."
+    new "お姫さまは、俺達の吉報を楽しみに待っていてください。"
+
+    old "My, how reassuring. I believe in the efforts of Louise and her familiar."
+    new "まぁ、頼もしいですわ。ルイズと使い魔さんの働き、信じていますよ。"
+
+    old "Nn…!!"
+    new "んぅ……！！"
+
+    old "Kyaah!!"
+    new "きゃあっ！！"
+
+    old "What!?{#ch4.5_d098}"
+    new "何ぃ！？"
+
+    old "Speaking of the devil… Is that it!"
+    new "噂をすれば影がさす……とは、この事か！"
+
+    old "Heh, this is perfect. Let's go, Saito! Your Highness, please flee to a safe place!!"
+    new "ふふっ、上等じゃない。行くわよ、サイトっ！！姫さまは、安全なところに逃げてくださいっ！！"
+
+    old "Louise!!{#ch4.5_d101}"
+    new "ルイズっ！！"
+
+    old "……!?"
+    new "……っ！？"
+
+    old "Louise. Promise me you won't do anything reckless."
+    new "ルイズ。無理だけはしないと約束してね。"
+
+    old "Of course. Now, quickly, to the back!!"
+    new "もちろんですとも。さあ、早く奥へっ！！"
+
+    old "Derflinger, from here on it's our turn."
+    new "デルフ、ここからは俺達の出番だ。"
+
+    old "You called, partner! Don't let your guard down, yeah?"
+    new "ノって来たな、相棒っ！油断するんじゃねぇぜ？"
+
+    old "Louise, this way!"
+    new "ルイズっ、こっちだっ！"
+
+    old "H-hey! Wait a minute!"
+    new "ちょ……。ちょっと、待ちなさいよ！"
+
+    old "Gh… Just you wait, Bomb User. I will definitely catch you!!"
+    new "くっ……爆弾使いのヤツ、今に見てなさい。絶対に捕まえてやるんだからっ！！"

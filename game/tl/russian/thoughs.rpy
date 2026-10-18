@@ -880,3 +880,27 @@ translate russian strings:
 
     old "Well, we're not going to be doing anything in particular here either, so for now—let's move along."
     new "Ну, делать тут всё равно нечего, так что пока — двинемся дальше."
+
+
+translate russian strings:
+
+    old "The appointed time had come, and we set foot in the palace where the princess awaited us."
+    new "Настало назначенное время — и мы ступили во дворец, где нас ждала принцесса."
+
+    old "Come to think of it, the last time was when the war ended…"
+    new "Если подумать, в последний раз мы виделись, когда закончилась война…"
+
+    old "In the end, we never got to test whether the way back to our world was real or not."
+    new "В итоге так и не удалось проверить, настоящий ли это способ вернуться в наш мир."
+
+    old "Well, we'll find another way someday."
+    new "Ну, другой способ со временем тоже найдётся."
+
+    old "………………{#ch4.5_null_a}"
+    new "………………"
+
+    old "Haruna seemed a bit anxious, but the two of them bowed deeply and left the audience chamber, escorted by the attendants."
+    new "Харуна выглядела немного встревоженной, но обе поклонились в пояс и под конвоем придворных покинули зал аудиенции."
+
+    old "Suddenly, a loud explosion was heard."
+    new "Вдруг раздался оглушительный взрыв."

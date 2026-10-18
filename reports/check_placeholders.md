@@ -1,8 +1,8 @@
 # Проверка заглушек
 
-Дата: 2026-10-17 18:52
+Дата: 2026-10-18 06:54
 
-## WARNING (18)
+## WARNING (26)
 
 - [WARNING] game\chapters\4\script-ch4_2.rpy:636: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv
 - [WARNING] game\chapters\4\script-ch4_2.rpy:641: ID_UNNAMED — id(120) — filename не заполнен в image_id_map.csv
@@ -21,7 +21,15 @@
 - [WARNING] game\chapters\4\script-ch4_3.rpy:572: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv
 - [WARNING] game\chapters\4\script-ch4_3.rpy:622: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv
 - [WARNING] game\chapters\4\script-ch4_3.rpy:639: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv
-- [WARNING] game\chapters\4\script-ch4_4.rpy:49: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_4.rpy:50: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:39: ID_UNNAMED — id(63) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:86: ID_UNNAMED — id(36) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:96: ID_UNNAMED — id(206) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:108: ID_UNNAMED — id(207) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:118: ID_UNNAMED — id(36) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:182: ID_UNNAMED — id(36) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:256: ID_UNNAMED — id(36) — filename не заполнен в image_id_map.csv
+- [WARNING] game\chapters\4\script-ch4_5.rpy:321: ID_UNNAMED — id(36) — filename не заполнен в image_id_map.csv
 
 ## INFO (1)
 

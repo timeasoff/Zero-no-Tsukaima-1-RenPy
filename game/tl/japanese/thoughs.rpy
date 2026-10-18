@@ -885,3 +885,27 @@ translate japanese strings:
 
     old "Well, we're not going to be doing anything in particular here either, so for now—let's move along."
     new "（まぁ、何をするわけでもないし、　とりあえず、移動しますか）"
+
+
+translate japanese strings:
+
+    old "The appointed time had come, and we set foot in the palace where the princess awaited us."
+    new "（集合時間になったので、　俺達はお姫さまの待つ宮殿へと　足を踏み入れた）"
+
+    old "Come to think of it, the last time was when the war ended…"
+    new "（考えてみればそうだ。　戦争が終わった時に会ったのが最後か……）"
+
+    old "In the end, we never got to test whether the way back to our world was real or not."
+    new "（結局、元の世界に戻る方法ってやつが　本当だったのかどうか、試すことが　できなかったわけだけど）"
+
+    old "Well, we'll find another way someday."
+    new "（まぁ、他の方法もいつかは見つかるよな）"
+
+    old "………………{#ch4.5_null_a}"
+    new "………。……。…。"
+
+    old "Haruna seemed a bit anxious, but the two of them bowed deeply and left the audience chamber, escorted by the attendants."
+    new "（春奈はちょっと不安そうだったけど、　２人は深く礼をすると、　臣下に連れられて謁見の間を去っていった）"
+
+    old "Suddenly, a loud explosion was heard."
+    new "（突然、激しい爆発音が聞こえてきた）"
