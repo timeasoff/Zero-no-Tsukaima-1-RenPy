@@ -65,3 +65,7 @@ __pycache__/
 !/ps2_source/images/bg/.gitkeep
 !/ps2_source/images/cg/.gitkeep
 !/ps2_source/images/chara/.gitkeep
+
+# Временные файлы devcontainer-окружения
+/.tmp/
+.devcontainer

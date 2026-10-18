@@ -1,4 +1,78 @@
 {
   "version": 1,
-  "tasks": []
+  "tasks": [
+    {
+      "id": "T20261018-075024-8aff",
+      "created": "2026-10-18 07:50:24",
+      "request": "Продолжить перевод главы 4 (chapter_05, トリスタニアの危機): часть 6 script-ch4_6.rpy - финал основной линии сцены 261-268 + решение по extra-блоку 1084-1103 (резка 3)",
+      "target": "4_6",
+      "status": "open",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "4_6",
+          "scope": "part",
+          "title": "Часть 6: порт сцен 261-268 + границы extra-блока 1084-1103",
+          "status": "pending",
+          "created": "2026-10-18 07:50:24",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S2",
+          "kind": "prompt",
+          "prompt": "voice-work",
+          "target": "4_6",
+          "scope": "part",
+          "title": "Голоса части 6: манифест + ogg",
+          "status": "pending",
+          "created": "2026-10-18 07:50:24",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S3",
+          "kind": "prompt",
+          "prompt": "full-audit",
+          "target": "4_6",
+          "scope": "part",
+          "title": "Полный аудит части 6",
+          "status": "pending",
+          "created": "2026-10-18 07:50:24",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S4",
+          "kind": "manual",
+          "prompt": "",
+          "target": "4_6",
+          "scope": "part",
+          "title": "Финальные проверки и отчёт части 6",
+          "status": "pending",
+          "created": "2026-10-18 07:50:24",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Прогнать tools/check_project.py до RESULT: OK; написать отчёт reports/ch4/6.md; обновить reports/translation_plan.md и reports/log.md"
+        }
+      ]
+    }
+  ]
 }

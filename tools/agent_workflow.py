@@ -506,9 +506,23 @@ def resolve_chapter(raw: str) -> Chapter:
 
     Для цели-папки - первая по порядку часть; пустая папка главы - первая
     часть к созданию (режим first-launch новой главы). Несуществующая часть
-    вида N_M отклоняется резолвером с перечнем доступных файлов.
+    вида N_M при существующей папке главы - часть к созданию (режим port-part
+    очередной части: файла ещё нет, имя и границы детерминированы); цель
+    без совпадения шаблона N_M и любые прочие цели по-прежнему отклоняются
+    резолвером с перечнем доступных файлов.
     """
-    t = targets.resolve_target(Path(ROOT), raw)
+    try:
+        t = targets.resolve_target(Path(ROOT), raw)
+    except targets.TargetError:
+        m = re.fullmatch(r"(\d+)_([A-Za-z0-9]+)", (raw or "").strip())
+        if m:
+            folder = Path(ROOT) / "game" / "chapters" / m.group(1)
+            if folder.is_dir() and not any(folder.glob(
+                    f"script-ch{m.group(1)}_{m.group(2)}.rpy")):
+                say(f"  Часть {m.group(1)}_{m.group(2)} ещё не создана - "
+                    f"цель к созданию (port-part новой части).")
+                return Chapter(chapter=m.group(1), part=m.group(2))
+        raise
     if not t.files:
         # Глава без файлов: первая часть к созданию.
         return _next_part_synthetic(
