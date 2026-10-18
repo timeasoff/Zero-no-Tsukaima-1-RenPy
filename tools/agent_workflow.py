@@ -3513,17 +3513,27 @@ def generate_prompt(info: PromptInfo, ch: Chapter) -> str:
     return text.strip() if isinstance(text, str) else ""
 
 
-def save_prompt_to_file(text: str) -> str:
-    """Сохранить промпт в agent_prompt.md (UTF-8) и вернуть путь.
+def save_prompt_to_file(text: str, path: str | None = None) -> str:
+    """Сохранить промпт в файл (UTF-8) и вернуть путь.
 
-    Файл в корне проекта, в .gitignore; перезаписывается при каждой генерации.
+    По умолчанию - agent_prompt.md в корне проекта (в .gitignore,
+    перезаписывается при каждой генерации). Свой путь (path) используется
+    оркестратором задач (tools/task_board.py, скилл task-orchestrator):
+    у каждого субагента свой файл промпта, параллельные запуски не затирают
+    друг друга. Родительские каталоги создаются автоматически.
     В консоль текст промпта НЕ выводится - только путь.
     """
-    with open(PROMPT_FILE, "w", encoding="utf-8", newline="\n") as fh:
+    target = path or PROMPT_FILE
+    if not os.path.isabs(target):
+        target = os.path.join(ROOT, target.replace("\\", "/"))
+    parent = os.path.dirname(target)
+    if parent:
+        os.makedirs(parent, exist_ok=True)
+    with open(target, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(text)
         if not text.endswith("\n"):
             fh.write("\n")
-    return PROMPT_FILE
+    return target
 
 
 def copy_to_clipboard(text: str) -> bool:
@@ -4150,8 +4160,11 @@ USAGE = """\
       Печатает id и названия всех PROMPTS и ACTIONS.
 
   python tools/agent_workflow.py --prompt <id> [--chapter ЦЕЛЬ] [--part M]
-                                 [--scope part|chapter]
-      Генерирует промпт и сохраняет его в agent_prompt.md (корень проекта).
+                                 [--scope part|chapter] [--out ПУТЬ]
+      Генерирует промпт и сохраняет его в agent_prompt.md (корень проекта)
+      либо в файл из --out (для субагентов: свой файл на каждое задание,
+      параллельные генерации не затирают друг друга; см. скилл
+      task-orchestrator и tools/task_board.py).
       В консоль выводится ТОЛЬКО путь к файлу, текст промпта не печатается.
 
   python tools/agent_workflow.py --action <id> [--chapter ЦЕЛЬ] [--part M]
@@ -4205,7 +4218,7 @@ def parse_cli(argv: list[str]) -> dict | int:
     """Разобрать аргументы CLI. Возвращает словарь опций либо 2 - ошибка."""
     options: dict = {
         "prompt": None, "action": None, "chapter": None, "part": None,
-        "scope": SCOPE_PART,
+        "scope": SCOPE_PART, "out": None,
         "apply": False, "list": False, "self_test": False,
     }
     index = 0
@@ -4239,12 +4252,20 @@ def parse_cli(argv: list[str]) -> dict | int:
                     f"{value}")
                 return 2
             continue
-        if arg in ("--prompt", "--action", "--chapter", "--part"):
+        if arg in ("--prompt", "--action", "--chapter", "--part", "--out"):
             if index >= len(argv):
                 say(f"  После {arg} ожидается значение.")
                 return 2
             value = argv[index]
             index += 1
+            if arg == "--out":
+                # путь к файлу промпта (относительно корня проекта либо
+                # абсолютный; прямые слэши) - для параллельных субагентов,
+                # чтобы не затирать общий agent_prompt.md
+                if not re.fullmatch(r"[A-Za-z0-9_./\\-]+", value):
+                    say("  --out ожидает простой путь к файлу (латиница, "
+                        "цифры, _.-): например reports/tasks/prompts/S1.md")
+                    return 2
             if arg == "--part":
                 # часть свободно: цифры, буквенный суффикс (4b) или имя
                 # файла extra (sp_l1)
@@ -4336,8 +4357,13 @@ def cli_resolve_chapter(options: dict) -> Chapter | int:
     return ch
 
 
-def cli_prompt(prompt_id: str, ch: Chapter) -> int:
-    """Сгенерировать промпт и напечатать ТОЛЬКО путь файла."""
+def cli_prompt(prompt_id: str, ch: Chapter, out: str | None = None) -> int:
+    """Сгенерировать промпт и напечатать ТОЛЬКО путь файла.
+
+    out - свой путь файла промпта (по умолчанию agent_prompt.md);
+    оркестратор передаёт reports/tasks/prompts/<task>_<sub>.md, чтобы
+    параллельные субагенты не затирали чужие задания.
+    """
     info = next((p for p in PROMPTS if p.id == prompt_id), None)
     if info is None:
         say(f"  Неизвестный id промпта: {prompt_id}")
@@ -4354,7 +4380,7 @@ def cli_prompt(prompt_id: str, ch: Chapter) -> int:
     if not text:
         say("  Генератор не задан - промпт не создан.")
         return 1
-    say(save_prompt_to_file(text))
+    say(save_prompt_to_file(text, out))
     return 0
 
 
@@ -4386,7 +4412,7 @@ def main(argv: list[str] | None = None) -> int:
         ch = cli_resolve_chapter(options)
         if isinstance(ch, int):
             return ch
-        return cli_prompt(str(options["prompt"]), ch)
+        return cli_prompt(str(options["prompt"]), ch, options.get("out"))
     if options["action"]:
         ch = cli_resolve_chapter(options)
         if isinstance(ch, int):

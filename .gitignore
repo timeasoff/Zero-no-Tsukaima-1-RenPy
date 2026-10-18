@@ -54,6 +54,10 @@ __pycache__/
 /wav_files
 /unused_resourses
 
+# Генерируемые промпты субагентов (task-orchestrator): пересоздаются
+# командой agent_workflow.py --out, состояние живёт в task_board.json
+/reports/tasks/prompts/
+
 # ps2_source/images: в git только каркас папок (.gitkeep), исходные картинки — нет
 /ps2_source/images/bg/*
 /ps2_source/images/cg/*

@@ -177,6 +177,16 @@ game/tl/russian/<bucket>.rpy             ← translate russian strings:  old "EN
 7. Прогнать `python tools/check_project.py` и закрыть чек-лист `project-checks`.
 8. Написать отчёт `reports/ch<N>/<part>.md`; решения/сомнения — в `reports/log.md`.
 
+**Задача свободной формы** («проверка главы 3 целиком», «проверка чанков 3_2 и 3_5»,
+«продолжи перевод главы 4», комбинированные запросы) выполняется через скилл
+`task-orchestrator`: ведущий агент декомпозирует задачу на подзадачи и ведёт их на
+доске `reports/task_board.json` (`python tools/task_board.py status` — первый шаг
+любой сессии), субагентов запускает промптами `agent_workflow.py --out`. Готовность
+подзадачи определяется по диску (result-маркер субагента), а не по словам;
+обрыв связи со субагентом восстанавливается командой `check` (продолжение той же
+сессии по `sessionID`). Порядок работы над частью ниже остаётся рабочим процессом
+каждого субагента.
+
 **Очередность порции для git:** `script-ch<N>_<M>.rpy` + `tl/japanese/*` + `tl/russian/*` +
 `transcriptions_ja_ru.csv` + `reports/*` — один коммит = одна порция (см. «Git» ниже).
 
@@ -360,6 +370,7 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 | `russian-style-audit` | тавтология, повторы, семантическая избыточность, кальки, номинализации |
 | `terminology-dictionary` | работа с `dictionary.md` |
 | `forms-of-address` | работа с `addresses.md` |
+| `task-orchestrator` | ведущий агент при задаче свободной формы: декомпозиция на подзадачи, доска `reports/task_board.json` (`tools/task_board.py`: new/sub-add/next/start/check/done/verify/close/sync/contract), запуск субагентов промптами `agent_workflow.py --out`, result-маркеры субагентов, восстановление после компактизации и после обрыва связи со субагентом (продолжение той же сессии) |
 
 **Активные аудиторы (A + B + C):** `semantic-audit-a`, `semantic-audit-b`,
 `pragmatic-audit` (C) — три независимых аудитора, каждый ищет свой класс смысловых
@@ -378,6 +389,11 @@ python tools/media/audio_converter.py     # голоса wav_source → game/aud
 python tools/build_image_id_map.py        # пересборка справочника id картинок
 python tools/replace_bg_placeholders.py   # замена заглушек id(K) (по умолчанию dry-run)
 python tools/agent_workflow.py            # меню промптов/действий для агент-сессии (--list)
+                                         # (--prompt <id> --chapter ЦЕЛЬ --out <файл> — промпт субагента)
+
+# Доска задач оркестратора (скилл task-orchestrator; состояние - в git):
+python tools/task_board.py status        # ПЕРВЫЙ ШАГ сессии: что уже в работе
+python tools/task_board.py check <task>  # диагностика обрыва: READY / PARTIAL / ORPHANED / PENDING
 
 # Pipeline проверки порта части/главы (оркестратор + механические проверки,
 # регламент и цифры — reports/pipeline_implementation.md; цели — tools/targets.py):
