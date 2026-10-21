@@ -101,14 +101,34 @@
           "target": "5_1",
           "scope": "part",
           "title": "Часть 1 главы 5: разбор источника (chapter_06), определение границ по §3, порт сцен, EN/RU, голоса, tl, отчёт",
-          "status": "running",
+          "status": "done",
           "created": "2026-10-21 22:26:37",
           "started": "2026-10-21 22:26:38",
+          "finished": "2026-10-22 01:30:37",
+          "session": null,
+          "note": "Часть 1 главы 5 (сцены 269–284) завершена: порт, EN/RU, 118 голосов, tl, аудиты A и C, Фаза 1 и Фаза 2 анализатора, отчёт, проверки OK; коммиты 7abcab5, 857032d, 6059ba3.",
+          "evidence": [
+            "game/chapters/5/script-ch5_1.rpy",
+            "reports/ch5/1.md",
+            "reports/sma/ch5/1/analysis/20261022-014500-p2a1.md"
+          ],
+          "manual": "Часть 1 главы 5: разбор источника (chapter_06), определение границ по §3, порт сцен, EN/RU, голоса, tl, отчёт"
+        },
+        {
+          "id": "S2",
+          "kind": "manual",
+          "prompt": "",
+          "target": "5_2",
+          "scope": "part",
+          "title": "Часть 2 главы 5 (сцены 285–299)",
+          "status": "running",
+          "created": "2026-10-22 01:30:45",
+          "started": "2026-10-22 01:30:52",
           "finished": null,
           "session": null,
           "note": "",
           "evidence": [],
-          "manual": "Часть 1 главы 5: разбор источника (chapter_06), определение границ по §3, порт сцен, EN/RU, голоса, tl, отчёт"
+          "manual": "Часть 2 главы 5 (сцены 285–299): порт по генератору tools/gen_ch5_2_script.py, EN (tools/ch5_2_en.py) и RU (tools/ch5_2_ru.py) по 145 строк, tl, 128 голосов, аудиты A и C, анализатор, отчёт reports/ch5/2.md"
         }
       ]
     }
