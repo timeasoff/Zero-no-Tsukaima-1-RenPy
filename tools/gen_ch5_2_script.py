@@ -101,8 +101,25 @@ def flat(s):
     return s.replace('\n', ' ')
 
 
+def own_script_strings():
+    """строки текущей части из уже собранного .rpy (если он есть) — чтобы
+    повторный запуск генератора не считал собственные строки «чужими»
+    (иначе теги множились бы при каждой пересборке)."""
+    out = set()
+    if not os.path.isfile(SCRIPT):
+        return out
+    re_dlg = re.compile(r'^\s*(?:\w+|"[^"]*")\s+"(.*)"\s*$')
+    for ln in io.open(SCRIPT, encoding='utf-8'):
+        m = re_dlg.match(ln.rstrip('\n'))
+        if m:
+            out.add(m.group(1))
+    return out
+
+
 def load_tl_olds():
-    """old из tl/{japanese,russian} — ЧУЖИЕ части (свои строки исключены)."""
+    """old из tl/{japanese,russian} — строки ЧУЖИХ частей (глав 1–4, часть 1
+    главы 5). Собственные строки части 2 исключены: они распознаются по
+    тегу '#ch5_2_' и по строкам уже собранного script-ch5_2.rpy."""
     out = set()
     base = os.path.join(ROOT, 'game', 'tl')
     for lang in ('japanese', 'russian'):
@@ -117,14 +134,8 @@ def load_tl_olds():
                 if m:
                     out.add(m.group(1))
     out = set(o for o in out if '#ch5_2_' not in o)
-    try:
-        from ch5_2_en import EN_DIALOGS, EN_THOUGHTS, EN_CHOICES
-        for _d in (EN_DIALOGS, EN_THOUGHTS, EN_CHOICES):
-            for _v in _d.values():
-                out.discard(_v)
-                out.discard(flat(_v))
-    except ImportError:
-        pass
+    own = own_script_strings()
+    out = set(o for o in out if o not in own)
     return out
 
 
@@ -346,11 +357,12 @@ def main():
                     en_counter[en] = en_counter.get(en, 0) + 1
 
     def uniq_tag(en, tag):
-        """тег нужен, только если строка повторяется внутри части; явный тег
+        """тег нужен, если строка повторяется внутри части ИЛИ совпадает со
+        строкой чужой части (E11: old должен быть уникален в tl); явный тег
         (уже в данных EN) сохраняется."""
         if '{#' in en:
             return en
-        if en_counter.get(en, 0) <= 1:
+        if en_counter.get(en, 0) <= 1 and en not in TL_OLDS:
             return en
         return '%s{#%s}' % (en, tag)
 
