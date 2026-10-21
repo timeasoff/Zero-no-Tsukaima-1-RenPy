@@ -12455,3 +12455,1087 @@ translate japanese strings:
 
     old "Gh… Just you wait, Bomb User. I will definitely catch you!!"
     new "くっ……爆弾使いのヤツ、今に見てなさい。絶対に捕まえてやるんだからっ！！"
+translate japanese strings:
+    old "Hmph, I don't need you to worry about it."
+    new "ベツニ、ヨロコンデナンテイマセンヨ。"
+
+translate japanese strings:
+    old "Damn… Where are you? You're nowhere to be found."
+    new "くそっ……。　どこにいるんだ？　どこにもいねぇぞ。"
+
+translate japanese strings:
+    old "First off, we should head to where the explosion happened, shouldn't we?"
+    new "とりあえず、爆発があったところへ　行ってみるしかねぇなぁ？"
+
+translate japanese strings:
+    old "…Saito, it's not that way! Don't just run off in some random direction! Hah… haah…."
+    new "……サイト、そっちじゃないってばっ！　勝手に変な方向に突っ走らないでよっ！　はあっ、はあっ……。"
+
+translate japanese strings:
+    old "I thought she'd run off over this way, though."
+    new "こっちの方に走り去ったと思ったんだけどなぁ。"
+
+translate japanese strings:
+    old "Hahaha… Seriously, I can't help but admire how dedicated you two are to your work."
+    new "ははははっ……。　まったく、君達の仕事熱心さには　頭がさがるよ。"
+
+translate japanese strings:
+    old "Partner, she's on the roof."
+    new "相棒、屋根の上にいるぜ。"
+
+translate japanese strings:
+    old "What!"
+    new "何！"
+
+translate japanese strings:
+    old "There she is!! It's all that guy's fault, and I'm the one who…!!"
+    new "いたわっ！！　アイツのお陰で、わたしはぁ！！"
+
+translate japanese strings:
+    old "Watch yourselves, you two. She's far more skilled than she looks. Underestimate her and it costs you your life."
+    new "気をつけな、お二人さん。　ヤツは見かけに反してかなりの手練れだ。　オンナ子供となめてかかっちゃ、命がない。"
+
+translate japanese strings:
+    old "Yeah, I can believe that."
+    new "ああ、それはなんとなく分かる。"
+
+translate japanese strings:
+    old "O-of course, obviously."
+    new "も……もちろんよっ。"
+
+translate japanese strings:
+    old "…Are you scared, Louise?"
+    new "……怖いか、ルイズ？"
+
+translate japanese strings:
+    old "…Mm.…I'm fine."
+    new "……ん。　……平気。"
+
+translate japanese strings:
+    old "As long as Saito is… As long as he'll protect me, I'm fine."
+    new "サイトが……。　ちゃんと守ってくれるなら平気。"
+
+translate japanese strings:
+    old "Got it. Then let's start the fight."
+    new "分かった、それなら戦闘開始だ。"
+
+translate japanese strings:
+    old "Yeah.{#ch4.6_v6141}"
+    new "うん。"
+
+translate japanese strings:
+    old "Here she comes, partner."
+    new "さぁ相棒、相手も来るぞ？"
+
+translate japanese strings:
+    old "Her bombs aren't magic, right? There's nothing I can do about them? It's not like I can just absorb them like usual."
+    new "あいつの爆弾は、魔法じゃないんだろう。　なんとかなるのか？　いつもの魔法吸収ってわけにはいかないんだろ？"
+
+translate japanese strings:
+    old "For now, you mix things up with your speed. The noble's girl casts magic while she's at it. That's all we've got."
+    new "とりあえず、相棒は速さでかく乱しな。　貴族の娘っ子はその間に魔法で攻撃。　これしかないな。"
+
+translate japanese strings:
+    old "Got it. Doesn't look like there's anything else to do. Louise, we're going with that!"
+    new "分かった。　それしかなさそうだな。　ルイズ、それでいくぞ！"
+
+translate japanese strings:
+    old "Don't give me orders. I know perfectly well what I'm doing."
+    new "わたしに指図しないでよね。　ちゃんと分かってるわよ。"
+
+translate japanese strings:
+    old "…Here we go!!"
+    new "……いくぞっ！！"
+
+translate japanese strings:
+    old "…Heh."
+    new "……ふっ。"
+
+translate japanese strings:
+    old "…Tch!!!! Against an opponent like this…"
+    new "……くっ！！！！　こんな相手に……。"
+
+translate japanese strings:
+    old "How about… giving up? If you keep this up, you don't stand a chance."
+    new "そろそろ……降参したらどうだぁ？　このまま続けても、おまえに勝ち目はない。"
+
+translate japanese strings:
+    old "…Come and get me!!"
+    new "……くらえ！！"
+
+translate japanese strings:
+    old "Louise! Bombs! Get down!!"
+    new "ルイズっ、爆弾だ！　隠れろっ！！"
+
+translate japanese strings:
+    old "Hyaah!!"
+    new "ひゃあっ！！"
+
+translate japanese strings:
+    old "Guaah…!!"
+    new "ぐあっ……！！"
+
+translate japanese strings:
+    old "…! Blindfolding trick?! Partner, let's get out of here!"
+    new "くっ……目くらましかっ！？　やっこさん、逃げていくぞっ！？"
+
+translate japanese strings:
+    old "No good… I can't see a thing, it's all blurred!!"
+    new "ダメだっ……まぶしくて何も見えない！！"
+
+translate japanese strings:
+    old "Uuaah… kuuhhh!!!"
+    new "ぅぁ……くううっ！！！"
+
+translate japanese strings:
+    old "Youu! She got away when I almost had her!! Next time I see her, I won't let her escape!"
+    new "もおっ！　あと少しで捕まえられたのにぃ！！　今度会ったときは、絶対に逃がさないんだから！"
+
+translate japanese strings:
+    old "Just watch!"
+    new "見てなさい！"
+
+translate japanese strings:
+    old "When I do catch her, I'll repay the humiliation I suffered a hundredfold over!!!"
+    new "捕まえた暁には、　わたしが受けた屈辱を何百倍にもして　返してあげるんだから！！！"
+
+translate japanese strings:
+    old "Louise, are you hurt anywhere?"
+    new "ルイズ、どこもケガはないか？"
+
+translate japanese strings:
+    old "Eh…!? …Yeah, I'm fine."
+    new "えっ……！？　……うん、平気。"
+
+translate japanese strings:
+    old "I see… Then let's head back to the castle and report to the princess."
+    new "そっか……。　それじゃあ、城へ戻ってお姫さまに報告しよう。"
+
+translate japanese strings:
+    old "Yeah, that's right."
+    new "うん、そうね。"
+
+translate japanese strings:
+    old "Looks like we'll get home safe. Good work, both of you — the partner and the lady."
+    new "どうやら無事に帰れそうだなぁ。　相棒も娘っ子もご苦労さん。"
+
+translate japanese strings:
+    old "Yeah… you helped again this time, Delphy."
+    new "ああ……今回も助かったよ、デルフ。"
+
+translate japanese strings:
+    old "Just leave it to me."
+    new "まぁ、任せておきなって。"
+
+translate japanese strings:
+    old "Saito…{#ch4.6_v6150}"
+    new "サイトっ……。"
+
+translate japanese strings:
+    old "What is it, Louise?"
+    new "なんだい、ルイズ？"
+
+translate japanese strings:
+    old "…Um… no, it's… …I'm going back to the castle."
+    new "……あのっ……ううん、その。　……城に帰るわ。"
+
+translate japanese strings:
+    old "Sure, let's head back."
+    new "ああ、戻るとするか。"
+
+translate japanese strings:
+    old "I see. Even so, thanks to your efforts this time, we were able to repel them safely."
+    new "そうでしたか。　ですが、今回は、あなた達の活躍で　無事撃退をすることができました。"
+
+translate japanese strings:
+    old "Allow me to give thanks on behalf of the citizens."
+    new "市民に成り代わりお礼を言わせてください。"
+
+translate japanese strings:
+    old "Such unnecessary words."
+    new "そんな、もったいないお言葉です。"
+
+translate japanese strings:
+    old "Stay at the palace tonight, and take the fatigue of your journey off slowly."
+    new "今宵はこの王宮に留まって、　旅の疲れをゆっくりといやしてください。"
+
+translate japanese strings:
+    old "Thank you, Your Highness."
+    new "ありがとうございます、お姫さま。"
+
+translate japanese strings:
+    old "Thank you, Your Majesty.{#ch4.6_v6153}"
+    new "ありがとうございます、女王陛下。"
+
+translate japanese strings:
+    old "No, no, it's quite all right, Louise."
+    new "そんな、いいのですよルイズ。"
+
+translate japanese strings:
+    old "I would like to make at least some amends for my own foolishness, which would have put even my precious friends in danger."
+    new "大切な友人までも、危険に晒そうとする　ような愚かなわたくしに、せめてもの償いを　させてちょうだい。"
+
+translate japanese strings:
+    old "We acted of our own will. I never once thought the princess was to blame."
+    new "わたし達は、自分の意思で行動しています。　姫さまが悪いなんて、思ったことはありません。"
+
+translate japanese strings:
+    old "Mm… Thank you, Louise."
+    new "うん……。　ありがとう、ルイズ。"
+
+translate japanese strings:
+    old "Well then, I have a great many things to clean up. I will take my leave."
+    new "では、わたくしはいろいろと　後始末をせねばなりませんので。　これで失礼します。"
+
+translate japanese strings:
+    old "Mr. Saito!!"
+    new "サイトさんっ！！"
+
+translate japanese strings:
+    old "Mr. Hiraga!!"
+    new "平賀くんっ！！"
+
+translate japanese strings:
+    old "Hey, you two — are you both unharmed?"
+    new "やあ、２人とも無事だったかい？"
+
+translate japanese strings:
+    old "Yes. The castle soldiers saw us to safety properly."
+    new "はい、お城の兵士さんがちゃんと　避難させてくれましたから。"
+
+translate japanese strings:
+    old "Are you all right, Mr. Hiraga?"
+    new "平賀くんは大丈夫だった？"
+
+translate japanese strings:
+    old "I'm fine. Even if I am hurt, it's nothing but a scratch."
+    new "大丈夫。　あってもかすり傷ぐらいだから。"
+
+translate japanese strings:
+    old "But I'm glad it wasn't you, Haruna."
+    new "でも、ハルナのことじゃなくて、良かったわね。"
+
+translate japanese strings:
+    old "Thank you, Miss Louise. Please at least let me say thanks."
+    new "ありがとうございます、ルイズさん。　お礼だけでも言わせてください。"
+
+translate japanese strings:
+    old "It's nothing, don't worry about it. That settles the matter of Haruna between the Academy and the palace."
+    new "別にいいわよ、気にしてないから。　これで、ハルナのことに関して　魔法学院と王宮は解決したわけだけど。"
+
+translate japanese strings:
+    old "But the problem isn't solved yet."
+    new "でも、問題は、まだ残ってるわ。"
+
+translate japanese strings:
+    old "Huh? Is there still something?"
+    new "はぁ？　まだ、何かあるのかよ？"
+
+translate japanese strings:
+    old "Yes, exactly. This is a very serious problem."
+    new "ええ、そうよ。　これはきわめて重大な問題よ。"
+
+translate japanese strings:
+    old "What on earth could it be?"
+    new "それはいったい何なんですか？"
+
+translate japanese strings:
+    old "To put it plainly: money. She's a commoner, but a girl has been added to the household, hasn't she? Her current allowance won't come close to covering it."
+    new "ハッキリ言ってしまえば、それはお金よ。　平民とはいえ、女の子が１人増えたのよ？　今の生活費だけじゃとても足りないわ。"
+
+translate japanese strings:
+    old "Heh~. What a difference in treatment compared to me, if I may say so, my master."
+    new "へぇ～。　ボクとはえらい待遇の違いですねぇ、ご主人様。"
+
+translate japanese strings:
+    old "My, is something rather mistaken going on in your head? You're a familiar, aren't you? That's only natural."
+    new "あら、何かひどい思い違いをしてるようね？　あなたは使い魔でしょ。　そんなの、当たり前じゃないの。"
+
+translate japanese strings:
+    old "….{#ch4.6_v11580}"
+    new "……。"
+
+translate japanese strings:
+    old "It is a master's duty to provide for their familiar. That's all well and good, though. But Haruna…"
+    new "使い魔を養っていくのは飼い主の務めだから。　それはいいんだけど。　でも、ハルナは……。"
+
+translate japanese strings:
+    old "That's true. If only we could find a way to get back to Japan soon…"
+    new "そうですね。　早く日本へ帰る方法が見つかれば　いいんですけど。"
+
+translate japanese strings:
+    old "Yeah… that's true…"
+    new "ホント、そうだよなぁ……。"
+
+translate japanese strings:
+    old "Oh! That's a good idea! Miss Haruna, would you like to help us with the kitchen work at the Academy?"
+    new "あっ、そうですよっ！　ハルナさん、わたし達と一緒に魔法学院で　給仕の仕事を手伝いませんか？"
+
+translate japanese strings:
+    old "Oh…! Right! That's a good idea, isn't it!"
+    new "おおっ……。　そうかっ、その手があったじゃないか！"
+
+translate japanese strings:
+    old "Haruna! I think that's a great idea too!"
+    new "春奈っ！　それは、グッドアイデアだと俺も思うぞ！"
+
+translate japanese strings:
+    old "Why is Saito so happy about that?"
+    new "なんでサイトが、そこで喜ぶのよっ？"
+
+translate japanese strings:
+    old "Hmph, n-no, you don't need to worry about it."
+    new "ベツニ、ヨロコンデナンテイマセンヨ。"
+
+translate japanese strings:
+    old "…Hmph."
+    new "……ふん。"
+
+translate japanese strings:
+    old "Hmm, but I've always left everything around the house to my parents… I don't know if I can really do anything…"
+    new "う～ん、でも私、身の回りのことは、　すべて親に任せっきりだったから。　本当に、何かできるかどうか……。"
+
+translate japanese strings:
+    old "You needn't worry about that. Everyone here is kind and helpful. They'll teach you one thing at a time, carefully."
+    new "そんなこと、心配いりませんよ。　みんな優しくて親切な方ばかりですから。　ひとつずつ、丁寧に教えてくれます。"
+
+translate japanese strings:
+    old "If Miss Haruna feels like it, please don't hesitate to come to any of us."
+    new "ハルナさんがもしその気になったら、　いつでも声をかけてくださいね。"
+
+translate japanese strings:
+    old "Yes… Thank you.{#ch4.6_v2314}"
+    new "はい……。　ありがとうございます。"
+
+translate japanese strings:
+    old "Siesta told me Louise was in here. There's quite a mountain of books, isn't there?"
+    new "ここにルイズがいるってシエスタに　聞いてきたけど、ずいぶん本が　たくさんあるなぁ。"
+
+translate japanese strings:
+    old "Louise! You in there?"
+    new "ルイズー、いるかー。"
+
+translate japanese strings:
+    old "Saito, you're supposed to keep quiet in the library. Manners, you know?"
+    new "もうっ。　サイト、図書室は静かにしなさいよね。　マナーでしょ？"
+
+translate japanese strings:
+    old "Ah, sorry. Whoa, that's a mountain of books. Have you read all of these?"
+    new "あ、ごめん。　って、すごい山だな。　これ全部読んでるのか？"
+
+translate japanese strings:
+    old "They're books on magic. Some of them are valuable works written down from the legends of Founder Brimir Valtori, from long ago."
+    new "魔法に関する本よ。　古くは、始祖ブリミル・ヴァルトリの伝承から　書きつづられた貴重な書物もあるわ。"
+
+translate japanese strings:
+    old "Normally, these books can't be read without the palace's permission — but I got it from the princess."
+    new "これらの本は、本来王宮からの許可が　出ないと読めない本なんだけど、　姫さまに許可をいただいたの。"
+
+translate japanese strings:
+    old "Hmm, I have no idea what any of that means. What are you researching?"
+    new "はぁ、俺にはサッパリ分からないや。　何を調べてるんだ？"
+
+translate japanese strings:
+    old "…The magic of the Void."
+    new "……虚無の魔法。"
+
+translate japanese strings:
+    old "….{#ch4.6_v8551}"
+    new "……。"
+
+translate japanese strings:
+    old "A power too great for human hands."
+    new "人の手には余る、その力。"
+
+translate japanese strings:
+    old "It's… a bit unsettling, you could say. When I'm alone… I always end up feeling anxious."
+    new "ちょっと、気になるっていうか。　１人で居たりすると……　どうしても、不安になるのよね。"
+
+translate japanese strings:
+    old "After all… it is unsettling. In my case, the magic is still incomplete, and its nature is unknown."
+    new "だって……気味悪いじゃない。　わたしの場合はまだ、得体の知れない　不完全な魔法だから。"
+
+translate japanese strings:
+    old "I thought that if I could learn even a little something new, it would be worth reading… but I understand absolutely nothing."
+    new "なにか、新しいことが少しでも分かるなら、　と思って読んでたんだけど……。　でも、ぜ～んぜん、分かんない。"
+
+translate japanese strings:
+    old "….{#ch4.6_v8552}"
+    new "……。"
+
+translate japanese strings:
+    old "Louise really is incredibly serious, isn't she?"
+    new "ルイズって、凄く真面目だよな。"
+
+translate japanese strings:
+    old "Oh? Is that a bad thing?"
+    new "あら、いけないのかしら？"
+
+translate japanese strings:
+    old "No, it's not that I could ever match her. Um, wait, that's not what I—"
+    new "いや、俺なんかじゃ到底マネ　できないっていうか。　ええっと、そうじゃなくって……。"
+
+translate japanese strings:
+    old "When she's focused on something, the way she comes across is… quite different from when she's with me, I guess."
+    new "何かに取り組んでる時のルイズって、　俺と居る時なんかとイメージが　違ってるなぁって。"
+
+translate japanese strings:
+    old "Really?{#ch4.6_v4720}"
+    new "そう？"
+
+translate japanese strings:
+    old "Why not try doing it without relying on books?{#ch4.6_v8556}"
+    new "本に頼らないってどうだ？"
+
+translate japanese strings:
+    old "I'd be relieved if it did, but… no, that won't work either."
+    new "それで安心できるならいいんだけど……。　やっぱり駄目。"
+
+translate japanese strings:
+    old "In the end, where this power comes from and where it's heading… I have no way of understanding any of it on my own."
+    new "結局この力がどこから来て、　どこに向かうのか……。　わたしだけでは全然分からないもの。"
+
+translate japanese strings:
+    old "Thinking about it that way… I'm not even a wielder of the Void, I'm just—"
+    new "そう考えると、わたし……。　虚無の使い手でもなんでもなく、"
+
+translate japanese strings:
+    old "—maybe only someone who is being lured to the Void."
+    new "ただ、虚無にほんろうされてる　だけかもしれないわ。"
+
+translate japanese strings:
+    old "….{#ch4.6_v8557}"
+    new "……。"
+
+translate japanese strings:
+    old "If it's about books, maybe you should ask Tabitha about it?"
+    new "本のことだったらさ、タバサにでも相談した方が　いいんじゃないのか？"
+
+translate japanese strings:
+    old "I see, Tabitha. If I say I'm looking for books on Founder Brimir, she might know something."
+    new "なるほど、タバサね。　始祖ブリミルについての本を探してるって　言えば何か知ってるかもしれないわね。"
+
+translate japanese strings:
+    old "Well, I can't exactly tell Tabitha I'm researching the power of the Void, can I?"
+    new "まぁ、でもタバサに虚無の力について　調べています、って話すわけにもいかないよな。"
+
+translate japanese strings:
+    old "That's true, but never mind. Once we're back at the Academy, I'll ask her about it."
+    new "それはそうでしょうけど、まぁいいわ。　魔法学院に帰ったら、一度相談にのってもらう　ことにする。"
+
+translate japanese strings:
+    old "You're going to start investigating the Bomb User tomorrow, aren't you?"
+    new "どうせ明日から、爆弾使いの調査を　始めるんだろ？"
+
+translate japanese strings:
+    old "You'd better not let your magic research get out of hand, or you'll wear yourself out."
+    new "魔法の研究も程々にしておかないと、　そのうち身が持たなくなるぞ？"
+
+translate japanese strings:
+    old "I know, I know."
+    new "分かってるわよ。"
+
+translate japanese strings:
+    old "But maybe I should learn from Louise's serious, devoted side too. I just can't go around swinging a sword, though."
+    new "でも俺もさ、ルイズの真面目でひたむきな所を　見習わなくちゃいけないのかもな。　ただ、剣を振り回してちゃいけないもんな。"
+
+translate japanese strings:
+    old "You don't have to copy me. That wouldn't be like you at all."
+    new "別にマネしなくたっていいわよ。　それこそ、サイトらしくないわ。"
+
+translate japanese strings:
+    old "Right, then I'll head back to my room too."
+    new "ああ、それじゃあ俺も部屋に帰るよ。"
+
+translate japanese strings:
+    old "….{#ch4.6_v4729}"
+    new "……。"
+
+translate japanese strings:
+    old "Saito."
+    new "サイトっ。"
+
+translate japanese strings:
+    old "Wh-what is it?"
+    new "なんだよぉ、一体？"
+
+translate japanese strings:
+    old "Thank you.{#ch4.6_v4731}"
+    new "ありがとうっ。"
+
+translate japanese strings:
+    old "Good evening, Siesta."
+    new "こんばんは、シエスタ。"
+
+translate japanese strings:
+    old "Eh…? Mr. Saito?"
+    new "えっ……サイトさん？"
+
+translate japanese strings:
+    old "…Wah! Mr. Saito! Please, come right in!"
+    new "……わあっ、サイトさんっ！　どうぞ、遠慮なくお入りくださいっ！"
+
+translate japanese strings:
+    old "Um, um, Mr. Saito, I'm sorry! I came along on my own without warning today…"
+    new "あ、あのっ、サイトさんゴメンなさい。　今日は、勝手について来てしまったりして。"
+
+translate japanese strings:
+    old "N-no, it's already all settled. Don't worry about it. I was just… startled, that's all."
+    new "い、いや、もう済んだことだし。　それは大丈夫だよ。　ただ、ビックリしたけどね。"
+
+translate japanese strings:
+    old "For a while there, the Bomb User showed up and I thought… I didn't know what would happen."
+    new "一時は、爆弾使いが現われたりして、　どうなるかと思いましたけど。"
+
+translate japanese strings:
+    old "I'm so glad Mr. Saito won his fight with the Bomb User and came through it safely."
+    new "サイトさんが爆弾使いとの戦いに勝って、　無事で、ホントに良かったです。"
+
+translate japanese strings:
+    old "Even after we evacuated, I kept praying that Mr. Saito would be safe. You know?"
+    new "わたし、避難してからもずっとサイトさんが　無事でいますようにって、　お祈りしてたんですよ？"
+
+translate japanese strings:
+    old "Ahh, that's… kind of embarrassing…"
+    new "いやあ、なんだか照れるなぁ……。"
+
+translate japanese strings:
+    old "But Miss Valliere really does know Her Majesty personally, don't you?"
+    new "でも、ミス・ヴァリエールは本当に　女王陛下とお知り合いだったんですね。"
+
+translate japanese strings:
+    old "Yeah, I was surprised at first, too. Apparently, back when we were little, we used to play together."
+    new "うん、俺もはじめはびっくりしたけど。　何でも幼いときは遊び友達だったんだって。"
+
+translate japanese strings:
+    old "I keep wondering. Why was I born a commoner, I wonder?"
+    new "わたし、思うんです。　なんで、平民に生まれたんだろうって。"
+
+translate japanese strings:
+    old "….{#ch4.6_v8569}"
+    new "……。"
+
+translate japanese strings:
+    old "Doesn't it seem strange that your status is decided the moment you're born?"
+    new "生まれた時に身分が決まるなんて、　おかしいと思いませんか？"
+
+translate japanese strings:
+    old "No, I do realize I'm not in any position to say such things."
+    new "いえ、わたしがそんなことを言える立場では　ないのは分かってるつもりです。"
+
+translate japanese strings:
+    old "But perhaps because I'm that sort of person, I was drawn to you, Mr. Saito."
+    new "でも、そんなわたしだから、　サイトさんに惹かれたのかもしれませんね。"
+
+translate japanese strings:
+    old "To me?"
+    new "俺に？"
+
+translate japanese strings:
+    old "You're a free man, Mr. Saito. You're not bound by anything."
+    new "サイトさんは自由なんです。　何にもとらわれない。"
+
+translate japanese strings:
+    old "You overcome everything that we, who consider it perfectly normal, brush off as nothing. You're an amazing person."
+    new "わたし達がこれは普通と思ってちゅうちょ　してることをなんでも乗り越えてしまう。　すごい人です。"
+
+translate japanese strings:
+    old "D-do you think so?{#ch4.6_v8571}"
+    new "そ、そうかな？"
+
+translate japanese strings:
+    old "Yes. It must be so."
+    new "そうです。　そうに決まってます。"
+
+translate japanese strings:
+    old "That's not true at all. You're exaggerating, Siesta."
+    new "そんなことないよ。　それはシエスタの買いかぶりさ。"
+
+translate japanese strings:
+    old "Really?{#ch4.6_v14254}"
+    new "そうですか？"
+
+translate japanese strings:
+    old "That's right. I'm neither a superhero nor a mage."
+    new "そうだよ。　俺はスーパーマンでもなければ、　魔法使いでもないんだ。"
+
+translate japanese strings:
+    old "I suppose. Just a guy without any common sense?"
+    new "そうだなぁ。　ただの常識知らずってところかな？"
+
+translate japanese strings:
+    old "Without common sense… is it?"
+    new "常識知らず……ですか。"
+
+translate japanese strings:
+    old "In my world? It'd be normal, I suppose. There are still places with class systems, but mostly it's an ordinary thing."
+    new "俺の世界だったら普通かな？　まぁ、まだ身分制度が残ってる　ところもあるけど、大体普通のことだよ。"
+
+translate japanese strings:
+    old "Is that so…? I wish I could be born into your world. It must be a wonderful place, right?"
+    new "そうなんですか……。　サイトさんの世界に生まれてみたかったです。　きっとすばらしい世界なんでしょうね？"
+
+translate japanese strings:
+    old "I wonder? My world is my own, and it has problems of its own. I think problems are the same everywhere."
+    new "そうかな？　俺の世界は俺の世界で、別の問題はあるよ。　問題があるのは、どこでも同じだと思うんだ。"
+
+translate japanese strings:
+    old "The same everywhere…?"
+    new "どこでも同じ……ですか。"
+
+translate japanese strings:
+    old "I think it was because of Louise's power. Honestly, the only reason I've survived this long is because of Louise's power."
+    new "ルイズの力があったからだと思う。　正直、ここまで生きてこれたのも、　ルイズの力があるからだし。"
+
+translate japanese strings:
+    old "Miss Valliere's power…?"
+    new "ミス・ヴァリエールの力……ですか。"
+
+translate japanese strings:
+    old "But you've got an amazing power too, Siesta."
+    new "でも、シエスタだって、　すごい力を持ってるんだぜ。"
+
+translate japanese strings:
+    old "Really?{#ch4.6_v14259}"
+    new "そうですか？"
+
+translate japanese strings:
+    old "Your smile. That's already full of charm."
+    new "笑顔。　それはもう、魅力たっぷりだよ。"
+
+translate japanese strings:
+    old "Is that so?{#ch4.6_v14260}"
+    new "そうでしょうか？"
+
+translate japanese strings:
+    old "You can be confident. I guarantee it. Siesta's smile is the best in the world."
+    new "自信もっていいよ。　俺が保証する。　シエスタの笑顔は世界一だって。"
+
+translate japanese strings:
+    old "Well… Mr. Saito, honestly."
+    new "まぁ……、サイトさんったら。"
+
+translate japanese strings:
+    old "You don't have to care about status. Siesta has something wonderful, so you can rest easy."
+    new "身分なんて気にしなくたって、　シエスタはすごいものを持ってるんだから、　安心していいよ。"
+
+translate japanese strings:
+    old "You'll absolutely be able to be happy."
+    new "絶対に幸せになれる。"
+
+translate japanese strings:
+    old "Yes, I understand. Thank you."
+    new "はい、分かりました。　ありがとうございます。"
+
+translate japanese strings:
+    old "Aaaaah-aaaaaah. Aaaah-aaah."
+    new "アーアアアーアアアー。　アーアーアーアー。"
+
+translate japanese strings:
+    old "Haruna?{#ch4.6_v8583}"
+    new "春奈？"
+
+translate japanese strings:
+    old "Kyaa! Mr. Hiraga! You were right there…"
+    new "きゃっ。　平賀くん。　そこにいたんだ……。"
+
+translate japanese strings:
+    old "I was just… checking on you. …Was I in the way?"
+    new "ちょっと、様子を見に来たんだけど。　……邪魔だったかな？"
+
+translate japanese strings:
+    old "No, no. It's fine."
+    new "ううん。　大丈夫だよ。"
+
+translate japanese strings:
+    old "So, what song were you singing?"
+    new "それで、なんの曲を歌ってたの？"
+
+translate japanese strings:
+    old "The song we're supposed to sing at the next club meeting."
+    new "今度の部活で歌うはずだった曲。"
+
+translate japanese strings:
+    old "But I didn't expect you to hear it… It's a little embarrassing."
+    new "でも、平賀くんに聞かれるとは　思ってなかったから……。　ちょっと恥ずかしいな。"
+
+translate japanese strings:
+    old "No, you were good. Come on, I can't sing at all."
+    new "いや、うまかったよ。　ほら、俺、全然歌が駄目だし。"
+
+translate japanese strings:
+    old "That's not true at all… Ugh, so embarrassing."
+    new "そんなことないよぅ……。　もう、恥ずかしいなぁ。"
+
+translate japanese strings:
+    old "Haruna, you were in the choir club?"
+    new "春奈って合唱部だったんだ？"
+
+translate japanese strings:
+    old "Yes, that's right. But I'm not sure I'm good enough to be a main member."
+    new "うん、そう。　でも、メインメンバーになれるほど　上手ではないかな？"
+
+translate japanese strings:
+    old "I don't know. If it were me, I think I'd definitely make it as a main member."
+    new "そうかなぁ。　俺だったら、絶対メインメンバーに　入れると思うけどなぁ。"
+
+translate japanese strings:
+    old "Thank you, Mr. Hiraga."
+    new "ありがとう、平賀くん。"
+
+translate japanese strings:
+    old "Does the choir hold competitions?"
+    new "合唱って大会があるの？"
+
+translate japanese strings:
+    old "Yes, there are several. The big ones have a regional round, a prefectural round, and then the national one."
+    new "うん、大会はいくつかあるよ。　大きな大会だと、地区大会があって、　県大会があって、全国大会があるの。"
+
+translate japanese strings:
+    old "Heh, like a sports club."
+    new "へー、運動部みたいだな。"
+
+translate japanese strings:
+    old "Of course there are smaller ones too, but mostly everyone pushes for the big competitions, you know?"
+    new "もちろん、小さい大会もあるけど、　大抵は大きな大会を目標に頑張ってる　って感じかな？"
+
+translate japanese strings:
+    old "But entering this year's competitions… is out of the question, right…"
+    new "でも、今年の大会の参加は、無理だよね……。"
+
+translate japanese strings:
+    old "….{#ch4.6_v8591}"
+    new "……。"
+
+translate japanese strings:
+    old "R-right. Haruna, do you go to karaoke?"
+    new "そ、そうだ。　春奈ってカラオケに行くの？"
+
+translate japanese strings:
+    old "Karaoke? Hmm, sometimes… maybe. How about you, Mr. Hiraga?"
+    new "カラオケ？　うーん、たまに……かな。　平賀くんは？"
+
+translate japanese strings:
+    old "Me too, sometimes…"
+    new "俺もたまに……。"
+
+translate japanese strings:
+    old "What kind of songs do you sing, Mr. Hiraga?"
+    new "平賀くんはどんな歌を歌うの？"
+
+translate japanese strings:
+    old "Hmm… let me think…"
+    new "そうだなぁ……。"
+
+translate japanese strings:
+    old "Japanese songs, I guess. There are more songs everyone can get excited about together."
+    new "やっぱり邦楽かなぁ。　みんなで盛り上がれる歌が多いしね。"
+
+translate japanese strings:
+    old "Hmm, I see. I can never quite keep up with popular songs."
+    new "ふーん、そうなんだ。　私、流行の歌ってどうもついていけなくって。"
+
+translate japanese strings:
+    old "At a convenience store, songs play on the pipe radio, and if you listen, you pick them up naturally."
+    new "コンビニだったら有線で曲が流れるし、　それを聞いてれば自然と覚えるって。"
+
+translate japanese strings:
+    old "Heh. That's a bit of life wisdom, isn't it?"
+    new "へー。　それは生活の知恵だね。"
+
+translate japanese strings:
+    old "Haha."
+    new "はははっ。"
+
+translate japanese strings:
+    old "Actually, I sing Western music."
+    new "実は洋楽を歌ってるんだ。"
+
+translate japanese strings:
+    old "Eh, you sing in English? You're good at English, Mr. Hiraga?"
+    new "え、英語で歌うんだよね。　平賀くん、英語得意なんだ？"
+
+translate japanese strings:
+    old "N-not really. I mean, I sort of understand what it means…"
+    new "いやー。　意味はそれっぽく理解してるつもりだけど……、"
+
+translate japanese strings:
+    old "In the end, I'm probably just copying the intonation and singing it as if I know what I'm doing, right?"
+    new "結局はイントネーションをまねしながら、　それっぽく歌ってるだけかな？"
+
+translate japanese strings:
+    old "Even so, that's amazing."
+    new "それでもすごいよ。"
+
+translate japanese strings:
+    old "Actually, I mostly just listen. I don't sing much…"
+    new "実は聞いてるのがほとんど。　あまり歌ってないなぁ……。"
+
+translate japanese strings:
+    old "That's a waste, though. You came all the way to sing."
+    new "それってもったいないよ。　せっかく歌いに来たんだし。"
+
+translate japanese strings:
+    old "I just don't feel confident about singing."
+    new "歌ってどうも自信がなくて。"
+
+translate japanese strings:
+    old "They say if you start by singing along with other people, you pick up a sense of pitch. How about we try singing together?"
+    new "他人に合わせて歌うことから始めれば、　音感がついてくるっていうよ。　一緒に歌ってみるのはどうかな？"
+
+translate japanese strings:
+    old "D-do you think so?{#ch4.6_v8603}"
+    new "そ、そうかな？"
+
+translate japanese strings:
+    old "Mr. Hiraga."
+    new "平賀くん。"
+
+translate japanese strings:
+    old "Hm?{#ch4.6_v8604}"
+    new "うん？"
+
+translate japanese strings:
+    old "When we go back to Japan, let's go to karaoke together, okay?"
+    new "日本に帰れたら、一緒にカラオケ行こうね。"
+
+translate japanese strings:
+    old "Yeah. Absolutely, we'll go."
+    new "ああ。　絶対行こうな。"
+
+translate japanese strings:
+    old "Yes. It's a promise."
+    new "うん。　約束だよ。"
+
+translate japanese strings:
+    old "…Hmm~."
+    new "……う～ん。"
+
+translate japanese strings:
+    old "What's wrong, partner? Going round and round the same spot."
+    new "どうした、相棒？　同じところをぐるぐる回って。"
+
+translate japanese strings:
+    old "I can't find my way back to my own room…"
+    new "自分の部屋にたどり着けない……。"
+
+translate japanese strings:
+    old "Hey, hey, hey, hey! Partner, that's too pitiful by any measure."
+    new "おいおいおいおいっ。　相棒、そりゃいくらなんでも情けなさすぎだろ。"
+
+translate japanese strings:
+    old "So how about we just camp out somewhere around here? By morning, someone will pick us up, right?"
+    new "そいじゃあ、どこかそこいら辺で　野宿でもすっか？　朝になれば、誰かが拾ってくれるだろ？"
+
+translate japanese strings:
+    old "Are you kidding me? They went and prepared a bed for me, and you want me to camp out? No way."
+    new "冗談じゃねーって。　せっかくベッドも用意してもらったのに、　野宿なんてありえないだろ？"
+
+translate japanese strings:
+    old "Oh…? That voice…"
+    new "あら……その声はっ……。"
+
+translate japanese strings:
+    old "Eh?{#ch4.6_v8609}"
+    new "え？"
+
+translate japanese strings:
+    old "Well, as I thought! Good evening, familiar."
+    new "まぁ、やっぱり！　こんばんは、使い魔さん。"
+
+translate japanese strings:
+    old "Good evening, Your Highness."
+    new "こんばんは、お姫さま。"
+
+translate japanese strings:
+    old "What is the matter? Walking about the castle in the middle of the night like this…"
+    new "どうしたんですか？　こんな夜更けに城内を歩いてるなんて。"
+
+translate japanese strings:
+    old "N-no, it's, um…"
+    new "いえ、その、あの。"
+
+translate japanese strings:
+    old "Listen, Your Majesty. It seems my poor partner has gotten himself lost in the castle."
+    new "聞いてくださいよ、女王陛下。　あわれな相棒が、城の中で迷子に　なっちまったみたいなんです。"
+
+translate japanese strings:
+    old "Oh my. Does this sword talk?"
+    new "あらあら。　この剣はしゃべるのかしら？"
+
+translate japanese strings:
+    old "What an honor for a nobody like me to have your attention. My name is Delphlinger."
+    new "俺っちに気をかけてくれるとは　なんとすばらしい。　デルフリンガーと申します。"
+
+translate japanese strings:
+    old "Hey! Delphy, don't say things you shouldn't!"
+    new "こら！　デルフ、余計なことを言うなって。"
+
+translate japanese strings:
+    old "Well, Louise seems to gather interesting people around her. I envy that."
+    new "まあ、ルイズの周りは面白い人が多くて、　うらやましいです。"
+
+translate japanese strings:
+    old "Very well. Then I shall show you the way. Do make sure you follow me, won't you?"
+    new "分かりました。　それでは案内しますわ。　ちゃんと、わたくしに付いてきてくださいね？"
+
+translate japanese strings:
+    old "Y-yes. Thank you."
+    new "は、はい。　よろしくお願いします。"
+
+translate japanese strings:
+    old "Familiar. Louise looks tough, but she is a fragile girl who needs someone to support her."
+    new "使い魔さん。　ルイズは、ああ見えて誰かが　支えてあげないといけない弱い子だから。"
+
+translate japanese strings:
+    old "Please keep being good to Louise from now on, yes?"
+    new "ルイズとは、これからも仲良くしてやって　くださいね？"
+
+translate japanese strings:
+    old "…That Louise? Huh. No matter how you look at her, she doesn't seem fragile at all."
+    new "……あのルイズが、ですか？　ふーん、どう見ても弱い子には見えないけど。"
+
+translate japanese strings:
+    old "It is true. You can plainly see how she is taken aback by the power of the Void she holds."
+    new "本当です。　正直、虚無の力を手にして戸惑っている姿が　見て分かります。"
+
+translate japanese strings:
+    old "Louise doesn't say so herself, but she must be fighting her fears every single day."
+    new "ルイズは自らあまり言いませんが、　本当は日々不安と戦ってるはずなのです。"
+
+translate japanese strings:
+    old "I understand. If Your Highness says so, I want to believe it… I want to…"
+    new "分かりました。　お姫さまがそこまでいうのなら、信じる……　ようにしたいなぁ……。"
+
+translate japanese strings:
+    old "Well, you are honest, aren't you, familiar."
+    new "まぁ、使い魔さんって正直なんですね。"
+
+translate japanese strings:
+    old "Ahhh…"
+    new "いやぁ……。"
+
+translate japanese strings:
+    old "I envy Louise. To have such a kind familiar as you. I am always alone…"
+    new "ルイズはうらやましいです。　こんな優しい使い魔さんが居てくれて。　わたくしはいつも１人ぼっち……。"
+
+translate japanese strings:
+    old "Eh? You don't have any other friends?"
+    new "え？　他に友達はいないんですか？"
+
+translate japanese strings:
+    old "No. When one is a queen, even her subjects — everything around her is like an enemy."
+    new "ええ。　女王ともなると、臣下も含めて、周りのすべてが　敵のようなものですから。"
+
+translate japanese strings:
+    old "If only I had someone I could open up to, there is so much that would ease my mind…"
+    new "せめて、気を許せる話し相手でもいれば　気も紛れる事だって、多々あるのですけどね。"
+
+translate japanese strings:
+    old "Everything an enemy… huh. Somehow it makes me feel that being a princess isn't easy either."
+    new "すべてが敵……かぁ。　なんだかお姫さまも楽じゃないなぁって、　気がしてきますよ。"
+
+translate japanese strings:
+    old "The days change so dizzyingly that even my memories of playing as a child have all faded away."
+    new "幼き頃、遊戯にいそしんでいた記憶も　どこかにかすんでしまう程に、　日々がめまぐるしく変わっているのです。"
+
+translate japanese strings:
+    old "Saying all this to you doesn't change anything, I suppose. I'm sorry — I seem to be complaining."
+    new "こんな事をあなたに対して言ったところで、　何にもならないんですけどね。　ごめんなさい、なんだか愚痴っぽくて。"
+
+translate japanese strings:
+    old "At the very least, I'm on the princess's side. If anything troublesome comes up, I can lend a hand?"
+    new "俺はその、少なくともお姫さまの味方ですから。　何か困ったことがあったら、お力になれますよ？"
+
+translate japanese strings:
+    old "Louise probably thinks so too. At least, I believe she does."
+    new "たぶん、ルイズもそう思っているはずです。　少なくとも、俺はそう信じていますし。"
+
+translate japanese strings:
+    old "Well, thank you so much!"
+    new "まぁ、ありがとうございますっ！"
+
+translate japanese strings:
+    old "But just having you, familiar, listen to my rambling has lightened my heart a good deal."
+    new "でも、使い魔さんに、このとりとめのない話を　聞いていただいただけでも、　随分と気持ちが楽になりました。"
+
+translate japanese strings:
+    old "I see… But if it made the princess happy, that's enough for me."
+    new "そうですか……。　でも、お姫さまが喜んでくれたのならそれで　充分です。"
+
+translate japanese strings:
+    old "Wouldn't it be better to have Louise stay at the princess's side?"
+    new "ルイズの事を、お姫さまの側近に置いてあげる　というのではダメなんですか？"
+
+translate japanese strings:
+    old "…In truth, I want nothing more. But that would be far too selfish of me."
+    new "……本当はそうしたくて仕方がないのですけど。　それは余りにもわたくしの身勝手　というものです。"
+
+translate japanese strings:
+    old "I want Louise to live freely."
+    new "ルイズには、自由に生活して欲しいのです。"
+
+translate japanese strings:
+    old "I could never make Louise live day after day imprisoned by stone walls and a magical cage, like I do."
+    new "こうして日々、石壁と魔法の檻に囚われた生活を　ルイズにもさせるなんて、　わたくしにはとてもできませんから。"
+
+translate japanese strings:
+    old "I see.{#ch4.6_v8623}"
+    new "そっかぁ。"
+
+translate japanese strings:
+    old "I shouldn't say this, but doesn't that depend on how Your Highness sees it yourself?"
+    new "俺が言うのも何ですけど、　それはお姫さま自身の考え方次第　じゃないですか？"
+
+translate japanese strings:
+    old "On how I see it…?"
+    new "考え方次第……ですか？"
+
+translate japanese strings:
+    old "Unless you reach out to them first, I thought they'd stay enemies forever."
+    new "お姫さまから近寄っていかないと、　いつまでも周りは敵のままじゃないかと　思うんです。"
+
+translate japanese strings:
+    old "….{#ch4.6_v343}"
+    new "……。"
+
+translate japanese strings:
+    old "Well, I'm not a princess, so I don't know what the cause of it is."
+    new "そりゃ、俺はお姫さまじゃないから、　何が原因なのかは分かりませんけど。"
+
+translate japanese strings:
+    old "But at least, the people who fought in the last war must have been fighting for you."
+    new "でも、少なくとも前の戦争で戦ってくれた　人達は、お姫さまのために戦ってくれた　はずです。"
+
+translate japanese strings:
+    old "Sorry. I don't even know what I'm saying."
+    new "すいません。　何言ってるんだか俺にも分からないや。"
+
+translate japanese strings:
+    old "No. I've taken that feeling to heart. I must do my best as well."
+    new "いいえ。　その気持ち、確かにいただきました。　わたくしも頑張らなければなりませんね。"
+
+translate japanese strings:
+    old "Ah, we've arrived. This is your room, familiar."
+    new "あ、着きましたね。　ここが使い魔さんのお部屋です。"
+
+translate japanese strings:
+    old "Huh, we're already here? …Why was I so lost earlier?"
+    new "あれ、もう着いたんですか。　……俺、なんであんなに迷ってたんだろ？"
+
+translate japanese strings:
+    old "Haaah… pitiful, that was."
+    new "はぁ～あ、情けねぇこった。"
+
+translate japanese strings:
+    old "Hehe, there are so many similar places inside the castle. It can't be helped."
+    new "ふふ、お城の中は似たような場所が　多いですから、仕方ありませんよ。"
+
+translate japanese strings:
+    old "Then good night, familiar."
+    new "それでは使い魔さん、おやすみなさい。"
+
+translate japanese strings:
+    old "Thank you so much. Good night, Your Highness."
+    new "どうもありがとうございました。　おやすみなさい、お姫さま。"
+

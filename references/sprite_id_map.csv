@@ -188,3 +188,12 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 970,ha 2 shy,5,1362,3874,lay7,ch4 part2b; block 962 pos 8; пиксель-сверка SCENEDAT[970] -> ha 2 shy (MAE 0.0277 норм., следующий 0.0282; pos 8 = shy)
 403,s 2 happy,1,237,185,lay5,ch4 part3; block 401 pos 2; пиксель-сверка SCENEDAT[403] -> game/images/chara/s 2 happy.webp (MAE 0.0269 норм., следующий s 2 angry 0.0276; pos 2 = happy)
 409,s 2 shy,1,1378,924,lay5,ch4 part4; block 401 pos 8; пиксель-сверка SCENEDAT[409] -> game/images/chara/s 2 shy.webp (MAE 0.0268 норм., следующий s 2 happy 0.0273; pos 8 = shy)
+420,s 5 shy,1,,,lay5,ch4 part6 (сцена 1089); block 412 pos 8; поза по унифицированной пиксель-сетке (pos 8=shy) — PROVISIONAL, сверка SCENEDAT не выполнена
+471,s 8 angry,2,,,lay5,ch4 part6 (сцены 260, 261); block 467 pos 4; поза по унифицированной пиксель-сетке (pos 4=angry) — PROVISIONAL; биекция блоков {467,478} ↔ {s 8,s 9}; в ch4_5 показан как "s 4 angry" (расхождение, RECONCILE)
+552,si 6 shy,3,,,lay2,ch4 part6 (сцена 1089); block 544 pos 8; поза по унифицированной пиксель-сетке (pos 8=shy) — PROVISIONAL, сверка SCENEDAT не выполнена
+764,h 1,20,,,lay8,ch4 part6 (сцена 263); block 764 pos 0; по конвенции ch4_5 (первый h-блок = h 1) — PROVISIONAL, сверка SCENEDAT не выполнена
+766,h 1 happy,7,,,lay8,ch4 part6 (сцена 263); block 764 pos 2; поза по унифицированной пиксель-сетке (pos 2=happy) — PROVISIONAL, сверка SCENEDAT не выполнена
+770,h 1 sad,8,,,lay8,ch4 part6 (сцена 263); block 764 pos 6; поза по унифицированной пиксель-сетке (pos 6=sad) — PROVISIONAL; в ch4_5 помечен как "h 1 angry" (комментарий без пиксель-сверки) — RECONCILE, нужна сверка
+786,h 2,16,,,lay8,ch4 part6 (сцены 1099, 1103); block 786 pos 0 — PROVISIONAL: имя блока не определено (нумерация h-сетов неизвестна, первый h-блок 764 = h 1 по ch4_5), сверка SCENEDAT не выполнена
+788,h 2 happy,6,,,lay8,ch4 part6 (сцены 1099, 1103); block 786 pos 2; поза по унифицированной пиксель-сетке (pos 2=happy) — PROVISIONAL
+792,h 2 sad,7,,,lay8,ch4 part6 (сцены 1099, 1103); block 786 pos 6; поза по унифицированной пиксель-сетке (pos 6=sad) — PROVISIONAL

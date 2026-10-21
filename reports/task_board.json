@@ -6,7 +6,7 @@
       "created": "2026-10-18 07:50:24",
       "request": "Продолжить перевод главы 4 (chapter_05, トリスタニアの危機): часть 6 script-ch4_6.rpy - финал основной линии сцены 261-268 + решение по extra-блоку 1084-1103 (резка 3)",
       "target": "4_6",
-      "status": "open",
+      "status": "closed",
       "subtasks": [
         {
           "id": "S1",
@@ -15,13 +15,15 @@
           "target": "4_6",
           "scope": "part",
           "title": "Часть 6: порт сцен 261-268 + границы extra-блока 1084-1103",
-          "status": "pending",
+          "status": "done",
           "created": "2026-10-18 07:50:24",
-          "started": null,
-          "finished": null,
+          "started": "2026-10-21 20:50:19",
+          "finished": "2026-10-21 20:50:20",
           "session": null,
-          "note": "",
-          "evidence": [],
+          "note": "Порт части 6 собран генератором tools/gen_ch4_6_script.py из events-источника; EN в tools/ch4_6_en.py, RU в tools/ch4_6_ru.py",
+          "evidence": [
+            "game/chapters/4/script-ch4_6.rpy"
+          ],
           "manual": ""
         },
         {
@@ -31,13 +33,16 @@
           "target": "4_6",
           "scope": "part",
           "title": "Голоса части 6: манифест + ogg",
-          "status": "pending",
+          "status": "done",
           "created": "2026-10-18 07:50:24",
-          "started": null,
-          "finished": null,
+          "started": "2026-10-21 20:50:20",
+          "finished": "2026-10-21 20:50:20",
           "session": null,
-          "note": "",
-          "evidence": [],
+          "note": "270 голосов: манифест voice_id_map.csv, .ogg (soundfile), отметки в transcriptions_ja_ru.csv; audio_converter check -> RESULT: OK",
+          "evidence": [
+            "references/voice_id_map.csv",
+            "reports/voice_check.md"
+          ],
           "manual": ""
         },
         {
@@ -47,13 +52,17 @@
           "target": "4_6",
           "scope": "part",
           "title": "Полный аудит части 6",
-          "status": "pending",
+          "status": "done",
           "created": "2026-10-18 07:50:24",
-          "started": null,
-          "finished": null,
+          "started": "2026-10-21 21:37:22",
+          "finished": "2026-10-21 21:37:22",
           "session": null,
-          "note": "",
-          "evidence": [],
+          "note": "Omission pre-check (0 кандидатов), независимый аудит A (25 находок) и аудит C (5 находок), разбор решений Analyzer: reports/sma/ch4/6/analysis/20261021-211500-an01.md; 26 правок RU/EN",
+          "evidence": [
+            "reports/sma/ch4/6/a/20261021-204805-289d.md",
+            "reports/sma/ch4/6/c/20261021-204805-542a.md",
+            "reports/sma/ch4/6/analysis/20261021-211500-an01.md"
+          ],
           "manual": ""
         },
         {
@@ -63,16 +72,20 @@
           "target": "4_6",
           "scope": "part",
           "title": "Финальные проверки и отчёт части 6",
-          "status": "pending",
+          "status": "done",
           "created": "2026-10-18 07:50:24",
-          "started": null,
-          "finished": null,
+          "started": "2026-10-21 21:37:23",
+          "finished": "2026-10-21 21:37:23",
           "session": null,
-          "note": "",
-          "evidence": [],
+          "note": "check_project RESULT: OK, syntax/typography/assets/transcriptions OK, pre-check 0 кандидатов; отчёт reports/ch4/6.md, журнал и translation_plan обновлены",
+          "evidence": [
+            "reports/ch4/6.md",
+            "reports/check_project.md"
+          ],
           "manual": "Прогнать tools/check_project.py до RESULT: OK; написать отчёт reports/ch4/6.md; обновить reports/translation_plan.md и reports/log.md"
         }
-      ]
+      ],
+      "closed": "2026-10-21 21:37:43"
     }
   ]
 }

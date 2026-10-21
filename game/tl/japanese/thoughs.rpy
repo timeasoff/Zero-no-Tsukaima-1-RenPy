@@ -909,3 +909,79 @@ translate japanese strings:
 
     old "Suddenly, a loud explosion was heard."
     new "（突然、激しい爆発音が聞こえてきた）"
+translate japanese strings:
+    old "….\n….\n….{#ch4.6_th_001}"
+    new "………。　……。　…。"
+
+translate japanese strings:
+    old "In the end, we missed catching the Bomb User by just one step.{#ch4.6_th_002}"
+    new "（結局、あと一歩の所で俺達は、　爆弾使いを捕まえることができなかった）"
+
+translate japanese strings:
+    old "What's with Louise? She's acting all hesitant for some reason.{#ch4.6_th_003}"
+    new "（なんだぁ、ルイズのやつ？　やけにモジモジしやがって）"
+
+translate japanese strings:
+    old "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
+    new "（俺とルイズは、爆弾使いを取り逃がしたことを　お姫さまに報告した）"
+
+translate japanese strings:
+    old "Does this mean I'll be ogling Haruna in her maid outfit every day!?{#ch4.6_th_005}"
+    new "（これはもしや、春奈のメイド服姿が毎日　おがめる事になるのではっ！？）"
+
+translate japanese strings:
+    old "Let me imagine it… Haruna in a maid outfit!!{#ch4.6_th_006}"
+    new "（想像してみよう……。　春奈のメイド服姿をっ！！）"
+
+translate japanese strings:
+    old "….{#ch4.6_th_007}"
+    new "………。"
+
+translate japanese strings:
+    old "A lot happened today, huh.{#ch4.6_th_008}"
+    new "（今日は色々あったなぁ）"
+
+translate japanese strings:
+    old "Meeting the princess. Fighting the Bomb User…{#ch4.6_th_009}"
+    new "（お姫さまとの対面。　爆弾使いとの戦闘……）"
+
+translate japanese strings:
+    old "Well, at least Haruna's matter is settled, so that's something.{#ch4.6_th_010}"
+    new "（まぁ、春奈のことが　解決しただけでも良しとするか）"
+
+translate japanese strings:
+    old "Huh? Where did everyone go? Maybe I should go out for a bit.{#ch4.6_th_011}"
+    new "（あれ？　みんなどこに行ったんだろう。　ちょっと出歩いてみるとしますか）"
+
+translate japanese strings:
+    old "Where did Louise go…? Maybe I should go look for her.{#ch4.6_th_012}"
+    new "（ルイズはどこに行ったんだろう……。　ちょっと探してみるか）"
+
+translate japanese strings:
+    old "I wonder how Siesta is doing…? Maybe I should go check on her.{#ch4.6_th_013}"
+    new "（シエスタはどうしてるかな……。　ちょっと様子を見に行くか）"
+
+translate japanese strings:
+    old "I think she's exaggerating… but those earnest eyes really do cut deep.{#ch4.6_th_014}"
+    new "（それは買いかぶりだと思うんだけどな……。　でも、この純粋な視線が痛い）"
+
+translate japanese strings:
+    old "Is Haruna all right? Maybe I should go check on her…{#ch4.6_th_015}"
+    new "（春奈は大丈夫かな？　ちょっと様子を見てみるか……）"
+
+translate japanese strings:
+    old "Is that singing? It must be coming from Haruna's room.{#ch4.6_th_016}"
+    new "（これは歌声？　春奈の部屋からだよな）"
+
+translate japanese strings:
+    old "Since I'm here anyway, maybe I'll take a walk around the castle…{#ch4.6_th_017}"
+    new "（せっかくだから、お城の中でも　歩いてみるか……）"
+
+translate japanese strings:
+    old "….\n….\n….{#ch4.6_th_018}"
+    new "………。　……。　…。"
+
+translate japanese strings:
+    old "Your Highness…{#ch4.6_th_019}"
+    new "（お姫さま……）"
+

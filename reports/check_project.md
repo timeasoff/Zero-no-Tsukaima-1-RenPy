@@ -4,11 +4,11 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (1)
+## ERROR (0)
 
-- E7 jump 'ch4_6' at game/chapters/4/script-ch4_5.rpy:661 has no label
+- нет
 
-## WARNING (289)
+## WARNING (292)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -76,6 +76,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:476: Herb
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:402: Heroism
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:200: Hide user interface.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12459: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:660: How did you know!?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:379: Increases accuracy of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:391: Increases attack power of 1 ally
@@ -218,6 +219,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:478: Herb
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:401: Heroism
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:191: Hide user interface.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12465: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:662: How did you know!?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:381: Increases accuracy of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:387: Increases attack power of 1 ally
@@ -299,13 +301,13 @@
 - I1 ch1: 1313 script strings > 1244 source talk
 - I1 ch2: 1468 script strings > 1382 source talk
 - I1 ch3: 1170 script strings > 1078 source talk
+- I1 ch4: 1143 script strings > 1072 source talk
 
-## INFO (30)
+## INFO (29)
 
-- speakers defined: 33
+- speakers defined: 35
 - overlay K: max=10 used=10 next_free=11
-- voices: refs=4164 ogg=4170 missing=0
-- I1 ch4: strings=838 source_talk=1072 (gap expected)
+- voices: refs=4434 ogg=4440 missing=0
 - I1 ch5: not started (source talk=1470)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
@@ -330,6 +332,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=103 in 8 file(s)
-- labels=264 rpy=73 strings(strict=4727) tl_old=japanese:5217,russian:5244
+- image map: ids=312 named=148 open=164 | placeholders=186 in 9 file(s)
+- labels=269 rpy=74 strings(strict=5029) tl_old=japanese:5520,russian:5547
 

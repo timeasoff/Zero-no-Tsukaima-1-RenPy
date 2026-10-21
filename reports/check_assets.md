@@ -1,19 +1,19 @@
 # Проверка ассетов
 
-Дата: 2026-10-18 06:29
+Дата: 2026-10-21 21:34
 
 ## INFO (1)
 
-- В очереди transcriptions_ja_ru.csv: 12407 строк (помечено использованными: 2631); из проверенной выборки помечено: 713
+- В очереди transcriptions_ja_ru.csv: 12137 строк (помечено использованными: 2901); из проверенной выборки помечено: 983
 
 ## Статистика
 
-- chapter_4_images: 22
-- chapter_4_voices: 713
-- transcriptions_consumed_rows: 2631
-- transcriptions_queue_rows: 12407
-- voices_used_in_scope: 713
-- voices_used_row_consumed: 713
+- chapter_4_images: 23
+- chapter_4_voices: 983
+- transcriptions_consumed_rows: 2901
+- transcriptions_queue_rows: 12137
+- voices_used_in_scope: 983
+- voices_used_row_consumed: 983
 - voices_used_row_still_in_queue: 0
 
 OK — проблем не найдено.

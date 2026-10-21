@@ -904,3 +904,83 @@ translate russian strings:
 
     old "Suddenly, a loud explosion was heard."
     new "Вдруг раздался оглушительный взрыв."
+translate russian strings:
+    old "….\n….\n….{#ch4.6_th_001}"
+    new "….
+….
+…."
+
+translate russian strings:
+    old "In the end, we missed catching the Bomb User by just one step.{#ch4.6_th_002}"
+    new "В итоге мы не догнали бомбиста — всего на шаг."
+
+translate russian strings:
+    old "What's with Louise? She's acting all hesitant for some reason.{#ch4.6_th_003}"
+    new "Что за дела у Луизы? Почему-то мямлит и тянет."
+
+translate russian strings:
+    old "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
+    new "Сайто и Луиза доложили принцессе, что упустили бомбиста."
+
+translate russian strings:
+    old "Does this mean I'll be ogling Haruna in her maid outfit every day!?{#ch4.6_th_005}"
+    new "Это что, мне теперь каждый день пялиться на Харуну в форме горничной!?"
+
+translate russian strings:
+    old "Let me imagine it… Haruna in a maid outfit!!{#ch4.6_th_006}"
+    new "Прикину… Харуна в форме горничной!!"
+
+translate russian strings:
+    old "….{#ch4.6_th_007}"
+    new "…."
+
+translate russian strings:
+    old "A lot happened today, huh.{#ch4.6_th_008}"
+    new "Ну и день сегодня выдался."
+
+translate russian strings:
+    old "Meeting the princess. Fighting the Bomb User…{#ch4.6_th_009}"
+    new "Встреча с принцессой. Бой с бомбистом…"
+
+translate russian strings:
+    old "Well, at least Haruna's matter is settled, so that's something.{#ch4.6_th_010}"
+    new "Ну, хоть с Харуной всё уладилось — и то хорошо."
+
+translate russian strings:
+    old "Huh? Where did everyone go? Maybe I should go out for a bit.{#ch4.6_th_011}"
+    new "Э? Куда все делись? Может, пройтись немного."
+
+translate russian strings:
+    old "Where did Louise go…? Maybe I should go look for her.{#ch4.6_th_012}"
+    new "Куда делась Луиза…? Может, стоит её поискать."
+
+translate russian strings:
+    old "I wonder how Siesta is doing…? Maybe I should go check on her.{#ch4.6_th_013}"
+    new "Как там Сиеста…? Надо бы заглянуть к ней."
+
+translate russian strings:
+    old "I think she's exaggerating… but those earnest eyes really do cut deep.{#ch4.6_th_014}"
+    new "По-моему, она преувеличивает… но этот чистый взгляд и правда бьёт по сердцу."
+
+translate russian strings:
+    old "Is Haruna all right? Maybe I should go check on her…{#ch4.6_th_015}"
+    new "С Харуной всё в порядке? Надо бы заглянуть к ней…"
+
+translate russian strings:
+    old "Is that singing? It must be coming from Haruna's room.{#ch4.6_th_016}"
+    new "Это поёт? Наверное, из комнаты Харуны."
+
+translate russian strings:
+    old "Since I'm here anyway, maybe I'll take a walk around the castle…{#ch4.6_th_017}"
+    new "Раз уж я здесь, пожалуй, прогуляюсь по замку…"
+
+translate russian strings:
+    old "….\n….\n….{#ch4.6_th_018}"
+    new "….
+….
+…."
+
+translate russian strings:
+    old "Your Highness…{#ch4.6_th_019}"
+    new "Принцесса…"
+

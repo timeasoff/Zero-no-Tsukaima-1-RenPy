@@ -898,3 +898,55 @@ translate japanese strings:
 
     old "Is there other information?{#ch4.5_c256c}"
     new "他に情報は？"
+translate japanese strings:
+    old "She really is hardworking, isn't she?"
+    new "ルイズは努力家なんだな"
+
+translate japanese strings:
+    old "Why not try doing it without relying on books?{#ch4.6_c1086}"
+    new "本に頼らないってどうだ？"
+
+translate japanese strings:
+    old "Why not ask Tabitha about it?"
+    new "タバサに聞いてみるのは？"
+
+translate japanese strings:
+    old "That's not true at all."
+    new "そんなことないよ"
+
+translate japanese strings:
+    old "Would it be normal in my world?"
+    new "俺の世界だったら普通かな？"
+
+translate japanese strings:
+    old "It was because of Louise's power."
+    new "ルイズの力があったからだよ"
+
+translate japanese strings:
+    old "Japanese songs, I guess."
+    new "邦楽かなぁ"
+
+translate japanese strings:
+    old "Western songs, maybe."
+    new "洋楽かな"
+
+translate japanese strings:
+    old "Actually, I mostly just listen."
+    new "実は聞いてるだけ"
+
+translate japanese strings:
+    old "I'm on the princess's side."
+    new "俺はお姫さまの味方だ"
+
+translate japanese strings:
+    old "Why not take Louise into your service?"
+    new "ルイズを側近に迎えたら？"
+
+translate japanese strings:
+    old "You have to protect yourself."
+    new "自分の身は自分で守らないと"
+
+translate japanese strings:
+    old "Go on a date with Henrietta"
+    new "アンリエッタとデートをします"
+

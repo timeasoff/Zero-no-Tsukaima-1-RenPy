@@ -142,11 +142,11 @@
         "title": "Синтаксис Ren'Py",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:39.104873",
+        "timestamp": "2026-10-21T20:57:21.387767",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_renpy_syntax.py --chapter 4",
-          "stdout": "============================================================\nПроверка синтаксиса Ren'Py\n============================================================\n\nOK — проблем не найдено.\n\nОтчёт: reports\\check_renpy_syntax.md\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_renpy_syntax.py --chapter 4",
+          "stdout": "============================================================\nПроверка синтаксиса Ren'Py\n============================================================\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_renpy_syntax.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -156,11 +156,11 @@
         "title": "Типографика RU",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:39.190058",
+        "timestamp": "2026-10-21T20:57:21.609421",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_typography.py --lang ru --chapter 4",
-          "stdout": "============================================================\nПроверка типографики (lang=ru, target=4)\n============================================================\n\nINFO:\n  RU: проверено 667 строк new, вне главы 4: 4179\n\nSTATS:\n  ru_strings_checked: 667\n  ru_strings_out_of_scope: 4179\n\nOK — проблем не найдено.\n\nОтчёт: reports\\check_typography_ru_ch4.md\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_typography.py --lang ru --chapter 4",
+          "stdout": "============================================================\nПроверка типографики (lang=ru, target=4)\n============================================================\n\nINFO:\n  RU: проверено 1070 строк new, вне главы 4: 4195\n\nSTATS:\n  ru_strings_checked: 1070\n  ru_strings_out_of_scope: 4195\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_ru_ch4.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -170,11 +170,11 @@
         "title": "Типографика EN",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:39.257722",
+        "timestamp": "2026-10-21T20:57:21.783069",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_typography.py --lang en --chapter 4",
-          "stdout": "============================================================\nПроверка типографики (lang=en, target=4)\n============================================================\n\nSTATS:\n  en_strings_checked: 667\n\nOK — проблем не найдено.\n\nОтчёт: reports\\check_typography_en_ch4.md\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_typography.py --lang en --chapter 4",
+          "stdout": "============================================================\nПроверка типографики (lang=en, target=4)\n============================================================\n\nSTATS:\n  en_strings_checked: 1072\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_en_ch4.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -184,11 +184,11 @@
         "title": "Заглушки",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:39.318957",
+        "timestamp": "2026-10-21T20:57:21.919170",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_placeholders.py --chapter 4",
-          "stdout": "============================================================\nПроверка заглушек\n============================================================\n\nWARNING (18):\n  [WARNING] game\\chapters\\4\\script-ch4_2.rpy:636: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_2.rpy:641: ID_UNNAMED — id(120) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_2.rpy:646: ID_UNNAMED — id(121) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:58: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:110: ID_UNNAMED — id(122) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:125: ID_UNNAMED — id(124) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:142: ID_UNNAMED — id(125) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:151: ID_UNNAMED — id(122) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:171: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:453: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:479: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:488: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:522: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:531: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:572: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:622: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_3.rpy:639: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game\\chapters\\4\\script-ch4_4.rpy:49: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n\nINFO (1):\n  image_id_map.csv: 164 ID без filename (ожидают заполнения)\n\nOK (с предупреждениями): 18 warning(s)\n\nОтчёт: reports\\check_placeholders.md\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_placeholders.py --chapter 4",
+          "stdout": "============================================================\nПроверка заглушек\n============================================================\n\nWARNING (64):\n  [WARNING] game/chapters/4/script-ch4_2.rpy:636: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_2.rpy:641: ID_UNNAMED — id(120) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_2.rpy:646: ID_UNNAMED — id(121) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:58: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:110: ID_UNNAMED — id(122) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:125: ID_UNNAMED — id(124) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:142: ID_UNNAMED — id(125) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:151: ID_UNNAMED — id(122) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:171: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:453: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:479: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:488: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:522: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:531: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:572: ID_UNNAMED — id(137) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:622: ID_UNNAMED — id(138) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_3.rpy:639: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_4.rpy:50: ID_UNNAMED — id(123) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_5.rpy:39: ID_UNNAMED — id(63) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/4/script-ch4_5.rpy:86: ID_UNNAMED — id(36) — filename не заполнен в image_id_map.csv\n  ... и ещё 44 — см. отчёт\n\nINFO (1):\n  image_id_map.csv: 164 ID без filename (ожидают заполнения)\n\nOK (с предупреждениями): 64 warning(s)\n\nОтчёт: reports/check_placeholders.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -198,11 +198,11 @@
         "title": "Ассеты",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:39.443161",
+        "timestamp": "2026-10-21T20:57:22.191944",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_assets.py --chapter 4",
-          "stdout": "============================================================\nПроверка ассетов\n============================================================\n\nINFO (1):\n  В очереди transcriptions_ja_ru.csv: 12516 строк (помечено использованными: 2522); из проверенной выборки помечено: 604\n\nСтатистика:\n  chapter_4_images: 20\n  chapter_4_voices: 604\n  transcriptions_consumed_rows: 2522\n  transcriptions_queue_rows: 12516\n  voices_used_in_scope: 604\n  voices_used_row_consumed: 604\n  voices_used_row_still_in_queue: 0\n\nOK — проблем не найдено.\n\nОтчёт: reports\\check_assets.md\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_assets.py --chapter 4",
+          "stdout": "============================================================\nПроверка ассетов\n============================================================\n\nINFO (1):\n  В очереди transcriptions_ja_ru.csv: 12137 строк (помечено использованными: 2901); из проверенной выборки помечено: 983\n\nСтатистика:\n  chapter_4_images: 23\n  chapter_4_voices: 983\n  transcriptions_consumed_rows: 2901\n  transcriptions_queue_rows: 12137\n  voices_used_in_scope: 983\n  voices_used_row_consumed: 983\n  voices_used_row_still_in_queue: 0\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_assets.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -212,11 +212,11 @@
         "title": "Озвучка",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:39.557530",
+        "timestamp": "2026-10-21T20:57:24.147439",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_voice_transcriptions.py --chapter 4",
-          "stdout": "============================================================\nПроверка озвучки по transcriptions_ja_ru.csv\n============================================================\n\nINFO (1):\n  377 id из манифеста есть в очереди CSV (строка не удалена/не помечена)\n\nСтатистика:\n  manifest_ids_row_consumed: 2522\n  manifest_ids_row_in_queue: 377\n  manifest_pairs: 2899\n  transcriptions_consumed_rows: 2522\n  transcriptions_queue_rows: 12516\n  transcriptions_skipped_rows: 32\n  voices_used_in_scripts: 604\n  voices_used_row_consumed: 604\n  voices_used_row_still_in_queue: 0\n\nOK — проблем не найдено.\n\nОтчёт: reports\\check_voice_transcriptions.md\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_voice_transcriptions.py --chapter 4",
+          "stdout": "============================================================\nПроверка озвучки по transcriptions_ja_ru.csv\n============================================================\n\nINFO (1):\n  377 id из манифеста есть в очереди CSV (строка не удалена/не помечена)\n\nСтатистика:\n  manifest_ids_row_consumed: 2901\n  manifest_ids_row_in_queue: 377\n  manifest_pairs: 3278\n  transcriptions_consumed_rows: 2901\n  transcriptions_queue_rows: 12137\n  transcriptions_skipped_rows: 32\n  voices_used_in_scripts: 983\n  voices_used_row_consumed: 983\n  voices_used_row_still_in_queue: 0\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_voice_transcriptions.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -224,15 +224,15 @@
       "check_project": {
         "name": "check_project",
         "title": "Проверка проекта",
-        "status": "error",
-        "message": "labels=259 overlayK=10 strings=4918 voices=4055\nerrors=1 warnings=285 info=6\nreport: reports/check_project.md\nRESULT: ERRORS\n",
-        "timestamp": "2026-10-17T18:52:39.660840",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-10-21T20:57:24.382605",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\check_project.py --chapter 4",
-          "stdout": "labels=259 overlayK=10 strings=4918 voices=4055\nerrors=1 warnings=285 info=6\nreport: reports/check_project.md\nRESULT: ERRORS\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/check_project.py --chapter 4",
+          "stdout": "labels=269 overlayK=10 strings=5344 voices=4434\nerrors=0 warnings=286 info=5\nreport: reports/check_project.md\nRESULT: OK\n",
           "stderr": "",
-          "returncode": 1
+          "returncode": 0
         }
       },
       "audio": {
@@ -240,11 +240,11 @@
         "title": "Озвучка: сверка",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:40.013617",
+        "timestamp": "2026-10-21T20:57:26.295153",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\media\\audio_converter.py check",
-          "stdout": "check: строк=4055 ogg=4055 pending=0 нет_аудио=0 нет_в_манифесте=0 предупреждений=3\nотчёт: reports/voice_check.md\nRESULT: OK\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/media/audio_converter.py check",
+          "stdout": "check: строк=4434 ogg=4434 pending=0 нет_аудио=0 нет_в_манифесте=0 предупреждений=3\nотчёт: reports/voice_check.md\nRESULT: OK\n",
           "stderr": "",
           "returncode": 0
         }
@@ -254,11 +254,11 @@
         "title": "Omission Pre-check",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-10-17T18:52:40.331183",
+        "timestamp": "2026-10-21T20:57:42.504238",
         "duration": null,
         "details": {
-          "cmd": "C:\\Python314\\python.exe D:\\gameMake\\ZnT-1\\ZnT1\\tools\\omission_precheck.py --chapter 4",
-          "stdout": "Evidence: reports/sma/ch4/chapter/precheck/20261017-185242-p0a1.md\nOK - кандидатов не найдено.\n",
+          "cmd": "/usr/local/bin/python /workspace/tools/omission_precheck.py --chapter 4",
+          "stdout": "Evidence: reports/sma/ch4/chapter/precheck/20261021-205758-p0a1.md\nOK - кандидатов не найдено.\n",
           "stderr": "",
           "returncode": 0
         }
@@ -355,23 +355,25 @@
         "name": "summary",
         "title": "Финальная сводка",
         "status": "done",
-        "message": "Выполнено 8/17 фаз, ошибок: 1",
+        "message": "Выполнено 10/17 фаз, ошибок: 0",
         "timestamp": null,
         "duration": null,
         "details": {
           "total": 17,
-          "done": 8,
-          "errors": 1
+          "done": 10,
+          "errors": 0
         }
       }
     },
-    "last_run": "2026-10-17T18:52:42.812677",
+    "last_run": "2026-10-21T20:57:58.967315",
     "file_hashes": {
-      "D:\\gameMake\\ZnT-1\\ZnT1\\game\\chapters\\4\\script-ch4_1.rpy": "6308a024d90cbbaed7a1c3ed272cc335",
-      "D:\\gameMake\\ZnT-1\\ZnT1\\game\\chapters\\4\\script-ch4_2.rpy": "ee7018a380cb9e69bf14198d0f4aff57",
-      "D:\\gameMake\\ZnT-1\\ZnT1\\game\\chapters\\4\\script-ch4_2b.rpy": "d813fa643ebe7b940952c6ab791d08c6",
-      "D:\\gameMake\\ZnT-1\\ZnT1\\game\\chapters\\4\\script-ch4_3.rpy": "6a910d12d8db7149e1eccf9572e23b44",
-      "D:\\gameMake\\ZnT-1\\ZnT1\\game\\chapters\\4\\script-ch4_4.rpy": "d5a63957863f5a1b39a00b39b0ce97de"
+      "/workspace/game/chapters/4/script-ch4_1.rpy": "6308a024d90cbbaed7a1c3ed272cc335",
+      "/workspace/game/chapters/4/script-ch4_2.rpy": "ee7018a380cb9e69bf14198d0f4aff57",
+      "/workspace/game/chapters/4/script-ch4_2b.rpy": "d813fa643ebe7b940952c6ab791d08c6",
+      "/workspace/game/chapters/4/script-ch4_3.rpy": "6a910d12d8db7149e1eccf9572e23b44",
+      "/workspace/game/chapters/4/script-ch4_4.rpy": "bcd85cd6508ab43529b86127c1b4fe2a",
+      "/workspace/game/chapters/4/script-ch4_5.rpy": "8d1e0634e744b780768f3da89be1b78c",
+      "/workspace/game/chapters/4/script-ch4_6.rpy": "c4fd91e77615c13a5826c0261f9998fc"
     }
   }
 }

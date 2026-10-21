@@ -12461,3 +12461,1087 @@ translate russian strings:
 
     old "Gh… Just you wait, Bomb User. I will definitely catch you!!"
     new "Кхх… Этот бомбист… ещё пожалеет! Я его обязательно поймаю!!"
+translate russian strings:
+    old "Hmph, I don't need you to worry about it."
+    new "Хм, мне не нужно, чтобы ты за меня волновался."
+
+translate russian strings:
+    old "Damn… Where are you? You're nowhere to be found."
+    new "Чёрт… Где ты? Нигде тебя нет."
+
+translate russian strings:
+    old "First off, we should head to where the explosion happened, shouldn't we?"
+    new "Сначала надо к месту взрыва, верно?"
+
+translate russian strings:
+    old "…Saito, it's not that way! Don't just run off in some random direction! Hah… haah…."
+    new "…Сайто, не туда! Не кидайся в случайную сторону! Ха… ха…"
+
+translate russian strings:
+    old "I thought she'd run off over this way, though."
+    new "Думал, она убежала в эту сторону."
+
+translate russian strings:
+    old "Hahaha… Seriously, I can't help but admire how dedicated you two are to your work."
+    new "Ха-ха-ха… Серьёзно, не могу не восхищаться тем, как усердно вы двое работаете."
+
+translate russian strings:
+    old "Partner, she's on the roof."
+    new "Партнёр, она на крыше."
+
+translate russian strings:
+    old "What!"
+    new "Что!"
+
+translate russian strings:
+    old "There she is!! It's all that guy's fault, and I'm the one who…!!"
+    new "Вот она!! Из-за этого гада я… я…!!"
+
+translate russian strings:
+    old "Watch yourselves, you two. She's far more skilled than she looks. Underestimate her and it costs you your life."
+    new "Берегитесь, вы двое. Она куда опытнее, чем кажется. Недооцените — и жизни не сбережёте."
+
+translate russian strings:
+    old "Yeah, I can believe that."
+    new "Да, это я как-то понимаю."
+
+translate russian strings:
+    old "O-of course, obviously."
+    new "К-конечно, разумеется."
+
+translate russian strings:
+    old "…Are you scared, Louise?"
+    new "…Ты боишься, Луиза?"
+
+translate russian strings:
+    old "…Mm.…I'm fine."
+    new "…Угу.…Всё в порядке."
+
+translate russian strings:
+    old "As long as Saito is… As long as he'll protect me, I'm fine."
+    new "Пока Сайто… Пока он меня защищает, я в порядке."
+
+translate russian strings:
+    old "Got it. Then let's start the fight."
+    new "Понял. Тогда начинаем."
+
+translate russian strings:
+    old "Yeah.{#ch4.6_v6141}"
+    new "Да."
+
+translate russian strings:
+    old "Here she comes, partner."
+    new "Эй, партнёр, и она идёт!"
+
+translate russian strings:
+    old "Her bombs aren't magic, right? There's nothing I can do about them? It's not like I can just absorb them like usual."
+    new "Её бомбы — не магия, так? Против них я ничего не могу? Но ведь моё обычное поглощение магии тут не сработает?"
+
+translate russian strings:
+    old "For now, you mix things up with your speed. The noble's girl casts magic while she's at it. That's all we've got."
+    new "Пока ты сбиваешь её скоростью, благородная барышня тем временем атакует магией. Больше нам нечего предпринять."
+
+translate russian strings:
+    old "Got it. Doesn't look like there's anything else to do. Louise, we're going with that!"
+    new "Понял. Похоже, другого выхода нет. Луиза, действуем так!"
+
+translate russian strings:
+    old "Don't give me orders. I know perfectly well what I'm doing."
+    new "Не указывай мне. Я и так всё прекрасно понимаю."
+
+translate russian strings:
+    old "…Here we go!!"
+    new "…Поехали!!"
+
+translate russian strings:
+    old "…Heh."
+    new "…Хех."
+
+translate russian strings:
+    old "…Tch!!!! Against an opponent like this…"
+    new "…Кх!! С таким противником…"
+
+translate russian strings:
+    old "How about… giving up? If you keep this up, you don't stand a chance."
+    new "Не лучше ли… сдаться? Если так пойдёт дальше, победы тебе не видать."
+
+translate russian strings:
+    old "…Come and get me!!"
+    new "…Ну, подходи!"
+
+translate russian strings:
+    old "Louise! Bombs! Get down!!"
+    new "Луиза! Бомбы! Ложись!!"
+
+translate russian strings:
+    old "Hyaah!!"
+    new "Хия-а!!"
+
+translate russian strings:
+    old "Guaah…!!"
+    new "Гуа…!!"
+
+translate russian strings:
+    old "…! Blindfolding trick?! Partner, let's get out of here!"
+    new "…! Слепит?! Партнёр, наконец-то уходим отсюда!"
+
+translate russian strings:
+    old "No good… I can't see a thing, it's all blurred!!"
+    new "Ничего не вижу… Всё в мутной пелене!!"
+
+translate russian strings:
+    old "Uuaah… kuuhhh!!!"
+    new "У-а… ку-ух!!!"
+
+translate russian strings:
+    old "Youu! She got away when I almost had her!! Next time I see her, I won't let her escape!"
+    new "У-у-у! Она сбежала, когда я её почти поймала!! В следующий раз не уйдёт!"
+
+translate russian strings:
+    old "Just watch!"
+    new "Смотри!"
+
+translate russian strings:
+    old "When I do catch her, I'll repay the humiliation I suffered a hundredfold over!!!"
+    new "Когда я её поймаю, верну всё унижение, которое мне пришлось вытерпеть, в несколько сотен раз больше!!!"
+
+translate russian strings:
+    old "Louise, are you hurt anywhere?"
+    new "Луиза, ты не ранена?"
+
+translate russian strings:
+    old "Eh…!? …Yeah, I'm fine."
+    new "Э…!? …Да, всё в порядке."
+
+translate russian strings:
+    old "I see… Then let's head back to the castle and report to the princess."
+    new "Понятно… Тогда возвращаемся во дворец и докладываем принцессе."
+
+translate russian strings:
+    old "Yeah, that's right."
+    new "Да, именно так."
+
+translate russian strings:
+    old "Looks like we'll get home safe. Good work, both of you — the partner and the lady."
+    new "Похоже, мы благополучно вернёмся. Молодцы, оба: и партнёр, и барышня."
+
+translate russian strings:
+    old "Yeah… you helped again this time, Delphy."
+    new "Да… ты снова выручил, Дерф."
+
+translate russian strings:
+    old "Just leave it to me."
+    new "Полагайся на меня."
+
+translate russian strings:
+    old "Saito…{#ch4.6_v6150}"
+    new "Сайто…"
+
+translate russian strings:
+    old "What is it, Louise?"
+    new "Что такое, Луиза?"
+
+translate russian strings:
+    old "…Um… no, it's… …I'm going back to the castle."
+    new "…Ум… нет, я… …Я иду обратно во дворец."
+
+translate russian strings:
+    old "Sure, let's head back."
+    new "Что ж, пойдём обратно."
+
+translate russian strings:
+    old "I see. Even so, thanks to your efforts this time, we were able to repel them safely."
+    new "Понятно. И всё же благодаря вашим стараниям на этот раз удалось отбиться без потерь."
+
+translate russian strings:
+    old "Allow me to give thanks on behalf of the citizens."
+    new "Позвольте передать благодарность от жителей города."
+
+translate russian strings:
+    old "Such unnecessary words."
+    new "Что вы, это слишком щедрые слова."
+
+translate russian strings:
+    old "Stay at the palace tonight, and take the fatigue of your journey off slowly."
+    new "Останьтесь сегодня во дворце и спокойно отдохните от дороги."
+
+translate russian strings:
+    old "Thank you, Your Highness."
+    new "Благодарю, принцесса."
+
+translate russian strings:
+    old "Thank you, Your Majesty.{#ch4.6_v6153}"
+    new "Благодарю, Её Величество."
+
+translate russian strings:
+    old "No, no, it's quite all right, Louise."
+    new "Нет-нет, всё в порядке, Луиза."
+
+translate russian strings:
+    old "I would like to make at least some amends for my own foolishness, which would have put even my precious friends in danger."
+    new "Хотелось бы хоть частично возместить свою глупость, из-за которой я чуть не подставила даже моих дорогих друзей."
+
+translate russian strings:
+    old "We acted of our own will. I never once thought the princess was to blame."
+    new "Мы действовали по собственной воле. Ни разу я не подумала, что виновата принцесса."
+
+translate russian strings:
+    old "Mm… Thank you, Louise."
+    new "Мм… Спасибо, Луиза."
+
+translate russian strings:
+    old "Well then, I have a great many things to clean up. I will take my leave."
+    new "Что ж, у меня теперь множество дел, которые нужно привести в порядок. Позвольте откланяться."
+
+translate russian strings:
+    old "Mr. Saito!!"
+    new "Сайто-сан!!"
+
+translate russian strings:
+    old "Mr. Hiraga!!"
+    new "Хирага-кун!!"
+
+translate russian strings:
+    old "Hey, you two — are you both unharmed?"
+    new "Эй, вы двое — оба целы?"
+
+translate russian strings:
+    old "Yes. The castle soldiers saw us to safety properly."
+    new "Да. Солдаты замка надлежащим образом позаботились о нашей безопасности."
+
+translate russian strings:
+    old "Are you all right, Mr. Hiraga?"
+    new "Хирага-кун, ты в порядке?"
+
+translate russian strings:
+    old "I'm fine. Even if I am hurt, it's nothing but a scratch."
+    new "Я в порядке. Даже если и ранен, то царапина и ничего больше."
+
+translate russian strings:
+    old "But I'm glad it wasn't you, Haruna."
+    new "Но я рада, что пострадала не ты, Харуна."
+
+translate russian strings:
+    old "Thank you, Miss Louise. Please at least let me say thanks."
+    new "Спасибо, Луиза-сан. Позвольте мне хотя бы поблагодарить."
+
+translate russian strings:
+    old "It's nothing, don't worry about it. That settles the matter of Haruna between the Academy and the palace."
+    new "Ничего, не стоит внимания. Тем самым вопрос с Харуной между Академией и дворцом закрыт."
+
+translate russian strings:
+    old "But the problem isn't solved yet."
+    new "Но проблема ещё не решена."
+
+translate russian strings:
+    old "Huh? Is there still something?"
+    new "Что? Разве что-то ещё осталось?"
+
+translate russian strings:
+    old "Yes, exactly. This is a very serious problem."
+    new "Да, именно так. Это очень серьёзная проблема."
+
+translate russian strings:
+    old "What on earth could it be?"
+    new "Что же это за проблема?"
+
+translate russian strings:
+    old "To put it plainly: money. She's a commoner, but a girl has been added to the household, hasn't she? Her current allowance won't come close to covering it."
+    new "Если сказать прямо — деньги. Хотя она и простолюдинка, но ведь к ней прибавилась ещё и девушка, так? Текущей суммы на её содержание будет совсем недостаточно."
+
+translate russian strings:
+    old "Heh~. What a difference in treatment compared to me, if I may say so, my master."
+    new "Хех~. Вот какая разница в отношении к нам по сравнению со мной, моя госпожа."
+
+translate russian strings:
+    old "My, is something rather mistaken going on in your head? You're a familiar, aren't you? That's only natural."
+    new "Простите, у вас в голове что-то перепуталось? Вы же фамильяр. Это само собой разумеется."
+
+translate russian strings:
+    old "….{#ch4.6_v11580}"
+    new "…."
+
+translate russian strings:
+    old "It is a master's duty to provide for their familiar. That's all well and good, though. But Haruna…"
+    new "Содержать фамильяра — долг хозяина. В этом всё в порядке. Но вот Харуна…"
+
+translate russian strings:
+    old "That's true. If only we could find a way to get back to Japan soon…"
+    new "Верно. Если бы мы поскорее нашли способ вернуться в Японию…"
+
+translate russian strings:
+    old "Yeah… that's true…"
+    new "Да… верно…"
+
+translate russian strings:
+    old "Oh! That's a good idea! Miss Haruna, would you like to help us with the kitchen work at the Academy?"
+    new "О! Отличная мысль! Харуна-сан, не хотите ли вы помочь нам с кухонной работой в Академии?"
+
+translate russian strings:
+    old "Oh…! Right! That's a good idea, isn't it!"
+    new "О…! Точно! Хорошая же мысль!"
+
+translate russian strings:
+    old "Haruna! I think that's a great idea too!"
+    new "Харуна! Я тоже считаю, что отличная идея!"
+
+translate russian strings:
+    old "Why is Saito so happy about that?"
+    new "И почему Сайто так этому радуется?"
+
+translate russian strings:
+    old "Hmph, n-no, you don't need to worry about it."
+    new "Хм, и-и-и, не волнуйся ты за меня, ладно?"
+
+translate russian strings:
+    old "…Hmph."
+    new "…Хм."
+
+translate russian strings:
+    old "Hmm, but I've always left everything around the house to my parents… I don't know if I can really do anything…"
+    new "Хм, но я всю жизнь поручала все домашние дела родителям… Право же, не знаю, смогу ли я чем-то помочь…"
+
+translate russian strings:
+    old "You needn't worry about that. Everyone here is kind and helpful. They'll teach you one thing at a time, carefully."
+    new "Не стоит беспокоиться. Все здесь добры и приветливы. Они научат тебя всему — шаг за шагом, обстоятельно."
+
+translate russian strings:
+    old "If Miss Haruna feels like it, please don't hesitate to come to any of us."
+    new "Если у Харуна-сан будет желание, пусть не стесняется обращаться к любому из нас."
+
+translate russian strings:
+    old "Yes… Thank you.{#ch4.6_v2314}"
+    new "Да… Спасибо."
+
+translate russian strings:
+    old "Siesta told me Louise was in here. There's quite a mountain of books, isn't there?"
+    new "Сиеста сказала, что Луиза здесь. А книг-то целая гора."
+
+translate russian strings:
+    old "Louise! You in there?"
+    new "Луиза! Ты тут?"
+
+translate russian strings:
+    old "Saito, you're supposed to keep quiet in the library. Manners, you know?"
+    new "Сайто, в библиотеке нужно соблюдать тишину. Манеры, помнишь?"
+
+translate russian strings:
+    old "Ah, sorry. Whoa, that's a mountain of books. Have you read all of these?"
+    new "А, извини. Ого, а это целая гора книг. Ты все их прочитала?"
+
+translate russian strings:
+    old "They're books on magic. Some of them are valuable works written down from the legends of Founder Brimir Valtori, from long ago."
+    new "Это книги по магии. Среди них есть ценные труды, написанные по легендам об Основателе Бримире Варитори, дошедшие до нас из глубокой старины."
+
+translate russian strings:
+    old "Normally, these books can't be read without the palace's permission — but I got it from the princess."
+    new "По сути, читать эти книги без разрешения дворца нельзя, но я получила его от принцессы."
+
+translate russian strings:
+    old "Hmm, I have no idea what any of that means. What are you researching?"
+    new "Хм, я совсем ничего не понял. Что ты изучаешь?"
+
+translate russian strings:
+    old "…The magic of the Void."
+    new "…Магию Пустоты."
+
+translate russian strings:
+    old "….{#ch4.6_v8551}"
+    new "…."
+
+translate russian strings:
+    old "A power too great for human hands."
+    new "Сила, слишком великая для человеческих рук."
+
+translate russian strings:
+    old "It's… a bit unsettling, you could say. When I'm alone… I always end up feeling anxious."
+    new "Это… немного беспокоит, знаешь. Когда я остаюсь одна… меня всё время томит тревога."
+
+translate russian strings:
+    old "After all… it is unsettling. In my case, the magic is still incomplete, and its nature is unknown."
+    new "Всё-таки… жутковато же. У меня магия пока несовершенна и по сути непознаваема."
+
+translate russian strings:
+    old "I thought that if I could learn even a little something new, it would be worth reading… but I understand absolutely nothing."
+    new "Я читала, надеясь узнать хоть что-нибудь новое… но я не поняла ровно ничего."
+
+translate russian strings:
+    old "….{#ch4.6_v8552}"
+    new "…."
+
+translate russian strings:
+    old "Louise really is incredibly serious, isn't she?"
+    new "Луиза ужасно серьёзная, да?"
+
+translate russian strings:
+    old "Oh? Is that a bad thing?"
+    new "О? Это плохо?"
+
+translate russian strings:
+    old "No, it's not that I could ever match her. Um, wait, that's not what I—"
+    new "Нет, я бы никогда не дотянул до неё. Э-э, нет, я не то имел в виду—"
+
+translate russian strings:
+    old "When she's focused on something, the way she comes across is… quite different from when she's with me, I guess."
+    new "Когда она занята делом, она кажется… совсем другой, чем когда она со мной."
+
+translate russian strings:
+    old "Really?{#ch4.6_v4720}"
+    new "Правда?"
+
+translate russian strings:
+    old "Why not try doing it without relying on books?{#ch4.6_v8556}"
+    new "А не попробовать ли без книг?"
+
+translate russian strings:
+    old "I'd be relieved if it did, but… no, that won't work either."
+    new "Если бы это сработало, я бы успокоилась, но… нет, так тоже не выйдет."
+
+translate russian strings:
+    old "In the end, where this power comes from and where it's heading… I have no way of understanding any of it on my own."
+    new "В конце концов, откуда эта сила и куда она направлена… я никак не могу понять это в одиночку."
+
+translate russian strings:
+    old "Thinking about it that way… I'm not even a wielder of the Void, I'm just—"
+    new "Если так подумать… я даже не носитель Пустоты, я всего лишь—"
+
+translate russian strings:
+    old "—maybe only someone who is being lured to the Void."
+    new "—может, человек, которого тянет к Пустоте."
+
+translate russian strings:
+    old "….{#ch4.6_v8557}"
+    new "…."
+
+translate russian strings:
+    old "If it's about books, maybe you should ask Tabitha about it?"
+    new "Если уж речь о книгах, может, стоит посоветоваться с Табасой?"
+
+translate russian strings:
+    old "I see, Tabitha. If I say I'm looking for books on Founder Brimir, she might know something."
+    new "Понятно, Табаса. Если я скажу, что ищу книги об Основателе Бримире, она, может быть, что-то знает."
+
+translate russian strings:
+    old "Well, I can't exactly tell Tabitha I'm researching the power of the Void, can I?"
+    new "Ну, я же не могу сказать Табасе, что изучаю силу Пустоты, верно?"
+
+translate russian strings:
+    old "That's true, but never mind. Once we're back at the Academy, I'll ask her about it."
+    new "Верно, но ладно. Когда вернёмся в Академию, попрошу у неё совета."
+
+translate russian strings:
+    old "You're going to start investigating the Bomb User tomorrow, aren't you?"
+    new "С завтрашнего дня ты начнёшь расследование бомбиста, верно?"
+
+translate russian strings:
+    old "You'd better not let your magic research get out of hand, or you'll wear yourself out."
+    new "Следи, чтобы из-за магии ты себя не надорвал, а то иначе долго не протянешь."
+
+translate russian strings:
+    old "I know, I know."
+    new "Знаю, знаю."
+
+translate russian strings:
+    old "But maybe I should learn from Louise's serious, devoted side too. I just can't go around swinging a sword, though."
+    new "Но, может, мне тоже стоит перенять её серьёзность и преданность. Только вот мечом-то махать мне никак нельзя."
+
+translate russian strings:
+    old "You don't have to copy me. That wouldn't be like you at all."
+    new "Тебе не обязательно меня копировать. Это было бы совсем не в твоём духе."
+
+translate russian strings:
+    old "Right, then I'll head back to my room too."
+    new "Тогда и я пойду к себе в комнату."
+
+translate russian strings:
+    old "….{#ch4.6_v4729}"
+    new "…."
+
+translate russian strings:
+    old "Saito."
+    new "Сайто."
+
+translate russian strings:
+    old "Wh-what is it?"
+    new "Ч-чего?"
+
+translate russian strings:
+    old "Thank you.{#ch4.6_v4731}"
+    new "Спасибо."
+
+translate russian strings:
+    old "Good evening, Siesta."
+    new "Добрый вечер, Сиеста."
+
+translate russian strings:
+    old "Eh…? Mr. Saito?"
+    new "Э…? Сайто-сан?"
+
+translate russian strings:
+    old "…Wah! Mr. Saito! Please, come right in!"
+    new "…Ва-а! Сайто-сан! Пожалуйста, заходите смело!"
+
+translate russian strings:
+    old "Um, um, Mr. Saito, I'm sorry! I came along on my own without warning today…"
+    new "Э-э, Сайто-сан, простите! Я сегодня пришла без предупреждения, сама по себе…"
+
+translate russian strings:
+    old "N-no, it's already all settled. Don't worry about it. I was just… startled, that's all."
+    new "Н-нет, всё уже уладилось. Не волнуйся. Я просто… был ошеломлён, вот и всё."
+
+translate russian strings:
+    old "For a while there, the Bomb User showed up and I thought… I didn't know what would happen."
+    new "Некоторое время был бомбист, и я подумала… я не знала, чем всё кончится."
+
+translate russian strings:
+    old "I'm so glad Mr. Saito won his fight with the Bomb User and came through it safely."
+    new "Я так рада, что Сайто-сан победил бомбиста и остался цел."
+
+translate russian strings:
+    old "Even after we evacuated, I kept praying that Mr. Saito would be safe. You know?"
+    new "Даже после того, как мы эвакуировались, я всё молилась, чтобы Сайто-сан был в безопасности. Знаете?"
+
+translate russian strings:
+    old "Ahh, that's… kind of embarrassing…"
+    new "А-а, это… немного смущает…"
+
+translate russian strings:
+    old "But Miss Valliere really does know Her Majesty personally, don't you?"
+    new "Но мисс Вальер и правда лично знакома с Её Величеством, не так ли?"
+
+translate russian strings:
+    old "Yeah, I was surprised at first, too. Apparently, back when we were little, we used to play together."
+    new "Да, я тоже сначала удивился. Оказалось, в детстве мы с ней вместе играли."
+
+translate russian strings:
+    old "I keep wondering. Why was I born a commoner, I wonder?"
+    new "Знаете, я всё думаю. Почему же я родилась простолюдинкой?"
+
+translate russian strings:
+    old "….{#ch4.6_v8569}"
+    new "…."
+
+translate russian strings:
+    old "Doesn't it seem strange that your status is decided the moment you're born?"
+    new "Разве не странно, что положение определяется в момент рождения?"
+
+translate russian strings:
+    old "No, I do realize I'm not in any position to say such things."
+    new "Нет, я понимаю, что мне не полагается говорить такое."
+
+translate russian strings:
+    old "But perhaps because I'm that sort of person, I was drawn to you, Mr. Saito."
+    new "Но, может, именно потому, что я такая — простолюдинка, — я и влечусь к вам, Сайто-сан."
+
+translate russian strings:
+    old "To me?"
+    new "Ко мне?"
+
+translate russian strings:
+    old "You're a free man, Mr. Saito. You're not bound by anything."
+    new "Вы свободный человек, Сайто-сан. Вас ничто не связывает."
+
+translate russian strings:
+    old "You overcome everything that we, who consider it perfectly normal, brush off as nothing. You're an amazing person."
+    new "Вы преодолеваете всё то, что мы, считая это обычным делом, не замечаем вовсе. Вы невероятный человек."
+
+translate russian strings:
+    old "D-do you think so?{#ch4.6_v8571}"
+    new "Т-ты так думаешь?"
+
+translate russian strings:
+    old "Yes. It must be so."
+    new "Да. Конечно, так и есть."
+
+translate russian strings:
+    old "That's not true at all. You're exaggerating, Siesta."
+    new "Ничего подобного. Ты преувеличиваешь, Сиеста."
+
+translate russian strings:
+    old "Really?{#ch4.6_v14254}"
+    new "Правда?"
+
+translate russian strings:
+    old "That's right. I'm neither a superhero nor a mage."
+    new "Именно. Я не супергерой и не маг."
+
+translate russian strings:
+    old "I suppose. Just a guy without any common sense?"
+    new "Наверное. Просто человек без здравого смысла?"
+
+translate russian strings:
+    old "Without common sense… is it?"
+    new "Без здравого смысла… что ли?"
+
+translate russian strings:
+    old "In my world? It'd be normal, I suppose. There are still places with class systems, but mostly it's an ordinary thing."
+    new "В моём мире? Пожалуй, обычное дело. Кое-где сословные порядки ещё сохранились, но в целом ничего особенного."
+
+translate russian strings:
+    old "Is that so…? I wish I could be born into your world. It must be a wonderful place, right?"
+    new "Неужели…? Хотелось бы мне родиться в вашем мире. Должно быть, это чудесное место, правда?"
+
+translate russian strings:
+    old "I wonder? My world is my own, and it has problems of its own. I think problems are the same everywhere."
+    new "Не знаю. У моего мира свои проблемы. Думаю, проблемы везде одинаковые."
+
+translate russian strings:
+    old "The same everywhere…?"
+    new "Везде одинаковые…?"
+
+translate russian strings:
+    old "I think it was because of Louise's power. Honestly, the only reason I've survived this long is because of Louise's power."
+    new "Думаю, всё благодаря силе Луизы. Честно говоря, я до сих пор жив лишь потому, что у Луизы есть сила."
+
+translate russian strings:
+    old "Miss Valliere's power…?"
+    new "Сила мисс Вальер…?"
+
+translate russian strings:
+    old "But you've got an amazing power too, Siesta."
+    new "Но у тебя тоже есть замечательная сила, Сиеста."
+
+translate russian strings:
+    old "Really?{#ch4.6_v14259}"
+    new "Правда?"
+
+translate russian strings:
+    old "Your smile. That's already full of charm."
+    new "Твоя улыбка. В ней уже столько обаяния."
+
+translate russian strings:
+    old "Is that so?{#ch4.6_v14260}"
+    new "В самом деле?"
+
+translate russian strings:
+    old "You can be confident. I guarantee it. Siesta's smile is the best in the world."
+    new "Можешь не сомневаться. Я гарантирую. Улыбка Сиесты — лучшая в мире."
+
+translate russian strings:
+    old "Well… Mr. Saito, honestly."
+    new "Ну… что вы, Сайто-сан."
+
+translate russian strings:
+    old "You don't have to care about status. Siesta has something wonderful, so you can rest easy."
+    new "Тебе не нужно считаться с положением. У Сиесты есть кое-что замечательное, так что можешь не волноваться."
+
+translate russian strings:
+    old "You'll absolutely be able to be happy."
+    new "Ты точно сможешь быть счастливой."
+
+translate russian strings:
+    old "Yes, I understand. Thank you."
+    new "Да, я поняла. Спасибо."
+
+translate russian strings:
+    old "Aaaaah-aaaaaah. Aaaah-aaah."
+    new "А-а-а-а-а-а. А-а-а-а."
+
+translate russian strings:
+    old "Haruna?{#ch4.6_v8583}"
+    new "Харуна?"
+
+translate russian strings:
+    old "Kyaa! Mr. Hiraga! You were right there…"
+    new "Кя-я! Хирага-кун! Ты тут был…"
+
+translate russian strings:
+    old "I was just… checking on you. …Was I in the way?"
+    new "Я просто… зашёл посмотреть, как ты. …Я тебе помешал?"
+
+translate russian strings:
+    old "No, no. It's fine."
+    new "Нет-нет. Всё в порядке."
+
+translate russian strings:
+    old "So, what song were you singing?"
+    new "Так что за песню ты пела?"
+
+translate russian strings:
+    old "The song we're supposed to sing at the next club meeting."
+    new "Песню, которую мы должны спеть на следующей встрече хора."
+
+translate russian strings:
+    old "But I didn't expect you to hear it… It's a little embarrassing."
+    new "Но я не думала, что ты услышишь… Немного неловко."
+
+translate russian strings:
+    old "No, you were good. Come on, I can't sing at all."
+    new "Нет, ты хорошо спела. Ну же, я совсем петь не умею."
+
+translate russian strings:
+    old "That's not true at all… Ugh, so embarrassing."
+    new "Ничего подобного… У-у, так неловко."
+
+translate russian strings:
+    old "Haruna, you were in the choir club?"
+    new "Харуна, ты состояла в хоре?"
+
+translate russian strings:
+    old "Yes, that's right. But I'm not sure I'm good enough to be a main member."
+    new "Да, точно так. Но в основной состав я, наверное, не потяну…"
+
+translate russian strings:
+    old "I don't know. If it were me, I think I'd definitely make it as a main member."
+    new "Не знаю. Я бы, кажется, точно попала в основной состав."
+
+translate russian strings:
+    old "Thank you, Mr. Hiraga."
+    new "Спасибо, Хирага-кун."
+
+translate russian strings:
+    old "Does the choir hold competitions?"
+    new "А у хора бывают состязания?"
+
+translate russian strings:
+    old "Yes, there are several. The big ones have a regional round, a prefectural round, and then the national one."
+    new "Да, несколько. В больших сначала отборочные на уровне района, потом на уровне области, а потом уже общегосударственные."
+
+translate russian strings:
+    old "Heh, like a sports club."
+    new "Хех, как у спортивной секции."
+
+translate russian strings:
+    old "Of course there are smaller ones too, but mostly everyone pushes for the big competitions, you know?"
+    new "Конечно, есть и маленькие, но все обычно стремятся к большим состязаниям, понимаешь?"
+
+translate russian strings:
+    old "But entering this year's competitions… is out of the question, right…"
+    new "Но в этом году на состязания… никак не попасть, правда…"
+
+translate russian strings:
+    old "….{#ch4.6_v8591}"
+    new "…."
+
+translate russian strings:
+    old "R-right. Haruna, do you go to karaoke?"
+    new "Д-да. Харуна, ты ходишь в караоке?"
+
+translate russian strings:
+    old "Karaoke? Hmm, sometimes… maybe. How about you, Mr. Hiraga?"
+    new "Караоке? Хм, иногда… наверное. А ты, Хирага-кун?"
+
+translate russian strings:
+    old "Me too, sometimes…"
+    new "Я тоже, иногда…"
+
+translate russian strings:
+    old "What kind of songs do you sing, Mr. Hiraga?"
+    new "Какие песни ты поёшь, Хирага-кун?"
+
+translate russian strings:
+    old "Hmm… let me think…"
+    new "Хм… дай подумать…"
+
+translate russian strings:
+    old "Japanese songs, I guess. There are more songs everyone can get excited about together."
+    new "Наверное, японские. Ведь есть песни, под которые все вместе могут завестись."
+
+translate russian strings:
+    old "Hmm, I see. I can never quite keep up with popular songs."
+    new "Хм, понятно. Модные песни мне никак не даются."
+
+translate russian strings:
+    old "At a convenience store, songs play on the pipe radio, and if you listen, you pick them up naturally."
+    new "В магазине у дороги по внутреннему радио играют песни, и если слушать, то они сами запоминаются."
+
+translate russian strings:
+    old "Heh. That's a bit of life wisdom, isn't it?"
+    new "Хех. Это тебе мудрость житейская, можно сказать."
+
+translate russian strings:
+    old "Haha."
+    new "Ха-ха."
+
+translate russian strings:
+    old "Actually, I sing Western music."
+    new "На самом деле я пою западную музыку."
+
+translate russian strings:
+    old "Eh, you sing in English? You're good at English, Mr. Hiraga?"
+    new "Э, ты поёшь по-английски? Ты хорошо знаешь английский, Хирага-кун?"
+
+translate russian strings:
+    old "N-not really. I mean, I sort of understand what it means…"
+    new "Н-ну, не то чтобы. Ну, в смысле, примерно понимаю, о чём там…"
+
+translate russian strings:
+    old "In the end, I'm probably just copying the intonation and singing it as if I know what I'm doing, right?"
+    new "По сути, я просто повторяю интонацию и пою так, будто понимаю, что делаю, да?"
+
+translate russian strings:
+    old "Even so, that's amazing."
+    new "И всё равно это здорово."
+
+translate russian strings:
+    old "Actually, I mostly just listen. I don't sing much…"
+    new "На самом деле я в основном слушаю. Пою мало…"
+
+translate russian strings:
+    old "That's a waste, though. You came all the way to sing."
+    new "И зря. Ты же пришёл петь."
+
+translate russian strings:
+    old "I just don't feel confident about singing."
+    new "Просто не чувствую себя уверенно, когда пою."
+
+translate russian strings:
+    old "They say if you start by singing along with other people, you pick up a sense of pitch. How about we try singing together?"
+    new "Говорят, если начать петь вместе с другими, слух развивается. Как-нибудь попробуем спеть вместе?"
+
+translate russian strings:
+    old "D-do you think so?{#ch4.6_v8603}"
+    new "Т-ты так думаешь?"
+
+translate russian strings:
+    old "Mr. Hiraga."
+    new "Хирага-кун."
+
+translate russian strings:
+    old "Hm?{#ch4.6_v8604}"
+    new "М?"
+
+translate russian strings:
+    old "When we go back to Japan, let's go to karaoke together, okay?"
+    new "Когда вернёмся в Японию, давай сходим в караоке вместе, ладно?"
+
+translate russian strings:
+    old "Yeah. Absolutely, we'll go."
+    new "Договорились. Обязательно сходим."
+
+translate russian strings:
+    old "Yes. It's a promise."
+    new "Да. Обещаю."
+
+translate russian strings:
+    old "…Hmm~."
+    new "…Хм-м."
+
+translate russian strings:
+    old "What's wrong, partner? Going round and round the same spot."
+    new "Что с тобой, партнёр? Ходишь кругами по одному месту."
+
+translate russian strings:
+    old "I can't find my way back to my own room…"
+    new "Не могу найти дорогу к своей комнате…"
+
+translate russian strings:
+    old "Hey, hey, hey, hey! Partner, that's too pitiful by any measure."
+    new "Эй, эй, эй! Партнёр, это уж совсем жалко."
+
+translate russian strings:
+    old "So how about we just camp out somewhere around here? By morning, someone will pick us up, right?"
+    new "Так давай переночуем где-нибудь под открытым небом? К утру кто-нибудь нас подберёт, а?"
+
+translate russian strings:
+    old "Are you kidding me? They went and prepared a bed for me, and you want me to camp out? No way."
+    new "Серьёзно? Мне ведь приготовили кровать, а ты предлагаешь ночевать под открытым небом? Нет уж."
+
+translate russian strings:
+    old "Oh…? That voice…"
+    new "О…? Этот голос…"
+
+translate russian strings:
+    old "Eh?{#ch4.6_v8609}"
+    new "А?"
+
+translate russian strings:
+    old "Well, as I thought! Good evening, familiar."
+    new "Ну, как я и предполагала! Добрый вечер, фамильяр."
+
+translate russian strings:
+    old "Good evening, Your Highness."
+    new "Добрый вечер, принцесса."
+
+translate russian strings:
+    old "What is the matter? Walking about the castle in the middle of the night like this…"
+    new "Что случилось? Гуляешь по замку среди ночи, да ещё так…"
+
+translate russian strings:
+    old "N-no, it's, um…"
+    new "Н-нет, я, это…"
+
+translate russian strings:
+    old "Listen, Your Majesty. It seems my poor partner has gotten himself lost in the castle."
+    new "Слушайте, Ваше Величество. Похоже, мой бедный партнёр заблудился в замке."
+
+translate russian strings:
+    old "Oh my. Does this sword talk?"
+    new "Ох ты. Этот меч разговаривает?"
+
+translate russian strings:
+    old "What an honor for a nobody like me to have your attention. My name is Delphlinger."
+    new "Какая честь для такого ничтожества, как я, заслужить ваше внимание. Меня зовут Дерфлингер."
+
+translate russian strings:
+    old "Hey! Delphy, don't say things you shouldn't!"
+    new "Эй! Дерф, не говори лишнего!"
+
+translate russian strings:
+    old "Well, Louise seems to gather interesting people around her. I envy that."
+    new "Ну, у Луизы, похоже, всегда собирается интересное окружение. Завидую."
+
+translate russian strings:
+    old "Very well. Then I shall show you the way. Do make sure you follow me, won't you?"
+    new "Хорошо. Тогда я покажу вам дорогу. Только идите за мной, договорились?"
+
+translate russian strings:
+    old "Y-yes. Thank you."
+    new "Д-да. Благодарю."
+
+translate russian strings:
+    old "Familiar. Louise looks tough, but she is a fragile girl who needs someone to support her."
+    new "Фамильяр. Луиза кажется крепкой, но на деле она хрупкая девочка, которой нужен кто-то, кто её поддержит."
+
+translate russian strings:
+    old "Please keep being good to Louise from now on, yes?"
+    new "Будь и дальше добр к Луизе, договорились?"
+
+translate russian strings:
+    old "…That Louise? Huh. No matter how you look at her, she doesn't seem fragile at all."
+    new "…Эта Луиза? Хм. Как ни посмотри, совсем не хрупкая."
+
+translate russian strings:
+    old "It is true. You can plainly see how she is taken aback by the power of the Void she holds."
+    new "Это правда. По ней видно, как она смущена силой Пустоты, которой владеет."
+
+translate russian strings:
+    old "Louise doesn't say so herself, but she must be fighting her fears every single day."
+    new "Луиза сама о том не говорит, но каждый день, должно быть, борется со своим страхом."
+
+translate russian strings:
+    old "I understand. If Your Highness says so, I want to believe it… I want to…"
+    new "Понял. Если принцесса так говорит, я хочу в это верить… хочу…"
+
+translate russian strings:
+    old "Well, you are honest, aren't you, familiar."
+    new "Ну, ты честен, это точно, фамильяр."
+
+translate russian strings:
+    old "Ahhh…"
+    new "А-а…"
+
+translate russian strings:
+    old "I envy Louise. To have such a kind familiar as you. I am always alone…"
+    new "Я завидую Луизе. У неё есть такой добрый фамильяр, как ты. А я всегда одна…"
+
+translate russian strings:
+    old "Eh? You don't have any other friends?"
+    new "А? У тебя нет других друзей?"
+
+translate russian strings:
+    old "No. When one is a queen, even her subjects — everything around her is like an enemy."
+    new "Нет. Когда ты королева, даже подданные — всё вокруг тебя как враги."
+
+translate russian strings:
+    old "If only I had someone I could open up to, there is so much that would ease my mind…"
+    new "Если бы был хоть кто-то, кому можно открыть душу, я бы столько отвлеклась…"
+
+translate russian strings:
+    old "Everything an enemy… huh. Somehow it makes me feel that being a princess isn't easy either."
+    new "Всё — враги… Хм. Почему-то от этого кажется, что и принцессе не так-то просто."
+
+translate russian strings:
+    old "The days change so dizzyingly that even my memories of playing as a child have all faded away."
+    new "Дни меняются так стремительно, что даже воспоминания о детских играх уже поблёкли."
+
+translate russian strings:
+    old "Saying all this to you doesn't change anything, I suppose. I'm sorry — I seem to be complaining."
+    new "Всё это, сказанное тебе, ничего не меняет, верно. Прости. Похоже, я нытьём занялась."
+
+translate russian strings:
+    old "At the very least, I'm on the princess's side. If anything troublesome comes up, I can lend a hand?"
+    new "По крайней мере, я на стороне принцессы. Если будет что-то затруднительное, я смогу помочь?"
+
+translate russian strings:
+    old "Louise probably thinks so too. At least, I believe she does."
+    new "Луиза, наверное, тоже так думает. По крайней мере, я в это верю."
+
+translate russian strings:
+    old "Well, thank you so much!"
+    new "Ну, большое тебе спасибо!"
+
+translate russian strings:
+    old "But just having you, familiar, listen to my rambling has lightened my heart a good deal."
+    new "Но уже одно то, что ты, фамильяр, выслушал мои пустые жалобы, заметно облегчило мою душу."
+
+translate russian strings:
+    old "I see… But if it made the princess happy, that's enough for me."
+    new "Понятно… Но если принцесса обрадовалась — этого мне достаточно."
+
+translate russian strings:
+    old "Wouldn't it be better to have Louise stay at the princess's side?"
+    new "Может, лучше всё-таки взять Луизу к себе в приближённые?"
+
+translate russian strings:
+    old "…In truth, I want nothing more. But that would be far too selfish of me."
+    new "…На самом деле я больше всего на свете этого хочу. Но это было бы слишком эгоистично с моей стороны."
+
+translate russian strings:
+    old "I want Louise to live freely."
+    new "Я хочу, чтобы Луиза жила свободно."
+
+translate russian strings:
+    old "I could never make Louise live day after day imprisoned by stone walls and a magical cage, like I do."
+    new "Я никогда не смогу заставить Луизу день за днём жить в каменных стенах и зачарованной клетке, как живу я."
+
+translate russian strings:
+    old "I see.{#ch4.6_v8623}"
+    new "Понимаю."
+
+translate russian strings:
+    old "I shouldn't say this, but doesn't that depend on how Your Highness sees it yourself?"
+    new "Мне не стоит это говорить, но разве это не зависит от того, как вы это видите, принцесса?"
+
+translate russian strings:
+    old "On how I see it…?"
+    new "От того, как это вижу я…?"
+
+translate russian strings:
+    old "Unless you reach out to them first, I thought they'd stay enemies forever."
+    new "Если не пойти им навстречу самой, они, по-моему, так и останутся врагами."
+
+translate russian strings:
+    old "….{#ch4.6_v343}"
+    new "…."
+
+translate russian strings:
+    old "Well, I'm not a princess, so I don't know what the cause of it is."
+    new "Ну, я ведь не принцесса, так что причины не знаю."
+
+translate russian strings:
+    old "But at least, the people who fought in the last war must have been fighting for you."
+    new "Но те, кто сражался в прошлой войне, наверняка сражались за вас."
+
+translate russian strings:
+    old "Sorry. I don't even know what I'm saying."
+    new "Прости. Я сам не понимаю, что говорю."
+
+translate russian strings:
+    old "No. I've taken that feeling to heart. I must do my best as well."
+    new "Нет. Я приняла это к сердцу. Мне тоже нужно стараться."
+
+translate russian strings:
+    old "Ah, we've arrived. This is your room, familiar."
+    new "А, пришли. Вот твоя комната, фамильяр."
+
+translate russian strings:
+    old "Huh, we're already here? …Why was I so lost earlier?"
+    new "Чего? Уже пришли? …И почему же я так метался?"
+
+translate russian strings:
+    old "Haaah… pitiful, that was."
+    new "Ха-а… жалко же."
+
+translate russian strings:
+    old "Hehe, there are so many similar places inside the castle. It can't be helped."
+    new "Хе-хе, в замке слишком много похожих мест. Тут ничего не поделаешь."
+
+translate russian strings:
+    old "Then good night, familiar."
+    new "Тогда доброй ночи, фамильяр."
+
+translate russian strings:
+    old "Thank you so much. Good night, Your Highness."
+    new "Большое спасибо. Доброй ночи, принцесса."
+

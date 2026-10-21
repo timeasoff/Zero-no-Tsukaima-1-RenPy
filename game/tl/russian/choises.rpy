@@ -892,3 +892,55 @@ translate russian strings:
 
     old "Is there other information?{#ch4.5_c256c}"
     new "Есть ли ещё сведения?"
+translate russian strings:
+    old "She really is hardworking, isn't she?"
+    new "Луиза-то трудолюбивая, да?"
+
+translate russian strings:
+    old "Why not try doing it without relying on books?{#ch4.6_c1086}"
+    new "А не попробовать ли без книг?"
+
+translate russian strings:
+    old "Why not ask Tabitha about it?"
+    new "Может, посоветоваться с Табасой?"
+
+translate russian strings:
+    old "That's not true at all."
+    new "Ничего подобного."
+
+translate russian strings:
+    old "Would it be normal in my world?"
+    new "В моём мире — обычное дело?"
+
+translate russian strings:
+    old "It was because of Louise's power."
+    new "Всё из-за силы Луизы."
+
+translate russian strings:
+    old "Japanese songs, I guess."
+    new "Наверное, японские."
+
+translate russian strings:
+    old "Western songs, maybe."
+    new "А может, западные."
+
+translate russian strings:
+    old "Actually, I mostly just listen."
+    new "На самом деле я в основном слушаю."
+
+translate russian strings:
+    old "I'm on the princess's side."
+    new "Я на стороне принцессы."
+
+translate russian strings:
+    old "Why not take Louise into your service?"
+    new "Почему бы не взять Луизу в приближённые?"
+
+translate russian strings:
+    old "You have to protect yourself."
+    new "Нужно защищать себя самой."
+
+translate russian strings:
+    old "Go on a date with Henrietta"
+    new "Пойти на свидание с Анриеттой"
+
