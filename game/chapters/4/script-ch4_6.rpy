@@ -665,7 +665,10 @@ label ch4_6:
 
     $ fade_fx("black")
     stop music fadeout 1.0
-    jump attention
+    # [移動] → next(269): глава 5 (часть 1) — вместо jump attention
+    #   (PS2: date((0x01000000 +269), …) — после даты сцена 269; правка
+    #   от 2026-10-22, см. reports/log.md)
+    jump ch5
     return
 
 label date_louise_ch4_6:

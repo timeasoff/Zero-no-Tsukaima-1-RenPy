@@ -197,3 +197,10 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 786,h 2,16,,,lay8,ch4 part6 (сцены 1099, 1103); block 786 pos 0 — PROVISIONAL: имя блока не определено (нумерация h-сетов неизвестна, первый h-блок 764 = h 1 по ch4_5), сверка SCENEDAT не выполнена
 788,h 2 happy,6,,,lay8,ch4 part6 (сцены 1099, 1103); block 786 pos 2; поза по унифицированной пиксель-сетке (pos 2=happy) — PROVISIONAL
 792,h 2 sad,7,,,lay8,ch4 part6 (сцены 1099, 1103); block 786 pos 6; поза по унифицированной пиксель-сетке (pos 6=sad) — PROVISIONAL
+504,si 2 angry,1,274,,lay2,ch5 part1 (сцена 274); block 500 pos 4 — PROVISIONAL: сверка SCENEDAT не выполнена (si-блоки: 489=si 1 / 500=si 2 / 511=si 3 / 522=si 4 / 533=si 5 / 544=si 6)
+506,si 2 sad,3,274,,lay2,ch5 part1 (сцена 274); block 500 pos 6 — PROVISIONAL: сверка SCENEDAT не выполнена
+654,t 7,1,279,,lay0,ch5 part1 (сцена 275); block 654 pos 0 — PROVISIONAL: сверка SCENEDAT не выполнена (t-блоки: 588=t 1 / 599=t 2 / 610=t 3 / 621=t 4 / 632=t 5 / 643=t 6)
+742,k 7,1,279,,lay6,ch5 part1 (сцена 279); block 742 pos 0 — PROVISIONAL: сверка SCENEDAT не выполнена (k-блоки: 676=k 1 / 687=k 2 / 698=k 3 / 709=k 4 / 720=k 5 / 731=k 6; 744=k 7 happy / 746=k 7 angry уже в справочнике)
+1061,w 1,5,280,,lay20,ch5 part1 (сцена 280); block 1061 pos 0 — PROVISIONAL: сверка SCENEDAT не выполнена (первый w-блок)
+1065,w 1 angry,5,280,,lay20,ch5 part1 (сцена 280); block 1061 pos 4 — PROVISIONAL: сверка SCENEDAT не выполнена
+1067,w 1 sad,1,280,,lay20,ch5 part1 (сцена 280); block 1061 pos 6 — PROVISIONAL: сверка SCENEDAT не выполнена
