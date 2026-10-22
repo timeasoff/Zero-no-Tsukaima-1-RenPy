@@ -14386,11 +14386,11 @@ translate russian strings:
 
 translate russian strings:
     old "…I'm joking."
-    new "…Я пошутил."
+    new "…Я пошутила."
 
 translate russian strings:
     old "I told you this afternoon, didn't I? That bag is mine."
-    new "Я ведь говорил и днём. Эта сумка — моя."
+    new "Я ведь говорила и днём. Эта сумка — моя."
 
 translate russian strings:
     old "Weatherby-san. Could you show us the bag, just for a moment? It would prove that it's mine."
@@ -14438,7 +14438,7 @@ translate russian strings:
 
 translate russian strings:
     old "Watching you, I was struck by inspiration. If so, I can show you the bag."
-    new "Глядя на вас, я ощутил вдохновение. Так что могу показать сумку."
+    new "Глядя на вас, я ощутила вдохновение. Так что могу показать сумку."
 
 translate russian strings:
     old "W-what are you saying? We're nobility. There's no way we could do that."
@@ -14494,7 +14494,7 @@ translate russian strings:
 
 translate russian strings:
     old "I'd put it together as the title of the next play, 'The Maiden of the Twin Moons'."
-    new "Я сложил это под названием «Девушка Луны-Близнецы» — как сюжет следующей пьесы."
+    new "Я сложила это под названием «Девушка Луны-Близнецы» — как сюжет следующей пьесы."
 
 translate russian strings:
     old "…A story of a country, of a princess buffeted by fate and the noblemen who fell in love with her and were ruined."
@@ -14534,7 +14534,7 @@ translate russian strings:
 
 translate russian strings:
     old "This is the actor's life, you know. Perhaps you've seen me before?"
-    new "Ведь это актёрская работа. Может, и видел вас?"
+    new "Вот это работа актёра. Возможно, вы меня где-то видели?"
 
 translate russian strings:
     old "So… it seems."
@@ -14857,7 +14857,7 @@ translate russian strings:
 
 translate russian strings:
     old "You are a student of the Academy as well? I feel as though I've seen you somewhere?"
-    new "Вы тоже ученица магической академии? Кажется, я вас где-то видел?"
+    new "Вы тоже ученица магической академии? Кажется, я вас где-то видела?"
 
 translate russian strings:
     old "Y-yes. She isn't a student of the Academy, but… she's my childhood friend… or rather, my best friend."
@@ -14869,7 +14869,7 @@ translate russian strings:
 
 translate russian strings:
     old "Your name is… 'Rietta', as I heard — that's right, isn't it?"
-    new "Имя, стало быть, «Риэтта», как я слышал? Так ведь?"
+    new "Имя, стало быть, «Риэтта», как я слышала? Так ведь?"
 
 translate russian strings:
     old "Yes. Please call me Rietta from now on."
