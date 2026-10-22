@@ -14038,7 +14038,7 @@ translate russian strings:
 
 translate russian strings:
     old "Hmm. If it's a request from my darling, maybe I'll hear you out?"
-    new "Хм… Если просит мой дорогой, я, пожалуй, выслушаю."
+    new "Хм… Если просит мой дорогой, я, пожалуй, выслушаю?"
 
 translate russian strings:
     old "…….{#ch5_2_v6192}"
@@ -14094,7 +14094,7 @@ translate russian strings:
 
 translate russian strings:
     old "When I was a child… I used to look forward to a troupe coming to our village at the festival…"
-    new "В детстве… Я с нетерпением ждала, когда на праздник в нашу деревню приедет труппа…"
+    new "В детстве… Я с нетерпением ждала, когда на праздник в нашу деревню приедет труппа… но…"
 
 translate russian strings:
     old "They say travelers like that are dangerous. They carry off pretty children, so be careful… They used to scare us with that."
@@ -14270,7 +14270,7 @@ translate russian strings:
 
 translate russian strings:
     old "Now, now. With Zero Louise, you'd only break the door down. I'll open it for you."
-    new "Ну-ну. С Луизой-Нулищей ты бы дверь разнесла, так что я открою."
+    new "Ну-ну. С Луизой-Нулизой ты бы дверь разнесла, так что я открою."
 
 translate russian strings:
     old "…….{#ch5_2_v6200}"
@@ -14322,7 +14322,7 @@ translate russian strings:
 
 translate russian strings:
     old "My love for you was worth that much. Only, if I could… just once…"
-    new "Твоя любовь стоила того. Только… если бы можно было… хотя бы раз…"
+    new "Моя любовь к тебе стоила того. Только… если бы можно было… хотя бы раз…"
 
 translate russian strings:
     old "The words of love on your lips…"
@@ -14346,7 +14346,7 @@ translate russian strings:
 
 translate russian strings:
     old "Um, it isn't Miss Louise and the others' fault. I insisted on it. I had business with Weatherby-san…"
-    new "Это, э-э, Луиза-сан и остальные ни при чём. Я сама настаивала. У меня было дело к Уэзерби-сан…"
+    new "А, Луиза-сан и остальные ни при чём. Я сама настаивала. У меня было дело к Уэзерби-сан…"
 
 translate russian strings:
     old "I see. I wouldn't think a matter urgent enough to put on a show of thieving, but what is it you need at this late hour?"

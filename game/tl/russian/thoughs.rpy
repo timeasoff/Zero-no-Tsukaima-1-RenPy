@@ -1085,7 +1085,7 @@ translate russian strings:
 
 translate russian strings:
     old "Whoa, whoa… This is getting out of hand. Can we even manage a stage, for crying out loud?{#ch5_2_th_007}"
-    new "Ой-ой… Кажется, дело зашло совсем не туда. Мы-то вообще можем на сцене?.."
+    new "Ой-ой… Кажется, дело зашло совсем не туда. Мы-то вообще можем на сцене…?"
 
 translate russian strings:
     old "…….{#ch5_2_th_008}"
