@@ -140,7 +140,7 @@ EN_DIALOGS = {
     "ch5.3_k_009": "I'm not in the mood today.\nI'll go up ahead.",
     "ch5.3_w_031": "W-wait!",
     "ch5.3_k_010": "If I want to build the foundations, I don't have to practice here.\nSelf-practice, self-practice.",
-    "ch5.3_w_032": "Fine, go on out.\nIf you have no heart for it, you're not needed.",
+    "ch5.3_w_032": "Fine. Go out.\nIf you have no heart for it, you're not needed.",
     "ch5.3_g_006": "Then I'll….",
     "ch5.3_m_005": "…Wait a moment, you there!\nGuiche!",
     "ch5.3_si_007": "E-everyone, calm down!\nAfter all we've worked this hard to get here.",

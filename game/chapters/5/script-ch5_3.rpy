@@ -789,7 +789,7 @@ label ch5_3:
     # [lay20 +1065 → w 1 angry]
     $ show_sprites(("k 2", "w 1 angry"))
     voice "ch5.3_w_032"
-    w "Fine, go on out. If you have no heart for it, you're not needed."
+    w "Fine. Go out. If you have no heart for it, you're not needed."
     # JA[15959]: いいわ、出て行きなさい。 / やる気がないのなら、いなくてもいいわ。
     # [lay6 hide]
     $ show_sprites(("w 1 angry"))

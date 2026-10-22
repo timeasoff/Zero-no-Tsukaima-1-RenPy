@@ -14982,7 +14982,7 @@ translate japanese strings:
     new "基礎をつけるなら、別にここで練習しなくても　いいじゃない。　自主練習よ、自主練習。"
 
 translate japanese strings:
-    old "Fine, go on out. If you have no heart for it, you're not needed."
+    old "Fine. Go out. If you have no heart for it, you're not needed."
     new "いいわ、出て行きなさい。　やる気がないのなら、いなくてもいいわ。"
 
 translate japanese strings:
