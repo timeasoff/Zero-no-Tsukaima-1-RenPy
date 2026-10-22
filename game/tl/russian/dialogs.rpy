@@ -13959,7 +13959,7 @@ translate russian strings:
 
 translate russian strings:
     old "…What a remarkably ungentle way to speak. As if I were the one who took your bag."
-    new "…Как же неучтиво вы заговорили. Словно это я отняла у вас сумку."
+    new "…Как же неучтиво вы заговорили. Словно это я отнял у вас сумку."
 
 translate russian strings:
     old "W-well, that's not what I…"
@@ -13967,7 +13967,7 @@ translate russian strings:
 
 translate russian strings:
     old "This is something I picked up on the road. You say it belongs to you — but what proof do you have?"
-    new "Это я подобрала в дороге. Вы говорите, что она ваша, — а какие у вас доказательства?"
+    new "Это я подобрал в дороге. Вы говорите, что она ваша, — а какие у вас доказательства?"
 
 translate russian strings:
     old "S-such a thing…"
@@ -13987,7 +13987,7 @@ translate russian strings:
 
 translate russian strings:
     old "I picked it up a long time ago. If you want witnesses, there are plenty in the troupe."
-    new "Я подобрала её очень давно. Свидетели? В труппе их сколько угодно."
+    new "Я подобрал её очень давно. Свидетели? В труппе их сколько угодно."
 
 translate russian strings:
     old "No, well, that's…"

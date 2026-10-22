@@ -262,11 +262,15 @@ def main():
             i0 = txt.find(MARK_START)
             i1 = txt.find(MARK_END)
             if i0 >= 0 and i1 > i0:
-                # блок помечен маркерами — вырезаем целиком
-                out = txt[:i0] + txt[i1 + len(MARK_END):]
-                out = out.lstrip('\n')
-                if out and not out.endswith('\n'):
-                    out += '\n'
+                # блок помечен маркерами — вырезаем целиком; пустые строки
+                # вокруг блока нормализуются (иначе при каждой пересборке
+                # накапливается лишний пробел перед маркером)
+                before = txt[:i0].rstrip('\n')
+                after = txt[i1 + len(MARK_END):].lstrip('\n')
+                if after:
+                    out = before + '\n\n' + after
+                else:
+                    out = before + '\n'
                 io.open(path, 'w', encoding='utf-8').write(out)
                 print('removed from %s: marked block (%d lines)'
                       % (os.path.relpath(path, ROOT), txt[i0:i1 + len(MARK_END)].count('\n')))
