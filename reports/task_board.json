@@ -121,14 +121,34 @@
           "target": "5_2",
           "scope": "part",
           "title": "Часть 2 главы 5 (сцены 285–299)",
-          "status": "running",
+          "status": "done",
           "created": "2026-10-22 01:30:45",
           "started": "2026-10-22 01:30:52",
+          "finished": "2026-10-22 03:28:29",
+          "session": null,
+          "note": "Часть 2 главы 5 (сцены 285–299) завершена: порт (tools/gen_ch5_2_script.py), EN/RU (145 строк), 128 голосов ch5.2_* (манифест + ogg + ASR), tl 145×2, спрайты 309/500/593/963 PROVISIONAL, аудиты A (12) и C (6), Фаза 1 (4) и Фаза 2 анализатора (6 FIXED), отчёт reports/ch5/2.md, проверки OK (E7 форвард ch5_3)",
+          "evidence": [
+            "game/chapters/5/script-ch5_2.rpy",
+            "reports/ch5/2.md",
+            "reports/sma/ch5/2/analysis/20261022-023446-a0e8.md"
+          ],
+          "manual": "Часть 2 главы 5 (сцены 285–299): порт по генератору tools/gen_ch5_2_script.py, EN (tools/ch5_2_en.py) и RU (tools/ch5_2_ru.py) по 145 строк, tl, 128 голосов, аудиты A и C, анализатор, отчёт reports/ch5/2.md"
+        },
+        {
+          "id": "S3",
+          "kind": "manual",
+          "prompt": "",
+          "target": "5_3",
+          "scope": "part",
+          "title": "Часть 3 главы 5 (сцены 300–314)",
+          "status": "running",
+          "created": "2026-10-22 03:33:22",
+          "started": "2026-10-22 03:33:34",
           "finished": null,
           "session": null,
           "note": "",
           "evidence": [],
-          "manual": "Часть 2 главы 5 (сцены 285–299): порт по генератору tools/gen_ch5_2_script.py, EN (tools/ch5_2_en.py) и RU (tools/ch5_2_ru.py) по 145 строк, tl, 128 голосов, аудиты A и C, анализатор, отчёт reports/ch5/2.md"
+          "manual": "Часть 3 главы 5: порт сцен 300–314 (127 голосов, 14 мыслей, 9 пунктов меню), EN/RU, голоса ch5.3_*, tl, аудиты A и C, Фазы 1–2 анализатора, отчёт reports/ch5/3.md"
         }
       ]
     }

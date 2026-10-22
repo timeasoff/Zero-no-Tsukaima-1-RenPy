@@ -20,6 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PARTS = {
     'ch5_1': ('ch5_1_ru', 'dialogs', 'thoughs', 'choises'),
     'ch5_2': ('ch5_2_ru', 'dialogs', 'thoughs', 'choises'),
+    'ch5_3': ('ch5_3_ru', 'dialogs', 'thoughs', 'choises'),
 }
 
 RE_OLD = re.compile(r'^\s*old\s+"(.*)"\s*$')

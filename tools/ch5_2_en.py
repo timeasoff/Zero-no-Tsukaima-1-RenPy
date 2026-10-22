@@ -13,7 +13,8 @@ ch5_2_th_<NNN> для мыслей, номер сцены-варианта (ст
 女王様 → the Queen, 旅役者 → a traveling troupe, 一座 → a troupe,
 ゼロのルイズ → Zero Louise, 座長 → the leader of the troupe.
 
-Новые термины (PROVISIONAL): 『双月天女』 → "The Twin-Moon Maiden" (play title),
+Название пьесы 『双月天女』 → "The Maiden of the Twin Moons" (по dictionary.md:
+双月 → Twin Moons; выровнено с частью 3, 2026-10-22).
 寄せ手 → the rebels, 謎かけ → riddle, 監禁 → confinement, 開錠の魔法 → unlocking magic.
 """
 
@@ -149,7 +150,7 @@ EN_DIALOGS = {
     "ch5.2_w_025": "Then we have a deal.",
     "ch5.2_w_026": "By the way, I used to have a noble title.\nI won't let you say you can't do it.",
     "ch5.2_ha_016": "The piece from earlier…",
-    "ch5.2_w_027": "I'd put it together as the title of the next play,\n'The Twin-Moon Maiden'.",
+    "ch5.2_w_027": "I'd put it together as the title of the next play,\n'The Maiden of the Twin Moons'.",
     "ch5.2_w_028": "…A story of a country, of a princess buffeted by fate\nand the noblemen who fell in love with her and were ruined.",
     "ch5.2_w_029": "Wouldn't that suit the times we live in?",
     "ch5.2_l_017": "How improper.",

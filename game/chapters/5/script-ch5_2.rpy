@@ -944,7 +944,7 @@ label ch5_2:
     # [lay20 +1061 → w 1]
     $ show_sprites(("w 1", "ha 2"))
     voice "ch5.2_w_027"
-    w "I'd put it together as the title of the next play, 'The Twin-Moon Maiden'."
+    w "I'd put it together as the title of the next play, 'The Maiden of the Twin Moons'."
     # JA[15922]: 『双月天女』っていう、次のお芝居の演目として / まとめていたものだ。
     voice "ch5.2_w_028"
     w "…A story of a country, of a princess buffeted by fate and the noblemen who fell in love with her and were ruined."
