@@ -206,6 +206,7 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 1067,w 1 sad,1,280,,lay20,ch5 part1 (сцена 280); block 1061 pos 6 — PROVISIONAL: сверка SCENEDAT не выполнена
 309,l 1 sad,1,294,,lay1,ch5 part2 (сцена 294); block 302 pos 7 — PROVISIONAL: сверка SCENEDAT не выполнена (поза B блока l 1, как и 308)
 500,si 2,1,289,,lay2,ch5 part2 (сцена 289); block 489 pos 0 (база si 2) — PROVISIONAL: сверка SCENEDAT не выполнена (si-блоки: 489=si 1, 500=si 2, 511=si 3)
+502,si 2 happy,1,321,,lay7,ch5 part5 (сцена 321); block 500 pos 2 (база si 2, +2 happy) — PROVISIONAL: сверка SCENEDAT не выполнена (si-блоки: 489=si 1, 500=si 2, 511=si 3)
 593,t 1 angry,1,294,,lay0,ch5 part2 (сцена 294); block 588 pos 5 — PROVISIONAL: сверка SCENEDAT не выполнена (t-блоки: 588=t 1, 599=t 2, 610=t 3)
 963,ha 2,1,289,,lay7,ch5 part2 (сцена 289); block 962 pos 1 — PROVISIONAL: сверка SCENEDAT не выполнена (поза B блока ha 2; 962=ha 2, 966=ha 2 angry)
 572,g 2 sad,1,300,,lay4,ch5 part3 (сцена 300); block 566 pos 6 — PROVISIONAL: сверка SCENEDAT не выполнена (g-блоки: 555=g 1 / 566=g 2)
