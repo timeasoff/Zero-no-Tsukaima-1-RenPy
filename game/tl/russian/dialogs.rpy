@@ -14905,7 +14905,7 @@ translate russian strings:
 
 translate russian strings:
     old "Besides, the only people who've ever seen you this close up are people of real standing, aren't they?"
-    new "И потом: подойти так близко к вам могли только люди самого высокого положения, верно?"
+    new "И потом: увидеть вас так близко могли только люди самого высокого положения, верно?"
 
 translate russian strings:
     old "Ufufufu…{#ch5_3_v575}"
