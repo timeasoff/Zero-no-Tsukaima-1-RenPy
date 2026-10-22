@@ -51,7 +51,7 @@ label ch5_3:
     # [lay5 +396 → s 1 sad]
     $ show_sprites(("l 3 angry", "s 1 sad"))
     voice "ch5.3_l_002"
-    l "'Honestly, who's the one doing the scut work?'"
+    l "'Honestly, you always take on the scut work' — who might that be?"
     # JA[6211]: 「まったく、安請け合いなんかしやがって」 / そういったのは誰かしら？
     # [lay5 +394 → s 1 angry]
     $ show_sprites(("l 3 angry", "s 1 angry"))

@@ -14552,8 +14552,8 @@ translate russian strings:
     new "……."
 
 translate russian strings:
-    old "'Honestly, who's the one doing the scut work?'"
-    new "«Совсем уж за грязную работу» — кто это, собственно?"
+    old "'Honestly, you always take on the scut work' — who might that be?"
+    new "«Да ладно, ты всё берёшься за грязную работу» — кто это, собственно?"
 
 translate russian strings:
     old "W-what's with that face?! What are you so grumpy about?"
@@ -14849,7 +14849,7 @@ translate russian strings:
 
 translate russian strings:
     old "'A friend' — just because we met in an unexpected place, you don't have to be so startled…"
-    new "«Подруга» — мало ли где мы встретились, тебе не обязательно так изумляться…."
+    new "«Подруга» — встретились мы в неожиданном месте, так что тебе не обязательно так изумляться…."
 
 translate russian strings:
     old "U-um…{#ch5_3_v6228}"
@@ -15037,7 +15037,7 @@ translate russian strings:
 
 translate russian strings:
     old "…Y-yes. P-please do."
-    new "…Д-да. П-прошу."
+    new "…Д-да. П-про-шу."
 
 translate russian strings:
     old "…Oh? Louise is staying? How unexpected."

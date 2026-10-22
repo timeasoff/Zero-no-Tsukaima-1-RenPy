@@ -22,7 +22,7 @@ EN_DIALOGS = {
     # ===== SCENE 300 =====
     "ch5.3_l_001": "Haaah…!\nYou stupid dog….",
     "ch5.3_s_001": "…….",
-    "ch5.3_l_002": "'Honestly, who's the one doing the scut work?'",
+    "ch5.3_l_002": "'Honestly, you always take on the scut work' — who might that be?",
     "ch5.3_s_002": "W-what's with that face?!\nWhat are you so grumpy about?",
     "ch5.3_l_003": "N-no, it's just that…\nI was wondering whether we'd really have to pass ourselves off as traveling entertainers.\nThat's all I meant.",
     "ch5.3_s_003": "……Uuugh, sorry about that.",

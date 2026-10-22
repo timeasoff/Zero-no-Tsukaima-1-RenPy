@@ -14546,7 +14546,7 @@ translate japanese strings:
     new "……。"
 
 translate japanese strings:
-    old "'Honestly, who's the one doing the scut work?'"
+    old "'Honestly, you always take on the scut work' — who might that be?"
     new "「まったく、安請け合いなんかしやがって」　そういったのは誰かしら？"
 
 translate japanese strings:
