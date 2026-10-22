@@ -21,6 +21,13 @@ PARTS = {
     'ch5_1': ('ch5_1_ru', 'dialogs', 'thoughs', 'choises'),
     'ch5_2': ('ch5_2_ru', 'dialogs', 'thoughs', 'choises'),
     'ch5_3': ('ch5_3_ru', 'dialogs', 'thoughs', 'choises'),
+    'ch5_4': ('ch5_4_ru', 'dialogs', 'thoughs', 'choises'),
+}
+
+# Реплики в （…） (мысль с голосом) лежат в бакете thoughs, хотя в модуле
+# хранятся среди диалогов (references/ps2_to_renpy.csv, п. 2).
+EXTRA_BUCKET = {
+    'ch5_4': {'ch5.4_d_001': 'thoughs', 'ch5.4_d_002': 'thoughs'},
 }
 
 RE_OLD = re.compile(r'^\s*old\s+"(.*)"\s*$')
@@ -56,8 +63,15 @@ def main():
             path = os.path.join(ROOT, 'game', 'tl', 'russian', bucket + '.rpy')
             pairs = tl_pairs(path)
             tl_new = set(pairs.values())
+            extra = EXTRA_BUCKET.get(part, {})
             for key, text in data.items():
                 val = flat(text)
+                where = extra.get(key)
+                if where and where != bucket:
+                    # строка лежит в другом бакете tl — проверяем там
+                    opath = os.path.join(ROOT, 'game', 'tl', 'russian', where + '.rpy')
+                    if val in set(tl_pairs(opath).values()):
+                        continue
                 if val not in tl_new:
                     print('РАСХОЖДЕНИЕ %s/%s: в tl нет строки модуля' % (part, key))
                     print('   модуль: %s' % val[:100])

@@ -214,3 +214,11 @@ sprite_id,sprite_name,uses,first_scene,first_line,layers,notes
 863,m 2,1,312,,lay3,ch5 part3 (сцена 312); block 863 pos 0 (база m 2) — PROVISIONAL: сверка SCENEDAT не выполнена (m-блоки: 852=m 1 / 863=m 2 / 874=m 3 / 885=m 4)
 867,m 2 angry,1,312,,lay3,ch5 part3 (сцена 312); block 863 pos 4 — PROVISIONAL: сверка SCENEDAT не выполнена
 869,m 2 sad,1,310,,lay3,ch5 part3 (сцена 310); block 863 pos 6 — PROVISIONAL: сверка SCENEDAT не выполнена
+430,s 3 sad,1,1397,,lay5,ch5 part4 (сцена 1397); block 423 pos 7 (поза B позы 429=s 3 sad) — PROVISIONAL: сверка SCENEDAT не выполнена
+634,t 5 happy,1,1392,,lay0,ch5 part4 (сцена 1392); block 632 pos 2 — PROVISIONAL: сверка SCENEDAT не выполнена
+808,h 3,1,1393,,lay8,ch5 part4 (сцена 1393); block 808 pos 0 (база h 3) — PROVISIONAL: сверка SCENEDAT не выполнена (h-блоки: 764=h 1 / 786=h 2 / 808=h 3)
+810,h 3 happy,2,1393,,lay8,ch5 part4 (сцены 1393, 1397); block 808 pos 2 — PROVISIONAL: сверка SCENEDAT не выполнена
+865,m 2 happy,2,1403,,lay3,ch5 part4 (сцены 1403, 1407); block 863 pos 2 — PROVISIONAL: сверка SCENEDAT не выполнена (m-блоки: 852=m 1 / 863=m 2 / 874=m 3 / 885=m 4)
+871,m 2 shy,1,1404,,lay3,ch5 part4 (сцена 1404); block 863 pos 8 — PROVISIONAL: сверка SCENEDAT не выполнена
+1063,w 1 happy,1,1386,,lay20,ch5 part4 (сцена 1386); block 1061 pos 2 — PROVISIONAL: сверка SCENEDAT не выполнена
+507,si 2 sad,1,1383,,lay2,ch5 part4 (сцена 1383); block 500 pos 7 (поза B позы 506=si 2 sad) — PROVISIONAL: сверка SCENEDAT не выполнена
