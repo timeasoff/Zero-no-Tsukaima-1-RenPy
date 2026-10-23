@@ -6,9 +6,9 @@
 
 ## ERROR (1)
 
-- E7 jump 'ch5_6' at game/chapters/5/script-ch5_5.rpy:899 has no label
+- E7 jump 'ch5_7' at game/chapters/5/script-ch5_6.rpy:1189 has no label
 
-## WARNING (290)
+## WARNING (291)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -300,13 +300,14 @@
 - I1 ch2: 1468 script strings > 1382 source talk
 - I1 ch3: 1170 script strings > 1078 source talk
 - I1 ch4: 1143 script strings > 1072 source talk
+- W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
 
 ## INFO (29)
 
 - speakers defined: 36
 - overlay K: max=11 used=11 next_free=12
-- voices: refs=5070 ogg=5076 missing=0
-- I1 ch5: strings=764 source_talk=1470 (gap expected)
+- voices: refs=5197 ogg=5203 missing=0
+- I1 ch5: strings=929 source_talk=1470 (gap expected)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
 - I1 ch8: not started (source talk=378)
@@ -330,6 +331,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=359 in 14 file(s)
-- labels=280 rpy=79 strings(strict=5793) tl_old=japanese:6283,russian:6310
+- image map: ids=312 named=148 open=164 | placeholders=397 in 15 file(s)
+- labels=281 rpy=80 strings(strict=5958) tl_old=japanese:6448,russian:6475
 

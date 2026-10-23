@@ -198,8 +198,27 @@
           "target": "5_6",
           "scope": "part",
           "title": "Часть 6 главы 5 (сцены 335-343 + extra 1408-1428)",
-          "status": "pending",
+          "status": "done",
           "created": "2026-10-22 21:45:20",
+          "started": "2026-10-23",
+          "finished": "2026-10-23",
+          "session": null,
+          "note": "Часть 6 завершена: порт (tools/gen_ch5_6_script2.py), EN/RU (127 диалогов/21 мысль/17 выборов), 127 голосов ch5.6_* (манифест + 127 .ogg + ASR помечены), tl ch5_6_*.rpy ×3, спрайты 640/775/777/779/781 PROVISIONAL, структура пересобрана (исправлен баг rejoin), проверки: check_renpy_syntax OK, check_project.py — 1 E7 форвард ch5_7 (закроется частью 7), check_voice_transcriptions OK.",
+          "evidence": [
+            "reports/check_project.md",
+            "reports/ch5/6.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S7",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "5_6",
+          "scope": "part",
+          "title": "port-part",
+          "status": "pending",
+          "created": "2026-10-23 00:37:23",
           "started": null,
           "finished": null,
           "session": null,

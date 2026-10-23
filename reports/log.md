@@ -3701,7 +3701,27 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
   `reports/sma/ch5/5/{a,c,precheck,analysis}/`; диспозиции — в
   `reports/ch5/5.md`. Аудит B недоступен (скилл отсутствует в среде).
 
-**Конвенция многоточий — окончательное правило закреплено, инструмент
+**Часть 6 завершена** (`game/chapters/5/script-ch5_6.rpy`, ~1185 строк; отчёт
+  `reports/ch5/6.md`):
+- **Структура:** пересобрана через `tools/gen_ch5_6_script2.py` — исправлен баг
+  rejoin-сцены (пропускал сцены 1412/1417/1422/1427); сценарий: сцена 335 core +
+  extra 1408–1428, главное меню (5 веток), выход `jump ch5_7`.
+- **Голоса:** 127 новых `ch5.6_*` → `references/voice_id_map.csv` (+127 строк);
+  `audio_converter.py convert --apply` → 127 `.ogg` (`check — RESULT: OK`);
+  `transcriptions_ja_ru.csv` — 127 строк помечены `Успешно (ch5.6 использовано)`;
+  `check_voice_transcriptions.py --chapter 5` — `voices_used_row_still_in_queue: 0`.
+- **Спрайты:** 5 PROVISIONAL строк в `references/sprite_id_map.csv` (640 `t 5 shy`,
+  775/777/779/781 `h 3` happy/angry/sad) — E10 cleared; остальные `id(K)` — W6.
+- **Проверки:** `check_renpy_syntax.py --chapter 5` OK; `check_typography.py --lang ru`
+  OK; `check_project.py` — 1 E7 (форвард `jump ch5_7`, сценарий части 7 не портирован)
+  — документировано в заголовке файла; W1 stale old в `tl/japanese/screens.rpy`/
+  `dialogs.rpy` — часть 5, вне scope.
+- **PROVISIONAL (часть 6):** спрайты 640/775/777/779/781 (имена/описания требуют
+  подтверждения; пиксель-сверка не выполнена).
+- **DEFERRED:** E7 `jump ch5_7` — закроется частью 7 (сцена 341 core + extra 1104–1163).
+- **??? / RECONCILE:** в части 6 вопросов не возникло.
+
+**Конвенция многоточий
 исправлен** (`tools/check_ellipsis_ja.py`):
 
 - Правило: целая строка JA `…….` (`……。`) → `…….` в обоих языках; финал строки
