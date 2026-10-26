@@ -217,14 +217,17 @@
           "target": "5_6",
           "scope": "part",
           "title": "port-part",
-          "status": "pending",
+          "status": "done",
           "created": "2026-10-23 00:37:23",
-          "started": null,
-          "finished": null,
+          "started": "2026-10-23 00:37:23",
+          "finished": "2026-10-26 12:00:00",
           "session": null,
-          "note": "",
-          "evidence": [],
-          "manual": ""
+          "note": "Финальные проверки: check_project OK (1 E7 forward jump), audio_converter OK, отчёт обновлён, translation_plan обновлён, log.md обновлён. Часть 6 готова к коммиту.",
+          "evidence": [
+            "reports/ch5/6.md",
+            "reports/check_project.md"
+          ],
+          "manual": "Финальная проверка части 6: check_project.py, audio_converter.py check, обновление translation_plan.md и log.md"
         }
       ]
     }

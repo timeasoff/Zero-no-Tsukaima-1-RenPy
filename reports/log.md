@@ -3751,3 +3751,16 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
 `image_id_map.csv` заполняет человек); 21 из 27 имён спрайтов части без файла в
 `game/images/chara/`; E7 `jump ch5_6` (закроется частью 6); аудит B
 (среда); legacy-многоточия частей 3–4 (см. выше).
+
+## 2026-10-26 — Глава 5, часть 6 (сцена 335 + extra 1408–1428): финальные проверки
+
+- статус: USER DECISION
+- место: `game/chapters/5/script-ch5_6.rpy`, `game/tl/{japanese,russian}/ch5_6_*.rpy`,
+  `references/voice_id_map.csv`, `reports/ch5/6.md`, `reports/check_project.md`
+- вопрос/решение:
+  - Часть 6 главы 5 полностью завершена: порт сцен 335 (core) + extra 1408–1428 (4 даты).
+  - 127 голосов ch5.6_* (манифест + 127 .ogg + ASR/TTS пометки), 17 мыслей, 12 пунктов меню.
+  - Спрайты 640/775/777/779/781 — PROVISIONAL (пиксель-сверка не выполнена, архив PS2 не подключён).
+  - E7 `jump ch5_7` — forward jump в не портированную часть 7, документирован как debt.
+  - check_project.py: 1 E7 (forward jump), 291 warning (W1 stale old, W5 UI missing, W6 placeholders).
+  - Результат: ✅ часть готова к коммиту, E7 будет закрыт частью 7.
