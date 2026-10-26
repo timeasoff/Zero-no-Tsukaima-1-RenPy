@@ -98,6 +98,24 @@
           "id": "S1",
           "kind": "manual",
           "prompt": "",
+          "target": "5_7",
+          "scope": "part",
+          "title": "Часть 7 главы 5 (сцены 341-342 + extra 1104-1114)",
+          "status": "pending",
+          "created": "2026-10-26 12:30:00",
+          "started": "2026-10-26 12:30:00",
+          "finished": null,
+          "session": null,
+          "note": "Часть 7: сцены 341-342 (core) + первые 5 дат (1104-1114). 120 голосов. Базовая структура создана.",
+          "evidence": [
+            "game/chapters/5/script-ch5_7.rpy"
+          ],
+          "manual": "Продолжить портирование сцен 341-342 + дат 1104-1114"
+        },
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
           "target": "5_1",
           "scope": "part",
           "title": "Часть 1 главы 5: разбор источника (chapter_06), определение границ по §3, порт сцен, EN/RU, голоса, tl, отчёт",
@@ -228,6 +246,70 @@
             "reports/check_project.md"
           ],
           "manual": "Финальная проверка части 6: check_project.py, audio_converter.py check, обновление translation_plan.md и log.md"
+        },
+        {
+          "id": "S2",
+          "kind": "prompt",
+          "prompt": "translate-edit",
+          "target": "5_7_en",
+          "scope": "part",
+          "title": "EN перевод части 7",
+          "status": "pending",
+          "created": "2026-10-26 12:30:00",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "Перевод оставшихся диалогов EN",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S3",
+          "kind": "prompt",
+          "prompt": "translate-edit",
+          "target": "5_7_ru",
+          "scope": "part",
+          "title": "RU перевод части 7",
+          "status": "pending",
+          "created": "2026-10-26 12:30:00",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "Перевод оставшихся диалогов RU",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S4",
+          "kind": "prompt",
+          "prompt": "voice-work",
+          "target": "5_7",
+          "scope": "part",
+          "title": "Голоса части 7",
+          "status": "pending",
+          "created": "2026-10-26 12:30:00",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "Создание .ogg файлов и обновление манифеста",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S5",
+          "kind": "prompt",
+          "prompt": "full-audit",
+          "target": "5_7",
+          "scope": "part",
+          "title": "Аудит части 7",
+          "status": "pending",
+          "created": "2026-10-26 12:30:00",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "Проверка качества перевода и голосов",
+          "evidence": [],
+          "manual": ""
         }
       ]
     }

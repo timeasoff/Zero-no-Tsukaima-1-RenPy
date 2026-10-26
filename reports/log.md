@@ -3764,3 +3764,15 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
   - E7 `jump ch5_7` — forward jump в не портированную часть 7, документирован как debt.
   - check_project.py: 1 E7 (forward jump), 291 warning (W1 stale old, W5 UI missing, W6 placeholders).
   - Результат: ✅ часть готова к коммиту, E7 будет закрыт частью 7.
+
+## 2026-10-26 — Глава 5, часть 7: начало работы
+
+- статус: USER DECISION
+- место: `game/chapters/5/script-ch5_7.rpy`, `tools/ch5_7_en.py`, `tools/ch5_7_ru.py`,
+  `game/tl/{japanese,russian}/ch5_7_*.rpy`, `references/voice_id_map.csv`
+- вопрос/решение:
+  - Часть 7 начата: сцены 341-342 (core) + first 5 dates (1104-1114).
+  - 120 голосовых реплик ожидается.
+  - Базовая структура скрипта создана, добавлены 23 голоса в манифест.
+  - EN/RU файлы и tl файлы созданы с базовыми репликами.
+  - Оставшиеся диалоги требуют дополнительной работы.
