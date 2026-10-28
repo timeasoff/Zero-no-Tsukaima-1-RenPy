@@ -343,6 +343,7 @@ detection ≠ classification ≠ investigation ≠ disposition (скилл `russ
 | **`game/tl/japanese/common.rpy`, `game/tl/russian/common.rpy`** | взяты из документации Ren'Py: **read-only** (атрибут `+R`), не редактировать; из проверок исключены (`tools/check_project.py`, раздел Exceptions) — их ключи участвуют в покрытии E4/E5, но не порождают E6/E8/W1. |
 | **Таблица говорящих** | ведётся в `game/characters.rpy` (`define` + `char_data`); полный PS2-список и правило добавления — скилл `voice-workflow`, раздел «Говорящие». |
 | **Сцены-заглушки** | сцена 1239 отсутствует в архиве; 12 файлов содержат NUL (стабы без `talk()`) — потери текста нет, портируются как пустые проходы. |
+| **Среда выполнения (devcontainer)** | `.devcontainer/Dockerfile`: `python:3.14-slim-bookworm` + `git`, `ffmpeg` (+`ffprobe`) — голоса/SE (`audio_converter.py`, `ffmpeg -c:a libvorbis -q:a 5`), `webp` — `cwebp` для PNG→WebP, `ripgrep`, `pip install soundfile`. Слой-приёмка `RUN git --version && ffmpeg -version && cwebp -version && rg --version && python -c "import soundfile"`: сборка падает, если инструмент не встал. **Новый внешний бинарник/пакет в `tools/` → сразу в этот Dockerfile**, иначе ломается в контейнере. В контейнере нет и не нужно: Ren'Py SDK (проверки чисто-python), PowerShell (`agent_workflow.py` — clipboard-фолбэк host-only), docker CLI. |
 
 ---
 

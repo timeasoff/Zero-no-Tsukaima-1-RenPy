@@ -19,6 +19,14 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
 
 ---
 
+## 2026-10-28 — Глава 5, часть 7: пересборка scope 341 + 1134–1143
+
+- статус: DEFERRED
+- место: `game/chapters/5/script-ch5_7.rpy`, `tools/gen_ch5_7_{script,tl}.py`
+- вопрос: части 8–10 ещё отсутствуют, а ffmpeg недоступен для конвертации 108 голосов.
+- решение/вариант: собрать и проверить полный текстовый scope части 7 по JA; сохранить запланированные route-переходы на будущие labels и не подменять их фиктивными переходами. Аудио отложено до появления ffmpeg.
+- где использовано: сцена 341, ветки 1134–1138 и 1139–1143; provisional mappings спрайтов перечислены в `reports/ch5/7.md`.
+
 ## 2026-10-17 — P4b: глава 4, часть 4 (сцены 246–255 + даты 1367–1382) завершена
 
 - статус: USER DECISION
@@ -3776,3 +3784,22 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
   - Базовая структура скрипта создана, добавлены 23 голоса в манифест.
   - EN/RU файлы и tl файлы созданы с базовыми репликами.
   - Оставшиеся диалоги требуют дополнительной работы.
+
+## 2026-10-28 — Окружение: ffmpeg/cwebp/ripgrep/soundfile в devcontainer
+
+- статус: USER DECISION
+- место: `.devcontainer/Dockerfile`, `.devcontainer/devcontainer.json`, `AGENTS.md` §6
+- вопрос/решение:
+  - Работа идёт через devcontainer, а локальный ffmpeg на хосте контейнеру не помогает:
+    в `python:3.14-slim-bookworm` его не было → `audio_converter.py convert --apply`
+    падал (отчёт `reports/ch5/7.md`: 108 `.ogg` не созданы), озвучка частей 5.1–5.4 шла
+    запасным `tools/convert_voices_soundfile.py`.
+  - Аудит `tools/` (чего зовут скрипты): `git` — уже стоял; `ffmpeg` — нет; `cwebp`
+    (PNG→WebP, `tools/media/png_to_webp.py`) — нет; `rg` — нет; из сторонних Python-пакетов
+    только `soundfile`. Всё остальное — stdlib, Ren'Py SDK не требуется (проверки чисто-python).
+  - В Dockerfile добавлены `ffmpeg`, `webp`, `ripgrep` и `pip install soundfile` + слой-приёмка
+    `RUN git --version && ffmpeg -version && cwebp -version && rg --version && python -c …`:
+    сборка падает, если инструмент не установился. `postCreateCommand` печатает версии
+    git/ffmpeg/cwebp после `opencode --version`.
+  - Docker-in-devcontainer не нужен: ffmpeg теперь внутри контейнера; права на `git add`
+    по-прежнему только явные (`opencode.jsonc`).
