@@ -19,6 +19,22 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
 
 ---
 
+## 2026-10-29 — S8: ручная редактура RU TL
+
+- статус: INFO
+- место: `game/tl/russian/ch5_8_dialogs.rpy`, `game/tl/russian/ch5_8_thoughs.rpy`, `game/tl/russian/ch5_8_choises.rpy`
+- вопрос: в S8 оставались английские и смешанные `new`, возникшие из fallback-генерации.
+- решение/вариант: вручную перевести все 99 диалогов, 10 мыслей и 6 выборов по JA TL и сценам 1144–1153; `old`, порядок, количество пар и технические tags не менять.
+- где использовано: RU S8; синтаксис и русская типографика повторно проверены, латиница в тексте `new` отсутствует.
+
+## 2026-10-30 — Глава 5, часть 8: финализация S8
+
+- статус: INFO
+- место: `game/chapters/5/script-ch5_8.rpy`, `game/tl/{japanese,russian}/ch5_8_*.rpy`
+- вопрос: при финальной сверке были обнаружены позиционные сдвиги в новых TL-строках мыслей и две безголосые реплики, ошибочно оформленные как мысли.
+- решение/вариант: исправить новые JA/RU-пары по точным тегам `th_003`–`th_011`, восстановить говорящих `t`/`s`, повторно пройти syntax, typography, omission, assets и voice checks. Не менять существующие JA-строки вне S8.
+- где использовано: scenes 1144–1153; `check_project.py` оставляет только внешний E7-долг будущих labels `ch5_9`/`ch5_10`.
+
 ## 2026-10-28 — Глава 5, часть 7: пересборка scope 341 + 1134–1143
 
 - статус: DEFERRED
@@ -3840,3 +3856,5 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
     git/ffmpeg/cwebp после `opencode --version`.
   - Docker-in-devcontainer не нужен: ffmpeg теперь внутри контейнера; права на `git add`
     по-прежнему только явные (`opencode.jsonc`).
+
+2026-10-29 — S8 chapter 5: created partial `game/chapters/5/script-ch5_8.rpy` for scenes 1144–1153. Source/event order and 98 unique voice IDs verified; syntax check passed. TL entries, voice manifest/CSV marking, audio conversion and full project checks remain open. Provisional image mappings: 687, 689, 693, 733, 739, 734, 731, 737, 643, 651, 650, 649, 647, 638.

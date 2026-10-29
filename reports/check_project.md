@@ -6,14 +6,14 @@
 
 ## ERROR (6)
 
-- E7 jump 'ch5_8_r2_kirche' at game/chapters/5/script-ch5_7.rpy:67 has no label
-- E7 jump 'ch5_8_r3_tabitha' at game/chapters/5/script-ch5_7.rpy:69 has no label
 - E7 jump 'ch5_9_r5_henrietta' at game/chapters/5/script-ch5_7.rpy:73 has no label
 - E7 jump 'ch5_9_r6_haruna' at game/chapters/5/script-ch5_7.rpy:75 has no label
 - E7 jump 'ch5_10' at game/chapters/5/script-ch5_7.rpy:251 has no label
 - E7 jump 'ch5_10' at game/chapters/5/script-ch5_7.rpy:431 has no label
+- E7 jump 'ch5_9' at game/chapters/5/script-ch5_8.rpy:134 has no label
+- E7 jump 'ch5_9' at game/chapters/5/script-ch5_8.rpy:275 has no label
 
-## WARNING (291)
+## WARNING (293)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -306,13 +306,15 @@
 - I1 ch3: 1170 script strings > 1078 source talk
 - I1 ch4: 1143 script strings > 1072 source talk
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:35 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:167 (run tools/replace_bg_placeholders.py --apply)
 
 ## INFO (29)
 
 - speakers defined: 36
 - overlay K: max=11 used=11 next_free=12
-- voices: refs=5305 ogg=5311 missing=0
-- I1 ch5: strings=1054 source_talk=1470 (gap expected)
+- voices: refs=5403 ogg=5409 missing=0
+- I1 ch5: strings=1169 source_talk=1470 (gap expected)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
 - I1 ch8: not started (source talk=378)
@@ -336,6 +338,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=415 in 16 file(s)
-- labels=286 rpy=81 strings(strict=6083) tl_old=japanese:6573,russian:6600
+- image map: ids=312 named=148 open=164 | placeholders=425 in 17 file(s)
+- labels=292 rpy=82 strings(strict=6198) tl_old=japanese:6688,russian:6715
 

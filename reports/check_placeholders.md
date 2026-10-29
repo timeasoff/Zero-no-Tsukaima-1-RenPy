@@ -1,8 +1,8 @@
 # Проверка заглушек
 
-Дата: 2026-10-29 10:46
+Дата: 2026-10-29 23:53
 
-## WARNING (113)
+## WARNING (123)
 
 - [WARNING] game/chapters/5/script-ch5_1.rpy:127: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv
 - [WARNING] game/chapters/5/script-ch5_1.rpy:581: ID_UNNAMED — id(130) — filename не заполнен в image_id_map.csv
@@ -117,6 +117,16 @@
 - [WARNING] game/chapters/5/script-ch5_7.rpy:397: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
 - [WARNING] game/chapters/5/script-ch5_7.rpy:411: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
 - [WARNING] game/chapters/5/script-ch5_7.rpy:423: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:6: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:35: ID_PLACEHOLDER — id(90) — заглушка не заменена (файл: sky_night)
+- [WARNING] game/chapters/5/script-ch5_8.rpy:38: ID_UNNAMED — id(145) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:91: ID_UNNAMED — id(53) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:96: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:138: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:167: ID_PLACEHOLDER — id(90) — заглушка не заменена (файл: sky_night)
+- [WARNING] game/chapters/5/script-ch5_8.rpy:170: ID_UNNAMED — id(144) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:222: ID_UNNAMED — id(53) — filename не заполнен в image_id_map.csv
+- [WARNING] game/chapters/5/script-ch5_8.rpy:227: ID_UNNAMED — id(54) — filename не заполнен в image_id_map.csv
 
 ## INFO (1)
 
