@@ -4,14 +4,12 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (6)
+## ERROR (4)
 
-- E7 jump 'ch5_9_r5_henrietta' at game/chapters/5/script-ch5_7.rpy:73 has no label
-- E7 jump 'ch5_9_r6_haruna' at game/chapters/5/script-ch5_7.rpy:75 has no label
 - E7 jump 'ch5_10' at game/chapters/5/script-ch5_7.rpy:251 has no label
 - E7 jump 'ch5_10' at game/chapters/5/script-ch5_7.rpy:431 has no label
-- E7 jump 'ch5_9' at game/chapters/5/script-ch5_8.rpy:134 has no label
-- E7 jump 'ch5_9' at game/chapters/5/script-ch5_8.rpy:275 has no label
+- E7 jump 'ch5_10' at game/chapters/5/script-ch5_9.rpy:141 has no label
+- E7 jump 'ch5_10' at game/chapters/5/script-ch5_9.rpy:291 has no label
 
 ## WARNING (293)
 
@@ -299,7 +297,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:157: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
-- W2 6 ogg not referenced by any script
+- W2 12 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
 - I1 ch2: 1468 script strings > 1382 source talk
@@ -313,8 +311,8 @@
 
 - speakers defined: 36
 - overlay K: max=11 used=11 next_free=12
-- voices: refs=5403 ogg=5409 missing=0
-- I1 ch5: strings=1169 source_talk=1470 (gap expected)
+- voices: refs=5507 ogg=5519 missing=0
+- I1 ch5: strings=1289 source_talk=1470 (gap expected)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
 - I1 ch8: not started (source talk=378)
@@ -338,6 +336,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=425 in 17 file(s)
-- labels=292 rpy=82 strings(strict=6198) tl_old=japanese:6688,russian:6715
+- image map: ids=312 named=148 open=164 | placeholders=433 in 18 file(s)
+- labels=303 rpy=83 strings(strict=6318) tl_old=japanese:6808,russian:6835
 

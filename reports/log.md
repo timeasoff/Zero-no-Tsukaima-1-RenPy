@@ -35,6 +35,14 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
 - решение/вариант: исправить новые JA/RU-пары по точным тегам `th_003`–`th_011`, восстановить говорящих `t`/`s`, повторно пройти syntax, typography, omission, assets и voice checks. Не менять существующие JA-строки вне S8.
 - где использовано: scenes 1144–1153; `check_project.py` оставляет только внешний E7-долг будущих labels `ch5_9`/`ch5_10`.
 
+## 2026-10-30 — Глава 5, часть 9: финализация S9
+
+- статус: INFO
+- место: `game/chapters/5/script-ch5_9.rpy`, `game/tl/{japanese,russian}/ch5_9_*.rpy`
+- вопрос: после первичной сборки шесть безголосых строк были размещены в `dialogs` вместо `thoughs`.
+- решение/вариант: перенести все 10 безголосых единиц S9 в `thoughs`, сверить JA/RU по точным тегам, подтвердить порядок 104 voice ID и закрыть S9. `jump ch5_10` сохранён как внешний переход следующей части.
+- где использовано: scenes 1154–1163; semantic-аудит A/B/C не запускался, omission precheck и механические проверки пройдены.
+
 ## 2026-10-28 — Глава 5, часть 7: пересборка scope 341 + 1134–1143
 
 - статус: DEFERRED
@@ -3858,3 +3866,5 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
     по-прежнему только явные (`opencode.jsonc`).
 
 2026-10-29 — S8 chapter 5: created partial `game/chapters/5/script-ch5_8.rpy` for scenes 1144–1153. Source/event order and 98 unique voice IDs verified; syntax check passed. TL entries, voice manifest/CSV marking, audio conversion and full project checks remain open. Provisional image mappings: 687, 689, 693, 733, 739, 734, 731, 737, 643, 651, 650, 649, 647, 638.
+- 2026-10-30 S9: добавлена часть главы 5 для сцен 1154–1163. JA сверено с chapters/events_full; 104 новых голосовых пар и USED markers, аудио конвертировано. `wav_source` отсутствовал, но `audio_converter` использовал доступные исходные дорожки/очередь и завершился `RESULT: OK`. Provisional IDs и внешний `ch5_10` зафиксированы в `reports/ch5/9.md`; semantic-аудит A/B/C не запускался.
+- 2026-10-30 S9 coverage recheck: обнаружение — шесть строк `th` были ошибочно размещены в `ch5_9_dialogs.rpy`; классификация ERROR (bucket не соответствует типу строки). Исправление — шесть пар перенесены в `ch5_9_thoughs.rpy` для JA/RU; существующие JA `new` не изменялись. Повторная сверка: 10/10 безголосых мыслей имеют ровно один old/new в каждом языке, duplicate old отсутствуют; 104/104 voice ID совпадают с events_full по порядку. `check_project` оставляет только 4 внешних E7 на отсутствующий `ch5_10` (2 в S7, 2 в S9). Полный semantic-аудит A/B/C не запускался.
