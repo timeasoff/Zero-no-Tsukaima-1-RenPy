@@ -58,8 +58,9 @@ class VoiceTranscriptionChecker:
     RE_VOICE_REF = re.compile(r'voice\s+"([^"]+)"')
     # Строка CSV: [## ]VOICE_ID.BIN_<hex8>.wav
     RE_VOICE_ROW = re.compile(r"^(#+\s*)?VOICE_ID\.BIN_([0-9A-Fa-f]{8})\.(wav|WAV|STV)$")
-    # Отметка использованного в status: имя голоса ch2.6_s_003 [.wav]
-    RE_STATUS_MARK = re.compile(r"\bch\d[\w.]*_\w+_\d+")
+    # Отметка использованного в status: имя голоса ch2.6_s_003 [.wav] либо
+    # маркер-пометка "# USED"/"USED chN" (массовая пометка, tools/mark_transcriptions_used.py)
+    RE_STATUS_MARK = re.compile(r"\bch\d[\w.]*_\w+_\d+|#?\s*USED\s+ch\d")
 
     def __init__(self, root: Path):
         self.root = root
