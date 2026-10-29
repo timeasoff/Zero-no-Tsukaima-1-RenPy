@@ -31,6 +31,9 @@ default siesta_sympathy = 0
 default tabitha_sympathy = 0
 default kirche_sympathy = 0
 
+# Маршрут главы 5 (route 1-6): вычисляется compute_zero_route() по макс. симпатии
+default zero_route = 1
+
 # Отслеживание "известных" персонажей (показываются в меню только после первого взаимодействия)
 default known_characters = set()
 
@@ -515,6 +518,33 @@ init python:
     def is_character_known(char_key):
         """Проверить, известен ли персонаж"""
         return char_key in renpy.store.known_characters
+
+    def compute_zero_route():
+        """Маршрут (route) главы 5 — аналог PS2 checkRoute() (SCENE_0003.txt).
+
+        JA-канон (ps2_source/scripts/SCENE_0003.txt, function checkRoute):
+        маршрут = девушка с МАКСИМАЛЬНОЙ симпатией; при равенстве побеждает
+        более ранняя проверка в порядке PS2. Числовой route:
+            1 = Луиза, 2 = Кюрке, 3 = Табаса, 4 = Сиеста,
+            5 = Анриетта, 6 = Харуна.
+        PS2 дополнительно принудительно ставит route=1 (Луиза) при
+        zero_tundele_count >= 4; счётчик тундэре-теста в ремастере не ведётся,
+        поэтому эта оговорка опущена (зафиксировано в reports/log.md).
+
+        Порядок проверок полностью повторяет checkRoute() из SCENE_0003:
+        Haruna (6), Siesta (4), Henrietta (5), Tabitha (3), Kirche (2).
+        Louise (1) — fallback, если ни одна из этих проверок не сработала.
+        Поэтому при равенстве всех шести значений, включая стартовые нули,
+        выбирается route 6: isMax(5) истинно.
+        """
+        order = [("haruna", 6), ("siesta", 4), ("henrietta", 5),
+                 ("tabitha", 3), ("kirche", 2), ("louise", 1)]
+        vals = [(name, route, get_sympathy(name)) for name, route in order]
+        best = max(v for _, _, v in vals)
+        for _, route, v in vals[:-1]:
+            if v == best:
+                return route
+        return 1
 
 # ============================================
 # ПРИМЕР ИСПОЛЬЗОВАНИЯ

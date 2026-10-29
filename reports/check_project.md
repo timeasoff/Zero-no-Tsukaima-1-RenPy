@@ -4,9 +4,14 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (1)
+## ERROR (6)
 
-- E7 jump 'ch5_7' at game/chapters/5/script-ch5_6.rpy:1189 has no label
+- E7 jump 'ch5_8_r2_kirche' at game/chapters/5/script-ch5_7.rpy:67 has no label
+- E7 jump 'ch5_8_r3_tabitha' at game/chapters/5/script-ch5_7.rpy:69 has no label
+- E7 jump 'ch5_9_r5_henrietta' at game/chapters/5/script-ch5_7.rpy:73 has no label
+- E7 jump 'ch5_9_r6_haruna' at game/chapters/5/script-ch5_7.rpy:75 has no label
+- E7 jump 'ch5_10' at game/chapters/5/script-ch5_7.rpy:251 has no label
+- E7 jump 'ch5_10' at game/chapters/5/script-ch5_7.rpy:431 has no label
 
 ## WARNING (291)
 
@@ -306,8 +311,8 @@
 
 - speakers defined: 36
 - overlay K: max=11 used=11 next_free=12
-- voices: refs=5197 ogg=5203 missing=0
-- I1 ch5: strings=929 source_talk=1470 (gap expected)
+- voices: refs=5305 ogg=5311 missing=0
+- I1 ch5: strings=1054 source_talk=1470 (gap expected)
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
 - I1 ch8: not started (source talk=378)
@@ -331,6 +336,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=397 in 15 file(s)
-- labels=281 rpy=80 strings(strict=5958) tl_old=japanese:6448,russian:6475
+- image map: ids=312 named=148 open=164 | placeholders=415 in 16 file(s)
+- labels=286 rpy=81 strings(strict=6083) tl_old=japanese:6573,russian:6600
 

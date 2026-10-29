@@ -1,11 +1,36 @@
 translate japanese strings:
-# ===== ch5.7: мысли =====
+# ===== ch5.7 regenerated =====
 
-    old "（Haa... I still feel kind of excited.）{#ch5.7_th_001}"
-    new "「はぁ……今日も練習が休みか」{#ch5.7_th_001}"
+    old "And at last, the day of the casting announcement had arrived.{#ch5.7_th_001}"
+    new "（そして、ついに役柄の発表の日が来た）"
 
-    old "（…How to deal with it?）{#ch5.7_th_002}"
-    new "「明日にはいよいよ役柄の最終発表をするって\n　ウェザリーさんはいってたけど……」{#ch5.7_th_002}"
+    old "…….{#ch5.7_th_002}"
+    new "……。"
 
-    old "（And finally, the day...) The role announcement... finally came.{#ch5.7_th_003}"
-    new "「…何とかなるだろうな？\n　本当に……」{#ch5.7_th_003}"
+    old "…….{#ch5.7_th_003}"
+    new "……。"
+
+    old "……… …… …{#ch5.7_th_004}"
+    new "………。 ……。 …。"
+
+    old "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.7_th_005}"
+    new "（そして、舞台の幕が開いた。 　滞りなく舞台が進み、 　そしてクライマックスへとなだれこんだ）"
+
+    old "……… …… …{#ch5.7_th_006}"
+    new "………。 ……。 …。"
+
+    old "What am I supposed to say to that...{#ch5.7_th_007}"
+    new "（思っちゃったって言われても……）"
+
+    old "……… …… …{#ch5.7_th_008}"
+    new "………。 ……。 …。"
+
+    old "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.7_th_009}"
+    new "（そして、舞台の幕が開いた。 　滞りなく舞台が進み、 　そしてクライマックスへとなだれこんだ）"
+
+    old "……… …… …{#ch5.7_th_010}"
+    new "………。 ……。 …。"
+
+    old "What am I supposed to say to that...{#ch5.7_th_011}"
+    new "（思っちゃったって言われても……）"
+# ===== end ch5.7 =====

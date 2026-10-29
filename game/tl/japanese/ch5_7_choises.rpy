@@ -1,18 +1,21 @@
 translate japanese strings:
-# ===== ch5.7: выборы =====
+# ===== ch5.7 regenerated =====
 
-    # Menu: "To the theater (stage)"
-    old "舞台{#ch5.7_c1104}"
-    new "To the theater (stage){#ch5.7_c1104}"
-    
-    # Menu: "To the theater (theater)"  
-    old "劇場{#ch5.7_c1110}"
-    new "To the theater (theater){#ch5.7_c1110}"
-    
-    # Menu: "To the main street"
-    old "表通り{#ch5.7_c_main}"
-    new "To the main street{#ch5.7_c_main_street}"
-    
-    # Menu: "To the inn"
-    old "宿{#ch5.7_c_inn}"
-    new "To the inn{#ch5.7_c_inn}"
+    old "I meant it...{#ch5_7_c1135}"
+    new "本気だったのに……"
+
+    old "It was only a play!{#ch5_7_c1136}"
+    new "お芝居だって！"
+
+    old "Change the subject{#ch5_7_c1137}"
+    new "誤魔化す"
+
+    old "Maybe I was serious?{#ch5_7_c1140}"
+    new "実は本気かも？"
+
+    old "It was only acting!{#ch5_7_c1141}"
+    new "お、お芝居だよ！"
+
+    old "Laugh it off{#ch5_7_c1142}"
+    new "笑って逃げる"
+# ===== end ch5.7 =====

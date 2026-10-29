@@ -1,18 +1,21 @@
 translate russian strings:
-# ===== ch5.7: выборы =====
+# ===== ch5.7 regenerated =====
 
-    # Menu: "To the theater (stage)"
-    old "Театр {#ch5.7_c1104}"
-    new "To the theater (stage){#ch5.7_c1104}"
-    
-    # Menu: "To the theater (theater)"
-    old "Театр{#ch5.7_c1110}"
-    new "To the theater (theater){#ch5.7_c1110}"
-    
-    # Menu: "To the main street"
-    old "Главная улица{#ch5.7_c_main}"
-    new "To the main street{#ch5.7_c_main_street}"
-    
-    # Menu: "To the inn"
-    old "Приют{#ch5.7_c_inn}"
-    new "To the inn{#ch5.7_c_inn}"
+    old "I meant it...{#ch5_7_c1135}"
+    new "Я ведь не притворялся..."
+
+    old "It was only a play!{#ch5_7_c1136}"
+    new "Это была всего лишь роль!"
+
+    old "Change the subject{#ch5_7_c1137}"
+    new "Перевести разговор"
+
+    old "Maybe I was serious?{#ch5_7_c1140}"
+    new "Может, я говорил серьёзно?"
+
+    old "It was only acting!{#ch5_7_c1141}"
+    new "Это была просто роль!"
+
+    old "Laugh it off{#ch5_7_c1142}"
+    new "Отшутиться"
+# ===== end ch5.7 =====

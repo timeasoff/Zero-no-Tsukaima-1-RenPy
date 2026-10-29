@@ -1,36 +1,108 @@
 # -*- coding: utf-8 -*-
 
 EN_DIALOGS = {
-    # Scene 341 - Role Announcement
-    # Weatherby announcing roles
-    'ch5.7_w_001': "Everyone, good work.\nNow then, I'll announce the final casting.",
-    'ch5.7_w_002': 'First, the role of Prince Kane — you, Saito!',
-    'ch5.7_w_003': "…You had quite the talent.\nHave confidence in yourself.",
-    'ch5.7_w_004': "…As for me, I'll be playing the villain —\na noble from an enemy country.\nAfter all, a play has no villain without one.",
-    'ch5.7_w_005': 'Now, for the heroine,\nPrincess Noelle...',
-    
-    # Saito internal monologue
-    'ch5.7_s_001': '（And finally, the day of the role announcement has come）',
-    'ch5.7_s_002': '（…How to deal with it?）',
-    
-    # Guiche
-    'ch5.7_g_001': "W-what? It's not like I would get a part or anything...",
-    
-    # Montmorency
-    'ch5.7_m_001': 'W-well, w-well now.',
-    
-    # Saito reactions
-    'ch5.7_s_003': 'H-huh? Really okay for me?',
-    
-    # Scene 342 - Reaction
-    # Saito
-    'ch5.7_s_004': 'Haa... I still feel kind of excited.',
-    'ch5.7_s_005': "（Today's practice was a wash though...）",
-    
-    # === DATE SELECTION MENU ===
-    # The following will be handled through ch5_7_date_menu labels
-    # Each date branch continues in separate labels
-    
-    # Placeholder for later dates (part of extra 1104-1163)
-    # These will be filled in as we port each date
+    'ch5.7_w_001': "Everyone, good work.\nNow I'll announce the final casting.\nFirst, Prince Kane will be played by... Saito!",
+    'ch5.7_g_001': "I-I wouldn't get a part anyway...",
+    'ch5.7_m_001': 'W-well, well.',
+    'ch5.7_s_001': 'R-really? Is that all right?',
+    'ch5.7_w_002': '...You showed real talent.\nHave confidence in yourself.',
+    'ch5.7_w_003': "...I'll take the role of the enemy noble.\nA play needs a villain to hold together.",
+    'ch5.7_w_004': 'Now, about the heroine,\nPrincess Noelle...',
+    'ch5.7_l_001': '…….',
+    'ch5.7_ha_001': '…….',
+    'ch5.7_si_001': '…….',
+    'ch5.7_m_002': '…….',
+    'ch5.7_h_001': '…….',
+    'ch5.7_w_005': 'I choose Miss Vallière.',
+    'ch5.7_ha_002': 'Congratulations, Miss Louise.',
+    'ch5.7_l_002': 'Of course!',
+    'ch5.7_k_001': 'Aww, I was hoping to win the heroine\'s part and make Louise stamp her feet.',
+    'ch5.7_h_002': 'Well, what is decided cannot be helped.\nLet us do our best in the roles we were given.',
+    'ch5.7_t_001': 'Naturally.',
+    'ch5.7_w_006': 'Then I will announce the rest of the casting.\nThe old nobleman who raised him will be...',
+    'ch5.7_s_002': 'We can buy a little time here.',
+    'ch5.7_l_003': 'I will negotiate with the enemy.\nIf I return to the Empire,\neverything will be settled.',
+    'ch5.7_s_003': 'But then I will lose you.',
+    'ch5.7_l_004': 'But if we do nothing, the prince will lose both his kingdom and his life!',
+    'ch5.7_s_004': 'What is a kingdom to me?\nWhat is death compared with that?',
+    'ch5.7_s_005': 'Laugh at me.\nI fear living on after losing you\nmore than I fear death or a ruined kingdom.',
+    'ch5.7_l_005': 'Prince!',
+    'ch5.7_s_006': 'Ah, my beloved.\nYou cannot know how much I loved you.',
+    'ch5.7_s_007': 'Love blinds everyone and drives them mad.\nThe noblemen who whispered their love to you\nall met ruin trying to answer your riddles.',
+    'ch5.7_s_008': 'But I can no longer laugh at their foolishness.\nI wagered this kingdom for you,\nand destroyed it myself!',
+    'ch5.7_s_009': 'The castle is falling.\nLeave.',
+    'ch5.7_s_010': 'The attacking soldiers will welcome you\nas their new queen with cries of joy!',
+    'ch5.7_s_011': 'You will live and become queen.',
+    'ch5.7_l_006': 'Ah, Prince!',
+    'ch5.7_s_012': 'My beloved.\nBut I have no regrets.',
+    'ch5.7_s_013': 'My love for you was worth the price.\nIf only... just once...',
+    'ch5.7_s_014': 'I wanted to know what you truly felt.',
+    'ch5.7_s_015': 'The enemy soldiers have reached the tower...\nThere is no time left.',
+    'ch5.7_l_007': 'Prince, do you remember the night\nyou proposed to me?',
+    'ch5.7_l_008': 'It was a beautiful night, like tonight.\nI will give you my answer now.',
+    'ch5.7_s_016': 'Princess?',
+    'ch5.7_l_009': 'Noelle will die here...\nas the prince\'s wife.',
+    'ch5.7_g_002': 'There she is! The princess!',
+    'ch5.7_l_010': '…….',
+    'ch5.7_s_017': 'Then let us go, Noelle.\nI will follow you wherever you go.',
+    'ch5.7_t_002': 'And so the two of them threw themselves from the tower...',
+    'ch5.7_t_003': 'They say white flowers eventually bloomed\nwhere the two of them fell, side by side...',
+    'ch5.7_l_011': 'That was quite a passionate performance.',
+    'ch5.7_s_018': '...Well, just a little.',
+    'ch5.7_w_007': 'Ladies and gentlemen,\nplease give them one more grand round of applause!',
+    'ch5.7_l_012': 'Saito, tell me...\nWas that confession real?',
+    'ch5.7_s_019': 'I was pretty serious about it...',
+    'ch5.7_l_013': 'Huh?',
+    'ch5.7_s_020': 'N-no, it was nothing!',
+    'ch5.7_s_021': 'I-it was only acting!',
+    'ch5.7_l_014': 'R-right.\n...Of course I knew that.',
+    'ch5.7_s_022': 'Ahahaha...',
+    'ch5.7_l_015': 'Are you trying to laugh your way out of it?',
+    'ch5.7_s_023': 'Please, spare me.'
+}
+
+EN_DIALOGS.update({
+    'ch5.7_w_008': 'Siesta!', 'ch5.7_si_002': 'Huh? Me?', 'ch5.7_l_016': 'W-wait! Why her?',
+    'ch5.7_w_009': 'Your strong performance made a good impression.\nYou practiced harder than anyone else.',
+    'ch5.7_si_003': 'Is it really all right for someone like me to play the heroine?',
+    'ch5.7_w_010': 'Have confidence in yourself.\nOtherwise, there would be no point in my choosing you.',
+    'ch5.7_si_004': 'Th-thank you very much.',
+    'ch5.7_h_003': 'Well, what is decided cannot be helped.\nLet us do our best in the roles we were given.',
+    'ch5.7_w_011': 'Then I will announce the rest of the casting.\nThe old nobleman who raised him will be...',
+    'ch5.7_s_024': 'We can buy a little time here.', 'ch5.7_si_005': 'I will negotiate with the enemy.\nIf I return to the Empire, everything will be settled.',
+    'ch5.7_s_025': 'But then I will lose you.', 'ch5.7_si_006': 'But if we do nothing, the prince will lose both his kingdom and his life!',
+    'ch5.7_s_026': 'What is a kingdom to me?\nWhat is death compared with that?', 'ch5.7_s_027': 'Laugh at me.\nI fear living on after losing you more than I fear death or a ruined kingdom.',
+    'ch5.7_si_007': 'Prince!', 'ch5.7_s_028': 'Ah, my beloved.\nYou cannot know how much I loved you.',
+    'ch5.7_s_029': 'Love blinds everyone and drives them mad.\nThe noblemen who whispered their love to you all met ruin trying to answer your riddles.',
+    'ch5.7_s_030': 'But I can no longer laugh at their foolishness.\nI wagered this kingdom for you, and destroyed it myself!',
+    'ch5.7_s_031': 'The castle is falling.\nLeave.', 'ch5.7_s_032': 'The attacking soldiers will welcome you as their new queen with cries of joy!',
+    'ch5.7_s_033': 'You will live and become queen.', 'ch5.7_si_008': 'Ah, Prince!', 'ch5.7_s_034': 'My beloved.\nBut I have no regrets.',
+    'ch5.7_s_035': 'My love for you was worth the price.\nIf only... just once...', 'ch5.7_s_036': 'I wanted to know what you truly felt.',
+    'ch5.7_s_037': 'The enemy soldiers have reached the tower...\nThere is no time left.', 'ch5.7_si_009': 'P-Prince, do you remember the night\nyou proposed to me?',
+    'ch5.7_si_010': 'I will give you my answer now.', 'ch5.7_s_038': 'Princess?', 'ch5.7_si_011': 'Noelle will die here...\nas the prince\'s wife.',
+    'ch5.7_g_003': 'There she is! The princess!', 'ch5.7_si_012': '…….', 'ch5.7_s_039': 'Then let us go, Noelle.\nI will follow you wherever you go.',
+    'ch5.7_t_004': 'And so the two of them threw themselves from the tower.', 'ch5.7_t_005': 'They say white flowers eventually bloomed\nwhere the two of them fell, side by side.',
+    'ch5.7_s_040': 'You looked like a real princess.\nIt was as if you were a different Siesta.', 'ch5.7_si_013': 'R-really? Hearing that from you makes me happy.',
+    'ch5.7_w_012': 'Ladies and gentlemen,\nplease give them one more grand round of applause!', 'ch5.7_si_014': 'Saito-san, tell me...\nWas that proposal real?',
+    'ch5.7_s_041': 'Maybe I was serious?', 'ch5.7_si_015': 'Really? If that is what you want, Saito-san, then anytime...', 'ch5.7_s_042': 'S-stop!\nStop!',
+    'ch5.7_s_043': 'It was only acting!', 'ch5.7_si_016': 'I-I thought so.\nSomeone like me...', 'ch5.7_si_017': 'Ahaha, taking the play seriously...\nI really am just a country girl, aren\'t I?',
+    'ch5.7_s_044': 'N-no, that is not what I meant!', 'ch5.7_s_045': 'A-ahaha...', 'ch5.7_si_018': 'Please do not laugh it off.\nI am serious, you know?', 'ch5.7_s_046': 'Please, spare me.'
+})
+
+EN_THOUGHTS = {
+    'ch5.7_th_001': 'And at last, the day of the casting announcement had arrived.',
+    'ch5.7_th_002': '…….',
+    'ch5.7_th_003': '…….',
+    'ch5.7_th_004': '………\n……\n…',
+    'ch5.7_th_005': 'And then the curtain rose.\nThe play proceeded without a hitch,\nand swept toward its climax.',
+    'ch5.7_th_006': '………\n……\n…',
+    'ch5.7_th_007': 'What am I supposed to say to that...', 'ch5.7_th_008': '………\n……\n…',
+    'ch5.7_th_009': 'And then the curtain rose.\nThe play proceeded without a hitch,\nand swept toward its climax.',
+    'ch5.7_th_010': '………\n……\n…', 'ch5.7_th_011': 'What am I supposed to say to that...'
+}
+
+EN_CHOICES = {
+    '1135': 'I meant it...',
+    '1136': 'It was only a play!',
+    '1137': 'Change the subject', '1140': 'Maybe I was serious?', '1141': 'It was only acting!', '1142': 'Laugh it off'
 }
