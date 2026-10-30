@@ -16098,3 +16098,1123 @@ translate russian strings:
     new "Уж ты, мой дорогой."
 
 # ===== end ch5_5 =====
+
+
+# ===== ch6_1 provisional port =====
+    old "I'm home!{#ch6_s_001}"
+    new "Я дома!"
+
+    old "Whew, my legs feel like lead…{#ch6_l_001}"
+    new "Фух, ноги стали как ватные…"
+
+    old "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
+    new "С возвращением, мадемуазель Валлиер, Сайто. Как прошли расспросы?"
+
+    old "Absolutely terrible. We didn't find a single clue.{#ch6_s_002}"
+    new "Ужасно. Мы не нашли ни единой зацепки."
+
+    old "What are we supposed to do? We can't just end this by saying, ‘The investigation went nowhere.’{#ch6_l_002}"
+    new "И что же нам делать? Нельзя заканчивать всё словами: «Расследование ни к чему не привело»."
+
+    old "Let's wait for everyone else to come back. That's why we split up to ask around in the first place.{#ch6_s_003}"
+    new "Давайте дождёмся остальных. Мы ведь именно поэтому и разделились, чтобы расспросить людей."
+
+    old "Yes, you're right.{#ch6_l_003}"
+    new "Да, верно."
+
+    old "Well, things are starting to get a little serious.{#ch6_g_001}"
+    new "Похоже, дело становится серьёзным."
+
+    old "Serious? What happened? Did you find something out?{#ch6_l_004}"
+    new "Серьёзным? Что случилось? Вы что-нибудь узнали?"
+
+    old "It isn't about the bomber, but soldiers have started patrolling all over the city today.{#ch6_m_001}"
+    new "Дело не в бомбисте, но сегодня солдаты начали патрулировать весь город."
+
+    old "Soldiers?{#ch6_l_005}"
+    new "Солдаты?"
+
+    old "Yes. Quite a few of them are going around, separate from the usual city guard patrols.{#ch6_m_002}"
+    new "Да. Их довольно много, и они обходят город отдельно от обычных городских патрулей."
+
+    old "Could the army finally be getting serious about finding the bomber?{#ch6_l_006}"
+    new "Неужели армия наконец всерьёз взялась за поиски бомбиста?"
+
+    old "Who knows? Those aren't ordinary security patrols.{#ch6_g_002}"
+    new "Кто знает? Это не обычное патрулирование."
+
+    old "I suspect something happened, but it may not have anything to do with the bomber.{#ch6_g_003}"
+    new "Думаю, что-то случилось, но это не обязательно связано с бомбистом."
+
+    old "So something happened serious enough to rival the bomber incident?{#ch6_s_004}"
+    new "Значит, случилось нечто настолько серьёзное, что может сравниться с делом бомбиста?"
+
+    old "Most likely.{#ch6_g_004}"
+    new "Скорее всего."
+
+    old "The city is in trouble.{#ch6_t_001}"
+    new "В городе беда."
+
+    old "Oh, you're back, Tabitha and Kirche. You saw the soldiers in the city too, didn't you?{#ch6_l_007}"
+    new "А, вы вернулись, Табита и Кирхе. Вы тоже видели в городе солдат?"
+
+    old "Yes.{#ch6_t_002}"
+    new "Да."
+
+    old "Indeed. And while we were at it, I asked why the soldiers were wandering around the city.{#ch6_k_001}"
+    new "Да. Заодно я узнала, почему солдаты бродят по городу."
+
+    old "So what exactly is the reason they're patrolling?{#ch6_l_008}"
+    new "И почему же они патрулируют город?"
+
+    old "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    new "Говорят, пропал какой-то важный человек, хотя кто именно — неизвестно."
+
+    old "An important person has gone missing…? Who could it be?{#ch6_l_009}"
+    new "Пропал важный человек… Кто же это может быть?"
+
+    old "Hmm…{#ch6_s_005}"
+    new "Хм…"
+
+    old "Hm?{#ch6_s_006}"
+    new "Хм?"
+
+    old "Who is it?{#ch6_si_002}"
+    new "Кто это?"
+
+    old "It is I.{#ch6_h_001}"
+    new "Это я."
+
+    old "What!?{#ch6_s_007}"
+    new "Что!?"
+
+    old "The princess!?{#ch6_s_008}"
+    new "Принцесса!?"
+
+    old "What!?{#ch6_si_003}"
+    new "Что!?"
+
+    old "Why is Her Majesty the queen here!?{#ch6_k_003}"
+    new "Почему здесь сама королева!?"
+
+    old "We have to welcome her, no matter what!{#ch6_l_010}"
+    new "Нужно обязательно её встретить!"
+
+    old "When did the innkeeper get such a cute voice!?{#ch6_s_009}"
+    new "С каких это пор у трактирщика такой милый голос!?"
+
+    old "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
+    new "Дурак! Конечно нет! Любому ясно, что это голос принцессы!"
+
+    old "I-I was just joking.{#ch6_s_010}"
+    new "Я-я просто пошутил."
+
+    old "W-we have to welcome her, no matter what!{#ch6_l_012}"
+    new "Н-надо обязательно её встретить!"
+
+    old "Who is this ‘It-is-I’ person behind the door!?{#ch6_s_011}"
+    new "Кто такая «Это я» за дверью!?"
+
+    old "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
+    new "О ком ты говоришь!? Это же явно голос принцессы! Ну и бестолковый же ты фамильяр!"
+
+    old "Aww, it was only a little joke…{#ch6_s_012}"
+    new "Эх, это была всего лишь безобидная шутка…"
+
+    old "Good day, everyone.{#ch6_h_002}"
+    new "Добрый день, господа."
+
+    old "Good day… Your Highness, why are you here!? Is everything all right at the palace!?{#ch6_l_014}"
+    new "Добрый день… Ваше Высочество, почему вы здесь!? Во дворце всё в порядке!?"
+
+    old "I slipped away because I had something I absolutely had to tell you all.{#ch6_h_003}"
+    new "Я сбежала, потому что мне непременно нужно было вам кое-что сообщить."
+
+    old "The soldiers are looking for Her Majesty.{#ch6_t_003}"
+    new "Солдаты ищут Её Величество."
+
+    old "Ah, Your Majesty! You came all this way just to see me!{#ch6_g_005}"
+    new "А, Ваше Величество! Вы проделали весь этот путь, чтобы увидеться со мной!"
+
+    old "Save your daydreams for when you're asleep.{#ch6_m_003}"
+    new "Помечтай об этом во сне."
+
+    old "B-but Your Highness, what could possibly be so important that you left the palace?{#ch6_s_013}"
+    new "Н-но, Ваше Высочество, какое же дело могло быть настолько важным, что вы покинули дворец?"
+
+    old "It is nothing less than this: I would like you to hide me for a while.{#ch6_h_004}"
+    new "Дело вот в чём: я хочу, чтобы вы ненадолго меня спрятали."
+
+    old "What!?{#ch6_s_014}"
+    new "Что!?"
+
+    old "W-wait a moment. Why would you need us to hide you!?{#ch6_l_015}"
+    new "П-погодите. Но зачем вам вообще нужно прятаться!?"
+
+    old "Please forgive me, Your Highness. Could you tell us what happened?{#ch6_l_016}"
+    new "Простите, Ваше Высочество. Не могли бы вы рассказать, что случилось?"
+
+    old "Of course. I shall explain everything now.{#ch6_h_005}"
+    new "Конечно. Сейчас я всё объясню."
+
+    old "As for the investigation into the bombing incidents I asked you to conduct…{#ch6_h_006}"
+    new "Что касается расследования взрывов, о котором я вас просила…"
+
+    old "Well, um… There hasn't been much progress…{#ch6_l_017}"
+    new "Ну… особого прогресса пока нет…"
+
+    old "I am aware of that. I did not come here to reprimand you.{#ch6_h_007}"
+    new "Я знаю. Я пришла не для того, чтобы вас отчитывать."
+
+    old "After examining the reports on each incident, we discovered what appears to be a new fact.{#ch6_h_008}"
+    new "Изучив отчёты о каждом происшествии, мы обнаружили нечто, что может оказаться новым фактом."
+
+    old "A discovery…?{#ch6_s_015}"
+    new "Обнаружили…?"
+
+    old "This series of bombings follows a certain pattern. Everyone, look at this map.{#ch6_h_009}"
+    new "В этой серии взрывов прослеживается определённая закономерность. Все посмотрите на эту карту."
+
+    old "This is a map of Tristain, isn't it?{#ch6_l_018}"
+    new "Это ведь карта Тристейна?"
+
+    old "Yes. This central area is the royal palace, and these marks show the sites of the bombings.{#ch6_h_010}"
+    new "Да. В центре находится королевский дворец, а эти отметки показывают места взрывов."
+
+    old "Ah…!{#ch6_k_004}"
+    new "А…!"
+
+    old "Huh? What is it?{#ch6_g_006}"
+    new "Хм? Что такое?"
+
+    old "I see.{#ch6_k_005}"
+    new "Понятно."
+
+    old "The bombing sites are concentrated around the palace…?{#ch6_l_019}"
+    new "Места взрывов сосредоточены вокруг дворца…?"
+
+    old "‘Concentrated’ doesn't begin to describe it. The order is random, but they seem to form a ring around the palace.{#ch6_k_006}"
+    new "«Сосредоточены» — это ещё мягко сказано. Порядок случайный, но похоже, что они образуют кольцо вокруг дворца."
+
+    old "That is far too precise to be coincidence. It must have been deliberate.{#ch6_m_004}"
+    new "Для случайности это слишком точное совпадение. Несомненно, всё было сделано намеренно."
+
+    old "Do you see what I mean? I cannot help thinking that these incidents were not the work of a lone criminal.{#ch6_h_011}"
+    new "Теперь вы понимаете? Я не могу отделаться от мысли, что за этими происшествиями стоит не один преступник."
+
+    old "But even if that is true, what would it mean?{#ch6_g_007}"
+    new "Но даже если это так, что это значит?"
+
+    old "We cannot leave the places damaged by the bombings as they are. We will clear away the rubble and carry out repairs, but…{#ch6_h_012}"
+    new "Нельзя оставлять места, разрушенные взрывами, как есть. Мы расчистим завалы и проведём ремонт, но…"
+
+    old "With so many places to repair, there are not enough craftsmen to do the work.{#ch6_h_013}"
+    new "Из-за такого количества мест, требующих ремонта, нам не хватает мастеров."
+
+    old "So, to begin the repairs as quickly as possible, we are gathering craftsmen from both inside and outside the country.{#ch6_h_014}"
+    new "Поэтому, чтобы как можно скорее начать восстановительные работы, мы собираем мастеров со всей страны и из-за границы."
+
+    old "So…{#ch6_s_016}"
+    new "Значит…"
+
+    old "So the culprit was a craftsman who went on a bombing spree to get work?{#ch6_s_017}"
+    new "Значит, преступник был ремесленником и устроил взрывы, чтобы получить работу?"
+
+    old "That can't be it, can it?{#ch6_l_020}"
+    new "Не может же быть, что всё так просто?"
+
+    old "They disguised agents as craftsmen and used this plan to infiltrate them into our country. That's what you mean, Your Highness?{#ch6_l_021}"
+    new "Они выдали агентов за ремесленников и под этим предлогом внедрили их в нашу страну. Вы это имеете в виду, Ваше Высочество?"
+
+    old "Did they cause the bombings to lure agents posing as craftsmen into the country?{#ch6_s_018}"
+    new "Взрывы устроили, чтобы заманить в страну агентов под видом ремесленников?"
+
+    old "Yes.{#ch6_h_015}"
+    new "Да."
+
+    old "They set off bombings around the palace in advance, then planned to infiltrate during the repair work… That is the plan, isn't it?{#ch6_k_007}"
+    new "Сначала они устроили взрывы вокруг дворца, а потом собирались проникнуть сюда во время восстановительных работ… Таков их план, верно?"
+
+    old "The culprit was just a bombing fanatic, wasn't he?{#ch6_s_019}"
+    new "Преступник просто фанат взрывов, разве нет?"
+
+    old "How did you come to that conclusion!? You mean there are agents hiding among all the craftsmen hired for the repairs!{#ch6_l_022}"
+    new "С чего ты это взял!? Ты хочешь сказать, что среди всех ремесленников, нанятых для ремонта, прячутся агенты!?"
+
+    old "Most likely. For now, I am the only one who suspects it,{#ch6_h_016}"
+    new "Скорее всего. Пока что только я подозреваю это,"
+
+    old "but it may be nothing more than needless worry. However…{#ch6_h_017}"
+    new "но, возможно, это всего лишь напрасные переживания. Однако…"
+
+    old "If that is true, it would be a disaster! We have to find the agents immediately! It may be difficult, but we could investigate every craftsman…{#ch6_l_023}"
+    new "Если это правда, дело плохо! Нужно немедленно найти агентов! Это будет непросто, но можно проверить всех ремесленников…"
+
+    old "…It would probably be pointless.{#ch6_h_018}"
+    new "…Скорее всего, это будет бесполезно."
+
+    old "Why is that?{#ch6_l_024}"
+    new "Почему?"
+
+    old "These are unsettled times. Naturally, the identities of craftsmen from abroad are checked. Anyone with a suspicious background cannot enter the country.{#ch6_h_019}"
+    new "Времена неспокойные. Разумеется, личности иностранных ремесленников проверяют. Людей с сомнительным прошлым в страну не впускают."
+
+    old "Um…?{#ch6_l_025}"
+    new "Эм…?"
+
+    old "The influential nobles of our country are the ones who vouch for the craftsmen's identities.{#ch6_h_020}"
+    new "За личности ремесленников поручаются влиятельные дворяне нашей страны."
+
+    old "I do not want to think about it, but… if one of those nobles were to sell out the country, it would be easy to falsify an agent's identity.{#ch6_h_021}"
+    new "Не хочется об этом думать, но… если среди этих дворян окажется предатель, подделать личность агента будет проще простого."
+
+    old "No! That would be the grave crime of betraying the country!{#ch6_l_026}"
+    new "Нет! Это же тяжелейшее преступление — предательство страны!"
+
+    old "But I can think of no other explanation.{#ch6_h_022}"
+    new "Но другого объяснения я не вижу."
+
+    old "That is why I have a request for all of you. If possible, could you hide me here?{#ch6_h_023}"
+    new "Поэтому я хочу попросить вас об одном. Не могли бы вы, если возможно, спрятать меня здесь?"
+
+    old "If word gets out that I am absent, someone may take advantage of it and make a move. Will you do this for me?{#ch6_h_024}"
+    new "Если станет известно о моём отсутствии, кто-нибудь может этим воспользоваться и предпринять какие-то действия. Вы согласны?"
+
+    old "Of course!{#ch6_l_027}"
+    new "Конечно!"
+
+    old "It sounds like the decision has already been made for us. We have no choice but to do it.{#ch6_s_020}"
+    new "Похоже, всё уже решили за нас. Придётся этим заняться."
+
+    old "At Her Majesty's command, Guiche de Gramont will protect her with his life!{#ch6_g_008}"
+    new "По приказу Её Величества я, Гиш де Грамон, защищу её ценой собственной жизни!"
+
+    old "There he goes again… Yes, I will help as well.{#ch6_m_005}"
+    new "Опять за своё… Да, я тоже помогу."
+
+    old "Um, I-I cannot do much, but if I can be of help…!{#ch6_si_004}"
+    new "Эм-м, я-я мало на что способна, но если смогу помочь…!"
+
+    old "I do not really understand, but if everyone says so…{#ch6_ha_001}"
+    new "Я не совсем понимаю, но раз все так говорят…"
+
+    old "……{#ch6_t_004}"
+    new "……"
+
+    old "Well, we're already involved now.{#ch6_k_008}"
+    new "Ну, мы уже ввязались в это дело."
+
+    old "Looks like everyone agrees. From today on, guarding the princess is part of our mission too.{#ch6_s_021}"
+    new "Похоже, все согласны. Значит, с сегодняшнего дня охрана принцессы тоже входит в нашу задачу."
+
+    old "Please take good care of me.{#ch6_h_025}"
+    new "Прошу вас, позаботьтесь обо мне."
+
+    old "So, out you go.{#ch6_l_028}"
+    new "Итак, выйдите."
+
+    old "Wait a minute! What do you mean, ‘so’? Why am I the only one being kicked out of the room!?{#ch6_s_022}"
+    new "Погодите! Что значит «итак»? Почему из комнаты выгоняют только меня!?"
+
+    old "Oh, don't worry. Guiche is coming with you.{#ch6_l_029}"
+    new "Не волнуйся. Гиш идёт вместе с тобой."
+
+    old "Why am I being kicked out too!?{#ch6_g_009}"
+    new "Почему и меня выгоняют!?"
+
+    old "Exactly! Don't lump me together with this womanizer!{#ch6_s_023}"
+    new "Вот именно! Не ставьте меня в один ряд с этим бабником!"
+
+    old "From now on, this will be the women's room, so men are forbidden.{#ch6_l_030}"
+    new "Отныне это будет женская комната, так что мужчинам вход воспрещён."
+
+    old "Oh, I see. Well, I guess it can't be helped.{#ch6_s_024}"
+    new "А, вот оно что. Ну, ничего не поделаешь."
+
+    old "N-no! This can't be happening! My dream of serving beside Her Majesty and letting her experience my charms…!{#ch6_g_010}"
+    new "Н-нет! Не может быть! Я мечтал служить рядом с Её Величеством и дать ей оценить моё обаяние…!"
+
+    old "Come on, Guiche.{#ch6_s_025}"
+    new "Пойдём, Гиш."
+
+    old "This is too cruel…{#ch6_g_011}"
+    new "Это слишком жестоко…"
+
+    old "Enough. Get some sleep. We have to guard the princess starting tomorrow.{#ch6_s_026}"
+    new "Хватит. Иди спать. С завтрашнего дня нам охранять принцессу."
+
+    old "Good night, then.{#ch6_l_031}"
+    new "Тогда спокойной ночи."
+
+    old "Yeah. Don't kick off the futon and catch a chill while you sleep.{#ch6_s_027}"
+    new "Ага. Не сбрасывай футон во сне и не простудись."
+
+    old "I won't!{#ch6_l_032}"
+    new "Не простужусь!"
+
+    old "Mmm… yawn. Good grief, it's morning already.{#ch6_s_028}"
+    new "М-м… зеваю. Вот беда, уже утро."
+
+    old "I always wake up early out of habit.{#ch6_s_029}"
+    new "По привычке я всегда просыпаюсь рано."
+
+    old "Where did Guiche get to…?{#ch6_s_030}"
+    new "Куда подевался Гиш…?"
+
+    old "Mmm… mumble, mumble.{#ch6_g_012}"
+    new "М-м… бормочет что-то."
+
+    old "That's nobles for you…{#ch6_s_031}"
+    new "Вот они, дворяне…"
+
+    old "Hm? Who is it?{#ch6_s_032}"
+    new "Хм? Кто там?"
+
+    old "Um, are you awake?{#ch6_h_026}"
+    new "Эм, вы не спите?"
+
+    old "Princess?{#ch6_s_033}"
+    new "Принцесса?"
+
+    old "Good, you were already awake.{#ch6_h_027}"
+    new "Хорошо, вы уже проснулись."
+
+    old "Y-yes. I am an early riser.{#ch6_s_034}"
+    new "Д-да. Я рано встаю."
+
+    old "What brings you out so early, Princess?{#ch6_s_035}"
+    new "А вы почему так рано встали, принцесса?"
+
+    old "Perhaps I woke earlier than usual because I slept in an unfamiliar bed… Since I am awake, I thought I would look around the city.{#ch6_h_028}"
+    new "Наверное, я проснулась раньше обычного из-за непривычной постели… Раз уж я не сплю, я решила осмотреть город."
+
+    old "Pardon?{#ch6_s_036}"
+    new "Что?"
+
+    old "U-um, it is dangerous to go outside in our current situation, so you should probably give up on the walk…{#ch6_s_037}"
+    new "Э-э, в нашей ситуации выходить наружу опасно, так что, пожалуй, лучше отказаться от прогулки…"
+
+    old "A-and if something happens, Louise will…{#ch6_s_038}"
+    new "К тому же, если что-нибудь случится, Луиза…"
+
+    old "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"
+    new "С Луизой я сама улажу дело. А теперь пойдёмте."
+
+    old "W-wait… All right, all right, just don't pull so hard!{#ch6_s_039}"
+    new "П-погодите… Ладно, ладно, только не тяните так сильно!"
+
+    old "This is a spacious place.{#ch6_h_030}"
+    new "Здесь так просторно."
+
+    old "Princess, there seem to be a lot of soldiers here. If we stay too long, they will find you.{#ch6_s_040}"
+    new "Принцесса, здесь, похоже, много солдат. Если мы задержимся, вас найдут."
+
+    old "How diligent they are. That is a good thing.{#ch6_h_031}"
+    new "Какие они усердные. Это хорошо."
+
+    old "This is no time to be so relaxed. They are looking for you… We need to move, quickly.{#ch6_s_041}"
+    new "Не время так расслабляться. Они ищут вас… Нам нужно скорее уходить."
+
+    old "Hey, you there.{#ch6_unk_001}"
+    new "Эй, ты там."
+
+    old "Yes?{#ch6_h_032}"
+    new "Да?"
+
+    old "Hmm. Height… hair color… You match the description of the person we have orders to find. Come with me to the guard post.{#ch6_unk_002}"
+    new "Так… Рост… цвет волос… Вы подходите под описание человека, которого приказано найти. Пройдёмте со мной на заставу."
+
+    old "W-wait a moment!{#ch6_s_042}"
+    new "П-погодите!"
+
+    old "What about my cousin?{#ch6_s_043}"
+    new "А что насчёт моей двоюродной сестры?"
+
+    old "Your cousin?{#ch6_unk_003}"
+    new "Двоюродной сестры?"
+
+    old "Yes. She is my cousin from the frontier. She only arrived in the city this morning.{#ch6_s_044}"
+    new "Да. Она моя двоюродная сестра, живущая на границе. Сегодня утром она только приехала в город."
+
+    old "I am showing her around right now.{#ch6_s_045}"
+    new "Сейчас я показываю ей город."
+
+    old "Sorry. She is not familiar with the city yet.{#ch6_s_046}"
+    new "Извините, она ещё не знает города."
+
+    old "Hm? Oh, all right. You may pass.{#ch6_unk_004}"
+    new "Хм? А, понятно. Можете проходить."
+
+    old "Then, if you will excuse us!{#ch6_s_047}"
+    new "Тогда позвольте откланяться!"
+
+    old "What about my sister-in-law?{#ch6_s_048}"
+    new "А что насчёт моей невестки?"
+
+    old "Is that so? Still, we should question her, just in case…{#ch6_unk_005}"
+    new "Вот как? Но всё же стоит допросить её, на всякий случай…"
+
+    old "Oh, but I have to go to the Duke of Vallière's estate on my husband's business.{#ch6_h_033}"
+    new "Но мне нужно отправиться по делу мужа в поместье герцога Валлиера."
+
+    old "The Duke of Vallière's estate? Hmm… In that case, perhaps I will ask at the duke's residence later.{#ch6_unk_006}"
+    new "В поместье герцога Валлиера? Хм… Тогда, пожалуй, позже наведаюсь туда с вопросами."
+
+    old "Then, if you will excuse us!{#ch6_s_049}"
+    new "Тогда позвольте откланяться!"
+
+    old "What about my fiancée?{#ch6_s_050}"
+    new "А что насчёт моей невесты?"
+
+    old "Your fiancée?{#ch6_unk_007}"
+    new "Твоей невесты?"
+
+    old "That's right.{#ch6_s_051}"
+    new "Именно."
+
+    old "She lived on the frontier until now and only arrived in the city this morning so I could introduce her to my family before the wedding.{#ch6_s_052}"
+    new "До сих пор она жила на границе, а сегодня утром приехала в город, чтобы до свадьбы я познакомил её с семьёй."
+
+    old "Is that so? Ah, congratulations.{#ch6_unk_008}"
+    new "Вот как? А, поздравляю."
+
+    old "Then, if you will excuse us, we are in a hurry!{#ch6_s_053}"
+    new "Тогда позвольте откланяться, мы спешим!"
+
+    old "Now, let's move before any more nuisances stop us.{#ch6_s_054}"
+    new "А теперь пойдём, пока нас не задержал ещё кто-нибудь."
+
+    old "Yes, indeed.{#ch6_h_034}"
+    new "Да, верно."
+
+    old "Oh, this is… a back street, isn't it? What a desolate road…{#ch6_h_035}"
+    new "О, это ведь… переулок, да? Какая безлюдная улица…"
+
+    old "Whoa, whoa, whoa, Princess, this won't do! This is dangerous territory where rough characters hang around.{#ch6_s_055}"
+    new "Ой-ой-ой, принцесса, так нельзя! Это опасное место, где собираются всякие подозрительные типы."
+
+    old "Dangerous?{#ch6_h_036}"
+    new "Опасное?"
+
+    old "Yes. It is dangerous for a girl like you to come to a place like this!{#ch6_s_056}"
+    new "Да. Девушке вроде вас опасно приходить в такое место!"
+
+    old "Is that so? Then what sort of girl is allowed to come here?{#ch6_h_037}"
+    new "Вот как? Тогда каким девушкам сюда можно приходить?"
+
+    old "Um…{#ch6_s_057}"
+    new "Эм…"
+
+    old "Maybe a girl like Kirche.{#ch6_s_058}"
+    new "Наверное, девушкам вроде Кирхе."
+
+    old "Miss Kirche?{#ch6_h_038}"
+    new "Мадемуазель Кирхе?"
+
+    old "Yes. Kirche is good at handling people, you know…{#ch6_s_059}"
+    new "Да. Кирхе умеет ладить с людьми…"
+
+    old "So even if she met some dangerous-looking people here, I think she could talk her way out of it.{#ch6_s_060}"
+    new "Даже встретив здесь опасных типов, она, думаю, сумела бы выкрутиться."
+
+    old "I see. She is good at handling people.{#ch6_h_039}"
+    new "Понятно. Она умеет ладить с людьми."
+
+    old "Someone like me!{#ch6_s_061}"
+    new "Кто-нибудь вроде меня!"
+
+    old "Hm? Familiar… are you a girl?{#ch6_h_040}"
+    new "Хм? Фамильяр… вы девушка?"
+
+    old "No, no, no, no, that's not it. I'm a man.{#ch6_s_062}"
+    new "Нет-нет-нет, не в этом дело. Я мужчина."
+
+    old "I mean, a manly girl like me probably wouldn't get attacked.{#ch6_s_063}"
+    new "Я имею в виду, что мужественную девушку вроде меня, наверное, не стали бы трогать."
+
+    old "Oh… is that so? If you were a girl, familiar, I imagine you would be rather cute.{#ch6_h_041}"
+    new "А… вот как? Если бы вы были девушкой, фамильяр, то, наверное, были бы довольно милы."
+
+    old "Please don't say creepy things like that.{#ch6_s_064}"
+    new "Не говорите таких жутких вещей."
+
+    old "There is no girl who should come to a place like this. That is how dangerous it is.{#ch6_s_065}"
+    new "Сюда не стоит приходить ни одной девушке. Вот насколько это опасное место."
+
+    old "Hee hee. You treat women with respect, don't you, familiar?{#ch6_h_042}"
+    new "Хи-хи. Вы ведь уважительно относитесь к женщинам, фамильяр?"
+
+    old "Actually, I do. Just kidding.{#ch6_s_066}"
+    new "Вообще-то да. Шучу."
+
+    old "Protecting women… That is the spirit of chivalry. How admirable. Though, familiar, you have quite a silly grin on your face.{#ch6_h_043}"
+    new "Защищать женщин… Вот он, настоящий рыцарский дух. Как благородно. Только, фамильяр, у вас такое довольное лицо."
+
+    old "I do not! Heh heh heh.{#ch6_s_067}"
+    new "Ничего подобного! Хе-хе-хе."
+
+    old "A-anyway. It is dangerous to stay here, so let's move on quickly.{#ch6_s_068}"
+    new "В-в общем, здесь опасно оставаться, так что давайте скорее уйдём."
+
+    old "All right.{#ch6_h_044}"
+    new "Хорошо."
+
+    old "This place is so lush and green. It is wide open… What a pleasant view.{#ch6_h_045}"
+    new "Здесь так зелено и просторно… Какой приятный вид."
+
+    old "If we leave the city and follow this highway straight ahead, we will reach the Academy of Magic.{#ch6_s_069}"
+    new "Если выйти из города и ехать прямо по этому шоссе, мы попадём в Академию магии."
+
+    old "So this is the city's boundary.{#ch6_h_046}"
+    new "Значит, здесь граница города."
+
+    old "Yes.{#ch6_s_070}"
+    new "Да."
+
+    old "If only I could keep following this road and go far away…{#ch6_h_047}"
+    new "Если бы только можно было идти по этой дороге дальше и уйти далеко-далеко…"
+
+    old "Princess?{#ch6_s_071}"
+    new "Принцесса?"
+
+    old "Oh, it is nothing. Just idle chatter.{#ch6_h_048}"
+    new "Нет, ничего. Просто глупости."
+
+    old "Princess…{#ch6_s_072}"
+    new "Принцесса…"
+
+    old "Someday, you will be able to go wherever you wish.{#ch6_s_073}"
+    new "Когда-нибудь вы сможете отправиться куда угодно."
+
+    old "Do you think so…?{#ch6_h_049}"
+    new "Вы так думаете…?"
+
+    old "In the world I came from, anyone can travel freely. Someday, perhaps this world will be the same…{#ch6_s_074}"
+    new "В моём мире любой может свободно путешествовать. Когда-нибудь, возможно, и в этом мире будет так же…"
+
+    old "Yes, perhaps. Familiar… thank you.{#ch6_h_050}"
+    new "Да, возможно. Фамильяр… спасибо."
+
+    old "You must not run away.{#ch6_s_075}"
+    new "Не убегайте."
+
+    old "Yes, I understand that. As long as I am queen, I must not forget the responsibilities I bear.{#ch6_h_051}"
+    new "Да, я это понимаю. Пока я королева, я не должна забывать о своих обязанностях."
+
+    old "That is why I told you, was it not? It was only idle chatter, nothing more.{#ch6_h_052}"
+    new "Разве я не сказала? Это были всего лишь глупости, не более того."
+
+    old "I'm sorry.{#ch6_s_076}"
+    new "Простите."
+
+    old "It is dangerous when you lose your way.{#ch6_s_077}"
+    new "Заблудиться опасно."
+
+    old "…Yes. My path… Where in the world is it…?{#ch6_h_053}"
+    new "…Да. Мой путь… Где же он…?"
+
+    old "Well, if you let your guard down because it looks like a straight road, it turns out the paths are actually pretty tangled.{#ch6_s_078}"
+    new "Если расслабиться, решив, что впереди прямая дорога, можно обнаружить, что пути на деле довольно запутанны."
+
+    old "Oh my, that sounds difficult.{#ch6_h_054}"
+    new "Вот как? Непросто."
+
+    old "Even when you think you are doing fine, from the outside it can look like nothing but reckless behavior.{#ch6_s_079}"
+    new "Даже если тебе кажется, что всё в порядке, со стороны это нередко выглядит как безрассудство."
+
+    old "That is a very literal way to get lost.{#ch6_h_055}"
+    new "Вот это и называется заблудиться буквально."
+
+    old "Huh? Did you mean something else?{#ch6_s_080}"
+    new "А? Вы о чём-то другом?"
+
+    old "It was nothing.{#ch6_h_056}"
+    new "Ни о чём."
+
+    old "Come on, let's head back into the city.{#ch6_s_081}"
+    new "Ну что, вернёмся в город."
+
+    old "Yes, let us.{#ch6_h_057}"
+    new "Да, пойдёмте."
+
+    old "This is the market, isn't it? It is so lively and bustling. They sell all sorts of things here.{#ch6_h_058}"
+    new "Это рынок, да? Здесь так оживлённо и шумно. Тут продают самые разные вещи."
+
+    old "I think that shows how peaceful this city is.{#ch6_s_082}"
+    new "Думаю, это показывает, насколько мирный у нас город."
+
+    old "Peaceful… Do you really think so?{#ch6_h_059}"
+    new "Мирный… Вы действительно так думаете?"
+
+    old "Princess?{#ch6_s_083}"
+    new "Принцесса?"
+
+    old "I can be here like this now, but… if you and Louise had not been there in the last battle…{#ch6_h_060}"
+    new "Сейчас я могу вот так стоять здесь, но… если бы в прошлой битве не было вас с Луизой…"
+
+    old "The scene would surely have been very different. This peaceful sight exists only because a series of coincidences came together.{#ch6_h_061}"
+    new "Картина наверняка была бы совсем другой. Этот мирный пейзаж существует лишь благодаря стечению обстоятельств."
+
+    old "Princess…{#ch6_s_084}"
+    new "Принцесса…"
+
+    old "Even if it was coincidence, isn't it enough that the outcome was good?{#ch6_s_085}"
+    new "Даже если это случайность, разве не достаточно, что всё хорошо закончилось?"
+
+    old "Yes, I suppose so. The people were saved, so we certainly ought to rejoice in that first.{#ch6_h_062}"
+    new "Да, пожалуй. Народ спасён, и прежде всего мы, конечно, должны этому радоваться."
+
+    old "Exactly. Let's just be happy about it. Yay.{#ch6_s_086}"
+    new "Вот именно. Давайте просто порадуемся. Ура."
+
+    old "Hee hee. Yes, let us.{#ch6_h_063}"
+    new "Хи-хи. Да, давайте."
+
+    old "Our efforts were not a coincidence.{#ch6_s_087}"
+    new "Наши усилия не были случайностью."
+
+    old "Oh, I am sorry. That is not what I meant.{#ch6_h_064}"
+    new "Ой, простите. Я не это имела в виду."
+
+    old "It is just that, when we fell into that crisis, you and Louise happened to be in this country… That itself seemed like a coincidence to me…{#ch6_h_065}"
+    new "Просто, когда мы оказались в том тяжёлом положении, вы с Луизой случайно были в этой стране… Само это кажется мне совпадением…"
+
+    old "True… That may have been coincidence. I was summoned by Louise by coincidence, too.{#ch6_s_088}"
+    new "Верно… Возможно, это и было случайностью. Луиза ведь тоже призвала меня случайно."
+
+    old "But because Louise, the soldiers… and above all, you, Princess, worked so hard, we were able to make use of that coincidence.{#ch6_s_089}"
+    new "Но благодаря усилиям Луизы, солдат… и прежде всего вас, принцесса, мы сумели обратить эту случайность себе на пользу."
+
+    old "Do you think so…? Unlike the others, I…{#ch6_h_066}"
+    new "Вы так думаете…? В отличие от остальных, я…"
+
+    old "Please don't say that. You worked hard, Princess. Everyone knows it.{#ch6_s_090}"
+    new "Не говорите так. Вы тоже старались, принцесса. Все это знают."
+
+    old "I… hope that is true.{#ch6_h_067}"
+    new "Надеюсь… что это так."
+
+    old "I do not know what the princess regrets, but it will be all right next time.{#ch6_s_091}"
+    new "Не знаю, о чём жалеет принцесса, но в следующий раз всё получится."
+
+    old "Next time…?{#ch6_h_068}"
+    new "В следующий раз…?"
+
+    old "Yes. If you have regrets, you can use what you learned from them next time.{#ch6_s_092}"
+    new "Да. Если вы о чём-то жалеете, в следующий раз можно учесть этот опыт."
+
+    old "Yes. Next time, I will protect the capital myself.{#ch6_h_069}"
+    new "Да. В следующий раз я сама защищу столицу."
+
+    old "That's the spirit.{#ch6_s_093}"
+    new "Вот это настрой."
+
+    old "We should move on. If we keep standing here, we will only block the way.{#ch6_s_094}"
+    new "Пойдёмте. Если так и будем стоять, только загораживать дорогу станем."
+
+    old "Then let us go somewhere else as well.{#ch6_h_070}"
+    new "Тогда давайте заглянем и в другие места."
+
+# ===== end ch6_1 =====
+
+
+# ===== ch6_2 provisional source port =====
+    old "This place is even livelier than anywhere we've been so far."
+    new "Здесь ещё оживлённее, чем во всех местах, где мы побывали."
+
+    old "This seems to be the heart of the market."
+    new "Похоже, это самый центр рынка."
+
+    old "I'm glad."
+    new "Я рада."
+
+    old "Hm?"
+    new "Хм?"
+
+    old "If the market is bustling, then the people's lives cannot be all that miserable."
+    new "Если на рынке так оживлённо, значит, жизнь народа не настолько тяжела."
+
+    old "I never looked at it that way. You're something else, Princess. You really think like a politician."
+    new "Я никогда не смотрел на это с такой стороны. А вы молодец, принцесса. Настоящий политик."
+
+    old "It is hardly something to praise me for. I rarely have the chance to see a market like this for myself."
+    new "Не думаю, что меня стоит за это хвалить. Я почти никогда не вижу рынок своими глазами."
+
+    old "Ah, but perhaps that is why it makes me happy."
+    new "Хотя, может быть, именно поэтому я и рада."
+
+    old "Huh?"
+    new "А?"
+
+    old "You see, this view used to be a world beyond my window. Now it is right here, close enough to touch."
+    new "Понимаете, раньше этот мир был для меня лишь видом за окном. А теперь он здесь, рядом, до него можно дотронуться."
+
+    old "It's just an ordinary sight to me."
+    new "Для меня это обычная картина."
+
+    old "What is ordinary to you is special to me. I have not had this much fun in a long time."
+    new "То, что для вас обычно, для меня внове. Давно мне не было так весело."
+
+    old "Then I'm glad."
+    new "Тогда я рад."
+
+    old "Oh? It sounds like there is a quarrel over there..."
+    new "О? Похоже, там кто-то ссорится…"
+
+    old "Hey, aren't these dried goods even more expensive than last time?"
+    new "Эй, разве эти сушёности не стали ещё дороже, чем в прошлый раз?"
+
+    old "What can I do? The army keeps seizing our ships, so our catch just keeps shrinking."
+    new "А что я могу поделать? Армия снова отобрала корабли, и улов всё уменьшается."
+
+    old "Good grief. Everywhere I go, it's one gloomy story after another."
+    new "Ну и ну. Куда ни глянь, везде одни дурные новости."
+
+    old "It can't be helped. Ever since Her Majesty started this war, business has slumped and the army has run wild."
+    new "Ничего не поделать. С тех пор как Её Величество начала эту войну, торговля пришла в упадок, а армия распоясалась."
+
+    old "Nothing good has come of it."
+    new "Ничего хорошего из этого не вышло."
+
+    old "Well, I suppose it's no wonder. What can you expect from such a young, ignorant queen?"
+    new "Ну, чего ещё ждать от такой юной и несведущей королевы?"
+
+    old "..."
+    new "…"
+
+    old "Uh, hey! Princess, let's go look over there!"
+    new "Э-э, послушайте! Принцесса, давайте посмотрим вон там!"
+
+    old "Whew..."
+    new "Фух…"
+
+    old "The people are honest. They openly say what is making their lives difficult and who is to blame."
+    new "Народ не скрывает правды. Люди прямо говорят, что отравляет им жизнь и кто в этом виноват."
+
+    old "Um, Princess."
+    new "Э-э, принцесса."
+
+    old "Don't let it get to you."
+    new "Не принимайте это близко к сердцу."
+
+    old "Hm?"
+    new "А?"
+
+    old "No, listening to them matters, but one person's voice doesn't necessarily represent everyone's opinion, right?"
+    new "Нет, к людям важно прислушиваться, но мнение одного человека не обязательно отражает мнение всех, верно?"
+
+    old "That merchant might just be using the war as an excuse to raise his prices..."
+    new "Тот торговец, может, просто прикрывается войной, чтобы поднять цены…"
+
+    old "You should do what you think is right, Princess. I'm sure of it."
+    new "Вам нужно поступать так, как считаете правильным, принцесса. Я уверен."
+
+    old "Thank you, familiar."
+    new "Спасибо, мой фамильяр."
+
+    old "What matters is what you do from here on."
+    new "Важно то, что вы будете делать дальше."
+
+    old "From here on...?"
+    new "Что я буду делать дальше…?"
+
+    old "Now you know what people think. You can use that as a hint for deciding what to do next."
+    new "Теперь вы знаете, что о вас думают. Это может подсказать, как действовать дальше."
+
+    old "Oh... So it is all right to look at it that way."
+    new "А… Значит, на это можно смотреть и так."
+
+    old "Exactly. People say some pretty irresponsible things. The Internet is the same way."
+    new "Именно. Люди часто говорят совершенно безответственные вещи. В интернете то же самое."
+
+    old "The Internet?"
+    new "В интернете?"
+
+    old "Ah, I was just talking to myself. Just mumbling."
+    new "А, это я так, сам с собой. Просто пробормотал."
+
+    old "I see. But thank you. I feel a little better now."
+    new "Понятно. Но всё равно спасибо. Мне немного полегчало."
+
+    old "There are all kinds of people in the world."
+    new "Люди бывают самые разные."
+
+    old "All kinds...?"
+    new "Самые разные…?"
+
+    old "When something happens, some people will think it's good, while others will think it's bad."
+    new "Когда что-то происходит, одни считают это хорошим, а другие — плохим."
+
+    old "So you just have to work to make more people see it as something good."
+    new "Значит, нужно стараться, чтобы как можно больше людей считали это хорошим."
+
+    old "Is it really that simple?"
+    new "Неужели всё настолько просто?"
+
+    old "Well, it's easy to say. But you have plenty of time ahead of you."
+    new "Ну, сказать легко. Но всё ещё впереди."
+
+    old "Indeed. I have only just become queen. Expecting everyone to accept me already would be greedy."
+    new "Верно. Я совсем недавно стала королевой. Было бы слишком много хотеть, чтобы все уже меня признали."
+
+    old "Oh, I didn't mean quite that much."
+    new "Э-э, я не совсем это имел в виду."
+
+    old "In any case, I still have a long way to go as queen, don't I...?"
+    new "Как ни крути, мне ещё многому предстоит научиться как королеве…"
+
+    old "You shouldn't look so down... Wait! I know just the place to take you!"
+    new "Не стоит так расстраиваться… Постойте! Я знаю одно место, куда вас отведу!"
+
+    old "Huh? Oh, familiar, wait for me!"
+    new "А? Ах, фамильяр, подождите меня!"
+
+    old "Is this the place that is supposed to cheer me up...? This is a dining hall, isn't it?"
+    new "Так вот где я должна повеселеть… Это ведь столовая?"
+
+    old "That's right. When you're feeling down, the best thing is to eat!"
+    new "Ага. Когда грустно, лучше всего поесть!"
+
+    old "Here you go! Sorry to keep you waiting!"
+    new "Вот, держите! Прошу прощения за задержку!"
+
+    old "There it is! Go on, try it. The meat dishes here are delicious!"
+    new "Вот и принесли! Попробуйте. Здесь очень вкусно готовят мясо!"
+
+    old "Oh, all right. This is grilled fish... And this is vegetable soup."
+    new "Ах, хорошо. Это… жареная рыба. А это овощной суп."
+
+    old "Looks good, doesn't it? Come on, eat up!"
+    new "Аппетитно выглядит, правда? Ну же, ешьте!"
+
+    old "Oh, all right. Great Founder Brimir, thank you for this humble meal this morning..."
+    new "Ах, хорошо. Великий прародитель Бримир, благодарю за эту скромную пищу…"
+
+    old "A-are you going to do that here too?"
+    new "В-вы и здесь будете это делать?"
+
+    old "Then I shall partake... Munch."
+    new "Тогда приступим… Ам."
+
+    old "How is it? How is it?"
+    new "Ну как? Ну как?"
+
+    old "It is delicious!"
+    new "Очень вкусно!"
+
+    old "See?"
+    new "Вот видите!"
+
+    old "Do you all always eat such delicious food?"
+    new "Вы все всегда едите такую вкусную еду?"
+
+    old "The food at the castle is probably fancier, but this place is pretty good too, right?"
+    new "В замке, наверное, готовят роскошнее, но здесь тоже неплохо, правда?"
+
+    old "You know so much, familiar."
+    new "Вы так много знаете, фамильяр."
+
+    old "Not really. I know absolutely nothing about this world... I mean, this country."
+    new "Да нет. Я вообще ничего не знаю об этом мире… то есть об этой стране."
+
+    old "Ah, now that you mention it, that is true."
+    new "А, точно. Я ведь совсем забыла."
+
+    old "Yes?"
+    new "Да?"
+
+    old "Louise told me that you are from another world."
+    new "Луиза сказала, что вы из другого мира."
+
+    old "Well, that's true."
+    new "Ну, это правда."
+
+    old "I have wanted to ask you this for a while. What is your world like?"
+    new "Я давно хотела вас спросить. Каков ваш мир?"
+
+    old "What is it like...? Well, let's see..."
+    new "Каков он… Ну, даже не знаю…"
+
+    old "It is a world without kings."
+    new "Это мир без королей."
+
+    old "No king!? Then who rules the country, and how?"
+    new "Без короля!? Тогда кто и как управляет страной?"
+
+    old "Well, some countries do have kings, but they don't hold any real power."
+    new "Ну, в некоторых странах короли всё-таки есть, но настоящей власти у них нет."
+
+    old "I see..."
+    new "Понятно…"
+
+    old "It is a world without magic."
+    new "Это мир без магии."
+
+    old "Without magic...? That sounds like a very inconvenient world."
+    new "Без магии…? Наверное, жить в таком мире неудобно."
+
+    old "Well, not really. We have science instead of magic."
+    new "Ну, не совсем. Вместо магии у нас есть наука."
+
+    old "Science...?"
+    new "Наука…?"
+
+    old "A world without night, so to speak."
+    new "Можно сказать, мир без ночи."
+
+    old "There is no night!? Do you mean the sun stays out and it is always daytime?"
+    new "У вас нет ночи!? То есть солнце всё время светит и бывает только день?"
+
+    old "Well, to be precise, lights stay on even at night, so the darkness is gradually disappearing."
+    new "Ну, точнее, ночью у нас горят огни, и ночная темнота постепенно исчезает."
+
+    old "I see. But then you must spend an enormous amount on firewood."
+    new "А, понятно. Но тогда, наверное, уходит уйма дров."
+
+    old "Huh? Oh, we don't use firewood. We light everything with electricity."
+    new "А? Нет, мы не используем дрова. Мы освещаем всё электричеством."
+
+    old "Electricity?"
+    new "Электричеством?"
+
+    old "Lightning... Something like that."
+    new "Молнией… Вроде того."
+
+    old "Lightning...? I see."
+    new "Молнией… Понятно."
+
+    old "Who rules your world?"
+    new "А кто управляет вашим миром?"
+
+    old "In the country I came from, everyone votes to choose members of the national assembly..."
+    new "В моей стране все голосуют и выбирают депутатов парламента…"
+
+    old "The national assembly? Members?"
+    new "Парламент? Депутаты?"
+
+    old "The national assembly is divided into two houses, the House of Representatives and the House of Councillors, and, uh... I should have studied this a little more..."
+    new "Парламент делится на две палаты: Палату представителей и Палату советников, и… Эх, надо было лучше учиться…"
+
+    old "Anyway, there is no king. Everyone chooses the people who will govern the country."
+    new "В общем, короля нет. Все вместе выбирают тех, кто будет управлять страной."
+
+    old "The people choose their own leader...? Is such a thing really possible?"
+    new "Народ сам выбирает своего правителя… Неужели такое возможно?"
+
+    old "Yes, that's how it was in my country."
+    new "Да, в моей стране всё было именно так."
+
+    old "I cannot imagine a world without kings. So there are countries like that in other worlds."
+    new "Я не могу представить мир без короля. Значит, в других мирах бывают такие страны."
+
+    old "I-I don't know if it's really that amazing."
+    new "Н-не знаю, что тут такого удивительного."
+
+    old "This was supposed to be a morning walk, but it has become quite dark."
+    new "Мы ведь собирались просто прогуляться утром, а уже совсем стемнело."
+
+    old "Yeah, I guess it has... Ha ha ha."
+    new "Ага, похоже на то… Ха-ха-ха."
+
+    old "What is the matter? Is something worrying you?"
+    new "Что случилось? Вас что-то тревожит?"
+
+    old "I was just thinking that Louise is going to be furious if I go back like this."
+    new "Я просто подумал, что Луиза страшно разозлится, если я вернусь вот так."
+
+    old "Ah, I see... Hee hee. I found myself a little envious of Louise."
+    new "А, понятно… Хи-хи. Я даже немного позавидовала Луизе."
+
+    old "Huh?"
+    new "А?"
+
+    old "It is enviable to have someone you can be comfortable with."
+    new "Как же я завидую тем, у кого есть человек, рядом с которым можно быть собой."
+
+    old "Huh? Sorry, but who is comfortable with whom?"
+    new "А? Простите, но кто с кем может быть собой?"
+
+    old "Louise, of course, with you. The fact that she shows you her honest emotions proves that she trusts you, does it not?"
+    new "Конечно же, Луиза с вами. Раз она показывает вам свои настоящие чувства, значит, она вам доверяет, разве не так?"
+
+    old "You think so?"
+    new "Думаете?"
+
+    old "I envy you greatly for having time to spend together while showing your true selves."
+    new "Я очень завидую тому, что вы можете проводить время вместе и не скрывать себя настоящих."
+
+    old "I am always putting on the face of a queen..."
+    new "Я ведь всегда изображаю из себя королеву…"
+
+    old "Is that how it is...?"
+    new "Вот как это бывает…"
+
+    old "Now then, my excellent familiar, would you explain how this happened?"
+    new "Ну что ж, мой способный фамильяр, объясни-ка, как всё это произошло."
+
+    old "Ah, she really is angry."
+    new "А, она и правда злится."
+
+    old "Of course I am! I woke up to find the princess gone, and you had disappeared too!"
+    new "А как же иначе! Я проснулась, а принцессы нет, и ты тоже исчез!"
+
+    old "And you didn't contact anyone until sunset!"
+    new "И до самого заката от тебя ни слуху ни духу!"
+
+    old "I am amazed at my own trust and patience for waiting for you instead of reporting this to the palace!"
+    new "Сама не понимаю, как мне хватило доверия и терпения ждать тебя, а не сообщить во дворец!"
+
+    old "That surprised me too."
+    new "Я и сам удивлён."
+
+    old "So. Is there anything you want to say before I have the last word?"
+    new "Итак. Хочешь напоследок что-нибудь сказать?"
+
+    old "Well..."
+    new "Э-э…"
+
+    old "It wasn't my fault! I was only accompanying the princess on her morning walk after she got up early!"
+    new "Я не виноват! Я всего лишь составил рано проснувшейся принцессе компанию на утренней прогулке!"
+
+    old "Oh, is that so?"
+    new "А, вот как?"
+
+    old "That's right. You understand now, don't you?"
+    new "Именно. Теперь ты поняла?"
+
+    old "As if I would! If you're going to lie, at least tell a better one!"
+    new "Как же! Врёшь, так хоть ври правдоподобнее!"
+
+    old "No regrets about my date with the princess! She asked me to show her the sights, so we went all over town! That was definitely a date!"
+    new "Я ни о чём не жалею после свидания с принцессой! Она попросила показать ей город, и мы побывали во всех достопримечательных местах! Это было настоящее свидание!"
+
+    old "..."
+    new "…"
+
+    old "Hey, the princess had fun too, so I have no regrets. Ha ha ha."
+    new "Эй, принцесса тоже повеселилась, так что мне не о чем жалеть. Ха-ха-ха."
+
+    old "...I see. Then I won't have to hold back either."
+    new "…Понятно. Тогда и мне не придётся сдерживаться."
+
+    old "I went to see how things were in town. We visited crowded places and listened to what people were saying."
+    new "Я ходил посмотреть, как там в городе. Мы побывали в людных местах и послушали, что говорят люди."
+
+    old "I see... So the princess is still wavering in her confidence as queen."
+    new "Понятно… Значит, принцесса всё ещё сомневается в себе как в королеве."
+
+    old "Yeah. So I took her to a dining hall to help take her mind off it."
+    new "Да. Поэтому я отвёл её в столовую, чтобы она немного отвлеклась."
+
+    old "So you were late because of your detour after all!?"
+    new "Так это из-за твоих прогулок вы и опоздали!?"
+
+    old "I-I guess that's true... Yes, I suppose so."
+    new "Н-ну, наверное… Да, получается, так."
+
+    old "What would you have done if something had happened to the princess? You stupid mutt!"
+    new "Что бы ты делал, если бы с принцессой что-нибудь случилось? Ах ты, глупый пёс!"
+
+    old "Aaaaaaagh!"
+    new "А-а-а-а-а-а-а-а!"
+

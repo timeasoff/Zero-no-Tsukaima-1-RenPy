@@ -1321,3 +1321,29 @@ translate russian strings:
     new "По словам Табиты, Кирхе, Монморанси и Гиш для меня разузнали про бомбиста."
 
 # ===== end ch5_5 =====
+
+translate russian strings:
+    old "_It has been several days since the play ended. We still haven't found any clues about the bomber.{#ch6_344_th_001}"
+    new "_С спектакля прошло уже несколько дней. Но мы так и не нашли никаких следов бомбиста._"
+
+    old "_We've kept investigating, but we haven't found any promising information. Louise is getting grumpier, too…{#ch6_344_th_002}"
+    new "_Мы продолжаем расследование, но ничего стоящего узнать не удаётся. Луиза тоже становится всё раздражительнее…_"
+
+    old "_How long is this going to go on…?{#ch6_344_th_003}"
+    new "_Интересно, долго это ещё будет продолжаться…?_"
+
+    old "_Oh no, we're too late!{#ch6_1429_th_001}"
+    new "_Ах, мы опоздали!_"
+
+# ===== ch6_2 provisional source port =====
+    old "(She's truly a queen. She sees all that just by looking at the market.)"
+    new "*Настоящая королева. Она и по одному рынку умудряется так много понять.*"
+
+    old "(It seems to have cheered her up. Whether the food had anything to do with it, I have no idea.)"
+    new "*Похоже, ей и правда стало веселее. Только не знаю, благодаря ли этому еда.*"
+
+    old "(What am I going to do...? If I confess that I took the princess out without permission and wandered around town with her all day, Louise will punish me for sure.)"
+    new "*Что же делать… Если признаться, что я самовольно увёл принцессу и весь день бродил с ней по городу, Луиза точно меня накажет.*"
+
+    old "(But if I go back now, Louise will beat me to death for making her act on her honest feelings.)"
+    new "*Но если я сейчас вернусь, Луиза всё равно забьёт меня до смерти за то, что поддалась своим искренним чувствам.*"

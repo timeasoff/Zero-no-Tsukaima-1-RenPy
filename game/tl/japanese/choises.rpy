@@ -1175,3 +1175,103 @@ translate japanese strings:
     new "ダンスの足さばき？"
 
 # ===== end ch5_5 =====
+
+
+# ===== ch6_1 provisional port =====
+    old "The princess!?"
+    new "お姫さま！？"
+
+    old "The innkeeper's voice changed!?"
+    new "宿屋の親父が声変わり！？"
+
+    old "Who is Miss ‘It-is-I’!?"
+    new "ワタクシさんって誰！？"
+
+    old "The culprit was a craftsman who went on a bombing spree to get work?"
+    new "仕事を作るために事件を起こした？"
+
+    old "The bombings were meant to lure enemy agents here?"
+    new "工作員を誘導するために事件を？"
+
+    old "Just a bombing fanatic"
+    new "ただの爆破マニア"
+
+    old "In front of the castle"
+    new "城前"
+
+    old "Down a back street"
+    new "裏通り"
+
+    old "Along the highway"
+    new "街道"
+
+    old "On the main street"
+    new "表通り"
+
+    old "What about my cousin?"
+    new "俺のいとこがどうかしましたか"
+
+    old "What about my sister-in-law?"
+    new "俺の義姉がどうかしましたか"
+
+    old "What about my fiancée?"
+    new "俺の許嫁がどうかしましたか"
+
+    old "A girl like Kirche"
+    new "キュルケみたいな子"
+
+    old "Someone like me"
+    new "俺みたいなやつ"
+
+    old "No girl should come here"
+    new "どんな子でもだめです"
+
+    old "Someday, you will be able to go wherever you wish"
+    new "いつか、自由に行けますよ"
+
+    old "You must not run away"
+    new "逃げちゃ駄目です"
+
+    old "It is dangerous to lose your way"
+    new "道に迷うと大変ですよ"
+
+    old "Even if it was coincidence, isn't it enough that the outcome was good?"
+    new "偶然だって結果が良ければＯＫ"
+
+    old "Our efforts were not a coincidence"
+    new "俺達の努力は偶然じゃない"
+
+    old "It will be all right next time"
+    new "今度は大丈夫"
+
+# ===== end ch6_1 =====
+
+
+# ===== ch6_2 provisional source port =====
+    old "Don't let it get to you"
+    new "気にしないでください"
+
+    old "What matters is what you do from here on"
+    new "これからどうするかですよ"
+
+    old "There are all kinds of people"
+    new "いろんな人がいますから"
+
+    old "A world without kings"
+    new "王様のいない世界"
+
+    old "A world without magic"
+    new "魔法のない世界"
+
+    old "A world without night"
+    new "夜のない世界"
+
+    old "It wasn't my fault!"
+    new "俺は悪くないんだ！"
+
+    old "I have no regrets about my date with the princess!"
+    new "お姫さまとのデートに悔いなし！"
+
+    old "I went to see how things were in town..."
+    new "街の様子を見てきたんだが……"
+

@@ -1322,3 +1322,29 @@ translate japanese strings:
     new "（タバサが言うには、キュルケ、　モンモランシー、ギーシュで、　爆弾使いの調べをしてくれたらしい）"
 
 # ===== end ch5_5 =====
+
+translate japanese strings:
+    old "_It has been several days since the play ended. We still haven't found any clues about the bomber.{#ch6_344_th_001}"
+    new "（演劇が終わってから、かれこれ数日。爆弾使いの手がかりは依然として、得られなかった）"
+
+    old "_We've kept investigating, but we haven't found any promising information. Louise is getting grumpier, too…{#ch6_344_th_002}"
+    new "（調査は続けてるんだけど、どうにも有力な情報を得られない。ルイズも機嫌が悪くなってる……）"
+
+    old "_How long is this going to go on…?{#ch6_344_th_003}"
+    new "（しかし、いつまでこの状態が続くんだろう……）"
+
+    old "_Oh no, we're too late!{#ch6_1429_th_001}"
+    new "（ああっ、遅かった！）"
+
+# ===== ch6_2 provisional source port =====
+    old "(She's truly a queen. She sees all that just by looking at the market.)"
+    new "さすがは一国の女王陛下だな。 市場を見て、そういうことまで考えるんだ"
+
+    old "(It seems to have cheered her up. Whether the food had anything to do with it, I have no idea.)"
+    new "元気にはなってくれたみたいだ。 食事のせいかどうかは分かんないけどさ"
+
+    old "(What am I going to do...? If I confess that I took the princess out without permission and wandered around town with her all day, Louise will punish me for sure.)"
+    new "どうしよう……勝手にお姫さまを連れ出して １日街をぶらついてたなんて白状したら、 ルイズにお仕置きされるよなぁ、絶対"
+
+    old "(But if I go back now, Louise will beat me to death for making her act on her honest feelings.)"
+    new "でも、このまま帰っても、 素直な感情に従ったルイズに、 撲殺されるんだろうなぁ"

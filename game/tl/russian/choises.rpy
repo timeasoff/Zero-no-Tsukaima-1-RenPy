@@ -1169,3 +1169,103 @@ translate russian strings:
     new "Работа ног в танце?"
 
 # ===== end ch5_5 =====
+
+
+# ===== ch6_1 provisional port =====
+    old "The princess!?"
+    new "Принцесса!?"
+
+    old "The innkeeper's voice changed!?"
+    new "У трактирщика голос изменился!?"
+
+    old "Who is Miss ‘It-is-I’!?"
+    new "Кто такая «Это я»!?"
+
+    old "The culprit was a craftsman who went on a bombing spree to get work?"
+    new "Преступник был ремесленником и устроил взрывы, чтобы получить работу?"
+
+    old "The bombings were meant to lure enemy agents here?"
+    new "Взрывы устроили, чтобы заманить сюда вражеских агентов?"
+
+    old "Just a bombing fanatic"
+    new "Просто фанат взрывов"
+
+    old "In front of the castle"
+    new "Перед замком"
+
+    old "Down a back street"
+    new "По переулку"
+
+    old "Along the highway"
+    new "По шоссе"
+
+    old "On the main street"
+    new "По главной улице"
+
+    old "What about my cousin?"
+    new "А что насчёт моей двоюродной сестры?"
+
+    old "What about my sister-in-law?"
+    new "А что насчёт моей невестки?"
+
+    old "What about my fiancée?"
+    new "А что насчёт моей невесты?"
+
+    old "A girl like Kirche"
+    new "Девушка вроде Кирхе"
+
+    old "Someone like me"
+    new "Кто-нибудь вроде меня"
+
+    old "No girl should come here"
+    new "Сюда не стоит приходить ни одной девушке"
+
+    old "Someday, you will be able to go wherever you wish"
+    new "Когда-нибудь вы сможете отправиться куда угодно"
+
+    old "You must not run away"
+    new "Не убегайте"
+
+    old "It is dangerous to lose your way"
+    new "Заблудиться опасно"
+
+    old "Even if it was coincidence, isn't it enough that the outcome was good?"
+    new "Даже если это случайность, разве не достаточно, что всё хорошо закончилось?"
+
+    old "Our efforts were not a coincidence"
+    new "Наши усилия не были случайностью"
+
+    old "It will be all right next time"
+    new "В следующий раз всё будет хорошо"
+
+# ===== end ch6_1 =====
+
+
+# ===== ch6_2 provisional source port =====
+    old "Don't let it get to you"
+    new "Не принимайте это близко к сердцу"
+
+    old "What matters is what you do from here on"
+    new "Важно то, что вы будете делать дальше"
+
+    old "There are all kinds of people"
+    new "Люди бывают самые разные"
+
+    old "A world without kings"
+    new "Мир без королей"
+
+    old "A world without magic"
+    new "Мир без магии"
+
+    old "A world without night"
+    new "Мир без ночи"
+
+    old "It wasn't my fault!"
+    new "Я не виноват!"
+
+    old "I have no regrets about my date with the princess!"
+    new "Я ни о чём не жалею после свидания с принцессой!"
+
+    old "I went to see how things were in town..."
+    new "Я ходил посмотреть, как там в городе…"
+

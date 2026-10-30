@@ -16092,3 +16092,1317 @@ translate japanese strings:
     new "もう、ダーリンったら。"
 
 # ===== end ch5_5 =====
+
+
+# ===== ch6_1 provisional port =====
+    old "I'm home!{#ch6_s_001}"
+    new "ただいまー。"
+
+    old "Whew, my legs feel like lead…{#ch6_l_001}"
+    new "はー、足が棒になっちゃったわ……。"
+
+    old "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
+    new "おかえりなさいませ、
+ミス・ヴァリエール、サイトさん。
+聞き込みの方はいかがでした？"
+
+    old "Absolutely terrible. We didn't find a single clue.{#ch6_s_002}"
+    new "ぜーんぜんだめ。
+なーんも手がかりなし。"
+
+    old "What are we supposed to do? We can't just end this by saying, ‘The investigation went nowhere.’{#ch6_l_002}"
+    new "どうしたものなのかしらね。
+このまま、『捜査が進みませんでした』で、
+終わるわけにはいかないわ。"
+
+    old "Let's wait for everyone else to come back. That's why we split up to ask around in the first place.{#ch6_s_003}"
+    new "他のみんなが帰ってくるの待とうぜ。
+そのために手分けして聞き込みしてるんだし。"
+
+    old "Yes, you're right.{#ch6_l_003}"
+    new "そうね。"
+
+    old "Well, things are starting to get a little serious.{#ch6_g_001}"
+    new "いやあ、ちょっと大変な感じになってきてるぞ。"
+
+    old "Serious? What happened? Did you find something out?{#ch6_l_004}"
+    new "大変な、っていったい何が？
+何か分かったの？"
+
+    old "It isn't about the bomber, but soldiers have started patrolling all over the city today.{#ch6_m_001}"
+    new "爆弾使いのことではないけど、
+今日になって、兵士が街のあちこちを
+見回り始めてるのよ。"
+
+    old "Soldiers?{#ch6_l_005}"
+    new "兵士が？"
+
+    old "Yes. Quite a few of them are going around, separate from the usual city guard patrols.{#ch6_m_002}"
+    new "ええ。
+街の警備とは別に、けっこうな人数が見て
+回ってるの。"
+
+    old "Could the army finally be getting serious about finding the bomber?{#ch6_l_006}"
+    new "軍の方も、本腰入れて爆弾使いを捜し出そうって
+ことなのかしら。"
+
+    old "Who knows? Those aren't ordinary security patrols.{#ch6_g_002}"
+    new "どうかな。
+あれは通常の警備じゃない。"
+
+    old "I suspect something happened, but it may not have anything to do with the bomber.{#ch6_g_003}"
+    new "おそらく何かあったんだとは思うけど、
+それが爆弾使いの件とは限らないんじゃ
+ないかな。"
+
+    old "So something happened serious enough to rival the bomber incident?{#ch6_s_004}"
+    new "爆弾使いの件にならぶほどの、
+事態が起きたってことか。"
+
+    old "Most likely.{#ch6_g_004}"
+    new "おそらくね。"
+
+    old "The city is in trouble.{#ch6_t_001}"
+    new "街が、大変。"
+
+    old "Oh, you're back, Tabitha and Kirche. You saw the soldiers in the city too, didn't you?{#ch6_l_007}"
+    new "あら、おかえりタバサ、キュルケ。
+あなた達も、街の兵士を見かけたのね？"
+
+    old "Yes.{#ch6_t_002}"
+    new "そう。"
+
+    old "Indeed. And while we were at it, I asked why the soldiers were wandering around the city.{#ch6_k_001}"
+    new "ええ。
+ついでに、兵士が街をうろついてる理由も
+聞いてきたわ。"
+
+    old "So what exactly is the reason they're patrolling?{#ch6_l_008}"
+    new "それで、兵士が見回ってる事情って
+いったいなに？"
+
+    old "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    new "ええ。
+誰だかは分からないけど、
+重要人物が行方不明になったとか言ってたわ。"
+
+    old "An important person has gone missing…? Who could it be?{#ch6_l_009}"
+    new "重要人物が、行方不明……？
+誰かしら？"
+
+    old "Hmm…{#ch6_s_005}"
+    new "うーん……。"
+
+    old "Hm?{#ch6_s_006}"
+    new "ん？"
+
+    old "Who is it?{#ch6_si_002}"
+    new "どなたでしょうか？"
+
+    old "It is I.{#ch6_h_001}"
+    new "わたくしです。"
+
+    old "What!?{#ch6_s_007}"
+    new "ええっ！？"
+
+    old "The princess!?{#ch6_s_008}"
+    new "お姫さま！？"
+
+    old "What!?{#ch6_si_003}"
+    new "ええっ！？"
+
+    old "Why is Her Majesty the queen here!?{#ch6_k_003}"
+    new "どうしてこんなところに、
+女王陛下がいらっしゃるの！？"
+
+    old "We have to welcome her, no matter what!{#ch6_l_010}"
+    new "と、とにかくお迎えしないと！"
+
+    old "When did the innkeeper get such a cute voice!?{#ch6_s_009}"
+    new "宿屋の親父、いつそんな可愛い声に！？"
+
+    old "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
+    new "ばかっ！
+そんなわけないでしょ！
+どう聞いても姫さまじゃないの！"
+
+    old "I-I was just joking.{#ch6_s_010}"
+    new "じょ、冗談だよ。"
+
+    old "W-we have to welcome her, no matter what!{#ch6_l_012}"
+    new "と、とにかく、お迎えしないと！"
+
+    old "Who is this ‘It-is-I’ person behind the door!?{#ch6_s_011}"
+    new "ドアの向こうにいる、ワタクシさんって誰！？"
+
+    old "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
+    new "どこの誰よ、それ！
+どう聞いても姫さまのお声じゃないの！
+ほんっとにバカ使い魔ね！"
+
+    old "Aww, it was only a little joke…{#ch6_s_012}"
+    new "うう、お茶目な冗談だったのにぃ……。"
+
+    old "Good day, everyone.{#ch6_h_002}"
+    new "ごきげんよう、皆さん。"
+
+    old "Good day… Your Highness, why are you here!? Is everything all right at the palace!?{#ch6_l_014}"
+    new "ごきげんよう……って、
+姫さま、なぜこのような所に！？
+王宮の方はよろしいのですか！？"
+
+    old "I slipped away because I had something I absolutely had to tell you all.{#ch6_h_003}"
+    new "皆さんにどうしても伝えなければならない
+用事があって、抜け出してきたのです。"
+
+    old "The soldiers are looking for Her Majesty.{#ch6_t_003}"
+    new "兵士達が、陛下を捜してる。"
+
+    old "Ah, Your Majesty! You came all this way just to see me!{#ch6_g_005}"
+    new "ああ、女王陛下！
+ぼくに会いに来るためにわざわざ！"
+
+    old "Save your daydreams for when you're asleep.{#ch6_m_003}"
+    new "寝言は寝てから。"
+
+    old "B-but Your Highness, what could possibly be so important that you left the palace?{#ch6_s_013}"
+    new "で、でもお姫さま、
+王宮を抜け出して来るなんて、
+いったいどんな用件なんですか？"
+
+    old "It is nothing less than this: I would like you to hide me for a while.{#ch6_h_004}"
+    new "用件というのは、ほかでもありません。
+しばらくの間、
+わたくしをかくまってほしいのです。"
+
+    old "What!?{#ch6_s_014}"
+    new "はい！？"
+
+    old "W-wait a moment. Why would you need us to hide you!?{#ch6_l_015}"
+    new "ちょ、ちょっと待ってください。
+かくまうって、それこそいったいどうして！？"
+
+    old "Please forgive me, Your Highness. Could you tell us what happened?{#ch6_l_016}"
+    new "すみません、姫さま。
+詳しい話をお聞かせいただけますでしょうか。"
+
+    old "Of course. I shall explain everything now.{#ch6_h_005}"
+    new "ええ、もちろんですわ。
+それをこれから説明いたします。"
+
+    old "As for the investigation into the bombing incidents I asked you to conduct…{#ch6_h_006}"
+    new "あなたがたにお願いした、
+爆破事件の調査なのですけれど……。"
+
+    old "Well, um… There hasn't been much progress…{#ch6_l_017}"
+    new "あの、その。
+進展がなかなか……。"
+
+    old "I am aware of that. I did not come here to reprimand you.{#ch6_h_007}"
+    new "それは承知しています。
+あなたがたをとがめるために
+来たのではありません。"
+
+    old "After examining the reports on each incident, we discovered what appears to be a new fact.{#ch6_h_008}"
+    new "各事件の報告を元に、こちらでも検討した結果、
+新たな事実と思われるものを発見したのです。"
+
+    old "A discovery…?{#ch6_s_015}"
+    new "発見……ですか。"
+
+    old "This series of bombings follows a certain pattern. Everyone, look at this map.{#ch6_h_009}"
+    new "今回の一連の爆破事件には、
+ある法則があります。
+皆さん、この地図を見てください。"
+
+    old "This is a map of Tristain, isn't it?{#ch6_l_018}"
+    new "これは……トリスタニアの地図、ですね。"
+
+    old "Yes. This central area is the royal palace, and these marks show the sites of the bombings.{#ch6_h_010}"
+    new "はい。
+この中心部分が王宮。
+そして、このマークが爆破された現場です。"
+
+    old "Ah…!{#ch6_k_004}"
+    new "あ……！"
+
+    old "Huh? What is it?{#ch6_g_006}"
+    new "え、どうしたんだい？"
+
+    old "I see.{#ch6_k_005}"
+    new "なるほどね。"
+
+    old "The bombing sites are concentrated around the palace…?{#ch6_l_019}"
+    new "爆破現場は、城の周辺に集中してる……？"
+
+    old "‘Concentrated’ doesn't begin to describe it. The order is random, but they seem to form a ring around the palace.{#ch6_k_006}"
+    new "集中してるどころじゃないわよ。
+順番はバラバラだけど、
+城を取り囲むような場所で起きてる感じね。"
+
+    old "That is far too precise to be coincidence. It must have been deliberate.{#ch6_m_004}"
+    new "偶然にしては、あまりに正確ですわね。
+たしかに、意図的なものでしょう。"
+
+    old "Do you see what I mean? I cannot help thinking that these incidents were not the work of a lone criminal.{#ch6_h_011}"
+    new "分かっていただけたでしょうか？
+この事件はただの単独犯ではない。
+そう思えてならないのです。"
+
+    old "But even if that is true, what would it mean?{#ch6_g_007}"
+    new "でも、そうだとして、いったい何の意味が？"
+
+    old "We cannot leave the places damaged by the bombings as they are. We will clear away the rubble and carry out repairs, but…{#ch6_h_012}"
+    new "爆破で壊された箇所を、そのままにして
+おくわけにはまいりません。
+瓦礫を片づけ、修復工事を行うのですが……。"
+
+    old "With so many places to repair, there are not enough craftsmen to do the work.{#ch6_h_013}"
+    new "これだけ修復箇所が多いと、
+作業に携わる職人が不足しています。"
+
+    old "So, to begin the repairs as quickly as possible, we are gathering craftsmen from both inside and outside the country.{#ch6_h_014}"
+    new "そこで、早急に修復作業をおこなうため、
+職人を国の内外から集めているのです。"
+
+    old "So…{#ch6_s_016}"
+    new "つまり……、"
+
+    old "So the culprit was a craftsman who went on a bombing spree to get work?{#ch6_s_017}"
+    new "犯人は職人で、仕事にありつくために、
+爆破してまわったってことか？"
+
+    old "That can't be it, can it?{#ch6_l_020}"
+    new "そうじゃないでしょ？"
+
+    old "They disguised agents as craftsmen and used this plan to infiltrate them into our country. That's what you mean, Your Highness?{#ch6_l_021}"
+    new "職人を装って、工作員を我が国に
+潜入させる作戦ね。
+そういうことでしょうか、姫さま。"
+
+    old "Did they cause the bombings to lure agents posing as craftsmen into the country?{#ch6_s_018}"
+    new "職人を装う工作員を誘導させるために、
+爆破事件を起こした？"
+
+    old "Yes.{#ch6_h_015}"
+    new "はい。"
+
+    old "They set off bombings around the palace in advance, then planned to infiltrate during the repair work… That is the plan, isn't it?{#ch6_k_007}"
+    new "あらかじめ王宮周辺で爆破事件を起こし、
+その修復作業に乗じて潜入する……、
+そういう手はずなのではないか、ということね。"
+
+    old "The culprit was just a bombing fanatic, wasn't he?{#ch6_s_019}"
+    new "犯人は、ただの爆破マニアだろ？"
+
+    old "How did you come to that conclusion!? You mean there are agents hiding among all the craftsmen hired for the repairs!{#ch6_l_022}"
+    new "なんでそうなるのよっ！
+修復工事のために大量に雇われる職人の中に、
+工作員が潜んでるってことでしょ！"
+
+    old "Most likely. For now, I am the only one who suspects it,{#ch6_h_016}"
+    new "おそらくは。
+それを疑っているのは、
+今のところわたくしだけですし、"
+
+    old "but it may be nothing more than needless worry. However…{#ch6_h_017}"
+    new "ただの杞憂なのかもしれません。
+ですが……。"
+
+    old "If that is true, it would be a disaster! We have to find the agents immediately! It may be difficult, but we could investigate every craftsman…{#ch6_l_023}"
+    new "それが本当だったら、大変です！
+今すぐにでも、工作員を見つけ出さないと！
+大変かもしれませんが、職人全員を調べて……。"
+
+    old "…It would probably be pointless.{#ch6_h_018}"
+    new "……おそらく無駄になるでしょう。"
+
+    old "Why is that?{#ch6_l_024}"
+    new "どうしてです？"
+
+    old "These are unsettled times. Naturally, the identities of craftsmen from abroad are checked. Anyone with a suspicious background cannot enter the country.{#ch6_h_019}"
+    new "情勢が不穏なこの時期です。
+当然、国外の職人は、身元を確認しています。
+素性が怪しい者は国内に入ることはできません。"
+
+    old "Um…?{#ch6_l_025}"
+    new "ええと……？"
+
+    old "The influential nobles of our country are the ones who vouch for the craftsmen's identities.{#ch6_h_020}"
+    new "職人の身元を保証しているのは、
+我が国の有力貴族達なのです。"
+
+    old "I do not want to think about it, but… if one of those nobles were to sell out the country, it would be easy to falsify an agent's identity.{#ch6_h_021}"
+    new "考えたくはありませんが……、
+もしその貴族の中に国を売る者がいるとしたら。
+工作員の身元を偽るのも簡単なことです。"
+
+    old "No! That would be the grave crime of betraying the country!{#ch6_l_026}"
+    new "そんな！
+国を裏切る大罪です！"
+
+    old "But I can think of no other explanation.{#ch6_h_022}"
+    new "ですが、他に考えられません。"
+
+    old "That is why I have a request for all of you. If possible, could you hide me here?{#ch6_h_023}"
+    new "そこでみなさんにお願いがあるのです。
+できれば、ここでわたくしをかくまって
+いただけませんか？"
+
+    old "If word gets out that I am absent, someone may take advantage of it and make a move. Will you do this for me?{#ch6_h_024}"
+    new "わたくしの不在を知れば、それに乗じて、
+なんらかの動きがあるかもしれません。
+お願いできますか？"
+
+    old "Of course!{#ch6_l_027}"
+    new "もちろんです！"
+
+    old "It sounds like the decision has already been made for us. We have no choice but to do it.{#ch6_s_020}"
+    new "もう決定事項みたいですし。
+やるしかないでしょう。"
+
+    old "At Her Majesty's command, Guiche de Gramont will protect her with his life!{#ch6_g_008}"
+    new "女王陛下のご命令とあらば、
+このギーシュ・ド・グラモン、
+一命を賭してお守りいたします！"
+
+    old "There he goes again… Yes, I will help as well.{#ch6_m_005}"
+    new "また調子に乗って……。
+ええ、わたしもご協力いたしますわ。"
+
+    old "Um, I-I cannot do much, but if I can be of help…!{#ch6_si_004}"
+    new "ええと、わ、わたくしっ、何もできませんけど、
+お力になれるのでしたらっ！"
+
+    old "I do not really understand, but if everyone says so…{#ch6_ha_001}"
+    new "よく分かりませんけど、皆がそう言うなら。"
+
+    old "……{#ch6_t_004}"
+    new "……"
+
+    old "Well, we're already involved now.{#ch6_k_008}"
+    new "ま、乗りかかった船だしね。"
+
+    old "Looks like everyone agrees. From today on, guarding the princess is part of our mission too.{#ch6_s_021}"
+    new "どうやら、全員一致のようだな。
+今日からは、お姫さまの護衛も任務ってわけだ。"
+
+    old "Please take good care of me.{#ch6_h_025}"
+    new "どうか、よろしくお願いいたします。"
+
+    old "So, out you go.{#ch6_l_028}"
+    new "と、いうわけで。
+出てって。"
+
+    old "Wait a minute! What do you mean, ‘so’? Why am I the only one being kicked out of the room!?{#ch6_s_022}"
+    new "ちょっと待て！
+なにが『というわけで』なんだ！？
+なんで俺だけ部屋の外に追い出されるんだ！？"
+
+    old "Oh, don't worry. Guiche is coming with you.{#ch6_l_029}"
+    new "ああ、安心して。
+ギーシュも一緒だから。"
+
+    old "Why am I being kicked out too!?{#ch6_g_009}"
+    new "なんでぼくまで追い出されるんだ！？"
+
+    old "Exactly! Don't lump me together with this womanizer!{#ch6_s_023}"
+    new "そうだぞ、俺をこんな女たらしと一緒にするな！"
+
+    old "From now on, this will be the women's room, so men are forbidden.{#ch6_l_030}"
+    new "こっちの部屋は、今後、
+女性部屋ってことにするから、男子禁制なの。"
+
+    old "Oh, I see. Well, I guess it can't be helped.{#ch6_s_024}"
+    new "ああ、そういうことか。
+そりゃまあ、しょうがねえな。"
+
+    old "N-no! This can't be happening! My dream of serving beside Her Majesty and letting her experience my charms…!{#ch6_g_010}"
+    new "そ、そんな！
+せっかく女王陛下のお側近くにお仕えして、
+ぼくの魅力に触れてもらおうという夢がっ！"
+
+    old "Come on, Guiche.{#ch6_s_025}"
+    new "ほら、行くぞギーシュ。"
+
+    old "This is too cruel…{#ch6_g_011}"
+    new "ああ、あんまりだあああ……。"
+
+    old "Enough. Get some sleep. We have to guard the princess starting tomorrow.{#ch6_s_026}"
+    new "いいから。
+さっさと寝て、明日からお姫さまの警護だ。"
+
+    old "Good night, then.{#ch6_l_031}"
+    new "じゃ、おやすみ。"
+
+    old "Yeah. Don't kick off the futon and catch a chill while you sleep.{#ch6_s_027}"
+    new "おう。
+フトン蹴飛ばして、寝冷えするなよー。"
+
+    old "I won't!{#ch6_l_032}"
+    new "しないわよっ！"
+
+    old "Mmm… yawn. Good grief, it's morning already.{#ch6_s_028}"
+    new "んー……ふああ。
+やれやれ、もう朝か。"
+
+    old "I always wake up early out of habit.{#ch6_s_029}"
+    new "いつものクセで、どうにも早く目が
+覚めちまうな。"
+
+    old "Where did Guiche get to…?{#ch6_s_030}"
+    new "ギーシュのやつは……。"
+
+    old "Mmm… mumble, mumble.{#ch6_g_012}"
+    new "うーん……むにゃむにゃ。"
+
+    old "That's nobles for you…{#ch6_s_031}"
+    new "本当に貴族ってやつはぁ……。"
+
+    old "Hm? Who is it?{#ch6_s_032}"
+    new "ん、誰です？"
+
+    old "Um, are you awake?{#ch6_h_026}"
+    new "あの、起きてますか？"
+
+    old "Princess?{#ch6_s_033}"
+    new "お姫さま？"
+
+    old "Good, you were already awake.{#ch6_h_027}"
+    new "良かった、もう起きてらっしゃいましたね。"
+
+    old "Y-yes. I am an early riser.{#ch6_s_034}"
+    new "は、はい。
+早起きなもんで。"
+
+    old "What brings you out so early, Princess?{#ch6_s_035}"
+    new "お姫さまこそ、どうしたんですかこんな早く。"
+
+    old "Perhaps I woke earlier than usual because I slept in an unfamiliar bed… Since I am awake, I thought I would look around the city.{#ch6_h_028}"
+    new "慣れないベッドで寝たせいでしょうか、
+いつもより早く目が覚めてしまって……。
+それで、せっかくですから街を見て回ろうかと。"
+
+    old "Pardon?{#ch6_s_036}"
+    new "はい？"
+
+    old "U-um, it is dangerous to go outside in our current situation, so you should probably give up on the walk…{#ch6_s_037}"
+    new "あ、あのー、今の状況で外に出るのは
+危険ですし、散歩は控えた方が……。"
+
+    old "A-and if something happens, Louise will…{#ch6_s_038}"
+    new "そ、それに何かあったら、俺がルイズに……。"
+
+    old "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"
+    new "ルイズには、わたくしがとりなします。
+では、まいりましょう。"
+
+    old "W-wait… All right, all right, just don't pull so hard!{#ch6_s_039}"
+    new "あ、ちょっと……分かりました。
+分かりましたから、そんなに
+引っぱらないでください！"
+
+    old "This is a spacious place.{#ch6_h_030}"
+    new "ここは広いところですね。"
+
+    old "Princess, there seem to be a lot of soldiers here. If we stay too long, they will find you.{#ch6_s_040}"
+    new "お姫さま。
+ここは兵士が多いみたいですし、
+あんまり長くいては見つかりますよ。"
+
+    old "How diligent they are. That is a good thing.{#ch6_h_031}"
+    new "まあ。
+仕事熱心なのはよいことですわ。"
+
+    old "This is no time to be so relaxed. They are looking for you… We need to move, quickly.{#ch6_s_041}"
+    new "そんなのんびりしてる状況じゃないですって。
+お姫さまを探してるんだから……。
+とにかく、早く移動しましょう。"
+
+    old "Hey, you there.{#ch6_unk_001}"
+    new "おい、そこの。"
+
+    old "Yes?{#ch6_h_032}"
+    new "はい？"
+
+    old "Hmm. Height… hair color… You match the description of the person we have orders to find. Come with me to the guard post.{#ch6_unk_002}"
+    new "ふむ、身長……髪の色……。
+捜索命令のある人物の特徴と合うな。
+お前、ちょっと詰め所まで来てもらおう。"
+
+    old "W-wait a moment!{#ch6_s_042}"
+    new "ちょ、ちょっと待ってください！"
+
+    old "What about my cousin?{#ch6_s_043}"
+    new "俺のいとこがどうかしましたか？"
+
+    old "Your cousin?{#ch6_unk_003}"
+    new "いとこ？"
+
+    old "Yes. She is my cousin from the frontier. She only arrived in the city this morning.{#ch6_s_044}"
+    new "そうです。
+辺境に住んでるいとこで。
+今朝この街に着いたばかりなんです。"
+
+    old "I am showing her around right now.{#ch6_s_045}"
+    new "今、俺が道案内してるんですよ。"
+
+    old "Sorry. She is not familiar with the city yet.{#ch6_s_046}"
+    new "すいません、本当、街に慣れてないもんで。"
+
+    old "Hm? Oh, all right. You may pass.{#ch6_unk_004}"
+    new "ん？
+ああ、いや、分かった。
+通ってよし。"
+
+    old "Then, if you will excuse us!{#ch6_s_047}"
+    new "それじゃ、失礼しますっ！"
+
+    old "What about my sister-in-law?{#ch6_s_048}"
+    new "俺の義姉がどうかしましたか？"
+
+    old "Is that so? Still, we should question her, just in case…{#ch6_unk_005}"
+    new "そうなのか？
+だが、一応取り調べを……。"
+
+    old "Oh, but I have to go to the Duke of Vallière's estate on my husband's business.{#ch6_h_033}"
+    new "あら、わたくしこれから夫の用事で、
+ヴァリエール公爵様のお屋敷に行かねば
+いけないのですけれど。"
+
+    old "The Duke of Vallière's estate? Hmm… In that case, perhaps I will ask at the duke's residence later.{#ch6_unk_006}"
+    new "ヴァリエール公爵邸に？
+ううむ……。
+そういうことなら、後ほど公爵邸に尋ねるか。"
+
+    old "Then, if you will excuse us!{#ch6_s_049}"
+    new "それじゃ、失礼しますっ！"
+
+    old "What about my fiancée?{#ch6_s_050}"
+    new "俺の許嫁がどうかしましたか？"
+
+    old "Your fiancée?{#ch6_unk_007}"
+    new "許嫁だと？"
+
+    old "That's right.{#ch6_s_051}"
+    new "そうです。"
+
+    old "She lived on the frontier until now and only arrived in the city this morning so I could introduce her to my family before the wedding.{#ch6_s_052}"
+    new "今まで辺境に住んでた娘で、
+結婚式の前に家族に紹介するために、
+今朝この街に着いたばかりなんですよ。"
+
+    old "Is that so? Ah, congratulations.{#ch6_unk_008}"
+    new "そうなのか？
+あー、おめでとう。"
+
+    old "Then, if you will excuse us, we are in a hurry!{#ch6_s_053}"
+    new "それじゃ、急いでるんで失礼しますっ！"
+
+    old "Now, let's move before any more nuisances stop us.{#ch6_s_054}"
+    new "さあて、これ以上余計な連中につかまらない
+ように、さっさと移動しちゃいましょう。"
+
+    old "Yes, indeed.{#ch6_h_034}"
+    new "ええ。
+そうですね。"
+
+    old "Oh, this is… a back street, isn't it? What a desolate road…{#ch6_h_035}"
+    new "あら、ここは確か……裏路地、ですね？
+ずいぶんと寂しい通り……。"
+
+    old "Whoa, whoa, whoa, Princess, this won't do! This is dangerous territory where rough characters hang around.{#ch6_s_055}"
+    new "うわわわわわ、駄目ですよお姫さま。
+ここは柄の悪い連中がたむろってる、
+危険地帯ですよ。"
+
+    old "Dangerous?{#ch6_h_036}"
+    new "危険、ですか。"
+
+    old "Yes. It is dangerous for a girl like you to come to a place like this!{#ch6_s_056}"
+    new "そうですよ。
+こんなところに、お姫さまみたいな女の子が
+来たら危険です！"
+
+    old "Is that so? Then what sort of girl is allowed to come here?{#ch6_h_037}"
+    new "そうなのですか。
+では、どんな女の子なら来てもいいのですか？"
+
+    old "Um…{#ch6_s_057}"
+    new "ええと……。"
+
+    old "Maybe a girl like Kirche.{#ch6_s_058}"
+    new "キュルケみたいな子かな。"
+
+    old "Miss Kirche?{#ch6_h_038}"
+    new "キュルケさん、ですの？"
+
+    old "Yes. Kirche is good at handling people, you know…{#ch6_s_059}"
+    new "ええ。
+キュルケって、人あしらいが
+上手っていうか……。"
+
+    old "So even if she met some dangerous-looking people here, I think she could talk her way out of it.{#ch6_s_060}"
+    new "だから、こういうところで危なそうな
+連中に会っても、うまいこと切り抜けると
+思いますよ。"
+
+    old "I see. She is good at handling people.{#ch6_h_039}"
+    new "なるほど。
+人あしらいですか。"
+
+    old "Someone like me!{#ch6_s_061}"
+    new "俺みたいな子です！"
+
+    old "Hm? Familiar… are you a girl?{#ch6_h_040}"
+    new "え？
+使い魔さん……女の子でした？"
+
+    old "No, no, no, no, that's not it. I'm a man.{#ch6_s_062}"
+    new "いえいえいえいえ、違います。
+俺は男です。"
+
+    old "I mean, a manly girl like me probably wouldn't get attacked.{#ch6_s_063}"
+    new "ですから、俺みたいな……
+男っぽい女の子なら、
+襲われたりはしないだろうなあと。"
+
+    old "Oh… is that so? If you were a girl, familiar, I imagine you would be rather cute.{#ch6_h_041}"
+    new "はあ……そうなんですの？
+使い魔さんが女の子だったら、
+それなりにかわいい気がしますけれど。"
+
+    old "Please don't say creepy things like that.{#ch6_s_064}"
+    new "気色悪いこと言わないでください。"
+
+    old "There is no girl who should come to a place like this. That is how dangerous it is.{#ch6_s_065}"
+    new "こんなとこに来てもいい女の子なんていません。
+それだけ危ないところなんですから。"
+
+    old "Hee hee. You treat women with respect, don't you, familiar?{#ch6_h_042}"
+    new "くすっ。
+使い魔さんは女性を大事に
+扱ってくださるんですね。"
+
+    old "Actually, I do. Just kidding.{#ch6_s_066}"
+    new "実はそうなんです。
+なんちて。"
+
+    old "Protecting women… That is the spirit of chivalry. How admirable. Though, familiar, you have quite a silly grin on your face.{#ch6_h_043}"
+    new "女性を守る……騎士道精神ですね。
+すばらしいことですわ。
+でも、使い魔さん、顔が緩んでますけど。"
+
+    old "I do not! Heh heh heh.{#ch6_s_067}"
+    new "そんなことないですよ、でへへへ。"
+
+    old "A-anyway. It is dangerous to stay here, so let's move on quickly.{#ch6_s_068}"
+    new "と、とにかく。
+こんなところにいたら危険ですから、
+さっさと移動しましょう。"
+
+    old "All right.{#ch6_h_044}"
+    new "分かりました。"
+
+    old "This place is so lush and green. It is wide open… What a pleasant view.{#ch6_h_045}"
+    new "ここは、緑が豊かな場所ですね。
+広々として……気持ちの良い光景です。"
+
+    old "If we leave the city and follow this highway straight ahead, we will reach the Academy of Magic.{#ch6_s_069}"
+    new "このまま街を出て、
+この街道をまっすぐ進むと、魔法学院ですね。"
+
+    old "So this is the city's boundary.{#ch6_h_046}"
+    new "ここが、街の境界になるのですね。"
+
+    old "Yes.{#ch6_s_070}"
+    new "そうですね。"
+
+    old "If only I could keep following this road and go far away…{#ch6_h_047}"
+    new "このまま、この道を進んで遠くに行けたら……。"
+
+    old "Princess?{#ch6_s_071}"
+    new "お姫さま？"
+
+    old "Oh, it is nothing. Just idle chatter.{#ch6_h_048}"
+    new "いえ、なんでもありません。
+ただの戯言です。"
+
+    old "Princess…{#ch6_s_072}"
+    new "お姫さま……。"
+
+    old "Someday, you will be able to go wherever you wish.{#ch6_s_073}"
+    new "いつか、自由に行けますよ。"
+
+    old "Do you think so…?{#ch6_h_049}"
+    new "そうでしょうか……。"
+
+    old "In the world I came from, anyone can travel freely. Someday, perhaps this world will be the same…{#ch6_s_074}"
+    new "俺のいた世界は誰だって自由に旅ができます。
+この世界だっていつかは……。"
+
+    old "Yes, perhaps. Familiar… thank you.{#ch6_h_050}"
+    new "そうですね。
+使い魔さん……ありがとう。"
+
+    old "You must not run away.{#ch6_s_075}"
+    new "逃げちゃ駄目ですよ。"
+
+    old "Yes, I understand that. As long as I am queen, I must not forget the responsibilities I bear.{#ch6_h_051}"
+    new "ええ、それは分かっています。
+わたくしが女王である以上、
+忘れてはならない責務があることは。"
+
+    old "That is why I told you, was it not? It was only idle chatter, nothing more.{#ch6_h_052}"
+    new "ですから、申し上げたでしょう？
+戯言なのですよ、ただの。"
+
+    old "I'm sorry.{#ch6_s_076}"
+    new "すみません。"
+
+    old "It is dangerous when you lose your way.{#ch6_s_077}"
+    new "道に迷うと大変ですよ。"
+
+    old "…Yes. My path… Where in the world is it…?{#ch6_h_053}"
+    new "……そうですね。
+わたくしの道……。
+一体どこにあるのかしら……。"
+
+    old "Well, if you let your guard down because it looks like a straight road, it turns out the paths are actually pretty tangled.{#ch6_s_078}"
+    new "いや、一本道だと思って油断してると、
+けっこう道が複雑に絡み合ってるらしくて。"
+
+    old "Oh my, that sounds difficult.{#ch6_h_054}"
+    new "まあ、それは大変ですね。"
+
+    old "Even when you think you are doing fine, from the outside it can look like nothing but reckless behavior.{#ch6_s_079}"
+    new "自分は大丈夫なつもりでも、はたから見れば
+ただの無茶ってこともよくある話ですよ。"
+
+    old "That is a very literal way to get lost.{#ch6_h_055}"
+    new "それは、本当に道に迷う話ですね。"
+
+    old "Huh? Did you mean something else?{#ch6_s_080}"
+    new "え？
+他になにか？"
+
+    old "It was nothing.{#ch6_h_056}"
+    new "何でもありませんわ。"
+
+    old "Come on, let's head back into the city.{#ch6_s_081}"
+    new "さあ、街の中に戻りましょう。"
+
+    old "Yes, let us.{#ch6_h_057}"
+    new "ええ、そうですね。"
+
+    old "This is the market, isn't it? It is so lively and bustling. They sell all sorts of things here.{#ch6_h_058}"
+    new "ここは市場ですね。
+とても活気に溢れてて、賑やか。
+さまざまな物が売られているのですね。"
+
+    old "I think that shows how peaceful this city is.{#ch6_s_082}"
+    new "それだけ、この街が平和ってことだと
+思いますよ。"
+
+    old "Peaceful… Do you really think so?{#ch6_h_059}"
+    new "平和……。
+そうなのでしょうか。"
+
+    old "Princess?{#ch6_s_083}"
+    new "お姫さま？"
+
+    old "I can be here like this now, but… if you and Louise had not been there in the last battle…{#ch6_h_060}"
+    new "今は、こうしていられますけど……。
+先の戦いで、もしもルイズと使い魔さんが
+いなければ……。"
+
+    old "The scene would surely have been very different. This peaceful sight exists only because a series of coincidences came together.{#ch6_h_061}"
+    new "きっともっと違った風景になっていたはずです。
+今この平和な光景があるのも、
+偶然が重なった結果にすぎないのですわ。"
+
+    old "Princess…{#ch6_s_084}"
+    new "お姫さま……。"
+
+    old "Even if it was coincidence, isn't it enough that the outcome was good?{#ch6_s_085}"
+    new "偶然だって、結果が良ければ
+いいじゃないですか。"
+
+    old "Yes, I suppose so. The people were saved, so we certainly ought to rejoice in that first.{#ch6_h_062}"
+    new "そうですね。
+民が救われたのですから、
+それをまず喜ぶべきなのは確かです。"
+
+    old "Exactly. Let's just be happy about it. Yay.{#ch6_s_086}"
+    new "そうですよ。
+素直に喜びましょ。
+わーい。"
+
+    old "Hee hee. Yes, let us.{#ch6_h_063}"
+    new "くすっ。
+そうですね。
+うふふ。"
+
+    old "Our efforts were not a coincidence.{#ch6_s_087}"
+    new "俺達の努力は偶然じゃありませんよ。"
+
+    old "Oh, I am sorry. That is not what I meant.{#ch6_h_064}"
+    new "あ、すみません。
+そういう意味で言ったのではないのです。"
+
+    old "It is just that, when we fell into that crisis, you and Louise happened to be in this country… That itself seemed like a coincidence to me…{#ch6_h_065}"
+    new "ただ、あの危機に陥った時に、
+ルイズと使い魔さんがこの国にいてくれた……。
+そのこと自体が偶然のように思えて……。"
+
+    old "True… That may have been coincidence. I was summoned by Louise by coincidence, too.{#ch6_s_088}"
+    new "確かに……。
+それは偶然かもしれないですね
+俺もルイズに偶然召喚されたんだし。"
+
+    old "But because Louise, the soldiers… and above all, you, Princess, worked so hard, we were able to make use of that coincidence.{#ch6_s_089}"
+    new "でも、ルイズや軍人さんや……。
+何よりお姫さまが頑張ったから、
+その偶然も活かせたんですよ。"
+
+    old "Do you think so…? Unlike the others, I…{#ch6_h_066}"
+    new "そうでしょうか……。
+他の者はともかく、わたくしは……。"
+
+    old "Please don't say that. You worked hard, Princess. Everyone knows it.{#ch6_s_090}"
+    new "そんな風に言わないでくださいよ。
+お姫さまは頑張った。
+それはみんなが分かってますよ。"
+
+    old "I… hope that is true.{#ch6_h_067}"
+    new "だと……いいのですが。"
+
+    old "I do not know what the princess regrets, but it will be all right next time.{#ch6_s_091}"
+    new "お姫さまが、なにを後悔してるか
+分かりませんけど、次は大丈夫ですよ。"
+
+    old "Next time…?{#ch6_h_068}"
+    new "次……ですか？"
+
+    old "Yes. If you have regrets, you can use what you learned from them next time.{#ch6_s_092}"
+    new "そうです。
+もし、悔いが残ってるなら、
+その反省を次に活かせばいいんですよ。"
+
+    old "Yes. Next time, I will protect the capital myself.{#ch6_h_069}"
+    new "そうですね。
+今度は、わたくしが都を守ってみせましょう。"
+
+    old "That's the spirit.{#ch6_s_093}"
+    new "そうそう、その意気です。"
+
+    old "We should move on. If we keep standing here, we will only block the way.{#ch6_s_094}"
+    new "さて、あんまりここに突っ立ってると、
+通行の邪魔かな。"
+
+    old "Then let us go somewhere else as well.{#ch6_h_070}"
+    new "それでは、他の所にも行ってみましょう。"
+
+# ===== end ch6_1 =====
+
+
+# ===== ch6_2 provisional source port =====
+    old "This place is even livelier than anywhere we've been so far."
+    new "あら、ここは今までのところにも増して 賑やかですのね。"
+
+    old "This seems to be the heart of the market."
+    new "ここは市場の中心みたいですからね。"
+
+    old "I'm glad."
+    new "良かった……。"
+
+    old "Hm?"
+    new "ん？"
+
+    old "If the market is bustling, then the people's lives cannot be all that miserable."
+    new "市場が活気に溢れているということは、 民の暮らしがそこまでひどいことには なっていないということでしょう。"
+
+    old "I never looked at it that way. You're something else, Princess. You really think like a politician."
+    new "俺は、そういう見方はしてなかったな。 さすがお姫さま、 ちゃんと政治家してるんですね。"
+
+    old "It is hardly something to praise me for. I rarely have the chance to see a market like this for myself."
+    new "それほど褒められたものではありませんわ。 わたくし、こうして実際に市場を見ることは まずありませんもの。"
+
+    old "Ah, but perhaps that is why it makes me happy."
+    new "ああ、でも、それだから嬉しいのかも 知れませんね。"
+
+    old "Huh?"
+    new "え？"
+
+    old "You see, this view used to be a world beyond my window. Now it is right here, close enough to touch."
+    new "だって、いつもなら窓枠の外の世界だった この光景が、今はこうして手に触れられる ところにあるんですもの。"
+
+    old "It's just an ordinary sight to me."
+    new "俺なんかには、ごく普通の光景ですけどね。"
+
+    old "What is ordinary to you is special to me. I have not had this much fun in a long time."
+    new "そんなごく普通の光景が、 わたくしには特別なのですよ。 こんなに楽しいことは、最近ありませんでした。"
+
+    old "Then I'm glad."
+    new "なら、良かったです。"
+
+    old "Oh? It sounds like there is a quarrel over there..."
+    new "あら？ もめているみたいですね……。"
+
+    old "Hey, aren't these dried goods even more expensive than last time?"
+    new "おい、この乾物、この間よりもまた 高くなってんじゃねえか？"
+
+    old "What can I do? The army keeps seizing our ships, so our catch just keeps shrinking."
+    new "仕方ないだろう。 また船が軍にとられてよ、 取れ高が減る一方なんだからよ。"
+
+    old "Good grief. Everywhere I go, it's one gloomy story after another."
+    new "やれやれ。 どこもかしこも、しけた話ばっかりだな。"
+
+    old "It can't be helped. Ever since Her Majesty started this war, business has slumped and the army has run wild."
+    new "仕方ねえよ。 あの女王陛下が戦争おっ始めてからこっち、 景気は落ち込む、軍はのさばる。"
+
+    old "Nothing good has come of it."
+    new "ろくなことがありゃしねえ。"
+
+    old "Well, I suppose it's no wonder. What can you expect from such a young, ignorant queen?"
+    new "まあ無理もないか。 あんな若い、物知らずな女王様じゃねえ。"
+
+    old "..."
+    new "……。"
+
+    old "Uh, hey! Princess, let's go look over there!"
+    new "ええと、あのっ！ お姫さま、あっちの方を見に行きましょう！"
+
+    old "Whew..."
+    new "はああ……。"
+
+    old "The people are honest. They openly say what is making their lives difficult and who is to blame."
+    new "民は正直なものですね。 生活を困窮させているのがなんなのか、 誰のせいなのかを素直に告げるのですから。"
+
+    old "Um, Princess."
+    new "あの、お姫さま。"
+
+    old "Don't let it get to you."
+    new "気にしちゃだめですよ。"
+
+    old "Hm?"
+    new "え？"
+
+    old "No, listening to them matters, but one person's voice doesn't necessarily represent everyone's opinion, right?"
+    new "あ、いや、声を聞くことは大切ですけど、 一部の声がそのままみんなの意見だとは、 限らないでしょ？"
+
+    old "That merchant might just be using the war as an excuse to raise his prices..."
+    new "さっきの商人だって、値段をつりあげる理由に、 戦争を持ち出してるだけかもしれないし……。"
+
+    old "You should do what you think is right, Princess. I'm sure of it."
+    new "お姫さまは、思ったとおりにやればいいん じゃないかな。 きっと。"
+
+    old "Thank you, familiar."
+    new "ありがとう、使い魔さん。"
+
+    old "What matters is what you do from here on."
+    new "これからどうするかですよ。"
+
+    old "From here on...?"
+    new "これから……ですか？"
+
+    old "Now you know what people think. You can use that as a hint for deciding what to do next."
+    new "今の評判は分かったわけだし、 それを元に、これからどうしていくか、 考えるヒントをもらったってことで。"
+
+    old "Oh... So it is all right to look at it that way."
+    new "ああ……。 そういう考え方でいいんですね。"
+
+    old "Exactly. People say some pretty irresponsible things. The Internet is the same way."
+    new "ですよ。 皆、結構、無責任なこと言うもんだから。 ネットとかもそうだし。"
+
+    old "The Internet?"
+    new "ねっと？"
+
+    old "Ah, I was just talking to myself. Just mumbling."
+    new "あ、ひとりごとです、ひとりごと。"
+
+    old "I see. But thank you. I feel a little better now."
+    new "そう、そうですか。 でも、ありがとう。 少し、気が楽になりました。"
+
+    old "There are all kinds of people in the world."
+    new "いろんな人がいるんですよ。"
+
+    old "All kinds...?"
+    new "いろんな……ですか。"
+
+    old "When something happens, some people will think it's good, while others will think it's bad."
+    new "なにか起きれば、それをいいって 思う人もいるだろうし。 悪いって思う人もいるだろうし。"
+
+    old "So you just have to work to make more people see it as something good."
+    new "だから、なるべくいいと思う人が増えるよう、 頑張ればいいんじゃないですかね。"
+
+    old "Is it really that simple?"
+    new "そんなに簡単なものでしょうか。"
+
+    old "Well, it's easy to say. But you have plenty of time ahead of you."
+    new "んー、まあ言うだけなら簡単なことですけどね。 でも、これからでしょ、これから。"
+
+    old "Indeed. I have only just become queen. Expecting everyone to accept me already would be greedy."
+    new "そうですね。 まだ女王になって間もないというのに、 皆から認められようというのはぜいたくですわ。"
+
+    old "Oh, I didn't mean quite that much."
+    new "あ、いや、そこまでは言いませんけど。"
+
+    old "In any case, I still have a long way to go as queen, don't I...?"
+    new "何にしても、わたくしは女王としてまだまだ、 ということですね……。"
+
+    old "You shouldn't look so down... Wait! I know just the place to take you!"
+    new "そんなに落ち込まれてもなぁ……。 そうだ！ いいとこ連れてってあげますよ！"
+
+    old "Huh? Oh, familiar, wait for me!"
+    new "え？ あ、使い魔さん、待ってください！"
+
+    old "Is this the place that is supposed to cheer me up...? This is a dining hall, isn't it?"
+    new "元気が出るところって……ここですか？ 食堂……ですよね、ここ。"
+
+    old "That's right. When you're feeling down, the best thing is to eat!"
+    new "ですよ。 落ち込んだ時は食べるのが一番！"
+
+    old "Here you go! Sorry to keep you waiting!"
+    new "はいよ、おまたせ！"
+
+    old "There it is! Go on, try it. The meat dishes here are delicious!"
+    new "お、きたきた！ さあ、食べてみてくださいよ。 ここの食堂の肉料理がうまいんですよ！"
+
+    old "Oh, all right. This is grilled fish... And this is vegetable soup."
+    new "あ、はい。 これは……焼き魚ですね。 こちらは、野菜のスープ。"
+
+    old "Looks good, doesn't it? Come on, eat up!"
+    new "美味そうでしょ？ さあ、食べて食べて！"
+
+    old "Oh, all right. Great Founder Brimir, thank you for this humble meal this morning..."
+    new "あ、はい。 偉大なる始祖ブリミルよ、 今朝もささやかなる糧を……。"
+
+    old "A-are you going to do that here too?"
+    new "こ、ここでもやりますか。"
+
+    old "Then I shall partake... Munch."
+    new "では、いただきます……。 あむ。"
+
+    old "How is it? How is it?"
+    new "どう？ どう？"
+
+    old "It is delicious!"
+    new "美味しいですっ。"
+
+    old "See?"
+    new "でっしょー！"
+
+    old "Do you all always eat such delicious food?"
+    new "みなさんは、いつもこんな美味しいものを 食べてるんですか？"
+
+    old "The food at the castle is probably fancier, but this place is pretty good too, right?"
+    new "城の料理の方が豪華だろうけどね。 ここのもなかなかでしょ？"
+
+    old "You know so much, familiar."
+    new "使い魔さんは、いろいろご存じなのですね。"
+
+    old "Not really. I know absolutely nothing about this world... I mean, this country."
+    new "そんなことないですよ。 俺、この世界……じゃなくて、 この国のことは、もーさっぱりですし。"
+
+    old "Ah, now that you mention it, that is true."
+    new "ああ、そう言えばそうでしたね。"
+
+    old "Yes?"
+    new "はい？"
+
+    old "Louise told me that you are from another world."
+    new "ルイズに聞いたのですが、 使い魔さんは異世界の住人だとか。"
+
+    old "Well, that's true."
+    new "まあそうですけど。"
+
+    old "I have wanted to ask you this for a while. What is your world like?"
+    new "一度お聞きしたかったのです。 使い魔さんの世界は、いったいどのような ところなのでしょう？"
+
+    old "What is it like...? Well, let's see..."
+    new "どのようなと言われても……そうですねえ……。"
+
+    old "It is a world without kings."
+    new "王様のいない世界です。"
+
+    old "No king!? Then who rules the country, and how?"
+    new "王がいない！？ それでは、いったい誰がどのように 国を治めているのですか？"
+
+    old "Well, some countries do have kings, but they don't hold any real power."
+    new "いや、一応、王が存在してる国も あるんですけど、権力を持っていないって ことです。"
+
+    old "I see..."
+    new "はぁ……。"
+
+    old "It is a world without magic."
+    new "魔法のない世界です。"
+
+    old "Without magic...? That sounds like a very inconvenient world."
+    new "魔法がない……ですか。 それはまた不便な世界ですね。"
+
+    old "Well, not really. We have science instead of magic."
+    new "えーと、そうでもないですよ。 魔法の代わりに、科学がありますから。"
+
+    old "Science...?"
+    new "カガク……ですか。"
+
+    old "A world without night, so to speak."
+    new "夜のない世界というか。"
+
+    old "There is no night!? Do you mean the sun stays out and it is always daytime?"
+    new "夜がないのですか！？ 太陽が出たまま、昼だけの世界と いうことなのでしょうか？"
+
+    old "Well, to be precise, lights stay on even at night, so the darkness is gradually disappearing."
+    new "あ、えーとですね。 正確に言うと、夜でも灯りがともっていて、 夜の暗闇がなくなりつつあるんです。"
+
+    old "I see. But then you must spend an enormous amount on firewood."
+    new "ああ、なるほど。 でも、それではずいぶんと 薪代がかかるのでは？"
+
+    old "Huh? Oh, we don't use firewood. We light everything with electricity."
+    new "へ？ ああ、薪は使わないんです。 電気で明るくしてるんですよ。"
+
+    old "Electricity?"
+    new "デンキ？"
+
+    old "Lightning... Something like that."
+    new "雷……。 みたいなものかな。"
+
+    old "Lightning...? I see."
+    new "雷の……。 なるほど。"
+
+    old "Who rules your world?"
+    new "使い魔さんの世界は一体誰が 治めているのですか？"
+
+    old "In the country I came from, everyone votes to choose members of the national assembly..."
+    new "えーと、俺がいた国は、 みんなで選挙して国会議員を決めて……。"
+
+    old "The national assembly? Members?"
+    new "コッカイ？ ギイン？"
+
+    old "The national assembly is divided into two houses, the House of Representatives and the House of Councillors, and, uh... I should have studied this a little more..."
+    new "あ、国会っていうのは、 衆議院と参議院に分かれてて、えーと……。 あー、もうちょっと勉強しとくんだった……。"
+
+    old "Anyway, there is no king. Everyone chooses the people who will govern the country."
+    new "とにかく、王様がいなくて、 国民みんなで政治する人を決めるんです。"
+
+    old "The people choose their own leader...? Is such a thing really possible?"
+    new "民が自らの長を選ぶ……。 そんなこと、可能なのでしょうか。"
+
+    old "Yes, that's how it was in my country."
+    new "うーん、俺の国はそうでしたよ？"
+
+    old "I cannot imagine a world without kings. So there are countries like that in other worlds."
+    new "王のいない世界なんて想像もできません。 ほかの世界にはそのような国もあるのですね。"
+
+    old "I-I don't know if it's really that amazing."
+    new "そ、そんなにすごいことなのかな。 よく分からないけど。"
+
+    old "This was supposed to be a morning walk, but it has become quite dark."
+    new "朝の散歩のはずが、 すっかり暗くなってしまいましたね。"
+
+    old "Yeah, I guess it has... Ha ha ha."
+    new "あー、そうですねー……ははは。"
+
+    old "What is the matter? Is something worrying you?"
+    new "どうなさったのです？ なにか心配事でも？"
+
+    old "I was just thinking that Louise is going to be furious if I go back like this."
+    new "あ、このまま帰ったら、ルイズに死ぬほど 怒られるだろうなーって、そう思っただけで。"
+
+    old "Ah, I see... Hee hee. I found myself a little envious of Louise."
+    new "ああ、なるほど……。 ふふ、ちょっとルイズがうらやましく なりました。"
+
+    old "Huh?"
+    new "はい？"
+
+    old "It is enviable to have someone you can be comfortable with."
+    new "気を許せる人がいるのは、 うらやましいことです。"
+
+    old "Huh? Sorry, but who is comfortable with whom?"
+    new "はい？ ええとすみません。 誰が誰に気を許してるんでしょうか？"
+
+    old "Louise, of course, with you. The fact that she shows you her honest emotions proves that she trusts you, does it not?"
+    new "もちろん、ルイズがあなたにですよ。 彼女が素直な感情をあらわにするのは、 使い魔さんに気を許している証拠でしょう？"
+
+    old "You think so?"
+    new "そうですかねえ……。"
+
+    old "I envy you greatly for having time to spend together while showing your true selves."
+    new "その素顔を見せて過ごせる時間があることが、 わたくし、すごくうらやましいです。"
+
+    old "I am always putting on the face of a queen..."
+    new "わたくしは常に、女王としての自分を 作っていますから……。"
+
+    old "Is that how it is...?"
+    new "そんなもんですか……。"
+
+    old "Now then, my excellent familiar, would you explain how this happened?"
+    new "さて、わたしの優秀な使い魔に、 何がどうなって、こうなったのか、 説明してもらいましょうか？"
+
+    old "Ah, she really is angry."
+    new "ああ、やっぱり怒ってる。"
+
+    old "Of course I am! I woke up to find the princess gone, and you had disappeared too!"
+    new "当たり前でしょうがっ！ 朝起きたら姫さまがいなくて、 あんたも姿を消してて！"
+
+    old "And you didn't contact anyone until sunset!"
+    new "おまけに、日が暮れるまで連絡も何もなし！"
+
+    old "I am amazed at my own trust and patience for waiting for you instead of reporting this to the palace!"
+    new "王宮に通報しないであんたの帰りを待っていた、 その信頼と忍耐力に我ながら驚いたわ！"
+
+    old "That surprised me too."
+    new "それは俺もビックリだ。"
+
+    old "So. Is there anything you want to say before I have the last word?"
+    new "で。 最後に一言、言っておきたいことはある？"
+
+    old "Well..."
+    new "ええと……。"
+
+    old "It wasn't my fault! I was only accompanying the princess on her morning walk after she got up early!"
+    new "俺は悪くないんだ！ 俺はただ、早起きしたお姫さまの、 朝の散歩に付き合っただけなんだ！"
+
+    old "Oh, is that so?"
+    new "ああ、そうだったの。"
+
+    old "That's right. You understand now, don't you?"
+    new "そうなんだよ、分かってくれたか。"
+
+    old "As if I would! If you're going to lie, at least tell a better one!"
+    new "分かるわけないでしょ！ つくならもっとマシな嘘をつきなさい！"
+
+    old "No regrets about my date with the princess! She asked me to show her the sights, so we went all over town! That was definitely a date!"
+    new "お姫さまとのデートに悔いなし！ お姫さまに頼まれて、街の名所をあちこちと！ これはデートに間違いない！"
+
+    old "..."
+    new "……。"
+
+    old "Hey, the princess had fun too, so I have no regrets. Ha ha ha."
+    new "やー、お姫さまも楽しんでくれたし、 思い残すこともないな。 はっはっは。"
+
+    old "...I see. Then I won't have to hold back either."
+    new "……そう。 だったらわたしも手加減しなくてすむわ。"
+
+    old "I went to see how things were in town. We visited crowded places and listened to what people were saying."
+    new "街の様子を見てきたんだ。 人の集まるところを回りながら、 街の人がしてる噂やら聞いたり。"
+
+    old "I see... So the princess is still wavering in her confidence as queen."
+    new "そう……。 姫さま……やっぱり、女王としての自信が、 まだ揺らいでるのかしら。"
+
+    old "Yeah. So I took her to a dining hall to help take her mind off it."
+    new "ああ。 だから、俺もなんとか気がまぎれるように、 食堂に連れてったりしたわけだよ。"
+
+    old "So you were late because of your detour after all!?"
+    new "って、結局あんたの寄り道のせいで 遅くなったのね！？"
+
+    old "I-I guess that's true... Yes, I suppose so."
+    new "そ、それはそうかも……。 しれませんですね、はい。"
+
+    old "What would you have done if something had happened to the princess? You stupid mutt!"
+    new "姫さまに何かあったらどうするつもりなのよ！ このバカ犬ー！"
+
+    old "Aaaaaaagh!"
+    new "ぎゃああああああすっ！"
+

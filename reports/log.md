@@ -1,5 +1,64 @@
 # Журнал решений (reports/log.md)
 
+## 2026-10-30 — S1 главы 6: полный JA-grounded аудит
+
+- статус: PARTIAL
+- место: `game/chapters/6/script-ch6_1.rpy`, `game/tl/russian/dialogs.rpy`, `game/tl/russian/choises.rpy`
+- проверка: полный смысловой и прагматический проход JA → EN/RU, контроль русской грамматики, оформление прозы и стилевой аудит.
+- классификация/диспозиция: четыре подтверждённых кандидата классифицированы как `ERROR` и исправлены (`FIXED`): три смысловые формулировки в RU dialogs и один вопросительный знак в RU choice. Остальные кандидаты классифицированы как `PASS` и сохранены как `PRESERVED — JA` или `PRESERVED — CHARACTER VOICE`; EN-правок не потребовалось.
+- проверки после записи: `check_project.py` — `RESULT: OK`, 0 errors; Ren'Py syntax — OK; RU/EN typography — OK; omission precheck — 0 кандидатов; voice transcription check — OK.
+- осталось: source voice ID `10307` отсутствует в `transcriptions_ja_ru.csv`; требуется решение/восстановление человеком. Из-за этого S1 остаётся `PARTIAL`.
+
+## 2026-10-30 — S1 главы 6: закрытие сигнала voice ID 10307
+
+- статус: FALSE POSITIVE / DONE
+- место: `references/voice_id_map.csv`, `transcriptions_ja_ru.csv`, `game/chapters/6/script-ch6_1.rpy`
+- вопрос: прежняя пометка утверждала, что source voice ID `10307` отсутствует в очереди и блокирует S1.
+- расследование: строка `VOICE_ID.BIN_00002843.wav` (ID 10307) присутствует в CSV со статусом `Успешно`, но не используется S1. Реплика рынка S1 имеет source ID `10308`, manifest-пару `ch6_s_082,10308` и строку `VOICE_ID.BIN_00002844.wav`, помеченную `# USED ch6`.
+- решение/вариант: сигнал классифицирован как `FALSE POSITIVE`; CSV не изменялся, поскольку ID 10307 относится к другой, неиспользованной дорожке. S1 переводится в `DONE`.
+- где использовано: `reports/ch6/1.md`, `reports/translation_plan.md`, `reports/tasks/T20261030-045831-4ee7/S1.result.md`.
+
+## 2026-10-30 — Восстановление после обрыва S1 главы 6
+
+- статус: INFO
+- место: `game/chapters/6/script-ch6_1.rpy`, `reports/ch6/1.md`, задача `T20261030-045831-4ee7/S1`
+- вопрос: состояние первой части главы 6 после обрыва сессии.
+- решение/вариант: повторная проверка подтвердила отсутствие редакторских EN/RU правок: 237 voice-строк и 22 choices остаются placeholders; 5 безголосых source talk также не портированы. S1 остаётся `PARTIAL`; продолжать небольшими source-verified блоками, не считать omission precheck доказательством перевода и не переходить к следующей части.
+- где использовано: `reports/tasks/T20261030-045831-4ee7/S1.result.md`, `reports/ch6/1.md`, `reports/translation_plan.md`.
+
+## 2026-10-30 — S1 главы 6: первый редакторский блок
+
+- статус: INFO / PARTIAL
+- место: `game/chapters/6/script-ch6_1.rpy`, сцены 344–349
+- вопрос: продолжение перевода после восстановления сессии.
+- решение/вариант: по JA/events_full переведены и синхронизированы EN/RU и TL-пары для сцены 344, сцен 345–349 до следующего меню; добавлены 3 ранее пропущенные мысли Сайто. Проверки syntax, typography и `check_project.py` прошли; S1 остаётся открытой до перевода оставшихся 181 keys и добавления 2 безголосых source talk.
+- где использовано: `reports/ch6/1.md`, `reports/tasks/T20261030-045831-4ee7/S1.result.md`.
+
+## 2026-10-30 — S1 главы 6: редакторский перевод завершён
+
+- статус: INFO / PARTIAL
+- место: `game/chapters/6/script-ch6_1.rpy`, сцены 344–355 и extra 1429–1448
+- вопрос: продолжение перевода после восстановления сессии.
+- решение/вариант: EN/RU и TL-пары внесены для всех озвученных реплик и choices; добавлены три безголосые мысли Сайто в 344 и 1429, а также безголосая реплика Табиты в 353. Placeholder-маркеров больше нет. Финальный статус остаётся PARTIAL до аудитов, проверок и отдельного решения по voice ID 10307.
+- где использовано: `reports/ch6/1.md`, `reports/translation_plan.md`, `reports/tasks/T20261030-045831-4ee7/S1.result.md`.
+
+## 2026-10-30 — S1 главы 6: сцены 350–355
+
+- статус: INFO / PARTIAL
+- место: `game/chapters/6/script-ch6_1.rpy`, сцены 350–355
+- вопрос: продолжение перевода после первого проверенного блока.
+- решение/вариант: переведены ветки меню 350–352, сцена 353 с добавлением безголосой мысли Табиты, сцена 354 и утренний блок 355 до маршрутов. Осталось 119 provisional keys и мысль Сайто в extra 1429; проверки syntax, typography и `check_project.py` прошли.
+- где использовано: `reports/ch6/1.md`, `reports/tasks/T20261030-045831-4ee7/S1.result.md`.
+
+## 2026-10-30 — Глава 5 закрыта, начата глава 6
+
+- статус: INFO
+- место: `reports/translation_plan.md`, задачи `T20261021-222616-85f3` и `T20261030-045831-4ee7`
+- вопрос: проверка состояния после завершения всех частей главы 5 и переход к следующей главе.
+- решение/вариант: глава 5 закрыта на доске; `check_project.py` даёт `RESULT: OK` (0 errors, 298 warnings). Начата глава 6; S1 определяет первую часть по источнику и портирует её.
+- ограничения: незакоммиченные чужие scratch/precheck-артефакты сохранены; временные destinations сцены 343 главы 5 ожидают портирования глав 6+.
+- где использовано: `reports/translation_plan.md`, task board.
+
 ## 2026-10-30 — S11 локальные ветки
 
 - статус: INFO
@@ -7,6 +66,14 @@
 - вопрос: состояние переноса сцен 1105–1118
 - решение/вариант: локальные ветки Луизы, Сиесты и Кирхе перенесены по JA/events_full; общие продолжения 1108, 1113 и 1118 заведены. TL, voice manifest/audio и будущие destinations сцены 343 остаются незакрытыми.
 - где использовано: `reports/ch5/11.md`, `reports/tasks/T20261021-222616-85f3/S11.result.md`
+
+## 2026-10-30 — S1 главы 6: аудио закрыто, перевод отложен
+
+- статус: PARTIAL / DEFERRED
+- место: `game/chapters/6/script-ch6_1.rpy`, `game/tl/{japanese,russian}`, `reports/ch6/1.md`
+- вопрос: после структурного порта S1 требовались полный JA-grounded EN/RU перевод, аудио, транскрипции и проверки.
+- решение/вариант: 237 voice IDs проверены по `events_full`; 237 OGG конвертированы и `audio_converter check`/`check_project.py` проходят. 236 CSV-строк помечены `# USED ch6`; source ID 10307 в очереди не найден. EN/RU placeholders не маскировались под перевод, поэтому S1 остаётся `PARTIAL` до ручного редакторского прохода.
+- где использовано: `reports/ch6/1.md`, `reports/tasks/T20261030-045831-4ee7/S1.result.md`, `reports/translation_plan.md`.
 
 Общий журнал проекта. **Дополняется, не переписывается.** Сюда попадают:
 PROVISIONAL-решения (термины, обращения, формы), `RECONCILE` (расхождения EN ↔ RU при
@@ -3924,3 +3991,38 @@ errors=1 (E7 форвард `jump ch5_5`, ожидаемо); `check_typography.p
 2026-10-29 — S8 chapter 5: created partial `game/chapters/5/script-ch5_8.rpy` for scenes 1144–1153. Source/event order and 98 unique voice IDs verified; syntax check passed. TL entries, voice manifest/CSV marking, audio conversion and full project checks remain open. Provisional image mappings: 687, 689, 693, 733, 739, 734, 731, 737, 643, 651, 650, 649, 647, 638.
 - 2026-10-30 S9: добавлена часть главы 5 для сцен 1154–1163. JA сверено с chapters/events_full; 104 новых голосовых пар и USED markers, аудио конвертировано. `wav_source` отсутствовал, но `audio_converter` использовал доступные исходные дорожки/очередь и завершился `RESULT: OK`. Provisional IDs и внешний `ch5_10` зафиксированы в `reports/ch5/9.md`; semantic-аудит A/B/C не запускался.
 - 2026-10-30 S9 coverage recheck: обнаружение — шесть строк `th` были ошибочно размещены в `ch5_9_dialogs.rpy`; классификация ERROR (bucket не соответствует типу строки). Исправление — шесть пар перенесены в `ch5_9_thoughs.rpy` для JA/RU; существующие JA `new` не изменялись. Повторная сверка: 10/10 безголосых мыслей имеют ровно один old/new в каждом языке, duplicate old отсутствуют; 104/104 voice ID совпадают с events_full по порядку. `check_project` оставляет только 4 внешних E7 на отсутствующий `ch5_10` (2 в S7, 2 в S9). Полный semantic-аудит A/B/C не запускался.
+# 2026-10-30 — глава 6, часть 1
+
+- S1 классифицирована как `PARTIAL`: структурно портированы сцены 344–355 и extra 1429–1448; сцена 360 оставлена следующей части.
+- Сверка источника дала 237 озвученных реплик в выбранном полном ветвящемся объёме. Ранее указанное число 133 признано неполным предварительным подсчётом.
+- EN/RU строки в S1 временно помечены `PROVISIONAL`; требуется редакторский перевод JA → EN → RU. Это не считается завершённым переводом.
+- MAPDEST сцены 355 перенесён как четыре route-ветки: 1429, 1434, 1439, 1444. Extra labels возвращаются через общий переход `ch6_2`.
+- Неизвестные/неозвученные speakers в источнике сохранены как `unk`; персонажи customer/merchant/shopkeeper используют существующие defines.
+- 2026-10-30 S1 editorial pass: STATUS PARTIAL. Scope rechecked against full chapter 07 and events_full by exact voice ID. Found 237 provisional EN/RU voice rows, 22 provisional choices, and 5 unported voice-null talks (three Saito thoughts in scene 344, Tabitha `……` in 353, Saito thought in 1429). Translation endpoints returned HTTP 429; no automated output was accepted as editorial text. No commit, deletion, or task_board change.
+# 2026-10-30: chapter 6 part 2
+
+- `ch6_2` ported from chapter 07 scenes 360-374 using `chapters/` for order
+  and `events_full/` for exact voice IDs, choices, and gotos.
+- EN/RU keys are marked `PROVISIONAL`; editorial translation and semantic/RU
+  audit remain open. Classification `WARNING`, disposition `USER DECISION`.
+- Image IDs 38, 44, 43, 58, 60 remain source-derived `id(K)` placeholders;
+  no filename was invented. Classification `WARNING`, disposition
+  `PRESERVED — source-derived placeholder`.
+
+- 2026-10-30 S2 editorial pass: scenes 360–374 manually translated from
+  `ps2_source/chapters/chapter_07_家出のお姫さま.txt`. Replaced all 133
+  provisional voice lines and 9 choices in EN/RU; added 4 thought entries to
+  `thoughs.rpy`. Japanese `new` values were preserved exactly; no external
+  translation endpoint was used. Coverage recheck: 133/133 voices, 9/9 choices,
+  4/4 thoughts; `[PROVISIONAL EN]` count is zero. Local syntax and RU
+  typography checks pass. Semantic/Russian audits and image-map cleanup remain
+  open, so the part remains PARTIAL.
+- 2026-10-30 S2 audit pass: JA-grounded A, B-equivalent, and C evidence plus
+  Analyzer blind/evidence review completed in `reports/sma/ch6/2/`. One
+  CONFIRMED_ERROR was found in the second scene-370 thought: `素直な感情に
+  従ったルイズ` was incorrectly rendered as Saito following his own feelings.
+  Fixed EN/RU to make Louise the actor; JA `new` was not changed. Full RU
+  grammar control found 0 candidates requiring correction. Style audit found no
+  confirmed errors; intentional conversational repetition was preserved.
+  Image IDs 38, 44, 43, 58, 60 remain WARNING / PRESERVED — source-derived
+  placeholder; filenames were not invented. S2 result marker is DONE.

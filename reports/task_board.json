@@ -92,7 +92,7 @@
       "created": "2026-10-21 22:26:16",
       "request": "Продолжить перевод главы 5 (chapter_06, 本当の想い): хвост core 341-343 + extra 1104-1163 (ветки состава/дат) + 1870-1875 (меню дат). Часть 7 = сцена 341 + route-диспетчер + ветки 1134/1139.",
       "target": "5_7",
-      "status": "open",
+      "status": "closed",
       "subtasks": [
         {
           "id": "S1",
@@ -292,6 +292,87 @@
           "finished": "2026-10-30 03:24:24",
           "session": null,
           "note": "Финал главы 5.",
+          "evidence": [],
+          "manual": ""
+        }
+      ],
+      "closed": "2026-10-30 04:58:07"
+    },
+    {
+      "id": "T20261030-045831-4ee7",
+      "created": "2026-10-30 04:58:31",
+      "request": "Продолжить перевод главы 6 (chapter_07, 家出のお姫さま): разбор источника, нарезка по сильным границам и порт первой части",
+      "target": "6",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "first-launch",
+          "target": "6_1",
+          "scope": "part",
+          "title": "Разбор главы 6 и порт первой части",
+          "status": "done",
+          "created": "2026-10-30 04:59:11",
+          "started": "2026-10-30 05:01:22",
+          "finished": "2026-10-30 17:39:10",
+          "session": "ses_e7576bddaffe6jQ7GT0EyDkHvy",
+          "note": "",
+          "evidence": [
+            "reports/ch6/1.md",
+            "reports/sma/ch6/1/precheck/20261030-173847-p0a1.md",
+            "reports/check_project.md",
+            "reports/check_renpy_syntax.md",
+            "reports/check_voice_transcriptions.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S2",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "6_2",
+          "scope": "part",
+          "title": "Порт второй части главы 6: сцены 360–374",
+          "status": "done",
+          "created": "2026-10-30 17:44:31",
+          "started": "2026-10-30 18:10:20",
+          "finished": "2026-10-30 19:19:24",
+          "session": "ses_e72b87937ffeoFDcWKc3Fnisr6",
+          "note": "",
+          "evidence": [
+            "reports/ch6/2.md",
+            "reports/sma/ch6/2/analysis/20261030-120000.md",
+            "reports/check_renpy_syntax.md",
+            "reports/check_typography_ru_ch6.md",
+            "reports/check_placeholders.md",
+            "reports/voice_check.md"
+          ],
+          "manual": ""
+        }
+      ],
+      "closed": "2026-10-30 19:20:45"
+    },
+    {
+      "id": "T20261031-015233-a0c8",
+      "created": "2026-10-31 01:52:33",
+      "request": "Продолжить перевод главы 6: порт и перевод оставшихся extra-сцен chapter_07 после S1/S2",
+      "target": "6",
+      "status": "open",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "extra",
+          "scope": "part",
+          "title": "Порт extra-сцен 1164–1168 главы 6",
+          "status": "pending",
+          "created": "2026-10-31 01:53:08",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
           "evidence": [],
           "manual": ""
         }

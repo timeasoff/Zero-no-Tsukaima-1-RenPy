@@ -4,11 +4,26 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (0)
+## ERROR (16)
 
-- нет
+- E11 duplicate old in tl/japanese: ... (3 times) at game/tl/japanese/dialogs.rpy:471, game/tl/japanese/dialogs.rpy:17070, game/tl/japanese/dialogs.rpy:17379
+- E11 duplicate old in tl/japanese: Hm? (3 times) at game/tl/japanese/dialogs.rpy:9879, game/tl/japanese/dialogs.rpy:17019, game/tl/japanese/dialogs.rpy:17088
+- E11 duplicate old in tl/japanese: Huh? (3 times) at game/tl/japanese/dialogs.rpy:32, game/tl/japanese/dialogs.rpy:17034, game/tl/japanese/dialogs.rpy:17316
+- E11 duplicate old in tl/japanese: I see... (2 times) at game/tl/japanese/dialogs.rpy:2877, game/tl/japanese/dialogs.rpy:17235
+- E11 duplicate old in tl/japanese: I'm glad. (2 times) at game/tl/japanese/dialogs.rpy:1824, game/tl/japanese/dialogs.rpy:17016
+- E11 duplicate old in tl/japanese: Oh, is that so? (2 times) at game/tl/japanese/dialogs.rpy:3105, game/tl/japanese/dialogs.rpy:17367
+- E11 duplicate old in tl/japanese: Yes? (2 times) at game/tl/japanese/dialogs.rpy:792, game/tl/japanese/dialogs.rpy:17211
+- E11 duplicate old in tl/japanese: You think so? (2 times) at game/tl/japanese/dialogs.rpy:11925, game/tl/japanese/dialogs.rpy:17328
+- E11 duplicate old in tl/russian: ... (3 times) at game/tl/russian/dialogs.rpy:473, game/tl/russian/dialogs.rpy:16882, game/tl/russian/dialogs.rpy:17191
+- E11 duplicate old in tl/russian: Hm? (3 times) at game/tl/russian/dialogs.rpy:9885, game/tl/russian/dialogs.rpy:16831, game/tl/russian/dialogs.rpy:16900
+- E11 duplicate old in tl/russian: Huh? (3 times) at game/tl/russian/dialogs.rpy:32, game/tl/russian/dialogs.rpy:16846, game/tl/russian/dialogs.rpy:17128
+- E11 duplicate old in tl/russian: I see... (2 times) at game/tl/russian/dialogs.rpy:2882, game/tl/russian/dialogs.rpy:17047
+- E11 duplicate old in tl/russian: I'm glad. (2 times) at game/tl/russian/dialogs.rpy:1832, game/tl/russian/dialogs.rpy:16828
+- E11 duplicate old in tl/russian: Oh, is that so? (2 times) at game/tl/russian/dialogs.rpy:3110, game/tl/russian/dialogs.rpy:17179
+- E11 duplicate old in tl/russian: Yes? (2 times) at game/tl/russian/dialogs.rpy:794, game/tl/russian/dialogs.rpy:17023
+- E11 duplicate old in tl/russian: You think so? (2 times) at game/tl/russian/dialogs.rpy:11931, game/tl/russian/dialogs.rpy:17140
 
-## WARNING (298)
+## WARNING (309)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -308,13 +323,24 @@
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:35 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:167 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(38) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:7 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:69 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:86 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:107 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:128 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:139 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:195 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:208 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:221 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:242 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(60) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:265 (run tools/replace_bg_placeholders.py --apply)
 
 ## INFO (28)
 
 - speakers defined: 36
 - overlay K: max=11 used=11 next_free=12
-- voices: refs=5758 ogg=5770 missing=0
-- I1 ch6: not started (source talk=431)
+- voices: refs=6128 ogg=6140 missing=0
+- I1 ch6: strings=410 source_talk=431 (gap expected)
 - I1 ch7: not started (source talk=336)
 - I1 ch8: not started (source talk=378)
 - I1 ch9: not started (source talk=120)
@@ -337,6 +363,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=460 in 20 file(s)
-- labels=336 rpy=85 strings(strict=6598) tl_old=japanese:7088,russian:7115
+- image map: ids=312 named=148 open=164 | placeholders=475 in 21 file(s)
+- labels=383 rpy=87 strings(strict=6997) tl_old=japanese:7487,russian:7514
 
