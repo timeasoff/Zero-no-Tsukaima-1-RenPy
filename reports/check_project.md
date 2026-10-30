@@ -4,22 +4,11 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (12)
+## ERROR (0)
 
-- E7 jump 'ch5_11_date_tabitha' at game/chapters/5/script-ch5_10.rpy:55 has no label
-- E7 jump 'ch5_11_date_henrietta' at game/chapters/5/script-ch5_10.rpy:59 has no label
-- E7 jump 'ch5_11_date_haruna' at game/chapters/5/script-ch5_10.rpy:61 has no label
-- E7 jump 'ch5_11_date_louise_1105' at game/chapters/5/script-ch5_10.rpy:104 has no label
-- E7 jump 'ch5_11_date_louise_1106' at game/chapters/5/script-ch5_10.rpy:106 has no label
-- E7 jump 'ch5_11_date_louise_1107' at game/chapters/5/script-ch5_10.rpy:108 has no label
-- E7 jump 'ch5_11_date_siesta_1110' at game/chapters/5/script-ch5_10.rpy:167 has no label
-- E7 jump 'ch5_11_date_siesta_1111' at game/chapters/5/script-ch5_10.rpy:169 has no label
-- E7 jump 'ch5_11_date_siesta_1112' at game/chapters/5/script-ch5_10.rpy:171 has no label
-- E7 jump 'ch5_11_date_kirche_1115' at game/chapters/5/script-ch5_10.rpy:236 has no label
-- E7 jump 'ch5_11_date_kirche_1116' at game/chapters/5/script-ch5_10.rpy:238 has no label
-- E7 jump 'ch5_11_date_kirche_1117' at game/chapters/5/script-ch5_10.rpy:240 has no label
+- нет
 
-## WARNING (296)
+## WARNING (298)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -311,19 +300,20 @@
 - I1 ch2: 1468 script strings > 1382 source talk
 - I1 ch3: 1170 script strings > 1078 source talk
 - I1 ch4: 1143 script strings > 1072 source talk
+- I1 ch5: 1569 script strings > 1470 source talk
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:64 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:111 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_11.rpy:353 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:35 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:167 (run tools/replace_bg_placeholders.py --apply)
 
-## INFO (29)
+## INFO (28)
 
 - speakers defined: 36
 - overlay K: max=11 used=11 next_free=12
-- voices: refs=5581 ogg=5593 missing=0
-- I1 ch5: strings=1373 source_talk=1470 (gap expected)
+- voices: refs=5758 ogg=5770 missing=0
 - I1 ch6: not started (source talk=431)
 - I1 ch7: not started (source talk=336)
 - I1 ch8: not started (source talk=378)
@@ -347,6 +337,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=442 in 19 file(s)
-- labels=308 rpy=84 strings(strict=6402) tl_old=japanese:6892,russian:6919
+- image map: ids=312 named=148 open=164 | placeholders=460 in 20 file(s)
+- labels=336 rpy=85 strings(strict=6598) tl_old=japanese:7088,russian:7115
 

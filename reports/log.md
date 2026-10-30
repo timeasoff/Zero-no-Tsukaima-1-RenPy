@@ -1,5 +1,13 @@
 # Журнал решений (reports/log.md)
 
+## 2026-10-30 — S11 локальные ветки
+
+- статус: INFO
+- место: `game/chapters/5/script-ch5_11.rpy` / глава 5, часть 11
+- вопрос: состояние переноса сцен 1105–1118
+- решение/вариант: локальные ветки Луизы, Сиесты и Кирхе перенесены по JA/events_full; общие продолжения 1108, 1113 и 1118 заведены. TL, voice manifest/audio и будущие destinations сцены 343 остаются незакрытыми.
+- где использовано: `reports/ch5/11.md`, `reports/tasks/T20261021-222616-85f3/S11.result.md`
+
 Общий журнал проекта. **Дополняется, не переписывается.** Сюда попадают:
 PROVISIONAL-решения (термины, обращения, формы), `RECONCILE` (расхождения EN ↔ RU при
 обоих допустимых по JA вариантах), `OPEN`/`DEFERRED` (отложенные вопросы), `???`
@@ -17,7 +25,33 @@ PROVISIONAL-решения (термины, обращения, формы), `RE
 - где использовано: ...
 ```
 
+## 2026-10-30 — S11: TL, voice coverage и исправление voice 2810
+
+- статус: INFO / PROVISIONAL
+- место: `game/chapters/5/script-ch5_11.rpy`, `game/tl/{japanese,russian}/ch5_11_*`, `references/voice_id_map.csv`, `transcriptions_ja_ru.csv`
+- вопрос: завершение оставшихся TL/voice/audio и проверка omission после первичного PARTIAL.
+- решение/вариант: создано 196 TL-пар (177 dialogs, 10 thoughts, 9 choices) с точным `old`; добавлены 177 manifest pairs по voice id и `USED ch5.11`; 177 OGG сконвертированы. В scene 1115 две реплики Кирхе были слиты в EN: voice `2809`/`2810`; `2810` выделен отдельной строкой во всех слоях.
+- проверки: syntax OK; `check_project.py` RESULT: OK; omission S11 0; audio convert/check OK; assets/transcriptions OK. EN/RU typography имеют только ранее существующие предупреждения/ошибки главы 5, provisional image ids сохранены.
+- где использовано: `reports/ch5/11.md`, `reports/tasks/T20261021-222616-85f3/S11.result.md`.
+
+## 2026-10-30 — S11: временный граф сцены 343
+
+- статус: PROVISIONAL / OPEN
+- место: `game/chapters/5/script-ch5_11.rpy:362`
+- вопрос: destinations routes 1–6 ещё не имеют портированных labels.
+- решение/вариант: оставить `attention` для 670/549/903/771/344/431; фиктивные labels не создавать. После портирования глав 6+ заменить переходы на реальные labels.
+- где использовано: отчёт `reports/ch5/11.md`, result marker S11.
+
 ---
+
+## 2026-10-30 — Глава 5, часть 11: неполный черновик свиданий
+
+- статус: DEFERRED
+- место: `game/chapters/5/script-ch5_11.rpy`, `reports/ch5/11.md`
+- вопрос: первичный черновик содержит только частичные тела маршрутов, без TL и voice mapping; 9 локальных веток S10 направлены во временный `attention`; сцена 343 направляет все непортированные route destinations на `attention`.
+- решение/вариант: не считать S11 завершённой. Канонические назначения сцены 343 (routes 1–6 → 670/549/903/771/344/431) подтверждены в events_full; отсутствующие главы не получили фиктивных labels. Передать на продолжение: закончить построчный порт, TL/voices, ветки и проверки.
+- provisional ресурсы: backgrounds 43/53/54/57/90, CG 257/277; имена не подставлялись.
+- проверки: syntax OK; omission — 117 кандидатов; EN typography — 60 legacy errors + 2 warnings; RU typography — 3 legacy warnings; placeholders 148 warnings; assets 129 missing ogg; voice-transcription check 129 missing manifest pairs; project check `RESULT: ERRORS`.
 
 ## 2026-10-30 — Глава 5, часть 10: эпилог и меню дат
 
