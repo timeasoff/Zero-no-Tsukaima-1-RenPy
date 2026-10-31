@@ -29,3 +29,4 @@
 26,"-","item(...)","game/scripts/features/inventory.rpy","CHECK","сверить покрытие перед главой"
 27,"-","battle*, battleInit, battleEnemy","game/scripts/battle/*","CHECK","сверить покрытие перед главой"
 28,"-","waitAction, waitSEStop, waitLoad, sync, create, setZoom, setRotate, setAffineOrigin, swapLayers, screenShow","не переносятся","SKIP","решение: AGENTS.md §5"
+29,"-","TNDL       tndl(null) / tndl(30) / tndl(-30)","$ tndl(None) / $ tndl(30) / $ tndl(-30)","OK","только events_full (в chapters/*.txt нет); шкала zero_tundele 0..255, старт 127, null = сброс в 127; место: сразу после update_sympathy или якорной реплики той же ветки, null - после label chN; механика game/scripts/features/sympathy.rpy, канон tndl():2707; гейт date(): >=211 -> tndl_pick -> слот 0 = sp_l1, иначе fallthrough (2026-10-31, T20261031-154035-97bf)"

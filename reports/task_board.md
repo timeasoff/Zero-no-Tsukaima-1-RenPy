@@ -74,3 +74,33 @@
 | S4 | [x] done | `manual` | `extra` | Сборка routes.md |
 | S5 | [x] done | `manual` | `extra` | Развилки источника (гл.18-29, 90, 91) |
 
+## T20261031-054249-c81b — [closed] (закрыто 5 из 5)
+
+* Запрос: Канон-таблица симпатий по PS2-коду (гл.02-06) + сверка порта главы 1 + пересчёт max/min Луизы по графу JA
+* Цель: `1`
+* Создана: 2026-10-31 05:42:49
+* Закрыта: 2026-10-31 08:48:47
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `1` | Канон chapter_02 + сверка порта |
+| S2 | [x] done | `manual` | `1` | max/min по графу JA |
+| S3 | [x] done | `manual` | `1` | Канон глав 03-06 |
+| S4 | [x] done | `manual` | `1` | Сборка канона и правка кода |
+| S5 | [x] done | `manual` | `1` | Условие extra по коду |
+
+## T20261031-154035-97bf — [open] (закрыто 0 из 7)
+
+* Запрос: Проверка всех реализованных частей на устаревшие пометки tndl («система не реализована») и пропущенные tndl-вызовы vs канон JA (events_full глав 01-07); замена комментариев и вставка вызовов, ch6 — только отчёт (чужой WIP)
+* Создана: 2026-10-31 15:40:35
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [ ] pending | `manual` | `-` | Аудит покрытия tndl: каждое событие TNDL из ps2_source/events_full глав 01-07 сопоставить с портом (якорь: LIKE->update_sympathy или соседний talk -> voice_id_map -> voice-строка, позиция внутри той же ветки/menю); классификация каждого события PORTED / STALE-COMMENT / MISSING / NO-ANCHOR; сверка значений и знаков 51 устаревшего комментария с JA; контроль ch1 = 32/32; инвентарь ch6 (13 событий, вкл. 4x+40) БЕЗ правок - чужой WIP. Выход: reports/tasks/T20261031-154035-97bf/s1_tndl_audit.md + CSV-план вставок (source_line, char/anchor, значение, файл, статус) |
+| S2 | [ ] pending | `manual` | `-` | Правки по канону, главы 0 и 2: script-ch0.rpy - tndl(None) в начале главы (source chapter_01 line 6); script-ch2_1..8.rpy - tndl(None) после label ch2 + вставка всех tndl(+/-30) events_full chapter_03 по плану S1 (после соответствующего update_sympathy либо после якорной voice-строки в той же ветке) |
+| S3 | [ ] pending | `manual` | `-` | Правки главы 3: заменить 17 устаревших комментариев (ch3_3, ch3_6, ch3_7, ch3_8) на реальные tndl(...) со значением из JA events_full chapter_04, вставить пропущенные молча события, tndl(None) после label ch3 |
+| S4 | [ ] pending | `manual` | `-` | Правки главы 4: заменить 2 устаревших комментария (ch4_3) на реальные tndl(...) по JA chapter_05, вставить пропущенные молча события, tndl(None) после label ch4 |
+| S5 | [ ] pending | `manual` | `-` | Правки главы 5: заменить 32 устаревших комментария (ch5_1..ch5_6, включая tndl(null)) на реальные tndl(...) строго по значениям JA events_full chapter_06; сверка последовательности 21x-30 / 10x+30 / 1xnull |
+| S6 | [ ] pending | `manual` | `-` | Гейты date() перед дат-меню в ch2_6, ch3_8, ch4_6, ch5_10 по образцу ch1_10.rpy: if zero_tundele >= 211 -> zero_tndl_no = tndl_pick(zero_dele_event); слот 0 -> call sp_l1 с уникальным from + свой выход (fade/stop music -> продолжение после дат-меню этой главы), иначе fallthrough в portrait_choice; ветки <40 - fallthrough. Определить выход каждого гейта по структуре файла (что идёт после portrait_choice). Обязательно записать в reports/translation_plan.md планом следующую реализацию: порт extra-глав (chapter_90 тундэре-блок, дэре-слоты 1..5 chapter_91) |
+| S7 | [ ] pending | `manual` | `-` | Финал: строка TNDL в references/ps2_to_renpy.csv; обновить references/routes.md (статус tndl и гейтов в гл.2-5); reports/log.md (все решения цикла, ch6 tndl deferred - чужой WIP, date-гейты как решено); reports/translation_plan.md (маркировка затронутых частей + обязательный план extra-глав 90/91); отчёт reports/tndl_port_fix.md; check_renpy_syntax.py + check_project.py -> OK по моим файлам; git commit порции БЕЗ чужого WIP (game/chapters/6/*, game/tl/russian/thoughs.rpy) |
+

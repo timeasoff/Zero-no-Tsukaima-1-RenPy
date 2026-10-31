@@ -53,6 +53,7 @@ label l_room_ch2_5:
             ha "...No, you didn't say anything."
 
             $ update_sympathy(-10, char_key="haruna")
+            $ tndl(30)
 
             voice "ch2.5_s_118"
             s "R-right? Good, then."
@@ -237,6 +238,7 @@ label kirche_room_ch2_5:
 
             voice "ch2.5_k_027"
             k "I see... So that's what you think, Darling."
+            $ tndl(-30)
 
             voice "ch2.5_s_140"
             s "But Louise blows up out of nowhere all the time, right?"
@@ -268,6 +270,7 @@ label kirche_room_ch2_5:
 
             voice "ch2.5_s_143"
             s "She's also seemed oddly sullen since this morning. Maybe she wasn't feeling well?"
+            $ tndl(30)
 
             $ show_sprites(("s 3 sad", "k 3"))
 
@@ -429,6 +432,7 @@ label tabitha_room_ch2_5:
             t "……。{#ch2.5_t1292b}"
 
             $ update_sympathy(15, char_key="tabitha")
+            $ tndl(-30)
 
         "Why did you unlock the door?{#ch2.5_m1291b}":
             # ==== SCENE 1293 ====
@@ -479,6 +483,7 @@ label tabitha_room_ch2_5:
             t "...I don't.{#ch2.5_t15439}"
 
             $ update_sympathy(-15, char_key="tabitha")
+            $ tndl(30)
 
             $ show_sprites(("s 3", "t 3"))
 

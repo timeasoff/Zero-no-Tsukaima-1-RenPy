@@ -1,6 +1,7 @@
 # Глава 2, часть 1 (сцены 68–75): утро, состояние Харуны, предупреждение о бомбисте
 
 label ch2:
+    $ tndl(None)
     call overlay_screen("overlay",  "Chapter Two: 'The Black-Haired Visitor'", isUseBlur=False, text_mode="black") from _call_overlay_screen_7
     pause(2)
 
@@ -130,6 +131,7 @@ label ch2:
             l "U... no, that's not it. It's just that the room's population density was high, so I had a little trouble sleeping."
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             $ show_sprites(("l 4 shy", "si 1 sad"))
             voice "ch2_si_008"
@@ -178,6 +180,7 @@ label ch2:
             l "Why would I have to monitor every move of my familiar! And besides— Saito, were you planning to do something?"
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 4 angry", "s 6 sad"))
             voice "ch2_s_016"
@@ -405,6 +408,7 @@ label ch2:
             l "Hear people out, will you. Professor Colbert just said we shouldn't do anything reckless like that."
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 3 sad", "s 3 sad"))
             voice "ch2_s_032"
@@ -429,6 +433,7 @@ label ch2:
             $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch2_l_027"
             l "Huh?{#ssa}"
+            $ tndl(30)
 
             voice "ch2_s_035"
             s "You see, between this and that, I never had time to eat breakfast after I woke up. I'm hungry, you know."

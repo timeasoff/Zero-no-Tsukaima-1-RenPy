@@ -45,6 +45,7 @@ label ch2_2:
             l "Wait, what are you saying? A familiar skipping his master's class—do you think that's allowed?"
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             voice "ch2.2_s_003"
             s "Why not? If you look around, there are familiars who don't attend anyway."
@@ -67,6 +68,7 @@ label ch2_2:
             th "I've decided to leave it to Siesta, so I'll just quietly listen to class."
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             voice "ch2.2_s_005"
             s "...#dots"
@@ -281,6 +283,7 @@ label l_room_ch2_2:
             si "Hmm... is that so."
 
             $ update_sympathy(-10, char_key="siesta")
+            $ tndl(-30)
             $ update_sympathy(-10, char_key="louise")
 
 
@@ -442,6 +445,7 @@ label back_class_ch2_2:
             l "...Excuse me?"
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 1 angry", "s 1"))
             voice "ch2.2_s_047"
@@ -516,6 +520,7 @@ label back_class_ch2_2:
             l "H-heh. For you, that's a rather admirable attitude. I suppose I'll give you some credit."
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             $ show_sprites(("l 3 shy", "s 3 happy"))
             voice "ch2.2_s_057"

@@ -236,6 +236,7 @@ label ch2_4_room:
             l "...Really, it's nothing. There's no need to worry."
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             $ show_sprites(("l 1", "s 1"))
             voice "ch2.4_s_018"
@@ -285,6 +286,7 @@ label ch2_4_room:
             l "...Hmph.{#ch2.4_l_018}"
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             voice "ch2.4_ha_003"
             ha "I still feel a little sluggish, though... But I think I'm mostly okay now."
@@ -506,6 +508,7 @@ label ch2_4_dinner:
             l "Hah!? Wh-wh-why would it come to that!?"
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             $ show_sprites(("l 1 shy", "s 1"))
             voice "ch2.4_s_046"
@@ -534,6 +537,7 @@ label ch2_4_dinner:
             l "Hah!? Why would it come to that!?{#ch2.4_l_038}"
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             voice "ch2.4_s_049"
             s "Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all."

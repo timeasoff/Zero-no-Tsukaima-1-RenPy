@@ -208,7 +208,7 @@ label ch5_6:
                     k "Really now, darling. You could just say it honestly.{#ch5_6_v3004}"
                     # JA[3004]: もう、ダーリンったら。 / 素直に言ってもいいのよ。
                     $ update_sympathy(10, char_key="kirche")
-                    # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+                    $ tndl(-30)
                 "Was that so?{#ch5_6_c1411}":
                     # JA: そうだっけ？
                     # ==== SCENE 1411 ====
@@ -241,7 +241,7 @@ label ch5_6:
                     ha "Hiraga-kun, that's so mean~~!!{#ch5_6_v1952}"
                     # JA[1952]: 平賀くん、それヒドイよ～～！！
                     $ update_sympathy(-10, char_key="haruna")
-                    # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+                    $ tndl(30)
                     # [lay5 +429 → s 3 sad]
                     $ show_sprites(("ha 2 angry", "s 3 sad"))
                     voice "ch5.6_s_009"
@@ -362,7 +362,7 @@ label ch5_6:
                     l "Oh, Saito?{#ch5_6_v4993}"
                     # JA[4993]: あら、サイト？
                     $ update_sympathy(10, char_key="louise")
-                    # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+                    $ tndl(30)
                     voice "ch5.6_g_001"
                     g "W-what, is it you?{#ch5_6_v1443}"
                     # JA[1443]: な、なんだ、きみか？
@@ -466,7 +466,7 @@ label ch5_6:
                     l "Saito, what are you doing?{#ch5_6_v4996}"
                     # JA[4996]: サイト、何してるのよ？
                     $ update_sympathy(-10, char_key="louise")
-                    # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+                    $ tndl(-30)
                     # [lay1 hide]
                     $ show_sprites(("g 1 angry"))
                     # [lay4 hide]
@@ -630,8 +630,8 @@ label ch5_6:
                     $ show_sprites(("s 3 happy", "m 2"))
                     voice "ch5.6_s_023"
                     s "Then, next time, let me try Montmon's cooking.{#ch5_6_v9954}"
+                    $ tndl(-30)
                     # JA[9954]: じゃあ、こんどモンモンの手料理を / 食べさせてほしいな。
-                    # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
                     # [lay3 +867 → m 2 angry]
                     $ show_sprites(("s 3 happy", "m 2 angry"))
                     voice "ch5.6_m_003"
@@ -1025,7 +1025,7 @@ label ch5_6:
                     # JA[15468]: ……。
                     $ update_sympathy(15, char_key="tabitha")
                     $ update_sympathy(30, char_key="henrietta")
-                    # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+                    $ tndl(-30)
                     # [lay8 hide]
                     $ show_sprites(("t 5 shy"))
                     # [lay0 hide]

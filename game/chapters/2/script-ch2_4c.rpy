@@ -88,6 +88,7 @@ label yard_ch2_4:
 
             voice "ch2.5_k_008"
             k "My, how honest of you."
+            $ tndl(-30)
 
             $ show_sprites(("k 1 happy", "s 2 angry"))
             voice "ch2.5_s_060"
@@ -118,6 +119,7 @@ label yard_ch2_4:
             k "What's that supposed to mean?"
 
             $ update_sympathy(-10, char_key="kirche")
+            $ tndl(30)
 
             voice "ch2.5_s_063"
             s "Well, you're pretty strong among the mages I've met, Kirche. Wouldn't worrying about you be rude?"
@@ -215,6 +217,7 @@ label classroom_ch2_4:
             t "...I see.{#ch2.5_t15421}"
 
             $ update_sympathy(15, char_key="tabitha")
+            $ tndl(-30)
 
             $ show_sprites(("t 1", "s 4 sad"))
             voice "ch2.5_s_076"
@@ -279,6 +282,7 @@ label classroom_ch2_4:
             t "...I see.{#ch2.5_t15425}"
 
             $ update_sympathy(-15, char_key="tabitha")
+            $ tndl(30)
 
             voice "ch2.5_s_084"
             s "U-um."
@@ -404,6 +408,7 @@ label l_room_ch2_4:
             ha "Eh?{#ch2.5_h1857}"
 
             $ update_sympathy(10, char_key="haruna")
+            $ tndl(-30)
 
             voice "ch2.5_s_102"
             s "Those guys were after you, weren't they? I thought it'd be terrible if you were found."

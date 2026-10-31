@@ -77,6 +77,7 @@ label hallway_ch2_4:
             l "Wh-what, all of a sudden?"
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             voice "ch2.5_s_009"
             s "Even if no one else in this world knows, I know. So don't make that face."
@@ -103,6 +104,7 @@ label hallway_ch2_4:
             l "...You say that awfully casually."
 
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 3 angry", "s 4 sad"))
             voice "ch2.5_s_012"
@@ -275,6 +277,7 @@ label kitchen_ch2_4:
 
             voice "ch2.5_si_013"
             si "Oh my, Miss Vallière?"
+            $ tndl(-30)
 
             voice "ch2.5_s_035"
             s "That's right, she once again let her magic run wild. She blew a huge hole in the courtyard."
@@ -326,6 +329,7 @@ label kitchen_ch2_4:
             si "Is that so?{#ch2.5_si019}"
 
             $ update_sympathy(-10, char_key="siesta")
+            $ tndl(30)
 
             voice "ch2.5_s_042"
             s "I know a huge explosion happened outside, but unfortunately I didn't see what actually happened..."

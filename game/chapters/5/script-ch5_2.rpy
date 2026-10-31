@@ -204,7 +204,7 @@ label ch5_2:
             ha "Hiraga-kun…{#ch5_2_v2348}"
             # JA[2348]: 平賀くん……。
             $ update_sympathy(10, char_key="haruna")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
         "Take care of yourself.":
             # JA: 気をつけてな
             # ==== SCENE 287 ====
@@ -421,7 +421,7 @@ label ch5_2:
             k "Obviously we open it with unlocking magic."
             # JA[3253]: 開錠の魔法で開けるに決まってるじゃない。
             $ update_sympathy(10, char_key="kirche")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 +396 → s 1 sad]
             $ show_sprites(("k 1 happy", "s 1 sad"))
             voice "ch5.2_s_014"
@@ -476,7 +476,7 @@ label ch5_2:
             ha "Hiraga-kun, that's cruel. I know it's dangerous, but we can't just give up that easily…"
             # JA[2352]: 平賀くん、ひどいよ。 / 確かに危険なのは分かるけど、 / 簡単にあきらめられるはずがない……。
             $ update_sympathy(-10, char_key="haruna")
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(30)
             # [lay7 hide]
             $ show_sprites(("s 3 sad"))
             # [lay6 +678 → k 1 happy]

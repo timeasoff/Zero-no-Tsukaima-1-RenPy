@@ -2,6 +2,7 @@
 # коридор — разговор с Гишем. Титульная карточка: K=8.
 
 label ch3:
+    $ tndl(None)
     call overlay_screen("overlay",  "Chapter Three: 'A Woman's Battle'", isUseBlur=False, text_mode="black") from _call_overlay_screen_8
     pause(2)
 
@@ -155,6 +156,7 @@ label ch3:
             voice "ch3_l_004"
             l "Huh?{#ch3_l_004}"
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 4", "si 6 sad"))
             voice "ch3_si_004"
@@ -378,6 +380,7 @@ label ch3_141:
             $ show_sprites(("g 1", "s 1"))
             voice "ch3_g_013"
             g "I see. So you're putting your master first, as a familiar."
+            $ tndl(30)
 
             $ show_sprites(("g 1 happy", "s 1"))
             voice "ch3_g_014"
@@ -417,6 +420,7 @@ label ch3_141:
             $ show_sprites(("g 1 happy", "s 1"))
             voice "ch3_s_028"
             s "Haruna, maybe? We were classmates, so it'd be a lie to say she's not on my mind."
+            $ tndl(-30)
 
             voice "ch3_s_029"
             s "Then again, that's all it is— we're nothing like that."

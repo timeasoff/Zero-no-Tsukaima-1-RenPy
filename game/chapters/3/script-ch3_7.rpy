@@ -67,8 +67,8 @@ label ch3_7_193:
     voice "ch3.7_l_003"
     l "You idiot! Just stay out of it, Saito!"
 
-    # [好感度] ルイズ -10 (TNDL tndl(-30) не портируется)
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     # [lay5 +396]
     $ show_sprites(("s 1 sad", "l 3 angry"))
@@ -123,8 +123,8 @@ label ch3_7_194:
     voice "ch3.7_l_004"
     l "Honestly, you… If we go back to the root of it all, everything…"
 
-    # [好感度] ルイズ -10 (TNDL tndl(-30) не портируется)
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     # [lay1 +302]
     $ show_sprites(("s 1 angry", "l 1"))
@@ -390,8 +390,8 @@ label ch3_7_197:
             voice "ch3.7_ha_012"
             ha "I'm truly sorry."
 
-            # [好感度] ハルナ -10 (TNDL tndl(30) не портируется)
             $ update_sympathy(-10, char_key="haruna")
+            $ tndl(30)
 
             jump ch3_7_201
 
@@ -420,8 +420,8 @@ label ch3_7_197:
             voice "ch3.7_ha_014"
             ha "Hiraga-kun…{#ch3.7_ha_014}"
 
-            # [好感度] ハルナ +10 (TNDL tndl(-30) не портируется)
             $ update_sympathy(10, char_key="haruna")
+            $ tndl(-30)
 
             jump ch3_7_201
 

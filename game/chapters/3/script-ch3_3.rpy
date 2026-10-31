@@ -76,8 +76,8 @@ label hallway_ch3_3:
             voice "ch3.3_l_004"
             l "I don't care about that — I'm telling you not to follow me right now! Got it?"
 
-            # [好感度] ルイズ -10; tndl(-30) — не портируется (система не реализована)
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             # [lay5 +396]
             $ show_sprites(("l 1 angry", "s 1 sad"))
@@ -446,8 +446,8 @@ label classroom_ch3_3:
             voice "ch3.3_k_009"
             k "My, so Darling thought so too."
 
-            # [好感度] キュルケ +10; tndl(-30) — не портируется (система не реализована)
             $ update_sympathy(10, char_key="kirche")
+            $ tndl(-30)
 
             # [lay5 +396]
             $ show_sprites(("k 4 happy", "s 1 sad"))
@@ -531,8 +531,8 @@ label classroom_ch3_3:
             voice "ch3.3_k_013"
             k "Why would I be the cause? Darling or not, I'll get mad, you know?"
 
-            # [好感度] キュルケ -10; tndl(+30) — не портируется (система не реализована)
             $ update_sympathy(-10, char_key="kirche")
+            $ tndl(30)
 
             # [lay5 +423]
             $ show_sprites(("k 1 angry", "s 3"))
@@ -650,8 +650,8 @@ label courtyard_ch3_3:
 
             t "…{#ch3.3_t_v04}"
 
-            # [好感度] タバサ +15; tndl(-30) — не портируется (система не реализована)
             $ update_sympathy(15, char_key="tabitha")
+            $ tndl(-30)
 
             jump ch3_1316
 
@@ -670,8 +670,8 @@ label courtyard_ch3_3:
             voice "ch3.3_t_001"
             t "…Nope."
 
-            # [好感度] タバサ -15; tndl(+30) — не портируется (система не реализована)
             $ update_sympathy(-15, char_key="tabitha")
+            $ tndl(30)
 
             # [lay5 +429]
             $ show_sprites(("t 1 angry", "s 3 sad"))
@@ -853,8 +853,8 @@ label l_room_ch3_3:
 
             ha "…{#ch3.3_ha_v02}"
 
-            # [好感度] ハルナ +10; tndl(-30) — не портируется (система не реализована)
             $ update_sympathy(10, char_key="haruna")
+            $ tndl(-30)
 
             voice "ch3.3_s_077"
             s "You and I are from the same world, you know."
@@ -893,8 +893,8 @@ label l_room_ch3_3:
 
             ha "…{#ch3.3_ha_v06}"
 
-            # [好感度] ハルナ -10; tndl(+30) — не портируется (система не реализована)
             $ update_sympathy(-10, char_key="haruna")
+            $ tndl(30)
 
             # [lay5 +396]
             $ show_sprites(("ha 3 sad", "s 1 sad"))

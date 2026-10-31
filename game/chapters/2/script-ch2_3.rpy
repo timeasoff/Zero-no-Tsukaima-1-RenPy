@@ -103,6 +103,7 @@ label ch2_3:
             l "Ugh. That's true, but..."
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             voice "ch2.3_s_006"
             s "Then isn't this the place to hold back?"
@@ -147,6 +148,7 @@ label ch2_3:
             k "I don't really care about Louise's mood either way. But I don't mean to cause you trouble, darling."
 
             $ update_sympathy(10, char_key="kirche")
+            $ tndl(-30)
 
             voice "ch2.3_s_010"
             s "Well, thanks for that."
@@ -453,6 +455,7 @@ label ch2_3_after:
             l "Th-there's no need for you to worry about me. I'm fine, I'm not hurt."
 
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             $ show_sprites(("l 1 shy", "s 4"))
             voice "ch2.3_s_027"
@@ -481,6 +484,7 @@ label ch2_3_after:
             k "Aahn, darling was worried about me — I'm so moved!"
 
             $ update_sympathy(10, char_key="kirche")
+            $ tndl(-30)
 
             $ show_sprites(("k 4 shy", "s 4 shy"))
             voice "ch2.3_s_030"

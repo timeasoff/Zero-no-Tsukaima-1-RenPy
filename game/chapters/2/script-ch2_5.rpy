@@ -80,6 +80,7 @@ label ch2_5_chase:
     s "Haruna...{#ch2.5_s11176}"
 
     th "I'm worried about Louise. That idiot definitely misunderstood something, got in a huff, and blew up."
+    $ tndl(30)
 
     th "But... I can't leave Haruna all alone right now... can I?"
 
@@ -99,6 +100,7 @@ label ch2_5_stay:
     ha "Thank goodness..."
 
     $ update_sympathy(10, char_key="haruna")
+    $ tndl(-30)
 
     th "Ever since I came to this world, I haven't had a single acquaintance, or anyone willing to help me."
 

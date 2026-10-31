@@ -349,8 +349,8 @@
 - I1 ch4: 1143 script strings > 1072 source talk
 - I1 ch5: 1569 script strings > 1470 source talk
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:64 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:111 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:80 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:127 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_11.rpy:353 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_8.rpy:35 (run tools/replace_bg_placeholders.py --apply)

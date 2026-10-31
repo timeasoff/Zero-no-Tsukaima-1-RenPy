@@ -210,7 +210,7 @@ label ch5_3:
             l "No!{#ch5_3_v6214}"
             # JA[6214]: 駄目よ！
             $ update_sympathy(-10, char_key="louise")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 +427 → s 3 angry]
             $ show_sprites(("l 1 angry", "s 3 angry"))
             voice "ch5.3_s_009"
@@ -257,7 +257,7 @@ label ch5_3:
             k "Then it wouldn't be much fun, would it…"
             # JA[3263]: だったら、つまらないかなぁ……。
             $ update_sympathy(-10, char_key="kirche")
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(30)
             # [lay6 hide]
             $ show_sprites(("s 3 sad"))
 
@@ -657,7 +657,7 @@ label ch5_3:
             h "Ufufufu…{#ch5_3_v575}"
             # JA[575]: うふふ……。
             $ update_sympathy(30, char_key="henrietta")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             th "As I thought, she really is a friend of Louise, at least…{#ch5_3_th_016}"
             # JA: （やっぱり、この人はルイズの友達なだけは / 　あるよ……）
             # [SET        set("se1", {stop = 1})] — SE не портируется
@@ -687,7 +687,7 @@ label ch5_3:
             h "This is a s-e-c-r-e-t. So you understand!"
             # JA[577]: これは、ひ・み・つ。 / ですからね！
             $ update_sympathy(30, char_key="henrietta")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             voice "ch5.3_s_022"
             s "Y-yes!{#ch5_3_v11669}"
             # JA[11669]: は、はいっ！

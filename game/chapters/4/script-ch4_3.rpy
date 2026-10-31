@@ -17,7 +17,6 @@
 #   ряд в tl/japanese + tl/russian по old "???");
 #   пара имя↔id в манифесте остаётся ch4.3_si_001 (голос Сиесты).
 # SE (se1 +36 play/stop) — не портируются (AGENTS §6).
-# TNDL tndl(-30) в 237 — не переносится (система не реализована, AGENTS §6).
 # CG 122/124/125 (EVENT_CG) и 137/138, а также BG +123 — без имён файлов в
 #   image_id_map.csv → заглушки id(122)/id(124)/id(125)/id(137)/id(138)/id(123)
 #   (незарегистрированные сущности — в отчёте части).
@@ -280,8 +279,8 @@ label ch4_3_237:
     voice "ch4.3_l_012"
     l "…Hah!?"
 
-    # 【好感度】ルイズ -10; tndl(-30) — не портируется
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     # [lay1 hide][lay2 +497 (si 1 shy) dir=1A]
     $ show_sprites(("si 1 shy", "s 4 shy"))

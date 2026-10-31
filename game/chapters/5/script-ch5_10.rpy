@@ -47,6 +47,22 @@ label ch5_10:
     jump ch5_10_date_menu
 
 label ch5_10_date_menu:
+    # Дэре/тундэре-событие вместо даты — как date() (гейт-эталон script-ch1_10.rpy):
+    # zero_tundele >= 211 → getDeleScene() (chapter_91, дэре), слот tndl_pick();
+    # слот 0 дэре = кормёжка (sp_l1) → выход в общий постдат-диспетчер 343.
+    # Остальные дэре-слоты 1..5 и весь тундэре-блок (chapter_90, <40) не
+    # портированы → fallthrough в маршрутизацию по zero_route; порт extra-глав
+    # 90/91 — обязательный следующий шаг (reports/translation_plan.md).
+    if zero_tundele >= 211:
+        $ zero_tndl_no = tndl_pick(zero_dele_event)
+        if zero_tndl_no == 0:
+            $ zero_dele_event[0] += 1
+            $ zero_tundele_count += 1
+            call sp_l1 from _call_sp_l1_10
+            $ fade_fx("black")
+            stop music fadeout 1.0
+            jump ch5_11_scene_343
+
     if zero_route == 1:
         jump ch5_10_date_louise
     elif zero_route == 2:

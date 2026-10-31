@@ -99,6 +99,7 @@ label ch4_2b_siesta_1348:
 
     # 【好感度】シエスタ -10
     $ update_sympathy(-10, char_key="siesta")
+    $ tndl(30)
 
     # [lay5 +396 (s 1 sad)]
     $ show_sprites(("si 4 sad", "s 1 sad"))
@@ -134,6 +135,7 @@ label ch4_2b_siesta_1349:
 
     # 【好感度】シエスタ 10
     $ update_sympathy(10, char_key="siesta")
+    $ tndl(-30)
 
     # [lay5 +396 (s 1 sad)]
     $ show_sprites(("si 4 shy", "s 1 sad"))
@@ -309,6 +311,7 @@ label ch4_2b_kirche_1354:
 
     # 【好感度】キュルケ -10
     $ update_sympathy(-10, char_key="kirche")
+    $ tndl(30)
 
     # [lay5 +423 (s 3)]
     $ show_sprites(("k 4 sad", "s 3"))
@@ -335,6 +338,7 @@ label ch4_2b_kirche_1355:
 
     # 【好感度】キュルケ -10
     $ update_sympathy(-10, char_key="kirche")
+    $ tndl(30)
 
     # [lay5 +423 (s 3)]
     $ show_sprites(("k 4 sad", "s 3"))
@@ -454,6 +458,7 @@ label ch4_2b_tabitha_1358:
 
     # 【好感度】タバサ 15
     $ update_sympathy(15, char_key="tabitha")
+    $ tndl(-30)
 
     # [lay5 +429 (s 3 sad)]
     $ show_sprites(("t 1 happy", "s 3 sad"))
@@ -483,6 +488,7 @@ label ch4_2b_tabitha_1359:
 
     # 【好感度】タバサ -15
     $ update_sympathy(-15, char_key="tabitha")
+    $ tndl(30)
 
     # [lay19 +940 (d 1)][lay5 level=157][lay0 level=156] — level не копируется
     $ show_sprites(("t 1 sad", "s 3", "d 1"))
@@ -686,6 +692,7 @@ label ch4_2b_haruna_1363:
 
     # 【好感度】ハルナ 10
     $ update_sympathy(10, char_key="haruna")
+    $ tndl(-30)
 
     # [lay7 +962 (ha 2)]
     $ show_sprites(("ha 2", "s 3 shy"))

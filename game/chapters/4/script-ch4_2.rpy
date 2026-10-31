@@ -385,6 +385,7 @@ label ch4_2_l_1343:
 
     # 【好感度】ルイズ 20
     $ update_sympathy(20, char_key="louise")
+    $ tndl(30)
 
     # [lay5 +429 (s 3 sad)]
     $ show_sprites(("l 1 happy", "s 3 sad"))
@@ -449,6 +450,7 @@ label ch4_2_l_1345:
 
     # 【好感度】ルイズ -10
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     jump ch4_2_l_1346
 
@@ -685,6 +687,7 @@ label ch4_2_232:
 
     # 【好感度】ルイズ 10
     $ update_sympathy(10, char_key="louise")
+    $ tndl(30)
 
     # [lay1 hide][lay7 +968 (ha 2 sad) dir=1B]
     $ show_sprites(("s 4", "ha 2 sad"))
@@ -724,6 +727,7 @@ label ch4_2_233:
 
     # 【好感度】ルイズ -10
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     # [lay5 +440 (s 4 sad) dir=2B]
     $ show_sprites(("l 1 angry", "s 4 sad"))

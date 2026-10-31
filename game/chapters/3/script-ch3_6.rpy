@@ -148,8 +148,8 @@ label ch3_6:
             voice "ch3.6_k_006"
             k "And what if I did?"
 
-            # [好感度] キュルケ +10 (TNDL tndl(-30) не портируется)
             $ update_sympathy(10, char_key="kirche")
+            $ tndl(-30)
 
             # [lay5 +429]
             $ show_sprites(("s 3 sad", "k 1 shy"))
@@ -281,8 +281,8 @@ label ch3_6_187:
             voice "ch3.6_l_008"
             l "Saaaaito…"
 
-            # [好感度] ルイズ -10 (TNDL tndl(-30) не портируется)
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             voice "ch3.6_s_022"
             s "N-no, Louise — I answered objectively on behalf of men everywhere. It's not my personal opinion."
@@ -312,8 +312,8 @@ label ch3_6_187:
             voice "ch3.6_l_010"
             l "Grrr…"
 
-            # [好感度] ルイズ -10 (TNDL tndl(-30) не портируется)
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             voice "ch3.6_si_002"
             si "…{#ch3.6_si_v01}"

@@ -33,6 +33,7 @@ label ch3_5_169:
     l "...{#ch3.5_l_002}"
 
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     $ show_sprites(("s 1 angry", "si 1 sad"))
 
@@ -253,6 +254,7 @@ label ch3_5_174:
     l "Nobody said that!"
 
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     $ show_sprites(("s 1 sad", "l 1 angry"))
 
@@ -277,6 +279,7 @@ label ch3_5_175:
     l "W-worried about me?! Is that true?"
 
     $ update_sympathy(10, char_key="louise")
+    $ tndl(30)
 
     $ show_sprites(("s 1 sad", "l 3 shy"))
 
@@ -794,6 +797,7 @@ label ch3_5_1330:
 
     voice "ch3.5_s_054"
     s "Actually, Professor…I'm having a falling-out with some people."
+    $ tndl(-30)
 
     voice "ch3.5_c_009"
     c "I see. You've had it rough too, then."
@@ -887,6 +891,7 @@ label ch3_5_1334:
 
     voice "ch3.5_s_061"
     s "I wanted to consult her about something regarding Haruna."
+    $ tndl(-30)
 
     $ show_sprites(("m 1", "s 1"))
 
@@ -946,6 +951,7 @@ label ch3_5_1335:
 
     voice "ch3.5_s_067"
     s "I was just wondering where Louise might be, so I'm looking around."
+    $ tndl(30)
 
     $ show_sprites(("m 1", "s 1"))
 
@@ -1028,6 +1034,7 @@ label ch3_5_1338:
 
     voice "ch3.5_s_072"
     s "It's about Haruna—I wanted some advice…"
+    $ tndl(-30)
 
     $ show_sprites(("s 1", "g 1 sad"))
 
@@ -1084,6 +1091,7 @@ label ch3_5_1340:
 
     voice "ch3.5_s_076"
     s "Yeah, I just need her for something."
+    $ tndl(30)
 
     $ show_sprites(("s 3", "g 1"))
 

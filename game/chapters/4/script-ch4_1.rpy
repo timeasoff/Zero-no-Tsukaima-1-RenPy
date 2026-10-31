@@ -14,6 +14,7 @@
 # Спрайты: 13 кодов; +2 регистрации — 920 = o 1 happy, 926 = o 1 shy.
 
 label ch4:
+    $ tndl(None)
     call overlay_screen("overlay", "Chapter Four: 'Crisis in Tristania'", isUseBlur=False, text_mode="black") from _call_overlay_screen_9
     pause(2)
 
@@ -346,6 +347,7 @@ label ch4_1_220:
 
     # [好感度] ルイズ 10
     $ update_sympathy(10, char_key="louise")
+    $ tndl(30)
 
     jump ch4_1_223
 
@@ -396,6 +398,7 @@ label ch4_1_222:
 
     # [好感度] ルイズ -10
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     jump ch4_1_223
 

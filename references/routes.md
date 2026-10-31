@@ -110,15 +110,25 @@
   и `tndl_pick(events)` (`:615`, канон `getTunDeleScene():2485-2529` при restrict=false:
   event==0 → ×1, event==1 → ×4, event==2 → приоритет уровня, event≥3 → выбывает;
   возвращает слот 0..5 или `None`). Пороги `date()` `zero_tundele <40`/`≥211`
-  проверяются в `game/chapters/1/script-ch1_10.rpy:18` (`>= 211`, до `$ portrait_choice`),
-  инкремент `zero_tundele_count` — там же (`:22`, при показе extra-сцены);
-  `$ tndl(None)` — первая строка после `label ch1:` (`script-ch1_1.rpy:25`), в главе 1
-  добавлен **31** вызов `$ tndl(±30)` (всего `tndl`-строк в главе 1 — 32).
+  проверяются в **пяти** гейтах — перед каждым дат-меню портированных глав:
+  `ch1_10.rpy:18`, `ch2_6.rpy:228`, `ch3_8.rpy:415`, `ch4_6.rpy:665`,
+  `ch5_10.rpy:56` (все **до** `$ portrait_choice`/диспетчера дат; правка
+  2026-10-31, задача `T20261031-154035-97bf`); инкремент `zero_tundele_count` —
+  в каждой из пяти точек (канон `dateDone():2597` — `++` за каждый показ extra-сцены);
+  `$ tndl(None)` — первая строка после `label chN` каждой портированной главы
+  (`script-ch0.rpy:2`, `script-ch1_1.rpy:25`, `script-ch2_1.rpy:4`,
+  `script-ch3_1.rpy:5`, `script-ch4_1.rpy:17`, `script-ch5_1.rpy:41`);
+  вызовы `$ tndl(±30)` подключены **во всех портированных главах 0–5** (правка
+  2026-10-31): ch1 — 31, ch2 — 35, ch3 — 36, ch4 — 23, ch5 — 32, плюс
+  `tndl(None)` главы 0 = **127** вставок всего; распределения ±30/null каждой
+  главы = канон `events_full` глав 02–06, устаревшие комментарии
+  «система не реализована» удалены полностью (отчёт `reports/tndl_port_fix.md`).
 * **В порте пока нет:** `zero_kiss`; HUD/анимация шкалы тундэре (визуала нет);
-  тундэре-блок `chapter_90` и дэре-слоты 1..5 (в `ch1_10` при их выпадении —
-  fallthrough в обычную дату, см. §4.1/§4.2); `tndl(±30)` **в главах 2+** пока идёт
-  комментариями («не портируется, система не реализована», напр. `script-ch3_3.rpy:79`) —
-  механика подключена только в главе 1.
+  тундэре-блок `chapter_90` и дэре-слоты 1..5 — во всех пяти гейтах при их
+  выпадении — fallthrough в обычную дату (см. §4.1/§4.2; обязательный план
+  порта — `reports/translation_plan.md`, раздел «🔜 Следующая реализация»);
+  `tndl` главы 6 не вставлены — чужой WIP (инвентарь 13 событий в отчёте
+  `reports/tndl_port_fix.md`).
 
 ### 1.3 «25 или 10» — правда и ложь (вопрос закрыт 2026-10-31; ниже — история)
 
@@ -201,12 +211,14 @@
    порог 100 при каноне не набирается (в каноне пороговых проверок лайков и нет — §1.1).
    При весах порта **до правки** (`модуль = 20`): −80…+160 «сырьём», кламп даёт 100 →
    `== 100` достижимо. Скрипт и отчёт: `s2_graph_maxmin.py`, `s2_maxmin.md`.
-5. **Кто потребляет пороги (после правки 2026-10-31):** ровно **1 условие** extra-даты —
-   тундэре-метр `zero_tundele >= 211` (`game/chapters/1/script-ch1_10.rpy:18`, **до**
-   `$ portrait_choice`) → `tndl_pick(zero_dele_event)` → слот 0 → `call sp_l1 from
-   _call_sp_l1_6` → `fade black` → `jump ch2`. Бывшие **5** условий
-   `louise_sympathy == 100` (все в `ch1_10`) **удалены**. `−100` —
-   **не проверяется ничем** (0 условий из 45).
+5. **Кто потребляет пороги (после правки 2026-10-31):** **5 условий** extra-даты —
+   тундэре-метр `zero_tundele >= 211` в гейтах всех дат-меню глав 1–5: `ch1_10.rpy:18`
+   (**до** `$ portrait_choice`), `ch2_6.rpy:228`, `ch3_8.rpy:415`, `ch4_6.rpy:665`,
+   `ch5_10.rpy:56` → в каждом `tndl_pick(zero_dele_event)` → слот 0 → `call sp_l1
+   from _call_sp_l1_{6..10}` → `fade black` → выход гейта (`jump ch2`/`ch3`/`ch4`/
+   `ch5`/`ch5_11_scene_343`); иначе — fallthrough в обычную дату.
+   Бывшие **5** условий `louise_sympathy == 100` (все в `ch1_10`) **удалены**. `−100` —
+   **не проверяется ничем** (0 условий из 49).
 6. **Что в PS2 считалось «максимом»:** не значение шкалы, а `isMax()` («никто не больше»)
    при выборе рута в сцене 0341 и тундэре-метр `zero_tundele` (<40 / ≥211) в `date()`.
 
@@ -247,15 +259,17 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 ---
 
-## 2. Реестр условий потока в порте (всего 45)
+## 2. Реестр условий потока в порте (всего 49)
 
 Полный скан `game/**/*.rpy` (выгрузка `_port_conditions.txt`; реестр обновлён
 2026-10-31 после правки главы 1: 5 условий `louise_sympathy == 100` удалены,
-добавлено условие `zero_tundele >= 211` — итог 49 → 45):
+добавлено условие `zero_tundele >= 211` — итог 49 → 45; тем же днём гейт
+`zero_tundele >= 211` продублирован в дат-меню глав 2–5 — 4 новых условия,
+итог 45 → **49**, задача `T20261031-154035-97bf`):
 
 | группа | кол-во | где | что делает |
 |---|---|---|---|
-| тундэре-метр `zero_tundele >= 211` | **1** | `ch1_10.rpy:18` (до `$ portrait_choice` на `:28`) | `$ zero_tndl_no = tndl_pick(zero_dele_event)`; влож. `if zero_tndl_no == 0` → `$ zero_dele_event[0] += 1`, `$ zero_tundele_count += 1`, `call sp_l1 from _call_sp_l1_6` → `fade black` → `jump ch2`; слоты 1..5 → fallthrough в обычную дату (обговорка `zero_tundele < 40` — тундэре-блок `chapter_90` — не реализована, см. §4.1/§4.2) |
+| тундэре-метр `zero_tundele >= 211` | **5** | гейты дат-меню: `ch1_10.rpy:18` (до `$ portrait_choice` на `:28`), `ch2_6.rpy:228`, `ch3_8.rpy:415`, `ch4_6.rpy:665`, `ch5_10.rpy:56` (до диспетчера `zero_route`) | в каждой точке: `$ zero_tndl_no = tndl_pick(zero_dele_event)`; влож. `if zero_tndl_no == 0` → `$ zero_dele_event[0] += 1`, `$ zero_tundele_count += 1`, `call sp_l1 from _call_sp_l1_{6..10}` → `fade black` → `stop music` → выход (`jump ch2`/`ch3`/`ch4`/`ch5`/`ch5_11_scene_343`); слоты 1..5 и `<211`/`<40` → fallthrough в обычную дату (тундэре-блок `chapter_90` не реализован, см. §4.1/§4.2) |
 | диспетчер `zero_route` | 16 | `ch5_7.rpy:64–75`, `ch5_9.rpy:5–8`, `ch5_10.rpy:50–61`, `ch5_11.rpy:363–374` | см. §3 |
 | антиповтор локаций `if "..." not in *_visited` | 23 | `ch2_4.rpy:121–129` (5), `ch2_5.rpy:434–440` (4), `ch3_2.rpy:530–538` (5), `ch4_2.rpy:300–308` (5), `ch4_4.rpy:342–348` (4) | посещённая локация исключается из списка выбора |
 | UI/HUD (на сюжет не влияют) | 5 | `sf_effect.rpy:311`, `sympathy.rpy:161/304/378/413` | видимость иконки, «известные» персонажи |
@@ -329,8 +343,9 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 ### 4.1 `sp_l1` — единственное портированное экстра-событие
 
 * **Условие (после правки 2026-10-31):** тундэре-метр `zero_tundele >= 211` —
-  единственная точка вызова **до** `$ portrait_choice` в `ch1_10`
-  (`game/chapters/1/script-ch1_10.rpy:18`):
+  гейт **до** `$ portrait_choice`/диспетчера дат, установлен во **всех пяти**
+  дат-меню портированных глав (дополнительные точки — последний буллет).
+  Точка в `ch1_10` (`game/chapters/1/script-ch1_10.rpy:18`):
 
   * `:18` `if zero_tundele >= 211:` → `:19` `$ zero_tndl_no = tndl_pick(zero_dele_event)`;
   * `:20` `if zero_tndl_no == 0:` → `:21` `$ zero_dele_event[0] += 1`,
@@ -341,6 +356,14 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
   Слот выбирается `tndl_pick(zero_dele_event)` (`sympathy.rpy:615`); при нулевых
   событиях слот 0 выпадает с весом **1/6** (первый показ слота — равные веса).
+* **Гейты глав 2–5 (добавлены 2026-10-31, задача `T20261031-154035-97bf`):** та же
+  схема продублирована перед каждым дат-меню — `ch2_6.rpy:228` (call `:233`
+  `_call_sp_l1_7`, выход `jump ch3` `:236`), `ch3_8.rpy:415` (`:420` `_8`,
+  `jump ch4` `:423`), `ch4_6.rpy:665` (`:670` `_9`, `jump ch5` `:673`),
+  `ch5_10.rpy:56` (`:61` `_10`, `jump ch5_11_scene_343` `:64` — общий постдат-
+  диспетчер, в него стекаются все ветки дат главы 5). Выход каждого гейта =
+  путь после дат-меню этой главы; инкременты `zero_dele_event[0]` и
+  `zero_tundele_count` — во всех пяти гейтах (канон `dateDone():2597`).
 * **Пороги и вероятности (сошли расчётом S5b):** к дате `chapter_02` достижимы 18
   значений `zero_tundele` из 0…255; `>=211` даёт **9,56 %** путей (минимум 4 позитивных
   `tndl` на пути — инвариант `npos+nneg>=4` из 4 безальтернативных меню);
@@ -373,21 +396,28 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 * Источник: `chapter_90` и `chapter_91` — по **164 сцены**, по 36 меню × 3 варианта,
   регулярная структура блоков `entry → G..G+2 → G+3(меню) → G+4..G+6 → G+7(COFFEE+tndlEnd)`,
   `G = 1553 / 1717 + 8k` (подробности — §7 этого файла).
-* **Статус порта (обновлено 2026-10-31):**
-  * шкала и вызовы **реализованы для главы 1**: `zero_tundele` (старт 127, кламп 0…255),
+* **Статус порта (обновлено 2026-10-31, задача `T20261031-154035-97bf`):**
+  * шкала и вызовы **реализованы для глав 0–5**: `zero_tundele` (старт 127, кламп 0…255),
     `zero_tundele_count`, слоты `zero_tun_event`/`zero_dele_event`, `tndl()`,
-    `tndl_pick()`, пороги `<40`/`>=211` в `ch1_10` (§1.2, §4.1);
+    `tndl_pick()`; вызовы `$ tndl(None)`/`$ tndl(±30)` подключены во **всех**
+    портированных главах (127 вставок, значения = канон `events_full`,
+    устаревшие комментарии удалены — §1.2, отчёт `reports/tndl_port_fix.md`);
+  * пороги `<40`/`>=211` — гейтами **перед каждым дат-меню глав 1–5**
+    (`ch1_10:18`, `ch2_6:228`, `ch3_8:415`, `ch4_6:665`, `ch5_10:56`; §1.2, §4.1);
   * **дэре-слот 0** (кормёжка, сцена 1699 = `sp_l1`) **портирован** —
-    `ch1_10.rpy:18–26`;
+    `ch1_10.rpy:18–26` + четыре копии гейта в главах 2–5;
   * **тундэре-блок главы 90** (ошейник «バカ犬に首輪», `chapter_90:181–208`; слот 0 =
-    сцены 1535–1537) — **в плане на портирование** (решение пользователя 2026-10-31);
-    в `ch1_10` он пока не реализован — при `zero_tundele < 40` дата идёт обычной
-    линией (комментарий в коде);
-  * **слоты 1..5 обеих глав** не портированы → в `ch1_10` при их выпадении —
+    сцены 1535–1537) — **в плане на портирование** (решение пользователя 2026-10-31,
+    обязательный план — `reports/translation_plan.md`, раздел «🔜 Следующая
+    реализация»); в гейтах он пока не реализован — при `zero_tundele < 40` дата
+    идёт обычной линией (комментарий в коде каждого гейта);
+  * **слоты 1..5 обеих глав** не портированы → во всех пяти гейтах при их выпадении —
     fallthrough в обычное дат-меню;
   * HUD/анимация шкалы тундэре не реализована (визуала нет).
   Ранее действовало: `AGENTS.md` §6 — `TNDL`-вызовы пропускаются с пометкой в отчёте
-  части (для глав 2+ остаётся в силе: там `tndl(±30)` идёт комментариями).
+  части; с правкой 2026-10-31 это **утратило силу для глав 0–5** (вызовы вставлены по
+  канону `events_full`), для главы 6 решение не применялось (чужой WIP — инвентарь
+  событий в отчёте `reports/tndl_port_fix.md`).
   Единственное отдельное событие, вынесенное в `chapters/extra/`, — `sp_l1`.
   Маппизация 90/91 (какая глава — тундэре, какая — дэре) — **PROVISIONAL**, см. §8 п. 10.
 
@@ -400,7 +430,9 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 на момент S2; **после правки главы 1 от 2026-10-31 — 166**: `menu` 104, `date` 33,
 `if` 11, `route` 5, `sprite_choice` 7, `portrait_choice` 4, `extra` 1, `jump` 1;
 удалены 5 route-строк по условию `louise_sympathy` = 100 и 5 строк точек вызова `sp_l1`,
-добавлены 1 route-строка `zero_tundele >= 211` и 1 строка точки вызова `sp_l1`).
+добавлены 1 route-строка `zero_tundele >= 211` и 1 строка точки вызова `sp_l1`;
+та же дата, задача `T20261031-154035-97bf`: **+4 route-строки (гейты `date()`
+глав 2–5) → 170** (`route` 9), точек вызова `sp_l1` — 5).
 
 Дата: 2026-10-31. Задача S2 (промпт: `reports/tasks/prompts/T20261031-033403-0df1_S2.md`). Область: `game/chapters/0..6/*.rpy`, `game/chapters/extra/*.rpy`. Инвентаризация S2 — только чтением; строки разделов **«Главная 1»** и **«Extra»** обновлены по коду 2026-10-31 после правки симпатий главы 1 (задача `T20261031-054249-c81b`, §1.3/§4.1) — номера строк и значения приведены к текущему коду; остальные главы — по S2.
 
@@ -461,6 +493,10 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 | game/chapters/1/script-ch1_9.rpy:83 | ch1_9 > menu | menu | нет | 1. Come on, can't something be done about … → далее (после меню)<br>2. Don't say such awful things! → далее (после меню) | 1: +10@louise, tndl+30<br>2: -10@louise, tndl-30 | скрытых условий у опций нет |
 | game/chapters/1/script-ch1_9.rpy:267 | ch1_9 > menu | menu | нет | 1. Isn't it possible that we overlooked so… → далее (после меню)<br>2. Was it by chance that she came to this … → далее (после меню) | 1: нет<br>2: нет | скрытых условий у опций нет |
 | game/chapters/1/script-ch1_10.rpy:18 | ch1_10 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch1_10:23) → jump ch2 (ch1_10:26)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → portrait_choice | 1: нет (до вызова)<br>2: нет | слот 0 дэре = кормёжка (sp_l1); инкременты zero_dele_event[0] и zero_tundele_count (ch1_10:21–22); тундэре-блок (ошейник, <40) и слоты 1..5 не портированы → fallthrough (см. §4.1/§4.2); заменило удалённое условие по шкале Луизы = 100 (правка 2026-10-31) |
+| game/chapters/2/script-ch2_6.rpy:228 | ch2_6_morning > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch2_6:233) → jump ch3 (ch2_6:236)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → portrait_choice | 1: нет (до вызова)<br>2: нет | слот 0 дэре = кормёжка (sp_l1); инкременты zero_dele_event[0]/zero_tundele_count (ch2_6:231–232); тундэре-блок (<40) и слоты 1..5 не портированы → fallthrough (§4.1/§4.2); гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
+| game/chapters/3/script-ch3_8.rpy:415 | ch3_8 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch3_8:420) → jump ch4 (ch3_8:423)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → portrait_choice | 1: нет (до вызова)<br>2: нет | то же, что ch2_6; инкременты (ch3_8:418–419); гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
+| game/chapters/4/script-ch4_6.rpy:665 | ch4_6 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch4_6:670) → jump ch5 (ch4_6:673)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → portrait_choice (4 персонажа) | 1: нет (до вызова)<br>2: нет | то же, что ch2_6; инкременты (ch4_6:668–669); гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
+| game/chapters/5/script-ch5_10.rpy:56 | ch5_10_date_menu > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch5_10:61) → jump ch5_11_scene_343 (ch5_10:64)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → if zero_route (диспетчер дат) | 1: нет (до вызова)<br>2: нет | то же, что ch2_6; инкременты (ch5_10:59–60); выход = общий постдат-диспетчер 343; гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
 | game/chapters/1/script-ch1_10.rpy:28 | ch1_10 > portrait_choice | portrait_choice | нет | 1. Go on a date with Louise (louise) → date_louise_1<br>2. Go on a date with Siesta (siesta) → date_siesta_1<br>3. Go on a date with Tabitha (tabitha) → date_tabitha_1<br>4. Go on a date with Kirche (kirche) → date_kirche_1<br>5. Go on a date with Haruna (haruna) → date_haruna_1 | нет | инлайн-список dict{char,text,target}; цели достигаются renpy.call(target) (game/scripts/features/portrait_choises.rpy:218–220); условная симпатия целей — в строках их label/if |
 | game/chapters/1/script-ch1_10.rpy:91 | date_louise_1 > menu | date | нет | 1. You look really beautiful. → далее (после меню)<br>2. I don't really get it. → далее (после меню)<br>3. You don't seem like Louise. → далее (после меню) | вход: +20@louise (с. 51)<br>1: +10@louise<br>2: -10@louise<br>3: нет | скрытых условий у опций нет; значения канонические (правка 2026-10-31) |
 | game/chapters/1/script-ch1_10.rpy:237 | date_siesta_1 > menu | date | нет | 1. You'll make an excellent wife. → далее (после меню)<br>2. Is that delicious? → далее (после меню)<br>3. So you're a thrifty person. → далее (после меню) | вход: +20@siesta (с. 192)<br>1: +10@siesta<br>2: нет<br>3: -10@siesta | скрытых условий у опций нет; значения канонические (правка 2026-10-31) |
@@ -488,6 +524,10 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 - `game/chapters/1/script-ch1_10.rpy:26` (`ch1_10`, ветка тундэре/дэре-события) → **jump** `ch2` → `game/chapters/2/script-ch2_1.rpy:3`
 - `game/chapters/1/script-ch1_10.rpy:38` (`ch1_10`, после `portrait_choice`) → **jump** `ch2` → `game/chapters/2/script-ch2_1.rpy:3`
+- `game/chapters/2/script-ch2_6.rpy:236` (`ch2_6_morning`, ветка гейта `date()`) → **jump** `ch3` → `game/chapters/3/script-ch3_1.rpy:4`
+- `game/chapters/3/script-ch3_8.rpy:423` (`ch3_8`, ветка гейта `date()`) → **jump** `ch4` → `game/chapters/4/script-ch4_1.rpy:16`
+- `game/chapters/4/script-ch4_6.rpy:673` (`ch4_6`, ветка гейта `date()`) → **jump** `ch5` → `game/chapters/5/script-ch5_1.rpy:40`
+- `game/chapters/5/script-ch5_10.rpy:64` (`ch5_10_date_menu`, ветка гейта `date()`) → **jump** `ch5_11_scene_343` → `game/chapters/5/script-ch5_11.rpy:362` (внутриглавный, постдат-диспетчер)
 
 Вызываемые чужие/helper-лейблы (`call`):
 
@@ -798,15 +838,19 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 ### Точки вызова sp_l1 (все способы вызова)
 
-В проекте `sp_l1` вызывается только через `call sp_l1 from _call_sp_l1_N`; `jump sp_l1` и ссылок из других мест нет (проверено по всем `game/**/*.rpy` и `references/`). После правки 2026-10-31 осталась **1 точка вызова** — `game/chapters/1/script-ch1_10.rpy:23`, в ветке слота 0 дэре (`if zero_tundele >= 211` → `tndl_pick(zero_dele_event)` → `if zero_tndl_no == 0`); прежние 5 точек по условию `louise_sympathy` = 100 удалены (см. §4.1):
+В проекте `sp_l1` вызывается только через `call sp_l1 from _call_sp_l1_N`; `jump sp_l1` и ссылок из других мест нет (проверено по всем `game/**/*.rpy` и `references/`). После правки 2026-10-31 осталась **1** точка (`ch1_10`); после добавления гейтов `date()` в главах 2–5 (задача `T20261031-154035-97bf`) — **5 точек вызова**, все — в ветке слота 0 дэре (`if zero_tundele >= 211` → `tndl_pick(zero_dele_event)` → `if zero_tndl_no == 0`); прежние 5 точек по условию `louise_sympathy` = 100 удалены (см. §4.1):
 
 | файл:строка | лейбл/блок | тип | условие | варианты → цели | симпатия на ветках | примечание |
 |---|---|---|---|---|---|---|
 | game/chapters/1/script-ch1_10.rpy:23 | ch1_10 > ветка слота 0 дэре | extra | влож. в `if zero_tundele >= 211`: `if zero_tndl_no == 0` | ветка слота 0 → call `sp_l1` (`game/chapters/extra/sp_l1.rpy:2`) → `fade black` → `jump ch2` (`ch1_10:26`) | нет (до вызова) | заменило 5 удалённых точек по условию `louise_sympathy` = 100 (правка 2026-10-31); маршрутная раскладка — строка route `ch1_10:18`; инкременты `zero_dele_event[0]`/`zero_tundele_count` (`ch1_10:21–22`) |
+| game/chapters/2/script-ch2_6.rpy:233 | ch2_6_morning > ветка слота 0 дэре | extra | влож. в `if zero_tundele >= 211`: `if zero_tndl_no == 0` | ветка слота 0 → call `sp_l1` → `fade black` → `stop music` → `jump ch3` (`ch2_6:236`) | нет (до вызова) | `from _call_sp_l1_7`; инкременты `ch2_6:231–232`; строка route `ch2_6:228` (гейт добавлен 2026-10-31) |
+| game/chapters/3/script-ch3_8.rpy:420 | ch3_8 > ветка слота 0 дэре | extra | влож. в `if zero_tundele >= 211`: `if zero_tndl_no == 0` | ветка слота 0 → call `sp_l1` → `fade black` → `stop music` → `jump ch4` (`ch3_8:423`) | нет (до вызова) | `from _call_sp_l1_8`; инкременты `ch3_8:418–419`; строка route `ch3_8:415` (гейт добавлен 2026-10-31) |
+| game/chapters/4/script-ch4_6.rpy:670 | ch4_6 > ветка слота 0 дэре | extra | влож. в `if zero_tundele >= 211`: `if zero_tndl_no == 0` | ветка слота 0 → call `sp_l1` → `fade black` → `stop music` → `jump ch5` (`ch4_6:673`) | нет (до вызова) | `from _call_sp_l1_9`; инкременты `ch4_6:668–669`; строка route `ch4_6:665` (гейт добавлен 2026-10-31) |
+| game/chapters/5/script-ch5_10.rpy:61 | ch5_10_date_menu > ветка слота 0 дэре | extra | влож. в `if zero_tundele >= 211`: `if zero_tndl_no == 0` | ветка слота 0 → call `sp_l1` → `fade black` → `stop music` → `jump ch5_11_scene_343` (`ch5_10:64`) | нет (до вызова) | `from _call_sp_l1_10`; инкременты `ch5_10:59–60`; строка route `ch5_10:56` (гейт добавлен 2026-10-31) |
 
 ### Связность
 
-Вход: единственная точка — `call sp_l1 from _call_sp_l1_6` (`game/chapters/1/script-ch1_10.rpy:23`, таблица выше). Выход из extra-сцены: явный `return` на строке 283 — замечание Z7 устранено (правка 2026-10-31).
+Вход: **5 точек вызова** — `call sp_l1 from _call_sp_l1_{6..10}` (`ch1_10:23`, `ch2_6:233`, `ch3_8:420`, `ch4_6:670`, `ch5_10:61`, таблица выше). Выход из extra-сцены: явный `return` на строке 283 — замечание Z7 устранено (правка 2026-10-31).
 
 Внешние вызовы из extra:
 
@@ -841,7 +885,7 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 ## 5.10 Проверки
 
-Примечание (2026-10-31): пункты 1–7 ниже отражают состояние на момент задачи S2, **до правки главы 1** (см. §1.3/§4.1). Актуально: условий `if louise_sympathy == 100` в коде нет (заменено на `zero_tundele >= 211`), точек вызова `sp_l1` — 1, инвентарь §5 — 166 строк (`route` 5, `extra` 1).
+Примечание (2026-10-31): пункты 1–7 ниже отражают состояние на момент задачи S2, **до правки главы 1** (см. §1.3/§4.1). Актуально: условий `if louise_sympathy == 100` в коде нет (заменено на `zero_tundele >= 211`), точек вызова `sp_l1` — 5 (гейты глав 1–5), инвентарь §5 — 170 строк (`route` 9, `extra` 1).
 
 1. **Синтаксис Ren'Py**: прогнан `python tools/check_renpy_syntax.py --chapter N` для N = 0, 1, 2, 3, 4, 5, 6 — все 7 запусков → код возврата 0; `reports/check_renpy_syntax.md` (2026-10-31 04:32): «OK — проблем не найдено.»
 2. **Факт по заданию — `if louise_sympathy == 100`**: ровно **5** (программный подсчёт): `game/chapters/1/script-ch1_10.rpy:25`, `game/chapters/1/script-ch1_10.rpy:174`, `game/chapters/1/script-ch1_10.rpy:329`, `game/chapters/1/script-ch1_10.rpy:567`, `game/chapters/1/script-ch1_10.rpy:794`. Все — `route`-строки в `script-ch1_10.rpy`, каждая с веткой `call sp_l1` + `else`.
@@ -2661,11 +2705,11 @@ likeNameMap:  ルイズ=0, キュルケ=1, タバサ=2, シエスタ=3, アン�
 |---|---|---|---|---|
 | 1 | **Шаг симпатии в главе 1: везде `±20` вместо значений источника** (правило «знак сохраняется, модуль = 20»: `±10→±20` ×39 — удвоение, `+20→+20` ×8 — совпадение, `±15→±20` и `+30→+20` ×7 — подгонка/урезание) + 19 вызовов Луизы, которых нет в JA | ERROR (подтверждено) | **FIXED** — правка кода главы 1 выполнена 2026-10-31: все 54 симпатии приведены к канону `references/sympathy_canon.csv` (54/54), EXTRA-вызовы Луизы удалены, добавлен 31 вызов `$ tndl(±30)` (отчёт `reports/ch1_sympathy_fix.md`) | `reports/log.md` («2026-10-02 — расхождение симпатии с источником»); §1.3, §1.5 |
 | 2 | **Достижимость `louise_sympathy == 100`**: при шаге ±20 — достижимо (22 738 путей), при каноническом ±10 — максимум главы 1 = +90, `sp_l1` не сыграет | CANDIDATE (**числа доказаны** S2: канон max +90 / min −40, порт −80…+160, два метода сходятся) | **FIXED** — условие заменено в правке 2026-10-31 на диспетчер `zero_tundele >= 211` (`ch1_10:18`); лайк-эквивалента «100» нет, точность прежнего порога 0.44 (расчёт §4.1) | `s2_maxmin.md`; §1.3, §1.4, §4.1 |
-| 3 | `sp_l1.rpy` заканчивается `:283 show_sprites(...)` — ни `return`, ни `jump` при `call` ×5 | CANDIDATE | **FIXED** — добавлен `return` (строка 283; файл 285 строк), 2026-10-31; точек вызова теперь 1 (`ch1_10:23`) | `game/chapters/extra/sp_l1.rpy:2/283`; §4.1 |
+| 3 | `sp_l1.rpy` заканчивается `:283 show_sprites(...)` — ни `return`, ни `jump` при `call` ×5 | CANDIDATE | **FIXED** — добавлен `return` (строка 283; файл 285 строк), 2026-10-31; точек вызова сейчас 5 (`ch1_10:23` + гейты глав 2–5: `ch2_6:233`, `ch3_8:420`, `ch4_6:670`, `ch5_10:61`) | `game/chapters/extra/sp_l1.rpy:2/283`; §4.1 |
 | 4 | docstring `sympathy.rpy` (`compute_zero_route()`) ссылается на запись в `reports/log.md` про опущенную оговорку `zero_tundele_count >= 4`, но записи не было; сам счётчик реализован (`sympathy.rpy`, `ch1_10`) | OBSERVATION | **FIXED** (2026-10-31): запись в `reports/log.md` добавлена (правка кода главы 1), docstring приведён в соответствие; сама оговорка `>= 4 → route=1` остаётся OPEN (см. №7) | §1.2, §3.2 |
 | 5 | `ch5_11_scene_343` (`ch5_11.rpy:363–374`): все 6 веток `zero_route` ведут в `jump attention`, т.к. рутовые главы не портированы | уже классифицировано | **PROVISIONAL / OPEN** | `reports/log.md:104–110`; §3.2 |
 | 6 | Мёртвый код `checkRoute()` PS2 (повторный `count >= 4` внутри `else`) | OBSERVATION | **PRESERVED — JA** (канон не правится) | `SCENE_0003.txt:2933–2934` |
-| 7 | Тундэре/дэре-механика PS2 (`zero_tundele` 0…255, `zero_tundele_count`, `zero_kiss`, пороги `date()` <40/≥211) в порте была не реализована; `tndl(±30)` шёл комментариями | OBSERVATION (**частично устранено** 2026-10-31) | **FIXED для главы 1**: тундэре-метр и `$ tndl(±30)` подключены (31 вызов), счётчик `zero_tundele_count` реализован, порог потока — `zero_tundele >= 211` (слот 0 дэре, §4.1). **OPEN** — остаётся: `zero_kiss`, визуал (ошейник), главы 2+, тундэре-блок главы 90 (`<40`), дэре-слоты 1..5 | §1.1, §1.2, §4.2 |
+| 7 | Тундэре/дэре-механика PS2 (`zero_tundele` 0…255, `zero_tundele_count`, `zero_kiss`, пороги `date()` <40/≥211) в порте была не реализована; `tndl(±30)` шёл комментариями | OBSERVATION (**устранено для глав 0–5** 2026-10-31) | **FIXED для глав 0–5**: тундэре-метр и `$ tndl(±30)` подключены (127 вставок по канону `events_full`, задача `T20261031-154035-97bf`), счётчик `zero_tundele_count` реализован, гейты `zero_tundele >= 211` стоят **перед всеми дат-меню глав 1–5** (слот 0 дэре, §4.1). **OPEN** — остаётся: `zero_kiss`, визуал (ошейник), глава 6 (чужой WIP — инвентарь `reports/tndl_port_fix.md`), тундэре-блок главы 90 (`<40`), дэре-слоты 1..5 | §1.1, §1.2, §4.2 |
 | 8 | Нет входа `jump ch6` в главе 6 (Z1); в `sp_l1` не было `return` (Z7 — **устранено 2026-10-31**); висячие фреймы leave-лейблов (Z8); мёртвый `battle_menu`/`battle_screen` (Z3); устаревший комментарий E7 (Z5) | CANDIDATE (инвентаризация порта) | см. `s2_ported_branches.md` → «Замечания» Z1–Z11 (каждая с classification/disposition); Z7 → `FIXED` | §5 |
 | 9 | Источник, главы 07–17: сцены 429 (гл.10) и 660 (гл.17) — корни без входящих рёбер (основная линия идёт в обход 428→430, 659→665); NUL-стаб `SCENE_0664`; стабы 1904/1909/1914; расхождения счётчиков `move` (гл.12: 4↔8, гл.15: 7↔8) | CANDIDATE / OBSERVATION | `???` + `PROVISIONAL` — 14 пунктов в `s3_source_branches.md` → «Замечания» | §6 |
 | 10 | Источник, главы 90/91: какой блок — тундэре, какой — дэре (`README.txt` против контента глав); сцена 1664 — NUL-порча уничтожила `tndlEnd()`; гл.21 (сцены 769–770) — достижимость не доказана; слоты `zero_tun_event[0..5]` и подписи `２…７` не сводятся к `likeNameMap`; гл.25 читает `zero_kiss` без локального `checkKiss()` | CANDIDATE / OBSERVATION | **???** — 6 пунктов в `s5_source_branches.md` → §5 «Замечания»; контент-сверка 2026-10-31 — **PROVISIONAL** (`README.txt:85` против контента глав), вопрос не закрыт | §7 |

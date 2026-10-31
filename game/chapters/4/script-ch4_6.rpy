@@ -656,6 +656,22 @@ label ch4_6:
     # [DATE       date((0x01000000 +269),false,(0x03000000 +4))] — не портируется
 
     # ---- 【デート】 меню выбора даты ----
+    # Дэре/тундэре-событие вместо даты — как date() в SCENE_0003.txt:2551-2585:
+    # zero_tundele >= 211 → getDeleScene() (chapter_91, дэре), слот tndl_pick();
+    # слот 0 дэре = кормёжка (sp_l1). Остальные дэре-слоты 1..5 и весь тундэре-
+    # блок (chapter_90, <40) не портированы → при их выпадении дата идёт обычной
+    # линией (fallthrough); порт extra-глав 90/91 — обязательный следующий шаг
+    # (reports/translation_plan.md).
+    if zero_tundele >= 211:
+        $ zero_tndl_no = tndl_pick(zero_dele_event)
+        if zero_tndl_no == 0:
+            $ zero_dele_event[0] += 1
+            $ zero_tundele_count += 1
+            call sp_l1 from _call_sp_l1_9
+            $ fade_fx("black")
+            stop music fadeout 1.0
+            jump ch5
+
     $ portrait_choice([
         {"char": "louise",    "text": "Go on a date with Louise",     "target": "date_louise_ch4_6"},
         {"char": "siesta",    "text": "Go on a date with Siesta",     "target": "date_siesta_ch4_6"},

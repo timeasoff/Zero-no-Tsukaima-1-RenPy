@@ -294,7 +294,7 @@ label ch5_5:
             l "What do you mean? It's a good story!"
             # JA[6248]: なによ、いいお話じゃない！
             $ update_sympathy(-10, char_key="louise")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 hide]
             $ show_sprites(("l 6 sad"))
             # [lay2 +506 → si 2 sad]
@@ -354,8 +354,8 @@ label ch5_5:
             $ show_sprites(("l 6", "s 3"))
             voice "ch5.5_s_007"
             s "I read quite a lot, you know. W-well, so I like to think my eye is reasonably sharp!"
+            $ tndl(30)
             # JA[11682]: 結構、本を読んでるんでね。 / ま、まあ、そんなわけで、 / それなりに目は肥えてるつもりだ！
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
             th "They're comics, though.{#ch5_5_th_004}"
             # JA: （マンガだけどな）
             # [lay1 hide]
@@ -551,7 +551,7 @@ label ch5_5:
             l "…Saito, one moment. Does that mean you're dissatisfied with me as the heroine?"
             # JA[6254]: ……ちょっと、サイト。 / それはわたしがヒロインでは不満ってこと / かしら？
             $ update_sympathy(-10, char_key="louise")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay6 hide]
             $ show_sprites(("l 6 angry"))
             # [lay5 +429 → s 3 sad]
@@ -584,8 +584,8 @@ label ch5_5:
             $ show_sprites(("s 1 happy", "k 2"))
             voice "ch5.5_s_014"
             s "Don't underestimate us — you had us do nothing but grueling basics!"
+            $ tndl(30)
             # JA[11689]: ずっとつらい基礎ばかりやらされていた / 俺達を舐めるなよ！
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
             # [lay6 +689 → k 2 happy]
             $ show_sprites(("s 1 happy", "k 2 happy"))
             voice "ch5.5_k_004"
@@ -750,7 +750,7 @@ label ch5_5:
             k "Correct."
             # JA[3282]: そう、正解。
             $ update_sympathy(10, char_key="kirche")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
         "Kirche's birthday?":
             # JA: キュルケの誕生日？
             # ==== SCENE 332 ====

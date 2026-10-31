@@ -193,8 +193,8 @@ label ch5_4_a:
             $ show_sprites(("w 1 angry", "si 2 sad"))
             voice "ch5.4_si_002"
             si "Saito-san…{#ch5_4_v14459}"
+            $ tndl(30)
             # JA[14459]: サイトさん……。
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
             # [lay20 +1067 → w 1 sad]
             $ show_sprites(("w 1 sad", "si 2 sad"))
             voice "ch5.4_w_003"
@@ -269,8 +269,8 @@ label ch5_4_a:
             $ show_sprites(("w 1 angry", "s 3 angry"))
             voice "ch5.4_s_008"
             s "O-oh, it's no use telling me that. I'm the one who's always being run around by their spoiled ways!"
+            $ tndl(-30)
             # JA[9880]: お、俺に言われても困りますよ。 / あいつらのワガママにいつも振り回されてる / のは俺なんですから！
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
             # [lay20 +1063 → w 1 happy]
             $ show_sprites(("w 1 happy", "s 3 angry"))
             voice "ch5.4_w_006"
@@ -395,7 +395,7 @@ label ch5_4_b:
             t "A book on command magic.{#ch5_4_v15453}"
             # JA[15453]: 統率術の本。
             $ update_sympathy(15, char_key="tabitha")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay0 x=-96]
             # [lay5 +394 → s 1 angry]
             $ show_sprites(("t 5", "s 1 angry"))
@@ -425,7 +425,7 @@ label ch5_4_b:
             t "A book on command magic.{#ch5_4_v15454}"
             # JA[15454]: 統率術の本。
             $ update_sympathy(-15, char_key="tabitha")
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(30)
             # [lay0 x=-96]
             # [lay5 +394 → s 1 angry]
             $ show_sprites(("t 5", "s 1 angry"))
@@ -657,7 +657,7 @@ label ch5_4_c:
             l "Saito, I'll ask for comparison. What does Haruna have that I don't?"
             # JA[4991]: サイト、参考までに聞くけど。 / わたしになくてハルナが持ってる / ものってなぁに？
             $ update_sympathy(-10, char_key="louise")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 +429 → s 3 sad]
             $ show_sprites(("l 6", "s 3 sad"))
             voice "ch5.4_s_023"
@@ -733,7 +733,7 @@ label ch5_4_c:
             ha "Hehehe… thank you, Hiraga-kun. For cheering me up."
             # JA[1947]: ふふふ……ありがとう、平賀くん。 / 励ましてくれて。
             $ update_sympathy(10, char_key="haruna")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
 
     # ==== SCENE 1397 (переход после вариантов) ====
     # [if         if(isJump())] — не портируется
@@ -897,7 +897,7 @@ label ch5_4_d:
             k "…Oh my, my darling thinks so too?"
             # JA[2993]: ……あらあら、ダーリンもそう思う？
             $ update_sympathy(10, char_key="kirche")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 +425 → s 3 happy]
             $ show_sprites(("k 2", "s 3 happy"))
             voice "ch5.4_s_037"
@@ -926,7 +926,7 @@ label ch5_4_d:
             k "Mmm, I'm not the one slacking off, you know."
             # JA[2994]: む、別にあたしはサボってるわけじゃないわよ。
             $ update_sympathy(-10, char_key="kirche")
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(30)
             # [lay5 +390 → s 1]
             $ show_sprites(("k 2 angry", "s 1"))
             voice "ch5.4_s_039"
@@ -1069,8 +1069,8 @@ label ch5_4_e:
             $ show_sprites(("g 2 angry", "m 2 shy"))
             voice "ch5.4_m_002"
             m "Eh!{#ch5_4_v3985}"
+            $ tndl(-30)
             # JA[3985]: えっ！
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
             # [lay4 +572 → g 2 sad]
             $ show_sprites(("g 2 sad", "m 2 shy"))
             voice "ch5.4_g_005"

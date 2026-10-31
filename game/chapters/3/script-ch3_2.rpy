@@ -131,6 +131,7 @@ label ch3_2:
             l "I get it!"
             # [好感度] ルイズ +10
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             jump ch3_151
 
@@ -157,6 +158,7 @@ label ch3_2:
             l "Don't go deciding how someone feels just on a whim."
             # [好感度] ルイズ -10
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 1", "s 1"))
 
@@ -178,6 +180,7 @@ label ch3_2:
             l "It's not like I'm starving like you. Don't lump me in with you!"
             # [好感度] ルイズ -20
             $ update_sympathy(-20, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 1 angry", "s 1"))
 
@@ -394,6 +397,7 @@ label ch3_153:
             l "Eh, Saito — do you really mean that?"
             # [好感度] ルイズ +10
             $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             $ show_sprites(("l 1 happy", "s 1"))
 
@@ -456,6 +460,7 @@ label ch3_153:
             l "I'm not glaring or anything…"
             # [好感度] ルイズ -10
             $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             jump ch3_157
 

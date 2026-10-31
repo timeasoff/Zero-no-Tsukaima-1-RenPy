@@ -152,8 +152,8 @@ label ch3_8_209:
     voice "ch3.8_l_006"
     l "With that, you'll just get fooled again. Absolutely."
 
-    # [好感度] ルイズ -10 (TNDL tndl(-30) не портируется)
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     # [lay5 +429]
     $ show_sprites(("s 3 sad", "l 1 sad"))
@@ -181,8 +181,8 @@ label ch3_8_210:
     voice "ch3.8_l_008"
     l "Um… are you saying that in all seriousness?"
 
-    # [好感度] ルイズ -10 (TNDL tndl(-30) не портируется)
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     # [lay5 +427]
     $ show_sprites(("s 3 angry", "l 1 sad"))
@@ -196,7 +196,6 @@ label ch3_8_210:
     voice "ch3.8_t_001"
     t "…Pervert."
 
-    # [好感度] タバサ -15 (TNDL только для ルイズ: tndl(-30) не портируется; ルイズ -10 применён выше)
     $ update_sympathy(-15, char_key="tabitha")
 
     # [lay0 hide][lay1 +302]
@@ -406,6 +405,22 @@ label ch3_8_213:
 
     # [SE se1 stop=1 — SE не портируется][BGM stop=1000][lay5 hide][BG hide]
     stop music fadeout 1.0
+
+    # Дэре/тундэре-событие вместо даты — как date() в SCENE_0003.txt:2551-2585:
+    # zero_tundele >= 211 → getDeleScene() (chapter_91, дэре), слот tndl_pick();
+    # слот 0 дэре = кормёжка (sp_l1). Остальные дэре-слоты 1..5 и весь тундэре-
+    # блок (chapter_90, <40) не портированы → при их выпадении дата идёт обычной
+    # линией (fallthrough); порт extra-глав 90/91 — обязательный следующий шаг
+    # (reports/translation_plan.md).
+    if zero_tundele >= 211:
+        $ zero_tndl_no = tndl_pick(zero_dele_event)
+        if zero_tndl_no == 0:
+            $ zero_dele_event[0] += 1
+            $ zero_tundele_count += 1
+            call sp_l1 from _call_sp_l1_8
+            $ fade_fx("black")
+            stop music fadeout 1.0
+            jump ch4
 
     $ portrait_choice([
         {"char": "louise",   "text": "Go on a date with Louise",  "target": "date_louise_ch3_8"},

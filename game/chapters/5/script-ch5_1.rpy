@@ -38,6 +38,7 @@
 
 
 label ch5:
+    $ tndl(None)
     # Титульный монтаж (BG 2/1145/1132/1145/2) → overlay_screen (образ «overlay»).
     call overlay_screen("overlay", "Chapter Five: 'True Feelings'", isUseBlur=False, text_mode="black") from _call_overlay_screen_11
     pause(2)
@@ -46,7 +47,6 @@ label ch5:
     # [RESET      reset()] — сброс сцены: спрайты скрываются
     $ show_sprites()
     # [TITLE      title("本当の想い")] — титульная карточка → overlay_screen
-    # [TNDL       tndl(null)] — не переносится (система не реализована, AGENTS §6)
     # [BG +2 — титульный монтаж → overlay_screen]
     # [TRANS   trans("crossfade", 500)] — переход выполняется fade_fx
     # [BG +1145 — титульный монтаж → overlay_screen]
@@ -191,7 +191,7 @@ label ch5:
             l "You're so evasive. If you're a man, say it plainly!"
             # JA[6169]: 煮え切らないわね。 / 男の子だったら、はっきり言いなさいよ！
             $ update_sympathy(-10, char_key="louise")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 +394 → s 1 angry]
             $ show_sprites(("l 1 angry", "s 1 angry"))
             voice "ch5_s_003"
@@ -242,7 +242,7 @@ label ch5:
             l "That can't be. Say it plainly. You're a man, aren't you?"
             # JA[6170]: そんなはずないでしょ？ / はっきり言いなさい。 / 男の子でしょ？
             $ update_sympathy(-10, char_key="louise")
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(-30)
             # [lay5 +394 → s 1 angry]
             $ show_sprites(("l 1 angry", "s 1 angry"))
             voice "ch5_s_008"
@@ -863,8 +863,8 @@ label ch5:
             $ show_sprites(("l 1 angry"))
             voice "ch5_l_028"
             l "…Hey, Saito. What are you staring into space for? Why don't you go and help her?"
+            $ tndl(-30)
             # JA[6191]: ……ちょっと、サイト。 / なにボーっと見てるのよ！ / 助けてあげたらどうなの？
-            # [TNDL       tndl(-30)] — не переносится (система не реализована, AGENTS §6)
             # [lay1 hide]
             $ show_sprites()
             # [lay1 +306 → l 1 angry]
@@ -939,7 +939,7 @@ label ch5:
             ha "N-no! Never! Please, Hiraga-kun, ask her too!"
             # JA[2341]: い、いやよ！ / 絶対！ / 平賀くんからもお願いして！
             $ update_sympathy(-10, char_key="haruna")
-            # [TNDL       tndl(30)] — не переносится (система не реализована, AGENTS §6)
+            $ tndl(30)
             # [lay7 hide]
             $ show_sprites(("s 3 sad"))
             # [lay20 +1061 → w 1]

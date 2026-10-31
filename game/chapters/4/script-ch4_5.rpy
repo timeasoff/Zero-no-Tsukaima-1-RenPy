@@ -457,6 +457,7 @@ label ch4_5_257:
 
     # 【好感度】ルイズ 10
     $ update_sympathy(10, char_key="louise")
+    $ tndl(30)
 
     $ show_sprites(("h 1", "l 3 angry"))
 
@@ -504,6 +505,7 @@ label ch4_5_258:
 
     # 【好感度】ルイズ -10
     $ update_sympathy(-10, char_key="louise")
+    $ tndl(-30)
 
     $ show_sprites(("h 1 angry", "l 1 angry"))
 

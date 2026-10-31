@@ -183,6 +183,7 @@ label ch4_4_248:
 
     # 【好感度】ハルナ 10
     $ update_sympathy(10, char_key="haruna")
+    $ tndl(-30)
     # → next scene 251
     jump ch4_4_251
 
@@ -491,6 +492,7 @@ label ch4_4_haruna_1368:
 
     voice "ch4.4_s_017"
     s "Sir, I'll take this red fruit."
+    $ tndl(-30)
 
     voice "ch4.4_mer_007"
     merchant "There you go."
@@ -528,6 +530,7 @@ label ch4_4_haruna_1369:
 
     voice "ch4.4_s_019"
     s "Sir, I'll take this green fruit."
+    $ tndl(-30)
 
     voice "ch4.4_mer_008"
     merchant "There you go.{#ch4.4_x3949}"
@@ -565,6 +568,7 @@ label ch4_4_haruna_1370:
 
     voice "ch4.4_s_021"
     s "Sir, I'll take this yellow fruit."
+    $ tndl(-30)
 
     voice "ch4.4_mer_009"
     merchant "There you go.{#ch4.4_x3950}"
@@ -1014,6 +1018,7 @@ label ch4_4_siesta_1378:
 
     # 【好感度】シエスタ 10
     $ update_sympathy(10, char_key="siesta")
+    $ tndl(-30)
     # → next scene 1381
     jump ch4_4_siesta_1381
 
@@ -1044,6 +1049,7 @@ label ch4_4_siesta_1379:
 
     # 【好感度】シエスタ -10
     $ update_sympathy(-10, char_key="siesta")
+    $ tndl(30)
     # → next scene 1381
     jump ch4_4_siesta_1381
 

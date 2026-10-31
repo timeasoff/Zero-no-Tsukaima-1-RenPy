@@ -195,6 +195,7 @@ label ch3_4:
             voice "ch3.4_ha_020"
             ha "Ah, Hiraga-kun… I'm fine…"
             $ update_sympathy(10, char_key="haruna")
+            $ tndl(-30)
 
             $ show_sprites(("s 1 angry", "ha 3 sad"))
 
@@ -240,6 +241,7 @@ label ch3_4:
             voice "ch3.4_si_019"
             si "Ah, Saito-san… Ufufufu…"
             $ update_sympathy(10, char_key="siesta")
+            $ tndl(-30)
 
             $ show_sprites(("s 3 sad", "si 4 shy"))
 
@@ -290,6 +292,7 @@ label ch3_4:
 
             voice "ch3.4_s_017"
             s "...Louise!?"
+            $ tndl(30)
 
             $ show_sprites(("si 1", "ha 3"))
 

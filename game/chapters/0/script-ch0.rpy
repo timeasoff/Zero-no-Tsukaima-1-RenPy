@@ -1,4 +1,5 @@
 label ch0:
+    $ tndl(None)
     stop music fadeout 2.0
     call overlay_screen("town_square_night", "Tristania") from _call_overlay_screen
     $ blow_fx(new_music="t23", music_fadein=2)
