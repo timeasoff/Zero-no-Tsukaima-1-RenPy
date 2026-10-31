@@ -16825,10 +16825,10 @@ translate russian strings:
     old "This seems to be the heart of the market."
     new "Похоже, это самый центр рынка."
 
-    old "I'm glad."
+    old "I'm glad.{#ch6_2_d001}"
     new "Я рада."
 
-    old "Hm?"
+    old "Hm?{#ch6_2_d002}"
     new "Хм?"
 
     old "If the market is bustling, then the people's lives cannot be all that miserable."
@@ -16843,7 +16843,7 @@ translate russian strings:
     old "Ah, but perhaps that is why it makes me happy."
     new "Хотя, может быть, именно поэтому я и рада."
 
-    old "Huh?"
+    old "Huh?{#ch6_2_d003}"
     new "А?"
 
     old "You see, this view used to be a world beyond my window. Now it is right here, close enough to touch."
@@ -16879,7 +16879,7 @@ translate russian strings:
     old "Well, I suppose it's no wonder. What can you expect from such a young, ignorant queen?"
     new "Ну, чего ещё ждать от такой юной и несведущей королевы?"
 
-    old "..."
+    old "...{#ch6_2_d004}"
     new "…"
 
     old "Uh, hey! Princess, let's go look over there!"
@@ -16897,7 +16897,7 @@ translate russian strings:
     old "Don't let it get to you."
     new "Не принимайте это близко к сердцу."
 
-    old "Hm?"
+    old "Hm?{#ch6_2_d005}"
     new "А?"
 
     old "No, listening to them matters, but one person's voice doesn't necessarily represent everyone's opinion, right?"
@@ -17020,7 +17020,7 @@ translate russian strings:
     old "Ah, now that you mention it, that is true."
     new "А, точно. Я ведь совсем забыла."
 
-    old "Yes?"
+    old "Yes?{#ch6_2_d006}"
     new "Да?"
 
     old "Louise told me that you are from another world."
@@ -17044,7 +17044,7 @@ translate russian strings:
     old "Well, some countries do have kings, but they don't hold any real power."
     new "Ну, в некоторых странах короли всё-таки есть, но настоящей власти у них нет."
 
-    old "I see..."
+    old "I see...{#ch6_2_d007}"
     new "Понятно…"
 
     old "It is a world without magic."
@@ -17125,7 +17125,7 @@ translate russian strings:
     old "Ah, I see... Hee hee. I found myself a little envious of Louise."
     new "А, понятно… Хи-хи. Я даже немного позавидовала Луизе."
 
-    old "Huh?"
+    old "Huh?{#ch6_2_d008}"
     new "А?"
 
     old "It is enviable to have someone you can be comfortable with."
@@ -17137,7 +17137,7 @@ translate russian strings:
     old "Louise, of course, with you. The fact that she shows you her honest emotions proves that she trusts you, does it not?"
     new "Конечно же, Луиза с вами. Раз она показывает вам свои настоящие чувства, значит, она вам доверяет, разве не так?"
 
-    old "You think so?"
+    old "You think so?{#ch6_2_d009}"
     new "Думаете?"
 
     old "I envy you greatly for having time to spend together while showing your true selves."
@@ -17176,7 +17176,7 @@ translate russian strings:
     old "It wasn't my fault! I was only accompanying the princess on her morning walk after she got up early!"
     new "Я не виноват! Я всего лишь составил рано проснувшейся принцессе компанию на утренней прогулке!"
 
-    old "Oh, is that so?"
+    old "Oh, is that so?{#ch6_2_d010}"
     new "А, вот как?"
 
     old "That's right. You understand now, don't you?"
@@ -17188,7 +17188,7 @@ translate russian strings:
     old "No regrets about my date with the princess! She asked me to show her the sights, so we went all over town! That was definitely a date!"
     new "Я ни о чём не жалею после свидания с принцессой! Она попросила показать ей город, и мы побывали во всех достопримечательных местах! Это было настоящее свидание!"
 
-    old "..."
+    old "...{#ch6_2_d011}"
     new "…"
 
     old "Hey, the princess had fun too, so I have no regrets. Ha ha ha."

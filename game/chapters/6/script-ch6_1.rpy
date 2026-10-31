@@ -4,12 +4,13 @@
 # Scene 360 is intentionally outside this part.
 
 label ch6:
+    $ tndl(None)  # TNDL events_full L6 (null, старт главы)
     # Source scene 344
-    th "_It has been several days since the play ended. We still haven't found any clues about the bomber.{#ch6_344_th_001}"
+    th "It has been several days since the play ended. We still haven't found any clues about the bomber.{#ch6_344_th_001}"
     # JA: （演劇が終わってから、かれこれ数日。爆弾使いの手がかりは依然として、得られなかった）
-    th "_We've kept investigating, but we haven't found any promising information. Louise is getting grumpier, too…{#ch6_344_th_002}"
+    th "We've kept investigating, but we haven't found any promising information. Louise is getting grumpier, too…{#ch6_344_th_002}"
     # JA: （調査は続けてるんだけど、どうにも有力な情報を得られない。ルイズも機嫌が悪くなってる……）
-    th "_How long is this going to go on…?{#ch6_344_th_003}"
+    th "How long is this going to go on…?{#ch6_344_th_003}"
     # JA: （しかし、いつまでこの状態が続くんだろう……）
     voice "ch6_s_001"
     s "I'm home!{#ch6_s_001}"
@@ -133,6 +134,7 @@ label ch6_s346:
     voice "ch6_l_011"
     l "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
     # JA[7307]: ばかっ！ そんなわけないでしょ！ どう聞いても姫さまじゃないの！
+    $ tndl(-30)  # TNDL events_full L161 (sc 346, ch6_l_011)
     voice "ch6_s_010"
     s "I-I was just joking.{#ch6_s_010}"
     # JA[13387]: じょ、冗談だよ。
@@ -149,6 +151,7 @@ label ch6_s347:
     voice "ch6_l_013"
     l "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
     # JA[7309]: どこの誰よ、それ！ どう聞いても姫さまのお声じゃないの！ ほんっとにバカ使い魔ね！
+    $ tndl(-30)  # TNDL events_full L184 (sc 347, ch6_l_013)
     voice "ch6_s_012"
     s "Aww, it was only a little joke…{#ch6_s_012}"
     # JA[13389]: うう、お茶目な冗談だったのにぃ……。
@@ -288,6 +291,7 @@ label ch6_s351:
     voice "ch6_h_015"
     h "Yes.{#ch6_h_015}"
     # JA[748]: はい。
+    $ tndl(40)  # TNDL events_full L353 (sc 351, ch6_h_015)
     voice "ch6_k_007"
     k "They set off bombings around the palace in advance, then planned to infiltrate during the repair work… That is the plan, isn't it?{#ch6_k_007}"
     # JA[3831]: あらかじめ王宮周辺で爆破事件を起こし、 その修復作業に乗じて潜入する……、 そういう手はずなのではないか、ということね。
@@ -301,6 +305,7 @@ label ch6_s352:
     voice "ch6_l_022"
     l "How did you come to that conclusion!? You mean there are agents hiding among all the craftsmen hired for the repairs!{#ch6_l_022}"
     # JA[7318]: なんでそうなるのよっ！ 修復工事のために大量に雇われる職人の中に、 工作員が潜んでるってことでしょ！
+    $ tndl(-30)  # TNDL events_full L372 (sc 352, ch6_l_022)
     jump ch6_s353
 
 label ch6_s353:
@@ -501,7 +506,7 @@ label ch6_s1429:
     # JA[477]: まあ。 仕事熱心なのはよいことですわ。
     voice "ch6_s_041"
     s "This is no time to be so relaxed. They are looking for you… We need to move, quickly.{#ch6_s_041}"
-    th "_Oh no, we're too late!{#ch6_1429_th_001}"
+    th "Oh no, we're too late!{#ch6_1429_th_001}"
     # JA: （ああっ、遅かった！）
     # JA[10266]: そんなのんびりしてる状況じゃないですって。 お姫さまを探してるんだから……。 とにかく、早く移動しましょう。
     voice "ch6_unk_001"
@@ -579,6 +584,7 @@ label ch6_s1432:
     voice "ch6_unk_007"
     unk "Your fiancée?{#ch6_unk_007}"
     # JA[4224]: 許嫁だと？
+    $ tndl(-30)  # TNDL events_full L1379 (sc 1432, ch6_unk_007)
     voice "ch6_s_051"
     s "That's right.{#ch6_s_051}"
     # JA[10276]: そうです。
@@ -682,6 +688,7 @@ label ch6_s1437:
     voice "ch6_h_042"
     h "Hee hee. You treat women with respect, don't you, familiar?{#ch6_h_042}"
     # JA[487]: くすっ。 使い魔さんは女性を大事に 扱ってくださるんですね。
+    $ tndl(40)  # TNDL events_full L1486 (sc 1437, ch6_h_042)
     voice "ch6_s_066"
     s "Actually, I do. Just kidding.{#ch6_s_066}"
     # JA[10291]: 実はそうなんです。 なんちて。
@@ -744,6 +751,7 @@ label ch6_s1440:
     voice "ch6_s_073"
     s "Someday, you will be able to go wherever you wish.{#ch6_s_073}"
     # JA[10298]: いつか、自由に行けますよ。
+    $ tndl(-30)  # TNDL events_full L1553 (sc 1440, ch6_s_073)
     voice "ch6_h_049"
     h "Do you think so…?{#ch6_h_049}"
     # JA[494]: そうでしょうか……。
@@ -853,6 +861,7 @@ label ch6_s1445:
     voice "ch6_s_086"
     s "Exactly. Let's just be happy about it. Yay.{#ch6_s_086}"
     # JA[10312]: そうですよ。 素直に喜びましょ。 わーい。
+    $ tndl(-30)  # TNDL events_full L1665 (sc 1445, ch6_s_086)
     voice "ch6_h_063"
     h "Hee hee. Yes, let us.{#ch6_h_063}"
     # JA[508]: くすっ。 そうですね。 うふふ。
@@ -875,6 +884,7 @@ label ch6_s1446:
     voice "ch6_s_089"
     s "But because Louise, the soldiers… and above all, you, Princess, worked so hard, we were able to make use of that coincidence.{#ch6_s_089}"
     # JA[10315]: でも、ルイズや軍人さんや……。 何よりお姫さまが頑張ったから、 その偶然も活かせたんですよ。
+    $ tndl(40)  # TNDL events_full L1688 (sc 1446, ch6_s_089)
     voice "ch6_h_066"
     h "Do you think so…? Unlike the others, I…{#ch6_h_066}"
     # JA[511]: そうでしょうか……。 他の者はともかく、わたくしは……。

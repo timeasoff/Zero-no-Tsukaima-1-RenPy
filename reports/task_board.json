@@ -375,6 +375,22 @@
           "note": "",
           "evidence": [],
           "manual": ""
+        },
+        {
+          "id": "S2",
+          "kind": "manual",
+          "prompt": "",
+          "target": "6",
+          "scope": "part",
+          "title": "S0 WIP-finish ch6_1/ch6_2 (E4/E5/E11 + tndl)",
+          "status": "running",
+          "created": "2026-10-31 18:08:39",
+          "started": "2026-10-31 18:08:51",
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Дозакрытие ch6 WIP: E4/E5 old-sync (8×2) + E11 tag-dedup (11×2+скрипт) + tndl×13 в ch6_1/ch6_2"
         }
       ]
     },

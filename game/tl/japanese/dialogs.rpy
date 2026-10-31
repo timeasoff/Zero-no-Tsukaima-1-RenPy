@@ -17013,10 +17013,10 @@ translate japanese strings:
     old "This seems to be the heart of the market."
     new "ここは市場の中心みたいですからね。"
 
-    old "I'm glad."
+    old "I'm glad.{#ch6_2_d001}"
     new "良かった……。"
 
-    old "Hm?"
+    old "Hm?{#ch6_2_d002}"
     new "ん？"
 
     old "If the market is bustling, then the people's lives cannot be all that miserable."
@@ -17031,7 +17031,7 @@ translate japanese strings:
     old "Ah, but perhaps that is why it makes me happy."
     new "ああ、でも、それだから嬉しいのかも 知れませんね。"
 
-    old "Huh?"
+    old "Huh?{#ch6_2_d003}"
     new "え？"
 
     old "You see, this view used to be a world beyond my window. Now it is right here, close enough to touch."
@@ -17067,7 +17067,7 @@ translate japanese strings:
     old "Well, I suppose it's no wonder. What can you expect from such a young, ignorant queen?"
     new "まあ無理もないか。 あんな若い、物知らずな女王様じゃねえ。"
 
-    old "..."
+    old "...{#ch6_2_d004}"
     new "……。"
 
     old "Uh, hey! Princess, let's go look over there!"
@@ -17085,7 +17085,7 @@ translate japanese strings:
     old "Don't let it get to you."
     new "気にしちゃだめですよ。"
 
-    old "Hm?"
+    old "Hm?{#ch6_2_d005}"
     new "え？"
 
     old "No, listening to them matters, but one person's voice doesn't necessarily represent everyone's opinion, right?"
@@ -17208,7 +17208,7 @@ translate japanese strings:
     old "Ah, now that you mention it, that is true."
     new "ああ、そう言えばそうでしたね。"
 
-    old "Yes?"
+    old "Yes?{#ch6_2_d006}"
     new "はい？"
 
     old "Louise told me that you are from another world."
@@ -17232,7 +17232,7 @@ translate japanese strings:
     old "Well, some countries do have kings, but they don't hold any real power."
     new "いや、一応、王が存在してる国も あるんですけど、権力を持っていないって ことです。"
 
-    old "I see..."
+    old "I see...{#ch6_2_d007}"
     new "はぁ……。"
 
     old "It is a world without magic."
@@ -17313,7 +17313,7 @@ translate japanese strings:
     old "Ah, I see... Hee hee. I found myself a little envious of Louise."
     new "ああ、なるほど……。 ふふ、ちょっとルイズがうらやましく なりました。"
 
-    old "Huh?"
+    old "Huh?{#ch6_2_d008}"
     new "はい？"
 
     old "It is enviable to have someone you can be comfortable with."
@@ -17325,7 +17325,7 @@ translate japanese strings:
     old "Louise, of course, with you. The fact that she shows you her honest emotions proves that she trusts you, does it not?"
     new "もちろん、ルイズがあなたにですよ。 彼女が素直な感情をあらわにするのは、 使い魔さんに気を許している証拠でしょう？"
 
-    old "You think so?"
+    old "You think so?{#ch6_2_d009}"
     new "そうですかねえ……。"
 
     old "I envy you greatly for having time to spend together while showing your true selves."
@@ -17364,7 +17364,7 @@ translate japanese strings:
     old "It wasn't my fault! I was only accompanying the princess on her morning walk after she got up early!"
     new "俺は悪くないんだ！ 俺はただ、早起きしたお姫さまの、 朝の散歩に付き合っただけなんだ！"
 
-    old "Oh, is that so?"
+    old "Oh, is that so?{#ch6_2_d010}"
     new "ああ、そうだったの。"
 
     old "That's right. You understand now, don't you?"
@@ -17376,7 +17376,7 @@ translate japanese strings:
     old "No regrets about my date with the princess! She asked me to show her the sights, so we went all over town! That was definitely a date!"
     new "お姫さまとのデートに悔いなし！ お姫さまに頼まれて、街の名所をあちこちと！ これはデートに間違いない！"
 
-    old "..."
+    old "...{#ch6_2_d011}"
     new "……。"
 
     old "Hey, the princess had fun too, so I have no regrets. Ha ha ha."
