@@ -136,7 +136,7 @@ label library_ch1_8:
     voice "ch1.8_s_005"
     s "Yo, Tabitha."
     t "..."
-    $ update_sympathy(20, char_key="tabitha")
+    $ update_sympathy(30, char_key="tabitha")
 
     th "Huh, I wonder if she didn't hear me."
 
@@ -208,8 +208,8 @@ label library_ch1_8:
             $ dissolve_fx("t_library_read_3", duration=2.0, type="cg")
             t "..."
 
-            $ update_sympathy(-20, char_key="tabitha")
-            $ update_sympathy(20, char_key="louise")
+            $ update_sympathy(-15, char_key="tabitha")
+            $ tndl(30)
 
             voice "ch1.8_s_010-2"
             s "...?"
@@ -250,8 +250,8 @@ label library_ch1_8:
             voice "ch1.8_t_005"
             t "...It's something you don't need to know."
             
-            $ update_sympathy(20, char_key="tabitha")
-            $ update_sympathy(-20, char_key="louise")
+            $ update_sympathy(15, char_key="tabitha")
+            $ tndl(-30)
             
             voice "ch1.8_s_018"
             s "...I mean, yeah, perhaps. But..."
@@ -403,8 +403,8 @@ label k_room_ch1_8:
             voice "ch1.8_k_015"
             k "...My, my?"
 
-            $ update_sympathy(-20, char_key="louise")
-            $ update_sympathy(20, char_key="kirche")
+            $ update_sympathy(10, char_key="kirche")
+            $ tndl(-30)
 
             th "Seeing it up close again, how should I put it... it's amazing... Like 'boom, squeeze, boom!' or something."
             
@@ -450,8 +450,8 @@ label k_room_ch1_8:
             voice "ch1.8_k_020"
             k "What's the big deal? It's perfectly fine, isn't it?"
 
-            $ update_sympathy(20, char_key="louise")
-            $ update_sympathy(-20, char_key="kirche")
+            $ update_sympathy(-10, char_key="kirche")
+            $ tndl(30)
             
             voice "ch1.8_s_041"
             s "It's not okay! You should just wear your uniform like a normal person!"
@@ -608,7 +608,7 @@ label l_room_ch1_8:
             voice "ch1.8_l_012"
             l "Oh, really?{#ver2}"
 
-            $ update_sympathy(20, char_key="louise")  
+            $ tndl(30)
             voice "ch1.8_s_061"
             s "Yeah, yeah.{#dada}"
 
@@ -656,7 +656,7 @@ label l_room_ch1_8:
             voice "ch1.8_ha_010"
             ha "Hiraga-kun..."
 
-            $ update_sympathy(-20, char_key="haruna")  
+            $ update_sympathy(-10, char_key="haruna")  
 
             $ show_sprites(("l 3 angry", "s 1"))
             voice "ch1.8_l_019"
@@ -692,8 +692,8 @@ label l_room_ch1_8:
             voice "ch1.8_ha_013"
             ha "Hiraga-kun..."
 
-            $ update_sympathy(20, char_key="haruna")  
-            $ update_sympathy(-20, char_key="louise")  
+            $ update_sympathy(10, char_key="haruna")  
+            $ tndl(-30)
 
             $ show_sprites(("l 1 angry", "s 1")) 
             voice "ch1.8_l_022"

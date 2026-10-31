@@ -1,0 +1,250 @@
+===== init lines 30-60 =====
+30: zero_tndl_scene <- 0;
+31: zero_tndl_done <- 0;
+32: 
+33: zero_tndl_flag <- 0;
+34: zero_tndl_no   <- 0;
+35: 
+36: /**
+37:  * ゲーム変数初期化処理
+38:  */
+39: function initVariable()
+40: {
+41:     zero_likes  = [0,0,0,0,0,0];
+42:     zero_tundele = 127;
+43:     zero_tundele_count = 0;
+44:     zero_route = 0;
+45:     zero_kiss = 0;
+46:     zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+47:     zero_title = "ゼロの使い魔";
+48:     zero_text = "";
+49:     zero_tun_event = [0,0,0,0,0,0];
+50: 	zero_dele_event = [0,0,0,0,0,0];
+51: }
+52: 
+53: // デレイベントID
+54: dlEventId <- null;
+55: // ツンイベントID
+56: tnEventId <- null;
+57: 
+58: // ----------------------------------------
+59: // システム要素
+60: // ----------------------------------------
+===== date lines 2540-2620 =====
+2540:  * @return デレイベントシーンID
+2541:  */
+2542: function getDeleScene(restrict)
+2543: {
+2544:     return getTunDeleScene(false, zero_dele_event, restrict);
+2545: }
+2546: 
+2547: /**
+2548:  * 移動処理実行
+2549:  * @param 
+2550:  */
+2551: function date(done, restrict, bgm)
+2552: {
+2553:     //print("デート実行\n");
+2554:     zero_tndl_flag = 0;
+2555:     if (zero_tundele < 40) {
+2556:         // ツンイベント発生
+2557:         zero_tndl_scene = getTunScene(restrict);
+2558:         if (zero_tndl_scene != 0) {
+2559:             zero_tndl_flag = 1;
+2560:             zero_tndl_done = done;
+2561:             //resetSelect(tnEventId, tnEventId + 1);
+2562:             resetSelect2(zero_tndl_scene);
+2563:         }
+2564:     } else if (zero_tundele >= 211) {
+2565:         // デレイベント発生
+2566:         zero_tndl_scene = getDeleScene(restrict);
+2567:         if (zero_tndl_scene != 0) {
+2568:             zero_tndl_flag = 2;
+2569:             zero_tndl_done = done;
+2570:             //resetSelect(dlEventId, dlEventId + 1);
+2571:             resetSelect2(zero_tndl_scene);
+2572:         }
+2573:     }
+2574:     // 選択肢登録
+2575:     ::DateClear(zero_tndl_flag != 0);
+2576:     for (local i=0; i<selectInfos.len(); i++) {
+2577:         local info = selectInfos[i];
+2578:         ::DateAdd(info.chr);
+2579:     }
+2580:     stable = true;
+2581:     if (bgm >= 0) {
+2582:         MusicPlay(0, bgm, volumeCalc(100), timeCalc(500));
+2583:     }
+2584:     suspend(DATE);
+2585: }
+2586: 
+2587: function dateDone(param)
+2588: {
+2589:     print("dateDone:" + param + "\n");
+2590:     // BGM 停止
+2591:     if (zero_tndl_flag != 0) {
+2592:         if (zero_tndl_flag == 1) {
+2593:             zero_tun_event[zero_tndl_no]++;
+2594:         } else {
+2595:             zero_dele_event[zero_tndl_no]++;
+2596:         }
+2597:         zero_tundele_count++;
+2598:         zero_tndl_flag = 0;
+2599:     }
+2600:     MusicPlay(0, 0, 0, timeCalc(500));
+2601:     if (selectInfos.len() > 0) {
+2602:         if (param < selectInfos.len()) {
+2603:             local info = selectInfos[param];
+2604:             if ("eval" in info && info.eval != null) {
+2605:                 eval(info.eval, null);
+2606:             }
+2607:             if ("next" in info && info.next != null) {
+2608:                 next(info.next, null);
+2609:             }
+2610:         }
+2611:         selectInfos = [];
+2612:     }
+2613: }
+2614: 
+2615: // ------------------------------------------------
+2616: // 特殊コマンド実行中
+2617: // ------------------------------------------------
+2618: 
+2619: /**
+2620:  * コーヒーブレイク処理
+===== tndl lines 2695-2730 =====
+2695: {
+2696:     suspend(BATTLE);
+2697: }
+2698: 
+2699: // ------------------------------------------------
+2700: // 特殊アクション実行中
+2701: // ------------------------------------------------
+2702: 
+2703: /**
+2704:  * ツンデレ処理
+2705:  * @param add 移動量
+2706:  */
+2707: function tndl(add)
+2708: {
+2709:     addLine();
+2710:     if (!isJump2()) {
+2711:         if (add == null) {
+2712:             zero_tundele = 127;
+2713:         } else {
+2714:             local before = zero_tundele;
+2715:             zero_tundele += add;
+2716:             // 値の範囲制限
+2717:             if (zero_tundele > 255) {
+2718:                 zero_tundele = 255;
+2719:             } else if (zero_tundele < 0) {
+2720:                 zero_tundele = 0;
+2721:             }
+2722:             if (before != zero_tundele) {
+2723:                 funcs.append(Tundele(before, zero_tundele));
+2724:                 waitFunc(null, true);
+2725:             }
+2726:         }
+2727:     }
+2728: }
+2729: 
+2730: /*
+===== like lines 2775-2800 =====
+2775:     print("\n");
+2776: }
+2777: 
+2778: /**
+2779:  * 好感度変動
+2780:  * @param name キャラクタ名 (null にするとダミー動作)
+2781:  * @param add 変動値
+2782:  */
+2783: function like(name, add)
+2784: {
+2785:     addLine();
+2786:     if (!isJump2()) {
+2787:         local n = 0;
+2788:         if (name in likeNameMap) {
+2789:             n = likeNameMap[name];
+2790:             if (add == null) {
+2791:                 zero_likes[n] = 0;
+2792:             } else {
+2793:                 zero_likes[n] += add;
+2794:             }
+2795:         }
+2796:         if (add != null) {
+2797:             funcs.append(Like(n, add > 0));
+2798:             waitFunc(null, true);
+2799:         }
+2800:     }
+===== isMax lines 2905-2975 =====
+2905:     next(zero_tndl_done, true);
+2906: }
+2907: 
+2908: 
+2909: /**
+2910:  * 指定されたキャラの新密度が一番高いかどうかの判定
+2911:  */
+2912: function isMax(n)
+2913: {
+2914:     local v = zero_likes[n];
+2915:     for (local i=0;i<6;i++) {
+2916:         if (i != n && zero_likes[i] > v) {
+2917:             return false;
+2918:         }
+2919:     }
+2920:     return true;
+2921: }
+2922: 
+2923: /**
+2924:  * ルート決定
+2925:  */
+2926: function checkRoute()
+2927: {
+2928:     addLine();
+2929:     if (!isJump2()) {
+2930:         if (zero_tundele_count >= 4) {
+2931:             zero_route = 1;
+2932:         } else {
+2933:             if (zero_tundele_count >= 4) {
+2934:                 zero_route = 1; // ルイズ
+2935:             } else if (isMax(5)) { // ハルナ
+2936:                 zero_route = 6;
+2937:             } else if (isMax(3)) { // シエスタ
+2938:                 zero_route = 4; 
+2939:             } else if (isMax(4)) { // アンリエッタ
+2940:                 zero_route = 5;
+2941:             } else if (isMax(2)) { // タバサ
+2942:                 zero_route = 3;
+2943:             } else if (isMax(1)) { // キュルケ
+2944:                 zero_route = 2;
+2945:             } else {
+2946:                 zero_route = 1; // ルイズ
+2947:             }
+2948:         }
+2949:     }
+2950: }
+2951: 
+2952: /**
+2953:  * キス状態決定
+2954:  */
+2955: function checkKiss()
+2956: {
+2957:     addLine();
+2958:     if (!isJump2()) {
+2959:         zero_kiss = zero_tundele_count >= 4 ? 0 : 1;
+2960:     }
+2961: }
+2962: 
+2963: /**
+2964:  * クリアフラグの設定
+2965:  */
+2966: function setClear()
+2967: {
+2968:     addLine();
+2969:     if (!isJump2()) {
+2970:         if (zero_route >= 0 && zero_route <= 6) {
+2971:             SetClearFlag(zero_route);
+2972:         };
+2973:     }
+2974: }
+2975: 

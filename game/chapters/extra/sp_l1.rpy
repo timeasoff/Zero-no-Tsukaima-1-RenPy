@@ -280,4 +280,6 @@ label sp_l1:
 
     $ show_sprites(None, anim_out="slide_right")
 
+    return
+
 

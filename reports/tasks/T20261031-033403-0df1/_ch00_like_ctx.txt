@@ -1,0 +1,16 @@
+GOTO       next(tdtest_td == 0 ? tnEventId : dlEventId, true)
+print      print("scene player setup\n")
+
+## SCENE 0004
+initVariable initVariable()
+MENUINIT   selectInit()
+CHOICE     selectItem("共通部", (0x01000000 +1861), null, true)
+CHOICE     selectItem("個別部", (0x01000000 +1862), null, true)
+CHOICE     selectItem("ツンデレ", (0x01000000 +1865), null, true)
+CHOICE     selectItem("ムービー", (0x01000000 +1915), null, true)
+MENU       select()
+
+## SCENE 1861
+MENUINIT   selectInit()
+CHOICE     selectItem("プロローグ", (0x01000000 +5), null, true)
+CHOICE     selectItem("１日目", (0x01000000 +6), null, true)

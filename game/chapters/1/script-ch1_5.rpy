@@ -133,8 +133,8 @@ label ch1_5:
             voice "ch1.5_si_013"
             si "W-What!? No, I'm not mentally ready for something like that!"
 
-            $ update_sympathy(20, char_key="siesta")
-            $ update_sympathy(-20, char_key="louise")
+            $ update_sympathy(10, char_key="siesta")
+            $ tndl(-30)
 
             voice "ch1.5_s_023"
             s "That's not it! Don't say things that will be completely misunderstood!"
@@ -208,8 +208,8 @@ label ch1_5:
             voice "ch1.5_si_016"
             si "!!!!!"
 
-            $ update_sympathy(-20, char_key="siesta")
-            $ update_sympathy(20, char_key="louise")
+            $ update_sympathy(-10, char_key="siesta")
+            $ tndl(30)
 
             voice "ch1.5_s_032"
             s "Lu-, Louise!? Wait a minute, there's a limit to sleep-hugging! Don't cling to me, don't squeeze me!"

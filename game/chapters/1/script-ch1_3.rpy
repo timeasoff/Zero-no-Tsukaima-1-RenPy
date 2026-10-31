@@ -95,8 +95,8 @@ label si_room_ch1_3:
             voice "ch1.3_si_011"
             si "Is that so... Someone from the same country as Saito-san... Then, Saito-san must be curious too, right?"
 
-            $ update_sympathy(20, char_key="siesta")
-            $ update_sympathy(-20, char_key="louise")
+            $ update_sympathy(10, char_key="siesta")
+            $ tndl(-30)
 
             $ show_sprites(("s 3 sad", "si 1"))
             voice "ch1.3_s_028"
@@ -123,8 +123,8 @@ label si_room_ch1_3:
             voice "ch1.3_si_019"
             si "Is that so?"
 
-            $ update_sympathy(-20, char_key="siesta")
-            $ update_sympathy(20, char_key="louise")
+            $ update_sympathy(-10, char_key="siesta")
+            $ tndl(30)
 
             $ show_sprites(("s 3 sad", "si 1 sad"))
             voice "ch1.3_s_037"
@@ -261,7 +261,8 @@ label l_room_ch1_3:
             voice "ch1.3_l_013"
             l "...Liar."
 
-            $update_sympathy(-20)
+            $update_sympathy(-10)
+            $ tndl(-30)
             $ show_sprites(("l 3", "s 3 angry"))
             voice "ch1.3_s_050"
             s "What's with that? I thought you were gonna ask me a question, but instead you're calling me a liar."
@@ -302,7 +303,8 @@ label l_room_ch1_3:
             voice "ch1.3_l_018"
             l "Hmm.."
 
-            $update_sympathy(20)
+            $update_sympathy(10)
+            $ tndl(30)
 
             
     $ show_sprites(("l 3", "s 1"))
@@ -382,7 +384,7 @@ label hallway_ch1_3:
             $ show_sprites(("m 1 shy", "s 3 shy"))
             voice "ch1.3_m_008"
             m "Oh my? So it really was true? I was just trying to fish for a reaction..."
-            $ update_sympathy(-20)
+            $ tndl(-30)
 
             $ show_sprites(("m 1 shy", "s 3"))
             voice "ch1.3_s_009"
@@ -424,7 +426,7 @@ label hallway_ch1_3:
             voice "ch1.3_m_014"
             m "Oh my? Am I wrong? My instincts are usually pretty good, though... Or maybe you have a crush on Louise?"
 
-            $ update_sympathy(20)
+            $ tndl(30)
             $ show_sprites(("m 1 sad", "s 3 sad"))
             voice "ch1.3_s_014"
             s "N-no, I'm telling you, that's not it! And it's not like that with Louise either, I swear!"

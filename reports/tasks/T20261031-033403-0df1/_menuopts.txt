@@ -1,0 +1,138 @@
+===== game/chapters/1/script-ch1_1.rpy:124 menu =====
+  OPT 125: "I thoughts it's good!":
+  OPT 127: "I don't care.":
+  OPT 129: "It's terrible!":
+===== game/chapters/1/script-ch1_1.rpy:372 menu =====
+  OPT 373: "Let me think for a moment.":
+  OPT 375: "Like hell I'd do that!":
+  OPT 377: "Alright... I'll hand her over.":
+===== game/chapters/1/script-ch1_1.rpy:577 menu =====
+  OPT 578: "I don't recall.":
+  OPT 580: "I didn't do anything!":
+===== game/chapters/1/script-ch1_2.rpy:85 menu =====
+  OPT 86: "Blame it on Louise":
+      delta louise +20  (line 95)
+  OPT 107: "Try to cover it up yourself":
+      delta louise -20  (line 112)
+  OPT 127: "Blame it on Siesta":
+      delta siesta +20  (line 136)
+===== game/chapters/1/script-ch1_3.rpy:90 menu =====
+  OPT 91: "You might be right.":
+      delta siesta +20  (line 98)
+      delta louise -20  (line 99)
+  OPT 111: "I doubt it's just a coincidence.":
+  OPT 118: "I don't really know.{#var2}":
+      delta siesta -20  (line 126)
+      delta louise +20  (line 127)
+===== game/chapters/1/script-ch1_3.rpy:239 menu =====
+  OPT 240: "Yeah, I want to go back.":
+  OPT 255: "I've already forgotten about my world.":
+      delta louise -20  (line 264)
+  OPT 286: "I don't really know.":
+      delta louise +20  (line 305)
+===== game/chapters/1/script-ch1_3.rpy:377 menu =====
+  OPT 378: "How did you know!?{#var1}":
+      delta louise -20  (line 385)
+  OPT 399: "Why do you think that?":
+  OPT 419: "Th-there's no way that's true, right?":
+      delta louise +20  (line 427)
+===== game/chapters/1/script-ch1_5.rpy:89 menu =====
+  OPT 90: "Louise is just half-asleep!":
+  OPT 115: "We need a witness's testimony here!":
+      delta siesta +20  (line 136)
+      delta louise -20  (line 137)
+  OPT 190: "I'll wake up Louise and let her explain it herself.":
+      delta siesta -20  (line 211)
+      delta louise +20  (line 212)
+===== game/chapters/1/script-ch1_6.rpy:67 menu =====
+  OPT 68: "Ask Tabitha":
+      delta louise -20  (line 76)
+      delta tabitha +20  (line 77)
+  OPT 88: "Ask Siesta":
+      delta louise -20  (line 96)
+      delta siesta +20  (line 97)
+  OPT 128: "Ask Louise":
+      delta louise +20  (line 142)
+  OPT 169: "Ask Kirche":
+      delta louise -20  (line 178)
+      delta kirche +20  (line 179)
+===== game/chapters/1/script-ch1_6.rpy:433 menu =====
+  OPT 434: "Yeah.{#v2}":
+      delta louise +20  (line 437)
+      delta haruna -20  (line 443)
+      delta siesta -20  (line 449)
+      delta kirche -20  (line 455)
+  OPT 464: "Nope.":
+      delta louise -20  (line 470)
+      delta haruna +20  (line 477)
+      delta siesta +20  (line 481)
+      delta kirche +20  (line 485)
+===== game/chapters/1/script-ch1_7.rpy:123 menu =====
+  OPT 124: "Can't something be done, Headmaster?":
+  OPT 164: "What about Kirche's room?":
+      delta siesta -20  (line 169)
+  OPT 261: "You can come to my room.":
+      delta siesta +20  (line 270)
+      delta louise -20  (line 271)
+===== game/chapters/1/script-ch1_8.rpy:168 menu =====
+  OPT 169: "See what's in the book":
+  OPT 202: "Snatch the book":
+      delta tabitha -20  (line 211)
+      delta louise +20  (line 212)
+  OPT 244: "Inquire about the book":
+      delta tabitha +20  (line 253)
+      delta louise -20  (line 254)
+===== game/chapters/1/script-ch1_8.rpy:347 menu =====
+  OPT 348: "Act like a gentleman and close my eyes.":
+  OPT 397: "Take this opportunity to get a good look.":
+      delta louise -20  (line 406)
+      delta kirche +20  (line 407)
+  OPT 443: "Scold her.":
+      delta louise +20  (line 453)
+      delta kirche -20  (line 454)
+===== game/chapters/1/script-ch1_8.rpy:598 menu =====
+  OPT 599: "I thought I might clean the room a bit...":
+      delta louise +20  (line 611)
+  OPT 640: "Nothing special.":
+      delta haruna -20  (line 659)
+  OPT 686: "There's something I want to ask Haruna right away...":
+      delta haruna +20  (line 695)
+      delta louise -20  (line 696)
+===== game/chapters/1/script-ch1_9.rpy:83 menu =====
+  OPT 84: "Come on, can't something be done about that?":
+      delta louise +20  (line 98)
+  OPT 100: "Don't say such awful things!":
+      delta louise -20  (line 108)
+===== game/chapters/1/script-ch1_9.rpy:265 menu =====
+  OPT 266: "Isn't it possible that we overlooked something?":
+  OPT 316: "Was it by chance that she came to this world?":
+===== game/chapters/1/script-ch1_10.rpy:77 menu =====
+  OPT 78: "You look really beautiful.":
+      delta louise +20  (line 87)
+  OPT 103: "I don't really get it.":
+      delta louise -20  (line 111)
+  OPT 127: "You don't seem like Louise.":
+===== game/chapters/1/script-ch1_10.rpy:226 menu =====
+  OPT 227: "You'll make an excellent wife.":
+      delta siesta +20  (line 236)
+  OPT 267: "Is that delicious?":
+  OPT 288: "So you're a thrifty person.":
+      delta siesta -20  (line 297)
+===== game/chapters/1/script-ch1_10.rpy:381 menu =====
+  OPT 382: "Let me turn the pages for you.":
+  OPT 439: "Let me massage your shoulders.":
+      delta tabitha +20  (line 483)
+  OPT 505: "Let me hold you.":
+      delta tabitha -20  (line 512)
+===== game/chapters/1/script-ch1_10.rpy:688 menu =====
+  OPT 689: "What kind of men do you like?":
+  OPT 722: "What do you think of me?":
+      delta kirche +20  (line 730)
+  OPT 749: "Have you ever truly fallen in love with someone?":
+      delta kirche -20  (line 757)
+===== game/chapters/1/script-ch1_10.rpy:862 menu =====
+  OPT 863: "You were walking outside.":
+  OPT 879: "I don't know.":
+      delta haruna -20  (line 888)
+  OPT 901: "You were looking at the night sky.":
+      delta haruna +20  (line 909)

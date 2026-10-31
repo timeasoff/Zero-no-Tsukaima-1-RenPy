@@ -1,0 +1,385 @@
+# S1.3 — события порта с контекстом веток + выравнивание с источником
+
+## A. События порта (game/chapters/1) с контекстом веток
+
+script-ch1_1.rpy:142  louise +20
+      @ script-ch1_1.rpy:24: label ch1:
+      @ script-ch1_1.rpy:132: if choise_result == "good":
+script-ch1_1.rpy:161  louise -20
+      @ script-ch1_1.rpy:24: label ch1:
+      @ script-ch1_1.rpy:155: elif choise_result == "bad":
+script-ch1_1.rpy:390  louise +20
+      @ script-ch1_1.rpy:24: label ch1:
+      @ script-ch1_1.rpy:380: if choise_result == "good":
+script-ch1_1.rpy:419  louise -20
+      @ script-ch1_1.rpy:24: label ch1:
+      @ script-ch1_1.rpy:408: elif choise_result == "bad":
+script-ch1_1.rpy:590  louise -20
+      @ script-ch1_1.rpy:24: label ch1:
+      @ script-ch1_1.rpy:583: if choise_result == "bad":
+script-ch1_1.rpy:653  louise +20
+      @ script-ch1_1.rpy:24: label ch1:
+      @ script-ch1_1.rpy:628: if choise_result == "good":
+script-ch1_2.rpy:95  louise +20
+      @ script-ch1_2.rpy:2: label ch1_2:
+      @ script-ch1_2.rpy:85: menu:
+script-ch1_2.rpy:112  louise -20
+      @ script-ch1_2.rpy:2: label ch1_2:
+      @ script-ch1_2.rpy:85: menu:
+script-ch1_2.rpy:136  siesta +20
+      @ script-ch1_2.rpy:2: label ch1_2:
+      @ script-ch1_2.rpy:85: menu:
+script-ch1_3.rpy:51  siesta +20
+      @ script-ch1_3.rpy:20: label si_room_ch1_3:
+script-ch1_3.rpy:98  siesta +20
+      @ script-ch1_3.rpy:20: label si_room_ch1_3:
+      @ script-ch1_3.rpy:90: menu:
+script-ch1_3.rpy:99  louise -20
+      @ script-ch1_3.rpy:20: label si_room_ch1_3:
+      @ script-ch1_3.rpy:90: menu:
+script-ch1_3.rpy:126  siesta -20
+      @ script-ch1_3.rpy:20: label si_room_ch1_3:
+      @ script-ch1_3.rpy:90: menu:
+script-ch1_3.rpy:127  louise +20
+      @ script-ch1_3.rpy:20: label si_room_ch1_3:
+      @ script-ch1_3.rpy:90: menu:
+script-ch1_3.rpy:185  louise +20
+      @ script-ch1_3.rpy:177: label l_room_ch1_3:
+script-ch1_3.rpy:264  louise -20
+      @ script-ch1_3.rpy:177: label l_room_ch1_3:
+      @ script-ch1_3.rpy:239: menu:
+script-ch1_3.rpy:305  louise +20
+      @ script-ch1_3.rpy:177: label l_room_ch1_3:
+      @ script-ch1_3.rpy:239: menu:
+script-ch1_3.rpy:385  louise -20
+      @ script-ch1_3.rpy:327: label hallway_ch1_3:
+      @ script-ch1_3.rpy:377: menu:
+script-ch1_3.rpy:427  louise +20
+      @ script-ch1_3.rpy:327: label hallway_ch1_3:
+      @ script-ch1_3.rpy:377: menu:
+script-ch1_5.rpy:136  siesta +20
+      @ script-ch1_5.rpy:2: label ch1_5:
+      @ script-ch1_5.rpy:89: menu:
+script-ch1_5.rpy:137  louise -20
+      @ script-ch1_5.rpy:2: label ch1_5:
+      @ script-ch1_5.rpy:89: menu:
+script-ch1_5.rpy:211  siesta -20
+      @ script-ch1_5.rpy:2: label ch1_5:
+      @ script-ch1_5.rpy:89: menu:
+script-ch1_5.rpy:212  louise +20
+      @ script-ch1_5.rpy:2: label ch1_5:
+      @ script-ch1_5.rpy:89: menu:
+script-ch1_6.rpy:76  louise -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:77  tabitha +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:96  louise -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:97  siesta +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:142  louise +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:178  louise -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:179  kirche +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:67: menu:
+script-ch1_6.rpy:437  louise +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:443  haruna -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:449  siesta -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:455  kirche -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:470  louise -20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:477  haruna +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:481  siesta +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_6.rpy:485  kirche +20
+      @ script-ch1_6.rpy:2: label ch1_6:
+      @ script-ch1_6.rpy:433: menu:
+script-ch1_7.rpy:169  siesta -20
+      @ script-ch1_7.rpy:2: label ch1_7:
+      @ script-ch1_7.rpy:123: menu:
+script-ch1_7.rpy:270  siesta +20
+      @ script-ch1_7.rpy:2: label ch1_7:
+      @ script-ch1_7.rpy:123: menu:
+script-ch1_7.rpy:271  louise -20
+      @ script-ch1_7.rpy:2: label ch1_7:
+      @ script-ch1_7.rpy:123: menu:
+script-ch1_8.rpy:139  tabitha +20
+      @ script-ch1_8.rpy:125: label library_ch1_8:
+script-ch1_8.rpy:211  tabitha -20
+      @ script-ch1_8.rpy:125: label library_ch1_8:
+      @ script-ch1_8.rpy:168: menu:
+script-ch1_8.rpy:212  louise +20
+      @ script-ch1_8.rpy:125: label library_ch1_8:
+      @ script-ch1_8.rpy:168: menu:
+script-ch1_8.rpy:253  tabitha +20
+      @ script-ch1_8.rpy:125: label library_ch1_8:
+      @ script-ch1_8.rpy:168: menu:
+script-ch1_8.rpy:254  louise -20
+      @ script-ch1_8.rpy:125: label library_ch1_8:
+      @ script-ch1_8.rpy:168: menu:
+script-ch1_8.rpy:324  kirche +20
+      @ script-ch1_8.rpy:301: label k_room_ch1_8:
+script-ch1_8.rpy:406  louise -20
+      @ script-ch1_8.rpy:301: label k_room_ch1_8:
+      @ script-ch1_8.rpy:347: menu:
+script-ch1_8.rpy:407  kirche +20
+      @ script-ch1_8.rpy:301: label k_room_ch1_8:
+      @ script-ch1_8.rpy:347: menu:
+script-ch1_8.rpy:453  louise +20
+      @ script-ch1_8.rpy:301: label k_room_ch1_8:
+      @ script-ch1_8.rpy:347: menu:
+script-ch1_8.rpy:454  kirche -20
+      @ script-ch1_8.rpy:301: label k_room_ch1_8:
+      @ script-ch1_8.rpy:347: menu:
+script-ch1_8.rpy:500  haruna +20
+      @ script-ch1_8.rpy:495: label l_room_ch1_8:
+script-ch1_8.rpy:611  louise +20
+      @ script-ch1_8.rpy:495: label l_room_ch1_8:
+      @ script-ch1_8.rpy:598: menu:
+script-ch1_8.rpy:659  haruna -20
+      @ script-ch1_8.rpy:495: label l_room_ch1_8:
+      @ script-ch1_8.rpy:598: menu:
+script-ch1_8.rpy:695  haruna +20
+      @ script-ch1_8.rpy:495: label l_room_ch1_8:
+      @ script-ch1_8.rpy:598: menu:
+script-ch1_8.rpy:696  louise -20
+      @ script-ch1_8.rpy:495: label l_room_ch1_8:
+      @ script-ch1_8.rpy:598: menu:
+script-ch1_9.rpy:98  louise +20
+      @ script-ch1_9.rpy:2: label ch1_9:
+      @ script-ch1_9.rpy:83: menu:
+script-ch1_9.rpy:108  louise -20
+      @ script-ch1_9.rpy:2: label ch1_9:
+      @ script-ch1_9.rpy:83: menu:
+script-ch1_10.rpy:37  louise +20
+      @ script-ch1_10.rpy:24: label date_louise_1:
+      @ script-ch1_10.rpy:27: else:
+script-ch1_10.rpy:87  louise +20
+      @ script-ch1_10.rpy:24: label date_louise_1:
+      @ script-ch1_10.rpy:27: else:
+      @ script-ch1_10.rpy:77: menu:
+script-ch1_10.rpy:111  louise -20
+      @ script-ch1_10.rpy:24: label date_louise_1:
+      @ script-ch1_10.rpy:27: else:
+      @ script-ch1_10.rpy:77: menu:
+script-ch1_10.rpy:181  siesta +20
+      @ script-ch1_10.rpy:173: label date_siesta_1:
+      @ script-ch1_10.rpy:176: else:
+script-ch1_10.rpy:236  siesta +20
+      @ script-ch1_10.rpy:173: label date_siesta_1:
+      @ script-ch1_10.rpy:176: else:
+      @ script-ch1_10.rpy:226: menu:
+script-ch1_10.rpy:297  siesta -20
+      @ script-ch1_10.rpy:173: label date_siesta_1:
+      @ script-ch1_10.rpy:176: else:
+      @ script-ch1_10.rpy:226: menu:
+script-ch1_10.rpy:341  tabitha +20
+      @ script-ch1_10.rpy:328: label date_tabitha_1:
+      @ script-ch1_10.rpy:331: else:
+script-ch1_10.rpy:483  tabitha +20
+      @ script-ch1_10.rpy:328: label date_tabitha_1:
+      @ script-ch1_10.rpy:331: else:
+      @ script-ch1_10.rpy:381: menu:
+script-ch1_10.rpy:512  tabitha -20
+      @ script-ch1_10.rpy:328: label date_tabitha_1:
+      @ script-ch1_10.rpy:331: else:
+      @ script-ch1_10.rpy:381: menu:
+script-ch1_10.rpy:578  kirche +20
+      @ script-ch1_10.rpy:566: label date_kirche_1:
+      @ script-ch1_10.rpy:569: else:
+script-ch1_10.rpy:730  kirche +20
+      @ script-ch1_10.rpy:566: label date_kirche_1:
+      @ script-ch1_10.rpy:569: else:
+      @ script-ch1_10.rpy:688: menu:
+script-ch1_10.rpy:757  kirche -20
+      @ script-ch1_10.rpy:566: label date_kirche_1:
+      @ script-ch1_10.rpy:569: else:
+      @ script-ch1_10.rpy:688: menu:
+script-ch1_10.rpy:841  haruna +20
+      @ script-ch1_10.rpy:793: label date_haruna_1:
+      @ script-ch1_10.rpy:796: else:
+script-ch1_10.rpy:888  haruna -20
+      @ script-ch1_10.rpy:793: label date_haruna_1:
+      @ script-ch1_10.rpy:796: else:
+      @ script-ch1_10.rpy:862: menu:
+script-ch1_10.rpy:909  haruna +20
+      @ script-ch1_10.rpy:793: label date_haruna_1:
+      @ script-ch1_10.rpy:796: else:
+      @ script-ch1_10.rpy:862: menu:
+
+## B. События источника (chapter_02, 【好感度】)
+
+chapter_02:131  louise +10
+chapter_02:145  louise -10
+chapter_02:371  louise +10
+chapter_02:385  louise -10
+chapter_02:613  louise +10
+chapter_02:646  louise -10
+chapter_02:829  louise +10
+chapter_02:853  siesta +10
+chapter_02:1208  siesta -10
+chapter_02:1282  siesta +10
+chapter_02:1452  kirche +10
+chapter_02:1486  tabitha +15
+chapter_02:1506  siesta +10
+chapter_02:1552  louise +10
+chapter_02:1867  haruna -10
+chapter_02:1888  siesta -10
+chapter_02:1911  kirche -10
+chapter_02:1937  haruna +10
+chapter_02:1939  siesta +10
+chapter_02:1943  kirche +10
+chapter_02:2133  siesta +10
+chapter_02:2179  siesta -10
+chapter_02:2546  louise -10
+chapter_02:2565  louise +10
+chapter_02:2926  louise +20
+chapter_02:2968  louise +10
+chapter_02:3016  louise -10
+chapter_02:3065  siesta +20
+chapter_02:3118  siesta +10
+chapter_02:3154  siesta -10
+chapter_02:3223  tabitha +30
+chapter_02:3292  tabitha -15
+chapter_02:3358  tabitha +15
+chapter_02:3403  kirche +20
+chapter_02:3535  kirche -10
+chapter_02:3560  kirche +10
+chapter_02:3638  haruna +20
+chapter_02:3676  haruna +10
+chapter_02:3690  haruna -10
+chapter_02:3770  siesta +20
+chapter_02:3815  siesta +10
+chapter_02:3833  siesta -10
+chapter_02:3901  louise +20
+chapter_02:3973  louise +10
+chapter_02:3986  louise -10
+chapter_02:4174  tabitha +30
+chapter_02:4229  tabitha -15
+chapter_02:4263  tabitha +15
+chapter_02:4327  kirche +20
+chapter_02:4401  kirche +10
+chapter_02:4436  kirche -10
+chapter_02:4482  haruna +20
+chapter_02:4594  haruna +10
+chapter_02:4648  haruna -10
+
+## C. Выравнивание (якоря: диапазон между [voice]-репликами порта)
+
+порт: 73, источник: 54, пар: 54
+
+X2    script-ch1_1.rpy:142 louise +20  <->  chapter_02:131 louise +10
+X2    script-ch1_1.rpy:161 louise -20  <->  chapter_02:145 louise -10
+X2    script-ch1_1.rpy:390 louise +20  <->  chapter_02:371 louise +10
+X2    script-ch1_1.rpy:419 louise -20  <->  chapter_02:385 louise -10
+X2    script-ch1_1.rpy:590 louise -20  <->  chapter_02:646 louise -10
+X2    script-ch1_1.rpy:653 louise +20  <->  chapter_02:613 louise +10
+X2    script-ch1_2.rpy:95 louise +20  <->  chapter_02:829 louise +10
+X2    script-ch1_2.rpy:136 siesta +20  <->  chapter_02:853 siesta +10
+SAME  script-ch1_3.rpy:51 siesta +20  <->  chapter_02:3770 siesta +20
+X2    script-ch1_3.rpy:98 siesta +20  <->  chapter_02:3815 siesta +10
+X2    script-ch1_3.rpy:126 siesta -20  <->  chapter_02:3833 siesta -10
+SAME  script-ch1_3.rpy:185 louise +20  <->  chapter_02:3901 louise +20
+X2    script-ch1_3.rpy:264 louise -20  <->  chapter_02:3986 louise -10
+X2    script-ch1_3.rpy:305 louise +20  <->  chapter_02:3973 louise +10
+X2    script-ch1_5.rpy:136 siesta +20  <->  chapter_02:1282 siesta +10
+X2    script-ch1_5.rpy:211 siesta -20  <->  chapter_02:1208 siesta -10
+DIFF  script-ch1_6.rpy:77 tabitha +20  <->  chapter_02:1486 tabitha +15
+X2    script-ch1_6.rpy:97 siesta +20  <->  chapter_02:1506 siesta +10
+X2    script-ch1_6.rpy:142 louise +20  <->  chapter_02:1552 louise +10
+X2    script-ch1_6.rpy:179 kirche +20  <->  chapter_02:1452 kirche +10
+X2    script-ch1_6.rpy:443 haruna -20  <->  chapter_02:1867 haruna -10
+X2    script-ch1_6.rpy:449 siesta -20  <->  chapter_02:1888 siesta -10
+X2    script-ch1_6.rpy:455 kirche -20  <->  chapter_02:1911 kirche -10
+X2    script-ch1_6.rpy:477 haruna +20  <->  chapter_02:1937 haruna +10
+X2    script-ch1_6.rpy:481 siesta +20  <->  chapter_02:1939 siesta +10
+X2    script-ch1_6.rpy:485 kirche +20  <->  chapter_02:1943 kirche +10
+X2    script-ch1_7.rpy:169 siesta -20  <->  chapter_02:2179 siesta -10
+X2    script-ch1_7.rpy:270 siesta +20  <->  chapter_02:2133 siesta +10
+DIFF  script-ch1_8.rpy:139 tabitha +20  <->  chapter_02:4174 tabitha +30
+DIFF  script-ch1_8.rpy:211 tabitha -20  <->  chapter_02:4229 tabitha -15
+DIFF  script-ch1_8.rpy:253 tabitha +20  <->  chapter_02:4263 tabitha +15
+SAME  script-ch1_8.rpy:324 kirche +20  <->  chapter_02:4327 kirche +20
+X2    script-ch1_8.rpy:407 kirche +20  <->  chapter_02:4401 kirche +10
+X2    script-ch1_8.rpy:454 kirche -20  <->  chapter_02:4436 kirche -10
+SAME  script-ch1_8.rpy:500 haruna +20  <->  chapter_02:4482 haruna +20
+X2    script-ch1_8.rpy:659 haruna -20  <->  chapter_02:4648 haruna -10
+X2    script-ch1_8.rpy:695 haruna +20  <->  chapter_02:4594 haruna +10
+X2    script-ch1_9.rpy:98 louise +20  <->  chapter_02:2565 louise +10
+X2    script-ch1_9.rpy:108 louise -20  <->  chapter_02:2546 louise -10
+SAME  script-ch1_10.rpy:37 louise +20  <->  chapter_02:2926 louise +20
+X2    script-ch1_10.rpy:87 louise +20  <->  chapter_02:2968 louise +10
+X2    script-ch1_10.rpy:111 louise -20  <->  chapter_02:3016 louise -10
+SAME  script-ch1_10.rpy:181 siesta +20  <->  chapter_02:3065 siesta +20
+X2    script-ch1_10.rpy:236 siesta +20  <->  chapter_02:3118 siesta +10
+X2    script-ch1_10.rpy:297 siesta -20  <->  chapter_02:3154 siesta -10
+DIFF  script-ch1_10.rpy:341 tabitha +20  <->  chapter_02:3223 tabitha +30
+DIFF  script-ch1_10.rpy:483 tabitha +20  <->  chapter_02:3358 tabitha +15
+DIFF  script-ch1_10.rpy:512 tabitha -20  <->  chapter_02:3292 tabitha -15
+SAME  script-ch1_10.rpy:578 kirche +20  <->  chapter_02:3403 kirche +20
+X2    script-ch1_10.rpy:730 kirche +20  <->  chapter_02:3560 kirche +10
+X2    script-ch1_10.rpy:757 kirche -20  <->  chapter_02:3535 kirche -10
+SAME  script-ch1_10.rpy:841 haruna +20  <->  chapter_02:3638 haruna +20
+X2    script-ch1_10.rpy:888 haruna -20  <->  chapter_02:3690 haruna -10
+X2    script-ch1_10.rpy:909 haruna +20  <->  chapter_02:3676 haruna +10
+
+### Порт без пары:
+NOPORTSRC  script-ch1_2.rpy:112 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:853 siesta +10
+NOPORTSRC  script-ch1_3.rpy:99 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:3815 siesta +10
+NOPORTSRC  script-ch1_3.rpy:127 louise +20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:3833 siesta -10
+NOPORTSRC  script-ch1_3.rpy:385 louise -20 | окно пусто; якоря до=[[4115], [4112], [4058]] после=[[4119], [4121], [4123]]
+NOPORTSRC  script-ch1_3.rpy:427 louise +20 | окно пусто; якоря до=[[4074], [4070], [4104]] после=[[4077], [4080], [4082]]
+NOPORTSRC  script-ch1_5.rpy:137 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:1282 siesta +10
+NOPORTSRC  script-ch1_5.rpy:212 louise +20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:1208 siesta -10
+NOPORTSRC  script-ch1_6.rpy:76 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:1452 kirche +10; chapter_02:1486 tabitha +15
+NOPORTSRC  script-ch1_6.rpy:96 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:1506 siesta +10
+NOPORTSRC  script-ch1_6.rpy:178 louise -20 | кандидат(ы) того же персонажа уже заняты: chapter_02:1552
+NOPORTSRC  script-ch1_6.rpy:437 louise +20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:1867 haruna -10; chapter_02:1888 siesta -10
+NOPORTSRC  script-ch1_6.rpy:470 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:1937 haruna +10
+NOPORTSRC  script-ch1_7.rpy:271 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:2133 siesta +10; chapter_02:2179 siesta -10
+NOPORTSRC  script-ch1_8.rpy:212 louise +20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:4229 tabitha -15
+NOPORTSRC  script-ch1_8.rpy:254 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:4263 tabitha +15
+NOPORTSRC  script-ch1_8.rpy:406 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:4401 kirche +10
+NOPORTSRC  script-ch1_8.rpy:453 louise +20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:4436 kirche -10
+NOPORTSRC  script-ch1_8.rpy:611 louise +20 | окно пусто; якоря до=[[4559], [4557], [4554]] после=[[170], [4561], [4562]]
+NOPORTSRC  script-ch1_8.rpy:696 louise -20 | в окне только КАНДИДАТЫ ДРУГОГО ПЕРСОНАЖА: chapter_02:4594 haruna +10
+
+### Источник без пары:
+
+## D. Статистика: SAME=8, X2=39, DIFF=7, порт-без-пары=19, источник-без-пары=0
+Расхождения по персонажу (в окне только кандидаты другого персонажа): 15
+  CHARMM  script-ch1_2.rpy:112 louise -20 -> окно: chapter_02:853 siesta +10
+  CHARMM  script-ch1_3.rpy:99 louise -20 -> окно: chapter_02:3815 siesta +10
+  CHARMM  script-ch1_3.rpy:127 louise +20 -> окно: chapter_02:3833 siesta -10
+  CHARMM  script-ch1_5.rpy:137 louise -20 -> окно: chapter_02:1282 siesta +10
+  CHARMM  script-ch1_5.rpy:212 louise +20 -> окно: chapter_02:1208 siesta -10
+  CHARMM  script-ch1_6.rpy:76 louise -20 -> окно: chapter_02:1452 kirche +10; chapter_02:1486 tabitha +15
+  CHARMM  script-ch1_6.rpy:96 louise -20 -> окно: chapter_02:1506 siesta +10
+  CHARMM  script-ch1_6.rpy:437 louise +20 -> окно: chapter_02:1867 haruna -10; chapter_02:1888 siesta -10
+  CHARMM  script-ch1_6.rpy:470 louise -20 -> окно: chapter_02:1937 haruna +10
+  CHARMM  script-ch1_7.rpy:271 louise -20 -> окно: chapter_02:2133 siesta +10; chapter_02:2179 siesta -10
+  CHARMM  script-ch1_8.rpy:212 louise +20 -> окно: chapter_02:4229 tabitha -15
+  CHARMM  script-ch1_8.rpy:254 louise -20 -> окно: chapter_02:4263 tabitha +15
+  CHARMM  script-ch1_8.rpy:406 louise -20 -> окно: chapter_02:4401 kirche +10
+  CHARMM  script-ch1_8.rpy:453 louise +20 -> окно: chapter_02:4436 kirche -10
+  CHARMM  script-ch1_8.rpy:696 louise -20 -> окно: chapter_02:4594 haruna +10

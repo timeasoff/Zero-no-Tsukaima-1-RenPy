@@ -1,0 +1,1172 @@
+hits: 57
+
+===== SCENE_0001.txt offset=18632 token=date(
+
+        }
+        if (done) {
+            modules = {};
+            actionTime = null;
+            onActionCompleted();
+        }
+    }
+
+    function onActionCompleted() {
+        // nothing todo
+    }
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        // アクションが存在する場合
+        if (actionTime != null) {
+            actionTime += diff;
+            if (_layer != null) {
+                actionHandler(actionTime, false);
+            }
+        }
+    }
+
+    function assign(orig) {
+        //print("状態の複製");
+    
+
+===== SCENE_0001.txt offset=32556 token=date(
+   /**
+     * 同期実行
+     */
+    function sync(fore) {
+        //print("sync start\n");
+        _sync(fore, false);
+        //print("sync done\n");
+    }
+
+    // ----------------------------------------
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (_layer != null) {
+            _layer.update(diff);
+        }
+        if (_layerBack != null) {
+            _layerBack.update(diff);
+        }
+        if (hide) {
+            if (_layer == null || _layer.actionTime == null) {
+                _layer = null;
+              
+
+===== SCENE_0001.txt offset=32622 token=date(
+   //print("sync start\n");
+        _sync(fore, false);
+        //print("sync done\n");
+    }
+
+    // ----------------------------------------
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (_layer != null) {
+            _layer.update(diff);
+        }
+        if (_layerBack != null) {
+            _layerBack.update(diff);
+        }
+        if (hide) {
+            if (_layer == null || _layer.actionTime == null) {
+                _layer = null;
+                currentActions = [];
+                show = false;
+           
+
+===== SCENE_0001.txt offset=32706 token=date(
+\n");
+    }
+
+    // ----------------------------------------
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (_layer != null) {
+            _layer.update(diff);
+        }
+        if (_layerBack != null) {
+            _layerBack.update(diff);
+        }
+        if (hide) {
+            if (_layer == null || _layer.actionTime == null) {
+                _layer = null;
+                currentActions = [];
+                show = false;
+                hide = false;
+            }
+        }
+    }
+
+    // ----------------------
+
+===== SCENE_0002.txt offset=2904 token=date(
+       doPlay = false;
+        } else if (doStop) {
+            _stop(fadeTime);
+            doStop = false;
+        } else if (doFade) {
+            _fade(volume, fadeTime);
+            doFade = false;
+        }
+    }
+
+	/**
+	 * 状態更新
+     * @param diff 経過時間
+     */
+	function update(diff) {
+        // nothing to do
+    }
+
+	/**
+     * 停止
+     */
+    function pause() {
+        // nothing to do
+    }
+
+    /**
+     * 再開
+     */
+    function restart(page) {
+        // nothing to do
+    }
+
+	function back(fore) {
+        // nothing to do
+    }
+
+    function b
+
+===== SCENE_0003.txt offset=1173 token=tnEventId
+
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// ----------------------------------------
+// システム要素
+// ----------------------------------------
+
+// ツンデレメータ用
+tndlBaseImageId <- 0;
+tndlArrowImageId <- 0;
+
+// 好感度上下
+paraUpImageId   <- 0;
+paraDownImageId <- 0;
+paraTunImageId  <- 0;
+paraDereImageId <- 0;
+p
+
+===== SCENE_0003.txt offset=54147 token=tnEventId
+estrict && tun && (i==1 || i==4))) {
+                level2.append(i);
+            }
+            break;
+        }
+    }
+
+    // レベル2 があれば優先再生
+    if (level2.len() > 0 || level1.len() > 0) {
+        zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+functi
+
+===== SCENE_0003.txt offset=54928 token=tnEventId
+
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+            //resetSelect(tnEventId, tnEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+ 
+
+===== SCENE_0003.txt offset=54939 token=tnEventId
+rint("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+            //resetSelect(tnEventId, tnEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+            
+
+===== SCENE_0003.txt offset=64033 token=tnEventId
+------------------------------------
+
+function tndlInit()
+{
+	zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+tdtest_td <- 0;
+tdtest_type <- 0;
+tdtest_done <- 0;
+
+function tndlTest(level)
+{
+    zero_tndl_done  = tdtest_done;
+    zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;
+    next(tdtest_td == 0 ? tnEventId : dlEventId, true);
+}
+
+print("scene player setup\n");
+
+
+===== SCENE_0003.txt offset=64116 token=tnEventId
+0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+tdtest_td <- 0;
+tdtest_type <- 0;
+tdtest_done <- 0;
+
+function tndlTest(level)
+{
+    zero_tndl_done  = tdtest_done;
+    zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;
+    next(tdtest_td == 0 ? tnEventId : dlEventId, true);
+}
+
+print("scene player setup\n");
+
+
+===== SCENE_0003.txt offset=1134 token=dlEventId
+ele = 127;
+    zero_tundele_count = 0;
+    zero_route = 0;
+    zero_kiss = 0;
+    zero_items = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    zero_title = "ゼロの使い魔";
+    zero_text = "";
+    zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+// デレイベントID
+dlEventId <- null;
+// ツンイベントID
+tnEventId <- null;
+
+// ----------------------------------------
+// システム要素
+// ----------------------------------------
+
+// ツンデレメータ用
+tndlBaseImageId <- 0;
+tndlArrowImageId <- 0;
+
+// 好感度上下
+paraUpImageId   <- 0;
+paraDownImageId <- 0;
+paraTunI
+
+===== SCENE_0003.txt offset=54158 token=dlEventId
+tun && (i==1 || i==4))) {
+                level2.append(i);
+            }
+            break;
+        }
+    }
+
+    // レベル2 があれば優先再生
+    if (level2.len() > 0 || level1.len() > 0) {
+        zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleS
+
+===== SCENE_0003.txt offset=55262 token=dlEventId
+      resetSelect2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+            //resetSelect(dlEventId, dlEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    }
+    // 選択肢登録
+    ::DateClear(zero_tndl_flag != 0);
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        ::DateAdd(info.chr);
+    }
+    stable = true;
+    if (bgm >= 0)
+
+===== SCENE_0003.txt offset=55273 token=dlEventId
+Select2(zero_tndl_scene);
+        }
+    } else if (zero_tundele >= 211) {
+        // デレイベント発生
+        zero_tndl_scene = getDeleScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 2;
+            zero_tndl_done = done;
+            //resetSelect(dlEventId, dlEventId + 1);
+            resetSelect2(zero_tndl_scene);
+        }
+    }
+    // 選択肢登録
+    ::DateClear(zero_tndl_flag != 0);
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        ::DateAdd(info.chr);
+    }
+    stable = true;
+    if (bgm >= 0) {
+       
+
+===== SCENE_0003.txt offset=64045 token=dlEventId
+------------------------
+
+function tndlInit()
+{
+	zero_tun_event = [0,0,0,0,0,0];
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+tdtest_td <- 0;
+tdtest_type <- 0;
+tdtest_done <- 0;
+
+function tndlTest(level)
+{
+    zero_tndl_done  = tdtest_done;
+    zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;
+    next(tdtest_td == 0 ? tnEventId : dlEventId, true);
+}
+
+print("scene player setup\n");
+
+
+===== SCENE_0003.txt offset=64128 token=dlEventId
+;
+	zero_dele_event = [0,0,0,0,0,0];
+}
+
+tdtest_td <- 0;
+tdtest_type <- 0;
+tdtest_done <- 0;
+
+function tndlTest(level)
+{
+    zero_tndl_done  = tdtest_done;
+    zero_tndl_scene = (tdtest_td == 0 ? tnEventId : dlEventId) + 2 + (tdtest_type * 3) + level;
+    next(tdtest_td == 0 ? tnEventId : dlEventId, true);
+}
+
+print("scene player setup\n");
+
+
+===== SCENE_0003.txt offset=53084 token=getTunDeleScene
+を組みなおす!!
+ */
+function resetSelect2(scene) {
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        info.next = scene;
+    }
+}
+
+
+// 配列から適当に選ぶ
+function choice(array) {
+    return array[random(array.len())];
+}
+
+// シーン選択
+function getTunDeleScene(tun, event, restrict)
+{
+    // レベル2 を探す
+    local level1 = [];
+    local level2 = [];
+    for (local i=0;i<6;i++) {
+        // 制限処理
+        if (restrict) {
+            if (tun) {
+                if (i == 2 || i == 3) {
+                    continue;
+                }
+          
+
+===== SCENE_0003.txt offset=54352 token=getTunDeleScene
+) {
+        zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    z
+
+===== SCENE_0003.txt offset=54497 token=getTunDeleScene
+vent[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero
+
+===== SCENE_0003.txt offset=53087 token=TunDele
+gみなおす!!
+ */
+function resetSelect2(scene) {
+    for (local i=0; i<selectInfos.len(); i++) {
+        local info = selectInfos[i];
+        info.next = scene;
+    }
+}
+
+
+// 配列から適当に選ぶ
+function choice(array) {
+    return array[random(array.len())];
+}
+
+// シーン選択
+function getTunDeleScene(tun, event, restrict)
+{
+    // レベル2 を探す
+    local level1 = [];
+    local level2 = [];
+    for (local i=0;i<6;i++) {
+        // 制限処理
+        if (restrict) {
+            if (tun) {
+                if (i == 2 || i == 3) {
+                    continue;
+                }
+     
+
+===== SCENE_0003.txt offset=54355 token=TunDele
+
+        zero_tndl_no = choice(level2.len() > 0 ? level2 : level1);
+        return (tun ? tnEventId: dlEventId) + 2 + (zero_tndl_no * 3) + event[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+
+
+===== SCENE_0003.txt offset=54500 token=TunDele
+t[zero_tndl_no];
+    } else {
+        return 0;
+    }
+}
+
+/**
+ * @return ツンイベントシーンID
+ */
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if 
+
+===== SCENE_0003.txt offset=4667 token=date(
+.setPos(x, ypos + arrowydiff);
+    }
+
+    /**
+     * ツンデレメータ表示状態
+     * @param show 表示状態
+     */
+    function setShow(show) {
+        baseLayer.show(show);
+        arrowLayer.show(show);
+    }
+
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (skipFlag || isSkip()) {
+            now = time;
+        } else {
+            now += diff;
+        }
+        switch (state) {
+        case 0:
+            // 表示処理
+            if (now < time) {
+                setOpacity(100 * (1.0 -  (time - now) / dispTime));
+      
+
+===== SCENE_0003.txt offset=9393 token=date(
+  }
+
+    /**
+     * 表示状態
+     * @param show 表示状態
+     */
+    function setShow(show) {
+        paraLikeLayer.show(show);
+        paraUpDownLayer.show(show);
+        paraFaceLayer.show(show);
+    }
+    
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (skipFlag || isSkip()) {
+            now = time;
+        } else {
+            now += diff;
+        }
+        switch (state) {
+        case 0:
+            // 表示処理
+            if (now < time) {
+                setOpacity(20 + 80 * (1.0 -  (time - now) / moveTime));
+  
+
+===== SCENE_0003.txt offset=11205 token=date(
+      } else {
+                itemmsg.write(name + "を" + nums[num] + "つ入手しました");
+            } 
+        }
+        itemmsg.show(true);
+        state = 0;
+        now = 0;
+        time = waitTime;
+    }
+
+    /**
+     * 状態更新
+     * @param diff 経過時間
+     */
+    function update(diff) {
+        if (skipFlag || isSkip()) {
+            now = time;
+        } else {
+            now += diff;
+        }
+        switch (state) {
+        case 0:
+            // 待ち
+            if (now < time) {
+            } else {
+                state++;
+            }
+            brea
+
+===== SCENE_0003.txt offset=17118 token=date(
+  }
+            }
+            break;
+        }
+        if (done) {
+            swapLayers();
+            actionTime = null;
+            if (mode ==2 || mode == 3) {
+                screenLayer.setShow(false);
+            }
+            trigger("screen");
+        }
+    }
+
+    function update(diff) {
+        if (actionTime != null) {
+            actionTime += diff;
+            handler(actionTime, false);
+        }
+    }
+
+    function stop() {
+        handler(actionTime, true);
+        actionTime = null;
+    }
+}
+
+// 黒画像と白画像
+screenLayer <- null;
+blackImageId <- 0;
+wh
+
+===== SCENE_0003.txt offset=24952 token=date(
+-= diff;
+    }
+}
+
+// 今アクションが実行中かどうか
+currentAction <- false;
+
+/**
+ * 各種時間待ち更新
+ */
+function updateObject(diff)
+{
+    // オブジェクトの状態更新
+    local prevCurrentAction = currentAction;
+    currentAction = false;
+    foreach (idx,val in objects) {
+        val.update(diff);
+        if (val.isAction()) {
+            currentAction = true;
+        }
+    }
+    // 全アクション終了
+    if (prevCurrentAction == true && currentAction == false) {
+        trigger("action");
+    }
+    
+    // 特殊ファンクション実行
+    if (funcs.len() > 0) {
+        for (local 
+
+===== SCENE_0003.txt offset=25350 token=date(
+   // 全アクション終了
+    if (prevCurrentAction == true && currentAction == false) {
+        trigger("action");
+    }
+    
+    // 特殊ファンクション実行
+    if (funcs.len() > 0) {
+        for (local i=funcs.len() - 1; i>=0; i--) {
+            local func = funcs[i];
+            if (!func.update(diff)) {
+                funcs.remove(i);
+            }
+        }
+        if (funcs.len() == 0) {
+            trigger("func");
+        }
+	}
+
+    // 画面合成用レイヤ
+    if (screenLayer != null) {
+        screenLayer.update(diff);
+    }
+}
+
+// 定数定義
+WAIT   <- 1;  // プレイヤーがなん
+
+===== SCENE_0003.txt offset=25584 token=date(
+-) {
+            local func = funcs[i];
+            if (!func.update(diff)) {
+                funcs.remove(i);
+            }
+        }
+        if (funcs.len() == 0) {
+            trigger("func");
+        }
+	}
+
+    // 画面合成用レイヤ
+    if (screenLayer != null) {
+        screenLayer.update(diff);
+    }
+}
+
+// 定数定義
+WAIT   <- 1;  // プレイヤーがなんらかの待ち状態になっていることの通知。
+CHANGE <- 2;  // 状態変更。シーンが切り替わった
+DONE   <- 3;  // 完了 シーンの末尾に到達して実行終了したことを通知します。
+SELECT <- 4;  // 選択肢処理実行
+MOVE   <- 5;
+DATE   <- 6;
+COFFEE <
+
+===== SCENE_0003.txt offset=54602 token=date(
+*/
+function getTunScene(restrict)
+{
+    return getTunDeleScene(true, zero_tun_event, restrict);
+}
+
+/**
+ * @return デレイベントシーンID
+ */
+function getDeleScene(restrict)
+{
+    return getTunDeleScene(false, zero_dele_event, restrict);
+}
+
+/**
+ * 移動処理実行
+ * @param 
+ */
+function date(done, restrict, bgm)
+{
+    //print("デート実行\n");
+    zero_tndl_flag = 0;
+    if (zero_tundele < 40) {
+        // ツンイベント発生
+        zero_tndl_scene = getTunScene(restrict);
+        if (zero_tndl_scene != 0) {
+            zero_tndl_flag = 1;
+            zero_tndl_done = done;
+     
+
+===== SCENE_0062.txt offset=894 token=date(
+);
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1009));
+dateItem("シエスタ", (0x01000000 +1014));
+dateItem("タバサ", (0x01000000 +1019));
+dateItem("キュルケ", (0x01000000 +1024));
+dateItem("ハルナ", (0x01000000 +1029));
+date((0x01000000 +68),false,(0x03000000 +4));
+
+
+===== SCENE_0131.txt offset=891 token=date(
+);
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1034));
+dateItem("シエスタ", (0x01000000 +1039));
+dateItem("タバサ", (0x01000000 +1044));
+dateItem("キュルケ", (0x01000000 +1049));
+dateItem("ハルナ", (0x01000000 +1054));
+date((0x01000000 +137),false,(0x03000000 +4));
+
+
+===== SCENE_0213.txt offset=1272 token=date(
+);
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1059));
+dateItem("シエスタ", (0x01000000 +1064));
+dateItem("タバサ", (0x01000000 +1069));
+dateItem("キュルケ", (0x01000000 +1074));
+dateItem("ハルナ", (0x01000000 +1079));
+date((0x01000000 +219),false,(0x03000000 +4));
+
+
+===== SCENE_0264.txt offset=1133 token=date(
+,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1084));
+dateItem("シエスタ", (0x01000000 +1089));
+dateItem("ハルナ", (0x01000000 +1094));
+dateItem("アンリエッタ", (0x01000000 +1099));
+date((0x01000000 +269),false,(0x03000000 +4));
+
+
+===== SCENE_0374.txt offset=2409 token=date(
+top = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("アンリエッタ", (0x01000000 +1164));
+date((0x01000000 +375),false,(0x03000000 +4));
+
+
+===== SCENE_0404.txt offset=6264 token=date(
+top = 1});
+set("bgm", {stop = 1000});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("アンリエッタ", (0x01000000 +1169));
+date((0x01000000 +405),false,(0x03000000 +4));
+
+
+===== SCENE_0466.txt offset=2632 token=date(
+ 100,hide = 1,opacityTime = 100,x = 274});
+set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ハルナ", (0x01000000 +1174));
+date((0x01000000 +467),false,(0x03000000 +4));
+
+
+===== SCENE_0506.txt offset=1567 token=date(
+ 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ハルナ", (0x01000000 +1179));
+date((0x01000000 +510),false,(0x03000000 +4));
+
+
+===== SCENE_0507.txt offset=1445 token=date(
+ 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ハルナ", (0x01000000 +1179));
+date((0x01000000 +510),false,(0x03000000 +4));
+
+
+===== SCENE_0508.txt offset=1586 token=date(
+ 100,hide = 1,opacityTime = 100,x = 274});
+set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ハルナ", (0x01000000 +1179));
+date((0x01000000 +510),false,(0x03000000 +4));
+
+
+===== SCENE_0509.txt offset=954 token=date(
+ 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ハルナ", (0x01000000 +1179));
+date((0x01000000 +510),false,(0x03000000 +4));
+
+
+===== SCENE_0577.txt offset=2971 token=date(
+00,hide = 1,opacityTime = 100,x = 274});
+set("lay6", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("キュルケ", (0x01000000 +1184));
+date((0x01000000 +578),false,(0x03000000 +4));
+
+
+===== SCENE_0618.txt offset=4578 token=date(
+ぁ……。\n　俺はどうしたらいいんだ？\n　このままじゃ、身が持たないよ）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("キュルケ", (0x01000000 +1189));
+date((0x01000000 +619),false,(0x03000000 +4));
+
+
+===== SCENE_0695.txt offset=684 token=date(
+いているみたいだけど、\n　まだここまでは来ないだろうし。\n　たぶん……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1194));
+date((0x01000000 +696),false,(0x03000000 +4));
+
+
+===== SCENE_0738.txt offset=1060 token=date(
+ト", null, "（俺ってつくづくワンパターンな行動しか\n　取れないんだなぁ）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("ルイズ", (0x01000000 +1199));
+date((0x01000000 +739),false,(0x03000000 +4));
+
+
+===== SCENE_0805.txt offset=2823 token=date(
+00,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("シエスタ", (0x01000000 +1204));
+date((0x01000000 +806),false,(0x03000000 +4));
+
+
+===== SCENE_0848.txt offset=7091 token=date(
+ {stop = 1000});
+set("lay0", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("シエスタ", (0x01000000 +1209));
+date((0x01000000 +849),false,(0x03000000 +4));
+
+
+===== SCENE_0933.txt offset=20111 token=date(
+ってるん\n　だろうなぁ……。\n　なんとか力になってやりたいんだけど……）", null);
+msgoff()
+set("se1", {stop = 1});
+set("bgm", {stop = 1000});
+set("lay5", {show = 0});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("タバサ", (0x01000000 +1214));
+date((0x01000000 +934),false,(0x03000000 +4));
+
+
+===== SCENE_0971.txt offset=2425 token=date(
+ 100,hide = 1,opacityTime = 100,x = -46});
+set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274});
+set("stage", {opacity = 0,hide = 1,opacityTime = 1000});
+waitTime(1000, true);
+selectInit();
+dateItem("タバサ", (0x01000000 +1219));
+date((0x01000000 +972),false,(0x03000000 +4));
+
+
+===== SCENE_1865.txt offset=579 token=date(
+ne == null) {
+        selectInit();
+        selectItem("ツン", null, "zero_tundele=0", true);
+        selectItem("デレ", null, "zero_tundele=255", true);
+        select();
+        selectInit();
+        dateItem("ルイズ", (0x01000000 +1865));
+        dateItem("シエスタ", (0x01000000 +1865));
+        date((0x01000000 +1865), true);
+}
+
+
+===== SCENE_1870.txt offset=80 token=date(
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("ルイズ", (0x01000000 +1104));
+date((0x01000000 +343),false,(0x03000000 +4));
+
+
+===== SCENE_1871.txt offset=82 token=date(
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("キュルケ", (0x01000000 +1114));
+date((0x01000000 +343),false,(0x03000000 +4));
+
+
+===== SCENE_1872.txt offset=80 token=date(
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("タバサ", (0x01000000 +1119));
+date((0x01000000 +343),false,(0x03000000 +4));
+
+
+===== SCENE_1873.txt offset=82 token=date(
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("シエスタ", (0x01000000 +1109));
+date((0x01000000 +343),false,(0x03000000 +4));
+
+
+===== SCENE_1874.txt offset=86 token=date(
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("アンリエッタ", (0x01000000 +1129));
+date((0x01000000 +343),false,(0x03000000 +4));
+
+
+===== SCENE_1875.txt offset=80 token=date(
+if (isJump()){
+reset();
+}
+selectInit();
+dateItem("ハルナ", (0x01000000 +1124));
+date((0x01000000 +343),false,(0x03000000 +4));
+

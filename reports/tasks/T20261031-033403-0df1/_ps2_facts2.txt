@@ -1,0 +1,31 @@
+like() args: {'-10': 106, '-15': 11, '-20': 1, '-30': 2, '10': 81, '15': 12, '20': 42, '30': 15, '50': 2}
+tndl() args: {'-30': 163, '-40': 8, '30': 122, '40': 5, '50': 3, 'null': 29}
+chapter_01_プロローグ.txt	like=0	tndl=1
+chapter_02_ゼロのルイズ.txt	like=54	tndl=32
+chapter_03_黒髪の来訪者.txt	like=61	tndl=35
+chapter_04_女の戦い.txt	like=65	tndl=36
+chapter_05_トリスタニアの危機.txt	like=53	tndl=23
+chapter_06_本当の想い.txt	like=39	tndl=32
+chapter_07_家出のお姫さま.txt	like=0	tndl=13
+chapter_08_失望のお姫さま.txt	like=0	tndl=8
+chapter_09_決意のお姫さま.txt	like=0	tndl=1
+chapter_10_魅惑のお姫さま.txt	like=0	tndl=1
+chapter_11_突然のスカウト.txt	like=0	tndl=15
+chapter_12_ハルナの決意.txt	like=0	tndl=17
+chapter_13_もう一人のハルナ.txt	like=0	tndl=1
+chapter_14_炎の予感.txt	like=0	tndl=14
+chapter_15_私のお兄ちゃん.txt	like=0	tndl=12
+chapter_16_魔法の薬.txt	like=0	tndl=1
+chapter_17_微熱の使い手.txt	like=0	tndl=1
+chapter_18_女王の決断.txt	like=0	tndl=10
+chapter_19_貴族の意地.txt	like=0	tndl=15
+chapter_20_小悪魔と春風の協奏曲.txt	like=0	tndl=1
+chapter_21_小悪魔のおしおき.txt	like=0	tndl=1
+chapter_22_サイトのメイド.txt	like=0	tndl=17
+chapter_23_料理の鉄人.txt	like=0	tndl=12
+chapter_24_沈黙の応援.txt	like=0	tndl=1
+chapter_25_制服の魅力.txt	like=0	tndl=1
+chapter_26_手紙の秘密.txt	like=0	tndl=15
+chapter_27_タバサの秘密.txt	like=0	tndl=12
+chapter_28_ハルナの秘密.txt	like=0	tndl=1
+chapter_29_夜の秘密.txt	like=0	tndl=1

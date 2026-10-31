@@ -22,6 +22,7 @@ label forest_battle:
 
 # forest
 label ch1:
+    $ tndl(None)
     call overlay_screen("overlay",  "Chapter One: \"Louise of Zero\"", isUseBlur=False, text_mode="black") from _call_overlay_screen_4
     pause(2)
     $ dissolve_fx("forest", new_music="t18")
@@ -139,7 +140,8 @@ label ch1:
         voice "ch1_l_010"
         l "I-is that so...?"
 
-        $ update_sympathy(20)
+        $ update_sympathy(10)
+        $ tndl(30)
 
         voice "ch1_s_010"
         s "But why do girls take so long just picking out clothes? I just don't get it at all..."
@@ -158,7 +160,8 @@ label ch1:
         voice "ch1_s_013"
         s "Of course it's no good, right? Do you really want to dress up so badly that you'd go to the trouble of putting me through all this, huh?"
 
-        $ update_sympathy(-20)
+        $ update_sympathy(-10)
+        $ tndl(-30)
     else:
         "ERR"
 
@@ -387,7 +390,8 @@ label ch1:
         l "Saito..."
         pause(1)
 
-        $ update_sympathy(20)
+        $ update_sympathy(10)
+        $ tndl(30)
     elif choise_result == "neutral": 
         $ show_sprites(("mage", "s 1 sad"))
 
@@ -416,7 +420,8 @@ label ch1:
         voice "ch1_l_032"
         l "Wait, Saito! You can't possibly mean you're going to entrust this girl to these suspicious strangers we know nothing about?!"
         
-        $ update_sympathy(-20)
+        $ update_sympathy(-10)
+        $ tndl(-30)
 
         $ show_sprites(("l 3 angry", "s 3 sad"))
 
@@ -587,7 +592,8 @@ label ch1:
         $ show_sprites(("l 1 angry", "s 3 happy"))
         voice "ch1_l_044"
         l "...It's exactly that way of speaking that makes me unable to trust you. You don't even intend to answer seriously, do you? Is that how it is?"
-        $ update_sympathy(-20)
+        $ update_sympathy(-10)
+        $ tndl(-30)
 
         $ show_sprites(("l 1 angry", "s 3"))
         voice "ch1_s_049"
@@ -650,7 +656,8 @@ label ch1:
         l "Ah..."
 
         ## тут 3 раза подряд если повысили то уже максимум должен быть
-        $ update_sympathy(20)
+        $ update_sympathy(10)
+        $ tndl(30)
         $ show_sprites(("l 1 sad", "s 1 angry"))
         voice "ch1_s_060"
         s "I want any clue I can get to return to my original world. ...Ah, but of course, it's also true that I really do want to help her. That part's completely genuine."

@@ -73,8 +73,8 @@ label ch1_6:
             voice "ch1.6_t_001"
             t "...I asked Montmorency, and Kirche brought me here."
 
-            $ update_sympathy(-20, char_key="louise")
-            $ update_sympathy(20, char_key="tabitha")
+            $ update_sympathy(15, char_key="tabitha")
+            $ tndl(-30)
 
             voice "ch1.6_s_010"
             s "Thank you for the clear answer."
@@ -93,8 +93,8 @@ label ch1_6:
             voice "ch1.6_si_001"
             si "I-I don't know either."
 
-            $ update_sympathy(-20, char_key="louise")
-            $ update_sympathy(20, char_key="siesta")
+            $ update_sympathy(10, char_key="siesta")
+            $ tndl(-30)
             
             voice "ch1.6_s_012"
             s "Huh? Weren't you there when we came to call for you?"
@@ -139,7 +139,8 @@ label ch1_6:
             voice "ch1.6_l_003"
             l "Well, I suppose that's true. But I know what the cause is."
 
-            $ update_sympathy(20, char_key="louise")
+            $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
             voice "ch1.6_s_009"
             s "Eh?{#e?}"
@@ -175,8 +176,8 @@ label ch1_6:
             voice "ch1.6_k_006"
             k "Oh, there's no particular reason, really."
 
-            $ update_sympathy(-20, char_key="louise")
-            $ update_sympathy(20, char_key="kirche")
+            $ update_sympathy(10, char_key="kirche")
+            $ tndl(-30)
 
             voice "ch1.6_k_007"
             k "I heard you and Louise were doing something amusing, so I just dropped by to see for myself."
@@ -434,25 +435,25 @@ label ch1_6:
         "Yeah.{#v2}":
             voice "ch1.6_s_023"
             s "Yes, right away."
-            $ update_sympathy(20, char_key="louise")
+            $ tndl(30)
 
             voice "ch1.6_ha_023"
             ha "No! And here I was, so happy to finally meet Hiraga-kun again...!"
 
             $ shake_fx("butterbrot", sound=None, type="cg")
-            $ update_sympathy(-20, char_key="haruna")
+            $ update_sympathy(-10, char_key="haruna")
 
             voice "ch1.6_si_007"
             si "If we back off now, we lose!"
 
             $ shake_fx("butterbrot", sound=None, type="cg")
-            $ update_sympathy(-20, char_key="siesta")
+            $ update_sympathy(-10, char_key="siesta")
 
             voice "ch1.6_k_012"
             k "Ohoho! If you can pull away, then go ahead and try! Look, look!"
 
             $ shake_fx("butterbrot", sound=None, type="cg")
-            $ update_sympathy(-20, char_key="kirche")
+            $ update_sympathy(-10, char_key="kirche")
 
             voice "ch1.6_s_024"
             s "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
@@ -467,22 +468,22 @@ label ch1_6:
             
             voice "ch1.6_l_026"
             l "What did you just say?!{#ver3}"
-            $ update_sympathy(-20, char_key="louise")
+            $ tndl(-30)
 
             voice "ch1.6_s_026"
             s "No, look closely! I can't move a muscle, even if I wanted to get away!"
 
             voice "ch1.6_ha_024"
             ha "Hiraga-kun...~"
-            $ update_sympathy(20, char_key="haruna")
+            $ update_sympathy(10, char_key="haruna")
 
             voice "ch1.6_si_008"
             si "Saito-san!"
-            $ update_sympathy(20, char_key="siesta")
+            $ update_sympathy(10, char_key="siesta")
 
             voice "ch1.6_k_013"
             k "Vallière. You’ve lost. There isn't even a gap left to hug him now."
-            $ update_sympathy(20, char_key="kirche")
+            $ update_sympathy(10, char_key="kirche")
 
             $ fade_fx("ready_to_blow", type="cg")
             voice "ch1.6_l_027-2"

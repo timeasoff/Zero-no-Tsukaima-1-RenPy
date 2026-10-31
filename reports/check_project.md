@@ -4,7 +4,7 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (16)
+## ERROR (32)
 
 - E11 duplicate old in tl/japanese: ... (3 times) at game/tl/japanese/dialogs.rpy:471, game/tl/japanese/dialogs.rpy:17070, game/tl/japanese/dialogs.rpy:17379
 - E11 duplicate old in tl/japanese: Hm? (3 times) at game/tl/japanese/dialogs.rpy:9879, game/tl/japanese/dialogs.rpy:17019, game/tl/japanese/dialogs.rpy:17088
@@ -14,6 +14,14 @@
 - E11 duplicate old in tl/japanese: Oh, is that so? (2 times) at game/tl/japanese/dialogs.rpy:3105, game/tl/japanese/dialogs.rpy:17367
 - E11 duplicate old in tl/japanese: Yes? (2 times) at game/tl/japanese/dialogs.rpy:792, game/tl/japanese/dialogs.rpy:17211
 - E11 duplicate old in tl/japanese: You think so? (2 times) at game/tl/japanese/dialogs.rpy:11925, game/tl/japanese/dialogs.rpy:17328
+- E4 missing in tl/japanese: dialogue (But if I go back now, Louise will beat me to death for making her act ) at game/chapters/6/script-ch6_2.rpy:293
+- E4 missing in tl/japanese: dialogue (How long is this going to go on…?{#ch6_344_th_003}) at game/chapters/6/script-ch6_1.rpy:12
+- E4 missing in tl/japanese: dialogue (It has been several days since the play ended. We still haven't found ) at game/chapters/6/script-ch6_1.rpy:8
+- E4 missing in tl/japanese: dialogue (It seems to have cheered her up. Whether the food had anything to do w) at game/chapters/6/script-ch6_2.rpy:168
+- E4 missing in tl/japanese: dialogue (Oh no, we're too late!{#ch6_1429_th_001}) at game/chapters/6/script-ch6_1.rpy:504
+- E4 missing in tl/japanese: dialogue (She's truly a queen. She sees all that just by looking at the market.) at game/chapters/6/script-ch6_2.rpy:18
+- E4 missing in tl/japanese: dialogue (We've kept investigating, but we haven't found any promising informati) at game/chapters/6/script-ch6_1.rpy:10
+- E4 missing in tl/japanese: dialogue (What am I going to do...? If I confess that I took the princess out wi) at game/chapters/6/script-ch6_2.rpy:270
 - E11 duplicate old in tl/russian: ... (3 times) at game/tl/russian/dialogs.rpy:473, game/tl/russian/dialogs.rpy:16882, game/tl/russian/dialogs.rpy:17191
 - E11 duplicate old in tl/russian: Hm? (3 times) at game/tl/russian/dialogs.rpy:9885, game/tl/russian/dialogs.rpy:16831, game/tl/russian/dialogs.rpy:16900
 - E11 duplicate old in tl/russian: Huh? (3 times) at game/tl/russian/dialogs.rpy:32, game/tl/russian/dialogs.rpy:16846, game/tl/russian/dialogs.rpy:17128
@@ -22,10 +30,22 @@
 - E11 duplicate old in tl/russian: Oh, is that so? (2 times) at game/tl/russian/dialogs.rpy:3110, game/tl/russian/dialogs.rpy:17179
 - E11 duplicate old in tl/russian: Yes? (2 times) at game/tl/russian/dialogs.rpy:794, game/tl/russian/dialogs.rpy:17023
 - E11 duplicate old in tl/russian: You think so? (2 times) at game/tl/russian/dialogs.rpy:11931, game/tl/russian/dialogs.rpy:17140
+- E5 missing in tl/russian: dialogue (But if I go back now, Louise will beat me to death for making her act ) at game/chapters/6/script-ch6_2.rpy:293
+- E5 missing in tl/russian: dialogue (How long is this going to go on…?{#ch6_344_th_003}) at game/chapters/6/script-ch6_1.rpy:12
+- E5 missing in tl/russian: dialogue (It has been several days since the play ended. We still haven't found ) at game/chapters/6/script-ch6_1.rpy:8
+- E5 missing in tl/russian: dialogue (It seems to have cheered her up. Whether the food had anything to do w) at game/chapters/6/script-ch6_2.rpy:168
+- E5 missing in tl/russian: dialogue (Oh no, we're too late!{#ch6_1429_th_001}) at game/chapters/6/script-ch6_1.rpy:504
+- E5 missing in tl/russian: dialogue (She's truly a queen. She sees all that just by looking at the market.) at game/chapters/6/script-ch6_2.rpy:18
+- E5 missing in tl/russian: dialogue (We've kept investigating, but we haven't found any promising informati) at game/chapters/6/script-ch6_1.rpy:10
+- E5 missing in tl/russian: dialogue (What am I going to do...? If I confess that I took the princess out wi) at game/chapters/6/script-ch6_2.rpy:270
 
-## WARNING (309)
+## WARNING (325)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1349: (But if I go back now, Louise will beat me to death for making her act
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1343: (It seems to have cheered her up. Whether the food had anything to do 
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1340: (She's truly a queen. She sees all that just by looking at the market.
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1346: (What am I going to do...? If I confess that I took the princess out w
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:348: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -161,6 +181,10 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
 - W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:608: Zero reaction, huh... Now's not the time to back down.
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1333: _How long is this going to go on…?{#ch6_344_th_003}
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1327: _It has been several days since the play ended. We still haven't found
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1336: _Oh no, we're too late!{#ch6_1429_th_001}
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:1330: _We've kept investigating, but we haven't found any promising informat
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:146: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
@@ -168,6 +192,10 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
 - W5 18 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1348: (But if I go back now, Louise will beat me to death for making her act
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1342: (It seems to have cheered her up. Whether the food had anything to do 
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1339: (She's truly a queen. She sees all that just by looking at the market.
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1345: (What am I going to do...? If I confess that I took the princess out w
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -303,6 +331,10 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:426: Wing
 - W1 stale old in tl/russian at game/tl/russian/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:603: Zero reaction, huh... Now's not the time to back down.
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1332: _How long is this going to go on…?{#ch6_344_th_003}
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1326: _It has been several days since the play ended. We still haven't found
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1335: _Oh no, we're too late!{#ch6_1429_th_001}
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:1329: _We've kept investigating, but we haven't found any promising informat
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:65: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:148: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}

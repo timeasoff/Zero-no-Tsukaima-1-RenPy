@@ -40,6 +40,21 @@ default known_characters = set()
 # Видимость HUD иконки симпатии
 default sympathy_hud_visible = False
 
+# ============================================
+# ШКАЛА ТУНДЭРЕ (zero_tundele) — механика оригинала PS2, SCENE_0003.txt:
+#   tndl():2707-2728 — сброс в 127, шаг ±30, кламп 0..255;
+#   date():2551-2585 — < 40 → тундэре-событие (chapter_90),
+#                      >= 211 → дэре-событие (chapter_91, кормёжка = слот 0);
+#   getTunDeleScene():2485-2529 — выбор слота: event==0 → ×1, event==1 → ×4,
+#                      event==2 → приоритет (уровень 2), event>=3 → выбывает.
+# Отдельная шкала от zero_likes: в оригинале tndl() вызывается и после
+# like() других персонажей (знак может быть обратен знаку like).
+# ============================================
+default zero_tundele = 127
+default zero_tundele_count = 0
+default zero_tun_event = [0, 0, 0, 0, 0, 0]
+default zero_dele_event = [0, 0, 0, 0, 0, 0]
+
 # Словарь данных персонажей для системы симпатии
 init python:
     sympathy_characters = {
@@ -528,8 +543,11 @@ init python:
             1 = Луиза, 2 = Кюрке, 3 = Табаса, 4 = Сиеста,
             5 = Анриетта, 6 = Харуна.
         PS2 дополнительно принудительно ставит route=1 (Луиза) при
-        zero_tundele_count >= 4; счётчик тундэре-теста в ремастере не ведётся,
-        поэтому эта оговорка опущена (зафиксировано в reports/log.md).
+        zero_tundele_count >= 4; счётчик тундэре-метра в ремастере ведётся
+        с 2026-10-31 (zero_tundele, zero_tundele_count в sympathy.rpy;
+        инкремент — при показе портированной extra-сцены в ch1_10), но
+        оговорка >= 4 здесь пока не применяется — зафиксировано в
+        reports/log.md (запись 2026-10-31 «правка кода главы 1»).
 
         Порядок проверок полностью повторяет checkRoute() из SCENE_0003:
         Haruna (6), Siesta (4), Henrietta (5), Tabitha (3), Kirche (2).
@@ -579,4 +597,42 @@ init python:
 #
 # # Показать экран просмотра симпатии (видны только известные персонажи)
 # call screen sympathy_status
+# ============================================
+
+# ============================================
+# ФУНКЦИИ ШКАЛЫ ТУНДЭРЕ (механика оригинала PS2)
+# ============================================
+init python:
+    def tndl(add=None):
+        """Шкала тундэре (SCENE_0003.txt tndl():2707-2728).
+
+        None → сброс в 127 (вызов tndl(null) в начале главы источника),
+        иначе прибавить add с клампом 0..255.
+        """
+        if add is None:
+            renpy.store.zero_tundele = 127
+        else:
+            cur = getattr(renpy.store, "zero_tundele", 127)
+            renpy.store.zero_tundele = max(0, min(255, cur + add))
+
+    def tndl_pick(events):
+        """Выбор слота extra-сцены (реплика getTunDeleScene():2485-2529 при
+        restrict = false): уровень 2 (event == 2) приоритетен, иначе уровень 1
+        с весами (event == 0 → ×1, event == 1 → ×4, 確率4倍); event >= 3 →
+        слот выбывает. Возвращает номер слота 0..5 или None (показывать
+        нечего).
+        """
+        level1, level2 = [], []
+        for i, ev in enumerate(events):
+            if ev == 0:
+                level1.append(i)
+            elif ev == 1:
+                level1.extend((i, i, i, i))
+            elif ev == 2:
+                level2.append(i)
+        if level2:
+            return renpy.random.choice(level2)
+        if level1:
+            return renpy.random.choice(level1)
+        return None
 # ============================================

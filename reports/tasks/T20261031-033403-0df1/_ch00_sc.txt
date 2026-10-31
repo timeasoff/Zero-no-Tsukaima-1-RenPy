@@ -1,0 +1,2 @@
+checkRoute at line 1305, prev scene at line 440: ## SCENE 0003
+checkKiss at line 1315, prev scene at line 440: ## SCENE 0003

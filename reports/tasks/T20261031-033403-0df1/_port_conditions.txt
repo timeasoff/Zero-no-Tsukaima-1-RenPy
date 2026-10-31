@@ -1,0 +1,49 @@
+game/chapters/1/script-ch1_10.rpy:25: if louise_sympathy == 100:
+game/chapters/1/script-ch1_10.rpy:174: if louise_sympathy == 100:
+game/chapters/1/script-ch1_10.rpy:329: if louise_sympathy == 100:
+game/chapters/1/script-ch1_10.rpy:567: if louise_sympathy == 100:
+game/chapters/1/script-ch1_10.rpy:794: if louise_sympathy == 100:
+game/chapters/2/script-ch2_4.rpy:121: if "hallway" not in ch2_4_visited:
+game/chapters/2/script-ch2_4.rpy:123: if "kitchen" not in ch2_4_visited:
+game/chapters/2/script-ch2_4.rpy:125: if "yard" not in ch2_4_visited:
+game/chapters/2/script-ch2_4.rpy:127: if "classroom" not in ch2_4_visited:
+game/chapters/2/script-ch2_4.rpy:129: if "l_room" not in ch2_4_visited:
+game/chapters/2/script-ch2_5.rpy:434: if "l_room" not in ch2_5_visited:
+game/chapters/2/script-ch2_5.rpy:436: if "kirche_room" not in ch2_5_visited:
+game/chapters/2/script-ch2_5.rpy:438: if "tabitha_room" not in ch2_5_visited:
+game/chapters/2/script-ch2_5.rpy:440: if "corridor" not in ch2_5_visited:
+game/chapters/3/script-ch3_2.rpy:530: if "hallway" not in ch3_2_visited:
+game/chapters/3/script-ch3_2.rpy:532: if "siesta_hallway" not in ch3_2_visited:
+game/chapters/3/script-ch3_2.rpy:534: if "classroom" not in ch3_2_visited:
+game/chapters/3/script-ch3_2.rpy:536: if "courtyard" not in ch3_2_visited:
+game/chapters/3/script-ch3_2.rpy:538: if "l_room" not in ch3_2_visited:
+game/chapters/4/script-ch4_2.rpy:300: if "louise_room" not in ch4_2_visited:
+game/chapters/4/script-ch4_2.rpy:302: if "kitchen" not in ch4_2_visited:
+game/chapters/4/script-ch4_2.rpy:304: if "yard" not in ch4_2_visited:
+game/chapters/4/script-ch4_2.rpy:306: if "hallway" not in ch4_2_visited:
+game/chapters/4/script-ch4_2.rpy:308: if "h_room" not in ch4_2_visited:
+game/chapters/4/script-ch4_4.rpy:342: if "store" not in ch4_4_visited:
+game/chapters/4/script-ch4_4.rpy:344: if "apothecary" not in ch4_4_visited:
+game/chapters/4/script-ch4_4.rpy:346: if "stroll" not in ch4_4_visited:
+game/chapters/4/script-ch4_4.rpy:348: if "street" not in ch4_4_visited:
+game/chapters/5/script-ch5_10.rpy:50: if zero_route == 1:
+game/chapters/5/script-ch5_10.rpy:52: elif zero_route == 2:
+game/chapters/5/script-ch5_10.rpy:54: elif zero_route == 3:
+game/chapters/5/script-ch5_10.rpy:56: elif zero_route == 4:
+game/chapters/5/script-ch5_10.rpy:58: elif zero_route == 5:
+game/chapters/5/script-ch5_11.rpy:363: if zero_route == 1:
+game/chapters/5/script-ch5_11.rpy:365: elif zero_route == 2:
+game/chapters/5/script-ch5_11.rpy:367: elif zero_route == 3:
+game/chapters/5/script-ch5_11.rpy:369: elif zero_route == 4:
+game/chapters/5/script-ch5_11.rpy:371: elif zero_route == 5:
+game/chapters/5/script-ch5_7.rpy:64: if zero_route == 1:
+game/chapters/5/script-ch5_7.rpy:66: elif zero_route == 2:
+game/chapters/5/script-ch5_7.rpy:68: elif zero_route == 3:
+game/chapters/5/script-ch5_7.rpy:70: elif zero_route == 4:
+game/chapters/5/script-ch5_7.rpy:72: elif zero_route == 5:
+game/chapters/5/script-ch5_9.rpy:5: if zero_route == 5:
+game/scripts/features/sf_effect.rpy:311: if hasattr(store, "sympathy_hud_visible"):
+game/scripts/features/sympathy.rpy:161: if sympathy_hud_visible:
+game/scripts/features/sympathy.rpy:304: if char_key in known_characters:
+game/scripts/features/sympathy.rpy:378: if not known_characters:
+game/scripts/features/sympathy.rpy:413: if renpy.store.sympathy_hud_visible:

@@ -92,7 +92,8 @@ label ch1_2:
             voice "ch1.2_l_004"
             l "Um, th-that's right! I met her today when I went out to town. Apparently, she's a commoner from my hometown!"
 
-            $ update_sympathy(20)
+            $ update_sympathy(10)
+            $ tndl(30)
 
             voice "ch1.2_l_005"
             l "She said her purse was stolen on the way and she had nowhere to go, so I thought I'd take her in for a while."
@@ -109,7 +110,7 @@ label ch1_2:
             voice "ch1.2_s_007"
             s "Um, um, y-yeah, that's right! I ran into her in town, and she looked like she was going through a lot, so I just brought her along!"
 
-            $ update_sympathy(-20)
+            $ tndl(-30)
 
             $ show_sprites(("m 1 sad", "s 3 sad"))
             voice "ch1.2_m_014"
@@ -133,7 +134,7 @@ label ch1_2:
             voice "ch1.2_si_03"
             si "Um, y-yes, that's right! She's a distant relative from my home village."
 
-            $ update_sympathy(20, char_key="siesta")
+            $ update_sympathy(10, char_key="siesta")
             $ show_sprites(("si 1", "s 3 sad"))
             voice "ch1.2_si_04"
             si "She ran away from home, so I figured I'd let her stay for a few days."

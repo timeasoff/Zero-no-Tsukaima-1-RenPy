@@ -1,0 +1,33 @@
+CALL COUNTS in ps2_source/events_full/*.txt
+TOTALS: {'date': 27, 'tndl': 331, 'like': 273, 'checkRoute': 2, 'checkKiss': 7}
+
+chapter_00_システム（エンジン・メニュー）.txt	{'date': 2, 'tndl': 1, 'like': 1, 'checkRoute': 1, 'checkKiss': 1}
+chapter_01_プロローグ.txt	{'tndl': 1}
+chapter_02_ゼロのルイズ.txt	{'tndl': 32, 'like': 54, 'date': 1}
+chapter_03_黒髪の来訪者.txt	{'tndl': 35, 'like': 61, 'date': 1}
+chapter_04_女の戦い.txt	{'tndl': 36, 'like': 65, 'date': 1}
+chapter_05_トリスタニアの危機.txt	{'tndl': 23, 'like': 53, 'date': 1}
+chapter_06_本当の想い.txt	{'tndl': 32, 'like': 39, 'checkRoute': 1, 'date': 6}
+chapter_07_家出のお姫さま.txt	{'tndl': 13, 'date': 1}
+chapter_08_失望のお姫さま.txt	{'tndl': 8, 'date': 1}
+chapter_09_決意のお姫さま.txt	{'tndl': 1, 'checkKiss': 1}
+chapter_10_魅惑のお姫さま.txt	{'tndl': 1}
+chapter_11_突然のスカウト.txt	{'tndl': 15, 'date': 1}
+chapter_12_ハルナの決意.txt	{'tndl': 17, 'date': 4}
+chapter_13_もう一人のハルナ.txt	{'tndl': 1, 'checkKiss': 1}
+chapter_14_炎の予感.txt	{'tndl': 14, 'date': 1}
+chapter_15_私のお兄ちゃん.txt	{'tndl': 12, 'date': 1}
+chapter_16_魔法の薬.txt	{'tndl': 1, 'checkKiss': 1}
+chapter_17_微熱の使い手.txt	{'tndl': 1}
+chapter_18_女王の決断.txt	{'tndl': 10, 'date': 1}
+chapter_19_貴族の意地.txt	{'tndl': 15, 'date': 1}
+chapter_20_小悪魔と春風の協奏曲.txt	{'tndl': 1, 'checkKiss': 1}
+chapter_21_小悪魔のおしおき.txt	{'tndl': 1}
+chapter_22_サイトのメイド.txt	{'tndl': 17, 'date': 1}
+chapter_23_料理の鉄人.txt	{'tndl': 12, 'date': 1}
+chapter_24_沈黙の応援.txt	{'tndl': 1, 'checkKiss': 1}
+chapter_25_制服の魅力.txt	{'tndl': 1}
+chapter_26_手紙の秘密.txt	{'tndl': 15, 'date': 1}
+chapter_27_タバサの秘密.txt	{'tndl': 12, 'date': 1}
+chapter_28_ハルナの秘密.txt	{'tndl': 1, 'checkKiss': 1}
+chapter_29_夜の秘密.txt	{'tndl': 1}

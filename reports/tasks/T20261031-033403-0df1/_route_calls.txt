@@ -1,0 +1,4 @@
+ps2_source/events_full/chapter_00_システム（エンジン・メニュー）.txt:1305:checkRoute checkRoute()
+ps2_source/events_full/chapter_00_システム（エンジン・メニュー）.txt:1315:checkKiss  checkKiss()
+ps2_source/events_full/chapter_06_本当の想い.txt:2419:checkRoute checkRoute()
+ps2_source/events_full/chapter_09_決意のお姫さま.txt:490:checkKiss  checkKiss()

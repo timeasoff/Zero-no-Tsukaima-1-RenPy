@@ -166,7 +166,7 @@ label ch1_7:
             voice "ch1.7_s_006"
             s "What about using Kirche's room?"
 
-            $ update_sympathy(-20, char_key="siesta")
+            $ update_sympathy(-10, char_key="siesta")
             $ show_sprites(("si 1 sad", "k 1 angry"), anim_out="slide_right")
             voice "ch1.7_k_002"
             k "Huh, my room?"
@@ -267,8 +267,8 @@ label ch1_7:
             voice "ch1.7_si_005"
             si "Huh?{#he?}"
 
-            $ update_sympathy(20, char_key="siesta")
-            $ update_sympathy(-20, char_key="louise")
+            $ update_sympathy(10, char_key="siesta")
+            $ tndl(-30)
 
             $ show_sprites(("si 1 shy", "l 3 angry"))
             voice "ch1.7_l_016"

@@ -1,0 +1,654 @@
+===== game/chapters/1/script-ch1_2.rpy 80-145 =====
+80:     $ show_sprites(("l 1", "s 1 sad"))
+81:     voice "ch1.2_s_004"
+82:     s "Uh, um..."
+83: 
+84:     $ result = None
+85:     menu:
+86:         "Blame it on Louise":
+87:             $ show_sprites(("l 1", "s 3 happy"))
+88:             voice "ch1.2_s_005"
+89:             s "Um... Louise, what was our story again?"
+90: 
+91:             $ show_sprites(("l 3", "s 3 happy"))
+92:             voice "ch1.2_l_004"
+93:             l "Um, th-that's right! I met her today when I went out to town. Apparently, she's a commoner from my hometown!"
+94: 
+95:             $ update_sympathy(20)
+96: 
+97:             voice "ch1.2_l_005"
+98:             l "She said her purse was stolen on the way and she had nowhere to go, so I thought I'd take her in for a while."
+99: 
+100:             $ show_sprites(("m 4 sad", "s 3 happy"))
+101: 
+102:             voice "ch1.2_m_008"
+103:             m "Hmm... Well, she certainly does look terribly exhausted. If that's the case, I suppose it can't be helped."
+104: 
+105:             th "Nice one, Louise!"
+106:             
+107:         "Try to cover it up yourself":
+108:             $ show_sprites(("l 1", "s 3 sad"))
+109:             voice "ch1.2_s_007"
+110:             s "Um, um, y-yeah, that's right! I ran into her in town, and she looked like she was going through a lot, so I just brought her along!"
+111: 
+112:             $ update_sympathy(-20)
+113: 
+114:             $ show_sprites(("m 1 sad", "s 3 sad"))
+115:             voice "ch1.2_m_014"
+116:             m "Is that so? But bringing a commoner along so suddenly like that is quite improper, you know."
+117: 
+118:             $ show_sprites(("m 1 sad", "s 3 happy"))
+119:             voice "ch1.2_s_011"
+120:             s "Hahaha. I'm such a naughty boy, huh..."
+121: 
+122:             $ show_sprites(("m 4 sad", "s 3 happy"))
+123:             voice "ch1.2_m_015"
+124:             m "...Well, I'll do you the favor of just leaving it at that."
+125:             
+126: 
+127:         "Blame it on Siesta":
+128:             $ show_sprites(("l 1", "s 3 sad"))
+129:             voice "ch1.2_s_006"
+130:             s "Um... Siesta, what was our story again?"
+131: 
+132:             $ show_sprites(("si 1 angry", "s 3 sad"))
+133:             voice "ch1.2_si_03"
+134:             si "Um, y-yes, that's right! She's a distant relative from my home village."
+135: 
+136:             $ update_sympathy(20, char_key="siesta")
+137:             $ show_sprites(("si 1", "s 3 sad"))
+138:             voice "ch1.2_si_04"
+139:             si "She ran away from home, so I figured I'd let her stay for a few days."
+140: 
+141: 
+142:             $ show_sprites(("m 4 angry", "s 3 sad"))
+143:             voice "ch1.2_m_016"
+144:             m "Hmm... Well, I suppose you're right. You two do have the exact same eye color and everything. If she really is a relative, then I suppose it can't be helped."
+145: 
+
+===== game/chapters/1/script-ch1_3.rpy 85-135 =====
+85:     si "This is just my imagination... but is this person from the same country as Saito-san and my great-grandfather?"
+86: 
+87:     voice "ch1.3_s_026"
+88:     s "That is..."
+89: 
+90:     menu:
+91:         "You might be right.":
+92:             voice "ch1.3_s_027"
+93:             s "Probably, that might be the case. But you won't know the details unless you ask the person themselves."
+94: 
+95:             voice "ch1.3_si_011"
+96:             si "Is that so... Someone from the same country as Saito-san... Then, Saito-san must be curious too, right?"
+97: 
+98:             $ update_sympathy(20, char_key="siesta")
+99:             $ update_sympathy(-20, char_key="louise")
+100: 
+101:             $ show_sprites(("s 3 sad", "si 1"))
+102:             voice "ch1.3_s_028"
+103:             s "Eh? W-well, yeah."
+104: 
+105:             voice "ch1.3_s_029"
+106:             s "But right now, I have no idea what's going on at all."
+107: 
+108:             voice "ch1.3_si_012"
+109:             si "I suppose so."
+110:         #neutral
+111:         "I doubt it's just a coincidence.":
+112:             $ show_sprites(("s 3 sad", "si 1"))
+113:             voice "ch1.3_s_035"
+114:             s "I don't think it's a coincidence. I doubt there are many people in the same circumstances as me."
+115: 
+116:             voice "ch1.3_si_018"
+117:             si "I suppose so."
+118:         "I don't really know.{#var2}":
+119:             voice "ch1.3_s_036"
+120:             s "I wonder... I don't really understand it myself either."
+121: 
+122:             $ show_sprites(("s 1", "si 1 sad"))
+123:             voice "ch1.3_si_019"
+124:             si "Is that so?"
+125: 
+126:             $ update_sympathy(-20, char_key="siesta")
+127:             $ update_sympathy(20, char_key="louise")
+128: 
+129:             $ show_sprites(("s 3 sad", "si 1 sad"))
+130:             voice "ch1.3_s_037"
+131:             s "Just like Siesta, there's also the possibility that their grandfather or father was from the same country as me. But you won't know unless you ask."
+132: 
+133:             $ show_sprites(("s 3 sad", "si 1"))
+134:             voice "ch1.3_si_020"
+135:             si "Ah, you're right."
+
+===== game/chapters/1/script-ch1_3.rpy 235-315 =====
+235: 
+236:     $ show_sprites(("l 1 sad", "s 3 sad"))
+237:     s "Huh...?"
+238: 
+239:     menu:
+240:         "Yeah, I want to go back.":
+241:             $ show_sprites(("l 1 sad", "s 3"))
+242:             voice "ch1.3_s_045"
+243:             s "Ah, I really want to go home. I don't know when that'll be, but I'm definitely going back. That's my main goal right now, after all."
+244: 
+245:             voice "ch1.3_l_009"
+246:             l " ...Yes. That's right, isn't it... As I thought."
+247: 
+248:             $ show_sprites(("l 1 sad", "s 1"))
+249:             voice "ch1.3_s_046"
+250:             s "What's wrong with that?"
+251: 
+252:             voice "ch1.3_l_010"
+253:             l "It's nothing!"
+254: 
+255:         "I've already forgotten about my world.":
+256:             $ show_sprites(("l 1 sad", "s 1"))
+257:             voice "ch1.3_s_049"
+258:             s "I've already forgotten about my original world. This place is my home now."
+259: 
+260:             $ show_sprites(("l 3", "s 1"))
+261:             voice "ch1.3_l_013"
+262:             l "...Liar."
+263: 
+264:             $update_sympathy(-20)
+265:             $ show_sprites(("l 3", "s 3 angry"))
+266:             voice "ch1.3_s_050"
+267:             s "What's with that? I thought you were gonna ask me a question, but instead you're calling me a liar."
+268: 
+269:             voice "ch1.3_l_014"
+270:             l "Saying you don't want to go back to your original world is obviously a lie."
+271:             $ show_sprites(("l 3", "s 3 sad"))
+272:             voice "ch1.3_s_051"
+273:             s "...That is, well..."
+274: 
+275:             voice "ch1.3_l_015"
+276:             l "You shouldn't tell such transparent lies. You realize how disrespectful that is, right?"
+277: 
+278:             $ show_sprites(("l 3", "s 1 sad"))
+279:             voice "ch1.3_s_052"
+280:             s "...Sorry."
+281: 
+282:             $ show_sprites(("l 1", "s 1 sad"))
+283:             voice "ch1.3_l_016"
+284:             l "Just forget it."
+285: 
+286:         "I don't really know.":
+287:             voice "ch1.3_s_053"
+288:             s "«I don't really know right now. I mean, of course I want to go back, but..."
+289: 
+290:             voice "ch1.3_l_017"
+291:             l "But?"
+292: 
+293:             $ show_sprites(("l 1 sad", "s 3 happy"))
+294:             voice "ch1.3_s_054"
+295:             s "Looks like I've already finished everything I was supposed to do in this world."
+296: 
+297:             $ show_sprites(("l 1 sad", "s 1"))
+298:             voice "ch1.3_s_055"
+299:             s "Honestly, I don't know if it's right to just abandon everything here and go back."
+300: 
+301:             $ show_sprites(("l 1", "s 1"))
+302:             voice "ch1.3_l_018"
+303:             l "Hmm.."
+304: 
+305:             $update_sympathy(20)
+306: 
+307:             
+308:     $ show_sprites(("l 3", "s 1"))
+309:     voice "ch1.3_l_011"
+310:     l "Right then. You still have business to attend to, so hurry up and get to it!"
+311: 
+312:     $ show_sprites(("l 3", "s 1 angry"))
+313:     voice "ch1.3_s_047"
+314:     s "Wh-what the hell! Then don't talk to me!"
+315: 
+
+===== game/chapters/1/script-ch1_3.rpy 373-435 =====
+373:     $ show_sprites(("m 1 happy", "s 3 shy"))
+374:     voice "ch1.3_s_006"
+375:     s "Eh!?"
+376: 
+377:     menu:
+378:         "How did you know!?{#var1}":
+379:             voice "ch1.3_s_008"
+380:             s "How did you know!?{#var1}"
+381: 
+382:             $ show_sprites(("m 1 shy", "s 3 shy"))
+383:             voice "ch1.3_m_008"
+384:             m "Oh my? So it really was true? I was just trying to fish for a reaction..."
+385:             $ update_sympathy(-20)
+386: 
+387:             $ show_sprites(("m 1 shy", "s 3"))
+388:             voice "ch1.3_s_009"
+389:             s "No, no, it's just a joke. We just met today, so there's no way that's true, right?"
+390: 
+391:             $ show_sprites(("m 4", "s 3"))
+392:             voice "ch1.3_m_009"
+393:             m "My, my, my. I wonder if that's really true?"
+394: 
+395:             $ show_sprites(("m 4", "s 1 angry"))
+396:             voice "ch1.3_s_010"
+397:             s "Yeah, it's got absolutely nothing to do with it."
+398: 
+399:         "Why do you think that?":
+400:             $ show_sprites(("m 1 shy", "s 3 sad"))
+401:             voice "ch1.3_s_016"
+402:             s "Why would you think that? I just happened to save that girl who collapsed on the road, that's all, right?"  
+403: 
+404:             $ show_sprites(("m 1 sad", "s 3 sad"))  
+405:             voice "ch1.3_m_016"
+406:             m "I wonder if it was really just a coincidence? Or did you actually arrange it all beforehand and stage a little play to get her into the academy... or something?"
+407: 
+408:             voice "ch1.3_s_017"
+409:             s "Why would I go through all that trouble? Besides, Louise would be totally against it, right?"
+410: 
+411:             $ show_sprites(("m 4 sad", "s 3 sad"))
+412:             voice "ch1.3_m_017"
+413:             m "Hmmm?"
+414: 
+415:             $ show_sprites(("m 4 sad", "s 1 angry"))
+416:             voice "ch1.3_s_018"
+417:             s "Just believe me!"
+418: 
+419:         "Th-there's no way that's true, right?":
+420:             voice "ch1.3_s_007"
+421:             s "T-there's no way that's true, right?"
+422: 
+423:             $ show_sprites(("m 1 sad", "s 3 shy"))
+424:             voice "ch1.3_m_014"
+425:             m "Oh my? Am I wrong? My instincts are usually pretty good, though... Or maybe you have a crush on Louise?"
+426: 
+427:             $ update_sympathy(20)
+428:             $ show_sprites(("m 1 sad", "s 3 sad"))
+429:             voice "ch1.3_s_014"
+430:             s "N-no, I'm telling you, that's not it! And it's not like that with Louise either, I swear!"
+431: 
+432:             $ show_sprites(("m 4", "s 3 sad"))
+433:             voice "ch1.3_m_015"
+434:             m "Oh my? Then... that maid?"
+435: 
+
+===== game/chapters/1/script-ch1_5.rpy 85-145 =====
+85:     voice "ch1.5_s_015"
+86:     s "Well, the thing is..."
+87: 
+88:     $ result = None
+89:     menu:
+90:         "Louise is just half-asleep!":
+91:             voice "ch1.5_s_016"
+92:             s "That Louise is just half-asleep..."
+93: 
+94:             voice "ch1.5_s_017"
+95:             s "If this keeps up, I might be stuck in bed for the rest of my life, hehe... Or so I could say... How does that sound?"
+96: 
+97:             voice "ch1.5_si_008"
+98:             si "That must be a dreadful situation."
+99: 
+100:             voice "ch1.5_si_009"
+101:             si "How on earth did he manage to catch the attention of Miss Vallière... I'm quite curious."
+102: 
+103:             voice "ch1.5_s_018"
+104:             s "S-Siesta..."
+105: 
+106:             voice "ch1.5_l_001"
+107:             l "Mmm..."
+108: 
+109:             voice "ch1.5_s_019"
+110:             s "Ah, looks like Louise is waking up."
+111: 
+112:             voice "ch1.5_l_002"
+113:             l "Mmm... {i}yaaaawn{/i}... Huh, Saito...?"
+114:         
+115:         "We need a witness's testimony here!":
+116:             $ result = 'TESTIMONY!!!'
+117: 
+118:             voice "ch1.5_s_021"
+119:             s "At this juncture, it is my intention to prove my innocence through the testimony of a third party!"
+120: 
+121:             voice "ch1.5_si_012"
+122:             si "A third party...? But currently, there is no one else in this room besides Saito-san, myself, and Miss Vallière."
+123: 
+124:             voice "ch1.5_s_022"
+125:             s "I have my partner with me! Hey, Derf!"
+126: 
+127:             voice "ch1.5_d_001"
+128:             d "What's up, partner? What do you need from me this early in the morning?"
+129: 
+130:             voice "ch1.5_d_002"
+131:             d "Hold on, what's going on here? Sneaking around with a village girl in a noble's bedroom? You're as reckless as ever, partner."
+132: 
+133:             voice "ch1.5_si_013"
+134:             si "W-What!? No, I'm not mentally ready for something like that!"
+135: 
+136:             $ update_sympathy(20, char_key="siesta")
+137:             $ update_sympathy(-20, char_key="louise")
+138: 
+139:             voice "ch1.5_s_023"
+140:             s "That's not it! Don't say things that will be completely misunderstood!"
+141: 
+142:             voice "ch1.5_d_003"
+143:             d "Tch, what a drag. Anyway, what do you really need?"
+144: 
+145:             voice "ch1.5_s_024"
+
+===== game/chapters/1/script-ch1_5.rpy 200-220 =====
+200:             l "Mmm... mm..."
+201: 
+202:             voice "ch1.5_s_031"
+203:             s "Louise! Come on, wake up!"
+204: 
+205:             voice "ch1.5_l_007"
+206:             l "Mmm..."
+207: 
+208:             voice "ch1.5_si_016"
+209:             si "!!!!!"
+210: 
+211:             $ update_sympathy(-20, char_key="siesta")
+212:             $ update_sympathy(20, char_key="louise")
+213: 
+214:             voice "ch1.5_s_032"
+215:             s "Lu-, Louise!? Wait a minute, there's a limit to sleep-hugging! Don't cling to me, don't squeeze me!"
+216: 
+217:             voice "ch1.5_si_017"
+218:             si "Sa... Saito-san..."
+219: 
+220:             voice "ch1.5_s_033"
+
+===== game/chapters/1/script-ch1_6.rpy 60-190 =====
+60:     th "Tabitha excels in the wind element of magic. She is known as 'Tabitha the Snowstorm'."
+61:     th "Always taciturn and devoid of expression. What goes on in her mind is a mystery. Yet, she and Kirche are surprisingly close..."
+62:     
+63:     $ show_sprites(("k 1", "t 1"))
+64:     th "Kirche being curious is one thing, but it's rare for Tabitha, who is always quietly reading a book, to actually show up."
+65:     th "I wonder why they came here..."
+66: 
+67:     menu:
+68:         "Ask Tabitha":
+69:             $ show_sprites(("s 3 sad", "t 1"))
+70:             voice "ch1.6_s_007-2"
+71:             s "Hey, Tabitha. Why are you here?"
+72: 
+73:             voice "ch1.6_t_001"
+74:             t "...I asked Montmorency, and Kirche brought me here."
+75: 
+76:             $ update_sympathy(-20, char_key="louise")
+77:             $ update_sympathy(20, char_key="tabitha")
+78: 
+79:             voice "ch1.6_s_010"
+80:             s "Thank you for the clear answer."
+81: 
+82:             voice "ch1.6_t_002"
+83:             t "...But I do have an interest."
+84: 
+85:             voice "ch1.6_s_011"
+86:             s "Oh, really?"
+87: 
+88:         "Ask Siesta":
+89:             $ show_sprites(("si 1 sad", "s 3 sad"), anim_out="slide_right", anim_in="slide_right")
+90:             voice "ch1.6_s_007-3"
+91:             s "Hey, Siesta. Why are there so many people here?"
+92:             
+93:             voice "ch1.6_si_001"
+94:             si "I-I don't know either."
+95: 
+96:             $ update_sympathy(-20, char_key="louise")
+97:             $ update_sympathy(20, char_key="siesta")
+98:             
+99:             voice "ch1.6_s_012"
+100:             s "Huh? Weren't you there when we came to call for you?"
+101:             
+102:             voice "ch1.6_si_002"
+103:             si "Yes. I did let Miss Montmorency know, but as for everyone else, absolutely nothing..."
+104:             
+105:             $ show_sprites(("si 1 sad", "l 1 angry"))
+106:             voice "ch1.6_l_006"
+107:             l "So that leaves only one possible answer, doesn't it? Say, Montmorency?"
+108:             
+109:             $ show_sprites(("m 4 happy", "l 1 angry"))
+110:             voice "ch1.6_m_002"
+111:             m "...Hohoho."
+112:             
+113:             $ show_sprites(("k 1", "l 1 angry"))
+114:             voice "ch1.6_k_004"
+115:             k "Now, now. I don't know the circumstances, but it seems like it's turning into something fun, doesn't it?"
+116:             
+117:             voice "ch1.6_l_007-2"
+118:             l "There's nothing fun about it, really."
+119: 
+120:             $ show_sprites(("t 1", "l 1 angry"))
+121:             voice "ch1.6_t_002-2"
+122:             t "...But I do have an interest."
+123: 
+124:             $ show_sprites(("t 1", "s 3 sad"))
+125:             voice "ch1.6_s_011-2"
+126:             s "Oh, really?"
+127:             
+128:         "Ask Louise":
+129:             $ show_sprites(("l 3 angry", "s 3 sad"), anim_out="slide_right", anim_in="slide_right")
+130:             voice "ch1.6_s_007-4"
+131:             s "Hey, Louise. Why are there so many people here?"
+132: 
+133:             voice "ch1.6_l_002"
+134:             l "As if I'd know, considering I came here with you!"
+135: 
+136:             voice "ch1.6_s_008"
+137:             s "Yeah, that's a perfectly valid point, but I thought that perhaps only Louise could share this feeling of having nowhere to turn."
+138: 
+139:             voice "ch1.6_l_003"
+140:             l "Well, I suppose that's true. But I know what the cause is."
+141: 
+142:             $ update_sympathy(20, char_key="louise")
+143: 
+144:             voice "ch1.6_s_009"
+145:             s "Eh?{#e?}"
+146: 
+147:             $ show_sprites(("l 3", "s 3 sad"))
+148:             voice "ch1.6_l_004"
+149:             l  "Tell me, Siesta. It wasn't this bustling before you came to fetch us, was it?"
+150: 
+151:             $ show_sprites(("l 3", "si 1 sad"))
+152:             voice "ch1.6_si_002-2"
+153:             si "Yes. I did let Miss Montmorency know, but as for everyone else, absolutely nothing..."
+154: 
+155:             $ show_sprites(("l 3 angry", "si 1 sad"))
+156:             voice "ch1.6_l_006-2"
+157:             l "So that leaves only one possible answer, doesn't it? Say, Montmorency?"
+158: 
+159:             $ show_sprites(("l 3 angry", "m 4 happy"))
+160:             voice "ch1.6_m_002-2"
+161:             m "...Hohoho."
+162: 
+163:             $ show_sprites(("k 1", "t 1"), anim_out="slide_right", anim_in="slide_right")
+164:             voice "ch1.6_k_005"
+165:             k "Well, why not. Depending on what we're dealing with, we can give a hand too."
+166: 
+167:             t "..."
+168: 
+169:         "Ask Kirche":
+170:             $ show_sprites(("k 1", "s 3 sad"))
+171: 
+172:             voice "ch1.6_s_007"
+173:             s "Hey, Kirche. Why are you here?"
+174: 
+175:             voice "ch1.6_k_006"
+176:             k "Oh, there's no particular reason, really."
+177: 
+178:             $ update_sympathy(-20, char_key="louise")
+179:             $ update_sympathy(20, char_key="kirche")
+180: 
+181:             voice "ch1.6_k_007"
+182:             k "I heard you and Louise were doing something amusing, so I just dropped by to see for myself."
+183: 
+184:             voice "ch1.6_s_013"
+185:             s "Heard it...? From whom?"
+186: 
+187:             $ show_sprites(("k 1", "l 3 angry"))
+188:             voice "ch1.6_l_006-3"
+189:             l "It goes without saying, doesn’t it? Say, Montmorency?"
+190:             
+
+===== game/chapters/1/script-ch1_6.rpy 425-495 =====
+425:     s "Aah! Tabitha, when did you get into the corner of the room!?"
+426: 
+427:     voice "ch1.6_l_025"
+428:     l "...Saito. Please, step away from those women immediately."
+429: 
+430:     voice "ch1.6_s_022"
+431:     s "She says to get away..."
+432:     
+433:     menu:
+434:         "Yeah.{#v2}":
+435:             voice "ch1.6_s_023"
+436:             s "Yes, right away."
+437:             $ update_sympathy(20, char_key="louise")
+438: 
+439:             voice "ch1.6_ha_023"
+440:             ha "No! And here I was, so happy to finally meet Hiraga-kun again...!"
+441: 
+442:             $ shake_fx("butterbrot", sound=None, type="cg")
+443:             $ update_sympathy(-20, char_key="haruna")
+444: 
+445:             voice "ch1.6_si_007"
+446:             si "If we back off now, we lose!"
+447: 
+448:             $ shake_fx("butterbrot", sound=None, type="cg")
+449:             $ update_sympathy(-20, char_key="siesta")
+450: 
+451:             voice "ch1.6_k_012"
+452:             k "Ohoho! If you can pull away, then go ahead and try! Look, look!"
+453: 
+454:             $ shake_fx("butterbrot", sound=None, type="cg")
+455:             $ update_sympathy(-20, char_key="kirche")
+456: 
+457:             voice "ch1.6_s_024"
+458:             s "Whoa! It feels like I'm surrounded by marshmallows, and they just won't let go of my face and body!"
+459: 
+460:             $ fade_fx("ready_to_blow", type="cg")
+461:             voice "ch1.6_l_027"
+462:             l "Fufufu, fufufu... I see. So you’ve decided to simply shamelessly embrace this, have you, Saito?"
+463: 
+464:         "Nope.":
+465:             voice "ch1.6_s_025"
+466:             s "No, that is impossible, Master."
+467:             
+468:             voice "ch1.6_l_026"
+469:             l "What did you just say?!{#ver3}"
+470:             $ update_sympathy(-20, char_key="louise")
+471: 
+472:             voice "ch1.6_s_026"
+473:             s "No, look closely! I can't move a muscle, even if I wanted to get away!"
+474: 
+475:             voice "ch1.6_ha_024"
+476:             ha "Hiraga-kun...~"
+477:             $ update_sympathy(20, char_key="haruna")
+478: 
+479:             voice "ch1.6_si_008"
+480:             si "Saito-san!"
+481:             $ update_sympathy(20, char_key="siesta")
+482: 
+483:             voice "ch1.6_k_013"
+484:             k "Vallière. You’ve lost. There isn't even a gap left to hug him now."
+485:             $ update_sympathy(20, char_key="kirche")
+486: 
+487:             $ fade_fx("ready_to_blow", type="cg")
+488:             voice "ch1.6_l_027-2"
+489:             l "Fufufu, fufufu... Ah, I see. So Saito has absolutely no intention of pulling away?"
+490: 
+491:             voice "ch1.6_s_027"
+492:             s "No, it's not that I don't want to pull away, it's that they won't let me go, do you understand!?"
+493: 
+494:     voice "ch1.6_l_028"
+495:     l "Fine!!! Then I'll force you away from them!!"
+
+===== game/chapters/1/script-ch1_7.rpy 118-180 =====
+118:     voice "ch1.7_o_011"
+119:     o "Hmm? Indeed... I hadn't thought that far ahead."
+120: 
+121:     th "In that case..."
+122: 
+123:     menu:
+124:         "Can't something be done, Headmaster?":
+125:             $ show_sprites(("o 1 sad", "s 1 angry"))
+126:             voice "ch1.7_s_004"
+127:             s "Isn't there a way to resolve this, Headmaster?"
+128: 
+129:             voice "ch1.7_o_012"
+130:             o "Hmm. Let's see..."
+131: 
+132:             $ show_sprites(("o 1", "s 1 angry"))
+133:             voice "ch1.7_o_013"
+134:             o "May I make that decision?"
+135: 
+136:             $ show_sprites(("o 1", "si 1"))
+137:             voice "ch1.7_si_004"
+138:             si "Oh, yes. Please do."
+139: 
+140:             voice "ch1.7_o_014"
+141:             o "Miss Vallière. You're to look after her in your room until the repairs are done."
+142: 
+143:             $ show_sprites(("o 1", "si 1 shy"))
+144:             voice "ch1.7_si_005-2"
+145:             si "Huh?{#he?}"
+146: 
+147:             $ show_sprites(("o 1", "l 1 angry"))
+148:             voice "ch1.7_l_007"
+149:             l "H-hold on, Old Osmond! That's going too far, I mean...!"
+150: 
+151:             voice "ch1.7_o_015"
+152:             o "Hmm? Is there a problem with that?"
+153: 
+154:             $ show_sprites(("o 1", "l 1 sad"))
+155:             voice "ch1.7_l_008"
+156:             l "Uh, um..."
+157: 
+158:             voice "ch1.7_o_016"
+159:             o "Now, now, just consider it extra lessons while the repairs are underway."
+160: 
+161:             voice "ch1.7_l_009"
+162:             l "...Understood."
+163: 
+164:         "What about Kirche's room?":
+165:             $ show_sprites(("si 1 sad", "s 1"), anim_in="slide_right", anim_out="slide_right")
+166:             voice "ch1.7_s_006"
+167:             s "What about using Kirche's room?"
+168: 
+169:             $ update_sympathy(-20, char_key="siesta")
+170:             $ show_sprites(("si 1 sad", "k 1 angry"), anim_out="slide_right")
+171:             voice "ch1.7_k_002"
+172:             k "Huh, my room?"
+173: 
+174:             $ show_sprites(("si 1 sad", "k 4 sad"))
+175:             voice "ch1.7_k_003"
+176:             k "Hmm, it's not a bad idea, but isn't it a bit too intense for her?"
+177: 
+178:             $ show_sprites(("si 1 shy", "k 4 sad"))
+179:             voice "ch1.7_si_005-3"
+180:             si "Eh? Eh? Eeh?!"
+
+===== game/chapters/1/script-ch1_7.rpy 255-280 =====
+255:             voice "ch1.7_si_008"
+256:             si "Yes! I will do my best!"
+257: 
+258:             $ show_sprites(("s 3 sad"), anim_in="slide_right", anim_out="slide_right")
+259:             th "What are you talking about...?"
+260: 
+261:         "You can come to my room.":
+262:             $ show_sprites(("si 1 sad", "s 1"), anim_in="slide_right", anim_out="slide_right")
+263:             voice "ch1.7_s_010"
+264:             s "In that case, you can stay in my room."
+265: 
+266:             $ show_sprites(("si 1 shy", "s 1"))
+267:             voice "ch1.7_si_005"
+268:             si "Huh?{#he?}"
+269: 
+270:             $ update_sympathy(20, char_key="siesta")
+271:             $ update_sympathy(-20, char_key="louise")
+272: 
+273:             $ show_sprites(("si 1 shy", "l 3 angry"))
+274:             voice "ch1.7_l_016"
+275:             l "Hey Saito! What are you talking about?!"
+276: 
+277: 
+278:             $ show_sprites(("si 1 sad", "l 3 angry"))
+279:             voice "ch1.7_si_009"
+280:             si "But, but is that really okay?"
+

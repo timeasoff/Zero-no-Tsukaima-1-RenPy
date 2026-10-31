@@ -95,7 +95,8 @@ label ch1_9:
             voice "ch1.9_s_006"
             s "B-but isn't that cruel?"
 
-            $ update_sympathy(20, char_key="louise")
+            $ update_sympathy(10, char_key="louise")
+            $ tndl(30)
 
         "Don't say such awful things!":
             $ show_sprites(("l 1 angry", "s 1 angry"))
@@ -105,7 +106,8 @@ label ch1_9:
             voice "ch1.9_l_005-2"
             l "What's awful about it? I'm just stating the obvious."
 
-            $ update_sympathy(-20, char_key="louise")
+            $ update_sympathy(-10, char_key="louise")
+            $ tndl(-30)
 
             $ show_sprites(("l 1 angry", "s 3 angry"))
             voice "ch1.9_s_006-2"

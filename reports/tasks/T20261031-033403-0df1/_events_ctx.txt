@@ -1,0 +1,151 @@
+===== chapter_00_システム（エンジン・メニュー）.txt target L1367 =====
+header: (1268, 'if         if(zero_tndl_scene != 0)')
+1360: TNDL       tndlStart()
+1361: GOTO       next(zero_tndl_scene, true)
+1362: tndlEnd    tndlEnd()
+1363: GOTO       next(zero_tndl_done, true)
+1364: isMax      isMax(n)
+1365: for        for(local i=0;i<6;i++)
+1366: if         if(i != n && zero_likes[i] > v)
+1367: checkRoute checkRoute()
+1368: addLine    addLine()
+1369: if         if(!isJump2())
+1370: if         if(zero_tundele_count >= 4)
+1371: if         if(zero_tundele_count >= 4)
+
+===== chapter_00_システム（エンジン・メニュー）.txt target L1377 =====
+header: (1268, 'if         if(zero_tndl_scene != 0)')
+1370: if         if(zero_tundele_count >= 4)
+1371: if         if(zero_tundele_count >= 4)
+1372: if         if(isMax(5))
+1373: if         if(isMax(3))
+1374: if         if(isMax(4))
+1375: if         if(isMax(2))
+1376: if         if(isMax(1))
+1377: checkKiss  checkKiss()
+1378: addLine    addLine()
+1379: if         if(!isJump2())
+1380: setClear   setClear()
+1381: addLine    addLine()
+
+===== chapter_06_本当の想い.txt target L2419 =====
+header: None
+2412: DIALOGUE   talk("繧｢繝ｳ繝ｪ繧ｨ繝�繧ｿ", null, "窶ｦ窶ｦ縲�", (0x04000000 +578))
+2413: MSGOFF     msgoff()
+2414: SET        set("se1", {stop = 1})
+2415: SET        set("bgm", {stop = 1000})
+2416: SET        set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139})
+2417: SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+2418: WAIT       waitTime(1000, true)
+2419: checkRoute checkRoute()
+2420: GOTO       next((0x01000000 +1134), zero_route == 1)
+2421: GOTO       next((0x01000000 +1144), zero_route == 2)
+2422: GOTO       next((0x01000000 +1149), zero_route == 3)
+2423: GOTO       next((0x01000000 +1139), zero_route == 4)
+
+===== chapter_09_決意のお姫さま.txt target L490 =====
+header: None
+483: SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)})
+484: DIALOGUE   talk("繧ｵ繧､繝�", null, "縺ｯ縲√�ｯ縺�縲�\n閨槭＞縺ｦ縺ｾ縺吶�", (0x04000000 +13615))
+485: SET        set("lay8", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+486: SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+487: SET        set("lay8", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +787)})
+488: DIALOGUE   talk("繧｢繝ｳ繝ｪ繧ｨ繝�繧ｿ", null, "譛ｬ蠖薙↓�ｼ�", (0x04000000 +891))
+489: DIALOGUE   talk("繧ｵ繧､繝�", null, "譛ｬ蠖薙〒縺吶▲縺ｦ縺ｰ縲�\n縺昴ｓ縺ｪ縺ｫ隧ｰ繧∝ｯ�繧峨↑縺上※繧やｦ窶ｦ縲�", (0x04000000 +13616))
+490: checkKiss  checkKiss()
+491: GOTO       next((0x01000000 +417), zero_kiss)
+492: GOTO       next((0x01000000 +418), !zero_kiss)
+493: 
+494: ## SCENE 0417
+
+===== chapter_13_もう一人のハルナ.txt target L441 =====
+header: None
+434: DIALOGUE   talk("繧ｵ繧､繝�", null, "�ｼ遺ｦ窶ｦ縺�縺滂ｼ―n縲譏･螂医□�ｼ��ｼ�", null)
+435: SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+436: SET        set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +951)})
+437: DIALOGUE   talk("繝上Ν繝�", null, "莨壹＞縺溘°縺｣縺溪ｦ窶ｦ縲�", (0x04000000 +2612))
+438: SET        set("lay7", {y = 0,x = -96})
+439: SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1B",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +405)})
+440: DIALOGUE   talk("繧ｵ繧､繝�", null, "窶ｦ窶ｦ縺医▲�ｼ�", (0x04000000 +13323))
+441: checkKiss  checkKiss()
+442: GOTO       next((0x01000000 +519), zero_kiss)
+443: GOTO       next((0x01000000 +520), !zero_kiss)
+444: 
+445: ## SCENE 0519
+
+===== chapter_16_魔法の薬.txt target L1140 =====
+header: None
+1133: SET        set("lay5", {y = 0,show = 1,level = 154,imageType = 2,dr = "2B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +434)})
+1134: DIALOGUE   talk("繧ｵ繧､繝�", null, "繧医＠縺｣縲√く繝･繝ｫ繧ｱ窶ｦ窶ｦ縲�\n縺吶＄縺ｫ縺薙�ｮ縺願脈繧停ｦ窶ｦ縲�", (0x04000000 +13101))
+1135: SET        set("lay3", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+1136: SET        set("lay6", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 151,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +715)})
+1137: DIALOGUE   talk("繧ｭ繝･繝ｫ繧ｱ", null, "縺医√∴縺医→縲�\n縺ｩ縺�縺励※繧ゅ√�ｮ縺ｾ縺ｪ縺阪ｃ縺繧��ｼ�", (0x04000000 +3783))
+1138: SET        set("lay6", {y = 0,show = 1,level = 151,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +682)})
+1139: DIALOGUE   talk("繧ｭ繝･繝ｫ繧ｱ", null, "縺ゅ√≠縺ｮ縺ｭ縲√♀縺ｫ縺�縺｡繧�繧凪ｦ窶ｦ縲�\n繧ｭ繝･繝ｫ繧ｱ縲√♀縺上☆繧翫″繧峨＞窶ｦ窶ｦ縲�", (0x04000000 +3784))
+1140: checkKiss  checkKiss()
+1141: GOTO       next((0x01000000 +647), zero_kiss)
+1142: GOTO       next((0x01000000 +652), !zero_kiss)
+1143: 
+1144: ## SCENE 0647
+
+===== chapter_20_小悪魔と春風の協奏曲.txt target L601 =====
+header: None
+594: SET        set("lay1", {y = 0,show = 1,level = 156,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)})
+595: DIALOGUE   talk("繝ｫ繧､繧ｺ", null, "縺ｪ縺ｫ繧医√↑縺ｫ繧医�\n閾ｪ蛻�縺縺代〒菴輔〒繧ゅ〒縺阪ｋ縺｣縺ｦ險縺�縺ｮ�ｼ�", (0x04000000 +6496))
+596: SET        set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1B",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +407)})
+597: DIALOGUE   talk("繧ｵ繧､繝�", null, "繝ｫ縲√Ν繧､繧ｺ�ｼ�", (0x04000000 +11966))
+598: DIALOGUE   talk("繝ｫ繧､繧ｺ", null, "縺ゅｓ縺溘↑繧薙°菴ｿ縺�鬲斐�ｮ縺上○縺ｫ縲―n縺�縺､繧ゅｏ縺溘＠縺ｮ縺薙→縺ｪ繧薙°辟｡隕悶＠縺ｦ�ｼ台ｺｺ縺ｧ\n遯√▲襍ｰ縺｣縺ｦ縲∝些髯ｺ縺ｪ逶ｮ縺ｫ縺ゅ▲縺ｦ窶ｦ窶ｦ縲�", (0x04000000 +6497))
+599: SET        set("lay1", {dr = "1A",show = 1,level = 156,lv = 0,image = (0x02000000 +310)})
+600: DIALOGUE   talk("繝ｫ繧､繧ｺ", null, "縺ｻ繧薙→縲√ヰ繧ｫ縺ｪ繧薙□縺九ｉ�ｼ�", (0x04000000 +6498))
+601: checkKiss  checkKiss()
+602: GOTO       next((0x01000000 +756), zero_kiss)
+603: GOTO       next((0x01000000 +757), !zero_kiss)
+604: 
+605: ## SCENE 0756
+
+===== chapter_24_沈黙の応援.txt target L294 =====
+header: None
+287: GOTO       next((0x01000000 +863), true)
+288: 
+289: ## SCENE 0863
+290: if         if(isJump())
+291: RESET      reset()
+292: SET        set("bgm", {play = (0x03000000 +13)})
+293: SET        set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +224)})
+294: checkKiss  checkKiss()
+295: GOTO       next((0x01000000 +864), zero_kiss)
+296: GOTO       next((0x01000000 +865), !zero_kiss)
+297: 
+298: ## SCENE 0864
+
+===== chapter_28_ハルナの秘密.txt target L804 =====
+header: None
+797: SET        set("lay0", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +594)})
+798: DIALOGUE   talk("繧ｿ繝舌し", null, "窶ｦ窶ｦ縲�", null)
+799: DIALOGUE   talk("繧ｵ繧､繝�", null, "繧�縺｣縺ｱ繧翫∽ｸ榊ｮ峨↑縺ｮ縺具ｼ�", (0x04000000 +12797))
+800: DIALOGUE   talk("繧ｿ繝舌し", null, "窶ｦ窶ｦ縺�繧薙�", (0x04000000 +15744))
+801: SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)})
+802: DIALOGUE   talk("繧ｵ繧､繝�", null, "菫ｺ縺ｨ縺励※縺ｯ縲√ち繝舌し縺ｫ辟｡逅�縺ｯ縺励※\n谺ｲ縺励￥縺ｪ縺�繧薙□縺代←窶ｦ窶ｦ縲�", (0x04000000 +12798))
+803: DIALOGUE   talk("繧ｿ繝舌し", null, "窶ｦ窶ｦ縲�", null)
+804: checkKiss  checkKiss()
+805: GOTO       next((0x01000000 +991), zero_kiss)
+806: GOTO       next((0x01000000 +992), !zero_kiss)
+807: 
+808: ## SCENE 0991
+
+===== FORMAT sample chapter_06 =====
+1: # CHAPTER 06 : 譛ｬ蠖薙�ｮ諠ｳ縺�   (every call, source order)
+2: 
+3: ## SCENE 0269
+4: RESET      reset()
+5: TITLE      title("譛ｬ蠖薙�ｮ諠ｳ縺�")
+6: TNDL       tndl(null)
+7: SKIP       beginSkip()
+8: MSGOFF     msgoff()
+9: BACK       back()
+10: SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +2)})
+11: TRANS      trans("crossfade", 500)
+12: BACK       back()
+13: SET        set("stage", {opacity = 100,y = 0,level = 200,show = 1,x = 0,image = (0x02000000 +1145)})
+14: TRANS      trans("crossfade", 1000)
+15: BACK       back()

@@ -1,0 +1,7 @@
+ps2_source/events_full/chapter_06_本当の想い.txt : line 2419 -> 0341
+ps2_source/events_full/chapter_09_決意のお姫さま.txt : line 490 -> 0416
+ps2_source/events_full/chapter_13_もう一人のハルナ.txt : line 441 -> 0518
+ps2_source/events_full/chapter_16_魔法の薬.txt : line 1140 -> 0646
+ps2_source/events_full/chapter_20_小悪魔と春風の協奏曲.txt : line 601 -> 0755
+ps2_source/events_full/chapter_24_沈黙の応援.txt : line 294 -> 0863
+ps2_source/events_full/chapter_28_ハルナの秘密.txt : line 804 -> 0990

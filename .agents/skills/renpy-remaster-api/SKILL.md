@@ -1,6 +1,6 @@
 ---
 name: renpy-remaster-api
-description: Соответствие PS2 → Ren'Py для ремастера: references/ps2_to_renpy.csv, сигнатуры *_fx/show_sprites/update_sympathy/overlay_screen/portrait_choice/sprite_choice, именование лейблов и частей, уникальность from _call_overlay_screen_K, а также список того, что НЕ переносится. Применять при портировании событий в .rpy, написании и проверке игрового кода части.
+description: Соответствие PS2 → Ren'Py для ремастера: references/ps2_to_renpy.csv, сигнатуры *_fx/show_sprites/update_sympathy/overlay_screen/portrait_choice/sprite_choice, именование лейблов и частей, уникальность from _call_overlay_screen_K, а также список того, что НЕ переносится. Схема развилок/условий/симпатии всей игры — references/routes.md (сверять при порте). Применять при портировании событий в .rpy, написании и проверке игрового кода части.
 ---
 
 # renpy-remaster-api — соответствие PS2 → Ren'Py
@@ -214,11 +214,16 @@ jump ch1_9
 
 1. Найти событие в `ps2_source/chapters/`, уточнить аргументы в `events_full/`.
 2. Свериться со строкой `references/ps2_to_renpy.csv` (статус → можно/точечно/нельзя).
-3. Взять сигнатуру из §2 этого скилла, имя ассета — из `references/image_id_map.csv`
+3. **Сверить развилку с `references/routes.md`**: есть ли у этой сцены меню/условие,
+   какое именно условие (`== 100`, `zero_route`, `*_visited`), какие суммы симпатии на
+   ветках и какой целевой лейбл — по §5 (портировано) или §6/§7 (инвентарь источника).
+   Расхождение порта со справочником → запись в `reports/log.md`; правки самого
+   справочника — той же порцией (он производный, канон — JA).
+4. Взять сигнатуру из §2 этого скилла, имя ассета — из `references/image_id_map.csv`
    (`python tools/build_image_id_map.py` обновляет справочник), BGM — только `t{K-1}`.
    Если у id ещё нет заполненного `filename` — пиши **заглушку самим id**:
    `$ fade_fx("id(1145)")`, `$ dissolve_fx("id(148)", type="cg")`. Имя «на глазок»
    запрещено; замена после заполнения справочника —
    `python tools/replace_bg_placeholders.py --apply` (ловят E10/W6).
-4. Написать оператор в порядке: `*_fx` → `voice` → реплика → `menu`/`*_choice` → `jump`.
-5. Прогнать `python tools/check_project.py` (E1/E2/E7/E10 ловят ошибки кода).
+5. Написать оператор в порядке: `*_fx` → `voice` → реплика → `menu`/`*_choice` → `jump`.
+6. Прогнать `python tools/check_project.py` (E1/E2/E7/E10 ловят ошибки кода).

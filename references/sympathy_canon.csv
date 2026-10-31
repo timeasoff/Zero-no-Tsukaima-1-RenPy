@@ -1,0 +1,273 @@
+chapter_source,project_chapter,scene,char_ja,char_key,value,branch_kind,menu_owner_scene,choice_text,source_line,events_full_line,notes
+chapter_02_ゼロのルイズ,1,7,ルイズ,louise,10,choice,6,いいと思うぜ,131,154,
+chapter_02_ゼロのルイズ,1,8,ルイズ,louise,-10,choice,6,悪い！,145,171,
+chapter_02_ゼロのルイズ,1,12,ルイズ,louise,10,choice,11,そんなことできるか,371,360,
+chapter_02_ゼロのルイズ,1,13,ルイズ,louise,-10,choice,11,分かった、渡そう,385,375,
+chapter_02_ゼロのルイズ,1,17,ルイズ,louise,10,choice,16,なにもしていない！,613,597,
+chapter_02_ゼロのルイズ,1,18,ルイズ,louise,-10,choice,16,記憶にありません,646,623,
+chapter_02_ゼロのルイズ,1,21,ルイズ,louise,10,choice,20,ルイズに振る,829,795,
+chapter_02_ゼロのルイズ,1,22,シエスタ,siesta,10,choice,20,シエスタに振る,853,816,
+chapter_02_ゼロのルイズ,1,31,シエスタ,siesta,-10,choice,29,ルイズを起こして説明させよう,1208,1175,
+chapter_02_ゼロのルイズ,1,32,シエスタ,siesta,10,choice,29,ここは第三者の証言を！,1282,1244,
+chapter_02_ゼロのルイズ,1,35,キュルケ,kirche,10,choice,34,キュルケに訊ねる,1452,1384,
+chapter_02_ゼロのルイズ,1,36,タバサ,tabitha,15,choice,34,タバサに訊ねる,1486,1414,
+chapter_02_ゼロのルイズ,1,37,シエスタ,siesta,10,choice,34,シエスタに訊ねる,1506,1436,
+chapter_02_ゼロのルイズ,1,38,ルイズ,louise,10,choice,34,ルイズに訊ねる,1552,1475,
+chapter_02_ゼロのルイズ,1,41,ハルナ,haruna,-10,choice,40,はい,1867,1765,
+chapter_02_ゼロのルイズ,1,41,シエスタ,siesta,-10,choice,40,はい,1888,1788,
+chapter_02_ゼロのルイズ,1,41,キュルケ,kirche,-10,choice,40,はい,1911,1811,
+chapter_02_ゼロのルイズ,1,42,ハルナ,haruna,10,choice,40,いいえ,1937,1840,
+chapter_02_ゼロのルイズ,1,42,シエスタ,siesta,10,choice,40,いいえ,1939,1842,
+chapter_02_ゼロのルイズ,1,42,キュルケ,kirche,10,choice,40,いいえ,1943,1844,
+chapter_02_ゼロのルイズ,1,45,シエスタ,siesta,10,choice,44,俺の部屋に来るといいよ,2133,2030,
+chapter_02_ゼロのルイズ,1,46,シエスタ,siesta,-10,choice,44,キュルケの部屋はどうだ,2179,2069,
+chapter_02_ゼロのルイズ,1,55,ルイズ,louise,-10,choice,54,そんなひどいこと言うなよ！,2546,2419,
+chapter_02_ゼロのルイズ,1,56,ルイズ,louise,10,choice,54,そこをなんとかならないか？,2565,2438,
+chapter_02_ゼロのルイズ,1,1009,ルイズ,louise,20,date,62,ルイズ,2926,2833,дата-блок ルイズ: сцены 1009-1013
+chapter_02_ゼロのルイズ,1,1010,ルイズ,louise,10,choice,1009,すっごくきれいだ,2968,2868,"внутри дата-блока ルイズ (1009-1013), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1012,ルイズ,louise,-10,choice,1009,よく分かんねえ,3016,2907,"внутри дата-блока ルイズ (1009-1013), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1014,シエスタ,siesta,20,date,62,シエスタ,3065,2961,дата-блок シエスタ: сцены 1014-1018
+chapter_02_ゼロのルイズ,1,1015,シエスタ,siesta,10,choice,1014,いいお嫁さんになれるよ,3118,2998,"внутри дата-блока シエスタ (1014-1018), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1016,シエスタ,siesta,-10,choice,1014,節約家なんだね,3154,3024,"внутри дата-блока シエスタ (1014-1018), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1019,タバサ,tabitha,30,date,62,タバサ,3223,3094,дата-блок タバサ: сцены 1019-1023
+chapter_02_ゼロのルイズ,1,1021,タバサ,tabitha,-15,choice,1019,抱っこしてあげよう,3292,3164,"внутри дата-блока タバサ (1019-1023), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1022,タバサ,tabitha,15,choice,1019,肩を揉んであげよう,3358,3244,"внутри дата-блока タバサ (1019-1023), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1024,キュルケ,kirche,20,date,62,キュルケ,3403,3298,дата-блок キュルケ: сцены 1024-1028
+chapter_02_ゼロのルイズ,1,1026,キュルケ,kirche,-10,choice,1024,本気で人を好きになったことは？,3535,3418,"внутри дата-блока キュルケ (1024-1028), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1027,キュルケ,kirche,10,choice,1024,俺のこと、どう思ってる？,3560,3440,"внутри дата-блока キュルケ (1024-1028), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1029,ハルナ,haruna,20,date,62,ハルナ,3638,3522,дата-блок ハルナ: сцены 1029-1033
+chapter_02_ゼロのルイズ,1,1031,ハルナ,haruna,10,choice,1029,夜空を見てた,3676,3561,"внутри дата-блока ハルナ (1029-1033), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1032,ハルナ,haruna,-10,choice,1029,分からない,3690,3576,"внутри дата-блока ハルナ (1029-1033), меню даты — сцена 62"
+chapter_02_ゼロのルイズ,1,1224,シエスタ,siesta,20,move,24,シエスタの部屋,3770,3664,корень ветки перемещения
+chapter_02_ゼロのルイズ,1,1225,シエスタ,siesta,10,choice,1224,たぶん、そうかもしれない,3815,3695,"ветка перемещения «シエスタの部屋» (корень сцены 1224, меню — сцена 24)"
+chapter_02_ゼロのルイズ,1,1226,シエスタ,siesta,-10,choice,1224,よく分からない,3833,3713,"ветка перемещения «シエスタの部屋» (корень сцены 1224, меню — сцена 24)"
+chapter_02_ゼロのルイズ,1,1229,ルイズ,louise,20,move,24,ルイズの部屋,3901,3780,корень ветки перемещения
+chapter_02_ゼロのルイズ,1,1231,ルイズ,louise,10,choice,1229,よく分からない,3973,3841,"ветка перемещения «ルイズの部屋» (корень сцены 1229, меню — сцена 24)"
+chapter_02_ゼロのルイズ,1,1232,ルイズ,louise,-10,choice,1229,元の世界なんて忘れたよ,3986,3856,"ветка перемещения «ルイズの部屋» (корень сцены 1229, меню — сцена 24)"
+chapter_02_ゼロのルイズ,1,1240,タバサ,tabitha,30,move,49,図書館,4174,4036,корень ветки перемещения
+chapter_02_ゼロのルイズ,1,1242,タバサ,tabitha,-15,choice,1240,本を取り上げる,4229,4095,"ветка перемещения «図書館» (корень сцены 1240, меню — сцена 49)"
+chapter_02_ゼロのルイズ,1,1243,タバサ,tabitha,15,choice,1240,本の内容を訊ねる,4263,4125,"ветка перемещения «図書館» (корень сцены 1240, меню — сцена 49)"
+chapter_02_ゼロのルイズ,1,1245,キュルケ,kirche,20,move,49,キュルケの部屋,4327,4191,корень ветки перемещения
+chapter_02_ゼロのルイズ,1,1247,キュルケ,kirche,10,choice,1245,この際じっくりと観察する,4401,4257,"ветка перемещения «キュルケの部屋» (корень сцены 1245, меню — сцена 49)"
+chapter_02_ゼロのルイズ,1,1248,キュルケ,kirche,-10,choice,1245,お説教する,4436,4290,"ветка перемещения «キュルケの部屋» (корень сцены 1245, меню — сцена 49)"
+chapter_02_ゼロのルイズ,1,1250,ハルナ,haruna,20,move,49,ルイズの部屋,4482,4346,корень ветки перемещения
+chapter_02_ゼロのルイズ,1,1252,ハルナ,haruna,10,choice,1250,春奈に一刻も早く聞きたいことが,4594,4443,"ветка перемещения «ルイズの部屋» (корень сцены 1250, меню — сцена 49)"
+chapter_02_ゼロのルイズ,1,1253,ハルナ,haruna,-10,choice,1250,なんとなく,4648,4501,"ветка перемещения «ルイズの部屋» (корень сцены 1250, меню — сцена 49)"
+chapter_03_黒髪の来訪者,2,70,ルイズ,louise,10,choice,68,女性客が気になって眠れなかった,132,128,
+chapter_03_黒髪の来訪者,2,71,ルイズ,louise,-10,choice,68,俺を見張って眠れなかった,176,165,
+chapter_03_黒髪の来訪者,2,74,ルイズ,louise,-10,choice,73,俺達も捕まえに行くか？,403,373,
+chapter_03_黒髪の来訪者,2,78,ルイズ,louise,-10,choice,77,部屋に戻る,497,458,
+chapter_03_黒髪の来訪者,2,79,ルイズ,louise,10,choice,77,部屋に戻らない,521,479,
+chapter_03_黒髪の来訪者,2,83,シエスタ,siesta,-10,choice,82,春奈の様子が気になって,738,681,MULTI_CHAR シエスタ+ハルナ
+chapter_03_黒髪の来訪者,2,83,ハルナ,haruna,10,choice,82,春奈の様子が気になって,743,687,MULTI_CHAR シエスタ+ハルナ
+chapter_03_黒髪の来訪者,2,87,ルイズ,louise,-10,choice,86,春奈の様子を見に行ってた,901,833,
+chapter_03_黒髪の来訪者,2,88,ルイズ,louise,10,choice,86,デルフリンガーを取りに行ってた,990,903,
+chapter_03_黒髪の来訪者,2,91,ルイズ,louise,10,choice,90,やめろよ、ルイズ,1125,1019,
+chapter_03_黒髪の来訪者,2,92,キュルケ,kirche,10,choice,90,やめろよ、キュルケ,1152,1049,
+chapter_03_黒髪の来訪者,2,96,ルイズ,louise,10,choice,95,ルイズ大丈夫か！,1526,1446,
+chapter_03_黒髪の来訪者,2,97,キュルケ,kirche,10,choice,95,キュルケ大丈夫か！,1546,1468,
+chapter_03_黒髪の来訪者,2,98,ルイズ,louise,-10,choice,95,先生、大丈夫ですか！,1573,1496,
+chapter_03_黒髪の来訪者,2,107,ルイズ,louise,10,choice,106,ルイズ、なんかあったか？,1865,1851,
+chapter_03_黒髪の来訪者,2,108,シエスタ,siesta,-10,choice,106,シエスタ、なんかあったか？,1886,1871,
+chapter_03_黒髪の来訪者,2,109,ハルナ,haruna,10,choice,106,春奈、具合はどう？,1905,1896,MULTI_CHAR ハルナ+ルイズ
+chapter_03_黒髪の来訪者,2,109,ルイズ,louise,-10,choice,106,春奈、具合はどう？,1908,1899,MULTI_CHAR ハルナ+ルイズ
+chapter_03_黒髪の来訪者,2,112,ルイズ,louise,10,choice,110,おまえも『あーん』してほしいのか,2122,2112,
+chapter_03_黒髪の来訪者,2,113,ルイズ,louise,-10,choice,110,おまえも寝込んでいたいのか,2146,2134,
+chapter_03_黒髪の来訪者,2,116,ハルナ,haruna,-10,choice,115,シエスタと一緒に追いかける,2304,2317,
+chapter_03_黒髪の来訪者,2,117,ハルナ,haruna,10,choice,115,ハルナのそばにいる,2324,2337,
+chapter_03_黒髪の来訪者,2,126,シエスタ,siesta,10,choice,125,ルイズに、なにかあった？,2765,2773,
+chapter_03_黒髪の来訪者,2,127,シエスタ,siesta,-10,choice,125,さっきは何の話をしたの？,2782,2790,
+chapter_03_黒髪の来訪者,2,1034,ルイズ,louise,20,date,131,ルイズ,2980,3031,IN_DATE_BLOCK menu=131 root=1034
+chapter_03_黒髪の来訪者,2,1035,ルイズ,louise,-10,choice,1034,大きくって、どこが？,3078,3117,IN_DATE_BLOCK menu=131 root=1034
+chapter_03_黒髪の来訪者,2,1036,ルイズ,louise,10,choice,1034,無理しなくたっていいじゃん,3120,3164,IN_DATE_BLOCK menu=131 root=1034
+chapter_03_黒髪の来訪者,2,1039,シエスタ,siesta,20,date,131,シエスタ,3216,3258,IN_DATE_BLOCK menu=131 root=1039
+chapter_03_黒髪の来訪者,2,1040,シエスタ,siesta,-10,choice,1039,いや、遠慮しておくよ,3258,3294,IN_DATE_BLOCK menu=131 root=1039
+chapter_03_黒髪の来訪者,2,1041,シエスタ,siesta,10,choice,1039,面白そうだな、やろうか,3283,3316,IN_DATE_BLOCK menu=131 root=1039
+chapter_03_黒髪の来訪者,2,1044,タバサ,tabitha,30,date,131,タバサ,3422,3445,IN_DATE_BLOCK menu=131 root=1044
+chapter_03_黒髪の来訪者,2,1046,タバサ,tabitha,15,choice,1044,なんかおごってやるよ,3579,3591,IN_DATE_BLOCK menu=131 root=1044
+chapter_03_黒髪の来訪者,2,1047,タバサ,tabitha,-15,choice,1044,本屋以外も見て回ろう,3595,3609,IN_DATE_BLOCK menu=131 root=1044
+chapter_03_黒髪の来訪者,2,1049,キュルケ,kirche,20,date,131,キュルケ,3695,3705,IN_DATE_BLOCK menu=131 root=1049
+chapter_03_黒髪の来訪者,2,1050,キュルケ,kirche,-10,choice,1049,釣りか！,3723,3732,IN_DATE_BLOCK menu=131 root=1049
+chapter_03_黒髪の来訪者,2,1051,キュルケ,kirche,10,choice,1049,泳ぐか！,3758,3761,IN_DATE_BLOCK menu=131 root=1049
+chapter_03_黒髪の来訪者,2,1054,ハルナ,haruna,20,date,131,ハルナ,3860,3865,IN_DATE_BLOCK menu=131 root=1054
+chapter_03_黒髪の来訪者,2,1056,ハルナ,haruna,10,choice,1054,ずばり、生徒手帳,3907,3910,IN_DATE_BLOCK menu=131 root=1054
+chapter_03_黒髪の来訪者,2,1057,ハルナ,haruna,-10,choice,1054,ずばり、誰かからの手紙,3931,3931,IN_DATE_BLOCK menu=131 root=1054
+chapter_03_黒髪の来訪者,2,1256,ルイズ,louise,20,move,100,廊下,4016,4007,IN_MOVE_BLOCK menu=100 root=1256
+chapter_03_黒髪の来訪者,2,1257,ルイズ,louise,10,choice,1256,俺が知ってるから,4070,4050,IN_MOVE_BLOCK menu=100 root=1256
+chapter_03_黒髪の来訪者,2,1258,ルイズ,louise,-10,choice,1256,そんなこと気にすんな,4092,4071,IN_MOVE_BLOCK menu=100 root=1256
+chapter_03_黒髪の来訪者,2,1261,シエスタ,siesta,20,move,100,厨房,4170,4141,IN_MOVE_BLOCK menu=100 root=1261
+chapter_03_黒髪の来訪者,2,1263,シエスタ,siesta,10,choice,1261,ルイズの奴がまたやらかしたんだ,4275,4223,IN_MOVE_BLOCK menu=100 root=1261
+chapter_03_黒髪の来訪者,2,1264,シエスタ,siesta,-10,choice,1261,俺にも分からない,4290,4239,IN_MOVE_BLOCK menu=100 root=1261
+chapter_03_黒髪の来訪者,2,1266,キュルケ,kirche,20,move,100,中庭,4356,4298,IN_MOVE_BLOCK menu=100 root=1266
+chapter_03_黒髪の来訪者,2,1268,キュルケ,kirche,10,choice,1266,キュルケだから心配なんだ,4417,4351,IN_MOVE_BLOCK menu=100 root=1266
+chapter_03_黒髪の来訪者,2,1269,キュルケ,kirche,-10,choice,1266,別にキュルケの心配はしてない,4434,4369,IN_MOVE_BLOCK menu=100 root=1266
+chapter_03_黒髪の来訪者,2,1271,タバサ,tabitha,30,move,100,教室,4490,4418,IN_MOVE_BLOCK menu=100 root=1271
+chapter_03_黒髪の来訪者,2,1272,タバサ,tabitha,15,choice,1271,タバサのことが心配,4519,4445,IN_MOVE_BLOCK menu=100 root=1271
+chapter_03_黒髪の来訪者,2,1274,タバサ,tabitha,-15,choice,1271,特に意味はない,4562,4491,IN_MOVE_BLOCK menu=100 root=1271
+chapter_03_黒髪の来訪者,2,1276,ハルナ,haruna,20,move,100,ルイズの部屋,4620,4551,IN_MOVE_BLOCK menu=100 root=1276
+chapter_03_黒髪の来訪者,2,1277,ハルナ,haruna,10,choice,1276,とりあえず春奈が無事で良かった,4651,4579,IN_MOVE_BLOCK menu=100 root=1276
+chapter_03_黒髪の来訪者,2,1279,ハルナ,haruna,-10,choice,1276,おとなしくしててくれよ,4690,4618,IN_MOVE_BLOCK menu=100 root=1276
+chapter_03_黒髪の来訪者,2,1281,ハルナ,haruna,20,move,120,ルイズの部屋,4723,4655,IN_MOVE_BLOCK menu=120 root=1281
+chapter_03_黒髪の来訪者,2,1282,ハルナ,haruna,-10,choice,1281,なんかまずいこと言ったかな？,4746,4684,IN_MOVE_BLOCK menu=120 root=1281
+chapter_03_黒髪の来訪者,2,1286,キュルケ,kirche,20,move,120,キュルケの部屋,4839,4769,IN_MOVE_BLOCK menu=120 root=1286
+chapter_03_黒髪の来訪者,2,1289,キュルケ,kirche,-10,choice,1286,俺にもよく分からない,4918,4840,IN_MOVE_BLOCK menu=120 root=1286
+chapter_03_黒髪の来訪者,2,1291,タバサ,tabitha,30,move,120,タバサの部屋,4993,4917,IN_MOVE_BLOCK menu=120 root=1291
+chapter_03_黒髪の来訪者,2,1292,タバサ,tabitha,15,choice,1291,何をしてたんだ？,5035,4958,IN_MOVE_BLOCK menu=120 root=1291
+chapter_03_黒髪の来訪者,2,1294,タバサ,tabitha,-15,choice,1291,本当にルイズを知らないか？,5072,4995,IN_MOVE_BLOCK menu=120 root=1291
+chapter_04_女の戦い,3,140,ルイズ,louise,-10,choice,137,４人で寝るってどうだろ？,175,187,MULTI_CHAR ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,140,シエスタ,siesta,-10,choice,137,４人で寝るってどうだろ？,180,192,MULTI_CHAR ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,140,ハルナ,haruna,-10,choice,137,４人で寝るってどうだろ？,193,202,MULTI_CHAR ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,148,ルイズ,louise,10,choice,147,もしかして、体調が悪いのか？,552,504,
+chapter_04_女の戦い,3,149,ルイズ,louise,-10,choice,147,もしかして、眠いのか？,570,523,
+chapter_04_女の戦い,3,150,ルイズ,louise,-20,choice,147,もしかして、お腹が減ったのか？,586,540,
+chapter_04_女の戦い,3,154,ルイズ,louise,10,choice,153,まあ、大丈夫だろ？,749,675,
+chapter_04_女の戦い,3,155,ルイズ,louise,-10,choice,153,ちょっとは心配かな,787,708,
+chapter_04_女の戦い,3,165,ハルナ,haruna,10,choice,164,大丈夫か、春奈？,1026,1018,
+chapter_04_女の戦い,3,166,シエスタ,siesta,10,choice,164,シエスタ、大丈夫？,1055,1046,
+chapter_04_女の戦い,3,169,ルイズ,louise,-10,choice,168,ルイズが言い出したことだろ？,1224,1211,MULTI_CHAR ルイズ+シエスタ
+chapter_04_女の戦い,3,169,シエスタ,siesta,-10,choice,168,ルイズが言い出したことだろ？,1230,1217,MULTI_CHAR ルイズ+シエスタ
+chapter_04_女の戦い,3,170,シエスタ,siesta,-10,choice,168,いつものシエスタらしくないぞ,1249,1237,
+chapter_04_女の戦い,3,174,ルイズ,louise,-10,choice,173,春奈の面倒見てちゃ悪いのか？,1386,1372,
+chapter_04_女の戦い,3,175,ルイズ,louise,10,choice,173,おまえのことが心配で……,1402,1390,
+chapter_04_女の戦い,3,186,キュルケ,kirche,10,choice,183,まさか、俺に会いに来たとか？,1723,1739,
+chapter_04_女の戦い,3,188,ルイズ,louise,-10,choice,187,そんなことありません！,1842,1854,
+chapter_04_女の戦い,3,189,キュルケ,kirche,10,choice,187,胸でどうこうじゃなくて……,1862,1868,MULTI_CHAR キュルケ+ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,189,ルイズ,louise,-10,choice,187,胸でどうこうじゃなくて……,1865,1871,MULTI_CHAR キュルケ+ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,189,シエスタ,siesta,-10,choice,187,胸でどうこうじゃなくて……,1867,1874,MULTI_CHAR キュルケ+ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,189,ハルナ,haruna,-10,choice,187,胸でどうこうじゃなくて……,1869,1876,MULTI_CHAR キュルケ+ルイズ+シエスタ+ハルナ
+chapter_04_女の戦い,3,190,キュルケ,kirche,10,choice,187,胸で人を見てるわけじゃないし,1885,1891,
+chapter_04_女の戦い,3,193,ルイズ,louise,-10,choice,192,俺の言うことなんて聞かないよ,2021,2007,MULTI_CHAR ルイズ+シエスタ
+chapter_04_女の戦い,3,193,シエスタ,siesta,-10,choice,192,俺の言うことなんて聞かないよ,2027,2014,MULTI_CHAR ルイズ+シエスタ
+chapter_04_女の戦い,3,194,シエスタ,siesta,10,choice,192,女の子が決闘しちゃまずいもんな,2044,2032,MULTI_CHAR シエスタ+ルイズ
+chapter_04_女の戦い,3,194,ルイズ,louise,-10,choice,192,女の子が決闘しちゃまずいもんな,2052,2038,MULTI_CHAR シエスタ+ルイズ
+chapter_04_女の戦い,3,195,シエスタ,siesta,-10,choice,192,お互いが納得ゆくまでやらせれば？,2077,2061,
+chapter_04_女の戦い,3,198,ハルナ,haruna,-10,choice,197,ごめん、ちょっとショック……,2211,2185,
+chapter_04_女の戦い,3,199,ハルナ,haruna,10,choice,197,本当に病気じゃなくて良かった,2231,2205,
+chapter_04_女の戦い,3,203,ハルナ,haruna,10,choice,202,素直に謝ってみたら？,2337,2301,
+chapter_04_女の戦い,3,204,ハルナ,haruna,-10,choice,202,謝らなくてもいいよ,2357,2319,
+chapter_04_女の戦い,3,209,ルイズ,louise,-10,choice,207,無条件に信じてあげたくなっちゃう,2565,2515,
+chapter_04_女の戦い,3,210,ルイズ,louise,-10,choice,207,なんかこう、ゾクゾクくるんだよね,2582,2534,MULTI_CHAR ルイズ+タバサ
+chapter_04_女の戦い,3,210,タバサ,tabitha,-15,choice,207,なんかこう、ゾクゾクくるんだよね,2589,2541,MULTI_CHAR ルイズ+タバサ
+chapter_04_女の戦い,3,1059,ルイズ,louise,20,date,213,ルイズ,2817,2816,IN_DATE_BLOCK menu=213 root=1059
+chapter_04_女の戦い,3,1060,ルイズ,louise,10,choice,1059,リンゴをむいてあげる,2885,2892,IN_DATE_BLOCK menu=213 root=1059
+chapter_04_女の戦い,3,1061,ルイズ,louise,-10,choice,1059,体を拭いてあげる,2902,2914,IN_DATE_BLOCK menu=213 root=1059
+chapter_04_女の戦い,3,1064,シエスタ,siesta,20,date,213,シエスタ,2967,2981,IN_DATE_BLOCK menu=213 root=1064
+chapter_04_女の戦い,3,1065,シエスタ,siesta,10,choice,1064,それってペアルック？,3014,3032,IN_DATE_BLOCK menu=213 root=1064
+chapter_04_女の戦い,3,1066,シエスタ,siesta,-10,choice,1064,すごい技術だね,3026,3043,IN_DATE_BLOCK menu=213 root=1064
+chapter_04_女の戦い,3,1069,タバサ,tabitha,30,date,213,タバサ,3090,3114,IN_DATE_BLOCK menu=213 root=1069
+chapter_04_女の戦い,3,1071,タバサ,tabitha,-15,choice,1069,なんとなくだけど、分かるぜ,3126,3158,IN_DATE_BLOCK menu=213 root=1069
+chapter_04_女の戦い,3,1072,タバサ,tabitha,15,choice,1069,タバサの顔を見れば分かるよ,3140,3176,IN_DATE_BLOCK menu=213 root=1069
+chapter_04_女の戦い,3,1074,キュルケ,kirche,20,date,213,キュルケ,3187,3233,IN_DATE_BLOCK menu=213 root=1074
+chapter_04_女の戦い,3,1075,キュルケ,kirche,-10,choice,1074,露出好きだから？,3215,3260,IN_DATE_BLOCK menu=213 root=1074
+chapter_04_女の戦い,3,1076,キュルケ,kirche,10,choice,1074,ストレス発散のため？,3237,3280,IN_DATE_BLOCK menu=213 root=1074
+chapter_04_女の戦い,3,1079,ハルナ,haruna,20,date,213,ハルナ,3313,3349,IN_DATE_BLOCK menu=213 root=1079
+chapter_04_女の戦い,3,1080,ハルナ,haruna,-10,choice,1079,仕方のないことだよ,3351,3386,IN_DATE_BLOCK menu=213 root=1079
+chapter_04_女の戦い,3,1082,ハルナ,haruna,10,choice,1079,俺達が最初の帰還者になる,3371,3407,IN_DATE_BLOCK menu=213 root=1079
+chapter_04_女の戦い,3,1297,ルイズ,louise,20,move,157,廊下,3407,3442,IN_MOVE_BLOCK menu=157 root=1297
+chapter_04_女の戦い,3,1298,ルイズ,louise,-10,choice,1297,俺、なんかやらかした？,3446,3479,IN_MOVE_BLOCK menu=157 root=1297
+chapter_04_女の戦い,3,1302,シエスタ,siesta,20,move,157,廊下,3526,3560,IN_MOVE_BLOCK menu=157 root=1302
+chapter_04_女の戦い,3,1303,シエスタ,siesta,-10,choice,1302,俺が触ったら困る荷物だとか？,3552,3593,IN_MOVE_BLOCK menu=157 root=1302
+chapter_04_女の戦い,3,1304,シエスタ,siesta,10,choice,1302,何か嫌われるようなことした？,3567,3608,IN_MOVE_BLOCK menu=157 root=1302
+chapter_04_女の戦い,3,1307,キュルケ,kirche,20,move,157,教室,3627,3671,IN_MOVE_BLOCK menu=157 root=1307
+chapter_04_女の戦い,3,1308,キュルケ,kirche,10,choice,1307,なんだかんだでルイズ？,3685,3716,IN_MOVE_BLOCK menu=157 root=1307
+chapter_04_女の戦い,3,1310,キュルケ,kirche,-10,choice,1307,もしかしてキュルケ？,3733,3760,IN_MOVE_BLOCK menu=157 root=1307
+chapter_04_女の戦い,3,1312,タバサ,tabitha,30,move,157,中庭,3777,3805,IN_MOVE_BLOCK menu=157 root=1312
+chapter_04_女の戦い,3,1313,タバサ,tabitha,15,choice,1312,ボクのこと嫌いですか？,3806,3835,IN_MOVE_BLOCK menu=157 root=1312
+chapter_04_女の戦い,3,1314,タバサ,tabitha,-15,choice,1312,本当にルイズ見かけてないの？,3818,3850,IN_MOVE_BLOCK menu=157 root=1312
+chapter_04_女の戦い,3,1317,ハルナ,haruna,20,move,157,ルイズの部屋,3868,3905,IN_MOVE_BLOCK menu=157 root=1317
+chapter_04_女の戦い,3,1318,ハルナ,haruna,10,choice,1317,俺に遠慮とかすんなよな,3929,3954,IN_MOVE_BLOCK menu=157 root=1317
+chapter_04_女の戦い,3,1320,ハルナ,haruna,-10,choice,1317,言いたいことがあるなら言えって,3958,3987,IN_MOVE_BLOCK menu=157 root=1317
+chapter_04_女の戦い,3,1322,ハルナ,haruna,20,move,178,ルイズの部屋,3989,4024,IN_MOVE_BLOCK menu=178 root=1322
+chapter_04_女の戦い,3,1323,ハルナ,haruna,-10,choice,1322,春奈に部屋を占領されてるからとか？,4035,4063,IN_MOVE_BLOCK menu=178 root=1322
+chapter_05_トリスタニアの危機,4,220,ルイズ,louise,10,choice,219,事故だったんだよ,242,187,
+chapter_05_トリスタニアの危機,4,222,ハルナ,haruna,-10,choice,219,実は俺から……,271,218,MULTI_CHAR ハルナ+ルイズ
+chapter_05_トリスタニアの危機,4,222,ルイズ,louise,-10,choice,219,実は俺から……,277,222,MULTI_CHAR ハルナ+ルイズ
+chapter_05_トリスタニアの危機,4,232,ルイズ,louise,10,choice,231,ルイズの隣に座る,791,733,MULTI_CHAR ルイズ+ハルナ
+chapter_05_トリスタニアの危機,4,232,ハルナ,haruna,-10,choice,231,ルイズの隣に座る,795,738,MULTI_CHAR ルイズ+ハルナ
+chapter_05_トリスタニアの危機,4,233,ハルナ,haruna,10,choice,231,春奈の隣に座る,809,753,MULTI_CHAR ハルナ+ルイズ
+chapter_05_トリスタニアの危機,4,233,ルイズ,louise,-10,choice,231,春奈の隣に座る,815,757,MULTI_CHAR ハルナ+ルイズ
+chapter_05_トリスタニアの危機,4,234,ルイズ,louise,-10,choice,231,どっちの席も捨てがたいと悩む,837,777,
+chapter_05_トリスタニアの危機,4,237,ルイズ,louise,-10,choice,236,俺の妹だという,1100,1035,MULTI_CHAR ルイズ+シエスタ
+chapter_05_トリスタニアの危機,4,237,シエスタ,siesta,10,choice,236,俺の妹だという,1114,1045,MULTI_CHAR ルイズ+シエスタ
+chapter_05_トリスタニアの危機,4,239,ルイズ,louise,-10,choice,236,正直に話せばいいと思う,1170,1104,
+chapter_05_トリスタニアの危機,4,242,ハルナ,haruna,-10,choice,241,学級日誌も書いてくれ,1262,1200,
+chapter_05_トリスタニアの危機,4,248,ハルナ,haruna,10,choice,247,俺達がついてるよ,1488,1438,
+chapter_05_トリスタニアの危機,4,249,ルイズ,louise,-10,choice,247,ルイズが帰り方を探してくれるよ,1521,1470,
+chapter_05_トリスタニアの危機,4,250,ハルナ,haruna,-10,choice,247,いつかはなんとかなるよ,1542,1490,
+chapter_05_トリスタニアの危機,4,257,ルイズ,louise,10,choice,256,爆弾使いはルイズじゃない,1933,1882,MULTI_CHAR ルイズ+アンリエッタ
+chapter_05_トリスタニアの危機,4,257,アンリエッタ,henrietta,30,choice,256,爆弾使いはルイズじゃない,1938,1887,MULTI_CHAR ルイズ+アンリエッタ
+chapter_05_トリスタニアの危機,4,258,アンリエッタ,henrietta,-30,choice,256,爆弾使いはルイズだ,1953,1902,MULTI_CHAR アンリエッタ+ルイズ
+chapter_05_トリスタニアの危機,4,258,ルイズ,louise,-10,choice,256,爆弾使いはルイズだ,1986,1932,MULTI_CHAR アンリエッタ+ルイズ
+chapter_05_トリスタニアの危機,4,1084,ルイズ,louise,20,date,264,ルイズ,2591,2571,IN_DATE_BLOCK menu=264 root=1084
+chapter_05_トリスタニアの危機,4,1085,ルイズ,louise,10,choice,1084,ルイズは努力家なんだな,2637,2613,IN_DATE_BLOCK menu=264 root=1084
+chapter_05_トリスタニアの危機,4,1087,ルイズ,louise,-10,choice,1084,タバサに聞いてみるのは？,2669,2649,IN_DATE_BLOCK menu=264 root=1084
+chapter_05_トリスタニアの危機,4,1089,シエスタ,siesta,20,date,264,シエスタ,2727,2713,IN_DATE_BLOCK menu=264 root=1089
+chapter_05_トリスタニアの危機,4,1091,シエスタ,siesta,10,choice,1089,俺の世界だったら普通かな？,2826,2796,IN_DATE_BLOCK menu=264 root=1089
+chapter_05_トリスタニアの危機,4,1092,シエスタ,siesta,-10,choice,1089,ルイズの力があったからだよ,2846,2814,IN_DATE_BLOCK menu=264 root=1089
+chapter_05_トリスタニアの危機,4,1094,ハルナ,haruna,20,date,264,ハルナ,2904,2871,IN_DATE_BLOCK menu=264 root=1094
+chapter_05_トリスタニアの危機,4,1096,ハルナ,haruna,10,choice,1094,洋楽かな,2995,2946,IN_DATE_BLOCK menu=264 root=1094
+chapter_05_トリスタニアの危機,4,1097,ハルナ,haruna,-10,choice,1094,実は聞いてるだけ,3017,2966,IN_DATE_BLOCK menu=264 root=1094
+chapter_05_トリスタニアの危機,4,1099,アンリエッタ,henrietta,50,date,264,アンリエッタ,3086,3031,IN_DATE_BLOCK menu=264 root=1099
+chapter_05_トリスタニアの危機,4,1100,アンリエッタ,henrietta,30,choice,1099,俺はお姫さまの味方だ,3205,3126,IN_DATE_BLOCK menu=264 root=1099
+chapter_05_トリスタニアの危機,4,1102,アンリエッタ,henrietta,-30,choice,1099,自分の身は自分で守らないと,3255,3167,IN_DATE_BLOCK menu=264 root=1099
+chapter_05_トリスタニアの危機,4,1342,ルイズ,louise,20,move,225,ルイズの部屋,3316,3223,IN_MOVE_BLOCK menu=225 root=1342
+chapter_05_トリスタニアの危機,4,1343,ルイズ,louise,20,choice,1342,手伝ってあげる,3341,3248,IN_MOVE_BLOCK menu=225 root=1342
+chapter_05_トリスタニアの危機,4,1343,ルイズ,louise,-10,choice,1342,手伝ってあげる,3348,3254,IN_MOVE_BLOCK menu=225 root=1342
+chapter_05_トリスタニアの危機,4,1345,ルイズ,louise,-10,choice,1342,手伝う代わりに条件を出す,3383,3285,IN_MOVE_BLOCK menu=225 root=1342
+chapter_05_トリスタニアの危機,4,1347,シエスタ,siesta,20,move,225,厨房,3465,3353,IN_MOVE_BLOCK menu=225 root=1347
+chapter_05_トリスタニアの危機,4,1348,シエスタ,siesta,-10,choice,1347,危険な任務なんだと言う,3500,3385,IN_MOVE_BLOCK menu=225 root=1347
+chapter_05_トリスタニアの危機,4,1349,シエスタ,siesta,10,choice,1347,おみやげを買ってくると言う,3526,3408,IN_MOVE_BLOCK menu=225 root=1347
+chapter_05_トリスタニアの危機,4,1352,キュルケ,kirche,20,move,225,中庭,3585,3470,IN_MOVE_BLOCK menu=225 root=1352
+chapter_05_トリスタニアの危機,4,1354,キュルケ,kirche,-10,choice,1352,春奈を観光に連れて行く,3633,3517,IN_MOVE_BLOCK menu=225 root=1352
+chapter_05_トリスタニアの危機,4,1355,キュルケ,kirche,-10,choice,1352,学院長に頼まれ買い物に,3650,3534,IN_MOVE_BLOCK menu=225 root=1352
+chapter_05_トリスタニアの危機,4,1357,タバサ,tabitha,30,move,225,廊下,3697,3586,IN_MOVE_BLOCK menu=225 root=1357
+chapter_05_トリスタニアの危機,4,1358,タバサ,tabitha,15,choice,1357,貴族の生活の本？,3728,3615,IN_MOVE_BLOCK menu=225 root=1357
+chapter_05_トリスタニアの危機,4,1359,タバサ,tabitha,-15,choice,1357,タバサの家の本？,3747,3635,IN_MOVE_BLOCK menu=225 root=1357
+chapter_05_トリスタニアの危機,4,1360,タバサ,tabitha,-15,choice,1357,何かの物語の本？,3774,3662,IN_MOVE_BLOCK menu=225 root=1357
+chapter_05_トリスタニアの危機,4,1362,ハルナ,haruna,20,move,225,ルイズの部屋,3857,3738,IN_MOVE_BLOCK menu=225 root=1362
+chapter_05_トリスタニアの危機,4,1363,ハルナ,haruna,10,choice,1362,よく似合ってるじゃないか,3894,3772,IN_MOVE_BLOCK menu=225 root=1362
+chapter_05_トリスタニアの危機,4,1365,ハルナ,haruna,-10,choice,1362,馬子にも衣装と言ったもので,3934,3810,IN_MOVE_BLOCK menu=225 root=1362
+chapter_05_トリスタニアの危機,4,1367,ハルナ,haruna,20,move,251,表通り,3988,3864,IN_MOVE_BLOCK menu=251 root=1367
+chapter_05_トリスタニアの危機,4,1372,ルイズ,louise,20,move,251,表通り,4153,4015,IN_MOVE_BLOCK menu=251 root=1372
+chapter_05_トリスタニアの危機,4,1377,シエスタ,siesta,20,move,251,表通り,4314,4156,IN_MOVE_BLOCK menu=251 root=1377
+chapter_05_トリスタニアの危機,4,1378,シエスタ,siesta,10,choice,1377,大きい街だね,4380,4204,IN_MOVE_BLOCK menu=251 root=1377
+chapter_05_トリスタニアの危機,4,1379,シエスタ,siesta,-10,choice,1377,思ったより小さい街だね,4401,4223,IN_MOVE_BLOCK menu=251 root=1377
+chapter_06_本当の想い,5,271,ルイズ,louise,-10,choice,270,いえ、なんでもないです,105,118,
+chapter_06_本当の想い,5,273,ルイズ,louise,-10,choice,270,不満そうな顔なんてしてない,135,147,
+chapter_06_本当の想い,5,283,ハルナ,haruna,-10,choice,280,春奈にあきらめさせる,574,558,
+chapter_06_本当の想い,5,286,ハルナ,haruna,10,choice,285,俺も行くよ,717,679,
+chapter_06_本当の想い,5,287,ハルナ,haruna,-10,choice,285,気をつけてな,738,700,
+chapter_06_本当の想い,5,291,キュルケ,kirche,10,choice,290,キュルケに相談する,842,801,
+chapter_06_本当の想い,5,292,ハルナ,haruna,-10,choice,290,あきらめる,871,829,
+chapter_06_本当の想い,5,301,シエスタ,siesta,-10,choice,300,シエスタを説得する,1269,1195,
+chapter_06_本当の想い,5,302,ルイズ,louise,-10,choice,300,ルイズを説得する,1284,1212,
+chapter_06_本当の想い,5,303,キュルケ,kirche,-10,choice,300,キュルケを説得する,1308,1236,
+chapter_06_本当の想い,5,307,アンリエッタ,henrietta,30,choice,305,そりゃだって……,1564,1453,
+chapter_06_本当の想い,5,308,アンリエッタ,henrietta,30,choice,305,大丈夫なんですか？,1585,1475,
+chapter_06_本当の想い,5,311,タバサ,tabitha,15,choice,310,キュルケを止める,1699,1582,
+chapter_06_本当の想い,5,322,ルイズ,louise,-10,choice,321,ひどい話だ,1984,1904,MULTI_CHAR ルイズ+シエスタ
+chapter_06_本当の想い,5,322,シエスタ,siesta,-10,choice,321,ひどい話だ,1988,1909,MULTI_CHAR ルイズ+シエスタ
+chapter_06_本当の想い,5,326,キュルケ,kirche,10,choice,325,良かったな！,2116,2027,MULTI_CHAR キュルケ+ルイズ
+chapter_06_本当の想い,5,326,ルイズ,louise,-10,choice,325,良かったな！,2125,2034,MULTI_CHAR キュルケ+ルイズ
+chapter_06_本当の想い,5,331,キュルケ,kirche,10,choice,330,爆弾使い探し？,2241,2154,
+chapter_06_本当の想い,5,332,キュルケ,kirche,-10,choice,330,キュルケの誕生日？,2255,2169,
+chapter_06_本当の想い,5,1383,シエスタ,siesta,20,move,314,舞台,4475,4462,IN_MOVE_BLOCK menu=314 root=1383
+chapter_06_本当の想い,5,1388,タバサ,tabitha,30,move,314,劇場,4595,4580,IN_MOVE_BLOCK menu=314 root=1388
+chapter_06_本当の想い,5,1390,タバサ,tabitha,15,choice,1388,邪魔をしたら悪いな,4621,4609,IN_MOVE_BLOCK menu=314 root=1388
+chapter_06_本当の想い,5,1391,タバサ,tabitha,-15,choice,1388,いたずらしてみよう,4642,4627,IN_MOVE_BLOCK menu=314 root=1388
+chapter_06_本当の想い,5,1393,アンリエッタ,henrietta,50,move,314,城前,4716,4705,IN_MOVE_BLOCK menu=314 root=1393
+chapter_06_本当の想い,5,1394,ルイズ,louise,-10,choice,1393,女の子の価値はダンスじゃない！,4770,4754,IN_MOVE_BLOCK menu=314 root=1393
+chapter_06_本当の想い,5,1396,ハルナ,haruna,10,choice,1393,春奈には春奈の良さがある！,4810,4794,IN_MOVE_BLOCK menu=314 root=1393
+chapter_06_本当の想い,5,1398,キュルケ,kirche,20,move,314,宿,4858,4845,IN_MOVE_BLOCK menu=314 root=1398
+chapter_06_本当の想い,5,1400,キュルケ,kirche,10,choice,1398,なあ、戻ってこいよ,4901,4889,IN_MOVE_BLOCK menu=314 root=1398
+chapter_06_本当の想い,5,1401,キュルケ,kirche,-10,choice,1398,俺もサボりたいけどさ,4916,4906,IN_MOVE_BLOCK menu=314 root=1398
+chapter_06_本当の想い,5,1408,キュルケ,kirche,20,move,335,舞台,5127,5119,IN_MOVE_BLOCK menu=335 root=1408
+chapter_06_本当の想い,5,1410,キュルケ,kirche,10,choice,1408,心配なんかしてなかったよ,5186,5173,IN_MOVE_BLOCK menu=335 root=1408
+chapter_06_本当の想い,5,1411,キュルケ,kirche,-10,choice,1408,そうだっけ？,5199,5188,IN_MOVE_BLOCK menu=335 root=1408; MULTI_CHAR キュルケ+ハルナ
+chapter_06_本当の想い,5,1411,ハルナ,haruna,-10,choice,1408,そうだっけ？,5203,5192,IN_MOVE_BLOCK menu=335 root=1408; MULTI_CHAR キュルケ+ハルナ
+chapter_06_本当の想い,5,1414,ルイズ,louise,10,choice,1413,ギーシュを問い詰める,5271,5265,IN_MOVE_BLOCK menu=335 root=1413
+chapter_06_本当の想い,5,1416,ルイズ,louise,-10,choice,1413,石を投げる,5336,5330,IN_MOVE_BLOCK menu=335 root=1413
+chapter_06_本当の想い,5,1418,シエスタ,siesta,20,move,335,表通り,5402,5393,IN_MOVE_BLOCK menu=335 root=1418
+chapter_06_本当の想い,5,1426,タバサ,tabitha,15,choice,1423,本の話題,5641,5634,IN_MOVE_BLOCK menu=335 root=1423; MULTI_CHAR タバサ+アンリエッタ
+chapter_06_本当の想い,5,1426,アンリエッタ,henrietta,30,choice,1423,本の話題,5642,5635,IN_MOVE_BLOCK menu=335 root=1423; MULTI_CHAR タバサ+アンリエッタ
+chapter_06_本当の想い,5,1427,タバサ,tabitha,30,move,,,5669,5661,IN_MOVE_BLOCK menu=335 root=1423
