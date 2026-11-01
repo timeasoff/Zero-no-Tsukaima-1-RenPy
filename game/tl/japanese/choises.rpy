@@ -1275,3 +1275,21 @@ translate japanese strings:
     old "I went to see how things were in town..."
     new "街の様子を見てきたんだが……"
 
+
+
+
+
+
+
+
+
+
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+    old "I'll buy it for you"
+    new "俺が買ってあげますよ"
+
+    old "You must have better ones"
+    new "もっといいのを持ってるでしょう"
+
+    old "Wouldn't you like to see other shops too?"
+    new "ほかの店も見ませんか"

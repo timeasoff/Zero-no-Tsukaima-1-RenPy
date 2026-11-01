@@ -1347,3 +1347,24 @@ translate russian strings:
 
     old "But if I go back now, Louise will beat me to death for making her act on her honest feelings."
     new "Но если я сейчас вернусь, Луиза всё равно забьёт меня до смерти за то, что поддалась своим искренним чувствам."
+
+
+
+
+
+
+
+
+
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+    old "Ugh! Being stared at by the princess with such a look… the guilt really gets to me!"
+    new "Ай! Когда принцесса так на меня смотрит — меня так и мучает совесть!"
+
+    old "No, but… I don't want to be scolded by Louise again either…"
+    new "Нет, правда… Снова не хочу, чтобы Луиза злилась…"
+
+    old "Ahhh… I'm really weak against girls pressing me. I know I'm going to destroy myself because of this someday."
+    new "Ах… Я совсем не могу противиться нажиму девушек. Когда-нибудь это точно меня погубит."
+
+    old "Even while saying that, her eyes won't leave the rings on display. It's in places like these that the princess is still just a girl."
+    new "Хотя при этом её взгляд не отводит от расставленных колец. Видно, и принцесса — просто девушка."

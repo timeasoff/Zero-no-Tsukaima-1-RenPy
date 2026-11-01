@@ -4983,3 +4983,52 @@ ch6.2_l_011,7339
 ch6.2_s_063,13479
 ch6.2_l_012,7340
 ch6.2_s_064,13480
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+ch6.3_h_001,387
+ch6.3_h_002,388
+ch6.3_h_003,389
+ch6.3_h_004,390
+ch6.3_h_005,391
+ch6.3_h_006,392
+ch6.3_h_007,393
+ch6.3_h_008,394
+ch6.3_h_009,395
+ch6.3_h_010,396
+ch6.3_h_011,397
+ch6.3_h_012,398
+ch6.3_h_013,399
+ch6.3_h_014,400
+ch6.3_h_015,401
+ch6.3_h_016,402
+ch6.3_h_017,403
+ch6.3_h_018,404
+ch6.3_h_019,405
+ch6.3_h_020,406
+ch6.3_h_021,407
+ch6.3_h_022,408
+ch6.3_h_023,409
+ch6.3_h_024,410
+ch6.3_h_025,411
+ch6.3_s_001,9147,saito VOICE_ID.BIN_000023BB.wav
+ch6.3_s_002,9148,saito VOICE_ID.BIN_000023BC.wav
+ch6.3_s_003,9149,saito VOICE_ID.BIN_000023BD.wav
+ch6.3_s_004,9150,saito VOICE_ID.BIN_000023BE.wav
+ch6.3_s_005,9151,saito VOICE_ID.BIN_000023BF.wav
+ch6.3_s_006,9152,saito VOICE_ID.BIN_000023C0.wav
+ch6.3_s_007,9153,saito VOICE_ID.BIN_000023C1.wav
+ch6.3_s_008,9154,saito VOICE_ID.BIN_000023C2.wav
+ch6.3_s_009,9155,saito VOICE_ID.BIN_000023C3.wav
+ch6.3_s_010,9156,saito VOICE_ID.BIN_000023C4.wav
+ch6.3_s_011,9157,saito VOICE_ID.BIN_000023C5.wav
+ch6.3_s_012,9158,saito VOICE_ID.BIN_000023C6.wav
+ch6.3_s_013,9159,saito VOICE_ID.BIN_000023C7.wav
+ch6.3_s_014,9160,saito VOICE_ID.BIN_000023C8.wav
+ch6.3_s_015,9161,saito VOICE_ID.BIN_000023C9.wav
+ch6.3_s_016,9162,saito VOICE_ID.BIN_000023CA.wav
+ch6.3_s_017,9163,saito VOICE_ID.BIN_000023CB.wav
+ch6.3_s_018,9164,saito VOICE_ID.BIN_000023CC.wav
+ch6.3_s_019,9165,saito VOICE_ID.BIN_000023CD.wav
+ch6.3_s_020,9166,saito VOICE_ID.BIN_000023CE.wav
+ch6.3_merchant_001,4199
+ch6.3_merchant_002,4200
+ch6.3_merchant_003,4201

@@ -17406,3 +17406,156 @@ translate japanese strings:
     old "Aaaaaaagh!"
     new "ぎゃああああああすっ！"
 
+
+
+
+
+
+
+
+
+
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+    old "Oh, good… You were still up."
+    new "ああ、良かった。 まだ起きてらしたんですね。"
+
+    old "Princess? What's going on?"
+    new "お姫さま？ どうしたんですか、いったい。"
+
+    old "In fact, I came because I wanted to ask my familiar for something."
+    new "実は、使い魔さんにちょっとお願いがあって 来てしまいました。"
+
+    old "Something? If there's anything I can do, name it."
+    new "お願い？ 俺にできることなら、なんでも。"
+
+    old "Oh, that's wonderful. You see, I would like to see the town at night. So I came to ask if you would show me around."
+    new "ああ良かった。 実は、夜の街というのを見てみたいのです。 それで、使い魔さんに案内をお願いしたくて。"
+
+    old "Wh-what!? I just got scolded by Louise about the daytime thing! I nearly died!"
+    new "ええっ！？　昼のことでルイズに 怒られたばかりなんですよ！ 俺、死ぬとこだったし！"
+
+    old "I have been out a few times during the day, but I have never once seen the town after sunset."
+    new "わたくし、昼間は何度か行ったことが あるのですが、日が暮れてからの街は 出たことが一度もないのです。"
+
+    old "Could it be… slipping out of the inn into the town… or something?"
+    new "ひょっとして……。 宿屋を抜け出して街に出る……とか？"
+
+    old "Yes. Let's go."
+    new "ええ。 まいりましょう。"
+
+    old "Look, I changed into proper clothes, after all. I am completely ready."
+    new "ほら、ちゃんと着替えてまいりましたし、 準備は万端ですわ。"
+
+    old "I am not ready! Mostly in spirit!"
+    new "俺の準備ができてませんよ。 主に心の！"
+
+    old "Is that a no?{#ch6_3_d001}"
+    new "駄目ですの？"
+
+    old "…{#ch6_3_d002}"
+    new "……。"
+
+    old "All right. But we'll keep it quiet, so Louise doesn't find out."
+    new "分かりました。 ルイズに見つからないように、こっそりですよ？"
+
+    old "Of course! Naturally!"
+    new "はい！ もちろんですわ！"
+
+    old "My…!{#ch6_3_d003}"
+    new "まあ……！"
+
+    old "Is something the matter?"
+    new "どうかしましたか？"
+
+    old "The night town looks so different. It appears completely unlike the daytime. It's as if it were an entirely different town…"
+    new "夜の街は、こうも景色が変わるのですね。 昼とは全く様子が異なって見えます。 まるで、別の街のようですわ……！"
+
+    old "Well, it certainly is around here."
+    new "まあ、ここらへんはそうですね。"
+
+    old "Come in, come in. Oh, you there with the beautiful young lady - what about a little something for your companion?"
+    new "さあさあ、いらっしゃい。 お、そこのべっぴんさん連れた兄ちゃん、 どうだい、お連れのご婦人にひとつ。"
+
+    old "My, how pretty! So many colorful rings!"
+    new "まあ、きれい！ こんなに色とりどりの指輪が！"
+
+    old "Um… Princess, is it that unusual to you?"
+    new "ええと……。 お姫さま、そんなに珍しいですか？"
+
+    old "It's not that it's unusual, but isn't it beautiful? Oh, this is…"
+    new "珍しいわけではありませんけれど、 きれいではありませんか？ あら、これは……。"
+
+    old "Miss, which one caught your eye?"
+    new "お嬢さん、どれが気に入ったかね。"
+
+    old "Let me see… this top one, with the delicate craftsmanship, is…"
+    new "そうですわね、この一番上の、 繊細な細工のものなどは……。"
+
+    old "Princess…{#ch6_3_d004}"
+    new "お姫さま……。"
+
+    old "I'll buy it for you."
+    new "俺が買ってあげますよ。"
+
+    old "Are you sure?{#ch6_3_d005}"
+    new "よろしいんですの？"
+
+    old "Well, for something like this, I can manage with my pocket money."
+    new "ま、これくらいだったら俺の手持ちのお金でも 買えますから。"
+
+    old "No, that's not what I mean…"
+    new "いえ、そうではなくて……。"
+
+    old "You must have better ones at home?"
+    new "もっといいのを持ってるでしょう？"
+
+    old "Well, that is true, but…"
+    new "それは、そうですけど……。"
+
+    old "But those are things that have been in our house for a long time, or gifts given to it. They are not things that belong to me personally."
+    new "でもそれらは、我が家に以前からある物で あったり、我が家に贈られた物です。 わたくし個人の物ではありません。"
+
+    old "Princess…{#ch6_3_d006}"
+    new "お姫さま……。"
+
+    old "The ring itself may be cheap, but choosing it for myself is what makes it enjoyable. That is a value that cannot be put a price on."
+    new "指輪自体は安いものかもしれませんが、 こうして自分で見て選ぶのが楽しいのです。 それは、値のつけようのない価値なのです。"
+
+    old "Wouldn't you like to see other shops too?{#ch6_3_d007}"
+    new "ほかの店も見ませんか。"
+
+    old "Hm? Oh, yes, of course."
+    new "え？ あ、はい、そうですね。"
+
+    old "All right then."
+    new "よしっ。"
+
+    old "Dad, give me this ring. Is this enough?"
+    new "親父、この指輪ちょうだい。 これで足りる？"
+
+    old "Familiar!?"
+    new "使い魔さん！？"
+
+    old "Right away, thank you for your patronage!"
+    new "へい、毎度！"
+
+    old "Here you are, Princess."
+    new "はい、お姫さま。"
+
+    old "Ah… thank you…"
+    new "あ……ありがとうございます……。"
+
+    old "Heh, how does it look?"
+    new "ふふっ、どうですか。"
+
+    old "Yeah, it's really pretty for something from a street stall."
+    new "うん、露店のものにしては、キレイですね。"
+
+    old "Heh heh. Looking at it like this, it almost looks like an engagement ring."
+    new "うふふっ。 こうやって見ると、なんだか婚約指輪 みたいですね。"
+
+    old "Hm?{#ch6_3_d008}"
+    new "はい？"
+
+    old "Nothing at all. Heh heh."
+    new "なんでもありませんよ。 うふふっ。"

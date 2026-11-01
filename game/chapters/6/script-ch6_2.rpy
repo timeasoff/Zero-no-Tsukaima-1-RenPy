@@ -366,4 +366,6 @@ label ch6_2_s374:
     l "What would you have done if something had happened to the princess? You stupid mutt!"
     voice "ch6.2_s_064"
     s "Aaaaaaagh!"
-    jump attention
+    # 【デート】アンリエッタ → 1164 (unconditional; the postdate-skip +375 belongs to
+    # chapter_08, ported as ch7): the date now continues in ch6_3.
+    jump ch6_3

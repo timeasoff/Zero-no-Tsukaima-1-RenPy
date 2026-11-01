@@ -1269,3 +1269,21 @@ translate russian strings:
     old "I went to see how things were in town..."
     new "Я ходил посмотреть, как там в городе…"
 
+
+
+
+
+
+
+
+
+
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+    old "I'll buy it for you"
+    new "Я куплю вам его"
+
+    old "You must have better ones"
+    new "У вас есть и получше, да?"
+
+    old "Wouldn't you like to see other shops too?"
+    new "Может, стоит заглянуть и в другие лавки?"

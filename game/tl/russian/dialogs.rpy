@@ -17218,3 +17218,156 @@ translate russian strings:
     old "Aaaaaaagh!"
     new "А-а-а-а-а-а-а-а!"
 
+
+
+
+
+
+
+
+
+
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+    old "Oh, good… You were still up."
+    new "Ах, как хорошо… вы ещё не спали."
+
+    old "Princess? What's going on?"
+    new "Принцесса? Что случилось?"
+
+    old "In fact, I came because I wanted to ask my familiar for something."
+    new "Видите ли, я пришла попросить вас об одной услуге."
+
+    old "Something? If there's anything I can do, name it."
+    new "О услуге? Если я могу чем-то помочь — только скажите."
+
+    old "Oh, that's wonderful. You see, I would like to see the town at night. So I came to ask if you would show me around."
+    new "Ах, как хорошо… Я так хотела увидеть ночной город. И я хотела попросить вас показать мне его."
+
+    old "Wh-what!? I just got scolded by Louise about the daytime thing! I nearly died!"
+    new "Ч-что!? Луиза только что ругала меня за дневные проделки! Я едва не погиб!"
+
+    old "I have been out a few times during the day, but I have never once seen the town after sunset."
+    new "Днём я бывала там несколько раз, но после заката я ни разу не выходила в город."
+
+    old "Could it be… slipping out of the inn into the town… or something?"
+    new "Неужели… вы улизнете из гостиницы и пойдёте в город… или что-то в этом роде?"
+
+    old "Yes. Let's go."
+    new "Да. Пойдём."
+
+    old "Look, I changed into proper clothes, after all. I am completely ready."
+    new "Смотрите, я как следует переоделась — всё готово."
+
+    old "I am not ready! Mostly in spirit!"
+    new "А вот я совсем не готов! В основном — морально!"
+
+    old "Is that a no?{#ch6_3_d001}"
+    new "Неужели, вы отказываетесь?"
+
+    old "…{#ch6_3_d002}"
+    new "…"
+
+    old "All right. But we'll keep it quiet, so Louise doesn't find out."
+    new "Ладно. Только чтобы Луиза не заметила."
+
+    old "Of course! Naturally!"
+    new "Да! Конечно!"
+
+    old "My…!{#ch6_3_d003}"
+    new "Ох…!"
+
+    old "Is something the matter?"
+    new "Что-то случилось?"
+
+    old "The night town looks so different. It appears completely unlike the daytime. It's as if it were an entirely different town…"
+    new "Ночной город так по-другому выглядит. Совсем не похоже на дневной… Как будто это другой город…!"
+
+    old "Well, it certainly is around here."
+    new "Ну, здесь-то так и есть."
+
+    old "Come in, come in. Oh, you there with the beautiful young lady - what about a little something for your companion?"
+    new "Да-да, добро пожаловать. О, с какой красавицей ты! Не подобрать ли твоей спутнице что-нибудь?"
+
+    old "My, how pretty! So many colorful rings!"
+    new "О, как красиво! Столько разноцветных колец!"
+
+    old "Um… Princess, is it that unusual to you?"
+    new "Эм-м… принцесса, это вам так непривычно?"
+
+    old "It's not that it's unusual, but isn't it beautiful? Oh, this is…"
+    new "Не то чтобы непривычно… просто красиво, да? Ах, это же…"
+
+    old "Miss, which one caught your eye?"
+    new "А какое тебе понравилось, юная леди?"
+
+    old "Let me see… this top one, with the delicate craftsmanship, is…"
+    new "Вот, скажем, самый верхний, с тонкой отделкой…"
+
+    old "Princess…{#ch6_3_d004}"
+    new "Принцесса…"
+
+    old "I'll buy it for you."
+    new "Я куплю вам его."
+
+    old "Are you sure?{#ch6_3_d005}"
+    new "Вы уверены?"
+
+    old "Well, for something like this, I can manage with my pocket money."
+    new "Ну, такое я ещё могу купить на свои деньги."
+
+    old "No, that's not what I mean…"
+    new "Нет, я имела в виду другое…"
+
+    old "You must have better ones at home?"
+    new "У вас есть и получше, да?"
+
+    old "Well, that is true, but…"
+    new "Ну да, так и есть, но…"
+
+    old "But those are things that have been in our house for a long time, or gifts given to it. They are not things that belong to me personally."
+    new "Но они либо давно достались нашему дому, либо подарили ему. Они не мои лично."
+
+    old "Princess…{#ch6_3_d006}"
+    new "Принцесса…"
+
+    old "The ring itself may be cheap, but choosing it for myself is what makes it enjoyable. That is a value that cannot be put a price on."
+    new "Само кольцо может быть и недорогим, но вот выбирать его самой — в этом-то и есть радость. Это ценность, которую нельзя оценить ценой."
+
+    old "Wouldn't you like to see other shops too?{#ch6_3_d007}"
+    new "Может, стоит заглянуть и в другие лавки?"
+
+    old "Hm? Oh, yes, of course."
+    new "Хм? Ох, да, конечно."
+
+    old "All right then."
+    new "Ладно!"
+
+    old "Dad, give me this ring. Is this enough?"
+    new "Старина, подай-ка вот это кольцо. Хватит?"
+
+    old "Familiar!?"
+    new "Фамильяр!?"
+
+    old "Right away, thank you for your patronage!"
+    new "Хорошо, спасибо!"
+
+    old "Here you are, Princess."
+    new "Вот, держите, принцесса."
+
+    old "Ah… thank you…"
+    new "Ах… Спасибо вам…"
+
+    old "Heh, how does it look?"
+    new "Ха-ха, ну как тебе?"
+
+    old "Yeah, it's really pretty for something from a street stall."
+    new "Да, для вещи с лотка — красиво."
+
+    old "Heh heh. Looking at it like this, it almost looks like an engagement ring."
+    new "Ха-ха. Вот так смотришь — ну, похоже на кольцо, данное при помолвке, правда?"
+
+    old "Hm?{#ch6_3_d008}"
+    new "Что?"
+
+    old "Nothing at all. Heh heh."
+    new "Ничего такого. Ха-ха."

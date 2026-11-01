@@ -1348,3 +1348,24 @@ translate japanese strings:
 
     old "But if I go back now, Louise will beat me to death for making her act on her honest feelings."
     new "でも、このまま帰っても、 素直な感情に従ったルイズに、 撲殺されるんだろうなぁ"
+
+
+
+
+
+
+
+
+
+# ===== ch6_3 Henrietta night date (source chapter_07 scenes 1164-1168) =====
+    old "Ugh! Being stared at by the princess with such a look… the guilt really gets to me!"
+    new "（ううっ！ お姫さまにそんな目で見つめられると、 罪悪感がひしひしと！）"
+
+    old "No, but… I don't want to be scolded by Louise again either…"
+    new "（いや、しかし……。 ルイズに怒られるのはもうごめんだし……）"
+
+    old "Ahhh… I'm really weak against girls pressing me. I know I'm going to destroy myself because of this someday."
+    new "（ああ……。 俺、女の子の押しに弱いよなあ。 いつか絶対、これで身を滅ぼすよな）"
+
+    old "Even while saying that, her eyes won't leave the rings on display. It's in places like these that the princess is still just a girl."
+    new "（とか言いながら、目が並べられた指輪から 離れないな。こういうところ、 お姫さまも女の子なんだなあ）"

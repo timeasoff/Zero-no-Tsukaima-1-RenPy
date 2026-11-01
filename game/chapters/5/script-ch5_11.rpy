@@ -369,7 +369,7 @@ label ch5_11_scene_343:
     elif zero_route == 4:
         jump attention
     elif zero_route == 5:
-        jump attention
+        jump ch6
     else:
         jump attention
 
