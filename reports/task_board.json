@@ -754,6 +754,134 @@
         }
       ],
       "closed": "2026-10-31 16:43:32"
+    },
+    {
+      "id": "T20261109-160518-31b1",
+      "created": "2026-11-09 16:05:18",
+      "request": "Продолжить перевод: глава 7 (chapter_08_失望のお姫様) — порт с нуля, части ch7_1..ch7_3",
+      "target": "7",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "7_2",
+          "scope": "part",
+          "title": "Часть 2 ch7_2",
+          "status": "done",
+          "created": "2026-11-09 16:06:21",
+          "started": null,
+          "finished": "2026-11-09 18:53:14",
+          "session": null,
+          "note": "",
+          "evidence": [
+            "game/chapters/7/script-ch7_2.rpy",
+            "reports/ch7/2.md",
+            "reports/tasks/T20261109-160518-31b1/S1.result.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S2",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "7_1",
+          "scope": "part",
+          "title": "Часть 1 ch7_1: структура, резка, порт, EN/RU, tl, голоса",
+          "status": "done",
+          "created": "2026-11-09 16:06:21",
+          "started": "2026-11-09 16:36:18",
+          "finished": "2026-11-09 17:25:28",
+          "session": "ses_e3f9485ecffexZ55htJwtFVhT3",
+          "note": "",
+          "evidence": [
+            "game/chapters/7/script-ch7_1.rpy",
+            "reports/ch7/1.md",
+            "reports/tasks/T20261109-160518-31b1/S2.result.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S3",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "7_3",
+          "scope": "part",
+          "title": "Часть 3 ch7_3 (+ extra, вход jump ch7 / выход jump ch8)",
+          "status": "done",
+          "created": "2026-11-09 16:06:21",
+          "started": null,
+          "finished": "2026-11-09 19:49:17",
+          "session": null,
+          "note": "",
+          "evidence": [
+            "game/chapters/7/script-ch7_3.rpy",
+            "reports/ch7/3.md",
+            "reports/tasks/T20261109-160518-31b1/S3.result.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S4",
+          "kind": "prompt",
+          "prompt": "voice-work",
+          "target": "7",
+          "scope": "chapter",
+          "title": "Голоса главы 7: манифест, ogg, transcriptions",
+          "status": "done",
+          "created": "2026-11-09 16:06:21",
+          "started": null,
+          "finished": "2026-11-09 19:56:23",
+          "session": null,
+          "note": "",
+          "evidence": [
+            "reports/tasks/T20261109-160518-31b1/S4.result.md",
+            "reports/ch7/3.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S5",
+          "kind": "prompt",
+          "prompt": "full-audit",
+          "target": "7",
+          "scope": "chapter",
+          "title": "Аудит главы 7: precheck + A + C + analyzer",
+          "status": "done",
+          "created": "2026-11-09 16:06:21",
+          "started": null,
+          "finished": "2026-11-09 20:35:40",
+          "session": null,
+          "note": "",
+          "evidence": [
+            "reports/tasks/T20261109-160518-31b1/S5.result.md",
+            "reports/sma/ch7"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S6",
+          "kind": "manual",
+          "prompt": "",
+          "target": "7",
+          "scope": "chapter",
+          "title": "Финальные проверки и отчётность главы 7",
+          "status": "done",
+          "created": "2026-11-09 16:06:21",
+          "started": null,
+          "finished": "2026-11-09 20:36:34",
+          "session": null,
+          "note": "",
+          "evidence": [
+            "reports/check_project.md",
+            "reports/check_renpy_syntax.md",
+            "reports/log.md"
+          ],
+          "manual": "check_project.py до RESULT: OK; отчёты reports/ch7/*.md; обновить reports/translation_plan.md и reports/log.md"
+        }
+      ],
+      "closed": "2026-11-09 20:36:38"
     }
   ]
 }

@@ -51,6 +51,11 @@ define unk_h = Character(_("???"), color="#782163")
 # в источнике «？？？»; цвет — Уэзерби (define w)
 define unk_w = Character(_("???"), color="#797979")
 
+# es — «敵兵士ＥＳ» из главы 7, часть 2 (сцена 399): солдат Реконкисты,
+#   DR-имя «兵士» (Soldier); голос ch7.2_es_001 (id 1409); цвет нейтральный
+#   (PROVISIONAL — спикер без личного цвета, сверка недоступна)
+define es = Character(_("ES Soldier"), color="#797979")
+
 
 define th = Character(None, 
     what_italic=True,

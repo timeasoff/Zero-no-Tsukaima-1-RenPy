@@ -86,4 +86,7 @@ translate russian strings:
     old "Shopkeeper"
     new "Лавочник"
 
+    old "ES Soldier"
+    new "Солдат ES"
+
 

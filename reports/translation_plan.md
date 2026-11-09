@@ -347,7 +347,7 @@ extra-блок 1063/1084–1103.
 - [x] Сцены: 344–374 (ядро; в источнике нет ID 356–360 — идёт 355 → 361)
 - [x] Требуется создать минимум **4 части** (431 ÷ 115 ≈ 4) — созданы 3 (ч6_1 + ч6_2 + ч6_3)
 - [x] Вход: `jump ch6` из главы 5 (route-5 в `ch5_11_scene_343`, 2026-10-31 (6))
-- [ ] Выход: `jump ch7` — PROVISIONAL: хвост ч6_3 → `jump attention` (ch7 не портирован; подцепить при порте главы 7)
+- [x] Выход: `jump ch7` — подключён 2026-11-09 (S3 ч7_3: 2 хука в `script-ch6_3.rpy`); PROVISIONAL снят
 - [ ] Планируемые части:
   - [x] `ch6_1.rpy` — scenes 344–355 + extra 1429–1448 (EN/RU переведены; аудит пройден; 237 OGG checked)
    - [x] `ch6_2.rpy` — scenes 360–374 (133 voices; EN/RU/TL translated; audits A/B-equivalent/C, analyzer, grammar/style complete; image warnings preserved)
@@ -360,23 +360,44 @@ extra-блок 1063/1084–1103.
 
 ---
 
-## 📊 Глава 7 — `chapter_08` (失望のお姫様) ❌
+## 📊 Глава 7 — `chapter_08` (失望のお姫さま) ✅
 
-**Статус:** ❌ Не начата.**
+**Статус:** ✅ Готова. Все три части портированы 2026-11-09 (S2/S1 + S3); вход `jump ch7` подцеплен из гл. 6; выход — PROVISIONAL `jump attention` (гл. 8 `chapter_09` не портирована). Полный SMA-аудит главы проведён 2026-11-09 (S5): precheck 0 кандидатов (239/239), A + C + Analyzer F1/F2, 12 правок (10 RU + 2 EN) по CONFIRMED_ERROR, 4 кандидата PRESERVED; заглушки id(41/43/52/53/54) и спрайты 471/572/779/781/786/790/792 — PROVISIONAL.
 
-- [ ] `chapters/7/` — папка пуста (`.gitkeep` только)
-- [ ] Источник: `ps2_source/chapters/chapter_08_失望のお姫様.txt` (35 сцен, 336 голосовых, 5 extra)
-- [ ] Сцены: 375–404 (ядро)
-- [ ] Требуется создать **3 части** (336 ÷ 115 ≈ 3)
-- [ ] Вход: `jump ch7` из главы 6
-- [ ] Выход: `jump ch8`
-- [ ] Планируемые части:
-  - [ ] `ch7_1.rpy` — scenes 375–~386
-  - [ ] `ch7_2.rpy` — scenes ~386–~395
-  - [ ] `ch7_3.rpy` — scenes ~395–404
-- [ ] Голоса: `ch7_*`
-- [ ] Перевод EN/RU: в `tl/{japanese,russian}/`
-- [ ] Пройдены все `project-checks` — к завершении
+- [x] Вход: `jump ch7` из главы 6
+- [x] Источник: `ps2_source/chapters/chapter_08_失望のお姫さま.txt` (35 сцен, talk 336 / голосовых 331, 5 extra)
+- [x] Границы частей: ch7_1 = 375–388 (140 голосов); ch7_2 = 389–399 (96); ch7_3 = 400–404 (52) + extra 1169–1173 (43)
+- [x] Часть 1 `script-ch7_1.rpy` (сцены 375–388) ✅ 2026-11-09: port EN (в сценарии),
+  голоса `ch7_*` ×140 (.ogg OK), old/new в jal/ru (152 пары×2), overlay K=12,
+  3 меню × 3 пункта; `check_project` → только designed E7 (jump ch7_2, часть 2),
+  renpy_syntax OK; отчёт `reports/ch7/1.md`
+  - ⚠️ PROVISIONAL: EN-титул 'The Disappointed Princess'; спрайты 572/621/1061/1063/1065;
+    фон-заглушки id(41)/id(53)/id(54)/id(264) — в image_id_map filename пуст
+  - ⏳→✅ Аудиты A/B/C + analyzer — выполнены 2026-11-09 (S5): C-105-01 (c378 «на всякий случай»), C-208-01 (h_002 «опасалась»), C-239-01 (h_005 «Казалось бы»), C-502-01 (w_004 декларация), C-588-01 (s_032+c387 «оправдание») — FIXED; l_007/l_014 — PRESERVED
+  - ✅ Часть 2/3 тоже закрыты аудитом — сводка в `reports/ch7/3.md` §13; evidence в `reports/sma/ch7/{1,2,3}/` и `chapter/analysis/`
+- [x] `ch7_2.rpy` — scenes 389–399 ✅ 2026-11-09: port EN (в сценарии),
+  голоса `ch7.2_*` ×96 (.ogg OK, convert/check OK), old/new в jal/ru (104 пары×2),
+  2 меню × 3 пункта (merge inline); overlay K — нет; `check_project` → только
+  designed E7 (jump ch7_3, часть 3); renpy_syntax OK; отчёт `reports/ch7/2.md`
+  - ⚠️ PROVISIONAL: спрайты 471/572; некартинки 1017/1019/1111 (не показываются);
+    фон-заглушки id(54)/id(52); новый говорящий `es` (Солдат ES);
+    «закулисный зачинщик» (RU 黒幕); строчка `reports/_x395a_here.txt` к удалению
+  - ⏳→✅ Аудиты A/B/C + analyzer — выполнены 2026-11-09 (S5): C-1016-01 (h_008: あなたがた «вы», EN+RU) — FIXED; s_017 «чёрт возьми» — PRESERVED (CHARACTER VOICE)
+- [x] `ch7_3.rpy` — scenes 400–404 + extra 1169–1173 ✅ 2026-11-09 (S3): port EN (в сценарии),
+  голоса `ch7.3_*` ×95 (.ogg OK, convert/check OK), old/new в jal/ru (102 пары×2:
+  dialogs 95 + thoughs 1 + choises 6), 1 меню (ветки 401–403 inline) + меню дат,
+  дата-гейт Анриетты (`zero_tundele >= 211` → `sp_l1`, K=12), `tndl(50)`/`tndl(-40)`;
+  hook ch6_3 → `jump ch7`; `check_project` OK, renpy_syntax ч7/ч6 OK; отчёт `reports/ch7/3.md`
+  - ⚠️ PROVISIONAL: выход главы → `jump attention` (гл. 8 не портирована); «мадемуазель Уэзерби»;
+    спрайт 790 отсутствует (не показывается); PROV-спрайты 779/775/781/786/792/572;
+    фон-заглушки id(43)/id(52); 22 STV сайто-оперы декодированы заново (48 kHz/mono);
+    4 wav Сиесты продублированы под «чистыми» именами (чужой префикс `tabitha `)
+  - ⏳→✅ Аудиты A/B/C + analyzer — выполнены 2026-11-09 (S5): C-1210-01 (l_007 гипотетическая рамка), C-1294-01 (h_005 籠絡 «переманить»), C-1328-01 (th_404a «вдвойне»/конъектура, EN+RU) — FIXED; g_002 — PRESERVED (CHARACTER VOICE)
+- [x] Голоса: `ch7_*` (331 голосовых = ровно все [voice] источника: ч7_1 = 140, ч7_2 = 96, ч7_3 = 95; talk 336 вкл. 4 мысли + 1 no-voice; convert/check OK; сквозная верификация S4 2026-11-09 — позиционные id, манифест, ogg, CSV-пометки: без расхождений)
+- [x] Перевод EN/RU: в `tl/{japanese,russian}/` (256+102 = 358 пар×2)
+- [x] Пройдены все `project-checks` (2026-11-09: check_project errors=0, renpy_syntax,
+  voice_transcriptions, placeholders, assets, typography ru/en — OK)
+- [x] SMA-аудит (S5, 2026-11-09): omission precheck 0 (239/239) → Фаза 1 blind (13 находок) → A×3 + C×3 → Analyzer Фаза 2: 9 CONFIRMED_ERROR → FIXED (10 RU + 2 EN строк, пакер `tools/apply_ch7_phase2_fixes.py`), 4 кандидата PRESERVED → check_project/typography/renpy_syntax OK
 
 ---
 

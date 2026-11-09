@@ -49,15 +49,20 @@
 | S1 | [x] done | `first-launch` | `6_1` | Разбор главы 6 и порт первой части |
 | S2 | [x] done | `port-part` | `6_2` | Порт второй части главы 6: сцены 360–374 |
 
-## T20261031-015233-a0c8 — [open] (закрыто 0 из 1)
+## T20261031-015233-a0c8 — [closed] (закрыто 5 из 5)
 
 * Запрос: Продолжить перевод главы 6: порт и перевод оставшихся extra-сцен chapter_07 после S1/S2
 * Цель: `6`
 * Создана: 2026-10-31 01:52:33
+* Закрыта: 2026-11-01 17:27:23
 
 | # | статус | режим | цель | заголовок |
 |---|---|---|---|---|
-| S1 | [ ] pending | `port-part` | `extra` | Порт extra-сцен 1164–1168 главы 6 |
+| S1 | [x] done | `port-part` | `extra` | Порт extra-сцен 1164–1168 главы 6 |
+| S2 | [x] done | `manual` | `6` | S0 WIP-finish ch6_1/ch6_2 (E4/E5/E11 + tndl) |
+| S3 | [x] done | `voice-work` | `6_3` | Голоса ch6_3 (48 id) + огg + конвертация |
+| S4 | [x] done | `full-audit` | `6_3` | Аудит ch6_3 (precheck + A/C + analyzer) |
+| S5 | [x] done | `manual` | `6` | Финальные проверки + коммит |
 
 ## T20261031-033403-0df1 — [closed] (закрыто 5 из 5)
 
@@ -89,18 +94,34 @@
 | S4 | [x] done | `manual` | `1` | Сборка канона и правка кода |
 | S5 | [x] done | `manual` | `1` | Условие extra по коду |
 
-## T20261031-154035-97bf — [open] (закрыто 0 из 7)
+## T20261031-154035-97bf — [closed] (закрыто 7 из 7)
 
 * Запрос: Проверка всех реализованных частей на устаревшие пометки tndl («система не реализована») и пропущенные tndl-вызовы vs канон JA (events_full глав 01-07); замена комментариев и вставка вызовов, ch6 — только отчёт (чужой WIP)
 * Создана: 2026-10-31 15:40:35
+* Закрыта: 2026-10-31 16:43:32
 
 | # | статус | режим | цель | заголовок |
 |---|---|---|---|---|
-| S1 | [ ] pending | `manual` | `-` | Аудит покрытия tndl: каждое событие TNDL из ps2_source/events_full глав 01-07 сопоставить с портом (якорь: LIKE->update_sympathy или соседний talk -> voice_id_map -> voice-строка, позиция внутри той же ветки/menю); классификация каждого события PORTED / STALE-COMMENT / MISSING / NO-ANCHOR; сверка значений и знаков 51 устаревшего комментария с JA; контроль ch1 = 32/32; инвентарь ch6 (13 событий, вкл. 4x+40) БЕЗ правок - чужой WIP. Выход: reports/tasks/T20261031-154035-97bf/s1_tndl_audit.md + CSV-план вставок (source_line, char/anchor, значение, файл, статус) |
-| S2 | [ ] pending | `manual` | `-` | Правки по канону, главы 0 и 2: script-ch0.rpy - tndl(None) в начале главы (source chapter_01 line 6); script-ch2_1..8.rpy - tndl(None) после label ch2 + вставка всех tndl(+/-30) events_full chapter_03 по плану S1 (после соответствующего update_sympathy либо после якорной voice-строки в той же ветке) |
-| S3 | [ ] pending | `manual` | `-` | Правки главы 3: заменить 17 устаревших комментариев (ch3_3, ch3_6, ch3_7, ch3_8) на реальные tndl(...) со значением из JA events_full chapter_04, вставить пропущенные молча события, tndl(None) после label ch3 |
-| S4 | [ ] pending | `manual` | `-` | Правки главы 4: заменить 2 устаревших комментария (ch4_3) на реальные tndl(...) по JA chapter_05, вставить пропущенные молча события, tndl(None) после label ch4 |
-| S5 | [ ] pending | `manual` | `-` | Правки главы 5: заменить 32 устаревших комментария (ch5_1..ch5_6, включая tndl(null)) на реальные tndl(...) строго по значениям JA events_full chapter_06; сверка последовательности 21x-30 / 10x+30 / 1xnull |
-| S6 | [ ] pending | `manual` | `-` | Гейты date() перед дат-меню в ch2_6, ch3_8, ch4_6, ch5_10 по образцу ch1_10.rpy: if zero_tundele >= 211 -> zero_tndl_no = tndl_pick(zero_dele_event); слот 0 -> call sp_l1 с уникальным from + свой выход (fade/stop music -> продолжение после дат-меню этой главы), иначе fallthrough в portrait_choice; ветки <40 - fallthrough. Определить выход каждого гейта по структуре файла (что идёт после portrait_choice). Обязательно записать в reports/translation_plan.md планом следующую реализацию: порт extra-глав (chapter_90 тундэре-блок, дэре-слоты 1..5 chapter_91) |
-| S7 | [ ] pending | `manual` | `-` | Финал: строка TNDL в references/ps2_to_renpy.csv; обновить references/routes.md (статус tndl и гейтов в гл.2-5); reports/log.md (все решения цикла, ch6 tndl deferred - чужой WIP, date-гейты как решено); reports/translation_plan.md (маркировка затронутых частей + обязательный план extra-глав 90/91); отчёт reports/tndl_port_fix.md; check_renpy_syntax.py + check_project.py -> OK по моим файлам; git commit порции БЕЗ чужого WIP (game/chapters/6/*, game/tl/russian/thoughs.rpy) |
+| S1 | [x] done | `manual` | `-` | Аудит покрытия tndl: каждое событие TNDL из ps2_source/events_full глав 01-07 сопоставить с портом (якорь: LIKE->update_sympathy или соседний talk -> voice_id_map -> voice-строка, позиция внутри той же ветки/menю); классификация каждого события PORTED / STALE-COMMENT / MISSING / NO-ANCHOR; сверка значений и знаков 51 устаревшего комментария с JA; контроль ch1 = 32/32; инвентарь ch6 (13 событий, вкл. 4x+40) БЕЗ правок - чужой WIP. Выход: reports/tasks/T20261031-154035-97bf/s1_tndl_audit.md + CSV-план вставок (source_line, char/anchor, значение, файл, статус) |
+| S2 | [x] done | `manual` | `-` | Правки по канону, главы 0 и 2: script-ch0.rpy - tndl(None) в начале главы (source chapter_01 line 6); script-ch2_1..8.rpy - tndl(None) после label ch2 + вставка всех tndl(+/-30) events_full chapter_03 по плану S1 (после соответствующего update_sympathy либо после якорной voice-строки в той же ветке) |
+| S3 | [x] done | `manual` | `-` | Правки главы 3: заменить 17 устаревших комментариев (ch3_3, ch3_6, ch3_7, ch3_8) на реальные tndl(...) со значением из JA events_full chapter_04, вставить пропущенные молча события, tndl(None) после label ch3 |
+| S4 | [x] done | `manual` | `-` | Правки главы 4: заменить 2 устаревших комментария (ch4_3) на реальные tndl(...) по JA chapter_05, вставить пропущенные молча события, tndl(None) после label ch4 |
+| S5 | [x] done | `manual` | `-` | Правки главы 5: заменить 32 устаревших комментария (ch5_1..ch5_6, включая tndl(null)) на реальные tndl(...) строго по значениям JA events_full chapter_06; сверка последовательности 21x-30 / 10x+30 / 1xnull |
+| S6 | [x] done | `manual` | `-` | Гейты date() перед дат-меню в ch2_6, ch3_8, ch4_6, ch5_10 по образцу ch1_10.rpy: if zero_tundele >= 211 -> zero_tndl_no = tndl_pick(zero_dele_event); слот 0 -> call sp_l1 с уникальным from + свой выход (fade/stop music -> продолжение после дат-меню этой главы), иначе fallthrough в portrait_choice; ветки <40 - fallthrough. Определить выход каждого гейта по структуре файла (что идёт после portrait_choice). Обязательно записать в reports/translation_plan.md планом следующую реализацию: порт extra-глав (chapter_90 тундэре-блок, дэре-слоты 1..5 chapter_91) |
+| S7 | [x] done | `manual` | `-` | Финал: строка TNDL в references/ps2_to_renpy.csv; обновить references/routes.md (статус tndl и гейтов в гл.2-5); reports/log.md (все решения цикла, ch6 tndl deferred - чужой WIP, date-гейты как решено); reports/translation_plan.md (маркировка затронутых частей + обязательный план extra-глав 90/91); отчёт reports/tndl_port_fix.md; check_renpy_syntax.py + check_project.py -> OK по моим файлам; git commit порции БЕЗ чужого WIP (game/chapters/6/*, game/tl/russian/thoughs.rpy) |
+
+## T20261109-160518-31b1 — [open] (закрыто 6 из 6)
+
+* Запрос: Продолжить перевод: глава 7 (chapter_08_失望のお姫様) — порт с нуля, части ch7_1..ch7_3
+* Цель: `7`
+* Создана: 2026-11-09 16:05:18
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `port-part` | `7_2` | Часть 2 ch7_2 |
+| S2 | [x] done | `port-part` | `7_1` | Часть 1 ch7_1: структура, резка, порт, EN/RU, tl, голоса |
+| S3 | [x] done | `port-part` | `7_3` | Часть 3 ch7_3 (+ extra, вход jump ch7 / выход jump ch8) |
+| S4 | [x] done | `voice-work` | `7` | Голоса главы 7: манифест, ogg, transcriptions |
+| S5 | [x] done | `full-audit` | `7` | Аудит главы 7: precheck + A + C + analyzer |
+| S6 | [x] done | `manual` | `7` | Финальные проверки и отчётность главы 7 |
 

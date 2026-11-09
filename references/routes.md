@@ -824,15 +824,18 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 ### Связность
 
-Цепочка частей (межфайловые jump внутри главы): ch6_1 → ch6_2
+Цепочка частей (межфайловые jump внутри главы): ch6_1 → ch6_2 → ch6_3
 
 Межфайловые переходы:
 
 - `game/chapters/6/script-ch6_1.rpy:916` (`ch6_s1448`) → **jump** `ch6_2` → `game/chapters/6/script-ch6_2.rpy:5`
+- `game/chapters/6/script-ch6_2.rpy:366` (`ch6_2_s374`) → **jump** `ch6_3` → `game/chapters/6/script-ch6_3.rpy:12`
+- `game/chapters/6/script-ch6_3.rpy:31` (`ch6_3`, дат-гейт) → **jump** `ch6_3_s1164` (внутри файла)
 
 Выходы из главы (чужие главы / внешние лейблы, в т.ч. `jump attention`):
 
-- `game/chapters/6/script-ch6_2.rpy:366` (`ch6_2_s374`) → **jump** `attention` → `game/chapters/attention.rpy:1`
+- `game/chapters/6/script-ch6_3.rpy:29` (`ch6_3`, дере-слот 0 после `call sp_l1`) → **jump** `ch7` → `game/chapters/7/script-ch7_1.rpy:40`
+- `game/chapters/6/script-ch6_3.rpy:205` (`ch6_3_s1168`) → **jump** `ch7` → `game/chapters/7/script-ch7_1.rpy:40` (хук размещён при портировании части 3 главы 7)
 
 ## Extra (game/chapters/extra)
 
@@ -1017,7 +1020,12 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 * Нет в `.rpy`: 356, 357, 358, 359, 1164, 1165, 1166, 1167, 1168
 * Файлы: `script-ch6_1.rpy` (label `ch6` = сц. 344 + s-лейблы), `script-ch6_2.rpy` (label `ch6_2` = сц. 360).
 
-## Глава 08 (ps2_source/chapters/chapter_08_*.txt)
+## Глава 08 (ps2_source/chapters/chapter_08_*.txt) — портирована (`game/chapters/7/`)
+
+* портированные части: `script-ch7_1.rpy` (сцены 375-388), `script-ch7_2.rpy`
+  (389-399), `script-ch7_3.rpy` (400-404 + даты 1169-1173); вход `label ch7`,
+  хук из главы 6 (`script-ch6_3.rpy:29`, `:205`); выход главы 7 —
+  `jump attention` (PROVISIONAL: постдата +405 = глава 9, не портирована)
 
 * core scenes : 375 .. 404  (30 scenes)
 

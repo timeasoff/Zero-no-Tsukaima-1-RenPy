@@ -24,9 +24,10 @@ label ch6_3:
             call sp_l1 from _call_sp_l1_11
             $ fade_fx("black")
             stop music fadeout 1.0
-            # Postdate +375 = chapter_08 (chapter 7, not ported): PROVISIONAL
-            # endpoint, re-hooked to ch7 when it is ported.
-            jump attention
+            # Postdate +375 = chapter_08 core scene 375 = начало главы 7
+            # (script-ch7_1.rpy, label ch7): хук установлен при портировании
+            # части 3 главы 7 (script-ch7_3.rpy).
+            jump ch7
 
     $ jump ch6_3_s1164
 
@@ -200,6 +201,6 @@ label ch6_3_s1168:
     stop music fadeout 1.0
     # [COFFEE → $ pause(1.0), AGENTS.md §6; not ported literally]
     $ pause(1.0)
-    # 【デート進行】→ next scene 375 = chapter_08 core (chapter 7, not ported):
-    # PROVISIONAL endpoint, re-hooked to ch7 when it is ported.
-    jump attention
+    # 【デート進行】→ next scene 375 = chapter_08 core (chapter 7): хук на
+    # script-ch7_1.rpy (label ch7), установлен при портировании части 3 главы 7.
+    jump ch7

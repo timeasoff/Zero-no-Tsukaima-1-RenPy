@@ -86,3 +86,6 @@ translate japanese strings:
     old "Shopkeeper"
     new "店主"
 
+    old "ES Soldier"
+    new "敵兵士ＥＳ"
+
