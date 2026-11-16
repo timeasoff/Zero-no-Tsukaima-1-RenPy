@@ -4,17 +4,16 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (3)
+## ERROR (0)
 
-- E7 jump 'ch8_3' at game/chapters/8/script-ch8_2.rpy:656 has no label
-- E7 jump 'ch8_3' at game/chapters/8/script-ch8_2.rpy:699 has no label
-- E7 jump 'ch8_3' at game/chapters/8/script-ch8_2.rpy:705 has no label
+- нет
 
-## WARNING (323)
+## WARNING (327)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:3: (Now, just when I thought she was pressing in on me, a warm soft sensa
+- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:348: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -81,6 +80,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:200: Hide user interface.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12459: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:660: How did you know!?
+- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:76: I found them. {#ch8_e_001}
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:379: Increases accuracy of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:391: Increases attack power of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:388: Increases defense of 1 ally
@@ -225,6 +225,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:191: Hide user interface.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12465: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:662: How did you know!?
+- W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:73: I found them. {#ch8_e_001}
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:381: Increases accuracy of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:387: Increases attack power of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:393: Increases defense of 1 ally
@@ -300,6 +301,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:157: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
+- W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
 - W2 12 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
@@ -340,8 +342,8 @@
 
 - speakers defined: 37
 - overlay K: max=13 used=13 next_free=14
-- voices: refs=6722 ogg=6734 missing=0
-- I1 ch8: strings=227 source_talk=378 (gap expected)
+- voices: refs=6875 ogg=6886 missing=0
+- I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: not started (source talk=120)
 - I1 ch10: not started (source talk=492)
 - I1 ch11: not started (source talk=618)
@@ -362,6 +364,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=626 in 27 file(s)
-- labels=395 rpy=93 strings(strict=7648) tl_old=japanese:8141,russian:8168
+- image map: ids=313 named=148 open=165 | placeholders=633 in 28 file(s)
+- labels=396 rpy=94 strings(strict=7797) tl_old=japanese:8292,russian:8319
 
