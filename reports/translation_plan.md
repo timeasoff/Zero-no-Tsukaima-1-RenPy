@@ -403,7 +403,7 @@ extra-блок 1063/1084–1103.
 
 ## 📊 Глава 8 — `chapter_09` (決意のお姫様) ⚠️
 
-**Статус:** ⚠️ В работе (часть 1 завершена).
+**Статус:** ✅ Завершена (3 части: ch8_1, ch8_2, ch8_3).
 
 - [x] `chapters/8/` — создана `script-ch8_1.rpy` (сцены 405–416, 125 голосов)
 - [ ] Источник: `ps2_source/chapters/chapter_09_決意のお姫様.txt` (24 сцены, 378 голосовых, 0 extra)
@@ -414,10 +414,10 @@ extra-блок 1063/1084–1103.
 - [ ] Планируемые части:
   - [x] `ch8_1.rpy` — scenes 405–416 ✅ завершена (EN + JA/RU tl, голоса .ogg)
   - [x] `ch8_2.rpy` — scenes ~417–~423 ✅ завершена (EN + JA/RU tl, голоса .ogg, E7 debt resolved)
-  - [ ] `ch8_3.rpy` — scenes ~424–428
-- [x] Голоса: `ch8_*` — манифест обновлён, 125 + 90 = 215 .ogg сконвертировано
-- [x] Перевод EN/RU: в `tl/{japanese,russian}/` — ch8_1 завершено
-- [ ] Пройдены все `project-checks` (остался E7 forward debt ch8_2 — закроется с частью 2)
+  - [x] `ch8_3.rpy` — scenes ~424–428 ✅ завершена (EN + JA/RU tl, голоса .ogg, E7 debt resolved)
+- [x] Голоса: `ch8_*` — манифест обновлён, 125 + 90 + 152 = 367 .ogg сконвертировано
+- [x] Перевод EN/RU: в `tl/{japanese,russian}/` — ch8_1, ch8_2, ch8_3 завершены
+- [x] Пройдены все `project-checks` (check_project: RESULT: OK, check_renpy_syntax: OK, audio_converter check: OK)
 
 ---
 
