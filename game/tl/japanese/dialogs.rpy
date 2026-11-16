@@ -9336,7 +9336,7 @@ translate japanese strings:
     old "Y-yes, ma'am…"
     new "は、はい……。"
 
-    old "Saito, you dummy…"
+    old "Saito-san, you dummy…"
     new "サイトさんの馬鹿……。"
 
     old "Ee-eh!?"

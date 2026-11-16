@@ -8087,7 +8087,7 @@ translate russian strings:
     new "Какое-то лечение — огнь огнём побеждают, жарой по жаре?"
 
     old "If that's the case, I did something awful to Louise and the others…"
-    new "Если так, я ужасно прогадал Луизе и остальным…"
+    new "Если так, я поступил очень плохо с Луизой и остальными…"
 
     old "You're really kind, Hiraga-kun."
     new "Ты действительно добрый, Хирага-кун."
@@ -9342,8 +9342,8 @@ translate russian strings:
     old "Y-yes, ma'am…"
     new "Д-да…"
 
-    old "Saito, you dummy…"
-    new "Сайто, дурак…"
+    old "Saito-san, you dummy…"
+    new "Сайто-сан, дурак…"
 
     old "Ee-eh!?"
     new "А-а!?"
@@ -9643,7 +9643,7 @@ translate russian strings:
     new "Уже поздно."
 
     old "Besides — if I, your master, am dueling, then my familiar Saito has to join in. That's an order!"
-    new "И раз моя хозяйка дуэлью занята, фамильяру Сайто тоже надо присоединиться. Это приказ!"
+    new "И раз я, твоя хозяйка, дуэлью занята, фамильяру Сайто тоже надо присоединиться. Это приказ!"
 
     old "You've gotta be kidding!"
     new "Серьёзно?!"

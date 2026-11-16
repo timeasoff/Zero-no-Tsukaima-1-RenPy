@@ -637,7 +637,7 @@ translate russian strings:
     new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
 
     old "If she knew about what just happened, she'd be shocked."
-    new "Е бы она знала, что только что случилась, она бы удивилась."
+    new "Если бы она знала, что только что случилось, она бы удивилась."
 
     old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1337}"
     new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
