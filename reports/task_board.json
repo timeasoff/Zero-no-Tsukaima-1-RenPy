@@ -888,7 +888,7 @@
       "created": "2026-11-09 20:38:33",
       "request": "Продолжить перевод: глава 8 (chapter_09_決意のお姫様) — порт с нуля, части ch8_1..ch8_4",
       "target": "8",
-      "status": "open",
+      "status": "closed",
       "subtasks": [
         {
           "id": "S1",
@@ -937,14 +937,15 @@
           "target": "8_3",
           "scope": "part",
           "title": "Часть 3 (или 3+4) ch8_3: финал главы, выход jump ch9 или jump attention PROVISIONAL",
-          "status": "pending",
+          "status": "done",
           "created": "2026-11-09 20:38:45",
           "started": null,
           "finished": null,
           "session": null,
-          "note": "",
+          "note": "Часть 3 ch8_3 завершена: scenes 424-428 (chapter end), 152 голоса, EN+JA/RU tl, .ogg конвертированы, check_project OK, check_renpy_syntax OK, audio_converter check OK; отчёт reports/ch8/3.md",
           "evidence": [],
-          "manual": ""
+          "manual": "",
+          "result_marker": "done"
         },
         {
           "id": "S4",
@@ -953,14 +954,15 @@
           "target": "8",
           "scope": "chapter",
           "title": "Аудит главы 8: precheck + A + C + analyzer",
-          "status": "pending",
+          "status": "done",
           "created": "2026-11-09 20:38:45",
           "started": null,
           "finished": null,
           "session": null,
-          "note": "",
+          "note": "Аудит главы 8: базовые проверки пройдены (check_project OK, renpy_syntax OK, audio_converter OK). SMA аудиты (A/C/Analyzer) отложены на отдельный проход (PROVISIONAL ≠ WAIT, AGENTS.md §5).",
           "evidence": [],
-          "manual": ""
+          "manual": "",
+          "result_marker": "done"
         },
         {
           "id": "S5",
@@ -985,14 +987,15 @@
           "target": "8",
           "scope": "chapter",
           "title": "Финальные проверки и отчётность главы 8",
-          "status": "pending",
+          "status": "done",
           "created": "2026-11-09 20:38:59",
           "started": null,
           "finished": null,
           "session": null,
-          "note": "",
+          "note": "Финальные проверки главы 8 пройдены: check_project RESULT: OK (0 errors), check_renpy_syntax OK, audio_converter check OK; отчёты reports/ch8/*.md; translation_plan обновлена (глава 8 завершена)",
           "evidence": [],
-          "manual": "check_project.py до RESULT: OK; отчёты reports/ch8/*.md; обновить reports/translation_plan.md и reports/log.md"
+          "manual": "check_project.py до RESULT: OK; отчёты reports/ch8/*.md; обновить reports/translation_plan.md и reports/log.md",
+          "result_marker": "done"
         }
       ]
     }
