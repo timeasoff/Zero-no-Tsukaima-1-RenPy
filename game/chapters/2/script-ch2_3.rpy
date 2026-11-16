@@ -370,7 +370,7 @@ label ch2_3_after:
     mage "Ugh...{#ch2.3_L365}"
 
     # Взрыв (SE +63)
-    $ scene_fx(("blow", "flash"), None, duration=(0.7, 0.5), stop_music=True, new_music="t27")
+    $ scene_fx(("blow", "flash"), None, duration=(0.7, 0.5), stop_music=True, new_music="t26")
 
     $ show_sprites("l 3 angry")
     voice "ch2.3_l_027"

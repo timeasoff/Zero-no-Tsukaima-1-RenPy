@@ -4720,3 +4720,20 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Отчёт: `reports/ch9/1.md`; `reports/translation_plan.md` обновлён (глава 9 ✅ завершена, 1 часть).
 * Task board: T20261117-NEW-001 (S1-S4) done, task closed.
 
+### 2026-11-17 — QA-проверка главы 2 (изолированная ветка `qa/review-ch2-5`, без слияния в master)
+
+* Проверка качества перевода/порта глав 2–5, старт с главы 2. Ветка `qa/review-ch2-5` от коммита `f769e79`, worktree `hidden-forest`; в `master` ничего не сливается. Живой отчёт — `reports/qa_review_ch2-5.md`.
+* Механика гл. 2 после правок: `check_renpy_syntax` OK; `check_project --chapter 2` errors=0; `check_typography` ru/ja OK; `check_placeholders` OK; `check_assets` OK; `check_voice_transcriptions` OK; `omission_precheck` 11/11 частей, полных пропусков 0.
+* `check_assets` сначала дал 1281 ложный `VOICE_MISSING`: в worktree не было junction'ов `game/{audio,gui,images,video}` (не версионируются). Восстановлены на `D:\gameMake\ZnT-1\ZnT1_MEDIA\…` → ошибки исчезли. Classification: FALSE POSITIVE окружения, не дефект контента.
+* Исправлено 6 подтверждённых ERROR (все — по реальной JA-строке, с обновлением `old` в обоих `tl/`):
+  * `script-ch2_4c.rpy:323` + RU TL: инверсия `異常なし` («отклонений нет») → «this place is abnormal» / «тут не всё в порядке»; исправлено на «there's nothing wrong with this place» / «здесь всё в порядке».
+  * `script-ch2_4c.rpy:90` + RU TL: инверсия `素直じゃない` → «how honest of you» / «как откровенно»; исправлено на «you're not being honest, are you?» / «какой же ты неоткровенный».
+  * RU TL (`dialogs.rpy:5714`, `:5726`): `ダーリン` → «Дарлинг» вместо канонического «Дорогой» (`dictionary.md:247`, «Дарлинг» не использовать) → «Дорогой» / «Дорогим».
+  * `script-ch2_2.rpy:287`: лишний `$ update_sympathy(-10, char_key="louise")` — в сцене 83 канон даёт только siesta −10 и haruna +10; вызов удалён.
+  * `script-ch2_3.rpy:373`: сцена 95 `play=+27` требует `t26`, было `t27` (это `+28` сцены 94) → `t26`.
+* Задокументированы, НЕ исправлялись (CANDIDATE / USER DECISION):
+  * `script-ch2_4b.rpy:156` `なんだ、そりゃ。` → EN «What, that's a bad thing?» (добавлена оценка); рекомендуется «What's that supposed to mean?».
+  * RU TL `dialogs.rpy:6535` `生き様` → «обычай» вместо «образ жизни».
+  * Исходник строка 4983: `ごめん、入るな。` («не заходи») при открытой Табитой двери — вероятная опечатка JA (`入るね`); EN/RU переведены по intended meaning, JA не правился (запрет §5 AGENTS.md).
+* Системное, не трогалось: `check_typography --lang en` даёт 426 `ELLIPSIS` в гл. 2 (`...` вместо `…` по PROMTS.md п.5), но та же картина в эталоне гл. 1 и во всех портированных главах. Требует решения уровня проекта, не одной главы.
+

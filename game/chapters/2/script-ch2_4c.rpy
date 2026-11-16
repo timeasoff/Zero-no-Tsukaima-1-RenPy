@@ -87,7 +87,7 @@ label yard_ch2_4:
             s "Because it's you, Kirche, I'm worried."
 
             voice "ch2.5_k_008"
-            k "My, how honest of you."
+            k "My, you're not being honest, are you?"
             $ tndl(-30)
 
             $ show_sprites(("k 1 happy", "s 2 angry"))
@@ -320,7 +320,7 @@ label classroom_ch2_4:
 
     $ show_sprites("s 4")
     voice "ch2.5_s_090"
-    s "Hmm. I don't quite get it, but I'm pretty sure this place is abnormal."
+    s "Hmm. I don't quite get it, but I'm pretty sure there's nothing wrong with this place."
 
     $ show_sprites(("d 1", "s 4"))
     voice "ch2.5_d_005"

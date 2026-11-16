@@ -5185,8 +5185,8 @@ translate russian strings:
     old "Because it's you, Kirche, I'm worried."
     new "Потому что это ты, Кирхе, я и волнуюсь."
 
-    old "My, how honest of you."
-    new "Ох, как откровенно."
+    old "My, you're not being honest, are you?"
+    new "Ах, какой же ты неоткровенный."
 
     old "At least take me seriously. I know you're strong, Kirche, but your opponents are unknowns."
     new "Хоть бы серьёзно отнёсся. Я знаю, что ты сильна, Кирхе, но противники — неизвестные."
@@ -5356,8 +5356,8 @@ translate russian strings:
     old "R-right.{#ch2.5_s9544}"
     new "А-ага."
 
-    old "Hmm. I don't quite get it, but I'm pretty sure this place is abnormal."
-    new "Хмм. Ничего не понятно, но то, что тут не всё в порядке, я уяснил."
+    old "Hmm. I don't quite get it, but I'm pretty sure there's nothing wrong with this place."
+    new "Хмм. Ничего не понятно, но то, что здесь всё в порядке, я уяснил."
 
     old "Wouldn't it be more likely that that girl just hasn't noticed?"
     new "Скорее всего, та просто не заметила, а?"
@@ -5711,7 +5711,7 @@ translate russian strings:
     new "Т-Табита!"
 
     old "Honestly, I just happened to pass by. And with Darling involved, I ended up listening to the whole thing."
-    new "Правда, я просто мимо проходила. Но раз тут замешан Дарлинг, я дослушала до конца."
+    new "Правда, я просто мимо проходила. Но раз тут замешан Дорогой, я дослушала до конца."
 
     old "O-oh no, you don't mean..."
     new "О-ох, ты не хочешь сказать…"
@@ -5723,7 +5723,7 @@ translate russian strings:
     new "Мадемуазель Цербст?"
 
     old "I won't get in your way. And of course, I'll keep it quiet from Darling and Haruna."
-    new "Я не буду вам мешать. И, разумеется, промолчу перед Дарлингом и Харуной."
+    new "Я не буду вам мешать. И, разумеется, промолчу перед Дорогим и Харуной."
 
     old "In return, though, I get to observe. How about it?"
     new "Но за это я буду наблюдать. Как вам такое?"

@@ -5179,7 +5179,7 @@ translate japanese strings:
     old "Because it's you, Kirche, I'm worried."
     new "キュルケだから心配なんだ。"
 
-    old "My, how honest of you."
+    old "My, you're not being honest, are you?"
     new "あら、素直じゃない。"
 
     old "At least take me seriously. I know you're strong, Kirche, but your opponents are unknowns."
@@ -5350,7 +5350,7 @@ translate japanese strings:
     old "R-right.{#ch2.5_s9544}"
     new "う、うん。"
 
-    old "Hmm. I don't quite get it, but I'm pretty sure this place is abnormal."
+    old "Hmm. I don't quite get it, but I'm pretty sure there's nothing wrong with this place."
     new "ううーむ。なんだかよく分からないけど、ここが異常なしってのはよく分かった。"
 
     old "Wouldn't it be more likely that that girl just hasn't noticed?"
