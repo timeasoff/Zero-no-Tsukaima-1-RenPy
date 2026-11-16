@@ -1363,3 +1363,23 @@ translate russian strings:
 
     old "Leaving food uneaten is a shame, you know.{#ch7.3_c1172}"
     new "Не есть и оставлять еду — так жалко!"
+
+# ===== ch8.1 menu choices =====
+    old "It's impossible.{#ch8_c001}"
+    new "Это невозможно."
+
+    old "Alright, let's go.{#ch8_c002}"
+    new "Хорошо, пойдем."
+
+    old "Or, let's go to my hometown.{#ch8_c003}"
+    new "Или, пойдем в мой родной город."
+
+    old "Because she's cute.{#ch8_c004}"
+    new "Потому что она милая."
+
+    old "Because princess is also human.{#ch8_c005}"
+    new "Потому что принцесса тоже человек."
+
+    old "Because I'm just acting normal.{#ch8_c006}"
+    new "Потому что я просто делаю обычно."
+

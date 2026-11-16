@@ -1369,3 +1369,23 @@ translate japanese strings:
 
     old "Leaving food uneaten is a shame, you know.{#ch7.3_c1172}"
     new "食べないとご飯がもったいない"
+
+# ===== ch8.1 menu choices =====
+    old "It's impossible.{#ch8_c001}"
+    new "それはできません。"
+
+    old "Alright, let's go.{#ch8_c002}"
+    new "分かりました、行きましょう"
+
+    old "Or, let's go to my hometown.{#ch8_c003}"
+    new "いっそ、俺の故郷に行けたら"
+
+    old "Because she's cute.{#ch8_c004}"
+    new "だってかわいいし"
+
+    old "Because princess is also human.{#ch8_c005}"
+    new "お姫さまも同じ人間だから"
+
+    old "Because I'm just acting normal.{#ch8_c006}"
+    new "なんとなく普通にしてるだけ"
+

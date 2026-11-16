@@ -882,6 +882,119 @@
         }
       ],
       "closed": "2026-11-09 20:36:38"
+    },
+    {
+      "id": "T20261109-203833-d2b6",
+      "created": "2026-11-09 20:38:33",
+      "request": "Продолжить перевод: глава 8 (chapter_09_決意のお姫様) — порт с нуля, части ch8_1..ch8_4",
+      "target": "8",
+      "status": "open",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "8_1",
+          "scope": "part",
+          "title": "Часть 1 ch8_1: структура, резка, порт, EN/RU, tl, голоса",
+          "status": "done",
+          "created": "2026-11-09 20:38:45",
+          "started": "2026-11-16 17:26:37",
+          "finished": "2026-11-16 19:31:13",
+          "session": null,
+          "note": "Часть 1 ch8_1 завершена: scenes 405-416, 125 голосов, EN+JA/RU tl, .ogg конвертированы, check_project → только E7 (forward debt ch8_2)",
+          "evidence": [
+            "game/chapters/8/script-ch8_1.rpy",
+            "game/tl/japanese/ch8_1_dialogs.rpy",
+            "game/tl/russian/ch8_1_dialogs.rpy",
+            "references/voice_id_map.csv",
+            "reports/voice_convert.md",
+            "reports/ch8/1.md",
+            "reports/check_project.md"
+          ],
+          "manual": ""
+        },
+        {
+          "id": "S2",
+          "kind": "prompt",
+          "prompt": "voice-work",
+          "target": "8",
+          "scope": "chapter",
+          "title": "Голоса главы 8: сквозная верификация, ogg, transcriptions",
+          "status": "pending",
+          "created": "2026-11-09 20:38:45",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S3",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "8_3",
+          "scope": "part",
+          "title": "Часть 3 (или 3+4) ch8_3: финал главы, выход jump ch9 или jump attention PROVISIONAL",
+          "status": "pending",
+          "created": "2026-11-09 20:38:45",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S4",
+          "kind": "prompt",
+          "prompt": "full-audit",
+          "target": "8",
+          "scope": "chapter",
+          "title": "Аудит главы 8: precheck + A + C + analyzer",
+          "status": "pending",
+          "created": "2026-11-09 20:38:45",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S5",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "8_2",
+          "scope": "part",
+          "title": "Часть 2 ch8_2",
+          "status": "pending",
+          "created": "2026-11-09 20:38:55",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S6",
+          "kind": "manual",
+          "prompt": "",
+          "target": "8",
+          "scope": "chapter",
+          "title": "Финальные проверки и отчётность главы 8",
+          "status": "pending",
+          "created": "2026-11-09 20:38:59",
+          "started": null,
+          "finished": null,
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "check_project.py до RESULT: OK; отчёты reports/ch8/*.md; обновить reports/translation_plan.md и reports/log.md"
+        }
+      ]
     }
   ]
 }

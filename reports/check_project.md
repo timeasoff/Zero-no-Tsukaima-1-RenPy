@@ -4,11 +4,11 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (0)
+## ERROR (1)
 
-- нет
+- E7 jump 'ch8_2' at game/chapters/8/script-ch8_1.rpy:986 has no label
 
-## WARNING (316)
+## WARNING (318)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -326,13 +326,15 @@
 - W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:140 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:157 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:171 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 
 ## INFO (26)
 
 - speakers defined: 37
-- overlay K: max=12 used=12 next_free=13
-- voices: refs=6507 ogg=6519 missing=0
-- I1 ch8: not started (source talk=378)
+- overlay K: max=13 used=13 next_free=14
+- voices: refs=6632 ogg=6644 missing=0
+- I1 ch8: strings=134 source_talk=378 (gap expected)
 - I1 ch9: not started (source talk=120)
 - I1 ch10: not started (source talk=492)
 - I1 ch11: not started (source talk=618)
@@ -353,6 +355,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=312 named=148 open=164 | placeholders=568 in 25 file(s)
-- labels=393 rpy=91 strings(strict=7421) tl_old=japanese:7912,russian:7939
+- image map: ids=313 named=148 open=165 | placeholders=604 in 26 file(s)
+- labels=394 rpy=92 strings(strict=7555) tl_old=japanese:8046,russian:8073
 
