@@ -998,6 +998,65 @@
           "result_marker": "done"
         }
       ]
+    },
+    {
+      "id": "T20261117-NEW-001",
+      "created": "2026-11-17 17:00:00",
+      "request": "Продолжить перевод: глава 9 (chapter_10_魅惑のお姫様) — порт с нуля, части ch9_1",
+      "target": "9",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "9_1",
+          "scope": "part",
+          "title": "Часть 1 ch9_1: структура, резка, порт, EN/RU, tl, голоса",
+          "status": "done",
+          "created": "2026-11-17 17:00:00",
+          "started": null,
+          "finished": "2026-11-17 23:00:00",
+          "note": "",
+          "result_marker": "done"
+        },
+        {
+          "id": "S2",
+          "kind": "voice-work",
+          "prompt": "",
+          "target": "9_1",
+          "scope": "part",
+          "title": "Голоса ch9_1: манифест + ogg конвертация",
+          "status": "done",
+          "note": "",
+          "result_marker": "done",
+          "finished": "2026-11-17 23:00:00"
+        },
+        {
+          "id": "S3",
+          "kind": "full-audit",
+          "prompt": "",
+          "target": "9",
+          "scope": "chapter",
+          "title": "Аудит главы 9: precheck + A + C + analyzer",
+          "status": "done",
+          "note": "",
+          "result_marker": null,
+          "finished": "2026-11-17 23:00:00"
+        },
+        {
+          "id": "S4",
+          "kind": "manual",
+          "prompt": "check_project.py до RESULT: OK; отчёты reports/ch9/*.md; обновить reports/translation_plan.md и reports/log.md",
+          "target": "9",
+          "scope": "part",
+          "title": "Финальные проверки и отчётность главы 9",
+          "status": "done",
+          "note": "",
+          "result_marker": "done",
+          "finished": "2026-11-17 23:00:00"
+        }
+      ]
     }
   ]
 }

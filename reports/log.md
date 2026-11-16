@@ -4708,3 +4708,15 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * `audio_converter.py check --only ch8` → RESULT: OK (367/367 ogg, pending=0, нет_в_манифесте=0).
 * Отчёт: `reports/ch8/3.md`; `reports/translation_plan.md` обновлён (глава 8 ✅ завершена, 3 части).
 * Task board: T20261109-203833-d2b6/S3, S4, S6 done, task closed.
+
+### 2026-11-17 — Глава 9 (chapter_10 魅惑のお姫様): часть 1 ch9_1 (сцены 429–430, финал главы)
+
+* Порт единственной части завершён: `game/chapters/9/script-ch9_1.rpy` — 108 voice-строк (110 по manifest: 108 used + 2 thoughts without voice), scenes 429–430 (chapter end, `jump attention`).
+* Формат по образцу ch8: `label ch9_1:`, title-card `overlay_screen("overlay", "Chapter Nine: 'The Enchanting Princess'{#ch9_title}", ...) from _call_overlay_screen_14`, `show_sprites`, `fade_fx`/`dissolve_fx`/`flash_fx`, `play music`/`stop music` (без `$`), финал `jump attention`.
+* EN в сценарии, JA/RU old/new в `tl/japanese/` и `tl/russian/` (`ch9_1_dialogs.rpy`, `ch9_1_thoughs.rpy`, `ch9_1_overlays.rpy`).
+* Голоса: манифест `references/voice_id_map.csv` дополнен 110 строками ch9_*; `.ogg` конвертировано +108 (audio_converter convert --apply, check -> RESULT: OK).
+* `check_project.py` -> errors=0, RESULT: OK (warnings=334, info=26).
+* `check_renpy_syntax.py --chapter 9` -> OK.
+* Отчёт: `reports/ch9/1.md`; `reports/translation_plan.md` обновлён (глава 9 ✅ завершена, 1 часть).
+* Task board: T20261117-NEW-001 (S1-S4) done, task closed.
+

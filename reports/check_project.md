@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (327)
+## WARNING (334)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -337,14 +337,21 @@
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/8/script-ch8_2.rpy:116 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(12) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(28) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1145) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1169) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 
 ## INFO (26)
 
 - speakers defined: 37
-- overlay K: max=13 used=13 next_free=14
-- voices: refs=6875 ogg=6886 missing=0
+- overlay K: max=14 used=14 next_free=15
+- voices: refs=6983 ogg=6994 missing=0
 - I1 ch8: strings=376 source_talk=378 (gap expected)
-- I1 ch9: not started (source talk=120)
+- I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: not started (source talk=492)
 - I1 ch11: not started (source talk=618)
 - I1 ch12: not started (source talk=450)
@@ -364,6 +371,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=633 in 28 file(s)
-- labels=396 rpy=94 strings(strict=7797) tl_old=japanese:8292,russian:8319
+- image map: ids=313 named=148 open=165 | placeholders=675 in 29 file(s)
+- labels=397 rpy=95 strings(strict=7916) tl_old=japanese:8411,russian:8438
 
