@@ -4696,3 +4696,15 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * `check_project.py` → errors=3 (только E7: jump ch8_3 — forward debt, ожидается), warnings=323.
 * `check_renpy_syntax.py --chapter 8` → OK.
 * Task board: T20261109-203833-d2b6/S2, S5 done.
+
+### 2026-11-16 — Глава 8 (chapter_09 決意のお姫様): часть 3 ch8_3 (сцены 424–428, финал главы)
+
+* Порт части 3 завершён: `game/chapters/8/script-ch8_3.rpy` — 153 voice-строк, scenы 424–428 (включая финал главы, `jump ch9`).
+* Формат по образцу script-ch7_1.rpy: `label ch8_3:`, без меню (сцена 425 — конвергенция всех трёх веток ch8_2, сценарий не имеет дополнительных выборов внутри ch8_3).
+* EN-tekst в сценарии, JA/RU old/new в `tl/japanese/` и `tl/russian/` (`ch8_3_dialogs.rpy`, `ch8_3_thoughs.rpy`).
+* Голоса: манифест `references/voice_id_map.csv` дополнен 152 строками ch8_* (с учётом ch8_h_069 и ch8_h_075 — два пропущенных голоса, исправлено); `.ogg` конвертировано +152 (367 всего, RESULT: OK).
+* `check_project.py` → errors=0, RESULT: OK (E7 forward debt ch8_3 закрыт).
+* `check_renpy_syntax.py --chapter 8` → OK.
+* `audio_converter.py check --only ch8` → RESULT: OK (367/367 ogg, pending=0, нет_в_манифесте=0).
+* Отчёт: `reports/ch8/3.md`; `reports/translation_plan.md` обновлён (глава 8 ✅ завершена, 3 части).
+* Task board: T20261109-203833-d2b6/S3, S4, S6 done, task closed.
