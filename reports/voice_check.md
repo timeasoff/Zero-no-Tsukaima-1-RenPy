@@ -1,6 +1,6 @@
 # Голоса: сверка (check)
 
-Запуск: `2026-11-16 22:02`
+Запуск: `2026-11-16 22:12`
 Команда: `python tools/media/audio_converter.py check --only ch8`
 
 ## Итоги
