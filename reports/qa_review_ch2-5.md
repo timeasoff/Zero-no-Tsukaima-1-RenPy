@@ -28,7 +28,7 @@
 |---|---|---|---|---|---|
 | 2 | ✅ после исправлений | ✅ 11/11 частей, 0 пропусков | ✅ 6 ERROR исправлено, 3 CANDIDATE задокументированы | (этот коммит) | ✅ |
 | 3 | ✅ после исправлений | ✅ 9/9 частей, 0 пропусков | ✅ 4 ERROR исправлено (вкл. EN `-сан`), 8 CANDIDATE задокументированы | (этот коммит) | ✅ |
-| 4 | ⬜ не начато | ⬜ | ⬜ | — | ⬜ |
+| 4 | ✅ после исправлений | ✅ 7/7 частей, 0 пропусков | ✅ 13 ERROR исправлено (вкл. 52 строки compiling-ошибки), 7 CANDIDATE | (этот коммит) | ✅ |
 | 5 | ⬜ не начато | ⬜ | ⬜ | — | ⬜ |
 
 ## Инструменты и оговорки окружения
@@ -135,11 +135,59 @@
 
 ---
 
+## Глава 4 — результат
+
+### Механические проверки (после исправлений)
+
+| Проверка | Результат |
+|---|---|
+| `check_renpy_syntax.py --chapter 4` | OK (но см. P1 — этот анализатор **не** проверяет отступы внутри `menu:`!) |
+| `check_project.py --chapter 4` | errors=0, RESULT: OK |
+| `check_typography.py --chapter 4 --lang ru` | OK (1070 строк) |
+| `check_placeholders.py --chapter 4` | OK (64 warning — ожидаемые `id(K)`) |
+| `check_assets.py --chapter 4` | OK (983 voices, все consumed) |
+| `check_voice_transcriptions.py --chapter 4` | OK (983/983) |
+| `omission_precheck.py` | 7/7 частей (4_1…4_6), полных пропусков 0 |
+
+Структура после исправления P1: 83 уникальных лейбла, цепочка
+`ch4 → ch4_2 → ch4_2b(map) → ch4_3 → ch4_4(map) → ch4_5 → ch4_6 → ch5`; 3 date-меню в ch4_6
+исправлены; 53 sympathy = канон; 983 voices = source; BGM `t{K-1}`; все `id(K)` с пустым filename.
+
+### Находки
+
+| ID | Место | JA / канон | Было | Classification | Investigation / Disposition |
+|---|---|---|---|---|---|
+| P1 | `script-ch4_6.rpy` 1047–1791, **52 строки** | отступы внутри `menu:` | `$ show_sprites(...)` с отступом 4 в телеchoice с отступом 12 | ERROR | Реальный **compile-error** (dedent 12→4→12), который `check_renpy_syntax.py` не ловит. **FIXED**: ровно 52 строки переиндентированы 4→12; повторный скан 4→12 даёт 0. **Генератор** `tools/gen_ch4_6_script.py` / `tools/ch4_6_en.py` не правился — при регенерации ошибка вернётся, поправить там же. |
+| E1/E2 | `script-ch4_1.rpy:210, :478` | `オールド・オスマン`; `dictionary.md:463` → «Old Osmond» | EN «…Osmond.» / «Um, Osmond.» | ERROR | Потерян эпитет «Old». **FIXED** (RU-`new` уже был каноническим «Старый Осман»). |
+| E1 | `script-ch4_4.rpy:219` | `さ、探してあげるわよ` (объект — «путь домой»,受益人 Харуна) | EN «I-I will look for **you**» | ERROR | **FIXED** → «I-I'll look for it for you». |
+| E2/R1 | `script-ch4_6.rpy:232` | `目くらましかっ！？ やっこさん、逃げていくぞっ！？` | EN «blindfolding… let's get out»; RU «Партнёр, наконец-то уходим отсюда!» | ERROR | Инверсия субъекта: сбегает **преступница**. **FIXED**: EN «A flashbang?! She's getting away, partner!», RU «Ослепили?! Партнёр, она удирает!». |
+| E3/E4 | `script-ch4_6.rpy` 17 строк (425…1433) | `サイトさん` / `平賀くん` | EN «Mr. Saito» / «Mr. Hiraga» | ERROR | Системная деградация обращений; RU-`new` уже канонические. **FIXED**: EN и `old` в обоих `tl/` → «Saito-san» / «Hiraga-kun». Возникший дубль `old` «Thank you, Hiraga-kun.» удалён (старая запись из др. части даёт тот же перевод). |
+| E2/R2 | `script-ch4_6.rpy:593` | `ベツニ、ヨロコンデナンテイマセンヨ。` = «не то чтобы я радуюсь» | EN «you don't need to worry about it»; RU «не волнуйся ты за меня» | ERROR | Потеряно отрицание радости. **FIXED**: EN «It's not like I'm happy or anything», RU «Да нет, я вовсе не радуюсь». |
+| R3 | `dialogs.rpy:10357` | `ミス・ハルナでよろしいかな？` | RU «называть вас **просто Харуна**?» | ERROR | Уничтожен обмен реплик (следующая — отказ от «мадемуазель»). **FIXED** → «мадемуазель Харуна». |
+| R4 | `dialogs.rpy:13186` | JA `俺だったら` — говорит Сайто (м.) | RU «точно **попала**» | ERROR | Род глагола. **FIXED** → «попал». |
+| R5 | `dialogs.rpy:10417` | `そなた達` = Сайто (м.) + Харуна (ж.) | RU «вас **обеих**» | ERROR | **FIXED** → «обоих». |
+| R6/R7 | `dialogs.rpy:13010, :13098` | `addresses.md:59`: «мадемуазель Вальер», «мисс» — в колонке «неправильно» | RU «мисс Вальер» (2) | ERROR | **FIXED** → «мадемуазель Вальер». |
+| E3 | `script-ch4_3.rpy:424` | `ルイズ、春奈、シエスタの３人と` = я + 3 | EN «the three of us — Louise, Haruna, Siesta» | CANDIDATE | Счёт субъектов. PRESERVED; рекомендуется «I set off … with the three of them». |
+| E5 | `script-ch4_5.rpy:642` | `ノって来たな、相棒っ！` | EN «You called, partner!» | CANDIDATE | ノる = «войти в азарт», не «позвали». PRESERVED. |
+| E6 | `script-ch4_4.rpy:53` | `ハ、ハルナさん` | EN «H-Haruna?» | CANDIDATE | Потерян `-さん`; в том же файле — «Miss Haruna». PRESERVED. |
+| R8 | `dialogs.rpy:11944` | `お二人さんは夫婦なのかい？` | RU «Вы **не** муж с женой?» | CANDIDATE | Инверсия полярности вопроса. PRESERVED. |
+| R9 | `dialogs.rpy:12538` | `なんとかなるのか？` | RU «Против них я ничего не могу?» | CANDIDATE | Модальность. PRESERVED. |
+| R10 | `dialogs.rpy:12910` | `虚無にほんろうされてる` | RU «человек, которого тянет к Пустоте» | CANDIDATE | Потеря «играет/помыкает». PRESERVED. |
+| P2 | `script-ch4_5.rpy:250` | предыдущее состояние `("s 2", "si 1 happy")`, говорит Сиеста | `$ show_sprites(("s 2", "s 2"))` | CANDIDATE | Дубль Сайто вместо Сиесты; cosmetics. PRESERVED. |
+
+Повторные проверки: `check_project --chapter 4` → errors=0; `check_renpy_syntax --chapter 4` → OK;
+`check_typography ru` → OK; `omission_precheck 4_1 / 4_4 / 4_6` → 0 кандидатов; сканер отступов → 0.
+
+---
+
 ## where I stopped / точка передачи
 
-- Текущая фаза: **главы 2 и 3 завершены и закоммичены**. Исправления живут только в ветке
+- Текущая фаза: **главы 2, 3 и 4 завершены и закоммичены**. Исправления живут только в ветке
   `qa/review-ch2-5` (в `master` не сливаются).
-- Следующий шаг: **глава 4** — механические проверки (`check_renpy_syntax`, `check_project`,
+- Следующий шаг: **глава 5** — механические проверки (`check_renpy_syntax`, `check_project`,
   `check_typography` ru/en/ja, `check_placeholders`, `check_assets`, `check_voice_transcriptions`),
-  затем `omission_precheck` по всем частям 4_1…4_6, затем независимый контент-ревью EN/RU/порт.
-- Последний коммит: см. `git log -1` в этой ветке (коммит с сообщением `QA ch3: …`).
+  затем `omission_precheck` по всем частям 5_1…5_11, затем независимый контент-ревью EN/RU/порт.
+- Глава 4 — важный урок для следующих глав: `check_renpy_syntax.py` не проверяет отступы внутри
+  `menu:`. Нужно дополнительно сканировать переходы 4→12 пробелов (скрипт сканера —
+  в `C:/Users/user/AppData/Local/Temp/opencode/qa_indent.py`).
+- Последний коммит: см. `git log -1` в этой ветке (коммит с сообщением `QA ch4: …`).

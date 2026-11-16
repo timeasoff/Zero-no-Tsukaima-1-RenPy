@@ -10410,7 +10410,7 @@ translate japanese strings:
     old "My… How very mysterious. Just what could have guided you both to this world?"
     new "ほぉ……、実に不思議じゃ。いったい何が、この世界にそなた達を導いておるのじゃろう？"
 
-    old "The crest — how shall we confirm the Contract Servant? …Osmond."
+    old "The crest — how shall we confirm the Contract Servant? …Old Osmond."
     new "紋章は、コントラクト・サーヴァントの確認は、如何致しましょうか？……オールド・オスマン。"
 
     old "…Hm? Con-tract Ser-vant? What's that, Hiraga-kun?"
@@ -10533,7 +10533,7 @@ translate japanese strings:
     old "No, no, that was a joke. We'll leave it to one of the female teachers."
     new "いやいや、それは冗談じゃよ。誰か女性の教師にまかせるとしよう。"
 
-    old "Um, Osmond. When I was looking after Takanagi Haruna…"
+    old "Um, Old Osmond. When I was looking after Takanagi Haruna…"
     new "あの、オールド・オスマン。わたしがタカナギハルナを介抱した時に……、"
 
     old "I examined her body, but I didn't find any such crest."
@@ -11757,7 +11757,7 @@ translate japanese strings:
     old "Mm…{#ch4.4_x6099}"
     new "んっ……。"
 
-    old "I-I will look for you. With the power of the House of Vallière, we're bound to find it somehow."
+    old "I-I'll look for it for you. With the power of the House of Vallière, we're bound to find it somehow."
     new "さ、探してあげるわよ。ヴァリエール家の力をもってすれば、なんとか見つかるはずよ。"
 
     old "Good for you, Haruna."
@@ -12576,7 +12576,7 @@ translate japanese strings:
     new "ぐあっ……！！"
 
 translate japanese strings:
-    old "…! Blindfolding trick?! Partner, let's get out of here!"
+    old "…! A flashbang?! She's getting away, partner!"
     new "くっ……目くらましかっ！？　やっこさん、逃げていくぞっ！？"
 
 translate japanese strings:
@@ -12688,11 +12688,11 @@ translate japanese strings:
     new "では、わたくしはいろいろと　後始末をせねばなりませんので。　これで失礼します。"
 
 translate japanese strings:
-    old "Mr. Saito!!"
+    old "Saito-san!!"
     new "サイトさんっ！！"
 
 translate japanese strings:
-    old "Mr. Hiraga!!"
+    old "Hiraga-kun!!"
     new "平賀くんっ！！"
 
 translate japanese strings:
@@ -12704,7 +12704,7 @@ translate japanese strings:
     new "はい、お城の兵士さんがちゃんと　避難させてくれましたから。"
 
 translate japanese strings:
-    old "Are you all right, Mr. Hiraga?"
+    old "Are you all right, Hiraga-kun?"
     new "平賀くんは大丈夫だった？"
 
 translate japanese strings:
@@ -12784,7 +12784,7 @@ translate japanese strings:
     new "なんでサイトが、そこで喜ぶのよっ？"
 
 translate japanese strings:
-    old "Hmph, n-no, you don't need to worry about it."
+    old "Hmph, n-no. It's not like I'm happy or anything."
     new "ベツニ、ヨロコンデナンテイマセンヨ。"
 
 translate japanese strings:
@@ -12968,15 +12968,15 @@ translate japanese strings:
     new "こんばんは、シエスタ。"
 
 translate japanese strings:
-    old "Eh…? Mr. Saito?"
+    old "Eh…? Saito-san?"
     new "えっ……サイトさん？"
 
 translate japanese strings:
-    old "…Wah! Mr. Saito! Please, come right in!"
+    old "…Wah! Saito-san! Please, come right in!"
     new "……わあっ、サイトさんっ！　どうぞ、遠慮なくお入りくださいっ！"
 
 translate japanese strings:
-    old "Um, um, Mr. Saito, I'm sorry! I came along on my own without warning today…"
+    old "Um, um, Saito-san, I'm sorry! I came along on my own without warning today…"
     new "あ、あのっ、サイトさんゴメンなさい。　今日は、勝手について来てしまったりして。"
 
 translate japanese strings:
@@ -12988,11 +12988,11 @@ translate japanese strings:
     new "一時は、爆弾使いが現われたりして、　どうなるかと思いましたけど。"
 
 translate japanese strings:
-    old "I'm so glad Mr. Saito won his fight with the Bomb User and came through it safely."
+    old "I'm so glad Saito-san won his fight with the Bomb User and came through it safely."
     new "サイトさんが爆弾使いとの戦いに勝って、　無事で、ホントに良かったです。"
 
 translate japanese strings:
-    old "Even after we evacuated, I kept praying that Mr. Saito would be safe. You know?"
+    old "Even after we evacuated, I kept praying that Saito-san would be safe. You know?"
     new "わたし、避難してからもずっとサイトさんが　無事でいますようにって、　お祈りしてたんですよ？"
 
 translate japanese strings:
@@ -13024,7 +13024,7 @@ translate japanese strings:
     new "いえ、わたしがそんなことを言える立場では　ないのは分かってるつもりです。"
 
 translate japanese strings:
-    old "But perhaps because I'm that sort of person, I was drawn to you, Mr. Saito."
+    old "But perhaps because I'm that sort of person, I was drawn to you, Saito-san."
     new "でも、そんなわたしだから、　サイトさんに惹かれたのかもしれませんね。"
 
 translate japanese strings:
@@ -13032,7 +13032,7 @@ translate japanese strings:
     new "俺に？"
 
 translate japanese strings:
-    old "You're a free man, Mr. Saito. You're not bound by anything."
+    old "You're a free man, Saito-san. You're not bound by anything."
     new "サイトさんは自由なんです。　何にもとらわれない。"
 
 translate japanese strings:
@@ -13112,7 +13112,7 @@ translate japanese strings:
     new "自信もっていいよ。　俺が保証する。　シエスタの笑顔は世界一だって。"
 
 translate japanese strings:
-    old "Well… Mr. Saito, honestly."
+    old "Well… Saito-san, honestly."
     new "まぁ……、サイトさんったら。"
 
 translate japanese strings:
@@ -13136,7 +13136,7 @@ translate japanese strings:
     new "春奈？"
 
 translate japanese strings:
-    old "Kyaa! Mr. Hiraga! You were right there…"
+    old "Kyaa! Hiraga-kun! You were right there…"
     new "きゃっ。　平賀くん。　そこにいたんだ……。"
 
 translate japanese strings:
@@ -13180,10 +13180,6 @@ translate japanese strings:
     new "そうかなぁ。　俺だったら、絶対メインメンバーに　入れると思うけどなぁ。"
 
 translate japanese strings:
-    old "Thank you, Mr. Hiraga."
-    new "ありがとう、平賀くん。"
-
-translate japanese strings:
     old "Does the choir hold competitions?"
     new "合唱って大会があるの？"
 
@@ -13212,7 +13208,7 @@ translate japanese strings:
     new "そ、そうだ。　春奈ってカラオケに行くの？"
 
 translate japanese strings:
-    old "Karaoke? Hmm, sometimes… maybe. How about you, Mr. Hiraga?"
+    old "Karaoke? Hmm, sometimes… maybe. How about you, Hiraga-kun?"
     new "カラオケ？　うーん、たまに……かな。　平賀くんは？"
 
 translate japanese strings:
@@ -13220,7 +13216,7 @@ translate japanese strings:
     new "俺もたまに……。"
 
 translate japanese strings:
-    old "What kind of songs do you sing, Mr. Hiraga?"
+    old "What kind of songs do you sing, Hiraga-kun?"
     new "平賀くんはどんな歌を歌うの？"
 
 translate japanese strings:
@@ -13252,7 +13248,7 @@ translate japanese strings:
     new "実は洋楽を歌ってるんだ。"
 
 translate japanese strings:
-    old "Eh, you sing in English? You're good at English, Mr. Hiraga?"
+    old "Eh, you sing in English? You're good at English, Hiraga-kun?"
     new "え、英語で歌うんだよね。　平賀くん、英語得意なんだ？"
 
 translate japanese strings:
@@ -13288,7 +13284,7 @@ translate japanese strings:
     new "そ、そうかな？"
 
 translate japanese strings:
-    old "Mr. Hiraga."
+    old "Hiraga-kun."
     new "平賀くん。"
 
 translate japanese strings:

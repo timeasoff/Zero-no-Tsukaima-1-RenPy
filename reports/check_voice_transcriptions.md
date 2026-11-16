@@ -1,6 +1,6 @@
 # Проверка озвучки по transcriptions_ja_ru.csv
 
-Дата: 2026-11-17 00:21
+Дата: 2026-11-17 00:27
 
 ## INFO (1)
 
@@ -14,8 +14,8 @@
 - transcriptions_consumed_rows: 4455
 - transcriptions_queue_rows: 9789
 - transcriptions_skipped_rows: 826
-- voices_used_in_scripts: 1014
-- voices_used_row_consumed: 1014
+- voices_used_in_scripts: 983
+- voices_used_row_consumed: 983
 - voices_used_row_still_in_queue: 0
 
 OK — проблем не найдено.

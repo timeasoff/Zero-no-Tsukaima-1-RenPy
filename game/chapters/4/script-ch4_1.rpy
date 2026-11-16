@@ -207,7 +207,7 @@ label ch4:
     $ show_sprites(("o 1", "c 1"))
 
     voice "ch4_c_011"
-    c "The crest — how shall we confirm the Contract Servant? …Osmond."
+    c "The crest — how shall we confirm the Contract Servant? …Old Osmond."
 
     # [lay10 hide][lay9 hide][lay7 +957 (ha 1 sad)]
     $ show_sprites(("ha 1 sad",))
@@ -475,7 +475,7 @@ label ch4_1_223:
     $ show_sprites(("o 1 happy", "m 1"))
 
     voice "ch4_m_001"
-    m "Um, Osmond. When I was looking after Takanagi Haruna…"
+    m "Um, Old Osmond. When I was looking after Takanagi Haruna…"
 
     # [lay3 +891 (m 4 sad)]
     $ show_sprites(("o 1 happy", "m 4 sad"))

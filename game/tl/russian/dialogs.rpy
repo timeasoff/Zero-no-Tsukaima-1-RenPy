@@ -10354,7 +10354,7 @@ translate russian strings:
     new "Да… С удовольствием познакомиться. Я — Таканаги Харуна."
 
     old "Takanagi Haruna… Shall I call you Miss Haruna?"
-    new "Таканаги Харуна… Могу я называть вас просто Харуна?"
+    new "Таканаги Харуна… Могу я называть вас мадемуазель Харуна?"
 
     old "No, um… Haruna is fine for me. 'Miss Haruna' — well… I'm not of that station…"
     new "Нет, я… Зовите меня просто Харуна. «Мадемуазель Харуна» — это… я не такого положения…"
@@ -10414,9 +10414,9 @@ translate russian strings:
     new "И когда я уже не знала, что будет дальше, Хирага-кун, Луиза и Сиеста спасли меня."
 
     old "My… How very mysterious. Just what could have guided you both to this world?"
-    new "О-о… Как загадочно. Что же привело вас обеих в этот мир?"
+    new "О-о… Как загадочно. Что же привело вас обоих в этот мир?"
 
-    old "The crest — how shall we confirm the Contract Servant? …Osmond."
+    old "The crest — how shall we confirm the Contract Servant? …Old Osmond."
     new "Что касается знака — как подтвердить Договор с подручным?.. Старый Осман."
 
     old "…Hm? Con-tract Ser-vant? What's that, Hiraga-kun?"
@@ -10539,7 +10539,7 @@ translate russian strings:
     old "No, no, that was a joke. We'll leave it to one of the female teachers."
     new "Нет-нет, это была шутка. Мы поручим это одной из женщин-преподавателей."
 
-    old "Um, Osmond. When I was looking after Takanagi Haruna…"
+    old "Um, Old Osmond. When I was looking after Takanagi Haruna…"
     new "Слушайте, Старый Осман. Когда я ухаживала за Таканаги Харуной…"
 
     old "I examined her body, but I didn't find any such crest."
@@ -11763,7 +11763,7 @@ translate russian strings:
     old "Mm…{#ch4.4_x6099}"
     new "…Мм…"
 
-    old "I-I will look for you. With the power of the House of Vallière, we're bound to find it somehow."
+    old "I-I'll look for it for you. With the power of the House of Vallière, we're bound to find it somehow."
     new "Я… я отыщу! С силами дома Вальер его обязательно удастся найти."
 
     old "Good for you, Haruna."
@@ -12582,8 +12582,8 @@ translate russian strings:
     new "Гуа…!!"
 
 translate russian strings:
-    old "…! Blindfolding trick?! Partner, let's get out of here!"
-    new "…! Слепит?! Партнёр, наконец-то уходим отсюда!"
+    old "…! A flashbang?! She's getting away, partner!"
+    new "…! Ослепили?! Партнёр, она удирает!"
 
 translate russian strings:
     old "No good… I can't see a thing, it's all blurred!!"
@@ -12694,11 +12694,11 @@ translate russian strings:
     new "Что ж, у меня теперь множество дел, которые нужно привести в порядок. Позвольте откланяться."
 
 translate russian strings:
-    old "Mr. Saito!!"
+    old "Saito-san!!"
     new "Сайто-сан!!"
 
 translate russian strings:
-    old "Mr. Hiraga!!"
+    old "Hiraga-kun!!"
     new "Хирага-кун!!"
 
 translate russian strings:
@@ -12710,7 +12710,7 @@ translate russian strings:
     new "Да. Солдаты замка надлежащим образом позаботились о нашей безопасности."
 
 translate russian strings:
-    old "Are you all right, Mr. Hiraga?"
+    old "Are you all right, Hiraga-kun?"
     new "Хирага-кун, ты в порядке?"
 
 translate russian strings:
@@ -12790,8 +12790,8 @@ translate russian strings:
     new "И почему Сайто так этому радуется?"
 
 translate russian strings:
-    old "Hmph, n-no, you don't need to worry about it."
-    new "Хм, и-и-и, не волнуйся ты за меня, ладно?"
+    old "Hmph, n-no. It's not like I'm happy or anything."
+    new "Да нет, я вовсе не радуюсь."
 
 translate russian strings:
     old "…Hmph."
@@ -12974,15 +12974,15 @@ translate russian strings:
     new "Добрый вечер, Сиеста."
 
 translate russian strings:
-    old "Eh…? Mr. Saito?"
+    old "Eh…? Saito-san?"
     new "Э…? Сайто-сан?"
 
 translate russian strings:
-    old "…Wah! Mr. Saito! Please, come right in!"
+    old "…Wah! Saito-san! Please, come right in!"
     new "…Ва-а! Сайто-сан! Пожалуйста, заходите смело!"
 
 translate russian strings:
-    old "Um, um, Mr. Saito, I'm sorry! I came along on my own without warning today…"
+    old "Um, um, Saito-san, I'm sorry! I came along on my own without warning today…"
     new "Э-э, Сайто-сан, простите! Я сегодня пришла без предупреждения, сама по себе…"
 
 translate russian strings:
@@ -12994,11 +12994,11 @@ translate russian strings:
     new "Некоторое время был бомбист, и я подумала… я не знала, чем всё кончится."
 
 translate russian strings:
-    old "I'm so glad Mr. Saito won his fight with the Bomb User and came through it safely."
+    old "I'm so glad Saito-san won his fight with the Bomb User and came through it safely."
     new "Я так рада, что Сайто-сан победил бомбиста и остался цел."
 
 translate russian strings:
-    old "Even after we evacuated, I kept praying that Mr. Saito would be safe. You know?"
+    old "Even after we evacuated, I kept praying that Saito-san would be safe. You know?"
     new "Даже после того, как мы эвакуировались, я всё молилась, чтобы Сайто-сан был в безопасности. Знаете?"
 
 translate russian strings:
@@ -13007,7 +13007,7 @@ translate russian strings:
 
 translate russian strings:
     old "But Miss Valliere really does know Her Majesty personally, don't you?"
-    new "Но мисс Вальер и правда лично знакома с Её Величеством, не так ли?"
+    new "Но мадемуазель Вальер и правда лично знакома с Её Величеством, не так ли?"
 
 translate russian strings:
     old "Yeah, I was surprised at first, too. Apparently, back when we were little, we used to play together."
@@ -13030,7 +13030,7 @@ translate russian strings:
     new "Нет, я понимаю, что мне не полагается говорить такое."
 
 translate russian strings:
-    old "But perhaps because I'm that sort of person, I was drawn to you, Mr. Saito."
+    old "But perhaps because I'm that sort of person, I was drawn to you, Saito-san."
     new "Но, может, именно потому, что я такая — простолюдинка, — я и влечусь к вам, Сайто-сан."
 
 translate russian strings:
@@ -13038,7 +13038,7 @@ translate russian strings:
     new "Ко мне?"
 
 translate russian strings:
-    old "You're a free man, Mr. Saito. You're not bound by anything."
+    old "You're a free man, Saito-san. You're not bound by anything."
     new "Вы свободный человек, Сайто-сан. Вас ничто не связывает."
 
 translate russian strings:
@@ -13095,7 +13095,7 @@ translate russian strings:
 
 translate russian strings:
     old "Miss Valliere's power…?"
-    new "Сила мисс Вальер…?"
+    new "Сила мадемуазель Вальер…?"
 
 translate russian strings:
     old "But you've got an amazing power too, Siesta."
@@ -13118,7 +13118,7 @@ translate russian strings:
     new "Можешь не сомневаться. Я гарантирую. Улыбка Сиесты — лучшая в мире."
 
 translate russian strings:
-    old "Well… Mr. Saito, honestly."
+    old "Well… Saito-san, honestly."
     new "Ну… что вы, Сайто-сан."
 
 translate russian strings:
@@ -13142,7 +13142,7 @@ translate russian strings:
     new "Харуна?"
 
 translate russian strings:
-    old "Kyaa! Mr. Hiraga! You were right there…"
+    old "Kyaa! Hiraga-kun! You were right there…"
     new "Кя-я! Хирага-кун! Ты тут был…"
 
 translate russian strings:
@@ -13183,11 +13183,7 @@ translate russian strings:
 
 translate russian strings:
     old "I don't know. If it were me, I think I'd definitely make it as a main member."
-    new "Не знаю. Я бы, кажется, точно попала в основной состав."
-
-translate russian strings:
-    old "Thank you, Mr. Hiraga."
-    new "Спасибо, Хирага-кун."
+    new "Не знаю. Я бы, кажется, точно попал в основной состав."
 
 translate russian strings:
     old "Does the choir hold competitions?"
@@ -13218,7 +13214,7 @@ translate russian strings:
     new "Д-да. Харуна, ты ходишь в караоке?"
 
 translate russian strings:
-    old "Karaoke? Hmm, sometimes… maybe. How about you, Mr. Hiraga?"
+    old "Karaoke? Hmm, sometimes… maybe. How about you, Hiraga-kun?"
     new "Караоке? Хм, иногда… наверное. А ты, Хирага-кун?"
 
 translate russian strings:
@@ -13226,7 +13222,7 @@ translate russian strings:
     new "Я тоже, иногда…"
 
 translate russian strings:
-    old "What kind of songs do you sing, Mr. Hiraga?"
+    old "What kind of songs do you sing, Hiraga-kun?"
     new "Какие песни ты поёшь, Хирага-кун?"
 
 translate russian strings:
@@ -13258,7 +13254,7 @@ translate russian strings:
     new "На самом деле я пою западную музыку."
 
 translate russian strings:
-    old "Eh, you sing in English? You're good at English, Mr. Hiraga?"
+    old "Eh, you sing in English? You're good at English, Hiraga-kun?"
     new "Э, ты поёшь по-английски? Ты хорошо знаешь английский, Хирага-кун?"
 
 translate russian strings:
@@ -13294,7 +13290,7 @@ translate russian strings:
     new "Т-ты так думаешь?"
 
 translate russian strings:
-    old "Mr. Hiraga."
+    old "Hiraga-kun."
     new "Хирага-кун."
 
 translate russian strings:

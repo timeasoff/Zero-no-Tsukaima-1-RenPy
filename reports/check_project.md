@@ -303,7 +303,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
 - W2 12 ogg not referenced by any script
-- I1 ch3: 1170 script strings > 1078 source talk
+- I1 ch4: 1143 script strings > 1072 source talk
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:80 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:127 (run tools/replace_bg_placeholders.py --apply)
@@ -344,5 +344,5 @@
 - overlay K: max=14 used=14 next_free=15
 - voices: refs=6983 ogg=6994 missing=0
 - image map: ids=313 named=148 open=165 | placeholders=675 in 29 file(s)
-- labels=397 rpy=95 strings(strict=7916) tl_old=japanese:8411,russian:8438
+- labels=397 rpy=95 strings(strict=7915) tl_old=japanese:8410,russian:8437
 
