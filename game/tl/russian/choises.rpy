@@ -1383,3 +1383,13 @@ translate russian strings:
     old "Because I'm just acting normal.{#ch8_c006}"
     new "Потому что я просто делаю обычно."
 
+# ===== ch8.2 menu choices =====
+    old "Stop with all force.{#ch8_c007}"
+    new "Полностью остановиться."
+
+    old "Affirm with all force.{#ch8_c008}"
+    new "Полностью утверждать."
+
+    old "Go all-out youthful.{#ch8_c009}"
+    new "Полностью молодежный."
+

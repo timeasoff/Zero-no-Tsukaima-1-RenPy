@@ -4685,3 +4685,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * В `references/image_id_map.csv` добавлена строка `787` (PROVISIONAL placeholder для спрайта, не в sprite_id_map.csv).
 * Отчёт: `reports/ch8/1.md`; `reports/translation_plan.md` обновлён (глава 8 ⚠️ в работе).
 * Task board: T20261109-203833-d2b6/S1 done.
+
+### 2026-11-16 — Глава 8 (chapter_09 決意のお姫さま): часть 2 ch8_2 (сцены 417–423)
+
+* Порт части 2 завершён: `game/chapters/8/script-ch8_2.rpy` — 90 voice-строк, scenы 417–423.
+* Формат по образцу script-ch7_1.rpy: `label ch8_2:`, меню с маркерами `ch8_c007..ch8_c009`, ветки с `jump ch8_3`, конвергенция сцены 425 в часть 3.
+* EN-tekst в сценарии, JA/RU old/new в `tl/japanese/` и `tl/russian/` (`ch8_2_dialogs.rpy`, `ch8_2_thoughs.rpy`, `choises.rpy` c007/c008/c009).
+* Меню: 3 ветки; сцена 422/423 (ветки) в ch8_2, сцена 424 (ветка 全力で青春する) → переход `jump ch8_3` (содержимое — часть 3).
+* Голоса: манифест `references/voice_id_map.csv` дополнен 90 строками ch8_*; `.ogg` конвертировано +90 (215 всего, RESULT: OK).
+* `check_project.py` → errors=3 (только E7: jump ch8_3 — forward debt, ожидается), warnings=323.
+* `check_renpy_syntax.py --chapter 8` → OK.
+* Task board: T20261109-203833-d2b6/S2, S5 done.

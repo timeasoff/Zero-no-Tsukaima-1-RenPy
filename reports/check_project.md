@@ -4,13 +4,17 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (1)
+## ERROR (3)
 
-- E7 jump 'ch8_2' at game/chapters/8/script-ch8_1.rpy:986 has no label
+- E7 jump 'ch8_3' at game/chapters/8/script-ch8_2.rpy:656 has no label
+- E7 jump 'ch8_3' at game/chapters/8/script-ch8_2.rpy:699 has no label
+- E7 jump 'ch8_3' at game/chapters/8/script-ch8_2.rpy:705 has no label
 
-## WARNING (318)
+## WARNING (323)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
+- W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
+- W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:3: (Now, just when I thought she was pressing in on me, a warm soft sensa
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:348: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -153,6 +157,8 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
 - W5 18 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
+- W1 stale old in tl/russian at game/tl/russian/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
+- W1 stale old in tl/russian at game/tl/russian/ch8_2_thoughs.rpy:3: (Now, just when I thought she was pressing in on me, a warm soft sensa
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -328,13 +334,14 @@
 - W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:171 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/8/script-ch8_2.rpy:116 (run tools/replace_bg_placeholders.py --apply)
 
 ## INFO (26)
 
 - speakers defined: 37
 - overlay K: max=13 used=13 next_free=14
-- voices: refs=6632 ogg=6644 missing=0
-- I1 ch8: strings=134 source_talk=378 (gap expected)
+- voices: refs=6722 ogg=6734 missing=0
+- I1 ch8: strings=227 source_talk=378 (gap expected)
 - I1 ch9: not started (source talk=120)
 - I1 ch10: not started (source talk=492)
 - I1 ch11: not started (source talk=618)
@@ -355,6 +362,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=604 in 26 file(s)
-- labels=394 rpy=92 strings(strict=7555) tl_old=japanese:8046,russian:8073
+- image map: ids=313 named=148 open=165 | placeholders=626 in 27 file(s)
+- labels=395 rpy=93 strings(strict=7648) tl_old=japanese:8141,russian:8168
 

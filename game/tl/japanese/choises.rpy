@@ -1389,3 +1389,13 @@ translate japanese strings:
     old "Because I'm just acting normal.{#ch8_c006}"
     new "なんとなく普通にしてるだけ"
 
+# ===== ch8.2 menu choices =====
+    old "Stop with all force.{#ch8_c007}"
+    new "全力で止める"
+
+    old "Affirm with all force.{#ch8_c008}"
+    new "全力で肯定する"
+
+    old "Go all-out youthful.{#ch8_c009}"
+    new "全力で青春する"
+
