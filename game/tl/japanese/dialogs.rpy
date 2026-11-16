@@ -13600,7 +13600,7 @@ translate japanese strings:
     new "ま、負けないもん。　明日こそは平賀くんの隣に寝てみるんだから！　……勇気が出たらね。"
 
 translate japanese strings:
-    old "The investigation starts today! I'll catch that newbie bomb user and show you all!"
+    old "The investigation starts today! I'll catch that detestable bomb user and show you all!"
     new "今日からさっそく調査開始ね！　あのにっくき爆弾使いを捕まえて　みせるんだから！"
 
 translate japanese strings:
@@ -14195,7 +14195,7 @@ translate japanese strings:
     new "正面から行きましょう。　別にやましいことをするわけじゃないん　でしょ？"
 
 translate japanese strings:
-    old "Kirche, what about the lock? It's obvious what we're after, right?"
+    old "Kirche, what about the lock? Naturally it's locked, right?"
     new "キュルケ、鍵はどうする？　当然かかってるよな。"
 
 translate japanese strings:
@@ -14327,7 +14327,7 @@ translate japanese strings:
     new "誰だ！　って、きみ達は昼間の……。"
 
 translate japanese strings:
-    old "I-I're sorry. We didn't mean to peek…"
+    old "I-I'm sorry. We didn't mean to peek…"
     new "ご、ごめんなさい。　覗くつもりは……。"
 
 translate japanese strings:
@@ -15014,7 +15014,7 @@ translate japanese strings:
     new "モ、モンモン！"
 
 translate japanese strings:
-    old "I understand it's an emergency, but will you do something about the way you call him?"
+    old "I understand it's an emergency, but will you do something about the way you call me?"
     new "緊急なのは分かるけど、　その呼び方、そろそろ直してくださらない？"
 
 translate japanese strings:
@@ -15034,7 +15034,7 @@ translate japanese strings:
     new "……あら、ルイズは残るの？　意外ね。"
 
 translate japanese strings:
-    old "…I hate the way you make a scene in the middle of things. It looks like running away."
+    old "…I hate the way you give up halfway, like you do. It looks like running away."
     new "……あなたみたいに途中で音をあげるのは、　逃げ出すみたいで嫌いだし。"
 
 translate japanese strings:

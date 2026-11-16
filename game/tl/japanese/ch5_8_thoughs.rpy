@@ -19,7 +19,7 @@ translate japanese strings:
     new "………。……。…。"
 
 translate japanese strings:
-    old "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.8_th_007}"
+    old "……… …… …{#ch5.8_th_007}"
     new "………。……。…。"
 
 translate japanese strings:

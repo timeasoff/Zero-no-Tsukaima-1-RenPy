@@ -104,8 +104,8 @@ translate russian strings:
     old "They say white flowers eventually bloomed where the two of them fell, side by side…{#ch5_9_v15362}"
     new "Говорят, на месте их падения со временем расцвели белые цветы, словно они лежали рядом…"
 
-    old "Th-that was incredible, Hiraga! Your performance was so passionate.{#ch5_9_v1693}"
-    new "Э-это было потрясающе, Хирага! Какая страстная игра."
+    old "Th-that was incredible, Hiraga-kun! Your performance was so passionate.{#ch5_9_v1693}"
+    new "Э-это было потрясающе, Хирага-кун! Какая страстная игра."
 
     old "W-well, maybe a little.{#ch5_9_v8851}"
     new "Н-ну, самую малость."
@@ -113,7 +113,7 @@ translate russian strings:
     old "Ladies and gentlemen, please give them one more grand round of applause!{#ch5_9_v15861}"
     new "Дамы и господа, прошу ещё раз наградить их громкими аплодисментами!"
 
-    old "Hey, Hiraga. I almost thought that confession was real.{#ch5_9_v1694}"
+    old "Hey, Hiraga-kun. I almost thought that confession was real.{#ch5_9_v1694}"
     new "Слушай, Хирага. Я даже подумала, что признание было настоящим."
 
     old "I really meant it…{#ch5_9_v8852}"
@@ -144,7 +144,7 @@ translate russian strings:
     new "Я-я вовсе не злюсь."
 
     old "I will ask Miss Henrietta to take the role.{#ch5_9_v15862}"
-    new "Я попрошу мадемуазель Генриетту сыграть её."
+    new "Я попрошу мадемуазель Риэтту сыграть её."
 
     old "…What? Me?{#ch5_9_v369}"
     new "…Что? Я?"

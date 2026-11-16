@@ -481,7 +481,7 @@ translate japanese strings:
     old "If you came to my country, you would be shocked.{#ch5_11_v8665}"
     new "シエスタが俺の国に来たら、絶対びっくりすると思うよ。"
 
-    old "I would like to visit your country, Saito.{#ch5_11_v14282}"
+    old "I would like to visit your country, Saito-san.{#ch5_11_v14282}"
     new "行ってみたいですね。サイトさんの国。"
 
     old "Thank you for the meal. It was delicious.{#ch5_11_v8666}"

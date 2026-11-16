@@ -462,7 +462,7 @@ label ch5_11_date_siesta_1112:
     voice "ch5.11_s_046"
     s "If you came to my country, you would be shocked.{#ch5_11_v8665}"
     voice "ch5.11_si_013"
-    si "I would like to visit your country, Saito.{#ch5_11_v14282}"
+    si "I would like to visit your country, Saito-san.{#ch5_11_v14282}"
     jump ch5_11_date_siesta_1113
 
 label ch5_11_date_siesta_1113:

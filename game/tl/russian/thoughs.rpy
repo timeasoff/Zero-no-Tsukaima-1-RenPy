@@ -1139,8 +1139,8 @@ translate russian strings:
     new "Подожди-ка. Почему тут принцесса?!"
 
 translate russian strings:
-    old "'A friend'… I suppose she means a ninja{#ch5_3_th_012}"
-    new "«Подруга»… То есть, считай, ниндзя?"
+    old "'A friend'… I suppose she means she's incognito{#ch5_3_th_012}"
+    new "«Подруга»… То есть, хочет сказать, что она инкогнито?"
 
 translate russian strings:
     old "Even so… W-what are you thinking?! Th-that princess, she…!{#ch5_3_th_013}"

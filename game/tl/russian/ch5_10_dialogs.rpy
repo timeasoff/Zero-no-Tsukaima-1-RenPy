@@ -17,8 +17,8 @@ translate russian strings:
     old "Oh, thank you very much!{#ch5_10_v2378}"
     new "Ой, спасибо большое!"
 
-    old "Hiraga, look! My purse was in this hidden pocket!{#ch5_10_v2379}"
-    new "Хирага, смотри! В потайном кармане оказался мой кошелёк!"
+    old "Hiraga-kun, look! My purse was in this hidden pocket!{#ch5_10_v2379}"
+    new "Хирага-кун, смотри! В потайном кармане оказался мой кошелёк!"
 
     old "I see. It certainly is Haruna's. I am sorry for all the things I said.{#ch5_10_v15998}"
     new "Понятно. Это и правда сумка Харуны. Прости, что наговорил лишнего."
@@ -68,7 +68,7 @@ translate russian strings:
     old "What an amazing meal. It must have cost a fortune, did it not?{#ch5_10_v8635}"
     new "Ух ты, какой пир! Наверное, это стоило целое состояние?"
 
-    old "Really? But Weatherly paid me for appearing, so it was not that expensive.{#ch5_10_v4737}"
+    old "Really? But Weatherby paid me for appearing, so it was not that expensive.{#ch5_10_v4737}"
     new "Правда? Но мне заплатили за выступление, так что вышло не так уж дорого."
 
     old "Saito?{#ch5_10_v4738}"

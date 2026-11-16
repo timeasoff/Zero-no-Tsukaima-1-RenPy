@@ -1140,7 +1140,7 @@ translate japanese strings:
     new "（ちょっと待て。　なんで、お姫さまがここに来てるんだよ！）"
 
 translate japanese strings:
-    old "'A friend'… I suppose she means a ninja{#ch5_3_th_012}"
+    old "'A friend'… I suppose she means she's incognito{#ch5_3_th_012}"
     new "（『お友達』って……。　つまり、お忍びだって言いたいのか）"
 
 translate japanese strings:

@@ -147,7 +147,7 @@ label ch5:
     # [lay1 +302 → l 1]
     $ show_sprites(("l 1"))
     voice "ch5_l_003"
-    l "The investigation starts today! I'll catch that newbie bomb user and show you all!"
+    l "The investigation starts today! I'll catch that detestable bomb user and show you all!"
     # JA[6166]: 今日からさっそく調査開始ね！ / あのにっくき爆弾使いを捕まえて / みせるんだから！
     # [lay1 +304 → l 1 happy]
     $ show_sprites(("l 1 happy"))

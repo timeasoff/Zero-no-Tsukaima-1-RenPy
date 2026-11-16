@@ -22,7 +22,7 @@ label ch5_10:
     voice "ch5.10_ha_001"
     ha "Oh, thank you very much!{#ch5_10_v2378}"
     voice "ch5.10_ha_002"
-    ha "Hiraga, look! My purse was in this hidden pocket!{#ch5_10_v2379}"
+    ha "Hiraga-kun, look! My purse was in this hidden pocket!{#ch5_10_v2379}"
     $ show_sprites(("w 1", "ha 1"))
     voice "ch5.10_w_004"
     w "I see. It certainly is Haruna's. I am sorry for all the things I said.{#ch5_10_v15998}"
@@ -106,7 +106,7 @@ label ch5_10_date_louise:
     voice "ch5.10_s_008"
     s "What an amazing meal. It must have cost a fortune, did it not?{#ch5_10_v8635}"
     voice "ch5.10_l_007"
-    l "Really? But Weatherly paid me for appearing, so it was not that expensive.{#ch5_10_v4737}"
+    l "Really? But Weatherby paid me for appearing, so it was not that expensive.{#ch5_10_v4737}"
     voice "ch5.10_l_008"
     l "Saito?{#ch5_10_v4738}"
     voice "ch5.10_s_009"

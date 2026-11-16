@@ -17,7 +17,7 @@ translate japanese strings:
     old "Oh, thank you very much!{#ch5_10_v2378}"
     new "あ、ありがとうございます！"
 
-    old "Hiraga, look! My purse was in this hidden pocket!{#ch5_10_v2379}"
+    old "Hiraga-kun, look! My purse was in this hidden pocket!{#ch5_10_v2379}"
     new "平賀くん見て！この隠しポケットに私のお財布が入ってた！"
 
     old "I see. It certainly is Haruna's. I am sorry for all the things I said.{#ch5_10_v15998}"
@@ -68,7 +68,7 @@ translate japanese strings:
     old "What an amazing meal. It must have cost a fortune, did it not?{#ch5_10_v8635}"
     new "すごい料理だな。ずいぶん、お金がかかったんじゃないのか？"
 
-    old "Really? But Weatherly paid me for appearing, so it was not that expensive.{#ch5_10_v4737}"
+    old "Really? But Weatherby paid me for appearing, so it was not that expensive.{#ch5_10_v4737}"
     new "そう？でも、ウェザリーから出演料貰ったし、それほどでもないわよ。"
 
     old "Saito?{#ch5_10_v4738}"

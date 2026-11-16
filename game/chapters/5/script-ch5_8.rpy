@@ -131,7 +131,7 @@ label ch5_8_kirche_play:
 
 label ch5_8_r2_end:
     # ==== SCENE 1148 ====
-    jump ch5_9
+    jump ch5_10
 
 label ch5_8_r3_tabitha:
     # ==== SCENE 1149 ====
@@ -166,7 +166,7 @@ label ch5_8_tabitha_play:
     # ==== SCENE 1149 continuation ====
     $ fade_fx("id(90)")
     th "……… …… …{#ch5.8_th_006}"
-    th "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.8_th_007}"
+    th "……… …… …{#ch5.8_th_007}"
     $ fade_fx("id(144)", type="cg")
     play music t22 fadein 1.0
     voice "ch5.8_s_023"
@@ -272,4 +272,4 @@ label ch5_8_tabitha_play:
 
 label ch5_8_r3_end:
     # ==== SCENE 1153 ====
-    jump ch5_9
+    jump ch5_10

@@ -13606,8 +13606,8 @@ translate russian strings:
     new "Я-Я не сдамся! Завтра я точно усну рядом с Хирага-куном! …если хватит смелости."
 
 translate russian strings:
-    old "The investigation starts today! I'll catch that newbie bomb user and show you all!"
-    new "Расследование начинается сегодня! Я поймаю этого новенького бомбиста и покажу вам!"
+    old "The investigation starts today! I'll catch that detestable bomb user and show you all!"
+    new "Расследование начинается сегодня! Я поймаю этого ненавистного бомбиста и покажу вам!"
 
 translate russian strings:
     old "And I'll pay back the humiliation I suffered, twofold! Hee-hee, hee-hee-hee-hee…"
@@ -14201,8 +14201,8 @@ translate russian strings:
     new "Пойдём через парадный вход. Ты ведь не собираешься ничего дурного делать?"
 
 translate russian strings:
-    old "Kirche, what about the lock? It's obvious what we're after, right?"
-    new "Кирхе, а с замком что? Разумеется, мы задумали кое-что нехорошее, верно?"
+    old "Kirche, what about the lock? Naturally it's locked, right?"
+    new "Кирхе, а с замком что? Он, конечно, заперт, да?"
 
 translate russian strings:
     old "Obviously we open it with unlocking magic."
@@ -14333,7 +14333,7 @@ translate russian strings:
     new "Кто там! — О, это вы, те, кто приходил днём…"
 
 translate russian strings:
-    old "I-I're sorry. We didn't mean to peek…"
+    old "I-I'm sorry. We didn't mean to peek…"
     new "П-простите. Мы не хотели подсматривать…"
 
 translate russian strings:
@@ -14821,7 +14821,7 @@ translate russian strings:
 
 translate russian strings:
     old "Before we break, there's one thing to say. Mademoiselle Vallière!"
-    new "Перед перерывом у меня к вам разговор. Мадемуозель Вальер!"
+    new "Перед перерывом у меня к вам разговор. мадемуазель Вальер!"
 
 translate russian strings:
     old "What now! More acting lessons?!"
@@ -15020,8 +15020,8 @@ translate russian strings:
     new "М-Монморанси!"
 
 translate russian strings:
-    old "I understand it's an emergency, but will you do something about the way you call him?"
-    new "Я понимаю, что срочно, но не почините ли вы наконец, как его зовёте?"
+    old "I understand it's an emergency, but will you do something about the way you call me?"
+    new "Я понимаю, что срочно, но не почините ли вы наконец, как вы меня называете?"
 
 translate russian strings:
     old "S-sorry!"
@@ -15040,8 +15040,8 @@ translate russian strings:
     new "…О? Луиза остаётся? Неожиданно."
 
 translate russian strings:
-    old "…I hate the way you make a scene in the middle of things. It looks like running away."
-    new "…Мне не нравится, когда ты посреди дела поднимаешь шум. Похоже на бегство."
+    old "…I hate the way you give up halfway, like you do. It looks like running away."
+    new "…Мне не нравится, когда ты посреди дела сдаёшься. Это похоже на побег."
 
 translate russian strings:
     old "…Hmph, I suppose. Then do your very best."

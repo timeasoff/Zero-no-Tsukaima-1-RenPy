@@ -332,7 +332,7 @@ translate russian strings:
     new "…Не думаю, что я лгал. Наверное."
 
     old "…I see.{#ch5_11_v355}"
-    new "это так"
+    new "…Понятно."
 
     old "It was not just acting.{#ch5_11_v8734}"
     new "Это были не просто слова из пьесы."
@@ -425,7 +425,7 @@ translate russian strings:
     new "Хм. Тогда почему ты на меня не смотришь?"
 
     old "Because I am embarrassed, obviously.{#ch5_11_v8645}"
-    new "Так решено, потому что это неловко."
+    new "Ну конечно, потому что тебе неловко, верно?"
 
     old "Oh, you are embarrassed? How strange… The great Saito, embarrassed.{#ch5_11_v4745}"
     new "О, тебе неловко? Как странно… Великий Сайто смущается."
@@ -481,7 +481,7 @@ translate russian strings:
     old "If you came to my country, you would be shocked.{#ch5_11_v8665}"
     new "Если бы ты побывала в моей стране, то очень удивилась бы."
 
-    old "I would like to visit your country, Saito.{#ch5_11_v14282}"
+    old "I would like to visit your country, Saito-san.{#ch5_11_v14282}"
     new "Я хотела бы побывать в вашей стране, Сайто-сан."
 
     old "Thank you for the meal. It was delicious.{#ch5_11_v8666}"

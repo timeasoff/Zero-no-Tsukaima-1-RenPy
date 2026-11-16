@@ -765,7 +765,7 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 ### Связность
 
-Цепочка частей (межфайловые jump внутри главы): ch5_1 → ch5_2, ch5_2 → ch5_3, ch5_3 → ch5_4, ch5_4 → ch5_5, ch5_5 → ch5_6, ch5_6 → ch5_7, ch5_7 → ch5_8, ch5_7 → ch5_9, ch5_7 → ch5_10, ch5_8 → ch5_9, ch5_9 → ch5_10, ch5_10 → ch5_11
+Цепочка частей (межфайловые jump внутри главы): ch5_1 → ch5_2, ch5_2 → ch5_3, ch5_3 → ch5_4, ch5_4 → ch5_5, ch5_5 → ch5_6, ch5_6 → ch5_7, ch5_7 → ch5_8, ch5_7 → ch5_9, ch5_7 → ch5_10, ch5_8 → ch5_10 (r2/r3), ch5_9 → ch5_10, ch5_10 → ch5_11
 
 Межфайловые переходы:
 
@@ -794,8 +794,8 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 - `game/chapters/5/script-ch5_7.rpy:75` (`ch5_7`) → **jump** `ch5_9_r6_haruna` → `game/chapters/5/script-ch5_9.rpy:10`
 - `game/chapters/5/script-ch5_7.rpy:251` (`ch5_7_r1_rejoin`) → **jump** `ch5_10` → `game/chapters/5/script-ch5_10.rpy:6`
 - `game/chapters/5/script-ch5_7.rpy:431` (`ch5_7_r4_rejoin`) → **jump** `ch5_10` → `game/chapters/5/script-ch5_10.rpy:6`
-- `game/chapters/5/script-ch5_8.rpy:134` (`ch5_8_r2_end`) → **jump** `ch5_9` → `game/chapters/5/script-ch5_9.rpy:4`
-- `game/chapters/5/script-ch5_8.rpy:275` (`ch5_8_r3_end`) → **jump** `ch5_9` → `game/chapters/5/script-ch5_9.rpy:4`
+- `game/chapters/5/script-ch5_8.rpy:134` (`ch5_8_r2_end`) → **jump** `ch5_10` → `game/chapters/5/script-ch5_10.rpy:6`
+- `game/chapters/5/script-ch5_8.rpy:275` (`ch5_8_r3_end`) → **jump** `ch5_10` → `game/chapters/5/script-ch5_10.rpy:6`
 - `game/chapters/5/script-ch5_9.rpy:141` (`ch5_9_r6_haruna_1158`) → **jump** `ch5_10` → `game/chapters/5/script-ch5_10.rpy:6`
 - `game/chapters/5/script-ch5_9.rpy:291` (`ch5_9_r5_henrietta_1163`) → **jump** `ch5_10` → `game/chapters/5/script-ch5_10.rpy:6`
 

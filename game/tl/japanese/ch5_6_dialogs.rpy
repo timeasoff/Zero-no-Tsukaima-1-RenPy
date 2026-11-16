@@ -118,7 +118,7 @@ translate japanese strings:
     old "Whoa! I've been caught! ...I-I'm sorry.{#ch5_6_v9947}"
     new "うわっ！\\n見つかった！\\n……ご、ごめんなさい。"
 
-    old "We were just sent shopping by Wealthy-sama! Honestly!{#ch5_6_v1445}"
+    old "We were just sent shopping by Weatherby-san! Honestly!{#ch5_6_v1445}"
     new "ぼく達はただ、ウェザリーに買い物を\\n頼まれただけだ！\\nまったく！"
 
     old "O-oh really?{#ch5_6_v9948}"
@@ -184,7 +184,7 @@ translate japanese strings:
     old "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
     new "うーん、まだ煮物が限界みたい。\\n焼き物とか、パンとか、\\nまだまだ修行が必要かもね。"
 
-    old "Miss Montmonmon has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
+    old "Miss Montmorency has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
     new "ミス・モンモランシーは筋がいいんですから、\\nあと少しだと思いますよ。"
 
     old "Can you actually make something edible?{#ch5_6_v9957}"
@@ -310,10 +310,10 @@ translate japanese strings:
     old "Yes.{#ch5_6_v15467}"
     new "うん。"
 
-    old "Yes, it's nice weather. On days like this, I want to run around in the fields.{#ch5_6_v473}"
+    old "Then why don't you come visit the royal palace library sometime?{#ch5_6_v473}"
     new "だったら、今度王宮の書庫に来てみては\\nいかがですか？"
 
-    old "That's right. It's really up in the sky.{#ch5_6_v474}"
+    old "There are books that can't be taken out or shown, but I think I can show you a fair number of them.{#ch5_6_v474}"
     new "持ち出しや、見せることができない本も\\nありますが、ある程度の本は\\nお見せできると思いますよ。"
 
     old "…….{#ch5_6_v15468}"
@@ -334,13 +334,13 @@ translate japanese strings:
     old "Yes.{#ch5_6_v15470}"
     new "うん。"
 
-    old "...Huh? Wealthy-sama?{#ch5_6_v9975}"
+    old "...Huh? Weatherby-san?{#ch5_6_v9975}"
     new "……あれ？\\nウェザリーさん？"
 
     old "Ah, Saito...{#ch5_6_v15874}"
     new "ああ、サイトか……。"
 
-    old "By the way, Wealthy-sama, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
+    old "By the way, Weatherby-san, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
     new "そういえばウェザリーさんって前は、\\n貴族だったって言ってましたけど、\\nどうして今は旅役者なんですか？"
 
     old "You know what, probing into a traveling actor's past is more than a little rude.{#ch5_6_v15875}"
@@ -376,7 +376,7 @@ translate japanese strings:
     old "I wouldn't say it's wrong. But that's something only someone rich enough to be overflowing with wealth can say.{#ch5_6_v15881}"
     new "間違いとは言わない。\\nだが、それは富にあふれた人の言う台詞だな。"
 
-    old "Wealthy-sama?{#ch5_6_v9981}"
+    old "Weatherby-san?{#ch5_6_v9981}"
     new "ウェザリーさん？"
 
     old "I think I talked too much. I'll go rest over there...{#ch5_6_v15882}"

@@ -86,13 +86,13 @@ label ch5_9_r6_haruna:
     t "They say white flowers eventually bloomed where the two of them fell, side by side…{#ch5_9_v15362}"
     th "……… …… …{#ch5_9_s1154_37}"
     voice "ch5.9_ha_011"
-    ha "Th-that was incredible, Hiraga! Your performance was so passionate.{#ch5_9_v1693}"
+    ha "Th-that was incredible, Hiraga-kun! Your performance was so passionate.{#ch5_9_v1693}"
     voice "ch5.9_s_017"
     s "W-well, maybe a little.{#ch5_9_v8851}"
     voice "ch5.9_w_004"
     w "Ladies and gentlemen, please give them one more grand round of applause!{#ch5_9_v15861}"
     voice "ch5.9_ha_012"
-    ha "Hey, Hiraga. I almost thought that confession was real.{#ch5_9_v1694}"
+    ha "Hey, Hiraga-kun. I almost thought that confession was real.{#ch5_9_v1694}"
     th "What am I supposed to say to that…{#ch5_9_s1154_42}"
     menu:
         "I really meant it.{#ch5_9_c1155}":

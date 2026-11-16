@@ -4,7 +4,7 @@ translate japanese strings:
     old "Hah… practice is off today, isn't it?{#ch5.6_th_001}"
     new "（はあ、今日は練習が休みか）"
 
-    old "Wealthy-sama said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
+    old "Weatherby-san said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
     new "（明日にはいよいよ役柄の最終発表をするって\\n　ウェザリーさんはいってたけど……）"
 
     old "I wonder how it's going to turn out? Really...{#ch5.6_th_003}"
