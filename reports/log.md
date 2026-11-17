@@ -5029,3 +5029,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (лексика): `きゃ～～っ`/`ひいっ` → «Кя!» (было «Кайн» — имя); `実力行使` → «применить силу»; `やっほ` → «Йо-хо»; `たまらなかった` → «невыразим»; `おにいちゃん` → «Братец» (старший).
 - решение (роли): `私のことを気に入って` — объект Харуна (кто-то из труппы полюбил её), инверсия исправлена; `預けるだけですけどね` — утверждение, не отрицание.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 16 --lang ru/en` → OK.
+
+
+## 2026-11-18 — Глава 17 (chapter_18 女王の決断): часть 1 (сцены 670–683)
+
+- статус: DONE (порт + mechanically; аудиты — отдельным проходом)
+- место: `game/chapters/17/script-ch17_{1,2}.rpy`, `game/tl/{japanese,russian}/ch17_1_*`, `references/voice_id_map.csv` (+128), `reports/ch17/1.md`
+- PROVISIONAL: `ゼロ戦` → «Zero Fighter»/«Зеро-файтер»; `おっさん` → «mister»/«дядя»; заглушки `id(K)`; `VIBRATE` → shake_fx.
+- нет аудио: `[voice 4227]` (味方Ａ, сцена 675) — строка voice пропущена, реплика сохранена; pre-check FALSE_POSITIVE.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 17` → OK; `check_typography.py --chapter 17_1 --lang ru/en` → OK; `audio_converter.py check` → OK (9267/9267).
+- отчёт: `reports/ch17/1.md`; план обновлён (часть 1 ✅).
