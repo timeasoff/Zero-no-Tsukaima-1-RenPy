@@ -10480,7 +10480,7 @@ translate russian strings:
     new "Это был несчастный случай. Так было нужно для ритуала подручного."
 
     old "Th-that's right. I only kissed you because the ritual required it. There was nothing else to it."
-    new "В-верно. Я поцеловала его только потому, что ритуал этого требовал. Ничего больше."
+    new "В-верно. Я поцеловала тебя только потому, что ритуал этого требовал. Ничего больше."
 
     old "Louise was the one who asked for it, you see…"
     new "Это Луиза сама пожелала…"
