@@ -238,8 +238,8 @@ translate russian strings:
     old "So she found her own path in life. {#ch9_h_023}"
     new "Значит, она нашла свой собственный путь в жизни."
 
-    old "Yes. Thanks to her. {#ch9_s_052}"
-    new "Да. Благодаря ей."
+    old "Yes. Thanks to you. {#ch9_s_052}"
+    new "Да. Благодаря вам."
 
     old "I wished I could meet her one last time. {#ch9_h_024}"
     new "Мне так хотелось встретиться с ней ещё раз напоследок. / Какая жалость."

@@ -238,7 +238,7 @@ translate japanese strings:
     old "So she found her own path in life. {#ch9_h_023}"
     new "そうですか、彼女も自分が / 生きていくための道を、見つけたのですね。"
 
-    old "Yes. Thanks to her. {#ch9_s_052}"
+    old "Yes. Thanks to you. {#ch9_s_052}"
     new "はい。 / おかげさまで。"
 
     old "I wished I could meet her one last time. {#ch9_h_024}"

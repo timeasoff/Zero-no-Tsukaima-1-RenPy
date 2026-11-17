@@ -557,7 +557,7 @@ label ch9:
     $ show_sprites(("h 2", "s 1"))
     # サイト：はい。 / おかげさまで。  [voice 9313]
     voice "ch9_s_044"
-    s "Yes. Thanks to her. {#ch9_s_052}"
+    s "Yes. Thanks to you. {#ch9_s_052}"
     # JA[9313]: サイト：はい。 / おかげさまで。
     # [SPRITE lay8 image=+803 → h 2 sad]
     $ show_sprites(("h 2 sad", "s 1"))
