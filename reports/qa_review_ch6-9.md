@@ -368,6 +368,18 @@ LOW/INFO без правки: 3 мёртвых ключа в `remark_{ja,ru}.rpy
 
 Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
 
+## Перепроверка №26 (механические скрипты)
+
+Исправлено 2:
+- `sf_effect.rpy:412/416` — `fade_fx`/`flash_fx` принимали `window_hide` именованным параметром, но не передавали его в `scene_fx`; два вызова `ch2_4.rpy:13–14` с `window_hide=False` молча игнорировались и диалоговое окно скрывалось. Добавлен `kwargs.setdefault("window_hide", window_hide)`;
+- RU `dialogs.rpy:10522` — 使い魔 → «как фамильяр» вместо неканонического «как подручная» (`dictionary.md:362`).
+
+??? / DEFERRED без правки: JA `screens.rpy:431` «Wind Break» → «敵全体を攻撃» (копипаста, японский не трогал без решения); `sympathy.rpy` не реализует PS2-ветку `zero_tundele_count >= 4 → route 1` — задокументированный DEFERRED из `routes.md` §1.3.
+
+Подтверждено: шкала tndl (0..255, старт 127), `tndl_pick`, гейты ch6_3/ch7_3, `renpy.call` в choice-экранах, сигнатуры `scene_fx` и 424 строки `remark.rpy` — без ошибок. Семантика (seed i%71, 35 строк) — 1 находка (выше).
+
+Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
+
 ## where I stopped
 
 - Текущая фаза: **главы 6–9 завершены** (rounds 1–14); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.

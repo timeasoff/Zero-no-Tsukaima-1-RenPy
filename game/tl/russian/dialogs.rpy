@@ -10519,7 +10519,7 @@ translate russian strings:
     new "…Действительно, это так."
 
     old "Whether she came from another world as a familiar, or simply wandered into this one by chance."
-    new "Пришла ли она из другого мира как подручная, или просто случайно забрела в этот мир."
+    new "Пришла ли она из другого мира как фамильяр, или просто случайно забрела в этот мир."
 
     old "The difference is significant — and it's the most important matter."
     new "Разница велика, и это важнее всего."
