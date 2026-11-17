@@ -5,7 +5,7 @@
     old "My room repairs seem finished. / From today I'll be staying there. {#ch10_si_033}"
     new "Ремонт в моей комнате, кажется, закончен. / С сегодняшнего дня я буду жить там."
     old "Say, Siesta's room... {#ch10_s_063}"
-    new "Слушай, комната Сиесты…"
+    new "Слушай, комната Сиесты..."
     old "Yes. / Before, Miss Varière used magic / and completely wrecked it... {#ch10_si_034}"
     new "Да. / Раньше мисс Вальер использовала магию / и совершенно все испортила…"
     old "Um, did Saito-san forget? {#ch10_si_035}"
