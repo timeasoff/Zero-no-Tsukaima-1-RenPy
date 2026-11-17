@@ -461,8 +461,8 @@ label ch11_4_scene_506:
     # [SPRITE   lay1     hide]
     # [BG       stage    hide]
     # 【デートdate】ハルナ → scene 1179 — не портируется (date-гейт, контент в game/chapters/extra/)
-    # → jump attention (конец портированного контента)
-    jump attention
+    # → next scene 510 (глава 12) — date-ветка 1179 не портирована
+    jump ch12
     # 【デートproceed】 → scene 510 — не портируется (date-гейт, контент в game/chapters/extra/)
 label ch11_4_scene_507:
 
@@ -493,8 +493,8 @@ label ch11_4_scene_507:
     # [SPRITE   lay1     hide]
     # [BG       stage    hide]
     # 【デートdate】ハルナ → scene 1179 — не портируется (date-гейт, контент в game/chapters/extra/)
-    # → jump attention (конец портированного контента)
-    jump attention
+    # → next scene 510 (глава 12) — date-ветка 1179 не портирована
+    jump ch12
     # 【デートproceed】 → scene 510 — не портируется (date-гейт, контент в game/chapters/extra/)
 label ch11_4_scene_508:
 
@@ -526,8 +526,8 @@ label ch11_4_scene_508:
     # [SPRITE   lay1     hide]
     # [BG       stage    hide]
     # 【デートdate】ハルナ → scene 1179 — не портируется (date-гейт, контент в game/chapters/extra/)
-    # → jump attention (конец портированного контента)
-    jump attention
+    # → next scene 510 (глава 12) — date-ветка 1179 не портирована
+    jump ch12
     # 【デートproceed】 → scene 510 — не портируется (date-гейт, контент в game/chapters/extra/)
 label ch11_4_scene_509:
 
@@ -544,10 +544,10 @@ label ch11_4_scene_509:
     # [SPRITE   lay5     hide]
     # [BG       stage    hide]
     # 【デートdate】ハルナ → scene 1179 — не портируется (date-гейт, контент в game/chapters/extra/)
-    # → jump attention (конец портированного контента)
-    jump attention
+    # → next scene 510 (глава 12) — date-ветка 1179 не портирована
+    jump ch12
     # 【デートproceed】 → scene 510 — не портируется (date-гейт, контент в game/chapters/extra/)
     # ==== КОНЕЦ ГЛАВЫ 11, ЧАСТИ 4 ====
-    jump attention
+    jump ch12
     return
 

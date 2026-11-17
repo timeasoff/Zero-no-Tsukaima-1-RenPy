@@ -16,7 +16,8 @@ import json
 import re
 import sys
 
-SRC = 'ps2_source/chapters/chapter_12_ハルナの決意.txt'
+SRC = (sys.argv[4] if len(sys.argv) > 4 else
+       'ps2_source/chapters/chapter_12_ハルナの決意.txt')
 
 
 def parse(start_scene, end_scene):

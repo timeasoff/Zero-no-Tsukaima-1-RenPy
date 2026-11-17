@@ -4796,3 +4796,18 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - humanizer/стиль: убрано добавленное «между прочим», перестроены «сумрачные разговоры, которые мне не к лицу» и «К тому же, раз уж такой случай».
 - проверки после правок: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --lang ru/en --chapter 11` → OK; `check_renpy_syntax.py --chapter 11` → OK; `audio_converter.py check` → OK.
 - инструменты: `tools/apply_ch11_audit_fixes.py`, `tools/gen_ch11_phase2_reports.py`.
+
+
+## 2026-11-17 — Глава 12 (chapter_13 もう一人のハルナ): часть 1 (сцены 510–524)
+
+- статус: DONE (порт + механические фазы pipeline; аудиты — отдельным проходом)
+- место: `game/chapters/12/script-ch12_{1,2}.rpy`, `game/tl/{japanese,russian}/ch12_1_{dialogs,choises,overlays}.rpy`, `references/voice_id_map.csv` (+115), `reports/ch12/1.md`
+- что сделано: сцены 510–524 (15 сцен, 124 реплики, 115 голосов, 2 menu, титульная карточка); EN-база в сценарии, JA/RU в `tl/`; 115 `.ogg` конвертированы; всего проектовых голосов 7662.
+- решение (связь глав): выход `ch11_4` изменён с `jump attention` на `jump ch12` (все 5 ветвей date-гейта), чтобы сделать главу 12 достижимой; date-ветка 1179 по-прежнему не портирована. Запись в план внесена.
+- решение (резка): часть 1 = 510–524 (ровно 115 голосов, сильная граница `→ next scene 525`).
+- решение (checkKiss): сцена 518 имеет два `GOTO` по флагу поцелуя; флаг в ремастере не реализован, выбран путь 520 («без поцелуя») как согласованный с текущим портом (date-сцены не портированы). `PROVISIONAL`.
+- решение ( говорящие ): `es` (敵兵士ＥＳ), `innkeeper`, `soldier`, `commander` уже определены в `game/characters.rpy`; новых define не потребовалось. `VIBRATE` → `$ shake_fx(duration=0.8)` по образцу `ch7_2`, длительность PROVISIONAL.
+- PROVISIONAL/??? : фоны `id(35/41/50/62)` и CG `id(259/276)` — заглушки без `filename` в `image_id_map.csv`, требуют решения человека.
+- канон сверен: レコン・キスタ → Reconquista/Реконкиста, ラ・ヴァリエール → La Vallière/Ла Вальер, 使い魔 → familiar/фамильяр, ご主人様 → mistress/госпожа (`dictionary.md`).
+- проверки: `check_project.py` → RESULT: OK; `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_1 --lang ru/en` → OK (124+124); `check_placeholders.py` → OK (только ID_UNNAMED); `audio_converter.py check` → OK; `omission_precheck --chapter 12_1` → 0 кандидатов; pipeline mechanically 9/9, 0 ошибок.
+- отчёт: `reports/ch12/1.md`; `reports/translation_plan.md` обновлён (глава 11 → `jump ch12`, глава 12 — часть 1).
