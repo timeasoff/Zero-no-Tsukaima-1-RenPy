@@ -10,7 +10,7 @@
 |---|---|
 | Дата старта | 2026-11-17 |
 | Ветка | `qa/review-ch2-5` |
-| Статус | ✅ ЗАВЕРШЕНО (главы 6–9, 33 round) |
+| Статус | ✅ ЗАВЕРШЕНО (главы 6–9, 52 round) |
 
 ## Прогресс
 
@@ -626,8 +626,16 @@ Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; от
 * **UI/не-диалоговые бакеты:** overlays (48), screens (170), options (3), characters (31), choises (419) — RU `new` = EN `old` только для `<`, `>`, `Esc`, `Ctrl`, `Tab` (клавиши) и `???` (плейсхолдер) — ложные срабатывания, реально непереведённых строк нет.
 * Правок кода нет; коммит только обновляет отчёт/журнал.
 
+## Перепроверка №53 (seed i%167, дрейф документации)
+
+Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; отступы 0; U+FFFD 0.
+
+* **Семантика** (seed `i % 167`, 42 строки): новых ошибок нет.
+* **Дрейф документации (исправлено):** `qa_review_ch6-9.md:13` «33 round» → «52 round»; `:631` «rounds 1–33» → «1–52». `translation_plan.md` актуален (312 предупреждений, `RESULT: OK`), других устаревших чисел не найдено.
+* Правок кода нет; коммит обновляет отчёт/журнал.
+
 ## where I stopped
 
-- Текущая фаза: **главы 6–9 завершены** (rounds 1–33); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
+- Текущая фаза: **главы 6–9 завершены** (rounds 1–52); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
 - Инструменты: `check_renpy_syntax`, `check_project`, `check_typography`, `check_placeholders`, `check_assets`, `check_voice_transcriptions`, `omission_precheck`; сканер отступов `C:/Users/user/AppData/Local/Temp/opencode/qa_indent_all.py`; валидатор `qa_pyindent2.py`.
 - Важно: `check_renpy_syntax.py` не ловит отступы внутри `menu:` — всегда запускать оба сканера.
