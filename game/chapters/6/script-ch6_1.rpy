@@ -19,7 +19,7 @@ label ch6:
     l "Whew, my legs feel like lead…{#ch6_l_001}"
     # JA[7297]: はー、足が棒になっちゃったわ……。
     voice "ch6_si_001"
-    si "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
+    si "Welcome back, Miss Vallière, Saito-san. How did the inquiries go?{#ch6_si_001}"
     # JA[15152]: おかえりなさいませ、 ミス・ヴァリエール、サイトさん。 聞き込みの方はいかがでした？
     voice "ch6_s_002"
     s "Absolutely terrible. We didn't find a single clue.{#ch6_s_002}"

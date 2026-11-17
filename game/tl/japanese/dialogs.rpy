@@ -9957,13 +9957,13 @@ translate japanese strings:
     old "Ah, Siesta — so this is where you were."
     new "あっ、シエスタ。こんなところにいたのか。"
 
-    old "Saito! You showed up at just the right time!"
+    old "Saito-san! You showed up at just the right time!"
     new "サイトさん！ちょうどいいところに！"
 
     old "Did you need me for something?"
     new "俺になにか用事があったの？"
 
-    old "Yes! There's something I'd really like you to see, Saito!"
+    old "Yes! There's something I'd really like you to see, Saito-san!"
     new "はい！サイトさんにぜひ、見てほしい物があるんですよ。"
 
     old "Oh? What is it? Now I'm curious."
@@ -16094,7 +16094,7 @@ translate japanese strings:
     old "Whew, my legs feel like lead…{#ch6_l_001}"
     new "はー、足が棒になっちゃったわ……。"
 
-    old "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
+    old "Welcome back, Miss Vallière, Saito-san. How did the inquiries go?{#ch6_si_001}"
     new "おかえりなさいませ、
 ミス・ヴァリエール、サイトさん。
 聞き込みの方はいかがでした？"
@@ -17692,7 +17692,7 @@ translate japanese strings:
     old "Huh? You mean…{#ch7_l_017}"
     new "え？　それって……。"
 
-    old "Inognito, presumably, but most likely nobles of Tristain itself.{#ch7_k_014}"
+    old "Incognito, presumably, but most likely nobles of Tristain itself.{#ch7_k_014}"
     new "お忍びだろうけど、おそらくトリステイン国内の　貴族達でしょうね。"
 
     old "So… it is as I thought.{#ch7_h_002}"

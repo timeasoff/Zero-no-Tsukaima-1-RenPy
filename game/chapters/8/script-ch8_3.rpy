@@ -38,7 +38,7 @@ label ch8_3:
     play music t27 fadein 1.0
     # シエスタ：サイトさんが、サイトさんが……。  [voice 15176]
     voice "ch8_si_010"
-    si "That's Saito, that's Saito…! {#ch8_si_010}"
+    si "It's Saito-san, it's Saito-san…! {#ch8_si_010}"
     # JA[15176]: シエスタ：サイトさんが、サイトさんが……。
     # ルイズ：大丈夫、わたしが直してあげるわ。
     # [voice 7457]

@@ -158,7 +158,7 @@ translate russian strings:
     new "{size=+14}Вы можете принять активное участие в переводе!{/size}"
 
     old "{size=+14}You can find the contact information in the \"About the Game\" section.{/size}"
-    new "{size=+14}Контакты в разделе \"Об игре\".{/size}"
+    new "{size=+14}Контакты в разделе «Об игре».{/size}"
 
 
 

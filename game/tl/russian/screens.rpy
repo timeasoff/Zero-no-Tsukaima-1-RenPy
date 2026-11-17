@@ -62,10 +62,10 @@ translate russian strings:
     old "Quick saves"
     new "Быстрые сохранения"
 
-    old "{#file_time}%A, %d %B %Y, %H:%M"
+    old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%A, %d %B %Y, %H:%M"
 
-    old "Empty Slot"
+    old "empty slot"
     new "Пустой слот"
 
     old "<"
@@ -84,7 +84,7 @@ translate russian strings:
     new "Синхронизация загрузки"
 
     old "Download Sync"
-    new "Скачать Sync"
+    new "Синхронизация скачивания"
 
     old "Display Mode"
     new "Режим экрана"

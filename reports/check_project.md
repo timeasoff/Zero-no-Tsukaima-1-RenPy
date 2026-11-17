@@ -8,9 +8,9 @@
 
 - нет
 
-## WARNING (318)
+## WARNING (314)
 
-- W5 3 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
+- W5 1 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
@@ -62,7 +62,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:98: Display Mode
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:416: Double Slash
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:470: Elixir
-- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:77: Empty Slot
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:206: Enable supported {a=https://www.renpy.org/l/voicing}text-to-speech{/a}
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:173: Enter game menu.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:170: Esc
@@ -144,14 +143,13 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
 - W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:602: Zero reaction, huh... Now's not the time to back down.
-- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:77: empty slot
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:146: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
-- W1 stale old in tl/japanese at game/tl/japanese/characters.rpy:41: Сommander
-- W5 3 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
+- W5 1 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -202,7 +200,6 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:89: Display Mode
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:418: Double Slash
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:472: Elixir
-- W1 stale old in tl/russian at game/tl/russian/screens.rpy:68: Empty Slot
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:197: Enable supported {a=https://www.renpy.org/l/voicing}text-to-speech{/a}
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:164: Enter game menu.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:161: Esc
@@ -284,13 +281,12 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:426: Wing
 - W1 stale old in tl/russian at game/tl/russian/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:597: Zero reaction, huh... Now's not the time to back down.
-- W1 stale old in tl/russian at game/tl/russian/screens.rpy:65: {#file_time}%A, %d %B %Y, %H:%M
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:68: empty slot
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:148: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:157: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
-- W1 stale old in tl/russian at game/tl/russian/characters.rpy:41: Сommander
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
 - W2 309 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
@@ -314,11 +310,11 @@
 - W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:222 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(44) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:243 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(60) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:266 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:84 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:125 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:140 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:157 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:171 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:83 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:124 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:139 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:156 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:170 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)

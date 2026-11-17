@@ -38,7 +38,7 @@ translate russian strings:
     old "Soldier"
     new "Солдат"
 
-    old "Сommander"
+    old "Commander"
     new "Командир"
 
     old "Mage"

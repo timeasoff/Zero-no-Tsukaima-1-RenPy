@@ -71,10 +71,10 @@ translate japanese strings:
     old "Quick saves"
     new "クイックセーブ"
 
-    old "{#file_time}%A, %d %B %Y, %H:%M"
+    old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%A, %d %B %Y, %H:%M"
 
-    old "Empty Slot"
+    old "empty slot"
     new "空スロット"
 
     old "<"

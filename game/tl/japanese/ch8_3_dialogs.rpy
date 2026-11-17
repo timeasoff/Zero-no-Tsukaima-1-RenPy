@@ -4,7 +4,7 @@ translate japanese strings:
     old "Alright, this is youth! {#ch8_s_082}"
     new "よーし、これが青春なんだな！"
 
-    old "That's Saito, that's Saito…! {#ch8_si_010}"
+    old "It's Saito-san, it's Saito-san…! {#ch8_si_010}"
     new "サイトさんが、サイトさんが……。"
 
     old "It's fine. I'll fix it. {#ch8_l_051}"

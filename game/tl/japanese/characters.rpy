@@ -38,7 +38,7 @@ translate japanese strings:
     old "Soldier"
     new "兵士"
 
-    old "Сommander"
+    old "Commander"
     new "指揮官"
 
     old "Mage"

@@ -9963,13 +9963,13 @@ translate russian strings:
     old "Ah, Siesta — so this is where you were."
     new "А, Сиеста — вот ты где."
 
-    old "Saito! You showed up at just the right time!"
+    old "Saito-san! You showed up at just the right time!"
     new "Сайто! Как раз кстати!"
 
     old "Did you need me for something?"
     new "У тебя ко мне дело?"
 
-    old "Yes! There's something I'd really like you to see, Saito!"
+    old "Yes! There's something I'd really like you to see, Saito-san!"
     new "Да! Есть кое-что, что я очень хочу тебе показать, Сайто!"
 
     old "Oh? What is it? Now I'm curious."
@@ -16100,7 +16100,7 @@ translate russian strings:
     old "Whew, my legs feel like lead…{#ch6_l_001}"
     new "Фух, ноги стали как ватные…"
 
-    old "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
+    old "Welcome back, Miss Vallière, Saito-san. How did the inquiries go?{#ch6_si_001}"
     new "С возвращением, мадемуазель Вальер, Сайто-сан. Как прошли расспросы?"
 
     old "Absolutely terrible. We didn't find a single clue.{#ch6_s_002}"
@@ -17504,7 +17504,7 @@ translate russian strings:
     old "Huh? You mean…{#ch7_l_017}"
     new "А? Неужели…"
 
-    old "Inognito, presumably, but most likely nobles of Tristain itself.{#ch7_k_014}"
+    old "Incognito, presumably, but most likely nobles of Tristain itself.{#ch7_k_014}"
     new "Инкогнито, скорее всего, но, по всей вероятности, это дворяне самого Тристейна."
 
     old "So… it is as I thought.{#ch7_h_002}"

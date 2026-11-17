@@ -30,7 +30,7 @@ label date_siesta_ch3_9:
     $ show_sprites(("si 1 happy", "s 1"))
 
     voice "ch3.9_si_001"
-    si "Saito! You showed up at just the right time!"
+    si "Saito-san! You showed up at just the right time!"
 
     # [好感度] シエスタ 20
     $ update_sympathy(20, char_key="siesta")
@@ -42,7 +42,7 @@ label date_siesta_ch3_9:
     $ show_sprites(("si 4 happy", "s 1"))
 
     voice "ch3.9_si_002"
-    si "Yes! There's something I'd really like you to see, Saito!"
+    si "Yes! There's something I'd really like you to see, Saito-san!"
 
     # [lay5 +423 (s 3)]
     $ show_sprites(("si 4 happy", "s 3"))

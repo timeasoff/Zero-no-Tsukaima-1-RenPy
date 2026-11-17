@@ -4,7 +4,7 @@ translate russian strings:
     old "Alright, this is youth! {#ch8_s_082}"
     new "Ну вот, так это и есть — юность!"
 
-    old "That's Saito, that's Saito…! {#ch8_si_010}"
+    old "It's Saito-san, it's Saito-san…! {#ch8_si_010}"
     new "Это Сайто, это Сайто…!"
 
     old "It's fine. I'll fix it. {#ch8_l_051}"

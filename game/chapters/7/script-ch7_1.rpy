@@ -402,7 +402,7 @@ label ch7:
     # [lay6 +676 → k 1]
     $ show_sprites(("l 1", "k 1"))
     voice "ch7_k_014"
-    k "Inognito, presumably, but most likely nobles of Tristain itself.{#ch7_k_014}"
+    k "Incognito, presumably, but most likely nobles of Tristain itself.{#ch7_k_014}"
     # JA[3846]: お忍びだろうけど、おそらくトリステイン国内の / 貴族達でしょうね。
     # [lay6 hide]
     $ show_sprites(("l 1"))
