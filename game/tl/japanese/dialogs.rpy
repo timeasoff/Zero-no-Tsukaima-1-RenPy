@@ -564,7 +564,7 @@ translate japanese strings:
     old "...Well, fine. I'll keep your secret. Now then, I'm heading back to my room."
     new "......まあ、いいわ。約束してあげる。じゃ、わたしは部屋に戻るわね。"
 
-    old "That's a relief. Saito-san, Miss Variere."
+    old "That's a relief. Saito-san, Miss Vallière."
     new "良かったですね。サイトさん、ミス・ヴァリエール。"
 
     old "Well, at least her life isn't in danger, right? That's a relief."

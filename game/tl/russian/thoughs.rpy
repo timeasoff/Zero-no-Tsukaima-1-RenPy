@@ -238,7 +238,7 @@ translate russian strings:
     old "Why is she getting so mad anyway, she's such a weirdo..."
     new "И чего это она злится, странная она всё-таки..."
 
-    old "Guishe is Louise's classmate. He specializes in Earth system magic. He knows as 'Guishe the Bronze'."
+    old "Guiche is Louise's classmate. He specializes in Earth system magic. He's known as 'Guiche the Bronze'."
     new "Гиш — одноклассник Луизы. Специалист по магии земли. Его прозвище — «Бронзовый Гиш"
 
     old "He's a womanizer and a show-off, but you just can't hate the guy."

@@ -484,3 +484,56 @@ translate japanese strings:
 
     old "Return to the main menu"
     new "メインメニューに戻る"
+
+translate japanese strings:
+    old "Accesses the game menu."
+    new "ゲームメニューを開きます。"
+
+    old "Advances dialogue and activates the interface."
+    new "ダイアログを進め、インターフェースを操作します。"
+
+    old "Advances dialogue without selecting choices."
+    new "選択肢を選ばずにダイアログを進めます。"
+
+    old "Calibrate"
+    new "キャリブレーション"
+
+    old "Escape"
+    new "Esc"
+
+    old "Hides the user interface."
+    new "ユーザーインターフェースを非表示にします。"
+
+    old "Left Trigger\nLeft Shoulder"
+    new "左トリガー\n左ショルダー"
+
+    old "Mouse Wheel Down"
+    new "マウスホイール下"
+
+    old "Mouse Wheel Up"
+    new "マウスホイール上"
+
+    old "Opens the accessibility menu."
+    new "アクセシビリティメニューを開きます。"
+
+    old "Right Shoulder"
+    new "右ショルダー"
+
+    old "Rolls back to earlier dialogue."
+    new "以前のダイアログに戻ります。"
+
+    old "Rolls forward to later dialogue."
+    new "後のダイアログに進みます。"
+
+    old "Skips dialogue while held down."
+    new "押している間、ダイアログをスキップします。"
+
+    old "Takes a screenshot."
+    new "スクリーンショットを撮ります。"
+
+    old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+    new "補助機能 {a=https://www.renpy.org/l/voicing}音声読み上げ{/a} を切り替えます。"
+
+    old "Toggles dialogue skipping."
+    new "ダイアログのスキップを切り替えます。"
+

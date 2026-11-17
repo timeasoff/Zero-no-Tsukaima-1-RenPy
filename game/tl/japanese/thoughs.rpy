@@ -243,7 +243,7 @@ translate japanese strings:
     old "Why is she getting so mad anyway, she's such a weirdo..."
     new "(何怒ってるんだよ、変な奴......)"
 
-    old "Guishe is Louise's classmate. He specializes in Earth system magic. He knows as 'Guishe the Bronze'."
+    old "Guiche is Louise's classmate. He specializes in Earth system magic. He's known as 'Guiche the Bronze'."
     new "(ギーシュは、ルイズのクラスメイト。 土の系統の魔法が得意。 二つ名は「青銅のギーシュ」)"
 
     old "He's a womanizer and a show-off, but you just can't hate the guy."

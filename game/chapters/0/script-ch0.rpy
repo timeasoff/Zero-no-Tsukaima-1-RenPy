@@ -49,7 +49,7 @@ label ch0:
     unk "Objective? To dismantle every rule this country stands on."
 
     voice "ch0_soldier_008"
-    soldier "Huh?"
+    commander "Huh?"
 
     voice "ch0_un_004"
     unk "Until then, you'll just have to cherish your mundane lives, won't you?"

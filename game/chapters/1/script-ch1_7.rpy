@@ -205,7 +205,7 @@ label ch1_7:
             si "Huh?{#he?}"
 
             voice "ch1.7_l_011"
-            "Hey Kirche! What are you talking about?!"
+            l "Hey Kirche! What are you talking about?!"
 
             $ show_sprites(("si 1 shy", "s 3 angry"))
             voice "ch1.7_s_008"

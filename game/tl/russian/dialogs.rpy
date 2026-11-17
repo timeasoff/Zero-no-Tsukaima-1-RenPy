@@ -566,7 +566,7 @@ translate russian strings:
     old "...Well, fine. I'll keep your secret. Now then, I'm heading back to my room."
     new "…Ну ладно, так и быть. Даю тебе слово. Ну, я пошла к себе."
 
-    old "That's a relief. Saito-san, Miss Variere."
+    old "That's a relief. Saito-san, Miss Vallière."
     new "Слава богу. Сайто-сан, мадемуазель Вальер."
 
     old "Well, at least her life isn't in danger, right? That's a relief."
@@ -1650,7 +1650,7 @@ translate russian strings:
     new "Э?"
 
     old "H-hold on, Old Osmond! That's going too far, I mean...!"
-    new "П-постойте, старейшина Осман! Это уж слишком, это просто…!"
+    new "П-постойте, Старый Осман! Это уж слишком, это просто…!"
 
     old "Hmm? Is there a problem with that?"
     new "Хм? Разве в этом есть какая-то проблема?"

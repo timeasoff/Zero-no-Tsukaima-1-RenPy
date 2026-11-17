@@ -33,6 +33,7 @@ define man_b     = Character(_("Man B"), color="#797979")
 define man_c     = Character(_("Man C"), color="#797979")
 define innkeeper = Character(_("Innkeeper"), color="#797979")
 define shopkeeper = Character(_("Shopkeeper"), color="#797979")
+define enemy     = Character(_("Enemy"), color="#d82b2b")
 
 
 define unk = Character(_("???"), color="#000000") #protagonist

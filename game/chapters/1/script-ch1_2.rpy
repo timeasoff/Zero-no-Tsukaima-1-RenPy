@@ -186,7 +186,7 @@ label ch1_2:
 
     $ show_sprites(("si 1", "l 3 sad"))
     voice "ch1.2_si_05"
-    si "That's a relief. Saito-san, Miss Variere."
+    si "That's a relief. Saito-san, Miss Vallière."
 
     $ show_sprites(("si 1", "s 3"))
     voice "ch1.2_s_012"

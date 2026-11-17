@@ -8,9 +8,9 @@
 
 - нет
 
-## WARNING (318)
+## WARNING (316)
 
-- W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
+- W5 2 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
@@ -77,7 +77,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:200: Hide user interface.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12456: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:660: How did you know!?
-- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:76: I found them. {#ch8_e_001}
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:379: Increases accuracy of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:391: Increases attack power of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:388: Increases defense of 1 ally
@@ -151,7 +150,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
-- W5 18 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
+- W5 2 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -217,7 +216,6 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:191: Hide user interface.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12462: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:662: How did you know!?
-- W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:73: I found them. {#ch8_e_001}
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:381: Increases accuracy of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:387: Increases attack power of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:393: Increases defense of 1 ally
@@ -301,7 +299,7 @@
 - I1 ch5: 1569 script strings > 1470 source talk
 - I1 ch6: 465 script strings > 431 source talk
 - I1 ch7: 358 script strings > 336 source talk
-- I1 ch8: 380 script strings > 378 source talk
+- I1 ch8: 381 script strings > 378 source talk
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(38) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:7 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:69 (run tools/replace_bg_placeholders.py --apply)
@@ -331,7 +329,7 @@
 
 ## INFO (25)
 
-- speakers defined: 37
+- speakers defined: 38
 - overlay K: max=14 used=14 next_free=15
 - voices: refs=6982 ogg=7291 missing=0
 - I1 ch9: strings=119 source_talk=120 (gap expected)
@@ -355,5 +353,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=313 named=148 open=165 | placeholders=668 in 29 file(s)
-- labels=397 rpy=95 strings(strict=7919) tl_old=japanese:8409,russian:8436
+- labels=397 rpy=95 strings(strict=7920) tl_old=japanese:8426,russian:8453
 

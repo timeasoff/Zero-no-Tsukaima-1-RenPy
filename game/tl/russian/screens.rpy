@@ -486,3 +486,56 @@ translate russian strings:
 
     old "Return to the main menu"
     new "Вернуться в главное меню"
+
+translate russian strings:
+    old "Accesses the game menu."
+    new "Открывает меню игры."
+
+    old "Advances dialogue and activates the interface."
+    new "Продвигает диалог и активирует интерфейс."
+
+    old "Advances dialogue without selecting choices."
+    new "Продвигает диалог без выбора вариантов."
+
+    old "Calibrate"
+    new "Калибровка"
+
+    old "Escape"
+    new "Esc"
+
+    old "Hides the user interface."
+    new "Скрывает пользовательский интерфейс."
+
+    old "Left Trigger\nLeft Shoulder"
+    new "Левый триггер\nЛевое плечо"
+
+    old "Mouse Wheel Down"
+    new "Колесо мыши вниз"
+
+    old "Mouse Wheel Up"
+    new "Колесо мыши вверх"
+
+    old "Opens the accessibility menu."
+    new "Открывает меню доступности."
+
+    old "Right Shoulder"
+    new "Правое плечо"
+
+    old "Rolls back to earlier dialogue."
+    new "Возвращает к предыдущему диалогу."
+
+    old "Rolls forward to later dialogue."
+    new "Переходит к последующему диалогу."
+
+    old "Skips dialogue while held down."
+    new "Пропускает диалог, пока удерживается клавиша."
+
+    old "Takes a screenshot."
+    new "Делает снимок экрана."
+
+    old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+    new "Переключает {a=https://www.renpy.org/l/voicing}озвучивание{/a}."
+
+    old "Toggles dialogue skipping."
+    new "Переключает пропуск диалога."
+
