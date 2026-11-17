@@ -10456,7 +10456,7 @@ translate russian strings:
     new "Ты клянёшься Пентагону, владыке пяти сил. Даруй благословение сему существу и сделай его моим подручным… Ну, вроде того."
 
     old "And then you bestow the oath's kiss upon the familiar…"
-    new "И затем ты даруешь подручному поцелуй клятвы…"
+    new "И затем ты даруешь фамильяру поцелуй клятвы…"
 
     old "A-a kiss!?"
     new "П-поцелуй!?"
@@ -10477,7 +10477,7 @@ translate russian strings:
     new "А, нет, это, ну…"
 
     old "Th-that was an accident. It was necessary for the familiar ritual."
-    new "Это был несчастный случай. Так было нужно для ритуала подручного."
+    new "Это был несчастный случай. Так было нужно для ритуала фамильяра."
 
     old "Th-that's right. I only kissed you because the ritual required it. There was nothing else to it."
     new "В-верно. Я поцеловала тебя только потому, что ритуал этого требовал. Ничего больше."
@@ -10636,7 +10636,7 @@ translate russian strings:
     new "Вот в чём дело."
 
     old "Her Majesty the Queen has commanded that Miss Vallière and her familiar be sent to the royal palace."
-    new "Её Величество Королева повелела отправить мадемуазель Вальер и её подручного в королевский дворец."
+    new "Её Величество Королева повелела отправить мадемуазель Вальер и её фамильяра в королевский дворец."
 
     old "Her Majesty — me and Saito?"
     new "Её Величество — меня и Сайто?"

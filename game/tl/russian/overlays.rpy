@@ -1,12 +1,12 @@
 translate russian strings:
     old "The Familiar Zero: The Little Devil and Spring Breeze Concerto"
-    new "Подручный бездарной Луизы: Концерт маленькой чертовки и весеннего бриза"
+    new "Фамильяр бездарной Луизы: Концерт маленькой чертовки и весеннего бриза"
 
     old "The Familiar Zero: The Little Devil and Spring Breeze Concerto (Unnoficial remaster)"
-    new "Подручный бездарной Луизы: Концерт маленькой чертовки и весеннего бриза (Неофициальный ремастер)"
+    new "Фамильяр бездарной Луизы: Концерт маленькой чертовки и весеннего бриза (Неофициальный ремастер)"
 
     old "The Familiar of Zero"
-    new "Подручный бездарной Луизы"
+    new "Фамильяр бездарной Луизы"
 
     old "My name is Louise Françoise Le Blanc de La Vallière"
     new "Моё имя — Луиза Франсуаза Ле Блан де ла Вальер"
