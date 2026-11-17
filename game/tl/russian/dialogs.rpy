@@ -2087,9 +2087,6 @@ translate russian strings:
     old "Ah well, it's fine."
     new "Ладно, не суть важно."
 
-    old "Let's see, let's see?"
-    new "Ну-ка, ну-ка?"
-
     old "What the heck is this? I can't make out a single word of what's written here."
     new "Что это? Вообще ничего не могу прочитать."
 
@@ -16104,7 +16101,7 @@ translate russian strings:
     new "Фух, ноги стали как ватные…"
 
     old "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
-    new "С возвращением, мадемуазель Валлиер, Сайто. Как прошли расспросы?"
+    new "С возвращением, мадемуазель Вальер, Сайто-сан. Как прошли расспросы?"
 
     old "Absolutely terrible. We didn't find a single clue.{#ch6_s_002}"
     new "Ужасно. Мы не нашли ни единой зацепки."
@@ -16271,8 +16268,8 @@ translate russian strings:
     old "This series of bombings follows a certain pattern. Everyone, look at this map.{#ch6_h_009}"
     new "В этой серии взрывов прослеживается определённая закономерность. Все посмотрите на эту карту."
 
-    old "This is a map of Tristain, isn't it?{#ch6_l_018}"
-    new "Это ведь карта Тристейна?"
+    old "This is a map of Tristania, isn't it?{#ch6_l_018}"
+    new "Это ведь карта Тристании?"
 
     old "Yes. This central area is the royal palace, and these marks show the sites of the bombings.{#ch6_h_010}"
     new "Да. В центре находится королевский дворец, а эти отметки показывают места взрывов."
@@ -16551,10 +16548,10 @@ translate russian strings:
     new "Вот как? Но всё же стоит допросить её, на всякий случай…"
 
     old "Oh, but I have to go to the Duke of Vallière's estate on my husband's business.{#ch6_h_033}"
-    new "Но мне нужно отправиться по делу мужа в поместье герцога Валлиера."
+    new "Но мне нужно отправиться по делу мужа в поместье герцога де Ла Вальера."
 
     old "The Duke of Vallière's estate? Hmm… In that case, perhaps I will ask at the duke's residence later.{#ch6_unk_006}"
-    new "В поместье герцога Валлиера? Хм… Тогда, пожалуй, позже наведаюсь туда с вопросами."
+    new "В поместье герцога де Ла Вальера? Хм… Тогда, пожалуй, позже наведаюсь туда с вопросами."
 
     old "Then, if you will excuse us!{#ch6_s_049}"
     new "Тогда позвольте откланяться!"

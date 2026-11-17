@@ -218,7 +218,7 @@ label ch6_s349:
     h "This series of bombings follows a certain pattern. Everyone, look at this map.{#ch6_h_009}"
     # JA[742]: 今回の一連の爆破事件には、 ある法則があります。 皆さん、この地図を見てください。
     voice "ch6_l_018"
-    l "This is a map of Tristain, isn't it?{#ch6_l_018}"
+    l "This is a map of Tristania, isn't it?{#ch6_l_018}"
     # JA[7314]: これは……トリスタニアの地図、ですね。
     voice "ch6_h_010"
     h "Yes. This central area is the royal palace, and these marks show the sites of the bombings.{#ch6_h_010}"

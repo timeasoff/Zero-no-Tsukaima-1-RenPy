@@ -2091,9 +2091,6 @@ translate japanese strings:
     old "Ah well, it's fine."
     new "ま、いいか。"
 
-    old "Let's see, let's see?"
-    new "どれどれ?"
-
     old "What the heck is this? I can't make out a single word of what's written here."
     new "なんだ、これ?なにが書いてあるのか、さっぱり分からねえ。"
 
@@ -16311,7 +16308,7 @@ translate japanese strings:
 ある法則があります。
 皆さん、この地図を見てください。"
 
-    old "This is a map of Tristain, isn't it?{#ch6_l_018}"
+    old "This is a map of Tristania, isn't it?{#ch6_l_018}"
     new "これは……トリスタニアの地図、ですね。"
 
     old "Yes. This central area is the royal palace, and these marks show the sites of the bombings.{#ch6_h_010}"

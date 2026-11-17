@@ -594,12 +594,6 @@ translate russian strings:
     old "But Louise seems to be enjoying class today. Did something fun happen?"
     new "Но сегодня Луиза явно радуется уроку. Неужели случилось что-то приятное?"
 
-    old "Now then, what should I do...?"
-    new "Ну и что же мне теперь делать…?"
-
-    old "But how am I supposed to be careful, I wonder?"
-    new "Но как бы мне поостерегаться-то…?"
-
     old "Zero reaction, huh... Now's not the time to back down."
     new "Реакции ноль… Так, сейчас не время отступать."
 

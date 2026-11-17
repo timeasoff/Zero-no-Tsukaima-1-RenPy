@@ -29,7 +29,7 @@ label ch6_3:
             # части 3 главы 7 (script-ch7_3.rpy).
             jump ch7
 
-    $ jump ch6_3_s1164
+    jump ch6_3_s1164
 
 label ch6_3_s1164:
     # Source scene 1164 (src L1165-1261): gate of the inn, night stroll to town,

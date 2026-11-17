@@ -599,12 +599,6 @@ translate japanese strings:
     old "But Louise seems to be enjoying class today. Did something fun happen?"
     new "（けど、今日のルイズはずいぶん楽しそうに授業を受けてるな。なんか、楽しいことでもあったのか？）"
 
-    old "Now then, what should I do...?"
-    new "（さてと、どうしよう……）"
-
-    old "But how am I supposed to be careful, I wonder?"
-    new "（でも、どう気をつければいいんだろ）"
-
     old "Zero reaction, huh... Now's not the time to back down."
     new "（反応ゼロか……。　って、ひるんでる場合じゃないよな）"
 

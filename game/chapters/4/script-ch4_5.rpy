@@ -15,7 +15,7 @@
 #   msgon/msgoff, waitAction, vibrate (AGENTS §6).
 # Симпатия (3 вызова update_sympathy): 257 louise +10, 258 henrietta −30,
 #   259 henrietta +30 (257), louise −10 (258).
-# Спрайты: h-пул 764/766/768/770/801 (h 1/h 1 happy/h 1 sad/h 1 angry/h 1 shy)
+# Спрайты: h-пул 764/766/768/770/801 (h 1/h 1 happy/h 1 angry/h 1 sad/h 1 shy)
 #   из карты; s-пул 401/403/405/407 (s 2/s 2 happy/s 2 angry/s 2 sad),
 #   434/436/438/440 (s 4/s 4 happy/s 4 angry/s 4 sad),
 #   302/304/306/308 (l 1/l 1 happy/l 1 angry/l 1 sad),
@@ -204,7 +204,7 @@ label ch4_5:
     voice "ch4.5_h_014"
     h "However, given the circumstances, I must forbid you to make it public that she came from another world."
 
-    $ show_sprites(("s 2", "h 1 angry"))
+    $ show_sprites(("s 2", "h 1 sad"))
 
     voice "ch4.5_h_015"
     h "There is a risk she may be exploited by those who harbor dark conspiracies."
@@ -277,7 +277,7 @@ label ch4_5:
     voice "ch4.5_h_020"
     h "No. This is the first I have heard of Miss Haruna."
 
-    $ show_sprites(("s 2", "h 1 angry"))
+    $ show_sprites(("s 2", "h 1 sad"))
 
     voice "ch4.5_h_021"
     h "What I am about to tell you is, in a sense, a grave problem."
@@ -338,7 +338,7 @@ label ch4_5:
     l "Yes — the other day the academy was attacked too, by someone who looked like the Bomb User."
 
     # [lay8 +770 (h 1 angry) dir=1A]
-    $ show_sprites(("s 2", "h 1 angry"))
+    $ show_sprites(("s 2", "h 1 sad"))
 
     voice "ch4.5_h_026"
     h "Is that so… Louise, did you see who that person was?"
@@ -373,7 +373,7 @@ label ch4_5:
     voice "ch4.5_h_029"
     h "That's right. The gist of it is as the familiar says."
 
-    $ show_sprites(("s 2", "h 1 angry"))
+    $ show_sprites(("s 2", "h 1 sad"))
 
     voice "ch4.5_h_030"
     h "The characteristics of the culprit are that they are relatively small and agile, and that they wore a robe draped over their entire head."
@@ -403,7 +403,7 @@ label ch4_5:
     voice "ch4.5_s_008"
     s "Hmm-hmm."
 
-    $ show_sprites(("s 2", "h 1 angry"))
+    $ show_sprites(("s 2", "h 1 sad"))
 
     voice "ch4.5_h_034"
     h "There are two characteristics for identifying the culprit. One is 'explosions.' And if it is a woman, then 'the girl with no chest.'"
@@ -507,7 +507,7 @@ label ch4_5_258:
     $ update_sympathy(-10, char_key="louise")
     $ tndl(-30)
 
-    $ show_sprites(("h 1 angry", "l 1 angry"))
+    $ show_sprites(("h 1 sad", "l 1 angry"))
 
     voice "ch4.5_h_038"
     h "Louise, calm down. I believe in you."
@@ -559,7 +559,7 @@ label ch4_5_260:
     voice "ch4.5_l_026"
     l "As the third daughter of the House of La Vallière, Louise Françoise will bring the Bomb User before Your Majesty, in the name of the nobility."
 
-    $ show_sprites(("s 2 happy", "h 1 angry"))
+    $ show_sprites(("s 2 happy", "h 1 sad"))
 
     voice "ch4.5_h_041"
     h "If this were truly the case, I would not wish to entrust such a dangerous task to my friend Louise…"
@@ -620,7 +620,7 @@ label ch4_5_260:
     voice "ch4.5_l_030"
     l "……!?"
 
-    $ show_sprites(("s 2 angry", "h 1 angry"))
+    $ show_sprites(("s 2 angry", "h 1 sad"))
 
     voice "ch4.5_h_045"
     h "Louise. Promise me you won't do anything reckless."
@@ -636,12 +636,12 @@ label ch4_5_260:
     s "Derflinger, from here on it's our turn."
 
     # [SE se0 play=+65] — SE не портируется
-    $ show_sprites(("s 4 angry", "d 1"))
+    $ show_sprites(("s 8 angry", "d 1"))
 
     voice "ch4.5_d_001"
     d "You called, partner! Don't let your guard down, yeah?"
 
-    $ show_sprites(("s 4 angry",))
+    $ show_sprites(("s 2 angry",))
 
     voice "ch4.5_s_022"
     s "Louise, this way!"
