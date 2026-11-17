@@ -4941,3 +4941,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: заглушки `id(K)` для фонов/CG; `VIBRATE` → `shake_fx(duration=0.8)`; говорящие `mage`, `d`, `w` уже определены в `characters.rpy`.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_1 --lang ru/en` → OK; `audio_converter.py check` → OK (8423/8423); `omission_precheck --chapter 14_1` → 0 кандидатов.
 - отчёт: `reports/ch14/1.md`; план обновлён (глава 14 — часть 1).
+
+
+## 2026-11-18 — Глава 14: аудиты части 1 и часть 2 (extra 1485–1488)
+
+- статус: DONE (аудиты ч.1 + порт ч.2; аудиты ч.2 — отдельным проходом)
+- место: `game/tl/russian/ch14_1_dialogs.rpy`, `game/tl/russian/ch14_1_choises.rpy`, `game/chapters/14/script-ch14_2.rpy`, `game/tl/{japanese,russian}/ch14_2_dialogs.rpy`, `references/voice_id_map.csv` (+35), `reports/ch14/{1,2}.md`
+- аудиты ч.1: A (2), C (0), Analyzer Фаза 1 (1), precheck 0; Фаза 2 — 2 CONFIRMED_ERROR → FIXED (`警戒される` → «остерегается», `街道` → «Большая дорога»). Итог `reports/sma/ch14/1/analysis/20261118-003100-ch14-p1.md`.
+- PROVISIONAL: `フレイム` → Flame / Флейм (нет записи в словаре); заглушки `id(K)`; `VIBRATE` → shake_fx.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_2 --lang ru/en` → OK; `audio_converter.py check` → OK (8458/8458); `omission_precheck --chapter 14_2` → 0 кандидатов.
+- отчёты: `reports/ch14/1.md` (раздел аудитов), `reports/ch14/2.md`.
