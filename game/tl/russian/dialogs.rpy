@@ -17424,7 +17424,7 @@ translate russian strings:
     new "К чему мне врать? Можешь хоть у Её Величества самой проверить."
 
     old "How could you keep something that important to yourself!? Is it that you think I can't be relied on?{#ch7_l_007}"
-    new "Как можно молчать о таком важном!? Или я тебе не опора? Ты считаешь, мне нельзя доверять?"
+    new "Как можно молчать о таком важном!? Или я тебе не опора?"
 
     old "Calm down, Louise.{#ch7_s_004}"
     new "Успокойся, Луиза."

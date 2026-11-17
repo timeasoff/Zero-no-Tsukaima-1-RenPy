@@ -347,7 +347,7 @@ translate russian strings:
     new "Тогда пусть хоть в открытую схватку убью королеву!"
 
     old "Come then! The fangs and claws of my resentment and anger — take them into your body!! {#ch8_w_021}"
-    new "Иди же! Клыки и когти моей обиды и гнева — прими их!!"
+    new "Иди же! Клыки и когти моей обиды и гнева — прими их в своё тело!!"
 
     old "I guess we really have to fight then. {#ch8_s_106}"
     new "Видимо, действительно придётся драться."
@@ -395,7 +395,7 @@ translate russian strings:
     new "Да. Доверяю это тебе."
 
     old "Come forth, you who are not here… as though you were here. {#ch8_l_068}"
-    new "Явься, того, кого здесь нет… будто он здесь."
+    new "Явись, ты, кого здесь нет… будто ты здесь."
 
     old "Illusion!! {#ch8_l_069}"
     new "Иллюзия!!"

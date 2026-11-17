@@ -341,7 +341,7 @@ translate russian strings:
     new "А, Сайто…"
 
     old "By the way, Weatherby-san, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
-    new "Кстати, Уэзерби-сан, ты сказал, что раньше был благородным, но почему ты сейчас бродячий актер?"
+    new "Кстати, Уэзерби-сан, ты сказала, что раньше была благородной, но почему ты сейчас бродячая актриса?"
 
     old "You know what, probing into a traveling actor's past is more than a little rude.{#ch5_6_v15875}"
     new "Знаешь, пытаться разузнать прошлое бродячего актёра — это более чем невежливо."
