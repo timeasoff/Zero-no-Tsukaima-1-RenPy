@@ -4888,3 +4888,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (орфография): «побежу» → «победю» в двух репликах ( ch13_l_015, ch13_k_015 ).
 - решение (модальность): みたいだな → «Похоже»; 絶対 → «абсолютно»; 確かにそうだな → «и правда» — восстановлены оговорка, категоричность и явное согласие.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 13_1 --lang ru/en` → OK.
+
+
+## 2026-11-17 — Глава 13: часть 2 (extra-сцены 1469–1484)
+
+- статус: DONE (порт + механические фазы; аудиты — отдельным проходом)
+- место: `game/chapters/13/script-ch13_{2,3}.rpy`, `game/tl/{japanese,russian}/ch13_2_*`, `references/voice_id_map.csv` (+102), `reports/ch13/2.md`
+- решение (маршрутизация): меню `【移動】` в части 1 теперь ведёт в четыре разные точки входа `ch13_2_scene_1469/1470/1475/1480` (ранее все в `ch13_2`); исправлено и в генераторе.
+- решение (E7): создан стаб `game/chapters/14/script-ch14.rpy` с `label ch14` для форвард-джампа из части 3.
+- PROVISIONAL: говорящие `soldier`, `cat`, `informant` (коды уже есть в `characters.rpy`), заглушки `id(K)` для фонов/CG; `VIBRATE` → `shake_fx(duration=0.8)`; 5 мыслей в RU освобождены от скобок по BRACKET_THOUGHT.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 13` → OK; `check_typography.py --chapter 13_2 --lang ru/en` → OK; `audio_converter.py check` → OK; `omission_precheck --chapter 13_2` → 0 кандидатов.
+- отчёт: `reports/ch13/2.md`; план обновлён (часть 2 ✅).

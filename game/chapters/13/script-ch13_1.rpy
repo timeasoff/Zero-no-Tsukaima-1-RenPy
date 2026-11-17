@@ -953,13 +953,13 @@ label ch13_1_scene_563:
     # 【移動】城前/街道/裏通り/表通り → 1469/1470/1475/1480 (extra-сцены не портированы)
     menu:
         "In front of the castle{#ch13_1_c_563_1}":
-            jump ch13_2
+            jump ch13_2_scene_1469
         "The street{#ch13_1_c_563_2}":
-            jump ch13_2
+            jump ch13_2_scene_1470
         "The back alley{#ch13_1_c_563_3}":
-            jump ch13_2
+            jump ch13_2_scene_1475
         "The main street{#ch13_1_c_563_4}":
-            jump ch13_2
+            jump ch13_2_scene_1480
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]

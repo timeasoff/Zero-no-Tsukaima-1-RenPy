@@ -251,7 +251,8 @@ def main():
                 for i, (en_m, ru_m, ja_m) in enumerate(MOVES):
                     ctext = '%s{#ch13_1_c_563_%d}' % (en_norm(en_m), i + 1)
                     script.append('        "%s":' % ctext)
-                    script.append('            jump ch13_2')
+                    script.append('            jump ch13_2_scene_%d' %
+                                  (1469, 1470, 1475, 1480)[i])
                     ja_c += ['    old "%s"' % ctext, '    new "%s"' % ja_m, '']
                     ru_c += ['    old "%s"' % ctext, '    new "%s"' % ru_m, '']
                 script.append('')
