@@ -1,10 +1,10 @@
 # Проверка ассетов
 
-Дата: 2026-11-17 21:06
+Дата: 2026-11-17 21:43
 
 ## WARNING (1)
 
-- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 77 использованных голосов не помечены в очереди CSV (первые 10: 1204, 13228, 13229, 13230, 13231, 13232, 13233, 13234, 13235, 13236)
+- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 300 использованных голосов не помечены в очереди CSV (первые 10: 1204, 13216, 13217, 13218, 13219, 13220, 13221, 13222, 13223, 13224)
 
 ## INFO (1)
 
@@ -12,11 +12,11 @@
 
 ## Статистика
 
-- chapter_11_images: 8
-- chapter_11_voices: 77
+- chapter_11_images: 24
+- chapter_11_voices: 300
 - transcriptions_consumed_rows: 3794
 - transcriptions_queue_rows: 10450
-- voices_used_in_scope: 77
+- voices_used_in_scope: 300
 - voices_used_row_consumed: 0
-- voices_used_row_still_in_queue: 77
+- voices_used_row_still_in_queue: 300
 

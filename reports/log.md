@@ -4766,3 +4766,19 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL/??? : CG `id(297..299)` — заглушки без `filename` в `image_id_map.csv`, требуется решение человека; SPRITE-направления в комментариях по source (sprite_id_map нет).
 - проверки после записи: `check_project.py` → `RESULT: OK` (0 errors, 369 warnings, 26 info); `check_renpy_syntax.py --chapter 11` → OK; `check_typography.py --chapter 11_1/11_2 --lang ru` → OK; `check_placeholders.py --chapter 11_2` → OK (4 warning); `check_assets.py --chapter 11_2` → OK (1 warning); `audio_converter.py check --only ch11` → OK (109/109).
 - отчёты: `reports/ch11/1.md` (ревизия), `reports/ch11/2.md`; план перевода обновлён.
+
+
+## 2026-11-17 — Глава 11 (chapter_12 ハルナの決意): части 3 и 4 (сцены 478–509)
+
+- статус: DONE
+- место: `game/chapters/11/script-ch11_{3,4}.rpy`, `game/tl/{japanese,russian}/ch11_{3,4}_{dialogs,choises}.rpy`, `references/voice_id_map.csv` (+191 строка), `game/audio/voices/ch11_*.ogg` (+191), `reports/ch11/{3,4}.md`
+- что сделано: портированы ядро 478–509 (22+10 сцен): часть 3 — 149 EN-строк / 126 голосов / 4 menu (12 вариантов), часть 4 — 76 EN-строк / 65 голосов / 2 menu (6 вариантов). Всего ch11 — 300 голосов.
+- решение (резка): граница parts 3/4 по первой сильной границе после 115 голосовых — `→ next scene 500` (часть 3 = 126 голосов, 478–499; часть 4 = 65, 500–509). Стык с частью 2 (`→ next scene 478`) совпадает.
+- решение (выход): date-гейты `【デート】ハルナ → 1179` и `【デート進行】 → 510` в сценах 506–509 не портируются (контент дат — `game/chapters/extra/`, 510 — следующая глава); оставлены комментариями с `jump attention` по образцу `script-ch10_2.rpy`.
+- решение (именование голосов): сквозная нумерация `ch11_<spk>_<NNN>` продолжает части 1–2 (s 041–122, ha 032–058, l 013–062, si 016–033, k 007–013, t 001–004, w 007–042, ak 001–005); безголосые реплики получают tag, но не `voice`.
+- решение (перевод): сохранены принятые в главе 11 формы `Hiragan-kun` / `Хирага-кун`, `Weatherly-san` / `Уэзерби-сан`, `-сан/-кун`; мысли — без скобок в EN/RU, в JA — `（…）`; `レジスト` (scene 483) переведено описательно («resisting my spell»), `PROVISIONAL`.
+- PROVISIONAL/??? : CG `id(277)` (портрет в дневнике) и фон `id(43)` (5 вхождений в ch11_4) — `filename` в `image_id_map.csv` пуст, заглушки `id(K)` требуют решения человека. `id(59)` заменён на поименованный `town_square_evening` по справочнику (W6 закрыт).
+- незарегистрированные сущности: говорящие `t`, `w`, `ak`, `mage` уже определены в `game/characters.rpy`, новых define не потребовалось; BGM `t17/t18/t19/t21/t22/t26/t28/t29/t31` все на месте; SE/TRANS/SPRITE/LAYER lay0 — комментарии.
+- проверки: `check_project.py` → `RESULT: OK` (0 errors); `check_renpy_syntax.py --chapter 11` → OK; `check_typography.py --chapter 11_3/11_4 --lang ru` → OK (149 + 76 строк); `check_placeholders.py --chapter 11` → OK (только `ID_UNNAMED`); `check_assets.py --chapter 11` → OK (1 warning — CSV-очередь); `audio_converter.py convert --apply` (191, ошибок 0) и `check` → `RESULT: OK`; `omission_precheck.py --chapter 11_3/11_4` → 0 кандидатов.
+- аудиты A/C и анализатор отложены на отдельный проход по образцу главы 8 (PROVISIONAL ≠ WAIT).
+- отчёты: `reports/ch11/3.md`, `reports/ch11/4.md`; `reports/translation_plan.md` обновлён (глава 11 — ядро завершено, выход `jump attention`).

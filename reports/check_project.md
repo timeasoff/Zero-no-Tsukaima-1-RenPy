@@ -384,11 +384,11 @@
 
 - speakers defined: 37
 - overlay K: max=18 used=16 next_free=19
-- voices: refs=7357 ogg=7368 missing=0
+- voices: refs=7548 ogg=7559 missing=0
 - I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: strings=329 source_talk=492 (gap expected)
-- I1 ch11: strings=117 source_talk=618 (gap expected)
+- I1 ch11: strings=360 source_talk=618 (gap expected)
 - I1 ch12: not started (source talk=450)
 - I1 ch13: not started (source talk=396)
 - I1 ch14: not started (source talk=444)
@@ -406,6 +406,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=715 in 33 file(s)
-- labels=437 rpy=100 strings(strict=8362) tl_old=japanese:8857,russian:8884
+- image map: ids=313 named=148 open=165 | placeholders=721 in 35 file(s)
+- labels=470 rpy=101 strings(strict=8605) tl_old=japanese:9100,russian:9127
 
