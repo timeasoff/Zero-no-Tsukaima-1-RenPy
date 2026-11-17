@@ -131,8 +131,8 @@
       "translation": {
         "name": "translation",
         "title": "Перевод / редактура",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: translate-edit)",
+        "status": "done",
+        "message": "EN/RU review + A/C evidence review (all 4 parts)",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -142,8 +142,8 @@
       "semantic_audit_a": {
         "name": "semantic_audit_a",
         "title": "Семантический аудит A",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: semantic-audit-a)",
+        "status": "done",
+        "message": "A runs in reports/sma/ch14/{1,2,3,4}/a/",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -153,8 +153,8 @@
       "pragmatic_c": {
         "name": "pragmatic_c",
         "title": "Прагматический аудит C",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: pragmatic-c)",
+        "status": "done",
+        "message": "C runs in reports/sma/ch14/{1,2,3,4}/c/",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -164,8 +164,8 @@
       "analyzer_phase1": {
         "name": "analyzer_phase1",
         "title": "Analyzer: Фаза 1 (blind)",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: analyzer-phase1)",
+        "status": "done",
+        "message": "Blind phase1 in reports/sma/ch14/{1,2,3,4}/analysis/*.phase1.md",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -175,8 +175,8 @@
       "analyzer_phase2": {
         "name": "analyzer_phase2",
         "title": "Analyzer: Фаза 2 (evidence)",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: analyzer-phase2)",
+        "status": "done",
+        "message": "Phase2: p1(2), p2(6), p3(7), p4(6) FIXED",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -186,8 +186,8 @@
       "humanizer": {
         "name": "humanizer",
         "title": "Humanizer",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: humanizer)",
+        "status": "done",
+        "message": "RU machine-like patterns fixed across parts 1-4",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -197,8 +197,8 @@
       "grammar": {
         "name": "grammar",
         "title": "Грамматический контроль",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: grammar-audit)",
+        "status": "done",
+        "message": "Gender agreement (восстановила), RGC-3",
         "timestamp": null,
         "duration": null,
         "details": {
@@ -208,8 +208,8 @@
       "style": {
         "name": "style",
         "title": "Стилевой аудит",
-        "status": "pending",
-        "message": "Ожидает ручного выполнения: python tools/agent_workflow.py (промпт: style-audit)",
+        "status": "done",
+        "message": "Modality markers, interjections, register fixed",
         "timestamp": null,
         "duration": null,
         "details": {
