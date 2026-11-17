@@ -1,17 +1,17 @@
 # Голоса: конвертация
 
-Запуск: `2026-11-17 05:58`
-Команда: `python tools/media/audio_converter.py convert --apply`
+Запуск: `2026-11-17 20:22`
+Команда: `python tools/media/audio_converter.py convert --only ch11 --apply`
 Куда: `game/audio/voices`
 
 ## Итоги
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 7247 |
-| уже есть .ogg | 7126 |
-| к конвертации | 121 |
-| сконвертировано сейчас | 121 |
+| voice-строк в сценарии | 109 |
+| уже есть .ogg | 32 |
+| к конвертации | 77 |
+| сконвертировано сейчас | 77 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,131 +19,83 @@
 
 ## Сконвертировано
 
-- `ch10_c_004.ogg`
-- `ch10_h_065.ogg`
-- `ch10_h_066.ogg`
-- `ch10_h_067.ogg`
-- `ch10_h_068.ogg`
-- `ch10_h_069.ogg`
-- `ch10_h_070.ogg`
-- `ch10_h_071.ogg`
-- `ch10_h_072.ogg`
-- `ch10_h_073.ogg`
-- `ch10_h_074.ogg`
-- `ch10_h_075.ogg`
-- `ch10_h_076.ogg`
-- `ch10_h_077.ogg`
-- `ch10_h_078.ogg`
-- `ch10_h_079.ogg`
-- `ch10_h_080.ogg`
-- `ch10_h_081.ogg`
-- `ch10_h_082.ogg`
-- `ch10_h_083.ogg`
-- `ch10_h_084.ogg`
-- `ch10_h_085.ogg`
-- `ch10_h_086.ogg`
-- `ch10_h_087.ogg`
-- `ch10_h_088.ogg`
-- `ch10_h_089.ogg`
-- `ch10_h_090.ogg`
-- `ch10_h_091.ogg`
-- `ch10_h_092.ogg`
-- `ch10_h_093.ogg`
-- `ch10_h_094.ogg`
-- `ch10_h_095.ogg`
-- `ch10_h_096.ogg`
-- `ch10_h_097.ogg`
-- `ch10_h_098.ogg`
-- `ch10_h_099.ogg`
-- `ch10_h_102.ogg`
-- `ch10_h_103.ogg`
-- `ch10_h_104.ogg`
-- `ch10_h_105.ogg`
-- `ch10_k_001.ogg`
-- `ch10_l_009.ogg`
-- `ch10_l_010.ogg`
-- `ch10_l_011.ogg`
-- `ch10_l_012.ogg`
-- `ch10_l_013.ogg`
-- `ch10_l_014.ogg`
-- `ch10_l_015.ogg`
-- `ch10_l_016.ogg`
-- `ch10_l_017.ogg`
-- `ch10_l_018.ogg`
-- `ch10_m_005.ogg`
-- `ch10_o_007.ogg`
-- `ch10_o_008.ogg`
-- `ch10_o_009.ogg`
-- `ch10_o_010.ogg`
-- `ch10_o_011.ogg`
-- `ch10_s_063.ogg`
-- `ch10_s_064.ogg`
-- `ch10_s_065.ogg`
-- `ch10_s_066.ogg`
-- `ch10_s_067.ogg`
-- `ch10_s_068.ogg`
-- `ch10_s_069.ogg`
-- `ch10_s_070.ogg`
-- `ch10_s_071.ogg`
-- `ch10_s_072.ogg`
-- `ch10_s_073.ogg`
-- `ch10_s_074.ogg`
-- `ch10_s_075.ogg`
-- `ch10_s_076.ogg`
-- `ch10_s_080.ogg`
-- `ch10_s_081.ogg`
-- `ch10_s_082.ogg`
-- `ch10_s_083.ogg`
-- `ch10_s_084.ogg`
-- `ch10_s_085.ogg`
-- `ch10_s_086.ogg`
-- `ch10_s_087.ogg`
-- `ch10_s_088.ogg`
-- `ch10_s_089.ogg`
-- `ch10_s_090.ogg`
-- `ch10_s_091.ogg`
-- `ch10_s_092.ogg`
-- `ch10_s_093.ogg`
-- `ch10_s_094.ogg`
-- `ch10_s_095.ogg`
-- `ch10_s_096.ogg`
-- `ch10_s_097.ogg`
-- `ch10_s_098.ogg`
-- `ch10_s_099.ogg`
-- `ch10_s_100.ogg`
-- `ch10_s_101.ogg`
-- `ch10_s_104.ogg`
-- `ch10_s_105.ogg`
-- `ch10_s_106.ogg`
-- `ch10_s_107.ogg`
-- `ch10_s_108.ogg`
-- `ch10_s_114.ogg`
-- `ch10_s_115.ogg`
-- `ch10_s_116.ogg`
-- `ch10_s_118.ogg`
-- `ch10_si_032.ogg`
-- `ch10_si_033.ogg`
-- `ch10_si_034.ogg`
-- `ch10_si_035.ogg`
-- `ch10_si_036.ogg`
-- `ch10_si_037.ogg`
-- `ch10_si_038.ogg`
-- `ch10_si_039.ogg`
-- `ch10_si_040.ogg`
-- `ch10_si_041.ogg`
-- `ch10_si_042.ogg`
-- `ch10_w_001.ogg`
-- `ch10_w_002.ogg`
-- `ch10_w_003.ogg`
-- `ch10_w_004.ogg`
-- `ch10_w_005.ogg`
-- `ch10_w_006.ogg`
-- `ch10_w_007.ogg`
-- `ch10_w_008.ogg`
-
-## Говорящие без `define` — зарегистрировать и указать в отчёте
-
-`a`, `e`, `mer`, `un`
+- `ch11_c_001.ogg`
+- `ch11_g_001.ogg`
+- `ch11_ha_001.ogg`
+- `ch11_ha_002.ogg`
+- `ch11_ha_003.ogg`
+- `ch11_ha_004.ogg`
+- `ch11_ha_005.ogg`
+- `ch11_ha_006.ogg`
+- `ch11_ha_007.ogg`
+- `ch11_ha_008.ogg`
+- `ch11_ha_009.ogg`
+- `ch11_ha_010.ogg`
+- `ch11_ha_011.ogg`
+- `ch11_ha_012.ogg`
+- `ch11_ha_013.ogg`
+- `ch11_ha_014.ogg`
+- `ch11_ha_015.ogg`
+- `ch11_ha_016.ogg`
+- `ch11_ha_017.ogg`
+- `ch11_ha_018.ogg`
+- `ch11_ha_019.ogg`
+- `ch11_ha_020.ogg`
+- `ch11_ha_021.ogg`
+- `ch11_ha_022.ogg`
+- `ch11_ha_023.ogg`
+- `ch11_ha_024.ogg`
+- `ch11_ha_025.ogg`
+- `ch11_ha_026.ogg`
+- `ch11_ha_027.ogg`
+- `ch11_ha_028.ogg`
+- `ch11_ha_029.ogg`
+- `ch11_ha_030.ogg`
+- `ch11_ha_031.ogg`
+- `ch11_k_001.ogg`
+- `ch11_k_002.ogg`
+- `ch11_k_003.ogg`
+- `ch11_k_004.ogg`
+- `ch11_k_005.ogg`
+- `ch11_l_009.ogg`
+- `ch11_l_010.ogg`
+- `ch11_l_011.ogg`
+- `ch11_l_012.ogg`
+- `ch11_m_001.ogg`
+- `ch11_o_001.ogg`
+- `ch11_o_002.ogg`
+- `ch11_s_017.ogg`
+- `ch11_s_018.ogg`
+- `ch11_s_019.ogg`
+- `ch11_s_020.ogg`
+- `ch11_s_021.ogg`
+- `ch11_s_022.ogg`
+- `ch11_s_023.ogg`
+- `ch11_s_024.ogg`
+- `ch11_s_025.ogg`
+- `ch11_s_026.ogg`
+- `ch11_s_027.ogg`
+- `ch11_s_028.ogg`
+- `ch11_s_029.ogg`
+- `ch11_s_030.ogg`
+- `ch11_s_031.ogg`
+- `ch11_s_032.ogg`
+- `ch11_s_033.ogg`
+- `ch11_s_034.ogg`
+- `ch11_s_035.ogg`
+- `ch11_s_036.ogg`
+- `ch11_s_037.ogg`
+- `ch11_s_038.ogg`
+- `ch11_s_039.ogg`
+- `ch11_si_013.ogg`
+- `ch11_si_014.ogg`
+- `ch11_si_015.ogg`
+- `ch11_w_001.ogg`
+- `ch11_w_002.ogg`
+- `ch11_w_003.ogg`
+- `ch11_w_004.ogg`
+- `ch11_w_005.ogg`
+- `ch11_w_006.ogg`
 
 ## Неразобранные файлы wav_source
 

@@ -4753,3 +4753,16 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решений/сомнений: переходы в 【移動】 (929/588/852/489) — TODO на уровне структуры порта (472+); спрайты в 467–471 показаны в комментариях по dir, sprite_id_map — PROVISIONAL.
 - проверки после записи: `check_project.py` → `RESULT: OK` (0 errors, 363 warnings, 26 info); `check_renpy_syntax.py --chapter 11` → OK; `check_typography.py --chapter 11_1 --lang ru` → OK (0 errors, после правки `...`→`…`); `check_placeholders.py` → OK; `check_assets.py` → OK (1 warning — 32 голоса не помечены в transcriptions_ja_ru.csv); `audio_converter.py check --only ch11` → OK.
 - отчёт: `reports/ch11/1.md`; `reports/translation_plan.md` обновлён (глава 11 ⚠️ — часть 1 ✅).
+
+
+## 2026-11-17 — Глава 11 (chapter_12 ハルナの決意): часть 2 + ревизия части 1
+
+- статус: DONE
+- место: `game/chapters/11/script-ch11_2.rpy`, `script-ch11_3.rpy` (стаб), `game/tl/{japanese,russian}/ch11_2_{dialogs,choises}.rpy`, `references/voice_id_map.csv`, `game/audio/voices/ch11_*.ogg`, `reports/ch11/{1,2}.md`
+- что сделано: портированы сцены 472–477 (81 диалоговая строка: 77 голосовых + 4 мысли, 3 menu-choice); EN-база в сценарии, JA/RU в `tl/`; 77 voice rows в манифест, 77 `.ogg` конвертированы; всего ch11 — 109 голосов.
+- **решение пользователя (мыслям)**: скобки `（…）` остаются **только в JA**; в EN и RU мысли пишутся без скобок. Формат ch10_1/ch10_2 (`s "(…)"`, `_(…)_`) **не является эталоном** и на ch11 не распространяется. Правило: `PROMTS.md` п.8 / скилл `tl-en-ru` п.8.
+- ревизия части 1: EN `Site`→`Saito`; RU `Сайт`→`Сайто`; сняты 31 префикс говорящего в RU `new`; EN/RU-мысль без скобок; `old` в JA/RU TL синхронизированы.
+- решение (именование голосов part 2): speaker-коды сверены с `game/characters.rpy` (`s`=Saito, `l`=Louise, `ha`=Haruna, `si`=Siesta, `k`=Kirche, `t`=Tabitha, `m`=Montmorency, `c`=Colbert, `g`=Guiche, `o`=Osmond, `w`=Weatherby). 13238 → `ch11_s_039`, 2589 → `ch11_ha_031`, 2588 → `ch11_ha_030`.
+- PROVISIONAL/??? : CG `id(297..299)` — заглушки без `filename` в `image_id_map.csv`, требуется решение человека; SPRITE-направления в комментариях по source (sprite_id_map нет).
+- проверки после записи: `check_project.py` → `RESULT: OK` (0 errors, 369 warnings, 26 info); `check_renpy_syntax.py --chapter 11` → OK; `check_typography.py --chapter 11_1/11_2 --lang ru` → OK; `check_placeholders.py --chapter 11_2` → OK (4 warning); `check_assets.py --chapter 11_2` → OK (1 warning); `audio_converter.py check --only ch11` → OK (109/109).
+- отчёты: `reports/ch11/1.md` (ревизия), `reports/ch11/2.md`; план перевода обновлён.

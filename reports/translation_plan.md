@@ -464,30 +464,28 @@ extra-блок 1063/1084–1103.
 
 ## 📊 Глава 11 — `chapter_12` (ハルナの決意) ⚠️
 
-**Статус:** ⚠️ Начата (часть 1 завершена).**
+**Статус:** ⚠️ В работе (части 1–2 завершены).**
 
-- [x] `chapters/11/` — папка создана, `script-ch11_1.rpy` + заглушка `script-ch11_2.rpy`
-- [ ] Источник: `ps2_source/chapters/chapter_12_ハルナの決意.txt` (43 ядра + 44 extra, 550 голосовых)
-- [ ] Сцены: 467–509 (ядро)
-- [ ] Требуется создать **4 части** (550 ÷ 115 ≈ 4.8)
-- [ ] Вход: `jump ch11` из главы 10
+- [x] `chapters/11/` — папка создана, `script-ch11_1.rpy`, `script-ch11_2.rpy`, `script-ch11_3.rpy` (стаб)
+- [x] Источник: `ps2_source/chapters/chapter_12_ハルナの決意.txt` (43 ядра + 44 extra, 550 голосовых)
+- [x] Сцены: 467–477 портированы (ядро 467–509)
+- [ ] Требуется создать ещё **2 части** (478–509)
+- [x] Вход: `jump ch11` из главы 10
 - [ ] Выход: `jump attention` (последняя часть)
-- [x] `ch11_1.rpy` — scenes 467–471 (32 голоса, EN/RU, голоса, проверки — OK)
-  - [x] EN-база в сценарии (32 строки)
-  - [x] Голоса в `references/voice_id_map.csv` (ch11_si_001..012, ch11_s_001..012, ch11_l_001..008)
-  - [x] `.ogg` конвертированы (`audio_converter.py convert --apply`)
-  - [x] `tl/japanese/ch11_1_dialogs.rpy` + `ch11_1_overlays.rpy` (32 + 1 old/new)
-  - [x] `tl/russian/ch11_1_dialogs.rpy` + `ch11_1_overlays.rpy` (32 + 1 old/new, типографика OK)
+- [x] `ch11_1.rpy` — scenes 467–471 (32 голоса, EN/RU, проверки — OK, ревизия 2026-11-17: Saito/Сайто, без префиксов и скобок в EN/RU)
+  - [x] EN-база, JA/RU `tl`, голоса в манифесте, `.ogg`, отчёт `reports/ch11/1.md`
+- [x] `ch11_2.rpy` — scenes 472–477 ✅ (81 реплика / 77 голосов + 3 menu)
+  - [x] EN-база в сценарии (81 строка)
+  - [x] Голоса в `references/voice_id_map.csv` (77 rows, всего ch11 — 109)
+  - [x] `.ogg` конвертированы (77, `audio_converter.py check` → 109/109 OK)
+  - [x] `tl/japanese/ch11_2_{dialogs,choises}.rpy` (81 + 3 old/new)
+  - [x] `tl/russian/ch11_2_{dialogs,choises}.rpy` (81 + 3 old/new, типографика OK)
   - [x] Пройдены все `project-checks` — RESULT: OK (0 ошибок)
-  - [x] Отчёт: `reports/ch11/1.md`
-- [ ] `ch11_2.rpy` — scenes 472–~489 (заглушка создана)
-- [ ] `ch11_3.rpy` — scenes ~489–~500
-- [ ] `ch11_4.rpy` — scenes ~500–~509
+  - [x] Отчёт: `reports/ch11/2.md`
+- [ ] `ch11_3.rpy` — scenes 478+ (стаб создан)
+- [ ] `ch11_4.rpy` — scenes ~500–509
 - [ ] Даты (44 extra scenes) — в `game/chapters/extra/`
-- [ ] Голоса: `ch11_*` (остаток)
-- [ ] Перевод EN/RU: в `tl/{japanese,russian}/`
 - [ ] Пройдены все `project-checks` — к завершении
-
 ---
 
 ## 📊 Глава 12 — `chapter_13` (もう一人のハルナ) ❌

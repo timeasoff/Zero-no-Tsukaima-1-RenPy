@@ -1,10 +1,10 @@
 # translate japanese strings:
 # (ch11_1: scenes 467-471, 32 dialogue lines)
-    old "Good morning, Site-san, Miss Varière!{#ch11_si_001}"
+    old "Good morning, Saito-san, Miss Varière!{#ch11_si_001}"
     new "シエスタ：サイトさん、ミス・ヴァリエール。おはようございます！"
     old "Ugh, what? It's not even morning yet.{#ch11_s_001}"
     new "サイト：ううっ、なんだ？まだ起きる時間じゃないのに。"
-    old "What is it, really? Site…… get out already……{#ch11_l_001}"
+    old "What is it, really? Saito…… get out already……{#ch11_l_001}"
     new "ルイズ：なによぉ？いったい。サイト……早く出てよ……。"
     old "Yeah, yeah…….{#ch11_s_002}"
     new "サイト：へいへい……。"
@@ -62,5 +62,5 @@
     new "ルイズ：わたしも探しに行くわ！"
     old "O-okay, okay! / I'll go look too.{#ch11_s_011}"
     new "サイト：わ、分かったって！ / 俺も探しにいくから。"
-    old "(As I thought, Haruna was worrying.) / (When I find Haruna, / what should I say?) / ……{#ch11_s_012}"
+    old "As I thought, Haruna was worrying. / When I find Haruna, / what should I say? / ……{#ch11_s_012}"
     new "サイト：（やっぱり春奈は悩んでたんだ） / （春奈を見つけて、俺は何て言えばいいんだろう？） / ……。"

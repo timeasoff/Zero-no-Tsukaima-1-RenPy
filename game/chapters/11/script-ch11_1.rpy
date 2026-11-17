@@ -34,7 +34,7 @@ label ch11:
     # シエスタ：サイトさん、ミス・ヴァリエール。
     # おはようございます！  [voice 15120]
     voice "ch11_si_001"
-    si "Good morning, Site-san, Miss Varière!{#ch11_si_001}"
+    si "Good morning, Saito-san, Miss Varière!{#ch11_si_001}"
     # JA[15120]: シエスタ：サイトさん、ミス・ヴァリエール。
     #   おはようございます！
     # サイト：ううっ、なんだ？
@@ -47,7 +47,7 @@ label ch11:
     # いったい。
     # サイト……早く出てよ……。  [voice 7160]
     voice "ch11_l_001"
-    l "What is it, really? Site…… get out already……{#ch11_l_001}"
+    l "What is it, really? Saito…… get out already……{#ch11_l_001}"
     # JA[7160]: ルイズ：なによぉ？ / いったい。
     #   サイト……早く出てよ……。
     # サイト：へいへい……。  [voice 13217]
@@ -230,7 +230,7 @@ label ch11:
     # サイト：（春奈を見つけて、俺は何て言えばいいんだろう？）
     # サイト：……。  [voice 13227]
     voice "ch11_s_012"
-    s "(As I thought, Haruna was worrying.) / (When I find Haruna, / what should I say?) / ……{#ch11_s_012}"
+    s "As I thought, Haruna was worrying. / When I find Haruna, / what should I say? / ……{#ch11_s_012}"
     # JA[13227]: サイト：（やっぱり春奈は悩んでたんだ） / （春奈を見つけて、俺は何て言えばいいんだろう？） / ……。
     #  → jump ch11_2 (scene 472 — поиск, ハルナ発見)
 
