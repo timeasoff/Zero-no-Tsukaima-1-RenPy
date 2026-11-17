@@ -14821,7 +14821,7 @@ translate russian strings:
 
 translate russian strings:
     old "Before we break, there's one thing to say. Mademoiselle Vallière!"
-    new "Перед перерывом у меня к вам разговор. мадемуазель Вальер!"
+    new "Перед перерывом у меня к вам разговор. Мадемуазель Вальер!"
 
 translate russian strings:
     old "What now! More acting lessons?!"
@@ -15021,7 +15021,7 @@ translate russian strings:
 
 translate russian strings:
     old "I understand it's an emergency, but will you do something about the way you call me?"
-    new "Я понимаю, что срочно, но не почините ли вы наконец, как вы меня называете?"
+    new "Я понимаю, что срочно, но не могли бы вы наконец перестать называть меня так?"
 
 translate russian strings:
     old "S-sorry!"
