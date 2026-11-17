@@ -453,8 +453,8 @@ extra-блок 1063/1084–1103.
 - [x] Выход: `jump attention` — финал части 1
 - [x] Планируемые части:
   - [x] `ch10_1.rpy` — scenes 431–446 (174 dialogue, 144 voice) ✅
-  - [ ] `ch10_2.rpy` — scenes ~446–~456
-  - [ ] `ch10_3.rpy` — scenes ~456–~466
+  - [x] `ch10_2.rpy` — scenes 451–466 (136 dialogue, 121 voice) ✅
+  - [ ] `ch10_3.rpy` — scenes 467+
   - [ ] Даты (25 extra scenes) — суб-части
 - [x] Голоса: `ch10_*` — 144 голосов, манифест voice_id_map.csv, .ogg конвертированы
 - [x] Перевод EN/RU: в `tl/{japanese,russian}/` (выполнено)

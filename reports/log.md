@@ -4732,3 +4732,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * `check_typography.py --chapter 10 --lang ru` -> OK (0 errors; BRACKET_THOUGHT исправлено на `_…_`).
 * Отчёт: `reports/ch10/1.md`; `reports/translation_plan.md` обновлён (глава 10 — часть 1 ✅).
 
+
+## 2026-11-17 — Глава 10, часть 2 (script-ch10_2.rpy) завершена
+
+- статус: DONE
+- место: `game/chapters/10/script-ch10_2.rpy`, `game/tl/{japanese,russian}/ch10_2_{dialogs,choises}.rpy`, `references/voice_id_map.csv`, `reports/ch10_2/1.md`
+- что сделано: портированы сцены 451–466 (136 реплик, 121 голосовых) из `ps2_source/chapters/chapter_11_突然のスカウト.txt`; EN-база в сценарии, JA/RU в `tl/`; голоса ch10_si_032..042 / ch10_s_063..118 / ch10_h_065..104 / ch10_l_009..018 / ch10_o_007..011 / ch10_w_001..008 / ch10_c_004 / ch10_k_001 / ch10_m_005; 121 .ogg конвертированы.
+- решение ( голосовые имена Haruna): part 1 использовал `ch10_h_*` (голоса 2456..2518), поэтому part 2 продолжает ту же последовательность `ch10_h_065..104` (голоса 2519..2558) — префикс `ha` в именах голосов НЕ применяется, в отличие от ch9; переменная персонажа `ha` = Haruna.
+- решение (placeholder id(273)): в `references/image_id_map.csv` id 273 уже имеет `filename=ha_moon`; `dissolve_fx("id(273)")` заменён на `dissolve_fx("ha_moon")` — W6 закрыт.
+- проверки после записи: `check_project.py` → `RESULT: OK` (0 errors, 353 warnings, 26 info); `check_renpy_syntax.py --chapter 10` → OK; `check_typography.py --chapter 10_2 --lang ru` → OK; `check_placeholders.py` → OK; `check_assets.py` → OK; `audio_converter.py check` → RESULT: OK.
+- отчёт: `reports/ch10_2/1.md`, `reports/ch10_2/log.md`; план обновлён.
