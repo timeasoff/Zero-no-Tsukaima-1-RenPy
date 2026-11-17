@@ -143,7 +143,7 @@ translate russian strings:
     new "О-о-о, да вы тут уже душа в душу, а? Я уж забеспокоился — когда, думаю, моя очередь говорить наступит… аж вспотел от напряжения!"
 
     old "See, a mage and their familiar—they're one-of-a-kind partners, that's the thing. So you two getting along? That's a good thing, y'know!"
-    new "Понимаете, маг и фамилиар — они, знаете ли, партнёры единственные в своём роде. Так что когда вы ладите друг с другом — это только к лучшему, вот что я вам скажу!"
+    new "Понимаете, маг и фамильяр — они, знаете ли, партнёры единственные в своём роде. Так что когда вы ладите друг с другом — это только к лучшему, вот что я вам скажу!"
 
     old "Besides, when a noble young lady goes out of her way to dress up for her partner's sake — that's quite the gesture, y'know!"
     new "Да и потом, сама благородная девица говорит, что хочет принарядиться ради своего напарника — это ж дорогого стоит, понимаешь!"
@@ -7252,7 +7252,7 @@ translate russian strings:
     new "Ах вы! Почему вы спите рядом с Хирага-кун!?"
 
     old "Why? It's obvious, isn't it? Saito is my familiar, so of course we'd sleep together."
-    new "Почему? Да это же очевидно. Сайто — мой фамилиар, так что спать вместе — само собой разумеется."
+    new "Почему? Да это же очевидно. Сайто — мой фамильяр, так что спать вместе — само собой разумеется."
 
     old "Th-then why is Siesta-san here!?"
     new "Т-тогда почему Сиеста-сан здесь!?"
@@ -7444,7 +7444,7 @@ translate russian strings:
     new "Наверное, всё-таки Луиза. Хотя просто потому, что Луиза — моя хозяйка. Никаких странных чувств у меня нет."
 
     old "I see. So you're putting your master first, as a familiar."
-    new "Понятно. Значит, как фамилиар, ты поставил хозяйку выше всего?"
+    new "Понятно. Значит, как фамильяр, ты поставил хозяйку выше всего?"
 
     old "Well, quite. I can't imagine a commoner like you could ever do anything with a noble like Louise."
     new "Ну да, верно. Не думаю, чтобы простолюдин вроде тебя мог что-то сделать с аристократкой Луизой."
