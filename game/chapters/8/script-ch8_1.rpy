@@ -58,8 +58,8 @@ label ch8:
     # [TRANS trans("crossfade", 1000)] → fade_fx
     # [SPRITE lay5 image=+390 dir=1A → s 1]
     $ show_sprites(("s 1"))
-    # [BGM play=+26 → t26]
-    play music t26 fadein 1.0
+    # [BGM play=+26 → t25]
+    play music t25 fadein 1.0
     # サイト：お姫さまー、失礼しますよー。  [voice 13562]
     voice "ch8_s_003"
     s "Princess, excuse me!{#ch8_s_003}"
@@ -132,8 +132,8 @@ label ch8:
             # [SPRITE lay8 image=+792 dir=1C → h 2 sad]
             # [SPRITE lay5 image=+390 dir=1A → s 1]
             $ show_sprites(("s 1", "h 2 sad"))
-            # [BGM play=+26 → t26]
-            play music t26 fadein 1.0
+            # [BGM play=+26 → t25]
+            play music t25 fadein 1.0
             # [BG stage image=+41 → id(41)]
             $ fade_fx("id(41)")
             # [SPRITE lay5 image=+396 dir=1A → s 1 sad]
@@ -169,8 +169,8 @@ label ch8:
             # [SPRITE lay8 image=+792 dir=1C → h 2 sad]
             # [SPRITE lay5 image=+390 dir=1A → s 1]
             $ show_sprites(("s 1", "h 2 sad"))
-            # [BGM play=+26 → t26]
-            play music t26 fadein 1.0
+            # [BGM play=+26 → t25]
+            play music t25 fadein 1.0
             # [BG stage image=+41 → id(41)]
             $ fade_fx("id(41)")
             # [SPRITE lay5 image=+390 dir=1A → s 1]
@@ -196,16 +196,16 @@ label ch8:
             h "Resolution…?{#ch8_h_011}"
             # JA[862]: 覚悟……。
 
-            # アンリエッタ：使い魔さん……ありがとう……。  [voice 863]
-            voice "ch8_h_012"
-            h "My familiar… thank you…{#ch8_h_012}"
-            # JA[863]: 使い魔さん……ありがとう……。
-            # [SPRITE lay5 image=+390 dir=1A → s 1]
-            $ show_sprites(("s 1", "h 2"))
             # サイト：でも、その覚悟があるなら、 / もう一度頑張れるんじゃないですか？  [voice 13572]
             voice "ch8_s_013"
             s "But if you have that resolve, / can't you try again?{#ch8_s_013}"
             # JA[13572]: でも、その覚悟があるなら、 / もう一度頑張れるんじゃないですか？
+            # [SPRITE lay5 image=+390 dir=1A → s 1]
+            $ show_sprites(("s 1", "h 2"))
+            # アンリエッタ：使い魔さん……ありがとう……。  [voice 863]
+            voice "ch8_h_012"
+            h "My familiar… thank you…{#ch8_h_012}"
+            # JA[863]: 使い魔さん……ありがとう……。
             # → next scene 409
 
         "Or, let's go to my hometown.{#ch8_c003}":
@@ -213,8 +213,8 @@ label ch8:
             # [SPRITE lay8 image=+792 dir=1C → h 2 sad]
             # [SPRITE lay5 image=+390 dir=1A → s 1]
             $ show_sprites(("s 1", "h 2 sad"))
-            # [BGM play=+26 → t26]
-            play music t26 fadein 1.0
+            # [BGM play=+26 → t25]
+            play music t25 fadein 1.0
             # [BG stage image=+41 → id(41)]
             $ fade_fx("id(41)")
             # [SPRITE lay5 image=+396 dir=1A → s 1 sad]
@@ -292,8 +292,8 @@ label ch8:
     # [SPRITE lay8 image=+792 dir=1C → h 2 sad]
     # [SPRITE lay5 image=+390 dir=1A → s 1]
     $ show_sprites(("s 1", "h 2 sad"))
-    # [BGM play=+26 → t26]
-    play music t26 fadein 1.0
+    # [BGM play=+26 → t25]
+    play music t25 fadein 1.0
     # [BG stage image=+41 → id(41)]
     $ fade_fx("id(41)")
     # アンリエッタ：う……ふ、ううっ……うっ、うっ……！  [voice 870]
@@ -322,8 +322,8 @@ label ch8:
     # JA[7407]: おはようございます、姫さま。 / お加減は……。 / って、姫さまっ！？
     # [BGM stop=1000]
     stop music fadeout 1.0
-    # [BGM play=+30 → t30]
-    play music t30 fadein 1.0
+    # [BGM play=+30 → t29]
+    play music t29 fadein 1.0
     # [SPRITE lay1 image=+302 dir=1A → l 1]
     $ show_sprites(("l 1"))
     # [SPRITE lay5 image=+429 dir=2A → s 3 sad]
@@ -380,8 +380,8 @@ label ch8:
     # [BG stage image=+41 → id(41)]
     $ fade_fx("id(41)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM play=+28 → t27]
+    play music t27 fadein 1.0
     # アンリエッタ：すう……すう……。  [voice 871]
     voice "ch8_h_020"
     h "Snore… snore…{#ch8_h_020}"
@@ -654,8 +654,8 @@ label ch8:
     # [BG stage image=+41 → id(41)]
     $ fade_fx("id(41)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM play=+22 → t22]
-    play music t22 fadein 1.0
+    # [BGM play=+22 → t21]
+    play music t21 fadein 1.0
     # [SE se0 play=+55]
     play sound se_55
     # [SPRITE lay5 image=+396 dir=1A → s 1 sad]
@@ -714,8 +714,8 @@ label ch8:
     # [EVENT_CG event image=+265 level=80]
     $ fade_fx("id(265)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM play=+16 → t16]
-    play music t16 fadein 1.0
+    # [BGM play=+16 → t15]
+    play music t15 fadein 1.0
     # アンリエッタ：う、ん……。  [voice 874]
     voice "ch8_h_023"
     h "Mm… hmm…{#ch8_h_023}"
@@ -809,8 +809,8 @@ label ch8:
             # [SPRITE lay8 image=+786 dir=1C → h 2]
             # [SPRITE lay5 image=+390 dir=1A → s 1]
             $ show_sprites(("s 1", "h 2"))
-            # [BGM play=+16 → t16]
-            play music t16 fadein 1.0
+            # [BGM play=+16 → t15]
+            play music t15 fadein 1.0
             # [BG stage image=+42 → id(42)]
             $ fade_fx("id(42)")
             # [SPRITE lay5 image=+398 dir=1A → s 1 shy]
@@ -838,8 +838,8 @@ label ch8:
             # [SPRITE lay8 image=+786 dir=1C → h 2]
             # [SPRITE lay5 image=+390 dir=1A → s 1]
             $ show_sprites(("s 1", "h 2"))
-            # [BGM play=+16 → t16]
-            play music t16 fadein 1.0
+            # [BGM play=+16 → t15]
+            play music t15 fadein 1.0
             # [BG stage image=+42 → id(42)]
             $ fade_fx("id(42)")
             # [SPRITE lay5 image=+423 dir=2A → s 3]
@@ -871,8 +871,8 @@ label ch8:
             # [SPRITE lay8 image=+786 dir=1C → h 2]
             # [SPRITE lay5 image=+390 dir=1A → s 1]
             $ show_sprites(("s 1", "h 2"))
-            # [BGM play=+16 → t16]
-            play music t16 fadein 1.0
+            # [BGM play=+16 → t15]
+            play music t15 fadein 1.0
             # [BG stage image=+42 → id(42)]
             $ fade_fx("id(42)")
             # [SPRITE lay5 image=+423 dir=2A → s 3]
@@ -900,8 +900,8 @@ label ch8:
     # [SPRITE lay8 image=+794 dir=1C → h 2 shy]
     # [SPRITE lay5 image=+429 dir=2A → s 3 sad]
     $ show_sprites(("s 3 sad", "h 2 shy"))
-    # [BGM play=+16 → t16]
-    play music t16 fadein 1.0
+    # [BGM play=+16 → t15]
+    play music t15 fadein 1.0
     # [BG stage image=+42 → id(42)]
     $ fade_fx("id(42)")
     # [SPRITE lay8 image=+786 dir=1C → h 2]

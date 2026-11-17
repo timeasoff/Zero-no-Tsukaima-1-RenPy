@@ -6,8 +6,8 @@ label ch8_2:
     # ==== SCENE 417 ====
     # [SPRITE lay8 image=+787 level=140 dir=1C → id(787)]
     $ show_sprites(("id(787)"))
-    # [BGM bgm play=+16 → t16]
-    play music t16 fadein 1.0
+    # [BGM bgm play=+16 → t15]
+    play music t15 fadein 1.0
     # [BG stage image=+42 level=200 → id(42)]
     $ fade_fx("id(42)")
     # [BGM bgm stop=1000]
@@ -20,8 +20,8 @@ label ch8_2:
     # [EVENT_CG event image=+267 level=80]
     $ dissolve_fx("id(267)", type="cg")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+22 → t22]
-    play music t22 fadein 1.0
+    # [BGM bgm play=+22 → t21]
+    play music t21 fadein 1.0
     # アンリエッタ：ちゅっ。  [voice 892]
     voice "ch8_h_041"
     h "Mwah. {#ch8_h_041}"
@@ -61,8 +61,8 @@ label ch8_2:
     # ==== SCENE 418 ==== (transition, no dialogue)
     # [SPRITE lay8 image=+787 level=140 dir=1C → id(787)]
     $ show_sprites(("id(787)"))
-    # [BGM bgm play=+16 → t16]
-    play music t16 fadein 1.0
+    # [BGM bgm play=+16 → t15]
+    play music t15 fadein 1.0
     # [BG stage image=+42 level=200 → id(42)]
     $ fade_fx("id(42)")
     # [SPRITE lay8 hide]
@@ -79,8 +79,8 @@ label ch8_2:
     # [SPRITE lay8 image=+794 level=160 dir=1C → h 2 shy]
     $ show_sprites(("s 3", "h 2 shy"))
     # [SPRITE lay5 image=+427 level=160 dir=2A → s 3]
-    # [BGM bgm play=+22 → t22]
-    play music t22 fadein 1.0
+    # [BGM bgm play=+22 → t21]
+    play music t21 fadein 1.0
     # [BG stage image=+42 level=200 → id(42)]
     $ fade_fx("id(42)")
     # ルイズ：サ～イ～ト～！！  [voice 7421]
@@ -115,8 +115,8 @@ label ch8_2:
     # [EVENT_CG event image=+213 level=80]
     $ dissolve_fx("ready_to_blow", type="cg")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+30 → t30]
-    play music t30 fadein 1.0
+    # [BGM bgm play=+30 → t29]
+    play music t29 fadein 1.0
     # ルイズ：あんたってバカは、いくら言ってきかせても見境なしにふらふらと……！  [voice 7422]
     voice "ch8_l_016"
     l "You idiot, no matter how much I tell you, you keep wandering without limit…! {#ch8_l_016}"
@@ -157,8 +157,8 @@ label ch8_2:
     # [BG stage image=+43 level=200 → id(43)]
     $ fade_fx("id(43)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+20 → t20]
-    play music t20 fadein 1.0
+    # [BGM bgm play=+20 → t19]
+    play music t19 fadein 1.0
     # [SPRITE lay1 image=+306 level=160 dir=1A → l 1]
     $ show_sprites(("l 1",))
     # ルイズ：どう、少しは反省した？  [voice 7424]
@@ -398,8 +398,8 @@ label ch8_2:
     # [BG stage image=+43 level=200 → id(43)]
     $ fade_fx("id(43)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM bgm play=+28 → t27]
+    play music t27 fadein 1.0
     # [SPRITE lay1 image=+302 level=160 dir=1A → l 1]
     $ show_sprites(("l 1",))
     # ルイズ：そんなわけで、改めて皆に手伝ってほしいの。力を貸して、お願い。  [voice 7447]
@@ -627,8 +627,8 @@ label ch8_2:
             # [SPRITE lay8 image=+775 level=160 dir=1B → h 2]
             $ show_sprites(("h 2", "s 1"))
             # [SPRITE lay5 image=+394 level=160 dir=1A → s 1]
-            # [BGM bgm play=+28 → t28]
-            play music t28 fadein 1.0
+            # [BGM bgm play=+28 → t27]
+            play music t27 fadein 1.0
             # [BG stage image=+43 level=200 → id(43)]
             $ fade_fx("id(43)")
             # [SPRITE lay5 image=+394 level=160 dir=1A → s 1]
@@ -660,8 +660,8 @@ label ch8_2:
             # [SPRITE lay8 image=+775 level=160 dir=1B → h 2]
             $ show_sprites(("h 2", "s 1"))
             # [SPRITE lay5 image=+394 level=160 dir=1A → s 1]
-            # [BGM bgm play=+28 → t28]
-            play music t28 fadein 1.0
+            # [BGM bgm play=+28 → t27]
+            play music t27 fadein 1.0
             # [BG stage image=+43 level=200 → id(43)]
             $ fade_fx("id(43)")
             # [SPRITE lay5 image=+390 level=160 dir=1A → s 1]

@@ -9,8 +9,8 @@ label ch8_3:
 
     # [SPRITE   lay8     image=+775, level=160, dir=1B]
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
-    # [BGM      bgm      play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM      bgm      play=+28 → t27]
+    play music t27 fadein 1.0
     # [BG       stage    image=+43, level=200 → id(43)]
     $ fade_fx("id(43)")
     # [BGM      bgm      stop=1000]
@@ -33,9 +33,9 @@ label ch8_3:
     $ show_sprites()
     # [SPRITE   lay1     image=+302, level=160, dir=1A]
     # [SPRITE   lay2     image=+528, level=160, dir=2A]
-    # [BGM      bgm      play=+28 → t28]
+    # [BGM      bgm      play=+28 → t27]
     $ show_sprites(("s 3", "l 1", "s 2"))
-    play music t28 fadein 1.0
+    play music t27 fadein 1.0
     # シエスタ：サイトさんが、サイトさんが……。  [voice 15176]
     voice "ch8_si_010"
     si "That's Saito, that's Saito…! {#ch8_si_010}"
@@ -100,8 +100,8 @@ label ch8_3:
     # ==== SCENE 425 ====
     # [SPRITE   lay8     image=+775, level=160, dir=1B]
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
-    # [BGM      bgm      play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM      bgm      play=+28 → t27]
+    play music t27 fadein 1.0
     # [BG       stage    image=+43, level=200 → id(43)]
     $ fade_fx("id(43)")
     # サイト：軍の人達に合流するつもりですか？  [voice 13644]
@@ -208,8 +208,8 @@ label ch8_3:
     # ==== SCENE 426 ====
     # [BG       stage    image=+43, level=200 → id(43)]
     # [TRANS trans("crossfade", 1000)]
-    # [BGM      bgm      play=+25 → t25]
-    play music t25 fadein 1.0
+    # [BGM      bgm      play=+25 → t24]
+    play music t24 fadein 1.0
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     $ show_sprites(("s 3",))
     # サイト：みんな、無事か！  [voice 13649]
@@ -279,8 +279,8 @@ label ch8_3:
     # ==== SCENE 427 ====
     # [BG       stage    image=+43, level=200 → id(43)]
     # [TRANS trans("crossfade", 1000)]
-    # [BGM      bgm      play=+25 → t25]
-    play music t25 fadein 1.0
+    # [BGM      bgm      play=+25 → t24]
+    play music t24 fadein 1.0
     # [SPRITE   lay15    image=+1114, level=160, dir=1A]  # 味方Ａ (ally A)
     # [SPRITE   lay17    image=+1114, level=160, dir=1A]  # 味方Ａ
     # 味方Ａ：陥下！ご無事で！  [voice 4278]
@@ -402,7 +402,7 @@ label ch8_3:
     # [BGM      bgm      stop=1000]
     # [EVENT_CG event    image=+139, level=80]
     # [BGM      bgm      play=+18]
-    play music t18 fadein 1.0
+    play music t17 fadein 1.0
     # ウェザリー：そうはいかない。  [voice 16166]
     voice "ch8_w_001"
     w "You won't get away with this. {#ch8_w_001}"
@@ -618,8 +618,8 @@ label ch8_3:
     # ==== SCENE 428 ====
     # [BG       stage    image=+71, level=200 → id(71)]
     # [TRANS trans("crossfade", 1000)]
-    # [BGM      bgm      play=+25 → t25]
-    play music t25 fadein 1.0
+    # [BGM      bgm      play=+25 → t24]
+    play music t24 fadein 1.0
     # [SPRITE   lay20    image=+1065, level=160, dir=1A]  # ウェザリー
     # ウェザリー：くはっ！  [voice 16187]
     voice "ch8_w_022"
@@ -651,7 +651,7 @@ label ch8_3:
     # JA[16190]: ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.
     # サイト：お姫さま、どうします？  [voice 13670]
     voice "ch8_s_117"
-    s "What should the Princess do? {#ch8_s_117}"
+    s "Princess, what will you do? {#ch8_s_117}"
     # JA[13670]: サイト：お姫さま、どうします？
     # アンリエッタ：ミス・ウェザリー。 / あなたには、自分の罪を償ってもらいます。  [voice 938]
     voice "ch8_h_086"

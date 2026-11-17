@@ -378,7 +378,7 @@ translate japanese strings:
     old "Come, no mercy for the defeated. I will not live in disgrace. Finish me with one stroke. {#ch8_w_025}"
     new "さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow."
 
-    old "What should the Princess do? {#ch8_s_117}"
+    old "Princess, what will you do? {#ch8_s_117}"
     new "お姫さま、どうします？"
 
     old "Miss Weatherby. You will pay for your sins. {#ch8_h_086}"

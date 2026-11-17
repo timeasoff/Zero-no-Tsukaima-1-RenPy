@@ -376,8 +376,8 @@ translate russian strings:
     old "Come, no mercy for the defeated. I will not live in disgrace. Finish me with one stroke. {#ch8_w_025}"
     new "Давай, пощады побеждённым нет. Я не хочу жить в позоре. Убей меня одним ударом."
 
-    old "What should the Princess do? {#ch8_s_117}"
-    new "Что должна сделать Принцесса?"
+    old "Princess, what will you do? {#ch8_s_117}"
+    new "Принцесса, что вы сделаете?"
 
     old "Miss Weatherby. You will pay for your sins. {#ch8_h_086}"
     new "Мисс Уэзерби. Вы ответите за свои грехи."

@@ -42,6 +42,7 @@ label ch9:
     # [BG stage image=+2] [TRANS trans("crossfade", 2000)]
     # [BG stage image=+12] [TRANS trans("crossfade", 1000)]
     # [BGM bgm play=+19 → t18]
+    play music t18 fadein 1.0
     $ show_sprites()
     # [SPRITE lay5 image=+423 → s 3]
     $ show_sprites(("s 3"))

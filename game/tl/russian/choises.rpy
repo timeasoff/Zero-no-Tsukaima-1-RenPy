@@ -696,7 +696,7 @@ translate russian strings:
     new "Рассказать ей историю."
 
     old "Is that a pair look?{#ch3_m1064a}"
-    new "Это парный лук, да?"
+    new "Это парный наряд, да?"
 
     old "Some skill, huh.{#ch3_m1064b}"
     new "Вот это мастерство."

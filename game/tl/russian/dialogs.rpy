@@ -9997,10 +9997,10 @@ translate russian strings:
     new "Да…"
 
     old "Is that a pair look?{#ch3.9_s_007}"
-    new "Это парный лук, да?"
+    new "Это парный наряд, да?"
 
     old "What's a 'pair look'?"
-    new "А что такое «парный лук»?"
+    new "А что такое «парный наряд»?"
 
     old "When two people wear matching clothes — same design and all — and go around together."
     new "Когда двое носят одинаковую одежду — с одним узором, — и ходят вместе."
@@ -10009,7 +10009,7 @@ translate russian strings:
     new "Как у всех учеников — форма одинаковая, правда?"
 
     old "No, no. Everyone wearing the same thing doesn't count as a pair look."
-    new "Нет-нет. Когда все носят одно и то же — это не парный лук."
+    new "Нет-нет. Когда все носят одно и то же — это не парный наряд."
 
     old "The point is that it's just the two of you."
     new "Смысл в том, что вы — только вдвоём."
@@ -12916,11 +12916,11 @@ translate russian strings:
 
 translate russian strings:
     old "I see, Tabitha. If I say I'm looking for books on Founder Brimir, she might know something."
-    new "Понятно, Табаса. Если я скажу, что ищу книги об Основателе Бримире, она, может быть, что-то знает."
+    new "Понятно, Табита. Если я скажу, что ищу книги об Основателе Бримире, она, может быть, что-то знает."
 
 translate russian strings:
     old "Well, I can't exactly tell Tabitha I'm researching the power of the Void, can I?"
-    new "Ну, я же не могу сказать Табасе, что изучаю силу Пустоты, верно?"
+    new "Ну, я же не могу сказать Табите, что изучаю силу Пустоты, верно?"
 
 translate russian strings:
     old "That's true, but never mind. Once we're back at the Academy, I'll ask her about it."
