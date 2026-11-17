@@ -13363,7 +13363,7 @@ translate russian strings:
     new "Ох ты. Этот меч разговаривает?"
 
 translate russian strings:
-    old "What an honor for a nobody like me to have your attention. My name is Delphlinger."
+    old "What an honor for a nobody like me to have your attention. My name is Derflinger."
     new "Какая честь для такого ничтожества, как я, заслужить ваше внимание. Меня зовут Дерфлингер."
 
 translate russian strings:

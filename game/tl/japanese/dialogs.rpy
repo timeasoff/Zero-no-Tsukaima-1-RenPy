@@ -13357,7 +13357,7 @@ translate japanese strings:
     new "あらあら。　この剣はしゃべるのかしら？"
 
 translate japanese strings:
-    old "What an honor for a nobody like me to have your attention. My name is Delphlinger."
+    old "What an honor for a nobody like me to have your attention. My name is Derflinger."
     new "俺っちに気をかけてくれるとは　なんとすばらしい。　デルフリンガーと申します。"
 
 translate japanese strings:

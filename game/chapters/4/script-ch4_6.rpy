@@ -1553,7 +1553,7 @@ label date_henrietta_ch4_6:
     # [lay19 +948 → d 1 shy]
     $ show_sprites(("h 2 happy", "d 1 shy", "s 6 sad"))
     voice "ch4.6_d_013"
-    d "What an honor for a nobody like me to have your attention. My name is Delphlinger."
+    d "What an honor for a nobody like me to have your attention. My name is Derflinger."
     # JA[1213]: 俺っちに気をかけてくれるとは / なんとすばらしい。 / デルフリンガーと申します。
     # [lay19 hide]
     $ show_sprites(("h 2 happy", "s 6 sad"))
