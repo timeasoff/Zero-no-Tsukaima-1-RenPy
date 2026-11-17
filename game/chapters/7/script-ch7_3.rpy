@@ -534,7 +534,7 @@ label ch7_3_s1169:
             # [lay5 +390 → s 1]
             $ show_sprites(("h 2 sad", "s 1"))
             voice "ch7.3_s_020"
-            s "You must take better care of yourself.{#ch7.3_s_020}"
+            s "Please take care of yourself.{#ch7.3_s_020}"
             # JA[9172]: 自分を大切にしてください。
             voice "ch7.3_h_013"
             h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"
@@ -724,6 +724,5 @@ label ch7_3_s1169:
     # [WAIT       waitTime(1000, true)] — не портируется
     # [COFFEE     coffee()] — не реализована → пауза
     $ pause(1.0)
-    # [移動] → next(405) — глава 9 (chapter_09) не портирована
-    # PROVISIONAL-конец главы 7: сцена 405 появится в главе 8.
-    jump attention
+    # [移動] → next(405) — сцена 405 = начало главы 8 (script-ch8_1.rpy).
+    jump ch8

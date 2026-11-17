@@ -22,7 +22,7 @@ translate japanese strings:
     old "You practiced so hard, I couldn't bring myself to call out to you.{#ch5_6_v9933}"
     new "ずいぶんと熱心だったから、\\n声をかけづらくてさ。"
 
-    old "Mm, I did slack off a bit, though.{#ch5_6_v3002}"
+    old "Mm, I did slack off quite a bit, though.{#ch5_6_v3002}"
     new "まぁ、結構練習さぼっちゃったしね。"
 
     old "Ah hah hah hah...{#ch5_6_v9934}"

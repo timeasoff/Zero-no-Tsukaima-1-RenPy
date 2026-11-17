@@ -133,7 +133,7 @@ label ch5_6:
             s "You practiced so hard, I couldn't bring myself to call out to you.{#ch5_6_v9933}"
             # JA[9933]: ずいぶんと熱心だったから、 / 声をかけづらくてさ。
             voice "ch5.6_k_004"
-            k "Mm, I did slack off a bit, though.{#ch5_6_v3002}"
+            k "Mm, I did slack off quite a bit, though.{#ch5_6_v3002}"
             # JA[3002]: まぁ、結構練習さぼっちゃったしね。
             # [lay5 +392 → s 1 happy]
             $ show_sprites(("k 2", "s 1 happy"))

@@ -177,8 +177,8 @@ translate russian strings:
     old "It'll be fine. I'll come back safely. You stay at the inn and wait. {#ch8_s_074}"
     new "Всё будет хорошо. Я вернусь невредимым. Ты оставайся в гостинице и жди."
 
-    old "Understood. Please… come back safely… {#ch8_si_009}"
-    new "Поняла. Пожалуйста… вернись невредимым…"
+    old "Understood. Please… be sure to come back to me… {#ch8_si_009}"
+    new "Поняла. Пожалуйста… обязательно вернись…"
 
     old "Yeah, I'll be fine. {#ch8_s_075}"
     new "Ага, всё будет хорошо."

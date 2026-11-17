@@ -470,7 +470,7 @@ label ch8_2:
     $ show_sprites(("si 1", "s 1"))
     # シエスタ：分かりました。必ず……戻ってきてくださいね……。  [voice 15175]
     voice "ch8_si_009"
-    si "Understood. Please… come back safely… {#ch8_si_009}"
+    si "Understood. Please… be sure to come back to me… {#ch8_si_009}"
     # JA[15175]: 分かりました。必ず……戻ってきてくださいね……。
     # [SPRITE lay5 image=+423 level=160 dir=2A → s 3]
     $ show_sprites(("si 1", "s 3"))

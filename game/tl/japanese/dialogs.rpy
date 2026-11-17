@@ -18463,7 +18463,7 @@ translate japanese strings:
     old "Princess…{#ch7.3_s_019}"
     new "お姫さま……。"
 
-    old "You must take better care of yourself.{#ch7.3_s_020}"
+    old "Please take care of yourself.{#ch7.3_s_020}"
     new "自分を大切にしてください。"
 
     old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"

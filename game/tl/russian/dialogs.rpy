@@ -6700,7 +6700,7 @@ translate russian strings:
     new "Мм! Вкусно! Как и ожидалось от Сиесты — правда вкусно."
 
     old "Thank you... I'm sure it's because you were here, Saito-san."
-    new "Спасибо… Наверное, вышло потому, что вы были рядом, Сайто-сан."
+    new "Спасибо… Уверена, всё вышло потому, что вы были рядом, Сайто-сан."
 
     old "Nah, in the end I didn't actually do anything useful. But these cookies really are good."
     new "Да нет, по сути я тут ничего полезного не сделал. Но печенье правда вкусное."
@@ -18275,7 +18275,7 @@ translate russian strings:
     old "Princess…{#ch7.3_s_019}"
     new "Принцесса…"
 
-    old "You must take better care of yourself.{#ch7.3_s_020}"
+    old "Please take care of yourself.{#ch7.3_s_020}"
     new "Пожалуйста, цените себя."
 
     old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"

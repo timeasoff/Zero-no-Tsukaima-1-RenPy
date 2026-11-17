@@ -1025,7 +1025,7 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 * портированные части: `script-ch7_1.rpy` (сцены 375-388), `script-ch7_2.rpy`
   (389-399), `script-ch7_3.rpy` (400-404 + даты 1169-1173); вход `label ch7`,
   хук из главы 6 (`script-ch6_3.rpy:29`, `:205`); выход главы 7 —
-  `jump attention` (PROVISIONAL: постдата +405 = глава 9, не портирована)
+  `jump ch8` (сцена 405 = начало главы 8; далее `ch8 → ch9 → attention`)
 
 * core scenes : 375 .. 404  (30 scenes)
 

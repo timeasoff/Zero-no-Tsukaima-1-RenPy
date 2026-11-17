@@ -177,7 +177,7 @@ translate japanese strings:
     old "It'll be fine. I'll come back safely. You stay at the inn and wait. {#ch8_s_074}"
     new "大丈夫だって。無事に帰ってくる。きみは宿屋に残って、待っててくれ。"
 
-    old "Understood. Please… come back safely… {#ch8_si_009}"
+    old "Understood. Please… be sure to come back to me… {#ch8_si_009}"
     new "分かりました。必ず……戻ってきてくださいね……。"
 
     old "Yeah, I'll be fine. {#ch8_s_075}"

@@ -763,5 +763,5 @@ label ch8_3:
     voice "ch8_h_096"
     h "But… I will not run away. I am… the queen of this country. {#ch8_h_096}"
     # JA[948]: アンリエッタ：でも……。 / わたくしはもう逃げようなんて思いません。 / わたくしは……この国の女王なのですから。
-    # → next scene 430 (chapter end → jump attention)
-    jump attention
+    # → next scene 430 = начало главы 9 (script-ch9_1.rpy).
+    jump ch9

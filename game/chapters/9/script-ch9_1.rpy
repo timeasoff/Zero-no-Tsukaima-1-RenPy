@@ -845,4 +845,3 @@ label ch9:
     # → next scene 430 — глава окончена (конец chapter 9 = chapter_10)
     # → jump attention (конец игры/главы)
     jump attention
-    return

@@ -22,8 +22,8 @@ translate russian strings:
     old "You practiced so hard, I couldn't bring myself to call out to you.{#ch5_6_v9933}"
     new "Ты так усердно практиковалась, что мне самому было неловко подходить."
 
-    old "Mm, I did slack off a bit, though.{#ch5_6_v3002}"
-    new "М-м, я кое-что пропустила, правда."
+    old "Mm, I did slack off quite a bit, though.{#ch5_6_v3002}"
+    new "М-м, я довольно много пропустила, правда."
 
     old "Ah hah hah hah...{#ch5_6_v9934}"
     new "Ха-ха-ха-ха…"

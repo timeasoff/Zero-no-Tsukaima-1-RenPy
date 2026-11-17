@@ -4893,3 +4893,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Широкая выборка по отрицаниям/количествам/вопросам: 4 исправления — `ch8_3:271` «I'll do my best» (JA 頑張ります), `ch9_1:578` «repay» (JA 報いる), `ch8_3:510` «are you all right?» (JA 無事か？ — вопрос к Харуне), `ch8_3:604` «resentment and anger, fangs and claws» (JA 無念と怒りの牙と爪) с RU.
 * Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; U+FFFD 0; валидатор отступов 0.
 
+### 2026-11-17 — Перепроверка №8 (поток управления и тональность)
+
+* **ВЫСОКИЙ приоритет:** цепочка глав была оборвана — `ch7_3.rpy:729` и `ch8_3.rpy:767` завершались `jump attention`, хотя источник имеет `→ next scene 405` и `→ next scene 430`; главы 8 и 9 были недостижимы. Исправлено на `jump ch8` и `jump ch9`; мёртвый `return` в `ch9_1.rpy:848` удалён. `references/routes.md:1028` и `reports/ch7/3.md` обновлены, PROVISIONAL снят (предыдущие аудиты ошибочно считали `jump attention` корректным).
+* Тональность (4 исправления): きっと→«Уверена» вместо «Наверное» (`ch2_7`), 結構→«quite a bit/довольно много» (`ch5_6`), てください→«Please take care of yourself» вместо «You must» (`ch7_3`), 必ず→«be sure to come back / обязательно вернись» (`ch8_2`).
+* Поток подтверждён: 83 `call` → 14 целей, везде `return`/`jump`; 0 дублей лейблов и `from _call_*`; 215 menu-тел; 18 date-лейблов; 3 fallthrough в ch6 намеренны.
+* Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0.
+
