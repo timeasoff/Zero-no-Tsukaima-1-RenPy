@@ -4865,3 +4865,15 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (прагматика/модальность): `だからね` → «так и знай!» (самоутверждение, не требование); `はずでは……` → «кажется»; `とされ` → «как говорят»; `よ、よお` → «Й-Йо»; `まったく、もう！` → «Ну и ну!». Грамматика: «чь» → «чей» (RGC-3).
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 12 --lang ru/en` → OK; `audio_converter.py check` → OK.
 - Итог: глава 12 (ядро 510–548) полностью портирована и закрыта аудитами A/C/Analyzer по всем 4 частям.
+
+
+## 2026-11-17 — Глава 13 (chapter_14 炎の予感): часть 1 (сцены 549–563)
+
+- статус: DONE (порт + механические фазы; аудиты — отдельным проходом)
+- место: `game/chapters/13/script-ch13_{1,2}.rpy`, `game/tl/{japanese,russian}/ch13_1_*`, `references/voice_id_map.csv` (+127), `reports/ch13/1.md`
+- решение (E1): стаб `script-ch13.rpy` переименован в `label ch13_stub` — точку входа `label ch13` определяет часть 1.
+- решение (【移動】): 4 варианта перемещения в extra-сцены 1469/1470/1475/1480 (не портированы) представлены меню с 4 пунктами, все ведут в `ch13_2`.
+- канон сверен: ラ・ヴァリエール → La Vallière/мисс Вальер, 使い魔 → familiar/фамильяр, 姫さま → Ваше Высочество, ダーリン → дорогой.
+- PROVISIONAL: заглушки `id(K)` для фонов/CG без `filename`; `VIBRATE` → `shake_fx(duration=0.8)`; мысли без скобок в RU (исправлено 2 строки по BRACKET_THOUGHT).
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 13` → OK; `check_typography.py --chapter 13_1 --lang ru/en` → OK; `audio_converter.py check` → OK; `omission_precheck --chapter 13_1` → 0 кандидатов.
+- отчёт: `reports/ch13/1.md`; план обновлён (глава 13 — часть 1).
