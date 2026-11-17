@@ -5080,3 +5080,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение: `精神力` → «сила духа» (не «магическая сила»); `縁起でもない` → «Не каркай»; `勘弁してくれないかな` → мягкая просьба (не приказ); `脅しているそうだ` → «говорят, грозится» + сохранено `抵抗の有無に関わらず`.
 - отчёты: `reports/sma/ch18/{3,4}/analysis/20261118-024900-phase2.md`.
 - проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 18` OK, `check_typography.py --chapter 18 --lang ru` OK.
+
+
+## 2026-11-18 — Глава 19: часть 2 (750–763)
+
+- статус: DONE (порт + механические проверки)
+- 134 реплики / 126 голосов + 1 menu; `references/voice_id_map.csv` +126 (10091); `audio_converter.py` → 126 `.ogg`.
+- PROVISIONAL: `イリュージョン` → Illusion/«Иллюзия» (новое заклинание Луизы); `おしおき` → «наказание»; заглушки `id(K)`.
+- проверки: `check_project.py` OK; `check_renpy_syntax.py --chapter 19` OK; `check_typography.py --chapter 19_2 --lang ru/en` OK; `omission_precheck --chapter 19_2` 0 кандидатов.
+- отчёт: `reports/ch19/2.md`; создан стаб `script-ch19_3.rpy` (выход `jump attention` до порта ч.3).

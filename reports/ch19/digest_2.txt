@@ -1,0 +1,417 @@
+
+=== SCENE 750 ===
+  [BG       stage    image=+17, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+28]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+126 [ルイズ] v=6475 : それじゃみんな、手筈は分かってるわね？
+  [SPRITE   lay1     x=-96, y=0]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+127 [サイト] v=11954 : まずはルイズとキュルケが屋上をめざす……。だろ？
+128 [ルイズ] v=6476 : そうね。サイトとタバサは、ある程度目立つようにしながら学院長室をめざす。
+129 [サイト] v=11955 : ウェザリー達の注意をこっちに向けるためだよな。
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+130 [ルイズ] v=6477 : そして、わたしは例の魔法を使うわ。それで、学院にいる敵を混乱させることができるはずよ。
+131 [ルイズ] v=6478 : サイトは混乱に乗じて、ウェザリーとアキナを拘束するの。
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+132 [キュルケ] v=3342 : ねぇ、例の魔法って何？
+  [SPRITE   lay1     image=+337, level=160, dir=2A]
+133 [ルイズ] v=6479 : 秘密よ。
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+134 [キュルケ] v=3343 : 何それ？
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+135 [ルイズ] v=6480 : 当然でしょ。敵を欺くにはまず味方から、よ。誰に聞かれていないとも限らないし。
+136 [ルイズ] v=6481 : わたし達も失敗はしないようにするけど、サイト達も失敗は許されないわよ。
+137 [ルイズ] v=6482 : 学院も、ハルナも、両方助けなくちゃいけないんだから。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+138 [タバサ] v=15611 : 責任重大。
+139 [サイト] v=11956 : よし、それじゃ行くぞ。
+140 [タバサ] v=15612 : うん。
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [LAYER    lay0     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  GOTO -> 751
+
+=== SCENE 751 ===
+  [BG       stage    image=+17, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+22]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+141 [ルイズ] v=6483 : あ、あの……。待って、サイト。
+142 [サイト] v=11957 : なんだよ。まだ打ち合わせてないこととか、分からないこととかあるのか？
+143 [ルイズ] v=6484 : そ、その……。あんたは大丈夫？
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+144 [サイト] v=11958 : へ？
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+145 [ルイズ] v=6485 : わ、わたしとキュルケは屋上まで行けばいいだけだし……。
+146 [ルイズ] v=6486 : 魔法さえ成功してしまえば後はどこかに隠れてればいいけど。
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+147 [ルイズ] v=6487 : あんたとタバサは、レコン・キスタの兵士やウェザリー達と戦わなくちゃいけないのよ？
+148 [ルイズ] v=6488 : 別に、タバサがいるし、デルフリンガーもあるけど……。でも……。
+  CHOICE: 俺に任せておけよ->752 | 俺ってそんなに信用されてない？->753 | ルイズ、お前の方が心配だ->754
+
+=== SCENE 752 ===
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay5     image=+436, level=160, dir=2B]
+149 [サイト] v=11959 : 心配すんな。俺に任せておけよ。
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+150 [ルイズ] v=6489 : カッコつけてて、やられるんじゃないわよ。サイトっていっつも肝心なところがヌケてるんだから……。
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+151 [ルイズ] v=6490 : ホント心配。
+  GOTO -> 755
+
+=== SCENE 753 ===
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay5     image=+438, level=160, dir=2B]
+152 [サイト] v=11960 : なんだよ、俺ってそんなに信用されてないのか？ちょっと傷つくなぁ。
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+153 [ルイズ] v=6491 : ち、違うっ……。信用してないわけじゃない、わたしはっ……。
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+717, level=160, dir=2A]
+154 [キュルケ] v=3344 : あらルイズ、もしかしてダーリンのことが心配なの？
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+155 [ルイズ] v=6492 : な、なによ……。自分の使い魔のことを心配したってバチは当たらないでしょ。
+  [SPRITE   lay6     hide]
+  GOTO -> 755
+
+=== SCENE 754 ===
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay5     image=+405, level=160, dir=1B]
+156 [サイト] v=11961 : なに言ってんだよルイズ。俺はお前の方が心配だ。
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+157 [ルイズ] v=6493 : ご、ご、ご主人様に向かって、な、なに言ってんのよ、この使い魔は！
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+717, level=160, dir=2A]
+158 [キュルケ] v=3345 : あらルイズ、ダーリンに心配されてちょっとうれしくなっちゃった？
+  [SPRITE   lay6     hide]
+  [LAYER    lay0     image=+621, level=160, dir=2A]
+159 [タバサ] v=15613 : 動揺。
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+160 [ルイズ] v=6494 : ち、違うわよ！ご主人様が、使い魔をちょっと気遣ったからって、いい気になっちゃって！
+  [LAYER    lay0     hide]
+  GOTO -> 755
+
+=== SCENE 755 ===
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+  [SPRITE   lay5     image=+436, level=160, dir=2B]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay5     image=+436, level=160, dir=2B]
+161 [サイト] v=11962 : 大丈夫だよ。きっと、なんとかなるって。
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+162 [ルイズ] v=6495 : どうしてそう適当なのよ、あんたは。いっつもそうなんだから……。
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+163 [サイト] v=11963 : そもそも俺って伝説の使い魔ガンダールヴなんだろ？
+164 [サイト] v=11964 : 一番しっくりくる武器で、おまけに敵の魔法も吸収してくれる。簡単にやられやしないって。
+  [SPRITE   lay19    image=+942, level=153, dir=1A]
+  [SPRITE   lay1     level=156]
+  [SPRITE   lay5     level=157]
+165 [デルフリンガー] v=1333 : おいおい、うれしいこと言ってくれるじゃねーか。今日は張り切っちゃうからな。
+  [SPRITE   lay19    hide]
+  [SPRITE   lay5     image=+440, level=157, dir=2B]
+166 [サイト] v=11965 : 今日はって、いつも張り切ってくれよ……。
+  [SPRITE   lay1     image=+306, level=156, dir=1A]
+167 [ルイズ] v=6496 : なによ、なによ。自分だけで何でもできるって言うの？
+  [SPRITE   lay5     image=+407, level=157, dir=1B]
+168 [サイト] v=11966 : ル、ルイズ？
+169 [ルイズ] v=6497 : あんたなんか使い魔のくせに、いつもわたしのことなんか無視して１人で突っ走って、危険な目にあって……。
+  [SPRITE   lay1     image=+310, level=156, dir=1A]
+170 [ルイズ] v=6498 : ほんと、バカなんだから！
+  GOTO -> 756
+  GOTO -> 757
+
+=== SCENE 756 ===
+  [SPRITE   lay5     image=+407, level=157, dir=1B]
+  [SPRITE   lay1     image=+310, level=156, dir=1A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay1     image=+343, level=156, dir=2A]
+171 [ルイズ] v=6499 : あんたなんか、あんたなんかっ……。
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+212, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+172 [サイト] v=11967 : わ、わぷっ！？
+173 [キュルケ] v=3346 : あらまぁ。
+174 [タバサ] v=None : ……。
+175 [サイト] v=None : （え、えっと……なんだか俺の唇にやーらかいものが当たってるんですけど）
+176 [ルイズ] v=6500 : んっ……。
+177 [サイト] v=None : （ひょっとしてこれはアレか？俺はルイズにキスされてたりしますか？）
+178 [サイト] v=11968 : え、えぇっ？おま、おまえ……。俺に、キス……！？
+179 [ルイズ] v=6501 : あ、あのっ……こ、これっ、これはっ……！か、かかかかか……勘違いしないでよっ！
+180 [ルイズ] v=6502 : あんたは、ほんとにまったくご主人様の言うことを聞かないから……。
+181 [ルイズ] v=6503 : わたしの気持ちを無視してばっかりだからっ！
+182 [ルイズ] v=6504 : ちゃんとわたしの言うこと聞くように、契約をし直しただけよ！そうよ、契約よ契約！！
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+17, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [LAYER    lay0     image=+629, level=155, dir=2A]
+  [SPRITE   lay6     image=+717, level=154, dir=2A]
+183 [タバサ] v=15614 : 契約。
+184 [キュルケ] v=3347 : 契約、ねぇ……。へぇ。
+  [LAYER    lay0     hide]
+  [SPRITE   lay1     image=+343, level=156, dir=2A]
+185 [ルイズ] v=6505 : 召喚の契約じゃないわよ。ちゃんと帰ってきなさいっていう契約なの！
+186 [キュルケ] v=3348 : ま、そういうことにしておきましょ。ね、ダーリン？
+  [SPRITE   lay6     hide]
+  [SPRITE   lay5     image=+442, level=157, dir=2B]
+187 [サイト] v=11969 : ……。
+188 [サイト] v=None : （いかん、今頃になって胸がバクバクしてきた。キスだもんなぁ）
+  [SPRITE   lay1     hide]
+  [LAYER    lay0     image=+588, level=155, dir=1A]
+189 [タバサ] v=15615 : サイト、顔が真っ赤。
+  [SPRITE   lay5     level=157]
+  [LAYER    lay0     level=155]
+  [SPRITE   lay19    image=+948, level=153, dir=1A]
+190 [デルフリンガー] v=1334 : おぅおぅ、若いねぇ相棒。だが、続きは作戦が終わってからな。
+  [SPRITE   lay19    hide]
+  [SPRITE   lay5     image=+407, level=157, dir=1B]
+191 [サイト] v=11970 : あ、あぁ。分かってる。
+  [LAYER    lay0     hide]
+  [SPRITE   lay1     image=+335, level=156, dir=2A]
+192 [ルイズ] v=6506 : い、行くわよ、キュルケ。
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+676, level=154, dir=1A]
+193 [キュルケ] v=3349 : はいはい。それじゃね、ダーリン、タバサ。後でまた会うわよ。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [BG       stage    hide]
+  GOTO -> 759
+
+=== SCENE 757 ===
+  [SPRITE   lay5     image=+407, level=157, dir=1B]
+  [SPRITE   lay1     image=+310, level=156, dir=1A]
+  [BGM      bgm      play=+22]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay1     image=+339, level=156, dir=2A]
+194 [ルイズ] v=6507 : あんたは生意気でご主人様の言うことを聞かない悪い使い魔よ！
+195 [ルイズ] v=6508 : だから、学院が元に戻って王都も助かったら！絶対あんたを再教育してやるんだから！
+  [SPRITE   lay1     image=+310, level=156, dir=1A]
+196 [ルイズ] v=6509 : だからそれまで、やられんじゃないわよ！
+  [SPRITE   lay1     image=+306, level=156, dir=1A]
+197 [ルイズ] v=6510 : いい？もしわたしの言いつけが守れなかったら、おしおきだからね！
+  [SPRITE   lay5     image=+438, level=157, dir=2B]
+198 [サイト] v=11971 : お、おぅ……。分かった。
+  [SPRITE   lay1     image=+335, level=156, dir=2A]
+199 [ルイズ] v=6511 : 分かればいいのよ。今の言葉、絶対に忘れないでよね。行こ、キュルケ。
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+715, level=154, dir=2A]
+200 [キュルケ] v=3350 : はいはい。なんていうか……ごちそうさま。
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [LAYER    lay0     image=+588, level=155, dir=1A]
+  [SPRITE   lay5     image=+401, level=157, dir=1B]
+201 [タバサ] v=15616 : サイト、わたし達も。
+202 [サイト] v=11972 : う、うん。
+  [SPRITE   lay5     hide]
+  [SPRITE   lay6     image=+676, level=154, dir=1A]
+203 [キュルケ] v=3351 : それじゃね、タバサ。
+204 [タバサ] v=15617 : （こくっ）
+  [LAYER    lay0     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [BG       stage    hide]
+  GOTO -> 759
+
+=== SCENE 758 ===
+  [BGM      bgm      play=+22]
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [BG       stage    hide]
+  GOTO -> 759
+
+=== SCENE 759 ===
+  [BG       stage    image=+20, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+28]
+  [LAYER    lay0     image=+588, level=160, dir=1A]
+  [SPRITE   lay5     image=+401, level=160, dir=1B]
+205 [タバサ] v=15618 : こっち。
+206 [サイト] v=11973 : お、おう。
+207 [サイト] v=None : （ルイズ、大丈夫かなぁ）
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+17, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+30]
+208 [キュルケ] v=3352 : ねぇルイズ？
+209 [ルイズ] v=6512 : な、なによ？
+210 [キュルケ] v=3353 : さっきのあれ……本気だったの？
+211 [ルイズ] v=6513 : え……。あれって？
+  GOTO -> 760
+  GOTO -> 761
+
+=== SCENE 760 ===
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay6     image=+717, level=160, dir=2A]
+212 [キュルケ] v=3354 : とぼけないで。さっきサイトにキス、したでしょ？
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+213 [ルイズ] v=6514 : うぐ。
+  [SPRITE   lay6     image=+678, level=160, dir=1A]
+214 [キュルケ] v=3355 : まさか貴族の、しかもヴァリエールのご令嬢様が平民にねぇ……。
+215 [キュルケ] v=3356 : まさかとは思うけど、あれ、本気でしちゃったのかしら？
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+216 [ルイズ] v=6515 : そ、そんなこと、あんたには関係ないでしょう！
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+217 [キュルケ] v=3357 : 関係あるのよねぇ。だってサイトはあたしのダーリンなんだし。
+  [SPRITE   lay1     image=+310, level=160, dir=1A]
+218 [ルイズ] v=6516 : か、勝手に決めないでよっ！
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+219 [キュルケ] v=3358 : んー、でもあなたが本気っていうなら、あたしもそれなりに考えを改めなくちゃいけないしねぇ……で、本気なの？
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+220 [ルイズ] v=6517 : あぁもう、うるさいうるさいっ！
+  GOTO -> 762
+
+=== SCENE 761 ===
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+17, level=200]
+  [SPRITE   lay6     image=+711, level=160, dir=2A]
+221 [キュルケ] v=3359 : あら、あたしはばっちり聞いてたわよ。あなたがダーリンを再教育するつもりだって宣言しちゃったこと。
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+222 [キュルケ] v=3360 : ダーリンも哀れよねぇ、ルイズみたいな凶暴なご主人様で。
+223 [キュルケ] v=3361 : どうせルイズのことだから、ダーリンを部屋から追い出したり、食事を抜いたりして虐待するんでしょうね。
+  [SPRITE   lay6     image=+682, level=160, dir=1A]
+224 [キュルケ] v=3362 : あぁ、かわいそうなダーリン……。
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+225 [ルイズ] v=6518 : な、なによ……。サイトはわたしの使い魔なんだから、どうしようとわたしの自由でしょ！
+  [SPRITE   lay6     image=+676, level=160, dir=1A]
+226 [キュルケ] v=3363 : ま、いいけどね。
+  [SPRITE   lay6     image=+684, level=160, dir=1A]
+227 [キュルケ] v=3364 : あなたがダーリンを虐待すればするほど、サイトがあたしだけのダーリンになる可能性は高くなるわけだし。
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+228 [ルイズ] v=6519 : な、なっ……！あんた、貴族のくせに平民を口説いて恥ずかしくないの？
+  [SPRITE   lay6     image=+684, level=160, dir=1A]
+229 [キュルケ] v=3365 : 別に愛に身分なんて、関係ないわ。なんなら貴族の位だってダーリンのために、取ってあげてもいいんだから。
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+230 [ルイズ] v=6520 : そ、そんなのだめ！サイトはわたしだけの使い魔なんだから、取っちゃだめぇぇっ！！
+  GOTO -> 762
+
+=== SCENE 762 ===
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+  [SPRITE   lay6     image=+709, level=160, dir=2A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+17, level=200]
+  [BGM      bgm      stop=1000]
+  [BGM      bgm      play=+18]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [SPRITE   lay11    image=+1105, level=160, dir=1A]
+231 [魔導士] v=None : ……。
+  [SPRITE   lay11    hide]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+  [SPRITE   lay6     image=+715, level=160, dir=2A]
+232 [キュルケ] v=3366 : あーあー。あなたが大騒ぎするから敵が集まってきちゃったじゃないの。
+  [SPRITE   lay1     image=+343, level=160, dir=2A]
+233 [ルイズ] v=6521 : な、なに言ってるのよ！キュルケがおかしなことを言い出したりするからでしょ！
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+234 [ルイズ] v=6522 : もういい！みんな、やってしまうんだから！
+  [SPRITE   lay6     image=+711, level=160, dir=2A]
+235 [キュルケ] v=3367 : おお、怖い怖い。
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  GOTO -> 763
+
+=== SCENE 763 ===
+  [BG       stage    image=+81, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+  [SPRITE   lay6     image=+680, level=160, dir=1A]
+  [BGM      bgm      play=+25]
+236 [ルイズ] v=6523 : なんとか、やっつけたわね。
+237 [キュルケ] v=3368 : 時間が無いみたい。早くその例の魔法ってやつを披露してくれないかしら？
+238 [ルイズ] v=6524 : 分かったわ。
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+140, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+239 [キュルケ] v=3369 : ルイズ、まだ？
+240 [ルイズ] v=6525 : 今詠唱が完了したところよ。出でよ、ここになきもの……。ここにあるように。
+  [BGM      bgm      stop=1000]
+241 [ルイズ] v=6526 : イリュージョン！！
+  [LAYER    white    image=+2, level=0]
+  [EVENT_CG event    image=+141, level=80]
+  [TRANS trans("crossfade", 0)]
+  [LAYER    white    hide]
+  [BGM      bgm      play=+5]
+242 [キュルケ] v=3370 : な……。こ、こんな！
+  [SPRITE   lay1     hide]
+  [SPRITE   lay6     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+17, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [LAYER    lay0     image=+623, level=160, dir=2A]
+  [SPRITE   lay5     image=+407, level=160, dir=1B]
+243 [タバサ] v=15619 : 成功みたい。
+244 [サイト] v=11974 : え……！？
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+141, level=80]
+  [TRANS trans("crossfade", 1000)]
+245 [サイト] v=None : （その時俺は、我が目を疑った。空に、トリステインの紋章をつけた数十隻の空中艦隊が瞬時に出現したのだ）
+246 [サイト] v=None : （ルイズの虚無の魔法は、見事に成功したのだ）
+247 [サイト] v=11975 : そうか、ルイズのやつが使うって言ってたのはこれだったのか……。
+248 [サイト] v=11976 : さすがはルイズだよ、うん。やっぱり俺のご主人様だ！
+249 [タバサ] v=15620 : わたし達も急がないと。
+250 [サイト] v=11977 : うん、学院長室はもう目の前だ。ここから一気に行くとしますか。
+  [SPRITE   lay5     hide]
+  [LAYER    lay0     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+29, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay20    image=+1065, level=160, dir=1A]
+  [SPRITE   lay21    image=+1021, level=160, dir=1A]
+251 [ウェザリー] v=16023 : な……なんだ、あの大艦隊は！いったいどこからあれほどの……。
+252 [アキナ] v=91 : そんな、情報にありません。
+253 [アキナ] v=92 : ウェザリー様、兵士達が浮き足立ってます！持ち場を離れて、逃げ惑うばかり。
+254 [ウェザリー] v=16024 : ここで混乱しては敵の思うツボよ。すぐに体制を立てなおすように伝えて。
+255 [アキナ] v=93 : はい！
+256 [ウェザリー] v=16025 : 一体誰が、こんなことを。まさか、トリスタニアが奪還されたというの？
+  [SPRITE   lay20    hide]
+  [SPRITE   lay21    hide]
+  [LAYER    lay0     image=+658, level=160, dir=3A]
+  [SPRITE   lay5     image=+471, level=160, dir=3B]
+257 [ウェザリー] v=16026 : お、おまえ達はっ……！
+258 [アキナ] v=94 : サ、サイトっ……！？
+259 [サイト] v=11978 : ウェザリー、それにアキナ。俺達の学院と、春奈を返してもらいに来たぜ。
+  GOTO -> 764
