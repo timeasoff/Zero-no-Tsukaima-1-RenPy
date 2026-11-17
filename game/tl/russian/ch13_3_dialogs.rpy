@@ -4,22 +4,22 @@
     new "Я нашёл пару мелких зацепок, но ничего важного…"
 
     old "(This might not work out. Could I even do a handstand…?){#ch13_s_101}"
-    new "Кажется, ничего не выйдет. Я же не умею стоять на голове…"
+    new "Кажется, ничего не выйдет. А умел ли я вообще встать на руки…?"
 
     old "Really, darling, don't make such a sour face.{#ch13_k_089}"
     new "Ну же, дорогой, не хмурься так."
 
-    old "Looking so helpless doesn't suit my darling.{#ch13_k_090}"
-    new "С таким беспомощным видом ты не похож на моего дорогого."
+    old "Looking so timid doesn't suit my darling.{#ch13_k_090}"
+    new "С таким робким видом ты не похож на моего дорогого."
 
     old "E-Easy for you to say…{#ch13_s_102}"
-    new "Т-Так не говори…"
+    new "Т-Даже если ты так говоришь…"
 
     old "Ugh!{#ch13_k_091}"
     new "Ну!"
 
     old "In times like this, you puff out your chest and say you can do it—even if you have to lie.{#ch13_k_092}"
-    new "В такое время нужно расправить плечи и сказать, что справишься, — даже если придётся солгать."
+    new "В такое время нужно выпятить грудь и сказать, что справишься, — даже если придётся солгать."
 
     old "That's the magic that moves you forward. Even fake cheer is still cheer.{#ch13_k_093}"
     new "Вот магия, что движет вперёд. Даже наигранная бодрость — всё равно бодрость."
@@ -31,7 +31,7 @@
     new "Давай, попробую!"
 
     old "That's my darling! I might just fall for you all over again.{#ch13_k_094}"
-    new "Вот теперь ты мой дорогой! Я снова влюблюсь в тебя."
+    new "Вот теперь ты мой дорогой! Кажется, я снова влюблюсь в тебя…"
 
     old "Please spare me.{#ch13_s_105}"
     new "Пощадите меня."
@@ -43,7 +43,7 @@
     new "Ни капли. Ведь дорогой со мной."
 
     old "That has nothing to do with it.{#ch13_s_107}"
-    new "Это совсем ни к чему."
+    new "Нет, это совсем не имеет отношения к делу."
 
     old "Oh, but it does. If you keep thinking about something, it becomes real. If you don't, nothing happens.{#ch13_k_096}"
     new "О, нет, имеет. Если постоянно думать о чём-то, оно сбывается. Не думаешь — ничего не получается."
@@ -172,7 +172,7 @@
     new "Она была так близко, что я и не подумала заподозривать."
 
     old "A spy of what?{#ch13_s_128}"
-    new "Шпион — кого?"
+    new "Шпион — чего?"
 
     old "I'm not sure, but they may be deeply involved in the bomb-thrower case.{#ch13_k_117}"
     new "Точно не знаю, но она может быть глубоко замешана в деле бомбиста."

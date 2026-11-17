@@ -1,7 +1,7 @@
 # translate russian strings:
 
     old "Anybody know anything?{#ch13_s_051}"
-    new "Кто-нибудь знает что-нибудь?"
+    new "Интересно, знает ли кто-нибудь какую-нибудь информацию…"
 
     old "Well… Let's ask that soldier over there.{#ch13_k_042}"
     new "Ну… Спросим того солдата."
@@ -19,10 +19,10 @@
     new "Мне нужно выйти по делу, но я так боюсь…"
 
     old "My heart's been pounding for a while now. Look, like this…{#ch13_k_045}"
-    new "Сердце колотится уже давно. Смотрите, вот…"
+    new "Сердце колотится с того момента, как я вошла. Смотрите, вот…"
 
     old "Hm, your heart!? That must be frightening indeed!{#ch13_soldier_002}"
-    new "Хм, сердце!? Должно быть, ужасно!"
+    new "Должно быть, это очень тревожно!"
 
     old "But don't worry! Under Her Majesty's authority, we'll catch the evildoers!{#ch13_soldier_003}"
     new "Но не волнуйтесь! Под властью Её Величества мы поймаем злоумышленников!"
@@ -34,7 +34,7 @@
     new "Т-Так, видите ли! Дело в том…!"
 
     old "(Oh boy. That soldier is getting all flustered by Kirche…){#ch13_s_053}"
-    new "Ох. Солдат совсем растерялся от Кирке…"
+    new "Солдат прямо слюни распустил от Кирке…"
 
     old "(…Hmm, is that the face I make when Kirche comes on to me…?){#ch13_s_054}"
     new "…Хм, неужели у меня такое лицо, когда Кирке меня соблазняет…?"
@@ -61,7 +61,7 @@
     new "Здесь почти никого нет."
 
     old "People are hesitant to come out too… Oh, good evening. Alone?{#ch13_k_050}"
-    new "Люди, видимо, тоже боятся выходить… О, добрый вечер. Вы один?"
+    new "Людям, видно, тоже непросто собраться…"
 
     old "(Hm? Was someone there?){#ch13_s_057}"
     new "Хм? Кто-то был?"
@@ -79,7 +79,7 @@
     new "Фумяу…"
 
     old "(Kirche… is she talking to a cat?){#ch13_s_059}"
-    new "Кирке… она разговаривает с котом?"
+    new "Кирке… неужели она разговаривает с котом?"
 
     old "(C-Cute. So this is a fantasy world!){#ch13_s_060}"
     new "М-Милый. Вот это мир фэнтези!"
@@ -136,7 +136,7 @@
     new "К-Кирке сломалась."
 
     old "W-What!? How rude!{#ch13_k_059}"
-    new "Ч-Что!? Как смело!"
+    new "Ч-Что!? Как грубо!"
 
     old "Funyaaa!!{#ch13_cat_004}"
     new "Фуняаа!!"
@@ -175,7 +175,7 @@
     new "Кирке?"
 
     old "…A noble young lady. 'Lend me one light, please.'{#ch13_informant_001}"
-    new "…Юная благородная леди. «Одного огонька, если можно»."
+    new "…Юная благородная леди. «Одолжи мне один огонёк, пожалуйста»."
 
     old "Whoa!{#ch13_s_076}"
     new "Ого!"
@@ -325,7 +325,7 @@
     new "Ой, с дорогим любая еда — лучшая в мире."
 
     old "I'm getting embarrassed…{#ch13_s_098}"
-    new "Мне становится неловко…"
+    new "Мне становится стыдно…"
 
     old "Really, darling, you're so cute!{#ch13_k_088}"
     new "Ну же, дорогой, ты такой милый!"

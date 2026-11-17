@@ -253,7 +253,7 @@ label ch13_1_scene_549:
     # [SPRITE   lay1     image=+335, level=160, dir=2A]
     # ルイズ：わ、分かったわ！
     voice "ch13_l_015"
-    l "F-Fine! If I win, you'll attend class standing on your head!{#ch13_l_015}"
+    l "F-Fine! If I win, you'll attend class doing handstands!{#ch13_l_015}"
 
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
     # ルイズ：そ、それでもいいの？
@@ -793,7 +793,7 @@ label ch13_1_scene_561:
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
     # ルイズ：見てなさい。
     voice "ch13_l_029"
-    l "Just watch. I'll win this contest and make you stand on your head for a day!{#ch13_l_029}"
+    l "Just watch. I'll win this contest and make you do handstands for a day!{#ch13_l_029}"
 
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     # サイト：な、なんですと！  [voice 12876]

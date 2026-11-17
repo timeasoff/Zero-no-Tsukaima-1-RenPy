@@ -78,7 +78,7 @@ T = {
 56: ("Oh, right on time today.", "Ой, сегодня вовремя."),
 57: ("Kirche?", "Кирке?"),
 58: ("...A noble young lady. 'Lend me one light, please.'",
-     "…Юная благородная леди. «Одного огонька, если можно»."),
+     "…Юная благородная леди. «Одолжи мне один огонёк, пожалуйста»."),
 59: ("Whoa!", "Ого!"),
 60: ("Oh, 'just one'?", "Ой, «только один»?"),
 61: ("'...Put two flames together and it becomes a blaze, you see.'",

@@ -4910,3 +4910,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `微熱のキュルケ` → «Кирке с лёгким жаром»; `『本当の火の使い方』` → «настоящее применение огня» (ключевой образ главы 炎の予感); заглушки `id(K)`; `VIBRATE` → `shake_fx(duration=0.8)`.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 13` → OK; `check_typography.py --chapter 13_3 --lang ru/en` → OK; `audio_converter.py check` → OK; `omission_precheck --chapter 13_3` → 0 кандидатов.
 - отчёт: `reports/ch13/3.md`; план обновлён (ядро 549–577 завершено).
+
+
+## 2026-11-18 — Глава 13: аудиты частей 2–3 и правки (включая handstand)
+
+- статус: DONE
+- место: `game/tl/russian/ch13_{1,2,3,4}_*`, `game/chapters/13/script-ch13_{1,3,4}.rpy`, `reports/sma/ch13/{2,3}/`
+- аудиты: A (7+5), C (2+3), Analyzer Фаза 1 (4+6), precheck 0; Фаза 2 — 9+7 CONFIRMED_ERROR → FIXED.
+- решение (важное): `逆立ち` = стойка на **руках** (handstand), не на голове; исправлено в EN/RU и синхронизированы `old` в JA/RU TL (ch13_l_015, ch13_l_029, ch13_s_101, ch13_ha_005 и др.).
+- решение (идиомы/модальность): `鼻の下のばしちゃって` → «слюни распустил»; `失礼ね` → «как грубо»; `もしかして` → «неужели»; `貸して` → «одолжи»; `できたっけ` → «а умел ли…»; `惚れ直しちゃいそう` → «кажется, влюблюсь»; `いわれても` → «даже если ты так говоришь»; `弱気` → «робкий»; `胸を張る` → «выпятить грудь».
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 13 --lang ru/en` → OK; `audio_converter.py check` → OK.

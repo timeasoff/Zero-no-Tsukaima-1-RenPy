@@ -9,7 +9,7 @@
     old "Really, darling, don't make such a sour face.{#ch13_k_089}"
     new "キュルケ：もう、ダーリンったら、そんな渋い顔しない。"
 
-    old "Looking so helpless doesn't suit my darling.{#ch13_k_090}"
+    old "Looking so timid doesn't suit my darling.{#ch13_k_090}"
     new "キュルケ：そんな弱気な顔をするなんて、あたしのダーリンらしくないわよ。"
 
     old "E-Easy for you to say…{#ch13_s_102}"

@@ -117,8 +117,8 @@
     old "Sure, fine.{#ch13_k_014}"
     new "Конечно, ладно."
 
-    old "F-Fine! If I win, you'll attend class standing on your head!{#ch13_l_015}"
-    new "Л-Ладно! Если я победю, ты будешь посещать занятия стоя на голове!"
+    old "F-Fine! If I win, you'll attend class doing handstands!{#ch13_l_015}"
+    new "Л-Ладно! Если я победю, ты будешь посещать занятия на руках!"
 
     old "Y-You're fine with that? You can still back out now, you know.{#ch13_l_016}"
     new "Т-Ты согласна? Ты ещё можешь отказаться, пока не поздно."
@@ -262,7 +262,7 @@
     new "Секрет."
 
     old "You can't do that! If we lose, it's handstands for both of us!{#ch13_s_032}"
-    new "Так не честно! Если проиграем, оба будем стоять на голове!"
+    new "Так не честно! Если проиграем, оба будем стоять на руках!"
 
     old "Goodness, don't panic. I've heard the bomb-thrower often appears at night.{#ch13_k_026}"
     new "Ну же, не паникуй. Я слышала, бомбист чаще появляется ночью."
@@ -345,8 +345,8 @@
     old "What, Saito. Don't act superior.{#ch13_l_028}"
     new "Что, Сайто. Не важничай."
 
-    old "Just watch. I'll win this contest and make you stand on your head for a day!{#ch13_l_029}"
-    new "Смотри. Я выиграю это соревнование и заставлю тебя день простоять на голове!"
+    old "Just watch. I'll win this contest and make you do handstands for a day!{#ch13_l_029}"
+    new "Смотри. Я выиграю это соревнование и заставлю тебя день простоять на руках!"
 
     old "W-What!?{#ch13_s_045}"
     new "Ч-Что!?"

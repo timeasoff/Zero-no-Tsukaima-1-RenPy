@@ -80,7 +80,7 @@ label ch13_3_scene_568:
     # [SPRITE   lay6     image=+709, level=160, dir=2A]
     # キュルケ：そんな弱気な顔をするなんて、
     voice "ch13_k_090"
-    k "Looking so helpless doesn't suit my darling.{#ch13_k_090}"
+    k "Looking so timid doesn't suit my darling.{#ch13_k_090}"
 
     menu:
         "Easy for you to say…{#ch13_3_c_568_1}":
@@ -538,7 +538,7 @@ label ch13_3_scene_577:
     # [SPRITE   lay5     hide]
     # [SPRITE   lay6     hide]
     # [BG       stage    hide]
-    # ==== КОНЕЦ ГЛАВЫ 13 ====
-    jump ch14
+    # ==== КОНЕЦ ЯДРА ГЛАВЫ 13 ====
+    jump ch13_4
     return
 

@@ -117,7 +117,7 @@
     old "Sure, fine.{#ch13_k_014}"
     new "キュルケ：ええ、いいわよ。"
 
-    old "F-Fine! If I win, you'll attend class standing on your head!{#ch13_l_015}"
+    old "F-Fine! If I win, you'll attend class doing handstands!{#ch13_l_015}"
     new "ルイズ：わ、分かったわ！わたしが勝ったら、逆立ちをして授業に出てもらうわよ。"
 
     old "Y-You're fine with that? You can still back out now, you know.{#ch13_l_016}"
@@ -345,7 +345,7 @@
     old "What, Saito. Don't act superior.{#ch13_l_028}"
     new "ルイズ：なによ、サイト。偉そうに。"
 
-    old "Just watch. I'll win this contest and make you stand on your head for a day!{#ch13_l_029}"
+    old "Just watch. I'll win this contest and make you do handstands for a day!{#ch13_l_029}"
     new "ルイズ：見てなさい。この勝負に勝利して、１日逆立ちの刑にしてあげるんだから！"
 
     old "W-What!?{#ch13_s_045}"
