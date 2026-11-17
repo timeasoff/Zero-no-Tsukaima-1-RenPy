@@ -4843,3 +4843,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `キュウコン` → «Кюкон», `タッチ` → «Тач», `冬奈` → «Фуюна», различие `あたし`/`わたし` → «атаси»/«ватаси»; `ゼロ戦` → «Зеро-файтер» (продолжение части 2).
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_3 --lang ru/en` → OK; `audio_converter.py check` → OK (7901/7901); `omission_precheck` → 1 FALSE_POSITIVE (см. выше).
 - отчёт: `reports/ch12/3.md`; план обновлён (часть 3 ✅, осталась часть 4).
+
+
+## 2026-11-17 — Глава 12 (chapter_13): часть 4 (544–548) — финал главы
+
+- статус: DONE (порт + механические фазы; аудиты частей 3–4 — отдельным проходом)
+- место: `game/chapters/12/script-ch12_4.rpy`, `game/tl/{japanese,russian}/ch12_4_*`, `game/chapters/13/script-ch13.rpy` (стаб), `references/voice_id_map.csv` (+47), `reports/ch12/4.md`
+- что сделано: сцены 544–548 (5 сцен, 61 реплика, 47 голосов, 1 menu); финал — `jump ch13`. Ядро главы 12 (510–548) портировано полностью: 400 голосов в 4 частях.
+- решение (E7): создан стаб `game/chapters/13/script-ch13.rpy` с `label ch13` → `jump attention` (порт главы 13 не начат).
+- PROVISIONAL: заглушки `id(K)` для фонов/CG без `filename`; `VIBRATE` → `shake_fx(duration=0.8)` (PROVISIONAL).
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_4 --lang ru/en` → OK; `audio_converter.py check` → OK (7948/7948); `omission_precheck --chapter 12_4` → 0 кандидатов.
+- отчёты: `reports/ch12/4.md`; план обновлён (глава 12 ✅, ядро завершено).
