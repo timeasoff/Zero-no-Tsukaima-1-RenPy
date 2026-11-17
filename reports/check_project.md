@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (334)
+## WARNING (327)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -302,15 +302,8 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
-- W2 12 ogg not referenced by any script
-- I1 ch0: 16 script strings > 15 source talk
-- I1 ch1: 1313 script strings > 1244 source talk
-- I1 ch2: 1468 script strings > 1382 source talk
-- I1 ch3: 1170 script strings > 1078 source talk
-- I1 ch4: 1143 script strings > 1072 source talk
+- W2 156 ogg not referenced by any script
 - I1 ch5: 1569 script strings > 1470 source talk
-- I1 ch6: 465 script strings > 431 source talk
-- I1 ch7: 358 script strings > 336 source talk
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:80 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:127 (run tools/replace_bg_placeholders.py --apply)
@@ -345,32 +338,11 @@
 - W6 placeholder id(1145) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(1169) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 
-## INFO (26)
+## INFO (5)
 
 - speakers defined: 37
 - overlay K: max=14 used=14 next_free=15
-- voices: refs=6983 ogg=6994 missing=0
-- I1 ch8: strings=376 source_talk=378 (gap expected)
-- I1 ch9: strings=119 source_talk=120 (gap expected)
-- I1 ch10: not started (source talk=492)
-- I1 ch11: not started (source talk=618)
-- I1 ch12: not started (source talk=450)
-- I1 ch13: not started (source talk=396)
-- I1 ch14: not started (source talk=444)
-- I1 ch15: not started (source talk=407)
-- I1 ch16: not started (source talk=138)
-- I1 ch17: not started (source talk=282)
-- I1 ch18: not started (source talk=589)
-- I1 ch19: not started (source talk=378)
-- I1 ch20: not started (source talk=162)
-- I1 ch21: not started (source talk=541)
-- I1 ch22: not started (source talk=512)
-- I1 ch23: not started (source talk=354)
-- I1 ch24: not started (source talk=133)
-- I1 ch25: not started (source talk=507)
-- I1 ch26: not started (source talk=612)
-- I1 ch27: not started (source talk=346)
-- I1 ch28: not started (source talk=206)
+- voices: refs=6983 ogg=7138 missing=0
 - image map: ids=313 named=148 open=165 | placeholders=675 in 29 file(s)
 - labels=397 rpy=95 strings(strict=7915) tl_old=japanese:8410,russian:8437
 

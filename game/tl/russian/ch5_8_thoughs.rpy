@@ -19,8 +19,8 @@ translate russian strings:
     new "……{#ch5.8_th_006}"
 
 translate russian strings:
-    old "……… …… …{#ch5.8_th_007}"
-    new "……… …… …{#ch5.8_th_007}"
+    old "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.8_th_007}"
+    new "И вот занавес поднялся. Спектакль шёл без заминок и стремительно приближался к кульминации.{#ch5.8_th_007}"
 
 translate russian strings:
     old "…….{#ch5_8_th_008}"

@@ -425,7 +425,7 @@ translate russian strings:
     new "Хм. Тогда почему ты на меня не смотришь?"
 
     old "Because I am embarrassed, obviously.{#ch5_11_v8645}"
-    new "Ну конечно, потому что тебе неловко, верно?"
+    new "Ну конечно, потому что мне неловко, верно?"
 
     old "Oh, you are embarrassed? How strange… The great Saito, embarrassed.{#ch5_11_v4745}"
     new "О, тебе неловко? Как странно… Великий Сайто смущается."

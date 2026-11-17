@@ -166,7 +166,7 @@ label ch5_8_tabitha_play:
     # ==== SCENE 1149 continuation ====
     $ fade_fx("id(90)")
     th "……… …… …{#ch5.8_th_006}"
-    th "……… …… …{#ch5.8_th_007}"
+    th "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.8_th_007}"
     $ fade_fx("id(144)", type="cg")
     play music t22 fadein 1.0
     voice "ch5.8_s_023"
