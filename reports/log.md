@@ -5059,3 +5059,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (аудиты гл.17 ч.2): `精神力` → «психическая энергия»; `誇り` → «гордость»; уточненаrole Гандальва.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 18` → OK; `check_typography.py --chapter 18_1 --lang ru/en` → OK; `audio_converter.py check` → OK (9466/9466); `omission_precheck --chapter 18_1` → 0 кандидатов.
 - отчёт: `reports/ch18/1.md`; план обновлён (часть 1 ✅).
+
+
+## 2026-11-18 — Глава 18, часть 2 (706–713) — осада академии
+
+- статус: DONE (порт + mechanically; аудиты — отдельным проходом)
+- место: `game/chapters/18/script-ch18_{2,3}.rpy`, `game/tl/{japanese,russian}/ch18_2_*`, `references/voice_id_map.csv` (+160), `reports/ch18/2.md`
+- PROVISIONAL: `オールド・オスマン` → «Old Osmond»/«старик Осман»; `マジック・アイテム` → «magic items»/«магические предметы»; заглушки `id(K)`.
+- исправление: 5 реплик сцены 713, выпавших при первом прогоне, добавлены; манифест пересобран (дубль `ch18_o_001` устранён); omission pre-check → 0 кандидатов.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 18` → OK; `check_typography.py --chapter 18_2 --lang ru/en` → OK; `audio_converter.py check` → OK (9626/9626).
+- отчёт: `reports/ch18/2.md`; план обновлён (часть 2 ✅).
