@@ -312,6 +312,18 @@ En/RU consistency всех 100 изменённых EN и 171 RU-строк по
 
 Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; `git status` — только ожидаемые 4 файла.
 
+## Перепроверка №21 (EN-грамматика и addresses)
+
+Исправлено 4:
+- `ch8_3.rpy:538`: JA「それが、破れるのですよ…分かっています」 — утверждение и **настоящее** время; было «That it can be broken, I knew… communicating» → «It can be broken, you see. I know you are giving orders…» + RU;
+- `ch5_6.rpy:668`: 煮物 = тушёные блюда, не «pickled vegetables» → «simmered dishes / тушёные блюда» (CANDIDATE из ранних rounds закрыт);
+- `ch7_3.rpy:539`: 思っている以上に = «больше, чем я осознаю», не «than I deserve» → «more than I realize»;
+- `ch8_2.rpy:193/251`: 姫さま = princess, не queen — «Her Majesty's permission» → «the Princess's permission» (2) + RU «у принцессы».
+
+EN-аудит: 130 длинных строк + 272 choice + sweep 2658 EN — 0 CJK/mojibake/scratch-текста, грамматика в норме. Слепая выборка (i%47, 36 строк) — 1 находка (姫さま); 5 коммитов rounds 17–21 — без stale TL.
+
+Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
+
 ## where I stopped
 
 - Текущая фаза: **главы 6–9 завершены** (rounds 1–14); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.

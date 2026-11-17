@@ -190,7 +190,7 @@ label ch8_2:
     $ show_sprites(("l 1", "h 2"))
     # ルイズ：ああ、そうです。実は、姫さまにご許可をいただきたいと思いまして、参りました。  [voice 7426]
     voice "ch8_l_020"
-    l "Yes. Actually, I came to ask for Her Majesty's permission. {#ch8_l_020}"
+    l "Yes. Actually, I came to ask for the Princess's permission. {#ch8_l_020}"
     # JA[7426]: ああ、そうです。実は、姫さまにご許可をいただきたいと思いまして、参りました。
     # アンリエッタ：許可？どのようなことでしょう？  [voice 896]
     voice "ch8_h_045"
@@ -248,7 +248,7 @@ label ch8_2:
     $ show_sprites(("s 1", "l 1"))
     # ルイズ：そのために、ぜひ、姫さまのご許可をいただきたいのです。  [voice 7431]
     voice "ch8_l_025"
-    l "For that, I want Her Majesty's permission. {#ch8_l_025}"
+    l "For that, I want the Princess's permission. {#ch8_l_025}"
     # JA[7431]: そのために、ぜひ、姫さまのご許可をいただきたいのです。
     # [SPRITE lay5 hide]
     $ show_sprites(("l 1",))

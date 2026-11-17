@@ -48,8 +48,8 @@ translate russian strings:
     old "So, what is it, Louise? {#ch8_h_044}"
     new "Так что случилось, Луиза?"
 
-    old "Yes. Actually, I came to ask for Her Majesty's permission. {#ch8_l_020}"
-    new "Да. Вообще-то, я пришла попросить разрешения у Её Величества."
+    old "Yes. Actually, I came to ask for the Princess's permission. {#ch8_l_020}"
+    new "Да. Вообще-то, я пришла попросить разрешения у принцессы."
 
     old "Permission? What for? {#ch8_h_045}"
     new "Разрешения? На что?"
@@ -75,8 +75,8 @@ translate russian strings:
     old "Yes. At this point, I can't afford to hesitate. {#ch8_l_024}"
     new "Да. На таком этапе я не могу позволить себе колебаться."
 
-    old "For that, I want Her Majesty's permission. {#ch8_l_025}"
-    new "Для этого я хочу получить разрешение Её Величества."
+    old "For that, I want the Princess's permission. {#ch8_l_025}"
+    new "Для этого я хочу получить разрешение принцессы."
 
     old "Permission to use Void Magic. {#ch8_h_048}"
     new "Разрешение на использование магии пустоты."

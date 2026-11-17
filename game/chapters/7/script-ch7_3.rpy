@@ -536,7 +536,7 @@ label ch7_3_s1169:
             s "Please take care of yourself.{#ch7.3_s_020}"
             # JA[9172]: 自分を大切にしてください。
             voice "ch7.3_h_013"
-            h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"
+            h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
             # JA[417]: 大切に……しているつもりです。 / いえ、皆がわたくしを大切に扱ってくれます。 / おそらく、わたくしが思っている以上に……。
             voice "ch7.3_s_021"
             s "That's exactly right. So it is you too, Princess, who…{#ch7.3_s_021}"

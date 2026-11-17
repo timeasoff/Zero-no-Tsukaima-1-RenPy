@@ -181,7 +181,7 @@ translate japanese strings:
     old "What's your specialty?{#ch5_6_v9956}"
     new "得意な料理って何？"
 
-    old "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
+    old "Hmm, I think simmered dishes are about my limit for now. Grilled food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
     new "うーん、まだ煮物が限界みたい。\\n焼き物とか、パンとか、\\nまだまだ修行が必要かもね。"
 
     old "Miss Montmorency has natural talent, so I think you're just a little short.{#ch5_6_v14466}"

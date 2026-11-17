@@ -300,7 +300,7 @@ translate japanese strings:
     old "This is a secret art passed down in my family! It shouldn't be breakable by someone like you! {#ch8_w_013}"
     new "これは、わたしが一族から学んだ秘術のはず！ / お前ごときに破れるはずがない！"
 
-    old "That it can be broken, I knew. I knew you were communicating through a sound that humans cannot hear. {#ch8_h_077}"
+    old "It can be broken, you see. I know you are giving orders through a sound humans cannot hear. {#ch8_h_077}"
     new "それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。"
 
     old "I was just making you unable to hear that sound by using magic. {#ch8_h_078}"

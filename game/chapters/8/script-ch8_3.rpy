@@ -535,7 +535,7 @@ label ch8_3:
     # JA[16178]: ウェザリー：これは、わたしが一族から学んだ秘術のはず！ / お前ごときに破れるはずがない！
     # アンリエッタ：それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。  [voice 928]
     voice "ch8_h_077"
-    h "That it can be broken, I knew. I knew you were communicating through a sound that humans cannot hear. {#ch8_h_077}"
+    h "It can be broken, you see. I know you are giving orders through a sound humans cannot hear. {#ch8_h_077}"
     # JA[928]: アンリエッタ：それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。
     # アンリエッタ：わたくしが魔法を使って、 / その音を聞こえなくさせているだけです。  [voice 929]
     voice "ch8_h_078"

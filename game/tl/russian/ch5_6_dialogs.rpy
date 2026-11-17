@@ -181,8 +181,8 @@ translate russian strings:
     old "What's your specialty?{#ch5_6_v9956}"
     new "Что твоё фирменное блюдо?"
 
-    old "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
-    new "М-м, думаю, варёная капуста — это предел на сейчас. Жареная еда и хлеб — мне ещё много практиковаться."
+    old "Hmm, I think simmered dishes are about my limit for now. Grilled food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
+    new "М-м, думаю, тушёные блюда — это пока мой предел. Жареное и хлеб — мне ещё много практиковаться."
 
     old "Miss Montmorency has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
     new "У мадемуазель Монморанси есть талант, так что думаю, тебе не хватает совсем чуть-чуть."

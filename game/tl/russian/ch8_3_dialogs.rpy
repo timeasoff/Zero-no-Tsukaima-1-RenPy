@@ -298,8 +298,8 @@ translate russian strings:
     old "This is a secret art passed down in my family! It shouldn't be breakable by someone like you! {#ch8_w_013}"
     new "Это секретная техника моей семьи! Её не должен был преодолеть кто-то вроде тебя!"
 
-    old "That it can be broken, I knew. I knew you were communicating through a sound that humans cannot hear. {#ch8_h_077}"
-    new "То, что её можно взломать, я знала. Знала, что вы общаетесь звуком, недоступным человеческому уху."
+    old "It can be broken, you see. I know you are giving orders through a sound humans cannot hear. {#ch8_h_077}"
+    new "Но её можно взломать. Я знаю, что вы отдаёте приказы звуком, недоступным человеческому уху."
 
     old "I was just making you unable to hear that sound by using magic. {#ch8_h_078}"
     new "Я просто магией сделала так, что вы его не слышите."

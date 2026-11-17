@@ -8,9 +8,8 @@
 
 - нет
 
-## WARNING (314)
+## WARNING (312)
 
-- W5 1 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
@@ -149,7 +148,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
-- W5 1 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -351,5 +349,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=313 named=148 open=165 | placeholders=668 in 29 file(s)
-- labels=397 rpy=95 strings(strict=7920) tl_old=japanese:8426,russian:8453
+- labels=397 rpy=95 strings(strict=7920) tl_old=japanese:8427,russian:8454
 

@@ -665,7 +665,7 @@ label ch5_6:
                     # [lay3 +869 → m 2 sad]
                     $ show_sprites(("s 3", "m 2 sad"))
                     voice "ch5.6_m_004"
-                    m "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
+                    m "Hmm, I think simmered dishes are about my limit for now. Grilled food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
                     # JA[3997]: うーん、まだ煮物が限界みたい。 / 焼き物とか、パンとか、 / まだまだ修行が必要かもね。
                     # [lay5 hide]
                     $ show_sprites(("m 2 sad"))

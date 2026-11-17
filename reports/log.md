@@ -4983,3 +4983,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * 21 временный файл аудитора (`_g20_*`) вынесен из репозитория в `%TEMP%` без удаления.
 * Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
 
+### 2026-11-17 — Перепроверка №21 (EN-грамматика и addresses)
+
+* Исправлено 4: `ch8_3:538` «I knew… communicating» → «I know… giving orders» (JA 分かっています, 指示を出している); `ch5_6:668` 煮物 → «simmered dishes / тушёные блюда» (закрыт старый CANDIDATE «pickled vegetables»); `ch7_3:539` 思っている以上に → «more than I realize» (не «deserve»); `ch8_2:193/251` 姫さま → «the Princess's permission» / «у принцессы» (2, не queen-rank).
+* EN-аудит: 130 длинных строк + 272 choice + sweep 2658 EN — 0 CJK/mojibake/scratch, грамматика в норме; 5 коммитов rounds 17–21 — без stale TL.
+* Слепая выборка (seed i%47, 36 строк): 1 находка (姫さま).
+* Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
+

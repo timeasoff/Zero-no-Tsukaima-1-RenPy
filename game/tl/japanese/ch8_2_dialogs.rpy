@@ -48,7 +48,7 @@ translate japanese strings:
     old "So, what is it, Louise? {#ch8_h_044}"
     new "それで、どうしたのですかルイズ？"
 
-    old "Yes. Actually, I came to ask for Her Majesty's permission. {#ch8_l_020}"
+    old "Yes. Actually, I came to ask for the Princess's permission. {#ch8_l_020}"
     new "ああ、そうです。実は、姫さまにご許可をいただきたいと思いまして、参りました。"
 
     old "Permission? What for? {#ch8_h_045}"
@@ -75,7 +75,7 @@ translate japanese strings:
     old "Yes. At this point, I can't afford to hesitate. {#ch8_l_024}"
     new "そうよ。ここまで来たら迷ってなんていられないもの。"
 
-    old "For that, I want Her Majesty's permission. {#ch8_l_025}"
+    old "For that, I want the Princess's permission. {#ch8_l_025}"
     new "そのために、ぜひ、姫さまのご許可をいただきたいのです。"
 
     old "Permission to use Void Magic. {#ch8_h_048}"
