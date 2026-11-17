@@ -4981,3 +4981,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (важное): `おにいちゃんをいじめないで` — объект просьбы Сайто, не Кирке (ролевая инверсия исправлена); «восстановил» → «восстановила» (Монморанси —女性); `ひざまくら` → «подушка на коленях» (убрано латинское HEAD); `のさばる` → «распоясаться».
 - решение (модальность): `みたい/かもしれない` → «похоже/кажется/судя по всему» в поисковых отчётах; `保証はできないけどね` → «Гарантий не дам, но…»; `なんとかなるのか` → вопрос; `何だと思ってるんだ` → негодующий упрёк.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 14 --lang ru/en` → OK; `audio_converter.py check` → OK.
+
+
+## 2026-11-18 — Глава 15 (chapter_16 魔法の薬): часть 1 (сцены 619–632)
+
+- статус: DONE (порт + mechanically; аудиты — отдельным проходом)
+- место: `game/chapters/15/script-ch15_{1,2}.rpy`, `game/tl/{japanese,russian}/ch15_1_*`, `references/voice_id_map.csv` (+117), `reports/ch15/1.md`
+- решение (E1): стаб `script-ch15.rpy` получил метку `ch15_stub`; точку входа определяет часть 1.
+- PROVISIONAL: `おにいちゃん` → «big brother»/«Братишка» (продолжение гл.14); заглушки `id(K)`; `VIBRATE` → shake_fx.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 15` → OK; `check_typography.py --chapter 15_1 --lang ru/en` → OK; `audio_converter.py check` → OK (8738/8738); `omission_precheck --chapter 15_1` → 0 кандидатов.
+- отчёт: `reports/ch15/1.md`; план обновлён (глава 15 — часть 1).

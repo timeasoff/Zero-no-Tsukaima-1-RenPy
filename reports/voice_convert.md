@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-11-18 00:39`
+Запуск: `2026-11-18 01:03`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 8620 |
-| уже есть .ogg | 8547 |
-| к конвертации | 73 |
-| сконвертировано сейчас | 73 |
+| voice-строк в сценарии | 8737 |
+| уже есть .ogg | 8620 |
+| к конвертации | 117 |
+| сконвертировано сейчас | 117 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,79 +19,123 @@
 
 ## Сконвертировано
 
-- `ch14_ha_004.ogg`
-- `ch14_ha_005.ogg`
-- `ch14_ha_006.ogg`
-- `ch14_ha_007.ogg`
-- `ch14_ha_008.ogg`
-- `ch14_k_085.ogg`
-- `ch14_k_086.ogg`
-- `ch14_k_088.ogg`
-- `ch14_k_089.ogg`
-- `ch14_k_090.ogg`
-- `ch14_k_091.ogg`
-- `ch14_k_092.ogg`
-- `ch14_k_093.ogg`
-- `ch14_k_094.ogg`
-- `ch14_k_095.ogg`
-- `ch14_l_029.ogg`
-- `ch14_l_031.ogg`
-- `ch14_l_032.ogg`
-- `ch14_l_033.ogg`
-- `ch14_l_034.ogg`
-- `ch14_l_035.ogg`
-- `ch14_l_036.ogg`
-- `ch14_l_037.ogg`
-- `ch14_l_038.ogg`
-- `ch14_l_039.ogg`
-- `ch14_l_040.ogg`
-- `ch14_l_041.ogg`
-- `ch14_l_042.ogg`
-- `ch14_l_043.ogg`
-- `ch14_l_044.ogg`
-- `ch14_l_045.ogg`
-- `ch14_l_046.ogg`
-- `ch14_m_010.ogg`
-- `ch14_m_011.ogg`
-- `ch14_m_012.ogg`
-- `ch14_m_013.ogg`
-- `ch14_m_014.ogg`
-- `ch14_m_015.ogg`
-- `ch14_m_016.ogg`
-- `ch14_m_017.ogg`
-- `ch14_s_114.ogg`
-- `ch14_s_115.ogg`
-- `ch14_s_116.ogg`
-- `ch14_s_117.ogg`
-- `ch14_s_119.ogg`
-- `ch14_s_120.ogg`
-- `ch14_s_121.ogg`
-- `ch14_s_122.ogg`
-- `ch14_s_123.ogg`
-- `ch14_s_126.ogg`
-- `ch14_s_127.ogg`
-- `ch14_s_128.ogg`
-- `ch14_s_129.ogg`
-- `ch14_s_131.ogg`
-- `ch14_s_133.ogg`
-- `ch14_s_134.ogg`
-- `ch14_s_135.ogg`
-- `ch14_s_138.ogg`
-- `ch14_s_139.ogg`
-- `ch14_s_140.ogg`
-- `ch14_s_141.ogg`
-- `ch14_si_006.ogg`
-- `ch14_si_007.ogg`
-- `ch14_si_008.ogg`
-- `ch14_si_009.ogg`
-- `ch14_t_006.ogg`
-- `ch14_t_008.ogg`
-- `ch14_t_009.ogg`
-- `ch14_t_010.ogg`
-- `ch14_t_012.ogg`
-- `ch14_t_013.ogg`
-- `ch14_t_014.ogg`
-- `ch14_t_015.ogg`
+- `ch15_ak_001.ogg`
+- `ch15_ak_002.ogg`
+- `ch15_ak_003.ogg`
+- `ch15_ak_004.ogg`
+- `ch15_ak_005.ogg`
+- `ch15_ak_006.ogg`
+- `ch15_ak_007.ogg`
+- `ch15_ak_008.ogg`
+- `ch15_ak_009.ogg`
+- `ch15_ak_010.ogg`
+- `ch15_ak_011.ogg`
+- `ch15_ak_012.ogg`
+- `ch15_ak_013.ogg`
+- `ch15_ak_014.ogg`
+- `ch15_ak_015.ogg`
+- `ch15_ak_016.ogg`
+- `ch15_ak_017.ogg`
+- `ch15_ak_018.ogg`
+- `ch15_ak_019.ogg`
+- `ch15_ak_020.ogg`
+- `ch15_ak_021.ogg`
+- `ch15_ak_022.ogg`
+- `ch15_d_001.ogg`
+- `ch15_k_001.ogg`
+- `ch15_k_002.ogg`
+- `ch15_k_003.ogg`
+- `ch15_k_004.ogg`
+- `ch15_k_005.ogg`
+- `ch15_k_006.ogg`
+- `ch15_k_007.ogg`
+- `ch15_k_008.ogg`
+- `ch15_k_009.ogg`
+- `ch15_k_010.ogg`
+- `ch15_k_011.ogg`
+- `ch15_k_012.ogg`
+- `ch15_k_013.ogg`
+- `ch15_k_014.ogg`
+- `ch15_k_015.ogg`
+- `ch15_k_016.ogg`
+- `ch15_k_017.ogg`
+- `ch15_k_018.ogg`
+- `ch15_k_019.ogg`
+- `ch15_l_001.ogg`
+- `ch15_l_002.ogg`
+- `ch15_l_003.ogg`
+- `ch15_l_004.ogg`
+- `ch15_l_005.ogg`
+- `ch15_l_006.ogg`
+- `ch15_l_007.ogg`
+- `ch15_l_008.ogg`
+- `ch15_l_009.ogg`
+- `ch15_l_010.ogg`
+- `ch15_l_011.ogg`
+- `ch15_l_012.ogg`
+- `ch15_l_013.ogg`
+- `ch15_l_014.ogg`
+- `ch15_l_015.ogg`
+- `ch15_l_016.ogg`
+- `ch15_l_017.ogg`
+- `ch15_l_018.ogg`
+- `ch15_l_019.ogg`
+- `ch15_l_020.ogg`
+- `ch15_l_021.ogg`
+- `ch15_l_022.ogg`
+- `ch15_l_023.ogg`
+- `ch15_m_001.ogg`
+- `ch15_m_002.ogg`
+- `ch15_m_003.ogg`
+- `ch15_m_004.ogg`
+- `ch15_m_005.ogg`
+- `ch15_m_006.ogg`
+- `ch15_s_001.ogg`
+- `ch15_s_002.ogg`
+- `ch15_s_003.ogg`
+- `ch15_s_004.ogg`
+- `ch15_s_005.ogg`
+- `ch15_s_006.ogg`
+- `ch15_s_007.ogg`
+- `ch15_s_008.ogg`
+- `ch15_s_009.ogg`
+- `ch15_s_010.ogg`
+- `ch15_s_011.ogg`
+- `ch15_s_012.ogg`
+- `ch15_s_013.ogg`
+- `ch15_s_014.ogg`
+- `ch15_s_015.ogg`
+- `ch15_s_016.ogg`
+- `ch15_s_017.ogg`
+- `ch15_s_018.ogg`
+- `ch15_s_019.ogg`
+- `ch15_s_020.ogg`
+- `ch15_s_021.ogg`
+- `ch15_s_022.ogg`
+- `ch15_s_023.ogg`
+- `ch15_s_024.ogg`
+- `ch15_s_025.ogg`
+- `ch15_s_027.ogg`
+- `ch15_s_028.ogg`
+- `ch15_s_029.ogg`
+- `ch15_s_030.ogg`
+- `ch15_s_031.ogg`
+- `ch15_s_032.ogg`
+- `ch15_s_033.ogg`
+- `ch15_s_034.ogg`
+- `ch15_s_035.ogg`
+- `ch15_s_036.ogg`
+- `ch15_s_037.ogg`
+- `ch15_s_038.ogg`
+- `ch15_s_039.ogg`
+- `ch15_s_040.ogg`
+- `ch15_s_041.ogg`
+- `ch15_s_042.ogg`
+- `ch15_s_043.ogg`
+- `ch15_s_044.ogg`
+- `ch15_s_045.ogg`
+- `ch15_s_046.ogg`
+- `ch15_s_047.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 

@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (478)
+## WARNING (491)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -455,6 +455,19 @@
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/14/script-ch14_4.rpy:520 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/14/script-ch14_4.rpy:530 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/14/script-ch14_4.rpy:626 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1160) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:27 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:265 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:467 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1150) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:470 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1141) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:473 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1150) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:476 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:479 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:482 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:588 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:614 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:640 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/15/script-ch15_1.rpy:671 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:80 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:127 (run tools/replace_bg_placeholders.py --apply)
@@ -493,13 +506,13 @@
 
 - speakers defined: 37
 - overlay K: max=19 used=17 next_free=20
-- voices: refs=8621 ogg=8647 missing=0
+- voices: refs=8738 ogg=8764 missing=0
 - I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: strings=329 source_talk=492 (gap expected)
 - I1 ch11: strings=360 source_talk=618 (gap expected)
 - I1 ch14: strings=376 source_talk=444 (gap expected)
-- I1 ch15: not started (source talk=407)
+- I1 ch15: strings=127 source_talk=407 (gap expected)
 - I1 ch16: not started (source talk=138)
 - I1 ch17: not started (source talk=282)
 - I1 ch18: not started (source talk=589)
@@ -513,6 +526,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=976 in 47 file(s)
-- labels=618 rpy=116 strings(strict=9871) tl_old=japanese:10366,russian:10393
+- image map: ids=313 named=148 open=165 | placeholders=1000 in 48 file(s)
+- labels=634 rpy=118 strings(strict=9998) tl_old=japanese:10493,russian:10520
 
