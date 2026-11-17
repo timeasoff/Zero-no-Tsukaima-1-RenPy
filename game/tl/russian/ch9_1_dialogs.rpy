@@ -316,8 +316,8 @@ translate russian strings:
     old "Oh. / I wasn't teasing. {#ch9_h_032}"
     new "О. / Я вовсе не дразнила."
 
-    old "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
-    new "Ну и ну. / Мой фамильяр тоже попал в переплёт."
+    old "Goodness. / My partner's in trouble too. {#ch9_d_002}"
+    new "Ну и ну. / Мой напарник тоже попал в переплёт."
 
     old "This idiot! / This idiot! / This big idiot!! {#ch9_l_009}"
     new "Идиот! / Идиот! / Большущий идиот!!"

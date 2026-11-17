@@ -4990,3 +4990,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Слепая выборка (seed i%47, 36 строк): 1 находка (姫さま).
 * Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
 
+### 2026-11-17 — Перепроверка №22 (post-fix integrity)
+
+* Integrity 10 коммитов: 19/19 EN-строк с точным `old` в JA/RU, 0 stale, 69/69 добавленных TL-строк, 25/25 целевых правок, 0 дублей `old`, 0 homoglyph; двухпарная правка `ch8_l_020/025` не откатилась.
+* Исправлено 1: `ch9_1:789` 相棒 (Дерфлингер о Сайто) = «partner/напарник», а не «familiar/фамильяр» (канон 使い魔, `dictionary.md:362`), EN/RU+TL.
+* Семантика (seed i%53, 70 строк + 15 длинных RU): 1 находка (выше). `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
+

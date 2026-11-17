@@ -324,6 +324,14 @@ EN-аудит: 130 длинных строк + 272 choice + sweep 2658 EN — 0 
 
 Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
 
+## Перепроверка №22 (post-fix integrity)
+
+- Integrity 8+2 коммитов: 19/19 EN-строк имеют точный `old` в JA/RU, 0 stale (проверены «Her Majesty's», «pickled vegetables», «That's Saito», «Inognito», «demand!», «I know that.»), 69/69 добавленных TL-строк на месте, 25/25 целевых правок присутствуют, 0 дублей `old`, 0 homoglyph в ключах. Двухпарная правка `ch8_l_020/025` не откатилась.
+- Исправлено 1: `ch9_1.rpy:789` — 相棒 (Дерфлингер о Сайто) = «напарник/partner», а не «familiar/фамильяр» (последний — канон 使い魔, `dictionary.md:362`); EN/RU+TL.
+- Семантика (seed i%53, 70 строк + 15 длинных RU): 1 находка (выше); ошибки subjects/negation/modality/canon в остальном 0.
+
+Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; `git status` — только 3 ожидаемых файла.
+
 ## where I stopped
 
 - Текущая фаза: **главы 6–9 завершены** (rounds 1–14); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.

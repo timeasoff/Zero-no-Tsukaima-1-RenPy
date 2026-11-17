@@ -316,7 +316,7 @@ translate japanese strings:
     old "Oh. / I wasn't teasing. {#ch9_h_032}"
     new "あら。 / からкаってなどいませんよ？"
 
-    old "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
+    old "Goodness. / My partner's in trouble too. {#ch9_d_002}"
     new "やれやれ。 / 相棒も難儀だねえ。"
 
     old "This idiot! / This idiot! / This big idiot!! {#ch9_l_009}"

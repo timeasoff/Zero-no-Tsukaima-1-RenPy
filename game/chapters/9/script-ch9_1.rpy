@@ -786,7 +786,7 @@ label ch9:
     $ show_sprites(("h 2", "d 1 sad"))
     # デルфリнгер：やれやれ。 / 相棒も難儀だねえ。  [voice 1222]
     voice "ch9_d_002"
-    d "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
+    d "Goodness. / My partner's in trouble too. {#ch9_d_002}"
     # JA[1222]: デルフリンガー：やれやれ。 / 相棒も難儀だねえ。
     # [SPRITE lay8 hide]
     # [SPRITE lay19 hide]
