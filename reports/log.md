@@ -5049,3 +5049,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение: `現在の位置から…二日と少々` → «судя по текущему положению… чуть больше двух дней» (инверсия исправлена); вокатив `女王陛下` → «Ваше Величество»; `敵前逃亡` → «дезертирство перед врагом».
 - PROVISIONAL: `ガンダールヴ` → Gandálfr/Gандальв; `ゼロ戦` → Zero Fighter/Зеро-файтер; voice 4227 без аудио (реплика сохранена без строки voice).
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 17` → OK; `check_typography.py --chapter 17 --lang ru/en` → OK; `audio_converter.py check` → OK (9342/9342).
+
+
+## 2026-11-18 — Глава 18 (chapter_19 貴族の意地): часть 1 (сцены 696–705)
+
+- статус: DONE (порт + mechanically; аудиты — отдельным проходом)
+- место: `game/chapters/18/script-ch18_{1,2}.rpy`, `game/tl/{japanese,russian}/ch18_1_*`, `references/voice_id_map.csv` (+124), `reports/ch18/1.md`
+- PROVISIONAL: `ガンダールヴ` → Gandálfr/Гандальв; `シルフィード` → Sylphid/Сильфида; `二重人格` → «split personality»/«раздвоение личности»; заглушки `id(K)`.
+- решение (аудиты гл.17 ч.2): `精神力` → «психическая энергия»; `誇り` → «гордость»; уточненаrole Гандальва.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 18` → OK; `check_typography.py --chapter 18_1 --lang ru/en` → OK; `audio_converter.py check` → OK (9466/9466); `omission_precheck --chapter 18_1` → 0 кандидатов.
+- отчёт: `reports/ch18/1.md`; план обновлён (часть 1 ✅).

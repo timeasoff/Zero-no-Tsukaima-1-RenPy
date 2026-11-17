@@ -88,7 +88,7 @@
     new "Моя госпожа чуть что — сразу в слёзы."
 
     old "And even if you call her a Void mage, she runs out of magic power instantly.{#ch17_s_051}"
-    new "И хоть называй её магом Пустоты, она сразу тратит всю магическую силу."
+    new "И хоть называй её магом Пустоты, она сразу тратит всю психическую энергию."
 
     old "…{#ch17_l_041}"
     new "…"
@@ -169,7 +169,7 @@
     new "Что с академией?"
 
     old "Don't ask me. You were with them the whole time. How would I know?{#ch17_l_050}"
-    new "Не спрашивай меня. Ты всё время был с ними. Откуда мне знать?"
+    new "Не спрашивай меня. Ты же всё время был рядом с Сайто. Откуда мне знать?"
 
     old "N-No, I know that. I just… can't stop worrying.{#ch17_s_066}"
     new "Н-Нет, я знаю. Просто… не могу не беспокоиться."
@@ -208,7 +208,7 @@
     new "Какой ты назойливый. Я дворянка."
 
     old "Nobles have a duty to fight to defend their country and their pride!{#ch17_l_056}"
-    new "У дворян есть долг сражаться во имя страны и чести!"
+    new "У дворян есть долг сражаться во имя страны и гордости!"
 
     old "Duty of a noble, huh… But if you die, there's no honor or pride left.{#ch17_s_073}"
     new "Долг дворянина, значит… Но если ты умрёшь, не останется ни чести, ни гордости."
