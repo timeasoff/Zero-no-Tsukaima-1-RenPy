@@ -1296,7 +1296,7 @@ translate russian strings:
     new "Просто Кирхе подходила на эту роль."
 
     old "Because I felt uneasy leaving it to Louise.{#ch7_c377}"
-    new "Оставлять это Луизе было слишком рискованно."
+    new "Мне было неспокойно доверять это Луизе."
 
     old "Just… because.{#ch7_c378}"
     new "Просто так…"
@@ -1381,7 +1381,7 @@ translate russian strings:
     new "Потому что принцесса тоже человек."
 
     old "Because I'm just acting normal.{#ch8_c006}"
-    new "Потому что я просто делаю обычно."
+    new "Потому что я просто веду себя как обычно."
 
 # ===== ch8.2 menu choices =====
     old "Stop with all force.{#ch8_c007}"
@@ -1391,5 +1391,5 @@ translate russian strings:
     new "Полностью утверждать."
 
     old "Go all-out youthful.{#ch8_c009}"
-    new "Полностью молодежный."
+    new "Прожить юность изо всех сил."
 
