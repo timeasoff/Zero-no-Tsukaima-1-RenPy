@@ -4823,3 +4823,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (E7): создан стаб `game/chapters/12/script-ch12_3.rpy` с `label ch12_3` для форвард-джампов из части 2.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_1/12_2 --lang ru/en` → OK; `check_placeholders.py` → OK (ID_UNNAMED); `audio_converter.py check` → OK (7781/7781); `omission_precheck --chapter 12_2` → 0 кандидатов; pipeline mechanically 0 ошибок.
 - отчёты: `reports/ch12/1.md` (добавлен раздел аудитов), `reports/ch12/2.md`; план обновлён (части 1–2).
+
+
+## 2026-11-17 — Глава 12: аудиты части 2 (525–534)
+
+- статус: DONE
+- место: `game/tl/russian/ch12_2_dialogs.rpy`, `reports/sma/ch12/2/{a,c,analysis}/`, `reports/ch12/2.md`
+- аудиты: A (8), C (2), Analyzer Фаза 1 (9), precheck 0; Фаза 2: 13 CONFIRMED_ERROR → FIXED, 1 FALSE_POSITIVE → PRESERVED (null-пауза в 527 — не контент, пропущена по образцу ch11_2). Итог `reports/sma/ch12/2/analysis/20261117-225500-ch12-p2.md`.
+- решение (лексика): 黒幕 → «закулисный организатор»; 気配 → «присутствие»; 大ポカ → «оплошность»; 詠唱 → «произнесение»; 都 → «столица»; 目的 → «цель»; 邪魔 → «мешает». Субъектный сдвиг устранён: 平賀くんの気持ちは変わらない → «чувства Хирага-куна не изменятся».
+- решение (модальность/прагматика): 戻れない → «не сможешь вернуться»; よく言うよ → ироничное «Ну, сказала!»; だろうな → «небось, сможем»; удалены добавленные «и никогда» и «держу пари» (нет в JA; EN не арбитр).
+- проверки после правок: `check_project.py` → RESULT: OK; `check_typography.py --chapter 12_2 --lang ru/en` → OK.

@@ -1,10 +1,10 @@
 # translate russian strings:
 
     old "Like some happy fairy tale, clicking your heels three times won't take you back to your world.{#ch12_ak_011}"
-    new "Как в счастливой сказке — щёлкни каблуками три раза, и ты не вернёшься в свой мир."
+    new "Как в счастливой сказке — щёлкни каблуками три раза, и ты не сможешь вернуться в прежний мир."
 
     old "No one will ever really save us. That's our reality!{#ch12_ak_012}"
-    new "Никто и никогда по-настоящему не спасёт нас. Вот наша реальность!"
+    new "Никто по-настоящему не спасёт нас. Вот наша реальность!"
 
     old "Damn it, what's going to happen to Haruna!?{#ch12_s_031}"
     new "Чёрт, что будет с Харуной!?"
@@ -40,7 +40,7 @@
     new "Пошутила, а-ха-ха…"
 
     old "…! What's this presence!?{#ch12_ak_016}"
-    new "…! Что за ощущение!?"
+    new "…! Что за присутствие!?"
 
     old "Eeeeeek!{#ch12_ak_017}"
     new "А-а-а-а!"
@@ -82,7 +82,7 @@
     new "Похоже, Уэзерби её подчинила. Она говорит, что она и есть бомбист."
 
     old "What!? So Weatherly's the mastermind!?{#ch12_l_038}"
-    new "Что!? Тогда Уэзерби — главный враг!?"
+    new "Что!? Тогда Уэзерби — закулисный организатор!?"
 
     old "T-Then what was that play all about? Hmph, making fools of us.{#ch12_l_039}"
     new "Т-Так что же это была за пьеса? Хм, нас выставили за дураков."
@@ -94,7 +94,7 @@
     new "Ого!"
 
     old "You said Akina, right? What do you want?{#ch12_l_040}"
-    new "Ты сказала — Акина, верно? Чего ты хочешь?"
+    new "Ты сказала — Акина, верно? Какова твоя цель?"
 
     old "I told you, didn't I? Sabotage in Tristain. As the bomb-thrower.{#ch12_ak_022}"
     new "Я же сказала — диверсии в Тристании. В роли бомбиста."
@@ -166,7 +166,7 @@
     new "Нет! Харуна!"
 
     old "Damn, I let Akina get away. What a blunder.{#ch12_s_045}"
-    new "Чёрт, я упустил Акину. Вот дурь."
+    new "Чёрт, я упустил Акину. Вот оплошность."
 
     old "What was that? Haruna and Akina…?{#ch12_l_047}"
     new "Что это было? Харуна и Акина…?"
@@ -193,7 +193,7 @@
     new "—и подготовить это нападение на Тристанию."
 
     old "They mean to use the confusion to strike Tristain with the remaining aerial fleet, I'd wager.{#ch12_l_051}"
-    new "Они хотят в этой сумятице ударить по Тристании оставшимся воздушным флотом, держу пари."
+    new "Они хотят в этой сумятице ударить по Тристании оставшимся воздушным флотом."
 
     old "I hear the fleet has already been spotted heading this way.{#ch12_l_052}"
     new "Говорят, флот уже замечен — он идёт сюда."
@@ -211,7 +211,7 @@
     new "Я отгоню флот силой Пустоты."
 
     old "T-That's fine, but if you use that magic here, the whole capital will be blown away!{#ch12_s_049}"
-    new "Э-Это хорошо, но если ты применишь здесь ту магию, весь город снесёт!"
+    new "Э-Это хорошо, но если ты применишь здесь ту магию, всю столицу снесёт!"
 
     old "It's all right. I won't use Explosion.{#ch12_l_056}"
     new "Всё хорошо. Я не буду применять «Взрыв»."
@@ -223,7 +223,7 @@
     new "Род Пустоты — не только «Взрыв»."
 
     old "(True enough. Now that Void is barely known, we can catch the enemy off guard…){#ch12_s_051}"
-    new "И правда. Сейчас, когда о Пустоте почти никто не знает, мы можем застать врага врасплох…"
+    new "И правда. Сейчас, когда о Пустоте почти никто не знает, мы, небось, сможем застать врага врасплох…"
 
     old "All right, Louise… I mean, mistress, it's in your hands!{#ch12_s_052}"
     new "Ладно, Луиза… то есть, госпожа, я полагаюсь на тебя!"
@@ -262,7 +262,7 @@
     new "Хаа-хаа-хаа-хаа-хаа…"
 
     old "Damn, damn… that Haruna is getting in my way!{#ch12_ak_033}"
-    new "Чёрт, чёрт… эта Харуна всё портит!"
+    new "Чёрт, чёрт… эта Харуна всё мешает!"
 
     old "(What good will this do? Stop this foolishness…){#ch12_ha_013}"
     new "К чему всё это? Прекрати эту глупость…"
@@ -274,7 +274,7 @@
     new "Я их одолею и заберу Сайто себе!"
 
     old "(It's no use. Even if you do, Hiraga-kun won't change…){#ch12_ha_014}"
-    new "Бесполезно. Даже если так, Хирага-кун не изменится…"
+    new "Бесполезно. Даже если так, чувства Хирага-куна не изменятся…"
 
     old "Then I'll just have Weatherly-sama tinker with your head.{#ch12_ak_036}"
     new "Тогда попрошу Уэзерби-саму поработать с твоей головой."
@@ -319,7 +319,7 @@
     new "Нет! Я этого не хочу! Совсем не хочу!"
 
     old "Well said. I'm another you. I couldn't lie to myself.{#ch12_ak_046}"
-    new "Вот именно. Я — ещё одна ты. Не смогу я себя обмануть."
+    new "Ну, сказала! Я — ещё одна ты. Не смогу я себя обмануть."
 
     old "(No, no… it isn't like that!){#ch12_ha_019}"
     new "Нет, нет… это не так!"
@@ -328,7 +328,7 @@
     new "Для этого заклинания нам нужно место с лучшим обзором во всём замке!"
 
     old "And, as last time, Void magic takes time to chant.{#ch12_l_065}"
-    new "И, как в прошлый раз, заклинание Пустоты требует времени для прочтения."
+    new "И, как в прошлый раз, заклинание Пустоты требует времени для произнесения."
 
     old "Secure both. Understood?{#ch12_l_066}"
     new "Обеспечь и то, и другое. Понял?"
