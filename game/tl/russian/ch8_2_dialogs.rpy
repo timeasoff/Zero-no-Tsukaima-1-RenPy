@@ -172,7 +172,7 @@ translate russian strings:
     new "Все, вы правда идёте сражаться."
 
     old "Siesta… {#ch8_s_073}"
-    new "Сиэста…"
+    new "Сиеста…"
 
     old "It'll be fine. I'll come back safely. You stay at the inn and wait. {#ch8_s_074}"
     new "Всё будет хорошо. Я вернусь невредимым. Ты оставайся в гостинице и жди."
