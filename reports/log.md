@@ -5020,3 +5020,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `微熱の使い手` → «Wielder of slight fever»/«Носитель лёгкого жара»; `花火` → «fireworks»/«фейерверк»; стаб `ch17` создан.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 16` → OK; `check_typography.py --chapter 16 --lang ru/en` → OK; `audio_converter.py check` → OK (9140/9140); `omission_precheck --chapter 16_1` → 0 кандидатов.
 - отчёты: `reports/ch15/{2,3,4}.md` (разделы аудитов), `reports/ch16/1.md`; план обновлён.
+
+
+## 2026-11-18 — Глава 16: аудиты (закрытие pipeline)
+
+- статус: DONE. A (6), C (2), Analyzer Ф1 (6), precheck 0; Фаза 2 — 12 CONFIRMED_ERROR → FIXED, 1 ???.
+- ??? JA `使い魔じゃない` (сцена 665, voice 1803) буквально «не фамильяр», по контексту — «раз он фамильяр». RU следует контексту; JA не редактируется (запрет); зафиксировано как probable source typo, уточнение в events_full при возможности.
+- решение (лексика): `きゃ～～っ`/`ひいっ` → «Кя!» (было «Кайн» — имя); `実力行使` → «применить силу»; `やっほ` → «Йо-хо»; `たまらなかった` → «невыразим»; `おにいちゃん` → «Братец» (старший).
+- решение (роли): `私のことを気に入って` — объект Харуна (кто-то из труппы полюбил её), инверсия исправлена; `預けるだけですけどね` — утверждение, не отрицание.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 16 --lang ru/en` → OK.

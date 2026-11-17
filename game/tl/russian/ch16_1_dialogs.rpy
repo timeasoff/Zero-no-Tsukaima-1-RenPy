@@ -1,7 +1,7 @@
 # translate russian strings:
 
     old "Yoohoo~, darling.{#ch16_k_001}"
-    new "Ауу~, дорогой."
+    new "Йо-хо~~, дорогой."
 
     old "O-Oh. Kirche!{#ch16_s_001}"
     new "О-Ой. Кирке!"
@@ -19,7 +19,7 @@
     new "К-Кирке, отойди от него! Глупый пёс!"
 
     old "…Eek! S-Sorry, mistress!{#ch16_s_003}"
-    new "…Кайн! П-Прости, госпожа!"
+    new "…Кя! П-Прости, госпожа!"
 
     old "Wait, Louise? What are you doing to darling?{#ch16_k_003}"
     new "Эй, Луиза? Что ты делаешь с дорогим?"
@@ -43,10 +43,10 @@
     new "Уф-фу. Это забавно."
 
     old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
-    new "Слушай, Вальер. Чем больше препятствие, тем сильнее горит пламя моей любви…!"
+    new "Слушай, Вальер. Чем больше препятствие, тем сильнее горит пламя моей любви…?"
 
     old "(Ufufu. If it's come to this, I'll just have to use force.){#ch16_k_008}"
-    new "Уф-фу. Раз дошло до этого, придётся действовать."
+    new "Уф-фу. Раз дошло до этого, придётся применить силу."
 
     old "(Love is war… Louise?){#ch16_k_009}"
     new "Любовь — это война… Луиза?"
@@ -103,13 +103,13 @@
     new "…Что вы двое, чёрт возьми, делаете!?"
 
     old "E-Eek!{#ch16_l_011}"
-    new "К-Кайн!"
+    new "К-Кя-аа!"
 
     old "Why are you two hugging in bed!?{#ch16_s_007}"
     new "Почему вы двое обнимаетесь в постели!?"
 
     old "(Since when is this place paradise?){#ch16_s_008}"
-    new "С каких пор здесь рай?"
+    new "Ну, как бы это сказать… С каких пор здесь рай?"
 
     old "H-Hugging…!? N-n-n-n-n-n-n-n-n-n…!{#ch16_l_012}"
     new "О-Обнимаетесь…? Н-Н-Н-Н-Н…!"
@@ -232,7 +232,7 @@
     new "Труппа? Ты имеешь в виду труппу Уэзерби?"
 
     old "No. Someone from another troupe who saw that play liked me and scouted me.{#ch16_ha_005}"
-    new "Нет. Кто-то из другой труппы, кто видел тот спектакль, понравился мне и завербовал."
+    new "Нет. Кто-то из другой труппы, кто видел тот спектакль, заинтересовался мной и завербовал."
 
     old "I thought this was a good chance, so I'm going to join them.{#ch16_ha_006}"
     new "Я подумала, что это хороший шанс, и хочу к ним присоединиться."
@@ -322,7 +322,7 @@
     new "Я не совсем понимаю, но… ладно."
 
     old "Well, it's not like I'm entrusting him to you… Just don't let that Louise break him.{#ch16_ha_020}"
-    new "Впрочем, я не чтобы ты за ним ухаживала… Просто не дай той Луизе его сломать."
+    new "Ну, я просто доверяю его тебе… Только не дай той Луизе-сан его сломать."
 
     old "What are you talking about?{#ch16_s_028}"
     new "О чём вы?"
@@ -358,7 +358,7 @@
     new "…"
 
     old "(O-Of course it was good! Though that imbalance was something else…){#ch16_s_034}"
-    new "К-Конечно, всё было хорошо! Хотя тот дисбаланс был чем-то…"
+    new "К-Конечно, всё было хорошо! Хотя тот дисбаланс был просто невыразим…"
 
     old "…Haa.{#ch16_s_035}"
     new "…Фух."
@@ -385,7 +385,7 @@
     new "А? А, нет—А-ха-ха…"
 
     old "Really, darling, with me right here, what are you thinking about!{#ch16_k_046}"
-    new "Ну же, дорогой, я же рядом, а ты всё думаешь о чём-то!"
+    new "Ну же, дорогой, я же рядом — о чём это ты так задумался?"
 
     old "Whoa! If you hug me like that, all sorts of things…!{#ch16_s_039}"
     new "Ого! Если ты так обнимаешь, то всякое…!"
@@ -397,7 +397,7 @@
     new "А?"
 
     old "No, you can't! Big brother?{#ch16_k_048}"
-    new "Нет, нельзя! Братишка?"
+    new "Нет, нельзя! Братец?"
 
     old "…Eh?{#ch16_s_041}"
     new "…А?"
@@ -406,5 +406,5 @@
     new "А!?"
 
     old "Ufufu!{#ch16_k_049}"
-    new "Уф-фу!"
+    new "Уф-фу. Может, ты думал о чём-то неподобающем...?"
 
