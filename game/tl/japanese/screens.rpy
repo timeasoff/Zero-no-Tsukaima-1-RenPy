@@ -352,7 +352,7 @@ translate japanese strings:
     new "サイトを召喚した魔法使い。\n虚無の魔法を使えるも、\nその実態はいまだ不明。"
 
     old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
-    new "ルイズによって、この世界に召喚された 日本の少年。\nルイズからは使い魔扱いをされている。"
+    new "ルイズによって、この世界に召喚された日本の少年。\nルイズからは使い魔扱いをされている。"
 
     old "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\"."
     new "ルイズのクラスメイト。\n風の系統の魔法が得意。\n二つ名は「雪風のタバサ」。"

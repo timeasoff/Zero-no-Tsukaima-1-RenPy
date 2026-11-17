@@ -10711,7 +10711,7 @@ translate russian strings:
     new "Да, поняла."
 
     old "And on top of that, the Headmaster asked me to introduce Haruna to Her Highness, so Haruna's coming along too."
-    new "И ещё, ректор попросил представить Харуну Её Величеству, так что Харуна едет с нами."
+    new "И ещё, ректор попросил представить Харуну Её Высочеству, так что Харуна едет с нами."
 
     old "Is that so…"
     new "Вот как…"
