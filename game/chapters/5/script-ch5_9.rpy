@@ -145,7 +145,7 @@ label ch5_9_r5_henrietta:
     play music t4 fadein 1.0
     $ show_sprites(("w 1"))
     voice "ch5.9_w_005"
-    w "I will ask Miss Henrietta to take the role.{#ch5_9_v15862}"
+    w "I will ask Miss Rietta to take the role.{#ch5_9_v15862}"
     voice "ch5.9_h_001"
     h "…What? Me?{#ch5_9_v369}"
     voice "ch5.9_l_002"

@@ -143,7 +143,7 @@ translate japanese strings:
     old "I-I am not angry or anything.{#ch5_9_v1698}"
     new "べ、別に怒ってるわけじゃないわよ。"
 
-    old "I will ask Miss Henrietta to take the role.{#ch5_9_v15862}"
+    old "I will ask Miss Rietta to take the role.{#ch5_9_v15862}"
     new "ミス・リエッタにお願いするわ。"
 
     old "…What? Me?{#ch5_9_v369}"

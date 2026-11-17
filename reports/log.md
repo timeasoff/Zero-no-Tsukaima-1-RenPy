@@ -5065,3 +5065,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Исправлено 4: `routes.md:895` — зеркальный stale-счётчик инвентаря 170→178, route 9→11, extra 1→7; `translation_plan.md:187` — чекбокс check_project → [x], `:829` — лишний `**`; RU «П-подождите, принцесса!» → «Э-э, принцесса!» (JA あ、あの — hesitation, не императив).
 * Семантика (seed i%103, 31 строка) — только находка выше; коммиты rounds 32–33 — без stale TL. `check_project` errors=0/warnings=312; `git diff --check` чистый.
 
+### 2026-11-17 — Аудит работы предшественника в этой ветке (f769e79..5314a46)
+
+* Проверены все 33 файла `game/` его 14 коммитов (00:10–06:20): 52 отступа в `ch4_6`, 2 маршрутных `jump` в `ch5_8`, t27→t26 в `ch2_3` и ~40 смысловых EN/RU-правок сверены с JA-источником — верны. Скретча и правок `ps2_source/`, словарей, `master` — нет.
+* Найден и исправлен 1 дефект (HIGH): `script-ch5_9.rpy:148` — RU и JA уже говорили «Риэтта» (JA ミス・リエッタ), EN-база оставалась «Miss Henrietta». EN → «Miss Rietta», `old` обновлён в обоих `tl/`. Ранее в журнале была зафиксирована только RU-часть правки (строка 4762).
+* Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; `check_typography --chapter 5 --lang ru` OK.
+

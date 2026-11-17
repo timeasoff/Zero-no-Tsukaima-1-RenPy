@@ -143,7 +143,7 @@ translate russian strings:
     old "I-I am not angry or anything.{#ch5_9_v1698}"
     new "Я-я вовсе не злюсь."
 
-    old "I will ask Miss Henrietta to take the role.{#ch5_9_v15862}"
+    old "I will ask Miss Rietta to take the role.{#ch5_9_v15862}"
     new "Я попрошу мадемуазель Риэтту сыграть её."
 
     old "…What? Me?{#ch5_9_v369}"
