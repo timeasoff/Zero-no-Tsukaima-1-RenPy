@@ -448,6 +448,15 @@ LOW/INFO без правки: 3 мёртвых ключа в `remark_{ja,ru}.rpy
 
 Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; `git diff --check` чистый.
 
+## Перепроверка №34 (документация и RU)
+
+Исправлено 4:
+- `routes.md:895` — зеркальная stale-запись инвентаря: 170→178 строк, `route` 9→11, `extra` 1→7 (исправлено в паре с :435);
+- `translation_plan.md:187` — чекбокс `check_project.py` → [x] (`RESULT: OK`, 0 errors); `:829` — убран лишний `**`;
+- RU `ch8_2_dialogs.rpy:232` — «П-подождите, принцесса!?» → «Э-э, принцесса!?» (JA あ、あの — hesitation filler, не приказ «подождите»).
+
+Семантика (seed i%103, 31 строка) — только находка выше; коммиты rounds 32–33 — без stale TL. Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; `git diff --check` чистый.
+
 ## where I stopped
 
 - Текущая фаза: **главы 6–9 завершены** (rounds 1–33); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.

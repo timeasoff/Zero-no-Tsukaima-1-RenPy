@@ -892,7 +892,7 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 
 ## 5.10 Проверки
 
-Примечание (2026-10-31, обновлено QA 2026-11-17): пункты 1–7 ниже отражают состояние на момент задачи S2. Актуально: условий `if louise_sympathy == 100` в коде нет (заменено на `zero_tundele >= 211`), точек вызова `sp_l1` — 7 (гейты глав 1–7), инвентарь §5 — 170 строк (`route` 9, `extra` 1).
+Примечание (2026-10-31, обновлено QA 2026-11-17): пункты 1–7 ниже отражают состояние на момент задачи S2. Актуально: условий `if louise_sympathy == 100` в коде нет (заменено на `zero_tundele >= 211`), точек вызова `sp_l1` — 7 (гейты глав 1–7), инвентарь §5 — 178 строк (`route` 11, `extra` 7, `date` 33, `menu` 104, `if` 11, `sprite_choice` 7, `portrait_choice` 4, `jump` 1).
 
 1. **Синтаксис Ren'Py**: прогнан `python tools/check_renpy_syntax.py --chapter N` для N = 0, 1, 2, 3, 4, 5, 6 — все 7 запусков → код возврата 0; `reports/check_renpy_syntax.md` (2026-10-31 04:32): «OK — проблем не найдено.»
 2. **Факт по заданию — `if louise_sympathy == 100`**: ровно **5** (программный подсчёт): `game/chapters/1/script-ch1_10.rpy:25`, `game/chapters/1/script-ch1_10.rpy:174`, `game/chapters/1/script-ch1_10.rpy:329`, `game/chapters/1/script-ch1_10.rpy:567`, `game/chapters/1/script-ch1_10.rpy:794`. Все — `route`-строки в `script-ch1_10.rpy`, каждая с веткой `call sp_l1` + `else`.

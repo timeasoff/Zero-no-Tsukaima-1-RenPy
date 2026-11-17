@@ -5060,3 +5060,8 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Семантика (seed i%101, 35 строк): `ch8_1:801` サイトさん → «Saito-san»/«Сайто-сан» в EN/RU+TL.
 * Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; `git diff --check` чистый.
 
+### 2026-11-17 — Перепроверка №34 (документация и RU)
+
+* Исправлено 4: `routes.md:895` — зеркальный stale-счётчик инвентаря 170→178, route 9→11, extra 1→7; `translation_plan.md:187` — чекбокс check_project → [x], `:829` — лишний `**`; RU «П-подождите, принцесса!» → «Э-э, принцесса!» (JA あ、あの — hesitation, не императив).
+* Семантика (seed i%103, 31 строка) — только находка выше; коммиты rounds 32–33 — без stale TL. `check_project` errors=0/warnings=312; `git diff --check` чистый.
+

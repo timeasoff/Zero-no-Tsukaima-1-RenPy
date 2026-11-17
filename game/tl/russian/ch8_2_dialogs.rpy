@@ -229,7 +229,7 @@ translate russian strings:
     new "Да. Принцесса, подождите здесь некоторое время. Я верну мир этой Тристании."
 
     old "W-W-W-Well, Princess!? That's too reckless! {#ch8_l_048}"
-    new "П-подождите, принцесса!? Это слишком безрассудно!"
+    new "Э-э, принцесса!? Это слишком безрассудно!"
 
     old "T-That's… there are various reasons! I can't say details, but… {#ch8_l_045}"
     new "Т-это… есть много причин! Подробности сказать не могу, но…"
