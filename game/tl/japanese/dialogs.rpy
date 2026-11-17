@@ -2454,7 +2454,7 @@ translate japanese strings:
     old "Eh, umm…"
     new "え、えっと......。"
 
-    old "Gish! You're drooling over every girl you see again!"
+    old "Guiche! You're drooling over every girl you see again!"
     new "ギーシュ!あなた、また見境なく色目を使って!"
 
     old "Oh my, are you jealous? My dear Montmorency."

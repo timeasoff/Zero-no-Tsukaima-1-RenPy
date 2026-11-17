@@ -77,6 +77,23 @@ EN-ревью:~1500 строк / ~490 реплик — замечаний нет
 
 После правок: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0; omission precheck `5_11/8_1/8_2` → 0.
 
+## Перепроверка №2 (свежие аудиторы, весь проект 0–9)
+
+| ID | Место | Проблема | Статус |
+|---|---|---|---|
+| V1 | `russian/ch8_3_dialogs.rpy:47` | RU `new` остался в старом смысле («Тристейн узнал: я жива») после EN-правки `ch8_h_063` | FIXED → «…чтобы показать: Тристейн всё ещё стоит» |
+| V2 | `ch8_3.rpy:448` + TL | JA «ハルナは一切覚えていない» — не помнит **Харуна**, а не Акина | FIXED EN «Though Haruna remembers none of what Akina did» + RU |
+| V3 | `ch9_1.rpy:653` + TL | «**His** Highness» при JA 姫さま (принцесса) | FIXED → «Her Highness» (RU уже было верно) |
+| V4 | `ch8_3.rpy:298` + TL | «城の連中» = люди в замке, а не «the mood of the city» | FIXED EN/RU |
+| F1 | `russian/ch5_11_thoughs.rpy` (10 строк) |RU-мысли в полноширинных `（ ）` | FIXED → курсив `_…_` |
+| F4 | `russian/choises.rpy:49` | «偶然じゃないかな» (не совпадение) → RU «Может быть, это просто совпадение» — инверсия polarity | FIXED → «Вряд ли это просто совпадение» |
+| F5 | `russian/dialogs.rpy:8759` | JA сомнение «大丈夫なのかな?» → RU уверенность «Она ведь правда в порядке» | FIXED → «Надеюсь, с ней всё в порядке» |
+| F6 | `ch1_9.rpy:23` + TL | «Gish» вместо канона «Guiche» (эталон ч. 1, текстовая правка) | FIXED → «Guiche» |
+| F2/F3 | `japanese/ch9_1_dialogs.rpy:161,317` | гомоглифы в JA: `ピнチ`, `からкаって` | ??? / USER DECISION — JA не правил без решения |
+| F7 | `ch1_9/ch4_6` «Valliere» | канон «Vallière», но это задокументированное отклонение | CANDIDATE — не трогал |
+
+Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0; `audio_converter check` 6982/6982 OK.
+
 ## where I stopped
 
 - Текущая фаза: **глава 6 завершена**; висячие вопросы глав 2–5 закрыты по указанию пользователя. Далее — **глава 7**.

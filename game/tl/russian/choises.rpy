@@ -46,7 +46,7 @@ translate russian strings:
     new "Наверное, так и есть."
 
     old "I doubt it's just a coincidence."
-    new "Может быть, это просто совпадение."
+    new "Вряд ли это просто совпадение."
 
     old "I don't really know."
     new "Не знаю точно."

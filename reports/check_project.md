@@ -4,12 +4,11 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (2)
+## ERROR (0)
 
-- E4 missing in tl/japanese: dialogue (It's enough that I'm safe inside the palace, so the Tristain can be re) at game/chapters/8/script-ch8_3.rpy:131
-- E5 missing in tl/russian: dialogue (It's enough that I'm safe inside the palace, so the Tristain can be re) at game/chapters/8/script-ch8_3.rpy:131
+- нет
 
-## WARNING (320)
+## WARNING (318)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
@@ -84,7 +83,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:388: Increases defense of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:385: Increases speed of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:320: Info
-- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:46: It's enough that I'm safe inside the palace, to show that Tristain is 
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:293: Items
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:230: Left Trigger\nLeft Bumper
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:360: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
@@ -225,7 +223,6 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:393: Increases defense of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:384: Increases speed of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:320: Info
-- W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:46: It's enough that I'm safe inside the palace, to show that Tristain is 
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:293: Items
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:221: Left Trigger\nLeft Bumper
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:361: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc

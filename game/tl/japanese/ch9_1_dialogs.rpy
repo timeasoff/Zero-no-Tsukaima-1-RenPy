@@ -277,7 +277,7 @@ translate japanese strings:
     old "Huh? {#ch9_s_055}"
     new "え？"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    old "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
     new "え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！"
 
     old "And… / on the lips… {#ch9_l_005}"

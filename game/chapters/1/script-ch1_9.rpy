@@ -20,7 +20,7 @@ label ch1_9:
 
     $ show_sprites(("g 2 shy", "m 4 angry"))
     voice "ch1.9_m_001"
-    m "Gish! You're drooling over every girl you see again!"
+    m "Guiche! You're drooling over every girl you see again!"
 
     $ show_sprites(("g 2 happy", "m 4 angry"))
     voice "ch1.9_g_002"

@@ -295,7 +295,7 @@ label ch8_3:
     # [SPRITE   lay5     image=+401, level=160, dir=1B]  # サイト
     # サイト：すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。  [voice 13652]
     voice "ch8_s_093"
-    s "Wow. Just seeing the Princess is changing the mood of the city. {#ch8_s_093}"
+    s "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
     # JA[13652]: サイト：すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。
     # [SPRITE   lay5     x=224, y=0]
     # [SPRITE   lay19    image=+940, level=160, dir=1A]  # デルフリンガー
@@ -445,7 +445,7 @@ label ch8_3:
     # JA[16170]: ウェザリー：そのとき、アキナがサイトやルイズの / 情報をわたしまで、伝えていたのさ。
     # ウェザリー：もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。  [voice 16171]
     voice "ch8_w_006"
-    w "Though Akina herself doesn't remember doing any of it. {#ch8_w_006}"
+    w "Though Haruna remembers none of what Akina did. {#ch8_w_006}"
     # JA[16171]: ウェザリー：もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。
     # サイト：くそっ、ウェザリー！ / 春奈を元に戻せ！  [voice 13661]
     voice "ch8_s_101"

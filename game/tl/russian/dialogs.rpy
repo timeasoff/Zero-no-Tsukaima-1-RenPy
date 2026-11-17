@@ -2459,7 +2459,7 @@ translate russian strings:
     old "Eh, umm…"
     new "А, эм-м…"
 
-    old "Gish! You're drooling over every girl you see again!"
+    old "Guiche! You're drooling over every girl you see again!"
     new "Гиш! Опять ты пускаешь слюни на каждую встречную!"
 
     old "Oh my, are you jealous? My dear Montmorency."
@@ -8756,7 +8756,7 @@ translate russian strings:
     new "А, да…"
 
     old "Whatever she says, she's still wobbling… I hope she's really okay…"
-    new "Как ни говори, а шаги у неё шатаются… Она ведь правда в порядке…"
+    new "Как ни говори, а шаги у неё шатаются… Надеюсь, с ней всё в порядке…"
 
     old "Now then, what should I do…{#ch3.3_s_032}"
     new "Ну что ж, что теперь делать…"

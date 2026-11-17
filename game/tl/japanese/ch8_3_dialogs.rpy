@@ -145,7 +145,7 @@ translate japanese strings:
     old "Your Majesty has returned! Now, we have won! {#ch8_a_002}"
     new "陥下が戻られた！ / これで、我々の勝利だ！"
 
-    old "Wow. Just seeing the Princess is changing the mood of the city. {#ch8_s_093}"
+    old "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
     new "すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。"
 
     old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
@@ -229,7 +229,7 @@ translate japanese strings:
     old "That's when Akina was passing information about you and Louise to me. {#ch8_w_005}"
     new "そのとき、アキナがサイトやルイズの / 情報をわたしまで、伝えていたのさ。"
 
-    old "Though Akina herself doesn't remember doing any of it. {#ch8_w_006}"
+    old "Though Haruna remembers none of what Akina did. {#ch8_w_006}"
     new "もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。"
 
     old "Damn you, Weatherby! Restore Haruna! {#ch8_s_101}"

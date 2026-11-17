@@ -650,7 +650,7 @@ label ch9:
     $ dissolve_fx("id(293)", type="cg")
     # ルイズ：え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！  [voice 4888]
     voice "ch9_l_006"
-    l "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    l "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
     # JA[4888]: ルイズ：え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！
     # ルイズ：しかも……。 / 唇に……。  [voice 4889]
     voice "ch9_l_007"

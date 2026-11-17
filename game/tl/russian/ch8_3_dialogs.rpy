@@ -44,7 +44,7 @@ translate russian strings:
     new "Но дворец сейчас под атакой. Вам не нужно насильно пробиваться обратно…"
 
     old "It's enough that I'm safe inside the palace, to show that Tristain is still standing. {#ch8_h_063}"
-    new "Достаточно того, что я в безопасности внутри дворца, чтобы Тристейн узнал: я жива."
+    new "Достаточно того, что я в безопасности внутри дворца, чтобы показать: Тристейн всё ещё стоит."
 
     old "Besides, I have something on my mind. {#ch8_h_064}"
     new "К тому же, у меня есть одна мысль."
@@ -142,8 +142,8 @@ translate russian strings:
     old "Your Majesty has returned! Now, we have won! {#ch8_a_002}"
     new "Ваше Величество вернулись! Теперь мы победили!"
 
-    old "Wow. Just seeing the Princess is changing the mood of the city. {#ch8_s_093}"
-    new "Вау. Только вид Принцессы меняет настроение в городе."
+    old "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
+    new "Вау. Только вид Принцессы меняет настроение людей в замке."
 
     old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
     new "Быть королём — ерунда. Главное — чтобы рядом был кто-то, в кого можно верить."
@@ -229,8 +229,8 @@ translate russian strings:
     old "That's when Akina was passing information about you and Louise to me. {#ch8_w_005}"
     new "В то время Акина передавала мне сведения о тебе и Луизе."
 
-    old "Though Akina herself doesn't remember doing any of it. {#ch8_w_006}"
-    new "Хоть сама Акина и не помнит, что это сделала."
+    old "Though Haruna remembers none of what Akina did. {#ch8_w_006}"
+    new "Хоть Харуна и не помнит ничего из того, что делала Акина."
 
     old "Damn you, Weatherby! Restore Haruna! {#ch8_s_101}"
     new "Чёрт тебя, Уэзерби! Верни Харуну!"
