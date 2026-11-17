@@ -147,7 +147,7 @@ define char_data = {
     "tabitha":     {
         "name": "Tabitha", 
         "color": "#b4dfec",
-        'description': "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\".", 
+        'description': "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\".", 
 
         #CHOISES
         "portrait_choise": "gui/system/portraits/choises/t_full.webp",  

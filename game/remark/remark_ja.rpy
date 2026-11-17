@@ -987,7 +987,7 @@ translate japanese strings:
     new "ちなみに、日本の作品じゃない。"
 
     old "In terms of size, they barely even compare to a single chapter of this game.{#r}"
-    new "規模で言えば、このゲームのたった一章と比べても barely くらいのものだ。"
+    new "規模で言えば、このゲームの一章にすら遠く及ばない。"
 
     old "And that's awesome!{#r}"
     new "それってすごいことだ！"
@@ -1205,20 +1205,20 @@ translate japanese strings:
     old "Just so you can see how far I actually got.{#r}"
     new "自分が実際にどこまで進めたのか、みんなに見てもらうためだ。"
 
-    old "But for now\...{#r}"
+    old "But for now...{#r}"
     new "でも今は……"
 
-    old "If you find a bug — {a=[https://t.me/timeasoff}let](https://t.me/timeasoff}let) me know{/a}.{#r}"
-    new "バグを見つけたら――{a=[https://t.me/timeasoff}教えて{/a](https://t.me/timeasoff}教えて{/a)}ほしい。"
+    old "If you find a bug — {a=https://t.me/timeasoff}let me know{/a}.{#r}"
+    new "バグを見つけたら――{a=https://t.me/timeasoff}教えて{/a}ほしい。"
 
-    old "If you spot a crappy translation — {a=[https://t.me/timeasoff}let](https://t.me/timeasoff}let) me know{/a}.{#r}"
-    new "ひどい翻訳を見つけたら――{a=[https://t.me/timeasoff}教えて{/a](https://t.me/timeasoff}教えて{/a)}ほしい。"
+    old "If you spot a crappy translation — {a=https://t.me/timeasoff}let me know{/a}.{#r}"
+    new "ひどい翻訳を見つけたら――{a=https://t.me/timeasoff}教えて{/a}ほしい。"
 
     old "If you want to help — even better.{#r}"
     new "手伝いたいという人がいれば――それならなおさら嬉しい。"
 
-    old "{a=[https://t.me/timeasoff}Write](https://t.me/timeasoff}Write) here{/a}{#r}"
-    new "{a=[https://t.me/timeasoff}ここに書いて{/a](https://t.me/timeasoff}ここに書いて{/a)}"
+    old "{a=https://t.me/timeasoff}Write here{/a}{#r}"
+    new "{a=https://t.me/timeasoff}ここに書いて{/a}"
 
     old "You don't need any particular skills to help.{#r}"
     new "手伝うのに特別なスキルは必要ない。"
@@ -1232,7 +1232,7 @@ translate japanese strings:
     old "Thank you too.{#r}"
     new "それだけでもありがとう。"
 
-    old "And now\...{#r}"
+    old "And now...{#r}"
     new "そして今……"
 
     old "Get back to the game.{#r}"

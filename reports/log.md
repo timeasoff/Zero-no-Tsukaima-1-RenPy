@@ -4996,3 +4996,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Исправлено 1: `ch9_1:789` 相棒 (Дерфлингер о Сайто) = «partner/напарник», а не «familiar/фамильяр» (канон 使い魔, `dictionary.md:362`), EN/RU+TL.
 * Семантика (seed i%53, 70 строк + 15 длинных RU): 1 находка (выше). `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
 
+### 2026-11-17 — Перепроверка №23 (char_data/UI/remark)
+
+* Исправлено 11: `\m` → `\n` в описании Табиты (`characters.rpy:150` + old JA/RU); RU nicknames Табиты/Кирхе → «Табита Вьюга»/«Кирхе Обжигающая» (`dictionary.md:164/162`) и «Принцесса Тристейна» вместо Тристании (`:200–201`); JA описание Сиесты — возвращены `\n`; `remark_ja.rpy` — 3 испорченных old-ключа ссылок восстановлены по базовым строкам, new очищены, 2 `\...` → `...`, «barely» переведено.
+* LOW не трогал: мёртвая пара ключей `{size=-2}A small bonus chapter…` в `remark_{ja,ru}.rpy`.
+* Семантика (seed i%59, 35 строк) и коммиты rounds 19–22 — 0 новых ошибок. `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
+

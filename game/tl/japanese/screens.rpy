@@ -346,7 +346,7 @@ translate japanese strings:
     new "攻撃"
 
     old "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito."
-    new "トリステイン魔法学院に勤めているメイド。 平民であるため、魔法は使えない。 サイトに想いを寄せている。"
+    new "トリステイン魔法学院に勤めているメイド。\n平民であるため、魔法は使えない。\nサイトに想いを寄せている。"
 
     old "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown."
     new "サイトを召喚した魔法使い。\n虚無の魔法を使えるも、\nその実態はいまだ不明。"
@@ -354,7 +354,7 @@ translate japanese strings:
     old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
     new "ルイズによって、この世界に召喚された 日本の少年。\nルイズからは使い魔扱いをされている。"
 
-    old "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\"."
+    old "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\"."
     new "ルイズのクラスメイト。\n風の系統の魔法が得意。\n二つ名は「雪風のタバサ」。"
 
     old "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\"."

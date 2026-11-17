@@ -355,14 +355,14 @@ translate russian strings:
     old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
     new "Японский юноша, который был призван в этот мир Луизой.\nЛуиза обращается с ним как с фамильяром."
 
-    old "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\"."
-    new "Одноклассница Луизы.\nСпециалист по магии ветра.\nЕё прозвище — «Табита Снежный Ветер»."
+    old "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\"."
+    new "Одноклассница Луизы.\nСпециалист по магии ветра.\nЕё прозвище — «Табита Вьюга»."
     
     old "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\"."
-    new "Одноклассница Луизы.\nСпециалист по магии огня.\nЕё прозвище — «Кирхе Страстного Жара»"
+    new "Одноклассница Луизы.\nСпециалист по магии огня.\nЕё прозвище — «Кирхе Обжигающая»"
 
     old "Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecializes in water magic."
-    new "Принцесса Тристании.\nДруг детства Луизы.\nСпециалист по магии воды."
+    new "Принцесса Тристейна.\nДруг детства Луизы.\nСпециалист по магии воды."
 
     # ==== SPELS ====
 
