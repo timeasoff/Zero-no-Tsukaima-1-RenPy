@@ -14715,7 +14715,7 @@ translate japanese strings:
     new "それでは練習の説明に入る前に　『双月天女』のもう少し細かい内容の　説明をするわ。"
 
 translate japanese strings:
-    old "For now, it's an old story. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
+    old "It's a tale from long ago. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
     new "今は昔の物語。　ある国で、年老いた貴族が、狩猟の途中の森で　幼い少女を拾ったの。"
 
 translate japanese strings:

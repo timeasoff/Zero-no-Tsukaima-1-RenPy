@@ -410,7 +410,7 @@ label ch5_3:
     w "Before we get to explaining the rehearsal, let me tell you a little more about the finer details of 'The Maiden of the Twin Moons'."
     # JA[15929]: それでは練習の説明に入る前に / 『双月天女』のもう少し細かい内容の / 説明をするわ。
     voice "ch5.3_w_003"
-    w "For now, it's an old story. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
+    w "It's a tale from long ago. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
     # JA[15930]: 今は昔の物語。 / ある国で、年老いた貴族が、狩猟の途中の森で / 幼い少女を拾ったの。
     voice "ch5.3_w_004"
     w "The old noble couple, who had been blessed with no children, decided to raise that girl, Noelle, as their own."

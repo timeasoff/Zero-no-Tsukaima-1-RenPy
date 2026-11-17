@@ -190,8 +190,8 @@
 | `check_project.py --chapter 5` | errors=0, RESULT: OK |
 | `check_typography.py --chapter 5 --lang ru` | OK, 3 warning (двойные пробелы в `ch5_6_dialogs.rpy:35/137/293` — косметика) |
 | `check_placeholders.py --chapter 5` | OK (158 warning — ожидаемые `id(K)`) |
-| `check_assets.py --chapter 5` | OK (1323 voices consumed) |
-| `check_voice_transcriptions.py --chapter 5` | OK (1323/1323) |
+| `check_assets.py --chapter 5` | OK (1324 voices consumed) |
+| `check_voice_transcriptions.py --chapter 5` | OK (1324/1324) |
 | `omission_precheck.py` | 11/11 частей, полных пропусков 0 |
 | Сканер отступов 4→12 | 0 расхождений во всех главах 2–5 |
 

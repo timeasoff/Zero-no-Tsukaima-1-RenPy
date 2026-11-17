@@ -14721,8 +14721,8 @@ translate russian strings:
     new "Прежде чем объяснять репетиции, позвольте рассказать подробнее о содержании «Девушки Луны-Близнецы»."
 
 translate russian strings:
-    old "For now, it's an old story. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
-    new "Пока — это старая история. В некоей стране пожилой аристократ во время охоты в лесу подобрал маленькую девочку."
+    old "It's a tale from long ago. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
+    new "Это история давно минувших дней. В некоей стране пожилой аристократ во время охоты в лесу подобрал маленькую девочку."
 
 translate russian strings:
     old "The old noble couple, who had been blessed with no children, decided to raise that girl, Noelle, as their own."
