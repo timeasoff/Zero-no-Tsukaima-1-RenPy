@@ -18129,7 +18129,7 @@ translate russian strings:
     new "Сайто-сан! Господа! Уээ… уэээ-эээн!"
 
     old "Whoa — Siesta?{#ch7.3_s_005}"
-    new "Так-так, что это с тобой, Сиеста?"
+    new "Ой, Сиеста?"
 
     old "Haruna-san suddenly got such a scary face and left somewhere, and then… hic. And then I heard explosions from outside…{#ch7.3_si_003}"
     new "Харуна-сан вдруг сделала такое страшное лицо и куда-то ушла… ик. А снаружи ещё и взрывы слышны…"
