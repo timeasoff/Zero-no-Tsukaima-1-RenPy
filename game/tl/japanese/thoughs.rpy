@@ -1288,7 +1288,7 @@ translate japanese strings:
     new "（それからも練習の日々は続いた）"
 
 translate japanese strings:
-    old "The little princess's behavior on her daily visits is mystery enough, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
+    old "The little princess's behavior on her daily visits is a mystery in itself, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
     new "（毎日通ってくるお姫さまの行動も謎だが、　相変わらず、キュルケ、モンモランシー、　ギーシュが戻ってこないのも謎だな）"
 
 translate japanese strings:

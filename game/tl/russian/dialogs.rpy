@@ -1971,7 +1971,7 @@ translate russian strings:
     new "…。"
 
     old "By the way, Montmorency... I have a question I'd like to ask you once more."
-    new "Кстати, Монморанси… У меня есть к тебе вопрос, который я хотел бы задать повторно."
+    new "Кстати, Монморанси… У меня есть к тебе вопрос, который я хотела бы задать повторно."
 
     old "W-what is it?"
     new "Ч-что такое?"
@@ -14335,7 +14335,7 @@ translate russian strings:
 
 translate russian strings:
     old "It seems you had no intention of peeking, but how do you mean to apologize for having sneaked in?"
-    new "Похоже, подсматривать вы и не собирались, но как ты собираешься извиниться за то, что влезла?"
+    new "Похоже, подсматривать ты и не собиралась, но как ты собираешься извиниться за то, что влезла?"
 
 translate russian strings:
     old "Um, it isn't Miss Louise and the others' fault. I insisted on it. I had business with Weatherby-san…"

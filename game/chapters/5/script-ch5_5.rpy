@@ -180,7 +180,7 @@ label ch5_5:
     # [TRANS   trans("crossfade", 1000)] — переход выполняется fade_fx
     th "Even after that, the days of practice continued.{#ch5_5_th_001}"
     # JA: （それからも練習の日々は続いた）
-    th "The little princess's behavior on her daily visits is mystery enough, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
+    th "The little princess's behavior on her daily visits is a mystery in itself, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
     # JA: （毎日通ってくるお姫さまの行動も謎だが、 / 　相変わらず、キュルケ、モンモランシー、 / 　ギーシュが戻ってこないのも謎だな）
     th "Who knows how this will turn out…{#ch5_5_th_003}"
     # JA: （まったく、どうなることやら……）

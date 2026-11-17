@@ -1287,7 +1287,7 @@ translate russian strings:
     new "И после этого дни репетиций продолжались."
 
 translate russian strings:
-    old "The little princess's behavior on her daily visits is mystery enough, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
+    old "The little princess's behavior on her daily visits is a mystery in itself, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
     new "Поведение малой принцессы, которая приходит к нам ежедневно, — само по себе загадка, но и то, что Кирхе, Монморанси и Гиш всё не возвращаются, тоже загадка."
 
 translate russian strings:
