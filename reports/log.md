@@ -4930,3 +4930,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение: `殺気` → «убийственное намерение»; `気分屋` → «переменчивая»; `さすが` → «Вот она Кирке»; `しまった` → «Чёрт»; `えー` → «Э-э»; `いや` → «Нет, я к тому и веду»; `教えてくれない？` → «не научишь ли ты меня…»; `逆立ち` → «в стойке на руках».
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 13_4 --lang ru/en` → OK.
 - Итог: глава 13 (ядро 549–577 + extra 1469–1484 + date 1184–1188) полностью портирована и закрыта аудитами A/C/Analyzer по всем 4 частям.
+
+
+## 2026-11-18 — Глава 14 (chapter_15 私のお兄ちゃん): часть 1 (сцены 578–598)
+
+- статус: DONE (порт + механические фазы; аудиты — отдельным проходом)
+- место: `game/chapters/14/script-ch14_{1,2}.rpy`, `game/tl/{japanese,russian}/ch14_1_*`, `references/voice_id_map.csv` (+118), `reports/ch14/1.md`
+- решение (E1): стаб `script-ch14.rpy` получил метку `ch14_stub`, точку входа `label ch14` определяет часть 1.
+- решение (move-меню): 4 варианта из сцены 588 ведут в `ch14_2_scene_1485/1486/1487/1488` (заглушки в `script-ch14_2.rpy`).
+- PROVISIONAL: заглушки `id(K)` для фонов/CG; `VIBRATE` → `shake_fx(duration=0.8)`; говорящие `mage`, `d`, `w` уже определены в `characters.rpy`.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_1 --lang ru/en` → OK; `audio_converter.py check` → OK (8423/8423); `omission_precheck --chapter 14_1` → 0 кандидатов.
+- отчёт: `reports/ch14/1.md`; план обновлён (глава 14 — часть 1).
