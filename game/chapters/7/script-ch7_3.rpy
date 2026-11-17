@@ -40,7 +40,7 @@
 #   1169 → 1170/1171/1172 → 1173) — варианты сливаются в общие сцены
 #   (fall-through после меню, прецедент script-ch7_2.rpy).
 # Гейт даты (конец сцены 404) реплицирует script-ch6_3.rpy; dére-слот 0 —
-#   call sp_l1 (K=12), постдата +405 — jump attention (PROVISIONAL).
+#   call sp_l1 (K=12), постдата +405 — jump ch8.
 
 label ch7_3:
 
@@ -442,9 +442,8 @@ label ch7_3:
             call sp_l1 from _call_sp_l1_12
             $ fade_fx("black")
             stop music fadeout 1.0
-            # Постдата +405 = глава 9 (не портирована): PROVISIONAL-конец,
-            # перецепится на ch8 при портировании.
-            jump attention
+            # Постдата +405 = начало главы 8 (script-ch8_1.rpy).
+            jump ch8
 
     jump ch7_3_s1169
 

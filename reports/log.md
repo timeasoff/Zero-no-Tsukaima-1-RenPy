@@ -4900,3 +4900,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Поток подтверждён: 83 `call` → 14 целей, везде `return`/`jump`; 0 дублей лейблов и `from _call_*`; 215 menu-тел; 18 date-лейблов; 3 fallthrough в ch6 намеренны.
 * Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0.
 
+### 2026-11-17 — Перепроверка №9 (полная цепочка переходов)
+
+* Ветка дэрэ в `ch7_3.rpy:447` (`zero_tundele >= 211` → `call sp_l1`) всё ещё завершалась `jump attention`, пропуская гл. 8–9 → исправлено на `jump ch8`; обновлены stale-комментарии `ch7_3:43`, `ch6_3:8`.
+* `references/routes.md` Z1/Z2 обновлены: `ch5_11.rpy:372` содержит `jump ch6` для route 5; остальные ветвиscene 343 ведут в `attention` по source GOTO в непортированные главы. Статус FIXED/PASS.
+* Терминология/грамматика: RU «подручный» → «фамильяр» (2, `dictionary.md:362`), «Согласен.» → «Согласна.» (Кирхе).
+* Цепочка подтверждена: `start → ch0 → … → ch5 → (route 5) ch6 → ch7 → ch8 → ch9 → attention`; 411 лейблов / 539 рёбер, 0 неопределённых целей и дублей. Слепая выборка 80 строк — только 2 находки (выше); гомоглифов/mojibake 0.
+* Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0.
+

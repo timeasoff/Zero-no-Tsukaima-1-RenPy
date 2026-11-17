@@ -10423,10 +10423,10 @@ translate russian strings:
     new "Ну… Это…"
 
     old "Contract means covenant. Servant means familiar."
-    new "Контракт — это договор. Сервант — это подручный."
+    new "Контракт — это договор. Сервант — это фамильяр."
 
     old "Exactly. A Contract Servant is the covenant by which a mage acknowledges a familiar."
-    new "Именно. Контракт Сервант — это договор, которым маг признаёт подручного."
+    new "Именно. Контракт Сервант — это договор, которым маг признаёт фамильяра."
 
     old "It's not that I doubt you…"
     new "Не то чтобы я сомневаюсь…"

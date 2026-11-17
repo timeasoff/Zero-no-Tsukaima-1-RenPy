@@ -235,7 +235,7 @@ translate russian strings:
     new "Я знаю, что это опасно, / но без королевы ничего не сдвинется."
 
     old "Agreed.{#ch8_k_005}"
-    new "Согласен."
+    new "Согласна."
 
     old "Then, dismissed.{#ch8_l_014}"
     new "Тогда, расходимся."
