@@ -7326,10 +7326,10 @@ translate russian strings:
     old "We shouldn't make too many demands, you know?"
     new "Не стоит слишком много себе позволять, верно?"
 
-    old "Is that really being so demanding?"
+    old "Is that really being so extravagant?"
     new "Разве это роскошь?"
 
-    old "It certainly is a demand!"
+    old "It certainly is a luxury!"
     new "Ещё какая роскошь!"
 
     old "Never mind that— Haruna!"
@@ -16196,8 +16196,8 @@ translate russian strings:
     old "When did the innkeeper get such a cute voice!?{#ch6_s_009}"
     new "С каких это пор у трактирщика такой милый голос!?"
 
-    old "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
-    new "Дурак! Конечно нет! Любому ясно, что это голос принцессы!"
+    old "Idiot! Of course not! No matter how you listen, that's NOT the princess!{#ch6_l_011}"
+    new "Дурак! Конечно нет! Как ни слушай, это не принцесса!"
 
     old "I-I was just joking.{#ch6_s_010}"
     new "Я-я просто пошутил."
@@ -16208,8 +16208,8 @@ translate russian strings:
     old "Who is this ‘It-is-I’ person behind the door!?{#ch6_s_011}"
     new "Кто такая «Это я» за дверью!?"
 
-    old "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
-    new "О ком ты говоришь!? Это же явно голос принцессы! Ну и бестолковый же ты фамильяр!"
+    old "Who are you talking about!? No matter how you listen, that is NOT the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
+    new "О ком ты говоришь!? Как ни слушай, это не голос принцессы! Ну и бестолковый же ты фамильяр!"
 
     old "Aww, it was only a little joke…{#ch6_s_012}"
     new "Эх, это была всего лишь безобидная шутка…"

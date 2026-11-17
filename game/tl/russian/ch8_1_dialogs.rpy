@@ -169,7 +169,7 @@ translate russian strings:
     new "И кроме того…"
 
     old "Sounds like there's some bad news…{#ch8_l_008}"
-    new "Похоже, есть ещё новость похуже…"
+    new "Похоже, есть какая-то нехорошая новость…"
 
     old "Terrible news.{#ch8_k_003}"
     new "Очень плохая."

@@ -7320,10 +7320,10 @@ translate japanese strings:
     old "We shouldn't make too many demands, you know?"
     new "あまり贅沢を言ってはいけませんよ？"
 
-    old "Is that really being so demanding?"
+    old "Is that really being so extravagant?"
     new "それって贅沢なのか？"
 
-    old "It certainly is a demand!"
+    old "It certainly is a luxury!"
     new "立派な贅沢です！"
 
     old "Never mind that— Haruna!"
@@ -16214,7 +16214,7 @@ translate japanese strings:
     old "When did the innkeeper get such a cute voice!?{#ch6_s_009}"
     new "宿屋の親父、いつそんな可愛い声に！？"
 
-    old "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
+    old "Idiot! Of course not! No matter how you listen, that's NOT the princess!{#ch6_l_011}"
     new "ばかっ！
 そんなわけないでしょ！
 どう聞いても姫さまじゃないの！"
@@ -16228,7 +16228,7 @@ translate japanese strings:
     old "Who is this ‘It-is-I’ person behind the door!?{#ch6_s_011}"
     new "ドアの向こうにいる、ワタクシさんって誰！？"
 
-    old "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
+    old "Who are you talking about!? No matter how you listen, that is NOT the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
     new "どこの誰よ、それ！
 どう聞いても姫さまのお声じゃないの！
 ほんっとにバカ使い魔ね！"

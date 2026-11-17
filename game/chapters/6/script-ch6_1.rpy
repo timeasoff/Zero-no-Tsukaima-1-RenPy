@@ -132,7 +132,7 @@ label ch6_s346:
     s "When did the innkeeper get such a cute voice!?{#ch6_s_009}"
     # JA[13386]: 宿屋の親父、いつそんな可愛い声に！？
     voice "ch6_l_011"
-    l "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
+    l "Idiot! Of course not! No matter how you listen, that's NOT the princess!{#ch6_l_011}"
     # JA[7307]: ばかっ！ そんなわけないでしょ！ どう聞いても姫さまじゃないの！
     $ tndl(-30)  # TNDL events_full L161 (sc 346, ch6_l_011)
     voice "ch6_s_010"
@@ -149,7 +149,7 @@ label ch6_s347:
     s "Who is this ‘It-is-I’ person behind the door!?{#ch6_s_011}"
     # JA[13388]: ドアの向こうにいる、ワタクシさんって誰！？
     voice "ch6_l_013"
-    l "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
+    l "Who are you talking about!? No matter how you listen, that is NOT the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
     # JA[7309]: どこの誰よ、それ！ どう聞いても姫さまのお声じゃないの！ ほんっとにバカ使い魔ね！
     $ tndl(-30)  # TNDL events_full L184 (sc 347, ch6_l_013)
     voice "ch6_s_012"
