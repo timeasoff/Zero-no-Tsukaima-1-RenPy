@@ -4,13 +4,13 @@
     old "No good. / She's nowhere.{#ch11_s_013}"
     new "（……駄目だ。どこにもいない）"
 
-    old "Where did she go? / Don't tell me she really...{#ch11_s_014}"
+    old "Where did she go? / Don't tell me she really…{#ch11_s_014}"
     new "（どこに行ったんだよ。まさかホントに……）"
 
-    old "...That's right, the forest! / I haven't checked there yet!{#ch11_s_015}"
+    old "…That's right, the forest! / I haven't checked there yet!{#ch11_s_015}"
     new "（……そうだ、森！まだ、あそこには行っていなかった！）"
 
-    old "...There she is, Haruna!{#ch11_s_016}"
+    old "…There she is, Haruna!{#ch11_s_016}"
     new "（……いた、春奈だ！）"
 
     old "Hiragan-kun! / Why are you in a place like this!?{#ch11_ha_001}"
@@ -22,10 +22,10 @@
     old "You suddenly disappear / and everyone's in an uproar!{#ch11_s_018}"
     new "サイト：春奈が急にいなくなったりするから、こっちは大騒ぎだぞ！"
 
-    old "Eh... / Um, well...{#ch11_ha_002}"
+    old "Eh… / Um, well…{#ch11_ha_002}"
     new "ハルナ：えっ……。 / あの、その……。"
 
-    old "Even Siesta, seeing you worried, / started thinking the worst...{#ch11_s_019}"
+    old "Even Siesta, seeing you worried, / started thinking the worst…{#ch11_s_019}"
     new "サイト：シエスタなんか、悩んでる春奈を見てたから、縁起でもないこと考えだすし……。"
 
     old "Louise and the others are worried sick looking for you!{#ch11_s_020}"
@@ -40,13 +40,13 @@
     old "Yeah.{#ch11_ha_004}"
     new "ハルナ：うん。"
 
-    old "Actually, my answer was decided from the start. / If I think about living in this world...{#ch11_ha_005}"
+    old "Actually, my answer was decided from the start. / If I think about living in this world…{#ch11_ha_005}"
     new "ハルナ：ホントはね、最初から返事は決まってたの。 / 私がこの世界で生きてくためって考えればね。"
 
-    old "Th-that means...{#ch11_s_022}"
+    old "Th-that means…{#ch11_s_022}"
     new "サイト：そ、それって……。"
 
-    old "But to give that answer... / I didn't have enough... courage.{#ch11_ha_006}"
+    old "But to give that answer… / I didn't have enough… courage.{#ch11_ha_006}"
     new "ハルナ：でも、そう答えるには、勇気が……足りなかった。"
 
     old "Courage?{#ch11_s_023}"
@@ -55,10 +55,10 @@
     old "The courage to leave this academy.{#ch11_ha_007}"
     new "ハルナ：この学院を離れる勇気。"
 
-    old "Louise-san is here, Siesta-san is here, / everyone is here...{#ch11_ha_008}"
+    old "Louise-san is here, Siesta-san is here, / everyone is here…{#ch11_ha_008}"
     new "ハルナ：ルイズさんがいて、シエスタさんがいて、みんながいて……。"
 
-    old "Suddenly coming to this world, / I was anxious, scared even, / but...{#ch11_ha_009}"
+    old "Suddenly coming to this world, / I was anxious, scared even, / but…{#ch11_ha_009}"
     new "ハルナ：急にこっちの世界に来て、不安だったり、怖かったりもしたけど、"
 
     old "The time at this academy was / so fun I forgot all that.{#ch11_ha_010}"
@@ -70,10 +70,10 @@
     old "I see, because I was here. / Wait, me?{#ch11_s_024}"
     new "サイト：なるほど、俺がいたからね。って俺？"
 
-    old "...Yeah.{#ch11_ha_012}"
+    old "…Yeah.{#ch11_ha_012}"
     new "ハルナ：……うん。"
 
-    old "Uh, um, that means...{#ch11_s_025}"
+    old "Uh, um, that means…{#ch11_s_025}"
     new "サイト：え、えっと、それって……。"
 
     old "But it's okay now. / I've already decided.{#ch11_ha_013}"
@@ -85,16 +85,16 @@
     old "H-hey. / Haruna!{#ch11_s_026}"
     new "サイト：お、おい。春奈！"
 
-    old "D-don't make that face, Hiragan-kun. / I decided this myself, so I'm fine. / ...Probably.{#ch11_ha_015}"
+    old "D-don't make that face, Hiragan-kun. / I decided this myself, so I'm fine. / …Probably.{#ch11_ha_015}"
     new "ハルナ：そ、そんな顔しないでよ、平賀くん。自分で決めたことなんだから、平気よ。……たぶん。"
 
-    old "...{#ch11_s_039}"
+    old "…{#ch11_s_039}"
     new "サイト：……。"
 
-    old "Besides, Weatherly-san's troupe travels, / but they come to Tristain often, / so...{#ch11_ha_016}"
+    old "Besides, Weatherly-san's troupe travels, / but they come to Tristain often, / so…{#ch11_ha_016}"
     new "ハルナ：それにね、ウェザリーさんの劇団は旅回りだけど、トリスタニアにはよく来るらしいし……。"
 
-    old "I can see Hiragan-kun and everyone / anytime... it's okay.{#ch11_ha_017}"
+    old "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"
     new "ハルナ：平賀くんや学院のみんなには、いつでも会えるから……大丈夫。"
 
     old "Yeah, that's right. / You can visit anytime. / You're always welcome.{#ch11_s_027}"
@@ -103,10 +103,10 @@
     old "Yeah.{#ch11_ha_018}"
     new "ハルナ：うん。"
 
-    old "...{#ch11_s_028}"
+    old "…{#ch11_s_028}"
     new "サイト：……。"
 
-    old "... / Wait! / Everyone's worried, right? / I have to go back!{#ch11_ha_019}"
+    old "… / Wait! / Everyone's worried, right? / I have to go back!{#ch11_ha_019}"
     new "ハルナ：……。いけない！みんな心配してくれてるんだよね。戻らないと！"
 
     old "Y-yeah. / Siesta's gonna be furious!{#ch11_s_029}"
@@ -124,22 +124,22 @@
     old "It's fine.{#ch11_l_010}"
     new "ルイズ：大丈夫よ。"
 
-    old "It's gonna be... lonely. / Haruna-san...{#ch11_si_013}"
+    old "It's gonna be… lonely. / Haruna-san…{#ch11_si_013}"
     new "シエスタ：さ、さびしくなります。ハルナさん……。"
 
-    old "D-don't drink untreated water on your travels. / Don't follow suspicious people. / And then... and then...{#ch11_si_014}"
+    old "D-don't drink untreated water on your travels. / Don't follow suspicious people. / And then… and then…{#ch11_si_014}"
     new "シエスタ：た、旅先では生水とか飲んじゃダメですよ。変な人についていかないでね。それから……それから……。"
 
     old "Geez, Siesta-san. / I'm not that much of a child.{#ch11_ha_022}"
     new "ハルナ：もう、シエスタさんったら。私、そんなに子供じゃないですよ。"
 
-    old "R-right, of course...{#ch11_si_015}"
+    old "R-right, of course…{#ch11_si_015}"
     new "シエスタ：そ、そうですよね……。"
 
     old "What's wrong? / You both have such difficult faces.{#ch11_m_001}"
     new "モンモランシー：どうしたの？２人とも難しい顔して。"
 
-    old "It's a shame such a cute girl is leaving / Ow... / Don't pinch me, Montmorency!{#ch11_g_001}"
+    old "It's a shame such a cute girl is leaving / Ow… / Don't pinch me, Montmorency!{#ch11_g_001}"
     new "ギーシュ：あんなかわいい子がいなくなるのは残念だなって、イタタ…つねらないで、モンモランシー！"
 
     old "My my, you're popular. / Haruna.{#ch11_w_001}"
@@ -160,22 +160,22 @@
     old "Make sure it's the beauties.{#ch11_o_002}"
     new "オスマン：くれぐれもきれいどころでの。"
 
-    old "...{#ch11_w_003}"
+    old "…{#ch11_w_003}"
     new "ウェザリー：…。"
 
-    old "Haruna...{#ch11_s_030}"
+    old "Haruna…{#ch11_s_030}"
     new "サイト：春奈…。"
 
-    old "If I find a way back to Japan / I'll contact you right away...{#ch11_s_031}"
+    old "If I find a way back to Japan / I'll contact you right away…{#ch11_s_031}"
     new "サイト：日本に戻る方法が見つかったらすぐ連絡をとるから…。"
 
-    old "Yeah, me too. / With a traveling life, I'll visit many places / so...{#ch11_ha_024}"
+    old "Yeah, me too. / With a traveling life, I'll visit many places / so…{#ch11_ha_024}"
     new "ハルナ：うん、私も。旅の暮らしになると、いろんな土地に行くと思うし…ね。"
 
-    old "...{#ch11_k_001}"
+    old "…{#ch11_k_001}"
     new "キュルケ：…。"
 
-    old "Hey, Haruna... / Just a moment?{#ch11_k_002}"
+    old "Hey, Haruna… / Just a moment?{#ch11_k_002}"
     new "キュルケ：ねえ、ハルナ…。ちょっとだけいい？"
 
     old "Kirche-san, please don't pull me so hard.{#ch11_ha_025}"
@@ -196,13 +196,13 @@
     old "Y-yes.{#ch11_ha_027}"
     new "ハルナ：は、はい。"
 
-    old "Well then, it's about time...{#ch11_w_004}"
+    old "Well then, it's about time…{#ch11_w_004}"
     new "ウェザリー：じゃあ、そろそろ…。"
 
     old "Then, do your best.{#ch11_s_032}"
     new "サイト：じゃあ、頑張ってな。"
 
-    old "Yeah... / I promise. / Well then, bye-bye.{#ch11_ha_028}"
+    old "Yeah… / I promise. / Well then, bye-bye.{#ch11_ha_028}"
     new "ハルナ：うん…。約束する。じゃあね、バイバイ。"
 
     old "I'll write letters.{#ch11_s_033}"
@@ -217,7 +217,7 @@
     old "That much, I'll write for you.{#ch11_l_011}"
     new "ルイズ：それくらいは、わたしが書いてあげるわよ。"
 
-    old "Louise... / Thanks.{#ch11_s_035}"
+    old "Louise… / Thanks.{#ch11_s_035}"
     new "サイト：ルイズ…。ありがとう。"
 
     old "It's okay! / We'll meet again.{#ch11_s_036}"
@@ -241,6 +241,6 @@
     old "Then, farewell! / Everyone of the Magic Academy.{#ch11_w_006}"
     new "ウェザリー：それでは、さらばです！魔法学院の皆様。"
 
-    old "Haruna...{#ch11_s_038}"
+    old "Haruna…{#ch11_s_038}"
     new "サイト：春奈…。"
 

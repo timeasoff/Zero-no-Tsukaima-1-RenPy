@@ -29,6 +29,11 @@ START = {'s': 40, 'ha': 32, 'l': 13, 'si': 16, 'k': 6,
          't': 1, 'w': 7, 'ak': 1, 'mage': 1, 'th': 1}
 
 
+def en_norm(s):
+    """PROMTS.md п.5: многоточие в EN — символ '…', не три точки."""
+    return re.sub(r'\.{3,}', '…', s) if s else s
+
+
 def bg_name(i):
     return BG_NAMED.get(i, 'id(%d)' % i)
 
@@ -107,6 +112,7 @@ def generate(part, parse_file, trans, choices, counters, start_scene, end_scene)
         if k == 'dlg':
             idx = x['idx']
             en, ru = trans[idx]
+            en = en_norm(en)
             spk = SPK.get(x['speaker'], 'th')
             if en is None:
                 script.append('    # ' + x['src'] + '  (no voice — пропущено по образцу ch11_2)')
@@ -131,7 +137,7 @@ def generate(part, parse_file, trans, choices, counters, start_scene, end_scene)
             script.append('    menu:')
             for i, o in enumerate(x['options']):
                 en, ru = opts[i]
-                ctext = '%s{#ch11_%d_c_%d_%d}' % (en, part, cur_scene, i + 1)
+                ctext = '%s{#ch11_%d_c_%d_%d}' % (en_norm(en), part, cur_scene, i + 1)
                 tgt = label_for(o['target'], part)
                 script.append('        "%s":' % ctext)
                 script.append('            jump %s' % (tgt or 'attention'))

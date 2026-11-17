@@ -28,7 +28,7 @@ label ch11_3_scene_478:
     # [SPRITE   lay1     image=+308, level=160, dir=1A]
     # ルイズ：短い付き合いだったはずなのに……。
     voice "ch11_l_015"
-    l "It was such a short time... / but it's lonely once she's gone.{#ch11_l_015}"
+    l "It was such a short time… / but it's lonely once she's gone.{#ch11_l_015}"
 
     # [SPRITE   lay5     hide]
     # [SPRITE   lay2     image=+495, level=160, dir=1A]
@@ -39,7 +39,7 @@ label ch11_3_scene_478:
     # [SPRITE   lay2     hide]
     # [SPRITE   lay6     image=+715, level=160, dir=2A]
     # キュルケ：……。
-    k "...{#ch11_k_007}"
+    k "…{#ch11_k_007}"
 
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
     # キュルケ：あ～～なんか肩こっちゃった。
@@ -69,7 +69,7 @@ label ch11_3_scene_478:
     # [SPRITE   lay6     image=+682, level=160, dir=1A]
     # キュルケ：女王陛下のお手伝いや舞台やらで
     voice "ch11_k_010"
-    k "I've been helping Her Majesty and doing shows, / and the fatigue has piled up...{#ch11_k_010}"
+    k "I've been helping Her Majesty and doing shows, / and the fatigue has piled up…{#ch11_k_010}"
 
     # [SPRITE   lay1     hide]
     # [LAYER    lay0     image=+588, level=160, dir=1A]
@@ -92,12 +92,12 @@ label ch11_3_scene_478:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：……。  [voice 13253]
     voice "ch11_s_043"
-    s "...{#ch11_s_043}"
+    s "…{#ch11_s_043}"
 
     menu:
         "Something's off.{#ch11_3_c_478_1}":
             jump ch11_3_scene_479
-        "...It's getting lonely.{#ch11_3_c_478_2}":
+        "…It's getting lonely.{#ch11_3_c_478_2}":
             jump ch11_3_scene_480
         "That's so irresponsible!{#ch11_3_c_478_3}":
             jump ch11_3_scene_481
@@ -114,12 +114,12 @@ label ch11_3_scene_479:
     s "Something's wrong, isn't it?{#ch11_s_044}"
 
     # サイト：（２人とも、いい加減なことをする奴じゃ
-    s "Neither of them is the type to act carelessly...{#ch11_s_045}"
+    s "Neither of them is the type to act carelessly…{#ch11_s_045}"
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：なあ、キュルケ……。  [voice 13254]
     voice "ch11_s_046"
-    s "Say, Kirche...{#ch11_s_046}"
+    s "Say, Kirche…{#ch11_s_046}"
 
     # [SPRITE   lay1     hide]
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
@@ -136,7 +136,7 @@ label ch11_3_scene_479:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：……へ？
     voice "ch11_s_047"
-    s "...Huh? What do you mean?{#ch11_s_047}"
+    s "…Huh? What do you mean?{#ch11_s_047}"
 
     # [LAYER    lay0     hide]
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
@@ -221,7 +221,7 @@ label ch11_3_scene_481:
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
     # キュルケ：まあまあ、単純まっすぐなのが
     voice "ch11_k_012"
-    k "Now, now, that's Louise for you—simple and straightforward...{#ch11_k_012}"
+    k "Now, now, that's Louise for you—simple and straightforward…{#ch11_k_012}"
 
     # [SPRITE   lay1     hide]
     # → next scene 482
@@ -274,7 +274,7 @@ label ch11_3_scene_483:
     ha "It's barely been any time since we left the theater. / And yet it feels so nostalgic—am I imagining it?{#ch11_ha_033}"
 
     # ウェザリー：……。
-    w "...{#ch11_w_008}"
+    w "…{#ch11_w_008}"
 
     # ウェザリー：任務、ご苦労だったわね。  [voice 16087]
     voice "ch11_w_009"
@@ -305,12 +305,12 @@ label ch11_3_scene_483:
 
     # ハルナ：秘術？
     voice "ch11_ha_037"
-    ha "Secret art? What do you mean by...?{#ch11_ha_037}"
+    ha "Secret art? What do you mean by…?{#ch11_ha_037}"
 
     # [SPRITE   lay20    image=+1063, level=160, dir=1A]
     # ウェザリー：いいわ、教えてあげる。
     voice "ch11_w_012"
-    w "Fine, I'll tell you. That recent bomb-thrower incident... it was all your doing.{#ch11_w_012}"
+    w "Fine, I'll tell you. That recent bomb-thrower incident… it was all your doing.{#ch11_w_012}"
 
     # [SPRITE   lay7     image=+988, level=160, dir=2A]
     # ハルナ：な、なんですか！
@@ -339,13 +339,13 @@ label ch11_3_scene_483:
     w "Thank you for everything. Rest well.{#ch11_w_017}"
 
     # ウェザリー：……。
-    w "...{#ch11_w_018}"
+    w "…{#ch11_w_018}"
 
     # [SE       se0      play=+94]
     # [SPRITE   lay7     image=+990, level=160, dir=2A]
     # ハルナ：（……な、なに……？
     voice "ch11_ha_039"
-    ha "What... what's happening...? My consciousness... drifting away...{#ch11_ha_039}"
+    ha "What… what's happening…? My consciousness… drifting away…{#ch11_ha_039}"
 
     # [SPRITE   lay7     image=+988, level=160, dir=2A]
     # ハルナ：いや、や、やめて！  [voice 2597]
@@ -413,23 +413,23 @@ label ch11_3_scene_484:
     # [TRANS trans("crossfade", 1000)]
     # ハルナ：はぁはぁはぁ……。  [voice 2602]
     voice "ch11_ha_045"
-    ha "Haa haa haa...{#ch11_ha_045}"
+    ha "Haa haa haa…{#ch11_ha_045}"
 
     # ハルナ：はぁはぁはぁ……。  [voice 2603]
     voice "ch11_ha_046"
-    ha "Haa haa haa...{#ch11_ha_046}"
+    ha "Haa haa haa…{#ch11_ha_046}"
 
     # ハルナ：（動いて！
     voice "ch11_ha_047"
-    ha "Move! ...My body!{#ch11_ha_047}"
+    ha "Move! …My body!{#ch11_ha_047}"
 
     # ハルナ：（動いて！
     voice "ch11_ha_048"
-    ha "Move! ...My legs!{#ch11_ha_048}"
+    ha "Move! …My legs!{#ch11_ha_048}"
 
     # ハルナ：（動きなさい！
     voice "ch11_ha_049"
-    ha "Come on, move! ...Please, move!{#ch11_ha_049}"
+    ha "Come on, move! …Please, move!{#ch11_ha_049}"
 
     # [SPRITE   lay7     hide]
     # [BG       stage    hide]
@@ -440,7 +440,7 @@ label ch11_3_scene_484:
     # [SPRITE   lay7     image=+957, level=160, dir=1A]
     # ハルナ：はぁはぁ……。
     voice "ch11_ha_050"
-    ha "Haa haa... If I've come this far...{#ch11_ha_050}"
+    ha "Haa haa… If I've come this far…{#ch11_ha_050}"
 
     # [BGM      bgm      stop=1000]
     stop music fadeout 1.0
@@ -457,10 +457,10 @@ label ch11_3_scene_484:
     w "Did you think you could get away?{#ch11_w_023}"
 
     # 魔導士：……。
-    mage "...{#ch11_mage_002}"
+    mage "…{#ch11_mage_002}"
 
     # 魔導士：……。
-    mage "...{#ch11_mage_003}"
+    mage "…{#ch11_mage_003}"
 
     # [SPRITE   lay11    hide]
     # [SPRITE   lay12    hide]
@@ -528,10 +528,10 @@ label ch11_3_scene_485:
     # [BGM      bgm      play=+19]
     play music t18 fadein 1.0
     # サイト：（春奈に続いて、キュルケとタバサが
-    s "A few days since Haruna, then Kirche and Tabitha, disappeared from the academy...{#ch11_s_052}"
+    s "A few days since Haruna, then Kirche and Tabitha, disappeared from the academy…{#ch11_s_052}"
 
     # サイト：（なんというか、やっぱり……寂しいよな）
-    s "I don't know how to say it, but... it's lonely.{#ch11_s_053}"
+    s "I don't know how to say it, but… it's lonely.{#ch11_s_053}"
 
     # サイト：（ルイズもいつもに比べて元気がないみたいだ）
     s "Louise seems less energetic than usual, too.{#ch11_s_054}"
@@ -590,7 +590,7 @@ label ch11_3_scene_486:
     # [SPRITE   lay2     image=+495, level=160, dir=1A]
     # シエスタ：……でも、いいんですか？
     voice "ch11_si_022"
-    si "...But is it all right? It's a girl's personal things.{#ch11_si_022}"
+    si "…But is it all right? It's a girl's personal things.{#ch11_si_022}"
 
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     # サイト：き、貴重品かどうか確かめるんだよ！  [voice 13263]
@@ -610,7 +610,7 @@ label ch11_3_scene_486:
     # [SPRITE   lay2     image=+489, level=160, dir=1A]
     # シエスタ：あ、そういわれてみれば……。  [voice 15142]
     voice "ch11_si_024"
-    si "Ah, now that you mention it...{#ch11_si_024}"
+    si "Ah, now that you mention it…{#ch11_si_024}"
 
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：（春奈らしい几帳面な字だなあ）
@@ -652,12 +652,12 @@ label ch11_3_scene_487:
     s "Huh? What's this?{#ch11_s_064}"
 
     # サイト：（……写真？）
-    s "...A photo?{#ch11_s_065}"
+    s "…A photo?{#ch11_s_065}"
 
     # [SPRITE   lay5     image=+427, level=160, dir=2A]
     # サイト：……え？
     voice "ch11_s_066"
-    s "...Eh? Wh-What?{#ch11_s_066}"
+    s "…Eh? Wh-What?{#ch11_s_066}"
 
     # → next scene 489
     jump ch11_3_scene_489
@@ -690,12 +690,12 @@ label ch11_3_scene_488:
     s "Huh? What's this? Is it sticking out?{#ch11_s_069}"
 
     # サイト：（……写真？）
-    s "...A photo?{#ch11_s_070}"
+    s "…A photo?{#ch11_s_070}"
 
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     # サイト：……って、え？
     voice "ch11_s_071"
-    s "...Wait, eh? Wh-What?{#ch11_s_071}"
+    s "…Wait, eh? Wh-What?{#ch11_s_071}"
 
     # → next scene 489
     jump ch11_3_scene_489
@@ -719,7 +719,7 @@ label ch11_3_scene_489:
     # [BGM      bgm      play=+22]
     play music t21 fadein 1.0
     # サイト：（……俺の写真！？
-    s "...My photo!? In a place like this...{#ch11_s_072}"
+    s "…My photo!? In a place like this…{#ch11_s_072}"
 
     # シエスタ：どうしたんです？
     voice "ch11_si_027"
@@ -743,7 +743,7 @@ label ch11_3_scene_489:
 
     # サイト：さ、さあ……。
     voice "ch11_s_074"
-    s "W-Well... I'm no expert on art.{#ch11_s_074}"
+    s "W-Well… I'm no expert on art.{#ch11_s_074}"
 
     # [SPRITE   lay2     hide]
     # [SPRITE   lay5     hide]
@@ -756,7 +756,7 @@ label ch11_3_scene_489:
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # シエスタ：殿方のこんな絵を持ち歩いている
     voice "ch11_si_031"
-    si "What must a girl feel, carrying around a picture of a boy like this...{#ch11_si_031}"
+    si "What must a girl feel, carrying around a picture of a boy like this…{#ch11_si_031}"
 
     # シエスタ：どんなものなのでしょうね？
     voice "ch11_si_032"
@@ -765,12 +765,12 @@ label ch11_3_scene_489:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：な、なんというか。
     voice "ch11_s_075"
-    s "W-Well, how should I put it. That is...{#ch11_s_075}"
+    s "W-Well, how should I put it. That is…{#ch11_s_075}"
 
     # [SPRITE   lay2     image=+528, level=160, dir=2A]
     # シエスタ：……はぁ、わたしも手に入るなら
     voice "ch11_si_033"
-    si "...If I could get one, I'd carry it around too...{#ch11_si_033}"
+    si "…If I could get one, I'd carry it around too…{#ch11_si_033}"
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]
@@ -793,12 +793,12 @@ label ch11_3_scene_490:
     s "Wow, I'm surprised.{#ch11_s_076}"
 
     # サイト：（……春奈、手帳に俺の写真を入れてたなんて）
-    s "...Haruna had my photo in her notebook.{#ch11_s_077}"
+    s "…Haruna had my photo in her notebook.{#ch11_s_077}"
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：……。  [voice 13277]
     voice "ch11_s_078"
-    s "...{#ch11_s_078}"
+    s "…{#ch11_s_078}"
 
     # サイト：俺のどこがそんなにいいんだよ。  [voice 13278]
     voice "ch11_s_079"
@@ -806,14 +806,14 @@ label ch11_3_scene_490:
 
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：（そうだよ……。
-    s "That's right... If Haruna has the photo, it must have been taken in Japan.{#ch11_s_080}"
+    s "That's right… If Haruna has the photo, it must have been taken in Japan.{#ch11_s_080}"
 
     # サイト：（俺、春奈に何かしたのか？
     s "Did I do something for Haruna? Something that would make her keep my photo like this?{#ch11_s_081}"
 
     # サイト：なんでなんだよ。
     voice "ch11_s_082"
-    s "Why? Haruna...{#ch11_s_082}"
+    s "Why? Haruna…{#ch11_s_082}"
 
     menu:
         "I have to return the notebook to Haruna.{#ch11_3_c_490_1}":
@@ -831,7 +831,7 @@ label ch11_3_scene_491:
     # [BG       stage    image=+26, level=200]
     $ fade_fx("yard")
     # サイト：（……この手帳を届けないと）
-    s "...I have to return this notebook.{#ch11_s_083}"
+    s "…I have to return this notebook.{#ch11_s_083}"
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]
@@ -867,10 +867,10 @@ label ch11_3_scene_493:
     # [BG       stage    image=+26, level=200]
     $ fade_fx("yard")
     # サイト：（……なぜ、俺なんだ？）
-    s "...Why me?{#ch11_s_085}"
+    s "…Why me?{#ch11_s_085}"
 
     # サイト：（誤解とかだと情けないけど……、
-    s "I'd be embarrassed if it were a misunderstanding, but... I want to be sure.{#ch11_s_086}"
+    s "I'd be embarrassed if it were a misunderstanding, but… I want to be sure.{#ch11_s_086}"
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]
@@ -910,7 +910,7 @@ label ch11_3_scene_495:
 
     # サイト：いや、だから……。
     voice "ch11_s_087"
-    s "Well, you see... I want to go to Tristain to return this notebook Haruna forgot.{#ch11_s_087}"
+    s "Well, you see… I want to go to Tristain to return this notebook Haruna forgot.{#ch11_s_087}"
 
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：だから、なんでそうなるのかを聞いてるのよ。  [voice 7185]
@@ -923,7 +923,7 @@ label ch11_3_scene_495:
 
     # サイト：そ、そう言われても……。  [voice 13281]
     voice "ch11_s_088"
-    s "I know, but...{#ch11_s_088}"
+    s "I know, but…{#ch11_s_088}"
 
     # [SPRITE   lay5     image=+427, level=160, dir=2A]
     # サイト：（あんな写真が挿んであるのを
@@ -1004,7 +1004,7 @@ label ch11_3_scene_497:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：そ、そんな……。  [voice 13286]
     voice "ch11_s_094"
-    s "T-That's...{#ch11_s_094}"
+    s "T-That's…{#ch11_s_094}"
 
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：ご主人様にわざわざ出向いていただかなくとも！  [voice 13287]

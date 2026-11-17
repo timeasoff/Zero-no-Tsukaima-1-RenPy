@@ -39,7 +39,7 @@ label ch11_2:
     $ fade_fx("classroom")
     # [SPRITE lay5 image=+396, level=160, dir=1A]
     # サイト：（どこに行ったんだよ。 / まさかホントに……）
-    s "Where did she go? / Don't tell me she really...{#ch11_s_014}"
+    s "Where did she go? / Don't tell me she really…{#ch11_s_014}"
     # JA(no voice): サイト：（どこに行ったんだよ。 / まさかホントに……）
     # [SPRITE lay5 hide]
     # [BG stage hide]
@@ -47,7 +47,7 @@ label ch11_2:
     $ fade_fx("yard")
     # [SPRITE lay5 image=+390, level=160, dir=1A]
     # サイト：（……そうだ、森！ / まだ、あそこには行っていなかった！）
-    s "...That's right, the forest! / I haven't checked there yet!{#ch11_s_015}"
+    s "…That's right, the forest! / I haven't checked there yet!{#ch11_s_015}"
     # JA(no voice): サイト：（……そうだ、森！ / まだ、あそこには行っていなかった！）
     # [SPRITE lay5 hide]
     # [BG stage hide]
@@ -63,7 +63,7 @@ label ch11_2:
     # [BGM bgm play=+17 → t16]
     play music t16 fadein 1.0
     # サイト：（……いた、春奈だ！）
-    s "...There she is, Haruna!{#ch11_s_016}"
+    s "…There she is, Haruna!{#ch11_s_016}"
     # JA[13228]: サイト：（……いた、春奈だ！） — PROVISIONAL (dup of 13228)
     # [SPRITE lay7 image=+955, level=160, dir=1A]
     # ハルナ：平賀くん！ / どうしてこんなところに！？ [voice 2559]
@@ -83,12 +83,12 @@ label ch11_2:
     # [SPRITE lay7 image=+957, level=160, dir=1A]
     # ハルナ：えっ……。 / あの、その……。 [voice 2560]
     voice "ch11_ha_002"
-    ha "Eh... / Um, well...{#ch11_ha_002}"
+    ha "Eh… / Um, well…{#ch11_ha_002}"
     # JA[2560]: ハルナ：えっ……。 / あの、その……。
     # [SPRITE lay5 image=+394, level=160, dir=1A]
     # サイト：シエスタなんか、悩んでる春奈を見てたから、 / 縁起でもないこと考えだすし……。 [voice 13230]
     voice "ch11_s_019"
-    s "Even Siesta, seeing you worried, / started thinking the worst...{#ch11_s_019}"
+    s "Even Siesta, seeing you worried, / started thinking the worst…{#ch11_s_019}"
     # JA[13230]: サイト：シエスタなんか、悩んでる春奈を見てたから、縁起でもないこと考えだすし……。
     # サイト：ルイズ達も心配して探しまわってるんだぞ！ [voice 13231]
     voice "ch11_s_020"
@@ -116,15 +116,15 @@ label ch11_2:
     $ dissolve_fx("id(298)")
     # ハルナ：ホントはね、最初から返事は決まってたの。 / 私がこの世界で生きてくためって考えればね。 [voice 2563]
     voice "ch11_ha_005"
-    ha "Actually, my answer was decided from the start. / If I think about living in this world...{#ch11_ha_005}"
+    ha "Actually, my answer was decided from the start. / If I think about living in this world…{#ch11_ha_005}"
     # JA[2563]: ハルナ：ホントはね、最初から返事は決まってたの。 / 私がこの世界で生きてくためって考えればね。
     # サイト：そ、それって……。 [voice 13233]
     voice "ch11_s_022"
-    s "Th-that means...{#ch11_s_022}"
+    s "Th-that means…{#ch11_s_022}"
     # JA[13233]: サイト：そ、それって……。
     # ハルナ：でも、そう答えるには、 / 勇気が……足りなかった。 [voice 2564]
     voice "ch11_ha_006"
-    ha "But to give that answer... / I didn't have enough... courage.{#ch11_ha_006}"
+    ha "But to give that answer… / I didn't have enough… courage.{#ch11_ha_006}"
     # JA[2564]: ハルナ：でも、そう答えるには、勇気が……足りなかった。
     # サイト：勇気？ [voice 13234]
     voice "ch11_s_023"
@@ -136,11 +136,11 @@ label ch11_2:
     # JA[2565]: ハルナ：この学院を離れる勇気。
     # ハルナ：ルイズさんがいて、シエスタさんがいて、 / みんながいて……。 [voice 2566]
     voice "ch11_ha_008"
-    ha "Louise-san is here, Siesta-san is here, / everyone is here...{#ch11_ha_008}"
+    ha "Louise-san is here, Siesta-san is here, / everyone is here…{#ch11_ha_008}"
     # JA[2566]: ハルナ：ルイズさんがいて、シエスタさんがいて、みんながいて……。
     # ハルナ：急にこっちの世界に来て、 / 不安だったり、怖かったりもしたけど、 [voice 2567]
     voice "ch11_ha_009"
-    ha "Suddenly coming to this world, / I was anxious, scared even, / but...{#ch11_ha_009}"
+    ha "Suddenly coming to this world, / I was anxious, scared even, / but…{#ch11_ha_009}"
     # JA[2567]: ハルナ：急にこっちの世界に来て、不安だったり、怖かったりもしたけど、
     # ハルナ：この学院にいる時間は、 / そんなこと忘れられるくらい、楽しかったわ。 [voice 2568]
     voice "ch11_ha_010"
@@ -158,11 +158,11 @@ label ch11_2:
     $ dissolve_fx("id(299)")
     # ハルナ：……うん。 [voice 2570]
     voice "ch11_ha_012"
-    ha "...Yeah.{#ch11_ha_012}"
+    ha "…Yeah.{#ch11_ha_012}"
     # JA[2570]: ハルナ：……うん。
     # サイト：え、えっと、それって……。 [voice 13236]
     voice "ch11_s_025"
-    s "Uh, um, that means...{#ch11_s_025}"
+    s "Uh, um, that means…{#ch11_s_025}"
     # JA[13236]: サイト：え、えっと、それって……。
     # [EVENT_CG event image=+297, level=80]
     $ dissolve_fx("id(297)")
@@ -180,21 +180,21 @@ label ch11_2:
     # JA[13237]: サイト：お、おい。春奈！
     # ハルナ：そ、そんな顔しないでよ、平賀くん。 / 自分で決めたことなんだから、平気よ。 / ……たぶん。 [voice 2573]
     voice "ch11_ha_015"
-    ha "D-don't make that face, Hiragan-kun. / I decided this myself, so I'm fine. / ...Probably.{#ch11_ha_015}"
+    ha "D-don't make that face, Hiragan-kun. / I decided this myself, so I'm fine. / …Probably.{#ch11_ha_015}"
     # JA[2573]: ハルナ：そ、そんな顔しないでよ、平賀くん。自分で決めたことなんだから、平気よ。……たぶん。
     # サイト：……。 [voice 13238]
     voice "ch11_s_039"
-    s "...{#ch11_s_039}"
+    s "…{#ch11_s_039}"
     # JA[13238]: サイト：……。
     # [EVENT_CG event image=+299, level=80]
     $ dissolve_fx("id(299)")
     # ハルナ：それにね、ウェザリーさんの劇団は / 旅回りだけど、トリスタニアにはよく / 来るらしいし……。 [voice 2574]
     voice "ch11_ha_016"
-    ha "Besides, Weatherly-san's troupe travels, / but they come to Tristain often, / so...{#ch11_ha_016}"
+    ha "Besides, Weatherly-san's troupe travels, / but they come to Tristain often, / so…{#ch11_ha_016}"
     # JA[2574]: ハルナ：それにね、ウェザリーさんの劇団は旅回りだけど、トリスタニアにはよく来るらしいし……。
     # ハルナ：平賀くんや学院のみんなには、 / いつでも会えるから……大丈夫。 [voice 2575]
     voice "ch11_ha_017"
-    ha "I can see Hiragan-kun and everyone / anytime... it's okay.{#ch11_ha_017}"
+    ha "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"
     # JA[2575]: ハルナ：平賀くんや学院のみんなには、いつでも会えるから……大丈夫。
     # サイト：ああ、そうだよな。 / いつでも会えるよ。 / 何があっても大歓迎さ。 [voice 13239]
     voice "ch11_s_027"
@@ -206,12 +206,12 @@ label ch11_2:
     # JA[2576]: ハルナ：うん。
     # サイト：……。 [voice 13240]
     voice "ch11_s_028"
-    s "...{#ch11_s_028}"
+    s "…{#ch11_s_028}"
     # JA[13240]: サイト：……。
     # [EVENT_CG event image=+297, level=80]
     # ハルナ：……。 / ハルナ：いけない！ / みんな心配してくれてるんだよね。 / 戻らないと！ [voice 2577]
     voice "ch11_ha_019"
-    ha "... / Wait! / Everyone's worried, right? / I have to go back!{#ch11_ha_019}"
+    ha "… / Wait! / Everyone's worried, right? / I have to go back!{#ch11_ha_019}"
     # JA[2577]: ハルナ：……。いけない！みんな心配してくれてるんだよね。戻らないと！
     # サイト：そ、そうだな。 / シエスタがカンカンだぞ！ [voice 13241]
     voice "ch11_s_029"
@@ -249,11 +249,11 @@ label ch11_2:
     # [SPRITE lay2 image=+495, level=160, dir=1A]
     # シエスタ：さ、さびしくなります。 / ハルナさん……。 [voice 15132]
     voice "ch11_si_013"
-    si "It's gonna be... lonely. / Haruna-san...{#ch11_si_013}"
+    si "It's gonna be… lonely. / Haruna-san…{#ch11_si_013}"
     # JA[15132]: シエスタ：さ、さびしくなります。ハルナさん……。
     # シエスタ：た、旅先では生水とか飲んじゃダメですよ。 / 変な人についていかないでね。 / それから……それから……。 [voice 15133]
     voice "ch11_si_014"
-    si "D-don't drink untreated water on your travels. / Don't follow suspicious people. / And then... and then...{#ch11_si_014}"
+    si "D-don't drink untreated water on your travels. / Don't follow suspicious people. / And then… and then…{#ch11_si_014}"
     # JA[15133]: シエスタ：た、旅先では生水とか飲んじゃダメですよ。変な人についていかないでね。それから……それから……。
     # [SPRITE lay7 image=+953, level=160, dir=1A]
     # ハルナ：もう、シエスタさんったら。 / 私、そんなに子供じゃないですよ。 [voice 2580]
@@ -263,7 +263,7 @@ label ch11_2:
     # [SPRITE lay2 image=+528, level=160, dir=2A]
     # シエスタ：そ、そうですよね……。 [voice 15134]
     voice "ch11_si_015"
-    si "R-right, of course...{#ch11_si_015}"
+    si "R-right, of course…{#ch11_si_015}"
     # JA[15134]: シエスタ：そ、そうですよね……。
     # [SPRITE lay2 hide] [SPRITE lay7 hide]
     # [LAYER lay0 image=+594, level=160, dir=1A] [SPRITE lay6 image=+715, level=160, dir=2A]
@@ -277,7 +277,7 @@ label ch11_2:
     # [SPRITE lay4 image=+572, level=160, dir=2A]
     # ギーシュ：あんなかわいい子がいなくなるのは残念だな / って、イタタ……。 / つねらないで、モンモランシー！ [voice 1538]
     voice "ch11_g_001"
-    g "It's a shame such a cute girl is leaving / Ow... / Don't pinch me, Montmorency!{#ch11_g_001}"
+    g "It's a shame such a cute girl is leaving / Ow… / Don't pinch me, Montmorency!{#ch11_g_001}"
     # JA[1538]: ギーシュ：あんなかわいい子がいなくなるのは残念だなって、イタタ…つねらないで、モンモランシー！
     # [SPRITE lay3 hide] [SPRITE lay4 hide]
     # [SPRITE lay20 image=+1063, level=160, dir=1A]
@@ -316,31 +316,31 @@ label ch11_2:
     # JA[4512]: オスマン：くれぐれもきれいどころでの。
     # ウェザリー：……。 [voice 16083]
     voice "ch11_w_003"
-    w "...{#ch11_w_003}"
+    w "…{#ch11_w_003}"
     # JA[16083]: ウェザリー：…。
     # [SPRITE lay10 hide] [SPRITE lay20 hide]
     # [SPRITE lay7 image=+951, level=160, dir=1A] [SPRITE lay5 image=+390, level=160, dir=1A]
     # サイト：春奈……。 [voice 13242]
     voice "ch11_s_030"
-    s "Haruna...{#ch11_s_030}"
+    s "Haruna…{#ch11_s_030}"
     # JA[13242]: サイト：春奈…。
     # サイト：日本に戻る方法が見つかったら / すぐ連絡をとるから……。 [voice 13243]
     voice "ch11_s_031"
-    s "If I find a way back to Japan / I'll contact you right away...{#ch11_s_031}"
+    s "If I find a way back to Japan / I'll contact you right away…{#ch11_s_031}"
     # JA[13243]: サイト：日本に戻る方法が見つかったらすぐ連絡をとるから…。
     # ハルナ：うん、私も。 / 旅の暮らしになると、いろんな土地に / 行くと思うし……ね。 [voice 2582]
     voice "ch11_ha_024"
-    ha "Yeah, me too. / With a traveling life, I'll visit many places / so...{#ch11_ha_024}"
+    ha "Yeah, me too. / With a traveling life, I'll visit many places / so…{#ch11_ha_024}"
     # JA[2582]: ハルナ：うん、私も。旅の暮らしになると、いろんな土地に行くと思うし…ね。
     # [SPRITE lay5 hide]
     # [SPRITE lay6 image=+715, level=160, dir=2A]
     # キュルケ：……。 [voice 3814]
     voice "ch11_k_001"
-    k "...{#ch11_k_001}"
+    k "…{#ch11_k_001}"
     # JA[3814]: キュルケ：…。
     # キュルケ：ねえ、ハルナ……。 / ちょっとだけいい？ [voice 3815]
     voice "ch11_k_002"
-    k "Hey, Haruna... / Just a moment?{#ch11_k_002}"
+    k "Hey, Haruna… / Just a moment?{#ch11_k_002}"
     # JA[3815]: キュルケ：ねえ、ハルナ…。ちょっとだけいい？
     # [BGM bgm stop=1000]
     stop music fadeout 1.0
@@ -387,7 +387,7 @@ label ch11_2:
     play music t18 fadein 1.0
     # ウェザリー：じゃあ、そろそろ……。 [voice 16084]
     voice "ch11_w_004"
-    w "Well then, it's about time...{#ch11_w_004}"
+    w "Well then, it's about time…{#ch11_w_004}"
     # JA[16084]: ウェザリー：じゃあ、そろそろ…。
     # ハルナ：……。 (no voice)
     # サイト：（どうしたんだろう？ / 　春奈の顔色が悪いみたいだけど） (no voice)
@@ -419,7 +419,7 @@ label ch11_2_scene_474:
     # [SPRITE lay7 image=+953, level=160, dir=1A]
     # ハルナ：うん……。 / 約束する。 / じゃあね、バイバイ。 [voice 2586]
     voice "ch11_ha_028"
-    ha "Yeah... / I promise. / Well then, bye-bye.{#ch11_ha_028}"
+    ha "Yeah… / I promise. / Well then, bye-bye.{#ch11_ha_028}"
     # JA[2586]: ハルナ：うん…。約束する。じゃあね、バイバイ。
     # [SPRITE lay7 hide] [SPRITE lay5 hide]
     # → next scene 477
@@ -458,7 +458,7 @@ label ch11_2_scene_475:
     # [SPRITE lay5 image=+423, level=160, dir=2A]
     # サイト：ルイズ……。 / ありがとう。 [voice 13247]
     voice "ch11_s_035"
-    s "Louise... / Thanks.{#ch11_s_035}"
+    s "Louise… / Thanks.{#ch11_s_035}"
     # JA[13247]: サイト：ルイズ…。ありがとう。
     # [SPRITE lay5 hide]
     # → next scene 477
@@ -525,7 +525,7 @@ label ch11_2_scene_477:
     # [SPRITE lay5 image=+429, level=160, dir=2A]
     # サイト：春奈……。 [voice 13250]
     voice "ch11_s_038"
-    s "Haruna...{#ch11_s_038}"
+    s "Haruna…{#ch11_s_038}"
     # JA[13250]: サイト：春奈…。
     # [SE se1 stop=1] [BGM bgm stop=1000] [SPRITE lay5 hide] [BG stage hide]
     # → next scene 478

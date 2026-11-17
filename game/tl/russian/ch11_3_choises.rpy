@@ -4,7 +4,7 @@
     old "Something's off.{#ch11_3_c_478_1}"
     new "Что-то не так."
 
-    old "...It's getting lonely.{#ch11_3_c_478_2}"
+    old "…It's getting lonely.{#ch11_3_c_478_2}"
     new "…Как же одиноко."
 
     old "That's so irresponsible!{#ch11_3_c_478_3}"

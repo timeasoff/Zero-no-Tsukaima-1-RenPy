@@ -46,7 +46,7 @@ label ch11_4_scene_500:
     l "Hmph!{#ch11_l_038}"
 
     # サイト：（はぁ……困ったなぁ）
-    s "Sigh... What am I going to do?{#ch11_s_100}"
+    s "Sigh… What am I going to do?{#ch11_s_100}"
 
     # [SPRITE   lay5     image=+392, level=160, dir=1A]
     # サイト：あ！
@@ -60,7 +60,7 @@ label ch11_4_scene_500:
     # [SPRITE   lay1     hide]
     # [SPRITE   lay7     image=+951, level=160, dir=1A]
     # ハルナ：……。
-    ha "...{#ch11_ha_054}"
+    ha "…{#ch11_ha_054}"
 
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：春奈？  [voice 13294]
@@ -91,13 +91,13 @@ label ch11_4_scene_500:
     # [SPRITE   lay1     hide]
     # [SPRITE   lay7     image=+951, level=160, dir=1A]
     # ハルナ：……。
-    ha "...{#ch11_ha_055}"
+    ha "…{#ch11_ha_055}"
 
     # [SPRITE   lay20    hide]
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：この手帳なんだけど。  [voice 13295]
     voice "ch11_s_104"
-    s "About this notebook...{#ch11_s_104}"
+    s "About this notebook…{#ch11_s_104}"
 
     # ハルナ：そう、ありがと。  [voice 2611]
     voice "ch11_ha_056"
@@ -105,7 +105,7 @@ label ch11_4_scene_500:
 
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     # サイト：（……？）
-    s "...?{#ch11_s_105}"
+    s "…?{#ch11_s_105}"
 
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：（なんだ、この違和感？）
@@ -113,7 +113,7 @@ label ch11_4_scene_500:
 
     # サイト：なあ、ウェザリーさん……。
     voice "ch11_s_107"
-    s "Say, Weatherly-san... Is something wrong with Haruna?{#ch11_s_107}"
+    s "Say, Weatherly-san… Is something wrong with Haruna?{#ch11_s_107}"
 
     # [SPRITE   lay7     hide]
     # [SPRITE   lay20    image=+1061, level=160, dir=1A]
@@ -148,7 +148,7 @@ label ch11_4_scene_500:
     # [SPRITE   lay20    hide]
     # [SPRITE   lay7     image=+951, level=160, dir=1A]
     # ハルナ：……。
-    ha "...{#ch11_ha_057}"
+    ha "…{#ch11_ha_057}"
 
     # [SPRITE   lay7     hide]
     # [SPRITE   lay20    image=+1061, level=160, dir=1A]
@@ -157,11 +157,11 @@ label ch11_4_scene_500:
     w "So what's the childhood of such a hero like?{#ch11_w_036}"
 
     menu:
-        "That was when I...{#ch11_4_c_500_1}":
+        "That was when I…{#ch11_4_c_500_1}":
             jump ch11_4_scene_501
-        "Um, well...{#ch11_4_c_500_2}":
+        "Um, well…{#ch11_4_c_500_2}":
             jump ch11_4_scene_502
-        "My adult charm...{#ch11_4_c_500_3}":
+        "My adult charm…{#ch11_4_c_500_3}":
             jump ch11_4_scene_503
 
 label ch11_4_scene_501:
@@ -177,7 +177,7 @@ label ch11_4_scene_501:
     # [SPRITE   lay5     image=+423, level=160, dir=2A]
     # サイト：ええと。
     voice "ch11_s_108"
-    s "Um. That was when I...{#ch11_s_108}"
+    s "Um. That was when I…{#ch11_s_108}"
 
     # [SPRITE   lay20    hide]
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
@@ -201,7 +201,7 @@ label ch11_4_scene_502:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：ええと。
     voice "ch11_s_109"
-    s "Um. You see...{#ch11_s_109}"
+    s "Um. You see…{#ch11_s_109}"
 
     # [SPRITE   lay20    hide]
     # [SPRITE   lay1     image=+335, level=160, dir=2A]
@@ -232,11 +232,11 @@ label ch11_4_scene_503:
     # [SPRITE   lay1     hide]
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：（そ、そんなに迫られると、
-    s "When she presses me like that, my adult charm...{#ch11_s_110}"
+    s "When she presses me like that, my adult charm…{#ch11_s_110}"
 
     # [SPRITE   lay5     image=+431, level=160, dir=2A]
     # サイト：（なんだか知っていることを
-    s "I feel like I'm about to tell her everything I know...{#ch11_s_111}"
+    s "I feel like I'm about to tell her everything I know…{#ch11_s_111}"
 
     # [SPRITE   lay5     image=+398, level=160, dir=1A]
     # サイト：（ビバ猫耳！
@@ -278,7 +278,7 @@ label ch11_4_scene_504:
     # [SPRITE   lay1     image=+302, level=160, dir=1A]
     # ルイズ：あら、それほどでも。
     voice "ch11_l_048"
-    l "Oh, I'm not that... I mean, no!{#ch11_l_048}"
+    l "Oh, I'm not that… I mean, no!{#ch11_l_048}"
 
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
     # ルイズ：と、とにかく！
@@ -298,12 +298,12 @@ label ch11_4_scene_504:
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：じ、じゃあな……春奈！
     voice "ch11_s_114"
-    s "W-Well then... Haruna! See you later!{#ch11_s_114}"
+    s "W-Well then… Haruna! See you later!{#ch11_s_114}"
 
     # [SPRITE   lay1     hide]
     # [SPRITE   lay7     image=+951, level=160, dir=1A]
     # ハルナ：……。
-    ha "...{#ch11_ha_058}"
+    ha "…{#ch11_ha_058}"
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]
@@ -334,7 +334,7 @@ label ch11_4_scene_504:
 
     # アキナ：最後に欲張りすぎね。
     voice "ch11_ak_003"
-    ak "Don't get greedy at the very end. The final act is about to begin...{#ch11_ak_003}"
+    ak "Don't get greedy at the very end. The final act is about to begin…{#ch11_ak_003}"
 
     # [SPRITE   lay20    image=+1061, level=160, dir=1A]
     # ウェザリー：アキナはどうなの？
@@ -344,14 +344,14 @@ label ch11_4_scene_504:
     # [SPRITE   lay21    image=+1025, level=160, dir=1A]
     # アキナ：……っ！
     voice "ch11_ak_004"
-    ak "...! I don't care about someone so indecisive. Haruna has terrible taste.{#ch11_ak_004}"
+    ak "…! I don't care about someone so indecisive. Haruna has terrible taste.{#ch11_ak_004}"
 
     # ウェザリー：いいじゃない。
     voice "ch11_w_042"
     w "What does it matter? Haruna is gone now, anyway.{#ch11_w_042}"
 
     # アキナ：……。
-    ak "...{#ch11_ak_005}"
+    ak "…{#ch11_ak_005}"
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]
@@ -373,7 +373,7 @@ label ch11_4_scene_505:
     # [SPRITE   lay5     image=+427, level=160, dir=2A]
     # サイト：さっきはどうしたんだよ？
     voice "ch11_s_115"
-    s "What was that about? Acting so strange all of a sudden... It's weird.{#ch11_s_115}"
+    s "What was that about? Acting so strange all of a sudden… It's weird.{#ch11_s_115}"
 
     # ルイズ：あんた、何も気がつかなかったの？  [voice 7209]
     voice "ch11_l_051"
@@ -387,7 +387,7 @@ label ch11_4_scene_505:
     # [SPRITE   lay1     image=+335, level=160, dir=2A]
     # ルイズ：あのウェザリーの態度……。
     voice "ch11_l_052"
-    l "That Weatherly's attitude... I never noticed before, but now that I think about it, a lot of it is suspicious.{#ch11_l_052}"
+    l "That Weatherly's attitude… I never noticed before, but now that I think about it, a lot of it is suspicious.{#ch11_l_052}"
 
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：どこが？
@@ -401,12 +401,12 @@ label ch11_4_scene_505:
     # [SPRITE   lay1     image=+341, level=160, dir=2A]
     # ルイズ：それに、いきなりわたし達を
     voice "ch11_l_054"
-    l "And then, prying into our business out of nowhere... It's strange.{#ch11_l_054}"
+    l "And then, prying into our business out of nowhere… It's strange.{#ch11_l_054}"
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：そういえば、春奈もなんか変だったな。
     voice "ch11_s_118"
-    s "Now that I think about it, Haruna was acting strange too. The way she looked at me was like I was a stranger...{#ch11_s_118}"
+    s "Now that I think about it, Haruna was acting strange too. The way she looked at me was like I was a stranger…{#ch11_s_118}"
 
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：離れてみて、あんたが危険なけだもの
@@ -421,7 +421,7 @@ label ch11_4_scene_505:
     # [SPRITE   lay1     image=+302, level=160, dir=1A]
     # ルイズ：それは冗談としても。
     voice "ch11_l_056"
-    l "Even setting that aside as a joke... something might happen.{#ch11_l_056}"
+    l "Even setting that aside as a joke… something might happen.{#ch11_l_056}"
 
     menu:
         "What do you mean?{#ch11_4_c_505_1}":
@@ -442,7 +442,7 @@ label ch11_4_scene_506:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：なにかが起きる……。
     voice "ch11_s_120"
-    s "Something might happen... What do you mean?{#ch11_s_120}"
+    s "Something might happen… What do you mean?{#ch11_s_120}"
 
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
     # ルイズ：そんなの分かんないわよ！  [voice 7215]
@@ -484,7 +484,7 @@ label ch11_4_scene_507:
 
     # ルイズ：やっぱり、疲れてるのかしら。
     voice "ch11_l_060"
-    l "Maybe I'm just tired. I...{#ch11_l_060}"
+    l "Maybe I'm just tired. I…{#ch11_l_060}"
 
     # [SE       se1      stop=1]
     # [BGM      bgm      stop=1000]

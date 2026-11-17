@@ -7,13 +7,13 @@
     old "Yeah, she's gone.{#ch11_s_041}"
     new "Да, ушла."
 
-    old "It was such a short time... / but it's lonely once she's gone.{#ch11_l_015}"
+    old "It was such a short time… / but it's lonely once she's gone.{#ch11_l_015}"
     new "Мы знали её так недолго… / а теперь без неё так пусто."
 
     old "I wonder where she is by now? / She said she'd be based in Tristain for a while, didn't she?{#ch11_si_017}"
     new "Интересно, где она сейчас? / Она же говорила, что какое-то время будет в Тристании?"
 
-    old "...{#ch11_k_007}"
+    old "…{#ch11_k_007}"
     new "…"
 
     old "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
@@ -31,7 +31,7 @@
     old "W-Wait, are you out of your mind!? Don't just say whatever you want!{#ch11_l_018}"
     new "П-Подожди, ты в уме!? Не говори что попало!"
 
-    old "I've been helping Her Majesty and doing shows, / and the fatigue has piled up...{#ch11_k_010}"
+    old "I've been helping Her Majesty and doing shows, / and the fatigue has piled up…{#ch11_k_010}"
     new "Я помогала Её Величеству, играла на сцене… / и усталость накопилась."
 
     old "I'm resting too.{#ch11_t_002}"
@@ -43,16 +43,16 @@
     old "W-Wait a moment! The bomb-thrower business isn't settled yet. I won't allow you to do as you please!{#ch11_l_019}"
     new "П-Подождите! Дело с бомбистом ещё не улажено. Я не позволю вам делать что вздумается!"
 
-    old "...{#ch11_s_043}"
+    old "…{#ch11_s_043}"
     new "…"
 
     old "Something's wrong, isn't it?{#ch11_s_044}"
     new "Что-то здесь не так."
 
-    old "Neither of them is the type to act carelessly...{#ch11_s_045}"
+    old "Neither of them is the type to act carelessly…{#ch11_s_045}"
     new "Ни одна из них не стала бы действовать опрометчиво…"
 
-    old "Say, Kirche...{#ch11_s_046}"
+    old "Say, Kirche…{#ch11_s_046}"
     new "Слушай, Кирке…"
 
     old "I know, darling.{#ch11_k_011}"
@@ -61,7 +61,7 @@
     old "It's fine. Leave it to me.{#ch11_t_003}"
     new "Всё хорошо. Положись на меня."
 
-    old "...Huh? What do you mean?{#ch11_s_047}"
+    old "…Huh? What do you mean?{#ch11_s_047}"
     new "…А? Что ты имеешь в виду?"
 
     old "D-Don't you ignore your master and talk among yourselves! You stupid dog!{#ch11_l_020}"
@@ -94,7 +94,7 @@
     old "Understand? W-What do you mean by that!{#ch11_l_024}"
     new "Поймёшь? Ч-Что это значит!"
 
-    old "Now, now, that's Louise for you—simple and straightforward...{#ch11_k_012}"
+    old "Now, now, that's Louise for you—simple and straightforward…{#ch11_k_012}"
     new "Ну-ну, Луиза всегда была прямолинейна…"
 
     old "That's why. See you, darling.{#ch11_k_013}"
@@ -109,7 +109,7 @@
     old "It's barely been any time since we left the theater. / And yet it feels so nostalgic—am I imagining it?{#ch11_ha_033}"
     new "Мы только что вышли из театра, а кажется, будто прошла вечность. / Или это только мне так кажется?"
 
-    old "...{#ch11_w_008}"
+    old "…{#ch11_w_008}"
     new "…"
 
     old "You did well on the mission.{#ch11_w_009}"
@@ -130,10 +130,10 @@
     old "I'm glad the secret art succeeded, but when things go too well, it becomes inconvenient.{#ch11_w_011}"
     new "Я рада, что тайное искусство сработало, но когда всё идёт слишком гладко, это неудобно."
 
-    old "Secret art? What do you mean by...?{#ch11_ha_037}"
+    old "Secret art? What do you mean by…?{#ch11_ha_037}"
     new "Тайное искусство? Что вы имеете в виду…?"
 
-    old "Fine, I'll tell you. That recent bomb-thrower incident... it was all your doing.{#ch11_w_012}"
+    old "Fine, I'll tell you. That recent bomb-thrower incident… it was all your doing.{#ch11_w_012}"
     new "Ладно, я тебе скажу. Та недавняя история с бомбистом… всё это была твоя работа."
 
     old "W-What are you saying! That's too sudden, even for a joke!{#ch11_ha_038}"
@@ -154,10 +154,10 @@
     old "Thank you for everything. Rest well.{#ch11_w_017}"
     new "Спасибо тебе за всё. Отдыхай спокойно."
 
-    old "...{#ch11_w_018}"
+    old "…{#ch11_w_018}"
     new "…"
 
-    old "What... what's happening...? My consciousness... drifting away...{#ch11_ha_039}"
+    old "What… what's happening…? My consciousness… drifting away…{#ch11_ha_039}"
     new "Что… что это…? Сознание… уплывает…"
 
     old "N-No, stop!{#ch11_ha_040}"
@@ -187,31 +187,31 @@
     old "Help me! Hiragan-kun!{#ch11_ha_044}"
     new "Помогите! Хирага-кун!"
 
-    old "Haa haa haa...{#ch11_ha_045}"
+    old "Haa haa haa…{#ch11_ha_045}"
     new "Хаа-хаа-хаа…"
 
-    old "Haa haa haa...{#ch11_ha_046}"
+    old "Haa haa haa…{#ch11_ha_046}"
     new "Хаа-хаа-хаа…"
 
-    old "Move! ...My body!{#ch11_ha_047}"
+    old "Move! …My body!{#ch11_ha_047}"
     new "Двигайся! …Моё тело!"
 
-    old "Move! ...My legs!{#ch11_ha_048}"
+    old "Move! …My legs!{#ch11_ha_048}"
     new "Двигайся! …Мои ноги!"
 
-    old "Come on, move! ...Please, move!{#ch11_ha_049}"
+    old "Come on, move! …Please, move!{#ch11_ha_049}"
     new "Ну же, двигайся! …Прошу, двигайся!"
 
-    old "Haa haa... If I've come this far...{#ch11_ha_050}"
+    old "Haa haa… If I've come this far…{#ch11_ha_050}"
     new "Хаа-хаа… Раз я дошла сюда…"
 
     old "Did you think you could get away?{#ch11_w_023}"
     new "Ты думала, тебе удастся скрыться?"
 
-    old "...{#ch11_mage_002}"
+    old "…{#ch11_mage_002}"
     new "…"
 
-    old "...{#ch11_mage_003}"
+    old "…{#ch11_mage_003}"
     new "…"
 
     old "Weatherly-san!{#ch11_ha_051}"
@@ -238,10 +238,10 @@
     old "Could she have the legendary power too?{#ch11_w_028}"
     new "Неужели и она обладает легендарной силой?"
 
-    old "A few days since Haruna, then Kirche and Tabitha, disappeared from the academy...{#ch11_s_052}"
+    old "A few days since Haruna, then Kirche and Tabitha, disappeared from the academy…{#ch11_s_052}"
     new "Прошло несколько дней с тех пор, как Харуна, а затем Кирке и Табаса исчезли из академии…"
 
-    old "I don't know how to say it, but... it's lonely.{#ch11_s_053}"
+    old "I don't know how to say it, but… it's lonely.{#ch11_s_053}"
     new "Как ни скажи, а всё равно… одиноко."
 
     old "Louise seems less energetic than usual, too.{#ch11_s_054}"
@@ -265,7 +265,7 @@
     old "Ah, yes.{#ch11_si_021}"
     new "А, да."
 
-    old "...But is it all right? It's a girl's personal things.{#ch11_si_022}"
+    old "…But is it all right? It's a girl's personal things.{#ch11_si_022}"
     new "…Но можно ли? Это же личные вещи девушки."
 
     old "W-We're just checking if it's something valuable!{#ch11_s_058}"
@@ -277,7 +277,7 @@
     old "It's the writing of our country. Well, it's also the country of Siesta's great-grandfather. See, it looks like the letters on that grave, doesn't it?{#ch11_s_059}"
     new "Это письмена нашей страны. Впрочем, и страны прадедушки Сиесты тоже. Видишь, похоже на буквы на той могиле?"
 
-    old "Ah, now that you mention it...{#ch11_si_024}"
+    old "Ah, now that you mention it…{#ch11_si_024}"
     new "А, теперь, когда ты сказал…"
 
     old "It's just like Haruna—neat and careful handwriting.{#ch11_s_060}"
@@ -298,10 +298,10 @@
     old "Huh? What's this?{#ch11_s_064}"
     new "Эй? Что это?"
 
-    old "...A photo?{#ch11_s_065}"
+    old "…A photo?{#ch11_s_065}"
     new "…Фотография?"
 
-    old "...Eh? Wh-What?{#ch11_s_066}"
+    old "…Eh? Wh-What?{#ch11_s_066}"
     new "…А? Ч-Что?"
 
     old "It's not like she needs it, does she?{#ch11_s_067}"
@@ -316,13 +316,13 @@
     old "Huh? What's this? Is it sticking out?{#ch11_s_069}"
     new "Эй? Что это? Оно торчит?"
 
-    old "...A photo?{#ch11_s_070}"
+    old "…A photo?{#ch11_s_070}"
     new "…Фотография?"
 
-    old "...Wait, eh? Wh-What?{#ch11_s_071}"
+    old "…Wait, eh? Wh-What?{#ch11_s_071}"
     new "…То есть, а? Ч-Что?"
 
-    old "...My photo!? In a place like this...{#ch11_s_072}"
+    old "…My photo!? In a place like this…{#ch11_s_072}"
     new "…Моя фотография!? И вот тут…"
 
     old "What's wrong? Your face is bright red.{#ch11_si_027}"
@@ -340,58 +340,58 @@
     old "I wonder how she drew such a detailed picture?{#ch11_si_030}"
     new "Интересно, как она нарисовала такой подробный рисунок?"
 
-    old "W-Well... I'm no expert on art.{#ch11_s_074}"
+    old "W-Well… I'm no expert on art.{#ch11_s_074}"
     new "Н-Ну… я не разбираюсь в рисунках."
 
-    old "What must a girl feel, carrying around a picture of a boy like this...{#ch11_si_031}"
+    old "What must a girl feel, carrying around a picture of a boy like this…{#ch11_si_031}"
     new "Что чувствует девушка, нося с собой такой рисунок молодого человека…"
 
     old "I wonder what it's like? Saito-san would know, wouldn't you?{#ch11_si_032}"
     new "Интересно, что это за чувство? Сайто-сан же знает, правда?"
 
-    old "W-Well, how should I put it. That is...{#ch11_s_075}"
+    old "W-Well, how should I put it. That is…{#ch11_s_075}"
     new "Н-Ну, как сказать… Это…"
 
-    old "...If I could get one, I'd carry it around too...{#ch11_si_033}"
+    old "…If I could get one, I'd carry it around too…{#ch11_si_033}"
     new "…Если бы и мне такой достался, я бы тоже его носила…"
 
     old "Wow, I'm surprised.{#ch11_s_076}"
     new "Ох, вот это да."
 
-    old "...Haruna had my photo in her notebook.{#ch11_s_077}"
+    old "…Haruna had my photo in her notebook.{#ch11_s_077}"
     new "…Харуна держала мою фотографию в блокноте."
 
-    old "...{#ch11_s_078}"
+    old "…{#ch11_s_078}"
     new "…"
 
     old "What's so good about me?{#ch11_s_079}"
     new "Что во мне такого хорошего?"
 
-    old "That's right... If Haruna has the photo, it must have been taken in Japan.{#ch11_s_080}"
+    old "That's right… If Haruna has the photo, it must have been taken in Japan.{#ch11_s_080}"
     new "Да… Если у Харуны фотография, её наверняка сняли в Японии."
 
     old "Did I do something for Haruna? Something that would make her keep my photo like this?{#ch11_s_081}"
     new "Я что-то сделал для Харуны? Что-то, из-за чего она хранит мою фотографию?"
 
-    old "Why? Haruna...{#ch11_s_082}"
+    old "Why? Haruna…{#ch11_s_082}"
     new "Почему? Харуна…"
 
-    old "...I have to return this notebook.{#ch11_s_083}"
+    old "…I have to return this notebook.{#ch11_s_083}"
     new "…Нужно отнести этот блокнот."
 
     old "I want to see Haruna. No matter what.{#ch11_s_084}"
     new "Я хочу увидеть Харуну. Во что бы то ни стало."
 
-    old "...Why me?{#ch11_s_085}"
+    old "…Why me?{#ch11_s_085}"
     new "…Почему я?"
 
-    old "I'd be embarrassed if it were a misunderstanding, but... I want to be sure.{#ch11_s_086}"
+    old "I'd be embarrassed if it were a misunderstanding, but… I want to be sure.{#ch11_s_086}"
     new "Было бы обидно, если это недоразумение… но я хочу выяснить."
 
     old "What do you mean, you want to return something she forgot?{#ch11_l_026}"
     new "Что значит — отнести забытую вещь?"
 
-    old "Well, you see... I want to go to Tristain to return this notebook Haruna forgot.{#ch11_s_087}"
+    old "Well, you see… I want to go to Tristain to return this notebook Haruna forgot.{#ch11_s_087}"
     new "Да нет, дело в том… я хочу поехать в Тристанию, чтобы отнести этот блокнот Харуны."
 
     old "That's not what I asked. I'm asking why it has to be you.{#ch11_l_027}"
@@ -400,7 +400,7 @@
     old "Can't you just ask someone else?{#ch11_l_028}"
     new "Мог бы попросить кого-нибудь другого."
 
-    old "I know, but...{#ch11_s_088}"
+    old "I know, but…{#ch11_s_088}"
     new "Да я и сам знаю…"
 
     old "I can't let anyone see a photo like that in there!{#ch11_s_089}"
@@ -430,7 +430,7 @@
     old "K-Kyah!{#ch11_s_093}"
     new "К-Кайн!"
 
-    old "T-That's...{#ch11_s_094}"
+    old "T-That's…{#ch11_s_094}"
     new "Т-Это…"
 
     old "You don't need to go out of your way, master!{#ch11_s_095}"

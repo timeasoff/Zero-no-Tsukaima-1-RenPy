@@ -7,13 +7,13 @@
     old "Yeah, she's gone.{#ch11_s_041}"
     new "サイト：ああ、行っちゃったな。"
 
-    old "It was such a short time... / but it's lonely once she's gone.{#ch11_l_015}"
+    old "It was such a short time… / but it's lonely once she's gone.{#ch11_l_015}"
     new "ルイズ：短い付き合いだったはずなのに……。いなくなると寂しいものね。"
 
     old "I wonder where she is by now? / She said she'd be based in Tristain for a while, didn't she?{#ch11_si_017}"
     new "シエスタ：いまごろ、どのあたりでしょうね？しばらくは、トリスタニアを拠点にされるんでしたっけ？"
 
-    old "...{#ch11_k_007}"
+    old "…{#ch11_k_007}"
     new "キュルケ：……。"
 
     old "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
@@ -31,7 +31,7 @@
     old "W-Wait, are you out of your mind!? Don't just say whatever you want!{#ch11_l_018}"
     new "ルイズ：ち、ちょっと正気！？勝手なことばかり言わないでよ！"
 
-    old "I've been helping Her Majesty and doing shows, / and the fatigue has piled up...{#ch11_k_010}"
+    old "I've been helping Her Majesty and doing shows, / and the fatigue has piled up…{#ch11_k_010}"
     new "キュルケ：女王陛下のお手伝いや舞台やらで疲れがたまってるしぃ……。"
 
     old "I'm resting too.{#ch11_t_002}"
@@ -43,16 +43,16 @@
     old "W-Wait a moment! The bomb-thrower business isn't settled yet. I won't allow you to do as you please!{#ch11_l_019}"
     new "ルイズ：ち、ちょっと待ちなさい！まだ爆弾使いの話は解決してないのよ。勝手なことは許さないんだからね！"
 
-    old "...{#ch11_s_043}"
+    old "…{#ch11_s_043}"
     new "サイト：……。"
 
     old "Something's wrong, isn't it?{#ch11_s_044}"
     new "（なにか変だな？）"
 
-    old "Neither of them is the type to act carelessly...{#ch11_s_045}"
+    old "Neither of them is the type to act carelessly…{#ch11_s_045}"
     new "（２人とも、いい加減なことをする奴じゃないし……）"
 
-    old "Say, Kirche...{#ch11_s_046}"
+    old "Say, Kirche…{#ch11_s_046}"
     new "サイト：なあ、キュルケ……。"
 
     old "I know, darling.{#ch11_k_011}"
@@ -61,7 +61,7 @@
     old "It's fine. Leave it to me.{#ch11_t_003}"
     new "タバサ：大丈夫。まかせて。"
 
-    old "...Huh? What do you mean?{#ch11_s_047}"
+    old "…Huh? What do you mean?{#ch11_s_047}"
     new "サイト：……へ？どういうこと？"
 
     old "D-Don't you ignore your master and talk among yourselves! You stupid dog!{#ch11_l_020}"
@@ -94,7 +94,7 @@
     old "Understand? W-What do you mean by that!{#ch11_l_024}"
     new "ルイズ：分かるって、ど、どういう意味よ！"
 
-    old "Now, now, that's Louise for you—simple and straightforward...{#ch11_k_012}"
+    old "Now, now, that's Louise for you—simple and straightforward…{#ch11_k_012}"
     new "キュルケ：まあまあ、単純まっすぐなのがルイズなんだし……。"
 
     old "That's why. See you, darling.{#ch11_k_013}"
@@ -109,7 +109,7 @@
     old "It's barely been any time since we left the theater. / And yet it feels so nostalgic—am I imagining it?{#ch11_ha_033}"
     new "ハルナ：劇場を出てからまだほとんどたってないのに。なんだか懐かしいのは気のせいかしら。"
 
-    old "...{#ch11_w_008}"
+    old "…{#ch11_w_008}"
     new "ウェザリー：……。"
 
     old "You did well on the mission.{#ch11_w_009}"
@@ -130,10 +130,10 @@
     old "I'm glad the secret art succeeded, but when things go too well, it becomes inconvenient.{#ch11_w_011}"
     new "ウェザリー：秘術が成功したのは嬉しいけれど、あまりうまくいっても逆に不便なものね。"
 
-    old "Secret art? What do you mean by...?{#ch11_ha_037}"
+    old "Secret art? What do you mean by…?{#ch11_ha_037}"
     new "ハルナ：秘術？それってどういう……。"
 
-    old "Fine, I'll tell you. That recent bomb-thrower incident... it was all your doing.{#ch11_w_012}"
+    old "Fine, I'll tell you. That recent bomb-thrower incident… it was all your doing.{#ch11_w_012}"
     new "ウェザリー：いいわ、教えてあげる。最近の爆弾使いの騒ぎ……ね。あれは全てあなたの仕業だったのよ。"
 
     old "W-What are you saying! That's too sudden, even for a joke!{#ch11_ha_038}"
@@ -154,10 +154,10 @@
     old "Thank you for everything. Rest well.{#ch11_w_017}"
     new "ウェザリー：いままで、ご苦労様。ゆっくり休んでちょうだい。"
 
-    old "...{#ch11_w_018}"
+    old "…{#ch11_w_018}"
     new "ウェザリー：……。"
 
-    old "What... what's happening...? My consciousness... drifting away...{#ch11_ha_039}"
+    old "What… what's happening…? My consciousness… drifting away…{#ch11_ha_039}"
     new "（……な、なに……？意識が……遠く……）"
 
     old "N-No, stop!{#ch11_ha_040}"
@@ -187,31 +187,31 @@
     old "Help me! Hiragan-kun!{#ch11_ha_044}"
     new "（助けて！平賀くん！）"
 
-    old "Haa haa haa...{#ch11_ha_045}"
+    old "Haa haa haa…{#ch11_ha_045}"
     new "ハルナ：はぁはぁはぁ……。"
 
-    old "Haa haa haa...{#ch11_ha_046}"
+    old "Haa haa haa…{#ch11_ha_046}"
     new "ハルナ：はぁはぁはぁ……。"
 
-    old "Move! ...My body!{#ch11_ha_047}"
+    old "Move! …My body!{#ch11_ha_047}"
     new "（動いて！……私の体！）"
 
-    old "Move! ...My legs!{#ch11_ha_048}"
+    old "Move! …My legs!{#ch11_ha_048}"
     new "（動いて！……私の足！）"
 
-    old "Come on, move! ...Please, move!{#ch11_ha_049}"
+    old "Come on, move! …Please, move!{#ch11_ha_049}"
     new "（動きなさい！……お願い、動いてよ！）"
 
-    old "Haa haa... If I've come this far...{#ch11_ha_050}"
+    old "Haa haa… If I've come this far…{#ch11_ha_050}"
     new "ハルナ：はぁはぁ……。ここまでくれば……。"
 
     old "Did you think you could get away?{#ch11_w_023}"
     new "ウェザリー：逃げ切れると思ったの？"
 
-    old "...{#ch11_mage_002}"
+    old "…{#ch11_mage_002}"
     new "魔導士：……。"
 
-    old "...{#ch11_mage_003}"
+    old "…{#ch11_mage_003}"
     new "魔導士：……。…………。"
 
     old "Weatherly-san!{#ch11_ha_051}"
@@ -238,10 +238,10 @@
     old "Could she have the legendary power too?{#ch11_w_028}"
     new "（もしかして、彼女にも伝説の力があるの？）"
 
-    old "A few days since Haruna, then Kirche and Tabitha, disappeared from the academy...{#ch11_s_052}"
+    old "A few days since Haruna, then Kirche and Tabitha, disappeared from the academy…{#ch11_s_052}"
     new "（春奈に続いて、キュルケとタバサが学院からいなくなって数日……）"
 
-    old "I don't know how to say it, but... it's lonely.{#ch11_s_053}"
+    old "I don't know how to say it, but… it's lonely.{#ch11_s_053}"
     new "（なんというか、やっぱり……寂しいよな）"
 
     old "Louise seems less energetic than usual, too.{#ch11_s_054}"
@@ -265,7 +265,7 @@
     old "Ah, yes.{#ch11_si_021}"
     new "シエスタ：あ、はい。"
 
-    old "...But is it all right? It's a girl's personal things.{#ch11_si_022}"
+    old "…But is it all right? It's a girl's personal things.{#ch11_si_022}"
     new "シエスタ：……でも、いいんですか？女の子の私物ですよ。"
 
     old "W-We're just checking if it's something valuable!{#ch11_s_058}"
@@ -277,7 +277,7 @@
     old "It's the writing of our country. Well, it's also the country of Siesta's great-grandfather. See, it looks like the letters on that grave, doesn't it?{#ch11_s_059}"
     new "サイト：俺達の国の文字だからな。シエスタのひいおじいちゃんの国でもあるけど。ほら、あのお墓の文字に似てるだろ？"
 
-    old "Ah, now that you mention it...{#ch11_si_024}"
+    old "Ah, now that you mention it…{#ch11_si_024}"
     new "シエスタ：あ、そういわれてみれば……。"
 
     old "It's just like Haruna—neat and careful handwriting.{#ch11_s_060}"
@@ -298,10 +298,10 @@
     old "Huh? What's this?{#ch11_s_064}"
     new "サイト：あれ？なんだこれ？"
 
-    old "...A photo?{#ch11_s_065}"
+    old "…A photo?{#ch11_s_065}"
     new "（……写真？）"
 
-    old "...Eh? Wh-What?{#ch11_s_066}"
+    old "…Eh? Wh-What?{#ch11_s_066}"
     new "サイト：……え？ええっ？"
 
     old "It's not like she needs it, does she?{#ch11_s_067}"
@@ -316,13 +316,13 @@
     old "Huh? What's this? Is it sticking out?{#ch11_s_069}"
     new "サイト：あれ？なんだこれ？はみ出してるの？"
 
-    old "...A photo?{#ch11_s_070}"
+    old "…A photo?{#ch11_s_070}"
     new "（……写真？）"
 
-    old "...Wait, eh? Wh-What?{#ch11_s_071}"
+    old "…Wait, eh? Wh-What?{#ch11_s_071}"
     new "サイト：……って、え？ええっ？"
 
-    old "...My photo!? In a place like this...{#ch11_s_072}"
+    old "…My photo!? In a place like this…{#ch11_s_072}"
     new "（……俺の写真！？こんなところに入っていたなんて……）"
 
     old "What's wrong? Your face is bright red.{#ch11_si_027}"
@@ -340,58 +340,58 @@
     old "I wonder how she drew such a detailed picture?{#ch11_si_030}"
     new "シエスタ：こんな緻密な絵をどうやって描いたんでしょうね？"
 
-    old "W-Well... I'm no expert on art.{#ch11_s_074}"
+    old "W-Well… I'm no expert on art.{#ch11_s_074}"
     new "サイト：さ、さあ……。俺は絵は詳しくないから。"
 
-    old "What must a girl feel, carrying around a picture of a boy like this...{#ch11_si_031}"
+    old "What must a girl feel, carrying around a picture of a boy like this…{#ch11_si_031}"
     new "シエスタ：殿方のこんな絵を持ち歩いている女の子の気持ちって……。"
 
     old "I wonder what it's like? Saito-san would know, wouldn't you?{#ch11_si_032}"
     new "シエスタ：どんなものなのでしょうね？サイトさんには分かりますよね。"
 
-    old "W-Well, how should I put it. That is...{#ch11_s_075}"
+    old "W-Well, how should I put it. That is…{#ch11_s_075}"
     new "サイト：な、なんというか。その……。"
 
-    old "...If I could get one, I'd carry it around too...{#ch11_si_033}"
+    old "…If I could get one, I'd carry it around too…{#ch11_si_033}"
     new "シエスタ：……はぁ、わたしも手に入るなら持ち歩きたいなぁ……。"
 
     old "Wow, I'm surprised.{#ch11_s_076}"
     new "（あ～～驚いた）"
 
-    old "...Haruna had my photo in her notebook.{#ch11_s_077}"
+    old "…Haruna had my photo in her notebook.{#ch11_s_077}"
     new "（……春奈、手帳に俺の写真を入れてたなんて）"
 
-    old "...{#ch11_s_078}"
+    old "…{#ch11_s_078}"
     new "サイト：……。"
 
     old "What's so good about me?{#ch11_s_079}"
     new "サイト：俺のどこがそんなにいいんだよ。"
 
-    old "That's right... If Haruna has the photo, it must have been taken in Japan.{#ch11_s_080}"
+    old "That's right… If Haruna has the photo, it must have been taken in Japan.{#ch11_s_080}"
     new "（そうだよ……。春奈が写真を持ってるということは日本で撮ったはずだけど）"
 
     old "Did I do something for Haruna? Something that would make her keep my photo like this?{#ch11_s_081}"
     new "（俺、春奈に何かしたのか？こんなふうに写真を持ってもらえるような何かを？）"
 
-    old "Why? Haruna...{#ch11_s_082}"
+    old "Why? Haruna…{#ch11_s_082}"
     new "サイト：なんでなんだよ。春奈……。"
 
-    old "...I have to return this notebook.{#ch11_s_083}"
+    old "…I have to return this notebook.{#ch11_s_083}"
     new "（……この手帳を届けないと）"
 
     old "I want to see Haruna. No matter what.{#ch11_s_084}"
     new "（春奈に逢いたい。どうしても）"
 
-    old "...Why me?{#ch11_s_085}"
+    old "…Why me?{#ch11_s_085}"
     new "（……なぜ、俺なんだ？）"
 
-    old "I'd be embarrassed if it were a misunderstanding, but... I want to be sure.{#ch11_s_086}"
+    old "I'd be embarrassed if it were a misunderstanding, but… I want to be sure.{#ch11_s_086}"
     new "（誤解とかだと情けないけど……、確かめたいんだ）"
 
     old "What do you mean, you want to return something she forgot?{#ch11_l_026}"
     new "ルイズ：忘れ物を届けたいって、どういうことよ？"
 
-    old "Well, you see... I want to go to Tristain to return this notebook Haruna forgot.{#ch11_s_087}"
+    old "Well, you see… I want to go to Tristain to return this notebook Haruna forgot.{#ch11_s_087}"
     new "サイト：いや、だから……。この春奈の忘れ物の手帳を届けに、トリスタニアに行きたいんだよ。"
 
     old "That's not what I asked. I'm asking why it has to be you.{#ch11_l_027}"
@@ -400,7 +400,7 @@
     old "Can't you just ask someone else?{#ch11_l_028}"
     new "ルイズ：そんなの他の人に頼めばいいじゃない？"
 
-    old "I know, but...{#ch11_s_088}"
+    old "I know, but…{#ch11_s_088}"
     new "サイト：そ、そう言われても……。"
 
     old "I can't let anyone see a photo like that in there!{#ch11_s_089}"
@@ -430,7 +430,7 @@
     old "K-Kyah!{#ch11_s_093}"
     new "サイト：き、きゃいん！"
 
-    old "T-That's...{#ch11_s_094}"
+    old "T-That's…{#ch11_s_094}"
     new "サイト：そ、そんな……。"
 
     old "You don't need to go out of your way, master!{#ch11_s_095}"

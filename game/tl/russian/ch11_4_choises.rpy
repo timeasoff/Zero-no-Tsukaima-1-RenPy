@@ -1,13 +1,13 @@
 # translate russian strings:
 # (ch11_4: scenes 500-509)
 
-    old "That was when I...{#ch11_4_c_500_1}"
+    old "That was when I…{#ch11_4_c_500_1}"
     new "Это было, когда я…"
 
-    old "Um, well...{#ch11_4_c_500_2}"
+    old "Um, well…{#ch11_4_c_500_2}"
     new "Э-Э, точнее…"
 
-    old "My adult charm...{#ch11_4_c_500_3}"
+    old "My adult charm…{#ch11_4_c_500_3}"
     new "Моё взрослое обаяние…"
 
     old "What do you mean?{#ch11_4_c_505_1}"

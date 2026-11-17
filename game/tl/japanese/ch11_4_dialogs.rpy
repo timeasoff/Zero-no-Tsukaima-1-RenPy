@@ -19,7 +19,7 @@
     old "Hmph!{#ch11_l_038}"
     new "ルイズ：ふんっ！"
 
-    old "Sigh... What am I going to do?{#ch11_s_100}"
+    old "Sigh… What am I going to do?{#ch11_s_100}"
     new "（はぁ……困ったなぁ）"
 
     old "Ah! Isn't that Haruna and Weatherly-san? What luck, running into them here!{#ch11_s_101}"
@@ -28,7 +28,7 @@
     old "Hey! Haruna!{#ch11_s_102}"
     new "サイト：おーい、春奈ー！"
 
-    old "...{#ch11_ha_054}"
+    old "…{#ch11_ha_054}"
     new "ハルナ：……。"
 
     old "Haruna?{#ch11_s_103}"
@@ -46,22 +46,22 @@
     old "My, how thoughtful of you.{#ch11_w_030}"
     new "ウェザリー：あら、それはご丁寧に。"
 
-    old "...{#ch11_ha_055}"
+    old "…{#ch11_ha_055}"
     new "ハルナ：……。"
 
-    old "About this notebook...{#ch11_s_104}"
+    old "About this notebook…{#ch11_s_104}"
     new "サイト：この手帳なんだけど。"
 
     old "Oh, right. Thank you.{#ch11_ha_056}"
     new "ハルナ：そう、ありがと。"
 
-    old "...?{#ch11_s_105}"
+    old "…?{#ch11_s_105}"
     new "（……？）"
 
     old "What's this strange feeling?{#ch11_s_106}"
     new "（なんだ、この違和感？）"
 
-    old "Say, Weatherly-san... Is something wrong with Haruna?{#ch11_s_107}"
+    old "Say, Weatherly-san… Is something wrong with Haruna?{#ch11_s_107}"
     new "サイト：なあ、ウェザリーさん……。春奈はどうかしたのか？"
 
     old "Well?{#ch11_w_031}"
@@ -82,19 +82,19 @@
     old "You told her such things! That's no good, Haruna!{#ch11_l_041}"
     new "ルイズ：そんなことを話したの！ダメじゃない！ハルナ！"
 
-    old "...{#ch11_ha_057}"
+    old "…{#ch11_ha_057}"
     new "ハルナ：……。"
 
     old "So what's the childhood of such a hero like?{#ch11_w_036}"
     new "ウェザリー：そんなヒーローの生い立ちってどんななの？"
 
-    old "Um. That was when I...{#ch11_s_108}"
+    old "Um. That was when I…{#ch11_s_108}"
     new "サイト：ええと。あれは、俺が……。"
 
     old "Saito, be quiet! Don't you dare talk!{#ch11_l_042}"
     new "ルイズ：サイト、黙りなさい！喋っちゃダメよ！"
 
-    old "Um. You see...{#ch11_s_109}"
+    old "Um. You see…{#ch11_s_109}"
     new "サイト：ええと。その……。"
 
     old "Saito!{#ch11_l_043}"
@@ -106,10 +106,10 @@
     old "Please don't say aloud what you've just learned.{#ch11_l_045}"
     new "ルイズ：あなたがいま知ってることも公言しないでほしいわ。"
 
-    old "When she presses me like that, my adult charm...{#ch11_s_110}"
+    old "When she presses me like that, my adult charm…{#ch11_s_110}"
     new "（そ、そんなに迫られると、お、大人の魅力で……）"
 
-    old "I feel like I'm about to tell her everything I know...{#ch11_s_111}"
+    old "I feel like I'm about to tell her everything I know…{#ch11_s_111}"
     new "（なんだか知っていることを全部話してしまいそうな……）"
 
     old "Long live cat ears! Bravo!{#ch11_s_112}"
@@ -127,7 +127,7 @@
     old "Of course, I'm also interested in the young genius mage, Miss Valliere.{#ch11_w_038}"
     new "ウェザリー：もちろん、若き天才魔法使いのミス・ヴァリエールにも興味があるのよ。"
 
-    old "Oh, I'm not that... I mean, no!{#ch11_l_048}"
+    old "Oh, I'm not that… I mean, no!{#ch11_l_048}"
     new "ルイズ：あら、それほどでも。……じゃなくて！"
 
     old "A-Anyway! We're tired from traveling, so let's talk another day!{#ch11_l_049}"
@@ -139,10 +139,10 @@
     old "What's gotten into you all of a sudden! Louise!{#ch11_s_113}"
     new "サイト：急にどうしたんだよ！ルイズ！"
 
-    old "W-Well then... Haruna! See you later!{#ch11_s_114}"
+    old "W-Well then… Haruna! See you later!{#ch11_s_114}"
     new "サイト：じ、じゃあな……春奈！またあとで！"
 
-    old "...{#ch11_ha_058}"
+    old "…{#ch11_ha_058}"
     new "ハルナ：……。"
 
     old "The same stupid fools as ever.{#ch11_ak_002}"
@@ -154,22 +154,22 @@
     old "Well, it's too late for all of that now. For those young ladies, at least.{#ch11_w_040}"
     new "ウェザリー：まあ、全て手遅れだけどね。あのお嬢さん達は。"
 
-    old "Don't get greedy at the very end. The final act is about to begin...{#ch11_ak_003}"
+    old "Don't get greedy at the very end. The final act is about to begin…{#ch11_ak_003}"
     new "アキナ：最後に欲張りすぎね。もう最終幕が開くのに……。"
 
     old "What about you, Akina? That boy, Saito.{#ch11_w_041}"
     new "ウェザリー：アキナはどうなの？あのサイトって男の子。"
 
-    old "...! I don't care about someone so indecisive. Haruna has terrible taste.{#ch11_ak_004}"
+    old "…! I don't care about someone so indecisive. Haruna has terrible taste.{#ch11_ak_004}"
     new "アキナ：……っ！あ、あんな優柔不断どうでもいいわ。ハルナは趣味が悪いのよ。"
 
     old "What does it matter? Haruna is gone now, anyway.{#ch11_w_042}"
     new "ウェザリー：いいじゃない。もう、ハルナはいないんだし。"
 
-    old "...{#ch11_ak_005}"
+    old "…{#ch11_ak_005}"
     new "アキナ：……。"
 
-    old "What was that about? Acting so strange all of a sudden... It's weird.{#ch11_s_115}"
+    old "What was that about? Acting so strange all of a sudden… It's weird.{#ch11_s_115}"
     new "サイト：さっきはどうしたんだよ？急にあんな態度するなんて……。おかしいぞ？"
 
     old "You didn't notice anything?{#ch11_l_051}"
@@ -178,7 +178,7 @@
     old "Notice what?{#ch11_s_116}"
     new "サイト：何がさ？"
 
-    old "That Weatherly's attitude... I never noticed before, but now that I think about it, a lot of it is suspicious.{#ch11_l_052}"
+    old "That Weatherly's attitude… I never noticed before, but now that I think about it, a lot of it is suspicious.{#ch11_l_052}"
     new "ルイズ：あのウェザリーの態度……。いままで気がつかなかったけど、考えてみるといろいろ怪しいわ。"
 
     old "Like what? I thought it was an ordinary conversation.{#ch11_s_117}"
@@ -187,10 +187,10 @@
     old "First, running into her in the street like that was unnatural. It was as if she knew we were coming.{#ch11_l_053}"
     new "ルイズ：いきなり街中で会ったのがまず不自然よ。まるで、わたし達が来ることを知ってたみたい。"
 
-    old "And then, prying into our business out of nowhere... It's strange.{#ch11_l_054}"
+    old "And then, prying into our business out of nowhere… It's strange.{#ch11_l_054}"
     new "ルイズ：それに、いきなりわたし達を探るようなこと……。おかしいわ。"
 
-    old "Now that I think about it, Haruna was acting strange too. The way she looked at me was like I was a stranger...{#ch11_s_118}"
+    old "Now that I think about it, Haruna was acting strange too. The way she looked at me was like I was a stranger…{#ch11_s_118}"
     new "サイト：そういえば、春奈もなんか変だったな。俺を見る目が、知らない人を見るみたいな……。"
 
     old "Maybe now that she's away, she realized what a dangerous beast you are!{#ch11_l_055}"
@@ -199,10 +199,10 @@
     old "T-That's mean!{#ch11_s_119}"
     new "サイト：ひ、ひどいっ！"
 
-    old "Even setting that aside as a joke... something might happen.{#ch11_l_056}"
+    old "Even setting that aside as a joke… something might happen.{#ch11_l_056}"
     new "ルイズ：それは冗談としても。なにか起きるのかもしれないわね。"
 
-    old "Something might happen... What do you mean?{#ch11_s_120}"
+    old "Something might happen… What do you mean?{#ch11_s_120}"
     new "サイト：なにかが起きる……。ってどういう？"
 
     old "How would I know!{#ch11_l_057}"
@@ -217,7 +217,7 @@
     old "When you put it that way, maybe.{#ch11_l_059}"
     new "ルイズ：言われてみればそうなんだけど。"
 
-    old "Maybe I'm just tired. I...{#ch11_l_060}"
+    old "Maybe I'm just tired. I…{#ch11_l_060}"
     new "ルイズ：やっぱり、疲れてるのかしら。わたし……。"
 
     old "So what do you want me to do?!{#ch11_s_122}"

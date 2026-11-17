@@ -4,7 +4,7 @@
     old "Something's off.{#ch11_3_c_478_1}"
     new "なにか変だ"
 
-    old "...It's getting lonely.{#ch11_3_c_478_2}"
+    old "…It's getting lonely.{#ch11_3_c_478_2}"
     new "……寂しくなるなあ"
 
     old "That's so irresponsible!{#ch11_3_c_478_3}"
