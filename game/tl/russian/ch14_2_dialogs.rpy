@@ -4,13 +4,13 @@
     new "…"
 
     old "Mm, Weatherly isn't here either.{#ch14_k_051}"
-    new "Мм, Уэзерби здесь нет."
+    new "Мм, похоже, Уэзерби здесь нет."
 
     old "Well, if our deduction is right, she shouldn't be here anyway.{#ch14_s_062}"
-    new "Ну, если наша догадка верна, её здесь и не должно быть."
+    new "Ну, если наш вывод верен, её здесь и не должно быть."
 
     old "You think so? The castle must be part of the final objective. She might be keeping watch.{#ch14_k_052}"
-    new "Думаешь? Замок наверняка входит в конечную цель. Она может наблюдать."
+    new "Думаешь? Замок наверняка входит в конечную цель. Возможно, она пришла выслеживать."
 
     old "We don't know what she's planning.{#ch14_k_053}"
     new "Мы не знаем, что она задумала."
@@ -19,7 +19,7 @@
     new "Д-Да, наверное…"
 
     old "Weatherly isn't here either…{#ch14_k_054}"
-    new "Уэзерби здесь тоже нет…"
+    new "Кажется, Уэзерби здесь тоже нет…"
 
     old "Yeah, I suppose.{#ch14_s_064}"
     new "Да, похоже."
@@ -31,7 +31,7 @@
     new "Ох. Хотя атмосфера здесь и правда хорошая."
 
     old "Darling, shall we declare our love here too?{#ch14_k_056}"
-    new "Дорогой, почему бы нам не объясниться в любви здесь?"
+    new "Дорогой, почему бы нам тоже не объясниться в любви здесь?"
 
     old "Kirche, this isn't the time for that.{#ch14_s_066}"
     new "Кирке, сейчас не до этого."
@@ -43,7 +43,7 @@
     new "Фух…"
 
     old "She's not here either.{#ch14_k_058}"
-    new "Здесь её тоже нет."
+    new "Похоже, её здесь нет."
 
     old "Tristain really is under construction everywhere.{#ch14_s_068}"
     new "В Тристании и правда всюду стройка."
@@ -58,7 +58,7 @@
     new "Естественно, при наплыве людей порядок ухудшается, говорят."
 
     old "I see. Even thinking about it, we need to settle this soon.{#ch14_s_069}"
-    new "Понятно. Даже судя по этому, нужно скорее покончить с этим."
+    new "Понятно. Судя по всему, нужно бы поскорее покончить с этим."
 
     old "Yeah…{#ch14_k_062}"
     new "Да…"
@@ -79,7 +79,7 @@
     new "Да, он. Куда девался Флейм?"
 
     old "She's minding the academy. She'd stand out too much in the capital.{#ch14_k_065}"
-    new "Она осталась в академии. В столице она бы слишком выделялась."
+    new "Она осталась в академии присматривать за ней. В столице она бы немного выделялась."
 
     old "Well, if anything happens, I'll bring her right away.{#ch14_k_066}"
     new "Впрочем, если что-то случится, я сразу её приведу."
@@ -103,5 +103,5 @@
     new "Укусила? Ч-Что это значит!?"
 
     old "Come on, darling. Let's try the next place. Next!{#ch14_k_070}"
-    new "Ну же, дорогой. Пойдём в следующее место. Давай!"
+    new "Ну же, дорогой. Пойдём в следующее место. Следующее!"
 

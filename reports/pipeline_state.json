@@ -1092,5 +1092,53 @@
       "/workspace/game/chapters/13/script-ch13_3.rpy": "84528f1a6d183fbd14f56f54f2718e9c",
       "/workspace/game/chapters/13/script-ch13_4.rpy": "bf9f6dedd756f097b4af3472c80a56ea"
     }
+  },
+  "14": {
+    "target": "14",
+    "phase_results": {
+      "translation": {
+        "status": "done",
+        "message": "EN/RU review during port + A/C evidence review (all 4 parts)"
+      },
+      "semantic_audit_a": {
+        "status": "done",
+        "message": "A runs for ch14 parts 1-4 in reports/sma/ch14/{1,2,3,4}/a/"
+      },
+      "pragmatic_c": {
+        "status": "done",
+        "message": "C runs for ch14 parts 1-4 in reports/sma/ch14/{1,2,3,4}/c/"
+      },
+      "analyzer_phase1": {
+        "status": "done",
+        "message": "Blind phase1 in reports/sma/ch14/{1,2,3,4}/analysis/*.phase1.md"
+      },
+      "analyzer_phase2": {
+        "status": "done",
+        "message": "Phase2: 003100-p1 (2), 010000-p2 (6), 010000-p3 (7), 010000-p4 (6) FIXED"
+      },
+      "humanizer": {
+        "status": "done",
+        "message": "RU machine-like patterns fixed across ch14 parts 1-4"
+      },
+      "grammar": {
+        "status": "done",
+        "message": "Gender agreement fix (восстановила), RGC-3"
+      },
+      "style": {
+        "status": "done",
+        "message": "RU style pass: modality markers, exclamations, register"
+      },
+      "summary": {
+        "status": "done",
+        "message": "Выполнено 17/17 фаз, ошибок: 0",
+        "details": {
+          "total": 17,
+          "done": 17,
+          "errors": 0
+        }
+      }
+    },
+    "file_hashes": {},
+    "last_run": null
   }
 }

@@ -4,7 +4,7 @@
     new "Мы притащили Кирке, которая всё время звала меня «братишкой», обратно в гостиницу…"
 
     old "(We got back, but…){#ch14_s_113}"
-    new "(Мы вернулись, но…)"
+    new "Мы вернулись, но…"
 
     old "Infantile regression from hypnotic suggestion, you say?{#ch14_s_114}"
     new "Инфантильная регрессия от гипнотического внушения, говоришь?"
@@ -43,13 +43,13 @@
     new "Хе-хе… Братишка, я тебя люблюуу…"
 
     old "(Seeing Kirche like this… This is definitely a warning… What should I do…?){#ch14_s_118}"
-    new "(Видеть Кирке такой… Это точно предупреждение… Что мне делать…?)"
+    new "Видеть Кирке такой… Это точно предупреждение… Что мне делать…?"
 
     old "Louise, I think we should stop here…{#ch14_s_119}"
     new "Луиза, может, нам стоит остановиться…"
 
     old "You're not saying you'd give in to a threat, are you?{#ch14_l_031}"
-    new "Ты не хочешь сказать, что сдаёшься под угрозой?"
+    new "Ты что, хочешь сдаться? Под угрозой — сдаться?!"
 
     old "Ugh. N-No, I…{#ch14_s_120}"
     new "Ох. Я-Я не…"
@@ -82,19 +82,19 @@
     new "Сайто…"
 
     old "People who do such terrible things… can't be allowed to run rampant.{#ch14_s_123}"
-    new "Таких, кто творит ужасные вещи… нельзя оставлять безнаказанными."
+    new "Таких, кто творит ужасные вещи… нельзя позволять им распоясаться."
 
     old "Right. I can't forgive them either.{#ch14_l_038}"
-    new "Верно. Я тоже не могу их простить."
+    new "Верно. Я тоже ни за что не могу их простить."
 
     old "Agreed.{#ch14_t_009}"
     new "Согласна."
 
     old "(Still, Kirche calling me 'big brother' is kind of cute…){#ch14_s_124}"
-    new "(И всё же Кирке, называющая меня «братишкой», — это мило…)"
+    new "И всё же Кирке, называющая меня «братишкой», — это мило…"
 
     old "(Honestly, the usual Kirche is nice too, but this Kirche is…){#ch14_s_125}"
-    new "(Честно, обычная Кирке хороша, но эта Кирке…)"
+    new "Честно, обычная Кирке хороша, но эта Кирке…"
 
     old "Saito! What are you grinning at while looking at Kirche!?{#ch14_l_039}"
     new "Сайто! Что ты ухмыляешься, глядя на Кирке!?"
@@ -124,7 +124,7 @@
     new "Ну же, почему этот глупый пёс — вдруг «братишка»!!"
 
     old "Jealous?{#ch14_t_010}"
-    new "Ревнуешь?"
+    new "Завидуешь?"
 
     old "I-I'm not jealous at all!{#ch14_l_044}"
     new "Я-Я совсем не ревную!"
@@ -133,10 +133,10 @@
     new "Может занять время, но я попробую сделать лекарство."
 
     old "Can you manage it! Montmon!{#ch14_s_128}"
-    new "У тебя получится! Монмон!"
+    new "Справишься ли ты, Монмон?!"
 
     old "I can't promise anything, though.{#ch14_m_014}"
-    new "Я ничего не обещаю."
+    new "Гарантий не дам, но…"
 
     old "Montmon… You really are amazing, you know.{#ch14_s_129}"
     new "Монмон… Ты и правда потрясающая."
@@ -148,7 +148,7 @@
     new "Главное — что вы теперь сделаете? Не прощать — это хорошо, но противник — огромная организация."
 
     old "I hate to say it, but you should ask the Queen for help.{#ch14_m_017}"
-    new "Не хочу это говорить, но вам стоит просить помощи у Королевы."
+    new "Обидно, но вам стоит просить помощи у Королевы."
 
     old "Let me think a little… What are they really planning?{#ch14_l_045}"
     new "Дайте мне немного подумать… Что же они задумали?"
@@ -160,7 +160,7 @@
     new "…"
 
     old "(Kirche went quiet—so she was with Tabitha, huh…){#ch14_s_130}"
-    new "(Кирке затихла — значит, она была у Табасы… да?)"
+    new "Кирке затихла — значит, она была у Табасы… да?"
 
     old "Kirche, what are you doing with Tabitha?{#ch14_s_131}"
     new "Кирке, что ты делаешь с Табасой?"
@@ -181,10 +181,10 @@
     new "Ура! Ура!"
 
     old "(Tabitha is soothing Kirche—the one who's usually the big sister…){#ch14_s_132}"
-    new "(Табаса утешает Кирке — ту, что обычно сама старшая…)"
+    new "Табаса утешает Кирке — ту, что обычно сама старшая…"
 
     old "Tabitha's actually quite good with kids.{#ch14_s_133}"
-    new "Табаса и правда хорошо ладит с детьми."
+    new "Табаса и правда умеет заботиться о других."
 
     old "Is she?{#ch14_t_014}"
     new "Правда?"
@@ -205,10 +205,10 @@
     new "…"
 
     old "(What's this feeling in my chest…?){#ch14_s_136}"
-    new "(Что это за чувство в груди…?)"
+    new "Что это за чувство в груди…?"
 
     old "(Reading a book with Tabitha like this…){#ch14_s_137}"
-    new "(Читать вот так с Табасой…)"
+    new "Читать вот так с Табасой…"
 
     old "B-Big brother is lonely!{#ch14_s_138}"
     new "Б-Братишке одиноко!"
@@ -238,7 +238,7 @@
     new "Хирага-кун, даже в другом мире преступление остаётся преступлением."
 
     old "Hold on, you two. What do you think I am?{#ch14_s_140}"
-    new "Подождите вы двое. Что вы обо мне подумали?"
+    new "Вы меня за кого принимаете?!"
 
     old "…{#ch14_ha_007}"
     new "…"
@@ -253,7 +253,7 @@
     new "У братишки тёплые коленки. Спокойной нооочи…"
 
     old "Ah! A lap pillow! What an attack!{#ch14_ha_008}"
-    new "Ах! Под HEAD-подушку! Какая атака!"
+    new "Ах! Подушка на коленях! Какая атака!"
 
     old "I-Is this all right! Miss Valliere!?{#ch14_si_009}"
     new "М-Можно ли это! Мисс Вальер!?"
@@ -268,5 +268,5 @@
     new "…"
 
     old "(Sigh… What am I supposed to do? At this rate, I won't last…){#ch14_s_142}"
-    new "(Фух… Что мне делать? Так я долго не продержусь…)"
+    new "Фух… Что мне делать? Так я долго не продержусь…"
 

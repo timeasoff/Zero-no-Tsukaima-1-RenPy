@@ -13,7 +13,7 @@
     new "Д-Да…"
 
     old "Sa-Saito!? W-What happened to you! You're all battered!{#ch14_l_007}"
-    new "С-Сайто!? Ч-Что с тобой! Ты весь в синяках!"
+    new "С-Сайто!? Ч-Что с тобой! Ты весь побитый!"
 
     old "Eek! Saito-san, hold on!{#ch14_si_001}"
     new "Ой! Сайто-сан, держитесь!"
@@ -136,7 +136,7 @@
     new "…"
 
     old "Guiche and Haruna found Kirche lying down, and Montmorency treated her.{#ch14_s_094}"
-    new "Гиш и Харуна нашли Кирке лежащей, а Монморанси её вылечила."
+    new "Гиш и Харуна нашли Кирке лежащей, а Монморанси её полечила."
 
     old "Come on, let's get back to the inn and rest.{#ch14_s_095}"
     new "Ну же, вернёмся в гостиницу и отдохнём."
@@ -196,7 +196,7 @@
     new "Я-Я не знаю! Ничего не знаю!"
 
     old "Then what's this Kirche clinging to you!?{#ch14_l_022}"
-    new "Тогда что это — Кирке, которая к тебе прилипла!?"
+    new "Тогда что это — Кирке, которая прилипла к этому тупому псу!?"
 
     old "You'll explain, won't you?{#ch14_si_003}"
     new "Вы нам объясните, правда?"
@@ -253,7 +253,7 @@
     new "Ты просто хочешь уйти от ответа…"
 
     old "E-Eek!{#ch14_s_110}"
-    new "Ч-Чёрт!"
+    new "О-Ой!"
 
     old "Stop it, you two!{#ch14_m_007}"
     new "Прекратите, вы двое!"
@@ -274,7 +274,7 @@
     new "Ч-Что это? Получается, я плохая…"
 
     old "O-Onii-chan. Don't be mean to me…{#ch14_k_084}"
-    new "Б-Братишка. Не обижай меня…"
+    new "Б-Братишку не обижай…"
 
     old "…Ugh.{#ch14_l_028}"
     new "…Ох."

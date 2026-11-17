@@ -4971,3 +4971,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (E7): стаб `script-ch15.rpy` с `label ch15`; в часть 4 добавлены точки входа 1489/1490/1491 из move-меню части 3.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_4 --lang ru/en` → OK; `audio_converter.py check` → OK (8621/8621); `omission_precheck --chapter 14_4` → 0 кандидатов.
 - отчёт: `reports/ch14/4.md`; план обновлён (ядро 578–618 завершено).
+
+
+## 2026-11-18 — Глава 14: аудиты частей 2–4 — pipeline закрыт
+
+- статус: DONE
+- место: `game/tl/russian/ch14_{2,3,4}_*`, `reports/sma/ch14/{2,3,4}/`, `reports/ch14/{2,3,4}.md`
+- аудиты: A (4+5+2), C (4+1+4), Analyzer Ф1 (3+6+2), precheck 0; Фаза 2 — 6+7+6 CONFIRMED_ERROR → FIXED.
+- решение (важное): `おにいちゃんをいじめないで` — объект просьбы Сайто, не Кирке (ролевая инверсия исправлена); «восстановил» → «восстановила» (Монморанси —女性); `ひざまくら` → «подушка на коленях» (убрано латинское HEAD); `のさばる` → «распоясаться».
+- решение (модальность): `みたい/かもしれない` → «похоже/кажется/судя по всему» в поисковых отчётах; `保証はできないけどね` → «Гарантий не дам, но…»; `なんとかなるのか` → вопрос; `何だと思ってるんだ` → негодующий упрёк.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 14 --lang ru/en` → OK; `audio_converter.py check` → OK.
