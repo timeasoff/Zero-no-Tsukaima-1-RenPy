@@ -5089,3 +5089,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `イリュージョン` → Illusion/«Иллюзия» (новое заклинание Луизы); `おしおき` → «наказание»; заглушки `id(K)`.
 - проверки: `check_project.py` OK; `check_renpy_syntax.py --chapter 19` OK; `check_typography.py --chapter 19_2 --lang ru/en` OK; `omission_precheck --chapter 19_2` 0 кандидатов.
 - отчёт: `reports/ch19/2.md`; создан стаб `script-ch19_3.rpy` (выход `jump attention` до порта ч.3).
+
+
+## 2026-11-18 — Глава 19: часть 3 (764–768) — глава завершена
+
+- 118 реплик / 115 голосов; `references/voice_id_map.csv` +115 (10206); `audio_converter.py` → 115 `.ogg`.
+- PROVISIONAL: `禁忌` → «запретная магия»; `獣人` → «зверочеловек»; `モートソグニル` → Мортогнир; заглушки `id(K)`.
+- проверки: `check_project.py` OK; `check_renpy_syntax.py --chapter 19` OK; `check_typography.py --chapter 19_3 --lang ru/en` OK; `omission_precheck --chapter 19_3` 0 кандидатов.
+- отчёт: `reports/ch19/3.md`; создан стаб `game/chapters/20/script-ch20.rpy` (выход `jump ch20`).
+- Итог главы 19: ядро 739–768, 3 части, 363 голоса, выход `jump ch20`.

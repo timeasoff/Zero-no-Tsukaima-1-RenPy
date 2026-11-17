@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (627)
+## WARNING (634)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -315,6 +315,7 @@
 - I1 ch13: 424 script strings > 396 source talk
 - I1 ch15: 421 script strings > 407 source talk
 - I1 ch16: 142 script strings > 138 source talk
+- I1 ch19: 387 script strings > 378 source talk
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(10) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(20) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
@@ -604,6 +605,12 @@
 - W6 placeholder id(81) has a name in image_id_map.csv at game/chapters/19/script-ch19_2.rpy:758 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(17) has a name in image_id_map.csv at game/chapters/19/script-ch19_2.rpy:813 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(29) has a name in image_id_map.csv at game/chapters/19/script-ch19_2.rpy:858 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(29) has a name in image_id_map.csv at game/chapters/19/script-ch19_3.rpy:15 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(29) has a name in image_id_map.csv at game/chapters/19/script-ch19_3.rpy:199 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(29) has a name in image_id_map.csv at game/chapters/19/script-ch19_3.rpy:477 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(29) has a name in image_id_map.csv at game/chapters/19/script-ch19_3.rpy:588 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(29) has a name in image_id_map.csv at game/chapters/19/script-ch19_3.rpy:643 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/19/script-ch19_3.rpy:735 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:80 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:127 (run tools/replace_bg_placeholders.py --apply)
@@ -638,11 +645,11 @@
 - W6 placeholder id(1145) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(1169) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 
-## INFO (22)
+## INFO (21)
 
 - speakers defined: 37
 - overlay K: max=19 used=17 next_free=20
-- voices: refs=10091 ogg=10115 missing=0
+- voices: refs=10206 ogg=10230 missing=0
 - I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: strings=329 source_talk=492 (gap expected)
@@ -650,7 +657,6 @@
 - I1 ch14: strings=376 source_talk=444 (gap expected)
 - I1 ch17: strings=239 source_talk=282 (gap expected)
 - I1 ch18: strings=548 source_talk=589 (gap expected)
-- I1 ch19: strings=269 source_talk=378 (gap expected)
 - I1 ch20: not started (source talk=162)
 - I1 ch21: not started (source talk=541)
 - I1 ch22: not started (source talk=512)
@@ -660,6 +666,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=1226 in 60 file(s)
-- labels=780 rpy=133 strings(strict=11490) tl_old=japanese:11985,russian:12012
+- image map: ids=313 named=148 open=165 | placeholders=1232 in 61 file(s)
+- labels=786 rpy=134 strings(strict=11608) tl_old=japanese:12103,russian:12130
 
