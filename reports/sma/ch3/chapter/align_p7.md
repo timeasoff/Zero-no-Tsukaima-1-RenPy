@@ -1,6 +1,6 @@
 # ch3 align — part 7 (`script-ch3_7.rpy`)
 
-Generated: 2026-10-16T23:00:08. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
+Generated: 2026-11-17T05:58:25. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
 Scenes: 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206.
 Entries: 121 (choice=6, novoice=3, voiced=112).
 Flags: none.
@@ -68,10 +68,10 @@ Flags: none.
 - RU: Д-да…
 
 ### #11 line 83 scene 193 kind=voiced voice=ch3.7_si_002 spk=si
-- EN: Saito, you dummy…
+- EN: Saito-san, you dummy…
 - JA: サイトさんの馬鹿……。
 - JAtl: OK
-- RU: Сайто, дурак…
+- RU: Сайто-сан, дурак…
 
 ### #12 line 92 scene 193 kind=voiced voice=ch3.7_s_007 spk=s
 - EN: Ee-eh!?
@@ -713,7 +713,7 @@ Flags: none.
 - EN: Besides — if I, your master, am dueling, then my familiar Saito has to join in. That's an order!
 - JA: それに、ご主人様のわたしが決闘してるんだから、使い魔のサイトも参加しなさい。これは命令よ！
 - JAtl: OK
-- RU: И раз моя хозяйка дуэлью занята, фамильяру Сайто тоже надо присоединиться. Это приказ!
+- RU: И раз я, твоя хозяйка, дуэлью занята, фамильяру Сайто тоже надо присоединиться. Это приказ!
 
 ### #119 line 729 scene 206 kind=voiced voice=ch3.7_s_051 spk=s
 - EN: You've gotta be kidding!

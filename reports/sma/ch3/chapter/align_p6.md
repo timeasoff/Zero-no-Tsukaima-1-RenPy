@@ -1,6 +1,6 @@
 # ch3 align — part 6 (`script-ch3_6.rpy`)
 
-Generated: 2026-10-16T23:00:08. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
+Generated: 2026-11-17T05:58:25. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
 Scenes: 183, 184, 185, 186, 187, 188, 189, 190, 191, 192.
 Entries: 106 (choice=9, novoice=4, voiced=93).
 Flags: MISMATCH_JA=3.
