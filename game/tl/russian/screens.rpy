@@ -347,7 +347,7 @@ translate russian strings:
 
 
     old "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito."
-    new "Горничная, работающая в Академии магии Тристейна. Не может использовать магию, так как простолюдинка. Испытывает чувства к Сайто."
+    new "Горничная, работающая в Академии магии Тристейна.\nНе может использовать магию, так как простолюдинка.\nИспытывает чувства к Сайто."
 
     old "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown."
     new "Маг, призвавший Сайта.\nХотя она способна использовать магию пустоты,\nеё истинная природа (или истинные возможности) до сих пор неизвестна."

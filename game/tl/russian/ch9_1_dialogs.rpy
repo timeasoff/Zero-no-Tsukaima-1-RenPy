@@ -184,7 +184,7 @@ translate russian strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "Ну, меня же Луиза призвала, / вот и обо мне тут с тех пор всё время заботились."
 
-    old "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
+    old "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
     new "Сайто — не фамильяр Луизы. / То, что о нём заботятся, — само собой разумеется. / А я — не то…"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"

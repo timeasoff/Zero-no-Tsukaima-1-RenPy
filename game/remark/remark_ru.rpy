@@ -467,7 +467,7 @@ translate russian strings:
     new "Не дело это."
 
     old "Advice like {i}'just learn Japanese and play — what's the problem'{/i} wouldn't help.{#r}"
-    new "Советы в стиле {i}'выучить японский и играть - в чем проблема'{/i} - не поможет"
+    new "Советы в стиле {i}'выучить японский и играть - в чем проблема'{/i} - не помогут"
 
     old "An average Zero no Tsukaima fan would look at all this...{#r}"
     new "Рядовой зерцукамец посмотрит на всё это..."
@@ -948,7 +948,7 @@ translate russian strings:
     new "{size=+14}{color=#ffffff}Вариант третий{/color}{/size}"
 
     old "So the duration and joy of Montmorency's hoho directly depends on your choice.{#r}"
-    new "То есть длительность и радость хохо Монморанси напрямую зависит от твоего выбора."
+    new "То есть длительность и радость хохо Монморанси напрямую зависят от твоего выбора."
 
     old "Even the headmaster's bleating was recorded in three versions here.{#r}"
     new "Вот тут даже мэканье директора записали в трёх вариантах."
@@ -1096,7 +1096,7 @@ translate russian strings:
     new "Назад"
 
     old "{size=+8}Done{/size}{#r}"
-    new "{size=+8}Cделано{/size}"
+    new "{size=+8}Сделано{/size}"
 
     old "The rest are waiting their turn.{#r}"
     new "Остальные ждут своей очереди."

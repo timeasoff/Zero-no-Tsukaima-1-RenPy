@@ -5002,3 +5002,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * LOW не трогал: мёртвая пара ключей `{size=-2}A small bonus chapter…` в `remark_{ja,ru}.rpy`.
 * Семантика (seed i%59, 35 строк) и коммиты rounds 19–22 — 0 новых ошибок. `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
 
+### 2026-11-17 — Перепроверка №24 (RU remark и диалог)
+
+* Исправлено 5: `ch9_1:439` — JA 平賀くんはルイズさんの使い魔じゃない (Харуна о Сайто, 3-е лицо) → EN «Saito isn't Louise's familiar … he's taken care of … But I'm different» + TL old; RU homoglyph «Cделано» → «Сделано»; «Советы … не поможет» → «не помогут»; «длительность и радость … зависит» → «зависят»; RU описание Сиесты — `\n`.
+* LOW/INFO без правки: мёртвые ключи в `remark_{ja,ru}.rpy` (3), inventory-ключи `overlays.rpy` (25) и первом блоке `screens.rpy` (50), NBSP-дубль имени Луизы — живые строки не скрывают.
+* Семантика (seed i%61, 35 строк) и коммиты rounds 22–24 — 0 других ошибок. `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
+

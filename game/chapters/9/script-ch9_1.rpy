@@ -436,7 +436,7 @@ label ch9:
     # JA[9305]: サイト：そんなこといったら、俺なんかルイズに / 召喚されて以来、なんだかんだでずっと / この学院のお世話になってるんだけど。
     # ハルナ：平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。  [voice 1827]
     voice "ch9_ha_002"
-    ha "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
+    ha "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
     # JA[1827]: ハルナ：平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。
     # [SPRITE lay5 image=+390 → s 1]
     $ show_sprites(("s 1", "ha 1"))

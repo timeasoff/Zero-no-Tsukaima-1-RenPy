@@ -345,6 +345,17 @@ EN-аудит: 130 длинных строк + 272 choice + sweep 2658 EN — 0 
 
 Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
 
+## Перепроверка №24 (RU remark и диалог)
+
+Исправлено 5:
+- `ch9_1.rpy:439`: JA 平賀くんはルイズさんの使い魔じゃない — Харуна говорит о **Сайто** в 3-м лице, EN же давал «I'm not Louise's familiar» (субъект подменён на саму Харуну и противоречил RU) → «Saito isn't Louise's familiar… he's taken care of… But I'm different» + TL `old`.
+- `remark_ru.rpy`: латинская `C` в «Cделано» → «Сделано»; «Советы … не поможет» → «не помогут»; «длительность и радость … зависит» → «зависят».
+- RU описание Сиесты в `screens.rpy`: возвращены `\n` (как в JA).
+
+LOW/INFO без правки: 3 мёртвых ключа в `remark_{ja,ru}.rpy` (bonus chapter, Back, «And now let's take a look…»), 25 inventory-ключей в `overlays.rpy` и 50 в первом блоке `screens.rpy` — живые строки не скрывают; NBSP-дубль имени Луизы. Семантика (seed i%61, 35 строк) + коммиты rounds 22–24 — 0 других ошибок.
+
+Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK.
+
 ## where I stopped
 
 - Текущая фаза: **главы 6–9 завершены** (rounds 1–14); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
