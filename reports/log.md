@@ -4833,3 +4833,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (лексика): 黒幕 → «закулисный организатор»; 気配 → «присутствие»; 大ポカ → «оплошность»; 詠唱 → «произнесение»; 都 → «столица»; 目的 → «цель»; 邪魔 → «мешает». Субъектный сдвиг устранён: 平賀くんの気持ちは変わらない → «чувства Хирага-куна не изменятся».
 - решение (модальность/прагматика): 戻れない → «не сможешь вернуться»; よく言うよ → ироничное «Ну, сказала!»; だろうな → «небось, сможем»; удалены добавленные «и никогда» и «держу пари» (нет в JA; EN не арбитр).
 - проверки после правок: `check_project.py` → RESULT: OK; `check_typography.py --chapter 12_2 --lang ru/en` → OK.
+
+
+## 2026-11-17 — Глава 12 (chapter_13): часть 3 (сцены 535–543)
+
+- статус: DONE (порт + механические фазы; аудиты — отдельным проходом)
+- место: `game/chapters/12/script-ch12_{3,4}.rpy`, `game/tl/{japanese,russian}/ch12_3_*`, `references/voice_id_map.csv` (+119), `reports/ch12/3.md`
+- решение (нет аудио): в сцене 539 `[voice 0]` (アキナ, «よ、よお、サイト。」) — дорожки нет ни в `wav_files/`, ни в `transcriptions_ja_ru.csv`; строка `voice` пропущена, диалог с тегом `ch12_ak_055` сохранён в EN/RU, manifest-записи нет. Pre-check `MISSING_TRANSLATION` для этой реплики — FALSE_POSITIVE (покрытие считается по voice-id), contents-loss нет.
+- PROVISIONAL: `キュウコン` → «Кюкон», `タッチ` → «Тач», `冬奈` → «Фуюна», различие `あたし`/`わたし` → «атаси»/«ватаси»; `ゼロ戦` → «Зеро-файтер» (продолжение части 2).
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_3 --lang ru/en` → OK; `audio_converter.py check` → OK (7901/7901); `omission_precheck` → 1 FALSE_POSITIVE (см. выше).
+- отчёт: `reports/ch12/3.md`; план обновлён (часть 3 ✅, осталась часть 4).

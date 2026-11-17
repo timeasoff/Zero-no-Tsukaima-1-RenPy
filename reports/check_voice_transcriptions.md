@@ -1,8 +1,8 @@
 # Проверка озвучки по transcriptions_ja_ru.csv
 
-Дата: 2026-11-17 22:28
+Дата: 2026-11-17 22:45
 
-## WARNING (116)
+## WARNING (235)
 
 - [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_001 (id=13309) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
 - [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_001 (id=7221) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
@@ -119,21 +119,140 @@
 - [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_009 (id=206) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
 - [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_030 (id=13330) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
 - [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_010 (id=207) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
-- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 115 использованных голосов всё ещё в очереди (первые 10: 13309, 13310, 13311, 13312, 13313, 13314, 13315, 13316, 13317, 13318)
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_011 (id=208) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_012 (id=209) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_031 (id=13331) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_013 (id=210) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_032 (id=13332) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_009 (id=2620) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_033 (id=13333) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_014 (id=211) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_034 (id=13334) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_d_001 (id=1368) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_035 (id=13335) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_010 (id=2621) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_015 (id=212) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_016 (id=213) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_017 (id=214) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_036 (id=13336) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_033 (id=7253) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_034 (id=7254) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_037 (id=13337) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_038 (id=13338) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_018 (id=215) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_035 (id=7255) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_036 (id=7256) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_019 (id=216) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_020 (id=217) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_037 (id=7257) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_039 (id=13339) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_038 (id=7258) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_039 (id=7259) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_021 (id=218) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_040 (id=13340) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_040 (id=7260) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_022 (id=219) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_023 (id=220) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_041 (id=7261) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_024 (id=221) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_042 (id=7262) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_025 (id=222) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_043 (id=7263) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_044 (id=7264) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_026 (id=223) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_027 (id=224) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_041 (id=13341) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_028 (id=225) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_045 (id=7265) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_011 (id=2622) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_042 (id=13342) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_029 (id=226) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_012 (id=2623) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_030 (id=227) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_043 (id=13343) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_031 (id=228) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_046 (id=7266) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_044 (id=13344) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_045 (id=13345) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_047 (id=7267) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_d_002 (id=1369) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_d_003 (id=1370) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_046 (id=13346) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_047 (id=13347) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_048 (id=7268) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_049 (id=7269) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_050 (id=7270) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_051 (id=7271) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_052 (id=7272) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_048 (id=13348) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_053 (id=7273) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_054 (id=7274) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_055 (id=7275) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_049 (id=13349) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_056 (id=7276) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_050 (id=13350) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_057 (id=7277) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_052 (id=13351) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_058 (id=7278) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_059 (id=7279) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_054 (id=13352) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_060 (id=7280) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_055 (id=13353) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_061 (id=7281) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_056 (id=13354) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_062 (id=7282) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_063 (id=7283) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_032 (id=229) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_033 (id=230) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_013 (id=2624) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_034 (id=231) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_035 (id=232) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_014 (id=2625) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_036 (id=233) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_037 (id=234) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_038 (id=235) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_015 (id=2626) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_039 (id=236) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_040 (id=237) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_016 (id=2627) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_041 (id=238) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_042 (id=239) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_043 (id=240) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_044 (id=241) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_045 (id=242) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_017 (id=2628) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_018 (id=2629) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_046 (id=243) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ha_019 (id=2630) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_064 (id=7284) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_065 (id=7285) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_066 (id=7286) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_057 (id=13355) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_059 (id=13356) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_d_004 (id=1371) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_067 (id=7287) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_060 (id=13357) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_w_001 (id=16120) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_w_002 (id=16121) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_062 (id=13358) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_ak_048 (id=244) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_063 (id=13359) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] game/chapters/12/script-ch12_2.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_064 (id=13360) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить
+- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 234 использованных голосов всё ещё в очереди (первые 10: 13309, 13310, 13311, 13312, 13313, 13314, 13315, 13316, 13317, 13318)
 
 ## INFO (1)
 
-- 1290 id из манифеста есть в очереди CSV (строка не удалена/не помечена)
+- 1409 id из манифеста есть в очереди CSV (строка не удалена/не помечена)
 
 ## Статистика
 
 - manifest_ids_row_consumed: 5216
-- manifest_ids_row_in_queue: 1290
-- manifest_pairs: 6509
+- manifest_ids_row_in_queue: 1409
+- manifest_pairs: 6628
 - transcriptions_consumed_rows: 4455
 - transcriptions_queue_rows: 9789
 - transcriptions_skipped_rows: 826
-- voices_used_in_scripts: 115
+- voices_used_in_scripts: 234
 - voices_used_row_consumed: 0
-- voices_used_row_still_in_queue: 115
+- voices_used_row_still_in_queue: 234
 
