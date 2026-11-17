@@ -7,7 +7,7 @@
     new "Идём, Дерфлингер!"
 
     old "Right you are, partner.{#ch15_d_005}"
-    new "Верно, приятель."
+    new "Верно."
 
     old "Leave that side to me, darling!{#ch15_k_043}"
     new "Эту сторону доверь мне, дорогой!"
@@ -37,7 +37,7 @@
     new "Дорогой, осторожно!"
 
     old "Whoa!{#ch15_s_107}"
-    new "Ого!"
+    new "Ой!"
 
     old "…{#ch15_ak_023}"
     new "…"
@@ -52,7 +52,7 @@
     new "Не называй меня Харуной! Моё имя — Акина!"
 
     old "My, who do we have here… It seems you've drawn the lead role in another grand performance.{#ch15_w_001}"
-    new "Ой, кто это… Похоже, вы снова достали главную роль для большого спектакля."
+    new "Ой, кто это… Похоже, вы снова достали главную роль для великолепного спектакля."
 
     old "Weatherly! How dare you do this to me…{#ch15_k_045}"
     new "Уэзерби! Как ты смела так поступить со мной…"
@@ -73,16 +73,16 @@
     new "Не твоё дело."
 
     old "Thanks to some middle-aged woman showing us nothing but boring flames, I couldn't even sleep properly.{#ch15_k_047}"
-    new "Благодаря одной стареющей женщине, которая показывала только скучные пожары, я даже поспать как следует не смогла."
+    new "Благодаря этим старух, которые показывали только скучные пожары, я даже поспать как следует не смогла."
 
     old "Oh, and who might this 'middle-aged woman' be?{#ch15_w_005}"
     new "Ой, а кто же эта «стареющая женщина»?"
 
     old "Weatherly-sama, of course.{#ch15_ak_026}"
-    new "Конечно, Уэзерби-сама."
+    new "Правда, Уэзерби-сама?"
 
     old "How rude. Age doesn't matter to an actor.{#ch15_w_006}"
-    new "Как грубо. Для актрисы возраст не важен."
+    new "Надоело. Для актрисы возраст не важен."
 
     old "The final act. It seems the cast wants it blood-soaked.{#ch15_w_007}"
     new "Последний акт. Похоже, актёры хотят обагрить его кровью."
@@ -118,7 +118,7 @@
     new "Что это! Тристания — нет, ни одна страна в Халкегинии не имеет такого флота…!?"
 
     old "(So that's what Louise wanted. That fleet must be an illusion… something Void created…){#ch15_s_112}"
-    new "Так вот что хотела Луиза. Этот флот — иллюзия… то, что создала Пустота…"
+    new "Так вот что хотела Луиза. Этот флот — иллюзия… то, что Луиза создала силой Пустоты…"
 
     old "Weatherly-sama, our fleet is retreating!{#ch15_ak_028}"
     new "Уэзерби-сама, наш флот отступает!"
@@ -136,7 +136,7 @@
     new "Что она имеет в виду?"
 
     old "(She's telling you to cut her down, partner.){#ch15_d_006}"
-    new "Она говорит, чтобы ты её зарубил, приятель."
+    new "Она говорит, чтобы ты её зарубил."
 
     old "…C-Cut her down?{#ch15_s_114}"
     new "…З-Зарубить её?"
@@ -187,7 +187,7 @@
     new "Похоже, бои в городе почти закончились."
 
     old "Good. Phew… I'm exhausted. At my limit…{#ch15_l_091}"
-    new "Хорошо. Фух… Я выбилась. Совсем…"
+    new "Хорошо. Фух… Фух… Фух… Я на пределе…"
 
     old "Still, creating an illusion… There really is such magic.{#ch15_s_122}"
     new "Всё-таки создать иллюзию… Бывает и такая магия."

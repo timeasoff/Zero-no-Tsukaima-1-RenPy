@@ -7,7 +7,7 @@
     new "Да. У нас нет времени ждать, пока Кирке поправится."
 
     old "So it all comes down to you. You'd better protect her properly.{#ch15_l_066}"
-    new "Значит, всё зависит от тебя. Ты должен её уберечь."
+    new "Значит, всё зависит от тебя. Ты её убережёшь, ладно?"
 
     old "Heh, leave it to me. I'm Louise's familiar. I'll guard you until the chanting is done.{#ch15_s_074}"
     new "Хе, доверься мне. Я фамильяр Луизы. Я буду охранять тебя, пока не закончится заклинание."
@@ -43,7 +43,7 @@
     new "Но, приятель, даже если ты решил верить…"
 
     old "Buying time until Louise's Void chant finishes is going to be tough, huh.{#ch15_s_080}"
-    new "Держать оборону, пока Луиза читает Пустоту, будет непросто, да."
+    new "Выиграть время, пока Луиза читает Пустоту, будет непросто, да."
 
     old "If Louise is out of it, the main force will be just me and Tabitha.{#ch15_s_081}"
     new "Если Луиза выбывает, основные силы — это я и Табаса."
@@ -70,7 +70,7 @@
     new "А? Правда?"
 
     old "What, you doubt me? After rushing me so hard.{#ch15_m_010}"
-    new "Что, сомневаешься? После того как так подгоняла."
+    new "Что, сомневаешься? После того как так подгонял."
 
     old "I don't doubt you, I don't! All right!!{#ch15_s_086}"
     new "Не сомневаюсь, не сомневаюсь! Ура!!"
@@ -193,7 +193,7 @@
     new "…"
 
     old "L-Louise onee-chan… that was mean.{#ch15_k_034}"
-    new "Л-Луиза-онээ-тян… это было плохо."
+    new "Л-Луиза-онээ-тян… это было ужасно."
 
     old "M-My mouth is bitter…!{#ch15_k_035}"
     new "У меня во рту горько…!"
@@ -223,7 +223,7 @@
     new "Объяснения потом! Монмон, средство против внушения, давай!"
 
     old "Right, here I go.{#ch15_m_015}"
-    new "Да, я начала."
+    new "Да, пошла."
 
     old "Ugh, my head is still spinning.{#ch15_k_040}"
     new "Ох, у меня ещё крутится голова."
@@ -238,7 +238,7 @@
     new "Вы слишком близко! Оба отойдите!"
 
     old "I'm still recovering. Be a little gentler with me.{#ch15_k_042}"
-    new "Я же ещё болею. Пощадите меня немного."
+    new "Я же ещё на поправке. Отнеситесь ко мне чуть нежнее."
 
     old "Urgent message for Louise Francoise! Reconquista warships have entered Tristain's defense zone!{#ch15_soldier_009}"
     new "Срочное сообщение для Луизы Франсуазы! Военные корабли Реконкисты вошли в зону обороны Тристании!"

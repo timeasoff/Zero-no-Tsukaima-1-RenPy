@@ -5010,3 +5010,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (E7): стаб `script-ch16.rpy` с `label ch16` для финального `jump ch16`.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 15` → OK; `check_typography.py --chapter 15_3/15_4 --lang ru/en` → OK; `audio_converter.py check` → OK (9017/9017); `omission_precheck --chapter 15_3/15_4` → 0 кандидатов.
 - отчёты: `reports/ch15/3.md`, `reports/ch15/4.md`; план обновлён (ядро 619–659 завершено).
+
+
+## 2026-11-18 — Главы 15 (аудиты ч.2–4) и 16 (порт целиком)
+
+- статус: DONE
+- auditor-evidence: A/C/Analyzer Ф1 для ch15 ч.2–4; Фаза 2 — 6+6+8 CONFIRMED_ERROR → FIXED (модальность, род, добавки, лексика).
+- глава 16 (`chapter_17_微熱の使い手`, сцены 660–669) портирована одной частью: 138 реплик / 123 голоса + 2 menu, EN-база, JA/RU `tl`, `.ogg`, отчёт `reports/ch16/1.md`.
+- PROVISIONAL: `微熱の使い手` → «Wielder of slight fever»/«Носитель лёгкого жара»; `花火` → «fireworks»/«фейерверк»; стаб `ch17` создан.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 16` → OK; `check_typography.py --chapter 16 --lang ru/en` → OK; `audio_converter.py check` → OK (9140/9140); `omission_precheck --chapter 16_1` → 0 кандидатов.
+- отчёты: `reports/ch15/{2,3,4}.md` (разделы аудитов), `reports/ch16/1.md`; план обновлён.

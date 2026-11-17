@@ -43,7 +43,7 @@
     new "Стой. Здесь дворец! Соблюдайте порядок."
 
     old "What business do academy students have here!?{#ch15_soldier_002}"
-    new "Какое дело здесь академистам!?"
+    new "Какое дело здесь академишкам!?"
 
     old "W-What did you say!?{#ch15_l_029}"
     new "Ч-Что ты сказал!?"
@@ -94,7 +94,7 @@
     new "Орудия в городе? Как это вообще возможно!?"
 
     old "Reports from the soldiers who subdued the attackers say…{#ch15_commander_003}"
-    new "Со слов солдат, которые смогли подавить нападавших…"
+    new "Как сообщают солдаты, которые смогли подавить нападавших…"
 
     old "Reconquista used the recent bombings to slip soldiers disguised as repair workers into the country.{#ch15_commander_004}"
     new "Реконкиста использовала недавние взрывы, чтобы отправить в страну солдат под видом ремонтников."
@@ -268,7 +268,7 @@
     new "Что!?"
 
     old "So it's come.{#ch15_h_029}"
-    new "Значит, это началось."
+    new "Вот оно и пришло."
 
     old "A surprise attack on the capital after maximum chaos from sabotage…{#ch15_h_030}"
     new "Внезапный удар по столице после максимального хаоса от диверсий…"
@@ -304,7 +304,7 @@
     new "Если он рухнет в таком городе, ты представляешь, что будет!?"
 
     old "Then just don't let it fall, silly!{#ch15_l_051}"
-    new "Тогда просто не дай ему упасть, глупыш!"
+    new "Тогда просто не дай ему упасть!"
 
     old "You make it sound so easy!{#ch15_s_062}"
     new "Ты говоришь так, будто это просто!"
@@ -361,7 +361,7 @@
     new "Слушай, Луиза. Ты и правда применишь Пустоту?"
 
     old "You're so persistent. If I say I will, I will. What else can we do?{#ch15_l_059}"
-    new "Какой ты настойчивый. Скажу — значит применю. Что нам ещё остаётся?"
+    new "Какой ты надоедливый. Скажу — значит применю. Что нам ещё остаётся?"
 
     old "That's true, but…{#ch15_s_070}"
     new "Это верно, но…"
