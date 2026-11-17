@@ -249,7 +249,7 @@ translate russian strings:
     new "Меню"
 
     old "Gallery"
-    new "Галлерея"
+    new "Галерея"
 
     old "Music"
     new "Музыка"

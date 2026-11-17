@@ -5152,3 +5152,7 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 
 * 42 строки (seed i%167) — новых ошибок нет. Дрейф доков исправлен: `qa_review_ch6-9.md` 33→52 round в мета и «where I stopped»; `translation_plan.md` актуален (312, OK).
 
+### 2026-11-17 — Перепроверка №54 (seed i%173)
+
+* 41 строка (seed i%173) — новых ошибок нет. UI по смыслу (163 screens + 48 overlays): исправлена опечатка RU `screens.rpy:252` «Галлерея» → «Галерея».
+
