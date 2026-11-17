@@ -247,7 +247,7 @@ translate japanese strings:
     old "I wanted to thank and apologize to her, / but she's already left. {#ch9_h_025}"
     new "彼女にもお礼と謝罪を述べたかったのですが、 / 旅立ってしまったのでは仕方ありませんね。"
 
-    old "And yet, I can't repay everyone's efforts, / which is the hardest part. {#ch9_h_026}"
+    old "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
     new "それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。"
 
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"

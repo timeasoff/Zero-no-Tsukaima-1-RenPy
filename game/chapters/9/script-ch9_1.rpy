@@ -575,7 +575,7 @@ label ch9:
     $ show_sprites(("h 2 sad", "s 1"))
     # アンриетта：それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。  [voice 452]
     voice "ch9_h_026"
-    h "And yet, I can't repay everyone's efforts, / which is the hardest part. {#ch9_h_026}"
+    h "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
     # JA[452]: アンриетта：それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。
     # [SPRITE lay5 hide]
     # [SPRITE lay1 image=+304 → l 1 happy]

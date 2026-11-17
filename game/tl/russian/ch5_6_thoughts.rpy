@@ -5,7 +5,7 @@ translate russian strings:
     new "Хм… занятий сегодня не будет."
 
     old "Weatherby-san said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
-    new "Господин Уэзерби сказал, что завтра наконец объявят финальный распределитель ролей…"
+    new "Госпожа Уэзерби сказала, что завтра наконец объявят финальный отбор актёров…"
 
     old "I wonder how it's going to turn out? Really...{#ch5.6_th_003}"
     new "Как же это обернётся? Настояще…"

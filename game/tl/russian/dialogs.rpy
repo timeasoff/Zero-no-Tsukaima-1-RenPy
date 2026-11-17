@@ -9964,13 +9964,13 @@ translate russian strings:
     new "А, Сиеста — вот ты где."
 
     old "Saito-san! You showed up at just the right time!"
-    new "Сайто! Как раз кстати!"
+    new "Сайто-сан! Как раз кстати!"
 
     old "Did you need me for something?"
     new "У тебя ко мне дело?"
 
     old "Yes! There's something I'd really like you to see, Saito-san!"
-    new "Да! Есть кое-что, что я очень хочу тебе показать, Сайто!"
+    new "Да! Есть кое-что, что я очень хочу тебе показать, Сайто-сан!"
 
     old "Oh? What is it? Now I'm curious."
     new "А? И что же? Уже любопытно."

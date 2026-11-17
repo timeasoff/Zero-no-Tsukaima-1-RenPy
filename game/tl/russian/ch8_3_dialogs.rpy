@@ -5,7 +5,7 @@ translate russian strings:
     new "Ну вот, так это и есть — юность!"
 
     old "It's Saito-san, it's Saito-san…! {#ch8_si_010}"
-    new "Это Сайто, это Сайто…!"
+    new "Это Сайто-сан, это Сайто-сан…!"
 
     old "It's fine. I'll fix it. {#ch8_l_051}"
     new "Ничего страшного. Я это исправлю."
@@ -362,7 +362,7 @@ translate russian strings:
     new "Куаа!"
 
     old "That's enough, Weatherby. You're defeated. {#ch8_s_108}"
-    new "Всё, Уэзерби. Ты проиграл."
+    new "Всё, Уэзерби. Ты проиграла."
 
     old "Heh heh heh… {#ch8_w_023}"
     new "Хе-хе-хе…"
