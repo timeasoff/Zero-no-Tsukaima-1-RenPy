@@ -1,6 +1,6 @@
 # ===== ch8.1: 125 strings (dialogues) =====
 translate japanese strings:
-    old "We overslept again, didn't we? / I wonder if the Princess is all right…{#ch8_s_001}"
+    old "Morning came, huh? / I wonder if the Princess is all right…{#ch8_s_001}"
     new "朝になっちまったな。 / お姫さま、大丈夫かな……。"
 
     old "You were quite troubled yesterday… / …Maybe I'll go take a look.{#ch8_s_002}"

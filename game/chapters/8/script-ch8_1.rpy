@@ -40,7 +40,7 @@ label ch8:
     $ show_sprites(("s 5"))
     # サイト：朝になっちまったな。 / お姫さま、大丈夫かな……。  [voice 13560]
     voice "ch8_s_001"
-    s "We overslept again, didn't we? / I wonder if the Princess is all right…{#ch8_s_001}"
+    s "Morning came, huh? / I wonder if the Princess is all right…{#ch8_s_001}"
     # JA[13560]: 朝になっちまったな。 / お姫さま、大丈夫かな……。
     # [SPRITE lay5 image=+418 → s 5 sad]
     $ show_sprites(("s 5 sad"))

@@ -1,7 +1,7 @@
 # ===== ch8.1: 125 strings (dialogues) =====
 translate russian strings:
-    old "We overslept again, didn't we? / I wonder if the Princess is all right…{#ch8_s_001}"
-    new "Мы снова проспали, да? / Интересно, как там принцесса…"
+    old "Morning came, huh? / I wonder if the Princess is all right…{#ch8_s_001}"
+    new "Ну вот и утро, да? / Интересно, как там принцесса…"
 
     old "You were quite troubled yesterday… / …Maybe I'll go take a look.{#ch8_s_002}"
     new "Вчера ты был так расстроен… / …Может, стоит зайти проверить."

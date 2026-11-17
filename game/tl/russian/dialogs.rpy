@@ -3634,8 +3634,8 @@ translate russian strings:
     old "Hear people out, will you. Professor Colbert just said we shouldn't do anything reckless like that."
     new "Слушай, что тебе говорят. Профессор Кольбер только что запретил делать что-либо подобное."
 
-    old "I know that."
-    new "Я и так знаю."
+    old "I know, but…"
+    new "Я и так знаю, но…"
 
     old "Then don't say anything extra. Understood?"
     new "Тогда не говори лишнего. Понятно?"

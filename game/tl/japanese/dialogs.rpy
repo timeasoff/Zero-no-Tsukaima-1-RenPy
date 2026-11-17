@@ -3628,7 +3628,7 @@ translate japanese strings:
     old "Hear people out, will you. Professor Colbert just said we shouldn't do anything reckless like that."
     new "あんたねえ、人の話聞いてなさいよ。ミスタ・コルベールが、そういう無茶をしないようにって言ったばかりじゃないの。"
 
-    old "I know that."
+    old "I know, but…"
     new "そりゃそうだけど。"
 
     old "Then don't say anything extra. Understood?"
