@@ -852,5 +852,245 @@
       "/workspace/game/chapters/12/script-ch12_2.rpy": "1ec2e2b41e4c5a5a8a515c94403b4fc8",
       "/workspace/game/chapters/12/script-ch12_3.rpy": "6617811831cb69b34af410a88df8239c"
     }
+  },
+  "13": {
+    "target": "13",
+    "phase_results": {
+      "syntax": {
+        "name": "syntax",
+        "title": "Синтаксис Ren'Py",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:47.581837",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_renpy_syntax.py --chapter 13",
+          "stdout": "============================================================\nПроверка синтаксиса Ren'Py\n============================================================\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_renpy_syntax.md\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "typography_ru": {
+        "name": "typography_ru",
+        "title": "Типографика RU",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:48.060531",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_typography.py --lang ru --chapter 13",
+          "stdout": "============================================================\nПроверка типографики (lang=ru, target=13)\n============================================================\n\nINFO:\n  RU: проверено 393 строк new, вне главы 13: 9343\n\nSTATS:\n  ru_strings_checked: 393\n  ru_strings_out_of_scope: 9343\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_ru_ch13.md\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "typography_en": {
+        "name": "typography_en",
+        "title": "Типографика EN",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:48.350878",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_typography.py --lang en --chapter 13",
+          "stdout": "============================================================\nПроверка типографики (lang=en, target=13)\n============================================================\n\nSTATS:\n  en_strings_checked: 393\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_en_ch13.md\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "placeholders": {
+        "name": "placeholders",
+        "title": "Заглушки",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:48.466488",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_placeholders.py --chapter 13",
+          "stdout": "============================================================\nПроверка заглушек\n============================================================\n\nWARNING (70):\n  [WARNING] game/chapters/13/script-ch13_1.rpy:12: ID_PLACEHOLDER — id(88) — заглушка не заменена (файл: sky)\n  [WARNING] game/chapters/13/script-ch13_1.rpy:35: ID_PLACEHOLDER — id(1158) — заглушка не заменена (файл: overlay)\n  [WARNING] game/chapters/13/script-ch13_1.rpy:44: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:111: ID_PLACEHOLDER — id(112) — заглушка не заменена (файл: l_k_fight_3)\n  [WARNING] game/chapters/13/script-ch13_1.rpy:126: ID_PLACEHOLDER — id(113) — заглушка не заменена (файл: l_k_fight_4)\n  [WARNING] game/chapters/13/script-ch13_1.rpy:136: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:295: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:324: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:356: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:388: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:470: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:495: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:503: ID_UNNAMED — id(249) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:530: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:538: ID_UNNAMED — id(249) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:561: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:569: ID_UNNAMED — id(249) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:595: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:597: ID_UNNAMED — id(249) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/13/script-ch13_1.rpy:668: ID_PLACEHOLDER — id(90) — заглушка не заменена (файл: sky_night)\n  ... и ещё 50 — см. отчёт\n\nINFO (1):\n  image_id_map.csv: 165 ID без filename (ожидают заполнения)\n\nOK (с предупреждениями): 70 warning(s)\n\nОтчёт: reports/check_placeholders.md\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "assets": {
+        "name": "assets",
+        "title": "Ассеты",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:49.031569",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_assets.py --chapter 13",
+          "stdout": "============================================================\nПроверка ассетов\n============================================================\n\nWARNING (1):\n  [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 357 использованных голосов не помечены в очереди CSV (первые 10: 10110, 10111, 10112, 10113, 10114, 10115, 10116, 10117, 10118, 10119)\n\nINFO (1):\n  В очереди transcriptions_ja_ru.csv: 10450 строк (помечено использованными: 3794); из проверенной выборки помечено: 0\n\nСтатистика:\n  chapter_13_images: 18\n  chapter_13_voices: 357\n  transcriptions_consumed_rows: 3794\n  transcriptions_queue_rows: 10450\n  voices_used_in_scope: 357\n  voices_used_row_consumed: 0\n  voices_used_row_still_in_queue: 357\n\nOK (с предупреждениями): 1 warning(s)\n\nОтчёт: reports/check_assets.md\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "voice": {
+        "name": "voice",
+        "title": "Озвучка",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:49.840145",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_voice_transcriptions.py --chapter 13",
+          "stdout": "============================================================\nПроверка озвучки по transcriptions_ja_ru.csv\n============================================================\n\nWARNING (358):\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_si_001 (id=15067) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_001 (id=6967) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_si_002 (id=15068) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_001 (id=3615) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_t_001 (id=15773) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_002 (id=6968) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_002 (id=3616) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_003 (id=6969) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_003 (id=3617) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_004 (id=6970) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_004 (id=3618) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_005 (id=6971) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_005 (id=3619) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_006 (id=6972) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_s_004 (id=12843) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_l_007 (id=6973) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_006 (id=3620) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_s_005 (id=12844) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_s_007 (id=12845) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/13/script-ch13_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch13_k_007 (id=3621) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  ... и ещё 338 — см. отчёт\n\nINFO (1):\n  1932 id из манифеста есть в очереди CSV (строка не удалена/не помечена)\n\nСтатистика:\n  manifest_ids_row_consumed: 5216\n  manifest_ids_row_in_queue: 1932\n  manifest_pairs: 7151\n  transcriptions_consumed_rows: 4455\n  transcriptions_queue_rows: 9789\n  transcriptions_skipped_rows: 826\n  voices_used_in_scripts: 357\n  voices_used_row_consumed: 0\n  voices_used_row_still_in_queue: 357\n\nOK (с предупреждениями): 358 warning(s)\n\nОтчёт: reports/check_voice_transcriptions.md\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "check_project": {
+        "name": "check_project",
+        "title": "Проверка проекта",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:50.062535",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/check_project.py --chapter 13",
+          "stdout": "labels=565 overlayK=17 strings=9812 voices=8305\nerrors=0 warnings=404 info=5\nreport: reports/check_project.md\nRESULT: OK\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "audio": {
+        "name": "audio",
+        "title": "Озвучка: сверка",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:10:53.581290",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/media/audio_converter.py check",
+          "stdout": "check: строк=8304 ogg=8304 pending=0 нет_аудио=0 нет_в_манифесте=0 предупреждений=8\nотчёт: reports/voice_check.md\nRESULT: OK\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "precheck": {
+        "name": "precheck",
+        "title": "Omission Pre-check",
+        "status": "done",
+        "message": "OK",
+        "timestamp": "2026-11-18T00:11:08.912642",
+        "duration": null,
+        "details": {
+          "cmd": "/usr/local/bin/python /workspace/tools/omission_precheck.py --chapter 13",
+          "stdout": "Evidence: reports/sma/ch13/chapter/precheck/20261118-001121-p0a1.md\nOK - кандидатов не найдено.\n",
+          "stderr": "",
+          "returncode": 0
+        }
+      },
+      "translation": {
+        "name": "translation",
+        "title": "Перевод / редактура",
+        "status": "done",
+        "message": "EN/RU review during port + A/C evidence review (all 4 parts)",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "translate-edit"
+        }
+      },
+      "semantic_audit_a": {
+        "name": "semantic_audit_a",
+        "title": "Семантический аудит A",
+        "status": "done",
+        "message": "A runs for ch13 parts 1-4 in reports/sma/ch13/{1,2,3,4}/a/",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "semantic-audit-a"
+        }
+      },
+      "pragmatic_c": {
+        "name": "pragmatic_c",
+        "title": "Прагматический аудит C",
+        "status": "done",
+        "message": "C runs for ch13 parts 1-4 in reports/sma/ch13/{1,2,3,4}/c/",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "pragmatic-c"
+        }
+      },
+      "analyzer_phase1": {
+        "name": "analyzer_phase1",
+        "title": "Analyzer: Фаза 1 (blind)",
+        "status": "done",
+        "message": "Blind phase1 in reports/sma/ch13/{1,2,3,4}/analysis/*.phase1.md",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "analyzer-phase1"
+        }
+      },
+      "analyzer_phase2": {
+        "name": "analyzer_phase2",
+        "title": "Analyzer: Фаза 2 (evidence)",
+        "status": "done",
+        "message": "Phase2: 233500-ch13-p1 (8), 001000-ch13-p2 (9), 001000-ch13-p3 (7), 001200-ch13-p4 (8) FIXED",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "analyzer-phase2"
+        }
+      },
+      "humanizer": {
+        "name": "humanizer",
+        "title": "Humanizer",
+        "status": "done",
+        "message": "RU machine-like patterns fixed across ch13 parts 1-4",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "humanizer"
+        }
+      },
+      "grammar": {
+        "name": "grammar",
+        "title": "Грамматический контроль",
+        "status": "done",
+        "message": "Case/agreement fixes across ch13 parts, RGC-3/4",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "grammar-audit"
+        }
+      },
+      "style": {
+        "name": "style",
+        "title": "Стилевой аудит",
+        "status": "done",
+        "message": "RU style pass: interjections, modality markers, register",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "workflow_prompt": "style-audit"
+        }
+      },
+      "summary": {
+        "name": "summary",
+        "title": "Финальная сводка",
+        "status": "done",
+        "message": "Выполнено 17/17 фаз, ошибок: 0",
+        "timestamp": null,
+        "duration": null,
+        "details": {
+          "total": 17,
+          "done": 17,
+          "errors": 0
+        }
+      }
+    },
+    "last_run": "2026-11-18T00:11:22.032632",
+    "file_hashes": {
+      "/workspace/game/chapters/13/script-ch13.rpy": "490cc3fe451a0b5f9c6793cccc97782f",
+      "/workspace/game/chapters/13/script-ch13_1.rpy": "e1a3cc7334f661ae6ae2aea173e97bed",
+      "/workspace/game/chapters/13/script-ch13_2.rpy": "1c180aaea44774cddef25b6d0ad20072",
+      "/workspace/game/chapters/13/script-ch13_3.rpy": "84528f1a6d183fbd14f56f54f2718e9c",
+      "/workspace/game/chapters/13/script-ch13_4.rpy": "bf9f6dedd756f097b4af3472c80a56ea"
+    }
   }
 }
