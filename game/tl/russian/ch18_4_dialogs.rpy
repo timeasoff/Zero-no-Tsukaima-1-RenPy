@@ -157,7 +157,7 @@
     new "Кто там!"
 
     old "Now, now, surely you can put that sword away, Saito-kun.{#ch18_c_014}"
-    new "Ну-ну, убери меч, Сайто-кун."
+    new "Ну-ну, не наводи на меня меч, ладно, Сайто-кун?"
 
     old "That voice… Mr. Colbert?{#ch18_l_160}"
     new "Этот голос… Кольбер-сэн?"
@@ -205,7 +205,7 @@
     new "Теперь главное — укрыться. И я знаю идеальное место."
 
     old "Is there such a place left in the academy? From what you say, we can neither flee nor hide…{#ch18_s_212}"
-    new "Неужели в академии осталось такое место? Судя по вашим словам, мы не можем ни бежать, ни спрятаться…"
+    new "Неужели в академии осталось такое место? Судя по вашим словам, у меня такое ощущение, что мы уже не можем ни бежать, ни спрятаться…"
 
     old "R-Right, Mr. Colbert. Isn't staying inside the academy more dangerous?{#ch18_l_163}"
     new "В-Верно, Кольбер-сэн. Не опаснее ли оставаться в академии?"
@@ -256,7 +256,7 @@
     new "Тайный ход!?"
 
     old "This is exactly why I'm called the ever-appearing Colbert, you two.{#ch18_c_029}"
-    new "Вот почему меня называют «появляющийся ниоткуда Кольбер»."
+    new "Вот почему меня называют «то появляюсь, то исчезаю», вы двое."
 
     old "Now, onward! To my beloved lab!{#ch18_c_030}"
     new "Ну же, вперёд! К моей родной лаборатории!"
@@ -334,7 +334,7 @@
     new "Старик Осман твёрдо отклоняет все требования Уэзерби."
 
     old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike.{#ch18_c_046}"
-    new "В ответ Уэзерби угрожает уничтожить всех в академии — и преподавателей, и учеников."
+    new "В ответ, говорят, Уэзерби грозится уничтожить всех — и преподавателей, и учеников, независимо от того, сопротивляются они или нет."
 
     old "Naturally, the means would be Akina's bombs and a barrage from the aerial ships.{#ch18_c_047}"
     new "Естественно, это бомбы Акины и залп с воздушных кораблей."
@@ -364,7 +364,7 @@
     new "Если мы её задержим, угроза бомб исчезнет."
 
     old "Finally… here's the problem—the aerial ship lounging above the academy.{#ch18_c_055}"
-    new "И напоследок… вот проблема — воздушный корабль, расположившийся над академией."
+    new "И напоследок… вот проблема — воздушный корабль, расположившийся над академией как у себя дома."
 
     old "This one is difficult. Left alone, it could link up with Reconquista's main fleet.{#ch18_c_056}"
     new "С ним сложно. Оставленный без присмотра, он может соединиться с главным флотом Реконкисты."
@@ -482,6 +482,8 @@
 
     old "Look at this.{#ch18_c_066}"
     new "Посмотрите на это."
+    old "(As he said that, Professor Colbert took out some small wooden object.){#ch18_s_248}"
+    new "Сказав это, Кольбер-сэн вытащил какой-то небольшой деревянный предмет."
 
     old "Um… What's this? It looks like earplugs.{#ch18_l_186}"
     new "Э-Э… Что это? Похоже на беруши."

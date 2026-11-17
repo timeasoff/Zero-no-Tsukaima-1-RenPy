@@ -6,7 +6,7 @@ sys.path.insert(0, 'tools')
 from gen_ch12_1 import event, en_norm
 
 T = {
-299: ("R-Right! I'll come back to help right away!", "П-Понял! Я сразу вернусь с подкреплением!"),
+299: ("R-Right! I'll come back to help right away!", "П-Понял! Я сразу вернусь и помогу!"),
 300: ("Now that it's settled, let's hurry, Saito!", "Раз решили — идём быстрее, Сайто!"),
 301: ("Kirche, Tabitha... But I...", "Кирке, Табаса… Но я…"),
 302: ("Ugh, enough! Go, Saito!!", "Ну же, хватит! Идём, Сайто!!"),
@@ -19,7 +19,7 @@ T = {
 308: ("Until then, don't let Reconquista beat you!", "А до тех пор не дай Реконкисте победить себя!"),
 309: ("Don't say such things... The slight-fever and snow-gale combo is invincible. "
       "Right, Tabitha?",
-      "Не говори такого… Дуэт лёгкого жара и снежного вихря непобедим. Правда, Табаса?"),
+      "Не каркай… Дуэт лёгкого жара и снежного вихря непобедим. Правда, Табаса?"),
 310: ("...", "…"),
 311: ("T-Then I'm counting on you! Let's go, Saito!!", "Т-Тогда я на вас рассчитываю! Идём, Сайто!!"),
 312: ("Hey, Louise. Are Kirche and Tabitha really going to be okay?",
@@ -45,13 +45,13 @@ T = {
 325: ("Exactly. Now, let's go...", "Верно. Ну же, идём…"),
 326: ("No, wait, don't rush.", "Нет, подожди, не спеши."),
 327: ("Nobody's rushing. If more enemies come, we'll be in real trouble.",
-      "Никто не спешит. Если врагов станет больше, нам будет непросто."),
+      "Никто не спешит. Если врагов станет больше, мы ничего не сможем поделать."),
 328: ("Let's take care of them quickly... okay?", "Быстро покончим с ними… ладно?"),
 329: ("What do you think, Louise?", "Как думаешь, Луиза?"),
 330: ("I agree with Derflinger. Since they haven't noticed us yet, we'll have fewer to fight.",
       "Я согласна с Дерфлингером. Пока они нас не заметили, врагов будет меньше."),
 331: ("Right. Okay...", "Верно. Ладно…"),
-332: ("Honestly, you stupid Saito!", "Ну же, глупый Сайто!"),
+332: ("Honestly, you stupid Saito!", "Ну вот, глупый Сайто!"),
 333: ("Who's there! Who is it!?", "Кто там! Кто это!?"),
 334: ("Let's go! Derf!", "Идём! Дерф!"),
 335: ("Well, here we go.", "Ну что ж, пошли."),
@@ -65,7 +65,7 @@ T = {
 340: ("We're short on gasoline.", "Не хватает бензина."),
 341: ("Gaso-what?", "Бен-чего?"),
 342: ("Gasoline is like magic power for magic. Without it, the Zero Fighter won't fly.",
-      "Бензин для Zero Fighter — что магическая сила для магии. Без него он не полетит."),
+      "Бензин для Zero Fighter — что сила духа для магии. Без него он не полетит."),
 343: ("So it's useless, then?", "Значит, он бесполезен?"),
 344: ("Colbert-sen might have a spare, but to get there we'd have to cut through "
       "the school building...",
@@ -79,7 +79,7 @@ CHOICES = {
       ("No, wait, don't rush", "Нет, подожди, не спеши"),
       ("What do you think, Louise?", "Как думаешь, Луиза?")],
 723: [("Let's go to the lab", "Пойдём в лабораторию"),
-      ("Maybe we should retreat for now", "Может, пока отступить"),
+      ("Maybe we should retreat for now", "Придётся пока отступить"),
       ("Let's think", "Подумаем")],
 }
 SPK = {'サイト': 's', 'ルイズ': 'l', 'キュルケ': 'k', 'タバサ': 't',

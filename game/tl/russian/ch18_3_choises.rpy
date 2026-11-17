@@ -13,7 +13,7 @@
     new "Пойдём в лабораторию"
 
     old "Maybe we should retreat for now{#ch18_3_c_723_2}"
-    new "Может, пока отступить"
+    new "Придётся пока отступить"
 
     old "Let's think{#ch18_3_c_723_3}"
     new "Подумаем"

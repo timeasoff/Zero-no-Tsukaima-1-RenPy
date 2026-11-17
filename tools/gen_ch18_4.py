@@ -272,6 +272,8 @@ T = {
       "И Акина-кун? Она наверняка управляет Харуной похожим способом."),
 505: ("Isn't there a way to counter it?", "Неужели нет способа противостоять этому?"),
 506: ("Look at this.", "Посмотрите на это."),
+507: ("(As he said that, Professor Colbert took out some small wooden object.)",
+      "Сказав это, Кольбер-сэн вытащил какой-то небольшой деревянный предмет."),
 508: ("Um... What's this? It looks like earplugs.", "Э-Э… Что это? Похоже на беруши."),
 509: ("As you see, earplugs. Though enchanted with a special wind spell.",
       "Как видите, беруши. Только с особым заклинанием ветра."),

@@ -482,6 +482,8 @@
 
     old "Look at this.{#ch18_c_066}"
     new "コルベール：これを見たまえ。"
+    old "(As he said that, Professor Colbert took out some small wooden object.){#ch18_s_248}"
+    new "（そう言うとコルベール先生は、何やら木製の小さな物体を取り出した）"
 
     old "Um… What's this? It looks like earplugs.{#ch18_l_186}"
     new "ルイズ：えと……なんでしょうか、これ？なんだか耳栓みたいに見えますけど。"

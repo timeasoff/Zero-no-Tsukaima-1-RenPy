@@ -1020,6 +1020,9 @@ label ch18_4_scene_737:
     voice "ch18_c_066"
     c "Look at this.{#ch18_c_066}"
 
+    # サイト：（そう言うとコルベール先生は、何やら木製の小さな物体を取り出した）
+    s "(As he said that, Professor Colbert took out some small wooden object.){#ch18_s_248}"
+
     # [SPRITE   lay5     hide]
     # [SPRITE   lay1     image=+308, level=160, dir=1A]
     # ルイズ：えと……なんでしょうか、これ？

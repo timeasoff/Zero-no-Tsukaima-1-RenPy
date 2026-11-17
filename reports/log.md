@@ -5069,3 +5069,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - исправление: 5 реплик сцены 713, выпавших при первом прогоне, добавлены; манифест пересобран (дубль `ch18_o_001` устранён); omission pre-check → 0 кандидатов.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 18` → OK; `check_typography.py --chapter 18_2 --lang ru/en` → OK; `audio_converter.py check` → OK (9626/9626).
 - отчёт: `reports/ch18/2.md`; план обновлён (часть 2 ✅).
+
+
+## 2026-11-18 — Глава 18: аудиты частей 3–4 (A/C/Analyzer Ф1+Ф2)
+
+- запуск: 6 субагентов (`semantic-audit-a`, `pragmatic-c`, `analyzer-phase1` для 18_3 и 18_4).
+- находки: ч.3 — A 6 (1 ERROR/added content, 4 WARNING, 1 CANDIDATE), C 0, Ф1 3; ч.4 — A 3, C 5, Ф1 1 ERROR (пропущена мысль idx 507) + 4 CANDIDATE.
+- disposition: ч.3 — 6 FIXED; ч.4 — 1 OMISSION FIXED, 4 WARNING FIXED, 3 CANDIDATE FIXED, 1 PRESERVED — ACCEPTABLE ADAPTATION (`ばか野郎` → «Глупая!»: женское согласование с Луизой), 2 PRESERVED — FUNCTIONAL.
+- ключевая правка: добавлена пропущенная мысль Сайто `（そう言うとコルベール先生は、何やら木製の小さな物体を取り出した）` (ист. 2136–2137), tag `ch18_s_248`, EN/RU/JA, без голоса.
+- решение: `精神力` → «сила духа» (не «магическая сила»); `縁起でもない` → «Не каркай»; `勘弁してくれないかな` → мягкая просьба (не приказ); `脅しているそうだ` → «говорят, грозится» + сохранено `抵抗の有無に関わらず`.
+- отчёты: `reports/sma/ch18/{3,4}/analysis/20261118-024900-phase2.md`.
+- проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 18` OK, `check_typography.py --chapter 18 --lang ru` OK.

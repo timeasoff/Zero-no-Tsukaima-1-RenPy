@@ -1,7 +1,7 @@
 # translate russian strings:
 
     old "R-Right! I'll come back to help right away!{#ch18_s_163}"
-    new "П-Понял! Я сразу вернусь с подкреплением!"
+    new "П-Понял! Я сразу вернусь и помогу!"
 
     old "Now that it's settled, let's hurry, Saito!{#ch18_l_113}"
     new "Раз решили — идём быстрее, Сайто!"
@@ -31,7 +31,7 @@
     new "А до тех пор не дай Реконкисте победить себя!"
 
     old "Don't say such things… The slight-fever and snow-gale combo is invincible. Right, Tabitha?{#ch18_k_033}"
-    new "Не говори такого… Дуэт лёгкого жара и снежного вихря непобедим. Правда, Табаса?"
+    new "Не каркай… Дуэт лёгкого жара и снежного вихря непобедим. Правда, Табаса?"
 
     old "…{#ch18_t_023}"
     new "…"
@@ -85,7 +85,7 @@
     new "Нет, подожди, не спеши."
 
     old "Nobody's rushing. If more enemies come, we'll be in real trouble.{#ch18_l_124}"
-    new "Никто не спешит. Если врагов станет больше, нам будет непросто."
+    new "Никто не спешит. Если врагов станет больше, мы ничего не сможем поделать."
 
     old "Let's take care of them quickly… okay?{#ch18_l_125}"
     new "Быстро покончим с ними… ладно?"
@@ -100,7 +100,7 @@
     new "Верно. Ладно…"
 
     old "Honestly, you stupid Saito!{#ch18_l_127}"
-    new "Ну же, глупый Сайто!"
+    new "Ну вот, глупый Сайто!"
 
     old "Who's there! Who is it!?{#ch18_soldier_011}"
     new "Кто там! Кто это!?"
@@ -130,7 +130,7 @@
     new "Бен-чего?"
 
     old "Gasoline is like magic power for magic. Without it, the Zero Fighter won't fly.{#ch18_s_182}"
-    new "Бензин для Zero Fighter — что магическая сила для магии. Без него он не полетит."
+    new "Бензин для Zero Fighter — что сила духа для магии. Без него он не полетит."
 
     old "So it's useless, then?{#ch18_l_131}"
     new "Значит, он бесполезен?"
