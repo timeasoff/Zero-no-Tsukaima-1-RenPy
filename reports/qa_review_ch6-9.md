@@ -155,6 +155,20 @@ EN-ревью:~1500 строк / ~490 реплик — замечаний нет
 
 Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0.
 
+## Перепроверка №7
+
+- Исправлены 2 U+FFFD в `game/scripts/features/portrait_choises.rpy:119,306` («чтобы», «сбоку») — теперь 0 повреждённых символов во всех `.rpy`.
+- Верификация 83 EN-хунков diff'а: нашлись и исправлены 2 stale RU после предыдущих правок:
+  - `ch5_9_dialogs.rpy:117` — «Хирага» → «Хирага-кун»;
+  - `ch8_3_dialogs.rpy:122` — убрана лишняя часть «Я пойду с Сайто и Кирхе…» (дублирует `ch8_l_060`).
+- Широкая выборка (количества, отрицания, вопросы) — 4 смысловых исправления:
+  - `ch8_3.rpy:271` «Do your best.» → «I'll do my best.» (JA 頑張ります — 1-е лицо) + RU;
+  - `ch9_1.rpy:578` «celebrate» → «repay» (JA 報いる);
+  - `ch8_3.rpy:510` «is everyone safe?» → «are you all right?» (JA 無事か？ — один вопрос к Харуне);
+  - `ch8_3.rpy:604` «pride» → «resentment and anger, fangs and claws» (JA 無念と怒りの牙と爪) + RU.
+
+Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; U+FFFD 0; валидатор отступов 0.
+
 ## where I stopped
 
 - Текущая фаза: **глава 6 завершена**; висячие вопросы глав 2–5 закрыты по указанию пользователя. Далее — **глава 7**.

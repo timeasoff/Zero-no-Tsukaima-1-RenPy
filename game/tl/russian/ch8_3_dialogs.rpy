@@ -119,7 +119,7 @@ translate russian strings:
     new "Аа…"
 
     old "Then let's split into two. {#ch8_l_059}"
-    new "Тогда разделимся. Я пойду с Сайто и Кирхе к дворцу."
+    new "Тогда разделимся."
 
     old "Tabitha, Montmorency, and Guiche — attack the cannons. Be careful. {#ch8_k_015}"
     new "Табита, Монморанси, Гиш — атакуйте пушки. Осторожнее."
@@ -130,8 +130,8 @@ translate russian strings:
     old "Saito, the Princess, Kirche and I will head to the palace. {#ch8_l_060}"
     new "Сайто, принцесса, Кирхе и я идём к дворцу."
 
-    old "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
-    new "Поняла. Стараюсь не мешать. Удачи."
+    old "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
+    new "Поняла. Стараюсь не мешать. Постараюсь изо всех сил."
 
     old "Then, the plan begins. {#ch8_l_061}"
     new "Тогда план начинается."
@@ -274,8 +274,8 @@ translate russian strings:
     old "…! {#ch8_w_011}"
     new "…!"
 
-    old "Haruna! Or is it Akina? Anyway, is everyone safe? {#ch8_s_105}"
-    new "Харуна! Или это уже Акина? Во всяком случае, все в порядок?"
+    old "Haruna! Or is it Akina? Anyway, are you all right? {#ch8_s_105}"
+    new "Харуна! Или это уже Акина? Во всяком случае, ты в порядке?"
 
     old "Un… unnn… {#ch8_ha_001}"
     new "Ун… унн…"
@@ -346,8 +346,8 @@ translate russian strings:
     old "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
     new "Тогда пусть хоть в открытую схватку убью королеву!"
 
-    old "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
-    new "Иди же! Остались только гордость и гнев! Прими это!!"
+    old "Come then! The fangs and claws of my resentment and anger — take them into your body!! {#ch8_w_021}"
+    new "Иди же! Клыки и когти моей обиды и гнева — прими их!!"
 
     old "I guess we really have to fight then. {#ch8_s_106}"
     new "Видимо, действительно придётся драться."

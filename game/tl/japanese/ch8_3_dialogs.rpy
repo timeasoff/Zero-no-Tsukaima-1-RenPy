@@ -133,7 +133,7 @@ translate japanese strings:
     old "Understood. {#ch8_t_004}"
     new "了解。"
 
-    old "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
+    old "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
     new "分かりました。 / 足手まといにならないよう、 / 頑張ります。"
 
     old "Then, the plan begins. {#ch8_l_061}"
@@ -274,7 +274,7 @@ translate japanese strings:
     old "…! {#ch8_w_011}"
     new "……っ！"
 
-    old "Haruna! Or is it Akina? Anyway, is everyone safe? {#ch8_s_105}"
+    old "Haruna! Or is it Akina? Anyway, are you all right? {#ch8_s_105}"
     new "春奈！ / あ、いや、まだアキナか？ / とにかく、無事か？"
 
     old "Un… unnn… {#ch8_ha_001}"
@@ -348,7 +348,7 @@ translate japanese strings:
     old "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
     new "ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！"
 
-    old "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
+    old "Come then! The fangs and claws of my resentment and anger — take them into your body!! {#ch8_w_021}"
     new "ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！!"
 
     old "I guess we really have to fight then. {#ch8_s_106}"

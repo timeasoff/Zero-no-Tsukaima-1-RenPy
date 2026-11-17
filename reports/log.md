@@ -4886,3 +4886,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Исправлено: `_("Сommander")` → `_("Commander")` (кириллическая homoglyph); `ch3_9:265/318` «your face» → «Tabitha's face» (JA タバサの顔, выбор + озвученная реплика, EN/RU); `ch4_6:349` мысль 1-го лица → «Louise and I…»/«Мы с Луизой…».
 * Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; валидатор отступов 0.
 
+### 2026-11-17 — Перепроверка №7
+
+* Кодировка: исправлены 2 U+FFFD в `game/scripts/features/portrait_choises.rpy:119,306` (комментарии «чтобы», «сбоку»); теперь 0 повреждённых символов во всех `.rpy`.
+* Верификация 83 EN-хунков накопленного diff'а: исправлены 2 stale RU после предыдущих правок — `ch5_9_dialogs:117` «Хирага-кун», `ch8_3_dialogs:122` удалён дублирующий фрагмент (информация о группе уже в `ch8_l_060`).
+* Широкая выборка по отрицаниям/количествам/вопросам: 4 исправления — `ch8_3:271` «I'll do my best» (JA 頑張ります), `ch9_1:578` «repay» (JA 報いる), `ch8_3:510` «are you all right?» (JA 無事か？ — вопрос к Харуне), `ch8_3:604` «resentment and anger, fangs and claws» (JA 無念と怒りの牙と爪) с RU.
+* Проверки: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; U+FFFD 0; валидатор отступов 0.
+

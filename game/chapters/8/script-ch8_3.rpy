@@ -268,7 +268,7 @@ label ch8_3:
     # JA[7466]: ルイズ：わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。  [voice 919]
     voice "ch8_h_068"
-    h "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
+    h "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
     # JA[919]: アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。
     # ルイズ：では、作戦開始ね。  [voice 7467]
     voice "ch8_l_061"
@@ -507,7 +507,7 @@ label ch8_3:
     # JA[16176]: ウェザリー：……っ！
     # サイト：春奈！ / あ、いや、まだアキナか？ / とにかく、無事か？  [voice 13665]
     voice "ch8_s_105"
-    s "Haruna! Or is it Akina? Anyway, is everyone safe? {#ch8_s_105}"
+    s "Haruna! Or is it Akina? Anyway, are you all right? {#ch8_s_105}"
     # JA[13665]: サイト：春奈！ / あ、いや、まだアキナか？ / とにかく、無事か？
     # ハルナ：う……ううん……。  [voice 2639]
     voice "ch8_ha_001"
@@ -601,7 +601,7 @@ label ch8_3:
     # JA[16185]: ウェザリー：ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！
     # ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！！  [voice 16186]
     voice "ch8_w_021"
-    w "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
+    w "Come then! The fangs and claws of my resentment and anger — take them into your body!! {#ch8_w_021}"
     # JA[16186]: ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！!
     # サイト：やっぱり戦うしかないのか。  [voice 13666]
     voice "ch8_s_106"
