@@ -4899,3 +4899,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: говорящие `soldier`, `cat`, `informant` (коды уже есть в `characters.rpy`), заглушки `id(K)` для фонов/CG; `VIBRATE` → `shake_fx(duration=0.8)`; 5 мыслей в RU освобождены от скобок по BRACKET_THOUGHT.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 13` → OK; `check_typography.py --chapter 13_2 --lang ru/en` → OK; `audio_converter.py check` → OK; `omission_precheck --chapter 13_2` → 0 кандидатов.
 - отчёт: `reports/ch13/2.md`; план обновлён (часть 2 ✅).
+
+
+## 2026-11-17 — Глава 13: часть 3 (сцены 568–577) — ядро завершено
+
+- статус: DONE (порт + механические фазы; аудиты частей 2–3 — отдельным проходом)
+- место: `game/chapters/13/script-ch13_3.rpy`, `game/tl/{japanese,russian}/ch13_3_*`, `references/voice_id_map.csv` (+65), `reports/ch13/3.md`
+- решение (нумерация): после исправления офсета (`s` 100–132, `k` 089–124) манифест пересобран, дублей нет; ранее созданный дубль `ch13_k_042` удалён.
+- решение (E7): создан стаб `game/chapters/14/script-ch14.rpy` с `label ch14`.
+- PROVISIONAL: `微熱のキュルケ` → «Кирке с лёгким жаром»; `『本当の火の使い方』` → «настоящее применение огня» (ключевой образ главы 炎の予感); заглушки `id(K)`; `VIBRATE` → `shake_fx(duration=0.8)`.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 13` → OK; `check_typography.py --chapter 13_3 --lang ru/en` → OK; `audio_converter.py check` → OK; `omission_precheck --chapter 13_3` → 0 кандидатов.
+- отчёт: `reports/ch13/3.md`; план обновлён (ядро 549–577 завершено).
