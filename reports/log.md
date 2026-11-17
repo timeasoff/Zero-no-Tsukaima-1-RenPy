@@ -4809,3 +4809,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
   * RU «с Табасой» (choises:905, dialogs:12918) → «с Табитой» (`dictionary.md:126`).
 * Проверки после правок: `check_project` errors=0/warnings=328; `check_renpy_syntax` OK; omission precheck 2_6/3_5/4_4/5_10 → 0.
 
+### 2026-11-17 — Перепроверка №9 (tndl и спрайты)
+
+* `tndl()` в гл. 2–5: 126 вызовов, распределение null/+30/−30 = 4/46/76 — точное совпадение с JA `events_full`; все `$ tndl(None)` — первым оператором после `label chN`, остальные после якорных реплик/`update_sympathy`. Замечаний нет.
+* `show_sprites()`: 3454 вызова, 967 аннотированных пар `+K → имя` совпадают с `sprite_id_map.csv`; `id(K)` внутри спрайтов нет.
+* Три расхождения в `ch4_5.rpy` (id 770 → `h 1 angry` вместо `h 1 sad`; id 471 → `s 4 angry` вместо `s 8 angry`; id 405 → `s 4 angry` вместо пиксель-верифицированного `s 2 angry`) — это **существующие RECONCILE** из `reports/ch4/6.md:126–133` и заметок CSV, а не новые регрессии. Так как строки CSV PROVISIONAL и требуется пиксель-сверка, замены не делал (PROVISIONAL ≠ CANONICAL); передал как evidence в `reports/qa_review_ch2-5.md`.
+* Изменений в коде в этом проходе нет.
+
