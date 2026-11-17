@@ -179,7 +179,7 @@ translate russian strings:
     new "Харуна, вот ты где."
 
     old "…Oh, Hiraga-kun!{#ch5_11_v1662}"
-    new "Хирагакун"
+    new "…Ах, Хирага-кун!"
 
     old "What are you doing here?{#ch5_11_v8710}"
     new "Что ты здесь делаешь?"
