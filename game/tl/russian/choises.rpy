@@ -418,7 +418,7 @@ translate russian strings:
     new "Отнесёшь посуду обратно?"
 
     old "Bigger where, exactly?{#ch2.6_m1034a}"
-    new "Выше — в каком месте?"
+    new "Где именно стало больше?"
 
     old "You don't have to push yourself.{#ch2.6_m1034b}"
     new "Не нужно так себя напрягать."
@@ -507,7 +507,7 @@ translate russian strings:
     old "Is it wrong of me to look after Haruna?{#ch3_m173a}"
     new "Разве плохо ухаживать за Харуной?"
 
-    old "You didn't need to worry about her.{#ch3_m173b}"
+    old "I'm worried about you…{#ch3_m173b}"
     new "Я просто волновался за тебя…"
 
     old "I'm just saying something objective.{#ch3_m173c}"
@@ -902,7 +902,7 @@ translate russian strings:
 
 translate russian strings:
     old "Why not ask Tabitha about it?"
-    new "Может, посоветоваться с Табасой?"
+    new "Может, посоветоваться с Табитой?"
 
 translate russian strings:
     old "That's not true at all."
@@ -1079,7 +1079,7 @@ translate russian strings:
 
 translate russian strings:
     old "It's no use telling me that."
-    new "И мне это говорить неудобно!"
+    new "Да не говори мне этого!"
 
 translate russian strings:
     old "I wonder what book she's reading?"

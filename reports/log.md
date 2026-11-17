@@ -4799,3 +4799,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Ранее найденный MISMATCH_JA в `ch5_8_thoughs.rpy:23` уже в журнале; EN/RU по нему восстановлены по источнику.
 * Изменений в коде в этом проходе нет; обновлён только `reports/qa_review_ch2-5.md`.
 
+### 2026-11-17 — Перепроверка №8 (голоса и тексты выборов)
+
+* `audio_converter.py check`: 6982 строк / 6982 ogg, pending=0, нет_аудио=0, нет_в_манифесте=0 → RESULT: OK.
+* Аудит текстов меню/выборов и title-карточек гл. 2–5 (≈215 выборов, 5 overlay): найдены и исправлены 3 ERROR + 1 CANDIDATE:
+  * `script-ch3_5.rpy:238`: EN «You didn't need to worry about her.» — инверсия субъекта; JA «おまえのことが心配で……» = «Это ты меня беспокоишь». → «I'm worried about you…», `old` обновлён в JA/RU `choises.rpy` (JA/RU `new` уже были верны).
+  * RU «Выше — в каком месте?» (choises:421 и dialogs:6428) → «Где именно стало больше?» (JA 大きくって、どこが？ — про размер, не высоту).
+  * RU «И мне это говорить неудобно!» (choises:1082) → «Да не говори мне этого!» (JA 俺に言われても困る！ — инверсия актантов).
+  * RU «с Табасой» (choises:905, dialogs:12918) → «с Табитой» (`dictionary.md:126`).
+* Проверки после правок: `check_project` errors=0/warnings=328; `check_renpy_syntax` OK; omission precheck 2_6/3_5/4_4/5_10 → 0.
+

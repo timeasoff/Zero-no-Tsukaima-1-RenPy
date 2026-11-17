@@ -513,7 +513,7 @@ translate japanese strings:
     old "Is it wrong of me to look after Haruna?{#ch3_m173a}"
     new "春奈の面倒見てちゃ悪いのか？"
 
-    old "You didn't need to worry about her.{#ch3_m173b}"
+    old "I'm worried about you…{#ch3_m173b}"
     new "おまえのことが心配で……"
 
     old "I'm just saying something objective.{#ch3_m173c}"

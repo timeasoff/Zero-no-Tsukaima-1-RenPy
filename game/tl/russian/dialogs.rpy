@@ -6425,7 +6425,7 @@ translate russian strings:
     new "Фух. Ну, как хочешь…"
 
     old "Bigger where, exactly?"
-    new "Выше — в каком месте?"
+    new "Где именно стало больше?"
 
     old "W-where...?"
     new "К-куда именно…?"
@@ -12915,7 +12915,7 @@ translate russian strings:
 
 translate russian strings:
     old "If it's about books, maybe you should ask Tabitha about it?"
-    new "Если уж речь о книгах, может, стоит посоветоваться с Табасой?"
+    new "Если уж речь о книгах, может, стоит посоветоваться с Табитой?"
 
 translate russian strings:
     old "I see, Tabitha. If I say I'm looking for books on Founder Brimir, she might know something."
