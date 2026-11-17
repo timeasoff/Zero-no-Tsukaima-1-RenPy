@@ -4951,3 +4951,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `フレイム` → Flame / Флейм (нет записи в словаре); заглушки `id(K)`; `VIBRATE` → shake_fx.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_2 --lang ru/en` → OK; `audio_converter.py check` → OK (8458/8458); `omission_precheck --chapter 14_2` → 0 кандидатов.
 - отчёты: `reports/ch14/1.md` (раздел аудитов), `reports/ch14/2.md`.
+
+
+## 2026-11-18 — Глава 14: часть 3 (сцены 599–608)
+
+- статус: DONE (порт + mechanically; аудиты — отдельным проходом)
+- место: `game/chapters/14/script-ch14_{3,4}.rpy`, `game/tl/{japanese,russian}/ch14_3_*`, `references/voice_id_map.csv` (+90), `reports/ch14/3.md`
+- решение: `おにいちゃん` → «big brother»/«Братишка»; `妹属性` → «little sister attribute»/«атрибут младшей сестры» (PROVISIONAL); `モンモン` → «Montmon»/«Монмон».
+- решение (E7): создан стаб `script-ch14_4.rpy` с точками входа 1489/1490/1491 из move-меню сцены 599.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_3 --lang ru/en` → OK; `audio_converter.py check` → OK (8548/8548); `omission_precheck --chapter 14_3` → 0 кандидатов.
+- отчёт: `reports/ch14/3.md`; план обновлён (часть 3 ✅).
