@@ -5043,3 +5043,8 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * MISMATCH_JA / ??? без правки: JA choises.rpy:1375/1387 — лишняя 。в «それはできません.» и «だから» вместо source «だし».
 * Семантика (seed i%87, 35 строк) и коммиты rounds 28–29 — 0 новых ошибок. `check_project` errors=0/warnings=312.
 
+### 2026-11-17 — Перепроверка №31 (дрейф документации)
+
+* Исправлено 12 устаревших утверждений: `routes.md` — гейты 5→7, точки `sp_l1` 5→7 (`_call_sp_l1_{6..12}`), tndl «глава 6 WIP» → подключено, 127→182 вызова, Z7 OPEN снят; `translation_plan.md` — ошибки 77→0 (`RESULT: OK`), warnings 311→312, W5 19→2, гл. 4 ⚠️→✅, чекбоксы гл. 5, гейты 5→7; отчёты QA — 14→31 round.
+* Семантика (seed i%89, 35+34 строки) и коммиты rounds 29–30 — 0 ошибок. `check_project` errors=0/warnings=312; `git diff --check` чистый.
+
