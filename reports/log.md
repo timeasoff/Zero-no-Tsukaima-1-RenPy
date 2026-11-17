@@ -4720,3 +4720,15 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Отчёт: `reports/ch9/1.md`; `reports/translation_plan.md` обновлён (глава 9 ✅ завершена, 1 часть).
 * Task board: T20261117-NEW-001 (S1-S4) done, task closed.
 
+### 2026-11-17 — Глава 10 (chapter_11 突然のスカウト): часть 1 ch10_1 (сцены 431–446)
+
+* Порт части 1 завершён: `game/chapters/10/script-ch10_1.rpy` — 174 dialogue-строки (144 voice), сцены 431–446 (часть 1 из главы 10, конец `jump attention`).
+* Формат по образцу ch9: `label ch10_1:`, title-card `overlay_screen("overlay", "Chapter Ten: 'The Sudden Scout'{#ch10_title}", ...) from _call_overlay_screen_15`, `show_sprites`, `fade_fx`/`dissolve_fx`/`flash_fx`, `play music`/`stop music` (без `$`), финал `jump attention`.
+* EN в сценарии, JA/RU old/new в `tl/japanese/` и `tl/russian/` (`ch10_1_dialogs.rpy`, `ch10_1_choises.rpy`, `ch10_1_overlays.rpy`); 174 строк old/new (JA из источника склеено с " / ", мысли в （ ）, RU с `_…_` для мыслей по `russian-prose-rules`).
+* Нумерация тегов `ch10_<spk>_<NNN>` единая по говорящему (s: 62, h: 64, si: 31, l: 8, o: 6, c: 3) — исправлены дубли тегов (мысли vs voiced) ре нумерацией по порядку источника.
+* Голоса: манифест `references/voice_id_map.csv` дополнен 144 строками ch10_*; `.ogg` конвертировано +144 (audio_converter convert --apply, check -> RESULT: OK).
+* `check_project.py` -> errors=0, RESULT: OK (warnings=343, info=26).
+* `check_renpy_syntax.py --chapter 10` -> OK.
+* `check_typography.py --chapter 10 --lang ru` -> OK (0 errors; BRACKET_THOUGHT исправлено на `_…_`).
+* Отчёт: `reports/ch10/1.md`; `reports/translation_plan.md` обновлён (глава 10 — часть 1 ✅).
+

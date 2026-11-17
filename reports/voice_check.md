@@ -1,20 +1,20 @@
 # Голоса: сверка (check)
 
-Запуск: `2026-11-16 23:58`
-Команда: `python tools/media/audio_converter.py check --only ch9`
+Запуск: `2026-11-17 03:44`
+Команда: `python tools/media/audio_converter.py check --only ch10`
 
 ## Итоги
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 108 |
-| уже есть .ogg | 108 |
+| voice-строк в сценарии | 144 |
+| уже есть .ogg | 144 |
 | ждут конвертации (есть wav) | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте (нет пары имя↔id)** | **0** |
 | манифест без voice_id | 0 |
-| манифест: строк всего | 5828 |
-| манифест: не используются сценарием | 5720 |
+| манифест: строк всего | 5972 |
+| манифест: не используются сценарием | 5828 |
 | wav в wav_source | 15055 |
 
 ## Нет аудио: wav в wav_source не найден (voice_id из манифеста есть, файла нет)
@@ -5749,8 +5749,116 @@ _нет_
 - `ch8_w_024` (voice_id=16189)
 - `ch8_w_025` (voice_id=16190)
 - `ch8_w_026` (voice_id=16191)
+- `ch9_d_001` (voice_id=1221)
+- `ch9_d_002` (voice_id=1222)
+- `ch9_g_001` (voice_id=1410)
+- `ch9_g_002` (voice_id=1411)
+- `ch9_h_001` (voice_id=261)
+- `ch9_h_002` (voice_id=262)
+- `ch9_h_003` (voice_id=263)
+- `ch9_h_004` (voice_id=264)
+- `ch9_h_005` (voice_id=265)
+- `ch9_h_006` (voice_id=266)
+- `ch9_h_007` (voice_id=267)
+- `ch9_h_008` (voice_id=268)
+- `ch9_h_009` (voice_id=269)
+- `ch9_h_010` (voice_id=270)
+- `ch9_h_011` (voice_id=271)
+- `ch9_h_012` (voice_id=272)
+- `ch9_h_013` (voice_id=273)
+- `ch9_h_014` (voice_id=274)
+- `ch9_h_015` (voice_id=275)
+- `ch9_h_016` (voice_id=276)
+- `ch9_h_017` (voice_id=277)
+- `ch9_h_018` (voice_id=278)
+- `ch9_h_019` (voice_id=279)
+- `ch9_h_020` (voice_id=280)
+- `ch9_h_021` (voice_id=281)
+- `ch9_h_022` (voice_id=282)
+- `ch9_h_023` (voice_id=449)
+- `ch9_h_024` (voice_id=450)
+- `ch9_h_025` (voice_id=451)
+- `ch9_h_026` (voice_id=452)
+- `ch9_h_027` (voice_id=453)
+- `ch9_h_028` (voice_id=454)
+- `ch9_h_029` (voice_id=455)
+- `ch9_h_030` (voice_id=456)
+- `ch9_h_031` (voice_id=457)
+- `ch9_h_032` (voice_id=458)
+- `ch9_ha_001` (voice_id=1826)
+- `ch9_ha_002` (voice_id=1827)
+- `ch9_ha_003` (voice_id=1828)
+- `ch9_ha_004` (voice_id=1829)
+- `ch9_ha_005` (voice_id=1830)
+- `ch9_ha_006` (voice_id=1831)
+- `ch9_ha_007` (voice_id=1832)
+- `ch9_ha_008` (voice_id=1833)
+- `ch9_ha_009` (voice_id=1834)
+- `ch9_ha_010` (voice_id=1835)
+- `ch9_ha_011` (voice_id=1836)
 - `ch9_l_001` (voice_id=4601)
 - `ch9_l_002` (voice_id=4602)
+- `ch9_l_003` (voice_id=4885)
+- `ch9_l_004` (voice_id=4886)
+- `ch9_l_005` (voice_id=4887)
+- `ch9_l_006` (voice_id=4888)
+- `ch9_l_007` (voice_id=4889)
+- `ch9_l_008` (voice_id=4890)
+- `ch9_l_009` (voice_id=4891)
+- `ch9_l_010` (voice_id=4892)
+- `ch9_l_011` (voice_id=4893)
+- `ch9_s_001` (voice_id=8128)
+- `ch9_s_002` (voice_id=8129)
+- `ch9_s_003` (voice_id=8130)
+- `ch9_s_004` (voice_id=8131)
+- `ch9_s_005` (voice_id=8132)
+- `ch9_s_006` (voice_id=8133)
+- `ch9_s_007` (voice_id=8134)
+- `ch9_s_008` (voice_id=8135)
+- `ch9_s_009` (voice_id=8136)
+- `ch9_s_010` (voice_id=8137)
+- `ch9_s_011` (voice_id=8138)
+- `ch9_s_012` (voice_id=8139)
+- `ch9_s_013` (voice_id=8140)
+- `ch9_s_014` (voice_id=8141)
+- `ch9_s_015` (voice_id=8142)
+- `ch9_s_016` (voice_id=8143)
+- `ch9_s_017` (voice_id=8144)
+- `ch9_s_018` (voice_id=8145)
+- `ch9_s_019` (voice_id=8146)
+- `ch9_s_020` (voice_id=8147)
+- `ch9_s_021` (voice_id=8148)
+- `ch9_s_022` (voice_id=8149)
+- `ch9_s_023` (voice_id=8150)
+- `ch9_s_024` (voice_id=8151)
+- `ch9_s_025` (voice_id=8152)
+- `ch9_s_026` (voice_id=8153)
+- `ch9_s_027` (voice_id=8154)
+- `ch9_s_028` (voice_id=8155)
+- `ch9_s_029` (voice_id=8156)
+- `ch9_s_030` (voice_id=8157)
+- `ch9_s_031` (voice_id=8158)
+- `ch9_s_032` (voice_id=8159)
+- `ch9_s_033` (voice_id=8160)
+- `ch9_s_034` (voice_id=8161)
+- `ch9_s_035` (voice_id=9304)
+- `ch9_s_036` (voice_id=9305)
+- `ch9_s_037` (voice_id=9306)
+- `ch9_s_038` (voice_id=9307)
+- `ch9_s_039` (voice_id=9308)
+- `ch9_s_040` (voice_id=9309)
+- `ch9_s_041` (voice_id=9310)
+- `ch9_s_042` (voice_id=9311)
+- `ch9_s_043` (voice_id=9312)
+- `ch9_s_044` (voice_id=9313)
+- `ch9_s_045` (voice_id=9314)
+- `ch9_s_046` (voice_id=9315)
+- `ch9_s_047` (voice_id=9316)
+- `ch9_s_048` (voice_id=9317)
+- `ch9_s_049` (voice_id=9318)
+- `ch9_s_050` (voice_id=9319)
+- `ch9_s_051` (voice_id=9320)
+- `ch9_s_052` (voice_id=9321)
 
 ## Неразобранные файлы в wav_source
 
@@ -5758,6 +5866,6 @@ _нет_
 
 ## Итог
 
-**OK** (проблем: 0; предупреждений: 5721; ждут конвертации: 0)
+**OK** (проблем: 0; предупреждений: 5829; ждут конвертации: 0)
 
 Предупреждения не блокируют конвертацию, но **обязательно переносятся в отчёт части** (незарегистрированные говорящие, неразобранные файлы, неиспользуемые строки манифеста).

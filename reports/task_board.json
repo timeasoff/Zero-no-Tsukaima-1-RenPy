@@ -1057,6 +1057,56 @@
           "finished": "2026-11-17 23:00:00"
         }
       ]
+    },
+    {
+      "id": "T20261118-NEW-001",
+      "created": "2026-11-18 00:00:00",
+      "request": "Продолжить перевод: глава 10 (chapter_11 突然のスカウト) — порт с нуля, части ch10_1, ch10_2",
+      "target": "10",
+      "status": "open",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "10_1",
+          "scope": "part",
+          "title": "Часть 1 ch10_1: структура, резка, порт, EN/RU, tl, голоса",
+          "status": "done",
+          "created": "2026-11-18 00:00:00",
+          "note": "completed"
+        },
+        {
+          "id": "S2",
+          "kind": "voice-work",
+          "prompt": "",
+          "target": "10_1",
+          "scope": "part",
+          "title": "Голоса ch10_1: манифест + ogg конвертация",
+          "status": "done",
+          "note": "completed"
+        },
+        {
+          "id": "S3",
+          "kind": "full-audit",
+          "prompt": "",
+          "target": "10",
+          "scope": "chapter",
+          "title": "Аудит главы 10: precheck + A + C + analyzer",
+          "status": "done",
+          "note": "precheck + A + C + analyzer completed with evidence on disk"
+        },
+        {
+          "id": "S4",
+          "kind": "manual",
+          "prompt": "check_project.py до RESULT: OK; отчёты reports/ch10/*.md; обновить reports/translation_plan.md и reports/log.md",
+          "target": "10",
+          "scope": "part",
+          "title": "Финальные проверки и отчётность главы 10",
+          "status": "done",
+          "note": "completed"
+        }
+      ]
     }
   ]
 }
