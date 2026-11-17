@@ -10414,7 +10414,7 @@ translate russian strings:
     new "О-о… Как загадочно. Что же привело вас обоих в этот мир?"
 
     old "The crest — how shall we confirm the Contract Servant? …Old Osmond."
-    new "Что касается знака — как подтвердить Договор с подручным?.. Старый Осман."
+    new "Что касается знака — как подтвердить Договор с фамильяру?.. Старый Осман."
 
     old "…Hm? Con-tract Ser-vant? What's that, Hiraga-kun?"
     new "…Мм? Кон-тракт Сер-вант? Что это, Хирага-кун?"
@@ -10447,13 +10447,13 @@ translate russian strings:
     new "А, правда… Я не заметила."
 
     old "The crest is the proof of the familiar's contract."
-    new "Знак — это доказательство договора с подручным."
+    new "Знак — это доказательство договора с фамильяру."
 
     old "The one engraved on the back of your left hand, Saito, is proof of the contract exchanged with Miss Vallière."
     new "Знак, выгравированный на тыльной стороне твоей левой руки, Сайто, — доказательство договора, заключённого с мадемуазель Вальер."
 
     old "You swear yourself to the Pentagon that governs the five powers. Bestow blessing upon this one, and make them my familiar. …Or so it goes."
-    new "Ты клянёшься Пентагону, владыке пяти сил. Даруй благословение сему существу и сделай его моим подручным… Ну, вроде того."
+    new "Ты клянёшься Пентагону, владыке пяти сил. Даруй благословение сему существу и сделай его моим фамильяру… Ну, вроде того."
 
     old "And then you bestow the oath's kiss upon the familiar…"
     new "И затем ты даруешь фамильяру поцелуй клятвы…"
