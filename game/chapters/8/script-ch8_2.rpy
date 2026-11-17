@@ -36,7 +36,7 @@ label ch8_2:
     # JA[893]: うふふ、隙あり、ですよサイトさん。そんな風では騎士失格です。
     # サイト：（今、詰め寄られたかと思ったら、暖かくて柔らかい感触が……。お姫さまの唇が……っ！？）
     # [no voice — thought]
-    s (Now, just when I thought she was pressing in on me, a warm soft sensation… Her lips…!?)
+    th "(Now, just when I thought she was pressing in on me, a warm soft sensation… Her lips…!?)"
     # JA: （今、詰め寄られたかと思ったら、暖かくて柔らかい感触が……。お姫さまの唇が……っ！？）
     # [SPRITE lay8 hide] [SPRITE lay5 hide] [BG stage hide] [EVENT_CG event hide]
     $ show_sprites()
@@ -113,7 +113,7 @@ label ch8_2:
     $ show_sprites()
     $ fade_fx(None)
     # [EVENT_CG event image=+213 level=80]
-    $ dissolve_fx("id(213)", type="cg")
+    $ dissolve_fx("ready_to_blow", type="cg")
     # [TRANS trans("crossfade", 1000)]
     # [BGM bgm play=+30 → t30]
     play music t30 fadein 1.0
@@ -435,7 +435,7 @@ label ch8_2:
     $ show_sprites(("k 1", "t 1"))
     # タバサ：右に同じ。  [voice 15811]
     voice "ch8_t_001"
-    t "Right side same. {#ch8_t_001}"
+    t "Same here. {#ch8_t_001}"
     # JA[15811]: 右に同じ。
     # [SPRITE lay6 hide] [LAYER lay0 hide]
     $ show_sprites()
@@ -517,7 +517,7 @@ label ch8_2:
     # JA[7451]: そ、それはその……。いろいろあるのよっ！詳しいことは言えないけど……。
     # サイト：（虚無のことは誰にも言えないからな……）
     # [no voice — thought]
-    s (I can't tell anyone about Void Magic…)
+    th "(I can't tell anyone about Void Magic…)"
     # JA: （虚無のことは誰にも言えないからな……）
     # [SPRITE lay1 hide] [SPRITE lay4 hide]
     $ show_sprites()
@@ -537,7 +537,7 @@ label ch8_2:
     $ show_sprites(("k 1",))
     # キュルケ：もっとも、ヴァリエールにいいところを持ってかれるとこが面白くないけどね。  [voice 3867]
     voice "ch8_k_010"
-    k "Although, it's not fun that Variel will take the good parts. {#ch8_k_010}"
+    k "Although, it's not fun that Vallière will take the good parts. {#ch8_k_010}"
     # JA[3867]: もっとも、ヴァリエールにいいところを持ってかれるとこが面白くないけどね。
     # [SPRITE lay6 x=224 y=0]
     # [LAYER lay0 image=+592 level=160 dir=1A → t 1]

@@ -202,8 +202,8 @@ translate russian strings:
     old "Theater, the theater. {#ch9_ha_004}"
     new "В театр, в театр."
 
-    old "Theater? I mean, isn't Weatherly's theater / out of business? {#ch9_s_045}"
-    new "В театр? Погоди, разве труппа Везерли / не распалась?"
+    old "Theater? I mean, isn't Weatherby's theater / out of business? {#ch9_s_045}"
+    new "В театр? Погоди, разве труппа Уэзерби / не распалась?"
 
     old "No. Another theater troupe saw that play / and scouted me because they liked me. {#ch9_ha_005}"
     new "Нет. Другая труппа посмотрела тот спектакль / и пригласила меня, потому что я им понравилась."
@@ -253,8 +253,8 @@ translate russian strings:
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"
     new "Тут уж ничего не поделаешь. / Все знают, что огласка / была бы проблемой."
 
-    old "And then there's Weatherly, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
-    new "К тому же Везерли, Харуна, / да ещё дело Пустоты и секретные вопросы — / всё навалилось разом."
+    old "And then there's Weatherby, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
+    new "К тому же Уэзерби, Харуна, / да ещё дело Пустоты и секретные вопросы — / всё навалилось разом."
 
     old "Nobles exist to protect the common folk. / Everyone understands that. {#ch9_l_003}"
     new "Дворяне существуют, чтобы защищать простой народ. / Это все понимают."

@@ -4833,3 +4833,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Осталось как CANDIDATE (не исправлял): отсутствующая title-карточка гл. 6 (нужен уникальный K=15), BGM `+16 → t15` в `ch6_3:181–183`, 4 непортированных BGM-сигнала в `ch6_1`, RU-инверсия 俺が в `dialogs.rpy:16494`, грамматика «благодаря ли этому еда» в `thoughs.rpy:1343`, W6-заглушки `id(38/40/44/58/60)`.
 * Живой отчёт: `reports/qa_review_ch6-9.md`.
 
+### 2026-11-17 — QA глав 7–9 (chapter_08/09/10)
+
+* Синтаксис: `ch8_2.rpy:39/520` — unquoted `s (...)` → `th "(...)"`; `ch8_3.rpy:310` — тег `{#ch8_h_069}` перенесён внутрь строки (и `old` в TL); 2-digit теги `{#ch8_l_60}`/`{#ch8_s_94}` → 3-digit; `id(213)` → `ready_to_blow`. Удалён мусор агента и дубль `voice "ch8_h_075"` в `ch8_3.rpy:518–525`.
+* EN по JA: good→bad news (良くないしらせ), «have Siesta stay with the Princess» (シエスタについててもらう), «Good luck out there» (ご武運を), «split into two / Saito», «I never imagined I'd lose to a queen…», «Finish me with one stroke», заклинание «Come forth, you who are not here… as though you were here», «incorporeal phantoms» (実体なき幻), Weatherly→Weatherby (3), Variel→Vallière, «Same here» (右に同じ).
+* RU по JA: «свою бомбу», «применю», «бесплотные призраки», «Так точно!» вместо «Гав», «Тристании», «Сайто» (2), «Харуна» (2), «…!» вместо «……っ！», канон «Кирхе/Табита/Гиш/Сиеста/Ла Вальер», инверсия проигрышаWeatherby, «у Харуны», «мне нельзя доверять», «Уэзерби» (8). Мысли в скобках → курсив `_…_` в `ch9_1_thoughs` и `ch8_2_thoughs`.
+* Осталось ???: 4 выпавших реплики (голоса 4601/4602, 13655, 930) — нет манифеста и `.ogg` в среде, исходный STV-архив недоступен; CANDIDATE (`ch9_1` title-карточка, misc BGM, 2-digit комментарии, mixed-script в комментариях) — в `reports/qa_review_ch6-9.md`.
+* После правок: `check_project` errors=0/warnings=318; `check_renpy_syntax` OK; RU-типографика OK; валидатор отступов 0; omission precheck 7_1–8_2 → 0.
+

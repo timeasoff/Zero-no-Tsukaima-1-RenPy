@@ -159,7 +159,7 @@ translate japanese strings:
     old "If there's a way to fight, there's no reason not to. Being on the receiving end goes against my principles. {#ch8_k_006}"
     new "打つ手があるのなら、それをしない理由なんてないわね。やられっぱなしは、あたしの主義に反するのよ。"
 
-    old "Right side same. {#ch8_t_001}"
+    old "Same here. {#ch8_t_001}"
     new "右に同じ。"
 
     old "Thank you. {#ch8_l_042}"
@@ -201,7 +201,7 @@ translate japanese strings:
     old "I don't know what you'll do, but if that's the only option, we'll do what we can. {#ch8_k_009}"
     new "何をするのか分からないけど、それしか手がないっていうのなら、あたし達にできることをするだけよ。"
 
-    old "Although, it's not fun that Variel will take the good parts. {#ch8_k_010}"
+    old "Although, it's not fun that Vallière will take the good parts. {#ch8_k_010}"
     new "もっとも、ヴァリエールにいいところを持ってかれるとこが面白くないけどね。"
 
     old "The critical moment. {#ch8_t_002}"

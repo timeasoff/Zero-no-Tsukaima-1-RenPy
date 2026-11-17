@@ -156,7 +156,7 @@ translate japanese strings:
     old "Then let's hear it and decide what to do next.{#ch8_s_026}"
     new "それじゃ、その話を聞いたうえで / 今後の行動を決めようか。"
 
-    old "Right. / Let's tell the Princess about Siesta.{#ch8_l_007}"
+    old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
     new "そうね。 / 姫さまには、シエスタについてて / もらいましょう。"
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
@@ -168,7 +168,7 @@ translate japanese strings:
     old "And on top of that…{#ch8_k_002}"
     new "その上……。"
 
-    old "Sounds like there's some good news…{#ch8_l_008}"
+    old "Sounds like there's some bad news…{#ch8_l_008}"
     new "なにか良くないしらせがあるみたいね……。"
 
     old "Terrible news.{#ch8_k_003}"

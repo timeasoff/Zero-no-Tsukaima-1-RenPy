@@ -451,7 +451,7 @@ label ch8:
     $ show_sprites(("l 3", "s 1 angry"))
     # ルイズ：そうね。 / 姫さまには、シエスタについてて / もらいましょう。  [voice 7413]
     voice "ch8_l_007"
-    l "Right. / Let's tell the Princess about Siesta.{#ch8_l_007}"
+    l "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
     # JA[7413]: そうね。 / 姫さまには、シエスタについてて / もらいましょう。
     # [SPRITE lay5 image=+390 dir=1A → s 1]
     $ show_sprites(("l 3", "s 1"))
@@ -484,7 +484,7 @@ label ch8:
     $ show_sprites(("l 1", "k 1 sad"))
     # ルイズ：なにか良くないしらせがあるみたいね……。  [voice 7414]
     voice "ch8_l_008"
-    l "Sounds like there's some good news…{#ch8_l_008}"
+    l "Sounds like there's some bad news…{#ch8_l_008}"
     # JA[7414]: なにか良くないしらせがあるみたいね……。
     # キュルケ：とびきりのね。  [voice 3860]
     voice "ch8_k_003"

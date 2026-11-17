@@ -4,15 +4,14 @@
 
 Строго (ERROR) проверяются строки в `game/chapters/`; остальной игре — предупреждения; `game/remark/` исключён (у него свои файлы на каждый язык).
 
-## ERROR (0)
+## ERROR (2)
 
-- нет
+- E4 missing in tl/japanese: dialogue (Oh, Louise… This is Illusion. It's magic that manifests incorporeal ph) at game/chapters/8/script-ch8_3.rpy:702
+- E5 missing in tl/russian: dialogue (Oh, Louise… This is Illusion. It's magic that manifests incorporeal ph) at game/chapters/8/script-ch8_3.rpy:702
 
-## WARNING (328)
+## WARNING (320)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
-- W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
-- W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:3: (Now, just when I thought she was pressing in on me, a warm soft sensa
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
@@ -24,7 +23,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2091: Ah well, it's fine.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:433: Air Force
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:427: Air Needle
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2112: Alright, I'm heading out.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2109: Alright, I'm heading out.
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:593: As always, I can never quite follow what the lesson is about.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:328: Attack Power
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:371: Attacks a single enemy
@@ -35,7 +34,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:20: Bestow blessings upon this one, and make them my familiar
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:467: Bread
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:599: But Louise seems to be enjoying class today. Did something fun happen?
-- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:605: But how am I supposed to be careful, I wonder?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:245: Calibration
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:81: Chapter Eight: 'Haruna's Secret'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:109: Chapter Eight: 'Magic Potion'
@@ -78,7 +76,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:476: Herb
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:402: Heroism
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:200: Hide user interface.
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12459: Hmph, I don't need you to worry about it.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12456: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:660: How did you know!?
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:76: I found them. {#ch8_e_001}
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:379: Increases accuracy of 1 ally
@@ -88,7 +86,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:320: Info
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:293: Items
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:230: Left Trigger\nLeft Bumper
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2094: Let's see, let's see?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:360: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:357: Louise's classmate.\nSpecializes in wind magic.\mHer nickname is "Tabi
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:399: Magic Arrow
@@ -98,7 +95,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:282: No characters unlocked yet
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:596: Nobles who take classes like this every day have it rough. Though I mo
-- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:602: Now then, what should I do...?
+- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:417: Oh, Louise… This is Illusion. It's magic that creates tangible illusio
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1308: Oh, well. It’s not like I expect you to go home just because I tell yo
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:209: Open accessibility menu.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:363: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
@@ -114,7 +111,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:191: Roll back to earlier story point.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:197: Roll forward to later story point.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:314: Select a character to view information
-- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:614: She looks like she has something to say, but what should I do...?
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:608: She looks like she has something to say, but what should I do...?
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:98: Side Story: 'Charmed Princess'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:126: Side Story: 'Genuine Feelings'
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:112: Side Story: 'Master of a Slight Fever'
@@ -128,7 +125,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:305: Start Battle
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:317: Start battle?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:279: Sympathy level
-- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:611: Tabitha seems to be in a bad mood — did I do something to upset her?
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:605: Tabitha seems to be in a bad mood — did I do something to upset her?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:203: Take screenshot.
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:2: The Familiar Zero: The Little Devil and Spring Breeze Concerto
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:8: The Familiar of Zero
@@ -149,7 +146,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:419: Wind Moon Slash
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
 - W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
-- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:608: Zero reaction, huh... Now's not the time to back down.
+- W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:602: Zero reaction, huh... Now's not the time to back down.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:146: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
@@ -157,8 +154,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
 - W5 18 string(s) outside game/chapters/ missing in tl/russian (UI/screens)
-- W1 stale old in tl/russian at game/tl/russian/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
-- W1 stale old in tl/russian at game/tl/russian/ch8_2_thoughs.rpy:3: (Now, just when I thought she was pressing in on me, a warm soft sensa
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
@@ -169,7 +164,7 @@
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2087: Ah well, it's fine.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:435: Air Force
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:429: Air Needle
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2150: Alright, I'm heading out.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2147: Alright, I'm heading out.
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:588: As always, I can never quite follow what the lesson is about.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:328: Attack Power
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:373: Attacks a single enemy
@@ -180,7 +175,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:20: Bestow blessings upon this one, and make them my familiar
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:469: Bread
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:594: But Louise seems to be enjoying class today. Did something fun happen?
-- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:600: But how am I supposed to be careful, I wonder?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:236: Calibration
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:83: Chapter Eight: 'Haruna's Secret'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:111: Chapter Eight: 'Magic Potion'
@@ -223,7 +217,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:478: Herb
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:401: Heroism
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:191: Hide user interface.
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12465: Hmph, I don't need you to worry about it.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12462: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:662: How did you know!?
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:73: I found them. {#ch8_e_001}
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:381: Increases accuracy of 1 ally
@@ -233,7 +227,6 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:320: Info
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:293: Items
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:221: Left Trigger\nLeft Bumper
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2090: Let's see, let's see?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:361: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:358: Louise's classmate.\nSpecializes in wind magic.\mHer nickname is "Tabi
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:410: Magic Arrow
@@ -243,7 +236,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:282: No characters unlocked yet
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:591: Nobles who take classes like this every day have it rough. Though I mo
-- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:597: Now then, what should I do...?
+- W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:415: Oh, Louise… This is Illusion. It's magic that creates tangible illusio
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1313: Oh, well. It’s not like I expect you to go home just because I tell yo
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:200: Open accessibility menu.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:364: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
@@ -259,7 +252,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:182: Roll back to earlier story point.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:188: Roll forward to later story point.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:314: Select a character to view information
-- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:609: She looks like she has something to say, but what should I do...?
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:603: She looks like she has something to say, but what should I do...?
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:100: Side Story: 'Charmed Princess'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:128: Side Story: 'Genuine Feelings'
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:114: Side Story: 'Master of a Slight Fever'
@@ -273,7 +266,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:305: Start Battle
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:317: Start battle?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:279: Sympathy level
-- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:606: Tabitha seems to be in a bad mood — did I do something to upset her?
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:600: Tabitha seems to be in a bad mood — did I do something to upset her?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:194: Take screenshot.
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:2: The Familiar Zero: The Little Devil and Spring Breeze Concerto
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:8: The Familiar of Zero
@@ -294,7 +287,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:421: Wind Moon Slash
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:426: Wing
 - W1 stale old in tl/russian at game/tl/russian/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
-- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:603: Zero reaction, huh... Now's not the time to back down.
+- W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:597: Zero reaction, huh... Now's not the time to back down.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:65: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:148: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}
@@ -302,7 +295,7 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
-- W2 277 ogg not referenced by any script
+- W2 309 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
 - I1 ch2: 1468 script strings > 1382 source talk
@@ -311,6 +304,7 @@
 - I1 ch5: 1569 script strings > 1470 source talk
 - I1 ch6: 465 script strings > 431 source talk
 - I1 ch7: 358 script strings > 336 source talk
+- I1 ch8: 380 script strings > 378 source talk
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/5/script-ch5_6.rpy:41 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(38) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:7 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(58) has a name in image_id_map.csv at game/chapters/6/script-ch6_2.rpy:69 (run tools/replace_bg_placeholders.py --apply)
@@ -330,7 +324,6 @@
 - W6 placeholder id(40) has a name in image_id_map.csv at game/chapters/6/script-ch6_3.rpy:171 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/8/script-ch8_1.rpy:12 (run tools/replace_bg_placeholders.py --apply)
-- W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/8/script-ch8_2.rpy:116 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(12) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(28) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:17 (run tools/replace_bg_placeholders.py --apply)
@@ -339,12 +332,11 @@
 - W6 placeholder id(1145) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(1169) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 
-## INFO (26)
+## INFO (25)
 
 - speakers defined: 37
 - overlay K: max=14 used=14 next_free=15
-- voices: refs=6983 ogg=7259 missing=0
-- I1 ch8: strings=376 source_talk=378 (gap expected)
+- voices: refs=6982 ogg=7291 missing=0
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: not started (source talk=492)
 - I1 ch11: not started (source talk=618)
@@ -365,6 +357,6 @@
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=669 in 29 file(s)
-- labels=397 rpy=95 strings(strict=7915) tl_old=japanese:8410,russian:8437
+- image map: ids=313 named=148 open=165 | placeholders=668 in 29 file(s)
+- labels=397 rpy=95 strings(strict=7919) tl_old=japanese:8409,russian:8436
 

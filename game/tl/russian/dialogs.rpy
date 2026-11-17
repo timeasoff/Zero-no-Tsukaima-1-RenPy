@@ -17424,7 +17424,7 @@ translate russian strings:
     new "К чему мне врать? Можешь хоть у Её Величества самой проверить."
 
     old "How could you keep something that important to yourself!? Is it that you think I can't be relied on?{#ch7_l_007}"
-    new "Как можно молчать о таком важном!? Это у меня, что ли, доверия нет?"
+    new "Как можно молчать о таком важном!? Или я тебе не опора? Ты считаешь, мне нельзя доверять?"
 
     old "Calm down, Louise.{#ch7_s_004}"
     new "Успокойся, Луиза."
@@ -18005,7 +18005,7 @@ translate russian strings:
     new "Акина…?"
 
     old "That's right. This is Haruna's body, but I am an entirely different person. Think of me as her other personality.{#ch7.2_ak_001}"
-    new "Именно. Тело то же, что у Харуну, но я — совсем другой человек. Считай меня её второй личностью."
+    new "Именно. Тело то же, что у Харуны, но я — совсем другой человек. Считай меня её второй личностью."
 
     old "Her other personality?{#ch7.2_s_027}"
     new "Вторая личность?"

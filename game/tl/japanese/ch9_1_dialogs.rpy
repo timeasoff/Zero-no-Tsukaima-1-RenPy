@@ -202,7 +202,7 @@ translate japanese strings:
     old "Theater, the theater. {#ch9_ha_004}"
     new "劇団よ、劇団。"
 
-    old "Theater? I mean, isn't Weatherly's theater / out of business? {#ch9_s_045}"
+    old "Theater? I mean, isn't Weatherby's theater / out of business? {#ch9_s_045}"
     new "劇団って、あのウェザリーの劇団は / もうなくなったんだろ？"
 
     old "No. Another theater troupe saw that play / and scouted me because they liked me. {#ch9_ha_005}"
@@ -253,7 +253,7 @@ translate japanese strings:
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"
     new "それこそ仕方ありませんわ。 / 表だってしまっては問題があることを / 全員承知してますから。"
 
-    old "And then there's Weatherly, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
+    old "And then there's Weatherby, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
     new "それでなくても、ウェザリーや、ハルナの件。 / それに虚無の件と極秘事項が目白押しです。"
 
     old "Nobles exist to protect the common folk. / Everyone understands that. {#ch9_l_003}"

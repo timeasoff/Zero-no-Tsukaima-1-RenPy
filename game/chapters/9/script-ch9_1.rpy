@@ -469,7 +469,7 @@ label ch9:
     $ show_sprites(("s 1 sad", "ha 1 happy"))
     # サイト：劇団って、あのウェザリーの劇団は / もうなくなったんだろ？  [voice 9309]
     voice "ch9_s_040"
-    s "Theater? I mean, isn't Weatherly's theater / out of business? {#ch9_s_045}"
+    s "Theater? I mean, isn't Weatherby's theater / out of business? {#ch9_s_045}"
     # JA[9309]: サイト：劇団って、あのウェザリーの劇団は / もうなくなったんだろ？
     # ハルナ：違うの。 / あの劇を見てくれた別の劇団の人が、 / 私のことを気に入ってスカウトしてくれたのよ。  [voice 1830]
     voice "ch9_ha_005"
@@ -528,7 +528,7 @@ label ch9:
     # [BG stage image=+88 → sky] [TRANS trans("crossfade", 1000)]
     $ fade_fx("sky")
     # サイト：（春奈……正確にはアキナに支配された / 状態の春奈は、あの後ウェザリーに / 魔法を解いてもらった）  [null]
-    s "(Haruna… to be precise, Haruna / under Akina's control, had her magic / dispelled by Weatherly afterwards.){#ch9_s_049}"
+    s "(Haruna… to be precise, Haruna / under Akina's control, had her magic / dispelled by Weatherby afterwards.){#ch9_s_049}"
     # JA[null]: サイト：（春奈……正確にはアキナに支配された / 状態の春奈は、あの後ウェザリーに / 魔法を解いてもらった）
     # サイト：（それから、アキナが再び現れることも /　なくなり……）  [null]
     s "(And Akina never appeared again…) {#ch9_s_050}"
@@ -587,7 +587,7 @@ label ch9:
     $ show_sprites(("h 2 sad", "l 1"))
     # ルイズ：それでなくても、ウェザリーや、ハルナの件。 / それに虚無の件と極秘事項が目白押しです。  [voice 4886]
     voice "ch9_l_004"
-    l "And then there's Weatherly, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
+    l "And then there's Weatherby, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
     # JA[4886]: ルイズ：それでなくても、ウェザリーや、ハルナの件。 / それに虚無の件と極秘事項が目白押しです。
     # ルイズ：貴族は民を守るために存在するもの。 / それはみんなが理解していることです。  [voice 4887]
     voice "ch9_l_005"

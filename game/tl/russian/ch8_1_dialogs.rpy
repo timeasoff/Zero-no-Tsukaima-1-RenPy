@@ -85,10 +85,10 @@ translate russian strings:
     new "Он ни особенно хорош, ни плох. / Есть хорошие люди и есть плохие, / и не все счастливы."
 
     old "I still want to go back, you see. / Haruna felt the same way.{#ch8_s_016}"
-    new "И всё же я хочу вернуться. / Хэруна чувствовала то же самое."
+    new "И всё же я хочу вернуться. / Харуна чувствовала то же самое."
 
     old "Haruna-san…{#ch8_h_014}"
-    new "Хэруна-сан…"
+    new "Харуна-сан…"
 
     old "That's right… / That girl came from the same world as you, didn't she?{#ch8_h_015}"
     new "Верно… / Эта девушка тоже из того же мира, что и ты, да?"
@@ -156,7 +156,7 @@ translate russian strings:
     old "Then let's hear it and decide what to do next.{#ch8_s_026}"
     new "Тогда давайте выслушаем её и решим, что делать дальше."
 
-    old "Right. / Let's tell the Princess about Siesta.{#ch8_l_007}"
+    old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
     new "Хорошо. / Расскажите принцессе о Сиесте."
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
@@ -168,7 +168,7 @@ translate russian strings:
     old "And on top of that…{#ch8_k_002}"
     new "И кроме того…"
 
-    old "Sounds like there's some good news…{#ch8_l_008}"
+    old "Sounds like there's some bad news…{#ch8_l_008}"
     new "Похоже, есть ещё новость похуже…"
 
     old "Terrible news.{#ch8_k_003}"

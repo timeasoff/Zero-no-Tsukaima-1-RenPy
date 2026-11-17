@@ -244,7 +244,7 @@ label ch8_3:
     # JA[13650]: サイト：シエスタは、ここで待っててくれ。 / 本当は学院のほうが安全だけど、 / そんな時間もない。
     # シエスタ：は、はいっ。 / サイトさん、ご武運を……。  [voice 15179]
     voice "ch8_si_013"
-    si "Yes! Please give me your support, Saito-san…! {#ch8_si_013}"
+    si "Yes! Good luck out there, Saito-san…! {#ch8_si_013}"
     # JA[15179]: シエスタ：は、はいっ。 / サイトさん、ご武運を……。
     # サイト：ああ……。  [voice 13651]
     voice "ch8_s_092"
@@ -252,7 +252,7 @@ label ch8_3:
     # JA[13651]: サイト：ああ……。
     # ルイズ：では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。  [voice 7465]
     voice "ch8_l_059"
-    l "Then let's split up. I'll go with Site and Kirche to the palace. {#ch8_l_059}"
+    l "Then let's split into two. {#ch8_l_059}"
     # JA[7465]: ルイズ：では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # キュルケ：タバサ、モンモランシー、ギーシュは、 / 砲台への攻撃をお願い。 / 気をつけてね。  [voice 3872]
     voice "ch8_k_015"
@@ -264,7 +264,7 @@ label ch8_3:
     # JA[15814]: タバサ：了解。
     # ルイズ：わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。  [voice 7466]
     voice "ch8_l_060"
-    l "So I'll have Site, the Princess, and Kirche head to the palace. {#ch8_l_60}"
+    l "Saito, the Princess, Kirche and I will head to the palace. {#ch8_l_060}"
     # JA[7466]: ルイズ：わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。  [voice 919]
     voice "ch8_h_068"
@@ -307,7 +307,7 @@ label ch8_3:
     # [SPRITE   lay8     image=+779, level=160, dir=1B]  # アンリエッタ
     # アンリエッタ：状況はどうなっていますか。  [voice 920]
     voice "ch8_h_069"
-    h "How is the situation?" {#ch8_h_069}
+    h "How is the situation?{#ch8_h_069}"
     # JA[920]: アンリエッタ：状況はどうなっていますか。
     # [SPRITE   lay8     x=224, y=0]
     # [SPRITE   lay18    image=+1121, level=160, dir=1A]  # 将校
@@ -329,7 +329,7 @@ label ch8_3:
     # [SPRITE   lay5     image=+401, level=156, dir=1B]
     # サイト：ああ。 / そうだな。  [voice 13653]
     voice "ch8_s_094"
-    s "Yeah, I see. {#ch8_s_94}"
+    s "Yeah, I see. {#ch8_s_094}"
     # JA[13653]: サイト：ああ。 / そうだな。
     # [SPRITE   lay6     hide] [SPRITE   lay5     hide]
     # [SPRITE   lay18    image=+1125, level=160, dir=1A]  # 将校
@@ -517,12 +517,7 @@ label ch8_3:
     # JA[3874]: キュルケ：どうやら無事のようね。
     # アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。  [voice 926]
     voice "ch8_h_075"
-    h "Your magic, "Brainwash Howling," doesn't work here. {#ch8_h_075}"
-    # JA[926]: アンリエッタ：あなたの魔法 / 「ブレインウォASH HOWLING」は、 / ここでは通用しません。 — wait, that's a typo, let me fix.
-    # Actually: アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。  [voice 926]
-    # Let me fix that.
-    voice "ch8_h_075"
-    h "Your magic, "Brainwash Howling," doesn't work here. {#ch8_h_075}"
+    h "Your magic, 'Brainwash Howling,' doesn't work here. {#ch8_h_075}"
     # JA[926]: アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。
     # アンリエッタ：わたくしがいる限り、絶対に。  [voice 927]
     voice "ch8_h_076"
@@ -644,7 +639,7 @@ label ch8_3:
     # JA[16188]: ウェザリー：……ふ、ふふふっ。
     # ウェザリー：まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。  [voice 16189]
     voice "ch8_w_024"
-    w "Did you really think I'd be defeated by a queen I underestimated? {#ch8_w_024}"
+    w "I never imagined I'd lose to a queen I'd looked down on as immature. {#ch8_w_024}"
     # JA[16189]: ウェザリー：まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。
     # サイト：ウェザリー……。  [voice 13669]
     voice "ch8_s_116"
@@ -652,7 +647,7 @@ label ch8_3:
     # JA[13669]: サイト：ウェザラー。
     # ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.  [voice 16190]
     voice "ch8_w_025"
-    w "Then at this point, no mercy for the defeated! This is the finishing blow! {#ch8_w_025}"
+    w "Come, no mercy for the defeated. I will not live in disgrace. Finish me with one stroke. {#ch8_w_025}"
     # JA[16190]: ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.
     # サイト：お姫さま、どうします？  [voice 13670]
     voice "ch8_s_117"
@@ -680,7 +675,7 @@ label ch8_3:
     # JA[7473]: ルイズ：はい。 / お任せください。
     # ルイズ：出でよ、ここになきもの……ここにあるように。  [voice 7474]
     voice "ch8_l_068"
-    l "Come forth, here I am… Here I am. {#ch8_l_068}"
+    l "Come forth, you who are not here… as though you were here. {#ch8_l_068}"
     # JA[7474]: ルイズ：出でよ、ここになきもの……ここにあるように。
     # ルイズ：イリュージョン！！  [voice 7475]
     voice "ch8_l_069"
@@ -704,7 +699,7 @@ label ch8_3:
     # JA[7476]: ルイズ：違うわよ……ばか……。
     # アンリエッタ：ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。  [voice 942]
     voice "ch8_h_090"
-    h "Oh, Louise… This is Illusion. It's magic that creates tangible illusions… {#ch8_h_090}"
+    h "Oh, Louise… This is Illusion. It's magic that manifests incorporeal phantoms… {#ch8_h_090}"
     # JA[942]: アンリエッタ：ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。
     # サイト：ってことは、あの艦隊は幻？  [voice 13673]
     voice "ch8_s_111"

@@ -83,7 +83,7 @@ translate russian strings:
     new "Чёрт! Так вот где всё решается?"
 
     old "Siesta! Get back! It's dangerous! {#ch8_l_056}"
-    new "Сьеста! Отойди! Опасно!"
+    new "Сиеста! Отойди! Опасно!"
 
     old "Yes! {#ch8_si_012}"
     new "Ха-ай!"
@@ -112,23 +112,23 @@ translate russian strings:
     old "Siesta, wait here. The academy is safer, but there's no time. {#ch8_s_091}"
     new "Сьеста, подожди здесь. Академия безопаснее, но времени нет."
 
-    old "Yes! Please give me your support, Saito-san…! {#ch8_si_013}"
+    old "Yes! Good luck out there, Saito-san…! {#ch8_si_013}"
     new "Ха-ай! Пожалуйста, поддержите меня, Сайто-сан…!"
 
     old "Yeah… {#ch8_s_092}"
     new "Аа…"
 
-    old "Then let's split up. I'll go with Site and Kirche to the palace. {#ch8_l_059}"
-    new "Тогда разделимся. Я пойду с Сайто и Кюрке к дворцу."
+    old "Then let's split into two. {#ch8_l_059}"
+    new "Тогда разделимся. Я пойду с Сайто и Кирхе к дворцу."
 
     old "Tabitha, Montmorency, and Guiche — attack the cannons. Be careful. {#ch8_k_015}"
-    new "Табаса, Монморанси, Гюш — атакуйте пушки. Осторожнее."
+    new "Табита, Монморанси, Гиш — атакуйте пушки. Осторожнее."
 
     old "Understood. {#ch8_t_004}"
     new "Понял."
 
-    old "So I'll have Site, the Princess, and Kirche head to the palace. {#ch8_l_60}"
-    new "Я с Сайто, Принцесса и Кюрке идём к дворцу."
+    old "Saito, the Princess, Kirche and I will head to the palace. {#ch8_l_060}"
+    new "Сайто, принцесса, Кирхе и я идём к дворцу."
 
     old "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
     new "Поняла. Стараюсь не мешать. Удачи."
@@ -149,7 +149,7 @@ translate russian strings:
     new "Быть королём — ерунда. Главное — чтобы рядом был кто-то, в кого можно верить."
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
-    new "Гав. С утра у восточной батареи идут мелкие сражения."
+    new "Так точно! С утра у восточной батареи идут мелкие сражения."
 
     old "That would explain why the castle bombardment has stopped, for now. {#ch8_o_002}"
     new "Поэтому, вероятно, обстрел замка пока прекратился."
@@ -157,7 +157,7 @@ translate russian strings:
     old "Tabitha and the others are doing their best, aren't they. {#ch8_k_016}"
     new "Табаса и остальные стараются, да?"
 
-    old "Yeah, I see. {#ch8_s_94}"
+    old "Yeah, I see. {#ch8_s_094}"
     new "Ага, понял."
 
     old "However, the Reconquista fleet is… approaching. {#ch8_o_003}"
@@ -212,7 +212,7 @@ translate russian strings:
     new "Уже не в духе драться. Просто оставайся здесь."
 
     old "Weatherby, and Akina too! {#ch8_s_099}"
-    new "Везерли, и Акина тоже!"
+    new "Уэзерби, и Акина тоже!"
 
     old "Maybe you thought we'd come here. You were wrong. {#ch8_d_002}"
     new "Думали, мы придём сюда? Ошиблись."
@@ -233,7 +233,7 @@ translate russian strings:
     new "Хоть сама Акина и не помнит, что это сделала."
 
     old "Damn you, Weatherby! Restore Haruna! {#ch8_s_101}"
-    new "Чёрт тебя, Везерли! Верни Харуну!"
+    new "Чёрт тебя, Уэзерби! Верни Харуну!"
 
     old "Unfortunately, that's not something I can agree to. I have my own goals. Until I achieve them, I will use you. {#ch8_w_007}"
     new "К сожалению, я не могу согласиться. У меня свои цели. Пока не достигну их — буду пользоваться вами."
@@ -251,7 +251,7 @@ translate russian strings:
     new "Хорошо. Если не остановитесь — победим вас мы."
 
     old "Oh, can you? Can I use my bomb on your magic? Do it if you can win. {#ch8_ak_002}"
-    new "О, сможете? А если я применить своюBomb против вашей магии? Попробуйте, если сможете выиграть."
+    new "О, сможете? А если я применю свою бомбу против вашей магии? Попробуйте, если сможете выиграть."
 
     old "That's enough. {#ch8_h_073}"
     new "Достаточно."
@@ -272,7 +272,7 @@ translate russian strings:
     new "Э? А, да!"
 
     old "…! {#ch8_w_011}"
-    new "……っ！"
+    new "…!"
 
     old "Haruna! Or is it Akina? Anyway, is everyone safe? {#ch8_s_105}"
     new "Харуна! Или это уже Акина? Во всяком случае, все в порядок?"
@@ -282,6 +282,12 @@ translate russian strings:
 
     old "Looks like we're all safe, then. {#ch8_k_017}"
     new "Кажется, все в безопасности."
+
+    old "How is the situation?{#ch8_h_069}"
+    new "Как обстановка?"
+
+    old "Your magic, 'Brainwash Howling,' doesn't work here. {#ch8_h_075}"
+    new "Ваша магия «Брайнвош Хаулинг» здесь не действует."
 
     old "As long as I am here, it's absolutely impossible. {#ch8_h_076}"
     new "Пока я здесь — это абсолютно невозможно."
@@ -308,7 +314,7 @@ translate russian strings:
     new "Почему… как ты узнал?! Неужели ты нагрянул на свою деревню…?"
 
     old "Miss Weatherby, your loss of nobility was not because of your origins. {#ch8_h_079}"
-    new "Мисс Везерли, вас лишили дворянства не из-за вашего происхождения."
+    new "Мисс Уэзерби, вас лишили дворянства не из-за вашего происхождения."
 
     old "What…? {#ch8_w_017}"
     new "Что…?"
@@ -356,25 +362,25 @@ translate russian strings:
     new "Куаа!"
 
     old "That's enough, Weatherby. You're defeated. {#ch8_s_108}"
-    new "Всё, Везерли. Ты проиграл."
+    new "Всё, Уэзерби. Ты проиграл."
 
     old "Heh heh heh… {#ch8_w_023}"
     new "Хе-хе-хе…"
 
-    old "Did you really think I'd be defeated by a queen I underestimated? {#ch8_w_024}"
-    new "Неужели ты думал, что проиграшь подручной, которой пренебрегал?"
+    old "I never imagined I'd lose to a queen I'd looked down on as immature. {#ch8_w_024}"
+    new "Неужто я проиграла королеве, которую считала незрелой?.."
 
     old "Weatherby… {#ch8_s_116}"
-    new "Везерли…"
+    new "Уэзерби…"
 
-    old "Then at this point, no mercy for the defeated! This is the finishing blow! {#ch8_w_025}"
+    old "Come, no mercy for the defeated. I will not live in disgrace. Finish me with one stroke. {#ch8_w_025}"
     new "Тогда на этом этапе — не жалеть побеждённых! Это решающий удар!"
 
     old "What should the Princess do? {#ch8_s_117}"
     new "Что должна сделать Принцесса?"
 
     old "Miss Weatherby. You will pay for your sins. {#ch8_h_086}"
-    new "Мисс Везерли. Вы ответите за свои грехи."
+    new "Мисс Уэзерби. Вы ответите за свои грехи."
 
     old "I know. Do what you will. {#ch8_w_026}"
     new "Знаю. Делай что хочешь."
@@ -388,7 +394,7 @@ translate russian strings:
     old "Yes. I entrust this to you. {#ch8_l_067}"
     new "Да. Доверяю это тебе."
 
-    old "Come forth, here I am… Here I am. {#ch8_l_068}"
+    old "Come forth, you who are not here… as though you were here. {#ch8_l_068}"
     new "Явься, вот я… Вот я."
 
     old "Illusion!! {#ch8_l_069}"
@@ -406,8 +412,8 @@ translate russian strings:
     old "No, it's not… Idiot. {#ch8_l_070}"
     new "Нет, не это… Идиот."
 
-    old "Oh, Louise… This is Illusion. It's magic that creates tangible illusions… {#ch8_h_090}"
-    new "О, Луиза… Это Иллюзия. Магия, создающая осязаемые иллюзии…"
+    old "Oh, Louise… This is Illusion. It's magic that manifests incorporeal phantoms… {#ch8_h_090}"
+    new "О, Луиза… Это Иллюзия. Магия, являющая бесплотные призраки…"
 
     old "So that fleet was an illusion? {#ch8_s_111}"
     new "Значит, тот флот был иллюзией?"

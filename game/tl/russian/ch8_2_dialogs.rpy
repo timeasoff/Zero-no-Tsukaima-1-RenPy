@@ -159,7 +159,7 @@ translate russian strings:
     old "If there's a way to fight, there's no reason not to. Being on the receiving end goes against my principles. {#ch8_k_006}"
     new "Если есть способ сражаться, нет причин его не использовать. Быть в обороне противоречит моим принципам."
 
-    old "Right side same. {#ch8_t_001}"
+    old "Same here. {#ch8_t_001}"
     new "Я тоже."
 
     old "Thank you. {#ch8_l_042}"
@@ -184,7 +184,7 @@ translate russian strings:
     new "Ага, всё будет хорошо."
 
     old "Then I'll explain the operation. Saito and I will move to the castle hill. Everyone… {#ch8_l_043}"
-    new "Тогда я объясню операцию. Сайт и я переместимся на холм замка. Все остальные…"
+    new "Тогда я объясню операцию. Сайто и я переместимся на холм замка. Все остальные…"
 
     old "So you want us to lure the enemy so you can reach the castle? {#ch8_k_007}"
     new "Ты хочешь, чтобы мы заманили врага, чтобы вы добрались до замка?"
@@ -201,8 +201,8 @@ translate russian strings:
     old "I don't know what you'll do, but if that's the only option, we'll do what we can. {#ch8_k_009}"
     new "Я не знаю, что вы будете делать, но если это единственный вариант, мы сделаем всё, что в наших силах."
 
-    old "Although, it's not fun that Variel will take the good parts. {#ch8_k_010}"
-    new "Хотя, мне не нравится, что Вариэль заберёт лучшие части."
+    old "Although, it's not fun that Vallière will take the good parts. {#ch8_k_010}"
+    new "Хотя, мне не нравится, что Ла Вальер заберёт лучшие части."
 
     old "The critical moment. {#ch8_t_002}"
     new "Решающий момент."
@@ -226,7 +226,7 @@ translate russian strings:
     new "Луиза, ты направляешься в замок."
 
     old "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
-    new "Да. Принцесса, подождите здесь некоторое время. Я верну мир этой Тристейнии."
+    new "Да. Принцесса, подождите здесь некоторое время. Я верну мир этой Тристании."
 
     old "W-W-W-Well, Princess!? That's too reckless! {#ch8_l_048}"
     new "П-подождите, принцесса!? Это слишком безрассудно!"
@@ -259,7 +259,7 @@ translate russian strings:
     new "Понял. Я тоже помогу."
 
     old "Saito! Do you understand what you're saying? {#ch8_l_049}"
-    new "Сайт! Ты понимаешь, что говоришь?"
+    new "Сайто! Ты понимаешь, что говоришь?"
 
     old "Louise, I am the Queen. If I don't lead the front lines, who will follow? {#ch8_h_058}"
     new "Луиза, я королева. Если я не пойду впереди, кто пойдёт за мной?"
