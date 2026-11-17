@@ -770,9 +770,16 @@ Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; от
 * **Семантика** (seed `i % 263`, 27 строк): все пары EN/RU соответствуют JA; новых ошибок нет.
 * Счётчик обновлён до 71; правок кода нет.
 
+## Перепроверка №72 (seed i%269)
+
+Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; отступы 0; U+FFFD 0.
+
+* **Семантика** (seed `i % 269`, 26 строк): все пары EN/RU соответствуют JA; новых ошибок нет.
+* Счётчик обновлён до 72; правок кода нет.
+
 ## where I stopped
 
-- Текущая фаза: **главы 6–9 завершены** (rounds 1–71); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
+- Текущая фаза: **главы 6–9 завершены** (rounds 1–72); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
 - **Единственный источник счётчика раундов — эта строка.** Мета выше на конкретные числа не ссылается; при новом раунде обновлять только её, чтобы избежать дрейфа.
 - Инструменты: `check_renpy_syntax`, `check_project`, `check_typography`, `check_placeholders`, `check_assets`, `check_voice_transcriptions`, `omission_precheck`; сканер отступов `C:/Users/user/AppData/Local/Temp/opencode/qa_indent_all.py`; валидатор `qa_pyindent2.py`.
 - Важно: `check_renpy_syntax.py` не ловит отступы внутри `menu:` — всегда запускать оба сканера.
