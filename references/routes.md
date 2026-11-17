@@ -119,7 +119,7 @@
   (`script-ch0.rpy:2`, `script-ch1_1.rpy:25`, `script-ch2_1.rpy:4`,
   `script-ch3_1.rpy:5`, `script-ch4_1.rpy:17`, `script-ch5_1.rpy:41`);
   вызовы `$ tndl(±30)` подключены **во всех портированных главах 0–9** (правка
-  2026-10-31): ch1 — 31, ch2 — 35, ch3 — 36, ch4 — 23, ch5 — 32, плюс
+  2026-10-31): ch1 — 31, ch2 — 34, ch3 — 35, ch4 — 22, ch5 — 31 (только ±30; плюс по 1 `None` в каждой главе), плюс
   `tndl(None)` глав 0–9 = **182** вызова всего; распределения ±30/null каждой
   главы = канон `events_full` глав 02–06, устаревшие комментарии
   «система не реализована» удалены полностью (отчёт `reports/tndl_port_fix.md`).
@@ -214,9 +214,9 @@
 5. **Кто потребляет пороги (после правки 2026-10-31):** **7 условий** extra-даты —
     тундэре-метр `zero_tundele >= 211` в гейтах дат-меню глав 1–7: `ch1_10.rpy:18`
    (**до** `$ portrait_choice`), `ch2_6.rpy:228`, `ch3_8.rpy:415`, `ch4_6.rpy:665`,
-    `ch5_10.rpy:56`, `ch6_3.rpy:18`, `ch7_3.rpy:437` → в каждом `tndl_pick(zero_dele_event)` → слот 0 → `call sp_l1
-    `call sp_l1 from _call_sp_l1_{6..12}` → `fade black` → `stop music` → выход
-   `ch5`/`ch5_11_scene_343`); иначе — fallthrough в обычную дату.
+ `ch5_10.rpy:56`, `ch6_3.rpy:18`, `ch7_3.rpy:437` → в каждом `tndl_pick(zero_dele_event)` → слот 0 → `call sp_l1 from _call_sp_l1_{6..12}` → `fade black` → `stop music` → выход гейта (`jump ch2`/`ch3`/`ch4`/`ch5`/`ch5_11_scene_343`/`ch7`/`ch8`); иначе — fallthrough в обычную дату.
+
+
    Бывшие **5** условий `louise_sympathy == 100` (все в `ch1_10`) **удалены**. `−100` —
    **не проверяется ничем** (0 условий из 49).
 6. **Что в PS2 считалось «максимом»:** не значение шкалы, а `isMax()` («никто не больше»)
@@ -415,9 +415,9 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
     fallthrough в обычное дат-меню;
   * HUD/анимация шкалы тундэре не реализована (визуала нет).
   Ранее действовало: `AGENTS.md` §6 — `TNDL`-вызовы пропускаются с пометкой в отчёте
-  части; с правкой 2026-10-31 это **утратило силу для глав 0–5** (вызовы вставлены по
-  канону `events_full`) для всех портированных глав 0–9 (чужой WIP глав 6 закрыт, инвентарь `reports/tndl_port_fix.md` снят с OPEN).
-  событий в отчёте `reports/tndl_port_fix.md`).
+   части; с правкой 2026-10-31 и QA 2026-11-17 это **утратило силу для всех портированных глав 0–9**: вызовы вставлены по канону `events_full` (182), чужой WIP глав 6 закрыт, инвентарь `reports/tndl_port_fix.md` снят с OPEN.
+
+
   Единственное отдельное событие, вынесенное в `chapters/extra/`, — `sp_l1`.
   Маппизация 90/91 (какая глава — тундэре, какая — дэре) — **PROVISIONAL**, см. §8 п. 10.
 
@@ -432,7 +432,7 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 удалены 5 route-строк по условию `louise_sympathy` = 100 и 5 строк точек вызова `sp_l1`,
 добавлены 1 route-строка `zero_tundele >= 211` и 1 строка точки вызова `sp_l1`;
 та же дата, задача `T20261031-154035-97bf`: **+4 route-строки (гейты `date()`
-глав 2–5) → 170** (`route` 9), точек вызова `sp_l1` — 5).
+глав 2–7) → 178** (`route` 11), точек вызова `sp_l1` — 7).
 
 Дата: 2026-10-31. Задача S2 (промпт: `reports/tasks/prompts/T20261031-033403-0df1_S2.md`). Область: `game/chapters/0..6/*.rpy`, `game/chapters/extra/*.rpy`. Инвентаризация S2 — только чтением; строки разделов **«Главная 1»** и **«Extra»** обновлены по коду 2026-10-31 после правки симпатий главы 1 (задача `T20261031-054249-c81b`, §1.3/§4.1) — номера строк и значения приведены к текущему коду; остальные главы — по S2.
 
@@ -497,8 +497,8 @@ branch_kind, menu_owner_scene, choice_text, source_line, events_full_line, notes
 | game/chapters/3/script-ch3_8.rpy:415 | ch3_8 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch3_8:420) → jump ch4 (ch3_8:423)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → portrait_choice | 1: нет (до вызова)<br>2: нет | то же, что ch2_6; инкременты (ch3_8:418–419); гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
 | game/chapters/4/script-ch4_6.rpy:665 | ch4_6 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch4_6:670) → jump ch5 (ch4_6:673)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → portrait_choice (4 персонажа) | 1: нет (до вызова)<br>2: нет | то же, что ch2_6; инкременты (ch4_6:668–669); гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
 | game/chapters/5/script-ch5_10.rpy:56 | ch5_10_date_menu > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | 1) → tndl_pick(zero_dele_event) → слот 0 → call sp_l1 (ch5_10:61) → jump ch5_11_scene_343 (ch5_10:64)<br>2) (слоты 1..5 либо <211) → продолжение после условия (fallthrough) → if zero_route (диспетчер дат) | 1: нет (до вызова)<br>2: нет | то же, что ch2_6; инкременты (ch5_10:59–60); выход = общий постдат-диспетчер 343; гейт добавлен 2026-10-31 (T20261031-154035-97bf) |
-| game/chapters/6/script-ch6_3.rpy:18 | ch6_3 > if zero_tundele >= 211 | route | слот 0 → call sp_l1 (K=11) → jump ch7 (ch6_3:30/206) | нет | QA 2026-11-17 |
-| game/chapters/7/script-ch7_3.rpy:437 | ch7_3 > if zero_tundele >= 211 | route | слот 0 → call sp_l1 (K=12) → jump ch8 (ch7_3:446) | нет | QA 2026-11-17 |
+| game/chapters/6/script-ch6_3.rpy:18 | ch6_3 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | слот 0 → call sp_l1 (K=11) → jump ch7 (ch6_3:30/206) | нет | QA 2026-11-17 |
+| game/chapters/7/script-ch7_3.rpy:437 | ch7_3 > if zero_tundele >= 211 | route | if zero_tundele >= 211<br>влож.: if zero_tndl_no == 0 (слот 0 дэре) | слот 0 → call sp_l1 (K=12) → jump ch8 (ch7_3:446) | нет | QA 2026-11-17 |
 | game/chapters/1/script-ch1_10.rpy:28 | ch1_10 > portrait_choice | portrait_choice | нет | 1. Go on a date with Louise (louise) → date_louise_1<br>2. Go on a date with Siesta (siesta) → date_siesta_1<br>3. Go on a date with Tabitha (tabitha) → date_tabitha_1<br>4. Go on a date with Kirche (kirche) → date_kirche_1<br>5. Go on a date with Haruna (haruna) → date_haruna_1 | нет | инлайн-список dict{char,text,target}; цели достигаются renpy.call(target) (game/scripts/features/portrait_choises.rpy:218–220); условная симпатия целей — в строках их label/if |
 | game/chapters/1/script-ch1_10.rpy:91 | date_louise_1 > menu | date | нет | 1. You look really beautiful. → далее (после меню)<br>2. I don't really get it. → далее (после меню)<br>3. You don't seem like Louise. → далее (после меню) | вход: +20@louise (с. 51)<br>1: +10@louise<br>2: -10@louise<br>3: нет | скрытых условий у опций нет; значения канонические (правка 2026-10-31) |
 | game/chapters/1/script-ch1_10.rpy:237 | date_siesta_1 > menu | date | нет | 1. You'll make an excellent wife. → далее (после меню)<br>2. Is that delicious? → далее (после меню)<br>3. So you're a thrifty person. → далее (после меню) | вход: +20@siesta (с. 192)<br>1: +10@siesta<br>2: нет<br>3: -10@siesta | скрытых условий у опций нет; значения канонические (правка 2026-10-31) |

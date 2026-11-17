@@ -303,7 +303,7 @@ translate japanese strings:
     old "What is it?{#ch8_s_044}"
     new "なんでしょう。"
 
-    old "You don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
+    old "Saito-san, you don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
     new "サイトさんは、女王であるわたくしに / あまり遠慮はしないのですね。 / なぜですか？"
 
     old "Because you're cute, Princess…{#ch8_s_045}"

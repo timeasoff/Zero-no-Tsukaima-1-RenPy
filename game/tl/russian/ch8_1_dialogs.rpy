@@ -303,8 +303,8 @@ translate russian strings:
     old "What is it?{#ch8_s_044}"
     new "Что такое?"
 
-    old "You don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
-    new "Ты не очень-то стесняешься со мной, королевой. / Почему?"
+    old "Saito-san, you don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
+    new "Сайто-сан, ты не очень-то стесняешься со мной, королевой. / Почему?"
 
     old "Because you're cute, Princess…{#ch8_s_045}"
     new "Потому что ты милая, принцесса…"

@@ -798,7 +798,7 @@ label ch8:
     # JA[13603]: なんでしょう。
     # アンリエッタ：サイトさんは、女王であるわたくしに / あまり遠慮はしないのですね。 / なぜですか？  [voice 881]
     voice "ch8_h_030"
-    h "You don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
+    h "Saito-san, you don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
     # JA[881]: サイトさんは、女王であるわたくしに / あまり遠慮はしないのですね。 / なぜですか？
 
 
