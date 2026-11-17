@@ -55,7 +55,7 @@ T = {
 42: ("...It was a rough night.", "…Тяжёлая была ночь."),
 43: ("Honestly, why does this keep happening to me...", "Ну же, почему это всё время со мной…"),
 44: ("Say, Montmon. How's the medicine for Kirche's suggestion coming along?",
-     "Слушай, Монмон. Как дела с лекарством от заклинания Кирке?"),
+     "Слушай, Монмон. Как дела с лекарством от гипнотического внушения Кирке?"),
 45: ("Not yet.", "Пока нет."),
 46: ("I told you? It'll take some time.", "Я же говорила — займёт немного времени."),
 47: ("I'd like it finished before my life ends, please.", "Хотелось бы, чтобы оно было готово, пока я жив."),

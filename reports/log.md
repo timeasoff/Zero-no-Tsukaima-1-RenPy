@@ -4991,3 +4991,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `おにいちゃん` → «big brother»/«Братишка» (продолжение гл.14); заглушки `id(K)`; `VIBRATE` → shake_fx.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 15` → OK; `check_typography.py --chapter 15_1 --lang ru/en` → OK; `audio_converter.py check` → OK (8738/8738); `omission_precheck --chapter 15_1` → 0 кандидатов.
 - отчёт: `reports/ch15/1.md`; план обновлён (глава 15 — часть 1).
+
+
+## 2026-11-18 — Глава 15: часть 2 (сцены 633–642)
+
+- статус: DONE (порт + mechanically; аудиты — отдельным проходом)
+- место: `game/chapters/15/script-ch15_2.rpy`, `game/tl/{japanese,russian}/ch15_2_*`, `references/voice_id_map.csv` (+128), `reports/ch15/2.md`
+- PROVISIONAL: `切り札` → «trump card»/«козырь»; `詠唱` → «chanting»/«чтение заклинания»; заглушки `id(K)`; `VIBRATE` → shake_fx.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 15` → OK; `check_typography.py --chapter 15_2 --lang ru/en` → OK; `audio_converter.py check` → OK (8866/8866); `omission_precheck --chapter 15_2` → 0 кандидатов.
+- отчёт: `reports/ch15/2.md`; план обновлён (часть 2 ✅).

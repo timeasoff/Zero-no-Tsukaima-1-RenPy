@@ -124,10 +124,10 @@
     new "…Тяжёлая была ночь."
 
     old "Honestly, why does this keep happening to me…{#ch15_s_021}"
-    new "Ну же, почему это всё время со мной…"
+    new "О-Оу!"
 
     old "Say, Montmon. How's the medicine for Kirche's suggestion coming along?{#ch15_s_022}"
-    new "Слушай, Монмон. Как дела с лекарством от заклинания Кирке?"
+    new "Слушай, Монмон. Как дела с лекарством от гипнотического внушения Кирке?"
 
     old "Not yet.{#ch15_m_002}"
     new "Пока нет."
@@ -172,7 +172,7 @@
     new "Что ты застыл! Быстрее к месту взрыва!"
 
     old "O-Okay!{#ch15_s_027}"
-    new "Т-Так точно!"
+    new "О-Оу!"
 
     old "Burn, burn. Let it all burn!{#ch15_ak_001}"
     new "Гори, гори. Пусть всё горит!"
@@ -343,14 +343,14 @@
     new "Так вот почему она так хотела использовать нас во время спектакля."
 
     old "Yes, that's why she bossed us around so much.{#ch15_l_021}"
-    new "Да, поэтому она так командовала нами."
+    new "Да, поэтому она так свысока командовала нами."
 
     old "Hm… Should I let that muscle ache grudge go?{#ch15_l_022}"
-    new "Хм… Стоит ли мне простить ту боль в мышцах?"
+    new "Стоит ли мне простить ту обиду за боль в мышцах?"
 
     old "Wait a second, Louise! You're angry about the wrong thing!{#ch15_s_047}"
     new "Подожди, Луиза! Ты злишься не на то!"
 
     old "I don't care! I'm furious right now!{#ch15_l_023}"
-    new "Мне всё равно! Я сейчас очень зла!"
+    new "Мне всё равно! Я сейчас вне себя от злости!"
 
