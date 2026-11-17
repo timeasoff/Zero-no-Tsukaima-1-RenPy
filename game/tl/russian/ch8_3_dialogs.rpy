@@ -43,7 +43,7 @@ translate russian strings:
     old "But the palace is under attack right now. You don't have to force your way back… {#ch8_s_086}"
     new "Но дворец сейчас под атакой. Вам не нужно насильно пробиваться обратно…"
 
-    old "It's enough that I'm safe inside the palace, so the Tristain can be reassured that I'm alive. {#ch8_h_063}"
+    old "It's enough that I'm safe inside the palace, to show that Tristain is still standing. {#ch8_h_063}"
     new "Достаточно того, что я в безопасности внутри дворца, чтобы Тристейн узнал: я жива."
 
     old "Besides, I have something on my mind. {#ch8_h_064}"
@@ -101,7 +101,7 @@ translate russian strings:
     new "Все, вы в порядке!?"
 
     old "The Princess and Siesta, everyone is safe. {#ch8_l_057}"
-    new "Принцесса и Сьеста, все в безопасности."
+    new "Принцесса и Сиеста, все в безопасности."
 
     old "We drove them all off. {#ch8_k_014}"
     new "Всех их отогнали."
@@ -110,10 +110,10 @@ translate russian strings:
     new "Дело принимает плохой оборот. Нам нужно поторопиться!"
 
     old "Siesta, wait here. The academy is safer, but there's no time. {#ch8_s_091}"
-    new "Сьеста, подожди здесь. Академия безопаснее, но времени нет."
+    new "Сиеста, подожди здесь. Академия безопаснее, но времени нет."
 
     old "Yes! Good luck out there, Saito-san…! {#ch8_si_013}"
-    new "Ха-ай! Пожалуйста, поддержите меня, Сайто-сан…!"
+    new "Ха-ай! Удачи тебе, Сайто-сан…!"
 
     old "Yeah… {#ch8_s_092}"
     new "Аа…"
@@ -155,7 +155,7 @@ translate russian strings:
     new "Поэтому, вероятно, обстрел замка пока прекратился."
 
     old "Tabitha and the others are doing their best, aren't they. {#ch8_k_016}"
-    new "Табаса и остальные стараются, да?"
+    new "Табита и остальные стараются, да?"
 
     old "Yeah, I see. {#ch8_s_094}"
     new "Ага, понял."
@@ -374,7 +374,7 @@ translate russian strings:
     new "Уэзерби…"
 
     old "Come, no mercy for the defeated. I will not live in disgrace. Finish me with one stroke. {#ch8_w_025}"
-    new "Тогда на этом этапе — не жалеть побеждённых! Это решающий удар!"
+    new "Давай, пощады побеждённым нет. Я не хочу жить в позоре. Убей меня одним ударом."
 
     old "What should the Princess do? {#ch8_s_117}"
     new "Что должна сделать Принцесса?"
@@ -395,7 +395,7 @@ translate russian strings:
     new "Да. Доверяю это тебе."
 
     old "Come forth, you who are not here… as though you were here. {#ch8_l_068}"
-    new "Явься, вот я… Вот я."
+    new "Явься, того, кого здесь нет… будто он здесь."
 
     old "Illusion!! {#ch8_l_069}"
     new "Иллюзия!!"

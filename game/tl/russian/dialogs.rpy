@@ -2001,7 +2001,7 @@ translate russian strings:
     new "А? Разве я сделал тебе что-то плохое!?"
 
     old "Montmorency. I feel for you."
-    new "Монморанси. Cочувствую тебе."
+    new "Монморанси. Сочувствую тебе."
 
     old "I agree completely."
     new "И я тоже."

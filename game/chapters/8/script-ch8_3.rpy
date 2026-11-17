@@ -128,7 +128,7 @@ label ch8_3:
     # トリステインが健在であることを
     # 示せるだけでよいのです。  [voice 914]
     voice "ch8_h_063"
-    h "It's enough that I'm safe inside the palace, so the Tristain can be reassured that I'm alive. {#ch8_h_063}"
+    h "It's enough that I'm safe inside the palace, to show that Tristain is still standing. {#ch8_h_063}"
     # JA[914]: アンリエッタ：わたくしが王宮内に無事でいることで、 / トリステインが健在であることを / 示せるだけでよいのです。
     # アンリエッタ：それに、わたくしにもひとつ、
     # 考えていることがあるのですよ。  [voice 915]

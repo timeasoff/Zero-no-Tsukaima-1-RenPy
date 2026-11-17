@@ -157,7 +157,7 @@ translate russian strings:
     new "Тогда давайте выслушаем её и решим, что делать дальше."
 
     old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
-    new "Хорошо. / Расскажите принцессе о Сиесте."
+    new "Хорошо. / Пусть Сиеста останется с принцессой."
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
     new "Понял. / Я передам Сиесте."

@@ -6,8 +6,8 @@
 
 ## ERROR (2)
 
-- E4 missing in tl/japanese: dialogue (Oh, Louise… This is Illusion. It's magic that manifests incorporeal ph) at game/chapters/8/script-ch8_3.rpy:702
-- E5 missing in tl/russian: dialogue (Oh, Louise… This is Illusion. It's magic that manifests incorporeal ph) at game/chapters/8/script-ch8_3.rpy:702
+- E4 missing in tl/japanese: dialogue (It's enough that I'm safe inside the palace, so the Tristain can be re) at game/chapters/8/script-ch8_3.rpy:131
+- E5 missing in tl/russian: dialogue (It's enough that I'm safe inside the palace, so the Tristain can be re) at game/chapters/8/script-ch8_3.rpy:131
 
 ## WARNING (320)
 
@@ -84,6 +84,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:388: Increases defense of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:385: Increases speed of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:320: Info
+- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:46: It's enough that I'm safe inside the palace, to show that Tristain is 
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:293: Items
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:230: Left Trigger\nLeft Bumper
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:360: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
@@ -95,7 +96,6 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:282: No characters unlocked yet
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:596: Nobles who take classes like this every day have it rough. Though I mo
-- W1 stale old in tl/japanese at game/tl/japanese/ch8_3_dialogs.rpy:417: Oh, Louise… This is Illusion. It's magic that creates tangible illusio
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1308: Oh, well. It’s not like I expect you to go home just because I tell yo
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:209: Open accessibility menu.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:363: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia
@@ -225,6 +225,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:393: Increases defense of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:384: Increases speed of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:320: Info
+- W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:46: It's enough that I'm safe inside the palace, to show that Tristain is 
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:293: Items
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:221: Left Trigger\nLeft Bumper
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:361: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
@@ -236,7 +237,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:14: My name is Louise Françoise Le\u00A0Blanc\u00A0de\u00A0La\u00A0Vallièr
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:282: No characters unlocked yet
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:591: Nobles who take classes like this every day have it rough. Though I mo
-- W1 stale old in tl/russian at game/tl/russian/ch8_3_dialogs.rpy:415: Oh, Louise… This is Illusion. It's magic that creates tangible illusio
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1313: Oh, well. It’s not like I expect you to go home just because I tell yo
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:200: Open accessibility menu.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:364: Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecia

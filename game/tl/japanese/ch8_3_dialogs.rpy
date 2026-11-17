@@ -43,7 +43,7 @@ translate japanese strings:
     old "But the palace is under attack right now. You don't have to force your way back… {#ch8_s_086}"
     new "でも、今攻められてる最中の王宮に、 / 無理して戻らなくても……。"
 
-    old "It's enough that I'm safe inside the palace, so the Tristain can be reassured that I'm alive. {#ch8_h_063}"
+    old "It's enough that I'm safe inside the palace, to show that Tristain is still standing. {#ch8_h_063}"
     new "わたくしが王宮内に無事でいることで、 / トリステインが健在であることを / 示せるだけでよいのです。"
 
     old "Besides, I have something on my mind. {#ch8_h_064}"

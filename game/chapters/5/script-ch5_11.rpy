@@ -504,7 +504,7 @@ label ch5_11_date_kirche_1117:
     s "No.{#ch5_11_v8708}"
     voice "ch5.11_k_011"
     k "…Darling.{#ch5_11_v2813}"
-    th "I should not have refused here, should I?{#ch5_11_th_007}"
+    th "I should not have refused here, should I?{#ch5_11_th_010}"
     voice "ch5.11_k_012"
     k "All right. I will forgive you today.{#ch5_11_v2814}"
     jump ch5_11_date_kirche_1118

@@ -260,7 +260,7 @@ label ch8_2:
     # JA[899]: 虚無の魔法の使用許可ですね。
     # ルイズ：はい。虚無の魔法をトリスタニアで使用する許可です。  [voice 7432]
     voice "ch8_l_026"
-    l "Yes. Permission to use Void Magic in Tristain. {#ch8_l_026}"
+    l "Yes. Permission to use Void Magic in Tristania. {#ch8_l_026}"
     # JA[7432]: はい。虚無の魔法をトリスタニアで使用する許可です。
     # [SPRITE lay8 hide]
     $ show_sprites(("l 1",))
@@ -377,7 +377,7 @@ label ch8_2:
     # JA[7445]: 姫さまには、お城に戻って軍への指示をお願いします。
     # アンリエッタ：分かりました。ルイズ、トリスタニアでの虚無の魔法の使用を許可します。  [voice 901]
     voice "ch8_h_050"
-    h "Understood. Louise, I grant permission to use Void Magic in Tristain. {#ch8_h_050}"
+    h "Understood. Louise, I grant permission to use Void Magic in Tristania. {#ch8_h_050}"
     # JA[901]: 分かりました。ルイズ、トリスタニアでの虚無の魔法の使用を許可します。
     # [SPRITE lay1 image=+304 level=160 dir=1A → l 1]
     $ show_sprites(("l 1", "h 2"))
@@ -591,7 +591,7 @@ label ch8_2:
     # JA[904]: ルイズ、城に向かうのですね。
     # ルイズ：はい。姫さまは今しばらくここでお待ちください。このトリスタニアに平和を取り戻してきます。  [voice 7453]
     voice "ch8_l_047"
-    l "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
+    l "Yes. Princess, please wait here a while. I will restore peace to this Tristania. {#ch8_l_047}"
     # JA[7453]: はい。姫さまは今しばらくここでお待ちください。このトリスタニアに平和を取り戻してきます。
     # アンリエッタ：心強いですね、ルイズ。でも、あなた達だけに戦わせるわけにはまいりません。  [voice 905]
     voice "ch8_h_054"

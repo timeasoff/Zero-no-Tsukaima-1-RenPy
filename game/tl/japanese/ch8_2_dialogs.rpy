@@ -81,7 +81,7 @@ translate japanese strings:
     old "Permission to use Void Magic. {#ch8_h_048}"
     new "虚無の魔法の使用許可ですね。"
 
-    old "Yes. Permission to use Void Magic in Tristain. {#ch8_l_026}"
+    old "Yes. Permission to use Void Magic in Tristania. {#ch8_l_026}"
     new "はい。虚無の魔法をトリスタニアで使用する許可です。"
 
     old "Wait! What are you thinking?! {#ch8_s_067}"
@@ -141,7 +141,7 @@ translate japanese strings:
     old "Princess, please return to the castle and give orders to the army. {#ch8_l_039}"
     new "姫さまには、お城に戻って軍への指示をお願いします。"
 
-    old "Understood. Louise, I grant permission to use Void Magic in Tristain. {#ch8_h_050}"
+    old "Understood. Louise, I grant permission to use Void Magic in Tristania. {#ch8_h_050}"
     new "分かりました。ルイズ、トリスタニアでの虚無の魔法の使用を許可します。"
 
     old "Yes! {#ch8_l_040}"
@@ -225,7 +225,7 @@ translate japanese strings:
     old "Louise, you're heading to the castle. {#ch8_h_053}"
     new "ルイズ、城に向かうのですね。"
 
-    old "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
+    old "Yes. Princess, please wait here a while. I will restore peace to this Tristania. {#ch8_l_047}"
     new "はい。姫さまは今しばらくここでお待ちください。このトリスタニアに平和を取り戻してきます。"
 
     old "W-W-W-Well, Princess!? That's too reckless! {#ch8_l_048}"

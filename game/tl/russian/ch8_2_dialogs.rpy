@@ -81,8 +81,8 @@ translate russian strings:
     old "Permission to use Void Magic. {#ch8_h_048}"
     new "Разрешение на использование магии пустоты."
 
-    old "Yes. Permission to use Void Magic in Tristain. {#ch8_l_026}"
-    new "Да. Разрешение на использование магии пустоты в Тристейне."
+    old "Yes. Permission to use Void Magic in Tristania. {#ch8_l_026}"
+    new "Да. Разрешение на использование магии пустоты в Тристании."
 
     old "Wait! What are you thinking?! {#ch8_s_067}"
     new "Стой! Что ты вообще задумала?!"
@@ -141,8 +141,8 @@ translate russian strings:
     old "Princess, please return to the castle and give orders to the army. {#ch8_l_039}"
     new "Принцесса, пожалуйста, вернитесь в замок и отдайте приказ армии."
 
-    old "Understood. Louise, I grant permission to use Void Magic in Tristain. {#ch8_h_050}"
-    new "Поняла. Луиза, я разрешаю использовать магию пустоты в Тристейне."
+    old "Understood. Louise, I grant permission to use Void Magic in Tristania. {#ch8_h_050}"
+    new "Поняла. Луиза, я разрешаю использовать магию пустоты в Тристании."
 
     old "Yes! {#ch8_l_040}"
     new "Да!"
@@ -225,7 +225,7 @@ translate russian strings:
     old "Louise, you're heading to the castle. {#ch8_h_053}"
     new "Луиза, ты направляешься в замок."
 
-    old "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
+    old "Yes. Princess, please wait here a while. I will restore peace to this Tristania. {#ch8_l_047}"
     new "Да. Принцесса, подождите здесь некоторое время. Я верну мир этой Тристании."
 
     old "W-W-W-Well, Princess!? That's too reckless! {#ch8_l_048}"

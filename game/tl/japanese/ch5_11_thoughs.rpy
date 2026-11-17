@@ -28,6 +28,6 @@ translate japanese strings:
     old "……… …… …{#ch5_11_th_009}"
     new "……… …… …"
 
-    old "I should not have refused here, should I?{#ch5_11_th_007}"
+    old "I should not have refused here, should I?{#ch5_11_th_010}"
     new "ここは断っちゃいけなかったんだよな？"
 # ===== end ch5.11 =====

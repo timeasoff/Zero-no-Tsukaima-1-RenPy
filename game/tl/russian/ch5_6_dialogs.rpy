@@ -341,7 +341,7 @@ translate russian strings:
     new "А, Сайто…"
 
     old "By the way, Weatherby-san, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
-    new "Кстати, Уэзерби-сан, tы сказал, что раньше был благородным, но почему ты сейчас бродячий актер?"
+    new "Кстати, Уэзерби-сан, ты сказал, что раньше был благородным, но почему ты сейчас бродячий актер?"
 
     old "You know what, probing into a traveling actor's past is more than a little rude.{#ch5_6_v15875}"
     new "Знаешь, пытаться разузнать прошлое бродячего актёра — это более чем невежливо."
@@ -374,7 +374,7 @@ translate russian strings:
     new "Давай подумаем… равенство… семья… возлюбленный…"
 
     old "I wouldn't say it's wrong. But that's something only someone rich enough to be overflowing with wealth can say.{#ch5_6_v15881}"
-    new "Я не сказала бы, что это неверно. Но это то, что может сказать только человек, dостаточно богатый, чтобы быть переполненным богатством."
+    new "Я не сказала бы, что это неверно. Но это то, что может сказать только человек, достаточно богатый, чтобы быть переполненным богатством."
 
     old "Weatherby-san?{#ch5_6_v9981}"
     new "Уэзерби-сан?"
