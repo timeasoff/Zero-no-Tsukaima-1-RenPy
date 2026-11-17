@@ -4742,3 +4742,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (placeholder id(273)): в `references/image_id_map.csv` id 273 уже имеет `filename=ha_moon`; `dissolve_fx("id(273)")` заменён на `dissolve_fx("ha_moon")` — W6 закрыт.
 - проверки после записи: `check_project.py` → `RESULT: OK` (0 errors, 353 warnings, 26 info); `check_renpy_syntax.py --chapter 10` → OK; `check_typography.py --chapter 10_2 --lang ru` → OK; `check_placeholders.py` → OK; `check_assets.py` → OK; `audio_converter.py check` → RESULT: OK.
 - отчёт: `reports/ch10_2/1.md`, `reports/ch10_2/log.md`; план обновлён.
+
+
+## 2026-11-17 — Глава 11 (chapter_12 ハルナの決意): часть 1 ch11_1 (сцены 467–471)
+
+- статус: DONE
+- место: `game/chapters/11/script-ch11_1.rpy`, `game/chapters/11/script-ch11_2.rpy` (заглушка), `game/tl/{japanese,russian}/ch11_1_{dialogs,overlays}.rpy`, `references/voice_id_map.csv`, `game/audio/voices/ch11_*.ogg`, `reports/ch11/1.md`
+- что сделано: портированы сцены 467–471 (32 реплики / 32 voice) из `ps2_source/chapters/chapter_12_ハルナの決意.txt`; EN-база в сценарии, JA/RU в `tl/`; голоса ch11_si_001..012 (15120–15131), ch11_s_001..012 (13216–13227), ch11_l_001..008 (7160–7167); 32 .ogg конвертированы.
+- порт-решения: `jump ch11_2` из конца ch11_1 (сцены поиска 472+, переходы 【移動】 廊下/教室/中庭/食堂 свёрнуты в продолжение); title-card → overlay_screen("overlay", "Chapter Eleven: 'Haruna's Decision'{#ch11_title}") from _call_overlay_screen_18; `tndl(None)` в начале части; BGM +30 → t29.
+- решений/сомнений: переходы в 【移動】 (929/588/852/489) — TODO на уровне структуры порта (472+); спрайты в 467–471 показаны в комментариях по dir, sprite_id_map — PROVISIONAL.
+- проверки после записи: `check_project.py` → `RESULT: OK` (0 errors, 363 warnings, 26 info); `check_renpy_syntax.py --chapter 11` → OK; `check_typography.py --chapter 11_1 --lang ru` → OK (0 errors, после правки `...`→`…`); `check_placeholders.py` → OK; `check_assets.py` → OK (1 warning — 32 голоса не помечены в transcriptions_ja_ru.csv); `audio_converter.py check --only ch11` → OK.
+- отчёт: `reports/ch11/1.md`; `reports/translation_plan.md` обновлён (глава 11 ⚠️ — часть 1 ✅).

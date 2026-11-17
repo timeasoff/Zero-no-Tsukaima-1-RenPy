@@ -462,23 +462,29 @@ extra-блок 1063/1084–1103.
 
 ---
 
-## 📊 Глава 11 — `chapter_12` (ハルナの決意) ❌
+## 📊 Глава 11 — `chapter_12` (ハルナの決意) ⚠️
 
-**Статус:** ❌ Не начата.**
+**Статус:** ⚠️ Начата (часть 1 завершена).**
 
-- [ ] `chapters/11/` — папка пуста (`.gitkeep` только)
-- [ ] Источник: `ps2_source/chapters/chapter_12_ハルナの決義.txt` (87 сцен, 618 голосовых, 44 extra)
+- [x] `chapters/11/` — папка создана, `script-ch11_1.rpy` + заглушка `script-ch11_2.rpy`
+- [ ] Источник: `ps2_source/chapters/chapter_12_ハルナの決意.txt` (43 ядра + 44 extra, 550 голосовых)
 - [ ] Сцены: 467–509 (ядро)
-- [ ] Требуется создать **5-6 частей** (618 ÷ 115 ≈ 5.4)
+- [ ] Требуется создать **4 части** (550 ÷ 115 ≈ 4.8)
 - [ ] Вход: `jump ch11` из главы 10
-- [ ] Выход: `jump ch12`
-- [ ] Планируемые части:
-  - [ ] `ch11_1.rpy` — scenes 467–~478
-  - [ ] `ch11_2.rpy` — scenes ~478–~489
-  - [ ] `ch11_3.rpy` — scenes ~489–~500
-  - [ ] `ch11_4.rpy` — scenes ~500–~509
-  - [ ] Даты (44 extra scenes) — суб-части
-- [ ] Голоса: `ch11_*`
+- [ ] Выход: `jump attention` (последняя часть)
+- [x] `ch11_1.rpy` — scenes 467–471 (32 голоса, EN/RU, голоса, проверки — OK)
+  - [x] EN-база в сценарии (32 строки)
+  - [x] Голоса в `references/voice_id_map.csv` (ch11_si_001..012, ch11_s_001..012, ch11_l_001..008)
+  - [x] `.ogg` конвертированы (`audio_converter.py convert --apply`)
+  - [x] `tl/japanese/ch11_1_dialogs.rpy` + `ch11_1_overlays.rpy` (32 + 1 old/new)
+  - [x] `tl/russian/ch11_1_dialogs.rpy` + `ch11_1_overlays.rpy` (32 + 1 old/new, типографика OK)
+  - [x] Пройдены все `project-checks` — RESULT: OK (0 ошибок)
+  - [x] Отчёт: `reports/ch11/1.md`
+- [ ] `ch11_2.rpy` — scenes 472–~489 (заглушка создана)
+- [ ] `ch11_3.rpy` — scenes ~489–~500
+- [ ] `ch11_4.rpy` — scenes ~500–~509
+- [ ] Даты (44 extra scenes) — в `game/chapters/extra/`
+- [ ] Голоса: `ch11_*` (остаток)
 - [ ] Перевод EN/RU: в `tl/{japanese,russian}/`
 - [ ] Пройдены все `project-checks` — к завершении
 
