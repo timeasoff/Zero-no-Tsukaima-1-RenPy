@@ -5000,3 +5000,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `切り札` → «trump card»/«козырь»; `詠唱` → «chanting»/«чтение заклинания»; заглушки `id(K)`; `VIBRATE` → shake_fx.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 15` → OK; `check_typography.py --chapter 15_2 --lang ru/en` → OK; `audio_converter.py check` → OK (8866/8866); `omission_precheck --chapter 15_2` → 0 кандидатов.
 - отчёт: `reports/ch15/2.md`; план обновлён (часть 2 ✅).
+
+
+## 2026-11-18 — Глава 15 (chapter_16 魔法の薬): части 3–4 — ядро завершено
+
+- статус: DONE (порт + mechanically; аудиты частей 2–4 — отдельным проходом)
+- место: `game/chapters/15/script-ch15_{3,4}.rpy`, `game/chapters/16/script-ch16.rpy` (стаб), `game/tl/{japanese,russian}/ch15_{3,4}_*`, `references/voice_id_map.csv` (+87 +64), `reports/ch15/{3,4}.md`
+- PROVISIONAL: `アカグサの実` → «akagusa fruit»/«плод акагуса»; `年増` → «стареющая женщина»; заглушки `id(K)`; `VIBRATE` → shake_fx.
+- решение (E7): стаб `script-ch16.rpy` с `label ch16` для финального `jump ch16`.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 15` → OK; `check_typography.py --chapter 15_3/15_4 --lang ru/en` → OK; `audio_converter.py check` → OK (9017/9017); `omission_precheck --chapter 15_3/15_4` → 0 кандидатов.
+- отчёты: `reports/ch15/3.md`, `reports/ch15/4.md`; план обновлён (ядро 619–659 завершено).
