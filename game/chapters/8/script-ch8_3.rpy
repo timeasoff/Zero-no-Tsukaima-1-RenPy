@@ -303,7 +303,7 @@ label ch8_3:
     # [SPRITE   lay19    image=+940, level=160, dir=1A]  # デルフリンガー
     # デルフリンガー：王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。  [voice 1372]
     voice "ch8_d_001"
-    d "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
+    d "That's what a king is, you see — making people feel that as long as this person is here, everything will be fine is part of the job too. {#ch8_d_001}"
     # JA[1372]: デルフリンガー：王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。
     # [SPRITE   lay5     hide] [SPRITE   lay19    hide]
     # [SPRITE   lay8     image=+779, level=160, dir=1B]  # アンリエッタ

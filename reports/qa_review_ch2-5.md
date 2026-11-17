@@ -217,7 +217,7 @@
 | E6 | `ch5_4.rpy:159` | `聞いてるの！` — упрёк Сайто | «I'm listening, you know!» | CANDIDATE | Инверсия субъекта. PRESERVED. |
 | E7(RU) | `ch5_6.rpy:106/286` | `キュルケさん` | «Kirche-sama» | CANDIDATE | `-さん` → `-san`; PRESERVED (в гл. 1–4 эта форма не универсализирована). |
 | R14 | `ch5_6_dialogs.rpy:383` | speaking — Weatherby | RU «Я … говорил», «ты сказал… был» | CANDIDATE | Родовая несогласованность. PRESERVED. |
-| P3 | `ch5_8:35/167`, `ch5_10:42/80/127`, `ch5_11:353` | `image_id_map.csv` имеет filename | `id(90)` / `id(46)` (W6) | CANDIDATE | 5 реальных + 1 в комментарии (ложное срабатывание). Замена — `tools/replace_bg_placeholders.py --apply`; не делалась, чтобы не задевать WIP гл. 6. |
+| P3 | `ch5_8:35/167`, `ch5_10:42/80/127`, `ch5_11:353` | `image_id_map.csv` имеет filename | `id(90)` / `id(46)` (W6) | CANDIDATE | 5 реальных + 1 в комментарии (ложное срабатывание). Замена — `tools/replace_bg_placeholders.py --apply`; не делалась, чтобы не задевать соседние WIP-файлы (позже закрыто). |
 
 Повторные проверки: `check_project --chapter 5` → errors=0; `check_renpy_syntax --chapter 5` → OK;
 `check_typography ru` → OK; `omission_precheck 5_1/5_2/5_3/5_6/5_8/5_9/5_10/5_11` → 0 кандидатов;

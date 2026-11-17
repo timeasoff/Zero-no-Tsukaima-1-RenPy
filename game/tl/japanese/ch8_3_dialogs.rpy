@@ -148,7 +148,7 @@ translate japanese strings:
     old "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
     new "すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。"
 
-    old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
+    old "That's what a king is, you see — making people feel that as long as this person is here, everything will be fine is part of the job too. {#ch8_d_001}"
     new "王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。"
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"

@@ -145,8 +145,8 @@ translate russian strings:
     old "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
     new "Вау. Только вид Принцессы меняет настроение людей в замке."
 
-    old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
-    new "Быть королём — ерунда. Главное — чтобы рядом был кто-то, в кого можно верить."
+    old "That's what a king is, you see — making people feel that as long as this person is here, everything will be fine is part of the job too. {#ch8_d_001}"
+    new "Вот что значит быть королём, видишь ли: заставить людей думать, что если она рядом, всё будет хорошо, — тоже часть работы."
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
     new "Так точно! С утра у восточной батареи идут мелкие сражения."
