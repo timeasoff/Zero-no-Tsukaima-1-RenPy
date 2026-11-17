@@ -8,7 +8,7 @@
     new "Да, ушла."
 
     old "It was such a short time… / but it's lonely once she's gone.{#ch11_l_015}"
-    new "Мы знали её так недолго… / а теперь без неё так пусто."
+    new "Мы знали её так недолго… / а теперь без неё так одиноко."
 
     old "I wonder where she is by now? / She said she'd be based in Tristain for a while, didn't she?{#ch11_si_017}"
     new "Интересно, где она сейчас? / Она же говорила, что какое-то время будет в Тристании?"
@@ -17,10 +17,10 @@
     new "…"
 
     old "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
-    new "Ух, прямо затекли плечи. / Наверное, от всех этих сумрачных разговоров, мне не свойственных."
+    new "Ух, прямо затекли плечи. / Наверное, от всех этих мрачных разговоров, которые мне не к лицу."
 
     old "Hmph. What's with that attitude!{#ch11_l_016}"
-    new "Хм! Что за тон!"
+    new "Хм! Что за поведение!"
 
     old "In that case, I'll be taking a break for a while.{#ch11_k_009}"
     new "Так что я на время уйду отдыхать."
@@ -47,7 +47,7 @@
     new "…"
 
     old "Something's wrong, isn't it?{#ch11_s_044}"
-    new "Что-то здесь не так."
+    new "Что-то здесь не так, правда?"
 
     old "Neither of them is the type to act carelessly…{#ch11_s_045}"
     new "Ни одна из них не стала бы действовать опрометчиво…"
@@ -65,7 +65,7 @@
     new "…А? Что ты имеешь в виду?"
 
     old "D-Don't you ignore your master and talk among yourselves! You stupid dog!{#ch11_l_020}"
-    new "Г-Господина своего игнорируете, между прочим! Глупый пёс!"
+    new "Г-Госпожу игнорируете, разговариваете между собой! Глупый пёс!"
 
     old "After Haruna, now Kirche and Tabitha are gone too?{#ch11_s_048}"
     new "После Харуны теперь и Кирке с Табасой исчезли?"
@@ -95,7 +95,7 @@
     new "Поймёшь? Ч-Что это значит!"
 
     old "Now, now, that's Louise for you—simple and straightforward…{#ch11_k_012}"
-    new "Ну-ну, Луиза всегда была прямолинейна…"
+    new "Ну-ну, Луиза всегда была такой простой и прямолинейной…"
 
     old "That's why. See you, darling.{#ch11_k_013}"
     new "Вот поэтому. До встречи, дорогой."
@@ -107,19 +107,19 @@
     new "Л-Ладно! Мне больше нет дела!"
 
     old "It's barely been any time since we left the theater. / And yet it feels so nostalgic—am I imagining it?{#ch11_ha_033}"
-    new "Мы только что вышли из театра, а кажется, будто прошла вечность. / Или это только мне так кажется?"
+    new "Мы только что вышли из театра, а уже накатывает какая-то ностальгия… / Или это только мне так кажется?"
 
     old "…{#ch11_w_008}"
     new "…"
 
     old "You did well on the mission.{#ch11_w_009}"
-    new "Ты справилась с заданием."
+    new "Ты потрудилась на задании… спасибо."
 
     old "Eh? Mission? What do you mean?{#ch11_ha_034}"
     new "А? Задание? О чём вы?"
 
     old "I see. So Akina hasn't awakened yet.{#ch11_w_010}"
-    new "Понятно. Значит, Акина ещё не проснулась."
+    new "Понятно. Похоже, Акина ещё не проснулась."
 
     old "Akina? I'm Haruna, though.{#ch11_ha_035}"
     new "Акина? Но я Харуна."
@@ -140,7 +140,7 @@
     new "Ч-Что вы говорите! Это слишком неожиданно, даже для шутки!"
 
     old "Fufufu. Well, whether you believe it or not is of no consequence.{#ch11_w_013}"
-    new "Хи-хи-хи. Впрочем, поверишь ты или нет — неважно."
+    new "Фу-фу-фу. Впрочем, поверишь ты или нет — неважно."
 
     old "What matters is that our plan has advanced to the third stage thanks to your work.{#ch11_w_014}"
     new "Важно то, что наш план благодаря тебе дошёл до третьей стадии."
@@ -173,7 +173,7 @@
     new "Стой! Харуна!"
 
     old "Damn, that speed! Between that and the earlier resistance, Akina's power must be awakening!{#ch11_w_021}"
-    new "Чёрт, эта скорость! И это сопротивление… сила Акины просыпается!"
+    new "Чёрт, эта скорость! И это сопротивление… неужели сила Акины начинает просыпаться?"
 
     old "Tch, I won't let you get away!{#ch11_w_022}"
     new "Тьфу, я тебя не отпущу!"
@@ -224,7 +224,7 @@
     new "Н-Нет! Пожалуйста, прекратите!"
 
     old "Now, sleep. Rest your exhausted body.{#ch11_w_025}"
-    new "Ну же, спи. Отдохни своё уставшее тело."
+    new "Ну же, спи. Отдохни своё измученное тело."
 
     old "It's fine. When you wake, you'll be someone else. You'll even forget you were Haruna.{#ch11_w_026}"
     new "Всё хорошо. Когда ты проснёшься, ты станешь другой. Ты даже забудешь, что была Харуной."
@@ -245,7 +245,7 @@
     new "Как ни скажи, а всё равно… одиноко."
 
     old "Louise seems less energetic than usual, too.{#ch11_s_054}"
-    new "Луиза тоже какая-то невесёлая по сравнению с обычным."
+    new "Луиза тоже какая-то не в форме по сравнению с обычным."
 
     old "Ah, Saito-san! Just the person I wanted!{#ch11_si_019}"
     new "А, Сайто-сан! Как раз кстати!"

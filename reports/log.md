@@ -4782,3 +4782,17 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - проверки: `check_project.py` → `RESULT: OK` (0 errors); `check_renpy_syntax.py --chapter 11` → OK; `check_typography.py --chapter 11_3/11_4 --lang ru` → OK (149 + 76 строк); `check_placeholders.py --chapter 11` → OK (только `ID_UNNAMED`); `check_assets.py --chapter 11` → OK (1 warning — CSV-очередь); `audio_converter.py convert --apply` (191, ошибок 0) и `check` → `RESULT: OK`; `omission_precheck.py --chapter 11_3/11_4` → 0 кандидатов.
 - аудиты A/C и анализатор отложены на отдельный проход по образцу главы 8 (PROVISIONAL ≠ WAIT).
 - отчёты: `reports/ch11/3.md`, `reports/ch11/4.md`; `reports/translation_plan.md` обновлён (глава 11 — ядро завершено, выход `jump attention`).
+
+
+## 2026-11-17 — Глава 11: pipeline — EN-типографика и аудиты A/C + Analyzer
+
+- статус: DONE
+- место: `game/chapters/11/script-ch11_{1..4}.rpy`, `game/tl/{japanese,russian}/ch11_*.rpy`, `reports/sma/ch11/{3,4}/{a,c,analysis}/`, `reports/ch11/{3,4}.md`
+- решение (EN-типографика): `check_typography.py --lang en` требовал `…` вместо `...` (PROMTS.md п.5); заменено в 32 EN-строках ch11_2 + при генерации ch11_3/4; `old` в JA/RU TL синхронизирован. Инструмент `tools/fix_ch11_en_ellipsis.py`.
+- аудиты: A (7+4 находок), C (4+3), Analyzer Фаза 1 (5+3 кандидата), precheck 0. Все evidence на диске в `reports/sma/ch11/{3,4}/`.
+- решение (Фаза 2): 12+8 кандидатов CONFIRMED_ERROR → FIXED (правки только в RU `new`, `old` не тронут); 1 FALSE_POSITIVE → PRESERVED (`情けない` → «обидно» в ch11_s_086 — контекстное сожаление, смысл сохранён). Итоговые отчёты `reports/sma/ch11/{3,4}/analysis/20261117-221000-ch11-p*.md`.
+- решение (обращение): `ご主人様` в устах Луизы — «госпожа» по `dictionary.md` (строка 487); исправлено «Г-Господина» → «Г-Госпожу» (RGC-3/4).
+- решение (смех): `ふふふ` / `ふふ` → «Фу-фу-фу» / «Фу-фу»; «Хи-хи» относится к другому японскому смеху.
+- humanizer/стиль: убрано добавленное «между прочим», перестроены «сумрачные разговоры, которые мне не к лицу» и «К тому же, раз уж такой случай».
+- проверки после правок: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --lang ru/en --chapter 11` → OK; `check_renpy_syntax.py --chapter 11` → OK; `audio_converter.py check` → OK.
+- инструменты: `tools/apply_ch11_audit_fixes.py`, `tools/gen_ch11_phase2_reports.py`.

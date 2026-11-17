@@ -8,7 +8,7 @@
     new "Ну же, возьми себя в руки. В руки!"
 
     old "Why are you so angry all of a sudden? You've been pouting this whole time.{#ch11_s_098}"
-    new "С чего ты вдруг злишься? Ты вся надулась."
+    new "С чего ты давно злишься? Ты всё время дуешься."
 
     old "I'm not angry!{#ch11_l_037}"
     new "Я не злюсь!"
@@ -65,16 +65,16 @@
     new "Слушайте, Уэзерби-сан… С Харуной что-то не так?"
 
     old "Well?{#ch11_w_031}"
-    new "Ну?"
+    new "Ну, кто знает…"
 
     old "We met again right after such a moving farewell, so she must be embarrassed.{#ch11_w_032}"
-    new "Мы встретились сразу после такого трогательного прощания, так что она, наверное, смущается."
+    new "Мы встретились сразу после такого трогательного прощания, так что, уверена, она просто смущается."
 
     old "More than that, since we have a good opportunity, won't you tell me a little about yourself? I'm actually stuck for ideas for my next play.{#ch11_w_033}"
     new "Главное — раз уже такой случай, не расскажете ли вы мне немного о себе? Мне вообще-то не хватает идей для следующей пьесы."
 
     old "Last time, with the preparations for the performance, we hardly had a chance to talk personally.{#ch11_w_034}"
-    new "В прошлый раз из-за подготовки к спектаклю у нас почти не было возможности поговорить по-личному."
+    new "К тому же, раз уж такой случай, не расскажете ли вы мне немного о себе? Мне вообще-то не хватает идей для следующей пьесы."
 
     old "I heard from Haruna that you're a great swordsman, and that you have some mysterious power, don't you?{#ch11_w_035}"
     new "Харуна говорила, что ты превосходный фехтовальщик и обладаешь необычной силой, так?"
@@ -107,7 +107,7 @@
     new "Прошу не говорить вслух то, что вы сейчас узнали."
 
     old "When she presses me like that, my adult charm…{#ch11_s_110}"
-    new "Когда она так прижимает, моё взрослое обаяние…"
+    new "Так, когда она так прижимает, моё… э-э… взрослое обаяние…"
 
     old "I feel like I'm about to tell her everything I know…{#ch11_s_111}"
     new "Кажется, я сейчас расскажу ей всё, что знаю…"
@@ -116,10 +116,10 @@
     new "Да здравствуют кошачьи уши! Браво!"
 
     old "W-What are you thinking! Stupid dog!{#ch11_l_046}"
-    new "О чём ты думаешь! Глупый пёс!"
+    new "Ч-Что ты думаешь! Глупый пёс!"
 
     old "You don't have to be so formal, you know?{#ch11_w_037}"
-    new "Не обязательно быть такой строгой, правда?"
+    new "Не обязательно быть такой сухой, правда?"
 
     old "W-Wait a moment!{#ch11_l_047}"
     new "П-Подождите!"
@@ -149,7 +149,7 @@
     new "Всё те же глупцы."
 
     old "Fufu, did she notice?{#ch11_w_039}"
-    new "Хи-хи, она заметила?"
+    new "Фу-фу, интересно, заметила ли она?"
 
     old "Well, it's too late for all of that now. For those young ladies, at least.{#ch11_w_040}"
     new "Впрочем, для тех барышень уже всё равно поздно."
@@ -188,7 +188,7 @@
     new "Во-первых, встретить её прямо на улице — неестественно. Будто она знала, что мы придём."
 
     old "And then, prying into our business out of nowhere… It's strange.{#ch11_l_054}"
-    new "И вдобавок она стала нас выспрашивать… Это подозрительно."
+    new "И вдобавок она стала нас выспрашивать… Это странно."
 
     old "Now that I think about it, Haruna was acting strange too. The way she looked at me was like I was a stranger…{#ch11_s_118}"
     new "Теперь, когда я вспоминаю, и Харуна вела себя странно. Она смотрела на меня как на незнакомца…"
