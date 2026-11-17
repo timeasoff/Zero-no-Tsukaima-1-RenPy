@@ -34,7 +34,7 @@
     new "Хаа."
 
     old "Ugh, don't make that gloomy face! With that look you'll never get fired up when it counts!{#ch13_k_003}"
-    new "Ну же, не хмурься! С таким видом ты не соберёшься, когда припрёт!"
+    new "Ну же, не хмурься! С таким видом ты и вспыхнуть не сможешь, когда припрёт!"
 
     old "Kirche is too carefree.{#ch13_l_004}"
     new "Кирке слишком беззаботна."
@@ -118,13 +118,13 @@
     new "Конечно, ладно."
 
     old "F-Fine! If I win, you'll attend class standing on your head!{#ch13_l_015}"
-    new "Л-Ладно! Если я побежу, ты будешь посещать занятия стоя на голове!"
+    new "Л-Ладно! Если я победю, ты будешь посещать занятия стоя на голове!"
 
     old "Y-You're fine with that? You can still back out now, you know.{#ch13_l_016}"
     new "Т-Ты согласна? Ты ещё можешь отказаться, пока не поздно."
 
     old "Sure. In return, if I win…{#ch13_k_015}"
-    new "Конечно. А если я побежу…"
+    new "Конечно. А если я победю…"
 
     old "Let me see… How about you be my maid for a day?{#ch13_k_016}"
     new "Хм… Как насчёт — быть моей горничной день?"
@@ -154,7 +154,7 @@
     new "Ну, примерно… А-ха-ха-ха!"
 
     old "Hmph… Even as a familiar, nobody cares about me…{#ch13_s_014}"
-    new "Хм… Даже будучи фамильяром, меня никто не слушает…"
+    new "Хм… Даже будучи фамильяром, обо мне никто не заботится…"
 
     old "(Sulk, sulk…){#ch13_s_015}"
     new "Обида-обида…"
@@ -277,7 +277,7 @@
     new "Так что если уж ходить, то поиски ночью повышают шансы заметить его, не правда ли?"
 
     old "I see. Now that you mention it…{#ch13_s_034}"
-    new "Понятно. Теперь, когда ты сказала…"
+    new "Понятно. Теперь, когда ты сказала… и правда."
 
     old "You got the plan?{#ch13_k_029}"
     new "Понял план?"
@@ -325,7 +325,7 @@
     new "Потеря времени."
 
     old "(I see. Louise and the others didn't find anything today either…){#ch13_s_041}"
-    new "Ясно. Луиза и остальные сегодня ничего не нашли…"
+    new "Ясно. Похоже, Луиза и остальные сегодня ничего не нашли…"
 
     old "Y-You've all worked hard…{#ch13_s_042}"
     new "В-Вы все постарались…"
@@ -370,10 +370,10 @@
     new "Под этим прекрасным звёздным небом мужчина и женщина выходят. Догадаться, чем они займутся, не трудно, правда?"
 
     old "H-How shameless!{#ch13_l_032}"
-    new "Б-Бесстыдно!"
+    new "Фу, нечисто!"
 
     old "W-Wait, Louise! Don't worry—what you're imagining will never happen!{#ch13_s_048}"
-    new "П-Подожди, Луиза! Не волнуйся — того, что ты представила, не будет!"
+    new "П-Подожди, Луиза! Не волнуйся — того, что ты представила, абсолютно не будет!"
 
     old "I don't believe you!{#ch13_l_033}"
     new "Я тебе не верю!"

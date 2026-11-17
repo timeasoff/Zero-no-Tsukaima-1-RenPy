@@ -4877,3 +4877,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: заглушки `id(K)` для фонов/CG без `filename`; `VIBRATE` → `shake_fx(duration=0.8)`; мысли без скобок в RU (исправлено 2 строки по BRACKET_THOUGHT).
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 13` → OK; `check_typography.py --chapter 13_1 --lang ru/en` → OK; `audio_converter.py check` → OK; `omission_precheck --chapter 13_1` → 0 кандидатов.
 - отчёт: `reports/ch13/1.md`; план обновлён (глава 13 — часть 1).
+
+
+## 2026-11-17 — Глава 13: аудиты части 1 (549–563)
+
+- статус: DONE
+- место: `game/tl/russian/ch13_1_dialogs.rpy`, `reports/sma/ch13/1/{a,c,analysis}/`, `reports/ch13/1.md`
+- аудиты: A (2), C (3), Analyzer Фаза 1 (5), precheck 0; Фаза 2 — 8 CONFIRMED_ERROR → FIXED. Итог `reports/sma/ch13/1/analysis/20261117-233500-ch13-p1.md`.
+- решение (огненная метафора): 燃え上がる → «вспыхнуть» — образ огня связан с Кирке-магом огня и названием главы 炎の予感; «собраться» теряло образ.
+- решение (орфография): «побежу» → «победю» в двух репликах ( ch13_l_015, ch13_k_015 ).
+- решение (модальность): みたいだな → «Похоже»; 絶対 → «абсолютно»; 確かにそうだな → «и правда» — восстановлены оговорка, категоричность и явное согласие.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 13_1 --lang ru/en` → OK.
