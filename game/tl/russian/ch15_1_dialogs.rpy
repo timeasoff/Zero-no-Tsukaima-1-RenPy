@@ -58,7 +58,7 @@
     new "Э-Э, Кирке-сан?"
 
     old "Could you move just a little away from me?{#ch15_s_011}"
-    new "Можешь отодвинуться от меня хотя бы немного?"
+    new "Не могли бы вы отодвинуться от меня хотя бы немного?"
 
     old "Ehh! Why?{#ch15_k_010}"
     new "Эээ! Почему?"
@@ -121,7 +121,7 @@
     new "Ну же, ты и правда Кирке?"
 
     old "…It was a rough night.{#ch15_m_001}"
-    new "…Тяжёлая была ночь."
+    new "…Тяжёлая была ночь, да?"
 
     old "Honestly, why does this keep happening to me…{#ch15_s_021}"
     new "О-Оу!"
@@ -349,7 +349,7 @@
     new "Стоит ли мне простить ту обиду за боль в мышцах?"
 
     old "Wait a second, Louise! You're angry about the wrong thing!{#ch15_s_047}"
-    new "Подожди, Луиза! Ты злишься не на то!"
+    new "Подожди, Луиза! Ты злишься, кажется, не на то…"
 
     old "I don't care! I'm furious right now!{#ch15_l_023}"
     new "Мне всё равно! Я сейчас вне себя от злости!"
