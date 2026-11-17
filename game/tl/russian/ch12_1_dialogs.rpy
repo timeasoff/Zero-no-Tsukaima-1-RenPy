@@ -5,7 +5,7 @@
     new "Ч-Что? Луиза, ты сотворила заклинание!?"
 
     old "No! How rude! The explosion was outside!{#ch12_l_001}"
-    new "Нет! Как смело! Взрыв был снаружи!"
+    new "Нет! Как грубо! Взрыв был снаружи!"
 
     old "Bang, bang, bang!!!{#ch12_th_001}"
     new "Бах-бах-бах!!!"
@@ -26,7 +26,7 @@
     new "Л-Ладно! Идём к замку!"
 
     old "You answered a bit too slowly. You're worried about Haruna, aren't you?{#ch12_l_004}"
-    new "Ты ответил слишком медленно. Ты беспокоишься о Харуне, да?"
+    new "Ты ответил как-то вяло… Ты беспокоишься о Харуне, да?"
 
     old "W-What are you talking about! That's… never mind.{#ch12_s_003}"
     new "Ч-Что ты говоришь! Это… неважно."
@@ -41,7 +41,7 @@
     new "П-Прошу прощения…"
 
     old "Fine. You may go save Haruna. I'll allow it, specially.{#ch12_l_007}"
-    new "Ладно. Иди спасать Харуну. Особо разрешаю."
+    new "Ладно. Глупый пёс, иди спасать Харуну. Особо разрешаю."
 
     old "…{#ch12_s_005}"
     new "…"
@@ -110,7 +110,7 @@
     new "Кхм, кхм — снаряды у самого дворца!?"
 
     old "This is ridiculous! Why is the shelling reaching all the way here!? They couldn't possibly reach from outside the capital!{#ch12_l_016}"
-    new "Возмутительно! Как снаряды долетают сюда!? С городских стен они бы не достали!"
+    new "Возмутительно! Как снаряды долетают сюда!? Извне столицы они бы не достали!"
 
     old "Halt. This is the palace!{#ch12_soldier_001}"
     new "Стой. Здесь дворец!"
@@ -218,7 +218,7 @@
     new "Сейчас, начиная с пожара на центральном рынке, по всему городу взорваны здания и мосты…"
 
     old "Since then, continuous shelling of the palace has been confirmed from cannon sites hidden around the city.{#ch12_commander_006}"
-    new "После этого зафиксирован продолжающийся обстрел дворца из орудий, спрятанных в разных концах города."
+    new "После этого зафиксирован продолжающийся обстрел дворца из орудий, которые, по всей видимости, скрыты в разных концах города."
 
     old "Cannons inside the city? How could they…!{#ch12_h_008}"
     new "Орудия в городе? Как это возможно!?"

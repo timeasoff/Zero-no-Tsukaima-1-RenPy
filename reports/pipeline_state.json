@@ -623,10 +623,10 @@
         "title": "Синтаксис Ren'Py",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:08.084021",
+        "timestamp": "2026-11-17T22:45:57.657144",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_renpy_syntax.py --chapter 12",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_renpy_syntax.py --chapter 12",
           "stdout": "============================================================\nПроверка синтаксиса Ren'Py\n============================================================\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_renpy_syntax.md\n",
           "stderr": "",
           "returncode": 0
@@ -637,11 +637,11 @@
         "title": "Типографика RU",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:08.504815",
+        "timestamp": "2026-11-17T22:45:58.074644",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_typography.py --lang ru --chapter 12",
-          "stdout": "============================================================\nПроверка типографики (lang=ru, target=12)\n============================================================\n\nINFO:\n  RU: проверено 124 строк new, вне главы 12: 8853\n\nSTATS:\n  ru_strings_checked: 124\n  ru_strings_out_of_scope: 8853\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_ru_ch12.md\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_typography.py --lang ru --chapter 12",
+          "stdout": "============================================================\nПроверка типографики (lang=ru, target=12)\n============================================================\n\nINFO:\n  RU: проверено 249 строк new, вне главы 12: 8859\n\nSTATS:\n  ru_strings_checked: 249\n  ru_strings_out_of_scope: 8859\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_ru_ch12.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -651,11 +651,11 @@
         "title": "Типографика EN",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:08.761061",
+        "timestamp": "2026-11-17T22:45:58.339740",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_typography.py --lang en --chapter 12",
-          "stdout": "============================================================\nПроверка типографики (lang=en, target=12)\n============================================================\n\nSTATS:\n  en_strings_checked: 124\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_en_ch12.md\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_typography.py --lang en --chapter 12",
+          "stdout": "============================================================\nПроверка типографики (lang=en, target=12)\n============================================================\n\nSTATS:\n  en_strings_checked: 249\n\nOK — проблем не найдено.\n\nОтчёт: reports/check_typography_en_ch12.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -665,11 +665,11 @@
         "title": "Заглушки",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:08.870514",
+        "timestamp": "2026-11-17T22:45:58.456664",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_placeholders.py --chapter 12",
-          "stdout": "============================================================\nПроверка заглушек\n============================================================\n\nWARNING (18):\n  [WARNING] game/chapters/12/script-ch12_1.rpy:30: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:132: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:169: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:210: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:247: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:316: ID_UNNAMED — id(62) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:447: ID_UNNAMED — id(35) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:514: ID_UNNAMED — id(35) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:625: ID_UNNAMED — id(259) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:685: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:721: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:728: ID_UNNAMED — id(276) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:760: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:795: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:821: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:865: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:891: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:912: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n\nINFO (1):\n  image_id_map.csv: 165 ID без filename (ожидают заполнения)\n\nOK (с предупреждениями): 18 warning(s)\n\nОтчёт: reports/check_placeholders.md\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_placeholders.py --chapter 12",
+          "stdout": "============================================================\nПроверка заглушек\n============================================================\n\nWARNING (33):\n  [WARNING] game/chapters/12/script-ch12_1.rpy:30: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:132: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:169: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:210: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:247: ID_UNNAMED — id(41) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:316: ID_UNNAMED — id(62) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:447: ID_UNNAMED — id(35) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:514: ID_UNNAMED — id(35) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:625: ID_UNNAMED — id(259) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:685: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:721: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:728: ID_UNNAMED — id(276) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:760: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:795: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:821: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:865: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:891: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_1.rpy:912: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_2.rpy:15: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  [WARNING] game/chapters/12/script-ch12_2.rpy:97: ID_UNNAMED — id(50) — filename не заполнен в image_id_map.csv\n  ... и ещё 13 — см. отчёт\n\nINFO (1):\n  image_id_map.csv: 165 ID без filename (ожидают заполнения)\n\nOK (с предупреждениями): 33 warning(s)\n\nОтчёт: reports/check_placeholders.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -679,11 +679,11 @@
         "title": "Ассеты",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:09.366598",
+        "timestamp": "2026-11-17T22:45:58.967928",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_assets.py --chapter 12",
-          "stdout": "============================================================\nПроверка ассетов\n============================================================\n\nWARNING (1):\n  [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 115 использованных голосов не помечены в очереди CSV (первые 10: 13309, 13310, 13311, 13312, 13313, 13314, 13315, 13316, 13317, 13318)\n\nINFO (1):\n  В очереди transcriptions_ja_ru.csv: 10450 строк (помечено использованными: 3794); из проверенной выборки помечено: 0\n\nСтатистика:\n  chapter_12_images: 7\n  chapter_12_voices: 115\n  transcriptions_consumed_rows: 3794\n  transcriptions_queue_rows: 10450\n  voices_used_in_scope: 115\n  voices_used_row_consumed: 0\n  voices_used_row_still_in_queue: 115\n\nOK (с предупреждениями): 1 warning(s)\n\nОтчёт: reports/check_assets.md\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_assets.py --chapter 12",
+          "stdout": "============================================================\nПроверка ассетов\n============================================================\n\nWARNING (1):\n  [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 234 использованных голосов не помечены в очереди CSV (первые 10: 13309, 13310, 13311, 13312, 13313, 13314, 13315, 13316, 13317, 13318)\n\nINFO (1):\n  В очереди transcriptions_ja_ru.csv: 10450 строк (помечено использованными: 3794); из проверенной выборки помечено: 0\n\nСтатистика:\n  chapter_12_images: 14\n  chapter_12_voices: 234\n  transcriptions_consumed_rows: 3794\n  transcriptions_queue_rows: 10450\n  voices_used_in_scope: 234\n  voices_used_row_consumed: 0\n  voices_used_row_still_in_queue: 234\n\nOK (с предупреждениями): 1 warning(s)\n\nОтчёт: reports/check_assets.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -693,11 +693,11 @@
         "title": "Озвучка",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:09.780733",
+        "timestamp": "2026-11-17T22:45:59.582640",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_voice_transcriptions.py --chapter 12",
-          "stdout": "============================================================\nПроверка озвучки по transcriptions_ja_ru.csv\n============================================================\n\nWARNING (116):\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_001 (id=13309) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_001 (id=7221) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_innkeeper_001 (id=3953) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_innkeeper_002 (id=3954) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_002 (id=7222) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_003 (id=7223) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_002 (id=13310) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_004 (id=7224) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_003 (id=13311) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_005 (id=7225) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_006 (id=7226) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_004 (id=13312) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_007 (id=7227) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_006 (id=13313) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_008 (id=7228) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_007 (id=13314) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_009 (id=7229) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_008 (id=13315) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_010 (id=7230) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_011 (id=7231) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  ... и ещё 96 — см. отчёт\n\nINFO (1):\n  1290 id из манифеста есть в очереди CSV (строка не удалена/не помечена)\n\nСтатистика:\n  manifest_ids_row_consumed: 5216\n  manifest_ids_row_in_queue: 1290\n  manifest_pairs: 6509\n  transcriptions_consumed_rows: 4455\n  transcriptions_queue_rows: 9789\n  transcriptions_skipped_rows: 826\n  voices_used_in_scripts: 115\n  voices_used_row_consumed: 0\n  voices_used_row_still_in_queue: 115\n\nOK (с предупреждениями): 116 warning(s)\n\nОтчёт: reports/check_voice_transcriptions.md\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_voice_transcriptions.py --chapter 12",
+          "stdout": "============================================================\nПроверка озвучки по transcriptions_ja_ru.csv\n============================================================\n\nWARNING (235):\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_001 (id=13309) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_001 (id=7221) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_innkeeper_001 (id=3953) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_innkeeper_002 (id=3954) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_002 (id=7222) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_003 (id=7223) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_002 (id=13310) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_004 (id=7224) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_003 (id=13311) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_005 (id=7225) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_006 (id=7226) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_004 (id=13312) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_007 (id=7227) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_006 (id=13313) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_008 (id=7228) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_007 (id=13314) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_009 (id=7229) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_s_008 (id=13315) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_010 (id=7230) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  [WARNING] game/chapters/12/script-ch12_1.rpy: TRANSCRIPT_ROW_STILL_IN_QUEUE — Голос ch12_l_011 (id=7231) использован, но его строка всё ещё в transcriptions_ja_ru.csv — удалить/пометить\n  ... и ещё 215 — см. отчёт\n\nINFO (1):\n  1409 id из манифеста есть в очереди CSV (строка не удалена/не помечена)\n\nСтатистика:\n  manifest_ids_row_consumed: 5216\n  manifest_ids_row_in_queue: 1409\n  manifest_pairs: 6628\n  transcriptions_consumed_rows: 4455\n  transcriptions_queue_rows: 9789\n  transcriptions_skipped_rows: 826\n  voices_used_in_scripts: 234\n  voices_used_row_consumed: 0\n  voices_used_row_still_in_queue: 234\n\nOK (с предупреждениями): 235 warning(s)\n\nОтчёт: reports/check_voice_transcriptions.md\n",
           "stderr": "",
           "returncode": 0
         }
@@ -707,11 +707,11 @@
         "title": "Проверка проекта",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:09.994694",
+        "timestamp": "2026-11-17T22:45:59.802705",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/check_project.py --chapter 12",
-          "stdout": "labels=487 overlayK=17 strings=9053 voices=7663\nerrors=0 warnings=361 info=6\nreport: reports/check_project.md\nRESULT: OK\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/check_project.py --chapter 12",
+          "stdout": "labels=498 overlayK=17 strings=9184 voices=7782\nerrors=0 warnings=368 info=6\nreport: reports/check_project.md\nRESULT: OK\n",
           "stderr": "",
           "returncode": 0
         }
@@ -721,11 +721,11 @@
         "title": "Озвучка: сверка",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:13.311345",
+        "timestamp": "2026-11-17T22:46:03.087597",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/media/audio_converter.py check",
-          "stdout": "check: строк=7662 ogg=7662 pending=0 нет_аудио=0 нет_в_манифесте=0 предупреждений=8\nотчёт: reports/voice_check.md\nRESULT: OK\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/media/audio_converter.py check",
+          "stdout": "check: строк=7781 ogg=7781 pending=0 нет_аудио=0 нет_в_манифесте=0 предупреждений=8\nотчёт: reports/voice_check.md\nRESULT: OK\n",
           "stderr": "",
           "returncode": 0
         }
@@ -735,11 +735,11 @@
         "title": "Omission Pre-check",
         "status": "done",
         "message": "OK",
-        "timestamp": "2026-11-17T22:28:29.181881",
+        "timestamp": "2026-11-17T22:46:18.539242",
         "duration": null,
         "details": {
-          "cmd": "/usr/local/bin/python /workspace/tools/omission_precheck.py --chapter 12",
-          "stdout": "Evidence: reports/sma/ch12/chapter/precheck/20261117-222841-p0a1.md\nOK - кандидатов не найдено.\n",
+          "cmd": "/usr/local/bin/python3 /workspace/tools/omission_precheck.py --chapter 12",
+          "stdout": "Evidence: reports/sma/ch12/chapter/precheck/20261117-224630-p0a1.md\nOK - кандидатов не найдено.\n",
           "stderr": "",
           "returncode": 0
         }
@@ -836,20 +836,21 @@
         "name": "summary",
         "title": "Финальная сводка",
         "status": "done",
-        "message": "Выполнено 9/17 фаз, ошибок: 0",
+        "message": "Выполнено 10/17 фаз, ошибок: 0",
         "timestamp": null,
         "duration": null,
         "details": {
           "total": 17,
-          "done": 9,
+          "done": 10,
           "errors": 0
         }
       }
     },
-    "last_run": "2026-11-17T22:28:41.272496",
+    "last_run": "2026-11-17T22:46:30.981857",
     "file_hashes": {
       "/workspace/game/chapters/12/script-ch12_1.rpy": "f09e60cb1b4483f2f3c60b61de39f753",
-      "/workspace/game/chapters/12/script-ch12_2.rpy": "1758418d48632b18f57fdde7949ee027"
+      "/workspace/game/chapters/12/script-ch12_2.rpy": "1ec2e2b41e4c5a5a8a515c94403b4fc8",
+      "/workspace/game/chapters/12/script-ch12_3.rpy": "6617811831cb69b34af410a88df8239c"
     }
   }
 }

@@ -9,7 +9,7 @@ import re
 
 T = {
     0: ("W-What? Louise, did you cast a spell!?", "Ч-Что? Луиза, ты сотворила заклинание!?"),
-    1: ("No! How rude! The explosion was outside!", "Нет! Как смело! Взрыв был снаружи!"),
+    1: ("No! How rude! The explosion was outside!", "Нет! Как грубо! Взрыв был снаружи!"),
     2: ("Bang, bang, bang!!!", "Бах-бах-бах!!!"),
     3: ("C-Customers! It's war! The war has started!",
         "Г-Господа постояльцы! Война! Война началась!"),
@@ -21,7 +21,7 @@ T = {
         "К-Короче, сидеть в гостинице бесполезно. Идём в замок!"),
     7: ("O-Okay! Let's head for the castle!", "Л-Ладно! Идём к замку!"),
     8: ("You answered a bit too slowly. You're worried about Haruna, aren't you?",
-        "Ты ответил слишком медленно. Ты беспокоишься о Харуне, да?"),
+        "Ты ответил как-то вяло… Ты беспокоишься о Харуне, да?"),
     9: ("W-What are you talking about! That's... never mind.",
         "Ч-Что ты говоришь! Это… неважно."),
     10: ("Hmph, don't lie to me! You hesitated before answering.",
@@ -30,7 +30,7 @@ T = {
           "Солжёшь госпоже — и будешь наказан!"),
     12: ("S-Sorry about that...", "П-Прошу прощения…"),
     13: ("Fine. You may go save Haruna. I'll allow it, specially.",
-         "Ладно. Иди спасать Харуну. Особо разрешаю."),
+         "Ладно. Глупый пёс, иди спасать Харуну. Особо разрешаю."),
     14: ("...", "…"),
     15: ("I understand. I owe you one.", "Понял. Я в долгу."),
     16: ("Don't act cool just because you're a stupid dog!",
@@ -66,7 +66,7 @@ T = {
          "Кхм, кхм — снаряды у самого дворца!?"),
     36: ("This is ridiculous! Why is the shelling reaching all the way here!? "
          "They couldn't possibly reach from outside the capital!",
-         "Возмутительно! Как снаряды долетают сюда!? С городских стен они бы не достали!"),
+         "Возмутительно! Как снаряды долетают сюда!? Извне столицы они бы не достали!"),
     37: ("Halt. This is the palace!", "Стой. Здесь дворец!"),
     38: ("It's an emergency. I need to see the Queen immediately...",
          "Это чрезвычайная ситуация. Немедленно доложите Её Величеству…"),
@@ -132,7 +132,7 @@ T = {
     72: ("Since then, continuous shelling of the palace has been confirmed from cannon "
          "sites hidden around the city.",
          "После этого зафиксирован продолжающийся обстрел дворца из орудий, "
-         "спрятанных в разных концах города."),
+         "которые, по всей видимости, скрыты в разных концах города."),
     73: ("Cannons inside the city? How could they...!",
          "Орудия в городе? Как это возможно!?"),
     74: ("We questioned a captured soldier. They used the recent bombings to...",

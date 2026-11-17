@@ -4811,3 +4811,15 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - канон сверен: レコン・キスタ → Reconquista/Реконкиста, ラ・ヴァリエール → La Vallière/Ла Вальер, 使い魔 → familiar/фамильяр, ご主人様 → mistress/госпожа (`dictionary.md`).
 - проверки: `check_project.py` → RESULT: OK; `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_1 --lang ru/en` → OK (124+124); `check_placeholders.py` → OK (только ID_UNNAMED); `audio_converter.py check` → OK; `omission_precheck --chapter 12_1` → 0 кандидатов; pipeline mechanically 9/9, 0 ошибок.
 - отчёт: `reports/ch12/1.md`; `reports/translation_plan.md` обновлён (глава 11 → `jump ch12`, глава 12 — часть 1).
+
+
+## 2026-11-17 — Глава 12 (chapter_13): аудиты части 1 и порт части 2 (525–534)
+
+- статус: DONE
+- место: `game/chapters/12/script-ch12_{1,2,3}.rpy`, `game/tl/{japanese,russian}/ch12_2_*`, `references/voice_id_map.csv` (+119), `reports/ch12/{1,2}.md`, `reports/sma/ch12/1/{a,c,analysis}/`
+- аудиты части 1: A (4 находки), C (1), Analyzer Фаза 1 (1), precheck 0; Фаза 2 — 5 CONFIRMED_ERROR → FIXED (только RU `new`): `失礼ね` → «Как грубо», `生返事` → «вяло», восстановлено `バカ犬` → «глупый пёс», `都の外` → «извне столицы», `と思われる` → «по всей видимости». Итог `reports/sma/ch12/1/analysis/20261117-223500-ch12-p1.md`; правки продублированы в `tools/gen_ch12_1.py`.
+- решение (нумерация голосов части 2): сквозная нумерация продолжена после части 1 (`ak` 011–048, `s` 031–064, `l` 033–067, `ha` 009–019); при первом прогоне был офсет-баг (дубли имён) — исправлено, манифест пересобран, дублей нет.
+- PROVISIONAL: `ゼロ戦` → «Zero Fighter» / «Зеро-файтер» (нет словарной записи); заглушки `id(K)` для фонов/CG без `filename`; `VIBRATE` → `shake_fx(duration=0.8)`.
+- решение (E7): создан стаб `game/chapters/12/script-ch12_3.rpy` с `label ch12_3` для форвард-джампов из части 2.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_1/12_2 --lang ru/en` → OK; `check_placeholders.py` → OK (ID_UNNAMED); `audio_converter.py check` → OK (7781/7781); `omission_precheck --chapter 12_2` → 0 кандидатов; pipeline mechanically 0 ошибок.
+- отчёты: `reports/ch12/1.md` (добавлен раздел аудитов), `reports/ch12/2.md`; план обновлён (части 1–2).
