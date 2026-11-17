@@ -5039,3 +5039,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - нет аудио: `[voice 4227]` (味方Ａ, сцена 675) — строка voice пропущена, реплика сохранена; pre-check FALSE_POSITIVE.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 17` → OK; `check_typography.py --chapter 17_1 --lang ru/en` → OK; `audio_converter.py check` → OK (9267/9267).
 - отчёт: `reports/ch17/1.md`; план обновлён (часть 1 ✅).
+
+
+## 2026-11-18 — Глава 17: часть 2 (684–695) и аудиты ч.1 — глава завершена
+
+- статус: DONE
+- аудиты ч.1: A (5), C (2), Analyzer Ф1 (14), precheck 1 FALSE_POSITIVE (voice 4227); Фаза 2 — 8 CONFIRMED_ERROR → FIXED.
+- глава 17 (`chapter_18_女王の決断`) завершена: ядро 670–695, 203 голоса, 2 части, EN-база, JA/RU `tl`, `.ogg`, отчёты `reports/ch17/{1,2}.md`.
+- решение: `現在の位置から…二日と少々` → «судя по текущему положению… чуть больше двух дней» (инверсия исправлена); вокатив `女王陛下` → «Ваше Величество»; `敵前逃亡` → «дезертирство перед врагом».
+- PROVISIONAL: `ガンダールヴ` → Gandálfr/Gандальв; `ゼロ戦` → Zero Fighter/Зеро-файтер; voice 4227 без аудио (реплика сохранена без строки voice).
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 17` → OK; `check_typography.py --chapter 17 --lang ru/en` → OK; `audio_converter.py check` → OK (9342/9342).

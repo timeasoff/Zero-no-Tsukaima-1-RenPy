@@ -19,7 +19,7 @@
     new "Ну… Я хотел сказать…"
 
     old "Stop clinging to Saito in the confusion!{#ch17_l_002}"
-    new "Хватит прижиматься к Сайто в такой момент!"
+    new "Хватит пользоваться суматохой и прижиматься к Сайто!"
 
     old "(So that's how things stand. Oh well.){#ch17_s_005}"
     new "Вот как всё обернулось. Ну что ж."
@@ -103,7 +103,7 @@
     new "Дорогой?"
 
     old "Desertion under fire.{#ch17_t_003}"
-    new "Дезертирство."
+    new "Дезертирство перед врагом."
 
     old "(Phew… I wasn't actually called by Colbert-sen…){#ch17_s_015}"
     new "Фух… На самом деле Кольбер-сэн меня не звал…"
@@ -160,7 +160,7 @@
     new "Сначала он, кажется, интересовался мной как преподаватель Луизы…"
 
     old "(Ever since we shared the goal of flying the Zero Fighter, he's become my teacher too…){#ch17_s_025}"
-    new "С тех пор как у нас появилась общая цель — летать на Zero Fighter, он стал и моим наставником…"
+    new "С тех пор как у нас появилась общая цель — летать на Zero Fighter, он, кажется, стал и моим наставником…"
 
     old "Saito. I thought you'd be here.{#ch17_m_001}"
     new "Сайто. Я так и думала, что ты здесь."
@@ -199,10 +199,10 @@
     new "Какое-то плохое предчувствие…"
 
     old "Her Majesty—Louise Francoise, third daughter of the La Valliere family, and her familiar have arrived.{#ch17_soldier_001}"
-    new "Её Величество — Луиза Франсуаза, третья дочь дома Ла Вальер, и её фамильяр прибыли."
+    new "Ваше Величество, Луиза Франсуаза, третья дочь дома Ла Вальер, и её фамильяр прибыли."
 
     old "Your Majesty… Fair morning to you.{#ch17_l_014}"
-    new "Ваше Величество… Доброе утро."
+    new "Ваше Величество, моё почтение."
 
     old "Ah, you finally came! Come in, Louise. You too, familiar.{#ch17_h_001}"
     new "Ах, вы наконец! Входи, Луиза. И ты, фамильяр."
@@ -265,7 +265,7 @@
     new "С-Сайто! Немедленно извинись!"
 
     old "No way.{#ch17_s_034}"
-    new "Ни за что."
+    new "Не хочу."
 
     old "You…{#ch17_commander_007}"
     new "Ты…"
@@ -349,7 +349,7 @@
     new "Совсем неправ!"
 
     old "Most likely, taking this chance, an agent has infiltrated disguised as a craftsman…{#ch17_h_015}"
-    new "Скорее всего, воспользовавшись случаем, агент проник под видом ремесленника…"
+    new "Возможно, воспользовавшись случаем, агент проник под видом ремесленника…"
 
     old "Nonsense! Impossible!{#ch17_commander_010}"
     new "Ерунда! Невозможно!"
@@ -400,7 +400,7 @@
     new "Что!? Неужели они забыли поражение на днях!"
 
     old "At current speed, the fleet will enter Tristain's airspace in a little under two days.{#ch17_soldier_007}"
-    new "При текущей скорости флот войдёт в воздушное пространство Тристании чуть меньше чем через два дня."
+    new "Судя по текущему положению, флот войдёт в воздушное пространство Тристании чуть больше чем через два дня."
 
     old "All available units—recover the cannons immediately! Mages, don't lose sight of the fleet!{#ch17_h_021}"
     new "Все доступные части — немедленно отбить орудия! Магам не терять флот из виду!"
