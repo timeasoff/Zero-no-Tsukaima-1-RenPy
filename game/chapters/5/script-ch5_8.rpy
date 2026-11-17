@@ -32,7 +32,7 @@ label ch5_8_r2_kirche:
 
 label ch5_8_kirche_play:
     # ==== SCENE 1144 continuation ====
-    $ fade_fx("id(90)")
+    $ fade_fx("sky_night")
     th "……… …… …{#ch5.8_th_001}"
     th "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.8_th_002}"
     $ fade_fx("id(145)", type="cg")
@@ -164,7 +164,7 @@ label ch5_8_r3_tabitha:
 
 label ch5_8_tabitha_play:
     # ==== SCENE 1149 continuation ====
-    $ fade_fx("id(90)")
+    $ fade_fx("sky_night")
     th "……… …… …{#ch5.8_th_006}"
     th "And then the curtain rose. The play proceeded without a hitch, and swept toward its climax.{#ch5.8_th_007}"
     $ fade_fx("id(144)", type="cg")

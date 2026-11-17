@@ -163,7 +163,7 @@ label ch5_6:
                     # [lay6 +695 → k 2 shy]
                     $ show_sprites(("k 2 shy", "s 1"))
                     voice "ch5.6_k_005"
-                    k "Oh? Did you worry about me?{#ch5_6_v3003}"
+                    k "Oh? You were worried about me.{#ch5_6_v3003}"
                     # JA[3003]: あら？ / 心配してくれたんだ。
                     # [lay5 +394 → s 1 angry]
                     $ show_sprites(("k 2 shy", "s 1 angry"))

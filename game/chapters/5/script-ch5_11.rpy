@@ -350,7 +350,7 @@ label ch5_11_date_henrietta_1133:
     s "Understood.{#ch5_11_v8742}"
     $ show_sprites(())
     th "……… …… …{#ch5_11_th_009}"
-    $ fade_fx("id(90)")
+    $ fade_fx("sky_night")
     voice "ch5.11_h_015"
     h "I am returning to the castle, to the stage of politics, diplomacy, and war…{#ch5_11_v362}"
     voice "ch5.11_h_016"

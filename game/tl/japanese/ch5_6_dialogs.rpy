@@ -31,7 +31,7 @@ translate japanese strings:
     old "I was worried about Kirche.{#ch5_6_v9935}"
     new "キュルケのこと、心配したんだぞ。"
 
-    old "Oh? Did you worry about me?{#ch5_6_v3003}"
+    old "Oh? You were worried about me.{#ch5_6_v3003}"
     new "あら？\\n心配してくれたんだ。"
 
     old "Of course!{#ch5_6_v9936}"

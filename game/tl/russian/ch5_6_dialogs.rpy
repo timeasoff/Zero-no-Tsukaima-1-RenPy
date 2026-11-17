@@ -31,8 +31,8 @@ translate russian strings:
     old "I was worried about Kirche.{#ch5_6_v9935}"
     new "Я переживал за Кирхе."
 
-    old "Oh? Did you worry about me?{#ch5_6_v3003}"
-    new "О?  Ты беспокоился обо мне?"
+    old "Oh? You were worried about me.{#ch5_6_v3003}"
+    new "О? Ты переживал за меня."
 
     old "Of course!{#ch5_6_v9936}"
     new "Конечно!"
@@ -182,7 +182,7 @@ translate russian strings:
     new "Что твоё фирменное блюдо?"
 
     old "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
-    new "М-м, думаю, варёная капуста — это предел на сейчас. Жареная еда и хлеб — mene ещё много практиковаться."
+    new "М-м, думаю, варёная капуста — это предел на сейчас. Жареная еда и хлеб — мне ещё много практиковаться."
 
     old "Miss Montmorency has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
     new "У мадемуазель Монморанси есть талант, так что думаю, тебе не хватает совсем чуть-чуть."
@@ -284,7 +284,7 @@ translate russian strings:
     new "……."
 
     old "Hey, Tabitha, your familiar..., what was its name again.{#ch5_6_v9969}"
-    new "Послушай, Табита, твой фамильяр…, как его звали again."
+    new "Послушай, Табита, твой фамильяр…, как его звали, опять?"
 
     old "Sylphid.{#ch5_6_v15464}"
     new "Сильфида."

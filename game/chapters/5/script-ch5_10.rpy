@@ -39,7 +39,7 @@ label ch5_10:
     ha "Y-yes! Thank you, everyone.{#ch5_10_v2381}"
     stop music fadeout 1.0
     $ show_sprites(())
-    $ fade_fx("id(90)", new_music="t19")
+    $ fade_fx("sky_night", new_music="t19")
     voice "ch5.10_s_003"
     s "…Phew. I still feel like I have not come down from the excitement.{#ch5_10_v11704}"
     th "Who should I go see tonight…?{#ch5_10_th_001}"
@@ -77,7 +77,7 @@ label ch5_10_date_menu:
         jump ch5_11_date_haruna
 
 label ch5_10_date_louise:
-    $ fade_fx("id(46)", new_music="t21")
+    $ fade_fx("cafe_night", new_music="t21")
     $ show_sprites(("l 1", "s 1"))
     voice "ch5.10_l_002"
     l "Oh, Saito. You came at just the right time…{#ch5_10_v4732}"
@@ -124,7 +124,7 @@ label ch5_10_date_louise:
             jump ch5_11_date_louise_1107
 
 label ch5_10_date_siesta:
-    $ fade_fx("id(46)", new_music="t21")
+    $ fade_fx("cafe_night", new_music="t21")
     $ show_sprites(("si 1", "s 1"))
     voice "ch5.10_si_001"
     si "Oh, Saito-san. You came at just the right time…{#ch5_10_v14263}"
