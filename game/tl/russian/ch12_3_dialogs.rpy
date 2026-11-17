@@ -31,7 +31,7 @@
     new "У меня свои обстоятельства. Я не буду оправдываться."
 
     old "I used Haruna and you by my own will and for my own reasons.{#ch12_w_005}"
-    new "Я использовала Харуну и тебя по своей воле и по своим причинам."
+    new "Я использовала Харуну, тебя и остальных по своей воле и по своим причинам."
 
     old "If you want to stop us, then stop us with your own power!{#ch12_w_006}"
     new "Если хотите остановить нас — останавливайте своей силой!"
@@ -160,10 +160,10 @@
     new "Ну что ж, как Харуна? Впрочем, может, сейчас это Акина."
 
     old "This is confusing.{#ch12_s_087}"
-    new "Сбивчиво как-то."
+    new "Запутанно как-то."
 
     old "(Officially, Haruna became a palace maid. While acting as Akina's garden keeper, she resumed her maid training…){#ch12_s_088}"
-    new "Официально Харуна стала фрейлиной дворца. Исполняя обязанности садовницы при Акине, она возобновила обучение горничной…"
+    new "Официально Харуна стала горничной дворца. Исполняя обязанности садовницы при Акине, она возобновила обучение горничной…"
 
     old "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
     new "Говорят, она в основном занята тем, что бьёт дворцовые тарелки и вазы…"
@@ -184,7 +184,7 @@
     new "…"
 
     old "H-Hey, Saito.{#ch12_ak_055}"
-    new "З-Здравствуй, Сайто."
+    new "Й-Йо, Сайто."
 
     old "You're still wearing that stupid face, aren't you.{#ch12_ak_056}"
     new "Ты всё ещё с этой глупой рожей, да?"
@@ -244,7 +244,7 @@
     new "Предложение! Предложение!"
 
     old "In other words, I love you!{#ch12_ak_064}"
-    new "Иными словами — я тебя люблю!"
+    new "Иными словами — ты любишь меня!"
 
     old "…{#ch12_s_105}"
     new "…"
@@ -259,7 +259,7 @@
     new "Нет, дело не в этом. Акина по-прежнему слишком странная…"
 
     old "…Idiot! That's why Louise calls you a stupid dog.{#ch12_ak_065}"
-    new "…Тупой! Поэтому Луиза и зовёт тебя глупым пёсом."
+    new "…Непроницательный! Поэтому Луиза и зовёт тебя глупым пёсом."
 
     old "All right, listen…{#ch12_ak_066}"
     new "Ладно, слушай…"
@@ -289,7 +289,7 @@
     new "Н-Ну сейчас так уже не делают…"
 
     old "Haruna said she was a lady before, you know. Maybe she's for real?{#ch12_s_113}"
-    new "Харуна раньше говорила, что она из знатного рода. Может, это правда?"
+    new "Харуна раньше говорила, что она юная леди. Может, это правда?"
 
     old "(Something's been off since a while ago…){#ch12_s_114}"
     new "Что-то не так уже давно…"
@@ -391,7 +391,7 @@
     new "Н-Ну хватит уже-е!"
 
     old "Honestly, really!{#ch12_s_133}"
-    new "Ну всё, хватит!"
+    new "Ну и ну!"
 
     old "Hey, you two! Sitting next to us, talking about proposals and whatnot…{#ch12_l_077}"
     new "Эй, вы двое! Сидите рядом и говорите про женитьбу всякое…"
@@ -406,7 +406,7 @@
     new "Ч-Что!?"
 
     old "My my, it seems the battle of the sexes has only just begun.{#ch12_h_015}"
-    new "Ой-ой, кажется, битва полов только начинается."
+    new "Ой-ой, кажется, женская битва только начинается."
 
     old "Spare me…{#ch12_s_134}"
     new "Пощадите…"

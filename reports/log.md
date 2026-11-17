@@ -4854,3 +4854,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: заглушки `id(K)` для фонов/CG без `filename`; `VIBRATE` → `shake_fx(duration=0.8)` (PROVISIONAL).
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 12` → OK; `check_typography.py --chapter 12_4 --lang ru/en` → OK; `audio_converter.py check` → OK (7948/7948); `omission_precheck --chapter 12_4` → 0 кандидатов.
 - отчёты: `reports/ch12/4.md`; план обновлён (глава 12 ✅, ядро завершено).
+
+
+## 2026-11-17 — Глава 12: аудиты частей 3 и 4 — завершение pipeline главы
+
+- статус: DONE
+- место: `game/tl/russian/ch12_{3,4}_dialogs.rpy`, `reports/sma/ch12/{3,4}/{a,c,analysis}/`, `reports/ch12/{3,4}.md`
+- аудиты: A (4+3), C (0+2), Analyzer Фаза 1 (5+4), precheck части 4 — 0, части 3 — 1 FALSE_POSITIVE (voice 0 без аудио). Фаза 2: 9+9 CONFIRMED_ERROR → FIXED.
+- решение (семантика): `女の戦い` → «женская битва» (EN «battle of the sexes» не арбитр); `あなたがわたしにアイラブユー` — субъект Сайто → «ты любишь меня»; `手先` → «пешка»; `認められた` → «признала»; `大きな傷跡` → «большие шрамы»; `侍女` → «горничная»; `お嬢さん` → «юная леди».
+- решение (прагматика/модальность): `だからね` → «так и знай!» (самоутверждение, не требование); `はずでは……` → «кажется»; `とされ` → «как говорят»; `よ、よお` → «Й-Йо»; `まったく、もう！` → «Ну и ну!». Грамматика: «чь» → «чей» (RGC-3).
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_typography.py --chapter 12 --lang ru/en` → OK; `audio_converter.py check` → OK.
+- Итог: глава 12 (ядро 510–548) полностью портирована и закрыта аудитами A/C/Analyzer по всем 4 частям.

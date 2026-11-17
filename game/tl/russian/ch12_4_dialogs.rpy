@@ -7,13 +7,13 @@
     new "Пытавшиеся прорваться отряды подавляли один за другим, и они сдавались."
 
     old "(Thus the conspiracy played out in Tristain lowered its curtain at last, leaving deep scars…){#ch12_s_137}"
-    new "Так интрига, разыгравшаяся в Тристании, наконец опустила занавес, оставив глубокие шрамы…"
+    new "Так интрига, разыгравшаяся в Тристании, наконец опустила занавес, оставив большие шрамы…"
 
     old "(And we regained a temporary peace…){#ch12_s_138}"
     new "А мы на время вернули себе мирную жизнь…"
 
     old "(The hypnosis on Haruna would take long to undo, so for now the two personalities go on living side by side…){#ch12_s_139}"
-    new "Снять гипноз с Харуны обещали не скоро, и пока что две личности живут вместе…"
+    new "Как говорят, снять гипноз с Харуны займёт много времени, и пока что две личности живут вместе…"
 
     old "Me? At the palace?{#ch12_ha_031}"
     new "Меня — во дворец?"
@@ -40,7 +40,7 @@
     new "Н-Но, Ваше Высочество…"
 
     old "This Akina is… well, she was Weatherly's tool. Is that really all right with you?{#ch12_l_080}"
-    new "Эта Акина… ну, она была орудием Уэзерби. Вас это действительно устраивает?"
+    new "Эта Акина… ну, она была пешкой Уэзерби. Вас это действительно устраивает?"
 
     old "Miss Weatherly, you say. She was never found after that, I hear. Whether she's alive or dead is unknown.{#ch12_h_020}"
     new "Мисс Уэзерби, говорите? После того её так и не нашли, кажется. Жива она или мертва — неизвестно."
@@ -52,13 +52,13 @@
     new "Она говорила, что её, дворянку, внезапно лишили титула Тристанинское королевство."
 
     old "Weatherly-sama, whose extraordinary magical talent was recognized by Reconquista…{#ch12_ak_080}"
-    new "Уэзерби-саму, чь выдающийся талант к магии заметила Реконкиста…"
+    new "Уэзерби-саму, чь необычайную магическую силу признала Реконкиста…"
 
     old "…promised that in return for this operation's success, her noble rank would be restored.{#ch12_ak_081}"
     new "…пообещала, что в награду за успех операции ей вернут дворянский титул."
 
     old "Miss Weatherly didn't understand. That spell of hers, the one that beguiles the hearts of others, is forbidden in this country…{#ch12_h_021}"
-    new "Мисс Уэзерби не знала. Её заклинание, что смущает сердца других, в этой стране запрещено…"
+    new "Мисс Уэзерби не знала. Заклинание, что смущает чужие сердца, которым ты и сама пользовалась, в этой стране запрещено…"
 
     old "…and that very taboo was why her rank was taken from her.{#ch12_h_022}"
     new "…и именно за это её и лишили титула."
@@ -88,7 +88,7 @@
     new "Хм, подожди-ка. Харуна же…"
 
     old "(She's fine with manners, but she can't do housework at all, can she…){#ch12_s_142}"
-    new "С этикетом всё хорошо, но домашним хозяйством она совсем не умеет заниматься…"
+    new "С этикетом всё хорошо, но домашним хозяйством она, кажется, совсем не умеет заниматься…"
 
     old "But Haruna couldn't do any housework at all, could she?{#ch12_s_143}"
     new "Но Харуна же совсем не умела работать по дому, правда?"
@@ -112,7 +112,7 @@
     new "И всё же, даже под гипнозом — как Харуна вдруг стала первоклассной террористкой?"
 
     old "(Maybe, for all I know, she was into guns and weapons or something?){#ch12_s_147}"
-    new "Может, она, глядишь, увлекалась оружием или ещё чем?"
+    new "Может, она, глядишь, фанатка огнестрельного оружия?"
 
     old "Saito, that face means you're thinking something rude.{#ch12_ak_086}"
     new "Сайто, у тебя лицо такое, будто ты думаешь о чём-то грубом."
@@ -163,7 +163,7 @@
     new "…Что?"
 
     old "This stupid dog is my familiar for life, you know!{#ch12_l_084}"
-    new "Этот глупый пёс — мой фамильяр на всю жизнь, понятно!"
+    new "Этот глупый пёс — мой фамильяр на всю жизнь, так и знай!"
 
     old "W-What are you saying all of a sudden.{#ch12_s_155}"
     new "Ч-Что это ты вдруг сказала."
