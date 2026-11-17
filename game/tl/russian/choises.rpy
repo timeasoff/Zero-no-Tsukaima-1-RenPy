@@ -942,7 +942,7 @@ translate russian strings:
 
 translate russian strings:
     old "Go on a date with Henrietta"
-    new "Пойти на свидание с Анриеттой"
+    new "Пойти на свидание с Генриеттой"
 
 
 
