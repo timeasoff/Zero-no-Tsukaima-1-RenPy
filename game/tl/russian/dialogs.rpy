@@ -10966,7 +10966,7 @@ translate russian strings:
     new "Ну что ж, тогда, пожалуй, сяду рядом с Луизой?"
 
     old "Th-that's right!? Th-that's… that's perfectly fine, isn't it."
-    new "Т-то есть как!? Э-это… это же совершенно нормально, да."
+    new "Т-точно!? Т-так и есть… Э-это… это же совершенно нормально, да."
 
     old "Mm…"
     new "Мм…"

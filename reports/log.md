@@ -5019,3 +5019,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * ??? / DEFERRED: JA «Wind Break» → «敵全体を攻撃» (копипаста, JA не трогал); ветка `zero_tundele_count >= 4 → route 1` не реализована — задокументированный DEFERRED (`routes.md` §1.3).
 * Подтверждены tndl-шкала/хелперы, QA-гейты ch6_3/ch7_3, `renpy.call` в choice, сигнатуры `scene_fx`, 424 строки remark. Семантика (seed i%71, 35 строк) — 1 находка (выше). `check_project` errors=0/warnings=312.
 
+### 2026-11-17 — Перепроверка №27 (FX и семантика)
+
+* FX: 963 вызова в 61 файле — 0 неизвестных keyword, 0 невалидных `bg_position`, 0 дублей `effect`; правка `window_hide` (round 26) корректна, конфликтов нет; все `new_music` t3–t32 определены по правилу `{K-1}`. Runtime-ошибок нет.
+* Исправлено 1: RU `dialogs.rpy:10969` «Т-то есть как!?» → «Т-точно!? Т-так и есть…» (JA そっ、そうよぉ！？ — смущённое подтверждение, EN «Th-that's right!?»).
+* Коммиты rounds 25–26 и семантика (seed i%73, 35 строк) — 0 других находок. `check_project` errors=0/warnings=312.
+
