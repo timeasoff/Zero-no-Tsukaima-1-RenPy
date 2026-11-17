@@ -4954,3 +4954,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Registry: 5829 voice_id_map строк, 0 дублей `(name,id)`, 0 пустых имён; 38 define, все speaker-префиксы определены. `check_project` warnings 314→312.
 * Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
 
+### 2026-11-17 — Перепроверка №17 (последние правки и CSV)
+
+* Верификация 5 последних коммитов: 7 EN-правок — TL `old` обновлены в JA/RU, stale 0, RU `new` по смыслу, JA `new` дословен, RU-грамматика корректна.
+* **Регрессия моей CSV-очистки (round 16) устранена:** строки `0x3994–0x3999` — голоса `ch4.3_si_006..011` (id 14740–14745), ошибочно принятые за `ch5.6_*`; статус и переводы восстановлены из `git show 73751df:transcriptions_ja_ru.csv` с корректными именами. `check_voice_transcriptions --chapter 4`: 983/983, OK.
+* ??? без правки (`common.rpy` read-only/автоген): «Нажмите, чтобы передвинуть» вместо «Перетащите» (Drag, :675) и English «Ren'Py's Sponsors» в RU (:1055) — нужна регенерация владельцем файла.
+* Семантика (seed i%31, 37 строк + 15 UI): 0 новых ошибок.
+* Проверки: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; валидатор отступов 0.
+
