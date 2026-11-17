@@ -913,8 +913,8 @@ translate russian strings:
     new "Что за дела у Луизы? Почему-то мямлит и тянет."
 
 translate russian strings:
-    old "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
-    new "Сайто и Луиза доложили принцессе, что упустили бомбиста."
+    old "Louise and I reported to the princess that we had let the Bomb User escape.{#ch4.6_th_004}"
+    new "Мы с Луизой доложили принцессе, что упустили бомбиста."
 
 translate russian strings:
     old "Does this mean I'll be ogling Haruna in her maid outfit every day!?{#ch4.6_th_005}"

@@ -346,7 +346,7 @@ label ch4_6:
     # [BG +90 → sky_night]
     $ fade_fx("sky_night", new_music="t19")
     # [TRANS   trans("crossfade", 1000)] — переход выполняется fade_fx
-    th "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
+    th "Louise and I reported to the princess that we had let the Bomb User escape.{#ch4.6_th_004}"
     # JA: （俺とルイズは、爆弾使いを取り逃がしたことを / 　お姫さまに報告した）
     # [lay5 hide]
     # [BG hide]

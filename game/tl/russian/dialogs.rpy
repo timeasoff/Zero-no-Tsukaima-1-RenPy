@@ -10119,8 +10119,8 @@ translate russian strings:
     old "Still, watching you and Sylphid — I could tell you were having fun."
     new "Но, глядя на Табиту с Сильфидой, я всё же чувствовал — вам весело."
 
-    old "It's written on your face.{#ch3.9_s_032}"
-    new "Это видно по твоему лицу."
+    old "It's written on Tabitha's face.{#ch3.9_s_032}"
+    new "Это видно по лицу Табиты."
 
     old "…Liar."
     new "…Врёшь."

@@ -262,7 +262,7 @@ label date_tabitha_ch3_9:
         "I can't explain it — I just know.{#ch3_m1069b}":
             jump ch3_9_t_1071
 
-        "It's written on your face.{#ch3_m1069c}":
+        "It's written on Tabitha's face.{#ch3_m1069c}":
             jump ch3_9_t_1072
 
 label ch3_9_t_1070:
@@ -315,7 +315,7 @@ label ch3_9_t_1071:
 label ch3_9_t_1072:
     # ==== SCENE 1072 ==== (RESET: [BGM +9]/[EVENT_CG +236] = текущее состояние)
     voice "ch3.9_s_032"
-    s "It's written on your face.{#ch3.9_s_032}"
+    s "It's written on Tabitha's face.{#ch3.9_s_032}"
 
     # [EVENT_CG +237] — кроссфейд CG
     $ dissolve_fx("id(237)", type="cg")

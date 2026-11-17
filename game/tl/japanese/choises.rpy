@@ -716,7 +716,7 @@ translate japanese strings:
     old "I can't explain it — I just know.{#ch3_m1069b}"
     new "なんとなくだけど、分かるぜ"
 
-    old "It's written on your face.{#ch3_m1069c}"
+    old "It's written on Tabitha's face.{#ch3_m1069c}"
     new "タバサの顔を見れば分かるよ"
 
     old "Because you're an exhibitionist?{#ch3_m1074a}"

@@ -710,8 +710,8 @@ translate russian strings:
     old "I can't explain it — I just know.{#ch3_m1069b}"
     new "Не смогу объяснить — просто понимаю."
 
-    old "It's written on your face.{#ch3_m1069c}"
-    new "Это видно по твоему лицу."
+    old "It's written on Tabitha's face.{#ch3_m1069c}"
+    new "Это видно по лицу Табиты."
 
     old "Because you're an exhibitionist?{#ch3_m1074a}"
     new "Эксгибиционистка, что ли?"

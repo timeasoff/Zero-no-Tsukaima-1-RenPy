@@ -916,7 +916,7 @@ translate japanese strings:
     new "（なんだぁ、ルイズのやつ？　やけにモジモジしやがって）"
 
 translate japanese strings:
-    old "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
+    old "Louise and I reported to the princess that we had let the Bomb User escape.{#ch4.6_th_004}"
     new "（俺とルイズは、爆弾使いを取り逃がしたことを　お姫さまに報告した）"
 
 translate japanese strings:

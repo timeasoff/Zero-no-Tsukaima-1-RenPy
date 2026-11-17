@@ -10113,7 +10113,7 @@ translate japanese strings:
     old "Still, watching you and Sylphid — I could tell you were having fun."
     new "でも、タバサとシルフィードの様子を眺めてたら、楽しそうだなってのは伝わってきてたよ。"
 
-    old "It's written on your face.{#ch3.9_s_032}"
+    old "It's written on Tabitha's face.{#ch3.9_s_032}"
     new "タバサの顔を見れば分かるよ。"
 
     old "…Liar."
