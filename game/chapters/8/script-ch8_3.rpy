@@ -283,6 +283,8 @@ label ch8_3:
     play music t24 fadein 1.0
     # [SPRITE   lay15    image=+1114, level=160, dir=1A]  # 味方Ａ (ally A)
     # [SPRITE   lay17    image=+1114, level=160, dir=1A]  # 味方Ａ
+    # [BGM play=+5 → t4]
+    play music t4 fadein 1.0
     # 味方Ａ：陥下！ご無事で！  [voice 4278]
     voice "ch8_a_001"
     man_a "Your Majesty! Are you safe!? {#ch8_a_001}"
@@ -681,6 +683,8 @@ label ch8_3:
     voice "ch8_l_069"
     l "Illusion!! {#ch8_l_069}"
     # JA[7475]: ルイズ：イリュージョン！！
+    # [BGM play=+5 → t4]
+    play music t4 fadein 1.0
     # アンリエッタ：ああ……！  [voice 941]
     voice "ch8_h_089"
     h "Oh…! {#ch8_h_089}"

@@ -8570,7 +8570,7 @@ translate russian strings:
     new "Вовсе не смотрю с ненавистью…"
 
     old "Yeah… you're right, it does bug me."
-    new "Да… ты прав, мне тоже любопытно."
+    new "Да… ты прав, меня это тоже волнует."
 
     old "Mmm…"
     new "Ммм…"

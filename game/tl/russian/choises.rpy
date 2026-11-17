@@ -577,7 +577,7 @@ translate russian strings:
     new "Немного волнуюсь, наверное."
 
     old "Yeah, it does bug me.{#ch3_m153c}"
-    new "Да, правда любопытно."
+    new "Да, правда беспокоит."
 
     old "Hallway{#ch3.2.hallway}"
     new "Коридор"
@@ -1385,7 +1385,7 @@ translate russian strings:
 
 # ===== ch8.2 menu choices =====
     old "Stop with all force.{#ch8_c007}"
-    new "Полностью остановиться."
+    new "Остановить её изо всех сил."
 
     old "Affirm with all force.{#ch8_c008}"
     new "Полностью утверждать."
