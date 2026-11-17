@@ -4961,3 +4961,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - решение (E7): создан стаб `script-ch14_4.rpy` с точками входа 1489/1490/1491 из move-меню сцены 599.
 - проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_3 --lang ru/en` → OK; `audio_converter.py check` → OK (8548/8548); `omission_precheck --chapter 14_3` → 0 кандидатов.
 - отчёт: `reports/ch14/3.md`; план обновлён (часть 3 ✅).
+
+
+## 2026-11-18 — Глава 14: часть 4 (609–618) — ядро завершено
+
+- статус: DONE (порт + mechanically; аудиты частей 2–4 — отдельным проходом)
+- место: `game/chapters/14/script-ch14_4.rpy`, `game/tl/{japanese,russian}/ch14_4_*`, `game/chapters/15/script-ch15.rpy` (стаб), `references/voice_id_map.csv` (+73), `reports/ch14/4.md`
+- PROVISIONAL: `幼児退行` → «инфантильная регрессия»; `おねえちゃん` → «онээ-тян»; `ひざまくら` → «подушка на коленях»; точки входа 1489–1491 — заглушки.
+- решение (E7): стаб `script-ch15.rpy` с `label ch15`; в часть 4 добавлены точки входа 1489/1490/1491 из move-меню части 3.
+- проверки: `check_project.py` → RESULT: OK (0 errors); `check_renpy_syntax.py --chapter 14` → OK; `check_typography.py --chapter 14_4 --lang ru/en` → OK; `audio_converter.py check` → OK (8621/8621); `omission_precheck --chapter 14_4` → 0 кандидатов.
+- отчёт: `reports/ch14/4.md`; план обновлён (ядро 578–618 завершено).
