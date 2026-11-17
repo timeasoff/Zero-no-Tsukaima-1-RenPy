@@ -19,7 +19,7 @@
     new "Интересно, тот солдат доберётся обратно…"
 
     old "He will. Surely.{#ch18_l_062}"
-    new "Доберётся. Наверное."
+    new "Доберётся. Обязательно."
 
     old "Surely, huh… The cannons will get more active as time passes, won't they?{#ch18_s_085}"
     new "Наверное, да… Со временем орудия будут стрелять чаще, да?"
@@ -100,7 +100,7 @@
     new "Быстро? Почему? Что случилось в академии?"
 
     old "Haruna's gone wild.{#ch18_t_006}"
-    new "Харуна буйствует."
+    new "Харуна слегка буйствует."
 
     old "Haruna? No way!{#ch18_s_097}"
     new "Харуна? Не может быть!"
@@ -109,7 +109,7 @@
     new "Она же не умеет колдовать и даже с оружием обращается плохо!"
 
     old "Right! She's just a commoner, no matter how you look at her.{#ch18_l_075}"
-    new "Да! Как ни смотри, она просто жительница."
+    new "Да! Как ни смотри, она просто простолюдинка."
 
     old "T-That really is Haruna? Are you sure you're not mistaken?{#ch18_s_099}"
     new "Т-Это правда Харуна? Ты не ошиблась?"
@@ -136,7 +136,7 @@
     new "Понятно. В любом случае, идём быстрее."
 
     old "O-Okay.{#ch18_s_103}"
-    new "Т-Так точно."
+    new "О-Оу!"
 
     old "(We rode Tabitha's Sylphid to the academy. What on earth happened…?){#ch18_s_104}"
     new "Мы полетели на Сильфиде Табасы в академию. Что же случилось…?"
@@ -250,7 +250,7 @@
     new "А пока спит Харуна, этим телом двигаюсь я. Таков порядок."
 
     old "Quite ridiculous, isn't it.{#ch18_ak_007}"
-    new "Довольно смешно, правда?"
+    new "Просто смешно, правда?"
 
     old "Haruna has no idea what terrible things she does while she's asleep…{#ch18_ak_008}"
     new "Харуна даже не знает, что страшного она делает, пока спит…"
@@ -352,7 +352,7 @@
     new "Я не дам вам уйти отсюда. Если не послушаетесь…"
 
     old "Eek!{#ch18_l_091}"
-    new "Ай!"
+    new "Кя!"
 
     old "I've had bombs planted all over the academy. They can be detonated anytime on my signal.{#ch18_ak_021}"
     new "Я везде в академии заложила бомбы. Они могут взорваться в любой момент по моему сигналу."
