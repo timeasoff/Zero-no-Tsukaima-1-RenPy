@@ -1492,6 +1492,34 @@
         }
       ],
       "closed": "2026-11-18 14:24:36"
+    },
+    {
+      "id": "T20261118-143715-4612",
+      "created": "2026-11-18 14:37:15",
+      "request": "Промпт 08: JA→EN→RU TL-сверка гл.22 ч.5, гл.23-28, chapter_90/91 — old/new, дубли, типографика, MISMATCH_JA",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "TL consistency audit + JA fidelity",
+          "status": "done",
+          "created": "2026-11-18 14:37:15",
+          "started": null,
+          "finished": "2026-11-18 14:37:16",
+          "session": null,
+          "note": "5208 EN strings verified; 1 RU ellipsis fixed; MISMATCH_JA and candidates documented; no JA edits",
+          "evidence": [
+            "reports/en_ru_tl_consistency.md"
+          ],
+          "manual": "TL consistency audit + JA fidelity"
+        }
+      ],
+      "closed": "2026-11-18 14:37:16"
     }
   ]
 }
