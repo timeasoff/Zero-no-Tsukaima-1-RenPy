@@ -72,7 +72,7 @@ translate japanese strings:
     old "Why not!?{#ch23_s_013}"
     new "サイト：なんでさっ！？"
 
-    old "The bomber's attack got the Zero Fighter too… It looks like it was destroyed this morning.{#ch23_l_012}"
+    old "The bomber's attack made the Zero Fighter prey too… It looks like it was destroyed this morning.{#ch23_l_012}"
     new "ルイズ：爆弾使いの攻撃で、ゼロ戦も餌食に……。朝のうちに壊されちゃったみたいなの。"
 
     old "…Damn it!!{#ch23_s_014}"

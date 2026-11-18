@@ -231,7 +231,7 @@ translate russian strings:
     old "…Hey, Kirche. Why do you get so gloomy over Tabitha?{#ch25_l_019}"
     new "…Эй, Кирхе. Почему ты так мрачнеешь из-за Табиты?"
 
-    old "I-I'm not gloomy at all…{#ch25_k_012}"
+    old "I-I'm not gloomy or anything…{#ch25_k_012}"
     new "Я-Я не то чтобы мрачная…"
 
     old "Looks like there's a complicated story there. Doesn't it interest you, Saito?{#ch25_l_020}"
@@ -360,7 +360,7 @@ translate russian strings:
     old "…{#ch25_t_013}"
     new "…"
 
-    old "Um, I was hoping you could tell me about that letter…{#ch25_s_057}"
+    old "Um, I wouldn't mind hearing about that letter…{#ch25_s_057}"
     new "Э-Э, вот бы ты рассказала мне об этом письме…"
 
     old "…{#ch25_t_014}"

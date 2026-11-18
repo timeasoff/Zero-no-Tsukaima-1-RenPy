@@ -364,7 +364,7 @@ label ch23_3_scene_884:
     # [SPRITE   lay5     image=+405, level=156, dir=1B]
     # サイト：なるほど……春奈がこの世界にやって来たときに
     voice "ch23_s_101"
-    s "So… the woman who took care of me when I first came to this world was Weatherly!?{#ch23_s_101}"
+    s "So… the woman who took care of Haruna when she first came to this world was Weatherly!?{#ch23_s_101}"
 
     # アキナ：サイト、何度も同じことを言わせないで。
     voice "ch23_ak_010"

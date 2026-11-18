@@ -6,8 +6,8 @@ translate russian strings:
     old "What do you mean, what's the meaning?{#ch28_s_001}"
     new "Что значит «что значит»?"
 
-    old "Going out on secret dates with Tabitha night after night—behind my back!{#ch28_k_002}"
-    new "Ноч за ночью тайно встречаться с Табитой — за моей спиной!"
+    old "Going out on intimate dates with Tabitha night after night—behind my back!{#ch28_k_002}"
+    new "Ночь за ночью устраивать с Табитой страстные свидания — за моей спиной!"
 
     old "Um… I'm afraid I don't follow?{#ch28_s_002}"
     new "Э-Э… Я не понимаю, о чём вы?"
@@ -153,14 +153,14 @@ translate russian strings:
     old "Eh? What do you mean?{#ch28_s_026}"
     new "А? Что ты хочешь сказать?"
 
-    old "Could it be—you hate me?{#ch28_s_027}"
-    new "Неужто — ты меня ненавидишь?"
+    old "Could it be—you don't like me?{#ch28_s_027}"
+    new "Неужто я тебе не нравлюсь?"
 
     old "…{#ch28_t_011}"
     new "…"
 
     old "(She won't answer… And she looks so troubled…){#ch28_s_028}"
-    new "Она не отвечает… И у неё такой обеспокоенный вид…"
+    new "Она не отвечает… И у неё такой растерянный вид…"
 
     old "Um—sorry for asking something strange.{#ch28_s_029}"
     new "Э-Э — прости, что спросил странное."
@@ -169,7 +169,7 @@ translate russian strings:
     new "…"
 
     old "(Still troubled…){#ch28_s_030}"
-    new "Всё ещё обеспокоена…"
+    new "Всё ещё растеряна…"
 
     old "…{#ch28_s_031}"
     new "…"

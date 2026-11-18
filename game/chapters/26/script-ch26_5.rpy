@@ -198,7 +198,7 @@ label ch26_5_scene_1223:
 
     # サイト：んー、要は冷静になる前に
     voice "ch26_s_214"
-    s "Hmm—so you mean your body moved before you could think, basically?{#ch26_s_214}"
+    s "Hmm—so you mean your body moved before you could calm down, basically?{#ch26_s_214}"
 
     # タバサ：そうみたい。
     voice "ch26_t_070"

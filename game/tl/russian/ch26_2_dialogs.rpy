@@ -123,8 +123,8 @@ translate russian strings:
     old "But, Princess…{#ch26_l_037}"
     new "Но, принцесса…"
 
-    old "Then I'll be blunt with Her Majesty myself…{#ch26_s_063}"
-    new "Тогда я сам скажу Её Величеству напрямую…"
+    old "Then I'll be blunt with the princess myself…{#ch26_s_063}"
+    new "Тогда я сам скажу принцессе напрямую…"
 
     old "H-Hey, Saito! You be quiet!!{#ch26_l_038}"
     new "Э-Эй, Сайто! Ты помалкивай!!"
@@ -132,8 +132,8 @@ translate russian strings:
     old "Well, the exchange was so roundabout, I just…{#ch26_s_064}"
     new "Ну, разговор такой тянутый, я и…"
 
-    old "If your 'just' offends the princess, we're the ones in trouble!{#ch26_l_039}"
-    new "Если твоё «и» оскорбит принцессу, пострадаем мы!"
+    old "If your 'tsui' offends the princess, we're the ones in trouble!{#ch26_l_039}"
+    new "Если твоё «цуи» оскорбит принцессу, пострадаем мы!"
 
     old "Heh heh heh… You're still an entertaining familiar, aren't you?{#ch26_h_012}"
     new "Хи-хи-хи… Ты всё такой же забавный фамильяр, да?"

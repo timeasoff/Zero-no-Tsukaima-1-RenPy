@@ -40,7 +40,7 @@ translate russian strings:
     new "Мм, я в порядке."
 
     old "Hey—this theater… It's shaking, isn't it?{#ch26_l_062}"
-    new "Эй — этот театр… Он трясётся, да?"
+    new "Эй — этот театр… Кажется, он трясётся?"
 
     old "Looks bad. Everyone, get outside!{#ch26_k_029}"
     new "Похоже, плохо. Все, наружу!"
@@ -82,7 +82,7 @@ translate russian strings:
     new "Похоже, всё хорошо. Дорогой безопасно держится за Сильфид."
 
     old "Honestly—always acting on your own!{#ch26_l_064}"
-    new "Право — вечно действуешь самовольно!"
+    new "Право — всё время, всё время, всё время действуешь самовольно!"
 
     old "Oh, so even Saito came?{#ch26_ak_002}"
     new "О, значит, даже Сайто пришёл?"
@@ -148,7 +148,7 @@ translate russian strings:
     new "Но…"
 
     old "Ah, I know. I can feel this much killing intent…{#ch26_s_108}"
-    new "Ах, я понимаю. Я чувствую столько злобы…"
+    new "Ах, я понимаю. Я чувствую такую кровожадность…"
 
     old "The one in front of me now isn't the Haruna we know.{#ch26_s_109}"
     new "Тот, кто сейчас передо мной, — не та Харуна, которую мы знаем."
@@ -187,7 +187,7 @@ translate russian strings:
     new "Конечно, приятель… Опять странная история, да?"
 
     old "It's about Haruna, right? Ah, don't worry. I'll hold back.{#ch26_s_116}"
-    new "Из-за Харуны, да? Ах, не волнуйся. Я буду осторожен."
+    new "Из-за Харуны, да? Ах, не волнуйся. Я не буду бить в полную силу."
 
     old "Hold back? What are you talking about? With that attitude, you'll lose, partner.{#ch26_d_002}"
     new "Осторожен? О чём ты? С таким настроем ты проиграешь, приятель."
@@ -196,7 +196,7 @@ translate russian strings:
     new "Что ты хочешь сказать?"
 
     old "You'll see soon. My intuition is buzzing. If you want to survive, fight for real.{#ch26_d_003}"
-    new "Скоро увидишь. Моя интуиция будит. Если хочешь выжить, сражайся по-настоящему."
+    new "Скоро увидишь. Моя интуиция гудит. Если хочешь выжить, сражайся по-настоящему."
 
     old "Damn…{#ch26_s_118}"
     new "Чёрт…"
@@ -226,7 +226,7 @@ translate russian strings:
     new "Я… не Харуна…"
 
     old "Not Haruna…? You look exactly like Haruna to me!{#ch26_s_122}"
-    new "Не Харуна…? Для тебя ты выглядишь точно как Харуна!"
+    new "Не Харуна…? Для меня ты выглядишь точно как Харуна!"
 
     old "Ah ha, ah ha ha… Then let me tell you.{#ch26_ak_011}"
     new "А-ха, а-ха-ха… Тогда я тебе скажу."
@@ -244,7 +244,7 @@ translate russian strings:
     new "Уэзерби? Отдельная личность? Куда делась Харуна?"
 
     old "She's asleep inside me. While I'm awake, Haruna is always sleeping.{#ch26_ak_014}"
-    new "Она спит во мне. Пока я просыпаюсь, Харуна всегда спит."
+    new "Она спит во мне. Пока я не сплю, Харуна всегда спит."
 
     old "Don't lie!{#ch26_s_125}"
     new "Не лги!"

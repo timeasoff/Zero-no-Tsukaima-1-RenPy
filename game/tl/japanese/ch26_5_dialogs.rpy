@@ -84,7 +84,7 @@ translate japanese strings:
     old "Failure.{#ch26_t_069}"
     new "タバサ：失敗。"
 
-    old "Hmm—so you mean your body moved before you could think, basically?{#ch26_s_214}"
+    old "Hmm—so you mean your body moved before you could calm down, basically?{#ch26_s_214}"
     new "サイト：んー、要は冷静になる前に体が動いちゃったってことかー。"
 
     old "Looks like it. I wonder why that happened.{#ch26_t_070}"

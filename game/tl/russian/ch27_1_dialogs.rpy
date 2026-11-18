@@ -87,7 +87,7 @@ translate russian strings:
     old "…That's naive. Reconquista would never do such a thing.{#ch27_l_008}"
     new "…Это наивно. Реконкиста никогда бы такого не сделала."
 
-    old "So they intend to attack amid Tristain's chaos.{#ch27_s_008}"
+    old "So they intend to take advantage of Tristain's chaos.{#ch27_s_008}"
     new "Значит, они хотят воспользоваться хаосом в Тристании."
 
     old "Hmm, that's probably it, I suppose.{#ch27_k_005}"
@@ -444,7 +444,7 @@ translate russian strings:
     old "I'm telling you—the problem is WHERE it's used!{#ch27_s_057}"
     new "Я говорю — проблема в ТОМ, ГДЕ её применят!"
 
-    old "What's the problem?{#ch27_l_042}"
+    old "Where's the problem?{#ch27_l_042}"
     new "Да в чём именно проблема?"
 
     old "Are you serious? Using it in the capital is problematic any way you look at it!{#ch27_s_058}"

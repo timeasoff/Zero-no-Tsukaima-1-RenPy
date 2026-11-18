@@ -273,7 +273,7 @@ label ch27_1_scene_974:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：トリステインの混乱に乗じて攻める気か。  [voice 12721]
     voice "ch27_s_008"
-    s "So they intend to attack amid Tristain's chaos.{#ch27_s_008}"
+    s "So they intend to take advantage of Tristain's chaos.{#ch27_s_008}"
 
     # [SPRITE   lay5     hide]
     # [SPRITE   lay6     image=+682, level=160, dir=1A]
@@ -992,7 +992,7 @@ label ch27_1_scene_984:
     # [SPRITE   lay1     image=+302, level=160, dir=1A]
     # ルイズ：どこが問題だって言うのよ？  [voice 6941]
     voice "ch27_l_042"
-    l "What's the problem?{#ch27_l_042}"
+    l "Where's the problem?{#ch27_l_042}"
 
     # サイト：本気で言ってんのか？
     voice "ch27_s_058"

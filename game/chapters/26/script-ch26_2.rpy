@@ -255,7 +255,7 @@ label ch26_2_scene_946:
     # [SPRITE   lay5     image=+425, level=160, dir=2A]
     # サイト：それでは、この俺がお姫さまに単刀直入に……。  [voice 12573]
     voice "ch26_s_063"
-    s "Then I'll be blunt with Her Majesty myself…{#ch26_s_063}"
+    s "Then I'll be blunt with the princess myself…{#ch26_s_063}"
 
     # [SPRITE   lay8     hide]
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
@@ -270,7 +270,7 @@ label ch26_2_scene_946:
 
     # ルイズ：あんたのつい、ってやつで姫さまに無礼を
     voice "ch26_l_039"
-    l "If your 'just' offends the princess, we're the ones in trouble!{#ch26_l_039}"
+    l "If your 'tsui' offends the princess, we're the ones in trouble!{#ch26_l_039}"
 
     # [SPRITE   lay5     hide]
     # [SPRITE   lay1     hide]

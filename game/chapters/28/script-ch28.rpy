@@ -45,7 +45,7 @@ label ch28_1_scene_999:
     # [SPRITE   lay6     image=+715, level=160, dir=2A]
     # キュルケ：このあたしを差し置いて、タバサと夜な夜な
     voice "ch28_k_002"
-    k "Going out on secret dates with Tabitha night after night—behind my back!{#ch28_k_002}"
+    k "Going out on intimate dates with Tabitha night after night—behind my back!{#ch28_k_002}"
 
     # サイト：えーっと……。
     voice "ch28_s_002"
@@ -334,7 +334,7 @@ label ch28_1_scene_1002:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：ひょっとして、俺のこと嫌い？  [voice 8043]
     voice "ch28_s_027"
-    s "Could it be—you hate me?{#ch28_s_027}"
+    s "Could it be—you don't like me?{#ch28_s_027}"
 
     # [LAYER    lay0     image=+594, level=160, dir=1A]
     # タバサ：……。

@@ -87,7 +87,7 @@ translate japanese strings:
     old "…That's naive. Reconquista would never do such a thing.{#ch27_l_008}"
     new "ルイズ：……甘いわね。あのレコン・キスタがそんなことするわけないじゃない。"
 
-    old "So they intend to attack amid Tristain's chaos.{#ch27_s_008}"
+    old "So they intend to take advantage of Tristain's chaos.{#ch27_s_008}"
     new "サイト：トリステインの混乱に乗じて攻める気か。"
 
     old "Hmm, that's probably it, I suppose.{#ch27_k_005}"
@@ -444,7 +444,7 @@ translate japanese strings:
     old "I'm telling you—the problem is WHERE it's used!{#ch27_s_057}"
     new "サイト：使う場所が問題だって言ってるんです！"
 
-    old "What's the problem?{#ch27_l_042}"
+    old "Where's the problem?{#ch27_l_042}"
     new "ルイズ：どこが問題だって言うのよ？"
 
     old "Are you serious? Using it in the capital is problematic any way you look at it!{#ch27_s_058}"

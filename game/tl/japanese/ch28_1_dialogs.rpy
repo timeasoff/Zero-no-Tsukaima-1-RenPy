@@ -6,7 +6,7 @@ translate japanese strings:
     old "What do you mean, what's the meaning?{#ch28_s_001}"
     new "サイト：どういうことって？"
 
-    old "Going out on secret dates with Tabitha night after night—behind my back!{#ch28_k_002}"
+    old "Going out on intimate dates with Tabitha night after night—behind my back!{#ch28_k_002}"
     new "キュルケ：このあたしを差し置いて、タバサと夜な夜な濃密なデートを繰り返してるだなんて……。"
 
     old "Um… I'm afraid I don't follow?{#ch28_s_002}"
@@ -153,7 +153,7 @@ translate japanese strings:
     old "Eh? What do you mean?{#ch28_s_026}"
     new "サイト：えっ、どういうこと？"
 
-    old "Could it be—you hate me?{#ch28_s_027}"
+    old "Could it be—you don't like me?{#ch28_s_027}"
     new "サイト：ひょっとして、俺のこと嫌い？"
 
     old "…{#ch28_t_011}"

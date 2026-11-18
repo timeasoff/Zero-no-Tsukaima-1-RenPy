@@ -393,7 +393,7 @@ translate japanese strings:
     old "Heh heh, come now, soldier—have something warm to eat with this.{#ch26_s_056}"
     new "サイト：へへへ、まあまあ兵士さん、これでひとつ温かいものでも食べてくださいよ。"
 
-    old "Saito! What are you doing!? You can't win them over like that!{#ch26_l_026}"
+    old "Saito! What are you doing!? They'd never forgive you for that!{#ch26_l_026}"
     new "ルイズ：サイトっ！何やってるのよ！そんなことで許してくれるはずないでしょ。"
 
     old "Eh, but…{#ch26_s_057}"

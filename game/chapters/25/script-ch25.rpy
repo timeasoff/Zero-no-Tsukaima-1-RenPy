@@ -495,7 +495,7 @@ label ch25_1_scene_908:
 
     # キュルケ：べ、べつにあたしは暗くなってなんか……。  [voice 3460]
     voice "ch25_k_012"
-    k "I-I'm not gloomy at all…{#ch25_k_012}"
+    k "I-I'm not gloomy or anything…{#ch25_k_012}"
 
     # ルイズ：どうやら、フクザツな事情があるみたいね。
     voice "ch25_l_020"
@@ -817,7 +817,7 @@ label ch25_1_scene_917:
 
     # サイト：あの、手紙のことでちょっとお話を聞ければ
     voice "ch25_s_057"
-    s "Um, I was hoping you could tell me about that letter…{#ch25_s_057}"
+    s "Um, I wouldn't mind hearing about that letter…{#ch25_s_057}"
 
     # [LAYER    lay0     image=+592, level=160, dir=1A]
     # タバサ：……。

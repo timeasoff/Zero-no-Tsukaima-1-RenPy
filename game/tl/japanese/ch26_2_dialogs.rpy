@@ -123,7 +123,7 @@ translate japanese strings:
     old "But, Princess…{#ch26_l_037}"
     new "ルイズ：ですが、姫さま……。"
 
-    old "Then I'll be blunt with Her Majesty myself…{#ch26_s_063}"
+    old "Then I'll be blunt with the princess myself…{#ch26_s_063}"
     new "サイト：それでは、この俺がお姫さまに単刀直入に……。"
 
     old "H-Hey, Saito! You be quiet!!{#ch26_l_038}"
@@ -132,7 +132,7 @@ translate japanese strings:
     old "Well, the exchange was so roundabout, I just…{#ch26_s_064}"
     new "サイト：だって、あんまりまどろっこしいやり取りだったから、つい……。"
 
-    old "If your 'just' offends the princess, we're the ones in trouble!{#ch26_l_039}"
+    old "If your 'tsui' offends the princess, we're the ones in trouble!{#ch26_l_039}"
     new "ルイズ：あんたのつい、ってやつで姫さまに無礼をはたらかれたら、こっちが困るのよ！"
 
     old "Heh heh heh… You're still an entertaining familiar, aren't you?{#ch26_h_012}"

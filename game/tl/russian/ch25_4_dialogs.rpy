@@ -46,7 +46,7 @@ translate russian strings:
     new "И сумку Харуны мы нашли."
 
     old "What's more, by helping with the play, we not only got the bag back—we even got paid.{#ch25_s_174}"
-    new "Больше того, помогая со спектаклем, мы не только вернули сумку — нам даже заплатили."
+    new "Больше того, помогая со спектаклем, мы не только получили сумку обратно — нам даже заплатили."
 
     old "…{#ch25_t_083}"
     new "…"

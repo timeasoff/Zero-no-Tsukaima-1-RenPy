@@ -141,7 +141,7 @@ translate japanese strings:
     old "Speaking of her so casually is worthy of ten thousand deaths. Weatherly-sama is my boss.{#ch23_ak_009}"
     new "アキナ：気安く呼ぶことは万死に値するわね。ウェザリー様があたしのボスなのよ。"
 
-    old "So… the woman who took care of me when I first came to this world was Weatherly!?{#ch23_s_101}"
+    old "So… the woman who took care of Haruna when she first came to this world was Weatherly!?{#ch23_s_101}"
     new "サイト：なるほど……春奈がこの世界にやって来たときに介抱してくれた女ってのは、ウェザリーの事だったんだなっ！？"
 
     old "Saito, don't make me say the same thing twice. It hurts.{#ch23_ak_010}"

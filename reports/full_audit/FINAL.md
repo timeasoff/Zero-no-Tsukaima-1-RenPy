@@ -58,3 +58,7 @@ RU TL: `ch22_5_dialogs.rpy`, `ch23_1_dialogs.rpy`, `ch25_2_dialogs.rpy`, `ch26_4
 ## Второй проход (дополнение)
 
 - A/B/C расширены на все 24 части; 15 JA-подтверждённых исправлений (включая SUBJECT_MISMATCH ch23_3 c101 и choice-лейблы ch27_1); Analyzer Фаза 2 `reports/sma/analysis/20261118-220000-phase2-full.md`. Compile в зоне 0 ошибок.
+
+## Третий проход (дополнение)
+
+- A/B/C доведены до 24/24; 29 JA-подтверждённых исправлений (включая EN-базу и полностью пропущенную фразу `ch27_s_140`); Analyzer `reports/sma/analysis/20261118-234500-phase2-round3.md`. Runtime SKIPPED/BLOCKED (146 ошибок вне scope); все статические проверки зелёные.

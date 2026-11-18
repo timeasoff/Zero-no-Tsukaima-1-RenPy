@@ -959,7 +959,7 @@ label ch26_1_scene_943:
 
     # ルイズ：サイトっ！
     voice "ch26_l_026"
-    l "Saito! What are you doing!? You can't win them over like that!{#ch26_l_026}"
+    l "Saito! What are you doing!? They'd never forgive you for that!{#ch26_l_026}"
 
     # [SPRITE   lay5     image=+436, level=156, dir=2B]
     # サイト：えー、だってさぁ。  [voice 12569]

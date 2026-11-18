@@ -141,7 +141,7 @@ translate russian strings:
     old "Speaking of her so casually is worthy of ten thousand deaths. Weatherly-sama is my boss.{#ch23_ak_009}"
     new "Называть её так запросто — достойно десяти тысяч смертей. Уэзерби-сама — мой босс."
 
-    old "So… the woman who took care of me when I first came to this world was Weatherly!?{#ch23_s_101}"
+    old "So… the woman who took care of Haruna when she first came to this world was Weatherly!?{#ch23_s_101}"
     new "Значит… женщина, которая позаботилась о Харуне, когда та впервые попала в этот мир, была Уэзерби!?"
 
     old "Saito, don't make me say the same thing twice. It hurts.{#ch23_ak_010}"

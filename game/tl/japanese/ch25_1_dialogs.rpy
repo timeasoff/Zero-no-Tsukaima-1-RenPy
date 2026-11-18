@@ -231,7 +231,7 @@ translate japanese strings:
     old "…Hey, Kirche. Why do you get so gloomy over Tabitha?{#ch25_l_019}"
     new "ルイズ：……ねえ、キュルケ？なんでタバサのことであなたが暗くなるの？"
 
-    old "I-I'm not gloomy at all…{#ch25_k_012}"
+    old "I-I'm not gloomy or anything…{#ch25_k_012}"
     new "キュルケ：べ、べつにあたしは暗くなってなんか……。"
 
     old "Looks like there's a complicated story there. Doesn't it interest you, Saito?{#ch25_l_020}"
@@ -360,7 +360,7 @@ translate japanese strings:
     old "…{#ch25_t_013}"
     new "タバサ：……。"
 
-    old "Um, I was hoping you could tell me about that letter…{#ch25_s_057}"
+    old "Um, I wouldn't mind hearing about that letter…{#ch25_s_057}"
     new "サイト：あの、手紙のことでちょっとお話を聞ければなぁーとか。"
 
     old "…{#ch25_t_014}"

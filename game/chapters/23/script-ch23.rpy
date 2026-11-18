@@ -202,7 +202,7 @@ label ch23_1_scene_853:
     # [SPRITE   lay1     image=+341, level=160, dir=2A]
     # ルイズ：爆弾使いの攻撃で、ゼロ戦も餌食に……。
     voice "ch23_l_012"
-    l "The bomber's attack got the Zero Fighter too… It looks like it was destroyed this morning.{#ch23_l_012}"
+    l "The bomber's attack made the Zero Fighter prey too… It looks like it was destroyed this morning.{#ch23_l_012}"
 
     # [SPRITE   lay5     image=+416, level=160, dir=1C]
     # サイト：……くそぉ！！  [voice 12272]

@@ -118,7 +118,7 @@ translate russian strings:
     new "…Мм."
 
     old "Even so—poor Haruna. To end up like this because of a separate personality…{#ch27_s_140}"
-    new "Из-за отдельной личности Акины оказаться в таком положении…"
+    new "И всё же — как жаль Харуну. Из-за отдельной личности Акины она оказалась в таком положении…"
 
     old "Separate personality… Separate…{#ch27_t_050}"
     new "Отдельная личность… Отдельная…"

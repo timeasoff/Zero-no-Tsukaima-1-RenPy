@@ -84,8 +84,8 @@ translate russian strings:
     old "Failure.{#ch26_t_069}"
     new "Прова́л."
 
-    old "Hmm—so you mean your body moved before you could think, basically?{#ch26_s_214}"
-    new "Хм — то есть, проще говоря, тело сработало раньше, чем ты успела подумать?"
+    old "Hmm—so you mean your body moved before you could calm down, basically?{#ch26_s_214}"
+    new "Хм — то есть, проще говоря, тело сработало раньше, чем ты успела успокоиться?"
 
     old "Looks like it. I wonder why that happened.{#ch26_t_070}"
     new "Похоже. Интересно, почему так получилось."

@@ -393,7 +393,7 @@ translate russian strings:
     old "Heh heh, come now, soldier—have something warm to eat with this.{#ch26_s_056}"
     new "Хи-хи, ну же, солдат — съешь что-нибудь горячее с этим."
 
-    old "Saito! What are you doing!? You can't win them over like that!{#ch26_l_026}"
+    old "Saito! What are you doing!? They'd never forgive you for that!{#ch26_l_026}"
     new "Сайто! Что ты делаешь!? Они тебя точно не простят!"
 
     old "Eh, but…{#ch26_s_057}"

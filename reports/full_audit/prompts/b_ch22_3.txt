@@ -75,7 +75,7 @@ EN must not be treated as authority.
   "audit_id": "sma-b",
   "audit_type": "semantic-audit-b (manual)",
   "part": "ch22_3",
-  "run_id": "20261118-211239-b03",
+  "run_id": "20261118-224549-b03",
   "pair": "JA->RU",
   "findings": [
     {
@@ -97,7 +97,7 @@ EN must not be treated as authority.
 Единственный файл, который ты создаёшь, - результат этого запуска (см. OUTPUT FILE). Любые другие файлы в каталоге части в задание не входят: не читай их, не сравнивай с ними свой результат и не делай выводов из их наличия или отсутствия.
 
 OUTPUT FILE (единственный файл этого запуска):
-reports/sma/ch22/3/b/20261118-211239-b03.md
-(абсолютный путь: /workspace/.tmp/opencode/port-final/reports/sma/ch22/3/b/20261118-211239-b03.md)
+reports/sma/ch22/3/b/20261118-224549-b03.md
+(абсолютный путь: /workspace/.tmp/opencode/port-final/reports/sma/ch22/3/b/20261118-224549-b03.md)
 Запиши результат строго в описанном формате .md с JSON-блоком. Ничего больше
 не создавай и не изменяй
