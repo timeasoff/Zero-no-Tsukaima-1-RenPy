@@ -10,7 +10,7 @@ translate russian strings:
     new "Табаса, спасибо, что довела нас сюда."
 
     old "I'm worried about the academy and Haruna. I want you to go back and help Kirche and the others.{#ch23_l_024}"
-    new "Я волнуюсь за академию и Харуну. Вернись и помоги Кирке и остальным."
+    new "Я волнуюсь за академию и Харуну. Хочу, чтобы ты вернулся и помог Кирке и остальным."
 
     old "Understood.{#ch23_t_006}"
     new "Понятно."
@@ -142,7 +142,7 @@ translate russian strings:
     new "Принцесса… Я рада, что вы в безопасности."
 
     old "To come here at such a dangerous time… Why are you always like this, Louise?{#ch23_h_002}"
-    new "Прийти сюда в такое опасное время… Почему ты всегда такая, Луиза?"
+    new "Прийти сюда в такое опасное время… Интересно, почему ты всегда такая, Луиза…?"
 
     old "Because I was worried about you, of course!{#ch23_l_043}"
     new "Потому что я волновалась за вас, конечно!"

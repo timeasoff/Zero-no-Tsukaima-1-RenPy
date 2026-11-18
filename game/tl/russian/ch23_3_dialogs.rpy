@@ -169,7 +169,7 @@ translate russian strings:
     new "Всё шло так гладко, что я едва сдерживала смех."
 
     old "Manipulating Haruna's heart like that…{#ch23_s_103}"
-    new "Играть сердцем Харуны…"
+    new "Вот как — играть сердцем Харуны!"
 
     old "But that's over, too. Weatherly-sama is calling for my curtain call.{#ch23_ak_016}"
     new "Но и это кончено. Уэзерби-сама зовёт меня на поклон."

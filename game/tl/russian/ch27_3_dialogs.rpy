@@ -118,7 +118,7 @@ translate russian strings:
     new "…Мм."
 
     old "Even so—poor Haruna. To end up like this because of a separate personality…{#ch27_s_140}"
-    new "И всё же — бедная Харуна. Из-за отдельной личности оказаться в таком положении…"
+    new "Из-за отдельной личности Акины оказаться в таком положении…"
 
     old "Separate personality… Separate…{#ch27_t_050}"
     new "Отдельная личность… Отдельная…"
@@ -127,7 +127,7 @@ translate russian strings:
     new "Харуна невиновна, но Акина…"
 
     old "Hmm… I suppose she has the guilt of being the bomber, doesn't she?{#ch27_s_142}"
-    new "Хм… Наверное, на ней вина… да ладно"
+    new "Хм… Наверное, на ней вина как у бомбардировщика…"
 
     old "Yes—Akina… Ah.{#ch27_t_051}"
     new "Да — на Акине… Ах."

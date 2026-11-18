@@ -1757,7 +1757,7 @@ label sp90_scene_1565:
 
     # ええ、そうよっ！
     voice "sp90_s1565_008"
-    l "N-no, it isn't!{#sp90_s1565_008}"
+    l "Y-Yes, that's right!{#sp90_s1565_008}"
 
     # サ、サイトが分かればいいのよ！
     voice "sp90_s1565_009"
@@ -2449,7 +2449,7 @@ label sp90_scene_1580:
     l "Come on, stupid dog. You can only say 'woof', right?{#sp90_s1580_040}"
 
     # （……ほ、本気の目だよ）
-    s "Jingle… jingle-jingle-jingle…{#sp90_s1580_041}"
+    s "(Hm, those are serious eyes…){#sp90_s1580_041}"
 
     # さあ、バカ犬？お返事は？
     voice "sp90_s1580_042"
@@ -3641,14 +3641,14 @@ label sp90_scene_1608:
     l "See? The apple's the only thing that got smashed to bits!{#sp90_s1608_012}"
 
     # （し、失敗してたら、俺の頭がああなってたのかよ？）
-    s "(I-If it had failed, my head would've ended up like that? S-So I was made a practice dummy for magic she isn't even that confident about… Me…){#sp90_s1608_013}"
+    s "(I-If it had failed, my head would've ended up like that?){#sp90_s1608_013}"
 
     # これで、サイトもわたしの魔法がちゃんと成功することもあるってことが、よく分かったでしょ！
     voice "sp90_s1608_014"
     l "Now you get it too, Saito — my magic does succeed properly sometimes, doesn't it!{#sp90_s1608_014}"
 
     # （そ、そこまで自信のない魔法の練習台にされたのか……俺は……）[SE       se1      stop=
-    s "(I-If it had failed, my head would've ended up like that? S-So I was made a practice dummy for magic she isn't even that confident about… Me…){#sp90_s1608_015}"
+    s "(S-So I was made a practice dummy for magic she wasn't even sure of… Me…){#sp90_s1608_015}"
 
 label sp90_scene_1609:
 
@@ -3775,10 +3775,10 @@ label sp90_scene_1613:
     # [EVENT_CG event    image=+169, level=80]
     $ dissolve_fx("id(169)")
     # （に、逃げ出さないと……って……）[EVENT_CG event    image=+168, level=8
-    s "(I-I have to run… but… No good. The rope won't come undone!){#sp90_s1613_002}"
+    s "(I-I have to run… but…){#sp90_s1613_002}"
 
     # （……ダメだ。縄がほどけない！）
-    s "(I-I have to run… but… No good. The rope won't come undone!){#sp90_s1613_003}"
+    s "(...No good. The rope won't come undone!){#sp90_s1613_003}"
 
     # あら？逃げださないの？
     voice "sp90_s1613_004"
@@ -3911,10 +3911,10 @@ label sp90_scene_1617:
     # [EVENT_CG event    image=+168, level=80]
     $ dissolve_fx("id(168)")
     # （ホ、ホントに成功……するかも？）
-    s "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_002}"
+    s "(R-Really… it might actually succeed?){#sp90_s1617_002}"
 
     # （い、いや。ルイズを信じないと……）
-    s "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_003}"
+    s "(N-No. I've got to believe in Louise…){#sp90_s1617_003}"
 
     # うふっ……うふふふふ……。
     voice "sp90_s1617_004"
@@ -3927,7 +3927,7 @@ label sp90_scene_1617:
     s "W-What is it!? That creepy laugh!{#sp90_s1617_006}"
 
     # （……ヤ、ヤバイっ！なんか、今日のルイズのノリはぜったいまずい気がするぞぉぉっ！）→ next scene 1
-    s "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_007}"
+    s "(...Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
 
 label sp90_scene_1618:
 
@@ -3936,17 +3936,17 @@ label sp90_scene_1618:
     # [EVENT_CG event    image=+168, level=80]
     $ dissolve_fx("id(168)")
     # （……し、失敗したらどうなるの？）
-    s "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_002}"
+    s "(...I-If it fails, what'll happen?){#sp90_s1618_002}"
 
     # （……愉快にスプラッタ？それ以前に跡形もなくなったりして……）
-    s "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_003}"
+    s "(...A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
 
     # うふっ……うふふふふ……。
     voice "sp90_s1618_004"
     l "Ufuh… Ufufufufu…{#sp90_s1618_004}"
 
     # （……あ、あれ？も、もしかしてボク……死んじゃう？）[SPRITE   lay1     hide][SPRI
-    s "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_005}"
+    s "(...A-Ah? Maybe I… die?){#sp90_s1618_005}"
 
     # 今日は皆さんに悲しいお知らせがあります。
     voice "sp90_s1618_006"

@@ -7,5 +7,5 @@ translate russian strings:
     new "Неужели это……?"
 
     old "I have to properly continue the conversation……{#ch26_4b_c_967_3}"
-    new "Нужно продолжить разговор как следуют……"
+    new "Нужно продолжить разговор как следует……"
 

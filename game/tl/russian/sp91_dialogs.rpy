@@ -838,7 +838,7 @@ translate russian strings:
     new "Что-то в твоей манере говорить цепляет. Ну, ладно."
 
     old "You mustn't leave a wonderful Master like me and go wagging your tail at other girls, okay?{#sp91_s1740_013}"
-    new "Не смей бросать такую прекрасную госпожу и вилять хвостом перед другими девочками, понял?"
+    new "Не смей бросать такую прекрасную госпожу и вилять хвостом перед другими девочками, ладно?"
 
     old "Y-Yes… I understand…{#sp91_s1740_014}"
     new "Д-Да… Понял…"
@@ -2137,7 +2137,7 @@ translate russian strings:
     new "Ой, правда?"
 
     old "…You mustn't mishear your master's words, you know.{#sp91_s1808_030}"
-    new "…Не смей ослышаться слов госпожи, понял?"
+    new "…Не ослышайся слов госпожи, ладно?"
 
     old "I'll say it once more… 'Next is the front.'{#sp91_s1808_032}"
     new "Повторю ещё раз… «Теперь спереди»."
@@ -2182,7 +2182,7 @@ translate russian strings:
     new "Д-Дурак! У тебя совсем нет стыда!"
 
     old "Mm, if you run off like that, I'll scream, you know?{#sp91_s1810_006}"
-    new "Мм, если ты посмеешь сбежать — я закричу, понял?"
+    new "Мм, если убежишь — я закричу, ладно?"
 
     old "I-It's a plot!{#sp91_s1810_007}"
     new "Э-Это заговор!"
@@ -2425,7 +2425,7 @@ translate russian strings:
     new "Но ни в коем случае не говори того, что ранит девочку! Даже если неправда — хвали её!"
 
     old "…Isn't that a bit contradictory?{#sp91_s1824_004}"
-    new "…Тут нет противоречия?"
+    new "…Разве это не странно?"
 
     old "Quiet, you!… Anyway, I'll give you an example — read it aloud!{#sp91_s1824_006}"
     new "Не перечь!.. Ладно, покажу пример — почитай вслух!"

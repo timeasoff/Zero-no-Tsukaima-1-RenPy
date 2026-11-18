@@ -15,6 +15,7 @@
   - [x] `sp91.rpy` — 155 сцен ч.91 + `jump` на 9 сцен `sp_d1`; 808 Voice-строк + 71 = 879; 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`), отчёт `reports/extra/ch91.md`.
   - [x] Проверки: `check_project.py` OK, syntax OK, typography OK (в extra), placeholders OK, `audio_converter.py check` OK.
   - [ ] Dispatch call-site в главах 0–21 (`zero_tundele >= 211 / < 40`) — **OPEN**, чужая зона.
+- [x] **Промпт 09 — аудиты C/Analyzer**: 10 прогонов C, 2 blind-фазы, 21 точечная правка (2 ERROR + 13 WARNING), 1 OPEN по модальности. Отчёт `reports/semantic_pragmatic_review.md`.
 - [x] **Промпт 08 — TL**: 5208 EN-строк, 0 пропусков old/new, 0 дублей/пустых, MISMATCH_JA (24 engine-хвоста в JA read-only) и 12 tag-вопросов зафиксированы. Отчёт `reports/en_ru_tl_consistency.md`.
 - [x] **Промпт 07 — поток**: граф reachability/циклы, 6 title-overlay K=20–25, восстановлены сцены 998 и возврат move→927, checkKiss-ветки; 0 расхождений по симпатиям. Отчёт `reports/flow_sympathy_ch22_to_end.md`.
 - [x] **Промпт 06 — голоса**: ID строго по `[voice N]`, 9/9 порядок OK, 3866 `.ogg`, 77 NO AUDIO (`reports/extra/no_audio_ch91.md`), 3851 строка CSV помечена `USED ch<unit>`, converter check/convert/check OK. Отчёт `reports/voice_workflow_ch22_to_end.md`.

@@ -610,7 +610,7 @@ translate russian strings:
     new "Слушай, Сайто."
 
     old "Y-Yes! What is it?!{#sp90_s1556_041}"
-    new "Д-Да! Что угодно!"
+    new "Д-Да! Что случилось?!"
 
     old "I'll ask this slow dog just one more question.{#sp90_s1556_042}"
     new "Задам этому тупому псу ещё один вопрос."
@@ -780,8 +780,8 @@ translate russian strings:
     old "But it's all true, isn't it!{#sp90_s1565_007}"
     new "Но это всё правда, правда же!"
 
-    old "N-no, it isn't!{#sp90_s1565_008}"
-    new "Н-нет, не правда!"
+    old "Y-Yes, that's right!{#sp90_s1565_008}"
+    new "Д-Да, так и есть!"
 
     old "I-it's fine as long as Saito understands!{#sp90_s1565_009}"
     new "Г-главное, чтобы Сайто понял!"
@@ -1086,8 +1086,8 @@ translate russian strings:
     old "Come on, stupid dog. You can only say 'woof', right?{#sp90_s1580_040}"
     new "Ну же, дурацкий пёс. Ты же умеешь только «гав» говорить, правда?"
 
-    old "Jingle… jingle-jingle-jingle…{#sp90_s1580_041}"
-    new "Бряц… бряц-бряц-бряц…"
+    old "(Hm, those are serious eyes…){#sp90_s1580_041}"
+    new "_Хм… Глаза у неё серьёзные…_"
 
     old "Well? Your answer, stupid dog?{#sp90_s1580_042}"
     new "Ну? Что ответишь, дурацкий пёс?"
@@ -1620,14 +1620,14 @@ translate russian strings:
     old "See? The apple's the only thing that got smashed to bits!{#sp90_s1608_012}"
     new "Смотри, только яблоко разлетелось вдребезги!"
 
-    old "(I-If it had failed, my head would've ended up like that? S-So I was made a practice dummy for magic she isn't even that confident about… Me…){#sp90_s1608_013}"
-    new "_Е-Если бы не получилось, моя голова была бы такой? Т-Так я стал живой мишенью для магии, в которой она даже не уверена… Я…_"
+    old "(I-If it had failed, my head would've ended up like that?){#sp90_s1608_013}"
+    new "_Е-Если бы не получилось, моя голова была бы такой?_"
 
     old "Now you get it too, Saito — my magic does succeed properly sometimes, doesn't it!{#sp90_s1608_014}"
     new "Теперь и ты понял, Сайто, что моя магия порой срабатывает как надо, да!"
 
-    old "(I-If it had failed, my head would've ended up like that? S-So I was made a practice dummy for magic she isn't even that confident about… Me…){#sp90_s1608_015}"
-    new "_Е-Если бы не получилось, моя голова была бы такой? Т-Так я стал живой мишенью для магии, в которой она даже не уверена… Я…_"
+    old "(S-So I was made a practice dummy for magic she wasn't even sure of… Me…){#sp90_s1608_015}"
+    new "_Так я стал подопытным для магии, в которой она даже не уверена… Я…_"
 
     old "L-Let me help you, I insist!{#sp90_s1609_002}"
     new "П-Позвольте помочь, прошу!"
@@ -1680,11 +1680,11 @@ translate russian strings:
     old "Tch, damn it!{#sp90_s1612_012}"
     new "Тьфу, чёрт!"
 
-    old "(I-I have to run… but… No good. The rope won't come undone!){#sp90_s1613_002}"
-    new "_Н-Нужно бежать… но… Не выходит. Верёвка не развязывается!_"
+    old "(I-I have to run… but…){#sp90_s1613_002}"
+    new "_Н-Нужно бежать… но…_"
 
-    old "(I-I have to run… but… No good. The rope won't come undone!){#sp90_s1613_003}"
-    new "_Н-Нужно бежать… но… Не выходит. Верёвка не развязывается!_"
+    old "(...No good. The rope won't come undone!){#sp90_s1613_003}"
+    new "_…Не выходит. Верёвка не развязывается!_"
 
     old "Oh? Not running?{#sp90_s1613_004}"
     new "Ого? Не убегаешь?"
@@ -1740,11 +1740,11 @@ translate russian strings:
     old "…I-Is that all you have to say?{#sp90_s1616_016}"
     new "…И-Это всё, что ты хочешь сказать?"
 
-    old "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_002}"
-    new "_П-Правда… может, и получится? Н-Нет. Я должен верить Луизе… П-Плохо дело! Сегодняшнее настроение Луизы точно не к добру!_"
+    old "(R-Really… it might actually succeed?){#sp90_s1617_002}"
+    new "_П-Правда… может, и получится?_"
 
-    old "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_003}"
-    new "_П-Правда… может, и получится? Н-Нет. Я должен верить Луизе… П-Плохо дело! Сегодняшнее настроение Луизы точно не к добру!_"
+    old "(N-No. I've got to believe in Louise…){#sp90_s1617_003}"
+    new "_Н-Нет. Я должен верить Луизе…_"
 
     old "Ufufu… ufufufufu…{#sp90_s1617_004}"
     new "Уфуфу… уфуфуфуфу…"
@@ -1752,20 +1752,20 @@ translate russian strings:
     old "W-What is it!? That creepy laugh!{#sp90_s1617_006}"
     new "Ч-Что это!? Этот жуткий смех!"
 
-    old "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_007}"
-    new "_П-Правда… может, и получится? Н-Нет. Я должен верить Луизе… П-Плохо дело! Сегодняшнее настроение Луизы точно не к добру!_"
+    old "(...Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
+    new "_…Ч-Чёрт! Сегодня настроение Луизы точно не к добру!_"
 
-    old "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_002}"
-    new "_А-Если не получится, что тогда? Весёлый сплэттер? Или раньше этого меня не останется даже следа… А-Ах? Может, я… умру?_"
+    old "(...I-If it fails, what'll happen?){#sp90_s1618_002}"
+    new "_…А-Если не получится, что тогда?_"
 
-    old "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_003}"
-    new "_А-Если не получится, что тогда? Весёлый сплэттер? Или раньше этого меня не останется даже следа… А-Ах? Может, я… умру?_"
+    old "(...A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
+    new "_…Весёлый сплэттер? Или раньше этого от меня не останется и следа…_"
 
     old "Ufuh… Ufufufufu…{#sp90_s1618_004}"
     new "Уфх… Уф-ф-ф…"
 
-    old "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_005}"
-    new "_А-Если не получится, что тогда? Весёлый сплэттер? Или раньше этого меня не останется даже следа… А-Ах? Может, я… умру?_"
+    old "(...A-Ah? Maybe I… die?){#sp90_s1618_005}"
+    new "_…А-Ах? Может, я… умру?_"
 
     old "Today I have some sad news for all of you.{#sp90_s1618_006}"
     new "Сегодня у меня грустное известие для всех вас."

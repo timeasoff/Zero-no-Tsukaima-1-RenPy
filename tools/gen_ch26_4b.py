@@ -15,7 +15,7 @@ CHOICES = {
     967: [
         ("Let's stay quiet just like this.", "Помолчим и останемся так."),
         ("Could this be……?", "Неужели это……?"),
-        ("I have to properly continue the conversation……", "Нужно продолжить разговор как следуют……"),
+        ("I have to properly continue the conversation……", "Нужно продолжить разговор как следует……"),
     ],
 }
 SPK = {'サイト': 's', 'タバサ': 't', 'キュルケ': 'k', 'null': 'th'}

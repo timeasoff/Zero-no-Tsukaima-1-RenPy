@@ -780,7 +780,7 @@ translate japanese strings:
     old "But it's all true, isn't it!{#sp90_s1565_007}"
     new "サイト：でも、全部本当のことだろ！"
 
-    old "N-no, it isn't!{#sp90_s1565_008}"
+    old "Y-Yes, that's right!{#sp90_s1565_008}"
     new "ルイズ：ええ、そうよっ！"
 
     old "I-it's fine as long as Saito understands!{#sp90_s1565_009}"
@@ -1086,7 +1086,7 @@ translate japanese strings:
     old "Come on, stupid dog. You can only say 'woof', right?{#sp90_s1580_040}"
     new "ルイズ：さあ、バカ犬？お前は「ワン」しかいえないはずよね？"
 
-    old "Jingle… jingle-jingle-jingle…{#sp90_s1580_041}"
+    old "(Hm, those are serious eyes…){#sp90_s1580_041}"
     new "サイト：（……ほ、本気の目だよ）"
 
     old "Well? Your answer, stupid dog?{#sp90_s1580_042}"
@@ -1620,13 +1620,13 @@ translate japanese strings:
     old "See? The apple's the only thing that got smashed to bits!{#sp90_s1608_012}"
     new "ルイズ：ほらっ、リンゴだけきれいに砕けてるわ！"
 
-    old "(I-If it had failed, my head would've ended up like that? S-So I was made a practice dummy for magic she isn't even that confident about… Me…){#sp90_s1608_013}"
+    old "(I-If it had failed, my head would've ended up like that?){#sp90_s1608_013}"
     new "サイト：（し、失敗してたら、俺の頭がああなってたのかよ？）"
 
     old "Now you get it too, Saito — my magic does succeed properly sometimes, doesn't it!{#sp90_s1608_014}"
     new "ルイズ：これで、サイトもわたしの魔法がちゃんと成功することもあるってことが、よく分かったでしょ！"
 
-    old "(I-If it had failed, my head would've ended up like that? S-So I was made a practice dummy for magic she isn't even that confident about… Me…){#sp90_s1608_015}"
+    old "(S-So I was made a practice dummy for magic she wasn't even sure of… Me…){#sp90_s1608_015}"
     new "サイト：（そ、そこまで自信のない魔法の練習台にされたのか……俺は……）[SE       se1      stop=1][BGM      bgm      stop=1000][SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][COFFEE]"
 
     old "L-Let me help you, I insist!{#sp90_s1609_002}"
@@ -1680,10 +1680,10 @@ translate japanese strings:
     old "Tch, damn it!{#sp90_s1612_012}"
     new "サイト：ちっ、ちくしょうっ！"
 
-    old "(I-I have to run… but… No good. The rope won't come undone!){#sp90_s1613_002}"
+    old "(I-I have to run… but…){#sp90_s1613_002}"
     new "サイト：（に、逃げ出さないと……って……）[EVENT_CG event    image=+168, level=80]"
 
-    old "(I-I have to run… but… No good. The rope won't come undone!){#sp90_s1613_003}"
+    old "(...No good. The rope won't come undone!){#sp90_s1613_003}"
     new "サイト：（……ダメだ。縄がほどけない！）"
 
     old "Oh? Not running?{#sp90_s1613_004}"
@@ -1740,10 +1740,10 @@ translate japanese strings:
     old "…I-Is that all you have to say?{#sp90_s1616_016}"
     new "サイト：……い、言うことはそれだけか？"
 
-    old "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_002}"
+    old "(R-Really… it might actually succeed?){#sp90_s1617_002}"
     new "サイト：（ホ、ホントに成功……するかも？）"
 
-    old "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_003}"
+    old "(N-No. I've got to believe in Louise…){#sp90_s1617_003}"
     new "サイト：（い、いや。ルイズを信じないと……）"
 
     old "Ufufu… ufufufufu…{#sp90_s1617_004}"
@@ -1752,19 +1752,19 @@ translate japanese strings:
     old "W-What is it!? That creepy laugh!{#sp90_s1617_006}"
     new "サイト：って、なんですか！そのアブナイ笑い方っ！"
 
-    old "(R-Really… it might actually succeed? N-No. I've got to believe in Louise… T-This is bad! Something about Louise's mood today is definitely off!){#sp90_s1617_007}"
+    old "(...Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
     new "サイト：（……ヤ、ヤバイっ！なんか、今日のルイズのノリはぜったいまずい気がするぞぉぉっ！）→ next scene 1620"
 
-    old "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_002}"
+    old "(...I-If it fails, what'll happen?){#sp90_s1618_002}"
     new "サイト：（……し、失敗したらどうなるの？）"
 
-    old "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_003}"
+    old "(...A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
     new "サイト：（……愉快にスプラッタ？それ以前に跡形もなくなったりして……）"
 
     old "Ufuh… Ufufufufu…{#sp90_s1618_004}"
     new "ルイズ：うふっ……うふふふふ……。"
 
-    old "(I-If it fails, what'll happen? A pleasant splatter? Or before that I might be wiped out without a trace… H-Huh? Could it be I'm… going to die?){#sp90_s1618_005}"
+    old "(...A-Ah? Maybe I… die?){#sp90_s1618_005}"
     new "サイト：（……あ、あれ？も、もしかしてボク……死んじゃう？）[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide]"
 
     old "Today I have some sad news for all of you.{#sp90_s1618_006}"

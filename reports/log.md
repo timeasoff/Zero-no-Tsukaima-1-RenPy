@@ -5352,3 +5352,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - **CANDIDATE → PRESERVED — PROVISIONAL**: 13 мест с `-san` в JA, опущенным в EN/RU (9 третьеличностных «Сайто-сан»→«вы», 4 прямых обращения). Жёсткое правило `addresses.md` касается только «Сайто-сан» от Сиесты; массовый проход затронул бы чужие главы 0–21 → OPEN.
 - Проверки: `check_project.py` OK, `check_renpy_syntax.py` OK, typography RU/EN OK.
 - Отчёт: `reports/en_ru_tl_consistency.md`, evidence `reports/tl_consistency_audit.md`, `reports/ja_fidelity_audit.md`.
+
+## 2026-11-18 — Промпт 09: независимый смысловой/прагматический аудит
+
+- Слои: C (`pragmatic-c`) — 10 новых прогонов с уникальными run_id; Analyzer Фаза 1 blind — 2 прогона (ch26_4b, ch27_3); Фаза 2 — ручная сверка с JA. A недоступен, B отсутствует на диске — отмечено, не имитировалось.
+- Два промпта-генератора сослались на несуществующие `script-ch23_1.rpy` / `script-ch28_2.rpy`; аудитор честно зафиксировал 0 находок, сделаны корректные перезапуски (ch23 chapter, ch28 part 1). Ошибка `--part 1` генератора промптов зафиксирована.
+- **FIXED (ERROR)**: sp90_s1565_008 — JA `ええ、そうよっ！` (подтверждение), EN/RU давали отрицание; sp90_s1580_041 — JA внутренняя реплика про серьёзный взгляд заменена звукоподражанием. EN+old+RU исправлены.
+- **FIXED (WARNING)**: 10 «склеенных»thought-строк sp90 (разные JA получили одинаковый RU из-за коллизии `s<scene>_0`), sp90_s1556_041 (`なんでしょう` → «Что угодно»), 4 sp91 с добавленным «понял?» (+ инверсия полярности), 3 ch23 (усиление/modality), 2 ch27 (`да ладно`, пропуск «Акина»), опечатка `как следуют`.
+- **OPEN**: ch26_4b_k_018 — `大丈夫でしょ` смягчённое утешение переведено категорично (`Конечно, в порядке`); не переписано автоматически во избежание дрейфа модальности.
+- `check_project.py` OK, `check_renpy_syntax.py` OK, TL-аудит 0 пропусковold/дублей/пустых.
+- evidence: `reports/sma/ch<N>/<part>/c/<run_id>.md`, `reports/sma/chextra/sp9*/c/<run_id>.md`, `reports/sma/ch*/analysis/*.phase1.md`; сводка `reports/semantic_pragmatic_review.md`.
