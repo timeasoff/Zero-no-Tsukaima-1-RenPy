@@ -80,7 +80,7 @@ label date_kirche_ch2_8:
     voice "ch2.8_k_002"
     k "It's hoooot! Seriously, what is this heat? And there's not even a breeze..."
     voice "ch2.8_s_014"
-    s "Kirche, you can't stand the heat? A lukewarm Kirche... what would that even be?"
+    s "Kirche, you can't stand the heat? Kirche the Ardent... what would that even be?"
     $ show_sprites(("s 3 sad", "k 2 sad"))
     voice "ch2.8_k_003"
     k "Not at all. Ugh, isn't there somewhere cool?"

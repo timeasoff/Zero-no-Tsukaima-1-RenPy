@@ -284,7 +284,7 @@ translate russian strings:
     new "…Принцесса, вы здесь?"
 
     old "Is that you, my familiar? Please come in.{#ch5_11_v348}"
-    new "Это вы, моё фамильярное существо? Войдите."
+    new "Это вы, мой фамильяр? Войдите."
 
     old "E-excuse me…{#ch5_11_v8725}"
     new "П-простите, я войду…"

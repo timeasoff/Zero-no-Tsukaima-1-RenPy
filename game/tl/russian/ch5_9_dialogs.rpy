@@ -81,7 +81,7 @@ translate russian strings:
     new "Принц, помнишь ночь, когда ты сделал мне предложение?"
 
     old "It was a beautiful night, like tonight. I will give you my answer now.{#ch5_9_v1690}"
-    new "Это была прекрасная ночь, как сегодня. Теперь я дам тебе ответ."
+    new "Это была прекрасная ночь под Лунами-Близнецами, как сегодня. Теперь я дам тебе ответ."
 
     old "Princess?{#ch5_9_v8849}"
     new "Принцесса?"
@@ -234,7 +234,7 @@ translate russian strings:
     new "…Принц, помнишь ночь, когда ты сделал мне предложение?"
 
     old "It was a beautiful night, like tonight. …I will give you my answer now.{#ch5_9_v376}"
-    new "Это была прекрасная ночь, как сегодня. …Теперь я дам тебе ответ."
+    new "Это была прекрасная ночь под Лунами-Близнецами, как сегодня. …Теперь я дам тебе ответ."
 
     old "…Princess?{#ch5_9_v8871}"
     new "…Принцесса?"

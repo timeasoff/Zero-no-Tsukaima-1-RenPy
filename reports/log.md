@@ -5316,3 +5316,21 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 
 * PROMTS.md по RU гл. 2–5: R5/R8/R10/R11/R12 — 0 нарушений; R7 «правда?» — JA 本当？, канонично. Семантика seed i%313 (23 строки) — 0 ошибок. EN/JA не менялись.
 
+
+### 2026-11-18 — Полный смысловой аудит A+B+C+Analyzer+O, главы 2–5 (QA review branch)
+
+* Проведены 6 независимых слоёв по всем 38 частям глав 2–5 (A лексика, B контекст/логика,
+  C прагматика, Analyzer Phase 1 blind, Analyzer Phase 2 evidence, O полнота). task_board:
+  T20261118-073145-091b / 074934-d6e9 / 080327-6453 / 110119-9c69 / 122739-cb78 / 135532-877a — все 38/38.
+* Результаты: A 367, B 82, C 138 находок; Phase 1 338 (все blind:true); Phase 2 773 кандидата
+  (252 CONFIRMED_ERROR / 109 DISPUTED / 271 OPTIONAL / 141 FALSE_POSITIVE); O 22 находки
+  (15 CANDIDATE, 7 WARNING) — FULL-пропусков нет. Сводка: reports/sma/qa_ch2-5_final.md.
+* Итоговая классификация — REPORT_ONLY/PRESERVED: все аудиторы работали в изоляции, не трогали
+  JA, эталоны 0/1, медиа и task_board; majority vote не применялся.
+* Применены ТОЛЬКО 10 канонических, уникально накладываемых правок (JA-доказательство +
+  dictionary.md): ダーリン→«дорогой» (ch2_4), 微熱のキュルケ→Kirche the Ardent (ch2_8,
+  EN-base + old в обоих tl), 使い魔→«фамильяр» (ch5_11), восстановление 双月/Луны-Близнецы
+  в 5 репликах (v4753/2825/15348/1690/376, ch5_7–ch5_9). JA `new` не редактировался.
+* Проверки: check_renpy_syntax (ch2, ch5) OK; check_project RESULT: OK (errors=0).
+* RECONCILE/??? (пол 魔導士, род Уэзерби, счёт ３人と, ~さん для японских персонажей) —
+  OPEN, решение человека; MISMATCH_JA (пунктуация JA-TL, th_002 ch5_11) зафиксирован, JA не тронут.

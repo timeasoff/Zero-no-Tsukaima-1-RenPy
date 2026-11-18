@@ -4473,7 +4473,7 @@ translate russian strings:
     new "Неполное сгорание, что ли?"
 
     old "Ah, yeah, that's it. As expected of you, darling — so perceptive."
-    new "А, да, именно. Как и подобает тебе, дорогая — так проницательно."
+    new "А, да, именно. Как и подобает тебе, дорогой — так проницательно."
 
     old "...Why is that the only thing you ever notice?"
     new "…Почему ты замечаешь только это?"
@@ -6939,7 +6939,7 @@ translate russian strings:
     old "It's hoooot! Seriously, what is this heat? And there's not even a breeze..."
     new "Жааарко! Ну и жара. И ветра совсем нет…"
 
-    old "Kirche, you can't stand the heat? A lukewarm Kirche... what would that even be?"
+    old "Kirche, you can't stand the heat? Kirche the Ardent... what would that even be?"
     new "Кирхе, тебе жара не по нраву? Кирхе с лёгкой температурой… что это вообще?"
 
     old "Not at all. Ugh, isn't there somewhere cool?"

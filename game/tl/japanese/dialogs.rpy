@@ -6933,7 +6933,7 @@ translate japanese strings:
     old "It's hoooot! Seriously, what is this heat? And there's not even a breeze..."
     new "暑いのよ！もう、なにこの暑さ。風もぜんぜん吹かないし……。"
 
-    old "Kirche, you can't stand the heat? A lukewarm Kirche... what would that even be?"
+    old "Kirche, you can't stand the heat? Kirche the Ardent... what would that even be?"
     new "キュルケって暑いのが駄目なのか？微熱のキュルケ……なんだろ？"
 
     old "Not at all. Ugh, isn't there somewhere cool?"

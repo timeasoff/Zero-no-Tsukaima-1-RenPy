@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (312)
+## WARNING (311)
 
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
@@ -83,7 +83,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:293: Items
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:230: Left Trigger\nLeft Bumper
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:360: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
-- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:357: Louise's classmate.\nSpecializes in wind magic.\mHer nickname is "Tabi
+- W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:357: Louise's classmate.\nSpecializes in wind magic.\nHer nickname is "Tabi
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:399: Magic Arrow
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:405: Meteor
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:263: Music
@@ -220,7 +220,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:293: Items
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:221: Left Trigger\nLeft Bumper
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:361: Louise's classmate.\nSpecializes in fire magic.\nHer nickname is "Kirc
-- W1 stale old in tl/russian at game/tl/russian/screens.rpy:358: Louise's classmate.\nSpecializes in wind magic.\mHer nickname is "Tabi
+- W1 stale old in tl/russian at game/tl/russian/screens.rpy:358: Louise's classmate.\nSpecializes in wind magic.\nHer nickname is "Tabi
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:410: Magic Arrow
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:404: Meteor
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:254: Music
@@ -286,7 +286,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
-- W2 309 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
 - I1 ch2: 1468 script strings > 1382 source talk
@@ -327,7 +326,7 @@
 
 - speakers defined: 38
 - overlay K: max=14 used=14 next_free=15
-- voices: refs=6982 ogg=7291 missing=0
+- voices: refs=6982 ogg check SKIPPED (audio not installed)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: not started (source talk=492)
 - I1 ch11: not started (source talk=618)
