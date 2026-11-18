@@ -1683,7 +1683,7 @@ translate russian strings:
     old "(I-I have to run… but…){#sp90_s1613_002}"
     new "_Н-Нужно бежать… но…_"
 
-    old "(...No good. The rope won't come undone!){#sp90_s1613_003}"
+    old "(…No good. The rope won't come undone!){#sp90_s1613_003}"
     new "_…Не выходит. Верёвка не развязывается!_"
 
     old "Oh? Not running?{#sp90_s1613_004}"
@@ -1752,19 +1752,19 @@ translate russian strings:
     old "W-What is it!? That creepy laugh!{#sp90_s1617_006}"
     new "Ч-Что это!? Этот жуткий смех!"
 
-    old "(...Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
+    old "(…Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
     new "_…Ч-Чёрт! Сегодня настроение Луизы точно не к добру!_"
 
-    old "(...I-If it fails, what'll happen?){#sp90_s1618_002}"
+    old "(…I-If it fails, what'll happen?){#sp90_s1618_002}"
     new "_…А-Если не получится, что тогда?_"
 
-    old "(...A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
+    old "(…A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
     new "_…Весёлый сплэттер? Или раньше этого от меня не останется и следа…_"
 
     old "Ufuh… Ufufufufu…{#sp90_s1618_004}"
     new "Уфх… Уф-ф-ф…"
 
-    old "(...A-Ah? Maybe I… die?){#sp90_s1618_005}"
+    old "(…A-Ah? Maybe I… die?){#sp90_s1618_005}"
     new "_…А-Ах? Может, я… умру?_"
 
     old "Today I have some sad news for all of you.{#sp90_s1618_006}"

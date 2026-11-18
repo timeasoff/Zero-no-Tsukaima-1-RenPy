@@ -1683,7 +1683,7 @@ translate japanese strings:
     old "(I-I have to run… but…){#sp90_s1613_002}"
     new "サイト：（に、逃げ出さないと……って……）[EVENT_CG event    image=+168, level=80]"
 
-    old "(...No good. The rope won't come undone!){#sp90_s1613_003}"
+    old "(…No good. The rope won't come undone!){#sp90_s1613_003}"
     new "サイト：（……ダメだ。縄がほどけない！）"
 
     old "Oh? Not running?{#sp90_s1613_004}"
@@ -1752,19 +1752,19 @@ translate japanese strings:
     old "W-What is it!? That creepy laugh!{#sp90_s1617_006}"
     new "サイト：って、なんですか！そのアブナイ笑い方っ！"
 
-    old "(...Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
+    old "(…Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
     new "サイト：（……ヤ、ヤバイっ！なんか、今日のルイズのノリはぜったいまずい気がするぞぉぉっ！）→ next scene 1620"
 
-    old "(...I-If it fails, what'll happen?){#sp90_s1618_002}"
+    old "(…I-If it fails, what'll happen?){#sp90_s1618_002}"
     new "サイト：（……し、失敗したらどうなるの？）"
 
-    old "(...A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
+    old "(…A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
     new "サイト：（……愉快にスプラッタ？それ以前に跡形もなくなったりして……）"
 
     old "Ufuh… Ufufufufu…{#sp90_s1618_004}"
     new "ルイズ：うふっ……うふふふふ……。"
 
-    old "(...A-Ah? Maybe I… die?){#sp90_s1618_005}"
+    old "(…A-Ah? Maybe I… die?){#sp90_s1618_005}"
     new "サイト：（……あ、あれ？も、もしかしてボク……死んじゃう？）[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide]"
 
     old "Today I have some sad news for all of you.{#sp90_s1618_006}"

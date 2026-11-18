@@ -3778,7 +3778,7 @@ label sp90_scene_1613:
     s "(I-I have to run… but…){#sp90_s1613_002}"
 
     # （……ダメだ。縄がほどけない！）
-    s "(...No good. The rope won't come undone!){#sp90_s1613_003}"
+    s "(…No good. The rope won't come undone!){#sp90_s1613_003}"
 
     # あら？逃げださないの？
     voice "sp90_s1613_004"
@@ -3927,7 +3927,7 @@ label sp90_scene_1617:
     s "W-What is it!? That creepy laugh!{#sp90_s1617_006}"
 
     # （……ヤ、ヤバイっ！なんか、今日のルイズのノリはぜったいまずい気がするぞぉぉっ！）→ next scene 1
-    s "(...Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
+    s "(…Y-You've got to be kidding! Louise is in a terrible mood today!){#sp90_s1617_007}"
 
 label sp90_scene_1618:
 
@@ -3936,17 +3936,17 @@ label sp90_scene_1618:
     # [EVENT_CG event    image=+168, level=80]
     $ dissolve_fx("id(168)")
     # （……し、失敗したらどうなるの？）
-    s "(...I-If it fails, what'll happen?){#sp90_s1618_002}"
+    s "(…I-If it fails, what'll happen?){#sp90_s1618_002}"
 
     # （……愉快にスプラッタ？それ以前に跡形もなくなったりして……）
-    s "(...A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
+    s "(…A pleasant splatter? Or before that I'll be wiped out without a trace…){#sp90_s1618_003}"
 
     # うふっ……うふふふふ……。
     voice "sp90_s1618_004"
     l "Ufuh… Ufufufufu…{#sp90_s1618_004}"
 
     # （……あ、あれ？も、もしかしてボク……死んじゃう？）[SPRITE   lay1     hide][SPRI
-    s "(...A-Ah? Maybe I… die?){#sp90_s1618_005}"
+    s "(…A-Ah? Maybe I… die?){#sp90_s1618_005}"
 
     # 今日は皆さんに悲しいお知らせがあります。
     voice "sp90_s1618_006"

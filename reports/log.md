@@ -5380,3 +5380,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - `[MOVIE movie(1)]` ×2 (chapter_25 SCENE 899, chapter_29 SCENE 1008) — **MOVIE not ported** (`AGENTS.md` §6); пометки добавлены в `reports/ch24/1.md` и `reports/ch28/1.md`.
 - SE не переносятся (UI/атмосфера, осмысленных эквивалентов в выборке нет). Титульные карточки K=20–25 уникальны (E2=0).
 - Бинарные медиа в git не добавлялись. Отчёт: `reports/assets_media_fx.md`.
+
+## 2026-11-18 — Промпт 12: финальная интеграция и приёмка
+
+- Свежий прогон всех проверок: `check_project.py` OK; `check_renpy_syntax.py` OK; typography RU/EN гл.22–28 OK (ошибки extra только в `sp_l1.rpy` / shared-бакетах — зона глав 0–21); `check_placeholders.py`, `check_assets.py`, `check_voice_transcriptions.py` — OK с глобальными предупреждениями; `omission_precheck` 8/8 → 0 кандидатов; `audio_converter.py check` OK; `task_board.py verify` 4/4 OK.
+- **FIXED (регрессия промпта 09)**: 5 EN-строк в `sp90.rpy` содержали `...` вместо `…` (введено при исправлении «склеенных» мыслей); исправлены EN и `old` в JA/RU TL; typography EN extra теперь 30 ошибок — все в `sp_l1.rpy` (вне scope), в зоне 0.
+- Сводка: 3943 голоса источника → 3866 в порту (77 NO AUDIO), 5208 EN-строк, 45 коммитов от базы плана `c0130ec`. Coverage A–F PASS по всем единицам, кроме документированного ch.91.
+- Статус целевой области: **DONE** с открытыми вопросами (77 NO AUDIO, dispatch 0–21, W6, zero_kiss, регистр обращений, MOVIE SKIP, ограничения среды).
+- Итоговый отчёт: `reports/FINAL_ACCEPTANCE.md` (по главам/веткам: coverage, части, реплики, голоса, проверки, коммиты, вопросы, ограничения).
