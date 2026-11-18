@@ -5141,3 +5141,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Ключевые: `やれやれ` → «Ох, ну вот»; `お疲れさまでした` → «вы постарались»; `ベタベタ` → «прилипли»; `ピッタリだった` → «идеально подошла»; `何とかしやがれってんだ` → «справишься, я тебе говорю».
 - Отчёт: `reports/sma/ch21/3/analysis/20261118-035500-phase2.md`.
 - Проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 21` OK, `check_typography.py --chapter 21 --lang ru` OK.
+
+
+## 2026-11-18 — Глава 22: аудит части 1 (A/C/Analyzer Ф1+Ф2)
+
+- Первый запуск A/C не смог прочитать EN-файл: ожидался `script-ch22_1.rpy`, фактически `script-ch22.rpy` (часть 1 использует базовое имя). Промпты исправлены, аудиты перезапущены; Ф1 работал корректно.
+- Находки: A 3 (2 WARNING, 1 CANDIDATE), C 2 (1 WARNING, 1 CANDIDATE), Ф1 6 (2 LEXICAL_MISMATCH, 4 NUANCE_SHIFT).
+- Disposition: 3 WARNING + 5 CANDIDATE FIXED. Ключевые: `なんかいいかも` → «Вроде бы даже приятно»; `低血圧で寝起きが悪い` → «с низким давлением»; `ゆっくり召し上がってくださいね` → «Ешьте не спеша»; `ミスタ・コルベール` → «мистер Кольбер».
+- Отчёт: `reports/sma/ch22/1/analysis/20261118-041200-phase2.md`.
+- Проверки после правок: `check_project.py` OK, `check_typography.py --chapter 22 --lang ru` OK.

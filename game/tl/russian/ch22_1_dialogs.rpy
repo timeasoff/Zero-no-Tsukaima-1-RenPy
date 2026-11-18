@@ -28,7 +28,7 @@
     new "Не за что, Сайто-сан. Я рада, что могла помочь."
 
     old "(But it's been a while since someone woke me up like this… Kind of nice.){#ch22_s_004}"
-    new "Но давно уже никто меня не будил так… И даже приятно."
+    new "Но давно уже никто меня не будил так… Вроде бы даже приятно."
 
     old "Well then, Saito-san. Next is Miss Valliere, isn't it?{#ch22_si_007}"
     new "Ну что ж, Сайто-сан. Дальше мисс Вальер, да?"
@@ -40,7 +40,7 @@
     new "Сдерну одеяло, как обычно. Луиза иначе не просыпается."
 
     old "Take this!{#ch22_s_007}"
-    new "А-а-а!"
+    new "Ну-ка!"
 
     old "Nyah!?{#ch22_l_001}"
     new "Ня!?"
@@ -73,7 +73,7 @@
     new "…Мм, ня… Си…эста… Утра…"
 
     old "Magnificent, Siesta! You managed to wake Louise, who's always low-blood-pressure and slow to rise!{#ch22_s_012}"
-    new "Великолепно, Сиэста! Тебе удалось разбудить Луизу, которая вечно вялая по утрам!"
+    new "Великолепно, Сиэста! Тебе удалось разбудить Луизу, которая с низким давлением и тяжело просыпается по утрам!"
 
     old "Ehehe, thank you.{#ch22_si_011}"
     new "Хи-хи, спасибо."
@@ -82,7 +82,7 @@
     new "Эй, Сайто? Хвалить можно, но где вода для умывания?"
 
     old "O-Oh no!{#ch22_s_013}"
-    new "О-Ой!"
+    new "О-Ой, облажался!"
 
     old "Today I'll try a new method.{#ch22_s_014}"
     new "Сегодня я попробую новый метод."
@@ -130,7 +130,7 @@
     new "Хи-хи."
 
     old "Please enjoy it slowly.{#ch22_si_014}"
-    new "Приятного аппетита."
+    new "Ешьте не спеша."
 
     old "O great Founder Brimir and Her Majesty the Queen.{#ch22_l_009}"
     new "Великий Основатель Бримир и Её Величество Королева."
@@ -184,7 +184,7 @@
     new "Йо-йо, всем привет. Слышал, наши милые ученики сегодня подготовили пиршество?"
 
     old "Old Osmond!? And Mr. Colbert, too!?{#ch22_l_015}"
-    new "Старик Осман!? И Кольбер-сэн тоже!?"
+    new "Старик Осман!? И мистер Кольбер тоже!?"
 
     old "The weather's lovely today, isn't it. Show off your skills and make something wonderful.{#ch22_c_001}"
     new "Сегодня прекрасная погода, правда? Покажите своё мастерство и приготовьте что-то чудесное."
@@ -277,7 +277,7 @@
     new "Но это очень горькое лекарство, знаете?"
 
     old "Ugh. Is there nothing sweet?{#ch22_s_030}"
-    new "Ох. Нет ничего сладкого?"
+    new "Ой, не нравится. Нет ничего сладкого?"
 
     old "Hmm, I don't think so. Please drink it bravely, okay?{#ch22_si_024}"
     new "Хм, вроде нет. Выпейте его храбро, ладно?"
@@ -286,7 +286,7 @@
     new "Стараться — хорошо, но не перестарайся, ладно?"
 
     old "It's fine! For Saito-san's sake, I can… do anything.{#ch22_si_025}"
-    new "Всё хорошо! Ради Сайто-сан я… могу что угодно."
+    new "Всё хорошо! Ради Сайто-сан я… постараюсь в чём угодно."
 
     old "Well, when you put it that way, I get embarrassed.{#ch22_s_032}"
     new "Ну, когда ты так говоришь, мне неловко."
