@@ -296,7 +296,7 @@ translate russian strings:
     new "…Э-э, принцесса?"
 
     old "…The days of celebration are over.{#ch5_11_v349}"
-    new "Фестивальные дни подошли к концу"
+    new "Фестивальные дни подошли к концу."
 
     old "…What?{#ch5_11_v8728}"
     new "…Что?"
@@ -395,7 +395,7 @@ translate russian strings:
     new "П-правда?"
 
     old "What would be the point of lying?{#ch5_11_v8639}"
-    new "Ты ничего не сможешь сделать, если солжешь"
+    new "Ты ничего не сможешь сделать, если солжешь?"
 
     old "You look the same as always.{#ch5_11_v8640}"
     new "Нет, всё как обычно!"
@@ -419,7 +419,7 @@ translate russian strings:
     new "Только одежда?"
 
     old "Only the dress.{#ch5_11_v8644}"
-    new "просто одежда"
+    new "Просто одежда."
 
     old "Hmm. Then why will you not look at me?{#ch5_11_v4744}"
     new "Хм. Тогда почему ты на меня не смотришь?"

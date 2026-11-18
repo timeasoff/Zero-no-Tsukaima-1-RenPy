@@ -386,7 +386,7 @@ translate russian strings:
     new "…Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым."
 
     old "If I get praised so openly, I'll get embarrassed."
-    new "Если меня так открыто хвалять, я смущусь."
+    new "Если меня так открыто хвалят, я смущусь."
 
     # ---- ch2.5 location block (сцены 1266–1280) ----
 
@@ -510,7 +510,7 @@ translate russian strings:
     new "Блин — Сиеста меня только что подставила?"
 
     old "Even unbaked, it already smells pretty good."
-    new "Ещё не печёшь, а уже неплохо пахнет."
+    new "Ещё не печётся, а уже неплохо пахнет."
 
     old "Mm-mm-mm. How quick and deft she is."
     new "Мм-мм-мм. Как она проворно и ловко всё делает."

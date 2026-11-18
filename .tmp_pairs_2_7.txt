@@ -1,0 +1,529 @@
+TOTAL_IN_SCOPE: 132
+
+### [1] game/tl/russian/dialogs.rpy:6519 (new@6520)
+OLD: Anyway! I'm going to drink. Just watch me!
+NEW: В любом случае! Я пью. Только смотрите!
+
+### [2] game/tl/russian/dialogs.rpy:6522 (new@6523)
+OLD: You'll see! I'll grow so big that Kirche and Siesta won't even reach my feet!
+NEW: Увидите! Я вырасту так, что Кирхе и Сиеста не дотянутся и до моих пят!
+
+### [3] game/tl/russian/dialogs.rpy:6525 (new@6526)
+OLD: Sure, but don't drink too much and upset your stomach, okay?
+NEW: Ладно, только не пей слишком много, а то расстроишь живот, хорошо?
+
+### [4] game/tl/russian/dialogs.rpy:6528 (new@6529)
+OLD: No! Once I've made up my mind, the only way is forward!
+NEW: Нет! Раз решила — только вперёд!
+
+### [5] game/tl/russian/dialogs.rpy:6531 (new@6532)
+OLD: Even if I collapse, it'll be face-first! That's how the House of Vallière lives!
+NEW: Даже если упаду — то лицом вперёд! Таков обычай дома Вальер!
+
+### [6] game/tl/russian/dialogs.rpy:6534 (new@6535)
+OLD: Ah, good morning, Saito-san.
+NEW: А, доброе утро, Сайто-сан.
+
+### [7] game/tl/russian/dialogs.rpy:6537 (new@6538)
+OLD: Hey, Siesta. So you're here.
+NEW: Привет, Сиеста. Вот где ты.
+
+### [8] game/tl/russian/dialogs.rpy:6540 (new@6541)
+OLD: Busy with work today?
+NEW: Сегодня на работе много дела?
+
+### [9] game/tl/russian/dialogs.rpy:6543 (new@6544)
+OLD: No. I have the day off, so I thought I'd try my hand at baking sweets.
+NEW: Нет. Сегодня у меня выходной, я подумала попробовать испечь что-нибудь сладкое.
+
+### [10] game/tl/russian/dialogs.rpy:6546 (new@6547)
+OLD: Heh, that sounds like you. So, what are you making?
+NEW: Ишь ты, в духе Сиесты. Ну и что печёшь?
+
+### [11] game/tl/russian/dialogs.rpy:6549 (new@6550)
+OLD: I was thinking of making cookies today.
+NEW: Сегодня, пожалуй, испеку печенье.
+
+### [12] game/tl/russian/dialogs.rpy:6552 (new@6553)
+OLD: Cookies, huh. Yeah, yeah - fresh out of the oven they smell great and taste even better.
+NEW: Печенье, ага. Угу-угу — из печи свежее ароматное да ещё и вкусное.
+
+### [13] game/tl/russian/dialogs.rpy:6555 (new@6556)
+OLD: Oh, that's right. Saito-san, why don't you make cookies with me?
+NEW: А, точно. Сайто-сан, не хотите ли вместе испечь печенье?
+
+### [14] game/tl/russian/dialogs.rpy:6558 (new@6559)
+OLD: Huh? Me too?
+NEW: А? Мне тоже?
+
+### [15] game/tl/russian/dialogs.rpy:6561 (new@6562)
+OLD: Yes. It's sure to be fun.
+NEW: Да. Забавно будет точно.
+
+### [16] game/tl/russian/dialogs.rpy:6564 (new@6565)
+OLD: Well, I guess...
+NEW: Ну, пожалуй…
+
+### [17] game/tl/russian/dialogs.rpy:6567 (new@6568)
+OLD: Nah, I'll pass.
+NEW: Не, я лучше воздержусь.
+
+### [18] game/tl/russian/dialogs.rpy:6570 (new@6571)
+OLD: Is that... no good?
+NEW: Неужели нельзя…?
+
+### [19] game/tl/russian/dialogs.rpy:6573 (new@6574)
+OLD: I appreciate the offer, but I'd only get in your way, Siesta.
+NEW: Ценю предложение, но я тебе только помехой буду.
+
+### [20] game/tl/russian/dialogs.rpy:6576 (new@6577)
+OLD: Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know.
+NEW: Э-эм, я ведь ничего особенного не умею, а вы, Сайто-сан, тоже можете кое-что.
+
+### [21] game/tl/russian/dialogs.rpy:6579 (new@6580)
+OLD: Hmm... you've got a point. Alright, let's give it a try.
+NEW: Хм… верно-то. Ладно, попробуем.
+
+### [22] game/tl/russian/dialogs.rpy:6582 (new@6583)
+OLD: That's right. Let's do it together.
+NEW: Вот именно. Давайте вместе.
+
+### [23] game/tl/russian/dialogs.rpy:6585 (new@6586)
+OLD: Sounds like fun - let's do it.
+NEW: Звучит занятно — давай.
+
+### [24] game/tl/russian/dialogs.rpy:6588 (new@6589)
+OLD: Really?!
+NEW: Правда?!
+
+### [25] game/tl/russian/dialogs.rpy:6591 (new@6592)
+OLD: Well, I don't know a thing about cooking, so I might just be dead weight.
+NEW: Ну, я на кухне ни бельмеса, так что, возможно, буду только тормозить.
+
+### [26] game/tl/russian/dialogs.rpy:6594 (new@6595)
+OLD: Not at all. Let's do our best together, okay?
+NEW: Ни в коем случае. Давайте стараться вместе, хорошо?
+
+### [27] game/tl/russian/dialogs.rpy:6597 (new@6598)
+OLD: Yeah.{#ch2.7_s_013}
+NEW: Ага.
+
+### [28] game/tl/russian/dialogs.rpy:6600 (new@6601)
+OLD: Er... I'll be in charge of tasting, then.
+NEW: Э-э… Значит, я отвечаю за дегустацию.
+
+### [29] game/tl/russian/dialogs.rpy:6603 (new@6604)
+OLD: Is that so...? What a shame.
+NEW: Так…? Какая жаль.
+
+### [30] game/tl/russian/dialogs.rpy:6606 (new@6607)
+OLD: And here I thought Saito-san and I could make cookies together...
+NEW: А я думала, мы с Сайто-саном будем печь печенье вместе…
+
+### [31] game/tl/russian/dialogs.rpy:6609 (new@6610)
+OLD: N-no, I mean, I'm terrible at cooking and all...
+NEW: Н-нет, ну, я же готовить не умею и всё такое…
+
+### [32] game/tl/russian/dialogs.rpy:6612 (new@6613)
+OLD: Tug, tug...
+NEW: Тянет-потянет…
+
+### [33] game/tl/russian/dialogs.rpy:6615 (new@6616)
+OLD: ...{#ch2.7_s_016}
+NEW: …{#ch2.7_s_016}
+
+### [34] game/tl/russian/dialogs.rpy:6618 (new@6619)
+OLD: Tug, tug...{#ch2.7_si_014}
+NEW: Тянет-потянет…{#ch2.7_si_014}
+
+### [35] game/tl/russian/dialogs.rpy:6621 (new@6622)
+OLD: Alright. I'll help out too.
+NEW: Ладно. Я тоже помогу.
+
+### [36] game/tl/russian/dialogs.rpy:6624 (new@6625)
+OLD: Really? Then let's do it together!
+NEW: Правда? Тогда давайте вместе!
+
+### [37] game/tl/russian/dialogs.rpy:6627 (new@6628)
+OLD: Then please knead this butter until it's soft and paste-like. I'll get the flour ready in the meantime.
+NEW: Тогда, пожалуйста, разотрите это масло до мягкого пастообразного состояния. А пока я подготовлю муку.
+
+### [38] game/tl/russian/dialogs.rpy:6630 (new@6631)
+OLD: Mm, got it.
+NEW: Мм, понял.
+
+### [39] game/tl/russian/dialogs.rpy:6633 (new@6634)
+OLD: ...Mmf. This is harder than it looks.
+NEW: …Мм. Дело непростое.
+
+### [40] game/tl/russian/dialogs.rpy:6636 (new@6637)
+OLD: Is it done?
+NEW: Готово?
+
+### [41] game/tl/russian/dialogs.rpy:6639 (new@6640)
+OLD: Ah, yeah. Sort of.
+NEW: А, да. В общем, да.
+
+### [42] game/tl/russian/dialogs.rpy:6642 (new@6643)
+OLD: Next, add the sugar and egg yolk, and stir well again.
+NEW: Дальше добавьте сахар и желток и снова хорошо размешайте.
+
+### [43] game/tl/russian/dialogs.rpy:6645 (new@6646)
+OLD: Sugar in first - and once it's mixed well, then the yolk.
+NEW: Сначала сахар, а когда хорошо перемешается — только потом желток.
+
+### [44] game/tl/russian/dialogs.rpy:6648 (new@6649)
+OLD: Roger!
+NEW: Принято!
+
+### [45] game/tl/russian/dialogs.rpy:6651 (new@6652)
+OLD: How is it?
+NEW: Как?
+
+### [46] game/tl/russian/dialogs.rpy:6654 (new@6655)
+OLD: I think I stirred it.
+NEW: Кажется, размешал.
+
+### [47] game/tl/russian/dialogs.rpy:6657 (new@6658)
+OLD: Let's see, let's see.
+NEW: Ну-ка, ну-ка.
+
+### [48] game/tl/russian/dialogs.rpy:6660 (new@6661)
+OLD: ...Yep, this should be fine.
+NEW: …Да, так сойдёт.
+
+### [49] game/tl/russian/dialogs.rpy:6663 (new@6664)
+OLD: Then I'll fold in the flour and mix.
+NEW: Тогда я сама всыплю муку и перемешаю.
+
+### [50] game/tl/russian/dialogs.rpy:6666 (new@6667)
+OLD: Sure, thanks.
+NEW: Ага, на тебя.
+
+### [51] game/tl/russian/dialogs.rpy:6669 (new@6670)
+OLD: Alright.
+NEW: Хорошо.
+
+### [52] game/tl/russian/dialogs.rpy:6672 (new@6673)
+OLD: Now I'll lay out the dough... and put it in the oven...
+NEW: Теперь раскладываю тесто… и в духовку…
+
+### [53] game/tl/russian/dialogs.rpy:6675 (new@6676)
+OLD: Now we just wait for it to bake right.
+NEW: Осталось дождаться, пока хорошо испечётся.
+
+### [54] game/tl/russian/dialogs.rpy:6678 (new@6679)
+OLD: I can't wait for them to be done.
+NEW: Не терпится дождаться готового.
+
+### [55] game/tl/russian/dialogs.rpy:6681 (new@6682)
+OLD: Yes.{#ch2.7_si_027}
+NEW: Да.
+
+### [56] game/tl/russian/dialogs.rpy:6684 (new@6685)
+OLD: I wonder if they're about ready.
+NEW: Кажется, пора.
+
+### [57] game/tl/russian/dialogs.rpy:6687 (new@6688)
+OLD: Let's see... Yep! Looking good.
+NEW: Ну-ка… Отлично!
+
+### [58] game/tl/russian/dialogs.rpy:6690 (new@6691)
+OLD: Let me see... Huh... smells great.
+NEW: Дай гляну… Ишь ты… хорошо пахнет.
+
+### [59] game/tl/russian/dialogs.rpy:6693 (new@6694)
+OLD: Saito-san, go ahead and have a taste.
+NEW: Сайто-сан, пробуйте.
+
+### [60] game/tl/russian/dialogs.rpy:6696 (new@6697)
+OLD: Then I won't hold back.
+NEW: Что ж, без церемоний.
+
+### [61] game/tl/russian/dialogs.rpy:6699 (new@6700)
+OLD: Mm! This is delicious! As expected of Siesta - they're great.
+NEW: Мм! Вкусно! Как и ожидалось от Сиесты — правда вкусно.
+
+### [62] game/tl/russian/dialogs.rpy:6702 (new@6703)
+OLD: Thank you... I'm sure it's because you were here, Saito-san.
+NEW: Спасибо… Уверена, всё вышло потому, что вы были рядом, Сайто-сан.
+
+### [63] game/tl/russian/dialogs.rpy:6705 (new@6706)
+OLD: Nah, in the end I didn't actually do anything useful. But these cookies really are good.
+NEW: Да нет, по сути я тут ничего полезного не сделал. Но печенье правда вкусное.
+
+### [64] game/tl/russian/dialogs.rpy:6708 (new@6709)
+OLD: Fufu, eat as much as you like.
+NEW: Уфуфу, ешьте сколько угодно.
+
+### [65] game/tl/russian/dialogs.rpy:6711 (new@6712)
+OLD: It'd be a waste for me to eat them all. Let's share, Siesta.
+NEW: Жалко, если съем один. Давай вместе, Сиеста.
+
+### [66] game/tl/russian/dialogs.rpy:6714 (new@6715)
+OLD: Ah, yes!
+NEW: А, да!
+
+### [67] game/tl/russian/dialogs.rpy:6717 (new@6718)
+OLD: Hey, Tabitha - it's nice out today. Want to go somewhere for once?
+NEW: Эй, Табита — сегодня хорошая погода. Не пойти ли нам куда-нибудь?
+
+### [68] game/tl/russian/dialogs.rpy:6720 (new@6721)
+OLD: ...Already on my schedule.
+NEW: …У меня уже в планах.
+
+### [69] game/tl/russian/dialogs.rpy:6723 (new@6724)
+OLD: ...Whaat?! Tabitha is going outside!?
+NEW: …Что?! Табита выходит на улицу!?
+
+### [70] game/tl/russian/dialogs.rpy:6726 (new@6727)
+OLD: Ah, no - I'm not saying it's weird to go out. It's just, I came to invite you and you beat me to it...
+NEW: А, нет, я не говорю, что странно выходить. Просто я хотел позвать, а меня опередили…
+
+### [71] game/tl/russian/dialogs.rpy:6729 (new@6730)
+OLD: Ah, whatever. So, where are you headed? I can come along, if you want.
+NEW: Да ладно. И куда идёшь? Могу составить компанию.
+
+### [72] game/tl/russian/dialogs.rpy:6732 (new@6733)
+OLD: ...To town, to buy books.
+NEW: …В город, купить книги.
+
+### [73] game/tl/russian/dialogs.rpy:6735 (new@6736)
+OLD: Oh... sorry, that makes perfect sense.
+NEW: А… прости, всё как раз объяснилось.
+
+### [74] game/tl/russian/dialogs.rpy:6738 (new@6739)
+OLD: ...So I can't come along today.
+NEW: …Поэтому сегодня я не могу пойти.
+
+### [75] game/tl/russian/dialogs.rpy:6741 (new@6742)
+OLD: Hahaha. Come on, in that case I'll at least carry your bags.
+NEW: Ха-ха-ха. Ну, раз так — я хоть сумки подержу.
+
+### [76] game/tl/russian/dialogs.rpy:6744 (new@6745)
+OLD: ...You don't mind?
+NEW: …Ты не против?
+
+### [77] game/tl/russian/dialogs.rpy:6747 (new@6748)
+OLD: Of course, it's nothing.
+NEW: Конечно, это ерунда.
+
+### [78] game/tl/russian/dialogs.rpy:6750 (new@6751)
+OLD: ...They'll get pretty heavy, though.
+NEW: …Только их станет довольно тяжело носить.
+
+### [79] game/tl/russian/dialogs.rpy:6753 (new@6754)
+OLD: Er... how heavy?
+NEW: Э-э… насколько?
+
+### [80] game/tl/russian/dialogs.rpy:6756 (new@6757)
+OLD: ...Usually I only buy what fits in my bag.
+NEW: …Обычно я беру столько, сколько влезет в сумку.
+
+### [81] game/tl/russian/dialogs.rpy:6759 (new@6760)
+OLD: Oh, I can handle that much. Don't worry, leeeave it to me.
+NEW: А, такое я уж точно потащу. Не переживай, полааагайся на меня.
+
+### [82] game/tl/russian/dialogs.rpy:6762 (new@6763)
+OLD: ...Alright. Please.
+NEW: …Ладно. Прошу.
+
+### [83] game/tl/russian/dialogs.rpy:6765 (new@6766)
+OLD: Roger, roger.
+NEW: Принято-принято.
+
+### [84] game/tl/russian/dialogs.rpy:6768 (new@6769)
+OLD: Phew, as lively as ever. So, which way is the bookstore?
+NEW: Фух, как всегда шумно. Итак, в какую сторону книжный?
+
+### [85] game/tl/russian/dialogs.rpy:6771 (new@6772)
+OLD: ...This way.
+NEW: …Сюда.
+
+### [86] game/tl/russian/dialogs.rpy:6774 (new@6775)
+OLD: Okay. Let's go.
+NEW: Ок. Поехали.
+
+### [87] game/tl/russian/dialogs.rpy:6777 (new@6778)
+OLD: ...Just around this corner.
+NEW: …За этим углом.
+
+### [88] game/tl/russian/dialogs.rpy:6780 (new@6781)
+OLD: Let's see.
+NEW: Ну-ка.
+
+### [89] game/tl/russian/dialogs.rpy:6783 (new@6784)
+OLD: This one here - the shop with the sign out front?
+NEW: Вот это, где вывеска висит?
+
+### [90] game/tl/russian/dialogs.rpy:6786 (new@6787)
+OLD: ...Sign?
+NEW: …Вывеска?
+
+### [91] game/tl/russian/dialogs.rpy:6789 (new@6790)
+OLD: Something's written on it. I can't read it, though.
+NEW: Там что-то написано. Только прочитать не могу.
+
+### [92] game/tl/russian/dialogs.rpy:6792 (new@6793)
+OLD: What does it say?
+NEW: Что там написано?
+
+### [93] game/tl/russian/dialogs.rpy:6795 (new@6796)
+OLD: ...'Closed today.'
+NEW: …«Сегодня закрыто».
+
+### [94] game/tl/russian/dialogs.rpy:6798 (new@6799)
+OLD: ...Huh?{#ch2.7_s_046}
+NEW: …Что?
+
+### [95] game/tl/russian/dialogs.rpy:6801 (new@6802)
+OLD: ...The shop is closed.
+NEW: …Магазин закрыт.
+
+### [96] game/tl/russian/dialogs.rpy:6804 (new@6805)
+OLD: Great. Talk about bad luck.
+NEW: Здорово. Везёт же.
+
+### [97] game/tl/russian/dialogs.rpy:6807 (new@6808)
+OLD: Days like this happen.
+NEW: Бывает и так.
+
+### [98] game/tl/russian/dialogs.rpy:6810 (new@6811)
+OLD: Come on, it's not like today's the only day you can buy books. You can just come again next time.
+NEW: Ну, не будешь же ты покупать книги только сегодня. Можно прийти в другой раз.
+
+### [99] game/tl/russian/dialogs.rpy:6813 (new@6814)
+OLD: ...There's no guarantee the book I want will still be in stock by next time.
+NEW: …Нет гарантии, что нужная книга дождётся до следующего раза.
+
+### [100] game/tl/russian/dialogs.rpy:6816 (new@6817)
+OLD: Oof. Fair point, but...
+NEW: Угх. Верно, но…
+
+### [101] game/tl/russian/dialogs.rpy:6819 (new@6820)
+OLD: ...{#ch2.7_s_051}
+NEW: …{#ch2.7_s_051}
+
+### [102] game/tl/russian/dialogs.rpy:6822 (new@6823)
+OLD: Ah, tell you what - next time I'll sneak out on your errand. Tell me the title and I'll buy it for you.
+NEW: А, вот что: в следующий раз я тихонько сбегаю вместо тебя. Назови название — куплю.
+
+### [103] game/tl/russian/dialogs.rpy:6825 (new@6826)
+OLD: ...Are you sure?
+NEW: …Ты правда не против?
+
+### [104] game/tl/russian/dialogs.rpy:6828 (new@6829)
+OLD: Ah, yeah. I'll manage somehow.
+NEW: А, да. Как-нибудь устрою.
+
+### [105] game/tl/russian/dialogs.rpy:6831 (new@6832)
+OLD: ...Thanks.
+NEW: …Спасибо.
+
+### [106] game/tl/russian/dialogs.rpy:6834 (new@6835)
+OLD: I'll buy you something.
+NEW: Я тебя угощу.
+
+### [107] game/tl/russian/dialogs.rpy:6837 (new@6838)
+OLD: ...Huh?{#ch2.7_t_016}
+NEW: …А?
+
+### [108] game/tl/russian/dialogs.rpy:6840 (new@6841)
+OLD: Er, well, it's such nice weather and your throat must be dry, right?
+NEW: Э-э, ну, погода-то отличная, и наверняка пересохло в горле, верно?
+
+### [109] game/tl/russian/dialogs.rpy:6843 (new@6844)
+OLD: That stall over there sells juice, so I'll go grab some.
+NEW: Там у лотка продают сок, сбегаю принесу.
+
+### [110] game/tl/russian/dialogs.rpy:6846 (new@6847)
+OLD: Ah...{#ch2.7_t_017}
+NEW: А…
+
+### [111] game/tl/russian/dialogs.rpy:6849 (new@6850)
+OLD: Here, sorry to keep you waiting. This one's yours, Tabitha.
+NEW: На, извини, что заставил ждать. Это твоё, Табита.
+
+### [112] game/tl/russian/dialogs.rpy:6852 (new@6853)
+OLD: Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine.
+NEW: А, кстати, это какой сок? Меню прочитать не смог, так что взял наугад — не страшно?
+
+### [113] game/tl/russian/dialogs.rpy:6855 (new@6856)
+OLD: ...That's wild grape juice.
+NEW: …Это сок дикого винограда.
+
+### [114] game/tl/russian/dialogs.rpy:6858 (new@6859)
+OLD: Wild grapes, huh. Oh, and what's yours?
+NEW: Дикий виноград, ага. А что у тебя?
+
+### [115] game/tl/russian/dialogs.rpy:6861 (new@6862)
+OLD: ...This one is mountain cranberry juice.
+NEW: …А это сок брусники.
+
+### [116] game/tl/russian/dialogs.rpy:6864 (new@6865)
+OLD: Huh... I have no idea what mountain cranberries are, but... oh well, dig in!
+NEW: Ишь ты… Не знаю я, что за брусника такая… Да ладно, приступаю!
+
+### [117] game/tl/russian/dialogs.rpy:6867 (new@6868)
+OLD: Pfft - sour, but good.
+NEW: Пф — кислый, но вкусный.
+
+### [118] game/tl/russian/dialogs.rpy:6870 (new@6871)
+OLD: Hmm? What's wrong?
+NEW: Мм? Что такое?
+
+### [119] game/tl/russian/dialogs.rpy:6873 (new@6874)
+OLD: ...Nothing.
+NEW: …Ничего.
+
+### [120] game/tl/russian/thoughs.rpy:503 (new@504)
+OLD: Whew... Louise has it rough too, in her own way. I really do admire that grit of hers.
+NEW: Фух… И у Луизы трудности. За такое упрямство — уважаю, честно.
+
+### [121] game/tl/russian/thoughs.rpy:506 (new@507)
+OLD: She's turned it into a whole life creed... come on.
+NEW: Уже образ жизни в кредо превратила, слушай.
+
+### [122] game/tl/russian/thoughs.rpy:509 (new@510)
+OLD: Dammit - did Siesta just set me up?
+NEW: Блин — Сиеста меня только что подставила?
+
+### [123] game/tl/russian/thoughs.rpy:512 (new@513)
+OLD: Even unbaked, it already smells pretty good.
+NEW: Ещё не печёшь, а уже неплохо пахнет.
+
+### [124] game/tl/russian/thoughs.rpy:515 (new@516)
+OLD: Mm-mm-mm. How quick and deft she is.
+NEW: Мм-мм-мм. Как она проворно и ловко всё делает.
+
+### [125] game/tl/russian/thoughs.rpy:518 (new@519)
+OLD: ...{#ch2.7_th1044a}
+NEW: …
+
+### [126] game/tl/russian/thoughs.rpy:521 (new@522)
+OLD: ...{#ch2.7_th1044b}
+NEW: …
+
+### [127] game/tl/russian/thoughs.rpy:524 (new@525)
+OLD: ...{#ch2.7_th1044c}
+NEW: …
+
+### [128] game/tl/russian/thoughs.rpy:527 (new@528)
+OLD: Wow, Tabitha is so disappointed it's obvious just to look at. She must have been looking forward to it a lot.
+NEW: Ваа, Табита расстроена так, что видно невооружённым глазом. Значит, очень ждала.
+
+### [129] game/tl/russian/thoughs.rpy:530 (new@531)
+OLD: ...{#ch2.7_th1045a}
+NEW: …
+
+### [130] game/tl/russian/thoughs.rpy:533 (new@534)
+OLD: ...{#ch2.7_th1045}
+NEW: …{#ch2.7_th1045}
+
+### [131] game/tl/russian/thoughs.rpy:536 (new@537)
+OLD: ...{#ch2.7_th1046a}
+NEW: …
+
+### [132] game/tl/russian/thoughs.rpy:539 (new@540)
+OLD: ...{#ch2.7_th1046b}
+NEW: …

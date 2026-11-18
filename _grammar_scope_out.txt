@@ -1,0 +1,534 @@
+EN strings collected: 133
+RU new in scope: 133
+
+[choises.rpy old@734 new@735]
+EN: It was an accident.{#ch4_m219a}
+RU: Это был несчастный случай.
+
+[choises.rpy old@737 new@738]
+EN: Louise was the one who…{#ch4_m219b}
+RU: Луиза сама проявила инициативу…
+
+[choises.rpy old@740 new@741]
+EN: Actually, it was me…{#ch4_m219c}
+RU: Собственно, это был я…
+
+[dialogs.rpy old@10308 new@10309]
+EN: I didn't gather you all here this early for nothing.
+RU: Не просто так я собрал вас всех с самого утра.
+
+[dialogs.rpy old@10311 new@10312]
+EN: I'd like Miss Vallière to explain about the woman she was letting stay at the academy without permission.
+RU: Я хотел бы попросить мадемуазель Вальер объяснить, как вышло, что она без разрешения поселила в академии одну девушку.
+
+[dialogs.rpy old@10314 new@10315]
+EN: Before I explain, allow me to speak. This woman — Haruna — has done the academy no harm.
+RU: Прежде чем я стану объясняться, позвольте мне сказать. Эта девушка — Харуна — не причинила академии никакого вреда.
+
+[dialogs.rpy old@10317 new@10318]
+EN: The one who caused the harm is me. If punishment is to be given, give it to me alone.
+RU: Вред причинила я. Если наказывать — накажите только меня.
+
+[dialogs.rpy old@10320 new@10321]
+EN: Not that I'm offering a trade, but I hope Haruna will be treated leniently.
+RU: Не то чтобы я предлагала сделку, но я надеюсь на мягкое обращение с Харуной.
+
+[dialogs.rpy old@10323 new@10324]
+EN: Louise…{#ch4_s_001}
+RU: Луиза…
+
+[dialogs.rpy old@10326 new@10327]
+EN: Louise…{#ch4_ha_001}
+RU: Луиза…
+
+[dialogs.rpy old@10329 new@10330]
+EN: Miss Vallière. I understand how you feel.{#ch4_c_003}
+RU: Мадемуазель Вальер. Я понимаю ваши чувства.
+
+[dialogs.rpy old@10332 new@10333]
+EN: But the academy has rules. Academy life is about observing those rules…
+RU: Но в академии есть правила. Академическая жизнь — это следование этим правилам…
+
+[dialogs.rpy old@10335 new@10336]
+EN: Professor Colbert, that will be quite enough.
+RU: Профессор Кольбер, прошу вас, оставьте это.
+
+[dialogs.rpy old@10338 new@10339]
+EN: Neither Miss Vallière nor the rest of you broke the rules on purpose.
+RU: И мадемуазель Вальер, и все остальные не нарушили правила нарочно.
+
+[dialogs.rpy old@10341 new@10342]
+EN: There were reasons. Surely that's so.
+RU: У них были причины. Это очевидно.
+
+[dialogs.rpy old@10344 new@10345]
+EN: No, but Headmaster…
+RU: Нет, но, ректор…
+
+[dialogs.rpy old@10347 new@10348]
+EN: Er, the young lady over there. Might I ask your name once more?
+RU: Э-э, а вы, молодая леди. Можно узнать ваше имя ещё раз?
+
+[dialogs.rpy old@10350 new@10351]
+EN: Yes… Nice to meet you. I am Takanagi Haruna.
+RU: Да… С удовольствием познакомиться. Я — Таканаги Харуна.
+
+[dialogs.rpy old@10353 new@10354]
+EN: Takanagi Haruna… Shall I call you Miss Haruna?
+RU: Таканаги Харуна… Могу я называть вас мадемуазель Харуна?
+
+[dialogs.rpy old@10356 new@10357]
+EN: No, um… Haruna is fine for me. 'Miss Haruna' — well… I'm not of that station…
+RU: Нет, я… Зовите меня просто Харуна. «Мадемуазель Харуна» — это… я не такого положения…
+
+[dialogs.rpy old@10359 new@10360]
+EN: …I see. Then I shall call you as such… Ahem.
+RU: …Понятно. Тогда я буду звать вас так… Кхм.
+
+[dialogs.rpy old@10362 new@10363]
+EN: As Miss Vallière said, Haruna came from another world… is that the story?
+RU: Как сказала мадемуазель Вальер, Харуна пришла из другого мира… так ли это?
+
+[dialogs.rpy old@10365 new@10366]
+EN: Yes… The world I lived in is a different world from this one.
+RU: Да… Мир, в котором я жила, — другой мир, не этот.
+
+[dialogs.rpy old@10368 new@10369]
+EN: My… How very interesting.
+RU: О-о… Как любопытно.
+
+[dialogs.rpy old@10371 new@10372]
+EN: Haruna was my classmate. She served as class president at the school I attended.
+RU: Харуна была моей одноклассницей. Она была старостой в той школе, где я учился.
+
+[dialogs.rpy old@10374 new@10375]
+EN: A classmate, you say?
+RU: Одноклассницей, говоришь?
+
+[dialogs.rpy old@10377 new@10378]
+EN: Yes. So I knew her, or rather, we were acquaintances…
+RU: Да. Так что я её знал, или, вернее, мы были знакомы…
+
+[dialogs.rpy old@10380 new@10381]
+EN: And so I asked Louise, and she let me stay here.
+RU: И я попросил Луизу, и она разрешила мне здесь жить.
+
+[dialogs.rpy old@10383 new@10384]
+EN: What — from the same world as you, Saito?
+RU: Что? Из того же мира, что и ты, Сайто?
+
+[dialogs.rpy old@10386 new@10387]
+EN: Then it's possible that Haruna, too, is a familiar summoned to this world.
+RU: Тогда, возможно, Харуна — тоже фамильяр, призванный в этот мир.
+
+[dialogs.rpy old@10389 new@10390]
+EN: A familiar!?
+RU: Фамильяр!?
+
+[dialogs.rpy old@10392 new@10393]
+EN: Well, there was no precedent for you either, Saito, so I can't say for certain…
+RU: Ну, в твоём случае тоже не было прецедента, Сайто, так что я не могу сказать точно…
+
+[dialogs.rpy old@10395 new@10396]
+EN: We don't know whether the trigger for people and things from other worlds arriving is a natural phenomenon or something artificial.
+RU: Мы не знаем, является ли причиной, по которой люди и вещи из других миров попадают сюда, природным явлением или чем-то искусственным.
+
+[dialogs.rpy old@10398 new@10399]
+EN: For the record, your arrival was certainly due to Miss Vallière's summoning magic.
+RU: К слову, твой случай, Сайто, — это, несомненно, магия призыва мадемуазель Вальер.
+
+[dialogs.rpy old@10401 new@10402]
+EN: Then, Haruna. Can you explain how you came to this world?
+RU: Тогда, Харуна. Можешь ли ты объяснить, как ты попала в этот мир?
+
+[dialogs.rpy old@10404 new@10405]
+EN: No — I was walking home from school when everything went bright, and then I was here. So I don't know the details.
+RU: Нет… Я шла домой из школы, и вдруг стало ослепительно ярко, а потом я уже была здесь. Так что подробностей я не знаю.
+
+[dialogs.rpy old@10407 new@10408]
+EN: After that, strangers grabbed me, I ran away…
+RU: После этого меня хватали незнакомцы, я убегала…
+
+[dialogs.rpy old@10410 new@10411]
+EN: Just when I had no idea what would happen, Hiraga-kun, Louise, and Siesta saved me.
+RU: И когда я уже не знала, что будет дальше, Хирага-кун, Луиза и Сиеста спасли меня.
+
+[dialogs.rpy old@10413 new@10414]
+EN: My… How very mysterious. Just what could have guided you both to this world?
+RU: О-о… Как загадочно. Что же привело вас обоих в этот мир?
+
+[dialogs.rpy old@10416 new@10417]
+EN: The crest — how shall we confirm the Contract Servant? …Old Osmond.
+RU: Что касается знака — как подтвердить Договор с подручным?.. Старый Осман.
+
+[dialogs.rpy old@10419 new@10420]
+EN: …Hm? Con-tract Ser-vant? What's that, Hiraga-kun?
+RU: …Мм? Кон-тракт Сер-вант? Что это, Хирага-кун?
+
+[dialogs.rpy old@10422 new@10423]
+EN: Er… Well, that's…
+RU: Ну… Это…
+
+[dialogs.rpy old@10425 new@10426]
+EN: Contract means covenant. Servant means familiar.
+RU: Контракт — это договор. Сервант — это фамильяр.
+
+[dialogs.rpy old@10428 new@10429]
+EN: Exactly. A Contract Servant is the covenant by which a mage acknowledges a familiar.
+RU: Именно. Контракт Сервант — это договор, которым маг признаёт фамильяра.
+
+[dialogs.rpy old@10431 new@10432]
+EN: It's not that I doubt you…
+RU: Не то чтобы я сомневаюсь…
+
+[dialogs.rpy old@10434 new@10435]
+EN: But if Haruna has formed a contract, a crest should have appeared somewhere on her.
+RU: Но если Харуна заключила договор, где-то на ней должен появиться знак.
+
+[dialogs.rpy old@10437 new@10438]
+EN: I would like to verify that. Will you cooperate?
+RU: Я хочу это проверить. Вы согласны помочь?
+
+[dialogs.rpy old@10440 new@10441]
+EN: A crest?
+RU: Знак?
+
+[dialogs.rpy old@10443 new@10444]
+EN: Haruna. I think she means the crest on my left hand here.
+RU: Харуна. Думаю, она говорит о знаке на моей левой руке.
+
+[dialogs.rpy old@10446 new@10447]
+EN: Oh, it's true… I hadn't noticed.
+RU: А, правда… Я не заметила.
+
+[dialogs.rpy old@10449 new@10450]
+EN: The crest is the proof of the familiar's contract.
+RU: Знак — это доказательство договора с подручным.
+
+[dialogs.rpy old@10452 new@10453]
+EN: The one engraved on the back of your left hand, Saito, is proof of the contract exchanged with Miss Vallière.
+RU: Знак, выгравированный на тыльной стороне твоей левой руки, Сайто, — доказательство договора, заключённого с мадемуазель Вальер.
+
+[dialogs.rpy old@10455 new@10456]
+EN: You swear yourself to the Pentagon that governs the five powers. Bestow blessing upon this one, and make them my familiar. …Or so it goes.
+RU: Ты клянёшься Пентагону, владыке пяти сил. Даруй благословение сему существу и сделай его моим подручным… Ну, вроде того.
+
+[dialogs.rpy old@10458 new@10459]
+EN: And then you bestow the oath's kiss upon the familiar…
+RU: И затем ты даруешь фамильяру поцелуй клятвы…
+
+[dialogs.rpy old@10461 new@10462]
+EN: A-a kiss!?
+RU: П-поцелуй!?
+
+[dialogs.rpy old@10464 new@10465]
+EN: Gh… Quiet, Guiche!! You had to go and remember that tedious bit!!
+RU: Тьфу… Заткнись, Гиш!! Тебе обязательно вспомнить эту чушь!!
+
+[dialogs.rpy old@10467 new@10468]
+EN: What do you mean, 'that tedious bit'!!
+RU: Что значит «эта чушь»!!
+
+[dialogs.rpy old@10470 new@10471]
+EN: It's nothing at all!!
+RU: Ничего это не значит!!
+
+[dialogs.rpy old@10473 new@10474]
+EN: Wh-what, I've never kissed anyone!! And besides… then Hiraga-kun is… wh-what!?
+RU: Я-я никого не целовала!! И вообще… выходит, Хирага-кун… что-что!?
+
+[dialogs.rpy old@10476 new@10477]
+EN: Ah, no, that's, well…
+RU: А, нет, это, ну…
+
+[dialogs.rpy old@10479 new@10480]
+EN: Th-that was an accident. It was necessary for the familiar ritual.
+RU: Это был несчастный случай. Так было нужно для ритуала фамильяра.
+
+[dialogs.rpy old@10482 new@10483]
+EN: Th-that's right. I only kissed you because the ritual required it. There was nothing else to it.
+RU: В-верно. Я поцеловала тебя только потому, что ритуал этого требовал. Ничего больше.
+
+[dialogs.rpy old@10485 new@10486]
+EN: Louise was the one who asked for it, you see…
+RU: Это Луиза сама пожелала…
+
+[dialogs.rpy old@10488 new@10489]
+EN: Y-you idiot. It was obviously for the ritual, wasn't it? There was nothing else to it.
+RU: Д-дурак. Это же очевидно было для ритуала, не так ли? Ничего больше.
+
+[dialogs.rpy old@10491 new@10492]
+EN: Where else would you find someone demanding a kiss from a commoner who appeared out of nowhere?
+RU: И где ещё найдёшь человека, который потребует поцелуя у неожиданно появившегося простолюдина.
+
+[dialogs.rpy old@10494 new@10495]
+EN: A-actually, it was me…
+RU: С-собственно, это был я…
+
+[dialogs.rpy old@10497 new@10498]
+EN: Eh!
+RU: Э-э!
+
+[dialogs.rpy old@10500 new@10501]
+EN: Y-you idiot, what are you saying. It was obviously for the ritual, wasn't it? There was nothing else to it.
+RU: Д-дурак, что ты такое говоришь. Это же очевидно было для ритуала, не так ли? Ничего больше.
+
+[dialogs.rpy old@10503 new@10504]
+EN: I-is that so…
+RU: Т-так вот оно что…
+
+[dialogs.rpy old@10506 new@10507]
+EN: It is. It was an act performed in a sacred ritual. Please calm yourself, Haruna.
+RU: Именно. Это был акт, совершённый в священном ритуале. Успокойся, Харуна.
+
+[dialogs.rpy old@10509 new@10510]
+EN: I'm sorry.
+RU: Простите.
+
+[dialogs.rpy old@10512 new@10513]
+EN: Now then, Professor Colbert.
+RU: Итак, профессор Кольбер.
+
+[dialogs.rpy old@10515 new@10516]
+EN: I think we must check whether or not a crest is engraved upon Haruna?
+RU: Думаю, необходимо проверить, есть ли на Харуне знак, верно?
+
+[dialogs.rpy old@10518 new@10519]
+EN: …Indeed, that's true.
+RU: …Действительно, это так.
+
+[dialogs.rpy old@10521 new@10522]
+EN: Whether she came from another world as a familiar, or simply wandered into this one by chance.
+RU: Пришла ли она из другого мира как фамильяр, или просто случайно забрела в этот мир.
+
+[dialogs.rpy old@10524 new@10525]
+EN: The difference is significant — and it's the most important matter.
+RU: Разница велика, и это важнее всего.
+
+[dialogs.rpy old@10527 new@10528]
+EN: Confirming the crest…?
+RU: Проверка знака…?
+
+[dialogs.rpy old@10530 new@10531]
+EN: If the crest hasn't been confirmed yet, I could examine her myself…
+RU: Если знак ещё не проверен, я мог бы осмотреть её сам…
+
+[dialogs.rpy old@10533 new@10534]
+EN: Ahem.
+RU: Кхм.
+
+[dialogs.rpy old@10536 new@10537]
+EN: No, no, that was a joke. We'll leave it to one of the female teachers.
+RU: Нет-нет, это была шутка. Мы поручим это одной из женщин-преподавателей.
+
+[dialogs.rpy old@10539 new@10540]
+EN: Um, Old Osmond. When I was looking after Takanagi Haruna…
+RU: Слушайте, Старый Осман. Когда я ухаживала за Таканаги Харуной…
+
+[dialogs.rpy old@10542 new@10543]
+EN: I examined her body, but I didn't find any such crest.
+RU: Я осматривала её тело, но никакого такого знака не обнаружила.
+
+[dialogs.rpy old@10545 new@10546]
+EN: I see, Miss Montmorency. There's no mistake in what you say?
+RU: Понятно, мадемуазель Монморанси. Вы не ошибаетесь?
+
+[dialogs.rpy old@10548 new@10549]
+EN: …No. There is no mistake, Professor Colbert.
+RU: …Да. Я не ошибаюсь, профессор Кольбер.
+
+[dialogs.rpy old@10551 new@10552]
+EN: Hmm, is that so.
+RU: Хм, вот как.
+
+[dialogs.rpy old@10554 new@10555]
+EN: …Hmm. Very well. I shall take Miss Montmorency's word.
+RU: …Мм. Ладно. Я поверю мадемуазель Монморанси.
+
+[dialogs.rpy old@10557 new@10558]
+EN: Then this meeting is adjourned. From now on, each of you will be mindful and act in a way that brings no shame upon the name of nobility.
+RU: Тогда объявляю заседание закрытым. Отныне каждый из вас должен помнить и действовать так, чтобы не опозорить имя дворянства.
+
+[dialogs.rpy old@10560 new@10561]
+EN: Especially you, Miss Vallière. And you, Miss Zerbst. Both of you be especially careful.
+RU: Особенно ты, мадемуазель Вальер. И ты, мадемуазель Цербст. Обе будьте особенно осторожны.
+
+[dialogs.rpy old@10563 new@10564]
+EN: Yes.{#ch4_l_010}
+RU: Хорошо.
+
+[dialogs.rpy old@10566 new@10567]
+EN: Understood.{#ch4_k_001}
+RU: Поняла.
+
+[dialogs.rpy old@10569 new@10570]
+EN: Furthermore, we will deliberate on Haruna's custody within the academy. Refrain from any rash actions.
+RU: К тому же судьбу Харуны мы обсудим внутри академии. Воздержитесь от опрометчивых действий.
+
+[dialogs.rpy old@10572 new@10573]
+EN: Yes… I'm sorry.
+RU: Хорошо… Простите.
+
+[dialogs.rpy old@10575 new@10576]
+EN: Ho ho ho, there's no need to be so afraid. I won't treat you badly. You may rest easy.
+RU: Хо-хо-хо, не надо так бояться. Я не причиню тебе зла. Можешь не волноваться.
+
+[dialogs.rpy old@10578 new@10579]
+EN: Thank you, Headmaster.
+RU: Спасибо, ректор.
+
+[dialogs.rpy old@10581 new@10582]
+EN: Until we contact you, Haruna will remain in Miss Vallière's care.
+RU: До тех пор, пока мы не свяжемся с вами, Харуна остаётся на попечении мадемуазель Вальер.
+
+[dialogs.rpy old@10584 new@10585]
+EN: Understood.{#ch4_l_011}
+RU: Поняла.
+
+[dialogs.rpy old@10587 new@10588]
+EN: It'll be fine, Haruna. We're with you.
+RU: Всё будет хорошо, Харуна. Мы с тобой.
+
+[dialogs.rpy old@10590 new@10591]
+EN: Mm, thank you. Hiraga-kun.
+RU: Мм, спасибо. Хирага-кун.
+
+[dialogs.rpy old@10593 new@10594]
+EN: Wh-what about my thanks!?
+RU: А-а где же благодарность мне!
+
+[dialogs.rpy old@10596 new@10597]
+EN: Um, Louise — nice to meet you too, formally.
+RU: Ну, Луиза — приятно познакомиться и с тобой, по-настоящему.
+
+[dialogs.rpy old@10599 new@10600]
+EN: N-nice to meet you, Haruna.
+RU: П-приятно познакомиться, Харуна.
+
+[dialogs.rpy old@10602 new@10603]
+EN: Well, I suppose that's a relief, isn't it?
+RU: Ну, вот и полегчало, не так ли?
+
+[dialogs.rpy old@10605 new@10606]
+EN: …{#ch4_t_v01}
+RU: …
+
+[dialogs.rpy old@10608 new@10609]
+EN: This meeting is adjourned… or I'd like to say as much, but…
+RU: На этом заседание закрыто… Хотел бы я так сказать, но…
+
+[dialogs.rpy old@10611 new@10612]
+EN: Miss Vallière, Saito, Haruna. Could the three of you stay behind?
+RU: Мадемуазель Вальер, Сайто, Харуна. Не могли бы остаться втроём?
+
+[dialogs.rpy old@10614 new@10615]
+EN: The three of us…?
+RU: Нас троих…?
+
+[dialogs.rpy old@10617 new@10618]
+EN: If you would.
+RU: Будьте добры.
+
+[dialogs.rpy old@10620 new@10621]
+EN: Well then, I'll be off.
+RU: Ну, тогда я пойду первой.
+
+[dialogs.rpy old@10623 new@10624]
+EN: Excuse me.{#ch4_si_001}
+RU: Прошу прощения.
+
+[dialogs.rpy old@10626 new@10627]
+EN: See you.
+RU: Уже ухожу.
+
+[dialogs.rpy old@10629 new@10630]
+EN: Professor Colbert. Would you close the door?
+RU: Профессор Кольбер. Закроешь дверь?
+
+[dialogs.rpy old@10632 new@10633]
+EN: Y-yes.{#ch4_c_028}
+RU: Д-да.
+
+[dialogs.rpy old@10635 new@10636]
+EN: The truth is, you see.
+RU: Вот в чём дело.
+
+[dialogs.rpy old@10638 new@10639]
+EN: Her Majesty the Queen has commanded that Miss Vallière and her familiar be sent to the royal palace.
+RU: Её Величество Королева повелела отправить мадемуазель Вальер и её фамильяра в королевский дворец.
+
+[dialogs.rpy old@10641 new@10642]
+EN: Her Majesty — me and Saito?
+RU: Её Величество — меня и Сайто?
+
+[dialogs.rpy old@10644 new@10645]
+EN: The princess?
+RU: Принцесса?
+
+[dialogs.rpy old@10647 new@10648]
+EN: The Queen?
+RU: Королева?
+
+[dialogs.rpy old@10650 new@10651]
+EN: Could it be… has word of Haruna reached the palace?
+RU: Неужели… Слухи о Харуне дошли до дворца?
+
+[dialogs.rpy old@10653 new@10654]
+EN: Who can say — I don't know the details either.
+RU: Кто знает — подробностей я тоже не знаю.
+
+[dialogs.rpy old@10656 new@10657]
+EN: But I thought it a good opportunity to report that people from another world have arrived, so I reported it to Her Majesty earlier.
+RU: Но я подумал, что это хорошая возможность сообщить, что прибыли люди из другого мира, и уже доложил Её Величеству.
+
+[dialogs.rpy old@10659 new@10660]
+EN: While I'm at it — forgive the imposition — might I ask you to present Haruna to Her Majesty as well?
+RU: Заодно — простите за назойливость — не могу ли я попросить представить Харуну Её Величеству?
+
+[dialogs.rpy old@10662 new@10663]
+EN: Understood.{#ch4_l_017}
+RU: Поняла.
+
+[dialogs.rpy old@10665 new@10666]
+EN: Good.
+RU: Хорошо.
+
+[dialogs.rpy old@10668 new@10669]
+EN: The sooner you depart, the better. I've already had a carriage waiting before the academy. Set out as soon as your preparations are ready.
+RU: Чем раньше вы отправитесь, тем лучше. Я уже выставил экипаж перед академией. Отправляйтесь, как только соберётесь.
+
+[dialogs.rpy old@10671 new@10672]
+EN: Yes, understood.{#ch4_l_018}
+RU: Да, поняла.
+
+[dialogs.rpy old@10674 new@10675]
+EN: Then, Miss Vallière. See that you don't disgrace yourself before Her Majesty.
+RU: Тогда, мадемуазель Вальер. Смотрите, чтобы перед Её Величеством не оплошать.
+
+[dialogs.rpy old@10677 new@10678]
+EN: Yes, Professor Colbert. I understand.
+RU: Да, профессор Кольбер. Мне понятно.
+
+[dialogs.rpy old@10680 new@10681]
+EN: Then I'll return to my room to pack for the journey. Excuse me.
+RU: Тогда я вернусь в комнату и соберу вещи для поездки. Прошу прощения.
+
+[thoughs.rpy old@701 new@702]
+EN: …Because of the Louise-and-Kirche commotion, Haruna's secret got out to the academy…{#ch4_th_219a}
+RU: …Из-за перепалки Луизы с Кирхе академия узнала про Харуну…
+
+[thoughs.rpy old@704 new@705]
+EN: …And now we have to explain the situation to the Headmaster…{#ch4_th_219b}
+RU: …И теперь придётся объясняться перед ректором…
+
+[thoughs.rpy old@707 new@708]
+EN: …All I can do is pray Haruna doesn't get expelled…{#ch4_th_219c}
+RU: …Остаётся лишь молиться, чтобы Харуну не исключили из академии.
+
+[thoughs.rpy old@710 new@711]
+EN: Wh-what did you say!! You mean to examine Haruna's body from head to toe!?{#ch4_th_223}
+RU: Ч-что вы сказали!! Вы хотите осмотреть Харуну с головы до ног!?
+
+[thoughs.rpy old@713 new@714]
+EN: ………………{#ch4_null_224}
+RU: ………………

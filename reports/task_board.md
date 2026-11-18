@@ -490,3 +490,51 @@
 | S37 | [x] done | `manual` | `5_10` | H humanizer 5_10 |
 | S38 | [x] done | `manual` | `5_11` | H humanizer 5_11 |
 
+## T20261118-183623-6c75 — [closed] (закрыто 38 из 38)
+
+* Запрос: Russian grammar/syntax/prose audit for all ch2-5 parts
+* Цель: `2`
+* Создана: 2026-11-18 18:36:23
+* Закрыта: 2026-11-18 20:43:47
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | G grammar 2_1 |
+| S2 | [x] done | `manual` | `2_2` | G grammar 2_2 |
+| S3 | [x] done | `manual` | `2_3` | G grammar 2_3 |
+| S4 | [x] done | `manual` | `2_4` | G grammar 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | G grammar 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | G grammar 2_4c |
+| S7 | [x] done | `manual` | `2_5` | G grammar 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | G grammar 2_5b |
+| S9 | [x] done | `manual` | `2_6` | G grammar 2_6 |
+| S10 | [x] done | `manual` | `2_7` | G grammar 2_7 |
+| S11 | [x] done | `manual` | `2_8` | G grammar 2_8 |
+| S12 | [x] done | `manual` | `3_1` | G grammar 3_1 |
+| S13 | [x] done | `manual` | `3_2` | G grammar 3_2 |
+| S14 | [x] done | `manual` | `3_3` | G grammar 3_3 |
+| S15 | [x] done | `manual` | `3_4` | G grammar 3_4 |
+| S16 | [x] done | `manual` | `3_5` | G grammar 3_5 |
+| S17 | [x] done | `manual` | `3_6` | G grammar 3_6 |
+| S18 | [x] done | `manual` | `3_7` | G grammar 3_7 |
+| S19 | [x] done | `manual` | `3_8` | G grammar 3_8 |
+| S20 | [x] done | `manual` | `3_9` | G grammar 3_9 |
+| S21 | [x] done | `manual` | `4_1` | G grammar 4_1 |
+| S22 | [x] done | `manual` | `4_2` | G grammar 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | G grammar 4_2b |
+| S24 | [x] done | `manual` | `4_3` | G grammar 4_3 |
+| S25 | [x] done | `manual` | `4_4` | G grammar 4_4 |
+| S26 | [x] done | `manual` | `4_5` | G grammar 4_5 |
+| S27 | [x] done | `manual` | `4_6` | G grammar 4_6 |
+| S28 | [x] done | `manual` | `5_1` | G grammar 5_1 |
+| S29 | [x] done | `manual` | `5_2` | G grammar 5_2 |
+| S30 | [x] done | `manual` | `5_3` | G grammar 5_3 |
+| S31 | [x] done | `manual` | `5_4` | G grammar 5_4 |
+| S32 | [x] done | `manual` | `5_5` | G grammar 5_5 |
+| S33 | [x] done | `manual` | `5_6` | G grammar 5_6 |
+| S34 | [x] done | `manual` | `5_7` | G grammar 5_7 |
+| S35 | [x] done | `manual` | `5_8` | G grammar 5_8 |
+| S36 | [x] done | `manual` | `5_9` | G grammar 5_9 |
+| S37 | [x] done | `manual` | `5_10` | G grammar 5_10 |
+| S38 | [x] done | `manual` | `5_11` | G grammar 5_11 |
+

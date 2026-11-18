@@ -140,7 +140,7 @@ translate russian strings:
     new "Я-я не думаю так…"
 
     old "Then, shall I have you help me carry the bags? Guiche alone isn't reliable enough.{#ch5_6_v4999}"
-    new "Тогда, может, ты поможешь мне нести вещи? Одного Гиша недостаточно надёжно."
+    new "Тогда, может, ты поможешь мне нести вещи? С одним Гишем недостаточно надёжно."
 
     old "O-ok, got it!{#ch5_6_v9951}"
     new "О-ок, договорились!"

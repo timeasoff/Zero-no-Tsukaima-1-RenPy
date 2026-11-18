@@ -6500,7 +6500,7 @@ translate russian strings:
     new "П-почему?"
 
     old "Well, it just looks fresh and tasty... Is there some other reason?"
-    new "Да просто кажется свежим и вкусным… А какой ещё должна быть причина?"
+    new "Да просто кажется свежим и вкусным… А какая ещё должна быть причина?"
 
     old "No."
     new "Нет."
@@ -6509,7 +6509,7 @@ translate russian strings:
     new "Почему нельзя!?"
 
     old "There's none to spare for you. I had to ask the ranchers for this specially, you know."
-    new "Тебе-то не отлей. Я же у хозяев фермы специально выпрашивала."
+    new "Тебе-то не отолью. Я же у хозяев фермы специально выпрашивала."
 
     old "Tch... I guess that's how it is."
     new "Чё… ну ладно, понятно."
@@ -6601,7 +6601,7 @@ translate russian strings:
     new "Э-э… Значит, я отвечаю за дегустацию."
 
     old "Is that so...? What a shame."
-    new "Так…? Какая жаль."
+    new "Так…? Как жаль."
 
     old "And here I thought Saito-san and I could make cookies together..."
     new "А я думала, мы с Сайто-саном будем печь печенье вместе…"
@@ -9373,7 +9373,7 @@ translate russian strings:
     new "Сайто-сан, как вы можете…"
 
     old "If they don't go until they're satisfied, the bad blood never goes away, right?"
-    new "Пока оба не будут довольны, дурные чувства никуда не денутся, верно?"
+    new "Пока обе не будут довольны, дурные чувства никуда не денутся, верно?"
 
     old "But this is a duel between nobles. Someone could get seriously hurt…"
     new "Но это же дуэль между дворянами. Можно серьёзно пострадать…"
@@ -9382,7 +9382,7 @@ translate russian strings:
     new "Ммм…"
 
     old "Hey, you two — maybe you should still call it off…"
-    new "Слушайте вас двоих — всё-таки, может, не стоит…"
+    new "Слушайте, вы двое — всё-таки, может, не стоит…"
 
     old "Be quiet, Saito! We've already decided to fight!"
     new "Помолчи, Сайто! Мы уже решили драться!"
@@ -9568,7 +9568,7 @@ translate russian strings:
     new "Что такое, Харуна?"
 
     old "In the end, I caused trouble for Louise and Siesta… How should I apologize, do you think…"
-    new "В конце концов, я причинила неприятности Луизе и Сиесте… Как мне их извинить, думаешь…"
+    new "В конце концов, я причинила неприятности Луизе и Сиесте… Как мне перед ними извиниться, думаешь…"
 
     old "Why not just apologize honestly? You didn't mean any real harm, Haruna — I'm sure they'll understand."
     new "Может, просто честно извиниться? Ты ведь не хотела зла, Харуна — тебя поймут."
@@ -9820,7 +9820,7 @@ translate russian strings:
     new "Спасибо! Ну, тогда…"
 
     old "Honestly, that Saito! In the end it's all about Haruna! If he wanted to know how the shelf works, he could've asked me!"
-    new "Ну и Сайто-то! Всё время только Харуной и занят! Спроши у меня, как эта полка работает — вот и всё!"
+    new "Ну и Сайто-то! Всё время только Харуной и занят! Спроси у меня, как эта полка работает — вот и всё!"
 
     old "A dog! He's a dog! Wags his tail at anyone and everyone — he's definitely a dog!"
     new "Собака! Собака! Хвостом виляет всякому — точно собака!"
@@ -10129,7 +10129,7 @@ translate russian strings:
     new "Как будто я вру!"
 
     old "I was thinking — Sylphid is someone you can really let your guard down around."
-    new "Я подумал — Сильфида, кажется, тот, рядом с кем Табита может расслабиться."
+    new "Я подумал — Сильфида, кажется, та, рядом с кем Табита может расслабиться."
 
     old "Still… peeking is wrong."
     new "Но… подглядывать — дурно."
@@ -10393,7 +10393,7 @@ translate russian strings:
     new "Ну, в твоём случае тоже не было прецедента, Сайто, так что я не могу сказать точно…"
 
     old "We don't know whether the trigger for people and things from other worlds arriving is a natural phenomenon or something artificial."
-    new "Мы не знаем, является ли причиной, по которой люди и вещи из других миров попадают сюда, природным явлением или чем-то искусственным."
+    new "Мы не знаем, является ли причиной того, что люди и вещи из других миров попадают сюда, природное явление или нечто искусственное."
 
     old "For the record, your arrival was certainly due to Miss Vallière's summoning magic."
     new "К слову, твой случай, Сайто, — это, несомненно, магия призыва мадемуазель Вальер."
@@ -10486,7 +10486,7 @@ translate russian strings:
     new "Это Луиза сама пожелала…"
 
     old "Y-you idiot. It was obviously for the ritual, wasn't it? There was nothing else to it."
-    new "Д-дурак. Это же очевидно было для ритуала, не так ли? Ничего больше."
+    new "Д-дурак. Это же, очевидно, было для ритуала, не так ли? Ничего больше."
 
     old "Where else would you find someone demanding a kiss from a commoner who appeared out of nowhere?"
     new "И где ещё найдёшь человека, который потребует поцелуя у неожиданно появившегося простолюдина."
@@ -10498,7 +10498,7 @@ translate russian strings:
     new "Э-э!"
 
     old "Y-you idiot, what are you saying. It was obviously for the ritual, wasn't it? There was nothing else to it."
-    new "Д-дурак, что ты такое говоришь. Это же очевидно было для ритуала, не так ли? Ничего больше."
+    new "Д-дурак, что ты такое говоришь. Это же, очевидно, было для ритуала, не так ли? Ничего больше."
 
     old "I-is that so…"
     new "Т-так вот оно что…"
@@ -11500,10 +11500,10 @@ translate russian strings:
     new "Э-э!?"
 
     old "Look, Siesta has black hair and black eyes, right? I figure calling her my little sister would pass just fine."
-    new "Ну а Сиеста — у неё чёрные волосы и чёрные глаза, так? Думаю, сойдёт, если позвать её моей сестрой."
+    new "Ну а Сиеста — у неё чёрные волосы и чёрные глаза, так? Думаю, сойдёт, если назвать её моей сестрой."
 
     old "U-um… Should I call you 'big bro'? Or maybe 'esteemed elder brother'?"
-    new "Э-э… И как мне вас звать? Братиком? Или солиднее — братец?"
+    new "Э-э… И как мне вас звать? Братиком? Или солиднее — братцем?"
 
     old "Aah, which should I go with!? Now I'm all torn…"
     new "А-ах, что выбрать! Я никак не решусь…"
@@ -11644,7 +11644,7 @@ translate russian strings:
     new "Так точно."
 
     old "And a Hiraga-kun like that gets PUNISHED!"
-    new "А вот такого Хираги-куна ждёт наказание!"
+    new "А вот такого Хирагу-куна ждёт наказание!"
 
     old "P-punished!? …Wait, with what?"
     new "Н-наказание!? …Стоп, а это что?"
@@ -11965,7 +11965,7 @@ translate russian strings:
     new "Сайто!"
 
     old "Y-yeeesss!! Wh-what is it, yelling out of nowhere. You startled me, you know!"
-    new "Д-да-да!! Ч-что вдруг орешь? Меня вон напугал!"
+    new "Д-да-да!! Ч-что вдруг орешь? Меня вон напугала!"
 
     old "The one surprised here is me. Why were you muttering to yourself behind my back?"
     new "Это я тут перепугалась. Чего это ты у меня за спиной бормочешь?"
@@ -13804,7 +13804,7 @@ translate russian strings:
 
 translate russian strings:
     old "Like we could? Haruna might be being attacked right now!"
-    new "Разве это возможно?! Вдруг на Харуну прямо сейчас атакуют!"
+    new "Разве это возможно?! Вдруг Харуну прямо сейчас атакуют! (допустимо также: …Вдруг на Харуну прямо сейчас нападут!)"
 
 translate russian strings:
     old "Oh-ho. It does look like something interesting is happening, doesn't it?"
@@ -13828,7 +13828,7 @@ translate russian strings:
 
 translate russian strings:
     old "Since you two weren't coming back to the academy, I figured you must have gotten involved in something interesting."
-    new "Раз вы всё не возвращались в Академию, я подумала, что вас, видимо, втянули в что-нибудь интересное."
+    new "Раз вы всё не возвращались в Академию, я подумала, что вас, видимо, втянули во что-нибудь интересное."
 
 translate russian strings:
     old "Seems I hit the mark, then."
@@ -14491,7 +14491,7 @@ translate russian strings:
 
 translate russian strings:
     old "…A story of a country, of a princess buffeted by fate and the noblemen who fell in love with her and were ruined."
-    new "…История страны и о принцессе, которую ломает судьба, и о благородных юношах, что влюбились в неё и разорились."
+    new "…История о стране, о принцессе, которую ломает судьба, и о благородных юношах, что влюбились в неё и разорились."
 
 translate russian strings:
     old "Wouldn't that suit the times we live in?"
@@ -14922,7 +14922,7 @@ translate russian strings:
 
 translate russian strings:
     old "The young Princess Noelle, caught up in a struggle for power in a neighboring country, was secretly smuggled away by a loyal retainer."
-    new "Маленькую принцессу Ноэль, затянутую в борьбу за власть в соседнем королевстве, тайно вывезли с помощью верного слуги."
+    new "Маленькую принцессу Ноэль, вовлечённую в борьбу за власть в соседнем королевстве, тайно вывезли с помощью верного слуги. (Либо: «втянутую в борьбу».)"
 
 translate russian strings:
     old "However, lost in the deep forest, she was picked up by the old nobleman like a forgotten child, having lost her memory."
@@ -14938,7 +14938,7 @@ translate russian strings:
 
 translate russian strings:
     old "Noelle, who kept turning down proposals by posing impossible questions. But her meeting with Prince Cain, who had heard the rumors, began the tragedy."
-    new "Ноэль, отклонявшая предложения, задавая невозможные вопросы. Однако встреча с принцем Кейном, услышавшим слухи стала началом трагедии."
+    new "Ноэль, отклонявшая предложения, задавая невозможные вопросы. Однако встреча с принцем Кейном, услышавшим слухи, стала началом трагедии."
 
 translate russian strings:
     old "Yes, the two of them fell in love. That's where we left off last time."
@@ -15616,7 +15616,7 @@ translate russian strings:
 
 translate russian strings:
     old "…Wh-what is that! Haruna, was your chest padded?"
-    new "…Ч-Что это! У Харуна грудь оказалась накладной?!"
+    new "…Ч-Что это! У Харуны грудь оказалась накладной?!"
 
 translate russian strings:
     old "S-sorry!{#ch5_5_v2365}"
@@ -15884,7 +15884,7 @@ translate russian strings:
 
 translate russian strings:
     old "…Eh? W-wait! What do you mean, provisional?!"
-    new "…А? П-погоди! Что значит, „предварительно“?!"
+    new "…А? П-погоди! Что значит «предварительно»?!"
 
 translate russian strings:
     old "Everyone's still rough, but they've got the right stuff. Depending on how the other candidates turn out, I may swap you out."
@@ -16012,7 +16012,7 @@ translate russian strings:
 
 translate russian strings:
     old "Do you mean looking for 'the bomb user' the Queen asked me about?"
-    new "Ты имеешь в виду поиск „бомбиста“, о котором просила королева?"
+    new "Ты имеешь в виду поиск «бомбиста», о котором просила королева?"
 
 translate russian strings:
     old "Correct."
@@ -16028,7 +16028,7 @@ translate russian strings:
 
 translate russian strings:
     old "The answer is: what happened to finding 'the bomb user'?{#ch5_5_v3284}"
-    new "Правильный ответ: а как там поиск „бомбиста“?"
+    new "Правильный ответ: а как там поиск «бомбиста»?"
 
 translate russian strings:
     old "Could it be that my footwork in the dance wasn't good today?"
@@ -16040,7 +16040,7 @@ translate russian strings:
 
 translate russian strings:
     old "The answer is: what happened to finding 'the bomb user'?{#ch5_5_v3286}"
-    new "Правильный ответ: а как там поиск „бомбиста“?"
+    new "Правильный ответ: а как там поиск «бомбиста»?"
 
 translate russian strings:
     old "Crap. I've been so busy with practice lately I haven't been able to look around at all."

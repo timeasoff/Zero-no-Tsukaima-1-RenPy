@@ -1,0 +1,32 @@
+======================================================================
+EN ANCHOR: Is that so...? What a shame.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6597]: そう……ですか？残念です。
+======================================================================
+EN ANCHOR: ...There's no guarantee the book I want will still be in stock by next time.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6807]: ……今度来るときまでに、目当ての本が売れ残ってる保証はない。
+======================================================================
+EN ANCHOR: That stall over there sells juice, so I'll go grab some.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6837]: そこの露店でジュース売ってたから、買ってくるよ。
+======================================================================
+EN ANCHOR: Even unbaked, it already smells pretty good.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/thoughs.rpy:517]: （まだ焼いてないのに、　それなりにいい匂いがするな）
+======================================================================
+EN ANCHOR: Er, well, it's such nice weather and your throat must be dry, right?
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6834]: ええと、まああれだ、こんだけの上天気だし喉も渇いたろ？
+======================================================================
+EN ANCHOR: Sure, thanks.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6660]: うん、よろしく。
+======================================================================
+EN ANCHOR: Hey, Siesta. So you're here.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6531]: やあ、シエスタ。ここにいたんだ。
+======================================================================
+EN ANCHOR: ...They'll get pretty heavy, though.
+  in script-ch2_7.rpy: True
+  JA [game/tl/japanese/dialogs.rpy:6744]: ……かなり重くなるけど。

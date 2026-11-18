@@ -1158,7 +1158,7 @@ translate russian strings:
 
 translate russian strings:
     old "Looking for the bomb user?"
-    new "Поиск „бомбиста“?"
+    new "Поиск «бомбиста»?"
 
 translate russian strings:
     old "Kirche's birthday?"

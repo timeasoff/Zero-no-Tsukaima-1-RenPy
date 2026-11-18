@@ -1,0 +1,1154 @@
+[
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4440,
+  "old_line": 4439,
+  "script_line": 18,
+  "en": "Damn it! The bomb user got away...!? Nowhere in sight.",
+  "ru": "Чёрт! Бомбист скрылся…!? Нигде не видно."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4443,
+  "old_line": 4442,
+  "script_line": 21,
+  "en": "Partner, it's not just the bomb user. Take a look around.",
+  "ru": "Партнёр, дело не только в бомбисте. Оглянись."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4446,
+  "old_line": 4445,
+  "script_line": 24,
+  "en": "Huh... Aah! Those guys have vanished too!?",
+  "ru": "А… Аа! Эти тоже исчезли!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4449,
+  "old_line": 4448,
+  "script_line": 28,
+  "en": "Whaaat? When did they...!",
+  "ru": "Что? Когда они…!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4452,
+  "old_line": 4451,
+  "script_line": 31,
+  "en": "They slipped away in that explosion? Then that bomb user really was their accomplice?",
+  "ru": "Они скрылись в этом взрыве? Значит, бомбист действительно был их сообщником?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4455,
+  "old_line": 4454,
+  "script_line": 35,
+  "en": "That's very likely. Someone curious enough to sneak into the academy — a chance encounter would be too convenient.",
+  "ru": "Очень вероятно. Тот, кому любопытно проникнуть в академию, — случайная встреча была бы слишком удобной."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4458,
+  "old_line": 4457,
+  "script_line": 39,
+  "en": "But that explosion — what in the world...?",
+  "ru": "Но этот взрыв — что, вообще…?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4461,
+  "old_line": 4460,
+  "script_line": 43,
+  "en": "Professor? What is it?",
+  "ru": "Профессор? Что-то случилось?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4464,
+  "old_line": 4463,
+  "script_line": 47,
+  "en": "Ah, no, there's just something bothering me... More importantly, I'll report this to the academy. You all go back to the classroom.",
+  "ru": "А, нет, просто кое-что беспокоит… Важнее другое: я доложу в академию. Вы все возвращайтесь в класс."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4467,
+  "old_line": 4466,
+  "script_line": 51,
+  "en": "Understood, Professor Colbert.",
+  "ru": "Поняла, профессор Кольбер."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4470,
+  "old_line": 4469,
+  "script_line": 55,
+  "en": "I'm not satisfied at all. It's like I didn't get to burn enough...",
+  "ru": "Я совсем не удовлетворена. Как будто не нажглась…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4473,
+  "old_line": 4472,
+  "script_line": 59,
+  "en": "Incomplete combustion, you mean?",
+  "ru": "Неполное сгорание, что ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4476,
+  "old_line": 4475,
+  "script_line": 63,
+  "en": "Ah, yeah, that's it. As expected of you, darling — so perceptive.",
+  "ru": "А, да, именно. Как и подобает тебе, дорогой — так проницательно."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4479,
+  "old_line": 4478,
+  "script_line": 67,
+  "en": "...Why is that the only thing you ever notice?",
+  "ru": "…Почему ты замечаешь только это?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4482,
+  "old_line": 4481,
+  "script_line": 71,
+  "en": "Hm? Did you say something?",
+  "ru": "А? Ты что-то сказала?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4485,
+  "old_line": 4484,
+  "script_line": 75,
+  "en": "Nothing at all! Come on, let's head back already!",
+  "ru": "Ничего! Давай, пора возвращаться!"
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 362,
+  "old_line": 361,
+  "script_line": 80,
+  "en": "In the end, we didn't find a single clue about the intruders.",
+  "ru": "В итоге мы не нашли ни одной улики о вторгшихся."
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 365,
+  "old_line": 364,
+  "script_line": 81,
+  "en": "The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting.",
+  "ru": "Лёгкость, с которой в академию проникли, кажется, стала проблемой — учителя начали совещание."
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 368,
+  "old_line": 367,
+  "script_line": 82,
+  "en": "So we're left not knowing the details after all. I just can't feel at ease.",
+  "ru": "Так что мы остались, не зная деталей. Я просто не могу чувствовать себя спокойно."
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 371,
+  "old_line": 370,
+  "script_line": 83,
+  "en": "More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today.",
+  "ru": "Больше всего меня беспокоит, как настойчиво эти ребята охотились за Харуной… Я сомневаюсь, что они сдались после сегодняшнего дня."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4488,
+  "old_line": 4487,
+  "script_line": 87,
+  "en": "Saito? What's wrong, going all quiet like that?",
+  "ru": "Сайто? Что случилось, почему молчишь?"
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 374,
+  "old_line": 373,
+  "script_line": 89,
+  "en": "And if that bomb user comes back again, it won't be a joke.",
+  "ru": "И если этот бомбист вернётся снова, это уже не шутка."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4491,
+  "old_line": 4490,
+  "script_line": 93,
+  "en": "Saito, I said answer me. Is something on your mind?",
+  "ru": "Сайто, я сказала, ответь. Тебя что-то беспокоит?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4497,
+  "old_line": 4496,
+  "script_line": 97,
+  "en": "Louise.",
+  "ru": "Луиза."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4494,
+  "old_line": 4493,
+  "script_line": 100,
+  "en": "Wh-what?",
+  "ru": "Ч-что?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4503,
+  "old_line": 4502,
+  "script_line": 103,
+  "en": "I'm going to take a quick look around the academy.",
+  "ru": "Я пойду, немного осмотрюсь в академии."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4500,
+  "old_line": 4499,
+  "script_line": 107,
+  "en": "What!? Wait, a patrol, what?",
+  "ru": "Что!? Подожди, патрулирование, что?"
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 377,
+  "old_line": 376,
+  "script_line": 110,
+  "en": "Now then. Even if I patrol, where should I start?",
+  "ru": "Теперь. Даже если я патрулирую, с чего начать?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4506,
+  "old_line": 4505,
+  "script_line": 145,
+  "en": "Man, it's already this late. It's already deep into the night.",
+  "ru": "Вот блин, уже так поздно. Уже глубокая ночь."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4509,
+  "old_line": 4508,
+  "script_line": 148,
+  "en": "Partner, let's call it a day. Doesn't look like anyone's hiding in the academy.",
+  "ru": "Партнёр, давай на сегодня закончим. Похоже, в академии никто не прячется."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4512,
+  "old_line": 4511,
+  "script_line": 151,
+  "en": "Yeah. Well then, let's head back to the room.",
+  "ru": "Да. Тогда вернёмся в комнату."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4515,
+  "old_line": 4514,
+  "script_line": 160,
+  "en": "I'm home.",
+  "ru": "Я дома."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4518,
+  "old_line": 4517,
+  "script_line": 164,
+  "en": "So you're back.",
+  "ru": "Значит, вернулся."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4521,
+  "old_line": 4520,
+  "script_line": 168,
+  "en": "Good work, Saito-san. Weren't you in any danger?",
+  "ru": "Молодец, Сайто-сан. Тебе не было опасно?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4524,
+  "old_line": 4523,
+  "script_line": 172,
+  "en": "Welcome back. How was the patrol?",
+  "ru": "С возвращением. Как патрулирование?"
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 380,
+  "old_line": 379,
+  "script_line": 174,
+  "en": "Ah... having girls welcome me home can make me feel this happy.",
+  "ru": "Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливым."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4527,
+  "old_line": 4526,
+  "script_line": 178,
+  "en": "Yeah. I looked around the academy all afternoon, but there was nothing unusual anywhere.",
+  "ru": "Да. Я осматривал академию весь день, но нигде ничего необычного не было."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4530,
+  "old_line": 4529,
+  "script_line": 182,
+  "en": "Hmm...{#ch2.4_l_010}",
+  "ru": "Хм…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4533,
+  "old_line": 4532,
+  "script_line": 185,
+  "en": "And that's a reply completely devoid of interest.",
+  "ru": "И это ответ, полностью лишённый интереса."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4536,
+  "old_line": 4535,
+  "script_line": 188,
+  "en": "Isn't it fine, everyone was safe. It's no more and no less than that.",
+  "ru": "Разве это плохо, все были в безопасности. Ни больше, ни меньше."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4539,
+  "old_line": 4538,
+  "script_line": 191,
+  "en": "Well, if you put it that way, you're right.",
+  "ru": "Ну, если так выразиться, ты права."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4542,
+  "old_line": 4541,
+  "script_line": 195,
+  "en": "Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say.",
+  "ru": "Эй, сейчас! Я не думаю, что помешает сказать хоть одно доброе слово, я говорю."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4545,
+  "old_line": 4544,
+  "script_line": 199,
+  "en": "Yes, yes. Good work.",
+  "ru": "Да-да. Молодец."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4548,
+  "old_line": 4547,
+  "script_line": 202,
+  "en": "......{#ch2.4_s_014}",
+  "ru": "……{#ch2.4_s_014}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4551,
+  "old_line": 4550,
+  "script_line": 205,
+  "en": "......{#ch2.4_l_013}",
+  "ru": "……{#ch2.4_l_013}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4554,
+  "old_line": 4553,
+  "script_line": 209,
+  "en": "U-um, Miss Vallière seems tired, so...",
+  "ru": "Э-э, мадемуазель Вальер выглядит уставшей, так что…"
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 383,
+  "old_line": 382,
+  "script_line": 211,
+  "en": "I-is that so?",
+  "ru": "П-правда?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4557,
+  "old_line": 4556,
+  "script_line": 218,
+  "en": "Did something happen, Louise?{#ch2.4_s_015}",
+  "ru": "Что-то случилось, Луиза?{#ch2.4_s_015}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4560,
+  "old_line": 4559,
+  "script_line": 222,
+  "en": "Huh? What's this all of a sudden?",
+  "ru": "А? Что это вдруг?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4563,
+  "old_line": 4562,
+  "script_line": 225,
+  "en": "Well, you seemed kind of absent-minded. I wondered if something was bothering you.",
+  "ru": "Ну, ты казалась рассеянной. Я подумал, может, тебя что-то беспокоит."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4566,
+  "old_line": 4565,
+  "script_line": 229,
+  "en": "N-nothing in particular.",
+  "ru": "Н-ничего особенного."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4569,
+  "old_line": 4568,
+  "script_line": 232,
+  "en": "Is that so? Hmm... then I guess it's fine.",
+  "ru": "Неужели? Хм… тогда, наверное, всё в порядке."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4572,
+  "old_line": 4571,
+  "script_line": 236,
+  "en": "...Really, it's nothing. There's no need to worry.",
+  "ru": "…Правда, ничего. Не нужно беспокоиться."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4575,
+  "old_line": 4574,
+  "script_line": 243,
+  "en": "Hmm. If you say so, I suppose it's fine, but don't push yourself too hard.",
+  "ru": "Хм. Если так, то, полагаю, всё в порядке, но не переусердствуй."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4578,
+  "old_line": 4577,
+  "script_line": 246,
+  "en": "I'm not. ...Honestly.",
+  "ru": "Я не переусердствую. …Честное слово."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4581,
+  "old_line": 4580,
+  "script_line": 254,
+  "en": "Did something happen, Siesta?{#ch2.4_s_019}",
+  "ru": "Что-то случилось, Сиеста?{#ch2.4_s_019}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4584,
+  "old_line": 4583,
+  "script_line": 257,
+  "en": "Huh, me...?",
+  "ru": "А, я…?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4587,
+  "old_line": 4586,
+  "script_line": 260,
+  "en": "Well, you looked kind of scared to ask Louise anything, so...",
+  "ru": "Ну, ты казалась слишком напуганной, чтобы спросить Луизу что-нибудь, так что…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4590,
+  "old_line": 4589,
+  "script_line": 266,
+  "en": "......{#ch2.4_si_004}",
+  "ru": "……{#ch2.4_si_004}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4593,
+  "old_line": 4592,
+  "script_line": 274,
+  "en": "How are you feeling, Haruna?{#ch2.4_s_021}",
+  "ru": "Как ты себя чувствуешь, Харуна?{#ch2.4_s_021}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4596,
+  "old_line": 4595,
+  "script_line": 278,
+  "en": "Ah, yeah. Compared to this morning, I think I'm much better.",
+  "ru": "А, да. По сравнению с утром, я думаю, мне намного лучше."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4599,
+  "old_line": 4598,
+  "script_line": 283,
+  "en": "That's a relief.",
+  "ru": "Вот это облегчение."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4602,
+  "old_line": 4601,
+  "script_line": 286,
+  "en": "...Hmph.{#ch2.4_l_018}",
+  "ru": "…Хм.{#ch2.4_l_018}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4605,
+  "old_line": 4604,
+  "script_line": 292,
+  "en": "I still feel a little sluggish, though... But I think I'm mostly okay now.",
+  "ru": "Я всё ещё чувствую некоторую вялость, но… Но, думаю, я в основном в порядке."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4608,
+  "old_line": 4607,
+  "script_line": 295,
+  "en": "You'd better not overdo it. Rest properly until you're fully recovered.",
+  "ru": "Тебе лучше не переусердствовать. Отдыхай как следует, пока полностью не выздоровеешь."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4611,
+  "old_line": 4610,
+  "script_line": 299,
+  "en": "Thank you, Hiraga-kun.{#ch2.4_ha_004}",
+  "ru": "Спасибо, Хирага-кун."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4614,
+  "old_line": 4613,
+  "script_line": 308,
+  "en": "Oh, right. Siesta, is there anything to eat?",
+  "ru": "А, точно. Сиеста, есть что-нибудь поесть?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4617,
+  "old_line": 4616,
+  "script_line": 311,
+  "en": "Huh? Don't tell me you haven't had dinner yet?",
+  "ru": "А? Не скажи, что ты ещё не ужинал?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4620,
+  "old_line": 4619,
+  "script_line": 314,
+  "en": "Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything.",
+  "ru": "Да. Я патрулировал и упустил возможность поесть. Буду признателен, если есть что-нибудь."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4623,
+  "old_line": 4622,
+  "script_line": 318,
+  "en": "If you'd told me, I would have prepared something. Let me bring it now.",
+  "ru": "Если бы ты сказал, я бы приготовила. Сейчас принесу."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4626,
+  "old_line": 4625,
+  "script_line": 322,
+  "en": "I feel kind of bad about this.",
+  "ru": "Мне как-то неловко."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4629,
+  "old_line": 4628,
+  "script_line": 326,
+  "en": "This much is nothing. Well then, I'll go to the kitchen and get your meal.",
+  "ru": "Это пустяк. Тогда я пойду на кухню и принесу тебе еду."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4632,
+  "old_line": 4631,
+  "script_line": 330,
+  "en": "By the way, Haruna, have you had dinner?",
+  "ru": "Кстати, Харуна, ты ужинала?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4635,
+  "old_line": 4634,
+  "script_line": 334,
+  "en": "Yeah... I didn't have an appetite, so not yet. But if you're with me, Hiraga-kun, I might be able to eat.",
+  "ru": "Да… У меня не было аппетита, так что ещё нет. Но если ты будешь со мной, Хирага-кун, я, возможно, смогу поесть."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4638,
+  "old_line": 4637,
+  "script_line": 338,
+  "en": "Kuh!? What is that?",
+  "ru": "Кха!? Что это?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4641,
+  "old_line": 4640,
+  "script_line": 342,
+  "en": "You're spoiling her quite a lot. She can eat a meal by herself, can't she?",
+  "ru": "Ты её слишком балуешь. Она может поесть сама, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4644,
+  "old_line": 4643,
+  "script_line": 346,
+  "en": "Louise, calm down. Eating alone when you're laid up in bed makes you feel incredibly lonely, doesn't it?",
+  "ru": "Луиза, успокойся. Есть в одиночестве, когда ты прикована к кровати, — это невероятно одиноко, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4647,
+  "old_line": 4646,
+  "script_line": 349,
+  "en": "Not just the body, the heart needs to get better too. Besides, I'm hungry as well, so we might as well — eating together isn't strange at all, is it?",
+  "ru": "Не только тело, но и дух должны поправиться. К тому же я тоже голоден, так что почему бы и нет — вместе поесть совсем не странно, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4650,
+  "old_line": 4649,
+  "script_line": 352,
+  "en": "It is strange.",
+  "ru": "Это странно."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4653,
+  "old_line": 4652,
+  "script_line": 356,
+  "en": "How is it!?",
+  "ru": "Как это!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4656,
+  "old_line": 4655,
+  "script_line": 359,
+  "en": "You've never shown such attentive behavior up until now, have you?",
+  "ru": "Ты никогда не проявлял такого внимательного отношения до сих пор, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4659,
+  "old_line": 4658,
+  "script_line": 362,
+  "en": "And yet you're being kind to that girl. You'd think that's odd, wouldn't you?",
+  "ru": "И всё же ты добр к этой девушке. Ты бы подумал, что это странно, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4662,
+  "old_line": 4661,
+  "script_line": 366,
+  "en": "Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?",
+  "ru": "Ну, даже если ты так говоришь… Харуна из того же мира, что и я, и она больна. Что плохого в том, чтобы быть добрым к ней?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4665,
+  "old_line": 4664,
+  "script_line": 370,
+  "en": "That's...",
+  "ru": "Это…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4668,
+  "old_line": 4667,
+  "script_line": 375,
+  "en": "I brought your dinner. The soup is a little lukewarm, though...",
+  "ru": "Я принесла тебе ужин. Суп немного остыл, но…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4671,
+  "old_line": 4670,
+  "script_line": 379,
+  "en": "Ah, Siesta, thank you.",
+  "ru": "А, Сиеста, спасибо."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4674,
+  "old_line": 4673,
+  "script_line": 383,
+  "en": "...Hmph.{#ch2.4_l_025}",
+  "ru": "…Хм.{#ch2.4_l_025}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4677,
+  "old_line": 4676,
+  "script_line": 387,
+  "en": "Sorry, Siesta-san.",
+  "ru": "Извини, Сиеста-сан."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4680,
+  "old_line": 4679,
+  "script_line": 390,
+  "en": "No, no. I'm used to preparing meals for you, Saito-san.",
+  "ru": "Нет-нет. Я привыкла готовить для тебя, Сайто-сан."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4683,
+  "old_line": 4682,
+  "script_line": 393,
+  "en": "Oh my, is that so?",
+  "ru": "О, неужели?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4686,
+  "old_line": 4685,
+  "script_line": 396,
+  "en": "Yes, that's right.",
+  "ru": "Да, это так."
+ },
+ {
+  "file": "game/tl/russian/thoughs.rpy",
+  "ru_line": 386,
+  "old_line": 385,
+  "script_line": 398,
+  "en": "...It should be a warm atmosphere, but somehow the air feels strangely heavy.",
+  "ru": "…Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4689,
+  "old_line": 4688,
+  "script_line": 401,
+  "en": "Well then, thank you for the meal.",
+  "ru": "Тогда, спасибо за еду."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4692,
+  "old_line": 4691,
+  "script_line": 404,
+  "en": "Yeah, don't push yourself.",
+  "ru": "Да, не переусердствуй."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4695,
+  "old_line": 4694,
+  "script_line": 407,
+  "en": "No, this much is fine.",
+  "ru": "Нет, это нормально."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4698,
+  "old_line": 4697,
+  "script_line": 410,
+  "en": "Still, though... Then, shall I feed you? Here, say ahh.",
+  "ru": "И всё же… Тогда, может, я тебя накормлю? Давай, открой ротик."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4701,
+  "old_line": 4700,
+  "script_line": 414,
+  "en": "Eh...",
+  "ru": "Э…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4704,
+  "old_line": 4703,
+  "script_line": 417,
+  "en": "...!?",
+  "ru": "…!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4707,
+  "old_line": 4706,
+  "script_line": 421,
+  "en": "W-wait a minute!? Saito! What do you think you're doing!?",
+  "ru": "П-подожди минутку!? Сайто! Что ты делаешь!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4710,
+  "old_line": 4709,
+  "script_line": 425,
+  "en": "What do you mean — dinner.",
+  "ru": "Что ты имеешь в виду — ужин."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4713,
+  "old_line": 4712,
+  "script_line": 428,
+  "en": "That's not what I mean! What's with that 'ahh'!?",
+  "ru": "Я не об этом! Что за «открой ротик»!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4716,
+  "old_line": 4715,
+  "script_line": 431,
+  "en": "Huh? Is something weird?",
+  "ru": "А? Что-то странное?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4719,
+  "old_line": 4718,
+  "script_line": 435,
+  "en": "I'm telling you, it's weird!",
+  "ru": "Я говорю тебе, это странно!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4722,
+  "old_line": 4721,
+  "script_line": 439,
+  "en": "Hiraga-kun, you're so kind...",
+  "ru": "Хирага-кун, ты так добр…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4725,
+  "old_line": 4724,
+  "script_line": 443,
+  "en": "What's with that clingy, spoiling attitude!? You've never once shown me anything like that!",
+  "ru": "Что за липкое, балующее отношение!? Ты никогда не показывала мне ничего подобного!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4728,
+  "old_line": 4727,
+  "script_line": 447,
+  "en": "But you're always perfectly fine, aren't you?",
+  "ru": "Но ты всегда в полном порядке, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4731,
+  "old_line": 4730,
+  "script_line": 451,
+  "en": "Um, I don't think that's really the issue...",
+  "ru": "Эм, я не думаю, что это действительно проблема…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4734,
+  "old_line": 4733,
+  "script_line": 455,
+  "en": "Um, Louise?",
+  "ru": "Эм, Луиза?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4737,
+  "old_line": 4736,
+  "script_line": 462,
+  "en": "Do you want dinner too?{#ch2.4_s_039}",
+  "ru": "Ты тоже хочешь ужинать?{#ch2.4_s_039}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4740,
+  "old_line": 4739,
+  "script_line": 465,
+  "en": "Hah!? Why would it come to that!?",
+  "ru": "Ха!? К чему это!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4743,
+  "old_line": 4742,
+  "script_line": 469,
+  "en": "Well, you've been irritated this whole time. I thought you'd already had dinner, but maybe you're hungry and that's making you quick to anger.",
+  "ru": "Ну, ты была раздражена всё это время. Я думал, ты уже поужинала, но, может, ты голодна и это делает тебя вспыльчивой."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4746,
+  "old_line": 4745,
+  "script_line": 472,
+  "en": "I finished dinner long ago!",
+  "ru": "Я поужинала давно!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4749,
+  "old_line": 4748,
+  "script_line": 475,
+  "en": "Is that so? But if you're this irritated, then... are you on a diet or something?",
+  "ru": "Неужели? Но если ты так раздражена, то… ты на диете или что-то в этом роде?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4752,
+  "old_line": 4751,
+  "script_line": 479,
+  "en": "Hah? A diet?",
+  "ru": "А? Диета?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4755,
+  "old_line": 4754,
+  "script_line": 482,
+  "en": "You should stop.",
+  "ru": "Тебе лучше прекратить."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4758,
+  "old_line": 4757,
+  "script_line": 485,
+  "en": "Skipping meals by force will only ruin your health and have a bad effect on your mental stability — nothing good comes of it.",
+  "ru": "Пропускать приёмы пищи силой только разрушит твоё здоровье и плохо повлияет на психическую стабильность — ничего хорошего из этого не выйдет."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4761,
+  "old_line": 4760,
+  "script_line": 489,
+  "en": "Wrooong! I'm not doing that!",
+  "ru": "Неправда! Я этого не делаю!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4764,
+  "old_line": 4763,
+  "script_line": 493,
+  "en": "Then that's fine. Besides, you're plenty attractive as you are, so if you did something unnecessary and rebounded, that'd be a disaster.",
+  "ru": "Тогда всё в порядке. К тому же ты достаточно привлекательна, как есть, так что если бы ты сделала что-то ненужное и получила откат, это было бы катастрофой."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4767,
+  "old_line": 4766,
+  "script_line": 497,
+  "en": "Um... I'm telling you, what are we even talking about?",
+  "ru": "Эм… Я говорю тебе, о чём мы вообще говорим?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4770,
+  "old_line": 4769,
+  "script_line": 505,
+  "en": "Do you want me to say 'ahh' for you too?{#ch2.4_s_045}",
+  "ru": "Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_s_045}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4773,
+  "old_line": 4772,
+  "script_line": 508,
+  "en": "Hah!? Wh-wh-why would it come to that!?",
+  "ru": "Ха!? К-к-к чему это!?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4776,
+  "old_line": 4775,
+  "script_line": 515,
+  "en": "Ah, so that's not it. You just seemed fixated on that.",
+  "ru": "А, значит, это не так. Ты просто казалась зацикленной на этом."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4779,
+  "old_line": 4778,
+  "script_line": 519,
+  "en": "That and this are different things! Why would I have to have you feed me?!",
+  "ru": "Это и то — разные вещи! Почему я должна позволять тебе кормить меня?!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4782,
+  "old_line": 4781,
+  "script_line": 523,
+  "en": "Yeah, you're right. I think so too.",
+  "ru": "Да, ты права. Я тоже так думаю."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4785,
+  "old_line": 4784,
+  "script_line": 526,
+  "en": "...As long as you understand.",
+  "ru": "…Пока ты понимаешь."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4788,
+  "old_line": 4787,
+  "script_line": 534,
+  "en": "Do you want to be laid up in bed too?{#ch2.4_s_048}",
+  "ru": "Ты тоже хочешь быть прикованной к кровати?{#ch2.4_s_048}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4791,
+  "old_line": 4790,
+  "script_line": 537,
+  "en": "Hah!? Why would it come to that!?{#ch2.4_l_038}",
+  "ru": "Ха!? К чему это!?{#ch2.4_l_038}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4794,
+  "old_line": 4793,
+  "script_line": 543,
+  "en": "Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all.",
+  "ru": "Ну, ты была раздражена всё это время. Я подумал, может, ты тоже хочешь лежать в кровати, вот и всё."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4797,
+  "old_line": 4796,
+  "script_line": 547,
+  "en": "...It's true that talking with you gives me a headache. But I'm not going to fake being sick just to stay in bed.",
+  "ru": "…Правда, разговор с тобой вызывает у меня головную боль. Но я не собираюсь притворяться больной, чтобы лежать в кровати."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4800,
+  "old_line": 4799,
+  "script_line": 551,
+  "en": "...Oh, is that so?",
+  "ru": "…О, неужели?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4803,
+  "old_line": 4802,
+  "script_line": 555,
+  "en": "That's right. Me, of all people.",
+  "ru": "Это так. Я, из всех людей."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4806,
+  "old_line": 4805,
+  "script_line": 563,
+  "en": "There's no weird meaning behind it, okay? Haruna is sick, so looking after her is only normal, right?",
+  "ru": "Никакого странного смысла в этом нет, ладно? Харуна больна, так что ухаживать за ней — это нормально, верно?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4809,
+  "old_line": 4808,
+  "script_line": 567,
+  "en": "So if she's sick, you'll do anything for her?",
+  "ru": "Значит, если она больна, ты сделаешь для неё всё?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4812,
+  "old_line": 4811,
+  "script_line": 571,
+  "en": "I'm not going that far. Why are you getting angry about me looking after a sick person?",
+  "ru": "Я не зашёл так далеко. Почему ты злишься на то, что я ухаживаю за больным человеком?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4815,
+  "old_line": 4814,
+  "script_line": 575,
+  "en": "...B-because!",
+  "ru": "…П-потому что!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4818,
+  "old_line": 4817,
+  "script_line": 579,
+  "en": "Please, that's enough.",
+  "ru": "Пожалуйста, достаточно."
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4821,
+  "old_line": 4820,
+  "script_line": 582,
+  "en": "!!{#ch2.4_l_043}",
+  "ru": "!!{#ch2.4_l_043}"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4824,
+  "old_line": 4823,
+  "script_line": 585,
+  "en": "Haruna...",
+  "ru": "Харуна…"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4827,
+  "old_line": 4826,
+  "script_line": 588,
+  "en": "Hiraga-kun is not Miss Louise's tool. You of all people should know that, shouldn't you?",
+  "ru": "Хирага-кун — не инструмент мадемуазель Луизы. Ты из всех людей должна это знать, не так ли?"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4830,
+  "old_line": 4829,
+  "script_line": 592,
+  "en": "I... I have no reason to be told that by you!",
+  "ru": "Я… У меня нет причин слушать это от тебя!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4833,
+  "old_line": 4832,
+  "script_line": 595,
+  "en": "And what's more! Sick, sick, sick — is being sick really so great? I don't care about Saito anymore!",
+  "ru": "И что ещё! Больная, больная, больная — неужели быть больным так уж здорово? Мне больше не нужен Сайто!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4836,
+  "old_line": 4835,
+  "script_line": 598,
+  "en": "Ah, hey, Louise!",
+  "ru": "А, эй, Луиза!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4839,
+  "old_line": 4838,
+  "script_line": 602,
+  "en": "Stupid dog! Stupid familiar! Stupid Saito!",
+  "ru": "Глупая собака! Глупый фамильяр! Глупый Сайто!"
+ },
+ {
+  "file": "game/tl/russian/dialogs.rpy",
+  "ru_line": 4842,
+  "old_line": 4841,
+  "script_line": 606,
+  "en": "Honestly, I don't care anymore!",
+  "ru": "Честно говоря, мне уже всё равно!"
+ }
+]

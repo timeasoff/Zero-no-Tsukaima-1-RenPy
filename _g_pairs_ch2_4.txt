@@ -1,0 +1,575 @@
+### script L18 | game/tl/russian/dialogs.rpy:4440
+EN: Damn it! The bomb user got away...!? Nowhere in sight.
+RU: Чёрт! Бомбист скрылся…!? Нигде не видно.
+
+### script L21 | game/tl/russian/dialogs.rpy:4443
+EN: Partner, it's not just the bomb user. Take a look around.
+RU: Партнёр, дело не только в бомбисте. Оглянись.
+
+### script L24 | game/tl/russian/dialogs.rpy:4446
+EN: Huh... Aah! Those guys have vanished too!?
+RU: А… Аа! Эти тоже исчезли!?
+
+### script L28 | game/tl/russian/dialogs.rpy:4449
+EN: Whaaat? When did they...!
+RU: Что? Когда они…!
+
+### script L31 | game/tl/russian/dialogs.rpy:4452
+EN: They slipped away in that explosion? Then that bomb user really was their accomplice?
+RU: Они скрылись в этом взрыве? Значит, бомбист действительно был их сообщником?
+
+### script L35 | game/tl/russian/dialogs.rpy:4455
+EN: That's very likely. Someone curious enough to sneak into the academy — a chance encounter would be too convenient.
+RU: Очень вероятно. Тот, кому любопытно проникнуть в академию, — случайная встреча была бы слишком удобной.
+
+### script L39 | game/tl/russian/dialogs.rpy:4458
+EN: But that explosion — what in the world...?
+RU: Но этот взрыв — что, вообще…?
+
+### script L43 | game/tl/russian/dialogs.rpy:4461
+EN: Professor? What is it?
+RU: Профессор? Что-то случилось?
+
+### script L47 | game/tl/russian/dialogs.rpy:4464
+EN: Ah, no, there's just something bothering me... More importantly, I'll report this to the academy. You all go back to the classroom.
+RU: А, нет, просто кое-что беспокоит… Важнее другое: я доложу в академию. Вы все возвращайтесь в класс.
+
+### script L51 | game/tl/russian/dialogs.rpy:4467
+EN: Understood, Professor Colbert.
+RU: Поняла, профессор Кольбер.
+
+### script L55 | game/tl/russian/dialogs.rpy:4470
+EN: I'm not satisfied at all. It's like I didn't get to burn enough...
+RU: Я совсем не удовлетворена. Как будто не нажглась…
+
+### script L59 | game/tl/russian/dialogs.rpy:4473
+EN: Incomplete combustion, you mean?
+RU: Неполное сгорание, что ли?
+
+### script L63 | game/tl/russian/dialogs.rpy:4476
+EN: Ah, yeah, that's it. As expected of you, darling — so perceptive.
+RU: А, да, именно. Как и подобает тебе, дорогой — так проницательно.
+
+### script L67 | game/tl/russian/dialogs.rpy:4479
+EN: ...Why is that the only thing you ever notice?
+RU: …Почему ты замечаешь только это?
+
+### script L71 | game/tl/russian/dialogs.rpy:4482
+EN: Hm? Did you say something?
+RU: А? Ты что-то сказала?
+
+### script L75 | game/tl/russian/dialogs.rpy:4485
+EN: Nothing at all! Come on, let's head back already!
+RU: Ничего! Давай, пора возвращаться!
+
+### script L80 | game/tl/russian/thoughs.rpy:362
+EN: In the end, we didn't find a single clue about the intruders.
+RU: В итоге мы не нашли ни одной улики о вторгшихся.
+
+### script L81 | game/tl/russian/thoughs.rpy:365
+EN: The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting.
+RU: Лёгкость, с которой в академию проникли, кажется, стала проблемой — учителя начали совещание.
+
+### script L82 | game/tl/russian/thoughs.rpy:368
+EN: So we're left not knowing the details after all. I just can't feel at ease.
+RU: Так что мы остались, не зная деталей. Я просто не могу чувствовать себя спокойно.
+
+### script L83 | game/tl/russian/thoughs.rpy:371
+EN: More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today.
+RU: Больше всего меня беспокоит, как настойчиво эти ребята охотились за Харуной… Я сомневаюсь, что они сдались после сегодняшнего дня.
+
+### script L87 | game/tl/russian/dialogs.rpy:4488
+EN: Saito? What's wrong, going all quiet like that?
+RU: Сайто? Что случилось, почему молчишь?
+
+### script L89 | game/tl/russian/thoughs.rpy:374
+EN: And if that bomb user comes back again, it won't be a joke.
+RU: И если этот бомбист вернётся снова, это уже не шутка.
+
+### script L93 | game/tl/russian/dialogs.rpy:4491
+EN: Saito, I said answer me. Is something on your mind?
+RU: Сайто, я сказала, ответь. Тебя что-то беспокоит?
+
+### script L97 | game/tl/russian/dialogs.rpy:4497
+EN: Louise.
+RU: Луиза.
+
+### script L100 | game/tl/russian/dialogs.rpy:4494
+EN: Wh-what?
+RU: Ч-что?
+
+### script L103 | game/tl/russian/dialogs.rpy:4503
+EN: I'm going to take a quick look around the academy.
+RU: Я пойду, немного осмотрюсь в академии.
+
+### script L107 | game/tl/russian/dialogs.rpy:4500
+EN: What!? Wait, a patrol, what?
+RU: Что!? Подожди, патрулирование, что?
+
+### script L110 | game/tl/russian/thoughs.rpy:377
+EN: Now then. Even if I patrol, where should I start?
+RU: Теперь. Даже если я патрулирую, с чего начать?
+
+### script L145 | game/tl/russian/dialogs.rpy:4506
+EN: Man, it's already this late. It's already deep into the night.
+RU: Вот блин, уже так поздно. Уже глубокая ночь.
+
+### script L148 | game/tl/russian/dialogs.rpy:4509
+EN: Partner, let's call it a day. Doesn't look like anyone's hiding in the academy.
+RU: Партнёр, давай на сегодня закончим. Похоже, в академии никто не прячется.
+
+### script L151 | game/tl/russian/dialogs.rpy:4512
+EN: Yeah. Well then, let's head back to the room.
+RU: Да. Тогда вернёмся в комнату.
+
+### script L160 | game/tl/russian/dialogs.rpy:4515
+EN: I'm home.
+RU: Я дома.
+
+### script L164 | game/tl/russian/dialogs.rpy:4518
+EN: So you're back.
+RU: Значит, вернулся.
+
+### script L168 | game/tl/russian/dialogs.rpy:4521
+EN: Good work, Saito-san. Weren't you in any danger?
+RU: Молодец, Сайто-сан. Тебе не было опасно?
+
+### script L172 | game/tl/russian/dialogs.rpy:4524
+EN: Welcome back. How was the patrol?
+RU: С возвращением. Как патрулирование?
+
+### script L174 | game/tl/russian/thoughs.rpy:380
+EN: Ah... having girls welcome me home can make me feel this happy.
+RU: Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливым.
+
+### script L178 | game/tl/russian/dialogs.rpy:4527
+EN: Yeah. I looked around the academy all afternoon, but there was nothing unusual anywhere.
+RU: Да. Я осматривал академию весь день, но нигде ничего необычного не было.
+
+### script L182 | game/tl/russian/dialogs.rpy:4530
+EN: Hmm...{#ch2.4_l_010}
+RU: Хм…
+
+### script L185 | game/tl/russian/dialogs.rpy:4533
+EN: And that's a reply completely devoid of interest.
+RU: И это ответ, полностью лишённый интереса.
+
+### script L188 | game/tl/russian/dialogs.rpy:4536
+EN: Isn't it fine, everyone was safe. It's no more and no less than that.
+RU: Разве это плохо, все были в безопасности. Ни больше, ни меньше.
+
+### script L191 | game/tl/russian/dialogs.rpy:4539
+EN: Well, if you put it that way, you're right.
+RU: Ну, если так выразиться, ты права.
+
+### script L195 | game/tl/russian/dialogs.rpy:4542
+EN: Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say.
+RU: Эй, сейчас! Я не думаю, что помешает сказать хоть одно доброе слово, я говорю.
+
+### script L199 | game/tl/russian/dialogs.rpy:4545
+EN: Yes, yes. Good work.
+RU: Да-да. Молодец.
+
+### script L202 | game/tl/russian/dialogs.rpy:4548
+EN: ......{#ch2.4_s_014}
+RU: ……{#ch2.4_s_014}
+
+### script L205 | game/tl/russian/dialogs.rpy:4551
+EN: ......{#ch2.4_l_013}
+RU: ……{#ch2.4_l_013}
+
+### script L209 | game/tl/russian/dialogs.rpy:4554
+EN: U-um, Miss Vallière seems tired, so...
+RU: Э-э, мадемуазель Вальер выглядит уставшей, так что…
+
+### script L211 | game/tl/russian/thoughs.rpy:383
+EN: I-is that so?
+RU: П-правда?
+
+### script L218 | game/tl/russian/dialogs.rpy:4557
+EN: Did something happen, Louise?{#ch2.4_s_015}
+RU: Что-то случилось, Луиза?{#ch2.4_s_015}
+
+### script L222 | game/tl/russian/dialogs.rpy:4560
+EN: Huh? What's this all of a sudden?
+RU: А? Что это вдруг?
+
+### script L225 | game/tl/russian/dialogs.rpy:4563
+EN: Well, you seemed kind of absent-minded. I wondered if something was bothering you.
+RU: Ну, ты казалась рассеянной. Я подумал, может, тебя что-то беспокоит.
+
+### script L229 | game/tl/russian/dialogs.rpy:4566
+EN: N-nothing in particular.
+RU: Н-ничего особенного.
+
+### script L232 | game/tl/russian/dialogs.rpy:4569
+EN: Is that so? Hmm... then I guess it's fine.
+RU: Неужели? Хм… тогда, наверное, всё в порядке.
+
+### script L236 | game/tl/russian/dialogs.rpy:4572
+EN: ...Really, it's nothing. There's no need to worry.
+RU: …Правда, ничего. Не нужно беспокоиться.
+
+### script L243 | game/tl/russian/dialogs.rpy:4575
+EN: Hmm. If you say so, I suppose it's fine, but don't push yourself too hard.
+RU: Хм. Если так, то, полагаю, всё в порядке, но не переусердствуй.
+
+### script L246 | game/tl/russian/dialogs.rpy:4578
+EN: I'm not. ...Honestly.
+RU: Я не переусердствую. …Честное слово.
+
+### script L254 | game/tl/russian/dialogs.rpy:4581
+EN: Did something happen, Siesta?{#ch2.4_s_019}
+RU: Что-то случилось, Сиеста?{#ch2.4_s_019}
+
+### script L257 | game/tl/russian/dialogs.rpy:4584
+EN: Huh, me...?
+RU: А, я…?
+
+### script L260 | game/tl/russian/dialogs.rpy:4587
+EN: Well, you looked kind of scared to ask Louise anything, so...
+RU: Ну, ты казалась слишком напуганной, чтобы спросить Луизу что-нибудь, так что…
+
+### script L266 | game/tl/russian/dialogs.rpy:4590
+EN: ......{#ch2.4_si_004}
+RU: ……{#ch2.4_si_004}
+
+### script L274 | game/tl/russian/dialogs.rpy:4593
+EN: How are you feeling, Haruna?{#ch2.4_s_021}
+RU: Как ты себя чувствуешь, Харуна?{#ch2.4_s_021}
+
+### script L278 | game/tl/russian/dialogs.rpy:4596
+EN: Ah, yeah. Compared to this morning, I think I'm much better.
+RU: А, да. По сравнению с утром, я думаю, мне намного лучше.
+
+### script L283 | game/tl/russian/dialogs.rpy:4599
+EN: That's a relief.
+RU: Вот это облегчение.
+
+### script L286 | game/tl/russian/dialogs.rpy:4602
+EN: ...Hmph.{#ch2.4_l_018}
+RU: …Хм.{#ch2.4_l_018}
+
+### script L292 | game/tl/russian/dialogs.rpy:4605
+EN: I still feel a little sluggish, though... But I think I'm mostly okay now.
+RU: Я всё ещё чувствую некоторую вялость, но… Но, думаю, я в основном в порядке.
+
+### script L295 | game/tl/russian/dialogs.rpy:4608
+EN: You'd better not overdo it. Rest properly until you're fully recovered.
+RU: Тебе лучше не переусердствовать. Отдыхай как следует, пока полностью не выздоровеешь.
+
+### script L299 | game/tl/russian/dialogs.rpy:4611
+EN: Thank you, Hiraga-kun.{#ch2.4_ha_004}
+RU: Спасибо, Хирага-кун.
+
+### script L308 | game/tl/russian/dialogs.rpy:4614
+EN: Oh, right. Siesta, is there anything to eat?
+RU: А, точно. Сиеста, есть что-нибудь поесть?
+
+### script L311 | game/tl/russian/dialogs.rpy:4617
+EN: Huh? Don't tell me you haven't had dinner yet?
+RU: А? Не скажи, что ты ещё не ужинал?
+
+### script L314 | game/tl/russian/dialogs.rpy:4620
+EN: Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything.
+RU: Да. Я патрулировал и упустил возможность поесть. Буду признателен, если есть что-нибудь.
+
+### script L318 | game/tl/russian/dialogs.rpy:4623
+EN: If you'd told me, I would have prepared something. Let me bring it now.
+RU: Если бы ты сказал, я бы приготовила. Сейчас принесу.
+
+### script L322 | game/tl/russian/dialogs.rpy:4626
+EN: I feel kind of bad about this.
+RU: Мне как-то неловко.
+
+### script L326 | game/tl/russian/dialogs.rpy:4629
+EN: This much is nothing. Well then, I'll go to the kitchen and get your meal.
+RU: Это пустяк. Тогда я пойду на кухню и принесу тебе еду.
+
+### script L330 | game/tl/russian/dialogs.rpy:4632
+EN: By the way, Haruna, have you had dinner?
+RU: Кстати, Харуна, ты ужинала?
+
+### script L334 | game/tl/russian/dialogs.rpy:4635
+EN: Yeah... I didn't have an appetite, so not yet. But if you're with me, Hiraga-kun, I might be able to eat.
+RU: Да… У меня не было аппетита, так что ещё нет. Но если ты будешь со мной, Хирага-кун, я, возможно, смогу поесть.
+
+### script L338 | game/tl/russian/dialogs.rpy:4638
+EN: Kuh!? What is that?
+RU: Кха!? Что это?
+
+### script L342 | game/tl/russian/dialogs.rpy:4641
+EN: You're spoiling her quite a lot. She can eat a meal by herself, can't she?
+RU: Ты её слишком балуешь. Она может поесть сама, не так ли?
+
+### script L346 | game/tl/russian/dialogs.rpy:4644
+EN: Louise, calm down. Eating alone when you're laid up in bed makes you feel incredibly lonely, doesn't it?
+RU: Луиза, успокойся. Есть в одиночестве, когда ты прикована к кровати, — это невероятно одиноко, не так ли?
+
+### script L349 | game/tl/russian/dialogs.rpy:4647
+EN: Not just the body, the heart needs to get better too. Besides, I'm hungry as well, so we might as well — eating together isn't strange at all, is it?
+RU: Не только тело, но и дух должны поправиться. К тому же я тоже голоден, так что почему бы и нет — вместе поесть совсем не странно, не так ли?
+
+### script L352 | game/tl/russian/dialogs.rpy:4650
+EN: It is strange.
+RU: Это странно.
+
+### script L356 | game/tl/russian/dialogs.rpy:4653
+EN: How is it!?
+RU: Как это!?
+
+### script L359 | game/tl/russian/dialogs.rpy:4656
+EN: You've never shown such attentive behavior up until now, have you?
+RU: Ты никогда не проявлял такого внимательного отношения до сих пор, не так ли?
+
+### script L362 | game/tl/russian/dialogs.rpy:4659
+EN: And yet you're being kind to that girl. You'd think that's odd, wouldn't you?
+RU: И всё же ты добр к этой девушке. Ты бы подумал, что это странно, не так ли?
+
+### script L366 | game/tl/russian/dialogs.rpy:4662
+EN: Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?
+RU: Ну, даже если ты так говоришь… Харуна из того же мира, что и я, и она больна. Что плохого в том, чтобы быть добрым к ней?
+
+### script L370 | game/tl/russian/dialogs.rpy:4665
+EN: That's...
+RU: Это…
+
+### script L375 | game/tl/russian/dialogs.rpy:4668
+EN: I brought your dinner. The soup is a little lukewarm, though...
+RU: Я принесла тебе ужин. Суп немного остыл, но…
+
+### script L379 | game/tl/russian/dialogs.rpy:4671
+EN: Ah, Siesta, thank you.
+RU: А, Сиеста, спасибо.
+
+### script L383 | game/tl/russian/dialogs.rpy:4674
+EN: ...Hmph.{#ch2.4_l_025}
+RU: …Хм.{#ch2.4_l_025}
+
+### script L387 | game/tl/russian/dialogs.rpy:4677
+EN: Sorry, Siesta-san.
+RU: Извини, Сиеста-сан.
+
+### script L390 | game/tl/russian/dialogs.rpy:4680
+EN: No, no. I'm used to preparing meals for you, Saito-san.
+RU: Нет-нет. Я привыкла готовить для тебя, Сайто-сан.
+
+### script L393 | game/tl/russian/dialogs.rpy:4683
+EN: Oh my, is that so?
+RU: О, неужели?
+
+### script L396 | game/tl/russian/dialogs.rpy:4686
+EN: Yes, that's right.
+RU: Да, это так.
+
+### script L398 | game/tl/russian/thoughs.rpy:386
+EN: ...It should be a warm atmosphere, but somehow the air feels strangely heavy.
+RU: …Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым.
+
+### script L401 | game/tl/russian/dialogs.rpy:4689
+EN: Well then, thank you for the meal.
+RU: Тогда, спасибо за еду.
+
+### script L404 | game/tl/russian/dialogs.rpy:4692
+EN: Yeah, don't push yourself.
+RU: Да, не переусердствуй.
+
+### script L407 | game/tl/russian/dialogs.rpy:4695
+EN: No, this much is fine.
+RU: Нет, это нормально.
+
+### script L410 | game/tl/russian/dialogs.rpy:4698
+EN: Still, though... Then, shall I feed you? Here, say ahh.
+RU: И всё же… Тогда, может, я тебя накормлю? Давай, открой ротик.
+
+### script L414 | game/tl/russian/dialogs.rpy:4701
+EN: Eh...
+RU: Э…
+
+### script L417 | game/tl/russian/dialogs.rpy:4704
+EN: ...!?
+RU: …!?
+
+### script L421 | game/tl/russian/dialogs.rpy:4707
+EN: W-wait a minute!? Saito! What do you think you're doing!?
+RU: П-подожди минутку!? Сайто! Что ты делаешь!?
+
+### script L425 | game/tl/russian/dialogs.rpy:4710
+EN: What do you mean — dinner.
+RU: Что ты имеешь в виду — ужин.
+
+### script L428 | game/tl/russian/dialogs.rpy:4713
+EN: That's not what I mean! What's with that 'ahh'!?
+RU: Я не об этом! Что за «открой ротик»!?
+
+### script L431 | game/tl/russian/dialogs.rpy:4716
+EN: Huh? Is something weird?
+RU: А? Что-то странное?
+
+### script L435 | game/tl/russian/dialogs.rpy:4719
+EN: I'm telling you, it's weird!
+RU: Я говорю тебе, это странно!
+
+### script L439 | game/tl/russian/dialogs.rpy:4722
+EN: Hiraga-kun, you're so kind...
+RU: Хирага-кун, ты так добр…
+
+### script L443 | game/tl/russian/dialogs.rpy:4725
+EN: What's with that clingy, spoiling attitude!? You've never once shown me anything like that!
+RU: Что за липкое, балующее отношение!? Ты никогда не показывала мне ничего подобного!
+
+### script L447 | game/tl/russian/dialogs.rpy:4728
+EN: But you're always perfectly fine, aren't you?
+RU: Но ты всегда в полном порядке, не так ли?
+
+### script L451 | game/tl/russian/dialogs.rpy:4731
+EN: Um, I don't think that's really the issue...
+RU: Эм, я не думаю, что это действительно проблема…
+
+### script L455 | game/tl/russian/dialogs.rpy:4734
+EN: Um, Louise?
+RU: Эм, Луиза?
+
+### script L462 | game/tl/russian/dialogs.rpy:4737
+EN: Do you want dinner too?{#ch2.4_s_039}
+RU: Ты тоже хочешь ужинать?{#ch2.4_s_039}
+
+### script L465 | game/tl/russian/dialogs.rpy:4740
+EN: Hah!? Why would it come to that!?
+RU: Ха!? К чему это!?
+
+### script L469 | game/tl/russian/dialogs.rpy:4743
+EN: Well, you've been irritated this whole time. I thought you'd already had dinner, but maybe you're hungry and that's making you quick to anger.
+RU: Ну, ты была раздражена всё это время. Я думал, ты уже поужинала, но, может, ты голодна и это делает тебя вспыльчивой.
+
+### script L472 | game/tl/russian/dialogs.rpy:4746
+EN: I finished dinner long ago!
+RU: Я поужинала давно!
+
+### script L475 | game/tl/russian/dialogs.rpy:4749
+EN: Is that so? But if you're this irritated, then... are you on a diet or something?
+RU: Неужели? Но если ты так раздражена, то… ты на диете или что-то в этом роде?
+
+### script L479 | game/tl/russian/dialogs.rpy:4752
+EN: Hah? A diet?
+RU: А? Диета?
+
+### script L482 | game/tl/russian/dialogs.rpy:4755
+EN: You should stop.
+RU: Тебе лучше прекратить.
+
+### script L485 | game/tl/russian/dialogs.rpy:4758
+EN: Skipping meals by force will only ruin your health and have a bad effect on your mental stability — nothing good comes of it.
+RU: Пропускать приёмы пищи силой только разрушит твоё здоровье и плохо повлияет на психическую стабильность — ничего хорошего из этого не выйдет.
+
+### script L489 | game/tl/russian/dialogs.rpy:4761
+EN: Wrooong! I'm not doing that!
+RU: Неправда! Я этого не делаю!
+
+### script L493 | game/tl/russian/dialogs.rpy:4764
+EN: Then that's fine. Besides, you're plenty attractive as you are, so if you did something unnecessary and rebounded, that'd be a disaster.
+RU: Тогда всё в порядке. К тому же ты достаточно привлекательна, как есть, так что если бы ты сделала что-то ненужное и получила откат, это было бы катастрофой.
+
+### script L497 | game/tl/russian/dialogs.rpy:4767
+EN: Um... I'm telling you, what are we even talking about?
+RU: Эм… Я говорю тебе, о чём мы вообще говорим?
+
+### script L505 | game/tl/russian/dialogs.rpy:4770
+EN: Do you want me to say 'ahh' for you too?{#ch2.4_s_045}
+RU: Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_s_045}
+
+### script L508 | game/tl/russian/dialogs.rpy:4773
+EN: Hah!? Wh-wh-why would it come to that!?
+RU: Ха!? К-к-к чему это!?
+
+### script L515 | game/tl/russian/dialogs.rpy:4776
+EN: Ah, so that's not it. You just seemed fixated on that.
+RU: А, значит, это не так. Ты просто казалась зацикленной на этом.
+
+### script L519 | game/tl/russian/dialogs.rpy:4779
+EN: That and this are different things! Why would I have to have you feed me?!
+RU: Это и то — разные вещи! Почему я должна позволять тебе кормить меня?!
+
+### script L523 | game/tl/russian/dialogs.rpy:4782
+EN: Yeah, you're right. I think so too.
+RU: Да, ты права. Я тоже так думаю.
+
+### script L526 | game/tl/russian/dialogs.rpy:4785
+EN: ...As long as you understand.
+RU: …Пока ты понимаешь.
+
+### script L534 | game/tl/russian/dialogs.rpy:4788
+EN: Do you want to be laid up in bed too?{#ch2.4_s_048}
+RU: Ты тоже хочешь быть прикованной к кровати?{#ch2.4_s_048}
+
+### script L537 | game/tl/russian/dialogs.rpy:4791
+EN: Hah!? Why would it come to that!?{#ch2.4_l_038}
+RU: Ха!? К чему это!?{#ch2.4_l_038}
+
+### script L543 | game/tl/russian/dialogs.rpy:4794
+EN: Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all.
+RU: Ну, ты была раздражена всё это время. Я подумал, может, ты тоже хочешь лежать в кровати, вот и всё.
+
+### script L547 | game/tl/russian/dialogs.rpy:4797
+EN: ...It's true that talking with you gives me a headache. But I'm not going to fake being sick just to stay in bed.
+RU: …Правда, разговор с тобой вызывает у меня головную боль. Но я не собираюсь притворяться больной, чтобы лежать в кровати.
+
+### script L551 | game/tl/russian/dialogs.rpy:4800
+EN: ...Oh, is that so?
+RU: …О, неужели?
+
+### script L555 | game/tl/russian/dialogs.rpy:4803
+EN: That's right. Me, of all people.
+RU: Это так. Я, из всех людей.
+
+### script L563 | game/tl/russian/dialogs.rpy:4806
+EN: There's no weird meaning behind it, okay? Haruna is sick, so looking after her is only normal, right?
+RU: Никакого странного смысла в этом нет, ладно? Харуна больна, так что ухаживать за ней — это нормально, верно?
+
+### script L567 | game/tl/russian/dialogs.rpy:4809
+EN: So if she's sick, you'll do anything for her?
+RU: Значит, если она больна, ты сделаешь для неё всё?
+
+### script L571 | game/tl/russian/dialogs.rpy:4812
+EN: I'm not going that far. Why are you getting angry about me looking after a sick person?
+RU: Я не зашёл так далеко. Почему ты злишься на то, что я ухаживаю за больным человеком?
+
+### script L575 | game/tl/russian/dialogs.rpy:4815
+EN: ...B-because!
+RU: …П-потому что!
+
+### script L579 | game/tl/russian/dialogs.rpy:4818
+EN: Please, that's enough.
+RU: Пожалуйста, достаточно.
+
+### script L582 | game/tl/russian/dialogs.rpy:4821
+EN: !!{#ch2.4_l_043}
+RU: !!{#ch2.4_l_043}
+
+### script L585 | game/tl/russian/dialogs.rpy:4824
+EN: Haruna...
+RU: Харуна…
+
+### script L588 | game/tl/russian/dialogs.rpy:4827
+EN: Hiraga-kun is not Miss Louise's tool. You of all people should know that, shouldn't you?
+RU: Хирага-кун — не инструмент мадемуазель Луизы. Ты из всех людей должна это знать, не так ли?
+
+### script L592 | game/tl/russian/dialogs.rpy:4830
+EN: I... I have no reason to be told that by you!
+RU: Я… У меня нет причин слушать это от тебя!
+
+### script L595 | game/tl/russian/dialogs.rpy:4833
+EN: And what's more! Sick, sick, sick — is being sick really so great? I don't care about Saito anymore!
+RU: И что ещё! Больная, больная, больная — неужели быть больным так уж здорово? Мне больше не нужен Сайто!
+
+### script L598 | game/tl/russian/dialogs.rpy:4836
+EN: Ah, hey, Louise!
+RU: А, эй, Луиза!
+
+### script L602 | game/tl/russian/dialogs.rpy:4839
+EN: Stupid dog! Stupid familiar! Stupid Saito!
+RU: Глупая собака! Глупый фамильяр! Глупый Сайто!
+
+### script L606 | game/tl/russian/dialogs.rpy:4842
+EN: Honestly, I don't care anymore!
+RU: Честно говоря, мне уже всё равно!

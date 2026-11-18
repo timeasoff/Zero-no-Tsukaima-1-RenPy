@@ -1,0 +1,664 @@
+[1] dialogs.rpy:15595 (EN line 15594)
+  EN : Hah… practice again today. Practice again tomorrow… Even so, something still feels unresolved.
+  JA : はぁ、今日も練習。　明日も練習……。　それにしても、なにか釈然としないわね。
+  RU : Ха… сегодня снова репетиция. Завтра тоже репетиция… И всё же что-то не отпускает.
+
+[2] dialogs.rpy:15599 (EN line 15598)
+  EN : …Oh? Haruna, you were here?
+  JA : ……あ、あれ？　ハルナ、いたんだ？
+  RU : …А? Харуна, ты тут была?
+
+[3] dialogs.rpy:15603 (EN line 15602)
+  EN : A-Ah!
+  JA : き、きゃあっ！
+  RU : К-кья-а!
+
+[4] dialogs.rpy:15607 (EN line 15606)
+  EN : W-What! It's me! Me!
+  JA : な、なによ！　わたしよ！　わたし！
+  RU : Ч-Что! Это я! Я!
+
+[5] dialogs.rpy:15611 (EN line 15610)
+  EN : …Hold on! Eh? Why don't you have a chest?
+  JA : ……って！　え？　なんで、ムネがないの？
+  RU : …Погоди! А? Почему у тебя нет груди?
+
+[6] dialogs.rpy:15615 (EN line 15614)
+  EN : N-no! Don't look!
+  JA : い、いやっ！　み、見ないでください！
+  RU : Н-нет! Не смотрите!
+
+[7] dialogs.rpy:15619 (EN line 15618)
+  EN : …Wh-what is that! Haruna, was your chest padded?
+  JA : ……な、なによそれ！　ハルナのムネは上げ底だったの？
+  RU : …Ч-Что это! У Харуна грудь оказалась накладной?!
+
+[8] dialogs.rpy:15623 (EN line 15622)
+  EN : S-sorry!{#ch5_5_v2365}
+  JA : ご、ごめんなさぁい！
+  RU : П-Простите!
+
+[9] dialogs.rpy:15627 (EN line 15626)
+  EN : Sorry doesn't cut it!
+  JA : ごめんなさいじゃないわよ！
+  RU : Одним «простите» не отделаешься!
+
+[10] dialogs.rpy:15631 (EN line 15630)
+  EN : B-because of that stuffing, do you know how much my small chest ached — or rather, how self-conscious I felt!
+  JA : そ、その詰め物のせいで、　どれだけわたしが小さな胸を痛めて……、　もとい肩身の狭い思いをしたと思ってるのよ！
+  RU : Из-за этой набивки, представляешь, как мне маленькая грудь болела…, точнее, как мне неловко было!
+
+[11] dialogs.rpy:15635 (EN line 15634)
+  EN : Please! Keep it a secret from everyone!
+  JA : お願い！　みんなには黙っていて！
+  RU : Умоляю! Только никому ни слова!
+
+[12] dialogs.rpy:15639 (EN line 15638)
+  EN : …….{#ch5_5_v6238}
+  JA : ……。
+  RU : …….
+
+[13] dialogs.rpy:15643 (EN line 15642)
+  EN : …….{#ch5_5_v2367}
+  JA : ……。
+  RU : …….
+
+[14] dialogs.rpy:15647 (EN line 15646)
+  EN : …Honestly, what am I to do with you. All right, I get it. I'll keep your secret.
+  JA : ……まったく、仕方ないわね。　分かったわよ。　黙っててあげる。
+  RU : …Вот уж, что с тобой поделаешь. Ладно, уж. Я никому не скажу.
+
+[15] dialogs.rpy:15651 (EN line 15650)
+  EN : …Th-thank you…
+  JA : ……あ、ありがとう……。
+  RU : …С-спасибо….
+
+[16] dialogs.rpy:15655 (EN line 15654)
+  EN : …Once, for the sake of appearances… one pad, then another — before I knew it there was no going back… and finally…
+  JA : ……昔、見栄をはって……パッドを一枚、　また一枚と入れていくうちに後戻り　できなくなって……とうとう……。
+  RU : …Когда-то, ради бравады, вкладывала по одной прокладке, потом ещё — и уже не смогла вернуться назад… и вот наконец….
+
+[17] dialogs.rpy:15659 (EN line 15658)
+  EN : …O-oh. So this is what a pad is?
+  JA : ……ふ、ふぅん。　パッドってこれのこと？
+  RU : …Гм. Прокладка — это вот что?
+
+[18] dialogs.rpy:15663 (EN line 15662)
+  EN : …Y-yes. You put them on like this… I suppose you'd call it padding…
+  JA : ……う、うん。　こうやってつける……、上げ底というか……。
+  RU : …Да. Их так одеваешь…, скорее, это подделка….
+
+[19] dialogs.rpy:15667 (EN line 15666)
+  EN : …It's a girl's secret tool, found in our world.
+  JA : ……私達の世界にある、女の子の秘密道具なの。
+  RU : …Это секретная штучка девушки из нашего мира.
+
+[20] dialogs.rpy:15671 (EN line 15670)
+  EN : …H-hm. Odd shape.
+  JA : ……ふ、ふ～ん。　変な形ね。
+  RU : …М-м. Странная форма.
+
+[21] dialogs.rpy:15675 (EN line 15674)
+  EN : …….{#ch5_5_v6242}
+  JA : ……。
+  RU : …….
+
+[22] dialogs.rpy:15679 (EN line 15678)
+  EN : …B-but. It's wonderful.
+  JA : ……で、でも。　すばらしいわ。
+  RU : …Н-но. Просто чудесно.
+
+[23] dialogs.rpy:15683 (EN line 15682)
+  EN : It's just now, for the first time, I felt interest and respect for the world Saito was in.
+  JA : いま初めて、サイトがいた世界に興味と　尊敬を感じたわ。
+  RU : Теперь впервые я почувствовала интерес и уважение к миру, где Сайто был прежде.
+
+[24] dialogs.rpy:15687 (EN line 15686)
+  EN : I thought I didn't need them anymore, but Hiraga-kun seems to like girls with big chests, so…
+  JA : 最近はつける必要ないと思ってたんだけど、　平賀くん、胸の大きい女の子が　好きみたいだし……。
+  RU : Я думала, уже не обязательно, но Хирага-кун, похоже, любит девиц с большой грудью, так что….
+
+[25] dialogs.rpy:15691 (EN line 15690)
+  EN : Right. He pretends not to be interested, but it's obvious.
+  JA : そうよね。　本人は興味なさそうなふりをしてる　みたいだけど、バレバレよ。
+  RU : Верно. Он притворяется, будто ему всё равно, но видно же.
+
+[26] dialogs.rpy:15695 (EN line 15694)
+  EN : Louise-san, I'm sorry.
+  JA : ルイズさん、ごめんなさい。
+  RU : Луиза-сан, простите.
+
+[27] dialogs.rpy:15699 (EN line 15698)
+  EN : No, it's all right, Haruna. It's all that stupid dog's fault. He doesn't understand girls' feelings.
+  JA : いえ、いいのよハルナ。　すべてはあのバカ犬が悪いのよ。　女の子の気持ち、分かってくれないんだから。
+  RU : Нет, всё хорошо, Харуна. Во всём виноват этот дурацкий пёс. Он не понимает чувства девушек.
+
+[28] dialogs.rpy:15703 (EN line 15702)
+  EN : That's right.{#ch5_5_v2374}
+  JA : そうですね。
+  RU : Точно.
+
+[29] dialogs.rpy:15707 (EN line 15706)
+  EN : …Pfft, heh heh heh.
+  JA : ……プッ、くすくすくす。
+  RU : …Пф, хи-хи-хи.
+
+[30] dialogs.rpy:15711 (EN line 15710)
+  EN : Ah ha, ah ha ha ha…
+  JA : あは、あはははは……。
+  RU : Аха, ахахаха….
+
+[31] dialogs.rpy:15715 (EN line 15714)
+  EN : They sure seem to be enjoying themselves, huh? …What were those two talking about?
+  JA : なんか、楽しそうに笑ってるぞ？　……あの２人……何を話してたんだ？
+  RU : Похоже, они веселятся, а? …О чём они там говорили?
+
+[32] dialogs.rpy:15719 (EN line 15718)
+  EN : Partner. Well — better not to ask, as they say.
+  JA : 相棒。　まぁ、聞かぬが華ってヤツだよ。
+  RU : Партнёр. Ну, как говорится: не стоит спрашивать.
+
+[33] dialogs.rpy:15723 (EN line 15722)
+  EN : What's that supposed to mean?{#ch5_5_v11677}
+  JA : なんだそりゃ。
+  RU : А это что значит?
+
+[34] dialogs.rpy:15727 (EN line 15726)
+  EN : Everyone, attention!
+  JA : 諸君、注目っ！
+  RU : Внимание всем!
+
+[35] dialogs.rpy:15731 (EN line 15730)
+  EN : The script is done, and you've come a long way with the basics, so I'd like to move on to proper rehearsals.
+  JA : 台本も上がったし、基礎も大分出来るように　なってきたので、本格的に立ち稽古に　入ろうと思います。
+  RU : Сценарий готов, и с основами у всех уже неплохо получается, так что давайте перейдём к полноценным репетициям.
+
+[36] dialogs.rpy:15735 (EN line 15734)
+  EN : E-at last…?
+  JA : え、ついに……ですか？
+  RU : А, наконец-то…?
+
+[37] dialogs.rpy:15739 (EN line 15738)
+  EN : We did it, everyone.
+  JA : やりましたね、みなさん。
+  RU : Мы справились, все!
+
+[38] dialogs.rpy:15743 (EN line 15742)
+  EN : …Well, since those who aren't here can't be helped — here are the main roles as I picture them now.
+  JA : ……まあ、いない人達はしょうがないので、　それでは現時点でイメージしてる　主な配役を発表します。
+  RU : …Ну, раз кого-то нет, объявлю главные роли — как я их вижу сейчас.
+
+[39] dialogs.rpy:15747 (EN line 15746)
+  EN : Oh — but first, the plot of the second half…
+  JA : っと、その前に後半の筋ね……。
+  RU : Ох, но прежде — сюжет второй половины….
+
+[40] dialogs.rpy:15751 (EN line 15750)
+  EN : By the time their love had advanced as far as the prince's proposal, an epidemic breaks out in the girl's homeland — the enemy kingdom — and the royal family all perish.
+  JA : ２人の恋が王子の求婚にまで進展していた頃、　少女の故郷である敵国で疫病が流行り、王族が　すべて倒れるという事件が起こるの。
+  RU : Когда любовь двоих дошла до предложения руки, в родной стране девушки — вражеском королевстве — вспыхивает мор, и вся королевская семья вымирает.
+
+[41] dialogs.rpy:15755 (EN line 15754)
+  EN : The panicked enemy country looks for an heir and finally finds Noelle. It immediately pressures the girl to return home at once.
+  JA : 慌てた敵国は後継者を探し、とうとうノエルを　見つけだした。敵国はすぐさま少女を　帰国させるよう、圧力をかけてくる。
+  RU : В панике вражеское королевство ищет наследника и наконец находит Ноэль. Оно сразу же давит на девушку, чтобы та вернулась домой.
+
+[42] dialogs.rpy:15759 (EN line 15758)
+  EN : It also insisted that her marriage to the prince of the enemy royal family would not be permitted.
+  JA : また、敵の王族である王子との結婚は許さない　とも主張してきたの。
+  RU : Оно также настаивало: брак с принцем из королевской семьи врага не будет разрешён.
+
+[43] dialogs.rpy:15763 (EN line 15762)
+  EN : So — what happens then?
+  JA : で、どうなるんですか？
+  RU : И что же дальше?
+
+[44] dialogs.rpy:15767 (EN line 15766)
+  EN : The kingdom and Prince Kane keep refusing the demands, but the angry enemy country finally uses its army to take Noelle back.
+  JA : 王国とケイン王子は要求を断り続けるけど、　怒った敵国は、とうとう軍隊を使ってノエルを　取り戻そうとする。
+  RU : Королевство и принц Кейн продолжают отвергать требования, но разгневанное вражеское королевство в итоге бросает армию, чтобы забрать Ноэль.
+
+[45] dialogs.rpy:15771 (EN line 15770)
+  EN : The overwhelming enemy army. At last, the royal castle falls…
+  JA : 圧倒的な敵軍。　ついに落とされる王城……。
+  RU : Подавляющая сила врага. Королевский замок наконец пал….
+
+[46] dialogs.rpy:15775 (EN line 15774)
+  EN : Holding back the enemy soldiers pouring in, the knights cry 'Long live the kingdom!' and die, one after another.
+  JA : 殺到する敵兵を食い止めながら、騎士達は　王国万歳を叫び次々と死んでいく。
+  RU : Сдерживая напор вражеских солдат, рыцари кричат: «Да здравствует королевство!» и гибнут один за другим.
+
+[47] dialogs.rpy:15779 (EN line 15778)
+  EN : Prince Kane, wounded in battle, takes Noelle up the tower to make his final confession… And at the same time, he tells her to leave the castle.
+  JA : 戦いで傷ついたケイン王子は、ノエルを連れて　塔へと登り、最後の告白をするの……。　そして、同時に城を出るように告げた。
+  RU : Раненый в бою принц Кейн уводит Ноэль и поднимается в башню, чтобы сделать последнее признание… И одновременно велит ей покинуть замок.
+
+[48] dialogs.rpy:15783 (EN line 15782)
+  EN : But the girl shakes her head. Even giving up her throne and life, she answered the prince's confession.
+  JA : けれど、少女は首を振る。　王位と命を捨てても、少女は王子の告白に　応えた。
+  RU : Но девушка качает головой. Даже отказавшись от трона и жизни, она ответила на признание принца.
+
+[49] dialogs.rpy:15787 (EN line 15786)
+  EN : Then, surrounded by enemy soldiers, the two leap from the tower and end their own lives.
+  JA : そして、敵兵に囲まれた２人は、塔から身を投げ、　自らの命を絶つのでした。
+  RU : Затем, окружённые вражескими солдатами, двое бросаются с башни и лишают себя жизни.
+
+[50] dialogs.rpy:15791 (EN line 15790)
+  EN : From where the two fell, beautiful white flowers began to bloom. …That's the story.
+  JA : ２人が落ちた場所からは、美しい白い花が　咲くようになった。　……ってお話。
+  RU : На месте, где двое упали, стали цвести прекрасные белые цветы. …Вот такая история.
+
+[51] dialogs.rpy:15795 (EN line 15794)
+  EN : Th-that's it? A bad ending?
+  JA : そ、それでおしまい？　バッドエンドかよ？
+  RU : В-Всё? И это бэд-энд?
+
+[52] dialogs.rpy:15799 (EN line 15798)
+  EN : Got some complaint?
+  JA : なにか不満でも？
+  RU : Какие-нибудь претензии?
+
+[53] dialogs.rpy:15803 (EN line 15802)
+  EN : What a horrible story.
+  JA : ひどい話だな。
+  RU : Ужасная история.
+
+[54] dialogs.rpy:15807 (EN line 15806)
+  EN : What do you mean? It's a good story!
+  JA : なによ、いいお話じゃない！
+  RU : Что ты? Это хорошая история!
+
+[55] dialogs.rpy:15811 (EN line 15810)
+  EN : That's right, Saito-san!
+  JA : そうですよ、サイトさん！
+  RU : Верно, Сайто-сан!
+
+[56] dialogs.rpy:15815 (EN line 15814)
+  EN : But it's a tragedy! Nothing beats a happy ending!
+  JA : だって悲劇だろ！　物語はハッピーエンドに限るって！
+  RU : Но это же трагедия! Истории нужны только хэппи-энды!
+
+[57] dialogs.rpy:15819 (EN line 15818)
+  EN : A happy ending without any reason — isn't it just a comedy?!
+  JA : 理由の無いハッピーエンドなんて　喜劇じゃないの！
+  RU : Хэппи-энд без причины — разве это не комедия?!
+
+[58] dialogs.rpy:15823 (EN line 15822)
+  EN : I understand that Saito likes those comedy-style happy endings, though.
+  JA : サイトは、喜劇じみたハッピーエンドが　好みなのは解ったけど。
+  RU : Я понимаю, что Сайто любит комедийные хэппи-энды.
+
+[59] dialogs.rpy:15827 (EN line 15826)
+  EN : But I'd like to save that for another performance. This play is a 'tragedy.'
+  JA : でも、それはまた別の公演にして欲しいな。　今回の芝居は『悲劇』なんだよ。
+  RU : Но это, пожалуй, я бы оставила для другого представления. Эта пьеса — «трагедия».
+
+[60] dialogs.rpy:15831 (EN line 15830)
+  EN : No, I think it's a good story.
+  JA : いや、いい話だと思うけど。
+  RU : Нет, по-моему, история хорошая.
+
+[61] dialogs.rpy:15835 (EN line 15834)
+  EN : My? Saito, can you tell a good story from a bad one?
+  JA : あら？　サイトにお話の良し悪しが分かるの？
+  RU : Ой? Сайто, ты отличаешь хорошую историю от плохой?
+
+[62] dialogs.rpy:15839 (EN line 15838)
+  EN : I read quite a lot, you know. W-well, so I like to think my eye is reasonably sharp!
+  JA : 結構、本を読んでるんでね。　ま、まあ、そんなわけで、　それなりに目は肥えてるつもりだ！
+  RU : Я довольно много читаю. Н-ну, так что, мне кажется, глаз у меня неплохой!
+
+[63] dialogs.rpy:15843 (EN line 15842)
+  EN : Is that so.
+  JA : へえ。
+  RU : Неужели.
+
+[64] dialogs.rpy:15847 (EN line 15846)
+  EN : No, I don't really get it.
+  JA : いや、よく分かんない。
+  RU : Нет, не очень понимаю.
+
+[65] dialogs.rpy:15851 (EN line 15850)
+  EN : Now, now. Saito, that's a problem.
+  JA : おいおい。　サイト、それでは困るよ。
+  RU : Ой-ой. Сайто, так не пойдёт.
+
+[66] dialogs.rpy:15855 (EN line 15854)
+  EN : Well, next time I'll just have to make you read books until you're sick of them, won't I?
+  JA : まぁ、今度嫌というほど、　本を読んでもらわないといけないかな？
+  RU : Ну, в следующий раз придётся заставить тебя читать, пока тебе не надоест?
+
+[67] dialogs.rpy:15859 (EN line 15858)
+  EN : N-no… And, well…
+  JA : い、いや……。　その……。
+  RU : Н-нет… Ну, это….
+
+[68] dialogs.rpy:15863 (EN line 15862)
+  EN : Now, about the casting…
+  JA : さて、配役だけど……。
+  RU : Итак, о ролях….
+
+[69] dialogs.rpy:15867 (EN line 15866)
+  EN : First, our own Prince Kane — you, Saito!
+  JA : まず、自国の王子ケインは……サイト！
+  RU : Начнём с нашего принца Кейна — Сайто!
+
+[70] dialogs.rpy:15871 (EN line 15870)
+  EN : …Whaaat!? M-me?
+  JA : ……ええっ！　お、俺？
+  RU : …Чтоо!? Это я?
+
+[71] dialogs.rpy:15875 (EN line 15874)
+  EN : The heroine, the girl Noelle — you, Louise!
+  JA : ヒロインの少女ノエルは……ルイズ！
+  RU : Героиню, девушку Ноэль, — Луизу!
+
+[72] dialogs.rpy:15879 (EN line 15878)
+  EN : …Ufufu, of course!
+  JA : ……うふふ、当然ね！
+  RU : …Уфуфу, конечно!
+
+[73] dialogs.rpy:15883 (EN line 15882)
+  EN : However — provisional!
+  JA : ただし、暫定！
+  RU : Но это предварительно!
+
+[74] dialogs.rpy:15887 (EN line 15886)
+  EN : …Eh? W-wait! What do you mean, provisional?!
+  JA : ……え？　ち、ちょっと！　暫定って何よ！
+  RU : …А? П-погоди! Что значит, „предварительно“?!
+
+[75] dialogs.rpy:15891 (EN line 15890)
+  EN : Everyone's still rough, but they've got the right stuff. Depending on how the other candidates turn out, I may swap you out.
+  JA : まだ、みんな荒削りだが筋はいい。　他の候補の仕上がり次第では　差し替えるかもしれない。
+  RU : Все пока грубоваты, но задатки хорошие. Возможно, заменю — если другие выйдут лучше.
+
+[76] dialogs.rpy:15895 (EN line 15894)
+  EN : I need a little more time before the final decision.
+  JA : もう少し決定まで時間がほしいんだ。
+  RU : Мне нужно ещё немного времени перед окончательным решением.
+
+[77] dialogs.rpy:15899 (EN line 15898)
+  EN : Oh my? Then I might still have a shot at the lead?
+  JA : あら？　じゃあまだ主役を狙えたりするの？
+  RU : Ой? Значит, я всё ещё могу претендовать на главную?
+
+[78] dialogs.rpy:15903 (EN line 15902)
+  EN : Kirche!
+  JA : キュルケ！
+  RU : Кирхе!
+
+[79] dialogs.rpy:15907 (EN line 15906)
+  EN : Louise as the lead over me — that's impossible.
+  JA : わたしを差し置いて、　ルイズが主役なんてありえないわよ。
+  RU : Не бывает, чтобы Луизу выбрали на главную в обход меня!
+
+[80] dialogs.rpy:15911 (EN line 15910)
+  EN : Y-you, the lead… U-unforgivable!
+  JA : き、きみが主役だと……。　ゆ、許せん！
+  RU : Т-ты — главная… Н-недопустимо!
+
+[81] dialogs.rpy:15915 (EN line 15914)
+  EN : Everyone!
+  JA : みんな！
+  RU : Все!
+
+[82] dialogs.rpy:15919 (EN line 15918)
+  EN : …Never mind. Everything is decided on merit alone. You all truly have a chance.
+  JA : ……まあいいわ。　全ては実力で決める。　確かにあなた達にもチャンスはあるわよ。
+  RU : …Ладно. Всё решит мастерство. У вас тоже есть шанс.
+
+[83] dialogs.rpy:15923 (EN line 15922)
+  EN : What a generous decision.
+  JA : さすが、寛大な処置ね。
+  RU : Какое великодушное решение.
+
+[84] dialogs.rpy:15927 (EN line 15926)
+  EN : I'm glad for you. Kirche, Montmon!
+  JA : 良かったな。　キュルケ、モンモン！
+  RU : Рад за вас. Кирхе, Монмон!
+
+[85] dialogs.rpy:15931 (EN line 15930)
+  EN : Oh, thank you. My darling.
+  JA : あら、ありがと。　ダーリン。
+  RU : Ой, спасибо. Мой дорогой.
+
+[86] dialogs.rpy:15935 (EN line 15934)
+  EN : Well, it'll be work making up the lost ground, though.
+  JA : まあ、遅れを取り戻すぶん大変ですけどね。
+  RU : Правда, навёрстывать упущенное — трудно.
+
+[87] dialogs.rpy:15939 (EN line 15938)
+  EN : …Saito, one moment. Does that mean you're dissatisfied with me as the heroine?
+  JA : ……ちょっと、サイト。　それはわたしがヒロインでは不満ってこと　かしら？
+  RU : …Постой, Сайто. Это значит, что тебе не нравлюсь я в роли героини?
+
+[88] dialogs.rpy:15943 (EN line 15942)
+  EN : N-no, that's not what I mean at all…
+  JA : い、いや、そういうわけでは決して……。
+  RU : Н-нет, дело совсем не в этом….
+
+[89] dialogs.rpy:15947 (EN line 15946)
+  EN : Don't underestimate us — you had us do nothing but grueling basics!
+  JA : ずっとつらい基礎ばかりやらされていた　俺達を舐めるなよ！
+  RU : Не недооценивай нас — нас вечно заставляли делать только тяжёлые основы!
+
+[90] dialogs.rpy:15951 (EN line 15950)
+  EN : Oh my, quite the confidence. My darling.
+  JA : あら、なかなかたいした自信ね。　ダーリン。
+  RU : Неплохая самоуверенность. Мой дорогой.
+
+[91] dialogs.rpy:15955 (EN line 15954)
+  EN : U-um. Is there a chance my role could be swapped too?
+  JA : あ、あの。　俺の役も交替の可能性が？
+  RU : Э-эм. Мою роль тоже могут поменять?
+
+[92] dialogs.rpy:15959 (EN line 15958)
+  EN : Of course there is. Like I said just now. It's provisional through and through.
+  JA : もちろんありうるわよ。　さっきも言ったとおりよ。　あくまで暫定。
+  RU : Конечно, возможно. Как я уже говорила — это всё предварительно.
+
+[93] dialogs.rpy:15963 (EN line 15962)
+  EN : Besides, sometimes a woman plays the part. Don't get complacent.
+  JA : それに女性が演じる場合もあるの。　うかうかしないでね。
+  RU : К тому же иногда такие роли играют женщины. Так что не расслабляйся.
+
+[94] dialogs.rpy:15967 (EN line 15966)
+  EN : …The final roles, including the rest of the cast, will be announced another day.
+  JA : ……その他のキャストを含めた最終的な役は、　後日発表します。
+  RU : …Окончательный состав, с остальными ролями, объявлю в другой раз.
+
+[95] dialogs.rpy:15971 (EN line 15970)
+  EN : Now, work hard at rehearsal. Dismissed!
+  JA : では稽古に精を出すように。　解散！
+  RU : Так что усердно репетируйте. Расходимся!
+
+[96] dialogs.rpy:15975 (EN line 15974)
+  EN : Well then — good work, everyone!
+  JA : それじゃ、おつかれさまーっ！
+  RU : Ну что ж, хорошая работа!
+
+[97] dialogs.rpy:15979 (EN line 15978)
+  EN : …What's with you, Kirche. You were complaining the whole time, but lately you've gone completely zealous?
+  JA : ……なによ、キュルケ。　あんなにぶつぶつ文句ばかり言ってたのに、　最近はすっかり熱心じゃない？
+  RU : …Что с тобой, Кирхе. Ты столько ворчала, а теперь прям рьяная?
+
+[98] dialogs.rpy:15983 (EN line 15982)
+  EN : …Oh my, I've never been one to mind this sort of thing, to begin with.
+  JA : ……あら、だってあたしはもともと　こーゆーの嫌いじゃないし。
+  RU : …Ой, я и не брезгую таким с самого начала.
+
+[99] dialogs.rpy:15987 (EN line 15986)
+  EN : Easy for you to say. Even though you ran away halfway…
+  JA : ふん、よくいうわよ。　途中で一度逃げだしたくせに……。
+  RU : Легко тебе говорить. Ты ведь сама сбежала на середине….
+
+[100] dialogs.rpy:15991 (EN line 15990)
+  EN : That's…!
+  JA : それは……！
+  RU : Это…!
+
+[101] dialogs.rpy:15995 (EN line 15994)
+  EN : That's true.
+  JA : それは、そうね。
+  RU : Это верно.
+
+[102] dialogs.rpy:15999 (EN line 15998)
+  EN : …By the way. Say, my darling.
+  JA : ……ところで。　ねえ、ダーリン。
+  RU : …Кстати. Мой дорогой.
+
+[103] dialogs.rpy:16003 (EN line 16002)
+  EN : What is it, Kirche?
+  JA : なんだ、キュルケ？
+  RU : Что такое, Кирхе?
+
+[104] dialogs.rpy:16007 (EN line 16006)
+  EN : Haven't you forgotten something? Something very important.
+  JA : 『何か忘れてること』ないかしら？　とても大切なこと。
+  RU : Ты не забыл что-нибудь? Кое-что очень важное.
+
+[105] dialogs.rpy:16011 (EN line 16010)
+  EN : Eh? Something I forgot?
+  JA : へ？　忘れてること？
+  RU : А? Забыл что?
+
+[106] dialogs.rpy:16015 (EN line 16014)
+  EN : Do you mean looking for 'the bomb user' the Queen asked me about?
+  JA : それってもしかして、女王様から頼まれた　「爆弾使い」を探すこと？
+  RU : Ты имеешь в виду поиск „бомбиста“, о котором просила королева?
+
+[107] dialogs.rpy:16019 (EN line 16018)
+  EN : Correct.
+  JA : そう、正解。
+  RU : Совершенно верно.
+
+[108] dialogs.rpy:16023 (EN line 16022)
+  EN : Do you mean that today is Kirche's birthday?
+  JA : それってもしかして、　今日がキュルケの誕生日ってこと？
+  RU : Это, случайно, не значит, что сегодня день рождения Кирхе?
+
+[109] dialogs.rpy:16027 (EN line 16026)
+  EN : I'm sorry. Today isn't that day.
+  JA : ごめんなさい。　今日はその日ではないの。
+  RU : Прости. Сегодня не тот день.
+
+[110] dialogs.rpy:16031 (EN line 16030)
+  EN : The answer is: what happened to finding 'the bomb user'?{#ch5_5_v3284}
+  JA : 正解は、「爆弾使い」を探すこと　ってどうなったのかなぁってこと。
+  RU : Правильный ответ: а как там поиск „бомбиста“?
+
+[111] dialogs.rpy:16035 (EN line 16034)
+  EN : Could it be that my footwork in the dance wasn't good today?
+  JA : もしかして、ダンスの足さばきが　今日は上手くなかったとか？
+  RU : Может, сегодня моя работа ног в танце была не на высоте?
+
+[112] dialogs.rpy:16039 (EN line 16038)
+  EN : Hmm. No, that's not it.
+  JA : うーん。　そうじゃないのよ。
+  RU : М-м. Не то.
+
+[113] dialogs.rpy:16043 (EN line 16042)
+  EN : The answer is: what happened to finding 'the bomb user'?{#ch5_5_v3286}
+  JA : 正解は、「爆弾使い」を探すこと　ってどうなったのかなぁってこと。
+  RU : Правильный ответ: а как там поиск „бомбиста“?
+
+[114] dialogs.rpy:16047 (EN line 16046)
+  EN : Crap. I've been so busy with practice lately I haven't been able to look around at all.
+  JA : やばっ。　ここ最近練習に忙しくて、　ぜんぜん見て回れていないよ。
+  RU : Чёрт. Я так занят репетициями в последнее время, что совсем не ходил смотреть.
+
+[115] dialogs.rpy:16051 (EN line 16050)
+  EN : I-I have to tell Louise about this…
+  JA : ル、ル、ルイズにこのことを知らせないと……。
+  RU : М-мне нужно сообщить Луизе об этом….
+
+[116] dialogs.rpy:16055 (EN line 16054)
+  EN : …It's fine.
+  JA : ……大丈夫。
+  RU : …Всё в порядке.
+
+[117] dialogs.rpy:16059 (EN line 16058)
+  EN : …Eh?
+  JA : ……えっ？
+  RU : …А?
+
+[118] dialogs.rpy:16063 (EN line 16062)
+  EN : …Aah, you didn't have to give me away so soon. I wanted to watch my darling squirm a little longer…
+  JA : ……ああ、そんなにすぐにバラさなくても。　もう少し、ダーリンがあわてるところを　見たかったのに……。
+  RU : …Ах, не надо было так сразу выдавать. Я хотела ещё понаблюдать, как мой дорогой волнуется….
+
+[119] dialogs.rpy:16067 (EN line 16066)
+  EN : Kirche. You could have just told me so.
+  JA : キュルケ。　そうならそうと言ってくれれば良かったのに。
+  RU : Кирхе. Если так — лучше бы просто сказала.
+
+[120] dialogs.rpy:16071 (EN line 16070)
+  EN : Well, you know Louise — when she gets going, she goes straight ahead, doesn't she?
+  JA : まあ、ほら、ルイズって、　入れ込むと一直線でしょ？
+  RU : Ну, ты же знаешь Луизу: взялась — и только вперёд, верно?
+
+[121] dialogs.rpy:16075 (EN line 16074)
+  EN : Besides, that girl isn't good at asking others for favors, so we just kept quiet.
+  JA : それにあの子、他人にお願いするのが　苦手みたいだし。　だから、黙ってただけよ。
+  RU : К тому же, кажется, ей трудно просить других о помощи, поэтому мы промолчали.
+
+[122] dialogs.rpy:16079 (EN line 16078)
+  EN : Just covering your embarrassment.
+  JA : 照れ隠し。
+  RU : Просто стеснение прикрываешь.
+
+[123] dialogs.rpy:16083 (EN line 16082)
+  EN : Th-that's not it!
+  JA : ち、違うわよ！
+  RU : Э-Это не так!
+
+[124] dialogs.rpy:16087 (EN line 16086)
+  EN : Kirche, thanks. I'll say it in Louise's place.
+  JA : キュルケ、ありがとうな。　ルイズの代わりに言っておくよ。
+  RU : Кирхе, спасибо. Скажу за Луизу.
+
+[125] dialogs.rpy:16091 (EN line 16090)
+  EN : Honestly, my darling.
+  JA : もう、ダーリンったら。
+  RU : Уж ты, мой дорогой.
+
+[126] thoughs.rpy:1287 (EN line 1286)
+  EN : Even after that, the days of practice continued.{#ch5_5_th_001}
+  JA : （それからも練習の日々は続いた）
+  RU : И после этого дни репетиций продолжались.
+
+[127] thoughs.rpy:1291 (EN line 1290)
+  EN : The little princess's behavior on her daily visits is a mystery in itself, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}
+  JA : （毎日通ってくるお姫さまの行動も謎だが、　相変わらず、キュルケ、モンモランシー、　ギーシュが戻ってこないのも謎だな）
+  RU : Поведение малой принцессы, которая приходит к нам ежедневно, — само по себе загадка, но и то, что Кирхе, Монморанси и Гиш всё не возвращаются, тоже загадка.
+
+[128] thoughs.rpy:1295 (EN line 1294)
+  EN : Who knows how this will turn out…{#ch5_5_th_003}
+  JA : （まったく、どうなることやら……）
+  RU : Совсем непонятно, чем всё кончится…
+
+[129] thoughs.rpy:1299 (EN line 1298)
+  EN : They're comics, though.{#ch5_5_th_004}
+  JA : （マンガだけどな）
+  RU : Хотя это манга.
+
+[130] thoughs.rpy:1303 (EN line 1302)
+  EN : …….{#ch5_5_th_005}
+  JA : ……。
+  RU : …….
+
+[131] thoughs.rpy:1307 (EN line 1306)
+  EN : And then the days of preparing and rehearsing for the show flew by in a blink.{#ch5_5_th_006}
+  JA : （そして、公演の準備と稽古にあけくれる　日々は瞬く間に過ぎていった）
+  RU : И дни подготовки и репетиций представления пролетели как один.
+
+[132] thoughs.rpy:1311 (EN line 1310)
+  EN : Kui kui.
+  JA : （くいくい）
+  RU : Куй-куй.
+
+[133] thoughs.rpy:1315 (EN line 1314)
+  EN : According to Tabitha, Kirche, Montmorency, and Guiche had looked into the bomb user for me.{#ch5_5_th_007}
+  JA : （タバサが言うには、キュルケ、　モンモランシー、ギーシュで、　爆弾使いの調べをしてくれたらしい）
+  RU : По словам Табиты, Кирхе, Монморанси и Гиш для меня разузнали про бомбиста.
