@@ -5182,3 +5182,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Проверки: `check_project.py` OK, `check_renpy_syntax.py --chapter 22` OK, `check_typography.py --chapter 22 --lang ru/en` OK, `check_placeholders.py` OK, `check_assets.py` OK, `omission_precheck --chapter 22_5` 0 кандидатов.
 - Отчёт: `reports/ch22/5.md`; `reports/translation_plan.md` обновлён. Итог главы 22: 5 частей, 472 голоса, выход `jump ch23`.
 - Техническое: в новом worktree подключены симлинки на общий медиа-архив (`wav_files`, `game/audio`) — не коммитятся.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 23, часть 1 (849–867)
+
+- 128 реплик / 124 голоса + 3 menu; `voice_id_map.csv` +124; `.ogg` 124/0.
+- Аудиты: C 2 WARNING (хеджи `みたい` → категорические утверждения), Ф1 1 ERROR (скриптовая вставка `Greater` в RU). Все FIXED.
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0 кандидатов.
+- Отчёт `reports/ch23/1.md`; стаб `script-ch23_2.rpy` создан.
