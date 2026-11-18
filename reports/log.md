@@ -5341,3 +5341,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Date/move-гейты (1+3+1 события) сведены к безусловным переходам: **PRESERVED — ACCEPTABLE ADAPTATION (PROVISIONAL)**, требует согласования с владельцем глав 0–21 → OPEN.
 - Недостижимые лейблы: ~95 альтернативных корней extra (dispatch OPEN), 3 невыбранные ветки `!zero_kiss`, 3 сцены-проводника `【移動】` — все PRESERVED, уникального контента не теряют.
 - Отчёт: `reports/flow_sympathy_ch22_to_end.md`, evidence `reports/flow_audit.md`.
+
+## 2026-11-18 — Промпт 08: EN-база и JA/RU TL
+
+- Новые аудиторы: `tools/tl_consistency_audit.py` (полнота old/new, дубли, пустые new, `...`, tag questions, скобки, `{i}`) и `tools/ja_fidelity_audit.py` (JA `new` против parse JSON). JA `new` не редактировались.
+- Scope: 27 `.rpy`, 5208 EN-строк. 0 EN без old в JA/RU, 0 дублей old, 0 пустых new, 0 `...`, 0 мыслей в скобках RU, 0 непарных `{i}`, 0 W1 в scope.
+- **FIXED**: `...` → `…` в RU `ch26_1_choises.rpy:19` (EN/JA Content содержат `…`); typography гл.26 RU/EN OK.
+- **MISMATCH_JA → PRESERVED — JA READ-ONLY**: 24 JA `new` в sp90/sp91 содержат хвосты ENGINE-тегов (`[EVENT_CG …]`, `[SPRITE …]`…), доставшиеся из расшифровки; EN-сторона очищена ранее, JA трогать запрещено. 6 титульных карточек `第二十三章「…」` — принятый формат (как `第十章…` в гл.10) → ACCEPTABLE ADAPTATION.
+- **CANDIDATE → PRESERVED — ACCEPTABLE ADAPTATION**: 12 RU-фраз с «верно?»/«не так ли?» — во всех JA есть реальные частицы `だろ/でしょ/わよね/そうよね`; это не механический кальк. По `AGENTS.md` «предпочтение редактора ≠ ошибка», правки не вносились.
+- **CANDIDATE → PRESERVED — PROVISIONAL**: 13 мест с `-san` в JA, опущенным в EN/RU (9 третьеличностных «Сайто-сан»→«вы», 4 прямых обращения). Жёсткое правило `addresses.md` касается только «Сайто-сан» от Сиесты; массовый проход затронул бы чужие главы 0–21 → OPEN.
+- Проверки: `check_project.py` OK, `check_renpy_syntax.py` OK, typography RU/EN OK.
+- Отчёт: `reports/en_ru_tl_consistency.md`, evidence `reports/tl_consistency_audit.md`, `reports/ja_fidelity_audit.md`.

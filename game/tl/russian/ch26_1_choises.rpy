@@ -16,5 +16,5 @@ translate russian strings:
     new "Поручить Луизе"
 
     old "…That's a bribe, isn't it{#ch26_1_c_940_3}"
-    new "...Это же взятка, да?"
+    new "…Это же взятка, да?"
 
