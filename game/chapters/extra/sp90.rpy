@@ -4231,6 +4231,7 @@ label sp90_scene_1624:
     # [TRANS trans("crossfade", 0)]
     # [LAYER    white    hide]
     # ………。……。…。[BG       stage    image=+88, level=200][TRANS
+    $ fade_fx("id(88)")
     th "………。……。…。{#sp90_s1624_035}"
 
     # ……い、生きてるか相棒？

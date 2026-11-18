@@ -1494,6 +1494,7 @@ label sp91_scene_1739:
     s "(It's awful!!){#sp91_s1739_002}"
 
     # （なんて、言えるわけないよなあ……）[EVENT_CG event    image=+180, level=
+    $ dissolve_fx("id(180)")
     s "(I could never say that out loud…){#sp91_s1739_003}"
 
     # ねえ、何か言いなさいよ。気になるわねぇ……。
@@ -2708,6 +2709,7 @@ label sp91_scene_1776:
     s "(But having a girl's weight in my arms…… isn't bad at all.){#sp91_s1776_020}"
 
     # ………。……。…。[BG       stage    image=+90, level=200][TRANS
+    $ fade_fx("id(90)")
     th "……… …… …{#sp91_s1776_021}"
 
     # ……スゥスゥ。
