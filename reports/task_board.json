@@ -1405,6 +1405,35 @@
         }
       ],
       "closed": "2026-11-18 12:35:40"
+    },
+    {
+      "id": "T20261118-133056-17b8",
+      "created": "2026-11-18 13:30:56",
+      "request": "Аудит полноты порта (промпт 05): гл.22 ч.5, гл.23-28 со inline extra, chapter_90/91 — построчная и событийная сверка с PS2, поиск и исправление пропусков",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Сверка A-F по 9 единицам, исправление пропущенных сцен 967-971 и событий, отчёты",
+          "status": "done",
+          "created": "2026-11-18 13:31:10",
+          "started": null,
+          "finished": "2026-11-18 13:31:23",
+          "session": null,
+          "note": "Coverage audit complete: 9 units A-F; recovered 54 voices/5 scenes in ch26; fixed ch25 event leak; fixed extra choice tails; all checks green",
+          "evidence": [
+            "reports/coverage/README.md",
+            "reports/ch26/4b.md"
+          ],
+          "manual": "Сверка A-F по 9 единицам, исправление пропущенных сцен 967-971 и событий, отчёты"
+        }
+      ],
+      "closed": "2026-11-18 13:31:23"
     }
   ]
 }

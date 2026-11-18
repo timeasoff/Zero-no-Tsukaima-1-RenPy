@@ -177,8 +177,9 @@ def main():
     for x in data:
         k = x['kind']
         if k == 'scene':
-            if not 965 <= x['no'] <= 966: continue
-            scene = x['no']
+            scene = x['no'] if 965 <= x['no'] <= 966 else None
+            if scene is None:
+                continue
             script += ['label ch26_4_scene_%d:' % scene, '']
             continue
         if k == 'event':
@@ -205,10 +206,17 @@ def main():
             continue
         if k == 'goto':
             if scene is None or not 965 <= scene <= 966: continue
-            script.append('    # → next scene %d' % x['target'])
-            script.append('    jump ch26_5')
+            t = x['target']
+            if t in (965, 966):
+                dest = 'ch26_4_scene_%d' % t
+            elif t == 967:
+                dest = 'ch26_4b'
+            else:
+                continue
+            script.append('    # → next scene %d' % t)
+            script.append('    jump %s' % dest)
             script.append('')
-    script += ['    # ==== КОНЕЦ ЧАСТИ 4 ====', '    jump ch26_5', '    return', '']
+    script += ['    # ==== КОНЕЦ ЧАСТИ 4 ====', '    jump ch26_4b', '    return', '']
     files = {
         'game/chapters/26/script-ch26_4.rpy': '\n'.join(script) + '\n',
         'game/tl/japanese/ch26_4_dialogs.rpy': '\n'.join(['translate japanese strings:', ''] + ja_d) + '\n',

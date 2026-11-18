@@ -2514,8 +2514,8 @@ translate russian strings:
     old "Oh? Then maybe we try a collar on you, too?{#sp90_s1660_018}"
     new "Ах? Может, ещё и ошейник примерим?"
 
-    old "(G-Guh, this came out of nowhere…!)【選択肢】S-Spin around! → scene 1661【選択肢】Please spare me → scene 1662【選択肢】D-Did you want to see? → scene 1663{#sp90_s1660_019}"
-    new "Г-Гх, вдруг такой передел…!【選択肢】П-Покрутись! → scene 1661【選択肢】Пощадите меня → scene 1662【選択肢】Т-Тебе хочется посмотреть? → scene 1663"
+    old "(G-Guh, this came out of nowhere…!){#sp90_s1660_019}"
+    new "Г-Гх, вдруг такой передел…!"
 
     old "(…I'll do it! I'll do it, I tell you!){#sp90_s1661_002}"
     new "…Сделаю! Я сделаю, чёрт возьми!"

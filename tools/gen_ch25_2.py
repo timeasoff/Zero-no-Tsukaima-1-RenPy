@@ -168,7 +168,9 @@ def main():
         k = x['kind']
         if k == 'scene':
             if x['no'] > 932: break
-            if x['no'] < 918: continue
+            if x['no'] < 918:
+                scene = None
+                continue
             scene = x['no']
             script += ['label ch25_2_scene_%d:' % scene, '']
             continue

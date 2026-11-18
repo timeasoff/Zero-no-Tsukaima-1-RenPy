@@ -72,7 +72,7 @@ translate japanese strings:
     old "N-no, I'm not trying to be mean or anything…{#sp91_s1704_009}"
     new "サイト：い、いや別に意地悪なんて……。"
 
-    old "(Luise's warmth and weight against my back…) H-help me! → scene 1757 The wolf-san inside me is… → scene 1758 S-soft… → scene 1759{#sp91_s1704_010}"
+    old "(Luise's warmth and weight against my back…) H-help me!{#sp91_s1704_010}"
     new "サイト：（ルイズの体温と重みが背中に……）"
 
     old "Honestly, really now!{#sp91_s1705_003}"
@@ -105,7 +105,7 @@ translate japanese strings:
     old "…Suu suu.{#sp91_s1705_017}"
     new "ルイズ：……スゥスゥ。"
 
-    old "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it → scene 1765 Wicked thoughts are… → scene 1766 …Oh, maybe I should sleep too → scene 1767{#sp91_s1705_018}"
+    old "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it{#sp91_s1705_018}"
     new "サイト：（本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）"
 
     old "…You're not allowed out!{#sp91_s1706_004}"
@@ -216,7 +216,7 @@ translate japanese strings:
     old "Come on, I'll wash you. Turn your back to me, quickly!{#sp91_s1709_009}"
     new "ルイズ：さぁ、洗ってあげるわよ。早く背中向けなさい！"
 
-    old "(Bathing with Luise, huh…) Can't calm down → scene 1797 It's creepy and scary! → scene 1798 I could dance with excitement! → scene 1799{#sp91_s1709_010}"
+    old "(Bathing with Luise, huh…) Can't calm down{#sp91_s1709_010}"
     new "サイト：（ルイズと一緒にお風呂なんて……）"
 
     old "…S-Saito, you idiot! So mean! Are other girls really that good!?{#sp91_s1710_003}"

@@ -197,7 +197,9 @@ def main():
         if k == 'scene':
             n = x['no']
             active = (n == 933) or (1214 <= n <= 1218)
-            if not active: continue
+            if not active:
+                scene = None
+                continue
             scene = n
             script += ['label ch25_3_scene_%d:' % scene, '']
             continue

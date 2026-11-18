@@ -5504,7 +5504,7 @@ label sp90_scene_1660:
     l "Oh? Then maybe we try a collar on you, too?{#sp90_s1660_018}"
 
     # （ぐ、ぐはっ、いきなりピンチなんですが）
-    s "(G-Guh, this came out of nowhere…!)【選択肢】S-Spin around! → scene 1661【選択肢】Please spare me → scene 1662【選択肢】D-Did you want to see? → scene 1663{#sp90_s1660_019}"
+    s "(G-Guh, this came out of nowhere…!){#sp90_s1660_019}"
 
 
     menu:

@@ -4032,8 +4032,8 @@
   "Ах? Может, ещё и ошейник примерим?"
  ],
  "s1660_19": [
-  "(G-Guh, this came out of nowhere…!)【選択肢】S-Spin around! → scene 1661【選択肢】Please spare me → scene 1662【選択肢】D-Did you want to see? → scene 1663",
-  "Г-Гх, вдруг такой передел…!【選択肢】П-Покрутись! → scene 1661【選択肢】Пощадите меня → scene 1662【選択肢】Т-Тебе хочется посмотреть? → scene 1663"
+  "(G-Guh, this came out of nowhere…!)",
+  "Г-Гх, вдруг такой передел…!"
  ],
  "s1661_2": [
   "(…I'll do it! I'll do it, I tell you!)",
@@ -4944,8 +4944,8 @@
   "Н-нет, я и не собирался грубить…"
  ],
  "s1704_10": [
-  "(Luise's warmth and weight against my back…) H-help me! → scene 1757 The wolf-san inside me is… → scene 1758 S-soft… → scene 1759",
-  "Тепло и вес Луиз у меня на спине…\n[Выбор] П-помогите! → scene 1757\n[Выбор] Волк-сан внутри меня… → scene 1758\n[Выбор] М-мягко… → scene 1759"
+  "(Luise's warmth and weight against my back…) H-help me!",
+  "Тепло и вес Луиз у меня на спине…"
  ],
  "s1705_3": [
   "Honestly, really now!",
@@ -4988,8 +4988,8 @@
   "…Суу-суу."
  ],
  "s1705_18": [
-  "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it → scene 1765 Wicked thoughts are… → scene 1766 …Oh, maybe I should sleep too → scene 1767",
-  "Она сразу засыпает… а я весь напряжён…\n[Выбор] Спящее лицо у неё и правда милое → scene 1765\n[Выбор] Коварные мысли… → scene 1766\n[Выбор]…О, может, и мне поспать → scene 1767"
+  "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it",
+  "Она сразу засыпает… а я весь напряжён…"
  ],
  "s1706_4": [
   "…You're not allowed out!",
@@ -5172,8 +5172,8 @@
   "Ну же, я тебя помыю. Быстро повернись спиной!"
  ],
  "s1709_10": [
-  "(Bathing with Luise, huh…) Can't calm down → scene 1797 It's creepy and scary! → scene 1798 I could dance with excitement! → scene 1799",
-  "Мыться вместе с Луиз…\n[Выбор] Не могу успокоиться → scene 1797\n[Выбор] Жутко и страшно! → scene 1798\n[Выбор] Так рад, что хочется плясать! → scene 1799"
+  "(Bathing with Luise, huh…) Can't calm down",
+  "Мыться вместе с Луиз…"
  ],
  "s1710_3": [
   "…S-Saito, you idiot! So mean! Are other girls really that good!?",
@@ -10058,5 +10058,17 @@
  "c1776_1779": [
   "Wake Louise up...",
   "Разбудить Луизу…"
+ ],
+ "c1660_1661": [
+  "S-Spin around!",
+  "П-Покрутись!"
+ ],
+ "c1660_1662": [
+  "Please spare me",
+  "Пощадите меня"
+ ],
+ "c1660_1663": [
+  "D-Did you want to see?",
+  "Т-Тебе хочется посмотреть?"
  ]
 }

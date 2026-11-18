@@ -72,11 +72,8 @@ translate russian strings:
     old "N-no, I'm not trying to be mean or anything…{#sp91_s1704_009}"
     new "Н-нет, я и не собирался грубить…"
 
-    old "(Luise's warmth and weight against my back…) H-help me! → scene 1757 The wolf-san inside me is… → scene 1758 S-soft… → scene 1759{#sp91_s1704_010}"
-    new "Тепло и вес Луиз у меня на спине…
-[Выбор] П-помогите! → scene 1757
-[Выбор] Волк-сан внутри меня… → scene 1758
-[Выбор] М-мягко… → scene 1759"
+    old "(Luise's warmth and weight against my back…) H-help me!{#sp91_s1704_010}"
+    new "Тепло и вес Луиз у меня на спине…"
 
     old "Honestly, really now!{#sp91_s1705_003}"
     new "Правда, ну!"
@@ -108,11 +105,8 @@ translate russian strings:
     old "…Suu suu.{#sp91_s1705_017}"
     new "…Суу-суу."
 
-    old "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it → scene 1765 Wicked thoughts are… → scene 1766 …Oh, maybe I should sleep too → scene 1767{#sp91_s1705_018}"
-    new "Она сразу засыпает… а я весь напряжён…
-[Выбор] Спящее лицо у неё и правда милое → scene 1765
-[Выбор] Коварные мысли… → scene 1766
-[Выбор]…О, может, и мне поспать → scene 1767"
+    old "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it{#sp91_s1705_018}"
+    new "Она сразу засыпает… а я весь напряжён…"
 
     old "…You're not allowed out!{#sp91_s1706_004}"
     new "…Тебе нельзя выходить!"
@@ -222,11 +216,8 @@ translate russian strings:
     old "Come on, I'll wash you. Turn your back to me, quickly!{#sp91_s1709_009}"
     new "Ну же, я тебя помыю. Быстро повернись спиной!"
 
-    old "(Bathing with Luise, huh…) Can't calm down → scene 1797 It's creepy and scary! → scene 1798 I could dance with excitement! → scene 1799{#sp91_s1709_010}"
-    new "Мыться вместе с Луиз…
-[Выбор] Не могу успокоиться → scene 1797
-[Выбор] Жутко и страшно! → scene 1798
-[Выбор] Так рад, что хочется плясать! → scene 1799"
+    old "(Bathing with Luise, huh…) Can't calm down{#sp91_s1709_010}"
+    new "Мыться вместе с Луиз…"
 
     old "…S-Saito, you idiot! So mean! Are other girls really that good!?{#sp91_s1710_003}"
     new "…С-Сайто, дурак! Злюка! Другие девушки что, так хороши!?"

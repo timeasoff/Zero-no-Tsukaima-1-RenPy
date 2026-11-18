@@ -187,7 +187,9 @@ def main():
     for x in data:
         k = x['kind']
         if k == 'scene':
-            if not 1513 <= x['no'] <= 1532: continue
+            if not 1513 <= x['no'] <= 1532:
+                scene = None
+                continue
             scene = x['no']
             script += ['label ch25_4_scene_%d:' % scene, '']
             continue

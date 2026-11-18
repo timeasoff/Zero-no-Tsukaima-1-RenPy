@@ -15,6 +15,7 @@
   - [x] `sp91.rpy` — 155 сцен ч.91 + `jump` на 9 сцен `sp_d1`; 808 Voice-строк + 71 = 879; 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`), отчёт `reports/extra/ch91.md`.
   - [x] Проверки: `check_project.py` OK, syntax OK, typography OK (в extra), placeholders OK, `audio_converter.py check` OK.
   - [ ] Dispatch call-site в главах 0–21 (`zero_tundele >= 211 / < 40`) — **OPEN**, чужая зона.
+- [x] **Промпт 05 — аудит полноты**: `reports/coverage/README.md`; все 9 единиц A–F PASS, кроме 77 NO AUDIO. Восстановлены сцены 967–971 (54 голоса, `script-ch26_4b.rpy`, отчёт `reports/ch26/4b.md`); исправлены генераторы гл.25/26 (`scene` не сбрасывался); вырезаны хвосты выборов в extra. `omission_precheck` по 8 целям → 0 кандидатов.
 
 ## Соответствие: проектная папка ↔ источник PS2
 

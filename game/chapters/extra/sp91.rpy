@@ -173,7 +173,7 @@ label sp91_scene_1704:
     s "N-no, I'm not trying to be mean or anything…{#sp91_s1704_009}"
 
     # （ルイズの体温と重みが背中に……）
-    s "(Luise's warmth and weight against my back…) H-help me! → scene 1757 The wolf-san inside me is… → scene 1758 S-soft… → scene 1759{#sp91_s1704_010}"
+    s "(Luise's warmth and weight against my back…) H-help me!{#sp91_s1704_010}"
 
 
     menu:
@@ -237,7 +237,7 @@ label sp91_scene_1705:
     l "…Suu suu.{#sp91_s1705_017}"
 
     # （本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）
-    s "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it → scene 1765 Wicked thoughts are… → scene 1766 …Oh, maybe I should sleep too → scene 1767{#sp91_s1705_018}"
+    s "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it{#sp91_s1705_018}"
 
 
     menu:
@@ -452,7 +452,7 @@ label sp91_scene_1709:
     l "Come on, I'll wash you. Turn your back to me, quickly!{#sp91_s1709_009}"
 
     # （ルイズと一緒にお風呂なんて……）
-    s "(Bathing with Luise, huh…) Can't calm down → scene 1797 It's creepy and scary! → scene 1798 I could dance with excitement! → scene 1799{#sp91_s1709_010}"
+    s "(Bathing with Luise, huh…) Can't calm down{#sp91_s1709_010}"
 
 
     menu:
