@@ -70,3 +70,7 @@ RU TL: `ch22_5_dialogs.rpy`, `ch23_1_dialogs.rpy`, `ch25_2_dialogs.rpy`, `ch26_4
 ## Пятый проход (финальная верификация)
 
 - Повтор всех статических проверок на HEAD: 0 новых ошибок, 0 правок. A/B/C 24/24, omission 7/7, compile в зоне 0, TL-аудит 0. Runtime SKIPPED/BLOCKED (146 ошибок вне scope) — полный успех не заявляется.
+
+## Шестой проход (runtime)
+
+- Найден и исправлен подтверждённый runtime ERROR: 24 вызова `show_sprites()` → `show_sprites(None)` (TypeError по сигнатуре API). Runtime smoke-тест в очищенной копии: 7/7 глав + RU/JA режимы, 0 ошибок. Прямой запуск оригинала BLOCKED 146 ошибками вне scope. Отчёт `reports/full_audit/RUNTIME-round6.md`.

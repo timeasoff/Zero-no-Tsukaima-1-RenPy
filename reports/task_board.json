@@ -1854,6 +1854,34 @@
         }
       ],
       "closed": "2026-11-19 00:05:00"
+    },
+    {
+      "id": "T20261119-001951-9e5a",
+      "created": "2026-11-19 00:19:51",
+      "request": "Runtime-аудит 22-28: исправить TypeError show_sprites() -> show_sprites(None) и провести headless warp-прогон глав",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "show_sprites fix + runtime smoke test",
+          "status": "done",
+          "created": "2026-11-19 00:33:21",
+          "started": null,
+          "finished": "2026-11-19 00:33:21",
+          "session": null,
+          "note": "24 show_sprites(None) fixes; 7/7 chapters + RU/JA smoke runtime; all checks green",
+          "evidence": [
+            "reports/full_audit/RUNTIME-round6.md"
+          ],
+          "manual": "show_sprites fix + runtime smoke test"
+        }
+      ],
+      "closed": "2026-11-19 00:33:21"
     }
   ]
 }

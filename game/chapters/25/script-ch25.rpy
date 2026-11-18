@@ -6,7 +6,7 @@ label ch25:
     # [TITLE] титульная карточка → overlay_screen (K=22)
     call overlay_screen("overlay", "Chapter Twenty-Five: 'Secret of the Letter'{#ch25_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_22
     pause(2)
-    $ show_sprites()
+    $ show_sprites(None)
 
 label ch25_1_scene_903:
 

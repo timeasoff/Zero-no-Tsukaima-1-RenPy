@@ -1,3 +1,4 @@
+- [x] **Runtime-фикс 22–28**: 24× `show_sprites()` → `show_sprites(None)`; smoke-тест 7/7 глав + RU/JA — 0 ошибок; прямой запуск BLOCKED (вне scope). `reports/full_audit/RUNTIME-round6.md`.
 - [x] **Аудит 22–28, 4-й проход**: грамматика/стиль/humanizer/терминология — 32 строки, 0 правок; открыт общепроектный RECONCILE по обращениям (OPEN). `reports/full_audit/LAYERS-round4.md`.
 - [x] **Аудит 22–28, 3-й проход**: A/B/C 24/24, 23 JA-подтверждённых правок (EN+RU), omission 7/7, compile в зоне 0; runtime SKIPPED (ошибки вне scope). `reports/full_audit/FINAL.md`.
 - [x] **Полный аудит 22–28 (2-й проход)**: A/B/C по всем 24 частям + Analyzer; 15 JA-подтверждённых исправлений; compile в зоне 0 ошибок. Отчёт `reports/full_audit/FINAL.md`.

@@ -6,7 +6,7 @@ label ch28:
     # [TITLE] титульная карточка → overlay_screen (K=25)
     call overlay_screen("overlay", "Chapter Twenty-Eight: 'Night's Secret'{#ch28_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_25
     pause(2)
-    $ show_sprites()
+    $ show_sprites(None)
 
 label ch28_1_scene_999:
 

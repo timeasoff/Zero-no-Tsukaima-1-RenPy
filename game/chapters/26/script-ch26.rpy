@@ -6,7 +6,7 @@ label ch26:
     # [TITLE] титульная карточка → overlay_screen (K=23)
     call overlay_screen("overlay", "Chapter Twenty-Six: 'Tabitha's Secret'{#ch26_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_23
     pause(2)
-    $ show_sprites()
+    $ show_sprites(None)
 
 label ch26_1_scene_934:
 

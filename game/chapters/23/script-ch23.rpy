@@ -6,7 +6,7 @@ label ch23:
     # [TITLE] титульная карточка → overlay_screen (K=20)
     call overlay_screen("overlay", "Chapter Twenty-Three: 'Silent Support'{#ch23_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_20
     pause(2)
-    $ show_sprites()
+    $ show_sprites(None)
 
 label ch23_1_scene_849:
 

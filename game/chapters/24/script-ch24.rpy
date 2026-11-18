@@ -6,7 +6,7 @@ label ch24:
     # [TITLE] титульная карточка → overlay_screen (K=21)
     call overlay_screen("overlay", "Chapter Twenty-Four: 'Uniform's Appeal'{#ch24_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_21
     pause(2)
-    $ show_sprites()
+    $ show_sprites(None)
 
 label ch24_1_scene_894:
 
