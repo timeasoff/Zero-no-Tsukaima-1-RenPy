@@ -2077,7 +2077,7 @@ translate russian strings:
     new "Ну всё, ты здорово испачкался."
 
     old "(The one who got me dirty is Louise, right?) ………。……。…。 (Hah, how did it come to this?) (So what's with that school swimsuit, anyway!){#sp91_s1808_004}"
-    new "Так, кто меня испачкал — Луиза, верно?………。……。…。 Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
+    new "Так, кто меня испачкал — Луиза, верно?……… … … Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
 
     old "…This calls for a bath, doesn't it.{#sp91_s1808_005}"
     new "…Похоже, нужна ванна."
@@ -2092,10 +2092,10 @@ translate russian strings:
     new "П-Подожди~~!"
 
     old "(The one who got me dirty is Louise, right?) ………。……。…。 (Hah, how did it come to this?) (So what's with that school swimsuit, anyway!){#sp91_s1808_013}"
-    new "Так, кто меня испачкал — Луиза, верно?………。……。…。 Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
+    new "Так, кто меня испачкал — Луиза, верно?……… … … Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
 
     old "(The one who got me dirty is Louise, right?) ………。……。…。 (Hah, how did it come to this?) (So what's with that school swimsuit, anyway!){#sp91_s1808_014}"
-    new "Так, кто меня испачкал — Луиза, верно?………。……。…。 Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
+    new "Так, кто меня испачкал — Луиза, верно?……… … … Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
 
     old "…Say, Saito? Is there anywhere that itches?{#sp91_s1808_015}"
     new "…Слушай, Сайто? Что-нибудь чешется?"
@@ -2104,7 +2104,7 @@ translate russian strings:
     new "Э-э… э-это… внизу…"
 
     old "(The one who got me dirty is Louise, right?) ………。……。…。 (Hah, how did it come to this?) (So what's with that school swimsuit, anyway!){#sp91_s1808_017}"
-    new "Так, кто меня испачкал — Луиза, верно?………。……。…。 Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
+    new "Так, кто меня испачкал — Луиза, верно?……… … … Фух, как вообще до этого дошло? Так при чём тут этот школьный купальник?!"
 
     old "How's that? I'm pretty good at washing backs, aren't I?{#sp91_s1808_018}"
     new "Ну как? Я довольно ловко мою спину, правда?"
