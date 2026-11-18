@@ -76,3 +76,8 @@ Coverage-evidence: `reports/coverage/*.md` (A–F); все проверки PASS
 
 ### Ключевые отчёты
 `reports/port_plan_ch22_to_end.md`, `reports/FINAL_ACCEPTANCE.md`, `reports/coverage/README.md`, `reports/flow_sympathy_ch22_to_end.md`, `reports/en_ru_tl_consistency.md`, `reports/voice_workflow_ch22_to_end.md`, `reports/semantic_pragmatic_review.md`, `reports/ru_literary_review.md`, `reports/assets_media_fx.md`, `reports/inline_extra_registry.md`, `reports/log.md`, `reports/translation_plan.md`.
+
+### Дополнение (перепроверка воспроизводимости)
+
+- `sp90`/`sp91`: trans-JSON синхронизирован с финальными TL, генератор обновлён: пропускать 77 NO AUDIO — перегенерация даёт байт-идентичные файлы.
+- OPEN: генераторы глав 23–28 (`gen_ch2[3-8]_*.py`) содержат устаревшие RU-словари и не добавляют title-overlay; при перегенерации требуется повторное применение fix-скриптов. Текущие закоммиченные файлы соответствуют финальному состоянию и проходят все проверки.

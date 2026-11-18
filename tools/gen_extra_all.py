@@ -11,6 +11,7 @@ Usage: python tools/gen_extra_all.py <chapter_90|chapter_91> <prefix>
 import json
 import re
 import sys
+from pathlib import Path
 
 sys.path.insert(0, 'tools')
 from gen_ch12_1 import event, en_norm
@@ -22,6 +23,15 @@ PORTED_PREFIX = {1700: 'sp_d1', 1725: 'sp_d1', 1726: 'sp_d1', 1727: 'sp_d1',
                  1728: 'sp_d1', 1729: 'sp_d1', 1730: 'sp_d1', 1731: 'sp_d1', 1732: 'sp_d1'}
 TRANS = {'chapter_90': 'reports/extra/trans_90.json', 'chapter_91': 'reports/extra/trans_91.json'}
 OUT = {'chapter_90': 'sp90', 'chapter_91': 'sp91'}
+# voice ids without a source .wav: dialogue kept, `voice` line omitted
+NO_AUDIO = re.compile(r'^\|\s*sp91_\S+\s*\|\s*(\d+)\s*\|', re.M)
+
+
+def no_audio_ids():
+    p = Path(__file__).parent.parent / 'reports/extra/no_audio_ch91.md'
+    if not p.exists():
+        return set()
+    return set(int(x) for x in NO_AUDIO.findall(p.read_text(encoding='utf-8')))
 
 
 def main():
@@ -34,6 +44,7 @@ def main():
     ja_d, ru_d, ja_c, ru_c = [], [], [], []
     manifest = []
     missing = []
+    no_audio = no_audio_ids()
     in_menu = False
     for si, s in enumerate(data['scenes']):
         if s['no'] in PORTED.get(chapter, set()):
@@ -60,7 +71,7 @@ def main():
                 tag = '%s_s%d_%03d' % (prefix, s['no'], item_i)
                 full = '%s{#%s}' % (en, tag)
                 lines.append('    # ' + it['ja'][:55].replace('\n', ' '))
-                if it['voice'] is not None:
+                if it['voice'] is not None and it['voice'] not in no_audio:
                     lines.append('    voice "%s"' % tag)
                     manifest.append((tag, it['voice']))
                 spk = 'th' if it['thought'] else {'サイト': 's', 'ルイズ': 'l', 'キュルケ': 'k',
