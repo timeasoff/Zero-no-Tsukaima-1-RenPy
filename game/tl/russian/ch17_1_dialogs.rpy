@@ -13,7 +13,7 @@
     new "Повтори ещё раз, Кирке?"
 
     old "Oh, is the young lady of Valliere hard of hearing as well as empty-headed? Well, darling, what do you think?{#ch17_k_001}"
-    new "Ой, неужели юная леди Вальер не только пустоголова, но и туха ушами? Ну, дорогой, что думаешь?"
+    new "Ой, неужели юная леди Вальер не только пустоголова, но и туга ушами? Ну, дорогой, что думаешь?"
 
     old "Well… I mean…{#ch17_s_004}"
     new "Ну… Я хотел сказать…"

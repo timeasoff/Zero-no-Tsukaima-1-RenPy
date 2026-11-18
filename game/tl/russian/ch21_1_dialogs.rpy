@@ -100,7 +100,7 @@
     new "П-Простите, мне очень жаль!!"
 
     old "Oh no. Did you burn yourself, Montmorency?{#ch21_g_003}"
-    new "Ох. Ты не обожглася, Монморанси?"
+    new "Ох. Ты не обожглась, Монморанси?"
 
     old "Really, my uniform is ruined.{#ch21_m_002}"
     new "Ну всё, форма испорчена."

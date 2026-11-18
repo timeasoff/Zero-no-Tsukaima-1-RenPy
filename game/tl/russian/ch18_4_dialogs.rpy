@@ -472,7 +472,7 @@
     new "Как гипноз?"
 
     old "It's magic I've never seen before. Probably unique to Weatherly.{#ch18_c_064}"
-    new "Это магия, которой я никогда не видел. Вероятно, её собственная."
+    new "Это магия, которую я никогда не видел. Вероятно, её собственная."
 
     old "And Akina-kun? She must be controlling Haruna-kun in a similar way.{#ch18_c_065}"
     new "И Акина-кун? Она наверняка управляет Харуной похожим способом."

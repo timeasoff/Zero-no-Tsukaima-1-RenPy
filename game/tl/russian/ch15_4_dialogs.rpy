@@ -88,7 +88,7 @@
     new "Последний акт. Похоже, актёры хотят обагрить его кровью."
 
     old "Fine. Then let them spill as much blood as they like!{#ch15_w_008}"
-    new "Хорошо. Пусть прольют столько крови, сколько хотите!"
+    new "Хорошо. Пусть прольют столько крови, сколько хотят!"
 
     old "Here I go! I won't let them interfere with Louise!{#ch15_s_109}"
     new "Я начинаю! Не дам помешать Луизе!"

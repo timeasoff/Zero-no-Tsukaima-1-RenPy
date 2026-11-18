@@ -17262,7 +17262,7 @@ translate russian strings:
     new "А вот я совсем не готов! В основном — морально!"
 
     old "Is that a no?{#ch6_3_d001}"
-    new "Неужели, вы отказываетесь?"
+    new "Неужели вы отказываетесь?"
 
     old "…{#ch6_3_d002}"
     new "…"
@@ -17301,7 +17301,7 @@ translate russian strings:
     new "А какое тебе понравилось, юная леди?"
 
     old "Let me see… this top one, with the delicate craftsmanship, is…"
-    new "Вот, скажем, самый верхний, с тонкой отделкой…"
+    new "Вот, скажем, самое верхнее, с тонкой отделкой…"
 
     old "Princess…{#ch6_3_d004}"
     new "Принцесса…"
@@ -17838,7 +17838,7 @@ translate russian strings:
     new "Кирхе! И Табита тоже!"
 
     old "I see you both came through unharmed.{#ch7.2_h_002}"
-    new "Вижу, вы оба целы и невредимы."
+    new "Вижу, вы обе целы и невредимы."
 
     old "I'm fine.{#ch7.2_t_001}"
     new "Всё в порядке."

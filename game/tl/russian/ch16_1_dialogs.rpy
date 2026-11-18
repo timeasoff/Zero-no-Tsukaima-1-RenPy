@@ -136,7 +136,7 @@
     new "А, кстати…"
 
     old "What do you mean 'oh now that you mention it'! Are you an idiot!{#ch16_l_017}"
-    new "Это ещё что за «кстати»! Ты что, идиотка!"
+    new "Это ещё что за «кстати»! Ты что, идиот!"
 
     old "(Sigh. It's started again…){#ch16_s_009}"
     new "Фух. Опять началось…"

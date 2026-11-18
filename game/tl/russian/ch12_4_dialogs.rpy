@@ -4,7 +4,7 @@
     new "Потерявшие боевой дух и порядок вражеские части рассыпаются удивительно легко…"
 
     old "(The units that tried to escape were suppressed one after another and surrendered.){#ch12_s_136}"
-    new "Пытавшиеся прорваться отряды подавляли один за другим, и они сдавались."
+    new "Пытавшиеся прорваться отряды подавлялись один за другим, и они сдавались."
 
     old "(Thus the conspiracy played out in Tristain lowered its curtain at last, leaving deep scars…){#ch12_s_137}"
     new "Так интрига, разыгравшаяся в Тристании, наконец опустила занавес, оставив большие шрамы…"

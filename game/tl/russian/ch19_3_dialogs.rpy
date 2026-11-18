@@ -7,7 +7,7 @@
     new "Если ты удивлена, то я ещё больше. Что ты оказалась врагом, Уэзерби."
 
     old "Well, things were going well up to here. Everything was going according to script…{#ch19_w_006}"
-    new "Ну, до сюда всё шло хорошо. Всё шло по сценарию…"
+    new "Ну, до сих пор всё шло хорошо. Всё шло по сценарию…"
 
     old "…{#ch19_t_045}"
     new "…"

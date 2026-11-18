@@ -179,7 +179,7 @@
     new "Заметить что?"
 
     old "That Weatherly's attitude… I never noticed before, but now that I think about it, a lot of it is suspicious.{#ch11_l_052}"
-    new "Поведение этой Уэзерби… Раньше я не замечала, но, подумав, многое кажется подозрительным."
+    new "Поведение этой Уэзерби… Раньше я не замечала, но, подумав, я стала замечать много подозрительного."
 
     old "Like what? I thought it was an ordinary conversation.{#ch11_s_117}"
     new "Например? Мне показалось, всё было обычно."

@@ -275,7 +275,7 @@ translate russian strings:
     new "……っ！"
 
     old "Haruna! Or is it Akina? Anyway, is everyone safe? {#ch8_s_105}"
-    new "Харуна! Или это уже Акина? Во всяком случае, все в порядок?"
+    new "Харуна! Или это уже Акина? Во всяком случае, все в порядке?"
 
     old "Un… unnn… {#ch8_ha_001}"
     new "Ун… унн…"
@@ -302,7 +302,7 @@ translate russian strings:
     new "Нет, это ложь…! Эта магия — исключительное мастерство только моей семьи!"
 
     old "How could you possibly know how to counter it?! {#ch8_w_015}"
-    new "Откуда вы могли знать, как её противостоять?!"
+    new "Откуда вы могли знать, как ей противостоять?!"
 
     old "Why… how did you know?! Did you raid your own village…? {#ch8_w_016}"
     new "Почему… как ты узнал?! Неужели ты напал на деревню… на клан и выпытал это силой!?"

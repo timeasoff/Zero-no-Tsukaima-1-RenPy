@@ -313,7 +313,7 @@
     new "Труппу? Ты имеешь в виду труппу Уэзерби?"
 
     old "No. Someone from another troupe who saw that play liked me and scouted me.{#ch20_ha_005}"
-    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, я им понравилась — и меня завербовали."
+    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, меня полюбил — и завербовал."
 
     old "Now's a good chance, so I was thinking of going along with that troupe.{#ch20_ha_006}"
     new "Сейчас как раз удобный случай, и я думаю присоединиться к этой труппе."

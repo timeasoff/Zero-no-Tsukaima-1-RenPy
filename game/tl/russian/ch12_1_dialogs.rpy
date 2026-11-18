@@ -251,7 +251,7 @@
     new "…"
 
     old "T-This is…!{#ch12_h_010}"
-    new "Ч-Это что…!"
+    new "Э-Это что…!"
 
     old "Yes. The bombings were set at the positions best suited to shelling the palace.{#ch12_commander_012}"
     new "Да. Взрывы были произведены в точках, лучше всего подходящих для обстрела дворца."
