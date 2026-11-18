@@ -5231,3 +5231,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 4 PRAGMATIC_SHIFT (хеджи よう/みたい/そう), Ф1 7 кандидатов — 10 FIXED, 1 PRESERVED — FUNCTIONAL.
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Отчёт `reports/ch25/3.md`.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 25 часть 4 — глава завершена
+
+- 127 реплик / 113 голосов + 4 menu; `voice_id_map.csv` +113; `.ogg` 113/0.
+- Аудиты: C 3 (1 WARNING, 2 CANDIDATE), Ф1 5 — все FIXED.
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch25/4.md`. Итог главы 25: 4 части, 903–933 + extra 1214–1218 + 1513–1532, 451 голос, выход `jump ch26`.
