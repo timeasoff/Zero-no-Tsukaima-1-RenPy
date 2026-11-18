@@ -5372,3 +5372,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PRESERVED: намеренные повторы, голос Табасы, thoughts без курсива (системная конвенция), `Луиз…-сан?`,register «мисс» арки (USER DECISION/OPEN), «извращённая любовь».
 - Проверки: `check_project.py` OK, TL-аудит 0 пропусков/дублей, style-предфильтр 0, typography/syntax/voice OK.
 - Отчёт: `reports/ru_literary_review.md`. JA не редактировался.
+
+## 2026-11-18 — Промпт 11: ассеты, фоны, BGM, SE, FX
+
+- Аудитор `tools/asset_audit.py`: 20 BGM-id источника → 20 треков `t{K-1}` в порту, missing/extra 0; 109 image id источника все есть в `image_id_map.csv` (E10=0); неизвестных `*_fx` сигнатур 0; FX: fade 325 / dissolve 615 / flash 23 / shake 132.
+- W6: 35 заглушек в зоне имеют заполненное `filename`; замена **не применялась** — `replace_bg_placeholders.py` не поддерживает scope и затронул бы чужие главы 0–21. Dry-run зафиксирован, статус OPEN.
+- `[MOVIE movie(1)]` ×2 (chapter_25 SCENE 899, chapter_29 SCENE 1008) — **MOVIE not ported** (`AGENTS.md` §6); пометки добавлены в `reports/ch24/1.md` и `reports/ch28/1.md`.
+- SE не переносятся (UI/атмосфера, осмысленных эквивалентов в выборке нет). Титульные карточки K=20–25 уникальны (E2=0).
+- Бинарные медиа в git не добавлялись. Отчёт: `reports/assets_media_fx.md`.

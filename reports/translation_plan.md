@@ -15,6 +15,7 @@
   - [x] `sp91.rpy` — 155 сцен ч.91 + `jump` на 9 сцен `sp_d1`; 808 Voice-строк + 71 = 879; 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`), отчёт `reports/extra/ch91.md`.
   - [x] Проверки: `check_project.py` OK, syntax OK, typography OK (в extra), placeholders OK, `audio_converter.py check` OK.
   - [ ] Dispatch call-site в главах 0–21 (`zero_tundele >= 211 / < 40`) — **OPEN**, чужая зона.
+- [x] **Промпт 11 — ассеты**: BGM 20/20 по `t{K-1}`, 109 image id в справочнике, FX-сигнатуры валидны, MOVIE×2 not ported, W6 OPEN. Отчёт `reports/assets_media_fx.md`.
 - [x] **Промпт 10 — литература RU**: 6 вычиток, 35 точечных правок + 248 канонических замен имён; 0 стиль-кандидатов после правок. Отчёт `reports/ru_literary_review.md`.
 - [x] **Промпт 09 — аудиты C/Analyzer**: 10 прогонов C, 2 blind-фазы, 21 точечная правка (2 ERROR + 13 WARNING), 1 OPEN по модальности. Отчёт `reports/semantic_pragmatic_review.md`.
 - [x] **Промпт 08 — TL**: 5208 EN-строк, 0 пропусков old/new, 0 дублей/пустых, MISMATCH_JA (24 engine-хвоста в JA read-only) и 12 tag-вопросов зафиксированы. Отчёт `reports/en_ru_tl_consistency.md`.
