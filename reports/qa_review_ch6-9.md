@@ -965,9 +965,19 @@ Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; от
 * EN-база и JA-канон не тронуты. `check_typography`: 0 warnings, 1 error — BRACKET_THOUGHT в JA-дубле гл. 8 (`ch8_3_thoughs.rpy:24`, вне объёма; JA не трогал). `check_project` errors=0/warnings=312.
 * Счётчик обновлён до 93.
 
+## Проверка перевода глав 2–5 по правилам — финальный проход (round 94)
+
+Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; отступы 0; `check_typography` — 0 warnings в RU, 1 error в JA-дубле гл. 8 (вне объёма).
+
+* Правила `PROMTS.md` по RU-бакетам гл. 2–5: R5 `......` — 0; R8 `（）` в RU — 0; R10 single quotes — 0; R11 `{i}` — 0 незакрытых; R12 двойные пробелы — 0 (предфильтр R12 давал ложные срабатывания на отступ перед `old`). R7 «правда?» — перевод JA `本当？`, каноничная модальность.
+* **Семантика** (seed `i % 313`, 23 строки, JA→EN→RU): все соответствуют JA; новых ошибок нет.
+* EN и JA не менялись; правок кода нет.
+
+Счётчик обновлён до 94.
+
 ## where I stopped
 
-- Текущая фаза: **главы 6–9 завершены** (rounds 1–93); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
+- Текущая фаза: **главы 6–9 завершены** (rounds 1–94); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
 - **Единственный источник счётчика раундов — эта строка.** Мета выше на конкретные числа не ссылается; при новом раунде обновлять только её, чтобы избежать дрейфа.
 - Инструменты: `check_renpy_syntax`, `check_project`, `check_typography`, `check_placeholders`, `check_assets`, `check_voice_transcriptions`, `omission_precheck`; сканер отступов `C:/Users/user/AppData/Local/Temp/opencode/qa_indent_all.py`; валидатор `qa_pyindent2.py`.
 - Важно: `check_renpy_syntax.py` не ловит отступы внутри `menu:` — всегда запускать оба сканера.

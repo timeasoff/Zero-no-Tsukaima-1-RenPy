@@ -5312,3 +5312,7 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 
 * По `russian-humanizer`/`russian-prose-rules`: исправлено 7 DOUBLE_SPACE в RU `new` (`ch5_6_dialogs:137/293`, `dialogs:600/822/1866/2481`, `thoughs:218`); humanizer-каталог — 0 confirmed. EN/JA не тронуты; check_typography 0 warnings, 1 error — JA-дубль гл. 8 (вне объёма).
 
+### 2026-11-18 — Финальный проход правил перевода (round 94)
+
+* PROMTS.md по RU гл. 2–5: R5/R8/R10/R11/R12 — 0 нарушений; R7 «правда?» — JA 本当？, канонично. Семантика seed i%313 (23 строки) — 0 ошибок. EN/JA не менялись.
+
