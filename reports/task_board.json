@@ -1826,6 +1826,34 @@
         }
       ],
       "closed": "2026-11-18 23:31:44"
+    },
+    {
+      "id": "T20261119-000459-fcfc",
+      "created": "2026-11-19 00:04:59",
+      "request": "Финальная верификация HEAD глав 22-28 (5-й проход): повтор всех проверок, счётчики, evidence, extra-точки",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "final HEAD verification",
+          "status": "done",
+          "created": "2026-11-19 00:05:00",
+          "started": null,
+          "finished": "2026-11-19 00:05:00",
+          "session": null,
+          "note": "all checks green, 0 new findings, runtime BLOCKED",
+          "evidence": [
+            "reports/full_audit/FINAL.md"
+          ],
+          "manual": "final HEAD verification"
+        }
+      ],
+      "closed": "2026-11-19 00:05:00"
     }
   ]
 }
