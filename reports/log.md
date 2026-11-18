@@ -5173,3 +5173,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 2. Главы 23–28 (`chapter_24`…`chapter_29`): 354 + 512 + 336 + 378 + 10 022 реплик (по плану); все папки, кроме `ch23` (стаб), пустые.
 3. Обязательная компиляция/lint через Ren'Py SDK после каждого завершённого узла (новое требование AGENTS.md).
 4. Разрешить вопрос с заголовками TL-файлов.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 22, часть 5 (extra 1209–1213)
+
+- Порт завершён: 60 реплик / 58 голосов + 1 menu, `references/voice_id_map.csv` +58 (дублей нет), `audio_converter.py` → 58 `.ogg`.
+- PROVISIONAL: заглушки `id(K)`; все говорящие (`s`, `si`, `d`) зарегистрированы.
+- Аудиты: C 1 CANDIDATE (хедж `かなぁって` → «подумал, может»), Ф1 1 CANDIDATE LOW (`お節介` → «опекать»); оба FIXED; `semantic-audit-a`/`tl-en-ru` недоступны — ручная смысловая сверка, PASS.
+- Проверки: `check_project.py` OK, `check_renpy_syntax.py --chapter 22` OK, `check_typography.py --chapter 22 --lang ru/en` OK, `check_placeholders.py` OK, `check_assets.py` OK, `omission_precheck --chapter 22_5` 0 кандидатов.
+- Отчёт: `reports/ch22/5.md`; `reports/translation_plan.md` обновлён. Итог главы 22: 5 частей, 472 голоса, выход `jump ch23`.
+- Техническое: в новом worktree подключены симлинки на общий медиа-архив (`wav_files`, `game/audio`) — не коммитятся.
