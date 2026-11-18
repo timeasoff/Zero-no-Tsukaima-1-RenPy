@@ -5266,3 +5266,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: ч.1 — Ф1 4+6, C 4; ч.2 — Ф1 3, C 1; ч.3 — Ф1 4, C 2. Все кандидаты FIXED.
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Итог: 849–998, 654 голоса (гл.23 + гл.24 + гл.25 + гл.26 + гл.27), выход `jump ch28`.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 28 — конец основной линии
+
+- 2 части (999–1008), 182 голоса; `voice_id_map.csv` +182; `.ogg` 182/0.
+- Аудиты ч.1: C 1 WARNING + Ф1 2 — все FIXED (в т.ч. разворот «напрямую/косвенно»).
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Итог основной линии: главы 22–28, 2364 голоса; финал — `jump attention`.
+- Остаётся отдельный scope: `chapter_90/91` в `game/chapters/extra/`.
