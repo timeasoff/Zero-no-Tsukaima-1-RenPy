@@ -5288,3 +5288,7 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 
 * 23 строки (seed i%311) — новых ошибок нет. Правок кода нет.
 
+### 2026-11-18 — Пошаговая сверкаdevelop глав 2–5 (round 88)
+
+* Сверены `events_full/chapter_03..06` с `game/chapters/{2..5}`: voiced DIALOGUE = voice в .rpy (1281/1014/983/1324); LIKE = update_sympathy (61/65/53/39); TNDL = tndl (35/36/23/32); CHOICE = menu-опции (69/81/54/99). Все целиdevelop-веток имеют лейблы в порте; пропусков перевода menu-опций нет. Правок кода нет.
+
