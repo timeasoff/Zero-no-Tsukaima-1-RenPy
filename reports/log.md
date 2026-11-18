@@ -5217,3 +5217,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 0 находок; Ф1 2 NUANCE_SHIFT FIXED (`呆れてる` → «остолбенели», `毎回` → «каждый раз»), 1 PRESERVED — FUNCTIONAL (скобки мыслей).
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Отчёт `reports/ch25/1.md`; стабы 25_2/25_3/25_4 созданы.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 25, часть 2 (918–932)
+
+- 117 реплик / 102 голоса + 2 menu; `voice_id_map.csv` +102; `.ogg` 102/0.
+- Аудиты: C 2 CANDIDATE, Ф1 3 — все FIXED.
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch25/2.md`.
