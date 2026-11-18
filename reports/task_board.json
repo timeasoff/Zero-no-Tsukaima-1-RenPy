@@ -1604,6 +1604,34 @@
         }
       ],
       "closed": "2026-11-18 15:58:17"
+    },
+    {
+      "id": "T20261118-161143-497e",
+      "created": "2026-11-18 16:11:43",
+      "request": "Промпт 12: финальная интеграция и приёмка порта гл.22 ч.5, 23-28, extra 90/91",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Final integration: all checks, coverage, graph, TL, voices, assets, report",
+          "status": "done",
+          "created": "2026-11-18 16:11:43",
+          "started": null,
+          "finished": "2026-11-18 16:11:43",
+          "session": null,
+          "note": "DONE with documented deviations; all checks green in scope",
+          "evidence": [
+            "reports/FINAL_ACCEPTANCE.md"
+          ],
+          "manual": "Final integration: all checks, coverage, graph, TL, voices, assets, report"
+        }
+      ],
+      "closed": "2026-11-18 16:11:43"
     }
   ]
 }
