@@ -69,3 +69,8 @@ __pycache__/
 # Временные файлы devcontainer-окружения
 /.tmp/
 .devcontainer
+
+# Ren'Py runtime artifacts в game/ (движок пишет их при запуске/падении)
+/game/log.txt
+/game/errors.txt
+/game/traceback.txt
