@@ -1520,6 +1520,34 @@
         }
       ],
       "closed": "2026-11-18 14:37:16"
+    },
+    {
+      "id": "T20261118-151158-c4eb",
+      "created": "2026-11-18 15:11:58",
+      "request": "Промпт 09: независимый смысловой/прагматический аудит гл.22 ч.5, гл.23-28, chapter_90/91 — C + Analyzer, исправления по JA",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "10 C runs + 2 blind phases + JA-verified fixes",
+          "status": "done",
+          "created": "2026-11-18 15:11:59",
+          "started": null,
+          "finished": "2026-11-18 15:11:59",
+          "session": null,
+          "note": "2 ERROR + 13 WARNING fixed; 1 OPEN modality; A/B unavailable noted",
+          "evidence": [
+            "reports/semantic_pragmatic_review.md"
+          ],
+          "manual": "10 C runs + 2 blind phases + JA-verified fixes"
+        }
+      ],
+      "closed": "2026-11-18 15:11:59"
     }
   ]
 }
