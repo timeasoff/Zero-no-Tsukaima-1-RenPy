@@ -7838,7 +7838,7 @@ translate russian strings:
     new "…"
 
     old "Haruna, are you okay? You're not feeling sick?"
-    new "Харуна, ты в порядке? Тебе не дурит?"
+    new "Харуна, ты в порядке? Тебе не дурно?"
 
     old "Yeah, I'm fine now…"
     new "Да, уже всё в порядке…"
@@ -8081,7 +8081,7 @@ translate russian strings:
     new "А если это способ лечения по-ихнему?"
 
     old "Like some kind of treatment—fighting fire with fire, heat with heat?"
-    new "Какое-то лечение — огнь огнём побеждают, жарой по жаре?"
+    new "Какое-то лечение — огонь огнём берут, жар жаром сбивают?"
 
     old "If that's the case, I did something awful to Louise and the others…"
     new "Если так, я поступил очень плохо с Луизой и остальными…"
@@ -8966,7 +8966,7 @@ translate russian strings:
     new "Тогда я попросил Луизу купить тайное снадобье для исцеляющего заклинания — и доставил ей кучу хлопот."
 
     old "And that secret potion turned out to be incredibly expensive…"
-    new "И это снадобье, как выяснилось, оказалось невероятно дорогим…"
+    new "И это снадобье оказалось невероятно дорогим…"
 
     old "…{#ch3.3_ha_v01}"
     new "…"
@@ -13804,7 +13804,7 @@ translate russian strings:
 
 translate russian strings:
     old "Like we could? Haruna might be being attacked right now!"
-    new "Разве это возможно?! Вдруг Харуну прямо сейчас атакуют! (допустимо также: …Вдруг на Харуну прямо сейчас нападут!)"
+    new "Разве это возможно?! Вдруг Харуну прямо сейчас атакуют!"
 
 translate russian strings:
     old "Oh-ho. It does look like something interesting is happening, doesn't it?"
@@ -14554,7 +14554,7 @@ translate russian strings:
 
 translate russian strings:
     old "N-no, it's just that… I was wondering whether we'd really have to pass ourselves off as traveling entertainers. That's all I meant."
-    new "Че-го? Просто я подумала: неужели нам придётся притворяться бродячими артистами? Вот и всё."
+    new "П-почему? Просто я подумала: неужели нам придётся притворяться бродячими артистами? Вот и всё."
 
 translate russian strings:
     old "……Uuugh, sorry about that."
@@ -14922,7 +14922,7 @@ translate russian strings:
 
 translate russian strings:
     old "The young Princess Noelle, caught up in a struggle for power in a neighboring country, was secretly smuggled away by a loyal retainer."
-    new "Маленькую принцессу Ноэль, вовлечённую в борьбу за власть в соседнем королевстве, тайно вывезли с помощью верного слуги. (Либо: «втянутую в борьбу».)"
+    new "Маленькую принцессу Ноэль, вовлечённую в борьбу за власть в соседнем королевстве, тайно вывезли с помощью верного слуги."
 
 translate russian strings:
     old "However, lost in the deep forest, she was picked up by the old nobleman like a forgotten child, having lost her memory."
@@ -15644,7 +15644,7 @@ translate russian strings:
 
 translate russian strings:
     old "…Honestly, what am I to do with you. All right, I get it. I'll keep your secret."
-    new "…Вот уж, что с тобой поделаешь. Ладно, уж. Я никому не скажу."
+    new "…Вот уж, что с тобой поделаешь. Ладно. Я никому не скажу."
 
 translate russian strings:
     old "…Th-thank you…"
@@ -15944,7 +15944,7 @@ translate russian strings:
 
 translate russian strings:
     old "Don't underestimate us — you had us do nothing but grueling basics!"
-    new "Не недооценивай нас — нас вечно заставляли делать только тяжёлые основы!"
+    new "Не недооценивай нас — вечно заставляли делать только тяжёлые основы!"
 
 translate russian strings:
     old "Oh my, quite the confidence. My darling."

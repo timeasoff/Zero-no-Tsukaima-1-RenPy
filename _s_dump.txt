@@ -1,0 +1,690 @@
+TOTAL SCRIPT STRING LINES: 344
+[L8] OLD: classroom
+    NEW: <NO MATCH IN TL>
+[L10] OLD: ch2.3_c_001
+    NEW: <NO MATCH IN TL>
+[L11 | dialogs.rpy:4059] OLD: Now then, let's get back to our discussion.
+    NEW: Итак, вернёмся к нашему разговору.
+[L13] OLD: ch2.3_c_002
+    NEW: <NO MATCH IN TL>
+[L14 | dialogs.rpy:4062] OLD: The Fire element is thought to be the most aggressive of the four, but it isn't specialized for combat, nor is it especially strong.
+    NEW: Стихия Огня считается самой агрессивной среди четырёх, но она вовсе не предназначена только для боя и не является особенно сильной.
+[L16] OLD: ch2.3_c_003
+    NEW: <NO MATCH IN TL>
+[L17 | dialogs.rpy:4065] OLD: It's true that among the four, Fire is the easiest to turn to attack — but between skilled wielders, there's no superiority among Fire, Water, Wind, and Earth.
+    NEW: Среди четырёх стихий Огонь и вправду легче всего обратить в атаку, но у опытных магов нет превосходства между Огнём, Водой, Ветром и Землёй.
+[L19] OLD: c 1
+    NEW: <NO MATCH IN TL>
+[L20] OLD: ch2.3_k_001
+    NEW: <NO MATCH IN TL>
+[L21 | dialogs.rpy:4068] OLD: With all due respect, Professor Colbert. It's a fact that the Fire element is clearly superior to the other three.
+    NEW: С вашего позволения, профессор Кольбер. Но ведь стихия Огня явно превосходит остальные три — это факт.
+[L23] OLD: ch2.3_c_004
+    NEW: <NO MATCH IN TL>
+[L24 | dialogs.rpy:4071] OLD: Hmm, Miss Zerbst. I'm aware you take pride in your own element, but...
+    NEW: Хм, мадемуазель Цербст. Я знаю, что вы гордитесь своей стихией, но…
+[L26] OLD: ch2.3_c_005
+    NEW: <NO MATCH IN TL>
+[L27 | dialogs.rpy:4074] OLD: Isn't that opinion a little extreme?
+    NEW: Не кажется ли вам это мнение чересчур крайним?
+[L29] OLD: ch2.3_k_002
+    NEW: <NO MATCH IN TL>
+[L30 | dialogs.rpy:4077] OLD: My, but it's a fact. There are individual differences, so I won't say it's absolute...
+    NEW: Ах, но это факт. Индивидуальные различия существуют, так что не стану утверждать, что это абсолютно…
+[L32] OLD: ch2.3_k_003
+    NEW: <NO MATCH IN TL>
+[L33 | dialogs.rpy:4080] OLD: The element that can wield the most beautiful and most powerful magic is Fire.
+    NEW: Именно стихия Огня позволяет творить самую красивую и самую сильную магию.
+[L35] OLD: c 1
+    NEW: <NO MATCH IN TL>
+[L36] OLD: ch2.3_k_004
+    NEW: <NO MATCH IN TL>
+[L37 | dialogs.rpy:4083] OLD: Of course, that doesn't mean the other elements are ugly or weak. It's simply that Fire is the best.
+    NEW: Разумеется, это не значит, что другие стихии некрасивы или слабы. Просто стихия Огня — лучшая.
+[L39] OLD: ch2.3_k_005
+    NEW: <NO MATCH IN TL>
+[L40 | dialogs.rpy:4086] OLD: But some people can't even get as far as having an element. Isn't that right, 'Louise the Zero'?
+    NEW: Но есть и такие, кто не дотягивает даже до стихии. Ведь так, Луиза-Нулиза?
+[L43] OLD: l_k_fight
+    NEW: <NO MATCH IN TL>
+[L44] OLD: ch2.3_l_001
+    NEW: <NO MATCH IN TL>
+[L45 | dialogs.rpy:4089] OLD: ...It's been a while since I heard someone say something so stupid. I wonder who the fool could be?
+    NEW: …Давно я не слышала столь глупых речей. Интересно, кто же этот глупец?
+[L47] OLD: ch2.3_k_006
+    NEW: <NO MATCH IN TL>
+[L48 | dialogs.rpy:4092] OLD: Oh? Magic, growth, and feminine charm — all of them zero. I wonder who that could be?
+    NEW: Ах, и магия, и рост, и женское обаяние — всё вместе на нуле у одной особы, не так ли?
+[L50] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L51] OLD: ch2.3_l_002
+    NEW: <NO MATCH IN TL>
+[L52 | dialogs.rpy:4095] OLD: Who's 'Zero'!? I gave back that disgraceful nickname long ago...!
+    NEW: Кто здесь нулиза?! Я давно уже отказалась от этого позорного прозвища…!
+[L54 | thoughs.rpy:347] OLD: That Louise — she's forgotten the Queen told her not to tell anyone about the 'Void'!
+    NEW: Эта Луиза забыла, что королева запретила ей кому-либо рассказывать о «Пустоте»!
+[L56] OLD: ch2.3_s_001
+    NEW: <NO MATCH IN TL>
+[L57 | dialogs.rpy:4098] OLD: Louise, shh, shh!
+    NEW: Луиза, тс-с, тс-с!
+[L59] OLD: l_k_fight
+    NEW: <NO MATCH IN TL>
+[L60] OLD: ch2.3_l_003
+    NEW: <NO MATCH IN TL>
+[L61 | dialogs.rpy:4101] OLD: Huh, what? ...Ah!
+    NEW: А, что? …Ах!
+[L63] OLD: ch2.3_k_007
+    NEW: <NO MATCH IN TL>
+[L64 | dialogs.rpy:4104] OLD: What's wrong? You're making a strange face. Could you be preparing to run away?
+    NEW: Что такое? Состроила такое странное лицо. Уж не готовишься ли ты сбежать?
+[L66] OLD: ch2.3_l_004
+    NEW: <NO MATCH IN TL>
+[L67 | dialogs.rpy:4107] OLD: Fu... fu, fu, fu... This is just perfect. I've been irritated since yesterday.
+    NEW: Фу… фу-фу-фу… Как раз кстати. Я со вчерашнего дня только и делала, что злилась.
+[L69] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L70] OLD: ch2.3_l_005
+    NEW: <NO MATCH IN TL>
+[L71 | dialogs.rpy:4110] OLD: Miss Zerbst. Today I'm going to settle this once and for all.
+    NEW: Мадемуазель Цербст. Сегодня мы наконец покончим с этим.
+[L73] OLD: ch2.3_k_008
+    NEW: <NO MATCH IN TL>
+[L74 | dialogs.rpy:4113] OLD: I wonder if you can. You, of all people, 'Zero'?
+    NEW: Сможешь ли? Тебе ли, нулиза?
+[L76] OLD: ch2.3_l_006
+    NEW: <NO MATCH IN TL>
+[L77 | dialogs.rpy:4116] OLD: You've said it twice now. I won't forgive you anymore...
+    NEW: Ты сказала это уже дважды. Больше я тебе этого не прощу…
+[L79] OLD: ch2.3_s_002
+    NEW: <NO MATCH IN TL>
+[L80 | dialogs.rpy:4119] OLD: H-hey, wait a second...
+    NEW: Э-эй, погоди…
+[L83 | choises.rpy:260] OLD: Stop it, Louise
+    NEW: Перестань, Луиза
+[L85] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L86] OLD: ch2.3_s_003
+    NEW: <NO MATCH IN TL>
+[L87 | dialogs.rpy:4122] OLD: Stop it, Louise.
+    NEW: Перестань, Луиза.
+[L89] OLD: ch2.3_l_007
+    NEW: <NO MATCH IN TL>
+[L90 | dialogs.rpy:4125] OLD: Why are you stopping me!?
+    NEW: Почему ты меня останавливаешь?!
+[L92] OLD: ch2.3_s_004
+    NEW: <NO MATCH IN TL>
+[L93 | dialogs.rpy:4128] OLD: Because you're about to use magic, aren't you?
+    NEW: Потому что ты собираешься колдовать, разве нет?
+[L95] OLD: ch2.3_l_008
+    NEW: <NO MATCH IN TL>
+[L96 | dialogs.rpy:4131] OLD: Of course I am. It's a noble's duel — a duel.
+    NEW: Ещё бы. Это дуэль аристократов, дуэль.
+[L98] OLD: ch2.3_s_005
+    NEW: <NO MATCH IN TL>
+[L99 | dialogs.rpy:4134] OLD: That's exactly what's wrong. Your magic isn't something you can just use in front of people.
+    NEW: Вот в том-то и беда. Твою магию нельзя вот так запросто применять на людях.
+[L101] OLD: l_k_fight
+    NEW: <NO MATCH IN TL>
+[L102] OLD: ch2.3_l_009
+    NEW: <NO MATCH IN TL>
+[L103 | dialogs.rpy:4137] OLD: Ugh. That's true, but...
+    NEW: Угх. Это-то так, но…
+[L105] OLD: louise
+    NEW: <NO MATCH IN TL>
+[L108] OLD: ch2.3_s_006
+    NEW: <NO MATCH IN TL>
+[L109 | dialogs.rpy:4140] OLD: Then isn't this the place to hold back?
+    NEW: Тогда разве не здесь стоит потерпеть?
+[L111] OLD: ch2.3_l_010
+    NEW: <NO MATCH IN TL>
+[L112 | dialogs.rpy:4143] OLD: Ugh, ugh...
+    NEW: Угх, угх…
+[L114] OLD: ch2.3_k_009
+    NEW: <NO MATCH IN TL>
+[L115 | dialogs.rpy:4146] OLD: What's this? After all that big talk, you're running away after all?
+    NEW: Что такое? Наговорила громких слов, а в итоге сбегаешь?
+[L117] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L118] OLD: ch2.3_l_011
+    NEW: <NO MATCH IN TL>
+[L119 | dialogs.rpy:4149] OLD: What did you say!? I'm not running away!
+    NEW: Что ты сказала?! Я не сбегаю!
+[L121 | thoughs.rpy:350] OLD: Aah, Kirche had to go and say something unnecessary...!
+    NEW: А-ах, Кирхе вечно ляпнет что-нибудь лишнее…!
+[L124 | choises.rpy:263] OLD: Stop it, Kirche
+    NEW: Перестань, Кирхе
+[L126] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L127] OLD: ch2.3_s_007
+    NEW: <NO MATCH IN TL>
+[L128 | dialogs.rpy:4152] OLD: Stop it, Kirche.
+    NEW: Перестань, Кирхе.
+[L130] OLD: ch2.3_k_010
+    NEW: <NO MATCH IN TL>
+[L131 | dialogs.rpy:4155] OLD: Oh? I'm not the one who challenged anyone to a duel, darling.
+    NEW: Ах, это ведь не я вызвала на дуэль, дорогой.
+[L133] OLD: l_k_fight_3
+    NEW: <NO MATCH IN TL>
+[L134] OLD: ch2.3_k_011
+    NEW: <NO MATCH IN TL>
+[L135 | dialogs.rpy:4158] OLD: The one who challenged is your master.
+    NEW: Вызвала-то тебя твоя госпожа.
+[L137] OLD: ch2.3_s_008
+    NEW: <NO MATCH IN TL>
+[L138 | dialogs.rpy:4161] OLD: Please, could you stop provoking Louise?
+    NEW: Прошу, перестань дразнить Луизу.
+[L140] OLD: ch2.3_s_009
+    NEW: <NO MATCH IN TL>
+[L141 | dialogs.rpy:4164] OLD: Besides, she seems to be in a bad mood today.
+    NEW: И к тому же она сегодня, похоже, не в духе.
+[L143] OLD: ch2.3_k_012
+    NEW: <NO MATCH IN TL>
+[L144 | dialogs.rpy:4167] OLD: Mood?
+    NEW: Настроение?
+[L146] OLD: l_k_fight
+    NEW: <NO MATCH IN TL>
+[L147] OLD: ch2.3_k_013
+    NEW: <NO MATCH IN TL>
+[L148 | dialogs.rpy:4170] OLD: I don't really care about Louise's mood either way. But I don't mean to cause you trouble, darling.
+    NEW: Мне вообще-то всё равно, в каком настроении Луиза. Но я не хочу доставлять тебе хлопоты, дорогой.
+[L150] OLD: kirche
+    NEW: <NO MATCH IN TL>
+[L153] OLD: ch2.3_s_010
+    NEW: <NO MATCH IN TL>
+[L154 | dialogs.rpy:4173] OLD: Well, thanks for that.
+    NEW: Ну, спасибо и на том.
+[L156] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L157] OLD: ch2.3_l_012
+    NEW: <NO MATCH IN TL>
+[L158 | dialogs.rpy:4176] OLD: Don't go whispering unnecessary things into someone else's familiar. And what's this? After all that lofty talk, you're going to run?
+    NEW: Нечего нашёптывать лишнее чужому фамильяру. И что это? Наговорила свысока всякого, а теперь собираешься сбежать?
+[L160] OLD: l_k_fight_4
+    NEW: <NO MATCH IN TL>
+[L161] OLD: ch2.3_k_014
+    NEW: <NO MATCH IN TL>
+[L162 | dialogs.rpy:4179] OLD: Who said anything about running?
+    NEW: Кто это говорит о бегстве?
+[L164 | thoughs.rpy:353] OLD: Aah, they're getting more and more heated...!
+    NEW: А-ах, они всё сильнее распаляются…!
+[L167 | choises.rpy:266] OLD: Please stop them, Professor
+    NEW: Профессор, остановите их
+[L169] OLD: classroom
+    NEW: <NO MATCH IN TL>
+[L170] OLD: ch2.3_s_011
+    NEW: <NO MATCH IN TL>
+[L171 | dialogs.rpy:4182] OLD: Please stop them, Professor.
+    NEW: Профессор, остановите их, пожалуйста.
+[L173] OLD: c 1 angry
+    NEW: <NO MATCH IN TL>
+[L174] OLD: ch2.3_c_006
+    NEW: <NO MATCH IN TL>
+[L175 | dialogs.rpy:4185] OLD: Eh? Me?
+    NEW: Э? Я?
+[L177] OLD: ch2.3_s_012
+    NEW: <NO MATCH IN TL>
+[L178 | dialogs.rpy:4188] OLD: Who else is there? Please, stop those two.
+    NEW: А кто ещё? Прошу, остановите этих двоих.
+[L180] OLD: c 1 angry
+    NEW: <NO MATCH IN TL>
+[L181] OLD: ch2.3_c_007
+    NEW: <NO MATCH IN TL>
+[L182 | dialogs.rpy:4191] OLD: Private duels within the academy are strictly forbidden. Miss Valiere, Miss Zerbst! Stop this duel at once!
+    NEW: Частные дуэли в академии строго запрещены. Мадемуазель Вальер, мадемуазель Цербст! Немедленно прекратите дуэль!
+[L184] OLD: ch2.3_c_008
+    NEW: <NO MATCH IN TL>
+[L185 | dialogs.rpy:4194] OLD: I will not permit a duel in front of my eyes. For one, it disrupts the lesson.
+    NEW: Я не позволю устраивать дуэль прямо у меня на глазах. Во-первых, это мешает уроку.
+[L188] OLD: l_k_fight_4
+    NEW: <NO MATCH IN TL>
+[L189] OLD: ch2.3_k_015
+    NEW: <NO MATCH IN TL>
+[L190 | dialogs.rpy:4197] OLD: ...I have no intention of disrupting the lesson.
+    NEW: …Я не собираюсь мешать уроку.
+[L192] OLD: ch2.3_l_013
+    NEW: <NO MATCH IN TL>
+[L193 | dialogs.rpy:4200] OLD: Let's take this outside. Then we won't be a bother.
+    NEW: Выйдем на улицу. Тогда мы никому не помешаем.
+[L195] OLD: ch2.3_k_016
+    NEW: <NO MATCH IN TL>
+[L196 | dialogs.rpy:4203] OLD: Fine. Let's settle this between just the two of us.
+    NEW: Хорошо. Давай выясним всё один на один.
+[L198] OLD: ch2.3_c_009
+    NEW: <NO MATCH IN TL>
+[L199 | dialogs.rpy:4206] OLD: H-hey, wait! Miss Valiere, Miss Zerbst!
+    NEW: Э-эй, подождите! Мадемуазель Вальер, мадемуазель Цербст!
+[L201] OLD: ch2.3_s_013
+    NEW: <NO MATCH IN TL>
+[L202 | dialogs.rpy:4209] OLD: It's no use...!?
+    NEW: Не вышло…?!
+[L207] OLD: l_k_fight_2
+    NEW: <NO MATCH IN TL>
+[L209] OLD: ch2.3_c_010
+    NEW: <NO MATCH IN TL>
+[L210 | dialogs.rpy:4212] OLD: No, no, you two! Private duels are forbidden by the school rules.
+    NEW: Нет, нет, вы двое! Частные дуэли запрещены школьными правилами.
+[L212] OLD: ch2.3_l_014
+    NEW: <NO MATCH IN TL>
+[L213 | dialogs.rpy:4215] OLD: In that case, let's say Professor Colbert knew nothing about it.
+    NEW: В таком случае будем считать, что профессор Кольбер ничего не знал.
+[L215] OLD: ch2.3_k_017
+    NEW: <NO MATCH IN TL>
+[L216 | dialogs.rpy:4218] OLD: That's right. Two students were simply absent from class, so don't worry about it.
+    NEW: Верно. Просто двоих учеников не было на уроке, так что не беспокойтесь.
+[L218] OLD: ch2.3_l_015
+    NEW: <NO MATCH IN TL>
+[L219 | dialogs.rpy:4221] OLD: Let's go.{#ch2.3_L214}
+    NEW: Идём.
+[L221] OLD: ch2.3_k_018
+    NEW: <NO MATCH IN TL>
+[L222 | dialogs.rpy:4224] OLD: No need to tell me.
+    NEW: Можешь не говорить.
+[L224] OLD: classroom
+    NEW: <NO MATCH IN TL>
+[L225] OLD: ch2.3_s_014
+    NEW: <NO MATCH IN TL>
+[L226 | dialogs.rpy:4227] OLD: Oh, man, can't be helped. Sorry, Professor. I'll go and try to stop them.
+    NEW: Ах, ладно, ничего не поделаешь. Простите, профессор. Я пойду и попробую их остановить.
+[L228] OLD: ch2.3_c_011
+    NEW: <NO MATCH IN TL>
+[L229 | dialogs.rpy:4230] OLD: A-ah. Do your best.
+    NEW: А-ага. Постарайся.
+[L231 | thoughs.rpy:356] OLD: Good grief, is this part of a familiar's job too? ...No, definitely not.
+    NEW: Вот напасть, неужели и это входит в обязанности фамильяра? …Нет, точно нет.
+[L233] OLD: yard
+    NEW: <NO MATCH IN TL>
+[L234] OLD: ch2.3_k_019
+    NEW: <NO MATCH IN TL>
+[L235 | dialogs.rpy:4233] OLD: Hmph, you're awfully eager for a fight this morning, aren't you?
+    NEW: Хм, с утра у тебя что-то уж очень боевой настрой, а?
+[L237] OLD: ch2.3_l_016
+    NEW: <NO MATCH IN TL>
+[L238 | dialogs.rpy:4236] OLD: Sorry, but I don't think I can go easy on you today. Or rather, I don't intend to. Prepare yourself.
+    NEW: Прости, но сегодня я вряд ли смогу тебя щадить. Точнее, я и не собираюсь. Готовься.
+[L240] OLD: ch2.3_k_020
+    NEW: <NO MATCH IN TL>
+[L241 | dialogs.rpy:4239] OLD: Fufufu. Your big mouth is almost refreshing when it goes that far.
+    NEW: Фу-фу-фу. Твоя похвальба, когда заходит так далеко, даже освежает.
+[L243] OLD: l 2 angry
+    NEW: <NO MATCH IN TL>
+[L244] OLD: ch2.3_s_015
+    NEW: <NO MATCH IN TL>
+[L245 | dialogs.rpy:4242] OLD: Hey, Louise, Kirche! That's enough, both of you!
+    NEW: Эй, Луиза, Кирхе! Хватит вам обеим!
+[L247] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L248] OLD: ch2.3_l_017
+    NEW: <NO MATCH IN TL>
+[L249 | dialogs.rpy:4245] OLD: You be quiet. As if that weren't enough, I've been in a bad mood since this morning.
+    NEW: Помолчи. И без того у меня с самого утра настроение неважное.
+[L251] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L252] OLD: ch2.3_k_021
+    NEW: <NO MATCH IN TL>
+[L253 | dialogs.rpy:4248] OLD: Oh my. Is it about Haruna? Why so jealous, I wonder?
+    NEW: О-о. Дело в Харуне? И чего это ты так ревнуешь?
+[L255] OLD: l 1 angry
+    NEW: <NO MATCH IN TL>
+[L256] OLD: ch2.3_l_018
+    NEW: <NO MATCH IN TL>
+[L257 | dialogs.rpy:4251] OLD: What did you say!?
+    NEW: Что ты сказала?!
+[L259 | thoughs.rpy:359] OLD: Aaah, what am I supposed to do...!
+    NEW: А-а-а, что же мне делать…!
+[L262] OLD: blow
+    NEW: <NO MATCH IN TL>
+[L264] OLD: s 1 angry
+    NEW: <NO MATCH IN TL>
+[L265] OLD: ch2.3_s_016
+    NEW: <NO MATCH IN TL>
+[L266 | dialogs.rpy:4254] OLD: W-what was that!?
+    NEW: Ч-что это было!?
+[L268] OLD: mage
+    NEW: <NO MATCH IN TL>
+[L269] OLD: ch2.3_mage_001
+    NEW: <NO MATCH IN TL>
+[L270 | dialogs.rpy:4257] OLD: Hmph, I'd heard this was a magic academy, but the protection is nothing impressive.
+    NEW: Хм, слышал, что это Магическая академия, но защита-то у неё никудышная.
+[L272] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L273] OLD: ch2.3_l_019
+    NEW: <NO MATCH IN TL>
+[L274 | dialogs.rpy:4260] OLD: Wha— the mage from back then... Did they follow us all the way here?
+    NEW: Что… тот самый маг… Неужели он последовал за нами аж сюда?
+[L276] OLD: ch2.3_k_022
+    NEW: <NO MATCH IN TL>
+[L277 | dialogs.rpy:4263] OLD: What? They infiltrated the academy?
+    NEW: Что? Он пробрался в академию?
+[L279] OLD: mage
+    NEW: <NO MATCH IN TL>
+[L280] OLD: ch2.3_mage_002
+    NEW: <NO MATCH IN TL>
+[L281 | dialogs.rpy:4266] OLD: Hand over that girl quietly. Otherwise, you'll get hurt.
+    NEW: Тихо отдайте мне ту девчонку. Иначе вам не поздоровится.
+[L283] OLD: ch2.3_s_017
+    NEW: <NO MATCH IN TL>
+[L284 | dialogs.rpy:4269] OLD: Heh, wasn't it you who ran away with a lesson last time?
+    NEW: Хех, разве не ты в прошлый раз сбежал, получив по заслугам?
+[L286] OLD: ch2.3_mage_003
+    NEW: <NO MATCH IN TL>
+[L287 | dialogs.rpy:4272] OLD: Very well. If you won't hand her over, I'll just use force to get an answer.
+    NEW: Ну и ладно. Раз не отдаёте, я выбью ответ силой.
+[L289] OLD: l 2 angry
+    NEW: <NO MATCH IN TL>
+[L290] OLD: ch2.3_l_020
+    NEW: <NO MATCH IN TL>
+[L291 | dialogs.rpy:4275] OLD: Kirche. Wait here for a moment. It seems I have to deal with these guys.
+    NEW: Кирхе. Подожди здесь немного. Похоже, мне придётся разобраться с этими типами.
+[L293] OLD: ch2.3_k_023
+    NEW: <NO MATCH IN TL>
+[L294 | dialogs.rpy:4278] OLD: Oh, then I'll help. I absolutely hate this sort of boorish crowd.
+    NEW: Ах, тогда я помогу. Уж очень я не люблю подобных неотёсанных типов.
+[L296] OLD: ch2.3_l_021
+    NEW: <NO MATCH IN TL>
+[L297 | dialogs.rpy:4281] OLD: Hmph. Suit yourself.
+    NEW: Хм. Как хочешь.
+[L300] OLD: s 7
+    NEW: <NO MATCH IN TL>
+[L301] OLD: ch2.3_d_001
+    NEW: <NO MATCH IN TL>
+[L302 | dialogs.rpy:4284] OLD: Heh heh, now this is turning into something fun, eh? Well, we oughta thank the guy just for stopping the girls' squabble!
+    NEW: Хе-хе, вот это уже становится забавно, а? Ну, уже за то, что он прекратил девичью свару, его стоит поблагодарить!
+[L304] OLD: s 7 angry
+    NEW: <NO MATCH IN TL>
+[L305] OLD: ch2.3_s_018
+    NEW: <NO MATCH IN TL>
+[L306 | dialogs.rpy:4287] OLD: Couldn't agree more. I'm so happy I could cry.
+    NEW: Вот именно. Я так рад, что готов расплакаться.
+[L308] OLD: mage
+    NEW: <NO MATCH IN TL>
+[L309] OLD: ch2.3_mage_004
+    NEW: <NO MATCH IN TL>
+[L310 | dialogs.rpy:4290] OLD: This time it won't go like last time. Minions, attack!
+    NEW: На этот раз всё будет не как в прошлый раз. Слуги мои, в атаку!
+[L313] OLD: サイト
+    NEW: <NO MATCH IN TL>
+[L314] OLD: 左
+    NEW: <NO MATCH IN TL>
+[L316] OLD: battle
+    NEW: <NO MATCH IN TL>
+[L318] OLD: call forest_battle
+    NEW: <NO MATCH IN TL>
+[L319] OLD: saito
+    NEW: <NO MATCH IN TL>
+[L320] OLD: black
+    NEW: <NO MATCH IN TL>
+[L327] OLD: yard
+    NEW: <NO MATCH IN TL>
+[L329] OLD: ch2.3_l_022
+    NEW: <NO MATCH IN TL>
+[L330 | dialogs.rpy:4293] OLD: What's the matter, giving up already!?
+    NEW: Что такое, уже сдаёшься?!
+[L332] OLD: ch2.3_k_024
+    NEW: <NO MATCH IN TL>
+[L333 | dialogs.rpy:4296] OLD: Fufun, it was more fun than I expected, but... this is the end.
+    NEW: Фу-фун, было даже веселее, чем я ожидала, но… на этом всё.
+[L335] OLD: s 7 happy
+    NEW: <NO MATCH IN TL>
+[L336] OLD: ch2.3_s_019
+    NEW: <NO MATCH IN TL>
+[L337 | dialogs.rpy:4299] OLD: Heh, no matter how many times we do this, I'm not gonna lose.
+    NEW: Хех, сколько бы раз мы ни дрались, я не проиграю.
+[L339] OLD: mage
+    NEW: <NO MATCH IN TL>
+[L340] OLD: ch2.3_mage_005
+    NEW: <NO MATCH IN TL>
+[L341 | dialogs.rpy:4302] OLD: Ugh. To mere children...
+    NEW: Угх. Каким-то детям…
+[L343] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L344] OLD: ch2.3_l_023
+    NEW: <NO MATCH IN TL>
+[L345 | dialogs.rpy:4305] OLD: Hmph, 'children'? There's a limit to how much you can underestimate a magic academy student.
+    NEW: Хм, «дети»? Есть же предел тому, насколько можно недооценивать ученика Магической академии.
+[L347] OLD: ch2.3_k_025
+    NEW: <NO MATCH IN TL>
+[L348 | dialogs.rpy:4308] OLD: That's right. Some students may look like children, but basically we're adults.
+    NEW: Верно. Некоторые ученики и выглядят детьми, но в основном мы взрослые.
+[L350] OLD: l 1 angry
+    NEW: <NO MATCH IN TL>
+[L351] OLD: ch2.3_l_024
+    NEW: <NO MATCH IN TL>
+[L352 | dialogs.rpy:4311] OLD: Wh-who looks like a child!?
+    NEW: К-кто это выглядит ребёнком?!
+[L354] OLD: ch2.3_k_026
+    NEW: <NO MATCH IN TL>
+[L355 | dialogs.rpy:4314] OLD: Oh? I didn't mean you, Louise.
+    NEW: Ах? Я вовсе не о тебе, Луиза.
+[L357] OLD: ch2.3_l_025
+    NEW: <NO MATCH IN TL>
+[L358 | dialogs.rpy:4317] OLD: Ugh... I'll deal with that matter later.
+    NEW: Угх… С этим разберусь позже.
+[L360] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L361] OLD: ch2.3_l_026
+    NEW: <NO MATCH IN TL>
+[L362 | dialogs.rpy:4320] OLD: Now then, where shall we start? At the very least, you'll tell me your identity and why you're after that girl, right now.
+    NEW: Итак, с чего начнём? По крайней мере, кто ты такой и зачем тебе та девушка — отвечай прямо сейчас.
+[L364] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L365] OLD: ch2.3_s_020
+    NEW: <NO MATCH IN TL>
+[L366 | dialogs.rpy:4323] OLD: Yeah, yeah. Why don't you tell us why you're after Haruna?
+    NEW: Ага, ага. Может, расскажешь, зачем тебе Харуна?
+[L368] OLD: mage
+    NEW: <NO MATCH IN TL>
+[L369] OLD: ch2.3_mage_006
+    NEW: <NO MATCH IN TL>
+[L370 | dialogs.rpy:4326] OLD: Ugh...{#ch2.3_L365}
+    NEW: Угх…
+[L373] OLD: blow
+    NEW: <NO MATCH IN TL>
+[L375] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L376] OLD: ch2.3_l_027
+    NEW: <NO MATCH IN TL>
+[L377 | dialogs.rpy:4329] OLD: Wha— what!? What just happened!?
+    NEW: Ч-что?! Что вообще произошло?!
+[L379] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L380] OLD: ch2.3_d_002
+    NEW: <NO MATCH IN TL>
+[L381 | dialogs.rpy:4332] OLD: Hey, partner. ...Looks like we've got a new guest.
+    NEW: Эй, напарник. …Похоже, у нас новый гость.
+[L383] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L384] OLD: ch2.3_l_028
+    NEW: <NO MATCH IN TL>
+[L385 | dialogs.rpy:4335] OLD: Huh?{#ch2.3_L380}
+    NEW: А?
+[L387] OLD: ch2.3_k_027
+    NEW: <NO MATCH IN TL>
+[L388 | dialogs.rpy:4338] OLD: What?{#ch2.3_L383}
+    NEW: Что?
+[L390] OLD: ak_appear
+    NEW: <NO MATCH IN TL>
+[L391 | dialogs.rpy:4341] OLD: ……。{#ch2.3_L386}
+    NEW: …
+[L393] OLD: ch2.3_s_021
+    NEW: <NO MATCH IN TL>
+[L394 | dialogs.rpy:4344] OLD: Looks like that explosion just now was this one's doing.
+    NEW: Похоже, взрыв, который только что прогремел, — её рук дело.
+[L396] OLD: yard
+    NEW: <NO MATCH IN TL>
+[L397] OLD: ch2.3_k_028
+    NEW: <NO MATCH IN TL>
+[L398 | dialogs.rpy:4347] OLD: I doubt she's one of Louise's kind, so I'd say she's a Fire user.
+    NEW: Не похоже, что она такая же, как Луиза, — скорее всего, она владеет Огнём.
+[L400] OLD: ch2.3_k_029
+    NEW: <NO MATCH IN TL>
+[L401 | dialogs.rpy:4350] OLD: If she came to save her comrade, she's a little late.
+    NEW: Если она пришла спасать товарища, то немного опоздала.
+[L403] OLD: c 1 angry
+    NEW: <NO MATCH IN TL>
+[L404] OLD: ch2.3_c_012
+    NEW: <NO MATCH IN TL>
+[L405 | dialogs.rpy:4353] OLD: Look out! Get away, Miss Zerbst!
+    NEW: Берегись! Отойдите, мадемуазель Цербст!
+[L407] OLD: ch2.3_k_030
+    NEW: <NO MATCH IN TL>
+[L408 | dialogs.rpy:4356] OLD: Huh?{#ch2.3_L403}
+    NEW: А?
+[L410] OLD: ch2.3_s_022
+    NEW: <NO MATCH IN TL>
+[L411 | dialogs.rpy:4359] OLD: Professor?
+    NEW: Профессор?
+[L415] OLD: blow
+    NEW: <NO MATCH IN TL>
+[L417] OLD: ch2.3_k_031
+    NEW: <NO MATCH IN TL>
+[L418 | dialogs.rpy:4362] OLD: Kyaa!
+    NEW: Кья-а!
+[L420] OLD: ch2.3_s_023
+    NEW: <NO MATCH IN TL>
+[L421 | dialogs.rpy:4365] OLD: Whoa!
+    NEW: Уо-о!
+[L423] OLD: l 3 sad
+    NEW: <NO MATCH IN TL>
+[L424] OLD: ch2.3_l_029
+    NEW: <NO MATCH IN TL>
+[L425 | dialogs.rpy:4368] OLD: Wh-what!? There's a hole in the ground...
+    NEW: Ч-что?! В земле дыра…
+[L427] OLD: c 1 sad
+    NEW: <NO MATCH IN TL>
+[L428] OLD: ch2.3_c_013
+    NEW: <NO MATCH IN TL>
+[L429 | dialogs.rpy:4371] OLD: This is the power of a bomb... It must be the rumored bomb user.
+    NEW: Такова сила бомбы… Должно быть, это тот самый {i}«бомбист»{/i}, о котором говорили.
+[L431] OLD: c 1 sad
+    NEW: <NO MATCH IN TL>
+[L432] OLD: ch2.3_s_024
+    NEW: <NO MATCH IN TL>
+[L433 | dialogs.rpy:4374] OLD: So it's the one the Professor mentioned this morning!
+    NEW: Значит, это тот, о ком профессор говорил утром!
+[L437] OLD: blow
+    NEW: <NO MATCH IN TL>
+[L439] OLD: l 1 sad
+    NEW: <NO MATCH IN TL>
+[L440] OLD: ch2.3_l_030
+    NEW: <NO MATCH IN TL>
+[L441 | dialogs.rpy:4377] OLD: Kyaaaaa!
+    NEW: Кья-а-а-а!
+[L443] OLD: ch2.3_s_025
+    NEW: <NO MATCH IN TL>
+[L444 | dialogs.rpy:4380] OLD: Ugh! Is everyone all right!?
+    NEW: Угх! Все целы?!
+[L447 | choises.rpy:269] OLD: Louise, are you all right!?{#ch2.3_L442}
+    NEW: Луиза, ты в порядке?!
+[L449] OLD: l 1 sad
+    NEW: <NO MATCH IN TL>
+[L450] OLD: ch2.3_s_026
+    NEW: <NO MATCH IN TL>
+[L451 | dialogs.rpy:4383] OLD: Louise, are you all right!?{#ch2.3_L446}
+    NEW: Луиза, ты в порядке?!
+[L453] OLD: l 1 shy
+    NEW: <NO MATCH IN TL>
+[L454] OLD: ch2.3_l_031
+    NEW: <NO MATCH IN TL>
+[L455 | dialogs.rpy:4386] OLD: Th-there's no need for you to worry about me. I'm fine, I'm not hurt.
+    NEW: Н-не надо тебе обо мне беспокоиться. Всё хорошо, я не ранена.
+[L457] OLD: louise
+    NEW: <NO MATCH IN TL>
+[L460] OLD: l 1 shy
+    NEW: <NO MATCH IN TL>
+[L461] OLD: ch2.3_s_027
+    NEW: <NO MATCH IN TL>
+[L462 | dialogs.rpy:4389] OLD: I-I see, then that's good.
+    NEW: В-вот как, тогда хорошо.
+[L464] OLD: ch2.3_l_032
+    NEW: <NO MATCH IN TL>
+[L465 | dialogs.rpy:4392] OLD: So you were worried about me.
+    NEW: Значит, ты обо мне беспокоился.
+[L467] OLD: ch2.3_s_028
+    NEW: <NO MATCH IN TL>
+[L468 | dialogs.rpy:4395] OLD: Well, of course. You're my master.
+    NEW: Ну а как же. Ты моя госпожа.
+[L470] OLD: ch2.3_l_033
+    NEW: <NO MATCH IN TL>
+[L471 | dialogs.rpy:4398] OLD: ……。{#ch2.3_L465}
+    NEW: …
+[L476 | choises.rpy:272] OLD: Kirche, are you all right!?{#ch2.3_L470}
+    NEW: Кирхе, ты в порядке?!
+[L478] OLD: l 1 sad
+    NEW: <NO MATCH IN TL>
+[L479] OLD: ch2.3_s_029
+    NEW: <NO MATCH IN TL>
+[L480 | dialogs.rpy:4401] OLD: Kirche, are you all right!?{#ch2.3_L474}
+    NEW: Кирхе, ты в порядке?!
+[L482] OLD: k 4 shy
+    NEW: <NO MATCH IN TL>
+[L483] OLD: ch2.3_k_032
+    NEW: <NO MATCH IN TL>
+[L484 | dialogs.rpy:4404] OLD: Aahn, darling was worried about me — I'm so moved!
+    NEW: А-а-ан, дорогой обо мне побеспокоился — я так растрогана!
+[L486] OLD: kirche
+    NEW: <NO MATCH IN TL>
+[L489] OLD: k 4 shy
+    NEW: <NO MATCH IN TL>
+[L490] OLD: ch2.3_s_030
+    NEW: <NO MATCH IN TL>
+[L491 | dialogs.rpy:4407] OLD: H-hey, don't cling to me.
+    NEW: Э-эй, не прижимайся ко мне.
+[L493] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L494] OLD: ch2.3_l_034
+    NEW: <NO MATCH IN TL>
+[L495 | dialogs.rpy:4410] OLD: What are you doing, clinging to him in all this confusion!? There are still enemies!
+    NEW: Что это ты делаешь, прижимаешься к нему в такой сумятице?! Враги ещё здесь!
+[L497] OLD: k 1
+    NEW: <NO MATCH IN TL>
+[L498] OLD: ch2.3_k_033
+    NEW: <NO MATCH IN TL>
+[L499 | dialogs.rpy:4413] OLD: Yes, yes.
+    NEW: Да-да.
+[L504 | choises.rpy:275] OLD: Professor, are you all right!?{#ch2.3_L497}
+    NEW: Профессор, вы в порядке?!
+[L506] OLD: l 1 sad
+    NEW: <NO MATCH IN TL>
+[L507] OLD: ch2.3_s_031
+    NEW: <NO MATCH IN TL>
+[L508 | dialogs.rpy:4416] OLD: Professor, are you all right!?{#ch2.3_L501}
+    NEW: Профессор, вы в порядке?!
+[L510] OLD: c 1
+    NEW: <NO MATCH IN TL>
+[L511] OLD: ch2.3_c_014
+    NEW: <NO MATCH IN TL>
+[L512 | dialogs.rpy:4419] OLD: Yes, I'm fine, but...
+    NEW: Да, я в порядке, но…
+[L514] OLD: ch2.3_l_035
+    NEW: <NO MATCH IN TL>
+[L515 | dialogs.rpy:4422] OLD: Saito?
+    NEW: Сайто?
+[L517] OLD: ch2.3_s_032
+    NEW: <NO MATCH IN TL>
+[L518 | dialogs.rpy:4425] OLD: Huh?{#ch2.3_L511}
+    NEW: А?
+[L520] OLD: louise
+    NEW: <NO MATCH IN TL>
+[L522] OLD: l 3 angry
+    NEW: <NO MATCH IN TL>
+[L523] OLD: ch2.3_l_036
+    NEW: <NO MATCH IN TL>
+[L524 | dialogs.rpy:4428] OLD: So I don't matter to you?
+    NEW: Значит, я для тебя ничего не значу?
+[L526] OLD: ch2.3_s_033
+    NEW: <NO MATCH IN TL>
+[L527 | dialogs.rpy:4431] OLD: Nah, it's not like that, but you should respect your elders, right?
+    NEW: Да нет, не в этом дело, но старших ведь надо уважать, верно?
+[L529] OLD: l 1 angry
+    NEW: <NO MATCH IN TL>
+[L530] OLD: ch2.3_l_037
+    NEW: <NO MATCH IN TL>
+[L531 | dialogs.rpy:4434] OLD: ...It seems you'll need a proper scolding later.
+    NEW: …Похоже, тебя придётся как следует проучить.
+[L533] OLD: l 1 angry
+    NEW: <NO MATCH IN TL>
+[L534] OLD: ch2.3_s_034
+    NEW: <NO MATCH IN TL>
+[L535 | dialogs.rpy:4437] OLD: Huh, why?
+    NEW: А? Почему?
+MATCHED: 138 / 344

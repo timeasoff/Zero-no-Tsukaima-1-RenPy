@@ -53,7 +53,7 @@ translate russian strings:
     new "Э-э, правда?"
 
     old "That hurts~. Does it matter to you whether I'm here or not?{#ch5_6_v3005}"
-    new "Как же больно~. Тебе всё равно, присутствую я здесь или нет?"
+    new "Как же больно~. Тебе всё равно, я здесь или нет?"
 
     old "Hiraga-kun, that's so mean~~!!{#ch5_6_v1952}"
     new "Хирага-кун, это так жестоко~~!!"
@@ -374,7 +374,7 @@ translate russian strings:
     new "Давай подумаем… равенство… семья… возлюбленный…"
 
     old "I wouldn't say it's wrong. But that's something only someone rich enough to be overflowing with wealth can say.{#ch5_6_v15881}"
-    new "Я не сказала бы, что это неверно. Но это то, что может сказать только человек, достаточно богатый, чтобы быть переполненным богатством."
+    new "Я не сказала бы, что это неверно. Но это может сказать только человек, утопающий в богатстве."
 
     old "Weatherby-san?{#ch5_6_v9981}"
     new "Уэзерби-сан?"

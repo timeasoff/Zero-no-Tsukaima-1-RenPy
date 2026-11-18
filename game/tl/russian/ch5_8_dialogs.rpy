@@ -304,7 +304,7 @@ translate russian strings:
 
 translate russian strings:
     old "Noelle will die here… as the prince's wife. I wish to die here.{#ch5_8_v15349}"
-    new "Ноэль умрёт здесь… как жена принца. Я хочу умереть здесь.{#ch5_8_v15349}"
+    new "Ноэль умрёт… как жена принца. Я хочу умереть здесь.{#ch5_8_v15349}"
 
 translate russian strings:
     old "There she is! The princess!{#ch5_8_v1415}"
