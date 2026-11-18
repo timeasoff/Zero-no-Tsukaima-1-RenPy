@@ -36,14 +36,14 @@
     old "It's your fault for acting suggestively toward every girl you see!{#ch21_l_036}"
     new "Это твоя вина — ты со всеми девушками ведёшь себя двусмысленно!"
 
-    old "What's more, as my familiar, you shouldn't be laying hands on other girls!!{#ch21_l_037}"
-    new "Более того, будучи моим фамильяром, не смей приставать к другим девушкам!!"
+    old "What's more, as my familiar, laying hands on other girls is unthinkable!!{#ch21_l_037}"
+    new "Более того, будучи моим фамильяром, приставать к другим девушкам — немыслимо!!"
 
     old "Calm down!! Whoa, what are you about to do, Louise!?{#ch21_s_061}"
     new "Успокойся!! Ой, что ты хочешь сделать, Луиза!?"
 
-    old "I'll beat that attitude right out of you!!{#ch21_l_038}"
-    new "Я выбью из тебя это желание!!"
+    old "I'll beat that stubbornness right out of you!!{#ch21_l_038}"
+    new "Я выбью из тебя эту строптивость!!"
 
     old "Gyaaaaaaaaaaaaaa!!{#ch21_s_062}"
     new "Гя-а-а-а-а-а-а-а!!"
@@ -52,7 +52,7 @@
     new "Временное прекращение."
 
     old "Now that I think about it, Siesta seemed a bit distracted even while we were helping with the play.{#ch21_m_008}"
-    new "Теперь, когда я вспоминаю, Сиэста и во время спектакля была немного рассеянной."
+    new "Теперь, когда я вспоминаю, Сиэста и во время спектакля была немного рассеянной, мне кажется."
 
     old "That explains it. Siesta was cast as Hiraga-kun's lover in the play, wasn't she?{#ch21_ha_003}"
     new "Вот оно. Сиэста же была в роли возлюбленной Хирага-куна в спектакле, верно?"
@@ -88,7 +88,7 @@
     new "Сиэста тоже имеет право любить. Но хватать моего дорогого — храбрости ей не занимать!"
 
     old "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you!{#ch21_l_040}"
-    new "Кто сказал, что она твоя возлюбленная? Мой фамильяр вправе делать что хочет, но отдать её тебе — никогда!"
+    new "Кто сказал, что она твоя возлюбленная? Мой фамильяр вправе делать что хочет, но отдать её тебе — ни за что, даже если придётся умереть!"
 
     old "Oh? Could it be, Louise, that you're in love with your familiar?{#ch21_k_011}"
     new "О? Неужто, Луиза, ты влюблена в своего фамильяра?"
@@ -109,13 +109,13 @@
     new "С удовольствием, Кирке. Именем Ла Вальер я никогда не отдам тебе Сайто!"
 
     old "You two, why are you getting so bloodshot over this? Hey—take a look at your faces in a mirror sometime.{#ch21_s_068}"
-    new "Вы двое, почему вы так разошлись? Эй — посмотрите как-нибудь на свои лица в зеркало."
+    new "Вы двое, почему у вас глаза налились кровью? Эй — посмотрите как-нибудь на свои лица в зеркало."
 
     old "It's all right, Hiraga-kun. Siesta can't use magic, either. I can try a little, too, can't I?{#ch21_ha_006}"
     new "Всё хорошо, Хирага-кун. Сиэста же не умеет колдовать. И я могу немного постараться, правда?"
 
     old "No, Haruna. Not you too.{#ch21_s_069}"
-    new "Нет, Харуна. Не ты ли."
+    new "Нет, Харуна. Ты тоже."
 
     old "Heh heh, of course Tabitha's joining, too, right?{#ch21_k_014}"
     new "Хи-хи, Табаса, конечно, тоже участвует, да?"
@@ -234,8 +234,8 @@
     old "All right. If it's over Saito-san, I'll accept that fight.{#ch21_si_044}"
     new "Ладно. Если ставка — Сайто-сан, я приму это состязание."
 
-    old "If I win this, I can openly be with Saito-san, right!{#ch21_si_045}"
-    new "Если я выиграю, я смогу открыто быть с Сайто-саном, да!"
+    old "If I win this, I can openly flirt with Saito-san, right!{#ch21_si_045}"
+    new "Если я выиграю, я смогу открыто флиртовать с Сайто-саном, да!"
 
     old "Why would it mean that!?{#ch21_s_083}"
     new "Почему это должно что-то значить!?"

@@ -13,7 +13,7 @@
     new "Я всё равно не могу смириться! Что это за бомбист — вдруг взял и исчез!"
 
     old "How am I supposed to deal with the humiliation I suffered!{#ch21_l_002}"
-    new "Как мне быть с позором, который я пережила!"
+    new "Как мне быть с унижением, которое я пережила!"
 
     old "You're a sore loser, really. What's the point of regretting something that's over?{#ch21_k_001}"
     new "Ты и правда не умеешь проигрывать. Зачем жалеть о том, что уже прошло?"
@@ -22,7 +22,7 @@
     new "Что ты сказала!?"
 
     old "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
-    new "Смотри на вещи позитивнее. От такого напряжения ты лысеешь."
+    new "Смотри на вещи позитивнее. Лысеешь, да?"
 
     old "Wha—! Kirche!?{#ch21_l_004}"
     new "Ах! Кирке!?"
@@ -124,7 +124,7 @@
     new "Ах… Нет, правда, Сайто-сан, извиняйте… Это моя невнимательность, так что… простите!"
 
     old "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
-    new "Хмф, наш чай испорчен. Аппетит пропал. Идём, Монморанси."
+    new "Хмф, наш чай испорчен. Настроение испорчено. Идём, Монморанси."
 
     old "Right!{#ch21_m_004}"
     new "Да!"
@@ -211,7 +211,7 @@
     new "Как насчёт того, чтобы стать горничной Кирке?"
 
     old "Don't be ridiculous!! That's out of the question!{#ch21_l_008}"
-    new "Не смешно!! Об этом не может быть и речи!"
+    new "Это не шутка!! Об этом не может быть и речи!"
 
     old "W-Why? If our place won't do, then what else can we do?{#ch21_s_028}"
     new "П-Почему? Если у нас не выходит, что же ещё делать?"
@@ -229,7 +229,7 @@
     new "Как насчёт того, чтобы стать горничной Табасы?"
 
     old "Tabitha might be fine, don't you think?{#ch21_l_011}"
-    new "Табаса — нормально, правда?"
+    new "Табаса — надёжная, правда?"
 
     old "E-Erm… But Miss Tabitha does everything for herself…{#ch21_si_026}"
     new "Э-Э… Но мисс Табаса всё делает сама…"
@@ -396,8 +396,8 @@
     old "Wait a second… That means…{#ch21_s_047}"
     new "Погоди… значит…"
 
-    old "Before I came, Saito did the laundry… So before I came to this world, Louise did it herself?{#ch21_s_048}"
-    new "Пока меня не было, Сайто стирал… Значит, до того, как я попал в этот мир, Луиза стирала сама?"
+    old "Before Siesta came, I did the laundry… So before I came to this world, you did it yourself?{#ch21_s_048}"
+    new "До прихода Сиэсты стирал я… Значит, до того, как я попал в этот мир, Луиза стирала сама?"
 
     old "You carried water in a bucket and washed in your room, didn't you? I know you wandered the halls at night.{#ch21_k_006}"
     new "Ты носила воду в ведре и стирала в комнате, да? Я знаю, что ты бродила по коридорам по ночам."

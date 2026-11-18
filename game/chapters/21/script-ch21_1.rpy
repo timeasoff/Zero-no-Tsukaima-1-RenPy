@@ -902,7 +902,7 @@ label ch21_1_scene_777:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：シエスタが来る前は俺が洗濯してたわけで……。
     voice "ch21_s_048"
-    s "Before I came, Saito did the laundry… So before I came to this world, Louise did it herself?{#ch21_s_048}"
+    s "Before Siesta came, I did the laundry… So before I came to this world, you did it yourself?{#ch21_s_048}"
 
     # [SPRITE   lay5     hide]
     # [SPRITE   lay6     image=+676, level=160, dir=1A]

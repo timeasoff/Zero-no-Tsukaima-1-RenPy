@@ -36,13 +36,13 @@
     old "It's your fault for acting suggestively toward every girl you see!{#ch21_l_036}"
     new "ルイズ：あんたが女の子に対して思わせぶりな態度ばかりとってるから悪いんじゃない！"
 
-    old "What's more, as my familiar, you shouldn't be laying hands on other girls!!{#ch21_l_037}"
+    old "What's more, as my familiar, laying hands on other girls is unthinkable!!{#ch21_l_037}"
     new "ルイズ：そもそも、わたしの使い魔のくせに、他の女の子に手を出すなんてありえないわ！！"
 
     old "Calm down!! Whoa, what are you about to do, Louise!?{#ch21_s_061}"
     new "サイト：落ち着けぇ！！うわっ、何をする気だルイズっ！！"
 
-    old "I'll beat that attitude right out of you!!{#ch21_l_038}"
+    old "I'll beat that stubbornness right out of you!!{#ch21_l_038}"
     new "ルイズ：その根性、たたき直してやるんだから！！"
 
     old "Gyaaaaaaaaaaaaaa!!{#ch21_s_062}"
@@ -234,7 +234,7 @@
     old "All right. If it's over Saito-san, I'll accept that fight.{#ch21_si_044}"
     new "シエスタ：分かりました。サイトさんを賭けてなら、その勝負、受けて立ちます。"
 
-    old "If I win this, I can openly be with Saito-san, right!{#ch21_si_045}"
+    old "If I win this, I can openly flirt with Saito-san, right!{#ch21_si_045}"
     new "シエスタ：これに勝てば、堂々とサイトさんといちゃいちゃしていいんですね！"
 
     old "Why would it mean that!?{#ch21_s_083}"

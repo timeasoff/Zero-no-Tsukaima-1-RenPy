@@ -396,7 +396,7 @@
     old "Wait a second… That means…{#ch21_s_047}"
     new "サイト：待てよ？ってことは……。"
 
-    old "Before I came, Saito did the laundry… So before I came to this world, Louise did it herself?{#ch21_s_048}"
+    old "Before Siesta came, I did the laundry… So before I came to this world, you did it yourself?{#ch21_s_048}"
     new "サイト：シエスタが来る前は俺が洗濯してたわけで……。じゃあ、俺がこの世界に来る前は自分でしてたのか。"
 
     old "You carried water in a bucket and washed in your room, didn't you? I know you wandered the halls at night.{#ch21_k_006}"

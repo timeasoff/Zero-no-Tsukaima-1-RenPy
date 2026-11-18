@@ -5123,3 +5123,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Прочие 8 находок FIXED (риторика, испуг, раздражение, сомнение, намерение, выдох, просьба, отаку-регистр); 1 PRESERVED — FUNCTIONAL (`ぽっ` → «Хи-хи»).
 - Отчёт: `reports/sma/ch20/script-ch20/analysis/20261118-033000-phase2.md`.
 - Проверки после исправления: `check_project.py` OK, `check_renpy_syntax.py` OK, `check_typography.py --chapter 20 --lang ru` OK, `omission_precheck` OK.
+
+
+## 2026-11-18 — Глава 21: аудиты частей 1–2 (A/C/Analyzer Ф1+Ф2)
+
+- 6 субагентов. Часть 1: A 5 (1 ERROR подмена референта `シエスタが来る前`), C 0, Ф1 6. Часть 2: A 5 (1 ERROR `お前もかよ`), C 2, Ф1 4.
+- Disposition: ч.1 — 6 FIXED, 1 PRESERVED — FUNCTIONAL; ч.2 — 11 FIXED, 2 PRESERVED — FUNCTIONAL.
+- Ключевые: `シエスタが来る前は俺が洗濯してた` → «До прихода Сиэсты стирал я»; `お前もかよ` → «Ты тоже» (было «Не ты ли»); `根性` → «строптивость»; `血走ってる` → «глаза налились кровью»; `いちゃいちゃ` → «флиртовать».
+- Отчёты: `reports/sma/ch21/{1,2}/analysis/20261118-034500-phase2.md`.
+- Проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 21` OK, `check_typography.py --chapter 21 --lang ru` OK.
