@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Thanks, Siesta. If I feel like eating it again, you'll treat us, right?{#ch22_s_137}"
     new "Спасибо, Сиэста. Если вдруг захочется ещё — ты нас угостишь, да?"

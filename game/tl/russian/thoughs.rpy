@@ -906,9 +906,7 @@ translate russian strings:
     new "Вдруг раздался оглушительный взрыв."
 translate russian strings:
     old "….\n….\n….{#ch4.6_th_001}"
-    new "….
-….
-…."
+    new "….\n….\n…."
 
 translate russian strings:
     old "In the end, we missed catching the Bomb User by just one step.{#ch4.6_th_002}"
@@ -976,9 +974,7 @@ translate russian strings:
 
 translate russian strings:
     old "….\n….\n….{#ch4.6_th_018}"
-    new "….
-….
-…."
+    new "….\n….\n…."
 
 translate russian strings:
     old "Your Highness…{#ch4.6_th_019}"
