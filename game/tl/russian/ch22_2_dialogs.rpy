@@ -88,7 +88,7 @@ translate russian strings:
     new "Ой."
 
     old "Sneaking bites is bad manners, you know.{#ch22_si_028}"
-    new "Красться к еде — дурной тон, знаете."
+    new "Красть куски — дурной тон, знаете."
 
     old "Ha ha… It just looked so tasty, I couldn't help it.{#ch22_s_052}"
     new "Ха-ха… Выглядело так вкусно, я не удержался."
@@ -115,7 +115,7 @@ translate russian strings:
     new "Я-Я сказала… П-Простите. Я сказала глупость…"
 
     old "I-It's fine! It's fine! I-It's really fine!{#ch22_s_056}"
-    new "Н-Нормально! Всё нормально! Я-Я так, просто не хочу говорить!"
+    new "Н-Нормально! Всё нормально! Я-Я так, ничего особенного!"
 
     old "…{#ch22_si_033}"
     new "…"
@@ -379,5 +379,5 @@ translate russian strings:
     new "Ох, Сайто, какой же ты неаккуратный. Выпей это — и будешь полон сил… Особенно мужчина…"
 
     old "Th-That's not cooking at all.{#ch22_s_094}"
-    new "Э-Это же не еда, а что-то другое."
+    new "Э-Это же не стряпня, а что-то другое."
 

@@ -118,7 +118,7 @@ translate russian strings:
     new "Как я должен здесь «постараться»…"
 
     old "Tabitha. Since we're here, won't you give us an explanation everyone can accept?{#ch26_s_016}"
-    new "Табита. Раз мы уже здесь, не объяснишь ли ты так, чтобы все поняли?"
+    new "Табита. Раз мы уже здесь, не объяснишь ли ты так, чтобы все были довольны?"
 
     old "…{#ch26_t_006}"
     new "…"
@@ -394,7 +394,7 @@ translate russian strings:
     new "Хи-хи, ну же, солдат — съешь что-нибудь горячее с этим."
 
     old "Saito! What are you doing!? You can't win them over like that!{#ch26_l_026}"
-    new "Сайто! Что ты делаешь!? Так ты их не уговоришь!"
+    new "Сайто! Что ты делаешь!? Они тебя точно не простят!"
 
     old "Eh, but…{#ch26_s_057}"
     new "А, но…"

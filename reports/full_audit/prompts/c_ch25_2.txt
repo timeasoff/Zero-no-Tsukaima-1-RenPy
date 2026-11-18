@@ -111,7 +111,7 @@ CLASSIFY. DISPOSITION (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION
   "audit_id": "sma-c",
   "audit_type": "pragmatic-audit",
   "part": "ch25_2",
-  "run_id": "20261118-195252-9c6a",
+  "run_id": "20261118-211234-6075",
   "pair": "JA->RU",
   "findings": [
     {
@@ -146,7 +146,7 @@ CLASSIFY. DISPOSITION (FIXED / FALSE POSITIVE / PRESERVED - ... / USER DECISION
 Единственный файл, который ты создаёшь, - результат этого запуска (см. OUTPUT FILE). Любые другие файлы в каталоге части в задание не входят: не читай их, не сравнивай с ними свой результат и не делай выводов из их наличия или отсутствия.
 
 OUTPUT FILE (единственный файл этого запуска):
-reports/sma/ch25/2/c/20261118-195252-9c6a.md
-(абсолютный путь: /workspace/.tmp/opencode/port-final/reports/sma/ch25/2/c/20261118-195252-9c6a.md)
+reports/sma/ch25/2/c/20261118-211234-6075.md
+(абсолютный путь: /workspace/.tmp/opencode/port-final/reports/sma/ch25/2/c/20261118-211234-6075.md)
 Запиши результат строго в описанном формате .md с JSON-блоком. Ничего больше
 не создавай и не изменяй.

@@ -13,10 +13,10 @@ translate russian strings:
     new "Лучше поручить Табите"
 
     old "Worried about after the fight{#ch27_1_c_976_2}"
-    new "Беспокоит то, что будет после"
+    new "Я волнуюсь о том, что будет после"
 
     old "Worried about everyone{#ch27_1_c_976_3}"
-    new "Беспокоит всех"
+    new "Я волнуюсь за всех"
 
     old "I'm against it!{#ch27_1_c_981_1}"
     new "Я категорически против!"

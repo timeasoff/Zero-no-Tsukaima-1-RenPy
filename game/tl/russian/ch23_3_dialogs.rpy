@@ -142,7 +142,7 @@ translate russian strings:
     new "Называть её так запросто — достойно десяти тысяч смертей. Уэзерби-сама — мой босс."
 
     old "So… the woman who took care of me when I first came to this world was Weatherly!?{#ch23_s_101}"
-    new "Значит… женщина, которая позаботилась обо мне, когда я впервые попал в этот мир, была Уэзерби!?"
+    new "Значит… женщина, которая позаботилась о Харуне, когда та впервые попала в этот мир, была Уэзерби!?"
 
     old "Saito, don't make me say the same thing twice. It hurts.{#ch23_ak_010}"
     new "Сайто, не заставляй меня повторять одно и то же. Тебе достанется."

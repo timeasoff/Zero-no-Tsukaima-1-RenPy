@@ -79,7 +79,7 @@ translate russian strings:
     new "А, письмо? От кого?"
 
     old "Beats me… I can't read this script. It's probably not addressed to you, Louise?{#ch25_s_014}"
-    new "Понятия не имею… Я не могу прочесть эти иероглифы. Наверное, оно не тебе, Луиза?"
+    new "Понятия не имею… Я не могу прочесть эти письмена. Наверное, оно не тебе, Луиза?"
 
     old "Show it here. Honestly, learn to read at least writing, would you?{#ch25_l_008}"
     new "Дай сюда. Право, научись хоть читать, что ли."
@@ -232,7 +232,7 @@ translate russian strings:
     new "…Эй, Кирхе. Почему ты так мрачнеешь из-за Табиты?"
 
     old "I-I'm not gloomy at all…{#ch25_k_012}"
-    new "Я-Я совсем не мрачная…"
+    new "Я-Я не то чтобы мрачная…"
 
     old "Looks like there's a complicated story there. Doesn't it interest you, Saito?{#ch25_l_020}"
     new "Похоже, там сложная история. Тебе это не интересно, Сайто?"
@@ -361,7 +361,7 @@ translate russian strings:
     new "…"
 
     old "Um, I was hoping you could tell me about that letter…{#ch25_s_057}"
-    new "Э-Э, я надеялся, что ты расскажешь мне об этом письме…"
+    new "Э-Э, вот бы ты рассказала мне об этом письме…"
 
     old "…{#ch25_t_014}"
     new "…"
@@ -373,7 +373,7 @@ translate russian strings:
     new "…"
 
     old "Um, even just one word would be fine—please just react somehow…{#ch25_s_059}"
-    new "Э-Э, хоть одним словом — просто отреагируй как-нибудь…"
+    new "Э-Э, хоть одним словом — мне бы хотелось, чтобы ты отреагировала…"
 
     old "…{#ch25_t_016}"
     new "…"

@@ -73,7 +73,7 @@ translate russian strings:
     new "Почему не получится!?"
 
     old "The bomber's attack got the Zero Fighter too… It looks like it was destroyed this morning.{#ch23_l_012}"
-    new "От атаки бомбиста пострадал и Zero Fighter… Кажется, его разрушили утром."
+    new "От атаки бомбиста Zero Fighter тоже стал добычей… Кажется, его разрушили утром."
 
     old "…Damn it!!{#ch23_s_014}"
     new "…Чёрт!!"

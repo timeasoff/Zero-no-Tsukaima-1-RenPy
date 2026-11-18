@@ -88,7 +88,7 @@ translate russian strings:
     new "…Это наивно. Реконкиста никогда бы такого не сделала."
 
     old "So they intend to attack amid Tristain's chaos.{#ch27_s_008}"
-    new "Значит, они хотят напасть в хаосе Тристании."
+    new "Значит, они хотят воспользоваться хаосом в Тристании."
 
     old "Hmm, that's probably it, I suppose.{#ch27_k_005}"
     new "Хм, наверное, так и есть."
@@ -265,7 +265,7 @@ translate russian strings:
     new "Акина — не Харуна. Именно поэтому Табита сильно обожглась, прикрыв меня…"
 
     old "Then, if something happens to you, I suppose I'll just let you die and watch.{#ch27_l_024}"
-    new "Тогда, если с тобой что-то случится, я просто брошу тебя и не помогу."
+    new "Тогда, если с тобой что-то случится, я просто брошу тебя умирать."
 
     old "I believe in striking first. I won't give them a chance to do anything cowardly.{#ch27_k_021}"
     new "Я верю в упреждающий удар. Я не дам врагу шанса на подлость."
@@ -445,7 +445,7 @@ translate russian strings:
     new "Я говорю — проблема в ТОМ, ГДЕ её применят!"
 
     old "What's the problem?{#ch27_l_042}"
-    new "Что за проблема?"
+    new "Да в чём именно проблема?"
 
     old "Are you serious? Using it in the capital is problematic any way you look at it!{#ch27_s_058}"
     new "Ты серьёзно? Применять её в столице — проблема при любом раскладе!"

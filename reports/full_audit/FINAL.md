@@ -54,3 +54,7 @@ JA TL: `game/tl/japanese/ch26_4_choises.rpy`, `ch27_2_choises.rpy`, `sp90_dialog
 RU TL: `ch22_5_dialogs.rpy`, `ch23_1_dialogs.rpy`, `ch25_2_dialogs.rpy`, `ch26_4_choises.rpy`, `ch26_4_dialogs.rpy`, `ch27_2_choises.rpy`, `ch27_2_dialogs.rpy`, `ch28_2_dialogs.rpy`, 16 файлов гл.22 (header).
 Инструменты: `tools/gen_b_prompts.py`, `tools/fix_full_audit.py`.
 Отчёты: `reports/full_audit/`, `reports/sma/`, `reports/log.md`.
+
+## Второй проход (дополнение)
+
+- A/B/C расширены на все 24 части; 15 JA-подтверждённых исправлений (включая SUBJECT_MISMATCH ch23_3 c101 и choice-лейблы ch27_1); Analyzer Фаза 2 `reports/sma/analysis/20261118-220000-phase2-full.md`. Compile в зоне 0 ошибок.
