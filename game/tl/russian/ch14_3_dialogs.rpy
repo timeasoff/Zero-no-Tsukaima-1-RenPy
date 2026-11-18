@@ -100,7 +100,7 @@
     new "Слава богу."
 
     old "Whew. I've restored her somewhat with magic, so she can move now.{#ch14_m_004}"
-    new "Фух. Я отчасти восстановил её магией, теперь она может двигаться."
+    new "Фух. Я отчасти восстановила её магией, теперь она может двигаться."
 
     old "After that, we need to take her to the inn and keep her still…{#ch14_m_005}"
     new "После этого нужно отнести её в гостиницу и обеспечить покой…"

@@ -163,7 +163,7 @@
     new "Запутанно как-то."
 
     old "(Officially, Haruna became a palace maid. While acting as Akina's garden keeper, she resumed her maid training…){#ch12_s_088}"
-    new "Официально Харуна стала горничной дворца. Исполняя обязанности садовницы при Акине, она возобновила обучение горничной…"
+    new "Официально Харуна стала горничной дворца. Исполняя в образе Акины обязанности садовницы, она возобновила обучение горничной…"
 
     old "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
     new "Говорят, она в основном занята тем, что бьёт дворцовые тарелки и вазы…"

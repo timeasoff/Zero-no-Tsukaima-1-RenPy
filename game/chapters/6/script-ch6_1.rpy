@@ -79,7 +79,7 @@ label ch6:
     l "So what exactly is the reason they're patrolling?{#ch6_l_008}"
     # JA[7304]: それで、兵士が見回ってる事情って いったいなに？
     voice "ch6_k_002"
-    k "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    k "They said some important person has gone missing, though I don't know who.{#ch6_k_002}"
     # JA[3826]: ええ。 誰だかは分からないけど、 重要人物が行方不明になったとか言ってたわ。
     voice "ch6_l_009"
     l "An important person has gone missing…? Who could it be?{#ch6_l_009}"

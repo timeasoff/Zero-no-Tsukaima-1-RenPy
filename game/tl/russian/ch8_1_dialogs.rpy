@@ -4,7 +4,7 @@ translate russian strings:
     new "Мы снова проспали, да? / Интересно, как там принцесса…"
 
     old "You were quite troubled yesterday… / …Maybe I'll go take a look.{#ch8_s_002}"
-    new "Вчера ты был так расстроен… / …Может, стоит зайти проверить."
+    new "Вчера она так переживала… / …Может, стоит зайти проверить."
 
     old "Princess, excuse me!{#ch8_s_003}"
     new "Принцесса, прошу прощения!"

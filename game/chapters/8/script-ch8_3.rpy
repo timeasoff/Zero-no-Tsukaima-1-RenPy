@@ -97,6 +97,7 @@ label ch8_3:
     # JA[911]: アンリエッタ：ルイズ、ありがとうございます。
     # → next scene 425
 
+label ch8_3_425:
     # ==== SCENE 425 ====
     # [SPRITE   lay8     image=+775, level=160, dir=1B]
     # [SPRITE   lay5     image=+390, level=160, dir=1A]

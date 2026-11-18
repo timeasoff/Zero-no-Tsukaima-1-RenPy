@@ -58,8 +58,8 @@ translate russian strings:
     old "By the way, if someone saw me / talking with you like this, / what would happen? {#ch9_s_015}"
     new "Кстати, если кто-то увидит, / как я вот так с вами разговариваю, / что будет?"
 
-    old "I suppose so. / The Musketeers would surely be furious. {#ch9_h_007}"
-    new "Пожалуй, да. / Мушкетёры бы наверняка разгневались."
+    old "I suppose so. / I think the Musketeers would be very angry. {#ch9_h_007}"
+    new "Пожалуй, да. / Думаю, мушкетёры бы очень разгневались."
 
     old "I'm an evildoer?! {#ch9_s_016}"
     new "Я — злодей?!"
@@ -278,7 +278,7 @@ translate russian strings:
     new "А?"
 
     old "Eh… ee-?! P-Princess! A k-k-k-k-k-kiss! Such a thing, no! {#ch9_l_004}"
-    new "Э… э-э-э?! / П-п-принцесса целует вас?!"
+    new "Э… э-э-э?! / П-принцесса! К-к-к-к-к-поцелуй?! Не может быть, нет!"
 
     old "And… / on the lips… {#ch9_l_005}"
     new "И ещё… / в губы…"
@@ -311,13 +311,13 @@ translate russian strings:
     new "Ах, Луиза."
 
     old "Hey, Princess. / I'd appreciate it if you / didn't tease my familiar. {#ch9_d_001}"
-    new "Эй, принцесса. / Был бы признателен, / если бы ты не дразнила моего фамильяра."
+    new "Эй, принцесса. / Был бы признателен, / если бы ты не дразнила моего напарника."
 
     old "Oh. / I wasn't teasing. {#ch9_h_032}"
     new "О. / Я вовсе не дразнила."
 
     old "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
-    new "Ну и ну. / Мой фамильяр тоже попал в переплёт."
+    new "Ну и ну. / Мой напарник тоже попал в переплёт."
 
     old "This idiot! / This idiot! / This big idiot!! {#ch9_l_009}"
     new "Идиот! / Идиот! / Большущий идиот!!"

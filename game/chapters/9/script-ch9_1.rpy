@@ -168,7 +168,7 @@ label ch9:
     $ show_sprites(("s 3 sad", "h 2 happy"))
     # アンリエッタ：そうですねえ、 / 銃士隊あたりに知られたら大変怒ると思います。  [voice 267]
     voice "ch9_h_007"
-    h "I suppose so. / The Musketeers would surely be furious. {#ch9_h_007}"
+    h "I suppose so. / I think the Musketeers would be very angry. {#ch9_h_007}"
     # JA[267]: アンリエッタ：そうですねえ、 / 銃士隊あたりに知られたら大変怒ると思います。
     # [SPRITE lay5 image=+394 → s 1 angry]
     $ show_sprites(("s 1 angry", "h 2 happy"))

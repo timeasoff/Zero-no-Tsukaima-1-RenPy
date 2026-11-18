@@ -94,7 +94,7 @@
     new "…"
 
     old "She can't cook or clean at all, and she's hopeless at everyday magic.{#ch17_s_052}"
-    new "Готовить и убирать она совсем не умеет, да и в обычной магии ни на что не годится."
+    new "Готовить и стирать она совсем не умеет, да и в обычной магии ни на что не годится."
 
     old "And yet she's only a prodigy when it comes to eating…{#ch17_s_053}"
     new "И при этом только в еде она настоящий мастер…"

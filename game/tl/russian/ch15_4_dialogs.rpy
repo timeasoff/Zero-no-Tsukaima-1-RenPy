@@ -73,7 +73,7 @@
     new "Не твоё дело."
 
     old "Thanks to some middle-aged woman showing us nothing but boring flames, I couldn't even sleep properly.{#ch15_k_047}"
-    new "Благодаря этим старух, которые показывали только скучные пожары, я даже поспать как следует не смогла."
+    new "Благодаря каким-то дамам не первой молодости, которые показывали только скучные пожары, я даже поспать как следует не смогла."
 
     old "Oh, and who might this 'middle-aged woman' be?{#ch15_w_005}"
     new "Ой, а кто же эта «стареющая женщина»?"
@@ -145,7 +145,7 @@
     new "Чего ты колеблешься? Или хочешь, чтобы я бросилась с башни, как в том спектакле?"
 
     old "Tch… No. I can't let her die.{#ch15_s_115}"
-    new "Тьфу… Нет. Не могу я её убить."
+    new "Тьфу… Нет. Я не дам ей умереть."
 
     old "(There's no way I could cut down a girl!){#ch15_s_116}"
     new "Я не смогу зарубить девушку!"

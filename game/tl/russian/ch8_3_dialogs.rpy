@@ -2,13 +2,13 @@
 translate russian strings:
 
     old "Alright, this is youth! {#ch8_s_082}"
-    new "Ну вот, так это и есть — юность!"
+    new "Ну вот, так это и есть — юность! / За мной! / За мной!"
 
     old "That's Saito, that's Saito…! {#ch8_si_010}"
     new "Это Сайто, это Сайто…!"
 
     old "It's fine. I'll fix it. {#ch8_l_051}"
-    new "Ничего страшного. Я это исправлю."
+    new "Ничего страшного. Я это исправлю. / Сайто, подойди на минуту. / Сайто, подойди на минуту."
 
     old "Eh, ah, oh, o-oh… It's just a joke… {#ch8_s_083}"
     new "Э, а, о, о-о… Это же просто шутка…"
@@ -80,7 +80,7 @@ translate russian strings:
     new "Это убийцы Реконкисты, верно?"
 
     old "Damn it! So this is where it comes down to? {#ch8_s_088}"
-    new "Чёрт! Так вот где всё решается?"
+    new "Чёрт! Не думал, что здесь придётся драться!"
 
     old "Siesta! Get back! It's dangerous! {#ch8_l_056}"
     new "Сьеста! Отойди! Опасно!"
@@ -131,7 +131,7 @@ translate russian strings:
     new "Я с Сайто, Принцесса и Кюрке идём к дворцу."
 
     old "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
-    new "Поняла. Стараюсь не мешать. Удачи."
+    new "Поняла. Постараюсь не быть помехой — сделаю всё, что смогу."
 
     old "Then, the plan begins. {#ch8_l_061}"
     new "Тогда план начинается."
@@ -146,7 +146,7 @@ translate russian strings:
     new "Вау. Только вид Принцессы меняет настроение в городе."
 
     old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
-    new "Быть королём — ерунда. Главное — чтобы рядом был кто-то, в кого можно верить."
+    new "Вот что значит быть королём: заставлять людей думать, что при ней всё будет хорошо, — тоже часть работы."
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
     new "Есть! С утра у восточной батареи идут мелкие сражения."
@@ -251,7 +251,7 @@ translate russian strings:
     new "Хорошо. Если не остановитесь — победим вас мы."
 
     old "My bomb, and Weatherby-sama's magic — try to beat that if you can. {#ch8_ak_002}"
-    new "О, сможете? А если я применить своюBomb против вашей магии? Попробуйте, если сможете выиграть."
+    new "Хм, думаете, получится? Моя бомба и магия Везерли-самы — попробуйте победить, если сможете."
 
     old "That's enough. {#ch8_h_073}"
     new "Достаточно."
@@ -305,7 +305,7 @@ translate russian strings:
     new "Откуда вы могли знать, как её противостоять?!"
 
     old "Why… how did you know?! Did you raid your own village…? {#ch8_w_016}"
-    new "Почему… как ты узнал?! Неужели ты нагрянул на свою деревню…?"
+    new "Почему… как ты узнал?! Неужели ты напал на деревню… на клан и выпытал это силой!?"
 
     old "Miss Weatherby, your loss of nobility was not because of your origins. {#ch8_h_079}"
     new "Мисс Везерли, вас лишили дворянства не из-за вашего происхождения."
@@ -389,7 +389,7 @@ translate russian strings:
     new "Да. Оставь это мне."
 
     old "Come forth, here I am… Here I am. {#ch8_l_068}"
-    new "Явься, вот я… Вот я."
+    new "Явись, то, чего здесь нет… пусть будет здесь."
 
     old "Illusion!! {#ch8_l_069}"
     new "Иллюзия!!"

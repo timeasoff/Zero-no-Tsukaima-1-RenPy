@@ -340,7 +340,7 @@
     new "Т-Ты! когда я молчу, ты говоришь что хочешь…!"
 
     old "I'm not exactly easy about it either!{#ch18_l_107}"
-    new "Мне самой нелегко, знаешь ли!"
+    new "Я и сама не могу сказать, что совесть моя спокойна, знаешь ли!"
 
     old "Oh dear, you two are still on such good terms.{#ch18_k_025}"
     new "Ой, вы двое всё так же ладите."

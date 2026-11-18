@@ -960,5 +960,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=313 named=148 open=165 | placeholders=1536 in 70 file(s)
-- labels=901 rpy=144 strings(strict=12824) tl_old=japanese:13319,russian:13346
+- labels=902 rpy=144 strings(strict=12824) tl_old=japanese:13319,russian:13346
 

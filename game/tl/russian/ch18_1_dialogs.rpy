@@ -346,7 +346,7 @@
     new "Я знаю, зачем вы вернулись в академию. Чтобы завести тот Zero Fighter… верно?"
 
     old "I won't let you. Reconquista's victory is assured, but I can't leave loose ends.{#ch18_ak_019}"
-    new "Я не позволю. Победа Реконкисты несомненна, но нельзя оставлять неопределённость."
+    new "Я не позволю. Победа Реконкисты несомненна, но нельзя оставлять факторы риска."
 
     old "I'll keep you from leaving this place. If you don't listen…{#ch18_ak_020}"
     new "Я не дам вам уйти отсюда. Если не послушаетесь…"
@@ -376,7 +376,7 @@
     new "Харуна не шпион. Это Акина — ею управляет магия!"
 
     old "What, what, what! We have no time to waste here, Louise and I—{#ch18_l_092}"
-    new "Что, что, что! У нас нет времени здесь тратить, у меня с Луизой—"
+    new "Что, что, что! У нас нет времени здесь тратить, у меня с Сайто—"
 
     old "—no time to waste in a place like this!!{#ch18_l_093}"
     new "—нет времени торчать в таком месте!!"

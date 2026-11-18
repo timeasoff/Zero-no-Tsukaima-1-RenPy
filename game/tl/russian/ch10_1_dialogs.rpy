@@ -68,7 +68,7 @@ translate russian strings:
     new "Знаю. / Но если бы можно было зарядить, / хотя бы камерой бы пользовалась."
 
     old "Photos, huh. / Haven't taken any lately. / Well, there are no cameras in this world. {#ch10_s_008}"
-    new "Фотографии, а. / Давно не снимала. / Ну, в этом мире камер нет."
+    new "Фотографии, а. / Давно не снимал. / Ну, в этом мире камер нет."
 
     old "Ah, what about that notebook? {#ch10_s_009}"
     new "А, а та записная книжка?"
@@ -77,7 +77,7 @@ translate russian strings:
     new "У-угу. / Это моя любимая записная книжка."
 
     old "Hmm, I see. {#ch10_s_010}"
-    new "Фу-у, понятно."
+    new "Хм, понятно."
 
     old "Ah, the textbook… {#ch10_s_011}"
     new "А, учебник…"
@@ -89,7 +89,7 @@ translate russian strings:
     new "Ты и в самом деле отличница."
 
     old "I'm glad you found the bag. / Really. {#ch10_h_018}"
-    new "Рада, что ты нашёл сумку. / Правда."
+    new "Рада, что сумка нашлась. / Правда."
 
     old "…{#ch10_h_019}"
     new "…"
@@ -113,7 +113,7 @@ translate russian strings:
     new "И никаких особых талантов у меня нет."
 
     old "So far things worked out somehow, / but I suddenly got anxious thinking / that won't be the case from now on… {#ch10_h_024}"
-    new "До сих пор всё как-то справлялась, / но вдруг подумала, / что дальше так не пойдёт…"
+    new "До сих пор всё как-то справлялась, / но, подумав, что дальше так не пойдёт, / вдруг стала тревожиться…"
 
     old "(Haruna is smart, so / maybe she's overthinking it…){#ch10_s_015}"
     new "_(Харуна умная, так что / может, она слишком много думает…)_"
@@ -146,7 +146,7 @@ translate russian strings:
     new "У-угу."
 
     old "Mmm-hmm. / You want to learn a job to support yourself… {#ch10_o_001}"
-    new "Фу-у. / Хочешь научиться ремеслу, чтобы прокормить себя…"
+    new "Так-так. / Хочешь научиться ремеслу, чтобы прокормить себя…"
 
     old "Y-yes! {#ch10_h_027}"
     new "Д-да!"
@@ -218,7 +218,7 @@ translate russian strings:
     new "_(Этот старик… всё-таки мужчина… / Любовь к форме горничной. / Вот это настоящий мастер!)_"
 
     old "Why do you say that? / I sense the same aura from you / as from Old Osmond. {#ch10_l_007}"
-    new "С чего ты взял? / От тебя веет тем же, / что и от Старого Османа."
+    new "Почему же? / От тебя я чувствую то же, / что и от Старого Османа."
 
     old "Are all men like this? {#ch10_h_031}"
     new "Все мужчины такие?"
@@ -431,7 +431,7 @@ translate russian strings:
     new "Ах, как я и думала, это неправильно… / Что же делать…"
 
     old "(I guess it's my turn.){#ch10_s_045}"
-    new "_(Кажется, моя очередь.)_"
+    new "_(Ничего не поделаешь, похоже, моя очередь.)_"
 
     old "Young lady over there. / For laundry, ask me. {#ch10_s_046}"
     new "Барышня. / Насчёт стирки спроси у меня."

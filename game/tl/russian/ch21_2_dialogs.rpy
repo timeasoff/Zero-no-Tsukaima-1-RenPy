@@ -88,7 +88,7 @@
     new "Сиэста тоже имеет право любить. Но хватать моего дорогого — храбрости ей не занимать!"
 
     old "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you, even if it kills me!{#ch21_l_040}"
-    new "Кто сказал, что она твоя возлюбленная? Мой фамильяр вправе делать что хочет, но отдать её тебе — ни за что, даже если придётся умереть!"
+    new "Кто сказал, что он — твой возлюбленный? Мой фамильяр вправе делать что хочет, но отдать его тебе — ни за что, даже если придётся умереть!"
 
     old "Oh? Could it be, Louise, that you're in love with your familiar?{#ch21_k_011}"
     new "О? Неужто, Луиза, ты влюблена в своего фамильяра?"

@@ -43,7 +43,7 @@
     new "Ой! Госпожа!"
 
     old "While I looked away for just a moment, you dress the maid up in strange clothes and grin like an idiot. You've got some nerve, Saito.{#ch20_l_002}"
-    new "Ну и наглость у тебя, Сайто…"
+    new "Пока я на мгновение отвернулась, ты нарядил горничную в странное платье и скалился — ну и наглость у тебя, Сайто…"
 
     old "S-Saito-san! I have some work to do, so excuse me!{#ch20_si_005}"
     new "С-Сайто-сан! Мне пора работать, извините!"
@@ -97,7 +97,7 @@
     new "Э-Э, может, мне даже немного понравится."
 
     old "W-What was that! Treat it as punishment! Be afraid!{#ch20_l_012}"
-    new "Ч-Что ты сказал! Считай это наказанием! Бойся!"
+    new "Ч-Что ты сказал! Скажи, что это наказание! Бойся!"
 
     old "Y-Yes, it's punishment. I'm trembling, trembling, trembling.{#ch20_s_017}"
     new "Д-Да, наказание. Я дрожу, дрожу, дрожу."
@@ -391,7 +391,7 @@
     new "Глоток."
 
     old "First, the chains. And restraints. What else do I need…{#ch20_l_048}"
-    new "Сначала цепи. И наручники. Что ещё понадобится…"
+    new "Сначала цепи. И крепления. Что ещё понадобится…"
 
     old "And let me tell you, I only accept 'yes', 'understood', or 'roger' as a reply.{#ch20_l_049}"
     new "И предупреждаю: в ответ я принимаю только «да», «понял» или «есть»."

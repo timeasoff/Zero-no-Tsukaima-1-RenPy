@@ -16167,7 +16167,7 @@ translate russian strings:
     old "So what exactly is the reason they're patrolling?{#ch6_l_008}"
     new "И почему же они патрулируют город?"
 
-    old "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    old "They said some important person has gone missing, though I don't know who.{#ch6_k_002}"
     new "Говорят, пропал какой-то важный человек, хотя кто именно — неизвестно."
 
     old "An important person has gone missing…? Who could it be?{#ch6_l_009}"
@@ -17482,7 +17482,7 @@ translate russian strings:
     new "Удобное словечко — «просто так». Разве что не кажется, будто всё уладилось?"
 
     old "As if that could resolve anything!{#ch7_l_014}"
-    new "Да ничего им не объяснишь!"
+    new "Да ничего это не решает!"
 
     old "Louise had Louise's role, and I had mine. So please don't take it out on Her Majesty.{#ch7_k_010}"
     new "У Луизы была своя роль, у меня — своя, вот и всё. Так что не вини за это Её Величество."
@@ -17698,7 +17698,7 @@ translate russian strings:
     new "Пусть и ночь — но чтобы совсем не чувствовалось вокруг людей…"
 
     old "My, my, look who it is… What brings you here at this late hour?{#ch7_w_001}"
-    new "Какие люди! А я-то думала, кто это… Не поздновато ли гостям?"
+    new "Какие люди! А я-то думала, кто это… Что вы здесь делаете в такой поздний час?"
 
     old "Weatherby!{#ch7_l_034}"
     new "Уэзерби!"

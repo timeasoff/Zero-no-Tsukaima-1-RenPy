@@ -24,6 +24,12 @@
 > A/B сведены в итоговые формулировки. Evidence: `reports/sma/ch6-21-c-audit-summary.md`.
 > Галочки перевода не менялись.
 
+> **2026-11-18, ветка `review/ch6-21`:** завершён полный смысловой цикл A+B+C+Analyzer
+> (omission pre-check → слепая Фаза 1 → Фаза 2 с A/B/C-evidence, без majority vote):
+> 580 кандидатов, 71 CONFIRMED_ERROR, 55 текстовых правок + структурная правка ch8.
+> Оставшиеся CONFIRMED (новые реплики/голоса, неоднозначные jump) — USER DECISION.
+> Evidence: `reports/sma/ch6-21-full-cycle-summary.md`. Галочки перевода не менялись.
+
 ## Соответствие: проектная папка ↔ источник PS2
 
 | Проектная папка | Источник PS2 | Название |

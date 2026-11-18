@@ -58,7 +58,7 @@ translate japanese strings:
     old "By the way, if someone saw me / talking with you like this, / what would happen? {#ch9_s_015}"
     new "ちなみにですね、こうして俺がお姫さまと / 会ってるところを見られたら、 / どうなるんでしょう。"
 
-    old "I suppose so. / The Musketeers would surely be furious. {#ch9_h_007}"
+    old "I suppose so. / I think the Musketeers would be very angry. {#ch9_h_007}"
     new "そうですねえ、 / 銃士隊あたりに知られたら大変怒ると思います。"
 
     old "I'm an evildoer?! {#ch9_s_016}"

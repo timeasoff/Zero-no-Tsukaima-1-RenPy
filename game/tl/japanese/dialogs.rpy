@@ -16181,7 +16181,7 @@ translate japanese strings:
     new "それで、兵士が見回ってる事情って
 いったいなに？"
 
-    old "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    old "They said some important person has gone missing, though I don't know who.{#ch6_k_002}"
     new "ええ。
 誰だかは分からないけど、
 重要人物が行方不明になったとか言ってたわ。"

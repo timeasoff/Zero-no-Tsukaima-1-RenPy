@@ -148,7 +148,7 @@
     new "Но с ними всё будет хорошо."
 
     old "Even if you fight someone under hypnosis, putting these on should temporarily restore their senses.{#ch19_c_104}"
-    new "Даже если придётся сражаться с тем, кто под гипнозом, эти беруши временно вернут ему рассудок."
+    new "Даже если придётся сражаться с тем, кто под гипнозом, эти беруши должны временно вернуть ему рассудок."
 
     old "Understood.{#ch19_s_259}"
     new "Понятно."

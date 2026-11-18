@@ -5202,3 +5202,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Пересечения с A/B сведены в единую формулировку, чтобы не откатить предыдущие исправления: ch16:770, ch14:384, ch10:591, ch15:30, ch16:683, ch19:810. RECONCILE (ch19:191) разрешён правкой EN по JA; ch18:78, ch19:443 сохранены как PRESERVED — ??? (эвиденциальные оттенки).
 - Отчёт: `reports/sma/ch6-21-c-audit-summary.md`, разделы C в отчётах частей.
 - Проверки: `check_renpy_syntax.py` OK, `check_project.py` RESULT: OK errors=0, UTF-8 346 файлов без U+FFFD, JA `new` не изменялся.
+
+## 2026-11-18 — Полный смысловой цикл A+B+C+Analyzer, главы 6–21
+
+- Ветка `review/ch6-21`, изолированный worktree. Все слои через штатный `agent_workflow.py` (`semantic-audit-a`, `pragmatic-c`, `analyzer-phase1`, `analyzer-phase2`); B восстановлен из git-истории как проектный skill (удалён 8d7fee6) и подключён в Фазу 2 вручную. A/B/C взаимно слепы.
+- `omission_precheck.py` выполнен по всем 16 главам ДО аудиторов (кандидаты ch8=5, ch9=2, ch12=1, ch17=1, ch18=2).
+- **Фаза 1 (BLIND)** — 16 отдельных запусков до передачи evidence; **Фаза 2** — после Фазы 1, собраны все A/B/C+precheck+слепое заключение. Решения по JA/events_full, без majority vote; совпадение RU с EN не доказательство.
+- Итог Фазы 2: 580 кандидатов, 71 `CONFIRMED_ERROR`. Применено 55 текстовых правок (RU `new` и EN-база с синхронизацией `old` в JA/RU TL) + одна структурная правка ch8 (`label ch8_3_425`, ветки 422/423 → 425 по events_full).
+- USER DECISION / REPORT_ONLY (не применялось): omission-реплики ch8 (3), ch9 (voice 4601/4602), ch17 (сцены 681–683) требуют добавления новых строк/голосов; `jump ch14` в ch13_3/ch13_4 имеют неоднозначные цели (риск зацикливания); ch11/ch14/ch15 — устаревшая/неоднозначная evidence. DISPUTED/OPTIONAL (включая defer’ы extra-сцен и двузначный 義姉) без правок.
+- RECHECK: self-review 55 пар before/after; `check_renpy_syntax.py` OK (5 NO_RPY), `check_project.py` RESULT: OK errors=0, labels=902, UTF-8 346 файлов без U+FFFD, JA `new` не изменялся.
+- evidence: `reports/sma/ch<N>/chapter/{a,b,c,precheck,analysis}/`; сводка `reports/sma/ch6-21-full-cycle-summary.md`; отчёты частей дополнены dispositions.
