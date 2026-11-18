@@ -5286,3 +5286,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 
 - Гейт `zero_tundele >= 211 / < 40` и `tndl_pick()` диспетчеризуется в файлах глав 0–21 (`script-ch1_10.rpy`, `script-ch2_6.rpy`, …). По правилу «не работай с главами 0–21» подключение слотов 1–5 и тундэре-веток к call-site **НЕ выполняется** этой веткой.
 - Статус: OPEN (требует согласования с владельцем глав 0–21). Новые `sp90`/`sp91` создаются как отдельные entry-point'ы с уникальными labels; `sp_d1` (слот 1 дэре) уже портирован и готов к вызову.
+
+## 2026-11-18 — Ветка port/ch22-to-end: отдельные extra-главы 90/91 — ПОРТ ЗАВЕРШЁН
+
+- `game/chapters/extra/sp90.rpy`: все 164 сцены (`chapter_90`, 966 голосов), 108 меню, 108 `jump`; JA/RU tl в `sp90_{dialogs,choises}.rpy`.
+- `game/chapters/extra/sp91.rpy`: 155 сцен (`chapter_91`) + `jump` на 9 сцен уже портированного `sp_d1` (1700, 1725–1732); 808 Voice-строк; JA/RU tl в `sp91_{dialogs,choises}.rpy`.
+- Итого ch90/91: 1922 голоса в источнике; в манифест +1851 (966+885), `.ogg` сконвертировано 1845 (в т.ч. 71 для sp_d1). `audio_converter.py check` → RESULT: OK.
+- **77 голосов ch91 без `.wav` в архиве** (id 5035, 10333, 5036, 10334, 10335, …): реплики сохранены, строки `voice` удалены; список `reports/extra/no_audio_ch91.md`. Статус NO AUDIO (CANDIDATE → PRESERVED — NO AUDIO).
+- Переводы: 22 батча по JA, субагенты A/B/C не запускались; mechanical checks зелёные. ENGINE-теги, попавшие в реплики при расшифровке (`[EVENT_CG …]`, `[TRANS trans(…)]`, `[SE …]`), удалены из текста и портируются как события `.rpy`.
+- Типографика extra: 0 ошибок в моих файлах. Оставшиеся 5 ELLIPSIS — в shared-бакетах `choises.rpy`/`thoughs.rpy`, относящихся к главам 0–21 (чужая зона) → CANDIDATE → PRESERVED — OUT OF SCOPE.
+- Отчёты: `reports/extra/ch90.md`, `reports/extra/ch91.md`, `reports/extra/no_audio_ch91.md`, `reports/ch90/1.md` (sp_d1). План обновлён.
+- Повторно: dispatch-гейт (`zero_tundele >= 211 / < 40`) находится в чужих главах 0–21 — OPEN, не трогается.

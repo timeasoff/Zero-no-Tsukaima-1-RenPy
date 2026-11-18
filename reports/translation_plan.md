@@ -5,6 +5,17 @@
 > `check` — скилл `task-orchestrator`). Эта сводка — статус перевода;
 > обновляется по мере закрытия подзадач, как и прежде.
 
+## ✅ Актуальный статус (ветка `port/ch22-to-end`, 2026-11-18)
+
+- [x] **Основная линия, главы 22–28** — полностью портирована: 2364 голоса, финал `jump attention`. Отчёты в `reports/ch22/`…`reports/ch28/`.
+- [x] **30 inline-сцен** `extra scenes:` гл.25 (25) и гл.26 (5) — портированы внутри своих частей; реестр `reports/inline_extra_registry.md`.
+- [x] **Отдельные extra-главы 90/91** — портированы в `game/chapters/extra/`:
+  - [x] `sp_d1.rpy` — слот 1 дэре (9 сцен, 71 голос, `.ogg`).
+  - [x] `sp90.rpy` — все 164 сцены ч.90, 966 голосов, JA/RU tl, отчёт `reports/extra/ch90.md`.
+  - [x] `sp91.rpy` — 155 сцен ч.91 + `jump` на 9 сцен `sp_d1`; 808 Voice-строк + 71 = 879; 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`), отчёт `reports/extra/ch91.md`.
+  - [x] Проверки: `check_project.py` OK, syntax OK, typography OK (в extra), placeholders OK, `audio_converter.py check` OK.
+  - [ ] Dispatch call-site в главах 0–21 (`zero_tundele >= 211 / < 40`) — **OPEN**, чужая зона.
+
 ## Соответствие: проектная папка ↔ источник PS2
 
 | Проектная папка | Источник PS2 | Название |
