@@ -5098,3 +5098,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - проверки: `check_project.py` OK; `check_renpy_syntax.py --chapter 19` OK; `check_typography.py --chapter 19_3 --lang ru/en` OK; `omission_precheck --chapter 19_3` 0 кандидатов.
 - отчёт: `reports/ch19/3.md`; создан стаб `game/chapters/20/script-ch20.rpy` (выход `jump ch20`).
 - Итог главы 19: ядро 739–768, 3 части, 363 голоса, выход `jump ch20`.
+
+
+## 2026-11-18 — Глава 20 (chapter_21, сцены 769–770) завершена
+
+- 162 реплики / 143 голоса; `references/voice_id_map.csv` +143 (10349); `audio_converter.py` → 143 `.ogg`.
+- PROVISIONAL: `ブレザー` → «блейзер»; `スクール水着` → «школьный купальник»; `お仕置き` → «наказание»; `再教育` → «перевоспитание»; заглушки `id(K)`.
+- проверки: `check_project.py` OK; `check_renpy_syntax.py --chapter 20` OK; `check_typography.py --chapter 20 --lang ru/en` OK; `omission_precheck --chapter 20` 0 кандидатов.
+- отчёт: `reports/ch20/1.md`; выход `jump attention` (конец портированного контента).
