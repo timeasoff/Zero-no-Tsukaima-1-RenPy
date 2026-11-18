@@ -5586,7 +5586,7 @@ label sp90_scene_1662:
     l "Haa~~, no, no… Okay, once more!{#sp90_s1662_010}"
 
     # （ち、ちくしょうぉぉ～～っ！）[SE       se1      stop=1][BGM      bgm 
-    s "(D-Damn iiit~~!!)→ next scene 1664{#sp90_s1662_011}"
+    s "(D-Damn iiit~~!!){#sp90_s1662_011}"
 
 label sp90_scene_1663:
 

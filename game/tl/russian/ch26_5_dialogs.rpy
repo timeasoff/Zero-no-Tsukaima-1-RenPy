@@ -1,13 +1,13 @@
 translate russian strings:
 
     old "Ah, there's Tabitha. She seems well enough to go outside. Good.{#ch26_s_198}"
-    new "Ах, вон Табаса. Похоже, она уже поправилась настолько, что может выйти. Хорошо."
+    new "Ах, вон Табита. Похоже, она уже поправилась настолько, что может выйти. Хорошо."
 
     old "But what's wrong? She keeps looking down… Now I'm curious…{#ch26_s_199}"
     new "Но что случилось? Она всё время смотрит вниз… Теперь мне стало интересно…"
 
     old "Hey there, Tabitha~.{#ch26_s_200}"
-    new "Эй, Табаса~."
+    new "Эй, Табита~."
 
     old "…{#ch26_t_058}"
     new "…"
@@ -103,7 +103,7 @@ translate russian strings:
     new "…"
 
     old "Ah—you don't believe me, do you? I'm tougher than Tabitha thinks!{#ch26_s_217}"
-    new "Ах — ты мне не веришь, да? Я выносливее, чем думает Табаса!"
+    new "Ах — ты мне не веришь, да? Я выносливее, чем думает Табита!"
 
     old "(I do get punished by Louise all the time, after all…){#ch26_s_218}"
     new "Меня же всё время наказывает Луиза…"

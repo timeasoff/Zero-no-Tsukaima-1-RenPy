@@ -10,7 +10,7 @@ translate russian strings:
     new "Я прошу аудиенции у принцессы — нет, у Её Величества Королевы. Прошу доложить обо мне."
 
     old "To Her Majesty!? U-Understood. I'll check at once—please wait here.{#ch26_soldier_009}"
-    new "Принцессе!? П-Понятно. Я сейчас проверю — подождите здесь."
+    new "Её Величеству!? П-Понятно. Я сейчас проверю — подождите здесь."
 
     old "Thank you.{#ch26_l_030}"
     new "Спасибо."
@@ -70,7 +70,7 @@ translate russian strings:
     new "Сегодняшние взрывы и бои в разных местах…"
 
     old "…are believed to be the work of the bomber and his accomplices.{#ch26_commander_006}"
-    new "…предположительно,деяния бомбиста и его сообщников."
+    new "…предположительно, деяния бомбиста и его сообщников."
 
     old "It's late to notice this now, but the bomber doesn't seem to have been detonating bombs indiscriminately.{#ch26_commander_007}"
     new "Поздно замечать это, но бомбист, похоже, не взрывал всё подряд."
@@ -253,7 +253,7 @@ translate russian strings:
     new "Мм."
 
     old "More importantly, I wonder how Kirche is doing…{#ch26_s_074}"
-    new "Главное — интересно, как дела у Кирке…"
+    new "Главное — интересно, как дела у Кирхе…"
 
     old "Judging by the lack of news, I'm afraid there's no good news, either.{#ch26_l_052}"
     new "Судя по тому, что нет вестей, боюсь, хороших новостей тоже нет."
@@ -271,7 +271,7 @@ translate russian strings:
     new "Дорррогой!!"
 
     old "Kirche!{#ch26_s_077}"
-    new "Кирке!"
+    new "Кирхе!"
 
     old "I missed you, darling. Being apart from you, this body of mine was burning with longing!{#ch26_k_012}"
     new "Я скучала, дорогой. Пока мы были в разлуке, это тело горело от тоски!"
@@ -325,7 +325,7 @@ translate russian strings:
     new "Провели — это как? Я хочу нормального объяснения!"
 
     old "The thing is, Tabitha and I were investigating the bomber, and we found out that a suspicious person was coming and going at the theater.{#ch26_k_019}"
-    new "Дело в том, что мы с Табасой расследовали бомбиста и выяснили, что в театр входил и выходил подозрительный человек."
+    new "Дело в том, что мы с Табитой расследовали бомбиста и выяснили, что в театр входил и выходил подозрительный человек."
 
     old "Wait a moment. Why did you two keep such an important thing to yourselves until now?{#ch26_l_058}"
     new "Погоди. Почему вы двое до сих пор скрывали такую важную вещь?"
@@ -352,10 +352,10 @@ translate russian strings:
     new "Хм…"
 
     old "Right. Kirche is right.{#ch26_s_082}"
-    new "Верно. Кирке права."
+    new "Верно. Кирхе права."
 
     old "It's precisely because we didn't know that there might be information to gain, isn't it? That's what Kirche decided, right?{#ch26_s_083}"
-    new "Именно потому, что мы не знали, могла появиться новая информация, да? Так решила Кирке, верно?"
+    new "Именно потому, что мы не знали, могла появиться новая информация, да? Так решила Кирхе, верно?"
 
     old "And if Weatherly were involved, she wouldn't have let us—who knew—go so easily, either.{#ch26_s_084}"
     new "И если бы Уэзерби была замешана, она бы не отпустила нас, знающих, просто так."

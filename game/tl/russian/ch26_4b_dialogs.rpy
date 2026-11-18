@@ -4,7 +4,7 @@ translate russian strings:
     new "……Мм."
 
     old "Good morning, Tabitha.{#ch26_4b_k_001}"
-    new "Доброе утро, Табаса."
+    new "Доброе утро, Табита."
 
     old "Good morning.{#ch26_4b_t_002}"
     new "Доброе утро."
@@ -49,7 +49,7 @@ translate russian strings:
     new "……"
 
     old "Even so, I really picked a bad moment. I'm sorry, Tabitha.{#ch26_4b_k_008}"
-    new "И всё же я выбрала очень неудобный момент. Прости, Табаса."
+    new "И всё же я выбрала очень неудобный момент. Прости, Табита."
 
     old "What do you mean?{#ch26_4b_t_010}"
     new "Что ты имеешь в виду?"
@@ -70,7 +70,7 @@ translate russian strings:
     new "А, кто-то пришёл. Входи-и~"
 
     old "Ah, Tabitha!? You woke up?{#ch26_4b_s_001}"
-    new "А, Табаса!? Ты проснулась?"
+    new "А, Табита!? Ты проснулась?"
 
     old "……{#ch26_4b_t_012}"
     new "……"
@@ -94,13 +94,13 @@ translate russian strings:
     new "Я думаю, до конца боёв лучше держаться подальше от столицы…… Но я всё ещё не могу найти Харуну."
 
     old "I can't leave the capital. Tabitha, won't you stay with us a little longer?{#ch26_4b_s_006}"
-    new "Я не могу уехать из столицы. Табаса, ты не останешься с нами ещё немного?"
+    new "Я не могу уехать из столицы. Табита, ты не останешься с нами ещё немного?"
 
     old "……Yeah.{#ch26_4b_t_015}"
     new "……Да."
 
     old "But, Tabitha. Even if we catch Haruna…… that…… are you going to send her to that Gallia kingdom or whatever?{#ch26_4b_s_007}"
-    new "Но, Табаса. Даже если мы поймаем Харуну…… это…… ты отправишь её в это королевство Галлия или как там его?"
+    new "Но, Табита. Даже если мы поймаем Харуну…… это…… ты отправишь её в это королевство Галлия или как там его?"
 
     old "……{#ch26_4b_t_016}"
     new "……"
@@ -124,7 +124,7 @@ translate russian strings:
     new "Неужели это……?"
 
     old "(Some kind of message from Tabitha!? And what's more, it's like…… between a man and a woman…!!){#ch26_4b_s_012}"
-    new "Некое послание от Табасы!? И вдобавок — вроде как…… между мужчиной и женщиной…!!"
+    new "Некое послание от Табиты!? И вдобавок — вроде как…… между мужчиной и женщиной…!!"
 
     old "Darling……{#ch26_4b_k_013}"
     new "Дорогой……"
@@ -181,7 +181,7 @@ translate russian strings:
     new "Если ты так беспокоишься, подержи её руку некоторое время."
 
     old "Because I'm sure that way Tabitha can sleep in peace.{#ch26_4b_k_020}"
-    new "Ведь наверняка Табаса сможет спокойно уснуть."
+    new "Ведь наверняка Табита сможет спокойно уснуть."
 
     old "Y-You're right……{#ch26_4b_s_021}"
     new "Т-точно……"
@@ -199,7 +199,7 @@ translate russian strings:
     new "Что у тебя за вид?"
 
     old "Longing for darling is tough, isn't it? Maybe I shouldn't give you up to Tabitha — maybe I'll just steal you away?{#ch26_4b_k_023}"
-    new "Тоска по дорогому — непросто. Может, лучше не уступать тебя Табасе, а просто забрать себе?"
+    new "Тоска по дорогому — непросто. Может, лучше не уступать тебя Табите, а просто забрать себе?"
 
     old "……?{#ch26_4b_s_024}"
     new "……?"

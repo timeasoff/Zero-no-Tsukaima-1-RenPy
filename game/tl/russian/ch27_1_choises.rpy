@@ -10,7 +10,7 @@ translate russian strings:
     new "Заказчик — Реконкиста?"
 
     old "Better to leave it to Tabitha{#ch27_1_c_976_1}"
-    new "Лучше поручить Табасе"
+    new "Лучше поручить Табите"
 
     old "Worried about after the fight{#ch27_1_c_976_2}"
     new "Беспокоит то, что будет после"

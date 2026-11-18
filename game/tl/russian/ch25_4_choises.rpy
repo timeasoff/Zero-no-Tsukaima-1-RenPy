@@ -28,11 +28,11 @@ translate russian strings:
     new "Я лучше обычное питьё"
 
     old "As expected of Kirche{#ch25_4_c_1528_1}"
-    new "Как и подобает Кирке"
+    new "Как и подобает Кирхе"
 
     old "Clothes Tabitha picked{#ch25_4_c_1528_2}"
-    new "Одежда, выбранная Табасой"
+    new "Одежда, выбранная Табитой"
 
     old "Kirche worries too much{#ch25_4_c_1528_3}"
-    new "Кирке слишком волнуется"
+    new "Кирхе слишком волнуется"
 

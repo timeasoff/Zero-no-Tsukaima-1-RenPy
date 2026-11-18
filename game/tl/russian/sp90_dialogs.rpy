@@ -226,7 +226,7 @@ translate russian strings:
     new "П-Почему такие акробатические условия!?"
 
     old "Ufufu, don't worry. I'll shoot down only the apples, beautifully.{#sp90_s1543_020}"
-    new "Уфуфу, не волнуйся. Я сбиву только яблоки — и как раз!"
+    new "Уфуфу, не волнуйся. Я собью только яблоки — и как раз!"
 
     old "……Soon, no one will be able to make fun of Zero Louise again!{#sp90_s1543_021}"
     new "……Скоро никто больше не сможет дразнить Луизу-Нулизу!"
@@ -256,7 +256,7 @@ translate russian strings:
     new "Л-Луиза, какая тирания!"
 
     old "………。……。…。{#sp90_s1545_014}"
-    new "………。……。…。"
+    new "……… … …"
 
     old "Damn, why does this have to happen to me……{#sp90_s1545_015}"
     new "Чёрт, почему со мной такое……"
@@ -820,7 +820,7 @@ translate russian strings:
     new "…Рифудзин? Ослышалась? Мне показалось, я услышала что-то странное."
 
     old "Just to be sure, I'll let you say it again. Try once more!{#sp90_s1567_004}"
-    new "Для верности дам тебе ещё раз повторить. Говори!"
+    new "Для верности послушаю ещё раз. Говори!"
 
     old "L-Louise-sama is… my unreasonable mistress!{#sp90_s1567_005}"
     new "Л-Луиза-сама… моя несправедливая госпожа!"
@@ -1786,7 +1786,7 @@ translate russian strings:
     new "Кя!"
 
     old "You can't be so dismissive! Mr. Colbert!{#sp90_s1618_015}"
-    new "Нельзя так легкомысленно ко мне относиться! Мистер Кольбер!"
+    new "Нельзя так легкомысленно ко мне относиться! Профессор Кольбер!"
 
     old "W-Why are you shouting all of a sudden!?{#sp90_s1618_016}"
     new "Ч-Что это ты вдруг закричал!?"
@@ -1909,7 +1909,7 @@ translate russian strings:
     new "К-Кяааа! Сайтооо!!"
 
     old "………。……。…。{#sp90_s1624_035}"
-    new "………。……。…。"
+    new "……… … …"
 
     old "…H-Hey, you still alive, partner?{#sp90_s1624_036}"
     new "…Э-Эй, ты ещё жив, приятель?"
@@ -1996,7 +1996,7 @@ translate russian strings:
     new "Хотя бы раз как следует прочувствуй милость своей госпожи!"
 
     old "………。……。…。{#sp90_s1632_005}"
-    new "………。……。…。"
+    new "……… … …"
 
     old "Ugh… damn it…{#sp90_s1632_006}"
     new "Ух… чёрт…"
@@ -2221,7 +2221,7 @@ translate russian strings:
     new "……Эх. Хочу в Японию."
 
     old "………。……。…。{#sp90_s1644_004}"
-    new "………。……。…。"
+    new "……… … …"
 
     old "Damn, I could go for some cup noodles.{#sp90_s1644_005}"
     new "Чёрт, хочется лапши в стаканчике."
@@ -2434,7 +2434,7 @@ translate russian strings:
     new "Этого просто не может быть!"
 
     old "Of all things to say, you stupid dog…! Wh-Wh-What are you saying!?{#sp90_s1655_004}"
-    new "Не нашёлся, что сказать, этот глупый пёс…! Ч-Ч-Что ты несёшь!?"
+    new "Не нашёл, что сказать, этот глупый пёс…! Ч-Ч-Что ты несёшь!?"
 
     old "G-Guh!{#sp90_s1655_015}"
     new "Г-Гх!"
@@ -2553,8 +2553,8 @@ translate russian strings:
     old "Haa~~, no, no… Okay, once more!{#sp90_s1662_010}"
     new "Хаа~~, не-не… Ладно, ещё раз!"
 
-    old "(D-Damn iiit~~!!)→ next scene 1664{#sp90_s1662_011}"
-    new "Ч-Чёрт побери~~!!→ next scene 1664"
+    old "(D-Damn iiit~~!!){#sp90_s1662_011}"
+    new "Ч-Чёрт побери~~!!"
 
     old "…U-Um, do you want to see, master?{#sp90_s1663_002}"
     new "…Э-Э-Эм, тебе хочется посмотреть, госпожа?"
@@ -2677,7 +2677,7 @@ translate russian strings:
     new "Н-ну и ну. Мой дурацкий пёс вечно зазнаётся…"
 
     old "Hm, hmmph. Jealousy doesn't become you, Master.{#sp90_s1670_010}"
-    new "Хм, хмм. Ревность не к лицу тебе, хозяйка."
+    new "Хм, хмм. Ревность не к лицу тебе, госпожа."
 
     old "…Oh, you've certainly got some nerve.{#sp90_s1670_011}"
     new "…Ну и дерзость у тебя, однако."
@@ -2713,10 +2713,10 @@ translate russian strings:
     new "Кяин!"
 
     old "W-woof! I understand~~! Master~~!{#sp90_s1673_016}"
-    new "Г-гав! Понял~~! Хозяйка~~!"
+    new "Г-гав! Понял~~! Госпожа~~!"
 
     old "W-woof! Master!{#sp90_s1674_002}"
-    new "Г-гав! Хозяйка!"
+    new "Г-гав! Госпожа!"
 
     old "You'd better remember this: you're my familiar, you stupid dog!{#sp90_s1674_003}"
     new "Запомни: ты мой фамильяр, дурацкий пёс!"
@@ -2728,7 +2728,7 @@ translate russian strings:
     new "Понял?! Дурацкий пёс!"
 
     old "Woof! I understand!! Master!!{#sp90_s1674_007}"
-    new "Гав! Понял!! Хозяйка!!"
+    new "Гав! Понял!! Госпожа!!"
 
     old "I-I didn't do anything!{#sp90_s1675_002}"
     new "Я… я ничего не делал!"
@@ -2746,19 +2746,19 @@ translate russian strings:
     new "Я же говорила! Отвечай!"
 
     old "W-woof! I understand! Master!{#sp90_s1675_018}"
-    new "Г-гав! Понял! Хозяйка!"
+    new "Г-гав! Понял! Госпожа!"
 
     old "Too quiet! Louder!{#sp90_s1676_013}"
     new "Слишком тихо! Громче!"
 
     old "Woof! Understood! Master!{#sp90_s1676_014}"
-    new "Гав! Понял! Хозяйка!"
+    new "Гав! Понял! Госпожа!"
 
     old "There's no feeling in that!{#sp90_s1676_025}"
     new "В этом нет чувств!"
 
     old "Woof! I-I understand!! Master!!{#sp90_s1676_026}"
-    new "Гав! П-понял!! Хозяйка!!"
+    new "Гав! П-понял!! Госпожа!!"
 
     old "(D-damn it…){#sp90_s1676_027}"
     new "Ч-чёрт…"
@@ -2800,13 +2800,13 @@ translate russian strings:
     new "К-кяааин!!"
 
     old "Woof! L-like this? Master!{#sp90_s1679_002}"
-    new "Гав! Т-так? Хозяйка!"
+    new "Гав! Т-так? Госпожа!"
 
     old "No good, no good! You'd better practice!{#sp90_s1679_004}"
     new "Нет, нет! Попрактикуйся!"
 
     old "Woof! Understood! Master!{#sp90_s1679_005}"
-    new "Гав! Понял! Хозяйка!"
+    new "Гав! Понял! Госпожа!"
 
     old "(Hah! Does she want me to practice a hundred different faces?!){#sp90_s1679_006}"
     new "Неужели она хочет, чтобы я тренировал сотню разных лиц?!"
@@ -2815,7 +2815,7 @@ translate russian strings:
     new "Неужели он и вправду собрался тренироваться?"
 
     old "…I'm truly sorry for all the disrespectful behavior I showed you, Master!{#sp90_s1681_002}"
-    new "…Прости меня за всё то дерзкое поведение, хозяйка!"
+    new "…Прости меня за всё то дерзкое поведение, госпожа!"
 
     old "Heh heh, that's more like it. Can't be helped. Shall I forgive you, as a special favor?{#sp90_s1681_003}"
     new "Хи-хи, вот теперь ладно. Что поделать. Прощу тебя — как исключение?"

@@ -25,7 +25,7 @@ translate russian strings:
     new "Хи, хи-и-и!?"
 
     old "(M-my ear — Luise's breath is right there!){#sp91_s1702_005}"
-    new "М-моё ухо — дыхание Луиз прямо рядом!"
+    new "М-моё ухо — дыхание Луизы прямо рядом!"
 
     old "(Blowing into my ear like that… W-where did she learn such a technique?){#sp91_s1702_006}"
     new "Дуть в ухо вот так… Г-где она переняла такой приём?"
@@ -58,7 +58,7 @@ translate russian strings:
     new "…С-Сайто, дурак! Почему ты всегда такой?"
 
     old "N-no, I… Luise…?{#sp91_s1704_005}"
-    new "Н-нет, я… Луиз…?"
+    new "Н-нет, я… Луиза…?"
 
     old "D-do you… hate me?{#sp91_s1704_006}"
     new "Т-ты… ненавидишь меня?"
@@ -73,7 +73,7 @@ translate russian strings:
     new "Н-нет, я и не собирался грубить…"
 
     old "(Luise's warmth and weight against my back…) H-help me!{#sp91_s1704_010}"
-    new "Тепло и вес Луиз у меня на спине…"
+    new "Тепло и вес Луизы у меня на спине…"
 
     old "Honestly, really now!{#sp91_s1705_003}"
     new "Правда, ну!"
@@ -127,7 +127,7 @@ translate russian strings:
     new "…"
 
     old "(Hah. In the end, Luise stuck to me all day.){#sp91_s1706_013}"
-    new "…Фу. В конце концов, Луиз весь день была рядом."
+    new "…Фу. В конце концов, Луиза весь день была рядом."
 
     old "…Hey, Saito… are you awake?{#sp91_s1706_014}"
     new "…Сайто… ты не спишь?"
@@ -154,7 +154,7 @@ translate russian strings:
     new "…"
 
     old "H-hey. Luise.{#sp91_s1707_010}"
-    new "С-слушай. Луиз."
+    new "С-слушай. Луиза."
 
     old "…W-what is it?{#sp91_s1707_011}"
     new "…Ч-что?"
@@ -217,7 +217,7 @@ translate russian strings:
     new "Ну же, я тебя помыю. Быстро повернись спиной!"
 
     old "(Bathing with Luise, huh…) Can't calm down{#sp91_s1709_010}"
-    new "Мыться вместе с Луиз…"
+    new "Мыться вместе с Луизой…"
 
     old "…S-Saito, you idiot! So mean! Are other girls really that good!?{#sp91_s1710_003}"
     new "…С-Сайто, дурак! Злюка! Другие девушки что, так хороши!?"
@@ -661,7 +661,7 @@ translate russian strings:
     new "Но ты же сказала, что если я не голодный — это нормально, да?"
 
     old "T-That's… well, yes, but… That's just a figure of speech!{#sp91_s1735_005}"
-    new "Э-Это… ну да, но… Это просто оговорка!"
+    new "Э-Это… ну да, но… Это просто фигура речи!"
 
     old "Eeeh.{#sp91_s1735_006}"
     new "Э-э."
@@ -1351,7 +1351,7 @@ translate russian strings:
     new "……Ну почему?"
 
     old "……I might not be able to hold back anymore.{#sp91_s1775_004}"
-    new "……Я могу больше не сдержаться."
+    new "……Может, я больше не сдержусь."
 
     old "Hold back? From what?{#sp91_s1775_005}"
     new "Сдержаться? От чего?"
@@ -1966,7 +1966,7 @@ translate russian strings:
     new "В любой семье так, нет?"
 
     old "…N-No, nobles don't do things like that.{#sp91_s1803_007}"
-    new "…Н-Нет, в дворянских семьях такого не делают."
+    new "…Н-Нет, в аристократических семьях такого не делают."
 
     old "R-Really?{#sp91_s1803_008}"
     new "П-Правда?"
@@ -2425,7 +2425,7 @@ translate russian strings:
     new "Но ни в коем случае не говори того, что ранит девочку! Даже если неправда — хвали её!"
 
     old "…Isn't that a bit contradictory?{#sp91_s1824_004}"
-    new "…Разве это не странно?"
+    new "…Разве это не противоречие?"
 
     old "Quiet, you!… Anyway, I'll give you an example — read it aloud!{#sp91_s1824_006}"
     new "Не перечь!.. Ладно, покажу пример — почитай вслух!"
@@ -2746,7 +2746,7 @@ translate russian strings:
     new "…Я же говорю: когда объясняешься в любви знатной даме, важна риторика!"
 
     old "But I'm not a noble—I'm a commoner.{#sp91_s1835_010}"
-    new "Но я не дворянин — я простолюдин."
+    new "Но я не аристократ — я простолюдин."
 
     old "Y-You don't have to say it like that…{#sp91_s1835_011}"
     new "Т-Ты мог бы не говорить так…"

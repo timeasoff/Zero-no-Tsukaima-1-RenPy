@@ -7,10 +7,10 @@ translate russian strings:
     new "Счёт идёт на секунды. Некогда разбираться в мелочах."
 
     old "Tabitha, thank you for bringing us this far.{#ch23_l_023}"
-    new "Табаса, спасибо, что довела нас сюда."
+    new "Табита, спасибо, что довела нас сюда."
 
     old "I'm worried about the academy and Haruna. I want you to go back and help Kirche and the others.{#ch23_l_024}"
-    new "Я волнуюсь за академию и Харуну. Хочу, чтобы ты вернулся и помог Кирке и остальным."
+    new "Я волнуюсь за академию и Харуну. Хочу, чтобы ты вернулся и помог Кирхе и остальным."
 
     old "Understood.{#ch23_t_006}"
     new "Понятно."

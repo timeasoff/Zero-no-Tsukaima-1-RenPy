@@ -13,7 +13,7 @@ translate russian strings:
     new "Они охотятся за Харуной"
 
     old "They're after Tabitha{#ch25_2_c_927_2}"
-    new "Они охотятся за Табасой"
+    new "Они охотятся за Табитой"
 
     old "Jealous of us?{#ch25_2_c_927_3}"
     new "Завидуют нам?"

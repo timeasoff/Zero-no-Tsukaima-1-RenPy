@@ -7,13 +7,13 @@ translate russian strings:
     new "Что значит «что значит»?"
 
     old "Going out on secret dates with Tabitha night after night—behind my back!{#ch28_k_002}"
-    new "Ноч за ночью тайно встречаться с Табасой — за моей спиной!"
+    new "Ноч за ночью тайно встречаться с Табитой — за моей спиной!"
 
     old "Um… I'm afraid I don't follow?{#ch28_s_002}"
     new "Э-Э… Я не понимаю, о чём вы?"
 
     old "What was that!? You went behind my back and did something with Tabitha…{#ch28_l_001}"
-    new "Что это было!? Ты сделал что-то с Табасой за моей спиной…"
+    new "Что это было!? Ты сделал что-то с Табитой за моей спиной…"
 
     old "I let you sleep in my bed every night—why would you sneak out to do that…{#ch28_l_002}"
     new "Я же каждую ночь разрешаю тебе спать в моей кровати — зачем ты выскальзывал…"
@@ -34,7 +34,7 @@ translate russian strings:
     new "…Даже говоря правду, Луиза называет меня псом…"
 
     old "Say, darling. You're really not meeting Tabitha at night?{#ch28_k_003}"
-    new "Слушай, дорогой. Ты и правда не встречаешься с Табасой по ночам?"
+    new "Слушай, дорогой. Ты и правда не встречаешься с Табитой по ночам?"
 
     old "I'm not! Absolutely not!!{#ch28_s_006}"
     new "Нет! Ни в коем случае!!"
@@ -61,19 +61,19 @@ translate russian strings:
     new "Ну… В конце концов, да."
 
     old "So why did this story about Saito and Tabitha dating at night start?{#ch28_l_005}"
-    new "Так откуда взялась эта история о том, что Сайто и Табаса встречаются по ночам?"
+    new "Так откуда взялась эта история о том, что Сайто и Табита встречаются по ночам?"
 
     old "Actually… There's a rumor that Tabitha's been up to something at night lately.{#ch28_k_008}"
-    new "Дело в том… Ходит слух, что Табаса в последнее время что-то делает по ночам."
+    new "Дело в том… Ходит слух, что Табита в последнее время что-то делает по ночам."
 
     old "And I figured—any rumor about Tabitha probably involves darling, right?{#ch28_k_009}"
-    new "Я и подумала — может, любой слух о Табасе как-то связан с дорогим, да?"
+    new "Я и подумала — может, любой слух о Табите как-то связан с дорогим, да?"
 
     old "Look here…{#ch28_s_010}"
     new "Слушай…"
 
     old "If you want to know what Tabitha's doing so badly, why not just ask her directly?{#ch28_s_011}"
-    new "Если тебе так хочется узнать, что делает Табаса, почему бы не спросить её напрямую?"
+    new "Если тебе так хочется узнать, что делает Табита, почему бы не спросить её напрямую?"
 
     old "That's the thing—I tried asking casually, but she wouldn't tell me…{#ch28_k_010}"
     new "В том-то и дело — я попробовала спросить косвенно, но она не сказала…"
@@ -103,7 +103,7 @@ translate russian strings:
     new "Ах — она молчит, но я чувствую, что что-то скрывает…"
 
     old "Then—will you tell just me? What you do at night, Tabitha?{#ch28_s_017}"
-    new "Тогда — расскажешь только мне? Что ты делаешь по ночам, Табаса?"
+    new "Тогда — расскажешь только мне? Что ты делаешь по ночам, Табита?"
 
     old "…{#ch28_t_004}"
     new "…"
@@ -127,7 +127,7 @@ translate russian strings:
     new "Не скажу."
 
     old "…Say, Tabitha…{#ch28_s_021}"
-    new "…Слушай, Табаса…"
+    new "…Слушай, Табита…"
 
     old "You don't want to tell me that badly?{#ch28_s_022}"
     new "Ты настолько не хочешь мне говорить?"
@@ -232,7 +232,7 @@ translate russian strings:
     new "…Он уже уснул."
 
     old "Tabitha really drove darling into a corner, didn't she…{#ch28_k_014}"
-    new "Табаса и правда загнала дорогого в угол…"
+    new "Табита и правда загнала дорогого в угол…"
 
     old "Ugh—I fell asleep too fast and woke up before it was even morning.{#ch28_s_041}"
     new "Ох — я слишком быстро уснул и проснулся ещё до утра."
@@ -244,7 +244,7 @@ translate russian strings:
     new "Ах."
 
     old "That voice—Tabitha?{#ch28_s_043}"
-    new "Этот голос — Табаса?"
+    new "Этот голос — Табита?"
 
     old "…{#ch28_t_017}"
     new "…"
@@ -262,13 +262,13 @@ translate russian strings:
     new "Мм."
 
     old "…Tabitha made it?{#ch28_s_046}"
-    new "…Табаса сделала его?"
+    new "…Табита сделала его?"
 
     old "Homemade.{#ch28_t_020}"
     new "Сделала сама."
 
     old "Tabitha—you had a hobby of cake-making?{#ch28_s_047}"
-    new "Табаса — у тебя было хобби печь торты?"
+    new "Табита — у тебя было хобби печь торты?"
 
     old "No, I didn't. But…{#ch28_t_021}"
     new "Нет. Но…"
@@ -388,7 +388,7 @@ translate russian strings:
     new "Потому что я хотела увидеть твоё радостное лицо."
 
     old "(This cake Tabitha made… Word of its taste will spread from the academy kitchen to the town…){#ch28_s_068}"
-    new "Этот торт, что испекла Табаса… Слух о его вкусе распространится из академической кухни по городу…"
+    new "Этот торт, что испекла Табита… Слух о его вкусе распространится из академической кухни по городу…"
 
     old "(…and spark a cake craze across the country. But that's another story.){#ch28_s_069}"
     new "…и станет началом общенациональной тортовой лихорадки. Но это уже другая история."

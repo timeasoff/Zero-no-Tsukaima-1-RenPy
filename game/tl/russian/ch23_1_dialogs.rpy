@@ -280,10 +280,10 @@ translate russian strings:
     new "Этот голос — Сильфид!?"
 
     old "That's Miss Tabitha's…{#ch23_si_035}"
-    new "Это мисс Табасы…"
+    new "Это мисс Табиты…"
 
     old "There you are! We're taking Tabitha's Sylphid to the castle!{#ch23_l_014}"
-    new "Вот вы где! Мы летим в замок на Сильфиде Табасы!"
+    new "Вот вы где! Мы летим в замок на Сильфиде Табиты!"
 
     old "Get on.{#ch23_t_001}"
     new "Садись."
@@ -292,7 +292,7 @@ translate russian strings:
     new "Ах, ах, подождите нас!!"
 
     old "Louise—are Kirche and Montmorency coming, too?{#ch23_s_047}"
-    new "Луиза — Кирке и Монморанси тоже идут?"
+    new "Луиза — Кирхе и Монморанси тоже идут?"
 
     old "No, they're not.{#ch23_l_015}"
     new "Нет."
@@ -313,7 +313,7 @@ translate russian strings:
     new "В академию тоже пришёл бомбист, и я испугалась, что что-то случилось…"
 
     old "I asked Kirche and Montmorency to search for her.{#ch23_l_018}"
-    new "Я попросила Кирке и Монморанси её найти."
+    new "Я попросила Кирхе и Монморанси её найти."
 
     old "Honestly, where could she have gone? Even magic can't find her…{#ch23_k_001}"
     new "Право, куда она делась? Даже магия не находит…"
@@ -322,7 +322,7 @@ translate russian strings:
     new "В любом случае, это чрезвычайная ситуация. Спешим в Тристанию."
 
     old "Kirche, Montmorency—can I leave Haruna to you?{#ch23_s_050}"
-    new "Кирке, Монморанси — могу я вам поручить Харуну?"
+    new "Кирхе, Монморанси — могу я вам поручить Харуну?"
 
     old "You think I'd refuse darling's request? We're in too deep to back out now. Right, Montmorency?{#ch23_k_002}"
     new "Ты думаешь, я откажу дорогому? Мы уже слишком далеко зашли, чтобы отступать. Верно, Монморанси?"
@@ -343,7 +343,7 @@ translate russian strings:
     new "Да!"
 
     old "All right, let's go! Louise! Tabitha!{#ch23_s_053}"
-    new "Ладно, пошли! Луиза! Табаса!"
+    new "Ладно, пошли! Луиза! Табита!"
 
     old "Sylphid.{#ch23_t_002}"
     new "Сильфид."

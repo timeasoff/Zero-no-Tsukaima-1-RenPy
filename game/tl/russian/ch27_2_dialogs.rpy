@@ -10,7 +10,7 @@ translate russian strings:
     new "Разные взгляды? Ты же хочешь взорвать Тристанию вместе с проникшими врагами, да?"
 
     old "Nooo—I said we'll use a different spell. Don't worry.{#ch27_l_046}"
-    new "Нeeeт — я же сказала, что применю другое заклинание. Не волнуйся."
+    new "Нееет — я же сказала, что применю другое заклинание. Не волнуйся."
 
     old "A different spell?{#ch27_s_064}"
     new "Другое заклинание?"
@@ -46,7 +46,7 @@ translate russian strings:
     new "Окончен, говоришь…"
 
     old "(True—we can't talk about Void magic in front of Kirche and the others…){#ch27_s_070}"
-    new "Верно — при Кирке и остальных нельзя говорить о Пустоте…"
+    new "Верно — при Кирхе и остальных нельзя говорить о Пустоте…"
 
     old "Ah, darling!{#ch27_k_022}"
     new "Ах, дорогой!"
@@ -103,13 +103,13 @@ translate russian strings:
     new "Козырь?"
 
     old "If I told you, it wouldn't be a trump card, would it? So—I'll take the air fleet; Tabitha takes Akina…{#ch27_l_060}"
-    new "Если скажу, это уже не козырь, да? Так — я беру флот, Табаса берёт Акину…"
+    new "Если скажу, это уже не козырь, да? Так — я беру флот, Табита берёт Акину…"
 
     old "Mm.{#ch27_t_011}"
     new "Мм."
 
     old "What about Saito and Kirche?{#ch27_l_061}"
-    new "А что будете делать Сайто и Кирке?"
+    new "А что будете делать Сайто и Кирхе?"
 
     old "Ehh!? I can't team up with darling!? What's the reason?{#ch27_k_028}"
     new "А!? Я не могу работать с дорогим!? Почему?"
@@ -121,7 +121,7 @@ translate russian strings:
     new "П-Понятно."
 
     old "So, Saito—which do you want to team with, Louise or Tabitha?{#ch27_l_063}"
-    new "Так, Сайто — с кем хочешь работать, с Луизой или Табасой?"
+    new "Так, Сайто — с кем хочешь работать, с Луизой или Табитой?"
 
     old "Which I want… Shouldn't it be decided by the enemy we're facing?{#ch27_s_075}"
     new "С кем хочу… Разве это не определяется врагом, против которого идём?"
@@ -133,10 +133,10 @@ translate russian strings:
     new "Хм… Луиза говорит, что применит Пустоту — это волнует…"
 
     old "(Tabitha's burns have healed, but she's not at full strength, so I'm worried…){#ch27_s_077}"
-    new "Ожоги Табасы зажили, но она не в полной форме — беспокоит…"
+    new "Ожоги Табиты зажили, но она не в полной форме — беспокоит…"
 
     old "(So, honestly, I'm far more worried about Tabitha…){#ch27_s_078}"
-    new "Так что, честно говоря, я гораздо больше беспокоюсь о Табасе…"
+    new "Так что, честно говоря, я гораздо больше беспокоюсь о Табите…"
 
     old "Hmm…{#ch27_s_079}"
     new "Хм…"
@@ -154,10 +154,10 @@ translate russian strings:
     new "Ч-Что…?"
 
     old "Darling will team with Tabitha. I'll team with Louise.{#ch27_k_031}"
-    new "Дорогой работает с Табасой. Я — с Луизой."
+    new "Дорогой работает с Табитой. Я — с Луизой."
 
     old "Eh, but if I team with Tabitha… It'll be like last time…{#ch27_s_083}"
-    new "А, но если я с Табасой… будет как в прошлый раз…"
+    new "А, но если я с Табитой… будет как в прошлый раз…"
 
     old "It'll be fine this time…{#ch27_t_013}"
     new "В этот раз всё будет хорошо…"
@@ -166,7 +166,7 @@ translate russian strings:
     new "Так — я с Луизой."
 
     old "I think… Tabitha, after all.{#ch27_s_084}"
-    new "Я думаю… всё-таки Табасу."
+    new "Я думаю… всё-таки Табиту."
 
     old "…{#ch27_t_014}"
     new "…"
@@ -178,7 +178,7 @@ translate russian strings:
     new "И после того, как Акина будет повержена, мне нужно присутствовать при решении судьбы Харуны…"
 
     old "(More than anything, I'm worried Tabitha will overdo it…){#ch27_s_087}"
-    new "И больше всего — боюсь, что Табаса перестарается…"
+    new "И больше всего — боюсь, что Табита перестарается…"
 
     old "Good choice, darling.{#ch27_k_033}"
     new "Хороший выбор, дорогой."
@@ -187,7 +187,7 @@ translate russian strings:
     new "Хм? Почему?"
 
     old "Because Tabitha is happy.{#ch27_k_034}"
-    new "Потому что Табаса рада."
+    new "Потому что Табита рада."
 
     old "…{#ch27_t_015}"
     new "…"
@@ -196,13 +196,13 @@ translate russian strings:
     new "Значит, я не важна, да?"
 
     old "N-No, that's not it! Well then—Kirche, take care of Louise, please.{#ch27_s_089}"
-    new "Н-Нет, это не так! Ну тогда — Кирке, присмотри за Луизой, пожалуйста."
+    new "Н-Нет, это не так! Ну тогда — Кирхе, присмотри за Луизой, пожалуйста."
 
     old "Leave it to me, darling. I'll keep a close eye on Louise.{#ch27_k_035}"
     new "Оставь мне, дорогой. Я пристально присмотрю за Луизой."
 
     old "Sorry—let Kirche decide first.{#ch27_s_090}"
-    new "Прости — пусть Кирке решит первой."
+    new "Прости — пусть Кирхе решит первой."
 
     old "Ehh!? In a case like this, a boy needs to decide firmly, darling!{#ch27_k_036}"
     new "А!? В такое время мальчик должен решить твёрдо, дорогой!"
@@ -211,34 +211,34 @@ translate russian strings:
     new "Знаю, но… Я хочу быть с обеими, понимаешь…"
 
     old "Then darling should team with Tabitha.{#ch27_k_037}"
-    new "Тогда дорогой должен работать с Табасой."
+    new "Тогда дорогой должен работать с Табитой."
 
     old "Eh, why?{#ch27_s_092}"
     new "А, почему?"
 
     old "Even if she looks like that, Tabitha wants to team with darling.{#ch27_k_038}"
-    new "Несмотря на вид, Табаса хочет работать с дорогим."
+    new "Несмотря на вид, Табита хочет работать с дорогим."
 
     old "…{#ch27_t_016}"
     new "…"
 
     old "Got it. Tabitha, please.{#ch27_s_093}"
-    new "Понял. Табаса, пожалуйста."
+    new "Понял. Табита, пожалуйста."
 
     old "…Mm.{#ch27_t_017}"
     new "…Мм."
 
     old "Well then, darling, Tabitha—take care of Haruna.{#ch27_k_039}"
-    new "Ну что ж, дорогой, Табаса — позаботьтесь о Харуне."
+    new "Ну что ж, дорогой, Табита — позаботьтесь о Харуне."
 
     old "Ah, I understand. Louise, Kirche—please.{#ch27_s_094}"
-    new "Ах, понял. Луиза, Кирке — прошу вас."
+    new "Ах, понял. Луиза, Кирхе — прошу вас."
 
     old "Honestly—you just need to trust your mistress, you silly familiar.{#ch27_l_065}"
     new "Право — тебе лишь нужно доверять госпоже, глупый фамильяр."
 
     old "And if you do anything to Tabitha, you'll be punished later!{#ch27_l_066}"
-    new "И если ты что-то сделаешь Табасе — потом наказание!"
+    new "И если ты что-то сделаешь Табите — потом наказание!"
 
     old "I won't do anything.{#ch27_s_095}"
     new "Я ничего не сделаю."
@@ -250,7 +250,7 @@ translate russian strings:
     new "Если устроить сцену на крыше, можно выманить Акину — но…"
 
     old "Is Tabitha's body really all right? Her burns are healed, but she's not at full strength, is she…{#ch27_s_098}"
-    new "Табаса и правда в порядке? Ожоги зажили, но она не в полной силе, да…"
+    new "Табита и правда в порядке? Ожоги зажили, но она не в полной силе, да…"
 
     old "…{#ch27_t_018}"
     new "…"
@@ -262,7 +262,7 @@ translate russian strings:
     new "…Мм."
 
     old "I don't want Tabitha to overdo it…{#ch27_s_100}"
-    new "Я не хочу, чтобы Табаса перестаралась…"
+    new "Я не хочу, чтобы Табита перестаралась…"
 
     old "…{#ch27_t_020}"
     new "…"
@@ -403,7 +403,7 @@ translate russian strings:
     new "Я следила за каждым вашим шагом!"
 
     old "Tabitha's after my life? That's a million years too early.{#ch27_ak_006}"
-    new "Табаса охотится за моей жизнью? Это на миллион лет рано."
+    new "Табита охотится за моей жизнью? Это на миллион лет рано."
 
     old "Hey now—Haruna's still a teenager.{#ch27_s_123}"
     new "Эй — Харуне же ещё нет двадцати."

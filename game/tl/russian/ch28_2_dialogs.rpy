@@ -61,7 +61,7 @@ translate russian strings:
     new "Мм!"
 
     old "Say, Louise… Why didn't Tabitha hand Haruna over to Gallia?{#ch28_s_079}"
-    new "Слушай, Луиза… Почему Табаса не передала Харуну Галлии?"
+    new "Слушай, Луиза… Почему Табита не передала Харуну Галлии?"
 
     old "…Eh? You let Haruna go without knowing that?{#ch28_l_010}"
     new "…А? Ты отпустил Харуну, не зная об этом?"
@@ -70,7 +70,7 @@ translate russian strings:
     new "Ну, мне было трудно спросить Харуну напрямую…"
 
     old "And I felt awful asking Tabitha—as a Chevalier, she might have lost face…{#ch28_s_081}"
-    new "И мне было неловко спрашивать Табасу — как шевалье она могла потерять лицо…"
+    new "И мне было неловко спрашивать Табиту — как шевалье она могла потерять лицо…"
 
     old "Either way, you could have just asked normally and they'd have told you…{#ch28_l_011}"
     new "В любом случае, стоит было просто спросить — и тебе бы ответили…"
@@ -85,13 +85,13 @@ translate russian strings:
     new "Тогда расскажи и мне!"
 
     old "Why don't you ask Tabitha directly?{#ch28_l_013}"
-    new "Почему бы не спросить Табасу напрямую?"
+    new "Почему бы не спросить Табиту напрямую?"
 
     old "All right… I'll go ask Tabitha, like you said…{#ch28_s_084}"
-    new "Ладно… Пойду спрошу Табасу, как ты сказала…"
+    new "Ладно… Пойду спрошу Табиту, как ты сказала…"
 
     old "…Wait. It'd be rude to bother Tabitha over something like that. I'll tell you myself.{#ch28_l_014}"
-    new "…Погоди. Нехорошо беспокоить Табасу по такому поводу. Я сама тебе расскажу."
+    new "…Погоди. Нехорошо беспокоить Табиту по такому поводу. Я сама тебе расскажу."
 
     old "Y-Yes…{#ch28_s_085}"
     new "Д-Да…"
@@ -100,13 +100,13 @@ translate russian strings:
     new "Право… Хоть бы ты просто рассказала…"
 
     old "So—why didn't Tabitha hand Haruna over to Gallia?{#ch28_s_087}"
-    new "Так — почему Табаса не отдала Харуну Галлии?"
+    new "Так — почему Табита не отдала Харуну Галлии?"
 
     old "And yet Tabitha said she'd completed the mission…{#ch28_s_088}"
-    new "И всё же Табаса сказала, что задание выполнено…"
+    new "И всё же Табита сказала, что задание выполнено…"
 
     old "Ah, that. Tabitha reported to Gallia like this.{#ch28_l_015}"
-    new "А, это. Табаса доложила Галлии вот что."
+    new "А, это. Табита доложила Галлии вот что."
 
     old "Amid the sudden fighting in Tristain, Haruna went missing.{#ch28_l_016}"
     new "Во время внезапных боёв в Тристании Харуна пропала без вести."
@@ -130,10 +130,10 @@ translate russian strings:
     new "Понятно. Вот как. Я думал, они знали весь механизм…"
 
     old "Besides, their main aim was probably to dump troublesome jobs on Tabitha, so they didn't care much about the result.{#ch28_l_020}"
-    new "И к тому же их главной целью, наверное, было свалить хлопотные дела на Табасу, поэтому результат их мало интересовал."
+    new "И к тому же их главной целью, наверное, было свалить хлопотные дела на Табиту, поэтому результат их мало интересовал."
 
     old "I see… Well, at least it didn't end badly for Tabitha and Haruna…{#ch28_s_092}"
-    new "Понятно… Ну, по крайней мере, для Табасы и Харуны всё кончилось хорошо…"
+    new "Понятно… Ну, по крайней мере, для Табиты и Харуны всё кончилось хорошо…"
 
     old "(In the end, Akina—Haruna's other personality—still seems to linger a little.){#ch28_s_093}"
     new "В конце концов, Акина — вторая личность Харуны — похоже, всё ещё остаётся отчасти."
@@ -151,7 +151,7 @@ translate russian strings:
     new "Есть только одна перемена…"
 
     old "Honestly! Why does Tabitha sit next to Saito every single day!?{#ch28_l_021}"
-    new "Право! Почему Табаса каждый день садится рядом с Сайто!?"
+    new "Право! Почему Табита каждый день садится рядом с Сайто!?"
 
     old "Because I want to.{#ch28_t_040}"
     new "Потому что хочу."
@@ -163,7 +163,7 @@ translate russian strings:
     new "Рядом с ним тоже можно."
 
     old "Ugh—Saito! Say something to Tabitha!{#ch28_l_023}"
-    new "Ох — Сайто! Скажи что-нибудь Табасе!"
+    new "Ох — Сайто! Скажи что-нибудь Табите!"
 
     old "You want me to talk to her… It's not like sitting next to me is a problem, is it?{#ch28_s_098}"
     new "Чтобы я поговорил… Да разве сидеть рядом — это проблема?"
@@ -178,13 +178,13 @@ translate russian strings:
     new "Это не ревность… Я просто раздражена…"
 
     old "Honestly… Um, Tabitha-san? My mistress is rather upset, so if possible…{#ch28_s_099}"
-    new "Право… Э-Э, Табаса-сан? Моя госпожа довольно сердится, так что, если возможно…"
+    new "Право… Э-Э, Табита-сан? Моя госпожа довольно сердится, так что, если возможно…"
 
     old "No.{#ch28_t_042}"
     new "Нет."
 
     old "Ha ha, Tabitha-san? Could this be…{#ch28_s_100}"
-    new "Ха-ха, Табаса-сан? Неужто это…"
+    new "Ха-ха, Табита-сан? Неужто это…"
 
     old "That you want to be next to me?{#ch28_s_101}"
     new "Что ты хочешь быть рядом со мной?"
@@ -202,16 +202,16 @@ translate russian strings:
     new "Почему ты злишься на меня!?"
 
     old "Look—it's fine for Tabitha to sit next to you. She's just reading a book anyway.{#ch28_k_016}"
-    new "Да ладно — пусть Табаса сидит рядом. Она же просто читает книгу."
+    new "Да ладно — пусть Табита сидит рядом. Она же просто читает книгу."
 
     old "B-But…{#ch28_l_027}"
     new "Но…"
 
     old "Then instead of Tabitha… Shall I sit next to darling and cling to him?{#ch28_k_017}"
-    new "Тогда вместо Табасы… может, я сяду рядом с дорогим и прижмусь?"
+    new "Тогда вместо Табиты… может, я сяду рядом с дорогим и прижмусь?"
 
     old "Then Tabitha's fine.{#ch28_l_028}"
-    new "Тогда Табаса — ладно."
+    new "Тогда Табита — ладно."
 
     old "…{#ch28_t_044}"
     new "…"
@@ -220,8 +220,8 @@ translate russian strings:
     new "Ох — она довольно довольна…"
 
     old "(…And so Tabitha, who'd added one more worry to Louise's life, was still reading as always…){#ch28_s_105}"
-    new "…И вот Табаса, прибавившая Луизе ещё одну заботу, всё читала и читала…"
+    new "…И вот Табита, прибавившая Луизе ещё одну заботу, всё читала и читала…"
 
     old "(But—watching Tabitha read right beside me, I found myself feeling oddly at ease.){#ch28_s_106}"
-    new "Но, глядя на Табасу, читающую прямо рядом со мной, я почему-то чувствовал себя спокойно."
+    new "Но, глядя на Табиту, читающую прямо рядом со мной, я почему-то чувствовал себя спокойно."
 

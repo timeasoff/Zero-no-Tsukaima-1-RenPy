@@ -7,7 +7,7 @@ translate russian strings:
     new "После этого я тихо ждал — но прошло уже довольно много времени…"
 
     old "Tabitha's taking too long, even by her standards, isn't she?{#ch25_s_066}"
-    new "Табаса слишком долго, даже по её меркам, да?"
+    new "Табита слишком долго, даже по её меркам, да?"
 
     old "…Hah!?{#ch25_s_067}"
     new "…Ах!?"
@@ -28,7 +28,7 @@ translate russian strings:
     new "Что такое «игра в пренебрежение»?"
 
     old "Whoa!? T-Tabitha-san!?{#ch25_s_072}"
-    new "Ой!? Т-Табаса-сан!?"
+    new "Ой!? Т-Табита-сан!?"
 
     old "…{#ch25_t_022}"
     new "…"
@@ -55,7 +55,7 @@ translate russian strings:
     new "Мм."
 
     old "I mean… I usually only see you in your uniform, so Tabitha in different clothes looks really fresh.{#ch25_s_077}"
-    new "Я хочу сказать… я обычно вижу тебя только в форме, поэтому Табаса в другой одежде выглядит так свежо."
+    new "Я хочу сказать… я обычно вижу тебя только в форме, поэтому Табита в другой одежде выглядит так свежо."
 
     old "…{#ch25_t_026}"
     new "…"
@@ -73,7 +73,7 @@ translate russian strings:
     new "Нет?"
 
     old "A-Ah, Tabitha, did you change clothes?{#ch25_s_080}"
-    new "А-Ах, Табаса, ты переоделась?"
+    new "А-Ах, Табита, ты переоделась?"
 
     old "You're dodging the question.{#ch25_t_029}"
     new "Ты уходишь от ответа."
@@ -124,7 +124,7 @@ translate russian strings:
     new "Мм."
 
     old "So, Tabitha—what should I do?{#ch25_s_090}"
-    new "Так, Табаса — что мне делать?"
+    new "Так, Табита — что мне делать?"
 
     old "…{#ch25_t_036}"
     new "…"
@@ -157,7 +157,7 @@ translate russian strings:
     new "Кажется, она уходит от ответа о письме… Но ладно."
 
     old "So, where do you want me to accompany you, Tabitha?{#ch25_s_096}"
-    new "Так, куда ты хочешь, чтобы я тебя сопровождал, Табаса?"
+    new "Так, куда ты хочешь, чтобы я тебя сопровождал, Табита?"
 
     old "You decide.{#ch25_t_041}"
     new "Решай сам."
@@ -184,13 +184,13 @@ translate russian strings:
     new "[Переход] Большая дорога"
 
     old "Heh heh. You both seem to be enjoying yourselves, darling and Tabitha.{#ch25_k_020}"
-    new "Хи-хи. Вы оба вроде весело проводите время, дорогой и Табаса."
+    new "Хи-хи. Вы оба вроде весело проводите время, дорогой и Табита."
 
     old "Hey, Kirche. Why do we all have to tail those two?{#ch25_l_028}"
-    new "Эй, Кирке. Почему мы все должны следить за этими двумя?"
+    new "Эй, Кирхе. Почему мы все должны следить за этими двумя?"
 
     old "Why? Because I'm worried about darling, obviously. And of course, I'm worried about Tabitha, too.{#ch25_k_021}"
-    new "Почему? Потому что я волнуюсь за дорогого, понятно. И, конечно, я волнуюсь и за Табасу."
+    new "Почему? Потому что я волнуюсь за дорогого, понятно. И, конечно, я волнуюсь и за Табиту."
 
     old "You're worried too, aren't you, Louise? Otherwise you wouldn't have come along, would you?{#ch25_k_022}"
     new "Ты тоже волнуешься, Луиза? Иначе бы ты не пошла, да?"
@@ -217,16 +217,16 @@ translate russian strings:
     new "Гр-р-р!!"
 
     old "Aah! Saito-san is holding Miss Tabitha's hand!?{#ch25_si_005}"
-    new "Ах! Сайто-сан держит руку мисс Табасы!?"
+    new "Ах! Сайто-сан держит руку мисс Табиты!?"
 
     old "Eh? Eh!?{#ch25_l_033}"
     new "А? А!?"
 
     old "Hiraga-kun. You seem to be getting pretty close to Tabitha-san…{#ch25_ha_004}"
-    new "Хирага-кун. Кажется, ты довольно близко общаешься с Табасой-сан…"
+    new "Хирага-кун. Кажется, ты довольно близко общаешься с Табитой-сан…"
 
     old "Kirche!{#ch25_l_034}"
-    new "Кирке!"
+    new "Кирхе!"
 
     old "Louise, why are you holding a staff?{#ch25_k_024}"
     new "Луиза, зачем ты держишь посох?"
@@ -235,13 +235,13 @@ translate russian strings:
     new "Похоже, слежка тоже закончилась."
 
     old "Say, Tabitha. Where are we going next?{#ch25_s_099}"
-    new "Слушай, Табаса. Куда мы идём дальше?"
+    new "Слушай, Табита. Куда мы идём дальше?"
 
     old "…!{#ch25_t_043}"
     new "…!"
 
     old "Hmm? What's wrong, Tabitha? Your face suddenly got scary…{#ch25_s_100}"
-    new "Хм? Что случилось, Табаса? У тебя вдруг лицо стало страшным…"
+    new "Хм? Что случилось, Табита? У тебя вдруг лицо стало страшным…"
 
     old "Get away from me.{#ch25_t_044}"
     new "Отойди от меня."
@@ -262,7 +262,7 @@ translate russian strings:
     new "Они охотятся за Харуной, да?"
 
     old "They're after Tabitha, aren't they?{#ch25_s_104}"
-    new "Они охотятся за Табасой, да?"
+    new "Они охотятся за Табитой, да?"
 
     old "They're jealous of us two, aren't they? Us, the best couple of the day!{#ch25_s_105}"
     new "Они завидуют нам двоим, да? Нам, самопровозглашённой лучшей паре дня!"
@@ -271,7 +271,7 @@ translate russian strings:
     new "Нет."
 
     old "Eh? What do you mean, no? And how would you know, Tabitha?{#ch25_s_106}"
-    new "А? Что значит «нет»? И откуда ты знаешь, Табаса?"
+    new "А? Что значит «нет»? И откуда ты знаешь, Табита?"
 
     old "…{#ch25_t_047}"
     new "…"
@@ -283,7 +283,7 @@ translate russian strings:
     new "Сайтооо!!"
 
     old "L-Louise? Why are you here?{#ch25_s_108}"
-    new "Л-Луиза? Откуда ты здесь?"
+    new "Л-Луиза? Почему ты здесь?"
 
     old "Never mind that!{#ch25_l_037}"
     new "Неважно!"
@@ -292,7 +292,7 @@ translate russian strings:
     new "Доррогой! Я тоже помогу тебе сразиться!"
 
     old "Kirche's here, too!?{#ch25_s_109}"
-    new "И Кирке здесь!?"
+    new "И Кирхе здесь!?"
 
     old "…{#ch25_t_048}"
     new "…"
@@ -304,7 +304,7 @@ translate russian strings:
     new "…"
 
     old "Say, Tabitha. You wouldn't happen to know who they were…{#ch25_s_111}"
-    new "Слушай, Табаса. Ты, случайно, не знаешь, кто они…"
+    new "Слушай, Табита. Ты, случайно, не знаешь, кто они…"
 
     old "Are you all right, Hiraga-kun?{#ch25_ha_005}"
     new "Ты в порядке, Хирага-кун?"
@@ -340,7 +340,7 @@ translate russian strings:
     new "Д-Да. Мы просто делали покупки."
 
     old "And then we happened to spot Tabitha-san and Hiraga-kun… Right, Siesta-san?{#ch25_ha_007}"
-    new "А потом мы случайно заметили Табасу-сан и Хирага-куна… Верно, Сиэста-сан?"
+    new "А потом мы случайно заметили Табиту-сан и Хирага-куна… Верно, Сиэста-сан?"
 
     old "Y-Yes. It was a coincidence.{#ch25_si_007}"
     new "Д-Да. Это было совпадение."

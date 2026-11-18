@@ -4,7 +4,7 @@ translate russian strings:
     new "Прошло несколько дней с тех пор, как закончился спектакль. У нас всё ещё нет ни следа бомбиста."
 
     old "(I keep investigating, but I can't get any solid information. Louise is getting irritable, too…){#ch25_s_002}"
-    new "Я продолжаю расследовать, но не могу добиться никаких существенных данных. Луиза тоже становится раздражительной…"
+    new "Я продолжаю расследовать, но не могу получить никаких существенных сведений. Луиза тоже становится раздражительной…"
 
     old "(I was right to send Guiche and Montmorency home.){#ch25_s_003}"
     new "Я правильно поступил, отослав Гиша и Монморанси домой."
@@ -88,7 +88,7 @@ translate russian strings:
     new "Да-да, госпожа."
 
     old "This isn't addressed to me. It's to Tabitha.{#ch25_l_009}"
-    new "Оно не мне. Оно Табасе."
+    new "Оно не мне. Оно Табите."
 
     old "…{#ch25_t_002}"
     new "…"
@@ -103,13 +103,13 @@ translate russian strings:
     new "…"
 
     old "…Huh? What's wrong, Tabitha? You look gloomy.{#ch25_s_017}"
-    new "…А? Что случилось, Табаса? У тебя мрачный вид."
+    new "…А? Что случилось, Табита? У тебя мрачный вид."
 
     old "…{#ch25_t_005}"
     new "…"
 
     old "Hey, Tabitha. That letter—could it be…{#ch25_k_002}"
-    new "Эй, Табаса. Это письмо — неужто…"
+    new "Эй, Табита. Это письмо — неужто…"
 
     old "…Mm.{#ch25_t_006}"
     new "…Мм."
@@ -118,13 +118,13 @@ translate russian strings:
     new "Хм? Что-то случилось?"
 
     old "Actually… Tabitha is highly skilled—skilled enough to hold the title of Chevalier.{#ch25_k_003}"
-    new "Дело в том… Табаса очень искусна — настолько, что имеет звание шевалье."
+    new "Дело в том… Табита очень искусна — настолько, что имеет звание шевалье."
 
     old "(The title of Chevalier… What kind of title is that?){#ch25_s_019}"
     new "Звание шевалье… Что это за звание?"
 
     old "I thought Tabitha was a mage, but she's a knight? So 'Chevalier' is a knight's title, right?{#ch25_s_020}"
-    new "Я думал, Табаса маг, а она рыцарь? Значит, «шевалье» — рыцарское звание, да?"
+    new "Я думал, Табита маг, а она рыцарь? Значит, «шевалье» — рыцарское звание, да?"
 
     old "Saito…{#ch25_l_010}"
     new "Сайто…"
@@ -172,10 +172,10 @@ translate russian strings:
     new "Ого."
 
     old "Which means… Tabitha did something to earn such a title?{#ch25_l_015}"
-    new "Значит… Табаса совершила что-то, достойное такого звания?"
+    new "Значит… Табита совершила что-то, достойное такого звания?"
 
     old "That's right. Tabitha is amazing!{#ch25_k_007}"
-    new "Верно. Табаса удивительная!"
+    new "Верно. Табита удивительная!"
 
     old "Wow, impressive.{#ch25_s_028}"
     new "Ого, впечатляет."
@@ -184,10 +184,10 @@ translate russian strings:
     new "…"
 
     old "So—is Tabitha's Chevalier title connected to this letter somehow?{#ch25_l_016}"
-    new "Так… звание Табасы и это письмо как-то связаны?"
+    new "Так… звание Табиты и это письмо как-то связаны?"
 
     old "Actually, Tabitha gets requests for missions from a certain country from time to time…{#ch25_k_008}"
-    new "Дело в том, что к Табасе каждый раз обращаются с заданиями из одной страны…"
+    new "Дело в том, что к Табите каждый раз обращаются с заданиями из одной страны…"
 
     old "But?{#ch25_s_029}"
     new "Но?"
@@ -199,7 +199,7 @@ translate russian strings:
     new "…"
 
     old "The missions are extremely difficult. They're the kind only Tabitha could pull off.{#ch25_k_010}"
-    new "Задания очень сложные. Такие, что справиться с ними может только Табаса."
+    new "Задания очень сложные. Такие, что справиться с ними может только Табита."
 
     old "Wait—is this mission difficult, too?{#ch25_l_017}"
     new "Погоди — и это задание сложное?"
@@ -208,7 +208,7 @@ translate russian strings:
     new "…"
 
     old "Say, Tabitha. If you don't mind, could you tell me what's in that letter, too?{#ch25_s_030}"
-    new "Слушай, Табаса. Если не против, можешь рассказать мне, что в этом письме?"
+    new "Слушай, Табита. Если не против, можешь рассказать мне, что в этом письме?"
 
     old "Maybe I could be of some help.{#ch25_s_031}"
     new "Может, я смогу чем-нибудь помочь."
@@ -217,7 +217,7 @@ translate russian strings:
     new "…"
 
     old "Ah, Tabitha…{#ch25_s_032}"
-    new "Ах, Табаса…"
+    new "Ах, Табита…"
 
     old "She left…{#ch25_s_033}"
     new "Она ушла…"
@@ -229,7 +229,7 @@ translate russian strings:
     new "Конечно. Это же задание. Она не хотела, чтобы мы знали."
 
     old "…Hey, Kirche. Why do you get so gloomy over Tabitha?{#ch25_l_019}"
-    new "…Эй, Кирке. Почему ты так мрачнеешь из-за Табасы?"
+    new "…Эй, Кирхе. Почему ты так мрачнеешь из-за Табиты?"
 
     old "I-I'm not gloomy at all…{#ch25_k_012}"
     new "Я-Я совсем не мрачная…"
@@ -247,7 +247,7 @@ translate russian strings:
     new "Но у людей бывают свои обстоятельства…"
 
     old "What are you talking about? Tabitha is our classmate and friend! Of course you'd worry about her!{#ch25_l_022}"
-    new "О чём ты? Табаса наша одноклассница и подруга! Конечно, ты волнуешься за неё!"
+    new "О чём ты? Табита наша одноклассница и подруга! Конечно, ты волнуешься за неё!"
 
     old "No, I mean… I don't really care.{#ch25_s_036}"
     new "Нет, я хотел сказать… Мне всё равно."
@@ -268,7 +268,7 @@ translate russian strings:
     new "Если только это не что-то невозможное…"
 
     old "I want you to ask Tabitha about that letter. I'm just… worried.{#ch25_k_015}"
-    new "Я хочу, чтобы ты спросил Табасу об этом письме. Я просто… волнуюсь."
+    new "Я хочу, чтобы ты спросил Табиту об этом письме. Я просто… волнуюсь."
 
     old "Me?{#ch25_s_039}"
     new "Я?"
@@ -280,7 +280,7 @@ translate russian strings:
     new "Хм. Может, женская интуиция?"
 
     old "Darling, you've gotten close to Tabitha lately, haven't you?{#ch25_k_017}"
-    new "Дорогой, ты в последнее время сблизился с Табасой, да?"
+    new "Дорогой, ты в последнее время сблизился с Табитой, да?"
 
     old "Eep.{#ch25_s_040}"
     new "Ой."
@@ -298,19 +298,19 @@ translate russian strings:
     new "Н-Нет, это недоразумение!"
 
     old "Well, we can question you about that later. For now, Tabitha is the priority.{#ch25_k_019}"
-    new "Ну, потом допросим тебя по этому поводу. Сейчас важнее Табаса."
+    new "Ну, потом допросим тебя по этому поводу. Сейчас важнее Табита."
 
     old "I-Understood. There's one thing I can't accept, but you're right—Saito is the right person for this.{#ch25_l_026}"
     new "П-Понятно. Есть одна вещь, с которой я не согласна, но ты права — Сайто здесь подходит лучше всех."
 
     old "Saito, go check on Tabitha. Understand? That's an order. Don't come back empty-handed.{#ch25_l_027}"
-    new "Сайто, сходи проверь Табасу. Понял? Это приказ. Не возвращайся без результатов."
+    new "Сайто, сходи проверь Табиту. Понял? Это приказ. Не возвращайся без результатов."
 
     old "Yes, yes…{#ch25_s_042}"
     new "Да-да…"
 
     old "Tabitha… Where did she go?{#ch25_s_043}"
-    new "Табаса… Куда она пошла?"
+    new "Табита… Куда она пошла?"
 
     old "…Oh, I found her easily.{#ch25_s_044}"
     new "…А, я легко её нашёл."
@@ -322,7 +322,7 @@ translate russian strings:
     new "Ну, нет смысла слишком думать. Пока что окликну её."
 
     old "Hey there, Tabitha~.{#ch25_s_046}"
-    new "Эй, Табаса~."
+    new "Эй, Табита~."
 
     old "I'll leave her alone for a while. She must have her own way of sorting out her feelings…{#ch25_s_047}"
     new "Оставлю её пока в покое. У неё наверняка свой способ разобраться с чувствами…"
@@ -331,10 +331,10 @@ translate russian strings:
     new "…Нет, так не пойдёт. Если я вернусь вот так, Луиза меня изобьёт до смерти."
 
     old "Hey there, Tabitha~.{#ch25_s_049}"
-    new "Эй, Табаса~."
+    new "Эй, Табита~."
 
     old "What was in that letter? Something that made Tabitha run out of the room?{#ch25_s_050}"
-    new "Что было в том письме? Что-то, из-за чего Табаса выбежала из комнаты?"
+    new "Что было в том письме? Что-то, из-за чего Табита выбежала из комнаты?"
 
     old "Something painful? Something sad? Something difficult?{#ch25_s_051}"
     new "Болезненное? Грустное? Сложное?"
@@ -349,13 +349,13 @@ translate russian strings:
     new "Ну, размышления не дадут ответа. Спрошу её напрямую."
 
     old "Hey there, Tabitha~.{#ch25_s_055}"
-    new "Эй, Табаса~."
+    new "Эй, Табита~."
 
     old "What?{#ch25_t_012}"
     new "Что?"
 
     old "Um, Tabitha-san.{#ch25_s_056}"
-    new "Э-Э, Табаса-сан."
+    new "Э-Э, Табита-сан."
 
     old "…{#ch25_t_013}"
     new "…"

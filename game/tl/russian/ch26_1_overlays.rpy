@@ -2,4 +2,4 @@
 translate russian strings:
 
     old "Chapter Twenty-Six: 'Tabitha's Secret'{#ch26_title}"
-    new "Глава двадцать шестая. «Тайна Табасы»"
+    new "Глава двадцать шестая. «Тайна Табиты»"

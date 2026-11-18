@@ -10,7 +10,7 @@ translate russian strings:
     new "Простите."
 
     old "You don't need to apologize, Tabitha.{#ch26_s_090}"
-    new "Тебе не за что извиняться, Табаса."
+    new "Тебе не за что извиняться, Табита."
 
     old "But…{#ch26_t_024}"
     new "Но…"
@@ -34,7 +34,7 @@ translate russian strings:
     new "…"
 
     old "Are you all right, Tabitha? Are you hurt?{#ch26_s_094}"
-    new "Ты в порядке, Табаса? Не ранена?"
+    new "Ты в порядке, Табита? Не ранена?"
 
     old "Mm, I'm fine.{#ch26_t_027}"
     new "Мм, я в порядке."
@@ -67,7 +67,7 @@ translate russian strings:
     new "Сильфид."
 
     old "Eh, Tabitha!? You're not really going!?{#ch26_s_097}"
-    new "А, Табаса!? Ты и правда летишь!?"
+    new "А, Табита!? Ты и правда летишь!?"
 
     old "…{#ch26_t_030}"
     new "…"
@@ -94,7 +94,7 @@ translate russian strings:
     new "А-ха-ха. Кто знает?"
 
     old "Say, Tabitha… You're going to capture me and take me away, aren't you?{#ch26_ak_004}"
-    new "Слушай, Табаса… Ты же собираешься меня захватить и увезти, да?"
+    new "Слушай, Табита… Ты же собираешься меня захватить и увезти, да?"
 
     old "Mm. Be still.{#ch26_t_031}"
     new "Мм. Не двигайся."
@@ -118,7 +118,7 @@ translate russian strings:
     new "…"
 
     old "Hey, Tabitha… Are you going to fight?{#ch26_s_102}"
-    new "Эй, Табаса… Ты собираешься сражаться?"
+    new "Эй, Табита… Ты собираешься сражаться?"
 
     old "Mm.{#ch26_t_033}"
     new "Мм."
@@ -172,7 +172,7 @@ translate russian strings:
     new "Это всё, конечно… Что же случилось с Харуной?"
 
     old "Say, Tabitha. I don't know why the Haruna in front of us became like this.{#ch26_s_113}"
-    new "Слушай, Табаса. Я не понимаю, почему Харуна перед нами стала такой."
+    new "Слушай, Табита. Я не понимаю, почему Харуна перед нами стала такой."
 
     old "I can't promise I'll hand her over to you. Is that all right?{#ch26_s_114}"
     new "Я не могу обещать, что отдам её тебе. Это нормально?"

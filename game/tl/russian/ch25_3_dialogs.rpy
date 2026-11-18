@@ -22,7 +22,7 @@ translate russian strings:
     new "Всё хорошо. Я не в дурном настроении, дорогой."
 
     old "Kirche!{#ch25_s_117}"
-    new "Кирке!"
+    new "Кирхе!"
 
     old "Well, when you watch the man you like being popular, it makes you proud—or makes you burn with jealousy.{#ch25_k_027}"
     new "Дело в том, когда видишь, что любимый тобой мужчина пользуется успехом, то гордеешься, то, наоборот, ревнуешь."
@@ -43,13 +43,13 @@ translate russian strings:
     new "…Н-Нет. Главное — есть, есть…"
 
     old "Come to think of it, Tabitha's been quiet for a while, too…{#ch25_s_120}"
-    new "Кстати, Табаса тоже уже давно молчит…"
+    new "Кстати, Табита тоже уже давно молчит…"
 
     old "…{#ch25_t_053}"
     new "…"
 
     old "Ah, Tabitha-san has fallen asleep…{#ch25_ha_010}"
-    new "Ах, Табаса-сан уснула…"
+    new "Ах, Табита-сан уснула…"
 
     old "Heh heh, falling asleep during a meal… She must have been quite nervous today, too.{#ch25_k_028}"
     new "Хи-хи, уснуть во время еды… Похоже, сегодня она волновалась, да?"
@@ -58,7 +58,7 @@ translate russian strings:
     new "…Мм."
 
     old "Heh. Miss Zerbst is like Miss Tabitha's older sister, isn't she?{#ch25_si_010}"
-    new "Хи. Мисс Церпст словно старшая сестра мисс Табасы, да?"
+    new "Хи. Мисс Цербст словно старшая сестра мисс Табиты, да?"
 
     old "Well, we've known each other a long time.{#ch25_k_029}"
     new "Ну, мы давно знакомы."
@@ -70,7 +70,7 @@ translate russian strings:
     new "Ах, пожалуйста."
 
     old "Come on, Tabitha. Let's go back to the inn. Wake up.{#ch25_k_031}"
-    new "Ну же, Табаса. Идём в гостиницу. Проснись."
+    new "Ну же, Табита. Идём в гостиницу. Проснись."
 
     old "…{#ch25_t_055}"
     new "…"
@@ -82,16 +82,16 @@ translate russian strings:
     new "……… … …"
 
     old "Oh? It looks like Tabitha-san dropped something.{#ch25_ha_011}"
-    new "Ох? Кажется, Табаса-сан что-то уронила."
+    new "Ох? Кажется, Табита-сан что-то уронила."
 
     old "That letter, I bet.{#ch25_l_045}"
     new "Спорим, это то письмо."
 
     old "Phew, Tabitha must be exhausted. She's sleeping soundly. Wait—what's with all of you?{#ch25_k_033}"
-    new "Фух, похоже, Табаса здорово устала. Спит крепко. Погоди — что вы все?"
+    new "Фух, похоже, Табита здорово устала. Спит крепко. Погоди — что вы все?"
 
     old "T-This is Tabitha's letter… right?{#ch25_s_122}"
-    new "Т-Это письмо Табасы… да?"
+    new "Т-Это письмо Табиты… да?"
 
     old "Oh, she dropped it? What a careless girl.{#ch25_k_034}"
     new "О, она его уронила? Какая же она рассеянная."
@@ -106,7 +106,7 @@ translate russian strings:
     new "А!?"
 
     old "Tabitha never asks anyone for help, does she? So we have to help her, right?{#ch25_k_036}"
-    new "Табаса никогда ни к кому не обращается за помощью, да? Значит, мы должны ей помочь, верно?"
+    new "Табита никогда ни к кому не обращается за помощью, да? Значит, мы должны ей помочь, верно?"
 
     old "So you want to look at the letter without telling her?{#ch25_l_046}"
     new "То есть ты хочешь посмотреть письмо, не говоря ей?"
@@ -127,7 +127,7 @@ translate russian strings:
     new "…"
 
     old "What's wrong, Kirche?{#ch25_l_047}"
-    new "Что случилось, Кирке?"
+    new "Что случилось, Кирхе?"
 
     old "I figured it was something to do with a mission, and therefore serious… but…{#ch25_k_041}"
     new "Я думала, это связано с заданием и потому довольно серьёзное… но…"
@@ -142,13 +142,13 @@ translate russian strings:
     new "Так что это!?"
 
     old "Do you know Tabitha's from the Kingdom of Gallia?{#ch25_k_043}"
-    new "Ты знаешь, что Табаса из королевства Галлия?"
+    new "Ты знаешь, что Табита из королевства Галлия?"
 
     old "I know that much, but…{#ch25_l_050}"
     new "Это я знаю, но…"
 
     old "Well, I'll skip the details. Tabitha gets missions from Gallia from time to time.{#ch25_k_044}"
-    new "Ну, пропущу подробности. Табасе время от времени дают задания из Галлии."
+    new "Ну, пропущу подробности. Табите время от времени дают задания из Галлии."
 
     old "This one is from Gallia, too—'capture a certain person and bring them to Gallia'—{#ch25_k_045}"
     new "Это тоже из Галлии — «захватить определённое лицо и доставить его в Галлию» —"
@@ -196,13 +196,13 @@ translate russian strings:
     new "…"
 
     old "Say, Haruna. Did you do something that Tabitha would need to bring you in for?{#ch25_l_056}"
-    new "Слушай, Харуна. Ты сделала что-то, из-за чего Табаса должна тебя доставить?"
+    new "Слушай, Харуна. Ты сделала что-то, из-за чего Табита должна тебя доставить?"
 
     old "I… don't know. Why would I…{#ch25_ha_014}"
     new "Я… не знаю. Почему я…"
 
     old "But I understand how confused Tabitha must feel. To be told something like that suddenly…{#ch25_s_128}"
-    new "Но я понимаю, как растерялась Табаса. Так внезапно сказать…"
+    new "Но я понимаю, как растерялась Табита. Так внезапно сказать…"
 
     old "(Walking through town together today was—an escape from reality, I suppose…){#ch25_s_129}"
     new "Прогулка по городу сегодня была — бегством от реальности, наверное…"
@@ -235,7 +235,7 @@ translate russian strings:
     new "Но…"
 
     old "It'll be fine. No matter that it's a mission—Tabitha would never capture Haruna, would she?{#ch25_s_134}"
-    new "Всё будет хорошо. Даже если это задание — Табаса же никогда не схватит Харуну, да?"
+    new "Всё будет хорошо. Даже если это задание — Табита же никогда не схватит Харуну, да?"
 
     old "M-Mm…{#ch25_ha_017}"
     new "М-Мм…"
@@ -247,19 +247,19 @@ translate russian strings:
     new "Хотя я это сказал… Что же происходит? Зачем Галлии Харуна…?"
 
     old "(Tabitha must be worrying a lot, too… I want to help somehow…){#ch25_s_136}"
-    new "Табаса, наверное, тоже очень переживает… Хочу чем-нибудь помочь…"
+    new "Табита, наверное, тоже очень переживает… Хочу чем-нибудь помочь…"
 
     old "Good grief. We've gotten ourselves into something complicated…{#ch25_s_137}"
     new "Боже мой. Мы ввязались в сложную историю…"
 
     old "That's… Tabitha, is it?{#ch25_s_138}"
-    new "Это… Табаса?"
+    new "Это… Табита?"
 
     old "…{#ch25_t_056}"
     new "…"
 
     old "Tabitha, are you awake? You fell asleep during the meal, so I got a scare.{#ch25_s_139}"
-    new "Табаса, ты проснулась? Ты уснула за едой, и я испугался."
+    new "Табита, ты проснулась? Ты уснула за едой, и я испугался."
 
     old "…{#ch25_t_057}"
     new "…"

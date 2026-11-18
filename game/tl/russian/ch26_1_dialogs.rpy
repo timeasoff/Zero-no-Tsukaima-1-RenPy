@@ -22,10 +22,10 @@ translate russian strings:
     new "Мм? Сиэста, что случилось?"
 
     old "Miss Valliere! Miss Valliere and Miss Tabitha are having a fight…!{#ch26_si_004}"
-    new "Мисс Вальер! Мисс Вальер и мисс Табаса ссорятся…!"
+    new "Мисс Вальер! Мисс Вальер и мисс Табита ссорятся…!"
 
     old "Louise and Tabitha? Why?{#ch26_s_005}"
-    new "Луиза и Табаса? Почему?"
+    new "Луиза и Табита? Почему?"
 
     old "Why? It's obvious! It's about Haruna-san!{#ch26_si_005}"
     new "Почему? Это же очевидно! Из-за Харуны-сан!"
@@ -55,7 +55,7 @@ translate russian strings:
     new "Ну, я хочу сказать…"
 
     old "Louise barged in and started telling Tabitha not to take Haruna to Gallia.{#ch26_k_003}"
-    new "Луиза ворвалась и стала говорить Табасе, чтобы та не увозила Харуну в Галлию."
+    new "Луиза ворвалась и стала говорить Табите, чтобы та не увозила Харуну в Галлию."
 
     old "Sigh… What is she doing…{#ch26_s_009}"
     new "Ох… Что она делает…"
@@ -64,10 +64,10 @@ translate russian strings:
     new "Но чтобы Луиза сказала что-то вроде защиты Харуны…"
 
     old "But Tabitha said she'd take her, didn't she? Well, for Tabitha it is a mission.{#ch26_k_004}"
-    new "Но Табаса сказала, что увезёт, да? Ну, для Табасы это задание."
+    new "Но Табита сказала, что увезёт, да? Ну, для Табиты это задание."
 
     old "And now Louise is shouting one-sidedly, while Tabitha just stays silent.{#ch26_k_005}"
-    new "А сейчас Луиза кричит в одно сторону, а Табаса просто молчит."
+    new "А сейчас Луиза кричит в одно сторону, а Табита просто молчит."
 
     old "I-I see…{#ch26_s_011}"
     new "П-Понятно…"
@@ -97,13 +97,13 @@ translate russian strings:
     new "Это плохо…"
 
     old "Hey, Saito! You too—say something to this stubborn Tabitha!{#ch26_l_005}"
-    new "Эй, Сайто! Ты тоже скажи что-нибудь этой упрямой Табасе!"
+    new "Эй, Сайто! Ты тоже скажи что-нибудь этой упрямой Табите!"
 
     old "Eh, me!?{#ch26_s_013}"
     new "А, я!?"
 
     old "Haruna is your classmate, isn't she!? If you don't put your foot down now, Tabitha will take her away!{#ch26_l_006}"
-    new "Харуна же твоя одноклассница!? Если ты сейчас не вмешаешься, Табаса её увезёт!"
+    new "Харуна же твоя одноклассница!? Если ты сейчас не вмешаешься, Табита её увезёт!"
 
     old "Take her away, you say…{#ch26_s_014}"
     new "Увезёт, говоришь…"
@@ -118,7 +118,7 @@ translate russian strings:
     new "Как я должен здесь «постараться»…"
 
     old "Tabitha. Since we're here, won't you give us an explanation everyone can accept?{#ch26_s_016}"
-    new "Табаса. Раз мы уже здесь, не объяснишь ли ты так, чтобы все поняли?"
+    new "Табита. Раз мы уже здесь, не объяснишь ли ты так, чтобы все поняли?"
 
     old "…{#ch26_t_006}"
     new "…"
@@ -133,7 +133,7 @@ translate russian strings:
     new "…"
 
     old "Louise, calm down. There's a reason Tabitha's silent, isn't there?{#ch26_s_019}"
-    new "Луиза, успокойся. У Табасы есть причина молчать, да?"
+    new "Луиза, успокойся. У Табиты есть причина молчать, да?"
 
     old "A reason? How would you know that?{#ch26_l_007}"
     new "Причина? Откуда тебе знать?"
@@ -145,10 +145,10 @@ translate russian strings:
     new "И это тебя должно устроить?"
 
     old "Of course not. And Tabitha must be agonizing over the mission, too.{#ch26_s_021}"
-    new "Конечно нет. И Табаса наверняка мучается из-за этого задания."
+    new "Конечно нет. И Табита наверняка мучается из-за этого задания."
 
     old "Right, Tabitha?{#ch26_s_022}"
-    new "Верно, Табаса?"
+    new "Верно, Табита?"
 
     old "…{#ch26_t_008}"
     new "…"
@@ -172,13 +172,13 @@ translate russian strings:
     new "…"
 
     old "Louise blames too much, and Tabitha doesn't say what she should. Both are at fault.{#ch26_s_026}"
-    new "Луиза слишком обвиняет, а Табаса не говорит то, что должна. Обе виноваты."
+    new "Луиза слишком обвиняет, а Табита не говорит то, что должна. Обе виноваты."
 
     old "Hmph.{#ch26_l_010}"
     new "Хмф."
 
     old "But, Tabitha. Try to understand Louise's feelings, too.{#ch26_s_027}"
-    new "Но, Табаса. Попробуй понять и чувства Луизы."
+    new "Но, Табита. Попробуй понять и чувства Луизы."
 
     old "The feelings Louise is expressing are the feelings of all of us…{#ch26_s_028}"
     new "То, что говорит Луиза, — чувства всех нас…"
@@ -187,7 +187,7 @@ translate russian strings:
     new "…"
 
     old "Say, Tabitha. About Haruna being taken to Gallia—is there really no way around it?{#ch26_s_029}"
-    new "Слушай, Табаса. Про доставку Харуны в Галлию — неужели нельзя ничего придумать?"
+    new "Слушай, Табита. Про доставку Харуны в Галлию — неужели нельзя ничего придумать?"
 
     old "No. It's a mission.{#ch26_t_012}"
     new "Нет. Это задание."
@@ -274,7 +274,7 @@ translate russian strings:
     new "Я волнуюсь за Харуну, но сначала пойдём в замок и узнаем о бомбисте!"
 
     old "Right. Tabitha, is that all right with you?{#ch26_s_039}"
-    new "Верно. Табаса, ты согласна?"
+    new "Верно. Табита, ты согласна?"
 
     old "Mm.{#ch26_t_015}"
     new "Мм."

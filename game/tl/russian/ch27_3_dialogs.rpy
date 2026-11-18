@@ -82,7 +82,7 @@ translate russian strings:
     new "…"
 
     old "Tabitha…{#ch27_s_133}"
-    new "Табаса…"
+    new "Табита…"
 
     old "Please—don't hand her over to Gallia.{#ch27_s_134}"
     new "Прошу — не отдавай её Галлии."
@@ -106,13 +106,13 @@ translate russian strings:
     new "Ах."
 
     old "…I'll leave it to Tabitha's judgment.{#ch27_s_138}"
-    new "…Я предоставлю это решению Табасы."
+    new "…Я предоставлю это решению Табиты."
 
     old "Is that all right?{#ch27_t_048}"
     new "Это нормально?"
 
     old "Tabitha has her own circumstances, doesn't she?{#ch27_s_139}"
-    new "У Табасы свои обстоятельства, да?"
+    new "У Табиты свои обстоятельства, да?"
 
     old "…Mm.{#ch27_t_049}"
     new "…Мм."
@@ -139,7 +139,7 @@ translate russian strings:
     new "Ничего."
 
     old "So—what do you intend to do with Haruna yourself, Tabitha?{#ch27_s_144}"
-    new "Так — а что ты сама намерена сделать с Харуной, Табаса?"
+    new "Так — а что ты сама намерена сделать с Харуной, Табита?"
 
     old "I've decided.{#ch27_t_053}"
     new "Я решила."

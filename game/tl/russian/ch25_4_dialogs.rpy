@@ -73,7 +73,7 @@ translate russian strings:
     new "Мм…"
 
     old "So, Tabitha—do you have any memories that'll turn out nice, too?{#ch25_s_178}"
-    new "Так, Табаса — а у тебя есть воспоминания, которые станут хорошими?"
+    new "Так, Табита — а у тебя есть воспоминания, которые станут хорошими?"
 
     old "…{#ch25_t_088}"
     new "…"
@@ -109,7 +109,7 @@ translate russian strings:
     new "Это на еду."
 
     old "Eh, really? Even though it's so cute…{#ch25_s_185}"
-    new "А, правда? Такая милая, а её едят…"
+    new "А, правда? Такая милая…"
 
     old "It's a famous ingredient.{#ch25_t_093}"
     new "Это известный ингредиент."
@@ -139,7 +139,7 @@ translate russian strings:
     new "Настолько вкусно, что расстроилась!?"
 
     old "Truly a cross-cultural experience.{#ch25_s_191}"
-    new "Это и есть настоящий культурный обмен."
+    new "Это и есть настоящий опыт другой культуры."
 
     old "Cross-cultural?{#ch25_t_097}"
     new "Опыт другой культуры?"
@@ -148,7 +148,7 @@ translate russian strings:
     new "Да. Но стоит попробовать — и ты можешь перестать считать её милой."
 
     old "I'd like to try it once. If you say it's good, Tabitha, it must be.{#ch25_s_193}"
-    new "Хочу попробовать однажды. Если ты говоришь, что вкусно, Табаса, наверное, так и есть."
+    new "Хочу попробовать однажды. Если ты говоришь, что вкусно, Табита, наверное, так и есть."
 
     old "…{#ch25_t_098}"
     new "…"
@@ -265,7 +265,7 @@ translate russian strings:
     new "…?"
 
     old "Besides, I'd hate to get drunk and cause you trouble, Tabitha.{#ch25_s_214}"
-    new "И ещё — не хочется напиться и доставить тебе хлопот, Табаса."
+    new "И ещё — не хочется напиться и доставить тебе хлопот, Табита."
 
     old "I'm sorry.{#ch25_t_116}"
     new "Простите."
@@ -298,7 +298,7 @@ translate russian strings:
     new "…"
 
     old "(Who would have thought Tabitha's casual clothes had this much destructive power…){#ch25_s_220}"
-    new "Кто бы мог подумать, что повседневная одежда Табасы настолько сокрушительна…"
+    new "Кто бы мог подумать, что повседневная одежда Табиты настолько сокрушительна…"
 
     old "What's wrong?{#ch25_t_121}"
     new "Что случилось?"
@@ -319,19 +319,19 @@ translate russian strings:
     new "А? Это не так?"
 
     old "Kirche picked this out.{#ch25_t_124}"
-    new "Это выбрала Кирке."
+    new "Это выбрала Кирхе."
 
     old "I see…{#ch25_s_224}"
     new "Понятно…"
 
     old "As expected of Kirche. It really suits you, Tabitha.{#ch25_s_225}"
-    new "Как и подобает Кирке. Тебе очень идёт, Табаса."
+    new "Как и подобает Кирхе. Тебе очень идёт, Табита."
 
     old "…{#ch25_t_125}"
     new "…"
 
     old "If only the amount of skin shown were more like Kirche's…{#ch25_s_226}"
-    new "Хоть бы открытости было столько же, сколько у Кирке…"
+    new "Хоть бы открытости было столько же, сколько у Кирхе…"
 
     old "…{#ch25_t_126}"
     new "…"
@@ -340,19 +340,19 @@ translate russian strings:
     new "…Простите. Я зарвался."
 
     old "Next time, I want to see clothes Tabitha picked herself.{#ch25_s_228}"
-    new "В следующий раз хочу увидеть одежду, которую Табаса выбрала сама."
+    new "В следующий раз хочу увидеть одежду, которую Табита выбрала сама."
 
     old "Someday.{#ch25_t_127}"
     new "Когда-нибудь."
 
     old "Kirche worries too much, doesn't she.{#ch25_s_229}"
-    new "Кирке тоже слишком волнуется, да?"
+    new "Кирхе тоже слишком волнуется, да?"
 
     old "…?{#ch25_t_128}"
     new "…?"
 
     old "Tabitha, I think you'd look good in anything—Kirche doesn't need to look after you.{#ch25_s_230}"
-    new "Табаса, я думаю, тебе идёт всё — Кирке не нужно за тобой присматривать."
+    new "Табита, я думаю, тебе идёт всё — Кирхе не нужно за тобой присматривать."
 
     old "That's not true.{#ch25_t_129}"
     new "Это не так."

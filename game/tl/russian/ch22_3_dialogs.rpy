@@ -166,13 +166,13 @@
     new "А… Сладкое?"
 
     old "For Kirche this is her sworn enemy's cooking. Why don't you check it with your own tongue?{#ch22_s_116}"
-    new "Для Кирке это стряпня заклятого врага. Почему бы тебе не проверить своим языком?"
+    new "Для Кирхе это стряпня заклятого врага. Почему бы тебе не проверить своим языком?"
 
     old "True enough… Well then, I'll have some. *gulp*… Mm mm…{#ch22_k_035}"
     new "И верно… Ну что ж, попробую. *Глоток*… Мм-мм…"
 
     old "Kirche, are you all right? You're not going to scream suddenly, are you?{#ch22_s_117}"
-    new "Кирке, ты в порядке? Ты не закричишь вдруг, да?"
+    new "Кирхе, ты в порядке? Ты не закричишь вдруг, да?"
 
     old "What's that supposed to mean!?{#ch22_l_042}"
     new "Что это значит!?"

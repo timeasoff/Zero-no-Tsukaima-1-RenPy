@@ -4,7 +4,7 @@ translate russian strings:
     new "Не отдавать Галлии"
 
     old "Leave it to Tabitha{#ch27_3_c_994_2}"
-    new "Поручить Табасе"
+    new "Поручить Табите"
 
     old "Haruna is innocent, but…{#ch27_3_c_994_3}"
     new "Харуна невиновна, но…"

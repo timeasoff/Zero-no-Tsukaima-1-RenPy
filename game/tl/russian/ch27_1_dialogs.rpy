@@ -13,7 +13,7 @@ translate russian strings:
     new "…"
 
     old "Good morning, Miss Zerbst, Miss Tabitha, Miss Montmorency.{#ch27_si_001}"
-    new "Доброе утро, мисс Церпст, мисс Табаса, мисс Монморанси."
+    new "Доброе утро, мисс Цербст, мисс Табита, мисс Монморанси."
 
     old "Oh, you're up early today, aren't you?{#ch27_l_001}"
     new "Ох, ты сегодня рано встала, да?"
@@ -154,7 +154,7 @@ translate russian strings:
     new "Я иду…"
 
     old "What's wrong, Tabitha?{#ch27_k_011}"
-    new "Что случилось, Табаса?"
+    new "Что случилось, Табита?"
 
     old "I'll fight again.{#ch27_t_004}"
     new "Я снова сражусь."
@@ -175,13 +175,13 @@ translate russian strings:
     new "Верно — пока мы не остановим Акину, выиграть эту войну будет трудно. Но всё же…"
 
     old "All right. I'll help Tabitha, too!{#ch27_k_013}"
-    new "Ладно. Я тоже помогу Табасе!"
+    new "Ладно. Я тоже помогу Табите!"
 
     old "Kirche!{#ch27_s_018}"
-    new "Кирке!"
+    new "Кирхе!"
 
     old "Of course, so will I. We can't let Tabitha fight alone.{#ch27_l_015}"
-    new "Конечно, и я. Нельзя позволять Табасе сражаться одной."
+    new "Конечно, и я. Нельзя позволять Табите сражаться одной."
 
     old "Even you!?{#ch27_s_019}"
     new "Даже ты!?"
@@ -193,13 +193,13 @@ translate russian strings:
     new "…"
 
     old "I think it's better to leave it to Tabitha.{#ch27_s_021}"
-    new "Я думаю, лучше поручить это Табасе."
+    new "Я думаю, лучше поручить это Табите."
 
     old "Meaning… You're saying we'd be a burden to Tabitha?{#ch27_l_017}"
-    new "То есть… Ты хочешь сказать, что мы обуза для Табасы?"
+    new "То есть… Ты хочешь сказать, что мы обуза для Табиты?"
 
     old "That's not it, but… Tabitha got burned because I was there with her, in a way…{#ch27_s_022}"
-    new "Не совсем, но… Табаса обожглась отчасти потому, что я был рядом…"
+    new "Не совсем, но… Табита обожглась отчасти потому, что я был рядом…"
 
     old "…{#ch27_l_018}"
     new "…"
@@ -211,7 +211,7 @@ translate russian strings:
     new "О, я буду в порядке. Я никогда не стану обузой."
 
     old "As expected of Kirche. Quite the confidence…{#ch27_s_023}"
-    new "Как и подобает Кирке. Уверенности не занимать…"
+    new "Как и подобает Кирхе. Уверенности не занимать…"
 
     old "Nn fu fu, don't praise me so much, darling.{#ch27_k_015}"
     new "Н-фу-фу, не хвали меня так, дорогой."
@@ -229,13 +229,13 @@ translate russian strings:
     new "Я волнуюсь о том, что будет после победы над Акиной."
 
     old "That Tabitha might hand Haruna over to Gallia.{#ch27_s_027}"
-    new "Что Табаса может передать Харуну Галлии."
+    new "Что Табита может передать Харуну Галлии."
 
     old "Haven't you talked it over with Tabitha?{#ch27_k_016}"
-    new "Разве ты не поговорил об этом с Табасой?"
+    new "Разве ты не поговорил об этом с Табитой?"
 
     old "I have. I don't want to hand Haruna over—but considering Tabitha's position…{#ch27_s_028}"
-    new "Говорил. Я не хочу отдавать Харуну — но, учитывая положение Табасы…"
+    new "Говорил. Я не хочу отдавать Харуну — но, учитывая положение Табиты…"
 
     old "It's a difficult problem…{#ch27_k_017}"
     new "Это сложный вопрос…"
@@ -259,10 +259,10 @@ translate russian strings:
     new "Луиза… Почему ты так полна уверенности?"
 
     old "Anyway—Kirche and I won't be a burden to Tabitha!{#ch27_l_023}"
-    new "В любом случае — я и Кирке не станем обузой для Табасы!"
+    new "В любом случае — я и Кирхе не станем обузой для Табиты!"
 
     old "Akina isn't Haruna. That's exactly why Tabitha got badly burned shielding me…{#ch27_s_030}"
-    new "Акина — не Харуна. Именно поэтому Табаса сильно обожглась, прикрыв меня…"
+    new "Акина — не Харуна. Именно поэтому Табита сильно обожглась, прикрыв меня…"
 
     old "Then, if something happens to you, I suppose I'll just let you die and watch.{#ch27_l_024}"
     new "Тогда, если с тобой что-то случится, я просто брошу тебя и не помогу."
@@ -292,7 +292,7 @@ translate russian strings:
     new "Подумаю."
 
     old "Thank you, Tabitha.{#ch27_s_035}"
-    new "Спасибо, Табаса."
+    new "Спасибо, Табита."
 
     old "…{#ch27_t_010}"
     new "…"

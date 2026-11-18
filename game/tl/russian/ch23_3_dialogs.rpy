@@ -229,7 +229,7 @@ translate russian strings:
     new "Гух… Ты в порядке, Луиза?"
 
     old "Mm… Somehow.{#ch23_l_084}"
-    new "Мм… Коек-как."
+    new "Мм… Кое-как."
 
     old "(Both Louise and I had collapsed on the spot.){#ch23_s_113}"
     new "И Луиза, и я рухнули на месте."
@@ -346,7 +346,7 @@ translate russian strings:
     new "Наверное."
 
     old "For now we saved the capital. Isn't that enough? We'll think about the rest when the time comes.{#ch23_l_101}"
-    new "Пока мы спасли столицу. Разве этого мало? Остальном подумаем, когда придёт время."
+    new "Пока мы спасли столицу. Разве этого мало? Об остальном подумаем, когда придёт время."
 
     old "Mm… You're right.{#ch23_s_133}"
     new "Мм… Верно."

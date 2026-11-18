@@ -2553,7 +2553,7 @@ translate japanese strings:
     old "Haa~~, no, no… Okay, once more!{#sp90_s1662_010}"
     new "ルイズ：はあ～～っ、ダメダメ……。はい、もう一度！"
 
-    old "(D-Damn iiit~~!!)→ next scene 1664{#sp90_s1662_011}"
+    old "(D-Damn iiit~~!!){#sp90_s1662_011}"
     new "サイト：（ち、ちくしょうぉぉ～～っ！）[SE       se1      stop=1][BGM      bgm      stop=1000][SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide]→ next scene 1664"
 
     old "…U-Um, do you want to see, master?{#sp90_s1663_002}"

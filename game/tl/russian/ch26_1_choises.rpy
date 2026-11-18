@@ -1,7 +1,7 @@
 translate russian strings:
 
     old "Ask Tabitha to explain{#ch26_1_c_934_1}"
-    new "Попросить Табасу объяснить"
+    new "Попросить Табиту объяснить"
 
     old "Calm Louise down{#ch26_1_c_934_2}"
     new "Успокоить Луизу"

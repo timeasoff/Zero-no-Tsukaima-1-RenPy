@@ -10,7 +10,7 @@ translate russian strings:
     new "Что будет дальше?"
 
     old "Kirche is right{#ch26_2_c_951_1}"
-    new "Кирке права"
+    new "Кирхе права"
 
     old "You could have told us{#ch26_2_c_951_2}"
     new "Вы могли бы сказать нам"
