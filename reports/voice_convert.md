@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-11-18 04:07`
+Запуск: `2026-11-18 04:15`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 11168 |
-| уже есть .ogg | 11055 |
-| к конвертации | 113 |
-| сконвертировано сейчас | 113 |
+| voice-строк в сценарии | 11268 |
+| уже есть .ogg | 11168 |
+| к конвертации | 100 |
+| сконвертировано сейчас | 100 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,119 +19,106 @@
 
 ## Сконвертировано
 
-- `ch22_c_010.ogg`
-- `ch22_c_011.ogg`
-- `ch22_c_012.ogg`
-- `ch22_c_013.ogg`
-- `ch22_c_014.ogg`
-- `ch22_c_015.ogg`
-- `ch22_c_016.ogg`
-- `ch22_g_002.ogg`
-- `ch22_ha_009.ogg`
-- `ch22_ha_010.ogg`
-- `ch22_ha_011.ogg`
-- `ch22_ha_012.ogg`
-- `ch22_ha_013.ogg`
-- `ch22_ha_014.ogg`
-- `ch22_ha_015.ogg`
-- `ch22_ha_016.ogg`
-- `ch22_ha_017.ogg`
-- `ch22_ha_018.ogg`
-- `ch22_ha_019.ogg`
-- `ch22_ha_020.ogg`
-- `ch22_ha_021.ogg`
-- `ch22_k_032.ogg`
-- `ch22_k_033.ogg`
-- `ch22_k_034.ogg`
-- `ch22_k_035.ogg`
-- `ch22_k_036.ogg`
-- `ch22_k_037.ogg`
-- `ch22_l_035.ogg`
-- `ch22_l_036.ogg`
-- `ch22_l_037.ogg`
-- `ch22_l_038.ogg`
-- `ch22_l_039.ogg`
-- `ch22_l_040.ogg`
-- `ch22_l_041.ogg`
-- `ch22_l_042.ogg`
-- `ch22_l_043.ogg`
-- `ch22_l_044.ogg`
-- `ch22_l_045.ogg`
-- `ch22_l_046.ogg`
-- `ch22_l_047.ogg`
-- `ch22_l_048.ogg`
-- `ch22_l_049.ogg`
-- `ch22_l_050.ogg`
-- `ch22_l_051.ogg`
-- `ch22_l_052.ogg`
-- `ch22_l_053.ogg`
-- `ch22_l_054.ogg`
-- `ch22_l_055.ogg`
-- `ch22_m_002.ogg`
-- `ch22_o_008.ogg`
-- `ch22_o_009.ogg`
-- `ch22_o_010.ogg`
-- `ch22_o_011.ogg`
-- `ch22_o_012.ogg`
-- `ch22_s_095.ogg`
-- `ch22_s_096.ogg`
-- `ch22_s_097.ogg`
-- `ch22_s_098.ogg`
-- `ch22_s_099.ogg`
-- `ch22_s_100.ogg`
-- `ch22_s_101.ogg`
-- `ch22_s_102.ogg`
-- `ch22_s_103.ogg`
-- `ch22_s_104.ogg`
-- `ch22_s_105.ogg`
-- `ch22_s_106.ogg`
-- `ch22_s_107.ogg`
-- `ch22_s_108.ogg`
-- `ch22_s_110.ogg`
-- `ch22_s_111.ogg`
-- `ch22_s_112.ogg`
-- `ch22_s_113.ogg`
-- `ch22_s_114.ogg`
-- `ch22_s_115.ogg`
-- `ch22_s_116.ogg`
-- `ch22_s_117.ogg`
-- `ch22_s_118.ogg`
-- `ch22_s_119.ogg`
-- `ch22_s_120.ogg`
-- `ch22_s_121.ogg`
-- `ch22_s_122.ogg`
-- `ch22_s_124.ogg`
-- `ch22_s_125.ogg`
-- `ch22_s_126.ogg`
-- `ch22_s_127.ogg`
-- `ch22_s_128.ogg`
-- `ch22_s_129.ogg`
-- `ch22_s_130.ogg`
-- `ch22_s_131.ogg`
-- `ch22_s_132.ogg`
-- `ch22_s_133.ogg`
-- `ch22_s_134.ogg`
-- `ch22_s_135.ogg`
-- `ch22_s_136.ogg`
-- `ch22_si_040.ogg`
-- `ch22_si_041.ogg`
-- `ch22_si_042.ogg`
-- `ch22_si_043.ogg`
-- `ch22_si_044.ogg`
-- `ch22_si_045.ogg`
-- `ch22_si_046.ogg`
-- `ch22_si_047.ogg`
-- `ch22_si_048.ogg`
-- `ch22_si_049.ogg`
-- `ch22_si_050.ogg`
-- `ch22_si_051.ogg`
-- `ch22_si_052.ogg`
-- `ch22_si_053.ogg`
-- `ch22_si_054.ogg`
-- `ch22_si_055.ogg`
-- `ch22_si_056.ogg`
-- `ch22_si_057.ogg`
-- `ch22_si_058.ogg`
+- `ch22_c_017.ogg`
+- `ch22_c_018.ogg`
+- `ch22_c_019.ogg`
+- `ch22_c_020.ogg`
+- `ch22_c_021.ogg`
+- `ch22_c_022.ogg`
+- `ch22_c_023.ogg`
+- `ch22_c_025.ogg`
+- `ch22_c_026.ogg`
+- `ch22_c_027.ogg`
+- `ch22_g_003.ogg`
+- `ch22_g_004.ogg`
+- `ch22_g_005.ogg`
+- `ch22_ha_022.ogg`
+- `ch22_ha_023.ogg`
+- `ch22_ha_024.ogg`
+- `ch22_ha_025.ogg`
+- `ch22_ha_026.ogg`
+- `ch22_k_038.ogg`
+- `ch22_k_039.ogg`
+- `ch22_k_040.ogg`
+- `ch22_k_041.ogg`
+- `ch22_l_056.ogg`
+- `ch22_l_057.ogg`
+- `ch22_l_058.ogg`
+- `ch22_l_059.ogg`
+- `ch22_l_060.ogg`
+- `ch22_l_061.ogg`
+- `ch22_l_062.ogg`
+- `ch22_o_013.ogg`
+- `ch22_o_014.ogg`
+- `ch22_o_015.ogg`
+- `ch22_o_016.ogg`
+- `ch22_o_017.ogg`
+- `ch22_o_018.ogg`
+- `ch22_o_019.ogg`
+- `ch22_o_020.ogg`
+- `ch22_s_137.ogg`
+- `ch22_s_138.ogg`
+- `ch22_s_140.ogg`
+- `ch22_s_141.ogg`
+- `ch22_s_142.ogg`
+- `ch22_s_143.ogg`
+- `ch22_s_144.ogg`
+- `ch22_s_145.ogg`
+- `ch22_s_146.ogg`
+- `ch22_s_147.ogg`
+- `ch22_s_148.ogg`
+- `ch22_s_149.ogg`
+- `ch22_s_150.ogg`
+- `ch22_s_151.ogg`
+- `ch22_s_153.ogg`
+- `ch22_s_154.ogg`
+- `ch22_s_155.ogg`
+- `ch22_s_156.ogg`
+- `ch22_s_157.ogg`
+- `ch22_s_158.ogg`
+- `ch22_s_159.ogg`
+- `ch22_s_160.ogg`
+- `ch22_s_161.ogg`
+- `ch22_s_163.ogg`
+- `ch22_s_164.ogg`
+- `ch22_s_165.ogg`
+- `ch22_s_167.ogg`
+- `ch22_s_168.ogg`
+- `ch22_s_169.ogg`
+- `ch22_si_059.ogg`
+- `ch22_si_060.ogg`
+- `ch22_si_061.ogg`
+- `ch22_si_062.ogg`
+- `ch22_si_063.ogg`
+- `ch22_si_064.ogg`
+- `ch22_si_065.ogg`
+- `ch22_si_066.ogg`
+- `ch22_si_067.ogg`
+- `ch22_si_068.ogg`
+- `ch22_si_069.ogg`
+- `ch22_si_070.ogg`
+- `ch22_si_071.ogg`
+- `ch22_si_072.ogg`
+- `ch22_si_073.ogg`
+- `ch22_si_074.ogg`
+- `ch22_si_075.ogg`
+- `ch22_si_076.ogg`
+- `ch22_si_077.ogg`
+- `ch22_si_078.ogg`
+- `ch22_si_079.ogg`
+- `ch22_si_080.ogg`
+- `ch22_si_081.ogg`
+- `ch22_si_082.ogg`
+- `ch22_si_083.ogg`
+- `ch22_si_084.ogg`
+- `ch22_si_085.ogg`
+- `ch22_si_086.ogg`
+- `ch22_si_087.ogg`
+- `ch22_t_008.ogg`
+- `ch22_t_009.ogg`
+- `ch22_t_010.ogg`
+- `ch22_t_011.ogg`
+- `ch22_t_012.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 
