@@ -5318,3 +5318,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - **PROVISIONAL**: `【デート進行】 → scene 972` в ch26_4b оставлен недостижимым `jump ch27` (ветвление по дате не реализовано).
 - Итог: A/B/C/D/E/F PASS по всем единицам, кроме документированных 77 NO AUDIO (ch.91). `check_project.py` OK, syntax/typography/placeholders/voice OK, `omission_precheck --chapter 26` 550/550.
 - Сводный отчёт: `reports/coverage/README.md`. JA-оригинал не редактировался.
+
+## 2026-11-18 — Промпт 06: голосовая часть port/ch22-to-end
+
+- Проверка строго по `[voice N]` (не по ASR-тексту): `tools/voice_audit.py` — 9/9 единиц имеют совпадающий порядок ID; 3943 ID источника ↔ 3866 `voice "..."` (разница = 77 NO AUDIO gл.91), 0 дублей имён, 0 speaker без define, 0 ID без дорожки.
+- `transcriptions_ja_ru.csv`: 3851 строка помечена `USED ch<unit>` (scope-маркер `tools/mark_target_transcriptions.py`). Колонка `original` не менялась; 15 строк уже были помечены ранее. `check_voice_transcriptions.py --chapter 23…28` → OK; глобально `TRANSCRIPT_ROW_STILL_IN_QUEUE = 0`.
+- ch22 части 1–4 (вне scope этого прохода) дают 415 предупреждений TRANSCRIPT_ROW_STILL_IN_QUEUE — зафиксировано, не менялось.
+- 77 NO AUDIO ch.91: **CANDIDATE → PRESERVED — NO AUDIO**, реплики сохранены без строк `voice`; список `reports/extra/no_audio_ch91.md`.
+- `audio_converter.py check` → 15134 строк / 15134 `.ogg` / pending 0 / нет аудио 0 / нет в манифесте 0 → RESULT OK; `convert --apply` → 0 к конвертации; post-check OK; `check_project.py` OK.
+- Предупреждения конвертера (`4b_s`, `sp90_*`, `sp91_*`) — **CANDIDATE → FALSE POSITIVE**: артефакты `SPEAKER_RE`, реальные speaker-коды определены в `game/characters.rpy`. Переименование не выполнялось во избежание осиротевших `.ogg` (удаления запрещены).
+- Отчёт: `reports/voice_workflow_ch22_to_end.md`, evidence `reports/voice_audit.md`.
