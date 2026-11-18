@@ -5491,3 +5491,5 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Runtime в очищенной копии: warp в каждую из 7 глав — 22 с, 0 ошибок; RU- и JA-режимы (ch22) — 18 с, 0 ошибок. `exit=124` = ожидаемый таймаут работающей VN.
 - Recheck проекта: check_project OK, syntax OK, omission 7/7 0, typography OK, audio OK, TL-аудит 0, compile в зоне 0, `show_sprites()` в зоне 0.
 - Ограничение: smoke-тест в очищенной копии, а не запуск оригинала; графика/звук/полные маршруты визуально не проверялись. Отчёт `reports/full_audit/RUNTIME-round6.md`.
+
+- OPEN (вне области): тот же TypeError-вызов `$ show_sprites()` найден ещё **403 раза в 52 файлах глав 0–21** (ch5_6=46, ch5_4=44, ch5_1=33, ch4_6=22 и др.). Не правилось — чужие главы. Требуется отдельный общепроектный проход `show_sprites()` → `show_sprites(None)`.
