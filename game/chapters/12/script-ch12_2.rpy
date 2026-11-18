@@ -843,7 +843,7 @@ label ch12_2_scene_533:
         "Akina!{#ch12_2_c_533_2}":
             jump ch12_3
         "Weatherly!{#ch12_2_c_533_3}":
-            jump ch12_3
+            jump ch12_3_scene_536
 
 label ch12_2_scene_534:
 

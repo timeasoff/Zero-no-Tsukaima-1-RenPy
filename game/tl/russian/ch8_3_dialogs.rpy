@@ -451,3 +451,8 @@ translate russian strings:
     old "But… I will not run away. I am… the queen of this country. {#ch8_h_096}"
     new "Но… Я не сбегу. Я… королева этой страны."
 
+    old "How is the situation? {#ch8_h_069}"
+    new "Какова обстановка?"
+
+    old "Your magic, ‘Brainwash Howling’, doesn't work here. {#ch8_h_075}"
+    new "Ваша магия «Брейнвош Хаулинг» здесь не действует."

@@ -30,6 +30,12 @@
 > Оставшиеся CONFIRMED (новые реплики/голоса, неоднозначные jump) — USER DECISION.
 > Evidence: `reports/sma/ch6-21-full-cycle-summary.md`. Галочки перевода не менялись.
 
+> **2026-11-18, ветка `review/ch6-21`:** аудит полноты — 47 per-part запусков
+> `omission_precheck.py`; 3 FIXED (JA/RU-пары ch8_h_069/h_075 + удалён дубль),
+> 19 FALSE POSITIVE, 3 USER DECISION (новые реплики/голоса). Дополнительно
+> исправлен WRONG_TARGET в ch12_2 (пункт «Weatherly!» → сцена 536).
+> Evidence: `reports/sma/ch6-21-omission-completeness.md`. Галочки не менялись.
+
 ## Соответствие: проектная папка ↔ источник PS2
 
 | Проектная папка | Источник PS2 | Название |

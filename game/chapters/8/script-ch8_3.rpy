@@ -308,7 +308,7 @@ label ch8_3_425:
     # [SPRITE   lay8     image=+779, level=160, dir=1B]  # アンリエッタ
     # アンリエッタ：状況はどうなっていますか。  [voice 920]
     voice "ch8_h_069"
-    h "How is the situation?" {#ch8_h_069}
+    h "How is the situation? {#ch8_h_069}"
     # JA[920]: アンリエッタ：状況はどうなっていますか。
     # [SPRITE   lay8     x=224, y=0]
     # [SPRITE   lay18    image=+1121, level=160, dir=1A]  # 将校
@@ -518,12 +518,7 @@ label ch8_3_425:
     # JA[3874]: キュルケ：どうやら無事のようね。
     # アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。  [voice 926]
     voice "ch8_h_075"
-    h "Your magic, "Brainwash Howling," doesn't work here. {#ch8_h_075}"
-    # JA[926]: アンリエッタ：あなたの魔法 / 「ブレインウォASH HOWLING」は、 / ここでは通用しません。 — wait, that's a typo, let me fix.
-    # Actually: アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。  [voice 926]
-    # Let me fix that.
-    voice "ch8_h_075"
-    h "Your magic, "Brainwash Howling," doesn't work here. {#ch8_h_075}"
+    h "Your magic, ‘Brainwash Howling’, doesn't work here. {#ch8_h_075}"
     # JA[926]: アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。
     # アンリエッタ：わたくしがいる限り、絶対に。  [voice 927]
     voice "ch8_h_076"

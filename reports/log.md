@@ -5212,3 +5212,14 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - USER DECISION / REPORT_ONLY (не применялось): omission-реплики ch8 (3), ch9 (voice 4601/4602), ch17 (сцены 681–683) требуют добавления новых строк/голосов; `jump ch14` в ch13_3/ch13_4 имеют неоднозначные цели (риск зацикливания); ch11/ch14/ch15 — устаревшая/неоднозначная evidence. DISPUTED/OPTIONAL (включая defer’ы extra-сцен и двузначный 義姉) без правок.
 - RECHECK: self-review 55 пар before/after; `check_renpy_syntax.py` OK (5 NO_RPY), `check_project.py` RESULT: OK errors=0, labels=902, UTF-8 346 файлов без U+FFFD, JA `new` не изменялся.
 - evidence: `reports/sma/ch<N>/chapter/{a,b,c,precheck,analysis}/`; сводка `reports/sma/ch6-21-full-cycle-summary.md`; отчёты частей дополнены dispositions.
+
+## 2026-11-18 — Аудит полноты (omission completeness), главы 6–21
+
+- Ветка `review/ch6-21`. `omission_precheck.py` запущен по КАЖДОЙ из 47 существующих частей (`--chapter <part>`); evidence в `reports/sma/ch<N>/<part>/precheck/`. Кандидаты только в ch8_3 (5), ch9_1 (2), ch12_3 (1), ch17_1 (1), ch18_3 (13).
+- Pre-check — evidence, не вердикт: каждый кандидат сверен с JA (`ps2_source/chapters`) и `events_full`; скиллы ps2-source/semantic-analyzer прочитаны.
+- FIXED (3): ch8_3 — Missing RU/JA `old/new` для `ch8_h_069`/`ch8_h_075`; удалён дублированный `voice ch8_h_075` вместе с мусорными комментариями агента, кавычки переведены в типографские; JA new добавлены строго из канона `chapter_09`.
+- FALSE POSITIVE (19): текст присутствует, расхождения вызваны voice-id 0, границами per-part охвата и несовпадением voice-id в манифесте (929/930, 11840/11841, 3324/3327) — зафиксировано как ???/voice-id mismatch, не omission.
+- USER DECISION (3): FULL-omission voice 13655 (ch8), 4601/4602 (ch9) — требуют добавления новых реплик/голосов, а не правки существующих строк.
+- Дополнительная сверка ветвлений `events_full` (главы 6–13): FIXED WRONG_TARGET `script-ch12_2.rpy:846` — «Weatherly!» → `jump ch12_3_scene_536` по `events_full chapter_13:1076` (сцена 536 была недостижима). ??? DEFER: extra-ветви ch10–ch11 и TNDL в ядре ch10/11/13 (механика, не текст).
+- RECHECK: `check_renpy_syntax.py` OK, `check_project.py` RESULT: OK errors=0; coverage `old/new` — 0 tagged-строк без пар во всех главах; UTF-8 без U+FFFD; существующие JA `new` не редактировались.
+- Отчёт: `reports/sma/ch6-21-omission-completeness.md`, разделы в отчётах 6 затронутых частей.
