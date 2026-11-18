@@ -16,22 +16,22 @@
 | 1216 | `ch25_3_scene_1214` menu | `ch25_3_scene_1216` | выбор 2 | `ch25_3_scene_1218` | DONE | там же |
 | 1217 | `ch25_3_scene_1214` menu | `ch25_3_scene_1217` | выбор 3 | `ch25_3_scene_1218` | DONE | там же |
 | 1218 | `ch25_3_scene_1215/16/17` | `ch25_3_scene_1218` | `→ next scene 1218` | `jump ch26` (934) | DONE | там же |
-| 1513 | `ch25_2_scene_922` 【移動】劇場 | `ch25_4_scene_1513` | выбор/location | `→ next scene 931` (`ch25_2_scene_931`) | DONE | см. коммит ч.4 гл.25 |
+| 1513 | `ch25_2_scene_922` 【移動】劇場 | `ch25_4_scene_1513` | выбор/location | `jump ch25_2_scene_927` (moveInit 927 → 931) | DONE | см. коммит ч.4 гл.25 |
 | 1514 | `ch25_4_scene_1513` menu | `ch25_4_scene_1514` | выбор 1 | `ch25_4_scene_1517` | DONE | там же |
 | 1515 | `ch25_4_scene_1513` menu | `ch25_4_scene_1515` | выбор 2 | `ch25_4_scene_1517` | DONE | там же |
 | 1516 | `ch25_4_scene_1513` menu | `ch25_4_scene_1516` | выбор 3 | `ch25_4_scene_1517` | DONE | там же |
-| 1517 | `ch25_4_scene_1514/15/16` | `ch25_4_scene_1517` | `→ next scene 1517` | `→ next scene 931` | DONE | там же |
-| 1518 | `ch25_2_scene_922` 【移動】表通り | `ch25_4_scene_1518` | выбор/location | `→ next scene 931` | DONE | там же |
+| 1517 | `ch25_4_scene_1514/15/16` | `ch25_4_scene_1517` | `→ next scene 1517` | `jump ch25_2_scene_927` → 931 | DONE | там же |
+| 1518 | `ch25_2_scene_922` 【移動】表通り | `ch25_4_scene_1518` | выбор/location | `jump ch25_2_scene_927` → 931 | DONE | там же |
 | 1519 | `ch25_4_scene_1518` menu | `ch25_4_scene_1519` | выбор 1 | `ch25_4_scene_1522` | DONE | там же |
 | 1520 | `ch25_4_scene_1518` menu | `ch25_4_scene_1520` | выбор 2 | `ch25_4_scene_1522` | DONE | там же |
 | 1521 | `ch25_4_scene_1518` menu | `ch25_4_scene_1521` | выбор 3 | `ch25_4_scene_1522` | DONE | там же |
-| 1522 | `ch25_4_scene_1519/20/21` | `ch25_4_scene_1522` | `→ next scene 1522` | `→ next scene 931` | DONE | там же |
-| 1523 | `ch25_2_scene_922` 【移動】裏通り | `ch25_4_scene_1523` | выбор/location | `→ next scene 931` | DONE | там же |
+| 1522 | `ch25_4_scene_1519/20/21` | `ch25_4_scene_1522` | `→ next scene 1522` | `jump ch25_2_scene_927` → 931 | DONE | там же |
+| 1523 | `ch25_2_scene_922` 【移動】裏通り | `ch25_4_scene_1523` | выбор/location | `jump ch25_2_scene_927` → 931 | DONE | там же |
 | 1524 | `ch25_4_scene_1523` menu | `ch25_4_scene_1524` | выбор 1 | `ch25_4_scene_1527` | DONE | там же |
 | 1525 | `ch25_4_scene_1523` menu | `ch25_4_scene_1525` | выбор 2 | `ch25_4_scene_1527` | DONE | там же |
 | 1526 | `ch25_4_scene_1523` menu | `ch25_4_scene_1526` | выбор 3 | `ch25_4_scene_1527` | DONE | там же |
-| 1527 | `ch25_4_scene_1524/25/26` | `ch25_4_scene_1527` | `→ next scene 1527` | `→ next scene 931` | DONE | там же |
-| 1528 | `ch25_2_scene_922` 【移動】街道 | `ch25_4_scene_1528` | выбор/location | `→ next scene 931` | DONE | там же |
+| 1527 | `ch25_4_scene_1524/25/26` | `ch25_4_scene_1527` | `→ next scene 1527` | `jump ch25_2_scene_927` → 931 | DONE | там же |
+| 1528 | `ch25_2_scene_922` 【移動】街道 | `ch25_4_scene_1528` | выбор/location | `jump ch25_2_scene_927` → 931 | DONE | там же |
 | 1529 | `ch25_4_scene_1528` menu | `ch25_4_scene_1529` | выбор 1 | `ch25_4_scene_1532` | DONE | там же |
 | 1530 | `ch25_4_scene_1528` menu | `ch25_4_scene_1530` | выбор 2 | `ch25_4_scene_1532` | DONE | там же |
 | 1531 | `ch25_4_scene_1528` menu | `ch25_4_scene_1531` | выбор 3 | `ch25_4_scene_1532` | DONE | там же |
