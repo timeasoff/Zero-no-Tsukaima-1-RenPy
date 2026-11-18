@@ -34,7 +34,7 @@ translate russian strings:
     old "Um, Princess, are you real? {#ch9_s_011}"
     new "Э-э, принцесса, вы настоящая?"
 
-    old "No. / I'm the real one? / I just… snuck out a little. {#ch9_h_003}"
+    old "No. I'm the real one, you know? I just… snuck out a little. {#ch9_h_003}"
     new "Как это нет. / Я самая настоящая. / Я лишь… на минутку ускользнула."
 
     old "Just a little?! / Wouldn't the royal palace be in an uproar?! {#ch9_s_012}"

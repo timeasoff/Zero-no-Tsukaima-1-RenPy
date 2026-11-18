@@ -354,7 +354,7 @@
     old "Me and Saito.{#ch19_t_030}"
     new "タバサ：わたしとサイト。"
 
-    old "With Louise? Well, if Tabitha says so, I suppose it can't be helped. She must have a reason…{#ch19_k_047}"
+    old "…She probably has a reason, right? {#ch19_k_047}"
     new "キュルケ：ルイズと？まー、タバサがそうしろって言うなら仕方がないわね、たぶん理由があるんでしょ？"
 
     old "Mm.{#ch19_t_031}"

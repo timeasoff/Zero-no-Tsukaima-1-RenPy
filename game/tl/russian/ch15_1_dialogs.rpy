@@ -79,7 +79,7 @@
     new "Т-Точно! Главное!"
 
     old "Wouldn't it be terrible if Louise found us like this!?{#ch15_s_015}"
-    new "Что будет, если Луиза увидит нас таких!?"
+    new "Беда будет, если Луиза увидит нас таких!"
 
     old "If that happened…{#ch15_s_016}"
     new "Если бы это случилось…"

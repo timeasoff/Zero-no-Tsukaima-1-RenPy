@@ -775,7 +775,7 @@ label ch19_1_scene_749:
     # [SPRITE   lay6     image=+715, level=154, dir=2A]
     # キュルケ：ルイズと？
     voice "ch19_k_047"
-    k "With Louise? Well, if Tabitha says so, I suppose it can't be helped. She must have a reason…{#ch19_k_047}"
+    k "…She probably has a reason, right? {#ch19_k_047}"
 
     # タバサ：うん。  [voice 15608]
     voice "ch19_t_031"

@@ -16,7 +16,7 @@
     old "…{#ch11_k_007}"
     new "キュルケ：……。"
 
-    old "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
+    old "Ugh, my shoulders are all stiff. Maybe it's all this sullen talk that doesn't suit me… {#ch11_k_008}"
     new "キュルケ：あ～～なんか肩こっちゃった。似合わないしけた話ばかり続くせいかしら。"
 
     old "Hmph. What's with that attitude!{#ch11_l_016}"
@@ -118,7 +118,7 @@
     old "Eh? Mission? What do you mean?{#ch11_ha_034}"
     new "ハルナ：え？任務？なんのことですか？"
 
-    old "I see. So Akina hasn't awakened yet.{#ch11_w_010}"
+    old "I see. It seems Akina hasn't awakened yet, has she? {#ch11_w_010}"
     new "ウェザリー：なるほど。まだアキナは覚醒していないようね。"
 
     old "Akina? I'm Haruna, though.{#ch11_ha_035}"
@@ -172,7 +172,7 @@
     old "Wait! Haruna!{#ch11_w_020}"
     new "ウェザリー：待て！ハルナ！"
 
-    old "Damn, that speed! Between that and the earlier resistance, Akina's power must be awakening!{#ch11_w_021}"
+    old "Damn, that speed! Between that and the earlier resistance—could Akina's power be awakening?! {#ch11_w_021}"
     new "ウェザリー：しまった、あのスピード！さっきのレジストといい、アキナの力が目覚めかけているのか！"
 
     old "Tch, I won't let you get away!{#ch11_w_022}"

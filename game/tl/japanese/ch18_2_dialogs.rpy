@@ -402,7 +402,7 @@
     old "You can't be serious! Now's not the time!{#ch18_d_018}"
     new "デルフリンガー：そんな呑気なこと言ってる場合じゃねーだろ！"
 
-    old "I'm not saying kill her, you idiot!{#ch18_d_019}"
+    old "I'm not saying kill her! {#ch18_d_019}"
     new "デルフリンガー：何もその娘を殺せって言ってるわけじゃねーんだ！"
 
     old "B-But… Waaah!{#ch18_s_151}"

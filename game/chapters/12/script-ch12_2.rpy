@@ -489,7 +489,7 @@ label ch12_2_scene_527:
 
     # [SPRITE   lay5     image=+429, level=155, dir=2A]
     # サイト：（……確かに。
-    s "(True enough. Now that Void is barely known, we can catch the enemy off guard…){#ch12_s_051}"
+    s "…we could probably catch the enemy off guard… {#ch12_s_051}"
 
     menu:
         "Believe Louise.{#ch12_2_c_527_1}":
@@ -866,7 +866,7 @@ label ch12_2_scene_534:
 
     # サイト：絶対になんとかするから待ってるんだぞ！
     voice "ch12_s_064"
-    s "I'll think of something, just wait for me! Haruna!{#ch12_s_064}"
+    s "I absolutely will think of something, so wait for me! Haruna! {#ch12_s_064}"
 
     # → next scene 537
     jump ch12_3

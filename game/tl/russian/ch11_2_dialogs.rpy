@@ -91,7 +91,7 @@
     old "…{#ch11_s_039}"
     new "…"
 
-    old "Besides, Weatherly-san's troupe travels, / but they come to Tristain often, / so…{#ch11_ha_016}"
+    old "they say they come to Tristain often, so… {#ch11_ha_016}"
     new "К тому же труппа Ветерби-сан разъезжает, / но, говорят, они часто приезжают в Тристалию…"
 
     old "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"

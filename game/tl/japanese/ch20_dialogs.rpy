@@ -225,7 +225,7 @@
     old "Well, that's the real purpose of this punishment, though.{#ch20_l_030}"
     new "ルイズ：まぁ、それこそが今回のお仕置きの真の目的なんだけどね。"
 
-    old "If you've learned your lesson, you won't neglect me again.{#ch20_l_031}"
+    old "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
     new "ルイズ：これに懲りたらもう、わたしをないがしろになんかしないことね。"
 
     old "(My head is spinning. Why is Louise fine with this?){#ch20_s_041}"

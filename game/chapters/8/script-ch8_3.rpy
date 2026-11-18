@@ -366,7 +366,7 @@ label ch8_3:
     # [SPRITE   lay5     image=+405, level=156, dir=1B]  # サイト
     # サイト：よしっ、このまま屋上に出るぞ！ / そこからなら、お前の魔法で一気に / ケリをつけられるんだな？  [voice 13654]
     voice "ch8_s_095"
-    s "Alright, let's head to the roof! From there, you can use your magic to take them all down! {#ch8_s_095}"
+    s "Alright, let's head to the roof! From there, with your magic you can finish them all off in one go, right? {#ch8_s_095}"
     # JA[13654]: サイト：よしっ、このまま屋上に出るぞ！ / そこからなら、お前の魔法で一気に / ケリをつけられるんだな？
     # [SPRITE   lay5     x=224, y=0]
     # [SPRITE   lay1     image=+335, level=155, dir=2A]  # ルイズ
@@ -413,7 +413,7 @@ label ch8_3:
     # JA[13658]: サイト：っ！？
     # ウェザリー：驚いたな。 / まさかここまで来るとは……。 / きみ達を正直見くびっていたよ。  [voice 16167]
     voice "ch8_w_002"
-    w "Surprised? You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
+    w "Well, I'm surprised. You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
     # JA[16167]: ウェザリー：驚いたな。 / まさかここまで来るとは……。 / きみ達を正直見くびっていたよ。
     # アキナ：もう……。 / 戦うのも面倒なんだから、 / ここに来ないでよね。  [voice 258]
     voice "ch8_ak_001"
@@ -746,7 +746,7 @@ label ch8_3:
     # JA[944]: アンリエッタ：ルイズ……そして使い魔さん、ありがとう。 / あなたがたのおかげで、この国は救われました。
     # アンリエッタ：そしてわたくしも……。  [voice 945]
     voice "ch8_h_093"
-    h "And I… also… will do my best. {#ch8_h_093}"
+    h "And I… also… {#ch8_h_093}"
     # JA[945]: アンリエッタ：そしてわたくしも……。
     # サイト：え？  [voice 13677]
     voice "ch8_s_115"

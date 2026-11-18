@@ -34,7 +34,7 @@ translate japanese strings:
     old "Um, Princess, are you real? {#ch9_s_011}"
     new "ええと、お姫さま、本物ですか？"
 
-    old "No. / I'm the real one? / I just… snuck out a little. {#ch9_h_003}"
+    old "No. I'm the real one, you know? I just… snuck out a little. {#ch9_h_003}"
     new "いやですわ。 / 本物ですよ？ / ちょっとだけ……抜け出してきましたの。"
 
     old "Just a little?! / Wouldn't the royal palace be in an uproar?! {#ch9_s_012}"

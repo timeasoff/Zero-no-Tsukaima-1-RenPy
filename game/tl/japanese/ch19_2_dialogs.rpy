@@ -81,7 +81,7 @@
     old "What's that? Don't you trust me? That hurts a little.{#ch19_s_292}"
     new "サイト：なんだよ、俺ってそんなに信用されてないのか？ちょっと傷つくなぁ。"
 
-    old "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
+    old "N-No, that's not it… It's not that I don't trust you, I just… {#ch19_l_230}"
     new "ルイズ：ち、違うっ……。信用してないわけじゃない、わたしはっ……。"
 
     old "Oh, Louise. Are you worried about darling?{#ch19_k_051}"

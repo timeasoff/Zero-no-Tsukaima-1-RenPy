@@ -297,8 +297,8 @@
     old "They're arranged in a circle around the castle.{#ch17_s_035}"
     new "Они расположены по кругу вокруг замка."
 
-    old "Yes. This can't be coincidence.{#ch17_h_011}"
-    new "Да. Это не может быть совпадением."
+    old "Yes. I can't call it mere coincidence. {#ch17_h_011}"
+    new "Да. Я не могу счесть это простым совпадением."
 
     old "If it's not coincidence, then what…?{#ch17_l_020}"
     new "Если не совпадение, то что же…?"

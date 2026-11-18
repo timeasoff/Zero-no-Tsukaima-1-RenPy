@@ -637,7 +637,7 @@ label ch17_1_scene_675:
 
     # アンリエッタ：そうです。
     voice "ch17_h_011"
-    h "Yes. This can't be coincidence.{#ch17_h_011}"
+    h "Yes. I can't call it mere coincidence. {#ch17_h_011}"
 
     # ルイズ：偶然ではないとしたら、一体……？  [voice 6278]
     voice "ch17_l_020"

@@ -126,7 +126,7 @@ label ch9:
     $ show_sprites(("s 1 sad", "h 2 happy"))
     # アンリエッタ：いやですわ。 / 本物ですよ？ / ちょっとだけ……抜け出してきましたの。  [voice 263]
     voice "ch9_h_003"
-    h "No. / I'm the real one? / I just… snuck out a little. {#ch9_h_003}"
+    h "No. I'm the real one, you know? I just… snuck out a little. {#ch9_h_003}"
     # JA[263]: アンリエッタ：いやですわ。 / 本物ですよ？ / ちょっとだけ……抜け出してきましたの。
     # [SPRITE lay5 image=+429 → s 3 sad]
     $ show_sprites(("s 3 sad", "h 2 happy"))

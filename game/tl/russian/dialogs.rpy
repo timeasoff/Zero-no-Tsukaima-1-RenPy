@@ -17200,8 +17200,8 @@ translate russian strings:
     old "I went to see how things were in town. We visited crowded places and listened to what people were saying."
     new "Я ходил посмотреть, как там в городе. Мы побывали в людных местах и послушали, что говорят люди."
 
-    old "I see... So the princess is still wavering in her confidence as queen."
-    new "Понятно… Значит, принцесса всё ещё сомневается в себе как в королеве."
+    old "I wonder… is her confidence as queen still wavering, after all?"
+    new "Интересно… может быть, её уверенность как королевы всё ещё шатается?"
 
     old "Yeah. So I took her to a dining hall to help take her mind off it."
     new "Да. Поэтому я отвёл её в столовую, чтобы она немного отвлеклась."
@@ -17479,7 +17479,7 @@ translate russian strings:
     new "Ну! «Просто так» — что это вообще значит, «просто так»?"
 
     old "'No particular reason' is a handy little phrase. Doesn't it make everything sound resolved?{#ch7_s_012}"
-    new "Удобное словечко — «просто так». Разве им не всё объяснить можно?"
+    new "Удобное словечко — «просто так». Разве что не кажется, будто всё уладилось?"
 
     old "As if that could resolve anything!{#ch7_l_014}"
     new "Да ничего им не объяснишь!"
@@ -18331,7 +18331,7 @@ translate russian strings:
     new "Именно. Говорят, в рисе живут семь богов. Недоеденный обед оставлять нельзя."
 
     old "You are… rather sturdy in spirit, aren't you. I suppose that kind of strength of heart… is something I lack.{#ch7.3_h_020}"
-    new "Вы… довольно крепки духом. Мне такой силы сердца… как раз и не хватает."
+    new "Вы, кажется… довольно крепки духом. Мне бы, наверное, такой силы сердца… как раз и не хватило."
 
     old "I know full well that thinking about it serves no purpose. And yet the regret… yes, the regret — even once I push it away, it comes floating back afterward.{#ch7.3_h_021}"
     new "Я понимаю, что думать об этом бесполезно. Но сожаление… да, именно сожаление — сколько его ни гони, оно потом выныривает снова."

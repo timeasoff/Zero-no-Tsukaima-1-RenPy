@@ -402,8 +402,8 @@
     old "You can't be serious! Now's not the time!{#ch18_d_018}"
     new "Ты что, серьёзно! Сейчас не время!"
 
-    old "I'm not saying kill her, you idiot!{#ch18_d_019}"
-    new "Я не говорю убить её, глупыш!"
+    old "I'm not saying kill her! {#ch18_d_019}"
+    new "Я не говорю убить её!"
 
     old "B-But… Waaah!{#ch18_s_151}"
     new "Н-Но… Вауу!"

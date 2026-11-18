@@ -297,7 +297,7 @@
     old "They're arranged in a circle around the castle.{#ch17_s_035}"
     new "サイト：城を……ぐるっと丸くかこむような形で事件が起きてる。"
 
-    old "Yes. This can't be coincidence.{#ch17_h_011}"
+    old "Yes. I can't call it mere coincidence. {#ch17_h_011}"
     new "アンリエッタ：そうです。ただの偶然とは思えません。"
 
     old "If it's not coincidence, then what…?{#ch17_l_020}"

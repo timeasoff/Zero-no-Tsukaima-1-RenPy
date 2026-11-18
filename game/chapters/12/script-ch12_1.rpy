@@ -90,7 +90,7 @@ label ch12_1_scene_510:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：な、何を言うんだよ！
     voice "ch12_s_003"
-    s "W-What are you talking about! That's… never mind.{#ch12_s_003}"
+    s "W-What are you talking about! That's… that's… {#ch12_s_003}"
 
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：ふん、ウソおっしゃい！

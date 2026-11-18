@@ -28,7 +28,7 @@
     old "You answered a bit too slowly. You're worried about Haruna, aren't you?{#ch12_l_004}"
     new "ルイズ：なんか、生返事よ。ハルナが心配なの？"
 
-    old "W-What are you talking about! That's… never mind.{#ch12_s_003}"
+    old "W-What are you talking about! That's… that's… {#ch12_s_003}"
     new "サイト：な、何を言うんだよ！そんなこと……。"
 
     old "Hmph, don't lie to me! You hesitated before answering.{#ch12_l_005}"

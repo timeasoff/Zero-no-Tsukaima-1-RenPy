@@ -222,7 +222,7 @@
     old "The Void lineage isn't only Explosion.{#ch12_l_057}"
     new "Род Пустоты — не только «Взрыв»."
 
-    old "(True enough. Now that Void is barely known, we can catch the enemy off guard…){#ch12_s_051}"
+    old "…we could probably catch the enemy off guard… {#ch12_s_051}"
     new "И правда. Сейчас, когда о Пустоте почти никто не знает, мы, небось, сможем застать врага врасплох…"
 
     old "All right, Louise… I mean, mistress, it's in your hands!{#ch12_s_052}"
@@ -372,6 +372,6 @@
     old "Shut up. Haruna is Haruna!{#ch12_s_063}"
     new "Заткнись. Харуна — это Харуна!"
 
-    old "I'll think of something, just wait for me! Haruna!{#ch12_s_064}"
+    old "I absolutely will think of something, so wait for me! Haruna! {#ch12_s_064}"
     new "Я обязательно что-нибудь придумаю, только подожди меня! Харуна!"
 

@@ -196,7 +196,7 @@
     new "ウェザリー：いえいえ、その先日の公演で / ヒロインを演じたミス・ハルナが、 / こちらにいるとのお話を聞きまして。"
     old "I heard she's not a student... {#ch10_w_004}"
     new "ウェザリー：聞けば、生徒ではないとか……。"
-    old "Therefore if possible / I'd like to scout you for our theater troupe. {#ch10_w_005}"
+    old "Therefore, if you would be so kind — I came to ask whether you might allow us to scout you for our troupe. {#ch10_w_005}"
     new "ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。"
     old "Scout...? {#ch10_o_010}"
     new "オスマン：スカウト……じゃと？"

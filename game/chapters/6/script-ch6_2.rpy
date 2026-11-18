@@ -349,7 +349,7 @@ label ch6_2_s373:
     voice "ch6.2_s_061"
     s "I went to see how things were in town. We visited crowded places and listened to what people were saying."
     voice "ch6.2_l_010"
-    l "I see... So the princess is still wavering in her confidence as queen."
+    l "I wonder… is her confidence as queen still wavering, after all?"
     $ tndl(40)  # TNDL events_full L1061 (sc 373, ch6.2_l_010)
     voice "ch6.2_s_062"
     s "Yeah. So I took her to a dining hall to help take her mind off it."

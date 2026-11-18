@@ -81,7 +81,7 @@
     old "What's that? Don't you trust me? That hurts a little.{#ch19_s_292}"
     new "Что это? Ты мне не доверяешь? Мне немного обидно."
 
-    old "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
+    old "N-No, that's not it… It's not that I don't trust you, I just… {#ch19_l_230}"
     new "Н-Нет, не то… Я же не то чтобы не доверяю… просто…"
 
     old "Oh, Louise. Are you worried about darling?{#ch19_k_051}"

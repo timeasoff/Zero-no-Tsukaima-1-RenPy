@@ -21,7 +21,7 @@
     old "What was that!?{#ch21_l_003}"
     new "Что ты сказала!?"
 
-    old "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
+    old "Look on the bright side. You'll go bald, you know? {#ch21_k_002}"
     new "Смотри на вещи позитивнее. Лысеешь, да?"
 
     old "Wha—! Kirche!?{#ch21_l_004}"

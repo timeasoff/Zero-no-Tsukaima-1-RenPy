@@ -178,7 +178,7 @@ translate japanese strings:
     old "Understood! {#ch8_o_005}"
     new "はっ、了解いたしました！"
 
-    old "Alright, let's head to the roof! From there, you can use your magic to take them all down! {#ch8_s_095}"
+    old "Alright, let's head to the roof! From there, with your magic you can finish them all off in one go, right? {#ch8_s_095}"
     new "よしっ、このまま屋上に出るぞ！ / そこからなら、お前の魔法で一気に / ケリをつけられるんだな？"
 
     old "Yes, please rely on me. I'll show you my true power! {#ch8_l_062}"
@@ -205,7 +205,7 @@ translate japanese strings:
     old "What!? {#ch8_s_098}"
     new "っ！？"
 
-    old "Surprised? You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
+    old "Well, I'm surprised. You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
     new "驚いたな。 / まさかここまで来るとは……。 / きみ達を正直見くびっていたよ。"
 
     old "I'm not in the mood for fighting anymore. Just stay here. {#ch8_ak_001}"
@@ -436,7 +436,7 @@ translate japanese strings:
     old "Louise… and my familiars, thank you. Thanks to you, this country was saved. {#ch8_h_092}"
     new "ルイズ……そして使い魔さん、ありがとう。 / あなたがたのおかげで、この国は救われました。"
 
-    old "And I… also… will do my best. {#ch8_h_093}"
+    old "And I… also… {#ch8_h_093}"
     new "そしてわたくしも……。"
 
     old "What? {#ch8_s_115}"

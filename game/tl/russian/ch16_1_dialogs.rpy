@@ -40,7 +40,7 @@
     new "Т-Так точно!"
 
     old "Ufufu. Isn't this fun.{#ch16_k_006}"
-    new "Уф-фу. Это забавно."
+    new "Уф-фу. Забавно, правда?"
 
     old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
     new "Слушай, Вальер. Чем больше препятствие, тем сильнее горит пламя моей любви…?"
@@ -321,8 +321,8 @@
     old "I don't quite get it, but… Okay.{#ch16_k_037}"
     new "Я не совсем понимаю, но… ладно."
 
-    old "Well, I'm just entrusting him to you… Just don't let that Louise break him. {#ch16_ha_020}"
-    new "Ну, я просто доверяю его тебе… Только не дай той Луизе-сан его сломать."
+    old "Well, I'm just entrusting him to you… I just hope that Louise-san doesn't break him. {#ch16_ha_020}"
+    new "Ну, я просто доверяю его тебе… Только бы эта Луиза-сан его не сломала."
 
     old "What are you talking about?{#ch16_s_028}"
     new "О чём вы?"
@@ -358,7 +358,7 @@
     new "…"
 
     old "(O-Of course it was good! Though that imbalance was something else…){#ch16_s_034}"
-    new "Хотя тот дисбаланс был просто неотразим…"
+    new "Конечно, всё было хорошо! Хотя тот дисбаланс был просто неотразим…"
 
     old "…Haa.{#ch16_s_035}"
     new "…Фух."

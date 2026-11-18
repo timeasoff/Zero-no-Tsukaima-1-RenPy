@@ -188,7 +188,7 @@ label ch19_2_scene_753:
     # [SPRITE   lay1     image=+341, level=160, dir=2A]
     # ルイズ：ち、違うっ……。
     voice "ch19_l_230"
-    l "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
+    l "N-No, that's not it… It's not that I don't trust you, I just… {#ch19_l_230}"
 
     # [SPRITE   lay5     hide]
     # [SPRITE   lay6     image=+717, level=160, dir=2A]

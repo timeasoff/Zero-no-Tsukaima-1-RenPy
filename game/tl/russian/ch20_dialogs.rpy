@@ -43,7 +43,7 @@
     new "Ой! Госпожа!"
 
     old "While I looked away for just a moment, you dress the maid up in strange clothes and grin like an idiot. You've got some nerve, Saito.{#ch20_l_002}"
-    new "Стоило мне отвернуться на миг, как ты нарядил горничную в странную одежду и ухмыляешься. Храбрости тебе не занимать, Сайто."
+    new "Ну и наглость у тебя, Сайто…"
 
     old "S-Saito-san! I have some work to do, so excuse me!{#ch20_si_005}"
     new "С-Сайто-сан! Мне пора работать, извините!"
@@ -225,8 +225,8 @@
     old "Well, that's the real purpose of this punishment, though.{#ch20_l_030}"
     new "Ну, в этом и заключается истинная цель этого наказания."
 
-    old "If you've learned your lesson, you won't neglect me again.{#ch20_l_031}"
-    new "Если ты усвоишь урок, больше не будешь пренебрегать мной."
+    old "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
+    new "Если усвоишь урок — больше не смей пренебрегать мной, ладно."
 
     old "(My head is spinning. Why is Louise fine with this?){#ch20_s_041}"
     new "У меня голова идёт кругом. Почему Луизе нормально?"

@@ -16,7 +16,7 @@
     old "…{#ch11_k_007}"
     new "…"
 
-    old "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
+    old "Ugh, my shoulders are all stiff. Maybe it's all this sullen talk that doesn't suit me… {#ch11_k_008}"
     new "Ух, прямо затекли плечи. / Наверное, от всех этих мрачных разговоров, которые мне не к лицу."
 
     old "Hmph. What's with that attitude!{#ch11_l_016}"
@@ -118,7 +118,7 @@
     old "Eh? Mission? What do you mean?{#ch11_ha_034}"
     new "А? Задание? О чём вы?"
 
-    old "I see. So Akina hasn't awakened yet.{#ch11_w_010}"
+    old "I see. It seems Akina hasn't awakened yet, has she? {#ch11_w_010}"
     new "Понятно. Похоже, Акина ещё не проснулась."
 
     old "Akina? I'm Haruna, though.{#ch11_ha_035}"
@@ -172,7 +172,7 @@
     old "Wait! Haruna!{#ch11_w_020}"
     new "Стой! Харуна!"
 
-    old "Damn, that speed! Between that and the earlier resistance, Akina's power must be awakening!{#ch11_w_021}"
+    old "Damn, that speed! Between that and the earlier resistance—could Akina's power be awakening?! {#ch11_w_021}"
     new "Чёрт, эта скорость! И это сопротивление… неужели сила Акины начинает просыпаться?"
 
     old "Tch, I won't let you get away!{#ch11_w_022}"

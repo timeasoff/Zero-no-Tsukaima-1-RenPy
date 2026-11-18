@@ -17388,7 +17388,7 @@ translate japanese strings:
     old "I went to see how things were in town. We visited crowded places and listened to what people were saying."
     new "街の様子を見てきたんだ。 人の集まるところを回りながら、 街の人がしてる噂やら聞いたり。"
 
-    old "I see... So the princess is still wavering in her confidence as queen."
+    old "I wonder… is her confidence as queen still wavering, after all?"
     new "そう……。 姫さま……やっぱり、女王としての自信が、 まだ揺らいでるのかしら。"
 
     old "Yeah. So I took her to a dining hall to help take her mind off it."

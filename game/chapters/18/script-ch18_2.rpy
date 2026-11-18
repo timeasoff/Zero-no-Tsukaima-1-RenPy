@@ -834,7 +834,7 @@ label ch18_2_scene_709:
 
     # デルフリンガー：何もその娘を殺せって言ってるわけ
     voice "ch18_d_019"
-    d "I'm not saying kill her, you idiot!{#ch18_d_019}"
+    d "I'm not saying kill her! {#ch18_d_019}"
 
     # [BG       stage    vibrate=7]
     # [EVENT_CG event    vibrate=7]

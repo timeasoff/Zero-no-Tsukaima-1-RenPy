@@ -69,7 +69,7 @@ label ch21_1_scene_771:
     # [SPRITE   lay6     image=+676, level=160, dir=1A]
     # キュルケ：もっと前向きに考えなさいよ。
     voice "ch21_k_002"
-    k "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
+    k "Look on the bright side. You'll go bald, you know? {#ch21_k_002}"
 
     # [SPRITE   lay1     image=+372, level=160, dir=3A]
     # ルイズ：んなっ……キュルケっ！？  [voice 6543]

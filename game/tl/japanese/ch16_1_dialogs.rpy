@@ -321,7 +321,7 @@
     old "I don't quite get it, but… Okay.{#ch16_k_037}"
     new "キュルケ：なんか、よく分かんないけど……。分かった。"
 
-    old "Well, I'm just entrusting him to you… Just don't let that Louise break him. {#ch16_ha_020}"
+    old "Well, I'm just entrusting him to you… I just hope that Louise-san doesn't break him. {#ch16_ha_020}"
     new "ハルナ：まあ、預けるだけですけどね。あのルイズさんに壊されたりしないように。"
 
     old "What are you talking about?{#ch16_s_028}"

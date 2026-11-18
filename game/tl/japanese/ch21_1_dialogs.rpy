@@ -21,7 +21,7 @@
     old "What was that!?{#ch21_l_003}"
     new "ルイズ：なんですってぇ！？"
 
-    old "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
+    old "Look on the bright side. You'll go bald, you know? {#ch21_k_002}"
     new "キュルケ：もっと前向きに考えなさいよ。はげるわよ？"
 
     old "Wha—! Kirche!?{#ch21_l_004}"

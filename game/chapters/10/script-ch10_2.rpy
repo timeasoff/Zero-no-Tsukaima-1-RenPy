@@ -588,7 +588,7 @@ label ch10_2:
         # JA[16076]: ウェザリー：聞けば、生徒ではないとか……。
         # ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。  [voice 16077]
         voice "ch10_w_005"
-        w "Therefore if possible / I'd like to scout you for our theater troupe. {#ch10_w_005}"
+        w "Therefore, if you would be so kind — I came to ask whether you might allow us to scout you for our troupe. {#ch10_w_005}"
         # JA[16077]: ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。
         # オスマン：スカウト……じゃと？  [voice 4509]
         voice "ch10_o_010"

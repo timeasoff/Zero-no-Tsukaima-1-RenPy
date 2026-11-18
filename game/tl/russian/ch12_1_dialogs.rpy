@@ -28,8 +28,8 @@
     old "You answered a bit too slowly. You're worried about Haruna, aren't you?{#ch12_l_004}"
     new "Ты ответил как-то вяло… Ты беспокоишься о Харуне, да?"
 
-    old "W-What are you talking about! That's… never mind.{#ch12_s_003}"
-    new "Ч-Что ты говоришь! Это… неважно."
+    old "W-What are you talking about! That's… that's… {#ch12_s_003}"
+    new "Ч-Что ты говоришь! Это… это…"
 
     old "Hmph, don't lie to me! You hesitated before answering.{#ch12_l_005}"
     new "Хм, не лги мне! Ты поколебался, прежде чем ответить."
@@ -89,7 +89,7 @@
     new "Начнём с театра, наверное…"
 
     old "(Please be safe!){#ch12_s_013}"
-    new "Только бы она была жива!"
+    new "Только бы она была в безопасности!"
 
     old "Haa, haa haa…{#ch12_s_014}"
     new "Хаа, хаа-хаа…"
@@ -314,7 +314,7 @@
     new "Уф-фу. Ой, Сайто, что с тобой?"
 
     old "You don't have to be shy, you know?{#ch12_ha_005}"
-    new "Ты можешь не стесняться."
+    new "Ведь не надо стесняться, правда?"
 
     old "Who are you?{#ch12_s_025}"
     new "Кто ты?"

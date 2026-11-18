@@ -178,8 +178,8 @@ translate russian strings:
     old "Understood! {#ch8_o_005}"
     new "Понял!"
 
-    old "Alright, let's head to the roof! From there, you can use your magic to take them all down! {#ch8_s_095}"
-    new "Хорошо, на крышу! Оттуда ты сможешь разобраться со всеми!"
+    old "Alright, let's head to the roof! From there, with your magic you can finish them all off in one go, right? {#ch8_s_095}"
+    new "Ладно, выйдем на крышу! Оттуда ты сможешь разобраться со всеми сразу, да?"
 
     old "Yes, please rely on me. I'll show you my true power! {#ch8_l_062}"
     new "Да, рассчитывайте на меня. Покажу свою истинную силу!"
@@ -205,8 +205,8 @@ translate russian strings:
     old "What!? {#ch8_s_098}"
     new "Что!?"
 
-    old "Surprised? You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
-    new "Удивлён? Ты действительно добрался до сюда. Я недооценил тебя."
+    old "Well, I'm surprised. You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
+    new "Вот это сюрприз, однако! Вы и правда зашли так далеко… Я вас недооценила."
 
     old "I'm not in the mood for fighting anymore. Just stay here. {#ch8_ak_001}"
     new "Уже не в духе драться. Просто оставайся здесь."
@@ -436,8 +436,8 @@ translate russian strings:
     old "Louise… and my familiars, thank you. Thanks to you, this country was saved. {#ch8_h_092}"
     new "Луиза… и мои фамильяры, спасибо. Благодаря вам эта страна спасена."
 
-    old "And I… also… will do my best. {#ch8_h_093}"
-    new "И я… тоже… сделаю всё возможное."
+    old "And I… also… {#ch8_h_093}"
+    new "И я… тоже…"
 
     old "What? {#ch8_s_115}"
     new "Что?"

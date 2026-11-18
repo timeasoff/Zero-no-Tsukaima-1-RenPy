@@ -381,7 +381,7 @@ label ch20_scene_769:
 
     # ルイズ：これに懲りたらもう、わたしをないがしろに
     voice "ch20_l_031"
-    l "If you've learned your lesson, you won't neglect me again.{#ch20_l_031}"
+    l "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
 
     # サイト：（目の前がくらくらしてくる。
     s "(My head is spinning. Why is Louise fine with this?){#ch20_s_041}"

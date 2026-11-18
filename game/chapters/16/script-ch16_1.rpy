@@ -680,7 +680,7 @@ label ch16_1_scene_665:
     # [SPRITE   lay7     image=+986, level=160, dir=2A]
     # ハルナ：まあ、預けるだけですけどね。
     voice "ch16_ha_020"
-    ha "Well, I'm just entrusting him to you… Just don't let that Louise break him. {#ch16_ha_020}"
+    ha "Well, I'm just entrusting him to you… I just hope that Louise-san doesn't break him. {#ch16_ha_020}"
 
     # [SPRITE   lay7     x=-96, y=0]
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
