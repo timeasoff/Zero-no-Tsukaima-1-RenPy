@@ -104,7 +104,7 @@ translate russian strings:
 
     # kormeshka_event
     old "Looks like I'm actually getting hungry..."
-    new "Похоже, я и правда проголодался..."
+    new "Похоже, я и правда проголодался…"
 
     old "Yep! Starving, totally starving!!"
     new "Угу! Голоден, очень голоден!!"
@@ -116,7 +116,7 @@ translate russian strings:
     new "Это что, какое-то наказание?"
 
     old "Ahh..."
-    new "А-а-а..."
+    new "А-а-а…"
 
     old "Does this have poison in it or something?"
     new "Там внутри, часом, не отрава?"
@@ -131,13 +131,13 @@ translate russian strings:
     new "Выхватить книгу"
 
     old "I thought I might clean the room a bit..."
-    new "Думал, может, немного прибрать в комнате..."
+    new "Думал, может, немного прибрать в комнате…"
 
     old "Nothing special."
     new "Ничего особенного."
 
     old "There's something I want to ask Haruna right away..."
-    new "Мне нужно кое-что спросить у Харуны, и поскорее..."
+    new "Мне нужно кое-что спросить у Харуны, и поскорее…"
 
     old "Come on, can't something be done about that?"
     new "Ну нельзя ли как-нибудь это уладить?"

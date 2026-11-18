@@ -920,9 +920,22 @@ Mechanical (2026-11-18): `check_project` errors=0/warnings=312; `check_renpy_syn
 * Архитектура порта: PS2-ветки реализованы линейными блоками внутри `menu:` с комментариями `SCENE 69/70/…` (проверено `script-ch2_1.rpy:87–140`), поэтому поиск «jump в течение 25 строк» из round 88 давал ложные «no-jump» — это не баг.
 * Новых ошибок нет; правок кода нет.
 
+## Проверка перевода глав 2–5 по правилам скиллов (round 90)
+
+Скиллы: `tl-en-ru` (EN — база; JA — канон, не правится), `russian-prose-rules`, `russian-grammar-control`, `dictionary.md`/`addresses.md`. EN не менял; JA не менял.
+
+* `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; отступы 0; U+FFFD 0.
+* `check_typography` до правки: 48 errors (45 ELLIPSIS `...` вместо `…`, 2 QUOTES, 1 BRACKET_THOUGHT гл. 8).
+* **Исправлено 46 RU `new`-строк** (только RU, `new`): `...`→`…` в `ch5_7_choises.rpy:5`, `choises.rpy:107/119/134/140`, `dialogs.rpy:3360`, `thoughs.rpy` (40 строк); кавычки `\"…\"`→`«…»` в `thoughs.rpy:123` (по `russian-prose-rules`). Все правки форматные, смысл не меняют.
+* `common.rpy` (read-only) был задет массовой заменой — немедленно восстановлен (diff пустой).
+* Оставшаяся 1 error `BRACKET_THOUGHT` — `game/tl/japanese/ch8_3_thoughs.rpy:24` (гл. 8, JA-дубль из round 60), вне объёма глав 2–5; JA не трогал.
+* 7 warnings DOUBLE_SPACE — косметика, не правила перевода; не трогал.
+
+Счётчик обновлён до 90; коммит обновляет RU-строки и отчёт.
+
 ## where I stopped
 
-- Текущая фаза: **главы 6–9 завершены** (rounds 1–89); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
+- Текущая фаза: **главы 6–9 завершены** (rounds 1–90); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
 - **Единственный источник счётчика раундов — эта строка.** Мета выше на конкретные числа не ссылается; при новом раунде обновлять только её, чтобы избежать дрейфа.
 - Инструменты: `check_renpy_syntax`, `check_project`, `check_typography`, `check_placeholders`, `check_assets`, `check_voice_transcriptions`, `omission_precheck`; сканер отступов `C:/Users/user/AppData/Local/Temp/opencode/qa_indent_all.py`; валидатор `qa_pyindent2.py`.
 - Важно: `check_renpy_syntax.py` не ловит отступы внутри `menu:` — всегда запускать оба сканера.

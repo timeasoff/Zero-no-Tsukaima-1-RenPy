@@ -3354,7 +3354,7 @@ translate russian strings:
     new "?"
 
     old "Game Over..."
-    new "Игра окончена..."
+    new "Игра окончена…"
 
     old "test"
     new "тест"
