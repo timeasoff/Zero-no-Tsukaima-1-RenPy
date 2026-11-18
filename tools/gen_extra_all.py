@@ -39,22 +39,21 @@ def main():
             continue
         lines.append('label %s_scene_%d:' % (prefix, s['no']))
         lines.append('')
-        ordn = 0
-        for it in s['items']:
+        for item_i, it in enumerate(s['items']):
             k = it['kind']
             if k == 'event':
                 event(it['src'], lines)
             elif k == 'dlg':
-                key = ('d%d' % it['voice']) if it['voice'] is not None else 's%d_%d' % (s['no'], ordn)
-                pair = trans.get(key)
+                key = ('d%d' % it['voice']) if it['voice'] is not None else 's%d_0' % s['no']
+                key_new = 's%d_%d' % (s['no'], item_i)
+                pair = trans.get(key_new) or trans.get(key)
                 if pair is None:
-                    missing.append(key)
+                    missing.append(key + '/' + key_new)
                     lines.append('    # MISSING %s: %s' % (key, it['ja'][:50].replace('\n', ' ')))
-                    ordn += 1
                     continue
                 en, ru = en_norm(pair[0]), pair[1]
                 tag = '%s_%03d' % (prefix, si)  # tag per scene, not per dlg (tags unique anyway)
-                tag = '%s_s%d_%03d' % (prefix, s['no'], ordn)
+                tag = '%s_s%d_%03d' % (prefix, s['no'], item_i)
                 full = '%s{#%s}' % (en, tag)
                 lines.append('    # ' + it['ja'][:55].replace('\n', ' '))
                 if it['voice'] is not None:
@@ -68,7 +67,6 @@ def main():
                 ja_d += ['    old "%s"' % full, '    new "%s"' % ja_new, '']
                 ru_d += ['    old "%s"' % full, '    new "%s"' % ru, '']
                 lines.append('')
-                ordn += 1
             elif k == 'choice':
                 key = 'c%d_%d' % (s['no'], it['target'])
                 pair = trans.get(key)
