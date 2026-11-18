@@ -159,7 +159,7 @@
     old "E-Eh? You… You kissed me…!?{#ch19_s_302}"
     new "サイト：え、えぇっ？おま、おまえ……。俺に、キス……！？"
 
-    old "T-That was… This was…! D-Don't get the wrong idea!{#ch19_l_240}"
+    old "T-That was… This was…! Ka-ka-ka-ka… D-Don't get the wrong idea!{#ch19_l_240}"
     new "ルイズ：あ、あのっ……こ、これっ、これはっ……！か、かかかかか……勘違いしないでよっ！"
 
     old "You really never listen to your mistress…{#ch19_l_241}"
@@ -204,7 +204,7 @@
     old "Yes, yes. See you later, darling, Tabitha.{#ch19_k_056}"
     new "キュルケ：はいはい。それじゃね、ダーリン、タバサ。後でまた会うわよ。"
 
-    old "You're a naughty familiar who doesn't listen to your mistress!{#ch19_l_246}"
+    old "You're a cocky familiar who doesn't listen to your mistress!{#ch19_l_246}"
     new "ルイズ：あんたは生意気でご主人様の言うことを聞かない悪い使い魔よ！"
 
     old "So once the academy is back to normal and the capital is saved, I'm going to re-educate you, absolutely!{#ch19_l_247}"
@@ -288,7 +288,7 @@
     old "Oh, I heard you perfectly. You declared you'd re-educate darling.{#ch19_k_066}"
     new "キュルケ：あら、あたしはばっちり聞いてたわよ。あなたがダーリンを再教育するつもりだって宣言しちゃったこと。"
 
-    old "Poor darling, stuck with a mistress like Louise.{#ch19_k_067}"
+    old "Poor darling, stuck with a brutal mistress like Louise.{#ch19_k_067}"
     new "キュルケ：ダーリンも哀れよねぇ、ルイズみたいな凶暴なご主人様で。"
 
     old "You know what Louise is like. She'll throw darling out of her room, skip his meals, and mistreat him.{#ch19_k_068}"

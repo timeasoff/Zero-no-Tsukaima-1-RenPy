@@ -79,16 +79,16 @@
     new "Я правда волнуюсь."
 
     old "What's that? Don't you trust me? That hurts a little.{#ch19_s_292}"
-    new "Что это? Ты мне не доверяешь? Мне даже обидно."
+    new "Что это? Ты мне не доверяешь? Мне немного обидно."
 
     old "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
-    new "Н-Нет, не то… Я доверяю, просто…"
+    new "Н-Нет, не то… Я же не то чтобы не доверяю… просто…"
 
     old "Oh, Louise. Are you worried about darling?{#ch19_k_051}"
-    new "О, Луиза. Ты волнуешься за дорогого?"
+    new "О, Луиза. Неужто ты волнуешься за дорогого?"
 
     old "W-What… It's only natural to worry about your own familiar.{#ch19_l_231}"
-    new "Ч-Что… Волноваться за своего фамильяра — естественно."
+    new "Ч-Что… Волноваться за своего фамильяра — ничего дурного, правда?"
 
     old "What are you talking about, Louise? I'm more worried about you.{#ch19_s_293}"
     new "Что ты говоришь, Луиза? Я больше волнуюсь за тебя."
@@ -159,8 +159,8 @@
     old "E-Eh? You… You kissed me…!?{#ch19_s_302}"
     new "А-А? Ты… Ты меня поцеловала…!?"
 
-    old "T-That was… This was…! D-Don't get the wrong idea!{#ch19_l_240}"
-    new "Т-То было… Это было…! Н-Не подумай чего!"
+    old "T-That was… This was…! Ka-ka-ka-ka… D-Don't get the wrong idea!{#ch19_l_240}"
+    new "Т-То было… Это было…! К-Ка-ка-ка-ка… Н-Не подумай чего!"
 
     old "You really never listen to your mistress…{#ch19_l_241}"
     new "Ты и правда никогда не слушаешь госпожу…"
@@ -190,7 +190,7 @@
     new "Плохо. Сердце заколотилось именно сейчас. Поцелуй, однако…"
 
     old "Saito, your face is bright red.{#ch19_t_039}"
-    new "Сайто, у тебя лицо красное."
+    new "Сайто, у тебя лицо прямо красное."
 
     old "Ooh, you're young, partner. But the rest comes after the operation.{#ch19_d_033}"
     new "О-о, ты молод, приятель. Но продолжение — после операции."
@@ -204,8 +204,8 @@
     old "Yes, yes. See you later, darling, Tabitha.{#ch19_k_056}"
     new "Да-да. До встречи, дорогой, Табаса."
 
-    old "You're a naughty familiar who doesn't listen to your mistress!{#ch19_l_246}"
-    new "Ты непослушный фамильяр, который не слушает госпожу!"
+    old "You're a cocky familiar who doesn't listen to your mistress!{#ch19_l_246}"
+    new "Ты дерзкий непослушный фамильяр, который не слушает госпожу!"
 
     old "So once the academy is back to normal and the capital is saved, I'm going to re-educate you, absolutely!{#ch19_l_247}"
     new "Так что когда академия вернётся в норму и столица будет спасена, я тебя непременно перевоспитаю!"
@@ -288,8 +288,8 @@
     old "Oh, I heard you perfectly. You declared you'd re-educate darling.{#ch19_k_066}"
     new "О, я всё отлично слышала. Ты заявила, что перевоспитаешь дорогого."
 
-    old "Poor darling, stuck with a mistress like Louise.{#ch19_k_067}"
-    new "Бедный дорогой — с такой госпожой, как Луиза."
+    old "Poor darling, stuck with a brutal mistress like Louise.{#ch19_k_067}"
+    new "Бедный дорогой — с такой свирепой госпожой, как Луиза."
 
     old "You know what Louise is like. She'll throw darling out of her room, skip his meals, and mistreat him.{#ch19_k_068}"
     new "Ты знаешь Луизу. Выгонит дорогого из комнаты, лишит еды, будет обижать его."

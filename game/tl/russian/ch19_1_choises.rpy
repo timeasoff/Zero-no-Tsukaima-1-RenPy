@@ -1,7 +1,7 @@
 # translate russian strings:
 
-    old "Saito and I split up?{#ch19_1_c_739_1}"
-    new "Мы с Сайто действуем раздельно?"
+    old "Louise and I split up?{#ch19_1_c_739_1}"
+    new "Мы с Луизой действуем раздельно?"
 
     old "If we can link up with Kirche and Tabitha{#ch19_1_c_739_2}"
     new "Если получится соединиться с Кирке и Табасой"

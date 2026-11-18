@@ -33,7 +33,7 @@
     old "Weatherly-sama…{#ch19_ak_007}"
     new "アキナ：ウェザリー様……。"
 
-    old "I'll just use my magic. Just watch.{#ch19_w_010}"
+    old "I'll just use my magic. Take this!{#ch19_w_010}"
     new "ウェザリー：わたしが魔法を使えばいいだけの話よ。くらいなさい。"
 
     old "What! Why isn't it working?{#ch19_w_011}"
@@ -126,7 +126,7 @@
     old "She just wanted to live quietly in her home village with its people. That alone made her happy.{#ch19_ak_013}"
     new "アキナ：ただ、故郷の村で、村の人達と静かに暮らしていければ、それだけで幸せだったんだ。"
 
-    old "And that was taken away…{#ch19_ak_014}"
+    old "And that…{#ch19_ak_014}"
     new "アキナ：それを……。"
 
     old "One day, Tristain stripped her of her noble status and took the village away.{#ch19_ak_015}"
@@ -144,7 +144,7 @@
     old "My father was a noble, my mother a beast-person. Father lost his noble status for marrying her, and we were driven from our manor and lands.{#ch19_w_022}"
     new "ウェザリー：わたしの父は貴族、母は獣人。父は母をめとったことで貴族の資格を剥奪され、館も土地も追われたのだ。"
 
-    old "I can never forgive Tristain for that.{#ch19_w_023}"
+    old "I can never forget what Tristain did.{#ch19_w_023}"
     new "ウェザリー：トリステインのこの行為をわたしは、決して忘れることはできない。"
 
     old "Really?{#ch19_t_048}"
@@ -216,7 +216,7 @@
     old "S-Siesta! I'm glad you're safe too.{#ch19_s_326}"
     new "サイト：シ、シエスタ！シエスタも無事で良かったよ。"
 
-    old "Listen, Saito-san. When I came to, I was tied up with rope inside Miss Valliere's closet.{#ch19_si_002}"
+    old "Listen, Saito-san. When I came to, I was tied up with rope inside Miss Valliere's chest of drawers.{#ch19_si_002}"
     new "シエスタ：聞いてくださいよ、サイトさん。気がついたら、ミス・ヴァリエールの部屋のタンスの中で縄でしばられていたんですよ。"
 
     old "I was so scared, so scared… But somehow the rope loosened, and I could run to you.{#ch19_si_003}"
@@ -288,7 +288,7 @@
     old "You looked away, didn't you?{#ch19_si_008}"
     new "シエスタ：目……そらしましたね？"
 
-    old "Miss Valliere! We formed an alliance, didn't we? No going behind each other's backs!{#ch19_si_009}"
+    old "Miss Valliere! We formed an alliance, didn't we? No going off on your own!{#ch19_si_009}"
     new "シエスタ：ミス・ヴァリエール！わたし達同盟を結びましたよね。抜け駆け絶対禁止って！"
 
     old "You betrayed me! That's awful!{#ch19_si_010}"

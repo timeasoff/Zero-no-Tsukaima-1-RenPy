@@ -1,6 +1,6 @@
 # translate japanese strings:
 
-    old "Saito and I split up?{#ch19_1_c_739_1}"
+    old "Louise and I split up?{#ch19_1_c_739_1}"
     new "俺とルイズは、別行動ですか？"
 
     old "If we can link up with Kirche and Tabitha{#ch19_1_c_739_2}"

@@ -73,7 +73,7 @@ label ch19_3_scene_764:
 
     # ウェザリー：わたしが魔法を使えばいいだけの話よ。
     voice "ch19_w_010"
-    w "I'll just use my magic. Just watch.{#ch19_w_010}"
+    w "I'll just use my magic. Take this!{#ch19_w_010}"
 
     # [SE       se0      play=+94]
     # [LAYER    white    image=+2, level=0]
@@ -248,7 +248,7 @@ label ch19_3_scene_765:
 
     # アキナ：それを……。  [voice 104]
     voice "ch19_ak_014"
-    ak "And that was taken away…{#ch19_ak_014}"
+    ak "And that…{#ch19_ak_014}"
 
     # [SPRITE   lay21    image=+1021, level=160, dir=1A]
     # アキナ：ある時、トリステインによって、
@@ -277,7 +277,7 @@ label ch19_3_scene_765:
     # [SPRITE   lay20    image=+1065, level=160, dir=1A]
     # ウェザリー：トリステインのこの行為をわたしは、
     voice "ch19_w_023"
-    w "I can never forgive Tristain for that.{#ch19_w_023}"
+    w "I can never forget what Tristain did.{#ch19_w_023}"
 
     # [SPRITE   lay10    hide]
     # [LAYER    lay0     image=+588, level=160, dir=1A]
@@ -414,7 +414,7 @@ label ch19_3_scene_765:
     # [SPRITE   lay2     image=+526, level=160, dir=2A]
     # シエスタ：聞いてくださいよ、サイトさん。
     voice "ch19_si_002"
-    si "Listen, Saito-san. When I came to, I was tied up with rope inside Miss Valliere's closet.{#ch19_si_002}"
+    si "Listen, Saito-san. When I came to, I was tied up with rope inside Miss Valliere's chest of drawers.{#ch19_si_002}"
 
     # [SPRITE   lay2     image=+528, level=160, dir=2A]
     # シエスタ：わたし、怖くて、怖くて……。
@@ -561,7 +561,7 @@ label ch19_3_scene_766:
     # [SPRITE   lay2     image=+494, level=140, dir=1A]
     # シエスタ：ミス・ヴァリエール！
     voice "ch19_si_009"
-    si "Miss Valliere! We formed an alliance, didn't we? No going behind each other's backs!{#ch19_si_009}"
+    si "Miss Valliere! We formed an alliance, didn't we? No going off on your own!{#ch19_si_009}"
 
     # [SPRITE   lay2     image=+527, level=140, dir=2A]
     # シエスタ：裏切ったんですね！

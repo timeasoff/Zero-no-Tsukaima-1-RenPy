@@ -5106,3 +5106,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PROVISIONAL: `ブレザー` → «блейзер»; `スクール水着` → «школьный купальник»; `お仕置き` → «наказание»; `再教育` → «перевоспитание»; заглушки `id(K)`.
 - проверки: `check_project.py` OK; `check_renpy_syntax.py --chapter 20` OK; `check_typography.py --chapter 20 --lang ru/en` OK; `omission_precheck --chapter 20` 0 кандидатов.
 - отчёт: `reports/ch20/1.md`; выход `jump attention` (конец портированного контента).
+
+
+## 2026-11-18 — Глава 19: аудиты A/C/Analyzer Ф1+Ф2 применены
+
+- 9 субагентов (A/C/Ф1 для ч.1–3). Находки: ч.1 — 6 ERROR/1 WARNING/2 CANDIDATE (A) + 2 ERROR/6 CANDIDATE (C); ч.2 — 1 WARNING/4 CANDIDATE (A) + 1 WARNING/2 CANDIDATE (C); ч.3 — 1 ERROR/4 WARNING/4 CANDIDATE (A) + 1 WARNING (C).
+- Ключевые ERROR (JA-опора): `俺とルイズは` → 4× подмена говорящего Сайто вместо Луизы (EN/RU исправлено, включая menu); `あたし…耳栓` → субъект Кирке (не Сайто); `なんで、わたしに聞かないのよ` → утрачено отрицание; `倒しちゃって本当にいいのかな` → этическое сомнение подменено вопросом о возможности; `決して忘れることはできない` → «забыть», не «простить» (JA > EN).
+- Disposition: ч.1 — 13 FIXED; ч.2 — 7 FIXED, 1 PRESERVED — FUNCTIONAL (скобки мыслей в RU); ч.3 — 9 FIXED, 1 PRESERVED — FUNCTIONAL.
+- Отчёты: `reports/sma/ch19/{1,2,3}/analysis/20261118-031000-phase2.md`.
+- Проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 19` OK, `check_typography.py --chapter 19 --lang ru` OK.

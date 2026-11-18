@@ -158,7 +158,7 @@ label ch19_1_scene_739:
     s "Ugh… True.{#ch19_s_251}"
 
     menu:
-        "Saito and I split up?{#ch19_1_c_739_1}":
+        "Louise and I split up?{#ch19_1_c_739_1}":
             jump ch19_1_scene_740
         "If we can link up with Kirche and Tabitha{#ch19_1_c_739_2}":
             jump ch19_1_scene_741
@@ -176,7 +176,7 @@ label ch19_1_scene_740:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：俺とルイズは、どうあっても別行動を
     voice "ch19_s_252"
-    s "Saito and I have to act separately no matter what, don't we.{#ch19_s_252}"
+    s "Louise and I have to act separately no matter what, don't we.{#ch19_s_252}"
 
     # [SPRITE   lay9     image=+933, level=160, dir=1A]
     # コルベール：酷な話ではあるが、それしか作戦を成功させる
@@ -231,12 +231,12 @@ label ch19_1_scene_742:
     # [SPRITE   lay9     image=+935, level=160, dir=1A]
     # コルベール：サイトくん、残念ながら……、
     voice "ch19_c_093"
-    c "Saito-kun, I'm afraid the idea of doing one first doesn't really apply here.{#ch19_c_093}"
+    c "Saito-kun, I'm afraid doing one first is rather difficult here.{#ch19_c_093}"
 
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：つまり、俺とルイズは、別行動をとる必要が
     voice "ch19_s_256"
-    s "So Saito and I need to split up, is that it?{#ch19_s_256}"
+    s "So Louise and I need to split up, is that it?{#ch19_s_256}"
 
     # → next scene 743
     jump ch19_1_scene_743
@@ -673,7 +673,7 @@ label ch19_1_scene_749:
 
     # キュルケ：それより、ダーリン。
     voice "ch19_k_040"
-    k "More importantly, darling—why are you wearing earplugs?{#ch19_k_040}"
+    k "More importantly, darling—why am I wearing earplugs?{#ch19_k_040}"
 
     # サイト：いや、それがだなぁ……。  [voice 11946]
     voice "ch19_s_278"
@@ -734,7 +734,7 @@ label ch19_1_scene_749:
     # [SPRITE   lay1     image=+335, level=156, dir=2A]
     # ルイズ：なんで、わたしに聞かないのよ。  [voice 6472]
     voice "ch19_l_211"
-    l "Why are you asking me?{#ch19_l_211}"
+    l "Why aren't you asking me?{#ch19_l_211}"
 
     # [SPRITE   lay6     image=+678, level=154, dir=1A]
     # キュルケ：あら？

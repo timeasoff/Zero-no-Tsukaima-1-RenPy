@@ -355,7 +355,7 @@ label ch19_2_scene_756:
 
     # ルイズ：あ、あのっ……こ、これっ、これはっ……！
     voice "ch19_l_240"
-    l "T-That was… This was…! D-Don't get the wrong idea!{#ch19_l_240}"
+    l "T-That was… This was…! Ka-ka-ka-ka… D-Don't get the wrong idea!{#ch19_l_240}"
 
     # ルイズ：あんたは、ほんとにまったくご主人様の
     voice "ch19_l_241"
@@ -459,7 +459,7 @@ label ch19_2_scene_757:
     # [SPRITE   lay1     image=+339, level=156, dir=2A]
     # ルイズ：あんたは生意気でご主人様の言うことを
     voice "ch19_l_246"
-    l "You're a naughty familiar who doesn't listen to your mistress!{#ch19_l_246}"
+    l "You're a cocky familiar who doesn't listen to your mistress!{#ch19_l_246}"
 
     # ルイズ：だから、学院が元に戻って王都も助かったら！
     voice "ch19_l_247"
@@ -659,7 +659,7 @@ label ch19_2_scene_761:
     # [SPRITE   lay6     image=+715, level=160, dir=2A]
     # キュルケ：ダーリンも哀れよねぇ、ルイズみたいな
     voice "ch19_k_067"
-    k "Poor darling, stuck with a mistress like Louise.{#ch19_k_067}"
+    k "Poor darling, stuck with a brutal mistress like Louise.{#ch19_k_067}"
 
     # キュルケ：どうせルイズのことだから、
     voice "ch19_k_068"

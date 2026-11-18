@@ -1,7 +1,7 @@
 # translate russian strings:
 
     old "(The morning of the operation has finally arrived.){#ch19_s_248}"
-    new "Наконец наступило утро дня операции."
+    new "Вот и наступило утро дня операции."
 
     old "Well, let's go over the situation.{#ch19_c_075}"
     new "Итак, подведём итоги обстановки."
@@ -10,7 +10,7 @@
     new "Наша главная цель: мисс Вальер применяет магию Пустоты и уничтожает врагов…"
 
     old "Are we agreed so far?{#ch19_c_077}"
-    new "До сюда всё понятно?"
+    new "До сюда всё в порядке?"
 
     old "Yes.{#ch19_s_249}"
     new "Да."
@@ -78,8 +78,8 @@
     old "Ugh… True.{#ch19_s_251}"
     new "Ох… Верно."
 
-    old "Saito and I have to act separately no matter what, don't we.{#ch19_s_252}"
-    new "Мы с Сайто в любом случае должны действовать раздельно, да?"
+    old "Louise and I have to act separately no matter what, don't we.{#ch19_s_252}"
+    new "Мы с Луизой в любом случае должны действовать раздельно, да?"
 
     old "It's a cruel thing to say, but there's no other way to make the plan work.{#ch19_c_090}"
     new "Жестко, но другого пути к успеху операции нет."
@@ -99,11 +99,11 @@
     old "Which should we do first…?{#ch19_s_255}"
     new "Что же делать сперва…?"
 
-    old "Saito-kun, I'm afraid the idea of doing one first doesn't really apply here.{#ch19_c_093}"
-    new "Сайто-кун, боюсь, здесь нельзя делать сначала одно, а потом другое."
+    old "Saito-kun, I'm afraid doing one first is rather difficult here.{#ch19_c_093}"
+    new "Сайто-кун, боюсь, здесь сложно сделать сначала одно, а потом другое."
 
-    old "So Saito and I need to split up, is that it?{#ch19_s_256}"
-    new "Значит, нам с Сайто нужно разделиться, да?"
+    old "So Louise and I need to split up, is that it?{#ch19_s_256}"
+    new "Значит, нам с Луизой нужно разделиться, да?"
 
     old "Ah… It's a plan full of holes, but even so, we have no choice but to do it.{#ch19_c_094}"
     new "Ах… План полный дыр, но даже так нам нечего делать, кроме как идти."
@@ -130,7 +130,7 @@
     new "Выход к самому короткому пути на крышу — здесь."
 
     old "So Saito and I split up here? Ah, but at this distance it's practically just around the corner.{#ch19_s_257}"
-    new "Значит, мы с Сайто здесь расстанемся? А, но на этом расстоянии это буквально рукой подать."
+    new "Значит, мы с Луизой здесь расстанемся? А, но на этом расстоянии это буквально рукой подать."
 
     old "The wind is at our backs. Oh, there's one more thing I should give you.{#ch19_c_100}"
     new "Ветер в нашу пользу. Ах, ещё кое-что я должен вам передать."
@@ -166,7 +166,7 @@
     new "Я отомщу Уэзерби и Акине за это сторицей!"
 
     old "That's just it… Are we really okay with defeating those two?{#ch19_s_261}"
-    new "В том-то и дело… Мы и правда можем победить этих двоих?"
+    new "В том-то и дело… Но правильно ли мы поступим, победив этих двоих?"
 
     old "Hah? What nonsense are you talking. They're invaders!{#ch19_l_199}"
     new "А? Что за вздор. Они захватчики!"
@@ -178,7 +178,7 @@
     new "Что? Ты говоришь очень нерешительно."
 
     old "At least Akina is just a personality implanted in Haruna's mind. Her body is Haruna's, isn't it?{#ch19_s_263}"
-    new "По крайней мере Акина — лишь личность, внедрённая в разум Харуны. А тело Харуно, верно?"
+    new "По крайней мере Акина — лишь личность, внедрённая в разум Харуны. А тело Харуны, верно?"
 
     old "Hurting Akina means hurting Haruna…{#ch19_s_264}"
     new "Ранить Акину — значит ранить Харуну…"
@@ -223,7 +223,7 @@
     new "Об этом подумаем, когда всё кончится. Сейчас не время сомневаться."
 
     old "I know. I know it, but…{#ch19_s_272}"
-    new "Я знаю. Я знаю, но…"
+    new "Я вроде понимаю, но…"
 
     old "…{#ch19_l_207}"
     new "…"
@@ -247,7 +247,7 @@
     new "Нет, могут быть союзники. Сначала посмотрим, кто это."
 
     old "They're coming, partner… That's it!{#ch19_d_029}"
-    new "Они идут, приятель… Это что такое!"
+    new "Они идут, приятель… А, вот оно!"
 
     old "Who's there!? Huh? It's Kirche and Tabitha.{#ch19_s_275}"
     new "Кто там!? А? Это Кирке и Табаса."
@@ -297,14 +297,14 @@
     old "Indeed, I have no memory after that.{#ch19_k_039}"
     new "Да, после этого я ничего не помню."
 
-    old "More importantly, darling—why are you wearing earplugs?{#ch19_k_040}"
-    new "Главное, дорогой — почему у тебя беруши?"
+    old "More importantly, darling—why am I wearing earplugs?{#ch19_k_040}"
+    new "Главное, дорогой — почему это я ношу беруши?"
 
     old "Well, that's the thing…{#ch19_s_278}"
     new "Ну, в том-то и дело…"
 
     old "I thought so. Tabitha said as much—that there was such a countermeasure.{#ch19_k_041}"
-    new "Я так и думал. Табаса тоже говорила, что есть такое средство."
+    new "Я так и думала. Табаса тоже говорила, что есть такое средство."
 
     old "By the way, you two do agree with our plan, don't you?{#ch19_s_279}"
     new "Кстати, вы двое согласны с нашим планом, да?"
@@ -330,8 +330,8 @@
     old "Darling, how will you divide the groups?{#ch19_k_045}"
     new "Дорогой, как ты разделишь группы?"
 
-    old "Why are you asking me?{#ch19_l_211}"
-    new "Почему ты меня спрашиваешь?"
+    old "Why aren't you asking me?{#ch19_l_211}"
+    new "Почему ты меня не спрашиваешь?"
 
     old "Oh? Can Louise decide?{#ch19_k_046}"
     new "Ой? Луиза может решить?"

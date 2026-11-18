@@ -16,7 +16,7 @@
     new "Табаса… Похоже, заклинание спало. Интересно, оно было слишком слабым?"
 
     old "Weatherly, won't you surrender here? I don't want to hurt you—or Haruna.{#ch19_s_318}"
-    new "Уэзерби, не сдашься ли ты здесь? Я не хочу обижать тебя — и Харуну."
+    new "Уэзерби, не сдашься ли ты здесь? Я не хочу ранить тебя — и Харуну."
 
     old "This one dares to mock Weatherly-sama!{#ch19_ak_005}"
     new "Как он смеёт насмехаться над Уэзерби-сама!"
@@ -33,8 +33,8 @@
     old "Weatherly-sama…{#ch19_ak_007}"
     new "Уэзерби-сама…"
 
-    old "I'll just use my magic. Just watch.{#ch19_w_010}"
-    new "Я просто применю свою магию. Смотри."
+    old "I'll just use my magic. Take this!{#ch19_w_010}"
+    new "Я просто применю свою магию. Получи!"
 
     old "What! Why isn't it working?{#ch19_w_011}"
     new "Что! Почему не срабатывает?"
@@ -70,7 +70,7 @@
     new "В полной форме он за день сходит туда и обратно не только до академии, но и до столицы."
 
     old "Conveniently, this academy has people studying all sorts of magic.{#ch19_o_004}"
-    new "Кстати, в этой академии есть люди, изучающие самые разные заклинания."
+    new "Как раз кстати, в этой академии есть люди, изучающие самые разные заклинания."
 
     old "I put him in touch with one, and he worked out a countermeasure in one go.{#ch19_o_005}"
     new "Я связал его с одним из них — и тот разработал средство с первого раза."
@@ -82,7 +82,7 @@
     new "Нет-нет, ты ещё молод — молод. Хо-хо-хо-хо."
 
     old "Is this the end? Is this the end? No—I can't just slink away like this. My… my…{#ch19_w_016}"
-    new "Конец? Конец? Нет — я не могу просто так уйти. Моя… моя…"
+    new "Конец? Конец? Нет — я не могу уйти опозоренной. Моя… моя…"
 
     old "Akina, don't leave my side! If it comes to it, I'll take down Old Osmond and Gandalfr!{#ch19_w_017}"
     new "Акина, не отходи от меня! Если придётся, я убью старика Османа и Гандальфа!"
@@ -126,8 +126,8 @@
     old "She just wanted to live quietly in her home village with its people. That alone made her happy.{#ch19_ak_013}"
     new "Она просто хотела тихо жить в родной деревне с её людьми. Этого ей было достаточно для счастья."
 
-    old "And that was taken away…{#ch19_ak_014}"
-    new "И это у неё отняли…"
+    old "And that…{#ch19_ak_014}"
+    new "И это…"
 
     old "One day, Tristain stripped her of her noble status and took the village away.{#ch19_ak_015}"
     new "Однажды Тристания лишила её дворянского титула и отобрала деревню."
@@ -144,8 +144,8 @@
     old "My father was a noble, my mother a beast-person. Father lost his noble status for marrying her, and we were driven from our manor and lands.{#ch19_w_022}"
     new "Отец был дворянином, мать — зверочеловеком. Отец лишился дворянства из-за брака с ней, и нас изгнали из поместья и земель."
 
-    old "I can never forgive Tristain for that.{#ch19_w_023}"
-    new "Я никогда не смогу простить Тристании это."
+    old "I can never forget what Tristain did.{#ch19_w_023}"
+    new "Я никогда не смогу забыть, что сделала Тристания."
 
     old "Really?{#ch19_t_048}"
     new "Правда?"
@@ -216,8 +216,8 @@
     old "S-Siesta! I'm glad you're safe too.{#ch19_s_326}"
     new "С-Сиэста! Я рад, что и ты в порядке."
 
-    old "Listen, Saito-san. When I came to, I was tied up with rope inside Miss Valliere's closet.{#ch19_si_002}"
-    new "Слушайте, Сайто-сан. Когда я пришла в себя, я была связана верёвкой в шкафу мисс Вальер."
+    old "Listen, Saito-san. When I came to, I was tied up with rope inside Miss Valliere's chest of drawers.{#ch19_si_002}"
+    new "Слушайте, Сайто-сан. Когда я пришла в себя, я была связана верёвкой в комоде мисс Вальер."
 
     old "I was so scared, so scared… But somehow the rope loosened, and I could run to you.{#ch19_si_003}"
     new "Я так боялась, так боялась… Но верёвка как-то ослабла, и я смогла прибежать к вам."
@@ -247,7 +247,7 @@
     new "Мм…"
 
     old "Something's odd about you two. I sense a strange atmosphere.{#ch19_si_004}"
-    new "Что-то странное в вас двоих. Я чувствую некое напряжение."
+    new "Что-то странное в вас двоих. Я чувствую странное ощущение."
 
     old "N-No, there's nothing! Right, everyone?{#ch19_s_329}"
     new "Н-Нет, ничего нет! Верно, все?"
@@ -288,8 +288,8 @@
     old "You looked away, didn't you?{#ch19_si_008}"
     new "Вы отвели взгляд, да?"
 
-    old "Miss Valliere! We formed an alliance, didn't we? No going behind each other's backs!{#ch19_si_009}"
-    new "Мисс Вальер! Мы же заключили союз? Никаких тайных сделок!"
+    old "Miss Valliere! We formed an alliance, didn't we? No going off on your own!{#ch19_si_009}"
+    new "Мисс Вальер! Мы же заключили союз? Никаких самовольных поступков!"
 
     old "You betrayed me! That's awful!{#ch19_si_010}"
     new "Вы предали меня! Это ужасно!"
@@ -340,7 +340,7 @@
     new "Я не прощу. Всё из-за этой тупой собаки!"
 
     old "W-Wait! Siesta, run away quickly. If you stay here any longer, your life will be in danger!{#ch19_s_335}"
-    new "П-Подожди! Сиэста, беги скорее. Если останешься здесь дольше, тебе угрожает опасность!"
+    new "П-Подожди! Сиэста, беги скорее. Если останешься здесь дольше, тебе грозит смертельная опасность!"
 
     old "It's fine. I don't know what will happen if I'm with Saito-san, but it's what I wish for!{#ch19_si_015}"
     new "Всё хорошо. Я не знаю, что случится, если я буду с Сайто-саном, но этого я и желаю!"

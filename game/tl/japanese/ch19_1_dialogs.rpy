@@ -78,7 +78,7 @@
     old "Ugh… True.{#ch19_s_251}"
     new "サイト：うっ……確かに。"
 
-    old "Saito and I have to act separately no matter what, don't we.{#ch19_s_252}"
+    old "Louise and I have to act separately no matter what, don't we.{#ch19_s_252}"
     new "サイト：俺とルイズは、どうあっても別行動を取らなきゃいけないってことですね。"
 
     old "It's a cruel thing to say, but there's no other way to make the plan work.{#ch19_c_090}"
@@ -99,10 +99,10 @@
     old "Which should we do first…?{#ch19_s_255}"
     new "サイト：一体、どちらを先にすればいいんだ……？"
 
-    old "Saito-kun, I'm afraid the idea of doing one first doesn't really apply here.{#ch19_c_093}"
+    old "Saito-kun, I'm afraid doing one first is rather difficult here.{#ch19_c_093}"
     new "コルベール：サイトくん、残念ながら……、どちらかをまず先に、という考え方はここでは難しいと思うのだよ。"
 
-    old "So Saito and I need to split up, is that it?{#ch19_s_256}"
+    old "So Louise and I need to split up, is that it?{#ch19_s_256}"
     new "サイト：つまり、俺とルイズは、別行動をとる必要があるってことですか。"
 
     old "Ah… It's a plan full of holes, but even so, we have no choice but to do it.{#ch19_c_094}"
@@ -297,7 +297,7 @@
     old "Indeed, I have no memory after that.{#ch19_k_039}"
     new "キュルケ：確かに、そこから先の記憶がないわね。"
 
-    old "More importantly, darling—why are you wearing earplugs?{#ch19_k_040}"
+    old "More importantly, darling—why am I wearing earplugs?{#ch19_k_040}"
     new "キュルケ：それより、ダーリン。どうして、あたし、耳栓なんてつけてるの？"
 
     old "Well, that's the thing…{#ch19_s_278}"
@@ -330,7 +330,7 @@
     old "Darling, how will you divide the groups?{#ch19_k_045}"
     new "キュルケ：ダーリン。グループをどう分ける？"
 
-    old "Why are you asking me?{#ch19_l_211}"
+    old "Why aren't you asking me?{#ch19_l_211}"
     new "ルイズ：なんで、わたしに聞かないのよ。"
 
     old "Oh? Can Louise decide?{#ch19_k_046}"
