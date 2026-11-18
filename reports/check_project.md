@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (956)
+## WARNING (972)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -319,6 +319,7 @@
 - I1 ch21: 578 script strings > 541 source talk
 - I1 ch22: 539 script strings > 512 source talk
 - I1 ch23: 378 script strings > 354 source talk
+- I1 ch24: 136 script strings > 133 source talk
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(10) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(20) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
@@ -933,6 +934,21 @@
 - W6 placeholder id(1150) has a name in image_id_map.csv at game/chapters/23/script-ch23.rpy:856 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/23/script-ch23.rpy:859 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(61) has a name in image_id_map.csv at game/chapters/23/script-ch23.rpy:862 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1165) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:18 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(26) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:27 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:199 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:277 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:295 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(26) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:332 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:355 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(26) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:371 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(213) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:394 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(26) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:414 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(26) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:428 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:479 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/24/script-ch24.rpy:585 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(88) has a name in image_id_map.csv at game/chapters/25/script-ch25.rpy:12 (run tools/replace_bg_placeholders.py --apply)
+- W6 placeholder id(1154) has a name in image_id_map.csv at game/chapters/25/script-ch25.rpy:38 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(90) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:42 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:80 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(46) has a name in image_id_map.csv at game/chapters/5/script-ch5_10.rpy:127 (run tools/replace_bg_placeholders.py --apply)
@@ -967,11 +983,11 @@
 - W6 placeholder id(1145) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(1169) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 
-## INFO (18)
+## INFO (17)
 
 - speakers defined: 37
 - overlay K: max=19 used=17 next_free=20
-- voices: refs=11672 ogg=11696 missing=0
+- voices: refs=11914 ogg=11938 missing=0
 - I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: strings=329 source_talk=492 (gap expected)
@@ -980,11 +996,10 @@
 - I1 ch17: strings=239 source_talk=282 (gap expected)
 - I1 ch18: strings=548 source_talk=589 (gap expected)
 - I1 ch20: strings=162 source_talk=162
-- I1 ch24: not started (source talk=133)
-- I1 ch25: not started (source talk=507)
+- I1 ch25: strings=144 source_talk=507 (gap expected)
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=1612 in 74 file(s)
-- labels=954 rpy=147 strings(strict=13265) tl_old=japanese:13760,russian:13787
+- image map: ids=313 named=148 open=165 | placeholders=1646 in 76 file(s)
+- labels=980 rpy=149 strings(strict=13545) tl_old=japanese:14040,russian:14067
 

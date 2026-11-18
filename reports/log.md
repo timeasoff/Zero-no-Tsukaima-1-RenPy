@@ -5203,3 +5203,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 5 (1 ERROR, 3 WARNING, 1 CANDIDATE), Ф1 1 MISTRANSLATION — все FIXED.
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Отчёт `reports/ch23/3.md`. Итог главы 23: 3 части, 849–893, 343 голоса, выход `jump ch24`.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 24 (894–902)
+
+- 133 реплики / 126 голосов + 2 menu; `voice_id_map.csv` +126; `.ogg` 126/0.
+- Аудиты: C 2, Ф1 5 — все FIXED; ключевое — инверсия «оберега» (`ルイズのお守りはこの俺` → «я — оберег Луизы»).
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch24/1.md`; стаб `script-ch25.rpy` создан.
