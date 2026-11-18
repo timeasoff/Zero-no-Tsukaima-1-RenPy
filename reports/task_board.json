@@ -1882,6 +1882,34 @@
         }
       ],
       "closed": "2026-11-19 00:33:21"
+    },
+    {
+      "id": "T20261119-004257-180f",
+      "created": "2026-11-19 00:42:57",
+      "request": "Расширенный runtime 22-28: глубокая проверка 23 сцен, арность API",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "deep runtime + arity",
+          "status": "done",
+          "created": "2026-11-19 00:42:57",
+          "started": null,
+          "finished": "2026-11-19 00:42:57",
+          "session": null,
+          "note": "0 arity violations; 23/23 deep warps clean",
+          "evidence": [
+            "reports/full_audit/RUNTIME-round6.md"
+          ],
+          "manual": "deep runtime + arity"
+        }
+      ],
+      "closed": "2026-11-19 00:42:57"
     }
   ]
 }
