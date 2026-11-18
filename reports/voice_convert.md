@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-11-18 07:48`
+Запуск: `2026-11-18 08:08`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 11450 |
-| уже есть .ogg | 11326 |
-| к конвертации | 124 |
-| сконвертировано сейчас | 124 |
+| voice-строк в сценарии | 11669 |
+| уже есть .ogg | 11554 |
+| к конвертации | 115 |
+| сконвертировано сейчас | 115 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,130 +19,121 @@
 
 ## Сконвертировано
 
-- `ch23_k_001.ogg`
-- `ch23_k_002.ogg`
-- `ch23_l_001.ogg`
-- `ch23_l_002.ogg`
-- `ch23_l_003.ogg`
-- `ch23_l_004.ogg`
-- `ch23_l_005.ogg`
-- `ch23_l_006.ogg`
-- `ch23_l_007.ogg`
-- `ch23_l_008.ogg`
-- `ch23_l_009.ogg`
-- `ch23_l_010.ogg`
-- `ch23_l_011.ogg`
-- `ch23_l_012.ogg`
-- `ch23_l_013.ogg`
-- `ch23_l_014.ogg`
-- `ch23_l_015.ogg`
-- `ch23_l_016.ogg`
-- `ch23_l_017.ogg`
-- `ch23_l_018.ogg`
-- `ch23_l_019.ogg`
-- `ch23_l_020.ogg`
-- `ch23_l_021.ogg`
-- `ch23_m_001.ogg`
-- `ch23_m_002.ogg`
-- `ch23_m_003.ogg`
-- `ch23_m_004.ogg`
-- `ch23_s_001.ogg`
-- `ch23_s_002.ogg`
-- `ch23_s_006.ogg`
-- `ch23_s_007.ogg`
-- `ch23_s_008.ogg`
-- `ch23_s_009.ogg`
-- `ch23_s_010.ogg`
-- `ch23_s_011.ogg`
-- `ch23_s_012.ogg`
-- `ch23_s_013.ogg`
-- `ch23_s_014.ogg`
-- `ch23_s_015.ogg`
-- `ch23_s_016.ogg`
-- `ch23_s_017.ogg`
-- `ch23_s_018.ogg`
-- `ch23_s_019.ogg`
-- `ch23_s_020.ogg`
-- `ch23_s_021.ogg`
-- `ch23_s_022.ogg`
-- `ch23_s_023.ogg`
-- `ch23_s_024.ogg`
-- `ch23_s_025.ogg`
-- `ch23_s_026.ogg`
-- `ch23_s_027.ogg`
-- `ch23_s_028.ogg`
-- `ch23_s_029.ogg`
-- `ch23_s_030.ogg`
-- `ch23_s_031.ogg`
-- `ch23_s_032.ogg`
-- `ch23_s_033.ogg`
-- `ch23_s_034.ogg`
-- `ch23_s_035.ogg`
-- `ch23_s_036.ogg`
-- `ch23_s_037.ogg`
-- `ch23_s_038.ogg`
-- `ch23_s_039.ogg`
-- `ch23_s_040.ogg`
-- `ch23_s_041.ogg`
-- `ch23_s_042.ogg`
-- `ch23_s_043.ogg`
-- `ch23_s_044.ogg`
-- `ch23_s_045.ogg`
-- `ch23_s_046.ogg`
-- `ch23_s_047.ogg`
-- `ch23_s_048.ogg`
-- `ch23_s_049.ogg`
-- `ch23_s_050.ogg`
-- `ch23_s_051.ogg`
-- `ch23_s_052.ogg`
-- `ch23_s_053.ogg`
-- `ch23_s_055.ogg`
-- `ch23_s_056.ogg`
-- `ch23_s_057.ogg`
-- `ch23_si_001.ogg`
-- `ch23_si_002.ogg`
-- `ch23_si_003.ogg`
-- `ch23_si_004.ogg`
-- `ch23_si_005.ogg`
-- `ch23_si_006.ogg`
-- `ch23_si_007.ogg`
-- `ch23_si_008.ogg`
-- `ch23_si_009.ogg`
-- `ch23_si_010.ogg`
-- `ch23_si_011.ogg`
-- `ch23_si_012.ogg`
-- `ch23_si_013.ogg`
-- `ch23_si_014.ogg`
-- `ch23_si_015.ogg`
-- `ch23_si_016.ogg`
-- `ch23_si_017.ogg`
-- `ch23_si_018.ogg`
-- `ch23_si_019.ogg`
-- `ch23_si_020.ogg`
-- `ch23_si_021.ogg`
-- `ch23_si_022.ogg`
-- `ch23_si_023.ogg`
-- `ch23_si_024.ogg`
-- `ch23_si_025.ogg`
-- `ch23_si_026.ogg`
-- `ch23_si_027.ogg`
-- `ch23_si_028.ogg`
-- `ch23_si_029.ogg`
-- `ch23_si_030.ogg`
-- `ch23_si_031.ogg`
-- `ch23_si_032.ogg`
-- `ch23_si_033.ogg`
-- `ch23_si_034.ogg`
-- `ch23_si_035.ogg`
-- `ch23_si_036.ogg`
-- `ch23_si_037.ogg`
-- `ch23_si_038.ogg`
-- `ch23_si_039.ogg`
-- `ch23_t_001.ogg`
-- `ch23_t_002.ogg`
-- `ch23_t_003.ogg`
-- `ch23_t_004.ogg`
-- `ch23_t_005.ogg`
+- `ch23_ak_001.ogg`
+- `ch23_ak_002.ogg`
+- `ch23_ak_003.ogg`
+- `ch23_ak_004.ogg`
+- `ch23_ak_005.ogg`
+- `ch23_ak_006.ogg`
+- `ch23_ak_007.ogg`
+- `ch23_ak_008.ogg`
+- `ch23_ak_009.ogg`
+- `ch23_ak_010.ogg`
+- `ch23_ak_011.ogg`
+- `ch23_ak_012.ogg`
+- `ch23_ak_013.ogg`
+- `ch23_ak_014.ogg`
+- `ch23_ak_015.ogg`
+- `ch23_ak_016.ogg`
+- `ch23_ak_017.ogg`
+- `ch23_ak_018.ogg`
+- `ch23_ak_019.ogg`
+- `ch23_ak_020.ogg`
+- `ch23_ak_021.ogg`
+- `ch23_d_001.ogg`
+- `ch23_d_002.ogg`
+- `ch23_h_030.ogg`
+- `ch23_h_031.ogg`
+- `ch23_l_060.ogg`
+- `ch23_l_061.ogg`
+- `ch23_l_062.ogg`
+- `ch23_l_063.ogg`
+- `ch23_l_064.ogg`
+- `ch23_l_065.ogg`
+- `ch23_l_066.ogg`
+- `ch23_l_067.ogg`
+- `ch23_l_068.ogg`
+- `ch23_l_069.ogg`
+- `ch23_l_070.ogg`
+- `ch23_l_071.ogg`
+- `ch23_l_072.ogg`
+- `ch23_l_073.ogg`
+- `ch23_l_074.ogg`
+- `ch23_l_075.ogg`
+- `ch23_l_076.ogg`
+- `ch23_l_077.ogg`
+- `ch23_l_078.ogg`
+- `ch23_l_079.ogg`
+- `ch23_l_080.ogg`
+- `ch23_l_081.ogg`
+- `ch23_l_082.ogg`
+- `ch23_l_083.ogg`
+- `ch23_l_084.ogg`
+- `ch23_l_085.ogg`
+- `ch23_l_086.ogg`
+- `ch23_l_087.ogg`
+- `ch23_l_088.ogg`
+- `ch23_l_089.ogg`
+- `ch23_l_090.ogg`
+- `ch23_l_091.ogg`
+- `ch23_l_092.ogg`
+- `ch23_l_093.ogg`
+- `ch23_l_094.ogg`
+- `ch23_l_095.ogg`
+- `ch23_l_096.ogg`
+- `ch23_l_097.ogg`
+- `ch23_l_098.ogg`
+- `ch23_l_099.ogg`
+- `ch23_l_100.ogg`
+- `ch23_l_101.ogg`
+- `ch23_l_102.ogg`
+- `ch23_s_085.ogg`
+- `ch23_s_086.ogg`
+- `ch23_s_087.ogg`
+- `ch23_s_088.ogg`
+- `ch23_s_089.ogg`
+- `ch23_s_090.ogg`
+- `ch23_s_091.ogg`
+- `ch23_s_092.ogg`
+- `ch23_s_093.ogg`
+- `ch23_s_094.ogg`
+- `ch23_s_095.ogg`
+- `ch23_s_096.ogg`
+- `ch23_s_097.ogg`
+- `ch23_s_098.ogg`
+- `ch23_s_099.ogg`
+- `ch23_s_100.ogg`
+- `ch23_s_101.ogg`
+- `ch23_s_102.ogg`
+- `ch23_s_103.ogg`
+- `ch23_s_104.ogg`
+- `ch23_s_105.ogg`
+- `ch23_s_106.ogg`
+- `ch23_s_107.ogg`
+- `ch23_s_108.ogg`
+- `ch23_s_109.ogg`
+- `ch23_s_110.ogg`
+- `ch23_s_111.ogg`
+- `ch23_s_112.ogg`
+- `ch23_s_114.ogg`
+- `ch23_s_116.ogg`
+- `ch23_s_117.ogg`
+- `ch23_s_118.ogg`
+- `ch23_s_119.ogg`
+- `ch23_s_120.ogg`
+- `ch23_s_121.ogg`
+- `ch23_s_122.ogg`
+- `ch23_s_124.ogg`
+- `ch23_s_125.ogg`
+- `ch23_s_126.ogg`
+- `ch23_s_127.ogg`
+- `ch23_s_128.ogg`
+- `ch23_s_129.ogg`
+- `ch23_s_130.ogg`
+- `ch23_s_131.ogg`
+- `ch23_s_132.ogg`
+- `ch23_s_133.ogg`
+- `ch23_s_134.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 

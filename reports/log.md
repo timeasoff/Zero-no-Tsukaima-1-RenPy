@@ -5189,3 +5189,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 2 WARNING (хеджи `みたい` → категорические утверждения), Ф1 1 ERROR (скриптовая вставка `Greater` в RU). Все FIXED.
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0 кандидатов.
 - Отчёт `reports/ch23/1.md`; стаб `script-ch23_2.rpy` создан.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 23, часть 2 (868–878)
+
+- 106 реплик / 104 голоса + 2 menu; `voice_id_map.csv` +104; `.ogg` 104/0.
+- Аудиты: C 0 находок; Ф1 3 кандидата (инверсия полярности `深追いをして`, выпадение `口を出すんじゃないの`, ослабление `殺気立ってた`) — все FIXED.
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch23/2.md`; 味方А ported как `soldier` (как в гл.12) — PROVISIONAL.

@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (955)
+## WARNING (956)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -318,6 +318,7 @@
 - I1 ch19: 387 script strings > 378 source talk
 - I1 ch21: 578 script strings > 541 source talk
 - I1 ch22: 539 script strings > 512 source talk
+- I1 ch23: 378 script strings > 354 source talk
 - W6 placeholder id(2) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(10) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(20) has a name in image_id_map.csv at game/chapters/10/script-ch10_1.rpy:14 (run tools/replace_bg_placeholders.py --apply)
@@ -966,11 +967,11 @@
 - W6 placeholder id(1145) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 - W6 placeholder id(1169) has a name in image_id_map.csv at game/chapters/9/script-ch9_1.rpy:18 (run tools/replace_bg_placeholders.py --apply)
 
-## INFO (19)
+## INFO (18)
 
 - speakers defined: 37
 - overlay K: max=19 used=17 next_free=20
-- voices: refs=11453 ogg=11477 missing=0
+- voices: refs=11672 ogg=11696 missing=0
 - I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: strings=329 source_talk=492 (gap expected)
@@ -979,12 +980,11 @@
 - I1 ch17: strings=239 source_talk=282 (gap expected)
 - I1 ch18: strings=548 source_talk=589 (gap expected)
 - I1 ch20: strings=162 source_talk=162
-- I1 ch23: strings=137 source_talk=354 (gap expected)
 - I1 ch24: not started (source talk=133)
 - I1 ch25: not started (source talk=507)
 - I1 ch26: not started (source talk=612)
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
-- image map: ids=313 named=148 open=165 | placeholders=1580 in 72 file(s)
-- labels=926 rpy=145 strings(strict=13024) tl_old=japanese:13519,russian:13546
+- image map: ids=313 named=148 open=165 | placeholders=1612 in 74 file(s)
+- labels=954 rpy=147 strings(strict=13265) tl_old=japanese:13760,russian:13787
 
