@@ -5252,3 +5252,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Ч.2 (944–954): 130 реплик / 125 голосов; C 0, Ф1 5 (4 FIXED, 1 PRESERVED).
 - Ч.3 (955–964): 102 реплики / 96 голосов; проверки OK.
 - Все проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 26 завершена
+
+- Ч.4 (965–966): 103 голоса; C 1 WARNING + Ф1 3 — все FIXED. Ч.5 (extra 1219–1223): 49 голосов; C 2 + Ф1 3 — все FIXED (в т.ч. разворот «кто кого прикрыл»).
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Итог главы 26: 5 частей, 934–971 + extra 1219–1223, 550 голосов, выход `jump ch27`.
