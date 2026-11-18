@@ -35,7 +35,7 @@
     new "П-прости. / Я просто хотела побыть в тишине."
 
     old "As I thought, it's about Weatherly-san's offer?{#ch11_s_021}"
-    new "Как я и думал, из-за предложения Ветерби-сан?"
+    new "Как я и думал, из-за предложения Уэзерби-сан?"
 
     old "Yeah.{#ch11_ha_004}"
     new "Да."
@@ -80,7 +80,7 @@
     new "Но теперь всё хорошо. / Я уже решила."
 
     old "I'm joining Weatherly-san's troupe.{#ch11_ha_014}"
-    new "Я вступаю в труппу Ветерби-сан."
+    new "Я вступаю в труппу Уэзерби-сан."
 
     old "H-hey. / Haruna!{#ch11_s_026}"
     new "Эй, эй! / Харуна!"
@@ -92,7 +92,7 @@
     new "…"
 
     old "they say they come to Tristain often, so… {#ch11_ha_016}"
-    new "К тому же труппа Ветерби-сан разъезжает, / но, говорят, они часто приезжают в Тристалию…"
+    new "К тому же труппа Уэзерби-сан разъезжает, / но, говорят, они часто приезжают в Тристанию…"
 
     old "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"
     new "Я могу видеть Хирага-куна и всех остальных / когда угодно… всё хорошо."
@@ -146,7 +146,7 @@
     new "Ой-ой, какая ты популярная. / Харуна."
 
     old "Weatherly-san.{#ch11_ha_023}"
-    new "Ветерби-сан."
+    new "Уэзерби-сан."
 
     old "Haruna, take care of your health. / In a traveling life, small things can lead to serious illness.{#ch11_c_001}"
     new "Харуна, береги здоровье. / В дороге пустяк может обернуться серьёзной болезнью."
@@ -182,7 +182,7 @@
     new "Кирхе-сан, не дёргайте меня так."
 
     old "Don't let your guard down with Weatherly.{#ch11_k_003}"
-    new "Не доверяйся Ветерби."
+    new "Не доверяйся Уэзерби."
 
     old "Eh, what do you mean?{#ch11_ha_026}"
     new "Э, что ты имеешь в виду?"

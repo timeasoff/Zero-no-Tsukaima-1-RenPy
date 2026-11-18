@@ -35,7 +35,7 @@
     new "Харуна?"
 
     old "Well, well. If it isn't Miss Valliere and Saito! What a coincidence, meeting you here.{#ch11_w_029}"
-    new "Ого, кто здесь! Мисс Валльер и Сайто! Какое совпадение — встретить вас здесь."
+    new "Ого, кто здесь! Мисс Вальер и Сайто! Какое совпадение — встретить вас здесь."
 
     old "Oh, Weatherly. Just the one we wanted.{#ch11_l_039}"
     new "А, Уэзерби. Как раз кстати."
@@ -125,7 +125,7 @@
     new "П-Подождите!"
 
     old "Of course, I'm also interested in the young genius mage, Miss Valliere.{#ch11_w_038}"
-    new "Конечно, мне интересна и юная гениальная волшебница, мисс Валльер."
+    new "Конечно, мне интересна и юная гениальная волшебница, мисс Вальер."
 
     old "Oh, I'm not that… I mean, no!{#ch11_l_048}"
     new "Ой, я не настолько… То есть нет!"

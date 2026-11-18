@@ -36,6 +36,8 @@
 > исправлен WRONG_TARGET в ch12_2 (пункт «Weatherly!» → сцена 536).
 > Evidence: `reports/sma/ch6-21-omission-completeness.md`. Галочки не менялись.
 
+> **2026-11-18/19, ветка `review/ch6-21`:** Russian Humanizer по RU `new` — 16 аудитов, 28 правок зелёной зоны (артефакты, опечатки, канонические имена, JA-обоснованные замены) с проверкой смысла по JA; рискованное — USER DECISION/PRESERVED. Evidence: `reports/sma/ch6-21-humanizer.md`. Галочки не менялись.
+
 ## Соответствие: проектная папка ↔ источник PS2
 
 | Проектная папка | Источник PS2 | Название |

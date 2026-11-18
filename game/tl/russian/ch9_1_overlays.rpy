@@ -2,4 +2,4 @@
 translate russian strings:
 
     old "Chapter Nine: 'The Enchanting Princess'{#ch9_title}"
-    new "Девятая глава: 'Очаровательная принцесса'"
+    new "Девятая глава: «Очаровательная принцесса»"

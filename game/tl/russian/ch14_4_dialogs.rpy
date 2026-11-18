@@ -13,7 +13,7 @@
     new "Да, скорее всего."
 
     old "It's a combined technique of magic and hypnotic suggestion. Honestly, it's impressive.{#ch14_m_011}"
-    new "Это сложный приём — магия плюс гипнотическое внушение. честно говоря, впечатляет."
+    new "Это сложный приём — магия плюс гипнотическое внушение. Честно говоря, впечатляет."
 
     old "So Weatherly's group did something to Kirche…{#ch14_s_115}"
     new "Значит, группа Уэзерби что-то сделала с Кирке…"

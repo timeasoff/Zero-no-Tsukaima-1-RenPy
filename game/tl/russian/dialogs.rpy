@@ -16862,7 +16862,7 @@ translate russian strings:
     new "О? Похоже, там кто-то ссорится…"
 
     old "Hey, aren't these dried goods even more expensive than last time?"
-    new "Эй, разве эти сушёности не стали ещё дороже, чем в прошлый раз?"
+    new "Эй, разве эти сушёные продукты не стали ещё дороже, чем в прошлый раз?"
 
     old "What can I do? The army keeps seizing our ships, so our catch just keeps shrinking."
     new "А что я могу поделать? Армия снова отобрала корабли, и улов всё уменьшается."
@@ -17238,7 +17238,7 @@ translate russian strings:
     new "Видите ли, я пришла попросить вас об одной услуге."
 
     old "Something? If there's anything I can do, name it."
-    new "О услуге? Если я могу чем-то помочь — только скажите."
+    new "Об услуге? Если я могу чем-то помочь — только скажите."
 
     old "Oh, that's wonderful. You see, I would like to see the town at night. So I came to ask if you would show me around."
     new "Ах, как хорошо… Я так хотела увидеть ночной город. И я хотела попросить вас показать мне его."
@@ -17479,7 +17479,7 @@ translate russian strings:
     new "Ну! «Просто так» — что это вообще значит, «просто так»?"
 
     old "'No particular reason' is a handy little phrase. Doesn't it make everything sound resolved?{#ch7_s_012}"
-    new "Удобное словечко — «просто так». Разве что не кажется, будто всё уладилось?"
+    new "Удобное словечко — «просто так». Разве не кажется, будто всё уладилось?"
 
     old "As if that could resolve anything!{#ch7_l_014}"
     new "Да ничего это не решает!"
@@ -17629,7 +17629,7 @@ translate russian strings:
     new "Не могу я отправлять вас всех в опасность, а самой безмятежно оставаться в безопасности."
 
     old "Promise me you won't overdo it. If it gets dangerous, you run. Understood?{#ch7_s_019}"
-    new "Пообещайте, что не будете заходить слишком далеко. Сочтёте опасность — убегайте. Договорились?"
+    new "Пообещайте, что не будете заходить слишком далеко. Если станет опасно — убегайте. Договорились?"
 
     old "Then… that is acceptable, yes?{#ch7_h_012}"
     new "Тогда… на этом условии — хорошо?"
@@ -18012,7 +18012,7 @@ translate russian strings:
     new "Акина…?"
 
     old "That's right. This is Haruna's body, but I am an entirely different person. Think of me as her other personality.{#ch7.2_ak_001}"
-    new "Именно. Тело то же, что у Харуну, но я — совсем другой человек. Считай меня её второй личностью."
+    new "Именно. Тело то же, что у Харуны, но я — совсем другой человек. Считай меня её второй личностью."
 
     old "Her other personality?{#ch7.2_s_027}"
     new "Вторая личность?"
@@ -18045,7 +18045,7 @@ translate russian strings:
     new "Реконкиста!?"
 
     old "Well, well, Your Highness. So it finally got through to you? But it is already too late.{#ch7.2_w_004}"
-    new "Ну-ну, ваше высочество. Наконец-то дошло? Но уже слишком поздно."
+    new "Ну-ну, Ваше Высочество. Наконец-то дошло? Но уже слишком поздно."
 
     old "Seen in the morning light it would be perfectly plain, but I'll tell you while it's still dark: I have installed cannon batteries at the sites in every district.{#ch7.2_w_005}"
     new "Поутру это видно будет как на ладони, но я расскажу вам заранее, пока темно: я установила пушечные батареи на площадках в каждом районе."
@@ -18211,7 +18211,7 @@ translate russian strings:
     new "А тем временем мы сами с Уэзерби и Акиной разберёмся. Пусть ответят как следует."
 
     old "That's right. They looked down on us, and that has to be paid for.{#ch7.3_k_003}"
-    new "Именно. Они нас недооценили — придётся это отплатить."
+    new "Именно. Они нас недооценили — за это придётся отплатить."
 
     old "So in the end, there was nothing at all that I could manage, was there.{#ch7.3_h_003}"
     new "В итоге выходит, я так совершенно ничего и не смогла, да?"

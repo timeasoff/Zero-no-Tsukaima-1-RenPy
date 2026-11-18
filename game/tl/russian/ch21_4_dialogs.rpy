@@ -382,7 +382,7 @@
     new "Значит, и в этом мире оно было…"
 
     old "But in my house, all the servants handle everything. Even if you call it commoners' local food, it means nothing to me.{#ch21_m_018}"
-    new "Но у дома всеми делами занимаются слуги. Даже если ты называешь это простонародной едой, мне это ничего не говорит."
+    new "Но у меня дома всеми делами занимаются слуги. Даже если ты называешь это простонародной едой, мне это ничего не говорит."
 
     old "That's no good.{#ch21_s_239}"
     new "Это не годится."

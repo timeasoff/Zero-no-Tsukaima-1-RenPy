@@ -181,7 +181,7 @@
     new "О чём разговаривали!"
 
     old "L-Look, the cooking contest is coming up, right? So we were talking about all sorts—{#ch21_s_124}"
-    new "С-Смотри, же кулинарный бой приближается, да? Мы просто говорили о разном—"
+    new "С-Смотри, кулинарный бой же приближается, да? Мы просто говорили о разном—"
 
     old "Heh heh… You really think that excuse will work?{#ch21_l_060}"
     new "Хи-хи… Ты правда думаешь, это сработает?"

@@ -2,13 +2,13 @@
 translate russian strings:
 
     old "Alright, this is youth! {#ch8_s_082}"
-    new "Ну вот, так это и есть — юность! / За мной! / За мной!"
+    new "Ну вот, так это и есть — юность! / За мной!"
 
     old "That's Saito, that's Saito…! {#ch8_si_010}"
     new "Это Сайто, это Сайто…!"
 
     old "It's fine. I'll fix it. {#ch8_l_051}"
-    new "Ничего страшного. Я это исправлю. / Сайто, подойди на минуту. / Сайто, подойди на минуту."
+    new "Ничего страшного. Я это исправлю. / Сайто, подойди на минуту."
 
     old "Eh, ah, oh, o-oh… It's just a joke… {#ch8_s_083}"
     new "Э, а, о, о-о… Это же просто шутка…"
@@ -407,7 +407,7 @@ translate russian strings:
     new "Нет, не это… Идиот."
 
     old "Oh, Louise… This is Illusion. It's magic that manifests incorporeal illusions… {#ch8_h_090}"
-    new "Ах, Луиза… Это иллюзия. Магия, создающая бестелесные иллюзии… {#ch8_h_090}"
+    new "Ах, Луиза… Это иллюзия. Магия, создающая бестелесные иллюзии…"
 
     old "So that fleet was an illusion? {#ch8_s_111}"
     new "Значит, тот флот был иллюзией?"

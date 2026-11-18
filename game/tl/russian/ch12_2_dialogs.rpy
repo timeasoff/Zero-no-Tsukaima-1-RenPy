@@ -247,7 +247,7 @@
     new "Ладно! Будь что будет!"
 
     old "Somehow, you don't look convinced, but I think you understood.{#ch12_l_061}"
-    new "Какого-то ты не выглядишь убеждённым, но, кажется, понял."
+    new "Как-то ты не выглядишь убеждённым, но, кажется, понял."
 
     old "So where are you casting the spell? I didn't bring the Zero Fighter.{#ch12_s_056}"
     new "Так где ты наложишь заклинание? Я не принёс «Зеро-файтер»."

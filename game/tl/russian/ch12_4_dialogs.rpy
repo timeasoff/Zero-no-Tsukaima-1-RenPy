@@ -52,7 +52,7 @@
     new "Она говорила, что её, дворянку, внезапно лишили титула Тристанинское королевство."
 
     old "Weatherly-sama, whose extraordinary magical talent was recognized by Reconquista…{#ch12_ak_080}"
-    new "Уэзерби-саму, чь необычайную магическую силу признала Реконкиста…"
+    new "Уэзерби-саму, чью необычайную магическую силу признала Реконкиста…"
 
     old "…promised that in return for this operation's success, her noble rank would be restored.{#ch12_ak_081}"
     new "…пообещала, что в награду за успех операции ей вернут дворянский титул."
