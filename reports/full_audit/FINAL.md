@@ -61,4 +61,4 @@ RU TL: `ch22_5_dialogs.rpy`, `ch23_1_dialogs.rpy`, `ch25_2_dialogs.rpy`, `ch26_4
 
 ## Третий проход (дополнение)
 
-- A/B/C доведены до 24/24; 29 JA-подтверждённых исправлений (включая EN-базу и полностью пропущенную фразу `ch27_s_140`); Analyzer `reports/sma/analysis/20261118-234500-phase2-round3.md`. Runtime SKIPPED/BLOCKED (146 ошибок вне scope); все статические проверки зелёные.
+- A/B/C доведены до 24/24; 23 JA-подтверждённых исправлений (включая EN-базу и полностью пропущенную фразу `ch27_s_140`); Analyzer `reports/sma/analysis/20261118-234500-phase2-round3.md`. Runtime SKIPPED/BLOCKED (146 ошибок вне scope); все статические проверки зелёные.
