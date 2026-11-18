@@ -18,6 +18,15 @@ translate japanese strings:
     old "Surrender!{#sp90_c_1536_1563}"
     new "降伏する！"
 
+    old "Escape!{#sp90_c_1537_1569}"
+    new "脱出する！"
+
+    old "Tackle!{#sp90_c_1537_1570}"
+    new "タックル！"
+
+    old "…Faint!{#sp90_c_1537_1571}"
+    new "……気絶する！"
+
     old "O-Of course I'll run away!{#sp90_c_1538_1577}"
     new "に、逃げるに決まってるだろっ！"
 
@@ -44,6 +53,15 @@ translate japanese strings:
 
     old "O-One of these days, Louise……{#sp90_c_1540_1595}"
     new "い、いつかはルイズに……"
+
+    old "W-Well, you've improved a bit, haven't you?……{#sp90_c_1541_1601}"
+    new "ま、まあ少しは進歩したんでは……"
+
+    old "No, you're doing great!{#sp90_c_1541_1602}"
+    new "いや、立派立派！"
+
+    old "Really, it's a waste of effort……{#sp90_c_1541_1603}"
+    new "本当に無駄な努力を……"
 
     old "L-Let me help you!{#sp90_c_1542_1609}"
     new "て、手伝わせていただきますっ！"
@@ -135,6 +153,15 @@ translate japanese strings:
     old "The various attitudes of a rude Master…{#sp90_c_1551_1683}"
     new "失礼なご主人様の数々の態度……"
 
+    old "Let's run. To the ends of the earth.{#sp90_c_1552_1689}"
+    new "逃げよう。地平線の果てまで"
+
+    old "Try to talk my way out of it.{#sp90_c_1552_1690}"
+    new "なんとかいいわけしてみる"
+
+    old "Play dumb!{#sp90_c_1552_1691}"
+    new "しらを切りとおす！"
+
     old "The beautiful and lovely Louise-sama.{#sp90_c_1556_1557}"
     new "美しく可憐なルイズ様です"
 
@@ -216,6 +243,15 @@ translate japanese strings:
     old "Give up and pray to God?{#sp90_c_1620_1623}"
     new "諦観して神様にすがる？"
 
+    old "Yip yip!{#sp90_c_1628_1629}"
+    new "キャインキャイン！"
+
+    old "…Please just call me a dog already!{#sp90_c_1628_1630}"
+    new "……もう犬と呼んでくださいワン！"
+
+    old "H-Hey! I'm not a dog!{#sp90_c_1628_1631}"
+    new "お、俺は犬じゃねえっ！"
+
     old "…Maybe I'll take you up on that.{#sp90_c_1636_1637}"
     new "……お邪魔しちゃおうかな？"
 
@@ -242,6 +278,15 @@ translate japanese strings:
 
     old "Could it be that my chest is bigger?{#sp90_c_1652_1655}"
     new "もしかして、俺の方が胸が大きい？"
+
+    old "Q-Quick, spin around!{#sp90_c_1660_1661}"
+    new "く、くるっと回って！"
+
+    old "Have mercy!{#sp90_c_1660_1662}"
+    new "勘弁してください"
+
+    old "D-Do you want to see?{#sp90_c_1660_1663}"
+    new "み、見たいんですか？"
 
     old "A-am I really that pretty…{#sp90_c_1668_1669}"
     new "そ、そんなにきれいかしら……"

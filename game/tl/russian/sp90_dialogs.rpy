@@ -102,8 +102,8 @@ translate russian strings:
     old "Ow-ow-ow-ow-ow!!{#sp90_s1537_046}"
     new "Ай-ай-ай-ай-ай!!"
 
-    old "(N-No, this is bad! I'm gonna be killed!!) 【Choice】Escape! → scene 1569 【Choice】Tackle! → scene 1570 【Choice】…Faint! → scene 1571{#sp90_s1537_047}"
-    new "О, нет, плохо! Она меня убьёт!! 【Выбор】Убежать! → scene 1569 【Выбор】Толкнуть! → scene 1570 【Выбор】…Лишиться чувств! → scene 1571"
+    old "(N-No, this is bad! I'm gonna be killed!!){#sp90_s1537_047}"
+    new "О, нет, плохо! Она меня убьёт!!"
 
     old "Honestly, my stupid dog has no shame at all……{#sp90_s1538_003}"
     new "Правда, у моей глупой собаки нет ни капли стыда……"
@@ -177,8 +177,8 @@ translate russian strings:
     old "I get it now. I was lacking real combat experience. Saito, you're going to help me!{#sp90_s1541_006}"
     new "Поняла. Мне не хватало боевого опыта. Сайто, ты мне поможешь!"
 
-    old "(Ugh. T-This is bad! Did I touch an old wound or something?) 【Choice】W-Well, you've improved a bit, haven't you?…… → scene 1601 【Choice】No, you're doing great! → scene 1602 【Choice】Really, it's a waste of effort…… → scene 1603{#sp90_s1541_007}"
-    new "Ух. П-Плохо дело! Не задел ли я старую рану? 【Выбор】Н-Ну, ты и вправду немного улучшилась…… → scene 1601 【Выбор】Нет, ты молодец! → scene 1602 【Выбор】Правда, напрасный труд…… → scene 1603"
+    old "(Ugh. T-This is bad! Did I touch an old wound or something?){#sp90_s1541_007}"
+    new "Ух. П-Плохо дело! Не задел ли я старую рану?"
 
     old "It's nice weather today, so how about we go outside a bit?{#sp90_s1542_003}"
     new "Погода сегодня хорошая, не выйдем ли мы ненадолго?"

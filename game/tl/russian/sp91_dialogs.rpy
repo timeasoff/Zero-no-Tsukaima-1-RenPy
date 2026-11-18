@@ -765,8 +765,8 @@ translate russian strings:
     old "Y-You're proud of it!?{#sp91_s1736_061}"
     new "Т-Ты гордишься этим!?"
 
-    old "(Th-This is…?) 【Choice】It's a very unique flavor → scene 1737 【Choice】Somehow, tears came to my eyes → scene 1738 【Choice】It's awful!! → scene 1739{#sp91_s1736_062}"
-    new "Э-Это что…? 【Выбор】Очень оригинальный вкус → scene 1737 【Выбор】Кажется, у меня навернулись слёзы → scene 1738 【Выбор】Невкусно!! → scene 1739"
+    old "(Th-This is…?){#sp91_s1736_062}"
+    new "Э-Это что…?"
 
     old "It's a very unique flavor…{#sp91_s1737_002}"
     new "Очень оригинальный вкус…"
@@ -2853,8 +2853,8 @@ translate russian strings:
     old "M-Mmnh!{#sp91_s1840_016}"
     new "М-Ммм!"
 
-    old "Eep—! My eyes met Louise's!【Choice】Surprise attack! → scene 1841【Choice】War of attrition! → scene 1842【Choice】Suicide charge! → scene 1843{#sp91_s1840_017}"
-    new "Ой! Мы с Луизой встретились глазами!【Выбор】Внезапная атака! → scene 1841【Выбор】Позиционная война! → scene 1842【Выбор】Самоубийственная атака! → scene 1843"
+    old "Eep—! My eyes met Louise's!{#sp91_s1840_017}"
+    new "Ой! Мы с Луизой встретились глазами!"
 
     old "…First strike wins! I'll charge straight at Louise all at once!{#sp91_s1841_002}"
     new "…Первый удар решает! Сразу ринусь к Луизе!"

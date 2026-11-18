@@ -102,8 +102,8 @@ translate japanese strings:
     old "Ow-ow-ow-ow-ow!!{#sp90_s1537_046}"
     new "サイト：いだだだだだだだだっ！！"
 
-    old "(N-No, this is bad! I'm gonna be killed!!) 【Choice】Escape! → scene 1569 【Choice】Tackle! → scene 1570 【Choice】…Faint! → scene 1571{#sp90_s1537_047}"
-    new "サイト：（や、ヤバイっ！殺られるっっ！！）【選択肢】脱出する！ → scene 1569【選択肢】タックル！ → scene 1570【選択肢】……気絶する！ → scene 1571"
+    old "(N-No, this is bad! I'm gonna be killed!!){#sp90_s1537_047}"
+    new "サイト：（や、ヤバイっ！殺られるっっ！！）"
 
     old "Honestly, my stupid dog has no shame at all……{#sp90_s1538_003}"
     new "ルイズ：ホントにうちのバカ犬ときたら、節操がないんだから……。"
@@ -177,8 +177,8 @@ translate japanese strings:
     old "I get it now. I was lacking real combat experience. Saito, you're going to help me!{#sp90_s1541_006}"
     new "ルイズ：分かったの。わたし、実戦経験が足りなかったのよ。サイト、協力してもらうわよ！"
 
-    old "(Ugh. T-This is bad! Did I touch an old wound or something?) 【Choice】W-Well, you've improved a bit, haven't you?…… → scene 1601 【Choice】No, you're doing great! → scene 1602 【Choice】Really, it's a waste of effort…… → scene 1603{#sp90_s1541_007}"
-    new "サイト：（うっ。ま、まずいっ！なんか昔の傷にでも触れちまったのか？）【選択肢】ま、まあ少しは進歩したんでは…… → scene 1601【選択肢】いや、立派立派！ → scene 1602【選択肢】本当に無駄な努力を…… → scene 1603"
+    old "(Ugh. T-This is bad! Did I touch an old wound or something?){#sp90_s1541_007}"
+    new "サイト：（うっ。ま、まずいっ！なんか昔の傷にでも触れちまったのか？）"
 
     old "It's nice weather today, so how about we go outside a bit?{#sp90_s1542_003}"
     new "ルイズ：今日はいいお天気だし、すこし外に出ない？"
@@ -541,7 +541,7 @@ translate japanese strings:
     new "ルイズ：と思っただけ。言うまい、言うまいと思っていたけど、このまま胸にしまっておくのも無理なようね。"
 
     old "(N-No way. Did I really do something like that?){#sp90_s1552_011}"
-    new "サイト：（ま、まじかよ。俺、そんなことしてたっけ？）【選択肢】逃げよう。地平線の果てまで → scene 1689【選択肢】なんとかいいわけしてみる → scene 1690【選択肢】しらを切りとおす！ → scene 1691"
+    new "サイト：（ま、まじかよ。俺、そんなことしてたっけ？）"
 
     old "If you'd just talk to me, you'd understand!{#sp90_s1553_002}"
     new "サイト：話せば分かる！"
@@ -1951,7 +1951,7 @@ translate japanese strings:
     new "ルイズ：いまさら反省しても遅い！！"
 
     old "(The hallway's cold, too… I've got to refuse somehow!){#sp90_s1628_006}"
-    new "サイト：（廊下は寒いしなぁ……。なんとしても拒絶したい）【選択肢】キャインキャイン！ → scene 1629【選択肢】……もう犬と呼んでくださいワン！ → scene 1630【選択肢】お、俺は犬じゃねえっ！ → scene 1631"
+    new "サイト：（廊下は寒いしなぁ……。なんとしても拒絶したい）"
 
     old "Yip yip!{#sp90_s1629_002}"
     new "サイト：キャインキャイン！"
@@ -2515,7 +2515,7 @@ translate japanese strings:
     new "ルイズ：あら？なんなら、首輪もしてみようかしら？"
 
     old "(G-Guh, this came out of nowhere…!)【選択肢】S-Spin around! → scene 1661【選択肢】Please spare me → scene 1662【選択肢】D-Did you want to see? → scene 1663{#sp90_s1660_019}"
-    new "サイト：（ぐ、ぐはっ、いきなりピンチなんですが）【選択肢】く、くるっと回って！ → scene 1661【選択肢】勘弁してください → scene 1662【選択肢】み、見たいんですか？ → scene 1663"
+    new "サイト：（ぐ、ぐはっ、いきなりピンチなんですが）"
 
     old "(…I'll do it! I'll do it, I tell you!){#sp90_s1661_002}"
     new "サイト：（……やってやる！やってやるよっ！）"

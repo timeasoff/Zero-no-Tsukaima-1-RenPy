@@ -160,8 +160,8 @@
   "Ай-ай-ай-ай-ай!!"
  ],
  "s1537_0": [
-  "(N-No, this is bad! I'm gonna be killed!!) 【Choice】Escape! → scene 1569 【Choice】Tackle! → scene 1570 【Choice】…Faint! → scene 1571",
-  "О, нет, плохо! Она меня убьёт!! 【Выбор】Убежать! → scene 1569 【Выбор】Толкнуть! → scene 1570 【Выбор】…Лишиться чувств! → scene 1571"
+  "(N-No, this is bad! I'm gonna be killed!!)",
+  "О, нет, плохо! Она меня убьёт!!"
  ],
  "d7597": [
   "Honestly, my stupid dog has no shame at all……",
@@ -296,8 +296,8 @@
   "Поняла. Мне не хватало боевого опыта. Сайто, ты мне поможешь!"
  ],
  "s1541_0": [
-  "(Ugh. T-This is bad! Did I touch an old wound or something?) 【Choice】W-Well, you've improved a bit, haven't you?…… → scene 1601 【Choice】No, you're doing great! → scene 1602 【Choice】Really, it's a waste of effort…… → scene 1603",
-  "Ух. П-Плохо дело! Не задел ли я старую рану? 【Выбор】Н-Ну, ты и вправду немного улучшилась…… → scene 1601 【Выбор】Нет, ты молодец! → scene 1602 【Выбор】Правда, напрасный труд…… → scene 1603"
+  "(Ugh. T-This is bad! Did I touch an old wound or something?)",
+  "Ух. П-Плохо дело! Не задел ли я старую рану?"
  ],
  "d7700": [
   "It's nice weather today, so how about we go outside a bit?",
@@ -6932,8 +6932,8 @@
   "Т-Ты гордишься этим!?"
  ],
  "s1736_62": [
-  "(Th-This is…?) 【Choice】It's a very unique flavor → scene 1737 【Choice】Somehow, tears came to my eyes → scene 1738 【Choice】It's awful!! → scene 1739",
-  "Э-Это что…? 【Выбор】Очень оригинальный вкус → scene 1737 【Выбор】Кажется, у меня навернулись слёзы → scene 1738 【Выбор】Невкусно!! → scene 1739"
+  "(Th-This is…?)",
+  "Э-Это что…?"
  ],
  "s1737_2": [
   "It's a very unique flavor…",
@@ -9828,8 +9828,8 @@
   "М-Ммм!"
  ],
  "s1840_17": [
-  "Eep—! My eyes met Louise's!【Choice】Surprise attack! → scene 1841【Choice】War of attrition! → scene 1842【Choice】Suicide charge! → scene 1843",
-  "Ой! Мы с Луизой встретились глазами!【Выбор】Внезапная атака! → scene 1841【Выбор】Позиционная война! → scene 1842【Выбор】Самоубийственная атака! → scene 1843"
+  "Eep—! My eyes met Louise's!",
+  "Ой! Мы с Луизой встретились глазами!"
  ],
  "s1841_2": [
   "…First strike wins! I'll charge straight at Louise all at once!",
@@ -9970,5 +9970,89 @@
  "s1618_4": [
   "Ufuh… Ufufufufu…",
   "Уфх… Уф-ф-ф…"
+ ],
+ "c1537_1569": [
+  "Escape!",
+  "Убежать!"
+ ],
+ "c1537_1570": [
+  "Tackle!",
+  "Толкнуть!"
+ ],
+ "c1537_1571": [
+  "…Faint!",
+  "…Лишиться чувств!"
+ ],
+ "c1541_1601": [
+  "W-Well, you've improved a bit, haven't you?……",
+  "Н-Ну, ты и вправду немного улучшилась……"
+ ],
+ "c1541_1602": [
+  "No, you're doing great!",
+  "Нет, ты молодец!"
+ ],
+ "c1541_1603": [
+  "Really, it's a waste of effort……",
+  "Правда, напрасный труд……"
+ ],
+ "c1736_1737": [
+  "It's a very unique flavor",
+  "Очень оригинальный вкус"
+ ],
+ "c1736_1738": [
+  "Somehow, tears came to my eyes",
+  "Кажется, у меня навернулись слёзы"
+ ],
+ "c1736_1739": [
+  "It's awful!!",
+  "Невкусно!!"
+ ],
+ "c1840_1841": [
+  "Surprise attack!",
+  "Внезапная атака!"
+ ],
+ "c1840_1842": [
+  "War of attrition!",
+  "Позиционная война!"
+ ],
+ "c1840_1843": [
+  "Suicide charge!",
+  "Самоубийственная атака!"
+ ],
+ "c1552_1689": [
+  "Let's run. To the ends of the earth.",
+  "Убежим. До конца света."
+ ],
+ "c1552_1690": [
+  "Try to talk my way out of it.",
+  "Попробую выкрутиться."
+ ],
+ "c1552_1691": [
+  "Play dumb!",
+  "Прикинуться дураком!"
+ ],
+ "c1628_1629": [
+  "Yip yip!",
+  "Гав-гав!"
+ ],
+ "c1628_1630": [
+  "...Please just call me a dog already!",
+  "…Пожалуйста, называйте меня псом!"
+ ],
+ "c1628_1631": [
+  "H-Hey! I'm not a dog!",
+  "Э-Эй! Я не пёс!"
+ ],
+ "c1660_1661": [
+  "Q-Quick, spin around!",
+  "Ж-Живо, повернись!"
+ ],
+ "c1660_1662": [
+  "Have mercy!",
+  "Пощадите!"
+ ],
+ "c1660_1663": [
+  "D-Do you want to see?",
+  "Т-Ты хочешь посмотреть?"
  ]
 }

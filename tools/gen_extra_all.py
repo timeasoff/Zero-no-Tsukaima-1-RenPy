@@ -34,6 +34,7 @@ def main():
     ja_d, ru_d, ja_c, ru_c = [], [], [], []
     manifest = []
     missing = []
+    in_menu = False
     for si, s in enumerate(data['scenes']):
         if s['no'] in PORTED.get(chapter, set()):
             continue
@@ -41,6 +42,9 @@ def main():
         lines.append('')
         for item_i, it in enumerate(s['items']):
             k = it['kind']
+            if in_menu and k != 'choice':
+                in_menu = False
+                lines.append('')
             if k == 'event':
                 event(it['src'], lines)
             elif k == 'dlg':
@@ -68,11 +72,15 @@ def main():
                 ru_d += ['    old "%s"' % full, '    new "%s"' % ru, '']
                 lines.append('')
             elif k == 'choice':
+                if not in_menu:
+                    lines.append('')
+                    lines.append('    menu:')
+                    in_menu = True
                 key = 'c%d_%d' % (s['no'], it['target'])
                 pair = trans.get(key)
                 if pair is None:
                     missing.append(key)
-                    lines.append('    # MISSING CHOICE ' + key)
+                    lines.append('        # MISSING CHOICE ' + key)
                     continue
                 en, ru = en_norm(pair[0]), pair[1]
                 ctext = '%s{#%s_c_%d_%d}' % (en, prefix, s['no'], it['target'])
@@ -81,12 +89,24 @@ def main():
                 ja_c += ['    old "%s"' % ctext, '    new "%s"' % it['text'], '']
                 ru_c += ['    old "%s"' % ctext, '    new "%s"' % ru, '']
             elif k == 'goto':
+                if in_menu:
+                    in_menu = False
+                    lines.append('')
                 t = it['target']
                 lines.append('    # → next scene %d' % t)
-                lines.append('    jump %s_scene_%d' % (prefix, t) if any(x['no'] == t for x in data['scenes']) else '    jump attention')
+                self_target = ('sp_d1' if t in PORTED_PREFIX else prefix)
+                lines.append('    jump %s_scene_%d' % (self_target, t) if any(x['no'] == t for x in data['scenes']) else '    jump attention')
                 lines.append('')
             elif k == 'like':
+                if in_menu:
+                    in_menu = False
+                    lines.append('')
                 lines.append('    # 【好感度】%s %d' % (it['speaker'], it['value']))
+        if in_menu:
+            in_menu = False
+            lines.append('')
+    lines.append('')
+    lines.append('    return')
     files = {
         'game/chapters/extra/%s.rpy' % prefix: '\n'.join(lines) + '\n',
         'game/tl/japanese/%s_dialogs.rpy' % prefix: '\n'.join(['translate japanese strings:', ''] + ja_d) + '\n',

@@ -5297,3 +5297,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Типографика extra: 0 ошибок в моих файлах. Оставшиеся 5 ELLIPSIS — в shared-бакетах `choises.rpy`/`thoughs.rpy`, относящихся к главам 0–21 (чужая зона) → CANDIDATE → PRESERVED — OUT OF SCOPE.
 - Отчёты: `reports/extra/ch90.md`, `reports/extra/ch91.md`, `reports/extra/no_audio_ch91.md`, `reports/ch90/1.md` (sp_d1). План обновлён.
 - Повторно: dispatch-гейт (`zero_tundele >= 211 / < 40`) находится в чужих главах 0–21 — OPEN, не трогается.
+
+### 2026-11-18 — КРИТИЧЕСКОЕ исправление extra 90/91 (после коммита b19b2d5)
+
+Повторная сверка с источником нашла два дефекта сгенерированного кода; оба исправлены до повторного коммита:
+
+1. **Отсутствовал `menu:`** перед всеми блоками выбора в `sp90.rpy`/`sp91.rpy` (216 пунктов висели без оператора). ERROR → FIXED: `tools/gen_extra_all.py` теперь открывает `menu:` перед первой опцией, закрывает перед следующей репликой/goto/концом сцены; добавлен явный `return` в конце файла. `tools/gen_extra_data.py` тоже обновлён (см. п.2).
+2. **Парсер терял 15 (ч.90) и 27 (ч.91) выборов**: строки `【選択肢】`, шедшие сразу после мысли без `[voice]`, попадали в текст реплики как продолжение. ERROR → FIXED: `gen_extra_data.py` теперь сбрасывает `pending` перед строкой-событием/выбором/переходом; `tools/fix_extra_choices.py` восстановил 108/108 выборов из уже распарсенных JSON, вырезав `【Choice】`/`【Выбор】` из переводов и создав недостающие `c<scene>_<target>` пары. 21 выбор переведён вручную.
+- Итог после исправления: `sp90.rpy` — 164 лейбла, 36 `menu`, 108 выборов; `sp91.rpy` — 155 лейблов, 34 `menu`, 102 выбора + 6 в `sp_d1` = 108; `check_project.py` OK, `check_renpy_syntax.py --chapter extra` OK, typography extra 0 ошибок, `audio_converter.py check` OK.
+- 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`) и OPEN dispatch остаются в силе.

@@ -73,7 +73,7 @@ translate japanese strings:
     new "サイト：い、いや別に意地悪なんて……。"
 
     old "(Luise's warmth and weight against my back…) H-help me! → scene 1757 The wolf-san inside me is… → scene 1758 S-soft… → scene 1759{#sp91_s1704_010}"
-    new "サイト：（ルイズの体温と重みが背中に……）【選択肢】た、助けて！ → scene 1757【選択肢】俺の心の狼さんが…… → scene 1758【選択肢】や、やわらかい…… → scene 1759"
+    new "サイト：（ルイズの体温と重みが背中に……）"
 
     old "Honestly, really now!{#sp91_s1705_003}"
     new "ルイズ：ほんとに、もうっ！"
@@ -106,7 +106,7 @@ translate japanese strings:
     new "ルイズ：……スゥスゥ。"
 
     old "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it → scene 1765 Wicked thoughts are… → scene 1766 …Oh, maybe I should sleep too → scene 1767{#sp91_s1705_018}"
-    new "サイト：（本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）【選択肢】寝顔はホントかわいいよな → scene 1765【選択肢】よこしまな考えが…… → scene 1766【選択肢】……お、俺も寝るか → scene 1767"
+    new "サイト：（本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）"
 
     old "…You're not allowed out!{#sp91_s1706_004}"
     new "ルイズ：……外出禁止よ！"
@@ -217,7 +217,7 @@ translate japanese strings:
     new "ルイズ：さぁ、洗ってあげるわよ。早く背中向けなさい！"
 
     old "(Bathing with Luise, huh…) Can't calm down → scene 1797 It's creepy and scary! → scene 1798 I could dance with excitement! → scene 1799{#sp91_s1709_010}"
-    new "サイト：（ルイズと一緒にお風呂なんて……）【選択肢】落ち着かない → scene 1797【選択肢】不気味で怖い！ → scene 1798【選択肢】楽しみで踊っちゃうよ！ → scene 1799"
+    new "サイト：（ルイズと一緒にお風呂なんて……）"
 
     old "…S-Saito, you idiot! So mean! Are other girls really that good!?{#sp91_s1710_003}"
     new "ルイズ：……サ、サイトの馬鹿っ！イジワル！他の女の子がそんなにいいの！！"
@@ -756,8 +756,8 @@ translate japanese strings:
     old "Y-You're proud of it!?{#sp91_s1736_061}"
     new "サイト：じ、自信作っ！！"
 
-    old "(Th-This is…?) 【Choice】It's a very unique flavor → scene 1737 【Choice】Somehow, tears came to my eyes → scene 1738 【Choice】It's awful!! → scene 1739{#sp91_s1736_062}"
-    new "サイト：（こ、これが……？）【選択肢】大変個性的なお味です → scene 1737【選択肢】なんか、涙が出てきた → scene 1738【選択肢】マズイッ！！ → scene 1739"
+    old "(Th-This is…?){#sp91_s1736_062}"
+    new "サイト：（こ、これが……？）"
 
     old "It's a very unique flavor…{#sp91_s1737_002}"
     new "サイト：大変個性的なお味です……。"
@@ -1411,7 +1411,7 @@ translate japanese strings:
     new "ルイズ：……スゥスゥ。"
 
     old "(……Guhhh, i-it's gone numb! ……Ugh, I can't feel my arm.) / Gently, take it out…… / Endure it, endure it! / Wake Louise up……{#sp91_s1776_023}"
-    new "サイト：（……ぐぉぉぉ、し、痺れた！……う、腕の感覚がない）【選択肢】そっと、外して…… → scene 1777【選択肢】我慢我慢！ → scene 1778【選択肢】ルイズを起こして…… → scene 1779"
+    new "サイト：（……ぐぉぉぉ、し、痺れた！……う、腕の感覚がない）"
 
     old "(……G-Gently, I slide my arm out from under Louise's head){#sp91_s1777_002}"
     new "サイト：（……そ、そおっとルイズの頭の下から腕を抜いて）"
@@ -1756,7 +1756,7 @@ translate japanese strings:
     new "ルイズ：こうね！うふふ……。"
 
     old "…Guh! That was way too much force!{#sp91_s1792_039}"
-    new "サイト：（……ぐはっ、そいつは力を入れすぎ！）【選択肢】ち、ちょっと痛いかも？ → scene 1793【選択肢】我慢！　我慢！ → scene 1794【選択肢】攻守交代を！ → scene 1795"
+    new "サイト：（……ぐはっ、そいつは力を入れすぎ！）"
 
     old "…U-Um. It might hurt a little?{#sp91_s1793_002}"
     new "サイト：……あの。ちょ、ちょっと痛いかも？"
@@ -2844,8 +2844,8 @@ translate japanese strings:
     old "M-Mmnh!{#sp91_s1840_016}"
     new "ルイズ：う、んんっっ！"
 
-    old "Eep—! My eyes met Louise's!【Choice】Surprise attack! → scene 1841【Choice】War of attrition! → scene 1842【Choice】Suicide charge! → scene 1843{#sp91_s1840_017}"
-    new "サイト：（うわっ、ルイズと目が合っちゃった！）【選択肢】奇襲作戦！ → scene 1841【選択肢】持久作戦！ → scene 1842【選択肢】特攻作戦！ → scene 1843"
+    old "Eep—! My eyes met Louise's!{#sp91_s1840_017}"
+    new "サイト：（うわっ、ルイズと目が合っちゃった！）"
 
     old "…First strike wins! I'll charge straight at Louise all at once!{#sp91_s1841_002}"
     new "サイト：（……先手必勝！一気にルイズの側に攻め込んでやる！）"
@@ -2977,7 +2977,7 @@ translate japanese strings:
     new "サイト：（息苦しいっていうか……）"
 
     old "(Louise is flushing…){#sp91_s1848_011}"
-    new "サイト：（ルイズが上気して……）【選択肢】ルイズの名前を囁いてみる → scene 1849【選択肢】……集中！ → scene 1850【選択肢】思い切って一気に勝負に…… → scene 1851"
+    new "サイト：（ルイズが上気して……）"
 
     old "…Louise…{#sp91_s1849_002}"
     new "サイト：……ルイズぅ……。"
@@ -3136,7 +3136,7 @@ translate japanese strings:
     new "サイト：（あ、ルイズが震えてる……！）"
 
     old "(…I should take the lead here.){#sp91_s1856_024}"
-    new "サイト：（……こ、ここは俺がリードして）【選択肢】……目を開く？ → scene 1857【選択肢】残りを一息に？ → scene 1858【選択肢】我慢して身を引く → scene 1859"
+    new "サイト：（……こ、ここは俺がリードして）"
 
     old "(…What kind of face is she making?){#sp91_s1857_002}"
     new "サイト：（……どんな表情をしているんだろう？）"

@@ -36,6 +36,24 @@ translate japanese strings:
     old "H-heh, stay calm! Stay calm!{#sp91_c_1703_1751}"
     new "へ、平常心！　平常心！"
 
+    old "H-Help!{#sp91_c_1704_1757}"
+    new "た、助けて！"
+
+    old "The wolf in my heart is…{#sp91_c_1704_1758}"
+    new "俺の心の狼さんが……"
+
+    old "S-So soft…{#sp91_c_1704_1759}"
+    new "や、やわらかい……"
+
+    old "Her sleeping face is really cute…{#sp91_c_1705_1765}"
+    new "寝顔はホントかわいいよな"
+
+    old "Wicked thoughts…{#sp91_c_1705_1766}"
+    new "よこしまな考えが……"
+
+    old "…Maybe I should sleep too.{#sp91_c_1705_1767}"
+    new "……お、俺も寝るか"
+
     old "I-it's fine, I guess?{#sp91_c_1706_1773}"
     new "べ、別にいいけど？"
 
@@ -62,6 +80,15 @@ translate japanese strings:
 
     old "Then, please do.{#sp91_c_1708_1791}"
     new "それじゃお願いします"
+
+    old "Can't settle down.{#sp91_c_1709_1797}"
+    new "落ち着かない"
+
+    old "Eerie and scary!{#sp91_c_1709_1798}"
+    new "不気味で怖い！"
+
+    old "I'm so excited I could dance!{#sp91_c_1709_1799}"
+    new "楽しみで踊っちゃうよ！"
 
     old "O-of course!{#sp91_c_1710_1805}"
     new "も、もちろん！"
@@ -135,6 +162,15 @@ translate japanese strings:
     old "'Ahh'.{#sp91_c_1720_1723}"
     new "あーん"
 
+    old "It's a very unique flavor{#sp91_c_1736_1737}"
+    new "大変個性的なお味です"
+
+    old "Somehow, tears came to my eyes{#sp91_c_1736_1738}"
+    new "なんか、涙が出てきた"
+
+    old "It's awful!!{#sp91_c_1736_1739}"
+    new "マズイッ！！"
+
     old "I'm happy, but…!{#sp91_c_1744_1745}"
     new "嬉しいけどぉ……！"
 
@@ -171,6 +207,15 @@ translate japanese strings:
     old "What if I let myself go wild?{#sp91_c_1768_1771}"
     new "暴走してしまうのも？"
 
+    old "Gently… take it off…{#sp91_c_1776_1777}"
+    new "そっと、外して……"
+
+    old "Endure it, endure it!{#sp91_c_1776_1778}"
+    new "我慢我慢！"
+
+    old "Wake Louise up…{#sp91_c_1776_1779}"
+    new "ルイズを起こして……"
+
     old "This slow torture is too cruel~~!{#sp91_c_1784_1785}"
     new "生殺しなんて酷すぎるって～～！"
 
@@ -179,6 +224,15 @@ translate japanese strings:
 
     old "I'll accept the punishment willingly.{#sp91_c_1784_1787}"
     new "罰は甘んじて受けます"
+
+    old "It might hurt a little?{#sp91_c_1792_1793}"
+    new "ち、ちょっと痛いかも？"
+
+    old "Endure! Endure!{#sp91_c_1792_1794}"
+    new "我慢！　我慢！"
+
+    old "Let's switch!{#sp91_c_1792_1795}"
+    new "攻守交代を！"
 
     old "Sorry. It just felt so good…{#sp91_c_1800_1801}"
     new "ごめん。気持ちよくてつい"
@@ -224,4 +278,31 @@ translate japanese strings:
 
     old "Recklessly…{#sp91_c_1832_1835}"
     new "やけくそで……"
+
+    old "Surprise attack!{#sp91_c_1840_1841}"
+    new "奇襲作戦！"
+
+    old "War of attrition!{#sp91_c_1840_1842}"
+    new "持久作戦！"
+
+    old "Suicide charge!{#sp91_c_1840_1843}"
+    new "特攻作戦！"
+
+    old "Whisper Louise's name.{#sp91_c_1848_1849}"
+    new "ルイズの名前を囁いてみる"
+
+    old "…Focus!{#sp91_c_1848_1850}"
+    new "……集中！"
+
+    old "Settle it in one go…{#sp91_c_1848_1851}"
+    new "思い切って一気に勝負に……"
+
+    old "…Open my eyes?{#sp91_c_1856_1857}"
+    new "……目を開く？"
+
+    old "Finish the rest in one breath?{#sp91_c_1856_1858}"
+    new "残りを一息に？"
+
+    old "Hold back and pull away.{#sp91_c_1856_1859}"
+    new "我慢して身を引く"
 

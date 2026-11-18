@@ -396,9 +396,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（ルイズの体温と重みが背中に……）【選択肢】た、助けて！ → scene 1757【選択肢】俺の心の狼さんが…… → scene 1758【選択肢】や、やわらかい…… → scene 1759",
+     "ja": "（ルイズの体温と重みが背中に……）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "た、助けて！",
+     "target": 1757
+    },
+    {
+     "kind": "choice",
+     "text": "俺の心の狼さんが……",
+     "target": 1758
+    },
+    {
+     "kind": "choice",
+     "text": "や、やわらかい……",
+     "target": 1759
     }
    ]
   },
@@ -510,9 +525,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）【選択肢】寝顔はホントかわいいよな → scene 1765【選択肢】よこしまな考えが…… → scene 1766【選択肢】……お、俺も寝るか → scene 1767",
+     "ja": "（本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "寝顔はホントかわいいよな",
+     "target": 1765
+    },
+    {
+     "kind": "choice",
+     "text": "よこしまな考えが……",
+     "target": 1766
+    },
+    {
+     "kind": "choice",
+     "text": "……お、俺も寝るか",
+     "target": 1767
     }
    ]
   },
@@ -922,9 +952,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（ルイズと一緒にお風呂なんて……）【選択肢】落ち着かない → scene 1797【選択肢】不気味で怖い！ → scene 1798【選択肢】楽しみで踊っちゃうよ！ → scene 1799",
+     "ja": "（ルイズと一緒にお風呂なんて……）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "落ち着かない",
+     "target": 1797
+    },
+    {
+     "kind": "choice",
+     "text": "不気味で怖い！",
+     "target": 1798
+    },
+    {
+     "kind": "choice",
+     "text": "楽しみで踊っちゃうよ！",
+     "target": 1799
     }
    ]
   },
@@ -3740,9 +3785,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（こ、これが……？）【選択肢】大変個性的なお味です → scene 1737【選択肢】なんか、涙が出てきた → scene 1738【選択肢】マズイッ！！ → scene 1739",
+     "ja": "（こ、これが……？）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "大変個性的なお味です",
+     "target": 1737
+    },
+    {
+     "kind": "choice",
+     "text": "なんか、涙が出てきた",
+     "target": 1738
+    },
+    {
+     "kind": "choice",
+     "text": "マズイッ！！",
+     "target": 1739
     }
    ]
   },
@@ -6230,9 +6290,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（……ぐぉぉぉ、し、痺れた！……う、腕の感覚がない）【選択肢】そっと、外して…… → scene 1777【選択肢】我慢我慢！ → scene 1778【選択肢】ルイズを起こして…… → scene 1779",
+     "ja": "（……ぐぉぉぉ、し、痺れた！……う、腕の感覚がない）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "そっと、外して……",
+     "target": 1777
+    },
+    {
+     "kind": "choice",
+     "text": "我慢我慢！",
+     "target": 1778
+    },
+    {
+     "kind": "choice",
+     "text": "ルイズを起こして……",
+     "target": 1779
     }
    ]
   },
@@ -7430,9 +7505,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（……ぐはっ、そいつは力を入れすぎ！）【選択肢】ち、ちょっと痛いかも？ → scene 1793【選択肢】我慢！　我慢！ → scene 1794【選択肢】攻守交代を！ → scene 1795",
+     "ja": "（……ぐはっ、そいつは力を入れすぎ！）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "ち、ちょっと痛いかも？",
+     "target": 1793
+    },
+    {
+     "kind": "choice",
+     "text": "我慢！　我慢！",
+     "target": 1794
+    },
+    {
+     "kind": "choice",
+     "text": "攻守交代を！",
+     "target": 1795
     }
    ]
   },
@@ -11394,9 +11484,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（うわっ、ルイズと目が合っちゃった！）【選択肢】奇襲作戦！ → scene 1841【選択肢】持久作戦！ → scene 1842【選択肢】特攻作戦！ → scene 1843",
+     "ja": "（うわっ、ルイズと目が合っちゃった！）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "奇襲作戦！",
+     "target": 1841
+    },
+    {
+     "kind": "choice",
+     "text": "持久作戦！",
+     "target": 1842
+    },
+    {
+     "kind": "choice",
+     "text": "特攻作戦！",
+     "target": 1843
     }
    ]
   },
@@ -11886,9 +11991,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（ルイズが上気して……）【選択肢】ルイズの名前を囁いてみる → scene 1849【選択肢】……集中！ → scene 1850【選択肢】思い切って一気に勝負に…… → scene 1851",
+     "ja": "（ルイズが上気して……）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "ルイズの名前を囁いてみる",
+     "target": 1849
+    },
+    {
+     "kind": "choice",
+     "text": "……集中！",
+     "target": 1850
+    },
+    {
+     "kind": "choice",
+     "text": "思い切って一気に勝負に……",
+     "target": 1851
     }
    ]
   },
@@ -12589,9 +12709,24 @@
     {
      "kind": "dlg",
      "speaker": "サイト",
-     "ja": "（……こ、ここは俺がリードして）【選択肢】……目を開く？ → scene 1857【選択肢】残りを一息に？ → scene 1858【選択肢】我慢して身を引く → scene 1859",
+     "ja": "（……こ、ここは俺がリードして）",
      "voice": null,
      "thought": false
+    },
+    {
+     "kind": "choice",
+     "text": "……目を開く？",
+     "target": 1857
+    },
+    {
+     "kind": "choice",
+     "text": "残りを一息に？",
+     "target": 1858
+    },
+    {
+     "kind": "choice",
+     "text": "我慢して身を引く",
+     "target": 1859
     }
    ]
   },

@@ -24,12 +24,15 @@ label sp91_scene_1699:
     # あ……ええっと……。
     s "Ah… um…{#sp91_s1699_006}"
 
+
+    menu:
         "Yeah! I'm hungry, I'm hungry!!{#sp91_c_1699_1717}":
             jump sp91_scene_1717
         "Somehow, I'm starting to feel hungry.{#sp91_c_1699_1718}":
             jump sp91_scene_1718
         "Definitely not hungry.{#sp91_c_1699_1719}":
             jump sp91_scene_1719
+
 label sp91_scene_1701:
 
     # [EVENT_CG event    image=+214, level=80]
@@ -45,12 +48,15 @@ label sp91_scene_1701:
     voice "sp91_s1701_004"
     s "Huh? Yeah, now that you mention it.{#sp91_s1701_004}"
 
+
+    menu:
         "Well, maybe I am hungry.{#sp91_c_1701_1733}":
             jump sp91_scene_1733
         "Actually, I'm starving!!{#sp91_c_1701_1734}":
             jump sp91_scene_1734
         "Well then, that's settled.{#sp91_c_1701_1735}":
             jump sp91_scene_1735
+
 label sp91_scene_1702:
 
     # [EVENT_CG event    image=+182, level=80]
@@ -84,12 +90,15 @@ label sp91_scene_1702:
     voice "sp91_s1702_009"
     l "A girl's feelings… you know?{#sp91_s1702_009}"
 
+
+    menu:
         "W-what do you mean?{#sp91_c_1702_1741}":
             jump sp91_scene_1741
         "…I-I don't understand.{#sp91_c_1702_1742}":
             jump sp91_scene_1742
         "O-oh, the wolf-san inside me is…!{#sp91_c_1702_1743}":
             jump sp91_scene_1743
+
 label sp91_scene_1703:
 
     # [BGM      bgm      stop=1000]
@@ -121,12 +130,15 @@ label sp91_scene_1703:
     voice "sp91_s1703_009"
     l "…F-felt good, did it?{#sp91_s1703_009}"
 
+
+    menu:
         "It… might have felt good.{#sp91_c_1703_1749}":
             jump sp91_scene_1749
         "Where did you learn to do that!?{#sp91_c_1703_1750}":
             jump sp91_scene_1750
         "H-heh, stay calm! Stay calm!{#sp91_c_1703_1751}":
             jump sp91_scene_1751
+
 label sp91_scene_1704:
 
     # [BGM      bgm      stop=1000]
@@ -160,8 +172,17 @@ label sp91_scene_1704:
     voice "sp91_s1704_009"
     s "N-no, I'm not trying to be mean or anything…{#sp91_s1704_009}"
 
-    # （ルイズの体温と重みが背中に……）【選択肢】た、助けて！ → scene 1757【選択肢】俺の心の狼さんが…
+    # （ルイズの体温と重みが背中に……）
     s "(Luise's warmth and weight against my back…) H-help me! → scene 1757 The wolf-san inside me is… → scene 1758 S-soft… → scene 1759{#sp91_s1704_010}"
+
+
+    menu:
+        "H-Help!{#sp91_c_1704_1757}":
+            jump sp91_scene_1757
+        "The wolf in my heart is…{#sp91_c_1704_1758}":
+            jump sp91_scene_1758
+        "S-So soft…{#sp91_c_1704_1759}":
+            jump sp91_scene_1759
 
 label sp91_scene_1705:
 
@@ -215,8 +236,17 @@ label sp91_scene_1705:
     voice "sp91_s1705_017"
     l "…Suu suu.{#sp91_s1705_017}"
 
-    # （本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）【選択肢】寝顔はホントかわいいよな → 
+    # （本人はとっとと寝ちゃうし……。俺は緊張しちゃってるっていうのに……）
     s "(She just goes right to sleep… and here I am all tense…) Her sleeping face really is cute, isn't it → scene 1765 Wicked thoughts are… → scene 1766 …Oh, maybe I should sleep too → scene 1767{#sp91_s1705_018}"
+
+
+    menu:
+        "Her sleeping face is really cute…{#sp91_c_1705_1765}":
+            jump sp91_scene_1765
+        "Wicked thoughts…{#sp91_c_1705_1766}":
+            jump sp91_scene_1766
+        "…Maybe I should sleep too.{#sp91_c_1705_1767}":
+            jump sp91_scene_1767
 
 label sp91_scene_1706:
 
@@ -272,12 +302,15 @@ label sp91_scene_1706:
     voice "sp91_s1706_017"
     s "Huh? Um…{#sp91_s1706_017}"
 
+
+    menu:
         "I-it's fine, I guess?{#sp91_c_1706_1773}":
             jump sp91_scene_1773
         "W-wait a sec!{#sp91_c_1706_1774}":
             jump sp91_scene_1774
         "Refuse!{#sp91_c_1706_1775}":
             jump sp91_scene_1775
+
 label sp91_scene_1707:
 
     # [EVENT_CG event    image=+214, level=80]
@@ -340,12 +373,15 @@ label sp91_scene_1707:
     voice "sp91_s1707_019"
     s "Um, no, I mean…{#sp91_s1707_019}"
 
+
+    menu:
         "Honestly…{#sp91_c_1707_1781}":
             jump sp91_scene_1781
         "Try teasing her?{#sp91_c_1707_1782}":
             jump sp91_scene_1782
         "Laugh it off.{#sp91_c_1707_1783}":
             jump sp91_scene_1783
+
 label sp91_scene_1708:
 
     # [EVENT_CG event    image=+214, level=80]
@@ -381,12 +417,15 @@ label sp91_scene_1708:
     voice "sp91_s1708_009"
     l "W-what!? You're not happy that I'm the one washing you!?{#sp91_s1708_009}"
 
+
+    menu:
         "T-that's going a bit far, don't you think…?{#sp91_c_1708_1789}":
             jump sp91_scene_1789
         "It makes me happy, but…{#sp91_c_1708_1790}":
             jump sp91_scene_1790
         "Then, please do.{#sp91_c_1708_1791}":
             jump sp91_scene_1791
+
 label sp91_scene_1709:
 
     # [EVENT_CG event    image=+214, level=80]
@@ -412,8 +451,17 @@ label sp91_scene_1709:
     voice "sp91_s1709_009"
     l "Come on, I'll wash you. Turn your back to me, quickly!{#sp91_s1709_009}"
 
-    # （ルイズと一緒にお風呂なんて……）【選択肢】落ち着かない → scene 1797【選択肢】不気味で怖い！ →
+    # （ルイズと一緒にお風呂なんて……）
     s "(Bathing with Luise, huh…) Can't calm down → scene 1797 It's creepy and scary! → scene 1798 I could dance with excitement! → scene 1799{#sp91_s1709_010}"
+
+
+    menu:
+        "Can't settle down.{#sp91_c_1709_1797}":
+            jump sp91_scene_1797
+        "Eerie and scary!{#sp91_c_1709_1798}":
+            jump sp91_scene_1798
+        "I'm so excited I could dance!{#sp91_c_1709_1799}":
+            jump sp91_scene_1799
 
 label sp91_scene_1710:
 
@@ -460,12 +508,15 @@ label sp91_scene_1710:
     voice "sp91_s1710_022"
     s "Eh, um…{#sp91_s1710_022}"
 
+
+    menu:
         "O-of course!{#sp91_c_1710_1805}":
             jump sp91_scene_1805
         "I'll handle it constructively.{#sp91_c_1710_1806}":
             jump sp91_scene_1806
         "M-maybe it's impossible, though?{#sp91_c_1710_1807}":
             jump sp91_scene_1807
+
 label sp91_scene_1711:
 
     # [EVENT_CG event    image=+190, level=80]
@@ -507,12 +558,15 @@ label sp91_scene_1711:
     voice "sp91_s1711_012"
     l "Hey? From your point of view, am I cute?{#sp91_s1711_012}"
 
+
+    menu:
         "Luise is cute.{#sp91_c_1711_1813}":
             jump sp91_scene_1813
         "Luise is cute too.{#sp91_c_1711_1814}":
             jump sp91_scene_1814
         "But, she's flat-chested…{#sp91_c_1711_1815}":
             jump sp91_scene_1815
+
 label sp91_scene_1712:
 
     # [EVENT_CG event    image=+190, level=80]
@@ -573,12 +627,15 @@ label sp91_scene_1712:
     voice "sp91_s1712_016"
     l "I'll drill love and passion into you, thoroughly!{#sp91_s1712_016}"
 
+
+    menu:
         "……Eh, I'll pass.{#sp91_c_1712_1821}":
             jump sp91_scene_1821
         "Ah, love and passion, you say…?{#sp91_c_1712_1822}":
             jump sp91_scene_1822
         "Should I do it like Gishe?{#sp91_c_1712_1823}":
             jump sp91_scene_1823
+
 label sp91_scene_1713:
 
     # [EVENT_CG event    image=+190, level=80]
@@ -602,12 +659,15 @@ label sp91_scene_1713:
     voice "sp91_s1713_006"
     s "……E-Erm?{#sp91_s1713_006}"
 
+
+    menu:
         "I care about you.{#sp91_c_1713_1829}":
             jump sp91_scene_1829
         "Maybe I do…?{#sp91_c_1713_1830}":
             jump sp91_scene_1830
         "What's that even supposed to mean?{#sp91_c_1713_1831}":
             jump sp91_scene_1831
+
 label sp91_scene_1714:
 
     # [BGM      bgm      stop=1000]
@@ -659,12 +719,15 @@ label sp91_scene_1714:
     voice "sp91_s1714_014"
     s "Um, Louise. Eat it without using our hands… surely you don't mean…{#sp91_s1714_014}"
 
+
+    menu:
         "…That thing couples do?{#sp91_c_1714_1837}":
             jump sp91_scene_1837
         "How, exactly?{#sp91_c_1714_1838}":
             jump sp91_scene_1838
         "…With our feet?{#sp91_c_1714_1839}":
             jump sp91_scene_1839
+
 label sp91_scene_1715:
 
     # [EVENT_CG event    image=+214, level=80]
@@ -692,12 +755,15 @@ label sp91_scene_1715:
     voice "sp91_s1715_007"
     l "W-Well, Saito? What'll it be?{#sp91_s1715_007}"
 
+
+    menu:
         "What happens if we eat it all the way?{#sp91_c_1715_1845}":
             jump sp91_scene_1845
         "G-Gladly!{#sp91_c_1715_1846}":
             jump sp91_scene_1846
         "P-Please, spare me.{#sp91_c_1715_1847}":
             jump sp91_scene_1847
+
 label sp91_scene_1716:
 
     # [EVENT_CG event    image=+214, level=80]
@@ -737,12 +803,15 @@ label sp91_scene_1716:
     voice "sp91_s1716_010"
     s "E-Erm, um…{#sp91_s1716_010}"
 
+
+    menu:
         "It's a bit embarrassing, don't you think?{#sp91_c_1716_1853}":
             jump sp91_scene_1853
         "And if it works out?{#sp91_c_1716_1854}":
             jump sp91_scene_1854
         "……M-Marvelous.{#sp91_c_1716_1855}":
             jump sp91_scene_1855
+
 label sp91_scene_1717:
 
     # [BGM      bgm      play=+4]
@@ -930,12 +999,15 @@ label sp91_scene_1720:
     # ……。
     s "……{#sp91_s1720_043}"
 
+
+    menu:
         "What punishment game is this?{#sp91_c_1720_1721}":
             jump sp91_scene_1721
         "Is there poison in this?{#sp91_c_1720_1722}":
             jump sp91_scene_1722
         "'Ahh'.{#sp91_c_1720_1723}":
             jump sp91_scene_1723
+
 label sp91_scene_1721:
 
     # [BGM      bgm      play=+4]
@@ -1346,8 +1418,17 @@ label sp91_scene_1736:
     voice "sp91_s1736_061"
     s "Y-You're proud of it!?{#sp91_s1736_061}"
 
-    # （こ、これが……？）【選択肢】大変個性的なお味です → scene 1737【選択肢】なんか、涙が出てきた →
-    s "(Th-This is…?) 【Choice】It's a very unique flavor → scene 1737 【Choice】Somehow, tears came to my eyes → scene 1738 【Choice】It's awful!! → scene 1739{#sp91_s1736_062}"
+    # （こ、これが……？）
+    s "(Th-This is…?){#sp91_s1736_062}"
+
+
+    menu:
+        "It's a very unique flavor{#sp91_c_1736_1737}":
+            jump sp91_scene_1737
+        "Somehow, tears came to my eyes{#sp91_c_1736_1738}":
+            jump sp91_scene_1738
+        "It's awful!!{#sp91_c_1736_1739}":
+            jump sp91_scene_1739
 
 label sp91_scene_1737:
 
@@ -1608,12 +1689,15 @@ label sp91_scene_1744:
     voice "sp91_s1744_013"
     s "Aah! Louise's cherry-blossom-pink lips on my ear…!{#sp91_s1744_013}"
 
+
+    menu:
         "I'm happy, but…!{#sp91_c_1744_1745}":
             jump sp91_scene_1745
         "I-I'm not happy about this at all!{#sp91_c_1744_1746}":
             jump sp91_scene_1746
         "But I can't hold back!{#sp91_c_1744_1747}":
             jump sp91_scene_1747
+
 label sp91_scene_1745:
 
     # [BGM      bgm      play=+4]
@@ -1833,12 +1917,15 @@ label sp91_scene_1752:
     voice "sp91_s1752_006"
     s "U-Um…{#sp91_s1752_006}"
 
+
+    menu:
         "I'm happy. Please continue.{#sp91_c_1752_1753}":
             jump sp91_scene_1753
         "D-Don't be all over me!{#sp91_c_1752_1754}":
             jump sp91_scene_1754
         "My reason is at its limit!{#sp91_c_1752_1755}":
             jump sp91_scene_1755
+
 label sp91_scene_1753:
 
     # [BGM      bgm      play=+4]
@@ -2068,12 +2155,15 @@ label sp91_scene_1760:
     voice "sp91_s1760_009"
     s "T-That's… I mean…{#sp91_s1760_009}"
 
+
+    menu:
         "S-Stop it!{#sp91_c_1760_1761}":
             jump sp91_scene_1761
         "Don't stop!{#sp91_c_1760_1762}":
             jump sp91_scene_1762
         "M-More!?{#sp91_c_1760_1763}":
             jump sp91_scene_1763
+
 label sp91_scene_1761:
 
     # [BGM      bgm      play=+4]
@@ -2294,12 +2384,15 @@ label sp91_scene_1768:
     voice "sp91_s1768_005"
     s "…L-Louise?{#sp91_s1768_005}"
 
+
+    menu:
         "N-No, I can't give in to temptation!{#sp91_c_1768_1769}":
             jump sp91_scene_1769
         "…N-No, I said no!{#sp91_c_1768_1770}":
             jump sp91_scene_1770
         "What if I let myself go wild?{#sp91_c_1768_1771}":
             jump sp91_scene_1771
+
 label sp91_scene_1769:
 
     # [BGM      bgm      play=+4]
@@ -2621,8 +2714,17 @@ label sp91_scene_1776:
     voice "sp91_s1776_022"
     l "……Su-su.{#sp91_s1776_022}"
 
-    # （……ぐぉぉぉ、し、痺れた！……う、腕の感覚がない）【選択肢】そっと、外して…… → scene 1777【選
+    # （……ぐぉぉぉ、し、痺れた！……う、腕の感覚がない）
     s "(……Guhhh, i-it's gone numb! ……Ugh, I can't feel my arm.) / Gently, take it out…… / Endure it, endure it! / Wake Louise up……{#sp91_s1776_023}"
+
+
+    menu:
+        "Gently… take it off…{#sp91_c_1776_1777}":
+            jump sp91_scene_1777
+        "Endure it, endure it!{#sp91_c_1776_1778}":
+            jump sp91_scene_1778
+        "Wake Louise up…{#sp91_c_1776_1779}":
+            jump sp91_scene_1779
 
 label sp91_scene_1777:
 
@@ -2881,12 +2983,15 @@ label sp91_scene_1784:
     voice "sp91_s1784_007"
     l "T-This is a punishment, okay!{#sp91_s1784_007}"
 
+
+    menu:
         "This slow torture is too cruel~~!{#sp91_c_1784_1785}":
             jump sp91_scene_1785
         "I-If you come at me, what am I supposed to do?{#sp91_c_1784_1786}":
             jump sp91_scene_1786
         "I'll accept the punishment willingly.{#sp91_c_1784_1787}":
             jump sp91_scene_1787
+
 label sp91_scene_1785:
 
     # [BGM      bgm      play=+4]
@@ -3230,8 +3335,17 @@ label sp91_scene_1792:
     # [EVENT_CG event    reset]
     # [SPRITE   lay1     hide, reset]
     # [SPRITE   lay5     hide, reset]
-    # （……ぐはっ、そいつは力を入れすぎ！）【選択肢】ち、ちょっと痛いかも？ → scene 1793【選択肢】我慢
+    # （……ぐはっ、そいつは力を入れすぎ！）
     s "…Guh! That was way too much force!{#sp91_s1792_039}"
+
+
+    menu:
+        "It might hurt a little?{#sp91_c_1792_1793}":
+            jump sp91_scene_1793
+        "Endure! Endure!{#sp91_c_1792_1794}":
+            jump sp91_scene_1794
+        "Let's switch!{#sp91_c_1792_1795}":
+            jump sp91_scene_1795
 
 label sp91_scene_1793:
 
@@ -3549,12 +3663,15 @@ label sp91_scene_1800:
     voice "sp91_s1800_016"
     l "What's wrong with you, spacing out like that? …Did it feel too good?{#sp91_s1800_016}"
 
+
+    menu:
         "Sorry. It just felt so good…{#sp91_c_1800_1801}":
             jump sp91_scene_1801
         "I-It did not feel good at all!{#sp91_c_1800_1802}":
             jump sp91_scene_1802
         "I was just thinking about when I was a kid…{#sp91_c_1800_1803}":
             jump sp91_scene_1803
+
 label sp91_scene_1801:
 
     # [BGM      bgm      play=+4]
@@ -3958,12 +4075,15 @@ label sp91_scene_1808:
     voice "sp91_s1808_032"
     l "I'll say it once more… 'Next is the front.'{#sp91_s1808_032}"
 
+
+    menu:
         "W-Wait a sec!{#sp91_c_1808_1809}":
             jump sp91_scene_1809
         "I have no choice but to run{#sp91_c_1808_1810}":
             jump sp91_scene_1810
         "Ask boldly{#sp91_c_1808_1811}":
             jump sp91_scene_1811
+
 label sp91_scene_1809:
 
     # [BGM      bgm      play=+4]
@@ -4279,12 +4399,15 @@ label sp91_scene_1816:
     voice "sp91_s1816_010"
     l "…Are you really serious, Saito?{#sp91_s1816_010}"
 
+
+    menu:
         "My noble Master!{#sp91_c_1816_1817}":
             jump sp91_scene_1817
         "That cuteness is a crime!{#sp91_c_1816_1818}":
             jump sp91_scene_1818
         "Master, it's moe-moe!{#sp91_c_1816_1819}":
             jump sp91_scene_1819
+
 label sp91_scene_1817:
 
     # [BGM      bgm      play=+4]
@@ -4589,12 +4712,15 @@ label sp91_scene_1824:
     voice "sp91_s1824_017"
     s "Ugh… D-Do I really have to do it too?{#sp91_s1824_017}"
 
+
+    menu:
         "Haltingly, but sincerely…{#sp91_c_1824_1825}":
             jump sp91_scene_1825
         "Manfully, with conviction{#sp91_c_1824_1826}":
             jump sp91_scene_1826
         "Acting cool{#sp91_c_1824_1827}":
             jump sp91_scene_1827
+
 label sp91_scene_1825:
 
     # [BGM      bgm      play=+4]
@@ -4939,12 +5065,15 @@ label sp91_scene_1832:
     voice "sp91_s1832_020"
     l "…Alright? You're going to melt my heart, sweet and slow!{#sp91_s1832_020}"
 
+
+    menu:
         "Give it your all, passionately?{#sp91_c_1832_1833}":
             jump sp91_scene_1833
         "Just wing it?{#sp91_c_1832_1834}":
             jump sp91_scene_1834
         "Recklessly…{#sp91_c_1832_1835}":
             jump sp91_scene_1835
+
 label sp91_scene_1833:
 
     # [BGM      bgm      play=+4]
@@ -5286,8 +5415,17 @@ label sp91_scene_1840:
     voice "sp91_s1840_016"
     l "M-Mmnh!{#sp91_s1840_016}"
 
-    # （うわっ、ルイズと目が合っちゃった！）【選択肢】奇襲作戦！ → scene 1841【選択肢】持久作戦！ → 
-    s "Eep—! My eyes met Louise's!【Choice】Surprise attack! → scene 1841【Choice】War of attrition! → scene 1842【Choice】Suicide charge! → scene 1843{#sp91_s1840_017}"
+    # （うわっ、ルイズと目が合っちゃった！）
+    s "Eep—! My eyes met Louise's!{#sp91_s1840_017}"
+
+
+    menu:
+        "Surprise attack!{#sp91_c_1840_1841}":
+            jump sp91_scene_1841
+        "War of attrition!{#sp91_c_1840_1842}":
+            jump sp91_scene_1842
+        "Suicide charge!{#sp91_c_1840_1843}":
+            jump sp91_scene_1843
 
 label sp91_scene_1841:
 
@@ -5536,8 +5674,17 @@ label sp91_scene_1848:
     # （息苦しいっていうか……）
     s "(It's more like I can't breathe…){#sp91_s1848_010}"
 
-    # （ルイズが上気して……）【選択肢】ルイズの名前を囁いてみる → scene 1849【選択肢】……集中！ → 
+    # （ルイズが上気して……）
     s "(Louise is flushing…){#sp91_s1848_011}"
+
+
+    menu:
+        "Whisper Louise's name.{#sp91_c_1848_1849}":
+            jump sp91_scene_1849
+        "…Focus!{#sp91_c_1848_1850}":
+            jump sp91_scene_1850
+        "Settle it in one go…{#sp91_c_1848_1851}":
+            jump sp91_scene_1851
 
 label sp91_scene_1849:
 
@@ -5864,8 +6011,17 @@ label sp91_scene_1856:
     # （あ、ルイズが震えてる……！）
     s "(Ah, Louise is trembling…!){#sp91_s1856_023}"
 
-    # （……こ、ここは俺がリードして）【選択肢】……目を開く？ → scene 1857【選択肢】残りを一息に？ →
+    # （……こ、ここは俺がリードして）
     s "(…I should take the lead here.){#sp91_s1856_024}"
+
+
+    menu:
+        "…Open my eyes?{#sp91_c_1856_1857}":
+            jump sp91_scene_1857
+        "Finish the rest in one breath?{#sp91_c_1856_1858}":
+            jump sp91_scene_1858
+        "Hold back and pull away.{#sp91_c_1856_1859}":
+            jump sp91_scene_1859
 
 label sp91_scene_1857:
 
@@ -6054,3 +6210,5 @@ label sp91_scene_1860:
     # （そんなに恥ずかしいのなら……、最初からやらなきゃいいだろ）[SE       se1      stop=1
     s "(If it's that embarrassing… you shouldn't have done it in the first place.){#sp91_s1860_004}"
 
+
+    return

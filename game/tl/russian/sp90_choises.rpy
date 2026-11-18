@@ -18,6 +18,15 @@ translate russian strings:
     old "Surrender!{#sp90_c_1536_1563}"
     new "Сдаться!"
 
+    old "Escape!{#sp90_c_1537_1569}"
+    new "Убежать!"
+
+    old "Tackle!{#sp90_c_1537_1570}"
+    new "Толкнуть!"
+
+    old "…Faint!{#sp90_c_1537_1571}"
+    new "…Лишиться чувств!"
+
     old "O-Of course I'll run away!{#sp90_c_1538_1577}"
     new "К-Конечно, я убегу!"
 
@@ -44,6 +53,15 @@ translate russian strings:
 
     old "O-One of these days, Louise……{#sp90_c_1540_1595}"
     new "К-Когда-нибудь Луизе……"
+
+    old "W-Well, you've improved a bit, haven't you?……{#sp90_c_1541_1601}"
+    new "Н-Ну, ты и вправду немного улучшилась……"
+
+    old "No, you're doing great!{#sp90_c_1541_1602}"
+    new "Нет, ты молодец!"
+
+    old "Really, it's a waste of effort……{#sp90_c_1541_1603}"
+    new "Правда, напрасный труд……"
 
     old "L-Let me help you!{#sp90_c_1542_1609}"
     new "П-Позвольте мне помочь!"
@@ -135,6 +153,15 @@ translate russian strings:
     old "The various attitudes of a rude Master…{#sp90_c_1551_1683}"
     new "Многочисленные выходки грубой госпожи…"
 
+    old "Let's run. To the ends of the earth.{#sp90_c_1552_1689}"
+    new "Убежим. До конца света."
+
+    old "Try to talk my way out of it.{#sp90_c_1552_1690}"
+    new "Попробую выкрутиться."
+
+    old "Play dumb!{#sp90_c_1552_1691}"
+    new "Прикинуться дураком!"
+
     old "The beautiful and lovely Louise-sama.{#sp90_c_1556_1557}"
     new "Прекрасная и очаровательная Луиза-сама."
 
@@ -216,6 +243,15 @@ translate russian strings:
     old "Give up and pray to God?{#sp90_c_1620_1623}"
     new "Смириться и помолиться богу?"
 
+    old "Yip yip!{#sp90_c_1628_1629}"
+    new "Гав-гав!"
+
+    old "…Please just call me a dog already!{#sp90_c_1628_1630}"
+    new "…Пожалуйста, называйте меня псом!"
+
+    old "H-Hey! I'm not a dog!{#sp90_c_1628_1631}"
+    new "Э-Эй! Я не пёс!"
+
     old "…Maybe I'll take you up on that.{#sp90_c_1636_1637}"
     new "…Может, я и правда зайду?"
 
@@ -242,6 +278,15 @@ translate russian strings:
 
     old "Could it be that my chest is bigger?{#sp90_c_1652_1655}"
     new "Может, у меня грудь больше?"
+
+    old "Q-Quick, spin around!{#sp90_c_1660_1661}"
+    new "Ж-Живо, повернись!"
+
+    old "Have mercy!{#sp90_c_1660_1662}"
+    new "Пощадите!"
+
+    old "D-Do you want to see?{#sp90_c_1660_1663}"
+    new "Т-Ты хочешь посмотреть?"
 
     old "A-am I really that pretty…{#sp90_c_1668_1669}"
     new "П-правда я такая красивая…?"

@@ -36,6 +36,24 @@ translate russian strings:
     old "H-heh, stay calm! Stay calm!{#sp91_c_1703_1751}"
     new "Х-хе, спокойствие! Спокойствие!"
 
+    old "H-Help!{#sp91_c_1704_1757}"
+    new "П-Помогите!"
+
+    old "The wolf in my heart is…{#sp91_c_1704_1758}"
+    new "Волк в моём сердце…"
+
+    old "S-So soft…{#sp91_c_1704_1759}"
+    new "Т-Такая мягкая…"
+
+    old "Her sleeping face is really cute…{#sp91_c_1705_1765}"
+    new "Спит она и правда мило…"
+
+    old "Wicked thoughts…{#sp91_c_1705_1766}"
+    new "Нехорошие мысли…"
+
+    old "…Maybe I should sleep too.{#sp91_c_1705_1767}"
+    new "…Может, и мне поспать."
+
     old "I-it's fine, I guess?{#sp91_c_1706_1773}"
     new "Д-да я не против."
 
@@ -62,6 +80,15 @@ translate russian strings:
 
     old "Then, please do.{#sp91_c_1708_1791}"
     new "Тогда, пожалуйста."
+
+    old "Can't settle down.{#sp91_c_1709_1797}"
+    new "Не могу усидеть."
+
+    old "Eerie and scary!{#sp91_c_1709_1798}"
+    new "Жутко и страшно!"
+
+    old "I'm so excited I could dance!{#sp91_c_1709_1799}"
+    new "Я так взволнован, что готов танцевать!"
 
     old "O-of course!{#sp91_c_1710_1805}"
     new "К-конечно!"
@@ -135,6 +162,15 @@ translate russian strings:
     old "'Ahh'.{#sp91_c_1720_1723}"
     new "«Ааа»."
 
+    old "It's a very unique flavor{#sp91_c_1736_1737}"
+    new "Очень оригинальный вкус"
+
+    old "Somehow, tears came to my eyes{#sp91_c_1736_1738}"
+    new "Кажется, у меня навернулись слёзы"
+
+    old "It's awful!!{#sp91_c_1736_1739}"
+    new "Невкусно!!"
+
     old "I'm happy, but…!{#sp91_c_1744_1745}"
     new "Я рад, но…!"
 
@@ -171,6 +207,15 @@ translate russian strings:
     old "What if I let myself go wild?{#sp91_c_1768_1771}"
     new "А если всё-таки сорваться?"
 
+    old "Gently… take it off…{#sp91_c_1776_1777}"
+    new "Осторожно… снять…"
+
+    old "Endure it, endure it!{#sp91_c_1776_1778}"
+    new "Терпи, терпи!"
+
+    old "Wake Louise up…{#sp91_c_1776_1779}"
+    new "Разбудить Луизу…"
+
     old "This slow torture is too cruel~~!{#sp91_c_1784_1785}"
     new "Так мучить — слишком жестоко~~!"
 
@@ -179,6 +224,15 @@ translate russian strings:
 
     old "I'll accept the punishment willingly.{#sp91_c_1784_1787}"
     new "Я покорно приму наказание."
+
+    old "It might hurt a little?{#sp91_c_1792_1793}"
+    new "Кажется, чуть больно?"
+
+    old "Endure! Endure!{#sp91_c_1792_1794}"
+    new "Терпи! Терпи!"
+
+    old "Let's switch!{#sp91_c_1792_1795}"
+    new "Поменяемся местами!"
 
     old "Sorry. It just felt so good…{#sp91_c_1800_1801}"
     new "Прости. Было так приятно, что я не удержался"
@@ -224,4 +278,31 @@ translate russian strings:
 
     old "Recklessly…{#sp91_c_1832_1835}"
     new "С отчаянием…"
+
+    old "Surprise attack!{#sp91_c_1840_1841}"
+    new "Внезапная атака!"
+
+    old "War of attrition!{#sp91_c_1840_1842}"
+    new "Позиционная война!"
+
+    old "Suicide charge!{#sp91_c_1840_1843}"
+    new "Самоубийственная атака!"
+
+    old "Whisper Louise's name.{#sp91_c_1848_1849}"
+    new "Прошептать имя Луизы."
+
+    old "…Focus!{#sp91_c_1848_1850}"
+    new "…Сосредоточиться!"
+
+    old "Settle it in one go…{#sp91_c_1848_1851}"
+    new "Решить всё одним махом…"
+
+    old "…Open my eyes?{#sp91_c_1856_1857}"
+    new "…Открыть глаза?"
+
+    old "Finish the rest in one breath?{#sp91_c_1856_1858}"
+    new "Доесть остаток одним духом?"
+
+    old "Hold back and pull away.{#sp91_c_1856_1859}"
+    new "Потерпеть и отстраниться."
 

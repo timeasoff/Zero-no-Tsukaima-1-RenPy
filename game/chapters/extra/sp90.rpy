@@ -81,12 +81,15 @@ label sp90_scene_1535:
     voice "sp90_s1535_030"
     s "W-Wait! H-Hold on!! R-Ready for what!!{#sp90_s1535_030}"
 
+
+    menu:
         "If you'd just talk, I'd understand!{#sp90_c_1535_1553}":
             jump sp90_scene_1553
         "That's tyranny!{#sp90_c_1535_1554}":
             jump sp90_scene_1554
         "Let's be nonviolent here……{#sp90_c_1535_1555}":
             jump sp90_scene_1555
+
 label sp90_scene_1536:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -159,12 +162,15 @@ label sp90_scene_1536:
     voice "sp90_s1536_029"
     s "Eeep!!{#sp90_s1536_029}"
 
+
+    menu:
         "Run away!{#sp90_c_1536_1561}":
             jump sp90_scene_1561
         "Resist!{#sp90_c_1536_1562}":
             jump sp90_scene_1562
         "Surrender!{#sp90_c_1536_1563}":
             jump sp90_scene_1563
+
 label sp90_scene_1537:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -247,8 +253,17 @@ label sp90_scene_1537:
     voice "sp90_s1537_046"
     s "Ow-ow-ow-ow-ow!!{#sp90_s1537_046}"
 
-    # （や、ヤバイっ！殺られるっっ！！）【選択肢】脱出する！ → scene 1569【選択肢】タックル！ → sc
-    s "(N-No, this is bad! I'm gonna be killed!!) 【Choice】Escape! → scene 1569 【Choice】Tackle! → scene 1570 【Choice】…Faint! → scene 1571{#sp90_s1537_047}"
+    # （や、ヤバイっ！殺られるっっ！！）
+    s "(N-No, this is bad! I'm gonna be killed!!){#sp90_s1537_047}"
+
+
+    menu:
+        "Escape!{#sp90_c_1537_1569}":
+            jump sp90_scene_1569
+        "Tackle!{#sp90_c_1537_1570}":
+            jump sp90_scene_1570
+        "…Faint!{#sp90_c_1537_1571}":
+            jump sp90_scene_1571
 
 label sp90_scene_1538:
 
@@ -281,12 +296,15 @@ label sp90_scene_1538:
     voice "sp90_s1538_008"
     s "W-What are you going to do——?!{#sp90_s1538_008}"
 
+
+    menu:
         "O-Of course I'll run away!{#sp90_c_1538_1577}":
             jump sp90_scene_1577
         "I'll wash my neck and brace for it.{#sp90_c_1538_1578}":
             jump sp90_scene_1578
         "Aren't I already living like a dog?!{#sp90_c_1538_1579}":
             jump sp90_scene_1579
+
 label sp90_scene_1539:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -328,12 +346,15 @@ label sp90_scene_1539:
     voice "sp90_s1539_014"
     l "Ufufufufu…… The new collar suits you.…… I had a hard time picking it out, you know?{#sp90_s1539_014}"
 
+
+    menu:
         "W-Woof!{#sp90_c_1539_1585}":
             jump sp90_scene_1585
         "……Ah, thank you.{#sp90_c_1539_1586}":
             jump sp90_scene_1586
         "Please don't go to so much trouble.{#sp90_c_1539_1587}":
             jump sp90_scene_1587
+
 label sp90_scene_1540:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -375,12 +396,15 @@ label sp90_scene_1540:
     voice "sp90_s1540_014"
     l "Oh? Do you have a complaint?{#sp90_s1540_014}"
 
+
+    menu:
         "I-I'm not a dog!{#sp90_c_1540_1593}":
             jump sp90_scene_1593
         "No complaints…… Woof!{#sp90_c_1540_1594}":
             jump sp90_scene_1594
         "O-One of these days, Louise……{#sp90_c_1540_1595}":
             jump sp90_scene_1595
+
 label sp90_scene_1541:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -404,8 +428,17 @@ label sp90_scene_1541:
     voice "sp90_s1541_006"
     l "I get it now. I was lacking real combat experience. Saito, you're going to help me!{#sp90_s1541_006}"
 
-    # （うっ。ま、まずいっ！なんか昔の傷にでも触れちまったのか？）【選択肢】ま、まあ少しは進歩したんでは…… → s
-    s "(Ugh. T-This is bad! Did I touch an old wound or something?) 【Choice】W-Well, you've improved a bit, haven't you?…… → scene 1601 【Choice】No, you're doing great! → scene 1602 【Choice】Really, it's a waste of effort…… → scene 1603{#sp90_s1541_007}"
+    # （うっ。ま、まずいっ！なんか昔の傷にでも触れちまったのか？）
+    s "(Ugh. T-This is bad! Did I touch an old wound or something?){#sp90_s1541_007}"
+
+
+    menu:
+        "W-Well, you've improved a bit, haven't you?……{#sp90_c_1541_1601}":
+            jump sp90_scene_1601
+        "No, you're doing great!{#sp90_c_1541_1602}":
+            jump sp90_scene_1602
+        "Really, it's a waste of effort……{#sp90_c_1541_1603}":
+            jump sp90_scene_1603
 
 label sp90_scene_1542:
 
@@ -426,12 +459,15 @@ label sp90_scene_1542:
     voice "sp90_s1542_005"
     l "……Huh, how did you know? I was just about to do magic training. Of course you'll help me, right?{#sp90_s1542_005}"
 
+
+    menu:
         "L-Let me help you!{#sp90_c_1542_1609}":
             jump sp90_scene_1609
         "B-But I'm busy with a date……{#sp90_c_1542_1610}":
             jump sp90_scene_1610
         "Training is such a waste of effort……{#sp90_c_1542_1611}":
             jump sp90_scene_1611
+
 label sp90_scene_1543:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -501,12 +537,15 @@ label sp90_scene_1543:
     voice "sp90_s1543_021"
     l "……Soon, no one will be able to make fun of Zero Louise again!{#sp90_s1543_021}"
 
+
+    menu:
         "D-Do you think it'll really succeed……?{#sp90_c_1543_1617}":
             jump sp90_scene_1617
         "What happens if you fail?{#sp90_c_1543_1618}":
             jump sp90_scene_1618
         "……I have a bad feeling about this.{#sp90_c_1543_1619}":
             jump sp90_scene_1619
+
 label sp90_scene_1544:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -518,12 +557,15 @@ label sp90_scene_1544:
     voice "sp90_s1544_003"
     l "Now, what kind of punishment shall I give you today?{#sp90_s1544_003}"
 
+
+    menu:
         "I'm being framed!{#sp90_c_1544_1625}":
             jump sp90_scene_1625
         "Dash away!{#sp90_c_1544_1626}":
             jump sp90_scene_1626
         "Call her a cute master!{#sp90_c_1544_1627}":
             jump sp90_scene_1627
+
 label sp90_scene_1545:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -591,12 +633,15 @@ label sp90_scene_1545:
     voice "sp90_s1545_026"
     k "Come on, don't make such a gloomy face! If you're going to cry, cry on my breast.{#sp90_s1545_026}"
 
+
+    menu:
         "Cling to her and cry{#sp90_c_1545_1633}":
             jump sp90_scene_1633
         "Bury your face in her chest and cry{#sp90_c_1545_1634}":
             jump sp90_scene_1634
         "Hurriedly pull away from Kirche{#sp90_c_1545_1635}":
             jump sp90_scene_1635
+
 label sp90_scene_1546:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -662,12 +707,15 @@ label sp90_scene_1546:
     voice "sp90_s1546_020"
     s "……Hah, now what?{#sp90_s1546_020}"
 
+
+    menu:
         "Sleeping outside again?{#sp90_c_1546_1641}":
             jump sp90_scene_1641
         "Life in the hallway{#sp90_c_1546_1642}":
             jump sp90_scene_1642
         "To a girl's place……{#sp90_c_1546_1643}":
             jump sp90_scene_1643
+
 label sp90_scene_1547:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -733,12 +781,15 @@ label sp90_scene_1547:
     voice "sp90_s1547_020"
     s "N-Noooo!!{#sp90_s1547_020}"
 
+
+    menu:
         "Escape!{#sp90_c_1547_1649}":
             jump sp90_scene_1649
         "Endure it!{#sp90_c_1547_1650}":
             jump sp90_scene_1650
         "H-Huh, is this me?{#sp90_c_1547_1651}":
             jump sp90_scene_1651
+
 label sp90_scene_1548:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -772,12 +823,15 @@ label sp90_scene_1548:
     voice "sp90_s1548_012"
     s "N-Nooo! Stop ittt!{#sp90_s1548_012}"
 
+
+    menu:
         "Th-This is… me?{#sp90_c_1548_1657}":
             jump sp90_scene_1657
         "Th-This is… little me?{#sp90_c_1548_1658}":
             jump sp90_scene_1658
         "I'm all dirty. She got me all dirty.{#sp90_c_1548_1659}":
             jump sp90_scene_1659
+
 label sp90_scene_1549:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -963,12 +1017,15 @@ label sp90_scene_1549:
     voice "sp90_s1549_071"
     th "S-So neat and lovely, too…{#sp90_s1549_071}"
 
+
+    menu:
         "First of all, let go of her hand, Guiche.{#sp90_c_1549_1665}":
             jump sp90_scene_1665
         "How do you like it, Guiche-sama?{#sp90_c_1549_1666}":
             jump sp90_scene_1666
         "…W-What's with this atmosphere!{#sp90_c_1549_1667}":
             jump sp90_scene_1667
+
 label sp90_scene_1550:
 
     # [EVENT_CG event    image=+213, level=80]
@@ -1014,12 +1071,15 @@ label sp90_scene_1550:
     voice "sp90_s1550_015"
     l "When that stupid dog opens its mouth, it should say 'woof' and 'Master'!{#sp90_s1550_015}"
 
+
+    menu:
         "T-That's tyrannical!{#sp90_c_1550_1673}":
             jump sp90_scene_1673
         "Woof! Master!{#sp90_c_1550_1674}":
             jump sp90_scene_1674
         "I didn't do anything wrong!{#sp90_c_1550_1675}":
             jump sp90_scene_1675
+
 label sp90_scene_1551:
 
     # [EVENT_CG event    image=+176, level=80]
@@ -1059,12 +1119,15 @@ label sp90_scene_1551:
     voice "sp90_s1551_010"
     s "For all the…{#sp90_s1551_010}"
 
+
+    menu:
         "All my rude behavior toward my Master…{#sp90_c_1551_1681}":
             jump sp90_scene_1681
         "My Master's various rude behaviors…{#sp90_c_1551_1682}":
             jump sp90_scene_1682
         "The various attitudes of a rude Master…{#sp90_c_1551_1683}":
             jump sp90_scene_1683
+
 label sp90_scene_1552:
 
     # [EVENT_CG event    image=+176, level=80]
@@ -1101,8 +1164,17 @@ label sp90_scene_1552:
     voice "sp90_s1552_010"
     l "I just thought that. I was trying not to say it, but I can't exactly keep it to myself.{#sp90_s1552_010}"
 
-    # （ま、まじかよ。俺、そんなことしてたっけ？）【選択肢】逃げよう。地平線の果てまで → scene 1689【選
+    # （ま、まじかよ。俺、そんなことしてたっけ？）
     s "(N-No way. Did I really do something like that?){#sp90_s1552_011}"
+
+
+    menu:
+        "Let's run. To the ends of the earth.{#sp90_c_1552_1689}":
+            jump sp90_scene_1689
+        "Try to talk my way out of it.{#sp90_c_1552_1690}":
+            jump sp90_scene_1690
+        "Play dumb!{#sp90_c_1552_1691}":
+            jump sp90_scene_1691
 
 label sp90_scene_1553:
 
@@ -1312,12 +1384,15 @@ label sp90_scene_1556:
     voice "sp90_s1556_046"
     s "T-That's, of course…{#sp90_s1556_046}"
 
+
+    menu:
         "The beautiful and lovely Louise-sama.{#sp90_c_1556_1557}":
             jump sp90_scene_1557
         "The wise and forgiving Louise-sama.{#sp90_c_1556_1558}":
             jump sp90_scene_1558
         "The violent and flat-chested Louise-sama.{#sp90_c_1556_1559}":
             jump sp90_scene_1559
+
 label sp90_scene_1557:
 
     # [BGM      bgm      play=+30]
@@ -1643,12 +1718,15 @@ label sp90_scene_1564:
     voice "sp90_s1564_027"
     s "Louise-sama is…{#sp90_s1564_027}"
 
+
+    menu:
         "My cute mistress!{#sp90_c_1564_1565}":
             jump sp90_scene_1565
         "My kind mistress!{#sp90_c_1564_1566}":
             jump sp90_scene_1566
         "My unreasonable mistress!{#sp90_c_1564_1567}":
             jump sp90_scene_1567
+
 label sp90_scene_1565:
 
     # [BGM      bgm      play=+30]
@@ -2044,12 +2122,15 @@ label sp90_scene_1572:
     voice "sp90_s1572_048"
     s "U-ugh…{#sp90_s1572_048}"
 
+
+    menu:
         "Lovely Louise-sama!{#sp90_c_1572_1573}":
             jump sp90_scene_1573
         "Lovely mistress!{#sp90_c_1572_1574}":
             jump sp90_scene_1574
         "Lovely queen!{#sp90_c_1572_1575}":
             jump sp90_scene_1575
+
 label sp90_scene_1573:
 
     # [BGM      bgm      play=+30]
@@ -2374,12 +2455,15 @@ label sp90_scene_1580:
     voice "sp90_s1580_042"
     l "Well? Your answer, stupid dog?{#sp90_s1580_042}"
 
+
+    menu:
         "Don't mess with me, Louise!{#sp90_c_1580_1581}":
             jump sp90_scene_1581
         "Woof woof woof!{#sp90_c_1580_1582}":
             jump sp90_scene_1582
         "Master! I need the bathroom!{#sp90_c_1580_1583}":
             jump sp90_scene_1583
+
 label sp90_scene_1581:
 
     # [BGM      bgm      play=+30]
@@ -2651,12 +2735,15 @@ label sp90_scene_1588:
     voice "sp90_s1588_006"
     l "Oh? You say you can't do it? A stupid dog is a stupid dog after all…{#sp90_s1588_006}"
 
+
+    menu:
         "F-Fine. I'll do it!{#sp90_c_1588_1589}":
             jump sp90_scene_1589
         "I've got my pride too, you know…{#sp90_c_1588_1590}":
             jump sp90_scene_1590
         "'Spin three times and woof!'{#sp90_c_1588_1591}":
             jump sp90_scene_1591
+
 label sp90_scene_1589:
 
     # [BGM      bgm      play=+30]
@@ -2990,12 +3077,15 @@ label sp90_scene_1596:
     voice "sp90_s1596_008"
     l "Come on, it's a walk with your master, you know!{#sp90_s1596_008}"
 
+
+    menu:
         "……I-I'm happy, woof!{#sp90_c_1596_1597}":
             jump sp90_scene_1597
         "M-My stomach suddenly started hurting……{#sp90_c_1596_1598}":
             jump sp90_scene_1598
         "I-If my friends hear about this……{#sp90_c_1596_1599}":
             jump sp90_scene_1599
+
 label sp90_scene_1597:
 
     # [BGM      bgm      play=+30]
@@ -3396,12 +3486,15 @@ label sp90_scene_1604:
     voice "sp90_s1604_024"
     s "E-Eeeeeeeek!!!{#sp90_s1604_024}"
 
+
+    menu:
         "Run until the very last moment!{#sp90_c_1604_1605}":
             jump sp90_scene_1605
         "Steel myself!{#sp90_c_1604_1606}":
             jump sp90_scene_1606
         "Try trusting Louise?{#sp90_c_1604_1607}":
             jump sp90_scene_1607
+
 label sp90_scene_1605:
 
     # [BGM      bgm      play=+30]
@@ -3666,12 +3759,15 @@ label sp90_scene_1612:
     voice "sp90_s1612_012"
     s "Tch, damn it!{#sp90_s1612_012}"
 
+
+    menu:
         "Try running away…?{#sp90_c_1612_1613}":
             jump sp90_scene_1613
         "A-At least say one thing…{#sp90_c_1612_1614}":
             jump sp90_scene_1614
         "Damn it! Go ahead and shoot!{#sp90_c_1612_1615}":
             jump sp90_scene_1615
+
 label sp90_scene_1613:
 
     # [BGM      bgm      play=+30]
@@ -3963,12 +4059,15 @@ label sp90_scene_1620:
     voice "sp90_s1620_009"
     s "W-Waiiiit! Louiiise!{#sp90_s1620_009}"
 
+
+    menu:
         "Bawl and beg her to stop{#sp90_c_1620_1621}":
             jump sp90_scene_1621
         "Actually let her use me as the target{#sp90_c_1620_1622}":
             jump sp90_scene_1622
         "Give up and pray to God?{#sp90_c_1620_1623}":
             jump sp90_scene_1623
+
 label sp90_scene_1621:
 
     # [BGM      bgm      play=+30]
@@ -4226,8 +4325,17 @@ label sp90_scene_1628:
     voice "sp90_s1628_005"
     l "It's too late to be sorry now!!{#sp90_s1628_005}"
 
-    # （廊下は寒いしなぁ……。なんとしても拒絶したい）【選択肢】キャインキャイン！ → scene 1629【選択肢
+    # （廊下は寒いしなぁ……。なんとしても拒絶したい）
     s "(The hallway's cold, too… I've got to refuse somehow!){#sp90_s1628_006}"
+
+
+    menu:
+        "Yip yip!{#sp90_c_1628_1629}":
+            jump sp90_scene_1629
+        "…Please just call me a dog already!{#sp90_c_1628_1630}":
+            jump sp90_scene_1630
+        "H-Hey! I'm not a dog!{#sp90_c_1628_1631}":
+            jump sp90_scene_1631
 
 label sp90_scene_1629:
 
@@ -4484,12 +4592,15 @@ label sp90_scene_1636:
     voice "sp90_s1636_002"
     k "Hey, this is no place for it… Why don't you come to my room? I'll warm darling up for you.{#sp90_s1636_002}"
 
+
+    menu:
         "…Maybe I'll take you up on that.{#sp90_c_1636_1637}":
             jump sp90_scene_1637
         "…E-Eh, I'll pass.{#sp90_c_1636_1638}":
             jump sp90_scene_1638
         "What should I do?{#sp90_c_1636_1639}":
             jump sp90_scene_1639
+
 label sp90_scene_1637:
 
     # [BGM      bgm      play=+30]
@@ -4812,12 +4923,15 @@ label sp90_scene_1644:
     voice "sp90_s1644_009"
     s "Shut up. Even I get homesick sometimes, you know.{#sp90_s1644_009}"
 
+
+    menu:
         "……Why did this have to happen to me?{#sp90_c_1644_1645}":
             jump sp90_scene_1645
         "Japan was nice, wasn't it……{#sp90_c_1644_1646}":
             jump sp90_scene_1646
         "This place is nice too, but……{#sp90_c_1644_1647}":
             jump sp90_scene_1647
+
 label sp90_scene_1645:
 
     # [BGM      bgm      play=+30]
@@ -5093,12 +5207,15 @@ label sp90_scene_1652:
     voice "sp90_s1652_010"
     s "Ah, no……{#sp90_s1652_010}"
 
+
+    menu:
         "No breasts, so the clothes feel normal?{#sp90_c_1652_1653}":
             jump sp90_scene_1653
         "Even without a chest, I'm still cute, right?{#sp90_c_1652_1654}":
             jump sp90_scene_1654
         "Could it be that my chest is bigger?{#sp90_c_1652_1655}":
             jump sp90_scene_1655
+
 label sp90_scene_1653:
 
     # [BGM      bgm      play=+30]
@@ -5386,8 +5503,17 @@ label sp90_scene_1660:
     voice "sp90_s1660_018"
     l "Oh? Then maybe we try a collar on you, too?{#sp90_s1660_018}"
 
-    # （ぐ、ぐはっ、いきなりピンチなんですが）【選択肢】く、くるっと回って！ → scene 1661【選択肢】勘弁
+    # （ぐ、ぐはっ、いきなりピンチなんですが）
     s "(G-Guh, this came out of nowhere…!)【選択肢】S-Spin around! → scene 1661【選択肢】Please spare me → scene 1662【選択肢】D-Did you want to see? → scene 1663{#sp90_s1660_019}"
+
+
+    menu:
+        "Q-Quick, spin around!{#sp90_c_1660_1661}":
+            jump sp90_scene_1661
+        "Have mercy!{#sp90_c_1660_1662}":
+            jump sp90_scene_1662
+        "D-Do you want to see?{#sp90_c_1660_1663}":
+            jump sp90_scene_1663
 
 label sp90_scene_1661:
 
@@ -5670,12 +5796,15 @@ label sp90_scene_1668:
     voice "sp90_s1668_020"
     s "…Eh? More than Louise?{#sp90_s1668_020}"
 
+
+    menu:
         "A-am I really that pretty…{#sp90_c_1668_1669}":
             jump sp90_scene_1669
         "…W-well, of course… wouldn't you say?{#sp90_c_1668_1670}":
             jump sp90_scene_1670
         "I-I'm not happy…{#sp90_c_1668_1671}":
             jump sp90_scene_1671
+
 label sp90_scene_1669:
 
     # [SPRITE   lay3     image=+852, level=160, dir=1A]
@@ -6044,12 +6173,15 @@ label sp90_scene_1676:
     voice "sp90_s1676_031"
     l "Look more like a familiar!{#sp90_s1676_031}"
 
+
+    menu:
         "W-what kind of face do you want me to make?!{#sp90_c_1676_1677}":
             jump sp90_scene_1677
         "…W-what do you mean, a familiar-like face?{#sp90_c_1676_1678}":
             jump sp90_scene_1678
         "Woof! Master!{#sp90_c_1676_1679}":
             jump sp90_scene_1679
+
 label sp90_scene_1677:
 
     # [BGM      bgm      play=+30]
@@ -6347,12 +6479,15 @@ label sp90_scene_1684:
     voice "sp90_s1684_014"
     l "Heh heh, very good!{#sp90_s1684_014}"
 
+
+    menu:
         "W-Woof!{#sp90_c_1684_1685}":
             jump sp90_scene_1685
         "Could I take back the last one…?{#sp90_c_1684_1686}":
             jump sp90_scene_1686
         "What about Louise's repentance?{#sp90_c_1684_1687}":
             jump sp90_scene_1687
+
 label sp90_scene_1685:
 
     # [BGM      bgm      play=+30]
@@ -6622,12 +6757,15 @@ label sp90_scene_1692:
     voice "sp90_s1692_008"
     s "A-Any more explanation would… st-stop! Master!{#sp90_s1692_008}"
 
+
+    menu:
         "W-Were you watching the whole time?!{#sp90_c_1692_1693}":
             jump sp90_scene_1693
         "Then don't make me wash them in the first place!{#sp90_c_1692_1694}":
             jump sp90_scene_1694
         "It's a dream! It's a dream! It's a dream!{#sp90_c_1692_1695}":
             jump sp90_scene_1695
+
 label sp90_scene_1693:
 
     # [BGM      bgm      play=+30]
@@ -6837,3 +6975,5 @@ label sp90_scene_1696:
     # [EVENT_CG event    hide]
     # [COFFEE]
     $ pause(1.0)
+
+    return

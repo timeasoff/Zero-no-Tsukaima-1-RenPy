@@ -31,8 +31,12 @@ def parse_scene(no, body):
     for line in lines:
         stripped = line.strip()
         if pending is not None:
-            # new speaker prefix -> flush previous as no-voice dialogue, reprocess
-            if re.match(r'^[^：\n]+：', stripped):
+            # new speaker prefix, engine tag or control marker -> flush previous
+            # as no-voice dialogue and reprocess the line normally
+            if (re.match(r'^[^：\n]+：', stripped)
+                    or stripped.startswith('[')
+                    or stripped.startswith('【')
+                    or stripped.startswith('→')):
                 flush()
             else:
                 mv = re.match(r'^(.*?)\s*\[voice (\d+)\]$', stripped)
