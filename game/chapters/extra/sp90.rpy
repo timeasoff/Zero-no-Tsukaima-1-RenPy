@@ -3882,6 +3882,7 @@ label sp90_scene_1616:
     # [SPRITE   lay1     hide, reset]
     # [SPRITE   lay5     hide, reset]
     # ドドォォーン！[LAYER    white    image=+2, level=0][TRANS tran
+    $ flash_fx("white")
     th "Dodoooon!{#sp90_s1616_013}"
 
     # ぐ、ぐわぁぁぁーーっっ！
