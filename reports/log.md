@@ -5132,3 +5132,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Ключевые: `シエスタが来る前は俺が洗濯してた` → «До прихода Сиэсты стирал я»; `お前もかよ` → «Ты тоже» (было «Не ты ли»); `根性` → «строптивость»; `血走ってる` → «глаза налились кровью»; `いちゃいちゃ` → «флиртовать».
 - Отчёты: `reports/sma/ch21/{1,2}/analysis/20261118-034500-phase2.md`.
 - Проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 21` OK, `check_typography.py --chapter 21 --lang ru` OK.
+
+
+## 2026-11-18 — Глава 21: аудит части 3 (A/C/Analyzer Ф1+Ф2)
+
+- 3 субагента. A: 8 находок (2 WARNING, 2 CANDIDATE, прочие); C: 1 WARNING (`お疲れさまでした`); Ф1: 6 кандидатов, покрытие полное.
+- Disposition: 6 WARNING + 5 CANDIDATE FIXED; 1 PRESERVED — FUNCTIONAL (скобки мыслей в RU).
+- Ключевые: `やれやれ` → «Ох, ну вот»; `お疲れさまでした` → «вы постарались»; `ベタベタ` → «прилипли»; `ピッタリだった` → «идеально подошла»; `何とかしやがれってんだ` → «справишься, я тебе говорю».
+- Отчёт: `reports/sma/ch21/3/analysis/20261118-035500-phase2.md`.
+- Проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 21` OK, `check_typography.py --chapter 21 --lang ru` OK.

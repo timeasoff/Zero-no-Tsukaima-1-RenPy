@@ -7,7 +7,7 @@
     new "Знаю."
 
     old "Then, Siesta—let's see what you're capable of, shall we?{#ch21_k_028}"
-    new "Тогда, Сиэста — покажи, на что ты способна, да?"
+    new "Тогда, Сиэста — покажи, какова твоя повседневная работа, да?"
 
     old "Understood, Miss Zerbst. Please go easy on me.{#ch21_si_051}"
     new "Поняла, мисс Церпст. Прошу быть снисходительной."
@@ -16,7 +16,7 @@
     new "Отлично, я постараюсь!!"
 
     old "Good grief. I got dragged into something terrible, didn't I…{#ch21_s_097}"
-    new "Боже мой. Я втянулся в жуткую историю, да…"
+    new "Ох, ну вот… Я втянулся в жуткую историю, да…"
 
     old "Heh heh! Things are getting interesting, aren't they, partner?{#ch21_d_001}"
     new "Хи-хи! Дела становятся всё интереснее, приятель?"
@@ -55,7 +55,7 @@
     new "Да, логичный выбор. Только мало веселья."
 
     old "Hey, quit talking about 'fun.' I'm the one who has to eat it, you know. I'd be in trouble if they made something 'interesting.'{#ch21_s_104}"
-    new "Эй, хватит про «веселье». Я же тот, кто будет это есть. Мне не нужно, чтобы они приготовили что-то «интересное»."
+    new "Эй, хватит про «веселье». Я же тот, кто будет это есть. Будет плохо, если они приготовят что-то «интересное»."
 
     old "Actually, Louise might be a dark horse.{#ch21_s_105}"
     new "Вообще-то, Луиза может стать тёмной лошадкой."
@@ -109,10 +109,10 @@
     new "Ах, я устал. Кажется, сегодня я отлично высплюсь и на соломенной подстилке."
 
     old "Saito-san, you've worked hard.{#ch21_si_052}"
-    new "Сайто-сан, вы поработали."
+    new "Сайто-сан, вы постарались."
 
     old "Ah, Siesta, you too. Cleaning and laundry from morning, and on top of that preparing for the cooking contest…{#ch21_s_113}"
-    new "Ах, Сиэста, и ты тоже. Уборка и стирка с утра, да ещё и подготовка к кулинарному бою…"
+    new "Ах, Сиэста, это ты постаралась. Уборка и стирка с утра, да ещё и подготовка к кулинарному бою…"
 
     old "Really, are you all right?{#ch21_s_114}"
     new "Правда, ты в порядке?"
@@ -151,7 +151,7 @@
     new "Э-Э… Можно мне… сесть рядом?"
 
     old "Eh? A-Ah… Sure.{#ch21_s_120}"
-    new "А? А-А… Конечно."
+    new "А? А-А…"
 
     old "Eep… Heh heh, straw is soft, isn't it?{#ch21_si_059}"
     new "Ой… Хи-хи, солома мягкая, правда?"
@@ -160,7 +160,7 @@
     new "Э-Э… Прижиматься — это нечестно!!"
 
     old "I'm back… Wait, hey! What are you two doing, all cuddled up together!?{#ch21_l_057}"
-    new "Я вернулась… Тут, погоди! Что вы двое делаете, прижавшись друг к другу!?"
+    new "Я вернулась… Тут, погоди! Что вы двое делаете, прилипли друг к другу!?"
 
     old "Whoa, Louise!!{#ch21_s_122}"
     new "Ой, Луиза!!"
@@ -229,7 +229,7 @@
     new "Йо, приятель. Наконец проснулся? Я уже думал, ты никогда не проснёшься."
 
     old "Hey, Derf. That was the worst way to wake up.{#ch21_s_134}"
-    new "Йо, Дерф. Худшее пробуждение в жизни."
+    new "Йо, Дерф. Худшее пробуждение."
 
     old "So this is a hallway… I guess they dragged me out of the room. My body hurts…{#ch21_s_135}"
     new "Так, это коридор… Видно, меня вытащили из комнаты. Тело болит…"
@@ -304,7 +304,7 @@
     new "Я чувствовал то же. Всё думал, что голос сорвётся и испортит атмосферу."
 
     old "And I'm not exactly prince material. But Siesta's princess suited you perfectly?{#ch21_s_146}"
-    new "И я совсем не подходил на роль принца. Но Сиэста в роли принцессы была великолепна, да?"
+    new "И я совсем не подходил на роль принца. Но Сиэста идеально подошла к роли принцессы, да?"
 
     old "Really? …Thank you. Ehehe.{#ch21_si_069}"
     new "Правда?.. Спасибо. Хи-хи."
@@ -391,7 +391,7 @@
     new "Я шучу. Я бы никогда не смог такого сделать."
 
     old "You could, Saito-san. You can do anything, Saito-san.{#ch21_si_083}"
-    new "Сможете, Сайто-сан. Вы можете всё, Сайто-сан."
+    new "Сможете, Сайто-сан. Вы удивительный человек, который может всё, Сайто-сан."
 
     old "R-Really…?{#ch21_s_161}"
     new "П-Правда…?"
@@ -415,7 +415,7 @@
     new "Если дойдёт до дела, я защищу всех вот этим. Верно, Дерф — я на тебя рассчитываю, приятель!"
 
     old "Hah… Don't expect one village girl to be handled by your one arm. Figure it out yourself.{#ch21_d_018}"
-    new "Ха… Не жди, что одну деревенскую девушку ты осилишь одной рукой. Сам разбирайся."
+    new "Ха… Ну же, справишься как-нибудь и одной рукой, я тебе говорю! Сам разберись."
 
     old "D-Don't say that! Please, Derflinger-saaan!{#ch21_s_165}"
     new "Н-Не говори так! Прошу тебя, Дерфлингер-сааан!"
