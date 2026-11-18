@@ -1910,6 +1910,34 @@
         }
       ],
       "closed": "2026-11-19 00:42:57"
+    },
+    {
+      "id": "T20261119-005050-5c28",
+      "created": "2026-11-19 00:50:50",
+      "request": "Финальная верификация HEAD 22-28 (8-й проход): попытка автоматического прохода маршрута",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "final verification + runtime automation limit",
+          "status": "done",
+          "created": "2026-11-19 00:50:50",
+          "started": null,
+          "finished": "2026-11-19 00:50:50",
+          "session": null,
+          "note": "no new findings; full-route automation unavailable, documented",
+          "evidence": [
+            "reports/full_audit/RUNTIME-round6.md"
+          ],
+          "manual": "final verification + runtime automation limit"
+        }
+      ],
+      "closed": "2026-11-19 00:50:50"
     }
   ]
 }
