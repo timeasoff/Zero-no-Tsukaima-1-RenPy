@@ -597,7 +597,7 @@ translate russian strings:
     new "Она сбежала из дома, так что я решила приютить её на несколько дней."
 
     old "Hmm... Well, I suppose you're right. You two do have the exact same eye color and everything. If she really is a relative, then I suppose it can't be helped."
-    new "Хм-м… Что ж, пожалуй, ты права.  У вас и вправду одинаковый цвет глаз и всё такое. Если она и вправду родственница, то тут ничего не поделаешь."
+  new "Хм-м… Что ж, пожалуй, ты права. У вас и вправду одинаковый цвет глаз и всё такое. Если она и вправду родственница, то тут ничего не поделаешь."
 
     old "I'll stay here and look after her. You two should get some rest now."
     new "Я останусь здесь и буду ухаживать за ней. А вам двоим уже пора бы отдохнуть."
@@ -819,7 +819,7 @@ translate russian strings:
     new "Ох, что вы, это вовсе не проблема. В трудную минуту мы ведь выручаем друг друга. К тому же, меня саму беспокоит, что она всё ещё не приходит в себя."
 
     old "I'll nurse her whenever I have a free moment from my chores. So please, Saito-san, just go to sleep and don't worry about a thing."
-    new "Я смогу присматривать за ней только в свободное от работы время, но я возьму это на себя. Так что, пожалуйста,  ложитесь спать и не переживайте, Сайто-сан."
+  new "Я смогу присматривать за ней только в свободное от работы время, но я возьму это на себя. Так что, пожалуйста, ложитесь спать и не переживайте, Сайто-сан."
 
     old "Got it. Thank you, Siesta."
     new "Понял. Сиеста, спасибо тебе."
@@ -1863,7 +1863,7 @@ translate russian strings:
     new "А… ладно. Понял я, понял. Не стоит так злиться."
 
     old "I-I'm not angry or anything. So... well? Are you going to eat it?"
-    new "Н-ничего я не злюсь.  И вообще… ну? Будешь есть?"
+  new "Н-ничего я не злюсь. И вообще… ну? Будешь есть?"
 
     old "Ah, yeah. I'll have some. It looks delicious, after all."
     new "А, угу. Буду. Всё-таки выглядит вкусно."
@@ -2478,7 +2478,7 @@ translate russian strings:
     new "Какой невежливый тон. Я ведь предлагаю тебе свою помощь, так что не стоит так разговаривать."
 
     old "It can't be helped. Montmorency let it slip. Since it's come to this, I'll accept your help."
-    new "Ничего не поделаешь. Монморанси ведь всё разболтала.  В таком случае мне придётся воспользоваться твоей помощью."
+  new "Ничего не поделаешь. Монморанси ведь всё разболтала. В таком случае мне придётся воспользоваться твоей помощью."
 
     old "Mmmmm… That's a rather humiliating way to put it, but… fine…"
     new "М-м-м-м-м… Что-то в этой формулировке унизительное, но… ладно…"

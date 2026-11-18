@@ -5308,3 +5308,7 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 
 * EN по PROMTS.md: `()` в мыслях 0, кавычки корректны; 535 ASCII `...` — системный стиль эталона, не трогал. Обращения -san/-kun в EN: 0 пропущенных относительно JA; RU «Сайто-сан/Хирага-кун»: 0 пропущенных. Покрытие old E4/E5=0. Правок нет.
 
+### 2026-11-18 — Humanizer/типографика (round 93)
+
+* По `russian-humanizer`/`russian-prose-rules`: исправлено 7 DOUBLE_SPACE в RU `new` (`ch5_6_dialogs:137/293`, `dialogs:600/822/1866/2481`, `thoughs:218`); humanizer-каталог — 0 confirmed. EN/JA не тронуты; check_typography 0 warnings, 1 error — JA-дубль гл. 8 (вне объёма).
+

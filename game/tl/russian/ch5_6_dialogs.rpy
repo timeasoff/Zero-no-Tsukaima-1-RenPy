@@ -134,7 +134,7 @@ translate russian strings:
     new "Т-тогда почему ты не попросил меня помочь!?"
 
     old "Oh? Could it be... you're jealous?{#ch5_6_v4998}"
-    new "О?  Неужели… ты ревнуешь?"
+  new "О? Неужели… ты ревнуешь?"
 
     old "I-I don't think so...{#ch5_6_v9950}"
     new "Я-я не думаю так…"
@@ -290,7 +290,7 @@ translate russian strings:
     new "Сильфида."
 
     old "Yes! That Sylphid. Where is it usually?{#ch5_6_v9970}"
-    new "Вот!  Эта Сильфида. Где она обычно находится?"
+  new "Вот! Эта Сильфида. Где она обычно находится?"
 
     old "It's in the sky.{#ch5_6_v15465}"
     new "Она на небе."

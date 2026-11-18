@@ -956,9 +956,18 @@ Mechanical: `check_project` errors=0/warnings=312; `check_renpy_syntax` OK; от
 
 Счётчик обновлён до 92; правок кода нет.
 
+## Проверка перевода глав 2–5: humanizer + типиграфика (round 93)
+
+Скилл `russian-humanizer` (жанр — проза, только низкорисковый мусор), `russian-prose-rules`.
+
+* Каталог humanizer (markdown-следы, чат-бот хвосты, эмодзи, прямые кавычки) — 0 confirmed в гл. 2–5.
+* **Исправлено 7 DOUBLE_SPACE** в RU `new` (однозначный мусор по `russian-prose-rules`): `ch5_6_dialogs.rpy:137/293`, `dialogs.rpy:600/822/1866/2481`, `thoughs.rpy:218`. Смысл не меняется.
+* EN-база и JA-канон не тронуты. `check_typography`: 0 warnings, 1 error — BRACKET_THOUGHT в JA-дубле гл. 8 (`ch8_3_thoughs.rpy:24`, вне объёма; JA не трогал). `check_project` errors=0/warnings=312.
+* Счётчик обновлён до 93.
+
 ## where I stopped
 
-- Текущая фаза: **главы 6–9 завершены** (rounds 1–92); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
+- Текущая фаза: **главы 6–9 завершены** (rounds 1–93); висячие вопросы глав 2–5 закрыты. Проверка продолжается по указанию пользователя.
 - **Единственный источник счётчика раундов — эта строка.** Мета выше на конкретные числа не ссылается; при новом раунде обновлять только её, чтобы избежать дрейфа.
 - Инструменты: `check_renpy_syntax`, `check_project`, `check_typography`, `check_placeholders`, `check_assets`, `check_voice_transcriptions`, `omission_precheck`; сканер отступов `C:/Users/user/AppData/Local/Temp/opencode/qa_indent_all.py`; валидатор `qa_pyindent2.py`.
 - Важно: `check_renpy_syntax.py` не ловит отступы внутри `menu:` — всегда запускать оба сканера.

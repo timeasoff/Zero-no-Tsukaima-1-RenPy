@@ -215,7 +215,7 @@ translate russian strings:
 
     #kormeshka_event
     old "I don't really understand it, but... I guess I should stay on her good side for now."
-    new "Хоть я и не до конца понимаю ситуацию…  но… похоже, сейчас лучше не портить ей настроение."
+  new "Хоть я и не до конца понимаю ситуацию… но… похоже, сейчас лучше не портить ей настроение."
 
     old "Looks like it's best not to argue right now. If she gets mad, it'll just be a huge hassle."
     new "Похоже, сейчас лучше не перечить. А то если она разозлится, проблем не оберешься."
