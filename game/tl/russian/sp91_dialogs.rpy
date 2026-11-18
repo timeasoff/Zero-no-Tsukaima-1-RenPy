@@ -2215,7 +2215,7 @@ translate russian strings:
     new "Э-Это ты!"
 
     old "………。……。…。{#sp91_s1812_005}"
-    new "………。……。…。"
+    new "……… … …"
 
     old "…There, all done!{#sp91_s1812_006}"
     new "…Вот, всё готово!"
