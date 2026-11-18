@@ -4,7 +4,7 @@ translate russian strings:
     new "А? Что значит — стать самостоятельной?"
 
     old "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch28_ha_001}"
-    new "Да. Я не могу вечно оставаться в академии… Нехорошо всё время полагаться на Луизу и остальных."
+    new "Да. Я не могу вечно оставаться в академии… Не знаю, правильно ли всё время полагаться на Луизу и остальных."
 
     old "If you say that, I've been taken care of by this academy ever since Louise summoned me.{#ch28_s_071}"
     new "Если так, то меня опекает эта академия с тех пор, как Луиза меня призвала."
@@ -136,10 +136,10 @@ translate russian strings:
     new "Понятно... Ну, по крайней мере, для Табасы и Харуны всё кончилось хорошо..."
 
     old "(In the end, Akina—Haruna's other personality—still seems to linger a little.){#ch28_s_093}"
-    new "В конце концов, Акина — вторая личность Харуны — всё ещё остаётся отчасти."
+    new "В конце концов, Акина — вторая личность Харуны — похоже, всё ещё остаётся отчасти."
 
     old "(It's a secret from Haruna, but the Queen ordered her to take a magic potion.){#ch28_s_094}"
-    new "Это секрет от Харуны, но Королева велела ей принимать магическое лекарство."
+    new "Это секрет от Харуны, но, как я слышал, Королева предписала ей принимать магическое лекарство."
 
     old "(Weatherly has been missing since then. Probably returned to Reconquista.){#ch28_s_095}"
     new "Уэзерби с тех пор пропала. Наверное, вернулась к Реконкисте."
