@@ -5224,3 +5224,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 2 CANDIDATE, Ф1 3 — все FIXED.
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Отчёт `reports/ch25/2.md`.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 25, часть 3 (933 + 1214–1218)
+
+- 132 реплики / 120 голосов + 1 menu; `voice_id_map.csv` +120; `.ogg` 120/0.
+- Аудиты: C 4 PRAGMATIC_SHIFT (хеджи よう/みたい/そう), Ф1 7 кандидатов — 10 FIXED, 1 PRESERVED — FUNCTIONAL.
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch25/3.md`.
