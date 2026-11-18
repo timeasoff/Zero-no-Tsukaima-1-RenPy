@@ -304,7 +304,7 @@ translate russian strings:
     new "…К-как это — лицо фамильяра?"
 
     old "Woof! Master!{#sp90_c_1676_1679}"
-    new "Гав! Хозяйка!"
+    new "Гав! Госпожа!"
 
     old "W-Woof!{#sp90_c_1684_1685}"
     new "Г-Гав!"

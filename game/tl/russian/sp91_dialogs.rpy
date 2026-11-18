@@ -1714,7 +1714,7 @@ translate russian strings:
     new "П-Потому что…"
 
     old "A master washing her silly dog — what's strange about that?! Don't you go thinking weird things, you hear?!{#sp91_s1792_004}"
-    new "Хозяйка моет своего глупого пёсика — что тут удивительного?! Только не думай ни о чём таком, слышишь?!"
+    new "Госпожа моет своего глупого пёсика — что тут удивительного?! Только не думай ни о чём таком, слышишь?!"
 
     old "……… …… …{#sp91_s1792_008}"
     new "………………"
