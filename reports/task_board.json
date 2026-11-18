@@ -1548,6 +1548,34 @@
         }
       ],
       "closed": "2026-11-18 15:11:59"
+    },
+    {
+      "id": "T20261118-154527-a442",
+      "created": "2026-11-18 15:45:27",
+      "request": "Промпт 10: русская литературная вычитка гл.22.5, 23-28, extra 90/91 — кальки, грамматика, стиль, канон имён",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "6 independent literary reviews + fixes + canon normalization",
+          "status": "done",
+          "created": "2026-11-18 15:45:27",
+          "started": null,
+          "finished": "2026-11-18 15:45:27",
+          "session": null,
+          "note": "35 local fixes + 248 canonical replacements; style prefilter 0; all checks OK",
+          "evidence": [
+            "reports/ru_literary_review.md"
+          ],
+          "manual": "6 independent literary reviews + fixes + canon normalization"
+        }
+      ],
+      "closed": "2026-11-18 15:45:28"
     }
   ]
 }
