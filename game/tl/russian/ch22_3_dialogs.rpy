@@ -22,7 +22,7 @@
     new "От овощей доносится шорох."
 
     old "Whoa! The shredded burdock is moving every now and then!{#ch22_s_095}"
-    new "Ого! Нарезанный лопухиногда шевелится!"
+    new "Ого! Нарезанный лопух иногда шевелится!"
 
     old "Oh, that's fluid burdock. It's an ornamental plant, so it's rarely used in cooking…{#ch22_si_040}"
     new "О, это текучий лопух. Это декоративное растение, его редко используют в готовке…"
@@ -184,7 +184,7 @@
     new "Что ты сказала!?"
 
     old "This is the sweetest stew I've ever eaten.{#ch22_k_037}"
-    new "Это самый сладкий суп, который я когда-либо ела."
+    new "Такой приторно-сладкий суп я ещё никогда не ела."
 
     old "Eh… Sweet?{#ch22_l_044}"
     new "А… Сладкое?"
@@ -235,13 +235,13 @@
     new "Для кастрюли такого размера целая банка слишком много!"
 
     old "Honestly… You should taste it first.{#ch22_s_122}"
-    new "Честно… Надо было сначала попробовать."
+    new "Честно… Сначала попробуй!"
 
     old "Shut up, honestly. Don't you men nag me! Eat what your mistress gives you without complaint!?{#ch22_l_052}"
     new "Замолчи, правда. Не пилите меня, мужчины! Ешьте, что даёт госпожа, без жалоб!?"
 
     old "Heh heh. With this seasoning, I'd say a small child would enjoy it more than us.{#ch22_o_012}"
-    new "Хи-хи. С такой приправой её больше оценил бы ребёнок, чем мы."
+    new "Хе-хе. С такой приправой её больше оценил бы ребёнок, чем мы."
 
     old "It is a bit sweet, certainly, but there's a certain warmth to this stew.{#ch22_c_015}"
     new "Она и правда немного сладковата, но в этом супе есть особое тепло."
@@ -274,7 +274,7 @@
     new "Просто повторяешь его слова?"
 
     old "Now, everyone, please eat. This is a special stew passed down from my great-great-grandfather!{#ch22_si_051}"
-    new "Ну же, все, угощайтесь. Это особый суп, переданный мне прапрадедушкой!"
+    new "Ну же, все, угощайтесь. Это особый суп, переданный мне прадедушкой!"
 
     old "Even though Louise made stew, you two serve the same thing… She must be pretty confident, that girl, don't you think?{#ch22_m_002}"
     new "Хотя Луиза готовила суп, вы двое подаёте то же самое… Должно быть, она очень уверена в себе, да?"
@@ -313,13 +313,13 @@
     new "Блюдо, присущее нашему миру, появляется в таком месте — это просто поразительно, да?"
 
     old "Truly, isn't it. I'm a little grateful to my great-great-grandfather.{#ch22_si_055}"
-    new "И правда. Я немного благодарна прапрадедушке."
+    new "И правда. Я немного благодарна прадедушке."
 
     old "Thanks to him, Saito-san was so happy…{#ch22_si_056}"
     new "Благодаря ему Сайто-сан так обрадовался…"
 
     old "If I'd known such a wonderful dish was waiting, Louise's cooking wouldn't have stood a chance!!{#ch22_s_133}"
-    new "Если бы я знал, что ждёт такое прекрасное блюдо, стряпня Луизы не имела бы шансов!!"
+    new "Если бы я знал, что ждёт такое радостное блюдо, стряпня Луизы не имела бы шансов!!"
 
     old "Oh, you certainly do talk. I suppose my stew was just sweet, childish stew, was it!?{#ch22_l_053}"
     new "О, как же ты красноречив. Значит, мой суп был просто сладким детским супом, да!?"

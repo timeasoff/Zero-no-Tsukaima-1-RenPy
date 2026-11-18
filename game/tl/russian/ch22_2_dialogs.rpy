@@ -4,7 +4,7 @@
     new "Прошло немало времени с начала готовки, но все серьёзно. Схожу посмотрю."
 
     old "Kirche first. Gah! What's that!?{#ch22_s_036}"
-    new "Сначала Кирке. Ах! Что это!?"
+    new "Сначала Кирке. Фу! Что это!?"
 
     old "(Kirche is squeezing the meat out of some glossy black creature, extracting a purple, thick liquid.){#ch22_s_037}"
     new "Кирке выжимает мясо из какой-то блестящей чёрной твари и добывает пурпурную густую жидкость."
@@ -43,7 +43,7 @@
     new "Ой!"
 
     old "Huh? I seems I sent the knife flying somewhere.{#ch22_l_023}"
-    new "А? Кажется, я уронила нож."
+    new "А? Кажется, я запустила нож."
 
     old "T-That knife grazed my neck and is stuck in the pillar over there…!{#ch22_s_044}"
     new "Т-Тот нож задел мою шею и воткнулся в колонну напротив…!"
@@ -52,7 +52,7 @@
     new "О, Сайто. Что случилось?"
 
     old "What do you mean 'what's wrong'!? Swinging a knife around is dangerous! I nearly got stabbed!{#ch22_s_045}"
-    new "Это что значит «что случилось»!? Размахивать ножом опасно! Я чуть не пострадал!"
+    new "Это что значит «что случилось»!? Размахивать ножом опасно! Я чуть не был заколот!"
 
     old "S-Shut up. As long as the ingredients are cut properly, it's fine. See?{#ch22_l_025}"
     new "З-Замолчи. Лишь бы ингредиенты были нарезаны как надо. Смотри?"
@@ -115,7 +115,7 @@
     new "Я-Я сказала… П-Простите. Я сказала глупость…"
 
     old "I-It's fine! It's fine! I-It's really fine!{#ch22_s_056}"
-    new "Н-Нормально! Всё нормально! Я-Я не против!"
+    new "Н-Нормально! Всё нормально! Я-Я так, просто не хочу говорить!"
 
     old "…{#ch22_si_033}"
     new "…"
@@ -136,7 +136,7 @@
     new "Как-то… Кажется, только задела шею… Этот нож…"
 
     old "Oh my, I sent the knife flying again.{#ch22_l_028}"
-    new "Ох, я опять упустила нож."
+    new "Ох, я опять запустила нож."
 
     old "So it was you! You did it on purpose, didn't you!{#ch22_s_061}"
     new "Так это ты! Ты специально, да!"
@@ -178,7 +178,7 @@
     new "И-ик!! Ох… Как резать взрывающийся помидор… м-м-м."
 
     old "Burdock like konjac… cabbage like plastic… How do they eat these in this world…?{#ch22_ha_006}"
-    new "Лопух как коньяк… капуста как пластик… Как это едят в этом мире…?"
+    new "Лопух как конняку… капуста как пластик… Как это едят в этом мире…?"
 
     old "(She's struggling with unfamiliar ingredients, after all.){#ch22_s_068}"
     new "Она и правда мучается с незнакомыми ингредиентами."
@@ -202,7 +202,7 @@
     new "Все вы работаете довольно искусно, правда?"
 
     old "Hmm hmm. Bridal training is going well, too, I see.{#ch22_o_004}"
-    new "Хм-хм. Вижу, и подготовка к свадьбе идёт хорошо."
+    new "Хм-хм. И подготовка к свадьбе идёт хорошо, да?"
 
     old "(All that's left is to wait patiently for the food to be done… Gaku gaku buru buru…){#ch22_s_072}"
     new "Осталось только спокойно дождаться готовки… Дрожь-дрожь…"

@@ -5150,3 +5150,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Disposition: 3 WARNING + 5 CANDIDATE FIXED. Ключевые: `なんかいいかも` → «Вроде бы даже приятно»; `低血圧で寝起きが悪い` → «с низким давлением»; `ゆっくり召し上がってくださいね` → «Ешьте не спеша»; `ミスタ・コルベール` → «мистер Кольбер».
 - Отчёт: `reports/sma/ch22/1/analysis/20261118-041200-phase2.md`.
 - Проверки после правок: `check_project.py` OK, `check_typography.py --chapter 22 --lang ru` OK.
+
+
+## 2026-11-18 — Глава 22: аудиты частей 2–3 (A/C/Analyzer Ф1+Ф2)
+
+- Часть 2: A 4 (2 WARNING, 2 CANDIDATE), C 2, Ф1 4. Часть 3: A 3 (2 WARNING, 1 CANDIDATE), C 1 WARNING, Ф1 4.
+- Disposition: ч.2 — 3 WARNING + 3 CANDIDATE FIXED, 1 PRESERVED — FUNCTIONAL; ч.3 — 4 WARNING + 2 CANDIDATE FIXED, 1 PRESERVED — ACCEPTABLE ADAPTATION.
+- Ключевые: `こんにゃく` → «конняку» (не «коньяк»); `飛ばしちゃった` → «запустила нож»; `刺される` → «заколот»; `まずは味見しろ` → «Сначала попробуй!»; `ひいおじいちゃん` → «прадедушка» (не прапрадедушка); `甘ったるい` → «приторно-сладкий».
+- Отчёты: `reports/sma/ch22/{2,3}/analysis/20261118-042000-phase2.md`.
+- Проверки после правок: `check_project.py` OK, `check_typography.py --chapter 22 --lang ru` OK.
