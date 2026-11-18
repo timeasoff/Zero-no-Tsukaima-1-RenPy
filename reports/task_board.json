@@ -1576,6 +1576,34 @@
         }
       ],
       "closed": "2026-11-18 15:45:28"
+    },
+    {
+      "id": "T20261118-155816-d123",
+      "created": "2026-11-18 15:58:16",
+      "request": "Промпт 11: ассеты/фоны/BGM/SE/FX/тайтлы для гл.22.5, 23-28, extra 90/91",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Asset audit by ID/formula, MOVIE notes, W6 open",
+          "status": "done",
+          "created": "2026-11-18 15:58:16",
+          "started": null,
+          "finished": "2026-11-18 15:58:16",
+          "session": null,
+          "note": "BGM 20/20, images 109/109, FX valid, MOVIE not ported, W6 OPEN",
+          "evidence": [
+            "reports/assets_media_fx.md"
+          ],
+          "manual": "Asset audit by ID/formula, MOVIE notes, W6 open"
+        }
+      ],
+      "closed": "2026-11-18 15:58:17"
     }
   ]
 }
