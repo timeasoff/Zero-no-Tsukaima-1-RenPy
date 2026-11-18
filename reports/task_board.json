@@ -1770,6 +1770,34 @@
         }
       ],
       "closed": "2026-11-18 20:55:57"
+    },
+    {
+      "id": "T20261118-210647-c979",
+      "created": "2026-11-18 21:06:47",
+      "request": "Повторный полный аудит глав 22-28: расширить A/B/C на все 24 части, runtime-проверка, обновить translation_plan",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "A/B/C all 24 parts + 15 fixes + Analyzer phase2",
+          "status": "done",
+          "created": "2026-11-18 22:33:20",
+          "started": null,
+          "finished": "2026-11-18 22:33:20",
+          "session": null,
+          "note": "24 parts A/B/C, 15 JA-backed fixes, all checks green",
+          "evidence": [
+            "reports/full_audit/FINAL.md"
+          ],
+          "manual": "A/B/C all 24 parts + 15 fixes + Analyzer phase2"
+        }
+      ],
+      "closed": "2026-11-18 22:33:20"
     }
   ]
 }
