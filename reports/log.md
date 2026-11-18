@@ -5196,3 +5196,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 0 находок; Ф1 3 кандидата (инверсия полярности `深追いをして`, выпадение `口を出すんじゃないの`, ослабление `殺気立ってた`) — все FIXED.
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Отчёт `reports/ch23/2.md`; 味方А ported как `soldier` (как в гл.12) — PROVISIONAL.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 23, часть 3 — глава завершена
+
+- 120 реплик / 115 голосов + 3 menu; `voice_id_map.csv` +115; `.ogg` 115/0.
+- Аудиты: C 5 (1 ERROR, 3 WARNING, 1 CANDIDATE), Ф1 1 MISTRANSLATION — все FIXED.
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch23/3.md`. Итог главы 23: 3 части, 849–893, 343 голоса, выход `jump ch24`.
