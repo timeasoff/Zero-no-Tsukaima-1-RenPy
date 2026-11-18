@@ -130,8 +130,9 @@ def main():
             continue
         if k == 'goto':
             if scene is None or not 994 <= scene <= 998: continue
-            script.append('    # → next scene %d' % x['target'])
-            script.append('    jump ch28')
+            t = x['target']
+            script.append('    # → next scene %d' % t)
+            script.append('    jump %s' % ('ch27_3_scene_%d' % t if 994 <= t <= 998 else 'ch28'))
             script.append('')
     script += ['    # ==== КОНЕЦ ГЛАВЫ 27 ====', '    jump ch28', '    return', '']
     files = {

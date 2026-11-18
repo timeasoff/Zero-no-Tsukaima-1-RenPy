@@ -840,7 +840,8 @@ label ch25_4_scene_1532:
     # [SPRITE   lay5     hide]
     # [LAYER    lay0     hide]
     # [BG       stage    hide]
-    # ==== КОНЕЦ ГЛАВЫ 25 ====
-    jump ch26
+    # move(): возврат в сцену 927 (moveInit в 922)
+    # ==== КОНЕЦ ЧАСТИ 4 ====
+    jump ch25_2_scene_927
     return
 

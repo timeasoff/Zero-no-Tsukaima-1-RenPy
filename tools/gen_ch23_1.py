@@ -256,6 +256,9 @@ def main():
             continue
         if k == 'goto':
             if scene is None or not 849 <= scene <= 867: continue
+            if scene == 863 and x['target'] == 865:
+                script.append('    # checkKiss(): ветка 864/865 — zero_kiss не портирован; идём по ветке zero_kiss (864), как в гл.12')
+                continue
             script.append('    # → next scene %d' % x['target'])
             script.append('    jump %s' % ('ch23_1_scene_%d' % x['target'] if 849 <= x['target'] <= 867 else 'ch23_2'))
             script.append('')

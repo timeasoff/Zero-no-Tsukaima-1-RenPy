@@ -240,7 +240,7 @@ label ch27_3_scene_995:
     t "Ah.{#ch27_t_047}"
 
     # → next scene 998
-    jump ch28
+    jump ch27_3_scene_998
 
 label ch27_3_scene_996:
 
@@ -280,7 +280,7 @@ label ch27_3_scene_996:
     t "Separate personality… Separate…{#ch27_t_050}"
 
     # → next scene 998
-    jump ch28
+    jump ch27_3_scene_998
 
 label ch27_3_scene_997:
 
@@ -305,7 +305,7 @@ label ch27_3_scene_997:
     t "Yes—Akina… Ah.{#ch27_t_051}"
 
     # → next scene 998
-    jump ch28
+    jump ch27_3_scene_998
 
 label ch27_3_scene_998:
 

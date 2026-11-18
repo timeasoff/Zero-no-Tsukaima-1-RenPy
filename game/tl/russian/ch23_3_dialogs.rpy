@@ -298,7 +298,7 @@ translate russian strings:
     new "Но это порождение Пустоты. Иллюзия, рождённая Пустотой… заклинание сна."
 
     old "Ah… Amazing!! The enemy is running from the batteries!{#ch23_s_125}"
-    new "Ах... Потрясающе!! Враг разбегается от батарей!"
+    new "Ах… Потрясающе!! Враг разбегается от батарей!"
 
     old "Heh heh… My magic is quite something, too, isn't it?{#ch23_l_093}"
     new "Хи-хи… Моя магия тоже неплоха, да?"

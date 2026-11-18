@@ -3,6 +3,9 @@
 
 label ch23:
     $ tndl(None)
+    # [TITLE] титульная карточка → overlay_screen (K=20)
+    call overlay_screen("overlay", "Chapter Twenty-Three: 'Silent Support'{#ch23_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_20
+    pause(2)
     $ show_sprites()
 
 label ch23_1_scene_849:
@@ -528,9 +531,7 @@ label ch23_1_scene_863:
     # → next scene 864
     jump ch23_1_scene_864
 
-    # → next scene 865
-    jump ch23_1_scene_865
-
+    # checkKiss(): ветка 864/865 — zero_kiss не портирован; идём по ветке zero_kiss (864), как в гл.12
 label ch23_1_scene_864:
 
     # [BGM      bgm      play=+13]

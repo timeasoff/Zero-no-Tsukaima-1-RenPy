@@ -510,9 +510,7 @@ label ch27_2_scene_990:
     # → next scene 991
     jump ch27_2_scene_991
 
-    # → next scene 992
-    jump ch27_2_scene_992
-
+    # checkKiss(): ветка 991/992 — zero_kiss не портирован; идём по ветке zero_kiss (991), как в гл.12
 label ch27_2_scene_991:
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]

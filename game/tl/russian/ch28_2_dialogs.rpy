@@ -133,7 +133,7 @@ translate russian strings:
     new "И к тому же их главной целью, наверное, было свалить хлопотные дела на Табасу, поэтому результат их мало интересовал."
 
     old "I see… Well, at least it didn't end badly for Tabitha and Haruna…{#ch28_s_092}"
-    new "Понятно... Ну, по крайней мере, для Табасы и Харуны всё кончилось хорошо..."
+    new "Понятно… Ну, по крайней мере, для Табасы и Харуны всё кончилось хорошо…"
 
     old "(In the end, Akina—Haruna's other personality—still seems to linger a little.){#ch28_s_093}"
     new "В конце концов, Акина — вторая личность Харуны — похоже, всё ещё остаётся отчасти."

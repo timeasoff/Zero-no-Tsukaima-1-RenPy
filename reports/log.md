@@ -5328,3 +5328,16 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - `audio_converter.py check` → 15134 строк / 15134 `.ogg` / pending 0 / нет аудио 0 / нет в манифесте 0 → RESULT OK; `convert --apply` → 0 к конвертации; post-check OK; `check_project.py` OK.
 - Предупреждения конвертера (`4b_s`, `sp90_*`, `sp91_*`) — **CANDIDATE → FALSE POSITIVE**: артефакты `SPEAKER_RE`, реальные speaker-коды определены в `game/characters.rpy`. Переименование не выполнялось во избежание осиротевших `.ogg` (удаления запрещены).
 - Отчёт: `reports/voice_workflow_ch22_to_end.md`, evidence `reports/voice_audit.md`.
+
+## 2026-11-18 — Промпт 07: Ren'Py-поток, развилки, симпатии
+
+- Аудитор `tools/flow_audit.py`: 592 лейбла, 754 jump, 7 call, 115 menu; битых целей 0, циклов из входов 0, E1/E2/E7 = 0.
+- **FIXED**: `gen_ch27_3.py` направлял все `→ next scene` в `ch28` — сцена 998 (6 голосов) была недостижима; goto в 994–998 теперь локальные.
+- **FIXED**: `ch25_4` заканчивался `jump ch26`, игнорируя `moveInit(927,…)`; возврат изменён на `jump ch25_2_scene_927` — ожили 927–933 и ch25_3.
+- **FIXED**: `checkKiss()`-ветки в сценах 863 (гл.23), 899 (гл.24), 990 (гл.27) выдавали два `jump` подряд; оставлена ветка `zero_kiss` (864/900/991) по образцу гл.12, вторая закомментирована. Флаг `zero_kiss` не портирован — **OPEN/PROVISIONAL**.
+- **FIXED**: добавлены 6 title-overlay (`ps2_to_renpy.csv` id 15) с K=20…25 для гл.23–28 + 12 TL-файлов; `next_free=26`, дублей нет. `tools/add_chapter_overlays.py` идемпотентен — перезапускать после перегенерации part-1.
+- **FIXED**: `...` → `…` в RU TL гл.23_3 и гл.28_2; typography гл.23–28 → OK.
+- Симпатии: 0 событий `【好感度】` в исходнике целевой области и 0 `update_sympathy` в порту — расхождений нет.
+- Date/move-гейты (1+3+1 события) сведены к безусловным переходам: **PRESERVED — ACCEPTABLE ADAPTATION (PROVISIONAL)**, требует согласования с владельцем глав 0–21 → OPEN.
+- Недостижимые лейблы: ~95 альтернативных корней extra (dispatch OPEN), 3 невыбранные ветки `!zero_kiss`, 3 сцены-проводника `【移動】` — все PRESERVED, уникального контента не теряют.
+- Отчёт: `reports/flow_sympathy_ch22_to_end.md`, evidence `reports/flow_audit.md`.

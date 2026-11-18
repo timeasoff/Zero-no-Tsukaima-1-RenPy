@@ -3,6 +3,9 @@
 
 label ch27:
     $ tndl(None)
+    # [TITLE] титульная карточка → overlay_screen (K=24)
+    call overlay_screen("overlay", "Chapter Twenty-Seven: 'Haruna's Secret'{#ch27_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_24
+    pause(2)
     $ show_sprites()
 
 label ch27_1_scene_972:

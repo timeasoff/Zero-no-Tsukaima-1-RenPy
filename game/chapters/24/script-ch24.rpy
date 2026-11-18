@@ -3,6 +3,9 @@
 
 label ch24:
     $ tndl(None)
+    # [TITLE] титульная карточка → overlay_screen (K=21)
+    call overlay_screen("overlay", "Chapter Twenty-Four: 'Uniform's Appeal'{#ch24_title}", isUseBlur=False, text_mode="black") from _call_overlay_screen_21
+    pause(2)
     $ show_sprites()
 
 label ch24_1_scene_894:
@@ -721,9 +724,7 @@ label ch24_1_scene_899:
     # → next scene 900
     jump ch24_1_scene_900
 
-    # → next scene 901
-    jump ch24_1_scene_901
-
+    # checkKiss(): ветка 900/901 — zero_kiss не портирован; идём по ветке zero_kiss (900), как в гл.12
 label ch24_1_scene_900:
 
     # [SPRITE   lay2     image=+491, level=160, dir=1A]

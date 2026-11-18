@@ -235,7 +235,7 @@ def main():
             else:
                 script.append('    jump ch26')
             script.append('')
-    script += ['    # ==== КОНЕЦ ГЛАВЫ 25 ====', '    jump ch26', '    return', '']
+    script += ['    # move(): возврат в сцену 927 (moveInit в 922)', '    # ==== КОНЕЦ ЧАСТИ 4 ====', '    jump ch25_2_scene_927', '    return', '']
     files = {
         'game/chapters/25/script-ch25_4.rpy': '\n'.join(script) + '\n',
         'game/tl/japanese/ch25_4_dialogs.rpy': '\n'.join(['translate japanese strings:', ''] + ja_d) + '\n',
