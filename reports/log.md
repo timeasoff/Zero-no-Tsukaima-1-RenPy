@@ -5274,3 +5274,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Итог основной линии: главы 22–28, 2364 голоса; финал — `jump attention`.
 - Остаётся отдельный scope: `chapter_90/91` в `game/chapters/extra/`.
+
+## 2026-11-18 — Ветка port/ch22-to-end: реестр inline extra-сцен (промпт 03)
+
+- Проверены все `extra scenes:` глав 23–28: только гл.25 (25 сцен: 1214–1218, 1513–1532) и гл.26 (5 сцен: 1219–1223). Остальные главы `extras=0`.
+- Все 30 сцен уже портированы внутри своих частей (не в `game/chapters/extra/`), лейблы найдены, переходы и точки возврата сверены с `events_full/`.
+- Реестр: `reports/inline_extra_registry.md` (source scene → вызывающий label → целевой label → условие → возврат → статус → коммит).
+- `check_project.py` OK (0 ошибок). Отдельная таблица `dlEventId/tnEventId → label` в `references/` отсутствует — соответствие зафиксировано в реестре; дубликатов не создавал.
