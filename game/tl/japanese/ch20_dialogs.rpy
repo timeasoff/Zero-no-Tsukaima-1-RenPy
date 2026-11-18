@@ -120,7 +120,7 @@
     old "(Punishment, punishment, punishment.){#ch20_s_022}"
     new "（お仕置き、お仕置き、お仕置き）"
 
-    old "Hey, what are you muttering about? Hurry up and punish me.{#ch20_l_014}"
+    old "Hey, what are you muttering about? Hurry up, I'll punish you. {#ch20_l_014}"
     new "ルイズ：ほら、何ブツブツ言っているの？早くお仕置きするわよ。"
 
     old "Yeees.{#ch20_s_023}"

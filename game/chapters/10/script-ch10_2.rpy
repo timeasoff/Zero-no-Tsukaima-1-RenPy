@@ -270,10 +270,10 @@ label ch10_2:
         s "...... {#ch10_s_076}"
         # JA[13183]: サイト：……。
         # サイト：（シエスタの部屋に２人が移って……）
-        s "(Siesta's room moved to two people...){#ch10_s_077}"
+        s "(The two of them moved into Siesta's room…) {#ch10_s_077}"
         # JA[null]: サイト：（シエスタの部屋に２人が移って……）
         # サイト：（なんかルイズと２人きりだと、 / 部屋が広く感じるっつーか……）
-        s "(With just Louise and the two of us, / the room feels spacious...){#ch10_s_078}"
+        s "(With just Louise and me, the room feels spacious…) {#ch10_s_078}"
         # JA[null]: サイト：（なんかルイズと２人きりだと、 / 部屋が広く感じるっつーか……）
         # サイト：（……なんとなく、抜け出してきちゃったけど）
         s "(...I kind of slipped out but){#ch10_s_079}"
@@ -341,7 +341,7 @@ label ch10_2:
                 jump ch10_457
             "It was indeed terribly bad. {#ch10_choice_014}":
                 jump ch10_458
-            "She tried her best, didn't she? {#ch10_choice_015}":
+            "You tried your best, didn't you? {#ch10_choice_015}":
                 jump ch10_459
 
     # ==== SCENE 457 ====
@@ -401,7 +401,7 @@ label ch10_2:
         $ show_sprites(("s 1", "h 2"))
         # サイト：頑張っていたとは思うよ。  [voice 13196]
         voice "ch10_s_091"
-        s "I think she tried her best, though. {#ch10_s_091}"
+        s "I think you tried your best, though. {#ch10_s_091}"
         # JA[13196]: サイト：頑張っていたとは思うよ。
         # ハルナ：でも、頑張っているだけじゃダメ / なんだよね。  [voice 2533]
         voice "ch10_h_078"
@@ -588,7 +588,7 @@ label ch10_2:
         # JA[16076]: ウェザリー：聞けば、生徒ではないとか……。
         # ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。  [voice 16077]
         voice "ch10_w_005"
-        w "Therefore if possible / I'd like to scout the theater troupe. {#ch10_w_005}"
+        w "Therefore if possible / I'd like to scout you for our theater troupe. {#ch10_w_005}"
         # JA[16077]: ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。
         # オスマン：スカウト……じゃと？  [voice 4509]
         voice "ch10_o_010"

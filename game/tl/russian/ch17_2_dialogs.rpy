@@ -168,7 +168,7 @@
     old "What's happening to the academy?{#ch17_s_065}"
     new "Что с академией?"
 
-    old "Don't ask me. You were with them the whole time. How would I know?{#ch17_l_050}"
+    old "Don't ask me. You were with Saito the whole time. How would I know? {#ch17_l_050}"
     new "Не спрашивай меня. Ты же всё время был рядом с Сайто. Откуда мне знать?"
 
     old "N-No, I know that. I just… can't stop worrying.{#ch17_s_066}"

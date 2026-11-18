@@ -16,7 +16,7 @@
     old "Hiragan-kun! / Why are you in a place like this!?{#ch11_ha_001}"
     new "Хирага-кун! / Что ты здесь делаешь!?"
 
-    old "That's not why you're in a place like this!{#ch11_s_017}"
+    old "That's not 'why are you here'!{#ch11_s_017}"
     new "Не «что я здесь делаю»!"
 
     old "You suddenly disappear / and everyone's in an uproar!{#ch11_s_018}"

@@ -264,7 +264,7 @@
     old "And the one who took her in asked about her circumstances, where she came from— and decided she could be useful.{#ch18_ak_010}"
     new "アキナ：そして、ハルナを保護したあのお方は、ハルナの事情やらどこから来たのかを聞いて、これは使えるって思ったのさ。"
 
-    old "To investigate Saito and his mistress Louise, the legendary familiar of Tristain.{#ch18_ak_011}"
+    old "To investigate Saito, the legendary familiar of Tristain, and his mistress Louise. {#ch18_ak_011}"
     new "アキナ：トリステインにいるっていう伝説の使い魔、サイトとその主人、ルイズのことを調べるためにね。"
 
     old "O-Us!?{#ch18_s_116}"

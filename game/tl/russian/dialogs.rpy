@@ -16494,8 +16494,8 @@ translate russian strings:
     old "U-um, it is dangerous to go outside in our current situation, so you should probably give up on the walk…{#ch6_s_037}"
     new "Э-э, в нашей ситуации выходить наружу опасно, так что, пожалуй, лучше отказаться от прогулки…"
 
-    old "A-and if something happens, Louise will…{#ch6_s_038}"
-    new "К тому же, если что-нибудь случится, Луиза…"
+    old "A-and if something happens, I'll have to explain to Louise…{#ch6_s_038}"
+    new "К тому же, если что-нибудь случится, я… Луизе…"
 
     old "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"
     new "С Луизой я сама улажу дело. А теперь пойдёмте."
@@ -17418,8 +17418,8 @@ translate russian strings:
     old "Yes, that's right.{#ch7_k_006}"
     new "Да, именно так."
 
-    old "I see. So that was the reason I stormed out mid-play faking a fit, too — checking the inside and the surroundings.{#ch7_s_003}"
-    new "Ясно. Значит, и то, что я посреди спектакля нарочно закатил сцену и ушёл, было нужно, чтобы осмотреть театр изнутри и вокруг."
+    old "I see. So that was the reason you stormed out mid-play faking a fit, too — to check the inside and the surroundings. {#ch7_s_003}"
+    new "Ясно. Значит, и то, что ты посреди спектакля нарочно закатила сцену и ушла, было нужно, чтобы осмотреть театр изнутри и вокруг."
 
     old "Exactly. Her Majesty asked me to the moment she arrived, so I did my digging on the side.{#ch7_k_007}"
     new "Именно. Её Величество поручила мне это сразу, как прибыла, вот я и собирала сведения потихоньку."
@@ -18160,7 +18160,7 @@ translate russian strings:
     new "Успокойся, Луиза. Ты же понимаешь, как ей было страшно в одиночестве!"
 
     old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
-    new "Просто бесит его глупое жалкое влюблённо-томное лицо!"
+    new "Я понимаю. Ну до такого я всё-таки не груба. Просто бесит его глупое жалкое влюблённо-томное лицо!"
 
     old "Jealousy.{#ch7.3_t_001}"
     new "Ревность."
@@ -18222,7 +18222,7 @@ translate russian strings:
     old "No — if you consider how this whole affair began, it was because I was still green as a queen.{#ch7.3_h_004}"
     new "Нет, если вспомнить самое начало — это потому, что я как королева была ещё незрелой."
 
-    old "And because of that, I gave the nobles within our realm the opening they needed to sway them.{#ch7.3_h_005}"
+    old "And because of that, I gave them the opening they needed to win over the nobles within our realm. {#ch7.3_h_005}"
     new "Из-за этого я и дала им шанс переманить дворян нашей страны на свою сторону."
 
     old "None of that is something you need to brood over, Princess.{#ch7.3_s_014}"
@@ -18255,7 +18255,7 @@ translate russian strings:
     old "Princess? I'm coming in.{#ch7.3_s_015}"
     new "Принцесса? Вхожу."
 
-    old "Ah… my familiar…{#ch7.3_h_008}"
+    old "Ah… the familiar… {#ch7.3_h_008}"
     new "Ах… фамильяр…"
 
     old "You're awake after all, I see.{#ch7.3_s_016}"
@@ -18351,7 +18351,7 @@ translate russian strings:
     old "Princess…{#ch7.3_s_030}"
     new "Принцесса…"
 
-    old "My familiar…!{#ch7.3_h_025}"
+    old "The familiar…! {#ch7.3_h_025}"
     new "Фамильяр…!"
 
     old "P-Princess. If anyone saw me like this, I dread to think what Louise would say…{#ch7.3_s_031}"

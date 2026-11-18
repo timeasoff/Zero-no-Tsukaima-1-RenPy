@@ -7,7 +7,7 @@
     new "Кажется, я видел странный сон"
 
     old "Um, Kirche… could you move a little away?{#ch15_1_c_619_3}"
-    new "Э-Э, Кирке… можно отодвинуться немного?"
+    new "Э-Э, Кирке… отодвинься немного?{#ch15_1_c_619_3}"
 
     old "You've been lying to us all along?{#ch15_1_c_624_1}"
     new "Ты всё это время нам лгала?"

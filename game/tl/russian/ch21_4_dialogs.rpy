@@ -315,8 +315,8 @@
     old "Just a walk, a walk. By the way, what were you two talking about?{#ch21_s_227}"
     new "Просто гуляю, гуляю. Кстати, о чём вы двое говорили?"
 
-    old "They were asking my advice about the cooking contest. I was thinking of trying a local dish from this world.{#ch21_ha_014}"
-    new "Она просила совета насчёт кулинарного боя. Я подумываю приготовить какое-нибудь блюдо этого мира."
+    old "I was asking her for advice about the cooking contest. I was thinking of trying a local dish from this world. {#ch21_ha_014}"
+    new "Я просила у неё совета насчёт кулинарного боя. Я подумываю приготовить какое-нибудь блюдо этого мира."
 
     old "Local cuisine, huh…{#ch21_s_228}"
     new "Местная кухня, значит…"
@@ -348,8 +348,8 @@
     old "It's prized among gourmets. Since only a small amount can be harvested, it's traded at a high price.{#ch21_m_014}"
     new "Это ценят гурманы. Поскольку добывают немного, продаётся оно по высокой цене."
 
-    old "I see… Kirche will look at Flame differently from now on.{#ch21_s_234}"
-    new "Понятно… Теперь Кирке будет смотреть на Флейм по-другому."
+    old "I see… I'll look at Kirche's Flame differently from now on. {#ch21_s_234}"
+    new "Понятно… Теперь я буду смотреть на Флейм по-другому."
 
     old "Hiraga-kun, don't! It's cruel.{#ch21_ha_016}"
     new "Хирага-кун, не надо! Это жестоко."

@@ -6,8 +6,8 @@
     old "Right. We don't have time to wait for Kirche to recover.{#ch15_l_065}"
     new "Да. У нас нет времени ждать, пока Кирке поправится."
 
-    old "So it all comes down to you. You'd better protect her properly.{#ch15_l_066}"
-    new "Значит, всё зависит от тебя. Ты её убережёшь, ладно?"
+    old "So it all comes down to you. You'd better protect me properly. {#ch15_l_066}"
+    new "Значит, всё зависит от тебя. Ты меня убережёшь, ладно?"
 
     old "Heh, leave it to me. I'm Louise's familiar. I'll guard you until the chanting is done.{#ch15_s_074}"
     new "Хе, доверься мне. Я фамильяр Луизы. Я буду охранять тебя, пока не закончится заклинание."

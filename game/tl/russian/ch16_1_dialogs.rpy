@@ -15,8 +15,8 @@
     old "N-No, that's not it, but…{#ch16_s_002}"
     new "Н-Нет, дело не в этом, но…"
 
-    old "K-Kirche, get away from him! You stupid dog!{#ch16_l_002}"
-    new "К-Кирке, отойди от него! Глупый пёс!"
+    old "Get away from Kirche, you stupid dog! {#ch16_l_002}"
+    new "Отойди от Кирке, глупый пёс!"
 
     old "…Eek! S-Sorry, mistress!{#ch16_s_003}"
     new "…Кя! П-Прости, госпожа!"
@@ -207,7 +207,7 @@
     old "Well… I can't stay at this academy forever… I thought it was about time I stopped relying on Louise-san and the others.{#ch16_ha_001}"
     new "Ну… Я не могу вечно оставаться в этой академии… Я подумала, что пора перестать зависеть от Луизы-сан и остальных."
 
-    old "If you say that, I've been living off Louise's kindness ever since she summoned me, one way or another.{#ch16_s_018}"
+    old "If you say that, ever since Louise summoned me I've been under this academy's care, one way or another. {#ch16_s_018}"
     new "Если так, то я с тех пор, как Луиза меня вызвала, всё равно жил за счёт академии."
 
     old "Hiraga-kun is Louise-san's familiar, so of course. But I'm not…{#ch16_ha_002}"
@@ -321,7 +321,7 @@
     old "I don't quite get it, but… Okay.{#ch16_k_037}"
     new "Я не совсем понимаю, но… ладно."
 
-    old "Well, it's not like I'm entrusting him to you… Just don't let that Louise break him.{#ch16_ha_020}"
+    old "Well, I'm just entrusting him to you… Just don't let that Louise break him. {#ch16_ha_020}"
     new "Ну, я просто доверяю его тебе… Только не дай той Луизе-сан его сломать."
 
     old "What are you talking about?{#ch16_s_028}"

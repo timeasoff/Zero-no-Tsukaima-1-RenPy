@@ -27,7 +27,7 @@ label ch15_3_scene_643:
     # [SPRITE   lay1     image=+335, level=160, dir=2A]
     # ルイズ：そうなると、うまくいくかどうかは、
     voice "ch15_l_066"
-    l "So it all comes down to you. You'd better protect her properly.{#ch15_l_066}"
+    l "So it all comes down to you. You'd better protect me properly. {#ch15_l_066}"
 
     # [SPRITE   lay5     image=+405, level=160, dir=1B]
     # サイト：へっ、任せておけよ。

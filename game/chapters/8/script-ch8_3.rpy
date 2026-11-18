@@ -128,7 +128,7 @@ label ch8_3:
     # トリステインが健在であることを
     # 示せるだけでよいのです。  [voice 914]
     voice "ch8_h_063"
-    h "It's enough that I'm safe inside the palace, so the Tristain can be reassured that I'm alive. {#ch8_h_063}"
+    h "It's enough that I'm safe inside the palace — that shows Tristain is still standing. {#ch8_h_063}"
     # JA[914]: アンリエッタ：わたくしが王宮内に無事でいることで、 / トリステインが健在であることを / 示せるだけでよいのです。
     # アンリエッタ：それに、わたくしにもひとつ、
     # 考えていることがあるのですよ。  [voice 915]
@@ -139,7 +139,7 @@ label ch8_3:
     # 魔術師としてのわたくしにできることが、
     # ひとつある……と考えているのです。  [voice 916]
     voice "ch8_h_065"
-    h "I, as a queen, have different things I can do as a mage. {#ch8_h_065}"
+    h "Apart from me as queen, there's just one thing I can do as a mage. {#ch8_h_065}"
     # JA[916]: アンリエッタ：女王としてのわたくしとは別に、 / 魔術師としてのわたくしにできることが、 / ひとつある……と考えているのです。
     # サイト：それは、いったい何ですか？  [voice 13646]
     voice "ch8_s_087"
@@ -252,7 +252,7 @@ label ch8_3:
     # JA[13651]: サイト：ああ……。
     # ルイズ：では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。  [voice 7465]
     voice "ch8_l_059"
-    l "Then let's split up. I'll go with Site and Kirche to the palace. {#ch8_l_059}"
+    l "Then let's split up. I'll go with the Princess, Saito, and Kirche to the palace. {#ch8_l_059}"
     # JA[7465]: ルイズ：では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # キュルケ：タバサ、モンモランシー、ギーシュは、 / 砲台への攻撃をお願い。 / 気をつけてね。  [voice 3872]
     voice "ch8_k_015"
@@ -425,7 +425,7 @@ label ch8_3:
     # JA[13659]: サイト：ウェザリー、それにアキナ！
     # デルフリンガー：たぶん、俺達がここに来ると思って、 / 先回りしたんだろうよ。  [voice 1373]
     voice "ch8_d_002"
-    d "Maybe you thought we'd come here. You were wrong. {#ch8_d_002}"
+    d "Maybe they figured we'd come here and got here ahead of us. {#ch8_d_002}"
     # JA[1373]: デルフリンガー：たぶん、俺達がここに来ると思って、 / 先回りしたんだろうよ。
     # ウェザリー：ハルナが集めてくれた情報のおかげだよ。 / 最も、ハルナは無意識に情報を / 集めていただけだけどね。  [voice 16168]
     voice "ch8_w_003"
@@ -445,7 +445,7 @@ label ch8_3:
     # JA[16170]: ウェザリー：そのとき、アキナがサイトやルイズの / 情報をわたしまで、伝えていたのさ。
     # ウェザリー：もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。  [voice 16171]
     voice "ch8_w_006"
-    w "Though Akina herself doesn't remember doing any of it. {#ch8_w_006}"
+    w "Though Haruna doesn't remember any of what Akina did. {#ch8_w_006}"
     # JA[16171]: ウェザリー：もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。
     # サイト：くそっ、ウェザリー！ / 春奈を元に戻せ！  [voice 13661]
     voice "ch8_s_101"
@@ -473,7 +473,7 @@ label ch8_3:
     # JA[7472]: ルイズ：おあいにくさま。 / だったらわたし達が、 / あなた達を倒してみせるわ。
     # アキナ：へえ、できるのかい？ / あたしの爆弾に、ウェザリー様の魔法。 / 勝てるもんならやってみな。  [voice 259]
     voice "ch8_ak_002"
-    ak "Oh, can you? Can I use my bomb on your magic? Do it if you can win. {#ch8_ak_002}"
+    ak "My bomb, and Weatherby-sama's magic — try to beat that if you can. {#ch8_ak_002}"
     # JA[259]: アキナ：へえ、できるのかい？ / あたしの爆弾に、ウェザリー様の魔法。 / 勝てるもんならやってみな。
     # アンリエッタ：そこまでです！  [voice 924]
     voice "ch8_h_073"
@@ -542,7 +542,7 @@ label ch8_3:
     # JA[928]: アンリエッタ：それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。
     # アンリエッタ：わたくしが魔法を使って、 / その音を聞こえなくさせているだけです。  [voice 929]
     voice "ch8_h_078"
-    h "I was just making you unable to hear that sound by using magic. {#ch8_h_078}"
+    h "I simply used magic to make that sound inaudible. {#ch8_h_078}"
     # JA[929]: アンリエッタ：わたくしが魔法を使って、 / その音を聞こえなくさせているだけです。
     # ウェザリー：う、嘘だ……嘘だ！ / この魔法はわたしの一族にしか使えない / 特別なもの！  [voice 16179]
     voice "ch8_w_014"
@@ -600,7 +600,7 @@ label ch8_3:
     # JA[16184]: ウェザリー：く、くくくっ。 / 一族の秘術を封じられた今は、 / 力攻めあるのみか。
     # ウェザリー：ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！  [voice 16185]
     voice "ch8_w_020"
-    w "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
+    w "Then at least let me take the queen down with me, even if we both die! {#ch8_w_020}"
     # JA[16185]: ウェザリー：ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！
     # ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！！  [voice 16186]
     voice "ch8_w_021"
@@ -676,7 +676,7 @@ label ch8_3:
     # JA[940]: アンリエッタ：次はルイズ、あなたの番ですね。 / 力を見せてください。
     # ルイズ：はい。 / お任せください。  [voice 7473]
     voice "ch8_l_067"
-    l "Yes. I entrust this to you. {#ch8_l_067}"
+    l "Yes. Leave it to me. {#ch8_l_067}"
     # JA[7473]: ルイズ：はい。 / お任せください。
     # ルイズ：出でよ、ここになきもの……ここにあるように。  [voice 7474]
     voice "ch8_l_068"
@@ -704,7 +704,7 @@ label ch8_3:
     # JA[7476]: ルイズ：違うわよ……ばか……。
     # アンリエッタ：ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。  [voice 942]
     voice "ch8_h_090"
-    h "Oh, Louise… This is Illusion. It's magic that creates tangible illusions… {#ch8_h_090}"
+    h "Oh, Louise… This is Illusion. It's magic that manifests incorporeal illusions… {#ch8_h_090}"
     # JA[942]: アンリエッタ：ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。
     # サイト：ってことは、あの艦隊は幻？  [voice 13673]
     voice "ch8_s_111"

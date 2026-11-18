@@ -43,13 +43,13 @@ translate japanese strings:
     old "But the palace is under attack right now. You don't have to force your way back… {#ch8_s_086}"
     new "でも、今攻められてる最中の王宮に、 / 無理して戻らなくても……。"
 
-    old "It's enough that I'm safe inside the palace, so the Tristain can be reassured that I'm alive. {#ch8_h_063}"
+    old "It's enough that I'm safe inside the palace — that shows Tristain is still standing. {#ch8_h_063}"
     new "わたくしが王宮内に無事でいることで、 / トリステインが健在であることを / 示せるだけでよいのです。"
 
     old "Besides, I have something on my mind. {#ch8_h_064}"
     new "それに、わたくしにもひとつ、 / 考えていることがあるのですよ。"
 
-    old "I, as a queen, have different things I can do as a mage. {#ch8_h_065}"
+    old "Apart from me as queen, there's just one thing I can do as a mage. {#ch8_h_065}"
     new "女王としてのわたくしとは別に、 / 魔術師としてのわたくしにできることが、 / ひとつある……と考えているのです。"
 
     old "And what is that? {#ch8_s_087}"
@@ -124,7 +124,7 @@ translate japanese strings:
     old "Yeah… {#ch8_s_092}"
     new "ああ……。"
 
-    old "Then let's split up. I'll go with Site and Kirche to the palace. {#ch8_l_059}"
+    old "Then let's split up. I'll go with the Princess, Saito, and Kirche to the palace. {#ch8_l_059}"
     new "では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。"
 
     old "Tabitha, Montmorency, and Guiche — attack the cannons. Be careful. {#ch8_k_015}"
@@ -214,7 +214,7 @@ translate japanese strings:
     old "Weatherby, and Akina too! {#ch8_s_099}"
     new "ウェザリー、それにアキナ！"
 
-    old "Maybe you thought we'd come here. You were wrong. {#ch8_d_002}"
+    old "Maybe they figured we'd come here and got here ahead of us. {#ch8_d_002}"
     new "たぶん、俺達がここに来ると思って、 / 先回りしたんだろうよ。"
 
     old "It's thanks to the information gathered by Haruna. Though she collected it unconsciously. {#ch8_w_003}"
@@ -229,7 +229,7 @@ translate japanese strings:
     old "That's when Akina was passing information about you and Louise to me. {#ch8_w_005}"
     new "そのとき、アキナがサイトやルイズの / 情報をわたしまで、伝えていたのさ。"
 
-    old "Though Akina herself doesn't remember doing any of it. {#ch8_w_006}"
+    old "Though Haruna doesn't remember any of what Akina did. {#ch8_w_006}"
     new "もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。"
 
     old "Damn you, Weatherby! Restore Haruna! {#ch8_s_101}"
@@ -250,7 +250,7 @@ translate japanese strings:
     old "Fine then. If you won't stop, then we'll defeat you. {#ch8_l_066}"
     new "おあいにくさま。 / だったらわたし達が、 / あなた達を倒してみせるわ。"
 
-    old "Oh, can you? Can I use my bomb on your magic? Do it if you can win. {#ch8_ak_002}"
+    old "My bomb, and Weatherby-sama's magic — try to beat that if you can. {#ch8_ak_002}"
     new "へえ、できるのかい？ / あたしの爆弾に、ウェザリー様の魔法。 / 勝てるもんならやってみな。"
 
     old "That's enough. {#ch8_h_073}"
@@ -295,7 +295,7 @@ translate japanese strings:
     old "That it can be broken, I knew. I knew you were communicating through a sound that humans cannot hear. {#ch8_h_077}"
     new "それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。"
 
-    old "I was just making you unable to hear that sound by using magic. {#ch8_h_078}"
+    old "I simply used magic to make that sound inaudible. {#ch8_h_078}"
     new "わたくしが魔法を使って、 / その音を聞こえなくさせているだけです。"
 
     old "No, that's a lie…! This magic is a special art that only my family can use! {#ch8_w_014}"
@@ -337,7 +337,7 @@ translate japanese strings:
     old "Heh heh heh… Now that my family's secret is sealed, the only option is to overpower with force. {#ch8_w_019}"
     new "く、くくくっ。 / 一族の秘術を封じられた今は、 / 力攻めあるのみか。"
 
-    old "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
+    old "Then at least let me take the queen down with me, even if we both die! {#ch8_w_020}"
     new "ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！"
 
     old "Come then! All I have left are the fangs and claws of my resentment and rage! Take this!! {#ch8_w_021}"
@@ -385,7 +385,7 @@ translate japanese strings:
     old "Next is your turn, Louise. Show me your power. {#ch8_h_088}"
     new "次はルイズ、あなたの番ですね。 / 力を見せてください。"
 
-    old "Yes. I entrust this to you. {#ch8_l_067}"
+    old "Yes. Leave it to me. {#ch8_l_067}"
     new "はい。 / お任せください。"
 
     old "Come forth, here I am… Here I am. {#ch8_l_068}"
@@ -406,7 +406,7 @@ translate japanese strings:
     old "No, it's not… Idiot. {#ch8_l_070}"
     new "違うわよ……ばか……。"
 
-    old "Oh, Louise… This is Illusion. It's magic that creates tangible illusions… {#ch8_h_090}"
+    old "Oh, Louise… This is Illusion. It's magic that manifests incorporeal illusions… {#ch8_h_090}"
     new "ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。"
 
     old "So that fleet was an illusion? {#ch8_s_111}"

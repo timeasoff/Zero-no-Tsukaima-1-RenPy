@@ -48,7 +48,7 @@
     old "W-What the hell!?{#ch12_s_036}"
     new "Ч-Что за чёрт!?"
 
-    old "Rushing out to meet Saito without a thought for your own danger, and you two are…?{#ch12_l_033}"
+    old "Rushing out to meet Saito without a thought for my own danger… and what are you two playing at!? {#ch12_l_033}"
     new "Бросилась встречать Сайто, забыв об опасности, а вы двое…"
 
     old "W-What are you two playing at!?{#ch12_l_034}"

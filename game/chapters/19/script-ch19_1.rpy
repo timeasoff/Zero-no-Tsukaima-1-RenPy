@@ -290,7 +290,7 @@ label ch19_1_scene_743:
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：そこで俺とルイズは、二手に分かれるって
     voice "ch19_s_257"
-    s "So Saito and I split up here? Ah, but at this distance it's practically just around the corner.{#ch19_s_257}"
+    s "So Louise and I split up here? Ah, but at this distance it's practically just around the corner. {#ch19_s_257}"
 
     # [SPRITE   lay9     image=+931, level=160, dir=1A]
     # コルベール：風は我々に吹いてる証だよ。

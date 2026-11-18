@@ -224,7 +224,7 @@ label ch20_scene_769:
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：ほら、何ブツブツ言っているの？
     voice "ch20_l_014"
-    l "Hey, what are you muttering about? Hurry up and punish me.{#ch20_l_014}"
+    l "Hey, what are you muttering about? Hurry up, I'll punish you. {#ch20_l_014}"
 
     # サイト：はーい。  [voice 7970]
     voice "ch20_s_023"

@@ -129,7 +129,7 @@
     old "The exit leading to the shortest route to the rooftop is here.{#ch19_c_099}"
     new "コルベール：屋上への最短ルートに通じる出口は、ここにある。"
 
-    old "So Saito and I split up here? Ah, but at this distance it's practically just around the corner.{#ch19_s_257}"
+    old "So Louise and I split up here? Ah, but at this distance it's practically just around the corner. {#ch19_s_257}"
     new "サイト：そこで俺とルイズは、二手に分かれるってことか。あ、でもこの距離ならほんの目と鼻の先だな。"
 
     old "The wind is at our backs. Oh, there's one more thing I should give you.{#ch19_c_100}"

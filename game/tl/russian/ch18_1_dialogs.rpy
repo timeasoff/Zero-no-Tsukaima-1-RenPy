@@ -264,8 +264,8 @@
     old "And the one who took her in asked about her circumstances, where she came from— and decided she could be useful.{#ch18_ak_010}"
     new "А тот, кто её приютил, расспросил о её делах, о том, откуда она, — и решил, что она может пригодиться."
 
-    old "To investigate Saito and his mistress Louise, the legendary familiar of Tristain.{#ch18_ak_011}"
-    new "Чтобы разузнать о Сайто и его госпоже Луизе — легендарном фамильяре Тристании."
+    old "To investigate Saito, the legendary familiar of Tristain, and his mistress Louise. {#ch18_ak_011}"
+    new "Чтобы разузнать о Сайто — легендарном фамильяре Тристании — и его госпоже Луизе."
 
     old "O-Us!?{#ch18_s_116}"
     new "О-Нас!?"

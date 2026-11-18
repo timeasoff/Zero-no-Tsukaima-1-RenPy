@@ -48,7 +48,7 @@
     old "W-What the hell!?{#ch12_s_036}"
     new "サイト：な、なんだぁぁぁっ！"
 
-    old "Rushing out to meet Saito without a thought for your own danger, and you two are…?{#ch12_l_033}"
+    old "Rushing out to meet Saito without a thought for my own danger… and what are you two playing at!? {#ch12_l_033}"
     new "ルイズ：自分の危険もかえりみず、サイトを迎えに来てみれば……。"
 
     old "W-What are you two playing at!?{#ch12_l_034}"

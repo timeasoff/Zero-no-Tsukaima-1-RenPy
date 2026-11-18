@@ -58,7 +58,7 @@
     new "…пообещала, что в награду за успех операции ей вернут дворянский титул."
 
     old "Miss Weatherly didn't understand. That spell of hers, the one that beguiles the hearts of others, is forbidden in this country…{#ch12_h_021}"
-    new "Заклинание, что смущает чужие сердца, которым она пользовалась и на тебе тоже, в этой стране запрещено…"
+    new "Мисс Уэзерби не понимала: заклинание, что смущает чужие сердца, которым она пользовалась и на тебе тоже, в этой стране запрещено…"
 
     old "…and that very taboo was why her rank was taken from her.{#ch12_h_022}"
     new "…и именно за это её и лишили титула."

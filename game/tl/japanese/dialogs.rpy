@@ -16590,7 +16590,7 @@ translate japanese strings:
     new "あ、あのー、今の状況で外に出るのは
 危険ですし、散歩は控えた方が……。"
 
-    old "A-and if something happens, Louise will…{#ch6_s_038}"
+    old "A-and if something happens, I'll have to explain to Louise…{#ch6_s_038}"
     new "そ、それに何かあったら、俺がルイズに……。"
 
     old "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"
@@ -17606,7 +17606,7 @@ translate japanese strings:
     old "Yes, that's right.{#ch7_k_006}"
     new "ええ、そうよ。"
 
-    old "I see. So that was the reason I stormed out mid-play faking a fit, too — checking the inside and the surroundings.{#ch7_s_003}"
+    old "I see. So that was the reason you stormed out mid-play faking a fit, too — to check the inside and the surroundings. {#ch7_s_003}"
     new "なるほどな。　途中でキレたふりして出て行ったのも、　内部や周辺を調べるためだったのか。"
 
     old "Exactly. Her Majesty asked me to the moment she arrived, so I did my digging on the side.{#ch7_k_007}"
@@ -18410,7 +18410,7 @@ translate japanese strings:
     old "No — if you consider how this whole affair began, it was because I was still green as a queen.{#ch7.3_h_004}"
     new "いいえ、そもそもの発端を考えれば、　わたくしが女王として未熟だったからです。"
 
-    old "And because of that, I gave the nobles within our realm the opening they needed to sway them.{#ch7.3_h_005}"
+    old "And because of that, I gave them the opening they needed to win over the nobles within our realm. {#ch7.3_h_005}"
     new "そのために、国内の貴族達を籠絡する　隙を与えてしまった。"
 
     old "None of that is something you need to brood over, Princess.{#ch7.3_s_014}"
@@ -18443,7 +18443,7 @@ translate japanese strings:
     old "Princess? I'm coming in.{#ch7.3_s_015}"
     new "お姫さま？　入りますよ？"
 
-    old "Ah… my familiar…{#ch7.3_h_008}"
+    old "Ah… the familiar… {#ch7.3_h_008}"
     new "あ……使い魔さん……。"
 
     old "You're awake after all, I see.{#ch7.3_s_016}"
@@ -18539,7 +18539,7 @@ translate japanese strings:
     old "Princess…{#ch7.3_s_030}"
     new "お姫さま……。"
 
-    old "My familiar…!{#ch7.3_h_025}"
+    old "The familiar…! {#ch7.3_h_025}"
     new "使い魔さん……っ！"
 
     old "P-Princess. If anyone saw me like this, I dread to think what Louise would say…{#ch7.3_s_031}"

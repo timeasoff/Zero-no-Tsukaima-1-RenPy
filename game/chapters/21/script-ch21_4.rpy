@@ -759,7 +759,7 @@ label ch21_4_scene_1508:
     # [SPRITE   lay7     image=+951, level=160, dir=1A]
     # ハルナ：料理対決の事で相談に乗ってもらってたのよ。
     voice "ch21_ha_014"
-    ha "They were asking my advice about the cooking contest. I was thinking of trying a local dish from this world.{#ch21_ha_014}"
+    ha "I was asking her for advice about the cooking contest. I was thinking of trying a local dish from this world. {#ch21_ha_014}"
 
     # サイト：郷土料理か……。  [voice 10027]
     voice "ch21_s_228"
@@ -842,7 +842,7 @@ label ch21_4_scene_1510:
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：そうか……。
     voice "ch21_s_234"
-    s "I see… Kirche will look at Flame differently from now on.{#ch21_s_234}"
+    s "I see… I'll look at Kirche's Flame differently from now on. {#ch21_s_234}"
 
     # [SPRITE   lay3     hide]
     # [SPRITE   lay7     image=+957, level=160, dir=1A]

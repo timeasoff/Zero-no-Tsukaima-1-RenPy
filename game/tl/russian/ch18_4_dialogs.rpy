@@ -333,7 +333,7 @@
     old "Old Osmond has steadfastly refused all of Weatherly's demands.{#ch18_c_045}"
     new "Старик Осман твёрдо отклоняет все требования Уэзерби."
 
-    old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike.{#ch18_c_046}"
+    old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike, whether they resist or not. {#ch18_c_046}"
     new "В ответ, говорят, Уэзерби грозится уничтожить всех — и преподавателей, и учеников, независимо от того, сопротивляются они или нет."
 
     old "Naturally, the means would be Akina's bombs and a barrage from the aerial ships.{#ch18_c_047}"

@@ -131,7 +131,7 @@ label ch12_2_scene_526:
     play music t27 fadein 1.0
     # ルイズ：自分の危険もかえりみず、
     voice "ch12_l_033"
-    l "Rushing out to meet Saito without a thought for your own danger, and you two are…?{#ch12_l_033}"
+    l "Rushing out to meet Saito without a thought for my own danger… and what are you two playing at!? {#ch12_l_033}"
 
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：な、なな、なにをじゃれあってるのかしら？

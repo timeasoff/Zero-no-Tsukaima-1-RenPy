@@ -184,7 +184,7 @@ translate japanese strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "そんなこといったら、俺なんかルイズに / 召喚されて以来、なんだかんだでずっと / この学院のお世話になってるんだけど。"
 
-    old "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
+    old "But you're Louise's familiar, Saito — of course you're taken care of. But I'm not… {#ch9_ha_002}"
     new "平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
@@ -277,7 +277,7 @@ translate japanese strings:
     old "Huh? {#ch9_s_055}"
     new "え？"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    old "Eh… ee-?! P-Princess! A k-k-k-k-k-kiss! Such a thing, no! {#ch9_l_004}"
     new "え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！"
 
     old "And… / on the lips… {#ch9_l_005}"

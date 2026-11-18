@@ -6,7 +6,7 @@
     old "Right. We don't have time to wait for Kirche to recover.{#ch15_l_065}"
     new "ルイズ：そうね。キュルケの回復をのんびり待ってる暇はないもの。"
 
-    old "So it all comes down to you. You'd better protect her properly.{#ch15_l_066}"
+    old "So it all comes down to you. You'd better protect me properly. {#ch15_l_066}"
     new "ルイズ：そうなると、うまくいくかどうかは、あんたにかかってるからね。ちゃんと、守ってね。"
 
     old "Heh, leave it to me. I'm Louise's familiar. I'll guard you until the chanting is done.{#ch15_s_074}"

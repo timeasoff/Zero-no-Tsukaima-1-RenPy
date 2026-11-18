@@ -411,7 +411,7 @@ label ch17_2_scene_691:
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
     # ルイズ：そんなこと、わたしに聞かないでよ。
     voice "ch17_l_050"
-    l "Don't ask me. You were with them the whole time. How would I know?{#ch17_l_050}"
+    l "Don't ask me. You were with Saito the whole time. How would I know? {#ch17_l_050}"
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：い、いやそれは分かってるんだけどさ。

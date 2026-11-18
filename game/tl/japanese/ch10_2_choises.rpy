@@ -16,7 +16,7 @@ translate japanese strings:
     old "It was indeed terribly bad. {#ch10_choice_014}"
     new "確かにひどかった"
 
-    old "She tried her best, didn't she? {#ch10_choice_015}"
+    old "You tried your best, didn't you? {#ch10_choice_015}"
     new "頑張ってはいたよね"
 
     old "I also think it's a good story. {#ch10_choice_016}"

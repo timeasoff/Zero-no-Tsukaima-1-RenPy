@@ -120,8 +120,8 @@
     old "(Punishment, punishment, punishment.){#ch20_s_022}"
     new "Наказание, наказание, наказание."
 
-    old "Hey, what are you muttering about? Hurry up and punish me.{#ch20_l_014}"
-    new "Эй, что ты бормочешь? Быстрее наказывай."
+    old "Hey, what are you muttering about? Hurry up, I'll punish you. {#ch20_l_014}"
+    new "Эй, что ты бормочешь? Давай поскорее накажу тебя."
 
     old "Yeees.{#ch20_s_023}"
     new "Д-дааа."

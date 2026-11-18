@@ -218,7 +218,7 @@
     new "Уэзерби-сан!"
 
     old "I shouldn't have to go to this much trouble.{#ch11_w_024}"
-    new "Не стоило доставлять себе столько хлопот."
+    new "Не стоило доставлять мне столько хлопот."
 
     old "N-No! Please stop!{#ch11_ha_052}"
     new "Н-Нет! Пожалуйста, прекратите!"

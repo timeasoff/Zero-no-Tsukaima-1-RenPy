@@ -169,7 +169,7 @@
     new "Монмон! Как ты узнала, что я здесь?"
 
     old "I saw you enter Mr. Colbert's room just now.{#ch17_m_002}"
-    new "Я видела, как ты входил в комнату Кольбера."
+    new "Я видела, как ты только что входил в комнату Кольбера."
 
     old "I was just told by old Osmond to call you and Louise.{#ch17_m_003}"
     new "Меня просто попросил старик Осман позвать тебя и Луизу."

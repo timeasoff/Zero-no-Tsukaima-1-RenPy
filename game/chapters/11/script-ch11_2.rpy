@@ -74,7 +74,7 @@ label ch11_2:
     # [SPRITE lay5 image=+427, level=160, dir=2A]
     # サイト：どうしてこんなところにじゃないよ！ [voice 13228]
     voice "ch11_s_017"
-    s "That's not why you're in a place like this!{#ch11_s_017}"
+    s "That's not 'why are you here'!{#ch11_s_017}"
     # JA[13228]: サイト：どうしてこんなところにじゃないよ！
     # サイト：春奈が急にいなくなったりするから、 / こっちは大騒ぎだぞ！ [voice 13229]
     voice "ch11_s_018"

@@ -333,7 +333,7 @@
     old "Old Osmond has steadfastly refused all of Weatherly's demands.{#ch18_c_045}"
     new "コルベール：オールド・オスマンはウェザリーのこれらの要求に対して、拒否を貫いている。"
 
-    old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike.{#ch18_c_046}"
+    old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike, whether they resist or not. {#ch18_c_046}"
     new "コルベール：それに対してウェザリーは、学院内での教師・生徒の抵抗の有無に関わらず、すべて消滅させると脅しているそうだ。"
 
     old "Naturally, the means would be Akina's bombs and a barrage from the aerial ships.{#ch18_c_047}"

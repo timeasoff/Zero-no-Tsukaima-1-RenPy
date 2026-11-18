@@ -184,8 +184,8 @@ translate russian strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "Ну, меня же Луиза призвала, / вот и обо мне тут с тех пор всё время заботились."
 
-    old "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
-    new "Сайто — не фамильяр Луизы. / То, что о нём заботятся, — само собой разумеется. / А я — не то…"
+    old "But you're Louise's familiar, Saito — of course you're taken care of. But I'm not… {#ch9_ha_002}"
+    new "Сайто — фамильяр Луизы, да? Вот и заботятся о нём. А я — нет…"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
     new "Ну, это да… / Но мы ведь, наверное, единственные японцы / в этом мире, нас всего двое."
@@ -277,7 +277,7 @@ translate russian strings:
     old "Huh? {#ch9_s_055}"
     new "А?"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    old "Eh… ee-?! P-Princess! A k-k-k-k-k-kiss! Such a thing, no! {#ch9_l_004}"
     new "Э… э-э-э?! / П-п-принцесса целует вас?!"
 
     old "And… / on the lips… {#ch9_l_005}"

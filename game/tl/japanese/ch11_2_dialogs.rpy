@@ -16,7 +16,7 @@
     old "Hiragan-kun! / Why are you in a place like this!?{#ch11_ha_001}"
     new "ハルナ：平賀くん！ / どうしてこんなところに！？"
 
-    old "That's not why you're in a place like this!{#ch11_s_017}"
+    old "That's not 'why are you here'!{#ch11_s_017}"
     new "サイト：どうしてこんなところにじゃないよ！"
 
     old "You suddenly disappear / and everyone's in an uproar!{#ch11_s_018}"

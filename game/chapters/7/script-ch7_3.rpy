@@ -364,7 +364,7 @@ label ch7_3:
     # [lay8 +781 → h 3 sad — PROVISIONAL]
     $ show_sprites(("h 3 sad", "s 4 sad"))
     voice "ch7.3_h_005"
-    h "And because of that, I gave the nobles within our realm the opening they needed to sway them.{#ch7.3_h_005}"
+    h "And because of that, I gave them the opening they needed to win over the nobles within our realm. {#ch7.3_h_005}"
     # JA[849]: そのために、国内の貴族達を籠絡する / 隙を与えてしまった。
     # [lay5 +401 → s 2]
     $ show_sprites(("h 3 sad", "s 2"))
@@ -477,7 +477,7 @@ label ch7_3_s1169:
     $ show_sprites(("h 2 sad",))
     # [MSGON      msgon()] — не портируется
     voice "ch7.3_h_008"
-    h "Ah… my familiar…{#ch7.3_h_008}"
+    h "Ah… the familiar… {#ch7.3_h_008}"
     # JA[412]: あ……使い魔さん……。
     # [lay8 y=0,x=-96]
     # [lay5 +390 → s 1]
@@ -674,7 +674,7 @@ label ch7_3_s1169:
     # [lay8 +792 → h 2 sad — PROVISIONAL]
     $ show_sprites(("h 2 sad", "s 3 sad"))
     voice "ch7.3_h_025"
-    h "My familiar…!{#ch7.3_h_025}"
+    h "The familiar…! {#ch7.3_h_025}"
     # JA[429]: 使い魔さん……っ！
     # [lay5 +396 → s 1 sad]
     $ show_sprites(("h 2 sad", "s 1 sad"))

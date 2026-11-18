@@ -315,7 +315,7 @@
     old "Just a walk, a walk. By the way, what were you two talking about?{#ch21_s_227}"
     new "サイト：散歩だよ、散歩。ところで、２人して何を話していたのさ？"
 
-    old "They were asking my advice about the cooking contest. I was thinking of trying a local dish from this world.{#ch21_ha_014}"
+    old "I was asking her for advice about the cooking contest. I was thinking of trying a local dish from this world. {#ch21_ha_014}"
     new "ハルナ：料理対決の事で相談に乗ってもらってたのよ。この世界の郷土料理を作ってみようかと思って。"
 
     old "Local cuisine, huh…{#ch21_s_228}"
@@ -348,7 +348,7 @@
     old "It's prized among gourmets. Since only a small amount can be harvested, it's traded at a high price.{#ch21_m_014}"
     new "モンモランシー：美食家の間で珍重されてるわ。獲れる量が少ないから、高値で取引されてるようね。"
 
-    old "I see… Kirche will look at Flame differently from now on.{#ch21_s_234}"
+    old "I see… I'll look at Kirche's Flame differently from now on. {#ch21_s_234}"
     new "サイト：そうか……。キュルケんとこのフレイムを見る目が、変わりそうだな。"
 
     old "Hiraga-kun, don't! It's cruel.{#ch21_ha_016}"

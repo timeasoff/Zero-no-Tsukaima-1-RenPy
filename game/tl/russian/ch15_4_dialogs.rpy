@@ -79,7 +79,7 @@
     new "Ой, а кто же эта «стареющая женщина»?"
 
     old "Weatherly-sama, of course.{#ch15_ak_026}"
-    new "Правда, Уэзерби-сама?"
+    new "Имеете в виду Уэзерби-саму, да?"
 
     old "How rude. Age doesn't matter to an actor.{#ch15_w_006}"
     new "Надоело. Для актрисы возраст не важен."
@@ -117,7 +117,7 @@
     old "What is this! Tristain—no, no country in Halkeginia has a fleet like that…!?{#ch15_w_010}"
     new "Что это! Тристания — нет, ни одна страна в Халкегинии не имеет такого флота…!?"
 
-    old "(So that's what Louise wanted. That fleet must be an illusion… something Void created…){#ch15_s_112}"
+    old "(So that's what Louise wanted. That fleet must be an illusion… something Louise created with Void…){#ch15_s_112}"
     new "Так вот что хотела Луиза. Этот флот — иллюзия… то, что Луиза создала силой Пустоты…"
 
     old "Weatherly-sama, our fleet is retreating!{#ch15_ak_028}"

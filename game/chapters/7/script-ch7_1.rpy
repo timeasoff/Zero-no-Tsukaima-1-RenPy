@@ -165,7 +165,7 @@ label ch7:
     # [lay5 +390 → s 1]
     $ show_sprites(("s 1", "k 1"))
     voice "ch7_s_003"
-    s "I see. So that was the reason I stormed out mid-play faking a fit, too — checking the inside and the surroundings.{#ch7_s_003}"
+    s "I see. So that was the reason you stormed out mid-play faking a fit, too — to check the inside and the surroundings. {#ch7_s_003}"
     # JA[13483]: なるほどな。 / 途中でキレたふりして出て行ったのも、 / 内部や周辺を調べるためだったのか。
     # [lay6 +678 → k 1 happy]
     $ show_sprites(("s 1", "k 1 happy"))

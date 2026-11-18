@@ -139,7 +139,7 @@
     new "Упускаем что?"
 
     old "The Princess was just playing around, right? I wanted to spend time with Louise for once.{#ch14_s_027}"
-    new "Принцесса просто развлекалась, да? Я хотел немного побыть с Луизой."
+    new "Я хотел бы хоть иногда побыть с Луизой."
 
     old "That joke isn't funny.{#ch14_k_016}"
     new "Эта шутка не смешная."

@@ -168,7 +168,7 @@
     old "What's happening to the academy?{#ch17_s_065}"
     new "サイト：学院はどうなってるんだろう？"
 
-    old "Don't ask me. You were with them the whole time. How would I know?{#ch17_l_050}"
+    old "Don't ask me. You were with Saito the whole time. How would I know? {#ch17_l_050}"
     new "ルイズ：そんなこと、わたしに聞かないでよ。ずっとサイトと一緒に行動してたのに、分かるはずないでしょ。"
 
     old "N-No, I know that. I just… can't stop worrying.{#ch17_s_066}"

@@ -730,7 +730,7 @@ label ch18_4_scene_733:
     # [SPRITE   lay9     image=+933, level=160, dir=1A]
     # コルベール：それに対してウェザリーは、
     voice "ch18_c_046"
-    c "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike.{#ch18_c_046}"
+    c "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike, whether they resist or not. {#ch18_c_046}"
 
     # コルベール：無論その手段はアキナくんの爆弾と、
     voice "ch18_c_047"
