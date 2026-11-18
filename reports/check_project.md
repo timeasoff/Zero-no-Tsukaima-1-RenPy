@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (1216)
+## WARNING (1218)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -150,6 +150,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:424: Wing
 - W1 stale old in tl/japanese at game/tl/japanese/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:608: Zero reaction, huh... Now's not the time to back down.
+- W1 stale old in tl/japanese at game/tl/japanese/ch26_4_choises.rpy:3: [[ch26_4 has no choices]]
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:74: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:146: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:152: {size=+14}The translation is not yet complete.{/size}
@@ -295,6 +296,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:426: Wing
 - W1 stale old in tl/russian at game/tl/russian/options.rpy:19: You can leave your thanks {a=https://t.me/timeasoff_support}here{/a} ☕
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:603: Zero reaction, huh... Now's not the time to back down.
+- W1 stale old in tl/russian at game/tl/russian/ch26_4_choises.rpy:3: [[ch26_4 has no choices]]
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:65: {#file_time}%A, %d %B %Y, %H:%M
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:148: {size=+14}Congratulations!!!{/size}
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:154: {size=+14}The translation is not yet complete.{/size}
@@ -1241,5 +1243,5 @@
 - I1 ch18: strings=548 source_talk=589 (gap expected)
 - I1 ch20: strings=162 source_talk=162
 - image map: ids=313 named=148 open=165 | placeholders=2384 in 93 file(s)
-- labels=1443 rpy=165 strings(strict=17562) tl_old=japanese:18057,russian:18084
+- labels=1443 rpy=165 strings(strict=17562) tl_old=japanese:18058,russian:18085
 

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Saito-san…{#ch22_si_001}"
     new "Сайто-сан…"

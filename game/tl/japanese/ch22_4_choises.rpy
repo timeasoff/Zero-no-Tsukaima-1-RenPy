@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "It's tasty, right?{#ch22_4_c_839_1}"
     new "うまいだろ？"

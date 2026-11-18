@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Have Siesta try it{#ch22_2_c_819_1}"
     new "シエスタも飲んでみなよ"

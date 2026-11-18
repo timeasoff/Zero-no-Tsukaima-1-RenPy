@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Well then, now that everyone's recovered. Let's move on to the next tasting.{#ch22_c_010}"
     new "Ну что ж, теперь, когда все пришли в себя. Переходим к следующему блюду."

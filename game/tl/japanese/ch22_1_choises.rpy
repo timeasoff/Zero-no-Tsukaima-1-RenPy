@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Wake her up as usual{#ch22_1_c_806_1}"
     new "いつものように起こすか"

@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "A while has passed since cooking began, but everyone's serious. Let me go take a look.{#ch22_s_035}"
     new "サイト：調理が始まってしばらく経ったけど、みんな真剣だな。ちょっと、どんなもんか見にいってみるか。"

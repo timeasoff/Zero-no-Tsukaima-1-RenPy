@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "A while has passed since cooking began, but everyone's serious. Let me go take a look.{#ch22_s_035}"
     new "Прошло немало времени с начала готовки, но все серьёзно. Схожу посмотрю."

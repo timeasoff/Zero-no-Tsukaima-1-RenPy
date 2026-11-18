@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Wake her up as usual{#ch22_1_c_806_1}"
     new "Разбудить как обычно"

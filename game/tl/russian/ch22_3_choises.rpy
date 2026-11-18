@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Try the wriggling vegetables{#ch22_3_c_824_1}"
     new "Попробовать шевелящиеся овощи"
