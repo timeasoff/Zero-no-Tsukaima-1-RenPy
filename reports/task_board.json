@@ -1434,6 +1434,35 @@
         }
       ],
       "closed": "2026-11-18 13:31:23"
+    },
+    {
+      "id": "T20261118-135157-b36f",
+      "created": "2026-11-18 13:51:57",
+      "request": "Промпт 06: довести голосовую часть гл.22 ч.5, гл.23-28 и chapter_90/91 — ID по [voice N], speaker, CSV, конвертация",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Voice audit + CSV marking + converter check/convert",
+          "status": "done",
+          "created": "2026-11-18 13:52:12",
+          "started": null,
+          "finished": "2026-11-18 13:52:12",
+          "session": null,
+          "note": "9/9 ordered match, 3866 ogg, 77 NO AUDIO, 3851 CSV rows marked; converter OK",
+          "evidence": [
+            "reports/voice_workflow_ch22_to_end.md",
+            "reports/voice_audit.md"
+          ],
+          "manual": "Voice audit + CSV marking + converter check/convert"
+        }
+      ],
+      "closed": "2026-11-18 13:52:13"
     }
   ]
 }
