@@ -256,7 +256,7 @@ translate japanese strings:
     new "サイト：ル、ルイズ横暴ぅぅっ！"
 
     old "………。……。…。{#sp90_s1545_014}"
-    new "null：………。……。…。[EVENT_CG event    image=+170, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+170, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Damn, why does this have to happen to me……{#sp90_s1545_015}"
     new "サイト：ちくしょう、なんで俺がこんな目に……。"
@@ -1729,7 +1729,7 @@ translate japanese strings:
     new "サイト：や、やっぱりやめろ～～っ！"
 
     old "Dodoooon!{#sp90_s1616_013}"
-    new "null：ドドォォーン！[LAYER    white    image=+2, level=0][TRANS trans("crossfade", 0)][LAYER    white    hide]"
+    new "null：ドドォォーン！[LAYER    white    image=+2, level=0][TRANS trans(\"crossfade\", 0)][LAYER    white    hide]"
 
     old "G-Gwaaaaah!!{#sp90_s1616_014}"
     new "サイト：ぐ、ぐわぁぁぁーーっっ！"
@@ -1909,7 +1909,7 @@ translate japanese strings:
     new "ルイズ：き、きゃーーっ！サイトぉぉっ！"
 
     old "………。……。…。{#sp90_s1624_035}"
-    new "null：………。……。…。[BG       stage    image=+88, level=200][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[BG       stage    image=+88, level=200][TRANS trans(\"crossfade\", 1000)]"
 
     old "…H-Hey, you still alive, partner?{#sp90_s1624_036}"
     new "デルフリンガー：……い、生きてるか相棒？"
@@ -1996,7 +1996,7 @@ translate japanese strings:
     new "ルイズ：ご主人様のありがたみというものを一度しっかり噛みしめてみることねっ！"
 
     old "………。……。…。{#sp90_s1632_005}"
-    new "null：………。……。…。[EVENT_CG event    image=+170, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+170, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Ugh… damn it…{#sp90_s1632_006}"
     new "サイト：ううっ、ちくしょう……。"
@@ -2146,7 +2146,7 @@ translate japanese strings:
     new "キュルケ：ほらほら、ね。いいじゃない？いっしょに暖かいことしよう。"
 
     old "(U-Ugh…… I want to just let myself be swept away……){#sp90_s1639_007}"
-    new "サイト：（う、ううっ、このまま流されたい……）[SE       se0      play=+57][SPRITE   lay5     hide][SPRITE   lay6     hide][EVENT_CG event    hide][EVENT_CG event    image=+171, level=80][TRANS trans("crossfade", 1000)]"
+    new "サイト：（う、ううっ、このまま流されたい……）[SE       se0      play=+57][SPRITE   lay5     hide][SPRITE   lay6     hide][EVENT_CG event    hide][EVENT_CG event    image=+171, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Refuse her properly!! You stupid dog!{#sp90_s1639_008}"
     new "ルイズ：ちゃんと断りなさい！！バカ犬っ！"
@@ -2221,7 +2221,7 @@ translate japanese strings:
     new "サイト：（……はぁ、日本に帰りたい）→ next scene 1644"
 
     old "………。……。…。{#sp90_s1644_004}"
-    new "null：………。……。…。[EVENT_CG event    image=+170, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+170, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Damn, I could go for some cup noodles.{#sp90_s1644_005}"
     new "サイト：ちくしょう、カップ麺食いたいなぁ。"
@@ -2620,7 +2620,7 @@ translate japanese strings:
     new "ルイズ：ええと……その……。"
 
     old "…………{#sp90_s1668_007}"
-    new "null：………………[SPRITE   lay3     image=+858, level=160, dir=1A][SPRITE   lay1     image=+308, level=160, dir=1A][TRANS trans("crossfade", 0)][LAYER    white    hide]"
+    new "null：………………[SPRITE   lay3     image=+858, level=160, dir=1A][SPRITE   lay1     image=+308, level=160, dir=1A][TRANS trans(\"crossfade\", 0)][LAYER    white    hide]"
 
     old "A girl's feelings… you know.{#sp90_s1668_008}"
     new "モンモランシー：女の子の気持ちを……ねえ。"

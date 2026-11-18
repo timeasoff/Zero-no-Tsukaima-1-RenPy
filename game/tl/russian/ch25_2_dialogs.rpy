@@ -16,7 +16,7 @@ translate russian strings:
     new "Неужто… меня бросили?"
 
     old "No, wait, wait. I should think more positively about this.{#ch25_s_069}"
-    new "Нет, погоди. Надо думать позитивнее."
+    new "Нет, погоди. Надо бы думать позитивнее, да?"
 
     old "Right, positively… Hmm… A 'neglect play'?{#ch25_s_070}"
     new "Так, позитивнее… Хм… «Игра в пренебрежение»?"
@@ -109,7 +109,7 @@ translate russian strings:
     new "Любовь…"
 
     old "No, I'm sure you're misunderstanding. Twisted affection is a very difficult thing!{#ch25_s_087}"
-    new "Нет, думаю, ты не так поняла, но извращённая любовь — очень сложная вещь!"
+    new "Нет, ты точно не так поняла, но извращённая любовь — очень сложная вещь!"
 
     old "For one thing, it only works if there's a relationship of trust between the one doing it and the one receiving it.{#ch25_s_088}"
     new "Во-первых, она работает только если между тем, кто её проявляет, и тем, кто её получает, есть доверие."
@@ -118,7 +118,7 @@ translate russian strings:
     new "Доверие."
 
     old "You mustn't admire it! Normal people hate it!{#ch25_s_089}"
-    new "Ты не должна ей восхищаться! Обычные люди её ненавидят!"
+    new "Ты не должна ей восхищаться! Обычные люди сторонятся её!"
 
     old "Mm.{#ch25_t_035}"
     new "Мм."
@@ -277,7 +277,7 @@ translate russian strings:
     new "…"
 
     old "At this rate, we won't be able to leave this place. So, might as well…{#ch25_s_107}"
-    new "Так мы отсюда не уйдём. Так что, ладно…"
+    new "Так мы отсюда не уйдём. Так что, раз уже так — уже лучше просто…"
 
     old "Saitooo!!{#ch25_l_036}"
     new "Сайтооо!!"

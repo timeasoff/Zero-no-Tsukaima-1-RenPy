@@ -250,11 +250,11 @@ label ch27_2_scene_986:
     s "Hmm…{#ch27_s_079}"
 
     menu:
-        "Leave it to Tabitha{#ch27_2_c_986_1}":
+        "I guess Louise, after all…{#ch27_2_c_986_1}":
             jump ch27_2_scene_987
-        "Worried about after{#ch27_2_c_986_2}":
+        "I guess Tabitha, after all…{#ch27_2_c_986_2}":
             jump ch27_2_scene_988
-        "Worried about everyone{#ch27_2_c_986_3}":
+        "Sorry, Kirche, you decide first{#ch27_2_c_986_3}":
             jump ch27_2_scene_989
 
 label ch27_2_scene_987:

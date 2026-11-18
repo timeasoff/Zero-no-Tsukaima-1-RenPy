@@ -1,7 +1,7 @@
 translate russian strings:
 
     old "Partner, you're looking pretty lonely there, aren't you?{#ch22_d_001}"
-    new "Приятель, у тебя довольно одинокий вид, да?"
+    new "Партнёр, у тебя довольно одинокий вид, да?"
 
     old "Ah, you can tell?{#ch22_s_171}"
     new "Ах, ты видишь?"

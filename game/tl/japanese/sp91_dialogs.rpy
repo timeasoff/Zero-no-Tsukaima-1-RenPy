@@ -124,7 +124,7 @@ translate japanese strings:
     new "サイト：……い、いいえ。お付き合いしますです。"
 
     old "…{#sp91_s1706_012}"
-    new "null：………。……。…。[EVENT_CG event    image=+185, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+185, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "(Hah. In the end, Luise stuck to me all day.){#sp91_s1706_013}"
     new "サイト：（……はぁ。結局、ルイズは一日べったりだったし）"
@@ -151,7 +151,7 @@ translate japanese strings:
     new "サイト：そ、そりゃいいけど。"
 
     old "…{#sp91_s1707_009}"
-    new "null：………。……。…。[EVENT_CG event    image=+185, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+185, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "H-hey. Luise.{#sp91_s1707_010}"
     new "サイト：な、なあ。ルイズ。"
@@ -211,7 +211,7 @@ translate japanese strings:
     new "サイト：……へっ？……え、ええっ！？"
 
     old "…{#sp91_s1709_008}"
-    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Come on, I'll wash you. Turn your back to me, quickly!{#sp91_s1709_009}"
     new "ルイズ：さぁ、洗ってあげるわよ。早く背中向けなさい！"
@@ -1240,7 +1240,7 @@ translate japanese strings:
     new "サイト：（……へ、平常心！平常心！）[SPRITE   lay1     hide][SPRITE   lay5     hide][BG       stage    hide]"
 
     old "…{#sp91_s1769_010}"
-    new "null：………。……。…。[EVENT_CG event    image=+185, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+185, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "…Mumble mumble…{#sp91_s1769_011}"
     new "サイト：……むにゃむにゃ……。"
@@ -1273,7 +1273,7 @@ translate japanese strings:
     new "ルイズ：……んっ、んんんっ？"
 
     old "(T-Trouble!){#sp91_s1770_009}"
-    new "サイト：（ま、まずい！）[SPRITE   lay1     hide][SPRITE   lay5     hide][BG       stage    hide][EVENT_CG event    image=+185, level=80][TRANS trans("crossfade", 1000)]"
+    new "サイト：（ま、まずい！）[SPRITE   lay1     hide][SPRITE   lay5     hide][BG       stage    hide][EVENT_CG event    image=+185, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Mm… Saito…?{#sp91_s1770_010}"
     new "ルイズ：んっ……サイト……？"
@@ -1405,7 +1405,7 @@ translate japanese strings:
     new "サイト：（でも、自分の腕の中に女の子の重さがあるのって……悪くないよな）[SPRITE   lay5     hide][BG       stage    hide]"
 
     old "……… …… …{#sp91_s1776_021}"
-    new "null：………。……。…。[BG       stage    image=+90, level=200][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[BG       stage    image=+90, level=200][TRANS trans(\"crossfade\", 1000)]"
 
     old "……Su-su.{#sp91_s1776_022}"
     new "ルイズ：……スゥスゥ。"
@@ -1717,7 +1717,7 @@ translate japanese strings:
     new "ルイズ：飼い主がバカ犬を洗ってあげるのに、なんの不思議があるっていうのよっ！変なこと考えちゃダメなんだからね！"
 
     old "……… …… …{#sp91_s1792_008}"
-    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "…Honestly, what a needlessly broad back.{#sp91_s1792_009}"
     new "ルイズ：……ま、まったく、無駄に広い背中ね。"
@@ -2092,7 +2092,7 @@ translate japanese strings:
     new "サイト：ちょ、ちょっと待って～～っ！"
 
     old "(The one who got me dirty is Louise, right?) ………。……。…。 (Hah, how did it come to this?) (So what's with that school swimsuit, anyway!){#sp91_s1808_013}"
-    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "(The one who got me dirty is Louise, right?) ………。……。…。 (Hah, how did it come to this?) (So what's with that school swimsuit, anyway!){#sp91_s1808_014}"
     new "サイト：（はあ、なんでこんなことに？）"
@@ -2215,7 +2215,7 @@ translate japanese strings:
     new "サイト：そ、それはそっちだろう！"
 
     old "………。……。…。{#sp91_s1812_005}"
-    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：………。……。…。[EVENT_CG event    image=+187, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "…There, all done!{#sp91_s1812_006}"
     new "ルイズ：……はいっ、おしまいっ！"
@@ -2854,7 +2854,7 @@ translate japanese strings:
     new "ルイズ：ひゃっ、ひゃほふっ！"
 
     old "────Snap.{#sp91_s1841_005}"
-    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "H-Hey! What were you thinking, doing that out of nowhere?! You made me jump!{#sp91_s1841_006}"
     new "ルイズ：も、もうっ！いきなり何するのよっ！びっくりするじゃないっ！"
@@ -2872,7 +2872,7 @@ translate japanese strings:
     new "サイト：へっ？"
 
     old "────Snap.{#sp91_s1842_006}"
-    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "No way! It's over already!? G-Give me back my pounding heart!{#sp91_s1842_007}"
     new "サイト：（そんなっ！もうおしまいっ！？お、俺のドキドキを返せぇっ！）"
@@ -2893,7 +2893,7 @@ translate japanese strings:
     new "ルイズ：ひゃっ！"
 
     old "────Snap.{#sp91_s1843_006}"
-    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "Ow ow…{#sp91_s1843_007}"
     new "サイト：いたたた……。"
@@ -2986,7 +2986,7 @@ translate japanese strings:
     new "ルイズ：……サイトぉ？"
 
     old "────Snap.{#sp91_s1849_005}"
-    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "…Huh? E-Eep! U-Um… I-I'm sorry!{#sp91_s1849_006}"
     new "ルイズ：……って。き、きゃあっ！え、ええと。ご、ごめんなさいっ！"
@@ -2998,7 +2998,7 @@ translate japanese strings:
     new "サイト：（こ、このポッチーを食べきったら……、その先にはルイズの……。ど、どうしよう！）[VIBRATE vibrate(1)]"
 
     old "────Snap.{#sp91_s1850_003}"
-    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "K-Kyaaaaah!!{#sp91_s1850_004}"
     new "ルイズ：きっ、きゃあああぁぁっっ！！"
@@ -3022,7 +3022,7 @@ translate japanese strings:
     new "ルイズ：……サ、サイトっ！"
 
     old "────Snap.{#sp91_s1851_006}"
-    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "null：────ポッキン。[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "K-Kyaaaaah!!{#sp91_s1851_007}"
     new "ルイズ：きっ、きゃあああぁぁっっ！！"
@@ -3178,7 +3178,7 @@ translate japanese strings:
     new "サイト：（……くっ、とまっちまった！）"
 
     old "(Here, finish the rest in one go!){#sp91_s1858_005}"
-    new "サイト：（ここは残りを一息にっ！）[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "サイト：（ここは残りを一息にっ！）[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "…N-No! I can't take it anymore! I can't hold back!{#sp91_s1858_006}"
     new "ルイズ：……ダ、ダメっ！もう限界っ！耐えられないっ！"
@@ -3196,7 +3196,7 @@ translate japanese strings:
     new "サイト：ご、ごめん。これならどうだ？"
 
     old "(Pulling back would be rude, I guess… Let me lean in a little…){#sp91_s1859_005}"
-    new "サイト：（さすがに、引いたらそりゃ失礼か……。少し前に出てみよう……）[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans("crossfade", 1000)]"
+    new "サイト：（さすがに、引いたらそりゃ失礼か……。少し前に出てみよう……）[SPRITE   lay1     hide][SPRITE   lay5     hide][EVENT_CG event    hide][EVENT_CG event    image=+214, level=80][TRANS trans(\"crossfade\", 1000)]"
 
     old "K-Kyaaaaah!! Too close—!{#sp91_s1859_006}"
     new "ルイズ：きっ、きゃあああぁぁっっ！！近すぎー！"

@@ -1,11 +1,11 @@
 translate russian strings:
 
-    old "Leave it to Tabitha{#ch27_2_c_986_1}"
-    new "Поручить Табите"
+    old "I guess Louise, after all…{#ch27_2_c_986_1}"
+    new "Наверное, всё-таки Луиза…"
 
-    old "Worried about after{#ch27_2_c_986_2}"
-    new "Беспокоит будущее"
+    old "I guess Tabitha, after all…{#ch27_2_c_986_2}"
+    new "Наверное, всё-таки Табита…"
 
-    old "Worried about everyone{#ch27_2_c_986_3}"
-    new "Беспокоит всех"
+    old "Sorry, Kirche, you decide first{#ch27_2_c_986_3}"
+    new "Прости, Кирхе, решай первой"
 

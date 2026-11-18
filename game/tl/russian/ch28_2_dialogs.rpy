@@ -31,7 +31,7 @@ translate russian strings:
     new "Труппу? Ты имеешь в виду труппу Уэзерби?"
 
     old "No. Someone from another troupe who saw that play liked me and scouted me.{#ch28_ha_005}"
-    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, меня и завербовал."
+    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, проникся ко мне симпатией и завербовал."
 
     old "Now's a good chance, so I've decided to join that troupe.{#ch28_ha_006}"
     new "Сейчас как раз удобный случай, и я решила присоединиться к этой труппе."
@@ -169,7 +169,7 @@ translate russian strings:
     new "Чтобы я поговорил… Да разве сидеть рядом — это проблема?"
 
     old "It is! It makes me irritable—so it's bad!{#ch28_l_024}"
-    new "Это проблема! Мне становится не по себе — значит, плохо!"
+    new "Это проблема! Меня это просто злит — значит, плохо!"
 
     old "You're being silly, Louise. That's called jealousy, you know?{#ch28_k_015}"
     new "Ты глупишь, Луиза. Это называется ревность, да?"
@@ -178,7 +178,7 @@ translate russian strings:
     new "Это не ревность… Я просто раздражена…"
 
     old "Honestly… Um, Tabitha-san? My mistress is rather upset, so if possible…{#ch28_s_099}"
-    new "Право… Э-Э, Табита-сан? Моя госпожа довольно сердится, так что, если возможно…"
+    new "Право… Э-Э, Табита-сан? Моя госпожа очень рассержена, так что, если возможно…"
 
     old "No.{#ch28_t_042}"
     new "Нет."

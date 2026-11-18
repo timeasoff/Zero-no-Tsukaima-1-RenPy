@@ -22,7 +22,7 @@ translate russian strings:
     new "Иными словами… сейчас Луиза будит меня…!?"
 
     old "(A grand punishment awaits!? Bad!){#ch23_s_005}"
-    new "Грандиозное наказание не за горами!? Плохо!"
+    new "Грандиозное наказание не за горами!? Ой, нехорошо!"
 
     old "S-Sorry, Louise! I apologize for oversleeping, so please, just this once, let it go!!{#ch23_s_006}"
     new "П-Прости, Луиза! Прошу прощения, что проспал, но, пожалуйста, только на этот раз прости!"
@@ -298,7 +298,7 @@ translate russian strings:
     new "Нет."
 
     old "This morning I was so distracted by the castle incident that I didn't notice—Haruna wasn't in her room, was she?{#ch23_l_016}"
-    new "Утром я так отвлеклась из-за беспокойства в замке, что не заметила — Харуны не было в комнате, да?"
+    new "Утром я так отвлеклась из-за переполоха в замке, что не заметила — Харуны не было в комнате, да?"
 
     old "Eh, seriously?{#ch23_s_048}"
     new "А, правда?"
