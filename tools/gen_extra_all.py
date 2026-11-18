@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+"""Port all scenes of chapter_90/91 to a single extra file.
+
+Translations are read from reports/extra/trans_<90|91>.json keyed by:
+  "d<voice_id>"            -> [EN, RU]   (for voiced dialogue, unique per PS2 voice id)
+  "s<scene>_<ord>"         -> [EN, RU]   (for dialogue with no voice)
+  "c<scene>_<target>"      -> [EN, RU]   (for choice labels)
+
+Usage: python tools/gen_extra_all.py <chapter_90|chapter_91> <prefix>
+"""
+import json
+import re
+import sys
+
+sys.path.insert(0, 'tools')
+from gen_ch12_1 import event, en_norm
+
+PARSE = {'chapter_90': 'reports/extra/parse_90.json', 'chapter_91': 'reports/extra/parse_91.json'}
+# scenes already ported into separate sp_*.rpy files -> skip them and route jumps there
+PORTED = {'chapter_91': {1700, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732}, 'chapter_90': set()}
+PORTED_PREFIX = {1700: 'sp_d1', 1725: 'sp_d1', 1726: 'sp_d1', 1727: 'sp_d1',
+                 1728: 'sp_d1', 1729: 'sp_d1', 1730: 'sp_d1', 1731: 'sp_d1', 1732: 'sp_d1'}
+TRANS = {'chapter_90': 'reports/extra/trans_90.json', 'chapter_91': 'reports/extra/trans_91.json'}
+OUT = {'chapter_90': 'sp90', 'chapter_91': 'sp91'}
+
+
+def main():
+    chapter = sys.argv[1]
+    prefix = OUT[chapter]
+    data = json.load(open(PARSE[chapter], encoding='utf-8'))
+    trans = json.load(open(TRANS[chapter], encoding='utf-8'))
+    lines = ['# Extra event chapter (%s), all scenes.' % chapter,
+             '# Источник: ps2_source/chapters/%s.txt' % chapter, '']
+    ja_d, ru_d, ja_c, ru_c = [], [], [], []
+    manifest = []
+    missing = []
+    for si, s in enumerate(data['scenes']):
+        if s['no'] in PORTED.get(chapter, set()):
+            continue
+        lines.append('label %s_scene_%d:' % (prefix, s['no']))
+        lines.append('')
+        ordn = 0
+        for it in s['items']:
+            k = it['kind']
+            if k == 'event':
+                event(it['src'], lines)
+            elif k == 'dlg':
+                key = ('d%d' % it['voice']) if it['voice'] is not None else 's%d_%d' % (s['no'], ordn)
+                pair = trans.get(key)
+                if pair is None:
+                    missing.append(key)
+                    lines.append('    # MISSING %s: %s' % (key, it['ja'][:50].replace('\n', ' ')))
+                    ordn += 1
+                    continue
+                en, ru = en_norm(pair[0]), pair[1]
+                tag = '%s_%03d' % (prefix, si)  # tag per scene, not per dlg (tags unique anyway)
+                tag = '%s_s%d_%03d' % (prefix, s['no'], ordn)
+                full = '%s{#%s}' % (en, tag)
+                lines.append('    # ' + it['ja'][:55].replace('\n', ' '))
+                if it['voice'] is not None:
+                    lines.append('    voice "%s"' % tag)
+                    manifest.append((tag, it['voice']))
+                spk = 'th' if it['thought'] else {'サイト': 's', 'ルイズ': 'l', 'キュルケ': 'k',
+                       'シエスタ': 'si', 'タバサ': 't', 'アンリエッタ': 'h', 'ハルナ': 'ha',
+                       'コルベール': 'c', ' null': 'th'}.get(it['speaker'], 'th')
+                lines.append('    %s "%s"' % (spk, full))
+                ja_new = it['ja'] if it['thought'] else '%s：%s' % (it['speaker'], it['ja'])
+                ja_d += ['    old "%s"' % full, '    new "%s"' % ja_new, '']
+                ru_d += ['    old "%s"' % full, '    new "%s"' % ru, '']
+                lines.append('')
+                ordn += 1
+            elif k == 'choice':
+                key = 'c%d_%d' % (s['no'], it['target'])
+                pair = trans.get(key)
+                if pair is None:
+                    missing.append(key)
+                    lines.append('    # MISSING CHOICE ' + key)
+                    continue
+                en, ru = en_norm(pair[0]), pair[1]
+                ctext = '%s{#%s_c_%d_%d}' % (en, prefix, s['no'], it['target'])
+                lines.append('        "%s":' % ctext)
+                lines.append('            jump %s_scene_%d' % (prefix, it['target']))
+                ja_c += ['    old "%s"' % ctext, '    new "%s"' % it['text'], '']
+                ru_c += ['    old "%s"' % ctext, '    new "%s"' % ru, '']
+            elif k == 'goto':
+                t = it['target']
+                lines.append('    # → next scene %d' % t)
+                lines.append('    jump %s_scene_%d' % (prefix, t) if any(x['no'] == t for x in data['scenes']) else '    jump attention')
+                lines.append('')
+            elif k == 'like':
+                lines.append('    # 【好感度】%s %d' % (it['speaker'], it['value']))
+    files = {
+        'game/chapters/extra/%s.rpy' % prefix: '\n'.join(lines) + '\n',
+        'game/tl/japanese/%s_dialogs.rpy' % prefix: '\n'.join(['translate japanese strings:', ''] + ja_d) + '\n',
+        'game/tl/russian/%s_dialogs.rpy' % prefix: '\n'.join(['translate russian strings:', ''] + ru_d) + '\n',
+        'game/tl/japanese/%s_choises.rpy' % prefix: '\n'.join(['translate japanese strings:', ''] + ja_c) + '\n',
+        'game/tl/russian/%s_choises.rpy' % prefix: '\n'.join(['translate russian strings:', ''] + ru_c) + '\n',
+    }
+    for p, body in files.items():
+        open(p, 'w', encoding='utf-8').write(body)
+        print('wrote', p, len(body))
+    with open('reports/extra/voice_map_%s.csv' % prefix, 'w', encoding='utf-8') as f:
+        f.write('voice_name,voice_id\n')
+        for v, i in manifest:
+            f.write('%s,%d\n' % (v, i))
+    print('voices', len(manifest), 'missing', len(missing), missing[:15])
+
+
+if __name__ == '__main__':
+    main()
