@@ -33,6 +33,7 @@ def main():
              'label %s:' % prefix, '    $ tndl(None)', '    $ show_sprites()', '']
     ja_d, ru_d = [], []
     manifest = []
+    in_menu = False
     idx = 0
     for s in scenes:
         lines.append('label %s_scene_%d:' % (prefix, s['no']))
@@ -69,13 +70,21 @@ def main():
                 if en is None:
                     lines.append('    # CHOICE NO TRANSLATION: ' + it['text'])
                     continue
+                if not in_menu:
+                    lines.append('')
+                    lines.append('    menu:')
+                    in_menu = True
                 ctext = '%s{#%s_c_%d_%d}' % (en_norm(en), prefix, s['no'], it['target'])
                 lines.append('        "%s":' % ctext)
                 lines.append('            jump %s_scene_%d' % (prefix, it['target']))
                 ja_c = None
                 ja_d += ['    old "%s"' % ctext, '    new "%s"' % it['text'], '']
                 ru_d += ['    old "%s"' % ctext, '    new "%s"' % ru, '']
-            elif k == 'goto':
+                continue
+            if in_menu:
+                in_menu = False
+                lines.append('')
+            if k == 'goto':
                 lines.append('    # → next scene %d' % it['target'])
                 lines.append('    jump %s_scene_%d' % (prefix, it['target']))
                 lines.append('')

@@ -5405,3 +5405,9 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 ### Уточнение по медиа (очередная перепроверка)
 
 - `game/images` отсутствует как junction в этом worktree; изображения проверены напрямую во внешнем архиве `ZnT1_MEDIA/images`: `bg/overlay.webp`, `bg/town.webp`, `bg/town_square.webp` на месте; `white` — `image white = "#fff"` в `sf_effect.rpy`. Ранее формулировка «файлы на месте» в отчёте была неточной — уточнено. Junction не создавался.
+
+### Критическое исправление при очередной перепроверке — sp_d1
+
+- Обнаружено: `game/chapters/extra/sp_d1.rpy` имел 6 пунктов выбора **без оператора `menu:`** (та же ошибка, что ранее была в sp90/sp91). `check_project.py` и `check_renpy_syntax.py` это не ловили; нашла прямая структурная проверка `menu`-блоков.
+- **FIXED**: `tools/gen_extra.py` теперь открывает `menu:` перед первой опцией и закрывает перед следующей репликой; `sp_d1.rpy` перегенерирован — 2 корректных `menu`-блока, 0 choice вне menu.
+- Сверка всех 27 `.rpy` целевой зоны: 0 choice вне menu. `check_project.py` OK, `check_renpy_syntax.py` OK.

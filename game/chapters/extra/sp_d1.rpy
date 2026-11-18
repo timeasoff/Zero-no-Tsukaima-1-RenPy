@@ -28,6 +28,8 @@ label sp_d1_scene_1700:
     voice "sp_d1_d_003"
     s "H-Hey. Don't drag me!{#sp_d1_d_003}"
 
+
+    menu:
         "All right, fine.{#sp_d1_c_1700_1725}":
             jump sp_d1_scene_1725
         "I'll accompany you, mistress.{#sp_d1_c_1700_1726}":
@@ -38,6 +40,7 @@ label sp_d1_scene_1725:
 
     # [BGM      bgm      play=+4]
     play music t3 fadein 1.0
+
     # [EVENT_CG event    image=+214, level=80]
     $ dissolve_fx("id(214)")
     # 分かったよ、仕方ないな。
@@ -240,6 +243,8 @@ label sp_d1_scene_1728:
     voice "sp_d1_d_042"
     s "N-No, it's not that I don't want… it's just…{#sp_d1_d_042}"
 
+
+    menu:
         "Because it's embarrassing!{#sp_d1_c_1728_1729}":
             jump sp_d1_scene_1729
         "No, I don't want to!{#sp_d1_c_1728_1730}":
@@ -250,6 +255,7 @@ label sp_d1_scene_1729:
 
     # [BGM      bgm      play=+4]
     play music t3 fadein 1.0
+
     # [EVENT_CG event    image=+179, level=80]
     $ dissolve_fx("id(179)")
     # だって恥ずかしいじゃん。
