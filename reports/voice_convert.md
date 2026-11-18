@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-11-18 03:34`
+Запуск: `2026-11-18 03:41`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 10599 |
-| уже есть .ogg | 10483 |
-| к конвертации | 116 |
-| сконвертировано сейчас | 116 |
+| voice-строк в сценарии | 10739 |
+| уже есть .ogg | 10599 |
+| к конвертации | 140 |
+| сконвертировано сейчас | 140 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,122 +19,146 @@
 
 ## Сконвертировано
 
-- `ch21_g_007.ogg`
-- `ch21_g_008.ogg`
-- `ch21_g_009.ogg`
-- `ch21_ha_003.ogg`
-- `ch21_ha_004.ogg`
-- `ch21_ha_005.ogg`
-- `ch21_ha_006.ogg`
-- `ch21_ha_007.ogg`
-- `ch21_ha_008.ogg`
-- `ch21_ha_009.ogg`
-- `ch21_ha_010.ogg`
-- `ch21_k_007.ogg`
-- `ch21_k_008.ogg`
-- `ch21_k_009.ogg`
-- `ch21_k_010.ogg`
-- `ch21_k_011.ogg`
-- `ch21_k_012.ogg`
-- `ch21_k_013.ogg`
-- `ch21_k_014.ogg`
-- `ch21_k_015.ogg`
-- `ch21_k_016.ogg`
-- `ch21_k_017.ogg`
-- `ch21_k_018.ogg`
-- `ch21_k_019.ogg`
-- `ch21_k_020.ogg`
-- `ch21_k_021.ogg`
-- `ch21_k_022.ogg`
-- `ch21_k_023.ogg`
-- `ch21_k_024.ogg`
-- `ch21_k_025.ogg`
-- `ch21_k_026.ogg`
-- `ch21_l_034.ogg`
-- `ch21_l_035.ogg`
-- `ch21_l_036.ogg`
-- `ch21_l_037.ogg`
-- `ch21_l_038.ogg`
-- `ch21_l_039.ogg`
-- `ch21_l_040.ogg`
-- `ch21_l_041.ogg`
-- `ch21_l_042.ogg`
-- `ch21_l_043.ogg`
-- `ch21_l_044.ogg`
-- `ch21_l_045.ogg`
-- `ch21_l_046.ogg`
-- `ch21_l_047.ogg`
-- `ch21_l_048.ogg`
-- `ch21_l_049.ogg`
-- `ch21_l_050.ogg`
-- `ch21_l_051.ogg`
-- `ch21_l_052.ogg`
-- `ch21_l_053.ogg`
-- `ch21_l_054.ogg`
-- `ch21_l_055.ogg`
-- `ch21_m_008.ogg`
-- `ch21_m_009.ogg`
-- `ch21_m_010.ogg`
-- `ch21_s_056.ogg`
-- `ch21_s_057.ogg`
-- `ch21_s_058.ogg`
-- `ch21_s_059.ogg`
-- `ch21_s_060.ogg`
-- `ch21_s_061.ogg`
-- `ch21_s_062.ogg`
-- `ch21_s_063.ogg`
-- `ch21_s_064.ogg`
-- `ch21_s_065.ogg`
-- `ch21_s_066.ogg`
-- `ch21_s_067.ogg`
-- `ch21_s_068.ogg`
-- `ch21_s_069.ogg`
-- `ch21_s_070.ogg`
-- `ch21_s_071.ogg`
-- `ch21_s_072.ogg`
-- `ch21_s_073.ogg`
-- `ch21_s_074.ogg`
-- `ch21_s_075.ogg`
-- `ch21_s_076.ogg`
-- `ch21_s_077.ogg`
-- `ch21_s_078.ogg`
-- `ch21_s_079.ogg`
-- `ch21_s_081.ogg`
-- `ch21_s_082.ogg`
-- `ch21_s_083.ogg`
-- `ch21_s_084.ogg`
-- `ch21_s_085.ogg`
-- `ch21_s_086.ogg`
-- `ch21_s_087.ogg`
-- `ch21_s_088.ogg`
-- `ch21_s_089.ogg`
-- `ch21_s_090.ogg`
-- `ch21_s_091.ogg`
-- `ch21_s_092.ogg`
-- `ch21_s_093.ogg`
-- `ch21_s_094.ogg`
-- `ch21_s_095.ogg`
-- `ch21_s_096.ogg`
-- `ch21_si_037.ogg`
-- `ch21_si_038.ogg`
-- `ch21_si_039.ogg`
-- `ch21_si_040.ogg`
-- `ch21_si_041.ogg`
-- `ch21_si_042.ogg`
-- `ch21_si_043.ogg`
-- `ch21_si_044.ogg`
-- `ch21_si_045.ogg`
-- `ch21_si_046.ogg`
-- `ch21_si_047.ogg`
-- `ch21_si_048.ogg`
-- `ch21_si_049.ogg`
-- `ch21_si_050.ogg`
-- `ch21_t_004.ogg`
-- `ch21_t_005.ogg`
-- `ch21_t_006.ogg`
-- `ch21_t_007.ogg`
-- `ch21_t_008.ogg`
-- `ch21_t_009.ogg`
+- `ch21_d_001.ogg`
+- `ch21_d_002.ogg`
+- `ch21_d_003.ogg`
+- `ch21_d_004.ogg`
+- `ch21_d_005.ogg`
+- `ch21_d_006.ogg`
+- `ch21_d_007.ogg`
+- `ch21_d_008.ogg`
+- `ch21_d_009.ogg`
+- `ch21_d_010.ogg`
+- `ch21_d_011.ogg`
+- `ch21_d_012.ogg`
+- `ch21_d_013.ogg`
+- `ch21_d_014.ogg`
+- `ch21_d_015.ogg`
+- `ch21_d_016.ogg`
+- `ch21_d_017.ogg`
+- `ch21_d_018.ogg`
+- `ch21_ha_011.ogg`
+- `ch21_ha_012.ogg`
+- `ch21_ha_013.ogg`
+- `ch21_k_027.ogg`
+- `ch21_k_028.ogg`
+- `ch21_l_056.ogg`
+- `ch21_l_057.ogg`
+- `ch21_l_058.ogg`
+- `ch21_l_059.ogg`
+- `ch21_l_060.ogg`
+- `ch21_l_061.ogg`
+- `ch21_l_062.ogg`
+- `ch21_l_063.ogg`
+- `ch21_s_097.ogg`
+- `ch21_s_098.ogg`
+- `ch21_s_099.ogg`
+- `ch21_s_100.ogg`
+- `ch21_s_101.ogg`
+- `ch21_s_102.ogg`
+- `ch21_s_103.ogg`
+- `ch21_s_104.ogg`
+- `ch21_s_105.ogg`
+- `ch21_s_106.ogg`
+- `ch21_s_107.ogg`
+- `ch21_s_108.ogg`
+- `ch21_s_109.ogg`
+- `ch21_s_110.ogg`
+- `ch21_s_111.ogg`
+- `ch21_s_112.ogg`
+- `ch21_s_113.ogg`
+- `ch21_s_114.ogg`
+- `ch21_s_115.ogg`
+- `ch21_s_116.ogg`
+- `ch21_s_117.ogg`
+- `ch21_s_118.ogg`
+- `ch21_s_119.ogg`
+- `ch21_s_120.ogg`
+- `ch21_s_122.ogg`
+- `ch21_s_123.ogg`
+- `ch21_s_124.ogg`
+- `ch21_s_125.ogg`
+- `ch21_s_126.ogg`
+- `ch21_s_127.ogg`
+- `ch21_s_128.ogg`
+- `ch21_s_129.ogg`
+- `ch21_s_130.ogg`
+- `ch21_s_131.ogg`
+- `ch21_s_132.ogg`
+- `ch21_s_133.ogg`
+- `ch21_s_134.ogg`
+- `ch21_s_135.ogg`
+- `ch21_s_136.ogg`
+- `ch21_s_137.ogg`
+- `ch21_s_138.ogg`
+- `ch21_s_139.ogg`
+- `ch21_s_140.ogg`
+- `ch21_s_141.ogg`
+- `ch21_s_142.ogg`
+- `ch21_s_143.ogg`
+- `ch21_s_144.ogg`
+- `ch21_s_145.ogg`
+- `ch21_s_146.ogg`
+- `ch21_s_147.ogg`
+- `ch21_s_148.ogg`
+- `ch21_s_149.ogg`
+- `ch21_s_150.ogg`
+- `ch21_s_151.ogg`
+- `ch21_s_152.ogg`
+- `ch21_s_153.ogg`
+- `ch21_s_154.ogg`
+- `ch21_s_155.ogg`
+- `ch21_s_156.ogg`
+- `ch21_s_157.ogg`
+- `ch21_s_158.ogg`
+- `ch21_s_159.ogg`
+- `ch21_s_160.ogg`
+- `ch21_s_161.ogg`
+- `ch21_s_162.ogg`
+- `ch21_s_163.ogg`
+- `ch21_s_164.ogg`
+- `ch21_s_165.ogg`
+- `ch21_s_166.ogg`
+- `ch21_s_167.ogg`
+- `ch21_si_051.ogg`
+- `ch21_si_052.ogg`
+- `ch21_si_053.ogg`
+- `ch21_si_054.ogg`
+- `ch21_si_055.ogg`
+- `ch21_si_056.ogg`
+- `ch21_si_057.ogg`
+- `ch21_si_058.ogg`
+- `ch21_si_059.ogg`
+- `ch21_si_060.ogg`
+- `ch21_si_061.ogg`
+- `ch21_si_062.ogg`
+- `ch21_si_063.ogg`
+- `ch21_si_064.ogg`
+- `ch21_si_065.ogg`
+- `ch21_si_066.ogg`
+- `ch21_si_067.ogg`
+- `ch21_si_068.ogg`
+- `ch21_si_069.ogg`
+- `ch21_si_070.ogg`
+- `ch21_si_071.ogg`
+- `ch21_si_072.ogg`
+- `ch21_si_073.ogg`
+- `ch21_si_074.ogg`
+- `ch21_si_075.ogg`
+- `ch21_si_076.ogg`
+- `ch21_si_077.ogg`
+- `ch21_si_078.ogg`
+- `ch21_si_079.ogg`
+- `ch21_si_080.ogg`
+- `ch21_si_081.ogg`
+- `ch21_si_082.ogg`
+- `ch21_si_083.ogg`
+- `ch21_si_084.ogg`
+- `ch21_si_085.ogg`
+- `ch21_si_086.ogg`
+- `ch21_si_087.ogg`
+- `ch21_si_088.ogg`
+- `ch21_si_089.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 
