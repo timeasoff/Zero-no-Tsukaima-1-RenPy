@@ -5375,3 +5375,17 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Остальные 69 PROPOSED — решение человека; синонимическая ротация не применялась.
 * Проверки: check_renpy_syntax OK; check_project RESULT: OK. JA/old/теги не тронуты.
   Сводка: qa_ch2-5_final.md.
+
+### 2026-11-19 — Инженерный аудит Ren'Py/структуры/TL, гл. 2–5 (T20261118-230652-39be)
+
+* 38/38 частей, 4687 единиц, 72 finding (1 ERROR, 39 WARNING, 32 CANDIDATE;
+  44 PRESERVED, 20 PROPOSED, 7 FALSE_POSITIVE). Точные CLI везде OK; ручная сверка
+  flow/label/menu/overlay-K/FX/симпатии/TL — в порядке.
+* Исправлен collision `old "Eh, is that so?"` (ch1_7 vs ch3_2): EN ch3_2:437 получил
+  уникальный тег `{#ch3_2_s_155}`, заведена новая JA-пара `えっ、そうなの？` (voice 5932)
+  + RU `Э, правда?`; ch1-пара не тронута. JA канон не редактировался.
+* Обновлён производный routes.md: line 554 (−10@louise убран), 627 (текст ch3_5_173),
+  680 (симпатия ch4_1_220/222). Finding 698–700 — FALSE_POSITIVE (меню ч4_6 по 1 опции).
+* Остальное (комментарии-шапки, FX ч5_9, MISMATCH_JA в JA-TL) — PROPOSED/JA read-only,
+  решение человека. Проверки: check_renpy_syntax OK; check_project RESULT: OK.
+  Сводка: qa_ch2-5_final.md.

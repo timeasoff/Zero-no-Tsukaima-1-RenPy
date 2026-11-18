@@ -1683,6 +1683,9 @@ translate japanese strings:
     old "Eh, is that so?"
     new "え、そうなのか?"
 
+    old "Eh, is that so?{#ch3_2_s_155}"
+    new "えっ、そうなの？"
+
     old "I suppose this girl would find Louise's room much more to her liking than mine, right?"
     new "あたしの部屋より、ルイズの部屋の方がこの娘も喜ぶわよねえ?"
 

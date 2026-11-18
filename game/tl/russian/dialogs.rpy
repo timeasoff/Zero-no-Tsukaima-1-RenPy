@@ -1691,6 +1691,9 @@ translate russian strings:
     old "Eh, is that so?"
     new "Э, неужели?"
 
+    old "Eh, is that so?{#ch3_2_s_155}"
+    new "Э, правда?"
+
     old "I suppose this girl would find Louise's room much more to her liking than mine, right?"
     new "Полагаю, этой девушке будет куда приятнее в комнате Луизы, чем в моей, верно?"
 

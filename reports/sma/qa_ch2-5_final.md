@@ -142,3 +142,29 @@ FALSE_POSITIVE), а автоматическая массовая замена n
 
 Проверки: check_renpy_syntax OK, check_project RESULT: OK (errors=0).
 JA `new`, `old`-ключи, теги и порядок пар не тронуты.
+
+## Инженерный аудит Ren'Py/структуры/TL (отдельный проход, T20261118-230652-39be)
+
+38/38 частей, 4687 единиц, 72 finding (1 ERROR / 39 WARNING / 32 CANDIDATE;
+44 PRESERVED / 20 PROPOSED / 7 FALSE_POSITIVE). Все агенты запускали точные CLI
+(check_project, check_renpy_syntax, check_placeholders) — везде RESULT: OK/OK;
+E1–E10/W1–W6 проектны, ID_UNNAMED — легальные id(K)-заглушки (AGENTS §6).
+Ручная сверка подтвердила цепочки jump/label, меню/ветвления, уникальные overlay-K,
+сигнатуры FX/API, симпатию/tndl по канону и полное покрытие old/new ( JA+RU) во всех
+частях. Перегенерация отчётов CLI — побочный эффект точных прогонов.
+
+Применённые технические исправления:
+1. **Collision `old` (ERROR)** — `old "Eh, is that so?"` использовался в ch1_7
+   (JA `え、そうなのか?`) и ch3_2 (JA `えっ、そうなの？` voice 5932). Ren'Py применял
+   один JA-перевод к обоим. EN-строка ch3_2:437 сделана уникальной через скрытый тег
+   `{#ch3_2_s_155}`, заведена новая JA-пара `えっ、そうなの？` + RU `Э, правда?`;
+   ch1-пара не изменена.
+2. **Производный `references/routes.md`** — 3 расхождения с кодом/каноном исправлены:
+   line 554 (убрано лишнее `-10@louise` в l_room_ch2_2), line 627 (текст варианта
+   ch3_5_173 → «I'm worried about you…»), line 680 (симпатия для ch4_1_220/222
+   по `sympathy_canon.csv`). Finding menю дат ch4_6 (698–700) — FALSE_POSITIVE,
+   код реально содержит по 1 опции, справочник верен.
+
+Остальные PROPOSED/CANDIDATE (устаревшие комментарии-шапки, FX-события пьесы ch5_9,
+MISMATCH_JA в JA-TL) — решение человека / JA read-only, не применялись.
+Финальные проверки после правок: check_renpy_syntax ch2–5 OK; check_project RESULT: OK (errors=0).

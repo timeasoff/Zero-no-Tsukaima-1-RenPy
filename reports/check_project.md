@@ -11,17 +11,17 @@
 ## WARNING (311)
 
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_3_thoughs.rpy:23: (虚無のことは誰にも言えないからな……) {#ch8_3_thought_4}
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1962: ......。
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:1965: ......。
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:354: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:348: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:337: Accuracy
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:155: Advance dialogue and activate interface.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:161: Advance dialogue without making choices.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:334: Agility
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2091: Ah well, it's fine.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2094: Ah well, it's fine.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:433: Air Force
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:427: Air Needle
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2109: Alright, I'm heading out.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:2112: Alright, I'm heading out.
 - W1 stale old in tl/japanese at game/tl/japanese/thoughs.rpy:593: As always, I can never quite follow what the lesson is about.
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:328: Attack Power
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:371: Attacks a single enemy
@@ -73,7 +73,7 @@
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:476: Herb
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:402: Heroism
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:200: Hide user interface.
-- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12456: Hmph, I don't need you to worry about it.
+- W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:12459: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/japanese at game/tl/japanese/dialogs.rpy:660: How did you know!?
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:379: Increases accuracy of 1 ally
 - W1 stale old in tl/japanese at game/tl/japanese/screens.rpy:391: Increases attack power of 1 ally
@@ -148,17 +148,17 @@
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:155: {size=+14}You can actively participate in the translation!{/size}
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:158: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/japanese at game/tl/japanese/overlays.rpy:149: {size=+14}You've reached the end of the available content!{/size}
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1970: ......。
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:1973: ......。
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:355: A Japanese boy who was summoned to this world by Louise.\nHe is treate
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:349: A maid working at Tristain Academy of Magic.\nSince she is a commoner,
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:337: Accuracy
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:146: Advance dialogue and activate interface.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:152: Advance dialogue without making choices.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:334: Agility
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2087: Ah well, it's fine.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2090: Ah well, it's fine.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:435: Air Force
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:429: Air Needle
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2147: Alright, I'm heading out.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:2150: Alright, I'm heading out.
 - W1 stale old in tl/russian at game/tl/russian/thoughs.rpy:588: As always, I can never quite follow what the lesson is about.
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:328: Attack Power
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:373: Attacks a single enemy
@@ -210,7 +210,7 @@
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:478: Herb
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:401: Heroism
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:191: Hide user interface.
-- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12462: Hmph, I don't need you to worry about it.
+- W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:12465: Hmph, I don't need you to worry about it.
 - W1 stale old in tl/russian at game/tl/russian/dialogs.rpy:662: How did you know!?
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:381: Increases accuracy of 1 ally
 - W1 stale old in tl/russian at game/tl/russian/screens.rpy:387: Increases attack power of 1 ally
@@ -348,5 +348,5 @@
 - I1 ch27: not started (source talk=346)
 - I1 ch28: not started (source talk=206)
 - image map: ids=313 named=148 open=165 | placeholders=668 in 29 file(s)
-- labels=397 rpy=95 strings(strict=7920) tl_old=japanese:8427,russian:8454
+- labels=397 rpy=95 strings(strict=7921) tl_old=japanese:8428,russian:8455
 
