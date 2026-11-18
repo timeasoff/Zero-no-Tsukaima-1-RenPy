@@ -110,11 +110,12 @@
 | S6 | [x] done | `manual` | `-` | Гейты date() перед дат-меню в ch2_6, ch3_8, ch4_6, ch5_10 по образцу ch1_10.rpy: if zero_tundele >= 211 -> zero_tndl_no = tndl_pick(zero_dele_event); слот 0 -> call sp_l1 с уникальным from + свой выход (fade/stop music -> продолжение после дат-меню этой главы), иначе fallthrough в portrait_choice; ветки <40 - fallthrough. Определить выход каждого гейта по структуре файла (что идёт после portrait_choice). Обязательно записать в reports/translation_plan.md планом следующую реализацию: порт extra-глав (chapter_90 тундэре-блок, дэре-слоты 1..5 chapter_91) |
 | S7 | [x] done | `manual` | `-` | Финал: строка TNDL в references/ps2_to_renpy.csv; обновить references/routes.md (статус tndl и гейтов в гл.2-5); reports/log.md (все решения цикла, ch6 tndl deferred - чужой WIP, date-гейты как решено); reports/translation_plan.md (маркировка затронутых частей + обязательный план extra-глав 90/91); отчёт reports/tndl_port_fix.md; check_renpy_syntax.py + check_project.py -> OK по моим файлам; git commit порции БЕЗ чужого WIP (game/chapters/6/*, game/tl/russian/thoughs.rpy) |
 
-## T20261109-160518-31b1 — [open] (закрыто 6 из 6)
+## T20261109-160518-31b1 — [closed] (закрыто 6 из 6)
 
 * Запрос: Продолжить перевод: глава 7 (chapter_08_失望のお姫様) — порт с нуля, части ch7_1..ch7_3
 * Цель: `7`
 * Создана: 2026-11-09 16:05:18
+* Закрыта: 2026-11-09 20:36:38
 
 | # | статус | режим | цель | заголовок |
 |---|---|---|---|---|
@@ -124,4 +125,368 @@
 | S4 | [x] done | `voice-work` | `7` | Голоса главы 7: манифест, ogg, transcriptions |
 | S5 | [x] done | `full-audit` | `7` | Аудит главы 7: precheck + A + C + analyzer |
 | S6 | [x] done | `manual` | `7` | Финальные проверки и отчётность главы 7 |
+
+## T20261109-203833-d2b6 — [closed] (закрыто 6 из 6)
+
+* Запрос: Продолжить перевод: глава 8 (chapter_09_決意のお姫様) — порт с нуля, части ch8_1..ch8_4
+* Цель: `8`
+* Создана: 2026-11-09 20:38:33
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `port-part` | `8_1` | Часть 1 ch8_1: структура, резка, порт, EN/RU, tl, голоса |
+| S2 | [x] done | `voice-work` | `8` | Голоса главы 8: сквозная верификация, ogg, transcriptions |
+| S3 | [x] done | `port-part` | `8_3` | Часть 3 (или 3+4) ch8_3: финал главы, выход jump ch9 или jump attention PROVISIONAL |
+| S4 | [x] done | `full-audit` | `8` | Аудит главы 8: precheck + A + C + analyzer |
+| S5 | [x] done | `port-part` | `8_2` | Часть 2 ch8_2 |
+| S6 | [x] done | `manual` | `8` | Финальные проверки и отчётность главы 8 |
+
+## T20261117-NEW-001 — [closed] (закрыто 4 из 4)
+
+* Запрос: Продолжить перевод: глава 9 (chapter_10_魅惑のお姫様) — порт с нуля, части ch9_1
+* Цель: `9`
+* Создана: 2026-11-17 17:00:00
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `port-part` | `9_1` | Часть 1 ch9_1: структура, резка, порт, EN/RU, tl, голоса |
+| S2 | [x] done | `manual` | `9_1` | Голоса ch9_1: манифест + ogg конвертация |
+| S3 | [x] done | `manual` | `9` | Аудит главы 9: precheck + A + C + analyzer |
+| S4 | [x] done | `check_project.py до RESULT: OK; отчёты reports/ch9/*.md; обновить reports/translation_plan.md и reports/log.md` | `9` | Финальные проверки и отчётность главы 9 |
+
+## T20261118-073145-091b — [closed] (закрыто 38 из 38)
+
+* Запрос: Independent semantic audit A (lexical accuracy) JA->EN and JA->RU, project chapters 2-5, all existing parts; per-part evidence in reports/sma/chN/part/a/<run_id>.md
+* Цель: `2`
+* Создана: 2026-11-18 07:31:45
+* Закрыта: 2026-11-18 16:50:12
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `semantic-audit-a` | `2_1` | A audit 2_1 |
+| S2 | [x] done | `semantic-audit-a` | `2_2` | A audit 2_2 |
+| S3 | [x] done | `semantic-audit-a` | `2_3` | A audit 2_3 |
+| S4 | [x] done | `semantic-audit-a` | `2_4` | A audit 2_4 |
+| S5 | [x] done | `semantic-audit-a` | `2_4b` | A audit 2_4b |
+| S6 | [x] done | `semantic-audit-a` | `2_4c` | A audit 2_4c |
+| S7 | [x] done | `semantic-audit-a` | `2_5` | A audit 2_5 |
+| S8 | [x] done | `semantic-audit-a` | `2_5b` | A audit 2_5b |
+| S9 | [x] done | `semantic-audit-a` | `2_6` | A audit 2_6 |
+| S10 | [x] done | `semantic-audit-a` | `2_7` | A audit 2_7 |
+| S11 | [x] done | `semantic-audit-a` | `2_8` | A audit 2_8 |
+| S12 | [x] done | `semantic-audit-a` | `3_1` | A audit 3_1 |
+| S13 | [x] done | `semantic-audit-a` | `3_2` | A audit 3_2 |
+| S14 | [x] done | `semantic-audit-a` | `3_3` | A audit 3_3 |
+| S15 | [x] done | `semantic-audit-a` | `3_4` | A audit 3_4 |
+| S16 | [x] done | `semantic-audit-a` | `3_5` | A audit 3_5 |
+| S17 | [x] done | `semantic-audit-a` | `3_6` | A audit 3_6 |
+| S18 | [x] done | `semantic-audit-a` | `3_7` | A audit 3_7 |
+| S19 | [x] done | `semantic-audit-a` | `3_8` | A audit 3_8 |
+| S20 | [x] done | `semantic-audit-a` | `3_9` | A audit 3_9 |
+| S21 | [x] done | `semantic-audit-a` | `4_1` | A audit 4_1 |
+| S22 | [x] done | `semantic-audit-a` | `4_2` | A audit 4_2 |
+| S23 | [x] done | `semantic-audit-a` | `4_2b` | A audit 4_2b |
+| S24 | [x] done | `semantic-audit-a` | `4_3` | A audit 4_3 |
+| S25 | [x] done | `semantic-audit-a` | `4_4` | A audit 4_4 |
+| S26 | [x] done | `semantic-audit-a` | `4_5` | A audit 4_5 |
+| S27 | [x] done | `semantic-audit-a` | `4_6` | A audit 4_6 |
+| S28 | [x] done | `semantic-audit-a` | `5_1` | A audit 5_1 |
+| S29 | [x] done | `semantic-audit-a` | `5_2` | A audit 5_2 |
+| S30 | [x] done | `semantic-audit-a` | `5_3` | A audit 5_3 |
+| S31 | [x] done | `semantic-audit-a` | `5_4` | A audit 5_4 |
+| S32 | [x] done | `semantic-audit-a` | `5_5` | A audit 5_5 |
+| S33 | [x] done | `semantic-audit-a` | `5_6` | A audit 5_6 |
+| S34 | [x] done | `semantic-audit-a` | `5_7` | A audit 5_7 |
+| S35 | [x] done | `semantic-audit-a` | `5_8` | A audit 5_8 |
+| S36 | [x] done | `semantic-audit-a` | `5_9` | A audit 5_9 |
+| S37 | [x] done | `semantic-audit-a` | `5_10` | A audit 5_10 |
+| S38 | [x] done | `semantic-audit-a` | `5_11` | A audit 5_11 |
+
+## T20261118-074934-d6e9 — [closed] (закрыто 38 из 38)
+
+* Запрос: Independent semantic audit B-equivalent (context/actors/logic) JA->EN and JA->RU, project chapters 2-5, all existing parts
+* Цель: `2`
+* Создана: 2026-11-18 07:49:34
+* Закрыта: 2026-11-18 16:50:13
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | B audit 2_1 |
+| S2 | [x] done | `manual` | `2_2` | B audit 2_2 |
+| S3 | [x] done | `manual` | `2_3` | B audit 2_3 |
+| S4 | [x] done | `manual` | `2_4` | B audit 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | B audit 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | B audit 2_4c |
+| S7 | [x] done | `manual` | `2_5` | B audit 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | B audit 2_5b |
+| S9 | [x] done | `manual` | `2_6` | B audit 2_6 |
+| S10 | [x] done | `manual` | `2_7` | B audit 2_7 |
+| S11 | [x] done | `manual` | `2_8` | B audit 2_8 |
+| S12 | [x] done | `manual` | `3_1` | B audit 3_1 |
+| S13 | [x] done | `manual` | `3_2` | B audit 3_2 |
+| S14 | [x] done | `manual` | `3_3` | B audit 3_3 |
+| S15 | [x] done | `manual` | `3_4` | B audit 3_4 |
+| S16 | [x] done | `manual` | `3_5` | B audit 3_5 |
+| S17 | [x] done | `manual` | `3_6` | B audit 3_6 |
+| S18 | [x] done | `manual` | `3_7` | B audit 3_7 |
+| S19 | [x] done | `manual` | `3_8` | B audit 3_8 |
+| S20 | [x] done | `manual` | `3_9` | B audit 3_9 |
+| S21 | [x] done | `manual` | `4_1` | B audit 4_1 |
+| S22 | [x] done | `manual` | `4_2` | B audit 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | B audit 4_2b |
+| S24 | [x] done | `manual` | `4_3` | B audit 4_3 |
+| S25 | [x] done | `manual` | `4_4` | B audit 4_4 |
+| S26 | [x] done | `manual` | `4_5` | B audit 4_5 |
+| S27 | [x] done | `manual` | `4_6` | B audit 4_6 |
+| S28 | [x] done | `manual` | `5_1` | B audit 5_1 |
+| S29 | [x] done | `manual` | `5_2` | B audit 5_2 |
+| S30 | [x] done | `manual` | `5_3` | B audit 5_3 |
+| S31 | [x] done | `manual` | `5_4` | B audit 5_4 |
+| S32 | [x] done | `manual` | `5_5` | B audit 5_5 |
+| S33 | [x] done | `manual` | `5_6` | B audit 5_6 |
+| S34 | [x] done | `manual` | `5_7` | B audit 5_7 |
+| S35 | [x] done | `manual` | `5_8` | B audit 5_8 |
+| S36 | [x] done | `manual` | `5_9` | B audit 5_9 |
+| S37 | [x] done | `manual` | `5_10` | B audit 5_10 |
+| S38 | [x] done | `manual` | `5_11` | B audit 5_11 |
+
+## T20261118-080327-6453 — [closed] (закрыто 38 из 38)
+
+* Запрос: Independent pragmatic audit C (speech acts/undertext) JA->EN and JA->RU, project chapters 2-5, all existing parts
+* Цель: `2`
+* Создана: 2026-11-18 08:03:27
+* Закрыта: 2026-11-18 16:50:13
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | C audit 2_1 |
+| S2 | [x] done | `manual` | `2_2` | C audit 2_2 |
+| S3 | [x] done | `manual` | `2_3` | C audit 2_3 |
+| S4 | [x] done | `manual` | `2_4` | C audit 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | C audit 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | C audit 2_4c |
+| S7 | [x] done | `manual` | `2_5` | C audit 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | C audit 2_5b |
+| S9 | [x] done | `manual` | `2_6` | C audit 2_6 |
+| S10 | [x] done | `manual` | `2_7` | C audit 2_7 |
+| S11 | [x] done | `manual` | `2_8` | C audit 2_8 |
+| S12 | [x] done | `manual` | `3_1` | C audit 3_1 |
+| S13 | [x] done | `manual` | `3_2` | C audit 3_2 |
+| S14 | [x] done | `manual` | `3_3` | C audit 3_3 |
+| S15 | [x] done | `manual` | `3_4` | C audit 3_4 |
+| S16 | [x] done | `manual` | `3_5` | C audit 3_5 |
+| S17 | [x] done | `manual` | `3_6` | C audit 3_6 |
+| S18 | [x] done | `manual` | `3_7` | C audit 3_7 |
+| S19 | [x] done | `manual` | `3_8` | C audit 3_8 |
+| S20 | [x] done | `manual` | `3_9` | C audit 3_9 |
+| S21 | [x] done | `manual` | `4_1` | C audit 4_1 |
+| S22 | [x] done | `manual` | `4_2` | C audit 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | C audit 4_2b |
+| S24 | [x] done | `manual` | `4_3` | C audit 4_3 |
+| S25 | [x] done | `manual` | `4_4` | C audit 4_4 |
+| S26 | [x] done | `manual` | `4_5` | C audit 4_5 |
+| S27 | [x] done | `manual` | `4_6` | C audit 4_6 |
+| S28 | [x] done | `manual` | `5_1` | C audit 5_1 |
+| S29 | [x] done | `manual` | `5_2` | C audit 5_2 |
+| S30 | [x] done | `manual` | `5_3` | C audit 5_3 |
+| S31 | [x] done | `manual` | `5_4` | C audit 5_4 |
+| S32 | [x] done | `manual` | `5_5` | C audit 5_5 |
+| S33 | [x] done | `manual` | `5_6` | C audit 5_6 |
+| S34 | [x] done | `manual` | `5_7` | C audit 5_7 |
+| S35 | [x] done | `manual` | `5_8` | C audit 5_8 |
+| S36 | [x] done | `manual` | `5_9` | C audit 5_9 |
+| S37 | [x] done | `manual` | `5_10` | C audit 5_10 |
+| S38 | [x] done | `manual` | `5_11` | C audit 5_11 |
+
+## T20261118-110119-9c69 — [closed] (закрыто 38 из 38)
+
+* Запрос: Blind Semantic Analyzer Phase 1 JA->EN and JA->RU for all ch2-5 parts
+* Цель: `2`
+* Создана: 2026-11-18 11:01:19
+* Закрыта: 2026-11-18 16:50:13
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | P1 blind 2_1 |
+| S2 | [x] done | `manual` | `2_2` | P1 blind 2_2 |
+| S3 | [x] done | `manual` | `2_3` | P1 blind 2_3 |
+| S4 | [x] done | `manual` | `2_4` | P1 blind 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | P1 blind 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | P1 blind 2_4c |
+| S7 | [x] done | `manual` | `2_5` | P1 blind 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | P1 blind 2_5b |
+| S9 | [x] done | `manual` | `2_6` | P1 blind 2_6 |
+| S10 | [x] done | `manual` | `2_7` | P1 blind 2_7 |
+| S11 | [x] done | `manual` | `2_8` | P1 blind 2_8 |
+| S12 | [x] done | `manual` | `3_1` | P1 blind 3_1 |
+| S13 | [x] done | `manual` | `3_2` | P1 blind 3_2 |
+| S14 | [x] done | `manual` | `3_3` | P1 blind 3_3 |
+| S15 | [x] done | `manual` | `3_4` | P1 blind 3_4 |
+| S16 | [x] done | `manual` | `3_5` | P1 blind 3_5 |
+| S17 | [x] done | `manual` | `3_6` | P1 blind 3_6 |
+| S18 | [x] done | `manual` | `3_7` | P1 blind 3_7 |
+| S19 | [x] done | `manual` | `3_8` | P1 blind 3_8 |
+| S20 | [x] done | `manual` | `3_9` | P1 blind 3_9 |
+| S21 | [x] done | `manual` | `4_1` | P1 blind 4_1 |
+| S22 | [x] done | `manual` | `4_2` | P1 blind 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | P1 blind 4_2b |
+| S24 | [x] done | `manual` | `4_3` | P1 blind 4_3 |
+| S25 | [x] done | `manual` | `4_4` | P1 blind 4_4 |
+| S26 | [x] done | `manual` | `4_5` | P1 blind 4_5 |
+| S27 | [x] done | `manual` | `4_6` | P1 blind 4_6 |
+| S28 | [x] done | `manual` | `5_1` | P1 blind 5_1 |
+| S29 | [x] done | `manual` | `5_2` | P1 blind 5_2 |
+| S30 | [x] done | `manual` | `5_3` | P1 blind 5_3 |
+| S31 | [x] done | `manual` | `5_4` | P1 blind 5_4 |
+| S32 | [x] done | `manual` | `5_5` | P1 blind 5_5 |
+| S33 | [x] done | `manual` | `5_6` | P1 blind 5_6 |
+| S34 | [x] done | `manual` | `5_7` | P1 blind 5_7 |
+| S35 | [x] done | `manual` | `5_8` | P1 blind 5_8 |
+| S36 | [x] done | `manual` | `5_9` | P1 blind 5_9 |
+| S37 | [x] done | `manual` | `5_10` | P1 blind 5_10 |
+| S38 | [x] done | `manual` | `5_11` | P1 blind 5_11 |
+
+## T20261118-122739-cb78 — [closed] (закрыто 38 из 38)
+
+* Запрос: Analyzer Phase 2 evidence review A+B+C+blind P1 for all ch2-5 parts
+* Цель: `2`
+* Создана: 2026-11-18 12:27:39
+* Закрыта: 2026-11-18 16:50:13
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | P2 review 2_1 |
+| S2 | [x] done | `manual` | `2_2` | P2 review 2_2 |
+| S3 | [x] done | `manual` | `2_3` | P2 review 2_3 |
+| S4 | [x] done | `manual` | `2_4` | P2 review 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | P2 review 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | P2 review 2_4c |
+| S7 | [x] done | `manual` | `2_5` | P2 review 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | P2 review 2_5b |
+| S9 | [x] done | `manual` | `2_6` | P2 review 2_6 |
+| S10 | [x] done | `manual` | `2_7` | P2 review 2_7 |
+| S11 | [x] done | `manual` | `2_8` | P2 review 2_8 |
+| S12 | [x] done | `manual` | `3_1` | P2 review 3_1 |
+| S13 | [x] done | `manual` | `3_2` | P2 review 3_2 |
+| S14 | [x] done | `manual` | `3_3` | P2 review 3_3 |
+| S15 | [x] done | `manual` | `3_4` | P2 review 3_4 |
+| S16 | [x] done | `manual` | `3_5` | P2 review 3_5 |
+| S17 | [x] done | `manual` | `3_6` | P2 review 3_6 |
+| S18 | [x] done | `manual` | `3_7` | P2 review 3_7 |
+| S19 | [x] done | `manual` | `3_8` | P2 review 3_8 |
+| S20 | [x] done | `manual` | `3_9` | P2 review 3_9 |
+| S21 | [x] done | `manual` | `4_1` | P2 review 4_1 |
+| S22 | [x] done | `manual` | `4_2` | P2 review 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | P2 review 4_2b |
+| S24 | [x] done | `manual` | `4_3` | P2 review 4_3 |
+| S25 | [x] done | `manual` | `4_4` | P2 review 4_4 |
+| S26 | [x] done | `manual` | `4_5` | P2 review 4_5 |
+| S27 | [x] done | `manual` | `4_6` | P2 review 4_6 |
+| S28 | [x] done | `manual` | `5_1` | P2 review 5_1 |
+| S29 | [x] done | `manual` | `5_2` | P2 review 5_2 |
+| S30 | [x] done | `manual` | `5_3` | P2 review 5_3 |
+| S31 | [x] done | `manual` | `5_4` | P2 review 5_4 |
+| S32 | [x] done | `manual` | `5_5` | P2 review 5_5 |
+| S33 | [x] done | `manual` | `5_6` | P2 review 5_6 |
+| S34 | [x] done | `manual` | `5_7` | P2 review 5_7 |
+| S35 | [x] done | `manual` | `5_8` | P2 review 5_8 |
+| S36 | [x] done | `manual` | `5_9` | P2 review 5_9 |
+| S37 | [x] done | `manual` | `5_10` | P2 review 5_10 |
+| S38 | [x] done | `manual` | `5_11` | P2 review 5_11 |
+
+## T20261118-135532-877a — [closed] (закрыто 38 из 38)
+
+* Запрос: Omission/completeness audit JA->EN and JA->RU for all ch2-5 parts
+* Цель: `2`
+* Создана: 2026-11-18 13:55:32
+* Закрыта: 2026-11-18 16:50:13
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | O completeness 2_1 |
+| S2 | [x] done | `manual` | `2_2` | O completeness 2_2 |
+| S3 | [x] done | `manual` | `2_3` | O completeness 2_3 |
+| S4 | [x] done | `manual` | `2_4` | O completeness 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | O completeness 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | O completeness 2_4c |
+| S7 | [x] done | `manual` | `2_5` | O completeness 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | O completeness 2_5b |
+| S9 | [x] done | `manual` | `2_6` | O completeness 2_6 |
+| S10 | [x] done | `manual` | `2_7` | O completeness 2_7 |
+| S11 | [x] done | `manual` | `2_8` | O completeness 2_8 |
+| S12 | [x] done | `manual` | `3_1` | O completeness 3_1 |
+| S13 | [x] done | `manual` | `3_2` | O completeness 3_2 |
+| S14 | [x] done | `manual` | `3_3` | O completeness 3_3 |
+| S15 | [x] done | `manual` | `3_4` | O completeness 3_4 |
+| S16 | [x] done | `manual` | `3_5` | O completeness 3_5 |
+| S17 | [x] done | `manual` | `3_6` | O completeness 3_6 |
+| S18 | [x] done | `manual` | `3_7` | O completeness 3_7 |
+| S19 | [x] done | `manual` | `3_8` | O completeness 3_8 |
+| S20 | [x] done | `manual` | `3_9` | O completeness 3_9 |
+| S21 | [x] done | `manual` | `4_1` | O completeness 4_1 |
+| S22 | [x] done | `manual` | `4_2` | O completeness 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | O completeness 4_2b |
+| S24 | [x] done | `manual` | `4_3` | O completeness 4_3 |
+| S25 | [x] done | `manual` | `4_4` | O completeness 4_4 |
+| S26 | [x] done | `manual` | `4_5` | O completeness 4_5 |
+| S27 | [x] done | `manual` | `4_6` | O completeness 4_6 |
+| S28 | [x] done | `manual` | `5_1` | O completeness 5_1 |
+| S29 | [x] done | `manual` | `5_2` | O completeness 5_2 |
+| S30 | [x] done | `manual` | `5_3` | O completeness 5_3 |
+| S31 | [x] done | `manual` | `5_4` | O completeness 5_4 |
+| S32 | [x] done | `manual` | `5_5` | O completeness 5_5 |
+| S33 | [x] done | `manual` | `5_6` | O completeness 5_6 |
+| S34 | [x] done | `manual` | `5_7` | O completeness 5_7 |
+| S35 | [x] done | `manual` | `5_8` | O completeness 5_8 |
+| S36 | [x] done | `manual` | `5_9` | O completeness 5_9 |
+| S37 | [x] done | `manual` | `5_10` | O completeness 5_10 |
+| S38 | [x] done | `manual` | `5_11` | O completeness 5_11 |
+
+## T20261118-165138-9af4 — [closed] (закрыто 38 из 38)
+
+* Запрос: Russian Humanizer (naturalness/translationese) for RU text of all ch2-5 parts
+* Цель: `2`
+* Создана: 2026-11-18 16:51:38
+* Закрыта: 2026-11-18 18:33:04
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | H humanizer 2_1 |
+| S2 | [x] done | `manual` | `2_2` | H humanizer 2_2 |
+| S3 | [x] done | `manual` | `2_3` | H humanizer 2_3 |
+| S4 | [x] done | `manual` | `2_4` | H humanizer 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | H humanizer 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | H humanizer 2_4c |
+| S7 | [x] done | `manual` | `2_5` | H humanizer 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | H humanizer 2_5b |
+| S9 | [x] done | `manual` | `2_6` | H humanizer 2_6 |
+| S10 | [x] done | `manual` | `2_7` | H humanizer 2_7 |
+| S11 | [x] done | `manual` | `2_8` | H humanizer 2_8 |
+| S12 | [x] done | `manual` | `3_1` | H humanizer 3_1 |
+| S13 | [x] done | `manual` | `3_2` | H humanizer 3_2 |
+| S14 | [x] done | `manual` | `3_3` | H humanizer 3_3 |
+| S15 | [x] done | `manual` | `3_4` | H humanizer 3_4 |
+| S16 | [x] done | `manual` | `3_5` | H humanizer 3_5 |
+| S17 | [x] done | `manual` | `3_6` | H humanizer 3_6 |
+| S18 | [x] done | `manual` | `3_7` | H humanizer 3_7 |
+| S19 | [x] done | `manual` | `3_8` | H humanizer 3_8 |
+| S20 | [x] done | `manual` | `3_9` | H humanizer 3_9 |
+| S21 | [x] done | `manual` | `4_1` | H humanizer 4_1 |
+| S22 | [x] done | `manual` | `4_2` | H humanizer 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | H humanizer 4_2b |
+| S24 | [x] done | `manual` | `4_3` | H humanizer 4_3 |
+| S25 | [x] done | `manual` | `4_4` | H humanizer 4_4 |
+| S26 | [x] done | `manual` | `4_5` | H humanizer 4_5 |
+| S27 | [x] done | `manual` | `4_6` | H humanizer 4_6 |
+| S28 | [x] done | `manual` | `5_1` | H humanizer 5_1 |
+| S29 | [x] done | `manual` | `5_2` | H humanizer 5_2 |
+| S30 | [x] done | `manual` | `5_3` | H humanizer 5_3 |
+| S31 | [x] done | `manual` | `5_4` | H humanizer 5_4 |
+| S32 | [x] done | `manual` | `5_5` | H humanizer 5_5 |
+| S33 | [x] done | `manual` | `5_6` | H humanizer 5_6 |
+| S34 | [x] done | `manual` | `5_7` | H humanizer 5_7 |
+| S35 | [x] done | `manual` | `5_8` | H humanizer 5_8 |
+| S36 | [x] done | `manual` | `5_9` | H humanizer 5_9 |
+| S37 | [x] done | `manual` | `5_10` | H humanizer 5_10 |
+| S38 | [x] done | `manual` | `5_11` | H humanizer 5_11 |
 

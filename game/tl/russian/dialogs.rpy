@@ -6940,7 +6940,7 @@ translate russian strings:
     new "Жааарко! Ну и жара. И ветра совсем нет…"
 
     old "Kirche, you can't stand the heat? Kirche the Ardent... what would that even be?"
-    new "Кирхе, тебе жара не по нраву? Кирхе с лёгкой температурой… что это вообще?"
+    new "Кирхе, тебе жара не по нраву? Кирхе Обжигающая… что это вообще?"
 
     old "Not at all. Ugh, isn't there somewhere cool?"
     new "Совсем не могу. Ах, разве нет какого-нибудь прохладного места?"
@@ -6967,7 +6967,7 @@ translate russian strings:
     new "Погоди. И что мы будем на озере делать?"
 
     old "What do you mean? If you go to the lake, there's only one thing to do."
-    new "Ну а что? Раз едем на озеро — дел только одно."
+    new "Ну а что? Раз едем на озеро — дело только одно."
 
     old "Such as...?"
     new "А именно…?"
@@ -8210,7 +8210,7 @@ translate russian strings:
     new "Я хотел посоветоваться с ней насчёт Харуны."
 
     old "Oh, is that so. Not to pry, but…"
-    new "Ах, вот как. Не то чтобы я хотелось влезать, но…"
+    new "Ах, вот как. Не то чтобы мне хотелось влезать, но…"
 
     old "You have it rough too, don't you? You're living with a maid, Louise, and Haruna now, right?"
     new "Тоже непросто, да? Ты теперь живёшь с горничной, Луизой и Харуной, верно?"
@@ -8315,7 +8315,7 @@ translate russian strings:
     new "Я… понимаю. А, у тебя соус вокруг рта."
 
     old "W-wha—nonsense!? …Wait, there's nothing there!?"
-    new "Ч-что— ерунда!? …Погоди, там ничего нет!?"
+    new "Ч-что — ерунда!? …Погоди, там ничего нет!?"
 
     old "Just kidding. Field trips to the kitchen are fine, but go easy on the nibbling."
     new "Шучу. Экскурсии на кухню — это хорошо, только не налягай на угощения."
@@ -8957,7 +8957,7 @@ translate russian strings:
     new "Когда-то я сильно поранился на дуэли."
 
     old "Eh — Hiraga-kun is the type to fight duels… I'm a little… surprised…"
-    new "Ой, Хирага-кун из тех, кто дрётся на дуэлях… Немного удивлена…"
+    new "Ой, Хирага-кун из тех, кто дерётся на дуэлях… Немного удивлена…"
 
     old "Well, I'll keep my opponent's name a secret for their honor — but I won the duel, though I took a real beating."
     new "Ну, имя соперника я ради чести сохраню в тайне — дуэль выиграл, но досталось мне здорово."
@@ -10729,7 +10729,7 @@ translate russian strings:
     new "Да. В детстве я была у Её Высочества партнёром по играм."
 
     old "So if you put it another way, you and Her Highness are childhood friends?"
-    new "То есть, иначе говоря, вы с Её Высочеством подруги детства?"
+    new "Иначе говоря, вы с Её Высочеством подруги детства?"
 
     old "Well, I suppose that's how it amounts to. But don't go speaking of this too carelessly, all right?"
     new "Ну, выходит, что так. Но не болтай об этом попусту."
@@ -10771,7 +10771,7 @@ translate russian strings:
     new "Ох уж…"
 
     old "Um… Miss Vallière."
-    new "Э-э… Мадемуазель Вальер."
+    new "Э-э… мадемуазель Вальер."
 
     old "Siesta, what is it?"
     new "Сиеста, что такое?"
@@ -12067,7 +12067,7 @@ translate russian strings:
     new "Прости. Пришлось затащить тебя в такое горячее время."
 
     old "Not at all. I tagged along of my own accord, after all. That doesn't trouble me one bit."
-    new "Ни в коем случае нет. Это я сама по своей воле сюда увязалась. То меня не смущает."
+    new "Ни в коем случае. Это я сама по своей воле сюда увязалась. Меня это ничуть не смущает."
 
     old "More to the point, Saito-san—what do you make of this city, Tristania?"
     new "А теперь лучше — Сайто-сан, как вам эта Тристания?"
@@ -12932,7 +12932,7 @@ translate russian strings:
 
 translate russian strings:
     old "You'd better not let your magic research get out of hand, or you'll wear yourself out."
-    new "Следи, чтобы из-за магии ты себя не надорвал, а то иначе долго не протянешь."
+    new "Следи, чтобы из-за магии ты себя не надорвал, а то долго не протянешь."
 
 translate russian strings:
     old "I know, I know."
@@ -14826,7 +14826,7 @@ translate russian strings:
 
 translate russian strings:
     old "No, rather, it seems a friend of Mademoiselle Vallière wishes to take part in the performance uninvited…"
-    new "Нет, скорее — знакомая мадемуозели Вальер пожелала присоединиться к спекталю без приглашения…"
+    new "Нет, скорее — знакомая мадемуазель Вальер пожелала присоединиться к спектаклю без приглашения…"
 
 translate russian strings:
     old "…A friend? Who?"
@@ -15073,7 +15073,7 @@ translate russian strings:
 
 translate russian strings:
     old "Saito-san…{#ch5_4_v14459}"
-    new "Сайто-сан…."
+    new "Сайто-сан…"
 
 translate russian strings:
     old "It seems I insulted your friend. I'm sorry.{#ch5_4_v15868}"
@@ -15101,7 +15101,7 @@ translate russian strings:
 
 translate russian strings:
     old "Saito-san…{#ch5_4_v14460}"
-    new "Сайто-сан…."
+    new "Сайто-сан…"
 
 translate russian strings:
     old "It seems I insulted your friend. I'm sorry.{#ch5_4_v15870}"

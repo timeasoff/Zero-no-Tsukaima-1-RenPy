@@ -8,7 +8,7 @@ translate russian strings:
     new "Госпожа Уэзерби сказала, что завтра наконец объявят финальный отбор актёров…"
 
     old "I wonder how it's going to turn out? Really...{#ch5.6_th_003}"
-    new "Как же это обернётся? Настояще…"
+    new "Как же это обернётся? Правда…"
 
     old "It's a rare day off... what should I do?{#ch5.6_th_004}"
     new "Такой редкий выходной… что делать?"
@@ -32,7 +32,7 @@ translate russian strings:
     new "Хи-хи-хи. Небесное возмездие удалось! Сейчас второй выстрел…"
 
     old "Huh? Siesta and Montmon... what a rare combination.{#ch5.6_th_011}"
-    new "Хм? Сиеста и Момон… какая редкая комбинация."
+    new "Хм? Сиеста и Монмон… какая редкая комбинация."
 
     old "Even rare things happen.{#ch5.6_th_012}"
     new "Бывают и редкие вещи."

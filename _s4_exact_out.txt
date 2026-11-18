@@ -1,0 +1,450 @@
+=== EXACT MATCH REPORT (part 2_4) ===
+EN L18 [dlg]: Damn it! The bomb user got away...!? Nowhere in sight.
+   -> dialogs.rpy old@4439 new@4440 NEW: Чёрт! Бомбист скрылся…!? Нигде не видно.
+
+EN L21 [dlg]: Partner, it's not just the bomb user. Take a look around.
+   -> dialogs.rpy old@4442 new@4443 NEW: Партнёр, дело не только в бомбисте. Оглянись.
+
+EN L24 [dlg]: Huh... Aah! Those guys have vanished too!?
+   -> dialogs.rpy old@4445 new@4446 NEW: А… Аа! Эти тоже исчезли!?
+
+EN L28 [dlg]: Whaaat? When did they...!
+   -> dialogs.rpy old@4448 new@4449 NEW: Что? Когда они…!
+
+EN L31 [dlg]: They slipped away in that explosion? Then that bomb user really was their accomplice?
+   -> dialogs.rpy old@4451 new@4452 NEW: Они скрылись в этом взрыве? Значит, бомбист действительно был их сообщником?
+
+EN L35 [dlg]: That's very likely. Someone curious enough to sneak into the academy — a chance encounter would be too convenient.
+   -> dialogs.rpy old@4454 new@4455 NEW: Очень вероятно. Тот, кому любопытно проникнуть в академию, — случайная встреча была бы слишком удобной.
+
+EN L39 [dlg]: But that explosion — what in the world...?
+   -> dialogs.rpy old@4457 new@4458 NEW: Но этот взрыв — что, вообще…?
+
+EN L43 [dlg]: Professor? What is it?
+   -> dialogs.rpy old@4460 new@4461 NEW: Профессор? Что-то случилось?
+
+EN L47 [dlg]: Ah, no, there's just something bothering me... More importantly, I'll report this to the academy. You all go back to the classroom.
+   -> dialogs.rpy old@4463 new@4464 NEW: А, нет, просто кое-что беспокоит… Важнее другое: я доложу в академию. Вы все возвращайтесь в класс.
+
+EN L51 [dlg]: Understood, Professor Colbert.
+   -> dialogs.rpy old@4466 new@4467 NEW: Поняла, профессор Кольбер.
+
+EN L55 [dlg]: I'm not satisfied at all. It's like I didn't get to burn enough...
+   -> dialogs.rpy old@4469 new@4470 NEW: Я совсем не удовлетворена. Как будто не нажглась…
+
+EN L59 [dlg]: Incomplete combustion, you mean?
+   -> dialogs.rpy old@4472 new@4473 NEW: Неполное сгорание, что ли?
+
+EN L63 [dlg]: Ah, yeah, that's it. As expected of you, darling — so perceptive.
+   -> dialogs.rpy old@4475 new@4476 NEW: А, да, именно. Как и подобает тебе, дорогой — так проницательно.
+
+EN L67 [dlg]: ...Why is that the only thing you ever notice?
+   -> dialogs.rpy old@4478 new@4479 NEW: …Почему ты замечаешь только это?
+
+EN L71 [dlg]: Hm? Did you say something?
+   -> dialogs.rpy old@4481 new@4482 NEW: А? Ты что-то сказала?
+
+EN L75 [dlg]: Nothing at all! Come on, let's head back already!
+   -> dialogs.rpy old@4484 new@4485 NEW: Ничего! Давай, пора возвращаться!
+
+EN L80 [dlg]: In the end, we didn't find a single clue about the intruders.
+   -> thoughs.rpy old@361 new@362 NEW: В итоге мы не нашли ни одной улики о вторгшихся.
+
+EN L81 [dlg]: The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting.
+   -> thoughs.rpy old@364 new@365 NEW: Лёгкость, с которой в академию проникли, кажется, стала проблемой — учителя начали совещание.
+
+EN L82 [dlg]: So we're left not knowing the details after all. I just can't feel at ease.
+   -> thoughs.rpy old@367 new@368 NEW: Так что мы остались, не зная деталей. Я просто не могу чувствовать себя спокойно.
+
+EN L83 [dlg]: More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today.
+   -> thoughs.rpy old@370 new@371 NEW: Больше всего меня беспокоит, как настойчиво эти ребята охотились за Харуной… Я сомневаюсь, что они сдались после сегодняшнего дня.
+
+EN L87 [dlg]: Saito? What's wrong, going all quiet like that?
+   -> dialogs.rpy old@4487 new@4488 NEW: Сайто? Что случилось, почему молчишь?
+
+EN L89 [dlg]: And if that bomb user comes back again, it won't be a joke.
+   -> thoughs.rpy old@373 new@374 NEW: И если этот бомбист вернётся снова, это уже не шутка.
+
+EN L93 [dlg]: Saito, I said answer me. Is something on your mind?
+   -> dialogs.rpy old@4490 new@4491 NEW: Сайто, я сказала, ответь. Тебя что-то беспокоит?
+
+EN L97 [dlg]: Louise.
+   -> dialogs.rpy old@4496 new@4497 NEW: Луиза.
+
+EN L100 [dlg]: Wh-what?
+   -> dialogs.rpy old@4493 new@4494 NEW: Ч-что?
+
+EN L103 [dlg]: I'm going to take a quick look around the academy.
+   -> dialogs.rpy old@4502 new@4503 NEW: Я пойду, немного осмотрюсь в академии.
+
+EN L107 [dlg]: What!? Wait, a patrol, what?
+   -> dialogs.rpy old@4499 new@4500 NEW: Что!? Подожди, патрулирование, что?
+
+EN L110 [dlg]: Now then. Even if I patrol, where should I start?
+   -> thoughs.rpy old@376 new@377 NEW: Теперь. Даже если я патрулирую, с чего начать?
+
+EN L145 [dlg]: Man, it's already this late. It's already deep into the night.
+   -> dialogs.rpy old@4505 new@4506 NEW: Вот блин, уже так поздно. Уже глубокая ночь.
+
+EN L148 [dlg]: Partner, let's call it a day. Doesn't look like anyone's hiding in the academy.
+   -> dialogs.rpy old@4508 new@4509 NEW: Партнёр, давай на сегодня закончим. Похоже, в академии никто не прячется.
+
+EN L151 [dlg]: Yeah. Well then, let's head back to the room.
+   -> dialogs.rpy old@4511 new@4512 NEW: Да. Тогда вернёмся в комнату.
+
+EN L160 [dlg]: I'm home.
+   -> dialogs.rpy old@4514 new@4515 NEW: Я дома.
+
+EN L164 [dlg]: So you're back.
+   -> dialogs.rpy old@4517 new@4518 NEW: Значит, вернулся.
+
+EN L168 [dlg]: Good work, Saito-san. Weren't you in any danger?
+   -> dialogs.rpy old@4520 new@4521 NEW: Молодец, Сайто-сан. Тебе не было опасно?
+
+EN L172 [dlg]: Welcome back. How was the patrol?
+   -> dialogs.rpy old@4523 new@4524 NEW: С возвращением. Как патрулирование?
+
+EN L174 [dlg]: Ah... having girls welcome me home can make me feel this happy.
+   -> thoughs.rpy old@379 new@380 NEW: Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливым.
+
+EN L178 [dlg]: Yeah. I looked around the academy all afternoon, but there was nothing unusual anywhere.
+   -> dialogs.rpy old@4526 new@4527 NEW: Да. Я осматривал академию весь день, но нигде ничего необычного не было.
+
+EN L182 [dlg]: Hmm...{#ch2.4_l_010}
+   -> dialogs.rpy old@4529 new@4530 NEW: Хм…
+
+EN L185 [dlg]: And that's a reply completely devoid of interest.
+   -> dialogs.rpy old@4532 new@4533 NEW: И это ответ, полностью лишённый интереса.
+
+EN L188 [dlg]: Isn't it fine, everyone was safe. It's no more and no less than that.
+   -> dialogs.rpy old@4535 new@4536 NEW: Разве это плохо, все были в безопасности. Ни больше, ни меньше.
+
+EN L191 [dlg]: Well, if you put it that way, you're right.
+   -> dialogs.rpy old@4538 new@4539 NEW: Ну, если так выразиться, ты права.
+
+EN L195 [dlg]: Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say.
+   -> dialogs.rpy old@4541 new@4542 NEW: Эй, сейчас! Я не думаю, что помешает сказать хоть одно доброе слово, я говорю.
+
+EN L199 [dlg]: Yes, yes. Good work.
+   -> dialogs.rpy old@4544 new@4545 NEW: Да-да. Молодец.
+
+EN L202 [dlg]: ......{#ch2.4_s_014}
+   -> dialogs.rpy old@4547 new@4548 NEW: ……{#ch2.4_s_014}
+
+EN L205 [dlg]: ......{#ch2.4_l_013}
+   -> dialogs.rpy old@4550 new@4551 NEW: ……{#ch2.4_l_013}
+
+EN L209 [dlg]: U-um, Miss Vallière seems tired, so...
+   -> dialogs.rpy old@4553 new@4554 NEW: Э-э, мадемуазель Вальер выглядит уставшей, так что…
+
+EN L211 [dlg]: I-is that so?
+   -> thoughs.rpy old@382 new@383 NEW: П-правда?
+
+EN L214 [menu]: Did something happen, Louise?{#ch2.4_m106a}
+   -> choises.rpy old@277 new@278 NEW: Что-то случилось, Луиза?{#ch2.4_m106a}
+
+EN L218 [dlg]: Did something happen, Louise?{#ch2.4_s_015}
+   -> dialogs.rpy old@4556 new@4557 NEW: Что-то случилось, Луиза?{#ch2.4_s_015}
+
+EN L222 [dlg]: Huh? What's this all of a sudden?
+   -> dialogs.rpy old@4559 new@4560 NEW: А? Что это вдруг?
+
+EN L225 [dlg]: Well, you seemed kind of absent-minded. I wondered if something was bothering you.
+   -> dialogs.rpy old@4562 new@4563 NEW: Ну, ты казалась рассеянной. Я подумал, может, тебя что-то беспокоит.
+
+EN L229 [dlg]: N-nothing in particular.
+   -> dialogs.rpy old@4565 new@4566 NEW: Н-ничего особенного.
+
+EN L232 [dlg]: Is that so? Hmm... then I guess it's fine.
+   -> dialogs.rpy old@4568 new@4569 NEW: Неужели? Хм… тогда, наверное, всё в порядке.
+
+EN L236 [dlg]: ...Really, it's nothing. There's no need to worry.
+   -> dialogs.rpy old@4571 new@4572 NEW: …Правда, ничего. Не нужно беспокоиться.
+
+EN L243 [dlg]: Hmm. If you say so, I suppose it's fine, but don't push yourself too hard.
+   -> dialogs.rpy old@4574 new@4575 NEW: Хм. Если так, то, полагаю, всё в порядке, но не переусердствуй.
+
+EN L246 [dlg]: I'm not. ...Honestly.
+   -> dialogs.rpy old@4577 new@4578 NEW: Я не переусердствую. …Честное слово.
+
+EN L250 [menu]: Did something happen, Siesta?{#ch2.4_m106b}
+   -> choises.rpy old@280 new@281 NEW: Что-то случилось, Сиеста?{#ch2.4_m106b}
+
+EN L254 [dlg]: Did something happen, Siesta?{#ch2.4_s_019}
+   -> dialogs.rpy old@4580 new@4581 NEW: Что-то случилось, Сиеста?{#ch2.4_s_019}
+
+EN L257 [dlg]: Huh, me...?
+   -> dialogs.rpy old@4583 new@4584 NEW: А, я…?
+
+EN L260 [dlg]: Well, you looked kind of scared to ask Louise anything, so...
+   -> dialogs.rpy old@4586 new@4587 NEW: Ну, ты казалась слишком напуганной, чтобы спросить Луизу что-нибудь, так что…
+
+EN L266 [dlg]: ......{#ch2.4_si_004}
+   -> dialogs.rpy old@4589 new@4590 NEW: ……{#ch2.4_si_004}
+
+EN L270 [menu]: How are you feeling, Haruna?{#ch2.4_m106c}
+   -> choises.rpy old@283 new@284 NEW: Как ты себя чувствуешь, Харуна?{#ch2.4_m106c}
+
+EN L274 [dlg]: How are you feeling, Haruna?{#ch2.4_s_021}
+   -> dialogs.rpy old@4592 new@4593 NEW: Как ты себя чувствуешь, Харуна?{#ch2.4_s_021}
+
+EN L278 [dlg]: Ah, yeah. Compared to this morning, I think I'm much better.
+   -> dialogs.rpy old@4595 new@4596 NEW: А, да. По сравнению с утром, я думаю, мне намного лучше.
+
+EN L283 [dlg]: That's a relief.
+   -> dialogs.rpy old@4598 new@4599 NEW: Вот это облегчение.
+
+EN L286 [dlg]: ...Hmph.{#ch2.4_l_018}
+   -> dialogs.rpy old@4601 new@4602 NEW: …Хм.{#ch2.4_l_018}
+
+EN L292 [dlg]: I still feel a little sluggish, though... But I think I'm mostly okay now.
+   -> dialogs.rpy old@4604 new@4605 NEW: Я всё ещё чувствую некоторую вялость, но… Но, думаю, я в основном в порядке.
+
+EN L295 [dlg]: You'd better not overdo it. Rest properly until you're fully recovered.
+   -> dialogs.rpy old@4607 new@4608 NEW: Тебе лучше не переусердствовать. Отдыхай как следует, пока полностью не выздоровеешь.
+
+EN L299 [dlg]: Thank you, Hiraga-kun.{#ch2.4_ha_004}
+   -> dialogs.rpy old@4610 new@4611 NEW: Спасибо, Хирага-кун.
+
+EN L308 [dlg]: Oh, right. Siesta, is there anything to eat?
+   -> dialogs.rpy old@4613 new@4614 NEW: А, точно. Сиеста, есть что-нибудь поесть?
+
+EN L311 [dlg]: Huh? Don't tell me you haven't had dinner yet?
+   -> dialogs.rpy old@4616 new@4617 NEW: А? Не скажи, что ты ещё не ужинал?
+
+EN L314 [dlg]: Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything.
+   -> dialogs.rpy old@4619 new@4620 NEW: Да. Я патрулировал и упустил возможность поесть. Буду признателен, если есть что-нибудь.
+
+EN L318 [dlg]: If you'd told me, I would have prepared something. Let me bring it now.
+   -> dialogs.rpy old@4622 new@4623 NEW: Если бы ты сказал, я бы приготовила. Сейчас принесу.
+
+EN L322 [dlg]: I feel kind of bad about this.
+   -> dialogs.rpy old@4625 new@4626 NEW: Мне как-то неловко.
+
+EN L326 [dlg]: This much is nothing. Well then, I'll go to the kitchen and get your meal.
+   -> dialogs.rpy old@4628 new@4629 NEW: Это пустяк. Тогда я пойду на кухню и принесу тебе еду.
+
+EN L330 [dlg]: By the way, Haruna, have you had dinner?
+   -> dialogs.rpy old@4631 new@4632 NEW: Кстати, Харуна, ты ужинала?
+
+EN L334 [dlg]: Yeah... I didn't have an appetite, so not yet. But if you're with me, Hiraga-kun, I might be able to eat.
+   -> dialogs.rpy old@4634 new@4635 NEW: Да… У меня не было аппетита, так что ещё нет. Но если ты будешь со мной, Хирага-кун, я, возможно, смогу поесть.
+
+EN L338 [dlg]: Kuh!? What is that?
+   -> dialogs.rpy old@4637 new@4638 NEW: Кха!? Что это?
+
+EN L342 [dlg]: You're spoiling her quite a lot. She can eat a meal by herself, can't she?
+   -> dialogs.rpy old@4640 new@4641 NEW: Ты её слишком балуешь. Она может поесть сама, не так ли?
+
+EN L346 [dlg]: Louise, calm down. Eating alone when you're laid up in bed makes you feel incredibly lonely, doesn't it?
+   -> dialogs.rpy old@4643 new@4644 NEW: Луиза, успокойся. Есть в одиночестве, когда ты прикована к кровати, — это невероятно одиноко, не так ли?
+
+EN L349 [dlg]: Not just the body, the heart needs to get better too. Besides, I'm hungry as well, so we might as well — eating together isn't strange at all, is it?
+   -> dialogs.rpy old@4646 new@4647 NEW: Не только тело, но и дух должны поправиться. К тому же я тоже голоден, так что почему бы и нет — вместе поесть совсем не странно, не так ли?
+
+EN L352 [dlg]: It is strange.
+   -> dialogs.rpy old@4649 new@4650 NEW: Это странно.
+
+EN L356 [dlg]: How is it!?
+   -> dialogs.rpy old@4652 new@4653 NEW: Как это!?
+
+EN L359 [dlg]: You've never shown such attentive behavior up until now, have you?
+   -> dialogs.rpy old@4655 new@4656 NEW: Ты никогда не проявлял такого внимательного отношения до сих пор, не так ли?
+
+EN L362 [dlg]: And yet you're being kind to that girl. You'd think that's odd, wouldn't you?
+   -> dialogs.rpy old@4658 new@4659 NEW: И всё же ты добр к этой девушке. Ты бы подумал, что это странно, не так ли?
+
+EN L366 [dlg]: Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?
+   -> dialogs.rpy old@4661 new@4662 NEW: Ну, даже если ты так говоришь… Харуна из того же мира, что и я, и она больна. Что плохого в том, чтобы быть добрым к ней?
+
+EN L370 [dlg]: That's...
+   -> dialogs.rpy old@4664 new@4665 NEW: Это…
+
+EN L375 [dlg]: I brought your dinner. The soup is a little lukewarm, though...
+   -> dialogs.rpy old@4667 new@4668 NEW: Я принесла тебе ужин. Суп немного остыл, но…
+
+EN L379 [dlg]: Ah, Siesta, thank you.
+   -> dialogs.rpy old@4670 new@4671 NEW: А, Сиеста, спасибо.
+
+EN L383 [dlg]: ...Hmph.{#ch2.4_l_025}
+   -> dialogs.rpy old@4673 new@4674 NEW: …Хм.{#ch2.4_l_025}
+
+EN L387 [dlg]: Sorry, Siesta-san.
+   -> dialogs.rpy old@4676 new@4677 NEW: Извини, Сиеста-сан.
+
+EN L390 [dlg]: No, no. I'm used to preparing meals for you, Saito-san.
+   -> dialogs.rpy old@4679 new@4680 NEW: Нет-нет. Я привыкла готовить для тебя, Сайто-сан.
+
+EN L393 [dlg]: Oh my, is that so?
+   -> dialogs.rpy old@4682 new@4683 NEW: О, неужели?
+
+EN L396 [dlg]: Yes, that's right.
+   -> dialogs.rpy old@4685 new@4686 NEW: Да, это так.
+
+EN L398 [dlg]: ...It should be a warm atmosphere, but somehow the air feels strangely heavy.
+   -> thoughs.rpy old@385 new@386 NEW: …Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым.
+
+EN L401 [dlg]: Well then, thank you for the meal.
+   -> dialogs.rpy old@4688 new@4689 NEW: Тогда, спасибо за еду.
+
+EN L404 [dlg]: Yeah, don't push yourself.
+   -> dialogs.rpy old@4691 new@4692 NEW: Да, не переусердствуй.
+
+EN L407 [dlg]: No, this much is fine.
+   -> dialogs.rpy old@4694 new@4695 NEW: Нет, это нормально.
+
+EN L410 [dlg]: Still, though... Then, shall I feed you? Here, say ahh.
+   -> dialogs.rpy old@4697 new@4698 NEW: И всё же… Тогда, может, я тебя накормлю? Давай, открой ротик.
+
+EN L414 [dlg]: Eh...
+   -> dialogs.rpy old@4700 new@4701 NEW: Э…
+
+EN L417 [dlg]: ...!?
+   -> dialogs.rpy old@4703 new@4704 NEW: …!?
+
+EN L421 [dlg]: W-wait a minute!? Saito! What do you think you're doing!?
+   -> dialogs.rpy old@4706 new@4707 NEW: П-подожди минутку!? Сайто! Что ты делаешь!?
+
+EN L425 [dlg]: What do you mean — dinner.
+   -> dialogs.rpy old@4709 new@4710 NEW: Что ты имеешь в виду — ужин.
+
+EN L428 [dlg]: That's not what I mean! What's with that 'ahh'!?
+   -> dialogs.rpy old@4712 new@4713 NEW: Я не об этом! Что за «открой ротик»!?
+
+EN L431 [dlg]: Huh? Is something weird?
+   -> dialogs.rpy old@4715 new@4716 NEW: А? Что-то странное?
+
+EN L435 [dlg]: I'm telling you, it's weird!
+   -> dialogs.rpy old@4718 new@4719 NEW: Я говорю тебе, это странно!
+
+EN L439 [dlg]: Hiraga-kun, you're so kind...
+   -> dialogs.rpy old@4721 new@4722 NEW: Хирага-кун, ты так добр…
+
+EN L443 [dlg]: What's with that clingy, spoiling attitude!? You've never once shown me anything like that!
+   -> dialogs.rpy old@4724 new@4725 NEW: Что за липкое, балующее отношение!? Ты никогда не показывала мне ничего подобного!
+
+EN L447 [dlg]: But you're always perfectly fine, aren't you?
+   -> dialogs.rpy old@4727 new@4728 NEW: Но ты всегда в полном порядке, не так ли?
+
+EN L451 [dlg]: Um, I don't think that's really the issue...
+   -> dialogs.rpy old@4730 new@4731 NEW: Эм, я не думаю, что это действительно проблема…
+
+EN L455 [dlg]: Um, Louise?
+   -> dialogs.rpy old@4733 new@4734 NEW: Эм, Луиза?
+
+EN L458 [menu]: Do you want dinner too?{#ch2.4_m110a}
+   -> choises.rpy old@286 new@287 NEW: Ты тоже хочешь ужинать?{#ch2.4_m110a}
+
+EN L462 [dlg]: Do you want dinner too?{#ch2.4_s_039}
+   -> dialogs.rpy old@4736 new@4737 NEW: Ты тоже хочешь ужинать?{#ch2.4_s_039}
+
+EN L465 [dlg]: Hah!? Why would it come to that!?
+   -> dialogs.rpy old@4739 new@4740 NEW: Ха!? К чему это!?
+
+EN L469 [dlg]: Well, you've been irritated this whole time. I thought you'd already had dinner, but maybe you're hungry and that's making you quick to anger.
+   -> dialogs.rpy old@4742 new@4743 NEW: Ну, ты была раздражена всё это время. Я думал, ты уже поужинала, но, может, ты голодна и это делает тебя вспыльчивой.
+
+EN L472 [dlg]: I finished dinner long ago!
+   -> dialogs.rpy old@4745 new@4746 NEW: Я поужинала давно!
+
+EN L475 [dlg]: Is that so? But if you're this irritated, then... are you on a diet or something?
+   -> dialogs.rpy old@4748 new@4749 NEW: Неужели? Но если ты так раздражена, то… ты на диете или что-то в этом роде?
+
+EN L479 [dlg]: Hah? A diet?
+   -> dialogs.rpy old@4751 new@4752 NEW: А? Диета?
+
+EN L482 [dlg]: You should stop.
+   -> dialogs.rpy old@4754 new@4755 NEW: Тебе лучше прекратить.
+
+EN L485 [dlg]: Skipping meals by force will only ruin your health and have a bad effect on your mental stability — nothing good comes of it.
+   -> dialogs.rpy old@4757 new@4758 NEW: Пропускать приёмы пищи силой только разрушит твоё здоровье и плохо повлияет на психическую стабильность — ничего хорошего из этого не выйдет.
+
+EN L489 [dlg]: Wrooong! I'm not doing that!
+   -> dialogs.rpy old@4760 new@4761 NEW: Неправда! Я этого не делаю!
+
+EN L493 [dlg]: Then that's fine. Besides, you're plenty attractive as you are, so if you did something unnecessary and rebounded, that'd be a disaster.
+   -> dialogs.rpy old@4763 new@4764 NEW: Тогда всё в порядке. К тому же ты достаточно привлекательна, как есть, так что если бы ты сделала что-то ненужное и получила откат, это было бы катастрофой.
+
+EN L497 [dlg]: Um... I'm telling you, what are we even talking about?
+   -> dialogs.rpy old@4766 new@4767 NEW: Эм… Я говорю тебе, о чём мы вообще говорим?
+
+EN L501 [menu]: Do you want me to say 'ahh' for you too?{#ch2.4_m110b}
+   -> choises.rpy old@289 new@290 NEW: Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_m110b}
+
+EN L505 [dlg]: Do you want me to say 'ahh' for you too?{#ch2.4_s_045}
+   -> dialogs.rpy old@4769 new@4770 NEW: Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_s_045}
+
+EN L508 [dlg]: Hah!? Wh-wh-why would it come to that!?
+   -> dialogs.rpy old@4772 new@4773 NEW: Ха!? К-к-к чему это!?
+
+EN L515 [dlg]: Ah, so that's not it. You just seemed fixated on that.
+   -> dialogs.rpy old@4775 new@4776 NEW: А, значит, это не так. Ты просто казалась зацикленной на этом.
+
+EN L519 [dlg]: That and this are different things! Why would I have to have you feed me?!
+   -> dialogs.rpy old@4778 new@4779 NEW: Это и то — разные вещи! Почему я должна позволять тебе кормить меня?!
+
+EN L523 [dlg]: Yeah, you're right. I think so too.
+   -> dialogs.rpy old@4781 new@4782 NEW: Да, ты права. Я тоже так думаю.
+
+EN L526 [dlg]: ...As long as you understand.
+   -> dialogs.rpy old@4784 new@4785 NEW: …Пока ты понимаешь.
+
+EN L530 [menu]: Do you want to be laid up in bed too?{#ch2.4_m110c}
+   -> choises.rpy old@292 new@293 NEW: Ты тоже хочешь быть прикованной к кровати?{#ch2.4_m110c}
+
+EN L534 [dlg]: Do you want to be laid up in bed too?{#ch2.4_s_048}
+   -> dialogs.rpy old@4787 new@4788 NEW: Ты тоже хочешь быть прикованной к кровати?{#ch2.4_s_048}
+
+EN L537 [dlg]: Hah!? Why would it come to that!?{#ch2.4_l_038}
+   -> dialogs.rpy old@4790 new@4791 NEW: Ха!? К чему это!?{#ch2.4_l_038}
+
+EN L543 [dlg]: Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all.
+   -> dialogs.rpy old@4793 new@4794 NEW: Ну, ты была раздражена всё это время. Я подумал, может, ты тоже хочешь лежать в кровати, вот и всё.
+
+EN L547 [dlg]: ...It's true that talking with you gives me a headache. But I'm not going to fake being sick just to stay in bed.
+   -> dialogs.rpy old@4796 new@4797 NEW: …Правда, разговор с тобой вызывает у меня головную боль. Но я не собираюсь притворяться больной, чтобы лежать в кровати.
+
+EN L551 [dlg]: ...Oh, is that so?
+   -> dialogs.rpy old@4799 new@4800 NEW: …О, неужели?
+
+EN L555 [dlg]: That's right. Me, of all people.
+   -> dialogs.rpy old@4802 new@4803 NEW: Это так. Я, из всех людей.
+
+EN L563 [dlg]: There's no weird meaning behind it, okay? Haruna is sick, so looking after her is only normal, right?
+   -> dialogs.rpy old@4805 new@4806 NEW: Никакого странного смысла в этом нет, ладно? Харуна больна, так что ухаживать за ней — это нормально, верно?
+
+EN L567 [dlg]: So if she's sick, you'll do anything for her?
+   -> dialogs.rpy old@4808 new@4809 NEW: Значит, если она больна, ты сделаешь для неё всё?
+
+EN L571 [dlg]: I'm not going that far. Why are you getting angry about me looking after a sick person?
+   -> dialogs.rpy old@4811 new@4812 NEW: Я не зашёл так далеко. Почему ты злишься на то, что я ухаживаю за больным человеком?
+
+EN L575 [dlg]: ...B-because!
+   -> dialogs.rpy old@4814 new@4815 NEW: …П-потому что!
+
+EN L579 [dlg]: Please, that's enough.
+   -> dialogs.rpy old@4817 new@4818 NEW: Пожалуйста, достаточно.
+
+EN L582 [dlg]: !!{#ch2.4_l_043}
+   -> dialogs.rpy old@4820 new@4821 NEW: !!{#ch2.4_l_043}
+
+EN L585 [dlg]: Haruna...
+   -> dialogs.rpy old@4823 new@4824 NEW: Харуна…
+
+EN L588 [dlg]: Hiraga-kun is not Miss Louise's tool. You of all people should know that, shouldn't you?
+   -> dialogs.rpy old@4826 new@4827 NEW: Хирага-кун — не инструмент мадемуазель Луизы. Ты из всех людей должна это знать, не так ли?
+
+EN L592 [dlg]: I... I have no reason to be told that by you!
+   -> dialogs.rpy old@4829 new@4830 NEW: Я… У меня нет причин слушать это от тебя!
+
+EN L595 [dlg]: And what's more! Sick, sick, sick — is being sick really so great? I don't care about Saito anymore!
+   -> dialogs.rpy old@4832 new@4833 NEW: И что ещё! Больная, больная, больная — неужели быть больным так уж здорово? Мне больше не нужен Сайто!
+
+EN L598 [dlg]: Ah, hey, Louise!
+   -> dialogs.rpy old@4835 new@4836 NEW: А, эй, Луиза!
+
+EN L602 [dlg]: Stupid dog! Stupid familiar! Stupid Saito!
+   -> dialogs.rpy old@4838 new@4839 NEW: Глупая собака! Глупый фамильяр! Глупый Сайто!
+
+EN L606 [dlg]: Honestly, I don't care anymore!
+   -> dialogs.rpy old@4841 new@4842 NEW: Честно говоря, мне уже всё равно!
