@@ -5210,3 +5210,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Аудиты: C 2, Ф1 5 — все FIXED; ключевое — инверсия «оберега» (`ルイズのお守りはこの俺` → «я — оберег Луизы»).
 - Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
 - Отчёт `reports/ch24/1.md`; стаб `script-ch25.rpy` создан.
+
+## 2026-11-18 — Ветка port/ch22-to-end: глава 25, часть 1 (903–917)
+
+- 135 реплик / 116 голосов + 3 menu; `voice_id_map.csv` +116; `.ogg` 116/0.
+- Аудиты: C 0 находок; Ф1 2 NUANCE_SHIFT FIXED (`呆れてる` → «остолбенели», `毎回` → «каждый раз»), 1 PRESERVED — FUNCTIONAL (скобки мыслей).
+- Проверки: `check_project.py` OK, syntax OK, typography OK, omission precheck 0.
+- Отчёт `reports/ch25/1.md`; стабы 25_2/25_3/25_4 созданы.

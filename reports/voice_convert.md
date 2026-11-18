@@ -1,6 +1,6 @@
 # Голоса: конвертация
 
-Запуск: `2026-11-18 08:26`
+Запуск: `2026-11-18 08:31`
 Команда: `python tools/media/audio_converter.py convert --apply`
 Куда: `game/audio/voices`
 
@@ -8,10 +8,10 @@
 
 | показатель | значений |
 |---|---:|
-| voice-строк в сценарии | 11911 |
-| уже есть .ogg | 11795 |
-| к конвертации | 116 |
-| сконвертировано сейчас | 116 |
+| voice-строк в сценарии | 12013 |
+| уже есть .ogg | 11911 |
+| к конвертации | 102 |
+| сконвертировано сейчас | 102 |
 | ошибок конвертации | 0 |
 | **нет аудио (нет wav)** | **0** |
 | **нет в манифесте** | **0** |
@@ -19,122 +19,108 @@
 
 ## Сконвертировано
 
-- `ch25_ha_001.ogg`
-- `ch25_ha_002.ogg`
-- `ch25_k_001.ogg`
-- `ch25_k_002.ogg`
-- `ch25_k_003.ogg`
-- `ch25_k_004.ogg`
-- `ch25_k_005.ogg`
-- `ch25_k_006.ogg`
-- `ch25_k_007.ogg`
-- `ch25_k_008.ogg`
-- `ch25_k_009.ogg`
-- `ch25_k_010.ogg`
-- `ch25_k_011.ogg`
-- `ch25_k_012.ogg`
-- `ch25_k_013.ogg`
-- `ch25_k_014.ogg`
-- `ch25_k_015.ogg`
-- `ch25_k_016.ogg`
-- `ch25_k_017.ogg`
-- `ch25_k_018.ogg`
-- `ch25_k_019.ogg`
-- `ch25_l_001.ogg`
-- `ch25_l_002.ogg`
-- `ch25_l_003.ogg`
-- `ch25_l_004.ogg`
-- `ch25_l_005.ogg`
-- `ch25_l_006.ogg`
-- `ch25_l_007.ogg`
-- `ch25_l_008.ogg`
-- `ch25_l_009.ogg`
-- `ch25_l_010.ogg`
-- `ch25_l_011.ogg`
-- `ch25_l_012.ogg`
-- `ch25_l_013.ogg`
-- `ch25_l_014.ogg`
-- `ch25_l_015.ogg`
-- `ch25_l_016.ogg`
-- `ch25_l_017.ogg`
-- `ch25_l_018.ogg`
-- `ch25_l_019.ogg`
-- `ch25_l_020.ogg`
-- `ch25_l_021.ogg`
-- `ch25_l_022.ogg`
-- `ch25_l_023.ogg`
-- `ch25_l_024.ogg`
-- `ch25_l_025.ogg`
-- `ch25_l_026.ogg`
-- `ch25_l_027.ogg`
-- `ch25_s_005.ogg`
-- `ch25_s_006.ogg`
-- `ch25_s_007.ogg`
-- `ch25_s_008.ogg`
-- `ch25_s_009.ogg`
-- `ch25_s_010.ogg`
-- `ch25_s_011.ogg`
-- `ch25_s_013.ogg`
-- `ch25_s_014.ogg`
-- `ch25_s_015.ogg`
-- `ch25_s_016.ogg`
-- `ch25_s_017.ogg`
-- `ch25_s_018.ogg`
-- `ch25_s_020.ogg`
-- `ch25_s_021.ogg`
-- `ch25_s_022.ogg`
-- `ch25_s_023.ogg`
-- `ch25_s_024.ogg`
-- `ch25_s_025.ogg`
-- `ch25_s_026.ogg`
-- `ch25_s_027.ogg`
-- `ch25_s_028.ogg`
-- `ch25_s_029.ogg`
-- `ch25_s_030.ogg`
-- `ch25_s_031.ogg`
-- `ch25_s_032.ogg`
-- `ch25_s_033.ogg`
-- `ch25_s_034.ogg`
-- `ch25_s_035.ogg`
-- `ch25_s_036.ogg`
-- `ch25_s_037.ogg`
-- `ch25_s_038.ogg`
-- `ch25_s_039.ogg`
-- `ch25_s_040.ogg`
-- `ch25_s_041.ogg`
-- `ch25_s_042.ogg`
-- `ch25_s_043.ogg`
-- `ch25_s_044.ogg`
-- `ch25_s_045.ogg`
-- `ch25_s_046.ogg`
-- `ch25_s_047.ogg`
-- `ch25_s_048.ogg`
-- `ch25_s_049.ogg`
-- `ch25_s_050.ogg`
-- `ch25_s_051.ogg`
-- `ch25_s_052.ogg`
-- `ch25_s_053.ogg`
-- `ch25_s_054.ogg`
-- `ch25_s_055.ogg`
-- `ch25_s_056.ogg`
-- `ch25_s_057.ogg`
-- `ch25_s_058.ogg`
-- `ch25_s_059.ogg`
-- `ch25_s_060.ogg`
-- `ch25_s_061.ogg`
-- `ch25_s_062.ogg`
-- `ch25_s_063.ogg`
-- `ch25_s_064.ogg`
-- `ch25_si_001.ogg`
-- `ch25_si_002.ogg`
-- `ch25_si_003.ogg`
-- `ch25_t_001.ogg`
-- `ch25_t_006.ogg`
-- `ch25_t_012.ogg`
-- `ch25_t_017.ogg`
-- `ch25_t_018.ogg`
-- `ch25_t_019.ogg`
-- `ch25_t_020.ogg`
+- `ch25_ha_003.ogg`
+- `ch25_ha_004.ogg`
+- `ch25_ha_005.ogg`
+- `ch25_ha_006.ogg`
+- `ch25_ha_007.ogg`
+- `ch25_k_020.ogg`
+- `ch25_k_021.ogg`
+- `ch25_k_022.ogg`
+- `ch25_k_023.ogg`
+- `ch25_k_024.ogg`
+- `ch25_k_025.ogg`
+- `ch25_l_028.ogg`
+- `ch25_l_029.ogg`
+- `ch25_l_030.ogg`
+- `ch25_l_031.ogg`
+- `ch25_l_032.ogg`
+- `ch25_l_033.ogg`
+- `ch25_l_034.ogg`
+- `ch25_l_035.ogg`
+- `ch25_l_036.ogg`
+- `ch25_l_037.ogg`
+- `ch25_l_038.ogg`
+- `ch25_l_039.ogg`
+- `ch25_l_040.ogg`
+- `ch25_l_041.ogg`
+- `ch25_l_042.ogg`
+- `ch25_s_065.ogg`
+- `ch25_s_066.ogg`
+- `ch25_s_067.ogg`
+- `ch25_s_068.ogg`
+- `ch25_s_069.ogg`
+- `ch25_s_070.ogg`
+- `ch25_s_071.ogg`
+- `ch25_s_072.ogg`
+- `ch25_s_073.ogg`
+- `ch25_s_074.ogg`
+- `ch25_s_075.ogg`
+- `ch25_s_076.ogg`
+- `ch25_s_077.ogg`
+- `ch25_s_078.ogg`
+- `ch25_s_079.ogg`
+- `ch25_s_080.ogg`
+- `ch25_s_081.ogg`
+- `ch25_s_082.ogg`
+- `ch25_s_083.ogg`
+- `ch25_s_084.ogg`
+- `ch25_s_085.ogg`
+- `ch25_s_086.ogg`
+- `ch25_s_087.ogg`
+- `ch25_s_088.ogg`
+- `ch25_s_089.ogg`
+- `ch25_s_090.ogg`
+- `ch25_s_091.ogg`
+- `ch25_s_092.ogg`
+- `ch25_s_093.ogg`
+- `ch25_s_094.ogg`
+- `ch25_s_096.ogg`
+- `ch25_s_097.ogg`
+- `ch25_s_098.ogg`
+- `ch25_s_099.ogg`
+- `ch25_s_100.ogg`
+- `ch25_s_101.ogg`
+- `ch25_s_102.ogg`
+- `ch25_s_103.ogg`
+- `ch25_s_104.ogg`
+- `ch25_s_105.ogg`
+- `ch25_s_106.ogg`
+- `ch25_s_107.ogg`
+- `ch25_s_108.ogg`
+- `ch25_s_109.ogg`
+- `ch25_s_110.ogg`
+- `ch25_s_111.ogg`
+- `ch25_s_112.ogg`
+- `ch25_s_113.ogg`
+- `ch25_si_004.ogg`
+- `ch25_si_005.ogg`
+- `ch25_si_006.ogg`
+- `ch25_si_007.ogg`
+- `ch25_t_021.ogg`
+- `ch25_t_023.ogg`
+- `ch25_t_024.ogg`
+- `ch25_t_025.ogg`
+- `ch25_t_027.ogg`
+- `ch25_t_028.ogg`
+- `ch25_t_029.ogg`
+- `ch25_t_030.ogg`
+- `ch25_t_031.ogg`
+- `ch25_t_032.ogg`
+- `ch25_t_033.ogg`
+- `ch25_t_034.ogg`
+- `ch25_t_035.ogg`
+- `ch25_t_037.ogg`
+- `ch25_t_038.ogg`
+- `ch25_t_039.ogg`
+- `ch25_t_041.ogg`
+- `ch25_t_042.ogg`
+- `ch25_t_043.ogg`
+- `ch25_t_044.ogg`
+- `ch25_t_045.ogg`
+- `ch25_t_046.ogg`
+- `ch25_t_050.ogg`
+- `ch25_t_052.ogg`
 
 ## Говорящие без `define` — зарегистрировать и указать в отчёте
 
