@@ -861,7 +861,7 @@ label ch13_1_scene_563:
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：ふ、不潔！  [voice 6998]
     voice "ch13_l_032"
-    l "H-How shameless!{#ch13_l_032}"
+    l "H-How filthy!{#ch13_l_032}"
 
     # [SPRITE   lay6     hide]
     # [SPRITE   lay5     image=+394, level=160, dir=1A]

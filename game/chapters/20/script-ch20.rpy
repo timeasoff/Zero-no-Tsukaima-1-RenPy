@@ -497,7 +497,7 @@ label ch20_scene_770:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # ハルナ：うん、いつまでもこの学院で……。
     voice "ch20_ha_001"
-    ha "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch20_ha_001}"
+    ha "Yeah. I can't stay at this academy forever… I've been wondering whether it's right to keep relying on Louise and the others.{#ch20_ha_001}"
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：そんなこといったら、俺なんかルイズに

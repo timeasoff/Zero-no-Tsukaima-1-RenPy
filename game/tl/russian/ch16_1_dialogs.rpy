@@ -42,7 +42,7 @@
     old "Ufufu. Isn't this fun.{#ch16_k_006}"
     new "Уф-фу. Это забавно."
 
-    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
+    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
     new "Слушай, Вальер. Чем больше препятствие, тем сильнее горит пламя моей любви…?"
 
     old "(Ufufu. If it's come to this, I'll just have to use force.){#ch16_k_008}"
@@ -358,7 +358,7 @@
     new "…"
 
     old "(O-Of course it was good! Though that imbalance was something else…){#ch16_s_034}"
-    new "К-Конечно, всё было хорошо! Хотя тот дисбаланс был просто невыразим…"
+    new "Хотя тот дисбаланс был просто неотразим…"
 
     old "…Haa.{#ch16_s_035}"
     new "…Фух."
@@ -406,5 +406,5 @@
     new "А!?"
 
     old "Ufufu!{#ch16_k_049}"
-    new "Уф-фу. Может, ты думал о чём-то неподобающем...?"
+    new "Уф-фу!"
 

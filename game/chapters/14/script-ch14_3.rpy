@@ -702,7 +702,7 @@ label ch14_3_scene_608:
     # [TRANS trans("crossfade", 1000)]
     # キュルケ：お、おにいちゃんをいじめないで……。  [voice 3752]
     voice "ch14_k_084"
-    k "O-Onii-chan. Don't be mean to me…{#ch14_k_084}"
+    k "O-Onii-chan. Don't be mean to him…{#ch14_k_084}"
 
     # ルイズ：……うっ。  [voice 7031]
     voice "ch14_l_028"

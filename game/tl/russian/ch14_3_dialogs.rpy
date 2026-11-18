@@ -273,7 +273,7 @@
     old "W-What is this? It's like I'm the bad one…{#ch14_l_027}"
     new "Ч-Что это? Получается, я плохая…"
 
-    old "O-Onii-chan. Don't be mean to me…{#ch14_k_084}"
+    old "O-Onii-chan. Don't be mean to him…{#ch14_k_084}"
     new "Б-Братишку не обижай…"
 
     old "…Ugh.{#ch14_l_028}"

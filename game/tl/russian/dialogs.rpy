@@ -16105,7 +16105,7 @@ translate russian strings:
     new "Я дома!"
 
     old "Whew, my legs feel like lead…{#ch6_l_001}"
-    new "Фух, ноги стали как ватные…"
+    new "Фух, ноги прямо деревянные…"
 
     old "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
     new "С возвращением, мадемуазель Валлиер, Сайто. Как прошли расспросы?"
@@ -16393,7 +16393,7 @@ translate russian strings:
     new "Опять за своё… Да, я тоже помогу."
 
     old "Um, I-I cannot do much, but if I can be of help…!{#ch6_si_004}"
-    new "Эм-м, я-я мало на что способна, но если смогу помочь…!"
+    new "Эм-м, я-я ничего не могу, но если чем-то помогу…!"
 
     old "I do not really understand, but if everyone says so…{#ch6_ha_001}"
     new "Я не совсем понимаю, но раз все так говорят…"
@@ -16925,7 +16925,7 @@ translate russian strings:
     new "А… Значит, на это можно смотреть и так."
 
     old "Exactly. People say some pretty irresponsible things. The Internet is the same way."
-    new "Именно. Люди часто говорят совершенно безответственные вещи. В интернете то же самое."
+    new "Именно. Люди, знаете ли, довольно безответственное говорят. В интернете то же самое."
 
     old "The Internet?"
     new "В интернете?"
@@ -17018,7 +17018,7 @@ translate russian strings:
     new "Да нет. Я вообще ничего не знаю об этом мире… то есть об этой стране."
 
     old "Ah, now that you mention it, that is true."
-    new "А, точно. Я ведь совсем забыла."
+    new "А, точно. Ты и правда права."
 
     old "Yes?{#ch6_2_d006}"
     new "Да?"
@@ -17476,7 +17476,7 @@ translate russian strings:
     new "Просто так."
 
     old "Honestly. What is that even supposed to mean, 'no particular reason'?{#ch7_l_013}"
-    new "Извини. «Просто так» — что это вообще значит, «просто так»?"
+    new "Ну! «Просто так» — что это вообще значит, «просто так»?"
 
     old "'No particular reason' is a handy little phrase. Doesn't it make everything sound resolved?{#ch7_s_012}"
     new "Удобное словечко — «просто так». Разве им не всё объяснить можно?"
@@ -17928,7 +17928,7 @@ translate russian strings:
     new "А? Это в каком смысле…"
 
     old "Eek!{#ch7.2_l_010}"
-    new "Ай!"
+    new "Ах!"
 
     old "What was that!? Where did it explode!?{#ch7.2_s_013}"
     new "Что это было!? Где взорвалось!?"
@@ -18160,7 +18160,7 @@ translate russian strings:
     new "Успокойся, Луиза. Ты же понимаешь, как ей было страшно в одиночестве!"
 
     old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
-    new "Знаю. Да даже я не настолько бестактна. Просто бесит его глупое жалкое слюнявое лицо!"
+    new "Просто бесит его глупое жалкое влюблённо-томное лицо!"
 
     old "Jealousy.{#ch7.3_t_001}"
     new "Ревность."

@@ -123,7 +123,7 @@
     old "Ah… No, really, Saito-san, apologizing… It's my carelessness, so… I'm sorry!{#ch21_si_012}"
     new "Ах… Нет, правда, Сайто-сан, извиняйте… Это моя невнимательность, так что… простите!"
 
-    old "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
+    old "Hmph, our tea time is ruined. I've completely lost the mood for it. Let's go, Montmorency.{#ch21_g_004}"
     new "Хмф, наш чай испорчен. Настроение испорчено. Идём, Монморанси."
 
     old "Right!{#ch21_m_004}"

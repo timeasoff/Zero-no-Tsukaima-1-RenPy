@@ -355,7 +355,7 @@
     old "T-Tell me you're lying, Haruna!{#ch12_s_028}"
     new "サイト：う、嘘だといってくれよ、春奈！"
 
-    old "If I said it was a lie, would this reality change? Then I'd say it a hundred times. I am Akina.{#ch12_ak_007}"
+    old "If I said it was a lie, would this reality change? Then I'd say it again and again. I am Akina.{#ch12_ak_007}"
     new "アキナ：嘘だといったらこの現実は変わるの？だったら何度でも言ってたら？あたしはアキナなの。"
 
     old "I don't believe it. That the bomb-thrower was Haruna!{#ch12_s_029}"

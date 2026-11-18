@@ -2,7 +2,7 @@
 # (ch11_1: scenes 467-471, 32 dialogue lines)
     old "Good morning, Saito-san, Miss Varière!{#ch11_si_001}"
     new "シエスタ：サイトさん、ミス・ヴァリエール。おはようございます！"
-    old "Ugh, what? It's not even morning yet.{#ch11_s_001}"
+    old "Ugh, what? It's not time to get up yet.{#ch11_s_001}"
     new "サイト：ううっ、なんだ？まだ起きる時間じゃないのに。"
     old "What is it, really? Saito…… get out already……{#ch11_l_001}"
     new "ルイズ：なによぉ？いったい。サイト……早く出てよ……。"

@@ -285,7 +285,7 @@
     old "Eh? What do you mean, becoming independent?{#ch20_s_048}"
     new "サイト：えっ、自立するってどういうことだよ？"
 
-    old "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch20_ha_001}"
+    old "Yeah. I can't stay at this academy forever… I've been wondering whether it's right to keep relying on Louise and the others.{#ch20_ha_001}"
     new "ハルナ：うん、いつまでもこの学院で……。ルイズさん達の世話になってるのもどうかなって思って。"
 
     old "If you say that, then I've been taken care of by this academy ever since Louise summoned me.{#ch20_s_049}"

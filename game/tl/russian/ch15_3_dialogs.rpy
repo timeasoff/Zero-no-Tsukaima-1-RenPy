@@ -186,7 +186,7 @@
     old "Noooo! …Gulp.{#ch15_k_033}"
     new "Нееет! …Глоток."
 
-    old "T-Touche, Louise! That's too rough!{#ch15_m_013}"
+    old "H-Hey, Louise! That's too much!{#ch15_m_013}"
     new "Т-Ты чего, Луиза! Это слишком грубо!"
 
     old "…{#ch15_l_079}"

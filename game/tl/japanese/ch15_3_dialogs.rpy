@@ -186,7 +186,7 @@
     old "Noooo! …Gulp.{#ch15_k_033}"
     new "キュルケ：やだーーーっ！……んぐ。"
 
-    old "T-Touche, Louise! That's too rough!{#ch15_m_013}"
+    old "H-Hey, Louise! That's too much!{#ch15_m_013}"
     new "モンモランシー：ち、ちょっとルイズっ！無茶苦茶よっ！"
 
     old "…{#ch15_l_079}"

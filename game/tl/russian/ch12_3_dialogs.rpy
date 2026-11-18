@@ -243,7 +243,7 @@
     old "A proposal! A proposal!{#ch12_ak_063}"
     new "Предложение! Предложение!"
 
-    old "In other words, I love you!{#ch12_ak_064}"
+    old "In other words, you're saying 'I love you' to me!{#ch12_ak_064}"
     new "Иными словами — ты любишь меня!"
 
     old "…{#ch12_s_105}"
@@ -405,7 +405,7 @@
     old "W-What!?{#ch12_ak_076}"
     new "Ч-Что!?"
 
-    old "My my, it seems the battle of the sexes has only just begun.{#ch12_h_015}"
+    old "My my, it seems the fight between the women has only just begun.{#ch12_h_015}"
     new "Ой-ой, кажется, женская битва только начинается."
 
     old "Spare me…{#ch12_s_134}"

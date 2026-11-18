@@ -124,7 +124,7 @@
     new "…Тяжёлая была ночь, да?"
 
     old "Honestly, why does this keep happening to me…{#ch15_s_021}"
-    new "О-Оу!"
+    new "Чёрт, почему именно мне всё это выпадает…"
 
     old "Say, Montmon. How's the medicine for Kirche's suggestion coming along?{#ch15_s_022}"
     new "Слушай, Монмон. Как дела с лекарством от гипнотического внушения Кирке?"

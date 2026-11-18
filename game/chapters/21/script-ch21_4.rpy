@@ -718,7 +718,7 @@ label ch21_4_scene_1507:
     # [SPRITE   lay1     image=+343, level=160, dir=2A]
     # ルイズ：何よ！
     voice "ch21_l_075"
-    l "What! Simply being able to eat the food my familiar makes should be thanks enough!{#ch21_l_075}"
+    l "What! Simply being able to eat the food your mistress makes should be thanks enough!{#ch21_l_075}"
 
     # [SPRITE   lay1     hide]
     # [SPRITE   lay5     image=+429, level=160, dir=2A]

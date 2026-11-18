@@ -33,7 +33,7 @@
     old "W-Well, you see! Actually…!{#ch13_soldier_004}"
     new "味方Ａ：そ、それがですねっ！実は……！"
 
-    old "(Oh boy. That soldier is getting all flustered by Kirche…){#ch13_s_053}"
+    old "(Oh boy. That soldier is drooling over Kirche…){#ch13_s_053}"
     new "（あ～あ。あの兵隊さん、キュルケに迫られて、鼻の下のばしちゃって……）"
 
     old "(…Hmm, is that the face I make when Kirche comes on to me…?){#ch13_s_054}"

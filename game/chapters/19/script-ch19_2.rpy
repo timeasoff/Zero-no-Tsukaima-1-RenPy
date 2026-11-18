@@ -199,7 +199,7 @@ label ch19_2_scene_753:
     # [SPRITE   lay1     image=+343, level=160, dir=2A]
     # ルイズ：な、なによ……。
     voice "ch19_l_231"
-    l "W-What… It's only natural to worry about your own familiar.{#ch19_l_231}"
+    l "W-What… It's not as if worrying about your own familiar is a sin, is it?{#ch19_l_231}"
 
     # [SPRITE   lay6     hide]
     # → next scene 755

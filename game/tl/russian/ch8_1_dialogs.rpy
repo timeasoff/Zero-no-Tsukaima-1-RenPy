@@ -156,8 +156,8 @@ translate russian strings:
     old "Then let's hear it and decide what to do next.{#ch8_s_026}"
     new "Тогда давайте выслушаем её и решим, что делать дальше."
 
-    old "Right. / Let's tell the Princess about Siesta.{#ch8_l_007}"
-    new "Хорошо. / Расскажите принцессе о Сиесте."
+    old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
+    new "Хорошо. / Пусть Сиеста побудет с принцессой."
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
     new "Понял. / Я передам Сиесте."
@@ -168,7 +168,7 @@ translate russian strings:
     old "And on top of that…{#ch8_k_002}"
     new "И кроме того…"
 
-    old "Sounds like there's some good news…{#ch8_l_008}"
+    old "Sounds like there's some bad news…{#ch8_l_008}"
     new "Похоже, есть ещё новость похуже…"
 
     old "Terrible news.{#ch8_k_003}"

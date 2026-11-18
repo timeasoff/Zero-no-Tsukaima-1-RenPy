@@ -2,10 +2,10 @@
 translate russian strings:
 
     old "Hah… / It's been a while since then, / but Louise is still holding a grudge. {#ch9_s_001}"
-    new "Фу-у… / Прошло уже немало времени, / а Луиза всё ещё дуется."
+    new "Фу-у… / Прошло уже немало времени, / а Луиза всё ещё таит на меня зло."
 
     old "I said it was involuntary, the Princess's kiss… {#ch9_s_002}"
-    new "Я же говорю: этот поцелуй принцессы — чистая случайность…"
+    new "Я же говорю: поцелуй принцессы — я не мог ничего поделать…"
 
     old "Come to think of it, what's the Princess up to now? / Is she working hard? {#ch9_s_003}"
     new "Кстати, интересно, как там сейчас принцесса? / Работает вовсю?"
@@ -68,7 +68,7 @@ translate russian strings:
     new "Значит, всё-таки нельзя, чтобы нас видели?"
 
     old "Sorry, I thought you were helping me, / but please be more discreet. {#ch9_s_017}"
-    new "Простите, я думал, вы мне помогаете, / но, пожалуйста, ведите себя поосторожнее."
+    new "Простите, я думал, вы мне помогаете, / но, пожалуйста, будьте осторожнее — чтобы никто не заметил."
 
     old "Understood. / So I should come secretly? {#ch9_h_009}"
     new "Понимаю. / Значит, надо приходить тайком?"
@@ -263,7 +263,7 @@ translate russian strings:
     new "Я тоже не против. / Я понимаю ситуацию."
 
     old "Then I feel sorry myself. {#ch9_h_027}"
-    new "Тогда мне будет неловко."
+    new "Тогда мне будет горько."
 
     old "At least for you, my familiar, / I'd like to offer / what I can do for you personally. {#ch9_h_028}"
     new "По крайней мере вам, мой фамильяр, / я хотела бы предложить / то, что могу сделать для вас лично."

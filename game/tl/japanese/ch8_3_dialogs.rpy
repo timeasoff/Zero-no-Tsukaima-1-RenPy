@@ -118,7 +118,7 @@ translate japanese strings:
     old "Siesta, wait here. The academy is safer, but there's no time. {#ch8_s_091}"
     new "シエスタは、ここで待っててくれ。 / 本当は学院のほうが安全だけど、 / そんな時間もない。"
 
-    old "Yes! Please give me your support, Saito-san…! {#ch8_si_013}"
+    old "Yes! Good luck in battle, Saito-san…! {#ch8_si_013}"
     new "は、はいっ。 / サイトさん、ご武運を……。"
 
     old "Yeah… {#ch8_s_092}"
@@ -340,7 +340,7 @@ translate japanese strings:
     old "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
     new "ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！"
 
-    old "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
+    old "Come then! All I have left are the fangs and claws of my resentment and rage! Take this!! {#ch8_w_021}"
     new "ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！!"
 
     old "I guess we really have to fight then. {#ch8_s_106}"
@@ -361,13 +361,13 @@ translate japanese strings:
     old "Heh heh heh… {#ch8_w_023}"
     new "……ふ、ふふふっ。"
 
-    old "Did you really think I'd be defeated by a queen I underestimated? {#ch8_w_024}"
+    old "I never imagined I'd be defeated by a queen I looked down on as inexperienced!{#ch8_w_024}"
     new "まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。"
 
     old "Weatherby… {#ch8_s_116}"
     new "ウェザラー。"
 
-    old "Then at this point, no mercy for the defeated! This is the finishing blow! {#ch8_w_025}"
+    old "Then at this point, no mercy for the defeated! I won't live in shame — finish me off with one blow! {#ch8_w_025}"
     new "さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow."
 
     old "What should the Princess do? {#ch8_s_117}"

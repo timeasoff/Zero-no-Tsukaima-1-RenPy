@@ -318,7 +318,7 @@
     old "I so regret summoning you right now.{#ch17_l_021}"
     new "ルイズ：今、あんたを召喚したこと、すっごく後悔したわ。"
 
-    old "What, Louise. You look depressed… Maybe I'm wrong?{#ch17_s_038}"
+    old "What, Louise. You look really depressed… Maybe I'm wrong?{#ch17_s_038}"
     new "サイト：どうした、ルイズ。ひどく落ち込んでるみたいだけど……。もしかして、ちがうの？"
 
     old "The craftsmen were called after the incidents, right? Then why bomb first! That bomb-loving craftsman!{#ch17_l_022}"
@@ -399,7 +399,7 @@
     old "What!? Have they already forgotten their defeat the other day!{#ch17_commander_014}"
     new "将校：何だと！レコン・キスタめ！先日の敗戦をもう忘れたか！"
 
-    old "At current speed, the fleet will enter Tristain's airspace in a little under two days.{#ch17_soldier_007}"
+    old "Judging from their current position, the fleet will enter Tristain's airspace in a little over two days.{#ch17_soldier_007}"
     new "味方Ａ：現在の位置から推測するに、艦隊がトリステインの領空に入るまで、二日と少々という結果が出ています。"
 
     old "All available units—recover the cannons immediately! Mages, don't lose sight of the fleet!{#ch17_h_021}"

@@ -369,7 +369,7 @@
     old "Under this beautiful starry sky, a man and a woman go out. Doesn't that pretty much tell you what they'll do?{#ch13_k_034}"
     new "キュルケ：この美しい星空の下で、男と女が出かける。って言ったら、やることは決まってるでしょ？"
 
-    old "H-How shameless!{#ch13_l_032}"
+    old "H-How filthy!{#ch13_l_032}"
     new "ルイズ：ふ、不潔！"
 
     old "W-Wait, Louise! Don't worry—what you're imagining will never happen!{#ch13_s_048}"

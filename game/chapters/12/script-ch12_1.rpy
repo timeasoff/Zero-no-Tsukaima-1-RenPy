@@ -119,7 +119,7 @@ label ch12_1_scene_510:
             jump ch12_1_scene_511
         "But what about Louise!?{#ch12_1_c_510_2}":
             jump ch12_1_scene_512
-        "T-That's easy for you to say!{#ch12_1_c_510_3}":
+        "T-Don't say that to me!{#ch12_1_c_510_3}":
             jump ch12_1_scene_513
 
 label ch12_1_scene_511:
@@ -898,7 +898,7 @@ label ch12_1_scene_523:
     # [SPRITE   lay21    image=+1017, level=160, dir=1A]
     # アキナ：嘘だといったらこの現実は変わるの？
     voice "ch12_ak_007"
-    ak "If I said it was a lie, would this reality change? Then I'd say it a hundred times. I am Akina.{#ch12_ak_007}"
+    ak "If I said it was a lie, would this reality change? Then I'd say it again and again. I am Akina.{#ch12_ak_007}"
 
     # → next scene 525
     jump ch12_2

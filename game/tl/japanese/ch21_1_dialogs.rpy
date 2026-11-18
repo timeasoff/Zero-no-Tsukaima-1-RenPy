@@ -123,7 +123,7 @@
     old "Ah… No, really, Saito-san, apologizing… It's my carelessness, so… I'm sorry!{#ch21_si_012}"
     new "シエスタ：あっ……。いや、そんな、サイトさんが謝るなんて……。わたしの不注意で、そのっ、ごめんなさいっ！"
 
-    old "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
+    old "Hmph, our tea time is ruined. I've completely lost the mood for it. Let's go, Montmorency.{#ch21_g_004}"
     new "ギーシュ：ふん、せっかくのティータイムが台無しだ。すっかり興ざめだよ。行こう、モンモランシー。"
 
     old "Right!{#ch21_m_004}"

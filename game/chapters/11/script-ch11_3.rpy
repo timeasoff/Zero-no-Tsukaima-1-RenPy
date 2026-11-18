@@ -566,7 +566,7 @@ label ch11_3_scene_485:
             jump ch11_3_scene_486
         "Should we return it?{#ch11_3_c_485_2}":
             jump ch11_3_scene_487
-        "Don't we just need to toss it?{#ch11_3_c_485_3}":
+        "We don't need it, do we?{#ch11_3_c_485_3}":
             jump ch11_3_scene_488
 
 label ch11_3_scene_486:

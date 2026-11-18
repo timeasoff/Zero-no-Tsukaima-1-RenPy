@@ -10,7 +10,7 @@
     new "Ну, если наш вывод верен, её здесь и не должно быть."
 
     old "You think so? The castle must be part of the final objective. She might be keeping watch.{#ch14_k_052}"
-    new "Думаешь? Замок наверняка входит в конечную цель. Возможно, она пришла выслеживать."
+    new "Думаешь? Замок наверняка входит в конечную цель. Возможно, она пришла наблюдать за замком."
 
     old "We don't know what she's planning.{#ch14_k_053}"
     new "Мы не знаем, что она задумала."

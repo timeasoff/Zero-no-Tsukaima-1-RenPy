@@ -300,7 +300,7 @@
     old "(Hang in there, me. I can do it if I try. I will definitely survive this.){#ch21_s_224}"
     new "Держись, я. Если постараюсь, у меня получится. Я обязательно выживу."
 
-    old "What! Simply being able to eat the food my familiar makes should be thanks enough!{#ch21_l_075}"
+    old "What! Simply being able to eat the food your mistress makes should be thanks enough!{#ch21_l_075}"
     new "Что! Одного того, что ты можешь есть еду, приготовленную госпожой, должно быть достаточно!"
 
     old "Whoa, she left the room… What's going to become of me…{#ch21_s_225}"

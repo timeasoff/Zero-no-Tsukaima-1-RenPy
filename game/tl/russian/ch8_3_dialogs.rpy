@@ -112,8 +112,8 @@ translate russian strings:
     old "Siesta, wait here. The academy is safer, but there's no time. {#ch8_s_091}"
     new "Сьеста, подожди здесь. Академия безопаснее, но времени нет."
 
-    old "Yes! Please give me your support, Saito-san…! {#ch8_si_013}"
-    new "Ха-ай! Пожалуйста, поддержите меня, Сайто-сан…!"
+    old "Yes! Good luck in battle, Saito-san…! {#ch8_si_013}"
+    new "Ха-ай! Желаю вам удачи в бою, Сайто-сан…!"
 
     old "Yeah… {#ch8_s_092}"
     new "Аа…"
@@ -149,7 +149,7 @@ translate russian strings:
     new "Быть королём — ерунда. Главное — чтобы рядом был кто-то, в кого можно верить."
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
-    new "Гав. С утра у восточной батареи идут мелкие сражения."
+    new "Есть! С утра у восточной батареи идут мелкие сражения."
 
     old "That would explain why the castle bombardment has stopped, for now. {#ch8_o_002}"
     new "Поэтому, вероятно, обстрел замка пока прекратился."
@@ -340,8 +340,8 @@ translate russian strings:
     old "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
     new "Тогда пусть хоть в открытую схватку убью королеву!"
 
-    old "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
-    new "Иди же! Остались только гордость и гнев! Прими это!!"
+    old "Come then! All I have left are the fangs and claws of my resentment and rage! Take this!! {#ch8_w_021}"
+    new "Иди же! Остались только горечь и гнев — мои зубы и когти! Прими это!!"
 
     old "I guess we really have to fight then. {#ch8_s_106}"
     new "Видимо, действительно придётся драться."
@@ -361,14 +361,14 @@ translate russian strings:
     old "Heh heh heh… {#ch8_w_023}"
     new "Хе-хе-хе…"
 
-    old "Did you really think I'd be defeated by a queen I underestimated? {#ch8_w_024}"
-    new "Неужели ты думал, что проиграшь подручной, которой пренебрегал?"
+    old "I never imagined I'd be defeated by a queen I looked down on as inexperienced!{#ch8_w_024}"
+    new "Неужели я ожидала, что проиграю королеве, которую считала неопытной?"
 
     old "Weatherby… {#ch8_s_116}"
     new "Везерли…"
 
-    old "Then at this point, no mercy for the defeated! This is the finishing blow! {#ch8_w_025}"
-    new "Тогда на этом этапе — не жалеть побеждённых! Это решающий удар!"
+    old "Then at this point, no mercy for the defeated! I won't live in shame — finish me off with one blow! {#ch8_w_025}"
+    new "Тогда на этом этапе — не жалеть побеждённых! Я не стану жить в позоре. Прикончи меня сразу!"
 
     old "What should the Princess do? {#ch8_s_117}"
     new "Что должна сделать Принцесса?"

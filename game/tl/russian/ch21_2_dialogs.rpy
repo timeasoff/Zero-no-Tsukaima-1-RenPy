@@ -87,7 +87,7 @@
     old "Siesta has the right to love someone, too. But she's got some nerve setting her sights on my darling!{#ch21_k_010}"
     new "Сиэста тоже имеет право любить. Но хватать моего дорогого — храбрости ей не занимать!"
 
-    old "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you!{#ch21_l_040}"
+    old "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you, even if it kills me!{#ch21_l_040}"
     new "Кто сказал, что она твоя возлюбленная? Мой фамильяр вправе делать что хочет, но отдать её тебе — ни за что, даже если придётся умереть!"
 
     old "Oh? Could it be, Louise, that you're in love with your familiar?{#ch21_k_011}"
@@ -243,8 +243,8 @@
     old "So, what's the contest going to be? The important part.{#ch21_l_049}"
     new "Так, а в чём будет состязание? Главное."
 
-    old "No, would you all stop taking this so seriously!{#ch21_s_084}"
-    new "Нет, неужели вы не можете не принимать это так серьёзно!"
+    old "No, would you all stop calmly steamrolling ahead with this!{#ch21_s_084}"
+    new "Нет, перестаньте всё делать так невозмутимо!"
 
     old "Hmm, let me think… Something Siesta could do even without magic…{#ch21_k_020}"
     new "Хм, подумаем… Что-то, что Сиэста может делать даже без магии…"

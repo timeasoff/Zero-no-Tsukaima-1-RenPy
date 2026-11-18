@@ -87,7 +87,7 @@
     old "Oh, Louise. Are you worried about darling?{#ch19_k_051}"
     new "О, Луиза. Неужто ты волнуешься за дорогого?"
 
-    old "W-What… It's only natural to worry about your own familiar.{#ch19_l_231}"
+    old "W-What… It's not as if worrying about your own familiar is a sin, is it?{#ch19_l_231}"
     new "Ч-Что… Волноваться за своего фамильяра — ничего дурного, правда?"
 
     old "What are you talking about, Louise? I'm more worried about you.{#ch19_s_293}"

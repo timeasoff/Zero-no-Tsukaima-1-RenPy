@@ -192,7 +192,7 @@
     new "ウェザリー：あら、貴族の子弟を芝居の舞台などに / 立たせたことで、お叱りがあるかと / 覚悟を決めておりましたのに。"
     old "Well, how is it? / And what kind of story is it? {#ch10_o_009}"
     new "オスマン：さあ、どうですかの……。 / それで、どのようなお話ですかな？"
-    old "Well, in the last performance / Miss Hannah performing here / I heard. {#ch10_w_003}"
+    old "Well, I heard that Miss Haruna, who played the heroine in that performance, is here. {#ch10_w_003}"
     new "ウェザリー：いえいえ、その先日の公演で / ヒロインを演じたミス・ハルナが、 / こちらにいるとのお話を聞きまして。"
     old "I heard she's not a student... {#ch10_w_004}"
     new "ウェザリー：聞けば、生徒ではないとか……。"

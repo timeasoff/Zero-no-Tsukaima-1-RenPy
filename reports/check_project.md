@@ -8,7 +8,7 @@
 
 - нет
 
-## WARNING (929)
+## WARNING (928)
 
 - W5 18 string(s) outside game/chapters/ missing in tl/japanese (UI/screens)
 - W1 stale old in tl/japanese at game/tl/japanese/ch8_2_thoughs.rpy:6: (I can't tell anyone about Void Magic…)
@@ -302,7 +302,6 @@
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:160: {size=+14}You can find the contact information in the "About the Game"
 - W1 stale old in tl/russian at game/tl/russian/overlays.rpy:151: {size=+14}You've reached the end of the available content!{/size}
 - W1 stale old in tl/russian at game/tl/russian/ch8_3_thoughs.rpy:23: （虚無のことは誰にも言えないからな……）
-- W2 27 ogg not referenced by any script
 - I1 ch0: 16 script strings > 15 source talk
 - I1 ch1: 1313 script strings > 1244 source talk
 - I1 ch2: 1468 script strings > 1382 source talk
@@ -944,7 +943,7 @@
 
 - speakers defined: 37
 - overlay K: max=19 used=17 next_free=20
-- voices: refs=11271 ogg=11295 missing=0
+- voices: refs=11271 ogg check SKIPPED (audio not installed)
 - I1 ch8: strings=376 source_talk=378 (gap expected)
 - I1 ch9: strings=119 source_talk=120 (gap expected)
 - I1 ch10: strings=329 source_talk=492 (gap expected)

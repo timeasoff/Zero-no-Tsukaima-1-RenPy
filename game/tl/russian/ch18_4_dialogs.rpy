@@ -49,7 +49,7 @@
     new "И на этот раз… Да — даже если это будет стоить мне жизни."
 
     old "You stupid idiot!{#ch18_s_193}"
-    new "Глупая!"
+    new "Идиотка!"
 
     old "Why did you hit me…? You familiar, you cur—hitting your mistress!{#ch18_l_140}"
     new "Зачем ты меня ударил…? Фамильяр, пёс — бить свою госпожу!"
@@ -418,7 +418,7 @@
     new "Э-Э, я и сам не понимаю."
 
     old "It's fine! I'll take that battleship down perfectly!{#ch18_l_180}"
-    new "Всё хорошо! Я точно свергну тот корабль!"
+    new "Всё хорошо! Я точно разделаюсь с тем кораблём!"
 
     old "Surely not that thing from the other day…?{#ch18_s_230}"
     new "Неужели ту штуку на днях…?"

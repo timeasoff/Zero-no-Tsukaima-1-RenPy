@@ -16,7 +16,7 @@
     old "Should we return it?{#ch11_3_c_485_2}"
     new "届けたほうがいいのかな？"
 
-    old "Don't we just need to toss it?{#ch11_3_c_485_3}"
+    old "We don't need it, do we?{#ch11_3_c_485_3}"
     new "いらないんじゃない？"
 
     old "I have to return the notebook to Haruna.{#ch11_3_c_490_1}"

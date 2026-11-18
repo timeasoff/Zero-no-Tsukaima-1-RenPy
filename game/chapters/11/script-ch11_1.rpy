@@ -40,7 +40,7 @@ label ch11:
     # サイト：ううっ、なんだ？
     # まだ起きる時間じゃないのに。  [voice 13216]
     voice "ch11_s_001"
-    s "Ugh, what? It's not even morning yet.{#ch11_s_001}"
+    s "Ugh, what? It's not time to get up yet.{#ch11_s_001}"
     # JA[13216]: サイト：ううっ、なんだ？
     #   まだ起きる時間じゃないのに。
     # ルイズ：なによぉ？

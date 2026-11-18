@@ -508,7 +508,7 @@
     new "Но Кирке и остальные одни…"
 
     old "Tabitha and I can hold out quite a while. Playing for time is boring, though…{#ch18_k_034}"
-    new "Мы с Табасой продержимся довольно долго. Только роль отвлекающей приманки скучна…"
+    new "Мы с Табасой продержимся довольно долго. Только роль того, кто выигрывает время, обидна…"
 
     old "But if the academy stays occupied, we're stuck anyway. You two move.{#ch18_t_023}"
     new "Но если академия останется захваченной, мы всё равно в тупике. Вы двое действуйте."

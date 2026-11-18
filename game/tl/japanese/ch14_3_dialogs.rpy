@@ -273,7 +273,7 @@
     old "W-What is this? It's like I'm the bad one…{#ch14_l_027}"
     new "ルイズ：な、なによ。まるで、わたしが悪いみたいじゃない。"
 
-    old "O-Onii-chan. Don't be mean to me…{#ch14_k_084}"
+    old "O-Onii-chan. Don't be mean to him…{#ch14_k_084}"
     new "キュルケ：お、おにいちゃんをいじめないで……。"
 
     old "…Ugh.{#ch14_l_028}"

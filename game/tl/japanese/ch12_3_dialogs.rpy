@@ -243,7 +243,7 @@
     old "A proposal! A proposal!{#ch12_ak_063}"
     new "アキナ：プロポーズよ、プロポーズ！"
 
-    old "In other words, I love you!{#ch12_ak_064}"
+    old "In other words, you're saying 'I love you' to me!{#ch12_ak_064}"
     new "アキナ：つまり、あなたがわたしにアイラブユーよ。"
 
     old "…{#ch12_s_105}"
@@ -405,7 +405,7 @@
     old "W-What!?{#ch12_ak_076}"
     new "アキナ：な、なによ～～！"
 
-    old "My my, it seems the battle of the sexes has only just begun.{#ch12_h_015}"
+    old "My my, it seems the fight between the women has only just begun.{#ch12_h_015}"
     new "アンリエッタ：あらあら、女の戦いははじまったばかりみたいですね。"
 
     old "Spare me…{#ch12_s_134}"

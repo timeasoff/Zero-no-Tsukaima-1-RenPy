@@ -42,7 +42,7 @@
     old "Ufufu. Isn't this fun.{#ch16_k_006}"
     new "キュルケ：うふふ。面白いじゃない。"
 
-    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
+    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
     new "キュルケ：いいこと、ヴァリエール。障害が大きいほど、あたしの恋の炎は燃え上がるのよ……？"
 
     old "(Ufufu. If it's come to this, I'll just have to use force.){#ch16_k_008}"

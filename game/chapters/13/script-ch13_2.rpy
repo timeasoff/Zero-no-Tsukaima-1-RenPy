@@ -71,7 +71,7 @@ label ch13_2_scene_1469:
     soldier "W-Well, you see! Actually…!{#ch13_soldier_004}"
 
     # サイト：（あ～あ。
-    s "(Oh boy. That soldier is getting all flustered by Kirche…){#ch13_s_053}"
+    s "(Oh boy. That soldier is drooling over Kirche…){#ch13_s_053}"
 
     # サイト：（……お、俺もキュルケに迫られてる時って
     s "(…Hmm, is that the face I make when Kirche comes on to me…?){#ch13_s_054}"

@@ -6,8 +6,8 @@
     old "But what about Louise!?{#ch12_1_c_510_2}"
     new "А Луиза?!"
 
-    old "T-That's easy for you to say!{#ch12_1_c_510_3}"
-    new "Т-Так не говори!"
+    old "T-Don't say that to me!{#ch12_1_c_510_3}"
+    new "Т-Не говори мне такого!{#ch12_1_c_510_3}"
 
     old "Cut the joke!{#ch12_1_c_521_1}"
     new "Хватит шутить!"

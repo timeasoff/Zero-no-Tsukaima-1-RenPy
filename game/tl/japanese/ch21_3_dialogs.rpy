@@ -414,7 +414,7 @@
     old "If it comes to it, I'll protect everyone with this. Right, Derf—I'm counting on you, partner!{#ch21_s_164}"
     new "サイト：いざとなったら、コイツでみんなを守ってやるさ。なぁ、デルフっ……頼りにしてるぜ、相棒っ！"
 
-    old "Hah… Don't expect one village girl to be handled by your one arm. Figure it out yourself.{#ch21_d_018}"
+    old "Hah… Just one village girl — handle her with that one arm of yours, I'm telling you. Figure it out yourself.{#ch21_d_018}"
     new "デルフリンガー：へっ……。たかが村娘の１人ぐらい、おめぇの腕一本で何とかしやがれってんだ。"
 
     old "D-Don't say that! Please, Derflinger-saaan!{#ch21_s_165}"

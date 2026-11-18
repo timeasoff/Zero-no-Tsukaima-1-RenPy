@@ -2,7 +2,7 @@
 # (ch11_1: scenes 467-471, 32 dialogue lines)
     old "Good morning, Saito-san, Miss Varière!{#ch11_si_001}"
     new "Сайто-сан, мисс Вальер. Доброе утро!"
-    old "Ugh, what? It's not even morning yet.{#ch11_s_001}"
+    old "Ugh, what? It's not time to get up yet.{#ch11_s_001}"
     new "Уу, что? Ещё же рано вставать."
     old "What is it, really? Saito…… get out already……{#ch11_l_001}"
     new "Что такое, в самом деле? Сайто… быстрее выходи…"

@@ -355,8 +355,8 @@
     old "T-Tell me you're lying, Haruna!{#ch12_s_028}"
     new "С-Скажи, что это неправда, Харуна!"
 
-    old "If I said it was a lie, would this reality change? Then I'd say it a hundred times. I am Akina.{#ch12_ak_007}"
-    new "Если я скажу, что это ложь, разве эта реальность изменится? Тогда я повторю хоть сто раз. Я — Акина."
+    old "If I said it was a lie, would this reality change? Then I'd say it again and again. I am Akina.{#ch12_ak_007}"
+    new "Если я скажу, что это ложь, разве эта реальность изменится? Тогда я буду повторять снова и снова. Я — Акина."
 
     old "I don't believe it. That the bomb-thrower was Haruna!{#ch12_s_029}"
     new "Я не верю. Что бомбистом была Харуна!"

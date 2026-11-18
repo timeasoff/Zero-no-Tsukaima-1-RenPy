@@ -244,7 +244,7 @@ label ch8_3:
     # JA[13650]: サイト：シエスタは、ここで待っててくれ。 / 本当は学院のほうが安全だけど、 / そんな時間もない。
     # シエスタ：は、はいっ。 / サイトさん、ご武運を……。  [voice 15179]
     voice "ch8_si_013"
-    si "Yes! Please give me your support, Saito-san…! {#ch8_si_013}"
+    si "Yes! Good luck in battle, Saito-san…! {#ch8_si_013}"
     # JA[15179]: シエスタ：は、はいっ。 / サイトさん、ご武運を……。
     # サイト：ああ……。  [voice 13651]
     voice "ch8_s_092"
@@ -604,7 +604,7 @@ label ch8_3:
     # JA[16185]: ウェザリー：ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！
     # ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！！  [voice 16186]
     voice "ch8_w_021"
-    w "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
+    w "Come then! All I have left are the fangs and claws of my resentment and rage! Take this!! {#ch8_w_021}"
     # JA[16186]: ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！!
     # サイト：やっぱり戦うしかないのか。  [voice 13666]
     voice "ch8_s_106"
@@ -644,7 +644,7 @@ label ch8_3:
     # JA[16188]: ウェザリー：……ふ、ふふふっ。
     # ウェザリー：まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。  [voice 16189]
     voice "ch8_w_024"
-    w "Did you really think I'd be defeated by a queen I underestimated? {#ch8_w_024}"
+    w "I never imagined I'd be defeated by a queen I looked down on as inexperienced!{#ch8_w_024}"
     # JA[16189]: ウェザリー：まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。
     # サイト：ウェザリー……。  [voice 13669]
     voice "ch8_s_116"
@@ -652,7 +652,7 @@ label ch8_3:
     # JA[13669]: サイト：ウェザラー。
     # ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.  [voice 16190]
     voice "ch8_w_025"
-    w "Then at this point, no mercy for the defeated! This is the finishing blow! {#ch8_w_025}"
+    w "Then at this point, no mercy for the defeated! I won't live in shame — finish me off with one blow! {#ch8_w_025}"
     # JA[16190]: ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.
     # サイト：お姫さま、どうします？  [voice 13670]
     voice "ch8_s_117"

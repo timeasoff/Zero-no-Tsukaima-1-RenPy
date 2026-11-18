@@ -86,7 +86,7 @@ translate russian strings:
     new "Да, верно. / С ним я могу учиться и в этом мире."
 
     old "You really are a model student. {#ch10_s_012}"
-    new "Ты и в самом деле прилежная."
+    new "Ты и в самом деле отличница."
 
     old "I'm glad you found the bag. / Really. {#ch10_h_018}"
     new "Рада, что ты нашёл сумку. / Правда."
@@ -341,7 +341,7 @@ translate russian strings:
     new "_(…Прошло уже минут тридцать с начала, да? / А почистила всего одну…)_"
 
     old "It's, it's peeled very beautifully, / I think that's amazing. {#ch10_si_014}"
-    new "Она, она очень красиво почищена, / это потрясающе."
+    new "О-очень красиво почищена, / это потрясающе."
 
     old "But we cook a lot, / so speed and quantity matter too. {#ch10_si_015}"
     new "Но мы готовим много, / так что важны и скорость, и количество."

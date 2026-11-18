@@ -474,7 +474,7 @@ label ch15_3_scene_652:
     # [SPRITE   lay3     image=+856, level=149, dir=1A]
     # モンモランシー：ち、ちょっとルイズっ！
     voice "ch15_m_013"
-    m "T-Touche, Louise! That's too rough!{#ch15_m_013}"
+    m "H-Hey, Louise! That's too much!{#ch15_m_013}"
 
     # [SPRITE   lay1     image=+302, level=153, dir=1A]
     # ルイズ：……。  [voice 7127]

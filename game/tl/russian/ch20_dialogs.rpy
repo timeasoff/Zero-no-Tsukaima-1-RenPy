@@ -285,7 +285,7 @@
     old "Eh? What do you mean, becoming independent?{#ch20_s_048}"
     new "А? Что значит — стать самостоятельной?"
 
-    old "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch20_ha_001}"
+    old "Yeah. I can't stay at this academy forever… I've been wondering whether it's right to keep relying on Louise and the others.{#ch20_ha_001}"
     new "Да. Вечно оставаться в этой академии… Я и сама не знаю, правильно ли всё время полагаться на Луизу и остальных."
 
     old "If you say that, then I've been taken care of by this academy ever since Louise summoned me.{#ch20_s_049}"
@@ -313,7 +313,7 @@
     new "Труппу? Ты имеешь в виду труппу Уэзерби?"
 
     old "No. Someone from another troupe who saw that play liked me and scouted me.{#ch20_ha_005}"
-    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, меня и завербовал."
+    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, я им понравилась — и меня завербовали."
 
     old "Now's a good chance, so I was thinking of going along with that troupe.{#ch20_ha_006}"
     new "Сейчас как раз удобный случай, и я думаю присоединиться к этой труппе."

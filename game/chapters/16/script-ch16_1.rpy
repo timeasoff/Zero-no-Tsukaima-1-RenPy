@@ -109,7 +109,7 @@ label ch16_1_scene_660:
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
     # キュルケ：いいこと、ヴァリエール。
     voice "ch16_k_007"
-    k "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
+    k "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
 
     # [SPRITE   lay6     hide]
     # [BG       stage    hide]

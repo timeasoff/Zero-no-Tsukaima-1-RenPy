@@ -301,7 +301,7 @@ label ch21_1_scene_771:
     # [SPRITE   lay3     image=+889, level=160, dir=2A]
     # ギーシュ：ふん、せっかくのティータイムが台無しだ。
     voice "ch21_g_004"
-    g "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
+    g "Hmph, our tea time is ruined. I've completely lost the mood for it. Let's go, Montmorency.{#ch21_g_004}"
 
     # モンモランシー：ええ！  [voice 4101]
     voice "ch21_m_004"

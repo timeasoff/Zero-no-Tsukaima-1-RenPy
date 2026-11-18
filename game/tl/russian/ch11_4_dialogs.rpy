@@ -74,7 +74,7 @@
     new "Главное — раз уже такой случай, не расскажете ли вы мне немного о себе? Мне вообще-то не хватает идей для следующей пьесы."
 
     old "Last time, with the preparations for the performance, we hardly had a chance to talk personally.{#ch11_w_034}"
-    new "К тому же, раз уж такой случай, не расскажете ли вы мне немного о себе? Мне вообще-то не хватает идей для следующей пьесы."
+    new "В прошлый раз из-за подготовки к представлению почти не было возможности поговорить с тобой по-настоящему."
 
     old "I heard from Haruna that you're a great swordsman, and that you have some mysterious power, don't you?{#ch11_w_035}"
     new "Харуна говорила, что ты превосходный фехтовальщик и обладаешь необычной силой, так?"

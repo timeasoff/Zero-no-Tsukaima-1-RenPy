@@ -414,7 +414,7 @@
     old "If it comes to it, I'll protect everyone with this. Right, Derf—I'm counting on you, partner!{#ch21_s_164}"
     new "Если дойдёт до дела, я защищу всех вот этим. Верно, Дерф — я на тебя рассчитываю, приятель!"
 
-    old "Hah… Don't expect one village girl to be handled by your one arm. Figure it out yourself.{#ch21_d_018}"
+    old "Hah… Just one village girl — handle her with that one arm of yours, I'm telling you. Figure it out yourself.{#ch21_d_018}"
     new "Ха… Ну же, справишься как-нибудь и одной рукой, я тебе говорю! Сам разберись."
 
     old "D-Don't say that! Please, Derflinger-saaan!{#ch21_s_165}"

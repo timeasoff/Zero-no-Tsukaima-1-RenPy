@@ -318,8 +318,8 @@
     old "I so regret summoning you right now.{#ch17_l_021}"
     new "Сейчас я ужасно жалею, что вызвала тебя."
 
-    old "What, Louise. You look depressed… Maybe I'm wrong?{#ch17_s_038}"
-    new "Что, Луиза. Ты выглядишь уныло… Может, я неправ?"
+    old "What, Louise. You look really depressed… Maybe I'm wrong?{#ch17_s_038}"
+    new "Что, Луиза. Ты выглядишь совсем подавленной… Может, я неправ?"
 
     old "The craftsmen were called after the incidents, right? Then why bomb first! That bomb-loving craftsman!{#ch17_l_022}"
     new "Ремесленников позвали после случаев, верно? Так зачем сначала взрывать! Этот любитель бомб!"
@@ -399,7 +399,7 @@
     old "What!? Have they already forgotten their defeat the other day!{#ch17_commander_014}"
     new "Что!? Неужели они забыли поражение на днях!"
 
-    old "At current speed, the fleet will enter Tristain's airspace in a little under two days.{#ch17_soldier_007}"
+    old "Judging from their current position, the fleet will enter Tristain's airspace in a little over two days.{#ch17_soldier_007}"
     new "Судя по текущему положению, флот войдёт в воздушное пространство Тристании чуть больше чем через два дня."
 
     old "All available units—recover the cannons immediately! Mages, don't lose sight of the fleet!{#ch17_h_021}"

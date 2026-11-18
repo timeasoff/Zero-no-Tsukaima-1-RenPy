@@ -580,7 +580,7 @@ label ch10_2:
         # JA[4508]: オスマン：さあ、どうですかの……。 / それで、どのようなお話ですかな？
         # ウェザリー：いえいえ、その先日の公演で / ヒロインを演じたミス・ハルナが、 / こちらにいるとのお話を聞きまして。  [voice 16075]
         voice "ch10_w_003"
-        w "Well, in the last performance / Miss Hannah performing here / I heard. {#ch10_w_003}"
+        w "Well, I heard that Miss Haruna, who played the heroine in that performance, is here. {#ch10_w_003}"
         # JA[16075]: ウェザリー：いえいえ、その先日の公演で / ヒロインを演じたミス・ハルナが、 / こちらにいるとのお話を聞きまして。
         # ウェザリー：聞けば、生徒ではないとか……。  [voice 16076]
         voice "ch10_w_004"
