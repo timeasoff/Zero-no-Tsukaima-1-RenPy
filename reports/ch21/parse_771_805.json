@@ -1,0 +1,10270 @@
+[
+ {
+  "kind": "scene",
+  "no": 771
+ },
+ {
+  "kind": "event",
+  "src": "[TITLE title(\"サイトのメイド\")]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+88, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+5]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 0,
+  "speaker": "サイト",
+  "ja": "（演劇が終わってから、かれこれ数日。いきなり、爆弾使いが現れなくなってしまった）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（演劇が終わってから、かれこれ数日。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 1,
+  "speaker": "サイト",
+  "ja": "（そのため、みんなそろって魔法学院に戻ることになったわけなんだけど……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（そのため、みんなそろって魔法学院に"
+ },
+ {
+  "kind": "dlg",
+  "idx": 2,
+  "speaker": "サイト",
+  "ja": "（結果らしい結果をだせなかったことと、爆弾使いの正体が分からないことから、みんなやたらと気が立ってしまっている）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（結果らしい結果をだせなかったことと、"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+2, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 500)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+1145, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+1162, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+1145, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+2, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 2000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 3,
+  "speaker": "ルイズ",
+  "ja": "やっぱり、納得いかないわっ！なによ、爆弾使いのやつ！いきなり現れなくなるなんて～！",
+  "voice": 6540,
+  "thought": false,
+  "src": "ルイズ：やっぱり、納得いかないわっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 4,
+  "speaker": "ルイズ",
+  "ja": "わたしが受けた屈辱は、いったいどうしたらいいのよっ！",
+  "voice": 6541,
+  "thought": false,
+  "src": "ルイズ：わたしが受けた屈辱は、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+682, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 5,
+  "speaker": "キュルケ",
+  "ja": "あきらめが悪いわね、ホントに。もう終わった事を悔やんでどうするの？",
+  "voice": 3378,
+  "thought": false,
+  "src": "キュルケ：あきらめが悪いわね、ホントに。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 6,
+  "speaker": "ルイズ",
+  "ja": "なんですってぇ！？",
+  "voice": 6542,
+  "thought": false,
+  "src": "ルイズ：なんですってぇ！？  [voice 6542]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 7,
+  "speaker": "キュルケ",
+  "ja": "もっと前向きに考えなさいよ。はげるわよ？",
+  "voice": 3379,
+  "thought": false,
+  "src": "キュルケ：もっと前向きに考えなさいよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+372, level=160, dir=3A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 8,
+  "speaker": "ルイズ",
+  "ja": "んなっ……キュルケっ！？",
+  "voice": 6543,
+  "thought": false,
+  "src": "ルイズ：んなっ……キュルケっ！？  [voice 6543]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 9,
+  "speaker": "サイト",
+  "ja": "お、落ち着け、ルイズっ！！部屋を爆破する気か！",
+  "voice": 11999,
+  "thought": false,
+  "src": "サイト：お、落ち着け、ルイズっ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 10,
+  "speaker": "キュルケ",
+  "ja": "ダーリンも、こんな短気なルイズの使い魔なんてやめて、あたしの使い魔なんてどう？",
+  "voice": 3380,
+  "thought": false,
+  "src": "キュルケ：ダーリンも、こんな短気なルイズの使い魔"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+373, level=140, dir=3A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 11,
+  "speaker": "ルイズ",
+  "ja": "どさくさにまぎれて、サイトを抱きしめないでー！！",
+  "voice": 6544,
+  "thought": false,
+  "src": "ルイズ：どさくさにまぎれて、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+95]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(2)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    white    image=+2, level=0]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 12,
+  "speaker": "サイト",
+  "ja": "うわー！",
+  "voice": 12000,
+  "thought": false,
+  "src": "サイト：うわー！  [voice 12000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+20, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 0)]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    white    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 13,
+  "speaker": "サイト",
+  "ja": "（まったく、ルイズもキュルケも……。ケンカしても何も始まらないだろ？）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（まったく、ルイズもキュルケも……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 14,
+  "speaker": "シエスタ",
+  "ja": "……。",
+  "voice": 14812,
+  "thought": false,
+  "src": "シエスタ：……。  [voice 14812]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 15,
+  "speaker": "サイト",
+  "ja": "（シエスタ、どうしたんだろ……。ずっと立ちつくして……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（シエスタ、どうしたんだろ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 16,
+  "speaker": "サイト",
+  "ja": "シエスタ、どうしたの？",
+  "voice": 12001,
+  "thought": false,
+  "src": "サイト：シエスタ、どうしたの？  [voice 12001]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+526, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 17,
+  "speaker": "シエスタ",
+  "ja": "きゃっ！",
+  "voice": 14813,
+  "thought": false,
+  "src": "シエスタ：きゃっ！  [voice 14813]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 18,
+  "speaker": "サイト",
+  "ja": "ああっ、ごめんっ！驚かせるつもりはなかったんだ。",
+  "voice": 12002,
+  "thought": false,
+  "src": "サイト：ああっ、ごめんっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 19,
+  "speaker": "シエスタ",
+  "ja": "わ、わたしの方こそ、驚いたりしてごめんなさいっ。",
+  "voice": 14814,
+  "thought": false,
+  "src": "シエスタ：わ、わたしの方こそ、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 20,
+  "speaker": "サイト",
+  "ja": "どうしたのさ、さっきからボーッとして。",
+  "voice": 12003,
+  "thought": false,
+  "src": "サイト：どうしたのさ、さっきからボーッとして。  [voice 12003]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 21,
+  "speaker": "シエスタ",
+  "ja": "あ、そ、そうでした。わたし、ケーキと紅茶を運んでるところだったんです。",
+  "voice": 14815,
+  "thought": false,
+  "src": "シエスタ：あ、そ、そうでした。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 22,
+  "speaker": "シエスタ",
+  "ja": "では、失礼しますね、サイトさん。",
+  "voice": 14816,
+  "thought": false,
+  "src": "シエスタ：では、失礼しますね、サイトさん。  [voice 14816]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 23,
+  "speaker": "サイト",
+  "ja": "あ、うん。",
+  "voice": 12004,
+  "thought": false,
+  "src": "サイト：あ、うん。  [voice 12004]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 24,
+  "speaker": "サイト",
+  "ja": "（シエスタ、どうしたんだろう？……お茶を持ってったのは、ギーシュとモンモンのテーブルか）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（シエスタ、どうしたんだろう？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 25,
+  "speaker": "シエスタ",
+  "ja": "お待たせして申し訳ありません。お茶とケーキをお持ちいたしました。",
+  "voice": 14817,
+  "thought": false,
+  "src": "シエスタ：お待たせして申し訳ありません。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+555, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 26,
+  "speaker": "ギーシュ",
+  "ja": "いやあ、ありがとう。彼女のカップからお茶を入れてくれたまえ。",
+  "voice": 1518,
+  "thought": false,
+  "src": "ギーシュ：いやあ、ありがとう。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 27,
+  "speaker": "シエスタ",
+  "ja": "はい、かしこまりました。",
+  "voice": 14818,
+  "thought": false,
+  "src": "シエスタ：はい、かしこまりました。  [voice 14818]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 28,
+  "speaker": "シエスタ",
+  "ja": "……。",
+  "voice": 14819,
+  "thought": false,
+  "src": "シエスタ：……。  [voice 14819]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(1)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide, reset]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 29,
+  "speaker": "モンモランシー",
+  "ja": "きゃああっ……ちょっと、お茶がっ！！",
+  "voice": 4098,
+  "thought": false,
+  "src": "モンモランシー：きゃああっ……ちょっと、お茶がっ！！  [voice 4098]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+559, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 30,
+  "speaker": "ギーシュ",
+  "ja": "あ～～っ！！モンモランシーっ！！何をしてるんだね、君はっ！",
+  "voice": 1519,
+  "thought": false,
+  "src": "ギーシュ：あ～～っ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+526, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 31,
+  "speaker": "シエスタ",
+  "ja": "え？ああっ！",
+  "voice": 14820,
+  "thought": false,
+  "src": "シエスタ：え？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 32,
+  "speaker": "シエスタ",
+  "ja": "も、申し訳ございません！！",
+  "voice": 14821,
+  "thought": false,
+  "src": "シエスタ：も、申し訳ございません！！  [voice 14821]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+561, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 33,
+  "speaker": "ギーシュ",
+  "ja": "おお、なんてことなんだ！火傷しなかったかい、モンモランシー？",
+  "voice": 1520,
+  "thought": false,
+  "src": "ギーシュ：おお、なんてことなんだ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+891, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 34,
+  "speaker": "モンモランシー",
+  "ja": "もう、制服が台無しだわ。",
+  "voice": 4099,
+  "thought": false,
+  "src": "モンモランシー：もう、制服が台無しだわ。  [voice 4099]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+493, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 35,
+  "speaker": "シエスタ",
+  "ja": "申し訳ございませんっ！すぐにお拭きして、新しいものをお持ちいたします！",
+  "voice": 14822,
+  "thought": false,
+  "src": "シエスタ：申し訳ございませんっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 36,
+  "speaker": "サイト",
+  "ja": "（ああ、見てられないっ！ちょっと、行ってくるか！）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（ああ、見てられないっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 37,
+  "speaker": "サイト",
+  "ja": "大丈夫か、シエスタ？火傷しなかったか？",
+  "voice": 12005,
+  "thought": false,
+  "src": "サイト：大丈夫か、シエスタ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 38,
+  "speaker": "モンモランシー",
+  "ja": "ちょっと、お茶かけられたのはわたしよ！心配する相手を間違ってるのではなくて！？",
+  "voice": 4100,
+  "thought": false,
+  "src": "モンモランシー：ちょっと、お茶かけられたのはわたしよ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 39,
+  "speaker": "サイト",
+  "ja": "ああ、モンモン、すまなかった。シエスタ、ちょっと疲れてるみたいなんだ。",
+  "voice": 12006,
+  "thought": false,
+  "src": "サイト：ああ、モンモン、すまなかった。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 40,
+  "speaker": "シエスタ",
+  "ja": "あっ……。いや、そんな、サイトさんが謝るなんて……。わたしの不注意で、そのっ、ごめんなさいっ！",
+  "voice": 14823,
+  "thought": false,
+  "src": "シエスタ：あっ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+570, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+889, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 41,
+  "speaker": "ギーシュ",
+  "ja": "ふん、せっかくのティータイムが台無しだ。すっかり興ざめだよ。行こう、モンモランシー。",
+  "voice": 1521,
+  "thought": false,
+  "src": "ギーシュ：ふん、せっかくのティータイムが台無しだ。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 42,
+  "speaker": "モンモランシー",
+  "ja": "ええ！",
+  "voice": 4101,
+  "thought": false,
+  "src": "モンモランシー：ええ！  [voice 4101]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 43,
+  "speaker": "シエスタ",
+  "ja": "ごめんなさい。わたしの失敗で、サイトさんにもご迷惑をおかけして……。",
+  "voice": 14824,
+  "thought": false,
+  "src": "シエスタ：ごめんなさい。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 44,
+  "speaker": "サイト",
+  "ja": "元気だせよ、シエスタ。今日失敗した分は、明日、頑張って取り返せばいいじゃないか。",
+  "voice": 12007,
+  "thought": false,
+  "src": "サイト：元気だせよ、シエスタ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 45,
+  "speaker": "シエスタ",
+  "ja": "はい……。",
+  "voice": 14825,
+  "thought": false,
+  "src": "シエスタ：はい……。  [voice 14825]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 46,
+  "speaker": "シエスタ",
+  "ja": "でも、わたし……。その……明日からしばらくの間、お休みをいただくことにしました。",
+  "voice": 14826,
+  "thought": false,
+  "src": "シエスタ：でも、わたし……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 47,
+  "speaker": "サイト",
+  "ja": "ええっ！？なんでさ？",
+  "voice": 12008,
+  "thought": false,
+  "src": "サイト：ええっ！？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 48,
+  "speaker": "シエスタ",
+  "ja": "実は、魔法学院に帰ってきてから、ずっとこんな調子だったものですから……。",
+  "voice": 14827,
+  "thought": false,
+  "src": "シエスタ：実は、魔法学院に帰ってきてから、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 49,
+  "speaker": "シエスタ",
+  "ja": "落ち着くまで、メイドの仕事は控えるようにって、言われてしまって。",
+  "voice": 14828,
+  "thought": false,
+  "src": "シエスタ：落ち着くまで、メイドの仕事は"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 50,
+  "speaker": "シエスタ",
+  "ja": "なので、実家に戻りまして、心を落ち着けようかとも思っていましたの。",
+  "voice": 14829,
+  "thought": false,
+  "src": "シエスタ：なので、実家に戻りまして、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 51,
+  "speaker": "サイト",
+  "ja": "そんなぁ……。いくらなんでも仕事を休めだなんて。",
+  "voice": 12009,
+  "thought": false,
+  "src": "サイト：そんなぁ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 52,
+  "speaker": "シエスタ",
+  "ja": "わたしの未熟さが悪いんです……。",
+  "voice": 14830,
+  "thought": false,
+  "src": "シエスタ：わたしの未熟さが悪いんです……。  [voice 14830]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 53,
+  "speaker": "サイト",
+  "ja": "なぁ、シエスタ。俺で良かったら、なんでも力になるよ。だから、学院を去るなんて言わないでくれよ。",
+  "voice": 12010,
+  "thought": false,
+  "src": "サイト：なぁ、シエスタ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 54,
+  "speaker": "シエスタ",
+  "ja": "ありがとうございます……。",
+  "voice": 14831,
+  "thought": false,
+  "src": "シエスタ：ありがとうございます……。  [voice 14831]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 55,
+  "speaker": "シエスタ",
+  "ja": "……。",
+  "voice": 14832,
+  "thought": false,
+  "src": "シエスタ：……。  [voice 14832]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 56,
+  "speaker": "サイト",
+  "ja": "？？？",
+  "voice": 12011,
+  "thought": false,
+  "src": "サイト：？？？  [voice 12011]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 57,
+  "speaker": "シエスタ",
+  "ja": "あの……。サイトさん。力になってもらってもいいですか？",
+  "voice": 14833,
+  "thought": false,
+  "src": "シエスタ：あの……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 58,
+  "speaker": "サイト",
+  "ja": "ああ？いいけど……。",
+  "voice": 12012,
+  "thought": false,
+  "src": "サイト：ああ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+530, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 59,
+  "speaker": "シエスタ",
+  "ja": "あの……。あの……。あの！",
+  "voice": 14834,
+  "thought": false,
+  "src": "シエスタ：あの……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 60,
+  "speaker": "サイト",
+  "ja": "あの？",
+  "voice": 12013,
+  "thought": false,
+  "src": "サイト：あの？  [voice 12013]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+493, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 61,
+  "speaker": "シエスタ",
+  "ja": "わたしをサイトさんのメイドにしてください！！",
+  "voice": 14835,
+  "thought": false,
+  "src": "シエスタ：わたしをサイトさんのメイドにしてください！！  [voice 14835]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(1)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide, reset]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 62,
+  "speaker": "サイト",
+  "ja": "い？",
+  "voice": 12014,
+  "thought": false,
+  "src": "サイト：い？  [voice 12014]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+497, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 63,
+  "speaker": "シエスタ",
+  "ja": "サイトさんをご主人様として初心に返り、給仕としての腕をみがきなおそうと思うんですっ！！",
+  "voice": 14836,
+  "thought": false,
+  "src": "シエスタ：サイトさんをご主人様として初心に返り、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 64,
+  "speaker": "サイト",
+  "ja": "ぼ、ボクがご主人様ですかぁ！？そ、それは……。",
+  "voice": 12015,
+  "thought": false,
+  "src": "サイト：ぼ、ボクがご主人様ですかぁ！？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 65,
+  "speaker": "ルイズ",
+  "ja": "ダメよ、そんなのっ！認めないわ。絶対に！",
+  "voice": 6545,
+  "thought": false,
+  "src": "ルイズ：ダメよ、そんなのっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 66,
+  "speaker": "サイト",
+  "ja": "ル、ルイズ。一体どこから聞いてたんですか？",
+  "voice": 12016,
+  "thought": false,
+  "src": "サイト：ル、ルイズ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 67,
+  "speaker": "ルイズ",
+  "ja": "はじめから全部よ。シエスタがサイトのメイドになるなんて、絶対駄目ーーー！",
+  "voice": 6546,
+  "thought": false,
+  "src": "ルイズ：はじめから全部よ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 68,
+  "speaker": "サイト",
+  "ja": "で、ですよね。じゃあ……。",
+  "voice": 12017,
+  "thought": false,
+  "src": "サイト：で、ですよね。"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "キュルケのメイドってのは？",
+    "target": 772
+   },
+   {
+    "text": "タバサのメイドってのは？",
+    "target": 773
+   },
+   {
+    "text": "ギーシュのメイドってのは？",
+    "target": 774
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 772
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+20, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 69,
+  "speaker": "サイト",
+  "ja": "キュルケんとこのメイドになるってのはどう？",
+  "voice": 12018,
+  "thought": false,
+  "src": "サイト：キュルケんとこのメイドになるってのはどう？  [voice 12018]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 70,
+  "speaker": "ルイズ",
+  "ja": "冗談じゃないわっ！！そんなこと許されないわ！",
+  "voice": 6547,
+  "thought": false,
+  "src": "ルイズ：冗談じゃないわっ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 71,
+  "speaker": "サイト",
+  "ja": "な、なんでさ。俺達のとこがだめなら仕方ないじゃないか。",
+  "voice": 12019,
+  "thought": false,
+  "src": "サイト：な、なんでさ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 72,
+  "speaker": "ルイズ",
+  "ja": "だからって、ツェルプストーに頼るようなマネはだめよ！",
+  "voice": 6548,
+  "thought": false,
+  "src": "ルイズ：だからって、ツェルプストーに頼るような"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 73,
+  "speaker": "サイト",
+  "ja": "そ、そういうことじゃないと思うけど……。",
+  "voice": 12020,
+  "thought": false,
+  "src": "サイト：そ、そういうことじゃないと思うけど……。  [voice 12020]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 74,
+  "speaker": "ルイズ",
+  "ja": "とにかく、だめっ！",
+  "voice": 6549,
+  "thought": false,
+  "src": "ルイズ：とにかく、だめっ！  [voice 6549]"
+ },
+ {
+  "kind": "goto",
+  "target": 775
+ },
+ {
+  "kind": "scene",
+  "no": 773
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+20, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 75,
+  "speaker": "サイト",
+  "ja": "タバサんとこのメイドになるってのはどう？",
+  "voice": 12021,
+  "thought": false,
+  "src": "サイト：タバサんとこのメイドになるってのはどう？  [voice 12021]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+304, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 76,
+  "speaker": "ルイズ",
+  "ja": "タバサなら、安心できるんじゃない？",
+  "voice": 6550,
+  "thought": false,
+  "src": "ルイズ：タバサなら、安心できるんじゃない？  [voice 6550]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 77,
+  "speaker": "シエスタ",
+  "ja": "え、ええっと……。でも、ミス・タバサはご自分のことは、ご自分でなさってしまいますから……。",
+  "voice": 14837,
+  "thought": false,
+  "src": "シエスタ：え、ええっと……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 78,
+  "speaker": "シエスタ",
+  "ja": "わたしのいる意味がないと……思います。",
+  "voice": 14838,
+  "thought": false,
+  "src": "シエスタ：わたしのいる意味がないと……思います。  [voice 14838]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 79,
+  "speaker": "サイト",
+  "ja": "そっか。タバサは大抵のことは、魔法でなんとかしちゃうからな。",
+  "voice": 12022,
+  "thought": false,
+  "src": "サイト：そっか。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 80,
+  "speaker": "ルイズ",
+  "ja": "悪かったわね！魔法でなんとかできなくて！",
+  "voice": 6551,
+  "thought": false,
+  "src": "ルイズ：悪かったわね！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 81,
+  "speaker": "サイト",
+  "ja": "そ、そんなこと言ってないだろ。",
+  "voice": 12023,
+  "thought": false,
+  "src": "サイト：そ、そんなこと言ってないだろ。  [voice 12023]"
+ },
+ {
+  "kind": "goto",
+  "target": 775
+ },
+ {
+  "kind": "scene",
+  "no": 774
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+20, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 82,
+  "speaker": "サイト",
+  "ja": "ギーシュんとこのメイドになるってのはどう？",
+  "voice": 12024,
+  "thought": false,
+  "src": "サイト：ギーシュんとこのメイドになるってのはどう？  [voice 12024]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 83,
+  "speaker": "シエスタ",
+  "ja": "えっ……。",
+  "voice": 14839,
+  "thought": false,
+  "src": "シエスタ：えっ……。  [voice 14839]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 84,
+  "speaker": "ルイズ",
+  "ja": "ちょっと、あんた。それ本気で言ってるの！？",
+  "voice": 6552,
+  "thought": false,
+  "src": "ルイズ：ちょっと、あんた。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 85,
+  "speaker": "サイト",
+  "ja": "ほ、本気だけど。",
+  "voice": 12025,
+  "thought": false,
+  "src": "サイト：ほ、本気だけど。  [voice 12025]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 86,
+  "speaker": "ルイズ",
+  "ja": "あんたバカじゃないの！？シエスタのこと、もっと考えなさいよ！",
+  "voice": 6553,
+  "thought": false,
+  "src": "ルイズ：あんたバカじゃないの！？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 87,
+  "speaker": "サイト",
+  "ja": "確かに、あのギーシュじゃな……。",
+  "voice": 12026,
+  "thought": false,
+  "src": "サイト：確かに、あのギーシュじゃな……。  [voice 12026]"
+ },
+ {
+  "kind": "goto",
+  "target": 775
+ },
+ {
+  "kind": "scene",
+  "no": 775
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+20, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 88,
+  "speaker": "シエスタ",
+  "ja": "はぁ、やはりわたし、実家に帰らなければならないのでしょうか……。",
+  "voice": 14840,
+  "thought": false,
+  "src": "シエスタ：はぁ、やはりわたし、実家に帰らなければ"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 89,
+  "speaker": "サイト",
+  "ja": "ルイズ……。",
+  "voice": 12027,
+  "thought": false,
+  "src": "サイト：ルイズ……。  [voice 12027]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 90,
+  "speaker": "ルイズ",
+  "ja": "あーもう！分かったわよっ。わたしの部屋にいていいわよ！",
+  "voice": 6554,
+  "thought": false,
+  "src": "ルイズ：あーもう！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 91,
+  "speaker": "シエスタ",
+  "ja": "わあっ、ありがとうございますっ！わたし、一生懸命頑張りますからっ！！",
+  "voice": 14841,
+  "thought": false,
+  "src": "シエスタ：わあっ、ありがとうございますっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 92,
+  "speaker": "ルイズ",
+  "ja": "その代わり、サイトの世話じゃなくて、わたしの給仕をしてもらうっていうことで。それでいいでしょ？",
+  "voice": 6555,
+  "thought": false,
+  "src": "ルイズ：その代わり、サイトの世話じゃなくて、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 93,
+  "speaker": "シエスタ",
+  "ja": "はいっ、ミス・ヴァリエール。これから、よろしくお願いします。",
+  "voice": 14842,
+  "thought": false,
+  "src": "シエスタ：はいっ、ミス・ヴァリエール。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 94,
+  "speaker": "サイト",
+  "ja": "これでひとまずは、一件落着かな？",
+  "voice": 12028,
+  "thought": false,
+  "src": "サイト：これでひとまずは、一件落着かな？  [voice 12028]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 95,
+  "speaker": "シエスタ",
+  "ja": "サイトさん、どうもありがとうございます。これから頑張って真のメイドを目指します。",
+  "voice": 14843,
+  "thought": false,
+  "src": "シエスタ：サイトさん、どうもありがとうございます。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 96,
+  "speaker": "サイト",
+  "ja": "（こうしてシエスタは、ルイズの給仕をはじめることになった）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（こうしてシエスタは、ルイズの給仕を"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 776
+ },
+ {
+  "kind": "scene",
+  "no": 776
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+88, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 97,
+  "speaker": "サイト",
+  "ja": "（シエスタがルイズのメイドになってから、またたくまに数日が経った）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（シエスタがルイズのメイドになってから、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 98,
+  "speaker": "シエスタ",
+  "ja": "ふんふふんふーん♪",
+  "voice": 14844,
+  "thought": false,
+  "src": "シエスタ：ふんふふんふーん♪  [voice 14844]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 99,
+  "speaker": "サイト",
+  "ja": "（シエスタのやつ、ルイズのメイドになってからは、やけに調子がいいみたいだなぁ～）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（シエスタのやつ、ルイズのメイドに"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 100,
+  "speaker": "シエスタ",
+  "ja": "サイトさん、ハルナさん。これから床をぞうきん掛けしますから、ベッドの上にあがっててください。",
+  "voice": 14845,
+  "thought": false,
+  "src": "シエスタ：サイトさん、ハルナさん。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 101,
+  "speaker": "ハルナ",
+  "ja": "うん、分かったわ。",
+  "voice": 2385,
+  "thought": false,
+  "src": "ハルナ：うん、分かったわ。  [voice 2385]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 102,
+  "speaker": "サイト",
+  "ja": "オーケー。なんなら、俺も手伝おうか？",
+  "voice": 12029,
+  "thought": false,
+  "src": "サイト：オーケー。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 103,
+  "speaker": "シエスタ",
+  "ja": "いえ、とんでもない！これはメイドであるわたしのお仕事ですから。サイトさんはゆっくりしててください。",
+  "voice": 14846,
+  "thought": false,
+  "src": "シエスタ：いえ、とんでもない！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 104,
+  "speaker": "ルイズ",
+  "ja": "なら、シエスタ。後は任せてしまっていいかしら。わたし達はちょっと出かけてくるから。",
+  "voice": 6556,
+  "thought": false,
+  "src": "ルイズ：なら、シエスタ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 105,
+  "speaker": "サイト",
+  "ja": "ルイズ、どこか出かけるのか？",
+  "voice": 12030,
+  "thought": false,
+  "src": "サイト：ルイズ、どこか出かけるのか？  [voice 12030]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 106,
+  "speaker": "ルイズ",
+  "ja": "サイトとハルナも、ちょっと付き合ってもらえる？",
+  "voice": 6557,
+  "thought": false,
+  "src": "ルイズ：サイトとハルナも、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 107,
+  "speaker": "ハルナ",
+  "ja": "私も？",
+  "voice": 2386,
+  "thought": false,
+  "src": "ハルナ：私も？  [voice 2386]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 108,
+  "speaker": "シエスタ",
+  "ja": "あっ……はい、かしこまりました。みなさん、行ってらっしゃいませっ！",
+  "voice": 14847,
+  "thought": false,
+  "src": "シエスタ：あっ……はい、かしこまりました。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+57]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+32]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 109,
+  "speaker": "ルイズ",
+  "ja": "おはよう、タバサ。お邪魔するわ。",
+  "voice": 6558,
+  "thought": false,
+  "src": "ルイズ：おはよう、タバサ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 110,
+  "speaker": "タバサ",
+  "ja": "おはよう。",
+  "voice": 15626,
+  "thought": false,
+  "src": "タバサ：おはよう。  [voice 15626]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+555, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+891, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 111,
+  "speaker": "ギーシュ",
+  "ja": "やあ、サイトも同席するのか。",
+  "voice": 1522,
+  "thought": false,
+  "src": "ギーシュ：やあ、サイトも同席するのか。  [voice 1522]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 112,
+  "speaker": "モンモランシー",
+  "ja": "もう、結局全員集めたわけ？",
+  "voice": 4102,
+  "thought": false,
+  "src": "モンモランシー：もう、結局全員集めたわけ？  [voice 4102]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 113,
+  "speaker": "サイト",
+  "ja": "なんだよおい、キュルケもいるし、みんな勢揃いじゃないか！？一体どうしたんだ？",
+  "voice": 12031,
+  "thought": false,
+  "src": "サイト：なんだよおい、キュルケもいるし、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 114,
+  "speaker": "ルイズ",
+  "ja": "それじゃあ早速、緊急会議を始めるわ。議題は「シエスタ」についてよ！",
+  "voice": 6559,
+  "thought": false,
+  "src": "ルイズ：それじゃあ早速、緊急会議を始めるわ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 115,
+  "speaker": "サイト",
+  "ja": "シエスタがどうかしたのか？",
+  "voice": 12032,
+  "thought": false,
+  "src": "サイト：シエスタがどうかしたのか？  [voice 12032]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 116,
+  "speaker": "ルイズ",
+  "ja": "サイトが気づいていたかどうかは、分からないけど、シエスタは旅から帰ってきてからずっと元気がなかったの。",
+  "voice": 6560,
+  "thought": false,
+  "src": "ルイズ：サイトが気づいていたかどうかは、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+308, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 117,
+  "speaker": "ルイズ",
+  "ja": "問題視した学院がシエスタに休暇を出したのが良い証拠よ。それほど元気がなかったのね。",
+  "voice": 6561,
+  "thought": false,
+  "src": "ルイズ：問題視した学院がシエスタに"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+561, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 118,
+  "speaker": "ギーシュ",
+  "ja": "紅茶をかけられたのも、ぼくらだけじゃないみたいだしな。罰を受けてもおかしくはない。",
+  "voice": 1523,
+  "thought": false,
+  "src": "ギーシュ：紅茶をかけられたのも、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 119,
+  "speaker": "サイト",
+  "ja": "今はもう平気そうじゃないか。",
+  "voice": 12033,
+  "thought": false,
+  "src": "サイト：今はもう平気そうじゃないか。  [voice 12033]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 120,
+  "speaker": "キュルケ",
+  "ja": "あら、それじゃあ緊急会議はもうおしまい？なぁんだ、つまらない。",
+  "voice": 3381,
+  "thought": false,
+  "src": "キュルケ：あら、それじゃあ緊急会議はもうおしまい？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 121,
+  "speaker": "タバサ",
+  "ja": "原因が分からない。",
+  "voice": 15627,
+  "thought": false,
+  "src": "タバサ：原因が分からない。  [voice 15627]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 122,
+  "speaker": "ルイズ",
+  "ja": "そうね。どうしてシエスタはおかしくなったのか、それが分からないままだわ。",
+  "voice": 6562,
+  "thought": false,
+  "src": "ルイズ：そうね。"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+891, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 123,
+  "speaker": "モンモランシー",
+  "ja": "まあ、でも、シエスタのお陰で、ルイズが自分で洗濯しなくてよくなったのは、貴族としては好ましいことではなくて？",
+  "voice": 4103,
+  "thought": false,
+  "src": "モンモランシー：まあ、でも、シエスタのお陰で、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+310, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 124,
+  "speaker": "ルイズ",
+  "ja": "ま、まあ、確かにそうね。",
+  "voice": 6563,
+  "thought": false,
+  "src": "ルイズ：ま、まあ、確かにそうね。  [voice 6563]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 125,
+  "speaker": "サイト",
+  "ja": "（いや、前もお前洗濯してないだろ）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（いや、前もお前洗濯してないだろ）"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+885, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 126,
+  "speaker": "モンモランシー",
+  "ja": "わたし達は魔法でなんとかしてしまうけど……。あなたは……ねぇ？手洗いですものねぇ。",
+  "voice": 4104,
+  "thought": false,
+  "src": "モンモランシー：わたし達は魔法でなんとかしてしまうけど……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 127,
+  "speaker": "ルイズ",
+  "ja": "う、うるさいわよ、洪水のモンモランシー！あなたは水系統の魔法が得意だから、いいでしょうけど、わたしは違うの！",
+  "voice": 6564,
+  "thought": false,
+  "src": "ルイズ：う、うるさいわよ、洪水のモンモランシー！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 128,
+  "speaker": "キュルケ",
+  "ja": "あら、わたしは火が得意だけど、魔法で洗濯してるわよ？",
+  "voice": 3382,
+  "thought": false,
+  "src": "キュルケ：あら、わたしは火が得意だけど、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 129,
+  "speaker": "タバサ",
+  "ja": "……わたしも。",
+  "voice": 15628,
+  "thought": false,
+  "src": "タバサ：……わたしも。  [voice 15628]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+308, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 130,
+  "speaker": "ルイズ",
+  "ja": "う……。",
+  "voice": 6565,
+  "thought": false,
+  "src": "ルイズ：う……。  [voice 6565]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 131,
+  "speaker": "サイト",
+  "ja": "待てよ？ってことは……。",
+  "voice": 12034,
+  "thought": false,
+  "src": "サイト：待てよ？"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "俺が来る前は自分で洗ってたのか？",
+    "target": 777
+   },
+   {
+    "text": "ルイズって実は洗濯好き？",
+    "target": 778
+   },
+   {
+    "text": "また俺が洗ってもいいのに",
+    "target": 779
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 777
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+308, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+32]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 132,
+  "speaker": "サイト",
+  "ja": "シエスタが来る前は俺が洗濯してたわけで……。じゃあ、俺がこの世界に来る前は自分でしてたのか。",
+  "voice": 12035,
+  "thought": false,
+  "src": "サイト：シエスタが来る前は俺が洗濯してたわけで……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 133,
+  "speaker": "キュルケ",
+  "ja": "桶に水を汲んできて、部屋で洗ってたのよね？夜な夜な廊下を徘徊してたの知ってるもの。",
+  "voice": 3383,
+  "thought": false,
+  "src": "キュルケ：桶に水を汲んできて、部屋で洗ってたのよね？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 134,
+  "speaker": "ルイズ",
+  "ja": "うっ、うるさいわねっ！放っといてちょうだいっ！！",
+  "voice": 6566,
+  "thought": false,
+  "src": "ルイズ：うっ、うるさいわねっ！"
+ },
+ {
+  "kind": "goto",
+  "target": 780
+ },
+ {
+  "kind": "scene",
+  "no": 778
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+308, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+32]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 135,
+  "speaker": "サイト",
+  "ja": "もしかして、ルイズって意外と洗濯好き？",
+  "voice": 12036,
+  "thought": false,
+  "src": "サイト：もしかして、ルイズって意外と洗濯好き？  [voice 12036]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 136,
+  "speaker": "ルイズ",
+  "ja": "ど、どうして？",
+  "voice": 6567,
+  "thought": false,
+  "src": "ルイズ：ど、どうして？  [voice 6567]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 137,
+  "speaker": "サイト",
+  "ja": "だってほら、俺が来たばっかりの時は俺が洗ってたけど、結局、最近は自分で洗濯してるだろ？",
+  "voice": 12037,
+  "thought": false,
+  "src": "サイト：だってほら、俺が来たばっかりの時は"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+310, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 138,
+  "speaker": "ルイズ",
+  "ja": "そっ、それは……。",
+  "voice": 6568,
+  "thought": false,
+  "src": "ルイズ：そっ、それは……。  [voice 6568]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 139,
+  "speaker": "サイト",
+  "ja": "だから、洗濯好きなのかなーって思ってさ。",
+  "voice": 12038,
+  "thought": false,
+  "src": "サイト：だから、洗濯好きなのかなーって思ってさ。  [voice 12038]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 140,
+  "speaker": "ルイズ",
+  "ja": "そんなわけないでしょっ！ほんっとにバカなんじゃないの！？",
+  "voice": 6569,
+  "thought": false,
+  "src": "ルイズ：そんなわけないでしょっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 141,
+  "speaker": "サイト",
+  "ja": "……なんでそんなに怒るんだよ。",
+  "voice": 12039,
+  "thought": false,
+  "src": "サイト：……なんでそんなに怒るんだよ。  [voice 12039]"
+ },
+ {
+  "kind": "goto",
+  "target": 780
+ },
+ {
+  "kind": "scene",
+  "no": 779
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+308, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+32]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 142,
+  "speaker": "サイト",
+  "ja": "シエスタが元の仕事に戻ったら、また俺が洗濯してやるぜ。安心しろ。",
+  "voice": 12040,
+  "thought": false,
+  "src": "サイト：シエスタが元の仕事に戻ったら、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+310, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 143,
+  "speaker": "ルイズ",
+  "ja": "い、いいの、それは！",
+  "voice": 6570,
+  "thought": false,
+  "src": "ルイズ：い、いいの、それは！  [voice 6570]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 144,
+  "speaker": "サイト",
+  "ja": "前は普通に洗わせてたくせに。",
+  "voice": 12041,
+  "thought": false,
+  "src": "サイト：前は普通に洗わせてたくせに。  [voice 12041]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 145,
+  "speaker": "ルイズ",
+  "ja": "あ、あんたがわたしの洗濯物見て、ニヤニヤしてるかもしれないでしょ！",
+  "voice": 6571,
+  "thought": false,
+  "src": "ルイズ：あ、あんたがわたしの洗濯物見て、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 146,
+  "speaker": "サイト",
+  "ja": "ええっ！見てたの！？",
+  "voice": 12042,
+  "thought": false,
+  "src": "サイト：ええっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 147,
+  "speaker": "ルイズ",
+  "ja": "学院中の噂になってたのよ。使い魔がニヤニヤしながら、洗濯してるって。もう、最低！",
+  "voice": 6572,
+  "thought": false,
+  "src": "ルイズ：学院中の噂になってたのよ。"
+ },
+ {
+  "kind": "goto",
+  "target": 780
+ },
+ {
+  "kind": "scene",
+  "no": 780
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+32]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=464, y=416]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 148,
+  "speaker": "ルイズ",
+  "ja": "と、とにかく！わたしの洗濯はどうでもいいの！シエスタがどうしておかしくなったかでしょー！",
+  "voice": 6573,
+  "thought": false,
+  "src": "ルイズ：と、とにかく！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 149,
+  "speaker": "サイト",
+  "ja": "なんかこう、気が付くとボーッとしてるんだよね。",
+  "voice": 12043,
+  "thought": false,
+  "src": "サイト：なんかこう、気が付くとボーッとしてるん"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 150,
+  "speaker": "サイト",
+  "ja": "ひょっとして、俺達にも相談できないような悩みでも抱えてるのかなぁ？",
+  "voice": 12044,
+  "thought": false,
+  "src": "サイト：ひょっとして、俺達にも相談できないような"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 151,
+  "speaker": "キュルケ",
+  "ja": "だとしたらきっと、もうアレしかないわね。",
+  "voice": 3384,
+  "thought": false,
+  "src": "キュルケ：だとしたらきっと、もうアレしかないわね。  [voice 3384]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 152,
+  "speaker": "サイト",
+  "ja": "アレ？",
+  "voice": 12045,
+  "thought": false,
+  "src": "サイト：アレ？  [voice 12045]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+717, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 153,
+  "speaker": "キュルケ",
+  "ja": "恋よ。",
+  "voice": 3385,
+  "thought": false,
+  "src": "キュルケ：恋よ。  [voice 3385]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 154,
+  "speaker": "サイト",
+  "ja": "恋ーっ！？",
+  "voice": 12046,
+  "thought": false,
+  "src": "サイト：恋ーっ！？  [voice 12046]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+566, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 155,
+  "speaker": "ギーシュ",
+  "ja": "そうか、なるほどね。確かに恋は人を盲目にさせる……。",
+  "voice": 1524,
+  "thought": false,
+  "src": "ギーシュ：そうか、なるほどね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     level=152]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=150, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 156,
+  "speaker": "キュルケ",
+  "ja": "そこの所どうなのよ、サイト？ハッキリしなさいってば。",
+  "voice": 3386,
+  "thought": false,
+  "src": "キュルケ：そこの所どうなのよ、サイト？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=157, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 157,
+  "speaker": "サイト",
+  "ja": "ちょっと待てよ。なんでここで俺の名前が出てくるんだよ！",
+  "voice": 12047,
+  "thought": false,
+  "src": "サイト：ちょっと待てよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=156, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 158,
+  "speaker": "ルイズ",
+  "ja": "シエスタの恋って言ったらあんたが原因に決まってるでしょ！",
+  "voice": 6574,
+  "thought": false,
+  "src": "ルイズ：シエスタの恋って言ったらあんたが"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=156, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 159,
+  "speaker": "ルイズ",
+  "ja": "あんたが女の子に対して思わせぶりな態度ばかりとってるから悪いんじゃない！",
+  "voice": 6575,
+  "thought": false,
+  "src": "ルイズ：あんたが女の子に対して思わせぶりな"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=156, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 160,
+  "speaker": "ルイズ",
+  "ja": "そもそも、わたしの使い魔のくせに、他の女の子に手を出すなんてありえないわ！！",
+  "voice": 6576,
+  "thought": false,
+  "src": "ルイズ：そもそも、わたしの使い魔のくせに、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=157, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 161,
+  "speaker": "サイト",
+  "ja": "落ち着けぇ！！うわっ、何をする気だルイズっ！！",
+  "voice": 12048,
+  "thought": false,
+  "src": "サイト：落ち着けぇ！！"
+ },
+ {
+  "kind": "dlg",
+  "idx": 162,
+  "speaker": "ルイズ",
+  "ja": "その根性、たたき直してやるんだから！！",
+  "voice": 6577,
+  "thought": false,
+  "src": "ルイズ：その根性、たたき直してやるんだから！！  [voice 6577]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+62]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(2)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+61]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(2)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide, reset]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 163,
+  "speaker": "サイト",
+  "ja": "ぎゃああああああああああっ！！！",
+  "voice": 12049,
+  "thought": false,
+  "src": "サイト：ぎゃああああああああああっ！！！  [voice 12049]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=154, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 164,
+  "speaker": "タバサ",
+  "ja": "一時中断。",
+  "voice": 15629,
+  "thought": false,
+  "src": "タバサ：一時中断。  [voice 15629]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 781
+ },
+ {
+  "kind": "scene",
+  "no": 781
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+852, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 165,
+  "speaker": "モンモランシー",
+  "ja": "そういえば、演劇のお手伝いをしていた時から、シエスタが少しうわついていたような感じはしていたのよねぇ。",
+  "voice": 4105,
+  "thought": false,
+  "src": "モンモランシー：そういえば、演劇のお手伝いをしていた時から、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+984, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 166,
+  "speaker": "ハルナ",
+  "ja": "それで分かりました。シエスタさんって、平賀くんの恋人って設定だったんですよね？",
+  "voice": 2387,
+  "thought": false,
+  "src": "ハルナ：それで分かりました。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 167,
+  "speaker": "ハルナ",
+  "ja": "つまり、シエスタさんは演劇を通じて、平賀くんに役柄とは言え、告白してしまい、恋心を抱くようになったってコトでしょうか？",
+  "voice": 2388,
+  "thought": false,
+  "src": "ハルナ：つまり、シエスタさんは演劇を通じて、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 168,
+  "speaker": "サイト",
+  "ja": "ちょっ……ちょっと待ってくれよ。本当にシエスタが俺に恋心を抱いてるって証拠でもあるのか？",
+  "voice": 12050,
+  "thought": false,
+  "src": "サイト：ちょっ……ちょっと待ってくれよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 169,
+  "speaker": "サイト",
+  "ja": "それに、告白って言ってもあくまで劇の中のことだろ？春奈も飛躍させすぎだって。",
+  "voice": 12051,
+  "thought": false,
+  "src": "サイト：それに、告白って言ってもあくまで"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 170,
+  "speaker": "ルイズ",
+  "ja": "じー。",
+  "voice": 6578,
+  "thought": false,
+  "src": "ルイズ：じー。  [voice 6578]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 171,
+  "speaker": "サイト",
+  "ja": "え？",
+  "voice": 12052,
+  "thought": false,
+  "src": "サイト：え？  [voice 12052]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+957, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 172,
+  "speaker": "ハルナ",
+  "ja": "じー。",
+  "voice": 2389,
+  "thought": false,
+  "src": "ハルナ：じー。  [voice 2389]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 173,
+  "speaker": "サイト",
+  "ja": "え？",
+  "voice": 12053,
+  "thought": false,
+  "src": "サイト：え？  [voice 12053]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+594, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 174,
+  "speaker": "タバサ",
+  "ja": "じー。",
+  "voice": 15630,
+  "thought": false,
+  "src": "タバサ：じー。  [voice 15630]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 175,
+  "speaker": "サイト",
+  "ja": "え？",
+  "voice": 12054,
+  "thought": false,
+  "src": "サイト：え？  [voice 12054]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+680, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 176,
+  "speaker": "キュルケ",
+  "ja": "シエスタだって恋する権利はあるわ。だけど、あたしのダーリンに手を出すなんていい度胸ね！",
+  "voice": 3387,
+  "thought": false,
+  "src": "キュルケ：シエスタだって恋する権利はあるわ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 177,
+  "speaker": "ルイズ",
+  "ja": "誰があんたの恋人ですって？使い魔が何をしようと勝手ですけど、あんたの所へやるのだけは死んでもお断りよっ。",
+  "voice": 6579,
+  "thought": false,
+  "src": "ルイズ：誰があんたの恋人ですって？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 178,
+  "speaker": "キュルケ",
+  "ja": "あらぁ？ひょっとしてルイズあなた、使い魔に恋してるの？",
+  "voice": 3388,
+  "thought": false,
+  "src": "キュルケ：あらぁ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 179,
+  "speaker": "ルイズ",
+  "ja": "なっ！？い、いきなり何を言いだすのよキュルケったら！何でこんな平民のサイトなんかに！！",
+  "voice": 6580,
+  "thought": false,
+  "src": "ルイズ：なっ！？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 180,
+  "speaker": "キュルケ",
+  "ja": "なら、別にあたしがもらってもいいじゃない。",
+  "voice": 3389,
+  "thought": false,
+  "src": "キュルケ：なら、別にあたしがもらってもいいじゃない。  [voice 3389]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+308, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 181,
+  "speaker": "ルイズ",
+  "ja": "うー。",
+  "voice": 6581,
+  "thought": false,
+  "src": "ルイズ：うー。  [voice 6581]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 182,
+  "speaker": "キュルケ",
+  "ja": "ちょうどいいわ。この際、誰がダーリンに相応しいか、徹底的に勝負しましょう？",
+  "voice": 3390,
+  "thought": false,
+  "src": "キュルケ：ちょうどいいわ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 183,
+  "speaker": "ルイズ",
+  "ja": "望むところよ、キュルケ。ラ・ヴァリエールの名にかけて、絶対にサイトは渡さないわっ！！",
+  "voice": 6582,
+  "thought": false,
+  "src": "ルイズ：望むところよ、キュルケ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 184,
+  "speaker": "サイト",
+  "ja": "おまえら、何を勝手に血走ってるんだよ？なぁ、いっぺん、そのままの顔で鏡を見てみろって。",
+  "voice": 12055,
+  "thought": false,
+  "src": "サイト：おまえら、何を勝手に血走ってるんだよ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+953, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 185,
+  "speaker": "ハルナ",
+  "ja": "平賀くん、大丈夫。シエスタさんだって魔法は使えないんだもの。私だって、少しぐらいは頑張れるわ？",
+  "voice": 2390,
+  "thought": false,
+  "src": "ハルナ：平賀くん、大丈夫。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 186,
+  "speaker": "サイト",
+  "ja": "いや、春奈。お前もかよ。",
+  "voice": 12056,
+  "thought": false,
+  "src": "サイト：いや、春奈。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 187,
+  "speaker": "キュルケ",
+  "ja": "うふふっ、もちろんタバサも参加よね？",
+  "voice": 3391,
+  "thought": false,
+  "src": "キュルケ：うふふっ、もちろんタバサも参加よね？  [voice 3391]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 188,
+  "speaker": "タバサ",
+  "ja": "付き合う。",
+  "voice": 15631,
+  "thought": false,
+  "src": "タバサ：付き合う。  [voice 15631]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+427, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 189,
+  "speaker": "サイト",
+  "ja": "だーかーらー、違うんだってばっ！どいつもこいつも、俺の話を聞けってのっ！！って、おい、聞いてんのか～っ！！",
+  "voice": 12057,
+  "thought": false,
+  "src": "サイト：だーかーらー、違うんだってばっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+555, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+891, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 190,
+  "speaker": "モンモランシー",
+  "ja": "はぁ……。まぁ、せいぜい頑張ってちょうだい。",
+  "voice": 4106,
+  "thought": false,
+  "src": "モンモランシー：はぁ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+563, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 191,
+  "speaker": "ギーシュ",
+  "ja": "まったくさ、モンモランシー。ぼく達は、ぼく達で、愛でも語り合おうよ。",
+  "voice": 1525,
+  "thought": false,
+  "src": "ギーシュ：まったくさ、モンモランシー。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 192,
+  "speaker": "モンモランシー",
+  "ja": "結構よ！",
+  "voice": 4107,
+  "thought": false,
+  "src": "モンモランシー：結構よ！  [voice 4107]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     image=+561, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 193,
+  "speaker": "ギーシュ",
+  "ja": "そんな……。",
+  "voice": 1526,
+  "thought": false,
+  "src": "ギーシュ：そんな……。  [voice 1526]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay4     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 194,
+  "speaker": "キュルケ",
+  "ja": "それじゃあ、話がまとまったところで、シエスタに宣戦布告といくわよ？敵前逃亡は死刑よ。",
+  "voice": 3392,
+  "thought": false,
+  "src": "キュルケ：それじゃあ、話がまとまったところで、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 195,
+  "speaker": "ルイズ",
+  "ja": "望むところよ、絶対に後悔させてあげるから。",
+  "voice": 6583,
+  "thought": false,
+  "src": "ルイズ：望むところよ、絶対に後悔させてあげるから。  [voice 6583]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 196,
+  "speaker": "キュルケ",
+  "ja": "その言葉、忘れないことね。ふふっ、楽しくなってきたわ。",
+  "voice": 3393,
+  "thought": false,
+  "src": "キュルケ：その言葉、忘れないことね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 197,
+  "speaker": "サイト",
+  "ja": "うおおおおっ。誰か俺の話を聞いてくれ～！！",
+  "voice": 12058,
+  "thought": false,
+  "src": "サイト：うおおおおっ。"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "何をするつもりなんだよ、キュルケ",
+    "target": 782
+   },
+   {
+    "text": "落ち着いてくれよ、ルイズ",
+    "target": 783
+   },
+   {
+    "text": "助けて、タバサ",
+    "target": 784
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 782
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 198,
+  "speaker": "サイト",
+  "ja": "いったい何をするつもりなんだよ、キュルケ？",
+  "voice": 12059,
+  "thought": false,
+  "src": "サイト：いったい何をするつもりなんだよ、キュルケ？  [voice 12059]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 199,
+  "speaker": "サイト",
+  "ja": "ルイズのメイドとして働くようになってから、ようやく調子が上向いてきたんだから。シエスタのことはそっとしておいてやってくれ。",
+  "voice": 12060,
+  "thought": false,
+  "src": "サイト：ルイズのメイドとして働くようになってから、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 200,
+  "speaker": "キュルケ",
+  "ja": "そうねぇ……ダーリンが、これからずっと、あたしと同棲してくれるなら、考えてもよくってよ？",
+  "voice": 3394,
+  "thought": false,
+  "src": "キュルケ：そうねぇ……ダーリンが、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 201,
+  "speaker": "サイト",
+  "ja": "そ、そんなぁ！！そんなコトしたら……。",
+  "voice": 12061,
+  "thought": false,
+  "src": "サイト：そ、そんなぁ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 202,
+  "speaker": "ルイズ",
+  "ja": "あら、安心なさい。学院校舎の裏にある空き地は、あんたが永遠に眠る場所として確保してあげるから。",
+  "voice": 6584,
+  "thought": false,
+  "src": "ルイズ：あら、安心なさい。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 785
+ },
+ {
+  "kind": "scene",
+  "no": 783
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 203,
+  "speaker": "サイト",
+  "ja": "ちょっと落ち着いてくれよ、ルイズ。シエスタだってルイズにお仕えして、初心からやり直そうとしてる所じゃないかぁ。",
+  "voice": 12062,
+  "thought": false,
+  "src": "サイト：ちょっと落ち着いてくれよ、ルイズ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 204,
+  "speaker": "ルイズ",
+  "ja": "シエスタのことなんていいのよ！",
+  "voice": 6585,
+  "thought": false,
+  "src": "ルイズ：シエスタのことなんていいのよ！  [voice 6585]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 205,
+  "speaker": "サイト",
+  "ja": "え。",
+  "voice": 12063,
+  "thought": false,
+  "src": "サイト：え。  [voice 12063]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 206,
+  "speaker": "ルイズ",
+  "ja": "ツェルプストー家からふっかけてきたのよ？勝利をもって応えなければいけないの！",
+  "voice": 6586,
+  "thought": false,
+  "src": "ルイズ：ツェルプストー家からふっかけてきたのよ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 207,
+  "speaker": "サイト",
+  "ja": "そんなぁ、別に気にすることはないじゃないか。",
+  "voice": 12064,
+  "thought": false,
+  "src": "サイト：そんなぁ、別に気にすることはないじゃないか。  [voice 12064]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 785
+ },
+ {
+  "kind": "scene",
+  "no": 784
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 208,
+  "speaker": "サイト",
+  "ja": "お願いだ、タバサっ！説得に協力してくれよっ？",
+  "voice": 12065,
+  "thought": false,
+  "src": "サイト：お願いだ、タバサっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+621, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 209,
+  "speaker": "タバサ",
+  "ja": "意気地無し。",
+  "voice": 15632,
+  "thought": false,
+  "src": "タバサ：意気地無し。  [voice 15632]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 210,
+  "speaker": "サイト",
+  "ja": "ううっ、そんなぁ……。",
+  "voice": 12066,
+  "thought": false,
+  "src": "サイト：ううっ、そんなぁ……。  [voice 12066]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 785
+ },
+ {
+  "kind": "scene",
+  "no": 785
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 211,
+  "speaker": "サイト",
+  "ja": "（こいつはきっとしばらくの間、シエスタをめぐって大荒れになりそうだな）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（こいつはきっとしばらくの間、"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 786
+ },
+ {
+  "kind": "scene",
+  "no": 786
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 212,
+  "speaker": "ルイズ",
+  "ja": "シエスタっ。戻ったわ。",
+  "voice": 6587,
+  "thought": false,
+  "src": "ルイズ：シエスタっ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+57]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 213,
+  "speaker": "シエスタ",
+  "ja": "あっ、おかえりなさい。",
+  "voice": 14848,
+  "thought": false,
+  "src": "シエスタ：あっ、おかえりなさい。  [voice 14848]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 214,
+  "speaker": "シエスタ",
+  "ja": "あれ……。みなさんもお揃いで？一体、どうかなさったんですか？",
+  "voice": 14849,
+  "thought": false,
+  "src": "シエスタ：あれ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 215,
+  "speaker": "キュルケ",
+  "ja": "あなたに用があるの。",
+  "voice": 3395,
+  "thought": false,
+  "src": "キュルケ：あなたに用があるの。  [voice 3395]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 216,
+  "speaker": "シエスタ",
+  "ja": "はい、何のご用でしょうか？",
+  "voice": 14850,
+  "thought": false,
+  "src": "シエスタ：はい、何のご用でしょうか？  [voice 14850]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 217,
+  "speaker": "キュルケ",
+  "ja": "ふふっ、シエスタ？サイトを賭けて、あたし達と正々堂々と勝負しなさい！",
+  "voice": 3396,
+  "thought": false,
+  "src": "キュルケ：ふふっ、シエスタ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+526, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 218,
+  "speaker": "シエスタ",
+  "ja": "はいっ！？あの、それはどういう事なんでしょうか？",
+  "voice": 14851,
+  "thought": false,
+  "src": "シエスタ：はいっ！？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 219,
+  "speaker": "シエスタ",
+  "ja": "わたくし、何か失礼なことでも……？わ、わたくしなんて、ただの村娘ですし……。みなさんと勝負なんてできません……。",
+  "voice": 14852,
+  "thought": false,
+  "src": "シエスタ：わたくし、何か失礼なことでも……？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 220,
+  "speaker": "ハルナ",
+  "ja": "大丈夫ですよ、シエスタさん。勝負といっても、女の子の戦いですから。",
+  "voice": 2391,
+  "thought": false,
+  "src": "ハルナ：大丈夫ですよ、シエスタさん。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 221,
+  "speaker": "シエスタ",
+  "ja": "女の子の戦い……。",
+  "voice": 14853,
+  "thought": false,
+  "src": "シエスタ：女の子の戦い……。  [voice 14853]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 222,
+  "speaker": "サイト",
+  "ja": "どういうわけか、ここにいるみんなが、俺を賭けて、シエスタと勝負したいって話になって……。",
+  "voice": 12067,
+  "thought": false,
+  "src": "サイト：どういうわけか、ここにいるみんなが、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 223,
+  "speaker": "サイト",
+  "ja": "俺は止めたんだけど……。",
+  "voice": 12068,
+  "thought": false,
+  "src": "サイト：俺は止めたんだけど……。  [voice 12068]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 224,
+  "speaker": "シエスタ",
+  "ja": "そ、そうなんですか……。",
+  "voice": 14854,
+  "thought": false,
+  "src": "シエスタ：そ、そうなんですか……。  [voice 14854]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+493, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+25]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 225,
+  "speaker": "シエスタ",
+  "ja": "分かりました。サイトさんを賭けてなら、その勝負、受けて立ちます。",
+  "voice": 14855,
+  "thought": false,
+  "src": "シエスタ：分かりました。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 226,
+  "speaker": "シエスタ",
+  "ja": "これに勝てば、堂々とサイトさんといちゃいちゃしていいんですね！",
+  "voice": 14856,
+  "thought": false,
+  "src": "シエスタ：これに勝てば、堂々とサイトさんと"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 227,
+  "speaker": "サイト",
+  "ja": "どうして、そうなるのさ！",
+  "voice": 12069,
+  "thought": false,
+  "src": "サイト：どうして、そうなるのさ！  [voice 12069]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 228,
+  "speaker": "ルイズ",
+  "ja": "それで、肝心の勝負の内容は、何にするの？",
+  "voice": 6588,
+  "thought": false,
+  "src": "ルイズ：それで、肝心の勝負の内容は、何にするの？  [voice 6588]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 229,
+  "speaker": "サイト",
+  "ja": "いや、おまえら淡々と事を進めるなよ。",
+  "voice": 12070,
+  "thought": false,
+  "src": "サイト：いや、おまえら淡々と事を進めるなよ。  [voice 12070]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 230,
+  "speaker": "キュルケ",
+  "ja": "うーんと、そうねぇ。魔法を使えないシエスタでも、できるようなこと……。",
+  "voice": 3397,
+  "thought": false,
+  "src": "キュルケ：うーんと、そうねぇ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 231,
+  "speaker": "シエスタ",
+  "ja": "わたしにできることなんて、メイドのお仕事くらいです。お料理とか……。",
+  "voice": 14857,
+  "thought": false,
+  "src": "シエスタ：わたしにできることなんて、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 232,
+  "speaker": "キュルケ",
+  "ja": "あら、それいいじゃない？",
+  "voice": 3398,
+  "thought": false,
+  "src": "キュルケ：あら、それいいじゃない？  [voice 3398]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 233,
+  "speaker": "シエスタ",
+  "ja": "え？",
+  "voice": 14858,
+  "thought": false,
+  "src": "シエスタ：え？  [voice 14858]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 234,
+  "speaker": "キュルケ",
+  "ja": "決めたわ、勝負は自慢の料理対決よっ！",
+  "voice": 3399,
+  "thought": false,
+  "src": "キュルケ：決めたわ、勝負は自慢の料理対決よっ！  [voice 3399]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+986, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 235,
+  "speaker": "ルイズ",
+  "ja": "なんですってぇ？",
+  "voice": 6589,
+  "thought": false,
+  "src": "ルイズ：なんですってぇ？  [voice 6589]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 236,
+  "speaker": "ハルナ",
+  "ja": "それなら私でも何とかできそうです。",
+  "voice": 2392,
+  "thought": false,
+  "src": "ハルナ：それなら私でも何とかできそうです。  [voice 2392]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 237,
+  "speaker": "サイト",
+  "ja": "料理対決って……キュルケ、本気かよっ！",
+  "voice": 12071,
+  "thought": false,
+  "src": "サイト：料理対決って……キュルケ、本気かよっ！  [voice 12071]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 238,
+  "speaker": "キュルケ",
+  "ja": "もちろん……あたしに二言はないから。",
+  "voice": 3400,
+  "thought": false,
+  "src": "キュルケ：もちろん……あたしに二言はないから。  [voice 3400]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 239,
+  "speaker": "タバサ",
+  "ja": "悪くない。",
+  "voice": 15633,
+  "thought": false,
+  "src": "タバサ：悪くない。  [voice 15633]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 240,
+  "speaker": "サイト",
+  "ja": "料理対決ねえ……。",
+  "voice": 12072,
+  "thought": false,
+  "src": "サイト：料理対決ねえ……。  [voice 12072]"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "胃腸薬ってのは存在するのか？",
+    "target": 787
+   },
+   {
+    "text": "シエスタの得意分野だな",
+    "target": 788
+   },
+   {
+    "text": "俺は水着審査がいい",
+    "target": 789
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 787
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+25]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 241,
+  "speaker": "サイト",
+  "ja": "なあ、ルイズ。この世界に、胃腸薬ってのは存在するのか？",
+  "voice": 12073,
+  "thought": false,
+  "src": "サイト：なあ、ルイズ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 242,
+  "speaker": "ルイズ",
+  "ja": "イチョウヤク？……なによそれ？",
+  "voice": 6590,
+  "thought": false,
+  "src": "ルイズ：イチョウヤク？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 243,
+  "speaker": "サイト",
+  "ja": "ああ、変なモノ食ったり、食べ過ぎたりして胃がおかしくなった時に飲む薬のことさ。",
+  "voice": 12074,
+  "thought": false,
+  "src": "サイト：ああ、変なモノ食ったり、食べ過ぎたりして"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 244,
+  "speaker": "ルイズ",
+  "ja": "変なモノ？それってわたしが作る料理が、変なモノだと思ってるってことかしらぁ！？",
+  "voice": 6591,
+  "thought": false,
+  "src": "ルイズ：変なモノ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 245,
+  "speaker": "サイト",
+  "ja": "い、いや、そういう意味じゃなくてっ！",
+  "voice": 12075,
+  "thought": false,
+  "src": "サイト：い、いや、そういう意味じゃなくてっ！  [voice 12075]"
+ },
+ {
+  "kind": "goto",
+  "target": 790
+ },
+ {
+  "kind": "scene",
+  "no": 788
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+25]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 246,
+  "speaker": "サイト",
+  "ja": "料理対決なら、シエスタの得意分野だな！",
+  "voice": 12076,
+  "thought": false,
+  "src": "サイト：料理対決なら、シエスタの得意分野だな！  [voice 12076]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 247,
+  "speaker": "シエスタ",
+  "ja": "はいっ！料理なら毎日みなさんの食事を作るお手伝いをしていますから、ちょっと自信アリですっ！",
+  "voice": 14859,
+  "thought": false,
+  "src": "シエスタ：はいっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 248,
+  "speaker": "キュルケ",
+  "ja": "ふふっ、それでこそ張り合いがあるってものよ。目にもの見せてあげるから、覚悟してなさいね？",
+  "voice": 3401,
+  "thought": false,
+  "src": "キュルケ：ふふっ、それでこそ張り合いがあるってものよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 249,
+  "speaker": "ルイズ",
+  "ja": "わ、わたしだってタダじゃ済ませないんだから！",
+  "voice": 6592,
+  "thought": false,
+  "src": "ルイズ：わ、わたしだってタダじゃ済ませないんだから！  [voice 6592]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 250,
+  "speaker": "サイト",
+  "ja": "それって、どういう意味ですか？",
+  "voice": 12077,
+  "thought": false,
+  "src": "サイト：それって、どういう意味ですか？  [voice 12077]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+953, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 251,
+  "speaker": "ハルナ",
+  "ja": "くすっ……。私も平賀くんがビックリするような料理を探してみようかな？",
+  "voice": 2393,
+  "thought": false,
+  "src": "ハルナ：くすっ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 252,
+  "speaker": "シエスタ",
+  "ja": "なんだか、とってもやる気が出てきましたっ！期待しててくださいね、サイトさんっ！！",
+  "voice": 14860,
+  "thought": false,
+  "src": "シエスタ：なんだか、とってもやる気が出てきましたっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 253,
+  "speaker": "サイト",
+  "ja": "ああ、頑張れよシエスタっ！！",
+  "voice": 12078,
+  "thought": false,
+  "src": "サイト：ああ、頑張れよシエスタっ！！  [voice 12078]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 254,
+  "speaker": "シエスタ",
+  "ja": "くすっ……はいっ！",
+  "voice": 14861,
+  "thought": false,
+  "src": "シエスタ：くすっ……はいっ！  [voice 14861]"
+ },
+ {
+  "kind": "goto",
+  "target": 790
+ },
+ {
+  "kind": "scene",
+  "no": 789
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+25]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 255,
+  "speaker": "サイト",
+  "ja": "却下だ！俺は水着審査がいい！きっとみんなもそう思ってるはずだ！",
+  "voice": 12079,
+  "thought": false,
+  "src": "サイト：却下だ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 256,
+  "speaker": "ルイズ",
+  "ja": "……。",
+  "voice": 6593,
+  "thought": false,
+  "src": "ルイズ：……。  [voice 6593]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+955, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 257,
+  "speaker": "ハルナ",
+  "ja": "ちょっと、なんで水着が出てくるわけ？",
+  "voice": 2394,
+  "thought": false,
+  "src": "ハルナ：ちょっと、なんで水着が出てくるわけ？  [voice 2394]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+594, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 258,
+  "speaker": "タバサ",
+  "ja": "最低。",
+  "voice": 15634,
+  "thought": false,
+  "src": "タバサ：最低。  [voice 15634]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 259,
+  "speaker": "サイト",
+  "ja": "すいません、ボクが調子こいてました。許してください。",
+  "voice": 12080,
+  "thought": false,
+  "src": "サイト：すいません、ボクが調子こいてました。"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 260,
+  "speaker": "キュルケ",
+  "ja": "そんなに見たいなら、後であたしの部屋にいらっしゃいな。",
+  "voice": 3402,
+  "thought": false,
+  "src": "キュルケ：そんなに見たいなら、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+717, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 261,
+  "speaker": "キュルケ",
+  "ja": "いろいろ見せてあげるわ。水着だけじゃなく、ね。",
+  "voice": 3403,
+  "thought": false,
+  "src": "キュルケ：いろいろ見せてあげるわ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 262,
+  "speaker": "サイト",
+  "ja": "いろいろですか！いろいろってなんですかー！",
+  "voice": 12081,
+  "thought": false,
+  "src": "サイト：いろいろですか！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+335, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 263,
+  "speaker": "ルイズ",
+  "ja": "サイト……。鞭と首輪、どちらがいいかしら？",
+  "voice": 6594,
+  "thought": false,
+  "src": "ルイズ：サイト……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 264,
+  "speaker": "サイト",
+  "ja": "いえ、ごめんなさい。遠慮させていただきます。",
+  "voice": 12082,
+  "thought": false,
+  "src": "サイト：いえ、ごめんなさい。"
+ },
+ {
+  "kind": "goto",
+  "target": 790
+ },
+ {
+  "kind": "scene",
+  "no": 790
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+25]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=144, y=416]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 265,
+  "speaker": "キュルケ",
+  "ja": "それじゃあ、勝負の段取りはあたしが何とかするから。楽しみに待ってなさい。",
+  "voice": 3404,
+  "thought": false,
+  "src": "キュルケ：それじゃあ、勝負の段取りはあたしが"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 266,
+  "speaker": "ルイズ",
+  "ja": "分かったわ。",
+  "voice": 6595,
+  "thought": false,
+  "src": "ルイズ：分かったわ。  [voice 6595]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 267,
+  "speaker": "キュルケ",
+  "ja": "それじゃあ、シエスタ。日頃の腕を見せてもらうわね？",
+  "voice": 3405,
+  "thought": false,
+  "src": "キュルケ：それじゃあ、シエスタ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 268,
+  "speaker": "シエスタ",
+  "ja": "分かりましたわ、ミス・ツェルプストー。どうぞお手柔らかにお願いします。",
+  "voice": 14862,
+  "thought": false,
+  "src": "シエスタ：分かりましたわ、ミス・ツェルプストー。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+986, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 269,
+  "speaker": "ハルナ",
+  "ja": "よぉし、頑張るわよっ！！",
+  "voice": 2395,
+  "thought": false,
+  "src": "ハルナ：よぉし、頑張るわよっ！！  [voice 2395]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 791
+ },
+ {
+  "kind": "scene",
+  "no": 791
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 270,
+  "speaker": "サイト",
+  "ja": "やれやれ。何だかとんでもない事に巻き込まれることになったなぁ……。",
+  "voice": 12083,
+  "thought": false,
+  "src": "サイト：やれやれ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+942, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 271,
+  "speaker": "デルフリンガー",
+  "ja": "へへへっ、相棒っ！随分と面白い展開になってきたじゃねえか？",
+  "voice": 1336,
+  "thought": false,
+  "src": "デルフリンガー：へへへっ、相棒っ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 272,
+  "speaker": "サイト",
+  "ja": "なんだよデルフ……。他人事だと思って。",
+  "voice": 12084,
+  "thought": false,
+  "src": "サイト：なんだよデルフ……。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 273,
+  "speaker": "デルフリンガー",
+  "ja": "どうしたよ、お手並み拝見と行こうじゃねーか？しかし、もてる男はつらいね。",
+  "voice": 1337,
+  "thought": false,
+  "src": "デルフリンガー：どうしたよ、お手並み拝見と行こうじゃねーか？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 274,
+  "speaker": "サイト",
+  "ja": "俺のせいじゃないだろ？",
+  "voice": 12085,
+  "thought": false,
+  "src": "サイト：俺のせいじゃないだろ？  [voice 12085]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+946, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 275,
+  "speaker": "デルフリンガー",
+  "ja": "そうかぁ？俺っちは、どうにも相棒のあいまいな態度が原因だと思うが……。",
+  "voice": 1338,
+  "thought": false,
+  "src": "デルフリンガー：そうかぁ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 276,
+  "speaker": "サイト",
+  "ja": "しょうがないだろ？俺はこの世界の住人じゃないんだ。いつかは帰りたいと思ってるし……。",
+  "voice": 12086,
+  "thought": false,
+  "src": "サイト：しょうがないだろ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 277,
+  "speaker": "デルフリンガー",
+  "ja": "分かった分かった。それ以上は言わねぇよ。俺っちは面白ければそれでいいからな。",
+  "voice": 1339,
+  "thought": false,
+  "src": "デルフリンガー：分かった分かった。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 278,
+  "speaker": "サイト",
+  "ja": "……。",
+  "voice": 12087,
+  "thought": false,
+  "src": "サイト：……。  [voice 12087]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 279,
+  "speaker": "デルフリンガー",
+  "ja": "ところで、相棒。誰が優勝すると思うんだ？",
+  "voice": 1340,
+  "thought": false,
+  "src": "デルフリンガー：ところで、相棒。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 280,
+  "speaker": "サイト",
+  "ja": "うーん……。",
+  "voice": 12088,
+  "thought": false,
+  "src": "サイト：うーん……。  [voice 12088]"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "本命シエスタ",
+    "target": 792
+   },
+   {
+    "text": "大穴ルイズ",
+    "target": 793
+   },
+   {
+    "text": "俺",
+    "target": 794
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 792
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 281,
+  "speaker": "サイト",
+  "ja": "やっぱり、本命のシエスタじゃないか？仕事柄、料理に慣れてるだろうし。",
+  "voice": 12089,
+  "thought": false,
+  "src": "サイト：やっぱり、本命のシエスタじゃないか？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 282,
+  "speaker": "デルフリンガー",
+  "ja": "ま、順当ってとこだぁな。面白みは欠けっけどよ。",
+  "voice": 1341,
+  "thought": false,
+  "src": "デルフリンガー：ま、順当ってとこだぁな。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 283,
+  "speaker": "サイト",
+  "ja": "おいおい、面白みで話すのやめてくれよ。食うのは俺なんだからさ。面白みのある料理なんて作られちゃ困る。",
+  "voice": 12090,
+  "thought": false,
+  "src": "サイト：おいおい、面白みで話すのやめてくれよ。"
+ },
+ {
+  "kind": "goto",
+  "target": 795
+ },
+ {
+  "kind": "scene",
+  "no": 793
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 284,
+  "speaker": "サイト",
+  "ja": "意外と大穴でルイズかもしれない。",
+  "voice": 12091,
+  "thought": false,
+  "src": "サイト：意外と大穴でルイズかもしれない。  [voice 12091]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+946, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 285,
+  "speaker": "デルフリンガー",
+  "ja": "おいおい相棒、本気で言ってんのかい？",
+  "voice": 1342,
+  "thought": false,
+  "src": "デルフリンガー：おいおい相棒、本気で言ってんのかい？  [voice 1342]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 286,
+  "speaker": "サイト",
+  "ja": "あいつ、いざって時にすごいことしでかしたりするからさ。分かんないぜ？",
+  "voice": 12092,
+  "thought": false,
+  "src": "サイト：あいつ、いざって時にすごいこと"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 287,
+  "speaker": "デルフリンガー",
+  "ja": "なるほどな。ま、相棒のためにはそれが一番いい結果だろうな。",
+  "voice": 1343,
+  "thought": false,
+  "src": "デルフリンガー：なるほどな。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 288,
+  "speaker": "サイト",
+  "ja": "どして？",
+  "voice": 12093,
+  "thought": false,
+  "src": "サイト：どして？  [voice 12093]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+946, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 289,
+  "speaker": "デルフリンガー",
+  "ja": "貴族の娘っ子が優勝するような料理を作れればいいが、そうじゃなかったら……。どんな料理を作ってくると思ってんだい？",
+  "voice": 1344,
+  "thought": false,
+  "src": "デルフリンガー：貴族の娘っ子が優勝するような料理を"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 290,
+  "speaker": "サイト",
+  "ja": "そ、そうだった……。ルイズ……頼むぜぇ。",
+  "voice": 12094,
+  "thought": false,
+  "src": "サイト：そ、そうだった……。"
+ },
+ {
+  "kind": "goto",
+  "target": 795
+ },
+ {
+  "kind": "scene",
+  "no": 794
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 291,
+  "speaker": "サイト",
+  "ja": "俺。",
+  "voice": 12095,
+  "thought": false,
+  "src": "サイト：俺。  [voice 12095]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 292,
+  "speaker": "デルフリンガー",
+  "ja": "は？相棒は料理作らないだろ？",
+  "voice": 1345,
+  "thought": false,
+  "src": "デルフリンガー：は？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 293,
+  "speaker": "サイト",
+  "ja": "考えてもみろよ。あいつらの作る料理を食べるの、俺だぞ？シエスタとか安心できるのはいいけど……。",
+  "voice": 12096,
+  "thought": false,
+  "src": "サイト：考えてもみろよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+946, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 294,
+  "speaker": "デルフリンガー",
+  "ja": "頑張れ、相棒。",
+  "voice": 1346,
+  "thought": false,
+  "src": "デルフリンガー：頑張れ、相棒。  [voice 1346]"
+ },
+ {
+  "kind": "goto",
+  "target": 795
+ },
+ {
+  "kind": "scene",
+  "no": 795
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 295,
+  "speaker": "サイト",
+  "ja": "なんだか、ちょっと心配になってきたな。様子を見に行ってみるか……。",
+  "voice": 12097,
+  "thought": false,
+  "src": "サイト：なんだか、ちょっと心配になってきたな。"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 296,
+  "speaker": "null",
+  "ja": "【移動】タバサの部屋 → scene 588  ((0x01000000 +1493))",
+  "voice": null,
+  "thought": true,
+  "src": "【移動】タバサの部屋 → scene 588  ((0x01000000 +1493))"
+ },
+ {
+  "kind": "dlg",
+  "idx": 297,
+  "speaker": "null",
+  "ja": "【移動】中庭 → scene 676  ((0x01000000 +1498))",
+  "voice": null,
+  "thought": true,
+  "src": "【移動】中庭 → scene 676  ((0x01000000 +1498))"
+ },
+ {
+  "kind": "dlg",
+  "idx": 298,
+  "speaker": "null",
+  "ja": "【移動】ルイズの部屋 → scene 302  ((0x01000000 +1503))",
+  "voice": null,
+  "thought": true,
+  "src": "【移動】ルイズの部屋 → scene 302  ((0x01000000 +1503))"
+ },
+ {
+  "kind": "dlg",
+  "idx": 299,
+  "speaker": "null",
+  "ja": "【移動】中庭 → scene 951  ((0x01000000 +1508))",
+  "voice": null,
+  "thought": true,
+  "src": "【移動】中庭 → scene 951  ((0x01000000 +1508))"
+ },
+ {
+  "kind": "scene",
+  "no": 796
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "goto",
+  "target": 1493
+ },
+ {
+  "kind": "scene",
+  "no": 797
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "goto",
+  "target": 1498
+ },
+ {
+  "kind": "scene",
+  "no": 798
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "goto",
+  "target": 1503
+ },
+ {
+  "kind": "scene",
+  "no": 799
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, hide, level=10]"
+ },
+ {
+  "kind": "goto",
+  "target": 1508
+ },
+ {
+  "kind": "scene",
+  "no": 800
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+90, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+20]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 300,
+  "speaker": "サイト",
+  "ja": "ああ、何だか疲れたなぁ。今日はワラの寝床でもぐっすり眠れそうだよ。",
+  "voice": 12098,
+  "thought": false,
+  "src": "サイト：ああ、何だか疲れたなぁ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+12, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 301,
+  "speaker": "シエスタ",
+  "ja": "サイトさん、お疲れさまでした。",
+  "voice": 14863,
+  "thought": false,
+  "src": "シエスタ：サイトさん、お疲れさまでした。  [voice 14863]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 302,
+  "speaker": "サイト",
+  "ja": "ああ、シエスタの方こそお疲れ。朝から掃除洗濯で大変なのに、オマケに料理対決の準備なんてさ……。",
+  "voice": 12099,
+  "thought": false,
+  "src": "サイト：ああ、シエスタの方こそお疲れ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 303,
+  "speaker": "サイト",
+  "ja": "ホント、平気かい？",
+  "voice": 12100,
+  "thought": false,
+  "src": "サイト：ホント、平気かい？  [voice 12100]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 304,
+  "speaker": "シエスタ",
+  "ja": "ええ。心配してくれてありがとうございます。サイトさん。",
+  "voice": 14864,
+  "thought": false,
+  "src": "シエスタ：ええ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 305,
+  "speaker": "サイト",
+  "ja": "まったく……。あいつら、何を考えてんだろうなぁ？",
+  "voice": 12101,
+  "thought": false,
+  "src": "サイト：まったく……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 306,
+  "speaker": "シエスタ",
+  "ja": "でも、ちょっと楽しそう。わたしが落ち込んでたりしたから、みなさん気にかけてくれたのかしら？",
+  "voice": 14865,
+  "thought": false,
+  "src": "シエスタ：でも、ちょっと楽しそう。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 307,
+  "speaker": "サイト",
+  "ja": "強いんだな、シエスタは。",
+  "voice": 12102,
+  "thought": false,
+  "src": "サイト：強いんだな、シエスタは。  [voice 12102]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 308,
+  "speaker": "シエスタ",
+  "ja": "うふふ、わたしだけじゃありません。女の子って、サイトさんが思ってるより、ずっと強いんですよ？",
+  "voice": 14866,
+  "thought": false,
+  "src": "シエスタ：うふふ、わたしだけじゃありません。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 309,
+  "speaker": "サイト",
+  "ja": "うーん、よく分かんねーよ。",
+  "voice": 12103,
+  "thought": false,
+  "src": "サイト：うーん、よく分かんねーよ。  [voice 12103]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 310,
+  "speaker": "シエスタ",
+  "ja": "うふふ、もう、サイトさんったら。",
+  "voice": 14867,
+  "thought": false,
+  "src": "シエスタ：うふふ、もう、サイトさんったら。  [voice 14867]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 311,
+  "speaker": "サイト",
+  "ja": "ははははっ。",
+  "voice": 12104,
+  "thought": false,
+  "src": "サイト：ははははっ。  [voice 12104]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 312,
+  "speaker": "シエスタ",
+  "ja": "あのっ……サイトさん。",
+  "voice": 14868,
+  "thought": false,
+  "src": "シエスタ：あのっ……サイトさん。  [voice 14868]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 313,
+  "speaker": "サイト",
+  "ja": "うん？",
+  "voice": 12105,
+  "thought": false,
+  "src": "サイト：うん？  [voice 12105]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+497, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 314,
+  "speaker": "シエスタ",
+  "ja": "その……ぅ……。隣に座っても、いいですか？",
+  "voice": 14869,
+  "thought": false,
+  "src": "シエスタ：その……ぅ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+431, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 315,
+  "speaker": "サイト",
+  "ja": "え？あ、ああ……。",
+  "voice": 12106,
+  "thought": false,
+  "src": "サイト：え？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+59]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 316,
+  "speaker": "シエスタ",
+  "ja": "しょっと……。うふふ、ワラってやわらかいですね。",
+  "voice": 14870,
+  "thought": false,
+  "src": "シエスタ：しょっと……。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 317,
+  "speaker": "サイト",
+  "ja": "（ちょ、ちょっと……。寄り添ってくるのは反則ですよ！！）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（ちょ、ちょっと……。"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+57]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 318,
+  "speaker": "ルイズ",
+  "ja": "ただいまぁ……。って、ちょっとお！！なぁに２人で寄り添ってベタベタしてるのよっ！",
+  "voice": 6596,
+  "thought": false,
+  "src": "ルイズ：ただいまぁ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+493, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 319,
+  "speaker": "サイト",
+  "ja": "うわっ、ルイズっ！！",
+  "voice": 12107,
+  "thought": false,
+  "src": "サイト：うわっ、ルイズっ！！  [voice 12107]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 320,
+  "speaker": "シエスタ",
+  "ja": "……あっ！！お、お帰りなさいませ、ミス・ヴァリエール。ハルナさん……。",
+  "voice": 14871,
+  "thought": false,
+  "src": "シエスタ：……あっ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+990, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 321,
+  "speaker": "ルイズ",
+  "ja": "一体、何してたの！言ってごらんなさいっ！",
+  "voice": 6597,
+  "thought": false,
+  "src": "ルイズ：一体、何してたの！"
+ },
+ {
+  "kind": "dlg",
+  "idx": 322,
+  "speaker": "ハルナ",
+  "ja": "シエスタさんひどいです。こっそり平賀くんに近づくなんて……。",
+  "voice": 2396,
+  "thought": false,
+  "src": "ハルナ：シエスタさんひどいです。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 323,
+  "speaker": "サイト",
+  "ja": "な、なんでもない、話してただけだよ！",
+  "voice": 12108,
+  "thought": false,
+  "src": "サイト：な、なんでもない、話してただけだよ！  [voice 12108]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 324,
+  "speaker": "ルイズ",
+  "ja": "何をよ！",
+  "voice": 6598,
+  "thought": false,
+  "src": "ルイズ：何をよ！  [voice 6598]"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "料理対決について",
+    "target": 801
+   },
+   {
+    "text": "ルイズの強さについて",
+    "target": 802
+   },
+   {
+    "text": "ワラの柔らかさについて",
+    "target": 803
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 801
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+12, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 325,
+  "speaker": "サイト",
+  "ja": "ほ、ほら、料理対決があるだろ！？それについていろいろと、な！",
+  "voice": 12109,
+  "thought": false,
+  "src": "サイト：ほ、ほら、料理対決があるだろ！？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 326,
+  "speaker": "ルイズ",
+  "ja": "ほほー……。そんな言い訳が通じると思ってるのかしら？",
+  "voice": 6599,
+  "thought": false,
+  "src": "ルイズ：ほほー……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 327,
+  "speaker": "サイト",
+  "ja": "ほ、ほんとだって！",
+  "voice": 12110,
+  "thought": false,
+  "src": "サイト：ほ、ほんとだって！  [voice 12110]"
+ },
+ {
+  "kind": "goto",
+  "target": 804
+ },
+ {
+  "kind": "scene",
+  "no": 802
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+12, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 328,
+  "speaker": "サイト",
+  "ja": "ほ、ほら、女の子は強いなって話をさ！ルイズとか……。",
+  "voice": 12111,
+  "thought": false,
+  "src": "サイト：ほ、ほら、女の子は強いなって話をさ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 329,
+  "speaker": "ルイズ",
+  "ja": "わたしが強いですって？レディに対して失礼じゃない！",
+  "voice": 6600,
+  "thought": false,
+  "src": "ルイズ：わたしが強いですって？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 330,
+  "speaker": "サイト",
+  "ja": "ち、ちがっ、そういう意味じゃなくて！",
+  "voice": 12112,
+  "thought": false,
+  "src": "サイト：ち、ちがっ、そういう意味じゃなくて！  [voice 12112]"
+ },
+ {
+  "kind": "goto",
+  "target": 804
+ },
+ {
+  "kind": "scene",
+  "no": 803
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+12, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 331,
+  "speaker": "サイト",
+  "ja": "ほ、ほら、意外と柔らかいもんだなってさ！",
+  "voice": 12113,
+  "thought": false,
+  "src": "サイト：ほ、ほら、意外と柔らかいもんだなってさ！  [voice 12113]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+310, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 332,
+  "speaker": "ルイズ",
+  "ja": "な、な、なななな何が柔らかいのよ！さわったの！さわったんでしょ！",
+  "voice": 6601,
+  "thought": false,
+  "src": "ルイズ：な、な、なななな何が柔らかいのよ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 333,
+  "speaker": "サイト",
+  "ja": "誰もそんなこと言ってねーだろっ！ワラが柔らかいって……。",
+  "voice": 12114,
+  "thought": false,
+  "src": "サイト：誰もそんなこと言ってねーだろっ！"
+ },
+ {
+  "kind": "goto",
+  "target": 804
+ },
+ {
+  "kind": "scene",
+  "no": 804
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+12, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    image=+213, level=80]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 334,
+  "speaker": "ルイズ",
+  "ja": "問答無用よ！",
+  "voice": 6602,
+  "thought": false,
+  "src": "ルイズ：問答無用よ！  [voice 6602]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 335,
+  "speaker": "ハルナ",
+  "ja": "ルイズさん、懲らしめてください！",
+  "voice": 2397,
+  "thought": false,
+  "src": "ハルナ：ルイズさん、懲らしめてください！  [voice 2397]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 336,
+  "speaker": "サイト",
+  "ja": "げえっ！？待った、待つんだルイズっ！！ムチは、ムチはやめれーーーっ！",
+  "voice": 12115,
+  "thought": false,
+  "src": "サイト：げえっ！？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 337,
+  "speaker": "サイト",
+  "ja": "ひええっ！！お助けぇ～！！",
+  "voice": 12116,
+  "thought": false,
+  "src": "サイト：ひええっ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+71]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide, vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(2)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+71]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     vibrate=14]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(2)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide, reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide, reset]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 338,
+  "speaker": "サイト",
+  "ja": "ぐあっ……ぎぃええっ……あふんっ。",
+  "voice": 12117,
+  "thought": false,
+  "src": "サイト：ぐあっ……ぎぃええっ……あふんっ。  [voice 12117]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide]"
+ },
+ {
+  "kind": "goto",
+  "target": 805
+ },
+ {
+  "kind": "scene",
+  "no": 805
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+16, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+19]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 339,
+  "speaker": "サイト",
+  "ja": "……ううっ、どこだここは？",
+  "voice": 12118,
+  "thought": false,
+  "src": "サイト：……ううっ、どこだここは？  [voice 12118]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 340,
+  "speaker": "デルフリンガー",
+  "ja": "よう、相棒。ようやくお目覚めかよ。このまま永遠に目覚めねぇかと思ったぜ？",
+  "voice": 1347,
+  "thought": false,
+  "src": "デルフリンガー：よう、相棒。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 341,
+  "speaker": "サイト",
+  "ja": "よぉ、デルフ。最悪の寝覚めだよ。",
+  "voice": 12119,
+  "thought": false,
+  "src": "サイト：よぉ、デルフ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 342,
+  "speaker": "サイト",
+  "ja": "ここは……廊下かぁ。結局、部屋の外に引っ張り出されたのか。体がいてぇ……。",
+  "voice": 12120,
+  "thought": false,
+  "src": "サイト：ここは……廊下かぁ。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 343,
+  "speaker": "デルフリンガー",
+  "ja": "まぁ、しゃーねーわな。",
+  "voice": 1348,
+  "thought": false,
+  "src": "デルフリンガー：まぁ、しゃーねーわな。  [voice 1348]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 344,
+  "speaker": "サイト",
+  "ja": "はあっ～。ついてねぇや、まったく。",
+  "voice": 12121,
+  "thought": false,
+  "src": "サイト：はあっ～。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 345,
+  "speaker": "サイト",
+  "ja": "この分じゃあ、シエスタも春奈も、ルイズだってもう寝てるんだろうなぁ……。",
+  "voice": 12122,
+  "thought": false,
+  "src": "サイト：この分じゃあ、シエスタも春奈も、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+946, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 346,
+  "speaker": "デルフリンガー",
+  "ja": "ああ、相棒の巻き添えを食って、俺っちまで追い出されたがな。",
+  "voice": 1349,
+  "thought": false,
+  "src": "デルフリンガー：ああ、相棒の巻き添えを食って、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 347,
+  "speaker": "サイト",
+  "ja": "すまん。",
+  "voice": 12123,
+  "thought": false,
+  "src": "サイト：すまん。  [voice 12123]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+942, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 348,
+  "speaker": "デルフリンガー",
+  "ja": "良いってことよ、相棒。",
+  "voice": 1350,
+  "thought": false,
+  "src": "デルフリンガー：良いってことよ、相棒。  [voice 1350]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 349,
+  "speaker": "サイト",
+  "ja": "まぁ、少し気分転換に散歩でもしてくるか……。",
+  "voice": 12124,
+  "thought": false,
+  "src": "サイト：まぁ、少し気分転換に散歩でもしてくるか……。  [voice 12124]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "date",
+  "kind2": "date",
+  "text": "シエスタ",
+  "target": 1204
+ },
+ {
+  "kind": "date",
+  "kind2": "proceed",
+  "text": "",
+  "target": 806
+ },
+ {
+  "kind": "scene",
+  "no": 1204
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+19, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+13]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 350,
+  "speaker": "サイト",
+  "ja": "さすがに夜ともなると、人気がなくてちょっと不気味だなぁ？",
+  "voice": 8937,
+  "thought": false,
+  "src": "サイト：さすがに夜ともなると、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+940, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 351,
+  "speaker": "デルフリンガー",
+  "ja": "なんでぇ、暗闇が怖いってのかい？冗談じゃねぇ、子供じゃあるまいし。",
+  "voice": 1215,
+  "thought": false,
+  "src": "デルフリンガー：なんでぇ、暗闇が怖いってのかい？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 352,
+  "speaker": "シエスタ",
+  "ja": "……わたしが敵の陣を説きましょう。わたしが帝国に戻れば、全ては収まることなのです。",
+  "voice": 14301,
+  "thought": false,
+  "src": "シエスタ：……わたしが敵の陣を説きましょう。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 353,
+  "speaker": "サイト",
+  "ja": "……あれ？今の声……シエスタ？",
+  "voice": 8938,
+  "thought": false,
+  "src": "サイト：……あれ？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 354,
+  "speaker": "デルフリンガー",
+  "ja": "ああ、村娘の声に違いねぇ。……しかも、聞き覚えのあるセリフだなぁ？",
+  "voice": 1216,
+  "thought": false,
+  "src": "デルフリンガー：ああ、村娘の声に違いねぇ。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 355,
+  "speaker": "シエスタ",
+  "ja": "……ですが、このままでは王子は王国とお命を失うことになります！",
+  "voice": 14302,
+  "thought": false,
+  "src": "シエスタ：……ですが、このままでは王子は王国とお命を"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+28, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+493, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 356,
+  "speaker": "シエスタ",
+  "ja": "王子、いつぞやの求婚をいただいた夜を覚えておいででしょうか？",
+  "voice": 14303,
+  "thought": false,
+  "src": "シエスタ：王子、いつぞやの求婚をいただいた"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 357,
+  "speaker": "シエスタ",
+  "ja": "今宵のように双月の美しい夜でございました。……あのお返事を今いたしましょう。",
+  "voice": 14304,
+  "thought": false,
+  "src": "シエスタ：今宵のように双月の美しい夜でございました。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 358,
+  "speaker": "サイト",
+  "ja": "……シエスタ。",
+  "voice": 8939,
+  "thought": false,
+  "src": "サイト：……シエスタ。  [voice 8939]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+526, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 359,
+  "speaker": "シエスタ",
+  "ja": "きゃあっ！？",
+  "voice": 14305,
+  "thought": false,
+  "src": "シエスタ：きゃあっ！？  [voice 14305]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+530, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 360,
+  "speaker": "シエスタ",
+  "ja": "……サイトさんっ。",
+  "voice": 14306,
+  "thought": false,
+  "src": "シエスタ：……サイトさんっ。  [voice 14306]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 361,
+  "speaker": "サイト",
+  "ja": "今のは、舞台で俺達がやった劇のセリフだろう？",
+  "voice": 8940,
+  "thought": false,
+  "src": "サイト：今のは、舞台で俺達がやった劇のセリフだろう？  [voice 8940]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+497, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 362,
+  "speaker": "シエスタ",
+  "ja": "あは、サイトさんならすぐに分かりますよね。なんか……恥ずかしい所、見られちゃったっ。",
+  "voice": 14307,
+  "thought": false,
+  "src": "シエスタ：あは、サイトさんならすぐに分かりますよね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 363,
+  "speaker": "サイト",
+  "ja": "俺はあんな舞台で芝居するなんて、初めてだったからさ……。ドジ踏まないかって気が気じゃなかったさ。",
+  "voice": 8941,
+  "thought": false,
+  "src": "サイト：俺はあんな舞台で芝居するなんて、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 364,
+  "speaker": "シエスタ",
+  "ja": "そうですよねっ！特に開演前の待ち時間の怖さといったら、もう……。",
+  "voice": 14308,
+  "thought": false,
+  "src": "シエスタ：そうですよねっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 365,
+  "speaker": "サイト",
+  "ja": "それは俺だって同じさ。声が裏返ったら雰囲気ぶち壊しだとか、色々考えてたからね。",
+  "voice": 8942,
+  "thought": false,
+  "src": "サイト：それは俺だって同じさ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 366,
+  "speaker": "サイト",
+  "ja": "しかも俺、王子様なんて柄じゃないし。でも、シエスタのお姫様はピッタリだったぜ？",
+  "voice": 8943,
+  "thought": false,
+  "src": "サイト：しかも俺、王子様なんて柄じゃないし。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+497, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 367,
+  "speaker": "シエスタ",
+  "ja": "そうですか？……ありがとうございます。えへっ。",
+  "voice": 14309,
+  "thought": false,
+  "src": "シエスタ：そうですか？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 368,
+  "speaker": "サイト",
+  "ja": "あっははは……。でも、思ってたよりも評判がよくて助かったよ。",
+  "voice": 8944,
+  "thought": false,
+  "src": "サイト：あっははは……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 369,
+  "speaker": "サイト",
+  "ja": "あれで全然ダメでした……なんて言ったら、春奈のバッグも戻らなかっただろうしね。",
+  "voice": 8945,
+  "thought": false,
+  "src": "サイト：あれで全然ダメでした……なんて言ったら、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 370,
+  "speaker": "シエスタ",
+  "ja": "そうですね。みなさんが力を合わせてひとつのものを作り上げた、努力の結晶……でしたね。",
+  "voice": 14310,
+  "thought": false,
+  "src": "シエスタ：そうですね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 371,
+  "speaker": "サイト",
+  "ja": "そうだね。なんか……すごく貴重な体験ができたと思うよ。",
+  "voice": 8946,
+  "thought": false,
+  "src": "サイト：そうだね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 372,
+  "speaker": "シエスタ",
+  "ja": "はいっ、とてもいい思い出になりました。",
+  "voice": 14311,
+  "thought": false,
+  "src": "シエスタ：はいっ、とてもいい思い出になりました。  [voice 14311]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 373,
+  "speaker": "シエスタ",
+  "ja": "でも……。",
+  "voice": 14312,
+  "thought": false,
+  "src": "シエスタ：でも……。  [voice 14312]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 374,
+  "speaker": "サイト",
+  "ja": "ん？どしたの？",
+  "voice": 8947,
+  "thought": false,
+  "src": "サイト：ん？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 375,
+  "speaker": "シエスタ",
+  "ja": "王子様とお姫様……。２人はどうして死を選んだのかしら？",
+  "voice": 14313,
+  "thought": false,
+  "src": "シエスタ：王子様とお姫様……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 376,
+  "speaker": "サイト",
+  "ja": "え？",
+  "voice": 8948,
+  "thought": false,
+  "src": "サイト：え？  [voice 8948]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 377,
+  "speaker": "シエスタ",
+  "ja": "もっと、別の方法も考えられたんじゃないかって。",
+  "voice": 14314,
+  "thought": false,
+  "src": "シエスタ：もっと、別の方法も考えられたん"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 378,
+  "speaker": "シエスタ",
+  "ja": "そう思うと、何だかちょっとやるせない気持ちで、いっぱいになってきちゃって。",
+  "voice": 14315,
+  "thought": false,
+  "src": "シエスタ：そう思うと、何だかちょっとやるせない"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 379,
+  "speaker": "シエスタ",
+  "ja": "サイトさんは、どう思います？",
+  "voice": 14316,
+  "thought": false,
+  "src": "シエスタ：サイトさんは、どう思います？  [voice 14316]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 380,
+  "speaker": "サイト",
+  "ja": "うーん……そうだなぁ。俺なら……。",
+  "voice": 8949,
+  "thought": false,
+  "src": "サイト：うーん……そうだなぁ。"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "姫を国に戻す",
+    "target": 1205
+   },
+   {
+    "text": "どこかに逃げる",
+    "target": 1206
+   },
+   {
+    "text": "どっちの国も滅ぼしちゃう",
+    "target": 1207
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 1205
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+13]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+28, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 381,
+  "speaker": "サイト",
+  "ja": "姫を自分の国に戻すかな……。",
+  "voice": 8950,
+  "thought": false,
+  "src": "サイト：姫を自分の国に戻すかな……。  [voice 8950]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 382,
+  "speaker": "シエスタ",
+  "ja": "……そう、ですね……。",
+  "voice": 14317,
+  "thought": false,
+  "src": "シエスタ：……そう、ですね……。  [voice 14317]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 383,
+  "speaker": "サイト",
+  "ja": "やっぱり、生まれ育った場所を捨てさせるのは、かわいそうだしね……。",
+  "voice": 8951,
+  "thought": false,
+  "src": "サイト：やっぱり、生まれ育った場所を捨てさせるのは、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 384,
+  "speaker": "シエスタ",
+  "ja": "サイトさん……。",
+  "voice": 14318,
+  "thought": false,
+  "src": "シエスタ：サイトさん……。  [voice 14318]"
+ },
+ {
+  "kind": "goto",
+  "target": 1208
+ },
+ {
+  "kind": "scene",
+  "no": 1206
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+13]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+28, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 385,
+  "speaker": "サイト",
+  "ja": "姫を連れて、どこかに逃げるかな……。どちらの国にも見つからないような場所に。",
+  "voice": 8952,
+  "thought": false,
+  "src": "サイト：姫を連れて、どこかに逃げるかな……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 386,
+  "speaker": "シエスタ",
+  "ja": "素敵ですね。どこか小さな村で、２人で暮らすような。",
+  "voice": 14319,
+  "thought": false,
+  "src": "シエスタ：素敵ですね。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 387,
+  "speaker": "サイト",
+  "ja": "うん、そうだね。",
+  "voice": 8953,
+  "thought": false,
+  "src": "サイト：うん、そうだね。  [voice 8953]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 388,
+  "speaker": "シエスタ",
+  "ja": "それで、小さな畑を２人で耕して暮らして。そのうち、子供が生まれて……。サイトさん、子供は何人ほしいです？",
+  "voice": 14320,
+  "thought": false,
+  "src": "シエスタ：それで、小さな畑を２人で耕して暮らして。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 389,
+  "speaker": "サイト",
+  "ja": "え、ええ！？",
+  "voice": 8954,
+  "thought": false,
+  "src": "サイト：え、ええ！？  [voice 8954]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+530, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 390,
+  "speaker": "シエスタ",
+  "ja": "い、いけない、わたし……。思わず想像してしまって……。",
+  "voice": 14321,
+  "thought": false,
+  "src": "シエスタ：い、いけない、わたし……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 391,
+  "speaker": "サイト",
+  "ja": "はははっ。",
+  "voice": 8955,
+  "thought": false,
+  "src": "サイト：はははっ。  [voice 8955]"
+ },
+ {
+  "kind": "goto",
+  "target": 1208
+ },
+ {
+  "kind": "scene",
+  "no": 1207
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+495, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+13]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+28, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 392,
+  "speaker": "サイト",
+  "ja": "どっちの国も滅ぼして、俺が王様になるかな。",
+  "voice": 8956,
+  "thought": false,
+  "src": "サイト：どっちの国も滅ぼして、俺が王様になるかな。  [voice 8956]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 393,
+  "speaker": "シエスタ",
+  "ja": "くすっ。勇ましいですね。",
+  "voice": 14322,
+  "thought": false,
+  "src": "シエスタ：くすっ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 394,
+  "speaker": "サイト",
+  "ja": "なーんて、俺にはそんなことできるわけないけど。",
+  "voice": 8957,
+  "thought": false,
+  "src": "サイト：なーんて、俺にはそんなことできるわけ"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 395,
+  "speaker": "シエスタ",
+  "ja": "サイトさんならできます。サイトさんはなんでもできるすごい人だもの。",
+  "voice": 14323,
+  "thought": false,
+  "src": "シエスタ：サイトさんならできます。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 396,
+  "speaker": "サイト",
+  "ja": "そ、そうかな……。",
+  "voice": 8958,
+  "thought": false,
+  "src": "サイト：そ、そうかな……。  [voice 8958]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 397,
+  "speaker": "シエスタ",
+  "ja": "そうです。",
+  "voice": 14324,
+  "thought": false,
+  "src": "シエスタ：そうです。  [voice 14324]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+425, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 398,
+  "speaker": "サイト",
+  "ja": "たはは、断言されちゃった。",
+  "voice": 8959,
+  "thought": false,
+  "src": "サイト：たはは、断言されちゃった。  [voice 8959]"
+ },
+ {
+  "kind": "goto",
+  "target": 1208
+ },
+ {
+  "kind": "scene",
+  "no": 1208
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+528, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+13]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+28, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 399,
+  "speaker": "シエスタ",
+  "ja": "もし、サイトさんが王子様だったら。",
+  "voice": 14325,
+  "thought": false,
+  "src": "シエスタ：もし、サイトさんが王子様だったら。  [voice 14325]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+497, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 400,
+  "speaker": "シエスタ",
+  "ja": "今の優しいサイトさんのまま、もっともっと強くなってくださいね。わたしも、影ながら応援してますから。",
+  "voice": 14326,
+  "thought": false,
+  "src": "シエスタ：今の優しいサイトさんのまま、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 401,
+  "speaker": "サイト",
+  "ja": "うん。頑張ってみるよ。",
+  "voice": 8960,
+  "thought": false,
+  "src": "サイト：うん。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 402,
+  "speaker": "サイト",
+  "ja": "いざとなったら、コイツでみんなを守ってやるさ。なぁ、デルフっ……頼りにしてるぜ、相棒っ！",
+  "voice": 8961,
+  "thought": false,
+  "src": "サイト：いざとなったら、コイツでみんなを守ってやるさ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+65]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    image=+944, level=155, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     level=156]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     level=157]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 403,
+  "speaker": "デルフリンガー",
+  "ja": "へっ……。たかが村娘の１人ぐらい、おめぇの腕一本で何とかしやがれってんだ。",
+  "voice": 1217,
+  "thought": false,
+  "src": "デルフリンガー：へっ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay19    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=157, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 404,
+  "speaker": "サイト",
+  "ja": "そ、そんなこと言わないでさああぁ～。お願いだよ、デルフリンガーさぁんっ！",
+  "voice": 8962,
+  "thought": false,
+  "src": "サイト：そ、そんなこと言わないでさああぁ～。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+524, level=156, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 405,
+  "speaker": "シエスタ",
+  "ja": "サイトさんたら、もぉ！くすくすくすくすっ……。",
+  "voice": 14327,
+  "thought": false,
+  "src": "シエスタ：サイトさんたら、もぉ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=157, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 406,
+  "speaker": "サイト",
+  "ja": "ははっ、カッコつかないなぁ……。",
+  "voice": 8963,
+  "thought": false,
+  "src": "サイト：ははっ、カッコつかないなぁ……。  [voice 8963]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+489, level=156, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 407,
+  "speaker": "シエスタ",
+  "ja": "それじゃあ、サイトさん。そろそろ帰りませんか？",
+  "voice": 14328,
+  "thought": false,
+  "src": "シエスタ：それじゃあ、サイトさん。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=157, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 408,
+  "speaker": "サイト",
+  "ja": "ああ、随分と遅くまで話し込んじゃったな。それじゃあ、帰ろう。",
+  "voice": 8964,
+  "thought": false,
+  "src": "サイト：ああ、随分と遅くまで話し込んじゃったな。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     image=+491, level=156, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 409,
+  "speaker": "シエスタ",
+  "ja": "はい、王子様。",
+  "voice": 14329,
+  "thought": false,
+  "src": "シエスタ：はい、王子様。  [voice 14329]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay2     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[COFFEE]"
+ },
+ {
+  "kind": "goto",
+  "target": 806
+ },
+ {
+  "kind": "scene",
+  "no": 1493
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+9]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 410,
+  "speaker": "サイト",
+  "ja": "（タバサってどんな料理を作るつもりなんだろう……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（タバサってどんな料理を"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+82]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 411,
+  "speaker": "タバサ",
+  "ja": "誰？",
+  "voice": 15471,
+  "thought": false,
+  "src": "タバサ：誰？  [voice 15471]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 412,
+  "speaker": "サイト",
+  "ja": "俺だよ、タバサ。ちょっといいかな？",
+  "voice": 9982,
+  "thought": false,
+  "src": "サイト：俺だよ、タバサ。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 413,
+  "speaker": "タバサ",
+  "ja": "入って。",
+  "voice": 15472,
+  "thought": false,
+  "src": "タバサ：入って。  [voice 15472]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 414,
+  "speaker": "サイト",
+  "ja": "お邪魔しますっ。",
+  "voice": 9983,
+  "thought": false,
+  "src": "サイト：お邪魔しますっ。  [voice 9983]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+57]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+56]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 415,
+  "speaker": "タバサ",
+  "ja": "偵察に来たのなら、無駄。",
+  "voice": 15473,
+  "thought": false,
+  "src": "タバサ：偵察に来たのなら、無駄。  [voice 15473]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 416,
+  "speaker": "サイト",
+  "ja": "あ、ばれた？",
+  "voice": 9984,
+  "thought": false,
+  "src": "サイト：あ、ばれた？  [voice 9984]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+72]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 417,
+  "speaker": "サイト",
+  "ja": "今読んでるその本って、もしかして料理に関する本だったりして？",
+  "voice": 9985,
+  "thought": false,
+  "src": "サイト：今読んでるその本って、"
+ },
+ {
+  "kind": "dlg",
+  "idx": 418,
+  "speaker": "タバサ",
+  "ja": "秘密。",
+  "voice": 15474,
+  "thought": false,
+  "src": "タバサ：秘密。  [voice 15474]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 419,
+  "speaker": "サイト",
+  "ja": "どうしても？",
+  "voice": 9986,
+  "thought": false,
+  "src": "サイト：どうしても？  [voice 9986]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 420,
+  "speaker": "タバサ",
+  "ja": "だめ。",
+  "voice": 15475,
+  "thought": false,
+  "src": "タバサ：だめ。  [voice 15475]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 421,
+  "speaker": "サイト",
+  "ja": "（さすが、タバサだ。鉄壁の守りすぎる。さて、どうしよう？）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（さすが、タバサだ。"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "じらす",
+    "target": 1494
+   },
+   {
+    "text": "覗き見る",
+    "target": 1495
+   },
+   {
+    "text": "すねる",
+    "target": 1496
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 1494
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+9]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 422,
+  "speaker": "サイト",
+  "ja": "（よし、ここは作戦を変えよう。じらしてみるぞ）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（よし、ここは作戦を変えよう。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 423,
+  "speaker": "サイト",
+  "ja": "俺はぜんぜん見たくないなぁ～。",
+  "voice": 9987,
+  "thought": false,
+  "src": "サイト：俺はぜんぜん見たくないなぁ～。  [voice 9987]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+72]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 424,
+  "speaker": "タバサ",
+  "ja": "……。",
+  "voice": null,
+  "thought": false,
+  "src": "タバサ：……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 425,
+  "speaker": "サイト",
+  "ja": "見たくないよー。",
+  "voice": 9988,
+  "thought": false,
+  "src": "サイト：見たくないよー。  [voice 9988]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+72]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 426,
+  "speaker": "タバサ",
+  "ja": "……。",
+  "voice": null,
+  "thought": false,
+  "src": "タバサ：……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 427,
+  "speaker": "サイト",
+  "ja": "ってことで、見せて。",
+  "voice": 9989,
+  "thought": false,
+  "src": "サイト：ってことで、見せて。  [voice 9989]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+621, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 428,
+  "speaker": "タバサ",
+  "ja": "駄目。",
+  "voice": 15476,
+  "thought": false,
+  "src": "タバサ：駄目。  [voice 15476]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 429,
+  "speaker": "サイト",
+  "ja": "しくしくしく……。",
+  "voice": 9990,
+  "thought": false,
+  "src": "サイト：しくしくしく……。  [voice 9990]"
+ },
+ {
+  "kind": "goto",
+  "target": 1497
+ },
+ {
+  "kind": "scene",
+  "no": 1495
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+9]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 430,
+  "speaker": "サイト",
+  "ja": "（こうなりゃ強行突破だ。強引に見てやる！）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（こうなりゃ強行突破だ。"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+30]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     level=156]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 431,
+  "speaker": "サイト",
+  "ja": "おりゃ。",
+  "voice": 9991,
+  "thought": false,
+  "src": "サイト：おりゃ。  [voice 9991]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+621, level=156, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 432,
+  "speaker": "タバサ",
+  "ja": "ひょい。",
+  "voice": 15477,
+  "thought": false,
+  "src": "タバサ：ひょい。  [voice 15477]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     level=156]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 433,
+  "speaker": "サイト",
+  "ja": "こなくそ！！",
+  "voice": 9992,
+  "thought": false,
+  "src": "サイト：こなくそ！！  [voice 9992]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=156, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 434,
+  "speaker": "タバサ",
+  "ja": "ひょい。",
+  "voice": 15478,
+  "thought": false,
+  "src": "タバサ：ひょい。  [voice 15478]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 435,
+  "speaker": "サイト",
+  "ja": "しくしくしく……。",
+  "voice": 9993,
+  "thought": false,
+  "src": "サイト：しくしくしく……。  [voice 9993]"
+ },
+ {
+  "kind": "goto",
+  "target": 1497
+ },
+ {
+  "kind": "scene",
+  "no": 1496
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+9]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 436,
+  "speaker": "サイト",
+  "ja": "ふん、どうせ俺なんて……。",
+  "voice": 9994,
+  "thought": false,
+  "src": "サイト：ふん、どうせ俺なんて……。  [voice 9994]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 437,
+  "speaker": "サイト",
+  "ja": "いじいじいじいじ……。",
+  "voice": 9995,
+  "thought": false,
+  "src": "サイト：いじいじいじいじ……。  [voice 9995]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+588, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+72]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 438,
+  "speaker": "タバサ",
+  "ja": "……。",
+  "voice": null,
+  "thought": false,
+  "src": "タバサ：……。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 439,
+  "speaker": "サイト",
+  "ja": "いじいじいじいじ……。",
+  "voice": 9996,
+  "thought": false,
+  "src": "サイト：いじいじいじいじ……。  [voice 9996]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+72]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 440,
+  "speaker": "タバサ",
+  "ja": "……。",
+  "voice": null,
+  "thought": false,
+  "src": "タバサ：……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 441,
+  "speaker": "サイト",
+  "ja": "ってことで、見せて。",
+  "voice": 9997,
+  "thought": false,
+  "src": "サイト：ってことで、見せて。  [voice 9997]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+621, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 442,
+  "speaker": "タバサ",
+  "ja": "駄目。",
+  "voice": 15479,
+  "thought": false,
+  "src": "タバサ：駄目。  [voice 15479]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 443,
+  "speaker": "サイト",
+  "ja": "しくしくしく……。",
+  "voice": 9998,
+  "thought": false,
+  "src": "サイト：しくしくしく……。  [voice 9998]"
+ },
+ {
+  "kind": "goto",
+  "target": 1497
+ },
+ {
+  "kind": "scene",
+  "no": 1497
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+621, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+9]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+94, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     image=+621, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 444,
+  "speaker": "タバサ",
+  "ja": "レビテーション。",
+  "voice": 15480,
+  "thought": false,
+  "src": "タバサ：レビテーション。  [voice 15480]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 445,
+  "speaker": "サイト",
+  "ja": "わわわっ！？体が浮き上がる。",
+  "voice": 9999,
+  "thought": false,
+  "src": "サイト：わわわっ！？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 446,
+  "speaker": "タバサ",
+  "ja": "お願い。",
+  "voice": 15481,
+  "thought": false,
+  "src": "タバサ：お願い。  [voice 15481]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    lay0     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 447,
+  "speaker": "サイト",
+  "ja": "廊下に連れ出されるー。",
+  "voice": 10000,
+  "thought": false,
+  "src": "サイト：廊下に連れ出されるー。  [voice 10000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+14, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 448,
+  "speaker": "サイト",
+  "ja": "（そこまで秘密にしなきゃだめなものって一体どんなものなんだ？）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（そこまで秘密にしなきゃだめなものって"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "scene",
+  "no": 1498
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+8]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 449,
+  "speaker": "サイト",
+  "ja": "あれ、キュルケじゃないか。何してるの？",
+  "voice": 10001,
+  "thought": false,
+  "src": "サイト：あれ、キュルケじゃないか。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     x=224, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 450,
+  "speaker": "キュルケ",
+  "ja": "あ～ら、サイトじゃない。うふっ、気になる？",
+  "voice": 3009,
+  "thought": false,
+  "src": "キュルケ：あ～ら、サイトじゃない。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 451,
+  "speaker": "サイト",
+  "ja": "まあ、少しは。いったい何をそんな真剣に見てたのさ？",
+  "voice": 10002,
+  "thought": false,
+  "src": "サイト：まあ、少しは。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 452,
+  "speaker": "キュルケ",
+  "ja": "やだっ、ちょっとサイトったらぁ。どこのぞき込んでるのよぅ！",
+  "voice": 3010,
+  "thought": false,
+  "src": "キュルケ：やだっ、ちょっとサイトったらぁ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 453,
+  "speaker": "サイト",
+  "ja": "なんだ、ただの草じゃん。なんで棚に草がいっぱい並んでるんだ？",
+  "voice": 10003,
+  "thought": false,
+  "src": "サイト：なんだ、ただの草じゃん。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 454,
+  "speaker": "キュルケ",
+  "ja": "ただの草じゃないわ。これはミスタ・コルベールが栽培中の薬草よ。",
+  "voice": 3011,
+  "thought": false,
+  "src": "キュルケ：ただの草じゃないわ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 455,
+  "speaker": "サイト",
+  "ja": "へぇ～。で、それをどうすんの？",
+  "voice": 10004,
+  "thought": false,
+  "src": "サイト：へぇ～。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 456,
+  "speaker": "キュルケ",
+  "ja": "ナイショ。",
+  "voice": 3012,
+  "thought": false,
+  "src": "キュルケ：ナイショ。  [voice 3012]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 457,
+  "speaker": "サイト",
+  "ja": "はぁ。さいですか。",
+  "voice": 10005,
+  "thought": false,
+  "src": "サイト：はぁ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 458,
+  "speaker": "キュルケ",
+  "ja": "……ねぇ、ダーリン？あたしが今度の料理対決で一番になったら、デートしてくれる？",
+  "voice": 3013,
+  "thought": false,
+  "src": "キュルケ：……ねぇ、ダーリン？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 459,
+  "speaker": "サイト",
+  "ja": "デートぉ！？",
+  "voice": 10006,
+  "thought": false,
+  "src": "サイト：デートぉ！？  [voice 10006]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 460,
+  "speaker": "キュルケ",
+  "ja": "約束してくれるなら、教えてあげてもいいなぁ。",
+  "voice": 3014,
+  "thought": false,
+  "src": "キュルケ：約束してくれるなら、"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "よ、喜んで！",
+    "target": 1499
+   },
+   {
+    "text": "それはちょっと……",
+    "target": 1500
+   },
+   {
+    "text": "それはそれとして……",
+    "target": 1501
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 1499
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+8]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+431, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 461,
+  "speaker": "サイト",
+  "ja": "よ、喜んで。",
+  "voice": 10007,
+  "thought": false,
+  "src": "サイト：よ、喜んで。  [voice 10007]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    white    image=+2, level=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    image=+119, level=80]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+14]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 0)]"
+ },
+ {
+  "kind": "event",
+  "src": "[LAYER    white    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     vibrate=7]"
+ },
+ {
+  "kind": "event",
+  "src": "[VIBRATE vibrate(1)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     reset]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     reset]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 462,
+  "speaker": "キュルケ",
+  "ja": "ほんと！？うふっ！うれしい！",
+  "voice": 3015,
+  "thought": false,
+  "src": "キュルケ：ほんと！？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 463,
+  "speaker": "サイト",
+  "ja": "がふっ！きゅ、キュルケ、抱きしめるのはいいけど、息が、息が。",
+  "voice": 10008,
+  "thought": false,
+  "src": "サイト：がふっ！"
+ },
+ {
+  "kind": "dlg",
+  "idx": 464,
+  "speaker": "キュルケ",
+  "ja": "あら、ごめんなさい。",
+  "voice": 3016,
+  "thought": false,
+  "src": "キュルケ：あら、ごめんなさい。  [voice 3016]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 465,
+  "speaker": "キュルケ",
+  "ja": "うふふ、でも、そうと決まったら頑張っちゃうから！",
+  "voice": 3017,
+  "thought": false,
+  "src": "キュルケ：うふふ、でも、そうと決まったら"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[EVENT_CG event    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "goto",
+  "target": 1502
+ },
+ {
+  "kind": "scene",
+  "no": 1500
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+8]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 466,
+  "speaker": "サイト",
+  "ja": "そ、それはちょっと……。",
+  "voice": 10009,
+  "thought": false,
+  "src": "サイト：そ、それはちょっと……。  [voice 10009]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+682, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 467,
+  "speaker": "キュルケ",
+  "ja": "だめなの？",
+  "voice": 3018,
+  "thought": false,
+  "src": "キュルケ：だめなの？  [voice 3018]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 468,
+  "speaker": "サイト",
+  "ja": "ほ、ほら、ルイズがどこで見てるか、分かんないし！",
+  "voice": 10010,
+  "thought": false,
+  "src": "サイト：ほ、ほら、ルイズがどこで見てるか、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 469,
+  "speaker": "キュルケ",
+  "ja": "大丈夫よ、あたしが一番になったら、ルイズだって何も言えないはずよ。だから、デート。",
+  "voice": 3019,
+  "thought": false,
+  "src": "キュルケ：大丈夫よ、あたしが一番になったら、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 470,
+  "speaker": "キュルケ",
+  "ja": "ね、ね、ね！",
+  "voice": 3020,
+  "thought": false,
+  "src": "キュルケ：ね、ね、ね！  [voice 3020]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 471,
+  "speaker": "サイト",
+  "ja": "わ、分かりました。",
+  "voice": 10011,
+  "thought": false,
+  "src": "サイト：わ、分かりました。  [voice 10011]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 472,
+  "speaker": "キュルケ",
+  "ja": "うふっ！うれしい！",
+  "voice": 3021,
+  "thought": false,
+  "src": "キュルケ：うふっ！"
+ },
+ {
+  "kind": "goto",
+  "target": 1502
+ },
+ {
+  "kind": "scene",
+  "no": 1501
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+711, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+8]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 473,
+  "speaker": "サイト",
+  "ja": "それはそれとして、キュルケはどんな料理を作るつもりなんだい？",
+  "voice": 10012,
+  "thought": false,
+  "src": "サイト：それはそれとして、キュルケはどんな料理を"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 474,
+  "speaker": "キュルケ",
+  "ja": "あら、うまくごまかしたつもり？",
+  "voice": 3022,
+  "thought": false,
+  "src": "キュルケ：あら、うまくごまかしたつもり？  [voice 3022]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 475,
+  "speaker": "サイト",
+  "ja": "あう。",
+  "voice": 10013,
+  "thought": false,
+  "src": "サイト：あう。  [voice 10013]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+709, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 476,
+  "speaker": "キュルケ",
+  "ja": "でもいいわ、許してあげる。",
+  "voice": 3023,
+  "thought": false,
+  "src": "キュルケ：でもいいわ、許してあげる。  [voice 3023]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 477,
+  "speaker": "サイト",
+  "ja": "じゃ、どんな料理を？",
+  "voice": 10014,
+  "thought": false,
+  "src": "サイト：じゃ、どんな料理を？  [voice 10014]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+676, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 478,
+  "speaker": "キュルケ",
+  "ja": "ナイショ。",
+  "voice": 3024,
+  "thought": false,
+  "src": "キュルケ：ナイショ。  [voice 3024]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 479,
+  "speaker": "サイト",
+  "ja": "さいですか。",
+  "voice": 10015,
+  "thought": false,
+  "src": "サイト：さいですか。  [voice 10015]"
+ },
+ {
+  "kind": "goto",
+  "target": 1502
+ },
+ {
+  "kind": "scene",
+  "no": 1502
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+14]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     image=+678, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 480,
+  "speaker": "キュルケ",
+  "ja": "じゃあ、当日楽しみにしててね。ダーリンのためにとっておきを作るから！",
+  "voice": 3025,
+  "thought": false,
+  "src": "キュルケ：じゃあ、当日楽しみにしててね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 481,
+  "speaker": "サイト",
+  "ja": "あ、ああ。それじゃあ。",
+  "voice": 10016,
+  "thought": false,
+  "src": "サイト：あ、ああ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay6     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+17, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 482,
+  "speaker": "サイト",
+  "ja": "（高まる期待と不安……。大丈夫かなぁ……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（高まる期待と不安……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+394, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 483,
+  "speaker": "サイト",
+  "ja": "（って、薬草のこと聞けてねー！）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（って、薬草のこと聞けてねー！）"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "scene",
+  "no": 1503
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+6]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+57]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 484,
+  "speaker": "ルイズ",
+  "ja": "むぅ。",
+  "voice": 5001,
+  "thought": false,
+  "src": "ルイズ：むぅ。  [voice 5001]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 485,
+  "speaker": "サイト",
+  "ja": "（うわあ……。ルイズのヤツ、不機嫌なんすけど）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（うわあ……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+339, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 486,
+  "speaker": "ルイズ",
+  "ja": "サイトっ！！あんたの希望を聞いてあげるわ。いますぐ、好きな料理を言いなさい！",
+  "voice": 5002,
+  "thought": false,
+  "src": "ルイズ：サイトっ！！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     x=-96, y=0]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 487,
+  "speaker": "サイト",
+  "ja": "好きな食べ物って言われてもなぁ……。",
+  "voice": 10017,
+  "thought": false,
+  "src": "サイト：好きな食べ物って言われてもなぁ……。  [voice 10017]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 488,
+  "speaker": "ルイズ",
+  "ja": "もう、ぐずぐずしないでよね。練習の時間が無くなっちゃうでしょ。",
+  "voice": 5003,
+  "thought": false,
+  "src": "ルイズ：もう、ぐずぐずしないでよね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 489,
+  "speaker": "サイト",
+  "ja": "（って言われても……。日本の料理じゃ分かんないだろうし）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（って言われても……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 490,
+  "speaker": "サイト",
+  "ja": "し、シチュー……かな。母さんがよく作ってくれてたんだよ。",
+  "voice": 10018,
+  "thought": false,
+  "src": "サイト：し、シチュー……かな。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 491,
+  "speaker": "ルイズ",
+  "ja": "シチューね……。ふーん……。",
+  "voice": 5004,
+  "thought": false,
+  "src": "ルイズ：シチューね……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 492,
+  "speaker": "サイト",
+  "ja": "そ、その反応は……。",
+  "voice": 10019,
+  "thought": false,
+  "src": "サイト：そ、その反応は……。  [voice 10019]"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "とても自信あり？",
+    "target": 1504
+   },
+   {
+    "text": "作ったことないとか？",
+    "target": 1505
+   },
+   {
+    "text": "シチュー知らないとか？",
+    "target": 1506
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 1504
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+6]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+423, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 493,
+  "speaker": "サイト",
+  "ja": "もしや、とても自信がある料理だったり！？実はわたし、生クリームからこだわるのよ！みたいな！？",
+  "voice": 10020,
+  "thought": false,
+  "src": "サイト：もしや、とても自信がある料理だったり！？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 494,
+  "speaker": "ルイズ",
+  "ja": "そっ、そこまででもないけどっ！で、でも、まあ、そうね、れ、レパートリーのひ、ひとつではあるわっ！",
+  "voice": 5005,
+  "thought": false,
+  "src": "ルイズ：そっ、そこまででもないけどっ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 495,
+  "speaker": "サイト",
+  "ja": "（ウソだな……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（ウソだな……）"
+ },
+ {
+  "kind": "goto",
+  "target": 1507
+ },
+ {
+  "kind": "scene",
+  "no": 1505
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+6]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 496,
+  "speaker": "サイト",
+  "ja": "シチュー作ったことないとか？",
+  "voice": 10021,
+  "thought": false,
+  "src": "サイト：シチュー作ったことないとか？  [voice 10021]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 497,
+  "speaker": "ルイズ",
+  "ja": "な、な、ないはずないでしょ！もう、シェフ級なのよ。びっくりしても知らないんだから！",
+  "voice": 5006,
+  "thought": false,
+  "src": "ルイズ：な、な、ないはずないでしょ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 498,
+  "speaker": "サイト",
+  "ja": "（絶対ウソだな……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（絶対ウソだな……）"
+ },
+ {
+  "kind": "goto",
+  "target": 1507
+ },
+ {
+  "kind": "scene",
+  "no": 1506
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+6]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 499,
+  "speaker": "サイト",
+  "ja": "シチュー知らないとか？",
+  "voice": 10022,
+  "thought": false,
+  "src": "サイト：シチュー知らないとか？  [voice 10022]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+306, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 500,
+  "speaker": "ルイズ",
+  "ja": "知ってるわよ！失礼ね！",
+  "voice": 5007,
+  "thought": false,
+  "src": "ルイズ：知ってるわよ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 501,
+  "speaker": "ルイズ",
+  "ja": "シチューと言ったらこのわたし。わたしと言ったらシチューと言うくらい知ってるんだから。",
+  "voice": 5008,
+  "thought": false,
+  "src": "ルイズ：シチューと言ったらこのわたし。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 502,
+  "speaker": "サイト",
+  "ja": "（絶対ありえねー）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（絶対ありえねー）"
+ },
+ {
+  "kind": "goto",
+  "target": 1507
+ },
+ {
+  "kind": "scene",
+  "no": 1507
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+6]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+10, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 503,
+  "speaker": "サイト",
+  "ja": "ご主人様に質問です。",
+  "voice": 10023,
+  "thought": false,
+  "src": "サイト：ご主人様に質問です。  [voice 10023]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+302, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 504,
+  "speaker": "ルイズ",
+  "ja": "なによ。特別に質問することを許可してあげるわ。",
+  "voice": 5009,
+  "thought": false,
+  "src": "ルイズ：なによ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 505,
+  "speaker": "サイト",
+  "ja": "シチュー云々の前に、料理したことあるの？",
+  "voice": 10024,
+  "thought": false,
+  "src": "サイト：シチュー云々の前に、料理したことあるの？  [voice 10024]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 506,
+  "speaker": "ルイズ",
+  "ja": "……。",
+  "voice": 5010,
+  "thought": false,
+  "src": "ルイズ：……。  [voice 5010]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 507,
+  "speaker": "サイト",
+  "ja": "……。",
+  "voice": null,
+  "thought": false,
+  "src": "サイト：……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+310, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 508,
+  "speaker": "ルイズ",
+  "ja": "か、簡単よ。本のとおりに、切った材料や、調味料を鍋に入れればいいんでしょう？",
+  "voice": 5011,
+  "thought": false,
+  "src": "ルイズ：か、簡単よ。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 509,
+  "speaker": "サイト",
+  "ja": "（頑張れ、俺。俺はやればできる子だ。絶対生き残るんだ）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（頑張れ、俺。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     image=+343, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 510,
+  "speaker": "ルイズ",
+  "ja": "何よ！ご主人様の作る料理を食べられるだけでも、ありがたく思いなさいっ！！",
+  "voice": 5012,
+  "thought": false,
+  "src": "ルイズ：何よ！"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay1     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+57]"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se0      play=+58]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 511,
+  "speaker": "サイト",
+  "ja": "うわ、部屋を出て行っちゃったよ。俺、一体どうなっちゃうんだろう……。",
+  "voice": 10025,
+  "thought": false,
+  "src": "サイト：うわ、部屋を出て行っちゃったよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ },
+ {
+  "kind": "scene",
+  "no": 1508
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[TRANS trans(\"crossfade\", 1000)]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+11]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+852, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 512,
+  "speaker": "サイト",
+  "ja": "（あれ、春奈とモンモン？珍しい組み合わせだな）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（あれ、春奈とモンモン？"
+ },
+ {
+  "kind": "dlg",
+  "idx": 513,
+  "speaker": "モンモランシー",
+  "ja": "あら、サイトじゃない。ルイズはこっちには来ていないわよ。",
+  "voice": 4001,
+  "thought": false,
+  "src": "モンモランシー：あら、サイトじゃない。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 514,
+  "speaker": "サイト",
+  "ja": "散歩だよ、散歩。ところで、２人して何を話していたのさ？",
+  "voice": 10026,
+  "thought": false,
+  "src": "サイト：散歩だよ、散歩。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 515,
+  "speaker": "ハルナ",
+  "ja": "料理対決の事で相談に乗ってもらってたのよ。この世界の郷土料理を作ってみようかと思って。",
+  "voice": 1956,
+  "thought": false,
+  "src": "ハルナ：料理対決の事で相談に乗ってもらってたのよ。"
+ },
+ {
+  "kind": "dlg",
+  "idx": 516,
+  "speaker": "サイト",
+  "ja": "郷土料理か……。",
+  "voice": 10027,
+  "thought": false,
+  "src": "サイト：郷土料理か……。  [voice 10027]"
+ },
+ {
+  "kind": "choice",
+  "options": [
+   {
+    "text": "カエルの黒焼きとか？",
+    "target": 1509
+   },
+   {
+    "text": "サラマンダーのタンとか？",
+    "target": 1510
+   },
+   {
+    "text": "聞いたことないな",
+    "target": 1511
+   }
+  ]
+ },
+ {
+  "kind": "scene",
+  "no": 1509
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+11]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 517,
+  "speaker": "サイト",
+  "ja": "カエルの黒焼きとか……？",
+  "voice": 10028,
+  "thought": false,
+  "src": "サイト：カエルの黒焼きとか……？  [voice 10028]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 518,
+  "speaker": "モンモランシー",
+  "ja": "そんなもの食べないわよっ！",
+  "voice": 4002,
+  "thought": false,
+  "src": "モンモランシー：そんなもの食べないわよっ！  [voice 4002]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 519,
+  "speaker": "サイト",
+  "ja": "だ、だよな。",
+  "voice": 10029,
+  "thought": false,
+  "src": "サイト：だ、だよな。  [voice 10029]"
+ },
+ {
+  "kind": "goto",
+  "target": 1512
+ },
+ {
+  "kind": "scene",
+  "no": 1510
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+11]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 520,
+  "speaker": "サイト",
+  "ja": "サラマンダーのタン……とか？",
+  "voice": 10030,
+  "thought": false,
+  "src": "サイト：サラマンダーのタン……とか？  [voice 10030]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+957, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 521,
+  "speaker": "ハルナ",
+  "ja": "サラマンダーって、あのキュルケさんの使い魔でしょ？平賀くん、冗談はやめてよ。",
+  "voice": 1957,
+  "thought": false,
+  "src": "ハルナ：サラマンダーって、あのキュルケさんの"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 522,
+  "speaker": "サイト",
+  "ja": "ははは、悪い悪い。そんなもの食うわけないよな。",
+  "voice": 10031,
+  "thought": false,
+  "src": "サイト：ははは、悪い悪い。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+852, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 523,
+  "speaker": "モンモランシー",
+  "ja": "あら、食べるわよ？",
+  "voice": 4003,
+  "thought": false,
+  "src": "モンモランシー：あら、食べるわよ？  [voice 4003]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 524,
+  "speaker": "サイト",
+  "ja": "え。",
+  "voice": 10032,
+  "thought": false,
+  "src": "サイト：え。  [voice 10032]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+885, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 525,
+  "speaker": "モンモランシー",
+  "ja": "美食家の間で珍重されてるわ。獲れる量が少ないから、高値で取引されてるようね。",
+  "voice": 4004,
+  "thought": false,
+  "src": "モンモランシー：美食家の間で珍重されてるわ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 526,
+  "speaker": "サイト",
+  "ja": "そうか……。キュルケんとこのフレイムを見る目が、変わりそうだな。",
+  "voice": 10033,
+  "thought": false,
+  "src": "サイト：そうか……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+957, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 527,
+  "speaker": "ハルナ",
+  "ja": "平賀くん、だめだよ？かわいそうだからね。",
+  "voice": 1958,
+  "thought": false,
+  "src": "ハルナ：平賀くん、だめだよ？"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 528,
+  "speaker": "サイト",
+  "ja": "わ、分かってるって。",
+  "voice": 10034,
+  "thought": false,
+  "src": "サイト：わ、分かってるって。  [voice 10034]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+858, level=160, dir=1A]"
+ },
+ {
+  "kind": "goto",
+  "target": 1512
+ },
+ {
+  "kind": "scene",
+  "no": 1511
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+11]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 529,
+  "speaker": "サイト",
+  "ja": "聞いたことないな。そんなものないんじゃない？",
+  "voice": 10035,
+  "thought": false,
+  "src": "サイト：聞いたことないな。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 530,
+  "speaker": "モンモランシー",
+  "ja": "あら、あるわよ。失礼ね。",
+  "voice": 4005,
+  "thought": false,
+  "src": "モンモランシー：あら、あるわよ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 531,
+  "speaker": "ハルナ",
+  "ja": "たとえばどんなものが？",
+  "voice": 1959,
+  "thought": false,
+  "src": "ハルナ：たとえばどんなものが？  [voice 1959]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+885, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 532,
+  "speaker": "モンモランシー",
+  "ja": "そうね……。これはたぶん、うちの領内だけの料理だと思うくらい珍しいのだけど。",
+  "voice": 4006,
+  "thought": false,
+  "src": "モンモランシー：そうね……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+392, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 533,
+  "speaker": "サイト",
+  "ja": "おお、なんか期待できそう！",
+  "voice": 10036,
+  "thought": false,
+  "src": "サイト：おお、なんか期待できそう！  [voice 10036]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+854, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 534,
+  "speaker": "モンモランシー",
+  "ja": "鍋でチーズを溶かして、串に刺したパンにつけながら食べるの。珍しいでしょう。",
+  "voice": 4007,
+  "thought": false,
+  "src": "モンモランシー：鍋でチーズを溶かして、"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 535,
+  "speaker": "サイト",
+  "ja": "チーズフォンデュですか。",
+  "voice": 10037,
+  "thought": false,
+  "src": "サイト：チーズフォンデュですか。  [voice 10037]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+951, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 536,
+  "speaker": "ハルナ",
+  "ja": "こっちの世界にもあったのね……。",
+  "voice": 1960,
+  "thought": false,
+  "src": "ハルナ：こっちの世界にもあったのね……。  [voice 1960]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+858, level=160, dir=1A]"
+ },
+ {
+  "kind": "goto",
+  "target": 1512
+ },
+ {
+  "kind": "scene",
+  "no": 1512
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      play=+11]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    image=+26, level=200]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+858, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 537,
+  "speaker": "モンモランシー",
+  "ja": "でも、わたしの家ではすべて給仕が仕切ってるし。庶民の郷土料理って言われてもピンと来ないわね。",
+  "voice": 4008,
+  "thought": false,
+  "src": "モンモランシー：でも、わたしの家ではすべて給仕が"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 538,
+  "speaker": "サイト",
+  "ja": "だめじゃん。",
+  "voice": 10038,
+  "thought": false,
+  "src": "サイト：だめじゃん。  [voice 10038]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+856, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 539,
+  "speaker": "モンモランシー",
+  "ja": "なによ、悪かったわね。そんなこと言ってるんだったら、ハルナにすごい料理教えてあげるんだから！",
+  "voice": 4009,
+  "thought": false,
+  "src": "モンモランシー：なによ、悪かったわね。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+429, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 540,
+  "speaker": "サイト",
+  "ja": "な、なんだよそれ。",
+  "voice": 10039,
+  "thought": false,
+  "src": "サイト：な、なんだよそれ。  [voice 10039]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     image=+887, level=160, dir=2A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 541,
+  "speaker": "モンモランシー",
+  "ja": "ふふっ、それじゃハルナ行くわよ。",
+  "voice": 4010,
+  "thought": false,
+  "src": "モンモランシー：ふふっ、それじゃハルナ行くわよ。  [voice 4010]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay3     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     image=+953, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 542,
+  "speaker": "ハルナ",
+  "ja": "それじゃあ平賀くんっ。私の料理にも、期待しててねっ！",
+  "voice": 1961,
+  "thought": false,
+  "src": "ハルナ：それじゃあ平賀くんっ。"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+390, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 543,
+  "speaker": "サイト",
+  "ja": "ああ、楽しみにしてるよ。",
+  "voice": 10040,
+  "thought": false,
+  "src": "サイト：ああ、楽しみにしてるよ。  [voice 10040]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay7     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     image=+396, level=160, dir=1A]"
+ },
+ {
+  "kind": "dlg",
+  "idx": 544,
+  "speaker": "サイト",
+  "ja": "（春奈……。何を教え込まれるんだよ……）",
+  "voice": null,
+  "thought": true,
+  "src": "サイト：（春奈……。"
+ },
+ {
+  "kind": "event",
+  "src": "[SE       se1      stop=1]"
+ },
+ {
+  "kind": "event",
+  "src": "[BGM      bgm      stop=1000]"
+ },
+ {
+  "kind": "event",
+  "src": "[SPRITE   lay5     hide]"
+ },
+ {
+  "kind": "event",
+  "src": "[BG       stage    hide]"
+ }
+]

@@ -5115,3 +5115,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Disposition: ч.1 — 13 FIXED; ч.2 — 7 FIXED, 1 PRESERVED — FUNCTIONAL (скобки мыслей в RU); ч.3 — 9 FIXED, 1 PRESERVED — FUNCTIONAL.
 - Отчёты: `reports/sma/ch19/{1,2,3}/analysis/20261118-031000-phase2.md`.
 - Проверки после правок: `check_project.py` OK, `check_renpy_syntax.py --chapter 19` OK, `check_typography.py --chapter 19 --lang ru` OK.
+
+
+## 2026-11-18 — Глава 20: аудиты + исправление систематического сдвига
+
+- КРИТИЧЕСКОЕ: с idx 20 (`サイト：そ、そんな……。`) EN/RU были сдвинуты на одну реплику (140 позиций). Классификация ERROR (OMISSION + MISATTRIBUTION), disposition FIXED: сдвиг T-словаря +1, добавлен idx 20, перегенерированы script/JA/RU/voice-map. Обнаружено независимо Auditor A и Analyzer Ф1.
+- Прочие 8 находок FIXED (риторика, испуг, раздражение, сомнение, намерение, выдох, просьба, отаку-регистр); 1 PRESERVED — FUNCTIONAL (`ぽっ` → «Хи-хи»).
+- Отчёт: `reports/sma/ch20/script-ch20/analysis/20261118-033000-phase2.md`.
+- Проверки после исправления: `check_project.py` OK, `check_renpy_syntax.py` OK, `check_typography.py --chapter 20 --lang ru` OK, `omission_precheck` OK.
