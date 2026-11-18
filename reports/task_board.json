@@ -1463,6 +1463,35 @@
         }
       ],
       "closed": "2026-11-18 13:52:13"
+    },
+    {
+      "id": "T20261118-142418-b432",
+      "created": "2026-11-18 14:24:18",
+      "request": "Промпт 07: audience графа переходов, симпатий и overlay ID для гл.22 ч.5, гл.23-28, chapter_90/91",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Flow audit + branch fixes + overlays + sympathy check",
+          "status": "done",
+          "created": "2026-11-18 14:24:36",
+          "started": null,
+          "finished": "2026-11-18 14:24:36",
+          "session": null,
+          "note": "0 broken targets/cycles, 6 overlays K=20-25, scene 998 and move return recovered, checkKiss branches resolved, 0 sympathy discrepancies",
+          "evidence": [
+            "reports/flow_sympathy_ch22_to_end.md",
+            "reports/flow_audit.md"
+          ],
+          "manual": "Flow audit + branch fixes + overlays + sympathy check"
+        }
+      ],
+      "closed": "2026-11-18 14:24:36"
     }
   ]
 }
