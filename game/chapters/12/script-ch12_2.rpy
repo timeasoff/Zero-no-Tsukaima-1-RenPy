@@ -489,7 +489,7 @@ label ch12_2_scene_527:
 
     # [SPRITE   lay5     image=+429, level=155, dir=2A]
     # サイト：（……確かに。
-    s "…we could probably catch the enemy off guard… {#ch12_s_051}"
+    s "…Indeed. Now that the existence of Void is barely known, we could probably catch the enemy off guard… {#ch12_s_051}"
 
     menu:
         "Believe Louise.{#ch12_2_c_527_1}":

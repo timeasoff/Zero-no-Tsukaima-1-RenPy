@@ -232,7 +232,7 @@ label ch17_2_scene_689:
     # [SPRITE   lay5     image=+423, level=160, dir=2A]
     # サイト：虚無の魔法使いとかいっても、
     voice "ch17_s_051"
-    s "And even if you call her a Void mage, she runs out of magic power instantly.{#ch17_s_051}"
+    s "And even if you call her a Void mage, she runs out of mental energy instantly.{#ch17_s_051}"
 
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：……。  [voice 6302]

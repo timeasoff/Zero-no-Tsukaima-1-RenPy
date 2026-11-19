@@ -18285,7 +18285,7 @@ translate russian strings:
     old "You must take better care of yourself.{#ch7.3_s_020}"
     new "Пожалуйста, цените себя."
 
-    old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"
+    old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
     new "Ценить… я ведь стараюсь. Нет — все вокруг так заботятся обо мне. Вернее, даже больше, чем я думаю…"
 
     old "That's exactly right. So it is you too, Princess, who…{#ch7.3_s_021}"

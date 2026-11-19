@@ -87,7 +87,7 @@ translate japanese strings:
     old "Siesta has the right to love someone, too. But she's got some nerve setting her sights on my darling!{#ch21_k_010}"
     new "キュルケ：シエスタだって恋する権利はあるわ。だけど、あたしのダーリンに手を出すなんていい度胸ね！"
 
-    old "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you, even if it kills me!{#ch21_l_040}"
+    old "Who said he's your lover? My familiar can do what he likes, but I absolutely refuse to hand him over to you, even if it kills me!{#ch21_l_040}"
     new "ルイズ：誰があんたの恋人ですって？使い魔が何をしようと勝手ですけど、あんたの所へやるのだけは死んでもお断りよっ。"
 
     old "Oh? Could it be, Louise, that you're in love with your familiar?{#ch21_k_011}"

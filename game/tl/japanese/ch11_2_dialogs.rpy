@@ -91,7 +91,7 @@ translate japanese strings:
     old "…{#ch11_s_039}"
     new "サイト：……。"
 
-    old "they say they come to Tristain often, so… {#ch11_ha_016}"
+    old "Weatherly-san's troupe travels around, but they say they come to Tristain often, so… {#ch11_ha_016}"
     new "ハルナ：それにね、ウェザリーさんの劇団は旅回りだけど、トリスタニアにはよく来るらしいし……。"
 
     old "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"

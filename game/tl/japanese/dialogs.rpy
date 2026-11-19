@@ -18473,7 +18473,7 @@ translate japanese strings:
     old "You must take better care of yourself.{#ch7.3_s_020}"
     new "自分を大切にしてください。"
 
-    old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"
+    old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
     new "大切に……しているつもりです。　いえ、皆がわたくしを大切に扱ってくれます。　おそらく、わたくしが思っている以上に……。"
 
     old "That's exactly right. So it is you too, Princess, who…{#ch7.3_s_021}"

@@ -304,7 +304,7 @@ translate russian strings:
     old "How could you possibly know how to counter it?! {#ch8_w_015}"
     new "Откуда вы могли знать, как ей противостоять?!"
 
-    old "Why… how did you know?! Did you raid your own village…? {#ch8_w_016}"
+    old "Why… how did you know?! Did you attack my village… my clan, and force them to tell you? {#ch8_w_016}"
     new "Почему… как ты узнал?! Неужели ты напал на деревню… на клан и выпытал это силой!?"
 
     old "Miss Weatherby, your loss of nobility was not because of your origins. {#ch8_h_079}"

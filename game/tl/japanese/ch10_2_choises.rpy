@@ -19,7 +19,7 @@ translate japanese strings:
     old "You tried your best, didn't you? {#ch10_choice_015}"
     new "頑張ってはいたよね"
 
-    old "I also think it's a good story. {#ch10_choice_016}"
+    old "I also think it's a good offer. {#ch10_choice_016}"
     new "いい話だと思う"
 
     old "I wonder? {#ch10_choice_017}"

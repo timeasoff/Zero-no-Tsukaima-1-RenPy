@@ -172,7 +172,7 @@ translate russian strings:
     new "Я видела, как ты только что входил в комнату Кольбера."
 
     old "I was just told by old Osmond to call you and Louise.{#ch17_m_003}"
-    new "Меня просто попросил старик Осман позвать тебя и Луизу."
+    new "Мне просто велел старик Осман позвать тебя и Луизу."
 
     old "The headmaster? What for?{#ch17_s_027}"
     new "Директор? Зачем?"
@@ -214,7 +214,7 @@ translate russian strings:
     new "…"
 
     old "There are a lot of soldiers here. Were you in the middle of a meeting?{#ch17_s_031}"
-    new "Здесь много военных. У вас было совещание?"
+    new "Здесь много военных. Вы как раз в середине совещания?"
 
     old "Yes. That's why I called you.{#ch17_h_002}"
     new "Да. Поэтому я вас и позвала."

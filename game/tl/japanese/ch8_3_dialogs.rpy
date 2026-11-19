@@ -304,7 +304,7 @@ translate japanese strings:
     old "How could you possibly know how to counter it?! {#ch8_w_015}"
     new "対処法をそうそう知られてるはずがない！！"
 
-    old "Why… how did you know?! Did you raid your own village…? {#ch8_w_016}"
+    old "Why… how did you know?! Did you attack my village… my clan, and force them to tell you? {#ch8_w_016}"
     new "お前、なぜ……どうやって知った！？ / まさか、村を……一族を襲って / むりやり聞き出したのか！？"
 
     old "Miss Weatherby, your loss of nobility was not because of your origins. {#ch8_h_079}"

@@ -87,7 +87,7 @@ translate russian strings:
     old "My mistress bursts into tears at the slightest thing.{#ch17_s_050}"
     new "Моя госпожа чуть что — сразу в слёзы."
 
-    old "And even if you call her a Void mage, she runs out of magic power instantly.{#ch17_s_051}"
+    old "And even if you call her a Void mage, she runs out of mental energy instantly.{#ch17_s_051}"
     new "И хоть называй её магом Пустоты, она сразу тратит всю психическую энергию."
 
     old "…{#ch17_l_041}"

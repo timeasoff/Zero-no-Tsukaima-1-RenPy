@@ -190,7 +190,7 @@ label ch11_2:
     $ dissolve_fx("id(299)")
     # ハルナ：それにね、ウェザリーさんの劇団は / 旅回りだけど、トリスタニアにはよく / 来るらしいし……。 [voice 2574]
     voice "ch11_ha_016"
-    ha "they say they come to Tristain often, so… {#ch11_ha_016}"
+    ha "Weatherly-san's troupe travels around, but they say they come to Tristain often, so… {#ch11_ha_016}"
     # JA[2574]: ハルナ：それにね、ウェザリーさんの劇団は旅回りだけど、トリスタニアにはよく来るらしいし……。
     # ハルナ：平賀くんや学院のみんなには、 / いつでも会えるから……大丈夫。 [voice 2575]
     voice "ch11_ha_017"

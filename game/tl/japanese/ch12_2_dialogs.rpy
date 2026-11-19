@@ -222,7 +222,7 @@ translate japanese strings:
     old "The Void lineage isn't only Explosion.{#ch12_l_057}"
     new "ルイズ：虚無の系列は、エクスプロージョンだけじゃないってことよ。"
 
-    old "…we could probably catch the enemy off guard… {#ch12_s_051}"
+    old "…Indeed. Now that the existence of Void is barely known, we could probably catch the enemy off guard… {#ch12_s_051}"
     new "（……確かに。虚無の存在がそれほど知られてない今なら、敵の意表を突けるだろうな）"
 
     old "All right, Louise… I mean, mistress, it's in your hands!{#ch12_s_052}"

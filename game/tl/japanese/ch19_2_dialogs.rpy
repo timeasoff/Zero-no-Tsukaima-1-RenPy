@@ -102,7 +102,7 @@ translate japanese strings:
     old "Agitation.{#ch19_t_036}"
     new "タバサ：動揺。"
 
-    old "N-No I'm not! Just because the master showed a little concern for his familiar doesn't mean I'm pleased!{#ch19_l_233}"
+    old "N-No I'm not! Just because mistress showed a little concern for her familiar doesn't mean I'm pleased!{#ch19_l_233}"
     new "ルイズ：ち、違うわよ！ご主人様が、使い魔をちょっと気遣ったからって、いい気になっちゃって！"
 
     old "It'll be fine. I'm sure we'll manage somehow.{#ch19_s_294}"

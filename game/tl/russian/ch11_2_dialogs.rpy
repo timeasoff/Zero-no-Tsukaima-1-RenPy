@@ -17,7 +17,7 @@ translate russian strings:
     new "Хирага-кун! / Что ты здесь делаешь!?"
 
     old "That's not 'why are you here'!{#ch11_s_017}"
-    new "Не «что я здесь делаю»!"
+    new "Не «что ты здесь делаешь»!"
 
     old "You suddenly disappear / and everyone's in an uproar!{#ch11_s_018}"
     new "Ты внезапно пропадаешь, / и тут у всех паника!"
@@ -91,7 +91,7 @@ translate russian strings:
     old "…{#ch11_s_039}"
     new "…"
 
-    old "they say they come to Tristain often, so… {#ch11_ha_016}"
+    old "Weatherly-san's troupe travels around, but they say they come to Tristain often, so… {#ch11_ha_016}"
     new "К тому же труппа Уэзерби-сан разъезжает, / но, говорят, они часто приезжают в Тристанию…"
 
     old "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"

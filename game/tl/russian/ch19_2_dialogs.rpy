@@ -102,7 +102,7 @@ translate russian strings:
     old "Agitation.{#ch19_t_036}"
     new "Волнение."
 
-    old "N-No I'm not! Just because the master showed a little concern for his familiar doesn't mean I'm pleased!{#ch19_l_233}"
+    old "N-No I'm not! Just because mistress showed a little concern for her familiar doesn't mean I'm pleased!{#ch19_l_233}"
     new "Н-Нет! Просто госпожа немного позаботилась о фамильяре — и это не значит, что я довольна!"
 
     old "It'll be fine. I'm sure we'll manage somehow.{#ch19_s_294}"

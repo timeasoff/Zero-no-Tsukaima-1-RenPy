@@ -19,7 +19,7 @@ translate russian strings:
     old "You tried your best, didn't you? {#ch10_choice_015}"
     new "Ты старалась, правда?"
 
-    old "I also think it's a good story. {#ch10_choice_016}"
+    old "I also think it's a good offer. {#ch10_choice_016}"
     new "Я тоже думаю, это хорошая история"
 
     old "I wonder? {#ch10_choice_017}"

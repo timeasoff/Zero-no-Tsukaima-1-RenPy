@@ -87,7 +87,7 @@ translate russian strings:
     old "Siesta has the right to love someone, too. But she's got some nerve setting her sights on my darling!{#ch21_k_010}"
     new "Сиэста тоже имеет право любить. Но хватать моего дорогого — храбрости ей не занимать!"
 
-    old "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you, even if it kills me!{#ch21_l_040}"
+    old "Who said he's your lover? My familiar can do what he likes, but I absolutely refuse to hand him over to you, even if it kills me!{#ch21_l_040}"
     new "Кто сказал, что он — твой возлюбленный? Мой фамильяр вправе делать что хочет, но отдать его тебе — ни за что, даже если придётся умереть!"
 
     old "Oh? Could it be, Louise, that you're in love with your familiar?{#ch21_k_011}"

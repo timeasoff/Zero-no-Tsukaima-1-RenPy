@@ -235,7 +235,7 @@ translate russian strings:
     new "А…?"
 
     old "Two sets of footsteps.{#ch19_d_027}"
-    new "Два шага."
+    new "Двое идут?"
 
     old "Enemies?{#ch19_s_273}"
     new "Враги?"
@@ -354,7 +354,7 @@ translate russian strings:
     old "Me and Saito.{#ch19_t_030}"
     new "Я и Сайто."
 
-    old "…She probably has a reason, right? {#ch19_k_047}"
+    old "With Louise? Well, if Tabitha says so, I guess it can't be helped. She probably has a reason, right? {#ch19_k_047}"
     new "С Луизой? Ну, если Табаса так говорит, видно, ничего не поделать. Наверное, у неё есть причина…"
 
     old "Mm.{#ch19_t_031}"

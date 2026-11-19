@@ -550,7 +550,7 @@ label ch8_3_425:
     # JA[16180]: ウェザリー：対処法をそうそう知られてるはずがない！！
     # ウェザリー：お前、なぜ……どうやって知った！？ / まさか、村を……一族を襲って / むりやり聞き出したのか！？  [voice 16181]
     voice "ch8_w_016"
-    w "Why… how did you know?! Did you raid your own village…? {#ch8_w_016}"
+    w "Why… how did you know?! Did you attack my village… my clan, and force them to tell you? {#ch8_w_016}"
     # JA[16181]: ウェザリー：お前、なぜ……どうやって知った！？ / まさか、村を……一族を襲って / むりやり聞き出したのか！？
     # サイト：（村？ / 　ウェザリーの生まれた村が、 / 　この技を伝えていたのか？）
     # → no voice; internal thought.

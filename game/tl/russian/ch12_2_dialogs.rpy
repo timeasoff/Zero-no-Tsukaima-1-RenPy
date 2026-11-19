@@ -222,7 +222,7 @@ translate russian strings:
     old "The Void lineage isn't only Explosion.{#ch12_l_057}"
     new "Род Пустоты — не только «Взрыв»."
 
-    old "…we could probably catch the enemy off guard… {#ch12_s_051}"
+    old "…Indeed. Now that the existence of Void is barely known, we could probably catch the enemy off guard… {#ch12_s_051}"
     new "И правда. Сейчас, когда о Пустоте почти никто не знает, мы, небось, сможем застать врага врасплох…"
 
     old "All right, Louise… I mean, mistress, it's in your hands!{#ch12_s_052}"

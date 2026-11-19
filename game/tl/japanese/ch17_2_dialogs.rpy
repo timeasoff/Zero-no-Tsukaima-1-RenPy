@@ -87,7 +87,7 @@ translate japanese strings:
     old "My mistress bursts into tears at the slightest thing.{#ch17_s_050}"
     new "サイト：うちのご主人様ときたら、なにかってぇとすぐ泣くし。"
 
-    old "And even if you call her a Void mage, she runs out of magic power instantly.{#ch17_s_051}"
+    old "And even if you call her a Void mage, she runs out of mental energy instantly.{#ch17_s_051}"
     new "サイト：虚無の魔法使いとかいっても、すぐに精神力を使い果たしちゃうし。"
 
     old "…{#ch17_l_041}"

@@ -238,7 +238,7 @@ label ch19_2_scene_754:
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：ち、違うわよ！
     voice "ch19_l_233"
-    l "N-No I'm not! Just because the master showed a little concern for his familiar doesn't mean I'm pleased!{#ch19_l_233}"
+    l "N-No I'm not! Just because mistress showed a little concern for her familiar doesn't mean I'm pleased!{#ch19_l_233}"
 
     # [LAYER    lay0     hide]
     # → next scene 755
