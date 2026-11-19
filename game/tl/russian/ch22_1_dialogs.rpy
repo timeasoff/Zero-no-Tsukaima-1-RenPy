@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Saito-san…{#ch22_si_001}"
     new "Сайто-сан…"
@@ -196,7 +196,7 @@
     new "Верно, Луиза."
 
     old "Kirche!?{#ch22_l_017}"
-    new "Кирке!?"
+    new "Кирхе!?"
 
     old "Heh heh, all tired of waiting? Today I'll give you the final push!{#ch22_k_007}"
     new "Хи-хи, устала ждать? Сегодня я добью тебя!"
@@ -208,7 +208,7 @@
     new "О, правда? Ну, я с нетерпением жду."
 
     old "Hey, Tabitha. What are you planning to make? Do you have confidence in winning?{#ch22_k_009}"
-    new "Эй, Табаса. Что ты собираешься готовить? Ты уверена в победе?"
+    new "Эй, Табита. Что ты собираешься готовить? Ты уверена в победе?"
 
     old "First strike wins.{#ch22_t_001}"
     new "Первый удар решает."

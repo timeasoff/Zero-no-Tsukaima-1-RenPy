@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Saito-san…{#ch22_si_001}"
     new "シエスタ：サイトさん……。"

@@ -1,0 +1,77 @@
+IDX485 [タバサ] v=15724 thought=False: ……ん。
+IDX486 [キュルケ] v=3545 thought=False: おはよう、タバサ。
+IDX487 [タバサ] v=15725 thought=False: おはよう。
+IDX488 [キュルケ] v=3546 thought=False: 体の具合はどう？
+IDX489 [タバサ] v=15726 thought=False: 大丈夫、みたい。
+IDX490 [キュルケ] v=3547 thought=False: どうして眠ってたのかは思い出せる？
+IDX491 [タバサ] v=15727 thought=False: うん。
+IDX492 [キュルケ] v=3548 thought=False: あなたは、アキナとの戦いでダーリンをかばって、大火傷をしちゃってたのよ。
+IDX493 [タバサ] v=15728 thought=False: うん。
+IDX494 [タバサ] v=None thought=False: ……。
+IDX495 [キュルケ] v=3549 thought=False: どうしたの？
+IDX496 [タバサ] v=15729 thought=False: 分からない。どうしてかばったのかが。
+IDX497 [キュルケ] v=3550 thought=False: ……そう。
+IDX498 [タバサ] v=15730 thought=False: キュルケは分かるの？
+IDX499 [キュルケ] v=3551 thought=False: そりゃ、分かるけど……。でも、それは自分で考えた方がいいわね。
+IDX500 [タバサ] v=None thought=False: ……。
+IDX501 [キュルケ] v=3552 thought=False: それにしても、あたしったら間の悪いことしちゃったわ。ごめんね、タバサ。
+IDX502 [タバサ] v=15731 thought=False: どういうこと？
+IDX503 [キュルケ] v=3553 thought=False: 大事なお目覚めの瞬間に、あたしなんかが看病してて。
+IDX504 [キュルケ] v=3554 thought=False: せっかく、今までダーリンがずっと看病してたのに……。
+IDX505 [タバサ] v=None thought=False: ……。
+IDX506 [キュルケ] v=3555 thought=False: あはは、そんなに怒らないでよ。
+IDX507 [キュルケ] v=3556 thought=False: あら、誰か来たみたい。はーい、どーぞー。
+IDX508 [サイト] v=12695 thought=False: あっ、タバサ！？目が覚めたんだな？
+IDX509 [タバサ] v=None thought=False: ……。
+IDX510 [サイト] v=12696 thought=False: 良かったぁ……。ちゃんと目を覚ましてくれて。体の痛むところとかないか？
+IDX511 [タバサ] v=15732 thought=False: ……ない。
+IDX512 [サイト] v=12697 thought=False: そっか……。良かった。
+IDX513 [タバサ] v=15733 thought=False: トリステインは？
+IDX514 [サイト] v=12698 thought=False: ああ、都ではまだ市街戦が続いてる。今、ちょっと様子を見てきたんだけど、もう完全な膠着状態みたいでさ。
+IDX515 [サイト] v=12699 thought=False: 本格的な戦闘が治まるまで、都からは離れた方がいいとは思うんだけど……。まだ、春奈を見つけられないんだ。
+IDX516 [サイト] v=12700 thought=False: 都を離れるわけにはいかないんだ。タバサ、もう少し俺達と一緒にいてくれないか？
+IDX517 [タバサ] v=15734 thought=False: ……うん。
+IDX518 [サイト] v=12701 thought=False: でも、タバサ。春奈を捕まえたとして……。その……ガリア王国とやらに送りつけるのか？
+IDX519 [タバサ] v=None thought=False: ……。
+IDX520 [サイト] v=12702 thought=False: あっ……。おい、どうしたんだよ？急に俺の手を握ったりして……。
+IDX521 [タバサ] v=None thought=False: ……。
+IDX522 [サイト] v=None thought=True: （えーっと、どうしよう……？）
+CHOICE 967->968: 黙ってこのままでいよう
+CHOICE 967->969: ひょっとして、これは……
+CHOICE 967->970: ちゃんと話の続きをしなくちゃ……
+IDX523 [サイト] v=None thought=True: （まあいいや、黙ってこのままでいよう）
+IDX524 [タバサ] v=None thought=False: ……。
+GOTO 968->971
+IDX525 [サイト] v=None thought=True: （ひょっとして、これは……）
+IDX526 [サイト] v=None thought=True: （タバサからのある種のメッセージ！？それも、男と女の……みたいなっ！！）
+IDX527 [キュルケ] v=3557 thought=False: ダーリン……。
+IDX528 [サイト] v=12703 thought=False: な、なにかな？
+IDX529 [キュルケ] v=3558 thought=False: 今、だらしのないこと考えてたんでしょ？
+IDX530 [サイト] v=12704 thought=False: あの、なんのことでしょうか？
+IDX531 [キュルケ] v=3559 thought=False: ごまかそうとしたってダメよ。おもいっきり、顔に出てたから。
+IDX532 [サイト] v=12705 thought=False: す、すみません……。
+GOTO 969->971
+IDX533 [サイト] v=None thought=True: （ちゃんと話の続きをしなくちゃ……）
+IDX534 [サイト] v=12706 thought=False: で、春奈のことなんだけど……。
+IDX535 [タバサ] v=None thought=False: ……。
+IDX536 [キュルケ] v=3560 thought=False: ちょっと、ダーリン。もう、今は黙って応じてあげる時よ。
+IDX537 [サイト] v=12707 thought=False: そ、そうか……。
+IDX538 [タバサ] v=None thought=False: ……。
+GOTO 970->971
+IDX539 [タバサ] v=None thought=False: ……。
+IDX540 [サイト] v=12708 thought=False: あ、あれ？
+IDX541 [キュルケ] v=3561 thought=False: どうやらまた眠っちゃったみたいね。
+IDX542 [サイト] v=12709 thought=False: だ、大丈夫なのか？
+IDX543 [キュルケ] v=3562 thought=False: 大丈夫でしょ。一度、目を覚ましてるわけだし。
+IDX544 [キュルケ] v=3563 thought=False: そんなに心配だって言うのなら、しばらく手を握っててあげなさい。
+IDX545 [キュルケ] v=3564 thought=False: きっとタバサが、安心して眠っていられるはずだから。
+IDX546 [サイト] v=12710 thought=False: そ、そうだな……。
+IDX547 [キュルケ] v=3565 thought=False: それより、問題山積みって感じよね。
+IDX548 [サイト] v=12711 thought=False: ああ、どうしたもんかなぁ。春奈の件とか……。ガリア王国の件とか。
+IDX549 [キュルケ] v=3566 thought=False: ……。
+IDX550 [サイト] v=12712 thought=False: なんだよ、その顔は？
+IDX551 [キュルケ] v=3567 thought=False: ダーリンを想うのって大変ね。やっぱりタバサに譲らないで、あたしが奪っちゃおうかな？
+IDX552 [サイト] v=12713 thought=False: ……？
+IDX553 [キュルケ] v=3568 thought=False: もう……。
+DATE 971->1219 kind=date タバサ
+DATE 971->972 kind=proceed 

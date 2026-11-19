@@ -1109,6 +1109,304 @@
       ]
     },
     {
+      "id": "T20261118-072902-9070",
+      "created": "2026-11-18 07:29:02",
+      "request": "Довести порт от главы 22 части 5 до конца: гл.22 ч.5, гл.23-28 со всеми extra, затем chapter_90/91 в game/chapters/extra/ (ветка port/ch22-to-end)",
+      "target": "22_5",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
+          "prompt": "port-part",
+          "target": "22_5",
+          "scope": "part",
+          "title": "Порт главы 22 части 5 (extra 1209-1213)",
+          "status": "done",
+          "created": "2026-11-18 07:29:30",
+          "started": "2026-11-18 07:29:43",
+          "finished": "2026-11-18 07:43:23",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S2",
+          "kind": "prompt",
+          "prompt": "voice-work",
+          "target": "22_5",
+          "scope": "part",
+          "title": "Голоса 22_5: манифест + ogg",
+          "status": "done",
+          "created": "2026-11-18 07:29:30",
+          "started": null,
+          "finished": "2026-11-18 07:43:23",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S3",
+          "kind": "prompt",
+          "prompt": "full-audit",
+          "target": "22_5",
+          "scope": "part",
+          "title": "Аудит 22_5: precheck + A/C + analyzer",
+          "status": "done",
+          "created": "2026-11-18 07:29:30",
+          "started": null,
+          "finished": "2026-11-18 07:43:23",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": ""
+        },
+        {
+          "id": "S4",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22_5",
+          "scope": "part",
+          "title": "Финальные проверки и отчёт 22_5",
+          "status": "done",
+          "created": "2026-11-18 07:29:30",
+          "started": null,
+          "finished": "2026-11-18 07:45:03",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "check_project/syntax/typography/placeholders/assets/voice/omission до OK; отчёт reports/ch22/5.md; итог главы 22; коммит порции"
+        },
+        {
+          "id": "S5",
+          "kind": "manual",
+          "prompt": "",
+          "target": "23_1",
+          "scope": "part",
+          "title": "Порт гл.23 ч.1 (849-867, 124 голоса)",
+          "status": "done",
+          "created": "2026-11-18 07:46:00",
+          "started": "2026-11-18 07:46:17",
+          "finished": "2026-11-18 07:55:50",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты C/Ф1+Ф2, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S6",
+          "kind": "manual",
+          "prompt": "",
+          "target": "23_2",
+          "scope": "part",
+          "title": "Порт гл.23 ч.2 (868-878, 104 голоса)",
+          "status": "done",
+          "created": "2026-11-18 07:46:00",
+          "started": null,
+          "finished": "2026-11-18 08:09:48",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты C/Ф1+Ф2, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S7",
+          "kind": "manual",
+          "prompt": "",
+          "target": "23_3",
+          "scope": "part",
+          "title": "Порт гл.23 ч.3 (879-893, 115 голосов)",
+          "status": "done",
+          "created": "2026-11-18 07:46:00",
+          "started": null,
+          "finished": "2026-11-18 08:14:58",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты C/Ф1+Ф2, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S8",
+          "kind": "manual",
+          "prompt": "",
+          "target": "24_1",
+          "scope": "part",
+          "title": "Порт гл.24 (894-902, 126 голосов)",
+          "status": "done",
+          "created": "2026-11-18 08:15:19",
+          "started": "2026-11-18 08:15:20",
+          "finished": "2026-11-18 08:26:50",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S9",
+          "kind": "manual",
+          "prompt": "",
+          "target": "25_1",
+          "scope": "part",
+          "title": "Порт гл.25 ч.1 (903-917, 116 голосов)",
+          "status": "done",
+          "created": "2026-11-18 08:27:12",
+          "started": "2026-11-18 08:27:12",
+          "finished": "2026-11-18 08:35:23",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S10",
+          "kind": "manual",
+          "prompt": "",
+          "target": "25_2",
+          "scope": "part",
+          "title": "Порт гл.25 ч.2 (918-932, 102 голоса)",
+          "status": "done",
+          "created": "2026-11-18 08:35:46",
+          "started": "2026-11-18 08:35:46",
+          "finished": "2026-11-18 08:41:06",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S11",
+          "kind": "manual",
+          "prompt": "",
+          "target": "25_3",
+          "scope": "part",
+          "title": "Порт гл.25 ч.3 (933+1214-1218, 120 голосов)",
+          "status": "done",
+          "created": "2026-11-18 08:41:26",
+          "started": "2026-11-18 08:41:27",
+          "finished": "2026-11-18 08:53:48",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S12",
+          "kind": "manual",
+          "prompt": "",
+          "target": "25_4",
+          "scope": "part",
+          "title": "Порт гл.25 ч.4 (extra 1513-1532, 113 голосов)",
+          "status": "done",
+          "created": "2026-11-18 08:56:13",
+          "started": "2026-11-18 08:56:13",
+          "finished": "2026-11-18 08:56:14",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S13",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26_1",
+          "scope": "part",
+          "title": "Порт гл.26 ч.1 (934-943)",
+          "status": "done",
+          "created": "2026-11-18 08:56:37",
+          "started": "2026-11-18 08:56:38",
+          "finished": "2026-11-18 09:20:22",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт: script, JA/RU tl, голоса+ogg, аудиты, отчёт, проверки, коммит"
+        },
+        {
+          "id": "S14",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26_2",
+          "scope": "part",
+          "title": "Порт гл.26 ч.2",
+          "status": "done",
+          "created": "2026-11-18 09:20:46",
+          "started": "2026-11-18 09:20:47",
+          "finished": "2026-11-18 09:20:47",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт ч.2 (944-954)"
+        },
+        {
+          "id": "S15",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26_3",
+          "scope": "part",
+          "title": "Порт гл.26 ч.3",
+          "status": "done",
+          "created": "2026-11-18 09:20:46",
+          "started": "2026-11-18 09:20:47",
+          "finished": "2026-11-18 09:20:47",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт ч.3 (955-964)"
+        },
+        {
+          "id": "S16",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26_4",
+          "scope": "part",
+          "title": "Порт гл.26 ч.4-5",
+          "status": "done",
+          "created": "2026-11-18 09:39:36",
+          "started": "2026-11-18 09:39:36",
+          "finished": "2026-11-18 09:39:37",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт ч.4 (965-966) и ч.5 (extra 1219-1223)"
+        },
+        {
+          "id": "S17",
+          "kind": "manual",
+          "prompt": "",
+          "target": "27",
+          "scope": "part",
+          "title": "Порт гл.27 ч.1-3",
+          "status": "done",
+          "created": "2026-11-18 10:04:45",
+          "started": "2026-11-18 10:04:45",
+          "finished": "2026-11-18 10:04:46",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт гл.27 (972-998)"
+        },
+        {
+          "id": "S18",
+          "kind": "manual",
+          "prompt": "",
+          "target": "28",
+          "scope": "part",
+          "title": "Порт гл.28 ч.1-2 (финал)",
+          "status": "done",
+          "created": "2026-11-18 10:18:57",
+          "started": "2026-11-18 10:18:57",
+          "finished": "2026-11-18 10:18:57",
+          "session": null,
+          "note": "",
+          "evidence": [],
+          "manual": "Порт гл.28 (999-1008)"
+        }
+      ],
+      "closed": "2026-11-18 12:35:40"
+    },
+    {
       "id": "T20261118-073145-091b",
       "created": "2026-11-18 07:31:45",
       "request": "Independent semantic audit A (lexical accuracy) JA->EN and JA->RU, project chapters 2-5, all existing parts; per-part evidence in reports/sma/chN/part/a/<run_id>.md",
@@ -4515,6 +4813,64 @@
       "closed": "2026-11-18 16:50:13"
     },
     {
+      "id": "T20261118-133056-17b8",
+      "created": "2026-11-18 13:30:56",
+      "request": "Аудит полноты порта (промпт 05): гл.22 ч.5, гл.23-28 со inline extra, chapter_90/91 — построчная и событийная сверка с PS2, поиск и исправление пропусков",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Сверка A-F по 9 единицам, исправление пропущенных сцен 967-971 и событий, отчёты",
+          "status": "done",
+          "created": "2026-11-18 13:31:10",
+          "started": null,
+          "finished": "2026-11-18 13:31:23",
+          "session": null,
+          "note": "Coverage audit complete: 9 units A-F; recovered 54 voices/5 scenes in ch26; fixed ch25 event leak; fixed extra choice tails; all checks green",
+          "evidence": [
+            "reports/coverage/README.md",
+            "reports/ch26/4b.md"
+          ],
+          "manual": "Сверка A-F по 9 единицам, исправление пропущенных сцен 967-971 и событий, отчёты"
+        }
+      ],
+      "closed": "2026-11-18 13:31:23"
+    },
+    {
+      "id": "T20261118-135157-b36f",
+      "created": "2026-11-18 13:51:57",
+      "request": "Промпт 06: довести голосовую часть гл.22 ч.5, гл.23-28 и chapter_90/91 — ID по [voice N], speaker, CSV, конвертация",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Voice audit + CSV marking + converter check/convert",
+          "status": "done",
+          "created": "2026-11-18 13:52:12",
+          "started": null,
+          "finished": "2026-11-18 13:52:12",
+          "session": null,
+          "note": "9/9 ordered match, 3866 ogg, 77 NO AUDIO, 3851 CSV rows marked; converter OK",
+          "evidence": [
+            "reports/voice_workflow_ch22_to_end.md",
+            "reports/voice_audit.md"
+          ],
+          "manual": "Voice audit + CSV marking + converter check/convert"
+        }
+      ],
+      "closed": "2026-11-18 13:52:13"
+    },
+    {
       "id": "T20261118-135532-877a",
       "created": "2026-11-18 13:55:32",
       "request": "Omission/completeness audit JA->EN and JA->RU for all ch2-5 parts",
@@ -5133,6 +5489,175 @@
         }
       ],
       "closed": "2026-11-18 16:50:13"
+    },
+    {
+      "id": "T20261118-142418-b432",
+      "created": "2026-11-18 14:24:18",
+      "request": "Промпт 07: audience графа переходов, симпатий и overlay ID для гл.22 ч.5, гл.23-28, chapter_90/91",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Flow audit + branch fixes + overlays + sympathy check",
+          "status": "done",
+          "created": "2026-11-18 14:24:36",
+          "started": null,
+          "finished": "2026-11-18 14:24:36",
+          "session": null,
+          "note": "0 broken targets/cycles, 6 overlays K=20-25, scene 998 and move return recovered, checkKiss branches resolved, 0 sympathy discrepancies",
+          "evidence": [
+            "reports/flow_sympathy_ch22_to_end.md",
+            "reports/flow_audit.md"
+          ],
+          "manual": "Flow audit + branch fixes + overlays + sympathy check"
+        }
+      ],
+      "closed": "2026-11-18 14:24:36"
+    },
+    {
+      "id": "T20261118-143715-4612",
+      "created": "2026-11-18 14:37:15",
+      "request": "Промпт 08: JA→EN→RU TL-сверка гл.22 ч.5, гл.23-28, chapter_90/91 — old/new, дубли, типографика, MISMATCH_JA",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "TL consistency audit + JA fidelity",
+          "status": "done",
+          "created": "2026-11-18 14:37:15",
+          "started": null,
+          "finished": "2026-11-18 14:37:16",
+          "session": null,
+          "note": "5208 EN strings verified; 1 RU ellipsis fixed; MISMATCH_JA and candidates documented; no JA edits",
+          "evidence": [
+            "reports/en_ru_tl_consistency.md"
+          ],
+          "manual": "TL consistency audit + JA fidelity"
+        }
+      ],
+      "closed": "2026-11-18 14:37:16"
+    },
+    {
+      "id": "T20261118-151158-c4eb",
+      "created": "2026-11-18 15:11:58",
+      "request": "Промпт 09: независимый смысловой/прагматический аудит гл.22 ч.5, гл.23-28, chapter_90/91 — C + Analyzer, исправления по JA",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "10 C runs + 2 blind phases + JA-verified fixes",
+          "status": "done",
+          "created": "2026-11-18 15:11:59",
+          "started": null,
+          "finished": "2026-11-18 15:11:59",
+          "session": null,
+          "note": "2 ERROR + 13 WARNING fixed; 1 OPEN modality; A/B unavailable noted",
+          "evidence": [
+            "reports/semantic_pragmatic_review.md"
+          ],
+          "manual": "10 C runs + 2 blind phases + JA-verified fixes"
+        }
+      ],
+      "closed": "2026-11-18 15:11:59"
+    },
+    {
+      "id": "T20261118-154527-a442",
+      "created": "2026-11-18 15:45:27",
+      "request": "Промпт 10: русская литературная вычитка гл.22.5, 23-28, extra 90/91 — кальки, грамматика, стиль, канон имён",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "6 independent literary reviews + fixes + canon normalization",
+          "status": "done",
+          "created": "2026-11-18 15:45:27",
+          "started": null,
+          "finished": "2026-11-18 15:45:27",
+          "session": null,
+          "note": "35 local fixes + 248 canonical replacements; style prefilter 0; all checks OK",
+          "evidence": [
+            "reports/ru_literary_review.md"
+          ],
+          "manual": "6 independent literary reviews + fixes + canon normalization"
+        }
+      ],
+      "closed": "2026-11-18 15:45:28"
+    },
+    {
+      "id": "T20261118-155816-d123",
+      "created": "2026-11-18 15:58:16",
+      "request": "Промпт 11: ассеты/фоны/BGM/SE/FX/тайтлы для гл.22.5, 23-28, extra 90/91",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Asset audit by ID/formula, MOVIE notes, W6 open",
+          "status": "done",
+          "created": "2026-11-18 15:58:16",
+          "started": null,
+          "finished": "2026-11-18 15:58:16",
+          "session": null,
+          "note": "BGM 20/20, images 109/109, FX valid, MOVIE not ported, W6 OPEN",
+          "evidence": [
+            "reports/assets_media_fx.md"
+          ],
+          "manual": "Asset audit by ID/formula, MOVIE notes, W6 open"
+        }
+      ],
+      "closed": "2026-11-18 15:58:17"
+    },
+    {
+      "id": "T20261118-161143-497e",
+      "created": "2026-11-18 16:11:43",
+      "request": "Промпт 12: финальная интеграция и приёмка порта гл.22 ч.5, 23-28, extra 90/91",
+      "target": "26",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Final integration: all checks, coverage, graph, TL, voices, assets, report",
+          "status": "done",
+          "created": "2026-11-18 16:11:43",
+          "started": null,
+          "finished": "2026-11-18 16:11:43",
+          "session": null,
+          "note": "DONE with documented deviations; all checks green in scope",
+          "evidence": [
+            "reports/FINAL_ACCEPTANCE.md"
+          ],
+          "manual": "Final integration: all checks, coverage, graph, TL, voices, assets, report"
+        }
+      ],
+      "closed": "2026-11-18 16:11:43"
     },
     {
       "id": "T20261118-165138-9af4",
@@ -6377,6 +6902,144 @@
       "closed": "2026-11-18 20:43:47"
     },
     {
+      "id": "T20261118-193409-e4ae",
+      "created": "2026-11-18 19:34:09",
+      "request": "Полный аудит портированных глав 22-28: полнота, JA->EN/RU, граф, симпатия, голоса, ресурсы, A/B/C, Analyzer, исправления, отчёты",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "Базовые проверки и инвентаризация глав 22-28",
+          "status": "done",
+          "created": "2026-11-18 19:34:49",
+          "started": null,
+          "finished": "2026-11-18 20:55:55",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Базовые проверки и инвентаризация глав 22-28"
+        },
+        {
+          "id": "S2",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "Аудит главы 22: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:49",
+          "started": null,
+          "finished": "2026-11-18 20:55:55",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 22: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        },
+        {
+          "id": "S3",
+          "kind": "manual",
+          "prompt": "",
+          "target": "23",
+          "scope": "part",
+          "title": "Аудит главы 23: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:49",
+          "started": null,
+          "finished": "2026-11-18 20:55:55",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 23: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        },
+        {
+          "id": "S4",
+          "kind": "manual",
+          "prompt": "",
+          "target": "24",
+          "scope": "part",
+          "title": "Аудит главы 24: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:50",
+          "started": null,
+          "finished": "2026-11-18 20:55:55",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 24: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        },
+        {
+          "id": "S5",
+          "kind": "manual",
+          "prompt": "",
+          "target": "25",
+          "scope": "part",
+          "title": "Аудит главы 25: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:50",
+          "started": null,
+          "finished": "2026-11-18 20:55:56",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 25: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        },
+        {
+          "id": "S6",
+          "kind": "manual",
+          "prompt": "",
+          "target": "26",
+          "scope": "part",
+          "title": "Аудит главы 26: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:50",
+          "started": null,
+          "finished": "2026-11-18 20:55:56",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 26: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        },
+        {
+          "id": "S7",
+          "kind": "manual",
+          "prompt": "",
+          "target": "27",
+          "scope": "part",
+          "title": "Аудит главы 27: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:50",
+          "started": null,
+          "finished": "2026-11-18 20:55:56",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 27: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        },
+        {
+          "id": "S8",
+          "kind": "manual",
+          "prompt": "",
+          "target": "28",
+          "scope": "part",
+          "title": "Аудит главы 28: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт",
+          "status": "done",
+          "created": "2026-11-18 19:34:51",
+          "started": null,
+          "finished": "2026-11-18 20:55:57",
+          "session": null,
+          "note": "audit vmest",
+          "evidence": [],
+          "manual": "Аудит главы 28: полнота/EN-RU/граф/голоса/ресурсы/A-B-C/Analyzer/исправления/отчёт"
+        }
+      ],
+      "closed": "2026-11-18 20:55:57"
+    },
+    {
       "id": "T20261118-204714-629b",
       "created": "2026-11-18 20:47:14",
       "request": "Russian style audit (repetition/tautology/calques) for all ch2-5 parts",
@@ -6993,6 +7656,62 @@
         }
       ],
       "closed": "2026-11-18 23:02:14"
+    },
+    {
+      "id": "T20261118-210647-c979",
+      "created": "2026-11-18 21:06:47",
+      "request": "Повторный полный аудит глав 22-28: расширить A/B/C на все 24 части, runtime-проверка, обновить translation_plan",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "A/B/C all 24 parts + 15 fixes + Analyzer phase2",
+          "status": "done",
+          "created": "2026-11-18 22:33:20",
+          "started": null,
+          "finished": "2026-11-18 22:33:20",
+          "session": null,
+          "note": "24 parts A/B/C, 15 JA-backed fixes, all checks green",
+          "evidence": [
+            "reports/full_audit/FINAL.md"
+          ],
+          "manual": "A/B/C all 24 parts + 15 fixes + Analyzer phase2"
+        }
+      ],
+      "closed": "2026-11-18 22:33:20"
+    },
+    {
+      "id": "T20261118-224320-cbc5",
+      "created": "2026-11-18 22:43:20",
+      "request": "Третий проход аудита 22-28: закрыть реальные пробелы — A/B/C для 8 частей без полного coverage, mechanical §6, runtime §7, EN-сторона фиксов",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "A/B/C 24/24, 29 JA-backed fixes, runtime BLOCKED documented",
+          "status": "done",
+          "created": "2026-11-18 23:31:43",
+          "started": null,
+          "finished": "2026-11-18 23:31:44",
+          "session": null,
+          "note": "24/24 A/B/C; 29 JA-backed EN+RU fixes; all static checks green; runtime SKIPPED/BLOCKED (146 out-of-scope compile errors)",
+          "evidence": [
+            "reports/sma/analysis/20261118-234500-phase2-round3.md"
+          ],
+          "manual": "A/B/C 24/24, 29 JA-backed fixes, runtime BLOCKED documented"
+        }
+      ],
+      "closed": "2026-11-18 23:31:44"
     },
     {
       "id": "T20261118-230652-39be",
@@ -7615,6 +8334,118 @@
         }
       ],
       "closed": "2026-11-19 01:49:26"
+    },
+    {
+      "id": "T20261119-000459-fcfc",
+      "created": "2026-11-19 00:04:59",
+      "request": "Финальная верификация HEAD глав 22-28 (5-й проход): повтор всех проверок, счётчики, evidence, extra-точки",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "final HEAD verification",
+          "status": "done",
+          "created": "2026-11-19 00:05:00",
+          "started": null,
+          "finished": "2026-11-19 00:05:00",
+          "session": null,
+          "note": "all checks green, 0 new findings, runtime BLOCKED",
+          "evidence": [
+            "reports/full_audit/FINAL.md"
+          ],
+          "manual": "final HEAD verification"
+        }
+      ],
+      "closed": "2026-11-19 00:05:00"
+    },
+    {
+      "id": "T20261119-001951-9e5a",
+      "created": "2026-11-19 00:19:51",
+      "request": "Runtime-аудит 22-28: исправить TypeError show_sprites() -> show_sprites(None) и провести headless warp-прогон глав",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "show_sprites fix + runtime smoke test",
+          "status": "done",
+          "created": "2026-11-19 00:33:21",
+          "started": null,
+          "finished": "2026-11-19 00:33:21",
+          "session": null,
+          "note": "24 show_sprites(None) fixes; 7/7 chapters + RU/JA smoke runtime; all checks green",
+          "evidence": [
+            "reports/full_audit/RUNTIME-round6.md"
+          ],
+          "manual": "show_sprites fix + runtime smoke test"
+        }
+      ],
+      "closed": "2026-11-19 00:33:21"
+    },
+    {
+      "id": "T20261119-004257-180f",
+      "created": "2026-11-19 00:42:57",
+      "request": "Расширенный runtime 22-28: глубокая проверка 23 сцен, арность API",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "deep runtime + arity",
+          "status": "done",
+          "created": "2026-11-19 00:42:57",
+          "started": null,
+          "finished": "2026-11-19 00:42:57",
+          "session": null,
+          "note": "0 arity violations; 23/23 deep warps clean",
+          "evidence": [
+            "reports/full_audit/RUNTIME-round6.md"
+          ],
+          "manual": "deep runtime + arity"
+        }
+      ],
+      "closed": "2026-11-19 00:42:57"
+    },
+    {
+      "id": "T20261119-005050-5c28",
+      "created": "2026-11-19 00:50:50",
+      "request": "Финальная верификация HEAD 22-28 (8-й проход): попытка автоматического прохода маршрута",
+      "target": "22",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "manual",
+          "prompt": "",
+          "target": "22",
+          "scope": "part",
+          "title": "final verification + runtime automation limit",
+          "status": "done",
+          "created": "2026-11-19 00:50:50",
+          "started": null,
+          "finished": "2026-11-19 00:50:50",
+          "session": null,
+          "note": "no new findings; full-route automation unavailable, documented",
+          "evidence": [
+            "reports/full_audit/RUNTIME-round6.md"
+          ],
+          "manual": "final verification + runtime automation limit"
+        }
+      ],
+      "closed": "2026-11-19 00:50:50"
     },
     {
       "id": "T20261119-015325-35cf",

@@ -1,13 +1,13 @@
-# translate russian strings:
+translate russian strings:
 
     old "A while has passed since cooking began, but everyone's serious. Let me go take a look.{#ch22_s_035}"
     new "Прошло немало времени с начала готовки, но все серьёзно. Схожу посмотрю."
 
     old "Kirche first. Gah! What's that!?{#ch22_s_036}"
-    new "Сначала Кирке. Фу! Что это!?"
+    new "Сначала Кирхе. Фу! Что это!?"
 
     old "(Kirche is squeezing the meat out of some glossy black creature, extracting a purple, thick liquid.){#ch22_s_037}"
-    new "Кирке выжимает мясо из какой-то блестящей чёрной твари и добывает пурпурную густую жидкость."
+    new "Кирхе выжимает мясо из какой-то блестящей чёрной твари и добывает пурпурную густую жидкость."
 
     old "(It looks awful… Can you even eat that? Wait—am I the one eating it?){#ch22_s_038}"
     new "На вид жутко… Это вообще съедобно? Погоди — это мне придётся это есть?"
@@ -16,7 +16,7 @@
     new "Хм-хм-хм…"
 
     old "K-Kirche-san?{#ch22_s_039}"
-    new "К-Кирке-сан?"
+    new "К-Кирхе-сан?"
 
     old "Oh, darling. Couldn't wait? Heh, just a little longer.{#ch22_k_014}"
     new "О, дорогой. Не смог дождаться? Хи, ещё немного."
@@ -88,7 +88,7 @@
     new "Ой."
 
     old "Sneaking bites is bad manners, you know.{#ch22_si_028}"
-    new "Красться к еде — дурной тон, знаете."
+    new "Красть куски — дурной тон, знаете."
 
     old "Ha ha… It just looked so tasty, I couldn't help it.{#ch22_s_052}"
     new "Ха-ха… Выглядело так вкусно, я не удержался."
@@ -115,7 +115,7 @@
     new "Я-Я сказала… П-Простите. Я сказала глупость…"
 
     old "I-It's fine! It's fine! I-It's really fine!{#ch22_s_056}"
-    new "Н-Нормально! Всё нормально! Я-Я так, просто не хочу говорить!"
+    new "Н-Нормально! Всё нормально! Я-Я так, ничего особенного!"
 
     old "…{#ch22_si_033}"
     new "…"
@@ -184,7 +184,7 @@
     new "Она и правда мучается с незнакомыми ингредиентами."
 
     old "(And Tabitha…){#ch22_s_069}"
-    new "А Табаса…"
+    new "А Табита…"
 
     old "…{#ch22_t_003}"
     new "…"
@@ -259,7 +259,7 @@
     new "Глядя на аккуратные столы…"
 
     old "(Huh? On Kirche's counter there's only an empty glass. Did she fail?){#ch22_s_075}"
-    new "А? На столе Кирке только пустой бокал. Она провалилась?"
+    new "А? На столе Кирхе только пустой бокал. Она провалилась?"
 
     old "(On Haruna's counter there's a big bowl. The lid's closed, so I can't see inside.){#ch22_s_076}"
     new "На столе Харуны большая миска. Крышка закрыта, так что содержимого не видно."
@@ -268,10 +268,10 @@
     new "У Луизы и Сиэсты… что-то тушёное. Большие кастрюли с воткнутыми половниками."
 
     old "(Tabitha… a cloth over a big plate. What's under it is a complete mystery.){#ch22_s_078}"
-    new "У Табасы… ткань на большом блюде. Что там — совершенная загадка."
+    new "У Табиты… ткань на большом блюде. Что там — совершенная загадка."
 
     old "Well then, let's start with Miss Zerbst's dish.{#ch22_c_007}"
-    new "Ну что ж, начнём с блюда мисс Церпст."
+    new "Ну что ж, начнём с блюда мисс Цербст."
 
     old "Understood, Mr. Colbert.{#ch22_k_020}"
     new "Понятно, Кольбер-сэн."
@@ -295,7 +295,7 @@
     new "Я сделала это питьё для дорогого… Так выпей побольше, ладно?"
 
     old "Hey, Kirche. Just what is this? This horrible-colored liquid…{#ch22_l_034}"
-    new "Эй, Кирке. Что это вообще? Эта жидкость ужасного цвета…"
+    new "Эй, Кирхе. Что это вообще? Эта жидкость ужасного цвета…"
 
     old "Come now, don't hold back. Help yourself.{#ch22_k_023}"
     new "Ну же, не стесняйтесь. Угощайтесь."
@@ -328,7 +328,7 @@
     new "…Ох."
 
     old "H-Hey, Kirche, you're crouching over—are you all right?{#ch22_s_085}"
-    new "Э-Эй, Кирке, ты скорчилась — ты в порядке?"
+    new "Э-Эй, Кирхе, ты скорчилась — ты в порядке?"
 
     old "Self-destruction.{#ch22_t_007}"
     new "Самоуничтожение."
@@ -379,5 +379,5 @@
     new "Ох, Сайто, какой же ты неаккуратный. Выпей это — и будешь полон сил… Особенно мужчина…"
 
     old "Th-That's not cooking at all.{#ch22_s_094}"
-    new "Э-Это же не еда, а что-то другое."
+    new "Э-Это же не стряпня, а что-то другое."
 

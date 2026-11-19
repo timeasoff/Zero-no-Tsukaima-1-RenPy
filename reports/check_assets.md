@@ -1,533 +1,80 @@
 # Проверка ассетов
 
-Дата: 2026-11-19 03:56
-
-## ERROR (508)
-
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_003.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_004.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_004.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_003.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_005.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_005.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_008.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_009.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_003.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_010.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_004.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_005.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_011.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_006.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_007.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_008.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_009.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_010.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_003.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_011.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_014.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_003.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_015.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_012.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_004.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_004.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_013.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_016.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_014.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_015.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_017.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_016.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_017.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_018.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_018.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_019.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_019.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_020.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_021.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_020.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_022.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_021.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_023.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_022.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_024.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_023.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_025.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_024.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_006.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_025.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_007.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_026.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_027.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_008.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_028.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_009.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_029.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_010.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_030.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_011.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_026.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_027.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_031.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_012.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_032.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_033.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_028.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_013.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_034.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_014.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_035.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_029.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_036.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_015.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_030.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_016.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_031.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_037.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_032.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_033.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_034.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_041.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_035.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_017.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_042.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_018.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_036.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_019.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_001.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_005.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_005.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_043.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_020.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_044.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_021.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_022.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_006.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_045.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_004.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_002.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_023.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_006.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_024.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_007.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_025.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_005.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_003.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_026.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_047.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_048.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_006.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_027.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_049.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_028.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_050.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_029.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_051.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_030.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_052.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_053.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_031.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_054.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_032.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_055.ogg
-- [ERROR] game/chapters/21/script-ch21_1.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_033.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_034.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_056.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_057.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_007.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_058.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_008.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_059.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_007.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_009.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_060.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_035.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_036.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_037.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_061.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_038.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_062.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_004.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_008.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_003.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_004.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_063.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_064.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_039.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_065.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_005.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_066.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_005.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_067.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_010.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_040.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_011.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_041.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_012.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_042.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_013.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_043.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_068.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_006.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_069.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_014.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_006.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_070.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_009.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_008.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_010.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_g_009.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_015.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_044.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_016.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_071.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_072.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_073.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_017.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_074.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_045.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_075.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_046.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_076.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_047.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_077.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_078.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_007.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_079.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_048.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_037.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_038.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_018.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_039.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_019.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_040.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_041.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_007.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_042.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_081.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_082.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_043.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_044.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_045.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_083.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_049.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_084.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_020.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_046.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_021.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_047.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_022.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_050.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_008.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_085.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_023.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_008.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_086.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_087.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_051.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_088.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_052.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_089.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_090.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_048.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_024.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_053.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_091.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_009.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_049.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_092.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_050.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_093.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_054.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_010.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_009.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_094.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_025.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_026.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_095.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_055.ogg
-- [ERROR] game/chapters/21/script-ch21_2.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_096.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_027.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_056.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_028.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_051.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_011.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_097.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_001.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_098.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_002.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_099.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_003.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_100.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_004.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_101.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_005.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_102.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_103.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_006.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_104.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_105.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_007.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_106.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_008.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_107.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_009.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_108.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_109.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_010.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_110.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_011.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_111.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_112.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_052.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_113.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_114.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_053.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_115.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_054.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_116.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_055.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_117.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_056.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_118.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_057.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_119.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_058.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_120.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_059.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_057.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_122.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_060.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_058.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_012.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_123.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_059.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_124.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_060.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_125.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_126.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_061.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_127.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_128.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_062.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_129.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_063.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_013.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_130.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_131.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_132.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_133.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_012.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_134.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_135.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_013.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_136.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_137.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_014.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_138.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_015.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_139.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_140.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_016.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_061.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_141.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_017.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_062.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_063.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_064.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_142.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_065.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_066.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_143.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_067.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_144.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_068.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_145.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_146.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_069.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_147.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_148.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_070.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_149.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_071.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_072.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_150.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_073.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_151.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_074.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_075.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_076.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_152.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_153.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_077.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_154.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_078.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_155.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_079.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_156.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_080.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_157.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_081.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_158.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_159.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_082.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_160.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_083.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_161.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_084.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_162.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_085.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_086.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_163.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_164.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_d_018.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_165.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_087.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_166.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_088.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_167.ogg
-- [ERROR] game/chapters/21/script-ch21_3.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_si_089.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_052.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_169.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_053.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_170.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_054.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_171.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_172.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_055.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_173.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_056.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_176.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_177.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_178.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_059.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_179.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_181.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_060.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_182.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_061.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_183.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_184.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_185.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_186.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_187.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_064.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_188.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_065.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_189.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_t_066.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_190.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_192.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_029.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_193.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_030.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_194.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_031.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_195.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_032.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_196.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_033.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_197.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_034.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_198.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_035.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_199.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_036.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_037.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_200.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_038.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_201.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_039.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_040.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_202.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_041.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_203.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_042.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_204.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_043.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_205.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_044.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_206.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_k_045.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_207.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_064.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_065.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_211.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_066.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_213.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_067.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_214.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_215.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_068.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_217.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_069.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_219.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_070.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_071.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_221.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_072.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_222.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_073.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_074.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_l_075.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_225.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_011.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_227.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_014.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_228.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_229.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_012.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_230.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_231.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_015.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_232.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_013.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_233.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_014.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_234.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_016.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_235.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_236.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_015.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_017.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_016.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_237.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_017.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_238.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_018.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_018.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_239.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_019.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_240.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_m_020.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_ha_019.ogg
-- [ERROR] game/chapters/21/script-ch21_4.rpy: VOICE_MISSING — Голосовой файл не найден: ch21_s_241.ogg
+Дата: 2026-11-19 19:08
 
 ## WARNING (1)
 
-- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 508 использованных голосов не помечены в очереди CSV (первые 10: 10000, 10001, 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009)
+- [WARNING] transcriptions_ja_ru.csv: ROWS_NOT_CONSUMED — 8811 использованных голосов не помечены в очереди CSV (первые 10: 1, 10, 100, 10000, 10001, 10002, 10003, 10004, 10005, 10006)
 
 ## INFO (1)
 
-- В очереди transcriptions_ja_ru.csv: 10450 строк (помечено использованными: 3794); из проверенной выборки помечено: 0
+- В очереди transcriptions_ja_ru.csv: 9876 строк (помечено использованными: 4368); из проверенной выборки помечено: 5162
 
 ## Статистика
 
+- chapter_0_images: 0
+- chapter_0_voices: 15
+- chapter_10_images: 35
+- chapter_10_voices: 265
+- chapter_11_images: 24
+- chapter_11_voices: 300
+- chapter_12_images: 18
+- chapter_12_voices: 400
+- chapter_13_images: 18
+- chapter_13_voices: 357
+- chapter_14_images: 19
+- chapter_14_voices: 316
+- chapter_15_images: 22
+- chapter_15_voices: 396
+- chapter_16_images: 2
+- chapter_16_voices: 123
+- chapter_17_images: 11
+- chapter_17_voices: 202
+- chapter_18_images: 18
+- chapter_18_voices: 499
+- chapter_19_images: 22
+- chapter_19_voices: 363
+- chapter_1_images: 5
+- chapter_1_voices: 1064
+- chapter_20_images: 1
+- chapter_20_voices: 143
 - chapter_21_images: 29
 - chapter_21_voices: 508
-- transcriptions_consumed_rows: 3794
-- transcriptions_queue_rows: 10450
-- voices_used_in_scope: 508
-- voices_used_row_consumed: 0
-- voices_used_row_still_in_queue: 508
+- chapter_22_images: 21
+- chapter_22_voices: 472
+- chapter_23_images: 21
+- chapter_23_voices: 343
+- chapter_24_images: 3
+- chapter_24_voices: 126
+- chapter_25_images: 21
+- chapter_25_voices: 451
+- chapter_26_images: 19
+- chapter_26_voices: 550
+- chapter_27_images: 13
+- chapter_27_voices: 311
+- chapter_28_images: 2
+- chapter_28_voices: 182
+- chapter_2_images: 14
+- chapter_2_voices: 1281
+- chapter_3_images: 21
+- chapter_3_voices: 1014
+- chapter_4_images: 23
+- chapter_4_voices: 983
+- chapter_5_images: 9
+- chapter_5_voices: 1324
+- chapter_6_images: 59
+- chapter_6_voices: 418
+- chapter_7_images: 2
+- chapter_7_voices: 331
+- chapter_8_images: 19
+- chapter_8_voices: 367
+- chapter_9_images: 1
+- chapter_9_voices: 108
+- chapter_extra_images: 85
+- chapter_extra_voices: 1922
+- transcriptions_consumed_rows: 4368
+- transcriptions_queue_rows: 9876
+- voices_used_in_scope: 13973
+- voices_used_row_consumed: 5162
+- voices_used_row_still_in_queue: 8811
 

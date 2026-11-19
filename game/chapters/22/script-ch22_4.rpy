@@ -3,7 +3,7 @@
 
 label ch22_4:
     $ tndl(None)
-    $ show_sprites()
+    $ show_sprites(None)
 
     # [TITLE title("料理の鉄人")]
     # [BG       stage    image=+2, level=200]

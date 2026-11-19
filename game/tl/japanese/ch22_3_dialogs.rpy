@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Well then, now that everyone's recovered. Let's move on to the next tasting.{#ch22_c_010}"
     new "コルベール：では、みなさんが回復したところで。次の品評へと参りましょう。"

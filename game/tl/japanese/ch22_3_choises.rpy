@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Try the wriggling vegetables{#ch22_3_c_824_1}"
     new "うごめく野菜を食べてみる"

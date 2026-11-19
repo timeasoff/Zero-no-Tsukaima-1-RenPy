@@ -1,0 +1,281 @@
+TOTAL PAIRS 1148
+
+=== LATIN IN NEW ===
+game/tl/russian/sp90_dialogs.rpy 849 'Гхи-и-и-яaaaах!!' -> {'a'}
+game/tl/russian/sp90_dialogs.rpy 906 'Гхяaaa!! Это не хвост!!' -> {'a'}
+game/tl/russian/sp90_dialogs.rpy 924 'Гяaaa!!' -> {'a'}
+game/tl/russian/sp90_dialogs.rpy 1014 'Гхии-и-яaaaах!!' -> {'a'}
+game/tl/russian/sp90_dialogs.rpy 1023 'Н-неeeeет!!' -> {'e'}
+game/tl/russian/sp90_dialogs.rpy 1803 'Н-Нетttt! Помогитеeee!' -> {'e', 't'}
+game/tl/russian/sp90_dialogs.rpy 2556 'Ч-Чёрт побери~~!!→ next scene 1664' -> {'x', 'n', 'c', 's', 't', 'e'}
+
+=== GLUED PUNCT (?!… followed by letter) ===
+game/tl/russian/sp90_dialogs.rpy 15 '……Так кто ты?' | '…Т'
+game/tl/russian/sp90_dialogs.rpy 87 'П-Постой!Это н-недоразумение! Ошибка!' | '!Э'
+game/tl/russian/sp90_dialogs.rpy 99 '……Я сделаю так, чтобы ты больше никогда не вилял этим хвостом!' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 132 '……Глупой собаке достаточно преклонить колени у моих ног!' | '…Г'
+game/tl/russian/sp90_dialogs.rpy 138 '……Уфуфу.' | '…У'
+game/tl/russian/sp90_dialogs.rpy 147 '……Кх, ошейник! Похоже, глупой собаке действительно нужен ошейник!' | '…К'
+game/tl/russian/sp90_dialogs.rpy 162 '……Ух. Как до этого дошло.' | '…У'
+game/tl/russian/sp90_dialogs.rpy 189 '……Ой, откуда ты знаешь? Я как раз собиралась тренировать магию. Ты, конечно, поможешь мне, верно?' | '…О'
+game/tl/russian/sp90_dialogs.rpy 192 '……Кстати, погода сегодня хорошая.' | '…К'
+game/tl/russian/sp90_dialogs.rpy 204 '……Слушай, глупая собака. Ты поможешь мне, верно?' | '…С'
+game/tl/russian/sp90_dialogs.rpy 210 'Конечно…………Как будто у меня есть такой выбор!' | '…К'
+game/tl/russian/sp90_dialogs.rpy 216 '……Почему я связан?' | '…П'
+game/tl/russian/sp90_dialogs.rpy 231 '……Скоро никто больше не сможет дразнить Луизу-Нулизу!' | '…С'
+game/tl/russian/sp90_dialogs.rpy 264 '……Ой, что случилось, дорогой? Неужели тебя выгнали из комнаты?' | '…О'
+game/tl/russian/sp90_dialogs.rpy 282 '……Выйди.' | '…В'
+game/tl/russian/sp90_dialogs.rpy 288 '……Я и из коридора тебя могу выгнать, знаешь?' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 297 '……Ну же, выходи!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 309 '……Фух, что теперь?' | '…Ф'
+game/tl/russian/sp90_dialogs.rpy 312 'Уфуфу…………Придумала кое-что хорошее.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 324 '……Фуфун-фуфун-фун.' | '…Ф'
+game/tl/russian/sp90_dialogs.rpy 336 '……Если ты так любишь девушек, то стань девушкой!' | '…Е'
+game/tl/russian/sp90_dialogs.rpy 351 '…Кажется, я недоучила тебя. Я дам тебе ещё уроков, чтобы ты хоть немного понял чувства девочки!' | '…К'
+game/tl/russian/sp90_dialogs.rpy 393 '…В-Вы ужасная, госпожа. Я же говорил, что не хочу.' | '…В'
+game/tl/russian/sp90_dialogs.rpy 399 '…И я тебя всем представлю!' | '…И'
+game/tl/russian/sp90_dialogs.rpy 405 'Ты и правда не умеешь сдаваться.…Может, ещё и ошейник тебе надеть?' | '…М'
+game/tl/russian/sp90_dialogs.rpy 417 '…А, Луиза.' | '…А'
+game/tl/russian/sp90_dialogs.rpy 423 '…Сегодня твой фамильяр не с тобой?' | '…С'
+game/tl/russian/sp90_dialogs.rpy 444 '…Мм? Ммммм? Н-Не может быть!' | '…М'
+game/tl/russian/sp90_dialogs.rpy 450 '…Не может быть. Неужели это её фамильяр?' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 453 '…Р-Раскрыли. Всё кончено. Прощай, моя молодость!' | '…Р'
+game/tl/russian/sp90_dialogs.rpy 456 '…А? Ч-Ч-Ч-Что ты сказал!?' | '…А'
+game/tl/russian/sp90_dialogs.rpy 459 '…И вправду у тебя глаз наметан.' | '…И'
+game/tl/russian/sp90_dialogs.rpy 462 'Не зря меня зовут Монморанси Благоухающая.…Но, ладно, хорошо постаралась. Никто не догадается, что ты парень.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 474 '…Есть что сказать в своё оправдание? Я великодушна, так что выслушаю.' | '…Е'
+game/tl/russian/sp90_dialogs.rpy 489 '…Уух… гав!' | '…У'
+game/tl/russian/sp90_dialogs.rpy 492 '…Понял?' | '…П'
+game/tl/russian/sp90_dialogs.rpy 525 '…А?' | '…А'
+game/tl/russian/sp90_dialogs.rpy 606 '…Ах… ах… ах…' | '…А'
+game/tl/russian/sp90_dialogs.rpy 669 '…Понятно. Я поняла. Значит, ты всё же решил так.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 711 '…Ч-что ты затеял?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 729 '…Ты готов?' | '…Т'
+game/tl/russian/sp90_dialogs.rpy 756 '…Хаа… хаа… хаа…' | '…Х'
+game/tl/russian/sp90_dialogs.rpy 771 '…Ух.' | '…У'
+game/tl/russian/sp90_dialogs.rpy 798 '…Хм. Главное, что понял. Надо было сразу так себя вести.' | '…Х'
+game/tl/russian/sp90_dialogs.rpy 819 '…Рифудзин? Ослышалась? Мне показалось, я услышала что-то странное.' | '…Р'
+game/tl/russian/sp90_dialogs.rpy 828 '…Какая смелость.' | '…К'
+game/tl/russian/sp90_dialogs.rpy 840 '…П-п… прости. Я… я не то сказал!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 864 '…В-верно. В такие моменты надо ошеломить противника и проложить путь к бегству!' | '…В'
+game/tl/russian/sp90_dialogs.rpy 870 '…Н-нет! Не подходи!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 876 '…Ч-что ты делаешь! Ах ты, глупая собака!' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 882 'Х-хи-и-и!!…Бах.' | '…Б'
+game/tl/russian/sp90_dialogs.rpy 939 '…Ну же, Сайто. Спрошу ещё раз.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 942 'Кто госпожа глупой собаки?…А я тебе кем прихожусь, Сайто?' | '…А'
+game/tl/russian/sp90_dialogs.rpy 948 '…М-моя госпожа —' | '…М'
+game/tl/russian/sp90_dialogs.rpy 954 '…В-верно. Главное, что понял, вот и всё.' | '…В'
+game/tl/russian/sp90_dialogs.rpy 963 '…В-вполне меня устраивает!' | '…В'
+game/tl/russian/sp90_dialogs.rpy 969 '…Что за тон? Я тебя ещё не достаточно наказала?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 972 '…Или. Ты не приобрёл какую-нибудь странную привычку?' | '…И'
+game/tl/russian/sp90_dialogs.rpy 987 '…М-моя госпожа —' | '…М'
+game/tl/russian/sp90_dialogs.rpy 999 '…Н-ну и наглость… Мало тебе девушек в академии, так ты ещё и на Генриетту-саму зубы точишь!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1011 '…Н-называй меня госпожой!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1020 '…Как будто ты можешь сбежать? Хоть бы раз чему-нибудь научился!' | '…К'
+game/tl/russian/sp90_dialogs.rpy 1044 '……Ч-Что ты сказал?!' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 1110 '……Ой-ё, хорошо получилось. Для дурацкого пса даже неплохо, правда?' | '…О'
+game/tl/russian/sp90_dialogs.rpy 1128 '……Ничего не поделаешь, правда? Туалет есть туалет.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1161 '……Г-Гав!' | '…Г'
+game/tl/russian/sp90_dialogs.rpy 1173 '……Э?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 1182 '……Ах, спасибо.' | '…А'
+game/tl/russian/sp90_dialogs.rpy 1188 '……Г-Гав! Гав-гав!' | '…Г'
+game/tl/russian/sp90_dialogs.rpy 1230 '……Р-Раз… два… три!' | '…Р'
+game/tl/russian/sp90_dialogs.rpy 1272 '……Покрутись три раза и гав!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1275 '???……Что это ещё за штука?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 1284 '……Ну вот? Я же сказал всё точно, как приказала Госпожа, правда?' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1305 '……П-Поэтому я просто не знаю, что делать!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1317 '……Г-Гав! Пожалуйста, зови меня собакой, гав!' | '…Г'
+game/tl/russian/sp90_dialogs.rpy 1323 '……Хм. Всегда будь таким послушным, ладно?' | '…Х'
+game/tl/russian/sp90_dialogs.rpy 1353 '……А?' | '…А'
+game/tl/russian/sp90_dialogs.rpy 1368 '……Я-Я рад, гав!' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 1386 '……Притворяешься, я вижу.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1395 '……Гх. Она не шутит.' | '…Г'
+game/tl/russian/sp90_dialogs.rpy 1410 '……Ну, где бы нам погулять?' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1428 '……Т-Так в такие «игры» ты играешь?' | '…Т'
+game/tl/russian/sp90_dialogs.rpy 1461 '……Д-Да. Верно. Кажется, мы вам помешали.' | '…Д'
+game/tl/russian/sp90_dialogs.rpy 1521 '……Эй! Что это за яблоко!' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 1539 '……Э-Эх, из старой сказки моего мира — лучник, что сбил то ли голову собственному сыну, то ли яблоко на ней!' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 1545 '……Ну, я хоть поняла, что глупый пёс меня подбадривал.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1566 '……А, если сдашься, всё кончено!' | '…А'
+game/tl/russian/sp90_dialogs.rpy 1605 '……Ч-Что… я жив?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 1611 '……А!? Н-Не может быть! Правда получилось?' | '…А'
+game/tl/russian/sp90_dialogs.rpy 1644 'Свидание?…Смелости не занимать. Хочешь разок умереть?' | '…С'
+game/tl/russian/sp90_dialogs.rpy 1668 'Сегодня два яблока.…Ну, протяни руку.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1674 '…Хочешь — беги, но если я промахнусь, я не отвечаю за последствия!' | '…Х'
+game/tl/russian/sp90_dialogs.rpy 1686 '_…Не выходит. Верёвка не развязывается!_' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1710 '…Это твоё последнее слово? Ну и ну, я думала, ты хотя бы покаешься…' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 1740 '…И-Это всё, что ты хочешь сказать?' | '…И'
+game/tl/russian/sp90_dialogs.rpy 1755 '_…Ч-Чёрт! Сегодня настроение Луизы точно не к добру!_' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 1758 '_…А-Если не получится, что тогда?_' | '…А'
+game/tl/russian/sp90_dialogs.rpy 1761 '_…Весёлый сплэттер? Или раньше этого от меня не останется и следа…_' | '…В'
+game/tl/russian/sp90_dialogs.rpy 1767 '_…А-Ах? Может, я… умру?_' | '…А'
+game/tl/russian/sp90_dialogs.rpy 1812 '…В-Во-первых.' | '…В'
+game/tl/russian/sp90_dialogs.rpy 1821 '…Просто я немного разрушаю и вокруг мишени…' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1845 'Что!? Просить пощады теперь?…Н-Не надо плакать, ладно!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1857 '…У-Угх. Ладно. Я готов.' | '…У'
+game/tl/russian/sp90_dialogs.rpy 1866 '…Ч-Чёрт! Я-Я наберусь решимости и сделаю это!' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 1872 '…Погоди — я всё равно не смогу! Я-Я не хочу умирааать!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1875 'Я-Я не знаю богов этого мира как следует, но!…Б-Бооог!' | '…Б'
+game/tl/russian/sp90_dialogs.rpy 1881 '…Ну всё! Право, какой же ты трус!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1887 '…Ф-Фух, какое облегчение.' | '…Ф'
+game/tl/russian/sp90_dialogs.rpy 1890 '…Погоди — а? Не получается отменить?' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1902 'Ч-Что ты, чёрт, делаешь?!…Плохо дело — не успею!!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1914 '…Э-Эй, ты ещё жив, приятель?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 1917 '…Да. Наверное.' | '…Д'
+game/tl/russian/sp90_dialogs.rpy 1929 '…Погоди — ой! Дверь заперта, я не могу выйти.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 1938 '…Ч-Что ты несёшь?! Ты надо мной смеёшься?! Такими словами меня не обманешь…' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 1968 '…Выйди из моей комнаты.' | '…В'
+game/tl/russian/sp90_dialogs.rpy 1974 '…Называй меня собакой, ладно? Гав.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 1986 '…Так кто ты тогда?' | '…Т'
+game/tl/russian/sp90_dialogs.rpy 1989 'А?…Э-Эм… фамильяр, наверное?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2007 '…Ну и ну. Что ты затеял, приятель?' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2019 '…Сайто, ты не спишь?' | '…С'
+game/tl/russian/sp90_dialogs.rpy 2067 '…Я-Я и правда зайду к тебе?' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 2076 '…Айк! Н-Нет, я просто… э-э…' | '…А'
+game/tl/russian/sp90_dialogs.rpy 2085 '…Г-Г-Глупый пёс! На сегодня прощаю! Быстро возвращайся в комнату!' | '…Г'
+game/tl/russian/sp90_dialogs.rpy 2094 '……Э-Эх, я воздержусь.' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2109 '……Ик! Луиза!' | '…И'
+game/tl/russian/sp90_dialogs.rpy 2133 '……Ч-Что же мне делать?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 2169 '……Д-Да-а!' | '…Д'
+game/tl/russian/sp90_dialogs.rpy 2181 '……В детстве я часто сооружал тайные штабы и тому подобное, помнится' | '…В'
+game/tl/russian/sp90_dialogs.rpy 2187 '……Эх. Хочу домой, в Японию.' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2193 '……Если она перестанет меня кормить, что со мной станет?' | '…Е'
+game/tl/russian/sp90_dialogs.rpy 2196 '……Наверное, сдохну под забором, да?' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2199 '……Эх, хватит об этом думать.' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2205 '……Может, переехать к одной из девочек?' | '…М'
+game/tl/russian/sp90_dialogs.rpy 2211 '……Ух. Д-Да, ты прав.' | '…У'
+game/tl/russian/sp90_dialogs.rpy 2217 '……И правда. Добывать себе пропитание — непростое дело.' | '…И'
+game/tl/russian/sp90_dialogs.rpy 2220 '……Эх. Хочу в Японию.' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2232 '……Эх.' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2235 '……Если всё время вздыхать, счастье сбежит от тебя, приятель.' | '…Е'
+game/tl/russian/sp90_dialogs.rpy 2244 '……Почему именно мне?' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2262 '……Приятель, те, кто так говорят, на поле боя умирают, знаешь ли.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2268 '……Ну, ты, приятель, похоже, умирать не собираешься.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2277 '……Но всё равно хочется вернуться. В Японию.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2280 '……Хммм. Понятно.' | '…Х'
+game/tl/russian/sp90_dialogs.rpy 2283 '……Сайто, ты и правда остался на месте.' | '…С'
+game/tl/russian/sp90_dialogs.rpy 2289 '……Если оставлять фамильяра снаружи, пойдут странные слухи! Ну хватит, заходи сюда!' | '…Е'
+game/tl/russian/sp90_dialogs.rpy 2301 '……Ой-ой. Какая меркантильность.' | '…О'
+game/tl/russian/sp90_dialogs.rpy 2334 '……Но надо терпеть!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2349 '……Э-Это… я?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2451 '…Подожди-ка. Я мальчик.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2469 '…Я испачкался. Меня запачкали.' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 2481 '…Н-Ну… да.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2487 '…П-Пощадите меня, госпожа!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2520 '…Сделаю! Я сделаю, чёрт возьми!' | '…С'
+game/tl/russian/sp90_dialogs.rpy 2529 '…Сайто. Ты и правда глупец, да?' | '…С'
+game/tl/russian/sp90_dialogs.rpy 2559 '…Э-Э-Эм, тебе хочется посмотреть, госпожа?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2568 '…Ч-Ч-Ч-Что?!' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 2580 '…Смотри правде в глаза.' | '…С'
+game/tl/russian/sp90_dialogs.rpy 2601 '…Д-Даже тут голос уже не спасти.' | '…Д'
+game/tl/russian/sp90_dialogs.rpy 2607 '…Ч-Что за странная атмосфера!?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 2634 '…И тебе оно нужно, Гиш.' | '…И'
+game/tl/russian/sp90_dialogs.rpy 2640 '…Не могу поверить…' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2646 '…Э? Лучше Луизы?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2655 '…Э? А, нет!' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2658 '…Мм.' | '…М'
+game/tl/russian/sp90_dialogs.rpy 2670 '…Н-ну, разумеется… правда?' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2682 '…Ну и дерзость у тебя, однако.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2700 '…Мм, у Луизы грудь побольше, так что ладно, да?' | '…М'
+game/tl/russian/sp90_dialogs.rpy 2736 '…Понятно. Похоже, тебе нужно ещё немного наказания. Такого, чтобы ты не мог ни плакать, ни смеяться.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2766 '…Ай? Что за физиономия?' | '…А'
+game/tl/russian/sp90_dialogs.rpy 2787 '…К-как это — лицо фамильяра?' | '…К'
+game/tl/russian/sp90_dialogs.rpy 2817 '…Прости меня за всё то дерзкое поведение, хозяйка!' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2823 '…Чёрт. Почему это я должен извиняться?' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 2829 '…Я очень сожалею о бесчисленных грубостях хозяйки!' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 2835 '…Н-ничего подобного.' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2838 'Ладно, так и быть.…Впрочем, сначала я тебя ударю.' | '…В'
+game/tl/russian/sp90_dialogs.rpy 2850 '…Э? Не то?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2868 '…Ч-Чёрт.' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 2910 '…Тебе что, есть на что пожаловаться?' | '…Т'
+game/tl/russian/sp90_dialogs.rpy 2946 '…Надо бежать! До конца света!' | '…Н'
+game/tl/russian/sp90_dialogs.rpy 2961 '…Почему ты это сделал?' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2973 '…Это всё, что ты хочешь сказать?' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 2991 '…Прости.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 2997 '…П-Прости.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 3024 '…Угх!' | '…У'
+game/tl/russian/sp90_dialogs.rpy 3054 '…Право же… Глупый ты.' | '…П'
+game/tl/russian/sp90_dialogs.rpy 3060 '…Я-Я даже не предполагала, что глупый пёс сделает такое!' | '…Я'
+game/tl/russian/sp90_dialogs.rpy 3069 '…Э-Это скорее традиция, или что-то вроде этикета…' | '…Э'
+game/tl/russian/sp90_dialogs.rpy 3075 '…Если так, то, может, дать тебе заявить то же самое при других девушках?' | '…Е'
+game/tl/russian/sp90_dialogs.rpy 3078 '…Угх.' | '…У'
+game/tl/russian/sp90_dialogs.rpy 3084 '…С тёплыми, сочувствующими глазами.' | '…С'
+game/tl/russian/sp90_dialogs.rpy 3090 '…Хи-хи-хи. Больше не смей дерзить госпоже, понял? Глупый пёс?' | '…Х'
+game/tl/russian/sp90_dialogs.rpy 3093 '…Чёрт, я же не виноват! Этот дьявольский лоскут ткани… он меня одолел…' | '…Ч'
+game/tl/russian/sp90_dialogs.rpy 3102 '…Ого? Если это был сон, то можно рассказать кому угодно, и ничего не будет, да?' | '…О'
+game/tl/russian/sp90_dialogs.rpy 3120 '…Право, что за самоуверенность.' | '…П'
+game/tl/russian/sp90_choises.rpy 27 '…Лишиться чувств!' | '…Л'
+game/tl/russian/sp90_choises.rpy 42 '……А, спасибо.' | '…А'
+game/tl/russian/sp90_choises.rpy 81 '……У меня дурное предчувствие.' | '…У'
+game/tl/russian/sp90_choises.rpy 135 '…Ч-Что это за атмосфера!' | '…Ч'
+game/tl/russian/sp90_choises.rpy 210 '……Я-Я рад, гав!' | '…Я'
+game/tl/russian/sp90_choises.rpy 249 '…Пожалуйста, называйте меня псом!' | '…П'
+game/tl/russian/sp90_choises.rpy 255 '…Может, я и правда зайду?' | '…М'
+game/tl/russian/sp90_choises.rpy 258 '…Э-Э, нет, спасибо.' | '…Э'
+game/tl/russian/sp90_choises.rpy 264 '……Почему со мной такое?' | '…П'
+game/tl/russian/sp90_choises.rpy 294 '…Н-ну, разумеется… правда?' | '…Н'
+game/tl/russian/sp90_choises.rpy 303 '…К-как это — лицо фамильяра?' | '…К'
+
+=== JA PUNCT ===
+game/tl/russian/sp90_dialogs.rpy 258 '………。……。…。'
+game/tl/russian/sp90_dialogs.rpy 1911 '………。……。…。'
+game/tl/russian/sp90_dialogs.rpy 1998 '………。……。…。'
+game/tl/russian/sp90_dialogs.rpy 2223 '………。……。…。'
+
+=== TWO DOTS ===
+game/tl/russian/sp90_dialogs.rpy 369 'Хик!.. Хи-и-и!'
+
+=== THOUGHTS (EN parens) vs RU italics ===
+NOITAL game/tl/russian/sp90_dialogs.rpy 105 sp90_s1537_047 |EN: (N-No, this is bad! I'm gonna be killed!!) |RU: О, нет, плохо! Она меня убьёт!!
+NOITAL game/tl/russian/sp90_dialogs.rpy 180 sp90_s1541_007 |EN: (Ugh. T-This is bad! Did I touch an old wound or something?) |RU: Ух. П-Плохо дело! Не задел ли я старую рану?
+NOITAL game/tl/russian/sp90_dialogs.rpy 369 sp90_s1549_004 |EN: (Eep, eeeh!) |RU: Хик!.. Хи-и-и!
+NOITAL game/tl/russian/sp90_dialogs.rpy 435 sp90_s1549_048 |EN: (Eep! Don't take her hand, Guiche!) |RU: Хик! Не бери её за руку, Гиш!
+NOITAL game/tl/russian/sp90_dialogs.rpy 453 sp90_s1549_058 |EN: (…B-Busted. It's over. Goodbye, my youth!) |RU: …Р-Раскрыли. Всё кончено. Прощай, моя молодость!
+NOITAL game/tl/russian/sp90_dialogs.rpy 528 sp90_s1552_005 |EN: (Wait. Did I do something when I was doing Louise's laundry?) |RU: Погоди. Неужели я что-то сделал, когда стирал бельё Луизы?
+NOITAL game/tl/russian/sp90_dialogs.rpy 543 sp90_s1552_011 |EN: (N-No way. Did I really do something like that?) |RU: Н-Не может быть. Правда я такое делал?
+NOITAL game/tl/russian/sp90_dialogs.rpy 564 sp90_s1555_002 |EN: (Non-resistance, that's the way to go…) |RU: Тут лучше не сопротивляться…
+NOITAL game/tl/russian/sp90_dialogs.rpy 645 sp90_s1557_009 |EN: (Phew… I made it…) |RU: Фух… Кажется, я спасся…
+NOITAL game/tl/russian/sp90_dialogs.rpy 852 sp90_s1569_002 |EN: (I'm getting out of here!!) |RU: Надо сбежать отсюда!!
+NOITAL game/tl/russian/sp90_dialogs.rpy 864 sp90_s1570_002 |EN: (…Th-that's it. In a case like this, you stun your opponent and create an escape route!) |RU: …В-верно. В такие моменты надо ошеломить противника и проложить путь к бегству!
+ITAL  game/tl/russian/sp90_dialogs.rpy 1089 sp90_s1580_041 |EN: (Hm, those are serious eyes…) |RU: _Хм… Глаза у неё серьёзные…_
+NOITAL game/tl/russian/sp90_dialogs.rpy 1116 sp90_s1582_006 |EN: (Tch, damn it!) |RU: Тьфу, чёрт!
+NOITAL game/tl/russian/sp90_dialogs.rpy 1224 sp90_s1589_002 |EN: (F-Fine. I'll do it! I'll do it, I tell you!) |RU: Л-Ладно. Сделаю! Сделаю, чёрт побери!
+NOITAL game/tl/russian/sp90_dialogs.rpy 1311 sp90_s1593_006 |EN: (G-Gasp!) |RU: Г-Гах!
+NOITAL game/tl/russian/sp90_dialogs.rpy 1329 sp90_s1595_003 |EN: (The other way around……) |RU: Наоборот……
+NOITAL game/tl/russian/sp90_dialogs.rpy 1371 sp90_s1597_003 |EN: (D-Damn it~~~!) |RU: Ч-Чёрт~~~!
+NOITAL game/tl/russian/sp90_dialogs.rpy 1395 sp90_s1598_008 |EN: (……Gah. She means it.) |RU: ……Гх. Она не шутит.
+NOITAL game/tl/russian/sp90_dialogs.rpy 1506 sp90_s1603_004 |EN: (Gah, she heard me!?) |RU: Гах, она слышала!?
+ITAL  game/tl/russian/sp90_dialogs.rpy 1623 sp90_s1608_013 |EN: (I-If it had failed, my head would've ended up like that?) |RU: _Е-Если бы не получилось, моя голова была бы такой?_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1629 sp90_s1608_015 |EN: (S-So I was made a practice dummy for magic she wasn't even sure of… Me…) |RU: _Так я стал подопытным для магии, в которой она даже не уверена… Я…_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1683 sp90_s1613_002 |EN: (I-I have to run… but…) |RU: _Н-Нужно бежать… но…_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1686 sp90_s1613_003 |EN: (...No good. The rope won't come undone!) |RU: _…Не выходит. Верёвка не развязывается!_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1743 sp90_s1617_002 |EN: (R-Really… it might actually succeed?) |RU: _П-Правда… может, и получится?_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1746 sp90_s1617_003 |EN: (N-No. I've got to believe in Louise…) |RU: _Н-Нет. Я должен верить Луизе…_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1755 sp90_s1617_007 |EN: (...Y-You've got to be kidding! Louise is in a terrible mood today!) |RU: _…Ч-Чёрт! Сегодня настроение Луизы точно не к добру!_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1758 sp90_s1618_002 |EN: (...I-If it fails, what'll happen?) |RU: _…А-Если не получится, что тогда?_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1761 sp90_s1618_003 |EN: (...A pleasant splatter? Or before that I'll be wiped out without a trace…) |RU: _…Весёлый сплэттер? Или раньше этого от меня не останется и следа…_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1767 sp90_s1618_005 |EN: (...A-Ah? Maybe I… die?) |RU: _…А-Ах? Может, я… умру?_
+ITAL  game/tl/russian/sp90_dialogs.rpy 1851 sp90_s1621_008 |EN: (First of all, did you already forget how you were calling me just a moment ago——!?) |RU: _Во-первых, ты уже забыла, как называла меня совсем недавно——!?_
+NOITAL game/tl/russian/sp90_dialogs.rpy 1926 sp90_s1626_002 |EN: (Heh, running away is the winning move, right?!) |RU: Хех, убежать — вот настоящая победа, да?!
+NOITAL game/tl/russian/sp90_dialogs.rpy 1953 sp90_s1628_006 |EN: (The hallway's cold, too… I've got to refuse somehow!) |RU: В коридоре холодно… Надо во что бы то ни стало отказаться.
+NOITAL game/tl/russian/sp90_dialogs.rpy 2142 sp90_s1639_005 |EN: (N-No, not with her chest pressed against me like this……) |RU: Н-Нет, когда она так прижимается ко мне грудью……
+NOITAL game/tl/russian/sp90_dialogs.rpy 2148 sp90_s1639_007 |EN: (U-Ugh…… I want to just let myself be swept away……) |RU: У-Ух…… Хочется просто дать себя унести……
+NOITAL game/tl/russian/sp90_dialogs.rpy 2181 sp90_s1641_004 |EN: (……I used to make secret hideouts and stuff as a kid, didn't I?) |RU: ……В детстве я часто сооружал тайные штабы и тому подобное, помнится
+NOITAL game/tl/russian/sp90_dialogs.rpy 2184 sp90_s1641_005 |EN: (No cardboard or plastic sheeting in this world, though…… Honestly, it really is a differe |RU: Тут нет ни коробок, ни полиэтиленовой плёнки…… Честно, этот мир и правда непохож на Японию
+NOITAL game/tl/russian/sp90_dialogs.rpy 2193 sp90_s1642_003 |EN: (……If she stopped feeding me, what would happen to me?) |RU: ……Если она перестанет меня кормить, что со мной станет?
+NOITAL game/tl/russian/sp90_dialogs.rpy 2196 sp90_s1642_004 |EN: (……Guess I'd just die by the roadside, huh?) |RU: ……Наверное, сдохну под забором, да?
+NOITAL game/tl/russian/sp90_dialogs.rpy 2217 sp90_s1643_006 |EN: (……True enough. Getting to eat is real work, isn't it?) |RU: ……И правда. Добывать себе пропитание — непростое дело.
+NOITAL game/tl/russian/sp90_dialogs.rpy 2220 sp90_s1643_007 |EN: (……Haaah. I want to go back to Japan.) |RU: ……Эх. Хочу в Японию.
+NOITAL game/tl/russian/sp90_dialogs.rpy 2334 sp90_s1650_002 |EN: (……But I've got to put up with it!) |RU: ……Но надо терпеть!
+NOITAL game/tl/russian/sp90_dialogs.rpy 2346 sp90_s1650_006 |EN: (I-I feel like I've lost something important……) |RU: Кажется, я потерял что-то очень важное……
+NOITAL game/tl/russian/sp90_dialogs.rpy 2382 sp90_s1652_008 |EN: (Well, at least I don't have breasts, so I can still keep my sanity…… Uh-huh.) |RU: Ну, груди у меня всё же нет, так что я ещё сохраняю рассудок…… Угу, угу.
+NOITAL game/tl/russian/sp90_dialogs.rpy 2517 sp90_s1660_019 |EN: (G-Guh, this came out of nowhere…!) |RU: Г-Гх, вдруг такой передел…!
+NOITAL game/tl/russian/sp90_dialogs.rpy 2520 sp90_s1661_002 |EN: (…I'll do it! I'll do it, I tell you!) |RU: …Сделаю! Я сделаю, чёрт возьми!
+NOITAL game/tl/russian/sp90_dialogs.rpy 2523 sp90_s1661_003 |EN: (Spin around…) |RU: Покрутись…
+NOITAL game/tl/russian/sp90_dialogs.rpy 2547 sp90_s1662_007 |EN: (D-Damn it. Spin around…) |RU: Ч-Чёрт. Покрутись…
+NOITAL game/tl/russian/sp90_dialogs.rpy 2556 sp90_s1662_011 |EN: (D-Damn iiit~~!!)→ next scene 1664 |RU: Ч-Чёрт побери~~!!→ next scene 1664
+NOITAL game/tl/russian/sp90_dialogs.rpy 2763 sp90_s1676_027 |EN: (D-damn it…) |RU: Ч-чёрт…
+NOITAL game/tl/russian/sp90_dialogs.rpy 2769 sp90_s1676_030 |EN: (G-guh…) |RU: У-ух…
+NOITAL game/tl/russian/sp90_dialogs.rpy 2811 sp90_s1679_006 |EN: (Hah! Does she want me to practice a hundred different faces?!) |RU: Неужели она хочет, чтобы я тренировал сотню разных лиц?!
+NOITAL game/tl/russian/sp90_dialogs.rpy 2814 sp90_s1679_007 |EN: (H-he actually means to practice…?) |RU: Неужели он и вправду собрался тренироваться?
+NOITAL game/tl/russian/sp90_dialogs.rpy 2823 sp90_s1681_004 |EN: (…Damn it. Why do I have to be the one apologizing?) |RU: …Чёрт. Почему это я должен извиняться?

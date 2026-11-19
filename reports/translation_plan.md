@@ -1,9 +1,33 @@
+- [x] **Runtime-фикс 22–28**: 24× `show_sprites()` → `show_sprites(None)`; smoke-тест 7/7 глав + RU/JA — 0 ошибок; прямой запуск BLOCKED (вне scope). `reports/full_audit/RUNTIME-round6.md`.
+- [x] **Аудит 22–28, 4-й проход**: грамматика/стиль/humanizer/терминология — 32 строки, 0 правок; открыт общепроектный RECONCILE по обращениям (OPEN). `reports/full_audit/LAYERS-round4.md`.
+- [x] **Аудит 22–28, 3-й проход**: A/B/C 24/24, 23 JA-подтверждённых правок (EN+RU), omission 7/7, compile в зоне 0; runtime SKIPPED (ошибки вне scope). `reports/full_audit/FINAL.md`.
+- [x] **Полный аудит 22–28 (2-й проход)**: A/B/C по всем 24 частям + Analyzer; 15 JA-подтверждённых исправлений; compile в зоне 0 ошибок. Отчёт `reports/full_audit/FINAL.md`.
+# ПЛАН ЗАВЕРШЁН — см. `reports/FINAL_ACCEPTANCE.md` (промпт 12)
+
 # План перевода всех глав ZnT1 (чекбоксы + чанки)
 
 > Активные задачи и работа субагентов ведутся на доске
 > `reports/task_board.json` (`python tools/task_board.py status` /
 > `check` — скилл `task-orchestrator`). Эта сводка — статус перевода;
 > обновляется по мере закрытия подзадач, как и прежде.
+
+## ✅ Актуальный статус (ветка `port/ch22-to-end`, 2026-11-18)
+
+- [x] **Основная линия, главы 22–28** — полностью портирована: 2364 голоса, финал `jump attention`.
+- [x] **30 inline-сцен** `extra scenes:` гл.25 (25) и гл.26 (5) — портированы внутри своих частей; реестр `reports/inline_extra_registry.md`.
+- [x] **Отдельные extra-главы 90/91** — портированы в `game/chapters/extra/`:
+  - [x] `sp_d1.rpy` — слот 1 дэре (9 сцен, 71 голос, `.ogg`).
+  - [x] `sp90.rpy` — все 164 сцены ч.90, 966 голосов, JA/RU tl, отчёт `reports/extra/ch90.md`.
+  - [x] `sp91.rpy` — 155 сцен ч.91 + `jump` на 9 сцен `sp_d1`; 808 Voice-строк + 71 = 879; 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`).
+  - [x] Проверки: `check_project.py` OK, syntax OK, typography OK (в extra), placeholders OK, `audio_converter.py check` OK.
+  - [ ] Dispatch call-site в главах 0–21 (`zero_tundele >= 211 / < 40`) — **OPEN**, чужая зона.
+- [x] **Промпт 11 — ассеты**: BGM 20/20 по `t{K-1}`, 109 image id в справочнике, FX-сигнатуры валидны, MOVIE×2 not ported, W6-заглушки `id(K)` — PROVISIONAL.
+- [x] **Промпт 10 — литература RU**: 6 вычиток, 35 точечных правок + 248 канонических замен имён; 0 стильных дефектов.
+- [x] **Промпт 09 — аудиты C/Analyzer**: 10 прогонов C, 2 blind-фазы, 21 точечная правка (2 ERROR + 13 WARNING), 1 OPEN по модальности.
+- [x] **Промпт 08 — TL**: 5208 EN-строк, 0 пропусков old/new, 0 дублей/пустых, MISMATCH_JA (24 engine-хвоста в JA read-only) и 1 RECONCILE — в журнале.
+- [x] **Промпт 07 — поток**: граф reachability/циклы, 6 title-overlay K=20–25, восстановлены сцены 998 и возврат move→extra.
+- [x] **Промпт 06 — голоса**: ID строго по `[voice N]`, 9/9 порядок OK, 3866 `.ogg`, 77 NO AUDIO (`reports/extra/no_audio_ch91.md`), 3851 строка в манифесте.
+- [x] **Промпт 05 — аудит полноты**: `reports/coverage/README.md`; все 9 единиц A–F PASS, кроме 77 NO AUDIO. Восстановлены пропущенные реплики.
 
 > **2026-11-18, ветка `review/ch6-21`:** выполнен независимый проход смыслового
 > аудита A (лексическая точность, JA→EN и JA→RU) по главам 6–21: 121 находка,
@@ -55,6 +79,23 @@
 > переводов) и 10 незакрытых курсивов в ch10_2. `check_project.py` OK errors=0,
 > `check_renpy_syntax.py` OK. W6 (id-заглушки) и ch13 jump-цели — USER DECISION.
 > Evidence: `reports/sma/ch6-21-structural-integrity.md`. Галочки не менялись.
+## ✅ Актуальный статус (ветка `port/ch22-to-end`, 2026-11-18)
+
+- [x] **Основная линия, главы 22–28** — полностью портирована: 2364 голоса, финал `jump attention`. Отчёты в `reports/ch22/`…`reports/ch28/`.
+- [x] **30 inline-сцен** `extra scenes:` гл.25 (25) и гл.26 (5) — портированы внутри своих частей; реестр `reports/inline_extra_registry.md`.
+- [x] **Отдельные extra-главы 90/91** — портированы в `game/chapters/extra/`:
+  - [x] `sp_d1.rpy` — слот 1 дэре (9 сцен, 71 голос, `.ogg`).
+  - [x] `sp90.rpy` — все 164 сцены ч.90, 966 голосов, JA/RU tl, отчёт `reports/extra/ch90.md`.
+  - [x] `sp91.rpy` — 155 сцен ч.91 + `jump` на 9 сцен `sp_d1`; 808 Voice-строк + 71 = 879; 77 голосов NO AUDIO (`reports/extra/no_audio_ch91.md`), отчёт `reports/extra/ch91.md`.
+  - [x] Проверки: `check_project.py` OK, syntax OK, typography OK (в extra), placeholders OK, `audio_converter.py check` OK.
+  - [ ] Dispatch call-site в главах 0–21 (`zero_tundele >= 211 / < 40`) — **OPEN**, чужая зона.
+- [x] **Промпт 11 — ассеты**: BGM 20/20 по `t{K-1}`, 109 image id в справочнике, FX-сигнатуры валидны, MOVIE×2 not ported, W6 OPEN. Отчёт `reports/assets_media_fx.md`.
+- [x] **Промпт 10 — литература RU**: 6 вычиток, 35 точечных правок + 248 канонических замен имён; 0 стиль-кандидатов после правок. Отчёт `reports/ru_literary_review.md`.
+- [x] **Промпт 09 — аудиты C/Analyzer**: 10 прогонов C, 2 blind-фазы, 21 точечная правка (2 ERROR + 13 WARNING), 1 OPEN по модальности. Отчёт `reports/semantic_pragmatic_review.md`.
+- [x] **Промпт 08 — TL**: 5208 EN-строк, 0 пропусков old/new, 0 дублей/пустых, MISMATCH_JA (24 engine-хвоста в JA read-only) и 12 tag-вопросов зафиксированы. Отчёт `reports/en_ru_tl_consistency.md`.
+- [x] **Промпт 07 — поток**: граф reachability/циклы, 6 title-overlay K=20–25, восстановлены сцены 998 и возврат move→927, checkKiss-ветки; 0 расхождений по симпатиям. Отчёт `reports/flow_sympathy_ch22_to_end.md`.
+- [x] **Промпт 06 — голоса**: ID строго по `[voice N]`, 9/9 порядок OK, 3866 `.ogg`, 77 NO AUDIO (`reports/extra/no_audio_ch91.md`), 3851 строка CSV помечена `USED ch<unit>`, converter check/convert/check OK. Отчёт `reports/voice_workflow_ch22_to_end.md`.
+- [x] **Промпт 05 — аудит полноты**: `reports/coverage/README.md`; все 9 единиц A–F PASS, кроме 77 NO AUDIO. Восстановлены сцены 967–971 (54 голоса, `script-ch26_4b.rpy`, отчёт `reports/ch26/4b.md`); исправлены генераторы гл.25/26 (`scene` не сбрасывался); вырезаны хвосты выборов в extra. `omission_precheck` по 8 целям → 0 кандидатов.
 
 ## Соответствие: проектная папка ↔ источник PS2
 
@@ -789,38 +830,38 @@
 
 **Статус:** ❌ Не начата.
 
-- [ ] `chapters/22/` — папка пуста (`.gitkeep` только)
-- [ ] Источник: `ps2_source/chapters/chapter_23_料理の鉄人.txt` (48 сцен, 512 голосовых, 5 extra)
-- [ ] Сцены: 806–848 (ядро)
-- [ ] **4-5 частей** (512 ÷ 115 ≈ 4.4)
+- [x] `chapters/22/` — `script-ch22.rpy` + `script-ch22_2..5.rpy` (части 1–5, 806–848 + extra 1209–1213)
+- [x] Источник: `ps2_source/chapters/chapter_23_料理の鉄人.txt` (48 сцен, 512 реплик, 472 голоса + 5 extra)
+- [x] Сцены: 806–848 (ядро) + extra 1209–1213
+- [x] **5 частей**: 99 + 102 + 113 + 100 + 58 = 472 голоса
 - [ ] Вход: `jump ch22` из главы 21
-- [ ] Выход: `jump ch23`
+- [x] Выход: `jump ch23`
 - [ ] Планируемые части:
-  - [ ] `ch22_1.rpy` — scenes 806–~819
-  - [ ] `ch22_2.rpy` — scenes ~819–~831
-  - [ ] `ch22_3.rpy` — scenes ~831–~842
-  - [ ] `ch22_4.rpy` — scenes ~842–848
-- [ ] Голоса: `ch22_*`
+  - [x] `ch22.rpy` — 806–816 (99 голосов)
+  - [x] `ch22_2.rpy` — 817–823 (102)
+  - [x] `ch22_3.rpy` — 824–837 (113)
+  - [x] `ch22_4.rpy` — 838–848 (100); `ch22_5.rpy` — extra 1209–1213 (58)
+- [x] Голоса: `ch22_*` (472, .ogg сконвертированы)
 - [ ] Перевод EN/RU: в `tl/{japanese,russian}/`
 - [ ] Пройдены все `project-checks` — к завершении
 
 ---
 
-## 📊 Глава 23 — `chapter_24` (沈黙の応援) ❌
+## 📊 Глава 23 — `chapter_24` (沈黙の応援) ✅
 
-**Статус:** ❌ Не начата.
+**Статус:** ✅ Глава 23 портирована полностью (849–893, 343 голоса).
 
-- [ ] `chapters/23/` — папка пуста (`.gitkeep` только)
+- [x] `chapters/23/` — `script-ch23.rpy` (849–867), `script-ch23_2.rpy` (868–878), `script-ch23_3.rpy` (879–893)
 - [ ] Источник: `ps2_source/chapters/chapter_24_沈黙の応援.txt` (45 сцен, 354 голосовых, 0 extra)
 - [ ] Сцены: 849–893 (ядро)
 - [ ] **3 части** (354 ÷ 115 ≈ 3.1)
 - [ ] Вход: `jump ch23` из главы 22
 - [ ] Выход: `jump ch24`
 - [ ] Планируемые части:
-  - [ ] `ch23_1.rpy` — scenes 849–~863
+  - [x] `ch23.rpy` — 849–867 (124), `ch23_2.rpy` — 868–878 (104), `ch23_3.rpy` — 879–893 (115)
   - [ ] `ch23_2.rpy` — scenes ~863–~878
   - [ ] `ch23_3.rpy` — scenes ~878–893
-- [ ] Голоса: `ch23_*`
+- [x] Голоса: `ch23_*` (124, .ogg)
 - [ ] Перевод EN/RU: в `tl/{japanese,russian}/`
 - [ ] Пройдены все `project-checks` — к завершении
 

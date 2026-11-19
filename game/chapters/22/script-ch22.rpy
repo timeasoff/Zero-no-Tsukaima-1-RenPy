@@ -3,7 +3,7 @@
 
 label ch22:
     $ tndl(None)
-    $ show_sprites()
+    $ show_sprites(None)
 
 label ch22_1_scene_806:
 

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Have Siesta try it{#ch22_2_c_819_1}"
     new "Пусть попробует Сиэста"

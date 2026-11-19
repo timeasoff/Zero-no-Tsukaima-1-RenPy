@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Thanks, Siesta. If I feel like eating it again, you'll treat us, right?{#ch22_s_137}"
     new "サイト：ありがとう、シエスタ。また食べたくなったらさ、俺達にご馳走してくれるかい？"

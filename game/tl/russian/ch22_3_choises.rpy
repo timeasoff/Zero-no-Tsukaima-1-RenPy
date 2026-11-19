@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Try the wriggling vegetables{#ch22_3_c_824_1}"
     new "Попробовать шевелящиеся овощи"
@@ -13,7 +13,7 @@
     new "Съесть суп Луизы"
 
     old "Offer it to Kirche{#ch22_3_c_829_2}"
-    new "Предложить Кирке"
+    new "Предложить Кирхе"
 
     old "Did you taste it?{#ch22_3_c_829_3}"
     new "Ты пробовала?"
