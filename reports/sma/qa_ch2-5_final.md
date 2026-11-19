@@ -168,3 +168,89 @@ E1–E10/W1–W6 проектны, ID_UNNAMED — легальные id(K)-за�
 Остальные PROPOSED/CANDIDATE (устаревшие комментарии-шапки, FX-события пьесы ch5_9,
 MISMATCH_JA в JA-TL) — решение человека / JA read-only, не применялись.
 Финальные проверки после правок: check_renpy_syntax ch2–5 OK; check_project RESULT: OK (errors=0).
+
+
+## Финальная комплексная приёмка (T20261119-015325-35cf)
+
+38/38 частей, сведе́ние существующего evidence без механического перезапуска аудитов.
+Проверены run_id, `STATUS: DONE` result-маркеров, актуальность (MD5/mtime/git diff)
+и завершённость всех 11 слоёв. Запущены штатные CLI: `check_project`, `check_renpy_syntax`,
+`check_typography ru`, `check_placeholders`, `check_assets`, `check_voice_transcriptions`,
+`omission_precheck`, `chapter_pipeline --status` (кэш не сбрасывался).
+
+**Результат по частям: 27 PASS WITH OPEN QUESTIONS / 11 PARTIAL, 0 чистых PASS.**
+Ни одна часть не скрывает пробелы — это корректный итог: во всех частях остаются
+неприменённые `CONFIRMED_ERROR` (REPORT_ONLY) и/или открытые `???`/RECONCILE/PROVISIONAL,
+часть evidence помечена stale относительно пост-аудитных правок.
+
+| Часть | Статус | open | RECONCILE | PROVISIONAL | stale |
+|---|---|---:|---:|---:|---:|
+| 2_1 | PASS? | 8 | 0 | 0 | 1 |
+| 2_2 | PARTIAL | 18 | 0 | 3 | 3 |
+| 2_3 | PARTIAL | 12 | 1 | 3 | 0 |
+| 2_4 | PASS? | 8 | 3 | 3 | 2 |
+| 2_4b | PASS? | 4 | 3 | 4 | 3 |
+| 2_4c | PASS? | 4 | 1 | 0 | 0 |
+| 2_5 | PARTIAL | 5 | 1 | 4 | 0 |
+| 2_5b | PASS? | 10 | 0 | 4 | 0 |
+| 2_6 | PASS? | 10 | 1 | 2 | 1 |
+| 2_7 | PARTIAL | 3 | 4 | 3 | 4 |
+| 2_8 | PARTIAL | 8 | 1 | 4 | 7 |
+| 3_1 | PASS? | 8 | 5 | 2 | 0 |
+| 3_2 | PARTIAL | 4 | 3 | 0 | 4 |
+| 3_3 | PASS? | 7 | 1 | 2 | 4 |
+| 3_4 | PARTIAL | 8 | 0 | 1 | 3 |
+| 3_5 | PASS? | 11 | 1 | 4 | 2 |
+| 3_6 | PASS? | 11 | 3 | 4 | 0 |
+| 3_7 | PASS? | 6 | 2 | 1 | 0 |
+| 3_8 | PASS? | 10 | 2 | 3 | 0 |
+| 3_9 | PASS? | 6 | 0 | 3 | 2 |
+| 4_1 | PASS? | 16 | 0 | 2 | 2 |
+| 4_2 | PASS? | 13 | 0 | 2 | 3 |
+| 4_2b | PASS? | 8 | 0 | 2 | 0 |
+| 4_3 | PASS? | 6 | 0 | 1 | 2 |
+| 4_4 | PASS? | 7 | 5 | 3 | 3 |
+| 4_5 | PASS? | 16 | 3 | 3 | 4 |
+| 4_6 | PASS? | 10 | 2 | 3 | 0 |
+| 5_1 | PASS? | 11 | 0 | 6 | 2 |
+| 5_10 | PARTIAL | 8 | 4 | 3 | 2 |
+| 5_11 | PARTIAL | 6 | 2 | 3 | 5 |
+| 5_2 | PASS? | 11 | 4 | 3 | 6 |
+| 5_3 | PASS? | 15 | 0 | 4 | 3 |
+| 5_4 | PASS? | 10 | 4 | 5 | 2 |
+| 5_5 | PASS? | 8 | 6 | 12 | 4 |
+| 5_6 | PARTIAL | 14 | 3 | 2 | 4 |
+| 5_7 | PASS? | 6 | 0 | 2 | 3 |
+| 5_8 | PARTIAL | 6 | 6 | 3 | 4 |
+| 5_9 | PASS? | 10 | 1 | 0 | 2 |
+
+### Единые ограничения и наблюдения приёмки
+
+* **Окружение (не дефект порта):** `check_assets` даёт тысячи `VOICE_MISSING` — медиа
+  вынесены за пределы дерева (junction'ы `ZnT1_MEDIA` не смонтированы в этой среде).
+  При этом `check_voice_transcriptions` везде OK (все `voice↔id` пары и очереди по ID
+  закрыты, 0 не-consumed). Это limitation среды, не непрохождение игры.
+* **CLI ТЗ:** дословные цели `--chapter chapter_03/04/05/06` (имена PS2-глав) не
+  резолвятся утилитами (`argparse int` / BAD_TARGET). Агенты запускали корректные
+  цели (`2_1`…`5_11` и `2`…`5`), отказы зафиксированы в limitations.
+* **Актуальность evidence:** пост-аудитные коммиты (`85c54bb`…`a1e063f`) изменили
+  часть RU/EN-строк, поэтому слои A/B/C/Analyzer и h/g/s в ряде частей помечены
+  `stale` (точечный recheck передан ведущему; повторный запуск аудитов по ТЗ не делался).
+* **Отчётность:** `reports/ch<N>/<part>.md` и `reports/translation_plan.md` в ряде
+  частей старше финального QA-цикла и требуют регенерации — зафиксировано, не скрыто.
+* **Runtime НЕ проверялся:** запускались только статические скрипты; Ren'Py SDK
+  в этой среде недоступен. Не заявляется, что игра проходит runtime/lint/compile.
+
+### Финальные команды (последний прогон в этой сессии)
+
+* `check_project.py` (по главам 2–5) → `RESULT: OK`, errors=0 во всех.
+* `check_renpy_syntax.py --chapter 2/3/4/5` → OK.
+* `check_typography.py --lang ru --chapter 2/3/4/5` → OK.
+* `check_placeholders.py --chapter 2/3/4/5` → OK (только ожидаемые `ID_UNNAMED`).
+* `check_voice_transcriptions.py --chapter 2/3/4/5` → OK.
+* `omission_precheck.py` — 0 FULL-пропусков по всем частям.
+
+**Итог по диапазону 2–5:** порт/перевод структурно и технически целостны, статические
+проверки проходят; смысловые и стилистические кандидаты, требующие решения человека,
+остаются задокументированными в evidence с classification + disposition. Диапазон
+принят как **PASS WITH OPEN QUESTIONS (с 11 PARTIAL)** — не как полностью чистый PASS.

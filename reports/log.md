@@ -5389,3 +5389,18 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 * Остальное (комментарии-шапки, FX ч5_9, MISMATCH_JA в JA-TL) — PROPOSED/JA read-only,
   решение человека. Проверки: check_renpy_syntax OK; check_project RESULT: OK.
   Сводка: qa_ch2-5_final.md.
+
+### 2026-11-19 — Финальная комплексная приёмка глав 2–5 (T20261119-015325-35cf)
+
+* 38/38 частей, сведение существующего evidence без перезапуска аудитов (проверены run_id,
+  STATUS: DONE маркеров, MD5/mtime/git-актуальность 11 слоёв). Статусы: 27 PASS WITH OPEN
+  QUESTIONS / 11 PARTIAL, 0 чистых PASS — пробелы не маскируются.
+* Штатные CLI по всем частям: check_project RESULT OK (errors=0), renpy_syntax OK,
+  typography ru OK, placeholders OK (ожидаемые id(K)), voice_transcriptions OK,
+  omission_precheck 0 FULL-пропусков; chapter_pipeline --status сверён без сброса кэша.
+* VOICE_MISSING в check_assets — limitation среды (медиа-junction не смонтированы),
+  не дефект порта; дословные CLI-цели chapter_0N невалидны (использованы 2_1..5_11/2..5).
+* Post-аудитные правки сделали часть смысловых/RU-слоёв stale — помечено, точечный recheck
+  передан ведущему. Runtime НЕ проверялся (только статические скрипты, SDK недоступен).
+* В проект правок не вносилось; созданы только acceptance-evidence и маркеры.
+  Сводка: reports/sma/qa_ch2-5_final.md (финальный раздел с таблицей 38 частей).
