@@ -499,7 +499,7 @@ label ch19_1_scene_748:
 
     # サイト：それは分かってる。
     voice "ch19_s_272"
-    s "I know. I know it, but…{#ch19_s_272}"
+    s "I know. I should know it, but…{#ch19_s_272}"
 
     # [SPRITE   lay1     image=+308, level=160, dir=1A]
     # ルイズ：……。  [voice 6468]

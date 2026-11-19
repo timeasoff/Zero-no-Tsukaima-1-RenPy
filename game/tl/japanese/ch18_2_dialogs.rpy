@@ -315,7 +315,7 @@ translate japanese strings:
     old "I'm not wrong. If we save the academy but Tristain falls, it's all for nothing.{#ch18_l_103}"
     new "ルイズ：全然間違っていないわ。学院を救ってもトリスタニアが陥落してしまったら、元も子もないわ。"
 
-    old "…So that's the mistress's decision. I refuse!{#ch18_s_142}"
+    old "…So that's the mistress's decision, is it? I refuse!{#ch18_s_142}"
     new "サイト：……そうかい。それがご主人様の決断か。俺は断る！"
 
     old "What!?{#ch18_l_104}"

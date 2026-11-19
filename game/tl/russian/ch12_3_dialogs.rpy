@@ -168,8 +168,8 @@ translate russian strings:
     old "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
     new "Говорят, она в основном занята тем, что бьёт дворцовые тарелки и вазы…"
 
-    old "(Even the Princess, who laughed at first, has lately been clutching her head…){#ch12_s_090}"
-    new "Даже принцесса, что сначала смеялась, в последнее время держится за голову…"
+    old "(Even the Princess, who laughed at first, is said to be clutching her head lately…){#ch12_s_090}"
+    new "Даже принцесса, что сначала смеялась, по слухам, в последнее время держится за голову…"
 
     old "(Ah, a ponytail… Which means…){#ch12_s_091}"
     new "А, хвостик… Значит…"

@@ -269,7 +269,7 @@ label ch8_3_425:
     # JA[7466]: ルイズ：わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。  [voice 919]
     voice "ch8_h_068"
-    h "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
+    h "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
     # JA[919]: アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。
     # ルイズ：では、作戦開始ね。  [voice 7467]
     voice "ch8_l_061"
@@ -470,7 +470,7 @@ label ch8_3_425:
     # JA[16174]: ウェザリー：このまま屋上で始末してあげるよ。 / ちょうどお姫様もいるようだしね。
     # ルイズ：おあいにくさま。 / だったらわたし達が、 / あなた達を倒してみせるわ。  [voice 7472]
     voice "ch8_l_066"
-    l "Fine then. If you won't stop, then we'll defeat you. {#ch8_l_066}"
+    l "Sorry to disappoint you. If you won't stop, then we'll defeat you. {#ch8_l_066}"
     # JA[7472]: ルイズ：おあいにくさま。 / だったらわたし達が、 / あなた達を倒してみせるわ。
     # アキナ：へえ、できるのかい？ / あたしの爆弾に、ウェザリー様の魔法。 / 勝てるもんならやってみな。  [voice 259]
     voice "ch8_ak_002"

@@ -10,8 +10,8 @@ translate russian strings:
     old "Why are you so angry all of a sudden? You've been pouting this whole time.{#ch11_s_098}"
     new "С чего ты давно злишься? Ты всё время дуешься."
 
-    old "I'm not angry!{#ch11_l_037}"
-    new "Я не злюсь!"
+    old "I'm not angry or anything!{#ch11_l_037}"
+    new "Я вовсе не злюсь, ничего такого!"
 
     old "See? You're angry.{#ch11_s_099}"
     new "Вот, видишь — злишься."

@@ -222,7 +222,7 @@ translate japanese strings:
     old "Let's think about that once it's all over. Now is not the time to hesitate.{#ch19_l_206}"
     new "ルイズ：それはすべてが終わってから考えましょ。今は、躊躇する時じゃないわ。"
 
-    old "I know. I know it, but…{#ch19_s_272}"
+    old "I know. I should know it, but…{#ch19_s_272}"
     new "サイト：それは分かってる。分かってるはずなんだけどな……。"
 
     old "…{#ch19_l_207}"

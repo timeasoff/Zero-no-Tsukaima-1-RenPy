@@ -16297,7 +16297,7 @@ translate russian strings:
     new "«Сосредоточены» — это ещё мягко сказано. Порядок случайный, но похоже, что они образуют кольцо вокруг дворца."
 
     old "That is far too precise to be coincidence. It must have been deliberate.{#ch6_m_004}"
-    new "Для случайности это слишком точно. Несомненно, всё было сделано намеренно."
+    new "Для случайности это слишком точно. Похоже, всё-таки это было сделано намеренно, не так ли?"
 
     old "Do you see what I mean? I cannot help thinking that these incidents were not the work of a lone criminal.{#ch6_h_011}"
     new "Теперь вы понимаете? Я не могу отделаться от мысли, что за этими происшествиями стоит не один преступник."
@@ -18282,7 +18282,7 @@ translate russian strings:
     old "Princess…{#ch7.3_s_019}"
     new "Принцесса…"
 
-    old "You must take better care of yourself.{#ch7.3_s_020}"
+    old "Please take better care of yourself.{#ch7.3_s_020}"
     new "Пожалуйста, цените себя."
 
     old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"

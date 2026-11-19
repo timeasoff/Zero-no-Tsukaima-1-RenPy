@@ -378,7 +378,7 @@ label ch12_3_scene_539:
     s "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
 
     # サイト：（最初は笑っていたお姫さまも、
-    s "(Even the Princess, who laughed at first, has lately been clutching her head…){#ch12_s_090}"
+    s "(Even the Princess, who laughed at first, is said to be clutching her head lately…){#ch12_s_090}"
 
     # [SPRITE   lay5     hide]
     # [SE       se1      stop=1]

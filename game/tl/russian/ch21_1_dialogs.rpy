@@ -211,7 +211,7 @@ translate russian strings:
     new "Как насчёт того, чтобы стать горничной Кирке?"
 
     old "Don't be ridiculous!! That's out of the question!{#ch21_l_008}"
-    new "Это не шутка!! Об этом не может быть и речи!"
+    new "Да вы что!! Ни в коем случае!!"
 
     old "W-Why? If our place won't do, then what else can we do?{#ch21_s_028}"
     new "П-Почему? Если у нас не выходит, что же ещё делать?"

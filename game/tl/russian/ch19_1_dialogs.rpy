@@ -222,7 +222,7 @@ translate russian strings:
     old "Let's think about that once it's all over. Now is not the time to hesitate.{#ch19_l_206}"
     new "Об этом подумаем, когда всё кончится. Сейчас не время сомневаться."
 
-    old "I know. I know it, but…{#ch19_s_272}"
+    old "I know. I should know it, but…{#ch19_s_272}"
     new "Я вроде понимаю, но…"
 
     old "…{#ch19_l_207}"

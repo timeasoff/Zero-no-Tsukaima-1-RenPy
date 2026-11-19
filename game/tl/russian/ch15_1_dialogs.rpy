@@ -120,8 +120,8 @@ translate russian strings:
     old "Really, are you actually Kirche?{#ch15_l_005}"
     new "Ну же, ты и правда Кирке?"
 
-    old "…It was a rough night.{#ch15_m_001}"
-    new "…Тяжёлая была ночь, да?"
+    old "…You've had a rough time.{#ch15_m_001}"
+    new "…Ты натерпелся."
 
     old "Honestly, why does this keep happening to me…{#ch15_s_021}"
     new "Чёрт, почему именно мне всё это выпадает…"

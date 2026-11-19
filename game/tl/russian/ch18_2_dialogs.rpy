@@ -315,7 +315,7 @@ translate russian strings:
     old "I'm not wrong. If we save the academy but Tristain falls, it's all for nothing.{#ch18_l_103}"
     new "Я не ошиблась. Если академия уцелеет, а Тристания падёт, всё напрасно."
 
-    old "…So that's the mistress's decision. I refuse!{#ch18_s_142}"
+    old "…So that's the mistress's decision, is it? I refuse!{#ch18_s_142}"
     new "…Такова воля госпожи? Я отказываюсь!"
 
     old "What!?{#ch18_l_104}"

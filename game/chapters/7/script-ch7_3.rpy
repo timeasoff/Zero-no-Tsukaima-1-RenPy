@@ -534,7 +534,7 @@ label ch7_3_s1169:
             # [lay5 +390 → s 1]
             $ show_sprites(("h 2 sad", "s 1"))
             voice "ch7.3_s_020"
-            s "You must take better care of yourself.{#ch7.3_s_020}"
+            s "Please take better care of yourself.{#ch7.3_s_020}"
             # JA[9172]: 自分を大切にしてください。
             voice "ch7.3_h_013"
             h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"

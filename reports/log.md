@@ -5279,3 +5279,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - 26 находок (2 ERROR, 10 WARNING, 14 CANDIDATE); FIXED 17 (13 EN с синхронизацией old в JA/RU, 4 RU) с JA/events_full-доказательствами: полярность あんな感じじゃないの, объект スカウト (her), いい話 → предложение, уступка 旅回りだけど, условие 虚無の存在が知られてない今なら, 精神力, ご主人様/使い魔, she/her → he/him, どうしてこんなところにじゃないよ, 会議の最中, 言いつかって, 足音は二つ. MISSING_TRANSLATION (выпавшая мысль ch8) — USER DECISION (нужна новая реплика с голосом). Остальное CANDIDATE/PRESERVED.
 - RECHECK: check_renpy_syntax OK, check_project RESULT: OK errors=0, check_typography --lang ru 0 ошибок, UTF-8 без U+FFFD; JA new не менялся.
 - Отчёт: `reports/sma/ch6-21-b2-repeat.md`.
+
+## 2026-11-19 — Повторный независимый прагматический аудит C, главы 6–21
+
+- Ветка `review/ch6-21`. Новые run_id `20261119-05*`, 16 запусков, старые C-evidence не перезаписывались; A/B/Analyzer/отчёты/log не читались. Проверен текст после повторных A и B.
+- 27 находок (0 ERROR, 8 WARNING, 19 CANDIDATE); FIXED 15 (9 EN с синхронизацией old в JA/RU, 6 RU) с JA-доказательствами: でしょう/らしい/おつかれさま/おあいにくさま/頑張ります/〜てください/冗談じゃない/なんかわよ/そうかい…か/はず/んじゃないかって. Остальное CANDIDATE/PRESERVED.
+- RECHECK: check_renpy_syntax OK, check_project RESULT: OK errors=0, check_typography --lang ru 0 ошибок, UTF-8 без U+FFFD; JA new не менялся.
+- Отчёт: `reports/sma/ch6-21-c2-repeat.md`.

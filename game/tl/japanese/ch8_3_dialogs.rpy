@@ -133,7 +133,7 @@ translate japanese strings:
     old "Understood. {#ch8_t_004}"
     new "了解。"
 
-    old "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
+    old "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
     new "分かりました。 / 足手まといにならないよう、 / 頑張ります。"
 
     old "Then, the plan begins. {#ch8_l_061}"
@@ -247,7 +247,7 @@ translate japanese strings:
     old "I'll just finish this here on the rooftop. It's fortunate that the Princess is here. {#ch8_w_009}"
     new "このまま屋上で始末してあげるよ。 / ちょうどお姫様もいるようだしね。"
 
-    old "Fine then. If you won't stop, then we'll defeat you. {#ch8_l_066}"
+    old "Sorry to disappoint you. If you won't stop, then we'll defeat you. {#ch8_l_066}"
     new "おあいにくさま。 / だったらわたし達が、 / あなた達を倒してみせるわ。"
 
     old "My bomb, and Weatherby-sama's magic — try to beat that if you can. {#ch8_ak_002}"

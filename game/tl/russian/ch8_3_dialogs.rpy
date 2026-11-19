@@ -130,7 +130,7 @@ translate russian strings:
     old "So I'll have Site, the Princess, and Kirche head to the palace. {#ch8_l_60}"
     new "Я с Сайто, Принцесса и Кюрке идём к дворцу."
 
-    old "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
+    old "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
     new "Поняла. Постараюсь не быть помехой — сделаю всё, что смогу."
 
     old "Then, the plan begins. {#ch8_l_061}"
@@ -247,8 +247,8 @@ translate russian strings:
     old "I'll just finish this here on the rooftop. It's fortunate that the Princess is here. {#ch8_w_009}"
     new "Просто закончу это здесь, на крыше. К счастью, Принцесса тоже здесь."
 
-    old "Fine then. If you won't stop, then we'll defeat you. {#ch8_l_066}"
-    new "Хорошо. Если не остановитесь — победим вас мы."
+    old "Sorry to disappoint you. If you won't stop, then we'll defeat you. {#ch8_l_066}"
+    new "Жаль вас огорчать. Если не остановитесь — победим вас мы."
 
     old "My bomb, and Weatherby-sama's magic — try to beat that if you can. {#ch8_ak_002}"
     new "Хм, думаете, получится? Моя бомба и магия Везерли-самы — попробуйте победить, если сможете."

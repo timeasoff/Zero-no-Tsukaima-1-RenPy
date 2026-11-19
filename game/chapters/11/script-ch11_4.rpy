@@ -34,7 +34,7 @@ label ch11_4_scene_500:
     # [SPRITE   lay1     image=+339, level=160, dir=2A]
     # ルイズ：怒ってなんかないわよ！  [voice 7195]
     voice "ch11_l_037"
-    l "I'm not angry!{#ch11_l_037}"
+    l "I'm not angry or anything!{#ch11_l_037}"
 
     # サイト：ほら、怒ってるじゃないか。  [voice 13291]
     voice "ch11_s_099"

@@ -336,7 +336,7 @@ translate russian strings:
     old "Eh?{#ch21_s_151}"
     new "А?"
 
-    old "I keep thinking there must have been another way…{#ch21_si_074}"
+    old "I keep thinking there might have been another way…{#ch21_si_074}"
     new "Я всё думаю, должен был быть другой выход…"
 
     old "And when I think about it, I feel so very heavy-hearted.{#ch21_si_075}"

@@ -657,7 +657,7 @@ label ch18_2_scene_708:
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     # サイト：……そうかい。
     voice "ch18_s_142"
-    s "…So that's the mistress's decision. I refuse!{#ch18_s_142}"
+    s "…So that's the mistress's decision, is it? I refuse!{#ch18_s_142}"
 
     # ルイズ：なによ……！  [voice 6365]
     voice "ch18_l_104"
