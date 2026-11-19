@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(The morning of the operation has finally arrived.){#ch19_s_248}"
     new "（ついに作戦開始の朝が来てしまった）"

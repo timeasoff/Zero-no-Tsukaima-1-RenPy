@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(I shook off the pursuers and somehow made it back to the inn…){#ch14_s_076}"
     new "（追っ手を振り切った俺は、宿までなんとかたどりつくことができた）"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "How about becoming Kirche's maid?{#ch21_1_c_771_1}"
     new "Как насчёт стать горничной Кирке?"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Like some happy fairy tale, clicking your heels three times won't take you back to your world.{#ch12_ak_011}"
     new "Как в счастливой сказке — щёлкни каблуками три раза, и ты не сможешь вернуться в прежний мир."

@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "So, everyone knows the plan, right?{#ch19_l_214}"
     new "ルイズ：それじゃみんな、手筈は分かってるわね？"

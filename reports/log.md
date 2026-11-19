@@ -5248,3 +5248,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - PRESERVED — FUNCTIONAL / CHARACTER VOICE: намеренные повторы, подтверждённые JA и сценой (каламбур «цена/ценность», двойной хедж, благодарность ×2, «Харуна остаётся Харуной», «紺色» ×2 и др.). USER DECISION: рекомендации с риском потери смысла/голоса (ch20 anacoluth) не вносились. Синонимическая ротация не проводилась.
 - RECHECK: `check_renpy_syntax.py` OK, `check_project.py` RESULT: OK errors=0, `check_typography.py --lang ru` по всем 16 главам — 0 ошибок; UTF-8 без U+FFFD; JA new и число пар не менялись.
 - Отчёт: `reports/sma/ch6-21-style-repetition.md`.
+
+## 2026-11-19 — Инженерная целостность Ren'Py, ветвлений и TL, главы 6–21
+
+- Ветка `review/ch6-21`. Аудит по renpy-remaster-api/ps2-source/tl-en-ru/project-checks, справочникам и эталонам 0/1. Запущены check_project (RESULT: OK errors=0), check_renpy_syntax (OK), check_typography --lang ru (0 ошибок), check_placeholders (выборочно).
+- **FIXED 136 файлов TL (гл. 10–21)**: закомментированный заголовок `translate … strings:` раскомментирован в JA/RU — до этого пары old/new не применялись движком. Это устраняет блокер, который фиксировался во всех предыдущих проходах как OPEN.
+- FIXED 10 незакрытых курсивов `_(…)` в `ch10_2_dialogs.rpy` (плюс ранее 1 скобочная мысль и 1 ELLIPSIS в той же части).
+- Ручная сверка: labels 517, дублей 0; «битых» jump-целей нет (10 мнимых — call overlay_screen, ch22, sp_l1); K в overlay_screen глобально уникальны; дублей old внутри языка 0; покрытие EN→old полное, кроме отдельного испорченного файла.
+- FALSE POSITIVE: W1 (8) — old мыслей в некавычечной форме `s (…)`, проверка их корректна. USER DECISION: W6 (452 в диапазоне) — массовая замена id(N) на имена из image_id_map.csv затронет гл. 5/22 и является широкой реорганизацией; не применялось. ???: `ch8_3_thoughs.rpy` содержит JA-текст в old (JA не редактируется; исправление создало бы дубли old) — USER DECISION. Ранее зафиксированные недостижимые сцены ch13 тоже остаются USER DECISION.
+- Отчёт: `reports/sma/ch6-21-structural-integrity.md`.

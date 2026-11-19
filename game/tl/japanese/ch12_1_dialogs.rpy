@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch12_1: scenes 510-524)
 
     old "W-What? Louise, did you cast a spell!?{#ch12_s_001}"

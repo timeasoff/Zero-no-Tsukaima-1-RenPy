@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Ugh…{#ch15_s_001}"
     new "Фух…"

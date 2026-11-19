@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "I slept well{#ch15_1_c_619_1}"
     new "Выспался хорошо"

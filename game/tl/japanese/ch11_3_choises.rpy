@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch11_3: scenes 478-499)
 
     old "Something's off.{#ch11_3_c_478_1}"

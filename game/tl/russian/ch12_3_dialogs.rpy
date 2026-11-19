@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Akina!{#ch12_s_065}"
     new "Акина!"

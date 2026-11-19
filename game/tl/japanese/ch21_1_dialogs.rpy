@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(A few days have passed since the play ended. Suddenly, the bomber stopped showing up.){#ch21_s_001}"
     new "（演劇が終わってから、かれこれ数日。いきなり、爆弾使いが現れなくなってしまった）"

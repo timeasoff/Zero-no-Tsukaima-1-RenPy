@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Whew. But the problem is what we do now. Why reveal herself now?{#ch15_l_024}"
     new "ルイズ：ふう、でも問題はこれからどうするかね。なぜ、いまさら正体をばらしたのかしら？"

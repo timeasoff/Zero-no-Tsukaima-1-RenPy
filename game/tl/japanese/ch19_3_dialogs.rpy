@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "I'm surprised. That you made it this far…{#ch19_w_005}"
     new "ウェザリー：驚いたな。まさかここまで来るとは……。"

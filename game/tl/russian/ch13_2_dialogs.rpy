@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Anybody know anything?{#ch13_s_051}"
     new "Интересно, знает ли кто-нибудь какую-нибудь информацию…"

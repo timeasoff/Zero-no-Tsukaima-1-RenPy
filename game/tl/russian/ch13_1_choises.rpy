@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Object.{#ch13_1_c_549_1}"
     new "Возразить."

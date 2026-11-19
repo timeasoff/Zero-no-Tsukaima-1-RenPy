@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Ah, perfect! Good, great, perfect, Siesta!{#ch20_s_001}"
     new "Ах, идеально! Хорошо, отлично, великолепно, Сиэста!"

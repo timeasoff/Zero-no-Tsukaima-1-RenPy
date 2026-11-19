@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "…All right. I owe you one.{#ch12_1_c_510_1}"
     new "…Ладно. Я в долгу."

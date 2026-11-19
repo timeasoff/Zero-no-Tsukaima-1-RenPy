@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "R-Right! I'll come back to help right away!{#ch18_s_163}"
     new "サイト：わ、分かった。すぐに助けに戻るからな！"

@@ -50,6 +50,12 @@
 > подтверждены JA и сохранены. Evidence: `reports/sma/ch6-21-style-repetition.md`.
 > Галочки не менялись.
 
+> **2026-11-19, ветка `review/ch6-21`:** инженерная целостность — FIXED 136 TL-файлов
+> (раскомментированы `translate … strings:` в гл. 10–21, устранён блокер неприменяемых
+> переводов) и 10 незакрытых курсивов в ch10_2. `check_project.py` OK errors=0,
+> `check_renpy_syntax.py` OK. W6 (id-заглушки) и ch13 jump-цели — USER DECISION.
+> Evidence: `reports/sma/ch6-21-structural-integrity.md`. Галочки не менялись.
+
 ## Соответствие: проектная папка ↔ источник PS2
 
 | Проектная папка | Источник PS2 | Название |

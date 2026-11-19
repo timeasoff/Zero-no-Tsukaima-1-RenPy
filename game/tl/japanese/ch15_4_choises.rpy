@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Cut her down?{#ch15_4_c_655_1}"
     new "き、斬れって？"

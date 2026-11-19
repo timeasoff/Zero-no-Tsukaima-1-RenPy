@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Tease her{#ch21_4_c_1493_1}"
     new "じらす"

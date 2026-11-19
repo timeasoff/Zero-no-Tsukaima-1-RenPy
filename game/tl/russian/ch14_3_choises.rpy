@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Corridor{#ch14_3_c_599_1}"
     new "Коридор"

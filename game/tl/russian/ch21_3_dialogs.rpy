@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Well, I'll handle the arrangements for the contest. Look forward to it.{#ch21_k_027}"
     new "Что ж, я позабочусь о подготовке состязания. Ждите с нетерпением."

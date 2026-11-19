@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Louise and I split up?{#ch19_1_c_739_1}"
     new "Мы с Луизой действуем раздельно?"

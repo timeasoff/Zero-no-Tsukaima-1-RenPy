@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_4: scenes 500-509)
 
     old "That was when I…{#ch11_4_c_500_1}"

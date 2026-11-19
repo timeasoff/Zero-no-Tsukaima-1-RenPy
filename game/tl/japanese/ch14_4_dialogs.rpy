@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(We dragged Kirche, who kept calling me 'big brother', back to the inn…){#ch14_s_112}"
     new "（お兄ちゃんと連呼するキュルケをなんとか引きずりながら、俺達は宿に戻った）"

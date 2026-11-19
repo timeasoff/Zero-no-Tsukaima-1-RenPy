@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "I'm surprised. That you made it this far…{#ch19_w_005}"
     new "Удивлена. Что вы дошли так далеко…"

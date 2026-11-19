@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(I found a few small leads, but nothing really important…){#ch13_s_100}"
     new "Я нашёл пару мелких зацепок, но ничего важного…"

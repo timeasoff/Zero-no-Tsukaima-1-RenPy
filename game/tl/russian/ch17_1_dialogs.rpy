@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(A few days since the play ended. No leads on the bomb-thrower, only time passing…){#ch17_s_001}"
     new "Прошло несколько дней после спектакля. Ни зацепок о бомбисте, только время идёт…"

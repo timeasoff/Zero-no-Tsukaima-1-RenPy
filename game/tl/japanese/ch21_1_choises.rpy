@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "How about becoming Kirche's maid?{#ch21_1_c_771_1}"
     new "キュルケのメイドってのは？"

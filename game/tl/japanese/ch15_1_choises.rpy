@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "I slept well{#ch15_1_c_619_1}"
     new "よく眠れたよ"

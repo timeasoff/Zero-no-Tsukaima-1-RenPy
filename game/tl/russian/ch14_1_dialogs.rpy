@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "So, how's the team-up with Kirche going?{#ch14_l_001}"
     new "Так, как у тебя дела с командой Кирке?"

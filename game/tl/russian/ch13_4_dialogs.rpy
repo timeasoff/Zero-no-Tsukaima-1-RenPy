@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Ah, what lovely weather…{#ch13_k_125}"
     new "Ах, какая прекрасная погода…"

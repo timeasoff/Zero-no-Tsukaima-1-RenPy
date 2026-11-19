@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Is there such a place in the academy?{#ch18_4_c_728_1}"
     new "Неужели в академии есть такое место?"

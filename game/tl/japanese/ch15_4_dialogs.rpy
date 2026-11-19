@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Come on, let's go! The castle's high ground is our goal!{#ch15_l_084}"
     new "ルイズ：さあ、行きましょう！目指すは城の高台よ！"

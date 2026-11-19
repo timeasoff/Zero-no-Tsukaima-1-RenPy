@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Look away from Kirche{#ch13_4_c_1184_1}"
     new "Отвести взгляд от Кирке"

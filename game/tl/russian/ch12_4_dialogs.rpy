@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(Once the enemy loses morale and discipline, their units crumble surprisingly easily…){#ch12_s_135}"
     new "Потерявшие боевой дух и порядок вражеские части рассыпаются удивительно легко…"

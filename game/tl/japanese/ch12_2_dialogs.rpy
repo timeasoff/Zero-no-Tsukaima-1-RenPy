@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Like some happy fairy tale, clicking your heels three times won't take you back to your world.{#ch12_ak_011}"
     new "アキナ：どこかの幸せな童話のように、かかとを三度鳴らしても元の世界には戻れない。"

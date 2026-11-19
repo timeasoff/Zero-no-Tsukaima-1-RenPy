@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Even so, we have no choice but to do it, huh.{#ch15_s_073}"
     new "サイト：それでもやるしかないか。"

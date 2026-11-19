@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Ah, perfect! Good, great, perfect, Siesta!{#ch20_s_001}"
     new "サイト：いやぁ、完璧！グッドでグゥレイトでパーフェクツだよシエスタ！！"

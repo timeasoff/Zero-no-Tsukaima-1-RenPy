@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Come on, let's go! The castle's high ground is our goal!{#ch15_l_084}"
     new "Ну же, идём! Нам нужна высота замка!"

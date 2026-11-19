@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Not just a rat, you say?{#ch14_1_c_578_1}"
     new "ただのネズミじゃないかも、って？"

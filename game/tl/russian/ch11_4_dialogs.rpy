@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_4: scenes 500-509)
 
     old "Whew, we finally made it to Tristain.{#ch11_s_097}"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "What are you planning, Kirche?{#ch21_2_c_781_1}"
     new "Что ты задумала, Кирке?"

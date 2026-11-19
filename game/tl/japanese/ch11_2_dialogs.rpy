@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch11_2: scenes 472-477, 81 dialogue lines)
 
     old "No good. / She's nowhere.{#ch11_s_013}"

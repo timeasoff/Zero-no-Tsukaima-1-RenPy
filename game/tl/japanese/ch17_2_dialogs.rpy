@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "I have a special request for Louise and her familiar. That's why I called you to the castle.{#ch17_h_023}"
     new "アンリエッタ：ルイズと使い魔さんには、折り入ってお願いしたいことがあります。そのために城に来ていただいたのですから。"

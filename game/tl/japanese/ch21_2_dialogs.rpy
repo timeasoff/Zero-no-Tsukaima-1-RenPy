@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "F-Forget about that! Never mind my laundry! It's about why Siesta was acting strange!{#ch21_l_034}"
     new "ルイズ：と、とにかく！わたしの洗濯はどうでもいいの！シエスタがどうしておかしくなったかでしょー！"

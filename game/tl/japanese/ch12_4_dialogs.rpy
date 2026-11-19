@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(Once the enemy loses morale and discipline, their units crumble surprisingly easily…){#ch12_s_135}"
     new "（ひとたび士気と統制を失った敵の部隊は呆気ないほどにもろく……）"

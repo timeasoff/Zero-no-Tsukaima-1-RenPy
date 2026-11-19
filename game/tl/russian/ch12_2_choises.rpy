@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Believe Louise.{#ch12_2_c_527_1}"
     new "Поверить Луизе."

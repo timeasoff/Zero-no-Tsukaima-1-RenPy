@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(Akina barricaded herself in the headmaster's office.){#ch18_s_128}"
     new "Акина заперлась в кабинете директора."

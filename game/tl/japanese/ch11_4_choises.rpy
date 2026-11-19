@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch11_4: scenes 500-509)
 
     old "That was when I…{#ch11_4_c_500_1}"

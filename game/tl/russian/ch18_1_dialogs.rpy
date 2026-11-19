@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "We seem to have slipped through the encirclement. That's where our escort ends, Valliere-sama, Saito-sama.{#ch18_soldier_008}"
     new "Кажется, мы прорвались через кольцо. Здесь наша охрана заканчивается, мадемуазель Вальер, Сайто-сама."

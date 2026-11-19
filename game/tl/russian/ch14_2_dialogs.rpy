@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "…{#ch14_s_061}"
     new "…"

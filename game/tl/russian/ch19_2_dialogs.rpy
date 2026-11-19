@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "So, everyone knows the plan, right?{#ch19_l_214}"
     new "Итак, все помнят план?"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Whew. But the problem is what we do now. Why reveal herself now?{#ch15_l_024}"
     new "Фух. Но главное — что нам теперь делать. Почему она раскрылась именно сейчас?"

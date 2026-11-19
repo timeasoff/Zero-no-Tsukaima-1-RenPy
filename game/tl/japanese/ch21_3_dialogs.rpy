@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Well, I'll handle the arrangements for the contest. Look forward to it.{#ch21_k_027}"
     new "キュルケ：それじゃあ、勝負の段取りはあたしが何とかするから。楽しみに待ってなさい。"

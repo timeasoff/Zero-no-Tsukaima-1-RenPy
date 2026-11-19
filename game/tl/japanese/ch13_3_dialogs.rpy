@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(I found a few small leads, but nothing really important…){#ch13_s_100}"
     new "（小さな情報はいくつかあったけど、あまり重要な情報は集められないなぁ）"

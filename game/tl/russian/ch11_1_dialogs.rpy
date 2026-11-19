@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_1: scenes 467-471, 32 dialogue lines)
     old "Good morning, Saito-san, Miss Varière!{#ch11_si_001}"
     new "Сайто-сан, мисс Вальер. Доброе утро!"

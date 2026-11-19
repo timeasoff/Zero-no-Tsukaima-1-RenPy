@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(We dragged Kirche, who kept calling me 'big brother', back to the inn…){#ch14_s_112}"
     new "Мы притащили Кирке, которая всё время звала меня «братишкой», обратно в гостиницу…"

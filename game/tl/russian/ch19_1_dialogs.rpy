@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(The morning of the operation has finally arrived.){#ch19_s_248}"
     new "Вот и наступило утро дня операции."

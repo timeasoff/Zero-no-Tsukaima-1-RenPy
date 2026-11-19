@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "F-Forget about that! Never mind my laundry! It's about why Siesta was acting strange!{#ch21_l_034}"
     new "Т-Так, неважно! Забудьте про мою стирку! Дело в том, почему Сиэста вела себя странно!"

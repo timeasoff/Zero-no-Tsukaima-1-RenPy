@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "I have a special request for Louise and her familiar. That's why I called you to the castle.{#ch17_h_023}"
     new "У меня особая просьба к Луизе и её фамильяру. Поэтому я и позвала вас в замок."

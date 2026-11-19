@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Yoohoo~, darling.{#ch16_k_001}"
     new "キュルケ：やっほ～～、ダーリン。"

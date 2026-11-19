@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(I wonder what Tabitha's planning to cook…){#ch21_s_168}"
     new "（タバサってどんな料理を作るつもりなんだろう……）"

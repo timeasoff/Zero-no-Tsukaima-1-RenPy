@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Fine, let's clear them out fast!{#ch18_3_c_718_1}"
     new "Ладно, быстро покончим с ними!"

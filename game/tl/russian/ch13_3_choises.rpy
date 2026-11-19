@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Easy for you to say…{#ch13_3_c_568_1}"
     new "Т-Даже если ты так говоришь…"

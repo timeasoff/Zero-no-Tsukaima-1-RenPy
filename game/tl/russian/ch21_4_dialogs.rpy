@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(I wonder what Tabitha's planning to cook…){#ch21_s_168}"
     new "Интересно, что Табаса собирается готовить…"

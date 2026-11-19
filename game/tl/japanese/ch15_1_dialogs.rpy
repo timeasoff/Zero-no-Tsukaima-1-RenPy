@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Ugh…{#ch15_s_001}"
     new "サイト：ふが……。"

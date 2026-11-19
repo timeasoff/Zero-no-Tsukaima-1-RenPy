@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Yoohoo~, darling.{#ch16_k_001}"
     new "Йо-хо~~, дорогой."

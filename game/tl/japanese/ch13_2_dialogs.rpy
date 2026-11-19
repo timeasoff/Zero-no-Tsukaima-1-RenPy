@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Anybody know anything?{#ch13_s_051}"
     new "サイト：何か、情報を知ってる人いないかな。"

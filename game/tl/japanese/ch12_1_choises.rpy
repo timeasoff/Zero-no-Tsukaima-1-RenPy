@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "…All right. I owe you one.{#ch12_1_c_510_1}"
     new "……分かった。恩に着る"

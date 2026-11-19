@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Haruna? No way!{#ch18_1_c_696_1}"
     new "春奈が？　まさか！"

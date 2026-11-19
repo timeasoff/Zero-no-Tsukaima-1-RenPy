@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Easy for you to say…{#ch13_3_c_568_1}"
     new "そんなこといわれても……"

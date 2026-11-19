@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(I shook off the pursuers and somehow made it back to the inn…){#ch14_s_076}"
     new "Я оторвался от преследователей и кое-как добрался до гостиницы…"

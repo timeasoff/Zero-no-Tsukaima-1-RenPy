@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch10_2: scenes 451-466, 136 dialogue lines)
     old "Miss Varière. / I was in your care for a short time. {#ch10_si_032}"
     new "シエスタ：ミス・ヴァリエール。 / 短い間でしたがお世話になりました。"

@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Give in{#ch14_4_c_609_1}"
     new "屈するべき"

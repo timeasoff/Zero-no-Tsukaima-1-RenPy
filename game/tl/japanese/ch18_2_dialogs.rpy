@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(Akina barricaded herself in the headmaster's office.){#ch18_s_128}"
     new "（アキナは結局、学院長室に立てこもってしまった）"

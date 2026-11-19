@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Siesta, the favorite{#ch21_3_c_791_1}"
     new "Сиэста — фаворит"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_3: scenes 478-499)
 
     old "She's gone, isn't she.{#ch11_l_014}"

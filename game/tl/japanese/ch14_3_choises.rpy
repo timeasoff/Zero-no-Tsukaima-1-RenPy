@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Corridor{#ch14_3_c_599_1}"
     new "廊下"

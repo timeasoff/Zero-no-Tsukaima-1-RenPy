@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Right, let's try to reach the professor's lab somehow. We have nowhere else to go.{#ch18_s_184}"
     new "Ладно, попробуем добраться до лаборатории сэнсэя. Другого выхода нет."

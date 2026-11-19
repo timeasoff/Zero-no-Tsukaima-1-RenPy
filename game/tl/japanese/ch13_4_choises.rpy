@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Look away from Kirche{#ch13_4_c_1184_1}"
     new "キュルケから視線を離す"

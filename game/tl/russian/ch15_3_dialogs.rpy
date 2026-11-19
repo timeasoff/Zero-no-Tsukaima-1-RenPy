@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Even so, we have no choice but to do it, huh.{#ch15_s_073}"
     new "Всё равно, похоже, придётся."

@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Right, let's try to reach the professor's lab somehow. We have nowhere else to go.{#ch18_s_184}"
     new "サイト：よし、なんとかして先生の研究室まで行ってみよう。他に行くあてはないし。"

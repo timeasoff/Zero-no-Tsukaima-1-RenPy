@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "We seem to have slipped through the encirclement. That's where our escort ends, Valliere-sama, Saito-sama.{#ch18_soldier_008}"
     new "味方Ａ：どうやら包囲網を抜けることができたようです。では、ヴァリエール様、サイト様。護衛はここまでとさせてください。"
