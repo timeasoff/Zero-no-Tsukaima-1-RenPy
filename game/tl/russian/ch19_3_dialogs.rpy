@@ -64,7 +64,7 @@ translate russian strings:
     new "Н-Нет… Но ты всё это время был заперт в кабинете директора…"
 
     old "You shouldn't underestimate my Mortosgnir.{#ch19_o_002}"
-    new "Не стоит недооценивать моего Мортогнира."
+    new "Не стоит недооценивать моего Мотсогнира."
 
     old "At full strength, he could round-trip to the capital in a day—not just the academy.{#ch19_o_003}"
     new "В полной форме он за день сходит туда и обратно не только до академии, но и до столицы."

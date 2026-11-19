@@ -1015,3 +1015,8 @@ extra-блок 1063/1084–1103.
 - [ ] Пройдены все `project-checks`
 
 ---
+
+> **2026-11-19, ветка `review/ch6-21`:** финальная приёмка 47 частей — PASS WITH OPEN
+> QUESTIONS. Статические проверки OK (errors=0); медиа- junction вне контейнера,
+> runtime/SDK lint не запускались. Открытые вопросы (W6, defer/TNDL, voice-id) — в
+> `reports/sma/ch6-21-final-acceptance.md` и `reports/log.md`.

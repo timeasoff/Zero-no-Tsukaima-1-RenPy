@@ -158,7 +158,7 @@ translate russian strings:
     new "Прекрасно! / Поистине достойное поведение!"
 
     old "First, as Miss Vallière and Saito-kun say, / it might be best to start as a maid apprentice. {#ch10_c_002}"
-    new "Прежде всего, как говорят мисс Валье и Сайто-кун, / лучше начать с обучения горничной."
+    new "Прежде всего, как говорят мисс Вальер и Сайто-кун, / лучше начать с обучения горничной."
 
     old "Indeed. / Colbert. / I'll leave the procedures to you. {#ch10_o_002}"
     new "Верно. / Кольбер. / Процедуры поручаю тебе."
@@ -494,7 +494,7 @@ translate russian strings:
     new "М-м. / Я это хорошо знаю. / Одной Луизы достаточно, чтобы я вымотался."
 
     old "Miss Vallière might be a different kind of hard… {#ch10_si_030}"
-    new "У мисс Валье, наверное, другой вид трудностей…"
+    new "У мисс Вальер, наверное, другой вид трудностей…"
 
     old "Huh? / R-really? {#ch10_s_057}"
     new "А? / П-правда?"

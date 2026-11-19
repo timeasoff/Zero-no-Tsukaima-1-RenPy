@@ -5257,3 +5257,11 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - Ручная сверка: labels 517, дублей 0; «битых» jump-целей нет (10 мнимых — call overlay_screen, ch22, sp_l1); K в overlay_screen глобально уникальны; дублей old внутри языка 0; покрытие EN→old полное, кроме отдельного испорченного файла.
 - FALSE POSITIVE: W1 (8) — old мыслей в некавычечной форме `s (…)`, проверка их корректна. USER DECISION: W6 (452 в диапазоне) — массовая замена id(N) на имена из image_id_map.csv затронет гл. 5/22 и является широкой реорганизацией; не применялось. ???: `ch8_3_thoughs.rpy` содержит JA-текст в old (JA не редактируется; исправление создало бы дубли old) — USER DECISION. Ранее зафиксированные недостижимые сцены ch13 тоже остаются USER DECISION.
 - Отчёт: `reports/sma/ch6-21-structural-integrity.md`.
+
+## 2026-11-19 — Финальная комплексная приёмка, главы 6–21
+
+- Ветка `review/ch6-21`. Приёмка 47 частей после всех предыдущих циклов; аудиты не перезапускались механически (проверены run_id/evidence/вход, изменённый текст покрыт последующими слоями). Итог: **PASS WITH OPEN QUESTIONS** для диапазона.
+- Команды: check_project OK errors=0; check_renpy_syntax OK (5 NO_RPY); check_typography --lang ru 0 ошибок по всем главам; check_placeholders — только предупреждения; check_assets — VOICE_MISSING на все ogg (внешний junction ZnT1_MEDIA недоступен в контейнере — ограничение среды, не проектная ошибка); check_voice_transcriptions — WARN TRANSCRIPT_ROW_STILL_IN_QUEUE; voice ID ↔ manifest — 0 пропусков; chapter_pipeline --status — все фазы `[ ]` (кэш не использовался, НЕ сбрасывался).
+- FIXED в рамках приёмки: 5 терминологических несоответствий (Везерли ×3, Вальер ×2, Мотсогнир) — после правок check_project/syntax OK.
+- Открытые: USER DECISION (W6 id-заглушки, недостижимые сцены ch13, defer extra/TNDL, omission voice 4601/4602 и 13655 и сцен 681–683); ??? (JA-текст в old ч8_3_thoughs, voice-id mismatch 929/930 и 11840/11841 и 3324/3327); pipeline cache не заполнен. Runtime/SDK lint НЕ запускались — не заявляются.
+- Отчёт: `reports/sma/ch6-21-final-acceptance.md`; статусы добавлены в отчёты всех 47 частей.
