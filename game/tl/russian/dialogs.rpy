@@ -16297,7 +16297,7 @@ translate russian strings:
     new "«Сосредоточены» — это ещё мягко сказано. Порядок случайный, но похоже, что они образуют кольцо вокруг дворца."
 
     old "That is far too precise to be coincidence. It must have been deliberate.{#ch6_m_004}"
-    new "Для случайности это слишком точное совпадение. Несомненно, всё было сделано намеренно."
+    new "Для случайности это слишком точно. Несомненно, всё было сделано намеренно."
 
     old "Do you see what I mean? I cannot help thinking that these incidents were not the work of a lone criminal.{#ch6_h_011}"
     new "Теперь вы понимаете? Я не могу отделаться от мысли, что за этими происшествиями стоит не один преступник."
@@ -17018,7 +17018,7 @@ translate russian strings:
     new "Да нет. Я вообще ничего не знаю об этом мире… то есть об этой стране."
 
     old "Ah, now that you mention it, that is true."
-    new "А, точно. Ты и правда права."
+    new "А, точно. Ты права."
 
     old "Yes?{#ch6_2_d006}"
     new "Да?"
@@ -17572,7 +17572,7 @@ translate russian strings:
     new "Тогда как делимся?"
 
     old "Given the situation, pairs of two would do fine, no?{#ch7_s_016}"
-    new "Раз уж так вышло, пойдём парами — по двое. Так пойдёт?"
+    new "Раз уж так вышло, пойдём по двое. Так пойдёт?"
 
     old "True enough. Then I'm going with Tabitha.{#ch7_k_017}"
     new "Согласна. Тогда я иду с Табитой."
@@ -18214,7 +18214,7 @@ translate russian strings:
     new "Именно. Они нас недооценили — за это придётся отплатить."
 
     old "So in the end, there was nothing at all that I could manage, was there.{#ch7.3_h_003}"
-    new "В итоге выходит, я так совершенно ничего и не смогла, да?"
+    new "В итоге выходит, я так ничего и не смогла, да?"
 
     old "I'm sorry, Princess. Our investigation couldn't quite keep up.{#ch7.3_s_013}"
     new "Простите, принцесса. Наше расследование не поспевало."
@@ -18268,7 +18268,7 @@ translate russian strings:
     new "Из-за размышлений?"
 
     old "Yes. Every time I catch myself, I begin to think it over. This entire incident was, in the end, all my…{#ch7.3_h_010}"
-    new "Да. Стоит остаться одной — и начинаю думать. Всё это происшествие целиком и полностью моя…"
+    new "Да. Стоит остаться одной — и начинаю думать. Всё это происшествие целиком моя…"
 
     old "…that it was a blunder of my own making, I can't help but think. And when I think of that…{#ch7.3_h_011}"
     new "…не моя ли вина? Стоит об этом подумать…"

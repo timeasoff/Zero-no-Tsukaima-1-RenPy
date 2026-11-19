@@ -223,7 +223,7 @@
     new "Ничего не видеть — мука, да? Досадно, да? По чести, это пытка."
 
     old "Well, that's the real purpose of this punishment, though.{#ch20_l_030}"
-    new "Ну, в этом и заключается истинная цель этого наказания."
+    new "Ну, в этом и заключается истинная цель наказания."
 
     old "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
     new "Если усвоишь урок — больше не смей пренебрегать мной, ладно."

@@ -43,7 +43,7 @@
     new "Но, приятель, даже если ты решил верить…"
 
     old "Buying time until Louise's Void chant finishes is going to be tough, huh.{#ch15_s_080}"
-    new "Выиграть время, пока Луиза читает Пустоту, будет непросто, да."
+    new "Выиграть время, пока Луиза читает заклинание Пустоты, будет непросто, да."
 
     old "If Louise is out of it, the main force will be just me and Tabitha.{#ch15_s_081}"
     new "Если Луиза выбывает, основные силы — это я и Табаса."
@@ -166,7 +166,7 @@
     new "Ч-Что ты делаешь, глупый пёс!"
 
     old "D-Don't get the wrong idea! I just fed it to her mouth-to-mouth!{#ch15_s_099}"
-    new "Н-Не подумай ничего такого! Я просто скормил ей с губ на губы!"
+    new "Н-Не подумай ничего такого! Я просто скормил ей лекарство изо рта в рот!"
 
     old "My mouth tastes bitter…!{#ch15_k_031}"
     new "У меня во рту горько…!"

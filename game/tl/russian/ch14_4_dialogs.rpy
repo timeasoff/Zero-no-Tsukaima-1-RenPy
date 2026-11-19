@@ -235,7 +235,7 @@
     new "Н-Ну-ну…"
 
     old "Hiraga-kun, even in another world, crime is still wrong.{#ch14_ha_006}"
-    new "Хирага-кун, даже в другом мире преступление остаётся преступлением."
+    new "Хирага-кун, даже в другом мире преступление — это плохо."
 
     old "Hold on, you two. What do you think I am?{#ch14_s_140}"
     new "Подождите, вы двое. Вы меня за кого принимаете?!"

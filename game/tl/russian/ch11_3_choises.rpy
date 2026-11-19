@@ -17,7 +17,7 @@
     new "Может, лучше отнести?"
 
     old "We don't need it, do we?{#ch11_3_c_485_3}"
-    new "Может, она не нужна?{#ch11_3_c_485_3}"
+    new "Может, она не нужна?"
 
     old "I have to return the notebook to Haruna.{#ch11_3_c_490_1}"
     new "Нужно отнести блокнот Харуне."

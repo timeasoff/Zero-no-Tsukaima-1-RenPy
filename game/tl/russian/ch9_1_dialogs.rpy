@@ -188,7 +188,7 @@ translate russian strings:
     new "Сайто — фамильяр Луизы, да? Вот и заботятся о нём. А я — нет…"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
-    new "Ну, это да… / Но мы ведь, наверное, единственные японцы / в этом мире, нас всего двое."
+    new "Ну, это да… / Но мы ведь, наверное, единственные японцы / в этом мире — нас двое."
 
     old "Besides, we're not strangers to each other. / So maybe I should work here… {#ch9_s_043}"
     new "К тому же мы друг другу не чужие. / Так что, может, мне стоит здесь работать…"

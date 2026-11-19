@@ -224,7 +224,7 @@
     new "Н-Нет! Пожалуйста, прекратите!"
 
     old "Now, sleep. Rest your exhausted body.{#ch11_w_025}"
-    new "Ну же, спи. Отдохни своё измученное тело."
+    new "Ну же, спи. Дай отдохнуть своему измученному телу."
 
     old "It's fine. When you wake, you'll be someone else. You'll even forget you were Haruna.{#ch11_w_026}"
     new "Всё хорошо. Когда ты проснёшься, ты станешь другой. Ты даже забудешь, что была Харуной."

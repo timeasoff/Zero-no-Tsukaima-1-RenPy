@@ -205,7 +205,7 @@
     new "Да-да. До встречи, дорогой, Табаса."
 
     old "You're a cocky familiar who doesn't listen to your mistress!{#ch19_l_246}"
-    new "Ты дерзкий непослушный фамильяр, который не слушает госпожу!"
+    new "Ты дерзкий фамильяр, который не слушает госпожу!"
 
     old "So once the academy is back to normal and the capital is saved, I'm going to re-educate you, absolutely!{#ch19_l_247}"
     new "Так что когда академия вернётся в норму и столица будет спасена, я тебя непременно перевоспитаю!"

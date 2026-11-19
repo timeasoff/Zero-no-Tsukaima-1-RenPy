@@ -15,7 +15,7 @@
     old "Hiraga-kun... that's awful. {#ch10_h_065}"
     new "Хирага-кун… это жестоко."
     old "Let me know if you need anything, Siesta. / I'm partly responsible too, / so I'll buy replacements if anything's missing. {#ch10_l_009}"
-    new "Если что-то понадобится, говори, Сиеста. / Я тоже в этом частично виновата, / так что куплю необходимое, если чего не хватит."
+    new "Если что-то понадобится, говори, Сиеста. / Я тоже в этом частично виновата, / так что куплю то, чего не хватит."
     old "I see. / Then I'll help with the move. {#ch10_s_065}"
     new "Понятно. / Тогда я помогу с переездом."
     old "Eh? / Is that OK? {#ch10_si_036}"

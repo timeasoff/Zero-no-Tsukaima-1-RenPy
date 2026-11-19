@@ -247,7 +247,7 @@
     new "Мм…"
 
     old "Something's odd about you two. I sense a strange atmosphere.{#ch19_si_004}"
-    new "Что-то странное в вас двоих. Я чувствую странное ощущение."
+    new "Что-то странное в вас двоих. Я чувствую странную атмосферу."
 
     old "N-No, there's nothing! Right, everyone?{#ch19_s_329}"
     new "Н-Нет, ничего нет! Верно, все?"
