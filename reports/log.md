@@ -5414,3 +5414,12 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
   女王陛下→Её Высочество, アバウト→bold/смелый, 誠意が通じる→make up for it и др.).
 * A — только evidence: правки не применялись, решение за Analyzer Фазы 2 по JA.
   check_project RESULT: OK. Сводка: reports/sma/qa_ch2-5_final.md.
+
+### 2026-11-19 — Свежий независимый проход B (раунд 2), гл. 2–5 (T20261119-053404-e810)
+
+* По правилу §5: новый проход B-эквивалента с уникальными run_id `20261119-b2-*`;
+  старые evidence раунда 1 не перезаписаны. 38/38 частей, ~5072 единицы, ~101 finding
+  (14 ERROR, 48 WARNING, 39 CANDIDATE; JA→RU ~46, JA→EN ~52). Изоляция A/C/прошлого B соблюдена.
+* Подтверждены ключевые B-находки: «Chase after Siesta», «Not at all», «when we escaped»,
+  «Louise-san would, anyway», «Дремала», «your great-grandfather», актант «нас окружили»,
+  пропуски 双月 в EN. B — только evidence, правки не применялись; check_project OK.
