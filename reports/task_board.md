@@ -682,3 +682,51 @@
 | S37 | [x] done | `manual` | `5_10` | ACC 5_10 |
 | S38 | [x] done | `manual` | `5_11` | ACC 5_11 |
 
+## T20261119-041149-3d15 — [closed] (закрыто 38 из 38)
+
+* Запрос: Fresh independent Semantic Audit A round 2 (lexical accuracy) JA->EN/JA->RU for all ch2-5 parts
+* Цель: `2`
+* Создана: 2026-11-19 04:11:49
+* Закрыта: 2026-11-19 05:31:51
+
+| # | статус | режим | цель | заголовок |
+|---|---|---|---|---|
+| S1 | [x] done | `manual` | `2_1` | A2 2_1 |
+| S2 | [x] done | `manual` | `2_2` | A2 2_2 |
+| S3 | [x] done | `manual` | `2_3` | A2 2_3 |
+| S4 | [x] done | `manual` | `2_4` | A2 2_4 |
+| S5 | [x] done | `manual` | `2_4b` | A2 2_4b |
+| S6 | [x] done | `manual` | `2_4c` | A2 2_4c |
+| S7 | [x] done | `manual` | `2_5` | A2 2_5 |
+| S8 | [x] done | `manual` | `2_5b` | A2 2_5b |
+| S9 | [x] done | `manual` | `2_6` | A2 2_6 |
+| S10 | [x] done | `manual` | `2_7` | A2 2_7 |
+| S11 | [x] done | `manual` | `2_8` | A2 2_8 |
+| S12 | [x] done | `manual` | `3_1` | A2 3_1 |
+| S13 | [x] done | `manual` | `3_2` | A2 3_2 |
+| S14 | [x] done | `manual` | `3_3` | A2 3_3 |
+| S15 | [x] done | `manual` | `3_4` | A2 3_4 |
+| S16 | [x] done | `manual` | `3_5` | A2 3_5 |
+| S17 | [x] done | `manual` | `3_6` | A2 3_6 |
+| S18 | [x] done | `manual` | `3_7` | A2 3_7 |
+| S19 | [x] done | `manual` | `3_8` | A2 3_8 |
+| S20 | [x] done | `manual` | `3_9` | A2 3_9 |
+| S21 | [x] done | `manual` | `4_1` | A2 4_1 |
+| S22 | [x] done | `manual` | `4_2` | A2 4_2 |
+| S23 | [x] done | `manual` | `4_2b` | A2 4_2b |
+| S24 | [x] done | `manual` | `4_3` | A2 4_3 |
+| S25 | [x] done | `manual` | `4_4` | A2 4_4 |
+| S26 | [x] done | `manual` | `4_5` | A2 4_5 |
+| S27 | [x] done | `manual` | `4_6` | A2 4_6 |
+| S28 | [x] done | `manual` | `5_1` | A2 5_1 |
+| S29 | [x] done | `manual` | `5_2` | A2 5_2 |
+| S30 | [x] done | `manual` | `5_3` | A2 5_3 |
+| S31 | [x] done | `manual` | `5_4` | A2 5_4 |
+| S32 | [x] done | `manual` | `5_5` | A2 5_5 |
+| S33 | [x] done | `manual` | `5_6` | A2 5_6 |
+| S34 | [x] done | `manual` | `5_7` | A2 5_7 |
+| S35 | [x] done | `manual` | `5_8` | A2 5_8 |
+| S36 | [x] done | `manual` | `5_9` | A2 5_9 |
+| S37 | [x] done | `manual` | `5_10` | A2 5_10 |
+| S38 | [x] done | `manual` | `5_11` | A2 5_11 |
+
