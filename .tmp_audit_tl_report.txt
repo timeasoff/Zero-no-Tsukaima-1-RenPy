@@ -1,0 +1,5 @@
+Total translatable strings extracted from script-ch2_2.rpy: 162
+
+=== Strings missing old in JA or RU, or with duplicate old ===
+
+Total strings with problems: 0

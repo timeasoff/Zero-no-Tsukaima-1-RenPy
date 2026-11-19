@@ -22,8 +22,8 @@ translate russian strings:
     old "You practiced so hard, I couldn't bring myself to call out to you.{#ch5_6_v9933}"
     new "Ты так усердно практиковалась, что мне самому было неловко подходить."
 
-    old "Mm, I did slack off a bit, though.{#ch5_6_v3002}"
-    new "М-м, я кое-что пропустила, правда."
+    old "Mm, I did slack off quite a bit, though.{#ch5_6_v3002}"
+    new "М-м, я довольно много пропустила, правда."
 
     old "Ah hah hah hah...{#ch5_6_v9934}"
     new "Ха-ха-ха-ха…"
@@ -31,8 +31,8 @@ translate russian strings:
     old "I was worried about Kirche.{#ch5_6_v9935}"
     new "Я переживал за Кирхе."
 
-    old "Oh? Did you worry about me?{#ch5_6_v3003}"
-    new "О?  Ты беспокоился обо мне?"
+    old "Oh? You were worried about me.{#ch5_6_v3003}"
+    new "О? Ты переживал за меня."
 
     old "Of course!{#ch5_6_v9936}"
     new "Конечно!"
@@ -53,7 +53,7 @@ translate russian strings:
     new "Э-э, правда?"
 
     old "That hurts~. Does it matter to you whether I'm here or not?{#ch5_6_v3005}"
-    new "Как же больно~. Тебе всё равно, присутствую я здесь или нет?"
+    new "Как же больно~. Тебе всё равно, я здесь или нет?"
 
     old "Hiraga-kun, that's so mean~~!!{#ch5_6_v1952}"
     new "Хирага-кун, это так жестоко~~!!"
@@ -86,7 +86,7 @@ translate russian strings:
     new "Да…"
 
     old "Hey, Guiche!{#ch5_6_v9943}"
-    new "Эй, Гюиш!"
+    new "Эй, Гиш!"
 
     old "Oh, Saito?{#ch5_6_v4993}"
     new "А, Сайто?"
@@ -104,7 +104,7 @@ translate russian strings:
     new "Что тебе, Сайто?"
 
     old "Why are you walking around together with Guiche?{#ch5_6_v9946}"
-    new "Почему ты ходишь вместе с Гюишем?"
+    new "Почему ты ходишь вместе с Гишем?"
 
     old "What, you're asking in a bitter tone? There's nothing to it.{#ch5_6_v4995}"
     new "Что, ты спрашиваешь с кислой миной? Там нет ничего такого."
@@ -118,14 +118,14 @@ translate russian strings:
     old "Whoa! I've been caught! ...I-I'm sorry.{#ch5_6_v9947}"
     new "Ой! Меня поймали! …И-извини."
 
-    old "We were just sent shopping by Wealthy-sama! Honestly!{#ch5_6_v1445}"
+    old "We were just sent shopping by Weatherby-san! Honestly!{#ch5_6_v1445}"
     new "Мы просто ходили за покупками по поручению Уэзерби! Честно!"
 
     old "O-oh really?{#ch5_6_v9948}"
     new "Э-э, правда?"
 
     old "That's right. Guiche is just carrying the bags for me.{#ch5_6_v4997}"
-    new "Вот именно. Гюиш просто несёт мои вещи."
+    new "Вот именно. Гиш просто несёт мои вещи."
 
     old "Y-you can say that so confidently...? Hmm...{#ch5_6_v1446}"
     new "Т-ты можешь так уверенно говорить…? М-м…"
@@ -134,13 +134,13 @@ translate russian strings:
     new "Т-тогда почему ты не попросил меня помочь!?"
 
     old "Oh? Could it be... you're jealous?{#ch5_6_v4998}"
-    new "О?  Неужели… ты ревнуешь?"
+  new "О? Неужели… ты ревнуешь?"
 
     old "I-I don't think so...{#ch5_6_v9950}"
     new "Я-я не думаю так…"
 
     old "Then, shall I have you help me carry the bags? Guiche alone isn't reliable enough.{#ch5_6_v4999}"
-    new "Тогда, может, ты поможешь мне нести вещи? Одного Гюиша недостаточно надёжно."
+    new "Тогда, может, ты поможешь мне нести вещи? С одним Гишем недостаточно надёжно."
 
     old "O-ok, got it!{#ch5_6_v9951}"
     new "О-ок, договорились!"
@@ -181,11 +181,11 @@ translate russian strings:
     old "What's your specialty?{#ch5_6_v9956}"
     new "Что твоё фирменное блюдо?"
 
-    old "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
-    new "М-м, думаю, варёная капуста — это предел на сейчас. Жареная еда и хлеб — mene ещё много практиковаться."
+    old "Hmm, I think simmered dishes are about my limit for now. Grilled food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
+    new "М-м, думаю, тушёные блюда — это пока мой предел. Жареное и хлеб — мне ещё много практиковаться."
 
-    old "Miss Montmonmon has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
-    new "Мисс Монморанси обладает натуральным talent, так что думаю, тебе не хватает совсем чуть-чуть."
+    old "Miss Montmorency has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
+    new "У мадемуазель Монморанси есть талант, так что думаю, тебе не хватает совсем чуть-чуть."
 
     old "Can you actually make something edible?{#ch5_6_v9957}"
     new "Ты вообще можешь приготовить что-то съедобное?"
@@ -200,7 +200,7 @@ translate russian strings:
     new "Я думаю, это другой смысл…"
 
     old "So, in the end, you're going to treat Guiche, right?{#ch5_6_v9958}"
-    new "Так в конце концов, ты хочешь угостить Гюиша?"
+    new "Так в конце концов, ты хочешь угостить Гиша?"
 
     old "T-that is, it's just that... I mean...{#ch5_6_v4000}"
     new "Т-то есть, это просто… То есть…"
@@ -284,13 +284,13 @@ translate russian strings:
     new "……."
 
     old "Hey, Tabitha, your familiar..., what was its name again.{#ch5_6_v9969}"
-    new "Послушай, Табита, твой фамильяр…, как его звали again."
+    new "Послушай, Табита, твой фамильяр…, как его звали, опять?"
 
     old "Sylphid.{#ch5_6_v15464}"
     new "Сильфида."
 
     old "Yes! That Sylphid. Where is it usually?{#ch5_6_v9970}"
-    new "Вот!  Эта Сильфида. Где она обычно находится?"
+  new "Вот! Эта Сильфида. Где она обычно находится?"
 
     old "It's in the sky.{#ch5_6_v15465}"
     new "Она на небе."
@@ -310,11 +310,11 @@ translate russian strings:
     old "Yes.{#ch5_6_v15467}"
     new "Да."
 
-    old "Yes, it's nice weather. On days like this, I want to run around in the fields.{#ch5_6_v473}"
-    new "Да, хорошая погода. В такие дни хочется бегать по полям."
+    old "Then why don't you come visit the royal palace library sometime?{#ch5_6_v473}"
+    new "Тогда, может, заглянешь как-нибудь в королевскую библиотеку?"
 
-    old "That's right. It's really up in the sky.{#ch5_6_v474}"
-    new "Вот именно. Она действительно на небе."
+    old "There are books that can't be taken out or shown, but I think I can show you a fair number of them.{#ch5_6_v474}"
+    new "Некоторые книги нельзя выносить или показывать, но кое-что я вам смогу показать."
 
     old "…….{#ch5_6_v15468}"
     new "……."
@@ -334,14 +334,14 @@ translate russian strings:
     old "Yes.{#ch5_6_v15470}"
     new "Да."
 
-    old "...Huh? Wealthy-sama?{#ch5_6_v9975}"
+    old "...Huh? Weatherby-san?{#ch5_6_v9975}"
     new "…Хм? Уэзерби-сан?"
 
     old "Ah, Saito...{#ch5_6_v15874}"
     new "А, Сайто…"
 
-    old "By the way, Wealthy-sama, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
-    new "Кстати, Уэзерби-сан, tы сказал, что раньше был благородным, но почему ты сейчас бродячий актер?"
+    old "By the way, Weatherby-san, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
+    new "Кстати, Уэзерби-сан, ты сказала, что раньше была благородной, но почему ты сейчас бродячая актриса?"
 
     old "You know what, probing into a traveling actor's past is more than a little rude.{#ch5_6_v15875}"
     new "Знаешь, пытаться разузнать прошлое бродячего актёра — это более чем невежливо."
@@ -362,7 +362,7 @@ translate russian strings:
     new "…Только когда ты теряешь свою страну, ты узнаёшь её ценность."
 
     old "Only when you consider the huge price of regaining it do people finally despair.{#ch5_6_v15879}"
-    new "Только когда думаешь о огромной цене её возвращения, люди finalmente отчаиваются."
+    new "Только когда думаешь о огромной цене её возвращения, люди наконец отчаиваются."
 
     old "At the place where I was born, I was taught that there are things more important than countries...{#ch5_6_v9979}"
     new "На месте, где я родился, меня учили, что есть вещи важнее, чем страны…"
@@ -374,9 +374,9 @@ translate russian strings:
     new "Давай подумаем… равенство… семья… возлюбленный…"
 
     old "I wouldn't say it's wrong. But that's something only someone rich enough to be overflowing with wealth can say.{#ch5_6_v15881}"
-    new "Я не сказала бы, что это неверно. Но это то, что может сказать только человек, dостаточно богатый, чтобы быть переполненным богатством."
+    new "Я не сказала бы, что это неверно. Но это может сказать только человек, утопающий в богатстве."
 
-    old "Wealthy-sama?{#ch5_6_v9981}"
+    old "Weatherby-san?{#ch5_6_v9981}"
     new "Уэзерби-сан?"
 
     old "I think I talked too much. I'll go rest over there...{#ch5_6_v15882}"

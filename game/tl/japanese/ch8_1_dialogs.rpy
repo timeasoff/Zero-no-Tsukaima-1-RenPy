@@ -1,6 +1,6 @@
 # ===== ch8.1: 125 strings (dialogues) =====
 translate japanese strings:
-    old "We overslept again, didn't we? / I wonder if the Princess is all right…{#ch8_s_001}"
+    old "Morning came, huh? / I wonder if the Princess is all right…{#ch8_s_001}"
     new "朝になっちまったな。 / お姫さま、大丈夫かな……。"
 
     old "You were quite troubled yesterday… / …Maybe I'll go take a look.{#ch8_s_002}"
@@ -156,7 +156,7 @@ translate japanese strings:
     old "Then let's hear it and decide what to do next.{#ch8_s_026}"
     new "それじゃ、その話を聞いたうえで / 今後の行動を決めようか。"
 
-    old "Right. / Let's tell the Princess about Siesta.{#ch8_l_007}"
+    old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
     new "そうね。 / 姫さまには、シエスタについてて / もらいましょう。"
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
@@ -168,7 +168,7 @@ translate japanese strings:
     old "And on top of that…{#ch8_k_002}"
     new "その上……。"
 
-    old "Sounds like there's some good news…{#ch8_l_008}"
+    old "Sounds like there's some bad news…{#ch8_l_008}"
     new "なにか良くないしらせがあるみたいね……。"
 
     old "Terrible news.{#ch8_k_003}"
@@ -303,7 +303,7 @@ translate japanese strings:
     old "What is it?{#ch8_s_044}"
     new "なんでしょう。"
 
-    old "You don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
+    old "Saito-san, you don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
     new "サイトさんは、女王であるわたくしに / あまり遠慮はしないのですね。 / なぜですか？"
 
     old "Because you're cute, Princess…{#ch8_s_045}"

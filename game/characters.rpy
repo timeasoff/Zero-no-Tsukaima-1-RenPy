@@ -13,7 +13,7 @@ define m = Character(_("Montmorency"), color="#e2d79d")
 
 define villager = Character(_("Villager"), color="#797979")
 
-define commander = Character(_("Сommander"), color="#797979")
+define commander = Character(_("Commander"), color="#797979")
 define soldier = Character(_("Soldier"), color="#797979")
 define mage = Character(_("Mage"), color="#d82b2b")
 define unds = Character(_("Underlings"), color="#d82b2b")
@@ -33,6 +33,7 @@ define man_b     = Character(_("Man B"), color="#797979")
 define man_c     = Character(_("Man C"), color="#797979")
 define innkeeper = Character(_("Innkeeper"), color="#797979")
 define shopkeeper = Character(_("Shopkeeper"), color="#797979")
+define enemy     = Character(_("Enemy"), color="#d82b2b")
 
 
 define unk = Character(_("???"), color="#000000") #protagonist
@@ -146,7 +147,7 @@ define char_data = {
     "tabitha":     {
         "name": "Tabitha", 
         "color": "#b4dfec",
-        'description': "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\".", 
+        'description': "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\".", 
 
         #CHOISES
         "portrait_choise": "gui/system/portraits/choises/t_full.webp",  

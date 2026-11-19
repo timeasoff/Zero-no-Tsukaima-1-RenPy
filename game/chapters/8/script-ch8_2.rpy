@@ -6,8 +6,8 @@ label ch8_2:
     # ==== SCENE 417 ====
     # [SPRITE lay8 image=+787 level=140 dir=1C → id(787)]
     $ show_sprites(("id(787)"))
-    # [BGM bgm play=+16 → t16]
-    play music t16 fadein 1.0
+    # [BGM bgm play=+16 → t15]
+    play music t15 fadein 1.0
     # [BG stage image=+42 level=200 → id(42)]
     $ fade_fx("id(42)")
     # [BGM bgm stop=1000]
@@ -20,8 +20,8 @@ label ch8_2:
     # [EVENT_CG event image=+267 level=80]
     $ dissolve_fx("id(267)", type="cg")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+22 → t22]
-    play music t22 fadein 1.0
+    # [BGM bgm play=+22 → t21]
+    play music t21 fadein 1.0
     # アンリエッタ：ちゅっ。  [voice 892]
     voice "ch8_h_041"
     h "Mwah. {#ch8_h_041}"
@@ -36,7 +36,7 @@ label ch8_2:
     # JA[893]: うふふ、隙あり、ですよサイトさん。そんな風では騎士失格です。
     # サイト：（今、詰め寄られたかと思ったら、暖かくて柔らかい感触が……。お姫さまの唇が……っ！？）
     # [no voice — thought]
-    s (Now, just when I thought she was pressing in on me, a warm soft sensation… Her lips…!?)
+    th "(Now, just when I thought she was pressing in on me, a warm soft sensation… Her lips…!?)"
     # JA: （今、詰め寄られたかと思ったら、暖かくて柔らかい感触が……。お姫さまの唇が……っ！？）
     # [SPRITE lay8 hide] [SPRITE lay5 hide] [BG stage hide] [EVENT_CG event hide]
     $ show_sprites()
@@ -61,8 +61,8 @@ label ch8_2:
     # ==== SCENE 418 ==== (transition, no dialogue)
     # [SPRITE lay8 image=+787 level=140 dir=1C → id(787)]
     $ show_sprites(("id(787)"))
-    # [BGM bgm play=+16 → t16]
-    play music t16 fadein 1.0
+    # [BGM bgm play=+16 → t15]
+    play music t15 fadein 1.0
     # [BG stage image=+42 level=200 → id(42)]
     $ fade_fx("id(42)")
     # [SPRITE lay8 hide]
@@ -79,8 +79,8 @@ label ch8_2:
     # [SPRITE lay8 image=+794 level=160 dir=1C → h 2 shy]
     $ show_sprites(("s 3", "h 2 shy"))
     # [SPRITE lay5 image=+427 level=160 dir=2A → s 3]
-    # [BGM bgm play=+22 → t22]
-    play music t22 fadein 1.0
+    # [BGM bgm play=+22 → t21]
+    play music t21 fadein 1.0
     # [BG stage image=+42 level=200 → id(42)]
     $ fade_fx("id(42)")
     # ルイズ：サ～イ～ト～！！  [voice 7421]
@@ -113,10 +113,10 @@ label ch8_2:
     $ show_sprites()
     $ fade_fx(None)
     # [EVENT_CG event image=+213 level=80]
-    $ dissolve_fx("id(213)", type="cg")
+    $ dissolve_fx("ready_to_blow", type="cg")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+30 → t30]
-    play music t30 fadein 1.0
+    # [BGM bgm play=+30 → t29]
+    play music t29 fadein 1.0
     # ルイズ：あんたってバカは、いくら言ってきかせても見境なしにふらふらと……！  [voice 7422]
     voice "ch8_l_016"
     l "You idiot, no matter how much I tell you, you keep wandering without limit…! {#ch8_l_016}"
@@ -157,8 +157,8 @@ label ch8_2:
     # [BG stage image=+43 level=200 → id(43)]
     $ fade_fx("id(43)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+20 → t20]
-    play music t20 fadein 1.0
+    # [BGM bgm play=+20 → t19]
+    play music t19 fadein 1.0
     # [SPRITE lay1 image=+306 level=160 dir=1A → l 1]
     $ show_sprites(("l 1",))
     # ルイズ：どう、少しは反省した？  [voice 7424]
@@ -190,7 +190,7 @@ label ch8_2:
     $ show_sprites(("l 1", "h 2"))
     # ルイズ：ああ、そうです。実は、姫さまにご許可をいただきたいと思いまして、参りました。  [voice 7426]
     voice "ch8_l_020"
-    l "Yes. Actually, I came to ask for Her Majesty's permission. {#ch8_l_020}"
+    l "Yes. Actually, I came to ask for the Princess's permission. {#ch8_l_020}"
     # JA[7426]: ああ、そうです。実は、姫さまにご許可をいただきたいと思いまして、参りました。
     # アンリエッタ：許可？どのようなことでしょう？  [voice 896]
     voice "ch8_h_045"
@@ -248,7 +248,7 @@ label ch8_2:
     $ show_sprites(("s 1", "l 1"))
     # ルイズ：そのために、ぜひ、姫さまのご許可をいただきたいのです。  [voice 7431]
     voice "ch8_l_025"
-    l "For that, I want Her Majesty's permission. {#ch8_l_025}"
+    l "For that, I want the Princess's permission. {#ch8_l_025}"
     # JA[7431]: そのために、ぜひ、姫さまのご許可をいただきたいのです。
     # [SPRITE lay5 hide]
     $ show_sprites(("l 1",))
@@ -260,7 +260,7 @@ label ch8_2:
     # JA[899]: 虚無の魔法の使用許可ですね。
     # ルイズ：はい。虚無の魔法をトリスタニアで使用する許可です。  [voice 7432]
     voice "ch8_l_026"
-    l "Yes. Permission to use Void Magic in Tristain. {#ch8_l_026}"
+    l "Yes. Permission to use Void Magic in Tristania. {#ch8_l_026}"
     # JA[7432]: はい。虚無の魔法をトリスタニアで使用する許可です。
     # [SPRITE lay8 hide]
     $ show_sprites(("l 1",))
@@ -377,7 +377,7 @@ label ch8_2:
     # JA[7445]: 姫さまには、お城に戻って軍への指示をお願いします。
     # アンリエッタ：分かりました。ルイズ、トリスタニアでの虚無の魔法の使用を許可します。  [voice 901]
     voice "ch8_h_050"
-    h "Understood. Louise, I grant permission to use Void Magic in Tristain. {#ch8_h_050}"
+    h "Understood. Louise, I grant permission to use Void Magic in Tristania. {#ch8_h_050}"
     # JA[901]: 分かりました。ルイズ、トリスタニアでの虚無の魔法の使用を許可します。
     # [SPRITE lay1 image=+304 level=160 dir=1A → l 1]
     $ show_sprites(("l 1", "h 2"))
@@ -398,8 +398,8 @@ label ch8_2:
     # [BG stage image=+43 level=200 → id(43)]
     $ fade_fx("id(43)")
     # [TRANS trans("crossfade", 1000)]
-    # [BGM bgm play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM bgm play=+28 → t27]
+    play music t27 fadein 1.0
     # [SPRITE lay1 image=+302 level=160 dir=1A → l 1]
     $ show_sprites(("l 1",))
     # ルイズ：そんなわけで、改めて皆に手伝ってほしいの。力を貸して、お願い。  [voice 7447]
@@ -435,7 +435,7 @@ label ch8_2:
     $ show_sprites(("k 1", "t 1"))
     # タバサ：右に同じ。  [voice 15811]
     voice "ch8_t_001"
-    t "Right side same. {#ch8_t_001}"
+    t "Same here. {#ch8_t_001}"
     # JA[15811]: 右に同じ。
     # [SPRITE lay6 hide] [LAYER lay0 hide]
     $ show_sprites()
@@ -470,7 +470,7 @@ label ch8_2:
     $ show_sprites(("si 1", "s 1"))
     # シエスタ：分かりました。必ず……戻ってきてくださいね……。  [voice 15175]
     voice "ch8_si_009"
-    si "Understood. Please… come back safely… {#ch8_si_009}"
+    si "Understood. Please… be sure to come back to me… {#ch8_si_009}"
     # JA[15175]: 分かりました。必ず……戻ってきてくださいね……。
     # [SPRITE lay5 image=+423 level=160 dir=2A → s 3]
     $ show_sprites(("si 1", "s 3"))
@@ -517,7 +517,7 @@ label ch8_2:
     # JA[7451]: そ、それはその……。いろいろあるのよっ！詳しいことは言えないけど……。
     # サイト：（虚無のことは誰にも言えないからな……）
     # [no voice — thought]
-    s (I can't tell anyone about Void Magic…)
+    th "(I can't tell anyone about Void Magic…)"
     # JA: （虚無のことは誰にも言えないからな……）
     # [SPRITE lay1 hide] [SPRITE lay4 hide]
     $ show_sprites()
@@ -537,7 +537,7 @@ label ch8_2:
     $ show_sprites(("k 1",))
     # キュルケ：もっとも、ヴァリエールにいいところを持ってかれるとこが面白くないけどね。  [voice 3867]
     voice "ch8_k_010"
-    k "Although, it's not fun that Variel will take the good parts. {#ch8_k_010}"
+    k "Although, it's not fun that Vallière will take the good parts. {#ch8_k_010}"
     # JA[3867]: もっとも、ヴァリエールにいいところを持ってかれるとこが面白くないけどね。
     # [SPRITE lay6 x=224 y=0]
     # [LAYER lay0 image=+592 level=160 dir=1A → t 1]
@@ -591,7 +591,7 @@ label ch8_2:
     # JA[904]: ルイズ、城に向かうのですね。
     # ルイズ：はい。姫さまは今しばらくここでお待ちください。このトリスタニアに平和を取り戻してきます。  [voice 7453]
     voice "ch8_l_047"
-    l "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
+    l "Yes. Princess, please wait here a while. I will restore peace to this Tristania. {#ch8_l_047}"
     # JA[7453]: はい。姫さまは今しばらくここでお待ちください。このトリスタニアに平和を取り戻してきます。
     # アンリエッタ：心強いですね、ルイズ。でも、あなた達だけに戦わせるわけにはまいりません。  [voice 905]
     voice "ch8_h_054"
@@ -627,8 +627,8 @@ label ch8_2:
             # [SPRITE lay8 image=+775 level=160 dir=1B → h 2]
             $ show_sprites(("h 2", "s 1"))
             # [SPRITE lay5 image=+394 level=160 dir=1A → s 1]
-            # [BGM bgm play=+28 → t28]
-            play music t28 fadein 1.0
+            # [BGM bgm play=+28 → t27]
+            play music t27 fadein 1.0
             # [BG stage image=+43 level=200 → id(43)]
             $ fade_fx("id(43)")
             # [SPRITE lay5 image=+394 level=160 dir=1A → s 1]
@@ -660,8 +660,8 @@ label ch8_2:
             # [SPRITE lay8 image=+775 level=160 dir=1B → h 2]
             $ show_sprites(("h 2", "s 1"))
             # [SPRITE lay5 image=+394 level=160 dir=1A → s 1]
-            # [BGM bgm play=+28 → t28]
-            play music t28 fadein 1.0
+            # [BGM bgm play=+28 → t27]
+            play music t27 fadein 1.0
             # [BG stage image=+43 level=200 → id(43)]
             $ fade_fx("id(43)")
             # [SPRITE lay5 image=+390 level=160 dir=1A → s 1]

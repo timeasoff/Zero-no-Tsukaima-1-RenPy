@@ -2,32 +2,32 @@ translate russian strings:
 # ===== ch5.11 =====
 
     old "What kind of photo could it be?{#ch5_11_th_001}"
-    new "（Что это может быть за фотография?）"
+    new "_Что это может быть за фотография?_"
 
     old "…That would make me really jealous.{#ch5_11_th_002}"
-    new "（…Я бы ужасно ревновал.）"
+    new "_…Я бы ужасно ревновал._"
 
     old "…As if that could be it!{#ch5_11_th_003}"
-    new "（…Да с чего бы это!）"
+    new "_…Да с чего бы это!_"
 
     old "I-it is true… She kept a picture of me in her bag.{#ch5_11_th_004}"
-    new "（П-правда… Она хранила в сумке мою фотографию.）"
+    new "_П-правда… Она хранила в сумке мою фотографию._"
 
     old "Whoa… It did not bother me before, but now that I have noticed it… I am getting embarrassed.{#ch5_11_th_005}"
-    new "（Ого… Раньше меня это не беспокоило, но теперь, когда я заметил… Мне становится неловко.）"
+    new "_Ого… Раньше меня это не беспокоило, но теперь, когда я заметил… Мне становится неловко._"
 
     old "…Come on. Why is the princess wearing the queen's formal dress in a room like this?!{#ch5_11_th_006}"
-    new "（…Да ладно. Почему принцесса в такой комнате носит парадное платье королевы?!）"
+    new "_…Да ладно. Почему принцесса в такой комнате носит парадное платье королевы?!_"
 
     old "…That is right. Once the play is over, the princess has to return to the castle.{#ch5_11_th_007}"
-    new "（…Точно. Когда пьеса закончилась, принцессе нужно вернуться в замок.）"
+    new "_…Точно. Когда пьеса закончилась, принцессе нужно вернуться в замок._"
 
     old "Maybe the time she spent onstage was what she treasured most.{#ch5_11_th_008}"
-    new "（Возможно, дороже всего для неё было время на сцене.）"
+    new "_Возможно, дороже всего для неё было время на сцене._"
 
     old "……… …… …{#ch5_11_th_009}"
-    new "（……… …… …）"
+    new "_……… …… …_"
 
-    old "I should not have refused here, should I?{#ch5_11_th_007}"
-    new "（Не стоило мне здесь отказывать, да?）"
+    old "I should not have refused here, should I?{#ch5_11_th_010}"
+    new "_Не стоило мне здесь отказывать, да?_"
 # ===== end ch5.11 =====

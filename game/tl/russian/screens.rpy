@@ -62,10 +62,10 @@ translate russian strings:
     old "Quick saves"
     new "Быстрые сохранения"
 
-    old "{#file_time}%A, %d %B %Y, %H:%M"
+    old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%A, %d %B %Y, %H:%M"
 
-    old "Empty Slot"
+    old "empty slot"
     new "Пустой слот"
 
     old "<"
@@ -84,7 +84,7 @@ translate russian strings:
     new "Синхронизация загрузки"
 
     old "Download Sync"
-    new "Скачать Sync"
+    new "Синхронизация скачивания"
 
     old "Display Mode"
     new "Режим экрана"
@@ -249,7 +249,7 @@ translate russian strings:
     new "Меню"
 
     old "Gallery"
-    new "Галлерея"
+    new "Галерея"
 
     old "Music"
     new "Музыка"
@@ -347,22 +347,22 @@ translate russian strings:
 
 
     old "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito."
-    new "Горничная, работающая в Академии магии Тристейна. Не может использовать магию, так как простолюдинка. Испытывает чувства к Сайто."
+    new "Горничная, работающая в Академии магии Тристейна.\nНе может использовать магию, так как простолюдинка.\nИспытывает чувства к Сайто."
 
     old "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown."
-    new "Маг, призвавший Сайта.\nХотя она способна использовать магию пустоты,\nеё истинная природа (или истинные возможности) до сих пор неизвестна."
+    new "Маг, призвавший Сайта.\nХотя она способна использовать магию пустоты,\nистинная природа магии пустоты до сих пор неизвестна."
 
     old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
     new "Японский юноша, который был призван в этот мир Луизой.\nЛуиза обращается с ним как с фамильяром."
 
-    old "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\"."
-    new "Одноклассница Луизы.\nСпециалист по магии ветра.\nЕё прозвище — «Табита Снежный Ветер»."
+    old "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\"."
+    new "Одноклассница Луизы.\nСпециалист по магии ветра.\nЕё прозвище — «Табита Вьюга»."
     
     old "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\"."
-    new "Одноклассница Луизы.\nСпециалист по магии огня.\nЕё прозвище — «Кирхе Страстного Жара»"
+    new "Одноклассница Луизы.\nСпециалист по магии огня.\nЕё прозвище — «Кирхе Обжигающая»."
 
     old "Princess of the Tristain Kingdom.\nChildhood friend of Louise.\nSpecializes in water magic."
-    new "Принцесса Тристании.\nДруг детства Луизы.\nСпециалист по магии воды."
+    new "Принцесса Тристейна.\nДруг детства Луизы.\nСпециалист по магии воды."
 
     # ==== SPELS ====
 
@@ -486,3 +486,56 @@ translate russian strings:
 
     old "Return to the main menu"
     new "Вернуться в главное меню"
+
+translate russian strings:
+    old "Accesses the game menu."
+    new "Открывает меню игры."
+
+    old "Advances dialogue and activates the interface."
+    new "Продвигает диалог и активирует интерфейс."
+
+    old "Advances dialogue without selecting choices."
+    new "Продвигает диалог без выбора вариантов."
+
+    old "Calibrate"
+    new "Калибровка"
+
+    old "Escape"
+    new "Esc"
+
+    old "Hides the user interface."
+    new "Скрывает пользовательский интерфейс."
+
+    old "Left Trigger\nLeft Shoulder"
+    new "Левый триггер\nЛевое плечо"
+
+    old "Mouse Wheel Down"
+    new "Колесо мыши вниз"
+
+    old "Mouse Wheel Up"
+    new "Колесо мыши вверх"
+
+    old "Opens the accessibility menu."
+    new "Открывает меню доступности."
+
+    old "Right Shoulder"
+    new "Правое плечо"
+
+    old "Rolls back to earlier dialogue."
+    new "Возвращает к предыдущему диалогу."
+
+    old "Rolls forward to later dialogue."
+    new "Переходит к последующему диалогу."
+
+    old "Skips dialogue while held down."
+    new "Пропускает диалог, пока удерживается клавиша."
+
+    old "Takes a screenshot."
+    new "Делает снимок экрана."
+
+    old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+    new "Переключает {a=https://www.renpy.org/l/voicing}озвучивание{/a}."
+
+    old "Toggles dialogue skipping."
+    new "Переключает пропуск диалога."
+

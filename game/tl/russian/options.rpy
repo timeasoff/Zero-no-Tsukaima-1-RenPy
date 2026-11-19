@@ -3,7 +3,7 @@ translate russian strings:
     old """This project is a non-commercial, amateur development created by fans for fans. 
 All rights to the characters, setting, names, and other elements of Zero no tsukaima belong to their respective owners."""
     new """Этот проект — некоммерческая любительская разработка, созданная фанатами для фанатов.
-Все права на персонажей, сеттинг, названия и прочие элементы «Подручного бездарной Луизы» принадлежат их законным владельцам."""
+Все права на персонажей, сеттинг, названия и прочие элементы «Фамильяра бездарной Луизы» принадлежат их законным владельцам."""
 
     old """Prepared by {a=https://t.me/timeasoff}timeasoff{/a}. Translation assistance provided by {a=https://t.me/Alex_Hrst}Alex_Hrst{/a}.
 Project available on {a=https://github.com/timeasoff/Zero-no-Tsukaima-1-RenPy}GitHub{/a}. You can contribute to the translation❗

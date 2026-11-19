@@ -350,7 +350,7 @@ label ch5_11_date_henrietta_1133:
     s "Understood.{#ch5_11_v8742}"
     $ show_sprites(())
     th "……… …… …{#ch5_11_th_009}"
-    $ fade_fx("id(90)")
+    $ fade_fx("sky_night")
     voice "ch5.11_h_015"
     h "I am returning to the castle, to the stage of politics, diplomacy, and war…{#ch5_11_v362}"
     voice "ch5.11_h_016"
@@ -462,7 +462,7 @@ label ch5_11_date_siesta_1112:
     voice "ch5.11_s_046"
     s "If you came to my country, you would be shocked.{#ch5_11_v8665}"
     voice "ch5.11_si_013"
-    si "I would like to visit your country, Saito.{#ch5_11_v14282}"
+    si "I would like to visit your country, Saito-san.{#ch5_11_v14282}"
     jump ch5_11_date_siesta_1113
 
 label ch5_11_date_siesta_1113:
@@ -504,7 +504,7 @@ label ch5_11_date_kirche_1117:
     s "No.{#ch5_11_v8708}"
     voice "ch5.11_k_011"
     k "…Darling.{#ch5_11_v2813}"
-    th "I should not have refused here, should I?{#ch5_11_th_007}"
+    th "I should not have refused here, should I?{#ch5_11_th_010}"
     voice "ch5.11_k_012"
     k "All right. I will forgive you today.{#ch5_11_v2814}"
     jump ch5_11_date_kirche_1118

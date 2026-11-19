@@ -434,7 +434,7 @@ label ch3_153:
             $ show_sprites(("l 1", "s 1"))
 
             voice "ch3.2_l_030"
-            l "Eh, is that so?"
+            l "Eh, is that so?{#ch3_2_s_155}"
 
             voice "ch3.2_s_030"
             s "Yeah — no matter how much I worry, it's not going to make her recover any faster."

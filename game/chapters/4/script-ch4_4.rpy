@@ -216,7 +216,7 @@ label ch4_4_249:
     $ show_sprites(("l 3 angry", "ha 2 sad"))
 
     voice "ch4.4_l_007"
-    l "I-I will look for you. With the power of the House of Vallière, we're bound to find it somehow."
+    l "I-I'll look for it for you. With the power of the House of Vallière, we're bound to find it somehow."
 
     # [lay1 hide][lay5 +403 (s 2 happy) 1B]
     $ show_sprites(("s 2 happy", "ha 2 sad"))

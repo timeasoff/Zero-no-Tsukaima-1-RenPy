@@ -16,7 +16,7 @@ translate japanese strings:
     old "(Still, the Princess seemed to enjoy herself, / and said she'd come see me again before leaving.){#ch9_s_039}"
     new "（それでもお姫さまは、楽しかったらしく、 /　俺にまた会いに来ると言って、帰っていった）"
 
-    old "(Haruna… to be precise, Haruna / under Akina's control, had her magic / dispelled by Weatherly afterwards.){#ch9_s_049}"
+    old "(Haruna… to be precise, Haruna / under Akina's control, had her magic / dispelled by Weatherby afterwards.){#ch9_s_049}"
     new "（春奈……正確にはアキナに支配された / 状態の春奈は、あの後ウェザリーに / 魔法を解いてもらった）"
 
     old "(And Akina never appeared again…) {#ch9_s_050}"

@@ -48,8 +48,8 @@ translate russian strings:
     old "So, what is it, Louise? {#ch8_h_044}"
     new "Так что случилось, Луиза?"
 
-    old "Yes. Actually, I came to ask for Her Majesty's permission. {#ch8_l_020}"
-    new "Да. Вообще-то, я пришла попросить разрешения у Её Величества."
+    old "Yes. Actually, I came to ask for the Princess's permission. {#ch8_l_020}"
+    new "Да. Вообще-то, я пришла попросить разрешения у принцессы."
 
     old "Permission? What for? {#ch8_h_045}"
     new "Разрешения? На что?"
@@ -75,14 +75,14 @@ translate russian strings:
     old "Yes. At this point, I can't afford to hesitate. {#ch8_l_024}"
     new "Да. На таком этапе я не могу позволить себе колебаться."
 
-    old "For that, I want Her Majesty's permission. {#ch8_l_025}"
-    new "Для этого я хочу получить разрешение Её Величества."
+    old "For that, I want the Princess's permission. {#ch8_l_025}"
+    new "Для этого я хочу получить разрешение принцессы."
 
     old "Permission to use Void Magic. {#ch8_h_048}"
     new "Разрешение на использование магии пустоты."
 
-    old "Yes. Permission to use Void Magic in Tristain. {#ch8_l_026}"
-    new "Да. Разрешение на использование магии пустоты в Тристейне."
+    old "Yes. Permission to use Void Magic in Tristania. {#ch8_l_026}"
+    new "Да. Разрешение на использование магии пустоты в Тристании."
 
     old "Wait! What are you thinking?! {#ch8_s_067}"
     new "Стой! Что ты вообще задумала?!"
@@ -141,8 +141,8 @@ translate russian strings:
     old "Princess, please return to the castle and give orders to the army. {#ch8_l_039}"
     new "Принцесса, пожалуйста, вернитесь в замок и отдайте приказ армии."
 
-    old "Understood. Louise, I grant permission to use Void Magic in Tristain. {#ch8_h_050}"
-    new "Поняла. Луиза, я разрешаю использовать магию пустоты в Тристейне."
+    old "Understood. Louise, I grant permission to use Void Magic in Tristania. {#ch8_h_050}"
+    new "Поняла. Луиза, я разрешаю использовать магию пустоты в Тристании."
 
     old "Yes! {#ch8_l_040}"
     new "Да!"
@@ -159,7 +159,7 @@ translate russian strings:
     old "If there's a way to fight, there's no reason not to. Being on the receiving end goes against my principles. {#ch8_k_006}"
     new "Если есть способ сражаться, нет причин его не использовать. Быть в обороне противоречит моим принципам."
 
-    old "Right side same. {#ch8_t_001}"
+    old "Same here. {#ch8_t_001}"
     new "Я тоже."
 
     old "Thank you. {#ch8_l_042}"
@@ -172,19 +172,19 @@ translate russian strings:
     new "Все, вы правда идёте сражаться."
 
     old "Siesta… {#ch8_s_073}"
-    new "Сиэста…"
+    new "Сиеста…"
 
     old "It'll be fine. I'll come back safely. You stay at the inn and wait. {#ch8_s_074}"
     new "Всё будет хорошо. Я вернусь невредимым. Ты оставайся в гостинице и жди."
 
-    old "Understood. Please… come back safely… {#ch8_si_009}"
-    new "Поняла. Пожалуйста… вернись невредимым…"
+    old "Understood. Please… be sure to come back to me… {#ch8_si_009}"
+    new "Поняла. Пожалуйста… обязательно вернись…"
 
     old "Yeah, I'll be fine. {#ch8_s_075}"
     new "Ага, всё будет хорошо."
 
     old "Then I'll explain the operation. Saito and I will move to the castle hill. Everyone… {#ch8_l_043}"
-    new "Тогда я объясню операцию. Сайт и я переместимся на холм замка. Все остальные…"
+    new "Тогда я объясню операцию. Сайто и я переместимся на холм замка. Все остальные…"
 
     old "So you want us to lure the enemy so you can reach the castle? {#ch8_k_007}"
     new "Ты хочешь, чтобы мы заманили врага, чтобы вы добрались до замка?"
@@ -201,8 +201,8 @@ translate russian strings:
     old "I don't know what you'll do, but if that's the only option, we'll do what we can. {#ch8_k_009}"
     new "Я не знаю, что вы будете делать, но если это единственный вариант, мы сделаем всё, что в наших силах."
 
-    old "Although, it's not fun that Variel will take the good parts. {#ch8_k_010}"
-    new "Хотя, мне не нравится, что Вариэль заберёт лучшие части."
+    old "Although, it's not fun that Vallière will take the good parts. {#ch8_k_010}"
+    new "Хотя, мне не нравится, что Ла Вальер заберёт лучшие части."
 
     old "The critical moment. {#ch8_t_002}"
     new "Решающий момент."
@@ -225,11 +225,11 @@ translate russian strings:
     old "Louise, you're heading to the castle. {#ch8_h_053}"
     new "Луиза, ты направляешься в замок."
 
-    old "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
-    new "Да. Принцесса, подождите здесь некоторое время. Я верну мир этой Тристейнии."
+    old "Yes. Princess, please wait here a while. I will restore peace to this Tristania. {#ch8_l_047}"
+    new "Да. Принцесса, подождите здесь некоторое время. Я верну мир этой Тристании."
 
     old "W-W-W-Well, Princess!? That's too reckless! {#ch8_l_048}"
-    new "П-подождите, принцесса!? Это слишком безрассудно!"
+    new "Э-э, принцесса!? Это слишком безрассудно!"
 
     old "T-That's… there are various reasons! I can't say details, but… {#ch8_l_045}"
     new "Т-это… есть много причин! Подробности сказать не могу, но…"
@@ -259,7 +259,7 @@ translate russian strings:
     new "Понял. Я тоже помогу."
 
     old "Saito! Do you understand what you're saying? {#ch8_l_049}"
-    new "Сайт! Ты понимаешь, что говоришь?"
+    new "Сайто! Ты понимаешь, что говоришь?"
 
     old "Louise, I am the Queen. If I don't lead the front lines, who will follow? {#ch8_h_058}"
     new "Луиза, я королева. Если я не пойду впереди, кто пойдёт за мной?"

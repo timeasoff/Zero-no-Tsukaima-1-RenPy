@@ -179,7 +179,7 @@ translate russian strings:
     new "Харуна, вот ты где."
 
     old "…Oh, Hiraga-kun!{#ch5_11_v1662}"
-    new "Хирагакун"
+    new "…Ах, Хирага-кун!"
 
     old "What are you doing here?{#ch5_11_v8710}"
     new "Что ты здесь делаешь?"
@@ -284,7 +284,7 @@ translate russian strings:
     new "…Принцесса, вы здесь?"
 
     old "Is that you, my familiar? Please come in.{#ch5_11_v348}"
-    new "Это вы, моё фамильярное существо? Войдите."
+    new "Это вы, мой фамильяр? Войдите."
 
     old "E-excuse me…{#ch5_11_v8725}"
     new "П-простите, я войду…"
@@ -296,7 +296,7 @@ translate russian strings:
     new "…Э-э, принцесса?"
 
     old "…The days of celebration are over.{#ch5_11_v349}"
-    new "Фестивальные дни подошли к концу"
+    new "Фестивальные дни подошли к концу."
 
     old "…What?{#ch5_11_v8728}"
     new "…Что?"
@@ -332,7 +332,7 @@ translate russian strings:
     new "…Не думаю, что я лгал. Наверное."
 
     old "…I see.{#ch5_11_v355}"
-    new "это так"
+    new "…Понятно."
 
     old "It was not just acting.{#ch5_11_v8734}"
     new "Это были не просто слова из пьесы."
@@ -347,7 +347,7 @@ translate russian strings:
     new "Поэтому моё признание было одновременно и репликой из пьесы, и моими собственными словами."
 
     old "…I see.{#ch5_11_v357}"
-    new "это так"
+    new "…Понятно."
 
     old "I do not know.{#ch5_11_v8737}"
     new "Не знаю."
@@ -395,7 +395,7 @@ translate russian strings:
     new "П-правда?"
 
     old "What would be the point of lying?{#ch5_11_v8639}"
-    new "Ты ничего не сможешь сделать, если солжешь"
+    new "Ты ничего не сможешь сделать, если солжешь?"
 
     old "You look the same as always.{#ch5_11_v8640}"
     new "Нет, всё как обычно!"
@@ -419,13 +419,13 @@ translate russian strings:
     new "Только одежда?"
 
     old "Only the dress.{#ch5_11_v8644}"
-    new "просто одежда"
+    new "Просто одежда."
 
     old "Hmm. Then why will you not look at me?{#ch5_11_v4744}"
     new "Хм. Тогда почему ты на меня не смотришь?"
 
     old "Because I am embarrassed, obviously.{#ch5_11_v8645}"
-    new "Так решено, потому что это неловко."
+    new "Ну конечно, потому что мне неловко, верно?"
 
     old "Oh, you are embarrassed? How strange… The great Saito, embarrassed.{#ch5_11_v4745}"
     new "О, тебе неловко? Как странно… Великий Сайто смущается."
@@ -481,7 +481,7 @@ translate russian strings:
     old "If you came to my country, you would be shocked.{#ch5_11_v8665}"
     new "Если бы ты побывала в моей стране, то очень удивилась бы."
 
-    old "I would like to visit your country, Saito.{#ch5_11_v14282}"
+    old "I would like to visit your country, Saito-san.{#ch5_11_v14282}"
     new "Я хотела бы побывать в вашей стране, Сайто-сан."
 
     old "Thank you for the meal. It was delicious.{#ch5_11_v8666}"

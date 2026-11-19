@@ -46,7 +46,7 @@ translate russian strings:
     new "Наверное, так и есть."
 
     old "I doubt it's just a coincidence."
-    new "Может быть, это просто совпадение."
+    new "Вряд ли это просто совпадение."
 
     old "I don't really know."
     new "Не знаю точно."
@@ -104,7 +104,7 @@ translate russian strings:
 
     # kormeshka_event
     old "Looks like I'm actually getting hungry..."
-    new "Похоже, я и правда проголодался..."
+    new "Похоже, я и правда проголодался…"
 
     old "Yep! Starving, totally starving!!"
     new "Угу! Голоден, очень голоден!!"
@@ -116,7 +116,7 @@ translate russian strings:
     new "Это что, какое-то наказание?"
 
     old "Ahh..."
-    new "А-а-а..."
+    new "А-а-а…"
 
     old "Does this have poison in it or something?"
     new "Там внутри, часом, не отрава?"
@@ -131,13 +131,13 @@ translate russian strings:
     new "Выхватить книгу"
 
     old "I thought I might clean the room a bit..."
-    new "Думал, может, немного прибрать в комнате..."
+    new "Думал, может, немного прибрать в комнате…"
 
     old "Nothing special."
     new "Ничего особенного."
 
     old "There's something I want to ask Haruna right away..."
-    new "Мне нужно кое-что спросить у Харуны, и поскорее..."
+    new "Мне нужно кое-что спросить у Харуны, и поскорее…"
 
     old "Come on, can't something be done about that?"
     new "Ну нельзя ли как-нибудь это уладить?"
@@ -418,7 +418,7 @@ translate russian strings:
     new "Отнесёшь посуду обратно?"
 
     old "Bigger where, exactly?{#ch2.6_m1034a}"
-    new "Выше — в каком месте?"
+    new "Где именно стало больше?"
 
     old "You don't have to push yourself.{#ch2.6_m1034b}"
     new "Не нужно так себя напрягать."
@@ -507,7 +507,7 @@ translate russian strings:
     old "Is it wrong of me to look after Haruna?{#ch3_m173a}"
     new "Разве плохо ухаживать за Харуной?"
 
-    old "You didn't need to worry about her.{#ch3_m173b}"
+    old "I'm worried about you…{#ch3_m173b}"
     new "Я просто волновался за тебя…"
 
     old "I'm just saying something objective.{#ch3_m173c}"
@@ -577,7 +577,7 @@ translate russian strings:
     new "Немного волнуюсь, наверное."
 
     old "Yeah, it does bug me.{#ch3_m153c}"
-    new "Да, правда любопытно."
+    new "Да, правда беспокоит."
 
     old "Hallway{#ch3.2.hallway}"
     new "Коридор"
@@ -696,7 +696,7 @@ translate russian strings:
     new "Рассказать ей историю."
 
     old "Is that a pair look?{#ch3_m1064a}"
-    new "Это парный лук, да?"
+    new "Это парный наряд, да?"
 
     old "Some skill, huh.{#ch3_m1064b}"
     new "Вот это мастерство."
@@ -710,8 +710,8 @@ translate russian strings:
     old "I can't explain it — I just know.{#ch3_m1069b}"
     new "Не смогу объяснить — просто понимаю."
 
-    old "It's written on your face.{#ch3_m1069c}"
-    new "Это видно по твоему лицу."
+    old "It's written on Tabitha's face.{#ch3_m1069c}"
+    new "Это видно по лицу Табиты."
 
     old "Because you're an exhibitionist?{#ch3_m1074a}"
     new "Эксгибиционистка, что ли?"
@@ -902,7 +902,7 @@ translate russian strings:
 
 translate russian strings:
     old "Why not ask Tabitha about it?"
-    new "Может, посоветоваться с Табасой?"
+    new "Может, посоветоваться с Табитой?"
 
 translate russian strings:
     old "That's not true at all."
@@ -942,7 +942,7 @@ translate russian strings:
 
 translate russian strings:
     old "Go on a date with Henrietta"
-    new "Пойти на свидание с Анриеттой"
+    new "Пойти на свидание с Генриеттой"
 
 
 
@@ -1079,7 +1079,7 @@ translate russian strings:
 
 translate russian strings:
     old "It's no use telling me that."
-    new "И мне это говорить неудобно!"
+    new "Да не говори мне этого!"
 
 translate russian strings:
     old "I wonder what book she's reading?"
@@ -1158,7 +1158,7 @@ translate russian strings:
 
 translate russian strings:
     old "Looking for the bomb user?"
-    new "Поиск „бомбиста“?"
+    new "Поиск «бомбиста»?"
 
 translate russian strings:
     old "Kirche's birthday?"
@@ -1296,7 +1296,7 @@ translate russian strings:
     new "Просто Кирхе подходила на эту роль."
 
     old "Because I felt uneasy leaving it to Louise.{#ch7_c377}"
-    new "Оставлять это Луизе было слишком рискованно."
+    new "Мне было неспокойно доверять это Луизе."
 
     old "Just… because.{#ch7_c378}"
     new "Просто так…"
@@ -1381,15 +1381,15 @@ translate russian strings:
     new "Потому что принцесса тоже человек."
 
     old "Because I'm just acting normal.{#ch8_c006}"
-    new "Потому что я просто делаю обычно."
+    new "Потому что я просто веду себя как обычно."
 
 # ===== ch8.2 menu choices =====
     old "Stop with all force.{#ch8_c007}"
-    new "Полностью остановиться."
+    new "Остановить её изо всех сил."
 
     old "Affirm with all force.{#ch8_c008}"
     new "Полностью утверждать."
 
     old "Go all-out youthful.{#ch8_c009}"
-    new "Полностью молодежный."
+    new "Прожить юность изо всех сил."
 

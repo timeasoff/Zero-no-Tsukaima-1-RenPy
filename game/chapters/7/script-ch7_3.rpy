@@ -40,7 +40,7 @@
 #   1169 → 1170/1171/1172 → 1173) — варианты сливаются в общие сцены
 #   (fall-through после меню, прецедент script-ch7_2.rpy).
 # Гейт даты (конец сцены 404) реплицирует script-ch6_3.rpy; dére-слот 0 —
-#   call sp_l1 (K=12), постдата +405 — jump attention (PROVISIONAL).
+#   call sp_l1 (K=12), постдата +405 — jump ch8.
 
 label ch7_3:
 
@@ -442,9 +442,8 @@ label ch7_3:
             call sp_l1 from _call_sp_l1_12
             $ fade_fx("black")
             stop music fadeout 1.0
-            # Постдата +405 = глава 9 (не портирована): PROVISIONAL-конец,
-            # перецепится на ch8 при портировании.
-            jump attention
+            # Постдата +405 = начало главы 8 (script-ch8_1.rpy).
+            jump ch8
 
     jump ch7_3_s1169
 
@@ -534,10 +533,10 @@ label ch7_3_s1169:
             # [lay5 +390 → s 1]
             $ show_sprites(("h 2 sad", "s 1"))
             voice "ch7.3_s_020"
-            s "You must take better care of yourself.{#ch7.3_s_020}"
+            s "Please take care of yourself.{#ch7.3_s_020}"
             # JA[9172]: 自分を大切にしてください。
             voice "ch7.3_h_013"
-            h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more kindly than I believe I deserve…{#ch7.3_h_013}"
+            h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
             # JA[417]: 大切に……しているつもりです。 / いえ、皆がわたくしを大切に扱ってくれます。 / おそらく、わたくしが思っている以上に……。
             voice "ch7.3_s_021"
             s "That's exactly right. So it is you too, Princess, who…{#ch7.3_s_021}"
@@ -724,6 +723,5 @@ label ch7_3_s1169:
     # [WAIT       waitTime(1000, true)] — не портируется
     # [COFFEE     coffee()] — не реализована → пауза
     $ pause(1.0)
-    # [移動] → next(405) — глава 9 (chapter_09) не портирована
-    # PROVISIONAL-конец главы 7: сцена 405 появится в главе 8.
-    jump attention
+    # [移動] → next(405) — сцена 405 = начало главы 8 (script-ch8_1.rpy).
+    jump ch8

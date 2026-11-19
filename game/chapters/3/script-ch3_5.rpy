@@ -235,7 +235,7 @@ label ch3_5_173:
         "Is it wrong of me to look after Haruna?{#ch3_m173a}":
             jump ch3_5_174
 
-        "You didn't need to worry about her.{#ch3_m173b}":
+        "I'm worried about you…{#ch3_m173b}":
             jump ch3_5_175
 
         "I'm just saying something objective.{#ch3_m173c}":

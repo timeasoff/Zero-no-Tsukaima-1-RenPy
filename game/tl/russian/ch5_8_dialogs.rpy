@@ -108,7 +108,7 @@ translate russian strings:
 
 translate russian strings:
     old "It was a beautiful night, like tonight. I will give you my answer now.{#ch5_8_v2825}"
-    new "Ночь была прекрасной, как эта. Теперь я отвечу тебе.{#ch5_8_v2825}"
+    new "Ночь была прекрасной — с Лунами-Близнецами, как эта. Теперь я отвечу тебе.{#ch5_8_v2825}"
 
 translate russian strings:
     old "Princess?{#ch5_8_v8802}"
@@ -296,7 +296,7 @@ translate russian strings:
 
 translate russian strings:
     old "It was a beautiful night, like tonight. I will give you my answer now.{#ch5_8_v15348}"
-    new "Ночь была прекрасной, как эта. Теперь я отвечу тебе.{#ch5_8_v15348}"
+    new "Ночь была прекрасной — с Лунами-Близнецами, как эта. Теперь я отвечу тебе.{#ch5_8_v15348}"
 
 translate russian strings:
     old "Princess?{#ch5_8_v8824}"
@@ -304,7 +304,7 @@ translate russian strings:
 
 translate russian strings:
     old "Noelle will die here… as the prince's wife. I wish to die here.{#ch5_8_v15349}"
-    new "Ноэль умрёт здесь… как жена принца. Я хочу умереть здесь.{#ch5_8_v15349}"
+    new "Ноэль умрёт… как жена принца. Я хочу умереть здесь.{#ch5_8_v15349}"
 
 translate russian strings:
     old "There she is! The princess!{#ch5_8_v1415}"

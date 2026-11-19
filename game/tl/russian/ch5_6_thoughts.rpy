@@ -4,11 +4,11 @@ translate russian strings:
     old "Hah… practice is off today, isn't it?{#ch5.6_th_001}"
     new "Хм… занятий сегодня не будет."
 
-    old "Wealthy-sama said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
-    new "Господин Уэзерби сказал, что завтра наконец объявят финальный распределитель ролей…"
+    old "Weatherby-san said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
+    new "Госпожа Уэзерби сказала, что завтра наконец объявят финальный отбор актёров…"
 
     old "I wonder how it's going to turn out? Really...{#ch5.6_th_003}"
-    new "Как же это обернётся? Настояще…"
+    new "Как же это обернётся? Правда…"
 
     old "It's a rare day off... what should I do?{#ch5.6_th_004}"
     new "Такой редкий выходной… что делать?"
@@ -20,25 +20,25 @@ translate russian strings:
     new "Они практикуются с таким усердием, что я никогда бы не подумал."
 
     old "Huh? Louise and Guiche together? That's rare.{#ch5.6_th_007}"
-    new "Хм? Луиза и Гюиш вместе? Это редкость."
+    new "Хм? Луиза и Гиш вместе? Это редкость."
 
     old "Could it be that Guiche... is hitting on Louise?!{#ch5.6_th_008}"
-    new "Неужели этот Гюиш… заигрывает с Луизой!?"
+    new "Неужели этот Гиш… заигрывает с Луизой!?"
 
     old "Eat this, Guiche!{#ch5.6_th_009}"
-    new "Получи, Гюиш!"
+    new "Получи, Гиш!"
 
     old "Hehehe. Heaven's punishment succeeded! Now for the second shot...{#ch5.6_th_010}"
     new "Хи-хи-хи. Небесное возмездие удалось! Сейчас второй выстрел…"
 
     old "Huh? Siesta and Montmon... what a rare combination.{#ch5.6_th_011}"
-    new "Хм? Сиеста и Момон… какая редкая комбинация."
+    new "Хм? Сиеста и Монмон… какая редкая комбинация."
 
     old "Even rare things happen.{#ch5.6_th_012}"
     new "Бывают и редкие вещи."
 
     old "Huh? Tabitha and the princess are here. The princess looks quite troubled...{#ch5.6_th_013}"
-    new "Хм? Табита и принцесса здесь. Принцесса выглядит весьма troubled…"
+    new "Хм? Табита и принцесса здесь. Принцесса явно чувствует себя неловко…"
 
     old "…….{#ch5.6_th_014}"
     new "……."

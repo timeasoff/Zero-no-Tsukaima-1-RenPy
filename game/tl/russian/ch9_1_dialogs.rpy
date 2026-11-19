@@ -184,7 +184,7 @@ translate russian strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "Ну, меня же Луиза призвала, / вот и обо мне тут с тех пор всё время заботились."
 
-    old "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
+    old "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
     new "Сайто — не фамильяр Луизы. / То, что о нём заботятся, — само собой разумеется. / А я — не то…"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
@@ -202,8 +202,8 @@ translate russian strings:
     old "Theater, the theater. {#ch9_ha_004}"
     new "В театр, в театр."
 
-    old "Theater? I mean, isn't Weatherly's theater / out of business? {#ch9_s_045}"
-    new "В театр? Погоди, разве труппа Везерли / не распалась?"
+    old "Theater? I mean, isn't Weatherby's theater / out of business? {#ch9_s_045}"
+    new "В театр? Погоди, разве труппа Уэзерби / не распалась?"
 
     old "No. Another theater troupe saw that play / and scouted me because they liked me. {#ch9_ha_005}"
     new "Нет. Другая труппа посмотрела тот спектакль / и пригласила меня, потому что я им понравилась."
@@ -238,8 +238,8 @@ translate russian strings:
     old "So she found her own path in life. {#ch9_h_023}"
     new "Значит, она нашла свой собственный путь в жизни."
 
-    old "Yes. Thanks to her. {#ch9_s_052}"
-    new "Да. Благодаря ей."
+    old "Yes. Thanks to you. {#ch9_s_052}"
+    new "Да. Благодаря вам."
 
     old "I wished I could meet her one last time. {#ch9_h_024}"
     new "Мне так хотелось встретиться с ней ещё раз напоследок. / Какая жалость."
@@ -247,14 +247,14 @@ translate russian strings:
     old "I wanted to thank and apologize to her, / but she's already left. {#ch9_h_025}"
     new "Я хотела поблагодарить её и извиниться, / но она уже ушла. Ничего не поделаешь."
 
-    old "And yet, I can't celebrate everyone's efforts, / which is the hardest part. {#ch9_h_026}"
-    new "И всё же самое горькое — то, что я не могу / вознаградить старания каждого."
+    old "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
+    new "К тому же самое горькое — то, что я не могу / вознаградить старания каждого."
 
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"
     new "Тут уж ничего не поделаешь. / Все знают, что огласка / была бы проблемой."
 
-    old "And then there's Weatherly, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
-    new "К тому же Везерли, Харуна, / да ещё дело Пустоты и секретные вопросы — / всё навалилось разом."
+    old "And then there's Weatherby, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
+    new "К тому же Уэзерби, Харуна, / да ещё дело Пустоты и секретные вопросы — / всё навалилось разом."
 
     old "Nobles exist to protect the common folk. / Everyone understands that. {#ch9_l_003}"
     new "Дворяне существуют, чтобы защищать простой народ. / Это все понимают."
@@ -277,7 +277,7 @@ translate russian strings:
     old "Huh? {#ch9_s_055}"
     new "А?"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    old "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
     new "Э… э-э-э?! / П-п-принцесса целует вас?!"
 
     old "And… / on the lips… {#ch9_l_005}"
@@ -316,8 +316,8 @@ translate russian strings:
     old "Oh. / I wasn't teasing. {#ch9_h_032}"
     new "О. / Я вовсе не дразнила."
 
-    old "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
-    new "Ну и ну. / Мой фамильяр тоже попал в переплёт."
+    old "Goodness. / My partner's in trouble too. {#ch9_d_002}"
+    new "Ну и ну. / Мой напарник тоже попал в переплёт."
 
     old "This idiot! / This idiot! / This big idiot!! {#ch9_l_009}"
     new "Идиот! / Идиот! / Большущий идиот!!"

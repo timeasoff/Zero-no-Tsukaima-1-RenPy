@@ -410,7 +410,7 @@ label ch5_3:
     w "Before we get to explaining the rehearsal, let me tell you a little more about the finer details of 'The Maiden of the Twin Moons'."
     # JA[15929]: それでは練習の説明に入る前に / 『双月天女』のもう少し細かい内容の / 説明をするわ。
     voice "ch5.3_w_003"
-    w "For now, it's an old story. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
+    w "It's a tale from long ago. In a certain country, an aged nobleman found a little girl in a forest on a hunt."
     # JA[15930]: 今は昔の物語。 / ある国で、年老いた貴族が、狩猟の途中の森で / 幼い少女を拾ったの。
     voice "ch5.3_w_004"
     w "The old noble couple, who had been blessed with no children, decided to raise that girl, Noelle, as their own."
@@ -577,7 +577,7 @@ label ch5_3:
     voice "ch5.3_l_019"
     l "U-um…{#ch5_3_v6228}"
     # JA[6228]: え、ええと……。
-    th "'A friend'… I suppose she means a ninja{#ch5_3_th_012}"
+    th "'A friend'… I suppose she means she's incognito{#ch5_3_th_012}"
     # JA: （『お友達』って……。 / 　つまり、お忍びだって言いたいのか）
     th "Even so… W-what are you thinking?! Th-that princess, she…!{#ch5_3_th_013}"
     # JA: （それにしたって……。 / 　な、なに考えてるんだよ！ / 　あの、お姫さまは！）
@@ -885,7 +885,7 @@ label ch5_3:
             # [lay3 +867 → m 2 angry]
             $ show_sprites(("s 1 angry", "m 2 angry"))
             voice "ch5.3_m_006"
-            m "I understand it's an emergency, but will you do something about the way you call him?"
+            m "I understand it's an emergency, but will you do something about the way you call me?"
             # JA[4082]: 緊急なのは分かるけど、 / その呼び方、そろそろ直してくださらない？
             # [lay5 +429 → s 3 sad]
             $ show_sprites(("s 3 sad", "m 2 angry"))
@@ -948,7 +948,7 @@ label ch5_3:
     # [lay1 +313 → l 6]
     $ show_sprites(("k 2", "l 6"))
     voice "ch5.3_l_021"
-    l "…I hate the way you make a scene in the middle of things. It looks like running away."
+    l "…I hate the way you give up halfway, like you do. It looks like running away."
     # JA[6230]: ……あなたみたいに途中で音をあげるのは、 / 逃げ出すみたいで嫌いだし。
     # [lay6 +691 → k 2 angry]
     $ show_sprites(("k 2 angry", "l 6"))

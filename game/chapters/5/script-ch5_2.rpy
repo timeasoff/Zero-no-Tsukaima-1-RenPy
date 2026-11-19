@@ -413,7 +413,7 @@ label ch5_2:
             # [lay5 +429 → s 3 sad]
             $ show_sprites(("k 1", "s 3 sad"))
             voice "ch5.2_s_013"
-            s "Kirche, what about the lock? It's obvious what we're after, right?"
+            s "Kirche, what about the lock? Naturally it's locked, right?"
             # JA[11629]: キュルケ、鍵はどうする？ / 当然かかってるよな。
             # [lay6 +678 → k 1 happy]
             $ show_sprites(("k 1 happy", "s 3 sad"))
@@ -663,7 +663,7 @@ label ch5_2:
     w "Who is it! — Oh, you people, from this afternoon…"
     # JA[15904]: 誰だ！ / って、きみ達は昼間の……。
     voice "ch5.2_ha_011"
-    ha "I-I're sorry. We didn't mean to peek…"
+    ha "I-I'm sorry. We didn't mean to peek…"
     # JA[2353]: ご、ごめんなさい。 / 覗くつもりは……。
     # [lay20 hide]
     # [lay5 hide]

@@ -1,0 +1,148 @@
+SCRIPT STRINGS: 139
+MISSING IN JA: 0
+MISSING IN RU: 0
+DUP OLD (JA among part strings): 0
+DUP OLD (RU among part strings): 0
+EMPTY NEW (matched): 0
+JA_NEW == RU_NEW (suspicious): 0
+WITH TRANSLATOR COMMENT {#...}: 19
+=== ALL STRINGS (line|kind|text) ===
+28|dialog|I feel strangely heavy-hearted. To be summoned so suddenly. Whatever could it be about?
+34|dialog|If even the Headmaster doesn't know, then maybe it's some private matter she wants to discuss with you?
+40|dialog|That can't be. Her Highness wouldn't go out of her way to summon me over something personal.
+46|dialog|Um… Everyone, what exactly was that discussion about?
+52|dialog|Ah, Louise — is it all right if I tell Siesta what we talked about earlier?
+55|dialog|It's fine, isn't it? She'll find out soon enough anyway.
+61|dialog|You see, Her Highness summoned me and Louise. And it turns out we're going to Tristania.
+67|dialog|Wh-what, to Her Majesty the Queen!?
+73|dialog|H-hey, you're too loud. Listen, this is a secret just between us.
+79|dialog|Yes, understood.{#ch4.2_si_003}
+85|dialog|And on top of that, the Headmaster asked me to introduce Haruna to Her Highness, so Haruna's coming along too.
+91|dialog|Is that so…
+97|dialog|Um… Louise-san.
+103|dialog|What is it, Haruna?{#ch4.2_l_005}
+109|dialog|Louise-san, are you acquainted with Her Majesty the Queen?
+115|dialog|Yes. When I was little, I served as Her Highness's playmate.
+121|dialog|So if you put it another way, you and Her Highness are childhood friends?
+127|dialog|Well, I suppose that's how it amounts to. But don't go speaking of this too carelessly, all right?
+130|dialog|Her Highness is now the Queen who supports a whole nation.
+136|dialog|A mere noble or commoner is not permitted to address her so lightly.
+142|dialog|Still, the real problem is why we were summoned.
+148|dialog|You think it's about Haruna after all?
+154|dialog|Wh-what, about me…?
+157|dialog|Hmm, I still don't know. Still, it seems the Headmaster's arrangements will settle things peaceably…
+160|dialog|…
+166|dialog|It'll be fine, Haruna. If it comes to it, I'll protect you.
+172|dialog|Oho, as expected of my partner. Aren't you the cool one.
+178|dialog|W-wait a moment. You mustn't go causing trouble at the royal palace.
+184|dialog|It'll be fine, I said. It was just an example.
+190|dialog|Good grief…
+196|dialog|Um… Miss Vallière.
+199|dialog|Siesta, what is it?
+205|dialog|What's to become of me?
+211|dialog|Ah, about that. I'll ask you to stay behind and mind this room, Siesta.
+217|dialog|What!? Am I not allowed to come along too?
+223|dialog|You may not. The ones summoned by Her Majesty are me and Saito. Haruna is going for the Headmaster's business.
+226|dialog|You have no business there, do you, Siesta? We can't bloat the party for no reason.
+232|dialog|That's…{#ch4.2_si_008}
+238|dialog|Can't we bring at least Siesta? You know, to look after us…
+241|dialog|No.{#ch4.2_l_018}
+247|dialog|Saito-san, thank you. But it's just as Miss Vallière says. I'll stay behind, then.
+253|dialog|Siesta…
+259|dialog|Well then, I have my work to attend to as well. If you'll excuse me.
+265|dialog|Then let's break up for now, shall we? Assemble before the carriage.
+271|dialog|Understood.{#ch4.2_s_011}
+277|dialog|Yes.{#ch4.2_ha_005}
+282|dialog|Now then, what should I do…{#ch4.2_th_225}
+327|dialog|Hey, what are you making such a mess for? The floor's covered in clothes.
+333|dialog|Hey, Saito! If you've got time to stand there spacing out, then help me!
+342|dialog|Louise, what have you been doing all this time? My packing was finished long ago.
+348|dialog|A girl needs all sorts of preparations before going out.
+354|dialog|Besides, I've been leaving everything to you lately, so I don't even know what's where…
+356|dialog|Honestly, this is what I get for letting her dump everything on me.
+361|menu|Give her a hand.{#ch4.2_m1342a}
+364|menu|I don't want to help.{#ch4.2_m1342b}
+367|menu|Offer to help, on one condition.{#ch4.2_m1342c}
+378|dialog|All right, I'll help you.
+384|dialog|Really?{#ch4.2_l_023}
+394|dialog|At this rate, it'll never get finished.
+400|dialog|Since I'm in such a good mood, just help me quietly!
+414|dialog|Wha—. So I'm the one helping, huh.
+420|dialog|It's your master's order. No complaints.
+431|dialog|I don't mind helping, but… I do have one condition.
+437|dialog|A condition? Go on, try saying it, just in case.
+443|dialog|I'd like tonight's dinner to have one extra dish… something like that. Is that a no?
+449|dialog|Rejected. Keep talking nonsense and I'll cut you off from dinner entirely!
+464|dialog|Yeah, yeah, understood. So, what's left?
+470|dialog|A change of clothes…
+473|dialog|I see. Since you never tidy up normally, you can't find where anything is.
+479|dialog|Ugh.
+485|dialog|Er, how many days' worth do you need?
+491|dialog|…Th-that is. Two or three days' worth at most should be… enough… I think…
+497|dialog|Yeah, yeah, about three days. Do you need clothes other than the school uniform too?
+503|dialog|M-maybe I do…
+509|dialog|Do you have a fever? Your face is bright red, you know?
+515|dialog|Oh, be quiet! J-just hurry up and pack it already.
+521|dialog|I'll pack it properly even without being told.
+527|dialog|Still, though it's odd for a guy to say it, I've gotten rather good at folding clothes lately.
+530|dialog|Look, Louise. This folding, and this neatening.
+536|dialog|Even if I said a girl did this, it'd pass.
+542|dialog|And this whiteness of the fabric. You could call it a masterstroke of hand-washing.
+548|dialog|Enough already! A-ah, ahh, I'll do the rest myself! Get out of this room right now, at once!
+554|dialog|What's the matter, Louise? Did I do something to offend you?
+560|dialog|N-nothing. I'm telling you, I'll do it myself after all.
+562|dialog|What on earth's gotten into her?
+578|dialog|Then, Miss Vallière. Do be careful on the road.
+584|dialog|Yes. Thank you, Professor Colbert.
+590|dialog|Mind yourselves on the road. If anything happens, send word at once.
+596|dialog|Understood. I'm grateful you've prepared such a fine carriage for us.
+599|dialog|Hmm, no thanks needed.
+605|dialog|Come, Her Majesty must be waiting for you with bated breath. Off you go, and do be careful.
+608|dialog|Yes, then we'll be on our way.
+614|dialog|Saito-kun, I'm counting on you to look after the two of them.
+620|dialog|Yes, I'll do my best.
+623|dialog|Haruna-kun, once you're there, follow the instructions of Miss Vallière and Saito-kun.
+629|dialog|Yes, I understand.
+635|dialog|Now then, let's get into the carriage.
+640|dialog|So, about that carriage — it's got two-person seats facing each other…
+645|dialog|Louise and Haruna are sitting across from each other. Now then, whose side should I sit on…
+651|dialog|What are you standing around for? Hurry up and sit next to me!
+654|dialog|Hiraga-kun, you can sit next to me too, you know? I feel bad, the way Louise-san ends up cramped.
+660|dialog|Ah, what should I do…
+664|menu|Sit next to Louise.{#ch4.2_m231a}
+667|menu|Sit next to Haruna.{#ch4.2_m231b}
+670|menu|Waver over which seat.{#ch4.2_m231c}
+680|dialog|Well then, I guess I'll go with sitting next to Louise?
+686|dialog|Th-that's right!? Th-that's… that's perfectly fine, isn't it.
+696|dialog|Mm…
+704|dialog|Ahh… Haruna, why do you look away so wistfully…
+717|dialog|All right, I'll sit next to Haruna.
+726|dialog|Wh-what! It's fine… it's fine! Do whatever you like, Saito, that's all there is to it!
+736|dialog|Huh? What are you getting angry for?
+739|dialog|It's none of your business, Saito.
+751|dialog|Whose side should I sit on… Somehow it looks like I'll ruffle feathers whichever I pick.
+757|dialog|Oh, just make up your mind already! Or would you rather be loaded up with the rest of the luggage?
+763|dialog|Please, anything but that.
+777|dialog|A bloodbath.
+783|dialog|Aww. Darling, sneaking off on us like that — how cold of you.
+789|dialog|Kirche, Tabitha.
+795|dialog|Hey there, don't go forgetting about us, either.
+798|dialog|Guiche, Montmon.
+804|dialog|For the last time, it's not Montmon. You're doing that on purpose, aren't you?
+810|dialog|N-no, sorry. But why are you all here?
+816|dialog|We came to see you off. I thought we'd watch over your departure.
+822|dialog|I see. Thanks.{#ch4.2_s_039}
+828|dialog|Tug, tug.
+834|dialog|Hm? What is it, Tabitha?
+840|dialog|You, over here.
+846|dialog|？？？？{#ch4.2_s_041}
+852|dialog|You and you, over here.
+858|dialog|？？？？{#ch4.2_s_042}
+864|dialog|Tabitha's saying that Louise and Haruna should sit together, and you on the opposite side, darling.
+867|dialog|That way, the two of them are even.
+873|dialog|Ah, I see. Thanks, Tabitha. What, it was simple after all.
+879|dialog|……{#ch4.2_l_044}
+882|dialog|……{#ch4.2_ha_009}
+888|dialog|Then, everyone, we'll be off.
+894|dialog|Do your best out there.
+896|dialog|And so, at last, we set out from the Academy of Magic.

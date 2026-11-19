@@ -513,7 +513,7 @@ translate japanese strings:
     old "Is it wrong of me to look after Haruna?{#ch3_m173a}"
     new "春奈の面倒見てちゃ悪いのか？"
 
-    old "You didn't need to worry about her.{#ch3_m173b}"
+    old "I'm worried about you…{#ch3_m173b}"
     new "おまえのことが心配で……"
 
     old "I'm just saying something objective.{#ch3_m173c}"
@@ -716,7 +716,7 @@ translate japanese strings:
     old "I can't explain it — I just know.{#ch3_m1069b}"
     new "なんとなくだけど、分かるぜ"
 
-    old "It's written on your face.{#ch3_m1069c}"
+    old "It's written on Tabitha's face.{#ch3_m1069c}"
     new "タバサの顔を見れば分かるよ"
 
     old "Because you're an exhibitionist?{#ch3_m1074a}"

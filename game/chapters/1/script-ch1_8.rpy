@@ -6,7 +6,7 @@ label ch1_8:
     g "Oh? I hear the four of you have been summoned by the Headmaster. What on earth happened?"
 
     $ show_sprites(("g 1"), mode="big")
-    th "Guishe is Louise's classmate. He specializes in Earth system magic. He knows as 'Guishe the Bronze'."
+    th "Guiche is Louise's classmate. He specializes in Earth system magic. He's known as 'Guiche the Bronze'."
     th "He's a womanizer and a show-off, but you just can't hate the guy."
 
     $ show_sprites(("l 1", "g 1"))

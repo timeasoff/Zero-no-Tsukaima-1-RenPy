@@ -48,7 +48,7 @@ translate japanese strings:
     old "So, what is it, Louise? {#ch8_h_044}"
     new "それで、どうしたのですかルイズ？"
 
-    old "Yes. Actually, I came to ask for Her Majesty's permission. {#ch8_l_020}"
+    old "Yes. Actually, I came to ask for the Princess's permission. {#ch8_l_020}"
     new "ああ、そうです。実は、姫さまにご許可をいただきたいと思いまして、参りました。"
 
     old "Permission? What for? {#ch8_h_045}"
@@ -75,13 +75,13 @@ translate japanese strings:
     old "Yes. At this point, I can't afford to hesitate. {#ch8_l_024}"
     new "そうよ。ここまで来たら迷ってなんていられないもの。"
 
-    old "For that, I want Her Majesty's permission. {#ch8_l_025}"
+    old "For that, I want the Princess's permission. {#ch8_l_025}"
     new "そのために、ぜひ、姫さまのご許可をいただきたいのです。"
 
     old "Permission to use Void Magic. {#ch8_h_048}"
     new "虚無の魔法の使用許可ですね。"
 
-    old "Yes. Permission to use Void Magic in Tristain. {#ch8_l_026}"
+    old "Yes. Permission to use Void Magic in Tristania. {#ch8_l_026}"
     new "はい。虚無の魔法をトリスタニアで使用する許可です。"
 
     old "Wait! What are you thinking?! {#ch8_s_067}"
@@ -141,7 +141,7 @@ translate japanese strings:
     old "Princess, please return to the castle and give orders to the army. {#ch8_l_039}"
     new "姫さまには、お城に戻って軍への指示をお願いします。"
 
-    old "Understood. Louise, I grant permission to use Void Magic in Tristain. {#ch8_h_050}"
+    old "Understood. Louise, I grant permission to use Void Magic in Tristania. {#ch8_h_050}"
     new "分かりました。ルイズ、トリスタニアでの虚無の魔法の使用を許可します。"
 
     old "Yes! {#ch8_l_040}"
@@ -159,7 +159,7 @@ translate japanese strings:
     old "If there's a way to fight, there's no reason not to. Being on the receiving end goes against my principles. {#ch8_k_006}"
     new "打つ手があるのなら、それをしない理由なんてないわね。やられっぱなしは、あたしの主義に反するのよ。"
 
-    old "Right side same. {#ch8_t_001}"
+    old "Same here. {#ch8_t_001}"
     new "右に同じ。"
 
     old "Thank you. {#ch8_l_042}"
@@ -177,7 +177,7 @@ translate japanese strings:
     old "It'll be fine. I'll come back safely. You stay at the inn and wait. {#ch8_s_074}"
     new "大丈夫だって。無事に帰ってくる。きみは宿屋に残って、待っててくれ。"
 
-    old "Understood. Please… come back safely… {#ch8_si_009}"
+    old "Understood. Please… be sure to come back to me… {#ch8_si_009}"
     new "分かりました。必ず……戻ってきてくださいね……。"
 
     old "Yeah, I'll be fine. {#ch8_s_075}"
@@ -201,7 +201,7 @@ translate japanese strings:
     old "I don't know what you'll do, but if that's the only option, we'll do what we can. {#ch8_k_009}"
     new "何をするのか分からないけど、それしか手がないっていうのなら、あたし達にできることをするだけよ。"
 
-    old "Although, it's not fun that Variel will take the good parts. {#ch8_k_010}"
+    old "Although, it's not fun that Vallière will take the good parts. {#ch8_k_010}"
     new "もっとも、ヴァリエールにいいところを持ってかれるとこが面白くないけどね。"
 
     old "The critical moment. {#ch8_t_002}"
@@ -225,7 +225,7 @@ translate japanese strings:
     old "Louise, you're heading to the castle. {#ch8_h_053}"
     new "ルイズ、城に向かうのですね。"
 
-    old "Yes. Princess, please wait here a while. I will restore peace to this Tristain. {#ch8_l_047}"
+    old "Yes. Princess, please wait here a while. I will restore peace to this Tristania. {#ch8_l_047}"
     new "はい。姫さまは今しばらくここでお待ちください。このトリスタニアに平和を取り戻してきます。"
 
     old "W-W-W-Well, Princess!? That's too reckless! {#ch8_l_048}"

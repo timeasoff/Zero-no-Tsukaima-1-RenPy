@@ -1,0 +1,1600 @@
+{
+  "parts": {
+    "2_1": {
+      "counts": {
+        "a": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->RU": 2
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 1
+          }
+        },
+        "c": {
+          "n": 2,
+          "pair": {
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 1
+          }
+        },
+        "phase1_n": 5
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 6
+      }
+    },
+    "2_2": {
+      "counts": {
+        "a": {
+          "n": 13,
+          "pair": {
+            "JA->RU": 10,
+            "JA->EN": 3
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 12
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 4,
+            "WARNING": 1
+          }
+        },
+        "phase1_n": 7
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 5
+      }
+    },
+    "2_3": {
+      "counts": {
+        "a": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 3,
+            "CANDIDATE": 2
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "phase1_n": 4
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 5
+      }
+    },
+    "2_4": {
+      "counts": {
+        "a": {
+          "n": 11,
+          "pair": {
+            "JA->RU": 10,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 5,
+            "CANDIDATE": 6
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 3
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 16
+      },
+      "files": {
+        "a": 3,
+        "b": 1,
+        "c": 3,
+        "phase1": 3,
+        "precheck": 12
+      }
+    },
+    "2_4b": {
+      "counts": {
+        "a": {
+          "n": 11,
+          "pair": {
+            "JA->RU": 10,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 5,
+            "CANDIDATE": 6
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 3
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 16
+      },
+      "files": {
+        "a": 3,
+        "b": 2,
+        "c": 3,
+        "phase1": 3,
+        "precheck": 12
+      }
+    },
+    "2_4c": {
+      "counts": {
+        "a": {
+          "n": 11,
+          "pair": {
+            "JA->RU": 10,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 5,
+            "CANDIDATE": 6
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 3
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 16
+      },
+      "files": {
+        "a": 3,
+        "b": 2,
+        "c": 3,
+        "phase1": 3,
+        "precheck": 12
+      }
+    },
+    "2_5": {
+      "counts": {
+        "a": {
+          "n": 6,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 4,
+            "CANDIDATE": 2
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 1
+          },
+          "sev": {
+            "ERROR": 2
+          }
+        },
+        "c": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 3
+          }
+        },
+        "phase1_n": 10
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 6
+      }
+    },
+    "2_5b": {
+      "counts": {
+        "a": {
+          "n": 6,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 4,
+            "CANDIDATE": 2
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 1
+          },
+          "sev": {
+            "ERROR": 2
+          }
+        },
+        "c": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 3
+          }
+        },
+        "phase1_n": 10
+      },
+      "files": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 6
+      }
+    },
+    "2_6": {
+      "counts": {
+        "a": {
+          "n": 7,
+          "pair": {
+            "JA->RU": 6,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 5,
+            "WARNING": 2
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 1,
+          "pair": {
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 1
+          }
+        },
+        "phase1_n": 6
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "2_7": {
+      "counts": {
+        "a": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 3
+          }
+        },
+        "b": {
+          "n": 7,
+          "pair": {
+            "JA->EN": 7
+          },
+          "sev": {
+            "WARNING": 7
+          }
+        },
+        "c": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "phase1_n": 8
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "2_8": {
+      "counts": {
+        "a": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 4,
+            "WARNING": 1
+          }
+        },
+        "b": {
+          "n": 4,
+          "pair": {
+            "JA->EN": 3,
+            "JA->RU": 1
+          },
+          "sev": {
+            "ERROR": 2,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 2,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 4
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "3_1": {
+      "counts": {
+        "a": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 3
+          },
+          "sev": {
+            "CANDIDATE": 3
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 2,
+          "pair": {
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 2
+          }
+        },
+        "phase1_n": 2
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "3_2": {
+      "counts": {
+        "a": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 2
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 3
+          }
+        },
+        "phase1_n": 5
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "3_3": {
+      "counts": {
+        "a": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 3
+          },
+          "sev": {
+            "WARNING": 3
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 1
+          }
+        },
+        "phase1_n": 1
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "3_4": {
+      "counts": {
+        "a": {
+          "n": 8,
+          "pair": {
+            "JA->RU": 6,
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 5,
+            "WARNING": 3
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 2
+          },
+          "sev": {
+            "ERROR": 2,
+            "WARNING": 1
+          }
+        },
+        "c": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 3
+          }
+        },
+        "phase1_n": 8
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "3_5": {
+      "counts": {
+        "a": {
+          "n": 14,
+          "pair": {
+            "JA->RU": 11,
+            "JA->EN": 3
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 8,
+            "CANDIDATE": 5
+          }
+        },
+        "b": {
+          "n": 4,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 2
+          },
+          "sev": {
+            "MEDIUM": 4
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "CANDIDATE": 3,
+            "WARNING": 1
+          }
+        },
+        "phase1_n": 8
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 5
+      }
+    },
+    "3_6": {
+      "counts": {
+        "a": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 2
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 1
+          }
+        },
+        "phase1_n": 6
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "3_7": {
+      "counts": {
+        "a": {
+          "n": 12,
+          "pair": {
+            "JA->RU": 9,
+            "JA->EN": 3
+          },
+          "sev": {
+            "WARNING": 6,
+            "CANDIDATE": 5,
+            "ERROR": 1
+          }
+        },
+        "b": {
+          "n": 1,
+          "pair": {
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 1
+          }
+        },
+        "c": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 1
+          }
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "3_8": {
+      "counts": {
+        "a": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 4
+          },
+          "sev": {
+            "WARNING": 3,
+            "CANDIDATE": 1
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 2,
+          "pair": {
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 1
+          }
+        },
+        "phase1_n": 5
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 3
+      }
+    },
+    "3_9": {
+      "counts": {
+        "a": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 3,
+            "CANDIDATE": 1
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "4_1": {
+      "counts": {
+        "a": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 4
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 3
+          }
+        },
+        "c": {
+          "n": 2,
+          "pair": {
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 11
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 6
+      }
+    },
+    "4_2": {
+      "counts": {
+        "a": {
+          "n": 9,
+          "pair": {
+            "JA->RU": 7,
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 6,
+            "WARNING": 3
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 7
+      }
+    },
+    "4_2b": {
+      "counts": {
+        "a": {
+          "n": 9,
+          "pair": {
+            "JA->RU": 7,
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 6,
+            "WARNING": 3
+          }
+        },
+        "b": {
+          "n": 1,
+          "pair": {
+            "JA->EN": 1
+          },
+          "sev": {
+            "ERROR": 1
+          }
+        },
+        "c": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 7
+      }
+    },
+    "4_3": {
+      "counts": {
+        "a": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 5
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 3
+          }
+        },
+        "b": {
+          "n": 5,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 3
+          },
+          "sev": {
+            "WARNING": 3,
+            "ERROR": 1,
+            "INFO": 1
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 4
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 3
+          }
+        },
+        "phase1_n": 5
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "4_4": {
+      "counts": {
+        "a": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 3
+          }
+        },
+        "b": {
+          "n": 1,
+          "pair": {
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 1
+          }
+        },
+        "c": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 3
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 1
+          }
+        },
+        "phase1_n": 0
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 0,
+        "precheck": 6
+      }
+    },
+    "4_5": {
+      "counts": {
+        "a": {
+          "n": 8,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 4
+          },
+          "sev": {
+            "CANDIDATE": 4,
+            "WARNING": 4
+          }
+        },
+        "b": {
+          "n": 1,
+          "pair": {
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 1
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 2
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 11
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "4_6": {
+      "counts": {
+        "a": {
+          "n": 37,
+          "pair": {
+            "JA->RU": 32,
+            "JA->EN": 5
+          },
+          "sev": {
+            "CANDIDATE": 23,
+            "WARNING": 13,
+            "ERROR": 1
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 7,
+          "pair": {
+            "JA->RU": 6,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 4,
+            "CANDIDATE": 3
+          }
+        },
+        "phase1_n": 0
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 0,
+        "precheck": 7
+      }
+    },
+    "5_1": {
+      "counts": {
+        "a": {
+          "n": 16,
+          "pair": {
+            "JA->RU": 13,
+            "JA->EN": 3
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 4,
+            "CANDIDATE": 11
+          }
+        },
+        "b": {
+          "n": 4,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 2
+          },
+          "sev": {
+            "ERROR": 2,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 10,
+          "pair": {
+            "JA->RU": 8,
+            "JA->EN": 2
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 7,
+            "CANDIDATE": 2
+          }
+        },
+        "phase1_n": 27
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 7
+      }
+    },
+    "5_2": {
+      "counts": {
+        "a": {
+          "n": 21,
+          "pair": {
+            "JA->RU": 19,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 7,
+            "CANDIDATE": 12,
+            "ERROR": 2
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 2
+          },
+          "sev": {
+            "LOW": 3
+          }
+        },
+        "c": {
+          "n": 10,
+          "pair": {
+            "JA->RU": 9,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 5,
+            "CANDIDATE": 5
+          }
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 6
+      }
+    },
+    "5_3": {
+      "counts": {
+        "a": {
+          "n": 18,
+          "pair": {
+            "JA->RU": 16,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 8,
+            "CANDIDATE": 10
+          }
+        },
+        "b": {
+          "n": 4,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 2
+          },
+          "sev": {
+            "ERROR": 4
+          }
+        },
+        "c": {
+          "n": 7,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 3
+          },
+          "sev": {
+            "ERROR": 1,
+            "WARNING": 6
+          }
+        },
+        "phase1_n": 26
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 9
+      }
+    },
+    "5_4": {
+      "counts": {
+        "a": {
+          "n": 29,
+          "pair": {
+            "JA->RU": 27,
+            "JA->EN": 2
+          },
+          "sev": {
+            "ERROR": 3,
+            "CANDIDATE": 15,
+            "WARNING": 11
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 1
+          }
+        },
+        "c": {
+          "n": 7,
+          "pair": {
+            "JA->RU": 6,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 5,
+            "CANDIDATE": 2
+          }
+        },
+        "phase1_n": 10
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 1,
+        "precheck": 6
+      }
+    },
+    "5_5": {
+      "counts": {
+        "a": {
+          "n": 15,
+          "pair": {
+            "JA->RU": 15
+          },
+          "sev": {
+            "WARNING": 4,
+            "CANDIDATE": 11
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 5,
+          "pair": {
+            "?": 5
+          },
+          "sev": {
+            "WARNING": 3,
+            "CANDIDATE": 2
+          }
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 2,
+        "b": 1,
+        "c": 2,
+        "phase1": 2,
+        "precheck": 7
+      }
+    },
+    "5_6": {
+      "counts": {
+        "a": {
+          "n": 9,
+          "pair": {
+            "JA->RU": 8,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 6,
+            "CANDIDATE": 3
+          }
+        },
+        "b": {
+          "n": 6,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 3,
+            "JA->EN, JA->RU": 1
+          },
+          "sev": {
+            "ERROR": 4,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->RU": 4
+          },
+          "sev": {
+            "CANDIDATE": 2,
+            "WARNING": 2
+          }
+        },
+        "phase1_n": 0
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 0,
+        "precheck": 6
+      }
+    },
+    "5_7": {
+      "counts": {
+        "a": {
+          "n": 14,
+          "pair": {
+            "JA->RU": 12,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 12
+          }
+        },
+        "b": {
+          "n": 3,
+          "pair": {
+            "JA->RU": 2,
+            "JA->EN": 1
+          },
+          "sev": {
+            "MEDIUM": 1,
+            "LOW": 2
+          }
+        },
+        "c": {
+          "n": 4,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 4
+          }
+        },
+        "phase1_n": 14
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 4
+      }
+    },
+    "5_8": {
+      "counts": {
+        "a": {
+          "n": 6,
+          "pair": {
+            "JA->RU": 5,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 4
+          }
+        },
+        "b": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "c": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 3,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 1,
+            "CANDIDATE": 4
+          }
+        },
+        "phase1_n": 11
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 10
+      }
+    },
+    "5_9": {
+      "counts": {
+        "a": {
+          "n": 8,
+          "pair": {
+            "JA->RU": 6,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 6,
+            "CANDIDATE": 2
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->EN": 1,
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 1,
+          "pair": {
+            "JA->RU": 1
+          },
+          "sev": {
+            "WARNING": 1
+          }
+        },
+        "phase1_n": 6
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 7
+      }
+    },
+    "5_10": {
+      "counts": {
+        "a": {
+          "n": 7,
+          "pair": {
+            "JA->EN": 3,
+            "JA->RU": 4
+          },
+          "sev": {
+            "CANDIDATE": 7
+          }
+        },
+        "b": {
+          "n": 6,
+          "pair": {
+            "JA->EN": 2,
+            "JA->RU": 4
+          },
+          "sev": {
+            "ERROR": 4,
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 0,
+          "pair": {},
+          "sev": {}
+        },
+        "phase1_n": 9
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 8
+      }
+    },
+    "5_11": {
+      "counts": {
+        "a": {
+          "n": 7,
+          "pair": {
+            "JA->RU": 5,
+            "JA->EN": 2
+          },
+          "sev": {
+            "WARNING": 3,
+            "ERROR": 1,
+            "CANDIDATE": 3
+          }
+        },
+        "b": {
+          "n": 2,
+          "pair": {
+            "JA->RU": 2
+          },
+          "sev": {
+            "WARNING": 2
+          }
+        },
+        "c": {
+          "n": 5,
+          "pair": {
+            "JA->RU": 4,
+            "JA->EN": 1
+          },
+          "sev": {
+            "WARNING": 2,
+            "CANDIDATE": 3
+          }
+        },
+        "phase1_n": 17
+      },
+      "files": {
+        "a": 1,
+        "b": 1,
+        "c": 1,
+        "phase1": 1,
+        "precheck": 11
+      }
+    }
+  },
+  "totals": {
+    "a_n": 367,
+    "a_CANDIDATE": 213,
+    "a_WARNING": 144,
+    "b_n": 82,
+    "b_ERROR": 28,
+    "b_WARNING": 42,
+    "c_n": 138,
+    "c_WARNING": 76,
+    "c_CANDIDATE": 60,
+    "phase1_n": 338,
+    "a_ERROR": 10,
+    "b_MEDIUM": 5,
+    "b_INFO": 1,
+    "c_ERROR": 2,
+    "b_LOW": 5,
+    "b_CANDIDATE": 1
+  },
+  "per_layer": {
+    "a": 367,
+    "b": 82,
+    "c": 138
+  }
+}

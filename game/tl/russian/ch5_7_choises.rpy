@@ -2,7 +2,7 @@ translate russian strings:
 # ===== ch5.7 regenerated =====
 
     old "I meant it...{#ch5_7_c1135}"
-    new "Я ведь не притворялся..."
+    new "Я ведь не притворялся…"
 
     old "It was only a play!{#ch5_7_c1136}"
     new "Это была всего лишь роль!"

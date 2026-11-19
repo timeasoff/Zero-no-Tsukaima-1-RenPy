@@ -1,0 +1,1124 @@
+########## CHAPTERS scenes 0076-0089 ##########
+---- SCENE 0076 ----
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+コルベール：さて、それでは授業を始めよう。
+ええと、前回はどこまで話したのかな。  [voice 991]
+  → next scene 77
+
+---- SCENE 0077 ----
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+コルベール：ああそうだ、４つの属性についての概論の
+復習について……だったね。  [voice 992]
+コルベール：では今日は、それぞれの属性について、
+もう少し詳しく説明しよう。  [voice 993]
+コルベール：きみ達も、自分の属性については経験から
+それなりに知っていることだろうが、それぞれの
+属性をきちんと把握することは重要です。  [voice 994]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：さすがに、みんな熱心に授業を受けてるなあ。
+遊んでる奴は見かけないぞ。  [voice 11020]
+サイト：（でも、俺にとっては退屈な授業なんだよなあ。
+　聞いたからって、魔法が使えるようになる
+　わけじゃないし）
+サイト：（そういえば、春奈の容態って
+　どうなんだろう？）
+サイト：（彼女の面倒はシエスタに任せてきちゃったけど、
+　シエスタだって仕事に行ってる間は
+　様子を見れてないわけだし……）
+サイト：（うーん……）
+  【選択肢】部屋に戻る → scene 78
+  【選択肢】部屋に戻らない → scene 79
+  【選択肢】どうしよう…… → scene 80
+
+---- SCENE 0078 ----
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+サイト：（よし、そうと決めたら、さっそく……）
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：ん？
+なに、どうしたの。  [voice 5747]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：いやその、悪いんだけどさ、
+俺、ちょっと授業を抜けるわ。  [voice 11021]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：ちょっと、なに言ってるのよ。
+使い魔がご主人様の授業を抜け出すなんて、
+許されると思ってるわけ？  [voice 5748]
+  【好感度】ルイズ  -10
+サイト：いいじゃん。
+良く見れば出席してない使い魔だって
+いるんだし。  [voice 11022]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：それは教室に入れない使い魔の場合でしょ。
+あんたは人間なんだから、
+黙ってそこにいなさい。  [voice 5749]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：はーい。  [voice 11023]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：（とは言ったものの、やっぱり心配だし。
+　春奈のところに行ってみるか……）
+  [SPRITE   lay5     hide]
+  → next scene 81
+
+---- SCENE 0079 ----
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+サイト：（シエスタに任せるって決めてるわけだし、
+　ここはおとなしく授業を聞いていよう）
+  【好感度】ルイズ  10
+サイト：……。  [voice 11024]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：そう、往々にしてやってしまうのが、
+言葉が持つイメージにとらわれ、
+属性の持つ多様性を自ら狭める行為であり……。  [voice 995]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay5     image=+396, level=160, dir=1A]
+サイト：（駄目だ、やっぱり全然分からん。
+　魔法が使えないと、どうにも興味が出ないな）
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：（やっぱり心配だし。
+　春奈のところに行ってみるか……）
+  [SPRITE   lay5     hide]
+  → next scene 81
+
+---- SCENE 0080 ----
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+サイト：（春奈の体調が心配だけど、
+　シエスタに任せるって決めたし、
+　授業を抜け出すのは駄目だよな……）
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：うーん、うーん……。  [voice 11025]
+  [SPRITE   lay5     x=224, y=0]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：ちょっと、どうしたの？
+さっきからうなってばっかりで……。  [voice 5750]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：いやその、悪いんだけどさ、
+俺、ちょっと授業を抜けるわ。  [voice 11026]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：ちょっと、なに言ってるのよ。
+使い魔がご主人様の授業を抜け出すなんて、
+許されると思ってるわけ？  [voice 5751]
+サイト：いいじゃん。
+良く見れば出席してない使い魔だって
+いるんだし。  [voice 11027]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：それは教室に入れない使い魔の場合でしょ。
+あんたは人間なんだから、
+黙ってそこにいなさい。  [voice 5752]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：はーい。  [voice 11028]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：（とは言ったものの、やっぱり心配だし。
+　春奈のところに行ってみるか……）
+  [SPRITE   lay5     hide]
+  → next scene 81
+
+---- SCENE 0081 ----
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：じゃ、そういうことで、後よろしく。  [voice 11029]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+17, level=200]
+  [TRANS trans("crossfade", 1000)]
+ルイズ：よろしくじゃないわよ。
+あ、こら！  [voice 5753]
+コルベール：ん？
+どうかしたかね、ミス・ヴァリエール？  [voice 996]
+ルイズ：あ、いえ、なんでもありません。
+ちょ、ちょっとバカの使い魔がトイレとか
+申しまして、おほほほほ。  [voice 5754]
+サイト：（こりゃ、帰った後、
+　相当怒られそうだな……）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     hide]
+  [SPRITE   lay1     hide]
+  [BG       stage    hide]
+  → next scene 82
+
+---- SCENE 0082 ----
+  [BG       stage    image=+14, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+11]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [SE       se0      play=+82]
+サイト：春奈？
+俺、才人だけど……。  [voice 11030]
+ハルナ：あ、平賀くん！？
+ちょ、ちょっと待って。
+今、鍵を開けるね。  [voice 2089]
+  [SE       se0      play=+57]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SE       se0      play=+56]
+  [SPRITE   lay7     image=+981, level=160, dir=1C]
+ハルナ：ど、どうしたの？
+授業中じゃなかったの？  [voice 2090]
+  [SPRITE   lay7     x=-96, y=0]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ちょっと様子を見に来たんだけど……。
+大丈夫か？
+まだ顔が赤いぞ。  [voice 11031]
+ハルナ：あ、あー……うん。
+ごめんなさい。
+まだ、具合が悪いみたい。  [voice 2091]
+サイト：そりゃまずいよ、ちゃんと寝てなきゃ。
+って、俺が起こしちまったんだよな。
+ごめんな。  [voice 11032]
+ハルナ：あ、ううん。
+そんなことないよ。  [voice 2092]
+サイト：いいからベッドに戻って。
+おとなしく寝てなきゃ。  [voice 11033]
+ハルナ：う、うん。  [voice 2093]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    image=+154, level=80]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+17]
+サイト：え、と……水は洗面器にあるな。
+タオル、タオル……。  [voice 11034]
+ハルナ：……。
+サイト：ほら、タオルで額を冷やせば少しは楽か？  [voice 11035]
+  [EVENT_CG event    image=+157, level=80]
+ハルナ：うん……ありがとう、平賀くん。  [voice 2094]
+サイト：なあに。
+これくらいしかできないけどな。  [voice 11036]
+  [EVENT_CG event    image=+155, level=80]
+ハルナ：ねぇ、平賀くん……。  [voice 2095]
+サイト：うん？  [voice 11037]
+ハルナ：平賀くんが、使い魔って本当なの？
+あのドラゴンみたいな魔物と同じ。  [voice 2096]
+サイト：んー。
+まあ、そのへんについては話せば長くなるけど、
+今はルイズの使い魔なんだ。  [voice 11038]
+サイト：まぁ、使い魔とは言っても、
+洗濯したり、掃除したり……、
+まぁ、メイドさんみたいなもんかな？  [voice 11039]
+ハルナ：ルイズさんの……メイド？  [voice 2097]
+サイト：い、いや……。
+た、たまには剣で戦ったりもしてるぞ。
+本当にたまに……だけど。  [voice 11040]
+ハルナ：戦い……。  [voice 2098]
+サイト：危険なことは何度かあったけど……。  [voice 11041]
+サイト：それでも、この見ず知らずの世界で、
+俺を養ってくれてるんだから、
+ま、俺のご主人様には間違いないよな。  [voice 11042]
+ハルナ：ねぇ……平賀くん。  [voice 2099]
+サイト：うん？  [voice 11043]
+  [EVENT_CG event    image=+157, level=80]
+ハルナ：変な話をするけどいいかな？  [voice 2100]
+サイト：変な話？
+まぁ、いいけど……。  [voice 11044]
+ハルナ：平賀くんって、こっちの世界では、
+女の子に囲まれてずいぶんと楽しそうだね。
+ちょっと……寂しいな。  [voice 2101]
+サイト：いいっ！？  [voice 11045]
+サイト：いや、別に、そんなに楽しいことなんて、
+全然ないってば。
+ホントデスヨ。  [voice 11046]
+  [EVENT_CG event    image=+155, level=80]
+ハルナ：そうなの？  [voice 2102]
+ハルナ：ルイズさんとはまんざらでもなさそうだし、
+あのシエスタさんとも
+ずいぶん仲良さそうだったけど。  [voice 2103]
+ハルナ：なんか、平賀くんってこの世界の人に
+なっちゃうのかなぁって寂しくなっちゃった。  [voice 2104]
+サイト：そ、そんなことないって。
+たまたま。
+そう、たまたまそう見えるだけ。  [voice 11047]
+ハルナ：ふうん、そうなの？  [voice 2105]
+  [SE       se0      play=+82]
+シエスタ：失礼します。  [voice 14567]
+  [SE       se0      play=+57]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay7     hide]
+  [BG       stage    hide]
+  [EVENT_CG event    hide]
+  [BG       stage    image=+10, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SPRITE   lay2     image=+491, level=160, dir=1A]
+  [BGM      bgm      play=+30]
+  [SPRITE   lay2     image=+493, level=160, dir=1A]
+シエスタ：ハルナさん、お加減はどうですか？
+って、な……なんでサイトさんが
+ここにいらっしゃるんですかあっ？  [voice 14568]
+  [SPRITE   lay2     image=+526, level=160, dir=2A]
+シエスタ：はっ、まさか、わたしやミス・ヴァリエールの
+いない隙に夜這いを敢行！？  [voice 14569]
+  [SPRITE   lay2     x=-96, y=0]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：いや、そんなことしてないから！
+それに、まだ夜じゃないし……。  [voice 11048]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+シエスタ：そう、そうよ……これは悪い夢……もしくは幻。
+ただの悪夢、そうよ！
+そうに決まってるわ！  [voice 14570]
+サイト：いやあ、その……。  [voice 11049]
+  【選択肢】春奈の様子が気になって → scene 83
+  【選択肢】忘れ物をしたんで、取りに来た → scene 84
+
+---- SCENE 0083 ----
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+10, level=200]
+サイト：春奈の様子が気になってさ……。
+それで、ついふらふらーっと。  [voice 11050]
+  [SPRITE   lay2     image=+522, level=160, dir=2A]
+シエスタ：ふうん……そうなんですか。  [voice 14571]
+  【好感度】シエスタ  -10
+  [SPRITE   lay5     hide]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay7     image=+981, level=160, dir=1C]
+ハルナ：……。  [voice 2106]
+  【好感度】ハルナ  10
+  [SPRITE   lay7     x=224, y=0]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：授業を抜け出して、２人きり……。  [voice 14572]
+サイト：いや、あの、シエスタ？  [voice 11051]
+  [SPRITE   lay7     image=+973, level=160, dir=1C]
+ハルナ：あの、平賀くんは、私のことを心配して
+来てくれたんです。
+なにもいけないことは……。  [voice 2107]
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+シエスタ：２人きり……。
+誰も見てない部屋で、２人きり……。  [voice 14573]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：シエスタ？
+あの俺、本当にやましいことはしてないって？
+証人もいるし。  [voice 11052]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：証人？
+誰ですか？
+ハルナさん……とか言いませんよね？  [voice 14574]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：いや、こいつ。  [voice 11053]
+  → next scene 85
+
+---- SCENE 0084 ----
+  [SPRITE   lay2     image=+528, level=160, dir=2A]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：忘れ物をしたんで、取りに来た。  [voice 11054]
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+シエスタ：忘れ物？
+ミス・ヴァリエールがなにか忘れたんですか？  [voice 14575]
+サイト：あ、いや、俺が忘れたんだよ。  [voice 11055]
+シエスタ：サイトさんが、ですか？
+一体、何を？  [voice 14576]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：えーと……こいつ。  [voice 11056]
+  → next scene 85
+
+---- SCENE 0085 ----
+  [SPRITE   lay2     image=+495, level=160, dir=1A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+  [BGM      bgm      play=+30]
+  [BG       stage    image=+10, level=200]
+  [SPRITE   lay2     level=156]
+  [SPRITE   lay5     level=157]
+  [SPRITE   lay19    image=+944, level=154, dir=1A]
+デルフリンガー：おいおいおい、いきなり俺に振るのかよ！  [voice 1276]
+  [SPRITE   lay2     level=155]
+  [SPRITE   lay5     level=156]
+  [SPRITE   lay19    level=160]
+サイト：なあ、デルフリンガー。
+俺、ただ部屋に戻って来て、
+春奈と話してただけだよな？  [voice 11057]
+  [SPRITE   lay2     level=156]
+  [SPRITE   lay5     level=157]
+  [SPRITE   lay19    image=+940, level=154, dir=1A]
+デルフリンガー：安心しな、相棒はホントに話してただけさ。
+別にやましいことなんてしちゃいねぇ。  [voice 1277]
+  [SPRITE   lay2     image=+489, level=154, dir=1A]
+  [SPRITE   lay5     level=157]
+  [SPRITE   lay19    level=155]
+シエスタ：そうなんですか。
+安心しました……。  [voice 14577]
+  [SPRITE   lay2     level=155]
+  [SPRITE   lay5     level=157]
+  [SPRITE   lay19    level=154]
+デルフリンガー：ホント、ホント。
+せっかく部屋に２人きり、
+しかも片方はベッドで寝てるんだ。  [voice 1278]
+  [SPRITE   lay2     level=155]
+  [SPRITE   lay5     level=157]
+  [SPRITE   lay19    image=+942, level=154, dir=1A]
+デルフリンガー：ちっとはその気になりそうなもんだけど……。
+まったく、甲斐性がねえなぁ、相棒。  [voice 1279]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay5     image=+427, level=157, dir=2A]
+サイト：甲斐性がないは余計だ。
+……とにかく、そういうことなんだ。
+分かってくれた？  [voice 11058]
+  [SPRITE   lay2     image=+491, level=154, dir=1A]
+  [SPRITE   lay5     level=157]
+シエスタ：はい。
+疑ったりして、すみませんでした。  [voice 14578]
+  [SPRITE   lay5     image=+398, level=157, dir=1A]
+サイト：あっいやいや、分かってくれれば。  [voice 11059]
+  [SPRITE   lay2     image=+489, level=154, dir=1A]
+シエスタ：でも、早く授業に戻らないと、
+ミス・ヴァリエールがお怒りになりますよ？  [voice 14579]
+  [SPRITE   lay5     image=+396, level=157, dir=1A]
+サイト：う。
+た、確かに。  [voice 11060]
+シエスタ：ハルナさんはわたしが見ておきますので、
+サイトさんは、授業にお戻りください。  [voice 14580]
+  [SPRITE   lay5     image=+390, level=157, dir=1A]
+サイト：そ、そうだな。
+じゃ、そろそろ行くな。  [voice 11061]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay7     image=+973, level=156, dir=1C]
+ハルナ：平賀くん、ありがとう。  [voice 2108]
+サイト：どうってことないって。
+それじゃ、シエスタよろしくな！  [voice 11062]
+  [SPRITE   lay7     hide]
+  [SPRITE   lay2     image=+491, level=154, dir=1A]
+シエスタ：はい、サイトさん。  [voice 14581]
+  [SE       se0      play=+57]
+  [SPRITE   lay2     hide]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  [BG       stage    image=+14, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [SE       se0      play=+56]
+  [SPRITE   lay5     image=+429, level=157, dir=2A]
+サイト：（相当時間かけちまったな。
+　こりゃ、飯抜きだけじゃすまないかもな）
+  [SE       se1      stop=1]
+  [BGM      bgm      stop=1000]
+  [SPRITE   lay5     hide]
+  [BG       stage    hide]
+  → next scene 86
+
+---- SCENE 0086 ----
+  [BG       stage    image=+23, level=200]
+  [TRANS trans("crossfade", 1000)]
+  [BGM      bgm      play=+32]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：（どうやら、コルベール先生の授業は
+　まだ続いてるみたいだな。
+　こっそり入るか……）
+サイト：（こっそり……。
+　こっそり……と）
+  [SPRITE   lay5     hide]
+  [SPRITE   lay1     image=+307, level=140, dir=1A]
+ルイズ：あら、ずいぶんお早いお戻りね！  [voice 5755]
+サイト：……あ、うん。  [voice 11063]
+ルイズ：いったい何の用事で出かけたのかしら？  [voice 5756]
+  [SPRITE   lay1     image=+340, level=140, dir=2A]
+ルイズ：ご主人様を置いて、
+勝手に授業を抜け出したからには、
+さぞかし重要な用件なんでしょうね？  [voice 5757]
+サイト：あはは、それは……、  [voice 11064]
+  【選択肢】春奈の様子を見に行ってた → scene 87
+  【選択肢】デルフリンガーを取りに行ってた → scene 88
+  【選択肢】トイレに行ってた → scene 89
+
+---- SCENE 0087 ----
+  [SPRITE   lay1     image=+340, level=140, dir=2A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+  [SPRITE   lay5     image=+425, level=160, dir=2A]
+サイト：春奈の様子を見に行ってたんだ。  [voice 11065]
+  [SPRITE   lay1     image=+306, level=160, dir=1A]
+ルイズ：……はい？  [voice 5758]
+  【好感度】ルイズ  -10
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：体調を崩して１人で寝てるのって、
+辛いもんだろ？  [voice 11066]
+サイト：まあ、俺じゃ看病なんてろくにできないけど、
+そばにいて安心させることくらいは
+できるかなーって思って。  [voice 11067]
+ルイズ：ふうん……。
+そんなに心配だったの。  [voice 5759]
+  [SPRITE   lay5     image=+423, level=160, dir=2A]
+サイト：ま、ちょっと話をしたあたりで、
+シエスタも様子を見に来てくれたんで、
+俺はいいかなーって戻ってきたんだ。  [voice 11068]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：……。  [voice 5760]
+サイト：ん、どうしたんだルイズ？
+急に黙り込んだりして。  [voice 11069]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+ルイズ：この……お調子者っ！  [voice 5761]
+  [SE       se0      play=+62]
+  [BG       stage    vibrate=14]
+  [EVENT_CG event    vibrate=14]
+  [SPRITE   lay1     vibrate=14]
+  [SPRITE   lay19    vibrate=14]
+  [SPRITE   lay11    vibrate=14]
+  [SPRITE   lay5     vibrate=14]
+  [SPRITE   lay6     vibrate=14]
+  [SPRITE   lay9     vibrate=14]
+  [VIBRATE vibrate(2)]
+  [BG       stage    reset]
+  [EVENT_CG event    hide, reset]
+  [SPRITE   lay1     reset]
+  [SPRITE   lay19    hide, reset]
+  [SPRITE   lay11    hide, reset]
+  [SPRITE   lay5     reset]
+  [SPRITE   lay6     hide, reset]
+  [SPRITE   lay9     hide, reset]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：ぐおおっ！
+頭が割れるように痛い！  [voice 11070]
+ルイズ：どんな女の子でも
+すぐにいちゃいちゃするんだから、
+節操を持ちなさい！節操を！  [voice 5762]
+サイト：うぐぁ……。
+ご主人様、お慈悲をーー。  [voice 11071]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：あー、ミス・ヴァリエール。
+使い魔の教育も結構だが、今は授業中です。
+静かにしなさい。  [voice 997]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：はい、すみません……。  [voice 5763]
+  → next scene 90
+
+---- SCENE 0088 ----
+  [SPRITE   lay1     image=+340, level=140, dir=2A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：デルフリンガーを取りに行ってたんだ。  [voice 11072]
+  [SPRITE   lay1     image=+302, level=160, dir=1A]
+ルイズ：は？
+デルフリンガー？  [voice 5764]
+サイト：うん、そう。
+ほら。  [voice 11073]
+  [SPRITE   lay5     level=157]
+  [SPRITE   lay1     level=152]
+  [SPRITE   lay19    image=+942, level=151, dir=1A]
+デルフリンガー：相棒ってば俺のこと放ったらかしでよー。
+なんか俺、寂しさのあまり１人で歌でも
+歌おうかと思ってたくらいだわ。  [voice 1280]
+  [SPRITE   lay19    hide]
+  [SPRITE   lay1     image=+341, level=152, dir=2A]
+ルイズ：いや、それはやめて。
+わたしの部屋から怪しい歌が聞こえてくる
+なんて噂が立つのはごめんだわ。  [voice 5765]
+  [SPRITE   lay1     image=+302, level=152, dir=1A]
+ルイズ：でも、どうして？
+デルフリンガーは授業に関係ないでしょ。  [voice 5766]
+サイト：関係ないかどうかは分からないだろ？  [voice 11074]
+サイト：いきなり敵が現れる場合もあるわけだし、
+万一そんな事態になってみろ。
+丸腰だと、俺ってば役立たずだろ？  [voice 11075]
+  [SPRITE   lay1     image=+343, level=152, dir=2A]
+ルイズ：ふ、ふーん。
+あんたにしては、殊勝な心がけじゃないの。
+一応、褒めてあげるわ。  [voice 5767]
+  【好感度】ルイズ  10
+  [SPRITE   lay5     image=+425, level=157, dir=2A]
+サイト：というわけで、安心して授業に専念してくれ。  [voice 11076]
+  [SPRITE   lay1     image=+335, level=152, dir=2A]
+ルイズ：はいはい。
+言われなくてもちゃんと専念するわ！  [voice 5768]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+929, level=154, dir=1A]
+コルベール：ミス・ヴァリエール？
+話を聞いてるかね？  [voice 998]
+  [SPRITE   lay1     image=+302, level=152, dir=1A]
+ルイズ：あ、はい。
+聞いてます。  [voice 5769]
+コルベール：ふむ。
+ならば良いのだが。  [voice 999]
+  → next scene 90
+
+---- SCENE 0089 ----
+  [SPRITE   lay1     image=+340, level=140, dir=2A]
+  [BGM      bgm      play=+32]
+  [BG       stage    image=+23, level=200]
+  [SPRITE   lay1     hide]
+  [SPRITE   lay1     image=+339, level=160, dir=2A]
+  [SPRITE   lay5     image=+390, level=160, dir=1A]
+サイト：トイレに行ってた。  [voice 11077]
+  [SPRITE   lay1     image=+335, level=160, dir=2A]
+ルイズ：は？
+トイレ……って、もおっ！
+それならそうと言いなさいよ、この馬鹿っ。  [voice 5770]
+  [SPRITE   lay5     image=+429, level=160, dir=2A]
+サイト：えー。
+そういうのって、いちいち言うものなのかあ？  [voice 11078]
+ルイズ：黙っていなくなる方が問題だって言ってるの！  [voice 5771]
+ルイズ：とっ、とにかく、用事はもう済んだわけよね？  [voice 5772]
+サイト：うん。  [voice 11079]
+  [SPRITE   lay1     image=+341, level=160, dir=2A]
+ルイズ：だったら、残りの授業はおとなしくしてなさい。
+いいわね？  [voice 5773]
+  [SPRITE   lay5     hide]
+  [SPRITE   lay9     image=+929, level=160, dir=1A]
+コルベール：あー、ミス・ヴァリエール。
+使い魔の教育も結構だが、今は授業中です。
+静かにしなさい。  [voice 1000]
+  [SPRITE   lay1     image=+308, level=160, dir=1A]
+ルイズ：はい、すみません……。  [voice 5774]
+  → next scene 90
+
+
+########## EVENTS_FULL scenes 0076-0089 ##########
+## SCENE 0076
+if         if(isJump())
+RESET      reset()
+SET        set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +929)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+DIALOGUE   talk("コルベール", null, "さて、それでは授業を始めよう。\nええと、前回はどこまで話したのかな。", (0x04000000 +991))
+GOTO       next((0x01000000 +77), true)
+
+## SCENE 0077
+if         if(isJump())
+RESET      reset()
+SET        set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +929)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+DIALOGUE   talk("コルベール", null, "ああそうだ、４つの属性についての概論の\n復習について……だったね。", (0x04000000 +992))
+DIALOGUE   talk("コルベール", null, "では今日は、それぞれの属性について、\nもう少し詳しく説明しよう。", (0x04000000 +993))
+DIALOGUE   talk("コルベール", null, "きみ達も、自分の属性については経験から\nそれなりに知っていることだろうが、それぞれの\n属性をきちんと把握することは重要です。", (0x04000000 +994))
+SET        set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "さすがに、みんな熱心に授業を受けてるなあ。\n遊んでる奴は見かけないぞ。", (0x04000000 +11020))
+DIALOGUE   talk("サイト", null, "（でも、俺にとっては退屈な授業なんだよなあ。\n　聞いたからって、魔法が使えるようになる\n　わけじゃないし）", null)
+DIALOGUE   talk("サイト", null, "（そういえば、春奈の容態って\n　どうなんだろう？）", null)
+DIALOGUE   talk("サイト", null, "（彼女の面倒はシエスタに任せてきちゃったけど、\n　シエスタだって仕事に行ってる間は\n　様子を見れてないわけだし……）", null)
+DIALOGUE   talk("サイト", null, "（うーん……）", null)
+MENUINIT   selectInit()
+CHOICE     selectItem("部屋に戻る", (0x01000000 +78), null, true)
+CHOICE     selectItem("部屋に戻らない", (0x01000000 +79), null, true)
+CHOICE     selectItem("どうしよう……", (0x01000000 +80), null, true)
+MENU       select()
+
+## SCENE 0078
+if         if(isJump())
+RESET      reset()
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+DIALOGUE   talk("サイト", null, "（よし、そうと決めたら、さっそく……）", null)
+SET        set("lay5", {y = 0,x = 224})
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +302)})
+DIALOGUE   talk("ルイズ", null, "ん？\nなに、どうしたの。", (0x04000000 +5747))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)})
+DIALOGUE   talk("サイト", null, "いやその、悪いんだけどさ、\n俺、ちょっと授業を抜けるわ。", (0x04000000 +11021))
+SET        set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +306)})
+DIALOGUE   talk("ルイズ", null, "ちょっと、なに言ってるのよ。\n使い魔がご主人様の授業を抜け出すなんて、\n許されると思ってるわけ？", (0x04000000 +5748))
+LIKE       like("ルイズ", -10)
+TNDL       tndl(-30)
+DIALOGUE   talk("サイト", null, "いいじゃん。\n良く見れば出席してない使い魔だって\nいるんだし。", (0x04000000 +11022))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)})
+DIALOGUE   talk("ルイズ", null, "それは教室に入れない使い魔の場合でしょ。\nあんたは人間なんだから、\n黙ってそこにいなさい。", (0x04000000 +5749))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "はーい。", (0x04000000 +11023))
+SET        set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "（とは言ったものの、やっぱり心配だし。\n　春奈のところに行ってみるか……）", null)
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+GOTO       next((0x01000000 +81), true)
+
+## SCENE 0079
+if         if(isJump())
+RESET      reset()
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+DIALOGUE   talk("サイト", null, "（シエスタに任せるって決めてるわけだし、\n　ここはおとなしく授業を聞いていよう）", null)
+LIKE       like("ルイズ", 10)
+TNDL       tndl(30)
+DIALOGUE   talk("サイト", null, "……。", (0x04000000 +11024))
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +929)})
+DIALOGUE   talk("コルベール", null, "そう、往々にしてやってしまうのが、\n言葉が持つイメージにとらわれ、\n属性の持つ多様性を自ら狭める行為であり……。", (0x04000000 +995))
+SET        set("lay9", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +396)})
+DIALOGUE   talk("サイト", null, "（駄目だ、やっぱり全然分からん。\n　魔法が使えないと、どうにも興味が出ないな）", null)
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "（やっぱり心配だし。\n　春奈のところに行ってみるか……）", null)
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+GOTO       next((0x01000000 +81), true)
+
+## SCENE 0080
+if         if(isJump())
+RESET      reset()
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+DIALOGUE   talk("サイト", null, "（春奈の体調が心配だけど、\n　シエスタに任せるって決めたし、\n　授業を抜け出すのは駄目だよな……）", null)
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "うーん、うーん……。", (0x04000000 +11025))
+SET        set("lay5", {y = 0,x = 224})
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +308)})
+DIALOGUE   talk("ルイズ", null, "ちょっと、どうしたの？\nさっきからうなってばっかりで……。", (0x04000000 +5750))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "いやその、悪いんだけどさ、\n俺、ちょっと授業を抜けるわ。", (0x04000000 +11026))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)})
+DIALOGUE   talk("ルイズ", null, "ちょっと、なに言ってるのよ。\n使い魔がご主人様の授業を抜け出すなんて、\n許されると思ってるわけ？", (0x04000000 +5751))
+DIALOGUE   talk("サイト", null, "いいじゃん。\n良く見れば出席してない使い魔だって\nいるんだし。", (0x04000000 +11027))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)})
+DIALOGUE   talk("ルイズ", null, "それは教室に入れない使い魔の場合でしょ。\nあんたは人間なんだから、\n黙ってそこにいなさい。", (0x04000000 +5752))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "はーい。", (0x04000000 +11028))
+SET        set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "（とは言ったものの、やっぱり心配だし。\n　春奈のところに行ってみるか……）", null)
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+GOTO       next((0x01000000 +81), true)
+
+## SCENE 0081
+if         if(isJump())
+RESET      reset()
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +425)})
+DIALOGUE   talk("サイト", null, "じゃ、そういうことで、後よろしく。", (0x04000000 +11029))
+MSGOFF     msgoff()
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+WAIT       waitTime(500, true)
+MSGOFF     msgoff()
+SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitAction(null, true)
+BACK       back()
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +17)})
+TRANS      trans("crossfade", 1000)
+MSGON      msgon()
+DIALOGUE   talk("ルイズ", null, "よろしくじゃないわよ。\nあ、こら！", (0x04000000 +5753))
+DIALOGUE   talk("コルベール", null, "ん？\nどうかしたかね、ミス・ヴァリエール？", (0x04000000 +996))
+DIALOGUE   talk("ルイズ", null, "あ、いえ、なんでもありません。\nちょ、ちょっとバカの使い魔がトイレとか\n申しまして、おほほほほ。", (0x04000000 +5754))
+DIALOGUE   talk("サイト", null, "（こりゃ、帰った後、\n　相当怒られそうだな……）", null)
+MSGOFF     msgoff()
+SET        set("se1", {stop = 1})
+SET        set("bgm", {stop = 1000})
+SET        set("lay5", {show = 0})
+SET        set("lay9", {show = 0})
+SET        set("lay1", {show = 0})
+SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitTime(1000, true)
+GOTO       next((0x01000000 +82), true)
+
+## SCENE 0082
+RESET      reset()
+BACK       back()
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)})
+TRANS      trans("crossfade", 1000)
+SET        set("bgm", {fadetime = 0,play = (0x03000000 +11)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)})
+SET        set("se0", {play = (0x03000000 +82)})
+waitSEStop waitSEStop(null, true)
+DIALOGUE   talk("サイト", null, "春奈？\n俺、才人だけど……。", (0x04000000 +11030))
+DIALOGUE   talk("ハルナ", null, "あ、平賀くん！？\nちょ、ちょっと待って。\n今、鍵を開けるね。", (0x04000000 +2089))
+MSGOFF     msgoff()
+SET        set("se0", {play = (0x03000000 +57)})
+MSGOFF     msgoff()
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay7", {show = 0})
+SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitAction(null, true)
+BACK       back()
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)})
+TRANS      trans("crossfade", 1000)
+SET        set("se0", {play = (0x03000000 +56)})
+SET        set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +981)})
+MSGON      msgon()
+DIALOGUE   talk("ハルナ", null, "ど、どうしたの？\n授業中じゃなかったの？", (0x04000000 +2090))
+SET        set("lay7", {y = 0,x = -96})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "ちょっと様子を見に来たんだけど……。\n大丈夫か？\nまだ顔が赤いぞ。", (0x04000000 +11031))
+DIALOGUE   talk("ハルナ", null, "あ、あー……うん。\nごめんなさい。\nまだ、具合が悪いみたい。", (0x04000000 +2091))
+DIALOGUE   talk("サイト", null, "そりゃまずいよ、ちゃんと寝てなきゃ。\nって、俺が起こしちまったんだよな。\nごめんな。", (0x04000000 +11032))
+DIALOGUE   talk("ハルナ", null, "あ、ううん。\nそんなことないよ。", (0x04000000 +2092))
+DIALOGUE   talk("サイト", null, "いいからベッドに戻って。\nおとなしく寝てなきゃ。", (0x04000000 +11033))
+DIALOGUE   talk("ハルナ", null, "う、うん。", (0x04000000 +2093))
+MSGOFF     msgoff()
+SET        set("bgm", {stop = 1000})
+MSGOFF     msgoff()
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitAction(null, true)
+MSGOFF     msgoff()
+BACK       back()
+SET        set("event", {opacity = 100,y = 0,show = 1,level = 80,x = 0,image = (0x02000000 +154)})
+TRANS      trans("crossfade", 1000)
+SET        set("bgm", {fadetime = 0,play = (0x03000000 +17)})
+MSGON      msgon()
+DIALOGUE   talk("サイト", null, "え、と……水は洗面器にあるな。\nタオル、タオル……。", (0x04000000 +11034))
+DIALOGUE   talk("ハルナ", null, "……。", null)
+DIALOGUE   talk("サイト", null, "ほら、タオルで額を冷やせば少しは楽か？", (0x04000000 +11035))
+MSGOFF     msgoff()
+SET        set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)})
+WAIT       waitLoad(true)
+DIALOGUE   talk("ハルナ", null, "うん……ありがとう、平賀くん。", (0x04000000 +2094))
+DIALOGUE   talk("サイト", null, "なあに。\nこれくらいしかできないけどな。", (0x04000000 +11036))
+MSGOFF     msgoff()
+SET        set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)})
+WAIT       waitLoad(true)
+DIALOGUE   talk("ハルナ", null, "ねぇ、平賀くん……。", (0x04000000 +2095))
+DIALOGUE   talk("サイト", null, "うん？", (0x04000000 +11037))
+DIALOGUE   talk("ハルナ", null, "平賀くんが、使い魔って本当なの？\nあのドラゴンみたいな魔物と同じ。", (0x04000000 +2096))
+DIALOGUE   talk("サイト", null, "んー。\nまあ、そのへんについては話せば長くなるけど、\n今はルイズの使い魔なんだ。", (0x04000000 +11038))
+DIALOGUE   talk("サイト", null, "まぁ、使い魔とは言っても、\n洗濯したり、掃除したり……、\nまぁ、メイドさんみたいなもんかな？", (0x04000000 +11039))
+DIALOGUE   talk("ハルナ", null, "ルイズさんの……メイド？", (0x04000000 +2097))
+DIALOGUE   talk("サイト", null, "い、いや……。\nた、たまには剣で戦ったりもしてるぞ。\n本当にたまに……だけど。", (0x04000000 +11040))
+DIALOGUE   talk("ハルナ", null, "戦い……。", (0x04000000 +2098))
+DIALOGUE   talk("サイト", null, "危険なことは何度かあったけど……。", (0x04000000 +11041))
+DIALOGUE   talk("サイト", null, "それでも、この見ず知らずの世界で、\n俺を養ってくれてるんだから、\nま、俺のご主人様には間違いないよな。", (0x04000000 +11042))
+DIALOGUE   talk("ハルナ", null, "ねぇ……平賀くん。", (0x04000000 +2099))
+DIALOGUE   talk("サイト", null, "うん？", (0x04000000 +11043))
+MSGOFF     msgoff()
+SET        set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +157)})
+WAIT       waitLoad(true)
+DIALOGUE   talk("ハルナ", null, "変な話をするけどいいかな？", (0x04000000 +2100))
+DIALOGUE   talk("サイト", null, "変な話？\nまぁ、いいけど……。", (0x04000000 +11044))
+DIALOGUE   talk("ハルナ", null, "平賀くんって、こっちの世界では、\n女の子に囲まれてずいぶんと楽しそうだね。\nちょっと……寂しいな。", (0x04000000 +2101))
+DIALOGUE   talk("サイト", null, "いいっ！？", (0x04000000 +11045))
+DIALOGUE   talk("サイト", null, "いや、別に、そんなに楽しいことなんて、\n全然ないってば。\nホントデスヨ。", (0x04000000 +11046))
+MSGOFF     msgoff()
+SET        set("event", {y = 0,level = 80,imageType = 1,imageTime = 1000,x = 0,image = (0x02000000 +155)})
+WAIT       waitLoad(true)
+DIALOGUE   talk("ハルナ", null, "そうなの？", (0x04000000 +2102))
+DIALOGUE   talk("ハルナ", null, "ルイズさんとはまんざらでもなさそうだし、\nあのシエスタさんとも\nずいぶん仲良さそうだったけど。", (0x04000000 +2103))
+DIALOGUE   talk("ハルナ", null, "なんか、平賀くんってこの世界の人に\nなっちゃうのかなぁって寂しくなっちゃった。", (0x04000000 +2104))
+DIALOGUE   talk("サイト", null, "そ、そんなことないって。\nたまたま。\nそう、たまたまそう見えるだけ。", (0x04000000 +11047))
+DIALOGUE   talk("ハルナ", null, "ふうん、そうなの？", (0x04000000 +2105))
+SET        set("se0", {play = (0x03000000 +82)})
+waitSEStop waitSEStop(null, true)
+DIALOGUE   talk("シエスタ", null, "失礼します。", (0x04000000 +14567))
+SET        set("se0", {play = (0x03000000 +57)})
+MSGOFF     msgoff()
+SET        set("bgm", {stop = 1000})
+MSGOFF     msgoff()
+SET        set("lay2", {show = 0})
+SET        set("lay5", {show = 0})
+SET        set("lay7", {show = 0})
+SET        set("stage", {show = 0})
+SET        set("event", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitAction(null, true)
+BACK       back()
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)})
+TRANS      trans("crossfade", 1000)
+SET        set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +491)})
+SET        set("bgm", {fadetime = 0,play = (0x03000000 +30)})
+MSGON      msgon()
+SET        set("lay2", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +493)})
+DIALOGUE   talk("シエスタ", null, "ハルナさん、お加減はどうですか？\nって、な……なんでサイトさんが\nここにいらっしゃるんですかあっ？", (0x04000000 +14568))
+SET        set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 0,image = (0x02000000 +526)})
+DIALOGUE   talk("シエスタ", null, "はっ、まさか、わたしやミス・ヴァリエールの\nいない隙に夜這いを敢行！？", (0x04000000 +14569))
+SET        set("lay2", {y = 0,x = -96})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "いや、そんなことしてないから！\nそれに、まだ夜じゃないし……。", (0x04000000 +11048))
+SET        set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +528)})
+DIALOGUE   talk("シエスタ", null, "そう、そうよ……これは悪い夢……もしくは幻。\nただの悪夢、そうよ！\nそうに決まってるわ！", (0x04000000 +14570))
+DIALOGUE   talk("サイト", null, "いやあ、その……。", (0x04000000 +11049))
+MENUINIT   selectInit()
+CHOICE     selectItem("春奈の様子が気になって", (0x01000000 +83), null, true)
+CHOICE     selectItem("忘れ物をしたんで、取りに来た", (0x01000000 +84), null, true)
+MENU       select()
+
+## SCENE 0083
+if         if(isJump())
+RESET      reset()
+SET        set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +528)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)})
+SET        set("bgm", {play = (0x03000000 +30)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)})
+DIALOGUE   talk("サイト", null, "春奈の様子が気になってさ……。\nそれで、ついふらふらーっと。", (0x04000000 +11050))
+SET        set("lay2", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +522)})
+DIALOGUE   talk("シエスタ", null, "ふうん……そうなんですか。", (0x04000000 +14571))
+LIKE       like("シエスタ", -10)
+TNDL       tndl(-30)
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1C",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +981)})
+DIALOGUE   talk("ハルナ", null, "……。", (0x04000000 +2106))
+LIKE       like("ハルナ", 10)
+SET        set("lay7", {y = 0,x = 224})
+SET        set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)})
+DIALOGUE   talk("シエスタ", null, "授業を抜け出して、２人きり……。", (0x04000000 +14572))
+DIALOGUE   talk("サイト", null, "いや、あの、シエスタ？", (0x04000000 +11051))
+SET        set("lay7", {show = 1,level = 160,dr = "1C",lv = 0,image = (0x02000000 +973)})
+DIALOGUE   talk("ハルナ", null, "あの、平賀くんは、私のことを心配して\n来てくれたんです。\nなにもいけないことは……。", (0x04000000 +2107))
+SET        set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +528)})
+DIALOGUE   talk("シエスタ", null, "２人きり……。\n誰も見てない部屋で、２人きり……。", (0x04000000 +14573))
+SET        set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "シエスタ？\nあの俺、本当にやましいことはしてないって？\n証人もいるし。", (0x04000000 +11052))
+SET        set("lay2", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +495)})
+DIALOGUE   talk("シエスタ", null, "証人？\n誰ですか？\nハルナさん……とか言いませんよね？", (0x04000000 +14574))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "いや、こいつ。", (0x04000000 +11053))
+GOTO       next((0x01000000 +85), true)
+
+## SCENE 0084
+if         if(isJump())
+RESET      reset()
+SET        set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +528)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +429)})
+SET        set("bgm", {play = (0x03000000 +30)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)})
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)})
+DIALOGUE   talk("サイト", null, "忘れ物をしたんで、取りに来た。", (0x04000000 +11054))
+SET        set("lay2", {y = 0,dr = "1A",imageTime = 300,show = 1,x = -96,level = 160,lv = 0,image = (0x02000000 +495),imageType = 2})
+DIALOGUE   talk("シエスタ", null, "忘れ物？\nミス・ヴァリエールがなにか忘れたんですか？", (0x04000000 +14575))
+DIALOGUE   talk("サイト", null, "あ、いや、俺が忘れたんだよ。", (0x04000000 +11055))
+DIALOGUE   talk("シエスタ", null, "サイトさんが、ですか？\n一体、何を？", (0x04000000 +14576))
+SET        set("lay5", {y = 0,dr = "1A",imageTime = 300,show = 1,x = 224,level = 160,lv = 0,image = (0x02000000 +390),imageType = 2})
+DIALOGUE   talk("サイト", null, "えーと……こいつ。", (0x04000000 +11056))
+GOTO       next((0x01000000 +85), true)
+
+## SCENE 0085
+if         if(isJump())
+RESET      reset()
+SET        set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +495)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)})
+SET        set("bgm", {play = (0x03000000 +30)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +10)})
+SET        set("lay2", {level = 156})
+SET        set("lay5", {level = 157})
+SET        set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +944)})
+DIALOGUE   talk("デルフリンガー", null, "おいおいおい、いきなり俺に振るのかよ！", (0x04000000 +1276))
+SET        set("lay2", {level = 155})
+SET        set("lay5", {level = 156})
+SET        set("lay19", {level = 160})
+DIALOGUE   talk("サイト", null, "なあ、デルフリンガー。\n俺、ただ部屋に戻って来て、\n春奈と話してただけだよな？", (0x04000000 +11057))
+SET        set("lay2", {level = 156})
+SET        set("lay5", {level = 157})
+SET        set("lay19", {dr = "1A",show = 1,level = 154,lv = 0,image = (0x02000000 +940)})
+DIALOGUE   talk("デルフリンガー", null, "安心しな、相棒はホントに話してただけさ。\n別にやましいことなんてしちゃいねぇ。", (0x04000000 +1277))
+SET        set("lay2", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +489)})
+SET        set("lay5", {level = 157})
+SET        set("lay19", {level = 155})
+DIALOGUE   talk("シエスタ", null, "そうなんですか。\n安心しました……。", (0x04000000 +14577))
+SET        set("lay2", {level = 155})
+SET        set("lay5", {level = 157})
+SET        set("lay19", {level = 154})
+DIALOGUE   talk("デルフリンガー", null, "ホント、ホント。\nせっかく部屋に２人きり、\nしかも片方はベッドで寝てるんだ。", (0x04000000 +1278))
+SET        set("lay2", {level = 155})
+SET        set("lay5", {level = 157})
+SET        set("lay19", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +942)})
+DIALOGUE   talk("デルフリンガー", null, "ちっとはその気になりそうなもんだけど……。\nまったく、甲斐性がねえなぁ、相棒。", (0x04000000 +1279))
+SET        set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +427)})
+DIALOGUE   talk("サイト", null, "甲斐性がないは余計だ。\n……とにかく、そういうことなんだ。\n分かってくれた？", (0x04000000 +11058))
+SET        set("lay2", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +491)})
+SET        set("lay5", {level = 157})
+DIALOGUE   talk("シエスタ", null, "はい。\n疑ったりして、すみませんでした。", (0x04000000 +14578))
+SET        set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +398)})
+DIALOGUE   talk("サイト", null, "あっいやいや、分かってくれれば。", (0x04000000 +11059))
+SET        set("lay2", {show = 1,level = 154,dr = "1A",lv = 0,image = (0x02000000 +489)})
+DIALOGUE   talk("シエスタ", null, "でも、早く授業に戻らないと、\nミス・ヴァリエールがお怒りになりますよ？", (0x04000000 +14579))
+SET        set("lay5", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +396)})
+DIALOGUE   talk("サイト", null, "う。\nた、確かに。", (0x04000000 +11060))
+DIALOGUE   talk("シエスタ", null, "ハルナさんはわたしが見ておきますので、\nサイトさんは、授業にお戻りください。", (0x04000000 +14580))
+SET        set("lay5", {show = 1,level = 157,dr = "1A",lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "そ、そうだな。\nじゃ、そろそろ行くな。", (0x04000000 +11061))
+SET        set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("lay7", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 156,opacityFrom = 0,dr = "1C",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +973)})
+DIALOGUE   talk("ハルナ", null, "平賀くん、ありがとう。", (0x04000000 +2108))
+DIALOGUE   talk("サイト", null, "どうってことないって。\nそれじゃ、シエスタよろしくな！", (0x04000000 +11062))
+SET        set("lay7", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("lay2", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +491)})
+DIALOGUE   talk("シエスタ", null, "はい、サイトさん。", (0x04000000 +14581))
+MSGOFF     msgoff()
+SET        set("se0", {play = (0x03000000 +57)})
+MSGOFF     msgoff()
+SET        set("lay2", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = -96,opacityFrom = 100,hide = 1,opacityTime = 100,x = -46})
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitAction(null, true)
+BACK       back()
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +14)})
+TRANS      trans("crossfade", 1000)
+SET        set("se0", {play = (0x03000000 +56)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 157,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +429)})
+MSGON      msgon()
+DIALOGUE   talk("サイト", null, "（相当時間かけちまったな。\n　こりゃ、飯抜きだけじゃすまないかもな）", null)
+MSGOFF     msgoff()
+SET        set("se1", {stop = 1})
+SET        set("bgm", {stop = 1000})
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("stage", {opacity = 0,hide = 1,opacityTime = 1000})
+WAIT       waitTime(1000, true)
+GOTO       next((0x01000000 +86), true)
+
+## SCENE 0086
+RESET      reset()
+BACK       back()
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+TRANS      trans("crossfade", 1000)
+SET        set("bgm", {fadetime = 0,play = (0x03000000 +32)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +390)})
+MSGON      msgon()
+DIALOGUE   talk("サイト", null, "（どうやら、コルベール先生の授業は\n　まだ続いてるみたいだな。\n　こっそり入るか……）", null)
+DIALOGUE   talk("サイト", null, "（こっそり……。\n　こっそり……と）", null)
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +307)})
+DIALOGUE   talk("ルイズ", null, "あら、ずいぶんお早いお戻りね！", (0x04000000 +5755))
+DIALOGUE   talk("サイト", null, "……あ、うん。", (0x04000000 +11063))
+DIALOGUE   talk("ルイズ", null, "いったい何の用事で出かけたのかしら？", (0x04000000 +5756))
+SET        set("lay1", {y = 0,show = 1,level = 140,imageType = 2,dr = "2A",imageTime = 300,x = 64,lv = 1,image = (0x02000000 +340)})
+DIALOGUE   talk("ルイズ", null, "ご主人様を置いて、\n勝手に授業を抜け出したからには、\nさぞかし重要な用件なんでしょうね？", (0x04000000 +5757))
+DIALOGUE   talk("サイト", null, "あはは、それは……、", (0x04000000 +11064))
+MENUINIT   selectInit()
+CHOICE     selectItem("春奈の様子を見に行ってた", (0x01000000 +87), null, true)
+CHOICE     selectItem("デルフリンガーを取りに行ってた", (0x01000000 +88), null, true)
+CHOICE     selectItem("トイレに行ってた", (0x01000000 +89), null, true)
+MENU       select()
+
+## SCENE 0087
+if         if(isJump())
+RESET      reset()
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +340)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+SET        set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139})
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +425)})
+DIALOGUE   talk("サイト", null, "春奈の様子を見に行ってたんだ。", (0x04000000 +11065))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +306)})
+DIALOGUE   talk("ルイズ", null, "……はい？", (0x04000000 +5758))
+LIKE       like("ルイズ", -10)
+TNDL       tndl(-30)
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "体調を崩して１人で寝てるのって、\n辛いもんだろ？", (0x04000000 +11066))
+DIALOGUE   talk("サイト", null, "まあ、俺じゃ看病なんてろくにできないけど、\nそばにいて安心させることくらいは\nできるかなーって思って。", (0x04000000 +11067))
+DIALOGUE   talk("ルイズ", null, "ふうん……。\nそんなに心配だったの。", (0x04000000 +5759))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +423)})
+DIALOGUE   talk("サイト", null, "ま、ちょっと話をしたあたりで、\nシエスタも様子を見に来てくれたんで、\n俺はいいかなーって戻ってきたんだ。", (0x04000000 +11068))
+SET        set("lay1", {show = 1,level = 160,dr = "1A",lv = 0,image = (0x02000000 +308)})
+DIALOGUE   talk("ルイズ", null, "……。", (0x04000000 +5760))
+DIALOGUE   talk("サイト", null, "ん、どうしたんだルイズ？\n急に黙り込んだりして。", (0x04000000 +11069))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +339)})
+DIALOGUE   talk("ルイズ", null, "この……お調子者っ！", (0x04000000 +5761))
+SET        set("se0", {play = (0x03000000 +62)})
+SET        set("stage", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("event", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("lay1", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("lay19", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("lay11", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("lay5", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("lay6", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+SET        set("lay9", {vibration = 14,action = "LayerVibrateActionModule",waitTime = 50})
+VIBRATE    vibrate(2)
+WAIT       waitTime(800, true)
+SET        set("stage", {show = 1,reset = 1})
+SET        set("event", {show = 0,reset = 1})
+SET        set("lay1", {show = 1,reset = 1})
+SET        set("lay19", {show = 0,reset = 1})
+SET        set("lay11", {show = 0,reset = 1})
+SET        set("lay5", {show = 1,reset = 1})
+SET        set("lay6", {show = 0,reset = 1})
+SET        set("lay9", {show = 0,reset = 1})
+WAIT       waitTime(0, true)
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "ぐおおっ！\n頭が割れるように痛い！", (0x04000000 +11070))
+DIALOGUE   talk("ルイズ", null, "どんな女の子でも\nすぐにいちゃいちゃするんだから、\n節操を持ちなさい！節操を！", (0x04000000 +5762))
+DIALOGUE   talk("サイト", null, "うぐぁ……。\nご主人様、お慈悲をーー。", (0x04000000 +11071))
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +929)})
+DIALOGUE   talk("コルベール", null, "あー、ミス・ヴァリエール。\n使い魔の教育も結構だが、今は授業中です。\n静かにしなさい。", (0x04000000 +997))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)})
+DIALOGUE   talk("ルイズ", null, "はい、すみません……。", (0x04000000 +5763))
+GOTO       next((0x01000000 +90), true)
+
+## SCENE 0088
+if         if(isJump())
+RESET      reset()
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +340)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+SET        set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139})
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "デルフリンガーを取りに行ってたんだ。", (0x04000000 +11072))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)})
+DIALOGUE   talk("ルイズ", null, "は？\nデルフリンガー？", (0x04000000 +5764))
+DIALOGUE   talk("サイト", null, "うん、そう。\nほら。", (0x04000000 +11073))
+SET        set("lay5", {level = 157})
+SET        set("lay1", {level = 152})
+SET        set("lay19", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 14,level = 151,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 64,lv = 0,image = (0x02000000 +942)})
+DIALOGUE   talk("デルフリンガー", null, "相棒ってば俺のこと放ったらかしでよー。\nなんか俺、寂しさのあまり１人で歌でも\n歌おうかと思ってたくらいだわ。", (0x04000000 +1280))
+SET        set("lay19", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 114})
+SET        set("lay1", {y = 0,show = 1,level = 152,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +341)})
+DIALOGUE   talk("ルイズ", null, "いや、それはやめて。\nわたしの部屋から怪しい歌が聞こえてくる\nなんて噂が立つのはごめんだわ。", (0x04000000 +5765))
+SET        set("lay1", {y = 0,show = 1,level = 152,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)})
+DIALOGUE   talk("ルイズ", null, "でも、どうして？\nデルフリンガーは授業に関係ないでしょ。", (0x04000000 +5766))
+DIALOGUE   talk("サイト", null, "関係ないかどうかは分からないだろ？", (0x04000000 +11074))
+DIALOGUE   talk("サイト", null, "いきなり敵が現れる場合もあるわけだし、\n万一そんな事態になってみろ。\n丸腰だと、俺ってば役立たずだろ？", (0x04000000 +11075))
+SET        set("lay1", {y = 0,show = 1,level = 152,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +343)})
+DIALOGUE   talk("ルイズ", null, "ふ、ふーん。\nあんたにしては、殊勝な心がけじゃないの。\n一応、褒めてあげるわ。", (0x04000000 +5767))
+LIKE       like("ルイズ", 10)
+TNDL       tndl(30)
+SET        set("lay5", {y = 0,show = 1,level = 157,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +425)})
+DIALOGUE   talk("サイト", null, "というわけで、安心して授業に専念してくれ。", (0x04000000 +11076))
+SET        set("lay1", {show = 1,level = 152,dr = "2A",lv = 0,image = (0x02000000 +335)})
+DIALOGUE   talk("ルイズ", null, "はいはい。\n言われなくてもちゃんと専念するわ！", (0x04000000 +5768))
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 154,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +929)})
+DIALOGUE   talk("コルベール", null, "ミス・ヴァリエール？\n話を聞いてるかね？", (0x04000000 +998))
+SET        set("lay1", {y = 0,show = 1,level = 152,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +302)})
+DIALOGUE   talk("ルイズ", null, "あ、はい。\n聞いてます。", (0x04000000 +5769))
+DIALOGUE   talk("コルベール", null, "ふむ。\nならば良いのだが。", (0x04000000 +999))
+GOTO       next((0x01000000 +90), true)
+
+## SCENE 0089
+if         if(isJump())
+RESET      reset()
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -11,level = 140,opacityFrom = 0,dr = "2A",opacityTime = 100,x = 64,lv = 1,image = (0x02000000 +340)})
+SET        set("bgm", {play = (0x03000000 +32)})
+SET        set("stage", {opacity = 100,y = 0,show = 1,level = 200,x = 0,image = (0x02000000 +23)})
+SET        set("lay1", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 64,opacityFrom = 100,hide = 1,opacityTime = 100,x = 139})
+SET        set("lay1", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = -146,level = 160,opacityFrom = 0,dr = "2A",opacityTime = 100,x = -96,lv = 0,image = (0x02000000 +339)})
+SET        set("lay5", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +390)})
+DIALOGUE   talk("サイト", null, "トイレに行ってた。", (0x04000000 +11077))
+SET        set("lay1", {show = 1,level = 160,dr = "2A",lv = 0,image = (0x02000000 +335)})
+DIALOGUE   talk("ルイズ", null, "は？\nトイレ……って、もおっ！\nそれならそうと言いなさいよ、この馬鹿っ。", (0x04000000 +5770))
+SET        set("lay5", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = 224,lv = 0,image = (0x02000000 +429)})
+DIALOGUE   talk("サイト", null, "えー。\nそういうのって、いちいち言うものなのかあ？", (0x04000000 +11078))
+DIALOGUE   talk("ルイズ", null, "黙っていなくなる方が問題だって言ってるの！", (0x04000000 +5771))
+DIALOGUE   talk("ルイズ", null, "とっ、とにかく、用事はもう済んだわけよね？", (0x04000000 +5772))
+DIALOGUE   talk("サイト", null, "うん。", (0x04000000 +11079))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "2A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +341)})
+DIALOGUE   talk("ルイズ", null, "だったら、残りの授業はおとなしくしてなさい。\nいいわね？", (0x04000000 +5773))
+SET        set("lay5", {opacity = 0,y = 0,yFrom = 0,moveTime = 100,xFrom = 224,opacityFrom = 100,hide = 1,opacityTime = 100,x = 274})
+SET        set("lay9", {opacity = 100,y = 0,yFrom = 0,show = 1,moveTime = 100,xFrom = 174,level = 160,opacityFrom = 0,dr = "1A",opacityTime = 100,x = 224,lv = 0,image = (0x02000000 +929)})
+DIALOGUE   talk("コルベール", null, "あー、ミス・ヴァリエール。\n使い魔の教育も結構だが、今は授業中です。\n静かにしなさい。", (0x04000000 +1000))
+SET        set("lay1", {y = 0,show = 1,level = 160,imageType = 2,dr = "1A",imageTime = 300,x = -96,lv = 0,image = (0x02000000 +308)})
+DIALOGUE   talk("ルイズ", null, "はい、すみません……。", (0x04000000 +5774))
+GOTO       next((0x01000000 +90), true)

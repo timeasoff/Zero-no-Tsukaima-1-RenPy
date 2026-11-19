@@ -4,8 +4,7 @@
 # L1108-1286 scenes 1164-1168).
 # The date is entered unconditionally from the end of ch6_2 (source scene 374:
 # 【デート】アンリエッタ -> 1164); the postdate target +375 is core scene 375 of
-# chapter_08 (chapter 7), which is not ported yet, so the part tail is
-# `jump attention` (PROVISIONAL endpoint, re-hooked to ch7 when it is ported).
+# chapter_08 (chapter 7), now ported; the part tail is `jump ch7`.
 # Conventions of chapter 6: no show_sprites (ch6_1/ch6_2), backgrounds/CG as
 # id(K) placeholders, system SE not ported, BGM by id (t9 = +10, t15 = +16).
 
@@ -29,7 +28,7 @@ label ch6_3:
             # части 3 главы 7 (script-ch7_3.rpy).
             jump ch7
 
-    $ jump ch6_3_s1164
+    jump ch6_3_s1164
 
 label ch6_3_s1164:
     # Source scene 1164 (src L1165-1261): gate of the inn, night stroll to town,

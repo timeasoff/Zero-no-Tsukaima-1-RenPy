@@ -116,7 +116,7 @@ define PORTRAIT_ROW_YALIGN = 0.30
 
 # --- СПРАЙТ СБОКУ (sprite_choice) ---
 # Спрайт показывается ровно так же, как в игре (zoom как у обычных персонажей),
-# ��тобы не был огромным. Значения совпадают с normal_right из show_sprites.rpy.
+# чтобы не был огромным. Значения совпадают с normal_right из show_sprites.rpy.
 define SPRITE_CHOICE_ZOOM   = 0.55
 define SPRITE_CHOICE_XALIGN = 1.0
 define SPRITE_CHOICE_YALIGN = 1.0
@@ -303,7 +303,7 @@ screen portrait_choice_screen(choices, background, bg_position="center"):
 
 
 # ============================================================================
-#  ЭКРАН 2: ВЫБОР СПИСКОМ + СПРАЙТ СБО��У (меняется при наведении)
+#  ЭКРАН 2: ВЫБОР СПИСКОМ + СПРАЙТ СБОКУ (меняется при наведении)
 # ============================================================================
 screen sprite_choice_screen(choices, background, default_sprite, bg_position="center"):
     modal True

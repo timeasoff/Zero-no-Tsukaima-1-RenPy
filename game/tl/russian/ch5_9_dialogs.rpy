@@ -81,7 +81,7 @@ translate russian strings:
     new "Принц, помнишь ночь, когда ты сделал мне предложение?"
 
     old "It was a beautiful night, like tonight. I will give you my answer now.{#ch5_9_v1690}"
-    new "Это была прекрасная ночь, как сегодня. Теперь я дам тебе ответ."
+    new "Это была прекрасная ночь под Лунами-Близнецами, как сегодня. Теперь я дам тебе ответ."
 
     old "Princess?{#ch5_9_v8849}"
     new "Принцесса?"
@@ -104,8 +104,8 @@ translate russian strings:
     old "They say white flowers eventually bloomed where the two of them fell, side by side…{#ch5_9_v15362}"
     new "Говорят, на месте их падения со временем расцвели белые цветы, словно они лежали рядом…"
 
-    old "Th-that was incredible, Hiraga! Your performance was so passionate.{#ch5_9_v1693}"
-    new "Э-это было потрясающе, Хирага! Какая страстная игра."
+    old "Th-that was incredible, Hiraga-kun! Your performance was so passionate.{#ch5_9_v1693}"
+    new "Э-это было потрясающе, Хирага-кун! Какая страстная игра."
 
     old "W-well, maybe a little.{#ch5_9_v8851}"
     new "Н-ну, самую малость."
@@ -113,8 +113,8 @@ translate russian strings:
     old "Ladies and gentlemen, please give them one more grand round of applause!{#ch5_9_v15861}"
     new "Дамы и господа, прошу ещё раз наградить их громкими аплодисментами!"
 
-    old "Hey, Hiraga. I almost thought that confession was real.{#ch5_9_v1694}"
-    new "Слушай, Хирага. Я даже подумала, что признание было настоящим."
+    old "Hey, Hiraga-kun. I almost thought that confession was real.{#ch5_9_v1694}"
+    new "Слушай, Хирага-кун. Я даже подумала, что признание было настоящим."
 
     old "I really meant it…{#ch5_9_v8852}"
     new "Я и правда говорил это всерьёз."
@@ -143,8 +143,8 @@ translate russian strings:
     old "I-I am not angry or anything.{#ch5_9_v1698}"
     new "Я-я вовсе не злюсь."
 
-    old "I will ask Miss Henrietta to take the role.{#ch5_9_v15862}"
-    new "Я попрошу мадемуазель Генриетту сыграть её."
+    old "I will ask Miss Rietta to take the role.{#ch5_9_v15862}"
+    new "Я попрошу мадемуазель Риэтту сыграть её."
 
     old "…What? Me?{#ch5_9_v369}"
     new "…Что? Я?"
@@ -234,7 +234,7 @@ translate russian strings:
     new "…Принц, помнишь ночь, когда ты сделал мне предложение?"
 
     old "It was a beautiful night, like tonight. …I will give you my answer now.{#ch5_9_v376}"
-    new "Это была прекрасная ночь, как сегодня. …Теперь я дам тебе ответ."
+    new "Это была прекрасная ночь под Лунами-Близнецами, как сегодня. …Теперь я дам тебе ответ."
 
     old "…Princess?{#ch5_9_v8871}"
     new "…Принцесса?"

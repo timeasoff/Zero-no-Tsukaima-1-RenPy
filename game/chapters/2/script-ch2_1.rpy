@@ -412,7 +412,7 @@ label ch2:
 
             $ show_sprites(("l 3 sad", "s 3 sad"))
             voice "ch2_s_032"
-            s "I know that."
+            s "I know, but…"
 
             $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch2_l_026"

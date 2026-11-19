@@ -411,10 +411,12 @@ init -1 python:
 
     def fade_fx(bg=None, duration=1.0, window_hide=True, **kwargs):
         """Обычное затухание в чёрный и проявление нового фона/персонажей."""
+        kwargs.setdefault("window_hide", window_hide)
         _run_fx("fade", bg, duration, kwargs)
 
     def flash_fx(bg=None, duration=2.0, window_hide=True, **kwargs):
         """Мягкая матовая вспышка, полностью перекрывающая изображение."""
+        kwargs.setdefault("window_hide", window_hide)
         _run_fx("flash", bg, duration, kwargs)
 
     def hit_fx(bg=None, duration=0.35, **kwargs):

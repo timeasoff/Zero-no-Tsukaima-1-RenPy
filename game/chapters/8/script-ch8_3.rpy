@@ -9,8 +9,8 @@ label ch8_3:
 
     # [SPRITE   lay8     image=+775, level=160, dir=1B]
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
-    # [BGM      bgm      play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM      bgm      play=+28 → t27]
+    play music t27 fadein 1.0
     # [BG       stage    image=+43, level=200 → id(43)]
     $ fade_fx("id(43)")
     # [BGM      bgm      stop=1000]
@@ -33,12 +33,12 @@ label ch8_3:
     $ show_sprites()
     # [SPRITE   lay1     image=+302, level=160, dir=1A]
     # [SPRITE   lay2     image=+528, level=160, dir=2A]
-    # [BGM      bgm      play=+28 → t28]
+    # [BGM      bgm      play=+28 → t27]
     $ show_sprites(("s 3", "l 1", "s 2"))
-    play music t28 fadein 1.0
+    play music t27 fadein 1.0
     # シエスタ：サイトさんが、サイトさんが……。  [voice 15176]
     voice "ch8_si_010"
-    si "That's Saito, that's Saito…! {#ch8_si_010}"
+    si "It's Saito-san, it's Saito-san…! {#ch8_si_010}"
     # JA[15176]: シエスタ：サイトさんが、サイトさんが……。
     # ルイズ：大丈夫、わたしが直してあげるわ。
     # [voice 7457]
@@ -100,8 +100,8 @@ label ch8_3:
     # ==== SCENE 425 ====
     # [SPRITE   lay8     image=+775, level=160, dir=1B]
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
-    # [BGM      bgm      play=+28 → t28]
-    play music t28 fadein 1.0
+    # [BGM      bgm      play=+28 → t27]
+    play music t27 fadein 1.0
     # [BG       stage    image=+43, level=200 → id(43)]
     $ fade_fx("id(43)")
     # サイト：軍の人達に合流するつもりですか？  [voice 13644]
@@ -128,7 +128,7 @@ label ch8_3:
     # トリステインが健在であることを
     # 示せるだけでよいのです。  [voice 914]
     voice "ch8_h_063"
-    h "It's enough that I'm safe inside the palace, so the Tristain can be reassured that I'm alive. {#ch8_h_063}"
+    h "It's enough that I'm safe inside the palace, to show that Tristain is still standing. {#ch8_h_063}"
     # JA[914]: アンリエッタ：わたくしが王宮内に無事でいることで、 / トリステインが健在であることを / 示せるだけでよいのです。
     # アンリエッタ：それに、わたくしにもひとつ、
     # 考えていることがあるのですよ。  [voice 915]
@@ -208,8 +208,8 @@ label ch8_3:
     # ==== SCENE 426 ====
     # [BG       stage    image=+43, level=200 → id(43)]
     # [TRANS trans("crossfade", 1000)]
-    # [BGM      bgm      play=+25 → t25]
-    play music t25 fadein 1.0
+    # [BGM      bgm      play=+25 → t24]
+    play music t24 fadein 1.0
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     $ show_sprites(("s 3",))
     # サイト：みんな、無事か！  [voice 13649]
@@ -244,7 +244,7 @@ label ch8_3:
     # JA[13650]: サイト：シエスタは、ここで待っててくれ。 / 本当は学院のほうが安全だけど、 / そんな時間もない。
     # シエスタ：は、はいっ。 / サイトさん、ご武運を……。  [voice 15179]
     voice "ch8_si_013"
-    si "Yes! Please give me your support, Saito-san…! {#ch8_si_013}"
+    si "Yes! Good luck out there, Saito-san…! {#ch8_si_013}"
     # JA[15179]: シエスタ：は、はいっ。 / サイトさん、ご武運を……。
     # サイト：ああ……。  [voice 13651]
     voice "ch8_s_092"
@@ -252,7 +252,7 @@ label ch8_3:
     # JA[13651]: サイト：ああ……。
     # ルイズ：では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。  [voice 7465]
     voice "ch8_l_059"
-    l "Then let's split up. I'll go with Site and Kirche to the palace. {#ch8_l_059}"
+    l "Then let's split into two. {#ch8_l_059}"
     # JA[7465]: ルイズ：では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # キュルケ：タバサ、モンモランシー、ギーシュは、 / 砲台への攻撃をお願い。 / 気をつけてね。  [voice 3872]
     voice "ch8_k_015"
@@ -264,11 +264,11 @@ label ch8_3:
     # JA[15814]: タバサ：了解。
     # ルイズ：わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。  [voice 7466]
     voice "ch8_l_060"
-    l "So I'll have Site, the Princess, and Kirche head to the palace. {#ch8_l_60}"
+    l "Saito, the Princess, Kirche and I will head to the palace. {#ch8_l_060}"
     # JA[7466]: ルイズ：わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。
     # アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。  [voice 919]
     voice "ch8_h_068"
-    h "Understood. I'll make sure I'm not an obstacle. Do your best. {#ch8_h_068}"
+    h "Understood. I'll make sure I'm not an obstacle. I'll do my best. {#ch8_h_068}"
     # JA[919]: アンリエッタ：分かりました。 / 足手まといにならないよう、 / 頑張ります。
     # ルイズ：では、作戦開始ね。  [voice 7467]
     voice "ch8_l_061"
@@ -279,10 +279,12 @@ label ch8_3:
     # ==== SCENE 427 ====
     # [BG       stage    image=+43, level=200 → id(43)]
     # [TRANS trans("crossfade", 1000)]
-    # [BGM      bgm      play=+25 → t25]
-    play music t25 fadein 1.0
+    # [BGM      bgm      play=+25 → t24]
+    play music t24 fadein 1.0
     # [SPRITE   lay15    image=+1114, level=160, dir=1A]  # 味方Ａ (ally A)
     # [SPRITE   lay17    image=+1114, level=160, dir=1A]  # 味方Ａ
+    # [BGM play=+5 → t4]
+    play music t4 fadein 1.0
     # 味方Ａ：陥下！ご無事で！  [voice 4278]
     voice "ch8_a_001"
     man_a "Your Majesty! Are you safe!? {#ch8_a_001}"
@@ -295,19 +297,19 @@ label ch8_3:
     # [SPRITE   lay5     image=+401, level=160, dir=1B]  # サイト
     # サイト：すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。  [voice 13652]
     voice "ch8_s_093"
-    s "Wow. Just seeing the Princess is changing the mood of the city. {#ch8_s_093}"
+    s "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
     # JA[13652]: サイト：すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。
     # [SPRITE   lay5     x=224, y=0]
     # [SPRITE   lay19    image=+940, level=160, dir=1A]  # デルフリンガー
     # デルフリンガー：王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。  [voice 1372]
     voice "ch8_d_001"
-    d "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
+    d "That's what a king is, you see — making people feel that as long as this person is here, everything will be fine is part of the job too. {#ch8_d_001}"
     # JA[1372]: デルフリンガー：王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。
     # [SPRITE   lay5     hide] [SPRITE   lay19    hide]
     # [SPRITE   lay8     image=+779, level=160, dir=1B]  # アンリエッタ
     # アンリエッタ：状況はどうなっていますか。  [voice 920]
     voice "ch8_h_069"
-    h "How is the situation?" {#ch8_h_069}
+    h "How is the situation?{#ch8_h_069}"
     # JA[920]: アンリエッタ：状況はどうなっていますか。
     # [SPRITE   lay8     x=224, y=0]
     # [SPRITE   lay18    image=+1121, level=160, dir=1A]  # 将校
@@ -329,7 +331,7 @@ label ch8_3:
     # [SPRITE   lay5     image=+401, level=156, dir=1B]
     # サイト：ああ。 / そうだな。  [voice 13653]
     voice "ch8_s_094"
-    s "Yeah, I see. {#ch8_s_94}"
+    s "Yeah, I see. {#ch8_s_094}"
     # JA[13653]: サイト：ああ。 / そうだな。
     # [SPRITE   lay6     hide] [SPRITE   lay5     hide]
     # [SPRITE   lay18    image=+1125, level=160, dir=1A]  # 将校
@@ -402,7 +404,7 @@ label ch8_3:
     # [BGM      bgm      stop=1000]
     # [EVENT_CG event    image=+139, level=80]
     # [BGM      bgm      play=+18]
-    play music t18 fadein 1.0
+    play music t17 fadein 1.0
     # ウェザリー：そうはいかない。  [voice 16166]
     voice "ch8_w_001"
     w "You won't get away with this. {#ch8_w_001}"
@@ -445,7 +447,7 @@ label ch8_3:
     # JA[16170]: ウェザリー：そのとき、アキナがサイトやルイズの / 情報をわたしまで、伝えていたのさ。
     # ウェザリー：もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。  [voice 16171]
     voice "ch8_w_006"
-    w "Though Akina herself doesn't remember doing any of it. {#ch8_w_006}"
+    w "Though Haruna remembers none of what Akina did. {#ch8_w_006}"
     # JA[16171]: ウェザリー：もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。
     # サイト：くそっ、ウェザリー！ / 春奈を元に戻せ！  [voice 13661]
     voice "ch8_s_101"
@@ -505,7 +507,7 @@ label ch8_3:
     # JA[16176]: ウェザリー：……っ！
     # サイト：春奈！ / あ、いや、まだアキナか？ / とにかく、無事か？  [voice 13665]
     voice "ch8_s_105"
-    s "Haruna! Or is it Akina? Anyway, is everyone safe? {#ch8_s_105}"
+    s "Haruna! Or is it Akina? Anyway, are you all right? {#ch8_s_105}"
     # JA[13665]: サイト：春奈！ / あ、いや、まだアキナか？ / とにかく、無事か？
     # ハルナ：う……ううん……。  [voice 2639]
     voice "ch8_ha_001"
@@ -517,12 +519,7 @@ label ch8_3:
     # JA[3874]: キュルケ：どうやら無事のようね。
     # アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。  [voice 926]
     voice "ch8_h_075"
-    h "Your magic, "Brainwash Howling," doesn't work here. {#ch8_h_075}"
-    # JA[926]: アンリエッタ：あなたの魔法 / 「ブレインウォASH HOWLING」は、 / ここでは通用しません。 — wait, that's a typo, let me fix.
-    # Actually: アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。  [voice 926]
-    # Let me fix that.
-    voice "ch8_h_075"
-    h "Your magic, "Brainwash Howling," doesn't work here. {#ch8_h_075}"
+    h "Your magic, 'Brainwash Howling,' doesn't work here. {#ch8_h_075}"
     # JA[926]: アンリエッタ：あなたの魔法 / 「ブレインウォッシュ・ハウリング」は、 / ここでは通用しません。
     # アンリエッタ：わたくしがいる限り、絶対に。  [voice 927]
     voice "ch8_h_076"
@@ -538,7 +535,7 @@ label ch8_3:
     # JA[16178]: ウェザリー：これは、わたしが一族から学んだ秘術のはず！ / お前ごときに破れるはずがない！
     # アンリエッタ：それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。  [voice 928]
     voice "ch8_h_077"
-    h "That it can be broken, I knew. I knew you were communicating through a sound that humans cannot hear. {#ch8_h_077}"
+    h "It can be broken, you see. I know you are giving orders through a sound humans cannot hear. {#ch8_h_077}"
     # JA[928]: アンリエッタ：それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。
     # アンリエッタ：わたくしが魔法を使って、 / その音を聞こえなくさせているだけです。  [voice 929]
     voice "ch8_h_078"
@@ -604,7 +601,7 @@ label ch8_3:
     # JA[16185]: ウェザリー：ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！
     # ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！！  [voice 16186]
     voice "ch8_w_021"
-    w "Come then! I have nothing left but my pride and my anger! Take this!! {#ch8_w_021}"
+    w "Come then! The fangs and claws of my resentment and anger — take them into your body!! {#ch8_w_021}"
     # JA[16186]: ウェザリー：ゆくぞ！ / 我が無念と怒りの牙と爪、 / その身に受けてみるがいい！!
     # サイト：やっぱり戦うしかないのか。  [voice 13666]
     voice "ch8_s_106"
@@ -623,8 +620,8 @@ label ch8_3:
     # ==== SCENE 428 ====
     # [BG       stage    image=+71, level=200 → id(71)]
     # [TRANS trans("crossfade", 1000)]
-    # [BGM      bgm      play=+25 → t25]
-    play music t25 fadein 1.0
+    # [BGM      bgm      play=+25 → t24]
+    play music t24 fadein 1.0
     # [SPRITE   lay20    image=+1065, level=160, dir=1A]  # ウェザリー
     # ウェザリー：くはっ！  [voice 16187]
     voice "ch8_w_022"
@@ -644,7 +641,7 @@ label ch8_3:
     # JA[16188]: ウェザリー：……ふ、ふふふっ。
     # ウェザリー：まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。  [voice 16189]
     voice "ch8_w_024"
-    w "Did you really think I'd be defeated by a queen I underestimated? {#ch8_w_024}"
+    w "I never imagined I'd lose to a queen I'd looked down on as immature. {#ch8_w_024}"
     # JA[16189]: ウェザリー：まさか、未熟と侮っていた女王に負けるとは、 / 思ってもみなかった。
     # サイト：ウェザリー……。  [voice 13669]
     voice "ch8_s_116"
@@ -652,11 +649,11 @@ label ch8_3:
     # JA[13669]: サイト：ウェザラー。
     # ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.  [voice 16190]
     voice "ch8_w_025"
-    w "Then at this point, no mercy for the defeated! This is the finishing blow! {#ch8_w_025}"
+    w "Come, no mercy for the defeated. I will not live in disgrace. Finish me with one stroke. {#ch8_w_025}"
     # JA[16190]: ウェザラー：さあ、敗者に情けは無用。 / 生き恥をさらこうとは思わないわ。 / ひ Thought it to the finishing blow.
     # サイト：お姫さま、どうします？  [voice 13670]
     voice "ch8_s_117"
-    s "What should the Princess do? {#ch8_s_117}"
+    s "Princess, what will you do? {#ch8_s_117}"
     # JA[13670]: サイト：お姫さま、どうします？
     # アンリエッタ：ミス・ウェザリー。 / あなたには、自分の罪を償ってもらいます。  [voice 938]
     voice "ch8_h_086"
@@ -680,12 +677,14 @@ label ch8_3:
     # JA[7473]: ルイズ：はい。 / お任せください。
     # ルイズ：出でよ、ここになきもの……ここにあるように。  [voice 7474]
     voice "ch8_l_068"
-    l "Come forth, here I am… Here I am. {#ch8_l_068}"
+    l "Come forth, you who are not here… as though you were here. {#ch8_l_068}"
     # JA[7474]: ルイズ：出でよ、ここになきもの……ここにあるように。
     # ルイズ：イリュージョン！！  [voice 7475]
     voice "ch8_l_069"
     l "Illusion!! {#ch8_l_069}"
     # JA[7475]: ルイズ：イリュージョン！！
+    # [BGM play=+5 → t4]
+    play music t4 fadein 1.0
     # アンリエッタ：ああ……！  [voice 941]
     voice "ch8_h_089"
     h "Oh…! {#ch8_h_089}"
@@ -704,7 +703,7 @@ label ch8_3:
     # JA[7476]: ルイズ：違うわよ……ばか……。
     # アンリエッタ：ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。  [voice 942]
     voice "ch8_h_090"
-    h "Oh, Louise… This is Illusion. It's magic that creates tangible illusions… {#ch8_h_090}"
+    h "Oh, Louise… This is Illusion. It's magic that manifests incorporeal phantoms… {#ch8_h_090}"
     # JA[942]: アンリエッタ：ああ、ルイズ……。 / これは、イリュージョンなのね。 / 実体なき幻を出現させる魔法……。
     # サイト：ってことは、あの艦隊は幻？  [voice 13673]
     voice "ch8_s_111"
@@ -764,5 +763,5 @@ label ch8_3:
     voice "ch8_h_096"
     h "But… I will not run away. I am… the queen of this country. {#ch8_h_096}"
     # JA[948]: アンリエッタ：でも……。 / わたくしはもう逃げようなんて思いません。 / わたくしは……この国の女王なのですから。
-    # → next scene 430 (chapter end → jump attention)
-    jump attention
+    # → next scene 430 = начало главы 9 (script-ch9_1.rpy).
+    jump ch9

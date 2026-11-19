@@ -42,6 +42,7 @@ label ch9:
     # [BG stage image=+2] [TRANS trans("crossfade", 2000)]
     # [BG stage image=+12] [TRANS trans("crossfade", 1000)]
     # [BGM bgm play=+19 → t18]
+    play music t18 fadein 1.0
     $ show_sprites()
     # [SPRITE lay5 image=+423 → s 3]
     $ show_sprites(("s 3"))
@@ -435,7 +436,7 @@ label ch9:
     # JA[9305]: サイト：そんなこといったら、俺なんかルイズに / 召喚されて以来、なんだかんだでずっと / この学院のお世話になってるんだけど。
     # ハルナ：平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。  [voice 1827]
     voice "ch9_ha_002"
-    ha "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
+    ha "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
     # JA[1827]: ハルナ：平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。
     # [SPRITE lay5 image=+390 → s 1]
     $ show_sprites(("s 1", "ha 1"))
@@ -469,7 +470,7 @@ label ch9:
     $ show_sprites(("s 1 sad", "ha 1 happy"))
     # サイト：劇団って、あのウェザリーの劇団は / もうなくなったんだろ？  [voice 9309]
     voice "ch9_s_040"
-    s "Theater? I mean, isn't Weatherly's theater / out of business? {#ch9_s_045}"
+    s "Theater? I mean, isn't Weatherby's theater / out of business? {#ch9_s_045}"
     # JA[9309]: サイト：劇団って、あのウェザリーの劇団は / もうなくなったんだろ？
     # ハルナ：違うの。 / あの劇を見てくれた別の劇団の人が、 / 私のことを気に入ってスカウトしてくれたのよ。  [voice 1830]
     voice "ch9_ha_005"
@@ -528,7 +529,7 @@ label ch9:
     # [BG stage image=+88 → sky] [TRANS trans("crossfade", 1000)]
     $ fade_fx("sky")
     # サイト：（春奈……正確にはアキナに支配された / 状態の春奈は、あの後ウェザリーに / 魔法を解いてもらった）  [null]
-    s "(Haruna… to be precise, Haruna / under Akina's control, had her magic / dispelled by Weatherly afterwards.){#ch9_s_049}"
+    s "(Haruna… to be precise, Haruna / under Akina's control, had her magic / dispelled by Weatherby afterwards.){#ch9_s_049}"
     # JA[null]: サイト：（春奈……正確にはアキナに支配された / 状態の春奈は、あの後ウェザリーに / 魔法を解いてもらった）
     # サイト：（それから、アキナが再び現れることも /　なくなり……）  [null]
     s "(And Akina never appeared again…) {#ch9_s_050}"
@@ -556,7 +557,7 @@ label ch9:
     $ show_sprites(("h 2", "s 1"))
     # サイト：はい。 / おかげさまで。  [voice 9313]
     voice "ch9_s_044"
-    s "Yes. Thanks to her. {#ch9_s_052}"
+    s "Yes. Thanks to you. {#ch9_s_052}"
     # JA[9313]: サイト：はい。 / おかげさまで。
     # [SPRITE lay8 image=+803 → h 2 sad]
     $ show_sprites(("h 2 sad", "s 1"))
@@ -574,7 +575,7 @@ label ch9:
     $ show_sprites(("h 2 sad", "s 1"))
     # アンриетта：それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。  [voice 452]
     voice "ch9_h_026"
-    h "And yet, I can't celebrate everyone's efforts, / which is the hardest part. {#ch9_h_026}"
+    h "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
     # JA[452]: アンриетта：それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。
     # [SPRITE lay5 hide]
     # [SPRITE lay1 image=+304 → l 1 happy]
@@ -587,7 +588,7 @@ label ch9:
     $ show_sprites(("h 2 sad", "l 1"))
     # ルイズ：それでなくても、ウェザリーや、ハルナの件。 / それに虚無の件と極秘事項が目白押しです。  [voice 4886]
     voice "ch9_l_004"
-    l "And then there's Weatherly, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
+    l "And then there's Weatherby, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
     # JA[4886]: ルイズ：それでなくても、ウェザリーや、ハルナの件。 / それに虚無の件と極秘事項が目白押しです。
     # ルイズ：貴族は民を守るために存在するもの。 / それはみんなが理解していることです。  [voice 4887]
     voice "ch9_l_005"
@@ -650,7 +651,7 @@ label ch9:
     $ dissolve_fx("id(293)", type="cg")
     # ルイズ：え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！  [voice 4888]
     voice "ch9_l_006"
-    l "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    l "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
     # JA[4888]: ルイズ：え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！
     # ルイズ：しかも……。 / 唇に……。  [voice 4889]
     voice "ch9_l_007"
@@ -785,7 +786,7 @@ label ch9:
     $ show_sprites(("h 2", "d 1 sad"))
     # デルфリнгер：やれやれ。 / 相棒も難儀だねえ。  [voice 1222]
     voice "ch9_d_002"
-    d "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
+    d "Goodness. / My partner's in trouble too. {#ch9_d_002}"
     # JA[1222]: デルフリンガー：やれやれ。 / 相棒も難儀だねえ。
     # [SPRITE lay8 hide]
     # [SPRITE lay19 hide]
@@ -844,4 +845,3 @@ label ch9:
     # → next scene 430 — глава окончена (конец chapter 9 = chapter_10)
     # → jump attention (конец игры/главы)
     jump attention
-    return

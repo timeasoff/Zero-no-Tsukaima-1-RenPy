@@ -65,7 +65,7 @@ label ch5_6:
     $ show_sprites(("s 1"))
     th "Hah… practice is off today, isn't it?{#ch5.6_th_001}"
     # JA: （はあ、今日は練習が休みか）
-    th "Wealthy-sama said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
+    th "Weatherby-san said that tomorrow the final casting will finally be announced...{#ch5.6_th_002}"
     # JA: （明日にはいよいよ役柄の最終発表をするって / 　ウェザリーさんはいってたけど……）
     # [lay5 +429 → s 3 sad]
     $ show_sprites(("s 3 sad"))
@@ -133,7 +133,7 @@ label ch5_6:
             s "You practiced so hard, I couldn't bring myself to call out to you.{#ch5_6_v9933}"
             # JA[9933]: ずいぶんと熱心だったから、 / 声をかけづらくてさ。
             voice "ch5.6_k_004"
-            k "Mm, I did slack off a bit, though.{#ch5_6_v3002}"
+            k "Mm, I did slack off quite a bit, though.{#ch5_6_v3002}"
             # JA[3002]: まぁ、結構練習さぼっちゃったしね。
             # [lay5 +392 → s 1 happy]
             $ show_sprites(("k 2", "s 1 happy"))
@@ -163,7 +163,7 @@ label ch5_6:
                     # [lay6 +695 → k 2 shy]
                     $ show_sprites(("k 2 shy", "s 1"))
                     voice "ch5.6_k_005"
-                    k "Oh? Did you worry about me?{#ch5_6_v3003}"
+                    k "Oh? You were worried about me.{#ch5_6_v3003}"
                     # JA[3003]: あら？ / 心配してくれたんだ。
                     # [lay5 +394 → s 1 angry]
                     $ show_sprites(("k 2 shy", "s 1 angry"))
@@ -494,7 +494,7 @@ label ch5_6:
             # [BG +50 → id(50)]
             $ fade_fx("id(50)")
             voice "ch5.6_g_003"
-            g "We were just sent shopping by Wealthy-sama! Honestly!{#ch5_6_v1445}"
+            g "We were just sent shopping by Weatherby-san! Honestly!{#ch5_6_v1445}"
             # JA[1445]: ぼく達はただ、ウェザリーに買い物を / 頼まれただけだ！ / まったく！
             # [lay4 hide]
             $ show_sprites(("l 6"))
@@ -665,14 +665,14 @@ label ch5_6:
                     # [lay3 +869 → m 2 sad]
                     $ show_sprites(("s 3", "m 2 sad"))
                     voice "ch5.6_m_004"
-                    m "Hmm, I think pickled vegetables are the limit for now. Fried food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
+                    m "Hmm, I think simmered dishes are about my limit for now. Grilled food and bread — I still have plenty of training to do.{#ch5_6_v3997}"
                     # JA[3997]: うーん、まだ煮物が限界みたい。 / 焼き物とか、パンとか、 / まだまだ修行が必要かもね。
                     # [lay5 hide]
                     $ show_sprites(("m 2 sad"))
                     # [lay2 +502 → si 2 happy]
                     $ show_sprites(("si 2 happy", "m 2 sad"))
                     voice "ch5.6_si_004"
-                    si "Miss Montmonmon has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
+                    si "Miss Montmorency has natural talent, so I think you're just a little short.{#ch5_6_v14466}"
                     # JA[14466]: ミス・モンモランシーは筋がいいんですから、 / あと少しだと思いますよ。
                 "Can you actually make something edible?{#ch5_6_c1421}":
                     # JA: 食べられるモノを作れるの？
@@ -1013,10 +1013,10 @@ label ch5_6:
                     # [lay8 +777 → h 3 happy]
                     $ show_sprites(("t 5", "h 3 happy"))
                     voice "ch5.6_h_011"
-                    h "Yes, it's nice weather. On days like this, I want to run around in the fields.{#ch5_6_v473}"
+                    h "Then why don't you come visit the royal palace library sometime?{#ch5_6_v473}"
                     # JA[473]: だったら、今度王宮の書庫に来てみては / いかがですか？
                     voice "ch5.6_h_012"
-                    h "That's right. It's really up in the sky.{#ch5_6_v474}"
+                    h "There are books that can't be taken out or shown, but I think I can show you a fair number of them.{#ch5_6_v474}"
                     # JA[474]: 持ち出しや、見せることができない本も / ありますが、ある程度の本は / お見せできると思いますよ。
                     # [lay0 +640 → t 5 shy]
                     $ show_sprites(("t 5 shy", "h 3 happy"))
@@ -1092,7 +1092,7 @@ label ch5_6:
             # [lay20 +1061 → w 1]
             $ show_sprites(("w 1"))
             voice "ch5.6_s_044"
-            s "...Huh? Wealthy-sama?{#ch5_6_v9975}"
+            s "...Huh? Weatherby-san?{#ch5_6_v9975}"
             # JA[9975]: ……あれ？ / ウェザリーさん？
             # [lay20 x=-96]
             $ show_sprites(("w 1"))
@@ -1117,7 +1117,7 @@ label ch5_6:
             # [lay5 +390 → s 1]
             $ show_sprites(("w 1", "s 1"))
             voice "ch5.6_s_045"
-            s "By the way, Wealthy-sama, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
+            s "By the way, Weatherby-san, you said you used to be a noble, but why are you a traveling actor now?{#ch5_6_v9976}"
             # JA[9976]: そういえばウェザリーさんって前は、 / 貴族だったって言ってましたけど、 / どうして今は旅役者なんですか？
             # [lay20 +1063 → w 1 happy]
             $ show_sprites(("w 1 happy", "s 1"))
@@ -1171,7 +1171,7 @@ label ch5_6:
             # [lay5 +396 → s 1 sad]
             $ show_sprites(("w 1", "s 1 sad"))
             voice "ch5.6_s_050"
-            s "Wealthy-sama?{#ch5_6_v9981}"
+            s "Weatherby-san?{#ch5_6_v9981}"
             # JA[9981]: ウェザリーさん？
             voice "ch5.6_w_009"
             w "I think I talked too much. I'll go rest over there...{#ch5_6_v15882}"

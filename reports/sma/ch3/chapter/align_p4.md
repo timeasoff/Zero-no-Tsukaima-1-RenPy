@@ -1,6 +1,6 @@
 # ch3 align — part 4 (`script-ch3_4.rpy`)
 
-Generated: 2026-10-16T23:00:08. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
+Generated: 2026-11-17T05:58:25. Canon: ps2_source/events_full chapter_04 (точные аргументы; '\n' канона склеен).
 Scenes: 163, 164, 165, 166, 167, 168.
 Entries: 102 (choice=6, novoice=3, voiced=93).
 Flags: MISMATCH_JA=3, RU_EQ_EN=1.
@@ -9,8 +9,8 @@ Flags: MISMATCH_JA=3, RU_EQ_EN=1.
 
 - [MISMATCH_JA] script line 102: tl!=canon
 - [MISMATCH_JA] script line 105: tl!=canon
-- [MISMATCH_JA] script line 409: tl!=canon
-- [RU_EQ_EN] script line 409: ………………
+- [MISMATCH_JA] script line 412: tl!=canon
+- [RU_EQ_EN] script line 412: ………………
 
 ## ENTRIES
 
@@ -284,343 +284,343 @@ Flags: MISMATCH_JA=3, RU_EQ_EN=1.
 - JAtl: OK
 - RU: А, Хирага-кун… Со мной всё в порядке…
 
-### #46 line 202 scene 165 kind=voiced voice=ch3.4_s_007 spk=s
+### #46 line 203 scene 165 kind=voiced voice=ch3.4_s_007 spk=s
 - EN: No, no, no—what are you saying? This doesn't look fine at all!
 - JA: いやいやいや、なに言ってんの？ちっとも大丈夫な状況には見えないって！
 - JAtl: OK
 - RU: Да нет, нет — что ты говоришь? Это совсем не «всё в порядке»!
 
-### #47 line 207 scene 165 kind=voiced voice=ch3.4_s_008 spk=s
+### #47 line 208 scene 165 kind=voiced voice=ch3.4_s_008 spk=s
 - EN: You're drenched in sweat—how many quilts do you have on you?
 - JA: こんなに汗かいちゃってるのに、何枚布団かけてんだよ？
 - JAtl: OK
 - RU: Ты вся в поту — сколько на тебе одеял?
 
-### #48 line 212 scene 165 kind=voiced voice=ch3.4_ha_021 spk=ha
+### #48 line 213 scene 165 kind=voiced voice=ch3.4_ha_021 spk=ha
 - EN: Th-that's…
 - JA: そ、それは……。
 - JAtl: OK
 - RU: Э-это…
 
-### #49 line 217 scene 165 kind=voiced voice=ch3.4_s_009 spk=s
+### #49 line 218 scene 165 kind=voiced voice=ch3.4_s_009 spk=s
 - EN: That's?
 - JA: それは？
 - JAtl: OK
 - RU: Это?
 
-### #50 line 222 scene 165 kind=voiced voice=ch3.4_ha_022 spk=ha
+### #50 line 223 scene 165 kind=voiced voice=ch3.4_ha_022 spk=ha
 - EN: It's nothing…
 - JA: なんでもない……。
 - JAtl: OK
 - RU: Ничего…
 
-### #51 line 227 scene 165 kind=voiced voice=ch3.4_s_010 spk=s
+### #51 line 228 scene 165 kind=voiced voice=ch3.4_s_010 spk=s
 - EN: That's the thing—'it's nothing' can't cover a situation like this, right?
 - JA: だからさ、こんな状況で、なんでもないってことはないだろ？
 - JAtl: OK
 - RU: Вот о чём я — в такой ситуации «ничего» не бывает, правильно?
 
-### #52 line 231 scene 164 kind=choice
+### #52 line 232 scene 164 kind=choice
 - EN: Siesta, you okay?{#ch3_m164b}
 - JA: シエスタ、大丈夫？
 - JAtl: OK
 - RU: Сиеста, ты в порядке?
 
-### #53 line 236 scene 166 kind=voiced voice=ch3.4_s_011 spk=s
+### #53 line 237 scene 166 kind=voiced voice=ch3.4_s_011 spk=s
 - EN: Siesta, you okay?
 - JA: シエスタ、大丈夫？
 - JAtl: OK
 - RU: Сиеста, ты в порядке?
 
-### #54 line 241 scene 166 kind=voiced voice=ch3.4_si_019 spk=si
+### #54 line 242 scene 166 kind=voiced voice=ch3.4_si_019 spk=si
 - EN: Ah, Saito-san… Ufufufu…
 - JA: あ、サイトさんだぁ……。ウフフフフ……。
 - JAtl: OK
 - RU: А, Сайто-сан… Уфуфуфу…
 
-### #55 line 247 scene 166 kind=voiced voice=ch3.4_s_012 spk=s
+### #55 line 249 scene 166 kind=voiced voice=ch3.4_s_012 spk=s
 - EN: No, I don't mean 'Saito-san'—
 - JA: いや、サイトさんじゃなくてさ。
 - JAtl: OK
 - RU: Нет, я не про «Сайто-сан»—
 
-### #56 line 252 scene 166 kind=voiced voice=ch3.4_si_020 spk=si
+### #56 line 254 scene 166 kind=voiced voice=ch3.4_si_020 spk=si
 - EN: Yees. I'm fiiine.
 - JA: はいー。大丈夫ですよー。
 - JAtl: OK
 - RU: Да-а. Всё хоро-ошо.
 
-### #57 line 257 scene 166 kind=voiced voice=ch3.4_s_013 spk=s
+### #57 line 259 scene 166 kind=voiced voice=ch3.4_s_013 spk=s
 - EN: You don't look fine at all… More importantly, what are you two doing?
 - JA: とても大丈夫そうには見えない……。それより、２人してなにやってんの？
 - JAtl: OK
 - RU: Совсем не выглядишь хорошо… Скажи лучше, что вы тут делаете вдвоём?
 
-### #58 line 262 scene 166 kind=voiced voice=ch3.4_si_021 spk=si
+### #58 line 264 scene 166 kind=voiced voice=ch3.4_si_021 spk=si
 - EN: W-well, you see… I was just warming up the room a little…
 - JA: あ、あのですね……。ちょっと部屋を暖めてたら……。
 - JAtl: OK
 - RU: А, ну, это… Я просто немного прогревала комнату…
 
-### #59 line 267 scene 166 kind=voiced voice=ch3.4_s_014 spk=s
+### #59 line 269 scene 166 kind=voiced voice=ch3.4_s_014 spk=s
 - EN: Warming it? Why?
 - JA: 暖めるって、なんで？
 - JAtl: OK
 - RU: Прогревала? Зачем?
 
-### #60 line 270 scene 166 kind=voiced voice=ch3.4_si_022 spk=si
+### #60 line 272 scene 166 kind=voiced voice=ch3.4_si_022 spk=si
 - EN: Well, how should I put it…
 - JA: それはなんというか……。
 - JAtl: OK
 - RU: Это, как бы сказать…
 
-### #61 line 275 scene 166 kind=voiced voice=ch3.4_s_015 spk=s
+### #61 line 277 scene 166 kind=voiced voice=ch3.4_s_015 spk=s
 - EN: How should you put it?
 - JA: なんというか？
 - JAtl: OK
 - RU: Как бы сказать?
 
-### #62 line 278 scene 166 kind=voiced voice=ch3.4_si_023 spk=si
+### #62 line 280 scene 166 kind=voiced voice=ch3.4_si_023 spk=si
 - EN: Ufufufu…
 - JA: ウフフフフ……。
 - JAtl: OK
 - RU: Уфуфуфу…
 
-### #63 line 283 scene 166 kind=voiced voice=ch3.4_s_016 spk=s
+### #63 line 285 scene 166 kind=voiced voice=ch3.4_s_016 spk=s
 - EN: No, I don't mean 'ufufu'—
 - JA: いや、ウフフじゃなくてー。
 - JAtl: OK
 - RU: Нет, я не про «уфуфу»—
 
-### #64 line 287 scene 164 kind=choice
+### #64 line 289 scene 164 kind=choice
 - EN: ...Louise!?{#ch3_m164c}
 - JA: ……ルイズは！？
 - JAtl: OK
 - RU: …А Луиза?!
 
-### #65 line 292 scene 167 kind=voiced voice=ch3.4_s_017 spk=s
+### #65 line 294 scene 167 kind=voiced voice=ch3.4_s_017 spk=s
 - EN: ...Louise!?
 - JA: ……ルイズは！？
 - JAtl: OK
 - RU: …А Луиза?!
 
-### #66 line 297 scene 167 kind=voiced voice=ch3.4_si_024 spk=si
+### #66 line 300 scene 167 kind=voiced voice=ch3.4_si_024 spk=si
 - EN: If you mean Miss Vallière, she isn't here.
 - JA: ミス・ヴァリエールでしたら、ここにはいません。
 - JAtl: OK
 - RU: Если вы о мадемуазель Вальер — её здесь нет.
 
-### #67 line 300 scene 167 kind=voiced voice=ch3.4_ha_023 spk=ha
+### #67 line 303 scene 167 kind=voiced voice=ch3.4_ha_023 spk=ha
 - EN: Yes, it's just the two of us…
 - JA: うん、私達２人だけ……。
 - JAtl: OK
 - RU: Да, нас только двое…
 
-### #68 line 305 scene 167 kind=voiced voice=ch3.4_s_018 spk=s
+### #68 line 308 scene 167 kind=voiced voice=ch3.4_s_018 spk=s
 - EN: I see… So what are you two up to? Making the room this hot and all.
 - JA: そっか……。で、２人でなにしてんの？こんなに部屋を暑くしちゃってさ。
 - JAtl: OK
 - RU: Понятно… И что вы делаете вдвоём? Комната раскалена.
 
-### #69 line 310 scene 167 kind=voiced voice=ch3.4_si_025 spk=si
+### #69 line 313 scene 167 kind=voiced voice=ch3.4_si_025 spk=si
 - EN: ...{#ch3.4_si_025}
 - JA: ……。
 - JAtl: OK
 - RU: …
 
-### #70 line 313 scene 167 kind=voiced voice=ch3.4_ha_024 spk=ha
+### #70 line 316 scene 167 kind=voiced voice=ch3.4_ha_024 spk=ha
 - EN: ...{#ch3.4_ha_024}
 - JA: ……。
 - JAtl: OK
 - RU: …
 
-### #71 line 318 scene 167 kind=voiced voice=ch3.4_si_026 spk=si
+### #71 line 321 scene 167 kind=voiced voice=ch3.4_si_026 spk=si
 - EN: Ufufu, ufufufu…{#ch3.4_si_026}
 - JA: ウフフ、ウフフフフ……。
 - JAtl: OK
 - RU: Уфуфу, уфуфуфу…
 
-### #72 line 323 scene 167 kind=voiced voice=ch3.4_ha_025 spk=ha
+### #72 line 326 scene 167 kind=voiced voice=ch3.4_ha_025 spk=ha
 - EN: Fufufu, fufufufu…{#ch3.4_ha_025}
 - JA: フフフ、フフフフフ……。
 - JAtl: OK
 - RU: Фуфуфу, фуфуфу…
 
-### #73 line 328 scene 167 kind=voiced voice=ch3.4_s_019 spk=s
+### #73 line 331 scene 167 kind=voiced voice=ch3.4_s_019 spk=s
 - EN: I have no idea what's going on…
 - JA: って、何がなんだか分からないし……。
 - JAtl: OK
 - RU: Я уже ничего не понимаю…
 
-### #74 line 337 scene 168 kind=voiced voice=ch3.4_s_020 spk=s
+### #74 line 340 scene 168 kind=voiced voice=ch3.4_s_020 spk=s
 - EN: What on earth is going on?
 - JA: 一体何がどうなってるんだ？
 - JAtl: OK
 - RU: Что вообще здесь происходит?
 
-### #75 line 342 scene 168 kind=voiced voice=ch3.4_l_001 spk=l
+### #75 line 345 scene 168 kind=voiced voice=ch3.4_l_001 spk=l
 - EN: Wow, it really did get hot~. Ah, Saito…
 - JA: うわぁ、さすがに暑くなってるわねぇ～。あっ、サイト……。
 - JAtl: OK
 - RU: Ух ты, в самом деле жарко~. А, Сайто…
 
-### #76 line 347 scene 168 kind=voiced voice=ch3.4_s_021 spk=s
+### #76 line 350 scene 168 kind=voiced voice=ch3.4_s_021 spk=s
 - EN: Hey, Louise. I just made a 'this is bad' face at you, didn't I?
 - JA: おい、ルイズ。いま俺の顔見て、まずいって顔したろ？
 - JAtl: OK
 - RU: Эй, Луиза. Ты же видела моё лицо — я посмотрел так, будто всё плохо, да?
 
-### #77 line 352 scene 168 kind=voiced voice=ch3.4_l_002 spk=l
+### #77 line 355 scene 168 kind=voiced voice=ch3.4_l_002 spk=l
 - EN: Eh? What do you mean?
 - JA: え？なんのこと？
 - JAtl: OK
 - RU: А? О чём ты?
 
-### #78 line 357 scene 168 kind=voiced voice=ch3.4_s_022 spk=s
+### #78 line 360 scene 168 kind=voiced voice=ch3.4_s_022 spk=s
 - EN: You don't seem that surprised by how hot this room is.
 - JA: この部屋の暑さをそんなに驚いちゃいないみたいだしな。
 - JAtl: OK
 - RU: Ты как-то не слишком удивлена, как тут жарко.
 
-### #79 line 362 scene 168 kind=voiced voice=ch3.4_l_003 spk=l
+### #79 line 365 scene 168 kind=voiced voice=ch3.4_l_003 spk=l
 - EN: Th-that's just your imagination!
 - JA: そ、そんなの気のせいじゃない？
 - JAtl: OK
 - RU: Э-это тебе показалось!
 
-### #80 line 367 scene 168 kind=voiced voice=ch3.4_s_023 spk=s
+### #80 line 370 scene 168 kind=voiced voice=ch3.4_s_023 spk=s
 - EN: Besides, it's your own room in this state—you should be at least a little surprised…
 - JA: というか、自分の部屋がこんな有様になってんだから、少しは驚けよ……。
 - JAtl: OK
 - RU: И вообще, у тебя самой комната в таком состоянии — стоило бы хоть немного удивиться…
 
-### #81 line 372 scene 168 kind=voiced voice=ch3.4_l_004 spk=l
+### #81 line 375 scene 168 kind=voiced voice=ch3.4_l_004 spk=l
 - EN: …Waaah, Siesta, are you okay-? How did this happen-!
 - JA: ……。わー、シエスタだいじょうぶー？どーしてこんなことにー！
 - JAtl: OK
 - RU: …Ва-а, Сиеста, ты в порядке-? Как так вышло-!
 
-### #82 line 376 scene 168 kind=novoice spk=th
+### #82 line 379 scene 168 kind=novoice spk=th
 - EN: She's laying it on thick…
 - JA: （わざとらしいなぁ……）
 - JAtl: OK
 - RU: Прям таки нарочно…
 
-### #83 line 381 scene 168 kind=voiced voice=ch3.4_si_027 spk=si
+### #83 line 384 scene 168 kind=voiced voice=ch3.4_si_027 spk=si
 - EN: M-Miss Vallière… I'm done for.
 - JA: ミ、ミス・ヴァリエール……。わたくし、もうダメです。
 - JAtl: OK
 - RU: М-мадемуазель Вальер… Я больше не могу.
 
-### #84 line 386 scene 168 kind=voiced voice=ch3.4_l_005 spk=l
+### #84 line 389 scene 168 kind=voiced voice=ch3.4_l_005 spk=l
 - EN: W-wait, Siesta!?
 - JA: ちょ、ちょっとシエスタっ！？
 - JAtl: OK
 - RU: П-подожди, Сиеста!?
 
-### #85 line 389 scene 168 kind=voiced voice=ch3.4_si_028 spk=si
+### #85 line 392 scene 168 kind=voiced voice=ch3.4_si_028 spk=si
 - EN: I'll entrust the rest to your ha…n… ……hau!?
 - JA: あとはお任せいたし……ま……。……はうっ！？
 - JAtl: OK
 - RU: Доверяю остальное вашим ру……к…… Хау!?
 
-### #86 line 397 scene 168 kind=voiced voice=ch3.4_s_024 spk=s
+### #86 line 400 scene 168 kind=voiced voice=ch3.4_s_024 spk=s
 - EN: Waaah—Siesta!?
 - JA: わぁーっ、シエスターっ！？
 - JAtl: OK
 - RU: Ва-а—Сиеста!?
 
-### #87 line 402 scene 168 kind=voiced voice=ch3.4_l_006 spk=l
+### #87 line 405 scene 168 kind=voiced voice=ch3.4_l_006 spk=l
 - EN: Hey, pull yourself together, Siesta! Siestaa!?
 - JA: ちょっとしっかりして、シエスタっ！シエスタったらぁ！？
 - JAtl: OK
 - RU: Ну-ка приди в себя, Сиеста! Сиеста-а!?
 
-### #88 line 409 scene 168 kind=novoice spk=th
+### #88 line 412 scene 168 kind=novoice spk=th
 - EN: ………………
 - JA: ………。……。…。
 - JAtl: DIFF tl=………。……。……。
 - RU: ………………
 
-### #89 line 416 scene 168 kind=voiced voice=ch3.4_si_029 spk=si
+### #89 line 419 scene 168 kind=voiced voice=ch3.4_si_029 spk=si
 - EN: S-sorry. I actually passed out…
 - JA: ……す、すみません。わたくし、本気で意識が飛んでしまって……。
 - JAtl: OK
 - RU: П-простите. Я правда потеряла сознание…
 
-### #90 line 421 scene 168 kind=voiced voice=ch3.4_l_007 spk=l
+### #90 line 424 scene 168 kind=voiced voice=ch3.4_l_007 spk=l
 - EN: Ah, you're okay. Thank goodness…
 - JA: あっ、大丈夫なのね。良かったぁ……。
 - JAtl: OK
 - RU: А, всё в порядке. Ну и слава богам…
 
-### #91 line 426 scene 168 kind=voiced voice=ch3.4_s_025 spk=s
+### #91 line 429 scene 168 kind=voiced voice=ch3.4_s_025 spk=s
 - EN: Louise…
 - JA: なあ、ルイズ……。
 - JAtl: OK
 - RU: Луиза…
 
-### #92 line 431 scene 168 kind=voiced voice=ch3.4_l_008 spk=l
+### #92 line 434 scene 168 kind=voiced voice=ch3.4_l_008 spk=l
 - EN: Wh-what…
 - JA: な、なによっ……。
 - JAtl: OK
 - RU: Ч-что…
 
-### #93 line 434 scene 168 kind=voiced voice=ch3.4_s_026 spk=s
+### #93 line 437 scene 168 kind=voiced voice=ch3.4_s_026 spk=s
 - EN: And you, Siesta…
 - JA: それから、シエスタ……。
 - JAtl: OK
 - RU: И ты, Сиеста…
 
-### #94 line 439 scene 168 kind=voiced voice=ch3.4_si_030 spk=si
+### #94 line 442 scene 168 kind=voiced voice=ch3.4_si_030 spk=si
 - EN: Y-yes!
 - JA: は、はいっ！
 - JAtl: OK
 - RU: Д-да!
 
-### #95 line 442 scene 168 kind=voiced voice=ch3.4_s_027 spk=s
+### #95 line 445 scene 168 kind=voiced voice=ch3.4_s_027 spk=s
 - EN: What exactly did you two do?
 - JA: ２人とも、いったい何をしたんだ？
 - JAtl: OK
 - RU: Вы двое — что вы натворили?
 
-### #96 line 447 scene 168 kind=voiced voice=ch3.4_l_009 spk=l
+### #96 line 450 scene 168 kind=voiced voice=ch3.4_l_009 spk=l
 - EN: I didn't do anything…
 - JA: わたしは別に……。
 - JAtl: OK
 - RU: Я ничего не…
 
-### #97 line 450 scene 168 kind=voiced voice=ch3.4_s_028 spk=s
+### #97 line 453 scene 168 kind=voiced voice=ch3.4_s_028 spk=s
 - EN: You did plenty! Heating up the room like idiots with Siesta—what were you thinking!
 - JA: 別にってことないだろ？シエスタと２人して、馬鹿みたいに部屋を暑くして、なに考えてんだ！
 - JAtl: OK
 - RU: Как это «ничего»! Сиеста с тобой нагрели комнату до безумия — о чём вы думали?!
 
-### #98 line 455 scene 168 kind=voiced voice=ch3.4_s_029 spk=s
+### #98 line 458 scene 168 kind=voiced voice=ch3.4_s_029 spk=s
 - EN: Haruna's sick! Even if she weren't, doing this to someone would break their body, you know?!
 - JA: 春奈は病気なんだぞ？病気じゃなくたって、こんなことされれば、体がぶっ壊れちまうだろ？
 - JAtl: OK
 - RU: Харуна ведь больна! Даже если бы не она — от такого сломалось бы любое тело, понятно?!
 
-### #99 line 457 scene 168 kind=novoice spk=th
+### #99 line 460 scene 168 kind=novoice spk=th
 - EN: But who started this mess?
 - JA: （しかし、誰が騒ぎの原因なんだ？）
 - JAtl: OK
 - RU: Но кто тут устроил весь этот сыр-бор?
 
-### #100 line 461 scene 168 kind=choice
+### #100 line 464 scene 168 kind=choice
 - EN: It was Louise who started it, right?{#ch3_m168a}
 - JA: ルイズが言い出したことだろ？
 - JAtl: OK
 - RU: Это же Луиза затеяла?
 
-### #101 line 464 scene 168 kind=choice
+### #101 line 467 scene 168 kind=choice
 - EN: This isn't like the usual Siesta.{#ch3_m168b}
 - JA: いつものシエスタらしくないぞ
 - JAtl: OK
 - RU: Это не похоже на обычную Сиесту.
 
-### #102 line 467 scene 168 kind=choice
+### #102 line 470 scene 168 kind=choice
 - EN: Do you dislike Haruna?{#ch3_m168c}
 - JA: 春奈のこと、気に入らないのか？
 - JAtl: OK

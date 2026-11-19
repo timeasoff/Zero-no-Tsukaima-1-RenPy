@@ -26,7 +26,7 @@ translate russian strings:
     new "Это правда?"
 
     old "Confront Guiche{#ch5_6_c1414}"
-    new "Уличить Гюиша"
+    new "Уличить Гиша"
 
     old "Confront Louise{#ch5_6_c1415}"
     new "Уличить Луизу"

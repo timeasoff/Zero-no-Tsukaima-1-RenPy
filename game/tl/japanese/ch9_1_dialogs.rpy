@@ -184,7 +184,7 @@ translate japanese strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "そんなこといったら、俺なんかルイズに / 召喚されて以来、なんだかんだでずっと / この学院のお世話になってるんだけど。"
 
-    old "I'm not Louise's familiar. / It's only natural I'm taken care of. / But I'm different… {#ch9_ha_002}"
+    old "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
     new "平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
@@ -202,7 +202,7 @@ translate japanese strings:
     old "Theater, the theater. {#ch9_ha_004}"
     new "劇団よ、劇団。"
 
-    old "Theater? I mean, isn't Weatherly's theater / out of business? {#ch9_s_045}"
+    old "Theater? I mean, isn't Weatherby's theater / out of business? {#ch9_s_045}"
     new "劇団って、あのウェザリーの劇団は / もうなくなったんだろ？"
 
     old "No. Another theater troupe saw that play / and scouted me because they liked me. {#ch9_ha_005}"
@@ -238,7 +238,7 @@ translate japanese strings:
     old "So she found her own path in life. {#ch9_h_023}"
     new "そうですか、彼女も自分が / 生きていくための道を、見つけたのですね。"
 
-    old "Yes. Thanks to her. {#ch9_s_052}"
+    old "Yes. Thanks to you. {#ch9_s_052}"
     new "はい。 / おかげさまで。"
 
     old "I wished I could meet her one last time. {#ch9_h_024}"
@@ -247,13 +247,13 @@ translate japanese strings:
     old "I wanted to thank and apologize to her, / but she's already left. {#ch9_h_025}"
     new "彼女にもお礼と謝罪を述べたかったのですが、 / 旅立ってしまったのでは仕方ありませんね。"
 
-    old "And yet, I can't celebrate everyone's efforts, / which is the hardest part. {#ch9_h_026}"
+    old "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
     new "それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。"
 
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"
     new "それこそ仕方ありませんわ。 / 表だってしまっては問題があることを / 全員承知してますから。"
 
-    old "And then there's Weatherly, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
+    old "And then there's Weatherby, Haruna, / the Void matter and classified business — / it's all piled up. {#ch9_l_002}"
     new "それでなくても、ウェザリーや、ハルナの件。 / それに虚無の件と極秘事項が目白押しです。"
 
     old "Nobles exist to protect the common folk. / Everyone understands that. {#ch9_l_003}"
@@ -277,7 +277,7 @@ translate japanese strings:
     old "Huh? {#ch9_s_055}"
     new "え？"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-His Highness kissing you?! {#ch9_l_004}"
+    old "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
     new "え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！"
 
     old "And… / on the lips… {#ch9_l_005}"
@@ -316,7 +316,7 @@ translate japanese strings:
     old "Oh. / I wasn't teasing. {#ch9_h_032}"
     new "あら。 / からкаってなどいませんよ？"
 
-    old "Goodness. / My familiar's in trouble too. {#ch9_d_002}"
+    old "Goodness. / My partner's in trouble too. {#ch9_d_002}"
     new "やれやれ。 / 相棒も難儀だねえ。"
 
     old "This idiot! / This idiot! / This big idiot!! {#ch9_l_009}"

@@ -243,7 +243,7 @@ translate japanese strings:
     old "Why is she getting so mad anyway, she's such a weirdo..."
     new "(何怒ってるんだよ、変な奴......)"
 
-    old "Guishe is Louise's classmate. He specializes in Earth system magic. He knows as 'Guishe the Bronze'."
+    old "Guiche is Louise's classmate. He specializes in Earth system magic. He's known as 'Guiche the Bronze'."
     new "(ギーシュは、ルイズのクラスメイト。 土の系統の魔法が得意。 二つ名は「青銅のギーシュ」)"
 
     old "He's a womanizer and a show-off, but you just can't hate the guy."
@@ -599,12 +599,6 @@ translate japanese strings:
     old "But Louise seems to be enjoying class today. Did something fun happen?"
     new "（けど、今日のルイズはずいぶん楽しそうに授業を受けてるな。なんか、楽しいことでもあったのか？）"
 
-    old "Now then, what should I do...?"
-    new "（さてと、どうしよう……）"
-
-    old "But how am I supposed to be careful, I wonder?"
-    new "（でも、どう気をつければいいんだろ）"
-
     old "Zero reaction, huh... Now's not the time to back down."
     new "（反応ゼロか……。　って、ひるんでる場合じゃないよな）"
 
@@ -922,7 +916,7 @@ translate japanese strings:
     new "（なんだぁ、ルイズのやつ？　やけにモジモジしやがって）"
 
 translate japanese strings:
-    old "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
+    old "Louise and I reported to the princess that we had let the Bomb User escape.{#ch4.6_th_004}"
     new "（俺とルイズは、爆弾使いを取り逃がしたことを　お姫さまに報告した）"
 
 translate japanese strings:
@@ -1140,7 +1134,7 @@ translate japanese strings:
     new "（ちょっと待て。　なんで、お姫さまがここに来てるんだよ！）"
 
 translate japanese strings:
-    old "'A friend'… I suppose she means a ninja{#ch5_3_th_012}"
+    old "'A friend'… I suppose she means she's incognito{#ch5_3_th_012}"
     new "（『お友達』って……。　つまり、お忍びだって言いたいのか）"
 
 translate japanese strings:
@@ -1294,7 +1288,7 @@ translate japanese strings:
     new "（それからも練習の日々は続いた）"
 
 translate japanese strings:
-    old "The little princess's behavior on her daily visits is mystery enough, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
+    old "The little princess's behavior on her daily visits is a mystery in itself, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
     new "（毎日通ってくるお姫さまの行動も謎だが、　相変わらず、キュルケ、モンモランシー、　ギーシュが戻ってこないのも謎だな）"
 
 translate japanese strings:

@@ -1,0 +1,638 @@
+=== MATCHED 159 ===
+FILE choises.rpy  old_line=277 new_line=278
+  OLD: Did something happen, Louise?{#ch2.4_m106a}
+  NEW: Что-то случилось, Луиза?{#ch2.4_m106a}
+
+FILE choises.rpy  old_line=280 new_line=281
+  OLD: Did something happen, Siesta?{#ch2.4_m106b}
+  NEW: Что-то случилось, Сиеста?{#ch2.4_m106b}
+
+FILE choises.rpy  old_line=283 new_line=284
+  OLD: How are you feeling, Haruna?{#ch2.4_m106c}
+  NEW: Как ты себя чувствуешь, Харуна?{#ch2.4_m106c}
+
+FILE choises.rpy  old_line=286 new_line=287
+  OLD: Do you want dinner too?{#ch2.4_m110a}
+  NEW: Ты тоже хочешь ужинать?{#ch2.4_m110a}
+
+FILE choises.rpy  old_line=289 new_line=290
+  OLD: Do you want me to say 'ahh' for you too?{#ch2.4_m110b}
+  NEW: Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_m110b}
+
+FILE choises.rpy  old_line=292 new_line=293
+  OLD: Do you want to be laid up in bed too?{#ch2.4_m110c}
+  NEW: Ты тоже хочешь быть прикованной к кровати?{#ch2.4_m110c}
+
+FILE dialogs.rpy  old_line=2666 new_line=2667
+  OLD: Thank you, Hiraga-kun.
+  NEW: Спасибо, Хирага-кун.
+
+FILE dialogs.rpy  old_line=4439 new_line=4440
+  OLD: Damn it! The bomb user got away...!? Nowhere in sight.
+  NEW: Чёрт! Бомбист скрылся…!? Нигде не видно.
+
+FILE dialogs.rpy  old_line=4442 new_line=4443
+  OLD: Partner, it's not just the bomb user. Take a look around.
+  NEW: Партнёр, дело не только в бомбисте. Оглянись.
+
+FILE dialogs.rpy  old_line=4445 new_line=4446
+  OLD: Huh... Aah! Those guys have vanished too!?
+  NEW: А… Аа! Эти тоже исчезли!?
+
+FILE dialogs.rpy  old_line=4448 new_line=4449
+  OLD: Whaaat? When did they...!
+  NEW: Что? Когда они…!
+
+FILE dialogs.rpy  old_line=4451 new_line=4452
+  OLD: They slipped away in that explosion? Then that bomb user really was their accomplice?
+  NEW: Они скрылись в этом взрыве? Значит, бомбист действительно был их сообщником?
+
+FILE dialogs.rpy  old_line=4454 new_line=4455
+  OLD: That's very likely. Someone curious enough to sneak into the academy — a chance encounter would be too convenient.
+  NEW: Очень вероятно. Тот, кому любопытно проникнуть в академию, — случайная встреча была бы слишком удобной.
+
+FILE dialogs.rpy  old_line=4457 new_line=4458
+  OLD: But that explosion — what in the world...?
+  NEW: Но этот взрыв — что, вообще…?
+
+FILE dialogs.rpy  old_line=4460 new_line=4461
+  OLD: Professor? What is it?
+  NEW: Профессор? Что-то случилось?
+
+FILE dialogs.rpy  old_line=4463 new_line=4464
+  OLD: Ah, no, there's just something bothering me... More importantly, I'll report this to the academy. You all go back to the classroom.
+  NEW: А, нет, просто кое-что беспокоит… Важнее другое: я доложу в академию. Вы все возвращайтесь в класс.
+
+FILE dialogs.rpy  old_line=4466 new_line=4467
+  OLD: Understood, Professor Colbert.
+  NEW: Поняла, профессор Кольбер.
+
+FILE dialogs.rpy  old_line=4469 new_line=4470
+  OLD: I'm not satisfied at all. It's like I didn't get to burn enough...
+  NEW: Я совсем не удовлетворена. Как будто не нажглась…
+
+FILE dialogs.rpy  old_line=4472 new_line=4473
+  OLD: Incomplete combustion, you mean?
+  NEW: Неполное сгорание, что ли?
+
+FILE dialogs.rpy  old_line=4475 new_line=4476
+  OLD: Ah, yeah, that's it. As expected of you, darling — so perceptive.
+  NEW: А, да, именно. Как и подобает тебе, дорогой — так проницательно.
+
+FILE dialogs.rpy  old_line=4478 new_line=4479
+  OLD: ...Why is that the only thing you ever notice?
+  NEW: …Почему ты замечаешь только это?
+
+FILE dialogs.rpy  old_line=4481 new_line=4482
+  OLD: Hm? Did you say something?
+  NEW: А? Ты что-то сказала?
+
+FILE dialogs.rpy  old_line=4484 new_line=4485
+  OLD: Nothing at all! Come on, let's head back already!
+  NEW: Ничего! Давай, пора возвращаться!
+
+FILE dialogs.rpy  old_line=4487 new_line=4488
+  OLD: Saito? What's wrong, going all quiet like that?
+  NEW: Сайто? Что случилось, почему молчишь?
+
+FILE dialogs.rpy  old_line=4490 new_line=4491
+  OLD: Saito, I said answer me. Is something on your mind?
+  NEW: Сайто, я сказала, ответь. Тебя что-то беспокоит?
+
+FILE dialogs.rpy  old_line=4493 new_line=4494
+  OLD: Wh-what?
+  NEW: Ч-что?
+
+FILE dialogs.rpy  old_line=4496 new_line=4497
+  OLD: Louise.
+  NEW: Луиза.
+
+FILE dialogs.rpy  old_line=4499 new_line=4500
+  OLD: What!? Wait, a patrol, what?
+  NEW: Что!? Подожди, патрулирование, что?
+
+FILE dialogs.rpy  old_line=4502 new_line=4503
+  OLD: I'm going to take a quick look around the academy.
+  NEW: Я пойду, немного осмотрюсь в академии.
+
+FILE dialogs.rpy  old_line=4505 new_line=4506
+  OLD: Man, it's already this late. It's already deep into the night.
+  NEW: Вот блин, уже так поздно. Уже глубокая ночь.
+
+FILE dialogs.rpy  old_line=4508 new_line=4509
+  OLD: Partner, let's call it a day. Doesn't look like anyone's hiding in the academy.
+  NEW: Партнёр, давай на сегодня закончим. Похоже, в академии никто не прячется.
+
+FILE dialogs.rpy  old_line=4511 new_line=4512
+  OLD: Yeah. Well then, let's head back to the room.
+  NEW: Да. Тогда вернёмся в комнату.
+
+FILE dialogs.rpy  old_line=4514 new_line=4515
+  OLD: I'm home.
+  NEW: Я дома.
+
+FILE dialogs.rpy  old_line=4517 new_line=4518
+  OLD: So you're back.
+  NEW: Значит, вернулся.
+
+FILE dialogs.rpy  old_line=4520 new_line=4521
+  OLD: Good work, Saito-san. Weren't you in any danger?
+  NEW: Молодец, Сайто-сан. Тебе не было опасно?
+
+FILE dialogs.rpy  old_line=4523 new_line=4524
+  OLD: Welcome back. How was the patrol?
+  NEW: С возвращением. Как патрулирование?
+
+FILE dialogs.rpy  old_line=4526 new_line=4527
+  OLD: Yeah. I looked around the academy all afternoon, but there was nothing unusual anywhere.
+  NEW: Да. Я осматривал академию весь день, но нигде ничего необычного не было.
+
+FILE dialogs.rpy  old_line=4529 new_line=4530
+  OLD: Hmm...{#ch2.4_l_010}
+  NEW: Хм…
+
+FILE dialogs.rpy  old_line=4532 new_line=4533
+  OLD: And that's a reply completely devoid of interest.
+  NEW: И это ответ, полностью лишённый интереса.
+
+FILE dialogs.rpy  old_line=4535 new_line=4536
+  OLD: Isn't it fine, everyone was safe. It's no more and no less than that.
+  NEW: Разве это плохо, все были в безопасности. Ни больше, ни меньше.
+
+FILE dialogs.rpy  old_line=4538 new_line=4539
+  OLD: Well, if you put it that way, you're right.
+  NEW: Ну, если так выразиться, ты права.
+
+FILE dialogs.rpy  old_line=4541 new_line=4542
+  OLD: Hey now! I don't think it'd hurt to say a kind word of appreciation or at least one, I say.
+  NEW: Эй, сейчас! Я не думаю, что помешает сказать хоть одно доброе слово, я говорю.
+
+FILE dialogs.rpy  old_line=4544 new_line=4545
+  OLD: Yes, yes. Good work.
+  NEW: Да-да. Молодец.
+
+FILE dialogs.rpy  old_line=4547 new_line=4548
+  OLD: ......{#ch2.4_s_014}
+  NEW: ……{#ch2.4_s_014}
+
+FILE dialogs.rpy  old_line=4550 new_line=4551
+  OLD: ......{#ch2.4_l_013}
+  NEW: ……{#ch2.4_l_013}
+
+FILE dialogs.rpy  old_line=4553 new_line=4554
+  OLD: U-um, Miss Vallière seems tired, so...
+  NEW: Э-э, мадемуазель Вальер выглядит уставшей, так что…
+
+FILE dialogs.rpy  old_line=4556 new_line=4557
+  OLD: Did something happen, Louise?{#ch2.4_s_015}
+  NEW: Что-то случилось, Луиза?{#ch2.4_s_015}
+
+FILE dialogs.rpy  old_line=4559 new_line=4560
+  OLD: Huh? What's this all of a sudden?
+  NEW: А? Что это вдруг?
+
+FILE dialogs.rpy  old_line=4562 new_line=4563
+  OLD: Well, you seemed kind of absent-minded. I wondered if something was bothering you.
+  NEW: Ну, ты казалась рассеянной. Я подумал, может, тебя что-то беспокоит.
+
+FILE dialogs.rpy  old_line=4565 new_line=4566
+  OLD: N-nothing in particular.
+  NEW: Н-ничего особенного.
+
+FILE dialogs.rpy  old_line=4568 new_line=4569
+  OLD: Is that so? Hmm... then I guess it's fine.
+  NEW: Неужели? Хм… тогда, наверное, всё в порядке.
+
+FILE dialogs.rpy  old_line=4571 new_line=4572
+  OLD: ...Really, it's nothing. There's no need to worry.
+  NEW: …Правда, ничего. Не нужно беспокоиться.
+
+FILE dialogs.rpy  old_line=4574 new_line=4575
+  OLD: Hmm. If you say so, I suppose it's fine, but don't push yourself too hard.
+  NEW: Хм. Если так, то, полагаю, всё в порядке, но не переусердствуй.
+
+FILE dialogs.rpy  old_line=4577 new_line=4578
+  OLD: I'm not. ...Honestly.
+  NEW: Я не переусердствую. …Честное слово.
+
+FILE dialogs.rpy  old_line=4580 new_line=4581
+  OLD: Did something happen, Siesta?{#ch2.4_s_019}
+  NEW: Что-то случилось, Сиеста?{#ch2.4_s_019}
+
+FILE dialogs.rpy  old_line=4583 new_line=4584
+  OLD: Huh, me...?
+  NEW: А, я…?
+
+FILE dialogs.rpy  old_line=4586 new_line=4587
+  OLD: Well, you looked kind of scared to ask Louise anything, so...
+  NEW: Ну, ты казалась слишком напуганной, чтобы спросить Луизу что-нибудь, так что…
+
+FILE dialogs.rpy  old_line=4589 new_line=4590
+  OLD: ......{#ch2.4_si_004}
+  NEW: ……{#ch2.4_si_004}
+
+FILE dialogs.rpy  old_line=4592 new_line=4593
+  OLD: How are you feeling, Haruna?{#ch2.4_s_021}
+  NEW: Как ты себя чувствуешь, Харуна?{#ch2.4_s_021}
+
+FILE dialogs.rpy  old_line=4595 new_line=4596
+  OLD: Ah, yeah. Compared to this morning, I think I'm much better.
+  NEW: А, да. По сравнению с утром, я думаю, мне намного лучше.
+
+FILE dialogs.rpy  old_line=4598 new_line=4599
+  OLD: That's a relief.
+  NEW: Вот это облегчение.
+
+FILE dialogs.rpy  old_line=4601 new_line=4602
+  OLD: ...Hmph.{#ch2.4_l_018}
+  NEW: …Хм.{#ch2.4_l_018}
+
+FILE dialogs.rpy  old_line=4604 new_line=4605
+  OLD: I still feel a little sluggish, though... But I think I'm mostly okay now.
+  NEW: Я всё ещё чувствую некоторую вялость, но… Но, думаю, я в основном в порядке.
+
+FILE dialogs.rpy  old_line=4607 new_line=4608
+  OLD: You'd better not overdo it. Rest properly until you're fully recovered.
+  NEW: Тебе лучше не переусердствовать. Отдыхай как следует, пока полностью не выздоровеешь.
+
+FILE dialogs.rpy  old_line=4610 new_line=4611
+  OLD: Thank you, Hiraga-kun.{#ch2.4_ha_004}
+  NEW: Спасибо, Хирага-кун.
+
+FILE dialogs.rpy  old_line=4613 new_line=4614
+  OLD: Oh, right. Siesta, is there anything to eat?
+  NEW: А, точно. Сиеста, есть что-нибудь поесть?
+
+FILE dialogs.rpy  old_line=4616 new_line=4617
+  OLD: Huh? Don't tell me you haven't had dinner yet?
+  NEW: А? Не скажи, что ты ещё не ужинал?
+
+FILE dialogs.rpy  old_line=4619 new_line=4620
+  OLD: Yeah. I was patrolling and missed my chance to eat. I'd appreciate it if there's anything.
+  NEW: Да. Я патрулировал и упустил возможность поесть. Буду признателен, если есть что-нибудь.
+
+FILE dialogs.rpy  old_line=4622 new_line=4623
+  OLD: If you'd told me, I would have prepared something. Let me bring it now.
+  NEW: Если бы ты сказал, я бы приготовила. Сейчас принесу.
+
+FILE dialogs.rpy  old_line=4625 new_line=4626
+  OLD: I feel kind of bad about this.
+  NEW: Мне как-то неловко.
+
+FILE dialogs.rpy  old_line=4628 new_line=4629
+  OLD: This much is nothing. Well then, I'll go to the kitchen and get your meal.
+  NEW: Это пустяк. Тогда я пойду на кухню и принесу тебе еду.
+
+FILE dialogs.rpy  old_line=4631 new_line=4632
+  OLD: By the way, Haruna, have you had dinner?
+  NEW: Кстати, Харуна, ты ужинала?
+
+FILE dialogs.rpy  old_line=4634 new_line=4635
+  OLD: Yeah... I didn't have an appetite, so not yet. But if you're with me, Hiraga-kun, I might be able to eat.
+  NEW: Да… У меня не было аппетита, так что ещё нет. Но если ты будешь со мной, Хирага-кун, я, возможно, смогу поесть.
+
+FILE dialogs.rpy  old_line=4637 new_line=4638
+  OLD: Kuh!? What is that?
+  NEW: Кха!? Что это?
+
+FILE dialogs.rpy  old_line=4640 new_line=4641
+  OLD: You're spoiling her quite a lot. She can eat a meal by herself, can't she?
+  NEW: Ты её слишком балуешь. Она может поесть сама, не так ли?
+
+FILE dialogs.rpy  old_line=4643 new_line=4644
+  OLD: Louise, calm down. Eating alone when you're laid up in bed makes you feel incredibly lonely, doesn't it?
+  NEW: Луиза, успокойся. Есть в одиночестве, когда ты прикована к кровати, — это невероятно одиноко, не так ли?
+
+FILE dialogs.rpy  old_line=4646 new_line=4647
+  OLD: Not just the body, the heart needs to get better too. Besides, I'm hungry as well, so we might as well — eating together isn't strange at all, is it?
+  NEW: Не только тело, но и дух должны поправиться. К тому же я тоже голоден, так что почему бы и нет — вместе поесть совсем не странно, не так ли?
+
+FILE dialogs.rpy  old_line=4649 new_line=4650
+  OLD: It is strange.
+  NEW: Это странно.
+
+FILE dialogs.rpy  old_line=4652 new_line=4653
+  OLD: How is it!?
+  NEW: Как это!?
+
+FILE dialogs.rpy  old_line=4655 new_line=4656
+  OLD: You've never shown such attentive behavior up until now, have you?
+  NEW: Ты никогда не проявлял такого внимательного отношения до сих пор, не так ли?
+
+FILE dialogs.rpy  old_line=4658 new_line=4659
+  OLD: And yet you're being kind to that girl. You'd think that's odd, wouldn't you?
+  NEW: И всё же ты добр к этой девушке. Ты бы подумал, что это странно, не так ли?
+
+FILE dialogs.rpy  old_line=4661 new_line=4662
+  OLD: Well, even if you say that... Haruna is from the same world as me, and she's sick. What's wrong with being kind to her?
+  NEW: Ну, даже если ты так говоришь… Харуна из того же мира, что и я, и она больна. Что плохого в том, чтобы быть добрым к ней?
+
+FILE dialogs.rpy  old_line=4664 new_line=4665
+  OLD: That's...
+  NEW: Это…
+
+FILE dialogs.rpy  old_line=4667 new_line=4668
+  OLD: I brought your dinner. The soup is a little lukewarm, though...
+  NEW: Я принесла тебе ужин. Суп немного остыл, но…
+
+FILE dialogs.rpy  old_line=4670 new_line=4671
+  OLD: Ah, Siesta, thank you.
+  NEW: А, Сиеста, спасибо.
+
+FILE dialogs.rpy  old_line=4673 new_line=4674
+  OLD: ...Hmph.{#ch2.4_l_025}
+  NEW: …Хм.{#ch2.4_l_025}
+
+FILE dialogs.rpy  old_line=4676 new_line=4677
+  OLD: Sorry, Siesta-san.
+  NEW: Извини, Сиеста-сан.
+
+FILE dialogs.rpy  old_line=4679 new_line=4680
+  OLD: No, no. I'm used to preparing meals for you, Saito-san.
+  NEW: Нет-нет. Я привыкла готовить для тебя, Сайто-сан.
+
+FILE dialogs.rpy  old_line=4682 new_line=4683
+  OLD: Oh my, is that so?
+  NEW: О, неужели?
+
+FILE dialogs.rpy  old_line=4685 new_line=4686
+  OLD: Yes, that's right.
+  NEW: Да, это так.
+
+FILE dialogs.rpy  old_line=4688 new_line=4689
+  OLD: Well then, thank you for the meal.
+  NEW: Тогда, спасибо за еду.
+
+FILE dialogs.rpy  old_line=4691 new_line=4692
+  OLD: Yeah, don't push yourself.
+  NEW: Да, не переусердствуй.
+
+FILE dialogs.rpy  old_line=4694 new_line=4695
+  OLD: No, this much is fine.
+  NEW: Нет, это нормально.
+
+FILE dialogs.rpy  old_line=4697 new_line=4698
+  OLD: Still, though... Then, shall I feed you? Here, say ahh.
+  NEW: И всё же… Тогда, может, я тебя накормлю? Давай, открой ротик.
+
+FILE dialogs.rpy  old_line=4700 new_line=4701
+  OLD: Eh...
+  NEW: Э…
+
+FILE dialogs.rpy  old_line=4703 new_line=4704
+  OLD: ...!?
+  NEW: …!?
+
+FILE dialogs.rpy  old_line=4706 new_line=4707
+  OLD: W-wait a minute!? Saito! What do you think you're doing!?
+  NEW: П-подожди минутку!? Сайто! Что ты делаешь!?
+
+FILE dialogs.rpy  old_line=4709 new_line=4710
+  OLD: What do you mean — dinner.
+  NEW: Что ты имеешь в виду — ужин.
+
+FILE dialogs.rpy  old_line=4712 new_line=4713
+  OLD: That's not what I mean! What's with that 'ahh'!?
+  NEW: Я не об этом! Что за «открой ротик»!?
+
+FILE dialogs.rpy  old_line=4715 new_line=4716
+  OLD: Huh? Is something weird?
+  NEW: А? Что-то странное?
+
+FILE dialogs.rpy  old_line=4718 new_line=4719
+  OLD: I'm telling you, it's weird!
+  NEW: Я говорю тебе, это странно!
+
+FILE dialogs.rpy  old_line=4721 new_line=4722
+  OLD: Hiraga-kun, you're so kind...
+  NEW: Хирага-кун, ты так добр…
+
+FILE dialogs.rpy  old_line=4724 new_line=4725
+  OLD: What's with that clingy, spoiling attitude!? You've never once shown me anything like that!
+  NEW: Что за липкое, балующее отношение!? Ты никогда не показывала мне ничего подобного!
+
+FILE dialogs.rpy  old_line=4727 new_line=4728
+  OLD: But you're always perfectly fine, aren't you?
+  NEW: Но ты всегда в полном порядке, не так ли?
+
+FILE dialogs.rpy  old_line=4730 new_line=4731
+  OLD: Um, I don't think that's really the issue...
+  NEW: Эм, я не думаю, что это действительно проблема…
+
+FILE dialogs.rpy  old_line=4733 new_line=4734
+  OLD: Um, Louise?
+  NEW: Эм, Луиза?
+
+FILE dialogs.rpy  old_line=4736 new_line=4737
+  OLD: Do you want dinner too?{#ch2.4_s_039}
+  NEW: Ты тоже хочешь ужинать?{#ch2.4_s_039}
+
+FILE dialogs.rpy  old_line=4739 new_line=4740
+  OLD: Hah!? Why would it come to that!?
+  NEW: Ха!? К чему это!?
+
+FILE dialogs.rpy  old_line=4742 new_line=4743
+  OLD: Well, you've been irritated this whole time. I thought you'd already had dinner, but maybe you're hungry and that's making you quick to anger.
+  NEW: Ну, ты была раздражена всё это время. Я думал, ты уже поужинала, но, может, ты голодна и это делает тебя вспыльчивой.
+
+FILE dialogs.rpy  old_line=4745 new_line=4746
+  OLD: I finished dinner long ago!
+  NEW: Я поужинала давно!
+
+FILE dialogs.rpy  old_line=4748 new_line=4749
+  OLD: Is that so? But if you're this irritated, then... are you on a diet or something?
+  NEW: Неужели? Но если ты так раздражена, то… ты на диете или что-то в этом роде?
+
+FILE dialogs.rpy  old_line=4751 new_line=4752
+  OLD: Hah? A diet?
+  NEW: А? Диета?
+
+FILE dialogs.rpy  old_line=4754 new_line=4755
+  OLD: You should stop.
+  NEW: Тебе лучше прекратить.
+
+FILE dialogs.rpy  old_line=4757 new_line=4758
+  OLD: Skipping meals by force will only ruin your health and have a bad effect on your mental stability — nothing good comes of it.
+  NEW: Пропускать приёмы пищи силой только разрушит твоё здоровье и плохо повлияет на психическую стабильность — ничего хорошего из этого не выйдет.
+
+FILE dialogs.rpy  old_line=4760 new_line=4761
+  OLD: Wrooong! I'm not doing that!
+  NEW: Неправда! Я этого не делаю!
+
+FILE dialogs.rpy  old_line=4763 new_line=4764
+  OLD: Then that's fine. Besides, you're plenty attractive as you are, so if you did something unnecessary and rebounded, that'd be a disaster.
+  NEW: Тогда всё в порядке. К тому же ты достаточно привлекательна, как есть, так что если бы ты сделала что-то ненужное и получила откат, это было бы катастрофой.
+
+FILE dialogs.rpy  old_line=4766 new_line=4767
+  OLD: Um... I'm telling you, what are we even talking about?
+  NEW: Эм… Я говорю тебе, о чём мы вообще говорим?
+
+FILE dialogs.rpy  old_line=4769 new_line=4770
+  OLD: Do you want me to say 'ahh' for you too?{#ch2.4_s_045}
+  NEW: Ты тоже хочешь, чтобы я сказал «открой ротик»?{#ch2.4_s_045}
+
+FILE dialogs.rpy  old_line=4772 new_line=4773
+  OLD: Hah!? Wh-wh-why would it come to that!?
+  NEW: Ха!? К-к-к чему это!?
+
+FILE dialogs.rpy  old_line=4775 new_line=4776
+  OLD: Ah, so that's not it. You just seemed fixated on that.
+  NEW: А, значит, это не так. Ты просто казалась зацикленной на этом.
+
+FILE dialogs.rpy  old_line=4778 new_line=4779
+  OLD: That and this are different things! Why would I have to have you feed me?!
+  NEW: Это и то — разные вещи! Почему я должна позволять тебе кормить меня?!
+
+FILE dialogs.rpy  old_line=4781 new_line=4782
+  OLD: Yeah, you're right. I think so too.
+  NEW: Да, ты права. Я тоже так думаю.
+
+FILE dialogs.rpy  old_line=4784 new_line=4785
+  OLD: ...As long as you understand.
+  NEW: …Пока ты понимаешь.
+
+FILE dialogs.rpy  old_line=4787 new_line=4788
+  OLD: Do you want to be laid up in bed too?{#ch2.4_s_048}
+  NEW: Ты тоже хочешь быть прикованной к кровати?{#ch2.4_s_048}
+
+FILE dialogs.rpy  old_line=4790 new_line=4791
+  OLD: Hah!? Why would it come to that!?{#ch2.4_l_038}
+  NEW: Ха!? К чему это!?{#ch2.4_l_038}
+
+FILE dialogs.rpy  old_line=4793 new_line=4794
+  OLD: Well, you've been irritated this whole time. I thought maybe you wanted to stay in bed too, that's all.
+  NEW: Ну, ты была раздражена всё это время. Я подумал, может, ты тоже хочешь лежать в кровати, вот и всё.
+
+FILE dialogs.rpy  old_line=4796 new_line=4797
+  OLD: ...It's true that talking with you gives me a headache. But I'm not going to fake being sick just to stay in bed.
+  NEW: …Правда, разговор с тобой вызывает у меня головную боль. Но я не собираюсь притворяться больной, чтобы лежать в кровати.
+
+FILE dialogs.rpy  old_line=4799 new_line=4800
+  OLD: ...Oh, is that so?
+  NEW: …О, неужели?
+
+FILE dialogs.rpy  old_line=4802 new_line=4803
+  OLD: That's right. Me, of all people.
+  NEW: Это так. Я, из всех людей.
+
+FILE dialogs.rpy  old_line=4805 new_line=4806
+  OLD: There's no weird meaning behind it, okay? Haruna is sick, so looking after her is only normal, right?
+  NEW: Никакого странного смысла в этом нет, ладно? Харуна больна, так что ухаживать за ней — это нормально, верно?
+
+FILE dialogs.rpy  old_line=4808 new_line=4809
+  OLD: So if she's sick, you'll do anything for her?
+  NEW: Значит, если она больна, ты сделаешь для неё всё?
+
+FILE dialogs.rpy  old_line=4811 new_line=4812
+  OLD: I'm not going that far. Why are you getting angry about me looking after a sick person?
+  NEW: Я не зашёл так далеко. Почему ты злишься на то, что я ухаживаю за больным человеком?
+
+FILE dialogs.rpy  old_line=4814 new_line=4815
+  OLD: ...B-because!
+  NEW: …П-потому что!
+
+FILE dialogs.rpy  old_line=4817 new_line=4818
+  OLD: Please, that's enough.
+  NEW: Пожалуйста, достаточно.
+
+FILE dialogs.rpy  old_line=4820 new_line=4821
+  OLD: !!{#ch2.4_l_043}
+  NEW: !!{#ch2.4_l_043}
+
+FILE dialogs.rpy  old_line=4823 new_line=4824
+  OLD: Haruna...
+  NEW: Харуна…
+
+FILE dialogs.rpy  old_line=4826 new_line=4827
+  OLD: Hiraga-kun is not Miss Louise's tool. You of all people should know that, shouldn't you?
+  NEW: Хирага-кун — не инструмент мадемуазель Луизы. Ты из всех людей должна это знать, не так ли?
+
+FILE dialogs.rpy  old_line=4829 new_line=4830
+  OLD: I... I have no reason to be told that by you!
+  NEW: Я… У меня нет причин слушать это от тебя!
+
+FILE dialogs.rpy  old_line=4832 new_line=4833
+  OLD: And what's more! Sick, sick, sick — is being sick really so great? I don't care about Saito anymore!
+  NEW: И что ещё! Больная, больная, больная — неужели быть больным так уж здорово? Мне больше не нужен Сайто!
+
+FILE dialogs.rpy  old_line=4835 new_line=4836
+  OLD: Ah, hey, Louise!
+  NEW: А, эй, Луиза!
+
+FILE dialogs.rpy  old_line=4838 new_line=4839
+  OLD: Stupid dog! Stupid familiar! Stupid Saito!
+  NEW: Глупая собака! Глупый фамильяр! Глупый Сайто!
+
+FILE dialogs.rpy  old_line=4841 new_line=4842
+  OLD: Honestly, I don't care anymore!
+  NEW: Честно говоря, мне уже всё равно!
+
+FILE dialogs.rpy  old_line=5530 new_line=5531
+  OLD: Haruna...{#ch2.5_s11175}
+  NEW: Харуна…
+
+FILE dialogs.rpy  old_line=5536 new_line=5537
+  OLD: Haruna...{#ch2.5_s11176}
+  NEW: Харуна…
+
+FILE dialogs.rpy  old_line=7431 new_line=7432
+  OLD: Hm? Did you say something?{#ch3_g_011}
+  NEW: М? Ты что-то говорил?
+
+FILE dialogs.rpy  old_line=8842 new_line=8843
+  OLD: Hm? Did you say something?{#ch3.3_s_047}
+  NEW: А? Что-то сказала?
+
+FILE dialogs.rpy  old_line=12048 new_line=12049
+  OLD: I-is that so?{#ch4.4_x9860}
+  NEW: Т-так?
+
+FILE dialogs.rpy  old_line=14057 new_line=14058
+  OLD: Yes, that's right.{#ch5_2_v2343}
+  NEW: Да, именно.
+
+FILE dialogs.rpy  old_line=17411 new_line=17412
+  OLD: Yes, that's right.{#ch7_k_006}
+  NEW: Да, именно так.
+
+FILE thoughs.rpy  old_line=311 new_line=312
+  OLD: Hmm...
+  NEW: Хм…
+
+FILE thoughs.rpy  old_line=361 new_line=362
+  OLD: In the end, we didn't find a single clue about the intruders.
+  NEW: В итоге мы не нашли ни одной улики о вторгшихся.
+
+FILE thoughs.rpy  old_line=364 new_line=365
+  OLD: The ease with which the academy was infiltrated seems to be an issue — the teachers have started a meeting.
+  NEW: Лёгкость, с которой в академию проникли, кажется, стала проблемой — учителя начали совещание.
+
+FILE thoughs.rpy  old_line=367 new_line=368
+  OLD: So we're left not knowing the details after all. I just can't feel at ease.
+  NEW: Так что мы остались, не зная деталей. Я просто не могу чувствовать себя спокойно.
+
+FILE thoughs.rpy  old_line=370 new_line=371
+  OLD: More than that, I'm bothered by how persistently those guys were after Haruna... I doubt they've given up after today.
+  NEW: Больше всего меня беспокоит, как настойчиво эти ребята охотились за Харуной… Я сомневаюсь, что они сдались после сегодняшнего дня.
+
+FILE thoughs.rpy  old_line=373 new_line=374
+  OLD: And if that bomb user comes back again, it won't be a joke.
+  NEW: И если этот бомбист вернётся снова, это уже не шутка.
+
+FILE thoughs.rpy  old_line=376 new_line=377
+  OLD: Now then. Even if I patrol, where should I start?
+  NEW: Теперь. Даже если я патрулирую, с чего начать?
+
+FILE thoughs.rpy  old_line=379 new_line=380
+  OLD: Ah... having girls welcome me home can make me feel this happy.
+  NEW: Ах… когда девушки встречают меня дома, я могу чувствовать себя так счастливым.
+
+FILE thoughs.rpy  old_line=382 new_line=383
+  OLD: I-is that so?
+  NEW: П-правда?
+
+FILE thoughs.rpy  old_line=385 new_line=386
+  OLD: ...It should be a warm atmosphere, but somehow the air feels strangely heavy.
+  NEW: …Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым.
+
+=== UNMATCHED 0 ===

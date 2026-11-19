@@ -71,10 +71,10 @@ translate japanese strings:
     old "Quick saves"
     new "クイックセーブ"
 
-    old "{#file_time}%A, %d %B %Y, %H:%M"
+    old "{#file_time}%A, %B %d %Y, %H:%M"
     new "{#file_time}%A, %d %B %Y, %H:%M"
 
-    old "Empty Slot"
+    old "empty slot"
     new "空スロット"
 
     old "<"
@@ -346,15 +346,15 @@ translate japanese strings:
     new "攻撃"
 
     old "A maid working at Tristain Academy of Magic.\nSince she is a commoner, she cannot use magic.\nShe has feelings for Saito."
-    new "トリステイン魔法学院に勤めているメイド。 平民であるため、魔法は使えない。 サイトに想いを寄せている。"
+    new "トリステイン魔法学院に勤めているメイド。\n平民であるため、魔法は使えない。\nサイトに想いを寄せている。"
 
     old "The magician who summoned Saito.\nAlthough she can use Void magic,\nits true nature remains unknown."
     new "サイトを召喚した魔法使い。\n虚無の魔法を使えるも、\nその実態はいまだ不明。"
 
     old "A Japanese boy who was summoned to this world by Louise.\nHe is treated as a familiar by Louise."
-    new "ルイズによって、この世界に召喚された 日本の少年。\nルイズからは使い魔扱いをされている。"
+    new "ルイズによって、この世界に召喚された日本の少年。\nルイズからは使い魔扱いをされている。"
 
-    old "Louise's classmate.\nSpecializes in wind magic.\mHer nickname is \"Tabitha of the Snow Wind\"."
+    old "Louise's classmate.\nSpecializes in wind magic.\nHer nickname is \"Tabitha of the Snow Wind\"."
     new "ルイズのクラスメイト。\n風の系統の魔法が得意。\n二つ名は「雪風のタバサ」。"
 
     old "Louise's classmate.\nSpecializes in fire magic.\nHer nickname is \"Kirche of the Mild Fever\"."
@@ -484,3 +484,56 @@ translate japanese strings:
 
     old "Return to the main menu"
     new "メインメニューに戻る"
+
+translate japanese strings:
+    old "Accesses the game menu."
+    new "ゲームメニューを開きます。"
+
+    old "Advances dialogue and activates the interface."
+    new "ダイアログを進め、インターフェースを操作します。"
+
+    old "Advances dialogue without selecting choices."
+    new "選択肢を選ばずにダイアログを進めます。"
+
+    old "Calibrate"
+    new "キャリブレーション"
+
+    old "Escape"
+    new "Esc"
+
+    old "Hides the user interface."
+    new "ユーザーインターフェースを非表示にします。"
+
+    old "Left Trigger\nLeft Shoulder"
+    new "左トリガー\n左ショルダー"
+
+    old "Mouse Wheel Down"
+    new "マウスホイール下"
+
+    old "Mouse Wheel Up"
+    new "マウスホイール上"
+
+    old "Opens the accessibility menu."
+    new "アクセシビリティメニューを開きます。"
+
+    old "Right Shoulder"
+    new "右ショルダー"
+
+    old "Rolls back to earlier dialogue."
+    new "以前のダイアログに戻ります。"
+
+    old "Rolls forward to later dialogue."
+    new "後のダイアログに進みます。"
+
+    old "Skips dialogue while held down."
+    new "押している間、ダイアログをスキップします。"
+
+    old "Takes a screenshot."
+    new "スクリーンショットを撮ります。"
+
+    old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
+    new "補助機能 {a=https://www.renpy.org/l/voicing}音声読み上げ{/a} を切り替えます。"
+
+    old "Toggles dialogue skipping."
+    new "ダイアログのスキップを切り替えます。"
+

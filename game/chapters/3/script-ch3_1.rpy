@@ -202,11 +202,11 @@ label ch3_141:
     $ show_sprites(None)
     $ show_sprites("s 6 sad", side="right")
     voice "ch3_s_012"
-    s "Is that really being so demanding?"
+    s "Is that really being so extravagant?"
 
     $ show_sprites(("si 6 angry", "s 6 sad"))
     voice "ch3_si_007"
-    si "It certainly is a demand!"
+    si "It certainly is a luxury!"
 
     $ show_sprites(None)
     $ show_sprites("l 4", side="left")

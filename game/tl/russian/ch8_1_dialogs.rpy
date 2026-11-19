@@ -1,7 +1,7 @@
 # ===== ch8.1: 125 strings (dialogues) =====
 translate russian strings:
-    old "We overslept again, didn't we? / I wonder if the Princess is all right…{#ch8_s_001}"
-    new "Мы снова проспали, да? / Интересно, как там принцесса…"
+    old "Morning came, huh? / I wonder if the Princess is all right…{#ch8_s_001}"
+    new "Ну вот и утро, да? / Интересно, как там принцесса…"
 
     old "You were quite troubled yesterday… / …Maybe I'll go take a look.{#ch8_s_002}"
     new "Вчера ты был так расстроен… / …Может, стоит зайти проверить."
@@ -85,10 +85,10 @@ translate russian strings:
     new "Он ни особенно хорош, ни плох. / Есть хорошие люди и есть плохие, / и не все счастливы."
 
     old "I still want to go back, you see. / Haruna felt the same way.{#ch8_s_016}"
-    new "И всё же я хочу вернуться. / Хэруна чувствовала то же самое."
+    new "И всё же я хочу вернуться. / Харуна чувствовала то же самое."
 
     old "Haruna-san…{#ch8_h_014}"
-    new "Хэруна-сан…"
+    new "Харуна-сан…"
 
     old "That's right… / That girl came from the same world as you, didn't she?{#ch8_h_015}"
     new "Верно… / Эта девушка тоже из того же мира, что и ты, да?"
@@ -156,8 +156,8 @@ translate russian strings:
     old "Then let's hear it and decide what to do next.{#ch8_s_026}"
     new "Тогда давайте выслушаем её и решим, что делать дальше."
 
-    old "Right. / Let's tell the Princess about Siesta.{#ch8_l_007}"
-    new "Хорошо. / Расскажите принцессе о Сиесте."
+    old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
+    new "Хорошо. / Пусть Сиеста останется с принцессой."
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
     new "Понял. / Я передам Сиесте."
@@ -168,8 +168,8 @@ translate russian strings:
     old "And on top of that…{#ch8_k_002}"
     new "И кроме того…"
 
-    old "Sounds like there's some good news…{#ch8_l_008}"
-    new "Похоже, есть ещё новость похуже…"
+    old "Sounds like there's some bad news…{#ch8_l_008}"
+    new "Похоже, есть какая-то нехорошая новость…"
 
     old "Terrible news.{#ch8_k_003}"
     new "Очень плохая."
@@ -235,7 +235,7 @@ translate russian strings:
     new "Я знаю, что это опасно, / но без королевы ничего не сдвинется."
 
     old "Agreed.{#ch8_k_005}"
-    new "Согласен."
+    new "Согласна."
 
     old "Then, dismissed.{#ch8_l_014}"
     new "Тогда, расходимся."
@@ -303,8 +303,8 @@ translate russian strings:
     old "What is it?{#ch8_s_044}"
     new "Что такое?"
 
-    old "You don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
-    new "Ты не очень-то стесняешься со мной, королевой. / Почему?"
+    old "Saito-san, you don't hold back much around me, the Queen. / Why is that?{#ch8_h_030}"
+    new "Сайто-сан, ты не очень-то стесняешься со мной, королевой. / Почему?"
 
     old "Because you're cute, Princess…{#ch8_s_045}"
     new "Потому что ты милая, принцесса…"

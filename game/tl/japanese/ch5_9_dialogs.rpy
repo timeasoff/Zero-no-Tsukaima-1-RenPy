@@ -104,7 +104,7 @@ translate japanese strings:
     old "They say white flowers eventually bloomed where the two of them fell, side by side…{#ch5_9_v15362}"
     new "２人の落ちた地にはやがて寄り添うような白い花が咲いたといいます。"
 
-    old "Th-that was incredible, Hiraga! Your performance was so passionate.{#ch5_9_v1693}"
+    old "Th-that was incredible, Hiraga-kun! Your performance was so passionate.{#ch5_9_v1693}"
     new "な、なんだか凄かったね。平賀くん！情熱的な演技だったよ。"
 
     old "W-well, maybe a little.{#ch5_9_v8851}"
@@ -113,7 +113,7 @@ translate japanese strings:
     old "Ladies and gentlemen, please give them one more grand round of applause!{#ch5_9_v15861}"
     new "それでは皆さま。最後にもう一度、盛大な拍手をお願いします！"
 
-    old "Hey, Hiraga. I almost thought that confession was real.{#ch5_9_v1694}"
+    old "Hey, Hiraga-kun. I almost thought that confession was real.{#ch5_9_v1694}"
     new "ねぇ、平賀くん。あの告白って本当かと思っちゃった。"
 
     old "I really meant it…{#ch5_9_v8852}"
@@ -143,7 +143,7 @@ translate japanese strings:
     old "I-I am not angry or anything.{#ch5_9_v1698}"
     new "べ、別に怒ってるわけじゃないわよ。"
 
-    old "I will ask Miss Henrietta to take the role.{#ch5_9_v15862}"
+    old "I will ask Miss Rietta to take the role.{#ch5_9_v15862}"
     new "ミス・リエッタにお願いするわ。"
 
     old "…What? Me?{#ch5_9_v369}"

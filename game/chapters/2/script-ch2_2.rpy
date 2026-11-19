@@ -284,7 +284,6 @@ label l_room_ch2_2:
 
             $ update_sympathy(-10, char_key="siesta")
             $ tndl(-30)
-            $ update_sympathy(-10, char_key="louise")
 
 
             $ show_sprites("ha 3 shy")

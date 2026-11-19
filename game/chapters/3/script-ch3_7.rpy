@@ -80,7 +80,7 @@ label ch3_7_193:
     $ show_sprites(("s 1 sad", "si 1 sad"))
 
     voice "ch3.7_si_002"
-    si "Saito, you dummy…"
+    si "Saito-san, you dummy…"
 
     # [好感度] シエスタ -10
     $ update_sympathy(-10, char_key="siesta")

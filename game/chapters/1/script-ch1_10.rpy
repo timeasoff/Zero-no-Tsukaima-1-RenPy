@@ -898,7 +898,7 @@ label date_haruna_1:
                 
             $ show_sprites(("ha 4", "s 1 sad"))
             voice "ch1.10_ha_014"
-            s "That's right. I was looking at the moon in the night sky."
+            ha "That's right. I was looking at the moon in the night sky."
 
         "You were looking at the night sky.":
             voice "ch1.10_s_107"

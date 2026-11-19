@@ -33,10 +33,10 @@ translate russian strings:
     new "И всё-таки, поясница просто ноет… Так и не привык я ездить верхом…"
 
     old "Louise actually looks really nice..."
-    new "Луиза-то какая нарядная..."
+    new "Луиза-то какая нарядная…"
 
     old "Jeez... She's got such a cute look going for her. If only her personality had even a tiny bit of that same charm, I wouldn't have a single complaint..."
-    new "Эх... У нее такая милая внешность. Если бы ещё характер хоть чуточку был помягче да поуютнее — цены бы ей не было..."
+    new "Эх… У нее такая милая внешность. Если бы ещё характер хоть чуточку был помягче да поуютнее — цены бы ей не было…"
 
     old "Montmorency is Louise's classmate. She specializes in water magic. Her nickname is \"Montmorency the Fragrance.\""
     new "Монморанси — одноклассница Луизы. Специализируется на магии воды. Её прозвище — «Монморанси Благоухающая»."
@@ -48,7 +48,7 @@ translate russian strings:
     new "Сиеста — горничная, прислуживающая в этой академии. Она чувствует ко мне особую близость, ведь мы с ней оба простолюдины."
 
     old "She's kind, great at cooking... I wish my master would take a page out of her book."
-    new "Она такая добрая и прекрасно готовит... Вот бы моей госпоже взять с неё пример, хоть чуточку."
+    new "Она такая добрая и прекрасно готовит… Вот бы моей госпоже взять с неё пример, хоть чуточку."
 
     old "This is Derflinger. As you can see, a talking sword. Well, he's my partner, I guess."
     new "Это Дерфлингер. Как видишь, это говорящий меч. Ну, можно сказать, он мой напарник."
@@ -60,37 +60,37 @@ translate russian strings:
     new "Напарник говорит, что просто все забыл, но… интересно, вспомнит ли он хоть что-нибудь…"
 
     old "My master, Louise... she's stubborn, fiercely proud, and quick to anger..."
-    new "Моя хозяйка Луиза... она упрямая, гордая до невозможности и вспыльчивая..."
+    new "Моя хозяйка Луиза… она упрямая, гордая до невозможности и вспыльчивая…"
 
     old "Well, regarding the fact that she... ahem, has no chest... since she seriously stresses over it, I'd better keep quiet..."
-    new "Ну, касательно того факта, что у неё... кхм, нет груди... поскольку она сильно загоняется из-за этого, лучше промолчу..."
+    new "Ну, касательно того факта, что у неё… кхм, нет груди… поскольку она сильно загоняется из-за этого, лучше промолчу…"
 
     old "But sometimes she's unexpectedly gentle... and honestly, she looks pretty cute at times."
-    new "Но иногда она бывает неожиданно нежной... и честно, порой она выглядит правда мило."
+    new "Но иногда она бывает неожиданно нежной… и честно, порой она выглядит правда мило."
 
     old "Anyway, I just can't leave her be... Must be the classic curse of a guy who's lost his heart."
-    new "В любом случае, не могу я её бросить... Должно быть, классическое проклятие влюблённого мужика."
+    new "В любом случае, не могу я её бросить… Должно быть, классическое проклятие влюблённого мужика."
 
     old "Hm...? Someone's collapsed."
-    new "Хм...? Кто-то лежит..."
+    new "Хм…? Кто-то лежит…"
 
     old "That blazer she's wearing... now that I look closer, isn't that the uniform from the school I used to go to?"
-    new "Пиджак, который одет на ней... если присмотреться, это же форма из моей школы!"
+    new "Пиджак, который одет на ней… если присмотреться, это же форма из моей школы!"
 
     old "Why is this girl wearing these clothes? Could it be... she's from Japan too, just like me...?"
-    new "Почему на ней эта одежда? Неужели она, как и я, из Японии...?"
+    new "Почему на ней эта одежда? Неужели она, как и я, из Японии…?"
 
     old "No, no... this girl... It’s like I’ve met her somewhere before..."
-    new "Нет, нет... эта девушка... Такое чувство, будто где-то я уже видел её..."
+    new "Нет, нет… эта девушка… Такое чувство, будто где-то я уже видел её…"
 
     old "Where, exactly? Back at my school in Japan?"
-    new "Где именно? Неужели в школе... в Японии?"
+    new "Где именно? Неужели в школе… в Японии?"
 
     old "I remember now. No doubt about it. She’s \"Haruna Takana\", our class representative...?"
-    new "Вспомнил. Ошибки нет. Это же «Такана Харуна», наша староста класса...?"
+    new "Вспомнил. Ошибки нет. Это же «Такана Харуна», наша староста класса…?"
 
     old "No, wait... Get a grip, me. What the hell is Takana-san doing in this world?"
-    new "Стоп, нет... Возьми себя в руки. Какого чёрта Такана-сан оказалась в этом мире?"
+    new "Стоп, нет… Возьми себя в руки. Какого чёрта Такана-сан оказалась в этом мире?"
 
     old "Like hell I'd give this important clue to getting back to Japan to these sketchy characters!"
     new "Как будто я отдам эту важную зацепку для возвращения в Японию таким мутным типам!"
@@ -105,46 +105,46 @@ translate russian strings:
     new "Луиза, умничка!"
 
     old "But could she really be Takanagi-san? If that's the case... how did she end up in this world..."
-    new "Но неужели она и вправду Таканаги-сан? Если это так... каким образом она попала в этот мир..."
+    new "Но неужели она и вправду Таканаги-сан? Если это так… каким образом она попала в этот мир…"
 
     old "Well, once she wakes up, I'll be able to figure everything out..."
-    new "Ну, когда она очнётся, я всё выясню..."
+    new "Ну, когда она очнётся, я всё выясню…"
 
     old "Thank you, Siesta!"
     new "Спасибо, Сиеста!"
 
     old "Phew... what a crazy day..."
-    new "Фух... Ну и денёк выдался..."
+    new "Фух… Ну и денёк выдался…"
 
     old "Maybe I should go somewhere before going to bed?"
     new "Может, сходить куда-нибудь перед сном?"
     
     old "When I was first summoned, I was told, 'Because you're a familiar,' and had to sleep on a pile of straw... and to think how things have changed..."
-    new "Когда меня только призвали, мне сказали: \"Ты же всего лишь фамильяр\", и я спал на соломе на полу... а теперь вот..."
+    new "Когда меня только призвали, мне сказали: «Ты же всего лишь фамильяр», и я спал на соломе на полу… а теперь вот…"
 
     old "To think I'm actually sharing a bed with Louise!"
     new "Подумать только, я в одной постели с Луизой!"
 
     old "Does this mean she's secretly into me, even just a little? Or is it the exact opposite... and I'm completely out of the running?"
-    new "Это что, значит, я ей хоть немного, но симпатичен? Или наоборот... я вообще не рассматриваюсь как вариант?"
+    new "Это что, значит, я ей хоть немного, но симпатичен? Или наоборот… я вообще не рассматриваюсь как вариант?"
 
     old "... But whatever. Being able to sleep in a warm bed is just pure bliss, yeah."
-    new "... Да и неважно. Главное — я сплю в тёплой постели, и это просто блаженство, ей-богу."
+    new "… Да и неважно. Главное — я сплю в тёплой постели, и это просто блаженство, ей-богу."
 
     old "Yeah. It might be completely normal for Louise, but for me... two moons is anything but ordinary."
-    new "Да. Для Луизы это само собой разумеется, но для меня... две луны — это далеко не обыденность."
+    new "Да. Для Луизы это само собой разумеется, но для меня… две луны — это далеко не обыденность."
 
     old "It really hits me all over again... this truly is another world."
-    new "И снова осознаёшь... это ведь и правда другой мир."
+    new "И снова осознаёшь… это ведь и правда другой мир."
 
     old "And now a classmate has actually appeared in this other world... What on earth is going on...?"
-    new "А тут еще и одноклассница объявилась в этом другом мире... Что бы это всё значило...?"
+    new "А тут еще и одноклассница объявилась в этом другом мире… Что бы это всё значило…?"
 
     old "Wait, I'm still sleeping in the same bed as Louise!!"
     new "Погодите, я ведь всё ещё сплю в одной кровати с Луизой!!"
 
     old "S-scary... It's terrifying how she's still smiling..."
-    new "С-страшно... Жутко от того, что она при этом всё ещё улыбается..."
+    new "С-страшно… Жутко от того, что она при этом всё ещё улыбается…"
 
     old "W-w-why the hell is Louise sleeping while clinging to me!?"
     new "К-к-какого чёрта эта Луиза спит, вцепившись в меня!?"
@@ -165,7 +165,7 @@ translate russian strings:
     new "Табита искусна в магии ветра. Её прозвище — «Табита Вьюга»."
 
     old "Always taciturn and devoid of expression. What goes on in her mind is a mystery. Yet, she and Kirche are surprisingly close..."
-    new "Всегда безмолвна и беспристрастна. Неизвестно, какие мысли таятся в её голове. Тем не менее, с Кирхе у них на удивление хорошие отношения..."
+    new "Всегда безмолвна и беспристрастна. Неизвестно, какие мысли таятся в её голове. Тем не менее, с Кирхе у них на удивление хорошие отношения…"
 
     old "Kirche being curious is one thing, but it's rare for Tabitha, who is always quietly reading a book, to actually show up."
     new "Любопытство Кирхе ещё можно понять, но вот появление Табиты, которая вечно молча сидит с книгой, — это уже большая редкость."
@@ -177,16 +177,16 @@ translate russian strings:
     new "Кажется, она в замешательстве от непонимания происходящего. Что ж, неудивительно"
 
     old "A round mirror... The same as what happened to me."
-    new "Круглое зеркало... Прямо как было и со мной!"
+    new "Круглое зеркало… Прямо как было и со мной!"
 
     old "Wh-what is going on here!? I'm surrounded by something soft and warm... This is, this situation is......!"
-    new "Ч-что это за ситуация!? Меня окружило что-то мягкое и тёплое... Да что же это такое......!"
+    new "Ч-что это за ситуация!? Меня окружило что-то мягкое и тёплое… Да что же это такое…!"
 
     old "Even if you say that..."
-    new "Даже если Вы так говорите..."
+    new "Даже если Вы так говорите…"
 
     old "If I tell the truth, I’ll give Haruna away, so I can't really say anything..."
-    new "Если я попытаюсь сказать правду, то выдам Харуну, так что мне просто нечего сказать..."
+    new "Если я попытаюсь сказать правду, то выдам Харуну, так что мне просто нечего сказать…"
 
     old "Hmm, as expected of the Headmaster."
     new "Хм, как и следовало ожидать от директора."
@@ -198,24 +198,24 @@ translate russian strings:
     new "Ну, это верно. Она ведь не может заявить: «Я из-за какой-то необъяснимой ревности позволила магии выйти из-под контроля»."
 
     old "For some reason, I get the sense that the Headmaster knows it all and is feigning ignorance... Conveniently enough, though."
-    new "Мне почему-то кажется, что директор в курсе всего и притворяется, будто ничего не знает... Впрочем, так даже лучше."
+    new "Мне почему-то кажется, что директор в курсе всего и притворяется, будто ничего не знает… Впрочем, так даже лучше."
 
     old "What a relief..."
-    new "Ну и слава богу..."
+    new "Ну и слава богу…"
 
     old "In that case..."
-    new "В таком случае..."
+    new "В таком случае…"
 
     old "I just hope nothing goes wrong..."
-    new "Надеюсь, обойдется без происшествий..."
+    new "Надеюсь, обойдется без происшествий…"
 
     old "What are you talking about...?"
-    new "О чем вы говорите...?"
+    new "О чем вы говорите…?"
 
 
     #kormeshka_event
     old "I don't really understand it, but... I guess I should stay on her good side for now."
-    new "Хоть я и не до конца понимаю ситуацию...  но... похоже, сейчас лучше не портить ей настроение."
+  new "Хоть я и не до конца понимаю ситуацию… но… похоже, сейчас лучше не портить ей настроение."
 
     old "Looks like it's best not to argue right now. If she gets mad, it'll just be a huge hassle."
     new "Похоже, сейчас лучше не перечить. А то если она разозлится, проблем не оберешься."
@@ -224,7 +224,7 @@ translate russian strings:
     new "Только не сейчас! Я не собираюсь уступать!"
 
     old "I will firmly stand by my own will..."
-    new "Я твёрдо намерен отстоять свою волю..."
+    new "Я твёрдо намерен отстоять свою волю…"
 
     old "Though, she actually seems to be angry!!"
     new "Хотя, кажется, она и правда злится!!"
@@ -236,9 +236,9 @@ translate russian strings:
     new "Понятия не имею, что она задумала, но… разумнее будет ей не сопротивляться."
 
     old "Why is she getting so mad anyway, she's such a weirdo..."
-    new "И чего это она злится, странная она всё-таки..."
+    new "И чего это она злится, странная она всё-таки…"
 
-    old "Guishe is Louise's classmate. He specializes in Earth system magic. He knows as 'Guishe the Bronze'."
+    old "Guiche is Louise's classmate. He specializes in Earth system magic. He's known as 'Guiche the Bronze'."
     new "Гиш — одноклассник Луизы. Специалист по магии земли. Его прозвище — «Бронзовый Гиш"
 
     old "He's a womanizer and a show-off, but you just can't hate the guy."
@@ -254,7 +254,7 @@ translate russian strings:
     new "Хоть и неудобно перед Луизой, думаю, прогуляюсь немного."
 
     old "Let's see what's written here... I suppose I'll just borrow it for a moment."
-    new "Что же тут написано... Пожалуй, одолжу-ка это на минутку."
+    new "Что же тут написано… Пожалуй, одолжу-ка это на минутку."
 
     old "Looks like I don't know anyone here."
     new "Похоже, знакомых тут нет."
@@ -263,10 +263,10 @@ translate russian strings:
     new "Впрочем, делать мне тут нечего. Пожалуй, пойду-ка обратно."
 
     old "Ugh, this is so awkward... Or rather, I can't stand these gaps in the conversation!"
-    new "Ууух, как же неловко... Вернее, паузы в разговоре просто невыносимы!"
+    new "Ууух, как же неловко… Вернее, паузы в разговоре просто невыносимы!"
 
     old "Even though there's so much I want to ask, I just don't know where to start..."
-    new "Хотя спросить хочется о многом, я даже не знаю, с чего начать..."
+    new "Хотя спросить хочется о многом, я даже не знаю, с чего начать…"
 
     old "Waaah! Super awkward!"
     new "Уа-а-а! Чертовски неловко!"
@@ -386,7 +386,7 @@ translate russian strings:
     new "…Это должна быть тёплая атмосфера, но почему-то воздух кажется странно тяжёлым."
 
     old "If I get praised so openly, I'll get embarrassed."
-    new "Если меня так открыто хвалять, я смущусь."
+    new "Если меня так открыто хвалят, я смущусь."
 
     # ---- ch2.5 location block (сцены 1266–1280) ----
 
@@ -510,7 +510,7 @@ translate russian strings:
     new "Блин — Сиеста меня только что подставила?"
 
     old "Even unbaked, it already smells pretty good."
-    new "Ещё не печёшь, а уже неплохо пахнет."
+    new "Ещё не печётся, а уже неплохо пахнет."
 
     old "Mm-mm-mm. How quick and deft she is."
     new "Мм-мм-мм. Как она проворно и ловко всё делает."
@@ -594,12 +594,6 @@ translate russian strings:
     old "But Louise seems to be enjoying class today. Did something fun happen?"
     new "Но сегодня Луиза явно радуется уроку. Неужели случилось что-то приятное?"
 
-    old "Now then, what should I do...?"
-    new "Ну и что же мне теперь делать…?"
-
-    old "But how am I supposed to be careful, I wonder?"
-    new "Но как бы мне поостерегаться-то…?"
-
     old "Zero reaction, huh... Now's not the time to back down."
     new "Реакции ноль… Так, сейчас не время отступать."
 
@@ -637,7 +631,7 @@ translate russian strings:
     new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
 
     old "If she knew about what just happened, she'd be shocked."
-    new "Е бы она знала, что только что случилась, она бы удивилась."
+    new "Если бы она знала, что только что случилось, она бы удивилась."
 
     old "Louise isn't here… I was hoping she'd be back in her room. I wonder where she went…?{#ch3.5_th_1337}"
     new "Луизы здесь нет… Надеялся, она вернулась в свою комнату. Куда же она подевалась…?"
@@ -917,8 +911,8 @@ translate russian strings:
     new "Что за дела у Луизы? Почему-то мямлит и тянет."
 
 translate russian strings:
-    old "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
-    new "Сайто и Луиза доложили принцессе, что упустили бомбиста."
+    old "Louise and I reported to the princess that we had let the Bomb User escape.{#ch4.6_th_004}"
+    new "Мы с Луизой доложили принцессе, что упустили бомбиста."
 
 translate russian strings:
     old "Does this mean I'll be ogling Haruna in her maid outfit every day!?{#ch4.6_th_005}"
@@ -1135,8 +1129,8 @@ translate russian strings:
     new "Подожди-ка. Почему тут принцесса?!"
 
 translate russian strings:
-    old "'A friend'… I suppose she means a ninja{#ch5_3_th_012}"
-    new "«Подруга»… То есть, считай, ниндзя?"
+    old "'A friend'… I suppose she means she's incognito{#ch5_3_th_012}"
+    new "«Подруга»… То есть, хочет сказать, что она инкогнито?"
 
 translate russian strings:
     old "Even so… W-what are you thinking?! Th-that princess, she…!{#ch5_3_th_013}"
@@ -1289,7 +1283,7 @@ translate russian strings:
     new "И после этого дни репетиций продолжались."
 
 translate russian strings:
-    old "The little princess's behavior on her daily visits is mystery enough, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
+    old "The little princess's behavior on her daily visits is a mystery in itself, but it's just as mysterious that Kirche, Montmorency, and Guiche haven't come back.{#ch5_5_th_002}"
     new "Поведение малой принцессы, которая приходит к нам ежедневно, — само по себе загадка, но и то, что Кирхе, Монморанси и Гиш всё не возвращаются, тоже загадка."
 
 translate russian strings:

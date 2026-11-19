@@ -229,7 +229,7 @@ label ch4_6:
     s "Guaah…!!"
     # JA[11568]: ぐあっ……！！
     voice "ch4.6_d_006"
-    d "…! Blindfolding trick?! Partner, let's get out of here!"
+    d "…! A flashbang?! She's getting away, partner!"
     # JA[1300]: くっ……目くらましかっ！？ / やっこさん、逃げていくぞっ！？
     voice "ch4.6_s_013"
     s "No good… I can't see a thing, it's all blurred!!"
@@ -346,7 +346,7 @@ label ch4_6:
     # [BG +90 → sky_night]
     $ fade_fx("sky_night", new_music="t19")
     # [TRANS   trans("crossfade", 1000)] — переход выполняется fade_fx
-    th "Saito and Louise reported to the princess that they had let the Bomb User escape.{#ch4.6_th_004}"
+    th "Louise and I reported to the princess that we had let the Bomb User escape.{#ch4.6_th_004}"
     # JA: （俺とルイズは、爆弾使いを取り逃がしたことを / 　お姫さまに報告した）
     # [lay5 hide]
     # [BG hide]
@@ -422,13 +422,13 @@ label ch4_6:
     # [lay2 +491 → si 1 happy]
     $ show_sprites(("si 1 happy"))
     voice "ch4.6_si_001"
-    si "Mr. Saito!!"
+    si "Saito-san!!"
     # JA[14760]: サイトさんっ！！
     # [lay2 x=224]
     # [lay7 +964 → ha 2 happy]
     $ show_sprites(("ha 2 happy", "si 1 happy"))
     voice "ch4.6_ha_001"
-    ha "Mr. Hiraga!!"
+    ha "Hiraga-kun!!"
     # JA[2309]: 平賀くんっ！！
     # [lay2 hide]
     $ show_sprites(("ha 2 happy"))
@@ -450,7 +450,7 @@ label ch4_6:
     # [lay7 +962 → ha 2]
     $ show_sprites(("ha 2", "s 2"))
     voice "ch4.6_ha_002"
-    ha "Are you all right, Mr. Hiraga?"
+    ha "Are you all right, Hiraga-kun?"
     # JA[2310]: 平賀くんは大丈夫だった？
     # [lay5 +434 → s 4]
     $ show_sprites(("ha 2", "s 4"))
@@ -590,7 +590,7 @@ label ch4_6:
     # [lay5 +434 → s 4]
     $ show_sprites(("l 1 angry", "s 4"))
     voice "ch4.6_s_028"
-    s "Hmph, n-no, you don't need to worry about it."
+    s "Hmph, n-no. It's not like I'm happy or anything."
     # JA[11584]: ベツニ、ヨロコンデナンテイマセンヨ。
     # [lay1 +339 → l 3 angry]
     $ show_sprites(("l 3 angry", "s 4"))
@@ -921,13 +921,13 @@ label date_siesta_ch4_6:
     s "Good evening, Siesta."
     # JA[8565]: こんばんは、シエスタ。
     voice "ch4.6_si_007"
-    si "Eh…? Mr. Saito?"
+    si "Eh…? Saito-san?"
     # JA[14240]: えっ……サイトさん？
     # [lay5 x=224]
     # [lay2 +546 → si 6 happy]
     $ show_sprites(("si 6 happy", "s 5"))
     voice "ch4.6_si_008"
-    si "…Wah! Mr. Saito! Please, come right in!"
+    si "…Wah! Saito-san! Please, come right in!"
     # JA[14241]: ……わあっ、サイトさんっ！ / どうぞ、遠慮なくお入りくださいっ！
     $ update_sympathy(20, char_key="siesta")
     # [lay2 hide]
@@ -942,7 +942,7 @@ label date_siesta_ch4_6:
     # [lay2 +550 → si 6 sad]
     $ show_sprites(("si 6 sad"))
     voice "ch4.6_si_009"
-    si "Um, um, Mr. Saito, I'm sorry! I came along on my own without warning today…"
+    si "Um, um, Saito-san, I'm sorry! I came along on my own without warning today…"
     # JA[14242]: あ、あのっ、サイトさんゴメンなさい。 / 今日は、勝手について来てしまったりして。
     # [lay2 x=-96]
     # [lay5 +445 → s 6]
@@ -958,12 +958,12 @@ label date_siesta_ch4_6:
     # [lay2 +546 → si 6 happy]
     $ show_sprites(("si 6 happy", "s 6"))
     voice "ch4.6_si_011"
-    si "I'm so glad Mr. Saito won his fight with the Bomb User and came through it safely."
+    si "I'm so glad Saito-san won his fight with the Bomb User and came through it safely."
     # JA[14244]: サイトさんが爆弾使いとの戦いに勝って、 / 無事で、ホントに良かったです。
     # [lay2 +552 → si 6 shy]
     $ show_sprites(("si 6 shy", "s 6"))
     voice "ch4.6_si_012"
-    si "Even after we evacuated, I kept praying that Mr. Saito would be safe. You know?"
+    si "Even after we evacuated, I kept praying that Saito-san would be safe. You know?"
     # JA[14245]: わたし、避難してからもずっとサイトさんが / 無事でいますようにって、 / お祈りしてたんですよ？
     # [lay5 +420 → s 5 shy]
     $ show_sprites(("si 6 shy", "s 5 shy"))
@@ -1003,7 +1003,7 @@ label date_siesta_ch4_6:
     # [lay2 +552 → si 6 shy]
     $ show_sprites(("si 6 shy", "s 5 sad"))
     voice "ch4.6_si_017"
-    si "But perhaps because I'm that sort of person, I was drawn to you, Mr. Saito."
+    si "But perhaps because I'm that sort of person, I was drawn to you, Saito-san."
     # JA[14250]: でも、そんなわたしだから、 / サイトさんに惹かれたのかもしれませんね。
     # [lay5 +451 → s 6 sad]
     $ show_sprites(("si 6 shy", "s 6 sad"))
@@ -1013,7 +1013,7 @@ label date_siesta_ch4_6:
     # [lay2 +544 → si 6]
     $ show_sprites(("si 6", "s 6 sad"))
     voice "ch4.6_si_018"
-    si "You're a free man, Mr. Saito. You're not bound by anything."
+    si "You're a free man, Saito-san. You're not bound by anything."
     # JA[14251]: サイトさんは自由なんです。 / 何にもとらわれない。
     voice "ch4.6_si_019"
     si "You overcome everything that we, who consider it perfectly normal, brush off as nothing. You're an amazing person."
@@ -1044,12 +1044,12 @@ label date_siesta_ch4_6:
             # [BG +70 → id(70)]
             $ fade_fx("id(70)")
             # [lay5 +412 → s 5]
-    $ show_sprites(("si 6 happy", "s 5"))
+            $ show_sprites(("si 6 happy", "s 5"))
             voice "ch4.6_s_054"
             s "That's not true at all. You're exaggerating, Siesta."
             # JA[8572]: そんなことないよ。 / それはシエスタの買いかぶりさ。
             # [lay2 +544 → si 6]
-    $ show_sprites(("si 6", "s 5"))
+            $ show_sprites(("si 6", "s 5"))
             voice "ch4.6_si_021"
             si "Really?{#ch4.6_v14254}"
             # JA[14254]: そうですか？
@@ -1057,12 +1057,12 @@ label date_siesta_ch4_6:
             s "That's right. I'm neither a superhero nor a mage."
             # JA[8573]: そうだよ。 / 俺はスーパーマンでもなければ、 / 魔法使いでもないんだ。
             # [lay5 +414 → s 5 happy]
-    $ show_sprites(("si 6", "s 5 happy"))
+            $ show_sprites(("si 6", "s 5 happy"))
             voice "ch4.6_s_056"
             s "I suppose. Just a guy without any common sense?"
             # JA[8574]: そうだなぁ。 / ただの常識知らずってところかな？
             # [lay2 +550 → si 6 sad]
-    $ show_sprites(("si 6 sad", "s 5 happy"))
+            $ show_sprites(("si 6 sad", "s 5 happy"))
             voice "ch4.6_si_022"
             si "Without common sense… is it?"
             # JA[14255]: 常識知らず……ですか。
@@ -1070,30 +1070,30 @@ label date_siesta_ch4_6:
             # JA: 俺の世界だったら普通かな？
             # ==== SCENE 1091 ====
             # [lay2 +546 → si 6 happy]
-    $ show_sprites(("si 6 happy", "s 5 happy"))
+            $ show_sprites(("si 6 happy", "s 5 happy"))
             # [lay5 +418 → s 5 sad]
-    $ show_sprites(("si 6 happy", "s 5 sad"))
+            $ show_sprites(("si 6 happy", "s 5 sad"))
             play music t6 fadein 1.0
             # [BG +70 → id(70)]
             $ fade_fx("id(70)")
             # [lay5 +412 → s 5]
-    $ show_sprites(("si 6 happy", "s 5"))
+            $ show_sprites(("si 6 happy", "s 5"))
             voice "ch4.6_s_057"
             s "In my world? It'd be normal, I suppose. There are still places with class systems, but mostly it's an ordinary thing."
             # JA[8575]: 俺の世界だったら普通かな？ / まぁ、まだ身分制度が残ってる / ところもあるけど、大体普通のことだよ。
             # [lay2 +544 → si 6]
-    $ show_sprites(("si 6", "s 5"))
+            $ show_sprites(("si 6", "s 5"))
             voice "ch4.6_si_023"
             si "Is that so…? I wish I could be born into your world. It must be a wonderful place, right?"
             # JA[14256]: そうなんですか……。 / サイトさんの世界に生まれてみたかったです。 / きっとすばらしい世界なんでしょうね？
             $ update_sympathy(10, char_key="siesta")
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("si 6", "s 6 sad"))
+            $ show_sprites(("si 6", "s 6 sad"))
             voice "ch4.6_s_058"
             s "I wonder? My world is my own, and it has problems of its own. I think problems are the same everywhere."
             # JA[8576]: そうかな？ / 俺の世界は俺の世界で、別の問題はあるよ。 / 問題があるのは、どこでも同じだと思うんだ。
             # [lay2 +550 → si 6 sad]
-    $ show_sprites(("si 6 sad", "s 6 sad"))
+            $ show_sprites(("si 6 sad", "s 6 sad"))
             voice "ch4.6_si_024"
             si "The same everywhere…?"
             # JA[14257]: どこでも同じ……ですか。
@@ -1101,19 +1101,19 @@ label date_siesta_ch4_6:
             # JA: ルイズの力があったからだよ
             # ==== SCENE 1092 ====
             # [lay2 +546 → si 6 happy]
-    $ show_sprites(("si 6 happy", "s 6 sad"))
+            $ show_sprites(("si 6 happy", "s 6 sad"))
             # [lay5 +418 → s 5 sad]
-    $ show_sprites(("si 6 happy", "s 5 sad"))
+            $ show_sprites(("si 6 happy", "s 5 sad"))
             play music t6 fadein 1.0
             # [BG +70 → id(70)]
             $ fade_fx("id(70)")
             # [lay5 +412 → s 5]
-    $ show_sprites(("si 6 happy", "s 5"))
+            $ show_sprites(("si 6 happy", "s 5"))
             voice "ch4.6_s_059"
             s "I think it was because of Louise's power. Honestly, the only reason I've survived this long is because of Louise's power."
             # JA[8577]: ルイズの力があったからだと思う。 / 正直、ここまで生きてこれたのも、 / ルイズの力があるからだし。
             # [lay2 +550 → si 6 sad]
-    $ show_sprites(("si 6 sad", "s 5"))
+            $ show_sprites(("si 6 sad", "s 5"))
             voice "ch4.6_si_025"
             si "Miss Valliere's power…?"
             # JA[14258]: ミス・ヴァリエールの力……ですか。
@@ -1152,7 +1152,7 @@ label date_siesta_ch4_6:
     # [lay2 +552 → si 6 shy]
     $ show_sprites(("si 6 shy", "s 5"))
     voice "ch4.6_si_028"
-    si "Well… Mr. Saito, honestly."
+    si "Well… Saito-san, honestly."
     # JA[14261]: まぁ……、サイトさんったら。
     # [lay5 +414 → s 5 happy]
     $ show_sprites(("si 6 shy", "s 5 happy"))
@@ -1210,7 +1210,7 @@ label date_haruna_ch4_6:
     # [lay7 +977 → ha 3 angry]
     $ show_sprites(("ha 3 angry"))
     voice "ch4.6_ha_008"
-    ha "Kyaa! Mr. Hiraga! You were right there…"
+    ha "Kyaa! Hiraga-kun! You were right there…"
     # JA[1640]: きゃっ。 / 平賀くん。 / そこにいたんだ……。
     $ update_sympathy(20, char_key="haruna")
     # [lay7 +973 → ha 3]
@@ -1260,7 +1260,7 @@ label date_haruna_ch4_6:
     # [lay7 +975 → ha 3 happy]
     $ show_sprites(("ha 3 happy", "s 6"))
     voice "ch4.6_ha_014"
-    ha "Thank you, Mr. Hiraga."
+    ha "Thank you, Hiraga-kun."
     # JA[1646]: ありがとう、平賀くん。
     # [lay5 +412 → s 5]
     $ show_sprites(("ha 3 happy", "s 5"))
@@ -1296,7 +1296,7 @@ label date_haruna_ch4_6:
     # [lay7 +973 → ha 3]
     $ show_sprites(("ha 3", "s 6"))
     voice "ch4.6_ha_018"
-    ha "Karaoke? Hmm, sometimes… maybe. How about you, Mr. Hiraga?"
+    ha "Karaoke? Hmm, sometimes… maybe. How about you, Hiraga-kun?"
     # JA[1650]: カラオケ？ / うーん、たまに……かな。 / 平賀くんは？
     # [lay5 +412 → s 5]
     $ show_sprites(("ha 3", "s 5"))
@@ -1304,7 +1304,7 @@ label date_haruna_ch4_6:
     s "Me too, sometimes…"
     # JA[8593]: 俺もたまに……。
     voice "ch4.6_ha_019"
-    ha "What kind of songs do you sing, Mr. Hiraga?"
+    ha "What kind of songs do you sing, Hiraga-kun?"
     # JA[1651]: 平賀くんはどんな歌を歌うの？
     # [lay5 +445 → s 6]
     $ show_sprites(("ha 3", "s 6"))
@@ -1323,27 +1323,27 @@ label date_haruna_ch4_6:
             # [BG +70 → id(70)]
             $ fade_fx("id(70)")
             # [lay5 +414 → s 5 happy]
-    $ show_sprites(("ha 3", "s 5 happy"))
+            $ show_sprites(("ha 3", "s 5 happy"))
             voice "ch4.6_s_077"
             s "Japanese songs, I guess. There are more songs everyone can get excited about together."
             # JA[8595]: やっぱり邦楽かなぁ。 / みんなで盛り上がれる歌が多いしね。
             # [lay7 +979 → ha 3 sad]
-    $ show_sprites(("ha 3 sad", "s 5 happy"))
+            $ show_sprites(("ha 3 sad", "s 5 happy"))
             voice "ch4.6_ha_020"
             ha "Hmm, I see. I can never quite keep up with popular songs."
             # JA[1652]: ふーん、そうなんだ。 / 私、流行の歌ってどうもついていけなくって。
             # [lay5 +412 → s 5]
-    $ show_sprites(("ha 3 sad", "s 5"))
+            $ show_sprites(("ha 3 sad", "s 5"))
             voice "ch4.6_s_078"
             s "At a convenience store, songs play on the pipe radio, and if you listen, you pick them up naturally."
             # JA[8596]: コンビニだったら有線で曲が流れるし、 / それを聞いてれば自然と覚えるって。
             # [lay7 +975 → ha 3 happy]
-    $ show_sprites(("ha 3 happy", "s 5"))
+            $ show_sprites(("ha 3 happy", "s 5"))
             voice "ch4.6_ha_021"
             ha "Heh. That's a bit of life wisdom, isn't it?"
             # JA[1653]: へー。 / それは生活の知恵だね。
             # [lay5 +447 → s 6 happy]
-    $ show_sprites(("ha 3 happy", "s 6 happy"))
+            $ show_sprites(("ha 3 happy", "s 6 happy"))
             voice "ch4.6_s_079"
             s "Haha."
             # JA[8597]: はははっ。
@@ -1351,35 +1351,35 @@ label date_haruna_ch4_6:
             # JA: 洋楽かな
             # ==== SCENE 1096 ====
             # [lay7 +973 → ha 3]
-    $ show_sprites(("ha 3", "s 6 happy"))
+            $ show_sprites(("ha 3", "s 6 happy"))
             # [lay5 +445 → s 6]
-    $ show_sprites(("ha 3", "s 6"))
+            $ show_sprites(("ha 3", "s 6"))
             play music t10 fadein 1.0
             # [BG +70 → id(70)]
             $ fade_fx("id(70)")
             # [lay5 +412 → s 5]
-    $ show_sprites(("ha 3", "s 5"))
+            $ show_sprites(("ha 3", "s 5"))
             voice "ch4.6_s_080"
             s "Actually, I sing Western music."
             # JA[8598]: 実は洋楽を歌ってるんだ。
             # [lay7 +975 → ha 3 happy]
-    $ show_sprites(("ha 3 happy", "s 5"))
+            $ show_sprites(("ha 3 happy", "s 5"))
             voice "ch4.6_ha_022"
-            ha "Eh, you sing in English? You're good at English, Mr. Hiraga?"
+            ha "Eh, you sing in English? You're good at English, Hiraga-kun?"
             # JA[1654]: え、英語で歌うんだよね。 / 平賀くん、英語得意なんだ？
             $ update_sympathy(10, char_key="haruna")
             # [lay5 +445 → s 6]
-    $ show_sprites(("ha 3 happy", "s 6"))
+            $ show_sprites(("ha 3 happy", "s 6"))
             voice "ch4.6_s_081"
             s "N-not really. I mean, I sort of understand what it means…"
             # JA[8599]: いやー。 / 意味はそれっぽく理解してるつもりだけど……、
             # [lay5 +447 → s 6 happy]
-    $ show_sprites(("ha 3 happy", "s 6 happy"))
+            $ show_sprites(("ha 3 happy", "s 6 happy"))
             voice "ch4.6_s_082"
             s "In the end, I'm probably just copying the intonation and singing it as if I know what I'm doing, right?"
             # JA[8600]: 結局はイントネーションをまねしながら、 / それっぽく歌ってるだけかな？
             # [lay7 +973 → ha 3]
-    $ show_sprites(("ha 3", "s 6 happy"))
+            $ show_sprites(("ha 3", "s 6 happy"))
             voice "ch4.6_ha_023"
             ha "Even so, that's amazing."
             # JA[1655]: それでもすごいよ。
@@ -1388,33 +1388,33 @@ label date_haruna_ch4_6:
             # ==== SCENE 1097 ====
             # [lay7 +973 → ha 3]
             # [lay5 +445 → s 6]
-    $ show_sprites(("ha 3", "s 6"))
+            $ show_sprites(("ha 3", "s 6"))
             play music t10 fadein 1.0
             # [BG +70 → id(70)]
             $ fade_fx("id(70)")
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("ha 3", "s 6 sad"))
+            $ show_sprites(("ha 3", "s 6 sad"))
             voice "ch4.6_s_083"
             s "Actually, I mostly just listen. I don't sing much…"
             # JA[8601]: 実は聞いてるのがほとんど。 / あまり歌ってないなぁ……。
             # [lay7 +979 → ha 3 sad]
-    $ show_sprites(("ha 3 sad", "s 6 sad"))
+            $ show_sprites(("ha 3 sad", "s 6 sad"))
             voice "ch4.6_ha_024"
             ha "That's a waste, though. You came all the way to sing."
             # JA[1656]: それってもったいないよ。 / せっかく歌いに来たんだし。
             $ update_sympathy(-10, char_key="haruna")
             # [lay5 +418 → s 5 sad]
-    $ show_sprites(("ha 3 sad", "s 5 sad"))
+            $ show_sprites(("ha 3 sad", "s 5 sad"))
             voice "ch4.6_s_084"
             s "I just don't feel confident about singing."
             # JA[8602]: 歌ってどうも自信がなくて。
             # [lay7 +973 → ha 3]
-    $ show_sprites(("ha 3", "s 5 sad"))
+            $ show_sprites(("ha 3", "s 5 sad"))
             voice "ch4.6_ha_025"
             ha "They say if you start by singing along with other people, you pick up a sense of pitch. How about we try singing together?"
             # JA[1657]: 他人に合わせて歌うことから始めれば、 / 音感がついてくるっていうよ。 / 一緒に歌ってみるのはどうかな？
             # [lay5 +445 → s 6]
-    $ show_sprites(("ha 3", "s 6"))
+            $ show_sprites(("ha 3", "s 6"))
             voice "ch4.6_s_085"
             s "D-do you think so?{#ch4.6_v8603}"
             # JA[8603]: そ、そうかな？
@@ -1430,7 +1430,7 @@ label date_haruna_ch4_6:
     # [lay7 +973 → ha 3]
     $ show_sprites(("ha 3", "s 6 happy"))
     voice "ch4.6_ha_026"
-    ha "Mr. Hiraga."
+    ha "Hiraga-kun."
     # JA[1658]: 平賀くん。
     # [lay5 +412 → s 5]
     $ show_sprites(("ha 3", "s 5"))
@@ -1553,7 +1553,7 @@ label date_henrietta_ch4_6:
     # [lay19 +948 → d 1 shy]
     $ show_sprites(("h 2 happy", "d 1 shy", "s 6 sad"))
     voice "ch4.6_d_013"
-    d "What an honor for a nobody like me to have your attention. My name is Delphlinger."
+    d "What an honor for a nobody like me to have your attention. My name is Derflinger."
     # JA[1213]: 俺っちに気をかけてくれるとは / なんとすばらしい。 / デルフリンガーと申します。
     # [lay19 hide]
     $ show_sprites(("h 2 happy", "s 6 sad"))
@@ -1682,28 +1682,28 @@ label date_henrietta_ch4_6:
             # [BG +64 → id(64)]
             $ fade_fx("id(64)")
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("h 2", "s 6 sad"))
+            $ show_sprites(("h 2", "s 6 sad"))
             voice "ch4.6_s_101"
             s "At the very least, I'm on the princess's side. If anything troublesome comes up, I can lend a hand?"
             # JA[8619]: 俺はその、少なくともお姫さまの味方ですから。 / 何か困ったことがあったら、お力になれますよ？
             # [lay5 +412 → s 5]
-    $ show_sprites(("h 2", "s 5"))
+            $ show_sprites(("h 2", "s 5"))
             voice "ch4.6_s_102"
             s "Louise probably thinks so too. At least, I believe she does."
             # JA[8620]: たぶん、ルイズもそう思っているはずです。 / 少なくとも、俺はそう信じていますし。
             # [lay8 +788 → h 2 happy]
-    $ show_sprites(("h 2 happy", "s 5"))
+            $ show_sprites(("h 2 happy", "s 5"))
             voice "ch4.6_h_024"
             h "Well, thank you so much!"
             # JA[337]: まぁ、ありがとうございますっ！
             $ update_sympathy(30, char_key="henrietta")
             # [lay8 +786 → h 2]
-    $ show_sprites(("h 2", "s 5"))
+            $ show_sprites(("h 2", "s 5"))
             voice "ch4.6_h_025"
             h "But just having you, familiar, listen to my rambling has lightened my heart a good deal."
             # JA[338]: でも、使い魔さんに、このとりとめのない話を / 聞いていただいただけでも、 / 随分と気持ちが楽になりました。
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("h 2", "s 6 sad"))
+            $ show_sprites(("h 2", "s 6 sad"))
             voice "ch4.6_s_103"
             s "I see… But if it made the princess happy, that's enough for me."
             # JA[8621]: そうですか……。 / でも、お姫さまが喜んでくれたのならそれで / 充分です。
@@ -1712,32 +1712,32 @@ label date_henrietta_ch4_6:
             # ==== SCENE 1101 ====
             # [lay8 +786 → h 2]
             # [lay5 +418 → s 5 sad]
-    $ show_sprites(("h 2", "s 5 sad"))
+            $ show_sprites(("h 2", "s 5 sad"))
             play music t9 fadein 1.0
             # [BG +64 → id(64)]
             $ fade_fx("id(64)")
             # [lay5 +412 → s 5]
-    $ show_sprites(("h 2", "s 5"))
+            $ show_sprites(("h 2", "s 5"))
             voice "ch4.6_s_104"
             s "Wouldn't it be better to have Louise stay at the princess's side?"
             # JA[8622]: ルイズの事を、お姫さまの側近に置いてあげる / というのではダメなんですか？
             # [lay8 +792 → h 2 sad]
-    $ show_sprites(("h 2 sad", "s 5"))
+            $ show_sprites(("h 2 sad", "s 5"))
             voice "ch4.6_h_026"
             h "…In truth, I want nothing more. But that would be far too selfish of me."
             # JA[339]: ……本当はそうしたくて仕方がないのですけど。 / それは余りにもわたくしの身勝手 / というものです。
             # [lay8 +786 → h 2]
-    $ show_sprites(("h 2", "s 5"))
+            $ show_sprites(("h 2", "s 5"))
             voice "ch4.6_h_027"
             h "I want Louise to live freely."
             # JA[340]: ルイズには、自由に生活して欲しいのです。
             # [lay8 +792 → h 2 sad]
-    $ show_sprites(("h 2 sad", "s 5"))
+            $ show_sprites(("h 2 sad", "s 5"))
             voice "ch4.6_h_028"
             h "I could never make Louise live day after day imprisoned by stone walls and a magical cage, like I do."
             # JA[341]: こうして日々、石壁と魔法の檻に囚われた生活を / ルイズにもさせるなんて、 / わたくしにはとてもできませんから。
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("h 2 sad", "s 6 sad"))
+            $ show_sprites(("h 2 sad", "s 6 sad"))
             voice "ch4.6_s_105"
             s "I see.{#ch4.6_v8623}"
             # JA[8623]: そっかぁ。
@@ -1745,14 +1745,14 @@ label date_henrietta_ch4_6:
             # JA: 自分の身は自分で守らないと
             # ==== SCENE 1102 ====
             # [lay8 +786 → h 2]
-    $ show_sprites(("h 2", "s 6 sad"))
+            $ show_sprites(("h 2", "s 6 sad"))
             # [lay5 +418 → s 5 sad]
-    $ show_sprites(("h 2", "s 5 sad"))
+            $ show_sprites(("h 2", "s 5 sad"))
             play music t9 fadein 1.0
             # [BG +64 → id(64)]
             $ fade_fx("id(64)")
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("h 2", "s 6 sad"))
+            $ show_sprites(("h 2", "s 6 sad"))
             voice "ch4.6_s_106"
             s "I shouldn't say this, but doesn't that depend on how Your Highness sees it yourself?"
             # JA[8624]: 俺が言うのも何ですけど、 / それはお姫さま自身の考え方次第 / じゃないですか？
@@ -1761,33 +1761,33 @@ label date_henrietta_ch4_6:
             h "On how I see it…?"
             # JA[342]: 考え方次第……ですか？
             # [lay5 +412 → s 5]
-    $ show_sprites(("h 2", "s 5"))
+            $ show_sprites(("h 2", "s 5"))
             voice "ch4.6_s_107"
             s "Unless you reach out to them first, I thought they'd stay enemies forever."
             # JA[8625]: お姫さまから近寄っていかないと、 / いつまでも周りは敵のままじゃないかと / 思うんです。
             # [lay8 +792 → h 2 sad]
-    $ show_sprites(("h 2 sad", "s 5"))
+            $ show_sprites(("h 2 sad", "s 5"))
             voice "ch4.6_h_030"
             h "….{#ch4.6_v343}"
             # JA[343]: ……。
             $ update_sympathy(-30, char_key="henrietta")
             # [lay5 +418 → s 5 sad]
-    $ show_sprites(("h 2 sad", "s 5 sad"))
+            $ show_sprites(("h 2 sad", "s 5 sad"))
             voice "ch4.6_s_108"
             s "Well, I'm not a princess, so I don't know what the cause of it is."
             # JA[8626]: そりゃ、俺はお姫さまじゃないから、 / 何が原因なのかは分かりませんけど。
             # [lay5 +412 → s 5]
-    $ show_sprites(("h 2 sad", "s 5"))
+            $ show_sprites(("h 2 sad", "s 5"))
             voice "ch4.6_s_109"
             s "But at least, the people who fought in the last war must have been fighting for you."
             # JA[8627]: でも、少なくとも前の戦争で戦ってくれた / 人達は、お姫さまのために戦ってくれた / はずです。
             # [lay5 +451 → s 6 sad]
-    $ show_sprites(("h 2 sad", "s 6 sad"))
+            $ show_sprites(("h 2 sad", "s 6 sad"))
             voice "ch4.6_s_110"
             s "Sorry. I don't even know what I'm saying."
             # JA[8628]: すいません。 / 何言ってるんだか俺にも分からないや。
             # [lay8 +786 → h 2]
-    $ show_sprites(("h 2", "s 6 sad"))
+            $ show_sprites(("h 2", "s 6 sad"))
             voice "ch4.6_h_031"
             h "No. I've taken that feeling to heart. I must do my best as well."
             # JA[344]: いいえ。 / その気持ち、確かにいただきました。 / わたくしも頑張らなければなりませんね。

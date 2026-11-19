@@ -19,7 +19,7 @@ label ch6:
     l "Whew, my legs feel like lead…{#ch6_l_001}"
     # JA[7297]: はー、足が棒になっちゃったわ……。
     voice "ch6_si_001"
-    si "Welcome back, Miss Vallière, Saito. How did the inquiries go?{#ch6_si_001}"
+    si "Welcome back, Miss Vallière, Saito-san. How did the inquiries go?{#ch6_si_001}"
     # JA[15152]: おかえりなさいませ、 ミス・ヴァリエール、サイトさん。 聞き込みの方はいかがでした？
     voice "ch6_s_002"
     s "Absolutely terrible. We didn't find a single clue.{#ch6_s_002}"
@@ -132,7 +132,7 @@ label ch6_s346:
     s "When did the innkeeper get such a cute voice!?{#ch6_s_009}"
     # JA[13386]: 宿屋の親父、いつそんな可愛い声に！？
     voice "ch6_l_011"
-    l "Idiot! Of course not! Anyone can tell that's the princess!{#ch6_l_011}"
+    l "Idiot! Of course not! No matter how you listen, that's NOT the princess!{#ch6_l_011}"
     # JA[7307]: ばかっ！ そんなわけないでしょ！ どう聞いても姫さまじゃないの！
     $ tndl(-30)  # TNDL events_full L161 (sc 346, ch6_l_011)
     voice "ch6_s_010"
@@ -149,7 +149,7 @@ label ch6_s347:
     s "Who is this ‘It-is-I’ person behind the door!?{#ch6_s_011}"
     # JA[13388]: ドアの向こうにいる、ワタクシさんって誰！？
     voice "ch6_l_013"
-    l "Who are you talking about!? That is obviously the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
+    l "Who are you talking about!? No matter how you listen, that is NOT the princess's voice! You really are a hopeless familiar!{#ch6_l_013}"
     # JA[7309]: どこの誰よ、それ！ どう聞いても姫さまのお声じゃないの！ ほんっとにバカ使い魔ね！
     $ tndl(-30)  # TNDL events_full L184 (sc 347, ch6_l_013)
     voice "ch6_s_012"
@@ -218,7 +218,7 @@ label ch6_s349:
     h "This series of bombings follows a certain pattern. Everyone, look at this map.{#ch6_h_009}"
     # JA[742]: 今回の一連の爆破事件には、 ある法則があります。 皆さん、この地図を見てください。
     voice "ch6_l_018"
-    l "This is a map of Tristain, isn't it?{#ch6_l_018}"
+    l "This is a map of Tristania, isn't it?{#ch6_l_018}"
     # JA[7314]: これは……トリスタニアの地図、ですね。
     voice "ch6_h_010"
     h "Yes. This central area is the royal palace, and these marks show the sites of the bombings.{#ch6_h_010}"
