@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Louise, cut it out{#ch17_1_c_670_1}"
     new "Луиза, хватит"

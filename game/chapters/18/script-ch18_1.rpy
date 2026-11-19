@@ -599,7 +599,7 @@ label ch18_1_scene_701:
 
     # アキナ：トリステインにいるっていう伝説の使い魔、
     voice "ch18_ak_011"
-    ak "To investigate Saito and his mistress Louise, the legendary familiar of Tristain.{#ch18_ak_011}"
+    ak "To investigate Saito, the legendary familiar of Tristain, and his mistress Louise. {#ch18_ak_011}"
 
     # [SPRITE   lay5     image=+394, level=150, dir=1A]
     # サイト：お、俺とルイズのことを？  [voice 11800]

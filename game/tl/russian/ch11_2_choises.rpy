@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_2: 3 menu choices)
 
     old "Then, do your best."

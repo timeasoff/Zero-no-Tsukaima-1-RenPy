@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "I have a special request for Louise and her familiar. That's why I called you to the castle.{#ch17_h_023}"
     new "アンリエッタ：ルイズと使い魔さんには、折り入ってお願いしたいことがあります。そのために城に来ていただいたのですから。"
@@ -87,7 +87,7 @@
     old "My mistress bursts into tears at the slightest thing.{#ch17_s_050}"
     new "サイト：うちのご主人様ときたら、なにかってぇとすぐ泣くし。"
 
-    old "And even if you call her a Void mage, she runs out of magic power instantly.{#ch17_s_051}"
+    old "And even if you call her a Void mage, she runs out of mental energy instantly.{#ch17_s_051}"
     new "サイト：虚無の魔法使いとかいっても、すぐに精神力を使い果たしちゃうし。"
 
     old "…{#ch17_l_041}"
@@ -168,7 +168,7 @@
     old "What's happening to the academy?{#ch17_s_065}"
     new "サイト：学院はどうなってるんだろう？"
 
-    old "Don't ask me. You were with them the whole time. How would I know?{#ch17_l_050}"
+    old "Don't ask me. You were with Saito the whole time. How would I know? {#ch17_l_050}"
     new "ルイズ：そんなこと、わたしに聞かないでよ。ずっとサイトと一緒に行動してたのに、分かるはずないでしょ。"
 
     old "N-No, I know that. I just… can't stop worrying.{#ch17_s_066}"

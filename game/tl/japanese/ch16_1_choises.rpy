@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Pray to heaven{#ch16_1_c_660_1}"
     new "天に祈る"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(A few days since the play ended. No leads on the bomb-thrower, only time passing…){#ch17_s_001}"
     new "Прошло несколько дней после спектакля. Ни зацепок о бомбисте, только время идёт…"
@@ -13,7 +13,7 @@
     new "Повтори ещё раз, Кирке?"
 
     old "Oh, is the young lady of Valliere hard of hearing as well as empty-headed? Well, darling, what do you think?{#ch17_k_001}"
-    new "Ой, неужели юная леди Вальер не только пустоголова, но и туха ушами? Ну, дорогой, что думаешь?"
+    new "Ой, неужели юная леди Вальер не только пустоголова, но и туга ушами? Ну, дорогой, что думаешь?"
 
     old "Well… I mean…{#ch17_s_004}"
     new "Ну… Я хотел сказать…"
@@ -67,7 +67,7 @@
     new "Что ты застыл? Уборка и стирка! И постель ещё не застелена, да?"
 
     old "Oh, darling is going out with me. Overworking is bad for the body.{#ch17_k_003}"
-    new "Ой, дорогой собирается идти со мной. Переработка вредна для тела."
+    new "Ой, дорогой собирается идти со мной. Переутомление вредно для здоровья."
 
     old "Who gave you permission!{#ch17_l_007}"
     new "Кто тебе это разрешил!"
@@ -169,10 +169,10 @@
     new "Монмон! Как ты узнала, что я здесь?"
 
     old "I saw you enter Mr. Colbert's room just now.{#ch17_m_002}"
-    new "Я видела, как ты входил в комнату Кольбера."
+    new "Я видела, как ты только что входил в комнату Кольбера."
 
     old "I was just told by old Osmond to call you and Louise.{#ch17_m_003}"
-    new "Меня просто попросил старик Осман позвать тебя и Луизу."
+    new "Мне просто велел старик Осман позвать тебя и Луизу."
 
     old "The headmaster? What for?{#ch17_s_027}"
     new "Директор? Зачем?"
@@ -214,7 +214,7 @@
     new "…"
 
     old "There are a lot of soldiers here. Were you in the middle of a meeting?{#ch17_s_031}"
-    new "Здесь много военных. У вас было совещание?"
+    new "Здесь много военных. Вы как раз в середине совещания?"
 
     old "Yes. That's why I called you.{#ch17_h_002}"
     new "Да. Поэтому я вас и позвала."
@@ -244,7 +244,7 @@
     new "Спасибо. О взрывах, которые в последнее время происходят по всему городу…"
 
     old "I investigated them myself and arrived at a certain hypothesis.{#ch17_h_005}"
-    new "Я провела расследование сама и пришла к определённой гипотезе."
+    new "Я провела расследование сама и выдвинула определённую гипотезу."
 
     old "I wanted to explain it to everyone and have you judge it.{#ch17_h_006}"
     new "Я хотела объяснить её вам всем и услышать ваше суждение."
@@ -297,8 +297,8 @@
     old "They're arranged in a circle around the castle.{#ch17_s_035}"
     new "Они расположены по кругу вокруг замка."
 
-    old "Yes. This can't be coincidence.{#ch17_h_011}"
-    new "Да. Это не может быть совпадением."
+    old "Yes. I can't call it mere coincidence. {#ch17_h_011}"
+    new "Да. Я не могу счесть это простым совпадением."
 
     old "If it's not coincidence, then what…?{#ch17_l_020}"
     new "Если не совпадение, то что же…?"
@@ -318,8 +318,8 @@
     old "I so regret summoning you right now.{#ch17_l_021}"
     new "Сейчас я ужасно жалею, что вызвала тебя."
 
-    old "What, Louise. You look depressed… Maybe I'm wrong?{#ch17_s_038}"
-    new "Что, Луиза. Ты выглядишь уныло… Может, я неправ?"
+    old "What, Louise. You look really depressed… Maybe I'm wrong?{#ch17_s_038}"
+    new "Что, Луиза. Ты выглядишь совсем подавленной… Может, я неправ?"
 
     old "The craftsmen were called after the incidents, right? Then why bomb first! That bomb-loving craftsman!{#ch17_l_022}"
     new "Ремесленников позвали после случаев, верно? Так зачем сначала взрывать! Этот любитель бомб!"
@@ -399,7 +399,7 @@
     old "What!? Have they already forgotten their defeat the other day!{#ch17_commander_014}"
     new "Что!? Неужели они забыли поражение на днях!"
 
-    old "At current speed, the fleet will enter Tristain's airspace in a little under two days.{#ch17_soldier_007}"
+    old "Judging from their current position, the fleet will enter Tristain's airspace in a little over two days.{#ch17_soldier_007}"
     new "Судя по текущему положению, флот войдёт в воздушное пространство Тристании чуть больше чем через два дня."
 
     old "All available units—recover the cannons immediately! Mages, don't lose sight of the fleet!{#ch17_h_021}"

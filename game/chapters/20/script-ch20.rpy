@@ -224,7 +224,7 @@ label ch20_scene_769:
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：ほら、何ブツブツ言っているの？
     voice "ch20_l_014"
-    l "Hey, what are you muttering about? Hurry up and punish me.{#ch20_l_014}"
+    l "Hey, what are you muttering about? Hurry up, I'll punish you. {#ch20_l_014}"
 
     # サイト：はーい。  [voice 7970]
     voice "ch20_s_023"
@@ -381,7 +381,7 @@ label ch20_scene_769:
 
     # ルイズ：これに懲りたらもう、わたしをないがしろに
     voice "ch20_l_031"
-    l "If you've learned your lesson, you won't neglect me again.{#ch20_l_031}"
+    l "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
 
     # サイト：（目の前がくらくらしてくる。
     s "(My head is spinning. Why is Louise fine with this?){#ch20_s_041}"
@@ -497,7 +497,7 @@ label ch20_scene_770:
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # ハルナ：うん、いつまでもこの学院で……。
     voice "ch20_ha_001"
-    ha "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch20_ha_001}"
+    ha "Yeah. I can't stay at this academy forever… I've been wondering whether it's right to keep relying on Louise and the others.{#ch20_ha_001}"
 
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：そんなこといったら、俺なんかルイズに

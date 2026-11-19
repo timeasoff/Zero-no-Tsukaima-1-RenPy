@@ -13,7 +13,7 @@ translate russian strings:
     new "Э… Э, эээ!?"
 
     old "… {#ch8_h_043}"
-    new "……。"
+    new "…"
 
     old "Saaai～to～!! {#ch8_l_015}"
     new "Сааай～то～!!"

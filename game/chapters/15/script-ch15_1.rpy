@@ -343,7 +343,7 @@ label ch15_1_scene_623:
     # [SPRITE   lay3     image=+858, level=160, dir=1A]
     # モンモランシー：……おつかれさま。  [voice 4141]
     voice "ch15_m_001"
-    m "…It was a rough night.{#ch15_m_001}"
+    m "…You've had a rough time.{#ch15_m_001}"
 
     # [SPRITE   lay3     x=-96, y=0]
     # [SPRITE   lay5     image=+396, level=160, dir=1A]

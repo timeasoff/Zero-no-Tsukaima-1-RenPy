@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(I shook off the pursuers and somehow made it back to the inn…){#ch14_s_076}"
     new "Я оторвался от преследователей и кое-как добрался до гостиницы…"
@@ -100,7 +100,7 @@
     new "Слава богу."
 
     old "Whew. I've restored her somewhat with magic, so she can move now.{#ch14_m_004}"
-    new "Фух. Я отчасти восстановил её магией, теперь она может двигаться."
+    new "Фух. Я отчасти восстановила её магией, теперь она может двигаться."
 
     old "After that, we need to take her to the inn and keep her still…{#ch14_m_005}"
     new "После этого нужно отнести её в гостиницу и обеспечить покой…"
@@ -273,7 +273,7 @@
     old "W-What is this? It's like I'm the bad one…{#ch14_l_027}"
     new "Ч-Что это? Получается, я плохая…"
 
-    old "O-Onii-chan. Don't be mean to me…{#ch14_k_084}"
+    old "O-Onii-chan. Don't be mean to him…{#ch14_k_084}"
     new "Б-Братишку не обижай…"
 
     old "…Ugh.{#ch14_l_028}"

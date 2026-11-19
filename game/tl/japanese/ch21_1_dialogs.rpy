@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(A few days have passed since the play ended. Suddenly, the bomber stopped showing up.){#ch21_s_001}"
     new "（演劇が終わってから、かれこれ数日。いきなり、爆弾使いが現れなくなってしまった）"
@@ -21,7 +21,7 @@
     old "What was that!?{#ch21_l_003}"
     new "ルイズ：なんですってぇ！？"
 
-    old "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
+    old "Look on the bright side. You'll go bald, you know? {#ch21_k_002}"
     new "キュルケ：もっと前向きに考えなさいよ。はげるわよ？"
 
     old "Wha—! Kirche!?{#ch21_l_004}"
@@ -123,7 +123,7 @@
     old "Ah… No, really, Saito-san, apologizing… It's my carelessness, so… I'm sorry!{#ch21_si_012}"
     new "シエスタ：あっ……。いや、そんな、サイトさんが謝るなんて……。わたしの不注意で、そのっ、ごめんなさいっ！"
 
-    old "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
+    old "Hmph, our tea time is ruined. I've completely lost the mood for it. Let's go, Montmorency.{#ch21_g_004}"
     new "ギーシュ：ふん、せっかくのティータイムが台無しだ。すっかり興ざめだよ。行こう、モンモランシー。"
 
     old "Right!{#ch21_m_004}"

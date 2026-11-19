@@ -1330,7 +1330,7 @@ translate russian strings:
     new "Настоящая королева. Она и по одному рынку умудряется так много понять."
 
     old "It seems to have cheered her up. Whether the food had anything to do with it, I have no idea."
-    new "Похоже, ей и правда стало веселее. Только не знаю, благодаря ли этому еда."
+    new "Похоже, ей и правда стало веселее. Только не знаю, благодаря ли еде это."
 
     old "What am I going to do...? If I confess that I took the princess out without permission and wandered around town with her all day, Louise will punish me for sure."
     new "Что же делать… Если признаться, что я самовольно увёл принцессу и весь день бродил с ней по городу, Луиза точно меня накажет."

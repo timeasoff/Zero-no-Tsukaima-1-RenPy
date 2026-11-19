@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Leave it to me.{#ch19_2_c_751_1}"
     new "Положись на меня."

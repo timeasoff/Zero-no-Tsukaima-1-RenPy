@@ -281,7 +281,7 @@ label ch15_4_scene_655:
     w "What is this! Tristain—no, no country in Halkeginia has a fleet like that…!?{#ch15_w_010}"
 
     # サイト：（そうか、これがルイズのやりたかった魔法か。
-    s "(So that's what Louise wanted. That fleet must be an illusion… something Void created…){#ch15_s_112}"
+    s "(So that's what Louise wanted. That fleet must be an illusion… something Louise created with Void…){#ch15_s_112}"
 
     # アキナ：ウェザリーさま、
     voice "ch15_ak_028"

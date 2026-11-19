@@ -378,7 +378,7 @@ label ch12_3_scene_539:
     s "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
 
     # サイト：（最初は笑っていたお姫さまも、
-    s "(Even the Princess, who laughed at first, has lately been clutching her head…){#ch12_s_090}"
+    s "(Even the Princess, who laughed at first, is said to be clutching her head lately…){#ch12_s_090}"
 
     # [SPRITE   lay5     hide]
     # [SE       se1      stop=1]
@@ -503,7 +503,7 @@ label ch12_3_scene_539:
     $ dissolve_fx("id(127)")
     # アキナ：つまり、あなたがわたしにアイラブユーよ。  [voice 9]
     voice "ch12_ak_064"
-    ak "In other words, I love you!{#ch12_ak_064}"
+    ak "In other words, you're saying 'I love you' to me!{#ch12_ak_064}"
 
     # サイト：……。  [voice 8104]
     voice "ch12_s_105"
@@ -821,7 +821,7 @@ label ch12_3_scene_543:
     # [SPRITE   lay8     image=+777, level=160, dir=1B]
     # アンリエッタ：あらあら、女の戦いははじまったばかり
     voice "ch12_h_015"
-    h "My my, it seems the battle of the sexes has only just begun.{#ch12_h_015}"
+    h "My my, it seems the fight between the women has only just begun.{#ch12_h_015}"
 
     # [SPRITE   lay8     hide]
     # [SPRITE   lay5     image=+430, level=140, dir=2A]

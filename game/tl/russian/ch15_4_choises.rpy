@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Cut her down?{#ch15_4_c_655_1}"
     new "Зарубить её?"

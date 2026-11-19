@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "I'm surprised. That you made it this far…{#ch19_w_005}"
     new "Удивлена. Что вы дошли так далеко…"
@@ -7,7 +7,7 @@
     new "Если ты удивлена, то я ещё больше. Что ты оказалась врагом, Уэзерби."
 
     old "Well, things were going well up to here. Everything was going according to script…{#ch19_w_006}"
-    new "Ну, до сюда всё шло хорошо. Всё шло по сценарию…"
+    new "Ну, до сих пор всё шло хорошо. Всё шло по сценарию…"
 
     old "…{#ch19_t_045}"
     new "…"
@@ -64,7 +64,7 @@
     new "Н-Нет… Но ты всё это время был заперт в кабинете директора…"
 
     old "You shouldn't underestimate my Mortosgnir.{#ch19_o_002}"
-    new "Не стоит недооценивать моего Мортогнира."
+    new "Не стоит недооценивать моего Мотсогнира."
 
     old "At full strength, he could round-trip to the capital in a day—not just the academy.{#ch19_o_003}"
     new "В полной форме он за день сходит туда и обратно не только до академии, но и до столицы."
@@ -247,7 +247,7 @@
     new "Мм…"
 
     old "Something's odd about you two. I sense a strange atmosphere.{#ch19_si_004}"
-    new "Что-то странное в вас двоих. Я чувствую странное ощущение."
+    new "Что-то странное в вас двоих. Я чувствую странную атмосферу."
 
     old "N-No, there's nothing! Right, everyone?{#ch19_s_329}"
     new "Н-Нет, ничего нет! Верно, все?"

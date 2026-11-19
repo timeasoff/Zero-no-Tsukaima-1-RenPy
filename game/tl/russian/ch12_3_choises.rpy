@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Is it really Akina's wish?{#ch12_3_c_539_1}"
     new "Это и правда желание Акины?"

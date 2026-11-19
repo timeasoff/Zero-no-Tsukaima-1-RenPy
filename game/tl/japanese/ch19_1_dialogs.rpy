@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(The morning of the operation has finally arrived.){#ch19_s_248}"
     new "（ついに作戦開始の朝が来てしまった）"
@@ -129,7 +129,7 @@
     old "The exit leading to the shortest route to the rooftop is here.{#ch19_c_099}"
     new "コルベール：屋上への最短ルートに通じる出口は、ここにある。"
 
-    old "So Saito and I split up here? Ah, but at this distance it's practically just around the corner.{#ch19_s_257}"
+    old "So Louise and I split up here? Ah, but at this distance it's practically just around the corner. {#ch19_s_257}"
     new "サイト：そこで俺とルイズは、二手に分かれるってことか。あ、でもこの距離ならほんの目と鼻の先だな。"
 
     old "The wind is at our backs. Oh, there's one more thing I should give you.{#ch19_c_100}"
@@ -222,7 +222,7 @@
     old "Let's think about that once it's all over. Now is not the time to hesitate.{#ch19_l_206}"
     new "ルイズ：それはすべてが終わってから考えましょ。今は、躊躇する時じゃないわ。"
 
-    old "I know. I know it, but…{#ch19_s_272}"
+    old "I know. I should know it, but…{#ch19_s_272}"
     new "サイト：それは分かってる。分かってるはずなんだけどな……。"
 
     old "…{#ch19_l_207}"
@@ -354,7 +354,7 @@
     old "Me and Saito.{#ch19_t_030}"
     new "タバサ：わたしとサイト。"
 
-    old "With Louise? Well, if Tabitha says so, I suppose it can't be helped. She must have a reason…{#ch19_k_047}"
+    old "With Louise? Well, if Tabitha says so, I guess it can't be helped. She probably has a reason, right? {#ch19_k_047}"
     new "キュルケ：ルイズと？まー、タバサがそうしろって言うなら仕方がないわね、たぶん理由があるんでしょ？"
 
     old "Mm.{#ch19_t_031}"

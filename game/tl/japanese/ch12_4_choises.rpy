@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Mention it, just in case?{#ch12_4_c_544_1}"
     new "一応、指摘しておく？"

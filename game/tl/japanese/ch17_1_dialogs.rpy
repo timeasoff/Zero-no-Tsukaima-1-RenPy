@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(A few days since the play ended. No leads on the bomb-thrower, only time passing…){#ch17_s_001}"
     new "（演劇が終わってから、かれこれ数日。爆破事件の手がかりも得られないまま、時間だけが過ぎて）"
@@ -297,7 +297,7 @@
     old "They're arranged in a circle around the castle.{#ch17_s_035}"
     new "サイト：城を……ぐるっと丸くかこむような形で事件が起きてる。"
 
-    old "Yes. This can't be coincidence.{#ch17_h_011}"
+    old "Yes. I can't call it mere coincidence. {#ch17_h_011}"
     new "アンリエッタ：そうです。ただの偶然とは思えません。"
 
     old "If it's not coincidence, then what…?{#ch17_l_020}"
@@ -318,7 +318,7 @@
     old "I so regret summoning you right now.{#ch17_l_021}"
     new "ルイズ：今、あんたを召喚したこと、すっごく後悔したわ。"
 
-    old "What, Louise. You look depressed… Maybe I'm wrong?{#ch17_s_038}"
+    old "What, Louise. You look really depressed… Maybe I'm wrong?{#ch17_s_038}"
     new "サイト：どうした、ルイズ。ひどく落ち込んでるみたいだけど……。もしかして、ちがうの？"
 
     old "The craftsmen were called after the incidents, right? Then why bomb first! That bomb-loving craftsman!{#ch17_l_022}"
@@ -399,7 +399,7 @@
     old "What!? Have they already forgotten their defeat the other day!{#ch17_commander_014}"
     new "将校：何だと！レコン・キスタめ！先日の敗戦をもう忘れたか！"
 
-    old "At current speed, the fleet will enter Tristain's airspace in a little under two days.{#ch17_soldier_007}"
+    old "Judging from their current position, the fleet will enter Tristain's airspace in a little over two days.{#ch17_soldier_007}"
     new "味方Ａ：現在の位置から推測するに、艦隊がトリステインの領空に入るまで、二日と少々という結果が出ています。"
 
     old "All available units—recover the cannons immediately! Mages, don't lose sight of the fleet!{#ch17_h_021}"

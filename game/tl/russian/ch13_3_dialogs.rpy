@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(I found a few small leads, but nothing really important…){#ch13_s_100}"
     new "Я нашёл пару мелких зацепок, но ничего важного…"
@@ -81,7 +81,7 @@
     old "They see fire only as a tool for destruction. I hate the way they do things.{#ch13_k_101}"
     new "Они видят в огне только орудие разрушения. Мне ненавистен их подход."
 
-    old "As a mage of the 'fire' attribute… by the name of Kirche with a slight fever…{#ch13_k_102}"
+    old "As a mage of the 'fire' attribute… I stake my name — Kirche of the Slight Fever — on it…{#ch13_k_102}"
     new "Как маг стихии «огня»… клянусь именем Кирке с лёгким жаром…"
 
     old "…I have to teach them the 'true way to use fire'.{#ch13_k_103}"

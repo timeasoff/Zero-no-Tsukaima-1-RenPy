@@ -60,7 +60,7 @@ label ch16_1_scene_660:
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：キュ、キュルケから離れなさい！
     voice "ch16_l_002"
-    l "K-Kirche, get away from him! You stupid dog!{#ch16_l_002}"
+    l "Get away from Kirche, you stupid dog! {#ch16_l_002}"
 
     # [SPRITE   lay5     image=+396, level=160, dir=1A]
     # サイト：……ひいっ！
@@ -109,7 +109,7 @@ label ch16_1_scene_660:
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
     # キュルケ：いいこと、ヴァリエール。
     voice "ch16_k_007"
-    k "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
+    k "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
 
     # [SPRITE   lay6     hide]
     # [BG       stage    hide]
@@ -484,7 +484,7 @@ label ch16_1_scene_665:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：そんなこといったら、俺なんかルイズに
     voice "ch16_s_018"
-    s "If you say that, I've been living off Louise's kindness ever since she summoned me, one way or another.{#ch16_s_018}"
+    s "If you say that, ever since Louise summoned me I've been under this academy's care, one way or another. {#ch16_s_018}"
 
     # ハルナ：平賀くんはルイズさんの使い魔じゃない。
     voice "ch16_ha_002"
@@ -680,7 +680,7 @@ label ch16_1_scene_665:
     # [SPRITE   lay7     image=+986, level=160, dir=2A]
     # ハルナ：まあ、預けるだけですけどね。
     voice "ch16_ha_020"
-    ha "Well, it's not like I'm entrusting him to you… Just don't let that Louise break him.{#ch16_ha_020}"
+    ha "Well, I'm just entrusting him to you… I just hope that Louise-san doesn't break him. {#ch16_ha_020}"
 
     # [SPRITE   lay7     x=-96, y=0]
     # [SPRITE   lay5     image=+429, level=160, dir=2A]

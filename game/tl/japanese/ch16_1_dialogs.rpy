@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Yoohoo~, darling.{#ch16_k_001}"
     new "キュルケ：やっほ～～、ダーリン。"
@@ -15,7 +15,7 @@
     old "N-No, that's not it, but…{#ch16_s_002}"
     new "サイト：そ、そんなことはないんだけど……。"
 
-    old "K-Kirche, get away from him! You stupid dog!{#ch16_l_002}"
+    old "Get away from Kirche, you stupid dog! {#ch16_l_002}"
     new "ルイズ：キュ、キュルケから離れなさい！このバカ犬！"
 
     old "…Eek! S-Sorry, mistress!{#ch16_s_003}"
@@ -42,7 +42,7 @@
     old "Ufufu. Isn't this fun.{#ch16_k_006}"
     new "キュルケ：うふふ。面白いじゃない。"
 
-    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
+    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
     new "キュルケ：いいこと、ヴァリエール。障害が大きいほど、あたしの恋の炎は燃え上がるのよ……？"
 
     old "(Ufufu. If it's come to this, I'll just have to use force.){#ch16_k_008}"
@@ -207,7 +207,7 @@
     old "Well… I can't stay at this academy forever… I thought it was about time I stopped relying on Louise-san and the others.{#ch16_ha_001}"
     new "ハルナ：うん、いつまでもこの学院で……。ルイズさん達の世話になってるのもどうかなって思って。"
 
-    old "If you say that, I've been living off Louise's kindness ever since she summoned me, one way or another.{#ch16_s_018}"
+    old "If you say that, ever since Louise summoned me I've been under this academy's care, one way or another. {#ch16_s_018}"
     new "サイト：そんなこといったら、俺なんかルイズに召喚されて以来、なんだかんだでずっとこの学院のお世話になってるんだけど。"
 
     old "Hiraga-kun is Louise-san's familiar, so of course. But I'm not…{#ch16_ha_002}"
@@ -321,7 +321,7 @@
     old "I don't quite get it, but… Okay.{#ch16_k_037}"
     new "キュルケ：なんか、よく分かんないけど……。分かった。"
 
-    old "Well, it's not like I'm entrusting him to you… Just don't let that Louise break him.{#ch16_ha_020}"
+    old "Well, I'm just entrusting him to you… I just hope that Louise-san doesn't break him. {#ch16_ha_020}"
     new "ハルナ：まあ、預けるだけですけどね。あのルイズさんに壊されたりしないように。"
 
     old "What are you talking about?{#ch16_s_028}"

@@ -846,7 +846,7 @@ label ch21_3_scene_1204:
     # [SPRITE   lay2     image=+489, level=160, dir=1A]
     # シエスタ：もっと、別の方法も考えられたん
     voice "ch21_si_074"
-    si "I keep thinking there must have been another way…{#ch21_si_074}"
+    si "I keep thinking there might have been another way…{#ch21_si_074}"
 
     # [SPRITE   lay2     image=+528, level=160, dir=2A]
     # シエスタ：そう思うと、何だかちょっとやるせない
@@ -1026,7 +1026,7 @@ label ch21_3_scene_1208:
     # [SPRITE   lay5     level=157]
     # デルフリンガー：へっ……。
     voice "ch21_d_018"
-    d "Hah… Don't expect one village girl to be handled by your one arm. Figure it out yourself.{#ch21_d_018}"
+    d "Hah… Just one village girl — handle her with that one arm of yours, I'm telling you. Figure it out yourself.{#ch21_d_018}"
 
     # [SPRITE   lay19    hide]
     # [SPRITE   lay5     image=+396, level=157, dir=1A]

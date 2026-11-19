@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Believe Louise.{#ch12_2_c_527_1}"
     new "ルイズを信じる"

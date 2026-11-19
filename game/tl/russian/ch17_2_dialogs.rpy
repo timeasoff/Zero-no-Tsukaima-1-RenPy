@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "I have a special request for Louise and her familiar. That's why I called you to the castle.{#ch17_h_023}"
     new "У меня особая просьба к Луизе и её фамильяру. Поэтому я и позвала вас в замок."
@@ -87,14 +87,14 @@
     old "My mistress bursts into tears at the slightest thing.{#ch17_s_050}"
     new "Моя госпожа чуть что — сразу в слёзы."
 
-    old "And even if you call her a Void mage, she runs out of magic power instantly.{#ch17_s_051}"
+    old "And even if you call her a Void mage, she runs out of mental energy instantly.{#ch17_s_051}"
     new "И хоть называй её магом Пустоты, она сразу тратит всю психическую энергию."
 
     old "…{#ch17_l_041}"
     new "…"
 
     old "She can't cook or clean at all, and she's hopeless at everyday magic.{#ch17_s_052}"
-    new "Готовить и убирать она совсем не умеет, да и в обычной магии ни на что не годится."
+    new "Готовить и стирать она совсем не умеет, да и в обычной магии ни на что не годится."
 
     old "And yet she's only a prodigy when it comes to eating…{#ch17_s_053}"
     new "И при этом только в еде она настоящий мастер…"
@@ -168,7 +168,7 @@
     old "What's happening to the academy?{#ch17_s_065}"
     new "Что с академией?"
 
-    old "Don't ask me. You were with them the whole time. How would I know?{#ch17_l_050}"
+    old "Don't ask me. You were with Saito the whole time. How would I know? {#ch17_l_050}"
     new "Не спрашивай меня. Ты же всё время был рядом с Сайто. Откуда мне знать?"
 
     old "N-No, I know that. I just… can't stop worrying.{#ch17_s_066}"

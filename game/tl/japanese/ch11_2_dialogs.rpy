@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch11_2: scenes 472-477, 81 dialogue lines)
 
     old "No good. / She's nowhere.{#ch11_s_013}"
@@ -16,7 +16,7 @@
     old "Hiragan-kun! / Why are you in a place like this!?{#ch11_ha_001}"
     new "ハルナ：平賀くん！ / どうしてこんなところに！？"
 
-    old "That's not why you're in a place like this!{#ch11_s_017}"
+    old "That's not 'why are you here'!{#ch11_s_017}"
     new "サイト：どうしてこんなところにじゃないよ！"
 
     old "You suddenly disappear / and everyone's in an uproar!{#ch11_s_018}"
@@ -91,7 +91,7 @@
     old "…{#ch11_s_039}"
     new "サイト：……。"
 
-    old "Besides, Weatherly-san's troupe travels, / but they come to Tristain often, / so…{#ch11_ha_016}"
+    old "Weatherly-san's troupe travels around, but they say they come to Tristain often, so… {#ch11_ha_016}"
     new "ハルナ：それにね、ウェザリーさんの劇団は旅回りだけど、トリスタニアにはよく来るらしいし……。"
 
     old "I can see Hiragan-kun and everyone / anytime… it's okay.{#ch11_ha_017}"

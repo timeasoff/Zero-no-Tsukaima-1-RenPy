@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Akina!{#ch12_s_065}"
     new "サイト：アキナ！"
@@ -168,7 +168,7 @@
     old "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
     new "（もっぱら王宮の皿や壺の破壊活動に従事しているという風の噂だ）"
 
-    old "(Even the Princess, who laughed at first, has lately been clutching her head…){#ch12_s_090}"
+    old "(Even the Princess, who laughed at first, is said to be clutching her head lately…){#ch12_s_090}"
     new "（最初は笑っていたお姫さまも、最近では頭を抱えているらしい……）"
 
     old "(Ah, a ponytail… Which means…){#ch12_s_091}"
@@ -243,7 +243,7 @@
     old "A proposal! A proposal!{#ch12_ak_063}"
     new "アキナ：プロポーズよ、プロポーズ！"
 
-    old "In other words, I love you!{#ch12_ak_064}"
+    old "In other words, you're saying 'I love you' to me!{#ch12_ak_064}"
     new "アキナ：つまり、あなたがわたしにアイラブユーよ。"
 
     old "…{#ch12_s_105}"
@@ -405,7 +405,7 @@
     old "W-What!?{#ch12_ak_076}"
     new "アキナ：な、なによ～～！"
 
-    old "My my, it seems the battle of the sexes has only just begun.{#ch12_h_015}"
+    old "My my, it seems the fight between the women has only just begun.{#ch12_h_015}"
     new "アンリエッタ：あらあら、女の戦いははじまったばかりみたいですね。"
 
     old "Spare me…{#ch12_s_134}"

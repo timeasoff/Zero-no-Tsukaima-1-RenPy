@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Like some happy fairy tale, clicking your heels three times won't take you back to your world.{#ch12_ak_011}"
     new "Как в счастливой сказке — щёлкни каблуками три раза, и ты не сможешь вернуться в прежний мир."
@@ -48,7 +48,7 @@
     old "W-What the hell!?{#ch12_s_036}"
     new "Ч-Что за чёрт!?"
 
-    old "Rushing out to meet Saito without a thought for your own danger, and you two are…?{#ch12_l_033}"
+    old "Rushing out to meet Saito without a thought for my own danger… and what are you two playing at!? {#ch12_l_033}"
     new "Бросилась встречать Сайто, забыв об опасности, а вы двое…"
 
     old "W-What are you two playing at!?{#ch12_l_034}"
@@ -121,7 +121,7 @@
     new "Чтоб такие жалкие твари, как вы, так запросто к ней прикасались — возмутительно!"
 
     old "Hmph, how interesting. However polite you act, in the end it's power that decides.{#ch12_ak_026}"
-    new "Хм, забавно. Как бы ты ни важничала, в конце концов решает сила."
+    new "Хм, забавно. Как бы ты ни изображала светскую даму, в конце концов решает сила."
 
     old "Now, come out!{#ch12_ak_027}"
     new "А ну, выходи!"
@@ -222,7 +222,7 @@
     old "The Void lineage isn't only Explosion.{#ch12_l_057}"
     new "Род Пустоты — не только «Взрыв»."
 
-    old "(True enough. Now that Void is barely known, we can catch the enemy off guard…){#ch12_s_051}"
+    old "…Indeed. Now that the existence of Void is barely known, we could probably catch the enemy off guard… {#ch12_s_051}"
     new "И правда. Сейчас, когда о Пустоте почти никто не знает, мы, небось, сможем застать врага врасплох…"
 
     old "All right, Louise… I mean, mistress, it's in your hands!{#ch12_s_052}"
@@ -247,7 +247,7 @@
     new "Ладно! Будь что будет!"
 
     old "Somehow, you don't look convinced, but I think you understood.{#ch12_l_061}"
-    new "Какого-то ты не выглядишь убеждённым, но, кажется, понял."
+    new "Как-то ты не выглядишь убеждённым, но, кажется, понял."
 
     old "So where are you casting the spell? I didn't bring the Zero Fighter.{#ch12_s_056}"
     new "Так где ты наложишь заклинание? Я не принёс «Зеро-файтер»."
@@ -372,6 +372,6 @@
     old "Shut up. Haruna is Haruna!{#ch12_s_063}"
     new "Заткнись. Харуна — это Харуна!"
 
-    old "I'll think of something, just wait for me! Haruna!{#ch12_s_064}"
+    old "I absolutely will think of something, so wait for me! Haruna! {#ch12_s_064}"
     new "Я обязательно что-нибудь придумаю, только подожди меня! Харуна!"
 

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Ah, perfect! Good, great, perfect, Siesta!{#ch20_s_001}"
     new "Ах, идеально! Хорошо, отлично, великолепно, Сиэста!"
@@ -43,7 +43,7 @@
     new "Ой! Госпожа!"
 
     old "While I looked away for just a moment, you dress the maid up in strange clothes and grin like an idiot. You've got some nerve, Saito.{#ch20_l_002}"
-    new "Стоило мне отвернуться на миг, как ты нарядил горничную в странную одежду и ухмыляешься. Храбрости тебе не занимать, Сайто."
+    new "Пока я на мгновение отвернулась, ты нарядил горничную в странное платье и скалился — ну и наглость у тебя, Сайто…"
 
     old "S-Saito-san! I have some work to do, so excuse me!{#ch20_si_005}"
     new "С-Сайто-сан! Мне пора работать, извините!"
@@ -97,7 +97,7 @@
     new "Э-Э, может, мне даже немного понравится."
 
     old "W-What was that! Treat it as punishment! Be afraid!{#ch20_l_012}"
-    new "Ч-Что ты сказал! Считай это наказанием! Бойся!"
+    new "Ч-Что ты сказал! Скажи, что это наказание! Бойся!"
 
     old "Y-Yes, it's punishment. I'm trembling, trembling, trembling.{#ch20_s_017}"
     new "Д-Да, наказание. Я дрожу, дрожу, дрожу."
@@ -120,8 +120,8 @@
     old "(Punishment, punishment, punishment.){#ch20_s_022}"
     new "Наказание, наказание, наказание."
 
-    old "Hey, what are you muttering about? Hurry up and punish me.{#ch20_l_014}"
-    new "Эй, что ты бормочешь? Быстрее наказывай."
+    old "Hey, what are you muttering about? Hurry up, I'll punish you. {#ch20_l_014}"
+    new "Эй, что ты бормочешь? Давай поскорее накажу тебя."
 
     old "Yeees.{#ch20_s_023}"
     new "Д-дааа."
@@ -217,16 +217,16 @@
     new "Плохо. Пара слишком много, температура растёт. Как в сауне."
 
     old "Hmph, no need for sore-loser talk. Alone with me in the bath, washing my back and all…{#ch20_l_028}"
-    new "Хмп, не нужно оправдываться. Наедине со мной в ванной, да ещё и моешь мне спину…"
+    new "Хмп, хватит рассуждать как проигравшая. Наедине со мной в ванной, да ещё и моешь мне спину…"
 
     old "Not being able to see a thing is painful, isn't it? Frustrating, isn't it? Honestly, it's torture.{#ch20_l_029}"
     new "Ничего не видеть — мука, да? Досадно, да? По чести, это пытка."
 
     old "Well, that's the real purpose of this punishment, though.{#ch20_l_030}"
-    new "Ну, в этом и заключается истинная цель этого наказания."
+    new "Ну, в этом и заключается истинная цель наказания."
 
-    old "If you've learned your lesson, you won't neglect me again.{#ch20_l_031}"
-    new "Если ты усвоишь урок, больше не будешь пренебрегать мной."
+    old "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
+    new "Если усвоишь урок — больше не смей пренебрегать мной, ладно."
 
     old "(My head is spinning. Why is Louise fine with this?){#ch20_s_041}"
     new "У меня голова идёт кругом. Почему Луизе нормально?"
@@ -285,7 +285,7 @@
     old "Eh? What do you mean, becoming independent?{#ch20_s_048}"
     new "А? Что значит — стать самостоятельной?"
 
-    old "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch20_ha_001}"
+    old "Yeah. I can't stay at this academy forever… I've been wondering whether it's right to keep relying on Louise and the others.{#ch20_ha_001}"
     new "Да. Вечно оставаться в этой академии… Я и сама не знаю, правильно ли всё время полагаться на Луизу и остальных."
 
     old "If you say that, then I've been taken care of by this academy ever since Louise summoned me.{#ch20_s_049}"
@@ -313,7 +313,7 @@
     new "Труппу? Ты имеешь в виду труппу Уэзерби?"
 
     old "No. Someone from another troupe who saw that play liked me and scouted me.{#ch20_ha_005}"
-    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, меня и завербовал."
+    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, ей я приглянулась — и завербовала меня."
 
     old "Now's a good chance, so I was thinking of going along with that troupe.{#ch20_ha_006}"
     new "Сейчас как раз удобный случай, и я думаю присоединиться к этой труппе."
@@ -379,7 +379,7 @@
     new "Ну…"
 
     old "And yet you wander away from me during class, and ogle every girl you see.{#ch20_l_045}"
-    new "И при этом ты отлыниваешь от меня на уроках и пялишься на каждую девушку."
+    new "И при этом ты отходишь от меня и бродишь на уроках, пялясь на каждую девушку."
 
     old "And on top of that, you flirt with Siesta and Kirche behind my back! You have far too little awareness as a familiar!{#ch20_l_046}"
     new "А напоследок ещё и флиртуешь с Сиэстой и Кирке у меня за спиной! У тебя куда меньше сознания фамильяра, чем надо!"
@@ -391,7 +391,7 @@
     new "Глоток."
 
     old "First, the chains. And restraints. What else do I need…{#ch20_l_048}"
-    new "Сначала цепи. И наручники. Что ещё понадобится…"
+    new "Сначала цепи. И крепления. Что ещё понадобится…"
 
     old "And let me tell you, I only accept 'yes', 'understood', or 'roger' as a reply.{#ch20_l_049}"
     new "И предупреждаю: в ответ я принимаю только «да», «понял» или «есть»."

@@ -1,10 +1,10 @@
-# translate russian strings:
+translate russian strings:
 
     old "(Once the enemy loses morale and discipline, their units crumble surprisingly easily…){#ch12_s_135}"
     new "Потерявшие боевой дух и порядок вражеские части рассыпаются удивительно легко…"
 
     old "(The units that tried to escape were suppressed one after another and surrendered.){#ch12_s_136}"
-    new "Пытавшиеся прорваться отряды подавляли один за другим, и они сдавались."
+    new "Пытавшиеся прорваться отряды подавлялись один за другим, и они сдавались."
 
     old "(Thus the conspiracy played out in Tristain lowered its curtain at last, leaving deep scars…){#ch12_s_137}"
     new "Так интрига, разыгравшаяся в Тристании, наконец опустила занавес, оставив большие шрамы…"
@@ -52,13 +52,13 @@
     new "Она говорила, что её, дворянку, внезапно лишили титула Тристанинское королевство."
 
     old "Weatherly-sama, whose extraordinary magical talent was recognized by Reconquista…{#ch12_ak_080}"
-    new "Уэзерби-саму, чь необычайную магическую силу признала Реконкиста…"
+    new "Уэзерби-саму, чью необычайную магическую силу признала Реконкиста…"
 
     old "…promised that in return for this operation's success, her noble rank would be restored.{#ch12_ak_081}"
     new "…пообещала, что в награду за успех операции ей вернут дворянский титул."
 
     old "Miss Weatherly didn't understand. That spell of hers, the one that beguiles the hearts of others, is forbidden in this country…{#ch12_h_021}"
-    new "Мисс Уэзерби не знала. Заклинание, что смущает чужие сердца, которым ты и сама пользовалась, в этой стране запрещено…"
+    new "Мисс Уэзерби не понимала: заклинание, что смущает чужие сердца, которым она пользовалась и на тебе тоже, в этой стране запрещено…"
 
     old "…and that very taboo was why her rank was taken from her.{#ch12_h_022}"
     new "…и именно за это её и лишили титула."

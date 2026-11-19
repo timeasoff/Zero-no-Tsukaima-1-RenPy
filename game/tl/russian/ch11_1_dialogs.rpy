@@ -1,8 +1,8 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_1: scenes 467-471, 32 dialogue lines)
     old "Good morning, Saito-san, Miss Varière!{#ch11_si_001}"
     new "Сайто-сан, мисс Вальер. Доброе утро!"
-    old "Ugh, what? It's not even morning yet.{#ch11_s_001}"
+    old "Ugh, what? It's not time to get up yet.{#ch11_s_001}"
     new "Уу, что? Ещё же рано вставать."
     old "What is it, really? Saito…… get out already……{#ch11_l_001}"
     new "Что такое, в самом деле? Сайто… быстрее выходи…"
@@ -39,9 +39,9 @@
     old "O-okay! / Anyway, let's go look!{#ch11_s_008}"
     new "Л-ладно! / Короче, пойдём искать!"
     old "Wh-what! / O-okay! / Let's go look right away!{#ch11_s_009}"
-    new "К-что!? / Л-ладно! / Пойдём искать прямо сейчас!"
+    new "Ч-что!? / Л-ладно! / Пойдём искать прямо сейчас!"
     old "Wh-what? / No need to panic so much.{#ch11_l_004}"
-    new "К-что? / Не нужно так паниковать."
+    new "Ч-что? / Не нужно так паниковать."
     old "Miss Varière……{#ch11_si_009}"
     new "Мисс Вальер…"
     old "O-okay, okay!{#ch11_l_005}"

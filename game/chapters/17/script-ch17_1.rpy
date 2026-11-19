@@ -637,7 +637,7 @@ label ch17_1_scene_675:
 
     # アンリエッタ：そうです。
     voice "ch17_h_011"
-    h "Yes. This can't be coincidence.{#ch17_h_011}"
+    h "Yes. I can't call it mere coincidence. {#ch17_h_011}"
 
     # ルイズ：偶然ではないとしたら、一体……？  [voice 6278]
     voice "ch17_l_020"
@@ -690,7 +690,7 @@ label ch17_1_scene_676:
     # [SPRITE   lay5     image=+396, level=156, dir=1A]
     # サイト：どうした、ルイズ。
     voice "ch17_s_038"
-    s "What, Louise. You look depressed… Maybe I'm wrong?{#ch17_s_038}"
+    s "What, Louise. You look really depressed… Maybe I'm wrong?{#ch17_s_038}"
 
     # [SPRITE   lay1     image=+339, level=155, dir=2A]
     # ルイズ：職人達が呼ばれたのは、事件の後でしょう？
@@ -902,7 +902,7 @@ label ch17_1_scene_680:
 
     # 味方Ａ：現在の位置から推測するに、
     voice "ch17_soldier_007"
-    soldier "At current speed, the fleet will enter Tristain's airspace in a little under two days.{#ch17_soldier_007}"
+    soldier "Judging from their current position, the fleet will enter Tristain's airspace in a little over two days.{#ch17_soldier_007}"
 
     # アンリエッタ：出動可能な部隊は、速やかに砲台の奪還を！
     voice "ch17_h_021"

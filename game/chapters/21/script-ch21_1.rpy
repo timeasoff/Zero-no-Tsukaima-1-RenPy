@@ -69,7 +69,7 @@ label ch21_1_scene_771:
     # [SPRITE   lay6     image=+676, level=160, dir=1A]
     # キュルケ：もっと前向きに考えなさいよ。
     voice "ch21_k_002"
-    k "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
+    k "Look on the bright side. You'll go bald, you know? {#ch21_k_002}"
 
     # [SPRITE   lay1     image=+372, level=160, dir=3A]
     # ルイズ：んなっ……キュルケっ！？  [voice 6543]
@@ -301,7 +301,7 @@ label ch21_1_scene_771:
     # [SPRITE   lay3     image=+889, level=160, dir=2A]
     # ギーシュ：ふん、せっかくのティータイムが台無しだ。
     voice "ch21_g_004"
-    g "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
+    g "Hmph, our tea time is ruined. I've completely lost the mood for it. Let's go, Montmorency.{#ch21_g_004}"
 
     # モンモランシー：ええ！  [voice 4101]
     voice "ch21_m_004"

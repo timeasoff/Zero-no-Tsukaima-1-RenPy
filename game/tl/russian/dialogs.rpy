@@ -16101,7 +16101,7 @@ translate russian strings:
     new "Я дома!"
 
     old "Whew, my legs feel like lead…{#ch6_l_001}"
-    new "Фух, ноги стали как ватные…"
+    new "Фух, ноги прямо деревянные…"
 
     old "Welcome back, Miss Vallière, Saito-san. How did the inquiries go?{#ch6_si_001}"
     new "С возвращением, мадемуазель Вальер, Сайто-сан. Как прошли расспросы?"
@@ -16163,7 +16163,7 @@ translate russian strings:
     old "So what exactly is the reason they're patrolling?{#ch6_l_008}"
     new "И почему же они патрулируют город?"
 
-    old "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    old "They said some important person has gone missing, though I don't know who.{#ch6_k_002}"
     new "Говорят, пропал какой-то важный человек, хотя кто именно — неизвестно."
 
     old "An important person has gone missing…? Who could it be?{#ch6_l_009}"
@@ -16293,7 +16293,7 @@ translate russian strings:
     new "«Сосредоточены» — это ещё мягко сказано. Порядок случайный, но похоже, что они образуют кольцо вокруг дворца."
 
     old "That is far too precise to be coincidence. It must have been deliberate.{#ch6_m_004}"
-    new "Для случайности это слишком точное совпадение. Несомненно, всё было сделано намеренно."
+    new "Для случайности это слишком точно. Похоже, всё-таки это было сделано намеренно, не так ли?"
 
     old "Do you see what I mean? I cannot help thinking that these incidents were not the work of a lone criminal.{#ch6_h_011}"
     new "Теперь вы понимаете? Я не могу отделаться от мысли, что за этими происшествиями стоит не один преступник."
@@ -16389,7 +16389,7 @@ translate russian strings:
     new "Опять за своё… Да, я тоже помогу."
 
     old "Um, I-I cannot do much, but if I can be of help…!{#ch6_si_004}"
-    new "Эм-м, я-я мало на что способна, но если смогу помочь…!"
+    new "Эм-м, я-я ничего не могу, но если чем-то помогу…!"
 
     old "I do not really understand, but if everyone says so…{#ch6_ha_001}"
     new "Я не совсем понимаю, но раз все так говорят…"
@@ -16490,8 +16490,8 @@ translate russian strings:
     old "U-um, it is dangerous to go outside in our current situation, so you should probably give up on the walk…{#ch6_s_037}"
     new "Э-э, в нашей ситуации выходить наружу опасно, так что, пожалуй, лучше отказаться от прогулки…"
 
-    old "A-and if something happens, Louise will…{#ch6_s_038}"
-    new "К тому же, если что-нибудь случится, Луиза…"
+    old "A-and if something happens, I'll have to explain to Louise…{#ch6_s_038}"
+    new "К тому же, если что-нибудь случится, я… Луизе…"
 
     old "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"
     new "С Луизой я сама улажу дело. А теперь пойдёмте."
@@ -16858,7 +16858,7 @@ translate russian strings:
     new "О? Похоже, там кто-то ссорится…"
 
     old "Hey, aren't these dried goods even more expensive than last time?"
-    new "Эй, разве эти сушёности не стали ещё дороже, чем в прошлый раз?"
+    new "Эй, разве эти сушёные продукты не стали ещё дороже, чем в прошлый раз?"
 
     old "What can I do? The army keeps seizing our ships, so our catch just keeps shrinking."
     new "А что я могу поделать? Армия снова отобрала корабли, и улов всё уменьшается."
@@ -16921,7 +16921,7 @@ translate russian strings:
     new "А… Значит, на это можно смотреть и так."
 
     old "Exactly. People say some pretty irresponsible things. The Internet is the same way."
-    new "Именно. Люди часто говорят совершенно безответственные вещи. В интернете то же самое."
+    new "Именно. Люди, знаете ли, довольно безответственное говорят. В интернете то же самое."
 
     old "The Internet?"
     new "В интернете?"
@@ -17014,7 +17014,7 @@ translate russian strings:
     new "Да нет. Я вообще ничего не знаю об этом мире… то есть об этой стране."
 
     old "Ah, now that you mention it, that is true."
-    new "А, точно. Я ведь совсем забыла."
+    new "А, точно. Ты права."
 
     old "Yes?{#ch6_2_d006}"
     new "Да?"
@@ -17196,8 +17196,8 @@ translate russian strings:
     old "I went to see how things were in town. We visited crowded places and listened to what people were saying."
     new "Я ходил посмотреть, как там в городе. Мы побывали в людных местах и послушали, что говорят люди."
 
-    old "I see... So the princess is still wavering in her confidence as queen."
-    new "Понятно… Значит, принцесса всё ещё сомневается в себе как в королеве."
+    old "I wonder… is her confidence as queen still wavering, after all?"
+    new "Интересно… может быть, её уверенность как королевы всё ещё шатается?"
 
     old "Yeah. So I took her to a dining hall to help take her mind off it."
     new "Да. Поэтому я отвёл её в столовую, чтобы она немного отвлеклась."
@@ -17234,7 +17234,7 @@ translate russian strings:
     new "Видите ли, я пришла попросить вас об одной услуге."
 
     old "Something? If there's anything I can do, name it."
-    new "О услуге? Если я могу чем-то помочь — только скажите."
+    new "Об услуге? Если я могу чем-то помочь — только скажите."
 
     old "Oh, that's wonderful. You see, I would like to see the town at night. So I came to ask if you would show me around."
     new "Ах, как хорошо… Я так хотела увидеть ночной город. И я хотела попросить вас показать мне его."
@@ -17258,7 +17258,7 @@ translate russian strings:
     new "А вот я совсем не готов! В основном — морально!"
 
     old "Is that a no?{#ch6_3_d001}"
-    new "Неужели, вы отказываетесь?"
+    new "Неужели вы отказываетесь?"
 
     old "…{#ch6_3_d002}"
     new "…"
@@ -17297,7 +17297,7 @@ translate russian strings:
     new "А какое тебе понравилось, юная леди?"
 
     old "Let me see… this top one, with the delicate craftsmanship, is…"
-    new "Вот, скажем, самый верхний, с тонкой отделкой…"
+    new "Вот, скажем, самое верхнее, с тонкой отделкой…"
 
     old "Princess…{#ch6_3_d004}"
     new "Принцесса…"
@@ -17414,8 +17414,8 @@ translate russian strings:
     old "Yes, that's right.{#ch7_k_006}"
     new "Да, именно так."
 
-    old "I see. So that was the reason I stormed out mid-play faking a fit, too — checking the inside and the surroundings.{#ch7_s_003}"
-    new "Ясно. Значит, и то, что я посреди спектакля нарочно закатил сцену и ушёл, было нужно, чтобы осмотреть театр изнутри и вокруг."
+    old "I see. So that was the reason you stormed out mid-play faking a fit, too — to check the inside and the surroundings. {#ch7_s_003}"
+    new "Ясно. Значит, и то, что ты посреди спектакля нарочно закатила сцену и ушла, было нужно, чтобы осмотреть театр изнутри и вокруг."
 
     old "Exactly. Her Majesty asked me to the moment she arrived, so I did my digging on the side.{#ch7_k_007}"
     new "Именно. Её Величество поручила мне это сразу, как прибыла, вот я и собирала сведения потихоньку."
@@ -17453,7 +17453,7 @@ translate russian strings:
     old "What did you just say!?{#ch7_l_010}"
     new "Что ты сказала!?"
 
-    old "It's because leaving it to you felt too risky.{#ch7_s_008}"
+    old "It's because leaving it to you made me uneasy.{#ch7_s_008}"
     new "Так ведь оставлять это тебе было слишком рискованно."
 
     old "What did you just say!?{#ch7_l_011}"
@@ -17472,13 +17472,13 @@ translate russian strings:
     new "Просто так."
 
     old "Honestly. What is that even supposed to mean, 'no particular reason'?{#ch7_l_013}"
-    new "Извини. «Просто так» — что это вообще значит, «просто так»?"
+    new "Ну! «Просто так» — что это вообще значит, «просто так»?"
 
     old "'No particular reason' is a handy little phrase. Doesn't it make everything sound resolved?{#ch7_s_012}"
-    new "Удобное словечко — «просто так». Разве им не всё объяснить можно?"
+    new "Удобное словечко — «просто так». Разве не кажется, будто всё уладилось?"
 
     old "As if that could resolve anything!{#ch7_l_014}"
-    new "Да ничего им не объяснишь!"
+    new "Да ничего это не решает!"
 
     old "Louise had Louise's role, and I had mine. So please don't take it out on Her Majesty.{#ch7_k_010}"
     new "У Луизы была своя роль, у меня — своя, вот и всё. Так что не вини за это Её Величество."
@@ -17568,7 +17568,7 @@ translate russian strings:
     new "Тогда как делимся?"
 
     old "Given the situation, pairs of two would do fine, no?{#ch7_s_016}"
-    new "Раз уж так вышло, пойдём парами — по двое. Так пойдёт?"
+    new "Раз уж так вышло, пойдём по двое. Так пойдёт?"
 
     old "True enough. Then I'm going with Tabitha.{#ch7_k_017}"
     new "Согласна. Тогда я иду с Табитой."
@@ -17625,7 +17625,7 @@ translate russian strings:
     new "Не могу я отправлять вас всех в опасность, а самой безмятежно оставаться в безопасности."
 
     old "Promise me you won't overdo it. If it gets dangerous, you run. Understood?{#ch7_s_019}"
-    new "Пообещайте, что не будете заходить слишком далеко. Сочтёте опасность — убегайте. Договорились?"
+    new "Пообещайте, что не будете заходить слишком далеко. Если станет опасно — убегайте. Договорились?"
 
     old "Then… that is acceptable, yes?{#ch7_h_012}"
     new "Тогда… на этом условии — хорошо?"
@@ -17694,7 +17694,7 @@ translate russian strings:
     new "Пусть и ночь — но чтобы совсем не чувствовалось вокруг людей…"
 
     old "My, my, look who it is… What brings you here at this late hour?{#ch7_w_001}"
-    new "Какие люди! А я-то думала, кто это… Не поздновато ли гостям?"
+    new "Какие люди! А я-то думала, кто это… Что вы здесь делаете в такой поздний час?"
 
     old "Weatherby!{#ch7_l_034}"
     new "Уэзерби!"
@@ -17834,7 +17834,7 @@ translate russian strings:
     new "Кирхе! И Табита тоже!"
 
     old "I see you both came through unharmed.{#ch7.2_h_002}"
-    new "Вижу, вы оба целы и невредимы."
+    new "Вижу, вы обе целы и невредимы."
 
     old "I'm fine.{#ch7.2_t_001}"
     new "Всё в порядке."
@@ -17924,7 +17924,7 @@ translate russian strings:
     new "А? Это в каком смысле…"
 
     old "Eek!{#ch7.2_l_010}"
-    new "Ай!"
+    new "Ах!"
 
     old "What was that!? Where did it explode!?{#ch7.2_s_013}"
     new "Что это было!? Где взорвалось!?"
@@ -18041,7 +18041,7 @@ translate russian strings:
     new "Реконкиста!?"
 
     old "Well, well, Your Highness. So it finally got through to you? But it is already too late.{#ch7.2_w_004}"
-    new "Ну-ну, ваше высочество. Наконец-то дошло? Но уже слишком поздно."
+    new "Ну-ну, Ваше Высочество. Наконец-то дошло? Но уже слишком поздно."
 
     old "Seen in the morning light it would be perfectly plain, but I'll tell you while it's still dark: I have installed cannon batteries at the sites in every district.{#ch7.2_w_005}"
     new "Поутру это видно будет как на ладони, но я расскажу вам заранее, пока темно: я установила пушечные батареи на площадках в каждом районе."
@@ -18155,8 +18155,8 @@ translate russian strings:
     old "Settle down, Louise. You can surely imagine how lonely Siesta must have felt, can't you?{#ch7.3_k_001}"
     new "Успокойся, Луиза. Ты же понимаешь, как ей было страшно в одиночестве!"
 
-    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
-    new "Знаю. Да даже я не настолько бестактна. Просто бесит его глупое жалкое слюнявое лицо!"
+    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic, lovesick face that sets me off, that's all!{#ch7.3_l_005}"
+    new "Я понимаю. Ну до такого я всё-таки не груба. Просто бесит его глупое жалкое влюблённо-томное лицо!"
 
     old "Jealousy.{#ch7.3_t_001}"
     new "Ревность."
@@ -18207,10 +18207,10 @@ translate russian strings:
     new "А тем временем мы сами с Уэзерби и Акиной разберёмся. Пусть ответят как следует."
 
     old "That's right. They looked down on us, and that has to be paid for.{#ch7.3_k_003}"
-    new "Именно. Они нас недооценили — придётся это отплатить."
+    new "Именно. Они нас недооценили — за это придётся отплатить."
 
     old "So in the end, there was nothing at all that I could manage, was there.{#ch7.3_h_003}"
-    new "В итоге выходит, я так совершенно ничего и не смогла, да?"
+    new "В итоге выходит, я так ничего и не смогла, да?"
 
     old "I'm sorry, Princess. Our investigation couldn't quite keep up.{#ch7.3_s_013}"
     new "Простите, принцесса. Наше расследование не поспевало."
@@ -18218,7 +18218,7 @@ translate russian strings:
     old "No — if you consider how this whole affair began, it was because I was still green as a queen.{#ch7.3_h_004}"
     new "Нет, если вспомнить самое начало — это потому, что я как королева была ещё незрелой."
 
-    old "And because of that, I gave the nobles within our realm the opening they needed to sway them.{#ch7.3_h_005}"
+    old "And because of that, I gave them the opening they needed to win over the nobles within our realm. {#ch7.3_h_005}"
     new "Из-за этого я и дала им шанс переманить дворян нашей страны на свою сторону."
 
     old "None of that is something you need to brood over, Princess.{#ch7.3_s_014}"
@@ -18251,7 +18251,7 @@ translate russian strings:
     old "Princess? I'm coming in.{#ch7.3_s_015}"
     new "Принцесса? Вхожу."
 
-    old "Ah… my familiar…{#ch7.3_h_008}"
+    old "Ah… the familiar… {#ch7.3_h_008}"
     new "Ах… фамильяр…"
 
     old "You're awake after all, I see.{#ch7.3_s_016}"
@@ -18264,7 +18264,7 @@ translate russian strings:
     new "Из-за размышлений?"
 
     old "Yes. Every time I catch myself, I begin to think it over. This entire incident was, in the end, all my…{#ch7.3_h_010}"
-    new "Да. Стоит остаться одной — и начинаю думать. Всё это происшествие целиком и полностью моя…"
+    new "Да. Стоит остаться одной — и начинаю думать. Всё это происшествие целиком моя…"
 
     old "…that it was a blunder of my own making, I can't help but think. And when I think of that…{#ch7.3_h_011}"
     new "…не моя ли вина? Стоит об этом подумать…"
@@ -18278,7 +18278,7 @@ translate russian strings:
     old "Princess…{#ch7.3_s_019}"
     new "Принцесса…"
 
-    old "Please take care of yourself.{#ch7.3_s_020}"
+    old "Please take better care of yourself.{#ch7.3_s_020}"
     new "Пожалуйста, цените себя."
 
     old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
@@ -18327,7 +18327,7 @@ translate russian strings:
     new "Именно. Говорят, в рисе живут семь богов. Недоеденный обед оставлять нельзя."
 
     old "You are… rather sturdy in spirit, aren't you. I suppose that kind of strength of heart… is something I lack.{#ch7.3_h_020}"
-    new "Вы… довольно крепки духом. Мне такой силы сердца… как раз и не хватает."
+    new "Вы, кажется… довольно крепки духом. Мне бы, наверное, такой силы сердца… как раз и не хватило."
 
     old "I know full well that thinking about it serves no purpose. And yet the regret… yes, the regret — even once I push it away, it comes floating back afterward.{#ch7.3_h_021}"
     new "Я понимаю, что думать об этом бесполезно. Но сожаление… да, именно сожаление — сколько его ни гони, оно потом выныривает снова."
@@ -18347,7 +18347,7 @@ translate russian strings:
     old "Princess…{#ch7.3_s_030}"
     new "Принцесса…"
 
-    old "My familiar…!{#ch7.3_h_025}"
+    old "The familiar…! {#ch7.3_h_025}"
     new "Фамильяр…!"
 
     old "P-Princess. If anyone saw me like this, I dread to think what Louise would say…{#ch7.3_s_031}"

@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "So, everyone knows the plan, right?{#ch19_l_214}"
     new "ルイズ：それじゃみんな、手筈は分かってるわね？"
@@ -81,13 +81,13 @@
     old "What's that? Don't you trust me? That hurts a little.{#ch19_s_292}"
     new "サイト：なんだよ、俺ってそんなに信用されてないのか？ちょっと傷つくなぁ。"
 
-    old "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
+    old "N-No, that's not it… It's not that I don't trust you, I just… {#ch19_l_230}"
     new "ルイズ：ち、違うっ……。信用してないわけじゃない、わたしはっ……。"
 
     old "Oh, Louise. Are you worried about darling?{#ch19_k_051}"
     new "キュルケ：あらルイズ、もしかしてダーリンのことが心配なの？"
 
-    old "W-What… It's only natural to worry about your own familiar.{#ch19_l_231}"
+    old "W-What… It's not as if worrying about your own familiar is a sin, is it?{#ch19_l_231}"
     new "ルイズ：な、なによ……。自分の使い魔のことを心配したってバチは当たらないでしょ。"
 
     old "What are you talking about, Louise? I'm more worried about you.{#ch19_s_293}"
@@ -102,7 +102,7 @@
     old "Agitation.{#ch19_t_036}"
     new "タバサ：動揺。"
 
-    old "N-No I'm not! Just because the master showed a little concern for his familiar doesn't mean I'm pleased!{#ch19_l_233}"
+    old "N-No I'm not! Just because mistress showed a little concern for her familiar doesn't mean I'm pleased!{#ch19_l_233}"
     new "ルイズ：ち、違うわよ！ご主人様が、使い魔をちょっと気遣ったからって、いい気になっちゃって！"
 
     old "It'll be fine. I'm sure we'll manage somehow.{#ch19_s_294}"

@@ -653,7 +653,7 @@ label ch8_2:
             $ show_sprites(("s 1", "h 2"))
             # → next scene 425
             # Часть 2 заканчивается: сцена 425 — в script-ch8_3.rpy.
-            jump ch8_3
+            jump ch8_3_425
 
         "Affirm with all force.{#ch8_c008}":
             # JA: 全力で肯定する
@@ -696,7 +696,7 @@ label ch8_2:
             $ show_sprites(("s 1", "h 2"))
             # → next scene 425
             # Часть 2 заканчивается: сцена 425 — в script-ch8_3.rpy.
-            jump ch8_3
+            jump ch8_3_425
 
         "Go all-out youthful.{#ch8_c009}":
             # JA: 全力で青春する

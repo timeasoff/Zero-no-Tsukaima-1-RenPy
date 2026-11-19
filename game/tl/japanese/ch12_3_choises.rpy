@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Is it really Akina's wish?{#ch12_3_c_539_1}"
     new "ホントはアキナの望み？"

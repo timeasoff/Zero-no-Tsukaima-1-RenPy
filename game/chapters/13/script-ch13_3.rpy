@@ -246,7 +246,7 @@ label ch13_3_scene_572:
     # [SPRITE   lay6     image=+676, level=160, dir=1A]
     # キュルケ：『火』の属性の魔法使いとして……。
     voice "ch13_k_102"
-    k "As a mage of the 'fire' attribute… by the name of Kirche with a slight fever…{#ch13_k_102}"
+    k "As a mage of the 'fire' attribute… I stake my name — Kirche of the Slight Fever — on it…{#ch13_k_102}"
 
     # [SPRITE   lay6     image=+709, level=160, dir=2A]
     # キュルケ：『本当の火の使い方』というものを

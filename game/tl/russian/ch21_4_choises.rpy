@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Tease her{#ch21_4_c_1493_1}"
     new "Подразнить её"

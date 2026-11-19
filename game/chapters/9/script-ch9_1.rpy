@@ -127,7 +127,7 @@ label ch9:
     $ show_sprites(("s 1 sad", "h 2 happy"))
     # アンリエッタ：いやですわ。 / 本物ですよ？ / ちょっとだけ……抜け出してきましたの。  [voice 263]
     voice "ch9_h_003"
-    h "No. / I'm the real one? / I just… snuck out a little. {#ch9_h_003}"
+    h "No. I'm the real one, you know? I just… snuck out a little. {#ch9_h_003}"
     # JA[263]: アンリエッタ：いやですわ。 / 本物ですよ？ / ちょっとだけ……抜け出してきましたの。
     # [SPRITE lay5 image=+429 → s 3 sad]
     $ show_sprites(("s 3 sad", "h 2 happy"))
@@ -169,7 +169,7 @@ label ch9:
     $ show_sprites(("s 3 sad", "h 2 happy"))
     # アンリエッタ：そうですねえ、 / 銃士隊あたりに知られたら大変怒ると思います。  [voice 267]
     voice "ch9_h_007"
-    h "I suppose so. / The Musketeers would surely be furious. {#ch9_h_007}"
+    h "I suppose so. / I think the Musketeers would be very angry. {#ch9_h_007}"
     # JA[267]: アンリエッタ：そうですねえ、 / 銃士隊あたりに知られたら大変怒ると思います。
     # [SPRITE lay5 image=+394 → s 1 angry]
     $ show_sprites(("s 1 angry", "h 2 happy"))
@@ -436,7 +436,7 @@ label ch9:
     # JA[9305]: サイト：そんなこといったら、俺なんかルイズに / 召喚されて以来、なんだかんだでずっと / この学院のお世話になってるんだけど。
     # ハルナ：平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。  [voice 1827]
     voice "ch9_ha_002"
-    ha "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
+    ha "But you're Louise's familiar, Saito — of course you're taken care of. But I'm not… {#ch9_ha_002}"
     # JA[1827]: ハルナ：平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。
     # [SPRITE lay5 image=+390 → s 1]
     $ show_sprites(("s 1", "ha 1"))
@@ -575,7 +575,7 @@ label ch9:
     $ show_sprites(("h 2 sad", "s 1"))
     # アンриетта：それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。  [voice 452]
     voice "ch9_h_026"
-    h "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
+    h "Besides, I can't reward everyone for what they've done, / which pains me most of all. {#ch9_h_026}"
     # JA[452]: アンриетта：それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。
     # [SPRITE lay5 hide]
     # [SPRITE lay1 image=+304 → l 1 happy]
@@ -651,7 +651,7 @@ label ch9:
     $ dissolve_fx("id(293)", type="cg")
     # ルイズ：え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！  [voice 4888]
     voice "ch9_l_006"
-    l "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
+    l "Eh… ee-?! P-Princess! A k-k-k-k-k-kiss! Such a thing, no! {#ch9_l_004}"
     # JA[4888]: ルイズ：え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！
     # ルイズ：しかも……。 / 唇に……。  [voice 4889]
     voice "ch9_l_007"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Ugh…{#ch15_s_001}"
     new "Фух…"
@@ -49,7 +49,7 @@
     new "Ууу… Я совсем не помню подробностей…"
 
     old "Buuu! Boring. Tonight, dream of Kirche!{#ch15_k_009}"
-    new "Бууу! Скучно. Сегодня снись Кирке!"
+    new "Бууу! Скучно. Сегодня увидь сон про Кирке!"
 
     old "Hahaha. Sorry, sorry.{#ch15_s_009}"
     new "Ха-ха-ха. Прости, прости."
@@ -79,7 +79,7 @@
     new "Т-Точно! Главное!"
 
     old "Wouldn't it be terrible if Louise found us like this!?{#ch15_s_015}"
-    new "Что будет, если Луиза увидит нас таких!?"
+    new "Беда будет, если Луиза увидит нас таких!"
 
     old "If that happened…{#ch15_s_016}"
     new "Если бы это случилось…"
@@ -120,11 +120,11 @@
     old "Really, are you actually Kirche?{#ch15_l_005}"
     new "Ну же, ты и правда Кирке?"
 
-    old "…It was a rough night.{#ch15_m_001}"
-    new "…Тяжёлая была ночь, да?"
+    old "…You've had a rough time.{#ch15_m_001}"
+    new "…Ты натерпелся."
 
     old "Honestly, why does this keep happening to me…{#ch15_s_021}"
-    new "О-Оу!"
+    new "Чёрт, почему именно мне всё это выпадает…"
 
     old "Say, Montmon. How's the medicine for Kirche's suggestion coming along?{#ch15_s_022}"
     new "Слушай, Монмон. Как дела с лекарством от гипнотического внушения Кирке?"

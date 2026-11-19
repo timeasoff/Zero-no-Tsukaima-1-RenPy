@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Pray to heaven{#ch16_1_c_660_1}"
     new "Помолиться небу"

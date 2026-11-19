@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Akina!{#ch12_s_065}"
     new "Акина!"
@@ -145,7 +145,7 @@
     new "Слава богу… Битва окончена… наконец."
 
     old "Ah… Louise, get some rest. Void takes a lot of mental energy, doesn't it?{#ch12_s_083}"
-    new "Аа… Луиза, отдохни. Пустота отнимает много сил, правда?"
+    new "Аа… Луиза, отдохни. Пустота отнимает много умственной энергии, правда?"
 
     old "Mm, I will. Phew… I'm a little… tired.{#ch12_l_076}"
     new "Мм, да. Фух… Я немножко… устала."
@@ -163,13 +163,13 @@
     new "Запутанно как-то."
 
     old "(Officially, Haruna became a palace maid. While acting as Akina's garden keeper, she resumed her maid training…){#ch12_s_088}"
-    new "Официально Харуна стала горничной дворца. Исполняя обязанности садовницы при Акине, она возобновила обучение горничной…"
+    new "Официально Харуна стала горничной дворца. Исполняя в образе Акины обязанности садовницы, она возобновила обучение горничной…"
 
     old "(Rumor has it she spends most of her time destroying palace plates and vases…){#ch12_s_089}"
     new "Говорят, она в основном занята тем, что бьёт дворцовые тарелки и вазы…"
 
-    old "(Even the Princess, who laughed at first, has lately been clutching her head…){#ch12_s_090}"
-    new "Даже принцесса, что сначала смеялась, в последнее время держится за голову…"
+    old "(Even the Princess, who laughed at first, is said to be clutching her head lately…){#ch12_s_090}"
+    new "Даже принцесса, что сначала смеялась, по слухам, в последнее время держится за голову…"
 
     old "(Ah, a ponytail… Which means…){#ch12_s_091}"
     new "А, хвостик… Значит…"
@@ -243,7 +243,7 @@
     old "A proposal! A proposal!{#ch12_ak_063}"
     new "Предложение! Предложение!"
 
-    old "In other words, I love you!{#ch12_ak_064}"
+    old "In other words, you're saying 'I love you' to me!{#ch12_ak_064}"
     new "Иными словами — ты любишь меня!"
 
     old "…{#ch12_s_105}"
@@ -259,7 +259,7 @@
     new "Нет, дело не в этом. Акина по-прежнему слишком странная…"
 
     old "…Idiot! That's why Louise calls you a stupid dog.{#ch12_ak_065}"
-    new "…Непроницательный! Поэтому Луиза и зовёт тебя глупым пёсом."
+    new "…Бестолковый! Поэтому Луиза и зовёт тебя глупым пёсом."
 
     old "All right, listen…{#ch12_ak_066}"
     new "Ладно, слушай…"
@@ -268,7 +268,7 @@
     new "Х-Харуне нравится Хирага-кун… то есть Сайто. Поэтому она так верно ждёт."
 
     old "For you… for Saito to propose 'marriage'.{#ch12_ak_068}"
-    new "Пока ты… Сайто не предложишь ей «женитьбу»."
+    new "Чтобы ты… Сайто предложил мне «женитьбу»."
 
     old "T-That's quite a joke.{#ch12_s_109}"
     new "Т-Что за шутка такая."
@@ -292,7 +292,7 @@
     new "Харуна раньше говорила, что она юная леди. Может, это правда?"
 
     old "(Something's been off since a while ago…){#ch12_s_114}"
-    new "Что-то не так уже давно…"
+    new "Что-то не так с недавних пор…"
 
     old "(Ah, now that I think of it… Akina or Haruna…){#ch12_s_115}"
     new "А, кстати… Акина или Харуна…"
@@ -405,7 +405,7 @@
     old "W-What!?{#ch12_ak_076}"
     new "Ч-Что!?"
 
-    old "My my, it seems the battle of the sexes has only just begun.{#ch12_h_015}"
+    old "My my, it seems the fight between the women has only just begun.{#ch12_h_015}"
     new "Ой-ой, кажется, женская битва только начинается."
 
     old "Spare me…{#ch12_s_134}"

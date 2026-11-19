@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Come on, let's go! The castle's high ground is our goal!{#ch15_l_084}"
     new "Ну же, идём! Нам нужна высота замка!"
@@ -73,13 +73,13 @@
     new "Не твоё дело."
 
     old "Thanks to some middle-aged woman showing us nothing but boring flames, I couldn't even sleep properly.{#ch15_k_047}"
-    new "Благодаря этим старух, которые показывали только скучные пожары, я даже поспать как следует не смогла."
+    new "Благодаря каким-то дамам не первой молодости, которые показывали только скучные пожары, я даже поспать как следует не смогла."
 
     old "Oh, and who might this 'middle-aged woman' be?{#ch15_w_005}"
     new "Ой, а кто же эта «стареющая женщина»?"
 
     old "Weatherly-sama, of course.{#ch15_ak_026}"
-    new "Правда, Уэзерби-сама?"
+    new "Имеете в виду Уэзерби-саму, да?"
 
     old "How rude. Age doesn't matter to an actor.{#ch15_w_006}"
     new "Надоело. Для актрисы возраст не важен."
@@ -88,7 +88,7 @@
     new "Последний акт. Похоже, актёры хотят обагрить его кровью."
 
     old "Fine. Then let them spill as much blood as they like!{#ch15_w_008}"
-    new "Хорошо. Пусть прольют столько крови, сколько хотите!"
+    new "Хорошо. Пусть прольют столько крови, сколько хотят!"
 
     old "Here I go! I won't let them interfere with Louise!{#ch15_s_109}"
     new "Я начинаю! Не дам помешать Луизе!"
@@ -117,7 +117,7 @@
     old "What is this! Tristain—no, no country in Halkeginia has a fleet like that…!?{#ch15_w_010}"
     new "Что это! Тристания — нет, ни одна страна в Халкегинии не имеет такого флота…!?"
 
-    old "(So that's what Louise wanted. That fleet must be an illusion… something Void created…){#ch15_s_112}"
+    old "(So that's what Louise wanted. That fleet must be an illusion… something Louise created with Void…){#ch15_s_112}"
     new "Так вот что хотела Луиза. Этот флот — иллюзия… то, что Луиза создала силой Пустоты…"
 
     old "Weatherly-sama, our fleet is retreating!{#ch15_ak_028}"
@@ -145,7 +145,7 @@
     new "Чего ты колеблешься? Или хочешь, чтобы я бросилась с башни, как в том спектакле?"
 
     old "Tch… No. I can't let her die.{#ch15_s_115}"
-    new "Тьфу… Нет. Не могу я её убить."
+    new "Тьфу… Нет. Я не дам ей умереть."
 
     old "(There's no way I could cut down a girl!){#ch15_s_116}"
     new "Я не смогу зарубить девушку!"

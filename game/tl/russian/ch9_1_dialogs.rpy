@@ -2,10 +2,10 @@
 translate russian strings:
 
     old "Hah… / It's been a while since then, / but Louise is still holding a grudge. {#ch9_s_001}"
-    new "Фу-у… / Прошло уже немало времени, / а Луиза всё ещё дуется."
+    new "Фу-у… / Прошло уже немало времени, / а Луиза всё ещё таит на меня зло."
 
     old "I said it was involuntary, the Princess's kiss… {#ch9_s_002}"
-    new "Я же говорю: этот поцелуй принцессы — чистая случайность…"
+    new "Я же говорю: поцелуй принцессы — я не мог ничего поделать…"
 
     old "Come to think of it, what's the Princess up to now? / Is she working hard? {#ch9_s_003}"
     new "Кстати, интересно, как там сейчас принцесса? / Работает вовсю?"
@@ -34,7 +34,7 @@ translate russian strings:
     old "Um, Princess, are you real? {#ch9_s_011}"
     new "Э-э, принцесса, вы настоящая?"
 
-    old "No. / I'm the real one? / I just… snuck out a little. {#ch9_h_003}"
+    old "No. I'm the real one, you know? I just… snuck out a little. {#ch9_h_003}"
     new "Как это нет. / Я самая настоящая. / Я лишь… на минутку ускользнула."
 
     old "Just a little?! / Wouldn't the royal palace be in an uproar?! {#ch9_s_012}"
@@ -58,8 +58,8 @@ translate russian strings:
     old "By the way, if someone saw me / talking with you like this, / what would happen? {#ch9_s_015}"
     new "Кстати, если кто-то увидит, / как я вот так с вами разговариваю, / что будет?"
 
-    old "I suppose so. / The Musketeers would surely be furious. {#ch9_h_007}"
-    new "Пожалуй, да. / Мушкетёры бы наверняка разгневались."
+    old "I suppose so. / I think the Musketeers would be very angry. {#ch9_h_007}"
+    new "Пожалуй, да. / Думаю, мушкетёры бы очень разгневались."
 
     old "I'm an evildoer?! {#ch9_s_016}"
     new "Я — злодей?!"
@@ -68,7 +68,7 @@ translate russian strings:
     new "Значит, всё-таки нельзя, чтобы нас видели?"
 
     old "Sorry, I thought you were helping me, / but please be more discreet. {#ch9_s_017}"
-    new "Простите, я думал, вы мне помогаете, / но, пожалуйста, ведите себя поосторожнее."
+    new "Простите, я думал, вы мне помогаете, / но, пожалуйста, будьте осторожнее — чтобы никто не заметил."
 
     old "Understood. / So I should come secretly? {#ch9_h_009}"
     new "Понимаю. / Значит, надо приходить тайком?"
@@ -184,11 +184,11 @@ translate russian strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "Ну, меня же Луиза призвала, / вот и обо мне тут с тех пор всё время заботились."
 
-    old "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
-    new "Сайто — не фамильяр Луизы. / То, что о нём заботятся, — само собой разумеется. / А я — не то…"
+    old "But you're Louise's familiar, Saito — of course you're taken care of. But I'm not… {#ch9_ha_002}"
+    new "Сайто — фамильяр Луизы, да? Вот и заботятся о нём. А я — нет…"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
-    new "Ну, это да… / Но мы ведь, наверное, единственные японцы / в этом мире, нас всего двое."
+    new "Ну, это да… / Но мы ведь, наверное, единственные японцы / в этом мире — нас двое."
 
     old "Besides, we're not strangers to each other. / So maybe I should work here… {#ch9_s_043}"
     new "К тому же мы друг другу не чужие. / Так что, может, мне стоит здесь работать…"
@@ -247,7 +247,7 @@ translate russian strings:
     old "I wanted to thank and apologize to her, / but she's already left. {#ch9_h_025}"
     new "Я хотела поблагодарить её и извиниться, / но она уже ушла. Ничего не поделаешь."
 
-    old "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
+    old "Besides, I can't reward everyone for what they've done, / which pains me most of all. {#ch9_h_026}"
     new "К тому же самое горькое — то, что я не могу / вознаградить старания каждого."
 
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"
@@ -263,7 +263,7 @@ translate russian strings:
     new "Я тоже не против. / Я понимаю ситуацию."
 
     old "Then I feel sorry myself. {#ch9_h_027}"
-    new "Тогда мне будет неловко."
+    new "Тогда мне будет горько."
 
     old "At least for you, my familiar, / I'd like to offer / what I can do for you personally. {#ch9_h_028}"
     new "По крайней мере вам, мой фамильяр, / я хотела бы предложить / то, что могу сделать для вас лично."
@@ -277,8 +277,8 @@ translate russian strings:
     old "Huh? {#ch9_s_055}"
     new "А?"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
-    new "Э… э-э-э?! / П-п-принцесса целует вас?!"
+    old "Eh… ee-?! P-Princess! A k-k-k-k-k-kiss! Such a thing, no! {#ch9_l_004}"
+    new "Э… э-э-э?! / П-принцесса! К-к-к-к-к-поцелуй?! Не может быть, нет!"
 
     old "And… / on the lips… {#ch9_l_005}"
     new "И ещё… / в губы…"
@@ -311,7 +311,7 @@ translate russian strings:
     new "Ах, Луиза."
 
     old "Hey, Princess. / I'd appreciate it if you / didn't tease my familiar. {#ch9_d_001}"
-    new "Эй, принцесса. / Был бы признателен, / если бы ты не дразнила моего фамильяра."
+    new "Эй, принцесса. / Был бы признателен, / если бы ты не дразнила моего напарника."
 
     old "Oh. / I wasn't teasing. {#ch9_h_032}"
     new "О. / Я вовсе не дразнила."

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "So, everyone knows the plan, right?{#ch19_l_214}"
     new "Итак, все помнят план?"
@@ -81,13 +81,13 @@
     old "What's that? Don't you trust me? That hurts a little.{#ch19_s_292}"
     new "Что это? Ты мне не доверяешь? Мне немного обидно."
 
-    old "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
+    old "N-No, that's not it… It's not that I don't trust you, I just… {#ch19_l_230}"
     new "Н-Нет, не то… Я же не то чтобы не доверяю… просто…"
 
     old "Oh, Louise. Are you worried about darling?{#ch19_k_051}"
     new "О, Луиза. Неужто ты волнуешься за дорогого?"
 
-    old "W-What… It's only natural to worry about your own familiar.{#ch19_l_231}"
+    old "W-What… It's not as if worrying about your own familiar is a sin, is it?{#ch19_l_231}"
     new "Ч-Что… Волноваться за своего фамильяра — ничего дурного, правда?"
 
     old "What are you talking about, Louise? I'm more worried about you.{#ch19_s_293}"
@@ -102,7 +102,7 @@
     old "Agitation.{#ch19_t_036}"
     new "Волнение."
 
-    old "N-No I'm not! Just because the master showed a little concern for his familiar doesn't mean I'm pleased!{#ch19_l_233}"
+    old "N-No I'm not! Just because mistress showed a little concern for her familiar doesn't mean I'm pleased!{#ch19_l_233}"
     new "Н-Нет! Просто госпожа немного позаботилась о фамильяре — и это не значит, что я довольна!"
 
     old "It'll be fine. I'm sure we'll manage somehow.{#ch19_s_294}"
@@ -205,7 +205,7 @@
     new "Да-да. До встречи, дорогой, Табаса."
 
     old "You're a cocky familiar who doesn't listen to your mistress!{#ch19_l_246}"
-    new "Ты дерзкий непослушный фамильяр, который не слушает госпожу!"
+    new "Ты дерзкий фамильяр, который не слушает госпожу!"
 
     old "So once the academy is back to normal and the capital is saved, I'm going to re-educate you, absolutely!{#ch19_l_247}"
     new "Так что когда академия вернётся в норму и столица будет спасена, я тебя непременно перевоспитаю!"
@@ -292,7 +292,7 @@
     new "Бедный дорогой — с такой свирепой госпожой, как Луиза."
 
     old "You know what Louise is like. She'll throw darling out of her room, skip his meals, and mistreat him.{#ch19_k_068}"
-    new "Ты знаешь Луизу. Выгонит дорогого из комнаты, лишит еды, будет обижать его."
+    new "Ты знаешь Луизу. Выгонит дорогого из комнаты, лишит еды, будет жестоко обращаться с ним."
 
     old "Ah, poor darling…{#ch19_k_069}"
     new "Ах, бедный дорогой…"

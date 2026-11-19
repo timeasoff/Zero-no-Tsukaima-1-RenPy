@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(I found a few small leads, but nothing really important…){#ch13_s_100}"
     new "（小さな情報はいくつかあったけど、あまり重要な情報は集められないなぁ）"
@@ -81,7 +81,7 @@
     old "They see fire only as a tool for destruction. I hate the way they do things.{#ch13_k_101}"
     new "キュルケ：火というものを、単純な破壊の道具としか認識していない。そんな爆弾使い達のやり方が嫌いなの。"
 
-    old "As a mage of the 'fire' attribute… by the name of Kirche with a slight fever…{#ch13_k_102}"
+    old "As a mage of the 'fire' attribute… I stake my name — Kirche of the Slight Fever — on it…{#ch13_k_102}"
     new "キュルケ：『火』の属性の魔法使いとして……。微熱のキュルケの名に賭けて……。"
 
     old "…I have to teach them the 'true way to use fire'.{#ch13_k_103}"

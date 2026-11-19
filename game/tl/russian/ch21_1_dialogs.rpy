@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(A few days have passed since the play ended. Suddenly, the bomber stopped showing up.){#ch21_s_001}"
     new "Прошло несколько дней с тех пор, как закончился спектакль. И вдруг бомбист перестал появляться."
@@ -21,7 +21,7 @@
     old "What was that!?{#ch21_l_003}"
     new "Что ты сказала!?"
 
-    old "Look on the bright side. You'll go bald from worrying.{#ch21_k_002}"
+    old "Look on the bright side. You'll go bald, you know? {#ch21_k_002}"
     new "Смотри на вещи позитивнее. Лысеешь, да?"
 
     old "Wha—! Kirche!?{#ch21_l_004}"
@@ -100,7 +100,7 @@
     new "П-Простите, мне очень жаль!!"
 
     old "Oh no. Did you burn yourself, Montmorency?{#ch21_g_003}"
-    new "Ох. Ты не обожглася, Монморанси?"
+    new "Ох. Ты не обожглась, Монморанси?"
 
     old "Really, my uniform is ruined.{#ch21_m_002}"
     new "Ну всё, форма испорчена."
@@ -123,7 +123,7 @@
     old "Ah… No, really, Saito-san, apologizing… It's my carelessness, so… I'm sorry!{#ch21_si_012}"
     new "Ах… Нет, правда, Сайто-сан, извиняйте… Это моя невнимательность, так что… простите!"
 
-    old "Hmph, our tea time is ruined. I've lost all my appetite. Let's go, Montmorency.{#ch21_g_004}"
+    old "Hmph, our tea time is ruined. I've completely lost the mood for it. Let's go, Montmorency.{#ch21_g_004}"
     new "Хмф, наш чай испорчен. Настроение испорчено. Идём, Монморанси."
 
     old "Right!{#ch21_m_004}"
@@ -139,7 +139,7 @@
     new "Да…"
 
     old "But I… I've decided to take a few days off starting tomorrow.{#ch21_si_015}"
-    new "Но я… я решила на несколько дней взять отпуск начиная с завтрашнего дня."
+    new "Но я… я решила на несколько дней взять отпуск, начиная с завтрашнего дня."
 
     old "Eh!? Why?{#ch21_s_017}"
     new "А!? Почему?"
@@ -148,13 +148,13 @@
     new "Дело в том, что с тех пор, как я вернулась в академию, я всё это время была такой."
 
     old "They told me to refrain from my maid duties until I calm down.{#ch21_si_017}"
-    new "Мне сказали пока не исполнять обязанности горничной, пока я не успокоюсь."
+    new "Мне сказали не исполнять обязанности горничной, пока я не успокоюсь."
 
     old "So I was thinking of going back to my family home to settle my mind a little.{#ch21_si_018}"
     new "И я подумывала вернуться домой, чтобы немного успокоиться."
 
     old "No way… Telling you to take time off is going too far.{#ch21_s_018}"
-    new "Не может быть… Просить тебя взять отпуск — слишком."
+    new "Не может быть… Просить тебя взять отпуск — это уже слишком."
 
     old "It's because I'm so inept…{#ch21_si_019}"
     new "Это из-за моей неопытности…"
@@ -211,7 +211,7 @@
     new "Как насчёт того, чтобы стать горничной Кирке?"
 
     old "Don't be ridiculous!! That's out of the question!{#ch21_l_008}"
-    new "Это не шутка!! Об этом не может быть и речи!"
+    new "Да вы что!! Ни в коем случае!!"
 
     old "W-Why? If our place won't do, then what else can we do?{#ch21_s_028}"
     new "П-Почему? Если у нас не выходит, что же ещё делать?"
@@ -319,7 +319,7 @@
     new "Луиза, ты куда-то идёшь?"
 
     old "Could you come with me for a bit, Saito and Haruna?{#ch21_l_018}"
-    new "Не могли бы вы со мной на время, Сайто и Харуна?"
+    new "Не могли бы вы составить мне компанию, Сайто и Харуна?"
 
     old "Me too?{#ch21_ha_002}"
     new "И я?"
@@ -337,7 +337,7 @@
     new "Йо, Сайто тоже с нами?"
 
     old "Really, you gathered everyone after all?{#ch21_m_005}"
-    new " Правда, ты собрала всех?"
+    new "Правда, ты собрала всех?"
 
     old "What is this, everyone's here! What's going on!?{#ch21_s_043}"
     new "Что это, мы все здесь! Что происходит!?"

@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Ah, what lovely weather…{#ch13_k_125}"
     new "キュルケ：あ～～、いいお天気……。"

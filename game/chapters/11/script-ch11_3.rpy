@@ -44,7 +44,7 @@ label ch11_3_scene_478:
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
     # キュルケ：あ～～なんか肩こっちゃった。
     voice "ch11_k_008"
-    k "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
+    k "Ugh, my shoulders are all stiff. Maybe it's all this sullen talk that doesn't suit me… {#ch11_k_008}"
 
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：むっ、なによ。
@@ -288,7 +288,7 @@ label ch11_3_scene_483:
     # [SPRITE   lay20    image=+1063, level=160, dir=1A]
     # ウェザリー：なるほど。
     voice "ch11_w_010"
-    w "I see. So Akina hasn't awakened yet.{#ch11_w_010}"
+    w "I see. It seems Akina hasn't awakened yet, has she? {#ch11_w_010}"
 
     # ハルナ：アキナ？
     voice "ch11_ha_035"
@@ -370,7 +370,7 @@ label ch11_3_scene_483:
 
     # ウェザリー：しまった、あのスピード！
     voice "ch11_w_021"
-    w "Damn, that speed! Between that and the earlier resistance, Akina's power must be awakening!{#ch11_w_021}"
+    w "Damn, that speed! Between that and the earlier resistance—could Akina's power be awakening?! {#ch11_w_021}"
 
     # ウェザリー：くっ、逃がさないわよ！  [voice 16099]
     voice "ch11_w_022"
@@ -566,7 +566,7 @@ label ch11_3_scene_485:
             jump ch11_3_scene_486
         "Should we return it?{#ch11_3_c_485_2}":
             jump ch11_3_scene_487
-        "Don't we just need to toss it?{#ch11_3_c_485_3}":
+        "We don't need it, do we?{#ch11_3_c_485_3}":
             jump ch11_3_scene_488
 
 label ch11_3_scene_486:

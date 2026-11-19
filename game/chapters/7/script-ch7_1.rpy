@@ -165,7 +165,7 @@ label ch7:
     # [lay5 +390 → s 1]
     $ show_sprites(("s 1", "k 1"))
     voice "ch7_s_003"
-    s "I see. So that was the reason I stormed out mid-play faking a fit, too — checking the inside and the surroundings.{#ch7_s_003}"
+    s "I see. So that was the reason you stormed out mid-play faking a fit, too — to check the inside and the surroundings. {#ch7_s_003}"
     # JA[13483]: なるほどな。 / 途中でキレたふりして出て行ったのも、 / 内部や周辺を調べるためだったのか。
     # [lay6 +678 → k 1 happy]
     $ show_sprites(("s 1", "k 1 happy"))
@@ -269,7 +269,7 @@ label ch7:
             # [lay5 +429 → s 3 sad]
             $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch7_s_008"
-            s "It's because leaving it to you felt too risky.{#ch7_s_008}"
+            s "It's because leaving it to you made me uneasy.{#ch7_s_008}"
             # JA[13488]: ルイズに任せるのは不安だったからだろ。
             # [lay1 +306 → l 1 angry]
             voice "ch7_l_011"

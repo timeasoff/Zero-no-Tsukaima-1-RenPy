@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch12_1: scenes 510-524)
 
     old "W-What? Louise, did you cast a spell!?{#ch12_s_001}"
@@ -28,8 +28,8 @@
     old "You answered a bit too slowly. You're worried about Haruna, aren't you?{#ch12_l_004}"
     new "Ты ответил как-то вяло… Ты беспокоишься о Харуне, да?"
 
-    old "W-What are you talking about! That's… never mind.{#ch12_s_003}"
-    new "Ч-Что ты говоришь! Это… неважно."
+    old "W-What are you talking about! That's… that's… {#ch12_s_003}"
+    new "Ч-Что ты говоришь! Это… это…"
 
     old "Hmph, don't lie to me! You hesitated before answering.{#ch12_l_005}"
     new "Хм, не лги мне! Ты поколебался, прежде чем ответить."
@@ -89,7 +89,7 @@
     new "Начнём с театра, наверное…"
 
     old "(Please be safe!){#ch12_s_013}"
-    new "Только бы она была жива!"
+    new "Только бы она была в безопасности!"
 
     old "Haa, haa haa…{#ch12_s_014}"
     new "Хаа, хаа-хаа…"
@@ -251,7 +251,7 @@
     new "…"
 
     old "T-This is…!{#ch12_h_010}"
-    new "Ч-Это что…!"
+    new "Э-Это что…!"
 
     old "Yes. The bombings were set at the positions best suited to shelling the palace.{#ch12_commander_012}"
     new "Да. Взрывы были произведены в точках, лучше всего подходящих для обстрела дворца."
@@ -314,7 +314,7 @@
     new "Уф-фу. Ой, Сайто, что с тобой?"
 
     old "You don't have to be shy, you know?{#ch12_ha_005}"
-    new "Ты можешь не стесняться."
+    new "Ведь не надо стесняться, правда?"
 
     old "Who are you?{#ch12_s_025}"
     new "Кто ты?"
@@ -355,8 +355,8 @@
     old "T-Tell me you're lying, Haruna!{#ch12_s_028}"
     new "С-Скажи, что это неправда, Харуна!"
 
-    old "If I said it was a lie, would this reality change? Then I'd say it a hundred times. I am Akina.{#ch12_ak_007}"
-    new "Если я скажу, что это ложь, разве эта реальность изменится? Тогда я повторю хоть сто раз. Я — Акина."
+    old "If I said it was a lie, would this reality change? Then I'd say it again and again. I am Akina.{#ch12_ak_007}"
+    new "Если я скажу, что это ложь, разве эта реальность изменится? Тогда я буду повторять снова и снова. Я — Акина."
 
     old "I don't believe it. That the bomb-thrower was Haruna!{#ch12_s_029}"
     new "Я не верю. Что бомбистом была Харуна!"

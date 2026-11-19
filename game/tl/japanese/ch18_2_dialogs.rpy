@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "(Akina barricaded herself in the headmaster's office.){#ch18_s_128}"
     new "（アキナは結局、学院長室に立てこもってしまった）"
@@ -315,7 +315,7 @@
     old "I'm not wrong. If we save the academy but Tristain falls, it's all for nothing.{#ch18_l_103}"
     new "ルイズ：全然間違っていないわ。学院を救ってもトリスタニアが陥落してしまったら、元も子もないわ。"
 
-    old "…So that's the mistress's decision. I refuse!{#ch18_s_142}"
+    old "…So that's the mistress's decision, is it? I refuse!{#ch18_s_142}"
     new "サイト：……そうかい。それがご主人様の決断か。俺は断る！"
 
     old "What!?{#ch18_l_104}"
@@ -402,7 +402,7 @@
     old "You can't be serious! Now's not the time!{#ch18_d_018}"
     new "デルフリンガー：そんな呑気なこと言ってる場合じゃねーだろ！"
 
-    old "I'm not saying kill her, you idiot!{#ch18_d_019}"
+    old "I'm not saying kill her! {#ch18_d_019}"
     new "デルフリンガー：何もその娘を殺せって言ってるわけじゃねーんだ！"
 
     old "B-But… Waaah!{#ch18_s_151}"

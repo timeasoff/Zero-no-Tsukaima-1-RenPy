@@ -657,7 +657,7 @@ label ch18_2_scene_708:
     # [SPRITE   lay5     image=+394, level=160, dir=1A]
     # サイト：……そうかい。
     voice "ch18_s_142"
-    s "…So that's the mistress's decision. I refuse!{#ch18_s_142}"
+    s "…So that's the mistress's decision, is it? I refuse!{#ch18_s_142}"
 
     # ルイズ：なによ……！  [voice 6365]
     voice "ch18_l_104"
@@ -834,7 +834,7 @@ label ch18_2_scene_709:
 
     # デルフリンガー：何もその娘を殺せって言ってるわけ
     voice "ch18_d_019"
-    d "I'm not saying kill her, you idiot!{#ch18_d_019}"
+    d "I'm not saying kill her! {#ch18_d_019}"
 
     # [BG       stage    vibrate=7]
     # [EVENT_CG event    vibrate=7]

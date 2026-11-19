@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "So, how's the team-up with Kirche going?{#ch14_l_001}"
     new "ルイズ：それで、キュルケとのコンビの調子はどう？"

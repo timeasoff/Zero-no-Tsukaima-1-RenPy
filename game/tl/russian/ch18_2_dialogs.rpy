@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(Akina barricaded herself in the headmaster's office.){#ch18_s_128}"
     new "Акина заперлась в кабинете директора."
@@ -142,7 +142,7 @@
     new "Такая масштабная операция значит, что у вас есть цель."
 
     old "Just what is it you want?{#ch18_o_018}"
-    new "Именно чего вы хотите?"
+    new "Так чего же вы хотите?"
 
     old "You make it easy to talk. Good.{#ch18_w_006}"
     new "Вы упрощаете разговор. Хорошо."
@@ -315,7 +315,7 @@
     old "I'm not wrong. If we save the academy but Tristain falls, it's all for nothing.{#ch18_l_103}"
     new "Я не ошиблась. Если академия уцелеет, а Тристания падёт, всё напрасно."
 
-    old "…So that's the mistress's decision. I refuse!{#ch18_s_142}"
+    old "…So that's the mistress's decision, is it? I refuse!{#ch18_s_142}"
     new "…Такова воля госпожи? Я отказываюсь!"
 
     old "What!?{#ch18_l_104}"
@@ -337,10 +337,10 @@
     new "Конечно, я твой фамильяр — но не хочу слушать такую холодную, как ты сейчас."
 
     old "Y-You! When I'm quiet, you say whatever you like…!{#ch18_l_106}"
-    new "Т-Ты! когда я молчу, ты говоришь что хочешь…!"
+    new "Т-Ты! Когда я молчу, ты говоришь что хочешь…!"
 
     old "I'm not exactly easy about it either!{#ch18_l_107}"
-    new "Мне самой нелегко, знаешь ли!"
+    new "Я и сама не могу сказать, что совесть моя спокойна, знаешь ли!"
 
     old "Oh dear, you two are still on such good terms.{#ch18_k_025}"
     new "Ой, вы двое всё так же ладите."
@@ -402,8 +402,8 @@
     old "You can't be serious! Now's not the time!{#ch18_d_018}"
     new "Ты что, серьёзно! Сейчас не время!"
 
-    old "I'm not saying kill her, you idiot!{#ch18_d_019}"
-    new "Я не говорю убить её, глупыш!"
+    old "I'm not saying kill her! {#ch18_d_019}"
+    new "Я не говорю убить её!"
 
     old "B-But… Waaah!{#ch18_s_151}"
     new "Н-Но… Вауу!"
@@ -508,7 +508,7 @@
     new "Но Кирке и остальные одни…"
 
     old "Tabitha and I can hold out quite a while. Playing for time is boring, though…{#ch18_k_034}"
-    new "Мы с Табасой продержимся довольно долго. Только роль отвлекающей приманки скучна…"
+    new "Мы с Табасой продержимся довольно долго. Только роль того, кто выигрывает время, обидна…"
 
     old "But if the academy stays occupied, we're stuck anyway. You two move.{#ch18_t_023}"
     new "Но если академия останется захваченной, мы всё равно в тупике. Вы двое действуйте."

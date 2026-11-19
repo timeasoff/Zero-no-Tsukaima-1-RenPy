@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "But attacking Siesta…{#ch18_2_c_708_1}"
     new "でも、シエスタを攻撃するなんて……"

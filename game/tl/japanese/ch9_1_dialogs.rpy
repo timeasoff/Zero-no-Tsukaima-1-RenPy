@@ -34,7 +34,7 @@ translate japanese strings:
     old "Um, Princess, are you real? {#ch9_s_011}"
     new "ええと、お姫さま、本物ですか？"
 
-    old "No. / I'm the real one? / I just… snuck out a little. {#ch9_h_003}"
+    old "No. I'm the real one, you know? I just… snuck out a little. {#ch9_h_003}"
     new "いやですわ。 / 本物ですよ？ / ちょっとだけ……抜け出してきましたの。"
 
     old "Just a little?! / Wouldn't the royal palace be in an uproar?! {#ch9_s_012}"
@@ -58,7 +58,7 @@ translate japanese strings:
     old "By the way, if someone saw me / talking with you like this, / what would happen? {#ch9_s_015}"
     new "ちなみにですね、こうして俺がお姫さまと / 会ってるところを見られたら、 / どうなるんでしょう。"
 
-    old "I suppose so. / The Musketeers would surely be furious. {#ch9_h_007}"
+    old "I suppose so. / I think the Musketeers would be very angry. {#ch9_h_007}"
     new "そうですねえ、 / 銃士隊あたりに知られたら大変怒ると思います。"
 
     old "I'm an evildoer?! {#ch9_s_016}"
@@ -184,7 +184,7 @@ translate japanese strings:
     old "Well, since I was summoned by Louise, / I've always been taken care of by this academy. {#ch9_s_041}"
     new "そんなこといったら、俺なんかルイズに / 召喚されて以来、なんだかんだでずっと / この学院のお世話になってるんだけど。"
 
-    old "Saito isn't Louise's familiar. / It's only natural that he's taken care of. / But I'm different… {#ch9_ha_002}"
+    old "But you're Louise's familiar, Saito — of course you're taken care of. But I'm not… {#ch9_ha_002}"
     new "平賀くんはルイズさんの使い魔じゃない。 / お世話になって当然よ。 / でも、私はそうじゃないから……。"
 
     old "Well, that's true… / But we're probably the only two Japanese / in this world. {#ch9_s_042}"
@@ -247,7 +247,7 @@ translate japanese strings:
     old "I wanted to thank and apologize to her, / but she's already left. {#ch9_h_025}"
     new "彼女にもお礼と謝罪を述べたかったのですが、 / 旅立ってしまったのでは仕方ありませんね。"
 
-    old "Besides, I can't repay everyone's efforts, / and that pains me most. {#ch9_h_026}"
+    old "Besides, I can't reward everyone for what they've done, / which pains me most of all. {#ch9_h_026}"
     new "それに、今回の件では、 / 皆の功に報いることができないのが、 / なにより心苦しいですわ。"
 
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"
@@ -277,7 +277,7 @@ translate japanese strings:
     old "Huh? {#ch9_s_055}"
     new "え？"
 
-    old "Eh… ee-?! / H-H-H-H-H-H-Her Highness kissing you?! {#ch9_l_004}"
+    old "Eh… ee-?! P-Princess! A k-k-k-k-k-kiss! Such a thing, no! {#ch9_l_004}"
     new "え……ええーっ！？ / ひ、姫さま、ききききききキスなんてそんなっ！"
 
     old "And… / on the lips… {#ch9_l_005}"

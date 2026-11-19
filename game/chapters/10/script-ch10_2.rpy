@@ -270,10 +270,10 @@ label ch10_2:
         s "...... {#ch10_s_076}"
         # JA[13183]: サイト：……。
         # サイト：（シエスタの部屋に２人が移って……）
-        s "(Siesta's room moved to two people...){#ch10_s_077}"
+        s "(The two of them moved into Siesta's room…) {#ch10_s_077}"
         # JA[null]: サイト：（シエスタの部屋に２人が移って……）
         # サイト：（なんかルイズと２人きりだと、 / 部屋が広く感じるっつーか……）
-        s "(With just Louise and the two of us, / the room feels spacious...){#ch10_s_078}"
+        s "(With just Louise and me, the room feels spacious…) {#ch10_s_078}"
         # JA[null]: サイト：（なんかルイズと２人きりだと、 / 部屋が広く感じるっつーか……）
         # サイト：（……なんとなく、抜け出してきちゃったけど）
         s "(...I kind of slipped out but){#ch10_s_079}"
@@ -341,7 +341,7 @@ label ch10_2:
                 jump ch10_457
             "It was indeed terribly bad. {#ch10_choice_014}":
                 jump ch10_458
-            "She tried her best, didn't she? {#ch10_choice_015}":
+            "You tried your best, didn't you? {#ch10_choice_015}":
                 jump ch10_459
 
     # ==== SCENE 457 ====
@@ -361,7 +361,7 @@ label ch10_2:
         # JA[2530]: ハルナ：そうなのかな？
         # サイト：最近の女の子ってあんな感じじゃないの。  [voice 13193]
         voice "ch10_s_088"
-        s "These days girls aren't like that. {#ch10_s_088}"
+        s "These days girls are like that, aren't they? {#ch10_s_088}"
         # JA[13193]: サイト：最近の女の子ってあんな感じじゃないの。
         # ハルナ：どの女の子かによるわよ。 / 男の子もそうでしょう？  [voice 2531]
         voice "ch10_h_076"
@@ -401,7 +401,7 @@ label ch10_2:
         $ show_sprites(("s 1", "h 2"))
         # サイト：頑張っていたとは思うよ。  [voice 13196]
         voice "ch10_s_091"
-        s "I think she tried her best, though. {#ch10_s_091}"
+        s "I think you tried your best, though. {#ch10_s_091}"
         # JA[13196]: サイト：頑張っていたとは思うよ。
         # ハルナ：でも、頑張っているだけじゃダメ / なんだよね。  [voice 2533]
         voice "ch10_h_078"
@@ -580,7 +580,7 @@ label ch10_2:
         # JA[4508]: オスマン：さあ、どうですかの……。 / それで、どのようなお話ですかな？
         # ウェザリー：いえいえ、その先日の公演で / ヒロインを演じたミス・ハルナが、 / こちらにいるとのお話を聞きまして。  [voice 16075]
         voice "ch10_w_003"
-        w "Well, in the last performance / Miss Hannah performing here / I heard. {#ch10_w_003}"
+        w "Well, I heard that Miss Haruna, who played the heroine in that performance, is here. {#ch10_w_003}"
         # JA[16075]: ウェザリー：いえいえ、その先日の公演で / ヒロインを演じたミス・ハルナが、 / こちらにいるとのお話を聞きまして。
         # ウェザリー：聞けば、生徒ではないとか……。  [voice 16076]
         voice "ch10_w_004"
@@ -588,7 +588,7 @@ label ch10_2:
         # JA[16076]: ウェザリー：聞けば、生徒ではないとか……。
         # ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。  [voice 16077]
         voice "ch10_w_005"
-        w "Therefore if possible / I'd like to scout the theater troupe. {#ch10_w_005}"
+        w "Therefore, if you would be so kind — I came to ask whether you might allow us to scout her for our troupe. {#ch10_w_005}"
         # JA[16077]: ウェザリー：そこで、もしよろしければ / 当劇団にスカウトさせていただけないかと / 思いまして、伺った次第です。
         # オスマン：スカウト……じゃと？  [voice 4509]
         voice "ch10_o_010"
@@ -658,7 +658,7 @@ label ch10_2:
         # JA[7159]: ルイズ：それで、どうしてウェザリーの誘いに / すぐ返事をしなかったの？
         # モンモランシー：そうよ、いいお話じゃない。  [voice 4157]
         voice "ch10_m_005"
-        m "Right, it's a good story isn't it. {#ch10_m_005}"
+        m "Right, it's a good offer, isn't it. {#ch10_m_005}"
         # JA[4157]: モンモランシー：そうよ、いいお話じゃない。
         # ハルナ：そ、それは、その……。  [voice 2554]
         voice "ch10_h_099"
@@ -676,7 +676,7 @@ label ch10_2:
         # 【選択肢】どうなんだろう？ → scene 464
         # 【選択肢】俺は反対……なのか？ → scene 465
         menu:
-            "I also think it's a good story. {#ch10_choice_016}":
+            "I also think it's a good offer. {#ch10_choice_016}":
                 jump ch10_463
             "I wonder? {#ch10_choice_017}":
                 jump ch10_464
@@ -692,7 +692,7 @@ label ch10_2:
         $ show_sprites(("s 1", "h 2"))
         # サイト：俺もいい話だと思うけど。  [voice 13211]
         voice "ch10_s_108"
-        s "I also think it's a good story. {#ch10_s_108}"
+        s "I also think it's a good offer. {#ch10_s_108}"
         # JA[13211]: サイト：俺もいい話だと思うけど。
         # ハルナ：……。  [voice null]
         ha "...... {#ch10_h_100}"

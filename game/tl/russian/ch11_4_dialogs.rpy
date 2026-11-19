@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_4: scenes 500-509)
 
     old "Whew, we finally made it to Tristain.{#ch11_s_097}"
@@ -10,8 +10,8 @@
     old "Why are you so angry all of a sudden? You've been pouting this whole time.{#ch11_s_098}"
     new "С чего ты давно злишься? Ты всё время дуешься."
 
-    old "I'm not angry!{#ch11_l_037}"
-    new "Я не злюсь!"
+    old "I'm not angry or anything!{#ch11_l_037}"
+    new "Я вовсе не злюсь, ничего такого!"
 
     old "See? You're angry.{#ch11_s_099}"
     new "Вот, видишь — злишься."
@@ -35,7 +35,7 @@
     new "Харуна?"
 
     old "Well, well. If it isn't Miss Valliere and Saito! What a coincidence, meeting you here.{#ch11_w_029}"
-    new "Ого, кто здесь! Мисс Валльер и Сайто! Какое совпадение — встретить вас здесь."
+    new "Ого, кто здесь! Мисс Вальер и Сайто! Какое совпадение — встретить вас здесь."
 
     old "Oh, Weatherly. Just the one we wanted.{#ch11_l_039}"
     new "А, Уэзерби. Как раз кстати."
@@ -74,7 +74,7 @@
     new "Главное — раз уже такой случай, не расскажете ли вы мне немного о себе? Мне вообще-то не хватает идей для следующей пьесы."
 
     old "Last time, with the preparations for the performance, we hardly had a chance to talk personally.{#ch11_w_034}"
-    new "К тому же, раз уж такой случай, не расскажете ли вы мне немного о себе? Мне вообще-то не хватает идей для следующей пьесы."
+    new "В прошлый раз из-за подготовки к представлению почти не было возможности поговорить с тобой по-настоящему."
 
     old "I heard from Haruna that you're a great swordsman, and that you have some mysterious power, don't you?{#ch11_w_035}"
     new "Харуна говорила, что ты превосходный фехтовальщик и обладаешь необычной силой, так?"
@@ -125,7 +125,7 @@
     new "П-Подождите!"
 
     old "Of course, I'm also interested in the young genius mage, Miss Valliere.{#ch11_w_038}"
-    new "Конечно, мне интересна и юная гениальная волшебница, мисс Валльер."
+    new "Конечно, мне интересна и юная гениальная волшебница, мисс Вальер."
 
     old "Oh, I'm not that… I mean, no!{#ch11_l_048}"
     new "Ой, я не настолько… То есть нет!"
@@ -179,7 +179,7 @@
     new "Заметить что?"
 
     old "That Weatherly's attitude… I never noticed before, but now that I think about it, a lot of it is suspicious.{#ch11_l_052}"
-    new "Поведение этой Уэзерби… Раньше я не замечала, но, подумав, многое кажется подозрительным."
+    new "Поведение этой Уэзерби… Раньше я не замечала, но, подумав, я стала замечать много подозрительного."
 
     old "Like what? I thought it was an ordinary conversation.{#ch11_s_117}"
     new "Например? Мне показалось, всё было обычно."

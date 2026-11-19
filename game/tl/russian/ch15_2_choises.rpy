@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "We'll go destroy the cannons!{#ch15_2_c_636_1}"
     new "Мы идём громить орудия!"

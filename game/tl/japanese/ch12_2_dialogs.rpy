@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Like some happy fairy tale, clicking your heels three times won't take you back to your world.{#ch12_ak_011}"
     new "アキナ：どこかの幸せな童話のように、かかとを三度鳴らしても元の世界には戻れない。"
@@ -48,7 +48,7 @@
     old "W-What the hell!?{#ch12_s_036}"
     new "サイト：な、なんだぁぁぁっ！"
 
-    old "Rushing out to meet Saito without a thought for your own danger, and you two are…?{#ch12_l_033}"
+    old "Rushing out to meet Saito without a thought for my own danger… and what are you two playing at!? {#ch12_l_033}"
     new "ルイズ：自分の危険もかえりみず、サイトを迎えに来てみれば……。"
 
     old "W-What are you two playing at!?{#ch12_l_034}"
@@ -222,7 +222,7 @@
     old "The Void lineage isn't only Explosion.{#ch12_l_057}"
     new "ルイズ：虚無の系列は、エクスプロージョンだけじゃないってことよ。"
 
-    old "(True enough. Now that Void is barely known, we can catch the enemy off guard…){#ch12_s_051}"
+    old "…Indeed. Now that the existence of Void is barely known, we could probably catch the enemy off guard… {#ch12_s_051}"
     new "（……確かに。虚無の存在がそれほど知られてない今なら、敵の意表を突けるだろうな）"
 
     old "All right, Louise… I mean, mistress, it's in your hands!{#ch12_s_052}"
@@ -372,6 +372,6 @@
     old "Shut up. Haruna is Haruna!{#ch12_s_063}"
     new "サイト：うるさい、春奈は春奈だ！"
 
-    old "I'll think of something, just wait for me! Haruna!{#ch12_s_064}"
+    old "I absolutely will think of something, so wait for me! Haruna! {#ch12_s_064}"
     new "サイト：絶対になんとかするから待ってるんだぞ！春奈！"
 

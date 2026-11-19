@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 # (ch12_1: scenes 510-524)
 
     old "W-What? Louise, did you cast a spell!?{#ch12_s_001}"
@@ -28,7 +28,7 @@
     old "You answered a bit too slowly. You're worried about Haruna, aren't you?{#ch12_l_004}"
     new "ルイズ：なんか、生返事よ。ハルナが心配なの？"
 
-    old "W-What are you talking about! That's… never mind.{#ch12_s_003}"
+    old "W-What are you talking about! That's… that's… {#ch12_s_003}"
     new "サイト：な、何を言うんだよ！そんなこと……。"
 
     old "Hmph, don't lie to me! You hesitated before answering.{#ch12_l_005}"
@@ -355,7 +355,7 @@
     old "T-Tell me you're lying, Haruna!{#ch12_s_028}"
     new "サイト：う、嘘だといってくれよ、春奈！"
 
-    old "If I said it was a lie, would this reality change? Then I'd say it a hundred times. I am Akina.{#ch12_ak_007}"
+    old "If I said it was a lie, would this reality change? Then I'd say it again and again. I am Akina.{#ch12_ak_007}"
     new "アキナ：嘘だといったらこの現実は変わるの？だったら何度でも言ってたら？あたしはアキナなの。"
 
     old "I don't believe it. That the bomb-thrower was Haruna!{#ch12_s_029}"

@@ -5,6 +5,57 @@
 > `check` — скилл `task-orchestrator`). Эта сводка — статус перевода;
 > обновляется по мере закрытия подзадач, как и прежде.
 
+> **2026-11-18, ветка `review/ch6-21`:** выполнен независимый проход смыслового
+> аудита A (лексическая точность, JA→EN и JA→RU) по главам 6–21: 121 находка,
+> 62 правки с JA-доказательствами, 59 сохранено. Это **только слой A**, не полный
+> аудит (B/C/Analyzer не запускались) — галочки статуса перевода не менялись.
+> Evidence: `reports/sma/ch6-21-audit-summary.md`; блокер с закомментированными
+> `translate … strings:` в TL глав 10–21 — см. `reports/log.md`.
+
+> **2026-11-18, ветка `review/ch6-21`:** выполнен независимый проход аудита B
+> (контекст/актанты/логика) по главам 6–21: 76 находок, 43 правки по 60 строкам,
+> подтверждённых JA/events_full. Структурные ошибки в `jump` (ch8_2/ch13_3/ch13_4)
+> и пропущенные реплики (ch9_1) зафиксированы как USER DECISION и не трогались.
+> Evidence: `reports/sma/ch6-21-b-audit-summary.md`. Галочки перевода не менялись.
+
+> **2026-11-18, ветка `review/ch6-21`:** выполнен слепой прагматический аудит C
+> (речевой акт/подтекст) по главам 6–21: 76 находок, 31 правка по 40 строкам,
+> 36 сохранено с dispositions. A/B evidence субагентам недоступна. Пересечения с
+> A/B сведены в итоговые формулировки. Evidence: `reports/sma/ch6-21-c-audit-summary.md`.
+> Галочки перевода не менялись.
+
+> **2026-11-18, ветка `review/ch6-21`:** завершён полный смысловой цикл A+B+C+Analyzer
+> (omission pre-check → слепая Фаза 1 → Фаза 2 с A/B/C-evidence, без majority vote):
+> 580 кандидатов, 71 CONFIRMED_ERROR, 55 текстовых правок + структурная правка ch8.
+> Оставшиеся CONFIRMED (новые реплики/голоса, неоднозначные jump) — USER DECISION.
+> Evidence: `reports/sma/ch6-21-full-cycle-summary.md`. Галочки перевода не менялись.
+
+> **2026-11-18, ветка `review/ch6-21`:** аудит полноты — 47 per-part запусков
+> `omission_precheck.py`; 3 FIXED (JA/RU-пары ch8_h_069/h_075 + удалён дубль),
+> 19 FALSE POSITIVE, 3 USER DECISION (новые реплики/голоса). Дополнительно
+> исправлен WRONG_TARGET в ch12_2 (пункт «Weatherly!» → сцена 536).
+> Evidence: `reports/sma/ch6-21-omission-completeness.md`. Галочки не менялись.
+
+> **2026-11-18/19, ветка `review/ch6-21`:** Russian Humanizer по RU `new` — 16 аудитов, 28 правок зелёной зоны (артефакты, опечатки, канонические имена, JA-обоснованные замены) с проверкой смысла по JA; рискованное — USER DECISION/PRESERVED. Evidence: `reports/sma/ch6-21-humanizer.md`. Галочки не менялись.
+
+> **2026-11-19, ветка `review/ch6-21`:** грамматика и оформление RU — 16 аудитов по
+> `russian-grammar-control`/`russian-prose-rules` с `check_typography` как предфильтром;
+> 27 точечных правок + 11 форматных мыслей + 1 ELLIPSIS. Системный кластер «мысли без
+> курсива» в гл. 11–21 — USER DECISION (конфликт с запретом скобок по JA).
+> Evidence: `reports/sma/ch6-21-grammar-prose.md`. Галочки не менялись.
+
+> **2026-11-19, ветка `review/ch6-21`:** лексико-стилистический аудит — 4 прохода по
+> `russian-style-audit` (>5000 строк RU), 79 findings (0 ERROR), 20 FIXED (однозначные
+> тавтологии/кальки с JA-доказательством + технический тег); авторские повторы
+> подтверждены JA и сохранены. Evidence: `reports/sma/ch6-21-style-repetition.md`.
+> Галочки не менялись.
+
+> **2026-11-19, ветка `review/ch6-21`:** инженерная целостность — FIXED 136 TL-файлов
+> (раскомментированы `translate … strings:` в гл. 10–21, устранён блокер неприменяемых
+> переводов) и 10 незакрытых курсивов в ch10_2. `check_project.py` OK errors=0,
+> `check_renpy_syntax.py` OK. W6 (id-заглушки) и ch13 jump-цели — USER DECISION.
+> Evidence: `reports/sma/ch6-21-structural-integrity.md`. Галочки не менялись.
+
 ## Соответствие: проектная папка ↔ источник PS2
 
 | Проектная папка | Источник PS2 | Название |
@@ -992,3 +1043,20 @@
 - [ ] Пройдены все `project-checks`
 
 ---
+
+> **2026-11-19, ветка `review/ch6-21`:** финальная приёмка 47 частей — PASS WITH OPEN
+> QUESTIONS. Статические проверки OK (errors=0); медиа- junction вне контейнера,
+> runtime/SDK lint не запускались. Открытые вопросы (W6, defer/TNDL, voice-id) — в
+> `reports/sma/ch6-21-final-acceptance.md` и `reports/log.md`.
+
+> **2026-11-19, ветка `review/ch6-21`:** повторный независимый A — 37 находок, 21 FIXED
+> (EN+RU с JA-доказательствами), новые run_id, старые evidence сохранены.
+> Evidence: `reports/sma/ch6-21-a2-repeat.md`. Галочки не менялись.
+
+> **2026-11-19, ветка `review/ch6-21`:** повторный независимый B — 26 находок, 17 FIXED
+> (EN+RU с JA/events_full-доказательствами), новые run_id, старые evidence сохранены.
+> Evidence: `reports/sma/ch6-21-b2-repeat.md`. Галочки не менялись.
+
+> **2026-11-19, ветка `review/ch6-21`:** повторный независимый C — 27 находок, 15 FIXED
+> (EN+RU с JA-доказательствами), новые run_id, старые evidence сохранены.
+> Evidence: `reports/sma/ch6-21-c2-repeat.md`. Галочки не менялись.

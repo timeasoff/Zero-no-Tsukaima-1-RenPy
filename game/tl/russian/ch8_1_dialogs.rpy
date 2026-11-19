@@ -4,7 +4,7 @@ translate russian strings:
     new "Ну вот и утро, да? / Интересно, как там принцесса…"
 
     old "You were quite troubled yesterday… / …Maybe I'll go take a look.{#ch8_s_002}"
-    new "Вчера ты был так расстроен… / …Может, стоит зайти проверить."
+    new "Вчера она так переживала… / …Может, стоит зайти проверить."
 
     old "Princess, excuse me!{#ch8_s_003}"
     new "Принцесса, прошу прощения!"
@@ -157,7 +157,7 @@ translate russian strings:
     new "Тогда давайте выслушаем её и решим, что делать дальше."
 
     old "Right. / Let's have Siesta stay with the Princess.{#ch8_l_007}"
-    new "Хорошо. / Пусть Сиеста останется с принцессой."
+    new "Хорошо. / Пусть Сиеста побудет с принцессой."
 
     old "Got it. I'll tell Siesta.{#ch8_s_027}"
     new "Понял. / Я передам Сиесте."

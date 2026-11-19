@@ -188,7 +188,7 @@ label ch19_2_scene_753:
     # [SPRITE   lay1     image=+341, level=160, dir=2A]
     # ルイズ：ち、違うっ……。
     voice "ch19_l_230"
-    l "N-No, that's not it… I do trust you, I just…{#ch19_l_230}"
+    l "N-No, that's not it… It's not that I don't trust you, I just… {#ch19_l_230}"
 
     # [SPRITE   lay5     hide]
     # [SPRITE   lay6     image=+717, level=160, dir=2A]
@@ -199,7 +199,7 @@ label ch19_2_scene_753:
     # [SPRITE   lay1     image=+343, level=160, dir=2A]
     # ルイズ：な、なによ……。
     voice "ch19_l_231"
-    l "W-What… It's only natural to worry about your own familiar.{#ch19_l_231}"
+    l "W-What… It's not as if worrying about your own familiar is a sin, is it?{#ch19_l_231}"
 
     # [SPRITE   lay6     hide]
     # → next scene 755
@@ -238,7 +238,7 @@ label ch19_2_scene_754:
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：ち、違うわよ！
     voice "ch19_l_233"
-    l "N-No I'm not! Just because the master showed a little concern for his familiar doesn't mean I'm pleased!{#ch19_l_233}"
+    l "N-No I'm not! Just because mistress showed a little concern for her familiar doesn't mean I'm pleased!{#ch19_l_233}"
 
     # [LAYER    lay0     hide]
     # → next scene 755

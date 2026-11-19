@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "We seem to have slipped through the encirclement. That's where our escort ends, Valliere-sama, Saito-sama.{#ch18_soldier_008}"
     new "Кажется, мы прорвались через кольцо. Здесь наша охрана заканчивается, мадемуазель Вальер, Сайто-сама."
@@ -100,7 +100,7 @@
     new "Быстро? Почему? Что случилось в академии?"
 
     old "Haruna's gone wild.{#ch18_t_006}"
-    new "Харуна слегка буйствует."
+    new "Харуна буйствует."
 
     old "Haruna? No way!{#ch18_s_097}"
     new "Харуна? Не может быть!"
@@ -264,8 +264,8 @@
     old "And the one who took her in asked about her circumstances, where she came from— and decided she could be useful.{#ch18_ak_010}"
     new "А тот, кто её приютил, расспросил о её делах, о том, откуда она, — и решил, что она может пригодиться."
 
-    old "To investigate Saito and his mistress Louise, the legendary familiar of Tristain.{#ch18_ak_011}"
-    new "Чтобы разузнать о Сайто и его госпоже Луизе — легендарном фамильяре Тристании."
+    old "To investigate Saito, the legendary familiar of Tristain, and his mistress Louise. {#ch18_ak_011}"
+    new "Чтобы разузнать о Сайто — легендарном фамильяре Тристании — и его госпоже Луизе."
 
     old "O-Us!?{#ch18_s_116}"
     new "О-Нас!?"
@@ -301,7 +301,7 @@
     new "Н-Но это значит напасть на Харуну!"
 
     old "Everyone's lives are at stake. Get a grip!{#ch18_l_086}"
-    new "На кону жизни всех. Возьми себя в руки!"
+    new "На кону жизни всех. Наберись решимости!"
 
     old "If it comes to this, I'll do it! Let's go, Louise.{#ch18_s_119}"
     new "Раз так, я сделаю это! Идём, Луиза."
@@ -337,7 +337,7 @@
     new "Грр…"
 
     old "Watch a little longer. She might leave an opening.{#ch18_d_011}"
-    new "Понаблюдайте ещё. Возможно, она оставит лазейку."
+    new "Понаблюдайте ещё. Возможно, у неё появится уязвимое место."
 
     old "…Damn!{#ch18_s_124}"
     new "…Чёрт!"
@@ -346,7 +346,7 @@
     new "Я знаю, зачем вы вернулись в академию. Чтобы завести тот Zero Fighter… верно?"
 
     old "I won't let you. Reconquista's victory is assured, but I can't leave loose ends.{#ch18_ak_019}"
-    new "Я не позволю. Победа Реконкисты несомненна, но нельзя оставлять неопределённость."
+    new "Я не позволю. Победа Реконкисты несомненна, но нельзя оставлять факторы риска."
 
     old "I'll keep you from leaving this place. If you don't listen…{#ch18_ak_020}"
     new "Я не дам вам уйти отсюда. Если не послушаетесь…"
@@ -376,7 +376,7 @@
     new "Харуна не шпион. Это Акина — ею управляет магия!"
 
     old "What, what, what! We have no time to waste here, Louise and I—{#ch18_l_092}"
-    new "Что, что, что! У нас нет времени здесь тратить, у меня с Луизой—"
+    new "Что, что, что! У нас нет времени здесь тратить, у меня с Сайто—"
 
     old "—no time to waste in a place like this!!{#ch18_l_093}"
     new "—нет времени торчать в таком месте!!"

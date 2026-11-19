@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "We'll go destroy the cannons!{#ch15_2_c_636_1}"
     new "砲台をつぶしにいきます！"

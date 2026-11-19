@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Haruna? No way!{#ch18_1_c_696_1}"
     new "Харуна? Не может быть!"

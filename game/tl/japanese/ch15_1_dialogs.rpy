@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Ugh…{#ch15_s_001}"
     new "サイト：ふが……。"
@@ -120,7 +120,7 @@
     old "Really, are you actually Kirche?{#ch15_l_005}"
     new "ルイズ：もう！あなた本当にキュルケなの？"
 
-    old "…It was a rough night.{#ch15_m_001}"
+    old "…You've had a rough time.{#ch15_m_001}"
     new "モンモランシー：……おつかれさま。"
 
     old "Honestly, why does this keep happening to me…{#ch15_s_021}"

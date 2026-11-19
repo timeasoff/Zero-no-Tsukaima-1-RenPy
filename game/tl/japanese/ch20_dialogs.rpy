@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Ah, perfect! Good, great, perfect, Siesta!{#ch20_s_001}"
     new "サイト：いやぁ、完璧！グッドでグゥレイトでパーフェクツだよシエスタ！！"
@@ -120,7 +120,7 @@
     old "(Punishment, punishment, punishment.){#ch20_s_022}"
     new "（お仕置き、お仕置き、お仕置き）"
 
-    old "Hey, what are you muttering about? Hurry up and punish me.{#ch20_l_014}"
+    old "Hey, what are you muttering about? Hurry up, I'll punish you. {#ch20_l_014}"
     new "ルイズ：ほら、何ブツブツ言っているの？早くお仕置きするわよ。"
 
     old "Yeees.{#ch20_s_023}"
@@ -225,7 +225,7 @@
     old "Well, that's the real purpose of this punishment, though.{#ch20_l_030}"
     new "ルイズ：まぁ、それこそが今回のお仕置きの真の目的なんだけどね。"
 
-    old "If you've learned your lesson, you won't neglect me again.{#ch20_l_031}"
+    old "If you've learned your lesson, don't you neglect me again, okay? {#ch20_l_031}"
     new "ルイズ：これに懲りたらもう、わたしをないがしろになんかしないことね。"
 
     old "(My head is spinning. Why is Louise fine with this?){#ch20_s_041}"
@@ -285,7 +285,7 @@
     old "Eh? What do you mean, becoming independent?{#ch20_s_048}"
     new "サイト：えっ、自立するってどういうことだよ？"
 
-    old "Yeah. I can't stay at this academy forever… It'd be wrong to keep relying on Louise and the others.{#ch20_ha_001}"
+    old "Yeah. I can't stay at this academy forever… I've been wondering whether it's right to keep relying on Louise and the others.{#ch20_ha_001}"
     new "ハルナ：うん、いつまでもこの学院で……。ルイズさん達の世話になってるのもどうかなって思って。"
 
     old "If you say that, then I've been taken care of by this academy ever since Louise summoned me.{#ch20_s_049}"

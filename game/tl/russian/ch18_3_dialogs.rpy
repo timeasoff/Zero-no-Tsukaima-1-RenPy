@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "R-Right! I'll come back to help right away!{#ch18_s_163}"
     new "П-Понял! Я сразу вернусь и помогу!"

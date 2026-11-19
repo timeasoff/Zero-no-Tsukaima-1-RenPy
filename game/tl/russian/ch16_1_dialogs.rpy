@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Yoohoo~, darling.{#ch16_k_001}"
     new "Йо-хо~~, дорогой."
@@ -15,8 +15,8 @@
     old "N-No, that's not it, but…{#ch16_s_002}"
     new "Н-Нет, дело не в этом, но…"
 
-    old "K-Kirche, get away from him! You stupid dog!{#ch16_l_002}"
-    new "К-Кирке, отойди от него! Глупый пёс!"
+    old "Get away from Kirche, you stupid dog! {#ch16_l_002}"
+    new "Отойди от Кирке, глупый пёс!"
 
     old "…Eek! S-Sorry, mistress!{#ch16_s_003}"
     new "…Кя! П-Прости, госпожа!"
@@ -40,9 +40,9 @@
     new "Т-Так точно!"
 
     old "Ufufu. Isn't this fun.{#ch16_k_006}"
-    new "Уф-фу. Это забавно."
+    new "Уф-фу. Забавно, правда?"
 
-    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…!{#ch16_k_007}"
+    old "Listen, Valliere. The bigger the obstacle, the more my flame of love burns…?{#ch16_k_007}"
     new "Слушай, Вальер. Чем больше препятствие, тем сильнее горит пламя моей любви…?"
 
     old "(Ufufu. If it's come to this, I'll just have to use force.){#ch16_k_008}"
@@ -136,7 +136,7 @@
     new "А, кстати…"
 
     old "What do you mean 'oh now that you mention it'! Are you an idiot!{#ch16_l_017}"
-    new "Это ещё что за «кстати»! Ты что, идиотка!"
+    new "Это ещё что за «кстати»! Ты что, идиот!"
 
     old "(Sigh. It's started again…){#ch16_s_009}"
     new "Фух. Опять началось…"
@@ -207,7 +207,7 @@
     old "Well… I can't stay at this academy forever… I thought it was about time I stopped relying on Louise-san and the others.{#ch16_ha_001}"
     new "Ну… Я не могу вечно оставаться в этой академии… Я подумала, что пора перестать зависеть от Луизы-сан и остальных."
 
-    old "If you say that, I've been living off Louise's kindness ever since she summoned me, one way or another.{#ch16_s_018}"
+    old "If you say that, ever since Louise summoned me I've been under this academy's care, one way or another. {#ch16_s_018}"
     new "Если так, то я с тех пор, как Луиза меня вызвала, всё равно жил за счёт академии."
 
     old "Hiraga-kun is Louise-san's familiar, so of course. But I'm not…{#ch16_ha_002}"
@@ -321,8 +321,8 @@
     old "I don't quite get it, but… Okay.{#ch16_k_037}"
     new "Я не совсем понимаю, но… ладно."
 
-    old "Well, it's not like I'm entrusting him to you… Just don't let that Louise break him.{#ch16_ha_020}"
-    new "Ну, я просто доверяю его тебе… Только не дай той Луизе-сан его сломать."
+    old "Well, I'm just entrusting him to you… I just hope that Louise-san doesn't break him. {#ch16_ha_020}"
+    new "Ну, я просто доверяю его тебе… Только бы эта Луиза-сан его не сломала."
 
     old "What are you talking about?{#ch16_s_028}"
     new "О чём вы?"
@@ -358,7 +358,7 @@
     new "…"
 
     old "(O-Of course it was good! Though that imbalance was something else…){#ch16_s_034}"
-    new "К-Конечно, всё было хорошо! Хотя тот дисбаланс был просто невыразим…"
+    new "Конечно, всё было хорошо! Хотя тот дисбаланс был просто неотразим…"
 
     old "…Haa.{#ch16_s_035}"
     new "…Фух."
@@ -391,7 +391,7 @@
     new "Ого! Если ты так обнимаешь, то всякое…!"
 
     old "Ufufu. Were you thinking something naughty?{#ch16_k_047}"
-    new "Уф-фу. Ты думал о чём-то неподобающем?"
+    new "Уф-фу… Может, ты думал о чём-то неподобающем?"
 
     old "Eh?{#ch16_s_040}"
     new "А?"
@@ -406,5 +406,5 @@
     new "А!?"
 
     old "Ufufu!{#ch16_k_049}"
-    new "Уф-фу. Может, ты думал о чём-то неподобающем...?"
+    new "Уф-фу!"
 

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Ah, what lovely weather…{#ch13_k_125}"
     new "Ах, какая прекрасная погода…"
@@ -178,7 +178,7 @@
     new "Т-Туда, где нельзя сказать…"
 
     old "Hiraga-kun's pervert!{#ch13_ha_010}"
-    new "Хирага-кун — извращенец!"
+    new "Хирага-кун — пошляк!"
 
     old "Eeeh. S-Sorry…{#ch13_s_162}"
     new "Ох. П-Прости…"

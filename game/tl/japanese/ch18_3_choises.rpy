@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Fine, let's clear them out fast!{#ch18_3_c_718_1}"
     new "よし、さっさと片付けるぞ！"

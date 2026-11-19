@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Well, I'll handle the arrangements for the contest. Look forward to it.{#ch21_k_027}"
     new "キュルケ：それじゃあ、勝負の段取りはあたしが何とかするから。楽しみに待ってなさい。"
@@ -336,7 +336,7 @@
     old "Eh?{#ch21_s_151}"
     new "サイト：え？"
 
-    old "I keep thinking there must have been another way…{#ch21_si_074}"
+    old "I keep thinking there might have been another way…{#ch21_si_074}"
     new "シエスタ：もっと、別の方法も考えられたんじゃないかって。"
 
     old "And when I think about it, I feel so very heavy-hearted.{#ch21_si_075}"
@@ -414,7 +414,7 @@
     old "If it comes to it, I'll protect everyone with this. Right, Derf—I'm counting on you, partner!{#ch21_s_164}"
     new "サイト：いざとなったら、コイツでみんなを守ってやるさ。なぁ、デルフっ……頼りにしてるぜ、相棒っ！"
 
-    old "Hah… Don't expect one village girl to be handled by your one arm. Figure it out yourself.{#ch21_d_018}"
+    old "Hah… Just one village girl — handle her with that one arm of yours, I'm telling you. Figure it out yourself.{#ch21_d_018}"
     new "デルフリンガー：へっ……。たかが村娘の１人ぐらい、おめぇの腕一本で何とかしやがれってんだ。"
 
     old "D-Don't say that! Please, Derflinger-saaan!{#ch21_s_165}"

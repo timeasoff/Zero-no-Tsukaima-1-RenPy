@@ -49,7 +49,7 @@ translate japanese strings:
     old "Besides, I have something on my mind. {#ch8_h_064}"
     new "それに、わたくしにもひとつ、 / 考えていることがあるのですよ。"
 
-    old "I, as a queen, have different things I can do as a mage. {#ch8_h_065}"
+    old "Apart from me as queen, there's just one thing I can do as a mage. {#ch8_h_065}"
     new "女王としてのわたくしとは別に、 / 魔術師としてのわたくしにできることが、 / ひとつある……と考えているのです。"
 
     old "And what is that? {#ch8_s_087}"
@@ -118,13 +118,13 @@ translate japanese strings:
     old "Siesta, wait here. The academy is safer, but there's no time. {#ch8_s_091}"
     new "シエスタは、ここで待っててくれ。 / 本当は学院のほうが安全だけど、 / そんな時間もない。"
 
-    old "Yes! Good luck out there, Saito-san…! {#ch8_si_013}"
+    old "Yes! Good luck in battle, Saito-san…! {#ch8_si_013}"
     new "は、はいっ。 / サイトさん、ご武運を……。"
 
     old "Yeah… {#ch8_s_092}"
     new "ああ……。"
 
-    old "Then let's split into two. {#ch8_l_059}"
+    old "Then let's split up. I'll go with the Princess, Saito, and Kirche to the palace. {#ch8_l_059}"
     new "では、二手に分かれましょう。 / わたしにサイト、姫さまとキュルケは、 / このまま王宮をめざすことにするわ。"
 
     old "Tabitha, Montmorency, and Guiche — attack the cannons. Be careful. {#ch8_k_015}"
@@ -148,7 +148,7 @@ translate japanese strings:
     old "Wow. Just seeing the Princess is changing the mood of the castle crowd. {#ch8_s_093}"
     new "すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。"
 
-    old "That's what a king is, you see — making people feel that as long as this person is here, everything will be fine is part of the job too. {#ch8_d_001}"
+    old "That's what being a king is like. Making people think that with her around everything will be all right — that's part of the job. {#ch8_d_001}"
     new "王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。"
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
@@ -178,7 +178,7 @@ translate japanese strings:
     old "Understood! {#ch8_o_005}"
     new "はっ、了解いたしました！"
 
-    old "Alright, let's head to the roof! From there, you can use your magic to take them all down! {#ch8_s_095}"
+    old "Alright, let's head to the roof! From there, with your magic you can finish them all off in one go, right? {#ch8_s_095}"
     new "よしっ、このまま屋上に出るぞ！ / そこからなら、お前の魔法で一気に / ケリをつけられるんだな？"
 
     old "Yes, please rely on me. I'll show you my true power! {#ch8_l_062}"
@@ -205,7 +205,7 @@ translate japanese strings:
     old "What!? {#ch8_s_098}"
     new "っ！？"
 
-    old "Surprised? You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
+    old "Well, I'm surprised. You really came this far, didn't you. I underestimated you. {#ch8_w_002}"
     new "驚いたな。 / まさかここまで来るとは……。 / きみ達を正直見くびっていたよ。"
 
     old "I'm not in the mood for fighting anymore. Just stay here. {#ch8_ak_001}"
@@ -214,7 +214,7 @@ translate japanese strings:
     old "Weatherby, and Akina too! {#ch8_s_099}"
     new "ウェザリー、それにアキナ！"
 
-    old "Maybe you thought we'd come here. You were wrong. {#ch8_d_002}"
+    old "Maybe they figured we'd come here and got here ahead of us. {#ch8_d_002}"
     new "たぶん、俺達がここに来ると思って、 / 先回りしたんだろうよ。"
 
     old "It's thanks to the information gathered by Haruna. Though she collected it unconsciously. {#ch8_w_003}"
@@ -229,7 +229,7 @@ translate japanese strings:
     old "That's when Akina was passing information about you and Louise to me. {#ch8_w_005}"
     new "そのとき、アキナがサイトやルイズの / 情報をわたしまで、伝えていたのさ。"
 
-    old "Though Haruna remembers none of what Akina did. {#ch8_w_006}"
+    old "Though Haruna doesn't remember any of what Akina did. {#ch8_w_006}"
     new "もっとも、アキナがやったことは / ハルナは一切覚えていないんだけどね。"
 
     old "Damn you, Weatherby! Restore Haruna! {#ch8_s_101}"
@@ -247,10 +247,10 @@ translate japanese strings:
     old "I'll just finish this here on the rooftop. It's fortunate that the Princess is here. {#ch8_w_009}"
     new "このまま屋上で始末してあげるよ。 / ちょうどお姫様もいるようだしね。"
 
-    old "Fine then. If you won't stop, then we'll defeat you. {#ch8_l_066}"
+    old "Sorry to disappoint you. If you won't stop, then we'll defeat you. {#ch8_l_066}"
     new "おあいにくさま。 / だったらわたし達が、 / あなた達を倒してみせるわ。"
 
-    old "Oh, can you? Can I use my bomb on your magic? Do it if you can win. {#ch8_ak_002}"
+    old "My bomb, and Weatherby-sama's magic — try to beat that if you can. {#ch8_ak_002}"
     new "へえ、できるのかい？ / あたしの爆弾に、ウェザリー様の魔法。 / 勝てるもんならやってみな。"
 
     old "That's enough. {#ch8_h_073}"
@@ -303,7 +303,7 @@ translate japanese strings:
     old "It can be broken, you see. I know you are giving orders through a sound humans cannot hear. {#ch8_h_077}"
     new "それが、破れるのですよ。 / あなたが人には聞くことのできない音で、 / 指示を出しているのは分かっています。"
 
-    old "I was just making you unable to hear that sound by using magic. {#ch8_h_078}"
+    old "I simply used magic to make that sound inaudible. {#ch8_h_078}"
     new "わたくしが魔法を使って、 / その音を聞こえなくさせているだけです。"
 
     old "No, that's a lie…! This magic is a special art that only my family can use! {#ch8_w_014}"
@@ -312,7 +312,7 @@ translate japanese strings:
     old "How could you possibly know how to counter it?! {#ch8_w_015}"
     new "対処法をそうそう知られてるはずがない！！"
 
-    old "Why… how did you know?! Did you raid your own village…? {#ch8_w_016}"
+    old "Why… how did you know?! Did you attack my village… my clan, and force them to tell you? {#ch8_w_016}"
     new "お前、なぜ……どうやって知った！？ / まさか、村を……一族を襲って / むりやり聞き出したのか！？"
 
     old "Miss Weatherby, your loss of nobility was not because of your origins. {#ch8_h_079}"
@@ -345,7 +345,7 @@ translate japanese strings:
     old "Heh heh heh… Now that my family's secret is sealed, the only option is to overpower with force. {#ch8_w_019}"
     new "く、くくくっ。 / 一族の秘術を封じられた今は、 / 力攻めあるのみか。"
 
-    old "Then at least let me face you head-on and take down the queen! {#ch8_w_020}"
+    old "Then at least let me take the queen down with me, even if we both die! {#ch8_w_020}"
     new "ならばせめて、相討ちになってでも、 / 女王を討ち取ってくれる！"
 
     old "Come then! The fangs and claws of my resentment and anger — take them into your body!! {#ch8_w_021}"
@@ -393,7 +393,7 @@ translate japanese strings:
     old "Next is your turn, Louise. Show me your power. {#ch8_h_088}"
     new "次はルイズ、あなたの番ですね。 / 力を見せてください。"
 
-    old "Yes. I entrust this to you. {#ch8_l_067}"
+    old "Yes. Leave it to me. {#ch8_l_067}"
     new "はい。 / お任せください。"
 
     old "Come forth, you who are not here… as though you were here. {#ch8_l_068}"
@@ -444,7 +444,7 @@ translate japanese strings:
     old "Louise… and my familiars, thank you. Thanks to you, this country was saved. {#ch8_h_092}"
     new "ルイズ……そして使い魔さん、ありがとう。 / あなたがたのおかげで、この国は救われました。"
 
-    old "And I… also… will do my best. {#ch8_h_093}"
+    old "And I… also… {#ch8_h_093}"
     new "そしてわたくしも……。"
 
     old "What? {#ch8_s_115}"
@@ -459,3 +459,8 @@ translate japanese strings:
     old "But… I will not run away. I am… the queen of this country. {#ch8_h_096}"
     new "でも……。 / わたくしはもう逃げようなんて思いません。 / わたくしは……この国の女王なのですから。"
 
+    old "How is the situation? {#ch8_h_069}"
+    new "状況はどうなっていますか。"
+
+    old "Your magic, ‘Brainwash Howling’, doesn't work here. {#ch8_h_075}"
+    new "あなたの魔法「ブレインウォッシュ・ハウリング」は、ここでは通用しません。"

@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(We dragged Kirche, who kept calling me 'big brother', back to the inn…){#ch14_s_112}"
     new "Мы притащили Кирке, которая всё время звала меня «братишкой», обратно в гостиницу…"
@@ -13,7 +13,7 @@
     new "Да, скорее всего."
 
     old "It's a combined technique of magic and hypnotic suggestion. Honestly, it's impressive.{#ch14_m_011}"
-    new "Это сложный приём — магия плюс гипнотическое внушение. честно говоря, впечатляет."
+    new "Это сложный приём — магия плюс гипнотическое внушение. Честно говоря, впечатляет."
 
     old "So Weatherly's group did something to Kirche…{#ch14_s_115}"
     new "Значит, группа Уэзерби что-то сделала с Кирке…"
@@ -49,7 +49,7 @@
     new "Луиза, может, нам стоит остановиться…"
 
     old "You're not saying you'd give in to a threat, are you?{#ch14_l_031}"
-    new "Ты что, хочешь сдаться? Под угрозой — сдаться?!"
+    new "Ты что, хочешь сдаться? Уступить угрозе — сдаться?!"
 
     old "Ugh. N-No, I…{#ch14_s_120}"
     new "Ох. Я-Я не…"
@@ -91,7 +91,7 @@
     new "Согласна."
 
     old "(Still, Kirche calling me 'big brother' is kind of cute…){#ch14_s_124}"
-    new "И всё же Кирке, называющая меня «братишкой», — это мило…"
+    new "И всё же Кирке, которая так нежно называет меня «братишкой», — милая…"
 
     old "(Honestly, the usual Kirche is nice too, but this Kirche is…){#ch14_s_125}"
     new "Честно, обычная Кирке хороша, но эта Кирке…"
@@ -235,10 +235,10 @@
     new "Н-Ну-ну…"
 
     old "Hiraga-kun, even in another world, crime is still wrong.{#ch14_ha_006}"
-    new "Хирага-кун, даже в другом мире преступление остаётся преступлением."
+    new "Хирага-кун, даже в другом мире преступление — это плохо."
 
     old "Hold on, you two. What do you think I am?{#ch14_s_140}"
-    new "Вы меня за кого принимаете?!"
+    new "Подождите, вы двое. Вы меня за кого принимаете?!"
 
     old "…{#ch14_ha_007}"
     new "…"

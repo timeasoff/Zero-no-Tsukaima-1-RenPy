@@ -1,2 +1,2 @@
-# translate russian strings:
+translate russian strings:
 

@@ -131,7 +131,7 @@ label ch12_2_scene_526:
     play music t27 fadein 1.0
     # ルイズ：自分の危険もかえりみず、
     voice "ch12_l_033"
-    l "Rushing out to meet Saito without a thought for your own danger, and you two are…?{#ch12_l_033}"
+    l "Rushing out to meet Saito without a thought for my own danger… and what are you two playing at!? {#ch12_l_033}"
 
     # [SPRITE   lay1     image=+310, level=160, dir=1A]
     # ルイズ：な、なな、なにをじゃれあってるのかしら？
@@ -489,7 +489,7 @@ label ch12_2_scene_527:
 
     # [SPRITE   lay5     image=+429, level=155, dir=2A]
     # サイト：（……確かに。
-    s "(True enough. Now that Void is barely known, we can catch the enemy off guard…){#ch12_s_051}"
+    s "…Indeed. Now that the existence of Void is barely known, we could probably catch the enemy off guard… {#ch12_s_051}"
 
     menu:
         "Believe Louise.{#ch12_2_c_527_1}":
@@ -843,7 +843,7 @@ label ch12_2_scene_533:
         "Akina!{#ch12_2_c_533_2}":
             jump ch12_3
         "Weatherly!{#ch12_2_c_533_3}":
-            jump ch12_3
+            jump ch12_3_scene_536
 
 label ch12_2_scene_534:
 
@@ -866,7 +866,7 @@ label ch12_2_scene_534:
 
     # サイト：絶対になんとかするから待ってるんだぞ！
     voice "ch12_s_064"
-    s "I'll think of something, just wait for me! Haruna!{#ch12_s_064}"
+    s "I absolutely will think of something, so wait for me! Haruna! {#ch12_s_064}"
 
     # → next scene 537
     jump ch12_3

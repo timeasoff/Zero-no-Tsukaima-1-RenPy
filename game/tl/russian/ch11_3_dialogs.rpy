@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_3: scenes 478-499)
 
     old "She's gone, isn't she.{#ch11_l_014}"
@@ -16,7 +16,7 @@
     old "…{#ch11_k_007}"
     new "…"
 
-    old "Ugh, my shoulders are all stiff. / It's all this sullen talk that doesn't suit me.{#ch11_k_008}"
+    old "Ugh, my shoulders are all stiff. Maybe it's all this sullen talk that doesn't suit me… {#ch11_k_008}"
     new "Ух, прямо затекли плечи. / Наверное, от всех этих мрачных разговоров, которые мне не к лицу."
 
     old "Hmph. What's with that attitude!{#ch11_l_016}"
@@ -118,7 +118,7 @@
     old "Eh? Mission? What do you mean?{#ch11_ha_034}"
     new "А? Задание? О чём вы?"
 
-    old "I see. So Akina hasn't awakened yet.{#ch11_w_010}"
+    old "I see. It seems Akina hasn't awakened yet, has she? {#ch11_w_010}"
     new "Понятно. Похоже, Акина ещё не проснулась."
 
     old "Akina? I'm Haruna, though.{#ch11_ha_035}"
@@ -172,7 +172,7 @@
     old "Wait! Haruna!{#ch11_w_020}"
     new "Стой! Харуна!"
 
-    old "Damn, that speed! Between that and the earlier resistance, Akina's power must be awakening!{#ch11_w_021}"
+    old "Damn, that speed! Between that and the earlier resistance—could Akina's power be awakening?! {#ch11_w_021}"
     new "Чёрт, эта скорость! И это сопротивление… неужели сила Акины начинает просыпаться?"
 
     old "Tch, I won't let you get away!{#ch11_w_022}"
@@ -218,13 +218,13 @@
     new "Уэзерби-сан!"
 
     old "I shouldn't have to go to this much trouble.{#ch11_w_024}"
-    new "Не стоило доставлять себе столько хлопот."
+    new "Не стоило доставлять мне столько хлопот."
 
     old "N-No! Please stop!{#ch11_ha_052}"
     new "Н-Нет! Пожалуйста, прекратите!"
 
     old "Now, sleep. Rest your exhausted body.{#ch11_w_025}"
-    new "Ну же, спи. Отдохни своё измученное тело."
+    new "Ну же, спи. Дай отдохнуть своему измученному телу."
 
     old "It's fine. When you wake, you'll be someone else. You'll even forget you were Haruna.{#ch11_w_026}"
     new "Всё хорошо. Когда ты проснёшься, ты станешь другой. Ты даже забудешь, что была Харуной."

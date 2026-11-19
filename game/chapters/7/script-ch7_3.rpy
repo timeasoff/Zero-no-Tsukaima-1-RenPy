@@ -201,7 +201,7 @@ label ch7_3:
             # [lay1 +339 → l 3 angry]
             $ show_sprites(("k 1 sad", "l 3 angry"))
             voice "ch7.3_l_005"
-            l "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
+            l "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic, lovesick face that sets me off, that's all!{#ch7.3_l_005}"
             # JA[7398]: 分かってるわよ。 / いくらわたしでも、そこまで野暮じゃないわ。 / あの馬鹿の情けないでれでれ顔が腹立つだけよ！
             # [lay6 hide]
             # [LAYER     lay0     image=+588, level=160, dir=1A] → t 1
@@ -364,7 +364,7 @@ label ch7_3:
     # [lay8 +781 → h 3 sad — PROVISIONAL]
     $ show_sprites(("h 3 sad", "s 4 sad"))
     voice "ch7.3_h_005"
-    h "And because of that, I gave the nobles within our realm the opening they needed to sway them.{#ch7.3_h_005}"
+    h "And because of that, I gave them the opening they needed to win over the nobles within our realm. {#ch7.3_h_005}"
     # JA[849]: そのために、国内の貴族達を籠絡する / 隙を与えてしまった。
     # [lay5 +401 → s 2]
     $ show_sprites(("h 3 sad", "s 2"))
@@ -476,7 +476,7 @@ label ch7_3_s1169:
     $ show_sprites(("h 2 sad",))
     # [MSGON      msgon()] — не портируется
     voice "ch7.3_h_008"
-    h "Ah… my familiar…{#ch7.3_h_008}"
+    h "Ah… the familiar… {#ch7.3_h_008}"
     # JA[412]: あ……使い魔さん……。
     # [lay8 y=0,x=-96]
     # [lay5 +390 → s 1]
@@ -533,7 +533,7 @@ label ch7_3_s1169:
             # [lay5 +390 → s 1]
             $ show_sprites(("h 2 sad", "s 1"))
             voice "ch7.3_s_020"
-            s "Please take care of yourself.{#ch7.3_s_020}"
+            s "Please take better care of yourself.{#ch7.3_s_020}"
             # JA[9172]: 自分を大切にしてください。
             voice "ch7.3_h_013"
             h "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
@@ -673,7 +673,7 @@ label ch7_3_s1169:
     # [lay8 +792 → h 2 sad — PROVISIONAL]
     $ show_sprites(("h 2 sad", "s 3 sad"))
     voice "ch7.3_h_025"
-    h "My familiar…!{#ch7.3_h_025}"
+    h "The familiar…! {#ch7.3_h_025}"
     # JA[429]: 使い魔さん……っ！
     # [lay5 +396 → s 1 sad]
     $ show_sprites(("h 2 sad", "s 1 sad"))

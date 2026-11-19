@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Don't be a brat…{#ch15_3_c_646_1}"
     new "ワガママをいわないで……"

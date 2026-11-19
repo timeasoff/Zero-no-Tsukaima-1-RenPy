@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Give in{#ch14_4_c_609_1}"
     new "Сдаться"

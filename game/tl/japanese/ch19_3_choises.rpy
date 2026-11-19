@@ -1,2 +1,2 @@
-# translate japanese strings:
+translate japanese strings:
 

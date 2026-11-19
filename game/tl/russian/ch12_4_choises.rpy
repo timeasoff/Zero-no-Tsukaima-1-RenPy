@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Mention it, just in case?{#ch12_4_c_544_1}"
     new "Стоит упомянуть, на всякий случай?"

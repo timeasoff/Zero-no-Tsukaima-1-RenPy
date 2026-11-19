@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(Several days have passed since the play ended. Still no trace of the bomb-thrower…){#ch13_s_001}"
     new "Прошло уже несколько дней с тех пор, как закончился спектакль. Следов бомбиста так и не нашли…"
@@ -112,7 +112,7 @@
     new "Ууу…"
 
     old "T-Then instead! I get to use everyone else!{#ch13_l_014}"
-    new "Т-Тогда взамен! Все остальные в моей команде!"
+    new "Т-Тогда взамен! Я использую всех остальных!"
 
     old "Sure, fine.{#ch13_k_014}"
     new "Конечно, ладно."
@@ -369,7 +369,7 @@
     old "Under this beautiful starry sky, a man and a woman go out. Doesn't that pretty much tell you what they'll do?{#ch13_k_034}"
     new "Под этим прекрасным звёздным небом мужчина и женщина выходят. Догадаться, чем они займутся, не трудно, правда?"
 
-    old "H-How shameless!{#ch13_l_032}"
+    old "H-How filthy!{#ch13_l_032}"
     new "Фу, нечисто!"
 
     old "W-Wait, Louise! Don't worry—what you're imagining will never happen!{#ch13_s_048}"

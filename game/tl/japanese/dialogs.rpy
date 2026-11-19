@@ -16177,7 +16177,7 @@ translate japanese strings:
     new "それで、兵士が見回ってる事情って
 いったいなに？"
 
-    old "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    old "They said some important person has gone missing, though I don't know who.{#ch6_k_002}"
     new "ええ。
 誰だかは分からないけど、
 重要人物が行方不明になったとか言ってたわ。"
@@ -16586,7 +16586,7 @@ translate japanese strings:
     new "あ、あのー、今の状況で外に出るのは
 危険ですし、散歩は控えた方が……。"
 
-    old "A-and if something happens, Louise will…{#ch6_s_038}"
+    old "A-and if something happens, I'll have to explain to Louise…{#ch6_s_038}"
     new "そ、それに何かあったら、俺がルイズに……。"
 
     old "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"
@@ -17384,7 +17384,7 @@ translate japanese strings:
     old "I went to see how things were in town. We visited crowded places and listened to what people were saying."
     new "街の様子を見てきたんだ。 人の集まるところを回りながら、 街の人がしてる噂やら聞いたり。"
 
-    old "I see... So the princess is still wavering in her confidence as queen."
+    old "I wonder… is her confidence as queen still wavering, after all?"
     new "そう……。 姫さま……やっぱり、女王としての自信が、 まだ揺らいでるのかしら。"
 
     old "Yeah. So I took her to a dining hall to help take her mind off it."
@@ -17602,7 +17602,7 @@ translate japanese strings:
     old "Yes, that's right.{#ch7_k_006}"
     new "ええ、そうよ。"
 
-    old "I see. So that was the reason I stormed out mid-play faking a fit, too — checking the inside and the surroundings.{#ch7_s_003}"
+    old "I see. So that was the reason you stormed out mid-play faking a fit, too — to check the inside and the surroundings. {#ch7_s_003}"
     new "なるほどな。　途中でキレたふりして出て行ったのも、　内部や周辺を調べるためだったのか。"
 
     old "Exactly. Her Majesty asked me to the moment she arrived, so I did my digging on the side.{#ch7_k_007}"
@@ -17641,7 +17641,7 @@ translate japanese strings:
     old "What did you just say!?{#ch7_l_010}"
     new "なんですってえ！？"
 
-    old "It's because leaving it to you felt too risky.{#ch7_s_008}"
+    old "It's because leaving it to you made me uneasy.{#ch7_s_008}"
     new "ルイズに任せるのは不安だったからだろ。"
 
     old "What did you just say!?{#ch7_l_011}"
@@ -18343,7 +18343,7 @@ translate japanese strings:
     old "Settle down, Louise. You can surely imagine how lonely Siesta must have felt, can't you?{#ch7.3_k_001}"
     new "落ち着きなさい、ルイズ。　シエスタがどれだけ心細かったか、　分かるでしょ。"
 
-    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
+    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic, lovesick face that sets me off, that's all!{#ch7.3_l_005}"
     new "分かってるわよ。　いくらわたしでも、そこまで野暮じゃないわ。　あの馬鹿の情けないでれでれ顔が腹立つだけよ！"
 
     old "Jealousy.{#ch7.3_t_001}"
@@ -18406,7 +18406,7 @@ translate japanese strings:
     old "No — if you consider how this whole affair began, it was because I was still green as a queen.{#ch7.3_h_004}"
     new "いいえ、そもそもの発端を考えれば、　わたくしが女王として未熟だったからです。"
 
-    old "And because of that, I gave the nobles within our realm the opening they needed to sway them.{#ch7.3_h_005}"
+    old "And because of that, I gave them the opening they needed to win over the nobles within our realm. {#ch7.3_h_005}"
     new "そのために、国内の貴族達を籠絡する　隙を与えてしまった。"
 
     old "None of that is something you need to brood over, Princess.{#ch7.3_s_014}"
@@ -18439,7 +18439,7 @@ translate japanese strings:
     old "Princess? I'm coming in.{#ch7.3_s_015}"
     new "お姫さま？　入りますよ？"
 
-    old "Ah… my familiar…{#ch7.3_h_008}"
+    old "Ah… the familiar… {#ch7.3_h_008}"
     new "あ……使い魔さん……。"
 
     old "You're awake after all, I see.{#ch7.3_s_016}"
@@ -18466,7 +18466,7 @@ translate japanese strings:
     old "Princess…{#ch7.3_s_019}"
     new "お姫さま……。"
 
-    old "Please take care of yourself.{#ch7.3_s_020}"
+    old "Please take better care of yourself.{#ch7.3_s_020}"
     new "自分を大切にしてください。"
 
     old "Take care… I make every effort to. No — everyone treats me so kindly. Perhaps even more than I realize…{#ch7.3_h_013}"
@@ -18535,7 +18535,7 @@ translate japanese strings:
     old "Princess…{#ch7.3_s_030}"
     new "お姫さま……。"
 
-    old "My familiar…!{#ch7.3_h_025}"
+    old "The familiar…! {#ch7.3_h_025}"
     new "使い魔さん……っ！"
 
     old "P-Princess. If anyone saw me like this, I dread to think what Louise would say…{#ch7.3_s_031}"

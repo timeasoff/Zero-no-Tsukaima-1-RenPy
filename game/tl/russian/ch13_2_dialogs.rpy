@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Anybody know anything?{#ch13_s_051}"
     new "Интересно, знает ли кто-нибудь какую-нибудь информацию…"
@@ -22,7 +22,7 @@
     new "Сердце колотится с того момента, как я вошла. Смотрите, вот…"
 
     old "Hm, your heart!? That must be frightening indeed!{#ch13_soldier_002}"
-    new "Должно быть, это очень тревожно!"
+    new "Хм, сердце!? Должно быть, это очень тревожно!"
 
     old "But don't worry! Under Her Majesty's authority, we'll catch the evildoers!{#ch13_soldier_003}"
     new "Но не волнуйтесь! Под властью Её Величества мы поймаем злоумышленников!"
@@ -33,7 +33,7 @@
     old "W-Well, you see! Actually…!{#ch13_soldier_004}"
     new "Т-Так, видите ли! Дело в том…!"
 
-    old "(Oh boy. That soldier is getting all flustered by Kirche…){#ch13_s_053}"
+    old "(Oh boy. That soldier is drooling over Kirche…){#ch13_s_053}"
     new "Солдат прямо слюни распустил от Кирке…"
 
     old "(…Hmm, is that the face I make when Kirche comes on to me…?){#ch13_s_054}"
@@ -61,7 +61,7 @@
     new "Здесь почти никого нет."
 
     old "People are hesitant to come out too… Oh, good evening. Alone?{#ch13_k_050}"
-    new "Людям, видно, тоже непросто собраться…"
+    new "Людям, видно, тоже непросто собраться… О, добрый вечер. Вы один?"
 
     old "(Hm? Was someone there?){#ch13_s_057}"
     new "Хм? Кто-то был?"
@@ -325,7 +325,7 @@
     new "Ой, с дорогим любая еда — лучшая в мире."
 
     old "I'm getting embarrassed…{#ch13_s_098}"
-    new "Мне становится стыдно…"
+    new "Как-то неловко мне…"
 
     old "Really, darling, you're so cute!{#ch13_k_088}"
     new "Ну же, дорогой, ты такой милый!"

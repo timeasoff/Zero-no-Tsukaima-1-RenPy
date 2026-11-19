@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Come on, let's go! The castle's high ground is our goal!{#ch15_l_084}"
     new "ルイズ：さあ、行きましょう！目指すは城の高台よ！"
@@ -117,7 +117,7 @@
     old "What is this! Tristain—no, no country in Halkeginia has a fleet like that…!?{#ch15_w_010}"
     new "ウェザリー：どういうことだ！トリステインに……いや、ハルケギニアにあれほどの空中艦隊を持つ国など……！？"
 
-    old "(So that's what Louise wanted. That fleet must be an illusion… something Void created…){#ch15_s_112}"
+    old "(So that's what Louise wanted. That fleet must be an illusion… something Louise created with Void…){#ch15_s_112}"
     new "（そうか、これがルイズのやりたかった魔法か。あの艦隊はきっと幻……。ルイズが作り出した虚無の……）"
 
     old "Weatherly-sama, our fleet is retreating!{#ch15_ak_028}"

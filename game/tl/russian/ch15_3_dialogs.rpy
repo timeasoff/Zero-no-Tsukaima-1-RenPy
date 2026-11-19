@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Even so, we have no choice but to do it, huh.{#ch15_s_073}"
     new "Всё равно, похоже, придётся."
@@ -6,8 +6,8 @@
     old "Right. We don't have time to wait for Kirche to recover.{#ch15_l_065}"
     new "Да. У нас нет времени ждать, пока Кирке поправится."
 
-    old "So it all comes down to you. You'd better protect her properly.{#ch15_l_066}"
-    new "Значит, всё зависит от тебя. Ты её убережёшь, ладно?"
+    old "So it all comes down to you. Make sure you protect me, okay? {#ch15_l_066}"
+    new "Значит, всё зависит от тебя. Ты меня убережёшь, ладно?"
 
     old "Heh, leave it to me. I'm Louise's familiar. I'll guard you until the chanting is done.{#ch15_s_074}"
     new "Хе, доверься мне. Я фамильяр Луизы. Я буду охранять тебя, пока не закончится заклинание."
@@ -43,7 +43,7 @@
     new "Но, приятель, даже если ты решил верить…"
 
     old "Buying time until Louise's Void chant finishes is going to be tough, huh.{#ch15_s_080}"
-    new "Выиграть время, пока Луиза читает Пустоту, будет непросто, да."
+    new "Выиграть время, пока Луиза читает заклинание Пустоты, будет непросто, да."
 
     old "If Louise is out of it, the main force will be just me and Tabitha.{#ch15_s_081}"
     new "Если Луиза выбывает, основные силы — это я и Табаса."
@@ -148,7 +148,7 @@
     new "Чёрт, ну и хлопотная!"
 
     old "W-Wait, Saito! What are you doing drinking it—!?{#ch15_l_073}"
-    new "П-Подожди, Сайто! Что ты делаешь, это же пить…!?"
+    new "П-Подожди, Сайто! Что ты делаешь, ты же это пьёшь…!?"
 
     old "A-Aaaaaah!{#ch15_l_074}"
     new "А-Ааааа!"
@@ -166,7 +166,7 @@
     new "Ч-Что ты делаешь, глупый пёс!"
 
     old "D-Don't get the wrong idea! I just fed it to her mouth-to-mouth!{#ch15_s_099}"
-    new "Н-Не подумай ничего такого! Я просто скормил ей с губ на губы!"
+    new "Н-Не подумай ничего такого! Я просто скормил ей лекарство изо рта в рот!"
 
     old "My mouth tastes bitter…!{#ch15_k_031}"
     new "У меня во рту горько…!"
@@ -186,7 +186,7 @@
     old "Noooo! …Gulp.{#ch15_k_033}"
     new "Нееет! …Глоток."
 
-    old "T-Touche, Louise! That's too rough!{#ch15_m_013}"
+    old "H-Hey, Louise! That's too much!{#ch15_m_013}"
     new "Т-Ты чего, Луиза! Это слишком грубо!"
 
     old "…{#ch15_l_079}"

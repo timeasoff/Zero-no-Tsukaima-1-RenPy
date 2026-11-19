@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "…{#ch14_s_061}"
     new "サイト：……。"

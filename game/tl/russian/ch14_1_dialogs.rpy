@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "So, how's the team-up with Kirche going?{#ch14_l_001}"
     new "Так, как у тебя дела с командой Кирке?"
@@ -115,7 +115,7 @@
     new "Вот в чём дело."
 
     old "I think Her Majesty is wary of that too. I wonder how much she's figured out.{#ch14_k_012}"
-    new "Думаю, Её Величество тоже это беспокоит. Интересно, насколько она разобралась?"
+    new "Думаю, Её Величество тоже остерегается этого. Интересно, насколько она разобралась?"
 
     old "The Princess?{#ch14_s_023}"
     new "Принцесса?"
@@ -139,7 +139,7 @@
     new "Упускаем что?"
 
     old "The Princess was just playing around, right? I wanted to spend time with Louise for once.{#ch14_s_027}"
-    new "Принцесса просто развлекалась, да? Я хотел немного побыть с Луизой."
+    new "Принцесса просто играет, да? Я бы хотел хоть иногда побыть с Луизой."
 
     old "That joke isn't funny.{#ch14_k_016}"
     new "Эта шутка не смешная."

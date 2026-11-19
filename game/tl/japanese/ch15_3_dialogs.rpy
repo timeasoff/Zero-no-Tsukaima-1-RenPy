@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Even so, we have no choice but to do it, huh.{#ch15_s_073}"
     new "サイト：それでもやるしかないか。"
@@ -6,7 +6,7 @@
     old "Right. We don't have time to wait for Kirche to recover.{#ch15_l_065}"
     new "ルイズ：そうね。キュルケの回復をのんびり待ってる暇はないもの。"
 
-    old "So it all comes down to you. You'd better protect her properly.{#ch15_l_066}"
+    old "So it all comes down to you. Make sure you protect me, okay? {#ch15_l_066}"
     new "ルイズ：そうなると、うまくいくかどうかは、あんたにかかってるからね。ちゃんと、守ってね。"
 
     old "Heh, leave it to me. I'm Louise's familiar. I'll guard you until the chanting is done.{#ch15_s_074}"
@@ -186,7 +186,7 @@
     old "Noooo! …Gulp.{#ch15_k_033}"
     new "キュルケ：やだーーーっ！……んぐ。"
 
-    old "T-Touche, Louise! That's too rough!{#ch15_m_013}"
+    old "H-Hey, Louise! That's too much!{#ch15_m_013}"
     new "モンモランシー：ち、ちょっとルイズっ！無茶苦茶よっ！"
 
     old "…{#ch15_l_079}"

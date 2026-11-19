@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Is there such a place in the academy?{#ch18_4_c_728_1}"
     new "学院にそんな場所があるんですか？"

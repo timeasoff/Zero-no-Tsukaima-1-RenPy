@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(The morning of the operation has finally arrived.){#ch19_s_248}"
     new "Вот и наступило утро дня операции."
@@ -10,7 +10,7 @@
     new "Наша главная цель: мисс Вальер применяет магию Пустоты и уничтожает врагов…"
 
     old "Are we agreed so far?{#ch19_c_077}"
-    new "До сюда всё в порядке?"
+    new "Пока всё в порядке?"
 
     old "Yes.{#ch19_s_249}"
     new "Да."
@@ -129,7 +129,7 @@
     old "The exit leading to the shortest route to the rooftop is here.{#ch19_c_099}"
     new "Выход к самому короткому пути на крышу — здесь."
 
-    old "So Saito and I split up here? Ah, but at this distance it's practically just around the corner.{#ch19_s_257}"
+    old "So Louise and I split up here? Ah, but at this distance it's practically just around the corner. {#ch19_s_257}"
     new "Значит, мы с Луизой здесь расстанемся? А, но на этом расстоянии это буквально рукой подать."
 
     old "The wind is at our backs. Oh, there's one more thing I should give you.{#ch19_c_100}"
@@ -148,7 +148,7 @@
     new "Но с ними всё будет хорошо."
 
     old "Even if you fight someone under hypnosis, putting these on should temporarily restore their senses.{#ch19_c_104}"
-    new "Даже если придётся сражаться с тем, кто под гипнозом, эти беруши временно вернут ему рассудок."
+    new "Даже если придётся сражаться с тем, кто под гипнозом, эти беруши должны временно вернуть ему рассудок."
 
     old "Understood.{#ch19_s_259}"
     new "Понятно."
@@ -222,7 +222,7 @@
     old "Let's think about that once it's all over. Now is not the time to hesitate.{#ch19_l_206}"
     new "Об этом подумаем, когда всё кончится. Сейчас не время сомневаться."
 
-    old "I know. I know it, but…{#ch19_s_272}"
+    old "I know. I should know it, but…{#ch19_s_272}"
     new "Я вроде понимаю, но…"
 
     old "…{#ch19_l_207}"
@@ -235,7 +235,7 @@
     new "А…?"
 
     old "Two sets of footsteps.{#ch19_d_027}"
-    new "Два шага."
+    new "Двое идут?"
 
     old "Enemies?{#ch19_s_273}"
     new "Враги?"
@@ -354,7 +354,7 @@
     old "Me and Saito.{#ch19_t_030}"
     new "Я и Сайто."
 
-    old "With Louise? Well, if Tabitha says so, I suppose it can't be helped. She must have a reason…{#ch19_k_047}"
+    old "With Louise? Well, if Tabitha says so, I guess it can't be helped. She probably has a reason, right? {#ch19_k_047}"
     new "С Луизой? Ну, если Табаса так говорит, видно, ничего не поделать. Наверное, у неё есть причина…"
 
     old "Mm.{#ch19_t_031}"
@@ -373,7 +373,7 @@
     new "Пожалуйста."
 
     old "Yeah. With Tabitha, I feel better.{#ch19_s_285}"
-    new "Да. С Табасой мне спокойнее."
+    new "Да. С Табасой я чувствую себя увереннее."
 
     old "Thank you.{#ch19_t_033}"
     new "Спасибо."

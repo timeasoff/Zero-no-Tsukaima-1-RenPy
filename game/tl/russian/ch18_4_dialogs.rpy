@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Right, let's try to reach the professor's lab somehow. We have nowhere else to go.{#ch18_s_184}"
     new "Ладно, попробуем добраться до лаборатории сэнсэя. Другого выхода нет."
@@ -49,7 +49,7 @@
     new "И на этот раз… Да — даже если это будет стоить мне жизни."
 
     old "You stupid idiot!{#ch18_s_193}"
-    new "Глупая!"
+    new "Идиотка!"
 
     old "Why did you hit me…? You familiar, you cur—hitting your mistress!{#ch18_l_140}"
     new "Зачем ты меня ударил…? Фамильяр, пёс — бить свою госпожу!"
@@ -175,7 +175,7 @@
     new "Кстати, сэнсэй, вы живы — хорошо."
 
     old "Old Osmond asked me to find you. I'm glad we met up safely.{#ch18_c_017}"
-    new "Старик Осман просил меня найти вас. Рад, что мы благополучно встретились."
+    new "Старик Осман просил меня найти вас. Хочу поблагодарить Бога за то, что мы благополучно встретились."
 
     old "From the headmaster?{#ch18_s_210}"
     new "От директора?"
@@ -310,7 +310,7 @@
     new "Мне дали задание до того, как Осман начал переговоры с Акиной."
 
     old "I was entrusted with this familiar—Mortosgnir.{#ch18_c_040}"
-    new "Мне вручили этого фамильяра — Мортогнира."
+    new "Мне вручили этого фамильяра — Мотсогнира."
 
     old "Through him, I've been in contact with Old Osmond, confined in the headmaster's office.{#ch18_c_041}"
     new "Через него я связываюсь со стариком Османом, запертым в кабинете директора."
@@ -333,7 +333,7 @@
     old "Old Osmond has steadfastly refused all of Weatherly's demands.{#ch18_c_045}"
     new "Старик Осман твёрдо отклоняет все требования Уэзерби."
 
-    old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike.{#ch18_c_046}"
+    old "In response, Weatherly threatens to wipe out everyone inside the academy, teachers and students alike, whether they resist or not. {#ch18_c_046}"
     new "В ответ, говорят, Уэзерби грозится уничтожить всех — и преподавателей, и учеников, независимо от того, сопротивляются они или нет."
 
     old "Naturally, the means would be Akina's bombs and a barrage from the aerial ships.{#ch18_c_047}"
@@ -418,7 +418,7 @@
     new "Э-Э, я и сам не понимаю."
 
     old "It's fine! I'll take that battleship down perfectly!{#ch18_l_180}"
-    new "Всё хорошо! Я точно свергну тот корабль!"
+    new "Всё хорошо! Я точно разделаюсь с тем кораблём!"
 
     old "Surely not that thing from the other day…?{#ch18_s_230}"
     new "Неужели ту штуку на днях…?"
@@ -472,7 +472,7 @@
     new "Как гипноз?"
 
     old "It's magic I've never seen before. Probably unique to Weatherly.{#ch18_c_064}"
-    new "Это магия, которой я никогда не видел. Вероятно, её собственная."
+    new "Это магия, которую я никогда не видел. Вероятно, её собственная."
 
     old "And Akina-kun? She must be controlling Haruna-kun in a similar way.{#ch18_c_065}"
     new "И Акина-кун? Она наверняка управляет Харуной похожим способом."
@@ -516,7 +516,7 @@
     new "Мне удалось сделать около десяти штук. Используйте их, когда будете звать на помощь мисс Церпст или мисс Табасу."
 
     old "According to Mortosgnir, those two haven't been captured yet.{#ch18_c_073}"
-    new "По словам Мортогнира, те двое пока не взяты в плен."
+    new "По словам Мотсогнира, те двое пока не взяты в плен."
 
     old "Mr. Colbert, thank you for your efforts.{#ch18_l_187}"
     new "Кольбер-сэн, спасибо за ваши старания."

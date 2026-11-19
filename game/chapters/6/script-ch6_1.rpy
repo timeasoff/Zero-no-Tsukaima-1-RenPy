@@ -79,7 +79,7 @@ label ch6:
     l "So what exactly is the reason they're patrolling?{#ch6_l_008}"
     # JA[7304]: それで、兵士が見回ってる事情って いったいなに？
     voice "ch6_k_002"
-    k "They said some important person has gone missing, though they don't know who.{#ch6_k_002}"
+    k "They said some important person has gone missing, though I don't know who.{#ch6_k_002}"
     # JA[3826]: ええ。 誰だかは分からないけど、 重要人物が行方不明になったとか言ってたわ。
     voice "ch6_l_009"
     l "An important person has gone missing…? Who could it be?{#ch6_l_009}"
@@ -471,7 +471,7 @@ label ch6_s355:
     s "U-um, it is dangerous to go outside in our current situation, so you should probably give up on the walk…{#ch6_s_037}"
     # JA[13414]: あ、あのー、今の状況で外に出るのは 危険ですし、散歩は控えた方が……。
     voice "ch6_s_038"
-    s "A-and if something happens, Louise will…{#ch6_s_038}"
+    s "A-and if something happens, I'll have to explain to Louise…{#ch6_s_038}"
     # JA[13415]: そ、それに何かあったら、俺がルイズに……。
     voice "ch6_h_029"
     h "I will smooth things over with Louise. Now, let us go.{#ch6_h_029}"

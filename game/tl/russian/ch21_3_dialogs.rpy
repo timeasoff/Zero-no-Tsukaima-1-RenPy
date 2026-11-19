@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "Well, I'll handle the arrangements for the contest. Look forward to it.{#ch21_k_027}"
     new "Что ж, я позабочусь о подготовке состязания. Ждите с нетерпением."
@@ -181,7 +181,7 @@
     new "О чём разговаривали!"
 
     old "L-Look, the cooking contest is coming up, right? So we were talking about all sorts—{#ch21_s_124}"
-    new "С-Смотри, же кулинарный бой приближается, да? Мы просто говорили о разном—"
+    new "С-Смотри, кулинарный бой же приближается, да? Мы просто говорили о разном—"
 
     old "Heh heh… You really think that excuse will work?{#ch21_l_060}"
     new "Хи-хи… Ты правда думаешь, это сработает?"
@@ -336,7 +336,7 @@
     old "Eh?{#ch21_s_151}"
     new "А?"
 
-    old "I keep thinking there must have been another way…{#ch21_si_074}"
+    old "I keep thinking there might have been another way…{#ch21_si_074}"
     new "Я всё думаю, должен был быть другой выход…"
 
     old "And when I think about it, I feel so very heavy-hearted.{#ch21_si_075}"
@@ -414,7 +414,7 @@
     old "If it comes to it, I'll protect everyone with this. Right, Derf—I'm counting on you, partner!{#ch21_s_164}"
     new "Если дойдёт до дела, я защищу всех вот этим. Верно, Дерф — я на тебя рассчитываю, приятель!"
 
-    old "Hah… Don't expect one village girl to be handled by your one arm. Figure it out yourself.{#ch21_d_018}"
+    old "Hah… Just one village girl — handle her with that one arm of yours, I'm telling you. Figure it out yourself.{#ch21_d_018}"
     new "Ха… Ну же, справишься как-нибудь и одной рукой, я тебе говорю! Сам разберись."
 
     old "D-Don't say that! Please, Derflinger-saaan!{#ch21_s_165}"

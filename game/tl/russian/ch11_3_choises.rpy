@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 # (ch11_3: scenes 478-499)
 
     old "Something's off.{#ch11_3_c_478_1}"
@@ -16,7 +16,7 @@
     old "Should we return it?{#ch11_3_c_485_2}"
     new "Может, лучше отнести?"
 
-    old "Don't we just need to toss it?{#ch11_3_c_485_3}"
+    old "We don't need it, do we?{#ch11_3_c_485_3}"
     new "Может, она не нужна?"
 
     old "I have to return the notebook to Haruna.{#ch11_3_c_490_1}"

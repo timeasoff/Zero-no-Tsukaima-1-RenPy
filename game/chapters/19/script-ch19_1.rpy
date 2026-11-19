@@ -290,7 +290,7 @@ label ch19_1_scene_743:
     # [SPRITE   lay5     image=+390, level=160, dir=1A]
     # サイト：そこで俺とルイズは、二手に分かれるって
     voice "ch19_s_257"
-    s "So Saito and I split up here? Ah, but at this distance it's practically just around the corner.{#ch19_s_257}"
+    s "So Louise and I split up here? Ah, but at this distance it's practically just around the corner. {#ch19_s_257}"
 
     # [SPRITE   lay9     image=+931, level=160, dir=1A]
     # コルベール：風は我々に吹いてる証だよ。
@@ -499,7 +499,7 @@ label ch19_1_scene_748:
 
     # サイト：それは分かってる。
     voice "ch19_s_272"
-    s "I know. I know it, but…{#ch19_s_272}"
+    s "I know. I should know it, but…{#ch19_s_272}"
 
     # [SPRITE   lay1     image=+308, level=160, dir=1A]
     # ルイズ：……。  [voice 6468]
@@ -775,7 +775,7 @@ label ch19_1_scene_749:
     # [SPRITE   lay6     image=+715, level=154, dir=2A]
     # キュルケ：ルイズと？
     voice "ch19_k_047"
-    k "With Louise? Well, if Tabitha says so, I suppose it can't be helped. She must have a reason…{#ch19_k_047}"
+    k "With Louise? Well, if Tabitha says so, I guess it can't be helped. She probably has a reason, right? {#ch19_k_047}"
 
     # タバサ：うん。  [voice 15608]
     voice "ch19_t_031"

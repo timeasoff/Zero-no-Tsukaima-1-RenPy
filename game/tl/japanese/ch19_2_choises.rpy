@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Leave it to me.{#ch19_2_c_751_1}"
     new "俺に任せておけよ"

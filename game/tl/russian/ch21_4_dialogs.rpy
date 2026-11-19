@@ -1,4 +1,4 @@
-# translate russian strings:
+translate russian strings:
 
     old "(I wonder what Tabitha's planning to cook…){#ch21_s_168}"
     new "Интересно, что Табаса собирается готовить…"
@@ -300,7 +300,7 @@
     old "(Hang in there, me. I can do it if I try. I will definitely survive this.){#ch21_s_224}"
     new "Держись, я. Если постараюсь, у меня получится. Я обязательно выживу."
 
-    old "What! Simply being able to eat the food my familiar makes should be thanks enough!{#ch21_l_075}"
+    old "What! Simply being able to eat the food your mistress makes should be thanks enough!{#ch21_l_075}"
     new "Что! Одного того, что ты можешь есть еду, приготовленную госпожой, должно быть достаточно!"
 
     old "Whoa, she left the room… What's going to become of me…{#ch21_s_225}"
@@ -315,8 +315,8 @@
     old "Just a walk, a walk. By the way, what were you two talking about?{#ch21_s_227}"
     new "Просто гуляю, гуляю. Кстати, о чём вы двое говорили?"
 
-    old "They were asking my advice about the cooking contest. I was thinking of trying a local dish from this world.{#ch21_ha_014}"
-    new "Она просила совета насчёт кулинарного боя. Я подумываю приготовить какое-нибудь блюдо этого мира."
+    old "I was asking her for advice about the cooking contest. I was thinking of trying a local dish from this world. {#ch21_ha_014}"
+    new "Я просила у неё совета насчёт кулинарного боя. Я подумываю приготовить какое-нибудь блюдо этого мира."
 
     old "Local cuisine, huh…{#ch21_s_228}"
     new "Местная кухня, значит…"
@@ -348,8 +348,8 @@
     old "It's prized among gourmets. Since only a small amount can be harvested, it's traded at a high price.{#ch21_m_014}"
     new "Это ценят гурманы. Поскольку добывают немного, продаётся оно по высокой цене."
 
-    old "I see… Kirche will look at Flame differently from now on.{#ch21_s_234}"
-    new "Понятно… Теперь Кирке будет смотреть на Флейм по-другому."
+    old "I see… I'll look at Kirche's Flame differently from now on. {#ch21_s_234}"
+    new "Понятно… Теперь я буду смотреть на Флейм по-другому."
 
     old "Hiraga-kun, don't! It's cruel.{#ch21_ha_016}"
     new "Хирага-кун, не надо! Это жестоко."
@@ -382,7 +382,7 @@
     new "Значит, и в этом мире оно было…"
 
     old "But in my house, all the servants handle everything. Even if you call it commoners' local food, it means nothing to me.{#ch21_m_018}"
-    new "Но у дома всеми делами занимаются слуги. Даже если ты называешь это простонародной едой, мне это ничего не говорит."
+    new "Но у меня дома всеми делами занимаются слуги. Даже если ты называешь это простонародной едой, мне это ничего не говорит."
 
     old "That's no good.{#ch21_s_239}"
     new "Это не годится."

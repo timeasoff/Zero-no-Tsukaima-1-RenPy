@@ -606,7 +606,7 @@ label ch21_2_scene_781:
     # [SPRITE   lay1     image=+306, level=160, dir=1A]
     # ルイズ：誰があんたの恋人ですって？
     voice "ch21_l_040"
-    l "Who said she's your lover? My familiar can do what she likes, but I absolutely refuse to hand her over to you!{#ch21_l_040}"
+    l "Who said he's your lover? My familiar can do what he likes, but I absolutely refuse to hand him over to you, even if it kills me!{#ch21_l_040}"
 
     # [SPRITE   lay6     image=+711, level=160, dir=2A]
     # キュルケ：あらぁ？
@@ -962,7 +962,7 @@ label ch21_2_scene_786:
     # [SPRITE   lay5     image=+429, level=160, dir=2A]
     # サイト：いや、おまえら淡々と事を進めるなよ。  [voice 12070]
     voice "ch21_s_084"
-    s "No, would you all stop taking this so seriously!{#ch21_s_084}"
+    s "No, would you all stop calmly steamrolling ahead with this!{#ch21_s_084}"
 
     # [SPRITE   lay1     hide]
     # [SPRITE   lay5     hide]

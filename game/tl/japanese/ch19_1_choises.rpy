@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Louise and I split up?{#ch19_1_c_739_1}"
     new "俺とルイズは、別行動ですか？"

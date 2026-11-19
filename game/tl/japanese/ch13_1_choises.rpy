@@ -1,4 +1,4 @@
-# translate japanese strings:
+translate japanese strings:
 
     old "Object.{#ch13_1_c_549_1}"
     new "反論する"
