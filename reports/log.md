@@ -6024,3 +6024,13 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - RECHECK: `check_renpy_syntax.py` — OK (5 warning, как до merge);
   `check_project.py` — RESULT: OK, errors=0, warnings=911, info=19 (W-профиль прежний:
   W6-заглушки id(K) и W1 stale-old, не ошибки).
+
+## 2026-11-19 — task_board.json: разбор закоммиченных маркеров qa-мержа
+
+- После merge обнаружено, что `reports/task_board.json` был невалидным JSON ещё ДО
+  мержа: в истории master (коммит 700e86d) закоммитились 3 блока конфликта
+  `qa/review-ch2-5` (марки `<<<<<<< HEAD` / `>>>>>>> qa/review-ch2-5`).
+- Разобрано union-методом: обе стороны дали валидный JSON (master 11 задач / qa 24),
+  объединены по id с сортировкой по `created` → 25 уникальных задач, 0 маркеров.
+- Сохранены обе ранее ускользавшие открытые задачи: `T20261118-NEW-001` (порт главы 10)
+  и `T20261119-065520-ad9e` (cycle2, прерван). `tools/task_board.py status` → 25/2.

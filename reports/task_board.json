@@ -1059,24 +1059,15 @@
       ]
     },
     {
-<<<<<<< HEAD
       "id": "T20261118-NEW-001",
       "created": "2026-11-18 00:00:00",
       "request": "Продолжить перевод: глава 10 (chapter_11 突然のスカウト) — порт с нуля, части ch10_1, ch10_2",
       "target": "10",
       "status": "open",
-=======
-      "id": "T20261118-073145-091b",
-      "created": "2026-11-18 07:31:45",
-      "request": "Independent semantic audit A (lexical accuracy) JA->EN and JA->RU, project chapters 2-5, all existing parts; per-part evidence in reports/sma/chN/part/a/<run_id>.md",
-      "target": "2",
-      "status": "closed",
->>>>>>> qa/review-ch2-5
       "subtasks": [
         {
           "id": "S1",
           "kind": "prompt",
-<<<<<<< HEAD
           "prompt": "port-part",
           "target": "10_1",
           "scope": "part",
@@ -1104,7 +1095,29 @@
           "title": "Аудит главы 10: precheck + A + C + analyzer",
           "status": "done",
           "note": "precheck + A + C + analyzer completed with evidence on disk"
-=======
+        },
+        {
+          "id": "S4",
+          "kind": "manual",
+          "prompt": "check_project.py до RESULT: OK; отчёты reports/ch10/*.md; обновить reports/translation_plan.md и reports/log.md",
+          "target": "10",
+          "scope": "part",
+          "title": "Финальные проверки и отчётность главы 10",
+          "status": "done",
+          "note": "completed"
+        }
+      ]
+    },
+    {
+      "id": "T20261118-073145-091b",
+      "created": "2026-11-18 07:31:45",
+      "request": "Independent semantic audit A (lexical accuracy) JA->EN and JA->RU, project chapters 2-5, all existing parts; per-part evidence in reports/sma/chN/part/a/<run_id>.md",
+      "target": "2",
+      "status": "closed",
+      "subtasks": [
+        {
+          "id": "S1",
+          "kind": "prompt",
           "prompt": "semantic-audit-a",
           "target": "2_1",
           "scope": "part",
@@ -1851,19 +1864,10 @@
           "note": "",
           "evidence": [],
           "manual": "B-equivalent audit 2_3; instructions: reports/tasks/prompts/T20261118-074934-d6e9_S3.md; evidence: reports/sma/ch2/3/b/20261118-b-fc1638.md"
->>>>>>> qa/review-ch2-5
         },
         {
           "id": "S4",
           "kind": "manual",
-<<<<<<< HEAD
-          "prompt": "check_project.py до RESULT: OK; отчёты reports/ch10/*.md; обновить reports/translation_plan.md и reports/log.md",
-          "target": "10",
-          "scope": "part",
-          "title": "Финальные проверки и отчётность главы 10",
-          "status": "done",
-          "note": "completed"
-=======
           "prompt": "",
           "target": "2_4",
           "scope": "part",
@@ -10094,7 +10098,6 @@
           "note": "",
           "evidence": [],
           "manual": "C-round2 5_11; instructions: reports/tasks/prompts/T20261119-065520-ad9e_S38.md; evidence: reports/sma/ch5/11/c/20261119-c2-43087b.md"
->>>>>>> qa/review-ch2-5
         }
       ]
     }
