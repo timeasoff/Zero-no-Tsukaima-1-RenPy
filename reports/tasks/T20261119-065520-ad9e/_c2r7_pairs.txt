@@ -1,0 +1,660 @@
+[L12] l ch2.7_l_001
+  EN: Anyway! I'm going to drink. Just watch me!
+  JA: と・に・か・く。わたしは飲むの。飲んでみせるの！
+  RU: В любом случае! Я пью. Только смотрите!
+
+[L14] l ch2.7_l_002
+  EN: You'll see! I'll grow so big that Kirche and Siesta won't even reach my feet!
+  JA: 今に見てなさい！キュルケやシエスタなんて足元にも及ばないほどおっきくなってやるんだからーっ！
+  RU: Увидите! Я вырасту так, что Кирхе и Сиеста не дотянутся и до моих пят!
+
+[L15] th None
+  EN: Whew... Louise has it rough too, in her own way. I really do admire that grit of hers.
+  JA: （はあ……ルイズも、いろいろ苦労して　るんだなぁ。　その根性には感心するわ、本当）
+  RU: Фух… И у Луизы трудности. За такое упрямство — уважаю, честно.
+
+[L17] s ch2.7_s_001
+  EN: Sure, but don't drink too much and upset your stomach, okay?
+  JA: いいけど、あまり飲みすぎておなかこわすなよ？
+  RU: Ладно, только не пей слишком много, а то расстроишь живот, хорошо?
+
+[L19] l ch2.7_l_003
+  EN: No! Once I've made up my mind, the only way is forward!
+  JA: いいえっ！一度決めた以上は前進あるのみよ！
+  RU: Нет! Раз решила — только вперёд!
+
+[L21] l ch2.7_l_004
+  EN: Even if I collapse, it'll be face-first! That's how the House of Vallière lives!
+  JA: たとえ倒れるときでも前のめり！それがヴァリエール家の生き様よ！
+  RU: Даже если упаду — то лицом вперёд! Таков обычай дома Вальер!
+
+[L22] th None
+  EN: She's turned it into a whole life creed... come on.
+  JA: （生き様にまで発展してるよ、おい）
+  RU: Уже образ жизни в кредо превратила, слушай.
+
+[L32] si ch2.7_si_001
+  EN: Ah, good morning, Saito-san.
+  JA: あ、おはようございます、サイトさん。
+  RU: А, доброе утро, Сайто-сан.
+
+[L35] s ch2.7_s_002
+  EN: Hey, Siesta. So you're here.
+  JA: やあ、シエスタ。ここにいたんだ。
+  RU: Привет, Сиеста. Вот где ты.
+
+[L37] s ch2.7_s_003
+  EN: Busy with work today?
+  JA: 今日は仕事忙しい？
+  RU: Сегодня на работе много дела?
+
+[L39] si ch2.7_si_002
+  EN: No. I have the day off, so I thought I'd try my hand at baking sweets.
+  JA: いいえ。今日はお休みをもらったんで、お菓子作りをしてみようと思いまして。
+  RU: Нет. Сегодня у меня выходной, я подумала попробовать испечь что-нибудь сладкое.
+
+[L42] s ch2.7_s_004
+  EN: Heh, that sounds like you. So, what are you making?
+  JA: へえ、シエスタらしいな。それで、何を作るのかな。
+  RU: Ишь ты, в духе Сиесты. Ну и что печёшь?
+
+[L44] si ch2.7_si_003
+  EN: I was thinking of making cookies today.
+  JA: 今日は、クッキーにしようかと思ってるんですよ。
+  RU: Сегодня, пожалуй, испеку печенье.
+
+[L47] s ch2.7_s_005
+  EN: Cookies, huh. Yeah, yeah - fresh out of the oven they smell great and taste even better.
+  JA: クッキーかあ。うんうん、焼きたてのクッキーって、香ばしくておいしいよなあ。
+  RU: Печенье, ага. Угу-угу — из печи свежее ароматное да ещё и вкусное.
+
+[L50] si ch2.7_si_004
+  EN: Oh, that's right. Saito-san, why don't you make cookies with me?
+  JA: あ、そうだ。サイトさんも、一緒にクッキーを作りませんか？
+  RU: А, точно. Сайто-сан, не хотите ли вместе испечь печенье?
+
+[L53] s ch2.7_s_006
+  EN: Huh? Me too?
+  JA: え？俺も？
+  RU: А? Мне тоже?
+
+[L55] si ch2.7_si_005
+  EN: Yes. It's sure to be fun.
+  JA: そうです。絶対、楽しいですよ。
+  RU: Да. Забавно будет точно.
+
+[L57] s ch2.7_s_007
+  EN: Well, I guess...
+  JA: そうだなあ……。
+  RU: Ну, пожалуй…
+
+[L70] s ch2.7_s_008
+  EN: Nah, I'll pass.
+  JA: いや、遠慮しておくよ。
+  RU: Не, я лучше воздержусь.
+
+[L73] si ch2.7_si_006
+  EN: Is that... no good?
+  JA: 駄目ですか……？
+  RU: Неужели нельзя…?
+
+[L77] s ch2.7_s_009
+  EN: I appreciate the offer, but I'd only get in your way, Siesta.
+  JA: せっかくだけど、俺じゃシエスタの足手まといになるだけだしなあ。
+  RU: Ценю предложение, но я тебе только помехой буду.
+
+[L80] si ch2.7_si_007
+  EN: Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know.
+  JA: え、あ、あの、わたしなんてそんなに大したもの作れるわけじゃありませんし、それにサイトさんだって、何かできますよ。
+  RU: Э-эм, я ведь ничего особенного не умею, а вы, Сайто-сан, тоже можете кое-что.
+
+[L83] s ch2.7_s_010
+  EN: Hmm... you've got a point. Alright, let's give it a try.
+  JA: うーん、そうだなぁ……。じゃあ、やってみますか。
+  RU: Хм… верно-то. Ладно, попробуем.
+
+[L86] si ch2.7_si_008
+  EN: That's right. Let's do it together.
+  JA: そうですよ。一緒にやりましょう。
+  RU: Вот именно. Давайте вместе.
+
+[L93] s ch2.7_s_011
+  EN: Sounds like fun - let's do it.
+  JA: 面白そうだな、やろうか。
+  RU: Звучит занятно — давай.
+
+[L96] si ch2.7_si_009
+  EN: Really?!
+  JA: 本当ですか！
+  RU: Правда?!
+
+[L99] s ch2.7_s_012
+  EN: Well, I don't know a thing about cooking, so I might just be dead weight.
+  JA: ま、俺って料理のことなんにも知らないから、足ひっぱるだけかもしれないけど。
+  RU: Ну, я на кухне ни бельмеса, так что, возможно, буду только тормозить.
+
+[L101] si ch2.7_si_010
+  EN: Not at all. Let's do our best together, okay?
+  JA: いえいえ、そんなことないですよ。一緒に頑張りましょうねっ。
+  RU: Ни в коем случае. Давайте стараться вместе, хорошо?
+
+[L104] s ch2.7_s_013
+  EN: Yeah.{#ch2.7_s_013}
+  JA: うん。
+  RU: Ага.
+
+[L111] s ch2.7_s_014
+  EN: Er... I'll be in charge of tasting, then.
+  JA: えーと……。俺は味見専門ということで。
+  RU: Э-э… Значит, я отвечаю за дегустацию.
+
+[L114] si ch2.7_si_011
+  EN: Is that so...? What a shame.
+  JA: そう……ですか？残念です。
+  RU: Так…? Как жаль.
+
+[L117] si ch2.7_si_012
+  EN: And here I thought Saito-san and I could make cookies together...
+  JA: せっかくサイトさんとクッキーが作れると思ったのに……。
+  RU: А я думала, мы с Сайто-саном будем печь печенье вместе…
+
+[L120] s ch2.7_s_015
+  EN: N-no, I mean, I'm terrible at cooking and all...
+  JA: い、いや、ほら、俺って料理苦手だし……。
+  RU: Н-нет, ну, я же готовить не умею и всё такое…
+
+[L122] si ch2.7_si_013
+  EN: Tug, tug...
+  JA: （いじいじ）
+  RU: Тянет-потянет…
+
+[L125] s ch2.7_s_016
+  EN: ...{#ch2.7_s_016}
+  JA: ……。
+  RU: …{#ch2.7_s_016}
+
+[L127] si ch2.7_si_014
+  EN: Tug, tug...{#ch2.7_si_014}
+  JA: （いじいじ）
+  RU: Тянет-потянет…{#ch2.7_si_014}
+
+[L130] s ch2.7_s_017
+  EN: Alright. I'll help out too.
+  JA: 分かったよ。俺も手伝ってみるよ。
+  RU: Ладно. Я тоже помогу.
+
+[L133] si ch2.7_si_015
+  EN: Really? Then let's do it together!
+  JA: え、本当ですか？それじゃあ、一緒にやりましょう！
+  RU: Правда? Тогда давайте вместе!
+
+[L135] th None
+  EN: Dammit - did Siesta just set me up?
+  JA: （しまった、シエスタにはめられた？）
+  RU: Блин — Сиеста меня только что подставила?
+
+[L142] si ch2.7_si_016
+  EN: Then please knead this butter until it's soft and paste-like. I'll get the flour ready in the meantime.
+  JA: それじゃ、このバターを柔らかくペースト状になるまで練ってください。わたしは、その間に粉の準備をしますから。
+  RU: Тогда, пожалуйста, разотрите это масло до мягкого пастообразного состояния. А пока я подготовлю муку.
+
+[L144] s ch2.7_s_018
+  EN: Mm, got it.
+  JA: ん、分かった。
+  RU: Мм, понял.
+
+[L147] s ch2.7_s_019
+  EN: ...Mmf. This is harder than it looks.
+  JA: ……むう。結構大変だな、これ。
+  RU: …Мм. Дело непростое.
+
+[L150] si ch2.7_si_017
+  EN: Is it done?
+  JA: できましたか？
+  RU: Готово?
+
+[L153] s ch2.7_s_020
+  EN: Ah, yeah. Sort of.
+  JA: あー、うん。一応。
+  RU: А, да. В общем, да.
+
+[L155] si ch2.7_si_018
+  EN: Next, add the sugar and egg yolk, and stir well again.
+  JA: それじゃ、砂糖と卵の黄身を入れるんで、またよくかき混ぜてください。
+  RU: Дальше добавьте сахар и желток и снова хорошо размешайте.
+
+[L157] si ch2.7_si_019
+  EN: Sugar in first - and once it's mixed well, then the yolk.
+  JA: 最初に砂糖を入れて、よく混ざったら黄身を入れてくださいね。
+  RU: Сначала сахар, а когда хорошо перемешается — только потом желток.
+
+[L160] s ch2.7_s_021
+  EN: Roger!
+  JA: 了解！
+  RU: Принято!
+
+[L162] th None
+  EN: Even unbaked, it already smells pretty good.
+  JA: （まだ焼いてないのに、　それなりにいい匂いがするな）
+  RU: Ещё не печётся, а уже неплохо пахнет.
+
+[L165] si ch2.7_si_020
+  EN: How is it?
+  JA: どうですかあ？
+  RU: Как?
+
+[L167] s ch2.7_s_022
+  EN: I think I stirred it.
+  JA: かき混ぜたかな。
+  RU: Кажется, размешал.
+
+[L169] si ch2.7_si_021
+  EN: Let's see, let's see.
+  JA: どれどれ？
+  RU: Ну-ка, ну-ка.
+
+[L171] si ch2.7_si_022
+  EN: ...Yep, this should be fine.
+  JA: ……うん、これで大丈夫でしょう。
+  RU: …Да, так сойдёт.
+
+[L173] si ch2.7_si_023
+  EN: Then I'll fold in the flour and mix.
+  JA: それじゃ、粉を入れて混ぜるのはわたしがやりますね。
+  RU: Тогда я сама всыплю муку и перемешаю.
+
+[L175] s ch2.7_s_023
+  EN: Sure, thanks.
+  JA: うん、よろしく。
+  RU: Ага, на тебя.
+
+[L177] si ch2.7_si_024
+  EN: Alright.
+  JA: はい。
+  RU: Хорошо.
+
+[L178] th None
+  EN: Mm-mm-mm. How quick and deft she is.
+  JA: （うーむむむ。　実に手際が良くて軽やかだ）
+  RU: Мм-мм-мм. Как она проворно и ловко всё делает.
+
+[L180] si ch2.7_si_025
+  EN: Now I'll lay out the dough... and put it in the oven...
+  JA: あとは、生地を並べて……。オーブンに入れて……、と。
+  RU: Теперь раскладываю тесто… и в духовку…
+
+[L182] si ch2.7_si_026
+  EN: Now we just wait for it to bake right.
+  JA: あとは、うまく焼けるのを待つだけです。
+  RU: Осталось дождаться, пока хорошо испечётся.
+
+[L185] s ch2.7_s_024
+  EN: I can't wait for them to be done.
+  JA: できあがるのが楽しみだね。
+  RU: Не терпится дождаться готового.
+
+[L187] si ch2.7_si_027
+  EN: Yes.{#ch2.7_si_027}
+  JA: ええ。
+  RU: Да.
+
+[L190] si ch2.7_si_028
+  EN: I wonder if they're about ready.
+  JA: そろそろいいかしら。
+  RU: Кажется, пора.
+
+[L192] si ch2.7_si_029
+  EN: Let's see... Yep! Looking good.
+  JA: どれどれ？……うん！いい感じです。
+  RU: Ну-ка… Отлично!
+
+[L195] s ch2.7_s_025
+  EN: Let me see... Huh... smells great.
+  JA: どれどれ？へえ……いい匂いだなあ。
+  RU: Дай гляну… Ишь ты… хорошо пахнет.
+
+[L197] si ch2.7_si_030
+  EN: Saito-san, go ahead and have a taste.
+  JA: サイトさん、どうぞ味見してくださいな。
+  RU: Сайто-сан, пробуйте.
+
+[L199] s ch2.7_s_026
+  EN: Then I won't hold back.
+  JA: それじゃ、遠慮なく。
+  RU: Что ж, без церемоний.
+
+[L202] s ch2.7_s_027
+  EN: Mm! This is delicious! As expected of Siesta - they're great.
+  JA: ん！これは美味い！さすがシエスタ、やっぱり美味しいよ。
+  RU: Мм! Вкусно! Как и ожидалось от Сиесты — правда вкусно.
+
+[L205] si ch2.7_si_031
+  EN: Thank you... I'm sure it's because you were here, Saito-san.
+  JA: ありがとうございます……。サイトさんがいてくれたからです、きっと。
+  RU: Спасибо… Уверена, всё вышло потому, что вы были рядом, Сайто-сан.
+
+[L208] s ch2.7_s_028
+  EN: Nah, in the end I didn't actually do anything useful. But these cookies really are good.
+  JA: いやあ、俺って結局何も役に立ってないし。でも、本当に美味しいよ、このクッキー。
+  RU: Да нет, по сути я тут ничего полезного не сделал. Но печенье правда вкусное.
+
+[L210] si ch2.7_si_032
+  EN: Fufu, eat as much as you like.
+  JA: うふふ、どんどん食べてくださいな。
+  RU: Уфуфу, ешьте сколько угодно.
+
+[L212] s ch2.7_s_029
+  EN: It'd be a waste for me to eat them all. Let's share, Siesta.
+  JA: 俺ばっか食べてたらもったいないよ。シエスタも一緒に食べよう。
+  RU: Жалко, если съем один. Давай вместе, Сиеста.
+
+[L214] si ch2.7_si_033
+  EN: Ah, yes!
+  JA: あ、はい！
+  RU: А, да!
+
+[L223] s ch2.7_s_030
+  EN: Hey, Tabitha - it's nice out today. Want to go somewhere for once?
+  JA: なあ、タバサ、今日はいい天気だし、たまには外に出かけないか？
+  RU: Эй, Табита — сегодня хорошая погода. Не пойти ли нам куда-нибудь?
+
+[L226] t ch2.7_t_001
+  EN: ...Already on my schedule.
+  JA: ……その予定。
+  RU: …У меня уже в планах.
+
+[L229] s ch2.7_s_031
+  EN: ...Whaat?! Tabitha is going outside!?
+  JA: ……ええっ！タバサが外出するのか！？
+  RU: …Что?! Табита выходит на улицу!?
+
+[L231] th None
+  EN: ...{#ch2.7_th1044a}
+  JA: ……。
+  RU: …
+
+[L234] s ch2.7_s_032
+  EN: Ah, no - I'm not saying it's weird to go out. It's just, I came to invite you and you beat me to it...
+  JA: あ、いや、別に出かけるのが変だと言ってるわけじゃなくてだな。誘いに来たのに先を越されたというか……。
+  RU: А, нет, я не говорю, что странно выходить. Просто я хотел позвать, а меня опередили…
+
+[L237] s ch2.7_s_033
+  EN: Ah, whatever. So, where are you headed? I can come along, if you want.
+  JA: まあいいや。で、どこへ行くんだ？なんだったら俺、付き合うけど。
+  RU: Да ладно. И куда идёшь? Могу составить компанию.
+
+[L240] t ch2.7_t_002
+  EN: ...To town, to buy books.
+  JA: ……街まで、本を買いに。
+  RU: …В город, купить книги.
+
+[L243] s ch2.7_s_034
+  EN: Oh... sorry, that makes perfect sense.
+  JA: ああ……ごめん、すごく納得した。
+  RU: А… прости, всё как раз объяснилось.
+
+[L245] t ch2.7_t_003
+  EN: ...So I can't come along today.
+  JA: ……だから、今日は付き合えない。
+  RU: …Поэтому сегодня я не могу пойти.
+
+[L248] s ch2.7_s_035
+  EN: Hahaha. Come on, in that case I'll at least carry your bags.
+  JA: はははっ。なーに、そういうことなら荷物持ちくらいしてやるよ。
+  RU: Ха-ха-ха. Ну, раз так — я хоть сумки подержу.
+
+[L250] t ch2.7_t_004
+  EN: ...You don't mind?
+  JA: ……いいの？
+  RU: …Ты не против?
+
+[L252] s ch2.7_s_036
+  EN: Of course, it's nothing.
+  JA: いいって、それくらい。
+  RU: Конечно, это ерунда.
+
+[L254] t ch2.7_t_005
+  EN: ...They'll get pretty heavy, though.
+  JA: ……かなり重くなるけど。
+  RU: …Только их станет довольно тяжело носить.
+
+[L257] s ch2.7_s_037
+  EN: Er... how heavy?
+  JA: ええと……どれくらい？
+  RU: Э-э… насколько?
+
+[L259] t ch2.7_t_006
+  EN: ...Usually I only buy what fits in my bag.
+  JA: ……普段は、鞄に入るだけにしてる。
+  RU: …Обычно я беру столько, сколько влезет в сумку.
+
+[L262] s ch2.7_s_038
+  EN: Oh, I can handle that much. Don't worry, leeeave it to me.
+  JA: ああ、それくらいなら俺でも持てるさ。大丈夫、まーかせて。
+  RU: А, такое я уж точно потащу. Не переживай, полааагайся на меня.
+
+[L264] t ch2.7_t_007
+  EN: ...Alright. Please.
+  JA: ……分かった。お願い。
+  RU: …Ладно. Прошу.
+
+[L266] s ch2.7_s_039
+  EN: Roger, roger.
+  JA: 了解、了解。
+  RU: Принято-принято.
+
+[L269] s ch2.7_s_040
+  EN: Phew, as lively as ever. So, which way is the bookstore?
+  JA: ふうっ、相変わらず賑やかだなあ。で、本屋はどっちなんだ？
+  RU: Фух, как всегда шумно. Итак, в какую сторону книжный?
+
+[L271] t ch2.7_t_008
+  EN: ...This way.
+  JA: ……こっち。
+  RU: …Сюда.
+
+[L273] s ch2.7_s_041
+  EN: Okay. Let's go.
+  JA: オッケー。じゃ、行こうぜ。
+  RU: Ок. Поехали.
+
+[L276] t ch2.7_t_009
+  EN: ...Just around this corner.
+  JA: ……この角を曲がったところ。
+  RU: …За этим углом.
+
+[L278] s ch2.7_s_042
+  EN: Let's see.
+  JA: どれどれ。
+  RU: Ну-ка.
+
+[L280] s ch2.7_s_043
+  EN: This one here - the shop with the sign out front?
+  JA: ここの、立て札が出てるこの店か？
+  RU: Вот это, где вывеска висит?
+
+[L282] t ch2.7_t_010
+  EN: ...Sign?
+  JA: ……立て札？
+  RU: …Вывеска?
+
+[L285] s ch2.7_s_044
+  EN: Something's written on it. I can't read it, though.
+  JA: なんか書いてあるな。俺には読めないけど。
+  RU: Там что-то написано. Только прочитать не могу.
+
+[L286] th None
+  EN: ...{#ch2.7_th1044b}
+  JA: ……。
+  RU: …
+
+[L289] s ch2.7_s_045
+  EN: What does it say?
+  JA: 何て書いてあるんだ？
+  RU: Что там написано?
+
+[L292] t ch2.7_t_011
+  EN: ...'Closed today.'
+  JA: ……『本日休業』。
+  RU: …«Сегодня закрыто».
+
+[L295] s ch2.7_s_046
+  EN: ...Huh?{#ch2.7_s_046}
+  JA: ……は？
+  RU: …Что?
+
+[L297] t ch2.7_t_012
+  EN: ...The shop is closed.
+  JA: ……お店が閉まってる。
+  RU: …Магазин закрыт.
+
+[L299] s ch2.7_s_047
+  EN: Great. Talk about bad luck.
+  JA: はあ。そりゃまた運が悪いな。
+  RU: Здорово. Везёт же.
+
+[L300] th None
+  EN: ...{#ch2.7_th1044c}
+  JA: ……。
+  RU: …
+
+[L301] th None
+  EN: Wow, Tabitha is so disappointed it's obvious just to look at. She must have been looking forward to it a lot.
+  JA: （うわー、タバサが見てて分かるくらい　ガッカリしてるよ。　よっぽど楽しみにしてたんだな）
+  RU: Ваа, Табита расстроена так, что видно невооружённым глазом. Значит, очень ждала.
+
+[L314] s ch2.7_s_048
+  EN: Days like this happen.
+  JA: こんな日もあるって。
+  RU: Бывает и так.
+
+[L315] th None
+  EN: ...{#ch2.7_th1045a}
+  JA: ……。
+  RU: …
+
+[L317] s ch2.7_s_049
+  EN: Come on, it's not like today's the only day you can buy books. You can just come again next time.
+  JA: ほら、別に、本を買いに来るのは今日だけじゃないだろ？また今度にすればいいじゃないか。
+  RU: Ну, не будешь же ты покупать книги только сегодня. Можно прийти в другой раз.
+
+[L319] t ch2.7_t_013
+  EN: ...There's no guarantee the book I want will still be in stock by next time.
+  JA: ……今度来るときまでに、目当ての本が売れ残ってる保証はない。
+  RU: …Нет гарантии, что нужная книга дождётся до следующего раза.
+
+[L322] s ch2.7_s_050
+  EN: Oof. Fair point, but...
+  JA: う。確かにそうだけど……。
+  RU: Угх. Верно, но…
+
+[L324] s ch2.7_s_051
+  EN: ...{#ch2.7_s_051}
+  JA: ……。
+  RU: …{#ch2.7_s_051}
+
+[L325] th None
+  EN: ...{#ch2.7_th1045}
+  JA: ……。
+  RU: …{#ch2.7_th1045}
+
+[L328] s ch2.7_s_052
+  EN: Ah, tell you what - next time I'll sneak out on your errand. Tell me the title and I'll buy it for you.
+  JA: あー、なんなら俺が今度こっそりお遣いに来るからさ。本の名前、教えてくれれば買って来るよ。
+  RU: А, вот что: в следующий раз я тихонько сбегаю вместо тебя. Назови название — куплю.
+
+[L331] t ch2.7_t_014
+  EN: ...Are you sure?
+  JA: ……本当に、いいの？
+  RU: …Ты правда не против?
+
+[L333] s ch2.7_s_053
+  EN: Ah, yeah. I'll manage somehow.
+  JA: あー、うん。なんとかするさ。
+  RU: А, да. Как-нибудь устрою.
+
+[L336] t ch2.7_t_015
+  EN: ...Thanks.
+  JA: ……ありがとう。
+  RU: …Спасибо.
+
+[L343] s ch2.7_s_054
+  EN: I'll buy you something.
+  JA: なんかおごってやるよ。
+  RU: Я тебя угощу.
+
+[L346] t ch2.7_t_016
+  EN: ...Huh?{#ch2.7_t_016}
+  JA: ……え？
+  RU: …А?
+
+[L348] s ch2.7_s_055
+  EN: Er, well, it's such nice weather and your throat must be dry, right?
+  JA: ええと、まああれだ、こんだけの上天気だし喉も渇いたろ？
+  RU: Э-э, ну, погода-то отличная, и наверняка пересохло в горле, верно?
+
+[L350] s ch2.7_s_056
+  EN: That stall over there sells juice, so I'll go grab some.
+  JA: そこの露店でジュース売ってたから、買ってくるよ。
+  RU: Там у лотка продают сок, сбегаю принесу.
+
+[L353] t ch2.7_t_017
+  EN: Ah...{#ch2.7_t_017}
+  JA: あ……。
+  RU: А…
+
+[L356] s ch2.7_s_057
+  EN: Here, sorry to keep you waiting. This one's yours, Tabitha.
+  JA: はい、お待たせ。こっちがタバサの分な。
+  RU: На, извини, что заставил ждать. Это твоё, Табита.
+
+[L357] th None
+  EN: ...{#ch2.7_th1046a}
+  JA: ……。
+  RU: …
+
+[L360] s ch2.7_s_058
+  EN: Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine.
+  JA: って、そういやこれ、なんのジュースだ？お品書きが読めないから適当に買って来ちゃったけど、大丈夫かな。
+  RU: А, кстати, это какой сок? Меню прочитать не смог, так что взял наугад — не страшно?
+
+[L362] t ch2.7_t_018
+  EN: ...That's wild grape juice.
+  JA: ……それは、山ブドウのジュース。
+  RU: …Это сок дикого винограда.
+
+[L365] s ch2.7_s_059
+  EN: Wild grapes, huh. Oh, and what's yours?
+  JA: 山ブドウか。あ、そっちのはなに？
+  RU: Дикий виноград, ага. А что у тебя?
+
+[L367] t ch2.7_t_019
+  EN: ...This one is mountain cranberry juice.
+  JA: ……こっちは、コケモモのジュース。
+  RU: …А это сок брусники.
+
+[L369] s ch2.7_s_060
+  EN: Huh... I have no idea what mountain cranberries are, but... oh well, dig in!
+  JA: へえ……。コケモモってなんだか分からないけど……。まあ、いいや、いっただっきまーす。
+  RU: Ишь ты… Не знаю я, что за брусника такая… Да ладно, приступаю!
+
+[L372] s ch2.7_s_061
+  EN: Pfft - sour, but good.
+  JA: ぷはっ、酸っぱいけど美味いや。
+  RU: Пф — кислый, но вкусный.
+
+[L376] th None
+  EN: ...{#ch2.7_th1046b}
+  JA: ……。
+  RU: …
+
+[L380] s ch2.7_s_062
+  EN: Hmm? What's wrong?
+  JA: んぁ、どうかした？
+  RU: Мм? Что такое?
+
+[L383] t ch2.7_t_020
+  EN: ...Nothing.
+  JA: ……なんでもない。
+  RU: …Ничего.
+

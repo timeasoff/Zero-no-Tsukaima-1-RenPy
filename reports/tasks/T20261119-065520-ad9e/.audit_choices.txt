@@ -1,0 +1,15 @@
+EN: Couldn't sleep because of an all-nighter or something
+ JA: 徹夜とかして眠れなかった
+ RU: Не уснула из-за бессонной ночи или чего-то такого
+EN: Couldn't sleep because that female guest was on her mind
+ JA: 女性客が気になって眠れなかった
+ RU: Не уснула из-за мыслей о той гостье
+EN: Couldn't sleep because she was keeping watch on me
+ JA: 俺を見張って眠れなかった
+ RU: Не уснула из-за того, что следила за мной
+EN: Shall we go catch him too?
+ JA: 俺達も捕まえに行くか？
+ RU: Мы тоже пойдём его ловить?
+EN: I'd like to eat breakfast
+ JA: 朝食食べたいんだけど
+ RU: Я бы позавтракал

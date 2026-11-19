@@ -1,0 +1,330 @@
+L15 [s] EN: Mmm... Ahh— what a stretch.
+      JA: んんー……ふああーあ。
+      RU: М-м… А-а, вот это растянулся…
+L21 [s] EN: Morning, huh... It's been a while since I slept on straw. My whole body aches...
+      JA: 朝か……。久しぶりのワラの布団はどうも体が痛いなぁ……。
+      RU: Утро, значит… Давно не спал на соломе — всё тело ноет…
+L23 [th] EN: Can't be helped, I guess... Putting Siesta's bed into Louise's room made it two beds, and that's fine, but...
+      JA: しょうがないよな……。　ルイズの部屋にシエスタのベッドを入れて　２つのベッドになったのはいいけど……
+      RU: Ничего не поделать… Перенесли кровать Сиесты в комнату Луизы — получилось две, и это хорошо, но…
+L25 [th] EN: Counting Haruna, who isn't feeling well, to having a bed to herself...
+      JA: 具合が悪い春奈がベッドを１人で使う　として……
+      RU: С Харуной всё понятно: ей нездоровится, так что кровать для неё нужна своя…
+L27 [th] EN: The other bed must be for Louise and Siesta, right? Surely not all three of us getting into one bed...
+      JA: もうひとつのベッドはルイズとシエスタだろ？　まさか、３人でベッドに入るわけにも　いかないし……
+      RU: Значит, вторая — на двоих: Луиза и Сиеста… Втроём на одной кровати — уж точно нет…
+L29 [th] EN: Well, I did move back to the straw on my own, but... it feels kind of lonely...
+      JA: まぁ、自主的にワラに戻ったんだけど、　なんだか寂しいよなぁ……
+      RU: Ладно, я ведь сам вернулся на солому… но как-то одиноко…
+L34 [si] EN: Ah— good morning, Saito-san.
+      JA: あ、おはようございます、サイトさん。
+      RU: А, доброе утро, Сайто-сан.
+L38 [s] EN: Good morning, Siesta. You're up early, as always.
+      JA: おはよう、シエスタ。いつもながら早起きだね。
+      RU: Доброе утро, Сиеста. Как всегда, встаёшь пораньше.
+L41 [si] EN: I always have work in the mornings, so I'm up at this hour.
+      JA: いつも、朝からお仕事がありますので、この時間に起きてるんですよ。
+      RU: По утрам у меня всегда есть работа, потому и встаю в это время.
+L44 [s] EN: As usual, Siesta. I really admire you.
+      JA: さすが、シエスタ。尊敬するなぁ。
+      RU: Как всегда, Сиеста. Правда восхищаюсь тобой.
+L48 [si] EN: Ah, um, that's too kind... I'm still far from that...
+      JA: あ、あの、そんな……。わたしなんてまだ全然……。
+      RU: А, ну, это слишком лестно… Мне ещё далеко…
+L52 [s] EN: Ah, right— is Louise still asleep? I'd better help with her morning routine while I can...
+      JA: ああ、そう言えば、ルイズってまだ寝てる？今のうちに朝の支度をしないと……。
+      RU: А, кстати — Луиза ещё спит? Пока есть время, надо помочь ей с утренними сборами…
+L56 [si] EN: Ah, Miss Valiere is...
+      JA: あ、ミス・ヴァリエールは……。
+      RU: А, мадемуазель Вальер…
+L61 [l] EN: I'm already up.
+      JA: もう起きてるわよ。
+      RU: Я уже встала.
+L65 [s] EN: Wh— what!?
+      JA: ええっ！？
+      RU: Ч-что?!
+L69 [l] EN: Honestly, leaving your master behind and just snoring away— what do you think you're doing?
+      JA: まったく、ご主人様を放ったらかしにしてぐーぐー寝てるなんて、いったい何様のつもりかしら？
+      RU: Вот это да: оставил госпожу одну и храпишь себе… Ты вообще за кого себя держишь?
+L72 [s] EN: Geez, why are you up early today of all days... It's usually your sleeping time!
+      JA: げっ、何で今日に限って早起きなんだよ……。普段は寝てる時間だろ！
+      RU: Блин, почему сегодня изо всех дней ты встала пораньше… Обычно в это время ты спишь!
+L75 [l] EN: U-uh, be quiet. I actually get up this early.
+      JA: う、うるさいわね。本当はこのくらいに起きてるのよ。
+      RU: Н-ну тебя! Я и правда встаю в это время.
+L78 [th] EN: Is that really true...
+      JA: 本当かよ……
+      RU: Точно ли…
+L82 [si] EN: Miss Valiere was up even before I got up.
+      JA: ミス・ヴァリエールは、わたしが起きる前にはもう起きていたんですよ。
+      RU: Мадемуазель Вальер проснулась даже раньше меня.
+L85 [th] EN: Wh— what!? That's really early! What's going on?
+      JA: ええっ！？　それ、めちゃくちゃ早いじゃないか！　いったいどうしたんだ？
+      RU: Ч-что?! Это совсем рано! Что происходит?!
+L92 [s] EN: You didn't stay up all night, did you?
+      JA: 徹夜とかしてないよな？
+      RU: Ты ведь не провела всю ночь без сна?
+L96 [l] EN: N-no, that's not it at all. I slept just fine.
+      JA: そっ、そんなわけないでしょ。ちゃんと寝たわよ。
+      RU: Н-нет, вовсе нет. Я нормально выспалась.
+L100 [s] EN: If you fall asleep in class, it'd be shameful as a familiar, so get proper rest.
+      JA: 授業中に寝ることになると使い魔としては恥ずかしいから、ちゃんと睡眠時間を取れよ。
+      RU: Спать на уроке — позор для фамильяра, так что нормально высыпайся.
+L104 [l] EN: I told you I slept just fine! Besides, you're the one who's always asleep!
+      JA: だから、ちゃんと寝てるって言ってるじゃない！それにいつも寝てるのはあんたでしょ？
+      RU: Я же говорю, что выспалась! А ты и так всё время спишь!
+L108 [si] EN: Eh? Saito-san, you sleep in class?
+      JA: え、サイトさん、授業中に寝てるんですか？
+      RU: Э? Сайто-сан, вы спите на уроках?
+L112 [s] EN: I-I mean, um... You see, I can't read the writing of this world, so I can't take part in class...
+      JA: い、いや、その……。ほら、俺この世界の文字が読めないから、授業に参加できなくてさ……。
+      RU: Н-ну, то есть… Я ведь не умею читать письмена этого мира, поэтому участвовать в уроках не могу…
+L116 [l] EN: Hmph, you just lack the will.
+      JA: ふん、やる気が足りないのよ。
+      RU: Фу, тебе просто не хватает воли.
+L122 [s] EN: Couldn't sleep because that female guest was on your mind?
+      JA: 女性客が気になって眠れなかった？
+      RU: Ты не уснула из-за того, что думала о той гостье?
+L126 [si] EN: Ah, was I in the way?
+      JA: あの、わたくしがお邪魔でしたでしょうか。
+      RU: А, я помешала?
+L131 [l] EN: U... no, that's not it. It's just that the room's population density was high, so I had a little trouble sleeping.
+      JA: う……ち、違うわよ。部屋の人口密度が高いから、ちょっと寝苦しかっただけよ。
+      RU: У… нет, вовсе не это. Просто в комнате народу было многовато, и спалось не очень.
+L138 [si] EN: If that's the case, that's fine, though...
+      JA: でしたら、良いのですが……。
+      RU: Раз так — то и хорошо…
+L141 [si] EN: If I was the reason you woke up early or something, I don't know how I should apologize...
+      JA: もし、わたくしがいたせいで早く起きたなんてことでしたら、わたくし、なんとお詫びをすればよいかと……。
+      RU: Если из-за меня вы встали так рано… я и не знаю, как за это извиниться…
+L146 [s] EN: Ah, it's fine, Siesta. Louise isn't that sensitive.
+      JA: あー、シエスタ大丈夫。ルイズはそんなに繊細じゃないから。
+      RU: А, да ладно, Сиеста. Луиза не такая уж чувствительная.
+L150 [l] EN: What do you mean by that!
+      JA: それってどういう意味よ！
+      RU: А это что значит?!
+L154 [s] EN: Ah, no, I mean it's that nothing ruffles her. Hey, Siesta!
+      JA: あ、いや、何事にも動じないってことだよ。な、シエスタ！
+      RU: А, нет, я хотел сказать, что её ничто не выбивает из колеи. Эй, Сиеста!
+L158 [si] EN: Y-yes. Just as Saito-san says.
+      JA: は、はい。サイトさんの言うとおりです。
+      RU: Д-да. Как и говорит Сайто-сан.
+L162 [l] EN: Is that really true? Well, if that's the case, then it's fine.
+      JA: 本当なの？まぁ、それならいいんだけどね。
+      RU: Точно? Ну, раз так — хорошо.
+L168 [s] EN: You were keeping watch on me, or something?
+      JA: 俺を見張ってたとか？
+      RU: Ты за мной следила, что ли?
+L172 [l] EN: Huh? Why?
+      JA: へ？なんで？
+      RU: А? Почему?
+L176 [s] EN: I figured you were keeping watch out of worry for Siesta and Haruna.
+      JA: 俺は、おまえがシエスタや春奈のことを心配して、見張ってたのかと。
+      RU: Я подумал, ты следишь за ними из беспокойства за Сиесту и Харуну.
+L180 [l] EN: Why would I have to monitor every move of my familiar! And besides— Saito, were you planning to do something?
+      JA: なんで、わたしが使い魔の行動を逐次監視しなくちゃ駄目なのよ！第一、サイトは何かをするつもりだったの？
+      RU: Почему мне вообще нужно следить за каждым шагом фамильяра! И вообще — Сайто, ты что-то замышлял?
+L187 [s] EN: No, it's nothing like that... I couldn't possibly do something so out of line. Yes, I swear on my fate.
+      JA: いえ、そんなことは……。そんな粗相をするはずがありません。ええ、天命に誓って。
+      RU: Нет, вовсе не так… Я бы не стал делать ничего подобного. Да, клянусь своей судьбой.
+L191 [l] EN: Really? Well, if that's the case, then it's fine.
+      JA: そう？ならいいけど。
+      RU: Правда? Ну, раз так — ладно.
+L195 [l] EN: If you were going to stir up trouble, you'll have to accept the punishment that comes with it.
+      JA: もし、ちょっかいを出していたのなら、それ相応の罰を受けてもらうけどね。
+      RU: Если ты что-то выкидывал — получишь наказание по заслугам.
+L200 [s] EN: Ah, right— what about Haruna?
+      JA: そう言えば、春奈は？
+      RU: А, кстати — как там Харуна?
+L204 [si] EN: She seems to still be sleeping.
+      JA: まだ寝てらっしゃるようですけど。
+      RU: Похоже, она ещё не проснулась.
+L208 [l] EN: Hmph, looks like there's a bigger sleephead than me.
+      JA: ふふん、わたしよりよっぽどお寝坊さんがいたみたいね。
+      RU: Ишь ты, оказывается, есть соня и похуже меня.
+L212 [s] EN: No, that's not something to boast about at all, is it?
+      JA: いや、それ全然威張れた話じゃないからな？
+      RU: Это ж совсем не повод для гордости, да?
+L217 [si] EN: Ah, Haruna-san... ...Oh?
+      JA: あの、ハルナさん……。……あら？
+      RU: А, Харуна-сан… …О?
+L221 [s] EN: ...What's wrong, Siesta?
+      JA: ……どうしたの、シエスタ？
+      RU: …Что случилось, Сиеста?
+L227 [si] EN: Haruna-san, your face is pale. Besides, it looks like you have a fever too...
+      JA: ハルナさん、顔色が悪いです。それに、熱も出てるようですし……。
+      RU: Харуна-сан, у вас бледное лицо. И температура, кажется, есть…
+L230 [ha] EN: ...Hiraga-kun... Louise-san, Siesta-san... I'm sorry.
+      JA: ……平賀くん……。ルイズさん、シエスタさん……。ごめんなさい。
+      RU: …Хирага-кун… Луиза-сан, Сиеста-сан… Простите.
+L233 [l] EN: W-why are you apologizing! Pull yourself together!
+      JA: ちょ、ちょっと何謝ってるのよ！しっかりしなさいよ。
+      RU: П-почему ты извиняешься! Соберись!
+L236 [ha] EN: My body feels heavy, and I can't muster any strength...
+      JA: なんだか体がだるくて、力が入らなくって……。
+      RU: Тело тяжёлое, и силы совсем нет…
+L239 [s] EN: I get it, so stop talking. Sorry, Siesta— could you wake Montmorency up?
+      JA: 分かったから、もう話すな。ごめん、シエスタ。モンモランシーを起こしてもらえないか？
+      RU: Понял, больше не говори. Прости, Сиеста — разбудишь Монморанси?
+L242 [si] EN: Yes, understood.
+      JA: はい、分かりました。
+      RU: Да, поняла.
+L246 [m] EN: Honestly, waking people up first thing in the morning— you really are a troublesome bunch. I did say I'd cooperate... though.
+      JA: まったく、朝から人をたたき起こすなんて、困った人達ね。確かに協力する……とはいいましたけど。
+      RU: Совсем вы спать людям не даёте — с самого утра будите. Вы невозможные. Хотя я ведь и сказала, что помогу…
+L249 [s] EN: Sorry, Montmorency. So— how is Haruna doing!
+      JA: ごめんな、モンモランシー。で、春奈の具合はどうなんだ！
+      RU: Прости, Монморанси. Ну как там Харуна?!
+L253 [m] EN: Hmm. She still hasn't adjusted to the change of environment, it seems, and that's why she has a fever.
+      JA: うーん。まだ、環境の変化に馴染めなくて熱が出ちゃったみたい。
+      RU: Хм. Похоже, она ещё не привыкла к смене обстановки — отсюда и температура.
+L256 [m] EN: She seemed to feel better yesterday, so I let my guard down. She'd better rest for a while.
+      JA: 昨日、体調が良くなっていたみたいなんで、油断してたわ。しばらく安静にしていたほうがいいわね。
+      RU: Вчера ей стало лучше, так что я расслабилась. Ей лучше ещё немного полежать.
+L259 [ha] EN: I'm sorry for causing you trouble.
+      JA: すみません。ご迷惑をかけて。
+      RU: Простите, что доставляю хлопоты.
+L262 [m] EN: If you feel that way, then get better quickly.
+      JA: そう思うのなら、早く元気になることね。
+      RU: Раз так считаешь — скорее выздоравливай.
+L265 [ha] EN: Yes...
+      JA: はい……。
+      RU: Да…
+L269 [l] EN: Besides, it's about time to head to class.
+      JA: それより、そろそろ授業に行かないといけない時間だわ。
+      RU: К тому же пора идти на урок.
+L272 [m] EN: Oh my. I need to hurry back to my room and get ready.
+      JA: あら、やだ。早く部屋に戻って準備をしないと。
+      RU: Ой, надо поспешить в комнату и собраться.
+L276 [s] EN: Since Louise got up early today, I thought we had plenty of time...
+      JA: 今日はルイズが早起きしたから、まだ余裕あると思ったのに……。
+      RU: Раз сегодня Луиза встала пораньше, я думал, у нас ещё будет время…
+L280 [l] EN: Stop that! Let's get to class already.
+      JA: いいから！さっさと授業に行くわよ。
+      RU: Да хватит! Пойдём уже на урок.
+L284 [s] EN: Huh—? A, ow! I'm telling you, stop pulling! And you haven't changed yet, have you!
+      JA: ええー？あ、いたた、引っ張るなってだから！それにお前、着替えてないだろ！
+      RU: Э-э? Ай, ай! Я же сказал — хватит тянуть! А ты ещё и не переоделась!
+L288 [l] EN: A...!! I'll change right now, so get out of the room!
+      JA: あ……！！すぐ着替えするから、部屋から出てって！
+      RU: А…!! Сейчас переоденусь, так что выйди из комнаты!
+L292 [s] EN: Huh? I'm the one who's supposed to dress her?
+      JA: え？俺が着替えさせるんじゃないの？
+      RU: Что? Я должен её переодевать?
+L297 [si] EN: Saito-san...
+      JA: サイトさん……。
+      RU: Сайто-сан…
+L303 [ha] EN: Hiraga-kun...{#hiraga}
+      JA: 平賀くん……。
+      RU: Хирага-кун…
+L308 [m] EN: You're the lowest...
+      JA: 最低ね……。
+      RU: Ты просто ниже некуда…
+L313 [s] EN: Wha...? Wha...?
+      JA: え……？え……？
+      RU: Что…? Что…?
+L318 [l] EN: Get out of the room quickly! Siesta will change for me.
+      JA: 早く部屋から出てって！着替えはシエスタにしてもらうから。
+      RU: Поскорее выходи из комнаты! Сиеста меня переоденет.
+L321 [si] EN: Yes, understood. Saito-san, I'm sorry, but could you wait outside the room for a while?
+      JA: はい、分かりました。サイトさん、すみませんがしばらく部屋の外でお待ちいただけませんか？
+      RU: Да, поняла. Сайто-сан, простите, но побудьте немного в коридоре?
+L324 [l] EN: Stop dawdling and get out!
+      JA: ぐずぐずしてないで、さっさと出てって！
+      RU: Не тяни — выходи!
+L329 [s] EN: Y-yes.{#h}
+      JA: へーい。
+      RU: Есть!
+L334 [th] EN: Honestly, minding other people's eyes... What's wrong with Louise today?
+      JA: まったく、他人の目を気にするなんて、　今日のルイズはどうしちゃったんだ？
+      RU: Совсем она волнуется из-за чужого взгляда… Что сегодня с Луизой не так?
+L339 [s] EN: In the end, we were late after all.
+      JA: 結局遅刻だったじゃねーかよ。
+      RU: В итоге всё равно опоздали!
+L342 [l] EN: Hmph, we were late because Saito wouldn't get out of the room quickly, right?
+      JA: もう、サイトが早く部屋から出てくれなかったから遅れたんでしょ？
+      RU: Ну, опоздали же из-за того, что Сайто не выходил из комнаты, верно?
+L346 [s] EN: It's my fault, huh!
+      JA: 俺のせいかよ！
+      RU: И это моя вина, что ли?!
+L350 [c] EN: Miss Valiere. What seems to be the problem this morning?
+      JA: ミス・ヴァリエール。朝から何事かね？
+      RU: Мадемуазель Вальер. Что случилось этим утром?
+L354 [l] EN: E...eh!? Ah, no, um, nothing. Professor Colbert.
+      JA: え……えぇ！？あ、いえ、その、なんでもありません。ミスタ・コルベール。
+      RU: Э… ээ!? А, нет, ну, ничего. Профессор Кольбер.
+L357 [c] EN: I see. Well, that's fine, but class is about to begin, so please refrain from private conversation.
+      JA: ふむ。ならばよいのですが、もう授業が始まりますから私語は慎むように。
+      RU: Понятно. Так-то хорошо, но урок скоро начнётся — воздержитесь от посторонних разговоров.
+L360 [l] EN: Yes.
+      JA: はい。
+      RU: Да.
+L364 [c] EN: Ahem. Before we get into class, there's something I want to warn everyone about.
+      JA: コホン。えー、授業に入る前に、皆に注意しておくことがあります。
+      RU: Кхм. Прежде чем начать урок, есть кое-что, о чём я хочу предупредить всех.
+L367 [c] EN: Recently, some of you must have heard about the bomber...
+      JA: 最近、爆弾使いについて、耳にした者もいると思うのですが……。
+      RU: В последнее время некоторые из вас, должно быть, слышали о {i}«бомбисте»{/i}…
+L371 [k] EN: Professor Colbert? Ah, you mean the one who's been carrying out bombing attacks around Tristania?
+      JA: ミスタ・コルベール。あの、トリスタニアで爆弾を使って、破壊活動をしてるってやつでしょ？
+      RU: Профессор Кольбер? А, вы про того, кто устраивает взрывы в Тристании?
+L375 [c] EN: That's right... It's about that bomber.
+      JA: いかにも……。その爆弾使いの話です。
+      RU: Именно… Речь о том бомбисте.
+L378 [c] EN: Over the past few months, several buildings in Tristania have been blown up with bombs. Their true identity remains unknown.
+      JA: ここ数ヶ月にわたり、トリスタニアでいくつもの建物を爆弾で破壊。いまだに正体がつかめません。
+      RU: За последние несколько месяцев в Тристании взорвано несколько зданий. Личность преступника до сих пор не установлена.
+L381 [c] EN: I don't think the damage will reach the academy, but I've been ordered to be extremely careful when heading into Tristania.
+      JA: 学院に被害が及ぶことはないと思いますが、トリスタニアに向かう時は十分注意をするようにとのお達しが来ています。
+      RU: Не думаю, что ущерб дойдёт до академии, но мне велено соблюдать предельную осторожность при выезде в Тристанию.
+L385 [c] EN: Do not, under any circumstances, try to capture him yourselves or do anything reckless. Understood?
+      JA: 間違っても、自分達で捕まえようなどと、無茶をしたりしないように。いいですかな？
+      RU: Ни в коем случае не пытайтесь поймать его сами и не делайте ничего опрометчивого. Понятно?
+L389 [s] EN: Wow, there are some dangerous people out there.
+      JA: うわあ、物騒なやつもいたもんだな。
+      RU: Ух ты, и такие люди на свете есть.
+L393 [l] EN: Well, it's none of our business anyway.
+      JA: ま、わたし達には関係ないけどね。
+      RU: Ну, это нас в общем-то не касается.
+L396 [s] EN: Yeah, I guess so...
+      JA: そうだな……。
+      RU: Ну да…
+L404 [s] EN: Shall we go catch him too?
+      JA: 俺達も捕まえに行くか？
+      RU: Мы тоже пойдём его ловить?
+L408 [l] EN: Hear people out, will you. Professor Colbert just said we shouldn't do anything reckless like that.
+      JA: あんたねえ、人の話聞いてなさいよ。ミスタ・コルベールが、そういう無茶をしないようにって言ったばかりじゃないの。
+      RU: Слушай, что тебе говорят. Профессор Кольбер только что запретил делать что-либо подобное.
+L415 [s] EN: I know, but…
+      JA: そりゃそうだけど。
+      RU: Я и так знаю, но…
+L419 [l] EN: Then don't say anything extra. Understood?
+      JA: だったら、余計なこと言い出さないの。分かった？
+      RU: Тогда не говори лишнего. Понятно?
+L423 [s] EN: Y-yes.{#h2}
+      JA: はぁい。
+      RU: Да-а!
+L431 [s] EN: Besides, I'd like to eat breakfast.
+      JA: それより、朝食食べたいんだけど。
+      RU: Впрочем, я бы позавтракал.
+L435 [l] EN: Huh?{#ssa}
+      JA: はあ？
+      RU: Хаа?
+L439 [s] EN: You see, between this and that, I never had time to eat breakfast after I woke up. I'm hungry, you know.
+      JA: だって、結局なんだかんだで、起きてから朝食をとる暇なかったじゃん。俺、腹減っちゃってさあ。
+      RU: Да просто всё время что-то было, и после подъёма я так и не успел позавтракать. Я голодный.
+L443 [l] EN: Hold out until lunch.
+      JA: 昼食まで、我慢しなさいよ。
+      RU: Терпи до обеда.
+L447 [s] EN: Geez, I didn't do anything wrong— am I going without food?
+      JA: くうう、俺、なにも悪いことしてないのに飯抜きですか？
+      RU: У-у, я ничего плохого не сделал — мне без еды что ли?
+L450 [s] EN: If it's going to be like this, I should have asked Siesta to bring me something.
+      JA: こんなことなら、シエスタに頼んでなにか持ってきてもらえば良かったかなあ。
+      RU: Раз так, надо было сразу попросить Сиесту принести мне что-нибудь.
+L454 [l] EN: Aaah, fine. Behave yourself, or I'll skip your lunch too!
+      JA: ああ、もう。おとなしくしてないと、昼食も抜きだからね！
+      RU: Ладно уж. Только веди себя хорошо, а то и обед пропущу!
+L458 [s] EN: Y-yes.{#h3}
+      JA: へーい。
+      RU: Есть!

@@ -1,0 +1,2118 @@
+{
+ "records": [
+  {
+   "line": 12,
+   "who": "l",
+   "voice": "ch2.7_l_001",
+   "en": "Anyway! I'm going to drink. Just watch me!",
+   "ru": [
+    "В любом случае! Я пью. Только смотрите!",
+    "dialogs.rpy",
+    6523
+   ],
+   "ja": [
+    "と・に・か・く。わたしは飲むの。飲んでみせるの！",
+    "dialogs.rpy",
+    6517
+   ]
+  },
+  {
+   "line": 14,
+   "who": "l",
+   "voice": "ch2.7_l_002",
+   "en": "You'll see! I'll grow so big that Kirche and Siesta won't even reach my feet!",
+   "ru": [
+    "Увидите! Я вырасту так, что Кирхе и Сиеста не дотянутся и до моих пят!",
+    "dialogs.rpy",
+    6526
+   ],
+   "ja": [
+    "今に見てなさい！キュルケやシエスタなんて足元にも及ばないほどおっきくなってやるんだからーっ！",
+    "dialogs.rpy",
+    6520
+   ]
+  },
+  {
+   "line": 15,
+   "who": "th",
+   "voice": null,
+   "en": "Whew... Louise has it rough too, in her own way. I really do admire that grit of hers.",
+   "ru": [
+    "Фух… И у Луизы трудности. За такое упрямство — уважаю, честно.",
+    "thoughs.rpy",
+    504
+   ],
+   "ja": [
+    "（はあ……ルイズも、いろいろ苦労して　るんだなぁ。　その根性には感心するわ、本当）",
+    "thoughs.rpy",
+    509
+   ]
+  },
+  {
+   "line": 17,
+   "who": "s",
+   "voice": "ch2.7_s_001",
+   "en": "Sure, but don't drink too much and upset your stomach, okay?",
+   "ru": [
+    "Ладно, только не пей слишком много, а то расстроишь живот, хорошо?",
+    "dialogs.rpy",
+    6529
+   ],
+   "ja": [
+    "いいけど、あまり飲みすぎておなかこわすなよ？",
+    "dialogs.rpy",
+    6523
+   ]
+  },
+  {
+   "line": 19,
+   "who": "l",
+   "voice": "ch2.7_l_003",
+   "en": "No! Once I've made up my mind, the only way is forward!",
+   "ru": [
+    "Нет! Раз решила — только вперёд!",
+    "dialogs.rpy",
+    6532
+   ],
+   "ja": [
+    "いいえっ！一度決めた以上は前進あるのみよ！",
+    "dialogs.rpy",
+    6526
+   ]
+  },
+  {
+   "line": 21,
+   "who": "l",
+   "voice": "ch2.7_l_004",
+   "en": "Even if I collapse, it'll be face-first! That's how the House of Vallière lives!",
+   "ru": [
+    "Даже если упаду — то лицом вперёд! Таков обычай дома Вальер!",
+    "dialogs.rpy",
+    6535
+   ],
+   "ja": [
+    "たとえ倒れるときでも前のめり！それがヴァリエール家の生き様よ！",
+    "dialogs.rpy",
+    6529
+   ]
+  },
+  {
+   "line": 22,
+   "who": "th",
+   "voice": null,
+   "en": "She's turned it into a whole life creed... come on.",
+   "ru": [
+    "Уже образ жизни в кредо превратила, слушай.",
+    "thoughs.rpy",
+    507
+   ],
+   "ja": [
+    "（生き様にまで発展してるよ、おい）",
+    "thoughs.rpy",
+    512
+   ]
+  },
+  {
+   "line": 32,
+   "who": "si",
+   "voice": "ch2.7_si_001",
+   "en": "Ah, good morning, Saito-san.",
+   "ru": [
+    "А, доброе утро, Сайто-сан.",
+    "dialogs.rpy",
+    6538
+   ],
+   "ja": [
+    "あ、おはようございます、サイトさん。",
+    "dialogs.rpy",
+    6532
+   ]
+  },
+  {
+   "line": 35,
+   "who": "s",
+   "voice": "ch2.7_s_002",
+   "en": "Hey, Siesta. So you're here.",
+   "ru": [
+    "Привет, Сиеста. Вот где ты.",
+    "dialogs.rpy",
+    6541
+   ],
+   "ja": [
+    "やあ、シエスタ。ここにいたんだ。",
+    "dialogs.rpy",
+    6535
+   ]
+  },
+  {
+   "line": 37,
+   "who": "s",
+   "voice": "ch2.7_s_003",
+   "en": "Busy with work today?",
+   "ru": [
+    "Сегодня на работе много дела?",
+    "dialogs.rpy",
+    6544
+   ],
+   "ja": [
+    "今日は仕事忙しい？",
+    "dialogs.rpy",
+    6538
+   ]
+  },
+  {
+   "line": 39,
+   "who": "si",
+   "voice": "ch2.7_si_002",
+   "en": "No. I have the day off, so I thought I'd try my hand at baking sweets.",
+   "ru": [
+    "Нет. Сегодня у меня выходной, я подумала попробовать испечь что-нибудь сладкое.",
+    "dialogs.rpy",
+    6547
+   ],
+   "ja": [
+    "いいえ。今日はお休みをもらったんで、お菓子作りをしてみようと思いまして。",
+    "dialogs.rpy",
+    6541
+   ]
+  },
+  {
+   "line": 42,
+   "who": "s",
+   "voice": "ch2.7_s_004",
+   "en": "Heh, that sounds like you. So, what are you making?",
+   "ru": [
+    "Ишь ты, в духе Сиесты. Ну и что печёшь?",
+    "dialogs.rpy",
+    6550
+   ],
+   "ja": [
+    "へえ、シエスタらしいな。それで、何を作るのかな。",
+    "dialogs.rpy",
+    6544
+   ]
+  },
+  {
+   "line": 44,
+   "who": "si",
+   "voice": "ch2.7_si_003",
+   "en": "I was thinking of making cookies today.",
+   "ru": [
+    "Сегодня, пожалуй, испеку печенье.",
+    "dialogs.rpy",
+    6553
+   ],
+   "ja": [
+    "今日は、クッキーにしようかと思ってるんですよ。",
+    "dialogs.rpy",
+    6547
+   ]
+  },
+  {
+   "line": 47,
+   "who": "s",
+   "voice": "ch2.7_s_005",
+   "en": "Cookies, huh. Yeah, yeah - fresh out of the oven they smell great and taste even better.",
+   "ru": [
+    "Печенье, ага. Угу-угу — из печи свежее ароматное да ещё и вкусное.",
+    "dialogs.rpy",
+    6556
+   ],
+   "ja": [
+    "クッキーかあ。うんうん、焼きたてのクッキーって、香ばしくておいしいよなあ。",
+    "dialogs.rpy",
+    6550
+   ]
+  },
+  {
+   "line": 50,
+   "who": "si",
+   "voice": "ch2.7_si_004",
+   "en": "Oh, that's right. Saito-san, why don't you make cookies with me?",
+   "ru": [
+    "А, точно. Сайто-сан, не хотите ли вместе испечь печенье?",
+    "dialogs.rpy",
+    6559
+   ],
+   "ja": [
+    "あ、そうだ。サイトさんも、一緒にクッキーを作りませんか？",
+    "dialogs.rpy",
+    6553
+   ]
+  },
+  {
+   "line": 53,
+   "who": "s",
+   "voice": "ch2.7_s_006",
+   "en": "Huh? Me too?",
+   "ru": [
+    "А? Мне тоже?",
+    "dialogs.rpy",
+    6562
+   ],
+   "ja": [
+    "え？俺も？",
+    "dialogs.rpy",
+    6556
+   ]
+  },
+  {
+   "line": 55,
+   "who": "si",
+   "voice": "ch2.7_si_005",
+   "en": "Yes. It's sure to be fun.",
+   "ru": [
+    "Да. Забавно будет точно.",
+    "dialogs.rpy",
+    6565
+   ],
+   "ja": [
+    "そうです。絶対、楽しいですよ。",
+    "dialogs.rpy",
+    6559
+   ]
+  },
+  {
+   "line": 57,
+   "who": "s",
+   "voice": "ch2.7_s_007",
+   "en": "Well, I guess...",
+   "ru": [
+    "Ну, пожалуй…",
+    "dialogs.rpy",
+    6568
+   ],
+   "ja": [
+    "そうだなあ……。",
+    "dialogs.rpy",
+    6562
+   ]
+  },
+  {
+   "line": 70,
+   "who": "s",
+   "voice": "ch2.7_s_008",
+   "en": "Nah, I'll pass.",
+   "ru": [
+    "Не, я лучше воздержусь.",
+    "dialogs.rpy",
+    6571
+   ],
+   "ja": [
+    "いや、遠慮しておくよ。",
+    "dialogs.rpy",
+    6565
+   ]
+  },
+  {
+   "line": 73,
+   "who": "si",
+   "voice": "ch2.7_si_006",
+   "en": "Is that... no good?",
+   "ru": [
+    "Неужели нельзя…?",
+    "dialogs.rpy",
+    6574
+   ],
+   "ja": [
+    "駄目ですか……？",
+    "dialogs.rpy",
+    6568
+   ]
+  },
+  {
+   "line": 77,
+   "who": "s",
+   "voice": "ch2.7_s_009",
+   "en": "I appreciate the offer, but I'd only get in your way, Siesta.",
+   "ru": [
+    "Ценю предложение, но я тебе только помехой буду.",
+    "dialogs.rpy",
+    6577
+   ],
+   "ja": [
+    "せっかくだけど、俺じゃシエスタの足手まといになるだけだしなあ。",
+    "dialogs.rpy",
+    6571
+   ]
+  },
+  {
+   "line": 80,
+   "who": "si",
+   "voice": "ch2.7_si_007",
+   "en": "Ah, um, it's not as if I could make anything that special - and Saito-san, you can do things too, you know.",
+   "ru": [
+    "Э-эм, я ведь ничего особенного не умею, а вы, Сайто-сан, тоже можете кое-что.",
+    "dialogs.rpy",
+    6580
+   ],
+   "ja": [
+    "え、あ、あの、わたしなんてそんなに大したもの作れるわけじゃありませんし、それにサイトさんだって、何かできますよ。",
+    "dialogs.rpy",
+    6574
+   ]
+  },
+  {
+   "line": 83,
+   "who": "s",
+   "voice": "ch2.7_s_010",
+   "en": "Hmm... you've got a point. Alright, let's give it a try.",
+   "ru": [
+    "Хм… верно-то. Ладно, попробуем.",
+    "dialogs.rpy",
+    6583
+   ],
+   "ja": [
+    "うーん、そうだなぁ……。じゃあ、やってみますか。",
+    "dialogs.rpy",
+    6577
+   ]
+  },
+  {
+   "line": 86,
+   "who": "si",
+   "voice": "ch2.7_si_008",
+   "en": "That's right. Let's do it together.",
+   "ru": [
+    "Вот именно. Давайте вместе.",
+    "dialogs.rpy",
+    6586
+   ],
+   "ja": [
+    "そうですよ。一緒にやりましょう。",
+    "dialogs.rpy",
+    6580
+   ]
+  },
+  {
+   "line": 93,
+   "who": "s",
+   "voice": "ch2.7_s_011",
+   "en": "Sounds like fun - let's do it.",
+   "ru": [
+    "Звучит занятно — давай.",
+    "dialogs.rpy",
+    6589
+   ],
+   "ja": [
+    "面白そうだな、やろうか。",
+    "dialogs.rpy",
+    6583
+   ]
+  },
+  {
+   "line": 96,
+   "who": "si",
+   "voice": "ch2.7_si_009",
+   "en": "Really?!",
+   "ru": [
+    "Правда?!",
+    "dialogs.rpy",
+    6592
+   ],
+   "ja": [
+    "本当ですか！",
+    "dialogs.rpy",
+    6586
+   ]
+  },
+  {
+   "line": 99,
+   "who": "s",
+   "voice": "ch2.7_s_012",
+   "en": "Well, I don't know a thing about cooking, so I might just be dead weight.",
+   "ru": [
+    "Ну, я на кухне ни бельмеса, так что, возможно, буду только тормозить.",
+    "dialogs.rpy",
+    6595
+   ],
+   "ja": [
+    "ま、俺って料理のことなんにも知らないから、足ひっぱるだけかもしれないけど。",
+    "dialogs.rpy",
+    6589
+   ]
+  },
+  {
+   "line": 101,
+   "who": "si",
+   "voice": "ch2.7_si_010",
+   "en": "Not at all. Let's do our best together, okay?",
+   "ru": [
+    "Ни в коем случае. Давайте стараться вместе, хорошо?",
+    "dialogs.rpy",
+    6598
+   ],
+   "ja": [
+    "いえいえ、そんなことないですよ。一緒に頑張りましょうねっ。",
+    "dialogs.rpy",
+    6592
+   ]
+  },
+  {
+   "line": 104,
+   "who": "s",
+   "voice": "ch2.7_s_013",
+   "en": "Yeah.{#ch2.7_s_013}",
+   "ru": [
+    "Ага.",
+    "dialogs.rpy",
+    6601
+   ],
+   "ja": [
+    "うん。",
+    "dialogs.rpy",
+    6595
+   ]
+  },
+  {
+   "line": 111,
+   "who": "s",
+   "voice": "ch2.7_s_014",
+   "en": "Er... I'll be in charge of tasting, then.",
+   "ru": [
+    "Э-э… Значит, я отвечаю за дегустацию.",
+    "dialogs.rpy",
+    6604
+   ],
+   "ja": [
+    "えーと……。俺は味見専門ということで。",
+    "dialogs.rpy",
+    6598
+   ]
+  },
+  {
+   "line": 114,
+   "who": "si",
+   "voice": "ch2.7_si_011",
+   "en": "Is that so...? What a shame.",
+   "ru": [
+    "Так…? Как жаль.",
+    "dialogs.rpy",
+    6607
+   ],
+   "ja": [
+    "そう……ですか？残念です。",
+    "dialogs.rpy",
+    6601
+   ]
+  },
+  {
+   "line": 117,
+   "who": "si",
+   "voice": "ch2.7_si_012",
+   "en": "And here I thought Saito-san and I could make cookies together...",
+   "ru": [
+    "А я думала, мы с Сайто-саном будем печь печенье вместе…",
+    "dialogs.rpy",
+    6610
+   ],
+   "ja": [
+    "せっかくサイトさんとクッキーが作れると思ったのに……。",
+    "dialogs.rpy",
+    6604
+   ]
+  },
+  {
+   "line": 120,
+   "who": "s",
+   "voice": "ch2.7_s_015",
+   "en": "N-no, I mean, I'm terrible at cooking and all...",
+   "ru": [
+    "Н-нет, ну, я же готовить не умею и всё такое…",
+    "dialogs.rpy",
+    6613
+   ],
+   "ja": [
+    "い、いや、ほら、俺って料理苦手だし……。",
+    "dialogs.rpy",
+    6607
+   ]
+  },
+  {
+   "line": 122,
+   "who": "si",
+   "voice": "ch2.7_si_013",
+   "en": "Tug, tug...",
+   "ru": [
+    "Тянет-потянет…",
+    "dialogs.rpy",
+    6616
+   ],
+   "ja": [
+    "（いじいじ）",
+    "dialogs.rpy",
+    6610
+   ]
+  },
+  {
+   "line": 125,
+   "who": "s",
+   "voice": "ch2.7_s_016",
+   "en": "...{#ch2.7_s_016}",
+   "ru": [
+    "…{#ch2.7_s_016}",
+    "dialogs.rpy",
+    6619
+   ],
+   "ja": [
+    "……。",
+    "dialogs.rpy",
+    6613
+   ]
+  },
+  {
+   "line": 127,
+   "who": "si",
+   "voice": "ch2.7_si_014",
+   "en": "Tug, tug...{#ch2.7_si_014}",
+   "ru": [
+    "Тянет-потянет…{#ch2.7_si_014}",
+    "dialogs.rpy",
+    6622
+   ],
+   "ja": [
+    "（いじいじ）",
+    "dialogs.rpy",
+    6616
+   ]
+  },
+  {
+   "line": 130,
+   "who": "s",
+   "voice": "ch2.7_s_017",
+   "en": "Alright. I'll help out too.",
+   "ru": [
+    "Ладно. Я тоже помогу.",
+    "dialogs.rpy",
+    6625
+   ],
+   "ja": [
+    "分かったよ。俺も手伝ってみるよ。",
+    "dialogs.rpy",
+    6619
+   ]
+  },
+  {
+   "line": 133,
+   "who": "si",
+   "voice": "ch2.7_si_015",
+   "en": "Really? Then let's do it together!",
+   "ru": [
+    "Правда? Тогда давайте вместе!",
+    "dialogs.rpy",
+    6628
+   ],
+   "ja": [
+    "え、本当ですか？それじゃあ、一緒にやりましょう！",
+    "dialogs.rpy",
+    6622
+   ]
+  },
+  {
+   "line": 135,
+   "who": "th",
+   "voice": null,
+   "en": "Dammit - did Siesta just set me up?",
+   "ru": [
+    "Блин — Сиеста меня только что подставила?",
+    "thoughs.rpy",
+    510
+   ],
+   "ja": [
+    "（しまった、シエスタにはめられた？）",
+    "thoughs.rpy",
+    515
+   ]
+  },
+  {
+   "line": 142,
+   "who": "si",
+   "voice": "ch2.7_si_016",
+   "en": "Then please knead this butter until it's soft and paste-like. I'll get the flour ready in the meantime.",
+   "ru": [
+    "Тогда, пожалуйста, разотрите это масло до мягкого пастообразного состояния. А пока я подготовлю муку.",
+    "dialogs.rpy",
+    6631
+   ],
+   "ja": [
+    "それじゃ、このバターを柔らかくペースト状になるまで練ってください。わたしは、その間に粉の準備をしますから。",
+    "dialogs.rpy",
+    6625
+   ]
+  },
+  {
+   "line": 144,
+   "who": "s",
+   "voice": "ch2.7_s_018",
+   "en": "Mm, got it.",
+   "ru": [
+    "Мм, понял.",
+    "dialogs.rpy",
+    6634
+   ],
+   "ja": [
+    "ん、分かった。",
+    "dialogs.rpy",
+    6628
+   ]
+  },
+  {
+   "line": 147,
+   "who": "s",
+   "voice": "ch2.7_s_019",
+   "en": "...Mmf. This is harder than it looks.",
+   "ru": [
+    "…Мм. Дело непростое.",
+    "dialogs.rpy",
+    6637
+   ],
+   "ja": [
+    "……むう。結構大変だな、これ。",
+    "dialogs.rpy",
+    6631
+   ]
+  },
+  {
+   "line": 150,
+   "who": "si",
+   "voice": "ch2.7_si_017",
+   "en": "Is it done?",
+   "ru": [
+    "Готово?",
+    "dialogs.rpy",
+    6640
+   ],
+   "ja": [
+    "できましたか？",
+    "dialogs.rpy",
+    6634
+   ]
+  },
+  {
+   "line": 153,
+   "who": "s",
+   "voice": "ch2.7_s_020",
+   "en": "Ah, yeah. Sort of.",
+   "ru": [
+    "А, да. В общем, да.",
+    "dialogs.rpy",
+    6643
+   ],
+   "ja": [
+    "あー、うん。一応。",
+    "dialogs.rpy",
+    6637
+   ]
+  },
+  {
+   "line": 155,
+   "who": "si",
+   "voice": "ch2.7_si_018",
+   "en": "Next, add the sugar and egg yolk, and stir well again.",
+   "ru": [
+    "Дальше добавьте сахар и желток и снова хорошо размешайте.",
+    "dialogs.rpy",
+    6646
+   ],
+   "ja": [
+    "それじゃ、砂糖と卵の黄身を入れるんで、またよくかき混ぜてください。",
+    "dialogs.rpy",
+    6640
+   ]
+  },
+  {
+   "line": 157,
+   "who": "si",
+   "voice": "ch2.7_si_019",
+   "en": "Sugar in first - and once it's mixed well, then the yolk.",
+   "ru": [
+    "Сначала сахар, а когда хорошо перемешается — только потом желток.",
+    "dialogs.rpy",
+    6649
+   ],
+   "ja": [
+    "最初に砂糖を入れて、よく混ざったら黄身を入れてくださいね。",
+    "dialogs.rpy",
+    6643
+   ]
+  },
+  {
+   "line": 160,
+   "who": "s",
+   "voice": "ch2.7_s_021",
+   "en": "Roger!",
+   "ru": [
+    "Принято!",
+    "dialogs.rpy",
+    6652
+   ],
+   "ja": [
+    "了解！",
+    "dialogs.rpy",
+    6646
+   ]
+  },
+  {
+   "line": 162,
+   "who": "th",
+   "voice": null,
+   "en": "Even unbaked, it already smells pretty good.",
+   "ru": [
+    "Ещё не печётся, а уже неплохо пахнет.",
+    "thoughs.rpy",
+    513
+   ],
+   "ja": [
+    "（まだ焼いてないのに、　それなりにいい匂いがするな）",
+    "thoughs.rpy",
+    518
+   ]
+  },
+  {
+   "line": 165,
+   "who": "si",
+   "voice": "ch2.7_si_020",
+   "en": "How is it?",
+   "ru": [
+    "Как?",
+    "dialogs.rpy",
+    6655
+   ],
+   "ja": [
+    "どうですかあ？",
+    "dialogs.rpy",
+    6649
+   ]
+  },
+  {
+   "line": 167,
+   "who": "s",
+   "voice": "ch2.7_s_022",
+   "en": "I think I stirred it.",
+   "ru": [
+    "Кажется, размешал.",
+    "dialogs.rpy",
+    6658
+   ],
+   "ja": [
+    "かき混ぜたかな。",
+    "dialogs.rpy",
+    6652
+   ]
+  },
+  {
+   "line": 169,
+   "who": "si",
+   "voice": "ch2.7_si_021",
+   "en": "Let's see, let's see.",
+   "ru": [
+    "Ну-ка, ну-ка.",
+    "dialogs.rpy",
+    6661
+   ],
+   "ja": [
+    "どれどれ？",
+    "dialogs.rpy",
+    6655
+   ]
+  },
+  {
+   "line": 171,
+   "who": "si",
+   "voice": "ch2.7_si_022",
+   "en": "...Yep, this should be fine.",
+   "ru": [
+    "…Да, так сойдёт.",
+    "dialogs.rpy",
+    6664
+   ],
+   "ja": [
+    "……うん、これで大丈夫でしょう。",
+    "dialogs.rpy",
+    6658
+   ]
+  },
+  {
+   "line": 173,
+   "who": "si",
+   "voice": "ch2.7_si_023",
+   "en": "Then I'll fold in the flour and mix.",
+   "ru": [
+    "Тогда я сама всыплю муку и перемешаю.",
+    "dialogs.rpy",
+    6667
+   ],
+   "ja": [
+    "それじゃ、粉を入れて混ぜるのはわたしがやりますね。",
+    "dialogs.rpy",
+    6661
+   ]
+  },
+  {
+   "line": 175,
+   "who": "s",
+   "voice": "ch2.7_s_023",
+   "en": "Sure, thanks.",
+   "ru": [
+    "Ага, на тебя.",
+    "dialogs.rpy",
+    6670
+   ],
+   "ja": [
+    "うん、よろしく。",
+    "dialogs.rpy",
+    6664
+   ]
+  },
+  {
+   "line": 177,
+   "who": "si",
+   "voice": "ch2.7_si_024",
+   "en": "Alright.",
+   "ru": [
+    "Хорошо.",
+    "dialogs.rpy",
+    6673
+   ],
+   "ja": [
+    "はい。",
+    "dialogs.rpy",
+    6667
+   ]
+  },
+  {
+   "line": 178,
+   "who": "th",
+   "voice": null,
+   "en": "Mm-mm-mm. How quick and deft she is.",
+   "ru": [
+    "Мм-мм-мм. Как она проворно и ловко всё делает.",
+    "thoughs.rpy",
+    516
+   ],
+   "ja": [
+    "（うーむむむ。　実に手際が良くて軽やかだ）",
+    "thoughs.rpy",
+    521
+   ]
+  },
+  {
+   "line": 180,
+   "who": "si",
+   "voice": "ch2.7_si_025",
+   "en": "Now I'll lay out the dough... and put it in the oven...",
+   "ru": [
+    "Теперь раскладываю тесто… и в духовку…",
+    "dialogs.rpy",
+    6676
+   ],
+   "ja": [
+    "あとは、生地を並べて……。オーブンに入れて……、と。",
+    "dialogs.rpy",
+    6670
+   ]
+  },
+  {
+   "line": 182,
+   "who": "si",
+   "voice": "ch2.7_si_026",
+   "en": "Now we just wait for it to bake right.",
+   "ru": [
+    "Осталось дождаться, пока хорошо испечётся.",
+    "dialogs.rpy",
+    6679
+   ],
+   "ja": [
+    "あとは、うまく焼けるのを待つだけです。",
+    "dialogs.rpy",
+    6673
+   ]
+  },
+  {
+   "line": 185,
+   "who": "s",
+   "voice": "ch2.7_s_024",
+   "en": "I can't wait for them to be done.",
+   "ru": [
+    "Не терпится дождаться готового.",
+    "dialogs.rpy",
+    6682
+   ],
+   "ja": [
+    "できあがるのが楽しみだね。",
+    "dialogs.rpy",
+    6676
+   ]
+  },
+  {
+   "line": 187,
+   "who": "si",
+   "voice": "ch2.7_si_027",
+   "en": "Yes.{#ch2.7_si_027}",
+   "ru": [
+    "Да.",
+    "dialogs.rpy",
+    6685
+   ],
+   "ja": [
+    "ええ。",
+    "dialogs.rpy",
+    6679
+   ]
+  },
+  {
+   "line": 190,
+   "who": "si",
+   "voice": "ch2.7_si_028",
+   "en": "I wonder if they're about ready.",
+   "ru": [
+    "Кажется, пора.",
+    "dialogs.rpy",
+    6688
+   ],
+   "ja": [
+    "そろそろいいかしら。",
+    "dialogs.rpy",
+    6682
+   ]
+  },
+  {
+   "line": 192,
+   "who": "si",
+   "voice": "ch2.7_si_029",
+   "en": "Let's see... Yep! Looking good.",
+   "ru": [
+    "Ну-ка… Отлично!",
+    "dialogs.rpy",
+    6691
+   ],
+   "ja": [
+    "どれどれ？……うん！いい感じです。",
+    "dialogs.rpy",
+    6685
+   ]
+  },
+  {
+   "line": 195,
+   "who": "s",
+   "voice": "ch2.7_s_025",
+   "en": "Let me see... Huh... smells great.",
+   "ru": [
+    "Дай гляну… Ишь ты… хорошо пахнет.",
+    "dialogs.rpy",
+    6694
+   ],
+   "ja": [
+    "どれどれ？へえ……いい匂いだなあ。",
+    "dialogs.rpy",
+    6688
+   ]
+  },
+  {
+   "line": 197,
+   "who": "si",
+   "voice": "ch2.7_si_030",
+   "en": "Saito-san, go ahead and have a taste.",
+   "ru": [
+    "Сайто-сан, пробуйте.",
+    "dialogs.rpy",
+    6697
+   ],
+   "ja": [
+    "サイトさん、どうぞ味見してくださいな。",
+    "dialogs.rpy",
+    6691
+   ]
+  },
+  {
+   "line": 199,
+   "who": "s",
+   "voice": "ch2.7_s_026",
+   "en": "Then I won't hold back.",
+   "ru": [
+    "Что ж, без церемоний.",
+    "dialogs.rpy",
+    6700
+   ],
+   "ja": [
+    "それじゃ、遠慮なく。",
+    "dialogs.rpy",
+    6694
+   ]
+  },
+  {
+   "line": 202,
+   "who": "s",
+   "voice": "ch2.7_s_027",
+   "en": "Mm! This is delicious! As expected of Siesta - they're great.",
+   "ru": [
+    "Мм! Вкусно! Как и ожидалось от Сиесты — правда вкусно.",
+    "dialogs.rpy",
+    6703
+   ],
+   "ja": [
+    "ん！これは美味い！さすがシエスタ、やっぱり美味しいよ。",
+    "dialogs.rpy",
+    6697
+   ]
+  },
+  {
+   "line": 205,
+   "who": "si",
+   "voice": "ch2.7_si_031",
+   "en": "Thank you... I'm sure it's because you were here, Saito-san.",
+   "ru": [
+    "Спасибо… Уверена, всё вышло потому, что вы были рядом, Сайто-сан.",
+    "dialogs.rpy",
+    6706
+   ],
+   "ja": [
+    "ありがとうございます……。サイトさんがいてくれたからです、きっと。",
+    "dialogs.rpy",
+    6700
+   ]
+  },
+  {
+   "line": 208,
+   "who": "s",
+   "voice": "ch2.7_s_028",
+   "en": "Nah, in the end I didn't actually do anything useful. But these cookies really are good.",
+   "ru": [
+    "Да нет, по сути я тут ничего полезного не сделал. Но печенье правда вкусное.",
+    "dialogs.rpy",
+    6709
+   ],
+   "ja": [
+    "いやあ、俺って結局何も役に立ってないし。でも、本当に美味しいよ、このクッキー。",
+    "dialogs.rpy",
+    6703
+   ]
+  },
+  {
+   "line": 210,
+   "who": "si",
+   "voice": "ch2.7_si_032",
+   "en": "Fufu, eat as much as you like.",
+   "ru": [
+    "Уфуфу, ешьте сколько угодно.",
+    "dialogs.rpy",
+    6712
+   ],
+   "ja": [
+    "うふふ、どんどん食べてくださいな。",
+    "dialogs.rpy",
+    6706
+   ]
+  },
+  {
+   "line": 212,
+   "who": "s",
+   "voice": "ch2.7_s_029",
+   "en": "It'd be a waste for me to eat them all. Let's share, Siesta.",
+   "ru": [
+    "Жалко, если съем один. Давай вместе, Сиеста.",
+    "dialogs.rpy",
+    6715
+   ],
+   "ja": [
+    "俺ばっか食べてたらもったいないよ。シエスタも一緒に食べよう。",
+    "dialogs.rpy",
+    6709
+   ]
+  },
+  {
+   "line": 214,
+   "who": "si",
+   "voice": "ch2.7_si_033",
+   "en": "Ah, yes!",
+   "ru": [
+    "А, да!",
+    "dialogs.rpy",
+    6718
+   ],
+   "ja": [
+    "あ、はい！",
+    "dialogs.rpy",
+    6712
+   ]
+  },
+  {
+   "line": 223,
+   "who": "s",
+   "voice": "ch2.7_s_030",
+   "en": "Hey, Tabitha - it's nice out today. Want to go somewhere for once?",
+   "ru": [
+    "Эй, Табита — сегодня хорошая погода. Не пойти ли нам куда-нибудь?",
+    "dialogs.rpy",
+    6721
+   ],
+   "ja": [
+    "なあ、タバサ、今日はいい天気だし、たまには外に出かけないか？",
+    "dialogs.rpy",
+    6715
+   ]
+  },
+  {
+   "line": 226,
+   "who": "t",
+   "voice": "ch2.7_t_001",
+   "en": "...Already on my schedule.",
+   "ru": [
+    "…У меня уже в планах.",
+    "dialogs.rpy",
+    6724
+   ],
+   "ja": [
+    "……その予定。",
+    "dialogs.rpy",
+    6718
+   ]
+  },
+  {
+   "line": 229,
+   "who": "s",
+   "voice": "ch2.7_s_031",
+   "en": "...Whaat?! Tabitha is going outside!?",
+   "ru": [
+    "…Что?! Табита выходит на улицу!?",
+    "dialogs.rpy",
+    6727
+   ],
+   "ja": [
+    "……ええっ！タバサが外出するのか！？",
+    "dialogs.rpy",
+    6721
+   ]
+  },
+  {
+   "line": 231,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1044a}",
+   "ru": [
+    "…",
+    "thoughs.rpy",
+    519
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    524
+   ]
+  },
+  {
+   "line": 234,
+   "who": "s",
+   "voice": "ch2.7_s_032",
+   "en": "Ah, no - I'm not saying it's weird to go out. It's just, I came to invite you and you beat me to it...",
+   "ru": [
+    "А, нет, я не говорю, что странно выходить. Просто я хотел позвать, а меня опередили…",
+    "dialogs.rpy",
+    6730
+   ],
+   "ja": [
+    "あ、いや、別に出かけるのが変だと言ってるわけじゃなくてだな。誘いに来たのに先を越されたというか……。",
+    "dialogs.rpy",
+    6724
+   ]
+  },
+  {
+   "line": 237,
+   "who": "s",
+   "voice": "ch2.7_s_033",
+   "en": "Ah, whatever. So, where are you headed? I can come along, if you want.",
+   "ru": [
+    "Да ладно. И куда идёшь? Могу составить компанию.",
+    "dialogs.rpy",
+    6733
+   ],
+   "ja": [
+    "まあいいや。で、どこへ行くんだ？なんだったら俺、付き合うけど。",
+    "dialogs.rpy",
+    6727
+   ]
+  },
+  {
+   "line": 240,
+   "who": "t",
+   "voice": "ch2.7_t_002",
+   "en": "...To town, to buy books.",
+   "ru": [
+    "…В город, купить книги.",
+    "dialogs.rpy",
+    6736
+   ],
+   "ja": [
+    "……街まで、本を買いに。",
+    "dialogs.rpy",
+    6730
+   ]
+  },
+  {
+   "line": 243,
+   "who": "s",
+   "voice": "ch2.7_s_034",
+   "en": "Oh... sorry, that makes perfect sense.",
+   "ru": [
+    "А… прости, всё как раз объяснилось.",
+    "dialogs.rpy",
+    6739
+   ],
+   "ja": [
+    "ああ……ごめん、すごく納得した。",
+    "dialogs.rpy",
+    6733
+   ]
+  },
+  {
+   "line": 245,
+   "who": "t",
+   "voice": "ch2.7_t_003",
+   "en": "...So I can't come along today.",
+   "ru": [
+    "…Поэтому сегодня я не могу пойти.",
+    "dialogs.rpy",
+    6742
+   ],
+   "ja": [
+    "……だから、今日は付き合えない。",
+    "dialogs.rpy",
+    6736
+   ]
+  },
+  {
+   "line": 248,
+   "who": "s",
+   "voice": "ch2.7_s_035",
+   "en": "Hahaha. Come on, in that case I'll at least carry your bags.",
+   "ru": [
+    "Ха-ха-ха. Ну, раз так — я хоть сумки подержу.",
+    "dialogs.rpy",
+    6745
+   ],
+   "ja": [
+    "はははっ。なーに、そういうことなら荷物持ちくらいしてやるよ。",
+    "dialogs.rpy",
+    6739
+   ]
+  },
+  {
+   "line": 250,
+   "who": "t",
+   "voice": "ch2.7_t_004",
+   "en": "...You don't mind?",
+   "ru": [
+    "…Ты не против?",
+    "dialogs.rpy",
+    6748
+   ],
+   "ja": [
+    "……いいの？",
+    "dialogs.rpy",
+    6742
+   ]
+  },
+  {
+   "line": 252,
+   "who": "s",
+   "voice": "ch2.7_s_036",
+   "en": "Of course, it's nothing.",
+   "ru": [
+    "Конечно, это ерунда.",
+    "dialogs.rpy",
+    6751
+   ],
+   "ja": [
+    "いいって、それくらい。",
+    "dialogs.rpy",
+    6745
+   ]
+  },
+  {
+   "line": 254,
+   "who": "t",
+   "voice": "ch2.7_t_005",
+   "en": "...They'll get pretty heavy, though.",
+   "ru": [
+    "…Только их станет довольно тяжело носить.",
+    "dialogs.rpy",
+    6754
+   ],
+   "ja": [
+    "……かなり重くなるけど。",
+    "dialogs.rpy",
+    6748
+   ]
+  },
+  {
+   "line": 257,
+   "who": "s",
+   "voice": "ch2.7_s_037",
+   "en": "Er... how heavy?",
+   "ru": [
+    "Э-э… насколько?",
+    "dialogs.rpy",
+    6757
+   ],
+   "ja": [
+    "ええと……どれくらい？",
+    "dialogs.rpy",
+    6751
+   ]
+  },
+  {
+   "line": 259,
+   "who": "t",
+   "voice": "ch2.7_t_006",
+   "en": "...Usually I only buy what fits in my bag.",
+   "ru": [
+    "…Обычно я беру столько, сколько влезет в сумку.",
+    "dialogs.rpy",
+    6760
+   ],
+   "ja": [
+    "……普段は、鞄に入るだけにしてる。",
+    "dialogs.rpy",
+    6754
+   ]
+  },
+  {
+   "line": 262,
+   "who": "s",
+   "voice": "ch2.7_s_038",
+   "en": "Oh, I can handle that much. Don't worry, leeeave it to me.",
+   "ru": [
+    "А, такое я уж точно потащу. Не переживай, полааагайся на меня.",
+    "dialogs.rpy",
+    6763
+   ],
+   "ja": [
+    "ああ、それくらいなら俺でも持てるさ。大丈夫、まーかせて。",
+    "dialogs.rpy",
+    6757
+   ]
+  },
+  {
+   "line": 264,
+   "who": "t",
+   "voice": "ch2.7_t_007",
+   "en": "...Alright. Please.",
+   "ru": [
+    "…Ладно. Прошу.",
+    "dialogs.rpy",
+    6766
+   ],
+   "ja": [
+    "……分かった。お願い。",
+    "dialogs.rpy",
+    6760
+   ]
+  },
+  {
+   "line": 266,
+   "who": "s",
+   "voice": "ch2.7_s_039",
+   "en": "Roger, roger.",
+   "ru": [
+    "Принято-принято.",
+    "dialogs.rpy",
+    6769
+   ],
+   "ja": [
+    "了解、了解。",
+    "dialogs.rpy",
+    6763
+   ]
+  },
+  {
+   "line": 269,
+   "who": "s",
+   "voice": "ch2.7_s_040",
+   "en": "Phew, as lively as ever. So, which way is the bookstore?",
+   "ru": [
+    "Фух, как всегда шумно. Итак, в какую сторону книжный?",
+    "dialogs.rpy",
+    6772
+   ],
+   "ja": [
+    "ふうっ、相変わらず賑やかだなあ。で、本屋はどっちなんだ？",
+    "dialogs.rpy",
+    6766
+   ]
+  },
+  {
+   "line": 271,
+   "who": "t",
+   "voice": "ch2.7_t_008",
+   "en": "...This way.",
+   "ru": [
+    "…Сюда.",
+    "dialogs.rpy",
+    6775
+   ],
+   "ja": [
+    "……こっち。",
+    "dialogs.rpy",
+    6769
+   ]
+  },
+  {
+   "line": 273,
+   "who": "s",
+   "voice": "ch2.7_s_041",
+   "en": "Okay. Let's go.",
+   "ru": [
+    "Ок. Поехали.",
+    "dialogs.rpy",
+    6778
+   ],
+   "ja": [
+    "オッケー。じゃ、行こうぜ。",
+    "dialogs.rpy",
+    6772
+   ]
+  },
+  {
+   "line": 276,
+   "who": "t",
+   "voice": "ch2.7_t_009",
+   "en": "...Just around this corner.",
+   "ru": [
+    "…За этим углом.",
+    "dialogs.rpy",
+    6781
+   ],
+   "ja": [
+    "……この角を曲がったところ。",
+    "dialogs.rpy",
+    6775
+   ]
+  },
+  {
+   "line": 278,
+   "who": "s",
+   "voice": "ch2.7_s_042",
+   "en": "Let's see.",
+   "ru": [
+    "Ну-ка.",
+    "dialogs.rpy",
+    6784
+   ],
+   "ja": [
+    "どれどれ。",
+    "dialogs.rpy",
+    6778
+   ]
+  },
+  {
+   "line": 280,
+   "who": "s",
+   "voice": "ch2.7_s_043",
+   "en": "This one here - the shop with the sign out front?",
+   "ru": [
+    "Вот это, где вывеска висит?",
+    "dialogs.rpy",
+    6787
+   ],
+   "ja": [
+    "ここの、立て札が出てるこの店か？",
+    "dialogs.rpy",
+    6781
+   ]
+  },
+  {
+   "line": 282,
+   "who": "t",
+   "voice": "ch2.7_t_010",
+   "en": "...Sign?",
+   "ru": [
+    "…Вывеска?",
+    "dialogs.rpy",
+    6790
+   ],
+   "ja": [
+    "……立て札？",
+    "dialogs.rpy",
+    6784
+   ]
+  },
+  {
+   "line": 285,
+   "who": "s",
+   "voice": "ch2.7_s_044",
+   "en": "Something's written on it. I can't read it, though.",
+   "ru": [
+    "Там что-то написано. Только прочитать не могу.",
+    "dialogs.rpy",
+    6793
+   ],
+   "ja": [
+    "なんか書いてあるな。俺には読めないけど。",
+    "dialogs.rpy",
+    6787
+   ]
+  },
+  {
+   "line": 286,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1044b}",
+   "ru": [
+    "…",
+    "thoughs.rpy",
+    522
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    527
+   ]
+  },
+  {
+   "line": 289,
+   "who": "s",
+   "voice": "ch2.7_s_045",
+   "en": "What does it say?",
+   "ru": [
+    "Что там написано?",
+    "dialogs.rpy",
+    6796
+   ],
+   "ja": [
+    "何て書いてあるんだ？",
+    "dialogs.rpy",
+    6790
+   ]
+  },
+  {
+   "line": 292,
+   "who": "t",
+   "voice": "ch2.7_t_011",
+   "en": "...'Closed today.'",
+   "ru": [
+    "…«Сегодня закрыто».",
+    "dialogs.rpy",
+    6799
+   ],
+   "ja": [
+    "……『本日休業』。",
+    "dialogs.rpy",
+    6793
+   ]
+  },
+  {
+   "line": 295,
+   "who": "s",
+   "voice": "ch2.7_s_046",
+   "en": "...Huh?{#ch2.7_s_046}",
+   "ru": [
+    "…Что?",
+    "dialogs.rpy",
+    6802
+   ],
+   "ja": [
+    "……は？",
+    "dialogs.rpy",
+    6796
+   ]
+  },
+  {
+   "line": 297,
+   "who": "t",
+   "voice": "ch2.7_t_012",
+   "en": "...The shop is closed.",
+   "ru": [
+    "…Магазин закрыт.",
+    "dialogs.rpy",
+    6805
+   ],
+   "ja": [
+    "……お店が閉まってる。",
+    "dialogs.rpy",
+    6799
+   ]
+  },
+  {
+   "line": 299,
+   "who": "s",
+   "voice": "ch2.7_s_047",
+   "en": "Great. Talk about bad luck.",
+   "ru": [
+    "Здорово. Везёт же.",
+    "dialogs.rpy",
+    6808
+   ],
+   "ja": [
+    "はあ。そりゃまた運が悪いな。",
+    "dialogs.rpy",
+    6802
+   ]
+  },
+  {
+   "line": 300,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1044c}",
+   "ru": [
+    "…",
+    "thoughs.rpy",
+    525
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    530
+   ]
+  },
+  {
+   "line": 301,
+   "who": "th",
+   "voice": null,
+   "en": "Wow, Tabitha is so disappointed it's obvious just to look at. She must have been looking forward to it a lot.",
+   "ru": [
+    "Ваа, Табита расстроена так, что видно невооружённым глазом. Значит, очень ждала.",
+    "thoughs.rpy",
+    528
+   ],
+   "ja": [
+    "（うわー、タバサが見てて分かるくらい　ガッカリしてるよ。　よっぽど楽しみにしてたんだな）",
+    "thoughs.rpy",
+    533
+   ]
+  },
+  {
+   "line": 314,
+   "who": "s",
+   "voice": "ch2.7_s_048",
+   "en": "Days like this happen.",
+   "ru": [
+    "Бывает и так.",
+    "dialogs.rpy",
+    6811
+   ],
+   "ja": [
+    "こんな日もあるって。",
+    "dialogs.rpy",
+    6805
+   ]
+  },
+  {
+   "line": 315,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1045a}",
+   "ru": [
+    "…",
+    "thoughs.rpy",
+    531
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    536
+   ]
+  },
+  {
+   "line": 317,
+   "who": "s",
+   "voice": "ch2.7_s_049",
+   "en": "Come on, it's not like today's the only day you can buy books. You can just come again next time.",
+   "ru": [
+    "Ну, не будешь же ты покупать книги только сегодня. Можно прийти в другой раз.",
+    "dialogs.rpy",
+    6814
+   ],
+   "ja": [
+    "ほら、別に、本を買いに来るのは今日だけじゃないだろ？また今度にすればいいじゃないか。",
+    "dialogs.rpy",
+    6808
+   ]
+  },
+  {
+   "line": 319,
+   "who": "t",
+   "voice": "ch2.7_t_013",
+   "en": "...There's no guarantee the book I want will still be in stock by next time.",
+   "ru": [
+    "…Нет гарантии, что нужная книга дождётся до следующего раза.",
+    "dialogs.rpy",
+    6817
+   ],
+   "ja": [
+    "……今度来るときまでに、目当ての本が売れ残ってる保証はない。",
+    "dialogs.rpy",
+    6811
+   ]
+  },
+  {
+   "line": 322,
+   "who": "s",
+   "voice": "ch2.7_s_050",
+   "en": "Oof. Fair point, but...",
+   "ru": [
+    "Угх. Верно, но…",
+    "dialogs.rpy",
+    6820
+   ],
+   "ja": [
+    "う。確かにそうだけど……。",
+    "dialogs.rpy",
+    6814
+   ]
+  },
+  {
+   "line": 324,
+   "who": "s",
+   "voice": "ch2.7_s_051",
+   "en": "...{#ch2.7_s_051}",
+   "ru": [
+    "…{#ch2.7_s_051}",
+    "dialogs.rpy",
+    6823
+   ],
+   "ja": [
+    "……。",
+    "dialogs.rpy",
+    6817
+   ]
+  },
+  {
+   "line": 325,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1045}",
+   "ru": [
+    "…{#ch2.7_th1045}",
+    "thoughs.rpy",
+    534
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    539
+   ]
+  },
+  {
+   "line": 328,
+   "who": "s",
+   "voice": "ch2.7_s_052",
+   "en": "Ah, tell you what - next time I'll sneak out on your errand. Tell me the title and I'll buy it for you.",
+   "ru": [
+    "А, вот что: в следующий раз я тихонько сбегаю вместо тебя. Назови название — куплю.",
+    "dialogs.rpy",
+    6826
+   ],
+   "ja": [
+    "あー、なんなら俺が今度こっそりお遣いに来るからさ。本の名前、教えてくれれば買って来るよ。",
+    "dialogs.rpy",
+    6820
+   ]
+  },
+  {
+   "line": 331,
+   "who": "t",
+   "voice": "ch2.7_t_014",
+   "en": "...Are you sure?",
+   "ru": [
+    "…Ты правда не против?",
+    "dialogs.rpy",
+    6829
+   ],
+   "ja": [
+    "……本当に、いいの？",
+    "dialogs.rpy",
+    6823
+   ]
+  },
+  {
+   "line": 333,
+   "who": "s",
+   "voice": "ch2.7_s_053",
+   "en": "Ah, yeah. I'll manage somehow.",
+   "ru": [
+    "А, да. Как-нибудь устрою.",
+    "dialogs.rpy",
+    6832
+   ],
+   "ja": [
+    "あー、うん。なんとかするさ。",
+    "dialogs.rpy",
+    6826
+   ]
+  },
+  {
+   "line": 336,
+   "who": "t",
+   "voice": "ch2.7_t_015",
+   "en": "...Thanks.",
+   "ru": [
+    "…Спасибо.",
+    "dialogs.rpy",
+    6835
+   ],
+   "ja": [
+    "……ありがとう。",
+    "dialogs.rpy",
+    6829
+   ]
+  },
+  {
+   "line": 343,
+   "who": "s",
+   "voice": "ch2.7_s_054",
+   "en": "I'll buy you something.",
+   "ru": [
+    "Я тебя угощу.",
+    "dialogs.rpy",
+    6838
+   ],
+   "ja": [
+    "なんかおごってやるよ。",
+    "dialogs.rpy",
+    6832
+   ]
+  },
+  {
+   "line": 346,
+   "who": "t",
+   "voice": "ch2.7_t_016",
+   "en": "...Huh?{#ch2.7_t_016}",
+   "ru": [
+    "…А?",
+    "dialogs.rpy",
+    6841
+   ],
+   "ja": [
+    "……え？",
+    "dialogs.rpy",
+    6835
+   ]
+  },
+  {
+   "line": 348,
+   "who": "s",
+   "voice": "ch2.7_s_055",
+   "en": "Er, well, it's such nice weather and your throat must be dry, right?",
+   "ru": [
+    "Э-э, ну, погода-то отличная, и наверняка пересохло в горле, верно?",
+    "dialogs.rpy",
+    6844
+   ],
+   "ja": [
+    "ええと、まああれだ、こんだけの上天気だし喉も渇いたろ？",
+    "dialogs.rpy",
+    6838
+   ]
+  },
+  {
+   "line": 350,
+   "who": "s",
+   "voice": "ch2.7_s_056",
+   "en": "That stall over there sells juice, so I'll go grab some.",
+   "ru": [
+    "Там у лотка продают сок, сбегаю принесу.",
+    "dialogs.rpy",
+    6847
+   ],
+   "ja": [
+    "そこの露店でジュース売ってたから、買ってくるよ。",
+    "dialogs.rpy",
+    6841
+   ]
+  },
+  {
+   "line": 353,
+   "who": "t",
+   "voice": "ch2.7_t_017",
+   "en": "Ah...{#ch2.7_t_017}",
+   "ru": [
+    "А…",
+    "dialogs.rpy",
+    6850
+   ],
+   "ja": [
+    "あ……。",
+    "dialogs.rpy",
+    6844
+   ]
+  },
+  {
+   "line": 356,
+   "who": "s",
+   "voice": "ch2.7_s_057",
+   "en": "Here, sorry to keep you waiting. This one's yours, Tabitha.",
+   "ru": [
+    "На, извини, что заставил ждать. Это твоё, Табита.",
+    "dialogs.rpy",
+    6853
+   ],
+   "ja": [
+    "はい、お待たせ。こっちがタバサの分な。",
+    "dialogs.rpy",
+    6847
+   ]
+  },
+  {
+   "line": 357,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1046a}",
+   "ru": [
+    "…",
+    "thoughs.rpy",
+    537
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    542
+   ]
+  },
+  {
+   "line": 360,
+   "who": "s",
+   "voice": "ch2.7_s_058",
+   "en": "Oh - come to think of it, what juice is this? I couldn't read the menu so I just grabbed something, hope it's fine.",
+   "ru": [
+    "А, кстати, это какой сок? Меню прочитать не смог, так что взял наугад — не страшно?",
+    "dialogs.rpy",
+    6856
+   ],
+   "ja": [
+    "って、そういやこれ、なんのジュースだ？お品書きが読めないから適当に買って来ちゃったけど、大丈夫かな。",
+    "dialogs.rpy",
+    6850
+   ]
+  },
+  {
+   "line": 362,
+   "who": "t",
+   "voice": "ch2.7_t_018",
+   "en": "...That's wild grape juice.",
+   "ru": [
+    "…Это сок дикого винограда.",
+    "dialogs.rpy",
+    6859
+   ],
+   "ja": [
+    "……それは、山ブドウのジュース。",
+    "dialogs.rpy",
+    6853
+   ]
+  },
+  {
+   "line": 365,
+   "who": "s",
+   "voice": "ch2.7_s_059",
+   "en": "Wild grapes, huh. Oh, and what's yours?",
+   "ru": [
+    "Дикий виноград, ага. А что у тебя?",
+    "dialogs.rpy",
+    6862
+   ],
+   "ja": [
+    "山ブドウか。あ、そっちのはなに？",
+    "dialogs.rpy",
+    6856
+   ]
+  },
+  {
+   "line": 367,
+   "who": "t",
+   "voice": "ch2.7_t_019",
+   "en": "...This one is mountain cranberry juice.",
+   "ru": [
+    "…А это сок брусники.",
+    "dialogs.rpy",
+    6865
+   ],
+   "ja": [
+    "……こっちは、コケモモのジュース。",
+    "dialogs.rpy",
+    6859
+   ]
+  },
+  {
+   "line": 369,
+   "who": "s",
+   "voice": "ch2.7_s_060",
+   "en": "Huh... I have no idea what mountain cranberries are, but... oh well, dig in!",
+   "ru": [
+    "Ишь ты… Не знаю я, что за брусника такая… Да ладно, приступаю!",
+    "dialogs.rpy",
+    6868
+   ],
+   "ja": [
+    "へえ……。コケモモってなんだか分からないけど……。まあ、いいや、いっただっきまーす。",
+    "dialogs.rpy",
+    6862
+   ]
+  },
+  {
+   "line": 372,
+   "who": "s",
+   "voice": "ch2.7_s_061",
+   "en": "Pfft - sour, but good.",
+   "ru": [
+    "Пф — кислый, но вкусный.",
+    "dialogs.rpy",
+    6871
+   ],
+   "ja": [
+    "ぷはっ、酸っぱいけど美味いや。",
+    "dialogs.rpy",
+    6865
+   ]
+  },
+  {
+   "line": 376,
+   "who": "th",
+   "voice": null,
+   "en": "...{#ch2.7_th1046b}",
+   "ru": [
+    "…",
+    "thoughs.rpy",
+    540
+   ],
+   "ja": [
+    "……。",
+    "thoughs.rpy",
+    545
+   ]
+  },
+  {
+   "line": 380,
+   "who": "s",
+   "voice": "ch2.7_s_062",
+   "en": "Hmm? What's wrong?",
+   "ru": [
+    "Мм? Что такое?",
+    "dialogs.rpy",
+    6874
+   ],
+   "ja": [
+    "んぁ、どうかした？",
+    "dialogs.rpy",
+    6868
+   ]
+  },
+  {
+   "line": 383,
+   "who": "t",
+   "voice": "ch2.7_t_020",
+   "en": "...Nothing.",
+   "ru": [
+    "…Ничего.",
+    "dialogs.rpy",
+    6877
+   ],
+   "ja": [
+    "……なんでもない。",
+    "dialogs.rpy",
+    6871
+   ]
+  }
+ ],
+ "ru_dup": [],
+ "ja_dup": []
+}

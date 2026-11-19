@@ -1,0 +1,2312 @@
+[
+ {
+  "script_line": 16,
+  "speaker": "s",
+  "en": "Louise... What happened, anyway?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Луиза… Что вообще случилось?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ルイズ……。どうしたんだ、いったい？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 20,
+  "speaker": "si",
+  "en": "……。{#ch2.5_si14594}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 23,
+  "speaker": "ha",
+  "en": "……。{#ch2.5_ha115}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 27,
+  "speaker": "s",
+  "en": "U-um... Did I do something wrong?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Э-ээ… Кажется, я что-то натворил?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "え、ええと……。俺、まずいことしたのかな。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 31,
+  "speaker": "si",
+  "en": "I'll be going now.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я пойду."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "わたし、行ってきます。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 35,
+  "speaker": "s",
+  "en": "Go...?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Пойти…?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "行くって……？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 38,
+  "speaker": "si",
+  "en": "To look for Miss Vallière... I think it would be better if I spoke with her rather than Saito-san.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Чтобы разыскать мадемуазель Вальер… Наверное, поговорить с ней лучше мне, а не вам."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ミス・ヴァリエールを探しに……です。たぶん、サイトさんよりは、わたしがお話したほうが良いと思いますし。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 41,
+  "speaker": "si",
+  "en": "I'll find her and bring her back. You wait here, Saito-san.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я её найду и приведу. Подождите здесь, Сайто-сан."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "探して、呼んできますから。サイトさんは、ここで待っててください。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 45,
+  "speaker": "s",
+  "en": "Ah, Siesta...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "А, Сиеста…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "あ、シエスタ……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 51,
+  "speaker": "s",
+  "en": "Well then, maybe I should go look for Louise too... Siesta told me to stay, but somehow I feel like this is my fault too...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Что ж, тогда и мне, наверное, стоит отправиться на поиски Луизы… Хоть Сиеста и сказала подождать, но мне почему-то кажется, что виноват тут я…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "それじゃあ、俺もルイズを探しに行くか……。シエスタにはああ言われたけど、なんか、俺が原因のような気がするし……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 55,
+  "speaker": "ha",
+  "en": "Wait!",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Подожди!"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "待って！"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 58,
+  "speaker": "s",
+  "en": "Haruna?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Харуна?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "春奈？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 61,
+  "speaker": "ha",
+  "en": "Don't go, Hiraga-kun. Don't leave me all alone...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Не уходи, Хирага-кун. Не оставляй меня одну…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "行かないで、平賀くん。私を１人にしないで……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 64,
+  "speaker": "s",
+  "en": "Haruna...{#ch2.5_s11175}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Харуна…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "春奈……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 75,
+  "speaker": "ha",
+  "en": "You're going to leave me behind...? All alone again...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Ты собираешься меня оставить…? Опять одна…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "私を置いていくの……？また、私１人……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 80,
+  "speaker": "s",
+  "en": "Haruna...{#ch2.5_s11176}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Харуна…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "春奈……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 82,
+  "speaker": "th",
+  "en": "I'm worried about Louise. That idiot definitely misunderstood something, got in a huff, and blew up.",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Переживаю за Луизу. Она точно что-то не так поняла, надулась и взорвалась."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（ルイズが心配だ。　絶対あいつ、なんか誤解して、むくれて、　爆発しちまったわけだし）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 85,
+  "speaker": "th",
+  "en": "But... I can't leave Haruna all alone right now... can I?",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Но ведь нельзя оставить Харуну сейчас совсем одну…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（でも、今春奈を１人ぼっちにする　わけには……いかないか）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 92,
+  "speaker": "ha",
+  "en": "Hiraga-kun, you're not going, right? You won't disappear on me again?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Хирага-кун, ты же не пойдёшь? Ты больше никуда не пропадёшь?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "平賀くん、行かないよね？もう、どこにも消えたりしないよね？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 95,
+  "speaker": "s",
+  "en": "I told you, I won't disappear. Don't worry, just calm down.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я же говорю — не пропаду. Не волнуйся, успокойся."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "消えたりしねーって。心配しないで、落ち着いて。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 100,
+  "speaker": "ha",
+  "en": "Thank goodness...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Как хорошо…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "良かった……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 105,
+  "speaker": "th",
+  "en": "Ever since I came to this world, I haven't had a single acquaintance, or anyone willing to help me.",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "С тех пор как я попал в этот мир, у меня не было ни знакомых, ни того, кто мог бы помочь."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（この世界に来てから、知り合いも助けてくれる　人もいなかったんだもんな）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 107,
+  "speaker": "th",
+  "en": "So having me around — someone she already knows — must really matter that much.",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Значит, очень важно, чтобы рядом был я — уже знакомый человек."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（顔見知りの俺がいることが、　よっぽど大事ってことか）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 116,
+  "speaker": "s",
+  "en": "Got it. I'm not going anywhere. Anyway, let's hurry up and finish dinner.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Ладно. Я никуда не денусь. Лучше быстрее доедим ужин."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "分かった。俺どこにも行かねーからさ。それより、早く夕食を食べてしまおうぜ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 119,
+  "speaker": "ha",
+  "en": "O-oh. Right...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "А, да. Верно…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "あ、うん。そうだね……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 121,
+  "speaker": "th",
+  "en": "I'll leave Louise to Siesta for now. She'll probably be fine.",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Луизу пока оставлю Сиесте — наверное, она справится."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（ルイズのことは、とりあえずシエスタに　任せよう。　たぶん、大丈夫だろ）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 124,
+  "speaker": "ha",
+  "en": "Hiraga-kun, what's wrong?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Хирага-кун, что такое?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "平賀くん、どうしたの？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 127,
+  "speaker": "s",
+  "en": "Hm? No, it's nothing.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "А? Да ничего."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ん？いや、なんでもない。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 136,
+  "speaker": "l",
+  "en": "...What am I even thinking? I don't even know myself.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…О чём я только думаю? Сама не понимаю."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……なに考えてるのよ、わたし。自分でもわけ分かんない。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 139,
+  "speaker": "l",
+  "en": "Saito didn't do anything wrong in the first place... and I still went and said that. I'm really the worst...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Сайто ведь ничего и не сделал… а я всё равно такое наговорила. Я и впрямь низкая…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "そもそもサイトは何もしていないのに……、なのに、あんなこと言っちゃって。わたし、本当に最低……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 143,
+  "speaker": "l",
+  "en": "Even so, the way that girl Haruna talked rubbed me the wrong way.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "И всё же тон этой Харуны меня раздражал."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "それにしても、あのハルナって娘の言い方はシャクにさわるわ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 146,
+  "speaker": "l",
+  "en": "Being from the same world as Saito means she's a commoner.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Раз она из того же мира, что и Сайто, значит — простолюдинка."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "サイトと同じ世界の人間ってことは、つまり平民なわけで。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 149,
+  "speaker": "l",
+  "en": "I couldn't forgive a commoner speaking to me like that... but still...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я не могла простить, что простолюдинка так со мной разговаривает… но всё равно…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "わたしに対して、平民があんな言い方をするのを許しておけなかったけど……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 153,
+  "speaker": "l",
+  "en": "That's no reason to go and make such a fool of myself, though... How am I even supposed to face them when I get back...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Но ведь из-за этого не стоит так позориться… Каким лицом я вернусь…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "だからって、あんなみっともない真似することないわよね……。わたし、どんな顔して戻ればいいのよ……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 158,
+  "speaker": "l",
+  "en": "……？{#ch2.5_l5865}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 164,
+  "speaker": "si",
+  "en": "Miss Vallière. So you were here. I've been looking everywhere for you.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Мадемуазель Вальер. Вот вы где. Я вас искала."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ミス・ヴァリエール。ここにいたんですね？探しましたよ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 168,
+  "speaker": "l",
+  "en": "Siesta... W-what do you want, commoner?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Сиеста… Ч-чего тебе нужно, простолюдинка?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "シエスタ……。へ、平民が、な、何の用よ？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 171,
+  "speaker": "si",
+  "en": "I had Saito-san wait in his room. It's only me and Miss Vallière here — no one else will hear us.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я оставила Сайто-сан в комнате. Здесь только я и мадемуазель Вальер — нас никто не услышит."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "サイトさんは、部屋に残ってもらいました。ここにはわたくしとミス・ヴァリエールだけです。他の誰にも話は聞かれません。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 175,
+  "speaker": "l",
+  "en": "Huh...?{#ch2.5_l5867}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "А…?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "へ……？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 178,
+  "speaker": "si",
+  "en": "Miss Vallière. I understand how you feel.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Мадемуазель Вальер. Я хорошо понимаю ваши чувства."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ミス・ヴァリエール。お気持ちは良く分かります。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 182,
+  "speaker": "l",
+  "en": "W-what are you talking about?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "О-о чём ты?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "な、なんのことよ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 186,
+  "speaker": "si",
+  "en": "Right now, since Haruna showed up, Saito-san thinks about nothing but her...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Сейчас Сайто-сан, с тех пор как появилась Харуна, думает только о ней…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "今のサイトさんは、ハルナさんが現れてから、彼女のことしか考えていない……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 190,
+  "speaker": "si",
+  "en": "No, even that's putting it too strongly — but right now he's putting Haruna first of all.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Нет, это, быть может, преувеличение, но сейчас он ставит Харуну на первое место."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "いえ、それは言い過ぎとしても、今はハルナさんのことを一番に考えてます。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 194,
+  "speaker": "si",
+  "en": "Of course, I know that's just Saito-san's kindness at heart.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Разумеется, я понимаю, что это просто доброта Сайто-сан."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "もちろん、それはサイトさん本来の優しさであることは、わたくしも分かってるつもりです。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 198,
+  "speaker": "l",
+  "en": "……。{#ch2.5_l5869}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 202,
+  "speaker": "si",
+  "en": "However you look at it, I'm certain Haruna has feelings for Saito-san.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Как ни посмотри, у Харуны определённо есть чувства к Сайто-сан."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ハルナさんはどうみても、サイトさんに気があると思って間違いないでしょう。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 205,
+  "speaker": "si",
+  "en": "If this goes on, Haruna will take Saito-san away from us. No — if it were only that, it would still be fine, but...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Если так пойдёт, Харуна заберёт у нас Сайто-сан. Нет, если бы только это — ещё куда ни шло, но…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "このままでは、サイトさんはハルナさんに取られてしまいます。いえ、それだけならまだいいのですが……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 209,
+  "speaker": "si",
+  "en": "At worst, he might leave the academy with Haruna to look for a way back to the original world.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "В худшем случае он может уйти из академии вместе с Харуной в поисках способа вернуться в прежний мир."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "最悪、元の世界に戻る方法を探すため、ハルナさんと学院を出て行ってしまうかもしれません。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 213,
+  "speaker": "si",
+  "en": "Miss Vallière, let me be blunt. Shall we join forces — just for now?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Мадемуазель Вальер, говорю прямо: не объединить ли нам усилия — хоть на время?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ミス・ヴァリエール、率直に言います。今の間だけ、手を組みませんか？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 217,
+  "speaker": "l",
+  "en": "I understand what you're saying. But I think it's absurd for a commoner to be giving me orders.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Твои доводы я поняла. Но чтобы простолюдинка мне давала указания — это же нелепо."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "あんたの言い分は分かったわ。でも、平民がわたしに指図をするなんて、どうかと思うわ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 221,
+  "speaker": "si",
+  "en": "Miss Vallière. I don't intend to meddle with your creed, but things aren't that forgiving right now.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Мадемуазель Вальер. Я не собираюсь вмешиваться в ваше кредо, но сейчас не всё так благополучно."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ミス・ヴァリエール。あなたの信条に口出しする気はありませんが、今はそんなに甘い状況ではありません。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 225,
+  "speaker": "l",
+  "en": "……。{#ch2.5_l5871}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 228,
+  "speaker": "si",
+  "en": "Haruna is from the same world as Saito-san.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Харуна из того же мира, что и Сайто-сан."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ハルナさんはサイトさんと同じ世界の人です。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 231,
+  "speaker": "l",
+  "en": "Th-that's true, but...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Э-это так, но…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "そ、そうだけど……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 234,
+  "speaker": "si",
+  "en": "Saito-san won't say it, but I'm sure he's homesick even now.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Сайто-сан и словом не обмолвится, но, должно быть, и сейчас тоскует по родине."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "サイトさんは口にはしませんが、きっと、今も故郷が恋しいはずです。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 237,
+  "speaker": "si",
+  "en": "And for Saito-san like that, Haruna is his hometown.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "А для такого Сайто-сан Харуна и есть родина."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "そんなサイトさんにとって、ハルナさんは故郷なんです。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 240,
+  "speaker": "si",
+  "en": "I'm sure he must have special feelings for Haruna.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Наверняка Сайто-сан испытывает к Харуне особые чувства."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "きっと、サイトさんはハルナさんに、特別な感情を持ってるはずです。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 244,
+  "speaker": "si",
+  "en": "And what's worse, Haruna senses her hometown in Saito-san too. And she's trying to use it.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Мало того — Харуна тоже чувствует в Сайто-сан родину. И пытается этим воспользоваться."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "しかも悪いことにハルナさんもサイトさんに故郷を感じています。そして、それを利用しようとしています。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 248,
+  "speaker": "l",
+  "en": "U-use!?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "В-воспользоваться?!"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "り、利用！？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 252,
+  "speaker": "si",
+  "en": "For example, Haruna's illness. It had probably already healed by nighttime.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "К примеру, болезнь Харуны. К ночи она уже, должно быть, прошла."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "たとえば、ハルナさんの病気。実は、夜には治っていたはずです。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 256,
+  "speaker": "l",
+  "en": "Really?{#ch2.5_l5874}",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Правда?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "え、本当？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 259,
+  "speaker": "si",
+  "en": "Yes, really. I'll grant she really was in bad shape that morning.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Да, правда. Утром ей и впрямь было плохо — это верно."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ええ、本当です。確かに朝、体調が厳しかったのはその通りだと思います。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 262,
+  "speaker": "si",
+  "en": "But I've been watching her, and an illness so severe she can't leave bed — no matter how you look at it, that's a lie.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Но я наблюдала за ней. Настолько тяжело, что не встать с постели, — это её ложь, как ни крути."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "でも、様子を見ていましたが、ベッドから離れられないほどの重症というのは、どう考えても彼女の嘘です。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 266,
+  "speaker": "l",
+  "en": "...So then what? You're saying that girl is using a fake illness to exploit Saito's kindness?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…Тогда что получается? Что она притворяется больной и пользуется добротой Сайто?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……それじゃ、なに？あの娘は、仮病を使ってサイトの親切心につけ込んでるってわけ？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 269,
+  "speaker": "si",
+  "en": "Exactly. Honest, kind, and easy to fool — Saito-san hasn't noticed it.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Именно. Сайто-сан — честный, добрый и легковерный — этого не замечает."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "そうです。正直もので、優しくて、だまされやすいサイトさんは、それに気づいていません。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 273,
+  "speaker": "l",
+  "en": "That's a rather barbed way to put it...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Какая-то колкая вышла формулировка…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "微妙に、トゲがある言い方ね……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 276,
+  "speaker": "si",
+  "en": "Haruna has been using the fake illness to monopolize Saito-san even more.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Харуна пользовалась притворной болезнью, чтобы ещё сильнее прибрать Сайто-сан к рукам."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ハルナさんは、サイトさんをより占有する方法として、仮病を使ってきました。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 279,
+  "speaker": "si",
+  "en": "I believe she saw the relationship between us and Saito-san, and decided to make her move.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Должно быть, она увидела наши отношения с Сайто-сан и решила бросить вызов."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "きっと、わたし達とサイトさんの関係を見て勝負をしかけてきたと思われます。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 282,
+  "speaker": "si",
+  "en": "If we leave this alone, it's exactly what Haruna wants.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Если оставить как есть — Харуна добьётся своего."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "このまま放置していたら、ハルナさんの思うつぼです。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 286,
+  "speaker": "l",
+  "en": "F-fufu... To think she expected such behavior to be allowed in my room...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Ф-фуфу… Как она могла думать, что такое в моей комнате ей простят…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ふ、ふふ……。わたしの部屋で、そんな真似が許されると思われてたとはね……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 290,
+  "speaker": "l",
+  "en": "She's really got some nerve, hasn't she.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Слишком уж она меня недооценивает."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ずいぶんと舐めたことをしてくれるじゃないの。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 295,
+  "speaker": "l",
+  "en": "Fine. Let's call a truce — only until I've put that wicked girl in her place.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Хорошо. Договоримся о перемирии — только пока я не прижму эту злодейку."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "いいわ。あの性悪女をやり込めるまでの間だけ、休戦といきましょう。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 298,
+  "speaker": "si",
+  "en": "Then the alliance is formed.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Значит, союз состоялся."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "では、同盟成立ですね。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 301,
+  "speaker": "k",
+  "en": "You're always doing something amusing, aren't you?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Как всегда — занимаетесь чем-то забавным."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "相変わらず面白いことしてるじゃないの。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 305,
+  "speaker": "l",
+  "en": "Kirche! Why are you here!?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Кирхе! Почему ты здесь!?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "キュルケ！なんであんたがここにいるのよ！"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 308,
+  "speaker": "k",
+  "en": "Oh, I'm not the only one.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Ой, я тут не одна."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "あら、あたしだけじゃないわよ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 312,
+  "speaker": "t",
+  "en": "...I just happened to drop by.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…Просто случайно заглянула."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……偶然来ただけ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 316,
+  "speaker": "l",
+  "en": "T-Tabitha!",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Т-Табита!"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "タ、タバサ！"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 320,
+  "speaker": "k",
+  "en": "Honestly, I just happened to pass by. And with Darling involved, I ended up listening to the whole thing.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Правда, я просто мимо проходила. Но раз тут замешан Дорогой, я дослушала до конца."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "本当、偶然通りかかっただけなんだけどね。ダーリンのこともあるし、最後まで聞いちゃった。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 323,
+  "speaker": "l",
+  "en": "O-oh no, you don't mean...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "О-ох, ты не хочешь сказать…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "あ、あんたまさか……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 327,
+  "speaker": "k",
+  "en": "Don't misunderstand me. I'm saying I'll help.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Не путай. Я же говорю — буду помогать."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "勘違いしないで。協力するって言ってるのよ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 331,
+  "speaker": "si",
+  "en": "Miss Zerbst?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Мадемуазель Цербст?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ミス・ツェルプストー？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 334,
+  "speaker": "k",
+  "en": "I won't get in your way. And of course, I'll keep it quiet from Darling and Haruna.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я не буду вам мешать. И, разумеется, промолчу перед Дорогим и Харуной."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "２人の邪魔はしないわ。もちろん、ダーリンやハルナには黙ってる。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 338,
+  "speaker": "k",
+  "en": "In return, though, I get to observe. How about it?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Но за это я буду наблюдать. Как вам такое?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ただ、その対価として見学はさせてもらうわ。それでどう？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 342,
+  "speaker": "l",
+  "en": "I have my serious doubts about how much protection I'd get. Understood.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Сильно сомневаюсь, насколько ты меня защитишь. Принято."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "どこまで守ってもらえるのか、大いに疑問だけど。了解したわ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 345,
+  "speaker": "k",
+  "en": "Then do your best for me too. Good night.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Ну что ж, постарайся и за меня. Спокойной ночи."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "それじゃ、あたしのためにも頑張ってね。お休みなさい。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 349,
+  "speaker": "t",
+  "en": "...Good night.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…Спокойной ночи."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……おやすみ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 354,
+  "speaker": "l",
+  "en": "For now, let's put off the strategy meeting. I won't let Haruna keep putting on airs.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Стратегическое совещание — попозже. Не дам я этой Харуне вечно важничать."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "とりあえず、作戦会議は後ほどしましょう。いつまでもハルナに大きな顔はさせないわ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 357,
+  "speaker": "si",
+  "en": "Yes, Miss Vallière! For Saito-san's sake too!",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Да, мадемуазель Вальер! И ради Сайто-сан тоже!"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ええ、ミス・ヴァリエール！サイトさんのためにも！"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 360,
+  "speaker": "l",
+  "en": "S-Saito has nothing to do with it! He never gives a thought to his master! About that stupid familiar...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "С-Сайто вообще неважен! Он совсем не думает о своей госпоже! Этот глупый фамильяр…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "サ、サイトはどうでもいいのよ。ご主人様のこと、ぜんぜん考えてくれないし。あのバカ使い魔のことなんか……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 363,
+  "speaker": "si",
+  "en": "R-right...",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Д-да…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "そ、そうですね……。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 372,
+  "speaker": "ha",
+  "en": "Thank you for the meal.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Спасибо за ужин."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ごちそうさまでした。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 375,
+  "speaker": "s",
+  "en": "I'll take the dishes. Haruna, you rest now.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я унесу посуду. Харуна, отдыхай."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "食器は、俺が持っていくよ。春奈はもうお休み。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 378,
+  "speaker": "ha",
+  "en": "O-okay. Thank you, Hiraga-kun.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "А, да. Спасибо, Хирага-кун."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "あ、はい。ありがとう、平賀くん。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 381,
+  "speaker": "s",
+  "en": "Nah, it's nothing.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Да ерунда."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "いや、どうってことないって。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 383,
+  "speaker": "th",
+  "en": "Still, those two are taking their sweet time coming back...",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "И всё же они вдвоём не возвращаются…"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（それにしても、　２人ともなかなか帰って来ないな……）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 385,
+  "speaker": "th",
+  "en": "I wonder if Siesta can't find Louise?",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Может, Сиеста так и не нашла Луизу?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（シエスタ、ルイズを見つけられないで　いるのかな？）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 387,
+  "speaker": "th",
+  "en": "Or maybe it's Louise — she's stubborn in the oddest ways... She might not be able to make herself come back.",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Или Луиза на редкость упрямая… Может, она уже не может заставить себя вернуться."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（それとも、ルイズのやつ　変なところで強情だからなぁ……。　帰るに帰れなくなってるかもしれない）"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 390,
+  "speaker": "ha",
+  "en": "Hiraga-kun, what's wrong? You're spacing out.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Хирага-кун, что такое? Ты отвлёкся."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "平賀くん、どうしたの？ぼーっとして。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 393,
+  "speaker": "s",
+  "en": "...Guess there's no helping it.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…Ничего не поделаешь."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……仕方ないかあ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 396,
+  "speaker": "ha",
+  "en": "Hiraga-kun?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Хирага-кун?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "平賀くん？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 399,
+  "speaker": "s",
+  "en": "Sorry. I'm just stepping out for a bit.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Прости. Я ненадолго выйду."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ごめん。ちょっとだけ、出かけてくる。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 402,
+  "speaker": "ha",
+  "en": "Where are you going?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Куда ты пойдёшь?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "どこに、行くの？"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 405,
+  "speaker": "s",
+  "en": "To look for Louise.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Разыскать Луизу."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "ルイズを探してくる。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 408,
+  "speaker": "ha",
+  "en": "Even if you don't go yourself, Hiraga-kun — Louise-san will be right back, won't she? It looked like Siesta went to meet her.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Даже если ты и не пойдёшь, Хирага-кун — Луиза-сан ведь скоро вернётся? Похоже, Сиеста пошла её встречать."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "平賀くんがわざわざ行かなくたって、ルイズさん、すぐに帰って来るんでしょ？シエスタさんも迎えに行ったみたいだし。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 411,
+  "speaker": "s",
+  "en": "No, she won't. My master is one stubborn customer.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Нет, не вернётся. Моя госпожа — упрямица."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "そんなことはないよ。俺のご主人様は、意地っぱりだからさ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 414,
+  "speaker": "s",
+  "en": "If I don't go meet her myself, she can't bring herself to come back straight. What a troublesome girl.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Если я сам не пойду ей навстречу, она не сможет вернуться по-хорошему. Какая же она хлопотная."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "こっちから迎えに行かないと、自分からは素直に戻ってこられない、面倒なやつなんだ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 417,
+  "speaker": "s",
+  "en": "I'll be right back, so don't worry. Now get some rest.",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "Я скоро вернусь, всё будет хорошо. Ну, отдыхай."
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "すぐに戻ってくるから、大丈夫だって。それじゃ、休んでるんだぞ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 423,
+  "speaker": "ha",
+  "en": "...Sigh. Why is Hiraga-kun so kind to everyone, anyway?",
+  "ru": [
+   [
+    "dialogs.rpy",
+    [
+     "…Ох. Почему Хирага-кун так добр ко всем?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "dialogs.rpy",
+    [
+     "……はあ。なんで、平賀くんって、あんなにみんなに優しいんだろ。"
+    ]
+   ]
+  ]
+ },
+ {
+  "script_line": 427,
+  "speaker": "th",
+  "en": "Well then. I said all that, but where did Louise run off to?",
+  "ru": [
+   [
+    "thoughs.rpy",
+    [
+     "Ну что ж. Хоть я и наговорил, а куда это Луиза подевалась?"
+    ]
+   ]
+  ],
+  "ja": [
+   [
+    "thoughs.rpy",
+    [
+     "（さあて、と。　ああは言ったものの、　ルイズのやつ、どこに行ったもんだか）"
+    ]
+   ]
+  ]
+ }
+]
