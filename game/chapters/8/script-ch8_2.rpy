@@ -435,7 +435,7 @@ label ch8_2:
     $ show_sprites(("k 1", "t 1"))
     # タバサ：右に同じ。  [voice 15811]
     voice "ch8_t_001"
-    t "Right side same. {#ch8_t_001}"
+    t "Same here. {#ch8_t_001}"
     # JA[15811]: 右に同じ。
     # [SPRITE lay6 hide] [LAYER lay0 hide]
     $ show_sprites()

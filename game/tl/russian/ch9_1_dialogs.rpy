@@ -247,7 +247,7 @@ translate russian strings:
     old "I wanted to thank and apologize to her, / but she's already left. {#ch9_h_025}"
     new "Я хотела поблагодарить её и извиниться, / но она уже ушла. Ничего не поделаешь."
 
-    old "And yet, I can't celebrate everyone's efforts, / which is the hardest part. {#ch9_h_026}"
+    old "And yet, I can't reward everyone for what they've done, / which pains me most of all. {#ch9_h_026}"
     new "И всё же самое горькое — то, что я не могу / вознаградить старания каждого."
 
     old "Of course it can't be helped. / Everyone knows it's a problem / if it becomes public. {#ch9_l_001}"

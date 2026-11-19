@@ -145,7 +145,7 @@ translate russian strings:
     new "Слава богу… Битва окончена… наконец."
 
     old "Ah… Louise, get some rest. Void takes a lot of mental energy, doesn't it?{#ch12_s_083}"
-    new "Аа… Луиза, отдохни. Пустота отнимает много сил, правда?"
+    new "Аа… Луиза, отдохни. Пустота отнимает много умственной энергии, правда?"
 
     old "Mm, I will. Phew… I'm a little… tired.{#ch12_l_076}"
     new "Мм, да. Фух… Я немножко… устала."
@@ -259,7 +259,7 @@ translate russian strings:
     new "Нет, дело не в этом. Акина по-прежнему слишком странная…"
 
     old "…Idiot! That's why Louise calls you a stupid dog.{#ch12_ak_065}"
-    new "…Непроницательный! Поэтому Луиза и зовёт тебя глупым пёсом."
+    new "…Бестолковый! Поэтому Луиза и зовёт тебя глупым пёсом."
 
     old "All right, listen…{#ch12_ak_066}"
     new "Ладно, слушай…"
@@ -292,7 +292,7 @@ translate russian strings:
     new "Харуна раньше говорила, что она юная леди. Может, это правда?"
 
     old "(Something's been off since a while ago…){#ch12_s_114}"
-    new "Что-то не так уже давно…"
+    new "Что-то не так с недавних пор…"
 
     old "(Ah, now that I think of it… Akina or Haruna…){#ch12_s_115}"
     new "А, кстати… Акина или Харуна…"

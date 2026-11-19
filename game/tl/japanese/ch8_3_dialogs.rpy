@@ -148,7 +148,7 @@ translate japanese strings:
     old "Wow. Just seeing the Princess is changing the mood of the city. {#ch8_s_093}"
     new "すごいな。 / お姫さまの姿を見ただけで、 / 城の連中の雰囲気が変わっていくよ。"
 
-    old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
+    old "That's what being a king is like. Making people think that with her around everything will be all right — that's part of the job. {#ch8_d_001}"
     new "王様ってなあそんなもんだよ。 / この人がいれば大丈夫って思させられるのも / 仕事ってもんだ。"
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
@@ -388,7 +388,7 @@ translate japanese strings:
     old "Yes. Leave it to me. {#ch8_l_067}"
     new "はい。 / お任せください。"
 
-    old "Come forth, here I am… Here I am. {#ch8_l_068}"
+    old "Come forth, you who are not here… be as though you were here. {#ch8_l_068}"
     new "出でよ、ここになきもの……ここにあるように。"
 
     old "Illusion!! {#ch8_l_069}"

@@ -56,7 +56,7 @@ translate russian strings:
     new "Нет, ничего особенного."
 
     old "Whoa, that's a phone! / Nostalgic… {#ch10_s_006}"
-    new "О, это же мобильник! / Знакомо…"
+    new "О, это же мобильник! / Ностальгия…"
 
     old "But the battery's dead. / I don't carry a charger around… / Besides, even with battery, there's no signal. {#ch10_h_014}"
     new "Но батарея разряжена. / Зарядку я с собой не таскаю… / Да и с батареей толку нет — связи нет."

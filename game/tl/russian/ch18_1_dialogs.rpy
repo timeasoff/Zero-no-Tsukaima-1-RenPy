@@ -301,7 +301,7 @@ translate russian strings:
     new "Н-Но это значит напасть на Харуну!"
 
     old "Everyone's lives are at stake. Get a grip!{#ch18_l_086}"
-    new "На кону жизни всех. Возьми себя в руки!"
+    new "На кону жизни всех. Наберись решимости!"
 
     old "If it comes to this, I'll do it! Let's go, Louise.{#ch18_s_119}"
     new "Раз так, я сделаю это! Идём, Луиза."
@@ -337,7 +337,7 @@ translate russian strings:
     new "Грр…"
 
     old "Watch a little longer. She might leave an opening.{#ch18_d_011}"
-    new "Понаблюдайте ещё. Возможно, она оставит лазейку."
+    new "Понаблюдайте ещё. Возможно, у неё появится уязвимое место."
 
     old "…Damn!{#ch18_s_124}"
     new "…Чёрт!"

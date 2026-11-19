@@ -121,7 +121,7 @@ translate russian strings:
     new "Чтоб такие жалкие твари, как вы, так запросто к ней прикасались — возмутительно!"
 
     old "Hmph, how interesting. However polite you act, in the end it's power that decides.{#ch12_ak_026}"
-    new "Хм, забавно. Как бы ты ни важничала, в конце концов решает сила."
+    new "Хм, забавно. Как бы ты ни изображала светскую даму, в конце концов решает сила."
 
     old "Now, come out!{#ch12_ak_027}"
     new "А ну, выходи!"

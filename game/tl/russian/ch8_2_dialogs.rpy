@@ -159,7 +159,7 @@ translate russian strings:
     old "If there's a way to fight, there's no reason not to. Being on the receiving end goes against my principles. {#ch8_k_006}"
     new "Если есть способ сражаться, нет причин его не использовать. Быть в обороне противоречит моим принципам."
 
-    old "Right side same. {#ch8_t_001}"
+    old "Same here. {#ch8_t_001}"
     new "Я тоже."
 
     old "Thank you. {#ch8_l_042}"

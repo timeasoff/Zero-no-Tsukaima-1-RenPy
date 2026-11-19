@@ -269,7 +269,7 @@ label ch7:
             # [lay5 +429 → s 3 sad]
             $ show_sprites(("l 1 angry", "s 3 sad"))
             voice "ch7_s_008"
-            s "It's because leaving it to you felt too risky.{#ch7_s_008}"
+            s "It's because leaving it to you made me uneasy.{#ch7_s_008}"
             # JA[13488]: ルイズに任せるのは不安だったからだろ。
             # [lay1 +306 → l 1 angry]
             voice "ch7_l_011"

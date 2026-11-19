@@ -91,7 +91,7 @@ translate russian strings:
     new "Согласна."
 
     old "(Still, Kirche calling me 'big brother' is kind of cute…){#ch14_s_124}"
-    new "И всё же Кирке, называющая меня «братишкой», — это мило…"
+    new "И всё же Кирке, которая так нежно называет меня «братишкой», — милая…"
 
     old "(Honestly, the usual Kirche is nice too, but this Kirche is…){#ch14_s_125}"
     new "Честно, обычная Кирке хороша, но эта Кирке…"

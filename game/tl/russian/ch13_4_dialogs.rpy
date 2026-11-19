@@ -178,7 +178,7 @@ translate russian strings:
     new "Т-Туда, где нельзя сказать…"
 
     old "Hiraga-kun's pervert!{#ch13_ha_010}"
-    new "Хирага-кун — извращенец!"
+    new "Хирага-кун — пошляк!"
 
     old "Eeeh. S-Sorry…{#ch13_s_162}"
     new "Ох. П-Прости…"

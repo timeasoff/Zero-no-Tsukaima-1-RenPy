@@ -244,7 +244,7 @@ translate russian strings:
     new "Спасибо. О взрывах, которые в последнее время происходят по всему городу…"
 
     old "I investigated them myself and arrived at a certain hypothesis.{#ch17_h_005}"
-    new "Я провела расследование сама и пришла к определённому выводу."
+    new "Я провела расследование сама и выдвинула определённую гипотезу."
 
     old "I wanted to explain it to everyone and have you judge it.{#ch17_h_006}"
     new "Я хотела объяснить её вам всем и услышать ваше суждение."

@@ -1296,7 +1296,7 @@ translate russian strings:
     new "Просто Кирхе подходила на эту роль."
 
     old "Because I felt uneasy leaving it to Louise.{#ch7_c377}"
-    new "Оставлять это Луизе было слишком рискованно."
+    new "Оставлять это Луизе было тревожно."
 
     old "Just… because.{#ch7_c378}"
     new "Просто так…"

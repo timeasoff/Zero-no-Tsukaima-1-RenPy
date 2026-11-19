@@ -17645,7 +17645,7 @@ translate japanese strings:
     old "What did you just say!?{#ch7_l_010}"
     new "なんですってえ！？"
 
-    old "It's because leaving it to you felt too risky.{#ch7_s_008}"
+    old "It's because leaving it to you made me uneasy.{#ch7_s_008}"
     new "ルイズに任せるのは不安だったからだろ。"
 
     old "What did you just say!?{#ch7_l_011}"
@@ -18347,7 +18347,7 @@ translate japanese strings:
     old "Settle down, Louise. You can surely imagine how lonely Siesta must have felt, can't you?{#ch7.3_k_001}"
     new "落ち着きなさい、ルイズ。　シエスタがどれだけ心細かったか、　分かるでしょ。"
 
-    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
+    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic, lovesick face that sets me off, that's all!{#ch7.3_l_005}"
     new "分かってるわよ。　いくらわたしでも、そこまで野暮じゃないわ。　あの馬鹿の情けないでれでれ顔が腹立つだけよ！"
 
     old "Jealousy.{#ch7.3_t_001}"

@@ -145,7 +145,7 @@ translate russian strings:
     old "Wow. Just seeing the Princess is changing the mood of the city. {#ch8_s_093}"
     new "Вау. Только вид Принцессы меняет настроение в городе."
 
-    old "Being a king means little to me. Having this person around means I can believe in them. {#ch8_d_001}"
+    old "That's what being a king is like. Making people think that with her around everything will be all right — that's part of the job. {#ch8_d_001}"
     new "Вот что значит быть королём: заставлять людей думать, что при ней всё будет хорошо, — тоже часть работы."
 
     old "Yes, sir. Small-scale combat has been occurring at the eastern cannon since morning. {#ch8_o_001}"
@@ -388,7 +388,7 @@ translate russian strings:
     old "Yes. Leave it to me. {#ch8_l_067}"
     new "Да. Оставь это мне."
 
-    old "Come forth, here I am… Here I am. {#ch8_l_068}"
+    old "Come forth, you who are not here… be as though you were here. {#ch8_l_068}"
     new "Явись, то, чего здесь нет… пусть будет здесь."
 
     old "Illusion!! {#ch8_l_069}"

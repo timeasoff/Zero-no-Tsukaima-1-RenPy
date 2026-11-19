@@ -201,7 +201,7 @@ label ch7_3:
             # [lay1 +339 → l 3 angry]
             $ show_sprites(("k 1 sad", "l 3 angry"))
             voice "ch7.3_l_005"
-            l "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
+            l "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic, lovesick face that sets me off, that's all!{#ch7.3_l_005}"
             # JA[7398]: 分かってるわよ。 / いくらわたしでも、そこまで野暮じゃないわ。 / あの馬鹿の情けないでれでれ顔が腹立つだけよ！
             # [lay6 hide]
             # [LAYER     lay0     image=+588, level=160, dir=1A] → t 1

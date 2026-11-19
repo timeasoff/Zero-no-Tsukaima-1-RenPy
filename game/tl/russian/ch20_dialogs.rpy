@@ -217,7 +217,7 @@ translate russian strings:
     new "Плохо. Пара слишком много, температура растёт. Как в сауне."
 
     old "Hmph, no need for sore-loser talk. Alone with me in the bath, washing my back and all…{#ch20_l_028}"
-    new "Хмп, не нужно оправдываться. Наедине со мной в ванной, да ещё и моешь мне спину…"
+    new "Хмп, хватит рассуждать как проигравшая. Наедине со мной в ванной, да ещё и моешь мне спину…"
 
     old "Not being able to see a thing is painful, isn't it? Frustrating, isn't it? Honestly, it's torture.{#ch20_l_029}"
     new "Ничего не видеть — мука, да? Досадно, да? По чести, это пытка."
@@ -313,7 +313,7 @@ translate russian strings:
     new "Труппу? Ты имеешь в виду труппу Уэзерби?"
 
     old "No. Someone from another troupe who saw that play liked me and scouted me.{#ch20_ha_005}"
-    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, меня полюбил — и завербовал."
+    new "Нет. Кто-то из другой труппы, кто смотрел тот спектакль, ей я приглянулась — и завербовала меня."
 
     old "Now's a good chance, so I was thinking of going along with that troupe.{#ch20_ha_006}"
     new "Сейчас как раз удобный случай, и я думаю присоединиться к этой труппе."
@@ -379,7 +379,7 @@ translate russian strings:
     new "Ну…"
 
     old "And yet you wander away from me during class, and ogle every girl you see.{#ch20_l_045}"
-    new "И при этом ты отлыниваешь от меня на уроках и пялишься на каждую девушку."
+    new "И при этом ты отходишь от меня и бродишь на уроках, пялясь на каждую девушку."
 
     old "And on top of that, you flirt with Siesta and Kirche behind my back! You have far too little awareness as a familiar!{#ch20_l_046}"
     new "А напоследок ещё и флиртуешь с Сиэстой и Кирке у меня за спиной! У тебя куда меньше сознания фамильяра, чем надо!"

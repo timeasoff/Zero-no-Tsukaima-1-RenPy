@@ -17457,7 +17457,7 @@ translate russian strings:
     old "What did you just say!?{#ch7_l_010}"
     new "Что ты сказала!?"
 
-    old "It's because leaving it to you felt too risky.{#ch7_s_008}"
+    old "It's because leaving it to you made me uneasy.{#ch7_s_008}"
     new "Так ведь оставлять это тебе было слишком рискованно."
 
     old "What did you just say!?{#ch7_l_011}"
@@ -18159,7 +18159,7 @@ translate russian strings:
     old "Settle down, Louise. You can surely imagine how lonely Siesta must have felt, can't you?{#ch7.3_k_001}"
     new "Успокойся, Луиза. Ты же понимаешь, как ей было страшно в одиночестве!"
 
-    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic teary grin that sets me off, that's all!{#ch7.3_l_005}"
+    old "I do understand. Even I wouldn't be so boorish as to say otherwise. It's that fool's pathetic, lovesick face that sets me off, that's all!{#ch7.3_l_005}"
     new "Я понимаю. Ну до такого я всё-таки не груба. Просто бесит его глупое жалкое влюблённо-томное лицо!"
 
     old "Jealousy.{#ch7.3_t_001}"

@@ -292,7 +292,7 @@ translate russian strings:
     new "Бедный дорогой — с такой свирепой госпожой, как Луиза."
 
     old "You know what Louise is like. She'll throw darling out of her room, skip his meals, and mistreat him.{#ch19_k_068}"
-    new "Ты знаешь Луизу. Выгонит дорогого из комнаты, лишит еды, будет обижать его."
+    new "Ты знаешь Луизу. Выгонит дорогого из комнаты, лишит еды, будет жестоко обращаться с ним."
 
     old "Ah, poor darling…{#ch19_k_069}"
     new "Ах, бедный дорогой…"

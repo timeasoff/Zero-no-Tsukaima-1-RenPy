@@ -5265,3 +5265,10 @@ omission pre-check → Analyzer-фаза 1 (blind) → аудитор A по к�
 - FIXED в рамках приёмки: 5 терминологических несоответствий (Везерли ×3, Вальер ×2, Мотсогнир) — после правок check_project/syntax OK.
 - Открытые: USER DECISION (W6 id-заглушки, недостижимые сцены ch13, defer extra/TNDL, omission voice 4601/4602 и 13655 и сцен 681–683); ??? (JA-текст в old ч8_3_thoughs, voice-id mismatch 929/930 и 11840/11841 и 3324/3327); pipeline cache не заполнен. Runtime/SDK lint НЕ запускались — не заявляются.
 - Отчёт: `reports/sma/ch6-21-final-acceptance.md`; статусы добавлены в отчёты всех 47 частей.
+
+## 2026-11-19 — Повторный независимый аудит A (лексическая точность), главы 6–21
+
+- Ветка `review/ch6-21`. По правилу повторного прохода: новые run_id `20261119-04*`, 16 запусков с начала диапазона, старые evidence не перезаписывались; A/B/C/Analyzer не читались. Проверен текст после всех предыдущих аудитов.
+- 37 находок (2 ERROR, 16 WARNING, 19 CANDIDATE); FIXED 21 (6 EN с синхронизацией old в JA/RU TL, 15 RU), остальные CANDIDATE/PRESERVED без косметических замен. Ключевые: EN «思わせられる»/«ここになきもの»/«右に同じ»/«功に報いる» (ch8–9), RU 不安/精神力/慕ってくれる/腹をくくる/隙/虐待/気に入って/負け惜しみ/フラフラ (ch7–20). Откат ошибочной style-правки ch17 «вывод» → «гипотеза» по JA 仮説.
+- RECHECK: check_renpy_syntax OK, check_project RESULT: OK errors=0, check_typography --lang ru 0 ошибок, UTF-8 без U+FFFD; JA new не менялся.
+- Отчёт: `reports/sma/ch6-21-a2-repeat.md`.
